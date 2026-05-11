@@ -5,6 +5,8 @@ import { useProgress } from './hooks/useProgress'
 import { useDailyStreak } from './hooks/useDailyStreak'
 import { useUnlocks } from './hooks/useUnlocks'
 import { useXP } from './hooks/useXP'
+import { useAchievements } from './hooks/useAchievements'
+import { useFlashcards } from './hooks/useFlashcards'
 import LoginScreen from './screens/LoginScreen'
 import HomeScreen from './screens/HomeScreen'
 import QuizScreen from './screens/QuizScreen'
@@ -12,6 +14,9 @@ import ResultsScreen from './screens/ResultsScreen'
 import PracticeTestScreen from './screens/PracticeTestScreen'
 import AnalyticsScreen from './screens/AnalyticsScreen'
 import DiagnosticResultsScreen from './screens/DiagnosticResultsScreen'
+import AchievementsScreen from './screens/AchievementsScreen'
+import AchievementToast from './components/AchievementToast'
+import FlashcardScreen from './screens/FlashcardScreen'
 
 export default function App() {
   const { user, signInWithGoogle, logOut } = useAuth()
@@ -19,6 +24,9 @@ export default function App() {
   const { streak, studiedToday, weekDays, markStudied } = useDailyStreak(user?.uid)
   const { isUnlocked, unlockHint, completedCount, totalTopics } = useUnlocks(history)
   const { xp, earnXP, spendXP } = useXP(user?.uid)
+  const { earnedIds, allAchievements, currentToast, dismissToast, recordPracticeTest, recordDiagnostic } =
+    useAchievements(user?.uid, { history, streak, xp })
+  const { knownIds, markKnown, markLearning, resetAll } = useFlashcards(user?.uid)
 
   const [screen, setScreen] = useState('home')
   const [questionSet, setQuestionSet] = useState([])
@@ -48,6 +56,7 @@ export default function App() {
     setDiagResult(result)
     setScreen('diagResults')
     markStudied()
+    recordDiagnostic()
     earnXP(result.results.filter((r) => r.correct).length * 10)
     // Save a per-topic breakdown entry for each topic so Analytics updates
     const byTopic = result.results.reduce((acc, r) => {
@@ -95,6 +104,8 @@ export default function App() {
           onStart={startQuiz}
           onPracticeTest={startPracticeTest}
           onAnalytics={() => setScreen('analytics')}
+          onAchievements={() => setScreen('achievements')}
+          onFlashcards={() => setScreen('flashcards')}
           user={user}
           onLogOut={logOut}
           history={history}
@@ -109,6 +120,8 @@ export default function App() {
           xp={xp}
           onBuyStreak={buyStreak}
           onDiagnostic={startDiagnostic}
+          earnedIds={earnedIds}
+          allAchievements={allAchievements}
         />
       )}
 
@@ -124,13 +137,33 @@ export default function App() {
         <PracticeTestScreen
           key={questionSet[0]?.id}
           questionSet={questionSet}
-          onDone={(result) => { markStudied(); earnXP((result?.correct ?? 0) * 10); startPracticeTest() }}
+          onDone={(result) => {
+            const pct = result?.total ? Math.round(((result?.correct ?? 0) / result.total) * 100) : 0
+            markStudied()
+            earnXP((result?.correct ?? 0) * 10)
+            recordPracticeTest(pct)
+            startPracticeTest()
+          }}
           onHome={goHome}
         />
       )}
 
       {screen === 'analytics' && (
         <AnalyticsScreen history={history} streak={streak} onHome={goHome} />
+      )}
+
+      {screen === 'achievements' && (
+        <AchievementsScreen allAchievements={allAchievements} earnedIds={earnedIds} onHome={goHome} />
+      )}
+
+      {screen === 'flashcards' && (
+        <FlashcardScreen
+          onHome={goHome}
+          knownIds={knownIds}
+          markKnown={markKnown}
+          markLearning={markLearning}
+          resetAll={resetAll}
+        />
       )}
 
       {screen === 'diagnostic' && questionSet.length > 0 && (
@@ -145,6 +178,8 @@ export default function App() {
           onHome={goHome}
         />
       )}
+
+      {currentToast && <AchievementToast achievement={currentToast} onDismiss={dismissToast} />}
     </div>
   )
 }

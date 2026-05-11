@@ -1,14 +1,17 @@
 import { TOPICS, TOPIC_ICONS, questions } from '../data/questions'
 
 export default function HomeScreen({
-  onStart, onPracticeTest, onAnalytics, onDiagnostic,
+  onStart, onPracticeTest, onAnalytics, onDiagnostic, onAchievements, onFlashcards,
   user, onLogOut, history, streak, studiedToday, weekDays,
   masteryPct, isUnlocked, unlockHint,
   completedCount, totalTopics,
   xp, onBuyStreak,
+  earnedIds, allAchievements,
 }) {
   const allTopics = Object.values(TOPICS)
   const bestPct = history.length ? Math.max(...history.map((h) => h.pct)) : null
+  const earnedCount = earnedIds?.size ?? 0
+  const totalAch = allAchievements?.length ?? 0
 
   function MasteryBadge({ topic }) {
     const pct = masteryPct(topic)
@@ -128,6 +131,15 @@ export default function HomeScreen({
         <button className="quick-analytics" onClick={onAnalytics}>
           <span className="quick-icon">📊</span>
           <p className="quick-name">Analytics</p>
+        </button>
+        <button className="quick-achievements" onClick={onAchievements}>
+          <span className="quick-icon">🏅</span>
+          <p className="quick-name">Badges</p>
+          <p className="quick-sub">{earnedCount} / {totalAch}</p>
+        </button>
+        <button className="quick-flashcards" onClick={onFlashcards}>
+          <span className="quick-icon">🃏</span>
+          <p className="quick-name">Flashcards</p>
         </button>
       </div>
 
