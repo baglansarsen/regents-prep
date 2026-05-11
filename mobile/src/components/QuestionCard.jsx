@@ -1,6 +1,8 @@
 import { useRef, useEffect } from 'react'
 import { View, Text, TouchableOpacity, Animated, StyleSheet } from 'react-native'
 import { C } from '../theme'
+import PunnettSquare from './diagrams/PunnettSquare'
+import FoodWeb from './diagrams/FoodWeb'
 
 const LABELS = ['A', 'B', 'C', 'D']
 
@@ -43,6 +45,13 @@ export default function QuestionCard({ question, selected, phase, onAnswer }) {
         </View>
 
         <Text style={s.questionText}>{question.text}</Text>
+
+        {question.diagram?.type === 'punnett' && (
+          <PunnettSquare alleles={question.diagram.alleles} title={question.diagram.title} />
+        )}
+        {question.diagram?.type === 'foodweb' && (
+          <FoodWeb />
+        )}
 
         <View style={s.choices}>
           {question.choices.map((text, i) => (
