@@ -14,7 +14,7 @@ import AnalyticsScreen from './screens/AnalyticsScreen'
 export default function App() {
   const { user, signInWithGoogle, logOut } = useAuth()
   const { history, saveResult, masteryPct } = useProgress(user?.uid)
-  const { streak, markStudied } = useDailyStreak()
+  const { streak, studiedToday, weekDays, markStudied } = useDailyStreak(user?.uid)
   const { isUnlocked, unlockHint, completedCount, totalTopics } = useUnlocks(history)
 
   const [screen, setScreen] = useState('home')
@@ -65,6 +65,8 @@ export default function App() {
           onLogOut={logOut}
           history={history}
           streak={streak}
+          studiedToday={studiedToday}
+          weekDays={weekDays}
           masteryPct={masteryPct}
           isUnlocked={isUnlocked}
           unlockHint={unlockHint}

@@ -2,7 +2,7 @@ import { TOPICS, TOPIC_ICONS, questions } from '../data/questions'
 
 export default function HomeScreen({
   onStart, onPracticeTest, onAnalytics,
-  user, onLogOut, history, streak,
+  user, onLogOut, history, streak, studiedToday, weekDays,
   masteryPct, isUnlocked, unlockHint,
   completedCount, totalTopics,
 }) {
@@ -26,7 +26,6 @@ export default function HomeScreen({
         <div className="user-bar">
           {user.photoURL && <img className="user-avatar" src={user.photoURL} alt="" referrerPolicy="no-referrer" />}
           <span className="user-name">{user.displayName}</span>
-          {streak > 0 && <span className="streak-badge">🔥 {streak}</span>}
           <button className="btn-ghost logout-btn" onClick={onLogOut}>Sign out</button>
         </div>
 
@@ -51,6 +50,27 @@ export default function HomeScreen({
           </div>
         )}
       </header>
+
+      {/* Streak card */}
+      <div className={`streak-card ${studiedToday ? 'streak-card--done' : ''}`}>
+        <div className="streak-card-left">
+          <span className="streak-card-flame">🔥</span>
+          <div>
+            <p className="streak-card-count">{streak} day{streak !== 1 ? 's' : ''}</p>
+            <p className="streak-card-status">
+              {studiedToday ? 'Studied today ✓' : streak > 0 ? 'Study today to keep your streak!' : 'Start your streak today!'}
+            </p>
+          </div>
+        </div>
+        <div className="streak-week">
+          {weekDays.map(({ date, dayLabel, studied, isToday }) => (
+            <div key={date} className="streak-day">
+              <div className={`streak-dot ${studied ? 'streak-dot--studied' : ''} ${isToday ? 'streak-dot--today' : ''}`} />
+              <span className={`streak-day-label ${isToday ? 'streak-day-label--today' : ''}`}>{dayLabel}</span>
+            </div>
+          ))}
+        </div>
+      </div>
 
       {/* Progress path */}
       <div className="unlock-path">
