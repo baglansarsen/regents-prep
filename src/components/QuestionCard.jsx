@@ -35,16 +35,22 @@ export default function QuestionCard({ question, selected, phase, onAnswer }) {
         ))}
       </div>
 
-      {phase === 'feedback' && (
-        <div className={`feedback-banner ${selected === question.correct ? 'feedback-banner--correct' : 'feedback-banner--wrong'}`}>
-          {selected === 'timeout' ? (
-            <span>⏰ Time's up! </span>
-          ) : selected === question.correct ? (
-            <span>✓ Correct! </span>
-          ) : (
-            <span>✗ Not quite. </span>
-          )}
-          <span className="feedback-explanation">{question.explanation}</span>
+      {phase === 'feedback' && selected === question.correct && (
+        <div className="feedback-banner feedback-banner--correct">
+          ✓ Correct!
+        </div>
+      )}
+
+      {phase === 'feedback' && selected !== question.correct && (
+        <div className="feedback-banner feedback-banner--wrong">
+          <p className="feedback-wrong-header">
+            {selected === 'timeout' ? '⏰ Time\'s up!' : '✗ Not quite.'}
+          </p>
+          <p className="feedback-correct-line">
+            Correct answer:&nbsp;
+            <strong>{LABELS[question.correct]}. {question.choices[question.correct]}</strong>
+          </p>
+          <p className="feedback-explanation">{question.explanation}</p>
         </div>
       )}
     </div>
