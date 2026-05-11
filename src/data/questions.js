@@ -85,6 +85,7 @@ export const questions = [
     choices: ['25%', '50%', '75%', '100%'],
     correct: 1,
     explanation: 'A Yy × yy cross produces 50% Yy (yellow) and 50% yy (green) offspring.',
+    diagram: { type: 'punnett', alleles: { parent1: ['Y', 'y'], parent2: ['y', 'y'] }, title: 'Yy × yy Cross' },
   },
   {
     id: 8,
@@ -197,6 +198,7 @@ export const questions = [
     choices: ['10% efficient', '50% efficient', '90% efficient', '100% efficient'],
     correct: 0,
     explanation: 'Only about 10% of energy is passed from one trophic level to the next — the rest is lost as heat during metabolism.',
+    diagram: { type: 'foodweb' },
   },
 
   // ── Human Body Systems ──────────────────────────────────────────────────────

@@ -19,7 +19,13 @@ export function useProgress(uid) {
     loadHistory(uid).then(setHistory)
   }
 
-  return { history, saveResult }
+  function masteryPct(topic) {
+    const relevant = history.filter((h) => topic ? h.topic === topic : true)
+    if (!relevant.length) return null
+    return Math.max(...relevant.map((h) => h.pct))
+  }
+
+  return { history, saveResult, masteryPct }
 }
 
 async function loadHistory(uid) {

@@ -1,3 +1,6 @@
+import PunnettSquare from './diagrams/PunnettSquare'
+import FoodWeb from './diagrams/FoodWeb'
+
 const LABELS = ['A', 'B', 'C', 'D']
 
 export default function QuestionCard({ question, selected, phase, onAnswer }) {
@@ -12,6 +15,11 @@ export default function QuestionCard({ question, selected, phase, onAnswer }) {
     <div className="question-card">
       <p className="question-topic-tag">{question.topic}</p>
       <p className="question-text">{question.text}</p>
+
+      {question.diagram?.type === 'punnett' && (
+        <PunnettSquare alleles={question.diagram.alleles} title={question.diagram.title} />
+      )}
+      {question.diagram?.type === 'foodweb' && <FoodWeb />}
 
       <div className="choices">
         {question.choices.map((text, i) => (
