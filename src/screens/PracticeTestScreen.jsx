@@ -108,7 +108,7 @@ function ReviewScreen({ questions, answers, correct, total, score, grade, onDone
       </div>
 
       <div className="results-actions">
-        <button className="btn-primary" onClick={onDone}>Try Again</button>
+        <button className="btn-primary" onClick={() => onDone({ correct, total })}>Try Again</button>
         <button className="btn-secondary" onClick={onHome}>Home</button>
       </div>
     </div>

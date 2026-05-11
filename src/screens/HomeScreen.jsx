@@ -5,6 +5,7 @@ export default function HomeScreen({
   user, onLogOut, history, streak, studiedToday, weekDays,
   masteryPct, isUnlocked, unlockHint,
   completedCount, totalTopics,
+  xp, onBuyStreak,
 }) {
   const allTopics = Object.values(TOPICS)
   const bestPct = history.length ? Math.max(...history.map((h) => h.pct)) : null
@@ -53,15 +54,19 @@ export default function HomeScreen({
 
       {/* Streak card */}
       <div className={`streak-card ${studiedToday ? 'streak-card--done' : ''}`}>
-        <div className="streak-card-left">
-          <span className="streak-card-flame">🔥</span>
-          <div>
-            <p className="streak-card-count">{streak} day{streak !== 1 ? 's' : ''}</p>
-            <p className="streak-card-status">
-              {studiedToday ? 'Studied today ✓' : streak > 0 ? 'Study today to keep your streak!' : 'Start your streak today!'}
-            </p>
+        <div className="streak-card-top">
+          <div className="streak-card-left">
+            <span className="streak-card-flame">🔥</span>
+            <div>
+              <p className="streak-card-count">{streak} day{streak !== 1 ? 's' : ''}</p>
+              <p className="streak-card-status">
+                {studiedToday ? 'Studied today ✓' : streak > 0 ? 'Study today to keep your streak!' : 'Start your streak today!'}
+              </p>
+            </div>
           </div>
+          <span className="xp-badge">💫 {xp.toLocaleString()} XP</span>
         </div>
+
         <div className="streak-week">
           {weekDays.map(({ date, dayLabel, studied, isToday }) => (
             <div key={date} className="streak-day">
@@ -70,6 +75,17 @@ export default function HomeScreen({
             </div>
           ))}
         </div>
+
+        {!studiedToday && (
+          <button
+            className={`buy-streak-btn ${xp < 100 ? 'buy-streak-btn--disabled' : ''}`}
+            onClick={onBuyStreak}
+            disabled={xp < 100}
+          >
+            🔁 Buy streak day · <strong>100 XP</strong>
+            {xp < 100 && <span className="buy-streak-hint"> (need {100 - xp} more XP)</span>}
+          </button>
+        )}
       </div>
 
       {/* Progress path */}

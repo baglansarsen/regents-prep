@@ -4,6 +4,7 @@ import { useAuth } from './hooks/useAuth'
 import { useProgress } from './hooks/useProgress'
 import { useDailyStreak } from './hooks/useDailyStreak'
 import { useUnlocks } from './hooks/useUnlocks'
+import { useXP } from './hooks/useXP'
 import LoginScreen from './screens/LoginScreen'
 import HomeScreen from './screens/HomeScreen'
 import QuizScreen from './screens/QuizScreen'
@@ -16,6 +17,7 @@ export default function App() {
   const { history, saveResult, masteryPct } = useProgress(user?.uid)
   const { streak, studiedToday, weekDays, markStudied } = useDailyStreak(user?.uid)
   const { isUnlocked, unlockHint, completedCount, totalTopics } = useUnlocks(history)
+  const { xp, earnXP, spendXP } = useXP(user?.uid)
 
   const [screen, setScreen] = useState('home')
   const [questionSet, setQuestionSet] = useState([])
@@ -41,7 +43,13 @@ export default function App() {
     const pct = Math.round((correct / result.total) * 100)
     saveResult({ topic: activeTopic, score: result.score, total: result.total, correct, pct })
     markStudied()
-  }, [activeTopic, saveResult, markStudied])
+    earnXP(correct * 10)
+  }, [activeTopic, saveResult, markStudied, earnXP])
+
+  const buyStreak = useCallback(async () => {
+    const ok = await spendXP(100)
+    if (ok) markStudied()
+  }, [spendXP, markStudied])
 
   const retry  = useCallback(() => startQuiz(activeTopic), [activeTopic, startQuiz])
   const goHome = useCallback(() => { setScreen('home'); setQuizResult(null) }, [])
@@ -72,6 +80,8 @@ export default function App() {
           unlockHint={unlockHint}
           completedCount={completedCount}
           totalTopics={totalTopics}
+          xp={xp}
+          onBuyStreak={buyStreak}
         />
       )}
 
@@ -87,7 +97,7 @@ export default function App() {
         <PracticeTestScreen
           key={questionSet[0]?.id}
           questionSet={questionSet}
-          onDone={() => { markStudied(); startPracticeTest() }}
+          onDone={(result) => { markStudied(); earnXP((result?.correct ?? 0) * 10); startPracticeTest() }}
           onHome={goHome}
         />
       )}

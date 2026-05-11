@@ -670,9 +670,8 @@ html, body {
 /* ── Streak Card ──────────────────────────────────────────────────────────── */
 .streak-card {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
+  flex-direction: column;
+  gap: 14px;
   background: var(--surface);
   border: 1px solid var(--surface2);
   border-radius: var(--radius);
@@ -685,11 +684,52 @@ html, body {
   background: rgba(245,158,11,.06);
 }
 
+.streak-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .streak-card-left {
   display: flex;
   align-items: center;
   gap: 12px;
   flex-shrink: 0;
+}
+
+.xp-badge {
+  font-size: .8rem;
+  font-weight: 700;
+  color: #a78bfa;
+  background: rgba(167,139,250,.12);
+  border: 1px solid rgba(167,139,250,.3);
+  border-radius: 99px;
+  padding: 4px 12px;
+}
+
+.buy-streak-btn {
+  width: 100%;
+  background: rgba(167,139,250,.1);
+  border: 1px dashed rgba(167,139,250,.5);
+  border-radius: 10px;
+  color: #c4b5fd;
+  font-size: .85rem;
+  padding: 10px 14px;
+  cursor: pointer;
+  transition: background .15s, border-color .15s;
+  text-align: center;
+}
+.buy-streak-btn:hover:not(:disabled) {
+  background: rgba(167,139,250,.2);
+  border-color: #a78bfa;
+}
+.buy-streak-btn--disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+.buy-streak-hint {
+  font-size: .75rem;
+  opacity: .7;
 }
 
 .streak-card-flame { font-size: 1.8rem; }
