@@ -638,6 +638,104 @@ html, body {
   padding: 8px 12px;
 }
 
+/* ── Unlock Path ──────────────────────────────────────────────────────────── */
+.unlock-path {
+  background: var(--surface);
+  border: 1px solid var(--surface2);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin-bottom: 16px;
+}
+
+.unlock-path-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.unlock-path-label {
+  font-size: .7rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+
+.unlock-path-count {
+  font-size: .75rem;
+  color: var(--brand-light);
+  font-weight: 600;
+}
+
+.unlock-path-track {
+  display: flex;
+  align-items: center;
+}
+
+.unlock-step {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.unlock-step:last-child { flex: none; }
+
+.unlock-node {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .8rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  border: 2px solid;
+  transition: background .2s, border-color .2s;
+}
+.unlock-node--passed {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #fff;
+}
+.unlock-node--open {
+  background: rgba(22,163,74,.15);
+  border-color: var(--brand);
+  color: var(--brand-light);
+}
+.unlock-node--locked {
+  background: var(--surface2);
+  border-color: var(--surface2);
+  color: var(--text-muted);
+  font-size: .9rem;
+}
+
+.unlock-connector {
+  flex: 1;
+  height: 2px;
+  background: var(--surface2);
+  transition: background .3s;
+}
+.unlock-connector--passed { background: var(--brand); }
+
+/* ── Locked Topic Card ────────────────────────────────────────────────────── */
+.topic-card--locked {
+  opacity: .55;
+  cursor: not-allowed;
+  filter: grayscale(.4);
+}
+.topic-card--locked:hover {
+  border-color: var(--surface2) !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.topic-locked-hint {
+  font-size: .72rem;
+  color: var(--text-muted);
+  line-height: 1.3;
+}
+
 /* ── Quick Actions ────────────────────────────────────────────────────────── */
 .quick-actions {
   display: flex;

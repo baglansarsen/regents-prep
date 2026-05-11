@@ -1,8 +1,12 @@
 import { TOPICS, TOPIC_ICONS, questions } from '../data/questions'
 
-export default function HomeScreen({ onStart, onPracticeTest, onAnalytics, user, onLogOut, history, streak, masteryPct }) {
+export default function HomeScreen({
+  onStart, onPracticeTest, onAnalytics,
+  user, onLogOut, history, streak,
+  masteryPct, isUnlocked, unlockHint,
+  completedCount, totalTopics,
+}) {
   const allTopics = Object.values(TOPICS)
-
   const bestPct = history.length ? Math.max(...history.map((h) => h.pct)) : null
 
   function MasteryBadge({ topic }) {
@@ -22,9 +26,7 @@ export default function HomeScreen({ onStart, onPracticeTest, onAnalytics, user,
         <div className="user-bar">
           {user.photoURL && <img className="user-avatar" src={user.photoURL} alt="" referrerPolicy="no-referrer" />}
           <span className="user-name">{user.displayName}</span>
-          {streak > 0 && (
-            <span className="streak-badge">🔥 {streak}</span>
-          )}
+          {streak > 0 && <span className="streak-badge">🔥 {streak}</span>}
           <button className="btn-ghost logout-btn" onClick={onLogOut}>Sign out</button>
         </div>
 
@@ -50,6 +52,30 @@ export default function HomeScreen({ onStart, onPracticeTest, onAnalytics, user,
         )}
       </header>
 
+      {/* Progress path */}
+      <div className="unlock-path">
+        <div className="unlock-path-header">
+          <span className="unlock-path-label">YOUR PROGRESS</span>
+          <span className="unlock-path-count">{completedCount} / {totalTopics} topics passed</span>
+        </div>
+        <div className="unlock-path-track">
+          {allTopics.map((topic, i) => {
+            const unlocked = isUnlocked(topic)
+            const passed   = masteryPct(topic) !== null && masteryPct(topic) >= 65
+            return (
+              <div key={topic} className="unlock-step">
+                <div className={`unlock-node ${passed ? 'unlock-node--passed' : unlocked ? 'unlock-node--open' : 'unlock-node--locked'}`}>
+                  {passed ? '✓' : unlocked ? i + 1 : '🔒'}
+                </div>
+                {i < allTopics.length - 1 && (
+                  <div className={`unlock-connector ${passed ? 'unlock-connector--passed' : ''}`} />
+                )}
+              </div>
+            )
+          })}
+        </div>
+      </div>
+
       <div className="quick-actions">
         <button className="quick-practice" onClick={onPracticeTest}>
           <span className="quick-icon">📝</span>
@@ -73,15 +99,26 @@ export default function HomeScreen({ onStart, onPracticeTest, onAnalytics, user,
         </button>
 
         {allTopics.map((topic) => {
-          const count = questions.filter((q) => q.topic === topic).length
+          const count    = questions.filter((q) => q.topic === topic).length
+          const unlocked = isUnlocked(topic)
+          const hint     = unlockHint(topic)
+
           return (
-            <button key={topic} className="topic-card" onClick={() => onStart(topic)}>
+            <button
+              key={topic}
+              className={`topic-card ${!unlocked ? 'topic-card--locked' : ''}`}
+              onClick={() => unlocked && onStart(topic)}
+              disabled={!unlocked}
+            >
               <div className="topic-card-header">
-                <span className="topic-icon">{TOPIC_ICONS[topic]}</span>
-                <MasteryBadge topic={topic} />
+                <span className="topic-icon">{unlocked ? TOPIC_ICONS[topic] : '🔒'}</span>
+                {unlocked && <MasteryBadge topic={topic} />}
               </div>
               <span className="topic-name">{topic}</span>
-              <span className="topic-count">{count} questions</span>
+              {unlocked
+                ? <span className="topic-count">{count} questions</span>
+                : <span className="topic-locked-hint">{hint}</span>
+              }
             </button>
           )
         })}

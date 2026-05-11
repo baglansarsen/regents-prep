@@ -3,6 +3,7 @@ import { questions, getByTopic, shuffled } from './data/questions'
 import { useAuth } from './hooks/useAuth'
 import { useProgress } from './hooks/useProgress'
 import { useDailyStreak } from './hooks/useDailyStreak'
+import { useUnlocks } from './hooks/useUnlocks'
 import LoginScreen from './screens/LoginScreen'
 import HomeScreen from './screens/HomeScreen'
 import QuizScreen from './screens/QuizScreen'
@@ -14,6 +15,7 @@ export default function App() {
   const { user, signInWithGoogle, logOut } = useAuth()
   const { history, saveResult, masteryPct } = useProgress(user?.uid)
   const { streak, markStudied } = useDailyStreak()
+  const { isUnlocked, unlockHint, completedCount, totalTopics } = useUnlocks(history)
 
   const [screen, setScreen] = useState('home')
   const [questionSet, setQuestionSet] = useState([])
@@ -64,6 +66,10 @@ export default function App() {
           history={history}
           streak={streak}
           masteryPct={masteryPct}
+          isUnlocked={isUnlocked}
+          unlockHint={unlockHint}
+          completedCount={completedCount}
+          totalTopics={totalTopics}
         />
       )}
 
