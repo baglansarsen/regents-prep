@@ -556,3 +556,11 @@ export function getByTopic(topic) {
 export function shuffled(arr) {
   return [...arr].sort(() => Math.random() - 0.5)
 }
+
+export const QUESTIONS_PER_DIAGNOSTIC_TOPIC = 3
+
+export function buildDiagnosticSet() {
+  return Object.values(TOPICS).flatMap((topic) =>
+    shuffled(getByTopic(topic)).slice(0, QUESTIONS_PER_DIAGNOSTIC_TOPIC)
+  )
+}

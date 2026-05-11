@@ -1,7 +1,7 @@
 import { TOPICS, TOPIC_ICONS, questions } from '../data/questions'
 
 export default function HomeScreen({
-  onStart, onPracticeTest, onAnalytics,
+  onStart, onPracticeTest, onAnalytics, onDiagnostic,
   user, onLogOut, history, streak, studiedToday, weekDays,
   masteryPct, isUnlocked, unlockHint,
   completedCount, totalTopics,
@@ -119,6 +119,11 @@ export default function HomeScreen({
             <p className="quick-name">Practice Test</p>
             <p className="quick-sub">{questions.length} questions · timed</p>
           </div>
+        </button>
+        <button className="quick-diagnostic" onClick={onDiagnostic}>
+          <span className="quick-icon">🔍</span>
+          <p className="quick-name">Diagnostic</p>
+          <p className="quick-sub">18 questions</p>
         </button>
         <button className="quick-analytics" onClick={onAnalytics}>
           <span className="quick-icon">📊</span>

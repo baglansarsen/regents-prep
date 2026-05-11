@@ -886,6 +886,24 @@ html, body {
   margin-bottom: 16px;
 }
 
+.quick-diagnostic {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  background: #1e1b4b;
+  border: 1px solid #3730a3;
+  border-radius: var(--radius);
+  padding: 14px 10px;
+  cursor: pointer;
+  color: var(--text);
+  transition: border-color .15s, transform .1s;
+  text-align: center;
+}
+.quick-diagnostic:hover { border-color: #6366f1; transform: translateY(-1px); }
+
 .quick-practice {
   flex: 2;
   display: flex;
@@ -1214,6 +1232,140 @@ html, body {
 .foodweb-label--highlight { color: var(--brand-light); }
 .foodweb-examples { font-size: .72rem; color: var(--text-muted); margin-top: 1px; }
 .foodweb-arrow { font-size: .75rem; color: var(--text-muted); padding: 2px 0; }
+
+/* ── Diagnostic Results ───────────────────────────────────────────────────── */
+.diag-results {
+  padding-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.diag-hero {
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--surface2);
+  border-radius: var(--radius);
+  padding: 28px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.diag-hero-emoji { font-size: 2.8rem; }
+.diag-hero-label { font-size: 1.5rem; font-weight: 800; margin: 0; }
+.diag-hero-score { font-size: 1rem; color: var(--text-muted); }
+.diag-hero-sub   { font-size: .75rem; color: var(--text-muted); margin-top: 2px; }
+
+.diag-section { display: flex; flex-direction: column; gap: 10px; }
+
+.diag-section-label {
+  font-size: .75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: .07em;
+}
+
+.diag-weak-list { display: flex; flex-direction: column; gap: 10px; }
+
+.diag-weak-card {
+  background: rgba(239,68,68,.06);
+  border: 1px solid rgba(239,68,68,.35);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.diag-weak-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.diag-topic-icon { font-size: 1.4rem; flex-shrink: 0; }
+
+.diag-weak-info { flex: 1; }
+.diag-topic-name  { font-size: .95rem; font-weight: 700; }
+.diag-topic-score { font-size: .78rem; color: var(--text-muted); margin-top: 2px; }
+
+.diag-bar-wrap { width: 80px; flex-shrink: 0; }
+.diag-bar-track {
+  height: 7px;
+  background: var(--surface2);
+  border-radius: 99px;
+  overflow: hidden;
+}
+.diag-bar-fill {
+  height: 100%;
+  border-radius: 99px;
+  transition: width .5s ease;
+}
+.diag-bar-fill--weak    { background: #ef4444; }
+.diag-bar-fill--passing { background: #f59e0b; }
+.diag-bar-fill--strong  { background: #22c55e; }
+
+.diag-practice-btn {
+  background: var(--brand);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: .88rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+  transition: background .15s;
+}
+.diag-practice-btn:hover { background: var(--brand-light); }
+
+.diag-breakdown { display: flex; flex-direction: column; gap: 10px; }
+
+.diag-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.diag-row-icon { font-size: 1.1rem; width: 26px; flex-shrink: 0; }
+.diag-row-name {
+  font-size: .82rem;
+  color: var(--text-muted);
+  width: 150px;
+  flex-shrink: 0;
+}
+.diag-row-bar-track {
+  flex: 1;
+  height: 7px;
+  background: var(--surface2);
+  border-radius: 99px;
+  overflow: hidden;
+}
+.diag-row-bar-fill {
+  height: 100%;
+  border-radius: 99px;
+  transition: width .5s ease;
+}
+.diag-row-pct {
+  font-size: .82rem;
+  font-weight: 700;
+  width: 36px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.diag-legend {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: .72rem;
+}
+.diag-legend-item     { color: var(--text-muted); }
+.diag-legend--strong  { color: #22c55e; }
+.diag-legend--passing { color: #f59e0b; }
+.diag-legend--weak    { color: #ef4444; }
 
 /* ── Responsive ───────────────────────────────────────────────────────────── */
 @media (max-width: 480px) {

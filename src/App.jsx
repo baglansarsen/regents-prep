@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import { questions, getByTopic, shuffled } from './data/questions'
+import { questions, getByTopic, shuffled, buildDiagnosticSet } from './data/questions'
 import { useAuth } from './hooks/useAuth'
 import { useProgress } from './hooks/useProgress'
 import { useDailyStreak } from './hooks/useDailyStreak'
@@ -11,6 +11,7 @@ import QuizScreen from './screens/QuizScreen'
 import ResultsScreen from './screens/ResultsScreen'
 import PracticeTestScreen from './screens/PracticeTestScreen'
 import AnalyticsScreen from './screens/AnalyticsScreen'
+import DiagnosticResultsScreen from './screens/DiagnosticResultsScreen'
 
 export default function App() {
   const { user, signInWithGoogle, logOut } = useAuth()
@@ -23,6 +24,7 @@ export default function App() {
   const [questionSet, setQuestionSet] = useState([])
   const [quizResult, setQuizResult] = useState(null)
   const [activeTopic, setActiveTopic] = useState(null)
+  const [diagResult, setDiagResult] = useState(null)
 
   const startQuiz = useCallback((topic) => {
     const pool = topic ? getByTopic(topic) : questions
@@ -35,6 +37,30 @@ export default function App() {
     setQuestionSet(shuffled(questions))
     setScreen('practiceTest')
   }, [])
+
+  const startDiagnostic = useCallback(() => {
+    setQuestionSet(buildDiagnosticSet())
+    setActiveTopic('__diagnostic__')
+    setScreen('diagnostic')
+  }, [])
+
+  const finishDiagnostic = useCallback((result) => {
+    setDiagResult(result)
+    setScreen('diagResults')
+    markStudied()
+    earnXP(result.results.filter((r) => r.correct).length * 10)
+    // Save a per-topic breakdown entry for each topic so Analytics updates
+    const byTopic = result.results.reduce((acc, r) => {
+      const t = r.question.topic
+      if (!acc[t]) acc[t] = { correct: 0, total: 0 }
+      acc[t].total++
+      if (r.correct) acc[t].correct++
+      return acc
+    }, {})
+    Object.entries(byTopic).forEach(([topic, d]) => {
+      saveResult({ topic, score: 0, total: d.total, correct: d.correct, pct: Math.round((d.correct / d.total) * 100) })
+    })
+  }, [markStudied, earnXP, saveResult])
 
   const finishQuiz = useCallback((result) => {
     setQuizResult(result)
@@ -52,7 +78,7 @@ export default function App() {
   }, [spendXP, markStudied])
 
   const retry  = useCallback(() => startQuiz(activeTopic), [activeTopic, startQuiz])
-  const goHome = useCallback(() => { setScreen('home'); setQuizResult(null) }, [])
+  const goHome = useCallback(() => { setScreen('home'); setQuizResult(null); setDiagResult(null) }, [])
 
   if (user === undefined) {
     return <div className="app-shell loading-shell"><span className="loading-dot" /></div>
@@ -82,6 +108,7 @@ export default function App() {
           totalTopics={totalTopics}
           xp={xp}
           onBuyStreak={buyStreak}
+          onDiagnostic={startDiagnostic}
         />
       )}
 
@@ -104,6 +131,19 @@ export default function App() {
 
       {screen === 'analytics' && (
         <AnalyticsScreen history={history} streak={streak} onHome={goHome} />
+      )}
+
+      {screen === 'diagnostic' && questionSet.length > 0 && (
+        <QuizScreen key={questionSet[0]?.id} questionSet={questionSet} onDone={finishDiagnostic} onHome={goHome} />
+      )}
+
+      {screen === 'diagResults' && diagResult && (
+        <DiagnosticResultsScreen
+          results={diagResult.results}
+          onPractice={(topic) => { setDiagResult(null); startQuiz(topic) }}
+          onRetake={startDiagnostic}
+          onHome={goHome}
+        />
       )}
     </div>
   )
