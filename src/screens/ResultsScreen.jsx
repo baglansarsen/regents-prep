@@ -1,8 +1,13 @@
+import { useState } from 'react'
 import { TOPIC_ICONS } from '../data/questions'
+
+const LABELS = ['A', 'B', 'C', 'D']
 
 export default function ResultsScreen({ score, bestStreak, results, total, onRetry, onHome }) {
   const correct = results.filter((r) => r.correct).length
   const pct = Math.round((correct / total) * 100)
+
+  const [reviewOpen, setReviewOpen] = useState(false)
 
   const grade =
     pct >= 85 ? { label: 'Mastery', color: '#22c55e', emoji: '🏆' }
@@ -51,6 +56,40 @@ export default function ResultsScreen({ score, bestStreak, results, total, onRet
             </div>
           )
         })}
+      </div>
+
+      <div className="review-section">
+        <button className="review-toggle" onClick={() => setReviewOpen((o) => !o)}>
+          {reviewOpen ? '▲ Hide Review' : '▼ Review Answers'}
+          <span className="review-toggle-sub">{correct}/{total} correct</span>
+        </button>
+
+        {reviewOpen && (
+          <div className="review-list">
+            {results.map((r, i) => {
+              const q = r.question
+              const timedOut = r.chosen === null
+              return (
+                <div key={i} className={`review-item ${r.correct ? 'review-item--correct' : 'review-item--wrong'}`}>
+                  <div className="review-item-header">
+                    <span className="review-num">Q{i + 1}</span>
+                    <span className="review-status">{r.correct ? '✓ Correct' : timedOut ? '⏰ Time out' : '✗ Wrong'}</span>
+                  </div>
+                  <p className="review-question">{q.text}</p>
+                  {!r.correct && !timedOut && (
+                    <p className="review-your-answer">
+                      Your answer: <span className="review-wrong-text">{LABELS[r.chosen]}. {q.choices[r.chosen]}</span>
+                    </p>
+                  )}
+                  <p className="review-correct-answer">
+                    Correct: <span className="review-correct-text">{LABELS[q.correct]}. {q.choices[q.correct]}</span>
+                  </p>
+                  <p className="review-explanation">{q.explanation}</p>
+                </div>
+              )
+            })}
+          </div>
+        )}
       </div>
 
       <div className="results-actions">

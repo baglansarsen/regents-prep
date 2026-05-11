@@ -374,6 +374,100 @@ html, body {
   padding: 14px;
 }
 
+/* ── Review Section ───────────────────────────────────────────────────────── */
+.review-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.review-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--surface2);
+  border-radius: var(--radius);
+  padding: 14px 20px;
+  color: var(--text);
+  font-size: .95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color .15s;
+}
+.review-toggle:hover { border-color: var(--brand); }
+
+.review-toggle-sub {
+  font-size: .8rem;
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.review-item {
+  background: var(--surface);
+  border: 1px solid var(--surface2);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.review-item--correct { border-left: 3px solid var(--correct); }
+.review-item--wrong   { border-left: 3px solid var(--wrong); }
+
+.review-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.review-num {
+  font-size: .75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.review-status {
+  font-size: .8rem;
+  font-weight: 600;
+}
+.review-item--correct .review-status { color: var(--correct); }
+.review-item--wrong   .review-status { color: var(--wrong); }
+
+.review-question {
+  font-size: .9rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.review-your-answer,
+.review-correct-answer {
+  font-size: .82rem;
+  color: var(--text-muted);
+}
+
+.review-wrong-text    { color: var(--wrong);   font-weight: 600; }
+.review-correct-text  { color: var(--correct); font-weight: 600; }
+
+.review-explanation {
+  font-size: .82rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  background: rgba(255,255,255,.04);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
 /* ── Responsive ───────────────────────────────────────────────────────────── */
 @media (max-width: 480px) {
   .topic-grid-section { grid-template-columns: 1fr; }
