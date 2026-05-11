@@ -85,10 +85,76 @@ html, body {
 }
 .btn-ghost:hover { color: var(--text); }
 
-/* ── Home Screen ──────────────────────────────────────────────────────────── */
-.home-screen { padding-top: 48px; }
+/* ── Login Screen ─────────────────────────────────────────────────────────── */
+.login-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
 
-.home-header { text-align: center; margin-bottom: 40px; }
+.login-card {
+  background: var(--surface);
+  border: 1px solid var(--surface2);
+  border-radius: var(--radius);
+  padding: 48px 32px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.login-tagline {
+  font-size: .9rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.btn-google {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  color: #3c4043;
+  font-size: .95rem;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  margin-top: 8px;
+  transition: box-shadow .15s;
+  width: 100%;
+  justify-content: center;
+}
+.btn-google:hover { box-shadow: 0 2px 12px rgba(0,0,0,.3); }
+
+/* ── Loading ──────────────────────────────────────────────────────────────── */
+.loading-shell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loading-dot {
+  width: 10px;
+  height: 10px;
+  background: var(--brand);
+  border-radius: 50%;
+  animation: pulse 1s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: .3; transform: scale(.8); }
+  50%       { opacity: 1;  transform: scale(1.2); }
+}
+
+/* ── Home Screen ──────────────────────────────────────────────────────────── */
+.home-screen { padding-top: 24px; }
+
+.home-header { text-align: center; margin-bottom: 32px; }
 .app-title {
   font-size: 2.4rem;
   font-weight: 800;
@@ -99,6 +165,110 @@ html, body {
 }
 .app-subtitle { font-size: 1.1rem; font-weight: 600; color: var(--text-muted); margin-top: 2px; }
 .app-tagline  { font-size: .9rem; color: var(--text-muted); margin-top: 8px; }
+
+/* ── User Bar ─────────────────────────────────────────────────────────────── */
+.user-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-name {
+  font-size: .9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.logout-btn { font-size: .8rem; margin-left: auto; }
+
+/* ── Stats Bar ────────────────────────────────────────────────────────────── */
+.stats-bar {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.stat-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--surface2);
+  border-radius: 10px;
+  padding: 10px 20px;
+  min-width: 80px;
+}
+
+.stat-value {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--brand-light);
+}
+
+.stat-label {
+  font-size: .7rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+/* ── Recent Activity ──────────────────────────────────────────────────────── */
+.recent-section {
+  margin-top: 24px;
+}
+
+.recent-title {
+  font-size: .8rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin-bottom: 10px;
+}
+
+.recent-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.recent-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--surface);
+  border: 1px solid var(--surface2);
+  border-radius: 10px;
+  padding: 10px 16px;
+}
+
+.recent-topic {
+  flex: 1;
+  font-size: .85rem;
+  color: var(--text-muted);
+}
+
+.recent-fraction {
+  font-size: .82rem;
+  color: var(--text-muted);
+}
+
+.recent-pct {
+  font-size: .9rem;
+  font-weight: 700;
+  width: 44px;
+  text-align: right;
+}
 
 .topic-grid-section {
   display: grid;

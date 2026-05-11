@@ -1,11 +1,17 @@
 import { useState, useCallback } from 'react'
 import { questions, getByTopic, shuffled } from './data/questions'
+import { useAuth } from './hooks/useAuth'
+import { useProgress } from './hooks/useProgress'
+import LoginScreen from './screens/LoginScreen'
 import HomeScreen from './screens/HomeScreen'
 import QuizScreen from './screens/QuizScreen'
 import ResultsScreen from './screens/ResultsScreen'
 
 export default function App() {
-  const [screen, setScreen] = useState('home')          // 'home' | 'quiz' | 'results'
+  const { user, signInWithGoogle, logOut } = useAuth()
+  const { history, saveResult } = useProgress(user?.uid)
+
+  const [screen, setScreen] = useState('home')
   const [questionSet, setQuestionSet] = useState([])
   const [quizResult, setQuizResult] = useState(null)
   const [activeTopic, setActiveTopic] = useState(null)
@@ -20,20 +26,36 @@ export default function App() {
   const finishQuiz = useCallback((result) => {
     setQuizResult(result)
     setScreen('results')
-  }, [])
+    const correct = result.results.filter((r) => r.correct).length
+    const pct = Math.round((correct / result.total) * 100)
+    saveResult({ topic: activeTopic, score: result.score, total: result.total, correct, pct })
+  }, [activeTopic, saveResult])
 
-  const retry = useCallback(() => {
-    startQuiz(activeTopic)
-  }, [activeTopic, startQuiz])
+  const retry = useCallback(() => startQuiz(activeTopic), [activeTopic, startQuiz])
 
   const goHome = useCallback(() => {
     setScreen('home')
     setQuizResult(null)
   }, [])
 
+  // Still determining auth state
+  if (user === undefined) {
+    return <div className="app-shell loading-shell"><span className="loading-dot" /></div>
+  }
+
+  if (user === null) {
+    return (
+      <div className="app-shell">
+        <LoginScreen onSignIn={signInWithGoogle} />
+      </div>
+    )
+  }
+
   return (
     <div className="app-shell">
-      {screen === 'home' && <HomeScreen onStart={startQuiz} />}
+      {screen === 'home' && (
+        <HomeScreen onStart={startQuiz} user={user} onLogOut={logOut} history={history} />
+      )}
 
       {screen === 'quiz' && questionSet.length > 0 && (
         <QuizScreen

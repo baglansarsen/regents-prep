@@ -1,14 +1,41 @@
 import { TOPICS, TOPIC_ICONS, questions } from '../data/questions'
 
-export default function HomeScreen({ onStart }) {
+export default function HomeScreen({ onStart, user, onLogOut, history }) {
   const allTopics = Object.values(TOPICS)
+
+  const bestPct = history.length
+    ? Math.max(...history.map((h) => h.pct))
+    : null
 
   return (
     <div className="home-screen">
       <header className="home-header">
+        <div className="user-bar">
+          {user.photoURL && <img className="user-avatar" src={user.photoURL} alt="" referrerPolicy="no-referrer" />}
+          <span className="user-name">{user.displayName}</span>
+          <button className="btn-ghost logout-btn" onClick={onLogOut}>Sign out</button>
+        </div>
+
         <h1 className="app-title">Living Environment</h1>
         <p className="app-subtitle">Regents Prep</p>
         <p className="app-tagline">Master every topic. Beat the clock. Ace the exam.</p>
+
+        {history.length > 0 && (
+          <div className="stats-bar">
+            <div className="stat-chip">
+              <span className="stat-value">{history.length}</span>
+              <span className="stat-label">quizzes</span>
+            </div>
+            <div className="stat-chip">
+              <span className="stat-value">{bestPct}%</span>
+              <span className="stat-label">best score</span>
+            </div>
+            <div className="stat-chip">
+              <span className="stat-value">{history[0].pct}%</span>
+              <span className="stat-label">last quiz</span>
+            </div>
+          </div>
+        )}
       </header>
 
       <section className="topic-grid-section">
@@ -33,6 +60,26 @@ export default function HomeScreen({ onStart }) {
           )
         })}
       </section>
+
+      {history.length > 0 && (
+        <section className="recent-section">
+          <h3 className="recent-title">Recent Activity</h3>
+          <div className="recent-list">
+            {history.slice(0, 5).map((h) => (
+              <div key={h.id} className="recent-row">
+                <span className="recent-topic">{h.topic}</span>
+                <span className="recent-fraction">{h.correct}/{h.total}</span>
+                <span
+                  className="recent-pct"
+                  style={{ color: h.pct >= 85 ? '#22c55e' : h.pct >= 65 ? '#f59e0b' : '#ef4444' }}
+                >
+                  {h.pct}%
+                </span>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   )
 }
