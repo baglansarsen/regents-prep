@@ -992,8 +992,9 @@ export default function HomeScreen({
   addFriendError, setAddFriendError, onAddFriend, onRemoveFriend,
   onSendFriendRequest, onAcceptFriendRequest, onDeclineFriendRequest,
   challenges, onSendBattle, onAcceptBattle, onDeclineBattle, onPlayBattle,
+  initialTab,
 }) {
-  const [tab, setTab] = useState('study')
+  const [tab, setTab] = useState(initialTab ?? 'study')
 
   return (
     <div className="home-screen">

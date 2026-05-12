@@ -159,11 +159,21 @@ export default function App() {
   }, [spendXP, markStudied])
 
   const retry  = useCallback(() => startQuiz(activeTopic), [activeTopic, startQuiz])
+  const [homeTab, setHomeTab] = useState('study')
+
   const goHome = useCallback(() => {
+    setHomeTab('study')
     setScreen('home')
     setQuizResult(null)
     setDiagResult(null)
     setSpeedResult(null)
+    setActiveBattle(null)
+    setChallengeResult(null)
+  }, [])
+
+  const goFriends = useCallback(() => {
+    setHomeTab('friends')
+    setScreen('home')
     setActiveBattle(null)
     setChallengeResult(null)
   }, [])
@@ -241,6 +251,7 @@ export default function App() {
           onAcceptBattle={acceptBattle}
           onDeclineBattle={declineBattle}
           onPlayBattle={handlePlayBattle}
+          initialTab={homeTab}
         />
       )}
 
@@ -323,7 +334,7 @@ export default function App() {
       )}
 
       {screen === 'challengeResult' && challengeResult && (
-        <ChallengeResultScreen {...challengeResult} onHome={goHome} />
+        <ChallengeResultScreen {...challengeResult} onHome={goFriends} />
       )}
 
       {currentToast && <AchievementToast achievement={currentToast} onDismiss={dismissToast} />}
