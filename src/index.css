@@ -3525,3 +3525,49 @@ html, body {
   font-weight: 600;
   color: var(--brand-light);
 }
+
+/* ── Flashcard MC Mode ─────────────────────────────────────────────────── */
+
+.fc-mode-row { display: flex; gap: 8px; }
+.fc-mode-btn {
+  flex: 1; padding: 10px 12px; border-radius: var(--r-lg);
+  border: 1px solid var(--border); background: var(--surface);
+  color: var(--text-muted); font-family: inherit; font-size: .85rem;
+  font-weight: 600; cursor: pointer; transition: all .15s;
+}
+.fc-mode-btn--active { background: var(--brand); border-color: var(--brand); color: #fff; }
+
+.mc-card {
+  padding: 20px; border-radius: var(--r-xl); background: var(--surface);
+  border: 1px solid var(--border); text-align: center; min-height: 120px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;
+}
+.mc-prompt-label {
+  font-size: .7rem; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--brand-light);
+}
+.mc-prompt-text { font-size: 1.1rem; font-weight: 700; color: var(--text); line-height: 1.4; margin: 0; }
+.mc-topic-tag { font-size: .72rem; color: var(--text-muted); margin-top: 4px; }
+
+.mc-options { display: flex; flex-direction: column; gap: 8px; }
+.mc-option {
+  display: flex; align-items: center; gap: 10px; padding: 12px 14px;
+  border-radius: var(--r-lg); border: 1px solid var(--border); background: var(--surface);
+  cursor: pointer; font-family: inherit; text-align: left; width: 100%;
+  transition: background .12s, border-color .12s, opacity .12s;
+}
+.mc-option:hover:not(:disabled) { border-color: var(--brand); background: rgba(22,163,74,.06); }
+.mc-option--correct { border-color: #22c55e !important; background: rgba(34,197,94,.1) !important; }
+.mc-option--wrong   { border-color: #ef4444 !important; background: rgba(239,68,68,.1) !important; }
+.mc-option--dim     { opacity: .45; }
+.mc-option-letter {
+  width: 26px; height: 26px; border-radius: 50%; background: var(--surface2);
+  display: flex; align-items: center; justify-content: center;
+  font-size: .78rem; font-weight: 700; color: var(--text-muted); flex-shrink: 0;
+}
+.mc-option--correct .mc-option-letter { background: #22c55e; color: #fff; }
+.mc-option--wrong   .mc-option-letter { background: #ef4444; color: #fff; }
+.mc-option-text { flex: 1; font-size: .88rem; color: var(--text); line-height: 1.4; }
+.mc-option-icon { font-weight: 700; font-size: 1rem; flex-shrink: 0; }
+.mc-option--correct .mc-option-icon { color: #22c55e; }
+.mc-option--wrong   .mc-option-icon { color: #ef4444; }

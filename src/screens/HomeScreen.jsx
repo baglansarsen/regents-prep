@@ -1,6 +1,6 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { TOPICS, TOPIC_ICONS, questions } from '../data/questions'
-import { FLASHCARD_TOPIC_LIST } from '../data/flashcards'
+import { flashcards, FLASHCARD_TOPIC_LIST } from '../data/flashcards'
 import { useSpacedRepetition, Q_AGAIN, Q_GOOD, Q_EASY, nextReviewLabel } from '../hooks/useSpacedRepetition'
 import { NY_SCHOOLS, BOROUGHS } from '../data/schools'
 import { useLeaderboard } from '../hooks/useLeaderboard'
@@ -127,47 +127,90 @@ function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onConte
 
 // ── Cards Tab (SM-2 spaced repetition) ────────────────────────────────────
 
+function buildMCQuestion(card) {
+  const showTerm = Math.random() > 0.5
+  const prompt      = showTerm ? card.term       : card.definition
+  const promptLabel = showTerm ? 'DEFINE THIS TERM' : 'NAME THIS TERM'
+  const correct     = showTerm ? card.definition  : card.term
+  // Prefer distractors from same topic; fall back to other topics
+  const pool      = flashcards.filter((c) => c.id !== card.id)
+  const sameT     = pool.filter((c) => c.topic === card.topic).sort(() => Math.random() - 0.5)
+  const diffT     = pool.filter((c) => c.topic !== card.topic).sort(() => Math.random() - 0.5)
+  const distractors = [...sameT, ...diffT].slice(0, 3).map((c) => showTerm ? c.definition : c.term)
+  const options   = [...distractors, correct].sort(() => Math.random() - 0.5)
+  return { prompt, promptLabel, correct, options }
+}
+
 function CardsTab({ uid, earnXP }) {
   const { review, resetAll, buildDeck, getStats } = useSpacedRepetition(uid)
 
-  const [topic,     setTopic]   = useState(null)
-  const [browseAll, setBrowse]  = useState(false)
-  const [index,     setIndex]   = useState(0)
-  const [flipped,   setFlipped] = useState(false)
-  const [lastLabel, setLastLabel] = useState(null) // next-review hint after rating
-  const [done,      setDone]    = useState(false)
+  const [topic,    setTopic]   = useState(null)
+  const [browseAll,setBrowse]  = useState(false)
+  const [index,    setIndex]   = useState(0)
+  const [flipped,  setFlipped] = useState(false)
+  const [done,     setDone]    = useState(false)
+  const [mode,     setMode]    = useState('flip')  // 'flip' | 'mc'
+  const [mcQ,      setMcQ]     = useState(null)
+  const [mcPicked, setMcPicked]= useState(null)    // index of selected MC option
 
-  const deck  = useMemo(() => buildDeck(topic, browseAll), [topic, browseAll, buildDeck])
+  // Snapshot the deck once per session — never rebuild reactively mid-session.
+  // Reactive rebuilds caused the deck to shuffle under the index after every review,
+  // making the counter skip half the cards and re-show already-reviewed ones.
+  const [deck, setDeck] = useState(() => buildDeck(null, false))
+
   const stats = useMemo(() => getStats(topic), [topic, getStats])
   const card  = deck[index]
 
+  // Regenerate MC question when the card or mode changes
+  useEffect(() => {
+    if (mode === 'mc' && card) { setMcQ(buildMCQuestion(card)); setMcPicked(null) }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [card?.id, mode])
+
   const XP_BY_QUALITY = { [Q_AGAIN]: 2, [Q_GOOD]: 5, [Q_EASY]: 3 }
 
-  function rate(quality) {
+  function rateFlip(quality) {
     review(card.id, quality)
     earnXP(XP_BY_QUALITY[quality] ?? 2)
-    const label = quality >= Q_EASY ? 'in 6+ days' : quality >= Q_GOOD ? 'tomorrow' : 'in 1 day'
-    setLastLabel(label)
     setFlipped(false)
-    if (index + 1 >= deck.length) { setDone(true) }
-    else setTimeout(() => { setIndex(index + 1); setLastLabel(null) }, 180)
+    if (index + 1 >= deck.length) setDone(true)
+    else setTimeout(() => setIndex(index + 1), 180)
   }
 
-  function restart() { setIndex(0); setFlipped(false); setDone(false); setLastLabel(null) }
-  function changeTopic(val) { setTopic(val); setIndex(0); setFlipped(false); setDone(false); setLastLabel(null) }
+  function pickMC(i) {
+    if (mcPicked !== null) return
+    setMcPicked(i)
+    const isCorrect = mcQ.options[i] === mcQ.correct
+    review(card.id, isCorrect ? Q_GOOD : Q_AGAIN)
+    earnXP(isCorrect ? 5 : 2)
+    const deckLen = deck.length
+    setTimeout(() => {
+      if (index + 1 >= deckLen) { setDone(true) }
+      else { setIndex((prev) => prev + 1) }
+    }, isCorrect ? 900 : 1800)
+  }
+
+  // Rebuild the session deck from latest SM-2 data; call with explicit new values
+  // to avoid stale state (topic/browseAll setters are async)
+  function startSession(newTopic, newBrowse) {
+    setDeck(buildDeck(newTopic, newBrowse))
+    setIndex(0); setFlipped(false); setDone(false); setMcPicked(null); setMcQ(null)
+  }
+  function reset()           { startSession(topic, browseAll) }
+  function changeTopic(val)  { setTopic(val);   startSession(val, browseAll) }
+  function changeMode(m)     { setMode(m); setIndex(0); setFlipped(false); setDone(false); setMcPicked(null); setMcQ(null) }
+  function changeBrowse(val) { setBrowse(val);  startSession(topic, val) }
 
   if (done) return (
     <div className="tab-panel">
       <div className="flashcard-done">
         <div className="flashcard-done-emoji">🎉</div>
         <h2 className="flashcard-done-title">Session complete!</h2>
-        <p className="flashcard-done-stats">
-          {stats.reviewed} reviewed · {stats.mastered} mastered
-        </p>
+        <p className="flashcard-done-stats">{stats.reviewed} reviewed · {stats.mastered} mastered</p>
         <div className="flashcard-done-actions">
-          <button className="fc-btn fc-btn--restart" onClick={restart}>Study again</button>
-          {!browseAll && stats.total > deck.length && (
-            <button className="fc-btn fc-btn--review" onClick={() => { setBrowse(true); restart() }}>Browse all cards</button>
+          <button className="fc-btn fc-btn--restart" onClick={reset}>Study again</button>
+          {!browseAll && (
+            <button className="fc-btn fc-btn--review" onClick={() => changeBrowse(true)}>Browse all cards</button>
           )}
         </div>
       </div>
@@ -185,35 +228,43 @@ function CardsTab({ uid, earnXP }) {
         ))}
       </div>
 
+      {/* Mode toggle */}
+      <div className="fc-mode-row">
+        <button className={`fc-mode-btn ${mode === 'flip' ? 'fc-mode-btn--active' : ''}`} onClick={() => changeMode('flip')}>
+          🔄 Flip Cards
+        </button>
+        <button className={`fc-mode-btn ${mode === 'mc' ? 'fc-mode-btn--active' : ''}`} onClick={() => changeMode('mc')}>
+          🧠 Multiple Choice
+        </button>
+      </div>
+
       {/* SM-2 stats bar */}
       <div className="sr-stats-bar">
         <span className="sr-stat sr-stat--due">📚 {stats.due + stats.new} to study</span>
         <span className="sr-stat sr-stat--new">✓ {stats.reviewed} reviewed</span>
         <span className="sr-stat sr-stat--mastered">⭐ {stats.mastered} mastered</span>
-        <button
-          className={`sr-browse-toggle ${browseAll ? 'sr-browse-toggle--active' : ''}`}
-          onClick={() => { setBrowse((b) => !b); restart() }}
-        >
+        <button className={`sr-browse-toggle ${browseAll ? 'sr-browse-toggle--active' : ''}`} onClick={() => changeBrowse(!browseAll)}>
           {browseAll ? 'Smart mode' : 'Browse all'}
         </button>
       </div>
 
-      {/* Progress */}
+      {/* Progress bar */}
       <div className="flashcard-progress">
         <span className="flashcard-progress-text">{deck.length ? index + 1 : 0} / {deck.length}</span>
         <div className="flashcard-progress-bar">
           <div className="flashcard-progress-known"  style={{ width: deck.length ? `${(stats.mastered / stats.total) * 100}%` : '0%' }} />
           <div className="flashcard-progress-cursor" style={{ width: deck.length ? `${((index + 1) / deck.length) * 100}%` : '0%' }} />
         </div>
-        <button className="fc-filter-btn fc-filter-btn--reset" onClick={() => { resetAll(); restart() }}>↺</button>
+        <button className="fc-filter-btn fc-filter-btn--reset" onClick={() => { resetAll(); reset() }}>↺</button>
       </div>
 
       {deck.length === 0 ? (
         <div className="flashcard-empty">
           <p>🎉 All caught up! No cards due right now.</p>
-          <button className="fc-btn fc-btn--restart" style={{ marginTop: 16 }} onClick={() => { setBrowse(true); restart() }}>Browse all cards</button>
+          <button className="fc-btn fc-btn--restart" style={{ marginTop: 16 }} onClick={() => { setBrowse(true); reset() }}>Browse all cards</button>
         </div>
-      ) : (
+      ) : mode === 'flip' ? (
+        // ── FLIP CARD ───────────────────────────────────────────────────────
         <>
           <div className={`flashcard-card ${flipped ? 'flashcard-card--flipped' : ''}`} onClick={() => setFlipped((f) => !f)}>
             <div className="flashcard-card-inner">
@@ -229,27 +280,51 @@ function CardsTab({ uid, earnXP }) {
               </div>
             </div>
           </div>
-
           {flipped && (
             <div className="sr-rate-row">
-              <button className="sr-btn sr-btn--again" onClick={() => rate(Q_AGAIN)}>
-                <span className="sr-btn-icon">↩</span>
-                <span className="sr-btn-label">Again</span>
-                <span className="sr-btn-hint">forgot</span>
+              <button className="sr-btn sr-btn--again" onClick={() => rateFlip(Q_AGAIN)}>
+                <span className="sr-btn-icon">↩</span><span className="sr-btn-label">Again</span><span className="sr-btn-hint">forgot</span>
               </button>
-              <button className="sr-btn sr-btn--good" onClick={() => rate(Q_GOOD)}>
-                <span className="sr-btn-icon">✓</span>
-                <span className="sr-btn-label">Good</span>
-                <span className="sr-btn-hint">got it</span>
+              <button className="sr-btn sr-btn--good" onClick={() => rateFlip(Q_GOOD)}>
+                <span className="sr-btn-icon">✓</span><span className="sr-btn-label">Good</span><span className="sr-btn-hint">got it</span>
               </button>
-              <button className="sr-btn sr-btn--easy" onClick={() => rate(Q_EASY)}>
-                <span className="sr-btn-icon">⚡</span>
-                <span className="sr-btn-label">Easy</span>
-                <span className="sr-btn-hint">too easy</span>
+              <button className="sr-btn sr-btn--easy" onClick={() => rateFlip(Q_EASY)}>
+                <span className="sr-btn-icon">⚡</span><span className="sr-btn-label">Easy</span><span className="sr-btn-hint">too easy</span>
               </button>
             </div>
           )}
         </>
+      ) : (
+        // ── MULTIPLE CHOICE ─────────────────────────────────────────────────
+        mcQ && (
+          <>
+            <div className="mc-card">
+              <span className="mc-prompt-label">{mcQ.promptLabel}</span>
+              <p className="mc-prompt-text">{mcQ.prompt}</p>
+              <span className="mc-topic-tag">{card.topic}</span>
+            </div>
+            <div className="mc-options">
+              {mcQ.options.map((opt, i) => {
+                const isSelected = mcPicked === i
+                const isCorrect  = opt === mcQ.correct
+                let cls = 'mc-option'
+                if (mcPicked !== null) {
+                  if (isCorrect)       cls += ' mc-option--correct'
+                  else if (isSelected) cls += ' mc-option--wrong'
+                  else                 cls += ' mc-option--dim'
+                }
+                return (
+                  <button key={i} className={cls} onClick={() => pickMC(i)} disabled={mcPicked !== null}>
+                    <span className="mc-option-letter">{['A','B','C','D'][i]}</span>
+                    <span className="mc-option-text">{opt}</span>
+                    {mcPicked !== null && isCorrect  && <span className="mc-option-icon">✓</span>}
+                    {mcPicked !== null && isSelected && !isCorrect && <span className="mc-option-icon">✗</span>}
+                  </button>
+                )
+              })}
+            </div>
+          </>
+        )
       )}
     </div>
   )

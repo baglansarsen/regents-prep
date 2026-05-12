@@ -67,23 +67,24 @@ export function useSpacedRepetition(uid) {
 
   // Build an ordered deck for a given topic
   // Order: overdue/due first → new (never seen) → future (not due yet)
-  function buildDeck(topic, browseAll = false) {
+  // Wrapped in useCallback so callers get a stable reference that reflects latest data
+  const buildDeck = useCallback((topic, browseAll = false) => {
     const now = Date.now()
     const cards = getFlashcardsByTopic(topic)
 
     if (browseAll) return cards
 
-    const due     = cards.filter((c) => data[c.id]?.nextReview && data[c.id].nextReview <= now)
+    const due      = cards.filter((c) => data[c.id]?.nextReview && data[c.id].nextReview <= now)
     const newCards = cards.filter((c) => !data[c.id]?.nextReview)
-    const future  = cards.filter((c) => data[c.id]?.nextReview && data[c.id].nextReview > now)
+    const future   = cards.filter((c) => data[c.id]?.nextReview && data[c.id].nextReview > now)
 
     due.sort((a, b) => data[a.id].nextReview - data[b.id].nextReview)
     future.sort((a, b) => data[a.id].nextReview - data[b.id].nextReview)
 
     return [...due, ...newCards, ...future]
-  }
+  }, [data])
 
-  function getStats(topic) {
+  const getStats = useCallback((topic) => {
     const now = Date.now()
     const cards = getFlashcardsByTopic(topic)
     let due = 0, newCards = 0, reviewed = 0, mastered = 0
@@ -97,7 +98,7 @@ export function useSpacedRepetition(uid) {
       }
     }
     return { due, new: newCards, reviewed, mastered, total: cards.length }
-  }
+  }, [data])
 
   return { data, review, resetAll, buildDeck, getStats }
 }
