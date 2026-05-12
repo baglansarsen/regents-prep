@@ -8,6 +8,7 @@
   --bg:         #0f172a;
   --surface:    #1e293b;
   --surface2:   #334155;
+  --border:     #334155;
   --text:       #f1f5f9;
   --text-muted: #94a3b8;
   --correct:    #22c55e;
@@ -15,6 +16,16 @@
   --warn:       #f59e0b;
   --radius:     12px;
   --shadow:     0 4px 24px rgba(0,0,0,.4);
+}
+
+[data-theme="light"] {
+  --bg:         #f1f5f9;
+  --surface:    #ffffff;
+  --surface2:   #e2e8f0;
+  --border:     #cbd5e1;
+  --text:       #0f172a;
+  --text-muted: #64748b;
+  --shadow:     0 4px 24px rgba(0,0,0,.08);
 }
 
 html, body {
@@ -2586,3 +2597,32 @@ html, body {
 .sr-btn--again { background: #450a0a; color: #fca5a5; }
 .sr-btn--good  { background: #1e3a5f; color: #93c5fd; }
 .sr-btn--easy  { background: #14532d; color: #86efac; }
+
+/* ── Theme picker ──────────────────────────────────────────────────────── */
+
+.theme-picker {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.theme-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 8px;
+  border-radius: 12px;
+  border: 2px solid var(--surface2);
+  background: var(--surface);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all .15s;
+  font-family: inherit;
+}
+.theme-btn:hover { border-color: var(--brand); color: var(--text); }
+.theme-btn--active { border-color: var(--brand); color: var(--brand-light); background: var(--surface2); }
+
+.theme-btn-icon  { font-size: 1.4rem; }
+.theme-btn-label { font-size: .75rem; font-weight: 600; }

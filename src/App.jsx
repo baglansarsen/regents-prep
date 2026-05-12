@@ -1,6 +1,7 @@
 import { useState, useCallback } from 'react'
 import { questions, getByTopic, shuffled, buildDiagnosticSet } from './data/questions'
 import { useAuth } from './hooks/useAuth'
+import { useTheme } from './hooks/useTheme'
 import { useProgress } from './hooks/useProgress'
 import { useDailyStreak } from './hooks/useDailyStreak'
 import { useUnlocks } from './hooks/useUnlocks'
@@ -21,6 +22,7 @@ import AchievementToast from './components/AchievementToast'
 import BookmarksScreen from './screens/BookmarksScreen'
 
 export default function App() {
+  const { theme, setTheme } = useTheme()
   const { user, signInWithGoogle, logOut } = useAuth()
   const { history, saveResult, masteryPct } = useProgress(user?.uid)
   const { streak, studiedToday, weekDays, markStudied } = useDailyStreak(user?.uid)
@@ -133,8 +135,11 @@ export default function App() {
           onDiagnostic={startDiagnostic}
           earnedIds={earnedIds}
           allAchievements={allAchievements}
+          earnXP={earnXP}
           school={school}
           saveSchool={saveSchool}
+          theme={theme}
+          setTheme={setTheme}
           dailyQ={dailyQ}
           dailyAnswered={dailyAnswered}
           dailyRecord={dailyRecord}

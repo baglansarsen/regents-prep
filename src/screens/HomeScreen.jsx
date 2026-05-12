@@ -117,7 +117,7 @@ function StudyTab({ onStart, onPracticeTest, onDiagnostic, masteryPct, isUnlocke
 
 // ── Cards Tab (SM-2 spaced repetition) ────────────────────────────────────
 
-function CardsTab({ uid }) {
+function CardsTab({ uid, earnXP }) {
   const { review, resetAll, buildDeck, getStats } = useSpacedRepetition(uid)
 
   const [topic,     setTopic]   = useState(null)
@@ -131,8 +131,11 @@ function CardsTab({ uid }) {
   const stats = useMemo(() => getStats(topic), [topic, getStats])
   const card  = deck[index]
 
+  const XP_BY_QUALITY = { [Q_AGAIN]: 2, [Q_GOOD]: 5, [Q_EASY]: 3 }
+
   function rate(quality) {
     review(card.id, quality)
+    earnXP(XP_BY_QUALITY[quality] ?? 2)
     const label = quality >= Q_EASY ? 'in 6+ days' : quality >= Q_GOOD ? 'tomorrow' : 'in 1 day'
     setLastLabel(label)
     setFlipped(false)
@@ -392,7 +395,7 @@ function RankingsTab({ user, school, onGoToProfile }) {
 
 // ── Profile Tab ────────────────────────────────────────────────────────────
 
-function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut }) {
+function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, theme, setTheme }) {
   const [editing, setEditing]   = useState(false)
   const [search,  setSearch]    = useState('')
   const [borough, setBorough]   = useState(null)
@@ -481,6 +484,25 @@ function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut })
         )}
       </div>
 
+      {/* Appearance */}
+      <div className="profile-section">
+        <div className="profile-section-header">
+          <span className="profile-section-label">APPEARANCE</span>
+        </div>
+        <div className="theme-picker">
+          {[{ id: 'dark', icon: '🌙', label: 'Dark' }, { id: 'light', icon: '☀️', label: 'Light' }, { id: 'system', icon: '⚙️', label: 'System' }].map(({ id, icon, label }) => (
+            <button
+              key={id}
+              className={`theme-btn ${theme === id ? 'theme-btn--active' : ''}`}
+              onClick={() => setTheme(id)}
+            >
+              <span className="theme-btn-icon">{icon}</span>
+              <span className="theme-btn-label">{label}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+
       {/* Sign out */}
       <button className="profile-signout-btn" onClick={onLogOut}>Sign out</button>
     </div>
@@ -495,9 +517,10 @@ export default function HomeScreen({
   history, streak, studiedToday, weekDays,
   masteryPct, isUnlocked, unlockHint,
   completedCount, totalTopics,
-  xp, onBuyStreak,
+  xp, onBuyStreak, earnXP,
   earnedIds, allAchievements,
   school, saveSchool,
+  theme, setTheme,
   dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit,
   onBookmarks, bookmarkedIds,
 }) {
@@ -522,7 +545,7 @@ export default function HomeScreen({
           dailyLoading={dailyLoading} onDailySubmit={onDailySubmit}
         />
       )}
-      {tab === 'cards' && <CardsTab uid={user?.uid} />}
+      {tab === 'cards' && <CardsTab uid={user?.uid} earnXP={earnXP} />}
       {tab === 'progress' && (
         <ProgressTab
           history={history} masteryPct={masteryPct} isUnlocked={isUnlocked}
@@ -539,6 +562,7 @@ export default function HomeScreen({
         <ProfileTab
           user={user} school={school} saveSchool={saveSchool}
           xp={xp} streak={streak} history={history} onLogOut={onLogOut}
+          theme={theme} setTheme={setTheme}
         />
       )}
 
