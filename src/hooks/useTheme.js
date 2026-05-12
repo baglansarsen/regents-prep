@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 const KEY = 'regents_theme'
 
 function getStored() {
-  try { return localStorage.getItem(KEY) ?? 'system' } catch { return 'system' }
+  try { return localStorage.getItem(KEY) ?? 'dark' } catch { return 'dark' }
 }
 
 function applyTheme(choice) {

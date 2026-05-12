@@ -5,7 +5,7 @@ export default function ChallengeResultScreen({ myScore, opponentScore, opponent
         <div className="results-hero">
           <span className="results-emoji">⏳</span>
           <h2 className="results-grade" style={{ color: 'var(--brand-light)' }}>Waiting…</h2>
-          <p style={{ color: 'var(--text2)', marginTop: 8 }}>You scored <strong>{myScore} pts</strong></p>
+          <p style={{ color: 'var(--text)', marginTop: 8 }}>You scored <strong>{myScore} pts</strong></p>
           <p style={{ color: 'var(--text-muted)', fontSize: '.88rem', marginTop: 6 }}>
             Waiting for {opponentName} to play their turn.
           </p>
