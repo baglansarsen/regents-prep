@@ -2936,18 +2936,53 @@ html, body {
 .friends-card-name { font-size: .9rem; font-weight: 600; color: var(--text); margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .friends-card-xp   { font-size: .78rem; color: var(--text-muted); margin: 0; }
 .friends-card-actions { display: flex; gap: 6px; flex-shrink: 0; }
-.friends-challenge-btn, .friends-remove-btn {
+.friends-challenge-btn {
   width: 32px; height: 32px;
   border-radius: 8px;
   border: none;
   font-size: .9rem;
   cursor: pointer;
   display: flex; align-items: center; justify-content: center;
+  background: rgba(99,102,241,.15);
   transition: opacity .15s;
 }
-.friends-challenge-btn { background: rgba(99,102,241,.15); }
-.friends-remove-btn    { background: rgba(239,68,68,.1); color: #ef4444; font-size: .75rem; font-weight: 700; }
-.friends-challenge-btn:hover, .friends-remove-btn:hover { opacity: .7; }
+.friends-challenge-btn:hover { opacity: .7; }
+
+.friends-remove-btn {
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(239,68,68,.35);
+  background: transparent;
+  color: #ef4444;
+  font-size: .75rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background .15s, color .15s;
+  white-space: nowrap;
+}
+.friends-remove-btn:hover { background: rgba(239,68,68,.1); }
+.friends-remove-btn--confirm {
+  background: #ef4444;
+  color: #fff;
+  border-color: #ef4444;
+}
+.friends-remove-btn--confirm:hover { background: #dc2626; }
+
+.friends-cancel-btn {
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: .75rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background .15s;
+  white-space: nowrap;
+}
+.friends-cancel-btn:hover { background: var(--surface2); }
 
 /* Completed challenge rows */
 .challenge-result-row {

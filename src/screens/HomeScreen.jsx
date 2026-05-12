@@ -433,6 +433,62 @@ function SchoolLeaderboard({ user, school, onGoToProfile, friends, sentRequests,
 
 import { timeAgo } from '../hooks/useFriends'
 
+function FriendsList({ friends, onChallenge, onRemove }) {
+  const [confirmUid, setConfirmUid] = useState(null)
+
+  function handleRemoveClick(uid) {
+    if (confirmUid === uid) {
+      onRemove(uid)
+      setConfirmUid(null)
+    } else {
+      setConfirmUid(uid)
+    }
+  }
+
+  return (
+    <div className="fr-section">
+      <p className="fr-section-title">👥 Friends ({friends.length})</p>
+      {friends.length === 0 ? (
+        <div className="friends-empty">
+          <p className="friends-empty-title">No friends yet</p>
+          <p className="friends-empty-sub">Share your code or enter a friend's to get started.</p>
+        </div>
+      ) : (
+        <div className="friends-list">
+          {friends.map((f, i) => {
+            const confirming = confirmUid === f.uid
+            return (
+              <div key={f.uid} className="friends-card">
+                <span className="friends-rank">#{i + 1}</span>
+                <Avatar photoURL={f.photoURL} name={f.displayName} size={40} />
+                <div className="friends-card-info">
+                  <p className="friends-card-name">{f.displayName}</p>
+                  <p className="friends-card-xp">💫 {(f.xp ?? 0).toLocaleString()} XP</p>
+                </div>
+                <div className="friends-card-actions">
+                  {!confirming && (
+                    <button className="friends-challenge-btn" onClick={() => onChallenge(f)} title="Challenge">⚔️</button>
+                  )}
+                  <button
+                    className={`friends-remove-btn ${confirming ? 'friends-remove-btn--confirm' : ''}`}
+                    onClick={() => handleRemoveClick(f.uid)}
+                    title="Remove friend"
+                  >
+                    {confirming ? 'Remove?' : 'Remove'}
+                  </button>
+                  {confirming && (
+                    <button className="friends-cancel-btn" onClick={() => setConfirmUid(null)}>Cancel</button>
+                  )}
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      )}
+    </div>
+  )
+}
+
 function FriendsTab({
   user, school,
   friends, friendCode, friendFeed,
@@ -562,32 +618,11 @@ function FriendsTab({
           )}
 
           {/* Friends leaderboard */}
-          <div className="fr-section">
-            <p className="fr-section-title">👥 Friends ({friends.length})</p>
-            {sortedFriends.length === 0 ? (
-              <div className="friends-empty">
-                <p className="friends-empty-title">No friends yet</p>
-                <p className="friends-empty-sub">Share your code or enter a friend's to get started.</p>
-              </div>
-            ) : (
-              <div className="friends-list">
-                {sortedFriends.map((f, i) => (
-                  <div key={f.uid} className="friends-card">
-                    <span className="friends-rank">#{i + 1}</span>
-                    <Avatar photoURL={f.photoURL} name={f.displayName} size={40} />
-                    <div className="friends-card-info">
-                      <p className="friends-card-name">{f.displayName}</p>
-                      <p className="friends-card-xp">💫 {(f.xp ?? 0).toLocaleString()} XP</p>
-                    </div>
-                    <div className="friends-card-actions">
-                      <button className="friends-challenge-btn" onClick={() => onStartChallenge(f)} title="Challenge">⚔️</button>
-                      <button className="friends-remove-btn"    onClick={() => removeFriend(f.uid)}  title="Remove">✕</button>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
+          <FriendsList
+            friends={sortedFriends}
+            onChallenge={onStartChallenge}
+            onRemove={removeFriend}
+          />
 
           {/* Completed challenges */}
           {completedChallenges.length > 0 && (
