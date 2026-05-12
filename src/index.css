@@ -38,6 +38,55 @@
   --tab-bar-bg: rgba(238,242,247,.95);
 }
 
+[data-theme="ocean"] {
+  --brand:      #0891b2;
+  --brand-light:#22d3ee;
+  --brand-dark: #155e75;
+  --bg:         #071a26;
+  --surface:    #0c2537;
+  --surface2:   #112f45;
+  --border:     #1a4060;
+  --text:       #e0f4ff;
+  --text2:      #b0d8f0;
+  --text-muted: #5a9ab8;
+  --correct:    #22d3ee;
+  --shadow:     0 4px 24px rgba(0,0,0,.5);
+  --shadow-brand: 0 4px 20px rgba(8,145,178,.35);
+  --tab-bar-bg: rgba(7,26,38,.88);
+}
+
+[data-theme="purple"] {
+  --brand:      #7c3aed;
+  --brand-light:#a78bfa;
+  --brand-dark: #4c1d95;
+  --bg:         #0f0c1f;
+  --surface:    #1a1535;
+  --surface2:   #231c48;
+  --border:     #2d2558;
+  --text:       #f0eeff;
+  --text2:      #c4b8f0;
+  --text-muted: #7a6aaa;
+  --shadow:     0 4px 24px rgba(0,0,0,.5);
+  --shadow-brand: 0 4px 20px rgba(124,58,237,.35);
+  --tab-bar-bg: rgba(15,12,31,.88);
+}
+
+[data-theme="amber"] {
+  --brand:      #d97706;
+  --brand-light:#fbbf24;
+  --brand-dark: #92400e;
+  --bg:         #180e00;
+  --surface:    #261600;
+  --surface2:   #321d00;
+  --border:     #452a00;
+  --text:       #fff8e8;
+  --text2:      #f0d890;
+  --text-muted: #a07838;
+  --shadow:     0 4px 24px rgba(0,0,0,.5);
+  --shadow-brand: 0 4px 20px rgba(217,119,6,.35);
+  --tab-bar-bg: rgba(24,14,0,.88);
+}
+
 html, body {
   height: 100%;
   background: var(--bg);
@@ -2789,31 +2838,69 @@ html, body {
 /* ── Theme picker ──────────────────────────────────────────────────────── */
 
 .theme-picker {
-  display: flex;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
   margin-top: 8px;
 }
 
 .theme-btn {
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
-  padding: 12px 8px;
-  border-radius: 12px;
+  gap: 6px;
+  padding: 12px 6px 10px;
+  border-radius: 14px;
   border: 2px solid var(--surface2);
   background: var(--surface);
   color: var(--text-muted);
   cursor: pointer;
   transition: all .15s;
   font-family: inherit;
+  position: relative;
 }
 .theme-btn:hover { border-color: var(--brand); color: var(--text); }
-.theme-btn--active { border-color: var(--brand); color: var(--brand-light); background: var(--surface2); }
+.theme-btn--active { border-color: var(--brand); color: var(--text); background: var(--surface2); }
+.theme-btn--active::after {
+  content: '✓';
+  position: absolute;
+  top: 5px;
+  right: 7px;
+  font-size: .65rem;
+  font-weight: 800;
+  color: var(--brand-light);
+}
 
-.theme-btn-icon  { font-size: 1.4rem; }
-.theme-btn-label { font-size: .75rem; font-weight: 600; }
+.theme-swatch {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,.12);
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.theme-swatch::after {
+  content: '';
+  position: absolute;
+  bottom: 0; right: 0;
+  width: 50%; height: 50%;
+  border-radius: 50% 0 0 0;
+}
+.theme-swatch--dark   { background: #162032; }
+.theme-swatch--dark::after { background: #22c55e; }
+.theme-swatch--light  { background: #ffffff; border-color: rgba(0,0,0,.12); }
+.theme-swatch--light::after { background: #16a34a; }
+.theme-swatch--ocean  { background: #0c2537; }
+.theme-swatch--ocean::after { background: #22d3ee; }
+.theme-swatch--purple { background: #1a1535; }
+.theme-swatch--purple::after { background: #a78bfa; }
+.theme-swatch--amber  { background: #261600; }
+.theme-swatch--amber::after { background: #fbbf24; }
+.theme-swatch--system { background: linear-gradient(135deg, #162032 50%, #eef2f7 50%); }
+.theme-swatch--system::after { background: transparent; }
+
+.theme-btn-label { font-size: .72rem; font-weight: 600; letter-spacing: .01em; }
 
 /* ── Friends Tab ─────────────────────────────────────────────────────────── */
 

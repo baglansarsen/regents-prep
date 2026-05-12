@@ -994,13 +994,20 @@ function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, t
           <span className="profile-section-label">APPEARANCE</span>
         </div>
         <div className="theme-picker">
-          {[{ id: 'dark', icon: '🌙', label: 'Dark' }, { id: 'light', icon: '☀️', label: 'Light' }, { id: 'system', icon: '⚙️', label: 'System' }].map(({ id, icon, label }) => (
+          {[
+            { id: 'dark',   label: 'Dark'   },
+            { id: 'ocean',  label: 'Ocean'  },
+            { id: 'purple', label: 'Purple' },
+            { id: 'light',  label: 'Light'  },
+            { id: 'amber',  label: 'Amber'  },
+            { id: 'system', label: 'Auto'   },
+          ].map(({ id, label }) => (
             <button
               key={id}
               className={`theme-btn ${theme === id ? 'theme-btn--active' : ''}`}
               onClick={() => setTheme(id)}
             >
-              <span className="theme-btn-icon">{icon}</span>
+              <span className={`theme-swatch theme-swatch--${id}`} />
               <span className="theme-btn-label">{label}</span>
             </button>
           ))}
