@@ -7,6 +7,7 @@ import { useUnlocks } from './hooks/useUnlocks'
 import { useXP } from './hooks/useXP'
 import { useAchievements } from './hooks/useAchievements'
 import { useFlashcards } from './hooks/useFlashcards'
+import { useSchool } from './hooks/useSchool'
 import LoginScreen from './screens/LoginScreen'
 import HomeScreen from './screens/HomeScreen'
 import QuizScreen from './screens/QuizScreen'
@@ -27,6 +28,7 @@ export default function App() {
   const { earnedIds, allAchievements, currentToast, dismissToast, recordPracticeTest, recordDiagnostic } =
     useAchievements(user?.uid, { history, streak, xp })
   const { knownIds, markKnown, markLearning, resetAll } = useFlashcards(user?.uid)
+  const { school, saveSchool } = useSchool(user, xp, earnedIds)
 
   const [screen, setScreen] = useState('home')
   const [questionSet, setQuestionSet] = useState([])
@@ -105,7 +107,6 @@ export default function App() {
           onPracticeTest={startPracticeTest}
           onAnalytics={() => setScreen('analytics')}
           onAchievements={() => setScreen('achievements')}
-          onFlashcards={() => setScreen('flashcards')}
           user={user}
           onLogOut={logOut}
           history={history}
@@ -122,6 +123,12 @@ export default function App() {
           onDiagnostic={startDiagnostic}
           earnedIds={earnedIds}
           allAchievements={allAchievements}
+          knownIds={knownIds}
+          markKnown={markKnown}
+          markLearning={markLearning}
+          resetAll={resetAll}
+          school={school}
+          saveSchool={saveSchool}
         />
       )}
 
