@@ -116,6 +116,7 @@ export const NY_SCHOOLS = [
   { id: 'westhill',     name: 'Westhill High School',                    borough: 'Syracuse' },
   { id: 'jamesville',   name: 'Jamesville-DeWitt High School',           borough: 'Syracuse' },
   { id: 'fayetteville', name: 'Fayetteville-Manlius High School',        borough: 'Syracuse' },
+  { id: 'wellwood',     name: 'Wellwood Middle School (FM)',             borough: 'Syracuse' },
   { id: 'east_syra',    name: 'East Syracuse Minoa High School',         borough: 'Syracuse' },
   { id: 'baldwinsville',name: 'Baldwinsville High School (C. W. Baker)', borough: 'Syracuse' },
   { id: 'liverpool',    name: 'Liverpool High School',                   borough: 'Syracuse' },
@@ -170,6 +171,10 @@ export const DOMAIN_SUGGESTIONS = {
   'nyc.gov': {
     districtName: 'New York City Department of Education',
     schoolIds: ['stuy', 'bxsci', 'btech', 'laguard', 'hunter'],
+  },
+  'fmschools.org': {
+    districtName: 'Fayetteville-Manlius School District',
+    schoolIds: ['wellwood', 'fayetteville'],
   },
 }
 
