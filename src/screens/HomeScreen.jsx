@@ -858,7 +858,7 @@ function FriendsTab({
 
 // ── Profile Tab ────────────────────────────────────────────────────────────
 
-function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, theme, setTheme }) {
+function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, theme, setTheme, onAdmin }) {
   const [editing, setEditing]   = useState(false)
   const [search,  setSearch]    = useState('')
   const [borough, setBorough]   = useState(null)
@@ -966,6 +966,11 @@ function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, t
         </div>
       </div>
 
+      {/* Admin (only visible to admin account) */}
+      {onAdmin && (
+        <button className="profile-admin-btn" onClick={onAdmin}>🛠 Admin Dashboard</button>
+      )}
+
       {/* Sign out */}
       <button className="profile-signout-btn" onClick={onLogOut}>Sign out</button>
     </div>
@@ -992,7 +997,7 @@ export default function HomeScreen({
   addFriendError, setAddFriendError, onAddFriend, onRemoveFriend,
   onSendFriendRequest, onAcceptFriendRequest, onDeclineFriendRequest,
   challenges, onSendBattle, onAcceptBattle, onDeclineBattle, onPlayBattle,
-  initialTab,
+  initialTab, onAdmin,
 }) {
   const [tab, setTab] = useState(initialTab ?? 'study')
 
@@ -1047,7 +1052,7 @@ export default function HomeScreen({
         <ProfileTab
           user={user} school={school} saveSchool={saveSchool}
           xp={xp} streak={streak} history={history} onLogOut={onLogOut}
-          theme={theme} setTheme={setTheme}
+          theme={theme} setTheme={setTheme} onAdmin={onAdmin}
         />
       )}
 

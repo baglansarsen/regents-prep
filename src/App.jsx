@@ -25,6 +25,7 @@ import BookmarksScreen from './screens/BookmarksScreen'
 import SpeedRoundScreen, { SpeedResults } from './screens/SpeedRoundScreen'
 import ChallengeResultScreen from './screens/ChallengeResultScreen'
 import SchoolOnboardingScreen from './screens/SchoolOnboardingScreen'
+import AdminScreen, { ADMIN_EMAIL } from './screens/AdminScreen'
 
 export default function App() {
   const { theme, setTheme } = useTheme()
@@ -252,6 +253,7 @@ export default function App() {
           onDeclineBattle={declineBattle}
           onPlayBattle={handlePlayBattle}
           initialTab={homeTab}
+          onAdmin={user?.email === ADMIN_EMAIL ? () => setScreen('admin') : null}
         />
       )}
 
@@ -335,6 +337,10 @@ export default function App() {
 
       {screen === 'challengeResult' && challengeResult && (
         <ChallengeResultScreen {...challengeResult} onHome={goFriends} />
+      )}
+
+      {screen === 'admin' && (
+        <AdminScreen user={user} onHome={goHome} />
       )}
 
       {currentToast && <AchievementToast achievement={currentToast} onDismiss={dismissToast} />}
