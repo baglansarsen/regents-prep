@@ -126,9 +126,17 @@ export default function App() {
     logActivity({ type: 'challenge', label: 'finished a battle', emoji: '⚔️', xp: score })
     const opponentName = activeBattle.role === 'sender' ? activeBattle.toName : activeBattle.fromName
     const { done, opponentScore } = await submitScore(activeBattle.id, score, activeBattle.role)
-    setChallengeResult({ myScore: score, opponentScore: done ? opponentScore : null, opponentName })
     setActiveBattle(null)
-    setScreen('challengeResult')
+    if (done) {
+      // Both players have finished — show win/lose/tie result
+      setChallengeResult({ myScore: score, opponentScore, opponentName })
+      setScreen('challengeResult')
+    } else {
+      // Opponent hasn't played yet — go straight to Friends tab to wait there
+      setHomeTab('friends')
+      setScreen('home')
+      setChallengeResult(null)
+    }
   }, [activeBattle, submitScore, earnXP, markStudied, logActivity])
 
   const finishDiagnostic = useCallback((result) => {
