@@ -65,6 +65,9 @@ export function useFriends(uid, user) {
       setSent(sent.filter((r) => r.status === 'pending'))
       setIncoming(incoming.filter((r) => r.status === 'pending'))
 
+      // Deduplicate by uid — two requests between the same pair (one sent, one received)
+      // both accepted would otherwise produce two entries for the same person
+      const seen = new Set()
       const acceptedFriends = [
         ...sent.filter((r) => r.status === 'accepted').map((r) => ({
           requestId:   r.id,
@@ -78,7 +81,11 @@ export function useFriends(uid, user) {
           displayName: r.fromName,
           photoURL:    r.fromPhoto ?? null,
         })),
-      ]
+      ].filter((f) => {
+        if (seen.has(f.uid)) return false
+        seen.add(f.uid)
+        return true
+      })
       setFriendsBase(acceptedFriends)
     }
 
