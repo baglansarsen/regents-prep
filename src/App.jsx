@@ -20,6 +20,7 @@ import DiagnosticResultsScreen from './screens/DiagnosticResultsScreen'
 import AchievementsScreen from './screens/AchievementsScreen'
 import AchievementToast from './components/AchievementToast'
 import BookmarksScreen from './screens/BookmarksScreen'
+import SpeedRoundScreen, { SpeedResults } from './screens/SpeedRoundScreen'
 
 export default function App() {
   const { theme, setTheme } = useTheme()
@@ -45,6 +46,7 @@ export default function App() {
   const [quizResult, setQuizResult] = useState(null)
   const [activeTopic, setActiveTopic] = useState(null)
   const [diagResult, setDiagResult] = useState(null)
+  const [speedResult, setSpeedResult] = useState(null)
 
   const startQuiz = useCallback((topic) => {
     const pool = topic ? getByTopic(topic) : questions
@@ -56,6 +58,11 @@ export default function App() {
   const startPracticeTest = useCallback(() => {
     setQuestionSet(shuffled(questions))
     setScreen('practiceTest')
+  }, [])
+
+  const startSpeedRound = useCallback(() => {
+    setQuestionSet(shuffled(questions))
+    setScreen('speedRound')
   }, [])
 
   const startDiagnostic = useCallback(() => {
@@ -99,7 +106,7 @@ export default function App() {
   }, [spendXP, markStudied])
 
   const retry  = useCallback(() => startQuiz(activeTopic), [activeTopic, startQuiz])
-  const goHome = useCallback(() => { setScreen('home'); setQuizResult(null); setDiagResult(null) }, [])
+  const goHome = useCallback(() => { setScreen('home'); setQuizResult(null); setDiagResult(null); setSpeedResult(null) }, [])
 
   if (user === undefined) {
     return <div className="app-shell loading-shell"><span className="loading-dot" /></div>
@@ -133,6 +140,7 @@ export default function App() {
           xp={xp}
           onBuyStreak={buyStreak}
           onDiagnostic={startDiagnostic}
+          onSpeedRound={startSpeedRound}
           earnedIds={earnedIds}
           allAchievements={allAchievements}
           earnXP={earnXP}
@@ -202,6 +210,27 @@ export default function App() {
             setActiveTopic(null)
             setScreen('quiz')
           }}
+        />
+      )}
+
+      {screen === 'speedRound' && questionSet.length > 0 && !speedResult && (
+        <SpeedRoundScreen
+          key={questionSet[0]?.id}
+          questionSet={questionSet}
+          onDone={(result) => {
+            setSpeedResult(result)
+            markStudied()
+            earnXP(result.results.filter((r) => r.correct).length * 10)
+          }}
+          onHome={goHome}
+        />
+      )}
+
+      {screen === 'speedRound' && speedResult && (
+        <SpeedResults
+          {...speedResult}
+          onRetry={startSpeedRound}
+          onHome={goHome}
         />
       )}
 

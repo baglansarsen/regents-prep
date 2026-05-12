@@ -32,7 +32,7 @@ function Avatar({ photoURL, name, size = 32, className = '' }) {
 
 // ── Study Tab ──────────────────────────────────────────────────────────────
 
-function StudyTab({ onStart, onPracticeTest, onDiagnostic, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit }) {
+function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit }) {
   const allTopics = Object.values(TOPICS)
   return (
     <div className="tab-panel">
@@ -85,6 +85,11 @@ function StudyTab({ onStart, onPracticeTest, onDiagnostic, masteryPct, isUnlocke
           <span className="quick-icon">🔍</span>
           <p className="quick-name">Diagnostic</p>
           <p className="quick-sub">18 questions</p>
+        </button>
+        <button className="quick-speed" onClick={onSpeedRound}>
+          <span className="quick-icon">⚡</span>
+          <p className="quick-name">Speed Round</p>
+          <p className="quick-sub">60 seconds</p>
         </button>
       </div>
 
@@ -245,9 +250,51 @@ function CardsTab({ uid, earnXP }) {
   )
 }
 
+// ── XP History Chart ───────────────────────────────────────────────────────
+
+function XPHistoryChart({ history, xp }) {
+  const sessions = [...history].reverse() // oldest → newest
+  if (sessions.length < 1) return null
+
+  const xpValues = sessions.map((s) => (s.correct ?? 0) * 10)
+  const maxXP = Math.max(...xpValues, 1)
+
+  return (
+    <div className="xp-chart-card">
+      <div className="xp-chart-header">
+        <span className="xp-chart-title">XP History</span>
+        <span className="xp-chart-total">💫 {xp.toLocaleString()} XP total</span>
+      </div>
+      <div className="xp-chart-bars">
+        {sessions.map((s, i) => {
+          const earned = (s.correct ?? 0) * 10
+          const heightPct = Math.max(6, Math.round((earned / maxXP) * 100))
+          const color = s.pct >= 85 ? '#22c55e' : s.pct >= 65 ? '#6366f1' : '#f59e0b'
+          return (
+            <div key={s.id ?? i} className="xp-bar-col">
+              <span className="xp-bar-value">+{earned}</span>
+              <div className="xp-bar-track">
+                <div className="xp-bar-fill" style={{ height: `${heightPct}%`, background: color }} />
+              </div>
+              <span className="xp-bar-label" title={s.topic}>
+                {s.topic === 'All Topics' ? '⚡' : (TOPIC_ICONS[s.topic] ?? '📝')}
+              </span>
+            </div>
+          )
+        })}
+      </div>
+      <div className="xp-chart-legend">
+        <span className="xp-legend-dot" style={{ background: '#22c55e' }} />mastery
+        <span className="xp-legend-dot" style={{ background: '#6366f1', marginLeft: 10 }} />passing
+        <span className="xp-legend-dot" style={{ background: '#f59e0b', marginLeft: 10 }} />practice
+      </div>
+    </div>
+  )
+}
+
 // ── Progress Tab ───────────────────────────────────────────────────────────
 
-function ProgressTab({ history, masteryPct, isUnlocked, completedCount, totalTopics, earnedIds, allAchievements, onAnalytics, onAchievements, onBookmarks, bookmarkedIds }) {
+function ProgressTab({ history, xp, masteryPct, isUnlocked, completedCount, totalTopics, earnedIds, allAchievements, onAnalytics, onAchievements, onBookmarks, bookmarkedIds }) {
   const allTopics   = Object.values(TOPICS)
   const bestPct     = history.length ? Math.max(...history.map((h) => h.pct)) : null
   const earnedCount = earnedIds?.size ?? 0
@@ -262,6 +309,7 @@ function ProgressTab({ history, masteryPct, isUnlocked, completedCount, totalTop
           <div className="stat-chip"><span className="stat-value">{history[0].pct}%</span><span className="stat-label">last quiz</span></div>
         </div>
       )}
+      <XPHistoryChart history={history} xp={xp} />
       <div className="unlock-path">
         <div className="unlock-path-header">
           <span className="unlock-path-label">TOPIC PATH</span>
@@ -512,7 +560,7 @@ function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, t
 // ── Main HomeScreen ────────────────────────────────────────────────────────
 
 export default function HomeScreen({
-  onStart, onPracticeTest, onAnalytics, onDiagnostic, onAchievements,
+  onStart, onPracticeTest, onAnalytics, onDiagnostic, onSpeedRound, onAchievements,
   user, onLogOut,
   history, streak, studiedToday, weekDays,
   masteryPct, isUnlocked, unlockHint,
@@ -537,7 +585,7 @@ export default function HomeScreen({
 
       {tab === 'study' && (
         <StudyTab
-          onStart={onStart} onPracticeTest={onPracticeTest} onDiagnostic={onDiagnostic}
+          onStart={onStart} onPracticeTest={onPracticeTest} onDiagnostic={onDiagnostic} onSpeedRound={onSpeedRound}
           masteryPct={masteryPct} isUnlocked={isUnlocked} unlockHint={unlockHint}
           streak={streak} studiedToday={studiedToday} weekDays={weekDays}
           xp={xp} onBuyStreak={onBuyStreak}
@@ -548,7 +596,7 @@ export default function HomeScreen({
       {tab === 'cards' && <CardsTab uid={user?.uid} earnXP={earnXP} />}
       {tab === 'progress' && (
         <ProgressTab
-          history={history} masteryPct={masteryPct} isUnlocked={isUnlocked}
+          history={history} xp={xp} masteryPct={masteryPct} isUnlocked={isUnlocked}
           completedCount={completedCount} totalTopics={totalTopics}
           earnedIds={earnedIds} allAchievements={allAchievements}
           onAnalytics={onAnalytics} onAchievements={onAchievements}
