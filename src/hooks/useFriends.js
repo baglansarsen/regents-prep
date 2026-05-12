@@ -3,6 +3,8 @@ import {
   doc, getDoc, setDoc, deleteDoc, getDocs, addDoc, updateDoc,
   collection, query, where, orderBy, limit,
 } from 'firebase/firestore'
+// friendCodes/{code} → { uid, displayName, photoURL }
+// Direct doc-ID lookup — no query index, no dependency on school being set
 import { db } from '../firebase'
 
 function generateCode() {
@@ -39,7 +41,16 @@ export function useFriends(uid, user) {
         code = generateCode()
         await setDoc(profileRef, { friendCode: code }, { merge: true })
       }
-      try { await setDoc(doc(db, 'leaderboard', uid), { friendCode: code }, { merge: true }) } catch {}
+      // Write to leaderboard (includes uid field so lookups work even without school)
+      try { await setDoc(doc(db, 'leaderboard', uid), { friendCode: code, uid }, { merge: true }) } catch {}
+      // Write to dedicated lookup table — fast doc-ID lookup, no index required
+      try {
+        await setDoc(doc(db, 'friendCodes', code), {
+          uid,
+          displayName: user?.displayName ?? 'Unknown',
+          photoURL:    user?.photoURL    ?? null,
+        })
+      } catch {}
       setFriendCode(code)
 
       // Load all friendRequests involving this user
@@ -149,7 +160,8 @@ export function useFriends(uid, user) {
     [uid, user, friendsBase, sentRequests, incomingRequests],
   )
 
-  // Add friend by code — looks up leaderboard then calls sendRequest
+  // Add friend by code — looks up friendCodes collection (fast doc-ID lookup),
+  // falls back to leaderboard query for users registered before this change
   const addFriend = useCallback(
     async (code) => {
       setAddError(null)
@@ -157,11 +169,21 @@ export function useFriends(uid, user) {
       const clean = code.trim().toUpperCase()
       if (clean === friendCode) { setAddError("That's your own code!"); return false }
       try {
-        const snap = await getDocs(query(collection(db, 'leaderboard'), where('friendCode', '==', clean), limit(1)))
-        if (snap.empty) { setAddError('No user found with that code.'); return false }
-        const profile   = snap.docs[0].data()
+        // Primary: direct lookup by document ID (no index, no school required)
+        const codeSnap = await getDoc(doc(db, 'friendCodes', clean))
+        if (codeSnap.exists()) {
+          const profile   = codeSnap.data()
+          const targetUid = profile.uid
+          if (!targetUid) { setAddError('Invalid code.'); return false }
+          return await sendRequest(targetUid, profile)
+        }
+
+        // Fallback: leaderboard query (for users who signed up before friendCodes existed)
+        const lbSnap = await getDocs(query(collection(db, 'leaderboard'), where('friendCode', '==', clean), limit(1)))
+        if (lbSnap.empty) { setAddError('No user found with that code. Ask them to open the app first.'); return false }
+        const profile   = lbSnap.docs[0].data()
         const targetUid = profile.uid
-        if (!targetUid) { setAddError('Invalid code.'); return false }
+        if (!targetUid) { setAddError('No user found with that code. Ask them to open the app first.'); return false }
         return await sendRequest(targetUid, profile)
       } catch {
         setAddError('Could not send request. Try again.')
