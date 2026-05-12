@@ -6,7 +6,6 @@ import { useDailyStreak } from './hooks/useDailyStreak'
 import { useUnlocks } from './hooks/useUnlocks'
 import { useXP } from './hooks/useXP'
 import { useAchievements } from './hooks/useAchievements'
-import { useFlashcards } from './hooks/useFlashcards'
 import { useSchool } from './hooks/useSchool'
 import { useDailyQuestion } from './hooks/useDailyQuestion'
 import { useBookmarks } from './hooks/useBookmarks'
@@ -19,7 +18,6 @@ import AnalyticsScreen from './screens/AnalyticsScreen'
 import DiagnosticResultsScreen from './screens/DiagnosticResultsScreen'
 import AchievementsScreen from './screens/AchievementsScreen'
 import AchievementToast from './components/AchievementToast'
-import FlashcardScreen from './screens/FlashcardScreen'
 import BookmarksScreen from './screens/BookmarksScreen'
 
 export default function App() {
@@ -30,7 +28,6 @@ export default function App() {
   const { xp, earnXP, spendXP } = useXP(user?.uid)
   const { earnedIds, allAchievements, currentToast, dismissToast, recordPracticeTest, recordDiagnostic } =
     useAchievements(user?.uid, { history, streak, xp })
-  const { knownIds, markKnown, markLearning, resetAll } = useFlashcards(user?.uid)
   const { school, saveSchool } = useSchool(user, xp, earnedIds)
   const { bookmarkedIds, toggle: toggleBookmark, remove: removeBookmark } = useBookmarks(user?.uid)
   const { question: dailyQ, answeredToday: dailyAnswered, record: dailyRecord, loading: dailyLoading, submitAnswer: submitDailyAnswer } = useDailyQuestion(user?.uid)
@@ -136,10 +133,6 @@ export default function App() {
           onDiagnostic={startDiagnostic}
           earnedIds={earnedIds}
           allAchievements={allAchievements}
-          knownIds={knownIds}
-          markKnown={markKnown}
-          markLearning={markLearning}
-          resetAll={resetAll}
           school={school}
           saveSchool={saveSchool}
           dailyQ={dailyQ}
@@ -179,16 +172,6 @@ export default function App() {
 
       {screen === 'achievements' && (
         <AchievementsScreen allAchievements={allAchievements} earnedIds={earnedIds} onHome={goHome} />
-      )}
-
-      {screen === 'flashcards' && (
-        <FlashcardScreen
-          onHome={goHome}
-          knownIds={knownIds}
-          markKnown={markKnown}
-          markLearning={markLearning}
-          resetAll={resetAll}
-        />
       )}
 
       {screen === 'diagnostic' && questionSet.length > 0 && (

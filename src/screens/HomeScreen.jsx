@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react'
 import { TOPICS, TOPIC_ICONS, questions } from '../data/questions'
-import { getFlashcardsByTopic, FLASHCARD_TOPIC_LIST } from '../data/flashcards'
+import { FLASHCARD_TOPIC_LIST } from '../data/flashcards'
+import { useSpacedRepetition, Q_AGAIN, Q_GOOD, Q_EASY, nextReviewLabel } from '../hooks/useSpacedRepetition'
 import { NY_SCHOOLS, BOROUGHS } from '../data/schools'
 import { useLeaderboard } from '../hooks/useLeaderboard'
 import TabBar from '../components/TabBar'
@@ -114,43 +115,47 @@ function StudyTab({ onStart, onPracticeTest, onDiagnostic, masteryPct, isUnlocke
   )
 }
 
-// ── Cards Tab ──────────────────────────────────────────────────────────────
+// ── Cards Tab (SM-2 spaced repetition) ────────────────────────────────────
 
-function CardsTab({ knownIds, markKnown, markLearning, resetAll }) {
-  const [topic, setTopic]     = useState(null)
-  const [reviewOnly, setReview] = useState(false)
-  const [index, setIndex]     = useState(0)
-  const [flipped, setFlipped] = useState(false)
-  const [done, setDone]       = useState(false)
+function CardsTab({ uid }) {
+  const { review, resetAll, buildDeck, getStats } = useSpacedRepetition(uid)
 
-  const deck = useMemo(() => {
-    let cards = getFlashcardsByTopic(topic)
-    if (reviewOnly) cards = cards.filter((c) => !knownIds.has(c.id))
-    return cards
-  }, [topic, reviewOnly, knownIds])
+  const [topic,     setTopic]   = useState(null)
+  const [browseAll, setBrowse]  = useState(false)
+  const [index,     setIndex]   = useState(0)
+  const [flipped,   setFlipped] = useState(false)
+  const [lastLabel, setLastLabel] = useState(null) // next-review hint after rating
+  const [done,      setDone]    = useState(false)
 
-  const card         = deck[index]
-  const knownCount   = deck.filter((c) =>  knownIds.has(c.id)).length
-  const stillLearning = deck.filter((c) => !knownIds.has(c.id)).length
+  const deck  = useMemo(() => buildDeck(topic, browseAll), [topic, browseAll, buildDeck])
+  const stats = useMemo(() => getStats(topic), [topic, getStats])
+  const card  = deck[index]
 
-  function next(isKnown) {
-    if (isKnown) markKnown(card.id); else markLearning(card.id)
+  function rate(quality) {
+    review(card.id, quality)
+    const label = quality >= Q_EASY ? 'in 6+ days' : quality >= Q_GOOD ? 'tomorrow' : 'in 1 day'
+    setLastLabel(label)
     setFlipped(false)
-    if (index + 1 >= deck.length) setDone(true)
-    else setTimeout(() => setIndex(index + 1), 120)
+    if (index + 1 >= deck.length) { setDone(true) }
+    else setTimeout(() => { setIndex(index + 1); setLastLabel(null) }, 180)
   }
-  function restart() { setIndex(0); setFlipped(false); setDone(false) }
-  function changeTopic(val) { setTopic(val); setIndex(0); setFlipped(false); setDone(false) }
+
+  function restart() { setIndex(0); setFlipped(false); setDone(false); setLastLabel(null) }
+  function changeTopic(val) { setTopic(val); setIndex(0); setFlipped(false); setDone(false); setLastLabel(null) }
 
   if (done) return (
     <div className="tab-panel">
       <div className="flashcard-done">
         <div className="flashcard-done-emoji">🎉</div>
-        <h2 className="flashcard-done-title">Deck complete!</h2>
-        <p className="flashcard-done-stats">{knownCount} known · {stillLearning} still learning</p>
+        <h2 className="flashcard-done-title">Session complete!</h2>
+        <p className="flashcard-done-stats">
+          {stats.reviewed} reviewed · {stats.mastered} mastered
+        </p>
         <div className="flashcard-done-actions">
-          {stillLearning > 0 && <button className="fc-btn fc-btn--review" onClick={() => { setReview(true); restart() }}>Review {stillLearning} remaining</button>}
-          <button className="fc-btn fc-btn--restart" onClick={restart}>Start over</button>
+          <button className="fc-btn fc-btn--restart" onClick={restart}>Study again</button>
+          {!browseAll && stats.total > deck.length && (
+            <button className="fc-btn fc-btn--review" onClick={() => { setBrowse(true); restart() }}>Browse all cards</button>
+          )}
         </div>
       </div>
     </div>
@@ -158,6 +163,7 @@ function CardsTab({ knownIds, markKnown, markLearning, resetAll }) {
 
   return (
     <div className="tab-panel flashcard-tab-panel">
+      {/* Topic chips */}
       <div className="flashcard-topic-row">
         {FLASHCARD_TOPIC_LIST.map(({ label, value }) => (
           <button key={label} className={`fc-topic-chip ${topic === value ? 'fc-topic-chip--active' : ''}`} onClick={() => changeTopic(value)}>
@@ -165,43 +171,72 @@ function CardsTab({ knownIds, markKnown, markLearning, resetAll }) {
           </button>
         ))}
       </div>
-      <div className="flashcard-filter-row">
-        <button className={`fc-filter-btn ${reviewOnly ? 'fc-filter-btn--active' : ''}`} onClick={() => { setReview((r) => !r); setIndex(0); setFlipped(false); setDone(false) }}>
-          📚 Still learning only
+
+      {/* SM-2 stats bar */}
+      <div className="sr-stats-bar">
+        <span className="sr-stat sr-stat--due">📚 {stats.due + stats.new} to study</span>
+        <span className="sr-stat sr-stat--new">✓ {stats.reviewed} reviewed</span>
+        <span className="sr-stat sr-stat--mastered">⭐ {stats.mastered} mastered</span>
+        <button
+          className={`sr-browse-toggle ${browseAll ? 'sr-browse-toggle--active' : ''}`}
+          onClick={() => { setBrowse((b) => !b); restart() }}
+        >
+          {browseAll ? 'Smart mode' : 'Browse all'}
         </button>
-        <button className="fc-filter-btn fc-filter-btn--reset" onClick={() => { resetAll(); restart() }}>↺ Reset</button>
       </div>
+
+      {/* Progress */}
       <div className="flashcard-progress">
         <span className="flashcard-progress-text">{deck.length ? index + 1 : 0} / {deck.length}</span>
         <div className="flashcard-progress-bar">
-          <div className="flashcard-progress-known"  style={{ width: deck.length ? `${(knownCount / deck.length) * 100}%` : '0%' }} />
+          <div className="flashcard-progress-known"  style={{ width: deck.length ? `${(stats.mastered / stats.total) * 100}%` : '0%' }} />
           <div className="flashcard-progress-cursor" style={{ width: deck.length ? `${((index + 1) / deck.length) * 100}%` : '0%' }} />
         </div>
-        <span className="flashcard-progress-known-label">✓ {knownCount}</span>
+        <button className="fc-filter-btn fc-filter-btn--reset" onClick={() => { resetAll(); restart() }}>↺</button>
       </div>
+
       {deck.length === 0 ? (
-        <div className="flashcard-empty"><p>No cards to review. Change the filter or topic.</p></div>
+        <div className="flashcard-empty">
+          <p>🎉 All caught up! No cards due right now.</p>
+          <button className="fc-btn fc-btn--restart" style={{ marginTop: 16 }} onClick={() => { setBrowse(true); restart() }}>Browse all cards</button>
+        </div>
       ) : (
-        <div className={`flashcard-card ${flipped ? 'flashcard-card--flipped' : ''}`} onClick={() => setFlipped((f) => !f)}>
-          <div className="flashcard-card-inner">
-            <div className="flashcard-face flashcard-face--front">
-              <span className="flashcard-face-label">TERM</span>
-              <p className="flashcard-term">{card.term}</p>
-              <span className="flashcard-tap-hint">tap to reveal</span>
-            </div>
-            <div className="flashcard-face flashcard-face--back">
-              <span className="flashcard-face-label">DEFINITION</span>
-              <p className="flashcard-definition">{card.definition}</p>
-              <span className="flashcard-topic-tag">{card.topic}</span>
+        <>
+          <div className={`flashcard-card ${flipped ? 'flashcard-card--flipped' : ''}`} onClick={() => setFlipped((f) => !f)}>
+            <div className="flashcard-card-inner">
+              <div className="flashcard-face flashcard-face--front">
+                <span className="flashcard-face-label">TERM</span>
+                <p className="flashcard-term">{card.term}</p>
+                <span className="flashcard-tap-hint">tap to reveal</span>
+              </div>
+              <div className="flashcard-face flashcard-face--back">
+                <span className="flashcard-face-label">DEFINITION</span>
+                <p className="flashcard-definition">{card.definition}</p>
+                <span className="flashcard-topic-tag">{card.topic}</span>
+              </div>
             </div>
           </div>
-        </div>
-      )}
-      {flipped && deck.length > 0 && (
-        <div className="flashcard-actions">
-          <button className="fc-action fc-action--learning" onClick={() => next(false)}>↻ Still learning</button>
-          <button className="fc-action fc-action--known"    onClick={() => next(true)}>✓ Got it!</button>
-        </div>
+
+          {flipped && (
+            <div className="sr-rate-row">
+              <button className="sr-btn sr-btn--again" onClick={() => rate(Q_AGAIN)}>
+                <span className="sr-btn-icon">↩</span>
+                <span className="sr-btn-label">Again</span>
+                <span className="sr-btn-hint">forgot</span>
+              </button>
+              <button className="sr-btn sr-btn--good" onClick={() => rate(Q_GOOD)}>
+                <span className="sr-btn-icon">✓</span>
+                <span className="sr-btn-label">Good</span>
+                <span className="sr-btn-hint">got it</span>
+              </button>
+              <button className="sr-btn sr-btn--easy" onClick={() => rate(Q_EASY)}>
+                <span className="sr-btn-icon">⚡</span>
+                <span className="sr-btn-label">Easy</span>
+                <span className="sr-btn-hint">too easy</span>
+              </button>
+            </div>
+          )}
+        </>
       )}
     </div>
   )
@@ -462,7 +497,6 @@ export default function HomeScreen({
   completedCount, totalTopics,
   xp, onBuyStreak,
   earnedIds, allAchievements,
-  knownIds, markKnown, markLearning, resetAll,
   school, saveSchool,
   dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit,
   onBookmarks, bookmarkedIds,
@@ -488,9 +522,7 @@ export default function HomeScreen({
           dailyLoading={dailyLoading} onDailySubmit={onDailySubmit}
         />
       )}
-      {tab === 'cards' && (
-        <CardsTab knownIds={knownIds} markKnown={markKnown} markLearning={markLearning} resetAll={resetAll} />
-      )}
+      {tab === 'cards' && <CardsTab uid={user?.uid} />}
       {tab === 'progress' && (
         <ProgressTab
           history={history} masteryPct={masteryPct} isUnlocked={isUnlocked}
