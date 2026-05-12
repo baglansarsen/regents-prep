@@ -2510,6 +2510,303 @@ export const questions = [
     ],
     correct: 3,
   },
+
+  // ── Lab Questions ───────────────────────────────────────────────────────────
+  // labType: 'experimental' | 'graphing' | 'microscopy' | 'dissection' | 'data'
+
+  // Experimental Design
+  {
+    id: 223, topic: TOPICS.CELL_BIOLOGY, labType: 'experimental',
+    text: 'A student tests whether temperature affects enzyme activity by measuring reaction rates at 10°C, 20°C, 37°C, and 50°C while keeping all other conditions the same. What is the independent variable in this experiment?',
+    choices: ['Reaction rate', 'Type of enzyme', 'Temperature', 'Amount of substrate'],
+    correct: 2,
+    explanation: 'The independent variable is the one the experimenter deliberately changes — temperature. Reaction rate is the dependent variable (what is measured).',
+  },
+  {
+    id: 224, topic: TOPICS.CELL_BIOLOGY, labType: 'experimental',
+    text: 'In a valid experiment, the control group differs from the experimental group in that the control group',
+    choices: [
+      'receives the experimental treatment at a higher dose',
+      'does not receive the experimental treatment',
+      'uses different measuring equipment',
+      'is observed for a longer period of time',
+    ],
+    correct: 1,
+    explanation: 'The control group is identical to the experimental group except it does not receive the variable being tested. It provides a baseline to compare results against.',
+  },
+  {
+    id: 225, topic: TOPICS.GENETICS, labType: 'experimental',
+    text: 'A student wants to determine whether a new fertilizer improves plant growth. She grows 20 identical bean plants — 10 get the fertilizer, 10 do not. Both groups receive the same amount of light, water, and soil. Why is it important to keep all other variables the same?',
+    choices: [
+      'To make the experiment faster',
+      'To ensure only the fertilizer causes any difference in growth',
+      'To use fewer resources',
+      'To make the data easier to graph',
+    ],
+    correct: 1,
+    explanation: 'Controlling all other variables (constants) ensures that any difference between the groups can only be caused by the fertilizer — the independent variable being tested.',
+  },
+  {
+    id: 226, topic: TOPICS.CELL_BIOLOGY, labType: 'experimental',
+    text: 'After an experiment, a student\'s results are very different from what was expected. What is the most appropriate next step?',
+    choices: [
+      'Change the hypothesis to match the results',
+      'Ignore the unexpected data',
+      'Repeat the experiment to check for errors',
+      'Conclude that the hypothesis was proven wrong after one trial',
+    ],
+    correct: 2,
+    explanation: 'Science requires reproducibility. Repeating the experiment helps determine whether the unexpected result was due to experimental error or a genuine finding.',
+  },
+  {
+    id: 227, topic: TOPICS.ECOLOGY, labType: 'experimental',
+    context: 'A student investigates water quality in a local stream by measuring dissolved oxygen levels at three sites: upstream from a factory, directly next to the factory discharge pipe, and downstream from the factory. She takes three measurements at each site on the same day.',
+    text: 'Taking three measurements at each site rather than one is most useful because it',
+    choices: [
+      'makes the experiment take longer',
+      'reduces the effect of random error and increases reliability',
+      'changes the independent variable',
+      'eliminates the need for a control',
+    ],
+    correct: 1,
+    explanation: 'Multiple trials at each site reduce the impact of random measurement errors and produce more reliable, reproducible results. Scientists use repeated trials to increase confidence in their data.',
+  },
+  {
+    id: 228, topic: TOPICS.CELL_BIOLOGY, labType: 'experimental',
+    text: 'A student observes that plants near a window grow toward the light. She hypothesizes that plants grow toward light because light is their only energy source. Which experimental result would best disprove this hypothesis?',
+    choices: [
+      'Plants grown in darkness die within weeks',
+      'Plants grow toward light even when nutrients are plentiful',
+      'Plants in a rotating pot grow equally in all directions despite having plenty of light',
+      'Plants grow faster under blue light than red light',
+    ],
+    correct: 2,
+    explanation: 'If plants grow equally in all directions when rotated (even with enough light), it suggests directional growth is a response to the direction of light, not simply due to needing energy — challenging the hypothesis.',
+  },
+
+  // Graph Reading
+  {
+    id: 229, topic: TOPICS.ECOLOGY, labType: 'graphing',
+    context: 'A graph shows two populations over 20 years. When the rabbit population rises, the fox population rises shortly after. When the rabbit population crashes, the fox population crashes soon after.',
+    text: 'What does this graph most likely illustrate?',
+    choices: [
+      'Competition between two prey species',
+      'A predator-prey relationship',
+      'Symbiosis between rabbits and foxes',
+      'The effect of disease on a single population',
+    ],
+    correct: 1,
+    explanation: 'The time-lagged relationship — fox numbers rising and falling after rabbit numbers — is the classic pattern of a predator-prey cycle. Foxes depend on rabbits for food, so their populations are coupled.',
+  },
+  {
+    id: 230, topic: TOPICS.ECOLOGY, labType: 'graphing',
+    context: 'A graph of population size over time shows a J-shaped curve followed by a plateau. The plateau occurs at 500 individuals.',
+    text: 'What does the plateau at 500 individuals most likely represent?',
+    choices: [
+      'The point where the population went extinct',
+      'The carrying capacity of the environment',
+      'The beginning of exponential growth',
+      'The maximum birth rate',
+    ],
+    correct: 1,
+    explanation: 'The plateau in an S-shaped (logistic) growth curve represents the carrying capacity — the maximum population size the environment can support given available resources.',
+  },
+  {
+    id: 231, topic: TOPICS.CELL_BIOLOGY, labType: 'graphing',
+    context: 'A graph shows enzyme reaction rate (y-axis) versus temperature (x-axis). The rate increases from 10°C to 37°C, peaks at 37°C, then drops sharply to nearly zero at 60°C.',
+    text: 'What most likely explains the sharp drop in reaction rate above 37°C?',
+    choices: [
+      'The substrate runs out at high temperatures',
+      'The enzyme is denatured and loses its shape',
+      'The reaction reverses direction at high temperatures',
+      'Heat provides energy that slows the reaction',
+    ],
+    correct: 1,
+    explanation: 'High temperatures break the weak bonds that maintain an enzyme\'s three-dimensional shape. The enzyme denatures (unfolds), its active site changes shape, and it can no longer bind the substrate.',
+  },
+  {
+    id: 232, topic: TOPICS.ECOLOGY, labType: 'graphing',
+    context: 'An energy pyramid shows: Producers = 10,000 kcal; Primary consumers = 1,000 kcal; Secondary consumers = 100 kcal; Tertiary consumers = 10 kcal.',
+    text: 'What percentage of energy is transferred from one level to the next in this pyramid?',
+    choices: ['1%', '5%', '10%', '50%'],
+    correct: 2,
+    explanation: 'Only about 10% of energy is transferred from one trophic level to the next. The remaining 90% is lost as heat through metabolism. This is called the 10% rule.',
+  },
+  {
+    id: 233, topic: TOPICS.CELL_BIOLOGY, labType: 'graphing',
+    context: 'A student graphs the rate of photosynthesis (mL of O₂ produced per minute) versus light intensity. The graph rises steeply at first, then flattens into a horizontal line at high light intensity.',
+    text: 'What does the flattening of the graph at high light intensity indicate?',
+    choices: [
+      'The plant is producing too much oxygen',
+      'Another factor (such as CO₂ or enzymes) is now limiting the rate',
+      'Light is no longer needed at high intensity',
+      'The plant has run out of chlorophyll',
+    ],
+    correct: 1,
+    explanation: 'When the graph plateaus, light is no longer the limiting factor. Another variable — such as CO₂ concentration or the amount of available enzymes — is now restricting the rate of photosynthesis.',
+  },
+
+  // Microscopy
+  {
+    id: 234, topic: TOPICS.CELL_BIOLOGY, labType: 'microscopy',
+    text: 'A compound light microscope has an eyepiece magnification of 10× and an objective lens of 40×. What is the total magnification of the specimen?',
+    choices: ['40×', '50×', '400×', '4,000×'],
+    correct: 2,
+    explanation: 'Total magnification = eyepiece magnification × objective magnification = 10 × 40 = 400×.',
+  },
+  {
+    id: 235, topic: TOPICS.CELL_BIOLOGY, labType: 'microscopy',
+    text: 'When a student switches from the low-power objective (10×) to the high-power objective (40×) on a compound microscope, what happens to the field of view?',
+    choices: [
+      'It gets larger and shows more cells',
+      'It gets smaller and shows fewer cells in greater detail',
+      'The brightness increases',
+      'The field of view stays the same size',
+    ],
+    correct: 1,
+    explanation: 'Increasing magnification narrows the field of view. Under high power you see a smaller area but in greater detail. Brightness also decreases, which is why the diaphragm may need adjustment.',
+  },
+  {
+    id: 236, topic: TOPICS.CELL_BIOLOGY, labType: 'microscopy',
+    text: 'A student preparing a wet mount of cheek cells adds iodine solution to the slide. What is the purpose of the iodine stain?',
+    choices: [
+      'To kill the cells so they stop moving',
+      'To make cell structures more visible by adding contrast',
+      'To increase the magnification of the microscope',
+      'To prevent the coverslip from sliding',
+    ],
+    correct: 1,
+    explanation: 'Stains like iodine bind to specific cell structures and add color contrast, making organelles and other features easier to see under a microscope. Without stain, many cell components are nearly transparent.',
+  },
+  {
+    id: 237, topic: TOPICS.CELL_BIOLOGY, labType: 'microscopy',
+    context: 'A student observes cells under a microscope and sees small, green disk-shaped structures inside plant cells. The same structures are not found in animal cheek cells viewed on the same slide.',
+    text: 'What are the green disk-shaped structures, and why are they absent in animal cells?',
+    choices: [
+      'Mitochondria — animal cells use a different type of respiration',
+      'Chloroplasts — animal cells cannot perform photosynthesis',
+      'Vacuoles — animal cells store water differently',
+      'Nuclei — animal cells have dissolved nuclei',
+    ],
+    correct: 1,
+    explanation: 'Chloroplasts are the photosynthetic organelles found only in plant (and algae) cells. Animal cells cannot perform photosynthesis and therefore lack chloroplasts.',
+  },
+
+  // Dissection
+  {
+    id: 238, topic: TOPICS.HUMAN_BODY, labType: 'dissection',
+    context: 'During a frog dissection, a student opens the abdominal cavity and observes a large, dark-red three-lobed organ and a smaller green sac attached to it.',
+    text: 'What are these two structures, and what does the green sac store?',
+    choices: [
+      'Heart and pericardial sac — stores fluid that protects the heart',
+      'Liver and gallbladder — the gallbladder stores bile produced by the liver',
+      'Kidney and urinary bladder — stores urine',
+      'Stomach and spleen — stores blood cells',
+    ],
+    correct: 1,
+    explanation: 'The large dark-red multi-lobed organ is the liver — the largest organ in the body cavity. The small green sac attached to it is the gallbladder, which stores bile used to emulsify fats during digestion.',
+  },
+  {
+    id: 239, topic: TOPICS.HUMAN_BODY, labType: 'dissection',
+    context: 'A student dissecting an earthworm identifies five pairs of muscular, pulsating tubes near the front end of the worm. These structures are connected to a dorsal blood vessel running the length of the body.',
+    text: 'These pulsating structures function most similarly to which human organ?',
+    choices: ['Lungs', 'Kidneys', 'Heart', 'Liver'],
+    correct: 2,
+    explanation: 'The aortic arches (often called "hearts") of the earthworm pump blood through the circulatory system, functioning similarly to the human heart. Earthworms have a closed circulatory system.',
+  },
+  {
+    id: 240, topic: TOPICS.CELL_BIOLOGY, labType: 'dissection',
+    context: 'A student examines a cross-section of a leaf under a microscope. She identifies a tightly packed layer of elongated cells directly below the upper epidermis, each containing many green organelles.',
+    text: 'What is this layer called, and why does it contain so many chloroplasts?',
+    choices: [
+      'Guard cells — they open and close to regulate gas exchange',
+      'Palisade mesophyll — it is the primary site of photosynthesis and positioned to receive the most light',
+      'Spongy mesophyll — it stores glucose produced during photosynthesis',
+      'Phloem — it transports photosynthetic products through the leaf',
+    ],
+    correct: 1,
+    explanation: 'The palisade mesophyll layer is just below the upper surface of the leaf and receives direct sunlight. Its tightly packed, elongated cells are densely packed with chloroplasts to maximize photosynthesis.',
+  },
+  {
+    id: 241, topic: TOPICS.HUMAN_BODY, labType: 'dissection',
+    context: 'During a frog dissection, a student traces the digestive system from the mouth through the esophagus into a muscular J-shaped organ. Food then passes into a long, coiled tube before reaching the large intestine.',
+    text: 'What is the primary function of the long coiled tube (small intestine) in this digestive pathway?',
+    choices: [
+      'Mechanical breakdown of food using muscle contractions only',
+      'Storage of food before digestion begins',
+      'Chemical digestion and absorption of nutrients into the bloodstream',
+      'Removal of water from undigested material',
+    ],
+    correct: 2,
+    explanation: 'The small intestine is the main site of chemical digestion (using enzymes from the pancreas and intestinal wall) and nutrient absorption into the bloodstream via villi and microvilli.',
+  },
+
+  // Data Analysis
+  {
+    id: 242, topic: TOPICS.ECOLOGY, labType: 'data',
+    context: 'A student counted the number of different bird species in three forest patches of different sizes: Patch A (1 acre) = 4 species; Patch B (5 acres) = 11 species; Patch C (20 acres) = 23 species.',
+    text: 'Which conclusion is best supported by this data?',
+    choices: [
+      'Larger forest patches have lower biodiversity',
+      'Habitat size and species diversity are not related',
+      'Larger forest patches tend to support greater species diversity',
+      'Small patches have more species per acre than large patches',
+    ],
+    correct: 2,
+    explanation: 'The data shows a clear trend: as patch size increases, so does the number of species. This supports the conclusion that larger habitats support greater biodiversity — a key principle in conservation biology.',
+  },
+  {
+    id: 243, topic: TOPICS.CELL_BIOLOGY, labType: 'data',
+    context: 'Three students each measured the mass of the same object five times. Student A got: 10.1, 10.2, 10.1, 10.2, 10.1 g. Student B got: 9.5, 10.5, 10.0, 9.8, 10.2 g. Student C got: 8.0, 8.0, 8.0, 8.0, 8.0 g. The actual mass is 10.1 g.',
+    text: 'Whose data is both precise AND accurate?',
+    choices: [
+      'Student A — consistent results very close to the true value',
+      'Student B — results that vary but average near the true value',
+      'Student C — perfectly consistent results',
+      'All three students, because they all performed five trials',
+    ],
+    correct: 0,
+    explanation: 'Accuracy means close to the true value; precision means consistent results. Student A is both — their readings cluster tightly around 10.1 g (the actual mass). Student C is precise but not accurate (consistently wrong). Student B is neither precise nor accurate.',
+  },
+  {
+    id: 244, topic: TOPICS.GENETICS, labType: 'data',
+    context: 'A student crosses two heterozygous pea plants (Tt × Tt) and records the offspring: 28 tall, 9 short. The expected ratio from a Punnett square is 3 tall : 1 short.',
+    text: 'Why might the student\'s results differ slightly from the expected 3:1 ratio?',
+    choices: [
+      'The student made an error in setting up the cross',
+      'Natural variation due to small sample size — probability predictions become more accurate with larger samples',
+      'The trait is sex-linked and behaves differently in small crosses',
+      'The short allele mutated during the experiment',
+    ],
+    correct: 1,
+    explanation: 'Probability-based predictions (like Mendelian ratios) become more accurate with larger sample sizes. With only 37 offspring, random chance means the actual ratio may differ somewhat from the theoretical 3:1.',
+  },
+  {
+    id: 245, topic: TOPICS.ECOLOGY, labType: 'data',
+    context: 'A researcher measures average global temperature and atmospheric CO₂ concentration for each decade from 1900 to 2020. Both measurements increase over time, and the data points form a strong upward trend on a scatter plot.',
+    text: 'What is the most accurate interpretation of this data?',
+    choices: [
+      'Rising CO₂ causes temperature to rise — the data proves cause and effect',
+      'Rising temperature causes CO₂ levels to rise — the correlation shows direction',
+      'CO₂ and temperature show a positive correlation, but correlation alone does not prove causation',
+      'The data shows no meaningful relationship between CO₂ and temperature',
+    ],
+    correct: 2,
+    explanation: 'Correlation means two variables change together — but does not by itself prove that one causes the other. Additional experimental evidence is needed to establish causation. (Scientific consensus from many studies does support that CO₂ drives warming, but a single correlation graph cannot prove this alone.)',
+  },
+  {
+    id: 246, topic: TOPICS.HUMAN_BODY, labType: 'data',
+    context: 'A student tests the effect of exercise on heart rate. She records resting heart rate, heart rate immediately after 2 minutes of jumping jacks, and heart rate 5 minutes after stopping exercise. Results: Rest = 68 bpm; After exercise = 142 bpm; Recovery = 79 bpm.',
+    text: 'What do these results suggest about the relationship between exercise and heart rate?',
+    choices: [
+      'Exercise permanently increases heart rate',
+      'Exercise increases heart rate, and the body returns toward resting rate during recovery — consistent with homeostasis',
+      'Heart rate only changes if exercise lasts more than 5 minutes',
+      'Recovery heart rate is always the same as resting heart rate',
+    ],
+    correct: 1,
+    explanation: 'The data shows heart rate rises during exercise (to deliver more oxygen to muscles) and then returns toward the resting rate during recovery. This pattern of returning to normal conditions is an example of homeostasis.',
+  },
 ]
 
 export function getByTopic(topic) {
@@ -2518,6 +2815,19 @@ export function getByTopic(topic) {
 
 export function getContextual() {
   return questions.filter((q) => q.context)
+}
+
+export const LAB_TYPES = {
+  experimental: 'Experimental Design',
+  graphing:     'Graph Reading',
+  microscopy:   'Microscopy',
+  dissection:   'Dissection',
+  data:         'Data Analysis',
+}
+
+export function getLabQuestions(labType) {
+  if (labType) return questions.filter((q) => q.labType === labType)
+  return questions.filter((q) => q.labType)
 }
 
 export function shuffled(arr) {

@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react'
-import { TOPICS, TOPIC_ICONS, questions } from '../data/questions'
+import { TOPICS, TOPIC_ICONS, questions, LAB_TYPES } from '../data/questions'
 import { flashcards, FLASHCARD_TOPIC_LIST } from '../data/flashcards'
 import { useSpacedRepetition, Q_AGAIN, Q_GOOD, Q_EASY, nextReviewLabel } from '../hooks/useSpacedRepetition'
 import { NY_SCHOOLS, BOROUGHS } from '../data/schools'
@@ -30,9 +30,17 @@ function Avatar({ photoURL, name, size = 32, className = '' }) {
   )
 }
 
+const LAB_TYPE_ICONS = {
+  experimental: '🔬',
+  graphing:     '📈',
+  microscopy:   '🔭',
+  dissection:   '🫀',
+  data:         '📊',
+}
+
 // ── Study Tab ──────────────────────────────────────────────────────────────
 
-function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit }) {
+function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit }) {
   const allTopics = Object.values(TOPICS)
   return (
     <div className="tab-panel">
@@ -96,6 +104,23 @@ function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onConte
           <p className="quick-name">Context Practice</p>
           <p className="quick-sub">Read & analyze</p>
         </button>
+      </div>
+
+      {/* Lab Practice */}
+      <div className="lab-section">
+        <p className="lab-section-title">🧪 Lab Practice</p>
+        <div className="lab-btn-row">
+          {Object.entries(LAB_TYPES).map(([key, label]) => (
+            <button key={key} className="lab-btn" onClick={() => onLabPractice(key)}>
+              <span className="lab-btn-icon">{LAB_TYPE_ICONS[key]}</span>
+              <span className="lab-btn-label">{label}</span>
+            </button>
+          ))}
+          <button className="lab-btn lab-btn--all" onClick={() => onLabPractice(null)}>
+            <span className="lab-btn-icon">🧪</span>
+            <span className="lab-btn-label">All Lab Questions</span>
+          </button>
+        </div>
       </div>
 
       <section className="topic-grid-section">
@@ -996,7 +1021,7 @@ function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, t
 // ── Main HomeScreen ────────────────────────────────────────────────────────
 
 export default function HomeScreen({
-  onStart, onPracticeTest, onAnalytics, onDiagnostic, onSpeedRound, onContextPractice, onAchievements,
+  onStart, onPracticeTest, onAnalytics, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, onAchievements,
   user, onLogOut,
   history, streak, studiedToday, weekDays,
   masteryPct, isUnlocked, unlockHint,
@@ -1028,7 +1053,7 @@ export default function HomeScreen({
 
       {tab === 'study' && (
         <StudyTab
-          onStart={onStart} onPracticeTest={onPracticeTest} onDiagnostic={onDiagnostic} onSpeedRound={onSpeedRound} onContextPractice={onContextPractice}
+          onStart={onStart} onPracticeTest={onPracticeTest} onDiagnostic={onDiagnostic} onSpeedRound={onSpeedRound} onContextPractice={onContextPractice} onLabPractice={onLabPractice}
           masteryPct={masteryPct} isUnlocked={isUnlocked} unlockHint={unlockHint}
           streak={streak} studiedToday={studiedToday} weekDays={weekDays}
           xp={xp} onBuyStreak={onBuyStreak}

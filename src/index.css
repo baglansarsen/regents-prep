@@ -3572,6 +3572,24 @@ html, body {
 .mc-option--correct .mc-option-icon { color: #22c55e; }
 .mc-option--wrong   .mc-option-icon { color: #ef4444; }
 
+/* ── Lab Practice Section ──────────────────────────────────────────────── */
+.lab-section { display: flex; flex-direction: column; gap: 8px; }
+.lab-section-title { font-size: .8rem; font-weight: 700; color: var(--text-muted); letter-spacing: .04em; margin: 0; }
+.lab-btn-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.lab-btn {
+  display: flex; flex-direction: column; align-items: center; gap: 5px;
+  padding: 12px 8px; border-radius: var(--r-lg);
+  background: var(--surface); border: 1px solid var(--border);
+  cursor: pointer; font-family: inherit; transition: border-color .15s, background .15s;
+}
+.lab-btn:hover { border-color: #06b6d4; background: rgba(6,182,212,.07); }
+.lab-btn-icon  { font-size: 1.4rem; }
+.lab-btn-label { font-size: .72rem; font-weight: 600; color: var(--text); text-align: center; line-height: 1.3; }
+.lab-btn--all  { grid-column: span 3; flex-direction: row; justify-content: center; gap: 8px;
+  background: linear-gradient(135deg, rgba(6,182,212,.12), rgba(8,145,178,.12));
+  border-color: rgba(6,182,212,.4); }
+.lab-btn--all .lab-btn-label { font-size: .82rem; }
+
 /* Flashcard XP display */
 .fc-xp-row {
   display: flex; align-items: center; gap: 10px; position: relative;

@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import { questions, getByTopic, shuffled, buildDiagnosticSet, getContextual } from './data/questions'
+import { questions, getByTopic, shuffled, buildDiagnosticSet, getContextual, getLabQuestions } from './data/questions'
 import { useAuth } from './hooks/useAuth'
 import { useTheme } from './hooks/useTheme'
 import { useProgress } from './hooks/useProgress'
@@ -83,6 +83,12 @@ export default function App() {
 
   const startContextPractice = useCallback(() => {
     setQuestionSet(shuffled(getContextual()))
+    setActiveTopic(null)
+    setScreen('quiz')
+  }, [])
+
+  const startLabPractice = useCallback((labType) => {
+    setQuestionSet(shuffled(getLabQuestions(labType)))
     setActiveTopic(null)
     setScreen('quiz')
   }, [])
@@ -253,6 +259,7 @@ export default function App() {
           onDeclineBattle={declineBattle}
           onPlayBattle={handlePlayBattle}
           initialTab={homeTab}
+          onLabPractice={startLabPractice}
           onAdmin={user?.email === ADMIN_EMAIL ? () => setScreen('admin') : null}
         />
       )}
