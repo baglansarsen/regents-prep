@@ -2627,6 +2627,249 @@ html, body {
 .theme-btn-icon  { font-size: 1.4rem; }
 .theme-btn-label { font-size: .75rem; font-weight: 600; }
 
+/* ── Friends Tab ─────────────────────────────────────────────────────────── */
+
+/* Sub-tab pills */
+.friends-pill-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.friends-pill {
+  flex: 1;
+  padding: 8px 0;
+  border-radius: 20px;
+  border: 2px solid var(--surface2);
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: .85rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all .15s;
+}
+.friends-pill--active {
+  border-color: var(--brand);
+  color: var(--brand-light);
+  background: rgba(99,102,241,.1);
+}
+
+/* Friend code card */
+.friend-code-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: var(--surface);
+  border: 1px solid var(--surface2);
+}
+.friend-code-left { display: flex; flex-direction: column; gap: 2px; }
+.friend-code-label {
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+.friend-code-value {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  color: var(--brand-light);
+  font-variant-numeric: tabular-nums;
+}
+.friend-code-actions { display: flex; gap: 8px; }
+.friend-code-copy, .friend-add-toggle {
+  padding: 7px 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: .82rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: opacity .15s;
+}
+.friend-code-copy {
+  background: var(--surface2);
+  color: var(--text-muted);
+}
+.friend-add-toggle {
+  background: var(--brand);
+  color: #fff;
+}
+.friend-add-toggle--active { background: #475569; }
+.friend-code-copy:hover, .friend-add-toggle:hover { opacity: .85; }
+
+/* Add friend form */
+.friend-add-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 14px;
+  background: var(--surface);
+  border-radius: 14px;
+  border: 1px solid var(--surface2);
+}
+.friend-code-input {
+  flex: 1;
+  min-width: 140px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 2px solid var(--surface2);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  font-family: inherit;
+  outline: none;
+  transition: border-color .15s;
+}
+.friend-code-input:focus { border-color: var(--brand); }
+.friend-add-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background: var(--brand);
+  color: #fff;
+  font-size: .88rem;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  transition: opacity .15s;
+}
+.friend-add-btn:disabled { opacity: .45; cursor: default; }
+.friend-add-error {
+  width: 100%;
+  font-size: .8rem;
+  color: var(--wrong);
+  margin: 0;
+  padding-left: 2px;
+}
+
+/* Section headers */
+.fr-section { display: flex; flex-direction: column; gap: 8px; }
+.fr-section-title {
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* Challenges */
+.challenge-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: rgba(245,158,11,.06);
+  border: 1px solid rgba(245,158,11,.2);
+}
+.challenge-card-info { display: flex; align-items: center; gap: 10px; }
+.challenge-from { font-size: .9rem; font-weight: 600; color: var(--text); margin: 0; }
+.challenge-score-hint { font-size: .78rem; color: var(--text-muted); margin: 0; }
+.challenge-accept-btn {
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: none;
+  background: var(--brand);
+  color: #fff;
+  font-size: .84rem;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: opacity .15s;
+}
+.challenge-accept-btn:hover { opacity: .85; }
+
+/* Friends leaderboard list */
+.friends-empty {
+  padding: 24px 0;
+  text-align: center;
+}
+.friends-empty-title { font-size: .95rem; font-weight: 600; color: var(--text); margin: 0 0 4px; }
+.friends-empty-sub   { font-size: .82rem; color: var(--text-muted); margin: 0; }
+
+.friends-list { display: flex; flex-direction: column; gap: 8px; }
+.friends-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: var(--surface);
+  border: 1px solid var(--surface2);
+}
+.friends-rank { font-size: .8rem; font-weight: 700; color: var(--text-muted); min-width: 24px; text-align: center; }
+.friends-card-info { flex: 1; min-width: 0; }
+.friends-card-name { font-size: .9rem; font-weight: 600; color: var(--text); margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.friends-card-xp   { font-size: .78rem; color: var(--text-muted); margin: 0; }
+.friends-card-actions { display: flex; gap: 6px; flex-shrink: 0; }
+.friends-challenge-btn, .friends-remove-btn {
+  width: 32px; height: 32px;
+  border-radius: 8px;
+  border: none;
+  font-size: .9rem;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: opacity .15s;
+}
+.friends-challenge-btn { background: rgba(99,102,241,.15); }
+.friends-remove-btn    { background: rgba(239,68,68,.1); color: #ef4444; font-size: .75rem; font-weight: 700; }
+.friends-challenge-btn:hover, .friends-remove-btn:hover { opacity: .7; }
+
+/* Completed challenge rows */
+.challenge-result-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--surface2);
+  background: var(--surface);
+}
+.challenge-result-row--win  { border-color: rgba(34,197,94,.3);  background: rgba(34,197,94,.05); }
+.challenge-result-row--loss { border-color: rgba(239,68,68,.2); background: rgba(239,68,68,.04); }
+.challenge-result-icon { font-size: 1.2rem; }
+.challenge-result-name   { font-size: .88rem; font-weight: 600; color: var(--text); margin: 0; }
+.challenge-result-scores { font-size: .78rem; color: var(--text-muted); margin: 0; }
+
+/* Activity feed */
+.activity-feed { display: flex; flex-direction: column; gap: 6px; }
+.activity-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--surface);
+  border: 1px solid var(--surface2);
+}
+.activity-emoji { font-size: 1.2rem; flex-shrink: 0; }
+.activity-text { flex: 1; min-width: 0; font-size: .85rem; color: var(--text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.activity-name  { font-weight: 700; color: var(--text); }
+.activity-label { }
+.activity-time  { font-size: .72rem; color: var(--text-muted); flex-shrink: 0; }
+
+/* Challenge Result Screen */
+.challenge-result-scores {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 12px;
+}
+.crs-block { text-align: center; }
+.crs-block--me .crs-pts { color: var(--brand-light); }
+.crs-pts   { font-size: 2rem; font-weight: 800; margin: 0; color: var(--text); }
+.crs-label { font-size: .8rem; color: var(--text-muted); margin: 4px 0 0; }
+.crs-vs    { font-size: 1rem; font-weight: 700; color: var(--text-muted); }
+
 /* ── XP History Chart ────────────────────────────────────────────────────── */
 
 .xp-chart-card {

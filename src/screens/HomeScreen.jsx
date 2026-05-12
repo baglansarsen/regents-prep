@@ -362,24 +362,22 @@ function ProgressTab({ history, xp, masteryPct, isUnlocked, completedCount, tota
   )
 }
 
-// ── Rankings Tab ───────────────────────────────────────────────────────────
+// ── School Leaderboard (reused in FriendsTab) ─────────────────────────────
 
-function RankingsTab({ user, school, onGoToProfile }) {
+function SchoolLeaderboard({ user, school, onGoToProfile }) {
   const { entries, loading, error } = useLeaderboard(school)
 
   if (!school) return (
-    <div className="tab-panel">
-      <div className="rankings-no-school">
-        <div className="rankings-no-school-icon">🏆</div>
-        <h3 className="rankings-no-school-title">Join your school's leaderboard</h3>
-        <p className="rankings-no-school-sub">Set your school in Profile to compete with classmates and see how you rank.</p>
-        <button className="rankings-set-school-btn" onClick={onGoToProfile}>Set school in Profile →</button>
-      </div>
+    <div className="rankings-no-school">
+      <div className="rankings-no-school-icon">🏆</div>
+      <h3 className="rankings-no-school-title">Join your school's leaderboard</h3>
+      <p className="rankings-no-school-sub">Set your school in Profile to compete with classmates.</p>
+      <button className="rankings-set-school-btn" onClick={onGoToProfile}>Set school in Profile →</button>
     </div>
   )
 
   return (
-    <div className="tab-panel">
+    <>
       <div className="rankings-school-banner">
         <span className="rankings-school-banner-icon">🏫</span>
         <div>
@@ -388,55 +386,218 @@ function RankingsTab({ user, school, onGoToProfile }) {
         </div>
         <button className="rankings-change-btn" onClick={onGoToProfile}>Edit</button>
       </div>
-
-      {loading && (
-        <div className="rankings-loading-state">
-          <div className="rankings-loading-spinner" />
-          <p>Loading rankings…</p>
-        </div>
-      )}
-      {error && <p className="rankings-error">⚠ {error}</p>}
-
+      {loading && <div className="rankings-loading-state"><div className="rankings-loading-spinner" /><p>Loading…</p></div>}
+      {error   && <p className="rankings-error">⚠ {error}</p>}
       {!loading && !error && entries.length === 0 && (
         <div className="rankings-be-first">
           <div className="rankings-be-first-icon">🌟</div>
           <p className="rankings-be-first-msg">Be the first from your school!</p>
-          <p className="rankings-be-first-sub">Complete quizzes to earn XP and appear here.</p>
         </div>
       )}
-
       <div className="rankings-list">
         {entries.map((entry, i) => {
-          const isMe  = entry.uid === user?.uid
-          const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : null
+          const isMe   = entry.uid === user?.uid
+          const medal  = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : null
           const badges = entry.badges ?? []
           return (
             <div key={entry.uid} className={`rankings-card ${isMe ? 'rankings-card--me' : ''}`}>
               <div className="rankings-card-rank">
-                {medal
-                  ? <span className="rankings-medal">{medal}</span>
-                  : <span className="rankings-num">#{i + 1}</span>
-                }
+                {medal ? <span className="rankings-medal">{medal}</span> : <span className="rankings-num">#{i + 1}</span>}
               </div>
               <Avatar photoURL={entry.photoURL} name={entry.displayName} size={44} className="rankings-card-avatar" />
               <div className="rankings-card-info">
-                <p className="rankings-card-name">
-                  {entry.displayName}
-                  {isMe && <span className="rankings-card-you"> · you</span>}
-                </p>
+                <p className="rankings-card-name">{entry.displayName}{isMe && <span className="rankings-card-you"> · you</span>}</p>
                 <p className="rankings-card-xp">💫 {entry.xp?.toLocaleString()} XP</p>
-                {badges.length > 0 && (
-                  <div className="rankings-card-badges">
-                    {badges.map((emoji, j) => (
-                      <span key={j} className="rankings-badge-emoji">{emoji}</span>
-                    ))}
-                  </div>
-                )}
+                {badges.length > 0 && <div className="rankings-card-badges">{badges.map((e, j) => <span key={j} className="rankings-badge-emoji">{e}</span>)}</div>}
               </div>
             </div>
           )
         })}
       </div>
+    </>
+  )
+}
+
+// ── Friends Tab ────────────────────────────────────────────────────────────
+
+import { timeAgo } from '../hooks/useFriends'
+
+function FriendsTab({
+  user, school,
+  friends, friendCode, friendFeed,
+  addError, setAddError, addFriend, removeFriend,
+  challenges,
+  onStartChallenge, onAcceptChallenge,
+  onGoToProfile,
+}) {
+  const [subTab,     setSubTab]  = useState('friends')
+  const [codeInput,  setCode]    = useState('')
+  const [showAdd,    setShowAdd] = useState(false)
+  const [adding,     setAdding]  = useState(false)
+  const [copied,     setCopied]  = useState(false)
+
+  const sortedFriends      = [...friends].sort((a, b) => (b.xp ?? 0) - (a.xp ?? 0))
+  const pendingChallenges  = challenges.filter((c) => c.status === 'pending' && c.role === 'receiver')
+  const completedChallenges = challenges.filter((c) => c.status === 'done').slice(0, 5)
+
+  async function handleAdd() {
+    setAdding(true)
+    const ok = await addFriend(codeInput)
+    setAdding(false)
+    if (ok) { setCode(''); setShowAdd(false) }
+  }
+
+  function handleCodeChange(e) {
+    setAddError(null)
+    setCode(e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 6))
+  }
+
+  function copyCode() {
+    navigator.clipboard?.writeText(friendCode).catch(() => {})
+    setCopied(true)
+    setTimeout(() => setCopied(false), 2000)
+  }
+
+  return (
+    <div className="tab-panel">
+      {/* Sub-tab pills */}
+      <div className="friends-pill-row">
+        <button className={`friends-pill ${subTab === 'friends' ? 'friends-pill--active' : ''}`} onClick={() => setSubTab('friends')}>Friends</button>
+        <button className={`friends-pill ${subTab === 'school'  ? 'friends-pill--active' : ''}`} onClick={() => setSubTab('school')}>School</button>
+      </div>
+
+      {subTab === 'school' && <SchoolLeaderboard user={user} school={school} onGoToProfile={onGoToProfile} />}
+
+      {subTab === 'friends' && (
+        <>
+          {/* My code card */}
+          <div className="friend-code-card">
+            <div className="friend-code-left">
+              <span className="friend-code-label">YOUR CODE</span>
+              <span className="friend-code-value">{friendCode ?? '……'}</span>
+            </div>
+            <div className="friend-code-actions">
+              <button className="friend-code-copy" onClick={copyCode}>{copied ? '✓' : 'Copy'}</button>
+              <button className={`friend-add-toggle ${showAdd ? 'friend-add-toggle--active' : ''}`} onClick={() => { setShowAdd((v) => !v); setAddError(null); setCode('') }}>+ Add</button>
+            </div>
+          </div>
+
+          {/* Add friend form */}
+          {showAdd && (
+            <div className="friend-add-form">
+              <input
+                className="friend-code-input"
+                placeholder="Enter 6-character code"
+                value={codeInput}
+                onChange={handleCodeChange}
+                maxLength={6}
+                autoFocus
+              />
+              <button
+                className="friend-add-btn"
+                onClick={handleAdd}
+                disabled={adding || codeInput.length < 6}
+              >
+                {adding ? '…' : 'Add'}
+              </button>
+              {addError && <p className="friend-add-error">{addError}</p>}
+            </div>
+          )}
+
+          {/* Pending challenges */}
+          {pendingChallenges.length > 0 && (
+            <div className="fr-section">
+              <p className="fr-section-title">⚔️ Challenges ({pendingChallenges.length})</p>
+              {pendingChallenges.map((c) => (
+                <div key={c.id} className="challenge-card">
+                  <div className="challenge-card-info">
+                    <Avatar photoURL={c.fromPhoto} name={c.fromName} size={36} />
+                    <div>
+                      <p className="challenge-from">{c.fromName} challenged you</p>
+                      <p className="challenge-score-hint">their score: {c.fromScore} pts</p>
+                    </div>
+                  </div>
+                  <button className="challenge-accept-btn" onClick={() => onAcceptChallenge(c)}>Accept</button>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* Friends leaderboard */}
+          <div className="fr-section">
+            <p className="fr-section-title">👥 Friends ({friends.length})</p>
+            {sortedFriends.length === 0 ? (
+              <div className="friends-empty">
+                <p className="friends-empty-title">No friends yet</p>
+                <p className="friends-empty-sub">Share your code or enter a friend's to get started.</p>
+              </div>
+            ) : (
+              <div className="friends-list">
+                {sortedFriends.map((f, i) => (
+                  <div key={f.uid} className="friends-card">
+                    <span className="friends-rank">#{i + 1}</span>
+                    <Avatar photoURL={f.photoURL} name={f.displayName} size={40} />
+                    <div className="friends-card-info">
+                      <p className="friends-card-name">{f.displayName}</p>
+                      <p className="friends-card-xp">💫 {(f.xp ?? 0).toLocaleString()} XP</p>
+                    </div>
+                    <div className="friends-card-actions">
+                      <button className="friends-challenge-btn" onClick={() => onStartChallenge(f)} title="Challenge">⚔️</button>
+                      <button className="friends-remove-btn"    onClick={() => removeFriend(f.uid)}  title="Remove">✕</button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Completed challenges */}
+          {completedChallenges.length > 0 && (
+            <div className="fr-section">
+              <p className="fr-section-title">Recent Results</p>
+              {completedChallenges.map((c) => {
+                const amSender  = c.role === 'sender'
+                const myScore   = amSender ? c.fromScore : c.toScore
+                const theirScore = amSender ? c.toScore : c.fromScore
+                const name      = amSender ? c.toName   : c.fromName
+                const iWon      = myScore > theirScore
+                return (
+                  <div key={c.id} className={`challenge-result-row ${iWon ? 'challenge-result-row--win' : 'challenge-result-row--loss'}`}>
+                    <span className="challenge-result-icon">{iWon ? '🏆' : '😤'}</span>
+                    <div className="challenge-result-info">
+                      <p className="challenge-result-name">vs {name}</p>
+                      <p className="challenge-result-scores">{myScore} pts vs {theirScore} pts</p>
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+          )}
+
+          {/* Activity feed */}
+          {friendFeed.length > 0 && (
+            <div className="fr-section">
+              <p className="fr-section-title">Activity</p>
+              <div className="activity-feed">
+                {friendFeed.map((item, i) => {
+                  const isMe = item.authorUid === user?.uid
+                  const name = isMe ? 'You' : (friends.find((f) => f.uid === item.authorUid)?.displayName ?? 'A friend')
+                  return (
+                    <div key={`${item.id}-${i}`} className="activity-item">
+                      <span className="activity-emoji">{item.emoji}</span>
+                      <div className="activity-text">
+                        <span className="activity-name">{name}</span>
+                        <span className="activity-label"> {item.label}</span>
+                      </div>
+                      <span className="activity-time">{item.createdAt ? timeAgo(item.createdAt) : ''}</span>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+          )}
+        </>
+      )}
     </div>
   )
 }
@@ -571,6 +732,10 @@ export default function HomeScreen({
   theme, setTheme,
   dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit,
   onBookmarks, bookmarkedIds,
+  // Friends / challenges
+  friends, friendCode, friendFeed,
+  addFriendError, setAddFriendError, onAddFriend, onRemoveFriend,
+  challenges, onStartChallenge, onAcceptChallenge,
 }) {
   const [tab, setTab] = useState('study')
 
@@ -603,8 +768,17 @@ export default function HomeScreen({
           onBookmarks={onBookmarks} bookmarkedIds={bookmarkedIds}
         />
       )}
-      {tab === 'rankings' && (
-        <RankingsTab user={user} school={school} onGoToProfile={() => setTab('profile')} />
+      {tab === 'friends' && (
+        <FriendsTab
+          user={user} school={school}
+          friends={friends ?? []} friendCode={friendCode} friendFeed={friendFeed ?? []}
+          addError={addFriendError} setAddError={setAddFriendError}
+          addFriend={onAddFriend} removeFriend={onRemoveFriend}
+          challenges={challenges ?? []}
+          onStartChallenge={onStartChallenge}
+          onAcceptChallenge={onAcceptChallenge}
+          onGoToProfile={() => setTab('profile')}
+        />
       )}
       {tab === 'profile' && (
         <ProfileTab

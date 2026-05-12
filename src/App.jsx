@@ -10,6 +10,8 @@ import { useAchievements } from './hooks/useAchievements'
 import { useSchool } from './hooks/useSchool'
 import { useDailyQuestion } from './hooks/useDailyQuestion'
 import { useBookmarks } from './hooks/useBookmarks'
+import { useFriends } from './hooks/useFriends'
+import { useChallenges } from './hooks/useChallenges'
 import LoginScreen from './screens/LoginScreen'
 import HomeScreen from './screens/HomeScreen'
 import QuizScreen from './screens/QuizScreen'
@@ -21,6 +23,7 @@ import AchievementsScreen from './screens/AchievementsScreen'
 import AchievementToast from './components/AchievementToast'
 import BookmarksScreen from './screens/BookmarksScreen'
 import SpeedRoundScreen, { SpeedResults } from './screens/SpeedRoundScreen'
+import ChallengeResultScreen from './screens/ChallengeResultScreen'
 
 export default function App() {
   const { theme, setTheme } = useTheme()
@@ -34,6 +37,8 @@ export default function App() {
   const { school, saveSchool } = useSchool(user, xp, earnedIds)
   const { bookmarkedIds, toggle: toggleBookmark, remove: removeBookmark } = useBookmarks(user?.uid)
   const { question: dailyQ, answeredToday: dailyAnswered, record: dailyRecord, loading: dailyLoading, submitAnswer: submitDailyAnswer } = useDailyQuestion(user?.uid)
+  const { friends, friendCode, feed: friendFeed, addError: addFriendError, setAddError: setAddFriendError, addFriend, removeFriend, logActivity } = useFriends(user?.uid)
+  const { challenges, sendChallenge, completeChallenge } = useChallenges(user?.uid)
 
   const handleDailySubmit = useCallback(async (choiceIndex) => {
     const res = await submitDailyAnswer(choiceIndex)
@@ -41,12 +46,16 @@ export default function App() {
     return res
   }, [submitDailyAnswer, earnXP, markStudied])
 
-  const [screen, setScreen] = useState('home')
+  const [screen, setScreen]           = useState('home')
   const [questionSet, setQuestionSet] = useState([])
-  const [quizResult, setQuizResult] = useState(null)
+  const [quizResult, setQuizResult]   = useState(null)
   const [activeTopic, setActiveTopic] = useState(null)
-  const [diagResult, setDiagResult] = useState(null)
+  const [diagResult, setDiagResult]   = useState(null)
   const [speedResult, setSpeedResult] = useState(null)
+  // Challenge state
+  const [challengeFriend, setChallengeFriend]       = useState(null)
+  const [acceptingChallenge, setAcceptingChallenge] = useState(null)
+  const [challengeResult, setChallengeResult]       = useState(null)
 
   const startQuiz = useCallback((topic) => {
     const pool = topic ? getByTopic(topic) : questions
@@ -71,13 +80,56 @@ export default function App() {
     setScreen('diagnostic')
   }, [])
 
+  // Challenge: start a 10-question quiz, then send result to friend
+  const startChallengeQuiz = useCallback((friend) => {
+    setQuestionSet(shuffled(questions).slice(0, 10))
+    setChallengeFriend(friend)
+    setActiveTopic(null)
+    setScreen('challengeQuiz')
+  }, [])
+
+  const finishChallengeQuiz = useCallback((result) => {
+    const questionIds = questionSet.map((q) => q.id)
+    sendChallenge({ friend: challengeFriend, questionIds, score: result.score, user })
+    logActivity({ type: 'challenge', label: `challenged ${challengeFriend.displayName}`, emoji: '⚔️' })
+    markStudied()
+    earnXP(result.results.filter((r) => r.correct).length * 10)
+    setChallengeFriend(null)
+    setScreen('home')
+  }, [questionSet, challengeFriend, sendChallenge, logActivity, markStudied, earnXP, user])
+
+  // Challenge accept: load stored questions, run quiz, record result
+  const handleAcceptChallenge = useCallback((challenge) => {
+    const qs = challenge.questionIds
+      .map((id) => questions.find((q) => q.id === id))
+      .filter(Boolean)
+    if (qs.length === 0) return
+    setQuestionSet(qs)
+    setAcceptingChallenge(challenge)
+    setActiveTopic(null)
+    setScreen('acceptChallenge')
+  }, [])
+
+  const finishAcceptedChallenge = useCallback((result) => {
+    completeChallenge(acceptingChallenge.id, result.score)
+    logActivity({ type: 'challenge', label: `accepted ${acceptingChallenge.fromName}'s challenge`, emoji: '⚔️' })
+    markStudied()
+    earnXP(result.results.filter((r) => r.correct).length * 10)
+    setChallengeResult({
+      myScore:      result.score,
+      opponentScore: acceptingChallenge.fromScore,
+      opponentName:  acceptingChallenge.fromName,
+    })
+    setAcceptingChallenge(null)
+    setScreen('challengeResult')
+  }, [acceptingChallenge, completeChallenge, logActivity, markStudied, earnXP])
+
   const finishDiagnostic = useCallback((result) => {
     setDiagResult(result)
     setScreen('diagResults')
     markStudied()
     recordDiagnostic()
     earnXP(result.results.filter((r) => r.correct).length * 10)
-    // Save a per-topic breakdown entry for each topic so Analytics updates
     const byTopic = result.results.reduce((acc, r) => {
       const t = r.question.topic
       if (!acc[t]) acc[t] = { correct: 0, total: 0 }
@@ -88,17 +140,18 @@ export default function App() {
     Object.entries(byTopic).forEach(([topic, d]) => {
       saveResult({ topic, score: 0, total: d.total, correct: d.correct, pct: Math.round((d.correct / d.total) * 100) })
     })
-  }, [markStudied, earnXP, saveResult])
+  }, [markStudied, earnXP, saveResult, recordDiagnostic])
 
   const finishQuiz = useCallback((result) => {
     setQuizResult(result)
     setScreen('results')
     const correct = result.results.filter((r) => r.correct).length
-    const pct = Math.round((correct / result.total) * 100)
+    const pct     = Math.round((correct / result.total) * 100)
     saveResult({ topic: activeTopic, score: result.score, total: result.total, correct, pct })
     markStudied()
     earnXP(correct * 10)
-  }, [activeTopic, saveResult, markStudied, earnXP])
+    logActivity({ type: 'quiz', label: `scored ${pct}% on ${activeTopic ?? 'All Topics'}`, emoji: pct >= 85 ? '🏆' : pct >= 65 ? '✅' : '📝', xp: correct * 10 })
+  }, [activeTopic, saveResult, markStudied, earnXP, logActivity])
 
   const buyStreak = useCallback(async () => {
     const ok = await spendXP(100)
@@ -106,7 +159,15 @@ export default function App() {
   }, [spendXP, markStudied])
 
   const retry  = useCallback(() => startQuiz(activeTopic), [activeTopic, startQuiz])
-  const goHome = useCallback(() => { setScreen('home'); setQuizResult(null); setDiagResult(null); setSpeedResult(null) }, [])
+  const goHome = useCallback(() => {
+    setScreen('home')
+    setQuizResult(null)
+    setDiagResult(null)
+    setSpeedResult(null)
+    setChallengeFriend(null)
+    setAcceptingChallenge(null)
+    setChallengeResult(null)
+  }, [])
 
   if (user === undefined) {
     return <div className="app-shell loading-shell"><span className="loading-dot" /></div>
@@ -153,6 +214,17 @@ export default function App() {
           dailyRecord={dailyRecord}
           dailyLoading={dailyLoading}
           onDailySubmit={handleDailySubmit}
+          // Friends
+          friends={friends}
+          friendCode={friendCode}
+          friendFeed={friendFeed}
+          addFriendError={addFriendError}
+          setAddFriendError={setAddFriendError}
+          onAddFriend={addFriend}
+          onRemoveFriend={removeFriend}
+          challenges={challenges}
+          onStartChallenge={startChallengeQuiz}
+          onAcceptChallenge={handleAcceptChallenge}
         />
       )}
 
@@ -227,11 +299,19 @@ export default function App() {
       )}
 
       {screen === 'speedRound' && speedResult && (
-        <SpeedResults
-          {...speedResult}
-          onRetry={startSpeedRound}
-          onHome={goHome}
-        />
+        <SpeedResults {...speedResult} onRetry={startSpeedRound} onHome={goHome} />
+      )}
+
+      {screen === 'challengeQuiz' && questionSet.length > 0 && (
+        <QuizScreen key={`cq-${questionSet[0]?.id}`} questionSet={questionSet} onDone={finishChallengeQuiz} onHome={goHome} bookmarkedIds={bookmarkedIds} onBookmark={toggleBookmark} />
+      )}
+
+      {screen === 'acceptChallenge' && questionSet.length > 0 && (
+        <QuizScreen key={`ac-${questionSet[0]?.id}`} questionSet={questionSet} onDone={finishAcceptedChallenge} onHome={goHome} bookmarkedIds={bookmarkedIds} onBookmark={toggleBookmark} />
+      )}
+
+      {screen === 'challengeResult' && challengeResult && (
+        <ChallengeResultScreen {...challengeResult} onHome={goHome} />
       )}
 
       {currentToast && <AchievementToast achievement={currentToast} onDismiss={dismissToast} />}

@@ -2,7 +2,7 @@ const TABS = [
   { id: 'study',    label: 'Study',    icon: '📚' },
   { id: 'cards',    label: 'Cards',    icon: '🃏' },
   { id: 'progress', label: 'Progress', icon: '📊' },
-  { id: 'rankings', label: 'Rankings', icon: '🏆' },
+  { id: 'friends',  label: 'Friends',  icon: '👥' },
   { id: 'profile',  label: 'Profile',  icon: '👤' },
 ]
 
