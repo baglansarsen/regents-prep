@@ -88,10 +88,13 @@ export const NY_SCHOOLS = [
   { id: 'baldwinsville',name: 'Baldwinsville High School (C. W. Baker)', borough: 'Syracuse' },
   { id: 'liverpool',    name: 'Liverpool High School',                   borough: 'Syracuse' },
 
-  // ── SUNY Charter Schools ──────────────────────────────────────────────────
+  // ── Academy of Science Charter Schools (CSA Syracuse district) ──────────
+  { id: 'sas_hs',       name: 'Syracuse Academy of Science Charter School',               borough: 'Charter Schools' },
+  { id: 'cas_hs',       name: 'Citizenship and Science Academy of Syracuse',              borough: 'Charter Schools' },
+  { id: 'uas_hs',       name: 'Utica Academy of Science Charter School',                  borough: 'Charter Schools' },
+
+  // ── Other Charter Schools ─────────────────────────────────────────────────
   { id: 'suny_albany',  name: 'SUNY Charter School (Albany)',            borough: 'Charter Schools' },
-  { id: 'sas_charter',  name: 'Syracuse Academy of Science Charter',     borough: 'Charter Schools' },
-  { id: 'sacs_elem',    name: 'Syracuse Academy of Science (HS)',        borough: 'Charter Schools' },
   { id: 'excel_charter',name: 'Excel Academy Charter School',            borough: 'Charter Schools' },
   { id: 'kipp_nyc',     name: 'KIPP NYC College Prep',                   borough: 'Charter Schools' },
   { id: 'kipp_amp',     name: 'KIPP AMP Charter School',                 borough: 'Charter Schools' },
