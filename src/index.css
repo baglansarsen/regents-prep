@@ -2948,6 +2948,70 @@ html, body {
 }
 .friends-challenge-btn:hover { opacity: .7; }
 
+/* Battle-specific UI */
+.friends-card-meta { display: flex; align-items: center; gap: 8px; }
+.friends-card-xp   { font-size: .78rem; color: var(--text-muted); margin: 0; }
+.battle-record {
+  font-size: .72rem; font-weight: 700;
+  color: var(--text-muted);
+  background: var(--surface2);
+  border-radius: 6px;
+  padding: 1px 6px;
+}
+.battle-play-btn {
+  padding: 5px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #22c55e;
+  color: #fff;
+  font-size: .8rem;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity .15s;
+}
+.battle-play-btn:hover { opacity: .85; }
+.battle-play-btn--card {
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: none;
+  background: #22c55e;
+  color: #fff;
+  font-size: .84rem;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: opacity .15s;
+}
+.battle-play-btn--card:hover { opacity: .85; }
+.battle-chip {
+  font-size: .75rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+.battle-chip--sent     { background: rgba(99,102,241,.12); color: var(--text-muted); }
+.battle-chip--waiting  { background: rgba(245,158,11,.12); color: #f59e0b; }
+.battle-chip--incoming { background: rgba(239,68,68,.1);   color: #ef4444; }
+.battle-decline-btn {
+  width: 32px; height: 32px;
+  border-radius: 8px;
+  border: 1px solid rgba(239,68,68,.3);
+  background: transparent;
+  color: #ef4444;
+  font-size: .85rem;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .15s;
+}
+.battle-decline-btn:hover { background: rgba(239,68,68,.1); }
+
 .friends-remove-btn {
   padding: 5px 10px;
   border-radius: 8px;

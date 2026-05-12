@@ -7,11 +7,9 @@ import { db } from '../firebase'
 
 export function useChallenges(uid) {
   const [challenges, setChallenges] = useState([])
-  const [loading, setLoading]       = useState(false)
 
   const refresh = useCallback(async () => {
     if (!uid) return
-    setLoading(true)
     try {
       const [sentSnap, recvSnap] = await Promise.all([
         getDocs(query(collection(db, 'challenges'), where('fromUid', '==', uid))),
@@ -23,27 +21,27 @@ export function useChallenges(uid) {
       ].sort((a, b) => (b.createdAt?.seconds ?? 0) - (a.createdAt?.seconds ?? 0))
       setChallenges(all)
     } catch {}
-    setLoading(false)
   }, [uid])
 
   useEffect(() => { refresh() }, [refresh])
 
-  const sendChallenge = useCallback(
-    async ({ friend, questionIds, score, user }) => {
+  // Create a battle request — no scores yet, receiver must accept before either plays
+  const sendBattleRequest = useCallback(
+    async ({ friend, questionIds, user }) => {
       if (!uid) return null
       try {
         const ref = await addDoc(collection(db, 'challenges'), {
-          fromUid:   uid,
-          fromName:  user?.displayName ?? 'Someone',
-          fromPhoto: user?.photoURL    ?? null,
-          toUid:     friend.uid,
-          toName:    friend.displayName,
-          toPhoto:   friend.photoURL   ?? null,
+          fromUid:    uid,
+          fromName:   user?.displayName ?? 'Someone',
+          fromPhoto:  user?.photoURL    ?? null,
+          toUid:      friend.uid,
+          toName:     friend.displayName,
+          toPhoto:    friend.photoURL   ?? null,
           questionIds,
-          fromScore: score,
-          toScore:   null,
-          status:    'pending',
-          createdAt: serverTimestamp(),
+          fromScore:  null,
+          toScore:    null,
+          status:     'pending',
+          createdAt:  serverTimestamp(),
         })
         refresh()
         return ref.id
@@ -52,15 +50,36 @@ export function useChallenges(uid) {
     [uid, refresh],
   )
 
-  const completeChallenge = useCallback(
-    async (challengeId, score) => {
+  const acceptBattle = useCallback(async (challengeId) => {
+    try {
+      await updateDoc(doc(db, 'challenges', challengeId), { status: 'accepted' })
+      refresh()
+    } catch {}
+  }, [refresh])
+
+  const declineBattle = useCallback(async (challengeId) => {
+    try {
+      await updateDoc(doc(db, 'challenges', challengeId), { status: 'declined' })
+      refresh()
+    } catch {}
+  }, [refresh])
+
+  // Record a player's score; if both are now in, marks the battle done
+  const submitScore = useCallback(
+    async (challengeId, score, role) => {
+      const challenge   = challenges.find((c) => c.id === challengeId)
+      const field       = role === 'sender' ? 'fromScore' : 'toScore'
+      const otherScore  = role === 'sender' ? (challenge?.toScore ?? null) : (challenge?.fromScore ?? null)
+      const update      = { [field]: score }
+      if (otherScore !== null) update.status = 'done'
       try {
-        await updateDoc(doc(db, 'challenges', challengeId), { toScore: score, status: 'done' })
+        await updateDoc(doc(db, 'challenges', challengeId), update)
         refresh()
-      } catch {}
+        return { done: otherScore !== null, opponentScore: otherScore }
+      } catch { return { done: false, opponentScore: null } }
     },
-    [refresh],
+    [refresh, challenges],
   )
 
-  return { challenges, loading, refresh, sendChallenge, completeChallenge }
+  return { challenges, refresh, sendBattleRequest, acceptBattle, declineBattle, submitScore }
 }

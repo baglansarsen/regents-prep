@@ -70,9 +70,41 @@ export const NY_SCHOOLS = [
 
   // ── Upstate ───────────────────────────────────────────────────────────────
   { id: 'albany',    name: 'Albany High School',                         borough: 'Capital Region' },
-  { id: 'buffalo',   name: 'Buffalo Academy of the Sacred Heart',        borough: 'Western NY' },
-  { id: 'rochester', name: 'East High School (Rochester)',               borough: 'Western NY' },
   { id: 'ithaca',    name: 'Ithaca High School',                         borough: 'Southern Tier' },
+
+  // ── Buffalo ───────────────────────────────────────────────────────────────
+  { id: 'city_honors',   name: 'City Honors School',                         borough: 'Buffalo' },
+  { id: 'hutch_tech',    name: 'Hutchinson Central Technical High School',    borough: 'Buffalo' },
+  { id: 'buffalo_trad',  name: 'Buffalo Traditional School',                  borough: 'Buffalo' },
+  { id: 'sacred_heart',  name: 'Buffalo Academy of the Sacred Heart',         borough: 'Buffalo' },
+  { id: 'health_sci_buf',name: 'Health Sciences Charter School',              borough: 'Buffalo' },
+  { id: 'enterprise',    name: 'Enterprise Charter School',                   borough: 'Buffalo' },
+  { id: 'canisius',      name: 'Canisius High School',                        borough: 'Buffalo' },
+  { id: 'sweet_home',    name: 'Sweet Home High School',                      borough: 'Buffalo' },
+  { id: 'williamsville_n',name:'Williamsville North High School',             borough: 'Buffalo' },
+  { id: 'williamsville_s',name:'Williamsville South High School',             borough: 'Buffalo' },
+  { id: 'amherst',       name: 'Amherst Central High School',                 borough: 'Buffalo' },
+  { id: 'orchard_park',  name: 'Orchard Park High School',                    borough: 'Buffalo' },
+  { id: 'lancaster',     name: 'Lancaster High School',                       borough: 'Buffalo' },
+  { id: 'kenmore_west',  name: 'Kenmore West High School',                    borough: 'Buffalo' },
+
+  // ── Rochester ────────────────────────────────────────────────────────────
+  { id: 'roch_east',     name: 'East High School',                            borough: 'Rochester' },
+  { id: 'roch_franklin', name: 'Franklin High School',                        borough: 'Rochester' },
+  { id: 'roch_monroe',   name: 'Monroe High School',                          borough: 'Rochester' },
+  { id: 'roch_charlotte',name: 'Charlotte High School',                       borough: 'Rochester' },
+  { id: 'gates_chili',   name: 'Gates Chili High School',                     borough: 'Rochester' },
+  { id: 'greece_athena', name: 'Greece Athena High School',                   borough: 'Rochester' },
+  { id: 'greece_arcadia',name: 'Greece Arcadia High School',                  borough: 'Rochester' },
+  { id: 'brighton',      name: 'Brighton High School',                        borough: 'Rochester' },
+  { id: 'pittsford_men', name: 'Pittsford Mendon High School',                borough: 'Rochester' },
+  { id: 'pittsford_suth',name: 'Pittsford Sutherland High School',            borough: 'Rochester' },
+  { id: 'fairport',      name: 'Fairport High School',                        borough: 'Rochester' },
+  { id: 'penfield',      name: 'Penfield High School',                        borough: 'Rochester' },
+  { id: 'webster_thomas',name: 'Webster Thomas High School',                  borough: 'Rochester' },
+  { id: 'victor',        name: 'Victor High School',                          borough: 'Rochester' },
+  { id: 'rush_henrietta',name: 'Rush-Henrietta Senior High School',           borough: 'Rochester' },
+  { id: 'brockport',     name: 'Brockport High School',                       borough: 'Rochester' },
 
   // ── Syracuse ──────────────────────────────────────────────────────────────
   { id: 'nottingham',   name: 'Nottingham High School',                  borough: 'Syracuse' },

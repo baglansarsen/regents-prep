@@ -443,16 +443,45 @@ function SchoolLeaderboard({ user, school, onGoToProfile, friends, sentRequests,
 
 import { timeAgo } from '../hooks/useFriends'
 
-function FriendsList({ friends, onChallenge, onRemove }) {
-  const [confirmUid, setConfirmUid] = useState(null)
+function FriendsList({ friends, challenges, onSendBattle, onPlayBattle, onRemove }) {
+  const [confirmUid,    setConfirmUid]  = useState(null)
+  const [sentBattleUid, setSentBattle]  = useState(null)
+
+  // Map friendUid → active (non-done) challenge with that friend
+  const battleMap = useMemo(() => {
+    const map = {}
+    challenges.forEach((c) => {
+      if (c.status === 'done' || c.status === 'declined') return
+      const friendUid = c.role === 'sender' ? c.toUid : c.fromUid
+      if (!map[friendUid]) map[friendUid] = c
+    })
+    return map
+  }, [challenges])
+
+  // W/L/T record per friend
+  const recordMap = useMemo(() => {
+    const map = {}
+    challenges.filter((c) => c.status === 'done').forEach((c) => {
+      const friendUid  = c.role === 'sender' ? c.toUid   : c.fromUid
+      const myScore    = c.role === 'sender' ? c.fromScore : c.toScore
+      const theirScore = c.role === 'sender' ? c.toScore  : c.fromScore
+      if (!map[friendUid]) map[friendUid] = { w: 0, l: 0, t: 0 }
+      if (myScore > theirScore)      map[friendUid].w++
+      else if (myScore < theirScore) map[friendUid].l++
+      else                           map[friendUid].t++
+    })
+    return map
+  }, [challenges])
 
   function handleRemoveClick(uid) {
-    if (confirmUid === uid) {
-      onRemove(uid)
-      setConfirmUid(null)
-    } else {
-      setConfirmUid(uid)
-    }
+    if (confirmUid === uid) { onRemove(uid); setConfirmUid(null) }
+    else setConfirmUid(uid)
+  }
+
+  function handleSend(friend) {
+    onSendBattle(friend)
+    setSentBattle(friend.uid)
+    setTimeout(() => setSentBattle(null), 3000)
   }
 
   return (
@@ -467,18 +496,45 @@ function FriendsList({ friends, onChallenge, onRemove }) {
         <div className="friends-list">
           {friends.map((f, i) => {
             const confirming = confirmUid === f.uid
+            const battle     = battleMap[f.uid]
+            const rec        = recordMap[f.uid]
+            const myScore    = battle ? (battle.role === 'sender' ? battle.fromScore : battle.toScore) : undefined
+            const justSent   = sentBattleUid === f.uid
+
+            let battleEl
+            if (battle?.status === 'pending' && battle.role === 'sender') {
+              battleEl = <span className="battle-chip battle-chip--sent">⚔️ Sent</span>
+            } else if (battle?.status === 'pending' && battle.role === 'receiver') {
+              battleEl = <span className="battle-chip battle-chip--incoming">⚔️ Accept?</span>
+            } else if (battle?.status === 'accepted' && myScore === null) {
+              battleEl = <button className="battle-play-btn" onClick={() => onPlayBattle(battle)}>▶ Play</button>
+            } else if (battle?.status === 'accepted' && myScore !== null) {
+              battleEl = <span className="battle-chip battle-chip--waiting">⏳</span>
+            } else if (justSent) {
+              battleEl = <span className="battle-chip battle-chip--sent">⚔️ Sent!</span>
+            } else {
+              battleEl = !confirming
+                ? <button className="friends-challenge-btn" onClick={() => handleSend(f)} title="Challenge">⚔️</button>
+                : null
+            }
+
             return (
               <div key={f.uid} className="friends-card">
                 <span className="friends-rank">#{i + 1}</span>
                 <Avatar photoURL={f.photoURL} name={f.displayName} size={40} />
                 <div className="friends-card-info">
                   <p className="friends-card-name">{f.displayName}</p>
-                  <p className="friends-card-xp">💫 {(f.xp ?? 0).toLocaleString()} XP</p>
+                  <div className="friends-card-meta">
+                    <span className="friends-card-xp">💫 {(f.xp ?? 0).toLocaleString()}</span>
+                    {rec && (
+                      <span className="battle-record">
+                        {rec.w}W {rec.l}L{rec.t > 0 ? ` ${rec.t}T` : ''}
+                      </span>
+                    )}
+                  </div>
                 </div>
                 <div className="friends-card-actions">
-                  {!confirming && (
-                    <button className="friends-challenge-btn" onClick={() => onChallenge(f)} title="Challenge">⚔️</button>
-                  )}
+                  {battleEl}
                   <button
                     className={`friends-remove-btn ${confirming ? 'friends-remove-btn--confirm' : ''}`}
                     onClick={() => handleRemoveClick(f.uid)}
@@ -506,7 +562,7 @@ function FriendsTab({
   addError, setAddError, addFriend, removeFriend,
   onSendRequest, onAcceptRequest, onDeclineRequest,
   challenges,
-  onStartChallenge, onAcceptChallenge,
+  onSendBattle, onAcceptBattle, onDeclineBattle, onPlayBattle,
   onGoToProfile,
 }) {
   const [subTab,     setSubTab]  = useState('friends')
@@ -516,7 +572,8 @@ function FriendsTab({
   const [copied,     setCopied]  = useState(false)
 
   const sortedFriends       = [...friends].sort((a, b) => (b.xp ?? 0) - (a.xp ?? 0))
-  const pendingChallenges   = challenges.filter((c) => c.status === 'pending' && c.role === 'receiver')
+  const incomingBattles     = challenges.filter((c) => c.status === 'pending'  && c.role === 'receiver')
+  const activeBattles       = challenges.filter((c) => c.status === 'accepted')
   const completedChallenges = challenges.filter((c) => c.status === 'done').slice(0, 5)
 
   async function handleAdd() {
@@ -608,29 +665,63 @@ function FriendsTab({
             </div>
           )}
 
-          {/* Pending challenges */}
-          {pendingChallenges.length > 0 && (
+          {/* Incoming battle requests */}
+          {incomingBattles.length > 0 && (
             <div className="fr-section">
-              <p className="fr-section-title">⚔️ Challenges ({pendingChallenges.length})</p>
-              {pendingChallenges.map((c) => (
+              <p className="fr-section-title">⚔️ Battle Requests ({incomingBattles.length})</p>
+              {incomingBattles.map((c) => (
                 <div key={c.id} className="challenge-card">
                   <div className="challenge-card-info">
                     <Avatar photoURL={c.fromPhoto} name={c.fromName} size={36} />
                     <div>
-                      <p className="challenge-from">{c.fromName} challenged you</p>
-                      <p className="challenge-score-hint">their score: {c.fromScore} pts</p>
+                      <p className="challenge-from">{c.fromName} wants to battle</p>
+                      <p className="challenge-score-hint">10 questions · accept to play</p>
                     </div>
                   </div>
-                  <button className="challenge-accept-btn" onClick={() => onAcceptChallenge(c)}>Accept</button>
+                  <div style={{ display: 'flex', gap: 6, flexShrink: 0 }}>
+                    <button className="challenge-accept-btn" onClick={() => onAcceptBattle(c.id)}>Accept</button>
+                    <button className="battle-decline-btn" onClick={() => onDeclineBattle(c.id)}>✕</button>
+                  </div>
                 </div>
               ))}
+            </div>
+          )}
+
+          {/* Active battles needing attention */}
+          {activeBattles.length > 0 && (
+            <div className="fr-section">
+              <p className="fr-section-title">⚔️ Active Battles ({activeBattles.length})</p>
+              {activeBattles.map((c) => {
+                const myScore      = c.role === 'sender' ? c.fromScore : c.toScore
+                const opponentName = c.role === 'sender' ? c.toName    : c.fromName
+                const opponentPhoto = c.role === 'sender' ? c.toPhoto  : c.fromPhoto
+                const myTurn       = myScore === null
+                return (
+                  <div key={c.id} className="challenge-card">
+                    <div className="challenge-card-info">
+                      <Avatar photoURL={opponentPhoto} name={opponentName} size={36} />
+                      <div>
+                        <p className="challenge-from">vs {opponentName}</p>
+                        <p className="challenge-score-hint">
+                          {myTurn ? 'Your turn to play!' : `You scored ${myScore} pts · waiting for ${opponentName}`}
+                        </p>
+                      </div>
+                    </div>
+                    {myTurn && (
+                      <button className="challenge-accept-btn battle-play-btn--card" onClick={() => onPlayBattle(c)}>▶ Play</button>
+                    )}
+                  </div>
+                )
+              })}
             </div>
           )}
 
           {/* Friends leaderboard */}
           <FriendsList
             friends={sortedFriends}
-            onChallenge={onStartChallenge}
+            challenges={challenges}
+            onSendBattle={onSendBattle}
+            onPlayBattle={onPlayBattle}
             onRemove={removeFriend}
           />
 
@@ -815,12 +906,12 @@ export default function HomeScreen({
   theme, setTheme,
   dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit,
   onBookmarks, bookmarkedIds,
-  // Friends / challenges
+  // Friends / battles
   friends, friendCode, friendFeed,
   incomingRequests, sentRequests,
   addFriendError, setAddFriendError, onAddFriend, onRemoveFriend,
   onSendFriendRequest, onAcceptFriendRequest, onDeclineFriendRequest,
-  challenges, onStartChallenge, onAcceptChallenge,
+  challenges, onSendBattle, onAcceptBattle, onDeclineBattle, onPlayBattle,
 }) {
   const [tab, setTab] = useState('study')
 
@@ -864,8 +955,10 @@ export default function HomeScreen({
           onAcceptRequest={onAcceptFriendRequest}
           onDeclineRequest={onDeclineFriendRequest}
           challenges={challenges ?? []}
-          onStartChallenge={onStartChallenge}
-          onAcceptChallenge={onAcceptChallenge}
+          onSendBattle={onSendBattle}
+          onAcceptBattle={onAcceptBattle}
+          onDeclineBattle={onDeclineBattle}
+          onPlayBattle={onPlayBattle}
           onGoToProfile={() => setTab('profile')}
         />
       )}

@@ -44,7 +44,7 @@ export default function App() {
     addFriend, sendRequest: sendFriendRequest,
     acceptRequest, declineRequest, removeFriend, logActivity,
   } = useFriends(user?.uid, user)
-  const { challenges, sendChallenge, completeChallenge } = useChallenges(user?.uid)
+  const { challenges, sendBattleRequest, acceptBattle, declineBattle, submitScore } = useChallenges(user?.uid)
 
   const handleDailySubmit = useCallback(async (choiceIndex) => {
     const res = await submitDailyAnswer(choiceIndex)
@@ -58,10 +58,9 @@ export default function App() {
   const [activeTopic, setActiveTopic] = useState(null)
   const [diagResult, setDiagResult]   = useState(null)
   const [speedResult, setSpeedResult] = useState(null)
-  // Challenge state
-  const [challengeFriend, setChallengeFriend]       = useState(null)
-  const [acceptingChallenge, setAcceptingChallenge] = useState(null)
-  const [challengeResult, setChallengeResult]       = useState(null)
+  // Battle state
+  const [activeBattle, setActiveBattle]   = useState(null)
+  const [challengeResult, setChallengeResult] = useState(null)
 
   const startQuiz = useCallback((topic) => {
     const pool = topic ? getByTopic(topic) : questions
@@ -86,49 +85,37 @@ export default function App() {
     setScreen('diagnostic')
   }, [])
 
-  // Challenge: start a 10-question quiz, then send result to friend
-  const startChallengeQuiz = useCallback((friend) => {
-    setQuestionSet(shuffled(questions).slice(0, 10))
-    setChallengeFriend(friend)
-    setActiveTopic(null)
-    setScreen('challengeQuiz')
-  }, [])
+  // Send a battle request to a friend (no quiz yet — they must accept first)
+  const handleSendBattle = useCallback((friend) => {
+    const questionIds = shuffled(questions).slice(0, 10).map((q) => q.id)
+    sendBattleRequest({ friend, questionIds, user })
+    logActivity({ type: 'challenge', label: `challenged ${friend.displayName}`, emoji: '⚔️' })
+  }, [sendBattleRequest, user, logActivity])
 
-  const finishChallengeQuiz = useCallback((result) => {
-    const questionIds = questionSet.map((q) => q.id)
-    sendChallenge({ friend: challengeFriend, questionIds, score: result.score, user })
-    logActivity({ type: 'challenge', label: `challenged ${challengeFriend.displayName}`, emoji: '⚔️' })
-    markStudied()
-    earnXP(result.results.filter((r) => r.correct).length * 10)
-    setChallengeFriend(null)
-    setScreen('home')
-  }, [questionSet, challengeFriend, sendChallenge, logActivity, markStudied, earnXP, user])
-
-  // Challenge accept: load stored questions, run quiz, record result
-  const handleAcceptChallenge = useCallback((challenge) => {
+  // Load questions and start the quiz for an accepted battle
+  const handlePlayBattle = useCallback((challenge) => {
     const qs = challenge.questionIds
       .map((id) => questions.find((q) => q.id === id))
       .filter(Boolean)
     if (qs.length === 0) return
     setQuestionSet(qs)
-    setAcceptingChallenge(challenge)
+    setActiveBattle(challenge)
     setActiveTopic(null)
-    setScreen('acceptChallenge')
+    setScreen('battleQuiz')
   }, [])
 
-  const finishAcceptedChallenge = useCallback((result) => {
-    completeChallenge(acceptingChallenge.id, result.score)
-    logActivity({ type: 'challenge', label: `accepted ${acceptingChallenge.fromName}'s challenge`, emoji: '⚔️' })
+  const finishBattleQuiz = useCallback(async (result) => {
+    const correct = result.results.filter((r) => r.correct).length
+    const score   = correct * 10
+    earnXP(score)
     markStudied()
-    earnXP(result.results.filter((r) => r.correct).length * 10)
-    setChallengeResult({
-      myScore:      result.score,
-      opponentScore: acceptingChallenge.fromScore,
-      opponentName:  acceptingChallenge.fromName,
-    })
-    setAcceptingChallenge(null)
+    logActivity({ type: 'challenge', label: 'finished a battle', emoji: '⚔️', xp: score })
+    const opponentName = activeBattle.role === 'sender' ? activeBattle.toName : activeBattle.fromName
+    const { done, opponentScore } = await submitScore(activeBattle.id, score, activeBattle.role)
+    setChallengeResult({ myScore: score, opponentScore: done ? opponentScore : null, opponentName })
+    setActiveBattle(null)
     setScreen('challengeResult')
-  }, [acceptingChallenge, completeChallenge, logActivity, markStudied, earnXP])
+  }, [activeBattle, submitScore, earnXP, markStudied, logActivity])
 
   const finishDiagnostic = useCallback((result) => {
     setDiagResult(result)
@@ -170,8 +157,7 @@ export default function App() {
     setQuizResult(null)
     setDiagResult(null)
     setSpeedResult(null)
-    setChallengeFriend(null)
-    setAcceptingChallenge(null)
+    setActiveBattle(null)
     setChallengeResult(null)
   }, [])
 
@@ -234,8 +220,10 @@ export default function App() {
           onAcceptFriendRequest={acceptRequest}
           onDeclineFriendRequest={declineRequest}
           challenges={challenges}
-          onStartChallenge={startChallengeQuiz}
-          onAcceptChallenge={handleAcceptChallenge}
+          onSendBattle={handleSendBattle}
+          onAcceptBattle={acceptBattle}
+          onDeclineBattle={declineBattle}
+          onPlayBattle={handlePlayBattle}
         />
       )}
 
@@ -313,12 +301,8 @@ export default function App() {
         <SpeedResults {...speedResult} onRetry={startSpeedRound} onHome={goHome} />
       )}
 
-      {screen === 'challengeQuiz' && questionSet.length > 0 && (
-        <QuizScreen key={`cq-${questionSet[0]?.id}`} questionSet={questionSet} onDone={finishChallengeQuiz} onHome={goHome} bookmarkedIds={bookmarkedIds} onBookmark={toggleBookmark} />
-      )}
-
-      {screen === 'acceptChallenge' && questionSet.length > 0 && (
-        <QuizScreen key={`ac-${questionSet[0]?.id}`} questionSet={questionSet} onDone={finishAcceptedChallenge} onHome={goHome} bookmarkedIds={bookmarkedIds} onBookmark={toggleBookmark} />
+      {screen === 'battleQuiz' && questionSet.length > 0 && (
+        <QuizScreen key={`bq-${questionSet[0]?.id}`} questionSet={questionSet} onDone={finishBattleQuiz} onHome={goHome} bookmarkedIds={bookmarkedIds} onBookmark={toggleBookmark} />
       )}
 
       {screen === 'challengeResult' && challengeResult && (
