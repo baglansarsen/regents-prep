@@ -8,6 +8,8 @@ import { useXP } from './hooks/useXP'
 import { useAchievements } from './hooks/useAchievements'
 import { useFlashcards } from './hooks/useFlashcards'
 import { useSchool } from './hooks/useSchool'
+import { useDailyQuestion } from './hooks/useDailyQuestion'
+import { useBookmarks } from './hooks/useBookmarks'
 import LoginScreen from './screens/LoginScreen'
 import HomeScreen from './screens/HomeScreen'
 import QuizScreen from './screens/QuizScreen'
@@ -18,6 +20,7 @@ import DiagnosticResultsScreen from './screens/DiagnosticResultsScreen'
 import AchievementsScreen from './screens/AchievementsScreen'
 import AchievementToast from './components/AchievementToast'
 import FlashcardScreen from './screens/FlashcardScreen'
+import BookmarksScreen from './screens/BookmarksScreen'
 
 export default function App() {
   const { user, signInWithGoogle, logOut } = useAuth()
@@ -29,6 +32,14 @@ export default function App() {
     useAchievements(user?.uid, { history, streak, xp })
   const { knownIds, markKnown, markLearning, resetAll } = useFlashcards(user?.uid)
   const { school, saveSchool } = useSchool(user, xp, earnedIds)
+  const { bookmarkedIds, toggle: toggleBookmark, remove: removeBookmark } = useBookmarks(user?.uid)
+  const { question: dailyQ, answeredToday: dailyAnswered, record: dailyRecord, loading: dailyLoading, submitAnswer: submitDailyAnswer } = useDailyQuestion(user?.uid)
+
+  const handleDailySubmit = useCallback(async (choiceIndex) => {
+    const res = await submitDailyAnswer(choiceIndex)
+    if (res) { earnXP(res.xpEarned); markStudied() }
+    return res
+  }, [submitDailyAnswer, earnXP, markStudied])
 
   const [screen, setScreen] = useState('home')
   const [questionSet, setQuestionSet] = useState([])
@@ -107,6 +118,8 @@ export default function App() {
           onPracticeTest={startPracticeTest}
           onAnalytics={() => setScreen('analytics')}
           onAchievements={() => setScreen('achievements')}
+          onBookmarks={() => setScreen('bookmarks')}
+          bookmarkedIds={bookmarkedIds}
           user={user}
           onLogOut={logOut}
           history={history}
@@ -129,11 +142,16 @@ export default function App() {
           resetAll={resetAll}
           school={school}
           saveSchool={saveSchool}
+          dailyQ={dailyQ}
+          dailyAnswered={dailyAnswered}
+          dailyRecord={dailyRecord}
+          dailyLoading={dailyLoading}
+          onDailySubmit={handleDailySubmit}
         />
       )}
 
       {screen === 'quiz' && questionSet.length > 0 && (
-        <QuizScreen key={questionSet[0]?.id} questionSet={questionSet} onDone={finishQuiz} onHome={goHome} />
+        <QuizScreen key={questionSet[0]?.id} questionSet={questionSet} onDone={finishQuiz} onHome={goHome} bookmarkedIds={bookmarkedIds} onBookmark={toggleBookmark} />
       )}
 
       {screen === 'results' && quizResult && (
@@ -174,7 +192,7 @@ export default function App() {
       )}
 
       {screen === 'diagnostic' && questionSet.length > 0 && (
-        <QuizScreen key={questionSet[0]?.id} questionSet={questionSet} onDone={finishDiagnostic} onHome={goHome} />
+        <QuizScreen key={questionSet[0]?.id} questionSet={questionSet} onDone={finishDiagnostic} onHome={goHome} bookmarkedIds={bookmarkedIds} onBookmark={toggleBookmark} />
       )}
 
       {screen === 'diagResults' && diagResult && (
@@ -183,6 +201,19 @@ export default function App() {
           onPractice={(topic) => { setDiagResult(null); startQuiz(topic) }}
           onRetake={startDiagnostic}
           onHome={goHome}
+        />
+      )}
+
+      {screen === 'bookmarks' && (
+        <BookmarksScreen
+          bookmarkedIds={bookmarkedIds}
+          onRemove={removeBookmark}
+          onHome={goHome}
+          onPractice={(qs) => {
+            setQuestionSet(shuffled(qs))
+            setActiveTopic(null)
+            setScreen('quiz')
+          }}
         />
       )}
 

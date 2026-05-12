@@ -5,7 +5,7 @@ import Timer from '../components/Timer'
 import ScoreDisplay from '../components/ScoreDisplay'
 import ProgressBar from '../components/ProgressBar'
 
-export default function QuizScreen({ questionSet, onDone, onHome }) {
+export default function QuizScreen({ questionSet, onDone, onHome, bookmarkedIds, onBookmark }) {
   const {
     currentQuestion,
     index,
@@ -53,6 +53,8 @@ export default function QuizScreen({ questionSet, onDone, onHome }) {
         selected={selected}
         phase={phase}
         onAnswer={answer}
+        isBookmarked={bookmarkedIds?.has(currentQuestion.id)}
+        onBookmark={onBookmark}
       />
 
       {phase === 'feedback' && (

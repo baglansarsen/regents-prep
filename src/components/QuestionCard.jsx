@@ -3,7 +3,7 @@ import FoodWeb from './diagrams/FoodWeb'
 
 const LABELS = ['A', 'B', 'C', 'D']
 
-export default function QuestionCard({ question, selected, phase, onAnswer }) {
+export default function QuestionCard({ question, selected, phase, onAnswer, isBookmarked, onBookmark }) {
   function choiceClass(i) {
     if (phase === 'answering') return 'choice'
     if (i === question.correct) return 'choice choice--correct'
@@ -13,7 +13,19 @@ export default function QuestionCard({ question, selected, phase, onAnswer }) {
 
   return (
     <div className="question-card">
-      <p className="question-topic-tag">{question.topic}</p>
+      <div className="question-card-header">
+        <p className="question-topic-tag">{question.topic}</p>
+        {onBookmark && (
+          <button
+            className={`bookmark-btn ${isBookmarked ? 'bookmark-btn--active' : ''}`}
+            onClick={() => onBookmark(question.id)}
+            title={isBookmarked ? 'Remove bookmark' : 'Bookmark for later'}
+          >
+            {isBookmarked ? '🔖' : '🔖'}
+            <span className="bookmark-btn-label">{isBookmarked ? 'Saved' : 'Save'}</span>
+          </button>
+        )}
+      </div>
       <p className="question-text">{question.text}</p>
 
       {question.diagram?.type === 'punnett' && (

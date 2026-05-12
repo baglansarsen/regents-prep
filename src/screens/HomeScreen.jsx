@@ -4,6 +4,8 @@ import { getFlashcardsByTopic, FLASHCARD_TOPIC_LIST } from '../data/flashcards'
 import { NY_SCHOOLS, BOROUGHS } from '../data/schools'
 import { useLeaderboard } from '../hooks/useLeaderboard'
 import TabBar from '../components/TabBar'
+import ExamCountdown from '../components/ExamCountdown'
+import DailyQuestion from '../components/DailyQuestion'
 
 // ── Shared ─────────────────────────────────────────────────────────────────
 
@@ -29,10 +31,18 @@ function Avatar({ photoURL, name, size = 32, className = '' }) {
 
 // ── Study Tab ──────────────────────────────────────────────────────────────
 
-function StudyTab({ onStart, onPracticeTest, onDiagnostic, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, onBuyStreak }) {
+function StudyTab({ onStart, onPracticeTest, onDiagnostic, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit }) {
   const allTopics = Object.values(TOPICS)
   return (
     <div className="tab-panel">
+      <ExamCountdown />
+      <DailyQuestion
+        question={dailyQ}
+        answeredToday={dailyAnswered}
+        record={dailyRecord}
+        loading={dailyLoading}
+        onSubmit={onDailySubmit}
+      />
       <div className={`streak-card ${studiedToday ? 'streak-card--done' : ''}`}>
         <div className="streak-card-top">
           <div className="streak-card-left">
@@ -199,7 +209,7 @@ function CardsTab({ knownIds, markKnown, markLearning, resetAll }) {
 
 // ── Progress Tab ───────────────────────────────────────────────────────────
 
-function ProgressTab({ history, masteryPct, isUnlocked, completedCount, totalTopics, earnedIds, allAchievements, onAnalytics, onAchievements }) {
+function ProgressTab({ history, masteryPct, isUnlocked, completedCount, totalTopics, earnedIds, allAchievements, onAnalytics, onAchievements, onBookmarks, bookmarkedIds }) {
   const allTopics   = Object.values(TOPICS)
   const bestPct     = history.length ? Math.max(...history.map((h) => h.pct)) : null
   const earnedCount = earnedIds?.size ?? 0
@@ -242,6 +252,10 @@ function ProgressTab({ history, masteryPct, isUnlocked, completedCount, totalTop
         <button className="progress-action-card" onClick={onAchievements}>
           <span className="progress-action-icon">🏅</span>
           <div><p className="progress-action-name">Badges</p><p className="progress-action-sub">{earnedCount} / {totalAch} unlocked</p></div>
+        </button>
+        <button className="progress-action-card" onClick={onBookmarks}>
+          <span className="progress-action-icon">🔖</span>
+          <div><p className="progress-action-name">Bookmarks</p><p className="progress-action-sub">{bookmarkedIds?.size ?? 0} question{(bookmarkedIds?.size ?? 0) !== 1 ? 's' : ''} saved</p></div>
         </button>
       </div>
       {history.length > 0 && (
@@ -450,6 +464,8 @@ export default function HomeScreen({
   earnedIds, allAchievements,
   knownIds, markKnown, markLearning, resetAll,
   school, saveSchool,
+  dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit,
+  onBookmarks, bookmarkedIds,
 }) {
   const [tab, setTab] = useState('study')
 
@@ -468,6 +484,8 @@ export default function HomeScreen({
           masteryPct={masteryPct} isUnlocked={isUnlocked} unlockHint={unlockHint}
           streak={streak} studiedToday={studiedToday} weekDays={weekDays}
           xp={xp} onBuyStreak={onBuyStreak}
+          dailyQ={dailyQ} dailyAnswered={dailyAnswered} dailyRecord={dailyRecord}
+          dailyLoading={dailyLoading} onDailySubmit={onDailySubmit}
         />
       )}
       {tab === 'cards' && (
@@ -479,6 +497,7 @@ export default function HomeScreen({
           completedCount={completedCount} totalTopics={totalTopics}
           earnedIds={earnedIds} allAchievements={allAchievements}
           onAnalytics={onAnalytics} onAchievements={onAchievements}
+          onBookmarks={onBookmarks} bookmarkedIds={bookmarkedIds}
         />
       )}
       {tab === 'rankings' && (
