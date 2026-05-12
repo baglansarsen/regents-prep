@@ -1939,20 +1939,6 @@ html, body {
 .exam-countdown-today { font-size: 1.3rem; font-weight: 900; }
 .exam-countdown-done  { font-size: 1.3rem; font-weight: 900; }
 
-.exam-motivation-word {
-  display: inline-block;
-  margin-top: 8px;
-  font-size: .72rem;
-  font-weight: 800;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  color: #c4b5fd;
-  background: rgba(139,92,246,.12);
-  border: 1px solid rgba(139,92,246,.3);
-  border-radius: 99px;
-  padding: 3px 10px;
-}
-
 /* ── Tab Bar ──────────────────────────────────────────────────────────────── */
 .tab-bar {
   position: fixed;
