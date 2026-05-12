@@ -141,7 +141,7 @@ function buildMCQuestion(card) {
   return { prompt, promptLabel, correct, options }
 }
 
-function CardsTab({ uid, earnXP }) {
+function CardsTab({ uid, earnXP, xp }) {
   const { review, resetAll, buildDeck, getStats } = useSpacedRepetition(uid)
 
   const [topic,    setTopic]   = useState(null)
@@ -152,6 +152,7 @@ function CardsTab({ uid, earnXP }) {
   const [mode,     setMode]    = useState('flip')  // 'flip' | 'mc'
   const [mcQ,      setMcQ]     = useState(null)
   const [mcPicked, setMcPicked]= useState(null)    // index of selected MC option
+  const [xpFlash,  setXpFlash] = useState(null)    // e.g. '+5' shown briefly after rating
 
   // Snapshot the deck once per session — never rebuild reactively mid-session.
   // Reactive rebuilds caused the deck to shuffle under the index after every review,
@@ -169,9 +170,16 @@ function CardsTab({ uid, earnXP }) {
 
   const XP_BY_QUALITY = { [Q_AGAIN]: 2, [Q_GOOD]: 5, [Q_EASY]: 3 }
 
+  function flashXP(amount) {
+    setXpFlash(`+${amount}`)
+    setTimeout(() => setXpFlash(null), 1200)
+  }
+
   function rateFlip(quality) {
+    const earned = XP_BY_QUALITY[quality] ?? 2
     review(card.id, quality)
-    earnXP(XP_BY_QUALITY[quality] ?? 2)
+    earnXP(earned)
+    flashXP(earned)
     setFlipped(false)
     if (index + 1 >= deck.length) setDone(true)
     else setTimeout(() => setIndex(index + 1), 180)
@@ -181,8 +189,10 @@ function CardsTab({ uid, earnXP }) {
     if (mcPicked !== null) return
     setMcPicked(i)
     const isCorrect = mcQ.options[i] === mcQ.correct
+    const earned = isCorrect ? 5 : 2
     review(card.id, isCorrect ? Q_GOOD : Q_AGAIN)
-    earnXP(isCorrect ? 5 : 2)
+    earnXP(earned)
+    flashXP(earned)
     const deckLen = deck.length
     setTimeout(() => {
       if (index + 1 >= deckLen) { setDone(true) }
@@ -236,6 +246,12 @@ function CardsTab({ uid, earnXP }) {
         <button className={`fc-mode-btn ${mode === 'mc' ? 'fc-mode-btn--active' : ''}`} onClick={() => changeMode('mc')}>
           🧠 Multiple Choice
         </button>
+      </div>
+
+      {/* XP display */}
+      <div className="fc-xp-row">
+        <span className="fc-xp-total">💫 {(xp ?? 0).toLocaleString()} XP</span>
+        {xpFlash && <span className="fc-xp-flash" key={xpFlash + Date.now()}>{xpFlash} XP</span>}
       </div>
 
       {/* SM-2 stats bar */}
@@ -1020,7 +1036,7 @@ export default function HomeScreen({
           dailyLoading={dailyLoading} onDailySubmit={onDailySubmit}
         />
       )}
-      {tab === 'cards' && <CardsTab uid={user?.uid} earnXP={earnXP} />}
+      {tab === 'cards' && <CardsTab uid={user?.uid} earnXP={earnXP} xp={xp} />}
       {tab === 'progress' && (
         <ProgressTab
           history={history} xp={xp} masteryPct={masteryPct} isUnlocked={isUnlocked}

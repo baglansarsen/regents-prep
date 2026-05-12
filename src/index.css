@@ -3572,6 +3572,26 @@ html, body {
 .mc-option--correct .mc-option-icon { color: #22c55e; }
 .mc-option--wrong   .mc-option-icon { color: #ef4444; }
 
+/* Flashcard XP display */
+.fc-xp-row {
+  display: flex; align-items: center; gap: 10px; position: relative;
+}
+.fc-xp-total {
+  font-size: .82rem; font-weight: 700; color: var(--brand-light);
+  background: rgba(22,163,74,.1); border: 1px solid rgba(22,163,74,.25);
+  padding: 4px 10px; border-radius: 999px;
+}
+.fc-xp-flash {
+  font-size: .85rem; font-weight: 800; color: #22c55e;
+  animation: xp-pop .9s ease-out forwards;
+  position: absolute; left: 120px; pointer-events: none;
+}
+@keyframes xp-pop {
+  0%   { opacity: 1; transform: translateY(0) scale(1); }
+  60%  { opacity: 1; transform: translateY(-14px) scale(1.15); }
+  100% { opacity: 0; transform: translateY(-28px) scale(.9); }
+}
+
 .profile-admin-btn {
   width: 100%; padding: 13px; border-radius: var(--r-lg);
   background: var(--surface2); border: 1px solid var(--border);
