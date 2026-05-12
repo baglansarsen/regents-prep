@@ -366,6 +366,15 @@ function ProgressTab({ history, xp, masteryPct, isUnlocked, completedCount, tota
 
 function SchoolLeaderboard({ user, school, onGoToProfile, friends, sentRequests, onSendRequest }) {
   const { entries, loading, error } = useLeaderboard(school)
+  const [reqError, setReqError] = useState(null)
+  const [reqSent,  setReqSent]  = useState(null) // uid of last successful request
+
+  async function handleAdd(uid, profile) {
+    setReqError(null)
+    const ok = await onSendRequest(uid, profile)
+    if (ok) { setReqSent(uid); setTimeout(() => setReqSent(null), 2500) }
+    else     { setReqError('Could not send request — already sent or a permissions issue.') }
+  }
 
   if (!school) return (
     <div className="rankings-no-school">
@@ -387,7 +396,8 @@ function SchoolLeaderboard({ user, school, onGoToProfile, friends, sentRequests,
         <button className="rankings-change-btn" onClick={onGoToProfile}>Edit</button>
       </div>
       {loading && <div className="rankings-loading-state"><div className="rankings-loading-spinner" /><p>Loading…</p></div>}
-      {error   && <p className="rankings-error">⚠ {error}</p>}
+      {error    && <p className="rankings-error">⚠ {error}</p>}
+      {reqError && <p className="rankings-error">⚠ {reqError}</p>}
       {!loading && !error && entries.length === 0 && (
         <div className="rankings-be-first">
           <div className="rankings-be-first-icon">🌟</div>
@@ -398,7 +408,7 @@ function SchoolLeaderboard({ user, school, onGoToProfile, friends, sentRequests,
         {entries.map((entry, i) => {
           const isMe      = entry.uid === user?.uid
           const isFriend  = friends?.some((f) => f.uid === entry.uid)
-          const isPending = sentRequests?.some((r) => r.toUid === entry.uid)
+          const isPending = sentRequests?.some((r) => r.toUid === entry.uid) || reqSent === entry.uid
           const medal     = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : null
           const badges    = entry.badges ?? []
           return (
@@ -415,10 +425,10 @@ function SchoolLeaderboard({ user, school, onGoToProfile, friends, sentRequests,
               {!isMe && (
                 <button
                   className={`lb-add-btn ${isFriend ? 'lb-add-btn--friend' : isPending ? 'lb-add-btn--pending' : ''}`}
-                  onClick={() => !isFriend && !isPending && onSendRequest(entry.uid, entry)}
+                  onClick={() => !isFriend && !isPending && handleAdd(entry.uid, entry)}
                   disabled={isFriend || isPending}
                 >
-                  {isFriend ? '✓' : isPending ? '…' : '+ Add'}
+                  {isFriend ? '✓' : isPending ? 'Sent ✓' : '+ Add'}
                 </button>
               )}
             </div>
