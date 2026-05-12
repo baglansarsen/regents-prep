@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import { questions, getByTopic, shuffled, buildDiagnosticSet } from './data/questions'
+import { questions, getByTopic, shuffled, buildDiagnosticSet, getContextual } from './data/questions'
 import { useAuth } from './hooks/useAuth'
 import { useTheme } from './hooks/useTheme'
 import { useProgress } from './hooks/useProgress'
@@ -77,6 +77,12 @@ export default function App() {
   const startSpeedRound = useCallback(() => {
     setQuestionSet(shuffled(questions))
     setScreen('speedRound')
+  }, [])
+
+  const startContextPractice = useCallback(() => {
+    setQuestionSet(shuffled(getContextual()))
+    setActiveTopic(null)
+    setScreen('quiz')
   }, [])
 
   const startDiagnostic = useCallback(() => {
@@ -194,6 +200,7 @@ export default function App() {
           onBuyStreak={buyStreak}
           onDiagnostic={startDiagnostic}
           onSpeedRound={startSpeedRound}
+          onContextPractice={startContextPractice}
           earnedIds={earnedIds}
           allAchievements={allAchievements}
           earnXP={earnXP}

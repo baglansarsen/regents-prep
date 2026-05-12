@@ -42,6 +42,7 @@ export const questions = [
   {
     id: 3,
     topic: TOPICS.CELL_BIOLOGY,
+    context: 'A student placed a carrot strip in a beaker of highly concentrated salt water. After 30 minutes, the carrot became limp and its mass had decreased. The student concluded that water molecules had crossed the carrot cells\' membranes into the surrounding solution.',
     text: 'Which process allows water molecules to move from an area of high concentration to low concentration across a membrane?',
     choices: ['Active transport', 'Osmosis', 'Diffusion', 'Endocytosis'],
     correct: 1,
@@ -296,6 +297,7 @@ export const questions = [
   {
     id: 28,
     topic: TOPICS.CELL_BIOLOGY,
+    context: 'Cells lining the kidney tubules must reclaim glucose from fluid that will become urine. They move glucose from a lower concentration in the tubule fluid into the blood, where glucose concentration is already higher. Researchers found this process stops completely when the cells are deprived of oxygen.',
     text: 'Which type of cellular transport requires the use of ATP energy?',
     choices: ['Osmosis', 'Diffusion', 'Active transport', 'Facilitated diffusion'],
     correct: 2,
@@ -317,6 +319,7 @@ export const questions = [
   {
     id: 30,
     topic: TOPICS.CELL_BIOLOGY,
+    context: 'A student prepared three beakers: Beaker A held pure distilled water, Beaker B held normal saline (0.9% NaCl), and Beaker C held 5% NaCl solution — much saltier than blood plasma. Identical samples of red blood cells were placed in each beaker and examined under a microscope after five minutes. Cells in Beaker A appeared to swell; cells in Beaker B looked normal; cells in Beaker C looked noticeably smaller and wrinkled.',
     text: 'A cell is placed in a solution with a higher solute concentration than the cell\'s interior. The cell will most likely',
     choices: [
       'swell and burst',
@@ -348,6 +351,7 @@ export const questions = [
   {
     id: 33,
     topic: TOPICS.GENETICS,
+    context: 'A genetics student studied a child whose father has Type A blood and whose mother has Type B blood. When the student tested the child\'s red blood cells, she found that both anti-A and anti-B test antibodies caused clumping — indicating both A and B surface proteins were present. Unlike typical dominant-recessive traits, neither allele appeared to suppress the other.',
     text: 'A person with type AB blood has codominant alleles. This means',
     choices: [
       'one allele is dominant over the other',
@@ -361,6 +365,7 @@ export const questions = [
   {
     id: 34,
     topic: TOPICS.GENETICS,
+    context: 'During meiosis, chromosome pairs are supposed to separate equally so each gamete receives one copy of each chromosome. A cell biologist studied a case where chromosome 21 failed to separate properly during meiosis II — a process called nondisjunction. One resulting gamete received two copies of chromosome 21. When this gamete was fertilized by a normal gamete carrying one copy of chromosome 21, the zygote had three copies total.',
     text: 'Down syndrome (trisomy 21) is caused by',
     choices: [
       'a point mutation in chromosome 21',
@@ -384,6 +389,7 @@ export const questions = [
   {
     id: 36,
     topic: TOPICS.EVOLUTION,
+    context: 'In the 1940s, penicillin was introduced and effectively killed nearly all Staphylococcus bacteria. Doctors prescribed it widely. By the 1960s, some strains could no longer be killed by penicillin. Researchers confirmed that no individual bacterium changed during its own lifetime — resistant bacteria were those that happened to already carry a random genetic variation allowing survival, and they reproduced while others died.',
     text: 'Antibiotic resistance in bacteria is an example of',
     choices: [
       'Lamarckian inheritance',
@@ -410,6 +416,7 @@ export const questions = [
   {
     id: 38,
     topic: TOPICS.EVOLUTION,
+    context: 'Scientists studying squirrels at the Grand Canyon found two distinct populations: the Kaibab squirrel on the north rim and the Abert squirrel on the south rim. Though only about 10 miles apart by air, the two populations have noticeably different coat patterns and cannot interbreed. Fossil evidence suggests both descended from a single population that lived in the area before the Colorado River carved the canyon over thousands of years.',
     text: 'When a population is divided by a geographic barrier and the two groups evolve separately into different species, the process is called',
     choices: ['Convergent evolution', 'Coevolution', 'Allopatric speciation', 'Adaptive radiation'],
     correct: 2,
@@ -418,6 +425,7 @@ export const questions = [
   {
     id: 39,
     topic: TOPICS.EVOLUTION,
+    context: 'During his voyage on the HMS Beagle, Charles Darwin observed that finch populations on different Galápagos islands had differently shaped beaks suited to local food sources. He also read Malthus\'s work showing that populations grow faster than food supplies, leading to competition for resources. Darwin noted that individuals within a population vary in their traits, and some traits help individuals survive and reproduce.',
     text: 'Which observation led Darwin to develop his theory of natural selection?',
     choices: [
       'All organisms have identical DNA sequences',
@@ -433,6 +441,7 @@ export const questions = [
   {
     id: 40,
     topic: TOPICS.ECOLOGY,
+    context: 'In 1944, 24 reindeer were released on an isolated Alaskan island with no predators and abundant lichen. The population grew rapidly for two decades, reaching nearly 6,000 animals by the mid-1960s. Within two years the population crashed to only 42 animals. Researchers documented that the lichen — the reindeer\'s primary food source — had been almost completely consumed and could not regenerate quickly enough to sustain the herd.',
     text: 'The maximum population size an environment can support indefinitely is called the',
     choices: ['Population density', 'Carrying capacity', 'Biotic potential', 'Limiting factor'],
     correct: 1,
@@ -441,6 +450,7 @@ export const questions = [
   {
     id: 41,
     topic: TOPICS.ECOLOGY,
+    context: 'A marine biologist observed several species interactions on a coral reef. In one case, clownfish were observed living among the tentacles of sea anemones. The anemone\'s stinging cells, which kill other fish, did not harm the clownfish. The clownfish were protected from predators and ate food scraps near the anemone. Meanwhile, the clownfish chased away butterflyfish that would have eaten the anemone.',
     text: 'Which of the following is an example of a mutualistic relationship?',
     choices: [
       'A tick feeding on a deer',
@@ -454,6 +464,7 @@ export const questions = [
   {
     id: 42,
     topic: TOPICS.ECOLOGY,
+    context: 'The 1980 eruption of Mount St. Helens destroyed all vegetation and animal life across hundreds of square miles. The blast zone was buried under deep ash and hardened lava — a completely lifeless landscape with no soil. Over the following years scientists documented a gradual progression of life returning: first lichens on bare rock, then mosses, then small flowering plants, and eventually shrubs and young trees.',
     text: 'After a volcanic eruption destroys all life on a lava field, the gradual establishment of living communities is called',
     choices: ['Secondary succession', 'Primary succession', 'Climax community', 'Ecological restoration'],
     correct: 1,
@@ -462,6 +473,7 @@ export const questions = [
   {
     id: 43,
     topic: TOPICS.ECOLOGY,
+    context: 'Scientists at a Hawaiian observatory have measured atmospheric CO₂ continuously since 1958. Pre-industrial levels were approximately 280 parts per million (ppm). By 2023, CO₂ had reached over 420 ppm — the highest in 800,000 years based on ice core records. Global average temperatures have risen approximately 1.1°C above pre-industrial levels, and this increase closely tracks rising CO₂ concentrations.',
     text: 'Human burning of fossil fuels primarily contributes to climate change by',
     choices: [
       'depleting ozone in the stratosphere',
@@ -477,6 +489,7 @@ export const questions = [
   {
     id: 44,
     topic: TOPICS.HUMAN_BODY,
+    context: 'After eating a large meal rich in carbohydrates, a student\'s blood glucose rose from 90 mg/dL to 180 mg/dL within one hour. Her pancreas detected this rise and released a chemical messenger into the bloodstream. Over the next two hours, her blood glucose returned to 90 mg/dL. A classmate with Type 1 diabetes, who cannot produce this chemical, experienced blood glucose levels that remained dangerously elevated without medication.',
     text: 'Insulin is a hormone that regulates blood sugar by',
     choices: [
       'breaking down glycogen in the liver',
@@ -490,6 +503,7 @@ export const questions = [
   {
     id: 45,
     topic: TOPICS.HUMAN_BODY,
+    context: 'A person who had chickenpox as a child was heavily exposed to the varicella-zoster virus again as an adult. Despite close contact with an infected person, the adult showed no symptoms. Blood tests showed that within hours of exposure, the immune system launched a rapid and powerful response. The immune system appeared to "remember" the specific virus from the childhood infection and responded far faster than during the original exposure.',
     text: 'The immune system responds to a pathogen by producing',
     choices: ['Hormones', 'Enzymes', 'Antibodies', 'Platelets'],
     correct: 2,
@@ -498,6 +512,7 @@ export const questions = [
   {
     id: 46,
     topic: TOPICS.HUMAN_BODY,
+    context: 'A patient reports that their heart rate accelerates unexpectedly, their pupils dilate and constrict without reason, and their digestive activity fluctuates beyond their control. The patient is completely unaware of when these changes occur and cannot consciously control them. Neurological testing reveals damage to a specific division of the nervous system that operates independently of the brain\'s conscious centers.',
     text: 'Which part of the nervous system controls involuntary actions such as heart rate and digestion?',
     choices: ['Cerebrum', 'Cerebellum', 'Autonomic nervous system', 'Somatic nervous system'],
     correct: 2,
@@ -516,6 +531,7 @@ export const questions = [
   {
     id: 48,
     topic: TOPICS.REPRODUCTION,
+    context: 'During a prenatal checkup, an ultrasound reveals a disc-shaped structure attached to the uterine wall, connected to the fetus by the umbilical cord. Lab analysis shows that the structure contains both fetal and maternal blood vessels in extremely close proximity, yet the two blood supplies remain separated by thin tissue layers. Substances can pass between the two circulatory systems through these thin membranes.',
     text: 'The placenta functions to',
     choices: [
       'produce eggs for fertilization',
@@ -529,6 +545,7 @@ export const questions = [
   {
     id: 49,
     topic: TOPICS.REPRODUCTION,
+    context: 'A researcher preparing slides of onion root tip cells stains and examines them under a microscope. She observes many cells at various stages of division — some with duplicated chromosomes aligned in the middle, others with chromosomes pulling apart. The onion species she is studying normally contains 16 chromosomes in each body cell. She wants to predict what she will observe in newly formed daughter cells after division completes.',
     text: 'During mitosis, the chromosome number of daughter cells compared to the parent cell is',
     choices: [
       'half as many',
@@ -558,6 +575,7 @@ export const questions = [
   },
   {
     id: 52, topic: TOPICS.CELL_BIOLOGY,
+    context: 'A student added increasing amounts of hydrogen peroxide to a fixed quantity of catalase enzyme and measured the rate of oxygen gas produced at each concentration. At low concentrations, reaction rate increased steadily with each addition. Beyond a certain point, however, doubling the amount of substrate produced no further increase in rate — the graph flattened out completely.',
     text: 'A student observes that adding more substrate to an enzyme reaction no longer increases the reaction rate. The most likely explanation is that',
     choices: [
       'the enzyme has been destroyed by the substrate',
@@ -570,6 +588,7 @@ export const questions = [
   },
   {
     id: 53, topic: TOPICS.CELL_BIOLOGY,
+    context: 'A biology student tested a salivary enzyme\'s ability to break down starch at four temperatures: 4°C, 37°C, 60°C, and 100°C. Activity was highest at 37°C. At 100°C the enzyme produced no reaction at all. When the same 100°C sample was cooled back to 37°C and fresh substrate was added, the enzyme still did not function.',
     text: 'Boiling an enzyme solution at 100°C causes the enzyme to lose its ability to function. This is because high temperature',
     choices: [
       'increases the pH of the solution',
@@ -625,6 +644,7 @@ export const questions = [
   },
   {
     id: 58, topic: TOPICS.CELL_BIOLOGY,
+    context: 'A lab technician accidentally prepared an IV solution with a salt concentration 10 times higher than normal blood plasma. When a sample of red blood cells was exposed to this solution and viewed under a microscope, the cells appeared dramatically different from cells in normal saline solution — they had changed in size and shape.',
     text: 'A red blood cell placed in a very salty (hypertonic) solution will most likely',
     choices: [
       'swell and burst due to water entering',
@@ -663,6 +683,7 @@ export const questions = [
   },
   {
     id: 62, topic: TOPICS.CELL_BIOLOGY,
+    context: 'Researchers treated two groups of cells with a toxin that binds to mitochondria and prevents ATP production. They then tested each group for several transport activities. One group continued moving water and dissolved gases across membranes without difficulty. Another group showed a dramatic decline in their ability to move specific ions against a concentration gradient — a process that had been operating normally before treatment.',
     text: 'In an experiment, cells are treated with a poison that blocks ATP production. Which process would be most directly affected?',
     choices: ['Osmosis', 'Simple diffusion', 'Active transport', 'Facilitated diffusion'],
     correct: 2,
@@ -2493,6 +2514,10 @@ export const questions = [
 
 export function getByTopic(topic) {
   return questions.filter((q) => q.topic === topic)
+}
+
+export function getContextual() {
+  return questions.filter((q) => q.context)
 }
 
 export function shuffled(arr) {

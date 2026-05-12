@@ -26,6 +26,12 @@ export default function QuestionCard({ question, selected, phase, onAnswer, isBo
           </button>
         )}
       </div>
+      {question.context && (
+        <div className="question-context">
+          <span className="question-context-label">📄 Read this scenario</span>
+          <p className="question-context-text">{question.context}</p>
+        </div>
+      )}
       <p className="question-text">{question.text}</p>
 
       {question.diagram?.type === 'punnett' && (

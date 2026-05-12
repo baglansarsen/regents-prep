@@ -32,7 +32,7 @@ function Avatar({ photoURL, name, size = 32, className = '' }) {
 
 // ── Study Tab ──────────────────────────────────────────────────────────────
 
-function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit }) {
+function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit }) {
   const allTopics = Object.values(TOPICS)
   return (
     <div className="tab-panel">
@@ -90,6 +90,11 @@ function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, mastery
           <span className="quick-icon">⚡</span>
           <p className="quick-name">Speed Round</p>
           <p className="quick-sub">60 seconds</p>
+        </button>
+        <button className="quick-context" onClick={onContextPractice}>
+          <span className="quick-icon">📄</span>
+          <p className="quick-name">Context Practice</p>
+          <p className="quick-sub">Read & analyze</p>
         </button>
       </div>
 
@@ -895,7 +900,7 @@ function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, t
 // ── Main HomeScreen ────────────────────────────────────────────────────────
 
 export default function HomeScreen({
-  onStart, onPracticeTest, onAnalytics, onDiagnostic, onSpeedRound, onAchievements,
+  onStart, onPracticeTest, onAnalytics, onDiagnostic, onSpeedRound, onContextPractice, onAchievements,
   user, onLogOut,
   history, streak, studiedToday, weekDays,
   masteryPct, isUnlocked, unlockHint,
@@ -926,7 +931,7 @@ export default function HomeScreen({
 
       {tab === 'study' && (
         <StudyTab
-          onStart={onStart} onPracticeTest={onPracticeTest} onDiagnostic={onDiagnostic} onSpeedRound={onSpeedRound}
+          onStart={onStart} onPracticeTest={onPracticeTest} onDiagnostic={onDiagnostic} onSpeedRound={onSpeedRound} onContextPractice={onContextPractice}
           masteryPct={masteryPct} isUnlocked={isUnlocked} unlockHint={unlockHint}
           streak={streak} studiedToday={studiedToday} weekDays={weekDays}
           xp={xp} onBuyStreak={onBuyStreak}
