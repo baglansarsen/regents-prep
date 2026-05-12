@@ -37,7 +37,13 @@ export default function App() {
   const { school, saveSchool } = useSchool(user, xp, earnedIds)
   const { bookmarkedIds, toggle: toggleBookmark, remove: removeBookmark } = useBookmarks(user?.uid)
   const { question: dailyQ, answeredToday: dailyAnswered, record: dailyRecord, loading: dailyLoading, submitAnswer: submitDailyAnswer } = useDailyQuestion(user?.uid)
-  const { friends, friendCode, feed: friendFeed, addError: addFriendError, setAddError: setAddFriendError, addFriend, removeFriend, logActivity } = useFriends(user?.uid)
+  const {
+    friends, friendCode, feed: friendFeed,
+    incomingRequests, sentRequests,
+    addError: addFriendError, setAddError: setAddFriendError,
+    addFriend, sendRequest: sendFriendRequest,
+    acceptRequest, declineRequest, removeFriend, logActivity,
+  } = useFriends(user?.uid, user)
   const { challenges, sendChallenge, completeChallenge } = useChallenges(user?.uid)
 
   const handleDailySubmit = useCallback(async (choiceIndex) => {
@@ -222,6 +228,11 @@ export default function App() {
           setAddFriendError={setAddFriendError}
           onAddFriend={addFriend}
           onRemoveFriend={removeFriend}
+          incomingRequests={incomingRequests}
+          sentRequests={sentRequests}
+          onSendFriendRequest={sendFriendRequest}
+          onAcceptFriendRequest={acceptRequest}
+          onDeclineFriendRequest={declineRequest}
           challenges={challenges}
           onStartChallenge={startChallengeQuiz}
           onAcceptChallenge={handleAcceptChallenge}

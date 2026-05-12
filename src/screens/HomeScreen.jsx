@@ -364,7 +364,7 @@ function ProgressTab({ history, xp, masteryPct, isUnlocked, completedCount, tota
 
 // ── School Leaderboard (reused in FriendsTab) ─────────────────────────────
 
-function SchoolLeaderboard({ user, school, onGoToProfile }) {
+function SchoolLeaderboard({ user, school, onGoToProfile, friends, sentRequests, onSendRequest }) {
   const { entries, loading, error } = useLeaderboard(school)
 
   if (!school) return (
@@ -396,9 +396,11 @@ function SchoolLeaderboard({ user, school, onGoToProfile }) {
       )}
       <div className="rankings-list">
         {entries.map((entry, i) => {
-          const isMe   = entry.uid === user?.uid
-          const medal  = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : null
-          const badges = entry.badges ?? []
+          const isMe      = entry.uid === user?.uid
+          const isFriend  = friends?.some((f) => f.uid === entry.uid)
+          const isPending = sentRequests?.some((r) => r.toUid === entry.uid)
+          const medal     = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : null
+          const badges    = entry.badges ?? []
           return (
             <div key={entry.uid} className={`rankings-card ${isMe ? 'rankings-card--me' : ''}`}>
               <div className="rankings-card-rank">
@@ -410,6 +412,15 @@ function SchoolLeaderboard({ user, school, onGoToProfile }) {
                 <p className="rankings-card-xp">💫 {entry.xp?.toLocaleString()} XP</p>
                 {badges.length > 0 && <div className="rankings-card-badges">{badges.map((e, j) => <span key={j} className="rankings-badge-emoji">{e}</span>)}</div>}
               </div>
+              {!isMe && (
+                <button
+                  className={`lb-add-btn ${isFriend ? 'lb-add-btn--friend' : isPending ? 'lb-add-btn--pending' : ''}`}
+                  onClick={() => !isFriend && !isPending && onSendRequest(entry.uid, entry)}
+                  disabled={isFriend || isPending}
+                >
+                  {isFriend ? '✓' : isPending ? '…' : '+ Add'}
+                </button>
+              )}
             </div>
           )
         })}
@@ -425,7 +436,9 @@ import { timeAgo } from '../hooks/useFriends'
 function FriendsTab({
   user, school,
   friends, friendCode, friendFeed,
+  incomingRequests, sentRequests,
   addError, setAddError, addFriend, removeFriend,
+  onSendRequest, onAcceptRequest, onDeclineRequest,
   challenges,
   onStartChallenge, onAcceptChallenge,
   onGoToProfile,
@@ -436,8 +449,8 @@ function FriendsTab({
   const [adding,     setAdding]  = useState(false)
   const [copied,     setCopied]  = useState(false)
 
-  const sortedFriends      = [...friends].sort((a, b) => (b.xp ?? 0) - (a.xp ?? 0))
-  const pendingChallenges  = challenges.filter((c) => c.status === 'pending' && c.role === 'receiver')
+  const sortedFriends       = [...friends].sort((a, b) => (b.xp ?? 0) - (a.xp ?? 0))
+  const pendingChallenges   = challenges.filter((c) => c.status === 'pending' && c.role === 'receiver')
   const completedChallenges = challenges.filter((c) => c.status === 'done').slice(0, 5)
 
   async function handleAdd() {
@@ -466,7 +479,12 @@ function FriendsTab({
         <button className={`friends-pill ${subTab === 'school'  ? 'friends-pill--active' : ''}`} onClick={() => setSubTab('school')}>School</button>
       </div>
 
-      {subTab === 'school' && <SchoolLeaderboard user={user} school={school} onGoToProfile={onGoToProfile} />}
+      {subTab === 'school' && (
+        <SchoolLeaderboard
+          user={user} school={school} onGoToProfile={onGoToProfile}
+          friends={friends} sentRequests={sentRequests} onSendRequest={onSendRequest}
+        />
+      )}
 
       {subTab === 'friends' && (
         <>
@@ -501,6 +519,26 @@ function FriendsTab({
                 {adding ? '…' : 'Add'}
               </button>
               {addError && <p className="friend-add-error">{addError}</p>}
+            </div>
+          )}
+
+          {/* Incoming friend requests */}
+          {incomingRequests.length > 0 && (
+            <div className="fr-section">
+              <p className="fr-section-title">👋 Friend Requests ({incomingRequests.length})</p>
+              {incomingRequests.map((req) => (
+                <div key={req.id} className="friend-request-card">
+                  <Avatar photoURL={req.fromPhoto} name={req.fromName} size={40} />
+                  <div className="friend-request-info">
+                    <p className="friend-request-name">{req.fromName}</p>
+                    <p className="friend-request-sub">wants to be friends</p>
+                  </div>
+                  <div className="friend-request-actions">
+                    <button className="friend-req-accept" onClick={() => onAcceptRequest(req)}>Accept</button>
+                    <button className="friend-req-decline" onClick={() => onDeclineRequest(req.id)}>✕</button>
+                  </div>
+                </div>
+              ))}
             </div>
           )}
 
@@ -734,7 +772,9 @@ export default function HomeScreen({
   onBookmarks, bookmarkedIds,
   // Friends / challenges
   friends, friendCode, friendFeed,
+  incomingRequests, sentRequests,
   addFriendError, setAddFriendError, onAddFriend, onRemoveFriend,
+  onSendFriendRequest, onAcceptFriendRequest, onDeclineFriendRequest,
   challenges, onStartChallenge, onAcceptChallenge,
 }) {
   const [tab, setTab] = useState('study')
@@ -772,8 +812,12 @@ export default function HomeScreen({
         <FriendsTab
           user={user} school={school}
           friends={friends ?? []} friendCode={friendCode} friendFeed={friendFeed ?? []}
+          incomingRequests={incomingRequests ?? []} sentRequests={sentRequests ?? []}
           addError={addFriendError} setAddError={setAddFriendError}
           addFriend={onAddFriend} removeFriend={onRemoveFriend}
+          onSendRequest={onSendFriendRequest}
+          onAcceptRequest={onAcceptFriendRequest}
+          onDeclineRequest={onDeclineFriendRequest}
           challenges={challenges ?? []}
           onStartChallenge={onStartChallenge}
           onAcceptChallenge={onAcceptChallenge}
