@@ -24,6 +24,7 @@ import AchievementToast from './components/AchievementToast'
 import BookmarksScreen from './screens/BookmarksScreen'
 import SpeedRoundScreen, { SpeedResults } from './screens/SpeedRoundScreen'
 import ChallengeResultScreen from './screens/ChallengeResultScreen'
+import SchoolOnboardingScreen from './screens/SchoolOnboardingScreen'
 
 export default function App() {
   const { theme, setTheme } = useTheme()
@@ -34,7 +35,7 @@ export default function App() {
   const { xp, earnXP, spendXP } = useXP(user?.uid)
   const { earnedIds, allAchievements, currentToast, dismissToast, recordPracticeTest, recordDiagnostic } =
     useAchievements(user?.uid, { history, streak, xp })
-  const { school, saveSchool } = useSchool(user, xp, earnedIds)
+  const { school, saveSchool, loading: schoolLoading } = useSchool(user, xp, earnedIds)
   const { bookmarkedIds, toggle: toggleBookmark, remove: removeBookmark } = useBookmarks(user?.uid)
   const { question: dailyQ, answeredToday: dailyAnswered, record: dailyRecord, loading: dailyLoading, submitAnswer: submitDailyAnswer } = useDailyQuestion(user?.uid)
   const {
@@ -167,12 +168,21 @@ export default function App() {
     setChallengeResult(null)
   }, [])
 
-  if (user === undefined) {
+  if (user === undefined || (user !== null && schoolLoading)) {
     return <div className="app-shell loading-shell"><span className="loading-dot" /></div>
   }
 
   if (user === null) {
     return <div className="app-shell"><LoginScreen onSignIn={signInWithGoogle} /></div>
+  }
+
+  // First-time login: school has never been set (null means no Firestore doc yet)
+  if (school === null) {
+    return (
+      <div className="app-shell">
+        <SchoolOnboardingScreen user={user} onSelect={saveSchool} />
+      </div>
+    )
   }
 
   return (

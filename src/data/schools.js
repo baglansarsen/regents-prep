@@ -143,3 +143,44 @@ export const NY_SCHOOLS = [
 ]
 
 export const BOROUGHS = [...new Set(NY_SCHOOLS.map((s) => s.borough))]
+
+// Email domain → district suggestion mapping
+// Shown as quick-pick cards when a student's email domain is recognized
+export const DOMAIN_SUGGESTIONS = {
+  'sany.org': {
+    districtName: 'Academy of Science Charter Schools (CSA)',
+    schoolIds: ['sas_hs', 'cas_hs', 'uas_hs'],
+  },
+  'scsd.us': {
+    districtName: 'Syracuse City School District',
+    schoolIds: ['nottingham', 'henninger', 'corcoran', 'fowler', 'institute_tech'],
+  },
+  'buffaloschools.org': {
+    districtName: 'Buffalo City School District',
+    schoolIds: ['city_honors', 'hutch_tech', 'buffalo_trad', 'sacred_heart', 'health_sci_buf'],
+  },
+  'rcsdk12.org': {
+    districtName: 'Rochester City School District',
+    schoolIds: ['roch_east', 'roch_franklin', 'roch_monroe', 'roch_charlotte', 'gates_chili'],
+  },
+  'schools.nyc.gov': {
+    districtName: 'New York City Department of Education',
+    schoolIds: ['stuy', 'bxsci', 'btech', 'laguard', 'hunter'],
+  },
+  'nyc.gov': {
+    districtName: 'New York City Department of Education',
+    schoolIds: ['stuy', 'bxsci', 'btech', 'laguard', 'hunter'],
+  },
+}
+
+export function getSuggestions(email) {
+  if (!email) return null
+  const domain = email.split('@')[1]?.toLowerCase()
+  if (!domain) return null
+  const match = DOMAIN_SUGGESTIONS[domain]
+  if (!match) return null
+  const schools = match.schoolIds
+    .map((id) => NY_SCHOOLS.find((s) => s.id === id))
+    .filter(Boolean)
+  return { districtName: match.districtName, schools }
+}

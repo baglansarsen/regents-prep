@@ -173,6 +173,129 @@ html, body {
   50%       { opacity: 1;  transform: scale(1.2); }
 }
 
+/* ── School Onboarding Screen ────────────────────────────────────────────── */
+
+.onboard-screen {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 28px 20px 40px;
+  min-height: 100%;
+  overflow-y: auto;
+  animation: fade-up .3s ease;
+}
+
+.onboard-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  border-radius: var(--r-xl);
+  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-light) 100%);
+  color: #fff;
+}
+.onboard-header-text { flex: 1; min-width: 0; }
+.onboard-title    { font-size: 1.3rem; font-weight: 800; margin: 0 0 4px; color: #fff; }
+.onboard-subtitle { font-size: .85rem; margin: 0; opacity: .85; color: #fff; }
+
+/* Suggestion block (domain-matched district) */
+.onboard-suggestions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 18px;
+  border-radius: var(--r-xl);
+  background: var(--surface);
+  border: 1px solid rgba(99,102,241,.3);
+  box-shadow: 0 0 0 4px rgba(99,102,241,.06);
+}
+.onboard-suggestions-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.onboard-suggestions-icon   { font-size: 1.6rem; flex-shrink: 0; }
+.onboard-suggestions-title  { font-size: .78rem; color: var(--text-muted); margin: 0 0 2px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+.onboard-suggestions-district { font-size: 1rem; font-weight: 700; color: var(--text); margin: 0; }
+
+.onboard-suggestions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.onboard-suggestion-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border-radius: var(--r-lg);
+  border: 1px solid var(--brand);
+  background: rgba(99,102,241,.06);
+  cursor: pointer;
+  font-family: inherit;
+  text-align: left;
+  transition: background .15s, transform .1s;
+  gap: 10px;
+}
+.onboard-suggestion-btn:hover { background: rgba(99,102,241,.14); transform: translateX(2px); }
+.onboard-suggestion-name  { font-size: .95rem; font-weight: 600; color: var(--text); flex: 1; }
+.onboard-suggestion-arrow { font-size: 1rem; color: var(--brand); font-weight: 700; flex-shrink: 0; }
+
+.onboard-browse-link {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: .83rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 4px 0;
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color .15s;
+}
+.onboard-browse-link:hover { color: var(--brand); }
+
+/* Full picker (search + list) */
+.onboard-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.onboard-picker-label {
+  font-size: .85rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+.onboard-school-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 380px;
+  overflow-y: auto;
+  border-radius: var(--r-lg);
+  border: 1px solid var(--border);
+  padding: 6px;
+  background: var(--surface);
+}
+
+/* Skip button */
+.onboard-skip-btn {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: .82rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 6px;
+  text-align: center;
+  align-self: center;
+  opacity: .6;
+  transition: opacity .15s;
+}
+.onboard-skip-btn:hover { opacity: 1; }
+
 @keyframes fade-up {
   from { opacity: 0; transform: translateY(8px); }
   to   { opacity: 1; transform: translateY(0); }
