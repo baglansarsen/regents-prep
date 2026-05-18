@@ -1,22 +1,18 @@
 import { useState } from 'react'
 
 const LABELS = ['A', 'B', 'C', 'D']
+const PB_KEY = 'regents_personal_best_v1'
 
-// Approximate scaled score for MC-only (45 questions).
-// Real Regents use per-year conversion charts; this is a reasonable approximation.
-// Raw 45/45 = 100 scaled, raw 0/45 = 0 scaled, 65 scaled ≈ 29/45 raw (~65%)
-function estimateScaled(correct, total) {
-  if (total === 0) return 0
-  const pct = correct / total
-  // Slight curve — Regents MC passing is ~64% raw → 65 scaled
-  const scaled = Math.round(pct * 100)
-  return Math.min(100, Math.max(0, scaled))
+function getPersonalBests() {
+  try { return JSON.parse(localStorage.getItem(PB_KEY) || '{}') } catch { return {} }
 }
 
-export default function RegentsExamResultsScreen({ exam, results, correct, total, timedOut, onRetake, onHome }) {
+export default function RegentsExamResultsScreen({ exam, results, correct, total, timedOut, xpEarned, scaled: scaledProp, onRetake, onHome }) {
   const [showAll, setShowAll] = useState(false)
-  const scaled = estimateScaled(correct, total)
+  const scaled = scaledProp ?? (total ? Math.round((correct / total) * 100) : 0)
   const passed = scaled >= 65
+  const pb = getPersonalBests()[exam?.id]
+  const isNewPB = pb === scaled && scaled > 0
   const pct    = total ? Math.round((correct / total) * 100) : 0
 
   const wrongItems = results.filter((r) => !r.correct)
@@ -41,6 +37,14 @@ export default function RegentsExamResultsScreen({ exam, results, correct, total
         {timedOut && (
           <div className="feedback-banner feedback-banner--wrong" style={{ marginBottom: 12 }}>
             ⏰ Time expired — exam auto-submitted
+          </div>
+        )}
+
+        {/* XP earned banner */}
+        {xpEarned != null && (
+          <div className="regents-xp-banner">
+            <span className="regents-xp-earned">+{xpEarned} XP</span>
+            {isNewPB && <span className="regents-pb-badge">🏅 New Personal Best!</span>}
           </div>
         )}
 

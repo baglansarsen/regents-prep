@@ -38,7 +38,7 @@ const LAB_TYPE_ICONS = {
 
 // ── Study Tab ──────────────────────────────────────────────────────────────
 
-function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit, questions, TOPICS, TOPIC_ICONS, LAB_TYPES, onRegentsExams }) {
+function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, levelInfo, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit, questions, TOPICS, TOPIC_ICONS, LAB_TYPES, onRegentsExams }) {
   const allTopics = Object.values(TOPICS ?? {})
   return (
     <div className="tab-panel">
@@ -61,7 +61,19 @@ function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onConte
               </p>
             </div>
           </div>
-          <span className="xp-badge">💫 {xp.toLocaleString()} XP</span>
+          <div className="xp-level-block">
+            {levelInfo && (
+              <div className="level-badge">
+                <span className="level-badge-emoji">{levelInfo.emoji}</span>
+                <span className="level-badge-text">Lv.{levelInfo.level} {levelInfo.title}</span>
+                <div className="level-progress-bar">
+                  <div className="level-progress-fill" style={{ width: `${Math.round(levelInfo.progress * 100)}%` }} />
+                </div>
+                {levelInfo.next && <span className="level-badge-next">{levelInfo.xpToNext} XP to {levelInfo.next.title}</span>}
+              </div>
+            )}
+            <span className="xp-badge">💫 {xp.toLocaleString()} XP</span>
+          </div>
         </div>
         <div className="streak-week">
           {weekDays.map(({ date, dayLabel, studied, isToday }) => (
@@ -1040,7 +1052,7 @@ export default function HomeScreen({
   history, streak, studiedToday, weekDays,
   masteryPct, isUnlocked, unlockHint,
   completedCount, totalTopics,
-  xp, onBuyStreak, earnXP,
+  xp, levelInfo, onBuyStreak, earnXP,
   earnedIds, allAchievements,
   school, saveSchool,
   theme, setTheme,
@@ -1088,7 +1100,7 @@ export default function HomeScreen({
           onStart={onStart} onPracticeTest={onPracticeTest} onDiagnostic={onDiagnostic} onSpeedRound={onSpeedRound} onContextPractice={onContextPractice} onLabPractice={onLabPractice}
           masteryPct={masteryPct} isUnlocked={isUnlocked} unlockHint={unlockHint}
           streak={streak} studiedToday={studiedToday} weekDays={weekDays}
-          xp={xp} onBuyStreak={onBuyStreak}
+          xp={xp} levelInfo={levelInfo} onBuyStreak={onBuyStreak}
           dailyQ={dailyQ} dailyAnswered={dailyAnswered} dailyRecord={dailyRecord}
           dailyLoading={dailyLoading} onDailySubmit={onDailySubmit}
           questions={questions} TOPICS={TOPICS} TOPIC_ICONS={TOPIC_ICONS} LAB_TYPES={LAB_TYPES}

@@ -6,13 +6,18 @@ const LS_KEY = 'regents_xp_v1'
 
 export function useXP(uid) {
   const [xp, setXP] = useState(0)
+  const [loaded, setLoaded] = useState(false)
 
   useEffect(() => {
     if (!uid) return
     getDoc(doc(db, 'users', uid, 'meta', 'xp'))
-      .then((snap) => { if (snap.exists()) setXP(snap.data().total ?? 0) })
+      .then((snap) => {
+        if (snap.exists()) setXP(snap.data().total ?? 0)
+        setLoaded(true)
+      })
       .catch(() => {
         try { setXP(Number(localStorage.getItem(LS_KEY)) || 0) } catch {}
+        setLoaded(true)
       })
   }, [uid])
 
@@ -31,5 +36,5 @@ export function useXP(uid) {
     return true
   }, [uid, xp])
 
-  return { xp, earnXP, spendXP }
+  return { xp, earnXP, spendXP, loaded }
 }

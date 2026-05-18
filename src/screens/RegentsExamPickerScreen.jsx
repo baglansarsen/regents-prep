@@ -2,10 +2,16 @@ import { useState } from 'react'
 import { REGENTS_EXAMS } from '../data/regents-exams/index'
 import { SUBJECT_META } from '../data/subjects'
 
+const PB_KEY = 'regents_personal_best_v1'
+function getPersonalBests() {
+  try { return JSON.parse(localStorage.getItem(PB_KEY) || '{}') } catch { return {} }
+}
+
 const SUBJECTS = ['living-environment', 'earth-science']
 
 export default function RegentsExamPickerScreen({ onSelect, onHome, subject: initialSubject }) {
   const [subject, setSubject] = useState(initialSubject ?? 'living-environment')
+  const personalBests = getPersonalBests()
 
   const exams = REGENTS_EXAMS[subject] ?? []
 
@@ -51,10 +57,12 @@ export default function RegentsExamPickerScreen({ onSelect, onHome, subject: ini
             <div className="regents-exam-row">
               {byYear[year].map((exam) => {
                 const hasQuestions = exam.questions.length > 0
+                const pb = personalBests[exam.id]
+                const pbPassed = pb != null && pb >= 65
                 return (
                   <button
                     key={exam.id}
-                    className={`regents-exam-card ${!hasQuestions ? 'regents-exam-card--empty' : ''}`}
+                    className={`regents-exam-card ${!hasQuestions ? 'regents-exam-card--empty' : ''} ${pb != null ? 'regents-exam-card--attempted' : ''}`}
                     onClick={() => hasQuestions && onSelect(exam)}
                     disabled={!hasQuestions}
                   >
@@ -63,6 +71,11 @@ export default function RegentsExamPickerScreen({ onSelect, onHome, subject: ini
                       {hasQuestions ? `${exam.questions.length} questions` : 'Coming soon'}
                     </span>
                     {hasQuestions && <span className="regents-exam-time">⏱ {exam.totalMinutes} min</span>}
+                    {pb != null && (
+                      <span className={`regents-exam-pb ${pbPassed ? 'regents-exam-pb--pass' : 'regents-exam-pb--fail'}`}>
+                        {pbPassed ? '✓' : '✗'} Best: {pb}
+                      </span>
+                    )}
                   </button>
                 )
               })}

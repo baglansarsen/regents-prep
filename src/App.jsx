@@ -1,4 +1,5 @@
-import { useState, useCallback, useMemo } from 'react'
+import { useState, useCallback, useMemo, useEffect, useRef } from 'react'
+import { getLevel, regentsXP } from './data/levels'
 import * as livingEnvData from './data/living-environment/index'
 import * as earthScienceData from './data/earth-science/index'
 import { SUBJECT_META } from './data/subjects'
@@ -60,9 +61,22 @@ export default function App() {
 
   const { streak, studiedToday, weekDays, markStudied } = useDailyStreak(user?.uid)
   const { isUnlocked, unlockHint, completedCount, totalTopics } = useUnlocks(subjectHistory, TOPIC_ORDER)
-  const { xp, earnXP, spendXP } = useXP(user?.uid)
-  const { earnedIds, allAchievements, currentToast, dismissToast, recordPracticeTest, recordDiagnostic } =
+  const { xp, earnXP, spendXP, loaded: xpLoaded } = useXP(user?.uid)
+  const { earnedIds, allAchievements, currentToast, dismissToast, queueToast, recordPracticeTest, recordDiagnostic } =
     useAchievements(user?.uid, { history: subjectHistory, streak, xp, achievements: sd.achievements })
+
+  // Level-up detection — only fires after initial XP load
+  const prevLevelRef = useRef(null)
+  useEffect(() => {
+    if (!xpLoaded) return
+    const cur = getLevel(xp).level
+    if (prevLevelRef.current === null) { prevLevelRef.current = cur; return }
+    if (cur > prevLevelRef.current) {
+      const info = getLevel(xp)
+      queueToast({ emoji: info.emoji, name: `Level Up! ${info.title}`, description: `You reached Level ${info.level}`, tier: 'gold' })
+    }
+    prevLevelRef.current = cur
+  }, [xp, xpLoaded, queueToast])
   const { school, saveSchool, loading: schoolLoading } = useSchool(user, xp, earnedIds)
   const { bookmarkedIds, toggle: toggleBookmark, remove: removeBookmark } = useBookmarks(user?.uid)
   const { question: dailyQ, answeredToday: dailyAnswered, record: dailyRecord, loading: dailyLoading, submitAnswer: submitDailyAnswer } = useDailyQuestion(user?.uid)
@@ -191,14 +205,15 @@ export default function App() {
   }, [markStudied, earnXP, saveResult, recordDiagnostic])
 
   const finishQuiz = useCallback((result) => {
-    setQuizResult(result)
+  setQuizResult(result)
     setScreen('results')
     const correct = result.results.filter((r) => r.correct).length
     const pct     = Math.round((correct / result.total) * 100)
     saveResult({ topic: activeTopic, score: result.score, total: result.total, correct, pct })
     markStudied()
-    earnXP(correct * 10)
-    logActivity({ type: 'quiz', label: `scored ${pct}% on ${activeTopic ?? 'All Topics'}`, emoji: pct >= 85 ? '🏆' : pct >= 65 ? '✅' : '📝', xp: correct * 10 })
+    const xpEarned = Math.max(correct * 10, Math.round(result.score / 10))
+    earnXP(xpEarned)
+    logActivity({ type: 'quiz', label: `scored ${pct}% on ${activeTopic ?? 'All Topics'}`, emoji: pct >= 85 ? '🏆' : pct >= 65 ? '✅' : '📝', xp: xpEarned })
   }, [activeTopic, saveResult, markStudied, earnXP, logActivity])
 
   const buyStreak = useCallback(async () => {
@@ -233,10 +248,21 @@ export default function App() {
   }, [])
 
   const finishRegentsExam = useCallback((result) => {
-    setExamResult(result)
+    const scaled = result.total ? Math.round((result.correct / result.total) * 100) : 0
+    const xpEarned = regentsXP(scaled)
+    // Save personal best
+    const PB_KEY = 'regents_personal_best_v1'
+    try {
+      const pbs = JSON.parse(localStorage.getItem(PB_KEY) || '{}')
+      if ((pbs[result.exam?.id] ?? -1) < scaled) {
+        pbs[result.exam?.id] = scaled
+        localStorage.setItem(PB_KEY, JSON.stringify(pbs))
+      }
+    } catch {}
+    setExamResult({ ...result, xpEarned, scaled })
     setScreen('regentsExamResults')
     markStudied()
-    earnXP(result.correct * 10)
+    earnXP(xpEarned)
   }, [markStudied, earnXP])
 
   if (user === undefined || (user !== null && schoolLoading)) {
@@ -278,6 +304,7 @@ export default function App() {
           completedCount={completedCount}
           totalTopics={totalTopics}
           xp={xp}
+          levelInfo={getLevel(xp)}
           onBuyStreak={buyStreak}
           onDiagnostic={startDiagnostic}
           onSpeedRound={startSpeedRound}

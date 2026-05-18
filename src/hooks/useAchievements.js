@@ -37,6 +37,11 @@ export function useAchievements(uid, { history, streak, xp, achievements }) {
     setCurrentToast(next)
   }, [])
 
+  const queueToast = useCallback((toast) => {
+    toastQueueRef.current.push(toast)
+    if (!showingToastRef.current) showNextToast()
+  }, [showNextToast])
+
   const dismissToast = useCallback(() => {
     setCurrentToast(null)
     setTimeout(showNextToast, 300)
@@ -122,5 +127,5 @@ export function useAchievements(uid, { history, streak, xp, achievements }) {
     ).catch(() => {})
   }, [uid, diagCount])
 
-  return { earnedIds, allAchievements: ACHIEVEMENTS, currentToast, dismissToast, recordPracticeTest, recordDiagnostic }
+  return { earnedIds, allAchievements: ACHIEVEMENTS, currentToast, dismissToast, queueToast, recordPracticeTest, recordDiagnostic }
 }
