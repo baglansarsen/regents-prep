@@ -1,3 +1,4 @@
+import leJun2025 from './living-environment/june-2025'
 import leJun2024 from './living-environment/june-2024'
 import leAug2024 from './living-environment/august-2024'
 import leJun2023 from './living-environment/june-2023'
@@ -22,6 +23,7 @@ import esAug2019 from './earth-science/august-2019'
 
 export const REGENTS_EXAMS = {
   'living-environment': [
+    leJun2025,
     leJun2024, leAug2024,
     leJun2023, leAug2023,
     leJun2022, leAug2022,
