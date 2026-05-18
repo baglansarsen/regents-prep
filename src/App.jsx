@@ -1,5 +1,7 @@
-import { useState, useCallback } from 'react'
-import { questions, getByTopic, shuffled, buildDiagnosticSet, getContextual, getLabQuestions } from './data/questions'
+import { useState, useCallback, useMemo } from 'react'
+import * as livingEnvData from './data/living-environment/index'
+import * as earthScienceData from './data/earth-science/index'
+import { SUBJECT_META } from './data/subjects'
 import { useAuth } from './hooks/useAuth'
 import { useTheme } from './hooks/useTheme'
 import { useProgress } from './hooks/useProgress'
@@ -30,12 +32,34 @@ import AdminScreen, { ADMIN_EMAIL } from './screens/AdminScreen'
 export default function App() {
   const { theme, setTheme } = useTheme()
   const { user, signInWithGoogle, logOut } = useAuth()
-  const { history, saveResult, masteryPct } = useProgress(user?.uid)
+
+  const [subject, setSubjectRaw] = useState(
+    () => localStorage.getItem('regents_subject') || 'living-environment'
+  )
+  const setSubject = useCallback((s) => {
+    localStorage.setItem('regents_subject', s)
+    setSubjectRaw(s)
+  }, [])
+
+  const sd = subject === 'earth-science' ? earthScienceData : livingEnvData
+  const { questions, getByTopic, shuffled, buildDiagnosticSet, getContextual, TOPIC_ORDER } = sd
+  const getLabQuestions = sd.getLabQuestions ?? (() => [])
+
+  const { history, saveResult: saveResultRaw, masteryPct: masteryPctRaw } = useProgress(user?.uid)
+
+  const subjectHistory = useMemo(
+    () => history.filter((h) => (h.subject ?? 'living-environment') === subject),
+    [history, subject]
+  )
+
+  const saveResult = useCallback((args) => saveResultRaw({ ...args, subject }), [saveResultRaw, subject])
+  const masteryPct = useCallback((topic) => masteryPctRaw(topic, subject), [masteryPctRaw, subject])
+
   const { streak, studiedToday, weekDays, markStudied } = useDailyStreak(user?.uid)
-  const { isUnlocked, unlockHint, completedCount, totalTopics } = useUnlocks(history)
+  const { isUnlocked, unlockHint, completedCount, totalTopics } = useUnlocks(subjectHistory, TOPIC_ORDER)
   const { xp, earnXP, spendXP } = useXP(user?.uid)
   const { earnedIds, allAchievements, currentToast, dismissToast, recordPracticeTest, recordDiagnostic } =
-    useAchievements(user?.uid, { history, streak, xp })
+    useAchievements(user?.uid, { history: subjectHistory, streak, xp, achievements: sd.achievements })
   const { school, saveSchool, loading: schoolLoading } = useSchool(user, xp, earnedIds)
   const { bookmarkedIds, toggle: toggleBookmark, remove: removeBookmark } = useBookmarks(user?.uid)
   const { question: dailyQ, answeredToday: dailyAnswered, record: dailyRecord, loading: dailyLoading, submitAnswer: submitDailyAnswer } = useDailyQuestion(user?.uid)
@@ -60,6 +84,7 @@ export default function App() {
   const [activeTopic, setActiveTopic] = useState(null)
   const [diagResult, setDiagResult]   = useState(null)
   const [speedResult, setSpeedResult] = useState(null)
+  const [noTimer, setNoTimer]         = useState(false)
   // Battle state
   const [activeBattle, setActiveBattle]   = useState(null)
   const [challengeResult, setChallengeResult] = useState(null)
@@ -68,43 +93,45 @@ export default function App() {
     const pool = topic ? getByTopic(topic) : questions
     setQuestionSet(shuffled(pool))
     setActiveTopic(topic)
+    setNoTimer(false)
     setScreen('quiz')
-  }, [])
+  }, [questions, getByTopic, shuffled])
 
   const startPracticeTest = useCallback(() => {
     setQuestionSet(shuffled(questions))
     setScreen('practiceTest')
-  }, [])
+  }, [questions, shuffled])
 
   const startSpeedRound = useCallback(() => {
     setQuestionSet(shuffled(questions))
     setScreen('speedRound')
-  }, [])
+  }, [questions, shuffled])
 
   const startContextPractice = useCallback(() => {
     setQuestionSet(shuffled(getContextual()))
     setActiveTopic(null)
+    setNoTimer(true)
     setScreen('quiz')
-  }, [])
+  }, [getContextual, shuffled])
 
   const startLabPractice = useCallback((labType) => {
     setQuestionSet(shuffled(getLabQuestions(labType)))
     setActiveTopic(null)
     setScreen('quiz')
-  }, [])
+  }, [getLabQuestions, shuffled])
 
   const startDiagnostic = useCallback(() => {
     setQuestionSet(buildDiagnosticSet())
     setActiveTopic('__diagnostic__')
     setScreen('diagnostic')
-  }, [])
+  }, [buildDiagnosticSet])
 
   // Send a battle request to a friend (no quiz yet — they must accept first)
   const handleSendBattle = useCallback((friend) => {
     const questionIds = shuffled(questions).slice(0, 10).map((q) => q.id)
     sendBattleRequest({ friend, questionIds, user })
     logActivity({ type: 'challenge', label: `challenged ${friend.displayName}`, emoji: '⚔️' })
-  }, [sendBattleRequest, user, logActivity])
+  }, [sendBattleRequest, user, logActivity, questions, shuffled])
 
   // Load questions and start the quiz for an accepted battle
   const handlePlayBattle = useCallback((challenge) => {
@@ -116,7 +143,7 @@ export default function App() {
     setActiveBattle(challenge)
     setActiveTopic(null)
     setScreen('battleQuiz')
-  }, [])
+  }, [questions])
 
   const finishBattleQuiz = useCallback(async (result) => {
     const correct = result.results.filter((r) => r.correct).length
@@ -222,7 +249,7 @@ export default function App() {
           bookmarkedIds={bookmarkedIds}
           user={user}
           onLogOut={logOut}
-          history={history}
+          history={subjectHistory}
           streak={streak}
           studiedToday={studiedToday}
           weekDays={weekDays}
@@ -248,6 +275,11 @@ export default function App() {
           dailyRecord={dailyRecord}
           dailyLoading={dailyLoading}
           onDailySubmit={handleDailySubmit}
+          // Subject switcher
+          subject={subject}
+          setSubject={setSubject}
+          SUBJECT_META={SUBJECT_META}
+          subjectData={sd}
           // Friends
           friends={friends}
           friendCode={friendCode}
@@ -273,7 +305,7 @@ export default function App() {
       )}
 
       {screen === 'quiz' && questionSet.length > 0 && (
-        <QuizScreen key={questionSet[0]?.id} questionSet={questionSet} onDone={finishQuiz} onHome={goHome} bookmarkedIds={bookmarkedIds} onBookmark={toggleBookmark} />
+        <QuizScreen key={questionSet[0]?.id} questionSet={questionSet} onDone={finishQuiz} onHome={goHome} bookmarkedIds={bookmarkedIds} onBookmark={toggleBookmark} noTimer={noTimer} />
       )}
 
       {screen === 'results' && quizResult && (

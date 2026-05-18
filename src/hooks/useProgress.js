@@ -12,15 +12,20 @@ export function useProgress(uid) {
     loadHistory(uid).then(setHistory)
   }, [uid])
 
-  async function saveResult({ topic, score, total, correct, pct }) {
+  async function saveResult({ topic, score, total, correct, pct, subject }) {
     if (!uid) return
     const ref = collection(db, 'users', uid, 'quizHistory')
-    await addDoc(ref, { topic: topic ?? 'All Topics', score, total, correct, pct, timestamp: serverTimestamp() })
+    await addDoc(ref, { topic: topic ?? 'All Topics', score, total, correct, pct, subject: subject ?? 'living-environment', timestamp: serverTimestamp() })
     loadHistory(uid).then(setHistory)
   }
 
-  function masteryPct(topic) {
-    const relevant = history.filter((h) => topic ? h.topic === topic : true)
+  function masteryPct(topic, subject) {
+    const relevant = history.filter((h) => {
+      const hSubject = h.subject ?? 'living-environment'
+      const subjectMatch = subject ? hSubject === subject : true
+      const topicMatch = topic ? h.topic === topic : true
+      return subjectMatch && topicMatch
+    })
     if (!relevant.length) return null
     return Math.max(...relevant.map((h) => h.pct))
   }
@@ -30,7 +35,7 @@ export function useProgress(uid) {
 
 async function loadHistory(uid) {
   const ref = collection(db, 'users', uid, 'quizHistory')
-  const q = query(ref, orderBy('timestamp', 'desc'), limit(10))
+  const q = query(ref, orderBy('timestamp', 'desc'), limit(200))
   const snap = await getDocs(q)
   return snap.docs.map((d) => ({ id: d.id, ...d.data() }))
 }

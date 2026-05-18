@@ -1,15 +1,5 @@
-import { TOPICS } from '../data/questions'
-
-const TOPIC_ORDER = [
-  TOPICS.CELL_BIOLOGY,
-  TOPICS.GENETICS,
-  TOPICS.EVOLUTION,
-  TOPICS.ECOLOGY,
-  TOPICS.HUMAN_BODY,
-  TOPICS.REPRODUCTION,
-]
-
-export function useUnlocks(history) {
+export function useUnlocks(history, topicOrder) {
+  const TOPIC_ORDER = topicOrder ?? []
   // Build set of topics where user scored 65%+ at least once
   const passed = new Set(history.filter((h) => h.pct >= 65).map((h) => h.topic))
 

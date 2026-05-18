@@ -1,10 +1,8 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { doc, getDoc, setDoc, arrayUnion } from 'firebase/firestore'
 import { db } from '../firebase'
-import { ACHIEVEMENTS } from '../data/achievements'
-import { TOPICS } from '../data/questions'
-
-export function useAchievements(uid, { history, streak, xp }) {
+export function useAchievements(uid, { history, streak, xp, achievements }) {
+  const ACHIEVEMENTS = achievements ?? []
   const [earnedIds, setEarnedIds] = useState(new Set())
   const [currentToast, setCurrentToast] = useState(null)
   const [practiceTestBest, setPracticeTestBest] = useState(null)

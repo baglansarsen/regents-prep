@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "csas-dismissal"
+  },
+  "targets": {
+    "csas-dismissal": {
+      "hosting": {
+        "regents": [
+          "regents-csas"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

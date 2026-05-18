@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import { flashcards, getFlashcardsByTopic } from '../data/flashcards'
+import { flashcards as leFlashcards } from '../data/flashcards'
 
 // SM-2 quality levels
 export const Q_AGAIN = 1  // forgot / still learning
@@ -45,7 +45,8 @@ export function nextReviewLabel(nextReview) {
   return `in ${days} days`
 }
 
-export function useSpacedRepetition(uid) {
+export function useSpacedRepetition(uid, flashcardsOverride) {
+  const flashcards = flashcardsOverride ?? leFlashcards
   const [data, setData] = useState(() => loadData(uid))
 
   useEffect(() => {
@@ -67,10 +68,9 @@ export function useSpacedRepetition(uid) {
 
   // Build an ordered deck for a given topic
   // Order: overdue/due first → new (never seen) → future (not due yet)
-  // Wrapped in useCallback so callers get a stable reference that reflects latest data
   const buildDeck = useCallback((topic, browseAll = false) => {
     const now = Date.now()
-    const cards = getFlashcardsByTopic(topic)
+    const cards = topic ? flashcards.filter((c) => c.topic === topic) : flashcards
 
     if (browseAll) return cards
 
@@ -82,11 +82,11 @@ export function useSpacedRepetition(uid) {
     future.sort((a, b) => data[a.id].nextReview - data[b.id].nextReview)
 
     return [...due, ...newCards, ...future]
-  }, [data])
+  }, [data, flashcards])
 
   const getStats = useCallback((topic) => {
     const now = Date.now()
-    const cards = getFlashcardsByTopic(topic)
+    const cards = topic ? flashcards.filter((c) => c.topic === topic) : flashcards
     let due = 0, newCards = 0, reviewed = 0, mastered = 0
     for (const c of cards) {
       const d = data[c.id]
@@ -98,7 +98,7 @@ export function useSpacedRepetition(uid) {
       }
     }
     return { due, new: newCards, reviewed, mastered, total: cards.length }
-  }, [data])
+  }, [data, flashcards])
 
   return { data, review, resetAll, buildDeck, getStats }
 }

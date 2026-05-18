@@ -1,6 +1,4 @@
 import { useState, useMemo, useEffect } from 'react'
-import { TOPICS, TOPIC_ICONS, questions, LAB_TYPES } from '../data/questions'
-import { flashcards, FLASHCARD_TOPIC_LIST } from '../data/flashcards'
 import { useSpacedRepetition, Q_AGAIN, Q_GOOD, Q_EASY, nextReviewLabel } from '../hooks/useSpacedRepetition'
 import { NY_SCHOOLS, BOROUGHS } from '../data/schools'
 import { useLeaderboard } from '../hooks/useLeaderboard'
@@ -40,8 +38,8 @@ const LAB_TYPE_ICONS = {
 
 // ── Study Tab ──────────────────────────────────────────────────────────────
 
-function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit }) {
-  const allTopics = Object.values(TOPICS)
+function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit, questions, TOPICS, TOPIC_ICONS, LAB_TYPES }) {
+  const allTopics = Object.values(TOPICS ?? {})
   return (
     <div className="tab-panel">
       <ExamCountdown />
@@ -152,7 +150,7 @@ function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onConte
 
 // ── Cards Tab (SM-2 spaced repetition) ────────────────────────────────────
 
-function buildMCQuestion(card) {
+function buildMCQuestion(card, flashcards) {
   const showTerm = Math.random() > 0.5
   const prompt      = showTerm ? card.term       : card.definition
   const promptLabel = showTerm ? 'DEFINE THIS TERM' : 'NAME THIS TERM'
@@ -166,8 +164,8 @@ function buildMCQuestion(card) {
   return { prompt, promptLabel, correct, options }
 }
 
-function CardsTab({ uid, earnXP, xp }) {
-  const { review, resetAll, buildDeck, getStats } = useSpacedRepetition(uid)
+function CardsTab({ uid, earnXP, xp, flashcards, FLASHCARD_TOPIC_LIST }) {
+  const { review, resetAll, buildDeck, getStats } = useSpacedRepetition(uid, flashcards)
 
   const [topic,    setTopic]   = useState(null)
   const [browseAll,setBrowse]  = useState(false)
@@ -189,7 +187,7 @@ function CardsTab({ uid, earnXP, xp }) {
 
   // Regenerate MC question when the card or mode changes
   useEffect(() => {
-    if (mode === 'mc' && card) { setMcQ(buildMCQuestion(card)); setMcPicked(null) }
+    if (mode === 'mc' && card) { setMcQ(buildMCQuestion(card, flashcards ?? [])); setMcPicked(null) }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [card?.id, mode])
 
@@ -373,7 +371,7 @@ function CardsTab({ uid, earnXP, xp }) {
 
 // ── XP History Chart ───────────────────────────────────────────────────────
 
-function XPHistoryChart({ history, xp }) {
+function XPHistoryChart({ history, xp, TOPIC_ICONS }) {
   const sessions = [...history].reverse() // oldest → newest
   if (sessions.length < 1) return null
 
@@ -415,8 +413,8 @@ function XPHistoryChart({ history, xp }) {
 
 // ── Progress Tab ───────────────────────────────────────────────────────────
 
-function ProgressTab({ history, xp, masteryPct, isUnlocked, completedCount, totalTopics, earnedIds, allAchievements, onAnalytics, onAchievements, onBookmarks, bookmarkedIds }) {
-  const allTopics   = Object.values(TOPICS)
+function ProgressTab({ history, xp, masteryPct, isUnlocked, completedCount, totalTopics, earnedIds, allAchievements, onAnalytics, onAchievements, onBookmarks, bookmarkedIds, TOPICS, TOPIC_ICONS }) {
+  const allTopics   = Object.values(TOPICS ?? {})
   const bestPct     = history.length ? Math.max(...history.map((h) => h.pct)) : null
   const earnedCount = earnedIds?.size ?? 0
   const totalAch    = allAchievements?.length ?? 0
@@ -430,7 +428,7 @@ function ProgressTab({ history, xp, masteryPct, isUnlocked, completedCount, tota
           <div className="stat-chip"><span className="stat-value">{history[0].pct}%</span><span className="stat-label">last quiz</span></div>
         </div>
       )}
-      <XPHistoryChart history={history} xp={xp} />
+      <XPHistoryChart history={history} xp={xp} TOPIC_ICONS={TOPIC_ICONS} />
       <div className="unlock-path">
         <div className="unlock-path-header">
           <span className="unlock-path-label">TOPIC PATH</span>
@@ -1039,6 +1037,8 @@ export default function HomeScreen({
   theme, setTheme,
   dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit,
   onBookmarks, bookmarkedIds,
+  // Subject switcher
+  subject, setSubject, SUBJECT_META, subjectData,
   // Friends / battles
   friends, friendCode, friendFeed,
   incomingRequests, sentRequests,
@@ -1049,13 +1049,29 @@ export default function HomeScreen({
 }) {
   const [tab, setTab] = useState(initialTab ?? 'study')
 
+  const { questions = [], TOPICS = {}, TOPIC_ICONS = {}, LAB_TYPES = {}, flashcards = [], FLASHCARD_TOPIC_LIST = [] } = subjectData ?? {}
+  const subjectName = SUBJECT_META?.[subject]?.name ?? 'Regents Prep'
+
   return (
     <div className="home-screen">
       <header className="home-header home-header--compact">
         <div className="home-title-row">
-          <h1 className="app-title">Living Environment</h1>
+          <h1 className="app-title">{subjectName}</h1>
           <p className="app-subtitle">Regents Prep</p>
         </div>
+        {SUBJECT_META && setSubject && (
+          <div className="subject-selector">
+            {Object.values(SUBJECT_META).map(({ id, name, icon }) => (
+              <button
+                key={id}
+                className={`fc-topic-chip ${subject === id ? 'fc-topic-chip--active' : ''}`}
+                onClick={() => setSubject(id)}
+              >
+                {icon} {name}
+              </button>
+            ))}
+          </div>
+        )}
       </header>
 
       {tab === 'study' && (
@@ -1066,9 +1082,10 @@ export default function HomeScreen({
           xp={xp} onBuyStreak={onBuyStreak}
           dailyQ={dailyQ} dailyAnswered={dailyAnswered} dailyRecord={dailyRecord}
           dailyLoading={dailyLoading} onDailySubmit={onDailySubmit}
+          questions={questions} TOPICS={TOPICS} TOPIC_ICONS={TOPIC_ICONS} LAB_TYPES={LAB_TYPES}
         />
       )}
-      {tab === 'cards' && <CardsTab uid={user?.uid} earnXP={earnXP} xp={xp} />}
+      {tab === 'cards' && <CardsTab uid={user?.uid} earnXP={earnXP} xp={xp} flashcards={flashcards} FLASHCARD_TOPIC_LIST={FLASHCARD_TOPIC_LIST} />}
       {tab === 'progress' && (
         <ProgressTab
           history={history} xp={xp} masteryPct={masteryPct} isUnlocked={isUnlocked}
@@ -1076,6 +1093,7 @@ export default function HomeScreen({
           earnedIds={earnedIds} allAchievements={allAchievements}
           onAnalytics={onAnalytics} onAchievements={onAchievements}
           onBookmarks={onBookmarks} bookmarkedIds={bookmarkedIds}
+          TOPICS={TOPICS} TOPIC_ICONS={TOPIC_ICONS}
         />
       )}
       {tab === 'friends' && (

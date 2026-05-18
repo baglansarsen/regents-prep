@@ -11,7 +11,7 @@ function streakMultiplier(streak) {
   return 1.0
 }
 
-export function useQuiz(questionSet) {
+export function useQuiz(questionSet, noTimer = false) {
   const [index, setIndex] = useState(0)
   const [score, setScore] = useState(0)
   const [streak, setStreak] = useState(0)
@@ -38,7 +38,7 @@ export function useQuiz(questionSet) {
   }, [phase, currentQuestion])
 
   useEffect(() => {
-    if (phase !== 'answering') return
+    if (noTimer || phase !== 'answering') return
     setTimeLeft(TIMER_SECONDS)
 
     timerRef.current = setInterval(() => {
@@ -46,14 +46,15 @@ export function useQuiz(questionSet) {
     }, 1000)
 
     return () => clearInterval(timerRef.current)
-  }, [index, phase])
+  }, [index, phase, noTimer])
 
   useEffect(() => {
+    if (noTimer) return
     if (phase === 'answering' && timeLeft <= 0) {
       clearInterval(timerRef.current)
       handleTimeout()
     }
-  }, [timeLeft, phase, handleTimeout])
+  }, [timeLeft, phase, handleTimeout, noTimer])
 
   const answer = useCallback(
     (choiceIndex) => {
