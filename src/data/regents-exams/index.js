@@ -10,6 +10,7 @@ import leAug2021 from './living-environment/august-2021'
 import leJun2019 from './living-environment/june-2019'
 import leAug2019 from './living-environment/august-2019'
 
+import esJun2025 from './earth-science/june-2025'
 import esJun2024 from './earth-science/june-2024'
 import esAug2024 from './earth-science/august-2024'
 import esJun2023 from './earth-science/june-2023'
@@ -31,6 +32,7 @@ export const REGENTS_EXAMS = {
     leJun2019, leAug2019,
   ],
   'earth-science': [
+    esJun2025,
     esJun2024, esAug2024,
     esJun2023, esAug2023,
     esJun2022, esAug2022,
