@@ -38,7 +38,7 @@ const LAB_TYPE_ICONS = {
 
 // ── Study Tab ──────────────────────────────────────────────────────────────
 
-function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit, questions, TOPICS, TOPIC_ICONS, LAB_TYPES }) {
+function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit, questions, TOPICS, TOPIC_ICONS, LAB_TYPES, onRegentsExams }) {
   const allTopics = Object.values(TOPICS ?? {})
   return (
     <div className="tab-panel">
@@ -102,6 +102,15 @@ function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onConte
           <p className="quick-name">Context Practice</p>
           <p className="quick-sub">Read & analyze</p>
         </button>
+        {onRegentsExams && (
+          <button className="quick-practice" onClick={onRegentsExams} style={{ background: 'linear-gradient(135deg, #7c3aed, #4f46e5)' }}>
+            <span className="quick-icon">📋</span>
+            <div>
+              <p className="quick-name" style={{ color: '#fff' }}>Regents Exams</p>
+              <p className="quick-sub" style={{ color: '#c4b5fd' }}>Real past exams by year</p>
+            </div>
+          </button>
+        )}
       </div>
 
       {/* Lab Practice */}
@@ -1026,7 +1035,7 @@ function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, t
 // ── Main HomeScreen ────────────────────────────────────────────────────────
 
 export default function HomeScreen({
-  onStart, onPracticeTest, onAnalytics, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, onAchievements,
+  onStart, onPracticeTest, onAnalytics, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, onAchievements, onRegentsExams,
   user, onLogOut,
   history, streak, studiedToday, weekDays,
   masteryPct, isUnlocked, unlockHint,
@@ -1083,6 +1092,7 @@ export default function HomeScreen({
           dailyQ={dailyQ} dailyAnswered={dailyAnswered} dailyRecord={dailyRecord}
           dailyLoading={dailyLoading} onDailySubmit={onDailySubmit}
           questions={questions} TOPICS={TOPICS} TOPIC_ICONS={TOPIC_ICONS} LAB_TYPES={LAB_TYPES}
+          onRegentsExams={onRegentsExams}
         />
       )}
       {tab === 'cards' && <CardsTab uid={user?.uid} earnXP={earnXP} xp={xp} flashcards={flashcards} FLASHCARD_TOPIC_LIST={FLASHCARD_TOPIC_LIST} />}

@@ -3784,3 +3784,108 @@ html, body {
 .admin-user-meta   { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; flex-shrink: 0; }
 .admin-user-xp     { font-size: .8rem; font-weight: 700; color: var(--brand-light); }
 .admin-user-time   { font-size: .7rem; color: var(--text-muted); }
+
+/* ── Regents Exam Picker ───────────────────────────────────────────────────── */
+.regents-year-group { margin-bottom: 20px; }
+.regents-year-label { font-size: .78rem; font-weight: 700; color: var(--text-muted); letter-spacing: .05em; text-transform: uppercase; margin-bottom: 8px; }
+.regents-exam-row   { display: flex; gap: 10px; flex-wrap: wrap; }
+.regents-exam-card  {
+  flex: 1; min-width: 120px; max-width: 180px;
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  padding: 14px 10px; border-radius: 12px;
+  background: var(--card); border: 1.5px solid var(--border);
+  cursor: pointer; transition: border-color .15s, box-shadow .15s;
+}
+.regents-exam-card:hover  { border-color: var(--brand); box-shadow: 0 0 0 2px var(--brand)22; }
+.regents-exam-card--empty { opacity: .5; cursor: default; border-style: dashed; }
+.regents-exam-session { font-size: .95rem; font-weight: 700; color: var(--text); }
+.regents-exam-count   { font-size: .75rem; color: var(--text-muted); }
+.regents-exam-time    { font-size: .72rem; color: var(--brand-light); font-weight: 600; }
+.regents-info-box     { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; margin-top: 20px; }
+.regents-info-title   { font-size: .88rem; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+.regents-info-text    { font-size: .82rem; color: var(--text-muted); line-height: 1.5; }
+
+/* ── Regents Exam Screen ──────────────────────────────────────────────────── */
+.regents-exam-header  { display: flex; align-items: center; gap: 10px; }
+.regents-exam-title   { font-size: .88rem; font-weight: 700; color: var(--text); }
+.regents-exam-meta    { font-size: .72rem; color: var(--text-muted); }
+.regents-timer        { font-size: .9rem; font-weight: 700; color: var(--brand-light); white-space: nowrap; min-width: 54px; text-align: right; }
+.regents-timer--warning { color: #ef4444; animation: pulse 1s infinite; }
+
+.regents-nav-dots {
+  display: flex; flex-wrap: wrap; gap: 4px;
+  padding: 8px 16px 4px; background: var(--card);
+  border-bottom: 1px solid var(--border);
+}
+.regents-dot {
+  width: 24px; height: 24px; border-radius: 6px; font-size: .68rem; font-weight: 600;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--surface); border: 1px solid var(--border); color: var(--text-muted);
+  cursor: pointer; transition: background .12s;
+}
+.regents-dot--current  { background: var(--brand); color: #fff; border-color: var(--brand); }
+.regents-dot--answered { background: #22c55e22; border-color: #22c55e; color: #16a34a; }
+.regents-dot--flagged  { border-color: #f97316; box-shadow: 0 0 0 2px #f9741644; }
+
+.regents-question-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+.regents-question-num    { font-size: .78rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: .05em; }
+.regents-flag-btn        { font-size: .78rem; padding: 4px 10px; border-radius: 20px; border: 1.5px solid var(--border); color: var(--text-muted); background: transparent; cursor: pointer; transition: all .15s; }
+.regents-flag-btn--active { border-color: #f97316; color: #f97316; background: #f9741611; }
+
+.choice--selected-regents { border-color: var(--brand) !important; background: var(--brand)18 !important; }
+
+.regents-nav-row       { display: flex; gap: 10px; margin-top: 20px; }
+.regents-nav-btn       { flex: 1; padding: 12px; border-radius: 10px; font-size: .9rem; font-weight: 600; background: var(--card); border: 1.5px solid var(--border); color: var(--text); cursor: pointer; transition: background .15s; }
+.regents-nav-btn:disabled { opacity: .35; cursor: default; }
+.regents-nav-btn--next   { background: var(--brand); color: #fff; border-color: var(--brand); }
+.regents-nav-btn--submit { background: #7c3aed; color: #fff; border-color: #7c3aed; }
+
+.regents-unanswered-note { font-size: .78rem; color: var(--text-muted); text-align: center; margin-top: 10px; }
+
+/* Confirm modal */
+.regents-modal-overlay  { position: fixed; inset: 0; background: #00000066; z-index: 100; display: flex; align-items: center; justify-content: center; padding: 24px; }
+.regents-modal          { background: var(--card); border-radius: 16px; padding: 24px; max-width: 340px; width: 100%; box-shadow: 0 20px 60px #0006; }
+.regents-modal-title    { font-size: 1.1rem; font-weight: 700; color: var(--text); margin-bottom: 10px; }
+.regents-modal-body     { font-size: .88rem; color: var(--text-muted); margin-bottom: 20px; line-height: 1.5; }
+.regents-modal-actions  { display: flex; gap: 10px; }
+.regents-modal-cancel   { flex: 1; padding: 12px; border-radius: 10px; background: var(--surface); border: 1.5px solid var(--border); font-size: .9rem; font-weight: 600; color: var(--text); cursor: pointer; }
+.regents-modal-confirm  { flex: 1; padding: 12px; border-radius: 10px; background: #7c3aed; border: none; font-size: .9rem; font-weight: 600; color: #fff; cursor: pointer; }
+
+/* ── Regents Exam Results ─────────────────────────────────────────────────── */
+.regents-score-card       { border-radius: 16px; padding: 24px; text-align: center; margin-bottom: 20px; border: 2px solid; }
+.regents-score-card--pass { background: #f0fdf422; border-color: #22c55e44; }
+.regents-score-card--fail { background: #fef2f222; border-color: #ef444444; }
+.regents-score-scaled     { font-size: 3.5rem; font-weight: 800; color: var(--text); line-height: 1; }
+.regents-score-label      { font-size: .78rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: .06em; margin: 4px 0 10px; }
+.regents-score-verdict    { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
+.regents-score-verdict--pass { color: #22c55e; }
+.regents-score-verdict--fail { color: #ef4444; }
+.regents-score-raw        { font-size: .82rem; color: var(--text-muted); }
+
+.regents-breakdown        { background: var(--card); border-radius: 12px; padding: 14px 16px; margin-bottom: 20px; display: flex; flex-direction: column; gap: 10px; }
+.regents-breakdown-row    { display: flex; align-items: center; gap: 10px; }
+.regents-breakdown-part   { font-size: .8rem; font-weight: 700; color: var(--text); min-width: 48px; }
+.regents-breakdown-bar-track { flex: 1; height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+.regents-breakdown-bar-fill  { height: 100%; border-radius: 4px; transition: width .4s; }
+.regents-breakdown-score  { font-size: .8rem; font-weight: 600; color: var(--text); min-width: 36px; text-align: right; }
+
+.regents-review-header    { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.regents-review-title     { font-size: .88rem; font-weight: 700; color: var(--text); }
+.regents-review-toggle    { font-size: .78rem; color: var(--brand-light); font-weight: 600; background: none; border: none; cursor: pointer; }
+.regents-review-list      { display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
+.regents-review-item      { border-radius: 10px; padding: 12px 14px; border: 1.5px solid; }
+.regents-review-item--correct { background: #f0fdf411; border-color: #22c55e33; }
+.regents-review-item--wrong   { background: #fef2f211; border-color: #ef444433; }
+.regents-review-item-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.regents-review-qnum      { font-size: .72rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
+.regents-review-verdict   { font-size: .78rem; font-weight: 600; color: var(--text-muted); }
+.regents-review-qtext     { font-size: .85rem; color: var(--text); margin-bottom: 6px; }
+.regents-review-correct   { font-size: .82rem; color: #16a34a; }
+.regents-review-explanation { font-size: .8rem; color: var(--text-muted); margin-top: 4px; font-style: italic; line-height: 1.4; }
+
+.regents-result-actions   { display: flex; gap: 10px; padding-bottom: 24px; }
+.btn-primary  { flex: 1; padding: 13px; border-radius: 10px; background: var(--brand); color: #fff; border: none; font-size: .95rem; font-weight: 700; cursor: pointer; }
+.btn-secondary { flex: 1; padding: 13px; border-radius: 10px; background: var(--card); border: 1.5px solid var(--border); color: var(--text); font-size: .95rem; font-weight: 600; cursor: pointer; }
+
+/* ── Subject selector in header ───────────────────────────────────────────── */
+.subject-selector { display: flex; gap: 8px; flex-wrap: wrap; padding: 6px 0 2px; }

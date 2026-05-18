@@ -28,6 +28,9 @@ import SpeedRoundScreen, { SpeedResults } from './screens/SpeedRoundScreen'
 import ChallengeResultScreen from './screens/ChallengeResultScreen'
 import SchoolOnboardingScreen from './screens/SchoolOnboardingScreen'
 import AdminScreen, { ADMIN_EMAIL } from './screens/AdminScreen'
+import RegentsExamPickerScreen from './screens/RegentsExamPickerScreen'
+import RegentsExamScreen from './screens/RegentsExamScreen'
+import RegentsExamResultsScreen from './screens/RegentsExamResultsScreen'
 
 export default function App() {
   const { theme, setTheme } = useTheme()
@@ -85,6 +88,9 @@ export default function App() {
   const [diagResult, setDiagResult]   = useState(null)
   const [speedResult, setSpeedResult] = useState(null)
   const [noTimer, setNoTimer]         = useState(false)
+  // Regents exam state
+  const [activeExam, setActiveExam]         = useState(null)
+  const [examResult, setExamResult]         = useState(null)
   // Battle state
   const [activeBattle, setActiveBattle]   = useState(null)
   const [challengeResult, setChallengeResult] = useState(null)
@@ -220,6 +226,19 @@ export default function App() {
     setChallengeResult(null)
   }, [])
 
+  const startRegentsExam = useCallback((exam) => {
+    setActiveExam(exam)
+    setExamResult(null)
+    setScreen('regentsExam')
+  }, [])
+
+  const finishRegentsExam = useCallback((result) => {
+    setExamResult(result)
+    setScreen('regentsExamResults')
+    markStudied()
+    earnXP(result.correct * 10)
+  }, [markStudied, earnXP])
+
   if (user === undefined || (user !== null && schoolLoading)) {
     return <div className="app-shell loading-shell"><span className="loading-dot" /></div>
   }
@@ -275,6 +294,7 @@ export default function App() {
           dailyRecord={dailyRecord}
           dailyLoading={dailyLoading}
           onDailySubmit={handleDailySubmit}
+          onRegentsExams={() => setScreen('regentsExamPicker')}
           // Subject switcher
           subject={subject}
           setSubject={setSubject}
@@ -388,6 +408,30 @@ export default function App() {
 
       {screen === 'admin' && (
         <AdminScreen user={user} onHome={goHome} />
+      )}
+
+      {screen === 'regentsExamPicker' && (
+        <RegentsExamPickerScreen
+          subject={subject}
+          onSelect={startRegentsExam}
+          onHome={goHome}
+        />
+      )}
+
+      {screen === 'regentsExam' && activeExam && (
+        <RegentsExamScreen
+          exam={activeExam}
+          onDone={finishRegentsExam}
+          onHome={goHome}
+        />
+      )}
+
+      {screen === 'regentsExamResults' && examResult && (
+        <RegentsExamResultsScreen
+          {...examResult}
+          onRetake={() => startRegentsExam(activeExam)}
+          onHome={goHome}
+        />
       )}
 
       {currentToast && <AchievementToast achievement={currentToast} onDismiss={dismissToast} />}
