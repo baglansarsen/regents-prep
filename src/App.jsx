@@ -24,6 +24,7 @@ import AnalyticsScreen from './screens/AnalyticsScreen'
 import DiagnosticResultsScreen from './screens/DiagnosticResultsScreen'
 import AchievementsScreen from './screens/AchievementsScreen'
 import AchievementToast from './components/AchievementToast'
+import GuestUpgradeModal from './components/GuestUpgradeModal'
 import BookmarksScreen from './screens/BookmarksScreen'
 import SpeedRoundScreen, { SpeedResults } from './screens/SpeedRoundScreen'
 import ChallengeResultScreen from './screens/ChallengeResultScreen'
@@ -35,7 +36,7 @@ import RegentsExamResultsScreen from './screens/RegentsExamResultsScreen'
 
 export default function App() {
   const { theme, setTheme } = useTheme()
-  const { user, signInWithGoogle, logOut } = useAuth()
+  const { user, signInWithGoogle, signInWithEmail, signUpWithEmail, signInAsGuest, linkEmailToGuest, linkGoogleToGuest, logOut } = useAuth()
 
   const [subject, setSubjectRaw] = useState(
     () => localStorage.getItem('regents_subject') || 'living-environment'
@@ -108,6 +109,8 @@ export default function App() {
   // Battle state
   const [activeBattle, setActiveBattle]   = useState(null)
   const [challengeResult, setChallengeResult] = useState(null)
+  // Guest upgrade modal
+  const [showUpgrade, setShowUpgrade] = useState(false)
 
   const startQuiz = useCallback((topic) => {
     const pool = topic ? getByTopic(topic) : questions
@@ -214,7 +217,8 @@ export default function App() {
     const xpEarned = Math.max(correct * 10, Math.round(result.score / 10))
     earnXP(xpEarned)
     logActivity({ type: 'quiz', label: `scored ${pct}% on ${activeTopic ?? 'All Topics'}`, emoji: pct >= 85 ? '🏆' : pct >= 65 ? '✅' : '📝', xp: xpEarned })
-  }, [activeTopic, saveResult, markStudied, earnXP, logActivity])
+    if (user?.isAnonymous) setShowUpgrade(true)
+  }, [activeTopic, saveResult, markStudied, earnXP, logActivity, user])
 
   const buyStreak = useCallback(async () => {
     const ok = await spendXP(100)
@@ -270,11 +274,20 @@ export default function App() {
   }
 
   if (user === null) {
-    return <div className="app-shell"><LoginScreen onSignIn={signInWithGoogle} /></div>
+    return (
+      <div className="app-shell">
+        <LoginScreen
+          onSignInGoogle={signInWithGoogle}
+          onSignInEmail={signInWithEmail}
+          onSignUpEmail={signUpWithEmail}
+          onGuest={signInAsGuest}
+        />
+      </div>
+    )
   }
 
-  // First-time login: school has never been set (null means no Firestore doc yet)
-  if (school === null) {
+  // First-time login: school has never been set — skip for anonymous/guest users
+  if (school === null && !user.isAnonymous) {
     return (
       <div className="app-shell">
         <SchoolOnboardingScreen user={user} onSelect={saveSchool} />
@@ -348,6 +361,7 @@ export default function App() {
           initialTab={homeTab}
           onLabPractice={startLabPractice}
           onAdmin={user?.email === ADMIN_EMAIL ? () => setScreen('admin') : null}
+          onUpgrade={user?.isAnonymous ? () => setShowUpgrade(true) : null}
         />
       )}
 
@@ -462,6 +476,14 @@ export default function App() {
       )}
 
       {currentToast && <AchievementToast achievement={currentToast} onDismiss={dismissToast} />}
+
+      {showUpgrade && user?.isAnonymous && (
+        <GuestUpgradeModal
+          onLinkEmail={linkEmailToGuest}
+          onLinkGoogle={linkGoogleToGuest}
+          onDismiss={() => setShowUpgrade(false)}
+        />
+      )}
     </div>
   )
 }

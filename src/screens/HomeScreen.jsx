@@ -1066,7 +1066,7 @@ export default function HomeScreen({
   addFriendError, setAddFriendError, onAddFriend, onRemoveFriend,
   onSendFriendRequest, onAcceptFriendRequest, onDeclineFriendRequest,
   challenges, onSendBattle, onAcceptBattle, onDeclineBattle, onPlayBattle,
-  initialTab, onAdmin,
+  initialTab, onAdmin, onUpgrade,
 }) {
   const [tab, setTab] = useState(initialTab ?? 'study')
 
@@ -1119,22 +1119,35 @@ export default function HomeScreen({
         />
       )}
       {tab === 'friends' && (
-        <FriendsTab
-          user={user} school={school}
-          friends={friends ?? []} friendCode={friendCode} friendFeed={friendFeed ?? []}
-          incomingRequests={incomingRequests ?? []} sentRequests={sentRequests ?? []}
-          addError={addFriendError} setAddError={setAddFriendError}
-          addFriend={onAddFriend} removeFriend={onRemoveFriend}
-          onSendRequest={onSendFriendRequest}
-          onAcceptRequest={onAcceptFriendRequest}
-          onDeclineRequest={onDeclineFriendRequest}
-          challenges={challenges ?? []}
-          onSendBattle={onSendBattle}
-          onAcceptBattle={onAcceptBattle}
-          onDeclineBattle={onDeclineBattle}
-          onPlayBattle={onPlayBattle}
-          onGoToProfile={() => setTab('profile')}
-        />
+        user?.isAnonymous ? (
+          <div className="guest-locked-tab">
+            <div className="guest-locked-icon">👥</div>
+            <h3 className="guest-locked-title">Friends &amp; Leaderboard</h3>
+            <p className="guest-locked-desc">Create a free account to challenge friends, track your rank, and compare scores.</p>
+            {onUpgrade && (
+              <button className="btn-email" style={{ maxWidth: 280 }} onClick={onUpgrade}>
+                Create Free Account
+              </button>
+            )}
+          </div>
+        ) : (
+          <FriendsTab
+            user={user} school={school}
+            friends={friends ?? []} friendCode={friendCode} friendFeed={friendFeed ?? []}
+            incomingRequests={incomingRequests ?? []} sentRequests={sentRequests ?? []}
+            addError={addFriendError} setAddError={setAddFriendError}
+            addFriend={onAddFriend} removeFriend={onRemoveFriend}
+            onSendRequest={onSendFriendRequest}
+            onAcceptRequest={onAcceptFriendRequest}
+            onDeclineRequest={onDeclineFriendRequest}
+            challenges={challenges ?? []}
+            onSendBattle={onSendBattle}
+            onAcceptBattle={onAcceptBattle}
+            onDeclineBattle={onDeclineBattle}
+            onPlayBattle={onPlayBattle}
+            onGoToProfile={() => setTab('profile')}
+          />
+        )
       )}
       {tab === 'profile' && (
         <ProfileTab

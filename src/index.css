@@ -206,6 +206,129 @@ html, body {
 }
 .btn-google:hover { box-shadow: 0 2px 12px rgba(0,0,0,.3); }
 
+.login-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.login-divider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+  color: var(--text-muted);
+  font-size: .8rem;
+}
+.login-divider::before,
+.login-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+.btn-email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--brand);
+  color: #fff;
+  font-size: .95rem;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  width: 100%;
+  transition: opacity .15s;
+}
+.btn-email:hover { opacity: .9; }
+.btn-email:disabled { opacity: .6; cursor: not-allowed; }
+
+.btn-email--secondary {
+  background: transparent;
+  color: var(--brand);
+  border: 1.5px solid var(--brand);
+}
+.btn-email--secondary:hover { background: var(--brand); color: #fff; opacity: 1; }
+
+.btn-guest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: .9rem;
+  font-weight: 500;
+  padding: 10px 24px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  width: 100%;
+  transition: background .15s;
+}
+.btn-guest:hover { background: var(--surface-raised); }
+
+.login-guest-note {
+  font-size: .75rem;
+  color: var(--text-muted);
+  margin-top: -4px;
+}
+
+.login-email-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.login-input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--text);
+  font-size: .95rem;
+  box-sizing: border-box;
+  transition: border-color .15s;
+}
+.login-input:focus {
+  outline: none;
+  border-color: var(--brand);
+}
+
+.login-error {
+  color: #ef4444;
+  font-size: .85rem;
+  text-align: left;
+  margin: 0;
+}
+
+.login-switch {
+  background: none;
+  border: none;
+  color: var(--brand);
+  font-size: .85rem;
+  cursor: pointer;
+  padding: 4px 0;
+  text-decoration: underline;
+}
+
+.login-back {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: .85rem;
+  cursor: pointer;
+  padding: 4px 0;
+}
+.login-back:hover { color: var(--text); }
+
 /* ── Loading ──────────────────────────────────────────────────────────────── */
 .loading-shell {
   display: flex;
@@ -3973,3 +4096,57 @@ html, body {
 
 /* ── Subject selector in header ───────────────────────────────────────────── */
 .subject-selector { display: flex; gap: 8px; flex-wrap: wrap; padding: 6px 0 2px; }
+
+/* ── Guest Upgrade Modal ──────────────────────────────────────────────────── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.55);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+.modal-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-xl);
+  padding: 32px 28px 24px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 24px 64px rgba(0,0,0,.3);
+}
+.modal-close {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+.modal-close:hover { color: var(--text); }
+
+.guest-upgrade-modal { display: flex; flex-direction: column; align-items: center; gap: 12px; text-align: center; }
+.guest-upgrade-icon  { font-size: 2.5rem; }
+.guest-upgrade-title { font-size: 1.2rem; font-weight: 700; margin: 0; }
+.guest-upgrade-desc  { font-size: .88rem; color: var(--text-muted); line-height: 1.5; margin: 0; }
+.guest-upgrade-google { margin-top: 4px; }
+
+/* ── Locked tab (guests) ──────────────────────────────────────────────────── */
+.guest-locked-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 60px 32px;
+  text-align: center;
+}
+.guest-locked-icon  { font-size: 3rem; }
+.guest-locked-title { font-size: 1.15rem; font-weight: 700; margin: 0; }
+.guest-locked-desc  { font-size: .88rem; color: var(--text-muted); line-height: 1.6; margin: 0; max-width: 280px; }
