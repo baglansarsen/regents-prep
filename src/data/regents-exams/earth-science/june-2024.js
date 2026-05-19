@@ -18,6 +18,7 @@ export default {
         'period of rotation at equator and density differences of materials',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2024/q1.png',
     },
     {
       number: 2,
@@ -90,6 +91,7 @@ export default {
         'crater, formed from a retreating glacier',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2024/q7.png',
     },
     {
       number: 8,
@@ -102,6 +104,7 @@ export default {
         'above Earth\'s equator',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2024/q8.png',
     },
     {
       number: 9,
@@ -186,6 +189,7 @@ export default {
         'insolation',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2024/q15.png',
     },
     {
       number: 16,
@@ -342,6 +346,7 @@ export default {
         'D',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2024/q28.png',
     },
     {
       number: 29,
@@ -366,6 +371,7 @@ export default {
         'have undergone longer periods of weathering than the igneous, sandstone, and conglomerate bedrock',
       ],
       correct: 0,
+      image: '/images/exams/es-june-2024/q30.png',
     },
     {
       number: 31,
@@ -378,6 +384,7 @@ export default {
         'downward movement by gravity',
       ],
       correct: 0,
+      image: '/images/exams/es-june-2024/q31.png',
     },
     {
       number: 32,
@@ -402,6 +409,7 @@ export default {
         'delta formed by stream deposition',
       ],
       correct: 3,
+      image: '/images/exams/es-june-2024/q33.png',
     },
     {
       number: 34,
@@ -426,6 +434,7 @@ export default {
         'A = metaconglomerate, B = schist, C = gneiss',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2024/q35.png',
     },
     {
       number: 36,
@@ -438,6 +447,7 @@ export default {
         'ages of the stars and the distance between the two galaxies',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2024/q36.png',
     },
     {
       number: 37,
@@ -450,6 +460,7 @@ export default {
         'spiral and is one of billions of other galaxies in the universe',
       ],
       correct: 3,
+      image: '/images/exams/es-june-2024/q37.png',
     },
     {
       number: 38,
@@ -462,6 +473,7 @@ export default {
         'precipitation',
       ],
       correct: 0,
+      image: '/images/exams/es-june-2024/q38.png',
     },
     {
       number: 39,
@@ -474,6 +486,7 @@ export default {
         'evaporation; release of 334 J/g',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2024/q39.png',
     },
     {
       number: 40,
@@ -486,6 +499,7 @@ export default {
         'increased precipitation and increased slope',
       ],
       correct: 0,
+      image: '/images/exams/es-june-2024/q40.png',
     },
     {
       number: 41,
@@ -498,6 +512,7 @@ export default {
         'profile showing a steep rise from A then gradual descent to B',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2024/q41.png',
     },
     {
       number: 42,
@@ -510,6 +525,7 @@ export default {
         '500 ft/mi',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2024/q42.png',
     },
     {
       number: 43,
@@ -522,6 +538,7 @@ export default {
         'flood plain',
       ],
       correct: 3,
+      image: '/images/exams/es-june-2024/q43.png',
     },
     {
       number: 44,
@@ -534,6 +551,7 @@ export default {
         'arrows showing flow out of the pond on the high-elevation side',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2024/q44.png',
     },
     {
       number: 45,
@@ -546,6 +564,7 @@ export default {
         'more dense and thicker',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2024/q45.png',
     },
     {
       number: 46,
@@ -558,6 +577,7 @@ export default {
         'arrows showing both plates moving toward each other with one subducting',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2024/q46.png',
     },
     {
       number: 47,
@@ -570,6 +590,7 @@ export default {
         'folded mountain',
       ],
       correct: 3,
+      image: '/images/exams/es-june-2024/q47.png',
     },
     {
       number: 48,
@@ -582,6 +603,7 @@ export default {
         'Ordovician',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2024/q48.png',
     },
     {
       number: 49,
@@ -594,6 +616,7 @@ export default {
         'Cooksonia',
       ],
       correct: 0,
+      image: '/images/exams/es-june-2024/q49.png',
     },
     {
       number: 50,
@@ -606,6 +629,7 @@ export default {
         'boulder',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2024/q50.png',
     },
   ],
 }

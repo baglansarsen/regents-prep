@@ -3964,6 +3964,9 @@ html, body {
 .regents-review-correct   { font-size: .82rem; color: #16a34a; }
 .regents-review-explanation { font-size: .8rem; color: var(--text-muted); margin-top: 4px; font-style: italic; line-height: 1.4; }
 
+.regents-question-image { margin: 10px 0 14px; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); background: #fff; }
+.regents-diagram-img { display: block; width: 100%; height: auto; }
+
 .regents-result-actions   { display: flex; gap: 10px; padding-bottom: 24px; }
 .btn-primary  { flex: 1; padding: 13px; border-radius: 10px; background: var(--brand); color: #fff; border: none; font-size: .95rem; font-weight: 700; cursor: pointer; }
 .btn-secondary { flex: 1; padding: 13px; border-radius: 10px; background: var(--card); border: 1.5px solid var(--border); color: var(--text); font-size: .95rem; font-weight: 600; cursor: pointer; }

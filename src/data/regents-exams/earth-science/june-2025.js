@@ -30,6 +30,7 @@ export default {
         'The tidal range is less when there is a full moon.',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2025/q2.png',
     },
     {
       number: 3,
@@ -78,6 +79,7 @@ export default {
         'Orion revolves around Earth',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2025/q6.png',
     },
     {
       number: 7,
@@ -114,6 +116,7 @@ export default {
         'increase then decrease',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2025/q9.png',
     },
     {
       number: 10,
@@ -138,6 +141,7 @@ export default {
         'D',
       ],
       correct: 3,
+      image: '/images/exams/es-june-2025/q11.png',
     },
     {
       number: 12,
@@ -150,6 +154,7 @@ export default {
         'Polar Front at 90°N and 90°S; Subtropical at 60°N and 60°S',
       ],
       correct: 0,
+      image: '/images/exams/es-june-2025/q12.png',
     },
     {
       number: 13,
@@ -162,6 +167,7 @@ export default {
         'hot and dry with winds from the west',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2025/q13.png',
     },
     {
       number: 14,
@@ -186,6 +192,7 @@ export default {
         'A = radioactive decay; B = solar energy; C = volcanic activity',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2025/q15.png',
     },
     {
       number: 16,
@@ -198,6 +205,7 @@ export default {
         'type of precipitation',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2025/q16.png',
     },
     {
       number: 17,
@@ -210,6 +218,7 @@ export default {
         'Z, Y, W, X (bottom to top)',
       ],
       correct: 0,
+      image: '/images/exams/es-june-2025/q17.png',
     },
     {
       number: 18,
@@ -354,6 +363,7 @@ export default {
         'oxygen',
       ],
       correct: 0,
+      image: '/images/exams/es-june-2025/q29.png',
     },
     {
       number: 30,
@@ -366,6 +376,7 @@ export default {
         'older than the basalt and older than the siltstone layer',
       ],
       correct: 3,
+      image: '/images/exams/es-june-2025/q30.png',
     },
     {
       number: 31,
@@ -378,6 +389,7 @@ export default {
         'D',
       ],
       correct: 3,
+      image: '/images/exams/es-june-2025/q31.png',
     },
     {
       number: 32,
@@ -390,6 +402,7 @@ export default {
         'depositional basin',
       ],
       correct: 0,
+      image: '/images/exams/es-june-2025/q32.png',
     },
     {
       number: 33,
@@ -402,6 +415,7 @@ export default {
         'running water',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2025/q33.png',
     },
     {
       number: 34,
@@ -414,6 +428,7 @@ export default {
         'seismic activity along a fault in Earth\'s crust',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2025/q34.png',
     },
     {
       number: 35,
@@ -426,6 +441,7 @@ export default {
         'D and A',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2025/q35.png',
     },
     {
       number: 36,
@@ -438,6 +454,7 @@ export default {
         '365 days',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2025/q36.png',
     },
     {
       number: 37,
@@ -450,6 +467,7 @@ export default {
         'Antarctic Circle',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2025/q37.png',
     },
     {
       number: 38,
@@ -462,6 +480,7 @@ export default {
         'cooler and winter would become warmer',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2025/q38.png',
     },
     {
       number: 39,
@@ -474,6 +493,7 @@ export default {
         'talc',
       ],
       correct: 0,
+      image: '/images/exams/es-june-2025/q39.png',
     },
     {
       number: 40,
@@ -486,6 +506,7 @@ export default {
         'transform',
       ],
       correct: 3,
+      image: '/images/exams/es-june-2025/q40.png',
     },
     {
       number: 41,
@@ -498,6 +519,7 @@ export default {
         '02:35:00 p.m.',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2025/q41.png',
     },
     {
       number: 42,
@@ -510,6 +532,7 @@ export default {
         'Seismogram with P and S waves widely separated',
       ],
       correct: 0,
+      image: '/images/exams/es-june-2025/q42.png',
     },
     {
       number: 43,
@@ -522,6 +545,7 @@ export default {
         'Many types have lived in the past and are now extinct.',
       ],
       correct: 3,
+      image: '/images/exams/es-june-2025/q43.png',
     },
     {
       number: 44,
@@ -534,6 +558,7 @@ export default {
         'eurypterids and gastropods',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2025/q44.png',
     },
     {
       number: 45,
@@ -546,6 +571,7 @@ export default {
         'Terebratulida',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2025/q45.png',
     },
     {
       number: 46,
@@ -558,6 +584,7 @@ export default {
         'greater due to Hilo receiving winds containing more moisture',
       ],
       correct: 3,
+      image: '/images/exams/es-june-2025/q46.png',
     },
     {
       number: 47,
@@ -570,6 +597,7 @@ export default {
         'gamma rays',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2025/q47.png',
     },
     {
       number: 48,
@@ -582,6 +610,7 @@ export default {
         'receives less insolation',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2025/q48.png',
     },
     {
       number: 49,
@@ -594,6 +623,7 @@ export default {
         'increased groundwater in zone D, raising the water table',
       ],
       correct: 3,
+      image: '/images/exams/es-june-2025/q49.png',
     },
     {
       number: 50,
@@ -606,6 +636,7 @@ export default {
         'radiation',
       ],
       correct: 0,
+      image: '/images/exams/es-june-2025/q50.png',
     },
   ],
 }

@@ -120,6 +120,12 @@ export default function RegentsExamScreen({ exam, onDone, onHome }) {
 
         <p className="question-text">{q.text}</p>
 
+        {q.image && (
+          <div className="regents-question-image">
+            <img src={q.image} alt={`Diagram for question ${current + 1}`} className="regents-diagram-img" />
+          </div>
+        )}
+
         <div className="choices">
           {q.choices.map((text, i) => {
             const selected = answers[current] === i
