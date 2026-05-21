@@ -39,6 +39,7 @@ export default {
         'predators should consume small prey to protect the diversity of the ecosystem',
       ],
       correct: 1,
+      image: '/images/exams/le-june-2025/q3.png',
     },
     {
       number: 4, part: 'A',
@@ -94,6 +95,7 @@ export default {
         'the original species suddenly became extinct',
       ],
       correct: 1,
+      image: '/images/exams/le-june-2025/q8.png',
     },
     {
       number: 9, part: 'A',
@@ -105,6 +107,7 @@ export default {
         'more warbler eggs will be hatched in Central and South America to increase the population',
       ],
       correct: 2,
+      image: '/images/exams/le-june-2025/q9.png',
     },
     {
       number: 10, part: 'A',
@@ -149,6 +152,7 @@ export default {
         'The discovery confirms that spiders provide mammal milk to their offspring.',
       ],
       correct: 2,
+      image: '/images/exams/le-june-2025/q13.png',
     },
     {
       number: 14, part: 'A',
@@ -248,6 +252,7 @@ export default {
         'Row 4: Chloroplast uses oxygen as an energy source / Mitochondrion uses carbon dioxide as an energy source',
       ],
       correct: 1,
+      image: '/images/exams/le-june-2025/q22.png',
     },
     {
       number: 23, part: 'A',
@@ -260,6 +265,7 @@ export default {
         'increase in industrialization',
       ],
       correct: 3,
+      image: '/images/exams/le-june-2025/q23.png',
     },
     {
       number: 24, part: 'A',
@@ -351,6 +357,7 @@ export default {
         'denitrifying bacteria',
       ],
       correct: 2,
+      image: '/images/exams/le-june-2025/q31.png',
     },
     {
       number: 32, part: 'B-1',
@@ -363,6 +370,7 @@ export default {
         'denitrifying bacteria and nitrogen-fixing bacteria in the soil',
       ],
       correct: 3,
+      image: '/images/exams/le-june-2025/q32.png',
     },
     {
       number: 33, part: 'B-1',
@@ -375,6 +383,7 @@ export default {
         'glucose (C₆H₁₂O₆) and oxygen (O₂)',
       ],
       correct: 0,
+      image: '/images/exams/le-june-2025/q33.png',
     },
     {
       number: 34, part: 'B-1',
@@ -387,6 +396,7 @@ export default {
         'an increase in activity of the nitrifying bacteria',
       ],
       correct: 2,
+      image: '/images/exams/le-june-2025/q34.png',
     },
     {
       number: 35, part: 'B-1',
@@ -399,6 +409,7 @@ export default {
         'The data do not support the hypothesis because crickets with the mutation had a smaller percentage of survivors.',
       ],
       correct: 0,
+      image: '/images/exams/le-june-2025/q35.png',
     },
     {
       number: 36, part: 'B-1',
@@ -411,6 +422,7 @@ export default {
         'The number of crickets with the mutation will increase because the trait is a disadvantage.',
       ],
       correct: 2,
+      image: '/images/exams/le-june-2025/q36.png',
     },
     {
       number: 37, part: 'B-1',
@@ -446,6 +458,7 @@ export default {
         'determine if there is a correlation between high levels of lead in the soil and in the blood of children with learning disabilities',
       ],
       correct: 3,
+      image: '/images/exams/le-june-2025/q39.png',
     },
     {
       number: 40, part: 'B-1',
@@ -458,6 +471,7 @@ export default {
         'Provide their family physician with information about any genetic disorders in the family.',
       ],
       correct: 1,
+      image: '/images/exams/le-june-2025/q40.png',
     },
     {
       number: 41, part: 'B-1',
@@ -469,6 +483,7 @@ export default {
         'have caused more soil to freeze during the winter months',
       ],
       correct: 0,
+      image: '/images/exams/le-june-2025/q41.png',
     },
     {
       number: 42, part: 'B-1',
@@ -481,6 +496,7 @@ export default {
         'Large deer predators move to cooler locations during the hot summer months.',
       ],
       correct: 0,
+      image: '/images/exams/le-june-2025/q42.png',
     },
     {
       number: 43, part: 'B-1',
