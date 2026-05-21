@@ -1,60 +1,85 @@
 import { useState, useEffect, useCallback } from 'react'
+import { doc, getDoc, setDoc } from 'firebase/firestore'
 import AsyncStorage from '@react-native-async-storage/async-storage'
+import { db } from '../firebase'
 
-const KEY = '@regents_streak_v1'
+const AS_KEY = '@regents_streak_v1'
 
-function todayStr() {
-  return new Date().toISOString().slice(0, 10) // 'YYYY-MM-DD'
-}
-
+function todayStr() { return new Date().toISOString().slice(0, 10) }
 function yesterdayStr() {
-  const d = new Date()
-  d.setDate(d.getDate() - 1)
+  const d = new Date(); d.setDate(d.getDate() - 1)
   return d.toISOString().slice(0, 10)
 }
+function last7Days() {
+  return Array.from({ length: 7 }, (_, i) => {
+    const d = new Date(); d.setDate(d.getDate() - (6 - i))
+    return d.toISOString().slice(0, 10)
+  })
+}
+function computeStreak(data) {
+  const today = todayStr(), yesterday = yesterdayStr()
+  if (data.lastDate === today)     return { streak: data.streak, studiedToday: true }
+  if (data.lastDate === yesterday) return { streak: data.streak, studiedToday: false }
+  return { streak: 0, studiedToday: false }
+}
 
-export function useDailyStreak() {
-  const [streak, setStreak]       = useState(0)
+export function useDailyStreak(uid) {
+  const [streak,       setStreak]       = useState(0)
   const [studiedToday, setStudiedToday] = useState(false)
-  const [loaded, setLoaded]       = useState(false)
+  const [studiedDates, setStudiedDates] = useState([])
 
   useEffect(() => {
-    AsyncStorage.getItem(KEY).then((raw) => {
-      if (raw) {
-        const data = JSON.parse(raw)
-        const today = todayStr()
-        const yesterday = yesterdayStr()
-
-        if (data.lastDate === today) {
-          setStreak(data.streak)
-          setStudiedToday(true)
-        } else if (data.lastDate === yesterday) {
-          // Streak alive but not yet studied today
-          setStreak(data.streak)
-          setStudiedToday(false)
-        } else {
-          // Gap of 2+ days — streak broken
-          setStreak(0)
-          setStudiedToday(false)
-        }
-      }
-      setLoaded(true)
-    }).catch(() => setLoaded(true))
-  }, [])
+    if (!uid) return
+    loadStreak(uid).then((data) => {
+      if (!data) return
+      const { streak: s, studiedToday: st } = computeStreak(data)
+      setStreak(s)
+      setStudiedToday(st)
+      setStudiedDates(data.studiedDates ?? [])
+    })
+  }, [uid])
 
   const markStudied = useCallback(() => {
-    const today = todayStr()
+    if (!uid) return
     setStudiedToday((already) => {
-      if (already) return already // idempotent
-
+      if (already) return true
+      const today = todayStr()
       setStreak((prev) => {
         const next = prev + 1
-        AsyncStorage.setItem(KEY, JSON.stringify({ lastDate: today, streak: next })).catch(() => {})
+        setStudiedDates((dates) => {
+          const updated = [...new Set([...dates, today])].slice(-30)
+          saveStreak(uid, { streak: next, lastDate: today, studiedDates: updated })
+          return updated
+        })
         return next
       })
       return true
     })
-  }, [])
+  }, [uid])
 
-  return { streak, studiedToday, loaded, markStudied }
+  const weekDays = last7Days().map((date) => ({
+    date,
+    dayLabel: new Date(date + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short' }),
+    studied:  studiedDates.includes(date),
+    isToday:  date === todayStr(),
+  }))
+
+  return { streak, studiedToday, weekDays, markStudied }
+}
+
+async function loadStreak(uid) {
+  try {
+    const snap = await getDoc(doc(db, 'users', uid, 'meta', 'streak'))
+    if (snap.exists()) return snap.data()
+  } catch {}
+  try {
+    const raw = await AsyncStorage.getItem(AS_KEY)
+    return raw ? JSON.parse(raw) : null
+  } catch {}
+  return null
+}
+
+async function saveStreak(uid, data) {
+  try { await AsyncStorage.setItem(AS_KEY, JSON.stringify(data)) } catch {}
+  try { await setDoc(doc(db, 'users', uid, 'meta', 'streak'), data) } catch {}
 }

@@ -1,139 +1,188 @@
-import { useRef, useEffect } from 'react'
+import React, { useRef, useEffect } from 'react'
 import { View, Text, TouchableOpacity, ScrollView, Animated, StyleSheet } from 'react-native'
+import { SafeAreaView } from 'react-native-safe-area-context'
+import { useTheme } from '../context/ThemeContext'
+import { useAuthContext } from '../context/AuthContext'
+import { useProgress } from '../hooks/useProgress'
+import { useDailyStreak } from '../hooks/useDailyStreak'
+import { useXP } from '../hooks/useXP'
 import { useQuiz } from '../hooks/useQuiz'
-import QuestionCard from '../components/QuestionCard'
-import Timer from '../components/Timer'
-import ScoreDisplay from '../components/ScoreDisplay'
-import ProgressBar from '../components/ProgressBar'
-import { C } from '../theme'
 
-export default function QuizScreen({ questionSet, onDone, onHome }) {
+export default function QuizScreen({ route, navigation }) {
+  const { questionSet, topic, subject } = route.params
+  const { C } = useTheme()
+  const { user } = useAuthContext()
+  const uid = user?.uid
+
+  const { saveResult } = useProgress(uid)
+  const { markStudied } = useDailyStreak(uid)
+  const { earnXP } = useXP(uid)
+
   const {
-    currentQuestion,
-    index,
-    total,
-    score,
-    streak,
-    bestStreak,
-    timeLeft,
-    timerMax,
-    selected,
-    lastEarned,
-    phase,
-    results,
-    answer,
-    next,
-    streakMultiplier,
+    currentQuestion, index, total, score, streak, bestStreak,
+    timeLeft, timerMax, selected, lastEarned, phase, results,
+    answer, nextQuestion,
   } = useQuiz(questionSet)
 
-  // Score popup animation
-  const popupY    = useRef(new Animated.Value(0)).current
-  const popupFade = useRef(new Animated.Value(0)).current
-
-  useEffect(() => {
-    if (phase === 'feedback' && lastEarned > 0) {
-      popupY.setValue(0)
-      popupFade.setValue(1)
-      Animated.parallel([
-        Animated.timing(popupY,    { toValue: -48, duration: 900, useNativeDriver: true }),
-        Animated.sequence([
-          Animated.delay(400),
-          Animated.timing(popupFade, { toValue: 0, duration: 500, useNativeDriver: true }),
-        ]),
-      ]).start()
-    }
-  }, [phase, lastEarned])
+  const pulseAnim = useRef(new Animated.Value(1)).current
 
   useEffect(() => {
     if (phase === 'done') {
-      onDone({ score, bestStreak, results, total })
-    }
-  }, [phase, score, bestStreak, results, total, onDone])
+      const correct = results.filter((r) => r.correct).length
+      const pct     = Math.round((correct / total) * 100)
+      const xpEarned = correct * 10
 
-  if (phase === 'done') return null
+      saveResult({ topic, score, total, correct, pct, subject })
+      markStudied()
+      earnXP(xpEarned)
+
+      navigation.replace('Results', {
+        score, total, results, bestStreak, topic, subject, xpEarned,
+      })
+    }
+  }, [phase])
+
+  useEffect(() => {
+    Animated.sequence([
+      Animated.timing(pulseAnim, { toValue: 1.05, duration: 80, useNativeDriver: true }),
+      Animated.timing(pulseAnim, { toValue: 1,    duration: 80, useNativeDriver: true }),
+    ]).start()
+  }, [index])
+
+  if (!currentQuestion) return null
+
+  const s = makeStyles(C)
+  const correctAnswer = currentQuestion.choices?.[currentQuestion.correct] ?? currentQuestion.choices?.[currentQuestion.correctIndex]
+
+  function choiceStyle(idx) {
+    if (phase === 'answering') return [s.choice, selected === idx && s.choiceSelected]
+    const isCorrect = idx === (currentQuestion.correct ?? currentQuestion.correctIndex)
+    const isChosen  = idx === selected
+    if (isCorrect)           return [s.choice, s.choiceCorrect]
+    if (isChosen && !isCorrect) return [s.choice, s.choiceWrong]
+    return [s.choice, s.choiceDim]
+  }
 
   return (
-    <View style={s.screen}>
-      <View style={s.topbar}>
-        <TouchableOpacity onPress={onHome} style={s.homeBtn} activeOpacity={0.7}>
-          <Text style={s.homeBtnText}>← Home</Text>
+    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+      {/* Progress bar */}
+      <View style={s.progressBg}>
+        <View style={[s.progressFill, { width: `${((index) / total) * 100}%` }]} />
+      </View>
+
+      {/* Header */}
+      <View style={s.topRow}>
+        <TouchableOpacity onPress={() => navigation.goBack()}>
+          <Text style={s.backBtn}>✕</Text>
         </TouchableOpacity>
-
-        <View style={s.scoreWrap}>
-          <ScoreDisplay score={score} streak={streak} multiplier={streakMultiplier} />
-          {lastEarned > 0 && (
-            <Animated.Text
-              style={[s.scorePopup, { opacity: popupFade, transform: [{ translateY: popupY }] }]}
-            >
-              +{lastEarned}
-            </Animated.Text>
-          )}
+        <Text style={s.counter}>{index + 1} / {total}</Text>
+        <View style={s.scoreRow}>
+          <Text style={s.scoreText}>⭐ {score}</Text>
+          {streak >= 2 && <Text style={s.streakText}>🔥×{streak}</Text>}
         </View>
       </View>
 
-      <View style={s.meta}>
-        <ProgressBar current={index + 1} total={total} topic={currentQuestion.topic} />
-        <View style={s.timerRow}>
-          <Timer timeLeft={timeLeft} max={timerMax} />
-        </View>
+      {/* Timer bar */}
+      <View style={s.timerBg}>
+        <Animated.View style={[
+          s.timerFill,
+          {
+            width: `${(timeLeft / timerMax) * 100}%`,
+            backgroundColor: timeLeft > 10 ? C.brand : timeLeft > 5 ? C.warn : C.wrong,
+          },
+        ]} />
       </View>
 
-      <ScrollView
-        style={s.scroll}
-        contentContainerStyle={s.scrollContent}
-        showsVerticalScrollIndicator={false}
-      >
-        <QuestionCard
-          key={currentQuestion.id}
-          question={currentQuestion}
-          selected={selected}
-          phase={phase}
-          onAnswer={answer}
-        />
+      <ScrollView contentContainerStyle={s.scroll}>
+        {/* Question */}
+        <Animated.View style={{ transform: [{ scale: pulseAnim }] }}>
+          <View style={s.questionCard}>
+            {currentQuestion.context ? (
+              <Text style={s.context}>{currentQuestion.context}</Text>
+            ) : null}
+            <Text style={s.questionText}>{currentQuestion.text}</Text>
+          </View>
+        </Animated.View>
 
-        {phase === 'feedback' && (
-          <TouchableOpacity style={s.nextBtn} onPress={next} activeOpacity={0.85}>
-            <Text style={s.nextBtnText}>
-              {index === total - 1 ? 'See Results →' : 'Next Question →'}
-            </Text>
+        {/* Choices */}
+        {currentQuestion.choices.map((choice, idx) => (
+          <TouchableOpacity
+            key={idx}
+            style={choiceStyle(idx)}
+            onPress={() => phase === 'answering' && answer(idx)}
+            activeOpacity={0.8}
+            disabled={phase !== 'answering'}
+          >
+            <Text style={s.choiceLetter}>{['A', 'B', 'C', 'D'][idx]}</Text>
+            <Text style={s.choiceText}>{choice}</Text>
           </TouchableOpacity>
+        ))}
+
+        {/* Feedback */}
+        {phase === 'feedback' && (
+          <View style={[s.feedback, {
+            backgroundColor: selected === (currentQuestion.correct ?? currentQuestion.correctIndex) ? C.correctBg : C.wrongBg,
+            borderColor:     selected === (currentQuestion.correct ?? currentQuestion.correctIndex) ? C.correct    : C.wrong,
+          }]}>
+            <Text style={[s.feedbackTitle, {
+              color: selected === (currentQuestion.correct ?? currentQuestion.correctIndex) ? C.correct : C.wrong,
+            }]}>
+              {selected === (currentQuestion.correct ?? currentQuestion.correctIndex)
+                ? `✓ Correct! +${lastEarned} pts`
+                : `✗ Incorrect. Answer: ${correctAnswer}`}
+            </Text>
+            {currentQuestion.explanation ? (
+              <Text style={s.explanation}>{currentQuestion.explanation}</Text>
+            ) : null}
+            <TouchableOpacity style={s.nextBtn} onPress={nextQuestion}>
+              <Text style={s.nextBtnText}>{index + 1 === total ? 'See Results →' : 'Next →'}</Text>
+            </TouchableOpacity>
+          </View>
         )}
+
+        {phase === 'answering' && selected === 'timeout' && (
+          <View style={[s.feedback, { backgroundColor: C.wrongBg, borderColor: C.wrong }]}>
+            <Text style={[s.feedbackTitle, { color: C.wrong }]}>⏰ Time's up! Answer: {correctAnswer}</Text>
+            <TouchableOpacity style={s.nextBtn} onPress={nextQuestion}>
+              <Text style={s.nextBtnText}>Next →</Text>
+            </TouchableOpacity>
+          </View>
+        )}
+
+        <View style={{ height: 32 }} />
       </ScrollView>
-    </View>
+    </SafeAreaView>
   )
 }
 
-const s = StyleSheet.create({
-  screen: { flex: 1 },
-  topbar: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingHorizontal: 20,
-    paddingTop: 12,
-    paddingBottom: 8,
-  },
-  homeBtn:     { padding: 4 },
-  homeBtnText: { fontSize: 14, color: C.textMuted },
-  scoreWrap:   { position: 'relative' },
-  scorePopup: {
-    position: 'absolute',
-    right: 0,
-    top: -4,
-    fontSize: 15,
-    fontWeight: '800',
-    color: C.brandLight,
-  },
-  meta:     { paddingHorizontal: 20, gap: 8, marginBottom: 4 },
-  timerRow: { marginTop: 4 },
-  scroll:   { flex: 1 },
-  scrollContent: { padding: 20, paddingTop: 8, paddingBottom: 40, gap: 14 },
-  nextBtn: {
-    backgroundColor: C.brand,
-    borderRadius: 12,
-    padding: 16,
-    alignItems: 'center',
-    marginTop: 4,
-  },
-  nextBtnText: { color: '#fff', fontSize: 16, fontWeight: '700' },
-})
+function makeStyles(C) {
+  return StyleSheet.create({
+    safe:          { flex: 1, backgroundColor: C.bg },
+    progressBg:    { height: 3, backgroundColor: C.surface2 },
+    progressFill:  { height: 3, backgroundColor: C.brand },
+    topRow:        { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', padding: 16 },
+    backBtn:       { fontSize: 18, color: C.textMuted, padding: 4 },
+    counter:       { fontSize: 14, fontWeight: '700', color: C.textMuted },
+    scoreRow:      { flexDirection: 'row', gap: 8, alignItems: 'center' },
+    scoreText:     { fontSize: 14, fontWeight: '700', color: C.warn },
+    streakText:    { fontSize: 13, color: C.wrong, fontWeight: '700' },
+    timerBg:       { height: 4, backgroundColor: C.surface2, marginHorizontal: 16, borderRadius: 2 },
+    timerFill:     { height: 4, borderRadius: 2 },
+    scroll:        { padding: 16, gap: 10 },
+    questionCard:  { backgroundColor: C.surface, borderRadius: 16, padding: 18, marginBottom: 4, borderWidth: 1, borderColor: C.border },
+    context:       { fontSize: 13, color: C.textMuted, marginBottom: 8, fontStyle: 'italic', lineHeight: 18 },
+    questionText:  { fontSize: 16, fontWeight: '600', color: C.text, lineHeight: 24 },
+    choice:        { flexDirection: 'row', alignItems: 'flex-start', backgroundColor: C.surface, borderRadius: 14, padding: 14, gap: 12, borderWidth: 1.5, borderColor: C.border },
+    choiceSelected:{ borderColor: C.brand, backgroundColor: C.brandBg },
+    choiceCorrect: { borderColor: C.correct, backgroundColor: C.correctBg },
+    choiceWrong:   { borderColor: C.wrong,   backgroundColor: C.wrongBg },
+    choiceDim:     { opacity: 0.4 },
+    choiceLetter:  { fontSize: 14, fontWeight: '800', color: C.textMuted, width: 20 },
+    choiceText:    { flex: 1, fontSize: 15, color: C.text, lineHeight: 21 },
+    feedback:      { borderRadius: 14, padding: 16, borderWidth: 1, gap: 10 },
+    feedbackTitle: { fontSize: 15, fontWeight: '800' },
+    explanation:   { fontSize: 14, color: C.textMuted, lineHeight: 20 },
+    nextBtn:       { backgroundColor: C.brand, borderRadius: 10, padding: 12, alignItems: 'center', marginTop: 4 },
+    nextBtnText:   { color: '#fff', fontWeight: '700', fontSize: 15 },
+  })
+}

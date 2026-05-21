@@ -1,182 +1,240 @@
-import { View, Text, TouchableOpacity, ScrollView, Switch, StyleSheet } from 'react-native'
-import { TOPICS, TOPIC_ICONS, questions } from '../data/questions'
-import { C } from '../theme'
+import React, { useState, useMemo } from 'react'
+import {
+  View, Text, TouchableOpacity, ScrollView, StyleSheet, Dimensions,
+} from 'react-native'
+import { SafeAreaView } from 'react-native-safe-area-context'
+import { useTheme } from '../context/ThemeContext'
+import { useAuthContext } from '../context/AuthContext'
+import { useProgress } from '../hooks/useProgress'
+import { useDailyStreak } from '../hooks/useDailyStreak'
+import { useXP } from '../hooks/useXP'
+import { useUnlocks } from '../hooks/useUnlocks'
+import { SUBJECTS, SUBJECT_META } from '../../../src/data/subjects'
+import * as leData from '../../../src/data/living-environment/index'
+import * as esData from '../../../src/data/earth-science/index'
 
-export default function HomeScreen({ onStart, onStudy, onPracticeTest, onAnalytics, masteryPct, streak, notificationsEnabled, onToggleNotifications }) {
-  const allTopics = Object.values(TOPICS)
+const { width } = Dimensions.get('window')
 
-  function MasteryBadge({ topic }) {
-    const pct = masteryPct(topic)
-    if (pct === null) return null
-    const color = pct >= 85 ? C.correct : pct >= 65 ? C.warn : C.wrong
-    return (
-      <View style={[s.masteryBadge, { backgroundColor: color + '25', borderColor: color }]}>
-        <Text style={[s.masteryText, { color }]}>{pct}%</Text>
-      </View>
-    )
+export default function HomeScreen({ navigation }) {
+  const { C } = useTheme()
+  const { user } = useAuthContext()
+  const uid = user?.uid
+
+  const [subject, setSubject] = useState(SUBJECTS.LIVING_ENVIRONMENT)
+  const sd = subject === SUBJECTS.EARTH_SCIENCE ? esData : leData
+
+  const { history, masteryPct } = useProgress(uid)
+  const { streak, weekDays }    = useDailyStreak(uid)
+  const { xp, level }           = useXP(uid)
+
+  const subjectHistory = useMemo(
+    () => history.filter((h) => (h.subject ?? 'living-environment') === subject),
+    [history, subject]
+  )
+  const { isUnlocked, unlockHint } = useUnlocks(subjectHistory, sd.TOPIC_ORDER)
+
+  const s = makeStyles(C)
+  const topics = sd.TOPIC_ORDER
+  const icons  = sd.TOPIC_ICONS ?? {}
+
+  function startQuiz(topic) {
+    const pool = topic ? sd.getByTopic(topic) : sd.questions
+    const shuffled = [...pool].sort(() => Math.random() - 0.5)
+    navigation.navigate('Quiz', { questionSet: shuffled, topic, subject })
+  }
+
+  function startFlashcards(topic) {
+    navigation.navigate('Flashcards', { topic, subject })
+  }
+
+  function startSpeedRound() {
+    const pool = [...sd.questions].sort(() => Math.random() - 0.5).slice(0, 30)
+    navigation.navigate('SpeedRound', { questionSet: pool, subject })
   }
 
   return (
-    <ScrollView style={s.scroll} contentContainerStyle={s.content} showsVerticalScrollIndicator={false}>
-
-      {/* Header */}
-      <View style={s.header}>
-        <View>
-          <Text style={s.title}>Living{'\n'}Environment</Text>
-          <Text style={s.subtitle}>Regents Prep</Text>
-        </View>
-        {streak > 0 && (
-          <View style={s.streakBadge}>
-            <Text style={s.streakFire}>🔥</Text>
-            <Text style={s.streakNum}>{streak}</Text>
-            <Text style={s.streakLabel}>day streak</Text>
+    <SafeAreaView style={s.safe} edges={['top']}>
+      <ScrollView showsVerticalScrollIndicator={false}>
+        {/* Header */}
+        <View style={s.header}>
+          <View>
+            <Text style={s.greeting}>Good {timeOfDay()} 👋</Text>
+            <Text style={s.name}>{user?.displayName?.split(' ')[0] ?? 'Student'}</Text>
           </View>
-        )}
-      </View>
-
-      {/* Quick actions */}
-      <View style={s.quickRow}>
-        <TouchableOpacity style={s.practiceBtn} onPress={onPracticeTest} activeOpacity={0.85}>
-          <Text style={s.practiceIcon}>📝</Text>
-          <Text style={s.practiceName}>Practice Test</Text>
-          <Text style={s.practiceCount}>{questions.length} questions · timed</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={s.analyticsBtn} onPress={onAnalytics} activeOpacity={0.85}>
-          <Text style={s.analyticsIcon}>📊</Text>
-          <Text style={s.analyticsName}>Analytics</Text>
-        </TouchableOpacity>
-      </View>
-
-      {/* All Topics */}
-      <TouchableOpacity style={s.allCard} onPress={() => onStart(null)} activeOpacity={0.8}>
-        <Text style={s.allIcon}>⚡</Text>
-        <View style={s.allTextBlock}>
-          <Text style={s.allName}>All Topics — Quiz</Text>
-          <Text style={s.cardCount}>{questions.length} questions</Text>
-        </View>
-        <MasteryBadge topic={null} />
-        <Text style={s.chevron}>›</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity style={s.studyAllCard} onPress={() => onStudy(null)} activeOpacity={0.8}>
-        <Text style={s.allIcon}>📖</Text>
-        <View style={s.allTextBlock}>
-          <Text style={s.allName}>All Topics — Study</Text>
-          <Text style={s.cardCount}>Flashcard mode · no timer</Text>
-        </View>
-        <Text style={s.chevron}>›</Text>
-      </TouchableOpacity>
-
-      {/* Per-topic grid */}
-      <Text style={s.sectionLabel}>BY TOPIC</Text>
-      <View style={s.grid}>
-        {allTopics.map((topic) => {
-          const count = questions.filter((q) => q.topic === topic).length
-          return (
-            <View key={topic} style={s.topicCard}>
-              <View style={s.topicCardHeader}>
-                <Text style={s.topicIcon}>{TOPIC_ICONS[topic]}</Text>
-                <MasteryBadge topic={topic} />
+          <View style={s.headerRight}>
+            {streak > 0 && (
+              <View style={s.streakBadge}>
+                <Text style={s.streakText}>🔥 {streak}</Text>
               </View>
-              <Text style={s.topicName}>{topic}</Text>
-              <Text style={s.cardCount}>{count} questions</Text>
-              <View style={s.topicActions}>
-                <TouchableOpacity style={s.actionBtn} onPress={() => onStart(topic)} activeOpacity={0.8}>
-                  <Text style={s.actionBtnText}>Quiz</Text>
-                </TouchableOpacity>
-                <TouchableOpacity style={[s.actionBtn, s.actionBtnStudy]} onPress={() => onStudy(topic)} activeOpacity={0.8}>
-                  <Text style={[s.actionBtnText, s.actionBtnStudyText]}>Study</Text>
-                </TouchableOpacity>
-              </View>
+            )}
+            <View style={s.xpBadge}>
+              <Text style={s.xpText}>⭐ {xp}</Text>
             </View>
-          )
-        })}
-      </View>
-
-      {/* Reminder toggle */}
-      <View style={s.reminderRow}>
-        <View>
-          <Text style={s.reminderTitle}>Daily Reminder</Text>
-          <Text style={s.reminderSub}>7:00 PM · keep your streak alive</Text>
+          </View>
         </View>
-        <Switch
-          value={notificationsEnabled}
-          onValueChange={onToggleNotifications}
-          trackColor={{ false: C.surface2, true: C.brand }}
-          thumbColor="#fff"
-        />
-      </View>
-    </ScrollView>
+
+        {/* Subject switcher */}
+        <View style={s.subjectRow}>
+          {Object.values(SUBJECTS).map((sub) => {
+            const meta = SUBJECT_META[sub]
+            const active = subject === sub
+            return (
+              <TouchableOpacity
+                key={sub}
+                style={[s.subjectBtn, active && { backgroundColor: meta.color ?? C.brand, borderColor: meta.color ?? C.brand }]}
+                onPress={() => setSubject(sub)}
+              >
+                <Text style={s.subjectBtnText}>{meta.icon} {meta.name}</Text>
+              </TouchableOpacity>
+            )
+          })}
+        </View>
+
+        {/* Week streak calendar */}
+        <View style={s.weekRow}>
+          {weekDays.map((d) => (
+            <View key={d.date} style={[s.dayDot, d.studied && s.dayDotStudied, d.isToday && s.dayDotToday]}>
+              <Text style={s.dayLabel}>{d.dayLabel[0]}</Text>
+            </View>
+          ))}
+        </View>
+
+        {/* Quick actions */}
+        <View style={s.quickRow}>
+          <TouchableOpacity style={[s.quickBtn, { backgroundColor: C.brand }]} onPress={() => startQuiz(null)}>
+            <Text style={s.quickIcon}>⚡</Text>
+            <Text style={s.quickLabel}>Quick Quiz</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={[s.quickBtn, { backgroundColor: C.blue }]} onPress={startSpeedRound}>
+            <Text style={s.quickIcon}>🏃</Text>
+            <Text style={s.quickLabel}>Speed Round</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={[s.quickBtn, { backgroundColor: C.purple }]} onPress={() => startFlashcards(null)}>
+            <Text style={s.quickIcon}>🃏</Text>
+            <Text style={s.quickLabel}>Flashcards</Text>
+          </TouchableOpacity>
+        </View>
+
+        {/* Topic grid */}
+        <Text style={s.sectionTitle}>Topics</Text>
+        <View style={s.grid}>
+          {topics.map((topic) => {
+            const pct      = masteryPct(topic, subject)
+            const locked   = !isUnlocked(topic)
+            const hint     = locked ? unlockHint(topic) : null
+            const mastered = pct !== null && pct >= 85
+            const passing  = pct !== null && pct >= 65
+
+            return (
+              <TouchableOpacity
+                key={topic}
+                style={[s.topicCard, locked && s.topicLocked]}
+                onPress={() => !locked && startQuiz(topic)}
+                disabled={locked}
+                activeOpacity={locked ? 1 : 0.7}
+              >
+                <View style={s.topicCardInner}>
+                  <Text style={s.topicIcon}>{icons[topic] ?? '📖'}</Text>
+                  <Text style={[s.topicName, locked && { color: C.textDim }]} numberOfLines={2}>
+                    {locked ? '🔒 ' : ''}{topic}
+                  </Text>
+                  {pct !== null ? (
+                    <View style={[s.pctBadge,
+                      { backgroundColor: mastered ? C.correctBg : passing ? C.warnBg : C.wrongBg }]}>
+                      <Text style={[s.pctText,
+                        { color: mastered ? C.correct : passing ? C.warn : C.wrong }]}>
+                        {pct}%
+                      </Text>
+                    </View>
+                  ) : null}
+                  {hint ? <Text style={s.hintText}>{hint}</Text> : null}
+                </View>
+
+                {pct !== null && (
+                  <View style={s.progressBarBg}>
+                    <View style={[s.progressBarFill, {
+                      width: `${Math.min(pct, 100)}%`,
+                      backgroundColor: mastered ? C.correct : passing ? C.warn : C.wrong,
+                    }]} />
+                  </View>
+                )}
+
+                <View style={s.topicBtns}>
+                  <TouchableOpacity
+                    style={[s.topicAction, { backgroundColor: C.brand }]}
+                    onPress={() => !locked && startQuiz(topic)}
+                    disabled={locked}
+                  >
+                    <Text style={s.topicActionText}>Quiz</Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity
+                    style={[s.topicAction, { backgroundColor: C.surface2 }]}
+                    onPress={() => !locked && startFlashcards(topic)}
+                    disabled={locked}
+                  >
+                    <Text style={[s.topicActionText, { color: C.textMuted }]}>Cards</Text>
+                  </TouchableOpacity>
+                </View>
+              </TouchableOpacity>
+            )
+          })}
+        </View>
+
+        <View style={{ height: 20 }} />
+      </ScrollView>
+    </SafeAreaView>
   )
 }
 
-const s = StyleSheet.create({
-  scroll: { flex: 1 },
-  content: { padding: 20, paddingBottom: 40 },
+function timeOfDay() {
+  const h = new Date().getHours()
+  if (h < 12) return 'morning'
+  if (h < 17) return 'afternoon'
+  return 'evening'
+}
 
-  header: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 20, marginTop: 8 },
-  title:    { fontSize: 36, fontWeight: '800', color: C.brandLight, lineHeight: 42 },
-  subtitle: { fontSize: 14, fontWeight: '600', color: C.textMuted, marginTop: 2 },
+function makeStyles(C) {
+  const cardW = (width - 48) / 2
+  return StyleSheet.create({
+    safe:           { flex: 1, backgroundColor: C.bg },
+    header:         { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', padding: 20, paddingBottom: 12 },
+    greeting:       { fontSize: 13, color: C.textMuted },
+    name:           { fontSize: 22, fontWeight: '800', color: C.text, marginTop: 2 },
+    headerRight:    { flexDirection: 'row', gap: 8, alignItems: 'center' },
+    streakBadge:    { backgroundColor: '#f59e0b20', borderRadius: 20, paddingHorizontal: 10, paddingVertical: 4, borderWidth: 1, borderColor: '#f59e0b50' },
+    streakText:     { color: C.warn, fontWeight: '700', fontSize: 13 },
+    xpBadge:        { backgroundColor: C.surface2, borderRadius: 20, paddingHorizontal: 10, paddingVertical: 4 },
+    xpText:         { color: C.textMuted, fontWeight: '700', fontSize: 13 },
 
-  streakBadge: { alignItems: 'center', backgroundColor: C.surface, borderRadius: 14, padding: 12, borderWidth: 1, borderColor: C.surface2 },
-  streakFire: { fontSize: 24 },
-  streakNum:  { fontSize: 22, fontWeight: '900', color: C.text },
-  streakLabel:{ fontSize: 10, color: C.textMuted, fontWeight: '600' },
+    subjectRow:     { flexDirection: 'row', paddingHorizontal: 16, gap: 8, marginBottom: 12 },
+    subjectBtn:     { flex: 1, paddingVertical: 8, borderRadius: 20, alignItems: 'center', backgroundColor: C.surface, borderWidth: 1.5, borderColor: C.border },
+    subjectBtnText: { fontSize: 12, fontWeight: '700', color: '#fff' },
 
-  quickRow: { flexDirection: 'row', gap: 8, marginBottom: 10 },
-  practiceBtn: {
-    flex: 2, backgroundColor: '#1e3a5f', borderRadius: 14, padding: 16,
-    borderWidth: 1, borderColor: '#2d5a9e',
-  },
-  practiceIcon:  { fontSize: 24, marginBottom: 4 },
-  practiceName:  { fontSize: 15, fontWeight: '700', color: C.text },
-  practiceCount: { fontSize: 11, color: C.textMuted, marginTop: 2 },
-  analyticsBtn: {
-    flex: 1, backgroundColor: C.surface, borderRadius: 14, padding: 16,
-    borderWidth: 1, borderColor: C.surface2, alignItems: 'center', justifyContent: 'center',
-  },
-  analyticsIcon: { fontSize: 28, marginBottom: 4 },
-  analyticsName: { fontSize: 12, fontWeight: '700', color: C.text },
+    weekRow:        { flexDirection: 'row', justifyContent: 'center', gap: 8, marginBottom: 16, paddingHorizontal: 16 },
+    dayDot:         { width: 36, height: 36, borderRadius: 18, backgroundColor: C.surface, alignItems: 'center', justifyContent: 'center', borderWidth: 1, borderColor: C.border },
+    dayDotStudied:  { backgroundColor: C.brand, borderColor: C.brand },
+    dayDotToday:    { borderColor: C.brandLight, borderWidth: 2 },
+    dayLabel:       { fontSize: 11, fontWeight: '700', color: C.textMuted },
 
-  allCard: {
-    flexDirection: 'row', alignItems: 'center',
-    backgroundColor: C.brandDark, borderRadius: 14, padding: 18,
-    marginBottom: 8, borderWidth: 1, borderColor: C.brand, gap: 12,
-  },
-  studyAllCard: {
-    flexDirection: 'row', alignItems: 'center',
-    backgroundColor: C.surface, borderRadius: 14, padding: 18,
-    marginBottom: 20, borderWidth: 1, borderColor: C.surface2, gap: 12,
-  },
-  allIcon: { fontSize: 24 },
-  allTextBlock: { flex: 1 },
-  allName:   { fontSize: 15, fontWeight: '700', color: C.text },
-  cardCount: { fontSize: 12, color: C.textMuted, marginTop: 2 },
-  chevron:   { fontSize: 20, color: C.textMuted },
+    quickRow:       { flexDirection: 'row', paddingHorizontal: 16, gap: 10, marginBottom: 24 },
+    quickBtn:       { flex: 1, borderRadius: 14, padding: 14, alignItems: 'center' },
+    quickIcon:      { fontSize: 22 },
+    quickLabel:     { fontSize: 11, fontWeight: '700', color: '#fff', marginTop: 4 },
 
-  masteryBadge: { borderRadius: 99, paddingHorizontal: 8, paddingVertical: 2, borderWidth: 1 },
-  masteryText:  { fontSize: 11, fontWeight: '700' },
-
-  sectionLabel: { fontSize: 11, fontWeight: '700', color: C.textMuted, letterSpacing: 1, marginBottom: 10 },
-  grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10 },
-  topicCard: {
-    width: '48%', backgroundColor: C.surface, borderRadius: 14,
-    padding: 16, borderWidth: 1, borderColor: C.surface2, gap: 4,
-  },
-  topicCardHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 4 },
-  topicIcon: { fontSize: 24 },
-  topicName: { fontSize: 13, fontWeight: '700', color: C.text },
-  topicActions: { flexDirection: 'row', gap: 6, marginTop: 10 },
-  actionBtn: { flex: 1, backgroundColor: C.brand, borderRadius: 8, padding: 8, alignItems: 'center' },
-  actionBtnStudy: { backgroundColor: C.surface2 },
-  actionBtnText: { fontSize: 12, fontWeight: '700', color: '#fff' },
-  actionBtnStudyText: { color: C.text },
-
-  reminderRow: {
-    flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
-    backgroundColor: C.surface, borderRadius: 14, padding: 16,
-    borderWidth: 1, borderColor: C.surface2, marginTop: 20,
-  },
-  reminderTitle: { fontSize: 14, fontWeight: '700', color: C.text },
-  reminderSub:   { fontSize: 12, color: C.textMuted, marginTop: 2 },
-})
+    sectionTitle:   { fontSize: 17, fontWeight: '800', color: C.text, marginHorizontal: 16, marginBottom: 12 },
+    grid:           { flexDirection: 'row', flexWrap: 'wrap', paddingHorizontal: 12, gap: 12 },
+    topicCard:      { width: cardW, backgroundColor: C.surface, borderRadius: 16, padding: 14, borderWidth: 1, borderColor: C.border, overflow: 'hidden' },
+    topicLocked:    { opacity: 0.5 },
+    topicCardInner: { gap: 6, marginBottom: 10 },
+    topicIcon:      { fontSize: 28 },
+    topicName:      { fontSize: 13, fontWeight: '700', color: C.text, lineHeight: 18 },
+    pctBadge:       { alignSelf: 'flex-start', borderRadius: 8, paddingHorizontal: 8, paddingVertical: 2 },
+    pctText:        { fontSize: 12, fontWeight: '800' },
+    hintText:       { fontSize: 10, color: C.textDim, marginTop: 2 },
+    progressBarBg:  { height: 3, backgroundColor: C.surface2, borderRadius: 2, marginBottom: 10 },
+    progressBarFill:{ height: 3, borderRadius: 2 },
+    topicBtns:      { flexDirection: 'row', gap: 6 },
+    topicAction:    { flex: 1, paddingVertical: 7, borderRadius: 8, alignItems: 'center' },
+    topicActionText:{ fontSize: 12, fontWeight: '700', color: '#fff' },
+  })
+}

@@ -1,0 +1,110 @@
+import React from 'react'
+import { View, Text, ScrollView, TouchableOpacity, StyleSheet } from 'react-native'
+import { SafeAreaView } from 'react-native-safe-area-context'
+import { useTheme } from '../context/ThemeContext'
+import { useAuthContext } from '../context/AuthContext'
+import { useProgress } from '../hooks/useProgress'
+import * as leData from '../../../src/data/living-environment/index'
+import * as esData from '../../../src/data/earth-science/index'
+
+const TIER_ORDER = ['gold', 'silver', 'bronze']
+const TIER_COLORS = {
+  gold:   '#f59e0b',
+  silver: '#94a3b8',
+  bronze: '#b45309',
+}
+
+export default function AchievementsScreen({ navigation }) {
+  const { C } = useTheme()
+  const { user } = useAuthContext()
+  const uid = user?.uid
+  const { history } = useProgress(uid)
+  const s = makeStyles(C)
+
+  const leHistory = history.filter((h) => (h.subject ?? 'living-environment') === 'living-environment')
+  const esHistory = history.filter((h) => h.subject === 'earth-science')
+
+  function checkCondition(achievement, hist) {
+    const totalQuizzes  = hist.length
+    const totalCorrect  = hist.reduce((a, h) => a + (h.correct ?? 0), 0)
+    const avgPct        = totalQuizzes > 0 ? hist.reduce((a, h) => a + (h.pct ?? 0), 0) / totalQuizzes : 0
+    const stats = { totalQuizzes, totalCorrect, avgPct, diagCount: 0, practiceTestCount: 0 }
+    try { return achievement.condition(stats) } catch { return false }
+  }
+
+  const allAchievements = [...(leData.achievements ?? []), ...(esData.achievements ?? [])]
+  const earned = allAchievements.filter((a) => checkCondition(a, [...leHistory, ...esHistory]))
+  const locked = allAchievements.filter((a) => !checkCondition(a, [...leHistory, ...esHistory]))
+
+  function AchievementCard({ item, unlocked }) {
+    const tierColor = TIER_COLORS[item.tier] ?? C.textMuted
+    return (
+      <View style={[s.badge, !unlocked && s.badgeLocked]}>
+        <View style={[s.badgeIcon, { borderColor: unlocked ? tierColor : C.border }]}>
+          <Text style={s.badgeEmoji}>{item.emoji}</Text>
+        </View>
+        <Text style={[s.badgeName, { color: unlocked ? C.text : C.textDim }]}>{item.name}</Text>
+        <Text style={[s.badgeDesc, { color: unlocked ? C.textMuted : C.textDim }]} numberOfLines={2}>
+          {item.description}
+        </Text>
+        {unlocked && (
+          <View style={[s.tierPill, { backgroundColor: tierColor + '30', borderColor: tierColor }]}>
+            <Text style={[s.tierText, { color: tierColor }]}>{item.tier}</Text>
+          </View>
+        )}
+      </View>
+    )
+  }
+
+  return (
+    <SafeAreaView style={s.safe} edges={['top']}>
+      <View style={s.header}>
+        <TouchableOpacity onPress={() => navigation.goBack()}>
+          <Text style={s.back}>← Back</Text>
+        </TouchableOpacity>
+        <Text style={s.title}>Achievements</Text>
+        <Text style={s.count}>{earned.length}/{allAchievements.length}</Text>
+      </View>
+
+      <ScrollView contentContainerStyle={s.scroll}>
+        {earned.length > 0 && (
+          <>
+            <Text style={s.section}>🏅 Earned ({earned.length})</Text>
+            <View style={s.grid}>
+              {earned.map((a) => <AchievementCard key={a.id} item={a} unlocked />)}
+            </View>
+          </>
+        )}
+        {locked.length > 0 && (
+          <>
+            <Text style={s.section}>🔒 Locked ({locked.length})</Text>
+            <View style={s.grid}>
+              {locked.map((a) => <AchievementCard key={a.id} item={a} unlocked={false} />)}
+            </View>
+          </>
+        )}
+      </ScrollView>
+    </SafeAreaView>
+  )
+}
+
+function makeStyles(C) {
+  return StyleSheet.create({
+    safe:       { flex: 1, backgroundColor: C.bg },
+    header:     { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: 16 },
+    back:       { fontSize: 15, color: C.brand, fontWeight: '600' },
+    title:      { fontSize: 18, fontWeight: '800', color: C.text },
+    count:      { fontSize: 14, color: C.textMuted },
+    scroll:     { padding: 16 },
+    section:    { fontSize: 15, fontWeight: '800', color: C.text, marginBottom: 12, marginTop: 8 },
+    grid:       { flexDirection: 'row', flexWrap: 'wrap', gap: 12, marginBottom: 8 },
+    badge:      { width: '30%', alignItems: 'center', gap: 6, padding: 10, backgroundColor: C.surface, borderRadius: 14, borderWidth: 1, borderColor: C.border },
+    badgeLocked:{ opacity: 0.45 },
+    badgeIcon:  { width: 56, height: 56, borderRadius: 28, borderWidth: 2, alignItems: 'center', justifyContent: 'center', backgroundColor: C.surface2 },
+    badgeEmoji: { fontSize: 26 },
+    badgeName:  { fontSize: 12, fontWeight: '700', textAlign: 'center' },
+    badgeDesc:  { fontSize: 10, textAlign: 'center', lineHeight: 14 },
+    tierPill:   { borderRadius: 8, paddingHorizontal: 6, paddingVertical: 2, borderWidth: 1 },
+    tierText:   { fontSize: 10, fontWeight: '700', textTransform: 'uppercase' },
+  })
+}

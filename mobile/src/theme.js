@@ -1,13 +1,61 @@
-export const C = {
+// Color tokens — used throughout the app
+// Dark theme (default)
+export const dark = {
   bg:         '#0f172a',
   surface:    '#1e293b',
   surface2:   '#334155',
+  surface3:   '#475569',
   text:       '#f1f5f9',
   textMuted:  '#94a3b8',
+  textDim:    '#64748b',
   brand:      '#16a34a',
   brandLight: '#22c55e',
   brandDark:  '#166534',
+  brandBg:    '#052e16',
   correct:    '#22c55e',
+  correctBg:  '#052e16',
   wrong:      '#ef4444',
+  wrongBg:    '#450a0a',
   warn:       '#f59e0b',
+  warnBg:     '#451a03',
+  blue:       '#3b82f6',
+  blueBg:     '#1e3a5f',
+  purple:     '#a855f7',
+  purpleBg:   '#3b0764',
+  border:     '#1e293b',
+  tabBar:     '#0f172a',
+  tabActive:  '#22c55e',
+  tabInactive:'#64748b',
 }
+
+// Light theme
+export const light = {
+  bg:         '#f8fafc',
+  surface:    '#ffffff',
+  surface2:   '#f1f5f9',
+  surface3:   '#e2e8f0',
+  text:       '#0f172a',
+  textMuted:  '#475569',
+  textDim:    '#94a3b8',
+  brand:      '#16a34a',
+  brandLight: '#22c55e',
+  brandDark:  '#166534',
+  brandBg:    '#dcfce7',
+  correct:    '#16a34a',
+  correctBg:  '#dcfce7',
+  wrong:      '#dc2626',
+  wrongBg:    '#fee2e2',
+  warn:       '#d97706',
+  warnBg:     '#fef3c7',
+  blue:       '#2563eb',
+  blueBg:     '#dbeafe',
+  purple:     '#9333ea',
+  purpleBg:   '#f3e8ff',
+  border:     '#e2e8f0',
+  tabBar:     '#ffffff',
+  tabActive:  '#16a34a',
+  tabInactive:'#94a3b8',
+}
+
+// Legacy alias — kept for backward compat with old screens
+export const C = dark

@@ -1,62 +1,49 @@
-import { useState, useEffect, useCallback } from 'react'
-import AsyncStorage from '@react-native-async-storage/async-storage'
+import { useState, useEffect } from 'react'
+import {
+  collection, addDoc, query, orderBy, limit, getDocs, serverTimestamp,
+} from 'firebase/firestore'
+import { db } from '../firebase'
 
-const KEY = '@regents_progress_v1'
-
-const emptyTopic = () => ({
-  highScore: 0,
-  bestStreak: 0,
-  totalPlayed: 0,
-  totalCorrect: 0,
-  totalAnswered: 0,
-})
-
-export function useProgress() {
-  const [progress, setProgress] = useState({})
-  const [loaded, setLoaded] = useState(false)
+export function useProgress(uid) {
+  const [history, setHistory] = useState([])
 
   useEffect(() => {
-    AsyncStorage.getItem(KEY).then((raw) => {
-      if (raw) setProgress(JSON.parse(raw))
-      setLoaded(true)
-    }).catch(() => setLoaded(true))
-  }, [])
+    if (!uid) { setHistory([]); return }
+    loadHistory(uid).then(setHistory)
+  }, [uid])
 
-  const saveResult = useCallback(async ({ topic, score, correct, total, bestStreak }) => {
-    setProgress((prev) => {
-      const key = topic ?? '__all__'
-      const existing = prev[key] ?? emptyTopic()
-      const isNewHighScore = score > existing.highScore
-
-      const updated = {
-        ...prev,
-        [key]: {
-          highScore: Math.max(existing.highScore, score),
-          bestStreak: Math.max(existing.bestStreak, bestStreak),
-          totalPlayed: existing.totalPlayed + 1,
-          totalCorrect: existing.totalCorrect + correct,
-          totalAnswered: existing.totalAnswered + total,
-          isNewHighScore,
-        },
-      }
-      AsyncStorage.setItem(KEY, JSON.stringify(updated)).catch(() => {})
-      return updated
+  async function saveResult({ topic, score, total, correct, pct, subject }) {
+    if (!uid) return
+    const ref = collection(db, 'users', uid, 'quizHistory')
+    await addDoc(ref, {
+      topic: topic ?? 'All Topics',
+      score,
+      total,
+      correct,
+      pct,
+      subject: subject ?? 'living-environment',
+      timestamp: serverTimestamp(),
     })
-  }, [])
+    loadHistory(uid).then(setHistory)
+  }
 
-  const getTopicProgress = useCallback(
-    (topic) => progress[topic ?? '__all__'] ?? emptyTopic(),
-    [progress],
-  )
+  function masteryPct(topic, subject) {
+    const relevant = history.filter((h) => {
+      const hSubject = h.subject ?? 'living-environment'
+      const subjectMatch = subject ? hSubject === subject : true
+      const topicMatch   = topic   ? h.topic === topic   : true
+      return subjectMatch && topicMatch
+    })
+    if (!relevant.length) return null
+    return Math.max(...relevant.map((h) => h.pct))
+  }
 
-  const masteryPct = useCallback(
-    (topic) => {
-      const p = getTopicProgress(topic)
-      if (p.totalAnswered === 0) return null
-      return Math.round((p.totalCorrect / p.totalAnswered) * 100)
-    },
-    [getTopicProgress],
-  )
+  return { history, saveResult, masteryPct }
+}
 
-  return { progress, loaded, saveResult, getTopicProgress, masteryPct }
+async function loadHistory(uid) {
+  const ref = collection(db, 'users', uid, 'quizHistory')
+  const q = query(ref, orderBy('timestamp', 'desc'), limit(200))
+  const snap = await getDocs(q)
+  return snap.docs.map((d) => ({ id: d.id, ...d.data() }))
 }

@@ -1,132 +1,93 @@
+import React from 'react'
 import { View, Text, TouchableOpacity, ScrollView, StyleSheet } from 'react-native'
-import { TOPIC_ICONS } from '../data/questions'
-import { C } from '../theme'
+import { SafeAreaView } from 'react-native-safe-area-context'
+import { useTheme } from '../context/ThemeContext'
 
-export default function ResultsScreen({ score, bestStreak, results, total, onRetry, onHome }) {
-  const correct = results.filter((r) => r.correct).length
-  const pct = Math.round((correct / total) * 100)
+export default function ResultsScreen({ route, navigation }) {
+  const { score, total, results, bestStreak, topic, subject, xpEarned } = route.params
+  const { C } = useTheme()
+  const s = makeStyles(C)
 
-  const grade =
-    pct >= 85 ? { label: 'Mastery',        color: C.correct, emoji: '🏆' }
-    : pct >= 65 ? { label: 'Passing',       color: C.warn,    emoji: '✅' }
-    :             { label: 'Keep Practicing', color: C.wrong,  emoji: '📚' }
+  const correct  = results.filter((r) => r.correct).length
+  const pct      = Math.round((correct / total) * 100)
+  const passed   = pct >= 65
+  const mastered = pct >= 85
 
-  const byTopic = results.reduce((acc, r) => {
-    const t = r.question.topic
-    if (!acc[t]) acc[t] = { correct: 0, total: 0 }
-    acc[t].total++
-    if (r.correct) acc[t].correct++
-    return acc
-  }, {})
+  const statusColor = mastered ? C.correct : passed ? C.warn : C.wrong
+  const statusLabel = mastered ? '🏆 Mastered!' : passed ? '✅ Passed' : '📚 Keep Studying'
 
   return (
-    <ScrollView
-      style={s.scroll}
-      contentContainerStyle={s.content}
-      showsVerticalScrollIndicator={false}
-    >
-      <View style={s.hero}>
-        <Text style={s.emoji}>{grade.emoji}</Text>
-        <Text style={[s.gradeLabel, { color: grade.color }]}>{grade.label}</Text>
-        <Text style={s.scoreValue}>{score} pts</Text>
-        <Text style={s.fraction}>{correct} / {total} correct ({pct}%)</Text>
-        {bestStreak > 1 && (
-          <Text style={s.streakLine}>Best streak: 🔥 {bestStreak}</Text>
+    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+      <ScrollView contentContainerStyle={s.scroll}>
+        <View style={[s.scoreCircle, { borderColor: statusColor }]}>
+          <Text style={[s.scorePct, { color: statusColor }]}>{pct}%</Text>
+          <Text style={s.scoreLabel}>{correct}/{total}</Text>
+        </View>
+        <Text style={[s.status, { color: statusColor }]}>{statusLabel}</Text>
+        {xpEarned > 0 && (
+          <View style={s.xpBanner}><Text style={s.xpBannerText}>⭐ +{xpEarned} XP earned</Text></View>
         )}
-      </View>
-
-      <View style={s.breakdown}>
-        <Text style={s.breakdownTitle}>TOPIC BREAKDOWN</Text>
-        {Object.entries(byTopic).map(([topic, data]) => {
-          const tPct = Math.round((data.correct / data.total) * 100)
-          const barColor = tPct >= 65 ? C.correct : C.wrong
-          return (
-            <View key={topic} style={s.breakdownRow}>
-              <Text style={s.breakdownIcon}>{TOPIC_ICONS[topic]}</Text>
-              <Text style={s.breakdownTopic} numberOfLines={1}>{topic}</Text>
-              <View style={s.barTrack}>
-                <View style={[s.barFill, { width: `${tPct}%`, backgroundColor: barColor }]} />
-              </View>
-              <Text style={s.breakdownCount}>{data.correct}/{data.total}</Text>
+        {bestStreak >= 3 && (
+          <View style={s.streakBanner}><Text style={s.streakBannerText}>🔥 Best streak: {bestStreak} in a row!</Text></View>
+        )}
+        <Text style={s.sectionTitle}>Review</Text>
+        {results.map((r, i) => (
+          <View key={i} style={[s.resultRow, { borderColor: r.correct ? C.correct : C.wrong }]}>
+            <Text style={s.resultNum}>{i + 1}</Text>
+            <View style={s.resultBody}>
+              <Text style={s.resultQ} numberOfLines={2}>{r.question?.text}</Text>
+              {!r.correct && r.question && (
+                <Text style={s.resultAnswer}>
+                  ✓ {r.question.choices?.[r.question.correct ?? r.question.correctIndex]}
+                </Text>
+              )}
             </View>
-          )
-        })}
-      </View>
-
-      <View style={s.actions}>
-        <TouchableOpacity style={s.btnPrimary} onPress={onRetry} activeOpacity={0.85}>
-          <Text style={s.btnPrimaryText}>Try Again</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={s.btnSecondary} onPress={onHome} activeOpacity={0.85}>
-          <Text style={s.btnSecondaryText}>Choose Topic</Text>
-        </TouchableOpacity>
-      </View>
-    </ScrollView>
+            <Text style={{ fontSize: 18 }}>{r.correct ? '✅' : '❌'}</Text>
+          </View>
+        ))}
+        <View style={s.actions}>
+          <TouchableOpacity
+            style={[s.btn, { backgroundColor: C.brand }]}
+            onPress={() => navigation.navigate('Quiz', {
+              questionSet: results.map(r => r.question).sort(() => Math.random() - 0.5),
+              topic,
+              subject,
+            })}
+          >
+            <Text style={s.btnText}>🔄 Retry</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={[s.btn, { backgroundColor: C.surface, borderWidth: 1, borderColor: C.border }]}
+            onPress={() => navigation.navigate('Home')}
+          >
+            <Text style={[s.btnText, { color: C.text }]}>🏠 Home</Text>
+          </TouchableOpacity>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   )
 }
 
-const s = StyleSheet.create({
-  scroll: { flex: 1 },
-  content: { padding: 20, paddingBottom: 40, gap: 20 },
-
-  hero: {
-    backgroundColor: C.surface,
-    borderRadius: 16,
-    padding: 28,
-    alignItems: 'center',
-    borderWidth: 1,
-    borderColor: C.surface2,
-    gap: 6,
-  },
-  emoji:      { fontSize: 48, marginBottom: 4 },
-  gradeLabel: { fontSize: 26, fontWeight: '800' },
-  scoreValue: { fontSize: 36, fontWeight: '800', color: C.brandLight },
-  fraction:   { fontSize: 15, color: C.textMuted },
-  streakLine: { fontSize: 14, color: C.warn, fontWeight: '600' },
-
-  breakdown: {
-    backgroundColor: C.surface,
-    borderRadius: 16,
-    padding: 20,
-    borderWidth: 1,
-    borderColor: C.surface2,
-    gap: 14,
-  },
-  breakdownTitle: {
-    fontSize: 11,
-    fontWeight: '700',
-    color: C.textMuted,
-    letterSpacing: 1,
-    marginBottom: 4,
-  },
-  breakdownRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
-  breakdownIcon: { fontSize: 16, width: 24 },
-  breakdownTopic: { fontSize: 12, color: C.textMuted, width: 120, flexShrink: 0 },
-  barTrack: {
-    flex: 1,
-    height: 8,
-    backgroundColor: C.surface2,
-    borderRadius: 99,
-    overflow: 'hidden',
-  },
-  barFill: { height: '100%', borderRadius: 99 },
-  breakdownCount: { fontSize: 12, color: C.textMuted, width: 30, textAlign: 'right' },
-
-  actions: { flexDirection: 'row', gap: 10 },
-  btnPrimary: {
-    flex: 1,
-    backgroundColor: C.brand,
-    borderRadius: 12,
-    padding: 16,
-    alignItems: 'center',
-  },
-  btnPrimaryText: { color: '#fff', fontSize: 15, fontWeight: '700' },
-  btnSecondary: {
-    flex: 1,
-    backgroundColor: C.surface2,
-    borderRadius: 12,
-    padding: 16,
-    alignItems: 'center',
-  },
-  btnSecondaryText: { color: C.text, fontSize: 15, fontWeight: '700' },
-})
+function makeStyles(C) {
+  return StyleSheet.create({
+    safe:             { flex: 1, backgroundColor: C.bg },
+    scroll:           { padding: 20, alignItems: 'center', gap: 12 },
+    scoreCircle:      { width: 140, height: 140, borderRadius: 70, borderWidth: 4, alignItems: 'center', justifyContent: 'center', marginBottom: 4 },
+    scorePct:         { fontSize: 40, fontWeight: '900' },
+    scoreLabel:       { fontSize: 16, color: C.textMuted, fontWeight: '600' },
+    status:           { fontSize: 22, fontWeight: '800' },
+    xpBanner:         { backgroundColor: '#f59e0b20', borderRadius: 12, paddingHorizontal: 16, paddingVertical: 8, borderWidth: 1, borderColor: '#f59e0b50' },
+    xpBannerText:     { color: C.warn, fontWeight: '700', fontSize: 15 },
+    streakBanner:     { backgroundColor: C.wrongBg, borderRadius: 12, paddingHorizontal: 16, paddingVertical: 8 },
+    streakBannerText: { color: C.wrong, fontWeight: '700', fontSize: 14 },
+    sectionTitle:     { alignSelf: 'flex-start', fontSize: 17, fontWeight: '800', color: C.text, marginTop: 8 },
+    resultRow:        { alignSelf: 'stretch', flexDirection: 'row', alignItems: 'flex-start', gap: 10, backgroundColor: C.surface, borderRadius: 12, padding: 12, borderLeftWidth: 3 },
+    resultNum:        { fontSize: 13, fontWeight: '800', color: C.textMuted, width: 20 },
+    resultBody:       { flex: 1, gap: 4 },
+    resultQ:          { fontSize: 13, color: C.text, lineHeight: 18 },
+    resultAnswer:     { fontSize: 12, color: C.correct, fontWeight: '600' },
+    actions:          { alignSelf: 'stretch', flexDirection: 'row', gap: 12, marginTop: 16 },
+    btn:              { flex: 1, padding: 16, borderRadius: 14, alignItems: 'center' },
+    btnText:          { fontSize: 15, fontWeight: '700', color: '#fff' },
+  })
+}
