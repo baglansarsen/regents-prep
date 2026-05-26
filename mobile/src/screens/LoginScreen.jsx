@@ -5,15 +5,44 @@ import {
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import * as AppleAuthentication from 'expo-apple-authentication'
-import * as Google from 'expo-auth-session/providers/google'
-import * as WebBrowser from 'expo-web-browser'
 import { useTheme } from '../context/ThemeContext'
 import { useAuth } from '../hooks/useAuth'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 
-WebBrowser.maybeCompleteAuthSession()
+// Lazy-load auth-session so requireNativeModule('ExpoWebBrowser') doesn't throw
+// at module eval time in builds where the native module isn't registered yet.
+let Google = null
+let WebBrowser = null
+try {
+  WebBrowser = require('expo-web-browser')
+  Google     = require('expo-auth-session/providers/google')
+  WebBrowser.maybeCompleteAuthSession()
+} catch (_) {}
 
 const GOOGLE_WEB_CLIENT_ID = '752904748328-5areedgem0c4na3cuihfliraskr8vlrt.apps.googleusercontent.com'
+
+// Separate hook so Google.useAuthRequest is only called when the native module loaded.
+// Rules of Hooks: hooks must be called unconditionally, so we call this hook always
+// but return a no-op when Google is null (module failed to load).
+function useGoogleAuth(signInWithGoogleToken, setLoading) {
+  const noop = { ready: false, prompt: () => {} }
+  // Always call the hook — but Google.useAuthRequest is swapped for a stub when unavailable
+  const useRequest = Google?.useAuthRequest ?? (() => [null, null, () => {}])
+  const [, response, promptAsync] = useRequest({ webClientId: GOOGLE_WEB_CLIENT_ID })
+
+  useEffect(() => {
+    if (!Google || response?.type !== 'success') return
+    const idToken = response.params?.id_token
+    if (!idToken) { Alert.alert('Sign in failed', 'No ID token from Google.'); return }
+    setLoading(true)
+    signInWithGoogleToken(idToken)
+      .catch((e) => Alert.alert('Sign in failed', e.message))
+      .finally(() => setLoading(false))
+  }, [response])
+
+  if (!Google) return noop
+  return { ready: true, prompt: promptAsync }
+}
 
 export default function LoginScreen({ navigation }) {
   const { C } = useTheme()
@@ -25,17 +54,7 @@ export default function LoginScreen({ navigation }) {
   const [name, setName]         = useState('')
   const [loading, setLoading]   = useState(false)
 
-  const [, googleResponse, promptGoogleAsync] = Google.useAuthRequest({ webClientId: GOOGLE_WEB_CLIENT_ID })
-
-  useEffect(() => {
-    if (googleResponse?.type !== 'success') return
-    const idToken = googleResponse.params?.id_token
-    if (!idToken) { Alert.alert('Sign in failed', 'No ID token from Google.'); return }
-    setLoading(true)
-    signInWithGoogleToken(idToken)
-      .catch((e) => Alert.alert('Sign in failed', e.message))
-      .finally(() => setLoading(false))
-  }, [googleResponse])
+  const googleAuth = useGoogleAuth(signInWithGoogleToken, setLoading)
 
   async function handleSubmit() {
     if (!email.trim() || !password.trim()) {
@@ -174,8 +193,8 @@ export default function LoginScreen({ navigation }) {
           {/* Google Sign-In */}
           <TouchableOpacity
             style={s.googleBtn}
-            onPress={() => promptGoogleAsync()}
-            disabled={loading}
+            onPress={() => googleAuth.prompt()}
+            disabled={loading || !googleAuth.ready}
           >
             <Text style={s.googleG}>G</Text>
             <Text style={[T.btn, { color: '#3c4043', fontSize: 14 }]}>CONTINUE WITH GOOGLE</Text>
