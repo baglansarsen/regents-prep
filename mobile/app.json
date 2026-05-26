@@ -18,7 +18,14 @@
       "bundleIdentifier": "com.regentify.app",
       "infoPlist": {
         "NSCameraUsageDescription": "Used for profile photos",
-        "NSPhotoLibraryUsageDescription": "Used for profile photos"
+        "NSPhotoLibraryUsageDescription": "Used for profile photos",
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "com.googleusercontent.apps.752904748328-82me96mfpu3vhv9qm2f5u300qllktr4t"
+            ]
+          }
+        ]
       }
     },
     "android": {

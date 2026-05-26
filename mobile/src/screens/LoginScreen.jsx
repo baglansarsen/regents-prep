@@ -13,13 +13,16 @@ import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 // at module eval time in builds where the native module isn't registered yet.
 let Google = null
 let WebBrowser = null
+let AuthSession = null
 try {
-  WebBrowser = require('expo-web-browser')
-  Google     = require('expo-auth-session/providers/google')
+  WebBrowser  = require('expo-web-browser')
+  Google      = require('expo-auth-session/providers/google')
+  AuthSession = require('expo-auth-session')
   WebBrowser.maybeCompleteAuthSession()
 } catch (_) {}
 
 const GOOGLE_WEB_CLIENT_ID = '752904748328-5areedgem0c4na3cuihfliraskr8vlrt.apps.googleusercontent.com'
+const GOOGLE_IOS_CLIENT_ID = '752904748328-82me96mfpu3vhv9qm2f5u300qllktr4t.apps.googleusercontent.com'
 
 // Separate hook so Google.useAuthRequest is only called when the native module loaded.
 // Rules of Hooks: hooks must be called unconditionally, so we call this hook always
@@ -28,7 +31,10 @@ function useGoogleAuth(signInWithGoogleToken, setLoading) {
   const noop = { ready: false, prompt: () => {} }
   // Always call the hook — but Google.useAuthRequest is swapped for a stub when unavailable
   const useRequest = Google?.useAuthRequest ?? (() => [null, null, () => {}])
-  const [, response, promptAsync] = useRequest({ webClientId: GOOGLE_WEB_CLIENT_ID })
+  const [request, response, promptAsync] = useRequest({
+    webClientId: GOOGLE_WEB_CLIENT_ID,
+    iosClientId: GOOGLE_IOS_CLIENT_ID || undefined,
+  })
 
   useEffect(() => {
     if (!Google || response?.type !== 'success') return
@@ -41,7 +47,8 @@ function useGoogleAuth(signInWithGoogleToken, setLoading) {
   }, [response])
 
   if (!Google) return noop
-  return { ready: true, prompt: promptAsync }
+  // ready only once the request object is prepared (not null)
+  return { ready: !!request, prompt: promptAsync }
 }
 
 export default function LoginScreen({ navigation }) {
