@@ -17,6 +17,7 @@ export default {
         '403 million km',
         '1103 million km',
       ],
+      topic: 'Astronomy',
       correct: 2,
     },
     {
@@ -29,7 +30,9 @@ export default {
         '7:40 p.m.',
         '1:53 a.m.',
       ],
+      topic: 'Astronomy',
       correct: 0,
+      image: '/images/exams/es-august-2019/q2.png',
     },
     {
       number: 3,
@@ -41,6 +44,7 @@ export default {
         'Earth',
         'Mars',
       ],
+      topic: 'Astronomy',
       correct: 1,
     },
     {
@@ -53,6 +57,7 @@ export default {
         'greater density',
         'greater mass',
       ],
+      topic: 'Astronomy',
       correct: 3,
     },
     {
@@ -65,6 +70,7 @@ export default {
         'The constellation Orion orbits the Sun.',
         'The tilt of Earth\'s axis changes throughout the year.',
       ],
+      topic: 'Astronomy',
       correct: 1,
     },
     {
@@ -77,6 +83,7 @@ export default {
         '13.8 million years',
         '13.8 billion years',
       ],
+      topic: 'Astronomy',
       correct: 3,
     },
     {
@@ -89,6 +96,7 @@ export default {
         'Sun\'s rotation',
         'Sun\'s revolution',
       ],
+      topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-august-2019/q7.png',
     },
@@ -102,6 +110,7 @@ export default {
         'an impact event occurring on Earth\'s surface',
         'earthquakes occurring along crustal plate boundaries',
       ],
+      topic: 'Plate Tectonics',
       correct: 2,
     },
     {
@@ -114,7 +123,9 @@ export default {
         '66.5°',
         '90.0°',
       ],
+      topic: 'Astronomy',
       correct: 1,
+      image: '/images/exams/es-august-2019/q9.png',
     },
     {
       number: 10,
@@ -126,6 +137,7 @@ export default {
         'no longer frozen with a steep slope',
         'no longer frozen with a gentle slope',
       ],
+      topic: 'General Review',
       correct: 3,
     },
     {
@@ -138,6 +150,7 @@ export default {
         'evaporation and transpiration',
         'evaporation and precipitation',
       ],
+      topic: 'Water Cycle',
       correct: 2,
     },
     {
@@ -150,6 +163,7 @@ export default {
         'sorted pebbles',
         'sorted sand',
       ],
+      topic: 'Geology',
       correct: 2,
     },
     {
@@ -162,6 +176,7 @@ export default {
         'increasing wind speed',
         'dewpoint equal to air temperature',
       ],
+      topic: 'Meteorology',
       correct: 1,
     },
     {
@@ -174,6 +189,7 @@ export default {
         'an increase in both air temperature and atmospheric pressure',
         'an increase in air temperature and a decrease in atmospheric pressure',
       ],
+      topic: 'Meteorology',
       correct: 0,
     },
     {
@@ -186,6 +202,7 @@ export default {
         'oxygen',
         'ozone',
       ],
+      topic: 'Climate',
       correct: 3,
     },
     {
@@ -198,6 +215,7 @@ export default {
         'changes in the energy radiated from the Sun',
         'changes in worldwide atmospheric temperatures',
       ],
+      topic: 'Meteorology',
       correct: 0,
     },
     {
@@ -210,7 +228,9 @@ export default {
         'cooler and wetter',
         'cooler and drier',
       ],
+      topic: 'Meteorology',
       correct: 1,
+      image: '/images/exams/es-august-2019/q17.png',
     },
     {
       number: 18,
@@ -222,6 +242,7 @@ export default {
         'West Greenland Current',
         'East Australia Current',
       ],
+      topic: 'Climate',
       correct: 1,
     },
     {
@@ -234,6 +255,7 @@ export default {
         'light color and rough texture',
         'light color and smooth texture',
       ],
+      topic: 'Climate',
       correct: 0,
     },
     {
@@ -246,6 +268,7 @@ export default {
         'converging and rising',
         'diverging and rising',
       ],
+      topic: 'Meteorology',
       correct: 2,
     },
     {
@@ -258,6 +281,7 @@ export default {
         'the absorption of sunlight by plants',
         'evaporation of ocean water',
       ],
+      topic: 'Geologic Time',
       correct: 0,
     },
     {
@@ -270,6 +294,7 @@ export default {
         'ammonoids',
         'placoderm fish',
       ],
+      topic: 'Geologic Time',
       correct: 3,
     },
     {
@@ -282,6 +307,7 @@ export default {
         'small geographic area and in a short geologic time',
         'small geographic area and in a long geologic time',
       ],
+      topic: 'Geologic Time',
       correct: 0,
     },
     {
@@ -294,6 +320,7 @@ export default {
         '9 minutes',
         '4 minutes',
       ],
+      topic: 'Plate Tectonics',
       correct: 2,
     },
     {
@@ -306,6 +333,7 @@ export default {
         'stiffer mantle and outer core',
         'outer core and inner core',
       ],
+      topic: 'Plate Tectonics',
       correct: 3,
     },
     {
@@ -318,6 +346,7 @@ export default {
         'after the formation of rock units E and F',
         'before the formation of rock units G and H',
       ],
+      topic: 'Geology',
       correct: 2,
       image: '/images/exams/es-august-2019/q26.png',
     },
@@ -331,6 +360,7 @@ export default {
         'younger than the sandstone, but the same age as the granite bedrock',
         'younger than the sandstone and the granite bedrock',
       ],
+      topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-august-2019/q27.png',
     },
@@ -344,6 +374,7 @@ export default {
         'Atlantic Coastal Plain, Newark Lowlands, Hudson Highlands, Hudson-Mohawk Lowlands',
         'Atlantic Coastal Plain, Manhattan Prong, Hudson Highlands, Allegheny Plateau',
       ],
+      topic: 'Plate Tectonics',
       correct: 1,
       image: '/images/exams/es-august-2019/q28.png',
     },
@@ -357,6 +388,7 @@ export default {
         'water table',
         'floodplain',
       ],
+      topic: 'Water Cycle',
       correct: 1,
       image: '/images/exams/es-august-2019/q29.png',
     },
@@ -370,7 +402,9 @@ export default {
         'C',
         'D',
       ],
+      topic: 'Geology',
       correct: 2,
+      image: '/images/exams/es-august-2019/q30.png',
     },
     {
       number: 31,
@@ -382,6 +416,7 @@ export default {
         'more chemical weathering and a scarcity of living organisms',
         'more chemical weathering and an abundance of living organisms',
       ],
+      topic: 'Geology',
       correct: 3,
     },
     {
@@ -394,6 +429,7 @@ export default {
         'a drop in sea level occurred, leaving the lakes',
         'a rise in sea level occurred, flooding the region',
       ],
+      topic: 'Geology',
       correct: 0,
     },
     {
@@ -406,6 +442,7 @@ export default {
         'peridotite',
         'gabbro',
       ],
+      topic: 'Geology',
       correct: 3,
     },
     {
@@ -418,6 +455,7 @@ export default {
         'hardness and streak',
         'greasy feel and composition',
       ],
+      topic: 'Geology',
       correct: 2,
     },
     {
@@ -430,6 +468,7 @@ export default {
         'magnetite',
         'hematite',
       ],
+      topic: 'Geology',
       correct: 3,
     },
     // Part B-1: Questions 36–38 are based on a map showing the locations of Jamestown, Watertown, and Kingston in New York State.
@@ -444,6 +483,7 @@ export default {
         '20 minutes earlier',
         '20 minutes later',
       ],
+      topic: 'Astronomy',
       correct: 3,
       image: '/images/exams/es-august-2019/q36.png',
     },
@@ -458,6 +498,7 @@ export default {
         '75°',
         '76°',
       ],
+      topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-august-2019/q37.png',
     },
@@ -472,6 +513,7 @@ export default {
         'Earth\'s revolution around the Sun',
         'the Sun\'s revolution around Earth',
       ],
+      topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-august-2019/q38.png',
     },
@@ -487,6 +529,7 @@ export default {
         'C',
         'D',
       ],
+      topic: 'Maps',
       correct: 2,
       image: '/images/exams/es-august-2019/q39.png',
     },
@@ -501,6 +544,7 @@ export default {
         'melting and solidification',
         'precipitation and evaporation',
       ],
+      topic: 'Geology',
       correct: 0,
     },
     {
@@ -514,6 +558,7 @@ export default {
         'halite and/or olivine',
         'pyroxene and/or plagioclase feldspar',
       ],
+      topic: 'Geology',
       correct: 1,
     },
     // Part B-1: Questions 42–44 are based on photographs showing a digital weather device and two weather instruments (A and B).
@@ -528,6 +573,7 @@ export default {
         '29.62 in of Hg',
         '29.65 in of Hg',
       ],
+      topic: 'Meteorology',
       correct: 2,
       image: '/images/exams/es-august-2019/q42.png',
     },
@@ -542,6 +588,7 @@ export default {
         '18°C',
         '31°C',
       ],
+      topic: 'Meteorology',
       correct: 2,
       image: '/images/exams/es-august-2019/q43.png',
     },
@@ -556,6 +603,7 @@ export default {
         'A = anemometer / wind speed; B = wind vane / wind direction',
         'A = wind vane / wind speed; B = anemometer / wind direction',
       ],
+      topic: 'Meteorology',
       correct: 0,
       image: '/images/exams/es-august-2019/q44.png',
     },
@@ -571,6 +619,7 @@ export default {
         'rotation',
         'revolution',
       ],
+      topic: 'Astronomy',
       correct: 2,
       image: '/images/exams/es-august-2019/q45.png',
     },
@@ -585,6 +634,7 @@ export default {
         '60°/h',
         '120°/h',
       ],
+      topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-august-2019/q46.png',
     },
@@ -599,6 +649,7 @@ export default {
         'Northern: Northeast winds; Southern: Southeast winds',
         'Northern: Northwest winds; Southern: Southeast winds',
       ],
+      topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-august-2019/q47.png',
     },
@@ -614,6 +665,7 @@ export default {
         'arrows showing mantle moving only away from the boundary on both sides',
         'arrows showing mantle convecting downward beneath the subducting oceanic plate and upward elsewhere',
       ],
+      topic: 'Plate Tectonics',
       correct: 3,
       image: '/images/exams/es-august-2019/q48.png',
     },
@@ -628,6 +680,7 @@ export default {
         'thinner and less dense',
         'thinner and more dense',
       ],
+      topic: 'Geology',
       correct: 3,
       image: '/images/exams/es-august-2019/q49.png',
     },
@@ -642,6 +695,7 @@ export default {
         '2500 km',
         '3000 km',
       ],
+      topic: 'Geology',
       correct: 1,
       image: '/images/exams/es-august-2019/q50.png',
     },

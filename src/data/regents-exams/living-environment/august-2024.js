@@ -16,6 +16,7 @@ export default {
         'insulin is produced when protein levels are low',
         'stimuli are detected, and actions are taken',
       ],
+      topic: 'Cell Biology',
       correct: 3,
     },
     {
@@ -27,6 +28,7 @@ export default {
         'an increase in the biodiversity of the remaining animal and plant species',
         'some species of herbivores taking over the niche the wolves occupied',
       ],
+      topic: 'Ecology',
       correct: 0,
     },
     {
@@ -38,6 +40,7 @@ export default {
         'Deforestation removes trees that produce carbon dioxide through the process of photosynthesis.',
         'Deforestation immediately increases ecosystem stability needed in the burned area.',
       ],
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -49,6 +52,7 @@ export default {
         'industrialization has had a positive effect on the health of river ecosystems',
         'the construction of dams affected abiotic factors in the river but not biotic factors',
       ],
+      topic: 'Ecology',
       correct: 0,
     },
     {
@@ -60,6 +64,7 @@ export default {
         'helps in the synthesis of complex sugars during autotrophic nutrition',
         'is not involved in other types of reactions because enzymes are specific',
       ],
+      topic: 'Human Body',
       correct: 3,
     },
     {
@@ -71,6 +76,7 @@ export default {
         'Tdap vaccine contains a small amount of the bacteria that causes pertussis',
         'Td vaccine does not stimulate the immune system of people to recognize pertussis antigens',
       ],
+      topic: 'Human Body',
       correct: 3,
     },
     {
@@ -82,6 +88,7 @@ export default {
         'decreases the producers in the ecosystem',
         'increases the biodiversity of the ocean',
       ],
+      topic: 'Ecology',
       correct: 1,
     },
     {
@@ -93,7 +100,9 @@ export default {
         'only changes in temperature affect duckweed population size',
         'the size of the duckweed population is kept stable by limited resources in the ditch',
       ],
+      topic: 'Ecology',
       correct: 3,
+      image: '/images/exams/le-august-2024/q8.png',
     },
     {
       number: 9, part: 'A',
@@ -104,6 +113,7 @@ export default {
         'They all have the same physical conditions present, but the living organisms use them in different ways.',
         'Each ecosystem contains different physical conditions that determine the type of living organisms present there.',
       ],
+      topic: 'Ecology',
       correct: 3,
     },
     {
@@ -115,6 +125,7 @@ export default {
         'carbon dioxide and water',
         'hydrogen and starch',
       ],
+      topic: 'Human Body',
       correct: 2,
     },
     {
@@ -126,6 +137,7 @@ export default {
         'Organisms that compete successfully will survive, reproduce, and pass their traits on to their offspring.',
         'Competition usually results in the extinction of a species, ensuring the survival of other species.',
       ],
+      topic: 'Genetics',
       correct: 2,
     },
     {
@@ -137,6 +149,7 @@ export default {
         'digestive system',
         'immune system',
       ],
+      topic: 'Human Body',
       correct: 0,
     },
     {
@@ -148,6 +161,7 @@ export default {
         'the ice pack caused a mutation in the genes that regulate fur color',
         'warm and cold temperatures activate different genes for fur color',
       ],
+      topic: 'Genetics',
       correct: 3,
     },
     {
@@ -159,6 +173,7 @@ export default {
         'Identify the gene that codes for the protein and introduce it into plant cells by genetic engineering.',
         'Selectively breed a new type of fungus that does not require the nutrients that the plants provide.',
       ],
+      topic: 'Genetics',
       correct: 2,
     },
     {
@@ -170,6 +185,7 @@ export default {
         'the milkweed benefits from the insects that can tolerate the toxin they produce',
         'eventually the insects will become immune to the toxin',
       ],
+      topic: 'Ecology',
       correct: 0,
     },
     {
@@ -181,6 +197,7 @@ export default {
         'nerve cell',
         'muscle cell',
       ],
+      topic: 'Human Body',
       correct: 1,
     },
     {
@@ -192,7 +209,9 @@ export default {
         'tissue: a group of cells with a similar structure and function',
         'organ system: a collection of organs with a common function',
       ],
+      topic: 'Cell Biology',
       correct: 2,
+      image: '/images/exams/le-august-2024/q17.png',
     },
     {
       number: 18, part: 'A',
@@ -204,7 +223,9 @@ export default {
         'produce increased nonrenewable resources',
         'provide additional sources of potential medicines',
       ],
+      topic: 'Evolution',
       correct: 1,
+      image: '/images/exams/le-august-2024/q18.png',
     },
     {
       number: 19, part: 'A',
@@ -215,6 +236,7 @@ export default {
         'a constant source of energy because they cannot recycle gases and materials',
         'a constant source of energy and recycle gases and materials',
       ],
+      topic: 'Ecology',
       correct: 3,
     },
     {
@@ -226,6 +248,7 @@ export default {
         'vaccines stimulate the subject\'s immune system to react to future exposure to the virus',
         'vaccines are only effective for a few days, so the patient must get the vaccine before exposure',
       ],
+      topic: 'Human Body',
       correct: 2,
     },
     {
@@ -237,6 +260,7 @@ export default {
         'a deficiency of carbon dioxide in the circulatory system',
         'an insufficient amount of a specific vitamin in the diet',
       ],
+      topic: 'Human Body',
       correct: 0,
     },
     {
@@ -248,6 +272,7 @@ export default {
         'These alterations will spread to all the other cells in the body.',
         'The sex cells of the individual will have the same alterations.',
       ],
+      topic: 'Genetics',
       correct: 0,
     },
     {
@@ -259,6 +284,7 @@ export default {
         'all the DNA found in sex cells',
         'molecules of carbon dioxide produced by chloroplasts',
       ],
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -270,6 +296,7 @@ export default {
         'expresses some genes not expressed in the other cell types',
         'lacks the genes found in the other cell types',
       ],
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -281,6 +308,7 @@ export default {
         'algae that live on the reef will begin to decompose the dying coral',
         'species dependent on the coral will be negatively impacted',
       ],
+      topic: 'Evolution',
       correct: 3,
     },
     {
@@ -292,6 +320,7 @@ export default {
         'are classified as carbohydrates',
         'are important in animals but not plants',
       ],
+      topic: 'Human Body',
       correct: 1,
     },
     {
@@ -303,6 +332,7 @@ export default {
         'genetically engineered',
         'changed through recombination',
       ],
+      topic: 'Genetics',
       correct: 1,
     },
     {
@@ -314,6 +344,7 @@ export default {
         'chromosome mutations',
         'gamete production',
       ],
+      topic: 'Genetics',
       correct: 0,
     },
     {
@@ -325,6 +356,7 @@ export default {
         'halving the chromosome number during mitosis, followed by differentiation',
         'doubling the chromosome number during mitosis, followed by differentiation',
       ],
+      topic: 'Reproduction',
       correct: 0,
     },
     {
@@ -336,6 +368,7 @@ export default {
         'an adaptation that could provide an advantage over the other organisms that they compete with for food',
         'an adaptation that is most likely the result of a mutation in body cells of the ancestors of the otter',
       ],
+      topic: 'Genetics',
       correct: 2,
     },
 
@@ -350,7 +383,9 @@ export default {
         'The raw materials permanently bind to the catalase, preventing the reaction.',
         'The reaction is no longer needed for survival of the individual.',
       ],
+      topic: 'Human Body',
       correct: 0,
+      image: '/images/exams/le-august-2024/q31.png',
     },
     {
       number: 32, part: 'B-1',
@@ -362,7 +397,9 @@ export default {
         'C and B',
         'D and C',
       ],
+      topic: 'Cell Biology',
       correct: 3,
+      image: '/images/exams/le-august-2024/q32.png',
     },
     {
       number: 33, part: 'B-1',
@@ -374,6 +411,7 @@ export default {
         'Chloroplasts are necessary for the production of starch.',
         'Water is necessary for the production of starch.',
       ],
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -385,6 +423,7 @@ export default {
         'inherited disorders resulting from inhaling vapors',
         'the effects of infectious parasites carried by the vapors',
       ],
+      topic: 'Human Body',
       correct: 0,
     },
     {
@@ -397,7 +436,9 @@ export default {
         'heron',
         'leopard frog',
       ],
+      topic: 'Ecology',
       correct: 2,
+      image: '/images/exams/le-august-2024/q35.png',
     },
     {
       number: 36, part: 'B-1',
@@ -409,7 +450,9 @@ export default {
         'Corn yield may be reduced by about 80% because of the delayed planting.',
         'Crops planted on June 1 will have the same yield as those planted on April 1.',
       ],
+      topic: 'General Review',
       correct: 1,
+      image: '/images/exams/le-august-2024/q36.png',
     },
     {
       number: 37, part: 'B-1',
@@ -421,7 +464,9 @@ export default {
         'Habitat Y',
         'Habitat Z',
       ],
+      topic: 'Evolution',
       correct: 1,
+      image: '/images/exams/le-august-2024/q37.png',
     },
     {
       number: 38, part: 'B-1',
@@ -432,6 +477,7 @@ export default {
         'natural selection of beneficial variations',
         'the environment modifying gene expression',
       ],
+      topic: 'Genetics',
       correct: 2,
     },
     {
@@ -443,6 +489,7 @@ export default {
         'because there were so many, they did not receive the same amount of nutrients from the mother',
         'there were pH differences depending on where in the uterus each kitten developed',
       ],
+      topic: 'Genetics',
       correct: 1,
     },
     {
@@ -455,6 +502,7 @@ export default {
         'marine organisms evolving more rapidly in order to compete for resources',
         'the need to import predators to eat the tiny invertebrates',
       ],
+      topic: 'Ecology',
       correct: 1,
     },
     {
@@ -467,6 +515,7 @@ export default {
         'on the control panels, wastes built up, poisoning some of the organisms growing there',
         'on the warmer panels, there were fewer decomposers present to recycle available energy',
       ],
+      topic: 'Ecology',
       correct: 0,
     },
     {
@@ -479,6 +528,7 @@ export default {
         'the variety of producer/consumer relationships in the Antarctic Ocean',
         'how the stability of an ecosystem is affected by competition and disease',
       ],
+      topic: 'Ecology',
       correct: 1,
     },
     {
@@ -491,6 +541,7 @@ export default {
         'the kakapo test group is divided in half, and one-half is fed unlimited food and the other a reduced amount of food',
         'the entire test group of kakapos is fed one type of food for one month and a different type of food for the second month',
       ],
+      topic: 'Genetics',
       correct: 2,
     },
   ],

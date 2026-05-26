@@ -21,6 +21,7 @@ export default {
         'metabolic processes',
         'information storage',
       ],
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -33,6 +34,7 @@ export default {
         'less genetic material, since it is produced from root cells',
         'a different combination of genes, since it is produced from various roots',
       ],
+      topic: 'Genetics',
       correct: 0,
     },
     {
@@ -45,6 +47,7 @@ export default {
         'they contain different receptors on their cell membranes',
         'they contain different DNA sequences for the production of hormones',
       ],
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -57,6 +60,7 @@ export default {
         'This ecosystem lacks producer organisms.',
         'There are most likely more foxes than rabbits in this ecosystem.',
       ],
+      topic: 'Ecology',
       correct: 0,
     },
     {
@@ -69,6 +73,7 @@ export default {
         'different kinds of cells and tissues form during embryonic development',
         'two different sexes are present among the offspring, after sexual reproduction',
       ],
+      topic: 'Reproduction',
       correct: 2,
     },
     {
@@ -81,6 +86,7 @@ export default {
         'circulatory and digestive systems',
         'circulatory and respiratory systems',
       ],
+      topic: 'Human Body',
       correct: 2,
     },
     {
@@ -93,6 +99,7 @@ export default {
         'Row 3 — organelles',
         'Row 4 — cells',
       ],
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -105,6 +112,7 @@ export default {
         'DNA in the nuclei of sperm cells',
         'pancreas and insulin production',
       ],
+      topic: 'Reproduction',
       correct: 1,
     },
     {
@@ -117,6 +125,7 @@ export default {
         'sexual reproduction between the plants with this gene and those without it',
         'deletion of the genes that limit protein production from each individual food crop plant',
       ],
+      topic: 'Genetics',
       correct: 0,
     },
     {
@@ -129,6 +138,7 @@ export default {
         'consumers',
         'producers',
       ],
+      topic: 'Ecology',
       correct: 3,
     },
     {
@@ -141,6 +151,7 @@ export default {
         'contained in half of the DNA found in the sperm cells of the father',
         'able to make enzymes to produce all of the carbohydrates found in the mother',
       ],
+      topic: 'Genetics',
       correct: 0,
     },
     {
@@ -153,6 +164,7 @@ export default {
         'The placenta filters out all harmful toxins and chemicals from the mother\'s blood, so that they cannot reach the fetus.',
         'The exchange of oxygen and carbon dioxide occurs between the mother and developing fetus across the placenta.',
       ],
+      topic: 'Reproduction',
       correct: 3,
     },
     {
@@ -165,6 +177,7 @@ export default {
         'natural selection',
         'dynamic equilibrium',
       ],
+      topic: 'Cell Biology',
       correct: 3,
     },
     {
@@ -177,6 +190,7 @@ export default {
         'When some octopuses migrated to a deeper environment, they needed to produce new proteins so that their blood could carry more oxygen.',
         'Mutations occurred in the body cells of the octopuses, which resulted in the specific proteins being produced and passed on to their offspring.',
       ],
+      topic: 'Genetics',
       correct: 1,
     },
     {
@@ -189,6 +203,7 @@ export default {
         'engineering body systems in order to develop organelles for transplant',
         'growing cells to develop tissues and then growing these tissues to form an organ',
       ],
+      topic: 'Human Body',
       correct: 3,
     },
     {
@@ -201,6 +216,7 @@ export default {
         'allow the person to synthesize large, inorganic nutrient molecules',
         'are the building blocks of carbohydrates and other nutrient molecules',
       ],
+      topic: 'Human Body',
       correct: 0,
     },
     {
@@ -213,6 +229,7 @@ export default {
         'Sorting and recombining of genes occurs, which leads to new genetic combinations.',
         'The three processes result in offspring with half as much genetic information as the adults.',
       ],
+      topic: 'Reproduction',
       correct: 2,
     },
     {
@@ -225,6 +242,7 @@ export default {
         'circulatory system',
         'immune system',
       ],
+      topic: 'Human Body',
       correct: 3,
     },
     {
@@ -237,6 +255,7 @@ export default {
         'Column 3: D=heterotrophs, C=autotrophs, B=herbivores, A=producers',
         'Column 4: D=producers, C=carnivores, B=herbivores, A=heterotrophs',
       ],
+      topic: 'Ecology',
       correct: 1,
     },
     {
@@ -249,6 +268,7 @@ export default {
         'an immune system response to increasing heart rate',
         'a body system regulating hormone production',
       ],
+      topic: 'Human Body',
       correct: 0,
       image: '/images/exams/le-june-2024/q20.png',
     },
@@ -262,6 +282,7 @@ export default {
         'passing environmental protection laws',
         'the introduction of native species into habitats',
       ],
+      topic: 'Ecology',
       correct: 1,
     },
     {
@@ -274,6 +295,7 @@ export default {
         'different species of grass present',
         'balance between predators and prey',
       ],
+      topic: 'Ecology',
       correct: 0,
     },
     {
@@ -286,6 +308,7 @@ export default {
         'herbivores',
         'decomposers',
       ],
+      topic: 'Ecology',
       correct: 3,
     },
     {
@@ -298,6 +321,7 @@ export default {
         'digestion and synthesis',
         'natural selection and evolution',
       ],
+      topic: 'Reproduction',
       correct: 2,
     },
     {
@@ -310,6 +334,7 @@ export default {
         'uncontrolled population growth',
         'regulations that reduce industrial pollution',
       ],
+      topic: 'Ecology',
       correct: 2,
     },
     {
@@ -322,6 +347,7 @@ export default {
         'identical to each other and to the donor of the body cell',
         'different from each other and from the donor of the body cell',
       ],
+      topic: 'Genetics',
       correct: 2,
     },
     {
@@ -334,6 +360,7 @@ export default {
         'an increase in biodiversity',
         'a decrease in water temperature',
       ],
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -346,6 +373,7 @@ export default {
         'are an example of using agricultural technologies to increase farm yields',
         'could spread ringspot virus throughout the entire ecosystem',
       ],
+      topic: 'Ecology',
       correct: 2,
     },
     {
@@ -358,6 +386,7 @@ export default {
         'make fewer white blood cells during infection',
         'manufacture more enzymes to react to microbes',
       ],
+      topic: 'Human Body',
       correct: 0,
     },
     {
@@ -370,6 +399,7 @@ export default {
         'disrupt mineral availability in the ecosystem',
         'cause an increase in pesticide-resistant plants',
       ],
+      topic: 'Ecology',
       correct: 1,
     },
 
@@ -385,6 +415,7 @@ export default {
         'Eating certain selected species of seafood can provide health benefits without the negative effects of high mercury intake.',
         'It is important that pregnant women eat a regular diet of seafood, including swordfish, halibut, and cod.',
       ],
+      topic: 'Evolution',
       correct: 2,
     },
     {
@@ -398,6 +429,7 @@ export default {
         'Fish that consume plants have the highest levels of mercury compounds.',
         'If people stop eating fish, then the mercury levels in fish will decrease.',
       ],
+      topic: 'Genetics',
       correct: 1,
     },
     {
@@ -410,6 +442,7 @@ export default {
         'the amino acids in the DNA',
         'the genes located in the protein',
       ],
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -422,6 +455,7 @@ export default {
         'Row 3: small mammal — photosynthesis',
         'Row 4: grasses — respiration',
       ],
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -435,6 +469,7 @@ export default {
         'Negative: Loss of biodiversity in wild fish / Positive: Decreased population size',
         'Negative: Increased biodiversity / Positive: Increased population size',
       ],
+      topic: 'Genetics',
       correct: 0,
     },
     {
@@ -447,6 +482,7 @@ export default {
         'Tree 3: bear, giant panda, and red panda are grouped together; raccoon is the outgroup',
         'Tree 4: giant panda, raccoon, and red panda are grouped together; bear is the outgroup',
       ],
+      topic: 'Evolution',
       correct: 0,
     },
     {
@@ -460,6 +496,7 @@ export default {
         'Genes are not involved in the appearance of these water fleas.',
         'Water flea gene expression can be influenced by the type of predator present in their environment.',
       ],
+      topic: 'Genetics',
       correct: 3,
     },
     {
@@ -473,6 +510,7 @@ export default {
         'scientific explanations are tentative and subject to change',
         'advancements in technology usually make scientific theories invalid',
       ],
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -486,6 +524,7 @@ export default {
         'synthesize the starch needed by the muscles',
         'release enough energy for cells to function properly',
       ],
+      topic: 'Cell Biology',
       correct: 3,
     },
     {
@@ -499,6 +538,7 @@ export default {
         'Many individual pythons were unable to reproduce during the freeze event and did not pass on their cold-tolerant genes.',
         'There was no actual change in the population, and if a similar freeze event occurred again, 40–90% of the snakes would die.',
       ],
+      topic: 'Genetics',
       correct: 1,
     },
     {
@@ -512,6 +552,7 @@ export default {
         'has expanded only because small animals reproduce so quickly that they provide an unlimited food source',
         'has already successfully adapted to an unfamiliar environment through natural selection',
       ],
+      topic: 'Evolution',
       correct: 3,
     },
     {
@@ -525,6 +566,7 @@ export default {
         'changing the fisher trapping season from 46 to 30 days',
         'decreasing the cost of the permit needed for fisher trapping',
       ],
+      topic: 'Ecology',
       correct: 2,
     },
     {
@@ -538,6 +580,7 @@ export default {
         'never recover unless there is a decrease in biodiversity',
         'usually recover quickly into the same ecosystem as it was previously',
       ],
+      topic: 'Ecology',
       correct: 1,
     },
   ],

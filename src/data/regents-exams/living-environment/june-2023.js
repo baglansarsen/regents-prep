@@ -16,6 +16,7 @@ export default {
         'digestive and respiratory',
         'reproductive and circulatory',
       ],
+      topic: 'Human Body',
       correct: 2,
     },
     {
@@ -27,6 +28,7 @@ export default {
         'person not sweating on a 100°F day',
         'response to a chickenpox vaccination',
       ],
+      topic: 'Human Body',
       correct: 3,
     },
     {
@@ -38,6 +40,7 @@ export default {
         'sexual reproduction',
         'changes in gametes',
       ],
+      topic: 'Reproduction',
       correct: 0,
     },
     {
@@ -49,6 +52,7 @@ export default {
         'Woodpeckers peck holes in the trunks of trees to find insects for food.',
         'Deer eat tree bark in winter when other food is scarce.',
       ],
+      topic: 'Ecology',
       correct: 0,
     },
     {
@@ -60,6 +64,7 @@ export default {
         'genetic engineering',
         'selective breeding',
       ],
+      topic: 'Genetics',
       correct: 2,
     },
     {
@@ -71,6 +76,7 @@ export default {
         'eat the same food',
         'require an input of solar energy',
       ],
+      topic: 'Ecology',
       correct: 1,
     },
     {
@@ -82,6 +88,7 @@ export default {
         'Ribosomes regulate which materials enter and leave the cell.',
         'Vacuoles transfer genetic information from one cell to another.',
       ],
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -93,6 +100,7 @@ export default {
         'genetic engineering to modify specific genes',
         'ecological succession due to random mutation',
       ],
+      topic: 'Genetics',
       correct: 1,
     },
     {
@@ -104,6 +112,7 @@ export default {
         'Stomach cells receive half their genetic information from each parent.',
         'Skin and stomach cells have completely different genes.',
       ],
+      topic: 'Genetics',
       correct: 0,
     },
     {
@@ -115,6 +124,7 @@ export default {
         'meiosis and recombination',
         'sexual reproduction and cloning',
       ],
+      topic: 'Reproduction',
       correct: 2,
     },
     {
@@ -126,6 +136,7 @@ export default {
         'the food available for zebra mussels has decreased, reducing their rate of photosynthesis',
         'a lack of natural predators and disease-causing organisms in their new environment',
       ],
+      topic: 'Ecology',
       correct: 0,
     },
     {
@@ -138,6 +149,7 @@ export default {
         'Roadrunners are carnivores that feed on insects.',
         'Grasses are producers that are eaten by lizards.',
       ],
+      topic: 'Ecology',
       correct: 2,
     },
     {
@@ -149,6 +161,7 @@ export default {
         'carbohydrate digestion',
         'enzyme synthesis',
       ],
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -160,6 +173,7 @@ export default {
         'the animals that live in that area today',
         'the fossil record of that area',
       ],
+      topic: 'Ecology',
       correct: 3,
     },
     {
@@ -171,6 +185,7 @@ export default {
         'cancer caused the body of the adults to produce antigens against it',
         'vaccine did not produce a change in the sex cells of the adults',
       ],
+      topic: 'Cell Biology',
       correct: 3,
     },
     {
@@ -182,6 +197,7 @@ export default {
         'contain more DNA than the parent',
         'grow larger than the parent',
       ],
+      topic: 'Genetics',
       correct: 1,
     },
     {
@@ -193,6 +209,7 @@ export default {
         'the females mutated during hatching, reducing their ability to grow',
         'hormones can affect gene expression',
       ],
+      topic: 'Human Body',
       correct: 3,
     },
     {
@@ -204,6 +221,7 @@ export default {
         'the failure of receptor molecules on the muscle to receive the chemical produced by nerve cells',
         'the ribosomes in the muscle cells failing to produce enough sugar for muscle contraction',
       ],
+      topic: 'Human Body',
       correct: 2,
     },
     {
@@ -215,6 +233,7 @@ export default {
         'pH of the cytoplasm',
         'size of a cell\'s nucleus',
       ],
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -226,6 +245,7 @@ export default {
         'herbivores to carnivores',
         'carnivores to autotrophs',
       ],
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -237,6 +257,7 @@ export default {
         'the normal expression of a gene for female frogs',
         'loss of genetic information for male frogs',
       ],
+      topic: 'Reproduction',
       correct: 1,
     },
     {
@@ -248,6 +269,7 @@ export default {
         'carbon dioxide molecules',
         'biological catalysts',
       ],
+      topic: 'Human Body',
       correct: 1,
     },
     {
@@ -259,6 +281,7 @@ export default {
         'Exposure to newt toxin caused a mutation in the snakes, which increased resistance to the toxin in the snakes.',
         'A random genetic mutation that resulted in toxin resistance increased the survival rates of the snakes that had it, and they passed it on to their offspring.',
       ],
+      topic: 'Genetics',
       correct: 3,
     },
     {
@@ -270,6 +293,7 @@ export default {
         'the DNA codes in the cell and the activity of ribosomes',
         'mitochondria in the cell that produce filtering organelles for the kidney',
       ],
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -281,6 +305,7 @@ export default {
         'a high level of diversity and multiple ecological niches',
         'little diversity and multiple extinctions',
       ],
+      topic: 'Ecology',
       correct: 2,
     },
     {
@@ -292,6 +317,7 @@ export default {
         'Cellular respiration uses carbon dioxide and releases oxygen, while photosynthesis uses oxygen and releases carbon dioxide.',
         'Photosynthesis and cellular respiration both use oxygen and release carbon dioxide.',
       ],
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -303,6 +329,7 @@ export default {
         'made of DNA the second pathogen doesn\'t contain',
         'specific for the shape of the proteins present on a particular pathogen',
       ],
+      topic: 'Genetics',
       correct: 3,
     },
     {
@@ -314,6 +341,7 @@ export default {
         'cloning of cells during embryonic development',
         'specialization of zygotes',
       ],
+      topic: 'Reproduction',
       correct: 0,
     },
     {
@@ -326,7 +354,9 @@ export default {
         'a feedback mechanism to control water loss',
         'genetic manipulation caused by the presence or absence of water',
       ],
+      topic: 'Genetics',
       correct: 2,
+      image: '/images/exams/le-june-2023/q29.png',
     },
     {
       number: 30, part: 'A',
@@ -337,6 +367,7 @@ export default {
         'alligators and whales share a common ancestor',
         'alligators and whales share the same genetic mutations',
       ],
+      topic: 'Genetics',
       correct: 2,
     },
 
@@ -351,6 +382,7 @@ export default {
         'due to an increase in the size of the gills bringing in more carbon dioxide',
         'the species being unable to meet the energy requirements of a larger body size',
       ],
+      topic: 'Cell Biology',
       correct: 3,
     },
     {
@@ -363,6 +395,7 @@ export default {
         'introducing foreign species, causing more competition',
         'industrialization, which releases large amounts of carbon dioxide into the atmosphere',
       ],
+      topic: 'Evolution',
       correct: 3,
     },
     {
@@ -375,7 +408,9 @@ export default {
         'The level of progesterone controls the cycle since it is always higher than the level of estrogen.',
         'After an egg is released from the ovary, the level of estrogen keeps increasing, causing the level of progesterone to decrease.',
       ],
+      topic: 'Reproduction',
       correct: 1,
+      image: '/images/exams/le-june-2023/q33.png',
     },
     {
       number: 34, part: 'B-1',
@@ -387,6 +422,7 @@ export default {
         'The percentage of the male chemical has no effect on the reproductive success of the male juncos.',
         'There is a negative relationship between the percentage of male chemical produced and the reproductive success of the male juncos.',
       ],
+      topic: 'Genetics',
       correct: 0,
     },
     {
@@ -398,6 +434,7 @@ export default {
         'unstable, because predators will migrate to nearby ecosystems, birds will nest in nearby trees, and other small animals will make burrows',
         'more stable, because the pikas will no longer be eating the grasses, the birds will migrate to other ecosystems, and small lakes will form because water will not drain without pika burrows',
       ],
+      topic: 'Ecology',
       correct: 0,
     },
     {
@@ -409,6 +446,7 @@ export default {
         'scientists often ignore evidence that does not help prove their theory',
         'hypotheses seldom change even when new discoveries are made',
       ],
+      topic: 'Genetics',
       correct: 1,
     },
     {
@@ -421,7 +459,9 @@ export default {
         'a variety of different amino acids',
         'hormones',
       ],
+      topic: 'Human Body',
       correct: 0,
+      image: '/images/exams/le-june-2023/q37.png',
     },
     {
       number: 38, part: 'B-1',
@@ -433,7 +473,9 @@ export default {
         'amino acids',
         'simple sugars',
       ],
+      topic: 'Genetics',
       correct: 3,
+      image: '/images/exams/le-june-2023/q38.png',
     },
     {
       number: 39, part: 'B-1',
@@ -444,6 +486,7 @@ export default {
         'testosterone',
         'ATP',
       ],
+      topic: 'Human Body',
       correct: 1,
     },
     {
@@ -456,7 +499,9 @@ export default {
         'twice the genetic information found in the diploid germ cell',
         'one-half of the genetic information found in the diploid germ cell',
       ],
+      topic: 'Genetics',
       correct: 3,
+      image: '/images/exams/le-june-2023/q40.png',
     },
     {
       number: 41, part: 'B-1',
@@ -467,6 +512,7 @@ export default {
         'switch to a lower magnification and add a stain to the onion root tip cells',
         'switch to a higher magnification and add salt solution to the onion root tip cells',
       ],
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -478,6 +524,7 @@ export default {
         'A plant\'s fear of herbivores increases as the plant grows older.',
         'Bacterial growth will rapidly increase as the temperature increases.',
       ],
+      topic: 'General Review',
       correct: 3,
     },
     {
@@ -489,6 +536,7 @@ export default {
         'a decrease in the amount of firewood for heating',
         'more locations for the construction of new homes',
       ],
+      topic: 'Genetics',
       correct: 0,
     },
   ],

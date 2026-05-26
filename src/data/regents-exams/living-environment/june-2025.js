@@ -16,6 +16,7 @@ export default {
         'chlorophyll and hemoglobin',
         'cytoplasm and ATP',
       ],
+      topic: 'Cell Biology',
       correct: 3,
     },
     {
@@ -27,6 +28,7 @@ export default {
         'ATP and carbon dioxide',
         'glucose and oxygen',
       ],
+      topic: 'Human Body',
       correct: 0,
     },
     {
@@ -38,6 +40,7 @@ export default {
         'large animals waste food, resulting in harm to other organisms in the ecosystem',
         'predators should consume small prey to protect the diversity of the ecosystem',
       ],
+      topic: 'Ecology',
       correct: 1,
     },
     {
@@ -49,6 +52,7 @@ export default {
         'occur only in sexually reproducing organisms',
         'may result in gene variations that provide a survival advantage',
       ],
+      topic: 'Genetics',
       correct: 3,
     },
     {
@@ -60,6 +64,7 @@ export default {
         'the migration of introduced ladybugs may affect food webs in other areas',
         'the action of ladybugs may reduce insect pest populations',
       ],
+      topic: 'Ecology',
       correct: 2,
     },
     {
@@ -71,6 +76,7 @@ export default {
         'their genes are the strongest, which will help them attract suitable mates',
         'they are less attractive and are less likely to find suitable mates',
       ],
+      topic: 'Genetics',
       correct: 0,
     },
     {
@@ -82,6 +88,7 @@ export default {
         'DNA controls the production of protein in the cell.',
         'A cell is composed entirely of DNA and protein.',
       ],
+      topic: 'Genetics',
       correct: 2,
       image: '/images/exams/le-june-2025/q7.png',
     },
@@ -94,6 +101,7 @@ export default {
         'there was a lack of predators for the new communities of organisms',
         'the original species suddenly became extinct',
       ],
+      topic: 'Human Body',
       correct: 1,
     },
     {
@@ -105,6 +113,7 @@ export default {
         'insect pest populations will increase because fewer warblers are present',
         'more warbler eggs will be hatched in Central and South America to increase the population',
       ],
+      topic: 'Ecology',
       correct: 2,
       image: '/images/exams/le-june-2025/q9.png',
     },
@@ -117,6 +126,7 @@ export default {
         'maintain their own internal stability',
         'depend on physical conditions for survival',
       ],
+      topic: 'Ecology',
       correct: 0,
     },
     {
@@ -128,6 +138,7 @@ export default {
         'asexual reproduction, and the new plants develop by meiosis and fertilization',
         'sexual reproduction, and the new plants develop by mitosis and differentiation',
       ],
+      topic: 'Reproduction',
       correct: 0,
     },
     {
@@ -139,6 +150,7 @@ export default {
         'the temperature and pH of the water',
         'the size and number of fish species',
       ],
+      topic: 'Ecology',
       correct: 2,
     },
     {
@@ -150,6 +162,7 @@ export default {
         'It is an example of parental care for the survival of their offspring.',
         'The discovery confirms that spiders provide mammal milk to their offspring.',
       ],
+      topic: 'Genetics',
       correct: 2,
       image: '/images/exams/le-june-2025/q13.png',
     },
@@ -162,6 +175,7 @@ export default {
         'decreasing the number of car sales, since electric cars are more expensive than gasoline-powered cars',
         'decreasing the consumption of fossil fuels, since only renewable energy sources can be used to generate electricity',
       ],
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -173,6 +187,7 @@ export default {
         'The offspring have cells that contain DNA found only in the female lizard.',
         'The offspring are genetically identical to each other and the female lizard.',
       ],
+      topic: 'Genetics',
       correct: 2,
     },
     {
@@ -184,6 +199,7 @@ export default {
         'movement, reproduction, and nutrition',
         'coordination, immunity, and movement',
       ],
+      topic: 'Reproduction',
       correct: 1,
     },
     {
@@ -195,6 +211,7 @@ export default {
         'cause a mild case of the disease, preventing the immune system from responding to future infections',
         'stimulate the production of antibodies that can be produced in response to an infection',
       ],
+      topic: 'Human Body',
       correct: 3,
     },
     {
@@ -206,6 +223,7 @@ export default {
         'Amino acids and simple sugars are used as building blocks in the synthesis of organic compounds.',
         'Amino acids can enter cells, and simple sugars cannot enter cells.',
       ],
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -217,6 +235,7 @@ export default {
         'the broken proteins will not interact with other molecules correctly',
         'the broken chains will attack the ribosomes of the cell and shut them down',
       ],
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -228,6 +247,7 @@ export default {
         'synthesized by the cell membrane',
         'influenced by pH',
       ],
+      topic: 'Cell Biology',
       correct: 3,
     },
     {
@@ -239,6 +259,7 @@ export default {
         'replication',
         'mitosis',
       ],
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -250,6 +271,7 @@ export default {
         'Row 3: Chloroplast uses oxygen as it functions / Mitochondrion makes oxygen as it functions',
         'Row 4: Chloroplast uses oxygen as an energy source / Mitochondrion uses carbon dioxide as an energy source',
       ],
+      topic: 'Cell Biology',
       correct: 1,
       image: '/images/exams/le-june-2025/q22.png',
     },
@@ -263,6 +285,7 @@ export default {
         'increase in atmospheric changes',
         'increase in industrialization',
       ],
+      topic: 'Cell Biology',
       correct: 3,
       image: '/images/exams/le-june-2025/q23.png',
     },
@@ -275,6 +298,7 @@ export default {
         'allow differentiation to occur',
         'interfere with fertilization',
       ],
+      topic: 'Reproduction',
       correct: 0,
     },
     {
@@ -286,6 +310,7 @@ export default {
         'producers directly regulate the number of predators in a community',
         'consumers influence the physical factors in the predator\'s ecosystem',
       ],
+      topic: 'Ecology',
       correct: 1,
     },
     {
@@ -297,6 +322,7 @@ export default {
         'pH of the cytoplasm',
         'size of a cell nucleus',
       ],
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -308,6 +334,7 @@ export default {
         'release oxygen, which is necessary for photosynthesis',
         'produce ATP molecules used for cellular processes',
       ],
+      topic: 'Cell Biology',
       correct: 3,
     },
     {
@@ -319,6 +346,7 @@ export default {
         'breed only dogs with the desired traits to produce puppies',
         'use asexual reproduction to breed dogs with a variety of traits',
       ],
+      topic: 'Genetics',
       correct: 2,
     },
     {
@@ -330,6 +358,7 @@ export default {
         'pathogenic viruses',
         'transplanted organs',
       ],
+      topic: 'Human Body',
       correct: 3,
     },
     {
@@ -341,6 +370,7 @@ export default {
         'result in the offspring having immunity to skin cancer',
         'help their offspring better adapt to skin cancer in sunnier climates',
       ],
+      topic: 'Genetics',
       correct: 1,
     },
 
@@ -355,6 +385,7 @@ export default {
         'nitrogen-fixing bacteria',
         'denitrifying bacteria',
       ],
+      topic: 'General Review',
       correct: 2,
       image: '/images/exams/le-june-2025/q31.png',
     },
@@ -368,6 +399,7 @@ export default {
         'aerobic bacteria and anaerobic bacteria',
         'denitrifying bacteria and nitrogen-fixing bacteria in the soil',
       ],
+      topic: 'Human Body',
       correct: 3,
       image: '/images/exams/le-june-2025/q32.png',
     },
@@ -381,6 +413,7 @@ export default {
         'water (H₂O) and oxygen (O₂)',
         'glucose (C₆H₁₂O₆) and oxygen (O₂)',
       ],
+      topic: 'Genetics',
       correct: 0,
       image: '/images/exams/le-june-2025/q33.png',
     },
@@ -394,6 +427,7 @@ export default {
         'a decrease in the carrying capacity for plants',
         'an increase in activity of the nitrifying bacteria',
       ],
+      topic: 'Ecology',
       correct: 2,
       image: '/images/exams/le-june-2025/q34.png',
     },
@@ -407,6 +441,7 @@ export default {
         'The data do not support the hypothesis because crickets with the mutation had more fly larvae.',
         'The data do not support the hypothesis because crickets with the mutation had a smaller percentage of survivors.',
       ],
+      topic: 'Genetics',
       correct: 0,
       image: '/images/exams/le-june-2025/q35.png',
     },
@@ -420,6 +455,7 @@ export default {
         'The number of crickets with the mutation will increase because the trait gives them an advantage.',
         'The number of crickets with the mutation will increase because the trait is a disadvantage.',
       ],
+      topic: 'Genetics',
       correct: 2,
       image: '/images/exams/le-june-2025/q36.png',
     },
@@ -433,6 +469,7 @@ export default {
         'Plants in B are growing the most rapidly. A temperature of 17°C will not harm them.',
         'Plants in B will survive and will grow faster at the cooler temperature.',
       ],
+      topic: 'General Review',
       correct: 0,
     },
     {
@@ -444,6 +481,7 @@ export default {
         'a human action that inadvertently could alter the equilibrium in an ecosystem',
         'the release of a substance that could result in a rapid growth of the sea otter population',
       ],
+      topic: 'Ecology',
       correct: 2,
     },
     {
@@ -456,6 +494,7 @@ export default {
         'determine if high soil concentration of other metals, such as iron, causes learning difficulties in children',
         'determine if there is a correlation between high levels of lead in the soil and in the blood of children with learning disabilities',
       ],
+      topic: 'Cell Biology',
       correct: 3,
       image: '/images/exams/le-june-2025/q39.png',
     },
@@ -469,6 +508,7 @@ export default {
         'Have their children attend school in a different part of the community where lead levels are lower.',
         'Provide their family physician with information about any genetic disorders in the family.',
       ],
+      topic: 'Genetics',
       correct: 1,
       image: '/images/exams/le-june-2025/q40.png',
     },
@@ -481,6 +521,7 @@ export default {
         'have exceeded their carrying capacity in the Arctic',
         'have caused more soil to freeze during the winter months',
       ],
+      topic: 'Ecology',
       correct: 0,
       image: '/images/exams/le-june-2025/q41.png',
     },
@@ -494,6 +535,7 @@ export default {
         'Fall is the only time of the year male and female deer are in the same locations.',
         'Large deer predators move to cooler locations during the hot summer months.',
       ],
+      topic: 'Genetics',
       correct: 0,
       image: '/images/exams/le-june-2025/q42.png',
     },
@@ -507,6 +549,7 @@ export default {
         'a failure of glucose to leave the cells',
         'an increase in glucose in the bloodstream',
       ],
+      topic: 'Human Body',
       correct: 3,
     },
   ],
