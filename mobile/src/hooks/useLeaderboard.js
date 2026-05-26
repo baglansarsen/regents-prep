@@ -22,7 +22,7 @@ export function useLeaderboard(uid) {
       if (schoolName) {
         const snap = await getDocs(
           query(
-            collection(db, 'users'),
+            collection(db, 'leaderboard'),
             where('school', '==', schoolName),
             orderBy('xp', 'desc'),
             limit(25)

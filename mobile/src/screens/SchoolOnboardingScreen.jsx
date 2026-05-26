@@ -42,6 +42,8 @@ export default function SchoolOnboardingScreen({ navigation }) {
         district: school.district,
         setAt: serverTimestamp(),
       })
+      // Mirror school name to leaderboard doc so the school leaderboard query works
+      await setDoc(doc(db, 'leaderboard', user.uid), { school: school.name }, { merge: true })
       // Navigation is handled by onAuthStateChanged → AppNavigator shows tabs
     } catch (e) {
       Alert.alert('Error', e.message)
