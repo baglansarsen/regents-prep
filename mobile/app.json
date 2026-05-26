@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "Regents Prep",
-    "slug": "regents-prep",
+    "name": "Regentify",
+    "slug": "regentify",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "scheme": "regentsprep",
+    "scheme": "regentify",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -15,7 +15,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "org.csasyracuse.regents",
+      "bundleIdentifier": "com.regentify.app",
       "infoPlist": {
         "NSCameraUsageDescription": "Used for profile photos",
         "NSPhotoLibraryUsageDescription": "Used for profile photos"
@@ -27,7 +27,7 @@
         "backgroundColor": "#0f172a"
       },
       "edgeToEdgeEnabled": true,
-      "package": "org.csasyracuse.regents",
+      "package": "com.regentify.app",
       "googleServicesFile": "./google-services.json"
     },
     "web": {
@@ -41,6 +41,14 @@
           "backgroundColor": "#0f172a",
           "image": "./assets/splash-icon.png",
           "imageWidth": 200
+        }
+      ],
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-2023523440912350~8962352450",
+          "iosAppId": "ca-app-pub-2023523440912350~8962352450",
+          "skAdNetworkItems": []
         }
       ]
     ],
