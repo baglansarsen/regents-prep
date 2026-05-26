@@ -3,18 +3,20 @@ import {
   View, Text, TouchableOpacity, ScrollView, Image,
   StyleSheet, Alert,
 } from 'react-native'
-import { SafeAreaView } from 'react-native-safe-area-context'
+import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useXP } from '../hooks/useXP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
+import { appendMistakes } from '../hooks/useMistakes'
 
 const EXAM_MINUTES = 85
-const CDN_BASE = 'https://regents-csas.web.app/images/exams'
+const CDN_BASE = 'https://regents-csas.web.app'
 
 export default function ExamScreen({ route, navigation }) {
   const { exam, questions, subject } = route.params
   const { C } = useTheme()
+  const insets = useSafeAreaInsets()
   const { user } = useAuthContext()
   const uid = user?.uid
   const { earnXP } = useXP(uid)
@@ -26,12 +28,16 @@ export default function ExamScreen({ route, navigation }) {
   const [phase,      setPhase]      = useState('test') // 'test' | 'review'
   const [timeLeft,   setTimeLeft]   = useState(EXAM_MINUTES * 60)
   const timerRef = useRef(null)
+  const submitRef = useRef(null)
   const s = makeStyles(C)
+
+  // Keep submitRef current so the timer always calls the latest submit closure
+  useEffect(() => { submitRef.current = submit })
 
   useEffect(() => {
     timerRef.current = setInterval(() => {
       setTimeLeft((t) => {
-        if (t <= 1) { clearInterval(timerRef.current); submit(); return 0 }
+        if (t <= 1) { clearInterval(timerRef.current); submitRef.current(); return 0 }
         return t - 1
       })
     }, 1000)
@@ -44,6 +50,11 @@ export default function ExamScreen({ route, navigation }) {
     const xp = correct * 5
     earnXP(xp)
     markStudied()
+
+    // Persist wrong answers for "Practice Mistakes" mode
+    const wrongQs = questions.filter((q, i) => answers[i] !== (q.correct ?? q.correctIndex))
+    appendMistakes(wrongQs, exam.subject)
+
     navigation.replace('ExamResults', {
       exam, questions, answers: { ...answers }, correct, total: questions.length, xpEarned: xp,
     })
@@ -69,16 +80,13 @@ export default function ExamScreen({ route, navigation }) {
   const secs = String(timeLeft % 60).padStart(2, '0')
   const timerColor = timeLeft < 300 ? C.wrong : timeLeft < 600 ? C.warn : C.text
 
-  // Build CDN image URL if question has an image reference
-  const imgKey = exam.id.replace('le-', 'le-').replace('es-', 'es-')
-  const imageUrl = q.imageFile
-    ? `${CDN_BASE}/${imgKey}/q${q.number ?? currentIdx + 1}.png`
-    : null
+  // q.image is a relative path like /images/exams/es-june-2025/q2.png
+  const imageUrl = q.image ? `${CDN_BASE}${q.image}` : null
 
   return (
-    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+    <View style={s.safe}>
       {/* Top bar */}
-      <View style={s.topBar}>
+      <View style={[s.topBar, { paddingTop: insets.top + 8 }]}>
         <TouchableOpacity onPress={() => Alert.alert('Exit?', 'Progress will be lost.', [
           { text: 'Stay', style: 'cancel' },
           { text: 'Exit', style: 'destructive', onPress: () => navigation.goBack() },
@@ -151,7 +159,7 @@ export default function ExamScreen({ route, navigation }) {
       </ScrollView>
 
       {/* Bottom nav */}
-      <View style={s.bottomNav}>
+      <View style={[s.bottomNav, { paddingBottom: insets.bottom + 8 }]}>
         <TouchableOpacity
           style={[s.navBtn, { opacity: currentIdx === 0 ? 0.3 : 1 }]}
           onPress={() => setCurrentIdx((i) => Math.max(0, i - 1))}
@@ -168,14 +176,14 @@ export default function ExamScreen({ route, navigation }) {
           <Text style={s.navBtnText}>Next →</Text>
         </TouchableOpacity>
       </View>
-    </SafeAreaView>
+    </View>
   )
 }
 
 function makeStyles(C) {
   return StyleSheet.create({
     safe:         { flex: 1, backgroundColor: C.bg },
-    topBar:       { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', padding: 16 },
+    topBar:       { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingHorizontal: 16, paddingBottom: 12 },
     exitBtn:      { fontSize: 18, color: C.textMuted, padding: 4 },
     timer:        { fontSize: 20, fontWeight: '900' },
     submitBtn:    { backgroundColor: C.brand, borderRadius: 10, paddingHorizontal: 16, paddingVertical: 8 },
@@ -197,7 +205,7 @@ function makeStyles(C) {
     choiceSelected:{ borderColor: C.brand, backgroundColor: C.brandBg },
     choiceLetter: { fontSize: 14, fontWeight: '800', color: C.textMuted, width: 20 },
     choiceText:   { flex: 1, fontSize: 15, color: C.text, lineHeight: 21 },
-    bottomNav:    { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', padding: 16, borderTopWidth: 1, borderTopColor: C.border },
+    bottomNav:    { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingHorizontal: 16, paddingTop: 12, borderTopWidth: 1, borderTopColor: C.border },
     navBtn:       { backgroundColor: C.surface, borderRadius: 10, paddingHorizontal: 20, paddingVertical: 10, borderWidth: 1, borderColor: C.border },
     navBtnText:   { color: C.text, fontWeight: '700', fontSize: 14 },
     answeredCount:{ fontSize: 13, color: C.textMuted },
