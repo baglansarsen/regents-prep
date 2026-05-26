@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useRef } from 'react'
+import React, { useMemo, useState, useRef, useCallback } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, StyleSheet,
   Dimensions, Alert, Animated,
@@ -15,6 +15,7 @@ import { useDailyGoal } from '../hooks/useDailyGoal'
 import { useMistakes } from '../hooks/useMistakes'
 import { useLessonProgress } from '../hooks/useLessonProgress'
 import { useUnitUnlocks } from '../hooks/useUnitUnlocks'
+import { useFocusEffect } from '@react-navigation/native'
 import { SUBJECTS } from '../../../src/data/subjects'
 import * as leData from '../../../src/data/living-environment/index'
 import * as esData from '../../../src/data/earth-science/index'
@@ -46,7 +47,8 @@ export default function HomeScreen({ navigation }) {
 
   const { lessonComplete, unitLessonsCompleted } = useLessonProgress(subjectHistory)
   const units = sd.UNITS ?? []
-  const { isUnitUnlocked, unitUnlockHint } = useUnitUnlocks(units, lessonComplete)
+  const { isUnitUnlocked, unitUnlockHint, reloadSkipUnlocks } = useUnitUnlocks(units, lessonComplete, subject)
+  useFocusEffect(useCallback(() => { reloadSkipUnlocks() }, [reloadSkipUnlocks]))
 
   const { goal, setGoal, todayXP, progress: goalProgress, goalMet, GOALS } = useDailyGoal(xp)
   const { mistakes, mistakeCount } = useMistakes()
@@ -129,6 +131,22 @@ export default function HomeScreen({ navigation }) {
 
   function startFlashcards(topic) {
     closeSheet(() => navigation.navigate('Flashcards', { topic, subject }))
+  }
+
+  function startStudy(topic) {
+    const pool = topic ? sd.getByTopic(topic) : sd.questions
+    closeSheet(() => navigation.navigate('Study', { questionSet: pool, subject }))
+  }
+
+  function startSkipChallenge(unit, unitIdx) {
+    const pool = sd.getByTopic(unit.topic).sort(() => Math.random() - 0.5).slice(0, 15)
+    const prev = units[unitIdx - 1]
+    navigation.navigate('SkipChallenge', {
+      topic: unit.topic,
+      prereqTopic: prev?.topic ?? unit.topic,
+      questions: pool,
+      subject,
+    })
   }
 
   function startPracticeMistakes() {
@@ -364,7 +382,14 @@ export default function HomeScreen({ navigation }) {
                   activeOpacity={lessonLocked ? 1 : 0.8}
                   onPress={() => {
                     if (unitLocked) {
-                      Alert.alert('🔒 Unit Locked', unitUnlockHint(unitIdx) ?? 'Complete the previous unit to unlock.')
+                      Alert.alert(
+                        '🔒 Unit Locked',
+                        unitUnlockHint(unitIdx) ?? 'Complete the previous unit to unlock.',
+                        [
+                          { text: 'Dismiss', style: 'cancel' },
+                          { text: '⚡ Skip Challenge', onPress: () => startSkipChallenge(unit, unitIdx) },
+                        ]
+                      )
                     } else if (lessonLocked) {
                       Alert.alert('🔒 Lesson Locked', 'Complete the previous lesson to unlock this one.')
                     } else {
@@ -448,6 +473,12 @@ export default function HomeScreen({ navigation }) {
               onPress={() => startFlashcards(sheetUnit?.topic)}
             >
               <Text style={[T.btn, { color: C.text }]}>🃏 CARDS</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={duoBtnOutline(C.border, { flex: 1, paddingVertical: 14 })}
+              onPress={() => startStudy(sheetUnit?.topic)}
+            >
+              <Text style={[T.btn, { color: C.text }]}>📖 STUDY</Text>
             </TouchableOpacity>
           </View>
         </Animated.View>

@@ -5,6 +5,7 @@ import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useXP } from '../hooks/useXP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
+import { useDoubleXP } from '../context/DoubleXPContext'
 
 const ROUND_SECONDS = 60
 const BASE_POINTS   = 50
@@ -23,6 +24,7 @@ export default function SpeedRoundScreen({ route, navigation }) {
   const uid = user?.uid
   const { earnXP } = useXP(uid)
   const { markStudied } = useDailyStreak(uid)
+  const { xpMultiplier } = useDoubleXP()
 
   const [index,     setIndex]     = useState(0)
   const [score,     setScore]     = useState(0)
@@ -76,7 +78,7 @@ export default function SpeedRoundScreen({ route, navigation }) {
   function endRound() {
     clearInterval(timerRef.current)
     setPhase('done')
-    earnXP(correct * 10)
+    earnXP(correct * 10, xpMultiplier)
     markStudied()
   }
 

@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { doc, getDoc, setDoc, increment } from 'firebase/firestore'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { db } from '../firebase'
@@ -23,32 +23,103 @@ export function getLevel(xp) {
   return { ...current, next, progress }
 }
 
+// ISO 8601 week key: "2026-W21" — resets every Monday
+export function getWeekKey() {
+  const d = new Date()
+  const utc = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()))
+  const day = utc.getUTCDay() || 7          // make Sunday = 7
+  utc.setUTCDate(utc.getUTCDate() + 4 - day) // shift to Thursday of this ISO week
+  const yearStart = new Date(Date.UTC(utc.getUTCFullYear(), 0, 1))
+  const week = Math.ceil((((utc - yearStart) / 86_400_000) + 1) / 7)
+  return `${utc.getUTCFullYear()}-W${String(week).padStart(2, '0')}`
+}
+
 export function useXP(uid) {
-  const [xp, setXP]         = useState(0)
-  const [loaded, setLoaded] = useState(false)
+  const [xp,        setXP]       = useState(0)
+  const [weeklyXP,  setWeeklyXP] = useState(0)
+  const [loaded,    setLoaded]   = useState(false)
+
+  // Ref mirrors weeklyXP so earnXP closure never goes stale
+  const weeklyXPRef = useRef(0)
+  function _setWeeklyXP(v) { weeklyXPRef.current = v; setWeeklyXP(v) }
 
   useEffect(() => {
     if (!uid) return
-    getDoc(doc(db, 'users', uid, 'meta', 'xp'))
-      .then((snap) => {
-        if (snap.exists()) setXP(snap.data().total ?? 0)
-        setLoaded(true)
-      })
-      .catch(async () => {
+    ;(async () => {
+      try {
+        // Load total XP
+        const xpSnap = await getDoc(doc(db, 'users', uid, 'meta', 'xp'))
+        if (xpSnap.exists()) setXP(xpSnap.data().total ?? 0)
+
+        // Load weekly XP (reset to 0 if it belongs to a past week)
+        const wSnap = await getDoc(doc(db, 'users', uid, 'meta', 'weeklyXP'))
+        if (wSnap.exists()) {
+          const data = wSnap.data()
+          const wXP  = data.weekKey === getWeekKey() ? (data.xp ?? 0) : 0
+          _setWeeklyXP(wXP)
+        }
+      } catch {
         try {
           const raw = await AsyncStorage.getItem(AS_KEY)
           setXP(Number(raw) || 0)
         } catch {}
-        setLoaded(true)
-      })
+      }
+      setLoaded(true)
+    })()
   }, [uid])
 
-  const earnXP = useCallback(async (amount) => {
+  const earnXP = useCallback(async (amount, multiplier = 1) => {
     if (!uid || amount <= 0) return
-    const next = xp + amount
-    setXP(next)
-    try { await setDoc(doc(db, 'users', uid, 'meta', 'xp'), { total: increment(amount) }, { merge: true }) } catch {}
-    try { await AsyncStorage.setItem(AS_KEY, String(next)) } catch {}
+    const earned = Math.round(amount * Math.max(1, multiplier))
+
+    const prevWeeklyXP = weeklyXPRef.current   // snapshot BEFORE optimistic update
+    const nextTotal    = xp + earned
+    setXP(nextTotal)
+
+    const week = getWeekKey()
+    _setWeeklyXP(prevWeeklyXP + earned)        // optimistic
+
+    // ── Persist total ────────────────────────────────────────────────────────
+    try {
+      await setDoc(doc(db, 'users', uid, 'meta', 'xp'), { total: increment(earned) }, { merge: true })
+    } catch {}
+
+    // ── Persist weekly (reset on new week) — capture last-week snapshot ──────
+    let isNewWeek   = false
+    let lastWeekXP  = null
+    let lastWeekKey = null
+    try {
+      const wSnap = await getDoc(doc(db, 'users', uid, 'meta', 'weeklyXP'))
+      isNewWeek = !wSnap.exists() || wSnap.data().weekKey !== week
+      if (isNewWeek) {
+        // Save previous week's total before resetting
+        if (wSnap.exists() && wSnap.data().weekKey) {
+          lastWeekXP  = wSnap.data().xp  ?? 0
+          lastWeekKey = wSnap.data().weekKey
+        }
+        await setDoc(doc(db, 'users', uid, 'meta', 'weeklyXP'), { weekKey: week, xp: earned })
+        _setWeeklyXP(earned)          // correct the optimistic update
+      } else {
+        await setDoc(doc(db, 'users', uid, 'meta', 'weeklyXP'), { weekKey: week, xp: increment(earned) }, { merge: true })
+      }
+    } catch {}
+
+    // ── Sync to public leaderboard ────────────────────────────────────────────
+    try {
+      const lbUpdate = {
+        xp:       nextTotal,
+        weeklyXP: isNewWeek ? earned : (prevWeeklyXP + earned),
+        weekKey:  week,
+      }
+      // On new-week: snapshot last week so useLeague can compute promotions
+      if (lastWeekXP !== null) {
+        lbUpdate.lastWeekXP  = lastWeekXP
+        lbUpdate.lastWeekKey = lastWeekKey
+      }
+      await setDoc(doc(db, 'leaderboard', uid), lbUpdate, { merge: true })
+    } catch {}
+
+    try { await AsyncStorage.setItem(AS_KEY, String(nextTotal)) } catch {}
   }, [uid, xp])
 
   const spendXP = useCallback(async (amount) => {
@@ -56,9 +127,10 @@ export function useXP(uid) {
     const next = xp - amount
     setXP(next)
     try { await setDoc(doc(db, 'users', uid, 'meta', 'xp'), { total: increment(-amount) }, { merge: true }) } catch {}
+    try { await setDoc(doc(db, 'leaderboard', uid), { xp: next }, { merge: true }) } catch {}
     try { await AsyncStorage.setItem(AS_KEY, String(next)) } catch {}
     return true
   }, [uid, xp])
 
-  return { xp, earnXP, spendXP, loaded, level: getLevel(xp) }
+  return { xp, weeklyXP, earnXP, spendXP, loaded, level: getLevel(xp) }
 }
