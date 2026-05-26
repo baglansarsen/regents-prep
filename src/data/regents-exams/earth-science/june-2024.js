@@ -117,6 +117,7 @@ export default {
         'D',
       ],
       correct: 3,
+      image: '/images/exams/es-june-2024/q9.png',
     },
     {
       number: 10,
@@ -238,6 +239,7 @@ export default {
         'Tuesday at 6:00 p.m.',
       ],
       correct: 1,
+      image: '/images/exams/es-june-2024/q19.png',
     },
     {
       number: 20,
@@ -250,6 +252,7 @@ export default {
         'steep slopes',
       ],
       correct: 0,
+      image: '/images/exams/es-june-2024/q20.png',
     },
     {
       number: 21,
@@ -298,6 +301,7 @@ export default {
         '458 million years ago',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2024/q24.png',
     },
     {
       number: 25,
@@ -397,6 +401,7 @@ export default {
         'map showing streams flowing in a parallel pattern down one side',
       ],
       correct: 2,
+      image: '/images/exams/es-june-2024/q32.png',
     },
     {
       number: 33,

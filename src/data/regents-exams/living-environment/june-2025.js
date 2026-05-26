@@ -39,7 +39,6 @@ export default {
         'predators should consume small prey to protect the diversity of the ecosystem',
       ],
       correct: 1,
-      image: '/images/exams/le-june-2025/q3.png',
     },
     {
       number: 4, part: 'A',
@@ -84,6 +83,7 @@ export default {
         'A cell is composed entirely of DNA and protein.',
       ],
       correct: 2,
+      image: '/images/exams/le-june-2025/q7.png',
     },
     {
       number: 8, part: 'A',
@@ -95,7 +95,6 @@ export default {
         'the original species suddenly became extinct',
       ],
       correct: 1,
-      image: '/images/exams/le-june-2025/q8.png',
     },
     {
       number: 9, part: 'A',

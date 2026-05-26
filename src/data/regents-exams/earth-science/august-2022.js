@@ -52,6 +52,7 @@ export default {
         '6 hours',
       ],
       correct: 0,
+      image: '/images/exams/es-august-2022/q4.png',
     },
     {
       number: 5, part: 'A',
@@ -289,6 +290,7 @@ export default {
         'underlying bedrock structure',
       ],
       correct: 3,
+      image: '/images/exams/es-august-2022/q25.png',
     },
     {
       number: 26, part: 'A',
@@ -390,6 +392,7 @@ export default {
         'Rock salt: melts ice; Rock gypsum: plaster of paris',
       ],
       correct: 3,
+      image: '/images/exams/es-august-2022/q34.png',
     },
     {
       number: 35, part: 'A',
@@ -401,6 +404,7 @@ export default {
         'cementation',
       ],
       correct: 0,
+      image: '/images/exams/es-august-2022/q35.png',
     },
 
     // Part B-1

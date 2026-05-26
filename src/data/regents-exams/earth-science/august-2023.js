@@ -31,6 +31,7 @@ export default {
         'a comet',
       ],
       correct: 3,
+      image: '/images/exams/es-august-2023/q2.png',
     },
     {
       number: 3,
@@ -55,7 +56,6 @@ export default {
         'movement of air in a straight path from low pressure to high pressure',
       ],
       correct: 2,
-      image: '/images/exams/es-august-2023/q4.png',
     },
     {
       number: 5,
@@ -105,6 +105,7 @@ export default {
         'A waxing gibbous Moon',
       ],
       correct: 0,
+      image: '/images/exams/es-august-2023/q8.png',
     },
     {
       number: 9,
@@ -117,6 +118,7 @@ export default {
         'Graph showing approximately 90% coverage',
       ],
       correct: 2,
+      image: '/images/exams/es-august-2023/q9.png',
     },
     {
       number: 10,
@@ -129,6 +131,7 @@ export default {
         'Polaris at approximately 44° altitude above the south horizon',
       ],
       correct: 3,
+      image: '/images/exams/es-august-2023/q10.png',
     },
     {
       number: 11,
@@ -153,6 +156,7 @@ export default {
         '4',
       ],
       correct: 3,
+      image: '/images/exams/es-august-2023/q12.png',
     },
     {
       number: 13,
@@ -218,6 +222,7 @@ export default {
         'Stationary front symbol with cold and warm air on opposite sides',
       ],
       correct: 1,
+      image: '/images/exams/es-august-2023/q17.png',
     },
     {
       number: 18,
@@ -278,6 +283,7 @@ export default {
         '75%',
       ],
       correct: 2,
+      image: '/images/exams/es-august-2023/q22.png',
     },
     {
       number: 23,
@@ -314,6 +320,7 @@ export default {
         'metamorphism',
       ],
       correct: 3,
+      image: '/images/exams/es-august-2023/q25.png',
     },
     {
       number: 26,
@@ -351,6 +358,7 @@ export default {
         'Average annual air temperature first increases then decreases as urbanization increases',
       ],
       correct: 0,
+      image: '/images/exams/es-august-2023/q28.png',
     },
     {
       number: 29,
@@ -427,6 +435,7 @@ export default {
         'Region A: plateau, arid; Region B: plateau, humid',
       ],
       correct: 2,
+      image: '/images/exams/es-august-2023/q34.png',
     },
     {
       number: 35,
@@ -439,6 +448,7 @@ export default {
         'sand dunes',
       ],
       correct: 2,
+      image: '/images/exams/es-august-2023/q35.png',
     },
     // Part B-1
     {

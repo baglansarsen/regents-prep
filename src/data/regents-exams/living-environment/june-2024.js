@@ -250,6 +250,7 @@ export default {
         'a body system regulating hormone production',
       ],
       correct: 0,
+      image: '/images/exams/le-june-2024/q20.png',
     },
     {
       number: 21,

@@ -67,6 +67,7 @@ export default {
         '4 p.m.',
       ],
       correct: 0,
+      image: '/images/exams/es-june-2025/q5.png',
     },
     {
       number: 6,
@@ -79,7 +80,6 @@ export default {
         'Orion revolves around Earth',
       ],
       correct: 1,
-      image: '/images/exams/es-june-2025/q6.png',
     },
     {
       number: 7,
@@ -116,7 +116,6 @@ export default {
         'increase then decrease',
       ],
       correct: 1,
-      image: '/images/exams/es-june-2025/q9.png',
     },
     {
       number: 10,
@@ -351,6 +350,7 @@ export default {
         'pyrite',
       ],
       correct: 3,
+      image: '/images/exams/es-june-2025/q28.png',
     },
     {
       number: 29,
@@ -454,7 +454,6 @@ export default {
         '365 days',
       ],
       correct: 2,
-      image: '/images/exams/es-june-2025/q36.png',
     },
     {
       number: 37,
@@ -467,7 +466,6 @@ export default {
         'Antarctic Circle',
       ],
       correct: 2,
-      image: '/images/exams/es-june-2025/q37.png',
     },
     {
       number: 38,
@@ -480,7 +478,6 @@ export default {
         'cooler and winter would become warmer',
       ],
       correct: 1,
-      image: '/images/exams/es-june-2025/q38.png',
     },
     {
       number: 39,
@@ -519,7 +516,7 @@ export default {
         '02:35:00 p.m.',
       ],
       correct: 1,
-      image: '/images/exams/es-june-2025/q41.png',
+      image: '/images/exams/es-june-2025/q42.png',
     },
     {
       number: 42,
@@ -545,7 +542,6 @@ export default {
         'Many types have lived in the past and are now extinct.',
       ],
       correct: 3,
-      image: '/images/exams/es-june-2025/q43.png',
     },
     {
       number: 44,
@@ -558,7 +554,6 @@ export default {
         'eurypterids and gastropods',
       ],
       correct: 1,
-      image: '/images/exams/es-june-2025/q44.png',
     },
     {
       number: 45,
@@ -571,7 +566,6 @@ export default {
         'Terebratulida',
       ],
       correct: 2,
-      image: '/images/exams/es-june-2025/q45.png',
     },
     {
       number: 46,
@@ -584,7 +578,6 @@ export default {
         'greater due to Hilo receiving winds containing more moisture',
       ],
       correct: 3,
-      image: '/images/exams/es-june-2025/q46.png',
     },
     {
       number: 47,
@@ -597,7 +590,6 @@ export default {
         'gamma rays',
       ],
       correct: 2,
-      image: '/images/exams/es-june-2025/q47.png',
     },
     {
       number: 48,
@@ -610,7 +602,6 @@ export default {
         'receives less insolation',
       ],
       correct: 1,
-      image: '/images/exams/es-june-2025/q48.png',
     },
     {
       number: 49,
@@ -623,7 +614,7 @@ export default {
         'increased groundwater in zone D, raising the water table',
       ],
       correct: 3,
-      image: '/images/exams/es-june-2025/q49.png',
+      image: '/images/exams/es-june-2025/q48.png',
     },
     {
       number: 50,
@@ -636,7 +627,7 @@ export default {
         'radiation',
       ],
       correct: 0,
-      image: '/images/exams/es-june-2025/q50.png',
+      image: '/images/exams/es-june-2025/q48.png',
     },
   ],
 }
