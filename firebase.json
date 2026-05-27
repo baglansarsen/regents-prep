@@ -2,6 +2,23 @@
   "firestore": {
     "rules": "firestore.rules"
   },
+  "auth": {
+    "providers": {
+      "anonymous": {
+        "enabled": true
+      },
+      "emailPassword": {
+        "enabled": true,
+        "emailVerificationRequired": false,
+        "passwordRequired": true
+      },
+      "googleSignIn": {
+        "enabled": true,
+        "oAuthBrandDisplayName": "Regents Prep",
+        "supportEmail": "baglan.sarsen@gmail.com"
+      }
+    }
+  },
   "hosting": {
     "target": "regents",
     "public": "dist",

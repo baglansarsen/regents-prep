@@ -1,5 +1,5 @@
 import { initializeApp } from 'firebase/app'
-import { initializeAuth, GoogleAuthProvider, EmailAuthProvider } from 'firebase/auth'
+import { initializeAuth, GoogleAuthProvider } from 'firebase/auth'
 // firebase v12's `firebase/auth` doesn't re-export getReactNativePersistence by
 // default in React Native — Metro's main-field resolution lands on the Node
 // bundle. Import the RN variant directly to guarantee it's available.
@@ -23,5 +23,4 @@ export const auth = initializeAuth(app, {
 })
 
 export const googleProvider = new GoogleAuthProvider()
-export const emailProvider  = new EmailAuthProvider()
 export const db = getFirestore(app)

@@ -12,10 +12,10 @@ export function useProgress(uid) {
     loadHistory(uid).then(setHistory)
   }, [uid])
 
-  async function saveResult({ topic, score, total, correct, pct, subject }) {
+  async function saveResult({ topic, score, total, correct, pct, subject, lessonIndex }) {
     if (!uid) return
     const ref = collection(db, 'users', uid, 'quizHistory')
-    await addDoc(ref, {
+    const doc = {
       topic: topic ?? 'All Topics',
       score,
       total,
@@ -23,7 +23,9 @@ export function useProgress(uid) {
       pct,
       subject: subject ?? 'living-environment',
       timestamp: serverTimestamp(),
-    })
+    }
+    if (lessonIndex !== undefined && lessonIndex !== null) doc.lessonIndex = lessonIndex
+    await addDoc(ref, doc)
     loadHistory(uid).then(setHistory)
   }
 

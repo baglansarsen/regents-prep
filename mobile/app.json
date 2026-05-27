@@ -33,7 +33,6 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0f172a"
       },
-      "edgeToEdgeEnabled": true,
       "package": "com.regentify.app",
       "googleServicesFile": "./google-services.json"
     },
@@ -42,6 +41,7 @@
     },
     "plugins": [
       "expo-font",
+      "./plugins/withForcedKotlin",
       [
         "expo-splash-screen",
         {
@@ -57,12 +57,21 @@
           "iosAppId": "ca-app-pub-2023523440912350~8962352450",
           "skAdNetworkItems": []
         }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "1.9.24"
+          }
+        }
       ]
     ],
     "extra": {
       "eas": {
-        "projectId": "regents-prep-csas"
+        "projectId": "73ee0be9-4fa3-4cdb-8946-53e66d8f9bc8"
       }
-    }
+    },
+    "owner": "sbtproduct"
   }
 }

@@ -1,5 +1,5 @@
 import { initializeApp } from 'firebase/app'
-import { getAuth, GoogleAuthProvider, EmailAuthProvider } from 'firebase/auth'
+import { getAuth, GoogleAuthProvider, connectAuthEmulator } from 'firebase/auth'
 import { getFirestore } from 'firebase/firestore'
 
 const firebaseConfig = {
@@ -14,6 +14,9 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig)
 
 export const auth = getAuth(app)
+if (import.meta.env.DEV) {
+  connectAuthEmulator(auth, 'http://localhost:9099')
+}
+
 export const googleProvider = new GoogleAuthProvider()
-export const emailProvider = new EmailAuthProvider()
 export const db = getFirestore(app)

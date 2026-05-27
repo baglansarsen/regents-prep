@@ -1,6 +1,4 @@
-import { useState, useEffect } from 'react'
 import {
-  onAuthStateChanged,
   signInWithPopup,
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
@@ -12,13 +10,10 @@ import {
   EmailAuthProvider,
 } from 'firebase/auth'
 import { auth, googleProvider } from '../firebase'
+import { useAuthContext } from '../context/AuthContext'
 
 export function useAuth() {
-  const [user, setUser] = useState(undefined) // undefined = loading
-
-  useEffect(() => {
-    return onAuthStateChanged(auth, setUser)
-  }, [])
+  const { user } = useAuthContext()
 
   async function signInWithGoogle() {
     await signInWithPopup(auth, googleProvider)

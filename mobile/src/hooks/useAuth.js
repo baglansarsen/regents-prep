@@ -7,11 +7,16 @@ import {
   linkWithCredential,
   EmailAuthProvider,
   GoogleAuthProvider,
+  OAuthProvider,
   signInWithCredential,
 } from 'firebase/auth'
+import * as Crypto from 'expo-crypto'
 import { auth } from '../firebase'
+import { useAuthContext } from '../context/AuthContext'
 
 export function useAuth() {
+  const { user } = useAuthContext()
+
   async function signInWithEmail(email, password) {
     await signInWithEmailAndPassword(auth, email, password)
   }
@@ -39,16 +44,24 @@ export function useAuth() {
     await signInWithCredential(auth, credential)
   }
 
+  async function signInWithApple() {
+    // Apple Sign-In requires a paid Apple Developer account.
+    // Disabled for dev builds — re-enable by restoring expo-apple-authentication import.
+    throw new Error('Apple Sign-In is not available in this build.')
+  }
+
   async function logOut() {
     await signOut(auth)
   }
 
   return {
+    user,
     signInWithEmail,
     signUpWithEmail,
     signInAsGuest,
     linkEmailToGuest,
     signInWithGoogleToken,
+    signInWithApple,
     logOut,
   }
 }

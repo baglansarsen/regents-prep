@@ -3,42 +3,82 @@ import { doc, getDoc, setDoc } from 'firebase/firestore'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { db } from '../firebase'
 
-const AS_KEY = '@regents_streak_v1'
+const AS_KEY     = '@regents_streak_v1'
+const FREEZE_KEY = '@streakFreeze_v1'
 
+// ── Date helpers ──────────────────────────────────────────────────────────────
 function todayStr() { return new Date().toISOString().slice(0, 10) }
-function yesterdayStr() {
-  const d = new Date(); d.setDate(d.getDate() - 1)
+
+function daysAgoStr(n) {
+  const d = new Date(); d.setDate(d.getDate() - n)
   return d.toISOString().slice(0, 10)
 }
+
+function yesterdayStr()  { return daysAgoStr(1) }
+function twoDaysAgoStr() { return daysAgoStr(2) }
+
 function last7Days() {
-  return Array.from({ length: 7 }, (_, i) => {
-    const d = new Date(); d.setDate(d.getDate() - (6 - i))
-    return d.toISOString().slice(0, 10)
-  })
-}
-function computeStreak(data) {
-  const today = todayStr(), yesterday = yesterdayStr()
-  if (data.lastDate === today)     return { streak: data.streak, studiedToday: true }
-  if (data.lastDate === yesterday) return { streak: data.streak, studiedToday: false }
-  return { streak: 0, studiedToday: false }
+  return Array.from({ length: 7 }, (_, i) => daysAgoStr(6 - i))
 }
 
+// ── Streak computation (freeze-aware) ─────────────────────────────────────────
+function computeStreak(data, freezeActive) {
+  const today     = todayStr()
+  const yesterday = yesterdayStr()
+  const twoDaysAgo = twoDaysAgoStr()
+
+  if (data.lastDate === today) {
+    return { streak: data.streak, studiedToday: true, usedFreeze: false }
+  }
+  if (data.lastDate === yesterday) {
+    return { streak: data.streak, studiedToday: false, usedFreeze: false }
+  }
+  // Missed exactly one day — freeze can save the streak
+  if (data.lastDate === twoDaysAgo && freezeActive && (data.streak ?? 0) > 0) {
+    return { streak: data.streak, studiedToday: false, usedFreeze: true, virtualDate: yesterday }
+  }
+  return { streak: 0, studiedToday: false, usedFreeze: false }
+}
+
+// ── Hook ──────────────────────────────────────────────────────────────────────
 export function useDailyStreak(uid) {
   const [streak,       setStreak]       = useState(0)
   const [studiedToday, setStudiedToday] = useState(false)
   const [studiedDates, setStudiedDates] = useState([])
+  const [hasFreeze,    setHasFreeze]    = useState(false)
 
+  // ── Load streak + freeze together (avoids race condition) ─────────────────
   useEffect(() => {
     if (!uid) return
-    loadStreak(uid).then((data) => {
+    Promise.all([
+      loadStreak(uid),
+      AsyncStorage.getItem(FREEZE_KEY),
+    ]).then(([data, freezeRaw]) => {
+      const freezeActive = freezeRaw === 'true'
+      setHasFreeze(freezeActive)
+
       if (!data) return
-      const { streak: s, studiedToday: st } = computeStreak(data)
+
+      const { streak: s, studiedToday: st, usedFreeze, virtualDate } = computeStreak(data, freezeActive)
+
+      if (usedFreeze) {
+        // Consume the freeze — add the missed day as a virtual "studied" date
+        setHasFreeze(false)
+        AsyncStorage.setItem(FREEZE_KEY, 'false')
+        if (uid) saveFirestoreFreeze(uid, false)
+        const updated = [...new Set([...(data.studiedDates ?? []), virtualDate])].slice(-30)
+        setStudiedDates(updated)
+        saveStreak(uid, { ...data, studiedDates: updated })
+      } else {
+        setStudiedDates(data.studiedDates ?? [])
+      }
+
       setStreak(s)
       setStudiedToday(st)
-      setStudiedDates(data.studiedDates ?? [])
     })
   }, [uid])
 
+  // ── Mark studied (called after a quiz) ────────────────────────────────────
   const markStudied = useCallback(() => {
     if (!uid) return
     setStudiedToday((already) => {
@@ -57,16 +97,28 @@ export function useDailyStreak(uid) {
     })
   }, [uid])
 
+  // ── Buy a streak freeze (costs 200 XP) ────────────────────────────────────
+  const buyFreeze = useCallback(async (spendXP) => {
+    if (hasFreeze) return 'already_have'
+    const ok = await spendXP(200)
+    if (!ok) return 'insufficient_xp'
+    setHasFreeze(true)
+    await AsyncStorage.setItem(FREEZE_KEY, 'true')
+    if (uid) saveFirestoreFreeze(uid, true)
+    return 'success'
+  }, [hasFreeze, uid])
+
   const weekDays = last7Days().map((date) => ({
     date,
-    dayLabel: new Date(date + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short' }),
-    studied:  studiedDates.includes(date),
-    isToday:  date === todayStr(),
+    dayLabel:  new Date(date + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short' }),
+    studied:   studiedDates.includes(date),
+    isToday:   date === todayStr(),
   }))
 
-  return { streak, studiedToday, weekDays, markStudied }
+  return { streak, studiedToday, weekDays, markStudied, hasFreeze, buyFreeze }
 }
 
+// ── Storage helpers ───────────────────────────────────────────────────────────
 async function loadStreak(uid) {
   try {
     const snap = await getDoc(doc(db, 'users', uid, 'meta', 'streak'))
@@ -82,4 +134,8 @@ async function loadStreak(uid) {
 async function saveStreak(uid, data) {
   try { await AsyncStorage.setItem(AS_KEY, JSON.stringify(data)) } catch {}
   try { await setDoc(doc(db, 'users', uid, 'meta', 'streak'), data) } catch {}
+}
+
+async function saveFirestoreFreeze(uid, active) {
+  try { await setDoc(doc(db, 'users', uid), { streakFreeze: active }, { merge: true }) } catch {}
 }

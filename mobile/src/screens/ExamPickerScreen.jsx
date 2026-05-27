@@ -1,8 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { View, Text, TouchableOpacity, FlatList, StyleSheet } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
+import { useSubject } from '../context/SubjectContext'
 import { SUBJECTS, SUBJECT_META } from '../../../src/data/subjects'
+import { T, cardShadow } from '../styles/duo'
 
 // Import exam registry dynamically
 const LE_EXAMS = [
@@ -51,7 +53,7 @@ const EXAM_DATA_MAP = {
 
 export default function ExamPickerScreen({ navigation }) {
   const { C } = useTheme()
-  const [subject, setSubject] = useState(SUBJECTS.LIVING_ENVIRONMENT)
+  const { subject } = useSubject()
   const s = makeStyles(C)
 
   const exams = subject === SUBJECTS.EARTH_SCIENCE ? ES_EXAMS : LE_EXAMS
@@ -71,38 +73,32 @@ export default function ExamPickerScreen({ navigation }) {
   }
 
   return (
-    <SafeAreaView style={s.safe} edges={['top']}>
-      <Text style={s.title}>Regents Exams</Text>
-
-      {/* Subject switcher */}
-      <View style={s.subjectRow}>
-        {Object.values(SUBJECTS).map((sub) => {
-          const m = SUBJECT_META[sub]
-          return (
-            <TouchableOpacity
-              key={sub}
-              style={[s.subjectBtn, subject === sub && { backgroundColor: m.color ?? C.brand, borderColor: m.color ?? C.brand }]}
-              onPress={() => setSubject(sub)}
-            >
-              <Text style={s.subjectText}>{m.icon} {m.name}</Text>
-            </TouchableOpacity>
-          )
-        })}
-      </View>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
+      <Text style={[T.h1, { color: C.text, padding: 20, paddingBottom: 16 }]}>Regents Exams</Text>
 
       <FlatList
         data={exams}
         keyExtractor={(item) => item.id}
         contentContainerStyle={s.list}
+        showsVerticalScrollIndicator={false}
         renderItem={({ item }) => (
-          <TouchableOpacity style={s.examCard} onPress={() => openExam(item)}>
-            <View>
-              <Text style={s.examLabel}>{meta.name}</Text>
-              <Text style={s.examDate}>{item.label} Regents</Text>
+          <TouchableOpacity
+            style={[s.examCard, cardShadow(C.shadow), { borderLeftColor: meta.color ?? C.brand }]}
+            onPress={() => openExam(item)}
+            activeOpacity={0.75}
+          >
+            <Text style={{ fontSize: 28, marginRight: 12 }}>📋</Text>
+            <View style={{ flex: 1 }}>
+              <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>
+                {meta.name}
+              </Text>
+              <Text style={[T.h3, { color: C.text, marginTop: 2 }]}>{item.label} Regents</Text>
             </View>
             <View style={s.examRight}>
-              <Text style={s.examQCount}>50 Q</Text>
-              <Text style={s.examArrow}>→</Text>
+              <View style={[s.qChip, { backgroundColor: C.surface2 }]}>
+                <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>50 Q</Text>
+              </View>
+              <Text style={[T.h3, { color: C.textMuted }]}>›</Text>
             </View>
           </TouchableOpacity>
         )}
@@ -113,17 +109,10 @@ export default function ExamPickerScreen({ navigation }) {
 
 function makeStyles(C) {
   return StyleSheet.create({
-    safe:        { flex: 1, backgroundColor: C.bg },
-    title:       { fontSize: 26, fontWeight: '900', color: C.text, padding: 20, paddingBottom: 12 },
-    subjectRow:  { flexDirection: 'row', marginHorizontal: 16, marginBottom: 16, gap: 10 },
-    subjectBtn:  { flex: 1, paddingVertical: 8, borderRadius: 20, alignItems: 'center', backgroundColor: C.surface, borderWidth: 1.5, borderColor: C.border },
-    subjectText: { fontSize: 12, fontWeight: '700', color: '#fff' },
-    list:        { padding: 16, gap: 12 },
-    examCard:    { backgroundColor: C.surface, borderRadius: 14, padding: 16, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderWidth: 1, borderColor: C.border },
-    examLabel:   { fontSize: 12, color: C.textMuted, fontWeight: '600' },
-    examDate:    { fontSize: 17, fontWeight: '800', color: C.text, marginTop: 2 },
-    examRight:   { flexDirection: 'row', alignItems: 'center', gap: 8 },
-    examQCount:  { fontSize: 13, color: C.textMuted, backgroundColor: C.surface2, paddingHorizontal: 8, paddingVertical: 3, borderRadius: 8 },
-    examArrow:   { fontSize: 18, color: C.textMuted },
+    safe:      { flex: 1, backgroundColor: C.bg },
+    list:      { padding: 16, gap: 12 },
+    examCard:  { backgroundColor: C.surface, borderRadius: 16, padding: 16, flexDirection: 'row', alignItems: 'center', borderWidth: 1, borderColor: C.border, borderLeftWidth: 4 },
+    examRight: { flexDirection: 'row', alignItems: 'center', gap: 10, marginLeft: 8 },
+    qChip:     { borderRadius: 10, paddingHorizontal: 10, paddingVertical: 4 },
   })
 }

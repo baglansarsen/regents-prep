@@ -1,7 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState, useMemo } from 'react'
 import { View, Text, TouchableOpacity, ScrollView, StyleSheet } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
+import { analyzeExamResults } from '../utils/topicAnalysis'
+import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
+import * as leData from '../../../src/data/living-environment/index'
+import * as esData from '../../../src/data/earth-science/index'
+import { SUBJECTS } from '../../../src/data/subjects'
 
 // NY Regents scaled score tables (simplified — 85 minutes, 50 MC)
 function getScaledScore(rawScore, total = 50) {
@@ -19,75 +24,186 @@ function getScaledScore(rawScore, total = 50) {
   return 50
 }
 
+function topicIndicator(pct) {
+  if (pct < 65) return { emoji: '🔴', label: 'Needs Work',  color: '#FF4B4B' }
+  if (pct < 85) return { emoji: '🟡', label: 'Review',      color: '#FF9600' }
+  return              { emoji: '🟢', label: 'Strong',       color: '#58CC02' }
+}
+
 export default function ExamResultsScreen({ route, navigation }) {
   const { exam, questions, answers, correct, total, xpEarned } = route.params
   const { C } = useTheme()
   const s = makeStyles(C)
   const [showReview, setShowReview] = useState(false)
+  const [showStudyPlan, setShowStudyPlan] = useState(true)
 
   const raw    = correct
   const scaled = getScaledScore(raw, total)
   const passed = scaled >= 65
   const color  = passed ? C.correct : C.wrong
 
+  // ── Topic breakdown ───────────────────────────────────────────────────────
+  const topicBreakdown = useMemo(
+    () => analyzeExamResults(questions, answers, exam.subject),
+    [questions, answers, exam.subject],
+  )
+
+  const weakTopics = topicBreakdown.filter((t) => t.pct < 65)
+  const topPriority = weakTopics.slice(0, 2).map((t) => t.topic).join(', ')
+
+  function studyTopic(topicName) {
+    const sd = exam.subject === SUBJECTS.EARTH_SCIENCE ? esData : leData
+    const pool = sd.getByTopic ? sd.getByTopic(topicName) : []
+    if (!pool?.length) {
+      navigation.navigate('Main', { screen: 'StudyTab' })
+      return
+    }
+    const questionSet = [...pool].sort(() => Math.random() - 0.5).slice(0, 20)
+    navigation.navigate('Main', {
+      screen: 'StudyTab',
+      params: {
+        screen: 'Quiz',
+        params: { questionSet, topic: topicName, subject: exam.subject },
+      },
+    })
+  }
+
   return (
     <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
       <ScrollView contentContainerStyle={s.scroll}>
         {/* Header */}
-        <Text style={s.examLabel}>{exam.label} Regents</Text>
+        <Text style={[T.label, { color: C.textMuted, textAlign: 'center' }]}>{exam.label} Regents</Text>
 
-        {/* Score */}
+        {/* Score circle */}
         <View style={[s.scoreBox, { borderColor: color }]}>
-          <Text style={[s.scaledScore, { color }]}>{scaled}</Text>
-          <Text style={s.scaledLabel}>Scaled Score</Text>
-          <Text style={s.rawScore}>{raw}/{total} correct</Text>
+          <Text style={[T.num, { color, fontSize: 52 }]}>{scaled}</Text>
+          <Text style={[T.small, { color: C.textMuted }]}>Scaled Score</Text>
+          <Text style={[T.label, { color: C.textDim, textTransform: 'none', letterSpacing: 0, marginTop: 2 }]}>
+            {raw}/{total} correct
+          </Text>
         </View>
 
-        <Text style={[s.verdict, { color }]}>
+        <Text style={[T.h2, { color, textAlign: 'center' }]}>
           {passed ? '🎉 Passed!' : '📚 Not yet — keep studying'}
         </Text>
 
         {xpEarned > 0 && (
           <View style={s.xpBanner}>
-            <Text style={s.xpText}>⭐ +{xpEarned} XP earned</Text>
+            <Text style={[T.body, { color: C.warn }]}>⭐ +{xpEarned} XP earned</Text>
           </View>
         )}
 
         {/* Score breakdown */}
-        <View style={s.breakdown}>
-          <View style={s.breakdownRow}>
-            <Text style={s.breakdownLabel}>Raw Score</Text>
-            <Text style={s.breakdownValue}>{raw} / {total}</Text>
-          </View>
-          <View style={s.breakdownRow}>
-            <Text style={s.breakdownLabel}>Percentage</Text>
-            <Text style={s.breakdownValue}>{Math.round((raw/total)*100)}%</Text>
-          </View>
-          <View style={s.breakdownRow}>
-            <Text style={s.breakdownLabel}>Scaled Score</Text>
-            <Text style={[s.breakdownValue, { color }]}>{scaled}</Text>
-          </View>
-          <View style={s.breakdownRow}>
-            <Text style={s.breakdownLabel}>Passing (65+)</Text>
-            <Text style={[s.breakdownValue, { color }]}>{passed ? '✓ Yes' : '✗ No'}</Text>
-          </View>
+        <View style={[s.card, cardShadow(C.shadow)]}>
+          {[
+            { label: 'Raw Score',    value: `${raw} / ${total}`,              valueColor: C.text },
+            { label: 'Percentage',   value: `${Math.round((raw/total)*100)}%`, valueColor: C.text },
+            { label: 'Scaled Score', value: `${scaled}`,                       valueColor: color  },
+            { label: 'Passing (65+)',value: passed ? '✓ Yes' : '✗ No',         valueColor: color  },
+          ].map(({ label, value, valueColor }) => (
+            <View key={label} style={s.breakdownRow}>
+              <Text style={[T.body, { color: C.textMuted }]}>{label}</Text>
+              <Text style={[T.h3, { color: valueColor }]}>{value}</Text>
+            </View>
+          ))}
         </View>
 
+        {/* ── 📊 STUDY PLAN ── */}
+        <TouchableOpacity
+          style={[s.sectionHeader, { backgroundColor: C.surface, borderColor: C.border }]}
+          onPress={() => setShowStudyPlan((v) => !v)}
+          activeOpacity={0.8}
+        >
+          <Text style={[T.h3, { color: C.text }]}>📊 Study Plan</Text>
+          <Text style={[T.body, { color: C.textMuted }]}>{showStudyPlan ? '↑' : '↓'}</Text>
+        </TouchableOpacity>
+
+        {showStudyPlan && (
+          <View style={[s.card, cardShadow(C.shadow), { gap: 12 }]}>
+            {topicBreakdown.map(({ topic, total: topicTotal, correct: topicCorrect, pct }) => {
+              const { emoji, label, color: indicatorColor } = topicIndicator(pct)
+              const isStrong = pct >= 85
+              return (
+                <View key={topic} style={[s.topicRow, { borderColor: indicatorColor + '40', borderWidth: 1 }]}>
+                  <View style={s.topicLeft}>
+                    <View style={s.topicTitleRow}>
+                      <Text style={{ fontSize: 16 }}>{emoji}</Text>
+                      <Text style={[T.h3, { color: C.text, flex: 1 }]} numberOfLines={1}>{topic}</Text>
+                    </View>
+                    <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                      {topicCorrect}/{topicTotal} correct · {pct}%
+                    </Text>
+                    {/* Mini progress bar */}
+                    <View style={s.miniBar}>
+                      <View style={[s.miniBarFill, { width: `${pct}%`, backgroundColor: indicatorColor }]} />
+                    </View>
+                  </View>
+                  <View style={s.topicAction}>
+                    {isStrong ? (
+                      <View style={[s.strongBadge, { backgroundColor: indicatorColor + '20' }]}>
+                        <Text style={[T.label, { color: indicatorColor, textTransform: 'none', letterSpacing: 0 }]}>
+                          ✓ Strong
+                        </Text>
+                      </View>
+                    ) : (
+                      <TouchableOpacity
+                        style={duoBtn(
+                          pct < 65 ? '#FF4B4B' : '#FF9600',
+                          pct < 65 ? '#CC0000' : '#CC7A00',
+                          { paddingVertical: 8, paddingHorizontal: 14 },
+                        )}
+                        onPress={() => studyTopic(topic)}
+                      >
+                        <Text style={[T.btn, { color: '#fff', fontSize: 11 }]}>
+                          {pct < 65 ? 'STUDY NOW →' : 'REVIEW →'}
+                        </Text>
+                      </TouchableOpacity>
+                    )}
+                  </View>
+                </View>
+              )
+            })}
+
+            {topPriority ? (
+              <View style={s.priorityBanner}>
+                <Text style={[T.small, { color: C.warn }]}>
+                  💡 Top priority: <Text style={{ fontFamily: 'Nunito_700Bold' }}>{topPriority}</Text>
+                </Text>
+              </View>
+            ) : (
+              <View style={s.priorityBanner}>
+                <Text style={[T.small, { color: C.correct }]}>
+                  🎯 Great work — all topics at 65%+!
+                </Text>
+              </View>
+            )}
+          </View>
+        )}
+
         {/* Review toggle */}
-        <TouchableOpacity style={s.reviewToggle} onPress={() => setShowReview((v) => !v)}>
-          <Text style={s.reviewToggleText}>{showReview ? 'Hide Review' : 'Review Answers'} {showReview ? '↑' : '↓'}</Text>
+        <TouchableOpacity
+          style={[s.sectionHeader, { backgroundColor: C.surface, borderColor: C.border }]}
+          onPress={() => setShowReview((v) => !v)}
+          activeOpacity={0.8}
+        >
+          <Text style={[T.h3, { color: C.text }]}>📋 Review Answers</Text>
+          <Text style={[T.body, { color: C.textMuted }]}>{showReview ? '↑' : '↓'}</Text>
         </TouchableOpacity>
 
         {showReview && questions.map((q, i) => {
-          const userAns  = answers[i]
+          const userAns   = answers[i] ?? answers[String(i)]
           const correctAns = q.correct ?? q.correctIndex
           const isCorrect  = userAns === correctAns
           return (
             <View key={i} style={[s.reviewRow, { borderColor: isCorrect ? C.correct : C.wrong }]}>
-              <Text style={s.reviewNum}>{i + 1}</Text>
+              <Text style={[T.label, { color: C.textMuted, width: 22, textTransform: 'none', letterSpacing: 0 }]}>{i + 1}</Text>
               <View style={{ flex: 1 }}>
-                <Text style={s.reviewQ} numberOfLines={2}>{q.text}</Text>
-                {!isCorrect && <Text style={s.reviewAnswer}>✓ {q.choices?.[correctAns]}</Text>}
+                <Text style={[T.small, { color: C.text, lineHeight: 18 }]} numberOfLines={2}>{q.text}</Text>
+                {!isCorrect && (
+                  <Text style={[T.label, { color: C.correct, textTransform: 'none', letterSpacing: 0, marginTop: 2 }]}>
+                    ✓ {q.choices?.[correctAns]}
+                  </Text>
+                )}
               </View>
               <Text>{isCorrect ? '✅' : '❌'}</Text>
             </View>
@@ -97,18 +213,20 @@ export default function ExamResultsScreen({ route, navigation }) {
         {/* Actions */}
         <View style={s.actions}>
           <TouchableOpacity
-            style={[s.btn, { backgroundColor: C.brand }]}
+            style={[duoBtn(C.brand, C.brandDark, { flex: 1 })]}
             onPress={() => navigation.navigate('Exam', { exam, questions, subject: exam.subject })}
           >
-            <Text style={s.btnText}>🔄 Retake</Text>
+            <Text style={[T.btn, { color: '#fff' }]}>🔄 RETAKE</Text>
           </TouchableOpacity>
           <TouchableOpacity
-            style={[s.btn, { backgroundColor: C.surface, borderWidth: 1, borderColor: C.border }]}
-            onPress={() => navigation.navigate('ExamPicker')}
+            style={[duoBtnOutline(C.border, { flex: 1 })]}
+            onPress={() => navigation.navigate('Main', { screen: 'ExamsTab', params: { screen: 'ExamPicker' } })}
           >
-            <Text style={[s.btnText, { color: C.text }]}>← All Exams</Text>
+            <Text style={[T.btn, { color: C.text }]}>← ALL EXAMS</Text>
           </TouchableOpacity>
         </View>
+
+        <View style={{ height: 20 }} />
       </ScrollView>
     </SafeAreaView>
   )
@@ -118,26 +236,44 @@ function makeStyles(C) {
   return StyleSheet.create({
     safe:          { flex: 1, backgroundColor: C.bg },
     scroll:        { padding: 20, gap: 14 },
-    examLabel:     { fontSize: 14, color: C.textMuted, fontWeight: '600', textAlign: 'center' },
-    scoreBox:      { alignSelf: 'center', width: 160, height: 160, borderRadius: 80, borderWidth: 4, alignItems: 'center', justifyContent: 'center' },
-    scaledScore:   { fontSize: 48, fontWeight: '900' },
-    scaledLabel:   { fontSize: 13, color: C.textMuted },
-    rawScore:      { fontSize: 12, color: C.textDim, marginTop: 2 },
-    verdict:       { fontSize: 22, fontWeight: '800', textAlign: 'center' },
-    xpBanner:      { backgroundColor: '#f59e0b20', borderRadius: 12, padding: 12, alignItems: 'center', borderWidth: 1, borderColor: '#f59e0b50' },
-    xpText:        { color: C.warn, fontWeight: '700', fontSize: 15 },
-    breakdown:     { backgroundColor: C.surface, borderRadius: 16, padding: 16, gap: 10, borderWidth: 1, borderColor: C.border },
-    breakdownRow:  { flexDirection: 'row', justifyContent: 'space-between' },
-    breakdownLabel:{ fontSize: 14, color: C.textMuted },
-    breakdownValue:{ fontSize: 14, fontWeight: '700', color: C.text },
-    reviewToggle:  { backgroundColor: C.surface, borderRadius: 12, padding: 14, alignItems: 'center', borderWidth: 1, borderColor: C.border },
-    reviewToggleText:{ color: C.text, fontWeight: '600', fontSize: 14 },
-    reviewRow:     { flexDirection: 'row', gap: 10, backgroundColor: C.surface, borderRadius: 12, padding: 12, borderLeftWidth: 3 },
-    reviewNum:     { fontSize: 13, fontWeight: '800', color: C.textMuted, width: 20 },
-    reviewQ:       { fontSize: 13, color: C.text, lineHeight: 18 },
-    reviewAnswer:  { fontSize: 12, color: C.correct, fontWeight: '600', marginTop: 2 },
+    scoreBox:      {
+      alignSelf: 'center', width: 170, height: 170, borderRadius: 85,
+      borderWidth: 4, alignItems: 'center', justifyContent: 'center',
+    },
+    xpBanner:      {
+      backgroundColor: '#f59e0b20', borderRadius: 14, padding: 14,
+      alignItems: 'center', borderWidth: 1, borderColor: '#f59e0b50',
+    },
+    card:          {
+      backgroundColor: C.surface, borderRadius: 18, padding: 16,
+      borderWidth: 1, borderColor: C.border,
+    },
+    breakdownRow:  { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
+
+    sectionHeader: {
+      flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
+      borderRadius: 14, padding: 14, borderWidth: 1,
+    },
+
+    // Topic plan rows
+    topicRow: {
+      flexDirection: 'row', alignItems: 'center', gap: 10,
+      backgroundColor: C.bg, borderRadius: 14, padding: 12,
+    },
+    topicLeft:     { flex: 1, gap: 3 },
+    topicTitleRow: { flexDirection: 'row', alignItems: 'center', gap: 6 },
+    topicAction:   { alignItems: 'flex-end' },
+    miniBar:       { height: 5, backgroundColor: C.surface2, borderRadius: 3, marginTop: 5, overflow: 'hidden' },
+    miniBarFill:   { height: 5, borderRadius: 3 },
+    strongBadge:   { borderRadius: 10, paddingHorizontal: 10, paddingVertical: 6 },
+    priorityBanner:{
+      backgroundColor: C.surface2, borderRadius: 10, padding: 10, marginTop: 4,
+    },
+
+    reviewRow: {
+      flexDirection: 'row', gap: 10, backgroundColor: C.surface,
+      borderRadius: 12, padding: 12, borderLeftWidth: 3,
+    },
     actions:       { flexDirection: 'row', gap: 12, marginTop: 8 },
-    btn:           { flex: 1, padding: 16, borderRadius: 14, alignItems: 'center' },
-    btnText:       { fontSize: 15, fontWeight: '700', color: '#fff' },
   })
 }

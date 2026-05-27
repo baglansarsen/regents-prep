@@ -101,6 +101,30 @@ export function useFriends(uid, user) {
     }
   }, [uid, user])
 
+  // Send a friend request directly by UID (used from leaderboard / profile views)
+  const sendRequestByUid = useCallback(async (toUid, toName) => {
+    if (!uid || toUid === uid) return 'self'
+    // Check if already friends
+    const alreadyFriend = friends.some((f) => f.id === toUid || f.uid === toUid)
+    if (alreadyFriend) return 'already_friends'
+    // Check if request already pending
+    const alreadySent = sentRequests.some((r) => r.toUid === toUid)
+    if (alreadySent) return 'already_sent'
+    try {
+      await addDoc(collection(db, 'friendRequests'), {
+        fromUid: uid,
+        fromName: user?.displayName ?? 'Someone',
+        toUid,
+        status: 'pending',
+        timestamp: serverTimestamp(),
+      })
+      setSent((prev) => [...prev, { fromUid: uid, toUid, toName }])
+      return 'sent'
+    } catch (e) {
+      return 'error'
+    }
+  }, [uid, user, friends, sentRequests])
+
   const acceptRequest = useCallback(async (request) => {
     try {
       await updateDoc(doc(db, 'friendRequests', request.id), { status: 'accepted' })
@@ -129,7 +153,7 @@ export function useFriends(uid, user) {
 
   return {
     friends, incomingRequests, sentRequests, friendCode, feed,
-    addByCode, addError, acceptRequest, declineRequest,
+    addByCode, addError, sendRequestByUid, acceptRequest, declineRequest,
     refreshFeed: loadFeed,
   }
 }
