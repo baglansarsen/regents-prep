@@ -20,6 +20,7 @@ import { useFocusEffect } from '@react-navigation/native'
 import { SUBJECTS } from '../../../src/data/subjects'
 import * as leData from '../../../src/data/living-environment/index'
 import * as esData from '../../../src/data/earth-science/index'
+import { STRATEGY_CATEGORIES } from '../../../src/data/strategies-meta'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import GoalRing from '../components/GoalRing'
 import UnitBanner from '../components/UnitBanner'
@@ -101,8 +102,26 @@ export default function HomeScreen({ navigation }) {
   const [digReward,       setDigReward]        = useState(null)
   const [questData,       setQuestData]        = useState(null)
   const [milestoneModal,  setMilestoneModal]   = useState(null)
+  const [tipsUnit,        setTipsUnit]         = useState(null)
+  const [expandedTip,     setExpandedTip]      = useState(null)
   const sheetAnim     = useRef(new Animated.Value(400)).current
   const goalSheetAnim = useRef(new Animated.Value(400)).current
+  const tipsAnim      = useRef(new Animated.Value(400)).current
+
+  // ── Tips sheet open / close ──────────────────────────────────────────────
+  function openTips(unit) {
+    if (selectedLesson) closeSheet()
+    setTipsUnit(unit)
+    setExpandedTip(null)
+    tipsAnim.setValue(400)
+    Animated.spring(tipsAnim, { toValue: 0, useNativeDriver: true, tension: 120, friction: 9 }).start()
+  }
+
+  function closeTips() {
+    Animated.timing(tipsAnim, { toValue: 400, duration: 200, useNativeDriver: true }).start(
+      () => setTipsUnit(null),
+    )
+  }
 
   // ── Goal picker open / close ─────────────────────────────────────────────
   function openGoalPicker() {
@@ -440,6 +459,7 @@ export default function HomeScreen({ navigation }) {
                   total={unit.lessonCount}
                   locked={unitLocked}
                   C={C}
+                  onTips={() => openTips(unit)}
                 />
               )
             }
@@ -660,6 +680,66 @@ export default function HomeScreen({ navigation }) {
         </Animated.View>
       )}
 
+      {/* ── Tips backdrop ── */}
+      {tipsUnit && (
+        <TouchableOpacity
+          style={[StyleSheet.absoluteFill, s.backdrop]}
+          onPress={closeTips}
+          activeOpacity={1}
+        />
+      )}
+
+      {/* ── Tips sheet ── */}
+      {tipsUnit && (
+        <Animated.View
+          style={[s.sheet, cardShadow(C.shadow), { backgroundColor: C.surface, transform: [{ translateY: tipsAnim }], maxHeight: '80%' }]}
+        >
+          <View style={s.sheetHandle} />
+          <Text style={[T.h3, { color: C.text, marginBottom: 16 }]} numberOfLines={1}>
+            {tipsUnit.icon} {tipsUnit.title} — Test Tips
+          </Text>
+          <ScrollView showsVerticalScrollIndicator={false} style={{ marginBottom: 12 }}>
+            {STRATEGY_CATEGORIES.map((cat) => {
+              const tips = (sd.strategies?.[tipsUnit.id]?.[cat.key]) ?? []
+              const open = expandedTip === cat.key
+              return (
+                <TouchableOpacity
+                  key={cat.key}
+                  onPress={() => setExpandedTip(open ? null : cat.key)}
+                  activeOpacity={0.8}
+                  style={[s.tipRow, { borderColor: open ? tipsUnit.color : C.border, backgroundColor: open ? C.surface2 : C.surface }]}
+                >
+                  <View style={s.tipRowHeader}>
+                    <Text style={{ fontSize: 18 }}>{cat.icon}</Text>
+                    <Text style={[T.h3, { color: C.text, flex: 1, marginLeft: 10, fontSize: 14 }]}>{cat.label}</Text>
+                    <Text style={[T.label, { color: C.textMuted }]}>{open ? '▲' : '▼'}</Text>
+                  </View>
+                  {open && tips.length > 0 && (
+                    <View style={s.tipList}>
+                      {tips.map((tip, i) => (
+                        <View key={i} style={[s.tipItem, { borderLeftColor: tipsUnit.color }]}>
+                          <Text style={[T.small, { color: C.text, lineHeight: 20 }]}>{tip}</Text>
+                        </View>
+                      ))}
+                    </View>
+                  )}
+                  {open && tips.length === 0 && (
+                    <Text style={[T.small, { color: C.textMuted, marginTop: 8 }]}>Coming soon!</Text>
+                  )}
+                </TouchableOpacity>
+              )
+            })}
+          </ScrollView>
+          <TouchableOpacity
+            style={duoBtn(tipsUnit.color, tipsUnit.darkColor, { marginTop: 4 })}
+            onPress={closeTips}
+            activeOpacity={0.85}
+          >
+            <Text style={[T.btn, { color: '#fff' }]}>GOT IT</Text>
+          </TouchableOpacity>
+        </Animated.View>
+      )}
+
       {/* ── Streak milestone gift modal ── */}
       <Modal transparent visible={!!milestoneModal} animationType="fade" onRequestClose={() => setMilestoneModal(null)}>
         <View style={s.modalBackdrop}>
@@ -824,6 +904,26 @@ function makeStyles(C) {
     nodeIcon:   { fontSize: 34 },
     starBadge:  { position: 'absolute', top: -2, right: -2, backgroundColor: '#FFC800', borderRadius: 12, width: 22, height: 22, alignItems: 'center', justifyContent: 'center' },
     pctBadge:   { position: 'absolute', bottom: -4, borderRadius: 10, paddingHorizontal: 6, paddingVertical: 2 },
+
+    // ── Tips ──
+    tipRow: {
+      borderRadius: 12,
+      borderWidth:  1.5,
+      marginBottom: 8,
+      padding:      12,
+    },
+    tipRowHeader: {
+      flexDirection: 'row',
+      alignItems:    'center',
+    },
+    tipList: {
+      marginTop: 10,
+      gap:       8,
+    },
+    tipItem: {
+      borderLeftWidth: 3,
+      paddingLeft:     10,
+    },
 
     // ── Overlay ──
     backdrop: {

@@ -33,6 +33,7 @@ import AdminScreen, { ADMIN_EMAIL } from './screens/AdminScreen'
 import RegentsExamPickerScreen from './screens/RegentsExamPickerScreen'
 import RegentsExamScreen from './screens/RegentsExamScreen'
 import RegentsExamResultsScreen from './screens/RegentsExamResultsScreen'
+import TestStrategiesScreen from './screens/TestStrategiesScreen'
 
 export default function App() {
   const { theme, setTheme } = useTheme()
@@ -100,6 +101,7 @@ export default function App() {
   const [questionSet, setQuestionSet] = useState([])
   const [quizResult, setQuizResult]   = useState(null)
   const [activeTopic, setActiveTopic] = useState(null)
+  const [tipsUnit,    setTipsUnit]    = useState(null)
   const [diagResult, setDiagResult]   = useState(null)
   const [speedResult, setSpeedResult] = useState(null)
   const [noTimer, setNoTimer]         = useState(false)
@@ -335,6 +337,10 @@ export default function App() {
           dailyLoading={dailyLoading}
           onDailySubmit={handleDailySubmit}
           onRegentsExams={() => setScreen('regentsExamPicker')}
+          onTips={(topic) => {
+            const unit = (sd.UNITS ?? []).find((u) => u.topic === topic)
+            if (unit) { setTipsUnit(unit); setScreen('testStrategies') }
+          }}
           // Subject switcher
           subject={subject}
           setSubject={setSubject}
@@ -362,6 +368,14 @@ export default function App() {
           onLabPractice={startLabPractice}
           onAdmin={user?.email === ADMIN_EMAIL ? () => setScreen('admin') : null}
           onUpgrade={user?.isAnonymous ? () => setShowUpgrade(true) : null}
+        />
+      )}
+
+      {screen === 'testStrategies' && tipsUnit && (
+        <TestStrategiesScreen
+          unit={tipsUnit}
+          strategies={sd.strategies}
+          onBack={() => setScreen('home')}
         />
       )}
 

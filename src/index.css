@@ -4150,3 +4150,99 @@ html, body {
 .guest-locked-icon  { font-size: 3rem; }
 .guest-locked-title { font-size: 1.15rem; font-weight: 700; margin: 0; }
 .guest-locked-desc  { font-size: .88rem; color: var(--text-muted); line-height: 1.6; margin: 0; max-width: 280px; }
+
+/* ── Topic card tips button ───────────────────────────────────────────────── */
+.topic-card { position: relative; }
+.topic-card-tips-btn {
+  position:        absolute;
+  top:             8px;
+  right:           8px;
+  font-size:       1.1rem;
+  line-height:     1;
+  padding:         2px 4px;
+  border-radius:   8px;
+  cursor:          pointer;
+  opacity:         0.7;
+  transition:      opacity .15s;
+  user-select:     none;
+}
+.topic-card-tips-btn:hover { opacity: 1; }
+
+/* ── Test Strategies Screen ───────────────────────────────────────────────── */
+.test-strategies-screen {
+  display:       flex;
+  flex-direction:column;
+  min-height:    100vh;
+  background:    var(--bg);
+  padding-bottom:80px;
+}
+.ts-header {
+  display:        flex;
+  flex-direction: column;
+  gap:            12px;
+  padding:        20px 20px 16px;
+  border-bottom:  1px solid var(--border);
+}
+.ts-back-btn {
+  align-self:    flex-start;
+  background:    none;
+  border:        none;
+  color:         var(--brand);
+  font-size:     .95rem;
+  font-weight:   700;
+  cursor:        pointer;
+  padding:       0;
+}
+.ts-back-btn:hover { text-decoration: underline; }
+.ts-header-info {
+  display:     flex;
+  align-items: center;
+  gap:         14px;
+}
+.ts-unit-icon  { font-size: 2.2rem; }
+.ts-unit-label { font-size: .7rem; font-weight: 700; color: var(--text-muted); letter-spacing: .08em; margin-bottom: 2px; }
+.ts-unit-title { font-size: 1.25rem; font-weight: 800; color: var(--text); margin: 0; }
+
+.ts-category-tabs {
+  display:       flex;
+  gap:           8px;
+  padding:       16px 16px 0;
+  overflow-x:    auto;
+  flex-wrap:     nowrap;
+  scrollbar-width: none;
+}
+.ts-category-tabs::-webkit-scrollbar { display: none; }
+
+.ts-content {
+  padding:       20px 20px;
+  flex:          1;
+}
+.ts-category-header {
+  display:     flex;
+  align-items: center;
+  gap:         10px;
+  margin-bottom: 16px;
+}
+.ts-cat-icon  { font-size: 1.5rem; }
+.ts-cat-title { font-size: 1.05rem; font-weight: 700; color: var(--text); margin: 0; }
+
+.strategy-tip-list {
+  list-style: none;
+  display:    flex;
+  flex-direction: column;
+  gap:        12px;
+}
+.strategy-tip-item {
+  border-left:  4px solid var(--brand);
+  padding:      10px 14px;
+  background:   var(--surface);
+  border-radius:0 10px 10px 0;
+  font-size:    .92rem;
+  line-height:  1.6;
+  color:        var(--text2);
+}
+.ts-coming-soon {
+  color:     var(--text-muted);
+  font-size: .95rem;
+  padding:   20px 0;
+}

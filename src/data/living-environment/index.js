@@ -13,6 +13,7 @@ export {
 export { flashcards, FLASHCARD_TOPIC_LIST } from '../flashcards'
 export { ACHIEVEMENTS as achievements } from '../achievements'
 export { UNITS, getLessonQuestions } from './units'
+export { STRATEGIES as strategies } from './strategies'
 
 import { TOPICS } from '../questions'
 

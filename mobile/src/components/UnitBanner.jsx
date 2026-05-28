@@ -1,8 +1,8 @@
 import React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import { T, cardShadow } from '../styles/duo'
 
-export default function UnitBanner({ unit, unitIndex, completed, total, locked, C }) {
+export default function UnitBanner({ unit, unitIndex, completed, total, locked, C, onTips }) {
   const bg          = locked ? C.surface2 : unit.color
   const textColor   = locked ? C.textMuted : '#fff'
   const barFill     = locked ? C.border    : unit.darkColor
@@ -22,6 +22,15 @@ export default function UnitBanner({ unit, unitIndex, completed, total, locked, 
             {completed}/{total} lessons
           </Text>
         </View>
+        {onTips && !locked && (
+          <TouchableOpacity
+            onPress={onTips}
+            style={[styles.tipsPill, { backgroundColor: unit.darkColor }]}
+            activeOpacity={0.8}
+          >
+            <Text style={[T.label, { color: '#fff' }]}>💡 TIPS</Text>
+          </TouchableOpacity>
+        )}
       </View>
 
       {/* Progress bar */}
@@ -63,5 +72,11 @@ const styles = StyleSheet.create({
   barFill: {
     height: 6,
     borderRadius: 3,
+  },
+  tipsPill: {
+    borderRadius: 10,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    marginLeft: 8,
   },
 })

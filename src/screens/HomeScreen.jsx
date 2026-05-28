@@ -38,7 +38,7 @@ const LAB_TYPE_ICONS = {
 
 // ── Study Tab ──────────────────────────────────────────────────────────────
 
-function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, levelInfo, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit, questions, TOPICS, TOPIC_ICONS, LAB_TYPES, onRegentsExams }) {
+function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, levelInfo, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit, questions, TOPICS, TOPIC_ICONS, LAB_TYPES, onRegentsExams, onTips }) {
   const allTopics = Object.values(TOPICS ?? {})
   return (
     <div className="tab-panel">
@@ -161,6 +161,17 @@ function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onConte
               </div>
               <span className="topic-name">{topic}</span>
               {unlocked ? <span className="topic-count">{count} questions</span> : <span className="topic-locked-hint">{hint}</span>}
+              {unlocked && onTips && (
+                <div
+                  role="button"
+                  tabIndex={0}
+                  className="topic-card-tips-btn"
+                  onClick={(e) => { e.stopPropagation(); onTips(topic) }}
+                  onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.stopPropagation(); onTips(topic) } }}
+                >
+                  💡
+                </div>
+              )}
             </button>
           )
         })}
@@ -1047,7 +1058,7 @@ function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, t
 // ── Main HomeScreen ────────────────────────────────────────────────────────
 
 export default function HomeScreen({
-  onStart, onPracticeTest, onAnalytics, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, onAchievements, onRegentsExams,
+  onStart, onPracticeTest, onAnalytics, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, onAchievements, onRegentsExams, onTips,
   user, onLogOut,
   history, streak, studiedToday, weekDays,
   masteryPct, isUnlocked, unlockHint,
@@ -1105,6 +1116,7 @@ export default function HomeScreen({
           dailyLoading={dailyLoading} onDailySubmit={onDailySubmit}
           questions={questions} TOPICS={TOPICS} TOPIC_ICONS={TOPIC_ICONS} LAB_TYPES={LAB_TYPES}
           onRegentsExams={onRegentsExams}
+          onTips={onTips}
         />
       )}
       {tab === 'cards' && <CardsTab uid={user?.uid} earnXP={earnXP} xp={xp} flashcards={flashcards} FLASHCARD_TOPIC_LIST={FLASHCARD_TOPIC_LIST} />}
