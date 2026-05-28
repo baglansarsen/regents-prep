@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef, useEffect, useState } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView,
   Animated, StyleSheet, Image,
@@ -17,6 +17,7 @@ import { useDoubleXP } from '../context/DoubleXPContext'
 import { useCoinsContext } from '../context/CoinsContext'
 import { usePetContext } from '../context/PetContext'
 import { T, duoBtn, cardShadow } from '../styles/duo'
+import PetWidget from '../components/PetWidget'
 
 const LETTERS = ['A', 'B', 'C', 'D']
 const CDN_BASE = 'https://regents-csas.web.app'
@@ -60,7 +61,9 @@ export default function QuizScreen({ route, navigation }) {
   const { lives, maxLives, nextRefillAt, loseLife, refillLives, addLife } = useLivesContext()
   const { ready: adReady, showAd } = useRewardedAd({ onReward: addLife })
   const { earnCoins } = useCoinsContext()
-  const { checkAndEvolve, triggerReaction } = usePetContext()
+  const { checkAndEvolve, triggerReaction, updateQuestProgress, getPetMessage } = usePetContext()
+
+  const [showBubble, setShowBubble] = useState(false)
 
   const {
     currentQuestion, index, total, score, streak, bestStreak,
@@ -95,11 +98,16 @@ export default function QuizScreen({ route, navigation }) {
     }
   }, [phase, streak])
 
-  // ── Lose life on wrong answer ─────────────────────────────────────────────
+  // ── Lose life + pet reaction on wrong/right answer ────────────────────────
   useEffect(() => {
     if (phase === 'feedback' && selected !== null && selected !== 'timeout') {
       const correctIdx = currentQuestion?.correct ?? currentQuestion?.correctIndex
-      if (selected !== correctIdx) loseLife()
+      if (selected !== correctIdx) {
+        loseLife()
+        triggerReaction('sad')
+      } else {
+        triggerReaction('cheer')
+      }
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase])
@@ -137,6 +145,10 @@ export default function QuizScreen({ route, navigation }) {
       else if (pct >= 85)    triggerReaction('happy_dance')
       else if (pct <= 30)    triggerReaction('sympathetic')
       else                   triggerReaction('root_for_you')
+      // Quest progress
+      updateQuestProgress('answer_correct', correct)
+      updateQuestProgress('complete_quiz')
+      if (route.params?.isMistakesPractice) updateQuestProgress('complete_mistakes')
       navigation.replace('Results', {
         score, total, results, bestStreak, topic, subject,
         xpEarned, comboBonus, firstMastery, masteredTopic: topic ?? null,
@@ -310,6 +322,21 @@ export default function QuizScreen({ route, navigation }) {
         </Animated.View>
       )}
 
+      {/* ── Mini pet study-along overlay ── */}
+      <View style={s.miniPetWrap} pointerEvents="box-none">
+        <TouchableOpacity
+          onPress={() => { setShowBubble(true); setTimeout(() => setShowBubble(false), 2200) }}
+          activeOpacity={0.9}
+        >
+          <PetWidget mini size={56} />
+        </TouchableOpacity>
+        {showBubble && (
+          <View style={[s.bubble, { backgroundColor: '#fff' }]}>
+            <Text style={s.bubbleText}>{getPetMessage() ?? 'You got this! 💪'}</Text>
+          </View>
+        )}
+      </View>
+
       {/* ── No-lives gate — reactive overlay, auto-dismisses when lives > 0 ── */}
       {lives === 0 && (
         <NoLivesGate
@@ -429,6 +456,29 @@ function makeStyles(C, insets) {
     gateCard:       { backgroundColor: C.bg, borderTopLeftRadius: 28, borderTopRightRadius: 28, padding: 24, paddingTop: 28 },
     gateBtn:        { borderRadius: 16, paddingVertical: 15, alignItems: 'center' },
     gateLinkBtn:    { alignItems: 'center', paddingVertical: 16 },
+
+    miniPetWrap: {
+      position:   'absolute',
+      bottom:     160,
+      right:      16,
+      alignItems: 'flex-end',
+      zIndex:     50,
+    },
+    bubble: {
+      position:     'absolute',
+      bottom:       58,
+      right:        0,
+      borderRadius: 12,
+      padding:      10,
+      maxWidth:     200,
+      borderWidth:  1,
+      borderColor:  '#E5E7EB',
+      shadowColor:  '#000',
+      shadowOpacity: 0.08,
+      shadowRadius: 8,
+      elevation:    4,
+    },
+    bubbleText: { fontSize: 12, color: '#374151', lineHeight: 16 },
 
     feedbackPanel: {
       position:             'absolute',

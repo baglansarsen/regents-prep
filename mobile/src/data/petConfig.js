@@ -176,6 +176,14 @@ export const COSMETICS = [
 
 export const ALL_SHOP_ITEMS = [...FOOD_ITEMS, ...HAPPINESS_ITEMS, ...COSMETICS]
 
+// ─── Daily quest types ────────────────────────────────────────────────────────
+export const QUEST_TYPES = [
+  { id: 'correct3',   label: 'Answer 3 questions correctly', goal: 3, icon: '🎯', action: 'answer_correct'    },
+  { id: 'quiz',       label: 'Complete a quiz',              goal: 1, icon: '✅', action: 'complete_quiz'      },
+  { id: 'speedround', label: 'Try a Speed Round',            goal: 1, icon: '⚡', action: 'complete_speedround' },
+  { id: 'mistakes',   label: 'Review your mistakes',         goal: 1, icon: '📕', action: 'complete_mistakes'  },
+]
+
 // ─── Personality message pools ────────────────────────────────────────────────
 // Placeholders: {name}, {streak}, {daysSince}, {stage}, {stageName}
 export const PET_MESSAGES = {

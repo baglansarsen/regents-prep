@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { View, Text, TouchableOpacity, Animated, StyleSheet } from 'react-native'
 import { usePetContext } from '../context/PetContext'
 import { PETS, STAGE_OVERLAYS } from '../data/petConfig'
@@ -12,21 +12,53 @@ const PARTICLE_POSITIONS = [
   { bottom: 10, right: 5  },
 ]
 
-export default function PetWidget({ size = 120, onPress }) {
-  const { pet, activeReaction } = usePetContext()
+export default function PetWidget({ size = 120, onPress, onLongPress, mini = false }) {
+  const { pet, activeReaction, petPet } = usePetContext()
   const config = PETS.find((p) => p.id === pet.petType)
 
   // ─── Animation values ───────────────────────────────────────────────────
-  const translateY = useRef(new Animated.Value(0)).current
-  const rotateZ    = useRef(new Animated.Value(0)).current
-  const scale      = useRef(new Animated.Value(1)).current
-  const opacity    = useRef(new Animated.Value(1)).current
-  const translateX = useRef(new Animated.Value(0)).current
-  const idleRef    = useRef(null)
+  const translateY   = useRef(new Animated.Value(0)).current
+  const rotateZ      = useRef(new Animated.Value(0)).current
+  const scale        = useRef(new Animated.Value(1)).current
+  const opacity      = useRef(new Animated.Value(1)).current
+  const translateX   = useRef(new Animated.Value(0)).current
+  const floatY       = useRef(new Animated.Value(0)).current
+  const floatOpacity = useRef(new Animated.Value(0)).current
+  const idleRef      = useRef(null)
+  const [floatText, setFloatText] = useState('')
 
-  // ─── Idle animation (per pet type) ──────────────────────────────────────
+  // ─── Tap handler (non-mini): calls petPet, shows floating text ───────────
+  async function handleTap() {
+    if (mini) { onPress?.(); return }
+    const result = await petPet()
+    if (result?.ok) {
+      setFloatText('+8 😊')
+      floatY.setValue(0)
+      floatOpacity.setValue(1)
+      Animated.parallel([
+        Animated.timing(floatY,       { toValue: -50, duration: 900, useNativeDriver: true }),
+        Animated.sequence([
+          Animated.delay(400),
+          Animated.timing(floatOpacity, { toValue: 0, duration: 500, useNativeDriver: true }),
+        ]),
+      ]).start()
+    } else if (result?.reason === 'limit') {
+      setFloatText('All taps used today 🥹')
+      floatY.setValue(0)
+      floatOpacity.setValue(1)
+      Animated.parallel([
+        Animated.timing(floatY,       { toValue: -40, duration: 700, useNativeDriver: true }),
+        Animated.sequence([
+          Animated.delay(300),
+          Animated.timing(floatOpacity, { toValue: 0, duration: 400, useNativeDriver: true }),
+        ]),
+      ]).start()
+    }
+  }
+
+  // ─── Idle animation (per pet type, skipped in mini mode) ────────────────
   useEffect(() => {
-    if (!config) return
+    if (!config || mini) return
     idleRef.current?.stop()
 
     if (config.idleAnim === 'float') {
@@ -137,8 +169,19 @@ export default function PetWidget({ size = 120, onPress }) {
 
   const rotateStr = rotateZ.interpolate({ inputRange: [-1, 1], outputRange: ['-57.3deg', '57.3deg'] })
 
+  // Mini mode: compact touchable for quiz overlay
+  if (mini) {
+    return (
+      <TouchableOpacity onPress={onPress} activeOpacity={0.8} style={s.miniContainer}>
+        <Animated.View style={[{ transform: [{ scale }, { translateY }], opacity }]}>
+          <Text style={{ fontSize: size * 0.7 }}>{petEmoji}</Text>
+        </Animated.View>
+      </TouchableOpacity>
+    )
+  }
+
   return (
-    <TouchableOpacity onPress={onPress} activeOpacity={0.85} style={[s.container, { width: size * 1.6, height: size * 1.5 }]}>
+    <TouchableOpacity onPress={handleTap} onLongPress={onLongPress} activeOpacity={0.85} style={[s.container, { width: size * 1.6, height: size * 1.5 }]}>
 
       {/* Stage 4 particle effects */}
       {pet.stage >= 4 && PARTICLE_POSITIONS.map((pos, i) => (
@@ -188,6 +231,16 @@ export default function PetWidget({ size = 120, onPress }) {
       {/* Pet name */}
       <Text style={s.petName}>{pet.name}</Text>
 
+      {/* Long-press hint */}
+      <Text style={s.shopHint}>hold for shop</Text>
+
+      {/* Floating "+8 😊" feedback */}
+      {floatText ? (
+        <Animated.Text style={[s.floatText, { transform: [{ translateY: floatY }], opacity: floatOpacity }]}>
+          {floatText}
+        </Animated.Text>
+      ) : null}
+
     </TouchableOpacity>
   )
 }
@@ -198,6 +251,10 @@ const s = StyleSheet.create({
     justifyContent: 'center',
     alignSelf:      'center',
     position:       'relative',
+  },
+  miniContainer: {
+    alignItems:     'center',
+    justifyContent: 'center',
   },
   emojiWrap:     { alignItems: 'center', justifyContent: 'center' },
   stageBadge:    { position: 'absolute', top: 6, right: 12 },
@@ -225,5 +282,21 @@ const s = StyleSheet.create({
     fontSize:    13,
     color:       'rgba(100,100,100,0.85)',
     textAlign:   'center',
+  },
+  shopHint: {
+    position:  'absolute',
+    bottom:    -14,
+    fontSize:  10,
+    color:     'rgba(150,150,150,0.6)',
+    textAlign: 'center',
+  },
+  floatText: {
+    position:   'absolute',
+    top:        10,
+    fontFamily: 'Nunito_800ExtraBold',
+    fontSize:   15,
+    color:      '#10B981',
+    textAlign:  'center',
+    zIndex:     10,
   },
 })

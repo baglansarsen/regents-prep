@@ -28,7 +28,7 @@ export default function SpeedRoundScreen({ route, navigation }) {
   const { markStudied } = useDailyStreak(uid)
   const { xpMultiplier } = useDoubleXP()
   const { earnCoins } = useCoinsContext()
-  const { checkAndEvolve } = usePetContext()
+  const { checkAndEvolve, updateQuestProgress } = usePetContext()
 
   const [index,     setIndex]     = useState(0)
   const [score,     setScore]     = useState(0)
@@ -87,6 +87,7 @@ export default function SpeedRoundScreen({ route, navigation }) {
     earnCoins(Math.floor(xpEarned / 10))
     checkAndEvolve(xp + xpEarned)
     markStudied()
+    updateQuestProgress('complete_speedround')
   }
 
   if (phase === 'done') {

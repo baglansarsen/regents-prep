@@ -3,9 +3,13 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { doc, getDoc, setDoc, getDocs, collection, increment } from 'firebase/firestore'
 import { db } from '../firebase'
 import {
-  stageForXP, PET_MESSAGES, STAGE_NAMES,
+  stageForXP, PET_MESSAGES, STAGE_NAMES, QUEST_TYPES,
   FOOD_ITEMS, HAPPINESS_ITEMS, HUNGER_ALERTS, HAPPINESS_ALERTS,
 } from '../data/petConfig'
+
+function today() {
+  return new Date().toISOString().slice(0, 10)
+}
 
 const AS_KEY_PET = '@petData_v1'
 const AS_KEY_EVO = '@petPendingEvo_v1'
@@ -276,6 +280,68 @@ export function usePet(uid) {
       .replace(/\{stageName\}/g, STAGE_NAMES[current.stage] ?? '')
   }, [])
 
+  // ─── petPet (tap-to-pet, 3×/day free happiness boost) ───────────────────────
+  const petPet = useCallback(async () => {
+    const key   = `@petted_v1_${today()}_${uid_ref.current ?? 'anon'}`
+    const count = parseInt(await AsyncStorage.getItem(key).catch(() => null) || '0')
+    if (count >= 3) { triggerReaction('sympathetic'); return { ok: false, reason: 'limit' } }
+    await AsyncStorage.setItem(key, String(count + 1)).catch(() => {})
+    const updated = { ...petRef.current, happiness: clamp(petRef.current.happiness + 8, 0, 100) }
+    await savePet(updated)
+    triggerReaction('cheer')
+    return { ok: true, remaining: 2 - count }
+  }, [triggerReaction])
+
+  // ─── dailyDig (once-per-day random reward) ───────────────────────────────────
+  const dailyDig = useCallback(async () => {
+    const key  = `@lastDig_v1_${uid_ref.current ?? 'anon'}`
+    const last = await AsyncStorage.getItem(key).catch(() => null)
+    if (last === today()) return { ok: false }
+    await AsyncStorage.setItem(key, today()).catch(() => {})
+    triggerReaction('happy_dance')
+    if (Math.random() > 0.5) {
+      const amt = 5 + Math.floor(Math.random() * 11)
+      return { ok: true, type: 'coins', amount: amt }
+    } else {
+      const foods = ['apple', 'ramen']
+      const item  = foods[Math.floor(Math.random() * foods.length)]
+      await addInventory(item, 1)
+      return { ok: true, type: 'item', itemId: item }
+    }
+  }, [addInventory, triggerReaction])
+
+  // ─── Quest helpers ────────────────────────────────────────────────────────────
+  function questKey() { return `@dailyQuest_v1_${uid_ref.current ?? 'anon'}` }
+
+  const getTodayQuest = useCallback(async () => {
+    const dayIndex = Math.floor(Date.now() / 86_400_000)
+    const def      = QUEST_TYPES[dayIndex % QUEST_TYPES.length]
+    let stored = null
+    try { const raw = await AsyncStorage.getItem(questKey()); if (raw) stored = JSON.parse(raw) } catch {}
+    const valid    = stored?.date === today() && stored?.questId === def.id
+    return { ...def, progress: valid ? (stored.progress ?? 0) : 0, completed: valid ? !!stored.completed : false }
+  }, [])
+
+  const updateQuestProgress = useCallback(async (action, count = 1) => {
+    const dayIndex = Math.floor(Date.now() / 86_400_000)
+    const def      = QUEST_TYPES[dayIndex % QUEST_TYPES.length]
+    if (def.action !== action) return { completed: false }
+    let stored = null
+    try { const raw = await AsyncStorage.getItem(questKey()); if (raw) stored = JSON.parse(raw) } catch {}
+    const valid = stored?.date === today() && stored?.questId === def.id
+    if (valid && stored.completed) return { completed: true, alreadyDone: true }
+    const progress  = (valid ? (stored.progress ?? 0) : 0) + count
+    const completed = progress >= def.goal
+    await AsyncStorage.setItem(questKey(), JSON.stringify({
+      date: today(), questId: def.id, progress, completed,
+    })).catch(() => {})
+    if (completed && !(valid && stored.completed)) {
+      triggerReaction('celebrate')
+      return { completed: true, coins: 25 }
+    }
+    return { completed }
+  }, [triggerReaction])
+
   // ─── initializePet (called from PetPickerScreen) ──────────────────────────
   const initializePet = useCallback(async (petType, name) => {
     const newPet = {
@@ -306,5 +372,9 @@ export function usePet(uid) {
     triggerReaction,
     getPetMessage,
     initializePet,
+    petPet,
+    dailyDig,
+    getTodayQuest,
+    updateQuestProgress,
   }
 }

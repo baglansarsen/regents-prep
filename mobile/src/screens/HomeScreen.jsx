@@ -1,8 +1,9 @@
 import React, { useMemo, useState, useRef, useCallback } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, StyleSheet,
-  Dimensions, Alert, Animated,
+  Dimensions, Alert, Animated, Modal,
 } from 'react-native'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
@@ -24,8 +25,17 @@ import GoalRing from '../components/GoalRing'
 import UnitBanner from '../components/UnitBanner'
 import PetWidget from '../components/PetWidget'
 import PetStatusBars from '../components/PetStatusBars'
+import PetTriviaCard from '../components/PetTriviaCard'
 import { usePetContext } from '../context/PetContext'
 import { useCoinsContext } from '../context/CoinsContext'
+import { FOOD_ITEMS } from '../data/petConfig'
+
+const MILESTONE_GIFTS = {
+  3:  { coins: 20,  items: {},             label: '20 💰 coins!' },
+  7:  { coins: 50,  items: { apple: 1 },   label: '50 💰 coins + 🍎 Apple!' },
+  14: { coins: 100, items: { ramen: 1 },   label: '100 💰 coins + 🍜 Ramen!' },
+  30: { coins: 200, items: { sushi: 1, glowAura: 1 }, label: '200 💰 coins + 🍣 Sushi + ✨ Glow Aura!' },
+}
 
 const { width } = Dimensions.get('window')
 const NODE_SIZE = 84
@@ -55,15 +65,42 @@ export default function HomeScreen({ navigation }) {
   useFocusEffect(useCallback(() => {
     reloadSkipUnlocks()
     if (pendingEvolution) navigation.navigate('PetEvolution')
-  }, [reloadSkipUnlocks, pendingEvolution]))
+
+    // Refresh quest data
+    getTodayQuest().then(setQuestData).catch(() => {})
+
+    // Streak milestone gifts
+    if (uid && streak > 0) {
+      ;(async () => {
+        const MILESTONES = [3, 7, 14, 30]
+        const key        = `@milestoneGiven_v1_${uid}`
+        const lastStr    = await AsyncStorage.getItem(key).catch(() => null)
+        const last       = parseInt(lastStr || '0')
+        const earned     = MILESTONES.filter((m) => streak >= m && m > last)
+        if (earned.length === 0) return
+        const top  = earned[earned.length - 1]
+        const gift = MILESTONE_GIFTS[top]
+        await AsyncStorage.setItem(key, String(top)).catch(() => {})
+        if (gift.coins)   await earnCoins(gift.coins)
+        for (const [itemId, qty] of Object.entries(gift.items ?? {})) {
+          await addInventory(itemId, qty)
+        }
+        triggerReaction('celebrate')
+        setMilestoneModal({ streak: top, label: gift.label })
+      })()
+    }
+  }, [reloadSkipUnlocks, pendingEvolution, uid, streak]))
 
   const { goal, setGoal, todayXP, progress: goalProgress, goalMet, GOALS } = useDailyGoal(xp)
   const { mistakes, mistakeCount } = useMistakes()
-  const { pet, pendingEvolution, getPetMessage } = usePetContext()
-  const { coins } = useCoinsContext()
+  const { pet, pendingEvolution, getPetMessage, dailyDig, getTodayQuest, updateQuestProgress, triggerReaction, addInventory } = usePetContext()
+  const { coins, earnCoins } = useCoinsContext()
 
   const [selectedLesson,  setSelectedLesson]  = useState(null)
   const [showGoalPicker,  setShowGoalPicker]   = useState(false)
+  const [digReward,       setDigReward]        = useState(null)
+  const [questData,       setQuestData]        = useState(null)
+  const [milestoneModal,  setMilestoneModal]   = useState(null)
   const sheetAnim     = useRef(new Animated.Value(400)).current
   const goalSheetAnim = useRef(new Animated.Value(400)).current
 
@@ -178,6 +215,17 @@ export default function HomeScreen({ navigation }) {
     navigation.navigate('SpeedRound', { questionSet: pool, subject })
   }
 
+  async function handleDig() {
+    const result = await dailyDig()
+    if (!result.ok) return
+    if (result.type === 'coins') await earnCoins(result.amount)
+    const label = result.type === 'coins'
+      ? `${pet.name} found 💰 ${result.amount} coins!`
+      : `${pet.name} dug up a ${FOOD_ITEMS.find((f) => f.id === result.itemId)?.icon ?? '🎁'}!`
+    setDigReward(label)
+    setTimeout(() => setDigReward(null), 3000)
+  }
+
   const s = makeStyles(C)
 
   // ── Within-unit lesson unlock ──────────────────────────────────────────────
@@ -287,8 +335,9 @@ export default function HomeScreen({ navigation }) {
         {/* StudyBuddy pet */}
         {pet.chosen && (
           <View style={s.petSection}>
-            <PetWidget onPress={() => navigation.navigate('PetShop')} />
+            <PetWidget onLongPress={() => navigation.navigate('PetShop')} />
             <PetStatusBars />
+
             {/* Personality message */}
             {(() => {
               const daysSince = studiedToday ? 0 : 1
@@ -302,8 +351,49 @@ export default function HomeScreen({ navigation }) {
                 </View>
               )
             })()}
+
+            {/* Daily dig button */}
+            <TouchableOpacity
+              style={[s.digBtn, { backgroundColor: C.surface, borderColor: C.border }]}
+              onPress={handleDig}
+              activeOpacity={0.8}
+            >
+              <Text style={{ fontSize: 18 }}>🐾</Text>
+              <Text style={[T.btn, { color: C.text, fontSize: 13 }]}>Let {pet.name} dig!</Text>
+              <Text style={[T.small, { color: C.textMuted }]}>once/day</Text>
+            </TouchableOpacity>
+            {digReward && (
+              <View style={[s.digRewardBanner, { backgroundColor: C.brandBg, borderColor: C.brand }]}>
+                <Text style={[T.body, { color: C.brand, textAlign: 'center' }]}>{digReward}</Text>
+              </View>
+            )}
           </View>
         )}
+
+        {/* Daily quest card */}
+        {questData && pet.chosen && (
+          <View style={[s.questCard, { backgroundColor: C.surface, borderColor: C.border }]}>
+            <View style={s.questHeader}>
+              <Text style={{ fontSize: 18 }}>{questData.icon}</Text>
+              <Text style={[T.h3, { color: C.text, flex: 1 }]}>{questData.label}</Text>
+              {questData.completed
+                ? <Text style={[T.label, { color: C.correct }]}>✓ DONE</Text>
+                : <Text style={[T.small, { color: C.textMuted }]}>+25 💰</Text>}
+            </View>
+            <View style={s.questBg}>
+              <View style={[s.questFill, {
+                width: `${Math.min(100, (questData.progress / questData.goal) * 100)}%`,
+                backgroundColor: questData.completed ? C.correct : C.brand,
+              }]} />
+            </View>
+            <Text style={[T.small, { color: C.textMuted, marginTop: 4 }]}>
+              {questData.progress}/{questData.goal} completed
+            </Text>
+          </View>
+        )}
+
+        {/* Pet trivia card */}
+        <PetTriviaCard />
 
         {/* Quick actions — 2×2 grid */}
         <View style={s.quickGrid}>
@@ -570,6 +660,31 @@ export default function HomeScreen({ navigation }) {
         </Animated.View>
       )}
 
+      {/* ── Streak milestone gift modal ── */}
+      <Modal transparent visible={!!milestoneModal} animationType="fade" onRequestClose={() => setMilestoneModal(null)}>
+        <View style={s.modalBackdrop}>
+          <View style={[s.modalCard, { backgroundColor: C.surface }]}>
+            <Text style={{ fontSize: 52, textAlign: 'center' }}>🎁</Text>
+            <Text style={[T.h2, { color: C.text, textAlign: 'center', marginTop: 8 }]}>
+              {milestoneModal?.streak}-Day Streak!
+            </Text>
+            <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 4 }]}>
+              {pet.name} has a gift for you!
+            </Text>
+            <Text style={[T.h3, { color: C.brand, textAlign: 'center', marginTop: 12 }]}>
+              {milestoneModal?.label}
+            </Text>
+            <TouchableOpacity
+              style={[duoBtn(C.brand, C.brandDark), { marginTop: 20 }]}
+              onPress={() => setMilestoneModal(null)}
+              activeOpacity={0.85}
+            >
+              <Text style={[T.btn, { color: '#fff' }]}>CLAIM! 🎉</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </Modal>
+
     </SafeAreaView>
   )
 }
@@ -593,6 +708,45 @@ function makeStyles(C) {
       marginHorizontal: 24, marginTop: 10,
       borderRadius: 14, borderWidth: 1,
       paddingHorizontal: 16, paddingVertical: 10,
+    },
+    digBtn: {
+      flexDirection:  'row',
+      alignItems:     'center',
+      justifyContent: 'center',
+      gap:            8,
+      marginHorizontal: 24,
+      marginTop:      10,
+      borderRadius:   14,
+      borderWidth:    1,
+      paddingVertical: 10,
+      paddingHorizontal: 16,
+    },
+    digRewardBanner: {
+      marginHorizontal: 24, marginTop: 8,
+      borderRadius: 12, borderWidth: 1,
+      paddingVertical: 8, paddingHorizontal: 14,
+    },
+    questCard: {
+      marginHorizontal: 16, marginTop: 12, marginBottom: 4,
+      borderRadius: 16, borderWidth: 1,
+      padding: 14, gap: 4,
+    },
+    questHeader: { flexDirection: 'row', alignItems: 'center', gap: 8, marginBottom: 6 },
+    questBg:     { height: 8, backgroundColor: C.surface2, borderRadius: 4, overflow: 'hidden' },
+    questFill:   { height: 8, borderRadius: 4 },
+    modalBackdrop: {
+      flex: 1,
+      backgroundColor: 'rgba(0,0,0,0.55)',
+      justifyContent:  'center',
+      alignItems:      'center',
+      padding:         24,
+    },
+    modalCard: {
+      width:        '100%',
+      borderRadius: 24,
+      padding:      28,
+      alignItems:   'center',
+      gap:          4,
     },
 
     weekRow:    { flexDirection: 'row', justifyContent: 'center', gap: 8, marginBottom: 20, paddingHorizontal: 16 },
