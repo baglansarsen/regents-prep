@@ -4,21 +4,22 @@ import { T, cardShadow } from '../styles/duo'
 
 export default function UnitBanner({ unit, unitIndex, completed, total, locked, C, onTips }) {
   const bg          = locked ? C.surface2 : unit.color
-  const textColor   = locked ? C.textMuted : '#fff'
-  const barFill     = locked ? C.border    : unit.darkColor
-  const barTrack    = locked ? C.surface3  : 'rgba(255,255,255,0.25)'
+  const textColor   = locked ? C.text     : '#fff'
+  const subColor    = locked ? C.textMuted : 'rgba(255,255,255,0.8)'
+  const barFill     = locked ? C.border   : unit.darkColor
+  const barTrack    = locked ? C.surface3 : 'rgba(255,255,255,0.25)'
   const fillPct     = total > 0 ? Math.min(completed / total, 1) : 0
 
   return (
     <View style={[styles.banner, { backgroundColor: bg }, cardShadow(C.shadow)]}>
       <View style={styles.row}>
         <View style={[styles.pill, { backgroundColor: locked ? C.surface3 : unit.darkColor }]}>
-          <Text style={[T.label, { color: locked ? C.textDim : '#fff' }]}>UNIT {unitIndex + 1}</Text>
+          <Text style={[T.label, { color: locked ? C.textMuted : '#fff' }]}>UNIT {unitIndex + 1}</Text>
         </View>
         <Text style={{ fontSize: 22, marginLeft: 10 }}>{locked ? '🔒' : unit.icon}</Text>
         <View style={styles.titleBlock}>
           <Text style={[T.h3, { color: textColor }]} numberOfLines={1}>{unit.title}</Text>
-          <Text style={[T.small, { color: locked ? C.textDim : 'rgba(255,255,255,0.8)' }]}>
+          <Text style={[T.small, { color: subColor }]}>
             {completed}/{total} lessons
           </Text>
         </View>

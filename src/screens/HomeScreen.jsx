@@ -169,7 +169,7 @@ function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onConte
                   onClick={(e) => { e.stopPropagation(); onTips(topic) }}
                   onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.stopPropagation(); onTips(topic) } }}
                 >
-                  💡
+                  💡 Tips
                 </div>
               )}
             </button>

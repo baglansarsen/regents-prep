@@ -692,13 +692,13 @@ export default function HomeScreen({ navigation }) {
       {/* ── Tips sheet ── */}
       {tipsUnit && (
         <Animated.View
-          style={[s.sheet, cardShadow(C.shadow), { backgroundColor: C.surface, transform: [{ translateY: tipsAnim }], maxHeight: '80%' }]}
+          style={[s.sheet, cardShadow(C.shadow), { backgroundColor: C.surface, transform: [{ translateY: tipsAnim }], maxHeight: Math.round(Dimensions.get('window').height * 0.82) }]}
         >
           <View style={s.sheetHandle} />
           <Text style={[T.h3, { color: C.text, marginBottom: 16 }]} numberOfLines={1}>
             {tipsUnit.icon} {tipsUnit.title} — Test Tips
           </Text>
-          <ScrollView showsVerticalScrollIndicator={false} style={{ marginBottom: 12 }}>
+          <ScrollView showsVerticalScrollIndicator={false} style={{ marginBottom: 0 }} contentContainerStyle={{ paddingBottom: 8 }}>
             {STRATEGY_CATEGORIES.map((cat) => {
               const tips = (sd.strategies?.[tipsUnit.id]?.[cat.key]) ?? []
               const open = expandedTip === cat.key
@@ -731,7 +731,7 @@ export default function HomeScreen({ navigation }) {
             })}
           </ScrollView>
           <TouchableOpacity
-            style={duoBtn(tipsUnit.color, tipsUnit.darkColor, { marginTop: 4 })}
+            style={duoBtn(tipsUnit.color, tipsUnit.darkColor, { marginTop: 14 })}
             onPress={closeTips}
             activeOpacity={0.85}
           >
