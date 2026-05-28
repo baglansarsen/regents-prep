@@ -3,7 +3,7 @@ import {
   View, Text, TouchableOpacity, ScrollView, StyleSheet,
   TextInput, Alert,
 } from 'react-native'
-import { SafeAreaView } from 'react-native-safe-area-context'
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { usePetContext } from '../context/PetContext'
 import { useCoinsContext } from '../context/CoinsContext'
@@ -17,6 +17,7 @@ export default function PetShopScreen({ navigation }) {
   const { pet, inventory, feedPet, playWithPet, addInventory, toggleCosmetic, renamePet } = usePetContext()
   const { coins, spendCoins } = useCoinsContext()
 
+  const insets = useSafeAreaInsets()
   const [tab,      setTab]      = useState(0)
   const [nameInput, setNameInput] = useState(pet.name ?? '')
   const s = makeStyles(C)
@@ -124,11 +125,11 @@ export default function PetShopScreen({ navigation }) {
   const items = tab === 0 ? FOOD_ITEMS : tab === 1 ? HAPPINESS_ITEMS : tab === 2 ? COSMETICS : []
 
   return (
-    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
       <ScrollView contentContainerStyle={s.scroll} showsVerticalScrollIndicator={false}>
 
         {/* Header */}
-        <View style={s.header}>
+        <View style={[s.header, { paddingTop: insets.top + 10 }]}>
           <TouchableOpacity onPress={() => navigation.goBack()} style={s.backBtn}>
             <Text style={[T.body, { color: C.text }]}>← Back</Text>
           </TouchableOpacity>
