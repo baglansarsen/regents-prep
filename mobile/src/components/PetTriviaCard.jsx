@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
-import { useCoinsContext } from '../context/CoinsContext'
+import { useXP } from '../hooks/useXP'
 import { usePetContext } from '../context/PetContext'
 import { getDayQuestion } from '../data/triviaPool'
 import { T } from '../styles/duo'
@@ -14,7 +14,7 @@ export default function PetTriviaCard() {
   const { C }           = useTheme()
   const { user }        = useAuthContext()
   const uid             = user?.uid
-  const { earnCoins }   = useCoinsContext()
+  const { earnXP }      = useXP(uid)
   const { pet, triggerReaction } = usePetContext()
 
   const [q,         setQ]         = useState(null)
@@ -41,7 +41,7 @@ export default function PetTriviaCard() {
     setAnswered(true)
     await AsyncStorage.setItem(`@triviaDate_v1_${uid}`, today()).catch(() => {})
     if (ok) {
-      await earnCoins(10)
+      await earnXP(50)
       triggerReaction('cheer')
     } else {
       triggerReaction('sad')
@@ -96,7 +96,7 @@ export default function PetTriviaCard() {
       </View>
       {selected !== null && (
         <Text style={[T.small, { color: isCorrect ? C.correct : C.wrong, textAlign: 'center', marginTop: 6 }]}>
-          {isCorrect ? '🎉 Correct! +10 💰' : `❌ Answer: ${q.choices[correctIdx]}`}
+          {isCorrect ? '🎉 Correct! +50 ⭐' : `❌ Answer: ${q.choices[correctIdx]}`}
         </Text>
       )}
     </View>

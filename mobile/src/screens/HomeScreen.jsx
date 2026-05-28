@@ -28,14 +28,13 @@ import PetWidget from '../components/PetWidget'
 import PetStatusBars from '../components/PetStatusBars'
 import PetTriviaCard from '../components/PetTriviaCard'
 import { usePetContext } from '../context/PetContext'
-import { useCoinsContext } from '../context/CoinsContext'
 import { FOOD_ITEMS } from '../data/petConfig'
 
 const MILESTONE_GIFTS = {
-  3:  { coins: 20,  items: {},             label: '20 💰 coins!' },
-  7:  { coins: 50,  items: { apple: 1 },   label: '50 💰 coins + 🍎 Apple!' },
-  14: { coins: 100, items: { ramen: 1 },   label: '100 💰 coins + 🍜 Ramen!' },
-  30: { coins: 200, items: { sushi: 1, glowAura: 1 }, label: '200 💰 coins + 🍣 Sushi + ✨ Glow Aura!' },
+  3:  { xp: 100,  items: {},                       label: '100 ⭐ XP!' },
+  7:  { xp: 250,  items: { apple: 1 },             label: '250 ⭐ XP + 🍎 Apple!' },
+  14: { xp: 500,  items: { ramen: 1 },             label: '500 ⭐ XP + 🍜 Ramen!' },
+  30: { xp: 1000, items: { sushi: 1, glowAura: 1 }, label: '1000 ⭐ XP + 🍣 Sushi + ✨ Glow Aura!' },
 }
 
 const { width } = Dimensions.get('window')
@@ -52,7 +51,7 @@ export default function HomeScreen({ navigation }) {
 
   const { history } = useProgress(uid)
   const { weekDays, streak, studiedToday } = useDailyStreak(uid)
-  const { xp, spendXP }         = useXP(uid)
+  const { xp, earnXP, spendXP } = useXP(uid)
   const { lives, maxLives, nextRefillAt, refillLives } = useLivesContext()
 
   const subjectHistory = useMemo(
@@ -82,7 +81,7 @@ export default function HomeScreen({ navigation }) {
         const top  = earned[earned.length - 1]
         const gift = MILESTONE_GIFTS[top]
         await AsyncStorage.setItem(key, String(top)).catch(() => {})
-        if (gift.coins)   await earnCoins(gift.coins)
+        if (gift.xp)      await earnXP(gift.xp)
         for (const [itemId, qty] of Object.entries(gift.items ?? {})) {
           await addInventory(itemId, qty)
         }
@@ -95,7 +94,6 @@ export default function HomeScreen({ navigation }) {
   const { goal, setGoal, todayXP, progress: goalProgress, goalMet, GOALS } = useDailyGoal(xp)
   const { mistakes, mistakeCount } = useMistakes()
   const { pet, pendingEvolution, getPetMessage, dailyDig, getTodayQuest, updateQuestProgress, triggerReaction, addInventory } = usePetContext()
-  const { coins, earnCoins } = useCoinsContext()
 
   const [selectedLesson,  setSelectedLesson]  = useState(null)
   const [showGoalPicker,  setShowGoalPicker]   = useState(false)
@@ -237,9 +235,9 @@ export default function HomeScreen({ navigation }) {
   async function handleDig() {
     const result = await dailyDig()
     if (!result.ok) return
-    if (result.type === 'coins') await earnCoins(result.amount)
-    const label = result.type === 'coins'
-      ? `${pet.name} found 💰 ${result.amount} coins!`
+    if (result.type === 'xp') await earnXP(result.amount)
+    const label = result.type === 'xp'
+      ? `${pet.name} found ⭐ ${result.amount} XP!`
       : `${pet.name} dug up a ${FOOD_ITEMS.find((f) => f.id === result.itemId)?.icon ?? '🎁'}!`
     setDigReward(label)
     setTimeout(() => setDigReward(null), 3000)
@@ -291,11 +289,6 @@ export default function HomeScreen({ navigation }) {
               {user?.displayName?.split(' ')[0] ?? 'Student'} · Level {Math.floor(xp / 500) + 1}
             </Text>
           </View>
-          {coins > 0 && (
-            <View style={[s.coinChip, { backgroundColor: C.surface2, borderColor: C.border }]}>
-              <Text style={[T.body, { color: '#F59E0B' }]}>💰 {coins.toLocaleString()}</Text>
-            </View>
-          )}
         </View>
 
         {/* Week streak dots */}

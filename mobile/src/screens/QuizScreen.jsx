@@ -14,7 +14,6 @@ import { useRewardedAd } from '../hooks/useRewardedAd'
 import { useQuiz } from '../hooks/useQuiz'
 import { appendMistakes } from '../hooks/useMistakes'
 import { useDoubleXP } from '../context/DoubleXPContext'
-import { useCoinsContext } from '../context/CoinsContext'
 import { usePetContext } from '../context/PetContext'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 import PetWidget from '../components/PetWidget'
@@ -60,7 +59,6 @@ export default function QuizScreen({ route, navigation }) {
   const { xp, earnXP, spendXP }  = useXP(uid)
   const { lives, maxLives, nextRefillAt, loseLife, refillLives, addLife } = useLivesContext()
   const { ready: adReady, showAd } = useRewardedAd({ onReward: addLife })
-  const { earnCoins } = useCoinsContext()
   const { checkAndEvolve, triggerReaction, updateQuestProgress, getPetMessage } = usePetContext()
 
   const [showBubble, setShowBubble] = useState(false)
@@ -139,7 +137,6 @@ export default function QuizScreen({ route, navigation }) {
       saveResult({ topic, score, total, correct, pct, subject, lessonIndex })
       markStudied()
       earnXP(xpEarned)
-      earnCoins(Math.floor(xpEarned / 10))
       checkAndEvolve(xp + xpEarned)
       if (pct === 100)       triggerReaction('cheer')
       else if (pct >= 85)    triggerReaction('happy_dance')

@@ -9,7 +9,6 @@ import { useAuthContext } from '../context/AuthContext'
 import { useXP } from '../hooks/useXP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { appendMistakes } from '../hooks/useMistakes'
-import { useCoinsContext } from '../context/CoinsContext'
 import { usePetContext } from '../context/PetContext'
 
 const EXAM_MINUTES = 85
@@ -23,7 +22,6 @@ export default function ExamScreen({ route, navigation }) {
   const uid = user?.uid
   const { xp, earnXP } = useXP(uid)
   const { markStudied } = useDailyStreak(uid)
-  const { earnCoins } = useCoinsContext()
   const { checkAndEvolve } = usePetContext()
 
   const [currentIdx, setCurrentIdx] = useState(0)
@@ -61,7 +59,6 @@ export default function ExamScreen({ route, navigation }) {
     const correct   = questions.filter((q, i) => answers[i] === (q.correct ?? q.correctIndex)).length
     const xpEarned  = correct * 5
     earnXP(xpEarned)
-    earnCoins(Math.floor(xpEarned / 10))
     checkAndEvolve(xp + xpEarned)
     markStudied()
 

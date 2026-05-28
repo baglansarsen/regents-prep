@@ -318,8 +318,8 @@ export function usePet(uid) {
     await AsyncStorage.setItem(key, today()).catch(() => {})
     triggerReaction('happy_dance')
     if (Math.random() > 0.5) {
-      const amt = 5 + Math.floor(Math.random() * 11)
-      return { ok: true, type: 'coins', amount: amt }
+      const amt = 25 + Math.floor(Math.random() * 51)  // 25–75 XP
+      return { ok: true, type: 'xp', amount: amt }
     } else {
       const foods = ['apple', 'ramen']
       const item  = foods[Math.floor(Math.random() * foods.length)]
@@ -355,7 +355,7 @@ export function usePet(uid) {
     })).catch(() => {})
     if (completed && !(valid && stored.completed)) {
       triggerReaction('celebrate')
-      return { completed: true, coins: 25 }
+      return { completed: true, xp: 125 }
     }
     return { completed }
   }, [triggerReaction])
@@ -365,6 +365,22 @@ export function usePet(uid) {
     const newPet = {
       petType,
       name,
+      stage:        1,
+      hunger:       100,
+      happiness:    100,
+      lastCheckedAt: new Date().toISOString(),
+      accessories:  [],
+      chosen:       true,
+    }
+    await savePet(newPet)
+  }, [])
+
+  // ─── switchBuddy (called from PetShopScreen) ──────────────────────────────
+  const switchBuddy = useCallback(async (newPetType) => {
+    const currentName = petRef.current.name
+    const newPet = {
+      petType:      newPetType,
+      name:         currentName,
       stage:        1,
       hunger:       100,
       happiness:    100,
@@ -391,6 +407,7 @@ export function usePet(uid) {
     triggerReaction,
     getPetMessage,
     initializePet,
+    switchBuddy,
     petPet,
     dailyDig,
     getTodayQuest,

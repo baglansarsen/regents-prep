@@ -6,7 +6,6 @@ import { useAuthContext } from '../context/AuthContext'
 import { useXP } from '../hooks/useXP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useDoubleXP } from '../context/DoubleXPContext'
-import { useCoinsContext } from '../context/CoinsContext'
 import { usePetContext } from '../context/PetContext'
 
 const ROUND_SECONDS = 60
@@ -27,7 +26,6 @@ export default function SpeedRoundScreen({ route, navigation }) {
   const { xp, earnXP } = useXP(uid)
   const { markStudied } = useDailyStreak(uid)
   const { xpMultiplier } = useDoubleXP()
-  const { earnCoins } = useCoinsContext()
   const { checkAndEvolve, updateQuestProgress } = usePetContext()
 
   const [index,     setIndex]     = useState(0)
@@ -84,7 +82,6 @@ export default function SpeedRoundScreen({ route, navigation }) {
     setPhase('done')
     const xpEarned = Math.round(correct * 10 * xpMultiplier)
     earnXP(correct * 10, xpMultiplier)
-    earnCoins(Math.floor(xpEarned / 10))
     checkAndEvolve(xp + xpEarned)
     markStudied()
     updateQuestProgress('complete_speedround')

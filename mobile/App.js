@@ -15,7 +15,6 @@ import { SubjectProvider } from './src/context/SubjectContext'
 import { DoubleXPProvider } from './src/context/DoubleXPContext'
 import { LivesProvider } from './src/context/LivesContext'
 import { SubscriptionProvider } from './src/context/SubscriptionContext'
-import { CoinsProvider } from './src/context/CoinsContext'
 import { PetProvider }   from './src/context/PetContext'
 import AppNavigator from './src/navigation/AppNavigator'
 
@@ -60,13 +59,11 @@ export default function App() {
         <DoubleXPProvider>
           <AuthProvider>
             <SubscriptionProvider>
-              <CoinsProvider>
-                <LivesProvider>
-                  <PetProvider>
-                    <Inner />
-                  </PetProvider>
-                </LivesProvider>
-              </CoinsProvider>
+              <LivesProvider>
+                <PetProvider>
+                  <Inner />
+                </PetProvider>
+              </LivesProvider>
             </SubscriptionProvider>
           </AuthProvider>
         </DoubleXPProvider>

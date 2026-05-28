@@ -1,31 +1,35 @@
 import React, { useState } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, StyleSheet,
-  TextInput, Alert,
+  TextInput, Alert, ActivityIndicator,
 } from 'react-native'
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
+import { useAuthContext } from '../context/AuthContext'
 import { usePetContext } from '../context/PetContext'
-import { useCoinsContext } from '../context/CoinsContext'
-import { FOOD_ITEMS, HAPPINESS_ITEMS, COSMETICS } from '../data/petConfig'
+import { useXP } from '../hooks/useXP'
+import { FOOD_ITEMS, HAPPINESS_ITEMS, COSMETICS, PETS } from '../data/petConfig'
 import { T, duoBtn, cardShadow, pillTab } from '../styles/duo'
 
-const TABS = ['Food', 'Play', 'Cosmetics', 'Rename']
+const TABS = ['Food', 'Play', 'Cosmetics', 'Rename', 'Switch']
 
 export default function PetShopScreen({ navigation }) {
   const { C }              = useTheme()
-  const { pet, inventory, feedPet, playWithPet, addInventory, toggleCosmetic, renamePet } = usePetContext()
-  const { coins, spendCoins } = useCoinsContext()
+  const { user }           = useAuthContext()
+  const { pet, inventory, feedPet, playWithPet, addInventory, toggleCosmetic, renamePet, switchBuddy } = usePetContext()
+  const { xp, spendXP }   = useXP(user?.uid)
 
   const insets = useSafeAreaInsets()
-  const [tab,      setTab]      = useState(0)
-  const [nameInput, setNameInput] = useState(pet.name ?? '')
+  const [tab,           setTab]          = useState(0)
+  const [nameInput,     setNameInput]    = useState(pet.name ?? '')
+  const [switchTarget,  setSwitchTarget] = useState(null)
+  const [switching,     setSwitching]    = useState(false)
   const s = makeStyles(C)
 
   async function handleBuyItem(item) {
-    const ok = await spendCoins(item.cost)
+    const ok = await spendXP(item.cost)
     if (!ok) {
-      Alert.alert('Not enough coins!', `You need ${item.cost} 💰 coins. You have ${coins}.`)
+      Alert.alert('Not enough XP!', `You need ${item.cost} ⭐ XP. You have ${xp}.`)
       return
     }
     await addInventory(item.id, 1)
@@ -38,9 +42,9 @@ export default function PetShopScreen({ navigation }) {
       await toggleCosmetic(item.id)
       return
     }
-    const ok = await spendCoins(item.cost)
+    const ok = await spendXP(item.cost)
     if (!ok) {
-      Alert.alert('Not enough coins!', `You need ${item.cost} 💰 coins. You have ${coins}.`)
+      Alert.alert('Not enough XP!', `You need ${item.cost} ⭐ XP. You have ${xp}.`)
       return
     }
     await addInventory(item.id, 1)
@@ -52,10 +56,132 @@ export default function PetShopScreen({ navigation }) {
     const trimmed = nameInput.trim()
     if (!trimmed) return
     if (trimmed === pet.name) { Alert.alert('Same name!', 'Choose a different name.'); return }
-    const ok = await spendCoins(30)
-    if (!ok) { Alert.alert('Not enough coins!', `Renaming costs 30 💰 coins. You have ${coins}.`); return }
+    const ok = await spendXP(150)
+    if (!ok) { Alert.alert('Not enough XP!', `Renaming costs 150 ⭐ XP. You have ${xp}.`); return }
     await renamePet(trimmed)
     Alert.alert('Renamed! 🏷️', `Your pet is now called ${trimmed}!`)
+  }
+
+  async function handleSwitchBuddy() {
+    if (!switchTarget || switchTarget === pet.petType) return
+    const target = PETS.find((p) => p.id === switchTarget)
+    Alert.alert(
+      `Switch to ${target?.name}?`,
+      `${pet.name} will become a ${target?.name}.\nHunger, happiness & accessories reset to full — your name stays.`,
+      [
+        { text: 'Cancel', style: 'cancel' },
+        {
+          text: 'Switch',
+          style: 'destructive',
+          onPress: async () => {
+            setSwitching(true)
+            await switchBuddy(switchTarget)
+            setSwitching(false)
+            setSwitchTarget(null)
+            Alert.alert('Buddy switched! 🎉', `${pet.name} is now a ${target?.name}. Full energy restored!`)
+          },
+        },
+      ],
+    )
+  }
+
+  function renderSwitchTab() {
+    const PET_ICON_PLACEHOLDERS = {
+      axolotl:  null,
+      fox:      null,
+      capybara: null,
+      voidCat:  null,
+    }
+    const anyIconReady = Object.values(PET_ICON_PLACEHOLDERS).some(Boolean)
+
+    return (
+      <View style={s.switchContainer}>
+        {/* Icon suggestion card */}
+        <View style={[s.iconSuggestionCard, { backgroundColor: C.surface2, borderColor: C.brand + '55' }]}>
+          <Text style={s.iconSuggestionEmoji}>🎨</Text>
+          <View style={{ flex: 1 }}>
+            <Text style={[T.h3, { color: C.text }]}>Match Your App Icon</Text>
+            <Text style={[T.small, { color: C.textMuted, marginTop: 3, lineHeight: 17 }]}>
+              {anyIconReady
+                ? `Set your home screen icon to match ${pet.name}!`
+                : `Per-buddy icons are in the works.\nSwitch your buddy now — icons drop soon! 🐾`}
+            </Text>
+          </View>
+          {anyIconReady && (
+            <TouchableOpacity
+              style={[duoBtn(C.brand, C.brandDark, { paddingVertical: 8, paddingHorizontal: 14 })]}
+              onPress={() => {
+                // TODO: call setAppIcon(pet.petType) once icon assets are added
+                Alert.alert('Coming Soon', 'Per-buddy app icons are on the way!')
+              }}
+            >
+              <Text style={[T.btn, { color: '#fff', fontSize: 11 }]}>SET ICON</Text>
+            </TouchableOpacity>
+          )}
+        </View>
+
+        {/* Pet picker grid */}
+        <Text style={[T.label, { color: C.textMuted, marginBottom: 10 }]}>Choose a new buddy</Text>
+        <View style={s.switchGrid}>
+          {PETS.map((p) => {
+            const isCurrent  = p.id === pet.petType
+            const isSelected = p.id === switchTarget
+            return (
+              <TouchableOpacity
+                key={p.id}
+                style={[
+                  s.switchCard,
+                  cardShadow(C.shadow),
+                  isCurrent  && { borderColor: C.brand,       backgroundColor: C.brandBg },
+                  isSelected && { borderColor: '#F59E0B',     backgroundColor: '#F59E0B22' },
+                ]}
+                onPress={() => setSwitchTarget(isCurrent ? null : p.id)}
+                activeOpacity={0.85}
+              >
+                <Text style={{ fontSize: 38, marginBottom: 6 }}>{p.emoji}</Text>
+                <Text style={[T.h3, { color: C.text, textAlign: 'center', fontSize: 13 }]}>{p.name}</Text>
+                <Text style={[T.small, { color: C.textMuted, textAlign: 'center', marginTop: 3, lineHeight: 16, fontSize: 11 }]}>
+                  {p.tagline}
+                </Text>
+                {isCurrent && (
+                  <View style={[s.currentBadge, { backgroundColor: C.brand }]}>
+                    <Text style={[T.label, { color: '#fff', fontSize: 9, textTransform: 'none', letterSpacing: 0 }]}>Current</Text>
+                  </View>
+                )}
+                {isSelected && !isCurrent && (
+                  <View style={[s.currentBadge, { backgroundColor: '#F59E0B' }]}>
+                    <Text style={[T.label, { color: '#fff', fontSize: 9, textTransform: 'none', letterSpacing: 0 }]}>Selected</Text>
+                  </View>
+                )}
+              </TouchableOpacity>
+            )
+          })}
+        </View>
+
+        <Text style={[T.small, { color: C.textMuted, textAlign: 'center', lineHeight: 17, marginBottom: 16 }]}>
+          Switching resets hunger, happiness & accessories to full.{'\n'}Your buddy's name stays the same.
+        </Text>
+
+        <TouchableOpacity
+          style={[
+            duoBtn('#EF4444', '#B91C1C', { marginTop: 0 }),
+            (!switchTarget || switchTarget === pet.petType || switching) && { opacity: 0.4 },
+          ]}
+          onPress={handleSwitchBuddy}
+          disabled={!switchTarget || switchTarget === pet.petType || switching}
+        >
+          {switching ? (
+            <ActivityIndicator color="#fff" />
+          ) : (
+            <Text style={[T.btn, { color: '#fff' }]}>
+              {switchTarget && switchTarget !== pet.petType
+                ? `SWITCH TO ${PETS.find((p) => p.id === switchTarget)?.name?.toUpperCase()}`
+                : 'SELECT A BUDDY'}
+            </Text>
+          )}
+        </TouchableOpacity>
+      </View>
+    )
   }
 
   function renderItem(item, onBuy) {
@@ -101,20 +227,20 @@ export default function PetShopScreen({ navigation }) {
               </TouchableOpacity>
             ) : (
               <TouchableOpacity
-                style={duoBtn(coins >= item.cost ? item.accent : C.surface3, coins >= item.cost ? item.dark : C.border, { paddingVertical: 10, paddingHorizontal: 12, opacity: coins >= item.cost ? 1 : 0.5 })}
+                style={duoBtn(xp >= item.cost ? item.accent : C.surface3, xp >= item.cost ? item.dark : C.border, { paddingVertical: 10, paddingHorizontal: 12, opacity: xp >= item.cost ? 1 : 0.5 })}
                 onPress={() => handleBuyCosmetic(item)}
-                disabled={coins < item.cost}
+                disabled={xp < item.cost}
               >
-                <Text style={[T.btn, { color: '#fff', fontSize: 11 }]}>💰 {item.cost}</Text>
+                <Text style={[T.btn, { color: '#fff', fontSize: 11 }]}>⭐ {item.cost}</Text>
               </TouchableOpacity>
             )
           ) : (
             <TouchableOpacity
-              style={duoBtn(coins >= item.cost ? item.accent : C.surface3, coins >= item.cost ? item.dark : C.border, { paddingVertical: 10, paddingHorizontal: 12, opacity: coins >= item.cost ? 1 : 0.5 })}
+              style={duoBtn(xp >= item.cost ? item.accent : C.surface3, xp >= item.cost ? item.dark : C.border, { paddingVertical: 10, paddingHorizontal: 12, opacity: xp >= item.cost ? 1 : 0.5 })}
               onPress={() => handleBuyItem(item)}
-              disabled={coins < item.cost}
+              disabled={xp < item.cost}
             >
-              <Text style={[T.btn, { color: '#fff', fontSize: 11 }]}>💰 {item.cost}</Text>
+              <Text style={[T.btn, { color: '#fff', fontSize: 11 }]}>⭐ {item.cost}</Text>
             </TouchableOpacity>
           )}
         </View>
@@ -135,7 +261,7 @@ export default function PetShopScreen({ navigation }) {
           </TouchableOpacity>
           <Text style={[T.h2, { color: C.text }]}>🐾 Pet Shop</Text>
           <View style={[s.coinChip, { backgroundColor: C.surface2, borderColor: C.border }]}>
-            <Text style={[T.h3, { color: '#F59E0B' }]}>💰 {coins.toLocaleString()}</Text>
+            <Text style={[T.h3, { color: '#F59E0B' }]}>⭐ {xp.toLocaleString()}</Text>
           </View>
         </View>
 
@@ -159,6 +285,9 @@ export default function PetShopScreen({ navigation }) {
 
         {/* Items */}
         {tab < 3 && items.map((item) => renderItem(item, handleBuyItem))}
+
+        {/* Switch buddy tab */}
+        {tab === 4 && renderSwitchTab()}
 
         {/* Use inventory — feed / play buttons */}
         {(tab === 0 || tab === 1) && Object.keys(inventory).some((k) => {
@@ -188,7 +317,7 @@ export default function PetShopScreen({ navigation }) {
           <View style={s.renameCard}>
             <Text style={[T.h3, { color: C.text, marginBottom: 4 }]}>🏷️ Rename {pet.name}</Text>
             <Text style={[T.small, { color: C.textMuted, marginBottom: 16 }]}>
-              Costs 30 💰 coins. Current name: {pet.name}
+              Costs 150 ⭐ XP. Current name: {pet.name}
             </Text>
             <TextInput
               style={[s.nameInput, { color: C.text, borderColor: C.border, backgroundColor: C.surface2 }]}
@@ -203,7 +332,7 @@ export default function PetShopScreen({ navigation }) {
               onPress={handleRename}
               disabled={!nameInput.trim() || nameInput.trim() === pet.name}
             >
-              <Text style={[T.btn, { color: '#fff' }]}>RENAME (30 💰)</Text>
+              <Text style={[T.btn, { color: '#fff' }]}>RENAME (150 ⭐)</Text>
             </TouchableOpacity>
           </View>
         )}
@@ -305,6 +434,48 @@ function makeStyles(C) {
       paddingVertical:   10,
       fontFamily:   'Nunito_700Bold',
       fontSize:     15,
+    },
+    switchContainer: {
+      marginHorizontal: 16,
+      marginTop:        4,
+    },
+    iconSuggestionCard: {
+      flexDirection:   'row',
+      alignItems:      'center',
+      borderRadius:    18,
+      padding:         16,
+      borderWidth:     1.5,
+      gap:             12,
+      marginBottom:    22,
+    },
+    iconSuggestionEmoji: {
+      fontSize: 32,
+    },
+    switchGrid: {
+      flexDirection:   'row',
+      flexWrap:        'wrap',
+      gap:             10,
+      marginBottom:    14,
+    },
+    switchCard: {
+      width:           '47.5%',
+      backgroundColor: C.surface,
+      borderRadius:    18,
+      padding:         14,
+      alignItems:      'center',
+      borderWidth:     2,
+      borderColor:     C.border,
+      position:        'relative',
+      minHeight:       140,
+    },
+    currentBadge: {
+      position:             'absolute',
+      top:                  -1,
+      right:                -1,
+      borderTopRightRadius: 16,
+      borderBottomLeftRadius: 8,
+      paddingHorizontal:    8,
+      paddingVertical:      3,
     },
   })
 }
