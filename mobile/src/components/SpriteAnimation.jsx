@@ -2,9 +2,10 @@ import React, { useEffect, useRef } from 'react'
 import { View, Animated } from 'react-native'
 import PET_SPRITES from '../assets/petSprites'
 
-const FRAME_SIZE = 128
-const FPS        = 8
-const MAX_FRAMES = 8  // widest animation row on the sheet
+const FRAME_SIZE  = 128
+const FPS         = 8
+const SHEET_COLS  = 8   // frames per row  (sheet width:  1024px)
+const SHEET_ROWS  = 9   // animation rows  (sheet height: 1152px)
 
 export const ANIMATIONS = {
   idle:        { row: 0, frames: 4 },
@@ -46,8 +47,8 @@ export default function SpriteAnimation({ petType, animation = 'idle', size = 12
       <Animated.Image
         source={source}
         style={{
-          width:      FRAME_SIZE * MAX_FRAMES * scale,
-          height:     FRAME_SIZE * Object.keys(ANIMATIONS).length * scale,
+          width:      FRAME_SIZE * SHEET_COLS * scale,
+          height:     FRAME_SIZE * SHEET_ROWS * scale,
           top:        -anim.row * FRAME_SIZE * scale,
           resizeMode: 'cover',
           transform:  [{ translateX }],

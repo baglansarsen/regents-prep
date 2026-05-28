@@ -36,6 +36,24 @@ export const PETS = [
     idleAnim:    'glitch',      // opacity flicker
     defaultName: 'Shadow',
   },
+  {
+    id:          'bear',
+    emoji:       '🐻',
+    name:        'Bear',
+    personality: 'Steady & dependable',
+    tagline:     'Slow and steady wins the Regents 🍯',
+    idleAnim:    'pulse',
+    defaultName: 'Bruno',
+  },
+  {
+    id:          'bunny',
+    emoji:       '🐰',
+    name:        'Bunny',
+    personality: 'Quick & curious',
+    tagline:     'Hopping through flashcards at full speed 🌸',
+    idleAnim:    'float',
+    defaultName: 'Cleo',
+  },
 ]
 
 // ─── Default pet names pool ───────────────────────────────────────────────────
@@ -255,6 +273,40 @@ export const PET_MESSAGES = {
     'Feed the void. Also feed me. 🐱',
     'AP exams are just a formality for someone of your void-potential.',
   ],
+  bear: [
+    'Big bear energy for your {streak}-day streak. Keep going. 🐻',
+    'Haven\'t studied in {daysSince} day(s). Even bears don\'t hibernate during Regents season.',
+    'Slow and steady. You\'re building something real here. 🍯',
+    'Stage {stage}! This bear is proud of every step forward.',
+    'You don\'t have to be perfect. You just have to show up. 🐾',
+    'A {stageName} bear is a force of nature. Let\'s go.',
+    'Every hard question makes the next one easier. Trust it. 🌲',
+    'Feed me and I\'ll help you tackle the next unit. 🍎',
+    'Your {streak}-day streak says a lot. Consistency wins.',
+    'Even the toughest exam is just one question at a time. 🐻',
+    'Mistakes are just data. Review them and move on.',
+    'AP season? We\'ve trained for this. Let\'s finish strong.',
+    'I\'m here every step. You\'re not doing this alone. 🍯',
+    'You studied today. That\'s already a win. 🐾',
+    'One more quiz. Then I\'ll share my honey. 🍯',
+  ],
+  bunny: [
+    '{streak} days! You\'re hopping through this like a champ 🐰',
+    'Haven\'t studied in {daysSince} day(s)? Let\'s fix that — quick!',
+    'Short bursts are my specialty. Quick quiz? Let\'s go! 🌸',
+    'Stage {stage}! This bunny is zooming right alongside you.',
+    'You\'re curious and quick — that\'s the perfect combo. ✨',
+    'A {stageName} bunny never stops exploring. Neither should you.',
+    'Wrong answers? Just hop to the next one. No biggie. 🐰',
+    'Your {streak}-day streak has me doing zoomies. 🌸',
+    'Feed me carrots and I\'ll help you ace every FRQ. 🥕',
+    'The Regents is just a series of small hops. You\'ve got this.',
+    'I believe in the power of your curiosity. Keep asking why. 🐰',
+    'Each flashcard is one hop closer. Keep moving! 🌸',
+    'Study snack time? Same. Let\'s go together. 🥕',
+    'Quick question, quick answer — that\'s our speed round mode.',
+    'A {stageName} bunny is unstoppable. And so are you. ✨',
+  ],
 }
 
 // ─── Hunger alert messages (low hunger push notification) ─────────────────────
@@ -263,6 +315,8 @@ export const HUNGER_ALERTS = {
   fox:     'The fox is hungry and unimpressed. Feed it. 🦊',
   capybara:'Hungry capybara... but no rush. Whenever you\'re ready. 🦫',
   voidCat: 'The void hungers. And so does your cat. 🐱',
+  bear:    'Bruno is hungry. A hungry bear is a distracted bear. 🐻',
+  bunny:   'Cleo needs a snack! Hungry bunnies can\'t focus. 🐰',
 }
 
 export const HAPPINESS_ALERTS = {
@@ -270,4 +324,6 @@ export const HAPPINESS_ALERTS = {
   fox:     'Your fox has gone quiet. It needs attention. 🦊',
   capybara:'A sad capybara is a dormant capybara. Cheer it up! 🦫',
   voidCat: 'The void cat ignores you. You have failed it. 🐱',
+  bear:    'Your bear is lonely. Give Bruno some love! 🐻',
+  bunny:   'Cleo\'s ears are drooping. She needs a play session! 🐰',
 }
