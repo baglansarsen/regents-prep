@@ -149,7 +149,7 @@ export default function PetShopScreen({ navigation }) {
         <View style={s.tabs}>
           {TABS.map((t, i) => (
             <TouchableOpacity key={t} style={pillTab(tab === i, C)} onPress={() => setTab(i)}>
-              <Text style={[T.label, { color: tab === i ? C.brand : C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>
+              <Text style={[T.label, { color: tab === i ? '#fff' : C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>
                 {t}
               </Text>
             </TouchableOpacity>
