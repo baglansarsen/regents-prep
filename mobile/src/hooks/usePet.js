@@ -48,14 +48,16 @@ const DEFAULT_PET = {
 }
 
 export function usePet(uid) {
-  const [pet,              setPet]              = useState(DEFAULT_PET)
-  const [inventory,        setInventory]        = useState({})
-  const [pendingEvolution, setPendingEvolution] = useState(false)
-  const [activeReaction,   setActiveReaction]   = useState(null)
-  const reactionTimeout = useRef(null)
-  const decayRef        = useRef(null)
-  const petRef          = useRef(DEFAULT_PET)
-  const uid_ref         = useRef(uid)
+  const [pet,                setPet]                = useState(DEFAULT_PET)
+  const [inventory,          setInventory]          = useState({})
+  const [pendingEvolution,   setPendingEvolution]   = useState(false)
+  const [activeReaction,     setActiveReaction]     = useState(null)
+  const [activeFloatMessage, setActiveFloatMessage] = useState(null)
+  const reactionTimeout  = useRef(null)
+  const floatMsgTimeout  = useRef(null)
+  const decayRef         = useRef(null)
+  const petRef           = useRef(DEFAULT_PET)
+  const uid_ref          = useRef(uid)
   uid_ref.current = uid
 
   // ─── Save pet to Firestore + AsyncStorage ────────────────────────────────
@@ -154,6 +156,13 @@ export function usePet(uid) {
     reactionTimeout.current = setTimeout(() => setActiveReaction(null), 2500)
   }, [])
 
+  // ─── triggerFloat ─────────────────────────────────────────────────────────
+  function triggerFloat(msg) {
+    clearTimeout(floatMsgTimeout.current)
+    setActiveFloatMessage(msg)
+    floatMsgTimeout.current = setTimeout(() => setActiveFloatMessage(null), 2500)
+  }
+
   // ─── feedPet ─────────────────────────────────────────────────────────────
   const feedPet = useCallback(async (itemId) => {
     const item = FOOD_ITEMS.find((f) => f.id === itemId)
@@ -178,6 +187,7 @@ export function usePet(uid) {
     }
 
     triggerReaction('cheer')
+    triggerFloat(`+${restore} 🍖`)
     return true
   }, [inventory, triggerReaction])
 
@@ -207,6 +217,7 @@ export function usePet(uid) {
     }
 
     triggerReaction(item.reaction ?? 'happy_dance')
+    triggerFloat(`+${item.happinessRestore} 😊`)
     return true
   }, [inventory, triggerReaction])
 
@@ -227,11 +238,18 @@ export function usePet(uid) {
 
   // ─── equipCosmetic / unequipCosmetic ──────────────────────────────────────
   const toggleCosmetic = useCallback(async (itemId) => {
-    const current = petRef.current
-    const acc = current.accessories ?? []
-    const next = acc.includes(itemId) ? acc.filter((a) => a !== itemId) : [...acc, itemId]
+    const current  = petRef.current
+    const acc      = current.accessories ?? []
+    const isEquipped = acc.includes(itemId)
+    const next     = isEquipped ? acc.filter((a) => a !== itemId) : [...acc, itemId]
     await savePet({ ...current, accessories: next })
-  }, [])
+    if (isEquipped) {
+      triggerReaction('sympathetic')
+    } else {
+      triggerReaction('celebrate')
+      triggerFloat('✨ Equipped!')
+    }
+  }, [triggerReaction])
 
   // ─── renamePet ────────────────────────────────────────────────────────────
   const renamePet = useCallback(async (name) => {
@@ -362,6 +380,7 @@ export function usePet(uid) {
     inventory,
     pendingEvolution,
     activeReaction,
+    activeFloatMessage,
     feedPet,
     playWithPet,
     addInventory,

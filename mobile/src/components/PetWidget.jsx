@@ -13,7 +13,7 @@ const PARTICLE_POSITIONS = [
 ]
 
 export default function PetWidget({ size = 120, onPress, onLongPress, mini = false }) {
-  const { pet, activeReaction, petPet } = usePetContext()
+  const { pet, activeReaction, activeFloatMessage, petPet } = usePetContext()
   const config = PETS.find((p) => p.id === pet.petType)
 
   // ─── Animation values ───────────────────────────────────────────────────
@@ -55,6 +55,21 @@ export default function PetWidget({ size = 120, onPress, onLongPress, mini = fal
       ]).start()
     }
   }
+
+  // ─── Float message from context (feed/play/equip) ───────────────────────
+  useEffect(() => {
+    if (!activeFloatMessage) return
+    setFloatText(activeFloatMessage)
+    floatY.setValue(0)
+    floatOpacity.setValue(1)
+    Animated.parallel([
+      Animated.timing(floatY,       { toValue: -55, duration: 950, useNativeDriver: true }),
+      Animated.sequence([
+        Animated.delay(450),
+        Animated.timing(floatOpacity, { toValue: 0, duration: 500, useNativeDriver: true }),
+      ]),
+    ]).start()
+  }, [activeFloatMessage])
 
   // ─── Idle animation (per pet type, skipped in mini mode) ────────────────
   useEffect(() => {
