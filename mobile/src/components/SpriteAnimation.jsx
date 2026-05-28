@@ -1,16 +1,11 @@
-import React, { useEffect } from 'react'
-import { View } from 'react-native'
-import Animated, {
-  useSharedValue, useAnimatedStyle,
-  withRepeat, withSequence, withTiming, cancelAnimation,
-} from 'react-native-reanimated'
+import React, { useEffect, useRef } from 'react'
+import { View, Animated } from 'react-native'
 import PET_SPRITES from '../assets/petSprites'
 
 const FRAME_SIZE = 128
-const FPS = 8
-const FRAME_MS = 1000 / FPS
+const FPS        = 8
+const MAX_FRAMES = 8  // widest animation row on the sheet
 
-// Rows and frame counts match the sprite sheet layout
 export const ANIMATIONS = {
   idle:        { row: 0, frames: 4 },
   walk:        { row: 1, frames: 6 },
@@ -22,50 +17,41 @@ export const ANIMATIONS = {
   sleep:       { row: 7, frames: 4 },
 }
 
-// Max frames across all animations — determines sprite sheet width
-const MAX_FRAMES = 8
-
+// Returns null while sprites are not yet commissioned — PetWidget shows emoji fallback.
 export default function SpriteAnimation({ petType, animation = 'idle', size = 128 }) {
   const source = PET_SPRITES[petType]
-  const frame  = useSharedValue(0)
   const anim   = ANIMATIONS[animation] ?? ANIMATIONS.idle
   const scale  = size / FRAME_SIZE
 
+  const frameIndex = useRef(0)
+  const translateX = useRef(new Animated.Value(0)).current
+
   useEffect(() => {
-    cancelAnimation(frame)
-    frame.value = 0
-    frame.value = withRepeat(
-      withSequence(
-        ...Array.from({ length: anim.frames }, (_, i) =>
-          withTiming(i + 1, { duration: FRAME_MS })
-        ),
-      ),
-      -1,
-    )
-  }, [animation, petType])
+    if (!source) return
+    frameIndex.current = 0
+    translateX.setValue(0)
 
-  const animatedStyle = useAnimatedStyle(() => ({
-    transform: [{
-      translateX: -Math.floor(frame.value % anim.frames) * FRAME_SIZE * scale,
-    }],
-  }))
+    const id = setInterval(() => {
+      frameIndex.current = (frameIndex.current + 1) % anim.frames
+      translateX.setValue(-frameIndex.current * FRAME_SIZE * scale)
+    }, 1000 / FPS)
 
-  // Returns null while sprites are not yet commissioned — PetWidget shows emoji fallback
+    return () => clearInterval(id)
+  }, [animation, petType, scale, source])
+
   if (!source) return null
 
   return (
     <View style={{ width: FRAME_SIZE * scale, height: FRAME_SIZE * scale, overflow: 'hidden' }}>
       <Animated.Image
         source={source}
-        style={[
-          {
-            width:       FRAME_SIZE * MAX_FRAMES * scale,
-            height:      FRAME_SIZE * Object.keys(ANIMATIONS).length * scale,
-            top:         -anim.row * FRAME_SIZE * scale,
-            resizeMode:  'cover',
-          },
-          animatedStyle,
-        ]}
+        style={{
+          width:      FRAME_SIZE * MAX_FRAMES * scale,
+          height:     FRAME_SIZE * Object.keys(ANIMATIONS).length * scale,
+          top:        -anim.row * FRAME_SIZE * scale,
+          resizeMode: 'cover',
+          transform:  [{ translateX }],
+        }}
       />
     </View>
   )

@@ -1,9 +1,5 @@
-import React, { useEffect } from 'react'
-import { Dimensions, StyleSheet } from 'react-native'
-import Animated, {
-  useSharedValue, useAnimatedStyle,
-  withSequence, withTiming, withRepeat,
-} from 'react-native-reanimated'
+import React, { useEffect, useRef } from 'react'
+import { Animated, Dimensions, StyleSheet } from 'react-native'
 import SpriteAnimation from './SpriteAnimation'
 import PET_SPRITES from '../assets/petSprites'
 
@@ -16,41 +12,44 @@ const WALK_MS      = 4000  // one-way trip duration
 export default function WalkingPet({ petType, bottomOffset = 0 }) {
   const hasSprite = !!PET_SPRITES[petType]
 
-  // Hooks must always be called — guard rendering below, not here
-  const petX      = useSharedValue(0)
-  const direction = useSharedValue(1)  // 1 = facing right, -1 = facing left
+  const petX    = useRef(new Animated.Value(0)).current
+  const scaleX  = useRef(new Animated.Value(1)).current
 
   useEffect(() => {
     if (!hasSprite) return
-    petX.value = withRepeat(
-      withSequence(
-        withTiming(SCREEN_WIDTH - PET_SIZE, { duration: WALK_MS }),
-        withTiming(0,                        { duration: WALK_MS }),
-      ),
-      -1,
-    )
-  }, [hasSprite])
 
-  const containerStyle = useAnimatedStyle(() => ({
-    transform: [
-      { translateX: petX.value },
-      { scaleX:     direction.value },
-    ],
-  }))
+    function walkRight() {
+      scaleX.setValue(1)
+      Animated.timing(petX, {
+        toValue:         SCREEN_WIDTH - PET_SIZE,
+        duration:        WALK_MS,
+        useNativeDriver: true,
+      }).start(({ finished }) => { if (finished) walkLeft() })
+    }
 
-  // Flip direction midway — petX crosses the midpoint twice per cycle
-  useEffect(() => {
-    if (!hasSprite) return
-    const id = setInterval(() => {
-      direction.value = petX.value < (SCREEN_WIDTH - PET_SIZE) / 2 ? 1 : -1
-    }, 100)
-    return () => clearInterval(id)
+    function walkLeft() {
+      scaleX.setValue(-1)
+      Animated.timing(petX, {
+        toValue:         0,
+        duration:        WALK_MS,
+        useNativeDriver: true,
+      }).start(({ finished }) => { if (finished) walkRight() })
+    }
+
+    walkRight()
+    return () => petX.stopAnimation()
   }, [hasSprite])
 
   if (!hasSprite) return null
 
   return (
-    <Animated.View style={[styles.walker, { bottom: bottomOffset }, containerStyle]}>
+    <Animated.View
+      style={[
+        styles.walker,
+        { bottom: bottomOffset },
+        { transform: [{ translateX: petX }, { scaleX }] },
+      ]}
+    >
       <SpriteAnimation petType={petType} animation="walk" size={PET_SIZE} />
     </Animated.View>
   )
