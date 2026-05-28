@@ -2,6 +2,9 @@ import React, { useEffect, useRef, useState } from 'react'
 import { View, Text, TouchableOpacity, Animated, StyleSheet } from 'react-native'
 import { usePetContext } from '../context/PetContext'
 import { PETS, STAGE_OVERLAYS } from '../data/petConfig'
+import SpriteAnimation from './SpriteAnimation'
+import { usePetAnimation } from '../hooks/usePetAnimation'
+import PET_SPRITES from '../assets/petSprites'
 
 const PARTICLE_POSITIONS = [
   { top: -10, left: 10  },
@@ -26,6 +29,12 @@ export default function PetWidget({ size = 120, onPress, onLongPress, mini = fal
   const floatOpacity = useRef(new Animated.Value(0)).current
   const idleRef      = useRef(null)
   const [floatText, setFloatText] = useState('')
+
+  const spriteAnim = usePetAnimation({
+    hunger:          pet.hunger,
+    happiness:       pet.happiness,
+    activeReaction,
+  })
 
   // ─── Tap handler (non-mini): calls petPet, shows floating text ───────────
   async function handleTap() {
@@ -189,7 +198,10 @@ export default function PetWidget({ size = 120, onPress, onLongPress, mini = fal
     return (
       <TouchableOpacity onPress={onPress} activeOpacity={0.8} style={s.miniContainer}>
         <Animated.View style={[{ transform: [{ scale }, { translateY }], opacity }]}>
-          <Text style={{ fontSize: size * 0.7 }}>{petEmoji}</Text>
+          {PET_SPRITES[pet.petType]
+            ? <SpriteAnimation petType={pet.petType} animation={spriteAnim} size={size * 0.7} />
+            : <Text style={{ fontSize: size * 0.7 }}>{petEmoji}</Text>
+          }
         </Animated.View>
       </TouchableOpacity>
     )
@@ -213,12 +225,15 @@ export default function PetWidget({ size = 120, onPress, onLongPress, mini = fal
         <View style={[s.goldOverlay, { width: size + 8, height: size + 8, borderRadius: (size + 8) / 2 }]} />
       )}
 
-      {/* The pet emoji */}
+      {/* Pet body: sprite sheet when available, emoji fallback otherwise */}
       <Animated.View style={[
         s.emojiWrap,
         { transform: [{ translateY }, { translateX }, { rotate: rotateStr }, { scale }], opacity },
       ]}>
-        <Text style={{ fontSize: size * 0.7, textAlign: 'center' }}>{petEmoji}</Text>
+        {PET_SPRITES[pet.petType]
+          ? <SpriteAnimation petType={pet.petType} animation={spriteAnim} size={size} />
+          : <Text style={{ fontSize: size * 0.7, textAlign: 'center' }}>{petEmoji}</Text>
+        }
       </Animated.View>
 
       {/* Stage badge (top-right) */}
