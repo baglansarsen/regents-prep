@@ -7,6 +7,7 @@ import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { usePetContext } from '../context/PetContext'
+import { useSpeechContext } from '../context/SpeechContext'
 import { useXP } from '../hooks/useXP'
 import { FOOD_ITEMS, HAPPINESS_ITEMS, COSMETICS, PETS } from '../data/petConfig'
 import { T, duoBtn, cardShadow, pillTab } from '../styles/duo'
@@ -18,6 +19,7 @@ export default function PetShopScreen({ navigation }) {
   const { user }           = useAuthContext()
   const { pet, inventory, feedPet, playWithPet, addInventory, toggleCosmetic, renamePet, switchBuddy } = usePetContext()
   const { xp, spendXP }   = useXP(user?.uid)
+  const { say }           = useSpeechContext()
 
   const insets = useSafeAreaInsets()
   const [tab,           setTab]          = useState(0)
@@ -302,7 +304,10 @@ export default function PetShopScreen({ navigation }) {
                 <TouchableOpacity
                   key={`use-${item.id}`}
                   style={[s.useBtn, duoBtn(item.accent, item.dark)]}
-                  onPress={() => tab === 0 ? feedPet(item.id) : playWithPet(item.id)}
+                  onPress={() => {
+                    if (tab === 0) { feedPet(item.id); say('Thank you!! That hit different 😋') }
+                    else           { playWithPet(item.id); say('Yay! Best study break ever 🎉') }
+                  }}
                 >
                   <Text style={[T.btn, { color: '#fff' }]}>
                     {item.icon} Use {item.name} ({inventory[item.id]}× left)

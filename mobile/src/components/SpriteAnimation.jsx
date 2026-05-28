@@ -16,6 +16,7 @@ export const ANIMATIONS = {
   sad:         { row: 5, frames: 4 },
   cheer:       { row: 6, frames: 5 },
   sleep:       { row: 7, frames: 4 },
+  talk:        { row: 8, frames: 2 },  // 2-frame mouth open/close
 }
 
 // Returns null while sprites are not yet commissioned — PetWidget shows emoji fallback.

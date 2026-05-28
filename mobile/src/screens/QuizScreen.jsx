@@ -15,6 +15,7 @@ import { useQuiz } from '../hooks/useQuiz'
 import { appendMistakes } from '../hooks/useMistakes'
 import { useDoubleXP } from '../context/DoubleXPContext'
 import { usePetContext } from '../context/PetContext'
+import { useSpeechContext } from '../context/SpeechContext'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 import PetWidget from '../components/PetWidget'
 
@@ -60,6 +61,7 @@ export default function QuizScreen({ route, navigation }) {
   const { lives, maxLives, nextRefillAt, loseLife, refillLives, addLife } = useLivesContext()
   const { ready: adReady, showAd } = useRewardedAd({ onReward: addLife })
   const { checkAndEvolve, triggerReaction, updateQuestProgress, getPetMessage } = usePetContext()
+  const { say } = useSpeechContext()
 
   const [showBubble, setShowBubble] = useState(false)
 
@@ -138,10 +140,10 @@ export default function QuizScreen({ route, navigation }) {
       markStudied()
       earnXP(xpEarned)
       checkAndEvolve(xp + xpEarned)
-      if (pct === 100)       triggerReaction('cheer')
-      else if (pct >= 85)    triggerReaction('happy_dance')
-      else if (pct <= 30)    triggerReaction('sympathetic')
-      else                   triggerReaction('root_for_you')
+      if (pct === 100)       { triggerReaction('cheer');        say(`Perfect score! +${xpEarned} ⭐ You're incredible 🎉`) }
+      else if (pct >= 85)    { triggerReaction('happy_dance');  say(`+${xpEarned} ⭐ XP! Really solid work 🌟`) }
+      else if (pct <= 30)    { triggerReaction('sympathetic');  say('Tough one. Review those and try again 💪') }
+      else                   { triggerReaction('root_for_you'); say(`+${xpEarned} ⭐ You're on a roll!`) }
       // Quest progress
       updateQuestProgress('answer_correct', correct)
       updateQuestProgress('complete_quiz')

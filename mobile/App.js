@@ -15,7 +15,8 @@ import { SubjectProvider } from './src/context/SubjectContext'
 import { DoubleXPProvider } from './src/context/DoubleXPContext'
 import { LivesProvider } from './src/context/LivesContext'
 import { SubscriptionProvider } from './src/context/SubscriptionContext'
-import { PetProvider }   from './src/context/PetContext'
+import { PetProvider }    from './src/context/PetContext'
+import { SpeechProvider } from './src/context/SpeechContext'
 import AppNavigator from './src/navigation/AppNavigator'
 
 SplashScreen.preventAutoHideAsync()
@@ -61,7 +62,9 @@ export default function App() {
             <SubscriptionProvider>
               <LivesProvider>
                 <PetProvider>
-                  <Inner />
+                  <SpeechProvider>
+                    <Inner />
+                  </SpeechProvider>
                 </PetProvider>
               </LivesProvider>
             </SubscriptionProvider>

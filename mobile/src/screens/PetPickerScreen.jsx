@@ -7,6 +7,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { usePetContext } from '../context/PetContext'
+import { useSpeechContext } from '../context/SpeechContext'
 import { PETS, DEFAULT_NAMES } from '../data/petConfig'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 
@@ -23,6 +24,8 @@ export default function PetPickerScreen({ onComplete }) {
   const { user }            = useAuthContext()
   const { initializePet }   = usePetContext()
 
+  const { say } = useSpeechContext()
+
   const [selectedId, setSelectedId] = useState(null)
   const [loading,    setLoading]    = useState(false)
   const s = makeStyles(C)
@@ -33,6 +36,7 @@ export default function PetPickerScreen({ onComplete }) {
     const name = randomName()
     await initializePet(selectedId, name)
     await AsyncStorage.setItem(petChosenKey(user.uid), 'true').catch(() => {})
+    say(`Hi! I'm ${name}! I'll cheer you on every time you study for Regents. Feed me and I'll keep you company until exams are over 🐾`)
     onComplete()
   }
 

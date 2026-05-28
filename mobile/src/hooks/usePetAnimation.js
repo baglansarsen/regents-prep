@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 
-// Maps activeReaction values (from usePet) to sprite animation names
 const REACTION_MAP = {
   cheer:        'cheer',
   sad:          'sad',
@@ -10,7 +9,7 @@ const REACTION_MAP = {
   root_for_you: 'jump',
 }
 
-// One-shot animations that return to idle after playing once
+// One-shot animations block talk/idle override until they finish
 const ONE_SHOT_DURATIONS = {
   cheer:       1500,
   eat:         1800,
@@ -18,15 +17,14 @@ const ONE_SHOT_DURATIONS = {
   happy_dance: 2500,
 }
 
-// Derives the current sprite animation from pet state and the last triggered reaction
-export function usePetAnimation({ hunger, happiness, activeReaction }) {
+export function usePetAnimation({ hunger, happiness, activeReaction, isSpeaking = false }) {
   const [currentAnim, setCurrentAnim] = useState('idle')
 
   useEffect(() => {
     const resting = hunger < 20 || happiness < 20 ? 'sad' : 'idle'
 
     if (!activeReaction) {
-      setCurrentAnim(resting)
+      setCurrentAnim(isSpeaking ? 'talk' : resting)
       return
     }
 
@@ -35,10 +33,12 @@ export function usePetAnimation({ hunger, happiness, activeReaction }) {
 
     const duration = ONE_SHOT_DURATIONS[mapped]
     if (duration) {
-      const t = setTimeout(() => setCurrentAnim(resting), duration)
+      const t = setTimeout(() => {
+        setCurrentAnim(isSpeaking ? 'talk' : resting)
+      }, duration)
       return () => clearTimeout(t)
     }
-  }, [activeReaction, hunger, happiness])
+  }, [activeReaction, hunger, happiness, isSpeaking])
 
   return currentAnim
 }

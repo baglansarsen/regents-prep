@@ -28,6 +28,7 @@ import PetWidget from '../components/PetWidget'
 import PetStatusBars from '../components/PetStatusBars'
 import PetTriviaCard from '../components/PetTriviaCard'
 import { usePetContext } from '../context/PetContext'
+import { useSpeechContext, loadDailyMessage } from '../context/SpeechContext'
 import { FOOD_ITEMS } from '../data/petConfig'
 
 const MILESTONE_GIFTS = {
@@ -87,13 +88,23 @@ export default function HomeScreen({ navigation }) {
         }
         triggerReaction('celebrate')
         setMilestoneModal({ streak: top, label: gift.label })
+        say(`Day ${top} streak! I knew you had it in you 🎉`)
       })()
     }
+
+    // Daily greeting (once per day, cached)
+    loadDailyMessage({
+      uid,
+      petType:       pet.petType,
+      streak,
+      daysUntilExam: 14,  // TODO: wire to real exam date
+    }).then((msg) => { if (msg) say(msg) }).catch(() => {})
   }, [reloadSkipUnlocks, pendingEvolution, uid, streak]))
 
   const { goal, setGoal, todayXP, progress: goalProgress, goalMet, GOALS } = useDailyGoal(xp)
   const { mistakes, mistakeCount } = useMistakes()
   const { pet, pendingEvolution, getPetMessage, dailyDig, getTodayQuest, updateQuestProgress, triggerReaction, addInventory } = usePetContext()
+  const { say } = useSpeechContext()
 
   const [selectedLesson,  setSelectedLesson]  = useState(null)
   const [showGoalPicker,  setShowGoalPicker]   = useState(false)
@@ -105,6 +116,25 @@ export default function HomeScreen({ navigation }) {
   const sheetAnim     = useRef(new Animated.Value(400)).current
   const goalSheetAnim = useRef(new Animated.Value(400)).current
   const tipsAnim      = useRef(new Animated.Value(400)).current
+
+  // ── Idle speech — fires every 4–8 min while home screen is active ────────
+  const idleMessages = pet.petType ? {
+    axolotl: ['Your notes are looking great lately 💗', 'One more quiz? For me? 🦎', 'I believe in you. Always. 🌊'],
+    fox:     ['You know what separates good scores from great? Consistency.', 'Sharp mind. Keep it that way. 🦊', 'Quick quiz. Go.'],
+    capybara:['No rush. One flashcard deck is enough 🌿', 'Breathe. You\'re doing well 🦫', 'Chill energy, real results.'],
+    voidCat: ['The void observes your progress. It is... adequate. 🐱', 'Study. The void commands it. 🌑', 'Do not disappoint the void.'],
+    bear:    ['One more unit. Bears don\'t quit midway 🐻', 'Slow and steady gets the Regents 🍯', 'I\'m proud of your consistency 🐾'],
+    bunny:   ['Quick question — what\'s your weak topic? Let\'s fix it 🐰', 'You\'re hopping through this! 🌸', 'Keep going! Almost there 🐰'],
+  }[pet.petType] ?? [] : []
+
+  useEffect(() => {
+    if (!idleMessages.length) return
+    const delay = (4 + Math.random() * 4) * 60 * 1000
+    const id = setTimeout(() => {
+      say(idleMessages[Math.floor(Math.random() * idleMessages.length)])
+    }, delay)
+    return () => clearTimeout(id)
+  }, [pet.petType])
 
   // ── Tips sheet open / close ──────────────────────────────────────────────
   function openTips(unit) {
@@ -241,6 +271,7 @@ export default function HomeScreen({ navigation }) {
       : `${pet.name} dug up a ${FOOD_ITEMS.find((f) => f.id === result.itemId)?.icon ?? '🎁'}!`
     setDigReward(label)
     setTimeout(() => setDigReward(null), 3000)
+    say(result.type === 'xp' ? `I found something! +${result.amount} ⭐` : 'Look what I dug up! 🎁')
   }
 
   const s = makeStyles(C)
