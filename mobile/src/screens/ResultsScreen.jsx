@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { View, Text, TouchableOpacity, ScrollView, StyleSheet } from 'react-native'
+import React, { useState, useRef, useEffect } from 'react'
+import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Animated } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
@@ -15,6 +15,15 @@ export default function ResultsScreen({ route, navigation }) {
   const { C } = useTheme()
 
   const [showCelebration, setShowCelebration] = useState(firstMastery)
+  const [displayXP, setDisplayXP] = useState(0)
+  const xpAnim = useRef(new Animated.Value(0)).current
+
+  useEffect(() => {
+    if (xpEarned <= 0) return
+    const id = xpAnim.addListener(({ value }) => setDisplayXP(Math.round(value)))
+    Animated.timing(xpAnim, { toValue: xpEarned, duration: 900, useNativeDriver: false }).start()
+    return () => xpAnim.removeListener(id)
+  }, [])
 
   const correct  = results.filter((r) => r.correct).length
   const pct      = Math.round((correct / total) * 100)
@@ -45,7 +54,7 @@ export default function ResultsScreen({ route, navigation }) {
         {xpEarned > 0 && (
           <View style={[s.banner, { backgroundColor: C.warnBg, borderColor: C.warn + '60' }]}>
             <Text style={[T.h3, { color: C.warn }]}>
-              ⭐ +{xpEarned} XP earned{xpEarned > (correct * 10 + (comboBonus ?? 0)) ? '  ⚡ 2× boost!' : ''}
+              ⭐ +{displayXP} XP earned{xpEarned > (correct * 10 + (comboBonus ?? 0)) ? '  ⚡ 2× boost!' : ''}
             </Text>
           </View>
         )}

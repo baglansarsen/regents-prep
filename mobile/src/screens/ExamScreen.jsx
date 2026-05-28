@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, Image,
-  StyleSheet, Alert,
+  StyleSheet, Alert, Animated,
 } from 'react-native'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
@@ -29,7 +29,15 @@ export default function ExamScreen({ route, navigation }) {
   const [timeLeft,   setTimeLeft]   = useState(EXAM_MINUTES * 60)
   const timerRef = useRef(null)
   const submitRef = useRef(null)
+  const choiceScales = useRef(Array.from({ length: 4 }, () => new Animated.Value(1))).current
   const s = makeStyles(C)
+
+  function animateChoice(idx) {
+    Animated.sequence([
+      Animated.spring(choiceScales[idx], { toValue: 0.95, useNativeDriver: true, tension: 300, friction: 10 }),
+      Animated.spring(choiceScales[idx], { toValue: 1,    useNativeDriver: true, tension: 300, friction: 10 }),
+    ]).start()
+  }
 
   // Keep submitRef current so the timer always calls the latest submit closure
   useEffect(() => { submitRef.current = submit })
@@ -147,14 +155,18 @@ export default function ExamScreen({ route, navigation }) {
 
         {/* Choices */}
         {q.choices?.map((choice, idx) => (
-          <TouchableOpacity
-            key={idx}
-            style={[s.choice, answers[currentIdx] === idx && s.choiceSelected]}
-            onPress={() => setAnswers((a) => ({ ...a, [currentIdx]: idx }))}
-          >
-            <Text style={s.choiceLetter}>{['A','B','C','D'][idx]}</Text>
-            <Text style={s.choiceText}>{choice}</Text>
-          </TouchableOpacity>
+          <Animated.View key={idx} style={{ transform: [{ scale: choiceScales[idx] }] }}>
+            <TouchableOpacity
+              style={[s.choice, answers[currentIdx] === idx && s.choiceSelected]}
+              onPress={() => {
+                animateChoice(idx)
+                setAnswers((a) => ({ ...a, [currentIdx]: idx }))
+              }}
+            >
+              <Text style={s.choiceLetter}>{['A','B','C','D'][idx]}</Text>
+              <Text style={s.choiceText}>{choice}</Text>
+            </TouchableOpacity>
+          </Animated.View>
         ))}
       </ScrollView>
 

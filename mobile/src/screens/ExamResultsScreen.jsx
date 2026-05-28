@@ -1,5 +1,5 @@
-import React, { useState, useMemo } from 'react'
-import { View, Text, TouchableOpacity, ScrollView, StyleSheet } from 'react-native'
+import React, { useState, useMemo, useRef, useEffect } from 'react'
+import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Animated } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { analyzeExamResults } from '../utils/topicAnalysis'
@@ -42,6 +42,21 @@ export default function ExamResultsScreen({ route, navigation }) {
   const passed = scaled >= 65
   const color  = passed ? C.correct : C.wrong
 
+  const [displayScore, setDisplayScore] = useState(0)
+  const [displayXP,    setDisplayXP]    = useState(0)
+  const scoreAnim = useRef(new Animated.Value(0)).current
+  const xpAnim    = useRef(new Animated.Value(0)).current
+
+  useEffect(() => {
+    const scoreId = scoreAnim.addListener(({ value }) => setDisplayScore(Math.round(value)))
+    const xpId    = xpAnim.addListener(({ value }) => setDisplayXP(Math.round(value)))
+    Animated.parallel([
+      Animated.timing(scoreAnim, { toValue: scaled,   duration: 1000, useNativeDriver: false }),
+      Animated.timing(xpAnim,    { toValue: xpEarned, duration: 900,  useNativeDriver: false }),
+    ]).start()
+    return () => { scoreAnim.removeListener(scoreId); xpAnim.removeListener(xpId) }
+  }, [])
+
   // ── Topic breakdown ───────────────────────────────────────────────────────
   const topicBreakdown = useMemo(
     () => analyzeExamResults(questions, answers, exam.subject),
@@ -76,7 +91,7 @@ export default function ExamResultsScreen({ route, navigation }) {
 
         {/* Score circle */}
         <View style={[s.scoreBox, { borderColor: color }]}>
-          <Text style={[T.num, { color, fontSize: 52 }]}>{scaled}</Text>
+          <Text style={[T.num, { color, fontSize: 52 }]}>{displayScore}</Text>
           <Text style={[T.small, { color: C.textMuted }]}>Scaled Score</Text>
           <Text style={[T.label, { color: C.textDim, textTransform: 'none', letterSpacing: 0, marginTop: 2 }]}>
             {raw}/{total} correct
@@ -89,7 +104,7 @@ export default function ExamResultsScreen({ route, navigation }) {
 
         {xpEarned > 0 && (
           <View style={s.xpBanner}>
-            <Text style={[T.body, { color: C.warn }]}>⭐ +{xpEarned} XP earned</Text>
+            <Text style={[T.body, { color: C.warn }]}>⭐ +{displayXP} XP earned</Text>
           </View>
         )}
 
