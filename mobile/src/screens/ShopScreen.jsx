@@ -10,6 +10,7 @@ import { useXP } from '../hooks/useXP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useLivesContext } from '../context/LivesContext'
 import { useDoubleXP } from '../context/DoubleXPContext'
+import { useSubscription } from '../context/SubscriptionContext'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 
 function formatTime(secs) {
@@ -27,6 +28,7 @@ export default function ShopScreen({ navigation }) {
   const { hasFreeze, buyFreeze }                        = useDailyStreak(uid)
   const { lives, maxLives, refillLives }                = useLivesContext()
   const { isActive, timeLeft, activateBoost, COST_XP }  = useDoubleXP()
+  const { isSubscribed } = useSubscription()
 
   const s = makeStyles(C)
 
@@ -92,13 +94,13 @@ export default function ShopScreen({ navigation }) {
       key:      'lives',
       icon:     '❤️',
       name:     'Refill Hearts',
-      desc:     `Instantly restore all ${maxLives} lives.`,
+      desc:     isSubscribed ? 'You have unlimited hearts with Premium!' : `Instantly restore all ${maxLives} lives.`,
       cost:     300,
       accent:   '#FF4B4B',
       dark:     '#CC0000',
-      owned:    lives >= maxLives,
-      ownedLabel: '❤️ Full',
-      canBuy:   lives < maxLives && xp >= 300,
+      owned:    isSubscribed || lives >= maxLives,
+      ownedLabel: isSubscribed ? '♾️ Unlimited' : '❤️ Full',
+      canBuy:   !isSubscribed && lives < maxLives && xp >= 300,
       onBuy:    handleRefillLives,
     },
   ]

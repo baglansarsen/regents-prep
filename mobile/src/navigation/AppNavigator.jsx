@@ -10,9 +10,12 @@ import ThemePickerScreen      from '../screens/ThemePickerScreen'
 import LoginScreen            from '../screens/LoginScreen'
 import SchoolOnboardingScreen from '../screens/SchoolOnboardingScreen'
 import PlacementTestScreen    from '../screens/PlacementTestScreen'
+import PetPickerScreen, { petChosenKey } from '../screens/PetPickerScreen'
 import TabNavigator           from './TabNavigator'
 import ExamScreen             from '../screens/ExamScreen'
 import ExamResultsScreen      from '../screens/ExamResultsScreen'
+import PetShopScreen          from '../screens/PetShopScreen'
+import PetEvolutionScreen     from '../screens/PetEvolutionScreen'
 
 const Stack = createNativeStackNavigator()
 
@@ -22,30 +25,41 @@ function placementKey(uid) {
 
 export default function AppNavigator() {
   const { user, loading } = useAuthContext()
-  const { C, isDark, themeChosen, pickTheme } = useTheme()
+  const { C, isDark, themeChosen } = useTheme()
 
   // null = still checking, true/false = resolved
   const [placementDone, setPlacementDone] = useState(null)
+  const [petChosen,     setPetChosen]     = useState(null)
 
   useEffect(() => {
     if (!user) {
       setPlacementDone(null)
+      setPetChosen(null)
       return
     }
     if (user.isAnonymous) {
       setPlacementDone(true)
+      setPetChosen(true)   // anonymous users skip pet picker
       return
     }
-    AsyncStorage.getItem(placementKey(user.uid))
-      .then((val) => setPlacementDone(!!val))
-      .catch(() => setPlacementDone(false))
+    Promise.all([
+      AsyncStorage.getItem(placementKey(user.uid)),
+      AsyncStorage.getItem(petChosenKey(user.uid)),
+    ])
+      .then(([pVal, petVal]) => {
+        setPlacementDone(!!pVal)
+        setPetChosen(!!petVal)
+      })
+      .catch(() => {
+        setPlacementDone(false)
+        setPetChosen(false)
+      })
   }, [user])
 
-  // Still loading auth state OR (logged in & checking placement)
   const isLoading =
     loading ||
-    themeChosen === null ||   // ThemeContext hasn't read AsyncStorage yet
-    (!!user && !user.isAnonymous && placementDone === null)
+    themeChosen === null ||
+    (!!user && !user.isAnonymous && (placementDone === null || petChosen === null))
 
   if (isLoading) {
     return (
@@ -71,33 +85,43 @@ export default function AppNavigator() {
     >
       <Stack.Navigator screenOptions={{ headerShown: false, animation: 'fade' }}>
 
-        {/* ── 1. Theme picker — first launch only ─────────────────────────── */}
+        {/* ── 1. Theme picker — first launch only ──────────────────────────── */}
         {!themeChosen ? (
           <Stack.Screen name="ThemePicker">
             {() => <ThemePickerScreen onComplete={() => {/* themeChosen flips via pickTheme */}} />}
           </Stack.Screen>
 
         ) : !user ? (
-          /* ── 2. Auth flow ────────────────────────────────────────────────── */
+          /* ── 2. Auth flow ─────────────────────────────────────────────────── */
           <>
             <Stack.Screen name="Login"            component={LoginScreen} />
             <Stack.Screen name="SchoolOnboarding" component={SchoolOnboardingScreen} />
           </>
 
         ) : !placementDone ? (
-          /* ── 3. Placement test — once per user ───────────────────────────── */
+          /* ── 3. Placement test — once per user ──────────────────────────── */
           <Stack.Screen name="PlacementTest">
             {() => <PlacementTestScreen onComplete={() => setPlacementDone(true)} />}
           </Stack.Screen>
 
+        ) : !petChosen ? (
+          /* ── 4. Pet picker — once per user ──────────────────────────────── */
+          <Stack.Screen name="PetPicker" options={{ animation: 'slide_from_bottom' }}>
+            {() => <PetPickerScreen onComplete={() => setPetChosen(true)} />}
+          </Stack.Screen>
+
         ) : (
-          /* ── 4. Main app ─────────────────────────────────────────────────── */
+          /* ── 5. Main app ──────────────────────────────────────────────────── */
           <>
             <Stack.Screen name="Main" component={TabNavigator} />
             <Stack.Screen name="Exam" component={ExamScreen}
               options={{ presentation: 'fullScreenModal', animation: 'slide_from_bottom' }} />
             <Stack.Screen name="ExamResults" component={ExamResultsScreen}
               options={{ presentation: 'fullScreenModal', animation: 'none' }} />
+            <Stack.Screen name="PetShop" component={PetShopScreen}
+              options={{ presentation: 'fullScreenModal', animation: 'slide_from_bottom' }} />
+            <Stack.Screen name="PetEvolution" component={PetEvolutionScreen}
+              options={{ presentation: 'fullScreenModal', animation: 'fade' }} />
           </>
         )}
 

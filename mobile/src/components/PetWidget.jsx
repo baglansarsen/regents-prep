@@ -1,0 +1,229 @@
+import React, { useEffect, useRef } from 'react'
+import { View, Text, TouchableOpacity, Animated, StyleSheet } from 'react-native'
+import { usePetContext } from '../context/PetContext'
+import { PETS, STAGE_OVERLAYS } from '../data/petConfig'
+
+const PARTICLE_POSITIONS = [
+  { top: -10, left: 10  },
+  { top: -5,  right: 10 },
+  { top: 20,  left: -15 },
+  { top: 20,  right: -15 },
+  { bottom: 10, left: 5  },
+  { bottom: 10, right: 5  },
+]
+
+export default function PetWidget({ size = 120, onPress }) {
+  const { pet, activeReaction } = usePetContext()
+  const config = PETS.find((p) => p.id === pet.petType)
+
+  // ─── Animation values ───────────────────────────────────────────────────
+  const translateY = useRef(new Animated.Value(0)).current
+  const rotateZ    = useRef(new Animated.Value(0)).current
+  const scale      = useRef(new Animated.Value(1)).current
+  const opacity    = useRef(new Animated.Value(1)).current
+  const translateX = useRef(new Animated.Value(0)).current
+  const idleRef    = useRef(null)
+
+  // ─── Idle animation (per pet type) ──────────────────────────────────────
+  useEffect(() => {
+    if (!config) return
+    idleRef.current?.stop()
+
+    if (config.idleAnim === 'float') {
+      idleRef.current = Animated.loop(
+        Animated.sequence([
+          Animated.timing(translateY, { toValue: -8, duration: 1200, useNativeDriver: true }),
+          Animated.timing(translateY, { toValue:  0, duration: 1200, useNativeDriver: true }),
+        ]),
+      )
+    } else if (config.idleAnim === 'lean') {
+      idleRef.current = Animated.loop(
+        Animated.sequence([
+          Animated.timing(rotateZ, { toValue:  0.05, duration: 1500, useNativeDriver: true }),
+          Animated.timing(rotateZ, { toValue: -0.05, duration: 1500, useNativeDriver: true }),
+          Animated.timing(rotateZ, { toValue:  0,    duration: 600,  useNativeDriver: true }),
+        ]),
+      )
+    } else if (config.idleAnim === 'pulse') {
+      idleRef.current = Animated.loop(
+        Animated.sequence([
+          Animated.timing(scale, { toValue: 0.97, duration: 2000, useNativeDriver: true }),
+          Animated.timing(scale, { toValue: 1.00, duration: 2000, useNativeDriver: true }),
+        ]),
+      )
+    } else if (config.idleAnim === 'glitch') {
+      idleRef.current = Animated.loop(
+        Animated.sequence([
+          Animated.delay(2000),
+          Animated.timing(opacity, { toValue: 0.3, duration: 60,  useNativeDriver: true }),
+          Animated.timing(opacity, { toValue: 1.0, duration: 60,  useNativeDriver: true }),
+          Animated.timing(opacity, { toValue: 0.6, duration: 40,  useNativeDriver: true }),
+          Animated.timing(opacity, { toValue: 1.0, duration: 80,  useNativeDriver: true }),
+        ]),
+      )
+    }
+
+    idleRef.current?.start()
+    return () => idleRef.current?.stop()
+  }, [config?.id])
+
+  // ─── Reaction animations (one-shot) ─────────────────────────────────────
+  useEffect(() => {
+    if (!activeReaction) return
+    idleRef.current?.stop()
+
+    let animation = null
+
+    if (activeReaction === 'cheer') {
+      animation = Animated.sequence([
+        Animated.spring(scale, { toValue: 1.4, tension: 300, friction: 5, useNativeDriver: true }),
+        Animated.spring(scale, { toValue: 1.0, tension: 200, friction: 8, useNativeDriver: true }),
+        Animated.spring(scale, { toValue: 1.2, tension: 300, friction: 5, useNativeDriver: true }),
+        Animated.spring(scale, { toValue: 1.0, tension: 200, friction: 8, useNativeDriver: true }),
+      ])
+    } else if (activeReaction === 'sad') {
+      animation = Animated.parallel([
+        Animated.timing(rotateZ, { toValue: -0.15, duration: 400, useNativeDriver: true }),
+        Animated.timing(opacity, { toValue: 0.55,  duration: 400, useNativeDriver: true }),
+      ])
+    } else if (activeReaction === 'happy_dance') {
+      animation = Animated.sequence([
+        Animated.timing(translateX, { toValue:  20, duration: 100, useNativeDriver: true }),
+        Animated.timing(translateX, { toValue: -20, duration: 100, useNativeDriver: true }),
+        Animated.timing(translateX, { toValue:  20, duration: 100, useNativeDriver: true }),
+        Animated.timing(translateX, { toValue: -20, duration: 100, useNativeDriver: true }),
+        Animated.timing(translateX, { toValue:   0, duration: 100, useNativeDriver: true }),
+      ])
+    } else if (activeReaction === 'sympathetic') {
+      animation = Animated.sequence([
+        Animated.timing(rotateZ, { toValue: -0.08, duration: 500, useNativeDriver: true }),
+        Animated.timing(rotateZ, { toValue:  0,    duration: 500, useNativeDriver: true }),
+      ])
+    } else if (activeReaction === 'root_for_you') {
+      animation = Animated.loop(
+        Animated.sequence([
+          Animated.timing(translateY, { toValue: -12, duration: 150, useNativeDriver: true }),
+          Animated.timing(translateY, { toValue:   0, duration: 150, useNativeDriver: true }),
+        ]),
+        { iterations: 5 },
+      )
+    } else if (activeReaction === 'celebrate') {
+      animation = Animated.sequence([
+        Animated.spring(scale, { toValue: 1.5, tension: 400, friction: 4, useNativeDriver: true }),
+        Animated.timing(translateY, { toValue: -20, duration: 200, useNativeDriver: true }),
+        Animated.timing(translateY, { toValue:   0, duration: 300, useNativeDriver: true }),
+        Animated.spring(scale, { toValue: 1.0, tension: 200, friction: 8, useNativeDriver: true }),
+      ])
+    }
+
+    animation?.start(() => {
+      // Reset all values and restart idle
+      scale.setValue(1)
+      opacity.setValue(1)
+      rotateZ.setValue(0)
+      translateX.setValue(0)
+      translateY.setValue(0)
+      idleRef.current?.start()
+    })
+  }, [activeReaction])
+
+  if (!pet.chosen || !config) return null
+
+  const isSad    = pet.happiness < 15
+  const isHungry = pet.hunger < 10
+
+  const petEmoji  = isHungry ? '😿' : (isSad ? '😞' : config.emoji)
+  const stageIcon = STAGE_OVERLAYS[pet.stage]
+
+  const rotateStr = rotateZ.interpolate({ inputRange: [-1, 1], outputRange: ['-57.3deg', '57.3deg'] })
+
+  return (
+    <TouchableOpacity onPress={onPress} activeOpacity={0.85} style={[s.container, { width: size * 1.6, height: size * 1.5 }]}>
+
+      {/* Stage 4 particle effects */}
+      {pet.stage >= 4 && PARTICLE_POSITIONS.map((pos, i) => (
+        <Text key={i} style={[s.particle, pos]}>✨</Text>
+      ))}
+
+      {/* Glow aura (stage 3+ or equipped cosmetic) */}
+      {(pet.stage >= 3 || (pet.accessories ?? []).includes('glowAura')) && (
+        <View style={[s.glow, { width: size + 24, height: size + 24, borderRadius: (size + 24) / 2 }]} />
+      )}
+
+      {/* Gold tint overlay for stage 4 */}
+      {pet.stage >= 4 && (
+        <View style={[s.goldOverlay, { width: size + 8, height: size + 8, borderRadius: (size + 8) / 2 }]} />
+      )}
+
+      {/* The pet emoji */}
+      <Animated.View style={[
+        s.emojiWrap,
+        { transform: [{ translateY }, { translateX }, { rotate: rotateStr }, { scale }], opacity },
+      ]}>
+        <Text style={{ fontSize: size * 0.7, textAlign: 'center' }}>{petEmoji}</Text>
+      </Animated.View>
+
+      {/* Stage badge (top-right) */}
+      {stageIcon && (
+        <View style={s.stageBadge}>
+          <Text style={{ fontSize: 18 }}>{stageIcon}</Text>
+        </View>
+      )}
+
+      {/* Graduation cap cosmetic */}
+      {(pet.accessories ?? []).includes('graduationCap') && (
+        <Text style={s.graduationCap}>🎓</Text>
+      )}
+
+      {/* Tiny backpack cosmetic */}
+      {(pet.accessories ?? []).includes('tinyBackpack') && (
+        <Text style={s.tinyBackpack}>🎒</Text>
+      )}
+
+      {/* Grayscale overlay when very sad */}
+      {isSad && (
+        <View style={[s.grayOverlay, { width: size * 0.85, height: size * 0.85, borderRadius: size }]} />
+      )}
+
+      {/* Pet name */}
+      <Text style={s.petName}>{pet.name}</Text>
+
+    </TouchableOpacity>
+  )
+}
+
+const s = StyleSheet.create({
+  container: {
+    alignItems:     'center',
+    justifyContent: 'center',
+    alignSelf:      'center',
+    position:       'relative',
+  },
+  emojiWrap:     { alignItems: 'center', justifyContent: 'center' },
+  stageBadge:    { position: 'absolute', top: 6, right: 12 },
+  graduationCap: { position: 'absolute', top: 2, fontSize: 22 },
+  tinyBackpack:  { position: 'absolute', bottom: 20, right: 14, fontSize: 18 },
+  particle:      { position: 'absolute', fontSize: 14 },
+  glow: {
+    position:        'absolute',
+    backgroundColor: 'rgba(251,191,36,0.12)',
+    borderWidth:     2,
+    borderColor:     'rgba(251,191,36,0.25)',
+  },
+  goldOverlay: {
+    position:        'absolute',
+    backgroundColor: 'rgba(251,191,36,0.08)',
+  },
+  grayOverlay: {
+    position:        'absolute',
+    backgroundColor: 'rgba(0,0,0,0.35)',
+  },
+  petName: {
+    position:    'absolute',
+    bottom:       0,
+    fontFamily:  'Nunito_700Bold',
+    fontSize:    13,
+    color:       'rgba(100,100,100,0.85)',
+    textAlign:   'center',
+  },
+})

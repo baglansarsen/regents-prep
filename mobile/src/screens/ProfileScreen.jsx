@@ -14,6 +14,7 @@ import { auth } from '../firebase'
 import { signOut } from 'firebase/auth'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 import { useDoubleXP } from '../context/DoubleXPContext'
+import { useSubscription } from '../context/SubscriptionContext'
 
 const AVATAR_COLORS = ['#58CC02', '#1CB0F6', '#CE82FF', '#FFC800', '#FF4B4B']
 
@@ -36,6 +37,7 @@ export default function ProfileScreen({ navigation }) {
   const { streak }                    = useDailyStreak(uid)
   const level                         = getLevel(xp)
   const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleXP()
+  const { isSubscribed } = useSubscription()
 
   const {
     enabled: notifEnabled,
@@ -144,6 +146,33 @@ export default function ProfileScreen({ navigation }) {
               <View style={s.boostPill}>
                 <Text style={[T.label, { color: '#F59E0B', textTransform: 'none', letterSpacing: 0 }]}>
                   ⚡ {Math.floor(boostTimeLeft / 60)}:{String(boostTimeLeft % 60).padStart(2, '0')}
+                </Text>
+              </View>
+            )}
+            <Text style={[T.body, { color: C.textMuted }]}>›</Text>
+          </View>
+        </TouchableOpacity>
+
+        {/* ── Support / Subscribe ── */}
+        <TouchableOpacity
+          style={[s.rowCard, cardShadow(C.shadow), { borderColor: isSubscribed ? '#9333EA55' : C.border }]}
+          onPress={() => navigation.navigate('Support')}
+          activeOpacity={0.85}
+        >
+          <View style={s.rowLeft}>
+            <Text style={{ fontSize: 28 }}>{isSubscribed ? '💜' : '⭐'}</Text>
+            <View style={{ marginLeft: 12 }}>
+              <Text style={[T.h3, { color: C.text }]}>{isSubscribed ? 'Premium Active' : 'Go Premium'}</Text>
+              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                {isSubscribed ? 'Unlimited hearts · Thank you!' : 'Unlimited hearts · from $1.99/mo'}
+              </Text>
+            </View>
+          </View>
+          <View style={s.rowRight}>
+            {isSubscribed && (
+              <View style={[s.boostPill, { backgroundColor: '#F3E8FF', borderColor: '#9333EA55' }]}>
+                <Text style={[T.label, { color: '#9333EA', textTransform: 'none', letterSpacing: 0 }]}>
+                  ♾️ Active
                 </Text>
               </View>
             )}

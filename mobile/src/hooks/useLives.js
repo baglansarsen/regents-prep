@@ -27,7 +27,7 @@ async function save(uid, lives, nextRefillAt) {
   }
 }
 
-export function useLives(uid) {
+export function useLives(uid, isSubscribed = false) {
   const [lives,       setLives]       = useState(MAX_LIVES)
   const [nextRefillAt, setNextRefillAt] = useState(null)
   const livesRef = useRef(MAX_LIVES)
@@ -93,6 +93,7 @@ export function useLives(uid) {
 
   // ─── loseLife ─────────────────────────────────────────────────────────────
   const loseLife = useCallback(async () => {
+    if (isSubscribed) return  // premium users have unlimited hearts
     if (livesRef.current <= 0) return
     const newLives = livesRef.current - 1
     const newRefill = refillRef.current ?? new Date(Date.now() + REFILL_MS).toISOString()
@@ -130,5 +131,5 @@ export function useLives(uid) {
     await save(uid_ref.current, newLives, newRefill)
   }, [])
 
-  return { lives, maxLives: MAX_LIVES, loseLife, refillLives, addLife, nextRefillAt, refillCost: REFILL_COST_XP }
+  return { lives, maxLives: MAX_LIVES, loseLife, refillLives, addLife, nextRefillAt, refillCost: REFILL_COST_XP, isSubscribed }
 }

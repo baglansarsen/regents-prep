@@ -22,6 +22,10 @@ import * as esData from '../../../src/data/earth-science/index'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import GoalRing from '../components/GoalRing'
 import UnitBanner from '../components/UnitBanner'
+import PetWidget from '../components/PetWidget'
+import PetStatusBars from '../components/PetStatusBars'
+import { usePetContext } from '../context/PetContext'
+import { useCoinsContext } from '../context/CoinsContext'
 
 const { width } = Dimensions.get('window')
 const NODE_SIZE = 84
@@ -36,7 +40,7 @@ export default function HomeScreen({ navigation }) {
   const sd = subject === SUBJECTS.EARTH_SCIENCE ? esData : leData
 
   const { history } = useProgress(uid)
-  const { weekDays } = useDailyStreak(uid)
+  const { weekDays, streak, studiedToday } = useDailyStreak(uid)
   const { xp, spendXP }         = useXP(uid)
   const { lives, maxLives, nextRefillAt, refillLives } = useLivesContext()
 
@@ -48,10 +52,15 @@ export default function HomeScreen({ navigation }) {
   const { lessonComplete, unitLessonsCompleted } = useLessonProgress(subjectHistory)
   const units = sd.UNITS ?? []
   const { isUnitUnlocked, unitUnlockHint, reloadSkipUnlocks } = useUnitUnlocks(units, lessonComplete, subject)
-  useFocusEffect(useCallback(() => { reloadSkipUnlocks() }, [reloadSkipUnlocks]))
+  useFocusEffect(useCallback(() => {
+    reloadSkipUnlocks()
+    if (pendingEvolution) navigation.navigate('PetEvolution')
+  }, [reloadSkipUnlocks, pendingEvolution]))
 
   const { goal, setGoal, todayXP, progress: goalProgress, goalMet, GOALS } = useDailyGoal(xp)
   const { mistakes, mistakeCount } = useMistakes()
+  const { pet, pendingEvolution, getPetMessage } = usePetContext()
+  const { coins } = useCoinsContext()
 
   const [selectedLesson,  setSelectedLesson]  = useState(null)
   const [showGoalPicker,  setShowGoalPicker]   = useState(false)
@@ -207,12 +216,19 @@ export default function HomeScreen({ navigation }) {
 
       <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={s.scroll}>
 
-        {/* Greeting */}
+        {/* Greeting + coin balance */}
         <View style={s.header}>
-          <Text style={[T.h1, { color: C.text }]}>Good {timeOfDay()} 👋</Text>
-          <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-            {user?.displayName?.split(' ')[0] ?? 'Student'} · Level {Math.floor(xp / 500) + 1}
-          </Text>
+          <View>
+            <Text style={[T.h1, { color: C.text }]}>Good {timeOfDay()} 👋</Text>
+            <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+              {user?.displayName?.split(' ')[0] ?? 'Student'} · Level {Math.floor(xp / 500) + 1}
+            </Text>
+          </View>
+          {coins > 0 && (
+            <View style={[s.coinChip, { backgroundColor: C.surface2, borderColor: C.border }]}>
+              <Text style={[T.body, { color: '#F59E0B' }]}>💰 {coins.toLocaleString()}</Text>
+            </View>
+          )}
         </View>
 
         {/* Week streak dots */}
@@ -267,6 +283,27 @@ export default function HomeScreen({ navigation }) {
           {/* Tap hint */}
           <Text style={[T.label, { color: C.textDim }]}>TAP TO{'\n'}CHANGE</Text>
         </TouchableOpacity>
+
+        {/* StudyBuddy pet */}
+        {pet.chosen && (
+          <View style={s.petSection}>
+            <PetWidget onPress={() => navigation.navigate('PetShop')} />
+            <PetStatusBars />
+            {/* Personality message */}
+            {(() => {
+              const daysSince = studiedToday ? 0 : 1
+              const msg = getPetMessage({ streak, daysSince })
+              if (!msg) return null
+              return (
+                <View style={[s.petMsgCard, { backgroundColor: C.surface, borderColor: C.border }]}>
+                  <Text style={[T.small, { color: C.textMuted, fontStyle: 'italic', lineHeight: 18, textAlign: 'center' }]}>
+                    "{msg}"
+                  </Text>
+                </View>
+              )
+            })()}
+          </View>
+        )}
 
         {/* Quick actions — 2×2 grid */}
         <View style={s.quickGrid}>
@@ -549,7 +586,14 @@ function makeStyles(C) {
   return StyleSheet.create({
     safe:       { flex: 1, backgroundColor: C.bg },
     scroll:     { paddingBottom: 20 },
-    header:     { paddingHorizontal: 20, paddingTop: 16, paddingBottom: 12 },
+    header:     { paddingHorizontal: 20, paddingTop: 16, paddingBottom: 12, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+    coinChip:   { borderRadius: 16, paddingHorizontal: 10, paddingVertical: 5, borderWidth: 1 },
+    petSection: { paddingTop: 8, paddingBottom: 4 },
+    petMsgCard: {
+      marginHorizontal: 24, marginTop: 10,
+      borderRadius: 14, borderWidth: 1,
+      paddingHorizontal: 16, paddingVertical: 10,
+    },
 
     weekRow:    { flexDirection: 'row', justifyContent: 'center', gap: 8, marginBottom: 20, paddingHorizontal: 16 },
     dayDot:     { width: 38, height: 38, borderRadius: 19, backgroundColor: C.surface2, alignItems: 'center', justifyContent: 'center', borderWidth: 2, borderColor: C.border },

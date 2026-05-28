@@ -49,7 +49,7 @@ export default function GlobalTopBar() {
   const { subject, setSubject }                          = useSubject()
   const { streak, hasFreeze, buyFreeze }                 = useDailyStreak(uid)
   const { xp, spendXP }                                  = useXP(uid)
-  const { lives, maxLives, nextRefillAt, refillLives, addLife } = useLivesContext()
+  const { lives, maxLives, nextRefillAt, refillLives, addLife, isSubscribed } = useLivesContext()
   const secsUntilRefill = useCountdown(lives < maxLives ? nextRefillAt : null)
   const { isActive: boostActive, timeLeft: boostTimeLeft }     = useDoubleXP()
   const { ready: adReady, showAd }                             = useRewardedAd({ onReward: addLife })
@@ -168,13 +168,19 @@ export default function GlobalTopBar() {
           </View>
         </View>
 
-        {/* ❤️ Lives */}
-        <TouchableOpacity style={s.stat} onPress={handleLivesTap} activeOpacity={0.8}>
-          <Text style={s.statText}>
-            {'❤️'.repeat(lives)}{'🖤'.repeat(maxLives - lives)}
-            {lives < maxLives && secsUntilRefill > 0 ? `  ${formatSecs(secsUntilRefill)}` : ''}
-          </Text>
-        </TouchableOpacity>
+        {/* ❤️ Lives — show ♾️ when subscribed */}
+        {isSubscribed ? (
+          <View style={s.stat}>
+            <Text style={s.statText}>♾️ ❤️</Text>
+          </View>
+        ) : (
+          <TouchableOpacity style={s.stat} onPress={handleLivesTap} activeOpacity={0.8}>
+            <Text style={s.statText}>
+              {'❤️'.repeat(lives)}{'🖤'.repeat(maxLives - lives)}
+              {lives < maxLives && secsUntilRefill > 0 ? `  ${formatSecs(secsUntilRefill)}` : ''}
+            </Text>
+          </TouchableOpacity>
+        )}
 
       </View>
     </View>

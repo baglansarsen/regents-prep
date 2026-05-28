@@ -14,6 +14,9 @@ import { AuthProvider } from './src/context/AuthContext'
 import { SubjectProvider } from './src/context/SubjectContext'
 import { DoubleXPProvider } from './src/context/DoubleXPContext'
 import { LivesProvider } from './src/context/LivesContext'
+import { SubscriptionProvider } from './src/context/SubscriptionContext'
+import { CoinsProvider } from './src/context/CoinsContext'
+import { PetProvider }   from './src/context/PetContext'
 import AppNavigator from './src/navigation/AppNavigator'
 
 SplashScreen.preventAutoHideAsync()
@@ -56,9 +59,15 @@ export default function App() {
       <SubjectProvider>
         <DoubleXPProvider>
           <AuthProvider>
-            <LivesProvider>
-              <Inner />
-            </LivesProvider>
+            <SubscriptionProvider>
+              <CoinsProvider>
+                <LivesProvider>
+                  <PetProvider>
+                    <Inner />
+                  </PetProvider>
+                </LivesProvider>
+              </CoinsProvider>
+            </SubscriptionProvider>
           </AuthProvider>
         </DoubleXPProvider>
       </SubjectProvider>

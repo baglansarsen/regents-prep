@@ -14,6 +14,8 @@ import { useRewardedAd } from '../hooks/useRewardedAd'
 import { useQuiz } from '../hooks/useQuiz'
 import { appendMistakes } from '../hooks/useMistakes'
 import { useDoubleXP } from '../context/DoubleXPContext'
+import { useCoinsContext } from '../context/CoinsContext'
+import { usePetContext } from '../context/PetContext'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 
 const LETTERS = ['A', 'B', 'C', 'D']
@@ -54,9 +56,11 @@ export default function QuizScreen({ route, navigation }) {
   const { saveResult, masteryPct } = useProgress(uid)
   const { xpMultiplier }           = useDoubleXP()
   const { markStudied }          = useDailyStreak(uid)
-  const { earnXP, spendXP }      = useXP(uid)
+  const { xp, earnXP, spendXP }  = useXP(uid)
   const { lives, maxLives, nextRefillAt, loseLife, refillLives, addLife } = useLivesContext()
   const { ready: adReady, showAd } = useRewardedAd({ onReward: addLife })
+  const { earnCoins } = useCoinsContext()
+  const { checkAndEvolve, triggerReaction } = usePetContext()
 
   const {
     currentQuestion, index, total, score, streak, bestStreak,
@@ -127,6 +131,12 @@ export default function QuizScreen({ route, navigation }) {
       saveResult({ topic, score, total, correct, pct, subject, lessonIndex })
       markStudied()
       earnXP(xpEarned)
+      earnCoins(Math.floor(xpEarned / 10))
+      checkAndEvolve(xp + xpEarned)
+      if (pct === 100)       triggerReaction('cheer')
+      else if (pct >= 85)    triggerReaction('happy_dance')
+      else if (pct <= 30)    triggerReaction('sympathetic')
+      else                   triggerReaction('root_for_you')
       navigation.replace('Results', {
         score, total, results, bestStreak, topic, subject,
         xpEarned, comboBonus, firstMastery, masteredTopic: topic ?? null,

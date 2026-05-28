@@ -9,6 +9,8 @@ import { useAuthContext } from '../context/AuthContext'
 import { useXP } from '../hooks/useXP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { appendMistakes } from '../hooks/useMistakes'
+import { useCoinsContext } from '../context/CoinsContext'
+import { usePetContext } from '../context/PetContext'
 
 const EXAM_MINUTES = 85
 const CDN_BASE = 'https://regents-csas.web.app'
@@ -19,8 +21,10 @@ export default function ExamScreen({ route, navigation }) {
   const insets = useSafeAreaInsets()
   const { user } = useAuthContext()
   const uid = user?.uid
-  const { earnXP } = useXP(uid)
+  const { xp, earnXP } = useXP(uid)
   const { markStudied } = useDailyStreak(uid)
+  const { earnCoins } = useCoinsContext()
+  const { checkAndEvolve } = usePetContext()
 
   const [currentIdx, setCurrentIdx] = useState(0)
   const [answers,    setAnswers]    = useState({})
@@ -54,9 +58,11 @@ export default function ExamScreen({ route, navigation }) {
 
   function submit() {
     clearInterval(timerRef.current)
-    const correct = questions.filter((q, i) => answers[i] === (q.correct ?? q.correctIndex)).length
-    const xp = correct * 5
-    earnXP(xp)
+    const correct   = questions.filter((q, i) => answers[i] === (q.correct ?? q.correctIndex)).length
+    const xpEarned  = correct * 5
+    earnXP(xpEarned)
+    earnCoins(Math.floor(xpEarned / 10))
+    checkAndEvolve(xp + xpEarned)
     markStudied()
 
     // Persist wrong answers for "Practice Mistakes" mode
@@ -64,7 +70,7 @@ export default function ExamScreen({ route, navigation }) {
     appendMistakes(wrongQs, exam.subject)
 
     navigation.replace('ExamResults', {
-      exam, questions, answers: { ...answers }, correct, total: questions.length, xpEarned: xp,
+      exam, questions, answers: { ...answers }, correct, total: questions.length, xpEarned,
     })
   }
 
