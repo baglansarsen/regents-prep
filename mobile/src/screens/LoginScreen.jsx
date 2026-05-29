@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import {
   View, Text, TextInput, TouchableOpacity, StyleSheet,
-  KeyboardAvoidingView, Platform, ScrollView, ActivityIndicator, Alert,
+  KeyboardAvoidingView, Platform, ScrollView, ActivityIndicator, Alert, Image,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import * as AppleAuthentication from 'expo-apple-authentication'
@@ -23,6 +23,7 @@ try {
 
 const GOOGLE_WEB_CLIENT_ID = '752904748328-5areedgem0c4na3cuihfliraskr8vlrt.apps.googleusercontent.com'
 const GOOGLE_IOS_CLIENT_ID = '752904748328-82me96mfpu3vhv9qm2f5u300qllktr4t.apps.googleusercontent.com'
+const GOOGLE_AND_CLIENT_ID = '752904748328-5areedgem0c4na3cuihfliraskr8vlrt.apps.googleusercontent.com' // Using Web ID for Android in Expo
 
 // Separate hook so Google.useAuthRequest is only called when the native module loaded.
 // Rules of Hooks: hooks must be called unconditionally, so we call this hook always
@@ -31,9 +32,13 @@ function useGoogleAuth(signInWithGoogleToken, setLoading) {
   const noop = { ready: false, prompt: () => {} }
   // Always call the hook — but Google.useAuthRequest is swapped for a stub when unavailable
   const useRequest = Google?.useAuthRequest ?? (() => [null, null, () => {}])
+
+  // Wrap in try-catch if possible, but hooks can't be conditional.
+  // expo-auth-session throws IF the platform is android and androidClientId is missing.
   const [request, response, promptAsync] = useRequest({
     webClientId: GOOGLE_WEB_CLIENT_ID,
-    iosClientId: GOOGLE_IOS_CLIENT_ID || undefined,
+    iosClientId: GOOGLE_IOS_CLIENT_ID,
+    androidClientId: GOOGLE_AND_CLIENT_ID,
   })
 
   useEffect(() => {
@@ -114,9 +119,9 @@ export default function LoginScreen({ navigation }) {
 
           {/* Hero */}
           <View style={s.hero}>
-            <Text style={s.owl}>🦉</Text>
+            <Image source={require('../../assets/icon.png')} style={s.logo} resizeMode="contain" />
             <Text style={[T.h1, { color: C.text, marginTop: 10, textAlign: 'center' }]}>
-              Regents Prep
+              Regentify
             </Text>
             <Text style={[T.body, { color: C.textMuted, marginTop: 4, textAlign: 'center' }]}>
               Learn smarter. Score higher.
@@ -249,7 +254,7 @@ function makeStyles(C) {
     safe:       { flex: 1, backgroundColor: C.bg },
     scroll:     { flexGrow: 1, padding: 24, paddingTop: 16 },
     hero:       { alignItems: 'center', marginBottom: 32, marginTop: 8 },
-    owl:        { fontSize: 72 },
+    logo:       { width: 100, height: 100, borderRadius: 22 },
     toggle:     { flexDirection: 'row', backgroundColor: C.surface2, borderRadius: 14, padding: 4, marginBottom: 24 },
     toggleBtn:  { flex: 1, paddingVertical: 11, borderRadius: 11, alignItems: 'center' },
     form:       { gap: 12 },
