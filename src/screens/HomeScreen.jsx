@@ -929,26 +929,29 @@ function FriendsTab({
 
 // ── Profile Tab ────────────────────────────────────────────────────────────
 
-function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, theme, setTheme, onAdmin }) {
-  const [editing, setEditing]   = useState(false)
-  const [search,  setSearch]    = useState('')
-  const [borough, setBorough]   = useState(null)
+function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, theme, setTheme, onAdmin, subject, setSubject, SUBJECT_META: subjectMeta }) {
+  const [editing,    setEditing]    = useState(false)
+  const [search,     setSearch]     = useState('')
+  const [borough,    setBorough]    = useState(null)
+  const [typeFilter, setTypeFilter] = useState(null)
 
   const bestPct     = history.length ? Math.max(...history.map((h) => h.pct)) : null
   const totalQuizzes = history.length
 
   const filtered = useMemo(() => {
     let list = NY_SCHOOLS
-    if (borough) list = list.filter((s) => s.borough === borough)
-    if (search)  list = list.filter((s) => s.name.toLowerCase().includes(search.toLowerCase()))
+    if (borough)    list = list.filter((s) => s.borough === borough)
+    if (typeFilter) list = list.filter((s) => s.type === typeFilter)
+    if (search)     list = list.filter((s) => s.name.toLowerCase().includes(search.toLowerCase()))
     return list
-  }, [borough, search])
+  }, [borough, typeFilter, search])
 
   function selectSchool(s) {
     saveSchool(s.name)
     setEditing(false)
     setSearch('')
     setBorough(null)
+    setTypeFilter(null)
   }
 
   return (
@@ -969,6 +972,29 @@ function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, t
         <div className="profile-stat"><span className="profile-stat-value">{totalQuizzes}</span><span className="profile-stat-label">quizzes</span></div>
         {bestPct !== null && <div className="profile-stat"><span className="profile-stat-value">{bestPct}%</span><span className="profile-stat-label">best</span></div>}
       </div>
+
+      {/* Regents subject section */}
+      {subjectMeta && setSubject && (
+        <div className="profile-section">
+          <div className="profile-section-header">
+            <span className="profile-section-label">MY REGENTS</span>
+          </div>
+          <div className="profile-regents-grid">
+            {Object.values(subjectMeta).map(({ id, name, icon, color }) => (
+              <button
+                key={id}
+                className={`profile-regents-chip ${subject === id ? 'profile-regents-chip--active' : ''}`}
+                style={{ '--chip-color': color }}
+                onClick={() => setSubject(id)}
+              >
+                <span>{icon}</span>
+                <span>{name}</span>
+                {subject === id && <span className="profile-regents-check">✓</span>}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* School section */}
       <div className="profile-section">
@@ -999,12 +1025,22 @@ function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, t
                 <button key={b} className={`rankings-borough-chip ${borough === b ? 'rankings-borough-chip--active' : ''}`} onClick={() => setBorough(b)}>{b}</button>
               ))}
             </div>
+            <div className="rankings-borough-row rankings-type-row">
+              {[null, 'public', 'private', 'charter'].map((t) => (
+                <button key={t ?? 'all'} className={`rankings-borough-chip rankings-type-chip ${typeFilter === t ? 'rankings-borough-chip--active' : ''}`} onClick={() => setTypeFilter(t)}>
+                  {t === null ? 'All Types' : t === 'public' ? '🏛 Public' : t === 'private' ? '🎓 Private' : '⭐ Charter'}
+                </button>
+              ))}
+            </div>
             <div className="profile-school-list">
               {filtered.map((s) => (
                 <button key={s.id} className="rankings-school-row" onClick={() => selectSchool(s)}>
                   <div>
                     <p className="rankings-school-name">{s.name}</p>
-                    <p className="rankings-school-borough">{s.borough}</p>
+                    <p className="rankings-school-borough">
+                      {s.borough}
+                      {s.type && <span className={`school-type-badge school-type-badge--${s.type}`}>{s.type === 'public' ? 'Public' : s.type === 'private' ? 'Private' : 'Charter'}</span>}
+                    </p>
                   </div>
                   <span className="rankings-school-arrow">›</span>
                 </button>
@@ -1012,7 +1048,7 @@ function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, t
               {filtered.length === 0 && <p className="rankings-empty">No schools match.</p>}
             </div>
             {editing && (
-              <button className="profile-cancel-btn" onClick={() => { setEditing(false); setSearch(''); setBorough(null) }}>Cancel</button>
+              <button className="profile-cancel-btn" onClick={() => { setEditing(false); setSearch(''); setBorough(null); setTypeFilter(null) }}>Cancel</button>
             )}
           </div>
         )}
@@ -1189,6 +1225,7 @@ export default function HomeScreen({
           user={user} school={school} saveSchool={saveSchool}
           xp={xp} streak={streak} history={history} onLogOut={onLogOut}
           theme={theme} setTheme={setTheme} onAdmin={onAdmin}
+          subject={subject} setSubject={setSubject} SUBJECT_META={SUBJECT_META}
         />
       )}
 

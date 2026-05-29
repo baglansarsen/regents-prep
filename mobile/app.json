@@ -19,6 +19,7 @@
       "infoPlist": {
         "NSCameraUsageDescription": "Used for profile photos",
         "NSPhotoLibraryUsageDescription": "Used for profile photos",
+        "NSLocationWhenInUseUsageDescription": "Used to find schools near your current location.",
         "CFBundleURLTypes": [
           {
             "CFBundleURLSchemes": [
@@ -40,13 +41,20 @@
         "backgroundColor": "#0f172a"
       },
       "package": "com.regentify.app",
-      "googleServicesFile": "./google-services.json"
+      "googleServicesFile": "./google-services.json",
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-font",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Used to find schools near your current location."
+        }
+      ],
       "./plugins/withForcedKotlin",
       [
         "expo-splash-screen",

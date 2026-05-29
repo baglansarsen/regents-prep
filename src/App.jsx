@@ -47,9 +47,14 @@ export default function App() {
   const [subject, setSubjectRaw] = useState(
     () => localStorage.getItem('regents_subject') || 'living-environment'
   )
+  const [subjectChosen, setSubjectChosen] = useState(
+    () => !!localStorage.getItem('regents_subject_chosen')
+  )
   const setSubject = useCallback((s) => {
     localStorage.setItem('regents_subject', s)
+    localStorage.setItem('regents_subject_chosen', '1')
     setSubjectRaw(s)
+    setSubjectChosen(true)
   }, [])
 
   const subjectDataMap = {
@@ -94,7 +99,7 @@ export default function App() {
   }, [xp, xpLoaded, queueToast])
   const { school, saveSchool, loading: schoolLoading } = useSchool(user, xp, earnedIds)
   const { bookmarkedIds, toggle: toggleBookmark, remove: removeBookmark } = useBookmarks(user?.uid)
-  const { question: dailyQ, answeredToday: dailyAnswered, record: dailyRecord, loading: dailyLoading, submitAnswer: submitDailyAnswer } = useDailyQuestion(user?.uid)
+  const { question: dailyQ, answeredToday: dailyAnswered, record: dailyRecord, loading: dailyLoading, submitAnswer: submitDailyAnswer } = useDailyQuestion(user?.uid, questions, subject)
   const {
     friends, friendCode, feed: friendFeed,
     incomingRequests, sentRequests,
@@ -301,11 +306,18 @@ export default function App() {
     )
   }
 
-  // First-time login: school has never been set — skip for anonymous/guest users
-  if (school === null && !user.isAnonymous) {
+  // Onboarding: show when school is not set OR subject has never been explicitly chosen
+  // Anonymous/guest users skip onboarding
+  if ((school === null || !subjectChosen) && !user.isAnonymous) {
     return (
       <div className="app-shell">
-        <SchoolOnboardingScreen user={user} onSelect={saveSchool} />
+        <SchoolOnboardingScreen
+          user={user}
+          onComplete={(subjectId, schoolName) => {
+            if (subjectId) setSubject(subjectId)
+            saveSchool(schoolName)
+          }}
+        />
       </div>
     )
   }

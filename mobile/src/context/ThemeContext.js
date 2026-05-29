@@ -10,35 +10,44 @@ const ThemeContext = createContext(null)
 
 export function ThemeProvider({ children }) {
   const systemScheme = useColorScheme()
-  const [mode,        setModeState]  = useState('system') // 'light' | 'dark' | 'system'
-  const [themeChosen, setThemeChosen] = useState(null)    // null = loading, true/false = resolved
+  const [state, setState] = useState({
+    mode: 'system',
+    themeChosen: null, // null = loading, true/false = resolved
+  })
 
   useEffect(() => {
     Promise.all([
       AsyncStorage.getItem(THEME_KEY),
       AsyncStorage.getItem(CHOSEN_KEY),
     ]).then(([saved, chosen]) => {
-      if (saved) setModeState(saved)
-      setThemeChosen(!!chosen)
-    }).catch(() => setThemeChosen(true))  // fail open
+      setState({
+        mode: saved || 'system',
+        themeChosen: !!chosen,
+      })
+    }).catch(() => setState(s => ({ ...s, themeChosen: true })))  // fail open
   }, [])
 
   // Persist mode; does NOT mark as "chosen" (use pickTheme for that)
   const toggleTheme = async () => {
-    const next = mode === 'dark' ? 'light' : 'dark'
-    setModeState(next)
+    const next = state.mode === 'dark' ? 'light' : 'dark'
+    setState(s => ({ ...s, mode: next }))
     await AsyncStorage.setItem(THEME_KEY, next)
   }
 
   // Called from ThemePickerScreen — saves + marks chosen so it never shows again
   const pickTheme = async (next) => {
-    setModeState(next)
-    setThemeChosen(true)
+    // Update state once to avoid double render
+    setState({
+      mode: next,
+      themeChosen: true,
+    })
     await Promise.all([
       AsyncStorage.setItem(THEME_KEY,  next),
       AsyncStorage.setItem(CHOSEN_KEY, '1'),
     ])
   }
+
+  const { mode, themeChosen } = state
 
   const isDark = mode === 'system' ? systemScheme === 'dark' : mode === 'dark'
   const C = isDark ? dark : light

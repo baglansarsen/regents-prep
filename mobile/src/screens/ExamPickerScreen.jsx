@@ -49,6 +49,21 @@ const PHYS_EXAMS = [
   { id: 'phys-jun-2023', label: 'June 2023', subject: SUBJECTS.PHYSICS },
 ]
 
+const A1_EXAMS = [
+  { id: 'a1-jun-2025', label: 'June 2025', subject: SUBJECTS.ALGEBRA_1 },
+  { id: 'a1-jun-2024', label: 'June 2024', subject: SUBJECTS.ALGEBRA_1 },
+]
+
+const A2_EXAMS = [
+  { id: 'a2-jun-2025', label: 'June 2025', subject: SUBJECTS.ALGEBRA_2 },
+  { id: 'a2-jun-2024', label: 'June 2024', subject: SUBJECTS.ALGEBRA_2 },
+]
+
+const GEO_EXAMS = [
+  { id: 'geo-jun-2025', label: 'June 2025', subject: SUBJECTS.GEOMETRY },
+  { id: 'geo-jun-2024', label: 'June 2024', subject: SUBJECTS.GEOMETRY },
+]
+
 // Map exam IDs to their data files
 const EXAM_DATA_MAP = {
   'le-jun-2025': () => require('../../../src/data/regents-exams/living-environment/june-2025'),
@@ -81,6 +96,12 @@ const EXAM_DATA_MAP = {
   'phys-aug-2024': () => require('../../../src/data/regents-exams/physics/august-2024'),
   'phys-jun-2024': () => require('../../../src/data/regents-exams/physics/june-2024'),
   'phys-jun-2023': () => require('../../../src/data/regents-exams/physics/june-2023'),
+  'a1-jun-2025':   () => require('../../../src/data/regents-exams/algebra-1/june-2025'),
+  'a1-jun-2024':   () => require('../../../src/data/regents-exams/algebra-1/june-2024'),
+  'a2-jun-2025':   () => require('../../../src/data/regents-exams/algebra-2/june-2025'),
+  'a2-jun-2024':   () => require('../../../src/data/regents-exams/algebra-2/june-2024'),
+  'geo-jun-2025':  () => require('../../../src/data/regents-exams/geometry/june-2025'),
+  'geo-jun-2024':  () => require('../../../src/data/regents-exams/geometry/june-2024'),
 }
 
 export default function ExamPickerScreen({ navigation }) {
@@ -88,11 +109,16 @@ export default function ExamPickerScreen({ navigation }) {
   const { subject } = useSubject()
   const s = makeStyles(C)
 
-  const exams = subject === SUBJECTS.EARTH_SCIENCE
-    ? ES_EXAMS
-    : (subject === SUBJECTS.LIVING_ENVIRONMENT 
-       ? LE_EXAMS 
-       : (subject === SUBJECTS.CHEMISTRY ? CHEM_EXAMS : PHYS_EXAMS))
+  const EXAMS_BY_SUBJECT = {
+    [SUBJECTS.LIVING_ENVIRONMENT]: LE_EXAMS,
+    [SUBJECTS.EARTH_SCIENCE]:      ES_EXAMS,
+    [SUBJECTS.CHEMISTRY]:          CHEM_EXAMS,
+    [SUBJECTS.PHYSICS]:            PHYS_EXAMS,
+    [SUBJECTS.ALGEBRA_1]:          A1_EXAMS,
+    [SUBJECTS.ALGEBRA_2]:          A2_EXAMS,
+    [SUBJECTS.GEOMETRY]:           GEO_EXAMS,
+  }
+  const exams = EXAMS_BY_SUBJECT[subject] ?? LE_EXAMS
   const meta  = SUBJECT_META[subject]
 
   function openExam(exam) {

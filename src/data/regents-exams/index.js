@@ -32,8 +32,11 @@ import physJun2024 from './physics/june-2024'
 import physAug2024 from './physics/august-2024'
 import physJun2023 from './physics/june-2023'
 
+import a1Jun2025 from './algebra-1/june-2025'
 import a1Jun2024 from './algebra-1/june-2024'
+import a2Jun2025 from './algebra-2/june-2025'
 import a2Jun2024 from './algebra-2/june-2024'
+import geoJun2025 from './geometry/june-2025'
 import geoJun2024 from './geometry/june-2024'
 
 export const REGENTS_EXAMS = {
@@ -60,12 +63,15 @@ export const REGENTS_EXAMS = {
     physJun2025, physJun2024, physAug2024, physJun2023,
   ],
   'algebra-1': [
+    a1Jun2025,
     a1Jun2024,
   ],
   'algebra-2': [
+    a2Jun2025,
     a2Jun2024,
   ],
   'geometry': [
+    geoJun2025,
     geoJun2024,
   ],
 }

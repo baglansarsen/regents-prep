@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, StyleSheet,
   Switch, Alert, Animated, Modal, FlatList,
@@ -6,12 +6,15 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
+import { useSubject } from '../context/SubjectContext'
+import { SUBJECT_META } from '../../../src/data/subjects'
 import { useProgress } from '../hooks/useProgress'
 import { useXP, getLevel } from '../hooks/useXP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useNotifications, formatTime } from '../hooks/useNotifications'
-import { auth } from '../firebase'
+import { auth, db } from '../firebase'
 import { signOut } from 'firebase/auth'
+import { doc, getDoc } from 'firebase/firestore'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 import { useDoubleXP } from '../context/DoubleXPContext'
 import { useSubscription } from '../context/SubscriptionContext'
@@ -38,6 +41,18 @@ export default function ProfileScreen({ navigation }) {
   const level                         = getLevel(xp)
   const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleXP()
   const { isSubscribed } = useSubscription()
+
+  const { subject, setSubject } = useSubject()
+
+  const [schoolName, setSchoolName] = useState(null)
+  function loadSchool() {
+    if (!uid || user?.isAnonymous) return
+    getDoc(doc(db, 'users', uid, 'meta', 'school'))
+      .then(snap => { if (snap.exists()) setSchoolName(snap.data().name) })
+      .catch(() => {})
+  }
+  useEffect(() => { loadSchool() }, [uid])
+  useEffect(() => navigation.addListener('focus', loadSchool), [navigation, uid])
 
   const {
     enabled: notifEnabled,
@@ -127,6 +142,48 @@ export default function ProfileScreen({ navigation }) {
             </View>
           ))}
         </View>
+
+        {/* ── Regents Exam Selection ── */}
+        <View style={[s.section, cardShadow(C.shadow), { backgroundColor: C.surface }]}>
+          <Text style={[T.label, { color: C.textMuted, marginBottom: 10 }]}>MY REGENTS EXAM</Text>
+          <View style={s.subjectGrid}>
+            {Object.values(SUBJECT_META).map(({ id, name, icon, color }) => {
+              const active = subject === id
+              return (
+                <TouchableOpacity
+                  key={id}
+                  style={[s.subjectChip, { borderColor: active ? color : C.border, backgroundColor: active ? color + '20' : C.surface2 }]}
+                  onPress={() => setSubject(id)}
+                  activeOpacity={0.75}
+                >
+                  <Text style={s.subjectIcon}>{icon}</Text>
+                  <Text style={[s.subjectName, { color: active ? color : C.textMuted }]}>{name}</Text>
+                  {active && <Text style={[s.subjectCheck, { color }]}>✓</Text>}
+                </TouchableOpacity>
+              )
+            })}
+          </View>
+        </View>
+
+        {/* ── School ── */}
+        {!user?.isAnonymous && (
+          <TouchableOpacity
+            style={[s.rowCard, cardShadow(C.shadow)]}
+            onPress={() => navigation.navigate('SchoolChange')}
+            activeOpacity={0.85}
+          >
+            <View style={s.rowLeft}>
+              <Text style={{ fontSize: 28 }}>🏫</Text>
+              <View style={{ marginLeft: 12 }}>
+                <Text style={[T.h3, { color: C.text }]}>My School</Text>
+                <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                  {schoolName ?? 'Not set — tap to choose'}
+                </Text>
+              </View>
+            </View>
+            <Text style={[T.body, { color: C.textMuted }]}>›</Text>
+          </TouchableOpacity>
+        )}
 
         {/* ── XP Shop ── */}
         <TouchableOpacity
@@ -347,6 +404,13 @@ function makeStyles(C) {
 
     statsRow:    { flexDirection: 'row', marginHorizontal: 16, gap: 10, marginBottom: 16 },
     statCard:    { flex: 1, backgroundColor: C.surface, borderRadius: 16, padding: 14, alignItems: 'center', borderWidth: 1, borderColor: C.border },
+
+    section:     { marginHorizontal: 16, marginBottom: 16, borderRadius: 18, padding: 16, borderWidth: 1, borderColor: C.border },
+    subjectGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
+    subjectChip: { flexDirection: 'row', alignItems: 'center', gap: 6, borderWidth: 1.5, borderRadius: 99, paddingHorizontal: 12, paddingVertical: 7 },
+    subjectIcon: { fontSize: 16 },
+    subjectName: { fontSize: 12, fontWeight: '700' },
+    subjectCheck:{ fontSize: 12, fontWeight: '800', marginLeft: 2 },
 
     rowCard: {
       flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',

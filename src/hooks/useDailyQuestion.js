@@ -1,63 +1,73 @@
 import { useState, useEffect, useCallback } from 'react'
 import { doc, getDoc, setDoc } from 'firebase/firestore'
 import { db } from '../firebase'
-import { questions } from '../data/questions'
-
-const LS_KEY = 'regents_daily_q_v1'
-
-function todayStr() {
-  return new Date().toISOString().split('T')[0] // 'YYYY-MM-DD'
-}
-
-function pickQuestion() {
-  // Same question for everyone on a given day
-  const dayIndex = Math.floor(Date.now() / 86400000)
-  return questions[dayIndex % questions.length]
-}
-
-function loadLocal() {
-  try { return JSON.parse(localStorage.getItem(LS_KEY)) } catch { return null }
-}
 
 export const DAILY_CORRECT_BONUS = 50
 export const DAILY_ATTEMPT_BONUS = 10
 
-export function useDailyQuestion(uid) {
-  const question = pickQuestion()
-  const today    = todayStr()
+function todayStr() {
+  return new Date().toISOString().split('T')[0]
+}
 
-  // null = not yet answered today, otherwise { choiceIndex, correct, date }
-  const [record, setRecord] = useState(null)
+function pickQuestion(pool) {
+  if (!pool?.length) return null
+  const dayIndex = Math.floor(Date.now() / 86400000)
+  return pool[dayIndex % pool.length]
+}
+
+// Storage key is subject-specific so switching subjects resets the daily question state
+function lsKey(subject) {
+  return `regents_daily_q_v1_${subject ?? 'le'}`
+}
+
+function loadLocal(subject) {
+  try { return JSON.parse(localStorage.getItem(lsKey(subject))) } catch { return null }
+}
+
+export function useDailyQuestion(uid, subjectQuestions, subject) {
+  const question = pickQuestion(subjectQuestions)
+  const today    = todayStr()
+  const key      = lsKey(subject)
+
+  const [record,  setRecord]  = useState(null)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    // Check localStorage first for instant load
-    const local = loadLocal()
+    setRecord(null)
+    setLoading(true)
+
+    const local = loadLocal(subject)
     if (local?.date === today) { setRecord(local); setLoading(false); return }
 
     if (!uid) { setLoading(false); return }
 
-    getDoc(doc(db, 'users', uid, 'meta', 'dailyQuestion'))
+    getDoc(doc(db, 'users', uid, 'meta', `dailyQuestion_${subject ?? 'le'}`))
       .then((snap) => {
         if (snap.exists() && snap.data().date === today) setRecord(snap.data())
       })
       .catch(() => {})
       .finally(() => setLoading(false))
-  }, [uid, today])
+  }, [uid, today, subject])
 
   const submitAnswer = useCallback(async (choiceIndex) => {
-    const correct = choiceIndex === question.correct
+    if (!question) return null
+    const correct  = choiceIndex === question.correct
     const xpEarned = correct ? DAILY_CORRECT_BONUS : DAILY_ATTEMPT_BONUS
-    const rec = { date: today, choiceIndex, correct, questionId: question.id }
+    const rec      = { date: today, choiceIndex, correct, questionId: question.id }
 
     setRecord(rec)
-    try { localStorage.setItem(LS_KEY, JSON.stringify(rec)) } catch {}
+    try { localStorage.setItem(key, JSON.stringify(rec)) } catch {}
     if (uid) {
-      try { await setDoc(doc(db, 'users', uid, 'meta', 'dailyQuestion'), rec, { merge: true }) } catch {}
+      try {
+        await setDoc(
+          doc(db, 'users', uid, 'meta', `dailyQuestion_${subject ?? 'le'}`),
+          rec,
+          { merge: true },
+        )
+      } catch {}
     }
-
     return { correct, xpEarned }
-  }, [uid, question, today])
+  }, [uid, question, today, key, subject])
 
   const answeredToday = record?.date === today
 

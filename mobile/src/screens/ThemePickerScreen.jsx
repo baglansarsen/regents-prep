@@ -124,8 +124,10 @@ export default function ThemePickerScreen({ onComplete }) {
 
   async function handleContinue() {
     const mode = chosen ?? 'system'
-    await pickTheme(mode)
-    onComplete?.()
+    // Optimistically update and mark as complete
+    // We don't await here to avoid UI hang if AsyncStorage is slow,
+    // as pickTheme now updates state immediately.
+    pickTheme(mode)
   }
 
   // The outer container uses a neutral mid-tone so both previews look good
