@@ -1080,6 +1080,7 @@ export default function HomeScreen({
   initialTab, onAdmin, onUpgrade,
 }) {
   const [tab, setTab] = useState(initialTab ?? 'study')
+  const [dropdownOpen, setDropdownOpen] = useState(false)
 
   const { questions = [], TOPICS = {}, TOPIC_ICONS = {}, LAB_TYPES = {}, flashcards = [], FLASHCARD_TOPIC_LIST = [] } = subjectData ?? {}
   const subjectName = SUBJECT_META?.[subject]?.name ?? 'Regents Prep'
@@ -1092,16 +1093,38 @@ export default function HomeScreen({
           <p className="app-subtitle">Regents Prep</p>
         </div>
         {SUBJECT_META && setSubject && (
-          <div className="subject-selector">
-            {Object.values(SUBJECT_META).map(({ id, name, icon }) => (
-              <button
-                key={id}
-                className={`fc-topic-chip ${subject === id ? 'fc-topic-chip--active' : ''}`}
-                onClick={() => setSubject(id)}
-              >
-                {icon} {name}
-              </button>
-            ))}
+          <div className="subject-dropdown-container">
+            <button
+              className="subject-dropdown-trigger"
+              onClick={() => setDropdownOpen(!dropdownOpen)}
+              style={{ borderColor: SUBJECT_META[subject]?.color }}
+            >
+              <span className="dropdown-subject-icon">{SUBJECT_META[subject]?.icon}</span>
+              <span className="dropdown-subject-name">{SUBJECT_META[subject]?.name}</span>
+              <span className={`dropdown-chevron ${dropdownOpen ? 'dropdown-chevron--open' : ''}`}>▼</span>
+            </button>
+            {dropdownOpen && (
+              <>
+                <div className="subject-dropdown-backdrop" onClick={() => setDropdownOpen(false)} />
+                <div className="subject-dropdown-menu">
+                  {Object.values(SUBJECT_META).map(({ id, name, icon, color }) => (
+                    <button
+                      key={id}
+                      className={`subject-dropdown-item ${subject === id ? 'subject-dropdown-item--active' : ''}`}
+                      onClick={() => {
+                        setSubject(id)
+                        setDropdownOpen(false)
+                      }}
+                      style={subject === id ? { borderLeftColor: color, background: `${color}11` } : {}}
+                    >
+                      <span className="dropdown-item-icon">{icon}</span>
+                      <span className="dropdown-item-name">{name}</span>
+                      {subject === id && <span className="dropdown-item-active-dot" style={{ backgroundColor: color }} />}
+                    </button>
+                  ))}
+                </div>
+              </>
+            )}
           </div>
         )}
       </header>

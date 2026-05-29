@@ -1,3 +1,15 @@
+import leJun2025 from './regents-exams/living-environment/june-2025'
+import leJun2024 from './regents-exams/living-environment/june-2024'
+import leAug2024 from './regents-exams/living-environment/august-2024'
+import leJun2023 from './regents-exams/living-environment/june-2023'
+import leAug2023 from './regents-exams/living-environment/august-2023'
+import leJun2022 from './regents-exams/living-environment/june-2022'
+import leAug2022 from './regents-exams/living-environment/august-2022'
+import leJun2021 from './regents-exams/living-environment/june-2021'
+import leAug2021 from './regents-exams/living-environment/august-2021'
+import leJun2019 from './regents-exams/living-environment/june-2019'
+import leAug2019 from './regents-exams/living-environment/august-2019'
+
 export const TOPICS = {
   CELL_BIOLOGY: 'Cell Biology',
   GENETICS: 'Genetics & Heredity',
@@ -3647,6 +3659,40 @@ export const questions = [
 { id: 550, topic: TOPICS.ECOLOGY, text: 'Deforestation is a major cause of soil loss. Without trees and other plants to hold the soil in place, it either washes or blows away. Governments and international organizations are working to decrease the rate of deforestation. In addition to slowing the rate of soil loss, another potential benefit of this action would be', choices: ['a decrease in atmospheric carbon dioxide levels', 'more land available for agriculture', 'a decrease in the amount of firewood for heating', 'more locations for the construction of new homes'], correct: 0, explanation: 'Trees absorb CO₂ during photosynthesis; preserving forests (reducing deforestation) means more trees continue removing carbon dioxide from the atmosphere, helping to lower atmospheric CO₂ levels.' },
 
 ]
+
+// Dynamically distribute past exam questions into topics
+const LE_TOPIC_MAP = {
+  'Cell Biology': TOPICS.CELL_BIOLOGY,
+  'Genetics': TOPICS.GENETICS,
+  'Evolution': TOPICS.EVOLUTION,
+  'Ecology': TOPICS.ECOLOGY,
+  'Human Body': TOPICS.HUMAN_BODY,
+  'Photosynthesis': TOPICS.PHOTOSYNTHESIS,
+  'Reproduction': TOPICS.REPRODUCTION,
+  'Visual': TOPICS.VISUAL,
+}
+
+const LE_EXAMS = [
+  leJun2025, leJun2024, leAug2024, leJun2023, leAug2023,
+  leJun2022, leAug2022, leJun2021, leAug2021, leJun2019, leAug2019
+]
+let leNextId = 1000
+LE_EXAMS.forEach((exam) => {
+  if (!exam || !exam.questions) return
+  exam.questions.forEach((q) => {
+    questions.push({
+      id: leNextId++,
+      topic: LE_TOPIC_MAP[q.topic] || TOPICS.ECOLOGY,
+      text: q.text,
+      choices: q.choices,
+      correct: q.correct,
+      explanation: `From the ${exam.session} ${exam.year} Living Environment Regents Exam. Part ${q.part}, Question ${q.number}.`,
+      context: q.context,
+      image: q.image,
+      labType: q.labType,
+    })
+  })
+})
 
 export function getByTopic(topic) {
   return questions.filter((q) => q.topic === topic)

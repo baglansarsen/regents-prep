@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { View, Text, TouchableOpacity, Animated, StyleSheet } from 'react-native'
+import { View, Text, Image, TouchableOpacity, Animated, StyleSheet } from 'react-native'
 import { usePetContext } from '../context/PetContext'
 import { useSpeechContext } from '../context/SpeechContext'
 import { PETS, STAGE_OVERLAYS } from '../data/petConfig'
-import SpriteAnimation from './SpriteAnimation'
 import SpeechBubble from './SpeechBubble'
 import { usePetAnimation } from '../hooks/usePetAnimation'
 import PET_SPRITES from '../assets/petSprites'
+import SpriteAnimation from './SpriteAnimation'
 
 const PARTICLE_POSITIONS = [
   { top: -10, left: 10  },

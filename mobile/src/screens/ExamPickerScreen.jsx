@@ -11,10 +11,13 @@ const LE_EXAMS = [
   { id: 'le-jun-2025', label: 'June 2025', subject: SUBJECTS.LIVING_ENVIRONMENT },
   { id: 'le-aug-2024', label: 'August 2024', subject: SUBJECTS.LIVING_ENVIRONMENT },
   { id: 'le-jun-2024', label: 'June 2024', subject: SUBJECTS.LIVING_ENVIRONMENT },
-  { id: 'le-jun-2023', label: 'June 2023', subject: SUBJECTS.LIVING_ENVIRONMENT },
   { id: 'le-aug-2023', label: 'August 2023', subject: SUBJECTS.LIVING_ENVIRONMENT },
-  { id: 'le-jun-2022', label: 'June 2022', subject: SUBJECTS.LIVING_ENVIRONMENT },
+  { id: 'le-jun-2023', label: 'June 2023', subject: SUBJECTS.LIVING_ENVIRONMENT },
   { id: 'le-aug-2022', label: 'August 2022', subject: SUBJECTS.LIVING_ENVIRONMENT },
+  { id: 'le-jun-2022', label: 'June 2022', subject: SUBJECTS.LIVING_ENVIRONMENT },
+  { id: 'le-aug-2021', label: 'August 2021', subject: SUBJECTS.LIVING_ENVIRONMENT },
+  { id: 'le-jun-2021', label: 'June 2021', subject: SUBJECTS.LIVING_ENVIRONMENT },
+  { id: 'le-aug-2019', label: 'August 2019', subject: SUBJECTS.LIVING_ENVIRONMENT },
   { id: 'le-jun-2019', label: 'June 2019', subject: SUBJECTS.LIVING_ENVIRONMENT },
 ]
 
@@ -26,8 +29,24 @@ const ES_EXAMS = [
   { id: 'es-jun-2023', label: 'June 2023', subject: SUBJECTS.EARTH_SCIENCE },
   { id: 'es-aug-2022', label: 'August 2022', subject: SUBJECTS.EARTH_SCIENCE },
   { id: 'es-jun-2022', label: 'June 2022', subject: SUBJECTS.EARTH_SCIENCE },
+  { id: 'es-aug-2021', label: 'August 2021', subject: SUBJECTS.EARTH_SCIENCE },
+  { id: 'es-jun-2021', label: 'June 2021', subject: SUBJECTS.EARTH_SCIENCE },
   { id: 'es-aug-2019', label: 'August 2019', subject: SUBJECTS.EARTH_SCIENCE },
   { id: 'es-jun-2019', label: 'June 2019', subject: SUBJECTS.EARTH_SCIENCE },
+]
+
+const CHEM_EXAMS = [
+  { id: 'chem-jun-2025', label: 'June 2025', subject: SUBJECTS.CHEMISTRY },
+  { id: 'chem-aug-2024', label: 'August 2024', subject: SUBJECTS.CHEMISTRY },
+  { id: 'chem-jun-2024', label: 'June 2024', subject: SUBJECTS.CHEMISTRY },
+  { id: 'chem-jun-2023', label: 'June 2023', subject: SUBJECTS.CHEMISTRY },
+]
+
+const PHYS_EXAMS = [
+  { id: 'phys-jun-2025', label: 'June 2025', subject: SUBJECTS.PHYSICS },
+  { id: 'phys-aug-2024', label: 'August 2024', subject: SUBJECTS.PHYSICS },
+  { id: 'phys-jun-2024', label: 'June 2024', subject: SUBJECTS.PHYSICS },
+  { id: 'phys-jun-2023', label: 'June 2023', subject: SUBJECTS.PHYSICS },
 ]
 
 // Map exam IDs to their data files
@@ -39,6 +58,9 @@ const EXAM_DATA_MAP = {
   'le-aug-2023': () => require('../../../src/data/regents-exams/living-environment/august-2023'),
   'le-jun-2022': () => require('../../../src/data/regents-exams/living-environment/june-2022'),
   'le-aug-2022': () => require('../../../src/data/regents-exams/living-environment/august-2022'),
+  'le-jun-2021': () => require('../../../src/data/regents-exams/living-environment/june-2021'),
+  'le-aug-2021': () => require('../../../src/data/regents-exams/living-environment/august-2021'),
+  'le-aug-2019': () => require('../../../src/data/regents-exams/living-environment/august-2019'),
   'le-jun-2019': () => require('../../../src/data/regents-exams/living-environment/june-2019'),
   'es-jun-2025': () => require('../../../src/data/regents-exams/earth-science/june-2025'),
   'es-aug-2024': () => require('../../../src/data/regents-exams/earth-science/august-2024'),
@@ -47,8 +69,18 @@ const EXAM_DATA_MAP = {
   'es-jun-2023': () => require('../../../src/data/regents-exams/earth-science/june-2023'),
   'es-aug-2022': () => require('../../../src/data/regents-exams/earth-science/august-2022'),
   'es-jun-2022': () => require('../../../src/data/regents-exams/earth-science/june-2022'),
+  'es-jun-2021': () => require('../../../src/data/regents-exams/earth-science/june-2021'),
+  'es-aug-2021': () => require('../../../src/data/regents-exams/earth-science/august-2021'),
   'es-aug-2019': () => require('../../../src/data/regents-exams/earth-science/august-2019'),
   'es-jun-2019': () => require('../../../src/data/regents-exams/earth-science/june-2019'),
+  'chem-jun-2025': () => require('../../../src/data/regents-exams/chemistry/june-2025'),
+  'chem-aug-2024': () => require('../../../src/data/regents-exams/chemistry/august-2024'),
+  'chem-jun-2024': () => require('../../../src/data/regents-exams/chemistry/june-2024'),
+  'chem-jun-2023': () => require('../../../src/data/regents-exams/chemistry/june-2023'),
+  'phys-jun-2025': () => require('../../../src/data/regents-exams/physics/june-2025'),
+  'phys-aug-2024': () => require('../../../src/data/regents-exams/physics/august-2024'),
+  'phys-jun-2024': () => require('../../../src/data/regents-exams/physics/june-2024'),
+  'phys-jun-2023': () => require('../../../src/data/regents-exams/physics/june-2023'),
 }
 
 export default function ExamPickerScreen({ navigation }) {
@@ -56,7 +88,11 @@ export default function ExamPickerScreen({ navigation }) {
   const { subject } = useSubject()
   const s = makeStyles(C)
 
-  const exams = subject === SUBJECTS.EARTH_SCIENCE ? ES_EXAMS : LE_EXAMS
+  const exams = subject === SUBJECTS.EARTH_SCIENCE
+    ? ES_EXAMS
+    : (subject === SUBJECTS.LIVING_ENVIRONMENT 
+       ? LE_EXAMS 
+       : (subject === SUBJECTS.CHEMISTRY ? CHEM_EXAMS : PHYS_EXAMS))
   const meta  = SUBJECT_META[subject]
 
   function openExam(exam) {

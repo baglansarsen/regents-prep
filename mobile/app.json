@@ -24,8 +24,14 @@
             "CFBundleURLSchemes": [
               "com.googleusercontent.apps.752904748328-82me96mfpu3vhv9qm2f5u300qllktr4t"
             ]
+          },
+          {
+            "CFBundleURLSchemes": [
+              "com.googleusercontent.apps.752904748328-82me96mfpu3vhv9qm2f5u300qllktr4t"
+            ]
           }
-        ]
+        ],
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
@@ -53,7 +59,7 @@
       [
         "react-native-google-mobile-ads",
         {
-          "androidAppId": "ca-app-pub-2023523440912350~8962352450",
+          "androidAppId": "ca-app-pub-2023523440912350~8290368804",
           "iosAppId": "ca-app-pub-2023523440912350~8962352450",
           "skAdNetworkItems": []
         }

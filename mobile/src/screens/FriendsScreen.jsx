@@ -300,7 +300,7 @@ export default function FriendsScreen({ navigation }) {
   }
 
   return (
-    <SafeAreaView style={s.safe} edges={['top']}>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
       <Text style={[T.h1, s.pageTitle]}>Social</Text>
 
       {/* Friend code banner */}

@@ -73,5 +73,5 @@ echo "✓ Images synced"
 
 # ── Deploy ──────────────────────────────────────────────────────────────────
 echo "Deploying to Firebase Hosting..."
-npx -y firebase-tools@latest deploy --only hosting --token "$TOKEN"
+npx -y firebase-tools@latest deploy --only hosting --project regents-prep --token "$TOKEN"
 echo "✓ Deployed"

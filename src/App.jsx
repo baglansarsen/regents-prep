@@ -2,6 +2,11 @@ import { useState, useCallback, useMemo, useEffect, useRef } from 'react'
 import { getLevel, regentsXP } from './data/levels'
 import * as livingEnvData from './data/living-environment/index'
 import * as earthScienceData from './data/earth-science/index'
+import * as chemistryData from './data/chemistry/index'
+import * as physicsData from './data/physics/index'
+import * as algebra1Data from './data/algebra-1/index'
+import * as algebra2Data from './data/algebra-2/index'
+import * as geometryData from './data/geometry/index'
 import { SUBJECT_META } from './data/subjects'
 import { useAuth } from './hooks/useAuth'
 import { useTheme } from './hooks/useTheme'
@@ -47,7 +52,15 @@ export default function App() {
     setSubjectRaw(s)
   }, [])
 
-  const sd = subject === 'earth-science' ? earthScienceData : livingEnvData
+  const subjectDataMap = {
+    'earth-science': earthScienceData,
+    'chemistry': chemistryData,
+    'physics': physicsData,
+    'algebra-1': algebra1Data,
+    'algebra-2': algebra2Data,
+    'geometry': geometryData,
+  }
+  const sd = subjectDataMap[subject] ?? livingEnvData
   const { questions, getByTopic, shuffled, buildDiagnosticSet, getContextual, TOPIC_ORDER } = sd
   const getLabQuestions = sd.getLabQuestions ?? (() => [])
 

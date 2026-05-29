@@ -1,8 +1,25 @@
 import { useRef, useEffect } from 'react'
-import { View, Text, TouchableOpacity, Animated, StyleSheet } from 'react-native'
+import { View, Text, Image, TouchableOpacity, Animated, StyleSheet } from 'react-native'
 import { C } from '../theme'
 import PunnettSquare from './diagrams/PunnettSquare'
 import FoodWeb from './diagrams/FoodWeb'
+// Algebra 1
+import LinearGraphA1 from './diagrams/LinearGraphA1'
+import ParabolaA1 from './diagrams/ParabolaA1'
+import ScatterPlotA1 from './diagrams/ScatterPlotA1'
+import BoxPlotA1 from './diagrams/BoxPlotA1'
+import SystemGraphA1 from './diagrams/SystemGraphA1'
+// Algebra 2
+import SineWaveA2 from './diagrams/SineWaveA2'
+import PolyCubicA2 from './diagrams/PolyCubicA2'
+import ExponentialDecayA2 from './diagrams/ExponentialDecayA2'
+import HistogramA2 from './diagrams/HistogramA2'
+// Geometry
+import ParallelLinesGeo from './diagrams/ParallelLinesGeo'
+import InscribedAngleGeo from './diagrams/InscribedAngleGeo'
+import SimilarTrianglesGeo from './diagrams/SimilarTrianglesGeo'
+import RightTriangleTrigGeo from './diagrams/RightTriangleTrigGeo'
+import CircleChordGeo from './diagrams/CircleChordGeo'
 
 const LABELS = ['A', 'B', 'C', 'D']
 
@@ -49,8 +66,30 @@ export default function QuestionCard({ question, selected, phase, onAnswer }) {
         {question.diagram?.type === 'punnett' && (
           <PunnettSquare alleles={question.diagram.alleles} title={question.diagram.title} />
         )}
-        {question.diagram?.type === 'foodweb' && (
-          <FoodWeb />
+        {question.diagram?.type === 'foodweb' && <FoodWeb />}
+
+        {/* Algebra 1 */}
+        {question.diagram?.type === 'lineargraph-a1' && <LinearGraphA1 />}
+        {question.diagram?.type === 'parabola-a1' && <ParabolaA1 />}
+        {question.diagram?.type === 'scatterplot-a1' && <ScatterPlotA1 />}
+        {question.diagram?.type === 'boxplot-a1' && <BoxPlotA1 />}
+        {question.diagram?.type === 'systemgraph-a1' && <SystemGraphA1 />}
+        {/* Algebra 2 */}
+        {question.diagram?.type === 'sinewave-a2' && <SineWaveA2 />}
+        {question.diagram?.type === 'polycubic-a2' && <PolyCubicA2 />}
+        {question.diagram?.type === 'expdecay-a2' && <ExponentialDecayA2 />}
+        {question.diagram?.type === 'histogram-a2' && <HistogramA2 />}
+        {/* Geometry */}
+        {question.diagram?.type === 'parallellines-geo' && <ParallelLinesGeo />}
+        {question.diagram?.type === 'inscribedangle-geo' && <InscribedAngleGeo />}
+        {question.diagram?.type === 'similartriangles-geo' && <SimilarTrianglesGeo />}
+        {question.diagram?.type === 'righttrigtrig-geo' && <RightTriangleTrigGeo />}
+        {question.diagram?.type === 'circlechord-geo' && <CircleChordGeo />}
+
+        {/* PNG/image-based questions */}
+        {question.image && (
+          <Image source={{ uri: question.image }} style={s.questionImage}
+            resizeMode="contain" accessibilityLabel="Question diagram" />
         )}
 
         <View style={s.choices}>
@@ -162,4 +201,5 @@ const s = StyleSheet.create({
   feedbackTitleCorrect: { color: C.correct },
   feedbackTitleWrong:   { color: C.wrong },
   feedbackExplanation: { fontSize: 13, color: C.textMuted, lineHeight: 20 },
+  questionImage: { width: '100%', height: 180, borderRadius: 10, marginBottom: 12 },
 })

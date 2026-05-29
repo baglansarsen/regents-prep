@@ -20,6 +20,11 @@ import { useFocusEffect } from '@react-navigation/native'
 import { SUBJECTS } from '../../../src/data/subjects'
 import * as leData from '../../../src/data/living-environment/index'
 import * as esData from '../../../src/data/earth-science/index'
+import * as chemData from '../../../src/data/chemistry/index'
+import * as physicsData from '../../../src/data/physics/index'
+import * as algebra1Data from '../../../src/data/algebra-1/index'
+import * as algebra2Data from '../../../src/data/algebra-2/index'
+import * as geometryData from '../../../src/data/geometry/index'
 import { STRATEGY_CATEGORIES } from '../../../src/data/strategies-meta'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import GoalRing from '../components/GoalRing'
@@ -48,7 +53,15 @@ export default function HomeScreen({ navigation }) {
   const uid = user?.uid
 
   const { subject } = useSubject()
-  const sd = subject === SUBJECTS.EARTH_SCIENCE ? esData : leData
+  const mobileSubjectMap = {
+    [SUBJECTS.EARTH_SCIENCE]: esData,
+    [SUBJECTS.CHEMISTRY]:     chemData,
+    [SUBJECTS.PHYSICS]:       physicsData,
+    [SUBJECTS.ALGEBRA_1]:     algebra1Data,
+    [SUBJECTS.ALGEBRA_2]:     algebra2Data,
+    [SUBJECTS.GEOMETRY]:      geometryData,
+  }
+  const sd = mobileSubjectMap[subject] ?? leData
 
   const { history } = useProgress(uid)
   const { weekDays, streak, studiedToday } = useDailyStreak(uid)
@@ -98,6 +111,7 @@ export default function HomeScreen({ navigation }) {
       petType:       pet.petType,
       streak,
       daysUntilExam: 14,  // TODO: wire to real exam date
+      subject,
     }).then((msg) => { if (msg) say(msg) }).catch(() => {})
   }, [reloadSkipUnlocks, pendingEvolution, uid, streak]))
 
@@ -118,13 +132,23 @@ export default function HomeScreen({ navigation }) {
   const tipsAnim      = useRef(new Animated.Value(400)).current
 
   // ── Idle speech — fires every 4–8 min while home screen is active ────────
+  const subjectName = {
+    'living-environment': 'Living Environment',
+    'earth-science':      'Earth Science',
+    'chemistry':          'Chemistry',
+    'physics':            'Physics',
+    'algebra-1':          'Algebra 1',
+    'algebra-2':          'Algebra 2',
+    'geometry':           'Geometry',
+  }[subject] ?? 'Regents'
+
   const idleMessages = pet.petType ? {
-    axolotl: ['Your notes are looking great lately 💗', 'One more quiz? For me? 🦎', 'I believe in you. Always. 🌊'],
-    fox:     ['You know what separates good scores from great? Consistency.', 'Sharp mind. Keep it that way. 🦊', 'Quick quiz. Go.'],
-    capybara:['No rush. One flashcard deck is enough 🌿', 'Breathe. You\'re doing well 🦫', 'Chill energy, real results.'],
-    voidCat: ['The void observes your progress. It is... adequate. 🐱', 'Study. The void commands it. 🌑', 'Do not disappoint the void.'],
-    bear:    ['One more unit. Bears don\'t quit midway 🐻', 'Slow and steady gets the Regents 🍯', 'I\'m proud of your consistency 🐾'],
-    bunny:   ['Quick question — what\'s your weak topic? Let\'s fix it 🐰', 'You\'re hopping through this! 🌸', 'Keep going! Almost there 🐰'],
+    axolotl: [`Your ${subjectName} notes are looking great lately 💗`, 'One more quiz? For me? 🦎', `I believe in your ${subjectName} skills. Always. 🌊`],
+    fox:     [`You know what separates good ${subjectName} scores from great? Consistency.`, 'Sharp mind. Keep it that way. 🦊', 'Quick quiz. Go.'],
+    capybara:[`No rush. One ${subjectName} flashcard deck is enough 🌿`, 'Breathe. You\'re doing well 🦫', 'Chill energy, real results.'],
+    voidCat: [`The void observes your ${subjectName} progress. It is... adequate. 🐱`, 'Study. The void commands it. 🌑', 'Do not disappoint the void.'],
+    bear:    [`One more ${subjectName} unit. Bears don\'t quit midway 🐻`, `Slow and steady wins the ${subjectName} Regents 🍯`, 'I\'m proud of your consistency 🐾'],
+    bunny:   [`Quick question — what\'s your weak ${subjectName} topic? Let\'s fix it 🐰`, `You\'re hopping through ${subjectName}! 🌸`, 'Keep going! Almost there 🐰'],
   }[pet.petType] ?? [] : []
 
   useEffect(() => {

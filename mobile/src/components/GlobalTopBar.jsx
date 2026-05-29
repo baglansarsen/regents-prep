@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { View, Text, TouchableOpacity, StyleSheet, Alert } from 'react-native'
+import { View, Text, TouchableOpacity, StyleSheet, Alert, Modal } from 'react-native'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
@@ -45,6 +45,8 @@ export default function GlobalTopBar() {
   const { C } = useTheme()
   const { user } = useAuthContext()
   const uid = user?.uid
+
+  const [dropdownOpen, setDropdownOpen] = useState(false)
 
   const { subject, setSubject }                          = useSubject()
   const { streak, hasFreeze, buyFreeze }                 = useDailyStreak(uid)
@@ -113,34 +115,27 @@ export default function GlobalTopBar() {
     )
   }
 
-  const s = makeStyles(insets.top)
+  const subjectColor = SUBJECT_META[subject]?.color ?? '#16a34a'
+  const s = makeStyles(insets.top, subjectColor)
+
+  const activeMeta = SUBJECT_META[subject]
+  const barTop = insets.top + 48
 
   return (
     <View style={s.bar}>
-      {/* Subject switcher */}
-      <View style={s.pills}>
-        {Object.values(SUBJECTS).map((sub) => {
-          const meta   = SUBJECT_META[sub]
-          const active = subject === sub
-          return (
-            <TouchableOpacity
-              key={sub}
-              style={[s.pill, active ? s.pillActive : s.pillInactive]}
-              onPress={() => setSubject(sub)}
-              activeOpacity={0.75}
-            >
-              <Text style={[s.pillText, active ? s.pillTextActive : s.pillTextInactive]}>
-                {meta.icon} {sub === SUBJECTS.LIVING_ENVIRONMENT ? 'LE' : 'ES'}
-              </Text>
-            </TouchableOpacity>
-          )
-        })}
-      </View>
+
+      {/* Subject dropdown button */}
+      <TouchableOpacity style={s.subjectBtn} onPress={() => setDropdownOpen(true)} activeOpacity={0.75}>
+        <Text style={s.subjectBtnText}>
+          {activeMeta.icon} {activeMeta.shortName ?? activeMeta.name.slice(0, 2).toUpperCase()}
+        </Text>
+        <Text style={s.chevron}>{dropdownOpen ? '▲' : '▼'}</Text>
+      </TouchableOpacity>
 
       {/* Stats */}
       <View style={s.stats}>
 
-        {/* 🔥 Streak (+ 🧊 when freeze is active) */}
+        {/* 🔥 Streak */}
         <TouchableOpacity style={s.stat} onPress={handleStreakTap} activeOpacity={0.75}>
           <View style={s.streakRow}>
             <Text style={s.statText}>🔥 {streak}</Text>
@@ -152,7 +147,7 @@ export default function GlobalTopBar() {
           </View>
         </TouchableOpacity>
 
-        {/* ⭐ XP (+ ⚡2× badge when boost is active) */}
+        {/* ⭐ XP */}
         <View style={s.stat}>
           <View style={s.xpRow}>
             <Text style={s.statText}>
@@ -168,7 +163,7 @@ export default function GlobalTopBar() {
           </View>
         </View>
 
-        {/* ❤️ Lives — show ♾️ when subscribed */}
+        {/* ❤️ Lives */}
         {isSubscribed ? (
           <View style={s.stat}>
             <Text style={s.statText}>♾️ ❤️</Text>
@@ -183,30 +178,58 @@ export default function GlobalTopBar() {
         )}
 
       </View>
+
+      {/* Dropdown modal */}
+      <Modal
+        visible={dropdownOpen}
+        transparent
+        animationType="fade"
+        onRequestClose={() => setDropdownOpen(false)}
+      >
+        <TouchableOpacity style={s.backdrop} activeOpacity={1} onPress={() => setDropdownOpen(false)}>
+          <View style={[s.dropdown, { top: barTop }]}>
+            {Object.values(SUBJECTS).map((sub) => {
+              const meta   = SUBJECT_META[sub]
+              const active = subject === sub
+              return (
+                <TouchableOpacity
+                  key={sub}
+                  style={[s.dropdownItem, active && s.dropdownItemActive]}
+                  onPress={() => { setSubject(sub); setDropdownOpen(false) }}
+                  activeOpacity={0.7}
+                >
+                  <Text style={s.dropdownIcon}>{meta.icon}</Text>
+                  <Text style={[s.dropdownText, active && { color: subjectColor, fontFamily: 'Nunito_800ExtraBold' }]}>
+                    {meta.name}
+                  </Text>
+                  {active && <Text style={[s.dropdownCheck, { color: subjectColor }]}>✓</Text>}
+                </TouchableOpacity>
+              )
+            })}
+          </View>
+        </TouchableOpacity>
+      </Modal>
+
     </View>
   )
 }
 
-function makeStyles(topInset) {
-  const BAR_H = 48
+function makeStyles(topInset, subjectColor) {
   return StyleSheet.create({
     bar: {
       flexDirection:     'row',
-      alignItems:        'flex-end',
+      alignItems:        'center',
       justifyContent:    'space-between',
-      backgroundColor:   '#16a34a',
+      backgroundColor:   subjectColor,
       paddingTop:        topInset + 6,
       paddingBottom:     10,
       paddingHorizontal: 14,
-      height:            topInset + BAR_H,
+      height:            topInset + 48,
     },
-    pills:       { flexDirection: 'row', gap: 6 },
-    pill:        { paddingHorizontal: 12, paddingVertical: 5, borderRadius: 20 },
-    pillActive:  { backgroundColor: '#fff' },
-    pillInactive:{ backgroundColor: 'rgba(255,255,255,0.15)' },
-    pillText:    { fontFamily: 'Nunito_800ExtraBold', fontSize: 12 },
-    pillTextActive:   { color: '#16a34a' },
-    pillTextInactive: { color: 'rgba(255,255,255,0.85)' },
+
+    subjectBtn:     { flexDirection: 'row', alignItems: 'center', gap: 5, backgroundColor: 'rgba(255,255,255,0.18)', paddingHorizontal: 12, paddingVertical: 6, borderRadius: 20 },
+    subjectBtnText: { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#fff' },
+    chevron:        { fontSize: 10, color: 'rgba(255,255,255,0.85)' },
 
     stats:       { flexDirection: 'row', alignItems: 'center', gap: 10 },
     stat:        { alignItems: 'center' },
@@ -214,28 +237,44 @@ function makeStyles(topInset) {
 
     streakRow:   { flexDirection: 'row', alignItems: 'center', gap: 4 },
     freezeBadge: {
-      backgroundColor:  'rgba(186,230,253,0.25)',   // icy blue tint
-      borderRadius:     8,
-      paddingHorizontal: 4,
-      paddingVertical:   1,
-      borderWidth:      1,
-      borderColor:      'rgba(186,230,253,0.5)',
+      backgroundColor:   'rgba(186,230,253,0.25)',
+      borderRadius:       8,
+      paddingHorizontal:  4,
+      paddingVertical:    1,
+      borderWidth:        1,
+      borderColor:        'rgba(186,230,253,0.5)',
     },
     freezeText:  { fontSize: 11 },
 
     xpRow:      { flexDirection: 'row', alignItems: 'center', gap: 5 },
     boostBadge: {
-      backgroundColor:  'rgba(245,158,11,0.25)',
-      borderRadius:     8,
-      paddingHorizontal: 5,
-      paddingVertical:   2,
-      borderWidth:      1,
-      borderColor:      'rgba(245,158,11,0.5)',
+      backgroundColor:   'rgba(245,158,11,0.25)',
+      borderRadius:       8,
+      paddingHorizontal:  5,
+      paddingVertical:    2,
+      borderWidth:        1,
+      borderColor:        'rgba(245,158,11,0.5)',
     },
-    boostText:  {
-      fontFamily: 'Nunito_800ExtraBold',
-      fontSize:   10,
-      color:      '#FCD34D',
+    boostText:  { fontFamily: 'Nunito_800ExtraBold', fontSize: 10, color: '#FCD34D' },
+
+    backdrop:   { flex: 1 },
+    dropdown:   {
+      position:          'absolute',
+      left:              14,
+      backgroundColor:   '#fff',
+      borderRadius:      14,
+      paddingVertical:   6,
+      minWidth:          220,
+      shadowColor:       '#000',
+      shadowOpacity:     0.15,
+      shadowOffset:      { width: 0, height: 4 },
+      shadowRadius:      12,
+      elevation:         8,
     },
+    dropdownItem:       { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingVertical: 13, gap: 10 },
+    dropdownItemActive: { backgroundColor: 'rgba(0,0,0,0.04)' },
+    dropdownIcon:       { fontSize: 18 },
+    dropdownText:       { fontFamily: 'Nunito_700Bold', fontSize: 15, color: '#1f2937', flex: 1 },
+    dropdownCheck:      { fontSize: 16, fontFamily: 'Nunito_800ExtraBold' },
   })
 }

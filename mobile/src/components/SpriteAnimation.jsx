@@ -1,11 +1,11 @@
 import React, { useEffect, useRef } from 'react'
 import { View, Animated } from 'react-native'
-import PET_SPRITES from '../assets/petSprites'
+import PET_SPRITES, { PET_FRAME_SIZES } from '../assets/petSprites'
 
-const FRAME_SIZE  = 128
-const FPS         = 8
-const SHEET_COLS  = 8   // frames per row  (sheet width:  1024px)
-const SHEET_ROWS  = 9   // animation rows  (sheet height: 1152px)
+const DEFAULT_FRAME_SIZE = 128
+const FPS                = 8
+const SHEET_COLS         = 8   // frames per row  (sheet width:  1024px / 2048px)
+const SHEET_ROWS         = 9   // animation rows  (sheet height: 1152px / 2304px)
 
 export const ANIMATIONS = {
   idle:        { row: 0, frames: 4 },
@@ -21,9 +21,10 @@ export const ANIMATIONS = {
 
 // Returns null while sprites are not yet commissioned — PetWidget shows emoji fallback.
 export default function SpriteAnimation({ petType, animation = 'idle', size = 128 }) {
-  const source = PET_SPRITES[petType]
-  const anim   = ANIMATIONS[animation] ?? ANIMATIONS.idle
-  const scale  = size / FRAME_SIZE
+  const source    = PET_SPRITES[petType]
+  const anim      = ANIMATIONS[animation] ?? ANIMATIONS.idle
+  const FRAME_SIZE = PET_FRAME_SIZES[petType] ?? DEFAULT_FRAME_SIZE
+  const scale     = size / FRAME_SIZE
 
   const frameIndex = useRef(0)
   const translateX = useRef(new Animated.Value(0)).current

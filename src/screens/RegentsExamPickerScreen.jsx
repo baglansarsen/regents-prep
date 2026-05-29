@@ -7,7 +7,7 @@ function getPersonalBests() {
   try { return JSON.parse(localStorage.getItem(PB_KEY) || '{}') } catch { return {} }
 }
 
-const SUBJECTS = ['living-environment', 'earth-science']
+const SUBJECTS = ['living-environment', 'earth-science', 'chemistry', 'physics', 'algebra-1', 'algebra-2', 'geometry']
 
 export default function RegentsExamPickerScreen({ onSelect, onHome, subject: initialSubject }) {
   const [subject, setSubject] = useState(initialSubject ?? 'living-environment')

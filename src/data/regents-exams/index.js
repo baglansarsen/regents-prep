@@ -22,6 +22,20 @@ import esAug2021 from './earth-science/august-2021'
 import esJun2019 from './earth-science/june-2019'
 import esAug2019 from './earth-science/august-2019'
 
+import chemJun2025 from './chemistry/june-2025'
+import chemJun2024 from './chemistry/june-2024'
+import chemAug2024 from './chemistry/august-2024'
+import chemJun2023 from './chemistry/june-2023'
+
+import physJun2025 from './physics/june-2025'
+import physJun2024 from './physics/june-2024'
+import physAug2024 from './physics/august-2024'
+import physJun2023 from './physics/june-2023'
+
+import a1Jun2024 from './algebra-1/june-2024'
+import a2Jun2024 from './algebra-2/june-2024'
+import geoJun2024 from './geometry/june-2024'
+
 export const REGENTS_EXAMS = {
   'living-environment': [
     leJun2025,
@@ -38,6 +52,21 @@ export const REGENTS_EXAMS = {
     esJun2022, esAug2022,
     esJun2021, esAug2021,
     esJun2019, esAug2019,
+  ],
+  'chemistry': [
+    chemJun2025, chemJun2024, chemAug2024, chemJun2023,
+  ],
+  'physics': [
+    physJun2025, physJun2024, physAug2024, physJun2023,
+  ],
+  'algebra-1': [
+    a1Jun2024,
+  ],
+  'algebra-2': [
+    a2Jun2024,
+  ],
+  'geometry': [
+    geoJun2024,
   ],
 }
 

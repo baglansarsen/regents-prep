@@ -54,6 +54,15 @@ export const PETS = [
     idleAnim:    'float',
     defaultName: 'Cleo',
   },
+  {
+    id:          'newbunny',
+    emoji:       '🐇',
+    name:        'New Bunny',
+    personality: 'Energetic & playful',
+    tagline:     'A fresh hop into every study session 🌟',
+    idleAnim:    'float',
+    defaultName: 'Pebble',
+  },
 ]
 
 // ─── Default pet names pool ───────────────────────────────────────────────────
@@ -290,6 +299,23 @@ export const PET_MESSAGES = {
     'You studied today. That\'s already a win. 🐾',
     'One more quiz. Then I\'ll share my honey. 🍯',
   ],
+  newbunny: [
+    '{streak} days! You\'re on a roll — this bunny is impressed 🐇',
+    'Haven\'t studied in {daysSince} day(s)? Let\'s bounce back!',
+    'Fresh start energy. Quick quiz? Let\'s go! 🌟',
+    'Stage {stage}! This bunny leveled up right alongside you.',
+    'You\'re new here and already crushing it. Keep hopping! 🐇',
+    'A {stageName} bunny never backs down from a challenge.',
+    'Wrong answers? Just shake it off and try again. 🌟',
+    'Your {streak}-day streak has this bunny doing backflips. 🐇',
+    'Feed me and I\'ll bring the good vibes all session. 🥕',
+    'One hop at a time — that\'s all it takes.',
+    'New bunny, new energy. Let\'s tackle that next unit. 🌟',
+    'Every flashcard is progress. Keep it up! 🐇',
+    'Snack break? Same. Then back to it! 🥕',
+    'Quick question, quicker answer — speed round mode activated.',
+    'A fresh bunny for a fresh start. You\'ve got this. 🌟',
+  ],
   bunny: [
     '{streak} days! You\'re hopping through this like a champ 🐰',
     'Haven\'t studied in {daysSince} day(s)? Let\'s fix that — quick!',
@@ -316,7 +342,8 @@ export const HUNGER_ALERTS = {
   capybara:'Hungry capybara... but no rush. Whenever you\'re ready. 🦫',
   voidCat: 'The void hungers. And so does your cat. 🐱',
   bear:    'Bruno is hungry. A hungry bear is a distracted bear. 🐻',
-  bunny:   'Cleo needs a snack! Hungry bunnies can\'t focus. 🐰',
+  bunny:    'Cleo needs a snack! Hungry bunnies can\'t focus. 🐰',
+  newbunny: 'Pebble is hungry! A hungry bunny can\'t hop far. 🐇',
 }
 
 export const HAPPINESS_ALERTS = {
@@ -325,5 +352,6 @@ export const HAPPINESS_ALERTS = {
   capybara:'A sad capybara is a dormant capybara. Cheer it up! 🦫',
   voidCat: 'The void cat ignores you. You have failed it. 🐱',
   bear:    'Your bear is lonely. Give Bruno some love! 🐻',
-  bunny:   'Cleo\'s ears are drooping. She needs a play session! 🐰',
+  bunny:    'Cleo\'s ears are drooping. She needs a play session! 🐰',
+  newbunny: 'Pebble looks sad. Give this bunny some love! 🐇',
 }

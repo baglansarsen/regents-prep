@@ -1,3 +1,15 @@
+import esJun2025 from '../regents-exams/earth-science/june-2025'
+import esJun2024 from '../regents-exams/earth-science/june-2024'
+import esAug2024 from '../regents-exams/earth-science/august-2024'
+import esJun2023 from '../regents-exams/earth-science/june-2023'
+import esAug2023 from '../regents-exams/earth-science/august-2023'
+import esJun2022 from '../regents-exams/earth-science/june-2022'
+import esAug2022 from '../regents-exams/earth-science/august-2022'
+import esJun2021 from '../regents-exams/earth-science/june-2021'
+import esAug2021 from '../regents-exams/earth-science/august-2021'
+import esJun2019 from '../regents-exams/earth-science/june-2019'
+import esAug2019 from '../regents-exams/earth-science/august-2019'
+
 export const TOPICS = {
   GEOLOGY: 'Geology & Rocks',
   PLATE_TECTONICS: 'Plate Tectonics',
@@ -2960,7 +2972,68 @@ export const questions = [
   { id: 2166, topic: TOPICS.PLATE_TECTONICS, context: 'A cross section shows the Juan de Fuca Plate (oceanic crust) subducting beneath the North American Plate (continental crust), with mantle shown below both plates.', text: 'In which diagram do the arrows best represent the relative motion of the upper mantle at this plate boundary?', choices: ['arrows showing mantle moving upward beneath both plates equally', 'arrows showing mantle moving only toward the Juan de Fuca side', 'arrows showing mantle moving only away from the boundary on both sides', 'arrows showing mantle convecting downward beneath the subducting plate and upward elsewhere'], correct: 3, explanation: 'At a subduction zone, mantle convection drives the oceanic plate downward as the denser slab sinks; this generates downward mantle flow beneath the subducting plate and compensating upward flow in adjacent areas.' },
   { id: 2167, topic: TOPICS.PLATE_TECTONICS, context: 'A cross section shows the Juan de Fuca Plate (oceanic crust) subducting beneath the North American Plate (continental crust).', text: 'Compared to the crust of the North American Plate, the crust of the Juan de Fuca Plate is', choices: ['thicker and less dense', 'thicker and more dense', 'thinner and less dense', 'thinner and more dense'], correct: 3, explanation: 'Oceanic crust (Juan de Fuca Plate) is composed of dense basaltic rock and is ~7 km thick, while continental crust (North American Plate) is thicker (~35 km) but less dense — this density difference causes subduction.' },
   { id: 2168, topic: TOPICS.PLATE_TECTONICS, context: 'A cross section shows the Juan de Fuca Plate subducting beneath the North American Plate with mantle layers labeled.', text: 'The boundary between the asthenosphere and the stiffer mantle is located at a depth of approximately', choices: ['100 km', '700 km', '2500 km', '3000 km'], correct: 1, explanation: 'According to the Earth\'s Interior diagram in the ESRT, the asthenosphere extends from roughly 100 km to 700 km depth, with its lower boundary at approximately 700 km.' },
+  {
+    id: 5001,
+    topic: TOPICS.GEOLOGY,
+    text: 'Diagrams show the atmosphere and inferred interior structure of the planet Uranus. Layers shown include the outer atmosphere (upper cloud layer), atmosphere (hydrogen, helium, methane gases), mantle (water, ammonia, methane ices), and core (silicate/iron-nickel rock). Which two factors caused the inferred layered structure of this planet in our solar system?',
+    choices: ['gravity and eccentricity of the orbit', 'gravity and density differences of materials', 'period of rotation at equator and eccentricity of the orbit', 'period of rotation at equator and density differences of materials'],
+    correct: 1,
+    explanation: 'Gravity pulls denser materials (like silicate and iron-nickel rock) toward the center to form the core, while lighter gases and ices float to outer layers. This density stratification is driven by gravitational sorting.',
+    image: '/images/exams/es-june-2024/q1.png'
+  },
+  {
+    id: 5002,
+    topic: TOPICS.WATER_CYCLE,
+    text: 'A photograph shows a one-mile diameter circular feature on Earth\'s surface with steep walls and a flat bottom. What is this feature, and how was it formed?',
+    choices: ['dry kettle lake, formed from an impact event', 'dry kettle lake, formed from a retreating glacier', 'crater, formed from an impact event', 'crater, formed from a retreating glacier'],
+    correct: 2,
+    explanation: 'This feature is an impact crater, formed when a massive meteorite struck Earth, excavating a bowl-shaped depression with steep walls and a flat floor.',
+    image: '/images/exams/es-june-2024/q7.png'
+  },
+  {
+    id: 5003,
+    topic: TOPICS.ASTRONOMY,
+    text: 'A time-lapse photograph shows stars as they appear to move in circular arcs around the central star Polaris. Polaris does not appear to move in the nighttime sky because Polaris is located',
+    choices: ['in our solar system', 'in our galaxy', 'above Earth\'s axis of rotation', 'above Earth\'s equator'],
+    correct: 2,
+    explanation: 'Polaris (the North Star) lies directly above Earth\'s North Pole, in line with its rotational axis. As Earth rotates, stars appear to circle it, while Polaris remains stationary.',
+    image: '/images/exams/es-june-2024/q8.png'
+  },
 ]
+
+// Dynamically distribute past exam questions into topics
+const ES_TOPIC_MAP = {
+  'Geology': TOPICS.GEOLOGY,
+  'Plate Tectonics': TOPICS.PLATE_TECTONICS,
+  'Geologic Time': TOPICS.GEOLOGIC_TIME,
+  'Meteorology': TOPICS.METEOROLOGY,
+  'Climate': TOPICS.CLIMATE,
+  'Astronomy': TOPICS.ASTRONOMY,
+  'Water Cycle': TOPICS.WATER_CYCLE,
+  'Maps': TOPICS.MAPS,
+}
+
+const ES_EXAMS = [
+  esJun2025, esJun2024, esAug2024, esJun2023, esAug2023,
+  esJun2022, esAug2022, esJun2021, esAug2021, esJun2019, esAug2019
+]
+let esNextId = 6000
+ES_EXAMS.forEach((exam) => {
+  if (!exam || !exam.questions) return
+  exam.questions.forEach((q) => {
+    questions.push({
+      id: esNextId++,
+      topic: ES_TOPIC_MAP[q.topic] || TOPICS.GEOLOGY,
+      text: q.text,
+      choices: q.choices,
+      correct: q.correct,
+      explanation: `From the ${exam.session} ${exam.year} Earth Science Regents Exam. Part ${q.part}, Question ${q.number}.`,
+      context: q.context,
+      image: q.image,
+      labType: q.labType,
+    })
+  })
+})
 
 export function getByTopic(topic) {
   return questions.filter(q => q.topic === topic)

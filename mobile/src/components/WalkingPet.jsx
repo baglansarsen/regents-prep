@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { Animated, Dimensions, StyleSheet } from 'react-native'
-import SpriteAnimation from './SpriteAnimation'
 import PET_SPRITES from '../assets/petSprites'
+import SpriteAnimation from './SpriteAnimation'
 
 const SCREEN_WIDTH = Dimensions.get('window').width
 const PET_SIZE     = 64

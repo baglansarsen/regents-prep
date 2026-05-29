@@ -17,7 +17,11 @@ function getAds() {
   return _ads
 }
 
-const AD_UNIT_ID = 'ca-app-pub-2023523440912350/9118642423'
+const AD_UNIT_ID = Platform.select({
+  android: 'ca-app-pub-2023523440912350/9872255238',
+  ios: 'ca-app-pub-2023523440912350/9118642423',
+  default: 'ca-app-pub-2023523440912350/9872255238',
+})
 
 export function useRewardedAd({ onReward } = {}) {
   const [ready,   setReady]   = useState(false)

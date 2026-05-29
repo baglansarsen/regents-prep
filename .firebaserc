@@ -1,12 +1,12 @@
 {
   "projects": {
-    "default": "csas-dismissal"
+    "default": "regents-prep"
   },
   "targets": {
-    "csas-dismissal": {
+    "regents-prep": {
       "hosting": {
         "regents": [
-          "regents-csas"
+          "regents-prep"
         ]
       }
     }
