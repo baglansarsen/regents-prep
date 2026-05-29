@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "752904748328",
+    "project_id": "regents-prep",
+    "storage_bucket": "regents-prep.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752904748328:android:74ee59206cdd2ed8a6641d",
+        "android_client_info": {
+          "package_name": "com.regentify.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752904748328-5areedgem0c4na3cuihfliraskr8vlrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT60SEmSTxgQQdud3S9HQSS7fojwf-LGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752904748328-5areedgem0c4na3cuihfliraskr8vlrt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "752904748328-82me96mfpu3vhv9qm2f5u300qllktr4t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.regentify.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

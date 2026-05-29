@@ -45,5 +45,5 @@ yarn-error.*
 *.apk
 
 # Firebase credentials (added via EAS secrets or local only)
-google-services.json
-GoogleService-Info.plist
+# google-services.json
+# GoogleService-Info.plist
