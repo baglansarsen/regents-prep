@@ -19,7 +19,7 @@ git add -f google-services.json
 
 # 3. Create a temporary local commit
 echo "Creating a temporary local build commit..."
-git commit -m "temp: local build packaging firebase credentials" --no-verify
+git commit -m "temp: local build packaging firebase credentials" --no-verify --allow-empty
 
 # 4. Set up trap to clean up the temporary changes on exit (success or failure)
 cleanup() {
