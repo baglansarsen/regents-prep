@@ -50,7 +50,12 @@ const NODE_SIZE = 84
 const ZIGZAG   = 72
 
 export default function HomeScreen({ navigation }) {
-  const { C } = useTheme()
+  const { C, isDark } = useTheme()
+  const glassStyle = Platform.OS === 'web' ? {
+    backdropFilter: 'blur(24px)',
+    backgroundColor: isDark ? 'rgba(31, 41, 55, 0.7)' : 'rgba(255, 255, 255, 0.7)',
+    borderColor: isDark ? 'rgba(255, 255, 255, 0.12)' : 'rgba(0, 0, 0, 0.08)',
+  } : {}
   const { user } = useAuthContext()
   const uid = user?.uid
 
@@ -458,7 +463,7 @@ export default function HomeScreen({ navigation }) {
 
         {/* Daily Goal Ring */}
         <TouchableOpacity
-          style={[s.goalCard, elevatedCard(C), { borderLeftWidth: 4, borderLeftColor: goalMet ? C.correct : C.brand }]}
+          style={[s.goalCard, elevatedCard(C), glassStyle, { borderLeftWidth: 4, borderLeftColor: goalMet ? C.correct : C.brand }]}
           onPress={openGoalPicker}
           activeOpacity={0.85}
         >
@@ -503,7 +508,7 @@ export default function HomeScreen({ navigation }) {
                 const msg = getPetMessage({ streak, daysSince })
                 if (!msg) return null
                 return (
-                  <View style={[s.petMsgBubble, { backgroundColor: C.surface, borderColor: C.border }]}>
+                  <View style={[s.petMsgBubble, { backgroundColor: C.surface, borderColor: C.border }, glassStyle]}>
                     <Text style={[T.small, { color: C.text, lineHeight: 18 }]}>
                       {msg}
                     </Text>
@@ -535,7 +540,7 @@ export default function HomeScreen({ navigation }) {
 
         {/* Daily quest card */}
         {questData && pet.chosen && (
-          <View style={[s.questCard, { backgroundColor: C.surface, borderColor: C.border }]}>
+          <View style={[s.questCard, { backgroundColor: C.surface, borderColor: C.border }, glassStyle]}>
             <View style={s.questHeader}>
               <Text style={{ fontSize: 18 }}>{questData.icon}</Text>
               <Text style={[T.h3, { color: C.text, flex: 1 }]}>{questData.label}</Text>
@@ -618,7 +623,6 @@ export default function HomeScreen({ navigation }) {
               const offsetX = nodeIdx % 2 === 0 ? -ZIGZAG : ZIGZAG
               return (
                 <View key={`${unit.id}-stimulus`} style={[s.nodeWrapper, { marginLeft: offsetX }]}>
-                  <View style={[s.connector, { borderColor: unitLocked ? C.surface3 : C.border }]} />
                   <TouchableOpacity
                     activeOpacity={unitLocked ? 1 : 0.8}
                     onPress={() => {
@@ -667,11 +671,6 @@ export default function HomeScreen({ navigation }) {
 
             return (
               <View key={nodeKey} style={[s.nodeWrapper, { marginLeft: offsetX }]}>
-
-                {/* Connector line — only between lessons within a unit (not before first) */}
-                {lessonIndex > 0 && (
-                  <View style={[s.connector, { borderColor: lessonLocked ? C.surface3 : C.border }]} />
-                )}
 
                 <Animated.View style={isFirstActive ? { transform: [{ scale: pulseNodeAnim }] } : undefined}>
                 <TouchableOpacity

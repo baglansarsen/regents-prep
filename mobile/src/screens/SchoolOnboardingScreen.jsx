@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useCallback } from 'react'
 import {
   View, Text, TextInput, TouchableOpacity, FlatList,
-  ScrollView, StyleSheet, ActivityIndicator, Alert,
+  ScrollView, StyleSheet, ActivityIndicator, Alert, Platform,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { doc, setDoc, serverTimestamp } from 'firebase/firestore'
@@ -186,6 +186,10 @@ export default function SchoolOnboardingScreen({ navigation, onComplete }) {
         keyExtractor={item => item.id}
         contentContainerStyle={{ padding: 16, gap: 10, paddingTop: 8 }}
         keyboardShouldPersistTaps="handled"
+        initialNumToRender={10}
+        maxToRenderPerBatch={10}
+        windowSize={5}
+        removeClippedSubviews={Platform.OS !== 'web'}
         renderItem={({ item }) => {
           const typeColor = TYPE_COLORS[item.type] ?? '#6b7280'
           return (

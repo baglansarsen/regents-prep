@@ -3,13 +3,14 @@ import { View, ActivityIndicator, StyleSheet } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import AsyncStorage from '@react-native-async-storage/async-storage'
-import { doc, getDoc } from 'firebase/firestore'
+import { doc, getDoc, setDoc } from 'firebase/firestore'
 import { db } from '../firebase'
 import { useAuthContext } from '../context/AuthContext'
 import { useTheme } from '../context/ThemeContext'
 
 import ThemePickerScreen        from '../screens/ThemePickerScreen'
 import LoginScreen              from '../screens/LoginScreen'
+import IntroductionScreen       from '../screens/IntroductionScreen'
 import SchoolOnboardingScreen   from '../screens/SchoolOnboardingScreen'
 import SubjectOnboardingScreen  from '../screens/SubjectOnboardingScreen'
 import PetPickerScreen, { petChosenKey } from '../screens/PetPickerScreen'
@@ -29,23 +30,30 @@ function schoolChosenKey(uid) {
   return `@school_chosen_v1_${uid}`
 }
 
+function introDoneKey(uid) {
+  return `@intro_done_v1_${uid}`
+}
+
 export default function AppNavigator() {
   const { user, loading } = useAuthContext()
   const { C, isDark, themeChosen } = useTheme()
 
   // null = still checking, true/false = resolved
+  const [introDone,      setIntroDone]      = useState(null)
   const [petChosen,      setPetChosen]      = useState(null)
   const [subjectChosen,  setSubjectChosen]  = useState(null)
   const [schoolChosen,   setSchoolChosen]   = useState(null)
 
   useEffect(() => {
     if (!user) {
+      setIntroDone(null)
       setPetChosen(null)
       setSubjectChosen(null)
       setSchoolChosen(null)
       return
     }
     if (user.isAnonymous) {
+      setIntroDone(true)
       setPetChosen(true)
       setSubjectChosen(true)
       setSchoolChosen(true)   // anonymous users skip all pickers
@@ -53,32 +61,38 @@ export default function AppNavigator() {
     }
     async function checkFlags() {
       try {
-        const [petVal, subVal, schVal] = await Promise.all([
+        const [introVal, petVal, subVal, schVal] = await Promise.all([
+          AsyncStorage.getItem(introDoneKey(user.uid)),
           AsyncStorage.getItem(petChosenKey(user.uid)),
           AsyncStorage.getItem(subjectChosenKey(user.uid)),
           AsyncStorage.getItem(schoolChosenKey(user.uid)),
         ])
 
         // Fallback to Firestore for flags missing from AsyncStorage (new device / reinstall)
-        const [petSnap, subSnap, schSnap] = await Promise.all([
+        const [introSnap, petSnap, subSnap, schSnap] = await Promise.all([
+          !introVal ? getDoc(doc(db, 'users', user.uid, 'meta', 'intro')) : Promise.resolve(null),
           !petVal ? getDoc(doc(db, 'users', user.uid, 'meta', 'pet')) : Promise.resolve(null),
           !subVal ? getDoc(doc(db, 'users', user.uid, 'meta', 'subject')) : Promise.resolve(null),
           !schVal ? getDoc(doc(db, 'users', user.uid, 'meta', 'school')) : Promise.resolve(null),
         ])
 
+        const introDoneVal = !!introVal || introSnap?.exists()
         const petDone = !!petVal || petSnap?.exists()
         const subDone = !!subVal || subSnap?.exists()
         const schDone = !!schVal || schSnap?.exists()
 
         // Re-stamp AsyncStorage so next launch is instant
+        if (introDoneVal && !introVal) AsyncStorage.setItem(introDoneKey(user.uid), '1').catch(() => {})
         if (petDone && !petVal) AsyncStorage.setItem(petChosenKey(user.uid), '1').catch(() => {})
         if (subDone && !subVal) AsyncStorage.setItem(subjectChosenKey(user.uid), '1').catch(() => {})
         if (schDone && !schVal) AsyncStorage.setItem(schoolChosenKey(user.uid), '1').catch(() => {})
 
+        setIntroDone(introDoneVal)
         setPetChosen(petDone)
         setSubjectChosen(subDone)
         setSchoolChosen(schDone)
       } catch {
+        setIntroDone(false)
         setPetChosen(false)
         setSubjectChosen(false)
         setSchoolChosen(false)
@@ -91,7 +105,7 @@ export default function AppNavigator() {
     (loading && !user) ||
     themeChosen === null ||
     (!!user && !user.isAnonymous && (
-      petChosen === null || subjectChosen === null || schoolChosen === null
+      introDone === null || petChosen === null || subjectChosen === null || schoolChosen === null
     ))
 
   const [forceLoad, setForceLoad] = useState(false)
@@ -134,6 +148,26 @@ export default function AppNavigator() {
         ) : !user ? (
           /* ── 2. Auth flow ─────────────────────────────────────────────────── */
           <Stack.Screen name="Login" component={LoginScreen} />
+
+        ) : !introDone ? (
+          /* ── 2.5. App Introduction Carousel ─────────────────────────────────── */
+          <Stack.Screen name="Introduction" options={{ animation: 'fade' }}>
+            {(props) => (
+              <IntroductionScreen
+                {...props}
+                onComplete={async () => {
+                  try {
+                    await AsyncStorage.setItem(introDoneKey(user.uid), '1')
+                    await setDoc(doc(db, 'users', user.uid, 'meta', 'intro'), {
+                      value: true,
+                      updatedAt: new Date().toISOString()
+                    }, { merge: true })
+                  } catch {}
+                  setIntroDone(true)
+                }}
+              />
+            )}
+          </Stack.Screen>
 
         ) : !petChosen ? (
           /* ── 3. Pet picker — once per user ──────────────────────────────── */

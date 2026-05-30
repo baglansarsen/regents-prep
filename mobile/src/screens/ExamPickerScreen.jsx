@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, TouchableOpacity, FlatList, StyleSheet } from 'react-native'
+import { View, Text, TouchableOpacity, FlatList, StyleSheet, Platform } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useSubject } from '../context/SubjectContext'
@@ -198,6 +198,10 @@ export default function ExamPickerScreen({ navigation }) {
         keyExtractor={(item) => item.id}
         contentContainerStyle={s.list}
         showsVerticalScrollIndicator={false}
+        initialNumToRender={10}
+        maxToRenderPerBatch={10}
+        windowSize={5}
+        removeClippedSubviews={Platform.OS !== 'web'}
         renderItem={({ item }) => (
           <TouchableOpacity
             style={[s.examCard, cardShadow(C.shadow), { borderLeftColor: meta.color ?? C.brand }]}

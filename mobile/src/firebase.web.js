@@ -3,7 +3,7 @@
 // persistence (which doesn't exist on web) and uses browser local persistence.
 import { initializeApp } from 'firebase/app'
 import { getAuth, GoogleAuthProvider, setPersistence, browserLocalPersistence } from 'firebase/auth'
-import { getFirestore } from 'firebase/firestore'
+import { initializeFirestore, persistentLocalCache, persistentMultipleTabManager } from 'firebase/firestore'
 
 const firebaseConfig = {
   apiKey:            'AIzaSyCT60SEmSTxgQQdud3S9HQSS7fojwf-LGM',
@@ -21,4 +21,8 @@ export const auth = getAuth(app)
 setPersistence(auth, browserLocalPersistence).catch(() => {})
 
 export const googleProvider = new GoogleAuthProvider()
-export const db = getFirestore(app)
+export const db = initializeFirestore(app, {
+  localCache: persistentLocalCache({
+    tabManager: persistentMultipleTabManager(),
+  }),
+})

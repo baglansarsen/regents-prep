@@ -109,7 +109,7 @@ export function useLives(uid, isSubscribed = false) {
       }
     }
 
-    const id = setInterval(tick, 60_000)
+    const id = setInterval(tick, 1_000)
     tick()  // check immediately too
     return () => clearInterval(id)
   }, [])
