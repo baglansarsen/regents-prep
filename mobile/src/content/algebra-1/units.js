@@ -20,6 +20,7 @@ export const UNITS = [
   { id: 'algebra-1-u4', title: 'Polynomials & Factoring',        icon: TOPIC_ICONS[TOPICS.POLYNOMIALS],      color: '#a855f7', darkColor: '#7e22ce', topic: TOPICS.POLYNOMIALS,      lessonCount: 3 },
   { id: 'algebra-1-u5', title: 'Quadratic Functions',            icon: TOPIC_ICONS[TOPICS.QUADRATICS],       color: '#9333ea', darkColor: '#6b21a8', topic: TOPICS.QUADRATICS,       lessonCount: 3 },
   { id: 'algebra-1-u6', title: 'Statistics & Probability',       icon: TOPIC_ICONS[TOPICS.STATISTICS],       color: '#c084fc', darkColor: '#9333ea', topic: TOPICS.STATISTICS,       lessonCount: 3 },
+  { id: 'algebra-1-u7', title: 'Using the Graphing Calculator',  icon: TOPIC_ICONS[TOPICS.CALCULATOR],       color: '#14b8a6', darkColor: '#0f766e', topic: TOPICS.CALCULATOR,       lessonCount: 3 },
 ]
 
 const LESSON_SIZE = 20

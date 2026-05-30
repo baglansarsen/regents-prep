@@ -141,5 +141,29 @@ export const STRATEGIES = {
       'Median and mode can be found quickly from an ordered list — order the data immediately.',
       'Probability questions with equally likely outcomes are straightforward counting problems.'
     ]
+  },
+
+  'algebra-1-u7': {
+    mentalPrep: [
+      'You are issued a graphing calculator — reset it to a known view with ZOOM 6: ZStandard before each graphing problem.',
+      'Use the gray (-) key for negatives and the blue − key for subtraction; mixing them is the most common cause of SYNTAX ERROR.',
+      'When a question wants an exact fraction, finish with MATH ▶ ▶Frac to convert your decimal.'
+    ],
+    answeringTechniques: [
+      'To solve an equation graphically, enter each side as Y1 and Y2 and use 2nd CALC ▶ 5: intersect.',
+      'For a parabola, use 2: zero for the roots and 3: minimum / 4: maximum for the vertex instead of solving by hand.'
+    ],
+    guessingStrategy: [
+      'Test answer choices by plugging them into Y= or the home screen — the calculator can confirm answers you cannot derive.',
+      'For line-of-best-fit questions, run LinReg and match the slope and intercept to the choices.'
+    ],
+    processOfElimination: [
+      'Graph the function and eliminate any choice whose intercept, vertex, or end behavior the screen contradicts.',
+      'If your result is a messy decimal but the choices are clean fractions, convert with ▶Frac before eliminating.'
+    ],
+    timeManagement: [
+      'Store repeated values with STO▶ instead of retyping them — it is faster and avoids typos.',
+      'Build a TABLE (2nd GRAPH) to scan many input/output pairs at once rather than evaluating one at a time.'
+    ]
   }
 }

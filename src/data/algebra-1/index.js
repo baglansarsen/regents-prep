@@ -22,6 +22,7 @@ export const TOPIC_ORDER = [
   TOPICS.POLYNOMIALS,
   TOPICS.QUADRATICS,
   TOPICS.STATISTICS,
+  TOPICS.CALCULATOR,
 ]
 
 export function getExamContextQuestions(topic) {

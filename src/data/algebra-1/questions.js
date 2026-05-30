@@ -5,6 +5,7 @@ export const TOPICS = {
   POLYNOMIALS: 'Polynomials & Factoring',
   QUADRATICS: 'Quadratic Functions',
   STATISTICS: 'Statistics & Probability',
+  CALCULATOR: 'Using the Graphing Calculator',
 }
 
 export const TOPIC_ICONS = {
@@ -14,6 +15,7 @@ export const TOPIC_ICONS = {
   [TOPICS.POLYNOMIALS]:      '🔢',
   [TOPICS.QUADRATICS]:       '🪁',
   [TOPICS.STATISTICS]:       '📊',
+  [TOPICS.CALCULATOR]:       '🧮',
 }
 
 export const questions = [
@@ -382,6 +384,131 @@ export const questions = [
     correct: 1,
     explanation: 'The two lines y = 2x − 1 and y = −x + 5 intersect at the point (2, 3). Verify: 2(2)−1=3 ✓ and −2+5=3 ✓.',
     diagram: { type: 'systemgraph-a1' },
+  },
+
+  // ── Using the Graphing Calculator ────────────────────────────────────────────
+  // Lesson 1 — Arithmetic & entry
+  {
+    id: 1037,
+    topic: TOPICS.CALCULATOR,
+    text: 'To enter the value negative 5, which key should you use?',
+    choices: ['The blue − subtraction key', 'The gray (-) negation key', 'The MATH key', 'The ALPHA key'],
+    correct: 1,
+    explanation: 'Use the gray (-) negation key (left of ENTER) for a negative number. The blue − key is only for subtraction between two values; mixing them up causes a SYNTAX ERROR.'
+  },
+  {
+    id: 1038,
+    topic: TOPICS.CALCULATOR,
+    text: 'Your calculator shows 0.75. Which feature rewrites it as the fraction 3/4?',
+    choices: ['MATH ▶ 1: ▶Frac', '2nd ▶ QUIT', 'VARS ▶ Y-VARS', 'STAT ▶ EDIT'],
+    correct: 0,
+    explanation: 'Press MATH, choose 1: ▶Frac, then ENTER. The decimal 0.75 is rewritten as 3/4 — useful for matching exact-fraction answer choices.'
+  },
+  {
+    id: 1039,
+    topic: TOPICS.CALCULATOR,
+    text: 'Which keys compute the square root of 49?',
+    choices: ['2nd then x² , then 49', 'x² then 49', 'MATH then 49', 'LOG then 49'],
+    correct: 0,
+    explanation: 'The square-root symbol √ is the 2nd function of the x² key. Press 2nd [x²], type 49, then ENTER to get 7.'
+  },
+  {
+    id: 1040,
+    topic: TOPICS.CALCULATOR,
+    text: 'Entered exactly as written, 3 + 4 × 2² returns:',
+    choices: ['19', '28', '49', '14'],
+    correct: 0,
+    explanation: 'The calculator follows order of operations automatically: 2² = 4, then 4 × 4 = 16, then 3 + 16 = 19. Add parentheses whenever you want a different grouping.'
+  },
+  {
+    id: 1041,
+    topic: TOPICS.CALCULATOR,
+    text: 'To store the value 6 into the variable X for later use, you press:',
+    choices: ['6  STO▶  X,T,θ,n', '6  ENTER  X', '6  2nd  X', '6  ALPHA  ENTER'],
+    correct: 0,
+    explanation: 'Type 6, press STO▶ (above ON), then the X,T,θ,n key, then ENTER. Now any expression using X evaluates with X = 6.'
+  },
+  // Lesson 2 — Graphing
+  {
+    id: 1042,
+    topic: TOPICS.CALCULATOR,
+    text: 'Which key opens the editor where you type a function to be graphed?',
+    choices: ['Y=', 'GRAPH', '2nd TABLE', 'ZOOM'],
+    correct: 0,
+    explanation: 'Press Y= (top-left) and type the rule next to Y1, then press GRAPH to display it.'
+  },
+  {
+    id: 1043,
+    topic: TOPICS.CALCULATOR,
+    text: 'A graph appears blank or off-screen. Which option resets the view to −10 to 10 on both axes?',
+    choices: ['ZOOM 6: ZStandard', 'ZOOM 1: ZBox', 'WINDOW 0', '2nd QUIT'],
+    correct: 0,
+    explanation: 'ZOOM, then 6: ZStandard sets Xmin/Xmax/Ymin/Ymax to −10…10 — a dependable default when a graph is off-screen.'
+  },
+  {
+    id: 1044,
+    topic: TOPICS.CALCULATOR,
+    text: 'After graphing, which key moves a cursor along the curve to read approximate coordinates?',
+    choices: ['TRACE', 'CLEAR', 'MODE', 'DEL'],
+    correct: 0,
+    explanation: 'TRACE moves a cursor along the graphed function and shows the X and Y values at the bottom of the screen.'
+  },
+  {
+    id: 1045,
+    topic: TOPICS.CALCULATOR,
+    text: 'On the graph of Y1 = 2X + 3, the y-intercept is read at which x-value?',
+    choices: ['x = 0', 'x = 3', 'x = 2', 'x = −3'],
+    correct: 0,
+    explanation: 'The y-intercept is where the graph crosses the y-axis, i.e. x = 0. At x = 0, Y = 3.'
+  },
+  {
+    id: 1046,
+    topic: TOPICS.CALCULATOR,
+    text: 'Where do you set Xmin, Xmax, Ymin, and Ymax to control how much of a graph is visible?',
+    choices: ['The WINDOW menu', 'The MODE menu', 'The MATH menu', 'The STAT menu'],
+    correct: 0,
+    explanation: 'Press WINDOW to set the viewing rectangle (Xmin, Xmax, Ymin, Ymax and the scales) — this is how you zoom to the region a problem cares about.'
+  },
+  // Lesson 3 — Analysis & stats
+  {
+    id: 1047,
+    topic: TOPICS.CALCULATOR,
+    text: 'To find where a parabola crosses the x-axis (its roots), which feature do you use?',
+    choices: ['2nd CALC ▶ 2: zero', '2nd CALC ▶ 1: value', '2nd CALC ▶ 3: minimum', '2nd TABLE'],
+    correct: 0,
+    explanation: 'The x-intercepts (zeros/roots) come from 2nd [CALC], 2: zero. Set a left bound, a right bound, and a guess near each crossing.'
+  },
+  {
+    id: 1048,
+    topic: TOPICS.CALCULATOR,
+    text: 'To find the vertex (lowest point) of an upward-opening parabola, you use:',
+    choices: ['2nd CALC ▶ 3: minimum', '2nd CALC ▶ 4: maximum', '2nd CALC ▶ 2: zero', 'ZOOM ▶ ZStandard'],
+    correct: 0,
+    explanation: 'An upward parabola has its vertex at the lowest point → 2nd [CALC], 3: minimum. Use 4: maximum for a downward-opening parabola.'
+  },
+  {
+    id: 1049,
+    topic: TOPICS.CALCULATOR,
+    text: 'To solve a system by finding where two graphed lines meet, you use:',
+    choices: ['2nd CALC ▶ 5: intersect', '2nd CALC ▶ 1: value', 'STAT ▶ CALC', '2nd QUIT'],
+    correct: 0,
+    explanation: 'Graph the equations as Y1 and Y2, then 2nd [CALC], 5: intersect reports the (x, y) point where they cross — the solution of the system.'
+  },
+  {
+    id: 1050,
+    topic: TOPICS.CALCULATOR,
+    text: 'Data is in lists L1 and L2. Which command gives the line of best fit?',
+    choices: ['STAT ▶ CALC ▶ 4: LinReg(ax+b)', 'STAT ▶ EDIT', 'MATH ▶ ▶Frac', '2nd CALC ▶ 2: zero'],
+    correct: 0,
+    explanation: 'Enter data in STAT EDIT (L1, L2), then STAT ▶ CALC, 4: LinReg(ax+b) returns y = ax + b. Use 5: QuadReg for a quadratic fit.'
+  },
+  {
+    id: 1051,
+    topic: TOPICS.CALCULATOR,
+    text: 'After a regression, a value of r close to +1 or −1 tells you that:',
+    choices: ['The data has a strong linear correlation', 'The slope is exactly 1', 'There is no relationship', 'The y-intercept is 1'],
+    correct: 0,
+    explanation: 'r is the correlation coefficient: the closer |r| is to 1, the stronger the linear fit; r near 0 means little linear correlation. Turn on DiagnosticOn if r is not shown.'
   },
 ]
 

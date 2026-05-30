@@ -42,6 +42,16 @@ export const flashcards = [
   { topic: TOPICS.STATISTICS, term: 'Interquartile Range (IQR)', definition: 'Q3 − Q1; the spread of the middle 50% of data, resistant to outliers.' },
   { topic: TOPICS.STATISTICS, term: 'Correlation', definition: 'A measure of the strength and direction of the linear relationship between two variables.' },
   { topic: TOPICS.STATISTICS, term: 'Outlier', definition: 'A data value that is significantly higher or lower than the rest of the data set.' },
+
+  // Using the Graphing Calculator
+  { topic: TOPICS.CALCULATOR, term: '▶Frac', definition: 'MATH ▶ 1: ▶Frac converts a decimal answer to an exact fraction — handy for matching fraction answer choices.' },
+  { topic: TOPICS.CALCULATOR, term: '(-) Negation Key', definition: 'The gray (-) key enters a negative number; the blue − key subtracts. Using the wrong one causes a SYNTAX ERROR.' },
+  { topic: TOPICS.CALCULATOR, term: 'Y= Editor', definition: 'Where you type functions to graph (Y1, Y2, …). Press GRAPH afterward to display them.' },
+  { topic: TOPICS.CALCULATOR, term: 'ZStandard', definition: 'ZOOM ▶ 6: ZStandard resets the window to −10 to 10 on both axes — a reliable default view.' },
+  { topic: TOPICS.CALCULATOR, term: '2nd CALC', definition: 'The CALCULATE menu (2nd TRACE): value, zero, minimum, maximum, and intersect — tools for reading key points off a graph.' },
+  { topic: TOPICS.CALCULATOR, term: 'zero', definition: '2nd CALC ▶ 2: zero finds an x-intercept (root) of a graph using a left bound, right bound, and guess.' },
+  { topic: TOPICS.CALCULATOR, term: 'intersect', definition: '2nd CALC ▶ 5: intersect finds where two graphs meet — the graphical solution to a system of equations.' },
+  { topic: TOPICS.CALCULATOR, term: 'LinReg(ax+b)', definition: 'STAT ▶ CALC ▶ 4: LinReg fits a line y = ax + b to data in lists L1/L2; r reports how strong the fit is.' },
 ]
 
 export const FLASHCARD_TOPIC_LIST = Object.values(TOPICS)
