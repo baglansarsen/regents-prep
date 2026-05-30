@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { View, StyleSheet, TurboModuleRegistry, Platform } from 'react-native'
+import { GestureHandlerRootView } from 'react-native-gesture-handler'
 import { StatusBar } from 'expo-status-bar'
 import * as SplashScreen from 'expo-splash-screen'
 import {
@@ -66,6 +67,7 @@ export default function App() {
   }, [])
 
   return (
+    <GestureHandlerRootView style={{ flex: 1 }}>
     <ThemeProvider>
       <AuthProvider>
         <SubjectProvider>
@@ -83,6 +85,7 @@ export default function App() {
         </SubjectProvider>
       </AuthProvider>
     </ThemeProvider>
+    </GestureHandlerRootView>
   )
 }
 
