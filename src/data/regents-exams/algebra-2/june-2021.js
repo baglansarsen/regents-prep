@@ -17,7 +17,7 @@ export default {
     { number: 9,  part: 'A', text: 'Which expression equals 2 log x − log(x − 1)?', choices: ['log(x²/(x−1))', 'log(2x − x + 1)', 'log(x²) − log(x−1)', 'log(x(x−1)²)'], topic: 'Exponential & Logarithmic Functions', correct: 0 },
     { number: 10, part: 'A', text: 'What is the maximum value of f(x) = −2 sin(x) + 3?', choices: ['5', '3', '−2', '1'], topic: 'Trigonometric Functions', correct: 0 },
     { number: 11, part: 'A', text: 'In a study, r² = 0.81. Which statement about this correlation coefficient r is true?', choices: ['r = 0.9 or r = −0.9', 'r = 0.81', 'r = 0.6561', 'r must be positive'], topic: 'Statistics & Probability', correct: 0 },
-    { number: 12, part: 'A', text: 'What is the result of (3 − i)/(2 + i)?', choices: ['1 − i', '(5 − 5i)/5', '(5 − 5i)/3', '(7 − i)/5'], topic: 'Complex Numbers', correct: 1 },
+    { number: 12, part: 'A', text: 'What is the result of (3 − i)/(2 + i)?', choices: ['1 − i', '(6 − 5i)/5', '(5 − 5i)/3', '(7 − i)/5'], topic: 'Complex Numbers', correct: 0 },
     { number: 13, part: 'A', text: 'Which polynomial has 2 as a root of multiplicity 2?', choices: ['x³ − 4x² + 4x', '(x − 2)(x + 2)', 'x² − 4', 'x³ + 4x'], topic: 'Polynomial Functions', correct: 0 },
     { number: 14, part: 'A', text: 'Which is the conjugate of √5 − √3?', choices: ['√5 + √3', '−√5 − √3', '√3 − √5', '√5 · √3'], topic: 'Rational & Radical Expressions', correct: 0 },
     { number: 15, part: 'A', text: 'If 5^x = 625, then x equals', choices: ['3', '4', '5', '125'], topic: 'Exponential & Logarithmic Functions', correct: 1 },

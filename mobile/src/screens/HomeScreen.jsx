@@ -73,9 +73,9 @@ export default function HomeScreen({ navigation }) {
     [history, subject],
   )
 
-  const { lessonComplete, unitLessonsCompleted } = useLessonProgress(subjectHistory)
+  const { lessonComplete, unitLessonsCompleted, unitComplete } = useLessonProgress(subjectHistory)
   const units = sd.UNITS ?? []
-  const { isUnitUnlocked, unitUnlockHint, reloadSkipUnlocks } = useUnitUnlocks(units, lessonComplete, subject)
+  const { isUnitUnlocked, unitUnlockHint, reloadSkipUnlocks } = useUnitUnlocks(units, lessonComplete, unitComplete, subject)
   useFocusEffect(useCallback(() => {
     reloadSkipUnlocks()
     if (pendingEvolution) navigation.navigate('PetEvolution')
@@ -227,10 +227,16 @@ export default function HomeScreen({ navigation }) {
 
   // ── Quiz / Flashcards ────────────────────────────────────────────────────
   function startLesson(unit, lessonIndex) {
+    const isChallenge = lessonIndex === unit.lessonCount
+    const unitIdx = units.findIndex((u) => u.id === unit.id)
+    const nextUnit = isChallenge && unitIdx >= 0 ? units[unitIdx + 1] : null
     closeSheet(() => {
       livesGate(() => {
         const questionSet = sd.getLessonQuestions(unit.topic, lessonIndex, unit.lessonCount)
-        navigation.navigate('Quiz', { questionSet, topic: unit.topic, subject, lessonIndex })
+        navigation.navigate('Quiz', {
+          questionSet, topic: unit.topic, subject, lessonIndex,
+          isChallenge, nextUnitTopic: nextUnit?.topic ?? null,
+        })
       })
     })
   }

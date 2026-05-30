@@ -17,10 +17,27 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
+import { useSubject } from '../context/SubjectContext'
 import { useProgress } from '../hooks/useProgress'
 import { useUnlocks } from '../hooks/useUnlocks'
-import * as leData from '../../../src/data/living-environment/index'
+import * as leData    from '../../../src/data/living-environment/index'
+import * as esData    from '../../../src/data/earth-science/index'
+import * as chemData  from '../../../src/data/chemistry/index'
+import * as physData  from '../../../src/data/physics/index'
+import * as a1Data    from '../../../src/data/algebra-1/index'
+import * as a2Data    from '../../../src/data/algebra-2/index'
+import * as geoData   from '../../../src/data/geometry/index'
 import { T, duoBtn, cardShadow } from '../styles/duo'
+
+const SUBJECT_DATA = {
+  'living-environment': leData,
+  'earth-science':      esData,
+  'chemistry':          chemData,
+  'physics':            physData,
+  'algebra-1':          a1Data,
+  'algebra-2':          a2Data,
+  'geometry':           geoData,
+}
 
 const { width: W } = Dimensions.get('window')
 const LETTERS = ['A', 'B', 'C', 'D']
@@ -94,14 +111,17 @@ function ProgressDots({ total, current, C }) {
 export default function PlacementTestScreen({ onComplete }) {
   const { C } = useTheme()
   const { user } = useAuthContext()
+  const { subject } = useSubject()
   const uid = user?.uid
   const { history, saveResult } = useProgress(uid)
-  const { forceUnlock } = useUnlocks(history, leData.TOPIC_ORDER, 'living-environment')
+
+  const sd = SUBJECT_DATA[subject] ?? leData
+  const { forceUnlock } = useUnlocks(history, sd.TOPIC_ORDER, subject)
   const s = makeStyles(C)
 
   const questionSet = useMemo(
-    () => buildPlacementSet(leData.TOPIC_ORDER, leData.questions),
-    []
+    () => buildPlacementSet(sd.TOPIC_ORDER, sd.questions),
+    [subject]   // rebuild if subject changes (shouldn't happen mid-test, but safe)
   )
   const total = questionSet.length
 
@@ -167,7 +187,7 @@ export default function PlacementTestScreen({ onComplete }) {
     // Save one quiz history entry per topic so useProgress / useUnlocks sees it
     const saves = Object.entries(topicScores).map(([topic, { correct, total: t }]) => {
       const pct = Math.round((correct / t) * 100)
-      return saveResult({ topic, score: correct * 10, total: t, correct, pct, subject: 'living-environment' })
+      return saveResult({ topic, score: correct * 10, total: t, correct, pct, subject })
     })
     await Promise.all(saves)
 
@@ -244,7 +264,7 @@ export default function PlacementTestScreen({ onComplete }) {
           {/* Topic chip */}
           <View style={[s.topicChip, { backgroundColor: C.brandBg }]}>
             <Text style={[T.label, { color: C.brand }]}>
-              {leData.TOPIC_ICONS?.[q.topic] ?? '📖'} {q.topic}
+              {sd.TOPIC_ICONS?.[q.topic] ?? '📖'} {q.topic}
             </Text>
           </View>
 
@@ -287,7 +307,7 @@ export default function PlacementTestScreen({ onComplete }) {
   // RENDER: RESULTS
   // ─────────────────────────────────────────────────────────────────────────
   const topicScores  = scoreByTopic(questionSet, answers)
-  const unlockedList = leData.TOPIC_ORDER.filter((t) => {
+  const unlockedList = sd.TOPIC_ORDER.filter((t) => {
     const sc = topicScores[t]
     if (!sc) return false
     return Math.round((sc.correct / sc.total) * 100) >= UNLOCK_PCT
@@ -329,9 +349,9 @@ export default function PlacementTestScreen({ onComplete }) {
         <Text style={[T.label, { color: C.textMuted, alignSelf: 'flex-start', marginBottom: 8, marginTop: 4 }]}>
           Topic Breakdown
         </Text>
-        {leData.TOPIC_ORDER.map((topic) => {
+        {sd.TOPIC_ORDER.map((topic) => {
           const sc       = topicScores[topic]
-          const icon     = leData.TOPIC_ICONS?.[topic] ?? '📖'
+          const icon     = sd.TOPIC_ICONS?.[topic] ?? '📖'
           const tested   = !!sc
           const pct      = tested ? Math.round((sc.correct / sc.total) * 100) : null
           const unlocked = tested && pct >= UNLOCK_PCT

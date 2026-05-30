@@ -34,10 +34,39 @@ import physJun2023 from './physics/june-2023'
 
 import a1Jun2025 from './algebra-1/june-2025'
 import a1Jun2024 from './algebra-1/june-2024'
+import a1Aug2024 from './algebra-1/august-2024'
+import a1Jun2023 from './algebra-1/june-2023'
+import a1Aug2023 from './algebra-1/august-2023'
+import a1Jun2022 from './algebra-1/june-2022'
+import a1Aug2022 from './algebra-1/august-2022'
+import a1Jun2021 from './algebra-1/june-2021'
+import a1Aug2021 from './algebra-1/august-2021'
+import a1Jun2019 from './algebra-1/june-2019'
+import a1Aug2019 from './algebra-1/august-2019'
+
 import a2Jun2025 from './algebra-2/june-2025'
 import a2Jun2024 from './algebra-2/june-2024'
+import a2Aug2024 from './algebra-2/august-2024'
+import a2Jun2023 from './algebra-2/june-2023'
+import a2Aug2023 from './algebra-2/august-2023'
+import a2Jun2022 from './algebra-2/june-2022'
+import a2Aug2022 from './algebra-2/august-2022'
+import a2Jun2021 from './algebra-2/june-2021'
+import a2Aug2021 from './algebra-2/august-2021'
+import a2Jun2019 from './algebra-2/june-2019'
+import a2Aug2019 from './algebra-2/august-2019'
+
 import geoJun2025 from './geometry/june-2025'
 import geoJun2024 from './geometry/june-2024'
+import geoAug2024 from './geometry/august-2024'
+import geoJun2023 from './geometry/june-2023'
+import geoAug2023 from './geometry/august-2023'
+import geoJun2022 from './geometry/june-2022'
+import geoAug2022 from './geometry/august-2022'
+import geoJun2021 from './geometry/june-2021'
+import geoAug2021 from './geometry/august-2021'
+import geoJun2019 from './geometry/june-2019'
+import geoAug2019 from './geometry/august-2019'
 
 export const REGENTS_EXAMS = {
   'living-environment': [
@@ -64,15 +93,27 @@ export const REGENTS_EXAMS = {
   ],
   'algebra-1': [
     a1Jun2025,
-    a1Jun2024,
+    a1Jun2024, a1Aug2024,
+    a1Jun2023, a1Aug2023,
+    a1Jun2022, a1Aug2022,
+    a1Jun2021, a1Aug2021,
+    a1Jun2019, a1Aug2019,
   ],
   'algebra-2': [
     a2Jun2025,
-    a2Jun2024,
+    a2Jun2024, a2Aug2024,
+    a2Jun2023, a2Aug2023,
+    a2Jun2022, a2Aug2022,
+    a2Jun2021, a2Aug2021,
+    a2Jun2019, a2Aug2019,
   ],
   'geometry': [
     geoJun2025,
-    geoJun2024,
+    geoJun2024, geoAug2024,
+    geoJun2023, geoAug2023,
+    geoJun2022, geoAug2022,
+    geoJun2021, geoAug2021,
+    geoJun2019, geoAug2019,
   ],
 }
 

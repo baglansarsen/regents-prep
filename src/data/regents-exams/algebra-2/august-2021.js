@@ -7,7 +7,7 @@ export default {
   totalMinutes: 180,
   questions: [
     { number: 1,  part: 'A', text: 'Which is the completely factored form of x⁴ − 5x² + 4?', choices: ['(x² − 1)(x² − 4)', '(x² + 1)(x² + 4)', '(x − 1)(x + 1)(x − 2)(x + 2)', '(x² − 4)(x + 1)'], topic: 'Polynomial Functions', correct: 2 },
-    { number: 2,  part: 'A', text: 'Simplify: (√18 · √2)', choices: ['6', '√36', 'Both A and B', '3√4'], topic: 'Rational & Radical Expressions', correct: 2 },
+    { number: 2,  part: 'A', text: 'Simplify: (√18 · √2)', choices: ['6', '3√2', '√20', '2√6'], topic: 'Rational & Radical Expressions', correct: 0 },
     { number: 3,  part: 'A', text: 'Which is the correct expansion of log(ab²/c)?', choices: ['log a + 2 log b − log c', 'log a + log b² − log c', 'log a · log b² / log c', '2(log a + log b − log c)'], topic: 'Exponential & Logarithmic Functions', correct: 0 },
     { number: 4,  part: 'A', text: 'What is the reference angle for 330°?', choices: ['30°', '60°', '150°', '210°'], topic: 'Trigonometric Functions', correct: 0 },
     { number: 5,  part: 'A', text: 'What is ₁₀C₃?', choices: ['30', '120', '720', '360'], topic: 'Statistics & Probability', correct: 1 },

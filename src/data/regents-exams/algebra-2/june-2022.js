@@ -16,7 +16,7 @@ export default {
     { number: 8,  part: 'A', text: 'What is the domain of f(x) = √(5 − x)?', choices: ['x ≤ 5', 'x ≥ 5', 'x < 5', 'All reals'], topic: 'Rational & Radical Expressions', correct: 0 },
     { number: 9,  part: 'A', text: 'Solve: log(x) + log(x − 3) = 1', choices: ['x = 5', 'x = 2', 'x = −2', 'x = 10'], topic: 'Exponential & Logarithmic Functions', correct: 0 },
     { number: 10, part: 'A', text: 'What is the exact value of cos(300°)?', choices: ['−1/2', '1/2', '−√3/2', '√3/2'], topic: 'Trigonometric Functions', correct: 1 },
-    { number: 11, part: 'A', text: 'Two cards are drawn from a standard deck without replacement. What is the probability both are hearts?', choices: ['1/17', '1/16', '1/4', '13/204'], topic: 'Statistics & Probability', correct: 3 },
+    { number: 11, part: 'A', text: 'Two cards are drawn from a standard deck without replacement. What is the probability both are hearts?', choices: ['1/17', '1/16', '1/52', '13/52'], topic: 'Statistics & Probability', correct: 0 },
     { number: 12, part: 'A', text: 'Simplify: (4 − 3i) − (1 + 2i)', choices: ['3 − 5i', '5 − 5i', '3 + 5i', '5 − i'], topic: 'Complex Numbers', correct: 0 },
     { number: 13, part: 'A', text: 'Which polynomial function has exactly one positive real zero?', choices: ['x³ − 3x² + 3x − 1', 'x² − 4', 'x³ + x', 'x⁴ − 1'], topic: 'Polynomial Functions', correct: 0 },
     { number: 14, part: 'A', text: 'Simplify: (x^(2/3)) / (x^(1/3))', choices: ['x^(1/3)', 'x', 'x^(1/2)', 'x²'], topic: 'Rational & Radical Expressions', correct: 0 },

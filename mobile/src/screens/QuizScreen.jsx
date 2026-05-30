@@ -48,7 +48,7 @@ function calcComboBonus(results) {
 }
 
 export default function QuizScreen({ route, navigation }) {
-  const { questionSet, topic, subject, lessonIndex } = route.params
+  const { questionSet, topic, subject, lessonIndex, isChallenge, nextUnitTopic } = route.params
   const { C } = useTheme()
   const insets = useSafeAreaInsets()
   const { user } = useAuthContext()
@@ -124,6 +124,7 @@ export default function QuizScreen({ route, navigation }) {
   useEffect(() => {
     if (phase === 'done') {
       const correct    = results.filter((r) => r.correct).length
+      const mistakes   = total - correct
       const pct        = Math.round((correct / total) * 100)
       const comboBonus = calcComboBonus(results)
       const xpEarned   = Math.round((correct * 10 + comboBonus) * xpMultiplier)
@@ -131,6 +132,20 @@ export default function QuizScreen({ route, navigation }) {
       // Detect first-time topic mastery (before saving — masteryPct reflects previous best)
       const prevBest     = masteryPct(topic, subject) ?? 0
       const firstMastery = !!topic && pct >= 85 && prevBest < 85
+
+      // Challenge passed with ≤3 mistakes → unlock next unit immediately
+      const challengeUnlocked = isChallenge && !!nextUnitTopic && mistakes <= 3
+      if (challengeUnlocked) {
+        const AsyncStorage = require('@react-native-async-storage/async-storage').default
+        const key = `@skipUnlocks_${subject}`
+        AsyncStorage.getItem(key).then((val) => {
+          const arr = val ? JSON.parse(val) : []
+          if (!arr.includes(nextUnitTopic)) {
+            arr.push(nextUnitTopic)
+            return AsyncStorage.setItem(key, JSON.stringify(arr))
+          }
+        }).catch(() => {})
+      }
 
       // Persist wrong answers for "Practice Mistakes" mode
       const wrongQs = results.filter((r) => !r.correct).map((r) => r.question)
@@ -140,10 +155,11 @@ export default function QuizScreen({ route, navigation }) {
       markStudied()
       earnXP(xpEarned)
       checkAndEvolve(xp + xpEarned)
-      if (pct === 100)       { triggerReaction('cheer');        say(`Perfect score! +${xpEarned} ⭐ You're incredible 🎉`) }
-      else if (pct >= 85)    { triggerReaction('happy_dance');  say(`+${xpEarned} ⭐ XP! Really solid work 🌟`) }
-      else if (pct <= 30)    { triggerReaction('sympathetic');  say('Tough one. Review those and try again 💪') }
-      else                   { triggerReaction('root_for_you'); say(`+${xpEarned} ⭐ You're on a roll!`) }
+      if (challengeUnlocked)   { triggerReaction('cheer');        say(`⚡ Challenge passed! Next unit unlocked 🔓`) }
+      else if (pct === 100)    { triggerReaction('cheer');        say(`Perfect score! +${xpEarned} ⭐ You're incredible 🎉`) }
+      else if (pct >= 85)      { triggerReaction('happy_dance');  say(`+${xpEarned} ⭐ XP! Really solid work 🌟`) }
+      else if (pct <= 30)      { triggerReaction('sympathetic');  say('Tough one. Review those and try again 💪') }
+      else                     { triggerReaction('root_for_you'); say(`+${xpEarned} ⭐ You're on a roll!`) }
       // Quest progress
       updateQuestProgress('answer_correct', correct)
       updateQuestProgress('complete_quiz')
@@ -151,7 +167,7 @@ export default function QuizScreen({ route, navigation }) {
       navigation.replace('Results', {
         score, total, results, bestStreak, topic, subject,
         xpEarned, comboBonus, firstMastery, masteredTopic: topic ?? null,
-        lessonIndex,
+        lessonIndex, challengeUnlocked, unlockedTopic: nextUnitTopic ?? null,
       })
     }
   }, [phase])

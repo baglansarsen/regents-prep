@@ -28,7 +28,7 @@ export default {
     { number: 20, part: 'A', text: 'The perpendicular bisectors of the sides of a triangle intersect at the', choices: ['Centroid', 'Incenter', 'Circumcenter', 'Orthocenter'], topic: 'Similarity & Proof', correct: 2 },
     { number: 21, part: 'A', text: 'A central angle of a circle measures 2.5 radians. If the radius is 4, what is the arc length?', choices: ['4', '8', '10', '12'], topic: 'Circles', correct: 2 },
     { number: 22, part: 'A', text: 'Three vertices of a rectangle are (1, 1), (5, 1), and (5, 4). What is the fourth vertex?', choices: ['(1, 4)', '(4, 1)', '(1, 5)', '(4, 5)'], topic: 'Coordinate Geometry', correct: 0 },
-    { number: 23, part: 'A', text: 'A right circular cone with radius 4 and height 3 is inscribed in a sphere. What is the radius of the sphere?', choices: ['2.5', '3.5', '4', '5'], topic: '3D Geometry & Volume', correct: 0 },
+    { number: 23, part: 'A', text: 'A right circular cone with radius 4 and height 3 is inscribed in a sphere. What is the radius of the sphere?', choices: ['25/7', '25/6', '5', '4'], topic: '3D Geometry & Volume', correct: 1 },
     { number: 24, part: 'A', text: 'In a right triangle, the acute angles satisfy (2x + 5)° + (3x − 20)° = 90°. What is x?', choices: ['19', '21', '23', '25'], topic: 'Trigonometry', correct: 2 },
   ]
 }

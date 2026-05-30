@@ -11,6 +11,7 @@ export default function ResultsScreen({ route, navigation }) {
     xpEarned, comboBonus = 0,
     firstMastery = false, masteredTopic,
     lessonIndex,
+    challengeUnlocked = false, unlockedTopic = null,
   } = route.params
   const { C } = useTheme()
 
@@ -51,6 +52,13 @@ export default function ResultsScreen({ route, navigation }) {
         <Text style={[T.h1, { color: C.text, marginBottom: 16 }]}>{statusLabel}</Text>
 
         {/* Banners */}
+        {challengeUnlocked && unlockedTopic && (
+          <View style={[s.banner, { backgroundColor: '#22C55E15', borderColor: '#22C55E60' }]}>
+            <Text style={[T.h3, { color: '#16a34a' }]}>
+              🔓 Next unit unlocked! ({unlockedTopic})
+            </Text>
+          </View>
+        )}
         {xpEarned > 0 && (
           <View style={[s.banner, { backgroundColor: C.warnBg, borderColor: C.warn + '60' }]}>
             <Text style={[T.h3, { color: C.warn }]}>

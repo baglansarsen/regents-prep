@@ -150,20 +150,14 @@ export default function AppNavigator() {
             <Stack.Screen name="SchoolOnboarding" component={SchoolOnboardingScreen} />
           </Stack.Group>
 
-        ) : !placementDone ? (
-          /* ── 3. Placement test — once per user ──────────────────────────── */
-          <Stack.Screen name="PlacementTest">
-            {(props) => <PlacementTestScreen {...props} onComplete={() => setPlacementDone(true)} />}
-          </Stack.Screen>
-
         ) : !petChosen ? (
-          /* ── 4. Pet picker — once per user ──────────────────────────────── */
+          /* ── 3. Pet picker — once per user ──────────────────────────────── */
           <Stack.Screen name="PetPicker" options={{ animation: 'slide_from_bottom' }}>
             {(props) => <PetPickerScreen {...props} onComplete={() => setPetChosen(true)} />}
           </Stack.Screen>
 
         ) : !subjectChosen ? (
-          /* ── 5. Subject / Regents picker — once per user ─────────────────── */
+          /* ── 4. Subject / Regents picker — once per user ─────────────────── */
           <Stack.Screen name="SubjectOnboarding" options={{ animation: 'fade' }}>
             {(props) => (
               <SubjectOnboardingScreen
@@ -174,6 +168,12 @@ export default function AppNavigator() {
                 }}
               />
             )}
+          </Stack.Screen>
+
+        ) : !placementDone ? (
+          /* ── 5. Placement test — once per user, after subject is chosen ─── */
+          <Stack.Screen name="PlacementTest">
+            {(props) => <PlacementTestScreen {...props} onComplete={() => setPlacementDone(true)} />}
           </Stack.Screen>
 
         ) : !schoolChosen ? (

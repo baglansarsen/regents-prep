@@ -18,7 +18,7 @@ export default {
     { number: 10, part: 'A', text: 'What is the distance from the point (3, 7) to the line x = −1?', choices: ['2', '4', '6', '8'], topic: 'Coordinate Geometry', correct: 1 },
     { number: 11, part: 'A', text: 'A rectangular box has volume 120 cubic inches. If the length is doubled, width tripled, and height stays the same, what is the new volume?', choices: ['240', '360', '720', '960'], topic: '3D Geometry & Volume', correct: 2 },
     { number: 12, part: 'A', text: 'In a right triangle, cos(42°) ≈ 0.74. If the hypotenuse is 20, what is the adjacent leg to the nearest integer?', choices: ['13', '14', '15', '16'], topic: 'Trigonometry', correct: 2 },
-    { number: 13, part: 'A', text: 'A point P(−3, 4) is reflected over the line y = −x. What are the coordinates of P\'?', choices: ['(3, −4)', '(−4, 3)', '(4, −3)', '(−4, −3)'], topic: 'Congruence & Transformations', correct: 2 },
+    { number: 13, part: 'A', text: 'A point P(−3, 4) is reflected over the line y = −x. What are the coordinates of P\'?', choices: ['(3, −4)', '(−4, 3)', '(4, −3)', '(−4, −3)'], topic: 'Congruence & Transformations', correct: 1 },
     { number: 14, part: 'A', text: 'If the diagonals of a quadrilateral bisect each other, the quadrilateral must be a', choices: ['Rectangle', 'Rhombus', 'Parallelogram', 'Trapezoid'], topic: 'Similarity & Proof', correct: 2 },
     { number: 15, part: 'A', text: 'An angle formed by a tangent and a chord at the point of tangency equals half the intercepted arc. If the arc is 140°, what is the angle?', choices: ['35°', '70°', '140°', '220°'], topic: 'Circles', correct: 1 },
     { number: 16, part: 'A', text: 'What type of triangle has vertices at (0, 0), (4, 4), and (8, 0)?', choices: ['Scalene', 'Right', 'Equilateral', 'Isosceles'], topic: 'Coordinate Geometry', correct: 3 },
@@ -29,6 +29,6 @@ export default {
     { number: 21, part: 'A', text: 'The area of a circle is 64π. What is the circumference?', choices: ['8π', '16π', '32π', '64π'], topic: 'Circles', correct: 1 },
     { number: 22, part: 'A', text: 'A line through (−2, 3) is parallel to y = −(1/2)x + 4. What is its y-intercept?', choices: ['1', '2', '3', '4'], topic: 'Coordinate Geometry', correct: 1 },
     { number: 23, part: 'A', text: 'A square has side 10. A circle is inscribed in the square. What is the area of the circle?', choices: ['10π', '25π', '50π', '100π'], topic: '3D Geometry & Volume', correct: 1 },
-    { number: 24, part: 'A', text: 'In right triangle DEF with right angle at F, DE = 17 and EF = 8. What is tan(D)?', choices: ['8/15', '15/17', '8/17', '15/8'], topic: 'Trigonometry', correct: 3 },
+    { number: 24, part: 'A', text: 'In right triangle DEF with right angle at F, DE = 17 and EF = 8. What is tan(D)?', choices: ['8/15', '15/17', '8/17', '15/8'], topic: 'Trigonometry', correct: 0 },
   ]
 }

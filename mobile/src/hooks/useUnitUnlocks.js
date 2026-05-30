@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 
-export function useUnitUnlocks(units, lessonComplete, subject) {
+export function useUnitUnlocks(units, lessonComplete, unitComplete, subject) {
   const [skipUnlocked, setSkipUnlocked] = useState(new Set())
 
   const reloadSkipUnlocks = useCallback(async () => {
@@ -18,13 +18,13 @@ export function useUnitUnlocks(units, lessonComplete, subject) {
     if (unitIndex === 0) return true
     const prev    = units[unitIndex - 1]
     const current = units[unitIndex]
-    return lessonComplete(prev.topic, 0) || skipUnlocked.has(current?.topic)
+    return unitComplete(prev.topic, prev.lessonCount) || skipUnlocked.has(current?.topic)
   }
 
   function unitUnlockHint(unitIndex) {
     if (unitIndex === 0) return null
     const prev = units[unitIndex - 1]
-    return `Complete ${prev.title} Lesson 1 to unlock`
+    return `Complete all lessons in ${prev.title} to unlock, or pass the ⚡ Challenge with ≤3 mistakes`
   }
 
   return { isUnitUnlocked, unitUnlockHint, reloadSkipUnlocks }

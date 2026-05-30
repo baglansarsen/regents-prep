@@ -29,6 +29,6 @@ export default {
     { number: 21, part: 'A', text: 'A savings account earns 4% interest compounded continuously. Which formula gives the balance after t years if the initial deposit is P?', choices: ['Pe^(0.04t)', 'P(1.04)^t', 'P + 0.04t', 'Pe^(4t)'], topic: 'Exponential & Logarithmic Functions', correct: 0 },
     { number: 22, part: 'A', text: 'Which identity is correct?', choices: ['sin²θ + cos²θ = 1', 'sin²θ − cos²θ = 1', 'sin²θ + cos²θ = 0', 'sinθ · cosθ = 1'], topic: 'Trigonometric Functions', correct: 0 },
     { number: 23, part: 'A', text: 'Which of the following is NOT a complex number?', choices: ['3 + 4i', '√(−1)', '5', 'None — all listed are complex numbers'], topic: 'Complex Numbers', correct: 3 },
-    { number: 24, part: 'A', text: 'A class has 15 boys and 10 girls. A committee of 2 boys and 2 girls is selected. How many different committees are possible?', choices: ['9,450', '3,003', '4,725', '1,050'], topic: 'Statistics & Probability', correct: 0 },
+    { number: 24, part: 'A', text: 'A class has 15 boys and 10 girls. A committee of 2 boys and 2 girls is selected. How many different committees are possible?', choices: ['9,450', '3,003', '4,725', '1,050'], topic: 'Statistics & Probability', correct: 2 },
   ]
 }
