@@ -109,7 +109,7 @@ export function useLives(uid, isSubscribed = false) {
       }
     }
 
-    const id = setInterval(tick, 1_000)
+    const id = setInterval(tick, 30_000)   // lives refill every 30 min; check every 30 s
     tick()  // check immediately too
     return () => clearInterval(id)
   }, [])
