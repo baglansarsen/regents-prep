@@ -56,9 +56,9 @@ export default function App() {
 
   return (
     <ThemeProvider>
-      <SubjectProvider>
-        <DoubleXPProvider>
-          <AuthProvider>
+      <AuthProvider>
+        <SubjectProvider>
+          <DoubleXPProvider>
             <SubscriptionProvider>
               <LivesProvider>
                 <PetProvider>
@@ -68,9 +68,9 @@ export default function App() {
                 </PetProvider>
               </LivesProvider>
             </SubscriptionProvider>
-          </AuthProvider>
-        </DoubleXPProvider>
-      </SubjectProvider>
+          </DoubleXPProvider>
+        </SubjectProvider>
+      </AuthProvider>
     </ThemeProvider>
   )
 }

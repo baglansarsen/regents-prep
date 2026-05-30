@@ -4,6 +4,61 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import MasteryCelebration from '../components/MasteryCelebration'
+import * as leData   from '../../../src/data/living-environment/index'
+import * as esData   from '../../../src/data/earth-science/index'
+import * as chemData from '../../../src/data/chemistry/index'
+import * as physData from '../../../src/data/physics/index'
+import * as a1Data   from '../../../src/data/algebra-1/index'
+import * as a2Data   from '../../../src/data/algebra-2/index'
+import * as geoData  from '../../../src/data/geometry/index'
+
+const SUBJECT_DATA = {
+  'living-environment': leData,
+  'earth-science':      esData,
+  'chemistry':          chemData,
+  'physics':            physData,
+  'algebra-1':          a1Data,
+  'algebra-2':          a2Data,
+  'geometry':           geoData,
+}
+
+// Compute metadata for the lesson AFTER nextLessonMeta, so the chain continues past one hop
+function computeNextNextMeta(sd, nextLessonMeta) {
+  if (!nextLessonMeta) return null
+  const units   = sd.UNITS ?? []
+  const unitIdx = units.findIndex((u) => u.topic === nextLessonMeta.topic)
+  const unit    = units[unitIdx]
+  if (!unit) return null
+  const nli = nextLessonMeta.lessonIndex
+  if (nli < unit.lessonCount) {
+    const nnIdx        = nli + 1
+    const nnIsChallenge = nnIdx === unit.lessonCount
+    const afterUnit    = nnIsChallenge ? units[unitIdx + 1] : null
+    return {
+      topic:        unit.topic,
+      lessonCount:  unit.lessonCount,
+      lessonIndex:  nnIdx,
+      isChallenge:  nnIsChallenge,
+      nextUnitTopic: nnIsChallenge ? (afterUnit?.topic ?? null) : null,
+      label: nnIsChallenge ? `⚡ ${unit.title} Challenge` : `${unit.title} — Lesson ${nnIdx + 1}`,
+    }
+  }
+  if (nextLessonMeta.isChallenge && nextLessonMeta.nextUnitTopic) {
+    const nextUnit    = units.find((u) => u.topic === nextLessonMeta.nextUnitTopic)
+    const nextUnitIdx = units.findIndex((u) => u.topic === nextLessonMeta.nextUnitTopic)
+    if (nextUnit && nextUnit.lessonCount > 1) {
+      return {
+        topic:        nextUnit.topic,
+        lessonCount:  nextUnit.lessonCount,
+        lessonIndex:  1,
+        isChallenge:  false,
+        nextUnitTopic: null,
+        label:        `${nextUnit.title} — Lesson 2`,
+      }
+    }
+  }
+  return null
+}
 
 export default function ResultsScreen({ route, navigation }) {
   const {
@@ -12,6 +67,7 @@ export default function ResultsScreen({ route, navigation }) {
     firstMastery = false, masteredTopic,
     lessonIndex,
     challengeUnlocked = false, unlockedTopic = null,
+    nextLessonMeta = null,
   } = route.params
   const { C } = useTheme()
 
@@ -112,23 +168,60 @@ export default function ResultsScreen({ route, navigation }) {
         ))}
 
         {/* Actions */}
-        <View style={s.actions}>
-          <TouchableOpacity
-            style={duoBtn(C.brand, C.brandDark, { flex: 1 })}
-            onPress={() => navigation.navigate('Quiz', {
-              questionSet: results.map((r) => r.question).sort(() => Math.random() - 0.5),
-              topic, subject, lessonIndex,
-            })}
-          >
-            <Text style={[T.btn, { color: '#fff' }]}>TRY AGAIN</Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={duoBtnOutline(C.border, { flex: 1 })}
-            onPress={() => navigation.navigate('Home')}
-          >
-            <Text style={[T.btn, { color: C.text }]}>🏠 HOME</Text>
-          </TouchableOpacity>
-        </View>
+        {passed ? (
+          <View style={s.actions}>
+            <TouchableOpacity
+              style={duoBtnOutline(C.border, { flex: nextLessonMeta ? 1 : undefined, paddingHorizontal: nextLessonMeta ? 0 : 32 })}
+              onPress={() => navigation.navigate('Home')}
+            >
+              <Text style={[T.btn, { color: C.text }]}>🏠 HOME</Text>
+            </TouchableOpacity>
+            {nextLessonMeta && (
+              <TouchableOpacity
+                style={duoBtn(C.brand, C.brandDark, { flex: 1 })}
+                onPress={() => {
+                  const sd = SUBJECT_DATA[subject] ?? leData
+                  const qs = sd.getLessonQuestions(
+                    nextLessonMeta.topic,
+                    nextLessonMeta.lessonIndex,
+                    nextLessonMeta.lessonCount,
+                  )
+                  navigation.replace('Quiz', {
+                    questionSet:    qs,
+                    topic:          nextLessonMeta.topic,
+                    subject,
+                    lessonIndex:    nextLessonMeta.lessonIndex,
+                    isChallenge:    nextLessonMeta.isChallenge,
+                    nextUnitTopic:  nextLessonMeta.nextUnitTopic,
+                    nextLessonMeta: computeNextNextMeta(sd, nextLessonMeta),
+                  })
+                }}
+              >
+                <Text style={[T.btn, { color: '#fff' }]} numberOfLines={1}>
+                  {nextLessonMeta.isChallenge ? '⚡' : '▶'} {nextLessonMeta.label}
+                </Text>
+              </TouchableOpacity>
+            )}
+          </View>
+        ) : (
+          <View style={s.actions}>
+            <TouchableOpacity
+              style={duoBtn(C.brand, C.brandDark, { flex: 1 })}
+              onPress={() => navigation.replace('Quiz', {
+                questionSet: results.map((r) => r.question).sort(() => Math.random() - 0.5),
+                topic, subject, lessonIndex,
+              })}
+            >
+              <Text style={[T.btn, { color: '#fff' }]}>🔁 TRY AGAIN</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={duoBtnOutline(C.border, { flex: 1 })}
+              onPress={() => navigation.navigate('Home')}
+            >
+              <Text style={[T.btn, { color: C.text }]}>🏠 HOME</Text>
+            </TouchableOpacity>
+          </View>
+        )}
 
         <View style={{ height: 24 }} />
       </ScrollView>

@@ -48,7 +48,7 @@ function calcComboBonus(results) {
 }
 
 export default function QuizScreen({ route, navigation }) {
-  const { questionSet, topic, subject, lessonIndex, isChallenge, nextUnitTopic } = route.params
+  const { questionSet, topic, subject, lessonIndex, isChallenge, nextUnitTopic, nextLessonMeta } = route.params
   const { C } = useTheme()
   const insets = useSafeAreaInsets()
   const { user } = useAuthContext()
@@ -168,6 +168,7 @@ export default function QuizScreen({ route, navigation }) {
         score, total, results, bestStreak, topic, subject,
         xpEarned, comboBonus, firstMastery, masteredTopic: topic ?? null,
         lessonIndex, challengeUnlocked, unlockedTopic: nextUnitTopic ?? null,
+        nextLessonMeta: nextLessonMeta ?? null,
       })
     }
   }, [phase])

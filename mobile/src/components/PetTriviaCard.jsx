@@ -1,21 +1,42 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
+import { useSubject } from '../context/SubjectContext'
 import { useXP } from '../hooks/useXP'
 import { usePetContext } from '../context/PetContext'
 import { getDayQuestion } from '../data/triviaPool'
 import { T } from '../styles/duo'
+import * as leData   from '../../../src/data/living-environment/index'
+import * as esData   from '../../../src/data/earth-science/index'
+import * as chemData from '../../../src/data/chemistry/index'
+import * as physData from '../../../src/data/physics/index'
+import * as a1Data   from '../../../src/data/algebra-1/index'
+import * as a2Data   from '../../../src/data/algebra-2/index'
+import * as geoData  from '../../../src/data/geometry/index'
+
+const SUBJECT_DATA = {
+  'living-environment': leData,
+  'earth-science':      esData,
+  'chemistry':          chemData,
+  'physics':            physData,
+  'algebra-1':          a1Data,
+  'algebra-2':          a2Data,
+  'geometry':           geoData,
+}
 
 function today() { return new Date().toISOString().slice(0, 10) }
 
 export default function PetTriviaCard() {
   const { C }           = useTheme()
   const { user }        = useAuthContext()
+  const { subject }     = useSubject()
   const uid             = user?.uid
   const { earnXP }      = useXP(uid)
   const { pet, triggerReaction } = usePetContext()
+
+  const pool = useMemo(() => (SUBJECT_DATA[subject] ?? leData).questions ?? [], [subject])
 
   const [q,         setQ]         = useState(null)
   const [selected,  setSelected]  = useState(null)
@@ -25,12 +46,12 @@ export default function PetTriviaCard() {
   useEffect(() => {
     if (!uid) return
     ;(async () => {
-      const key  = `@triviaDate_v1_${uid}`
+      const key  = `@triviaDate_v1_${uid}_${subject}`
       const last = await AsyncStorage.getItem(key).catch(() => null)
       if (last === today()) { setAnswered(true); return }
-      setQ(getDayQuestion())
+      setQ(getDayQuestion(pool))
     })()
-  }, [uid])
+  }, [uid, subject, pool])
 
   async function answer(idx) {
     if (selected !== null) return
@@ -39,7 +60,7 @@ export default function PetTriviaCard() {
     const ok      = idx === correct
     setIsCorrect(ok)
     setAnswered(true)
-    await AsyncStorage.setItem(`@triviaDate_v1_${uid}`, today()).catch(() => {})
+    await AsyncStorage.setItem(`@triviaDate_v1_${uid}_${subject}`, today()).catch(() => {})
     if (ok) {
       await earnXP(50)
       triggerReaction('cheer')

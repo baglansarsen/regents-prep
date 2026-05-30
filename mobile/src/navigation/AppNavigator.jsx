@@ -84,7 +84,7 @@ export default function AppNavigator() {
         if (subDone && !subVal) AsyncStorage.setItem(subjectChosenKey(user.uid), '1').catch(() => {})
         if (schDone && !schVal) AsyncStorage.setItem(schoolChosenKey(user.uid), '1').catch(() => {})
 
-        setPlacementDone(!!pVal || subDone) // if subject chosen, treat placement as done too
+        setPlacementDone(!!pVal)
         setPetChosen(petDone)
         setSubjectChosen(subDone)
         setSchoolChosen(schDone)
@@ -145,10 +145,7 @@ export default function AppNavigator() {
 
         ) : !user ? (
           /* ── 2. Auth flow ─────────────────────────────────────────────────── */
-          <Stack.Group>
-            <Stack.Screen name="Login"            component={LoginScreen} />
-            <Stack.Screen name="SchoolOnboarding" component={SchoolOnboardingScreen} />
-          </Stack.Group>
+          <Stack.Screen name="Login" component={LoginScreen} />
 
         ) : !petChosen ? (
           /* ── 3. Pet picker — once per user ──────────────────────────────── */

@@ -80,7 +80,7 @@ export default function LoginScreen({ navigation }) {
       } else {
         if (!name.trim()) { Alert.alert('Missing name', 'Please enter your name.'); setLoading(false); return }
         await signUpWithEmail(email.trim(), password, name.trim())
-        navigation.replace('SchoolOnboarding')
+        // No manual navigation here; AppNavigator will handle the transition based on user state
       }
     } catch (e) {
       Alert.alert('Error', e.message)

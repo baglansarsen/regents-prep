@@ -230,12 +230,39 @@ export default function HomeScreen({ navigation }) {
     const isChallenge = lessonIndex === unit.lessonCount
     const unitIdx = units.findIndex((u) => u.id === unit.id)
     const nextUnit = isChallenge && unitIdx >= 0 ? units[unitIdx + 1] : null
+
+    // Compute metadata for the next lesson so ResultsScreen can offer a shortcut
+    let nextLessonMeta = null
+    if (lessonIndex < unit.lessonCount) {
+      const nextIdx = lessonIndex + 1
+      const nextIsChallenge = nextIdx === unit.lessonCount
+      const afterUnit = nextIsChallenge && unitIdx >= 0 ? units[unitIdx + 1] : null
+      nextLessonMeta = {
+        topic: unit.topic,
+        lessonCount: unit.lessonCount,
+        lessonIndex: nextIdx,
+        isChallenge: nextIsChallenge,
+        nextUnitTopic: nextIsChallenge ? (afterUnit?.topic ?? null) : null,
+        label: nextIsChallenge ? `⚡ ${unit.title} Challenge` : `${unit.title} — Lesson ${nextIdx + 1}`,
+      }
+    } else if (isChallenge && nextUnit) {
+      nextLessonMeta = {
+        topic: nextUnit.topic,
+        lessonCount: nextUnit.lessonCount,
+        lessonIndex: 0,
+        isChallenge: false,
+        nextUnitTopic: null,
+        label: `${nextUnit.title} — Lesson 1`,
+      }
+    }
+
     closeSheet(() => {
       livesGate(() => {
         const questionSet = sd.getLessonQuestions(unit.topic, lessonIndex, unit.lessonCount)
         navigation.navigate('Quiz', {
           questionSet, topic: unit.topic, subject, lessonIndex,
           isChallenge, nextUnitTopic: nextUnit?.topic ?? null,
+          nextLessonMeta,
         })
       })
     })
@@ -451,7 +478,7 @@ export default function HomeScreen({ navigation }) {
               <Text style={[T.h3, { color: C.text, flex: 1 }]}>{questData.label}</Text>
               {questData.completed
                 ? <Text style={[T.label, { color: C.correct }]}>✓ DONE</Text>
-                : <Text style={[T.small, { color: C.textMuted }]}>+25 💰</Text>}
+                : <Text style={[T.small, { color: C.textMuted }]}>+25 ⭐</Text>}
             </View>
             <View style={s.questBg}>
               <View style={[s.questFill, {
