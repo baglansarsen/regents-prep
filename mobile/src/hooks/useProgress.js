@@ -4,6 +4,11 @@ import {
 } from 'firebase/firestore'
 import { db } from '../firebase'
 
+// Mastery = 85%+ on at least 2 of the last 3 attempts (consistency, not luck)
+const MASTERY_MIN    = 85
+const MASTERY_WINDOW = 3
+const MASTERY_NEED   = 2
+
 export function useProgress(uid) {
   const [history, setHistory] = useState([])
 
@@ -29,18 +34,33 @@ export function useProgress(uid) {
     loadHistory(uid).then(setHistory)
   }
 
-  function masteryPct(topic, subject) {
-    const relevant = history.filter((h) => {
+  function relevantHistory(topic, subject) {
+    return history.filter((h) => {
       const hSubject = h.subject ?? 'living-environment'
       const subjectMatch = subject ? hSubject === subject : true
       const topicMatch   = topic   ? h.topic === topic   : true
       return subjectMatch && topicMatch
     })
+  }
+
+  // Best single score — used for the progress-bar fill (history is newest-first)
+  function masteryPct(topic, subject) {
+    const relevant = relevantHistory(topic, subject)
     if (!relevant.length) return null
     return Math.max(...relevant.map((h) => h.pct))
   }
 
-  return { history, saveResult, masteryPct }
+  // Mastery requires CONSISTENCY, not one lucky run. Pass `pendingPct` to fold
+  // in an attempt not yet saved, so the quiz screen can detect mastery the
+  // moment it's achieved.
+  function isMastered(topic, subject, pendingPct = null) {
+    const pcts = relevantHistory(topic, subject).map((h) => h.pct)   // newest-first
+    const seq  = (pendingPct != null ? [pendingPct, ...pcts] : pcts).slice(0, MASTERY_WINDOW)
+    if (seq.length < MASTERY_NEED) return false
+    return seq.filter((p) => p >= MASTERY_MIN).length >= MASTERY_NEED
+  }
+
+  return { history, saveResult, masteryPct, isMastered }
 }
 
 async function loadHistory(uid) {

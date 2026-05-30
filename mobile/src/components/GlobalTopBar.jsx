@@ -8,7 +8,7 @@ import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useXP } from '../hooks/useXP'
 import { useLivesContext } from '../context/LivesContext'
 import { useRewardedAd } from '../hooks/useRewardedAd'
-import { SUBJECTS, SUBJECT_META } from '../../../src/data/subjects'
+import { SUBJECTS, SUBJECT_META } from '../content/subjects'
 import { useDoubleXP } from '../context/DoubleXPContext'
 import { T } from '../styles/duo'
 

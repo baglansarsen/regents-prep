@@ -8,12 +8,19 @@ import DailyQuestion from '../components/DailyQuestion'
 
 // ── Shared ─────────────────────────────────────────────────────────────────
 
-function MasteryBadge({ topic, masteryPct }) {
+function MasteryBadge({ topic, masteryPct, isMastered }) {
   const pct = masteryPct(topic)
   if (pct === null) return null
-  const color = pct >= 85 ? '#22c55e' : pct >= 65 ? '#f59e0b' : '#ef4444'
+  // Green only when mastery is earned CONSISTENTLY (85%+ on 2 of last 3), not on
+  // a single lucky run — even if the best-ever % shown here is high.
+  const mastered = isMastered ? isMastered(topic) : pct >= 85
+  const color = mastered ? '#22c55e' : pct >= 65 ? '#f59e0b' : '#ef4444'
   return (
-    <span className="mastery-badge" style={{ color, borderColor: color, backgroundColor: color + '22' }}>
+    <span
+      className="mastery-badge"
+      title="Mastery = 85%+ on 2 of your last 3 attempts"
+      style={{ color, borderColor: color, backgroundColor: color + '22' }}
+    >
       {pct}%
     </span>
   )
@@ -38,7 +45,7 @@ const LAB_TYPE_ICONS = {
 
 // ── Study Tab ──────────────────────────────────────────────────────────────
 
-function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, masteryPct, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, levelInfo, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit, questions, TOPICS, TOPIC_ICONS, LAB_TYPES, onRegentsExams, onTips }) {
+function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, masteryPct, isMastered, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, levelInfo, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit, questions, TOPICS, TOPIC_ICONS, LAB_TYPES, onRegentsExams, onTips }) {
   const allTopics = Object.values(TOPICS ?? {})
   return (
     <div className="tab-panel">
@@ -147,7 +154,7 @@ function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onConte
           <span className="topic-icon">⚡</span>
           <span className="topic-name">All Topics</span>
           <span className="topic-count">{questions.length} questions</span>
-          <MasteryBadge topic={null} masteryPct={masteryPct} />
+          <MasteryBadge topic={null} masteryPct={masteryPct} isMastered={isMastered} />
         </button>
         {allTopics.map((topic) => {
           const count    = questions.filter((q) => q.topic === topic).length
@@ -157,7 +164,7 @@ function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onConte
             <button key={topic} className={`topic-card ${!unlocked ? 'topic-card--locked' : ''}`} onClick={() => unlocked && onStart(topic)} disabled={!unlocked}>
               <div className="topic-card-header">
                 <span className="topic-icon">{unlocked ? TOPIC_ICONS[topic] : '🔒'}</span>
-                {unlocked && <MasteryBadge topic={topic} masteryPct={masteryPct} />}
+                {unlocked && <MasteryBadge topic={topic} masteryPct={masteryPct} isMastered={isMastered} />}
               </div>
               <span className="topic-name">{topic}</span>
               {unlocked ? <span className="topic-count">{count} questions</span> : <span className="topic-locked-hint">{hint}</span>}
@@ -1097,7 +1104,7 @@ export default function HomeScreen({
   onStart, onPracticeTest, onAnalytics, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, onAchievements, onRegentsExams, onTips,
   user, onLogOut,
   history, streak, studiedToday, weekDays,
-  masteryPct, isUnlocked, unlockHint,
+  masteryPct, isMastered, isUnlocked, unlockHint,
   completedCount, totalTopics,
   xp, levelInfo, onBuyStreak, earnXP,
   earnedIds, allAchievements,
@@ -1168,7 +1175,7 @@ export default function HomeScreen({
       {tab === 'study' && (
         <StudyTab
           onStart={onStart} onPracticeTest={onPracticeTest} onDiagnostic={onDiagnostic} onSpeedRound={onSpeedRound} onContextPractice={onContextPractice} onLabPractice={onLabPractice}
-          masteryPct={masteryPct} isUnlocked={isUnlocked} unlockHint={unlockHint}
+          masteryPct={masteryPct} isMastered={isMastered} isUnlocked={isUnlocked} unlockHint={unlockHint}
           streak={streak} studiedToday={studiedToday} weekDays={weekDays}
           xp={xp} levelInfo={levelInfo} onBuyStreak={onBuyStreak}
           dailyQ={dailyQ} dailyAnswered={dailyAnswered} dailyRecord={dailyRecord}

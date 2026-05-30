@@ -58,6 +58,12 @@ export default function RegentsExamResultsScreen({ exam, results, correct, total
           <p className="regents-score-raw">{correct} / {total} correct ({pct}%) · Need 65 to pass</p>
         </div>
 
+        <p style={{ fontSize: '0.78rem', color: '#94a3b8', lineHeight: 1.5, margin: '10px 4px 0' }}>
+          ⚠️ Estimated score based on multiple-choice only. The official Regents
+          conversion changes each exam and also counts written/lab responses, so
+          your real result may differ.
+        </p>
+
         {/* Per-part breakdown */}
         <div className="regents-breakdown">
           {Object.entries(byPart).sort(([a],[b]) => a.localeCompare(b)).map(([part, d]) => (

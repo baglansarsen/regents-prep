@@ -20,6 +20,24 @@ function questionKey(q) {
   return q.id ?? q.text?.slice(0, 60) ?? String(Math.random())
 }
 
+/**
+ * Merge a new batch of wrong questions into the existing list, preserving a
+ * single invariant: the result is ALWAYS newest-first and capped at MAX_SAVED.
+ *
+ *   - `existing` is assumed newest-first (the format we always store).
+ *   - The new batch is the most recent activity, so it goes to the front;
+ *     within the batch, the last question answered is treated as newest.
+ *   - Duplicates are keyed by question identity — the new copy wins (and
+ *     refreshes its position to the front), the old copy is dropped.
+ *   - slice(0, MAX_SAVED) keeps the newest and discards the oldest tail.
+ */
+function mergeMistakes(existing, tagged) {
+  const map = new Map()
+  for (const q of [...tagged].reverse()) map.set(questionKey(q), q)
+  for (const q of existing) if (!map.has(questionKey(q))) map.set(questionKey(q), q)
+  return [...map.values()].slice(0, MAX_SAVED)
+}
+
 // ── Public hook ──────────────────────────────────────────────────────────────
 export function useMistakes() {
   const [mistakes, setMistakes] = useState([])   // full list, newest first
@@ -46,14 +64,7 @@ export function useMistakes() {
     const raw = await AsyncStorage.getItem(KEY)
     const existing = raw ? JSON.parse(raw) : []
 
-    // Build a map keyed by question identity so we don't duplicate
-    const map = new Map(existing.map((q) => [questionKey(q), q]))
-
-    // Newer entries overwrite older ones (updates subject if changed)
-    tagged.forEach((q) => map.set(questionKey(q), q))
-
-    // Keep newest MAX_SAVED (map insertion order = arrival order; reverse for newest-first)
-    const updated = [...map.values()].slice(-MAX_SAVED).reverse()
+    const updated = mergeMistakes(existing, tagged)
 
     setMistakes(updated)
     await AsyncStorage.setItem(KEY, JSON.stringify(updated))
@@ -80,9 +91,7 @@ export async function appendMistakes(wrongQuestions, subject) {
     const tagged = wrongQuestions.map((q) => ({ ...q, subject: subject ?? 'living-environment' }))
     const raw = await AsyncStorage.getItem(KEY)
     const existing = raw ? JSON.parse(raw) : []
-    const map = new Map(existing.map((q) => [questionKey(q), q]))
-    tagged.forEach((q) => map.set(questionKey(q), q))
-    const updated = [...map.values()].slice(-MAX_SAVED).reverse()
+    const updated = mergeMistakes(existing, tagged)
     await AsyncStorage.setItem(KEY, JSON.stringify(updated))
   } catch (_) {}
 }

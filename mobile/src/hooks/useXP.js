@@ -39,9 +39,11 @@ export function useXP(uid) {
   const [weeklyXP,  setWeeklyXP] = useState(0)
   const [loaded,    setLoaded]   = useState(false)
 
-  // Ref mirrors weeklyXP so earnXP closure never goes stale
+  // Refs mirror state so earnXP/spendXP never compute from a stale closure
   const weeklyXPRef = useRef(0)
   function _setWeeklyXP(v) { weeklyXPRef.current = v; setWeeklyXP(v) }
+  const xpRef = useRef(0)
+  function _setXP(v) { xpRef.current = v; setXP(v) }
 
   useEffect(() => {
     if (!uid) return
@@ -49,7 +51,7 @@ export function useXP(uid) {
       try {
         // Load total XP
         const xpSnap = await getDoc(doc(db, 'users', uid, 'meta', 'xp'))
-        if (xpSnap.exists()) setXP(xpSnap.data().total ?? 0)
+        if (xpSnap.exists()) _setXP(xpSnap.data().total ?? 0)
 
         // Load weekly XP (reset to 0 if it belongs to a past week)
         const wSnap = await getDoc(doc(db, 'users', uid, 'meta', 'weeklyXP'))
@@ -61,7 +63,7 @@ export function useXP(uid) {
       } catch {
         try {
           const raw = await AsyncStorage.getItem(AS_KEY)
-          setXP(Number(raw) || 0)
+          _setXP(Number(raw) || 0)
         } catch {}
       }
       setLoaded(true)
@@ -73,8 +75,8 @@ export function useXP(uid) {
     const earned = Math.round(amount * Math.max(1, multiplier))
 
     const prevWeeklyXP = weeklyXPRef.current   // snapshot BEFORE optimistic update
-    const nextTotal    = xp + earned
-    setXP(nextTotal)
+    const nextTotal    = xpRef.current + earned   // fresh ref, not stale closure
+    _setXP(nextTotal)
 
     const week = getWeekKey()
     _setWeeklyXP(prevWeeklyXP + earned)        // optimistic
@@ -120,17 +122,19 @@ export function useXP(uid) {
     } catch {}
 
     try { await AsyncStorage.setItem(AS_KEY, String(nextTotal)) } catch {}
-  }, [uid, xp])
+
+    return nextTotal   // authoritative new total for callers (e.g. pet evolution)
+  }, [uid])
 
   const spendXP = useCallback(async (amount) => {
-    if (xp < amount) return false
-    const next = xp - amount
-    setXP(next)
+    if (xpRef.current < amount) return false
+    const next = xpRef.current - amount
+    _setXP(next)
     try { await setDoc(doc(db, 'users', uid, 'meta', 'xp'), { total: increment(-amount) }, { merge: true }) } catch {}
     try { await setDoc(doc(db, 'leaderboard', uid), { xp: next }, { merge: true }) } catch {}
     try { await AsyncStorage.setItem(AS_KEY, String(next)) } catch {}
     return true
-  }, [uid, xp])
+  }, [uid])
 
   return { xp, weeklyXP, earnXP, spendXP, loaded, level: getLevel(xp) }
 }

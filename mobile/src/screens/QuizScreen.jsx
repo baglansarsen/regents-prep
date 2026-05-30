@@ -32,21 +32,6 @@ function comboInfo(streak) {
   return null
 }
 
-// Calculate bonus XP from combos at quiz end
-function calcComboBonus(results) {
-  let bonus = 0
-  let run = 0
-  results.forEach((r) => {
-    if (r.correct) {
-      run++
-      if (run >= 3) bonus += 5   // +5 XP per question while on a 3+ combo
-    } else {
-      run = 0
-    }
-  })
-  return bonus
-}
-
 export default function QuizScreen({ route, navigation }) {
   const { questionSet, topic, subject, lessonIndex, isChallenge, nextUnitTopic, nextLessonMeta } = route.params
   const { C } = useTheme()
@@ -54,7 +39,7 @@ export default function QuizScreen({ route, navigation }) {
   const { user } = useAuthContext()
   const uid = user?.uid
 
-  const { saveResult, masteryPct } = useProgress(uid)
+  const { saveResult, isMastered } = useProgress(uid)
   const { xpMultiplier }           = useDoubleXP()
   const { markStudied }          = useDailyStreak(uid)
   const { xp, earnXP, spendXP }  = useXP(uid)
@@ -99,14 +84,17 @@ export default function QuizScreen({ route, navigation }) {
   }, [phase, streak])
 
   // ── Lose life + pet reaction on wrong/right answer ────────────────────────
+  // A timeout is a failed question too — it breaks the streak and is logged as
+  // a mistake, so it must also cost a life (otherwise walking away is "free").
   useEffect(() => {
-    if (phase === 'feedback' && selected !== null && selected !== 'timeout') {
+    if (phase === 'feedback' && selected !== null) {
       const correctIdx = currentQuestion?.correct ?? currentQuestion?.correctIndex
-      if (selected !== correctIdx) {
+      const wasCorrect = selected !== 'timeout' && selected === correctIdx
+      if (wasCorrect) {
+        triggerReaction('cheer')
+      } else {
         loseLife()
         triggerReaction('sad')
-      } else {
-        triggerReaction('cheer')
       }
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -126,12 +114,13 @@ export default function QuizScreen({ route, navigation }) {
       const correct    = results.filter((r) => r.correct).length
       const mistakes   = total - correct
       const pct        = Math.round((correct / total) * 100)
-      const comboBonus = calcComboBonus(results)
-      const xpEarned   = Math.round((correct * 10 + comboBonus) * xpMultiplier)
+      // `score` already bakes in speed + streak multipliers, so it IS the XP.
+      const xpEarned   = Math.round(score * xpMultiplier)
+      const doubleXP   = xpMultiplier > 1
 
-      // Detect first-time topic mastery (before saving — masteryPct reflects previous best)
-      const prevBest     = masteryPct(topic, subject) ?? 0
-      const firstMastery = !!topic && pct >= 85 && prevBest < 85
+      // First-time mastery = consistency rule flips from false → true with this
+      // attempt included (isMastered = 85%+ on 2 of the last 3 attempts).
+      const firstMastery = !!topic && isMastered(topic, subject, pct) && !isMastered(topic, subject)
 
       // Challenge passed with ≤3 mistakes → unlock next unit immediately
       const challengeUnlocked = isChallenge && !!nextUnitTopic && mistakes <= 3
@@ -153,8 +142,8 @@ export default function QuizScreen({ route, navigation }) {
 
       saveResult({ topic, score, total, correct, pct, subject, lessonIndex })
       markStudied()
-      earnXP(xpEarned)
-      checkAndEvolve(xp + xpEarned)
+      // Evolve against the authoritative post-award total, not the stale `xp` state
+      earnXP(xpEarned).then((newTotal) => checkAndEvolve(newTotal ?? xp + xpEarned))
       if (challengeUnlocked)   { triggerReaction('cheer');        say(`⚡ Challenge passed! Next unit unlocked 🔓`) }
       else if (pct === 100)    { triggerReaction('cheer');        say(`Perfect score! +${xpEarned} ⭐ You're incredible 🎉`) }
       else if (pct >= 85)      { triggerReaction('happy_dance');  say(`+${xpEarned} ⭐ XP! Really solid work 🌟`) }
@@ -166,7 +155,7 @@ export default function QuizScreen({ route, navigation }) {
       if (route.params?.isMistakesPractice) updateQuestProgress('complete_mistakes')
       navigation.replace('Results', {
         score, total, results, bestStreak, topic, subject,
-        xpEarned, comboBonus, firstMastery, masteredTopic: topic ?? null,
+        xpEarned, doubleXP, firstMastery, masteredTopic: topic ?? null,
         lessonIndex, challengeUnlocked, unlockedTopic: nextUnitTopic ?? null,
         nextLessonMeta: nextLessonMeta ?? null,
       })

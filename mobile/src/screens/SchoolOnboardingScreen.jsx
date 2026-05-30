@@ -9,7 +9,7 @@ let Location = null
 try { Location = require('expo-location') } catch (_) {}
 import { db, auth } from '../firebase'
 import { useTheme } from '../context/ThemeContext'
-import { NY_SCHOOLS, getSchoolsSortedByDistance, distanceMi } from '../../../src/data/schools'
+import { NY_SCHOOLS, getSchoolsSortedByDistance, distanceMi } from '../content/schools'
 
 const TYPE_FILTERS = [
   { key: null,      label: 'All',     emoji: '🏫' },

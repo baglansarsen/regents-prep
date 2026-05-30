@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, ScrollView, StyleSheet } from 'react-nati
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useSubject } from '../context/SubjectContext'
-import { SUBJECT_META } from '../../../src/data/subjects'
+import { SUBJECT_META } from '../content/subjects'
 
 const SUBJECTS = Object.values(SUBJECT_META)
 

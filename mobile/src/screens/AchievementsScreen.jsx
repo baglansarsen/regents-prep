@@ -4,8 +4,8 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useProgress } from '../hooks/useProgress'
-import * as leData from '../../../src/data/living-environment/index'
-import * as esData from '../../../src/data/earth-science/index'
+import * as leData from '../content/living-environment/index'
+import * as esData from '../content/earth-science/index'
 
 const TIER_ORDER = ['gold', 'silver', 'bronze']
 const TIER_COLORS = {

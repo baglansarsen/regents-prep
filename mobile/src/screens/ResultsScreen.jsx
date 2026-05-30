@@ -4,13 +4,13 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import MasteryCelebration from '../components/MasteryCelebration'
-import * as leData   from '../../../src/data/living-environment/index'
-import * as esData   from '../../../src/data/earth-science/index'
-import * as chemData from '../../../src/data/chemistry/index'
-import * as physData from '../../../src/data/physics/index'
-import * as a1Data   from '../../../src/data/algebra-1/index'
-import * as a2Data   from '../../../src/data/algebra-2/index'
-import * as geoData  from '../../../src/data/geometry/index'
+import * as leData   from '../content/living-environment/index'
+import * as esData   from '../content/earth-science/index'
+import * as chemData from '../content/chemistry/index'
+import * as physData from '../content/physics/index'
+import * as a1Data   from '../content/algebra-1/index'
+import * as a2Data   from '../content/algebra-2/index'
+import * as geoData  from '../content/geometry/index'
 
 const SUBJECT_DATA = {
   'living-environment': leData,
@@ -63,7 +63,7 @@ function computeNextNextMeta(sd, nextLessonMeta) {
 export default function ResultsScreen({ route, navigation }) {
   const {
     score, total, results, bestStreak, topic, subject,
-    xpEarned, comboBonus = 0,
+    xpEarned, doubleXP = false,
     firstMastery = false, masteredTopic,
     lessonIndex,
     challengeUnlocked = false, unlockedTopic = null,
@@ -141,14 +141,14 @@ export default function ResultsScreen({ route, navigation }) {
         {xpEarned > 0 && (
           <View style={[s.banner, { backgroundColor: C.warnBg, borderColor: C.warn + '60' }]}>
             <Text style={[T.h3, { color: C.warn }]}>
-              ⭐ +{displayXP} XP earned{xpEarned > (correct * 10 + (comboBonus ?? 0)) ? '  ⚡ 2× boost!' : ''}
+              ⭐ +{displayXP} XP earned{doubleXP ? '  ⚡ 2× boost!' : ''}
             </Text>
           </View>
         )}
         {bestStreak >= 3 && (
           <View style={[s.banner, { backgroundColor: '#FF960015', borderColor: '#FF960040' }]}>
             <Text style={[T.body, { color: '#FF9600' }]}>
-              🔥 Best combo: {bestStreak} in a row!{comboBonus > 0 ? `  +${comboBonus} bonus XP` : ''}
+              🔥 Best combo: {bestStreak} in a row!
             </Text>
           </View>
         )}

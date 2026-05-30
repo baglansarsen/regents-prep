@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 
 export const Q_AGAIN = 1
+export const Q_HARD  = 2
 export const Q_GOOD  = 3
 export const Q_EASY  = 5
 
@@ -10,11 +11,18 @@ const DEFAULT_CARD = { interval: 0, repetitions: 0, easeFactor: 2.5, nextReview:
 function sm2(card, quality) {
   let { interval, repetitions, easeFactor } = { ...DEFAULT_CARD, ...card }
   if (quality >= 3) {
+    // Good / Easy — clean recall, interval grows by the ease factor
     if (repetitions === 0)      interval = 1
     else if (repetitions === 1) interval = 6
     else                        interval = Math.round(interval * easeFactor)
     repetitions++
+  } else if (quality === 2) {
+    // Hard — recalled, but shakily. Don't lapse: keep the card progressing with
+    // a gentle interval bump (and let the ease-factor formula below dock EF), so
+    // it comes back sooner than "Good" but isn't reset to day-1 like "Again".
+    interval = Math.max(1, Math.round((interval || 1) * 1.2))
   } else {
+    // Again — failed recall, full lapse back to daily review
     repetitions = 0
     interval    = 1
   }

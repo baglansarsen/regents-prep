@@ -69,7 +69,7 @@ export default function App() {
   const { questions, getByTopic, shuffled, buildDiagnosticSet, getContextual, TOPIC_ORDER } = sd
   const getLabQuestions = sd.getLabQuestions ?? (() => [])
 
-  const { history, saveResult: saveResultRaw, masteryPct: masteryPctRaw } = useProgress(user?.uid)
+  const { history, saveResult: saveResultRaw, masteryPct: masteryPctRaw, isMastered: isMasteredRaw } = useProgress(user?.uid)
 
   const subjectHistory = useMemo(
     () => history.filter((h) => (h.subject ?? 'living-environment') === subject),
@@ -78,6 +78,7 @@ export default function App() {
 
   const saveResult = useCallback((args) => saveResultRaw({ ...args, subject }), [saveResultRaw, subject])
   const masteryPct = useCallback((topic) => masteryPctRaw(topic, subject), [masteryPctRaw, subject])
+  const isMastered = useCallback((topic) => isMasteredRaw(topic, subject), [isMasteredRaw, subject])
 
   const { streak, studiedToday, weekDays, markStudied } = useDailyStreak(user?.uid)
   const { isUnlocked, unlockHint, completedCount, totalTopics } = useUnlocks(subjectHistory, TOPIC_ORDER)
@@ -234,7 +235,8 @@ export default function App() {
     const pct     = Math.round((correct / result.total) * 100)
     saveResult({ topic: activeTopic, score: result.score, total: result.total, correct, pct })
     markStudied()
-    const xpEarned = Math.max(correct * 10, Math.round(result.score / 10))
+    // `score` is now denominated in XP (speed + streak baked in), so it IS the payout.
+    const xpEarned = Math.round(result.score)
     earnXP(xpEarned)
     logActivity({ type: 'quiz', label: `scored ${pct}% on ${activeTopic ?? 'All Topics'}`, emoji: pct >= 85 ? '🏆' : pct >= 65 ? '✅' : '📝', xp: xpEarned })
     if (user?.isAnonymous) setShowUpgrade(true)
@@ -339,6 +341,7 @@ export default function App() {
           studiedToday={studiedToday}
           weekDays={weekDays}
           masteryPct={masteryPct}
+          isMastered={isMastered}
           isUnlocked={isUnlocked}
           unlockHint={unlockHint}
           completedCount={completedCount}

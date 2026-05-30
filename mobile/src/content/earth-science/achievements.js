@@ -1,0 +1,88 @@
+import { TOPICS } from './questions'
+
+export const ACHIEVEMENTS = [
+  {
+    id: 'es_rock_hound',
+    title: 'Rock Hound',
+    description: 'Pass Geology & Rocks with 80%+',
+    icon: '🪨',
+    condition: s => s.topicsPassed?.has(TOPICS.GEOLOGY),
+  },
+  {
+    id: 'es_tectonic_titan',
+    title: 'Tectonic Titan',
+    description: 'Pass Plate Tectonics with 80%+',
+    icon: '🌋',
+    condition: s => s.topicsPassed?.has(TOPICS.PLATE_TECTONICS),
+  },
+  {
+    id: 'es_time_traveler',
+    title: 'Time Traveler',
+    description: 'Pass Geologic Time with 80%+',
+    icon: '⏳',
+    condition: s => s.topicsPassed?.has(TOPICS.GEOLOGIC_TIME),
+  },
+  {
+    id: 'es_storm_chaser',
+    title: 'Storm Chaser',
+    description: 'Pass Meteorology & Weather with 80%+',
+    icon: '🌩️',
+    condition: s => s.topicsPassed?.has(TOPICS.METEOROLOGY),
+  },
+  {
+    id: 'es_climate_scientist',
+    title: 'Climate Scientist',
+    description: 'Pass Climate & Atmosphere with 80%+',
+    icon: '🌤️',
+    condition: s => s.topicsPassed?.has(TOPICS.CLIMATE),
+  },
+  {
+    id: 'es_stargazer',
+    title: 'Stargazer',
+    description: 'Pass Astronomy with 80%+',
+    icon: '🔭',
+    condition: s => s.topicsPassed?.has(TOPICS.ASTRONOMY),
+  },
+  {
+    id: 'es_ocean_explorer',
+    title: 'Ocean Explorer',
+    description: 'Pass Water Cycle & Oceans with 80%+',
+    icon: '🌊',
+    condition: s => s.topicsPassed?.has(TOPICS.WATER_CYCLE),
+  },
+  {
+    id: 'es_cartographer',
+    title: 'Cartographer',
+    description: 'Pass Maps & Topography with 80%+',
+    icon: '🗺️',
+    condition: s => s.topicsPassed?.has(TOPICS.MAPS),
+  },
+  {
+    id: 'es_earth_scientist',
+    title: 'Earth Scientist',
+    description: 'Pass all 8 Earth Science topics',
+    icon: '🌍',
+    condition: s => s.topicsPassed?.size >= 8,
+  },
+  {
+    id: 'es_speed_geologist',
+    title: 'Speed Geologist',
+    description: 'Complete a quiz without any timeouts',
+    icon: '⚡',
+    condition: s => s.noTimeouts,
+  },
+  {
+    id: 'es_perfect_quiz',
+    title: 'Perfect Field Study',
+    description: 'Score 100% on any Earth Science quiz',
+    icon: '💯',
+    condition: s => s.perfectScore,
+  },
+  {
+    id: 'es_streak_5',
+    title: 'Consistent Geologist',
+    description: 'Maintain a 5-day study streak',
+    icon: '🔥',
+    condition: s => (s.streak ?? 0) >= 5,
+  },
+]
