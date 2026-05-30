@@ -1,4 +1,10 @@
 import { TOPICS, TOPIC_ICONS, getByTopic } from './questions'
+import physJun2023 from '../regents-exams/physics/june-2023'
+import physJun2024 from '../regents-exams/physics/june-2024'
+import physAug2024 from '../regents-exams/physics/august-2024'
+import physJun2025 from '../regents-exams/physics/june-2025'
+
+const PHYS_EXAMS = [physJun2023, physJun2024, physAug2024, physJun2025]
 
 export const UNITS = [
   { id: 'physics-u1', title: 'Mechanics & Motion',         icon: TOPIC_ICONS[TOPICS.MECHANICS],                  color: '#f59e0b', darkColor: '#d97706', topic: TOPICS.MECHANICS,                  lessonCount: 3 },
@@ -8,18 +14,26 @@ export const UNITS = [
   { id: 'physics-u5', title: 'Modern Physics',             icon: TOPIC_ICONS[TOPICS.MODERN_PHYSICS],             color: '#f59e0b', darkColor: '#d97706', topic: TOPICS.MODERN_PHYSICS,             lessonCount: 3 },
 ]
 
-const LESSON_SIZE = 10
+const LESSON_SIZE = 20
+
+function getExamPool(topic) {
+  return PHYS_EXAMS.flatMap((exam) => (exam.questions ?? []).filter((q) => q.topic === topic))
+}
 
 export function getLessonQuestions(topic, lessonIndex, lessonCount) {
-  const pool = getByTopic(topic)
-  const sorted = [...pool].sort((a, b) => a.id - b.id)
+  const practicePool = getByTopic(topic)
+  const examPool     = getExamPool(topic)
 
   if (lessonIndex >= lessonCount) {
-    return [...pool].sort(() => Math.random() - 0.5)
+    return [...practicePool, ...examPool].sort(() => Math.random() - 0.5)
   }
 
-  const chunkSize = Math.ceil(sorted.length / lessonCount)
-  const start = lessonIndex * chunkSize
-  const slice = sorted.slice(start, start + chunkSize)
-  return slice.slice(0, LESSON_SIZE)
+  const sorted = [...practicePool].sort((a, b) => a.id - b.id)
+  const pChunk = Math.ceil(sorted.length / lessonCount)
+  const practiceSlice = sorted.slice(lessonIndex * pChunk, lessonIndex * pChunk + pChunk)
+
+  const eChunk = Math.ceil(examPool.length / lessonCount)
+  const examSlice = examPool.slice(lessonIndex * eChunk, lessonIndex * eChunk + eChunk)
+
+  return [...practiceSlice, ...examSlice].sort(() => Math.random() - 0.5).slice(0, LESSON_SIZE)
 }

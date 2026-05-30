@@ -1,4 +1,28 @@
 import { TOPICS, TOPIC_ICONS, getByTopic } from './questions'
+import esAug2019 from '../regents-exams/earth-science/august-2019'
+import esJun2019 from '../regents-exams/earth-science/june-2019'
+import esAug2021 from '../regents-exams/earth-science/august-2021'
+import esJun2021 from '../regents-exams/earth-science/june-2021'
+import esAug2022 from '../regents-exams/earth-science/august-2022'
+import esJun2022 from '../regents-exams/earth-science/june-2022'
+import esAug2023 from '../regents-exams/earth-science/august-2023'
+import esJun2023 from '../regents-exams/earth-science/june-2023'
+import esAug2024 from '../regents-exams/earth-science/august-2024'
+import esJun2024 from '../regents-exams/earth-science/june-2024'
+import esJun2025 from '../regents-exams/earth-science/june-2025'
+
+const ES_EXAMS = [esAug2019, esJun2019, esAug2021, esJun2021, esAug2022, esJun2022, esAug2023, esJun2023, esAug2024, esJun2024, esJun2025]
+
+const ES_TOPIC_MAP = {
+  'Geology':         TOPICS.GEOLOGY,
+  'Plate Tectonics': TOPICS.PLATE_TECTONICS,
+  'Geologic Time':   TOPICS.GEOLOGIC_TIME,
+  'Meteorology':     TOPICS.METEOROLOGY,
+  'Climate':         TOPICS.CLIMATE,
+  'Astronomy':       TOPICS.ASTRONOMY,
+  'Water Cycle':     TOPICS.WATER_CYCLE,
+  'Maps':            TOPICS.MAPS,
+}
 
 export const UNITS = [
   { id: 'es-u1', title: 'Geology',         icon: TOPIC_ICONS[TOPICS.GEOLOGY],         color: '#92400e', darkColor: '#78350f', topic: TOPICS.GEOLOGY,         lessonCount: 3 },
@@ -11,18 +35,28 @@ export const UNITS = [
   { id: 'es-u8', title: 'Maps',            icon: TOPIC_ICONS[TOPICS.MAPS],            color: '#16a34a', darkColor: '#15803d', topic: TOPICS.MAPS,            lessonCount: 3 },
 ]
 
-const LESSON_SIZE = 10
+const LESSON_SIZE = 20
+
+function getExamPool(topic) {
+  return ES_EXAMS.flatMap((exam) =>
+    (exam.questions ?? []).filter((q) => ES_TOPIC_MAP[q.topic] === topic)
+  )
+}
 
 export function getLessonQuestions(topic, lessonIndex, lessonCount) {
-  const pool = getByTopic(topic)
-  const sorted = [...pool].sort((a, b) => a.id - b.id)
+  const practicePool = getByTopic(topic)
+  const examPool     = getExamPool(topic)
 
   if (lessonIndex >= lessonCount) {
-    return [...pool].sort(() => Math.random() - 0.5)
+    return [...practicePool, ...examPool].sort(() => Math.random() - 0.5)
   }
 
-  const chunkSize = Math.ceil(sorted.length / lessonCount)
-  const start = lessonIndex * chunkSize
-  const slice = sorted.slice(start, start + chunkSize)
-  return slice.slice(0, LESSON_SIZE)
+  const sorted = [...practicePool].sort((a, b) => a.id - b.id)
+  const pChunk = Math.ceil(sorted.length / lessonCount)
+  const practiceSlice = sorted.slice(lessonIndex * pChunk, lessonIndex * pChunk + pChunk)
+
+  const eChunk = Math.ceil(examPool.length / lessonCount)
+  const examSlice = examPool.slice(lessonIndex * eChunk, lessonIndex * eChunk + eChunk)
+
+  return [...practiceSlice, ...examSlice].sort(() => Math.random() - 0.5).slice(0, LESSON_SIZE)
 }

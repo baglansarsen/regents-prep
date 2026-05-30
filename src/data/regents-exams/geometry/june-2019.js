@@ -27,7 +27,7 @@ export default {
     { number: 19, part: 'A', text: 'If two parallel lines are cut by a transversal, co-interior (same-side interior) angles are', choices: ['Congruent', 'Supplementary', 'Complementary', 'Vertical'], topic: 'Congruence & Transformations', correct: 1 },
     { number: 20, part: 'A', text: 'Which set of side lengths can form a triangle?', choices: ['1, 2, 3', '5, 7, 13', '6, 8, 10', '3, 4, 8'], topic: 'Similarity & Proof', correct: 2 },
     { number: 21, part: 'A', text: 'In a circle, two chords AB and CD intersect at point E. AE = 4, EB = 9, CE = 6. What is ED?', choices: ['4', '5', '6', '7'], topic: 'Circles', correct: 2 },
-    { number: 22, part: 'A', text: 'The vertices of △ABC are A(0, 0), B(8, 0), C(4, 6). Which point is the circumcenter?', choices: ['(4, 2)', '(4, 3)', '(4, 2.5)', '(4, 13/6)'], topic: 'Coordinate Geometry', correct: 3 },
+    { number: 22, part: 'A', text: 'The vertices of △ABC are A(0, 0), B(8, 0), C(4, 6). Which point is the circumcenter?', choices: ['(4, 5/3)', '(4, 7/3)', '(4, 3)', '(4, 8/3)'], topic: 'Coordinate Geometry', correct: 0 },
     { number: 23, part: 'A', text: 'A cylinder has radius r and height h. If both are doubled, by what factor is the volume multiplied?', choices: ['2', '4', '6', '8'], topic: '3D Geometry & Volume', correct: 3 },
     { number: 24, part: 'A', text: 'In △ABC with angle B = 90°, angle A = 36°, and BC = 7. Find AB to the nearest tenth.', choices: ['5.1', '9.6', '8.6', '11.9'], topic: 'Trigonometry', correct: 1 },
   ]
