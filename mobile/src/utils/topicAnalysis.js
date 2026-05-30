@@ -1,5 +1,5 @@
 import { LE_TOPIC_KEYWORDS, ES_TOPIC_KEYWORDS } from '../data/topicKeywords'
-import { SUBJECTS } from '../../../src/data/subjects'
+import { SUBJECTS } from '../content/subjects'
 
 /**
  * Returns the best-matching topic name for a question, or 'General Review'.

@@ -3,10 +3,10 @@ import { View, Text, TouchableOpacity, ScrollView, Animated, StyleSheet, Dimensi
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
-import { useSpacedRepetition, Q_AGAIN, Q_GOOD, Q_EASY, nextReviewLabel } from '../hooks/useSpacedRepetition'
-import * as leData from '../../../src/data/living-environment/index'
-import * as esData from '../../../src/data/earth-science/index'
-import { SUBJECTS } from '../../../src/data/subjects'
+import { useSpacedRepetition, Q_AGAIN, Q_HARD, Q_GOOD, Q_EASY, nextReviewLabel } from '../hooks/useSpacedRepetition'
+import * as leData from '../content/living-environment/index'
+import * as esData from '../content/earth-science/index'
+import { SUBJECTS } from '../content/subjects'
 
 const { width } = Dimensions.get('window')
 
@@ -103,9 +103,13 @@ export default function FlashcardScreen({ route, navigation }) {
             <Text style={s.ratingIcon}>😟</Text>
             <Text style={[s.ratingLabel, { color: C.wrong }]}>Again</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={[s.ratingBtn, { backgroundColor: C.warnBg, borderColor: C.warn }]} onPress={() => rate(Q_GOOD)}>
+          <TouchableOpacity style={[s.ratingBtn, { backgroundColor: '#FF960022', borderColor: '#FF9600' }]} onPress={() => rate(Q_HARD)}>
+            <Text style={s.ratingIcon}>😕</Text>
+            <Text style={[s.ratingLabel, { color: '#FF9600' }]}>Hard</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={[s.ratingBtn, { backgroundColor: '#1CB0F622', borderColor: '#1CB0F6' }]} onPress={() => rate(Q_GOOD)}>
             <Text style={s.ratingIcon}>🙂</Text>
-            <Text style={[s.ratingLabel, { color: C.warn }]}>Good</Text>
+            <Text style={[s.ratingLabel, { color: '#1CB0F6' }]}>Good</Text>
           </TouchableOpacity>
           <TouchableOpacity style={[s.ratingBtn, { backgroundColor: C.correctBg, borderColor: C.correct }]} onPress={() => rate(Q_EASY)}>
             <Text style={s.ratingIcon}>😄</Text>
@@ -135,10 +139,10 @@ function makeStyles(C) {
     cardDefinition:{ fontSize: 17, color: C.text, textAlign: 'center', lineHeight: 26 },
     cardExample:   { marginTop: 16, fontSize: 13, color: C.textMuted, fontStyle: 'italic', textAlign: 'center' },
     nextReview:    { position: 'absolute', bottom: 20, fontSize: 12, color: C.textDim },
-    ratingRow:     { flexDirection: 'row', gap: 12, padding: 20, paddingTop: 12 },
-    ratingBtn:     { flex: 1, alignItems: 'center', padding: 14, borderRadius: 14, borderWidth: 1.5 },
-    ratingIcon:    { fontSize: 24 },
-    ratingLabel:   { fontSize: 12, fontWeight: '700', marginTop: 4 },
+    ratingRow:     { flexDirection: 'row', gap: 8, padding: 16, paddingTop: 12 },
+    ratingBtn:     { flex: 1, alignItems: 'center', paddingVertical: 12, paddingHorizontal: 4, borderRadius: 14, borderWidth: 1.5 },
+    ratingIcon:    { fontSize: 22 },
+    ratingLabel:   { fontSize: 11, fontWeight: '700', marginTop: 4 },
     empty:         { flex: 1, justifyContent: 'center', alignItems: 'center', gap: 12 },
     emptyText:     { fontSize: 28 },
     emptySubtext:  { fontSize: 16, color: C.textMuted },

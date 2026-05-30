@@ -1,8 +1,11 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 
 const TIMER_SECONDS = 30
-const BASE_POINTS = 100
-const SPEED_BONUS_MAX = 50
+// Points are denominated directly in XP so the score the student watches climb
+// IS what they earn. Baseline 10/correct matches the old payout; speed + streak
+// multipliers push it higher, so being fast and accurate now actually pays.
+const BASE_POINTS = 10
+const SPEED_BONUS_MAX = 5
 
 function streakMultiplier(streak) {
   if (streak >= 5) return 2.0

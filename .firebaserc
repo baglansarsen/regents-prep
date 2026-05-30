@@ -7,6 +7,9 @@
       "hosting": {
         "regents": [
           "regents-prep"
+        ],
+        "mobile-web": [
+          "regents-prep-mobile"
         ]
       }
     }

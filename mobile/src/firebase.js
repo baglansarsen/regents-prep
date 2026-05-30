@@ -4,7 +4,7 @@ import { initializeAuth, GoogleAuthProvider } from 'firebase/auth'
 // default in React Native — Metro's main-field resolution lands on the Node
 // bundle. Import the RN variant directly to guarantee it's available.
 import { getReactNativePersistence } from '@firebase/auth/dist/rn'
-import { getFirestore } from 'firebase/firestore'
+import { initializeFirestore, persistentLocalCache } from 'firebase/firestore'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 
 const firebaseConfig = {
@@ -23,4 +23,6 @@ export const auth = initializeAuth(app, {
 })
 
 export const googleProvider = new GoogleAuthProvider()
-export const db = getFirestore(app)
+export const db = initializeFirestore(app, {
+  localCache: persistentLocalCache({}),
+})

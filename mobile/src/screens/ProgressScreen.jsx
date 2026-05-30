@@ -7,9 +7,9 @@ import { useSubject } from '../context/SubjectContext'
 import { useProgress } from '../hooks/useProgress'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useXP, getLevel, LEVELS } from '../hooks/useXP'
-import { SUBJECTS } from '../../../src/data/subjects'
-import * as leData from '../../../src/data/living-environment/index'
-import * as esData from '../../../src/data/earth-science/index'
+import { SUBJECTS } from '../content/subjects'
+import * as leData from '../content/living-environment/index'
+import * as esData from '../content/earth-science/index'
 import { T, cardShadow, duoBtn } from '../styles/duo'
 
 export default function ProgressScreen({ navigation }) {
@@ -20,7 +20,7 @@ export default function ProgressScreen({ navigation }) {
   const { subject } = useSubject()
   const sd = subject === SUBJECTS.EARTH_SCIENCE ? esData : leData
 
-  const { history, masteryPct } = useProgress(uid)
+  const { history, masteryPct, isMastered } = useProgress(uid)
   const { streak, weekDays, studiedToday } = useDailyStreak(uid)
   const { xp, level, spendXP } = useXP(uid)
 
@@ -99,7 +99,7 @@ export default function ProgressScreen({ navigation }) {
           {[
             { num: totalQuizzes, label: 'Quizzes' },
             { num: `${avgPct}%`, label: 'Avg Score' },
-            { num: sd.TOPIC_ORDER.filter((t) => (masteryPct(t, subject) ?? 0) >= 85).length, label: 'Mastered' },
+            { num: sd.TOPIC_ORDER.filter((t) => isMastered(t, subject)).length, label: 'Mastered' },
           ].map(({ num, label }) => (
             <View key={label} style={[s.statCard, cardShadow(C.shadow)]}>
               <Text style={[T.num, { color: C.brand, fontSize: 28 }]}>{num}</Text>
@@ -114,7 +114,7 @@ export default function ProgressScreen({ navigation }) {
         </Text>
         {sd.TOPIC_ORDER.map((topic) => {
           const pct     = masteryPct(topic, subject)
-          const mastered = pct !== null && pct >= 85
+          const mastered = isMastered(topic, subject)
           const passing  = pct !== null && pct >= 65
           const barColor = mastered ? C.correct : passing ? C.warn : C.wrong
           return (

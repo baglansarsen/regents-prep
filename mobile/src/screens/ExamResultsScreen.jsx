@@ -4,11 +4,15 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { analyzeExamResults } from '../utils/topicAnalysis'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
-import * as leData from '../../../src/data/living-environment/index'
-import * as esData from '../../../src/data/earth-science/index'
-import { SUBJECTS } from '../../../src/data/subjects'
+import * as leData from '../content/living-environment/index'
+import * as esData from '../content/earth-science/index'
+import { SUBJECTS } from '../content/subjects'
 
-// NY Regents scaled score tables (simplified — 85 minutes, 50 MC)
+// ⚠️ ESTIMATE ONLY — not an official NY Regents conversion.
+// Real Regents charts are non-linear, published per administration, and the
+// actual exam includes constructed-response/lab credits this MC-only practice
+// run can't capture. We surface this as a study estimate and label it as such
+// in the UI (see disclaimer below) so a student isn't misled near the 65 line.
 function getScaledScore(rawScore, total = 50) {
   const pct = rawScore / total
   if (pct >= 0.92) return 100
@@ -121,6 +125,11 @@ export default function ExamResultsScreen({ route, navigation }) {
               <Text style={[T.h3, { color: valueColor }]}>{value}</Text>
             </View>
           ))}
+          <Text style={[T.small, { color: C.textDim, marginTop: 10, lineHeight: 16 }]}>
+            ⚠️ Estimated score based on multiple-choice only. The official Regents
+            conversion changes each exam and also counts written/lab responses, so
+            your real result may differ.
+          </Text>
         </View>
 
         {/* ── 📊 STUDY PLAN ── */}

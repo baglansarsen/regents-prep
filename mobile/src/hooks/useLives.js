@@ -9,8 +9,31 @@ const REFILL_MS      = 30 * 60 * 1000   // 30 minutes
 const KEY_LIVES      = '@lives'
 const KEY_REFILL_AT  = '@livesNextRefillAt'
 
-function nowISO() { return new Date().toISOString() }
-function msUntil(iso) { return new Date(iso).getTime() - Date.now() }
+/**
+ * Grant every life that has accrued since `nextRefillAt`, not just one.
+ * Lives regenerate one per REFILL_MS on a fixed schedule anchored at the
+ * first due time, so a player who's been away for hours catches up fully.
+ *
+ * Returns the caught-up { lives, nextRefillAt }. nextRefillAt is advanced to
+ * the next not-yet-due boundary (or null once the player is back at MAX).
+ */
+function catchUpRefills(lives, nextRefillAt) {
+  if (lives >= MAX_LIVES) return { lives: MAX_LIVES, nextRefillAt: null }
+  if (!nextRefillAt) return { lives, nextRefillAt: null }
+
+  const now = Date.now()
+  const due = new Date(nextRefillAt).getTime()
+  if (isNaN(due) || now < due) return { lives, nextRefillAt }   // next life not due yet
+
+  // The life due at `due` is earned, plus one for every full interval since.
+  const accrued = 1 + Math.floor((now - due) / REFILL_MS)
+  const gained  = Math.min(accrued, MAX_LIVES - lives)
+  const newLives = lives + gained
+  const newRefill = newLives < MAX_LIVES
+    ? new Date(due + gained * REFILL_MS).toISOString()   // next un-earned boundary
+    : null
+  return { lives: newLives, nextRefillAt: newRefill }
+}
 
 async function save(uid, lives, nextRefillAt) {
   try {
@@ -45,9 +68,12 @@ export function useLives(uid, isSubscribed = false) {
           if (snap.exists()) {
             const d = snap.data()
             if (d.lives !== undefined) {
-              livesRef.current = d.lives
-              setLives(d.lives)
-              setNextRefillAt(d.nextRefillAt ?? null)
+              const { lives: lv, nextRefillAt: ra } = catchUpRefills(d.lives, d.nextRefillAt ?? null)
+              livesRef.current = lv
+              setLives(lv)
+              setNextRefillAt(ra)
+              refillRef.current = ra
+              if (lv !== d.lives) await save(uid, lv, ra)   // persist offline accrual
               return
             }
           }
@@ -55,11 +81,14 @@ export function useLives(uid, isSubscribed = false) {
       }
       // Fallback: AsyncStorage
       try {
-        const [lv, ra] = await AsyncStorage.multiGet([KEY_LIVES, KEY_REFILL_AT])
-        const lNum = lv[1] ? parseInt(lv[1]) : MAX_LIVES
-        livesRef.current = lNum
-        setLives(lNum)
-        setNextRefillAt(ra[1] ?? null)
+        const [lvPair, raPair] = await AsyncStorage.multiGet([KEY_LIVES, KEY_REFILL_AT])
+        const storedLives = lvPair[1] ? parseInt(lvPair[1]) : MAX_LIVES
+        const { lives: lv, nextRefillAt: ra } = catchUpRefills(storedLives, raPair[1] ?? null)
+        livesRef.current = lv
+        setLives(lv)
+        setNextRefillAt(ra)
+        refillRef.current = ra
+        if (lv !== storedLives) await save(uid_ref.current, lv, ra)
       } catch (_) {}
     }
     load()
@@ -69,12 +98,9 @@ export function useLives(uid, isSubscribed = false) {
   useEffect(() => {
     const tick = async () => {
       if (livesRef.current >= MAX_LIVES || !refillRef.current) return
-      const waitMs = msUntil(refillRef.current)
-      if (waitMs <= 0) {
-        const newLives = Math.min(livesRef.current + 1, MAX_LIVES)
-        const newRefill = newLives < MAX_LIVES
-          ? new Date(Date.now() + REFILL_MS).toISOString()
-          : null
+      const { lives: newLives, nextRefillAt: newRefill } =
+        catchUpRefills(livesRef.current, refillRef.current)
+      if (newLives !== livesRef.current) {
         livesRef.current = newLives
         setLives(newLives)
         setNextRefillAt(newRefill)
@@ -83,7 +109,7 @@ export function useLives(uid, isSubscribed = false) {
       }
     }
 
-    const id = setInterval(tick, 60_000)
+    const id = setInterval(tick, 30_000)   // lives refill every 30 min; check every 30 s
     tick()  // check immediately too
     return () => clearInterval(id)
   }, [])

@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "752904748328-bocnvbrb1ftpo6j7d344itm1klsoijaa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.regentify.app",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
           "client_id": "752904748328-5areedgem0c4na3cuihfliraskr8vlrt.apps.googleusercontent.com",
           "client_type": 3
         }

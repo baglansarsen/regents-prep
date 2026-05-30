@@ -1,0 +1,191 @@
+import { TOPICS } from './questions'
+
+export const ACHIEVEMENTS = [
+  // ── Getting Started ───────────────────────────────────────────────────────
+  {
+    id: 'first_quiz',
+    name: 'First Step',
+    emoji: '🎯',
+    description: 'Complete your first quiz',
+    tier: 'bronze',
+    condition: (s) => s.totalQuizzes >= 1,
+  },
+  {
+    id: 'know_thyself',
+    name: 'Know Thyself',
+    emoji: '🔍',
+    description: 'Complete a diagnostic',
+    tier: 'bronze',
+    condition: (s) => s.diagCount >= 1,
+  },
+  {
+    id: 'test_taker',
+    name: 'Test Taker',
+    emoji: '📝',
+    description: 'Complete a practice test',
+    tier: 'bronze',
+    condition: (s) => s.practiceTestCount >= 1,
+  },
+
+  // ── Volume ────────────────────────────────────────────────────────────────
+  {
+    id: 'q50',
+    name: 'Curious Mind',
+    emoji: '📖',
+    description: 'Answer 50 questions',
+    tier: 'bronze',
+    condition: (s) => s.totalAnswered >= 50,
+  },
+  {
+    id: 'q200',
+    name: 'Scholar',
+    emoji: '📚',
+    description: 'Answer 200 questions',
+    tier: 'silver',
+    condition: (s) => s.totalAnswered >= 200,
+  },
+  {
+    id: 'q500',
+    name: 'Question Machine',
+    emoji: '🤖',
+    description: 'Answer 500 questions',
+    tier: 'gold',
+    condition: (s) => s.totalAnswered >= 500,
+  },
+
+  // ── Score ─────────────────────────────────────────────────────────────────
+  {
+    id: 'passing',
+    name: 'Passing Grade',
+    emoji: '✅',
+    description: 'Score 65%+ on any quiz',
+    tier: 'bronze',
+    condition: (s) => s.bestPct >= 65,
+  },
+  {
+    id: 'mastery',
+    name: 'Mastery',
+    emoji: '🏆',
+    description: 'Score 85%+ on any quiz',
+    tier: 'silver',
+    condition: (s) => s.bestPct >= 85,
+  },
+  {
+    id: 'perfect',
+    name: 'Perfectionist',
+    emoji: '💯',
+    description: 'Score 100% on any quiz',
+    tier: 'gold',
+    condition: (s) => s.perfectQuizzes >= 1,
+  },
+  {
+    id: 'regents_pass',
+    name: 'Regents Ready',
+    emoji: '🎓',
+    description: 'Score 65%+ on a practice test',
+    tier: 'gold',
+    condition: (s) => s.practiceTestBest >= 65,
+  },
+
+  // ── Streak ────────────────────────────────────────────────────────────────
+  {
+    id: 'streak3',
+    name: 'On Fire',
+    emoji: '🔥',
+    description: '3-day study streak',
+    tier: 'bronze',
+    condition: (s) => s.streak >= 3,
+  },
+  {
+    id: 'streak7',
+    name: 'Week Warrior',
+    emoji: '⚡',
+    description: '7-day study streak',
+    tier: 'silver',
+    condition: (s) => s.streak >= 7,
+  },
+  {
+    id: 'streak14',
+    name: 'Dedicated',
+    emoji: '🌟',
+    description: '14-day study streak',
+    tier: 'gold',
+    condition: (s) => s.streak >= 14,
+  },
+
+  // ── XP ────────────────────────────────────────────────────────────────────
+  {
+    id: 'xp500',
+    name: 'XP Hunter',
+    emoji: '💫',
+    description: 'Earn 500 XP',
+    tier: 'silver',
+    condition: (s) => s.xp >= 500,
+  },
+  {
+    id: 'xp2000',
+    name: 'XP Master',
+    emoji: '💎',
+    description: 'Earn 2,000 XP',
+    tier: 'gold',
+    condition: (s) => s.xp >= 2000,
+  },
+
+  // ── Topic Mastery ─────────────────────────────────────────────────────────
+  {
+    id: 'cell_pass',
+    name: 'Cell Biologist',
+    emoji: '🔬',
+    description: 'Pass Cell Biology (65%+)',
+    tier: 'silver',
+    condition: (s) => s.topicsPassed.has(TOPICS.CELL_BIOLOGY),
+  },
+  {
+    id: 'genetics_pass',
+    name: 'Geneticist',
+    emoji: '🧬',
+    description: 'Pass Genetics & Heredity (65%+)',
+    tier: 'silver',
+    condition: (s) => s.topicsPassed.has(TOPICS.GENETICS),
+  },
+  {
+    id: 'evolution_pass',
+    name: 'Evolutionist',
+    emoji: '🦕',
+    description: 'Pass Evolution (65%+)',
+    tier: 'silver',
+    condition: (s) => s.topicsPassed.has(TOPICS.EVOLUTION),
+  },
+  {
+    id: 'ecology_pass',
+    name: 'Ecologist',
+    emoji: '🌿',
+    description: 'Pass Ecology (65%+)',
+    tier: 'silver',
+    condition: (s) => s.topicsPassed.has(TOPICS.ECOLOGY),
+  },
+  {
+    id: 'body_pass',
+    name: 'Body Expert',
+    emoji: '🫀',
+    description: 'Pass Human Body Systems (65%+)',
+    tier: 'silver',
+    condition: (s) => s.topicsPassed.has(TOPICS.HUMAN_BODY),
+  },
+  {
+    id: 'repro_pass',
+    name: 'Life Cycle Pro',
+    emoji: '🌱',
+    description: 'Pass Reproduction & Development (65%+)',
+    tier: 'silver',
+    condition: (s) => s.topicsPassed.has(TOPICS.REPRODUCTION),
+  },
+  {
+    id: 'all_topics',
+    name: 'All-Rounder',
+    emoji: '🌈',
+    description: 'Pass all 6 topics (65%+ each)',
+    tier: 'gold',
+    condition: (s) => s.topicsPassed.size >= 6,
+  },
+]

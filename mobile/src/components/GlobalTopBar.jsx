@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { View, Text, TouchableOpacity, StyleSheet, Alert, Modal } from 'react-native'
+import { View, Text, TouchableOpacity, StyleSheet, Alert, Modal, Platform } from 'react-native'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
@@ -8,7 +8,7 @@ import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useXP } from '../hooks/useXP'
 import { useLivesContext } from '../context/LivesContext'
 import { useRewardedAd } from '../hooks/useRewardedAd'
-import { SUBJECTS, SUBJECT_META } from '../../../src/data/subjects'
+import { SUBJECTS, SUBJECT_META } from '../content/subjects'
 import { useDoubleXP } from '../context/DoubleXPContext'
 import { T } from '../styles/duo'
 
@@ -118,14 +118,22 @@ export default function GlobalTopBar() {
   const subjectColor = SUBJECT_META[subject]?.color ?? '#16a34a'
   const s = makeStyles(insets.top, subjectColor)
 
-  const activeMeta = SUBJECT_META[subject]
+  const activeMeta = SUBJECT_META[subject] ?? SUBJECT_META['living-environment']
+
   const barTop = insets.top + 48
 
   return (
     <View style={s.bar}>
 
       {/* Subject dropdown button */}
-      <TouchableOpacity style={s.subjectBtn} onPress={() => setDropdownOpen(true)} activeOpacity={0.75}>
+      <TouchableOpacity
+        style={s.subjectBtn}
+        onPress={() => setDropdownOpen(true)}
+        activeOpacity={0.75}
+        accessibilityLabel={`Select Subject. Current subject is ${activeMeta.name}`}
+        accessibilityRole="button"
+        accessibilityHint="Opens a menu to switch between Living Environment, Earth Science, Chemistry, Physics, Algebra, and Geometry subjects."
+      >
         <Text style={s.subjectBtnText}>
           {activeMeta.icon} {activeMeta.shortName ?? activeMeta.name.slice(0, 2).toUpperCase()}
         </Text>
@@ -136,7 +144,14 @@ export default function GlobalTopBar() {
       <View style={s.stats}>
 
         {/* 🔥 Streak */}
-        <TouchableOpacity style={s.stat} onPress={handleStreakTap} activeOpacity={0.75}>
+        <TouchableOpacity
+          style={s.stat}
+          onPress={handleStreakTap}
+          activeOpacity={0.75}
+          accessibilityLabel={`${streak} day study streak`}
+          accessibilityRole="button"
+          accessibilityHint={hasFreeze ? "Your streak is protected today by a active streak freeze. Tap to see protection details." : "Tap to buy a streak freeze protection for 200 XP."}
+        >
           <View style={s.streakRow}>
             <Text style={s.statText}>🔥 {streak}</Text>
             {hasFreeze && (
@@ -148,7 +163,12 @@ export default function GlobalTopBar() {
         </TouchableOpacity>
 
         {/* ⭐ XP */}
-        <View style={s.stat}>
+        <View
+          style={s.stat}
+          accessibilityLabel={`${xp} experience points earned`}
+          accessibilityRole="text"
+          accessibilityHint={boostActive ? `Double XP boost is active with ${Math.floor(boostTimeLeft / 60)} minutes left.` : ""}
+        >
           <View style={s.xpRow}>
             <Text style={s.statText}>
               ⭐ {xp >= 1000 ? `${(xp / 1000).toFixed(1)}k` : xp}
@@ -165,11 +185,22 @@ export default function GlobalTopBar() {
 
         {/* ❤️ Lives */}
         {isSubscribed ? (
-          <View style={s.stat}>
+          <View
+            style={s.stat}
+            accessibilityLabel="Unlimited lives subscription active"
+            accessibilityRole="text"
+          >
             <Text style={s.statText}>♾️ ❤️</Text>
           </View>
         ) : (
-          <TouchableOpacity style={s.stat} onPress={handleLivesTap} activeOpacity={0.8}>
+          <TouchableOpacity
+            style={s.stat}
+            onPress={handleLivesTap}
+            activeOpacity={0.8}
+            accessibilityLabel={`${lives} out of ${maxLives} lives remaining`}
+            accessibilityRole="button"
+            accessibilityHint={lives < maxLives ? `Next life refills in ${formatRefillTime(nextRefillAt)}. Tap to refill lives instantly using XP or watch a rewarded ad.` : "Your lives are fully charged."}
+          >
             <Text style={s.statText}>
               {'❤️'.repeat(lives)}{'🖤'.repeat(maxLives - lives)}
               {lives < maxLives && secsUntilRefill > 0 ? `  ${formatSecs(secsUntilRefill)}` : ''}
@@ -227,12 +258,32 @@ function makeStyles(topInset, subjectColor) {
       height:            topInset + 48,
     },
 
-    subjectBtn:     { flexDirection: 'row', alignItems: 'center', gap: 5, backgroundColor: 'rgba(255,255,255,0.18)', paddingHorizontal: 12, paddingVertical: 6, borderRadius: 20 },
+    subjectBtn:     {
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 5,
+      backgroundColor: 'rgba(255,255,255,0.18)',
+      paddingHorizontal: 12,
+      paddingVertical: 6,
+      borderRadius: 14,
+      ...(Platform.OS === 'web' ? { backdropFilter: 'blur(16px)' } : {}),
+    },
     subjectBtnText: { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#fff' },
     chevron:        { fontSize: 10, color: 'rgba(255,255,255,0.85)' },
 
-    stats:       { flexDirection: 'row', alignItems: 'center', gap: 10 },
-    stat:        { alignItems: 'center' },
+    stats:       { flexDirection: 'row', alignItems: 'center', gap: 8 },
+    stat:        {
+      flexDirection:  'row',
+      alignItems:     'center',
+      justifyContent: 'center',
+      backgroundColor: 'rgba(0,0,0,0.18)',
+      borderRadius:   14,
+      paddingHorizontal: 12,
+      paddingVertical: 6,
+      borderWidth:    1,
+      borderColor:    'rgba(255,255,255,0.08)',
+      ...(Platform.OS === 'web' ? { backdropFilter: 'blur(16px)' } : {}),
+    },
     statText:    { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#fff' },
 
     streakRow:   { flexDirection: 'row', alignItems: 'center', gap: 4 },

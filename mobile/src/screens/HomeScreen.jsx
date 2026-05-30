@@ -1,7 +1,7 @@
 import React, { useMemo, useState, useRef, useCallback, useEffect } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, StyleSheet,
-  Dimensions, Alert, Animated, Modal,
+  Dimensions, Alert, Animated, Modal, Platform,
 } from 'react-native'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { SafeAreaView } from 'react-native-safe-area-context'
@@ -17,16 +17,16 @@ import { useMistakes } from '../hooks/useMistakes'
 import { useLessonProgress } from '../hooks/useLessonProgress'
 import { useUnitUnlocks } from '../hooks/useUnitUnlocks'
 import { useFocusEffect } from '@react-navigation/native'
-import { SUBJECTS } from '../../../src/data/subjects'
-import * as leData from '../../../src/data/living-environment/index'
-import * as esData from '../../../src/data/earth-science/index'
-import * as chemData from '../../../src/data/chemistry/index'
-import * as physicsData from '../../../src/data/physics/index'
-import * as algebra1Data from '../../../src/data/algebra-1/index'
-import * as algebra2Data from '../../../src/data/algebra-2/index'
-import * as geometryData from '../../../src/data/geometry/index'
-import { STRATEGY_CATEGORIES } from '../../../src/data/strategies-meta'
-import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
+import { SUBJECTS } from '../content/subjects'
+import * as leData from '../content/living-environment/index'
+import * as esData from '../content/earth-science/index'
+import * as chemData from '../content/chemistry/index'
+import * as physicsData from '../content/physics/index'
+import * as algebra1Data from '../content/algebra-1/index'
+import * as algebra2Data from '../content/algebra-2/index'
+import * as geometryData from '../content/geometry/index'
+import { STRATEGY_CATEGORIES } from '../content/strategies-meta'
+import { T, duoBtn, duoBtnOutline, cardShadow, elevatedCard, sectionLabel } from '../styles/duo'
 import GoalRing from '../components/GoalRing'
 import UnitBanner from '../components/UnitBanner'
 import PetWidget from '../components/PetWidget'
@@ -35,6 +35,7 @@ import PetTriviaCard from '../components/PetTriviaCard'
 import { usePetContext } from '../context/PetContext'
 import { useSpeechContext, loadDailyMessage } from '../context/SpeechContext'
 import { FOOD_ITEMS } from '../data/petConfig'
+import PlacementTestScreen from './PlacementTestScreen'
 
 const MILESTONE_GIFTS = {
   3:  { xp: 100,  items: {},                       label: '100 ⭐ XP!' },
@@ -43,12 +44,18 @@ const MILESTONE_GIFTS = {
   30: { xp: 1000, items: { sushi: 1, glowAura: 1 }, label: '1000 ⭐ XP + 🍣 Sushi + ✨ Glow Aura!' },
 }
 
-const { width } = Dimensions.get('window')
+const W_RAW = Dimensions.get('window').width
+const width = Platform.OS === 'web' ? Math.min(Math.max(W_RAW || 360, 320), 480) : W_RAW
 const NODE_SIZE = 84
 const ZIGZAG   = 72
 
 export default function HomeScreen({ navigation }) {
-  const { C } = useTheme()
+  const { C, isDark } = useTheme()
+  const glassStyle = Platform.OS === 'web' ? {
+    backdropFilter: 'blur(24px)',
+    backgroundColor: isDark ? 'rgba(31, 41, 55, 0.7)' : 'rgba(255, 255, 255, 0.7)',
+    borderColor: isDark ? 'rgba(255, 255, 255, 0.12)' : 'rgba(0, 0, 0, 0.08)',
+  } : {}
   const { user } = useAuthContext()
   const uid = user?.uid
 
@@ -127,9 +134,35 @@ export default function HomeScreen({ navigation }) {
   const [milestoneModal,  setMilestoneModal]   = useState(null)
   const [tipsUnit,        setTipsUnit]         = useState(null)
   const [expandedTip,     setExpandedTip]      = useState(null)
+
+  // ── Placement test — triggered before the user's first lesson ────────────
+  const [placementDone,   setPlacementDone]   = useState(null)   // null = loading
+  const [showPlacement,   setShowPlacement]   = useState(false)
+  const [pendingLesson,   setPendingLesson]   = useState(null)
+
+  useEffect(() => {
+    if (!uid) return
+    if (user?.isAnonymous) { setPlacementDone(true); return }
+    AsyncStorage.getItem(`@placementDone_v1_${uid}`)
+      .then((val) => setPlacementDone(!!val))
+      .catch(() => setPlacementDone(true))  // fail open — don't block lessons
+  }, [uid])
+
   const sheetAnim     = useRef(new Animated.Value(400)).current
   const goalSheetAnim = useRef(new Animated.Value(400)).current
   const tipsAnim      = useRef(new Animated.Value(400)).current
+  const pulseNodeAnim = useRef(new Animated.Value(1)).current
+
+  useEffect(() => {
+    const loop = Animated.loop(
+      Animated.sequence([
+        Animated.timing(pulseNodeAnim, { toValue: 1.1, duration: 750, useNativeDriver: true }),
+        Animated.timing(pulseNodeAnim, { toValue: 1,   duration: 750, useNativeDriver: true }),
+      ])
+    )
+    loop.start()
+    return () => loop.stop()
+  }, [])
 
   // ── Idle speech — fires every 4–8 min while home screen is active ────────
   const subjectName = {
@@ -225,8 +258,23 @@ export default function HomeScreen({ navigation }) {
     )
   }
 
+  // ── Placement test completion ────────────────────────────────────────────
+  function handlePlacementComplete() {
+    setShowPlacement(false)
+    setPlacementDone(true)
+    const p = pendingLesson
+    setPendingLesson(null)
+    if (p) startLesson(p.unit, p.lessonIndex, true)  // bypassPlacement — resume the tapped lesson
+  }
+
   // ── Quiz / Flashcards ────────────────────────────────────────────────────
-  function startLesson(unit, lessonIndex) {
+  function startLesson(unit, lessonIndex, bypassPlacement = false) {
+    // Show placement test once before the user's first lesson
+    if (!bypassPlacement && placementDone === false && !user?.isAnonymous) {
+      setPendingLesson({ unit, lessonIndex })
+      closeSheet(() => setShowPlacement(true))
+      return
+    }
     const isChallenge = lessonIndex === unit.lessonCount
     const unitIdx = units.findIndex((u) => u.id === unit.id)
     const nextUnit = isChallenge && unitIdx >= 0 ? units[unitIdx + 1] : null
@@ -289,8 +337,8 @@ export default function HomeScreen({ navigation }) {
   }
 
   function startSkipChallenge(unit, unitIdx) {
-    const pool = sd.getByTopic(unit.topic).sort(() => Math.random() - 0.5).slice(0, 15)
     const prev = units[unitIdx - 1]
+    const pool = sd.getByTopic(prev?.topic ?? unit.topic).sort(() => Math.random() - 0.5).slice(0, 15)
     navigation.navigate('SkipChallenge', {
       topic: unit.topic,
       prereqTopic: prev?.topic ?? unit.topic,
@@ -352,6 +400,18 @@ export default function HomeScreen({ navigation }) {
     }
   })
 
+  // ── First unlocked+incomplete path node (for pulse indicator) ─────────────
+  let firstActiveKey = null
+  for (const item of pathItems) {
+    if (item.type !== 'lesson') continue
+    const { unit, unitIdx, lessonIndex } = item
+    if (!isUnitUnlocked(unitIdx)) continue
+    if (!isLessonUnlocked(unit, lessonIndex)) continue
+    if (lessonComplete(unit.topic, lessonIndex)) continue
+    firstActiveKey = `${unit.id}-l${lessonIndex}`
+    break
+  }
+
   // Zigzag counter uses only lesson nodes
   let lessonNodeCount = 0
 
@@ -382,16 +442,20 @@ export default function HomeScreen({ navigation }) {
         {/* Week streak dots */}
         <View style={s.weekRow}>
           {weekDays.map((d) => (
-            <View
-              key={d.date}
-              style={[
-                s.dayDot,
-                d.studied   && { backgroundColor: C.brand, borderColor: C.brandDark },
-                d.isToday   && { borderColor: C.brandLight, borderWidth: 2.5 },
-              ]}
-            >
-              <Text style={[T.label, { color: d.studied ? '#fff' : C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>
-                {d.dayLabel[0]}
+            <View key={d.date} style={{ alignItems: 'center', gap: 4 }}>
+              <View
+                style={[
+                  s.dayDot,
+                  d.studied   && { backgroundColor: C.brand, borderColor: C.brandDark },
+                  d.isToday   && { borderColor: C.brandLight, borderWidth: 2.5 },
+                ]}
+              >
+                <Text style={[T.label, { color: d.studied ? '#fff' : C.textMuted, textTransform: 'none', letterSpacing: 0, fontSize: 14 }]}>
+                  {d.studied ? '✓' : d.dayLabel[0]}
+                </Text>
+              </View>
+              <Text style={[T.label, { color: d.isToday ? C.brand : C.textDim, fontSize: 9, textTransform: 'none', letterSpacing: 0 }]}>
+                {d.dayLabel.slice(0, 3)}
               </Text>
             </View>
           ))}
@@ -399,7 +463,7 @@ export default function HomeScreen({ navigation }) {
 
         {/* Daily Goal Ring */}
         <TouchableOpacity
-          style={[s.goalCard, cardShadow(C.shadow)]}
+          style={[s.goalCard, elevatedCard(C), glassStyle, { borderLeftWidth: 4, borderLeftColor: goalMet ? C.correct : C.brand }]}
           onPress={openGoalPicker}
           activeOpacity={0.85}
         >
@@ -435,22 +499,26 @@ export default function HomeScreen({ navigation }) {
         {/* StudyBuddy pet */}
         {pet.chosen && (
           <View style={s.petSection}>
-            <PetWidget onLongPress={() => navigation.navigate('PetShop')} />
+            <View style={s.petRow}>
+              <PetWidget size={90} onLongPress={() => navigation.navigate('PetShop')} />
+              
+              {/* Personality message */}
+              {(() => {
+                const daysSince = studiedToday ? 0 : 1
+                const msg = getPetMessage({ streak, daysSince })
+                if (!msg) return null
+                return (
+                  <View style={[s.petMsgBubble, { backgroundColor: C.surface, borderColor: C.border }, glassStyle]}>
+                    <Text style={[T.small, { color: C.text, lineHeight: 18 }]}>
+                      {msg}
+                    </Text>
+                    {/* Speech bubble pointer arrow */}
+                    <View style={[s.bubblePointer, { borderRightColor: C.surface, borderLeftColor: 'transparent' }]} />
+                  </View>
+                )
+              })()}
+            </View>
             <PetStatusBars />
-
-            {/* Personality message */}
-            {(() => {
-              const daysSince = studiedToday ? 0 : 1
-              const msg = getPetMessage({ streak, daysSince })
-              if (!msg) return null
-              return (
-                <View style={[s.petMsgCard, { backgroundColor: C.surface, borderColor: C.border }]}>
-                  <Text style={[T.small, { color: C.textMuted, fontStyle: 'italic', lineHeight: 18, textAlign: 'center' }]}>
-                    "{msg}"
-                  </Text>
-                </View>
-              )
-            })()}
 
             {/* Daily dig button */}
             <TouchableOpacity
@@ -472,7 +540,7 @@ export default function HomeScreen({ navigation }) {
 
         {/* Daily quest card */}
         {questData && pet.chosen && (
-          <View style={[s.questCard, { backgroundColor: C.surface, borderColor: C.border }]}>
+          <View style={[s.questCard, { backgroundColor: C.surface, borderColor: C.border }, glassStyle]}>
             <View style={s.questHeader}>
               <Text style={{ fontSize: 18 }}>{questData.icon}</Text>
               <Text style={[T.h3, { color: C.text, flex: 1 }]}>{questData.label}</Text>
@@ -496,6 +564,7 @@ export default function HomeScreen({ navigation }) {
         <PetTriviaCard />
 
         {/* Quick actions — 2×2 grid */}
+        <Text style={[sectionLabel(C), { paddingHorizontal: 20, marginBottom: 12 }]}>Quick Practice</Text>
         <View style={s.quickGrid}>
           <TouchableOpacity style={[s.quickBtn, duoBtn(C.brand, C.brandDark)]} onPress={() => startQuiz(null)}>
             <Text style={s.quickIcon}>⚡</Text>
@@ -525,6 +594,7 @@ export default function HomeScreen({ navigation }) {
         </View>
 
         {/* ── DUOLINGO UNIT PATH ── */}
+        <Text style={[sectionLabel(C), { paddingHorizontal: 20, marginBottom: 16 }]}>Learning Path</Text>
         <View style={s.pathContainer}>
           {pathItems.map((item) => {
             if (item.type === 'banner') {
@@ -553,7 +623,6 @@ export default function HomeScreen({ navigation }) {
               const offsetX = nodeIdx % 2 === 0 ? -ZIGZAG : ZIGZAG
               return (
                 <View key={`${unit.id}-stimulus`} style={[s.nodeWrapper, { marginLeft: offsetX }]}>
-                  <View style={[s.connector, { borderColor: unitLocked ? C.surface3 : C.border }]} />
                   <TouchableOpacity
                     activeOpacity={unitLocked ? 1 : 0.8}
                     onPress={() => {
@@ -597,15 +666,13 @@ export default function HomeScreen({ navigation }) {
 
             const nodeIdx  = lessonNodeCount++
             const offsetX  = nodeIdx % 2 === 0 ? -ZIGZAG : ZIGZAG
+            const nodeKey  = `${unit.id}-l${lessonIndex}`
+            const isFirstActive = nodeKey === firstActiveKey
 
             return (
-              <View key={`${unit.id}-l${lessonIndex}`} style={[s.nodeWrapper, { marginLeft: offsetX }]}>
+              <View key={nodeKey} style={[s.nodeWrapper, { marginLeft: offsetX }]}>
 
-                {/* Connector line — only between lessons within a unit (not before first) */}
-                {lessonIndex > 0 && (
-                  <View style={[s.connector, { borderColor: lessonLocked ? C.surface3 : C.border }]} />
-                )}
-
+                <Animated.View style={isFirstActive ? { transform: [{ scale: pulseNodeAnim }] } : undefined}>
                 <TouchableOpacity
                   activeOpacity={lessonLocked ? 1 : 0.8}
                   onPress={() => {
@@ -629,7 +696,11 @@ export default function HomeScreen({ navigation }) {
                     {
                       backgroundColor: done ? (isChallenge ? C.warnBg : C.brandBg) : C.surface,
                       borderColor: done ? (isChallenge ? C.warn : unit.color) : C.border,
-                      borderWidth: done ? 3 : 2,
+                      borderWidth: done ? 4 : 2,
+                      shadowColor: done ? (isChallenge ? C.warn : unit.color) : C.border,
+                      shadowOpacity: done ? 0.45 : 0.15,
+                      shadowRadius: done ? 12 : 4,
+                      shadowOffset: { width: 0, height: 4 },
                     },
                     cardShadow(C.shadow),
                     selected     && { transform: [{ scale: 1.08 }] },
@@ -643,6 +714,7 @@ export default function HomeScreen({ navigation }) {
                     </View>
                   )}
                 </TouchableOpacity>
+                </Animated.View>
 
                 <Text
                   style={[T.small, { color: lessonLocked ? C.textDim : C.text, textAlign: 'center', marginTop: 8 }]}
@@ -821,6 +893,16 @@ export default function HomeScreen({ navigation }) {
         </Animated.View>
       )}
 
+      {/* ── Placement test modal — shown once before first lesson ── */}
+      <Modal
+        visible={showPlacement}
+        animationType="slide"
+        presentationStyle="fullScreen"
+        onRequestClose={() => {}}
+      >
+        <PlacementTestScreen onComplete={handlePlacementComplete} />
+      </Modal>
+
       {/* ── Streak milestone gift modal ── */}
       <Modal transparent visible={!!milestoneModal} animationType="fade" onRequestClose={() => setMilestoneModal(null)}>
         <View style={s.modalBackdrop}>
@@ -865,10 +947,38 @@ function makeStyles(C) {
     header:     { paddingHorizontal: 20, paddingTop: 16, paddingBottom: 12, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
     coinChip:   { borderRadius: 16, paddingHorizontal: 10, paddingVertical: 5, borderWidth: 1 },
     petSection: { paddingTop: 8, paddingBottom: 4 },
-    petMsgCard: {
-      marginHorizontal: 24, marginTop: 10,
-      borderRadius: 14, borderWidth: 1,
-      paddingHorizontal: 16, paddingVertical: 10,
+    petRow: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingHorizontal: 24,
+      gap: 12,
+      marginTop: 8,
+      marginBottom: 4,
+    },
+    petMsgBubble: {
+      flex: 1,
+      borderRadius: 16,
+      borderWidth: 1,
+      paddingHorizontal: 16,
+      paddingVertical: 12,
+      position: 'relative',
+      justifyContent: 'center',
+    },
+    bubblePointer: {
+      position: 'absolute',
+      left: -8,
+      top: '50%',
+      marginTop: -8,
+      width: 0,
+      height: 0,
+      borderTopWidth: 8,
+      borderBottomWidth: 8,
+      borderRightWidth: 8,
+      borderTopColor: 'transparent',
+      borderBottomColor: 'transparent',
+      borderLeftColor: 'transparent',
+      zIndex: 2,
     },
     digBtn: {
       flexDirection:  'row',
@@ -910,19 +1020,15 @@ function makeStyles(C) {
       gap:          4,
     },
 
-    weekRow:    { flexDirection: 'row', justifyContent: 'center', gap: 8, marginBottom: 20, paddingHorizontal: 16 },
-    dayDot:     { width: 38, height: 38, borderRadius: 19, backgroundColor: C.surface2, alignItems: 'center', justifyContent: 'center', borderWidth: 2, borderColor: C.border },
+    weekRow:    { flexDirection: 'row', justifyContent: 'center', gap: 6, marginBottom: 20, paddingHorizontal: 16 },
+    dayDot:     { width: 44, height: 44, borderRadius: 22, backgroundColor: C.surface2, alignItems: 'center', justifyContent: 'center', borderWidth: 2, borderColor: C.border },
 
     goalCard: {
       flexDirection:   'row',
       alignItems:      'center',
       marginHorizontal: 16,
       marginBottom:    20,
-      backgroundColor: C.surface,
-      borderRadius:    20,
       padding:         16,
-      borderWidth:     1,
-      borderColor:     C.border,
     },
     goalOption: {
       flexDirection: 'row',
@@ -973,7 +1079,7 @@ function makeStyles(C) {
 
     pathContainer: { alignItems: 'center', paddingBottom: 20 },
     nodeWrapper:   { alignItems: 'center', marginBottom: 4 },
-    connector:     { width: 2, height: 32, borderStyle: 'dashed', borderWidth: 1, marginBottom: 4 },
+    connector:     { width: 5, height: 36, backgroundColor: C.border, marginBottom: 4, borderRadius: 2.5 },
     node: {
       width:          NODE_SIZE,
       height:         NODE_SIZE,

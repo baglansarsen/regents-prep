@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { doc, getDoc, setDoc } from 'firebase/firestore'
 import { db } from '../firebase'
-import { SUBJECTS } from '../../../src/data/subjects'
+import { SUBJECTS } from '../content/subjects'
 import { useAuthContext } from './AuthContext'
 
 const SubjectContext = createContext()

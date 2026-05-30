@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useRef } from 'react'
 import {
   View, Text, TextInput, TouchableOpacity, StyleSheet,
-  KeyboardAvoidingView, Platform, ScrollView, ActivityIndicator, Alert, Image,
+  KeyboardAvoidingView, Platform, ScrollView, ActivityIndicator, Alert, Image, Animated,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import * as AppleAuthentication from 'expo-apple-authentication'
@@ -9,64 +9,21 @@ import { useTheme } from '../context/ThemeContext'
 import { useAuth } from '../hooks/useAuth'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 
-// Lazy-load auth-session so requireNativeModule('ExpoWebBrowser') doesn't throw
-// at module eval time in builds where the native module isn't registered yet.
-let Google = null
-let WebBrowser = null
-let AuthSession = null
-try {
-  WebBrowser  = require('expo-web-browser')
-  Google      = require('expo-auth-session/providers/google')
-  AuthSession = require('expo-auth-session')
-  WebBrowser.maybeCompleteAuthSession()
-} catch (_) {}
-
-const GOOGLE_WEB_CLIENT_ID = '752904748328-5areedgem0c4na3cuihfliraskr8vlrt.apps.googleusercontent.com'
-const GOOGLE_IOS_CLIENT_ID = '752904748328-82me96mfpu3vhv9qm2f5u300qllktr4t.apps.googleusercontent.com'
-const GOOGLE_AND_CLIENT_ID = '752904748328-5areedgem0c4na3cuihfliraskr8vlrt.apps.googleusercontent.com' // Using Web ID for Android in Expo
-
-// Separate hook so Google.useAuthRequest is only called when the native module loaded.
-// Rules of Hooks: hooks must be called unconditionally, so we call this hook always
-// but return a no-op when Google is null (module failed to load).
-function useGoogleAuth(signInWithGoogleToken, setLoading) {
-  const noop = { ready: false, prompt: () => {} }
-  // Always call the hook — but Google.useAuthRequest is swapped for a stub when unavailable
-  const useRequest = Google?.useAuthRequest ?? (() => [null, null, () => {}])
-
-  // Wrap in try-catch if possible, but hooks can't be conditional.
-  // expo-auth-session throws IF the platform is android and androidClientId is missing.
-  const [request, response, promptAsync] = useRequest({
-    webClientId: GOOGLE_WEB_CLIENT_ID,
-    iosClientId: GOOGLE_IOS_CLIENT_ID,
-    androidClientId: GOOGLE_AND_CLIENT_ID,
-  })
-
-  useEffect(() => {
-    if (!Google || response?.type !== 'success') return
-    const idToken = response.params?.id_token
-    if (!idToken) { Alert.alert('Sign in failed', 'No ID token from Google.'); return }
-    setLoading(true)
-    signInWithGoogleToken(idToken)
-      .catch((e) => Alert.alert('Sign in failed', e.message))
-      .finally(() => setLoading(false))
-  }, [response])
-
-  if (!Google) return noop
-  // ready only once the request object is prepared (not null)
-  return { ready: !!request, prompt: promptAsync }
-}
 
 export default function LoginScreen({ navigation }) {
   const { C } = useTheme()
-  const { signInWithEmail, signUpWithEmail, signInAsGuest, signInWithApple, signInWithGoogleToken } = useAuth()
+  const { signInWithEmail, signUpWithEmail, signInAsGuest, signInWithApple, signInWithGoogle } = useAuth()
 
   const [mode, setMode]         = useState('login')
   const [email, setEmail]       = useState('')
   const [password, setPassword] = useState('')
   const [name, setName]         = useState('')
   const [loading, setLoading]   = useState(false)
+  const [focusedField, setFocusedField] = useState(null)
 
-  const googleAuth = useGoogleAuth(signInWithGoogleToken, setLoading)
+  const submitScale = useRef(new Animated.Value(1)).current
+  const googleScale = useRef(new Animated.Value(1)).current
+  const guestScale  = useRef(new Animated.Value(1)).current
 
   async function handleSubmit() {
     if (!email.trim() || !password.trim()) {
@@ -146,7 +103,7 @@ export default function LoginScreen({ navigation }) {
           {/* Form */}
           <View style={s.form}>
             {mode === 'signup' && (
-              <View style={s.inputWrap}>
+              <View style={[s.inputWrap, focusedField === 'name' && { borderColor: C.brand }]}>
                 <Text style={s.inputIcon}>👤</Text>
                 <TextInput
                   style={s.input}
@@ -155,10 +112,12 @@ export default function LoginScreen({ navigation }) {
                   value={name}
                   onChangeText={setName}
                   autoCapitalize="words"
+                  onFocus={() => setFocusedField('name')}
+                  onBlur={() => setFocusedField(null)}
                 />
               </View>
             )}
-            <View style={s.inputWrap}>
+            <View style={[s.inputWrap, focusedField === 'email' && { borderColor: C.brand }]}>
               <Text style={s.inputIcon}>📧</Text>
               <TextInput
                 style={s.input}
@@ -169,9 +128,11 @@ export default function LoginScreen({ navigation }) {
                 keyboardType="email-address"
                 autoCapitalize="none"
                 autoCorrect={false}
+                onFocus={() => setFocusedField('email')}
+                onBlur={() => setFocusedField(null)}
               />
             </View>
-            <View style={s.inputWrap}>
+            <View style={[s.inputWrap, focusedField === 'password' && { borderColor: C.brand }]}>
               <Text style={s.inputIcon}>🔒</Text>
               <TextInput
                 style={s.input}
@@ -180,19 +141,38 @@ export default function LoginScreen({ navigation }) {
                 value={password}
                 onChangeText={setPassword}
                 secureTextEntry
+                onFocus={() => setFocusedField('password')}
+                onBlur={() => setFocusedField(null)}
               />
             </View>
 
-            <TouchableOpacity
-              style={duoBtn(C.brand, C.brandDark, { marginTop: 8 })}
-              onPress={handleSubmit}
-              disabled={loading}
-            >
-              {loading
-                ? <ActivityIndicator color="#fff" />
-                : <Text style={[T.btn, { color: '#fff' }]}>{mode === 'login' ? 'LOG IN' : 'CREATE ACCOUNT'}</Text>
-              }
-            </TouchableOpacity>
+            <Animated.View style={{ transform: [{ scale: submitScale }], width: '100%' }}>
+              <TouchableOpacity
+                style={duoBtn(C.brand, C.brandDark, { marginTop: 8, width: '100%' })}
+                onPress={handleSubmit}
+                disabled={loading}
+                onPressIn={() => {
+                  Animated.timing(submitScale, {
+                    toValue: 0.96,
+                    duration: 80,
+                    useNativeDriver: true,
+                  }).start()
+                }}
+                onPressOut={() => {
+                  Animated.spring(submitScale, {
+                    toValue: 1,
+                    tension: 180,
+                    friction: 12,
+                    useNativeDriver: true,
+                  }).start()
+                }}
+              >
+                {loading
+                  ? <ActivityIndicator color="#fff" />
+                  : <Text style={[T.btn, { color: '#fff' }]}>{mode === 'login' ? 'LOG IN' : 'CREATE ACCOUNT'}</Text>
+                }
+              </TouchableOpacity>
+            </Animated.View>
           </View>
 
           {/* Divider */}
@@ -203,23 +183,61 @@ export default function LoginScreen({ navigation }) {
           </View>
 
           {/* Google Sign-In */}
-          <TouchableOpacity
-            style={s.googleBtn}
-            onPress={() => googleAuth.prompt()}
-            disabled={loading || !googleAuth.ready}
-          >
-            <Text style={s.googleG}>G</Text>
-            <Text style={[T.btn, { color: '#3c4043', fontSize: 14 }]}>CONTINUE WITH GOOGLE</Text>
-          </TouchableOpacity>
+          <Animated.View style={{ transform: [{ scale: googleScale }], width: '100%' }}>
+            <TouchableOpacity
+              style={[s.googleBtn, { width: '100%' }]}
+              onPress={async () => {
+                setLoading(true)
+                try { await signInWithGoogle() }
+                catch (e) { Alert.alert('Sign in failed', e.message) }
+                finally { setLoading(false) }
+              }}
+              disabled={loading}
+              onPressIn={() => {
+                Animated.timing(googleScale, {
+                  toValue: 0.96,
+                  duration: 80,
+                  useNativeDriver: true,
+                }).start()
+              }}
+              onPressOut={() => {
+                Animated.spring(googleScale, {
+                  toValue: 1,
+                  tension: 180,
+                  friction: 12,
+                  useNativeDriver: true,
+                }).start()
+              }}
+            >
+              <Text style={s.googleG}>G</Text>
+              <Text style={[T.btn, { color: '#3c4043', fontSize: 14 }]}>CONTINUE WITH GOOGLE</Text>
+            </TouchableOpacity>
+          </Animated.View>
 
-          {/* Guest */}
-          <TouchableOpacity
-            style={[duoBtnOutline(C.border), { marginTop: 10 }]}
-            onPress={handleGuest}
-            disabled={loading}
-          >
-            <Text style={[T.btn, { color: C.textMuted }]}>CONTINUE AS GUEST</Text>
-          </TouchableOpacity>
+          <Animated.View style={{ transform: [{ scale: guestScale }], width: '100%' }}>
+            <TouchableOpacity
+              style={[duoBtnOutline(C.border), { marginTop: 10, width: '100%' }]}
+              onPress={handleGuest}
+              disabled={loading}
+              onPressIn={() => {
+                Animated.timing(guestScale, {
+                  toValue: 0.96,
+                  duration: 80,
+                  useNativeDriver: true,
+                }).start()
+              }}
+              onPressOut={() => {
+                Animated.spring(guestScale, {
+                  toValue: 1,
+                  tension: 180,
+                  friction: 12,
+                  useNativeDriver: true,
+                }).start()
+              }}
+            >
+              <Text style={[T.btn, { color: C.textMuted }]}>CONTINUE AS GUEST</Text>
+            </TouchableOpacity>
+          </Animated.View>
           <Text style={[T.label, { color: C.textDim, textAlign: 'center', marginTop: 10, textTransform: 'none', letterSpacing: 0 }]}>
             Progress saved locally. Link an account any time.
           </Text>

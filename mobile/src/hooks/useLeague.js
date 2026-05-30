@@ -33,9 +33,20 @@ export const TIER_META = {
   diamond: { label: 'Diamond', emoji: '💎', color: '#1CB0F6', light: '#EBF8FF', dark: '#001D2D' },
 }
 
-export const PROMOTE_N = 10   // top N per tier get promoted each week
-export const DEMOTE_N  = 5    // bottom N get demoted (except bronze)
+export const PROMOTE_N = 10   // cap: at most this many promoted per tier each week
+export const DEMOTE_N  = 5    // cap: at most this many demoted (except bronze)
 export const LEAGUE_CAP = 50  // max members shown per tier
+
+/**
+ * Scale promotion/demotion counts to the tier's population so small early-stage
+ * leagues don't promote nearly everyone. ~top 20% promote, ~bottom 15% demote,
+ * each clamped to the caps above (and promotion always offers at least 1 slot).
+ */
+export function dynamicCounts(total) {
+  const promote = Math.min(PROMOTE_N, Math.max(1, Math.round(total * 0.2)))
+  const demote  = Math.min(DEMOTE_N,  Math.max(0, Math.round(total * 0.15)))
+  return { promote, demote }
+}
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 /** Milliseconds until the next Monday 00:00 UTC (when leagues reset) */
@@ -66,6 +77,8 @@ export function useLeague(uid) {
   const [loading,      setLoading]      = useState(true)
   const [justPromoted, setJustPromoted] = useState(false)
   const [justDemoted,  setJustDemoted]  = useState(false)
+  const [promoteN,     setPromoteN]     = useState(PROMOTE_N)
+  const [demoteN,      setDemoteN]      = useState(DEMOTE_N)
 
   const uidRef = useRef(uid)
   uidRef.current = uid
@@ -137,11 +150,12 @@ export function useLeague(uid) {
       const myRank = ranked.findIndex((m) => m.uid === uid) + 1  // 1-based; 0 = not found
       if (myRank === 0) return 'none'
 
-      const total      = ranked.length
-      const demoteFrom = Math.max(total - DEMOTE_N + 1, PROMOTE_N + 1)  // first rank in demotion zone
+      const total = ranked.length
+      const { promote, demote } = dynamicCounts(total)
+      const demoteFrom = Math.max(total - demote + 1, promote + 1)  // first rank in demotion zone
 
-      if (myRank <= PROMOTE_N && tier !== 'diamond') return 'promoted'
-      if (myRank >= demoteFrom && tier !== 'bronze') return 'demoted'
+      if (myRank <= promote && tier !== 'diamond') return 'promoted'
+      if (demote > 0 && myRank >= demoteFrom && tier !== 'bronze') return 'demoted'
       return 'none'
     } catch {
       return 'none'
@@ -172,6 +186,9 @@ export function useLeague(uid) {
       })
       // Re-sort after nulling stale entries
       list.sort((a, b) => b.weeklyXP - a.weeklyXP || b.xp - a.xp)
+      const { promote, demote } = dynamicCounts(list.length)
+      setPromoteN(promote)
+      setDemoteN(demote)
       setMembers(list)
     } catch (e) {
       console.warn('[useLeague] loadMembers error', e)
@@ -199,7 +216,7 @@ export function useLeague(uid) {
     justPromoted,
     justDemoted,
     refresh,
-    promoteN: PROMOTE_N,
-    demoteN:  DEMOTE_N,
+    promoteN,   // scaled to current tier population
+    demoteN,
   }
 }

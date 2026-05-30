@@ -32,21 +32,6 @@ function comboInfo(streak) {
   return null
 }
 
-// Calculate bonus XP from combos at quiz end
-function calcComboBonus(results) {
-  let bonus = 0
-  let run = 0
-  results.forEach((r) => {
-    if (r.correct) {
-      run++
-      if (run >= 3) bonus += 5   // +5 XP per question while on a 3+ combo
-    } else {
-      run = 0
-    }
-  })
-  return bonus
-}
-
 export default function QuizScreen({ route, navigation }) {
   const { questionSet, topic, subject, lessonIndex, isChallenge, nextUnitTopic, nextLessonMeta } = route.params
   const { C } = useTheme()
@@ -54,7 +39,7 @@ export default function QuizScreen({ route, navigation }) {
   const { user } = useAuthContext()
   const uid = user?.uid
 
-  const { saveResult, masteryPct } = useProgress(uid)
+  const { saveResult, isMastered } = useProgress(uid)
   const { xpMultiplier }           = useDoubleXP()
   const { markStudied }          = useDailyStreak(uid)
   const { xp, earnXP, spendXP }  = useXP(uid)
@@ -99,14 +84,17 @@ export default function QuizScreen({ route, navigation }) {
   }, [phase, streak])
 
   // ── Lose life + pet reaction on wrong/right answer ────────────────────────
+  // A timeout is a failed question too — it breaks the streak and is logged as
+  // a mistake, so it must also cost a life (otherwise walking away is "free").
   useEffect(() => {
-    if (phase === 'feedback' && selected !== null && selected !== 'timeout') {
+    if (phase === 'feedback' && selected !== null) {
       const correctIdx = currentQuestion?.correct ?? currentQuestion?.correctIndex
-      if (selected !== correctIdx) {
+      const wasCorrect = selected !== 'timeout' && selected === correctIdx
+      if (wasCorrect) {
+        triggerReaction('cheer')
+      } else {
         loseLife()
         triggerReaction('sad')
-      } else {
-        triggerReaction('cheer')
       }
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -126,12 +114,13 @@ export default function QuizScreen({ route, navigation }) {
       const correct    = results.filter((r) => r.correct).length
       const mistakes   = total - correct
       const pct        = Math.round((correct / total) * 100)
-      const comboBonus = calcComboBonus(results)
-      const xpEarned   = Math.round((correct * 10 + comboBonus) * xpMultiplier)
+      // `score` already bakes in speed + streak multipliers, so it IS the XP.
+      const xpEarned   = Math.round(score * xpMultiplier)
+      const doubleXP   = xpMultiplier > 1
 
-      // Detect first-time topic mastery (before saving — masteryPct reflects previous best)
-      const prevBest     = masteryPct(topic, subject) ?? 0
-      const firstMastery = !!topic && pct >= 85 && prevBest < 85
+      // First-time mastery = consistency rule flips from false → true with this
+      // attempt included (isMastered = 85%+ on 2 of the last 3 attempts).
+      const firstMastery = !!topic && isMastered(topic, subject, pct) && !isMastered(topic, subject)
 
       // Challenge passed with ≤3 mistakes → unlock next unit immediately
       const challengeUnlocked = isChallenge && !!nextUnitTopic && mistakes <= 3
@@ -153,8 +142,8 @@ export default function QuizScreen({ route, navigation }) {
 
       saveResult({ topic, score, total, correct, pct, subject, lessonIndex })
       markStudied()
-      earnXP(xpEarned)
-      checkAndEvolve(xp + xpEarned)
+      // Evolve against the authoritative post-award total, not the stale `xp` state
+      earnXP(xpEarned).then((newTotal) => checkAndEvolve(newTotal ?? xp + xpEarned))
       if (challengeUnlocked)   { triggerReaction('cheer');        say(`⚡ Challenge passed! Next unit unlocked 🔓`) }
       else if (pct === 100)    { triggerReaction('cheer');        say(`Perfect score! +${xpEarned} ⭐ You're incredible 🎉`) }
       else if (pct >= 85)      { triggerReaction('happy_dance');  say(`+${xpEarned} ⭐ XP! Really solid work 🌟`) }
@@ -166,7 +155,7 @@ export default function QuizScreen({ route, navigation }) {
       if (route.params?.isMistakesPractice) updateQuestProgress('complete_mistakes')
       navigation.replace('Results', {
         score, total, results, bestStreak, topic, subject,
-        xpEarned, comboBonus, firstMastery, masteredTopic: topic ?? null,
+        xpEarned, doubleXP, firstMastery, masteredTopic: topic ?? null,
         lessonIndex, challengeUnlocked, unlockedTopic: nextUnitTopic ?? null,
         nextLessonMeta: nextLessonMeta ?? null,
       })
@@ -441,31 +430,36 @@ function makeStyles(C, insets) {
     closeBtn:      { width: 36, height: 36, borderRadius: 18, backgroundColor: C.surface2, alignItems: 'center', justifyContent: 'center' },
     closeBtnText:  { fontSize: 15, color: C.textMuted, fontFamily: 'Nunito_700Bold' },
     progressWrap:  { flex: 1 },
-    progressBg:    { height: 10, backgroundColor: C.surface2, borderRadius: 5, overflow: 'hidden' },
-    progressFill:  { height: 10, backgroundColor: C.brand, borderRadius: 5 },
-    scoreChip:     { flexDirection: 'row', alignItems: 'center', backgroundColor: C.surface2, borderRadius: 20, paddingHorizontal: 10, paddingVertical: 5 },
-    timerBg:       { height: 5, backgroundColor: C.surface2, marginHorizontal: 16, borderRadius: 3, marginBottom: 8 },
-    timerFill:     { height: 5, borderRadius: 3 },
+    progressBg:    { height: 14, backgroundColor: C.surface2, borderRadius: 7, overflow: 'hidden' },
+    progressFill:  { height: 14, backgroundColor: C.brand, borderRadius: 7 },
+    scoreChip:     { flexDirection: 'row', alignItems: 'center', backgroundColor: C.surface2, borderRadius: 20, paddingHorizontal: 12, paddingVertical: 6 },
+    timerBg:       { height: 6, backgroundColor: C.surface2, marginHorizontal: 16, borderRadius: 3, marginBottom: 8 },
+    timerFill:     { height: 6, borderRadius: 3 },
     scroll:        { padding: 16 },
-    questionCard:  { backgroundColor: C.surface, borderRadius: 20, padding: 20, marginBottom: 20, borderWidth: 1, borderColor: C.border },
+    questionCard:  { backgroundColor: C.surface, borderRadius: 20, padding: 22, marginBottom: 20, borderWidth: 1, borderColor: C.border, borderTopWidth: 3, borderTopColor: C.brand, shadowColor: C.shadow, shadowOffset: { width: 0, height: 3 }, shadowOpacity: 1, shadowRadius: 10, elevation: 5 },
     questionImage: { width: '100%', height: 200, borderRadius: 10, marginBottom: 12, backgroundColor: C.surface2 },
     choices:       { gap: 10 },
     choice: {
       flexDirection:  'row',
       alignItems:     'center',
       backgroundColor: C.surface,
-      borderRadius:   16,
-      padding:        14,
-      gap:            12,
-      borderWidth:    2.5,
+      borderRadius:   18,
+      padding:        16,
+      gap:            14,
+      borderWidth:    2,
       borderColor:    C.border,
+      shadowColor:    C.shadow,
+      shadowOffset:   { width: 0, height: 2 },
+      shadowOpacity:  1,
+      shadowRadius:   6,
+      elevation:      3,
     },
     choiceSelected: { borderColor: C.brand, backgroundColor: C.brandBg },
     choiceCorrect:  { borderColor: C.correct, backgroundColor: C.correctBg },
     choiceWrong:    { borderColor: C.wrong,   backgroundColor: C.wrongBg },
     choiceDim:      { opacity: 0.35 },
-    letterBadge:    { width: 32, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
-    letterText:     { fontFamily: 'Nunito_900Black', fontSize: 14, color: '#fff' },
+    letterBadge:    { width: 36, height: 36, borderRadius: 18, alignItems: 'center', justifyContent: 'center' },
+    letterText:     { fontFamily: 'Nunito_900Black', fontSize: 15, color: '#fff' },
 
     // No-lives gate
     gateBackdrop:   { backgroundColor: 'rgba(0,0,0,0.72)', justifyContent: 'flex-end', zIndex: 200 },
