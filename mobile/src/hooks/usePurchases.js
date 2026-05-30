@@ -1,11 +1,13 @@
 import { useState, useEffect, useCallback } from 'react'
 import { Alert, Platform } from 'react-native'
 
-// Lazy-load RevenueCat — absent in Expo Go, present in dev/prod builds
+// Lazy-load RevenueCat — absent on web/Expo Go, present in native builds
 let Purchases = null
-try {
-  Purchases = require('react-native-purchases').default
-} catch (_) {}
+if (Platform.OS !== 'web') {
+  try {
+    Purchases = require('react-native-purchases').default
+  } catch (_) {}
+}
 
 // ─── Configure these in your RevenueCat dashboard ───────────────────────────
 // Get your keys at: https://app.revenuecat.com → Project → API Keys
