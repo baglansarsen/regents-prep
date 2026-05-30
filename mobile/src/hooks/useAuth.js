@@ -7,12 +7,21 @@ import {
   linkWithCredential,
   EmailAuthProvider,
   GoogleAuthProvider,
-  OAuthProvider,
   signInWithCredential,
 } from 'firebase/auth'
-import * as Crypto from 'expo-crypto'
 import { auth } from '../firebase'
 import { useAuthContext } from '../context/AuthContext'
+
+// Lazy-load to avoid TurboModuleRegistry crash when native module is absent
+let _GoogleSignin = null
+try {
+  _GoogleSignin = require('@react-native-google-signin/google-signin').GoogleSignin
+  _GoogleSignin.configure({
+    webClientId: '752904748328-5areedgem0c4na3cuihfliraskr8vlrt.apps.googleusercontent.com',
+  })
+} catch {
+  // native module not linked in this build
+}
 
 export function useAuth() {
   const { user } = useAuthContext()
@@ -38,15 +47,15 @@ export function useAuth() {
     if (displayName) await updateProfile(cred.user, { displayName })
   }
 
-  async function signInWithGoogleToken(idToken) {
-    // Called after expo-auth-session Google flow returns an idToken
-    const credential = GoogleAuthProvider.credential(idToken)
+  async function signInWithGoogle() {
+    if (!_GoogleSignin) throw new Error('Google Sign-In is not available in this build.')
+    await _GoogleSignin.hasPlayServices()
+    const { data } = await _GoogleSignin.signIn()
+    const credential = GoogleAuthProvider.credential(data.idToken)
     await signInWithCredential(auth, credential)
   }
 
   async function signInWithApple() {
-    // Apple Sign-In requires a paid Apple Developer account.
-    // Disabled for dev builds — re-enable by restoring expo-apple-authentication import.
     throw new Error('Apple Sign-In is not available in this build.')
   }
 
@@ -60,7 +69,7 @@ export function useAuth() {
     signUpWithEmail,
     signInAsGuest,
     linkEmailToGuest,
-    signInWithGoogleToken,
+    signInWithGoogle,
     signInWithApple,
     logOut,
   }

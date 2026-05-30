@@ -82,6 +82,29 @@ export default function ResultsScreen({ route, navigation }) {
     return () => xpAnim.removeListener(id)
   }, [])
 
+  // Auto-advance to next unit Lesson 1 after a challenge pass
+  useEffect(() => {
+    if (!challengeUnlocked || !nextLessonMeta) return
+    const sd = SUBJECT_DATA[subject] ?? leData
+    const t = setTimeout(() => {
+      const qs = sd.getLessonQuestions(
+        nextLessonMeta.topic,
+        nextLessonMeta.lessonIndex,
+        nextLessonMeta.lessonCount,
+      )
+      navigation.replace('Quiz', {
+        questionSet:    qs,
+        topic:          nextLessonMeta.topic,
+        subject,
+        lessonIndex:    nextLessonMeta.lessonIndex,
+        isChallenge:    nextLessonMeta.isChallenge,
+        nextUnitTopic:  nextLessonMeta.nextUnitTopic,
+        nextLessonMeta: computeNextNextMeta(sd, nextLessonMeta),
+      })
+    }, 2500)
+    return () => clearTimeout(t)
+  }, [])
+
   const correct  = results.filter((r) => r.correct).length
   const pct      = Math.round((correct / total) * 100)
   const passed   = pct >= 65
@@ -240,11 +263,11 @@ export default function ResultsScreen({ route, navigation }) {
 function makeStyles(C) {
   return StyleSheet.create({
     safe:         { flex: 1, backgroundColor: C.bg },
-    scroll:       { padding: 20, alignItems: 'center', gap: 12 },
-    circleOuter:  { width: 160, height: 160, borderRadius: 80, borderWidth: 5, alignItems: 'center', justifyContent: 'center', marginBottom: 8 },
-    circleInner:  { width: 140, height: 140, borderRadius: 70, alignItems: 'center', justifyContent: 'center', gap: 4 },
-    banner:       { alignSelf: 'stretch', borderRadius: 14, paddingHorizontal: 18, paddingVertical: 12, borderWidth: 1 },
-    summaryCard:  { alignSelf: 'stretch', backgroundColor: C.surface, borderRadius: 18, overflow: 'hidden', borderWidth: 1, borderColor: C.border },
+    scroll:       { padding: 20, alignItems: 'center', gap: 14 },
+    circleOuter:  { width: 170, height: 170, borderRadius: 85, borderWidth: 6, alignItems: 'center', justifyContent: 'center', marginBottom: 8, shadowColor: '#000', shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.15, shadowRadius: 12, elevation: 6 },
+    circleInner:  { width: 150, height: 150, borderRadius: 75, alignItems: 'center', justifyContent: 'center', gap: 4 },
+    banner:       { alignSelf: 'stretch', borderRadius: 16, paddingHorizontal: 18, paddingVertical: 13, borderWidth: 1 },
+    summaryCard:  { alignSelf: 'stretch', backgroundColor: C.surface, borderRadius: 20, overflow: 'hidden', borderWidth: 1, borderColor: C.border, shadowColor: '#000', shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.1, shadowRadius: 12, elevation: 5 },
     summaryRow:   { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', padding: 14 },
     summaryBorder:{ borderTopWidth: 1, borderTopColor: C.border },
     resultRow:    { alignSelf: 'stretch', flexDirection: 'row', alignItems: 'flex-start', gap: 8, backgroundColor: C.surface, borderRadius: 12, padding: 12, borderLeftWidth: 3 },

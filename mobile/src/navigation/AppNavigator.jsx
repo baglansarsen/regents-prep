@@ -12,7 +12,6 @@ import ThemePickerScreen        from '../screens/ThemePickerScreen'
 import LoginScreen              from '../screens/LoginScreen'
 import SchoolOnboardingScreen   from '../screens/SchoolOnboardingScreen'
 import SubjectOnboardingScreen  from '../screens/SubjectOnboardingScreen'
-import PlacementTestScreen      from '../screens/PlacementTestScreen'
 import PetPickerScreen, { petChosenKey } from '../screens/PetPickerScreen'
 import TabNavigator             from './TabNavigator'
 import ExamScreen               from '../screens/ExamScreen'
@@ -21,10 +20,6 @@ import PetShopScreen            from '../screens/PetShopScreen'
 import PetEvolutionScreen       from '../screens/PetEvolutionScreen'
 
 const Stack = createNativeStackNavigator()
-
-function placementKey(uid) {
-  return `@placementDone_v1_${uid}`
-}
 
 function subjectChosenKey(uid) {
   return `@subject_chosen_v1_${uid}`
@@ -39,21 +34,18 @@ export default function AppNavigator() {
   const { C, isDark, themeChosen } = useTheme()
 
   // null = still checking, true/false = resolved
-  const [placementDone,  setPlacementDone]  = useState(null)
   const [petChosen,      setPetChosen]      = useState(null)
   const [subjectChosen,  setSubjectChosen]  = useState(null)
   const [schoolChosen,   setSchoolChosen]   = useState(null)
 
   useEffect(() => {
     if (!user) {
-      setPlacementDone(null)
       setPetChosen(null)
       setSubjectChosen(null)
       setSchoolChosen(null)
       return
     }
     if (user.isAnonymous) {
-      setPlacementDone(true)
       setPetChosen(true)
       setSubjectChosen(true)
       setSchoolChosen(true)   // anonymous users skip all pickers
@@ -61,8 +53,7 @@ export default function AppNavigator() {
     }
     async function checkFlags() {
       try {
-        const [pVal, petVal, subVal, schVal] = await Promise.all([
-          AsyncStorage.getItem(placementKey(user.uid)),
+        const [petVal, subVal, schVal] = await Promise.all([
           AsyncStorage.getItem(petChosenKey(user.uid)),
           AsyncStorage.getItem(subjectChosenKey(user.uid)),
           AsyncStorage.getItem(schoolChosenKey(user.uid)),
@@ -84,12 +75,10 @@ export default function AppNavigator() {
         if (subDone && !subVal) AsyncStorage.setItem(subjectChosenKey(user.uid), '1').catch(() => {})
         if (schDone && !schVal) AsyncStorage.setItem(schoolChosenKey(user.uid), '1').catch(() => {})
 
-        setPlacementDone(!!pVal)
         setPetChosen(petDone)
         setSubjectChosen(subDone)
         setSchoolChosen(schDone)
       } catch {
-        setPlacementDone(false)
         setPetChosen(false)
         setSubjectChosen(false)
         setSchoolChosen(false)
@@ -102,8 +91,7 @@ export default function AppNavigator() {
     (loading && !user) ||
     themeChosen === null ||
     (!!user && !user.isAnonymous && (
-      placementDone === null || petChosen === null ||
-      subjectChosen === null || schoolChosen === null
+      petChosen === null || subjectChosen === null || schoolChosen === null
     ))
 
   const [forceLoad, setForceLoad] = useState(false)
@@ -167,14 +155,8 @@ export default function AppNavigator() {
             )}
           </Stack.Screen>
 
-        ) : !placementDone ? (
-          /* ── 5. Placement test — once per user, after subject is chosen ─── */
-          <Stack.Screen name="PlacementTest">
-            {(props) => <PlacementTestScreen {...props} onComplete={() => setPlacementDone(true)} />}
-          </Stack.Screen>
-
         ) : !schoolChosen ? (
-          /* ── 6. School picker — once per user ───────────────────────────── */
+          /* ── 5. School picker — once per user ───────────────────────────── */
           <Stack.Screen name="SchoolOnboarding" options={{ animation: 'fade' }}>
             {(props) => (
               <SchoolOnboardingScreen
@@ -188,7 +170,7 @@ export default function AppNavigator() {
           </Stack.Screen>
 
         ) : (
-          /* ── 7. Main app ──────────────────────────────────────────────────── */
+          /* ── 6. Main app ──────────────────────────────────────────────────── */
           <>
             <Stack.Screen name="Main" component={TabNavigator} />
             <Stack.Screen name="Exam" component={ExamScreen}

@@ -63,3 +63,30 @@ export function pillTab(active, C) {
     backgroundColor: active ? C.brand : C.surface2,
   }
 }
+
+// Elevated card — stronger shadow than flat border card
+export function elevatedCard(C, opts = {}) {
+  return {
+    backgroundColor: C.surface,
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: C.border,
+    shadowColor: C.shadow,
+    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 1,
+    shadowRadius: 14,
+    elevation: 7,
+    ...opts,
+  }
+}
+
+// Section label style — use as a Text style object
+export function sectionLabel(C) {
+  return {
+    fontFamily: 'Nunito_800ExtraBold',
+    fontSize: 11,
+    letterSpacing: 1.4,
+    textTransform: 'uppercase',
+    color: C.textMuted,
+  }
+}

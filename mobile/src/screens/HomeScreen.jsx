@@ -26,7 +26,7 @@ import * as algebra1Data from '../../../src/data/algebra-1/index'
 import * as algebra2Data from '../../../src/data/algebra-2/index'
 import * as geometryData from '../../../src/data/geometry/index'
 import { STRATEGY_CATEGORIES } from '../../../src/data/strategies-meta'
-import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
+import { T, duoBtn, duoBtnOutline, cardShadow, elevatedCard, sectionLabel } from '../styles/duo'
 import GoalRing from '../components/GoalRing'
 import UnitBanner from '../components/UnitBanner'
 import PetWidget from '../components/PetWidget'
@@ -35,6 +35,7 @@ import PetTriviaCard from '../components/PetTriviaCard'
 import { usePetContext } from '../context/PetContext'
 import { useSpeechContext, loadDailyMessage } from '../context/SpeechContext'
 import { FOOD_ITEMS } from '../data/petConfig'
+import PlacementTestScreen from './PlacementTestScreen'
 
 const MILESTONE_GIFTS = {
   3:  { xp: 100,  items: {},                       label: '100 ⭐ XP!' },
@@ -127,9 +128,35 @@ export default function HomeScreen({ navigation }) {
   const [milestoneModal,  setMilestoneModal]   = useState(null)
   const [tipsUnit,        setTipsUnit]         = useState(null)
   const [expandedTip,     setExpandedTip]      = useState(null)
+
+  // ── Placement test — triggered before the user's first lesson ────────────
+  const [placementDone,   setPlacementDone]   = useState(null)   // null = loading
+  const [showPlacement,   setShowPlacement]   = useState(false)
+  const [pendingLesson,   setPendingLesson]   = useState(null)
+
+  useEffect(() => {
+    if (!uid) return
+    if (user?.isAnonymous) { setPlacementDone(true); return }
+    AsyncStorage.getItem(`@placementDone_v1_${uid}`)
+      .then((val) => setPlacementDone(!!val))
+      .catch(() => setPlacementDone(true))  // fail open — don't block lessons
+  }, [uid])
+
   const sheetAnim     = useRef(new Animated.Value(400)).current
   const goalSheetAnim = useRef(new Animated.Value(400)).current
   const tipsAnim      = useRef(new Animated.Value(400)).current
+  const pulseNodeAnim = useRef(new Animated.Value(1)).current
+
+  useEffect(() => {
+    const loop = Animated.loop(
+      Animated.sequence([
+        Animated.timing(pulseNodeAnim, { toValue: 1.1, duration: 750, useNativeDriver: true }),
+        Animated.timing(pulseNodeAnim, { toValue: 1,   duration: 750, useNativeDriver: true }),
+      ])
+    )
+    loop.start()
+    return () => loop.stop()
+  }, [])
 
   // ── Idle speech — fires every 4–8 min while home screen is active ────────
   const subjectName = {
@@ -225,8 +252,23 @@ export default function HomeScreen({ navigation }) {
     )
   }
 
+  // ── Placement test completion ────────────────────────────────────────────
+  function handlePlacementComplete() {
+    setShowPlacement(false)
+    setPlacementDone(true)
+    const p = pendingLesson
+    setPendingLesson(null)
+    if (p) startLesson(p.unit, p.lessonIndex, true)  // bypassPlacement — resume the tapped lesson
+  }
+
   // ── Quiz / Flashcards ────────────────────────────────────────────────────
-  function startLesson(unit, lessonIndex) {
+  function startLesson(unit, lessonIndex, bypassPlacement = false) {
+    // Show placement test once before the user's first lesson
+    if (!bypassPlacement && placementDone === false && !user?.isAnonymous) {
+      setPendingLesson({ unit, lessonIndex })
+      closeSheet(() => setShowPlacement(true))
+      return
+    }
     const isChallenge = lessonIndex === unit.lessonCount
     const unitIdx = units.findIndex((u) => u.id === unit.id)
     const nextUnit = isChallenge && unitIdx >= 0 ? units[unitIdx + 1] : null
@@ -289,8 +331,8 @@ export default function HomeScreen({ navigation }) {
   }
 
   function startSkipChallenge(unit, unitIdx) {
-    const pool = sd.getByTopic(unit.topic).sort(() => Math.random() - 0.5).slice(0, 15)
     const prev = units[unitIdx - 1]
+    const pool = sd.getByTopic(prev?.topic ?? unit.topic).sort(() => Math.random() - 0.5).slice(0, 15)
     navigation.navigate('SkipChallenge', {
       topic: unit.topic,
       prereqTopic: prev?.topic ?? unit.topic,
@@ -352,6 +394,18 @@ export default function HomeScreen({ navigation }) {
     }
   })
 
+  // ── First unlocked+incomplete path node (for pulse indicator) ─────────────
+  let firstActiveKey = null
+  for (const item of pathItems) {
+    if (item.type !== 'lesson') continue
+    const { unit, unitIdx, lessonIndex } = item
+    if (!isUnitUnlocked(unitIdx)) continue
+    if (!isLessonUnlocked(unit, lessonIndex)) continue
+    if (lessonComplete(unit.topic, lessonIndex)) continue
+    firstActiveKey = `${unit.id}-l${lessonIndex}`
+    break
+  }
+
   // Zigzag counter uses only lesson nodes
   let lessonNodeCount = 0
 
@@ -382,16 +436,20 @@ export default function HomeScreen({ navigation }) {
         {/* Week streak dots */}
         <View style={s.weekRow}>
           {weekDays.map((d) => (
-            <View
-              key={d.date}
-              style={[
-                s.dayDot,
-                d.studied   && { backgroundColor: C.brand, borderColor: C.brandDark },
-                d.isToday   && { borderColor: C.brandLight, borderWidth: 2.5 },
-              ]}
-            >
-              <Text style={[T.label, { color: d.studied ? '#fff' : C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>
-                {d.dayLabel[0]}
+            <View key={d.date} style={{ alignItems: 'center', gap: 4 }}>
+              <View
+                style={[
+                  s.dayDot,
+                  d.studied   && { backgroundColor: C.brand, borderColor: C.brandDark },
+                  d.isToday   && { borderColor: C.brandLight, borderWidth: 2.5 },
+                ]}
+              >
+                <Text style={[T.label, { color: d.studied ? '#fff' : C.textMuted, textTransform: 'none', letterSpacing: 0, fontSize: 14 }]}>
+                  {d.studied ? '✓' : d.dayLabel[0]}
+                </Text>
+              </View>
+              <Text style={[T.label, { color: d.isToday ? C.brand : C.textDim, fontSize: 9, textTransform: 'none', letterSpacing: 0 }]}>
+                {d.dayLabel.slice(0, 3)}
               </Text>
             </View>
           ))}
@@ -399,7 +457,7 @@ export default function HomeScreen({ navigation }) {
 
         {/* Daily Goal Ring */}
         <TouchableOpacity
-          style={[s.goalCard, cardShadow(C.shadow)]}
+          style={[s.goalCard, elevatedCard(C), { borderLeftWidth: 4, borderLeftColor: goalMet ? C.correct : C.brand }]}
           onPress={openGoalPicker}
           activeOpacity={0.85}
         >
@@ -496,6 +554,7 @@ export default function HomeScreen({ navigation }) {
         <PetTriviaCard />
 
         {/* Quick actions — 2×2 grid */}
+        <Text style={[sectionLabel(C), { paddingHorizontal: 20, marginBottom: 12 }]}>Quick Practice</Text>
         <View style={s.quickGrid}>
           <TouchableOpacity style={[s.quickBtn, duoBtn(C.brand, C.brandDark)]} onPress={() => startQuiz(null)}>
             <Text style={s.quickIcon}>⚡</Text>
@@ -525,6 +584,7 @@ export default function HomeScreen({ navigation }) {
         </View>
 
         {/* ── DUOLINGO UNIT PATH ── */}
+        <Text style={[sectionLabel(C), { paddingHorizontal: 20, marginBottom: 16 }]}>Learning Path</Text>
         <View style={s.pathContainer}>
           {pathItems.map((item) => {
             if (item.type === 'banner') {
@@ -597,15 +657,18 @@ export default function HomeScreen({ navigation }) {
 
             const nodeIdx  = lessonNodeCount++
             const offsetX  = nodeIdx % 2 === 0 ? -ZIGZAG : ZIGZAG
+            const nodeKey  = `${unit.id}-l${lessonIndex}`
+            const isFirstActive = nodeKey === firstActiveKey
 
             return (
-              <View key={`${unit.id}-l${lessonIndex}`} style={[s.nodeWrapper, { marginLeft: offsetX }]}>
+              <View key={nodeKey} style={[s.nodeWrapper, { marginLeft: offsetX }]}>
 
                 {/* Connector line — only between lessons within a unit (not before first) */}
                 {lessonIndex > 0 && (
                   <View style={[s.connector, { borderColor: lessonLocked ? C.surface3 : C.border }]} />
                 )}
 
+                <Animated.View style={isFirstActive ? { transform: [{ scale: pulseNodeAnim }] } : undefined}>
                 <TouchableOpacity
                   activeOpacity={lessonLocked ? 1 : 0.8}
                   onPress={() => {
@@ -643,6 +706,7 @@ export default function HomeScreen({ navigation }) {
                     </View>
                   )}
                 </TouchableOpacity>
+                </Animated.View>
 
                 <Text
                   style={[T.small, { color: lessonLocked ? C.textDim : C.text, textAlign: 'center', marginTop: 8 }]}
@@ -821,6 +885,16 @@ export default function HomeScreen({ navigation }) {
         </Animated.View>
       )}
 
+      {/* ── Placement test modal — shown once before first lesson ── */}
+      <Modal
+        visible={showPlacement}
+        animationType="slide"
+        presentationStyle="fullScreen"
+        onRequestClose={() => {}}
+      >
+        <PlacementTestScreen onComplete={handlePlacementComplete} />
+      </Modal>
+
       {/* ── Streak milestone gift modal ── */}
       <Modal transparent visible={!!milestoneModal} animationType="fade" onRequestClose={() => setMilestoneModal(null)}>
         <View style={s.modalBackdrop}>
@@ -910,19 +984,15 @@ function makeStyles(C) {
       gap:          4,
     },
 
-    weekRow:    { flexDirection: 'row', justifyContent: 'center', gap: 8, marginBottom: 20, paddingHorizontal: 16 },
-    dayDot:     { width: 38, height: 38, borderRadius: 19, backgroundColor: C.surface2, alignItems: 'center', justifyContent: 'center', borderWidth: 2, borderColor: C.border },
+    weekRow:    { flexDirection: 'row', justifyContent: 'center', gap: 6, marginBottom: 20, paddingHorizontal: 16 },
+    dayDot:     { width: 44, height: 44, borderRadius: 22, backgroundColor: C.surface2, alignItems: 'center', justifyContent: 'center', borderWidth: 2, borderColor: C.border },
 
     goalCard: {
       flexDirection:   'row',
       alignItems:      'center',
       marginHorizontal: 16,
       marginBottom:    20,
-      backgroundColor: C.surface,
-      borderRadius:    20,
       padding:         16,
-      borderWidth:     1,
-      borderColor:     C.border,
     },
     goalOption: {
       flexDirection: 'row',
