@@ -1,7 +1,7 @@
 import React, { useMemo, useState, useRef, useCallback, useEffect } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, StyleSheet,
-  Dimensions, Alert, Animated, Modal,
+  Dimensions, Alert, Animated, Modal, Platform,
 } from 'react-native'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { SafeAreaView } from 'react-native-safe-area-context'
@@ -44,7 +44,8 @@ const MILESTONE_GIFTS = {
   30: { xp: 1000, items: { sushi: 1, glowAura: 1 }, label: '1000 ⭐ XP + 🍣 Sushi + ✨ Glow Aura!' },
 }
 
-const { width } = Dimensions.get('window')
+const W_RAW = Dimensions.get('window').width
+const width = Platform.OS === 'web' ? Math.min(Math.max(W_RAW || 360, 320), 480) : W_RAW
 const NODE_SIZE = 84
 const ZIGZAG   = 72
 
@@ -493,22 +494,26 @@ export default function HomeScreen({ navigation }) {
         {/* StudyBuddy pet */}
         {pet.chosen && (
           <View style={s.petSection}>
-            <PetWidget onLongPress={() => navigation.navigate('PetShop')} />
+            <View style={s.petRow}>
+              <PetWidget size={90} onLongPress={() => navigation.navigate('PetShop')} />
+              
+              {/* Personality message */}
+              {(() => {
+                const daysSince = studiedToday ? 0 : 1
+                const msg = getPetMessage({ streak, daysSince })
+                if (!msg) return null
+                return (
+                  <View style={[s.petMsgBubble, { backgroundColor: C.surface, borderColor: C.border }]}>
+                    <Text style={[T.small, { color: C.text, lineHeight: 18 }]}>
+                      {msg}
+                    </Text>
+                    {/* Speech bubble pointer arrow */}
+                    <View style={[s.bubblePointer, { borderRightColor: C.surface, borderLeftColor: 'transparent' }]} />
+                  </View>
+                )
+              })()}
+            </View>
             <PetStatusBars />
-
-            {/* Personality message */}
-            {(() => {
-              const daysSince = studiedToday ? 0 : 1
-              const msg = getPetMessage({ streak, daysSince })
-              if (!msg) return null
-              return (
-                <View style={[s.petMsgCard, { backgroundColor: C.surface, borderColor: C.border }]}>
-                  <Text style={[T.small, { color: C.textMuted, fontStyle: 'italic', lineHeight: 18, textAlign: 'center' }]}>
-                    "{msg}"
-                  </Text>
-                </View>
-              )
-            })()}
 
             {/* Daily dig button */}
             <TouchableOpacity
@@ -692,7 +697,11 @@ export default function HomeScreen({ navigation }) {
                     {
                       backgroundColor: done ? (isChallenge ? C.warnBg : C.brandBg) : C.surface,
                       borderColor: done ? (isChallenge ? C.warn : unit.color) : C.border,
-                      borderWidth: done ? 3 : 2,
+                      borderWidth: done ? 4 : 2,
+                      shadowColor: done ? (isChallenge ? C.warn : unit.color) : C.border,
+                      shadowOpacity: done ? 0.45 : 0.15,
+                      shadowRadius: done ? 12 : 4,
+                      shadowOffset: { width: 0, height: 4 },
                     },
                     cardShadow(C.shadow),
                     selected     && { transform: [{ scale: 1.08 }] },
@@ -939,10 +948,38 @@ function makeStyles(C) {
     header:     { paddingHorizontal: 20, paddingTop: 16, paddingBottom: 12, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
     coinChip:   { borderRadius: 16, paddingHorizontal: 10, paddingVertical: 5, borderWidth: 1 },
     petSection: { paddingTop: 8, paddingBottom: 4 },
-    petMsgCard: {
-      marginHorizontal: 24, marginTop: 10,
-      borderRadius: 14, borderWidth: 1,
-      paddingHorizontal: 16, paddingVertical: 10,
+    petRow: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingHorizontal: 24,
+      gap: 12,
+      marginTop: 8,
+      marginBottom: 4,
+    },
+    petMsgBubble: {
+      flex: 1,
+      borderRadius: 16,
+      borderWidth: 1,
+      paddingHorizontal: 16,
+      paddingVertical: 12,
+      position: 'relative',
+      justifyContent: 'center',
+    },
+    bubblePointer: {
+      position: 'absolute',
+      left: -8,
+      top: '50%',
+      marginTop: -8,
+      width: 0,
+      height: 0,
+      borderTopWidth: 8,
+      borderBottomWidth: 8,
+      borderRightWidth: 8,
+      borderTopColor: 'transparent',
+      borderBottomColor: 'transparent',
+      borderLeftColor: 'transparent',
+      zIndex: 2,
     },
     digBtn: {
       flexDirection:  'row',
@@ -1043,7 +1080,7 @@ function makeStyles(C) {
 
     pathContainer: { alignItems: 'center', paddingBottom: 20 },
     nodeWrapper:   { alignItems: 'center', marginBottom: 4 },
-    connector:     { width: 2, height: 32, borderStyle: 'dashed', borderWidth: 1, marginBottom: 4 },
+    connector:     { width: 5, height: 36, backgroundColor: C.border, marginBottom: 4, borderRadius: 2.5 },
     node: {
       width:          NODE_SIZE,
       height:         NODE_SIZE,

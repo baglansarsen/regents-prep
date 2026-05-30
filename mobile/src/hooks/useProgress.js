@@ -14,8 +14,14 @@ export function useProgress(uid) {
 
   useEffect(() => {
     if (!uid) { setHistory([]); return }
-    loadHistory(uid).then(setHistory)
+    loadHistory(uid)
+      .then(setHistory)
+      .catch((err) => {
+        console.warn('[useProgress] Failed to load history:', err)
+        setHistory([])
+      })
   }, [uid])
+
 
   async function saveResult({ topic, score, total, correct, pct, subject, lessonIndex }) {
     if (!uid) return

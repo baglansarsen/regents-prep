@@ -108,12 +108,19 @@ export function useDailyStreak(uid) {
     return 'success'
   }, [hasFreeze, uid])
 
-  const weekDays = last7Days().map((date) => ({
-    date,
-    dayLabel:  new Date(date + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short' }),
-    studied:   studiedDates.includes(date),
-    isToday:   date === todayStr(),
-  }))
+  const weekDays = last7Days().map((date) => {
+    const [y, m, d] = date.split('-').map(Number)
+    const parsedDate = new Date(y, m - 1, d)
+    const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+    const dayLabel = DAYS[parsedDate.getDay()]
+    return {
+      date,
+      dayLabel,
+      studied:   studiedDates.includes(date),
+      isToday:   date === todayStr(),
+    }
+  })
+
 
   return { streak, studiedToday, weekDays, markStudied, hasFreeze, buyFreeze }
 }

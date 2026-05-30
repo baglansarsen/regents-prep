@@ -118,7 +118,8 @@ export default function GlobalTopBar() {
   const subjectColor = SUBJECT_META[subject]?.color ?? '#16a34a'
   const s = makeStyles(insets.top, subjectColor)
 
-  const activeMeta = SUBJECT_META[subject]
+  const activeMeta = SUBJECT_META[subject] ?? SUBJECT_META['living-environment']
+
   const barTop = insets.top + 48
 
   return (
@@ -231,8 +232,18 @@ function makeStyles(topInset, subjectColor) {
     subjectBtnText: { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#fff' },
     chevron:        { fontSize: 10, color: 'rgba(255,255,255,0.85)' },
 
-    stats:       { flexDirection: 'row', alignItems: 'center', gap: 10 },
-    stat:        { alignItems: 'center' },
+    stats:       { flexDirection: 'row', alignItems: 'center', gap: 8 },
+    stat:        {
+      flexDirection:  'row',
+      alignItems:     'center',
+      justifyContent: 'center',
+      backgroundColor: 'rgba(0,0,0,0.18)',
+      borderRadius:   20,
+      paddingHorizontal: 12,
+      paddingVertical: 6,
+      borderWidth:    1,
+      borderColor:    'rgba(255,255,255,0.08)',
+    },
     statText:    { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#fff' },
 
     streakRow:   { flexDirection: 'row', alignItems: 'center', gap: 4 },

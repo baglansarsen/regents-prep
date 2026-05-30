@@ -7,7 +7,8 @@ import { useEffect, useRef, useState, useCallback } from 'react'
 import { Platform, TurboModuleRegistry } from 'react-native'
 
 // Check once at hook-module load time; avoids the TurboModuleRegistry.getEnforcing throw.
-const ADS_AVAILABLE = !!TurboModuleRegistry.get('RNGoogleMobileAdsModule')
+// On web TurboModuleRegistry may be undefined, so guard the access with optional chaining.
+const ADS_AVAILABLE = !!TurboModuleRegistry?.get?.('RNGoogleMobileAdsModule')
 
 let _ads = null
 function getAds() {

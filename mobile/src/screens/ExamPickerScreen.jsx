@@ -173,7 +173,8 @@ export default function ExamPickerScreen({ navigation }) {
     [SUBJECTS.GEOMETRY]:           GEO_EXAMS,
   }
   const exams = EXAMS_BY_SUBJECT[subject] ?? LE_EXAMS
-  const meta  = SUBJECT_META[subject]
+  const meta  = SUBJECT_META[subject] ?? SUBJECT_META['living-environment']
+
 
   function openExam(exam) {
     try {

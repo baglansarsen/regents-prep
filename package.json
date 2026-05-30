@@ -5,8 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "npm run --prefix mobile build:web",
+    "preview": "vite preview",
+    "build:mobile": "npm run --prefix mobile build:web",
+    "deploy:mobile": "npx firebase-tools@latest deploy --only hosting:mobile-web",
+    "deploy:web": "npx firebase-tools@latest deploy --only hosting:regents",
+    "deploy:all": "npx firebase-tools@latest deploy --only hosting",
+    "deploy": "npx firebase-tools@latest deploy --only hosting:regents"
   },
   "dependencies": {
     "firebase": "^12.13.0",

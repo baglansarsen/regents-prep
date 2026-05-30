@@ -9,14 +9,17 @@
 import React, { useRef, useState } from 'react'
 import {
   View, Text, TouchableOpacity, StyleSheet,
-  Dimensions, Animated,
+  Dimensions, Animated, Platform,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { dark, light } from '../theme'
 import { T } from '../styles/duo'
 
-const { width: W, height: H } = Dimensions.get('window')
+const W_RAW = Dimensions.get('window').width
+const H_RAW = Dimensions.get('window').height
+const W = Platform.OS === 'web' ? Math.min(Math.max(W_RAW || 360, 320), 480) : W_RAW
+const H = Platform.OS === 'web' ? Math.min(Math.max(H_RAW || 800, 568), 850) : H_RAW
 
 // ── Mini phone mockup previewing a theme ─────────────────────────────────────
 function PhoneMockup({ colors, label, selected, onPress, scale }) {
