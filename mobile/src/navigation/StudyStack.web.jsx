@@ -1,0 +1,25 @@
+import React from 'react'
+import { createStackNavigator } from '@react-navigation/stack'
+import HomeScreen          from '../screens/HomeScreen'
+import QuizScreen          from '../screens/QuizScreen'
+import ResultsScreen       from '../screens/ResultsScreen'
+import FlashcardScreen     from '../screens/FlashcardScreen'
+import SpeedRoundScreen    from '../screens/SpeedRoundScreen'
+import SkipChallengeScreen from '../screens/SkipChallengeScreen'
+import StudyScreen         from '../screens/StudyScreen'
+
+const Stack = createStackNavigator()
+
+export default function StudyStack() {
+  return (
+    <Stack.Navigator screenOptions={{ headerShown: false }}>
+      <Stack.Screen name="Home"          component={HomeScreen} />
+      <Stack.Screen name="Quiz"          component={QuizScreen} />
+      <Stack.Screen name="Results"       component={ResultsScreen} />
+      <Stack.Screen name="Flashcards"    component={FlashcardScreen} />
+      <Stack.Screen name="SpeedRound"    component={SpeedRoundScreen} />
+      <Stack.Screen name="SkipChallenge" component={SkipChallengeScreen} />
+      <Stack.Screen name="Study"         component={StudyScreen} />
+    </Stack.Navigator>
+  )
+}
