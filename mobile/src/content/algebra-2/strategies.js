@@ -141,5 +141,29 @@ export const STRATEGIES = {
       'Powers of i reduction is a two-second operation: find the remainder when dividing by 4.',
       'FOIL of two complex binomials takes about 30 seconds — a predictable, manageable calculation.'
     ]
+  },
+
+  'algebra-2-u7': {
+    mentalPrep: [
+      'Check MODE first: Degree vs Radian must match the question, and a+bi mode is needed for complex-number work.',
+      'Reset trig graphs with ZOOM 7: ZTrig and other graphs with ZOOM 0: ZoomFit before reading values.',
+      'For a logarithm of an unusual base, use MATH ▶ A: logBASE( or the change-of-base formula log(x)/log(b).'
+    ],
+    answeringTechniques: [
+      'Solve log, exponential, and trig equations graphically: enter each side as Y1/Y2 and use 2nd CALC ▶ 5: intersect.',
+      'Identify the data pattern before choosing a regression — ExpReg for growth/decay, SinReg for periodic, QuadReg for parabolic.'
+    ],
+    guessingStrategy: [
+      'Plug answer choices into Y= and graph or evaluate them; the calculator can confirm an answer you cannot solve algebraically.',
+      'For "which model fits" questions, run the matching regression and compare r (or R²) — the value closest to 1 wins.'
+    ],
+    processOfElimination: [
+      'Graph the function and eliminate choices whose domain, asymptote, or end behavior the screen contradicts (log is only defined for x > 0).',
+      'Eliminate trig answers that ignore the MODE — a Degree-mode value will not match a Radian-mode choice.'
+    ],
+    timeManagement: [
+      'Use 2nd TABLE to scan many function values at once instead of evaluating them one at a time.',
+      'Store messy intermediate results with STO▶ rather than retyping long decimals — faster and less error-prone.'
+    ]
   }
 }

@@ -57,4 +57,11 @@ export const ACHIEVEMENTS = [
     icon: '🔥',
     condition: s => (s.streak ?? 0) >= 5,
   },
+  {
+    id: 'a2_calc_master',
+    title: 'Calculator Pro',
+    description: 'Pass Using the Graphing Calculator with 80%+',
+    icon: '🧮',
+    condition: s => s.topicsPassed?.has(TOPICS.CALCULATOR),
+  },
 ]

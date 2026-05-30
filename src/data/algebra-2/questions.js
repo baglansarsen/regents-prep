@@ -5,6 +5,7 @@ export const TOPICS = {
   TRIGONOMETRY:           'Trigonometric Functions',
   STATISTICS:             'Statistics & Probability',
   COMPLEX_NUMBERS:        'Complex Numbers',
+  CALCULATOR:             'Using the Graphing Calculator',
 }
 
 export const TOPIC_ICONS = {
@@ -14,6 +15,7 @@ export const TOPIC_ICONS = {
   [TOPICS.TRIGONOMETRY]:         '📐',
   [TOPICS.STATISTICS]:           '🎲',
   [TOPICS.COMPLEX_NUMBERS]:      '🔮',
+  [TOPICS.CALCULATOR]:           '🧮',
 }
 
 export const questions = [
@@ -378,6 +380,131 @@ export const questions = [
     correct: 2,
     explanation: 'There are 34 data values. The median is between the 17th and 18th values. Cumulative counts: 50–60: 3, 60–70: 10 (total 13), 70–80: 12 (total 25). The 17th and 18th values both fall in the 70–80 interval.',
     diagram: { type: 'histogram-a2' },
+  },
+
+  // ── Using the Graphing Calculator ────────────────────────────────────────────
+  // Lesson 1 — Modes & advanced entry
+  {
+    id: 2037,
+    topic: TOPICS.CALCULATOR,
+    text: 'Before evaluating sin(30°), which MODE setting must match the problem?',
+    choices: ['Radian vs Degree', 'Func vs Par', 'Connected vs Dot', 'Sci vs Eng'],
+    correct: 0,
+    explanation: 'Press MODE and pick Degree or Radian to match the question. sin(30) returns 0.5 only in Degree mode; in Radian mode it gives a different value.'
+  },
+  {
+    id: 2038,
+    topic: TOPICS.CALCULATOR,
+    text: 'To enter the imaginary unit i, you press:',
+    choices: ['2nd  .', 'MATH  1', '2nd  ANS', 'ALPHA  i'],
+    correct: 0,
+    explanation: 'i is the 2nd function of the decimal-point key (2nd [.]). Set MODE to a+bi so complex results display correctly.'
+  },
+  {
+    id: 2039,
+    topic: TOPICS.CALCULATOR,
+    text: 'To compute e raised to a power, you press:',
+    choices: ['2nd  LN', '2nd  LOG', 'MATH  e', '2nd  ^'],
+    correct: 0,
+    explanation: 'e^( is the 2nd function of the LN key. For example, 2nd [LN] 1 gives e ≈ 2.718.'
+  },
+  {
+    id: 2040,
+    topic: TOPICS.CALCULATOR,
+    text: 'What is the fastest way to evaluate a logarithm with base 2, log₂(8)?',
+    choices: ['MATH ▶ A: logBASE(', 'LOG then 8', 'LN then 8', '2nd LOG'],
+    correct: 0,
+    explanation: 'The TI-84 MATH menu includes A: logBASE( — enter logBASE(8,2) to get 3. If unavailable, use the change-of-base formula log(8)/log(2).'
+  },
+  {
+    id: 2041,
+    topic: TOPICS.CALCULATOR,
+    text: 'Which command gives the cube root of 27 directly?',
+    choices: ['MATH ▶ 4: ³√(', 'MATH ▶ 1: ▶Frac', '2nd [x²]', 'x²'],
+    correct: 0,
+    explanation: 'MATH ▶ 4: ³√( computes the cube root: ³√(27) = 3. For other roots use MATH ▶ 5: ˣ√.'
+  },
+  // Lesson 2 — Graphing advanced functions
+  {
+    id: 2042,
+    topic: TOPICS.CALCULATOR,
+    text: 'A sine graph looks cramped in the standard window. Which zoom fits trig functions with π-based x-values?',
+    choices: ['ZOOM 7: ZTrig', 'ZOOM 6: ZStandard', 'ZOOM 1: ZBox', 'ZOOM 2: Zoom In'],
+    correct: 0,
+    explanation: 'ZOOM 7: ZTrig sets the x-window in multiples of π/2 and the y-range to about −4…4 — ideal for sine and cosine graphs.'
+  },
+  {
+    id: 2043,
+    topic: TOPICS.CALCULATOR,
+    text: 'To graph y = 2ˣ, you enter the exponent in Y= using which key?',
+    choices: ['^', '2nd LN', 'x²', 'MATH'],
+    correct: 0,
+    explanation: 'Type 2^X next to Y1 using the ^ key, then GRAPH. Use e^( for base-e exponentials.'
+  },
+  {
+    id: 2044,
+    topic: TOPICS.CALCULATOR,
+    text: 'A 4th-degree polynomial shoots off-screen so you cannot see all its turning points. What should you adjust?',
+    choices: ['The WINDOW (Ymin/Ymax)', 'The MODE', 'The FORMAT', 'The STAT PLOT'],
+    correct: 0,
+    explanation: 'High-degree polynomials can run past the screen. Widen Ymin/Ymax in WINDOW (or use ZoomFit) so every turning point and x-intercept is visible.'
+  },
+  {
+    id: 2045,
+    topic: TOPICS.CALCULATOR,
+    text: 'When you graph y = log(x), the curve appears only for x:',
+    choices: ['greater than 0', 'less than 0', 'equal to 0', 'all real numbers'],
+    correct: 0,
+    explanation: 'The domain of log(x) is x > 0, so the graph shows only to the right of the y-axis. A blank left side is expected, not an error.'
+  },
+  {
+    id: 2046,
+    topic: TOPICS.CALCULATOR,
+    text: 'Which zoom keeps your x-window but rescales y so the graph fills the screen?',
+    choices: ['ZOOM 0: ZoomFit', 'ZOOM 6: ZStandard', 'ZOOM 7: ZTrig', 'ZOOM 3: Zoom Out'],
+    correct: 0,
+    explanation: 'ZOOM 0: ZoomFit keeps the current x-window and rescales y to fit the visible graph — handy for functions with large or unknown ranges.'
+  },
+  // Lesson 3 — Solving & regression
+  {
+    id: 2047,
+    topic: TOPICS.CALCULATOR,
+    text: 'To solve log(x) = 2 − x graphically, enter each side as Y1 and Y2 and use:',
+    choices: ['2nd CALC ▶ 5: intersect', '2nd CALC ▶ 2: zero', '2nd CALC ▶ 1: value', 'STAT ▶ CALC'],
+    correct: 0,
+    explanation: 'Graph Y1 = log(X) and Y2 = 2 − X, then 2nd [CALC] 5: intersect reads the x where they meet — the solution of the equation.'
+  },
+  {
+    id: 2048,
+    topic: TOPICS.CALCULATOR,
+    text: 'To find a real root of x³ − 2x − 5 = 0 from its graph, you use:',
+    choices: ['2nd CALC ▶ 2: zero', '2nd CALC ▶ 3: minimum', '2nd CALC ▶ 1: value', '2nd TABLE'],
+    correct: 0,
+    explanation: 'Graph Y1 = X³ − 2X − 5 and use 2nd [CALC] 2: zero with a left bound, right bound, and guess to locate where it crosses the x-axis.'
+  },
+  {
+    id: 2049,
+    topic: TOPICS.CALCULATOR,
+    text: 'Data curves upward like growth. Which regression fits the model y = a·bˣ?',
+    choices: ['STAT ▶ CALC ▶ 0: ExpReg', 'STAT ▶ CALC ▶ 4: LinReg(ax+b)', 'STAT ▶ CALC ▶ 5: QuadReg', 'STAT ▶ CALC ▶ C: SinReg'],
+    correct: 0,
+    explanation: 'STAT ▶ CALC ▶ 0: ExpReg fits an exponential y = a·bˣ to data in L1/L2. Use QuadReg for parabolic data and SinReg for periodic data.'
+  },
+  {
+    id: 2050,
+    topic: TOPICS.CALCULATOR,
+    text: 'To find sin⁻¹(0.5) — the angle whose sine is 0.5 — you press:',
+    choices: ['2nd  SIN', 'SIN then x⁻¹', 'MATH  SIN', 'ALPHA  SIN'],
+    correct: 0,
+    explanation: 'Inverse sine sin⁻¹ is the 2nd function of the SIN key. In Degree mode, 2nd [SIN] 0.5 returns 30°.'
+  },
+  {
+    id: 2051,
+    topic: TOPICS.CALCULATOR,
+    text: 'Periodic data such as tides or daily temperature is best modeled with which regression?',
+    choices: ['SinReg', 'LinReg', 'ExpReg', 'QuadReg'],
+    correct: 0,
+    explanation: 'STAT ▶ CALC ▶ C: SinReg fits a sinusoidal model y = a·sin(bx + c) + d — the right choice for data that repeats in cycles.'
   },
 ]
 

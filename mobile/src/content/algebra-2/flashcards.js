@@ -42,6 +42,16 @@ export const flashcards = [
   { topic: TOPICS.COMPLEX_NUMBERS, term: 'Complex Conjugate', definition: 'The conjugate of (a + bi) is (a − bi); their product is always a real number: a² + b².' },
   { topic: TOPICS.COMPLEX_NUMBERS, term: 'Powers of i', definition: 'i¹ = i, i² = −1, i³ = −i, i⁴ = 1; the pattern repeats every 4 powers.' },
   { topic: TOPICS.COMPLEX_NUMBERS, term: 'Discriminant and Complex Roots', definition: 'When b² − 4ac < 0, the quadratic has two complex conjugate roots of the form p ± qi.' },
+
+  // Using the Graphing Calculator
+  { topic: TOPICS.CALCULATOR, term: 'Radian/Degree MODE', definition: 'MODE sets the angle units. Match it to the problem — sin(30) is 0.5 only in Degree mode.' },
+  { topic: TOPICS.CALCULATOR, term: 'i (imaginary unit)', definition: '2nd [.] enters i. Set MODE to a+bi so complex results display correctly.' },
+  { topic: TOPICS.CALCULATOR, term: 'e^(', definition: '2nd [LN] gives e^( for base-e exponentials; e ≈ 2.718.' },
+  { topic: TOPICS.CALCULATOR, term: 'logBASE(', definition: 'MATH ▶ A: logBASE( evaluates a log of any base, e.g. logBASE(8,2) = 3. Otherwise use log(x)/log(b).' },
+  { topic: TOPICS.CALCULATOR, term: 'ZTrig', definition: 'ZOOM ▶ 7: ZTrig sets the x-window in multiples of π/2 — ideal for sine and cosine graphs.' },
+  { topic: TOPICS.CALCULATOR, term: 'intersect', definition: '2nd CALC ▶ 5: intersect solves an equation graphically by finding where Y1 and Y2 meet.' },
+  { topic: TOPICS.CALCULATOR, term: 'ExpReg / SinReg', definition: 'STAT ▶ CALC fits a model to data: 0: ExpReg for growth/decay, C: SinReg for periodic data.' },
+  { topic: TOPICS.CALCULATOR, term: 'sin⁻¹', definition: '2nd [SIN] gives the inverse sine — the angle whose sine is a given value.' },
 ]
 
 export const FLASHCARD_TOPIC_LIST = Object.values(TOPICS)

@@ -22,6 +22,7 @@ export const TOPIC_ORDER = [
   TOPICS.TRIGONOMETRY,
   TOPICS.STATISTICS,
   TOPICS.COMPLEX_NUMBERS,
+  TOPICS.CALCULATOR,
 ]
 
 export function getExamContextQuestions(topic) {

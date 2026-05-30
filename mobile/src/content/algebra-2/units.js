@@ -20,6 +20,7 @@ export const UNITS = [
   { id: 'algebra-2-u4', title: 'Trigonometric Functions',        icon: TOPIC_ICONS[TOPICS.TRIGONOMETRY],        color: '#22d3ee', darkColor: '#06b6d4', topic: TOPICS.TRIGONOMETRY,        lessonCount: 3 },
   { id: 'algebra-2-u5', title: 'Statistics & Probability',       icon: TOPIC_ICONS[TOPICS.STATISTICS],          color: '#67e8f9', darkColor: '#22d3ee', topic: TOPICS.STATISTICS,          lessonCount: 3 },
   { id: 'algebra-2-u6', title: 'Complex Numbers',                icon: TOPIC_ICONS[TOPICS.COMPLEX_NUMBERS],     color: '#a5f3fc', darkColor: '#67e8f9', topic: TOPICS.COMPLEX_NUMBERS,     lessonCount: 3 },
+  { id: 'algebra-2-u7', title: 'Using the Graphing Calculator',  icon: TOPIC_ICONS[TOPICS.CALCULATOR],          color: '#14b8a6', darkColor: '#0f766e', topic: TOPICS.CALCULATOR,          lessonCount: 3 },
 ]
 
 const LESSON_SIZE = 20
