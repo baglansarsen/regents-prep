@@ -35,7 +35,7 @@ function topicIndicator(pct) {
 }
 
 export default function ExamResultsScreen({ route, navigation }) {
-  const { exam, questions, answers, correct, total, xpEarned } = route.params
+  const { exam, questions, answers, writtenAnswers = {}, correct, total, xpEarned } = route.params
   const { C } = useTheme()
   const s = makeStyles(C)
   const [showReview, setShowReview] = useState(false)
@@ -215,6 +215,31 @@ export default function ExamResultsScreen({ route, navigation }) {
         </TouchableOpacity>
 
         {showReview && questions.map((q, i) => {
+          if (q.type === 'written') {
+            const studentText = writtenAnswers[i] ?? writtenAnswers[String(i)] ?? ''
+            return (
+              <View key={i} style={[s.reviewRow, { borderColor: studentText ? C.brand : C.border }]}>
+                <Text style={[T.label, { color: C.textMuted, width: 22, textTransform: 'none', letterSpacing: 0 }]}>{i + 1}</Text>
+                <View style={{ flex: 1, gap: 4 }}>
+                  <Text style={[T.label, { color: C.brand, textTransform: 'none', letterSpacing: 0 }]}>Part {q.part} · Written</Text>
+                  <Text style={[T.small, { color: C.text, lineHeight: 18 }]} numberOfLines={2}>{q.text}</Text>
+                  {studentText ? (
+                    <Text style={[T.small, { color: C.textMuted, fontStyle: 'italic', lineHeight: 16 }]} numberOfLines={3}>
+                      Your answer: {studentText}
+                    </Text>
+                  ) : (
+                    <Text style={[T.small, { color: C.wrong }]}>Not answered</Text>
+                  )}
+                  {q.modelAnswer && (
+                    <Text style={[T.small, { color: C.correct, lineHeight: 16 }]} numberOfLines={4}>
+                      ✓ Model: {q.modelAnswer}
+                    </Text>
+                  )}
+                </View>
+                <Text>{studentText ? '✍️' : '—'}</Text>
+              </View>
+            )
+          }
           const userAns   = answers[i] ?? answers[String(i)]
           const correctAns = q.correct ?? q.correctIndex
           const isCorrect  = userAns === correctAns

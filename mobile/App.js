@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { View, StyleSheet, TurboModuleRegistry, Platform } from 'react-native'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
 import { StatusBar } from 'expo-status-bar'
@@ -20,7 +20,7 @@ import { PetProvider }    from './src/context/PetContext'
 import { SpeechProvider } from './src/context/SpeechContext'
 import AppNavigator from './src/navigation/AppNavigator'
 
-SplashScreen.preventAutoHideAsync()
+if (Platform.OS !== 'web') SplashScreen.preventAutoHideAsync()
 
 function Inner() {
   const { isDark } = useTheme()
@@ -30,12 +30,20 @@ function Inner() {
     Nunito_800ExtraBold,
     Nunito_900Black,
   })
+  const [fontTimeout, setFontTimeout] = useState(false)
 
   useEffect(() => {
-    if (fontsLoaded) SplashScreen.hideAsync()
+    if (fontsLoaded && Platform.OS !== 'web') SplashScreen.hideAsync()
   }, [fontsLoaded])
 
-  if (!fontsLoaded) return null
+  // On web, don't block forever if fonts fail — render after 3 s regardless
+  useEffect(() => {
+    if (Platform.OS !== 'web') return
+    const t = setTimeout(() => setFontTimeout(true), 3000)
+    return () => clearTimeout(t)
+  }, [])
+
+  if (!fontsLoaded && !fontTimeout) return null
 
   const rootStyle = Platform.OS === 'web'
     ? [s.root, s.webContainer, { backgroundColor: isDark ? '#0f172a' : '#ffffff', borderColor: isDark ? '#1e293b' : '#cbd5e1', height: '100%' }]

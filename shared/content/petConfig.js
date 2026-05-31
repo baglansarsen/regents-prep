@@ -167,6 +167,18 @@ export const HAPPINESS_ITEMS = [
     happinessRestore:  40,
     reaction:          'celebrate',
   },
+  {
+    id:                'xpPotion',
+    icon:              '🧪',
+    name:              'XP Potion',
+    desc:              'Double XP for 10 minutes!',
+    cost:              150,
+    accent:            '#C084FC',
+    dark:              '#7E22CE',
+    happinessRestore:  15,
+    reaction:          'celebrate',
+    isPotion:          true,
+  },
 ]
 
 // ─── Cosmetics ────────────────────────────────────────────────────────────────
@@ -198,6 +210,42 @@ export const COSMETICS = [
     accent: '#F59E0B',
     dark:   '#B45309',
     rare:   true,
+  },
+  {
+    id:     'wizardHat',
+    icon:   '🧙',
+    name:   'Wizard Hat',
+    desc:   'A stellar wizard hat. Radiates academic magic.',
+    cost:   450,
+    accent: '#8B5CF6',
+    dark:   '#6D28D9',
+  },
+  {
+    id:     'cowboyHat',
+    icon:   '🤠',
+    name:   'Cowboy Hat',
+    desc:   'Yeehaw! Time to study hard.',
+    cost:   350,
+    accent: '#F59E0B',
+    dark:   '#B45309',
+  },
+  {
+    id:     'crown',
+    icon:   '👑',
+    name:   'Royal Crown',
+    desc:   'A royal crown fit for a legendary scholar.',
+    cost:   800,
+    accent: '#EC4899',
+    dark:   '#BE185D',
+  },
+  {
+    id:     'sunglasses',
+    icon:   '🕶️',
+    name:   'Cool Sunglasses',
+    desc:   'Too cool for studying, but studying anyway.',
+    cost:   250,
+    accent: '#3B82F6',
+    dark:   '#1D4ED8',
   },
 ]
 

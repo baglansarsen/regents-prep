@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { doc, getDoc, setDoc, increment } from 'firebase/firestore'
 import { db } from '../firebase'
+import { getLevel } from '@content/levels'
 
 const LS_KEY = 'regents_xp_v1'
 

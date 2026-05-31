@@ -9,12 +9,9 @@ if (Platform.OS !== 'web') {
   } catch (_) {}
 }
 
-// ─── Configure these in your RevenueCat dashboard ───────────────────────────
-// Get your keys at: https://app.revenuecat.com → Project → API Keys
 const RC_API_KEY_IOS     = 'appl_REPLACE_WITH_YOUR_REVENUECAT_IOS_KEY'
 const RC_API_KEY_ANDROID = 'goog_REPLACE_WITH_YOUR_REVENUECAT_ANDROID_KEY'
 
-// These must match the product IDs in App Store Connect / Google Play Console
 export const PRODUCT_IDS = {
   MONTHLY : 'unlimited_hearts_monthly',
   YEARLY  : 'unlimited_hearts_yearly',
@@ -25,12 +22,16 @@ export const PRODUCT_IDS = {
 
 export const ENTITLEMENT_KEY = 'premium'
 
+const noop = async () => false
+const isWeb = Platform.OS === 'web'
+
 export function usePurchases(uid) {
   const [isSubscribed, setIsSubscribed] = useState(false)
   const [loading,      setLoading]      = useState(false)
 
+  // All hooks must be called unconditionally — gate behavior inside them
   useEffect(() => {
-    if (!Purchases) return
+    if (isWeb || !Purchases) return
     async function init() {
       try {
         const key = Platform.OS === 'ios' ? RC_API_KEY_IOS : RC_API_KEY_ANDROID
@@ -45,13 +46,9 @@ export function usePurchases(uid) {
     init()
   }, [uid])
 
-  async function getEntitlementActive(customerInfo) {
-    return !!customerInfo.entitlements.active[ENTITLEMENT_KEY]
-  }
-
   const purchaseMonthly = useCallback(async () => {
-    if (!Purchases) {
-      Alert.alert('Requires Native Build', 'Run with expo run:ios or expo run:android to use purchases.')
+    if (isWeb || !Purchases) {
+      if (!isWeb) Alert.alert('Requires Native Build', 'Run with expo run:ios or expo run:android to use purchases.')
       return false
     }
     setLoading(true)
@@ -62,7 +59,7 @@ export function usePurchases(uid) {
       ) ?? offerings.current?.monthly
       if (!pkg) throw new Error('Monthly plan not found in offerings')
       const { customerInfo } = await Purchases.purchasePackage(pkg)
-      const active = await getEntitlementActive(customerInfo)
+      const active = !!customerInfo.entitlements.active[ENTITLEMENT_KEY]
       setIsSubscribed(active)
       if (active) Alert.alert('Welcome to Premium! 💜', 'You now have unlimited hearts. Happy studying!')
       return active
@@ -75,8 +72,8 @@ export function usePurchases(uid) {
   }, [])
 
   const purchaseYearly = useCallback(async () => {
-    if (!Purchases) {
-      Alert.alert('Requires Native Build', 'Run with expo run:ios or expo run:android to use purchases.')
+    if (isWeb || !Purchases) {
+      if (!isWeb) Alert.alert('Requires Native Build', 'Run with expo run:ios or expo run:android to use purchases.')
       return false
     }
     setLoading(true)
@@ -87,7 +84,7 @@ export function usePurchases(uid) {
       ) ?? offerings.current?.annual
       if (!pkg) throw new Error('Yearly plan not found in offerings')
       const { customerInfo } = await Purchases.purchasePackage(pkg)
-      const active = await getEntitlementActive(customerInfo)
+      const active = !!customerInfo.entitlements.active[ENTITLEMENT_KEY]
       setIsSubscribed(active)
       if (active) Alert.alert('Welcome to Premium! 💜', 'You now have unlimited hearts for a whole year!')
       return active
@@ -100,8 +97,8 @@ export function usePurchases(uid) {
   }, [])
 
   const donate = useCallback(async (productId) => {
-    if (!Purchases) {
-      Alert.alert('Requires Native Build', 'Run with expo run:ios or expo run:android to use purchases.')
+    if (isWeb || !Purchases) {
+      if (!isWeb) Alert.alert('Requires Native Build', 'Run with expo run:ios or expo run:android to use purchases.')
       return false
     }
     setLoading(true)
@@ -120,14 +117,14 @@ export function usePurchases(uid) {
   }, [])
 
   const restorePurchases = useCallback(async () => {
-    if (!Purchases) {
-      Alert.alert('Requires Native Build', 'Run with expo run:ios or expo run:android to use purchases.')
+    if (isWeb || !Purchases) {
+      if (!isWeb) Alert.alert('Requires Native Build', 'Run with expo run:ios or expo run:android to use purchases.')
       return false
     }
     setLoading(true)
     try {
       const info   = await Purchases.restorePurchases()
-      const active = await getEntitlementActive(info)
+      const active = !!info.entitlements.active[ENTITLEMENT_KEY]
       setIsSubscribed(active)
       Alert.alert(
         active ? 'Restored! 💜' : 'No Subscription Found',
@@ -144,12 +141,5 @@ export function usePurchases(uid) {
     }
   }, [])
 
-  return {
-    isSubscribed,
-    loading,
-    purchaseMonthly,
-    purchaseYearly,
-    donate,
-    restorePurchases,
-  }
+  return { isSubscribed, loading, purchaseMonthly, purchaseYearly, donate, restorePurchases }
 }
