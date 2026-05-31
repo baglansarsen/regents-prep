@@ -1,5 +1,7 @@
 import {
   signInWithPopup,
+  signInWithRedirect,
+  sendPasswordResetEmail,
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
   signInAnonymously,
@@ -16,7 +18,20 @@ export function useAuth() {
   const { user } = useAuthContext()
 
   async function signInWithGoogle() {
-    await signInWithPopup(auth, googleProvider)
+    try {
+      await signInWithPopup(auth, googleProvider)
+    } catch (err) {
+      // Popup blocked or unavailable — fall back to redirect flow
+      if (err.code === 'auth/popup-blocked' || err.code === 'auth/popup-closed-by-user' || err.code === 'auth/cancelled-popup-request') {
+        await signInWithRedirect(auth, googleProvider)
+      } else {
+        throw err
+      }
+    }
+  }
+
+  async function resetPassword(email) {
+    await sendPasswordResetEmail(auth, email)
   }
 
   async function signInWithEmail(email, password) {
@@ -48,5 +63,5 @@ export function useAuth() {
     await signOut(auth)
   }
 
-  return { user, signInWithGoogle, signInWithEmail, signUpWithEmail, signInAsGuest, linkEmailToGuest, linkGoogleToGuest, logOut }
+  return { user, signInWithGoogle, signInWithEmail, signUpWithEmail, signInAsGuest, linkEmailToGuest, linkGoogleToGuest, logOut, resetPassword }
 }

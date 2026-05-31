@@ -192,7 +192,7 @@ function UnitPath({ units, subjectHistory, masteryPct, isMastered, onStart, onTi
   )
 }
 
-function StudyTab({ user, subjectHistory, onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, masteryPct, isMastered, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, levelInfo, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit, questions, TOPICS, TOPIC_ICONS, LAB_TYPES, onRegentsExams, onTips, subjectData }) {
+function StudyTab({ user, subjectHistory, onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, masteryPct, isMastered, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, levelInfo, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit, questions, TOPICS, TOPIC_ICONS, LAB_TYPES, onRegentsExams, onTips, subjectData, onPracticeMistakes, mistakeCount }) {
   const units = subjectData?.UNITS ?? []
 
   return (
@@ -205,7 +205,7 @@ function StudyTab({ user, subjectHistory, onStart, onPracticeTest, onDiagnostic,
             Good {timeOfDay()} 👋
           </div>
           <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 2 }}>
-            {user?.displayName?.split(' ')[0] ?? 'Student'} · {levelInfo?.emoji} Lv.{levelInfo?.level} {levelInfo?.name}
+            {user?.displayName?.split(' ')[0] ?? 'Student'} · {levelInfo?.emoji} Lv.{levelInfo?.level} {levelInfo?.title ?? levelInfo?.name}
           </div>
         </div>
         <span style={{ fontSize: 13, fontWeight: 700, color: '#f59e0b', background: 'rgba(245,158,11,0.12)', padding: '4px 10px', borderRadius: 20 }}>
@@ -280,11 +280,12 @@ function StudyTab({ user, subjectHistory, onStart, onPracticeTest, onDiagnostic,
         </p>
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
           {[
-            { icon: '⚡', label: 'Quick Quiz',    sub: 'Random questions', color: '#58CC02', dark: '#46a802', fn: () => onStart(null) },
-            { icon: '🏃', label: 'Speed Round',   sub: '60 seconds',       color: '#1CB0F6', dark: '#0d8ecb', fn: onSpeedRound },
+            { icon: '⚡', label: 'Quick Quiz',    sub: 'Random questions',             color: '#58CC02', dark: '#46a802', fn: () => onStart(null) },
+            { icon: '🏃', label: 'Speed Round',   sub: '60 seconds',                   color: '#1CB0F6', dark: '#0d8ecb', fn: onSpeedRound },
             { icon: '📝', label: 'Practice Test', sub: `${questions.length} questions`, color: '#A855F7', dark: '#7c3aed', fn: onPracticeTest },
-            { icon: '🔍', label: 'Diagnostic',    sub: '18 questions',     color: '#FF9600', dark: '#cc7800', fn: onDiagnostic },
-          ].map(({ icon, label, sub, color, dark, fn }) => (
+            { icon: '🔍', label: 'Diagnostic',    sub: '18 questions',                 color: '#FF9600', dark: '#cc7800', fn: onDiagnostic },
+            onPracticeMistakes && { icon: '📕', label: 'Practice Mistakes', sub: `${mistakeCount} question${mistakeCount !== 1 ? 's' : ''}`, color: '#B45309', dark: '#92400E', fn: onPracticeMistakes, badge: mistakeCount },
+          ].filter(Boolean).map(({ icon, label, sub, color, dark, fn, badge }) => (
             <button
               key={label}
               onClick={fn}
@@ -298,8 +299,17 @@ function StudyTab({ user, subjectHistory, onStart, onPracticeTest, onDiagnostic,
               onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.03)'}
               onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
             >
-              <div style={{ fontSize: 24, marginBottom: 6 }}>{icon}</div>
-              <div style={{ fontWeight: 800, fontSize: 13, color: '#fff' }}>{label}</div>
+              <div style={{ position: 'relative', display: 'inline-block' }}>
+                <span style={{ fontSize: 24 }}>{icon}</span>
+                {badge > 0 && (
+                  <span style={{
+                    position: 'absolute', top: -6, right: -10, background: '#ef4444',
+                    color: '#fff', borderRadius: 10, fontSize: 9, fontWeight: 800,
+                    padding: '1px 5px', lineHeight: 1.4,
+                  }}>{badge > 99 ? '99+' : badge}</span>
+                )}
+              </div>
+              <div style={{ fontWeight: 800, fontSize: 13, color: '#fff', marginTop: 6 }}>{label}</div>
               <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.8)', marginTop: 2 }}>{sub}</div>
             </button>
           ))}
@@ -363,12 +373,26 @@ function buildMCQuestion(card, flashcards) {
   return { prompt, promptLabel, correct, options }
 }
 
-function CardsTab({ uid, earnXP, xp, flashcards: rawFlashcards, FLASHCARD_TOPIC_LIST }) {
+function CardsTab({ uid, earnXP, xp, flashcards: rawFlashcards, FLASHCARD_TOPIC_LIST: rawTopicList }) {
   // Ensure every card has a stable id (subject flashcards use topic::term)
   const flashcards = useMemo(
     () => (rawFlashcards ?? []).map((c) => ({ ...c, id: c.id ?? `${c.topic}::${c.term}` })),
     [rawFlashcards],
   )
+
+  // Normalise topic list — some subjects export [{label,value}], others export string[]
+  const FLASHCARD_TOPIC_LIST = useMemo(() => {
+    const raw = rawTopicList ?? []
+    if (!raw.length) return [{ label: '⚡ All', value: null }]
+    const items = typeof raw[0] === 'string'
+      ? raw.map((t) => ({ label: t, value: t }))
+      : raw
+    // Ensure "All" entry exists
+    return items.some((i) => i.value === null)
+      ? items
+      : [{ label: '⚡ All', value: null }, ...items]
+  }, [rawTopicList])
+
   const { review, resetAll, buildDeck, getStats } = useSpacedRepetition(uid, flashcards)
 
   const [topic,    setTopic]   = useState(null)
@@ -378,13 +402,19 @@ function CardsTab({ uid, earnXP, xp, flashcards: rawFlashcards, FLASHCARD_TOPIC_
   const [done,     setDone]    = useState(false)
   const [mode,     setMode]    = useState('flip')  // 'flip' | 'mc'
   const [mcQ,      setMcQ]     = useState(null)
-  const [mcPicked, setMcPicked]= useState(null)    // index of selected MC option
-  const [xpFlash,  setXpFlash] = useState(null)    // e.g. '+5' shown briefly after rating
+  const [mcPicked, setMcPicked]= useState(null)
+  const [xpFlash,  setXpFlash] = useState(null)
 
-  // Snapshot the deck once per session — never rebuild reactively mid-session.
-  // Reactive rebuilds caused the deck to shuffle under the index after every review,
-  // making the counter skip half the cards and re-show already-reviewed ones.
   const [deck, setDeck] = useState(() => buildDeck(null, false))
+
+  // Reset deck when subject changes (rawFlashcards reference changes)
+  useEffect(() => {
+    setTopic(null)
+    setBrowse(false)
+    setIndex(0); setFlipped(false); setDone(false); setMcPicked(null); setMcQ(null)
+    setDeck(buildDeck(null, false))
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [rawFlashcards])
 
   const stats = useMemo(() => getStats(topic), [topic, getStats])
   const card  = deck[index]
@@ -1309,6 +1339,7 @@ export default function HomeScreen({
   onSendFriendRequest, onAcceptFriendRequest, onDeclineFriendRequest,
   challenges, onSendBattle, onAcceptBattle, onDeclineBattle, onPlayBattle,
   initialTab, onAdmin, onUpgrade,
+  onPracticeMistakes, mistakeCount,
   // Pets & leagues
   petWidget, onLeague, tier, weeklyXP, petQuest, onShop,
 }) {
@@ -1376,6 +1407,8 @@ export default function HomeScreen({
           questions={questions} TOPICS={TOPICS} TOPIC_ICONS={TOPIC_ICONS} LAB_TYPES={LAB_TYPES}
           onRegentsExams={onRegentsExams}
           onTips={onTips}
+          onPracticeMistakes={onPracticeMistakes}
+          mistakeCount={mistakeCount}
         />
       )}
       {tab === 'cards' && <CardsTab uid={user?.uid} earnXP={earnXP} xp={xp} flashcards={flashcards} FLASHCARD_TOPIC_LIST={FLASHCARD_TOPIC_LIST} />}

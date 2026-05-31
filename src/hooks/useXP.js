@@ -4,25 +4,6 @@ import { db } from '../firebase'
 
 const LS_KEY = 'regents_xp_v1'
 
-// ─── Level definitions (match mobile exactly) ───────────────────────────────
-export const LEVELS = [
-  { level: 1, name: 'Beginner',    emoji: '🌱', min: 0    },
-  { level: 2, name: 'Learner',     emoji: '📖', min: 200  },
-  { level: 3, name: 'Student',     emoji: '✏️',  min: 500  },
-  { level: 4, name: 'Scholar',     emoji: '🎓', min: 1000 },
-  { level: 5, name: 'Expert',      emoji: '🔬', min: 2000 },
-  { level: 6, name: 'Master',      emoji: '🏆', min: 4000 },
-  { level: 7, name: 'Grandmaster', emoji: '⭐', min: 8000 },
-]
-
-export function getLevel(xp) {
-  const current = [...LEVELS].reverse().find((l) => xp >= l.min) ?? LEVELS[0]
-  const nextIdx = LEVELS.indexOf(current) + 1
-  const next = LEVELS[nextIdx] ?? null
-  const progress = next ? (xp - current.min) / (next.min - current.min) : 1
-  return { ...current, next, progress }
-}
-
 // ISO 8601 week key: "2026-W21" — resets every Monday (matches mobile getWeekKey)
 export function getWeekKey() {
   const d = new Date()

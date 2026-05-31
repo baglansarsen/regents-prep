@@ -1,6 +1,5 @@
 import { useState, useCallback, useMemo, useEffect, useRef } from 'react'
-import { regentsXP } from '@content/levels'
-import { getLevel } from './hooks/useXP'
+import { regentsXP, getLevel } from '@content/levels'
 import * as livingEnvData from '@content/living-environment/index'
 import * as earthScienceData from '@content/earth-science/index'
 import * as chemistryData from '@content/chemistry/index'
@@ -23,6 +22,7 @@ import { useFriends } from './hooks/useFriends'
 import { useChallenges } from './hooks/useChallenges'
 import { usePet } from './hooks/usePet'
 import { useLeague } from './hooks/useLeague'
+import { useMistakes } from './hooks/useMistakes'
 import LoginScreen from './screens/LoginScreen'
 import HomeScreen from './screens/HomeScreen'
 import QuizScreen from './screens/QuizScreen'
@@ -48,9 +48,21 @@ import PetEvolutionScreen from './screens/PetEvolutionScreen'
 import LeagueScreen from './screens/LeagueScreen'
 import PetWidget from './components/PetWidget'
 
+const SCALE_TABLE = [
+  [100,100],[98,99],[96,98],[94,97],[92,96],[90,95],[88,94],[86,93],[84,91],
+  [82,89],[80,87],[78,85],[76,83],[74,81],[72,79],[70,77],[68,75],[66,73],
+  [64,71],[62,69],[60,67],[58,65],[56,63],[54,61],[52,59],[50,57],[48,55],
+  [46,53],[44,51],[42,49],[40,47],[38,45],[36,43],[34,40],[32,37],[30,34],
+  [28,31],[26,28],[24,25],[22,22],[20,19],[0,0],
+]
+function toRegentsScale(pct) {
+  for (const [raw, sc] of SCALE_TABLE) if (pct >= raw) return sc
+  return 0
+}
+
 export default function App() {
   const { theme, setTheme } = useTheme()
-  const { user, signInWithGoogle, signInWithEmail, signUpWithEmail, signInAsGuest, linkEmailToGuest, linkGoogleToGuest, logOut } = useAuth()
+  const { user, signInWithGoogle, signInWithEmail, signUpWithEmail, signInAsGuest, linkEmailToGuest, linkGoogleToGuest, logOut, resetPassword } = useAuth()
 
   const [subject, setSubjectRaw] = useState(
     () => localStorage.getItem('regents_subject') || 'living-environment'
@@ -117,6 +129,7 @@ export default function App() {
     acceptRequest, declineRequest, removeFriend, logActivity,
   } = useFriends(user?.uid, user)
   const { challenges, sendBattleRequest, acceptBattle, declineBattle, submitScore } = useChallenges(user?.uid)
+  const { mistakes, mistakeCount, saveMistakes } = useMistakes()
 
   // ── Pets ──────────────────────────────────────────────────────────────────
   const {
@@ -275,8 +288,22 @@ export default function App() {
     const xpEarned = Math.round(result.score)
     earnXP(xpEarned)
     logActivity({ type: 'quiz', label: `scored ${pct}% on ${activeTopic ?? 'All Topics'}`, emoji: pct >= 85 ? '🏆' : pct >= 65 ? '✅' : '📝', xp: xpEarned })
+    // Save wrong answers to mistakes bank
+    const wrong = result.results?.filter((r) => !r.correct).map((r) => r.question).filter(Boolean)
+    if (wrong?.length) saveMistakes(wrong, subject)
     if (user?.isAnonymous) setShowUpgrade(true)
-  }, [activeTopic, saveResult, markStudied, earnXP, logActivity, user])
+  }, [activeTopic, saveResult, markStudied, earnXP, logActivity, user, saveMistakes, subject])
+
+  const startPracticeMistakes = useCallback(() => {
+    const forSubject = mistakes.filter((q) => (q.subject ?? 'living-environment') === subject)
+    const pool = (forSubject.length ? forSubject : mistakes).slice(0, 50)
+    if (!pool.length) return
+    setQuestionSet([...pool].sort(() => Math.random() - 0.5))
+    setActiveTopic(null)
+    setActiveLessonIndex(null)
+    setNoTimer(true)
+    setScreen('quiz')
+  }, [mistakes, subject])
 
   const buyStreak = useCallback(async () => {
     const ok = await spendXP(100)
@@ -310,8 +337,9 @@ export default function App() {
   }, [])
 
   const finishRegentsExam = useCallback((result) => {
-    const scaled = result.total ? Math.round((result.correct / result.total) * 100) : 0
-    const xpEarned = regentsXP(scaled)
+    const pct = result.total ? Math.round((result.correct / result.total) * 100) : 0
+    const scaled = toRegentsScale(pct)
+    const xpEarned = regentsXP(pct)
     // Save personal best
     const PB_KEY = 'regents_personal_best_v1'
     try {
@@ -339,6 +367,7 @@ export default function App() {
           onSignInEmail={signInWithEmail}
           onSignUpEmail={signUpWithEmail}
           onGuest={signInAsGuest}
+          onResetPassword={resetPassword}
         />
       </div>
     )
@@ -448,6 +477,8 @@ export default function App() {
           onLabPractice={startLabPractice}
           onAdmin={user?.email === ADMIN_EMAIL ? () => setScreen('admin') : null}
           onUpgrade={user?.isAnonymous ? () => setShowUpgrade(true) : null}
+          onPracticeMistakes={mistakes.length ? startPracticeMistakes : null}
+          mistakeCount={mistakeCount}
           onLeague={() => setScreen('league')}
           onShop={() => setScreen('petShop')}
           tier={tier}

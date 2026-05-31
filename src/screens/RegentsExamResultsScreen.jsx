@@ -7,13 +7,30 @@ function getPersonalBests() {
   try { return JSON.parse(localStorage.getItem(PB_KEY) || '{}') } catch { return {} }
 }
 
+// NY Regents approximate conversion: raw % → scaled score (65 = passing)
+// Based on typical conversion charts — not official but close enough for practice
+const SCALE_TABLE = [
+  [100,100],[98,99],[96,98],[94,97],[92,96],[90,95],[88,94],[86,93],[84,91],
+  [82,89],[80,87],[78,85],[76,83],[74,81],[72,79],[70,77],[68,75],[66,73],
+  [64,71],[62,69],[60,67],[58,65],[56,63],[54,61],[52,59],[50,57],[48,55],
+  [46,53],[44,51],[42,49],[40,47],[38,45],[36,43],[34,40],[32,37],[30,34],
+  [28,31],[26,28],[24,25],[22,22],[20,19],[18,16],[16,13],[14,10],[0,0],
+]
+
+function toScaledScore(pct) {
+  for (const [raw, scaled] of SCALE_TABLE) {
+    if (pct >= raw) return scaled
+  }
+  return 0
+}
+
 export default function RegentsExamResultsScreen({ exam, results, correct, total, timedOut, xpEarned, scaled: scaledProp, onRetake, onHome }) {
   const [showAll, setShowAll] = useState(false)
-  const scaled = scaledProp ?? (total ? Math.round((correct / total) * 100) : 0)
-  const passed = scaled >= 65
-  const pb = getPersonalBests()[exam?.id]
-  const isNewPB = pb === scaled && scaled > 0
   const pct    = total ? Math.round((correct / total) * 100) : 0
+  const scaled = scaledProp ?? toScaledScore(pct)
+  const passed = scaled >= 65
+  const pb = getPersonalBests()[exam?.id] ?? -1
+  const isNewPB = scaled > pb && scaled > 0
 
   const wrongItems = results.filter((r) => !r.correct)
   const byPart = {}
