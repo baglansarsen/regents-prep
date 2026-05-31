@@ -1,0 +1,25 @@
+// Chemistry Regents — August 2025
+export default {
+  id: 'chem-aug-2025',
+  subject: 'chemistry',
+  year: 2025,
+  session: 'August',
+  totalMinutes: 180,
+  questions: [
+    { number: 10, part: 'A', text: 'Which formula represents a polar molecule?', choices: ['F²', 'CO²', 'CH4', 'NH³ Part A Answer all questions in this part. Directions (1–30): For each statement or question, record on your separate answer sheet the number of the word or expression that, of those given, best completes the statement or answers the question. Some questions may require the use of the 2011 Edition Reference Tables for Physical Setting/Chemistry. P.S./Chem.–Aug. ’25'], topic: 'Chemical Bonding', correct: 3 },
+    { number: 11, part: 'A', text: 'What occurs when two fluorine atoms react to produce a fluorine molecule?', choices: ['A bond is broken as energy is absorbed.', 'A bond is broken as energy is released.', 'A bond is formed as energy is absorbed.', 'A bond is formed as energy is released.'], topic: 'Atomic Structure', correct: 3 },
+    { number: 12, part: 'A', text: 'A sample of NaCl(s) and a sample of NaCl( ) have', choices: ['the same phase and the same physical properties', 'the same phase and different physical properties', 'different phases and the same physical properties', 'different phases and different physical properties'], topic: 'General', correct: 3 },
+    { number: 13, part: 'A', text: 'Which substance can not be broken down by a chemical change?', choices: ['manganese', 'propanal', 'ethene', 'water'], topic: 'General', correct: 0 },
+    { number: 14, part: 'A', text: 'All aqueous solutions of glucose are classified as', choices: ['mixtures with a fixed proportion', 'compounds with a fixed proportion', 'mixtures with proportions that may vary', 'compounds with proportions that may vary'], topic: 'Solutions', correct: 2 },
+    { number: 15, part: 'A', text: 'At which pressure and temperature does a sample of He(g) behave most like an ideal gas?', choices: ['0.5 atm and 137 K', '2.0 atm and 137 K', '0.5 atm and 546 K', '2.0 atm and 546 K'], topic: 'General', correct: 1 },
+    { number: 16, part: 'A', text: 'The kinetic molecular theory states that the particles of an ideal gas', choices: ['constantly move in circular paths', 'have no attractive forces between them', 'create energy when gas particles collide with each other', 'are separated by very small distances relative to their sizes'], topic: 'Stoichiometry', correct: 1 },
+    { number: 17, part: 'A', text: 'A reaction is most likely to occur when reactant particles collide with proper', choices: ['energy and orientation', 'mass and volume', 'phase and charge', 'pressure and density'], topic: 'General', correct: 0 },
+    { number: 18, part: 'A', text: 'A sample of gas is in a sealed, rigid cylinder at constant volume. Which changes occur in the force of collisions of the gas particles and frequency of their collisions when the sample is cooled?', choices: ['Force of collisions decreases and frequency of collisions increases.', 'Force of collisions decreases and frequency of collisions decreases.', 'Force of collisions increases and frequency of collisions increases.', 'Force of collisions increases and frequency of collisions decreases.'], topic: 'General', correct: 1 },
+    { number: 19, part: 'A', text: 'At STP, 2.0 liters of Ar(g) contains 5.4 3 1022 atoms. How many atoms are contained in 2.0 liters of Ne(g) at STP?', choices: ['2.7 3 1011', '5.4 3 1011', '2.7 3 1022', '5.4 3 1022'], topic: 'Atomic Structure', correct: 3 },
+    { number: 20, part: 'A', text: 'When a system is at equilibrium, the concentrations of the reactants and the products must be', choices: ['equal', 'decreasing', 'constant', 'increasing'], topic: 'Solutions', correct: 1 },
+    { number: 21, part: 'A', text: 'Which expression represents the heat of reaction for a chemical change?', choices: ['(potential energy of the products) − (potential energy of the reactants)', '(potential energy of the products) + (potential energy of the reactants)', '(kinetic energy of the products) − (kinetic energy of the reactants)', '(kinetic energy of the products) + (kinetic energy of the reactants) P.S./Chem.–Aug. ’25'], topic: 'Matter & Energy', correct: 0 },
+    { number: 22, part: 'A', text: 'When a catalyst is added to a chemical reaction it produces', choices: ['a greater heat of reaction', 'a greater activation energy for the reactants', 'an alternate reaction pathway', 'an alternate potential energy for the products'], topic: 'Equilibrium & Kinetics', correct: 2 },
+    { number: 23, part: 'A', text: 'Naturally occurring chemical systems tend to undergo changes toward', choices: ['lower energy and lower disorder', 'lower energy and greater disorder', 'higher energy and lower disorder', 'higher energy and greater disorder'], topic: 'General', correct: 1 },
+    { number: 24, part: 'A', text: 'Which formula represents an organic compound?', choices: ['PCl³', 'CH3Cl', 'BrCl', 'NH4Cl 25'], topic: 'Organic Chemistry', correct: 2 },
+  ]
+}

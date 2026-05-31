@@ -1,0 +1,29 @@
+// Algebra 2 Regents — August 2025
+export default {
+  id: 'a2-aug-2025',
+  subject: 'algebra-2',
+  year: 2025,
+  session: 'August',
+  totalMinutes: 180,
+  questions: [
+    { number: 1, part: 'A', text: 'x³ + 3x² − 4x and g(x) = 5log³ (x + 10), then which value, rounded to the nearest tenth, is not a solution to f(x) = g(x)?', choices: ['−6.9', '2.2', '−1.4', '9.8 Algebra II – Aug. ’25'], topic: 'Exponential & Logarithmic', correct: 0 },
+    { number: 2, part: 'A', text: 'bh Parallelogram A = bh Circle A = pr² Circle C = pd or C = 2pr General Prisms V = Bh Cylinder V = pr2h Sphere V = 4_', choices: ['', '', '', ''], topic: 'Exponential & Logarithmic', correct: 1, image: '/images/exams/alg2-august-2025/q2.png' },
+    { number: 3, part: 'A', text: '', choices: ['', '', '', ''], topic: 'General', correct: 2 },
+    { number: 6, part: 'A', text: '', choices: ['', '', '', ''], topic: 'General', correct: 2 },
+    { number: 10, part: 'A', text: 'Reynaldo got a score of 40 on his first test. If he gets a score of 100 on every additional test, which equation can be used to determine the number of additional tests, x, he would need to take in order to raise his test average to an 80?', choices: ['40 + 100x x + 1 = 80', '40 + 100 + x x = 80', '40 + 100x x = 80', '40 + 100 + x x + 1 = 80'], topic: 'General', correct: 0 },
+    { number: 11, part: 'A', text: 'Given f(x) = ln(x + 5), what is the smallest integer value of x for which f(x) is defined?', choices: ['−5', '−1', '−4', '0'], topic: 'Exponential & Logarithmic', correct: 1 },
+    { number: 12, part: 'A', text: 'Which expression is equivalent to 6x³ + 7x² − 9x − 1 2x − 1 when x ? 2 1 ?', choices: ['3x² − 2x − 4', '3x² + 2x + 5 − 6 2x − 1', '3x² + 5x − 7 2 8 2x − 1', '3x² + 5x − 2 2 3 2x − 1 Algebra II – Aug. ’25'], topic: 'General', correct: 3 },
+    { number: 13, part: 'A', text: 'A sketch for p(x) is shown below, where a > 0 and b > 0. p(x) x 2a b An equation for p(x) could be', choices: ['p(x) = (x + a)(x − b)', 'p(x) = (x − a)(x + b)', 'p(x) = (x + a)²(x − b)', 'p(x) = (x − a)²(x + b)'], topic: 'General', correct: 1, image: '/images/exams/alg2-august-2025/q13.png' },
+    { number: 14, part: 'A', text: 'If f(x) = − 1 x³ + 3x² − 4x and g(x) = 5log³ (x + 10), then which value, rounded to the nearest tenth, is not a solution to f(x) = g(x)?', choices: ['−6.9', '2.2', '−1.4', '9.8 Algebra II – Aug. ’25'], topic: 'Exponential & Logarithmic', correct: 3 },
+    { number: 15, part: 'A', text: 'The graph of f(x) is shown below. f(x) = 5 x Which graph represents f(x + 3)? f(x) = 5', choices: ['', '', '', 'f(x) = 5 f(x) = 5 f(x) = 5 x x x x Algebra II – Aug. ’25'], topic: 'General', correct: 3, image: '/images/exams/alg2-august-2025/q15.png' },
+    { number: 16, part: 'A', text: 'What is one solution to the system of equations shown below? x² + y² = 20 y = x − 6', choices: ['x = 2', 'y = 24', '(4,22)', '(4, 2)'], topic: 'Systems & Inequalities', correct: 1 },
+    { number: 17, part: 'A', text: 'At a high school, 10th-grade students were recently asked if they walk to school and if they eat breakfast. The survey results are summarized in the table below. Walks to School Doesn’t Walk to School Eats Breakfast 7 53 Doesn’t Eat Breakfast 10 30 What is the probability that a randomly selected 10th-grade student from the school walks to school or eats breakfast?', choices: ['0.07', '0.77', '0.70', '0.84 Algebra II – Aug. ’25'], topic: 'Statistics & Probability', correct: 1, image: '/images/exams/alg2-august-2025/q17.png' },
+    { number: 18, part: 'A', text: 'A vehicle\'s depreciation rate is 9.2% per year. If a vehicle costs $34,950, then which recursive formula models the value of the vehicle n years after it was purchased?', choices: ['an = 34,950(1.092)n', 'an = 34,950(0.921)n', 'a0 = 34,950 an = 1.092an21', 'a0 = 34,950 an = 0.908an21'], topic: 'Trigonometric Functions', correct: 3 },
+    { number: 19, part: 'A', text: 'When factored completely, (3x − 1)² − 5(3x − 1) + 6 is equivalent to', choices: ['(3x − 3)(3x − 4)', '3(x − 1)(3x − 4)', '3x(3x − 7)', '(3x + 1)(3x − 2)'], topic: 'Polynomial Functions', correct: 2 },
+    { number: 20, part: 'A', text: 'Given E(t) = 26(2) t 20 represents the mass, in grams, of a substance after t minutes in a laboratory, which statement or statements must be true? I. The initial mass of the substance is 26 grams. II. The mass of the substance doubles every 20 days. III. The mass of the substance after 3 hours is approximately 29 grams.', choices: ['I, only', 'I and II, only', 'III, only', 'I and III, only Algebra II – Aug. ’25'], topic: 'Trigonometric Functions', correct: 0 },
+    { number: 21, part: 'A', text: 'For x > 0, which expression is equivalent to 9x² 3·9x?', choices: ['95x 7 2', '9 + 6 x + 3', '96x³', '9 = 6 x 7 6'], topic: 'General', correct: 3 },
+    { number: 22, part: 'A', text: 'The number of people who have read an article grows exponentially throughout the day and can be modeled by the function N(t) = 2(1.0098)t, where t represents the number of minutes since the article has been posted. Which equation best represents the number of people who have read the article in terms of the growth rate per second?', choices: ['N(t) = 2(1.000163) t 60', 'N(t) = 2(1.79524) t 60', 'N(t) = 2(1.000163)60t', 'N(t) = 2(1.79524)60t'], topic: 'Trigonometric Functions', correct: 1 },
+    { number: 23, part: 'A', text: 'Which equation represents a parabola with focus (2,25) and directrix y = 3?', choices: ['(x − 2)² = 216(y + 1)', '(x + 2)² = 216(y − 1)', '(x − 2)² = 216(y − 1)', '(x − 2)² = 16(y + 1) Algebra II – Aug. ’25'], topic: 'General', correct: 0 },
+    { number: 24, part: 'A', text: 'Which graph shows a fourth-degree polynomial function with exactly two imaginary roots? y x y x', choices: ['', 'x', 'x', 'y y Algebra II – Aug. ’25'], topic: 'Polynomial Functions', correct: 0, image: '/images/exams/alg2-august-2025/q24.png' },
+  ]
+}

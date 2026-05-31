@@ -1,0 +1,30 @@
+// Geometry Regents — January 2025
+export default {
+  id: 'geo-jan-2025',
+  subject: 'geometry',
+  year: 2025,
+  session: 'January',
+  totalMinutes: 180,
+  questions: [
+    { number: 1, part: 'A', text: '', choices: ['', '', '', ''], topic: 'General', correct: 3 },
+    { number: 2, part: 'A', text: 'and the origin (3) 1__ 2 and vertex A (2) − and the origin (4) − and vertex A Geometry – Jan. ’25 − Line segment PAQ has endpoints whose coordinates are P(−2,6) and Q(3,24). What are the coordinates of point A, such that PA:AQ = 2:3?', choices: ['(1,0)', '(−1,4)', '(2,22)', '(0,2)'], topic: 'Coordinate Geometry', correct: 3 },
+    { number: 3, part: 'A', text: 'On the set of axes below, congruent parallelograms ABCD and RSTU are graphed. y x R U T S A D B C Which sequence of transformations maps ABCD onto RSTU?', choices: ['a reflection over the x-axis followed by a translation ten units to the left and one unit up', 'a translation four units down followed by a reflection over the y-axis', 'a reflection over the y-axis followed by a translation of two units down', 'a translation ten units to the left followed by a reflection over the x-axis Geometry – Jan. ’25'], topic: 'Triangles & Congruence', correct: 1, image: '/images/exams/geo-january-2025/q3.png' },
+    { number: 4, part: 'A', text: 'feet. Approximately how many rotations will the tire make in one mile?', choices: ['373', '1328', '747', '−347 24'], topic: 'Transformations', correct: 0 },
+    { number: 6, part: 'A', text: '', choices: ['', '', '', ''], topic: 'General', correct: 0 },
+    { number: 10, part: 'A', text: 'In circle O, chord ___ KA intersects diameter ___ YN at S. If mYK = 120° and mYA = 105°, what is m/ASN?', choices: ['−2.5°', '97.5°', '75°', '120° Geometry – Jan. ’25'], topic: 'Circles', correct: 2 },
+    { number: 11, part: 'A', text: 'Triangle ABC is graphed on the set of axes below. The vertices of nABC have coordinates A(−3,4), B(−5,21), and C(3,22). y x A B C What is the area of nABC?', choices: ['16', '−1', '−0', '−4'], topic: 'Triangles & Congruence', correct: 2 },
+    { number: 12, part: 'A', text: 'In nABC below, ___ DE is a midsegment, and ___ BD > ___ DE. E C A D B Which statement is always true?', choices: ['nABC is isosceles', '___ BD > ___ BE', 'nABC is scalene', '___ DA > ___ EC Geometry – Jan. ’25'], topic: 'General', correct: 0 },
+    { number: 13, part: 'A', text: 'As shown in the diagram below, ____ JKL || ______ MNOP, ____ KRN, and ___ OR > ___ ON. R K L P O N J M If m/POR = 116°, what is m/LKN?', choices: ['58°', '122°', '116°', '128°'], topic: 'General', correct: 2 },
+    { number: 14, part: 'A', text: 'The ratio of similarity of square ABCD to square WXYZ is 2:5. If AB = x + 3 and WX = 3x + 5, then the perimeter of ABCD is', choices: ['8', '32', '−0', '80 Geometry – Jan. ’25'], topic: 'Similarity & Proof', correct: 2 },
+    { number: 15, part: 'A', text: 'In parallelogram ABCD below, diagonals ___ AC and ___ BD intersect at E. B D C E A Which transformation would map nABC onto nCDA?', choices: ['a reflection over ___ AC', 'a reflection over ___ DB', 'a clockwise rotation of 90° about point E', 'a clockwise rotation of 180° about point E'], topic: 'Similarity & Proof', correct: 3 },
+    { number: 16, part: 'A', text: 'The square pyramid drawn below has a volume of 175. If the height of the pyramid is 21, what is the perimeter of the base?', choices: ['5', '−0', '10', '−5 Geometry – Jan. ’25'], topic: 'Area & Volume', correct: 2 },
+    { number: 17, part: 'A', text: 'A glass fish tank is designed to be placed on a stand in the corner of a room with perpendicular walls. The tank can be modeled using part of a cylinder, as shown below. The inner length of the fish tank along the wall is 22 inches, and the height of the tank is 27 inches. Fish tank 22 in 27 in Fish tank stand 22 in How much water, to the nearest gallon, does the fish tank hold? [1 gal = 231 in³]', choices: ['44', '89', '59', '178'], topic: 'Area & Volume', correct: 0, image: '/images/exams/geo-january-2025/q17.png' },
+    { number: 18, part: 'A', text: 'Line m, whose equation is y = 22x + 8, is dilated by a scale factor of 1__ 2 centered at the origin. Which equation represents the image of line m?', choices: ['y = 2x + 4', 'y = 2x + 8', 'y = 22x + 4', 'y = 22x + 8 Geometry – Jan. ’25'], topic: 'Similarity & Proof', correct: 1 },
+    { number: 19, part: 'A', text: 'In right triangle RST below, altitude ___ SV is drawn to hypotenuse ___ RT. S V R T Which statement is always true?', choices: ['RT ___ ST = ST ___ VT', 'RV ___ SV = SV ___ RT', 'VR ___ VT = VT ___ VS', 'TR ___ VR = VR ___ SR'], topic: 'Triangles & Congruence', correct: 0 },
+    { number: 20, part: 'A', text: 'What is the measure, in radians, of a central angle that intercepts an arc length of 12π cm in a circle with a diameter of 36 cm?', choices: ['π__ 6', '2π ___ 3', 'π__ 3', '3π ___ 2'], topic: 'Circles', correct: 2 },
+    { number: 21, part: 'A', text: '', choices: ['', '', '', ''], topic: 'General', correct: 3 },
+    { number: 22, part: 'A', text: 'in 27 in Fish tank stand 22 in How much water, to the nearest gallon, does the fish tank hold? [1 gal = 231 in³]', choices: ['44', '89', '59', '178 18'], topic: 'General', correct: 1, image: '/images/exams/geo-january-2025/q22.png' },
+    { number: 23, part: 'A', text: 'The car tire shown in the photograph below has a diameter of − 1__ 4 feet. Approximately how many rotations will the tire make in one mile?', choices: ['373', '1328', '747', '−347'], topic: 'Circles', correct: 1 },
+    { number: 24, part: 'A', text: 'In quadrilateral TOWN, ____ OW > ___ TN and ___ OT > ____ WN. Which additional information is sufficient to prove quadrilateral TOWN is a rhombus?', choices: ['___ ON ^ ____ TW', '___ TO ^ ____ OW', '____ OW || ___ TN', '___ ON and ____ TW bisect each other. Geometry – Jan. ’25'], topic: 'General', correct: 0 },
+  ]
+}
