@@ -17,6 +17,7 @@ export default function QuizScreen({
   onClose,
   loseLife,
   updateQuestProgress,
+  pet = null,
 }) {
   const [index, setIndex] = useState(0)
   const [score, setScore] = useState(0)
@@ -26,7 +27,8 @@ export default function QuizScreen({
   const [selected, setSelected] = useState(null) // null, 0-3, 'timeout'
   const [phase, setPhase] = useState('answering') // 'answering' | 'feedback' | 'done'
   const [wrongAnswers, setWrongAnswers] = useState([])
-  const [soundEnabled, setSoundEnabled] = useState(true)
+  const [soundEnabled, setSoundEnabled] = useState(() => localStorage.getItem('@sound_effects_enabled') !== 'false')
+  const [xpAnimation, setXpAnimation] = useState(null) // null or { amount: number, x: number, y: number }
 
   const timerRef = useRef(null)
   
@@ -100,6 +102,10 @@ export default function QuizScreen({
       // Update pet quest progress
       updateQuestProgress('answer_correct', 1)
       
+      // Trigger floating XP animation
+      setXpAnimation({ amount: earned, x: window.innerWidth / 2, y: window.innerHeight / 2 })
+      setTimeout(() => setXpAnimation(null), 1200)
+
       // Play high pitch correct beep using standard AudioContext
       if (soundEnabled) playBeep(523.25, 'sine', 0.15) // C5
     } else {
@@ -226,6 +232,17 @@ export default function QuizScreen({
             {currentQuestion.text}
           </div>
 
+          {/* Question image (diagrams, graphs, charts from CDN) */}
+          {currentQuestion.image && (
+            <div style={{ textAlign: 'center', margin: '12px 0' }}>
+              <img
+                src={`https://regents-csas.web.app${currentQuestion.image}`}
+                alt="Question diagram"
+                style={{ maxWidth: '100%', maxHeight: '320px', borderRadius: '8px', border: '1.5px solid var(--border)' }}
+              />
+            </div>
+          )}
+
           {/* Side-by-side reading content or large visual diagrams */}
           {currentQuestion.context && (
             <div className="question-context">
@@ -331,6 +348,36 @@ export default function QuizScreen({
           </div>
         )}
       </div>
+
+      {/* Floating XP Animation overlay */}
+      {xpAnimation && (
+        <div className="floating-xp" style={{ left: `${xpAnimation.x}px`, top: `${xpAnimation.y}px` }}>
+          +{xpAnimation.amount} XP ⭐
+        </div>
+      )}
+
+      {/* Pet companion reactions bubble */}
+      {pet && pet.chosen && (
+        <div className={`pet-quiz-companion ${selected === null ? 'thinking' : isSelectedCorrect ? 'correct' : 'wrong'}`}>
+          <div className="pet-quiz-sprite-container">
+            <span style={{ fontSize: '48px' }}>
+              {pet.petType === 'axolotl' ? '🦎' : pet.petType === 'fox' ? '🦊' : pet.petType === 'capybara' ? '🦫' : pet.petType === 'bear' ? '🐻' : pet.petType === 'bunny' ? '🐰' : '🐱'}
+            </span>
+            {/* Accessories layers */}
+            {pet.accessories?.includes('graduationCap') && <span className="pet-accessory" style={{ position: 'absolute', top: '-12px', left: '16px', fontSize: '24px' }}>🎓</span>}
+            {pet.accessories?.includes('wizardHat') && <span className="pet-accessory" style={{ position: 'absolute', top: '-14px', left: '16px', fontSize: '24px' }}>🧙</span>}
+            {pet.accessories?.includes('cowboyHat') && <span className="pet-accessory" style={{ position: 'absolute', top: '-14px', left: '16px', fontSize: '24px' }}>🤠</span>}
+            {pet.accessories?.includes('crown') && <span className="pet-accessory" style={{ position: 'absolute', top: '-14px', left: '16px', fontSize: '24px' }}>👑</span>}
+            {pet.accessories?.includes('sunglasses') && <span style={{ position: 'absolute', top: '16px', left: '16px', fontSize: '18px' }}>🕶️</span>}
+            {pet.accessories?.includes('tinyBackpack') && <span style={{ position: 'absolute', bottom: '0px', right: '0px', fontSize: '18px' }}>🎒</span>}
+            {pet.accessories?.includes('glowAura') && <span style={{ position: 'absolute', inset: 0, fontSize: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', animation: 'pulse 1.5s infinite', opacity: 0.3 }}>✨</span>}
+          </div>
+          <div className="pet-quiz-bubble-speech">
+            {selected === null ? '🧐 Focus, buddy!' : isSelectedCorrect ? '🎉 Correct! +XP' : '🥺 You got this!'}
+          </div>
+          <div style={{ fontSize: '10px', fontWeight: 900, color: 'var(--text-muted)' }}>{pet.name}</div>
+        </div>
+      )}
     </div>
   )
 }
