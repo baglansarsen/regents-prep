@@ -3,6 +3,7 @@ const TABS = [
   { id: 'cards',    label: 'Cards',    icon: '🃏' },
   { id: 'progress', label: 'Progress', icon: '📊' },
   { id: 'friends',  label: 'Friends',  icon: '👥' },
+  { id: 'pet',      label: 'Pet',      icon: '🐾' },
   { id: 'profile',  label: 'Profile',  icon: '👤' },
 ]
 

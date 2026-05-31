@@ -147,6 +147,7 @@ export default function App() {
   const [questionSet, setQuestionSet] = useState([])
   const [quizResult, setQuizResult]   = useState(null)
   const [activeTopic, setActiveTopic] = useState(null)
+  const [activeLessonIndex, setActiveLessonIndex] = useState(null)
   const [tipsUnit,    setTipsUnit]    = useState(null)
   const [diagResult, setDiagResult]   = useState(null)
   const [speedResult, setSpeedResult] = useState(null)
@@ -162,13 +163,19 @@ export default function App() {
   // Pet onboarding flag
   const [petChosen, setPetChosen] = useState(() => !!localStorage.getItem('regents_pet_chosen'))
 
-  const startQuiz = useCallback((topic) => {
-    const pool = topic ? getByTopic(topic) : questions
+  const startQuiz = useCallback((topic, lessonIndex = null, lessonCount = null) => {
+    let pool
+    if (lessonIndex != null && sd.getLessonQuestions) {
+      pool = sd.getLessonQuestions(topic, lessonIndex, lessonCount ?? 3)
+    } else {
+      pool = topic ? getByTopic(topic) : questions
+    }
     setQuestionSet(shuffled(pool))
     setActiveTopic(topic)
+    setActiveLessonIndex(lessonIndex)
     setNoTimer(false)
     setScreen('quiz')
-  }, [questions, getByTopic, shuffled])
+  }, [questions, getByTopic, shuffled, sd])
 
   const startPracticeTest = useCallback(() => {
     setQuestionSet(shuffled(questions))
@@ -262,7 +269,7 @@ export default function App() {
     setScreen('results')
     const correct = result.results.filter((r) => r.correct).length
     const pct     = Math.round((correct / result.total) * 100)
-    saveResult({ topic: activeTopic, score: result.score, total: result.total, correct, pct })
+    saveResult({ topic: activeTopic, score: result.score, total: result.total, correct, pct, lessonIndex: activeLessonIndex })
     markStudied()
     // `score` is now denominated in XP (speed + streak baked in), so it IS the payout.
     const xpEarned = Math.round(result.score)
@@ -442,8 +449,10 @@ export default function App() {
           onAdmin={user?.email === ADMIN_EMAIL ? () => setScreen('admin') : null}
           onUpgrade={user?.isAnonymous ? () => setShowUpgrade(true) : null}
           onLeague={() => setScreen('league')}
+          onShop={() => setScreen('petShop')}
           tier={tier}
           weeklyXP={weeklyXP}
+          petQuest={pet?.chosen ? getTodayQuest() : null}
           pet={pet}
           petWidget={pet?.chosen ? (
             <PetWidget

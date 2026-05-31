@@ -1,5 +1,6 @@
 import { useState, useMemo, useEffect } from 'react'
 import { useSpacedRepetition, Q_AGAIN, Q_GOOD, Q_EASY, nextReviewLabel } from '../hooks/useSpacedRepetition'
+import { useLessonProgress } from '../hooks/useLessonProgress'
 import { NY_SCHOOLS, BOROUGHS } from '@content/schools'
 import { useLeaderboard } from '../hooks/useLeaderboard'
 import TabBar from '../components/TabBar'
@@ -45,144 +46,303 @@ const LAB_TYPE_ICONS = {
 
 // ── Study Tab ──────────────────────────────────────────────────────────────
 
-function StudyTab({ onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, masteryPct, isMastered, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, levelInfo, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit, questions, TOPICS, TOPIC_ICONS, LAB_TYPES, onRegentsExams, onTips }) {
-  const allTopics = Object.values(TOPICS ?? {})
+function timeOfDay() {
+  const h = new Date().getHours()
+  if (h < 12) return 'morning'
+  if (h < 17) return 'afternoon'
+  return 'evening'
+}
+
+function UnitPath({ units, subjectHistory, masteryPct, isMastered, onStart, onTips, questions, TOPICS, TOPIC_ICONS, onRegentsExams }) {
+  const { lessonComplete, unitLessonsCompleted, unitComplete } = useLessonProgress(subjectHistory)
+
+  function isUnitUnlocked(unitIdx) {
+    if (unitIdx === 0) return true
+    const prev = units[unitIdx - 1]
+    return prev ? unitLessonsCompleted(prev.topic, prev.lessonCount) >= 1 : false
+  }
+
+  if (!units?.length) return null
+
   return (
-    <div className="tab-panel">
-      <ExamCountdown />
-      <DailyQuestion
-        question={dailyQ}
-        answeredToday={dailyAnswered}
-        record={dailyRecord}
-        loading={dailyLoading}
-        onSubmit={onDailySubmit}
-      />
-      <div className={`streak-card ${studiedToday ? 'streak-card--done' : ''}`}>
-        <div className="streak-card-top">
-          <div className="streak-card-left">
-            <span className="streak-card-flame">🔥</span>
-            <div>
-              <p className="streak-card-count">{streak} day{streak !== 1 ? 's' : ''}</p>
-              <p className="streak-card-status">
-                {studiedToday ? 'Studied today ✓' : streak > 0 ? 'Study today to keep your streak!' : 'Start your streak today!'}
-              </p>
-            </div>
-          </div>
-          <div className="xp-level-block">
-            {levelInfo && (
-              <div className="level-badge">
-                <span className="level-badge-emoji">{levelInfo.emoji}</span>
-                <span className="level-badge-text">Lv.{levelInfo.level} {levelInfo.title}</span>
-                <div className="level-progress-bar">
-                  <div className="level-progress-fill" style={{ width: `${Math.round(levelInfo.progress * 100)}%` }} />
+    <div style={{ padding: '0 20px' }}>
+      {units.map((unit, unitIdx) => {
+        const locked    = !isUnitUnlocked(unitIdx)
+        const done      = unitLessonsCompleted(unit.topic, unit.lessonCount)
+        const total     = unit.lessonCount
+        const mastered  = isMastered?.(unit.topic)
+        const pct       = masteryPct?.(unit.topic)
+        const color     = locked ? '#94a3b8' : unit.color
+
+        return (
+          <div key={unit.id} style={{ marginBottom: 8 }}>
+            {/* Unit banner */}
+            <div style={{
+              borderRadius: 16, padding: '14px 16px', marginBottom: 8,
+              background: locked
+                ? 'linear-gradient(135deg, #1e293b, #334155)'
+                : `linear-gradient(135deg, ${unit.color}, ${unit.darkColor})`,
+              display: 'flex', alignItems: 'center', gap: 12,
+              opacity: locked ? 0.6 : 1,
+            }}>
+              <span style={{ fontSize: 28 }}>{locked ? '🔒' : unit.icon}</span>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ fontWeight: 800, fontSize: 15, color: '#fff' }}>{unit.title}</div>
+                <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.75)', marginTop: 2 }}>
+                  {locked ? 'Complete previous unit to unlock' : `${done}/${total} lessons done${pct != null ? ` · ${pct}% mastery` : ''}`}
                 </div>
-                {levelInfo.next && <span className="level-badge-next">{levelInfo.xpToNext} XP to {levelInfo.next.title}</span>}
+                {!locked && (
+                  <div style={{ height: 4, borderRadius: 2, background: 'rgba(255,255,255,0.25)', marginTop: 6, overflow: 'hidden' }}>
+                    <div style={{ width: `${Math.round((done / total) * 100)}%`, height: '100%', background: '#fff', borderRadius: 2, transition: 'width 0.4s' }} />
+                  </div>
+                )}
               </div>
-            )}
-            <span className="xp-badge">💫 {xp.toLocaleString()} XP</span>
-          </div>
-        </div>
-        <div className="streak-week">
-          {weekDays.map(({ date, dayLabel, studied, isToday }) => (
-            <div key={date} className="streak-day">
-              <div className={`streak-dot ${studied ? 'streak-dot--studied' : ''} ${isToday ? 'streak-dot--today' : ''}`} />
-              <span className={`streak-day-label ${isToday ? 'streak-day-label--today' : ''}`}>{dayLabel}</span>
-            </div>
-          ))}
-        </div>
-        {!studiedToday && (
-          <button className={`buy-streak-btn ${xp < 100 ? 'buy-streak-btn--disabled' : ''}`} onClick={onBuyStreak} disabled={xp < 100}>
-            🔁 Buy streak day · <strong>100 XP</strong>
-            {xp < 100 && <span className="buy-streak-hint"> (need {100 - xp} more XP)</span>}
-          </button>
-        )}
-      </div>
-
-      <div className="quick-actions">
-        <button className="quick-practice" onClick={onPracticeTest}>
-          <span className="quick-icon">📝</span>
-          <div>
-            <p className="quick-name">Practice Test</p>
-            <p className="quick-sub">{questions.length} questions · timed</p>
-          </div>
-        </button>
-        <button className="quick-diagnostic" onClick={onDiagnostic}>
-          <span className="quick-icon">🔍</span>
-          <p className="quick-name">Diagnostic</p>
-          <p className="quick-sub">18 questions</p>
-        </button>
-        <button className="quick-speed" onClick={onSpeedRound}>
-          <span className="quick-icon">⚡</span>
-          <p className="quick-name">Speed Round</p>
-          <p className="quick-sub">60 seconds</p>
-        </button>
-        <button className="quick-context" onClick={onContextPractice}>
-          <span className="quick-icon">📄</span>
-          <p className="quick-name">Context Practice</p>
-          <p className="quick-sub">Read & analyze</p>
-        </button>
-        {onRegentsExams && (
-          <button className="quick-practice" onClick={onRegentsExams} style={{ background: 'linear-gradient(135deg, #7c3aed, #4f46e5)' }}>
-            <span className="quick-icon">📋</span>
-            <div>
-              <p className="quick-name" style={{ color: '#fff' }}>Regents Exams</p>
-              <p className="quick-sub" style={{ color: '#c4b5fd' }}>Real past exams by year</p>
-            </div>
-          </button>
-        )}
-      </div>
-
-      {/* Lab Practice */}
-      <div className="lab-section">
-        <p className="lab-section-title">🧪 Lab Practice</p>
-        <div className="lab-btn-row">
-          {Object.entries(LAB_TYPES).map(([key, label]) => (
-            <button key={key} className="lab-btn" onClick={() => onLabPractice(key)}>
-              <span className="lab-btn-icon">{LAB_TYPE_ICONS[key]}</span>
-              <span className="lab-btn-label">{label}</span>
-            </button>
-          ))}
-          <button className="lab-btn lab-btn--all" onClick={() => onLabPractice(null)}>
-            <span className="lab-btn-icon">🧪</span>
-            <span className="lab-btn-label">All Lab Questions</span>
-          </button>
-        </div>
-      </div>
-
-      <section className="topic-grid-section">
-        <button className="topic-card topic-card--all" onClick={() => onStart(null)}>
-          <span className="topic-icon">⚡</span>
-          <span className="topic-name">All Topics</span>
-          <span className="topic-count">{questions.length} questions</span>
-          <MasteryBadge topic={null} masteryPct={masteryPct} isMastered={isMastered} />
-        </button>
-        {allTopics.map((topic) => {
-          const count    = questions.filter((q) => q.topic === topic).length
-          const unlocked = isUnlocked(topic)
-          const hint     = unlockHint(topic)
-          return (
-            <button key={topic} className={`topic-card ${!unlocked ? 'topic-card--locked' : ''}`} onClick={() => unlocked && onStart(topic)} disabled={!unlocked}>
-              <div className="topic-card-header">
-                <span className="topic-icon">{unlocked ? TOPIC_ICONS[topic] : '🔒'}</span>
-                {unlocked && <MasteryBadge topic={topic} masteryPct={masteryPct} isMastered={isMastered} />}
-              </div>
-              <span className="topic-name">{topic}</span>
-              {unlocked ? <span className="topic-count">{count} questions</span> : <span className="topic-locked-hint">{hint}</span>}
-              {unlocked && onTips && (
-                <div
-                  role="button"
-                  tabIndex={0}
-                  className="topic-card-tips-btn"
-                  onClick={(e) => { e.stopPropagation(); onTips(topic) }}
-                  onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.stopPropagation(); onTips(topic) } }}
+              {!locked && onTips && (
+                <button
+                  onClick={(e) => { e.stopPropagation(); onTips(unit.topic) }}
+                  style={{ background: 'rgba(255,255,255,0.2)', border: 'none', borderRadius: 8, padding: '4px 10px', color: '#fff', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
                 >
                   💡 Tips
-                </div>
+                </button>
               )}
+            </div>
+
+            {/* Lesson nodes */}
+            {!locked && (
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, padding: '0 4px 4px', justifyContent: 'center' }}>
+                {Array.from({ length: total }, (_, li) => {
+                  const done = lessonComplete(unit.topic, li)
+                  return (
+                    <button
+                      key={li}
+                      onClick={() => onStart(unit.topic, li, unit.lessonCount)}
+                      style={{
+                        width: 72, height: 72, borderRadius: '50%', border: 'none',
+                        background: done
+                          ? `linear-gradient(135deg, ${unit.color}, ${unit.darkColor})`
+                          : 'var(--surface, #1e293b)',
+                        outline: `3px solid ${done ? unit.color : '#475569'}`,
+                        outlineOffset: 2,
+                        cursor: 'pointer', display: 'flex', flexDirection: 'column',
+                        alignItems: 'center', justifyContent: 'center', gap: 2,
+                        boxShadow: done ? `0 4px 12px ${unit.color}66` : 'none',
+                        transition: 'transform 0.15s',
+                      }}
+                      onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.08)'}
+                      onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                    >
+                      <span style={{ fontSize: done ? 20 : 16 }}>{done ? '✅' : unit.icon}</span>
+                      <span style={{ fontSize: 10, fontWeight: 700, color: done ? '#fff' : '#94a3b8' }}>L{li + 1}</span>
+                    </button>
+                  )
+                })}
+                {/* Challenge node */}
+                {(() => {
+                  const challengeDone = unitComplete(unit.topic, unit.lessonCount)
+                  const allLessonsDone = done === total
+                  return (
+                    <button
+                      onClick={() => allLessonsDone && onStart(unit.topic, unit.lessonCount, unit.lessonCount)}
+                      disabled={!allLessonsDone}
+                      style={{
+                        width: 72, height: 72, borderRadius: '50%', border: 'none',
+                        background: challengeDone
+                          ? 'linear-gradient(135deg, #D97706, #F59E0B)'
+                          : allLessonsDone ? 'linear-gradient(135deg, #7c3aed, #6d28d9)' : '#1e293b',
+                        outline: `3px solid ${challengeDone ? '#F59E0B' : allLessonsDone ? '#7c3aed' : '#334155'}`,
+                        outlineOffset: 2,
+                        cursor: allLessonsDone ? 'pointer' : 'not-allowed', opacity: allLessonsDone ? 1 : 0.4,
+                        display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 2,
+                        boxShadow: challengeDone ? '0 4px 12px #F59E0B66' : 'none',
+                        transition: 'transform 0.15s',
+                      }}
+                      onMouseEnter={(e) => { if (allLessonsDone) e.currentTarget.style.transform = 'scale(1.08)' }}
+                      onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                    >
+                      <span style={{ fontSize: 20 }}>{challengeDone ? '🏆' : allLessonsDone ? '⚡' : '🔒'}</span>
+                      <span style={{ fontSize: 9, fontWeight: 700, color: allLessonsDone ? '#fff' : '#475569' }}>Challenge</span>
+                    </button>
+                  )
+                })()}
+              </div>
+            )}
+          </div>
+        )
+      })}
+
+      {/* Regents Exams at the bottom of the path */}
+      {onRegentsExams && (
+        <button
+          onClick={onRegentsExams}
+          style={{
+            width: '100%', padding: '14px 16px', borderRadius: 16, border: 'none', marginTop: 8,
+            background: 'linear-gradient(135deg, #7c3aed, #4f46e5)',
+            display: 'flex', alignItems: 'center', gap: 12, cursor: 'pointer',
+          }}
+        >
+          <span style={{ fontSize: 28 }}>📋</span>
+          <div style={{ textAlign: 'left' }}>
+            <div style={{ fontWeight: 800, fontSize: 15, color: '#fff' }}>Regents Exams</div>
+            <div style={{ fontSize: 12, color: '#c4b5fd' }}>Real past exams by year</div>
+          </div>
+          <span style={{ marginLeft: 'auto', color: '#c4b5fd', fontSize: 18 }}>→</span>
+        </button>
+      )}
+    </div>
+  )
+}
+
+function StudyTab({ user, subjectHistory, onStart, onPracticeTest, onDiagnostic, onSpeedRound, onContextPractice, onLabPractice, masteryPct, isMastered, isUnlocked, unlockHint, streak, studiedToday, weekDays, xp, levelInfo, onBuyStreak, dailyQ, dailyAnswered, dailyRecord, dailyLoading, onDailySubmit, questions, TOPICS, TOPIC_ICONS, LAB_TYPES, onRegentsExams, onTips, subjectData }) {
+  const units = subjectData?.UNITS ?? []
+
+  return (
+    <div className="tab-panel" style={{ padding: '0 0 16px' }}>
+
+      {/* ── Greeting header ─────────────────────────────────────────────── */}
+      <div style={{ padding: '12px 20px 0', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+        <div>
+          <div style={{ fontSize: 18, fontWeight: 800, color: 'var(--text)' }}>
+            Good {timeOfDay()} 👋
+          </div>
+          <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 2 }}>
+            {user?.displayName?.split(' ')[0] ?? 'Student'} · {levelInfo?.emoji} Lv.{levelInfo?.level} {levelInfo?.name}
+          </div>
+        </div>
+        <span style={{ fontSize: 13, fontWeight: 700, color: '#f59e0b', background: 'rgba(245,158,11,0.12)', padding: '4px 10px', borderRadius: 20 }}>
+          💫 {xp.toLocaleString()} XP
+        </span>
+      </div>
+
+      {/* ── Week streak dots ────────────────────────────────────────────── */}
+      <div style={{ display: 'flex', justifyContent: 'space-between', padding: '12px 20px' }}>
+        {weekDays.map(({ date, dayLabel, studied, isToday }) => (
+          <div key={date} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
+            <div style={{
+              width: 32, height: 32, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center',
+              fontSize: 13, fontWeight: 700,
+              background: studied ? 'var(--brand, #58CC02)' : 'var(--surface2, #1e293b)',
+              border: isToday ? '2.5px solid var(--brand, #58CC02)' : '2px solid transparent',
+              color: studied ? '#fff' : 'var(--text-muted, #94a3b8)',
+            }}>
+              {studied ? '✓' : dayLabel[0]}
+            </div>
+            <span style={{ fontSize: 9, color: isToday ? 'var(--brand, #58CC02)' : 'var(--text-muted, #64748b)' }}>
+              {dayLabel.slice(0, 3)}
+            </span>
+          </div>
+        ))}
+      </div>
+
+      {/* ── Streak + buy streak ─────────────────────────────────────────── */}
+      <div style={{ margin: '0 16px 12px', padding: '10px 14px', borderRadius: 12, background: 'var(--surface, #1e293b)', display: 'flex', alignItems: 'center', gap: 10 }}>
+        <span style={{ fontSize: 20 }}>🔥</span>
+        <div style={{ flex: 1 }}>
+          <span style={{ fontWeight: 700, fontSize: 14, color: 'var(--text)' }}>{streak} day streak</span>
+          <span style={{ fontSize: 12, color: 'var(--text-muted)', marginLeft: 8 }}>
+            {studiedToday ? '✓ Studied today' : 'Study today to keep it!'}
+          </span>
+        </div>
+        {!studiedToday && (
+          <button
+            onClick={onBuyStreak}
+            disabled={xp < 100}
+            style={{
+              padding: '4px 10px', borderRadius: 8, border: 'none', fontSize: 11, fontWeight: 700,
+              background: xp >= 100 ? 'var(--brand, #58CC02)' : '#334155',
+              color: xp >= 100 ? '#fff' : '#64748b', cursor: xp >= 100 ? 'pointer' : 'not-allowed',
+            }}
+          >
+            🔁 100 XP
+          </button>
+        )}
+      </div>
+
+      {/* ── Exam Countdown ──────────────────────────────────────────────── */}
+      <div style={{ padding: '0 16px 12px' }}>
+        <ExamCountdown />
+      </div>
+
+      {/* ── Daily Question ──────────────────────────────────────────────── */}
+      <div style={{ padding: '0 16px 12px' }}>
+        <DailyQuestion
+          question={dailyQ}
+          answeredToday={dailyAnswered}
+          record={dailyRecord}
+          loading={dailyLoading}
+          onSubmit={onDailySubmit}
+        />
+      </div>
+
+      {/* ── Quick actions 2×2 grid ──────────────────────────────────────── */}
+      <div style={{ padding: '0 16px 4px' }}>
+        <p style={{ fontSize: 12, fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 10 }}>
+          Quick Practice
+        </p>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
+          {[
+            { icon: '⚡', label: 'Quick Quiz',    sub: 'Random questions', color: '#58CC02', dark: '#46a802', fn: () => onStart(null) },
+            { icon: '🏃', label: 'Speed Round',   sub: '60 seconds',       color: '#1CB0F6', dark: '#0d8ecb', fn: onSpeedRound },
+            { icon: '📝', label: 'Practice Test', sub: `${questions.length} questions`, color: '#A855F7', dark: '#7c3aed', fn: onPracticeTest },
+            { icon: '🔍', label: 'Diagnostic',    sub: '18 questions',     color: '#FF9600', dark: '#cc7800', fn: onDiagnostic },
+          ].map(({ icon, label, sub, color, dark, fn }) => (
+            <button
+              key={label}
+              onClick={fn}
+              style={{
+                padding: '14px 12px', borderRadius: 14, border: 'none',
+                background: `linear-gradient(135deg, ${color}, ${dark})`,
+                cursor: 'pointer', textAlign: 'left',
+                boxShadow: `0 4px 12px ${color}44`,
+                transition: 'transform 0.15s',
+              }}
+              onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.03)'}
+              onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+            >
+              <div style={{ fontSize: 24, marginBottom: 6 }}>{icon}</div>
+              <div style={{ fontWeight: 800, fontSize: 13, color: '#fff' }}>{label}</div>
+              <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.8)', marginTop: 2 }}>{sub}</div>
             </button>
-          )
-        })}
-      </section>
+          ))}
+        </div>
+      </div>
+
+      {/* ── Learning path ───────────────────────────────────────────────── */}
+      <div style={{ padding: '16px 0 0' }}>
+        <p style={{ fontSize: 12, fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 12, paddingLeft: 20 }}>
+          Learning Path
+        </p>
+        <UnitPath
+          units={units}
+          subjectHistory={subjectHistory}
+          masteryPct={masteryPct}
+          isMastered={isMastered}
+          onStart={onStart}
+          onTips={onTips}
+          questions={questions}
+          TOPICS={TOPICS}
+          TOPIC_ICONS={TOPIC_ICONS}
+          onRegentsExams={onRegentsExams}
+        />
+      </div>
+
+      {/* ── Lab Practice (only when subject has labs) ──────────────────── */}
+      {Object.keys(LAB_TYPES ?? {}).length > 0 && (
+        <div style={{ padding: '12px 16px 0' }}>
+          <p style={{ fontSize: 12, fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 10 }}>🧪 Lab Practice</p>
+          <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+            {Object.entries(LAB_TYPES).map(([key, label]) => (
+              <button key={key} className="lab-btn" onClick={() => onLabPractice(key)}>
+                <span className="lab-btn-icon">{LAB_TYPE_ICONS[key]}</span>
+                <span className="lab-btn-label">{label}</span>
+              </button>
+            ))}
+            <button className="lab-btn lab-btn--all" onClick={() => onLabPractice(null)}>
+              <span className="lab-btn-icon">🧪</span>
+              <span className="lab-btn-label">All Lab Questions</span>
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
@@ -203,7 +363,12 @@ function buildMCQuestion(card, flashcards) {
   return { prompt, promptLabel, correct, options }
 }
 
-function CardsTab({ uid, earnXP, xp, flashcards, FLASHCARD_TOPIC_LIST }) {
+function CardsTab({ uid, earnXP, xp, flashcards: rawFlashcards, FLASHCARD_TOPIC_LIST }) {
+  // Ensure every card has a stable id (subject flashcards use topic::term)
+  const flashcards = useMemo(
+    () => (rawFlashcards ?? []).map((c) => ({ ...c, id: c.id ?? `${c.topic}::${c.term}` })),
+    [rawFlashcards],
+  )
   const { review, resetAll, buildDeck, getStats } = useSpacedRepetition(uid, flashcards)
 
   const [topic,    setTopic]   = useState(null)
@@ -411,10 +576,10 @@ function CardsTab({ uid, earnXP, xp, flashcards, FLASHCARD_TOPIC_LIST }) {
 // ── XP History Chart ───────────────────────────────────────────────────────
 
 function XPHistoryChart({ history, xp, TOPIC_ICONS }) {
-  const sessions = [...history].reverse() // oldest → newest
+  const sessions = [...history].reverse().filter((s) => s.correct > 0 || s.score > 0)
   if (sessions.length < 1) return null
 
-  const xpValues = sessions.map((s) => (s.correct ?? 0) * 10)
+  const xpValues = sessions.map((s) => s.score > 0 ? Math.round(s.score) : (s.correct ?? 0) * 10)
   const maxXP = Math.max(...xpValues, 1)
 
   return (
@@ -921,7 +1086,7 @@ function FriendsTab({
                         <span className="activity-name">{name}</span>
                         <span className="activity-label"> {item.label}</span>
                       </div>
-                      <span className="activity-time">{item.createdAt ? timeAgo(item.createdAt) : ''}</span>
+                      <span className="activity-time">{timeAgo(item.createdAt ?? item.timestamp)}</span>
                     </div>
                   )
                 })}
@@ -936,7 +1101,13 @@ function FriendsTab({
 
 // ── Profile Tab ────────────────────────────────────────────────────────────
 
-function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, theme, setTheme, onAdmin, subject, setSubject, SUBJECT_META: subjectMeta }) {
+const profileLinkBtn = (color) => ({
+  display: 'flex', alignItems: 'center', gap: 12, padding: '12px 14px',
+  borderRadius: 12, border: `1px solid ${color}44`, background: `${color}11`,
+  color: 'var(--text)', fontWeight: 600, fontSize: 14, cursor: 'pointer',
+})
+
+function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, theme, setTheme, onAdmin, subject, setSubject, SUBJECT_META: subjectMeta, onShop, onLeague, tier }) {
   const [editing,    setEditing]    = useState(false)
   const [search,     setSearch]     = useState('')
   const [borough,    setBorough]    = useState(null)
@@ -1087,6 +1258,23 @@ function ProfileTab({ user, school, saveSchool, xp, streak, history, onLogOut, t
         </div>
       </div>
 
+      {/* Quick links */}
+      <div className="profile-section">
+        <div className="profile-section-header"><span className="profile-section-label">QUICK LINKS</span></div>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+          {onShop && (
+            <button onClick={onShop} style={profileLinkBtn('#6366f1')}>
+              <span>🛒</span><span style={{ flex: 1, textAlign: 'left' }}>Pet Shop</span><span>→</span>
+            </button>
+          )}
+          {onLeague && (
+            <button onClick={onLeague} style={profileLinkBtn('#D97706')}>
+              <span>🏆</span><span style={{ flex: 1, textAlign: 'left' }}>League — {tier ? tier.charAt(0).toUpperCase() + tier.slice(1) : 'Bronze'}</span><span>→</span>
+            </button>
+          )}
+        </div>
+      </div>
+
       {/* Admin (only visible to admin account) */}
       {onAdmin && (
         <button className="profile-admin-btn" onClick={onAdmin}>🛠 Admin Dashboard</button>
@@ -1121,6 +1309,8 @@ export default function HomeScreen({
   onSendFriendRequest, onAcceptFriendRequest, onDeclineFriendRequest,
   challenges, onSendBattle, onAcceptBattle, onDeclineBattle, onPlayBattle,
   initialTab, onAdmin, onUpgrade,
+  // Pets & leagues
+  petWidget, onLeague, tier, weeklyXP, petQuest, onShop,
 }) {
   const [tab, setTab] = useState(initialTab ?? 'study')
   const [dropdownOpen, setDropdownOpen] = useState(false)
@@ -1174,6 +1364,9 @@ export default function HomeScreen({
 
       {tab === 'study' && (
         <StudyTab
+          user={user}
+          subjectHistory={history}
+          subjectData={subjectData}
           onStart={onStart} onPracticeTest={onPracticeTest} onDiagnostic={onDiagnostic} onSpeedRound={onSpeedRound} onContextPractice={onContextPractice} onLabPractice={onLabPractice}
           masteryPct={masteryPct} isMastered={isMastered} isUnlocked={isUnlocked} unlockHint={unlockHint}
           streak={streak} studiedToday={studiedToday} weekDays={weekDays}
@@ -1233,7 +1426,63 @@ export default function HomeScreen({
           xp={xp} streak={streak} history={history} onLogOut={onLogOut}
           theme={theme} setTheme={setTheme} onAdmin={onAdmin}
           subject={subject} setSubject={setSubject} SUBJECT_META={SUBJECT_META}
+          onShop={onShop} onLeague={onLeague} tier={tier}
         />
+      )}
+
+      {tab === 'pet' && (
+        <div style={{ padding: '16px 16px 80px' }}>
+          {petWidget ?? (
+            <div style={{ textAlign: 'center', padding: '60px 20px', color: '#94a3b8' }}>
+              <div style={{ fontSize: 48, marginBottom: 12 }}>🐾</div>
+              <p style={{ fontWeight: 600 }}>No buddy yet</p>
+              <p style={{ fontSize: 13 }}>Sign in with a full account to adopt a pet!</p>
+            </div>
+          )}
+
+          {/* Quest card */}
+          {petQuest && petWidget && (
+            <div style={{
+              background: 'var(--surface, #1e293b)', border: '1px solid var(--border, #334155)',
+              borderRadius: 14, padding: '14px 16px', marginTop: 0,
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
+                <span style={{ fontSize: 20 }}>{petQuest.icon}</span>
+                <div style={{ flex: 1 }}>
+                  <div style={{ fontWeight: 700, fontSize: 14, color: 'var(--text)' }}>{petQuest.label}</div>
+                  <div style={{ fontSize: 12, color: '#94a3b8' }}>{petQuest.progress}/{petQuest.goal} completed</div>
+                </div>
+                {petQuest.completed
+                  ? <span style={{ fontSize: 12, fontWeight: 700, color: '#22c55e' }}>✓ DONE</span>
+                  : <span style={{ fontSize: 12, color: '#94a3b8' }}>+125 ⭐</span>}
+              </div>
+              <div style={{ height: 6, borderRadius: 3, background: 'var(--surface2, #0f172a)', overflow: 'hidden' }}>
+                <div style={{
+                  width: `${Math.min(100, (petQuest.progress / petQuest.goal) * 100)}%`,
+                  height: '100%', borderRadius: 3,
+                  background: petQuest.completed ? '#22c55e' : 'var(--brand, #58CC02)',
+                  transition: 'width 0.4s',
+                }} />
+              </div>
+            </div>
+          )}
+
+          {/* League button */}
+          {onLeague && (
+            <button
+              onClick={onLeague}
+              style={{
+                width: '100%', marginTop: 8, padding: '12px 16px', borderRadius: 14,
+                background: 'linear-gradient(135deg, #D97706, #F59E0B)',
+                border: 'none', color: '#fff', fontWeight: 700, fontSize: 15,
+                cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+              }}
+            >
+              <span>🏆 My League — {tier ? tier.charAt(0).toUpperCase() + tier.slice(1) : 'Bronze'}</span>
+              <span style={{ fontSize: 13, opacity: 0.85 }}>{weeklyXP?.toLocaleString() ?? 0} XP this week →</span>
+            </button>
+          )}
+        </div>
       )}
 
       <TabBar active={tab} onChange={setTab} />

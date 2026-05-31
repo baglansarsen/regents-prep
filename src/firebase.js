@@ -28,7 +28,8 @@ export const db = initializeFirestore(app, {
   }),
 })
 
-if (import.meta.env.DEV) {
+// Only use emulators when explicitly opted in: VITE_USE_EMULATORS=true in .env.local
+if (import.meta.env.VITE_USE_EMULATORS === 'true') {
   connectAuthEmulator(auth, 'http://localhost:9099', { disableWarnings: true })
   connectFirestoreEmulator(db, 'localhost', 8080)
 }
