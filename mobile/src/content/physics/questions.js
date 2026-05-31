@@ -1,6 +1,5 @@
 import physJun2025 from '../regents-exams/physics/june-2025'
 import physJun2024 from '../regents-exams/physics/june-2024'
-import physAug2024 from '../regents-exams/physics/august-2024'
 import physJun2023 from '../regents-exams/physics/june-2023'
 
 export const TOPICS = {
@@ -232,7 +231,7 @@ export const questions = [
 ]
 
 // Dynamically distribute past exam questions into topics
-const PHYS_EXAMS = [physJun2025, physJun2024, physAug2024, physJun2023]
+const PHYS_EXAMS = [physJun2025, physJun2024, physJun2023]
 let physNextId = 400
 PHYS_EXAMS.forEach((exam) => {
   if (!exam || !exam.questions) return

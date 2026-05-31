@@ -36,6 +36,10 @@ import { usePetContext } from '../context/PetContext'
 import { useSpeechContext, loadDailyMessage } from '../context/SpeechContext'
 import { FOOD_ITEMS } from '../data/petConfig'
 import PlacementTestScreen from './PlacementTestScreen'
+import { useLeague, formatCountdown, msUntilReset } from '../hooks/useLeague'
+import { getLevel } from '../hooks/useXP'
+import { useStudyTime, formatTime as fmtStudyTime } from '../hooks/useStudyTime'
+import { getExamLabel, getDaysUntilExam } from '../utils/examDates'
 
 const MILESTONE_GIFTS = {
   3:  { xp: 100,  items: {},                       label: '100 ⭐ XP!' },
@@ -71,9 +75,10 @@ export default function HomeScreen({ navigation }) {
   const sd = mobileSubjectMap[subject] ?? leData
 
   const { history } = useProgress(uid)
-  const { weekDays, streak, studiedToday } = useDailyStreak(uid)
+  const { weekDays, streak, studiedToday, hasFreeze, buyFreeze } = useDailyStreak(uid)
   const { xp, earnXP, spendXP } = useXP(uid)
   const { lives, maxLives, nextRefillAt, refillLives } = useLivesContext()
+  const { todaySeconds } = useStudyTime(uid, null, null)  // read-only: no session, just load persisted totals
 
   const subjectHistory = useMemo(
     () => history.filter((h) => (h.subject ?? 'living-environment') === subject),
@@ -117,13 +122,17 @@ export default function HomeScreen({ navigation }) {
       uid,
       petType:       pet.petType,
       streak,
-      daysUntilExam: 14,  // TODO: wire to real exam date
+      daysUntilExam: daysToExam,
       subject,
     }).then((msg) => { if (msg) say(msg) }).catch(() => {})
   }, [reloadSkipUnlocks, pendingEvolution, uid, streak]))
 
   const { goal, setGoal, todayXP, progress: goalProgress, goalMet, GOALS } = useDailyGoal(xp)
   const { mistakes, mistakeCount } = useMistakes()
+
+  // ── Exam countdown (real dates — computed once per render) ─────────────────
+  const daysToExam = getDaysUntilExam(subject)
+  const examLabel  = getExamLabel(subject)
   const { pet, pendingEvolution, getPetMessage, dailyDig, getTodayQuest, updateQuestProgress, triggerReaction, addInventory } = usePetContext()
   const { say } = useSpeechContext()
 
@@ -132,8 +141,35 @@ export default function HomeScreen({ navigation }) {
   const [digReward,       setDigReward]        = useState(null)
   const [questData,       setQuestData]        = useState(null)
   const [milestoneModal,  setMilestoneModal]   = useState(null)
+  const [levelUpModal,    setLevelUpModal]     = useState(null)  // { level, name }
+  const [showFreezeBanner,setShowFreezeBanner] = useState(false)
   const [tipsUnit,        setTipsUnit]         = useState(null)
   const [expandedTip,     setExpandedTip]      = useState(null)
+
+  // ── League ────────────────────────────────────────────────────────────────
+  const { tier, members, promoteN } = useLeague(uid)
+
+  // ── Level-up detection (reads flag written by useXP) ──────────────────────
+  useFocusEffect(useCallback(() => {
+    AsyncStorage.getItem('@levelUp').then((raw) => {
+      if (!raw) return
+      AsyncStorage.removeItem('@levelUp').catch(() => {})
+      const data = JSON.parse(raw)
+      // Award bonus XP for levelling up
+      earnXP(200)
+      setLevelUpModal(data)
+    }).catch(() => {})
+
+    // Streak-at-risk freeze banner (show once per day if streak > 2 and no freeze)
+    if (streak >= 3 && !studiedToday && !hasFreeze) {
+      const today = new Date().toISOString().slice(0, 10)
+      AsyncStorage.getItem(`@streakWarnDismissed_${today}`).then((val) => {
+        if (!val) setShowFreezeBanner(true)
+      }).catch(() => {})
+    } else {
+      setShowFreezeBanner(false)
+    }
+  }, [uid, streak, studiedToday, hasFreeze]))
 
   // ── Placement test — triggered before the user's first lesson ────────────
   const [placementDone,   setPlacementDone]   = useState(null)   // null = loading
@@ -429,13 +465,69 @@ export default function HomeScreen({ navigation }) {
 
       <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={s.scroll}>
 
-        {/* Greeting + coin balance */}
+        {/* Greeting + status bar */}
         <View style={s.header}>
-          <View>
+          <View style={{ flex: 1 }}>
             <Text style={[T.h1, { color: C.text }]}>Good {timeOfDay()} 👋</Text>
             <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-              {user?.displayName?.split(' ')[0] ?? 'Student'} · Level {Math.floor(xp / 500) + 1}
+              {user?.displayName?.split(' ')[0] ?? 'Student'} · {getLevel(xp).name}
             </Text>
+            <Text style={[T.small, { color: daysToExam <= 14 ? C.wrong : C.textMuted, marginTop: 3 }]}>
+              {examLabel}
+            </Text>
+          </View>
+
+          {/* Live stats: streak / hearts / XP */}
+          <View style={s.statusBar}>
+            <TouchableOpacity
+              style={s.statusChip}
+              onPress={() => {
+                if (hasFreeze) {
+                  Alert.alert('Streak Freeze', 'You already have a freeze active! It will protect your streak if you miss one day.')
+                } else if (xp >= 200) {
+                  Alert.alert('Protect Your Streak', `Buy a Streak Freeze for 200 XP?\n\nIt saves your streak if you miss one day.`, [
+                    { text: 'Cancel', style: 'cancel' },
+                    { text: 'Buy (200 XP)', onPress: () => buyFreeze(spendXP).then((res) => {
+                      if (res === 'success') Alert.alert('🧊 Freeze activated!', 'Your streak is protected for one missed day.')
+                    }) },
+                  ])
+                } else {
+                  Alert.alert('Streak Freeze', 'You need 200 XP to buy a Streak Freeze.')
+                }
+              }}
+              activeOpacity={0.7}
+            >
+              <Text style={s.statusIcon}>{hasFreeze ? '🧊' : '🔥'}</Text>
+              <Text style={[s.statusValue, { color: streak > 0 ? C.warn : C.textMuted }]}>{streak}</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity
+              style={s.statusChip}
+              onPress={() => Alert.alert('❤️ Lives', `You have ${lives} of ${maxLives} lives.\n\nYou gain 1 life every 30 minutes, or refill all for 300 XP.`, [
+                { text: 'OK', style: 'cancel' },
+                { text: 'Refill (300 XP)', onPress: () => refillLives(spendXP) },
+              ])}
+              activeOpacity={0.7}
+            >
+              <Text style={s.statusIcon}>❤️</Text>
+              <Text style={[s.statusValue, { color: lives < 3 ? C.wrong : C.text }]}>{lives}/{maxLives}</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity
+              style={s.statusChip}
+              onPress={() => navigation.navigate('Main', { screen: 'LeaderboardTab' })}
+              activeOpacity={0.7}
+            >
+              <Text style={s.statusIcon}>⭐</Text>
+              <Text style={[s.statusValue, { color: C.text }]}>{xp.toLocaleString()}</Text>
+            </TouchableOpacity>
+
+            {todaySeconds >= 60 && (
+              <View style={s.statusChip}>
+                <Text style={s.statusIcon}>📚</Text>
+                <Text style={[s.statusValue, { color: C.text }]}>{fmtStudyTime(todaySeconds)}</Text>
+              </View>
+            )}
           </View>
         </View>
 
@@ -460,6 +552,35 @@ export default function HomeScreen({ navigation }) {
             </View>
           ))}
         </View>
+
+        {/* Streak-at-risk freeze banner */}
+        {showFreezeBanner && (
+          <View style={[s.freezeBanner, { backgroundColor: '#FF460015', borderColor: '#FF460040' }]}>
+            <Text style={[T.body, { color: C.wrong, flex: 1 }]}>
+              ⚠️ Study today to keep your {streak}-day streak!
+            </Text>
+            <View style={s.freezeBannerBtns}>
+              <TouchableOpacity
+                style={[s.freezeBtn, { backgroundColor: C.brand }]}
+                onPress={() => buyFreeze(spendXP).then((res) => {
+                  if (res === 'success') { setShowFreezeBanner(false); Alert.alert('🧊 Streak Freeze active!', 'Your streak is protected if you miss today.') }
+                  else if (res === 'insufficient_xp') Alert.alert('Not enough XP', 'You need 200 XP to buy a Streak Freeze.')
+                })}
+              >
+                <Text style={{ color: '#fff', fontSize: 11, fontWeight: '700' }}>🧊 Freeze (200 XP)</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                onPress={() => {
+                  const today = new Date().toISOString().slice(0, 10)
+                  AsyncStorage.setItem(`@streakWarnDismissed_${today}`, '1').catch(() => {})
+                  setShowFreezeBanner(false)
+                }}
+              >
+                <Text style={[T.small, { color: C.textMuted, padding: 6 }]}>Dismiss</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        )}
 
         {/* Daily Goal Ring */}
         <TouchableOpacity
@@ -592,6 +713,33 @@ export default function HomeScreen({ navigation }) {
             <Text style={[T.btn, { color: '#fff', fontSize: 11 }]}>Practice{'\n'}Mistakes</Text>
           </TouchableOpacity>
         </View>
+
+        {/* ── LEAGUE WIDGET ── */}
+        {tier !== 'none' && (
+          <TouchableOpacity
+            style={[s.leagueCard, elevatedCard(C), glassStyle]}
+            onPress={() => navigation.navigate('Main', { screen: 'LeaderboardTab' })}
+            activeOpacity={0.85}
+          >
+            <View style={{ flex: 1 }}>
+              <View style={s.leagueHeader}>
+                <Text style={[T.h3, { color: C.text }]}>
+                  {tier === 'bronze' ? '🥉' : tier === 'silver' ? '🥈' : tier === 'gold' ? '🥇' : '💎'}{' '}
+                  {tier.charAt(0).toUpperCase() + tier.slice(1)} League
+                </Text>
+                <Text style={[T.small, { color: C.textMuted }]}>
+                  {formatCountdown(msUntilReset())} left
+                </Text>
+              </View>
+              {members.length > 0 && (
+                <Text style={[T.small, { color: C.textMuted, marginTop: 3 }]}>
+                  You're #{members.findIndex((m) => m.uid === uid) + 1 || '–'} of {members.length} · Top {promoteN} promote 🆙
+                </Text>
+              )}
+            </View>
+            <Text style={{ fontSize: 18, color: C.textMuted }}>›</Text>
+          </TouchableOpacity>
+        )}
 
         {/* ── DUOLINGO UNIT PATH ── */}
         <Text style={[sectionLabel(C), { paddingHorizontal: 20, marginBottom: 16 }]}>Learning Path</Text>
@@ -928,6 +1076,32 @@ export default function HomeScreen({ navigation }) {
         </View>
       </Modal>
 
+      {/* Level-up modal */}
+      <Modal transparent visible={!!levelUpModal} animationType="fade" onRequestClose={() => setLevelUpModal(null)}>
+        <View style={s.modalBackdrop}>
+          <View style={[s.modalCard, { backgroundColor: C.surface }]}>
+            <Text style={{ fontSize: 52, textAlign: 'center' }}>🏆</Text>
+            <Text style={[T.h2, { color: C.text, textAlign: 'center', marginTop: 8 }]}>Level Up!</Text>
+            <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 4 }]}>
+              You've reached
+            </Text>
+            <Text style={[T.h1, { color: C.brand, textAlign: 'center', marginTop: 4 }]}>
+              {levelUpModal?.name}
+            </Text>
+            <Text style={[T.small, { color: C.textMuted, textAlign: 'center', marginTop: 8 }]}>
+              +200 bonus XP awarded 🎁
+            </Text>
+            <TouchableOpacity
+              style={[duoBtn(C.brand, C.brandDark), { marginTop: 20 }]}
+              onPress={() => setLevelUpModal(null)}
+              activeOpacity={0.85}
+            >
+              <Text style={[T.btn, { color: '#fff' }]}>AWESOME! 🚀</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </Modal>
+
     </SafeAreaView>
   )
 }
@@ -944,7 +1118,16 @@ function makeStyles(C) {
   return StyleSheet.create({
     safe:       { flex: 1, backgroundColor: C.bg },
     scroll:     { paddingBottom: 20 },
-    header:     { paddingHorizontal: 20, paddingTop: 16, paddingBottom: 12, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+    header:       { paddingHorizontal: 20, paddingTop: 16, paddingBottom: 12, flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between', gap: 12 },
+    statusBar:    { flexDirection: 'row', gap: 6, alignItems: 'center', paddingTop: 4 },
+    statusChip:   { flexDirection: 'row', alignItems: 'center', gap: 3, backgroundColor: C.surface2, borderRadius: 14, paddingHorizontal: 8, paddingVertical: 6 },
+    statusIcon:   { fontSize: 15 },
+    statusValue:  { fontSize: 13, fontWeight: '700' },
+    freezeBanner: { marginHorizontal: 16, marginBottom: 12, borderRadius: 14, padding: 12, borderWidth: 1, gap: 8 },
+    freezeBannerBtns: { flexDirection: 'row', alignItems: 'center', gap: 8 },
+    freezeBtn:    { borderRadius: 10, paddingHorizontal: 12, paddingVertical: 7 },
+    leagueCard:   { marginHorizontal: 16, marginBottom: 14, borderRadius: 16, padding: 14, flexDirection: 'row', alignItems: 'center', gap: 10 },
+    leagueHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
     coinChip:   { borderRadius: 16, paddingHorizontal: 10, paddingVertical: 5, borderWidth: 1 },
     petSection: { paddingTop: 8, paddingBottom: 4 },
     petRow: {

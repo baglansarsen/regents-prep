@@ -375,6 +375,15 @@ export function usePet(uid) {
     await savePet(newPet)
   }, [])
 
+  // ─── studyBoost (called during study/quiz sessions) ─────────────────────────
+  // Boosts pet happiness by 8 as a reward for studying. No daily limit —
+  // studying is always good for your buddy!
+  const studyBoost = useCallback(async () => {
+    if (!petRef.current.chosen) return
+    const updated = { ...petRef.current, happiness: clamp(petRef.current.happiness + 8, 0, 100) }
+    await savePet(updated)
+  }, [])
+
   // ─── switchBuddy (called from PetShopScreen) ──────────────────────────────
   const switchBuddy = useCallback(async (newPetType) => {
     const currentName = petRef.current.name
@@ -409,6 +418,7 @@ export function usePet(uid) {
     initializePet,
     switchBuddy,
     petPet,
+    studyBoost,
     dailyDig,
     getTodayQuest,
     updateQuestProgress,

@@ -1,7 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react'
+import { formatTime } from '../hooks/useStudyTime'
 import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Animated } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
+import { useAuthContext } from '../context/AuthContext'
+import { useDailyStreak } from '../hooks/useDailyStreak'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import MasteryCelebration from '../components/MasteryCelebration'
 import * as leData   from '../content/living-environment/index'
@@ -68,17 +71,26 @@ export default function ResultsScreen({ route, navigation }) {
     lessonIndex,
     challengeUnlocked = false, unlockedTopic = null,
     nextLessonMeta = null,
+    sessionTime = 0,
   } = route.params
   const { C } = useTheme()
+  const { user } = useAuthContext()
+  const { streak, weekDays } = useDailyStreak(user?.uid)
 
   const [showCelebration, setShowCelebration] = useState(firstMastery)
-  const [displayXP, setDisplayXP] = useState(0)
-  const xpAnim = useRef(new Animated.Value(0)).current
+  const [displayXP,    setDisplayXP]    = useState(0)
+  const [showStreak,   setShowStreak]   = useState(false)
+  const xpAnim     = useRef(new Animated.Value(0)).current
+  const streakAnim = useRef(new Animated.Value(0)).current
 
   useEffect(() => {
     if (xpEarned <= 0) return
     const id = xpAnim.addListener(({ value }) => setDisplayXP(Math.round(value)))
-    Animated.timing(xpAnim, { toValue: xpEarned, duration: 900, useNativeDriver: false }).start()
+    Animated.timing(xpAnim, { toValue: xpEarned, duration: 900, useNativeDriver: false }).start(() => {
+      // After XP counts up, reveal the streak banner
+      setShowStreak(true)
+      Animated.spring(streakAnim, { toValue: 1, useNativeDriver: true, tension: 120, friction: 8 }).start()
+    })
     return () => xpAnim.removeListener(id)
   }, [])
 
@@ -151,6 +163,37 @@ export default function ResultsScreen({ route, navigation }) {
               🔥 Best combo: {bestStreak} in a row!
             </Text>
           </View>
+        )}
+        {sessionTime >= 60 && (
+          <View style={[s.banner, { backgroundColor: C.surface2, borderColor: C.border }]}>
+            <Text style={[T.body, { color: C.textMuted }]}>
+              ⏱ Time: {formatTime(sessionTime)}
+            </Text>
+          </View>
+        )}
+
+        {/* Streak celebration banner */}
+        {showStreak && streak > 0 && (
+          <Animated.View style={[
+            s.streakBanner,
+            { backgroundColor: C.surface, borderColor: C.brand + '60' },
+            { transform: [{ scale: streakAnim }], opacity: streakAnim },
+          ]}>
+            <Text style={s.streakFire}>🔥</Text>
+            <View style={{ flex: 1 }}>
+              <Text style={[T.h3, { color: C.text }]}>
+                {streak}-day streak!{streak >= 7 ? ' 🏆' : ''}
+              </Text>
+              <View style={s.streakDots}>
+                {weekDays.map((d) => (
+                  <View
+                    key={d.date}
+                    style={[s.streakDot, d.studied && { backgroundColor: C.brand }, d.isToday && { borderColor: C.brand, borderWidth: 2 }]}
+                  />
+                ))}
+              </View>
+            </View>
+          </Animated.View>
         )}
 
         {/* Summary card */}
@@ -267,6 +310,10 @@ function makeStyles(C) {
     circleOuter:  { width: 170, height: 170, borderRadius: 85, borderWidth: 6, alignItems: 'center', justifyContent: 'center', marginBottom: 8, shadowColor: '#000', shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.15, shadowRadius: 12, elevation: 6 },
     circleInner:  { width: 150, height: 150, borderRadius: 75, alignItems: 'center', justifyContent: 'center', gap: 4 },
     banner:       { alignSelf: 'stretch', borderRadius: 16, paddingHorizontal: 18, paddingVertical: 13, borderWidth: 1 },
+    streakBanner: { flexDirection: 'row', alignItems: 'center', gap: 12, alignSelf: 'stretch', borderRadius: 16, padding: 14, borderWidth: 1.5 },
+    streakFire:   { fontSize: 36 },
+    streakDots:   { flexDirection: 'row', gap: 5, marginTop: 6 },
+    streakDot:    { width: 12, height: 12, borderRadius: 6, backgroundColor: C.surface2, borderWidth: 1, borderColor: C.border },
     summaryCard:  { alignSelf: 'stretch', backgroundColor: C.surface, borderRadius: 20, overflow: 'hidden', borderWidth: 1, borderColor: C.border, shadowColor: '#000', shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.1, shadowRadius: 12, elevation: 5 },
     summaryRow:   { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', padding: 14 },
     summaryBorder:{ borderTopWidth: 1, borderTopColor: C.border },

@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react'
+import React, { useRef, useEffect, useState, useCallback } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView,
   Animated, StyleSheet, Image,
@@ -18,6 +18,8 @@ import { usePetContext } from '../context/PetContext'
 import { useSpeechContext } from '../context/SpeechContext'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 import PetWidget from '../components/PetWidget'
+import StudyBuddyCompanion from '../components/StudyBuddyCompanion'
+import { useStudyTime } from '../hooks/useStudyTime'
 
 const LETTERS = ['A', 'B', 'C', 'D']
 const CDN_BASE = 'https://regents-csas.web.app'
@@ -45,10 +47,31 @@ export default function QuizScreen({ route, navigation }) {
   const { xp, earnXP, spendXP }  = useXP(uid)
   const { lives, maxLives, nextRefillAt, loseLife, refillLives, addLife } = useLivesContext()
   const { ready: adReady, showAd } = useRewardedAd({ onReward: addLife })
-  const { checkAndEvolve, triggerReaction, updateQuestProgress, getPetMessage } = usePetContext()
+  const { checkAndEvolve, triggerReaction, updateQuestProgress, getPetMessage, studyBoost, pet } = usePetContext()
   const { say } = useSpeechContext()
 
-  const [showBubble, setShowBubble] = useState(false)
+  const [showBubble,    setShowBubble]    = useState(false)
+  const [buddyMessage,  setBuddyMessage]  = useState(null)
+
+  // ── Study time session tracking ───────────────────────────────────────────
+  const sessionSecondsRef = useRef(0)
+
+  const handleMilestone = useCallback((milestone) => {
+    setBuddyMessage(milestone.message)
+    triggerReaction(milestone.reaction)
+    studyBoost?.()
+  }, [triggerReaction, studyBoost])
+
+  const { startSession, endSession } = useStudyTime(uid, earnXP, handleMilestone)
+
+  useEffect(() => {
+    startSession('quiz')
+    return () => {
+      const { seconds } = endSession()
+      sessionSecondsRef.current = seconds
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const {
     currentQuestion, index, total, score, streak, bestStreak,
@@ -59,6 +82,39 @@ export default function QuizScreen({ route, navigation }) {
   const slideAnim  = useRef(new Animated.Value(300)).current
   const pulseAnim  = useRef(new Animated.Value(1)).current
   const comboAnim  = useRef(new Animated.Value(0)).current
+
+  // Pet animation: bounce up on correct, shake left-right on incorrect
+  const petBounceY = useRef(new Animated.Value(0)).current
+  const petShakeX  = useRef(new Animated.Value(0)).current
+  const petScale   = useRef(new Animated.Value(1)).current
+
+  function animatePetCorrect() {
+    Animated.sequence([
+      Animated.spring(petBounceY, { toValue: -14, useNativeDriver: true, tension: 400, friction: 6 }),
+      Animated.spring(petBounceY, { toValue: -6,  useNativeDriver: true, tension: 300, friction: 5 }),
+      Animated.spring(petBounceY, { toValue: -11, useNativeDriver: true, tension: 400, friction: 6 }),
+      Animated.spring(petBounceY, { toValue: 0,   useNativeDriver: true, tension: 200, friction: 8 }),
+    ]).start()
+    Animated.sequence([
+      Animated.spring(petScale, { toValue: 1.25, useNativeDriver: true, tension: 400, friction: 5 }),
+      Animated.spring(petScale, { toValue: 1.0,  useNativeDriver: true, tension: 200, friction: 8 }),
+    ]).start()
+  }
+
+  function animatePetIncorrect() {
+    Animated.sequence([
+      Animated.timing(petShakeX, { toValue:  8, duration: 50, useNativeDriver: true }),
+      Animated.timing(petShakeX, { toValue: -8, duration: 50, useNativeDriver: true }),
+      Animated.timing(petShakeX, { toValue:  6, duration: 50, useNativeDriver: true }),
+      Animated.timing(petShakeX, { toValue: -6, duration: 50, useNativeDriver: true }),
+      Animated.timing(petShakeX, { toValue:  3, duration: 50, useNativeDriver: true }),
+      Animated.timing(petShakeX, { toValue:  0, duration: 50, useNativeDriver: true }),
+    ]).start()
+    Animated.sequence([
+      Animated.spring(petScale, { toValue: 0.85, useNativeDriver: true, tension: 400, friction: 5 }),
+      Animated.spring(petScale, { toValue: 1.0,  useNativeDriver: true, tension: 200, friction: 8 }),
+    ]).start()
+  }
 
   // (No-lives gate is now rendered as an overlay — see NoLivesGate below)
 
@@ -92,9 +148,11 @@ export default function QuizScreen({ route, navigation }) {
       const wasCorrect = selected !== 'timeout' && selected === correctIdx
       if (wasCorrect) {
         triggerReaction('cheer')
+        animatePetCorrect()
       } else {
         loseLife()
         triggerReaction('sad')
+        animatePetIncorrect()
       }
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -153,11 +211,13 @@ export default function QuizScreen({ route, navigation }) {
       updateQuestProgress('answer_correct', correct)
       updateQuestProgress('complete_quiz')
       if (route.params?.isMistakesPractice) updateQuestProgress('complete_mistakes')
+      const { seconds: sessionSecs } = endSession()
       navigation.replace('Results', {
         score, total, results, bestStreak, topic, subject,
         xpEarned, doubleXP, firstMastery, masteredTopic: topic ?? null,
         lessonIndex, challengeUnlocked, unlockedTopic: nextUnitTopic ?? null,
         nextLessonMeta: nextLessonMeta ?? null,
+        sessionTime: sessionSecs,
       })
     }
   }, [phase])
@@ -201,13 +261,36 @@ export default function QuizScreen({ route, navigation }) {
             <View style={s.progressBg}>
               <View style={[s.progressFill, { width: `${(index / total) * 100}%` }]} />
             </View>
+            {/* Hearts inline under progress bar */}
+            <View style={s.heartsRow}>
+              {Array.from({ length: maxLives }).map((_, i) => (
+                <Text key={i} style={[s.heart, { opacity: i < lives ? 1 : 0.2 }]}>❤️</Text>
+              ))}
+            </View>
           </View>
 
-          <View style={s.scoreChip}>
-            <Text style={[T.body, { color: C.warn }]}>⭐ {score}</Text>
-            {streak >= 2 && (
-              <Text style={[T.small, { color: '#FF9600', marginLeft: 4 }]}>🔥{streak}</Text>
-            )}
+          {/* Pet + score side-by-side */}
+          <View style={s.topRightCol}>
+            <Animated.View style={{
+              transform: [
+                { translateY: petBounceY },
+                { translateX: petShakeX },
+                { scale: petScale },
+              ],
+            }}>
+              <TouchableOpacity
+                onPress={() => { setShowBubble(true); setTimeout(() => setShowBubble(false), 2200) }}
+                activeOpacity={0.85}
+              >
+                <PetWidget mini size={44} />
+              </TouchableOpacity>
+            </Animated.View>
+            <View style={s.scoreChip}>
+              <Text style={[T.body, { color: C.warn }]}>⭐ {score}</Text>
+              {streak >= 2 && (
+                <Text style={[T.small, { color: '#FF9600', marginLeft: 4 }]}>🔥{streak}</Text>
+              )}
+            </View>
           </View>
         </View>
 
@@ -221,10 +304,6 @@ export default function QuizScreen({ route, navigation }) {
         </View>
 
         <ScrollView contentContainerStyle={s.scroll} showsVerticalScrollIndicator={false}>
-          <Text style={[T.label, { color: C.textMuted, textAlign: 'center', marginBottom: 12 }]}>
-            {index + 1} of {total}
-          </Text>
-
           <Animated.View style={[s.questionCard, cardShadow(C.shadow), { transform: [{ scale: pulseAnim }] }]}>
             {currentQuestion.context ? (
               <Text style={[T.small, { color: C.textMuted, marginBottom: 8, fontStyle: 'italic', lineHeight: 18 }]}>
@@ -327,20 +406,23 @@ export default function QuizScreen({ route, navigation }) {
         </Animated.View>
       )}
 
-      {/* ── Mini pet study-along overlay ── */}
-      <View style={s.miniPetWrap} pointerEvents="box-none">
-        <TouchableOpacity
-          onPress={() => { setShowBubble(true); setTimeout(() => setShowBubble(false), 2200) }}
-          activeOpacity={0.9}
-        >
-          <PetWidget mini size={56} />
-        </TouchableOpacity>
-        {showBubble && (
-          <View style={[s.bubble, { backgroundColor: '#fff' }]}>
-            <Text style={s.bubbleText}>{getPetMessage() ?? 'You got this! 💪'}</Text>
-          </View>
-        )}
-      </View>
+      {/* Speech bubble from top-bar pet tap */}
+      {showBubble && (
+        <View style={[s.bubble, { backgroundColor: C.surface }]} pointerEvents="none">
+          <Text style={[s.bubbleText, { color: C.text }]}>{getPetMessage() ?? 'You got this! 💪'}</Text>
+        </View>
+      )}
+
+      {/* Study Buddy floating companion */}
+      {pet?.chosen && phase === 'answering' && (
+        <StudyBuddyCompanion
+          petType={pet.petType}
+          petName={pet.name}
+          accessories={pet.accessories ?? []}
+          message={buddyMessage}
+          onPress={() => setBuddyMessage(null)}
+        />
+      )}
 
       {/* ── No-lives gate — reactive overlay, auto-dismisses when lives > 0 ── */}
       {lives === 0 && (
@@ -426,17 +508,20 @@ function makeStyles(C, insets) {
   return StyleSheet.create({
     root:          { flex: 1, backgroundColor: C.bg },
     safe:          { flex: 1 },
-    topRow:        { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingTop: 8, paddingBottom: 8, gap: 10 },
+    topRow:        { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingTop: 2, paddingBottom: 2, gap: 10 },
     closeBtn:      { width: 36, height: 36, borderRadius: 18, backgroundColor: C.surface2, alignItems: 'center', justifyContent: 'center' },
     closeBtnText:  { fontSize: 15, color: C.textMuted, fontFamily: 'Nunito_700Bold' },
     progressWrap:  { flex: 1 },
     progressBg:    { height: 14, backgroundColor: C.surface2, borderRadius: 7, overflow: 'hidden' },
     progressFill:  { height: 14, backgroundColor: C.brand, borderRadius: 7 },
-    scoreChip:     { flexDirection: 'row', alignItems: 'center', backgroundColor: C.surface2, borderRadius: 20, paddingHorizontal: 12, paddingVertical: 6 },
-    timerBg:       { height: 6, backgroundColor: C.surface2, marginHorizontal: 16, borderRadius: 3, marginBottom: 8 },
+    topRightCol:   { flexDirection: 'row', alignItems: 'center', gap: 6 },
+    scoreChip:     { flexDirection: 'row', alignItems: 'center', backgroundColor: C.surface2, borderRadius: 20, paddingHorizontal: 10, paddingVertical: 5 },
+    heartsRow:     { flexDirection: 'row', justifyContent: 'flex-start', gap: 3, marginTop: 2 },
+    heart:         { fontSize: 13 },
+    timerBg:       { height: 4, backgroundColor: C.surface2, marginHorizontal: 16, borderRadius: 2, marginBottom: 2 },
     timerFill:     { height: 6, borderRadius: 3 },
-    scroll:        { padding: 16 },
-    questionCard:  { backgroundColor: C.surface, borderRadius: 20, padding: 22, marginBottom: 20, borderWidth: 1, borderColor: C.border, borderTopWidth: 3, borderTopColor: C.brand, shadowColor: C.shadow, shadowOffset: { width: 0, height: 3 }, shadowOpacity: 1, shadowRadius: 10, elevation: 5 },
+    scroll:        { paddingHorizontal: 16, paddingTop: 0, paddingBottom: 16 },
+    questionCard:  { backgroundColor: C.surface, borderRadius: 20, padding: 18, marginBottom: 16, borderWidth: 1, borderColor: C.border, borderTopWidth: 3, borderTopColor: C.brand, shadowColor: C.shadow, shadowOffset: { width: 0, height: 3 }, shadowOpacity: 1, shadowRadius: 10, elevation: 5 },
     questionImage: { width: '100%', height: 200, borderRadius: 10, marginBottom: 12, backgroundColor: C.surface2 },
     choices:       { gap: 10 },
     choice: {
@@ -467,28 +552,22 @@ function makeStyles(C, insets) {
     gateBtn:        { borderRadius: 16, paddingVertical: 15, alignItems: 'center' },
     gateLinkBtn:    { alignItems: 'center', paddingVertical: 16 },
 
-    miniPetWrap: {
-      position:   'absolute',
-      bottom:     160,
-      right:      16,
-      alignItems: 'flex-end',
-      zIndex:     50,
-    },
     bubble: {
       position:     'absolute',
-      bottom:       58,
-      right:        0,
+      top:          90,
+      right:        16,
       borderRadius: 12,
       padding:      10,
-      maxWidth:     200,
+      maxWidth:     180,
       borderWidth:  1,
-      borderColor:  '#E5E7EB',
+      borderColor:  C.border,
       shadowColor:  '#000',
-      shadowOpacity: 0.08,
+      shadowOpacity: 0.12,
       shadowRadius: 8,
-      elevation:    4,
+      elevation:    6,
+      zIndex:       60,
     },
-    bubbleText: { fontSize: 12, color: '#374151', lineHeight: 16 },
+    bubbleText: { fontSize: 12, color: C.text, lineHeight: 16 },
 
     feedbackPanel: {
       position:             'absolute',
