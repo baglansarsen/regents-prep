@@ -28,7 +28,7 @@ export default {
         'a cell divides to produce two genetically identical cells',
         'genetic material is transferred between organisms',
       ],
-      topic: 'Reproduction',
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -64,7 +64,7 @@ export default {
         'the use of nuclear energy to generate electricity',
         'the introduction of invasive species to new ecosystems',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -76,7 +76,7 @@ export default {
         'artificial selection by humans who bred birds with curved beaks',
         'a mutation caused by the bird\'s diet of flower insects',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -100,7 +100,7 @@ export default {
         'it eliminates the need for diabetic patients to take insulin',
         'it allows the bacteria to produce insulin that prevents diabetes in future generations',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -148,7 +148,7 @@ export default {
         'A predator species migrates to a new ecosystem and competes with existing predators.',
         'An increase in the human population leads to more pollution in a local river.',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -160,7 +160,7 @@ export default {
         'sex-linked traits',
         'polygenic traits',
       ],
-      topic: 'Genetics',
+      topic: 'Human Body',
       correct: 3,
     },
     {
@@ -196,7 +196,7 @@ export default {
         'disruption of mutualistic relationships due to environmental change can threaten the survival of both partners',
         'algae are harmful to corals at normal water temperatures',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -208,7 +208,7 @@ export default {
         'DNA sequences become more similar over evolutionary time',
         'organisms evolve faster when they share more similar DNA sequences',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -232,7 +232,7 @@ export default {
         'artificial selection by park managers who chose the most desirable traits',
         'the direct extinction of many plant species by wolves',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -256,7 +256,7 @@ export default {
         'scientific understanding changes when new evidence requires a revision of existing explanations',
         'the scientific method is unreliable because scientists often change their minds',
       ],
-      topic: 'General Review',
+      topic: 'Evolution',
       correct: 2,
     },
     {
@@ -280,7 +280,7 @@ export default {
         'stressed trees grow faster than healthy trees and quickly fill the cleared area',
         'the Amazon rainforest is too large to be significantly affected by small clearings',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -304,7 +304,7 @@ export default {
         'only meiosis to produce all the cells needed for growth',
         'the mutation of genes in each new cell to produce specialization',
       ],
-      topic: 'Reproduction',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -316,7 +316,7 @@ export default {
         'using pesticides to control insect populations in agricultural areas',
         'draining wetlands to create farmland and housing developments',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -328,7 +328,7 @@ export default {
         'clone entire organisms without the use of reproductive cells',
         'replace all chromosomes in a cell with chromosomes from another species',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -340,7 +340,7 @@ export default {
         'Meiosis produces cells that are genetically identical to the parent cell.',
         'Meiosis allows organisms to reproduce without a partner.',
       ],
-      topic: 'Reproduction',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -352,7 +352,7 @@ export default {
         'increased photosynthesis by plants due to higher nutrient availability',
         'the release of CO₂ from the ocean as ocean temperatures fall',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -364,7 +364,7 @@ export default {
         'natural selection — bacteria with random mutations for resistance survived and passed resistance to offspring',
         'genetic engineering — the antibiotic caused targeted mutations in the bacterial DNA',
       ],
-      topic: 'Genetics',
+      topic: 'Ecology',
       correct: 2,
     },
 
@@ -432,7 +432,7 @@ export default {
         'sea urchins are the most important species in coastal ecosystems',
         'removing sea otters has no significant effect on coastal erosion',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -444,7 +444,7 @@ export default {
         'the DNA sequence of the new species compared to known beetle species',
         'the type of food the beetle eats',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 2,
     },
     {
@@ -484,7 +484,7 @@ export default {
         'captive breeding and conservation to prevent extinction of a threatened species',
         'cloning to produce large numbers of disease-resistant frogs',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 2,
     },
     {
@@ -510,7 +510,7 @@ export default {
         'Farm fields contain antibiotics that kill most bacteria and fungi.',
         'Forest soil is more acidic than farm soil, which promotes microbial diversity.',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -534,7 +534,7 @@ export default {
         'wetlands are too difficult to restore once they have been drained for development',
         'human development always benefits the environment in the long run',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
   ],

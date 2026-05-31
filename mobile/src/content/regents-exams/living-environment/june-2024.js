@@ -34,7 +34,7 @@ export default {
         'less genetic material, since it is produced from root cells',
         'a different combination of genes, since it is produced from various roots',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -47,7 +47,7 @@ export default {
         'they contain different receptors on their cell membranes',
         'they contain different DNA sequences for the production of hormones',
       ],
-      topic: 'Cell Biology',
+      topic: 'Human Body',
       correct: 2,
     },
     {
@@ -73,7 +73,7 @@ export default {
         'different kinds of cells and tissues form during embryonic development',
         'two different sexes are present among the offspring, after sexual reproduction',
       ],
-      topic: 'Reproduction',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -86,7 +86,7 @@ export default {
         'circulatory and digestive systems',
         'circulatory and respiratory systems',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -164,7 +164,7 @@ export default {
         'The placenta filters out all harmful toxins and chemicals from the mother\'s blood, so that they cannot reach the fetus.',
         'The exchange of oxygen and carbon dioxide occurs between the mother and developing fetus across the placenta.',
       ],
-      topic: 'Reproduction',
+      topic: 'General',
       correct: 3,
     },
     {
@@ -190,7 +190,7 @@ export default {
         'When some octopuses migrated to a deeper environment, they needed to produce new proteins so that their blood could carry more oxygen.',
         'Mutations occurred in the body cells of the octopuses, which resulted in the specific proteins being produced and passed on to their offspring.',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -203,7 +203,7 @@ export default {
         'engineering body systems in order to develop organelles for transplant',
         'growing cells to develop tissues and then growing these tissues to form an organ',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 3,
     },
     {
@@ -216,7 +216,7 @@ export default {
         'allow the person to synthesize large, inorganic nutrient molecules',
         'are the building blocks of carbohydrates and other nutrient molecules',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -229,7 +229,7 @@ export default {
         'Sorting and recombining of genes occurs, which leads to new genetic combinations.',
         'The three processes result in offspring with half as much genetic information as the adults.',
       ],
-      topic: 'Reproduction',
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -255,7 +255,7 @@ export default {
         'Column 3: D=heterotrophs, C=autotrophs, B=herbivores, A=producers',
         'Column 4: D=producers, C=carnivores, B=herbivores, A=heterotrophs',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -282,7 +282,7 @@ export default {
         'passing environmental protection laws',
         'the introduction of native species into habitats',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -321,7 +321,7 @@ export default {
         'digestion and synthesis',
         'natural selection and evolution',
       ],
-      topic: 'Reproduction',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -334,7 +334,7 @@ export default {
         'uncontrolled population growth',
         'regulations that reduce industrial pollution',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -347,7 +347,7 @@ export default {
         'identical to each other and to the donor of the body cell',
         'different from each other and from the donor of the body cell',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -360,7 +360,7 @@ export default {
         'an increase in biodiversity',
         'a decrease in water temperature',
       ],
-      topic: 'Cell Biology',
+      topic: 'General',
       correct: 0,
     },
     {
@@ -373,7 +373,7 @@ export default {
         'are an example of using agricultural technologies to increase farm yields',
         'could spread ringspot virus throughout the entire ecosystem',
       ],
-      topic: 'Ecology',
+      topic: 'Human Body',
       correct: 2,
     },
     {
@@ -399,7 +399,7 @@ export default {
         'disrupt mineral availability in the ecosystem',
         'cause an increase in pesticide-resistant plants',
       ],
-      topic: 'Ecology',
+      topic: 'Genetics',
       correct: 1,
     },
 
@@ -482,7 +482,7 @@ export default {
         'Tree 3: bear, giant panda, and red panda are grouped together; raccoon is the outgroup',
         'Tree 4: giant panda, raccoon, and red panda are grouped together; bear is the outgroup',
       ],
-      topic: 'Evolution',
+      topic: 'Cell Biology',
       correct: 0,
     },
     {

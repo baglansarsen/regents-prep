@@ -16,7 +16,7 @@ export default {
         'digestive and respiratory',
         'reproductive and circulatory',
       ],
-      topic: 'Human Body',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -28,7 +28,7 @@ export default {
         'person not sweating on a 100°F day',
         'response to a chickenpox vaccination',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 3,
     },
     {
@@ -40,7 +40,7 @@ export default {
         'sexual reproduction',
         'changes in gametes',
       ],
-      topic: 'Reproduction',
+      topic: 'Genetics',
       correct: 0,
     },
     {
@@ -52,7 +52,7 @@ export default {
         'Woodpeckers peck holes in the trunks of trees to find insects for food.',
         'Deer eat tree bark in winter when other food is scarce.',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -64,7 +64,7 @@ export default {
         'genetic engineering',
         'selective breeding',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -76,7 +76,7 @@ export default {
         'eat the same food',
         'require an input of solar energy',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -100,7 +100,7 @@ export default {
         'genetic engineering to modify specific genes',
         'ecological succession due to random mutation',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -112,7 +112,7 @@ export default {
         'Stomach cells receive half their genetic information from each parent.',
         'Skin and stomach cells have completely different genes.',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -124,7 +124,7 @@ export default {
         'meiosis and recombination',
         'sexual reproduction and cloning',
       ],
-      topic: 'Reproduction',
+      topic: 'Genetics',
       correct: 2,
     },
     {
@@ -136,7 +136,7 @@ export default {
         'the food available for zebra mussels has decreased, reducing their rate of photosynthesis',
         'a lack of natural predators and disease-causing organisms in their new environment',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 0,
     },
     {
@@ -173,7 +173,7 @@ export default {
         'the animals that live in that area today',
         'the fossil record of that area',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 3,
     },
     {
@@ -185,7 +185,7 @@ export default {
         'cancer caused the body of the adults to produce antigens against it',
         'vaccine did not produce a change in the sex cells of the adults',
       ],
-      topic: 'Cell Biology',
+      topic: 'Genetics',
       correct: 3,
     },
     {
@@ -209,7 +209,7 @@ export default {
         'the females mutated during hatching, reducing their ability to grow',
         'hormones can affect gene expression',
       ],
-      topic: 'Human Body',
+      topic: 'General',
       correct: 3,
     },
     {
@@ -233,7 +233,7 @@ export default {
         'pH of the cytoplasm',
         'size of a cell\'s nucleus',
       ],
-      topic: 'Cell Biology',
+      topic: 'Genetics',
       correct: 1,
     },
     {
@@ -245,7 +245,7 @@ export default {
         'herbivores to carnivores',
         'carnivores to autotrophs',
       ],
-      topic: 'Cell Biology',
+      topic: 'Ecology',
       correct: 2,
     },
     {
@@ -257,7 +257,7 @@ export default {
         'the normal expression of a gene for female frogs',
         'loss of genetic information for male frogs',
       ],
-      topic: 'Reproduction',
+      topic: 'Genetics',
       correct: 1,
     },
     {
@@ -281,7 +281,7 @@ export default {
         'Exposure to newt toxin caused a mutation in the snakes, which increased resistance to the toxin in the snakes.',
         'A random genetic mutation that resulted in toxin resistance increased the survival rates of the snakes that had it, and they passed it on to their offspring.',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 3,
     },
     {
@@ -329,7 +329,7 @@ export default {
         'made of DNA the second pathogen doesn\'t contain',
         'specific for the shape of the proteins present on a particular pathogen',
       ],
-      topic: 'Genetics',
+      topic: 'Human Body',
       correct: 3,
     },
     {
@@ -341,7 +341,7 @@ export default {
         'cloning of cells during embryonic development',
         'specialization of zygotes',
       ],
-      topic: 'Reproduction',
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -367,7 +367,7 @@ export default {
         'alligators and whales share a common ancestor',
         'alligators and whales share the same genetic mutations',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 2,
     },
 
@@ -434,7 +434,7 @@ export default {
         'unstable, because predators will migrate to nearby ecosystems, birds will nest in nearby trees, and other small animals will make burrows',
         'more stable, because the pikas will no longer be eating the grasses, the birds will migrate to other ecosystems, and small lakes will form because water will not drain without pika burrows',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 0,
     },
     {
@@ -446,7 +446,7 @@ export default {
         'scientists often ignore evidence that does not help prove their theory',
         'hypotheses seldom change even when new discoveries are made',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -486,7 +486,7 @@ export default {
         'testosterone',
         'ATP',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -512,7 +512,7 @@ export default {
         'switch to a lower magnification and add a stain to the onion root tip cells',
         'switch to a higher magnification and add salt solution to the onion root tip cells',
       ],
-      topic: 'Cell Biology',
+      topic: 'General',
       correct: 0,
     },
     {
@@ -524,7 +524,7 @@ export default {
         'A plant\'s fear of herbivores increases as the plant grows older.',
         'Bacterial growth will rapidly increase as the temperature increases.',
       ],
-      topic: 'General Review',
+      topic: 'General',
       correct: 3,
     },
     {
@@ -536,7 +536,7 @@ export default {
         'a decrease in the amount of firewood for heating',
         'more locations for the construction of new homes',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 0,
     },
   ],

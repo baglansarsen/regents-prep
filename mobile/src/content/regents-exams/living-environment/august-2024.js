@@ -16,7 +16,7 @@ export default {
         'insulin is produced when protein levels are low',
         'stimuli are detected, and actions are taken',
       ],
-      topic: 'Cell Biology',
+      topic: 'Ecology',
       correct: 3,
     },
     {
@@ -40,7 +40,7 @@ export default {
         'Deforestation removes trees that produce carbon dioxide through the process of photosynthesis.',
         'Deforestation immediately increases ecosystem stability needed in the burned area.',
       ],
-      topic: 'Cell Biology',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -64,7 +64,7 @@ export default {
         'helps in the synthesis of complex sugars during autotrophic nutrition',
         'is not involved in other types of reactions because enzymes are specific',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 3,
     },
     {
@@ -100,7 +100,7 @@ export default {
         'only changes in temperature affect duckweed population size',
         'the size of the duckweed population is kept stable by limited resources in the ditch',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 3,
       image: '/images/exams/le-august-2024/q8.png',
     },
@@ -113,7 +113,7 @@ export default {
         'They all have the same physical conditions present, but the living organisms use them in different ways.',
         'Each ecosystem contains different physical conditions that determine the type of living organisms present there.',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 3,
     },
     {
@@ -125,7 +125,7 @@ export default {
         'carbon dioxide and water',
         'hydrogen and starch',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -137,7 +137,7 @@ export default {
         'Organisms that compete successfully will survive, reproduce, and pass their traits on to their offspring.',
         'Competition usually results in the extinction of a species, ensuring the survival of other species.',
       ],
-      topic: 'Genetics',
+      topic: 'Ecology',
       correct: 2,
     },
     {
@@ -149,7 +149,7 @@ export default {
         'digestive system',
         'immune system',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -161,7 +161,7 @@ export default {
         'the ice pack caused a mutation in the genes that regulate fur color',
         'warm and cold temperatures activate different genes for fur color',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 3,
     },
     {
@@ -173,7 +173,7 @@ export default {
         'Identify the gene that codes for the protein and introduce it into plant cells by genetic engineering.',
         'Selectively breed a new type of fungus that does not require the nutrients that the plants provide.',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 2,
     },
     {
@@ -197,7 +197,7 @@ export default {
         'nerve cell',
         'muscle cell',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -209,7 +209,7 @@ export default {
         'tissue: a group of cells with a similar structure and function',
         'organ system: a collection of organs with a common function',
       ],
-      topic: 'Cell Biology',
+      topic: 'General',
       correct: 2,
       image: '/images/exams/le-august-2024/q17.png',
     },
@@ -236,7 +236,7 @@ export default {
         'a constant source of energy because they cannot recycle gases and materials',
         'a constant source of energy and recycle gases and materials',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 3,
     },
     {
@@ -272,7 +272,7 @@ export default {
         'These alterations will spread to all the other cells in the body.',
         'The sex cells of the individual will have the same alterations.',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -284,7 +284,7 @@ export default {
         'all the DNA found in sex cells',
         'molecules of carbon dioxide produced by chloroplasts',
       ],
-      topic: 'Cell Biology',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -308,7 +308,7 @@ export default {
         'algae that live on the reef will begin to decompose the dying coral',
         'species dependent on the coral will be negatively impacted',
       ],
-      topic: 'Evolution',
+      topic: 'Ecology',
       correct: 3,
     },
     {
@@ -320,7 +320,7 @@ export default {
         'are classified as carbohydrates',
         'are important in animals but not plants',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -344,7 +344,7 @@ export default {
         'chromosome mutations',
         'gamete production',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -356,7 +356,7 @@ export default {
         'halving the chromosome number during mitosis, followed by differentiation',
         'doubling the chromosome number during mitosis, followed by differentiation',
       ],
-      topic: 'Reproduction',
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -368,7 +368,7 @@ export default {
         'an adaptation that could provide an advantage over the other organisms that they compete with for food',
         'an adaptation that is most likely the result of a mutation in body cells of the ancestors of the otter',
       ],
-      topic: 'Genetics',
+      topic: 'Ecology',
       correct: 2,
     },
 
@@ -423,7 +423,7 @@ export default {
         'inherited disorders resulting from inhaling vapors',
         'the effects of infectious parasites carried by the vapors',
       ],
-      topic: 'Human Body',
+      topic: 'General',
       correct: 0,
     },
     {
@@ -477,7 +477,7 @@ export default {
         'natural selection of beneficial variations',
         'the environment modifying gene expression',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -489,7 +489,7 @@ export default {
         'because there were so many, they did not receive the same amount of nutrients from the mother',
         'there were pH differences depending on where in the uterus each kitten developed',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 1,
     },
     {

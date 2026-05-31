@@ -28,7 +28,7 @@ export default {
         'predators play a key role in maintaining ecosystem stability',
         'elk are the most important species in Yellowstone\'s ecosystem',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -64,7 +64,7 @@ export default {
         'the random mutation of chromosomes during cell division',
         'crossing over during mitosis, which produces genetic variation',
       ],
-      topic: 'Reproduction',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -76,7 +76,7 @@ export default {
         'biodiversity causes ecosystems to be more vulnerable to disease',
         'all species must live in the same habitat to ensure survival',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -112,7 +112,7 @@ export default {
         'each island having a different chemical composition that altered the finches\' DNA',
         'all finches originally had the same beak shape but moved to different islands',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -160,7 +160,7 @@ export default {
         'Two cells fuse to form one cell with twice the genetic information.',
         'Chromosomes are reduced to half the normal number to form gametes.',
       ],
-      topic: 'Reproduction',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -184,7 +184,7 @@ export default {
         'evolve rapidly in response to environmental pressures',
         'produce offspring that are genetically identical to the parent',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -196,7 +196,7 @@ export default {
         'agriculture increases the amount of carbon dioxide in the atmosphere',
         'clearing forests eliminates decomposers that maintain soil fertility',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -220,7 +220,7 @@ export default {
         'a collapse of most food chains and a decrease in all marine animal populations',
         'no significant effect because marine animals can use other food sources',
       ],
-      topic: 'Ecology',
+      topic: 'Genetics',
       correct: 2,
     },
     {
@@ -232,7 +232,7 @@ export default {
         'cloned individuals cannot reproduce sexually',
         'cloning always produces offspring with harmful mutations',
       ],
-      topic: 'Reproduction',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -244,7 +244,7 @@ export default {
         'these organisms evolved completely independently',
         'the similarities are due to similar environments, not common ancestry',
       ],
-      topic: 'Genetics',
+      topic: 'Human Body',
       correct: 1,
     },
     {
@@ -256,7 +256,7 @@ export default {
         'converting carbon dioxide into organic compounds',
         'storing carbon in long-term deposits in the soil',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -268,7 +268,7 @@ export default {
         'A rat learns to navigate a maze through trial and error.',
         'A chimpanzee learns to use tools by observing other chimpanzees.',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -316,7 +316,7 @@ export default {
         'natural selection',
         'Lamarckian inheritance',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -340,7 +340,7 @@ export default {
         'autotrophs',
         'consumers',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -352,7 +352,7 @@ export default {
         'a parasite that lives off a host organism',
         'a decomposer that breaks down organic matter',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -364,7 +364,7 @@ export default {
         'cannot survive outside of its native ecosystem',
         'immediately forms mutualistic relationships with native species',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
 
@@ -432,7 +432,7 @@ export default {
         'the amount of gas produced by the yeast',
         'the temperature at which the experiment was conducted',
       ],
-      topic: 'General Review',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -444,7 +444,7 @@ export default {
         'the sickle cell allele provides some protection against malaria while not causing severe anemia',
         'all individuals in malaria-affected areas eventually develop resistance to the disease',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -520,7 +520,7 @@ export default {
         'burning fossil fuels for energy',
         'planting trees in urban areas',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -532,7 +532,7 @@ export default {
         'Hawks preferentially hunted white rabbits because they were more visible, so brown rabbits survived and reproduced more.',
         'Brown rabbits migrated from another island and outcompeted the white rabbits.',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 2,
     },
   ],

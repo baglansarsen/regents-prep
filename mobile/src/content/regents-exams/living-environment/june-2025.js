@@ -28,7 +28,7 @@ export default {
         'ATP and carbon dioxide',
         'glucose and oxygen',
       ],
-      topic: 'Human Body',
+      topic: 'General',
       correct: 0,
     },
     {
@@ -40,7 +40,7 @@ export default {
         'large animals waste food, resulting in harm to other organisms in the ecosystem',
         'predators should consume small prey to protect the diversity of the ecosystem',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -64,7 +64,7 @@ export default {
         'the migration of introduced ladybugs may affect food webs in other areas',
         'the action of ladybugs may reduce insect pest populations',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -76,7 +76,7 @@ export default {
         'their genes are the strongest, which will help them attract suitable mates',
         'they are less attractive and are less likely to find suitable mates',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 0,
     },
     {
@@ -88,7 +88,7 @@ export default {
         'DNA controls the production of protein in the cell.',
         'A cell is composed entirely of DNA and protein.',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 2,
       image: '/images/exams/le-june-2025/q7.png',
     },
@@ -101,7 +101,7 @@ export default {
         'there was a lack of predators for the new communities of organisms',
         'the original species suddenly became extinct',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -113,7 +113,7 @@ export default {
         'insect pest populations will increase because fewer warblers are present',
         'more warbler eggs will be hatched in Central and South America to increase the population',
       ],
-      topic: 'Ecology',
+      topic: 'Genetics',
       correct: 2,
       image: '/images/exams/le-june-2025/q9.png',
     },
@@ -126,7 +126,7 @@ export default {
         'maintain their own internal stability',
         'depend on physical conditions for survival',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -138,7 +138,7 @@ export default {
         'asexual reproduction, and the new plants develop by meiosis and fertilization',
         'sexual reproduction, and the new plants develop by mitosis and differentiation',
       ],
-      topic: 'Reproduction',
+      topic: 'Genetics',
       correct: 0,
     },
     {
@@ -162,7 +162,7 @@ export default {
         'It is an example of parental care for the survival of their offspring.',
         'The discovery confirms that spiders provide mammal milk to their offspring.',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 2,
       image: '/images/exams/le-june-2025/q13.png',
     },
@@ -175,7 +175,7 @@ export default {
         'decreasing the number of car sales, since electric cars are more expensive than gasoline-powered cars',
         'decreasing the consumption of fossil fuels, since only renewable energy sources can be used to generate electricity',
       ],
-      topic: 'Cell Biology',
+      topic: 'Ecology',
       correct: 1,
     },
     {
@@ -187,7 +187,7 @@ export default {
         'The offspring have cells that contain DNA found only in the female lizard.',
         'The offspring are genetically identical to each other and the female lizard.',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -235,7 +235,7 @@ export default {
         'the broken proteins will not interact with other molecules correctly',
         'the broken chains will attack the ribosomes of the cell and shut them down',
       ],
-      topic: 'Cell Biology',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -298,7 +298,7 @@ export default {
         'allow differentiation to occur',
         'interfere with fertilization',
       ],
-      topic: 'Reproduction',
+      topic: 'General',
       correct: 0,
     },
     {
@@ -322,7 +322,7 @@ export default {
         'pH of the cytoplasm',
         'size of a cell nucleus',
       ],
-      topic: 'Cell Biology',
+      topic: 'Genetics',
       correct: 1,
     },
     {
@@ -370,7 +370,7 @@ export default {
         'result in the offspring having immunity to skin cancer',
         'help their offspring better adapt to skin cancer in sunnier climates',
       ],
-      topic: 'Genetics',
+      topic: 'Human Body',
       correct: 1,
     },
 

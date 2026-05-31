@@ -16,7 +16,7 @@ export default {
         'All organisms in a population change equally in response to environmental changes.',
         'Humans select organisms with desirable traits and breed them to improve the species.',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -28,7 +28,7 @@ export default {
         'transpiration',
         'nitrogen fixation',
       ],
-      topic: 'Cell Biology',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -40,7 +40,7 @@ export default {
         'an increase in the reproduction rate of the fish',
         'migration of fish to other lakes in the region',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -64,7 +64,7 @@ export default {
         'ecological succession',
         'natural selection',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -100,7 +100,7 @@ export default {
         'genetic engineering — pesticides caused targeted mutations in insect DNA',
         'all insects developed resistance simultaneously when exposed to pesticides',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -124,7 +124,7 @@ export default {
         'the anaerobic species having more mitochondria than the aerobic species',
         'the aerobic species living in soil while the anaerobic species lives in water',
       ],
-      topic: 'Cell Biology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -136,7 +136,7 @@ export default {
         'mutation caused by the cold Arctic environment',
         'example of artificial selection by humans',
       ],
-      topic: 'Genetics',
+      topic: 'Ecology',
       correct: 0,
     },
     {
@@ -148,7 +148,7 @@ export default {
         'the nitrogen cycle, through which nitrogen is converted between forms',
         'the rock cycle, through which rocks are formed and broken down',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 0,
     },
     {
@@ -160,7 +160,7 @@ export default {
         'endocytosis',
         'photosynthesis',
       ],
-      topic: 'Cell Biology',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -172,7 +172,7 @@ export default {
         'proteins that carry out most cell functions',
         'nucleic acids that store chemical energy',
       ],
-      topic: 'Cell Biology',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -184,7 +184,7 @@ export default {
         'parasitism — one warbler benefits while the other is harmed',
         'mutualism — both species benefit from sharing the forest',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -208,7 +208,7 @@ export default {
         'an increase in the rate of photosynthesis that offsets any warming',
         'a decrease in ocean pH that allows marine organisms to grow larger',
       ],
-      topic: 'Ecology',
+      topic: 'Genetics',
       correct: 1,
     },
     {
@@ -232,7 +232,7 @@ export default {
         'both donors equally, since both contributed DNA to the clone',
         'neither donor, since cloning creates new genetic combinations',
       ],
-      topic: 'Reproduction',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -244,7 +244,7 @@ export default {
         'providing oxygen for cellular respiration of organisms on Earth\'s surface',
         'filtering out air pollutants before they reach Earth\'s surface',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -268,7 +268,7 @@ export default {
         'introducing viral antibodies produced by other recovered patients into the bloodstream',
         'preventing the virus from entering cells by blocking virus receptors',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -280,7 +280,7 @@ export default {
         'heterotroph',
         'decomposer',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -304,7 +304,7 @@ export default {
         'reducing the amount of natural gas available for energy production',
         'increasing soil fertility by breaking down rock minerals',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -328,7 +328,7 @@ export default {
         'Antibiotics only work effectively when used very rarely.',
         'Overuse of antibiotics reduces the effectiveness of vaccines.',
       ],
-      topic: 'Genetics',
+      topic: 'Ecology',
       correct: 1,
     },
     {
@@ -364,7 +364,7 @@ export default {
         'Living things are made of solid matter.',
         'Living things are affected by changes in temperature.',
       ],
-      topic: 'Cell Biology',
+      topic: 'General',
       correct: 1,
     },
 
@@ -434,7 +434,7 @@ export default {
         'salt marshes are unstable ecosystems',
         'removing predators always increases biodiversity',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -446,7 +446,7 @@ export default {
         'Survey 100 people about their exercise habits and measure their hormone levels.',
         'Remove the gland that produces the hormone and observe changes in heart rate.',
       ],
-      topic: 'General Review',
+      topic: 'Human Body',
       correct: 1,
     },
     {
@@ -486,7 +486,7 @@ export default {
         'an increase in biodiversity as other pollinators take over',
         'no significant effect because wind pollination can replace bee pollination',
       ],
-      topic: 'Ecology',
+      topic: 'Genetics',
       correct: 1,
     },
     {
@@ -536,7 +536,7 @@ export default {
         'scientists should stop developing new pesticides',
         'beneficial insects are more susceptible to chemicals than harmful insects',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 1,
     },
   ],

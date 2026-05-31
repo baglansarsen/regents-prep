@@ -130,7 +130,7 @@ export default {
         'diagram 3',
         'diagram 4',
       ],
-      topic: 'Geologic Time',
+      topic: 'General',
       correct: 3,
     },
     {
@@ -155,7 +155,7 @@ export default {
         'smooth black marble tile',
         'rough black marble gravel',
       ],
-      topic: 'Climate',
+      topic: 'Astronomy',
       correct: 3,
     },
     {
@@ -179,7 +179,7 @@ export default {
         'asthenosphere',
         'atmosphere',
       ],
-      topic: 'Plate Tectonics',
+      topic: 'General',
       correct: 3,
     },
     {
@@ -191,7 +191,7 @@ export default {
         'red visible light',
         'violet visible light',
       ],
-      topic: 'Climate',
+      topic: 'General',
       correct: 0,
     },
     {
@@ -215,7 +215,7 @@ export default {
         'decrease, then increase',
         'increase, then decrease',
       ],
-      topic: 'General Review',
+      topic: 'Astronomy',
       correct: 2,
     },
     {
@@ -227,7 +227,7 @@ export default {
         'diagram 3',
         'diagram 4',
       ],
-      topic: 'Maps',
+      topic: 'General',
       correct: 1,
       image: '/images/exams/es-august-2022/q18.png',
     },
@@ -240,7 +240,7 @@ export default {
         'Late Archean',
         'Late Carboniferous',
       ],
-      topic: 'General Review',
+      topic: 'Geologic Time',
       correct: 2,
     },
     {
@@ -252,7 +252,7 @@ export default {
         'brachiopods',
         'placoderm fish',
       ],
-      topic: 'Geologic Time',
+      topic: 'General',
       correct: 3,
     },
     {
@@ -264,7 +264,7 @@ export default {
         'thicker and less dense',
         'thicker and more dense',
       ],
-      topic: 'Geology',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -276,7 +276,7 @@ export default {
         'Lithosphere: lowest density and rigid; Mantle: partial melting and convection currents in upper region; Outer Core: highest pressure, composed of iron and nickel; Inner Core: completely liquid',
         'Lithosphere: lowest density and rigid; Mantle: completely liquid; Outer Core: partial melting and convection currents in upper region; Inner Core: highest pressure, composed of iron and nickel',
       ],
-      topic: 'Geology',
+      topic: 'General',
       correct: 0,
     },
     {
@@ -301,7 +301,7 @@ export default {
         'divergent boundaries with the plates moving in a relative east–west direction',
         'divergent boundaries with the plates moving in a relative north–south direction',
       ],
-      topic: 'Plate Tectonics',
+      topic: 'General',
       correct: 0,
     },
     {
@@ -313,7 +313,7 @@ export default {
         'age of the bedrock',
         'underlying bedrock structure',
       ],
-      topic: 'Geology',
+      topic: 'Water Cycle',
       correct: 3,
       image: '/images/exams/es-august-2022/q25.png',
     },
@@ -326,7 +326,7 @@ export default {
         'Niagara',
         'St. Lawrence',
       ],
-      topic: 'Geologic Time',
+      topic: 'Water Cycle',
       correct: 1,
     },
     {
@@ -338,7 +338,7 @@ export default {
         'unsorted and layered',
         'unsorted and non-layered',
       ],
-      topic: 'Geology',
+      topic: 'General',
       correct: 3,
     },
     {
@@ -374,7 +374,7 @@ export default {
         'drumlin',
         'outwash plain',
       ],
-      topic: 'Water Cycle',
+      topic: 'General',
       correct: 2,
       image: '/images/exams/es-august-2022/q30.png',
     },

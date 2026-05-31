@@ -28,7 +28,7 @@ export default {
         'small fish',
         'large fish',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -52,7 +52,7 @@ export default {
         'Children always inherit the dominant trait from each parent.',
         'Traits are randomly assigned to offspring during fertilization.',
       ],
-      topic: 'Reproduction',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -64,7 +64,7 @@ export default {
         'ability to survive in different environments',
         'genetic makeup that determines its traits',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -76,7 +76,7 @@ export default {
         'the similarity is a coincidence with no evolutionary significance',
         'all vertebrates evolved from dolphins',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -88,7 +88,7 @@ export default {
         'the application of an herbicide that kills most plant species',
         'the removal of all predator species from the ecosystem',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -112,7 +112,7 @@ export default {
         'washing hands frequently to prevent the spread of bacteria',
         'using vaccines to prevent bacterial infections',
       ],
-      topic: 'Genetics',
+      topic: 'Ecology',
       correct: 0,
     },
     {
@@ -136,7 +136,7 @@ export default {
         'biotic factors in the river, increasing competition among fish',
         'rate of photosynthesis, causing fish to grow too quickly',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -160,7 +160,7 @@ export default {
         'a tropism — a growth response to an environmental stimulus',
         'natural selection',
       ],
-      topic: 'Human Body',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -172,7 +172,7 @@ export default {
         'higher biodiversity means fewer pathogens and diseases in the ecosystem',
         'biodiversity increases the amount of energy available in the ecosystem',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 0,
     },
     {
@@ -196,7 +196,7 @@ export default {
         'Higher-level organisms require more territory and therefore have smaller populations.',
         'Predators at higher trophic levels keep their own populations small through competition.',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -208,7 +208,7 @@ export default {
         'a cloned population with little genetic diversity could be wiped out by a single disease',
         'cloning produces animals that age twice as fast as naturally born animals',
       ],
-      topic: 'Reproduction',
+      topic: 'Genetics',
       correct: 2,
     },
     {
@@ -220,7 +220,7 @@ export default {
         'volcanic eruptions and burning of forests',
         'transpiration and evaporation',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -244,7 +244,7 @@ export default {
         'absorbs light from the surface and stores it for later use',
         'uses oxygen from the water around it during normal cellular respiration',
       ],
-      topic: 'Cell Biology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -256,7 +256,7 @@ export default {
         'natural selection against brown rabbits because they were harder for the hawk to see',
         'a mutation that changed white fur genes to brown fur genes in the white rabbit population',
       ],
-      topic: 'Genetics',
+      topic: 'Ecology',
       correct: 1,
     },
     {
@@ -280,7 +280,7 @@ export default {
         'birds should not live near agricultural areas',
         'non-target organisms are always more sensitive to pesticides than target organisms',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -316,7 +316,7 @@ export default {
         'antibiotics cause the TB bacteria to mutate and become stronger',
         'TB bacteria can share resistance genes with other types of bacteria',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -340,7 +340,7 @@ export default {
         'to ensure that all 200 patients receive some form of treatment',
         'to determine the optimal dose of the drug for treating the disease',
       ],
-      topic: 'General Review',
+      topic: 'Human Body',
       correct: 1,
     },
     {
@@ -352,7 +352,7 @@ export default {
         'the genetic code evolved independently in each species',
         'different species cannot have different DNA sequences',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -364,7 +364,7 @@ export default {
         'increased biodiversity in agricultural areas that replace the forests',
         'decreased soil fertility due to removal of root systems',
       ],
-      topic: 'Ecology',
+      topic: 'Genetics',
       correct: 1,
     },
 
@@ -434,7 +434,7 @@ export default {
         'All bird species, regardless of habitat preference, have declined at the same rate.',
         'Bird species that migrate to Central America show less decline than non-migratory species.',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -446,7 +446,7 @@ export default {
         'the number of oxygen bubbles produced per minute',
         'the temperature of the water',
       ],
-      topic: 'General Review',
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -486,7 +486,7 @@ export default {
         'mammals caused the extinction of the dinosaurs through competition',
         'evolution always produces more species after an extinction event',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -524,7 +524,7 @@ export default {
         'genetic engineering changing the beak size of the finches',
         'a mutation caused by the drought that produced larger beaks',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -536,7 +536,7 @@ export default {
         'bald eagles are particularly sensitive to all environmental toxins',
         'DDT was effective at protecting crops and should continue to be used',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
   ],

@@ -30,7 +30,7 @@ export default {
         '7:40 p.m.',
         '1:53 a.m.',
       ],
-      topic: 'Astronomy',
+      topic: 'General',
       correct: 0,
       image: '/images/exams/es-august-2019/q2.png',
     },
@@ -110,7 +110,7 @@ export default {
         'an impact event occurring on Earth\'s surface',
         'earthquakes occurring along crustal plate boundaries',
       ],
-      topic: 'Plate Tectonics',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -137,7 +137,7 @@ export default {
         'no longer frozen with a steep slope',
         'no longer frozen with a gentle slope',
       ],
-      topic: 'General Review',
+      topic: 'General',
       correct: 3,
     },
     {
@@ -150,7 +150,7 @@ export default {
         'evaporation and transpiration',
         'evaporation and precipitation',
       ],
-      topic: 'Water Cycle',
+      topic: 'Meteorology',
       correct: 2,
     },
     {
@@ -163,7 +163,7 @@ export default {
         'sorted pebbles',
         'sorted sand',
       ],
-      topic: 'Geology',
+      topic: 'Water Cycle',
       correct: 2,
     },
     {
@@ -176,7 +176,7 @@ export default {
         'increasing wind speed',
         'dewpoint equal to air temperature',
       ],
-      topic: 'Meteorology',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -202,7 +202,7 @@ export default {
         'oxygen',
         'ozone',
       ],
-      topic: 'Climate',
+      topic: 'General',
       correct: 3,
     },
     {
@@ -215,7 +215,7 @@ export default {
         'changes in the energy radiated from the Sun',
         'changes in worldwide atmospheric temperatures',
       ],
-      topic: 'Meteorology',
+      topic: 'General',
       correct: 0,
     },
     {
@@ -255,7 +255,7 @@ export default {
         'light color and rough texture',
         'light color and smooth texture',
       ],
-      topic: 'Climate',
+      topic: 'Astronomy',
       correct: 0,
     },
     {
@@ -268,7 +268,7 @@ export default {
         'converging and rising',
         'diverging and rising',
       ],
-      topic: 'Meteorology',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -281,7 +281,7 @@ export default {
         'the absorption of sunlight by plants',
         'evaporation of ocean water',
       ],
-      topic: 'Geologic Time',
+      topic: 'Meteorology',
       correct: 0,
     },
     {
@@ -307,7 +307,7 @@ export default {
         'small geographic area and in a short geologic time',
         'small geographic area and in a long geologic time',
       ],
-      topic: 'Geologic Time',
+      topic: 'Geology',
       correct: 0,
     },
     {
@@ -320,7 +320,7 @@ export default {
         '9 minutes',
         '4 minutes',
       ],
-      topic: 'Plate Tectonics',
+      topic: 'Geology',
       correct: 2,
     },
     {
@@ -333,7 +333,7 @@ export default {
         'stiffer mantle and outer core',
         'outer core and inner core',
       ],
-      topic: 'Plate Tectonics',
+      topic: 'Geology',
       correct: 3,
     },
     {
@@ -374,7 +374,7 @@ export default {
         'Atlantic Coastal Plain, Newark Lowlands, Hudson Highlands, Hudson-Mohawk Lowlands',
         'Atlantic Coastal Plain, Manhattan Prong, Hudson Highlands, Allegheny Plateau',
       ],
-      topic: 'Plate Tectonics',
+      topic: 'General',
       correct: 1,
       image: '/images/exams/es-august-2019/q28.png',
     },
@@ -402,7 +402,7 @@ export default {
         'C',
         'D',
       ],
-      topic: 'Geology',
+      topic: 'Water Cycle',
       correct: 2,
       image: '/images/exams/es-august-2019/q30.png',
     },
@@ -416,7 +416,7 @@ export default {
         'more chemical weathering and a scarcity of living organisms',
         'more chemical weathering and an abundance of living organisms',
       ],
-      topic: 'Geology',
+      topic: 'Climate',
       correct: 3,
     },
     {
@@ -429,7 +429,7 @@ export default {
         'a drop in sea level occurred, leaving the lakes',
         'a rise in sea level occurred, flooding the region',
       ],
-      topic: 'Geology',
+      topic: 'General',
       correct: 0,
     },
     {
@@ -442,7 +442,7 @@ export default {
         'peridotite',
         'gabbro',
       ],
-      topic: 'Geology',
+      topic: 'Meteorology',
       correct: 3,
     },
     {

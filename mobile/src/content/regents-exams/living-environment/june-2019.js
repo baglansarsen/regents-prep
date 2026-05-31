@@ -16,7 +16,7 @@ export default {
         'DNA that code for specific traits',
         'ribosomes that produce proteins',
       ],
-      topic: 'Cell Biology',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -28,7 +28,7 @@ export default {
         'homeostasis',
         'differentiation',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -64,7 +64,7 @@ export default {
         'habitat destruction caused by human activities',
         'competition between closely related species',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 2,
     },
     {
@@ -88,7 +88,7 @@ export default {
         'Geographic barriers prevent mutations from occurring in isolated populations.',
         'Isolated populations always interbreed with neighboring species.',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -100,7 +100,7 @@ export default {
         'cellular respiration',
         'transcription',
       ],
-      topic: 'Reproduction',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -124,7 +124,7 @@ export default {
         'Individual organisms are too small for natural selection to act upon.',
         'Evolution only occurs in large populations with many competing species.',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -160,7 +160,7 @@ export default {
         'both its genotype and its environment',
         'random chance, with no influence from genetics or environment',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -184,7 +184,7 @@ export default {
         'tundra organisms are too competitive to allow other species to thrive',
         'tundra ecosystems lack the abiotic factors needed for most organisms',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -208,7 +208,7 @@ export default {
         'Evolution is directed toward producing more complex or more intelligent organisms.',
         'Evolution always produces organisms that are better adapted to their environment.',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -220,7 +220,7 @@ export default {
         'reduces the carrying capacity of the ecosystem for all organisms',
         'interbreeds with native species, causing a loss of genetic diversity',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -244,7 +244,7 @@ export default {
         'increased release of carbon dioxide stored in trees',
         'decreased habitat for soil-dwelling organisms',
       ],
-      topic: 'Ecology',
+      topic: 'Genetics',
       correct: 2,
     },
     {
@@ -256,7 +256,7 @@ export default {
         'Cancer is always inherited and passed from parent to offspring.',
         'Cancer results from the failure of cells to undergo mitosis.',
       ],
-      topic: 'Cell Biology',
+      topic: 'General',
       correct: 0,
     },
     {
@@ -268,7 +268,7 @@ export default {
         'genetic mutation',
         'ecological succession',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -280,7 +280,7 @@ export default {
         'a hawk hunting and eating field mice',
         'two species of birds competing for nesting sites in the same tree',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -304,7 +304,7 @@ export default {
         'Measure the temperature of soil around plants at different times of day.',
         'Observe the height of plants grown in different light conditions over 4 weeks.',
       ],
-      topic: 'General Review',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -316,7 +316,7 @@ export default {
         'the plants are needed to provide oxygen only for people living near the Amazon',
         'deforestation increases the number of plant species by exposing more soil',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -328,7 +328,7 @@ export default {
         'All traits are determined solely by the DNA sequence in genes.',
         'Epigenetic changes always improve an organism\'s ability to survive.',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -340,7 +340,7 @@ export default {
         'mouth → stomach → large intestine → bloodstream → muscle cell',
         'mouth → small intestine → stomach → bloodstream → muscle cell',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -352,7 +352,7 @@ export default {
         'an autoimmune disorder caused by bat viruses',
         'a genetic mutation that makes humans susceptible to bat viruses',
       ],
-      topic: 'Human Body',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -364,7 +364,7 @@ export default {
         'The fossil record is an unreliable source of evidence because it contains many errors.',
         'The fossil record shows that evolution always produces more complex organisms over time.',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 1,
     },
 
@@ -434,7 +434,7 @@ export default {
         'The student should use more types of plants to improve the results.',
         'The student should measure leaf area instead of height to get better data.',
       ],
-      topic: 'General Review',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -486,7 +486,7 @@ export default {
         'Both ecosystems would be equally affected by the loss of 5 species',
         'Ecosystem B, because fewer species means less competition and faster recovery',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -512,7 +512,7 @@ export default {
         'She should use the same type of cancer cells from different patients in each dish.',
         'She should repeat the experiment at least 100 times before drawing any conclusions.',
       ],
-      topic: 'General Review',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -524,7 +524,7 @@ export default {
         'the expansion of insect ranges will have no effect on other species',
         'insects that move to new areas will evolve into new species within a few years',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -536,7 +536,7 @@ export default {
         'no significant change because other tree species quickly fill the vacant niche',
         'an increase in the emerald ash borer population that eventually leads to its own extinction',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
   ],

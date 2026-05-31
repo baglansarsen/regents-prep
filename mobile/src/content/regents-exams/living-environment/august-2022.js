@@ -16,7 +16,7 @@ export default {
         'fertilization',
         'mutation',
       ],
-      topic: 'Reproduction',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -40,7 +40,7 @@ export default {
         'the twins inheriting different chromosomes from their parents',
         'the twins using different genes to control development',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -64,7 +64,7 @@ export default {
         'parasitism',
         'predation',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -76,7 +76,7 @@ export default {
         'rapid recovery of the ecosystem due to the resilience of other species',
         'no significant change because other species would immediately fill the niche',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -88,7 +88,7 @@ export default {
         'decomposer',
         'carnivore',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -112,7 +112,7 @@ export default {
         'artificial selection',
         'sexual reproduction',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -124,7 +124,7 @@ export default {
         'genetic engineering — scientists modified bacterial DNA to produce resistant strains',
         'selective breeding — humans chose resistant bacteria for reproduction',
       ],
-      topic: 'Genetics',
+      topic: 'Ecology',
       correct: 1,
     },
     {
@@ -148,7 +148,7 @@ export default {
         'mutualism — both species benefit from the relationship',
         'commensalism — the bee benefits while the plant is unaffected',
       ],
-      topic: 'Ecology',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -160,7 +160,7 @@ export default {
         'Sexual reproduction causes mutations that produce new genetic information.',
         'Gametes from each parent contain the same genetic information.',
       ],
-      topic: 'Reproduction',
+      topic: 'Genetics',
       correct: 1,
     },
     {
@@ -172,7 +172,7 @@ export default {
         'a positive feedback mechanism that amplifies the response',
         'the immune response to foreign substances in the blood',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -184,7 +184,7 @@ export default {
         'predation',
         'parasitism',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -196,7 +196,7 @@ export default {
         'the temperature of the blood',
         'the hormones produced by the kidneys',
       ],
-      topic: 'Cell Biology',
+      topic: 'Human Body',
       correct: 1,
     },
     {
@@ -208,7 +208,7 @@ export default {
         'It produces oxygen that reacts with water to form acid rain.',
         'It cools the atmosphere by releasing heat from combustion.',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -220,7 +220,7 @@ export default {
         'increase the rate of natural selection in wild populations',
         'produce new species without the need for reproduction',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -232,7 +232,7 @@ export default {
         'application of pesticides that kill all insects in the area',
         'planting of a single crop species in a previously wild area',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -256,7 +256,7 @@ export default {
         'all organisms will eventually become resistant to any chemical used against them',
         'genetic engineering can rapidly produce resistant populations of organisms',
       ],
-      topic: 'Genetics',
+      topic: 'Ecology',
       correct: 1,
     },
     {
@@ -292,7 +292,7 @@ export default {
         'Traits are passed to offspring through the environment, not through genes.',
         'All traits in an organism are determined by a single gene.',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -304,7 +304,7 @@ export default {
         'isolated populations accumulate different genetic changes over time, making interbreeding impossible',
         'geographic isolation increases the mutation rate in isolated populations',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 2,
     },
     {
@@ -316,7 +316,7 @@ export default {
         'competition',
         'predation',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -328,7 +328,7 @@ export default {
         'establishing wildlife corridors between fragmented habitats',
         'introducing invasive species to control pest populations',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 2,
     },
     {
@@ -352,7 +352,7 @@ export default {
         'showing that the two species evolved from completely different ancestors',
         'proving that the birds will eventually interbreed',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 0,
     },
     {
@@ -434,7 +434,7 @@ export default {
         'They provide extra data that will be averaged with the fertilizer group.',
         'They are used to determine the optimal amount of fertilizer to use.',
       ],
-      topic: 'General Review',
+      topic: 'Reproduction',
       correct: 1,
     },
     {
@@ -446,7 +446,7 @@ export default {
         'The frequency of light-colored moths will increase as they are better camouflaged.',
         'No change will occur because moth color is not affected by the environment.',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -486,7 +486,7 @@ export default {
         'the beetle is a parasitic species that will be eliminated by its host species',
         'all beetle species eventually go extinct because they cannot adapt to change',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -536,7 +536,7 @@ export default {
         'structures that serve different functions cannot be related',
         'evolution always produces the same structures in different species',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 1,
     },
   ],

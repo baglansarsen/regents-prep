@@ -16,7 +16,7 @@ export default {
         'They maintain a stable internal environment.',
         'They have a nucleus that controls cell activities.',
       ],
-      topic: 'Cell Biology',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -76,7 +76,7 @@ export default {
         'mutualism',
         'parasitism',
       ],
-      topic: 'Ecology',
+      topic: 'Human Body',
       correct: 2,
     },
     {
@@ -88,7 +88,7 @@ export default {
         'Pancreatic cells have a different DNA sequence than other body cells.',
         'Insulin production requires enzymes found only in the pancreas.',
       ],
-      topic: 'Cell Biology',
+      topic: 'Human Body',
       correct: 1,
     },
     {
@@ -112,7 +112,7 @@ export default {
         'the environment directly caused mutations that produced longer legs',
         'the deer with shorter legs moved to a warmer environment',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -136,7 +136,7 @@ export default {
         'genetic mutation',
         'ecological succession',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -160,7 +160,7 @@ export default {
         'prevents the transmission of genetic information to offspring',
         'allows organisms to reproduce asexually when necessary',
       ],
-      topic: 'Reproduction',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -172,7 +172,7 @@ export default {
         'natural selection',
         'genetic engineering',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 2,
     },
     {
@@ -184,7 +184,7 @@ export default {
         'food chains present in the ecosystem',
         'chemical reactions occurring in organisms',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -208,7 +208,7 @@ export default {
         'simple sugars can be absorbed through the walls of the small intestine',
         'complex carbohydrates are used directly as a source of energy by cells',
       ],
-      topic: 'Human Body',
+      topic: 'Cell Biology',
       correct: 2,
     },
     {
@@ -220,7 +220,7 @@ export default {
         'a decrease in the water temperature to the optimal range for the fish',
         'an increase in the rate of photosynthesis by aquatic plants',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -232,7 +232,7 @@ export default {
         'errors in DNA replication during development',
         'differences in the chromosomes inherited from their parents',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -244,7 +244,7 @@ export default {
         'an increase in the population size due to abundant resources',
         'the migration of many individuals into the population',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -280,7 +280,7 @@ export default {
         'bacteria with random mutations that allowed survival reproduced and passed resistance to offspring',
         'bacteria absorbed genes from dead bacteria that had survived antibiotic treatment',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 2,
     },
     {
@@ -304,7 +304,7 @@ export default {
         'no teeth and a simple digestive tract',
         'sharp claws for catching prey and large eyes for night vision',
       ],
-      topic: 'Ecology',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -316,7 +316,7 @@ export default {
         'prevent all forms of cancer from occurring',
         'modify the genetic makeup of existing species',
       ],
-      topic: 'Genetics',
+      topic: 'General',
       correct: 1,
     },
     {
@@ -340,7 +340,7 @@ export default {
         'that evolution always results in organisms becoming more complex',
         'the exact mechanism by which new species are formed',
       ],
-      topic: 'Genetics',
+      topic: 'Evolution',
       correct: 1,
     },
     {
@@ -352,7 +352,7 @@ export default {
         'both parents',
         'neither parent — mutations create new genetic information',
       ],
-      topic: 'Reproduction',
+      topic: 'Genetics',
       correct: 2,
     },
     {
@@ -364,7 +364,7 @@ export default {
         'introduction of domestic animals into agricultural areas',
         'use of renewable energy sources such as wind and solar power',
       ],
-      topic: 'Ecology',
+      topic: 'Evolution',
       correct: 1,
     },
 
@@ -431,7 +431,7 @@ export default {
         'humans and chimpanzees are members of the same species',
         'DNA sequences are not useful for determining evolutionary relationships',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -443,7 +443,7 @@ export default {
         'Test several different types of enzymes at a single temperature to find the most active enzyme.',
         'Use a computer model to simulate enzyme activity at high temperatures without performing experiments.',
       ],
-      topic: 'General Review',
+      topic: 'Cell Biology',
       correct: 1,
     },
     {
@@ -508,7 +508,7 @@ export default {
         'Group 3, because it received only fertilizer',
         'No control group was set up in this experiment',
       ],
-      topic: 'General Review',
+      topic: 'Reproduction',
       correct: 1,
     },
     {
@@ -532,7 +532,7 @@ export default {
         'all of these organisms share a common ancestor from which they inherited the gene',
         'the gene is not important because it appears in so many different organisms',
       ],
-      topic: 'Genetics',
+      topic: 'Cell Biology',
       correct: 2,
     },
   ],
