@@ -26,11 +26,17 @@ import chemJun2025 from './chemistry/june-2025'
 import chemJun2024 from './chemistry/june-2024'
 import chemAug2024 from './chemistry/august-2024'
 import chemJun2023 from './chemistry/june-2023'
+import chemAug2023 from './chemistry/august-2023'
+import chemJun2022 from './chemistry/june-2022'
+import chemAug2022 from './chemistry/august-2022'
+import chemJun2019 from './chemistry/june-2019'
+import chemAug2019 from './chemistry/august-2019'
 
 import physJun2025 from './physics/june-2025'
 import physJun2024 from './physics/june-2024'
-import physAug2024 from './physics/august-2024'
 import physJun2023 from './physics/june-2023'
+import physJun2022 from './physics/june-2022'
+import physJun2019 from './physics/june-2019'
 
 import a1Jun2025 from './algebra-1/june-2025'
 import a1Jun2024 from './algebra-1/june-2024'
@@ -40,7 +46,6 @@ import a1Aug2023 from './algebra-1/august-2023'
 import a1Jun2022 from './algebra-1/june-2022'
 import a1Aug2022 from './algebra-1/august-2022'
 import a1Jun2021 from './algebra-1/june-2021'
-import a1Aug2021 from './algebra-1/august-2021'
 import a1Jun2019 from './algebra-1/june-2019'
 import a1Aug2019 from './algebra-1/august-2019'
 
@@ -51,8 +56,6 @@ import a2Jun2023 from './algebra-2/june-2023'
 import a2Aug2023 from './algebra-2/august-2023'
 import a2Jun2022 from './algebra-2/june-2022'
 import a2Aug2022 from './algebra-2/august-2022'
-import a2Jun2021 from './algebra-2/june-2021'
-import a2Aug2021 from './algebra-2/august-2021'
 import a2Jun2019 from './algebra-2/june-2019'
 import a2Aug2019 from './algebra-2/august-2019'
 
@@ -63,8 +66,6 @@ import geoJun2023 from './geometry/june-2023'
 import geoAug2023 from './geometry/august-2023'
 import geoJun2022 from './geometry/june-2022'
 import geoAug2022 from './geometry/august-2022'
-import geoJun2021 from './geometry/june-2021'
-import geoAug2021 from './geometry/august-2021'
 import geoJun2019 from './geometry/june-2019'
 import geoAug2019 from './geometry/august-2019'
 
@@ -86,17 +87,25 @@ export const REGENTS_EXAMS = {
     esJun2019, esAug2019,
   ],
   'chemistry': [
-    chemJun2025, chemJun2024, chemAug2024, chemJun2023,
+    chemJun2025,
+    chemJun2024, chemAug2024,
+    chemJun2023, chemAug2023,
+    chemJun2022, chemAug2022,
+    chemJun2019, chemAug2019,
   ],
   'physics': [
-    physJun2025, physJun2024, physAug2024, physJun2023,
+    physJun2025,
+    physJun2024,
+    physJun2023,
+    physJun2022,
+    physJun2019,
   ],
   'algebra-1': [
     a1Jun2025,
     a1Jun2024, a1Aug2024,
     a1Jun2023, a1Aug2023,
     a1Jun2022, a1Aug2022,
-    a1Jun2021, a1Aug2021,
+    a1Jun2021,
     a1Jun2019, a1Aug2019,
   ],
   'algebra-2': [
@@ -104,7 +113,6 @@ export const REGENTS_EXAMS = {
     a2Jun2024, a2Aug2024,
     a2Jun2023, a2Aug2023,
     a2Jun2022, a2Aug2022,
-    a2Jun2021, a2Aug2021,
     a2Jun2019, a2Aug2019,
   ],
   'geometry': [
@@ -112,7 +120,6 @@ export const REGENTS_EXAMS = {
     geoJun2024, geoAug2024,
     geoJun2023, geoAug2023,
     geoJun2022, geoAug2022,
-    geoJun2021, geoAug2021,
     geoJun2019, geoAug2019,
   ],
 }

@@ -39,14 +39,20 @@ const CHEM_EXAMS = [
   { id: 'chem-jun-2025', label: 'June 2025', subject: SUBJECTS.CHEMISTRY },
   { id: 'chem-aug-2024', label: 'August 2024', subject: SUBJECTS.CHEMISTRY },
   { id: 'chem-jun-2024', label: 'June 2024', subject: SUBJECTS.CHEMISTRY },
+  { id: 'chem-aug-2023', label: 'August 2023', subject: SUBJECTS.CHEMISTRY },
   { id: 'chem-jun-2023', label: 'June 2023', subject: SUBJECTS.CHEMISTRY },
+  { id: 'chem-aug-2022', label: 'August 2022', subject: SUBJECTS.CHEMISTRY },
+  { id: 'chem-jun-2022', label: 'June 2022', subject: SUBJECTS.CHEMISTRY },
+  { id: 'chem-jun-2019', label: 'June 2019', subject: SUBJECTS.CHEMISTRY },
+  { id: 'chem-aug-2019', label: 'August 2019', subject: SUBJECTS.CHEMISTRY },
 ]
 
 const PHYS_EXAMS = [
   { id: 'phys-jun-2025', label: 'June 2025', subject: SUBJECTS.PHYSICS },
-  { id: 'phys-aug-2024', label: 'August 2024', subject: SUBJECTS.PHYSICS },
   { id: 'phys-jun-2024', label: 'June 2024', subject: SUBJECTS.PHYSICS },
   { id: 'phys-jun-2023', label: 'June 2023', subject: SUBJECTS.PHYSICS },
+  { id: 'phys-jun-2022', label: 'June 2022', subject: SUBJECTS.PHYSICS },
+  { id: 'phys-jun-2019', label: 'June 2019', subject: SUBJECTS.PHYSICS },
 ]
 
 const A1_EXAMS = [
@@ -58,7 +64,6 @@ const A1_EXAMS = [
   { id: 'a1-jun-2022', label: 'June 2022', subject: SUBJECTS.ALGEBRA_1 },
   { id: 'a1-aug-2022', label: 'August 2022', subject: SUBJECTS.ALGEBRA_1 },
   { id: 'a1-jun-2021', label: 'June 2021', subject: SUBJECTS.ALGEBRA_1 },
-  { id: 'a1-aug-2021', label: 'August 2021', subject: SUBJECTS.ALGEBRA_1 },
   { id: 'a1-jun-2019', label: 'June 2019', subject: SUBJECTS.ALGEBRA_1 },
   { id: 'a1-aug-2019', label: 'August 2019', subject: SUBJECTS.ALGEBRA_1 },
 ]
@@ -71,8 +76,6 @@ const A2_EXAMS = [
   { id: 'a2-aug-2023', label: 'August 2023', subject: SUBJECTS.ALGEBRA_2 },
   { id: 'a2-jun-2022', label: 'June 2022', subject: SUBJECTS.ALGEBRA_2 },
   { id: 'a2-aug-2022', label: 'August 2022', subject: SUBJECTS.ALGEBRA_2 },
-  { id: 'a2-jun-2021', label: 'June 2021', subject: SUBJECTS.ALGEBRA_2 },
-  { id: 'a2-aug-2021', label: 'August 2021', subject: SUBJECTS.ALGEBRA_2 },
   { id: 'a2-jun-2019', label: 'June 2019', subject: SUBJECTS.ALGEBRA_2 },
   { id: 'a2-aug-2019', label: 'August 2019', subject: SUBJECTS.ALGEBRA_2 },
 ]
@@ -85,8 +88,6 @@ const GEO_EXAMS = [
   { id: 'geo-aug-2023', label: 'August 2023', subject: SUBJECTS.GEOMETRY },
   { id: 'geo-jun-2022', label: 'June 2022', subject: SUBJECTS.GEOMETRY },
   { id: 'geo-aug-2022', label: 'August 2022', subject: SUBJECTS.GEOMETRY },
-  { id: 'geo-jun-2021', label: 'June 2021', subject: SUBJECTS.GEOMETRY },
-  { id: 'geo-aug-2021', label: 'August 2021', subject: SUBJECTS.GEOMETRY },
   { id: 'geo-jun-2019', label: 'June 2019', subject: SUBJECTS.GEOMETRY },
   { id: 'geo-aug-2019', label: 'August 2019', subject: SUBJECTS.GEOMETRY },
 ]
@@ -118,11 +119,17 @@ const EXAM_DATA_MAP = {
   'chem-jun-2025': () => require('../content/regents-exams/chemistry/june-2025'),
   'chem-aug-2024': () => require('../content/regents-exams/chemistry/august-2024'),
   'chem-jun-2024': () => require('../content/regents-exams/chemistry/june-2024'),
+  'chem-aug-2023': () => require('../content/regents-exams/chemistry/august-2023'),
   'chem-jun-2023': () => require('../content/regents-exams/chemistry/june-2023'),
+  'chem-aug-2022': () => require('../content/regents-exams/chemistry/august-2022'),
+  'chem-jun-2022': () => require('../content/regents-exams/chemistry/june-2022'),
+  'chem-jun-2019': () => require('../content/regents-exams/chemistry/june-2019'),
+  'chem-aug-2019': () => require('../content/regents-exams/chemistry/august-2019'),
   'phys-jun-2025': () => require('../content/regents-exams/physics/june-2025'),
-  'phys-aug-2024': () => require('../content/regents-exams/physics/august-2024'),
   'phys-jun-2024': () => require('../content/regents-exams/physics/june-2024'),
   'phys-jun-2023': () => require('../content/regents-exams/physics/june-2023'),
+  'phys-jun-2022': () => require('../content/regents-exams/physics/june-2022'),
+  'phys-jun-2019': () => require('../content/regents-exams/physics/june-2019'),
   'a1-jun-2025':  () => require('../content/regents-exams/algebra-1/june-2025'),
   'a1-jun-2024':  () => require('../content/regents-exams/algebra-1/june-2024'),
   'a1-aug-2024':  () => require('../content/regents-exams/algebra-1/august-2024'),
@@ -131,7 +138,6 @@ const EXAM_DATA_MAP = {
   'a1-jun-2022':  () => require('../content/regents-exams/algebra-1/june-2022'),
   'a1-aug-2022':  () => require('../content/regents-exams/algebra-1/august-2022'),
   'a1-jun-2021':  () => require('../content/regents-exams/algebra-1/june-2021'),
-  'a1-aug-2021':  () => require('../content/regents-exams/algebra-1/august-2021'),
   'a1-jun-2019':  () => require('../content/regents-exams/algebra-1/june-2019'),
   'a1-aug-2019':  () => require('../content/regents-exams/algebra-1/august-2019'),
   'a2-jun-2025':  () => require('../content/regents-exams/algebra-2/june-2025'),
@@ -141,8 +147,6 @@ const EXAM_DATA_MAP = {
   'a2-aug-2023':  () => require('../content/regents-exams/algebra-2/august-2023'),
   'a2-jun-2022':  () => require('../content/regents-exams/algebra-2/june-2022'),
   'a2-aug-2022':  () => require('../content/regents-exams/algebra-2/august-2022'),
-  'a2-jun-2021':  () => require('../content/regents-exams/algebra-2/june-2021'),
-  'a2-aug-2021':  () => require('../content/regents-exams/algebra-2/august-2021'),
   'a2-jun-2019':  () => require('../content/regents-exams/algebra-2/june-2019'),
   'a2-aug-2019':  () => require('../content/regents-exams/algebra-2/august-2019'),
   'geo-jun-2025': () => require('../content/regents-exams/geometry/june-2025'),
@@ -152,8 +156,6 @@ const EXAM_DATA_MAP = {
   'geo-aug-2023': () => require('../content/regents-exams/geometry/august-2023'),
   'geo-jun-2022': () => require('../content/regents-exams/geometry/june-2022'),
   'geo-aug-2022': () => require('../content/regents-exams/geometry/august-2022'),
-  'geo-jun-2021': () => require('../content/regents-exams/geometry/june-2021'),
-  'geo-aug-2021': () => require('../content/regents-exams/geometry/august-2021'),
   'geo-jun-2019': () => require('../content/regents-exams/geometry/june-2019'),
   'geo-aug-2019': () => require('../content/regents-exams/geometry/august-2019'),
 }
