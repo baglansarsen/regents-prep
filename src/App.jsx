@@ -21,6 +21,8 @@ import { useDailyQuestion } from './hooks/useDailyQuestion'
 import { useBookmarks } from './hooks/useBookmarks'
 import { useFriends } from './hooks/useFriends'
 import { useChallenges } from './hooks/useChallenges'
+import { usePet } from './hooks/usePet'
+import { useLeague } from './hooks/useLeague'
 import LoginScreen from './screens/LoginScreen'
 import HomeScreen from './screens/HomeScreen'
 import QuizScreen from './screens/QuizScreen'
@@ -40,6 +42,11 @@ import RegentsExamPickerScreen from './screens/RegentsExamPickerScreen'
 import RegentsExamScreen from './screens/RegentsExamScreen'
 import RegentsExamResultsScreen from './screens/RegentsExamResultsScreen'
 import TestStrategiesScreen from './screens/TestStrategiesScreen'
+import PetPickerScreen from './screens/PetPickerScreen'
+import PetShopScreen from './screens/PetShopScreen'
+import PetEvolutionScreen from './screens/PetEvolutionScreen'
+import LeagueScreen from './screens/LeagueScreen'
+import PetWidget from './components/PetWidget'
 
 export default function App() {
   const { theme, setTheme } = useTheme()
@@ -83,7 +90,7 @@ export default function App() {
 
   const { streak, studiedToday, weekDays, markStudied } = useDailyStreak(user?.uid)
   const { isUnlocked, unlockHint, completedCount, totalTopics } = useUnlocks(subjectHistory, TOPIC_ORDER)
-  const { xp, earnXP, spendXP, loaded: xpLoaded } = useXP(user?.uid)
+  const { xp, weeklyXP, earnXP, spendXP, loaded: xpLoaded } = useXP(user?.uid)
   const { earnedIds, allAchievements, currentToast, dismissToast, queueToast, recordPracticeTest, recordDiagnostic } =
     useAchievements(user?.uid, { history: subjectHistory, streak, xp, achievements: sd.achievements })
 
@@ -111,6 +118,25 @@ export default function App() {
   } = useFriends(user?.uid, user)
   const { challenges, sendBattleRequest, acceptBattle, declineBattle, submitScore } = useChallenges(user?.uid)
 
+  // ── Pets ──────────────────────────────────────────────────────────────────
+  const {
+    pet, inventory, pendingEvolution, activeReaction, activeFloatMessage,
+    feedPet, playWithPet, addInventory, checkAndEvolve, clearPendingEvolution,
+    getPetMessage, initializePet, switchBuddy, petPet, dailyDig,
+    getTodayQuest, updateQuestProgress,
+  } = usePet(user?.uid)
+
+  // ── League ────────────────────────────────────────────────────────────────
+  const {
+    tier, members, loading: leagueLoading, justPromoted, justDemoted,
+    promoteN, demoteN, refresh: refreshLeague,
+  } = useLeague(user?.uid)
+
+  // Check pet evolution whenever XP changes
+  useEffect(() => {
+    if (xp > 0 && pet.chosen) checkAndEvolve(xp)
+  }, [xp, pet.chosen, checkAndEvolve])
+
   const handleDailySubmit = useCallback(async (choiceIndex) => {
     const res = await submitDailyAnswer(choiceIndex)
     if (res) { earnXP(res.xpEarned); markStudied() }
@@ -133,6 +159,8 @@ export default function App() {
   const [challengeResult, setChallengeResult] = useState(null)
   // Guest upgrade modal
   const [showUpgrade, setShowUpgrade] = useState(false)
+  // Pet onboarding flag
+  const [petChosen, setPetChosen] = useState(() => !!localStorage.getItem('regents_pet_chosen'))
 
   const startQuiz = useCallback((topic) => {
     const pool = topic ? getByTopic(topic) : questions
@@ -309,6 +337,22 @@ export default function App() {
     )
   }
 
+  // Pet onboarding (after school/subject, before main app) — skip for guests
+  if (!petChosen && !user.isAnonymous && school !== null && subjectChosen) {
+    return (
+      <div className="app-shell">
+        <PetPickerScreen
+          theme={theme}
+          onComplete={async (petType, petName) => {
+            await initializePet(petType, petName)
+            localStorage.setItem('regents_pet_chosen', '1')
+            setPetChosen(true)
+          }}
+        />
+      </div>
+    )
+  }
+
   // Onboarding: show when school is not set OR subject has never been explicitly chosen
   // Anonymous/guest users skip onboarding
   if ((school === null || !subjectChosen) && !user.isAnonymous) {
@@ -397,6 +441,28 @@ export default function App() {
           onLabPractice={startLabPractice}
           onAdmin={user?.email === ADMIN_EMAIL ? () => setScreen('admin') : null}
           onUpgrade={user?.isAnonymous ? () => setShowUpgrade(true) : null}
+          onLeague={() => setScreen('league')}
+          tier={tier}
+          weeklyXP={weeklyXP}
+          pet={pet}
+          petWidget={pet?.chosen ? (
+            <PetWidget
+              pet={pet}
+              inventory={inventory}
+              theme={theme}
+              activeReaction={activeReaction}
+              activeFloatMessage={activeFloatMessage}
+              onFeed={feedPet}
+              onPlay={playWithPet}
+              onPetTap={petPet}
+              onShop={() => setScreen('petShop')}
+              onDig={async () => {
+                const result = await dailyDig()
+                if (!result.ok) return
+                if (result.type === 'xp') earnXP(result.amount)
+              }}
+            />
+          ) : null}
         />
       )}
 
@@ -515,6 +581,45 @@ export default function App() {
           {...examResult}
           onRetake={() => startRegentsExam(activeExam)}
           onHome={goHome}
+        />
+      )}
+
+      {screen === 'petShop' && (
+        <PetShopScreen
+          xp={xp}
+          inventory={inventory}
+          theme={theme}
+          onBack={() => setScreen('home')}
+          onBuy={async (item) => {
+            const cost = item.cost ?? item.price ?? 0
+            const ok = await spendXP(cost)
+            if (ok) await addInventory(item.id, 1)
+          }}
+        />
+      )}
+
+      {screen === 'league' && (
+        <LeagueScreen
+          uid={user?.uid}
+          tier={tier}
+          members={members}
+          loading={leagueLoading}
+          justPromoted={justPromoted}
+          justDemoted={justDemoted}
+          promoteN={promoteN}
+          demoteN={demoteN}
+          weeklyXP={weeklyXP}
+          theme={theme}
+          onBack={() => setScreen('home')}
+          onRefresh={refreshLeague}
+        />
+      )}
+
+      {pendingEvolution && pet?.chosen && (
+        <PetEvolutionScreen
+          pet={pet}
+          theme={theme}
+          onDismiss={clearPendingEvolution}
         />
       )}
 
