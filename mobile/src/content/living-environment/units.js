@@ -1,8 +1,6 @@
 import { TOPICS, TOPIC_ICONS, getByTopic } from '../questions'
 import leAug2019 from '../regents-exams/living-environment/august-2019'
 import leJun2019 from '../regents-exams/living-environment/june-2019'
-import leAug2021 from '../regents-exams/living-environment/august-2021'
-import leJun2021 from '../regents-exams/living-environment/june-2021'
 import leAug2022 from '../regents-exams/living-environment/august-2022'
 import leJun2022 from '../regents-exams/living-environment/june-2022'
 import leAug2023 from '../regents-exams/living-environment/august-2023'
@@ -11,7 +9,7 @@ import leAug2024 from '../regents-exams/living-environment/august-2024'
 import leJun2024 from '../regents-exams/living-environment/june-2024'
 import leJun2025 from '../regents-exams/living-environment/june-2025'
 
-const LE_EXAMS = [leAug2019, leJun2019, leAug2021, leJun2021, leAug2022, leJun2022, leAug2023, leJun2023, leAug2024, leJun2024, leJun2025]
+const LE_EXAMS = [leAug2019, leJun2019, leAug2022, leJun2022, leAug2023, leJun2023, leAug2024, leJun2024, leJun2025]
 
 const LE_TOPIC_MAP = {
   'Cell Biology':  TOPICS.CELL_BIOLOGY,

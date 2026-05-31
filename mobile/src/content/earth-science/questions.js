@@ -5,8 +5,6 @@ import esJun2023 from '../regents-exams/earth-science/june-2023'
 import esAug2023 from '../regents-exams/earth-science/august-2023'
 import esJun2022 from '../regents-exams/earth-science/june-2022'
 import esAug2022 from '../regents-exams/earth-science/august-2022'
-import esJun2021 from '../regents-exams/earth-science/june-2021'
-import esAug2021 from '../regents-exams/earth-science/august-2021'
 import esJun2019 from '../regents-exams/earth-science/june-2019'
 import esAug2019 from '../regents-exams/earth-science/august-2019'
 
@@ -3015,7 +3013,7 @@ const ES_TOPIC_MAP = {
 
 const ES_EXAMS = [
   esJun2025, esJun2024, esAug2024, esJun2023, esAug2023,
-  esJun2022, esAug2022, esJun2021, esAug2021, esJun2019, esAug2019
+  esJun2022, esAug2022, esJun2019, esAug2019
 ]
 let esNextId = 6000
 ES_EXAMS.forEach((exam) => {

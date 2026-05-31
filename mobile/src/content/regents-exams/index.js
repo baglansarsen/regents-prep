@@ -89,7 +89,6 @@ import a1Jan2024 from './algebra-1/january-2024'
 import a1Jan2025 from './algebra-1/january-2025'
 import a1Jan2026 from './algebra-1/january-2026'
 import a1Jun2019 from './algebra-1/june-2019'
-import a1Jun2021 from './algebra-1/june-2021'
 import a1Jun2022 from './algebra-1/june-2022'
 import a1Jun2023 from './algebra-1/june-2023'
 import a1Jun2024 from './algebra-1/june-2024'
@@ -224,7 +223,6 @@ export const REGENTS_EXAMS = {
     a1Jan2025,
     a1Jan2026,
     a1Jun2019,
-    a1Jun2021,
     a1Jun2022,
     a1Jun2023,
     a1Jun2024,

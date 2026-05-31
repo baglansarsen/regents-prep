@@ -1,8 +1,6 @@
 import { TOPICS, TOPIC_ICONS, getByTopic } from './questions'
 import a1Aug2019 from '../regents-exams/algebra-1/august-2019'
 import a1Jun2019 from '../regents-exams/algebra-1/june-2019'
-import a1Aug2021 from '../regents-exams/algebra-1/august-2021'
-import a1Jun2021 from '../regents-exams/algebra-1/june-2021'
 import a1Aug2022 from '../regents-exams/algebra-1/august-2022'
 import a1Jun2022 from '../regents-exams/algebra-1/june-2022'
 import a1Aug2023 from '../regents-exams/algebra-1/august-2023'
@@ -11,7 +9,7 @@ import a1Aug2024 from '../regents-exams/algebra-1/august-2024'
 import a1Jun2024 from '../regents-exams/algebra-1/june-2024'
 import a1Jun2025 from '../regents-exams/algebra-1/june-2025'
 
-const A1_EXAMS = [a1Aug2019, a1Jun2019, a1Aug2021, a1Jun2021, a1Aug2022, a1Jun2022, a1Aug2023, a1Jun2023, a1Aug2024, a1Jun2024, a1Jun2025]
+const A1_EXAMS = [a1Aug2019, a1Jun2019, a1Aug2022, a1Jun2022, a1Aug2023, a1Jun2023, a1Aug2024, a1Jun2024, a1Jun2025]
 
 export const UNITS = [
   { id: 'algebra-1-u1', title: 'Linear Equations & Inequalities', icon: TOPIC_ICONS[TOPICS.LINEAR_EQUATIONS], color: '#8b5cf6', darkColor: '#6d28d9', topic: TOPICS.LINEAR_EQUATIONS, lessonCount: 3 },

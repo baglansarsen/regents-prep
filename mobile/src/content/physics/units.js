@@ -1,10 +1,9 @@
 import { TOPICS, TOPIC_ICONS, getByTopic } from './questions'
 import physJun2023 from '../regents-exams/physics/june-2023'
 import physJun2024 from '../regents-exams/physics/june-2024'
-import physAug2024 from '../regents-exams/physics/august-2024'
 import physJun2025 from '../regents-exams/physics/june-2025'
 
-const PHYS_EXAMS = [physJun2023, physJun2024, physAug2024, physJun2025]
+const PHYS_EXAMS = [physJun2023, physJun2024, physJun2025]
 
 export const UNITS = [
   { id: 'physics-u1', title: 'Mechanics & Motion',         icon: TOPIC_ICONS[TOPICS.MECHANICS],                  color: '#f59e0b', darkColor: '#d97706', topic: TOPICS.MECHANICS,                  lessonCount: 3 },

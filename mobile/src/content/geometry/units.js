@@ -1,8 +1,6 @@
 import { TOPICS, TOPIC_ICONS, getByTopic } from './questions'
 import geoAug2019 from '../regents-exams/geometry/august-2019'
 import geoJun2019 from '../regents-exams/geometry/june-2019'
-import geoAug2021 from '../regents-exams/geometry/august-2021'
-import geoJun2021 from '../regents-exams/geometry/june-2021'
 import geoAug2022 from '../regents-exams/geometry/august-2022'
 import geoJun2022 from '../regents-exams/geometry/june-2022'
 import geoAug2023 from '../regents-exams/geometry/august-2023'
@@ -11,7 +9,7 @@ import geoAug2024 from '../regents-exams/geometry/august-2024'
 import geoJun2024 from '../regents-exams/geometry/june-2024'
 import geoJun2025 from '../regents-exams/geometry/june-2025'
 
-const GEO_EXAMS = [geoAug2019, geoJun2019, geoAug2021, geoJun2021, geoAug2022, geoJun2022, geoAug2023, geoJun2023, geoAug2024, geoJun2024, geoJun2025]
+const GEO_EXAMS = [geoAug2019, geoJun2019, geoAug2022, geoJun2022, geoAug2023, geoJun2023, geoAug2024, geoJun2024, geoJun2025]
 
 export const UNITS = [
   { id: 'geometry-u1', title: 'Congruence & Transformations', icon: TOPIC_ICONS[TOPICS.CONGRUENCE],     color: '#10b981', darkColor: '#059669', topic: TOPICS.CONGRUENCE,     lessonCount: 3 },

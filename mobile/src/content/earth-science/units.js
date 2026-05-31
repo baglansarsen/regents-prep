@@ -1,8 +1,6 @@
 import { TOPICS, TOPIC_ICONS, getByTopic } from './questions'
 import esAug2019 from '../regents-exams/earth-science/august-2019'
 import esJun2019 from '../regents-exams/earth-science/june-2019'
-import esAug2021 from '../regents-exams/earth-science/august-2021'
-import esJun2021 from '../regents-exams/earth-science/june-2021'
 import esAug2022 from '../regents-exams/earth-science/august-2022'
 import esJun2022 from '../regents-exams/earth-science/june-2022'
 import esAug2023 from '../regents-exams/earth-science/august-2023'
@@ -11,7 +9,7 @@ import esAug2024 from '../regents-exams/earth-science/august-2024'
 import esJun2024 from '../regents-exams/earth-science/june-2024'
 import esJun2025 from '../regents-exams/earth-science/june-2025'
 
-const ES_EXAMS = [esAug2019, esJun2019, esAug2021, esJun2021, esAug2022, esJun2022, esAug2023, esJun2023, esAug2024, esJun2024, esJun2025]
+const ES_EXAMS = [esAug2019, esJun2019, esAug2022, esJun2022, esAug2023, esJun2023, esAug2024, esJun2024, esJun2025]
 
 const ES_TOPIC_MAP = {
   'Geology':         TOPICS.GEOLOGY,

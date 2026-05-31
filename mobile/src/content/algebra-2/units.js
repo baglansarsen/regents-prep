@@ -1,8 +1,6 @@
 import { TOPICS, TOPIC_ICONS, getByTopic } from './questions'
 import a2Aug2019 from '../regents-exams/algebra-2/august-2019'
 import a2Jun2019 from '../regents-exams/algebra-2/june-2019'
-import a2Aug2021 from '../regents-exams/algebra-2/august-2021'
-import a2Jun2021 from '../regents-exams/algebra-2/june-2021'
 import a2Aug2022 from '../regents-exams/algebra-2/august-2022'
 import a2Jun2022 from '../regents-exams/algebra-2/june-2022'
 import a2Aug2023 from '../regents-exams/algebra-2/august-2023'
@@ -11,7 +9,7 @@ import a2Aug2024 from '../regents-exams/algebra-2/august-2024'
 import a2Jun2024 from '../regents-exams/algebra-2/june-2024'
 import a2Jun2025 from '../regents-exams/algebra-2/june-2025'
 
-const A2_EXAMS = [a2Aug2019, a2Jun2019, a2Aug2021, a2Jun2021, a2Aug2022, a2Jun2022, a2Aug2023, a2Jun2023, a2Aug2024, a2Jun2024, a2Jun2025]
+const A2_EXAMS = [a2Aug2019, a2Jun2019, a2Aug2022, a2Jun2022, a2Aug2023, a2Jun2023, a2Aug2024, a2Jun2024, a2Jun2025]
 
 export const UNITS = [
   { id: 'algebra-2-u1', title: 'Polynomial Functions',          icon: TOPIC_ICONS[TOPICS.POLYNOMIAL_FUNCTIONS], color: '#06b6d4', darkColor: '#0891b2', topic: TOPICS.POLYNOMIAL_FUNCTIONS, lessonCount: 3 },
