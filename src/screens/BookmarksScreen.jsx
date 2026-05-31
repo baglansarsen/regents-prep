@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { questions } from '../data/questions'
+import { questions } from '@content/questions'
 
 const LABELS = ['A', 'B', 'C', 'D']
 

@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { REGENTS_EXAMS } from '../data/regents-exams/index'
-import { SUBJECT_META } from '../data/subjects'
+import { REGENTS_EXAMS } from '@content/regents-exams/index'
+import { SUBJECT_META } from '@content/subjects'
 
 const PB_KEY = 'regents_personal_best_v1'
 function getPersonalBests() {

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { TOPIC_ICONS } from '../data/questions'
+import { TOPIC_ICONS } from '@content/questions'
 
 const LABELS = ['A', 'B', 'C', 'D']
 

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { STRATEGY_CATEGORIES } from '../data/strategies-meta'
+import { STRATEGY_CATEGORIES } from '@content/strategies-meta'
 
 export default function TestStrategiesScreen({ unit, strategies, onBack }) {
   const [activeKey, setActiveKey] = useState(STRATEGY_CATEGORIES[0].key)

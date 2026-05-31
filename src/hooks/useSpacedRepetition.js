@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import { flashcards as leFlashcards } from '../data/flashcards'
+import { flashcards as leFlashcards } from '@content/flashcards'
 
 // SM-2 quality levels
 export const Q_AGAIN = 1  // forgot / still learning

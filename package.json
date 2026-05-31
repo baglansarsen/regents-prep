@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run --prefix mobile build:web",
+    "build": "vite build",
     "preview": "vite preview",
     "build:mobile": "npm run --prefix mobile build:web",
     "deploy:mobile": "npx firebase-tools@latest deploy --only hosting:mobile-web",

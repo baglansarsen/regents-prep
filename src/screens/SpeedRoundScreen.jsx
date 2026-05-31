@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useSpeedRound } from '../hooks/useSpeedRound'
-import { TOPIC_ICONS } from '../data/questions'
+import { TOPIC_ICONS } from '@content/questions'
 
 const LABELS = ['A', 'B', 'C', 'D']
 

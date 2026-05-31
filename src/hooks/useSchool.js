@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { doc, getDoc, setDoc } from 'firebase/firestore'
 import { db } from '../firebase'
-import { ACHIEVEMENTS } from '../data/achievements'
+import { ACHIEVEMENTS } from '@content/achievements'
 
 // Tier priority for choosing which badges to show first
 const TIER_RANK = { gold: 0, silver: 1, bronze: 2 }

@@ -1,4 +1,4 @@
-import { TOPICS, TOPIC_ICONS } from '../data/questions'
+import { TOPICS, TOPIC_ICONS } from '@content/questions'
 
 export default function AnalyticsScreen({ history, streak, onHome }) {
   const allTopics = Object.values(TOPICS)

@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from 'react'
 import { useSpacedRepetition, Q_AGAIN, Q_GOOD, Q_EASY, nextReviewLabel } from '../hooks/useSpacedRepetition'
-import { NY_SCHOOLS, BOROUGHS } from '../data/schools'
+import { NY_SCHOOLS, BOROUGHS } from '@content/schools'
 import { useLeaderboard } from '../hooks/useLeaderboard'
 import TabBar from '../components/TabBar'
 import ExamCountdown from '../components/ExamCountdown'

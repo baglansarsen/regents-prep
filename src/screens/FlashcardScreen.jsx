@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react'
-import { flashcards, getFlashcardsByTopic, FLASHCARD_TOPIC_LIST } from '../data/flashcards'
+import { flashcards, getFlashcardsByTopic, FLASHCARD_TOPIC_LIST } from '@content/flashcards'
 
 export default function FlashcardScreen({ onHome, knownIds, markKnown, markLearning, resetAll }) {
   const [topic, setTopic] = useState(null)
