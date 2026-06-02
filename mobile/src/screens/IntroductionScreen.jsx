@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import {
   View, Text, TouchableOpacity, StyleSheet,
   Dimensions, Animated, Platform,
@@ -11,6 +11,75 @@ const W_RAW = Dimensions.get('window').width
 const H_RAW = Dimensions.get('window').height
 const W = Platform.OS === 'web' ? Math.min(Math.max(W_RAW || 360, 320), 480) : W_RAW
 const H = Platform.OS === 'web' ? Math.min(Math.max(H_RAW || 800, 568), 850) : H_RAW
+
+// Decorative streak preview shown on the "Consistency" slide
+function StreakPreview({ accent }) {
+  const flameScale = useRef(new Animated.Value(1)).current
+
+  useEffect(() => {
+    const loop = Animated.loop(
+      Animated.sequence([
+        Animated.timing(flameScale, { toValue: 1.3, duration: 500, useNativeDriver: true }),
+        Animated.timing(flameScale, { toValue: 1,   duration: 500, useNativeDriver: true }),
+      ])
+    )
+    loop.start()
+    return () => loop.stop()
+  }, [])
+
+  // Example week: 5 studied days, today is 6th (ring), 7th empty
+  const DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+  const state = ['filled', 'filled', 'filled', 'filled', 'filled', 'today', 'empty']
+
+  return (
+    <View style={sp.wrap}>
+      {/* Flame + count */}
+      <View style={sp.row}>
+        <Animated.Text style={[sp.flame, { transform: [{ scale: flameScale }] }]}>🔥</Animated.Text>
+        <Text style={[sp.count, { color: accent }]}>5</Text>
+        <Text style={sp.label}>-day streak</Text>
+      </View>
+
+      {/* Week dots */}
+      <View style={sp.dotsRow}>
+        {DAYS.map((day, i) => {
+          const filled  = state[i] === 'filled'
+          const isToday = state[i] === 'today'
+          return (
+            <View key={day} style={sp.dayCol}>
+              <View style={[
+                sp.dot,
+                filled  && { backgroundColor: '#f97316' },
+                isToday && { backgroundColor: 'transparent', borderWidth: 2, borderColor: '#f97316' },
+                !filled && !isToday && { backgroundColor: '#d1d5db' },
+              ]}>
+                {filled && <Text style={sp.check}>✓</Text>}
+              </View>
+              <Text style={sp.dayLabel}>{day}</Text>
+            </View>
+          )
+        })}
+      </View>
+    </View>
+  )
+}
+
+const sp = StyleSheet.create({
+  wrap:     { alignItems: 'center', marginBottom: 20 },
+  row:      { flexDirection: 'row', alignItems: 'center', marginBottom: 14, gap: 4 },
+  flame:    { fontSize: 40 },
+  count:    { fontFamily: 'Nunito_900Black', fontSize: 36 },
+  label:    { fontFamily: 'Nunito_700Bold', fontSize: 16, color: '#6b7280', marginLeft: 2 },
+  dotsRow:  { flexDirection: 'row', gap: 6 },
+  dayCol:   { alignItems: 'center', gap: 4 },
+  dot: {
+    width: 30, height: 30, borderRadius: 15,
+    alignItems: 'center', justifyContent: 'center',
+    backgroundColor: '#d1d5db',
+  },
+  check:    { fontSize: 13, color: '#fff' },
+  dayLabel: { fontFamily: 'Nunito_700Bold', fontSize: 9, color: '#9ca3af' },
+})
 
 export default function IntroductionScreen({ onComplete }) {
   const { C, isDark } = useTheme()
@@ -45,11 +114,12 @@ export default function IntroductionScreen({ onComplete }) {
       accent: '#FF9600',
     },
     {
-      emoji: '📚',
-      title: 'Bite-Sized Practice',
-      subtitle: 'Consistency builds mastery.',
-      desc: 'Meet daily XP goals, tackle topic-specific quizzes, and study with personalized spaced-repetition flashcards.',
-      accent: '#1CB0F6',
+      emoji: '🔥',
+      title: 'Build Your Streak',
+      subtitle: 'One day at a time.',
+      desc: 'Open the app daily to keep your flame alive. Miss a day? A 🧊 Streak Freeze has your back.',
+      accent: '#f97316',
+      streakPreview: true,
     },
     {
       emoji: '🏆',
@@ -163,10 +233,14 @@ export default function IntroductionScreen({ onComplete }) {
             },
           ]}
         >
-          {/* Accent-colored top circle */}
-          <View style={s.emojiCircle}>
-            <Text style={s.emoji}>{currentSlide.emoji}</Text>
-          </View>
+          {/* Emoji circle OR streak preview */}
+          {currentSlide.streakPreview ? (
+            <StreakPreview accent={currentSlide.accent} />
+          ) : (
+            <View style={s.emojiCircle}>
+              <Text style={s.emoji}>{currentSlide.emoji}</Text>
+            </View>
+          )}
 
           {/* Titles */}
           <Text style={[T.h1, s.title]}>{currentSlide.title}</Text>

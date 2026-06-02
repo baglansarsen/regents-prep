@@ -1,10 +1,11 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { doc, getDoc, setDoc } from 'firebase/firestore'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { db } from '../firebase'
 
-const AS_KEY     = '@regents_streak_v1'
-const FREEZE_KEY = '@streakFreeze_v1'
+const AS_KEY       = '@regents_streak_v1'
+const FREEZE_KEY   = '@streakFreeze_v1'
+const OPEN_KEY     = '@lastOpenDate_v1'
 
 // ── Date helpers ──────────────────────────────────────────────────────────────
 function todayStr() { return new Date().toISOString().slice(0, 10) }
@@ -46,6 +47,10 @@ export function useDailyStreak(uid) {
   const [studiedToday, setStudiedToday] = useState(false)
   const [studiedDates, setStudiedDates] = useState([])
   const [hasFreeze,    setHasFreeze]    = useState(false)
+  const [pendingEvent, setPendingEvent] = useState(null)  // { type, streak }
+
+  // Track loaded data so markOpenedToday can read it without a race
+  const loadedDataRef = useRef(null)
 
   // ── Load streak + freeze together (avoids race condition) ─────────────────
   useEffect(() => {
@@ -69,8 +74,15 @@ export function useDailyStreak(uid) {
         const updated = [...new Set([...(data.studiedDates ?? []), virtualDate])].slice(-30)
         setStudiedDates(updated)
         saveStreak(uid, { ...data, studiedDates: updated })
+        setPendingEvent({ type: 'freeze_used', streak: s })
+        loadedDataRef.current = { streak: s, lastDate: data.lastDate, studiedDates: updated }
       } else {
         setStudiedDates(data.studiedDates ?? [])
+        // Detect broken streak: had a streak before, now it's 0
+        if (s === 0 && (data.streak ?? 0) > 0) {
+          setPendingEvent({ type: 'broken', streak: 0 })
+        }
+        loadedDataRef.current = { streak: s, lastDate: data.lastDate, studiedDates: data.studiedDates ?? [] }
       }
 
       setStreak(s)
@@ -97,6 +109,47 @@ export function useDailyStreak(uid) {
     })
   }, [uid])
 
+  // ── Mark app opened (first open of the day increments streak) ────────────
+  const markOpenedToday = useCallback(async () => {
+    if (!uid) return null
+    const today = todayStr()
+    const lastOpen = await AsyncStorage.getItem(OPEN_KEY).catch(() => null)
+    if (lastOpen === today) return null   // already processed today
+
+    await AsyncStorage.setItem(OPEN_KEY, today).catch(() => {})
+
+    // If freeze_used or broken event was already set by the load useEffect,
+    // show that event instead — don't overwrite with 'continued'.
+    if (pendingEvent) return null
+
+    let result = null
+    setStudiedToday((already) => {
+      if (already) return true   // already incremented today (e.g. via markStudied)
+      setStreak((prev) => {
+        if (prev === 0) return prev  // broken streak — don't auto-increment on open
+        const next = prev + 1
+        setStudiedDates((dates) => {
+          const updated = [...new Set([...dates, today])].slice(-30)
+          if (uid) saveStreak(uid, { streak: next, lastDate: today, studiedDates: updated })
+          loadedDataRef.current = { streak: next, lastDate: today, studiedDates: updated }
+          return updated
+        })
+        result = next
+        return next
+      })
+      return true
+    })
+
+    // Give setState a tick to flush before reading result
+    await new Promise((r) => setTimeout(r, 0))
+    if (result !== null) {
+      setPendingEvent({ type: 'continued', streak: result })
+    }
+    return result
+  }, [uid, pendingEvent])
+
+  const clearEvent = useCallback(() => setPendingEvent(null), [])
+
   // ── Buy a streak freeze (costs 200 XP) ────────────────────────────────────
   const buyFreeze = useCallback(async (spendXP) => {
     if (hasFreeze) return 'already_have'
@@ -122,7 +175,7 @@ export function useDailyStreak(uid) {
   })
 
 
-  return { streak, studiedToday, weekDays, markStudied, hasFreeze, buyFreeze }
+  return { streak, studiedToday, weekDays, markStudied, hasFreeze, buyFreeze, pendingEvent, clearEvent, markOpenedToday }
 }
 
 // ── Storage helpers ───────────────────────────────────────────────────────────
