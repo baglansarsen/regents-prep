@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 export default function ResultsScreen({
   results = {},
@@ -6,10 +6,43 @@ export default function ResultsScreen({
 }) {
   const { score = 0, correct = 0, total = 0, pct = 0, bestStreak = 0 } = results
 
+  // CRITICAL: Allow body to scroll when results are shown
+  useEffect(() => {
+    document.body.style.overflow = 'auto'
+    document.body.style.height = 'auto'
+    document.documentElement.style.overflow = 'auto'
+    document.documentElement.style.height = 'auto'
+
+    return () => {
+      document.body.style.overflow = ''
+      document.body.style.height = ''
+      document.documentElement.style.overflow = ''
+      document.documentElement.style.height = ''
+    }
+  }, [])
+
   return (
-    <div className="screen-container" style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
-      <div className="card-glass" style={{ maxWidth: '480px', width: '100%', padding: '40px' }}>
-        <div style={{ fontSize: '72px', animation: 'float 3s ease infinite' }}>🏆</div>
+    <div style={{
+      minHeight: '100vh',
+      width: '100%',
+      backgroundColor: 'var(--bg)',
+      color: 'var(--text)',
+      fontFamily: 'var(--font-outfit)',
+      padding: '40px 16px 60px',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'flex-start',
+    }}>
+      <div className="card-glass" style={{
+        maxWidth: '480px',
+        width: '100%',
+        padding: '32px 24px',
+        textAlign: 'center',
+        boxShadow: '0 12px 40px rgba(0,0,0,0.15)',
+        animation: 'fade-in 0.3s ease-out'
+      }}>
+        <div style={{ fontSize: '72px', display: 'inline-block', animation: 'float 3s ease infinite' }}>🏆</div>
         
         <h1 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '28px', marginTop: '16px' }}>
           Session Complete!
@@ -20,7 +53,7 @@ export default function ResultsScreen({
 
         {/* Stats Grid */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', margin: '28px 0' }}>
-          <div style={{ background: 'var(--surface-2)', padding: '16px', borderRadius: '12px', border: '1.5px solid var(--border)' }}>
+          <div style={{ background: 'var(--surface-2)', padding: '16px', borderRadius: '12px', border: '2px solid var(--border)' }}>
             <div style={{ fontSize: '12px', fontWeight: 800, textTransform: 'uppercase', color: 'var(--text-muted)', letterSpacing: '0.8px' }}>
               XP Earned
             </div>
@@ -29,7 +62,7 @@ export default function ResultsScreen({
             </div>
           </div>
 
-          <div style={{ background: 'var(--surface-2)', padding: '16px', borderRadius: '12px', border: '1.5px solid var(--border)' }}>
+          <div style={{ background: 'var(--surface-2)', padding: '16px', borderRadius: '12px', border: '2px solid var(--border)' }}>
             <div style={{ fontSize: '12px', fontWeight: 800, textTransform: 'uppercase', color: 'var(--text-muted)', letterSpacing: '0.8px' }}>
               Accuracy
             </div>
@@ -38,7 +71,7 @@ export default function ResultsScreen({
             </div>
           </div>
 
-          <div style={{ background: 'var(--surface-2)', padding: '16px', borderRadius: '12px', border: '1.5px solid var(--border)' }}>
+          <div style={{ background: 'var(--surface-2)', padding: '16px', borderRadius: '12px', border: '2px solid var(--border)' }}>
             <div style={{ fontSize: '12px', fontWeight: 800, textTransform: 'uppercase', color: 'var(--text-muted)', letterSpacing: '0.8px' }}>
               Correct
             </div>
@@ -47,7 +80,7 @@ export default function ResultsScreen({
             </div>
           </div>
 
-          <div style={{ background: 'var(--surface-2)', padding: '16px', borderRadius: '12px', border: '1.5px solid var(--border)' }}>
+          <div style={{ background: 'var(--surface-2)', padding: '16px', borderRadius: '12px', border: '2px solid var(--border)' }}>
             <div style={{ fontSize: '12px', fontWeight: 800, textTransform: 'uppercase', color: 'var(--text-muted)', letterSpacing: '0.8px' }}>
               Best Streak
             </div>
@@ -60,7 +93,7 @@ export default function ResultsScreen({
         {/* Action button */}
         <button
           className="btn-duo btn-duo-blue"
-          style={{ width: '100%', padding: '14px' }}
+          style={{ width: '100%', padding: '16px', fontSize: '16px', fontWeight: 800, cursor: 'pointer' }}
           onClick={onContinue}
         >
           Great, Continue

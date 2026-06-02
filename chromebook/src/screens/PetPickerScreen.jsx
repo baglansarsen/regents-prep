@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { PETS } from '@content/petConfig'
 
 export default function PetPickerScreen({
@@ -10,6 +10,21 @@ export default function PetPickerScreen({
 
   const active = PETS[selectedIdx] || PETS[0]
 
+  // CRITICAL: Allow body to scroll when pet picker is shown
+  useEffect(() => {
+    document.body.style.overflow = 'auto'
+    document.body.style.height = 'auto'
+    document.documentElement.style.overflow = 'auto'
+    document.documentElement.style.height = 'auto'
+
+    return () => {
+      document.body.style.overflow = ''
+      document.body.style.height = ''
+      document.documentElement.style.overflow = ''
+      document.documentElement.style.height = ''
+    }
+  }, [])
+
   async function handleHatch() {
     const finalName = name.trim() || active.defaultName
     await initializePet(active.id, finalName)
@@ -17,10 +32,28 @@ export default function PetPickerScreen({
   }
 
   return (
-    <div className="screen-container" style={{ justifyContent: 'center', alignItems: 'center' }}>
-      <div className="card-glass" style={{ maxWidth: '640px', width: '100%', padding: '40px', textAlign: 'center' }}>
+    <div style={{
+      minHeight: '100vh',
+      width: '100%',
+      backgroundColor: 'var(--bg)',
+      color: 'var(--text)',
+      fontFamily: 'var(--font-outfit)',
+      padding: '40px 16px 60px',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'flex-start',
+    }}>
+      <div className="card-glass" style={{
+        maxWidth: '640px',
+        width: '100%',
+        padding: '32px 24px',
+        textAlign: 'center',
+        boxShadow: '0 12px 40px rgba(0,0,0,0.15)',
+        animation: 'fade-in 0.3s ease-out'
+      }}>
         
-        <span style={{ fontSize: '72px', animation: 'float 3s ease infinite' }}>🥚</span>
+        <span style={{ fontSize: '72px', display: 'inline-block', animation: 'float 3s ease infinite' }}>🥚</span>
         <h1 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '28px', marginTop: '12px' }}>
           Hatch Your Study Buddy!
         </h1>
@@ -42,7 +75,8 @@ export default function PetPickerScreen({
                 fontSize: '28px',
                 borderColor: selectedIdx === idx ? 'var(--brand)' : 'var(--border)',
                 backgroundColor: selectedIdx === idx ? 'var(--brand-bg)' : 'var(--surface)',
-                boxShadow: selectedIdx === idx ? '0 0 12px var(--shadow-glow)' : 'none'
+                boxShadow: selectedIdx === idx ? '0 0 12px var(--shadow-glow)' : 'none',
+                cursor: 'pointer'
               }}
               title={p.name}
             >
@@ -54,7 +88,7 @@ export default function PetPickerScreen({
         {/* Selected Egg Stats */}
         <div style={{
           backgroundColor: 'var(--surface-2)',
-          border: '1.5px solid var(--border)',
+          border: '2px solid var(--border)',
           borderRadius: '16px',
           padding: '20px',
           textAlign: 'left',
@@ -72,7 +106,7 @@ export default function PetPickerScreen({
 
           {/* Name input */}
           <div className="auth-input-group" style={{ marginTop: '16px' }}>
-            <label>Name Your Buddy</label>
+            <label style={{ fontSize: '13px', fontWeight: 800, color: 'var(--text-muted)' }}>Name Your Buddy</label>
             <input
               type="text"
               placeholder={`e.g. ${active.defaultName}`}
@@ -80,6 +114,18 @@ export default function PetPickerScreen({
               value={name}
               onChange={(e) => setName(e.target.value)}
               maxLength={20}
+              style={{
+                width: '100%',
+                padding: '10px 14px',
+                borderRadius: '10px',
+                border: '2px solid var(--border)',
+                fontSize: '14px',
+                fontWeight: 700,
+                backgroundColor: 'var(--surface)',
+                outline: 'none',
+                color: 'var(--text)',
+                marginTop: '6px'
+              }}
             />
           </div>
         </div>
@@ -87,7 +133,7 @@ export default function PetPickerScreen({
         {/* Action Hatch Button */}
         <button
           className="btn-duo btn-duo-purple"
-          style={{ width: '100%', padding: '14px' }}
+          style={{ width: '100%', padding: '16px', fontSize: '16px', fontWeight: 800, cursor: 'pointer' }}
           onClick={handleHatch}
         >
           🐣 Hatch Study Buddy Egg!

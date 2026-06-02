@@ -7,7 +7,19 @@ export default function ExamPickerScreen({
   onStartExam,
 }) {
   const exams = useMemo(() => {
-    return REGENTS_EXAMS[subject] || []
+    const list = [...(REGENTS_EXAMS[subject] || [])]
+    const sessionOrder = { 'August': 3, 'June': 2, 'January': 1 }
+    list.sort((a, b) => {
+      const yearA = parseInt(a.year) || 0
+      const yearB = parseInt(b.year) || 0
+      if (yearA !== yearB) {
+        return yearB - yearA
+      }
+      const orderA = sessionOrder[a.session] || 0
+      const orderB = sessionOrder[b.session] || 0
+      return orderB - orderA
+    })
+    return list
   }, [subject])
 
   const meta = SUBJECT_META[subject] || { name: 'Subject', icon: '🔬', color: 'var(--brand)' }
@@ -56,8 +68,18 @@ export default function ExamPickerScreen({
                 onMouseLeave={(e) => e.currentTarget.style.transform = 'none'}
                 >
                   <div>
-                    <h3 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 800, fontSize: '18px' }}>
-                      📋 {ex.title || ex.name}
+                    <h3 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 800, fontSize: '18px', display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '8px' }}>
+                      <span>📋 {ex.title || ex.name || `${ex.session} ${ex.year} Regents Exam`}</span>
+                      <span style={{
+                        fontSize: '11px',
+                        padding: '2px 8px',
+                        borderRadius: '6px',
+                        fontWeight: 900,
+                        backgroundColor: ex.session === 'June' ? 'var(--blue-bg)' : ex.session === 'August' ? 'var(--warn-bg)' : 'var(--correct-bg)',
+                        color: ex.session === 'June' ? 'var(--blue-dark)' : ex.session === 'August' ? 'var(--warn-dark)' : 'var(--correct-dark)'
+                      }}>
+                        {ex.session} {ex.year}
+                      </span>
                     </h3>
                     <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginTop: '4px' }}>
                       {ex.questions?.length ?? 0} multiple choice & stimulus questions · 45 mins limit

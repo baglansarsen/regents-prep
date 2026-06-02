@@ -250,7 +250,7 @@ export default function QuizScreen({ route, navigation }) {
 
   return (
     <View style={s.root}>
-      <SafeAreaView style={s.safe} edges={['top']}>
+      <SafeAreaView style={s.safe} edges={[]}>
         {/* ── Top row ── */}
         <View style={s.topRow}>
           <TouchableOpacity onPress={() => navigation.goBack()} style={s.closeBtn}>
@@ -311,11 +311,7 @@ export default function QuizScreen({ route, navigation }) {
               </Text>
             ) : null}
             {currentQuestion.image ? (
-              <Image
-                source={{ uri: `${CDN_BASE}${currentQuestion.image}` }}
-                style={s.questionImage}
-                resizeMode="contain"
-              />
+              <ImageWithFallback uri={`${CDN_BASE}${currentQuestion.image}`} style={s.questionImage} />
             ) : null}
             <Text style={[T.h3, { color: C.text, lineHeight: 26 }]}>{currentQuestion.text}</Text>
           </Animated.View>
@@ -390,9 +386,7 @@ export default function QuizScreen({ route, navigation }) {
             </Text>
           ) : null}
           {currentQuestion.explanation ? (
-            <Text style={[T.small, { color: C.textMuted, marginBottom: 16, lineHeight: 20, marginTop: 4 }]}>
-              {currentQuestion.explanation}
-            </Text>
+            <ExplanationBlock question={currentQuestion} C={C} />
           ) : <View style={{ height: 16 }} />}
 
           <TouchableOpacity
@@ -413,16 +407,6 @@ export default function QuizScreen({ route, navigation }) {
         </View>
       )}
 
-      {/* Study Buddy floating companion */}
-      {pet?.chosen && phase === 'answering' && (
-        <StudyBuddyCompanion
-          petType={pet.petType}
-          petName={pet.name}
-          accessories={pet.accessories ?? []}
-          message={buddyMessage}
-          onPress={() => setBuddyMessage(null)}
-        />
-      )}
 
       {/* ── No-lives gate — reactive overlay, auto-dismisses when lives > 0 ── */}
       {lives === 0 && (
@@ -437,6 +421,49 @@ export default function QuizScreen({ route, navigation }) {
           onGoBack={() => navigation.goBack()}
         />
       )}
+    </View>
+  )
+}
+
+// ── Image with fallback (hides if URL 404s) ───────────────────────────────────
+function ImageWithFallback({ uri, style }) {
+  const [failed, setFailed] = useState(false)
+  if (failed) return null
+  return (
+    <Image
+      source={{ uri }}
+      style={style}
+      resizeMode="contain"
+      onError={() => setFailed(true)}
+    />
+  )
+}
+
+// ── Explanation + Dive Deeper ─────────────────────────────────────────────────
+function ExplanationBlock({ question, C }) {
+  return (
+    <View style={{ marginBottom: 16, marginTop: 4 }}>
+      <Text style={[T.small, { color: C.textMuted, lineHeight: 20 }]}>
+        {question.explanation}
+      </Text>
+      {question.diveDeep ? (
+        <View style={{
+          marginTop: 14,
+          backgroundColor: C.surface,
+          borderRadius: 14,
+          padding: 16,
+          borderWidth: 1.5,
+          borderColor: C.brand + '55',
+          borderLeftWidth: 4,
+          borderLeftColor: C.brand,
+        }}>
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: 10 }}>
+            <Text style={{ fontSize: 18 }}>🔍</Text>
+            <Text style={[T.label, { color: C.brand, fontSize: 13, letterSpacing: 1 }]}>DIVE DEEPER</Text>
+          </View>
+          <Text style={[T.body, { color: C.text, lineHeight: 23, fontSize: 15 }]}>{question.diveDeep}</Text>
+        </View>
+      ) : null}
     </View>
   )
 }
@@ -508,7 +535,7 @@ function makeStyles(C, insets) {
   return StyleSheet.create({
     root:          { flex: 1, backgroundColor: C.bg },
     safe:          { flex: 1 },
-    topRow:        { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingTop: 2, paddingBottom: 2, gap: 10 },
+    topRow:        { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingTop: 12, paddingBottom: 2, gap: 10 },
     closeBtn:      { width: 36, height: 36, borderRadius: 18, backgroundColor: C.surface2, alignItems: 'center', justifyContent: 'center' },
     closeBtnText:  { fontSize: 15, color: C.textMuted, fontFamily: 'Nunito_700Bold' },
     progressWrap:  { flex: 1 },
@@ -518,7 +545,7 @@ function makeStyles(C, insets) {
     scoreChip:     { flexDirection: 'row', alignItems: 'center', backgroundColor: C.surface2, borderRadius: 20, paddingHorizontal: 10, paddingVertical: 5 },
     heartsRow:     { flexDirection: 'row', justifyContent: 'flex-start', gap: 3, marginTop: 2 },
     heart:         { fontSize: 13 },
-    timerBg:       { height: 4, backgroundColor: C.surface2, marginHorizontal: 16, borderRadius: 2, marginBottom: 2 },
+    timerBg:       { height: 4, backgroundColor: C.surface2, marginHorizontal: 16, borderRadius: 2, marginTop: 10, marginBottom: 10 },
     timerFill:     { height: 6, borderRadius: 3 },
     scroll:        { paddingHorizontal: 16, paddingTop: 0, paddingBottom: 16 },
     questionCard:  { backgroundColor: C.surface, borderRadius: 20, padding: 18, marginBottom: 16, borderWidth: 1, borderColor: C.border, borderTopWidth: 3, borderTopColor: C.brand, shadowColor: C.shadow, shadowOffset: { width: 0, height: 3 }, shadowOpacity: 1, shadowRadius: 10, elevation: 5 },

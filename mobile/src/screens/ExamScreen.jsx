@@ -14,6 +14,12 @@ import { usePetContext } from '../context/PetContext'
 const EXAM_MINUTES = 85
 const CDN_BASE = 'https://regents-csas.web.app'
 
+function ExamImageWithFallback({ uri, style }) {
+  const [failed, setFailed] = React.useState(false)
+  if (failed) return null
+  return <Image source={{ uri }} style={style} resizeMode="contain" onError={() => setFailed(true)} />
+}
+
 export default function ExamScreen({ route, navigation }) {
   const { exam, questions, subject } = route.params
   const { C } = useTheme()
@@ -155,14 +161,8 @@ export default function ExamScreen({ route, navigation }) {
         {/* Context */}
         {q.context && <Text style={s.context}>{q.context}</Text>}
 
-        {/* Image */}
-        {imageUrl && (
-          <Image
-            source={{ uri: imageUrl }}
-            style={s.image}
-            resizeMode="contain"
-          />
-        )}
+        {/* Image — hidden if URL fails to load */}
+        {imageUrl && <ExamImageWithFallback uri={imageUrl} style={s.image} />}
 
         {/* Question text */}
         <Text style={s.questionText}>{q.text}</Text>
@@ -268,6 +268,7 @@ function makeStyles(C) {
     writtenLabel:     { fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.5 },
     writtenHint:      { fontSize: 12 },
     writtenInput:     { borderWidth: 1.5, borderRadius: 14, padding: 14, minHeight: 120, fontSize: 15, lineHeight: 22 },
+
     modelAnswerBtn:   { marginTop: 10, borderWidth: 1, borderRadius: 10, padding: 12, alignItems: 'center' },
     modelAnswerBtnText: { fontSize: 13, fontWeight: '600' },
   })

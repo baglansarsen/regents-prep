@@ -6,7 +6,7 @@ import React, { useEffect, useRef } from 'react'
 import { View, Text, Animated, StyleSheet } from 'react-native'
 import { useTheme } from '../context/ThemeContext'
 
-export default function FocusTimerRing({ progress = 0, secondsLeft = 0, phase = 'focus', size = 220 }) {
+export default function FocusTimerRing({ progress = 0, secondsLeft = 0, phase = 'focus', size = 220, color = null, textColor = null }) {
   const { C } = useTheme()
 
   const rotAnim = useRef(new Animated.Value(progress)).current
@@ -23,9 +23,10 @@ export default function FocusTimerRing({ progress = 0, secondsLeft = 0, phase = 
 
   const isBreak   = phase === 'break'
   const isPaused  = phase === 'paused'
-  const ringColor = isBreak  ? '#10B981'  // green for break
-                  : isPaused ? C.textMuted
-                  : C.brand
+  const ringColor = color
+                  ?? (isBreak  ? '#10B981'
+                    : isPaused ? C.textMuted
+                    : C.brand)
 
   const mins = Math.floor(secondsLeft / 60)
   const secs = secondsLeft % 60
@@ -105,7 +106,7 @@ export default function FocusTimerRing({ progress = 0, secondsLeft = 0, phase = 
 
       {/* Center content */}
       <View style={[styles.center, { width: inner, height: inner, borderRadius: halfInner }]}>
-        <Text style={[styles.time, { color: C.text, fontSize: size * 0.175 }]}>{timeStr}</Text>
+        <Text style={[styles.time, { color: textColor ?? C.text, fontSize: size * 0.175 }]}>{timeStr}</Text>
         <Text style={[styles.phase, { color: ringColor, fontSize: size * 0.072 }]}>{phaseLabel}</Text>
       </View>
     </View>
@@ -124,6 +125,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: 'transparent',
   },
-  time:  { fontFamily: 'Nunito_800ExtraBold', letterSpacing: 1 },
+  time:  { fontFamily: 'Nunito_800ExtraBold', letterSpacing: 1, textShadowColor: 'rgba(0,0,0,0.08)', textShadowOffset: {width:0,height:1}, textShadowRadius: 2 },
   phase: { fontFamily: 'Nunito_700Bold', letterSpacing: 2, marginTop: 2 },
 })

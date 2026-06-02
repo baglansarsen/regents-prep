@@ -19,6 +19,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 2,
+      explanation: 'The Jovian (gas giant) planets — Jupiter, Saturn, Uranus, and Neptune — are far more massive than the terrestrial planets but are made largely of low-density gases, so they have greater mass and lower density.',
+      diveDeep: 'The ESRT "Solar System Data" table lets you confirm this directly: Jupiter has a mass over 300 times Earth\'s but a density of only 1.33 g/cm³, while Earth\'s is 5.51 g/cm³. The terrestrial planets (Mercury, Venus, Earth, Mars) are small and rocky/metallic, giving them high density. A common trap is assuming bigger always means denser — composition, not size, controls density. Whenever a question mixes mass and density of planets, go straight to the Solar System Data table rather than guessing.',
     },
     {
       number: 2, part: 'A',
@@ -31,6 +33,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 3,
+      explanation: 'On the ESRT Characteristics of Stars (H-R) diagram, a star at about 10,000 K with a luminosity roughly 70 times the Sun\'s plots on the main-sequence band, so Vega is a main-sequence star.',
+      diveDeep: 'To use the H-R diagram, locate the surface temperature along the bottom axis (remember temperature increases to the LEFT) and luminosity along the side axis, then see where the point falls. White dwarfs are hot but very dim (low luminosity), while giants and supergiants are extremely luminous, so they plot above the main sequence. The trap here is the high temperature making students reach for "white dwarf," but a luminosity of 70 suns is far too bright for a dwarf. Always plot BOTH coordinates before naming the star class.',
     },
     {
       number: 3, part: 'A',
@@ -42,8 +46,10 @@ export default {
         'diagram 4',
       ],
       topic: 'Astronomy',
-      correct: 2,
+      correct: 1,
       image: '/images/exams/es-august-2022/q3.png',
+      explanation: 'The phase seen depends on how much of the Moon\'s sunlit half faces Earth from that orbital position; the diagram showing the correctly illuminated fraction and side matches the geometry.',
+      diveDeep: 'Moon-phase questions require tracking three things: the Sun\'s direction (which half of the Moon is lit), the Moon\'s position in orbit, and the observer on Earth looking outward. Always shade the half of the Moon facing the Sun, then ask how much of that lit half is visible from Earth. A classic trap is reversing left/right illumination — in the Northern Hemisphere a waxing Moon is lit on the RIGHT. Sketch the geometry rather than relying on memory.',
     },
     {
       number: 4, part: 'A',
@@ -57,6 +63,8 @@ export default {
       topic: 'Maps',
       correct: 0,
       image: '/images/exams/es-august-2022/q4.png',
+      explanation: 'Earth rotates 15° of longitude per hour, so the difference in longitude between A and B (75°) divided by 15°/hour gives a solar time difference of 5 hours.',
+      diveDeep: 'Solar (local) time is governed only by LONGITUDE, never latitude, because Earth spins 360° in 24 hours = 15° per hour. To solve, find the longitude difference between the two points and divide by 15. The location farther EAST has the later (more advanced) time, since the Sun rises in the east. A frequent mistake is using the latitude lines or forgetting that 1 hour = 15°, not 10° or 24°.',
     },
     {
       number: 5, part: 'A',
@@ -69,6 +77,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 1,
+      explanation: 'As Earth revolves around the Sun over the year, the night side of Earth faces different regions of space, so different constellations are visible in different seasons; Orion is on the daytime side in summer.',
+      diveDeep: 'Distinguish rotation (daily spin, causes day/night and the nightly east-to-west motion of stars) from revolution (yearly orbit, causes seasonal changes in which constellations are visible). Constellations are so distant they do not "orbit" Earth, so choices about Orion moving are wrong. The seasonal disappearance of a constellation is the signature clue for REVOLUTION. If a question asks about a daily change, choose rotation; if about a yearly/seasonal change, choose revolution.',
     },
     {
       number: 6, part: 'A',
@@ -81,6 +91,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 0,
+      explanation: 'Earth completes one 360° orbit around the Sun in about 365 days, which is approximately 1° of orbital movement per day.',
+      diveDeep: 'Do not confuse orbital REVOLUTION rate (about 1° per day, since 360° ÷ 365 days ≈ 1°/day) with ROTATION rate (15° per hour, since 360° ÷ 24 hours). The "15°" answers are traps designed to make you apply the rotation number to the orbit. A quick check: anything "per day" relating to the yearly orbit should be roughly 1°, while anything "per hour" relating to the daily spin should be 15°.',
     },
     {
       number: 7, part: 'A',
@@ -94,6 +106,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-august-2022/q7.png',
+      explanation: 'A cooler star (4000 K) has a habitable zone closer to it; reading the graph at 4000 K gives a distance range that matches Mercury\'s orbit, the innermost planet.',
+      diveDeep: 'A cooler star emits less energy, so the zone where liquid water can exist shifts INWARD toward the star. To answer, read the graph across at 4000 K to find the habitable distance range, then compare to planet distances from the Solar System Data table in the ESRT. The trap is assuming Earth stays habitable — but with a dimmer Sun, Earth would be too cold and the zone would move in to Mercury\'s distance. Always combine the graph reading with the ESRT distance data.',
     },
     {
       number: 8, part: 'A',
@@ -107,6 +121,8 @@ export default {
       topic: 'Astronomy',
       correct: 1,
       image: '/images/exams/es-august-2022/q8.png',
+      explanation: 'The Chicxulub impact about 65 million years ago is widely linked to the mass extinction at the end of the Cretaceous Period that killed the dinosaurs.',
+      diveDeep: 'On the ESRT Geologic History timeline, 65 million years ago marks the Cretaceous–Tertiary boundary, noted for the extinction of the dinosaurs and many other organisms. A large impact would throw dust into the atmosphere, blocking sunlight, cooling the climate, and disrupting food chains worldwide. The trap answer "formation of the Gulf of Mexico" is geographically tempting but not the documented effect. Tie the 65-million-year date to the dinosaur extinction event on the ESRT.',
     },
     {
       number: 9, part: 'A',
@@ -120,6 +136,8 @@ export default {
       topic: 'Meteorology',
       correct: 0,
       image: '/images/exams/es-august-2022/q9.png',
+      explanation: 'Isobars on weather maps are drawn at a regular 4 mb interval; following that interval from labeled isobars gives X = 1012 mb, Y = 1016 mb, and Z = 1000 mb.',
+      diveDeep: 'Standard weather-map isobars are spaced every 4 mb (e.g., 1000, 1004, 1008, 1012...), so each unlabeled line must fit that sequence. Count outward from a labeled isobar, adding or subtracting 4 mb per line, and check that pressure rises toward highs and falls toward lows. The trap answers use intervals like 8 mb or values that break the 4 mb spacing. Memorize the 4 mb interval rule for all isobar questions.',
     },
     {
       number: 10, part: 'A',
@@ -130,8 +148,10 @@ export default {
         'diagram 3',
         'diagram 4',
       ],
-      topic: 'Geologic Time',
+      topic: 'General',
       correct: 3,
+      explanation: 'At the North Pole cold dense air sinks, creating high pressure with air moving downward and outward away from the pole near the surface; the diagram showing sinking air at the pole is correct.',
+      diveDeep: 'The ESRT Planetary Wind and Moisture Belts diagram shows that the poles are regions of sinking air and high pressure, while the equator has rising air and low pressure. Sinking air warms by compression, holds more moisture, and produces dry conditions, which is why polar regions are deserts despite the cold. The trap is picturing rising air over the cold pole — but cold dense air sinks. Use the planetary wind belt diagram to recall where air rises (0°, 60°) versus sinks (30°, poles).',
     },
     {
       number: 11, part: 'A',
@@ -145,6 +165,8 @@ export default {
       topic: 'Meteorology',
       correct: 2,
       image: '/images/exams/es-august-2022/q11.png',
+      explanation: 'In winter the Northern Hemisphere tilts away from the Sun, the temperature contrast between cold and warm air is larger, and that stronger contrast drives faster jet stream winds than in summer.',
+      diveDeep: 'Jet stream speed depends on the temperature difference between cold polar air and warmer mid-latitude air; the greater the contrast, the stronger the winds. Winter brings the sharpest contrast because the pole is much colder, so winter jet streams are both faster and pushed farther south. The Northern Hemisphere tilts AWAY from the Sun in winter, which is why it is colder — a key fact for any seasonal tilt question. Watch for answer pairs that correctly match speed but reverse the tilt direction.',
     },
     {
       number: 12, part: 'A',
@@ -155,8 +177,10 @@ export default {
         'smooth black marble tile',
         'rough black marble gravel',
       ],
-      topic: 'Climate',
+      topic: 'Astronomy',
       correct: 3,
+      explanation: 'Dark-colored and rough surfaces absorb more insolation than light, smooth surfaces, so rough black marble gravel absorbs the most.',
+      diveDeep: 'Two surface properties control absorption of insolation: color (dark absorbs, light reflects) and texture (rough absorbs more, smooth reflects more). The best absorber combines both — dark AND rough — while the best reflector is light AND smooth. A common trap is choosing based on color alone and ignoring texture, or vice versa. When both factors point the same way, that choice is the extreme answer for absorption or reflection.',
     },
     {
       number: 13, part: 'A',
@@ -169,6 +193,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 1,
+      explanation: 'Polaris, the North Star, lies almost directly above Earth\'s North Pole on the rotation axis, so it appears stationary while other stars circle around it.',
+      diveDeep: 'Star trails are produced by Earth\'s rotation; over hours, stars appear to circle a fixed point. In the Northern Hemisphere that point is Polaris, which sits nearly on the extension of Earth\'s axis, so it leaves only a dot, not a trail. The altitude of Polaris above the horizon equals the observer\'s latitude — a frequently tested ESRT-related fact. The Sun is a distractor because the photo is a NIGHT exposure of stars.',
     },
     {
       number: 14, part: 'A',
@@ -179,8 +205,10 @@ export default {
         'asthenosphere',
         'atmosphere',
       ],
-      topic: 'Plate Tectonics',
+      topic: 'General',
       correct: 3,
+      explanation: 'Volcanic outgassing released gases such as water vapor, carbon dioxide, and nitrogen, which accumulated around the planet to form Earth\'s early atmosphere.',
+      diveDeep: 'Outgassing (volcanic release of trapped gases) supplied the gases that became the early atmosphere; later, as water vapor cooled and condensed, it formed the oceans (hydrosphere). Note that the early atmosphere had little free oxygen — that came later from photosynthesizing cyanobacteria. The trap is confusing the atmosphere with the hydrosphere; remember the SEQUENCE: gases form the atmosphere first, then condensation forms the oceans. The lithosphere and asthenosphere are solid/plastic Earth layers, not products of outgassing.',
     },
     {
       number: 15, part: 'A',
@@ -191,8 +219,10 @@ export default {
         'red visible light',
         'violet visible light',
       ],
-      topic: 'Climate',
+      topic: 'General',
       correct: 0,
+      explanation: 'In the electromagnetic spectrum, infrared radiation has a longer wavelength than visible light and ultraviolet, so it has the longest wavelength of the choices.',
+      diveDeep: 'The ESRT shows the order of the electromagnetic spectrum from longest to shortest wavelength: radio, microwave, infrared, visible (red→violet), ultraviolet, X-ray, gamma. Within visible light, red has the longest wavelength and violet the shortest. Infrared sits just beyond red, so it is longer than any visible color listed. Remember: longer wavelength means lower energy, so infrared carries less energy than ultraviolet.',
     },
     {
       number: 16, part: 'A',
@@ -205,6 +235,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 2,
+      explanation: 'Volcanic ash and dust make the atmosphere less transparent, reflecting incoming sunlight back to space, which reduces insolation reaching the surface and cools global temperatures.',
+      diveDeep: 'Suspended ash, dust, and sulfate aerosols increase atmospheric reflection (albedo), blocking insolation and producing short-term global cooling — historically observed after eruptions like Tambora and Pinatubo. "Less transparent" means less sunlight passes through, so the surface receives less energy. The trap answers pair the wrong transparency with cooling, or claim warming. Link more atmospheric particles → less transparent → less insolation → cooler.',
     },
     {
       number: 17, part: 'A',
@@ -215,8 +247,10 @@ export default {
         'decrease, then increase',
         'increase, then decrease',
       ],
-      topic: 'General Review',
+      topic: 'Astronomy',
       correct: 2,
+      explanation: 'Daylight hours decrease from September toward the December winter solstice (the shortest day), then increase from the solstice toward June, so they decrease then increase.',
+      diveDeep: 'The December solstice (around Dec 21) is the minimum daylight in the Northern Hemisphere; the June solstice is the maximum. A span from September to June crosses the December minimum, so daylight must first shorten to that low point and then lengthen. The trap answers assume a single steady trend. Always check whether the time interval crosses a solstice (a turning point), which forces a "decrease then increase" or "increase then decrease" pattern.',
     },
     {
       number: 18, part: 'A',
@@ -227,9 +261,11 @@ export default {
         'diagram 3',
         'diagram 4',
       ],
-      topic: 'Maps',
+      topic: 'General',
       correct: 1,
       image: '/images/exams/es-august-2022/q18.png',
+      explanation: 'Between the Alleghenian orogeny and the opening of the Atlantic, the continents were joined as the supercontinent Pangaea; the map showing a single assembled landmass is correct.',
+      diveDeep: 'The Alleghenian orogeny (late Paleozoic, which built the Appalachians) marks the assembly of Pangaea, and the Atlantic began opening in the Mesozoic as Pangaea rifted apart. The interval BETWEEN these events is when the continents were fully merged. Use the ESRT "Inferred Positions of Earth\'s Landmasses" reconstructions to match the era. The trap diagrams show continents already separated (post-rift) or in earlier configurations.',
     },
     {
       number: 19, part: 'A',
@@ -240,8 +276,10 @@ export default {
         'Late Archean',
         'Late Carboniferous',
       ],
-      topic: 'General Review',
+      topic: 'Geologic Time',
       correct: 2,
+      explanation: 'Oxygen-producing cyanobacteria became abundant in the Late Archean, and the oxygen they released reacted with dissolved iron to deposit banded iron oxide layers, dating these layers to the Late Archean.',
+      diveDeep: 'Banded iron formations record the early buildup of oxygen in the oceans; on the ESRT Geologic History timeline, the appearance and spread of oxygen-producing cyanobacteria and "oceanic oxygen production" is noted in the Late Archean. Before enough oxygen accumulated, dissolved iron precipitated as iron oxide on the seafloor. The trap answers in the Carboniferous are far too recent. Anchor cyanobacteria/early oxygen events to the Archean using the ESRT important events column.',
     },
     {
       number: 20, part: 'A',
@@ -252,8 +290,10 @@ export default {
         'brachiopods',
         'placoderm fish',
       ],
-      topic: 'Geologic Time',
+      topic: 'General',
       correct: 3,
+      explanation: 'Placoderm fish are an extinct group known only from the fossil record, while vascular plants, nautiloids, and brachiopods still have living representatives today.',
+      diveDeep: 'On the ESRT, the geologic ranges of organisms show that placoderms appear and then disappear (their range bar ends), indicating extinction, whereas brachiopods and nautiloids have range bars that continue to the present. "Found only as fossils" means the group is extinct. The trap is that brachiopods and nautiloids are ancient-looking and seem extinct, but a few species survive. Check whether the ESRT range bar reaches the present (still living) or terminates (extinct).',
     },
     {
       number: 21, part: 'A',
@@ -264,8 +304,10 @@ export default {
         'thicker and less dense',
         'thicker and more dense',
       ],
-      topic: 'Geology',
+      topic: 'General',
       correct: 1,
+      explanation: 'Oceanic crust is basaltic, making it denser than the granitic continental crust, and it is also thinner, so it is thinner and more dense.',
+      diveDeep: 'The ESRT "Inferred Properties of Earth\'s Interior" shows continental crust (granitic, ~2.7 g/cm³) is thicker and less dense, while oceanic crust (basaltic, ~3.0 g/cm³) is thinner and denser. This density difference is why oceanic crust subducts BENEATH continental crust at convergent boundaries. The trap pairs swap thickness and density. Memorize: continental = thick and light (granitic); oceanic = thin and dense (basaltic).',
     },
     {
       number: 22, part: 'A',
@@ -276,8 +318,10 @@ export default {
         'Lithosphere: lowest density and rigid; Mantle: partial melting and convection currents in upper region; Outer Core: highest pressure, composed of iron and nickel; Inner Core: completely liquid',
         'Lithosphere: lowest density and rigid; Mantle: completely liquid; Outer Core: partial melting and convection currents in upper region; Inner Core: highest pressure, composed of iron and nickel',
       ],
-      topic: 'Geology',
+      topic: 'General',
       correct: 0,
+      explanation: 'The lithosphere is the rigid, lowest-density outer layer; the upper mantle has partial melting and convection; the outer core is liquid; and the inner core is solid iron-nickel at the highest pressure.',
+      diveDeep: 'Use the ESRT "Inferred Properties of Earth\'s Interior" to verify each layer: density increases with depth, the asthenosphere/upper mantle shows partial melting that drives convection, the outer core is the only fully LIQUID layer, and the inner core is SOLID despite the highest temperature because of extreme pressure. The trap answers swap the liquid/solid states of the two cores or misplace convection. Remember outer core = liquid, inner core = solid.',
     },
     {
       number: 23, part: 'A',
@@ -291,6 +335,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 2,
       image: '/images/exams/es-august-2022/q23.png',
+      explanation: 'At a mid-ocean ridge new crust forms by sea-floor spreading, so the youngest crust is right at the ridge axis; location C lies on the ridge.',
+      diveDeep: 'The Mid-Atlantic Ridge is a divergent boundary where magma rises and solidifies, continuously creating new oceanic crust. Crust gets progressively OLDER with distance from the ridge in both directions — a symmetric age pattern that helped prove sea-floor spreading. To find the youngest crust, locate the ridge axis itself. The trap is choosing a location far from the ridge near a continent, which is actually the oldest oceanic crust.',
     },
     {
       number: 24, part: 'A',
@@ -301,8 +347,10 @@ export default {
         'divergent boundaries with the plates moving in a relative east–west direction',
         'divergent boundaries with the plates moving in a relative north–south direction',
       ],
-      topic: 'Plate Tectonics',
+      topic: 'General',
       correct: 0,
+      explanation: 'On the ESRT Tectonic Plates map, the northern and southern edges of the Scotia Plate show transform-boundary arrows indicating plates sliding past each other in a generally east–west direction.',
+      diveDeep: 'The ESRT "Tectonic Plates" map uses specific symbols: double lines for divergent (spreading) boundaries, single lines with opposing arrows for transform (sliding) boundaries, and barbed lines for convergent (subduction) boundaries. The Scotia Plate\'s long northern and southern margins carry transform arrows pointing in opposite east–west directions. The trap is mistaking transform for divergent. Always read the boundary symbols and arrow directions directly off the ESRT plate map.',
     },
     {
       number: 25, part: 'A',
@@ -313,9 +361,11 @@ export default {
         'age of the bedrock',
         'underlying bedrock structure',
       ],
-      topic: 'Geology',
+      topic: 'Water Cycle',
       correct: 3,
       image: '/images/exams/es-august-2022/q25.png',
+      explanation: 'Stream drainage patterns reflect the structure and resistance of the underlying bedrock, because streams follow zones of weakness such as fractures and softer rock layers.',
+      diveDeep: 'A rectangular or trellis drainage pattern indicates joints, faults, or tilted resistant/soft rock layers controlling where water flows; a dendritic (branching) pattern indicates uniform bedrock. The KEY idea is that the geometry of streams mirrors the underlying geologic structure, not the rock\'s age, fossils, or absolute elevation. The trap answers list bedrock properties that do not steer water flow. Connect drainage geometry → bedrock structure/resistance.',
     },
     {
       number: 26, part: 'A',
@@ -326,8 +376,10 @@ export default {
         'Niagara',
         'St. Lawrence',
       ],
-      topic: 'Geologic Time',
+      topic: 'Water Cycle',
       correct: 1,
+      explanation: 'The Hudson River flows generally southward from the Adirondacks down to New York City and the Atlantic Ocean.',
+      diveDeep: 'Using the ESRT "Generalized Landscape Regions of New York State" map, trace each river\'s course: the Hudson runs north-to-south toward NYC, while the Genesee and Niagara flow northward toward Lake Ontario, and the St. Lawrence flows northeastward. Rivers flow from higher to lower elevation, so direction depends on the local slope, not a fixed rule that water "goes south." The trap exploits the assumption that all rivers flow south. Verify flow direction on the ESRT NYS map.',
     },
     {
       number: 27, part: 'A',
@@ -338,8 +390,10 @@ export default {
         'unsorted and layered',
         'unsorted and non-layered',
       ],
-      topic: 'Geology',
+      topic: 'General',
       correct: 3,
+      explanation: 'Landslides move material rapidly by gravity, dropping all particle sizes together at once, producing unsorted and non-layered (unlayered) deposits.',
+      diveDeep: 'Sorting and layering require a fluid (water, wind) that separates particles by size and deposits them gradually. Mass movements like landslides — and glaciers — dump everything together instantly, so the result is unsorted and unlayered. In contrast, stream and ocean deposits are sorted and layered. The trap is forgetting that gravity-driven mass movement lacks the slow, selective action of a fluid. Mass movement and glacial deposits = unsorted, unlayered.',
     },
     {
       number: 28, part: 'A',
@@ -352,6 +406,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'Limestone is made of the mineral calcite (calcium carbonate), which fizzes and bubbles (releasing CO₂) when it reacts with hydrochloric acid.',
+      diveDeep: 'The acid (HCl) test identifies carbonate minerals: calcite reacts vigorously, releasing carbon dioxide bubbles. Limestone, marble, and the cement in many carbonate rocks all contain calcite and will fizz. Rock gypsum (calcium sulfate), obsidian (volcanic glass), and slate (metamorphosed shale) lack carbonate and do not bubble. The trap is rock gypsum, which sounds chemically similar but is a sulfate, not a carbonate. Bubbling with HCl = calcite present.',
     },
     {
       number: 29, part: 'A',
@@ -364,6 +420,8 @@ export default {
       ],
       topic: 'Water Cycle',
       correct: 1,
+      explanation: 'The broad, flat area on either side of a meandering stream that floods when the stream overflows is the flood plain.',
+      diveDeep: 'A mature, meandering stream creates a wide, flat valley floor called the flood plain, built up by sediment deposited during floods. A delta forms where a stream enters a standing body of water (an ocean or lake), not along the middle course. The water table is the top of the saturated ground (underground), and an escarpment is a steep cliff. The trap is confusing flood plain with delta — remember deltas are at the stream\'s MOUTH.',
     },
     {
       number: 30, part: 'A',
@@ -374,9 +432,11 @@ export default {
         'drumlin',
         'outwash plain',
       ],
-      topic: 'Water Cycle',
+      topic: 'General',
       correct: 2,
       image: '/images/exams/es-august-2022/q30.png',
+      explanation: 'A drumlin is a smooth, elongated hill of glacial till shaped by a moving glacier, matching the described elongated hill deposited by a glacier.',
+      diveDeep: 'Glacial landforms have distinctive shapes: drumlins are elongated, streamlined hills whose long axis shows the glacier\'s direction of movement; terminal moraines are ridges of unsorted till at a glacier\'s farthest advance; outwash plains are flat, sorted deposits from meltwater. Dunes are wind-deposited, not glacial. The keyword "elongated hill deposited by a glacier" points specifically to a drumlin. Western NY (e.g., near Rochester) is famous for drumlin fields.',
     },
     {
       number: 31, part: 'A',
@@ -389,6 +449,8 @@ export default {
       ],
       topic: 'Water Cycle',
       correct: 3,
+      explanation: 'Large, round, high-density particles settle fastest, so they are deposited first as stream velocity decreases.',
+      diveDeep: 'Settling rate depends on particle size, shape, and density: larger, denser, and rounder particles sink fastest, while small, flat, low-density particles stay suspended longest and travel farthest. The ESRT "Relationship of Transported Particle Size to Water Velocity" graph confirms that larger particles require higher velocity to stay in transport, so they drop out first as the stream slows. The trap answers pick the slow-settling combination. First to settle = large, round, dense.',
     },
     {
       number: 32, part: 'A',
@@ -401,6 +463,8 @@ export default {
       ],
       topic: 'Maps',
       correct: 0,
+      explanation: 'The correct profile plots each contour-line elevation that line AB crosses at the proper height, reproducing the rises and falls of the land surface between A and B.',
+      diveDeep: 'To build a topographic profile, note every contour line that AB crosses and its elevation, plot those heights in order, then connect them smoothly. Closely spaced contours mean steep slopes (a sharp rise on the profile); widely spaced contours mean gentle slopes. The correct graph must match BOTH the elevations and where the land rises versus falls. The trap profiles invert a hill into a valley or use wrong peak heights. Read contour values carefully at the crossings.',
     },
     {
       number: 33, part: 'A',
@@ -414,6 +478,8 @@ export default {
       topic: 'Geology',
       correct: 2,
       image: '/images/exams/es-august-2022/q33.png',
+      explanation: 'Fire Island is a barrier island built and reshaped by ocean wave action and the longshore currents that move and deposit sand along the coast.',
+      diveDeep: 'Barrier islands and sandbars are coastal features created by wave action and longshore transport, which carry sand parallel to shore and deposit it offshore. While wind builds the dunes ON the island, the island itself was deposited and is continually reshaped by waves. The trap "wind action" is partly true for dunes but is not what formed the island. Coastal depositional features (spits, barrier islands, beaches) = wave action.',
     },
     {
       number: 34, part: 'A',
@@ -427,6 +493,8 @@ export default {
       topic: 'Geology',
       correct: 3,
       image: '/images/exams/es-august-2022/q34.png',
+      explanation: 'Rock salt (halite) is spread on roads to melt ice, and rock gypsum is used to make plaster of paris and drywall, matching the correct pairing.',
+      diveDeep: 'The ESRT "Properties of Common Minerals" lists common uses: halite (the mineral in rock salt) is used as table salt and road de-icer, and gypsum is used in plaster, drywall, and plaster of paris. Both are evaporite rocks formed when mineral-rich water evaporates. The trap answers attach metallic-ore uses (lead, iron) to these non-metallic evaporites. Use the ESRT mineral uses column to verify "rock = mineral = use" chains.',
     },
     {
       number: 35, part: 'A',
@@ -440,6 +508,8 @@ export default {
       topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-august-2022/q35.png',
+      explanation: 'When heat and pressure change an existing rock into a foliated or recrystallized rock without melting it, the process is metamorphism.',
+      diveDeep: 'The rock cycle has distinct processes: melting forms magma (then igneous rock), weathering/erosion and deposition lead to cementation forming sedimentary rock, and heat and pressure cause metamorphism. If rock B shows banding/foliation or interlocking recrystallized minerals but the rock was not melted, the change is metamorphism. The trap is "melting," but metamorphism happens in the SOLID state. Foliation or distorted/aligned minerals are the signature of metamorphic change.',
     },
 
     // Part B-1
@@ -456,6 +526,8 @@ export default {
       topic: 'General Review',
       correct: 1,
       image: '/images/exams/es-august-2022/q36.png',
+      explanation: 'Gold-198 has a half-life of 2.70 days, so 8.1 days equals 3 half-lives; 100 g halves three times: 100 → 50 → 25 → 12.5 g.',
+      diveDeep: 'First find the number of half-lives by dividing elapsed time by the half-life (8.1 ÷ 2.70 = 3). Then halve the starting amount once per half-life: after n half-lives, the fraction remaining is (½)ⁿ. The fraction decayed plus the fraction remaining always equals the whole sample. The trap answers correspond to 2 half-lives (25 g) or 4 half-lives (6.25 g) — count carefully. This is the standard radioactive-decay calculation used with the ESRT decay data.',
     },
     {
       number: 37, part: 'B-1',
@@ -470,6 +542,8 @@ export default {
       topic: 'Geologic Time',
       correct: 3,
       image: '/images/exams/es-august-2022/q37.png',
+      explanation: 'Rubidium-87 has a half-life of 48.8 billion years (from the ESRT), which is closest to lutetium-176\'s half-life of 37.8 billion years.',
+      diveDeep: 'The ESRT "Radioactive Decay Data" table gives rubidium-87 a half-life of 48.8 billion years. Compare that against each listed isotope: iodine-131 (days) and gold-198 (days) are far too short, beryllium-10 is 1.39 million years, and lutetium-176 is 37.8 billion years — the only one in the billions-of-years range. The trap is the huge difference in time UNITS (hours vs. days vs. millions vs. billions of years). Match the order of magnitude first.',
     },
     {
       number: 38, part: 'B-1',
@@ -484,6 +558,8 @@ export default {
       topic: 'Geologic Time',
       correct: 2,
       image: '/images/exams/es-august-2022/q38.png',
+      explanation: 'Half-life is a fixed property of each isotope and is not changed by temperature or pressure, so holmium-166 keeps its half-life of 26.80 hours.',
+      diveDeep: 'A key principle of radioactive decay is that half-life is CONSTANT — it cannot be sped up or slowed down by heat, pressure, chemical reactions, or any environmental condition. This is exactly why radioactive dating is reliable. The trap answers tempt you to think extreme conditions would shorten or lengthen the half-life. Whenever a question changes the environment around a radioactive sample, the half-life stays the same.',
     },
     {
       number: 39, part: 'B-1',
@@ -498,6 +574,8 @@ export default {
       topic: 'Climate',
       correct: 3,
       image: '/images/exams/es-august-2022/q39.png',
+      explanation: 'The passage states the low elevation and the shape of the shoreline funnel tsunami energy into a narrow stretch, so the topography of the shoreline is the cause of the vulnerability.',
+      diveDeep: 'This is a reading-comprehension question — the answer is stated directly in the passage ("the low elevation of the land and the shape of its shoreline" funnels wave energy). Tsunamis are caused by earthquakes, not by wind, monsoons, or climate, so those choices are unrelated to the mechanism. The trap answers describe atmospheric/climate factors that do not generate or amplify tsunamis. For passage-based questions, locate the supporting sentence in the text.',
     },
     {
       number: 40, part: 'B-1',
@@ -512,6 +590,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 2,
       image: '/images/exams/es-august-2022/q40.png',
+      explanation: 'Using the ESRT P-wave travel-time graph, a P-wave traveling 2600 km takes about 5 minutes 0 seconds to arrive.',
+      diveDeep: 'On the ESRT "Earthquake P-wave and S-wave Travel Time" graph, find the epicenter distance (2600 km) on the horizontal axis, go up to the P-wave curve, then read the travel time on the vertical axis (in minutes:seconds). P-waves are faster than S-waves, so the P-wave curve is the lower one. The trap is reading the S-wave curve or misreading the minutes:seconds scale. Always confirm which wave (P or S) the question asks about before reading the graph.',
     },
     {
       number: 41, part: 'B-1',
@@ -526,6 +606,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 0,
       image: '/images/exams/es-august-2022/q41.png',
+      explanation: 'Tsunamis flood low coastal land, so the safest action is to evacuate to higher ground away from the rising water.',
+      diveDeep: 'Tsunami safety hinges on getting ABOVE the flood: move inland and to higher elevation immediately. The passage stresses Crescent City\'s low elevation, which makes evacuation upward essential. The trap answers describe protective actions for other hazards — boarding windows or sheltering under a desk suits hurricanes or earthquakes, and going to a basement would be deadly during flooding. Match the safety response to the specific hazard (flooding water → go up and inland).',
     },
     {
       number: 42, part: 'B-1',
@@ -537,9 +619,11 @@ export default {
         'V and W',
         'W and X',
       ],
-      topic: 'Geologic Time',
+      topic: 'Meteorology',
       correct: 3,
       image: '/images/exams/es-august-2022/q42.png',
+      explanation: 'The locations within the warm sector (south/ahead of the cold front and behind the warm front) experience the warmest air, which here are locations W and X.',
+      diveDeep: 'In a mid-latitude low, the "warm sector" lies between the warm front (to the east) and the cold front (to the west), carrying warm tropical air northward. Locations within this wedge are warmest, while areas behind the cold front or north of the warm front are colder. Identify the fronts and the wedge of warm air between them. The trap is picking locations on the cold side of either front. Warmest = inside the warm sector.',
     },
     {
       number: 43, part: 'B-1',
@@ -554,6 +638,8 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-august-2022/q43.png',
+      explanation: 'Surface winds spiral counterclockwise and inward around a Northern Hemisphere low, so at location U the wind blows from the northwest.',
+      diveDeep: 'In the Northern Hemisphere, surface winds around a low-pressure center rotate COUNTERCLOCKWISE and curve inward toward the center due to the Coriolis effect and friction. To find wind direction at a point, picture the counterclockwise spiral and determine which compass direction the air is coming FROM (winds are named by their source). The trap is reversing the rotation (clockwise is for highs) or naming the direction the wind blows toward. Lows = counterclockwise and inward.',
     },
     {
       number: 44, part: 'B-1',
@@ -568,6 +654,8 @@ export default {
       topic: 'General Review',
       correct: 2,
       image: '/images/exams/es-august-2022/q44.png',
+      explanation: 'Current scientific evidence places the Big Bang, the origin of the universe, at about 13.8 billion years ago.',
+      diveDeep: 'Distinguish key ages: the universe began with the Big Bang about 13.8 billion years ago, while Earth and the rest of the solar system formed much later, about 4.6 billion years ago. The trap answer 4.6 bya is the age of EARTH, not the universe. Cosmic background radiation and the red shift of distant galaxies are the main evidence for an expanding universe of this age. Keep "universe ≈ 13.8 bya" and "Earth ≈ 4.6 bya" clearly separated.',
     },
     {
       number: 45, part: 'B-1',
@@ -582,6 +670,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-august-2022/q45.png',
+      explanation: 'Spiral-shaped collections of billions of stars are galaxies, like our own Milky Way.',
+      diveDeep: 'Galaxies are enormous systems of stars, gas, and dust; many, including the Milky Way, have a spiral shape. The observed red shift of light from distant galaxies shows they are moving apart, supporting the expanding-universe model the diagram represents. Planets, asteroids, and comets are tiny solar-system bodies, not spiral structures. The keyword "spiral-shaped celestial objects" on a cosmic scale uniquely identifies galaxies.',
     },
     {
       number: 46, part: 'B-1',
@@ -595,7 +685,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 1,
-      image: '/images/exams/es-august-2022/q46.png',
+      explanation: 'The red shift of light from distant galaxies (showing they are moving away) and the cosmic background radiation left over from the Big Bang are the two main evidences that the universe is expanding.',
+      diveDeep: 'A RED shift means light is stretched to longer wavelengths because the source is moving AWAY — observed for distant galaxies in all directions, indicating expansion. A blue shift would mean approaching objects, so the blue-shift choices are wrong. Cosmic background radiation is the faint leftover heat from the Big Bang, found uniformly across the sky. Nuclear fusion powers stars but is not evidence of expansion. Pair "red shift + cosmic background radiation" for the expanding universe.',
     },
     {
       number: 47, part: 'B-1',
@@ -610,6 +701,8 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-august-2022/q47.png',
+      explanation: 'Where air sinks, atmospheric pressure is higher and precipitation is suppressed; in diagram A the descending, high-pressure branch is over the South American coast, so it receives less precipitation.',
+      diveDeep: 'In normal (non-El Niño) Pacific conditions, air rises over the warm western Pacific (Indonesia/Australia), producing low pressure and heavy rain, then sinks over the cooler eastern Pacific (South American coast), producing high pressure and dry conditions. Rising air = low pressure = rain; sinking air = high pressure = dry. The thinner air arrows show this circulation loop. Trace the arrows to find where air DESCENDS — that location is dry.',
     },
     {
       number: 48, part: 'B-1',
@@ -624,6 +717,8 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-august-2022/q48.png',
+      explanation: 'The circular, looping pattern of rising and sinking air arrows shows heat being transferred by the movement of the air itself, which is convection.',
+      diveDeep: 'Convection transfers heat through the actual movement of a fluid (air or water): warm fluid rises, cools, sinks, and circulates in a loop — exactly the cyclic pattern the thinner arrows show. Conduction transfers heat through direct contact without bulk movement, and radiation transfers heat as electromagnetic waves through space. The looping ARROWS are the giveaway for convection cells. Any circulating flow pattern that moves heat indicates convection.',
     },
     {
       number: 49, part: 'B-1',
@@ -638,6 +733,8 @@ export default {
       topic: 'Astronomy',
       correct: 3,
       image: '/images/exams/es-august-2022/q49.png',
+      explanation: 'Tides follow a regular cycle; the daily afternoon low tide advances by roughly 50 minutes each day, so on December 6 the second low tide occurs near 4:39 p.m.',
+      diveDeep: 'Tides recur in a predictable pattern because they are driven by the Moon\'s position, and each tidal event shifts about 50 minutes later per day (the Moon rises ~50 minutes later daily). Track the afternoon low tides: Dec 4 at 2:56 p.m., Dec 5 at 3:47 p.m., Dec 7 at 5:33 p.m. — interpolating for Dec 6 gives roughly 4:39 p.m. The trap is choosing a.m. instead of p.m. (it is the SECOND low tide) or picking the wrong increment. Use the steady ~50-minute daily shift.',
     },
     {
       number: 50, part: 'B-1',
@@ -652,6 +749,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-august-2022/q50.png',
+      explanation: 'The greatest tidal range (highest highs and lowest lows) occurs when the Sun and Moon align so their gravitational pulls combine (spring tides), and this is strongest when the Moon is closest to Earth.',
+      diveDeep: 'Tides are mainly caused by the Moon\'s gravity, with the Sun contributing. When the Sun, Moon, and Earth ALIGN (new and full moon), their pulls add together to produce spring tides with the largest tidal range. When they are at RIGHT ANGLES (first/third quarter), the pulls partially cancel, giving neap tides with the smallest range. The effect is strongest when the Moon is at its closest point (perigee). Maximum tidal range = alignment + closest Moon.',
     },
   ],
 }

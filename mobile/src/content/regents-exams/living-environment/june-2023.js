@@ -18,6 +18,8 @@ export default {
       ],
       topic: 'General',
       correct: 2,
+      explanation: 'Cellular respiration requires glucose (obtained from food digested by the digestive system) and oxygen (absorbed from air by the respiratory system). Together, these two systems supply the raw materials cells need to produce ATP energy.',
+      diveDeep: 'Cellular respiration equation: glucose + oxygen → carbon dioxide + water + ATP. The digestive system breaks down carbohydrates into glucose and other nutrients, which are absorbed into the bloodstream. The respiratory system exchanges gases — oxygen enters the blood from the lungs, and CO₂ (a waste product) leaves. The circulatory system then distributes these materials to all cells. Muscular/skeletal systems (choice A) use ATP but don\'t supply raw materials for making it. The endocrine/nervous systems (choice B) coordinate body functions but don\'t supply glucose or oxygen. The reproductive system (choice D) is unrelated to energy production. Students should trace the pathway from food → digestion → glucose in blood → cellular respiration in cells.',
     },
     {
       number: 2, part: 'A',
@@ -30,6 +32,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 3,
+      explanation: 'A chickenpox vaccine stimulates the immune system to produce antibodies and memory cells against the varicella virus — preparing the body to maintain stable immune defense (homeostasis) against future infections by this pathogen.',
+      diveDeep: 'Homeostasis encompasses all mechanisms that maintain a stable internal environment, including immune defense. Vaccination stimulates the production of memory B-cells and antibodies, giving the immune system "advance preparation" to combat future exposure — maintaining health stability. Choice A (eating from a polluted stream) introduces toxins that disrupt homeostasis. Choice B (deer losing fur at winter start) is maladaptive — losing fur in winter would cause the deer to lose heat and disrupt temperature homeostasis. Choice C (not sweating at 100°F) would prevent heat loss, allowing body temperature to rise dangerously — a failure of thermoregulatory homeostasis. The vaccine response is the only choice that actively contributes to maintaining stable internal conditions.',
     },
     {
       number: 3, part: 'A',
@@ -42,6 +46,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 0,
+      explanation: 'Clones have identical genotypes, so any phenotypic differences must arise from environmental influences — differences in nutrition, exercise, temperature, social interactions, and other environmental factors that alter how genes are expressed.',
+      diveDeep: 'This question directly tests the genotype-environment interaction on phenotype. Cloned horses have identical nuclear DNA (genotype), but phenotype = genotype + environment. Different diets, training regimens, stress levels, and even slight temperature differences during development can alter gene expression (epigenetics) without changing DNA sequence. This is why identical twins can look slightly different despite identical genomes. Natural selection (choice B) acts on populations over generations — not on individual appearance. Sexual reproduction (choice C) would produce different genotypes — clones are not sexually reproduced. Gamete changes (choice D) relate to inheritance between generations — clones don\'t have different gametes from each other. The key principle: same genes, different environments → different phenotypes.',
     },
     {
       number: 4, part: 'A',
@@ -54,6 +60,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 0,
+      explanation: 'Plants growing toward more sunlight (phototropism) is a response to a non-living (abiotic) factor — light. Sunlight is a physical component of the environment, not a living organism. Phototropism is mediated by the plant hormone auxin redistributing to the shaded side, causing bending toward the light.',
+      diveDeep: 'Abiotic factors are non-living physical and chemical components of the environment: light, temperature, water, pH, salinity, soil composition, air pressure, and humidity. Biotic factors are living components: other organisms, predators, prey, competitors, symbionts. Choice B (rabbits attracting mates) involves responding to another organism (biotic). Choice C (woodpeckers finding insects) involves responding to another organism (biotic — insects). Choice D (deer eating tree bark) involves responding to another organism (biotic — tree bark, even though scarce food is partly abiotic). Students should firmly distinguish abiotic (non-living) from biotic (living) factors in any ecosystem interaction question.',
     },
     {
       number: 5, part: 'A',
@@ -66,6 +74,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 2,
+      explanation: 'CRISPR/Cas9 is a tool for precisely editing specific DNA sequences — a form of genetic engineering. Using it to correct a disease-causing mutation in cells is a direct manipulation of the genome to change an organism\'s genetic makeup.',
+      diveDeep: 'CRISPR/Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats) was adapted from a natural bacterial immune system. The Cas9 protein is guided by a RNA sequence to a specific location in the genome, where it makes a precise cut. The cell\'s repair mechanisms can then be used to either disable a gene or correct a mutation by inserting new DNA. This is a revolutionary genetic engineering tool with applications in treating genetic diseases, developing disease-resistant crops, and basic research. Evolution (choice A) involves natural changes in populations over generations — not deliberate human modification. Cloning (choice B) copies an entire organism. Selective breeding (choice D) involves choosing which organisms reproduce — it does not directly manipulate DNA sequences.',
     },
     {
       number: 6, part: 'A',
@@ -78,6 +88,8 @@ export default {
       ],
       topic: 'General',
       correct: 1,
+      explanation: 'Animals sharing the same habitat tend to have similar basic physical requirements — they need similar temperature ranges, moisture levels, and shelter types characteristic of that habitat, even if they eat different food and occupy different niches.',
+      diveDeep: 'Physical (abiotic) requirements define which habitat is tolerable for a species. Animals living in the same habitat share tolerance for that habitat\'s physical conditions: temperature, humidity, altitude, pH of water, etc. However, to reduce competition, they typically occupy different niches (contradicting choice A). The competitive exclusion principle states that two species cannot occupy the exact same niche long-term — one will outcompete the other. Different animals eat different food (contradicting choice C) — niche partitioning allows multiple species to coexist. Choice D (solar energy input) is needed by ALL ecosystems ultimately — but this is a general requirement, not specific to sharing an area. Students should understand the distinction between shared physical habitat requirements and differentiated ecological niches.',
     },
     {
       number: 7, part: 'A',
@@ -90,6 +102,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 1,
+      explanation: 'Mitochondria carry out cellular respiration — converting glucose and oxygen into ATP energy through oxidative phosphorylation. ATP is the energy currency that powers virtually all cellular processes.',
+      diveDeep: 'Organelle functions: mitochondria = cellular respiration, ATP production ("powerhouse of the cell"); ribosomes = protein synthesis (translation of mRNA); cell membrane = selective permeability, cell boundary; nucleus = stores DNA, controls cell activities; endoplasmic reticulum = protein/lipid synthesis and processing; Golgi apparatus = packages and ships proteins; vacuoles = storage (water, food, waste) in plant cells. Cell membranes do not synthesize proteins (choice A) — ribosomes do. Ribosomes do not regulate transport (choice C) — cell membranes do. Vacuoles store materials but do not transfer genetic information (choice D) — that would require reproduction. Students should memorize the organelle-function pairs for the Regents.',
     },
     {
       number: 8, part: 'A',
@@ -102,6 +116,8 @@ export default {
       ],
       topic: 'Evolution',
       correct: 1,
+      explanation: 'The introduction of larger snails changed the food environment (selection pressure). Kites with slightly larger beaks and bodies could better eat the larger snails → better survival → more reproduction → larger beak/body alleles became more common over several generations. This is natural selection responding to environmental change.',
+      diveDeep: 'This is a real ecological event — the island apple snail invaded the Florida Everglades, and the snail kite rapidly evolved larger bill size to exploit this new food source. The speed of this evolution (within a few decades) surprised scientists and showed that natural selection can produce measurable changes in short time periods when selection pressure is strong. Pre-existing genetic variation in beak size existed in the kite population; the environmental change (new large snail prey) selectively favored larger-beaked individuals. Selective breeding (choice A) requires human intervention. Genetic engineering (choice C) requires laboratory manipulation of DNA. Ecological succession (choice D) refers to community change over time — not individual trait evolution. Only natural selection explains trait changes in response to environmental pressure.',
     },
     {
       number: 9, part: 'A',
@@ -114,6 +130,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 0,
+      explanation: 'The fact that scientists could activate a "skin cell gene" in a stomach cell proves that the stomach cell already possessed the skin cell gene in its DNA. All somatic cells contain the complete genome — only gene expression differs between cell types.',
+      diveDeep: 'This experiment demonstrates that cell differentiation is based on gene expression patterns, not on possessing different genes. Every nucleated somatic cell in an organism contains the complete genome. Differentiation involves certain genes being turned on while others are silenced — but all the genes are still present. Scientists can reprogram cell identity by changing which genes are expressed (e.g., inducing pluripotent stem cells by activating four specific genes in adult cells — the Yamanaka factors, Nobel Prize 2012). Choice B is wrong — skin and stomach cells produce different proteins (different gene expression). Choice C (half from each parent) is about inheritance, not what the experiment shows. Choice D directly contradicts the experiment — if cells had completely different genes, you couldn\'t activate a skin gene in a stomach cell.',
     },
     {
       number: 10, part: 'A',
@@ -126,6 +144,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 2,
+      explanation: 'Meiosis generates genetic variation through independent assortment (random distribution of homologous chromosomes) and crossing-over (recombination — exchange of DNA between homologous chromosomes), producing gametes with unique gene combinations that lead to genetically diverse offspring.',
+      diveDeep: 'Two mechanisms generate genetic variation during meiosis: (1) Crossing-over (recombination) — during prophase I, homologous chromosomes exchange segments, creating new allele combinations on each chromosome. (2) Independent assortment — during metaphase I, homologous pairs align randomly, so each gamete gets a random mix of maternal and paternal chromosomes (2²³ ≈ 8 million possibilities in humans). Additionally, fertilization adds another layer of randomness — which sperm fertilizes which egg. Asexual reproduction (in choice A) produces genetically identical offspring, so it reduces variation; only mutations would create variation in asexually reproducing populations. Mitosis (choice B) also produces identical cells. Cloning (choice D) is artificial asexual reproduction, producing genetically identical individuals. Sexual reproduction + meiosis = key sources of genetic variation.',
     },
     {
       number: 11, part: 'A',
@@ -138,6 +158,8 @@ export default {
       ],
       topic: 'General',
       correct: 0,
+      explanation: 'After rapid initial growth, zebra mussel populations slow as they reach or approach the carrying capacity of the environment — resources (food, space, oxygen) become limiting as population density increases, reducing per-capita birth rates and increasing death rates.',
+      diveDeep: 'This follows the classic logistic growth pattern. Initial rapid (exponential) growth occurs when resources are abundant and the population is small. As the population grows, resource competition intensifies — food becomes scarcer, space for attachment fills up, oxygen is depleted locally. These density-dependent limiting factors slow growth. The population approaches carrying capacity (K) and growth rate decreases. Choice B is wrong — competition INCREASES (not decreases) as population grows. Choice C is wrong — zebra mussels are animals (filter feeders on phytoplankton), not photosynthesizers. Choice D describes WHY they grew rapidly initially (lack of natural predators) — but this doesn\'t explain why growth is NOW decreasing. The slowing is due to resource limitation, not the predator situation changing.',
     },
     {
       number: 12, part: 'A',
@@ -151,6 +173,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 2,
+      explanation: 'In the food web, insects are shown being consumed by roadrunners (arrow from insects to roadrunners), and both insects are animals — so roadrunners are carnivores (animal-eaters) consuming other animals (insects).',
+      diveDeep: 'Reading food web diagrams: arrows show the direction of energy flow (from food to eater). Bushes are producers (autotrophs), not herbivores — they cannot feed on insects (choice A wrong). Rodents eat bushes and grasses — they are not shown eating lizards (choice B wrong). Grasses are producers (correct), but the arrow from grasses goes to insects and rodents — NOT directly to lizards (choice D wrong, lizards eat insects). Roadrunners are shown consuming both insects and lizards — making them carnivores. Students must trace arrows carefully: the prey is at the tail of the arrow, the predator is at the head. A carnivore is an animal that eats other animals; an herbivore eats plants; an omnivore eats both.',
     },
     {
       number: 13, part: 'A',
@@ -163,6 +187,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 0,
+      explanation: 'Cellular respiration (occurring in mitochondria) produces ATP from glucose and oxygen. This ATP then powers active transport — the process of pumping ions against their concentration gradient, as in the hydrogen ion pumps of stomach lining cells.',
+      diveDeep: 'Active transport (choice B) is the process that USES ATP — not the process that produces it. Cellular respiration PRODUCES ATP. This is an important distinction. Stomach acid (HCl) is produced by parietal cells pumping H⁺ ions outward and Cl⁻ ions inward against concentration gradients using H⁺/K⁺-ATPase pumps — each pump cycle uses one ATP molecule. The ATP comes from mitochondrial cellular respiration in the parietal cells. Carbohydrate digestion (choice C) breaks down polysaccharides to glucose — which is then used in cellular respiration to make ATP; digestion itself doesn\'t make ATP directly. Enzyme synthesis (choice D) requires ATP but does not produce it. Students should distinguish energy-producing processes (cellular respiration) from energy-consuming processes (active transport, biosynthesis).',
     },
     {
       number: 14, part: 'A',
@@ -175,6 +201,8 @@ export default {
       ],
       topic: 'Evolution',
       correct: 3,
+      explanation: 'Fossils (preserved remains, imprints, or traces of ancient organisms in rock) directly preserve physical evidence of extinct organisms\' body structures, providing the most direct information about their size, shape, bones, teeth, and other physical characteristics.',
+      diveDeep: 'The fossil record is the primary direct evidence for the physical characteristics of extinct organisms. Fossils can preserve: hard tissues (bones, shells, teeth), impressions of soft tissues, footprints and tracks (trace fossils), chemical signatures. Modern plants in similar habitats (choice A) may be similar to ancient plants but don\'t provide information about extinct animals. Current producers (choice B) don\'t contain information about extinct animals. Modern animals in the area (choice C) may be distant relatives but don\'t directly show extinct species\' features. Fossil evidence has revealed the anatomy of dinosaurs, mammoths, early humans, and thousands of extinct species. Paleontology is the field dedicated to studying fossils.',
     },
     {
       number: 15, part: 'A',
@@ -187,6 +215,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 3,
+      explanation: 'Immunity acquired through vaccination is not heritable because it involves changes in the immune system (antibodies, memory cells) — not changes to the DNA in gametes (sex cells). Only changes to germline (sex cell) DNA can be passed to offspring.',
+      diveDeep: 'This question tests the central concept that only genetic changes in germline cells (sperm and eggs) are heritable. Vaccination produces: (1) antibodies against cancer antigens; (2) memory B-cells and T-cells. These are phenotypic changes in the immune system of the vaccinated individual — not changes to their genome. Weismann\'s barrier: changes to somatic cells (including immune cells) cannot be passed to offspring. This is why acquired immunity (from vaccines or infections) must be re-acquired in each generation. Choice A (small amount of cancer) doesn\'t explain non-inheritance. Choice B (cancer mutations) is a real concern but doesn\'t explain why the protective effect isn\'t inherited. Choice C (antigen production) is what happens, but antigens don\'t get inherited either — the key issue is gamete DNA.',
     },
     {
       number: 16, part: 'A',
@@ -199,6 +229,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 1,
+      explanation: 'Asexual reproduction produces offspring that are genetically identical (or nearly identical) to the parent because no mixing of genetic material from two parents occurs. This results in far less genetic variation than sexual reproduction.',
+      diveDeep: 'Sexual reproduction generates genetic variation through meiosis (independent assortment + crossing-over) and fertilization (random combination of gametes from two parents). Asexual reproduction (parthenogenesis in this case) produces offspring with the same genetic makeup as the single parent — no new allele combinations are created. This is why populations that rely on asexual reproduction are more vulnerable to disease (all individuals are susceptible to the same pathogens) and have less adaptive potential to changing environments. Offspring from asexual reproduction don\'t have more DNA than the parent (choice C) — they have the same amount. Body size is not directly determined by mode of reproduction (choice D). Students should connect reproductive mode to genetic diversity and evolutionary potential.',
     },
     {
       number: 17, part: 'A',
@@ -211,6 +243,8 @@ export default {
       ],
       topic: 'General',
       correct: 3,
+      explanation: 'Since males and females share most genes but develop very different body sizes, the size difference must be due to differential gene expression — regulated by sex hormones (like testosterone in males). Hormones activate growth-promoting genes more in males than females.',
+      diveDeep: 'Sexual dimorphism (physical differences between males and females of the same species) is often caused by hormones activating different sets of genes in males vs. females. In anoles: males have higher testosterone levels → testosterone activates genes for muscle and bone growth → males grow larger. This is gene-environment interaction at the molecular level — same genes, different hormonal environment → different phenotype. Choice A is a misconception — in many species (spiders, hyenas, many fish) females are larger. Choice B (longer development time) is not supported — they hatch at the same size and then diverge. Choice C (mutation during hatching) would be very unusual, affect many individuals uniformly, and would be permanent damage — not a consistent sex difference. Hormonal regulation of gene expression (choice D) is the well-established mechanism of sexual differentiation.',
     },
     {
       number: 18, part: 'A',
@@ -223,6 +257,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 2,
+      explanation: 'In myasthenia gravis, autoantibodies target acetylcholine receptors on muscle cells. Without functional receptors, muscles cannot detect the acetylcholine neurotransmitter signal from nerve cells, so no signal is received and the muscle cannot contract properly.',
+      diveDeep: 'Neuromuscular transmission: motor nerve sends electrical signal → vesicles release acetylcholine (ACh) → ACh crosses synapse → binds to nicotinic ACh receptors on muscle cell membrane → sodium channels open → muscle cell depolarizes → muscle contracts. In myasthenia gravis: autoantibodies (produced by the immune system) bind to ACh receptors → block acetylcholine binding → signal cannot be transmitted → muscle weakness. Treatment: acetylcholinesterase inhibitors (prevent ACh breakdown, increasing available ACh) and immunosuppressants. CO₂ is not involved in muscle ATP production (choice A — muscles use O₂, not CO₂ for ATP). Nerves communicate via neurotransmitters, not hormones, and muscles don\'t have vacuoles for this purpose (choice B wrong). Ribosomes don\'t produce sugar (choice D) — sugars are from food, and ribosomes make proteins.',
     },
     {
       number: 19, part: 'A',
@@ -235,6 +271,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 1,
+      explanation: 'A deletion mutation removes bases from a gene, altering the codon sequence in the mRNA and potentially changing which amino acids are incorporated into the protein. Since a protein\'s shape is determined by its amino acid sequence, this mutation would directly alter the protein\'s 3D shape.',
+      diveDeep: 'Deletion mutations cause frameshifts if the number of deleted bases is not a multiple of 3. A frameshift changes every codon downstream of the deletion, altering all subsequent amino acids in the protein. Even a single amino acid change can dramatically alter protein folding and function (e.g., sickle cell anemia is caused by one amino acid substitution in hemoglobin). Protein shape → protein function: enzymes with altered active sites lose catalytic ability; receptors with altered binding sites cannot bind their ligands. The mutation does not directly affect cell membrane diffusion (choice A), cytoplasm pH (choice C), or nucleus size (choice D) — these are downstream consequences if a specific critical protein is affected, but the DIRECT effect is on protein structure. Students should trace the pathway: DNA mutation → altered mRNA → different amino acid sequence → different protein shape → altered function.',
     },
     {
       number: 20, part: 'A',
@@ -247,6 +285,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 2,
+      explanation: 'Energy flows from producers (autotrophs) through primary consumers (herbivores) to secondary consumers (carnivores) in one direction — following the food chain. Herbivores eat plants and transfer some of that energy to carnivores that eat them.',
+      diveDeep: 'Energy flow in ecosystems: sun → producers (autotrophs, fix solar energy via photosynthesis) → primary consumers (herbivores, eat plants) → secondary consumers (carnivores, eat herbivores) → tertiary consumers → decomposers. Energy flows in one direction only, from lower to higher trophic levels, with ~90% lost as heat at each transfer. Energy does NOT flow from heterotrophs to autotrophs (choice A) — plants don\'t eat animals for energy. Energy does NOT flow from animals to plants (choice B) — plants capture solar energy, not animal energy. Energy does NOT flow from carnivores back to autotrophs directly (choice D) — energy flows carnivores → decomposers → autotrophs indirectly through nutrient cycling, but energy itself is not recycled. The correct direction is always: plant → herbivore → carnivore.',
     },
     {
       number: 21, part: 'A',
@@ -259,6 +299,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 1,
+      explanation: 'Road salt (an abiotic, non-living chemical factor) alters sex determination during frog development by affecting the expression of genes that control sex differentiation — producing more males than the normal 1:1 ratio, without changing the underlying DNA sequence.',
+      diveDeep: 'This is an example of how environmental abiotic factors can alter gene expression and developmental outcomes. In many amphibians and reptiles, sex determination is influenced by temperature, pH, or chemical exposure during embryonic development. Road salt alters ionic conditions in water, which can interfere with hormonal signaling during sex determination. The DNA hasn\'t changed — the expression of sex-determining genes has been disrupted. This differs from asexual reproduction (choice A) — both males and females still require fertilization; the ratio just shifts. Choice C says this is NORMAL — but the skewed sex ratio is an abnormal response to salt. Choice D (loss of genetic information) would require a mutation — gene expression change doesn\'t lose information. Students should connect environmental contamination to developmental biology.',
     },
     {
       number: 22, part: 'A',
@@ -271,6 +313,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 1,
+      explanation: 'Antigens are foreign molecules (usually proteins or polysaccharides on the surface of pathogens) that the immune system recognizes as non-self. This recognition triggers B-cells and T-cells to mount a specific immune response, producing antibodies and activating cell-mediated immunity.',
+      diveDeep: 'Antigens (anti-body generators) are any molecule that can trigger an immune response. They are typically found on the surfaces of bacteria, viruses, fungi, and parasites, as well as on transplanted tissues and cancer cells. The immune response: antigen detected by antigen-presenting cells → B-cells activated → produce specific antibodies (match the antigen\'s shape) + memory cells. Antibodies (choice A) are the PRODUCTS of the immune response — they don\'t stimulate it. CO₂ (choice C) is a metabolic waste gas, not an immune trigger under normal conditions. Biological catalysts (choice D) are enzymes — they have many functions but are not the primary triggers of immune responses. Key: antigens IN → immune response → antibodies OUT.',
     },
     {
       number: 23, part: 'A',
@@ -283,6 +327,8 @@ export default {
       ],
       topic: 'Evolution',
       correct: 3,
+      explanation: 'A random mutation in some garter snakes happened to confer resistance to the newt toxin. These snakes could eat toxic newts (a high-calorie food source) without dying, giving them a survival advantage. They survived and reproduced more, passing the resistance allele to offspring — natural selection.',
+      diveDeep: 'This is the newt-snake arms race — a classic coevolution example. The rough-skinned newt produces tetrodotoxin (TTX, the same toxin as puffer fish). Garter snakes (Thamnophis sirtalis) in the Pacific Northwest have evolved TTX resistance through mutations in sodium channel genes. The resistance arose through random mutation BEFORE being tested by selection — the snakes didn\'t develop the mutation because they needed it (choices A and B imply need-directed evolution, which is Lamarckian). Exposure to toxin does not cause beneficial mutations (choice C) — mutations are random and predated exposure. The correct mechanism: random mutation → resistance in some snakes → those snakes eat newts better → more offspring with resistance gene → resistance allele frequency increases over generations.',
     },
     {
       number: 24, part: 'A',
@@ -295,6 +341,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 2,
+      explanation: 'A podocyte\'s specialized function depends on producing specific filtering proteins — a process determined by the genes (DNA codes) expressed in that cell and carried out by ribosomes (which translate mRNA into proteins). The cell\'s function is directly linked to DNA → mRNA → protein production.',
+      diveDeep: 'Podocytes are specialized cells with finger-like projections that wrap around kidney capillaries, creating a filtration barrier with precise pore sizes. Their function depends on producing specific proteins (podocin, nephrin) that form the filtration slit diaphragm. This protein production requires: DNA (gene codes for podocyte proteins) → transcription → mRNA → ribosomes translate mRNA → specific proteins. Choice A mentions mutations causing cell shape — while normal differentiation determines shape, mutations causing disease are not the basis of normal function. Choice B (cell membrane differentiation and vacuoles) doesn\'t specifically address protein production for filtering. Choice D is wrong — mitochondria produce ATP, not "filtering organelles." Students should connect specialized cell function to gene expression and protein synthesis.',
     },
     {
       number: 25, part: 'A',
@@ -307,6 +355,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 2,
+      explanation: 'Ecosystem stability is maintained by high biodiversity (more species means functional redundancy) and multiple ecological niches (different species occupying different roles), which ensures that the loss of any one species is less likely to cause catastrophic disruption.',
+      diveDeep: 'Ecosystem stability has two components: resistance (ability to withstand disturbance) and resilience (ability to recover from disturbance). Both are enhanced by biodiversity and niche diversity. With many species: food webs have multiple pathways, so if one species declines, energy flow can be rerouted through other species. Multiple niches mean multiple ecological roles are being performed, distributing ecosystem function across many species. High diversity + few resources (choice A) is a contradiction — abundant resources support high diversity. Little diversity + rapid succession (choice B) describes a stressed ecosystem changing composition due to instability. Little diversity + multiple extinctions (choice D) describes ecosystem collapse. Students should associate biodiversity → ecosystem stability as a fundamental ecological principle.',
     },
     {
       number: 26, part: 'A',
@@ -319,6 +369,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 1,
+      explanation: 'Cellular respiration: glucose + O₂ → CO₂ + H₂O + ATP (uses O₂, releases CO₂). Photosynthesis: CO₂ + H₂O + light → glucose + O₂ (uses CO₂, releases O₂). The two processes are mirror images in terms of gas exchange.',
+      diveDeep: 'The relationship between photosynthesis and cellular respiration is a cornerstone of biology. They are complementary: products of one are reactants of the other. Photosynthesis: 6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂ (takes in CO₂, outputs O₂). Cellular respiration: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP (takes in O₂, outputs CO₂). Choice C reverses the gas roles for each process. Choice A and D have both processes doing the same thing — which is wrong since they are complementary. This complementary relationship maintains the balance of O₂ and CO₂ in Earth\'s atmosphere. Students should memorize the reactants and products of both processes and recognize their inverse relationship.',
     },
     {
       number: 27, part: 'A',
@@ -331,6 +383,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 3,
+      explanation: 'Antibodies are proteins with binding sites shaped specifically to fit the antigens of one particular pathogen. A different pathogen has different surface antigens with different shapes — the existing antibody\'s binding site doesn\'t match, so it cannot bind or neutralize the new pathogen.',
+      diveDeep: 'Antibody specificity is based on the lock-and-key model: each antibody has a unique variable region (antigen-binding site) whose shape is complementary to one specific antigen. The diversity of antibodies (billions of different shapes) arises from V(D)J recombination in B-cells during development. When a specific antigen is detected, B-cells with the matching antibody shape are selected and proliferate (clonal selection). This means the specific antibody against influenza A won\'t recognize influenza B or a cold virus — different antigens, different shapes. Antibodies can be produced many times (choice A wrong). Antibodies are not antibiotics (choice B) — antibiotics are small molecules, not immune proteins. Antibodies are made of proteins, not DNA (choice C). The key word is "specific for the shape" — this is the defining feature of antibody-antigen interactions.',
     },
     {
       number: 28, part: 'A',
@@ -343,6 +397,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 0,
+      explanation: 'Cell differentiation is the process by which cells derived from the same zygote (through mitosis) develop into specialized cell types during embryonic development — activating different subsets of genes to produce different proteins and structures for different functions.',
+      diveDeep: 'During embryonic development, the zygote divides by mitosis to form a ball of identical cells (morula → blastula). As development proceeds, cells receive chemical signals (morphogens, growth factors) that activate specific transcription factors, turning on cell-type-specific genes. This creates different cell types: neurons, muscle cells, epithelial cells, blood cells, etc. — all from the same original DNA. The specialization of gametes (choice B) refers to sperm and egg being specialized for reproduction — not the differentiation of body cells. Cloning (choice C) would produce identical cells, not specialized ones — differentiation, not cloning, creates diversity. A zygote is a single fertilized cell (choice D) — zygotes don\'t specialize; their daughter cells specialize through differentiation.',
     },
     {
       number: 29, part: 'A',
@@ -357,6 +413,8 @@ export default {
       topic: 'Genetics',
       correct: 2,
       image: '/images/exams/le-june-2023/q29.png',
+      explanation: 'When water is scarce, guard cells close the stomata to reduce transpiration (water loss). This is a feedback mechanism: low water availability → stomata close → less water lost → helps maintain water balance (homeostasis). The stimulus (water shortage) triggers a response (closing stomata) that counteracts further water loss.',
+      diveDeep: 'Guard cells regulate stomata through osmosis: when guard cells absorb water (turgid), they bow outward and the pore opens; when guard cells lose water (flaccid), they straighten and the pore closes. The signal for stomata closure under drought: low water potential in leaves → guard cells receive abscisic acid (ABA) hormone → K⁺ ions leave guard cells → water leaves by osmosis → guard cells become flaccid → stomata close. This is a negative feedback loop: water stress → stomata close → less water lost → stress is reduced. It is not an immune response (choice A). Passive transport requires no energy and follows concentration gradients — guard cell movements involve active ion transport (choice B wrong). Genetic manipulation implies DNA changes (choice D wrong) — this is a reversible physiological response, not genetic alteration.',
     },
     {
       number: 30, part: 'A',
@@ -369,6 +427,8 @@ export default {
       ],
       topic: 'General',
       correct: 2,
+      explanation: 'Vestigial structures (non-functional remnants of once-functional structures) are evidence of common ancestry. Whale pelvic and hind leg bones are vestigial — inherited from a land-dwelling common ancestor shared with alligators and other tetrapods, even though they no longer function in whales.',
+      diveDeep: 'Vestigial structures are evolutionary relics — they are remnants of structures that were functional in ancestors but have been reduced or lost function in descendants. Whales evolved from land mammals ~50 million years ago (Pakicetus was an early ancestor). As their lineage became fully aquatic, hind limbs became vestigial. Alligators retain functional hind limbs because their terrestrial/semi-aquatic lifestyle still uses them. Other examples: human tailbone (coccyx), human wisdom teeth, snake leg remnants. Choice A (whales from alligators) and B (alligators from whales) are wrong — these are not each other\'s descendants; they share a distant common ancestor. Choice D (same genetic mutations) is partly relevant but doesn\'t fully explain the structural similarity — common ancestry does. Shared anatomical structures = evidence of common ancestry.',
     },
 
     // Part B-1
@@ -384,6 +444,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 3,
+      explanation: 'With less dissolved oxygen available, fish cannot absorb enough O₂ through their gills to support the high metabolic demands of a larger body. Without sufficient oxygen for cellular respiration, they cannot produce enough ATP for growth, limiting maximum body size.',
+      diveDeep: 'Cellular respiration requires oxygen: glucose + O₂ → CO₂ + H₂O + ATP. A larger body mass has more cells, each requiring ATP for metabolism. If oxygen is limiting (low dissolved O₂ in warm water), cellular respiration is limited → less ATP produced → insufficient energy for growth and maintenance of large body mass. Gill surface area doesn\'t scale up as fast as body volume (the gill oxygen limitation hypothesis), compounding the problem. Warmer water holds less dissolved O₂ (gas solubility decreases with temperature). This is why many fish in warming oceans are being caught at smaller sizes — it is an oxygen-driven physiological limitation, not evolution. Choice A (more plants doing photosynthesis) would increase oxygen, not decrease fish size. Choice B (fish producing more ATP and less oxygen) is backwards — reduced O₂ means LESS ATP. Choice C (gills getting larger, bringing in more CO₂) is wrong direction.',
     },
     {
       number: 32, part: 'B-1',
@@ -397,6 +459,8 @@ export default {
       ],
       topic: 'Evolution',
       correct: 3,
+      explanation: 'Industrialization burns fossil fuels, releasing CO₂ that accumulates in the atmosphere, enhancing the greenhouse effect and warming ocean temperatures. Warmer water holds less dissolved oxygen — so industrial CO₂ emissions indirectly reduce ocean O₂ levels.',
+      diveDeep: 'The chain of causation: fossil fuel burning → elevated CO₂ → enhanced greenhouse effect → global warming → ocean temperature rise → decreased dissolved oxygen (Henry\'s Law: gas solubility decreases with temperature) → reduced oxygen available for marine organisms. Additionally, excess nutrients from agriculture can cause algal blooms → when algae die, bacterial decomposition consumes dissolved O₂ → hypoxic dead zones. Overfishing (choice A) reduces biodiversity but doesn\'t directly reduce dissolved O₂. Planting trees (choice B) would actually HELP (absorb CO₂) and soil erosion from deforestation (not tree planting) is the issue. Introducing foreign species (choice C) disrupts ecosystems but doesn\'t directly reduce dissolved O₂. Students should trace cause-and-effect chains when analyzing human impacts on ecosystems.',
     },
     {
       number: 33, part: 'B-1',
@@ -411,6 +475,8 @@ export default {
       topic: 'Reproduction',
       correct: 1,
       image: '/images/exams/le-june-2023/q33.png',
+      explanation: 'The graph shows estrogen peaks at day 14 (ovulation) while progesterone is still low at that point — so when the egg is released, estrogen levels are higher than progesterone levels. This is directly readable from the graph at the day-14 mark.',
+      diveDeep: 'Menstrual cycle hormone pattern: Days 1–14 (follicular phase): FSH stimulates follicle growth → estrogen rises → LH surge at day 14 triggers ovulation. Days 14–28 (luteal phase): empty follicle becomes corpus luteum → produces progesterone (rises) → progesterone maintains uterine lining (for potential implantation). If no fertilization: corpus luteum breaks down → progesterone falls → uterine lining sheds (menstruation). The graph clearly shows estrogen is high and progesterone is low at day 14 (ovulation). Choice A requires knowing what hormonal pattern triggers egg development — complex and not directly shown on the graph. Choice C is wrong — progesterone is NOT always higher; estrogen peaks higher at day 14. Choice D says estrogen keeps increasing after ovulation — but the graph shows estrogen FALLS after day 14. Graph-reading accuracy is essential for these questions.',
     },
     {
       number: 34, part: 'B-1',
@@ -424,6 +490,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 0,
+      explanation: 'The scatter plot shows a positive trend: as the percentage of male chemical increases, the number of offspring produced also increases — directly supporting the conclusion that higher chemical percentage correlates with greater reproductive success.',
+      diveDeep: 'Scatter plots show relationships between two variables. Positive correlation: as one variable increases, the other increases (upward trend). Negative correlation: as one increases, the other decreases (downward trend). No correlation: scattered randomly. The data shows a positive trend (higher chemical % → more offspring) = positive correlation = choice A. Choice B (lower % → more offspring) would be a negative correlation. Choice C (no effect) would require a flat or random scatter — not a trend. Choice D explicitly states negative relationship — contradicting the positive trend shown. Students should identify whether scatter plot data shows positive, negative, or no correlation, and draw conclusions that match the observed trend. The larger the chemical percentage, the more reproductive success — consistent with female mate choice based on chemical signal quality.',
     },
     {
       number: 35, part: 'B-1',
@@ -436,6 +504,8 @@ export default {
       ],
       topic: 'Evolution',
       correct: 0,
+      explanation: 'Pikas play multiple ecological roles (keystone species): as prey for predators, as engineers creating burrows that drain groundwater and house birds. Their removal disrupts multiple ecosystem functions simultaneously, causing instability.',
+      diveDeep: 'Pikas are ecosystem engineers — they modify the physical environment in ways that benefit other species (burrowing affects hydrology; burrows provide shelter for birds). As prey, they support predator populations. Their removal would: (1) reduce food for predators → predator population decline; (2) eliminate nesting sites for birds → bird population decline; (3) disrupt groundwater drainage → waterlogging or flooding of grasslands. Choice B (more stable, replacement by other species) assumes rapid ecological compensation — unrealistic in the short term; replacing keystone species functions takes time if possible at all. Choice C partially acknowledges instability but makes speculative predictions about what predators and birds will do. Choice D claims more stability and small lake formation — these are possible long-term changes but labeling the ecosystem as "more stable" contradicts the loss of multiple ecosystem functions.',
     },
     {
       number: 36, part: 'B-1',
@@ -448,6 +518,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 1,
+      explanation: 'Science is a self-correcting process — when new evidence contradicts an existing theory, the theory is revised or replaced. Lamarck\'s theory being replaced by Darwin\'s demonstrates that scientific knowledge is not fixed but evolves as evidence accumulates.',
+      diveDeep: 'This question tests understanding of the nature of science (NOS). Scientific theories are not absolute truths — they are the best current explanations supported by available evidence, always subject to revision. Lamarck\'s theory (1809) proposed use-and-disuse (organisms develop traits through use and disuse) and inheritance of acquired characteristics. Darwin\'s theory (1859), supported by extensive field observations and later confirmed by genetics and molecular biology, replaced it. The evidence: acquired traits (muscle size, learned skills) are not encoded in DNA/gametes and cannot be inherited. Modern genetics disproved Lamarck. Choice A is wrong — scientists communicate extensively through journals, conferences, and peer review. Choice C is wrong — science requires scientists to confront contradicting evidence. Choice D is wrong — hypotheses and theories DO change with new evidence.',
     },
     {
       number: 37, part: 'B-1',
@@ -462,6 +534,8 @@ export default {
       topic: 'Human Body',
       correct: 0,
       image: '/images/exams/le-june-2023/q37.png',
+      explanation: 'Nucleases break down nucleic acids (DNA and RNA) into their monomer units — nucleotides, and ultimately into the four types of nitrogenous bases (adenine, thymine/uracil, guanine, cytosine), along with sugars and phosphate groups.',
+      diveDeep: 'Nucleases are enzymes that cleave the phosphodiester bonds between nucleotides in nucleic acid chains. Complete digestion of nucleic acids releases: nitrogenous bases (adenine, guanine, cytosine, thymine in DNA; uracil replaces thymine in RNA), deoxyribose or ribose sugars, and phosphate groups. There are four types of nitrogenous bases in DNA (A, T, G, C), so "four different kinds of molecular bases" is correct. Glucose (choice B) is the product of carbohydrate (starch) digestion by amylase — not nuclease. Amino acids (choice C) are released by protease enzymes (chymotrypsin, trypsin) — not nucleases. Hormones (choice D) are produced by endocrine glands, not released by digestive enzymes. Students should match each enzyme type to its substrate (what it breaks down) and products.',
     },
     {
       number: 38, part: 'B-1',
@@ -476,6 +550,8 @@ export default {
       topic: 'Genetics',
       correct: 3,
       image: '/images/exams/le-june-2023/q38.png',
+      explanation: 'Amylase digests carbohydrates (starches/polysaccharides) by breaking the glycosidic bonds between glucose monomers. The end products are simple sugars (glucose, maltose) — the building blocks of complex carbohydrates.',
+      diveDeep: 'Amylase is produced by salivary glands (salivary amylase) and the pancreas (pancreatic amylase). It cleaves α-1,4-glycosidic bonds in starch (a polymer of glucose), producing: maltose (a disaccharide of two glucose units) and eventually glucose (a monosaccharide). Starches and proteins (choice A) are reactants/other food molecules — not the products of amylase action; starches are the substrate. CO₂ and water (choice B) are products of cellular respiration, not digestion. Amino acids (choice C) are products of protein digestion (protease enzymes like trypsin and chymotrypsin). Students should know the macromolecule digestion table: starch → simple sugars (amylase); proteins → amino acids (proteases); fats → fatty acids + glycerol (lipase); nucleic acids → nucleotides (nucleases).',
     },
     {
       number: 39, part: 'B-1',
@@ -488,6 +564,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 1,
+      explanation: 'Insulin is a hormone produced by beta cells in the islets of Langerhans in the pancreas. It is released when blood glucose levels rise and stimulates cells to take up glucose, lowering blood glucose back to normal levels — a key homeostatic mechanism.',
+      diveDeep: 'The pancreas has two functions: exocrine (producing digestive enzymes released into small intestine) and endocrine (producing hormones released into blood). Endocrine pancreas: (1) beta cells produce insulin (lowers blood glucose — promotes glucose uptake and glycogen storage); (2) alpha cells produce glucagon (raises blood glucose — promotes glycogen breakdown and gluconeogenesis). Insulin and glucagon work as antagonistic hormones in a classic negative feedback loop controlling blood glucose. Progesterone (choice A) is a female reproductive hormone. Testosterone (choice C) is a male reproductive hormone. ATP (choice D) is an energy molecule, not a hormone. Type 1 diabetes: immune destruction of beta cells → no insulin → hyperglycemia. Type 2 diabetes: cells resistant to insulin → blood glucose stays high.',
     },
     {
       number: 40, part: 'B-1',
@@ -502,6 +580,8 @@ export default {
       topic: 'Genetics',
       correct: 3,
       image: '/images/exams/le-june-2023/q40.png',
+      explanation: 'Meiosis produces four haploid cells, each with half the genetic information (half the chromosomes) of the original diploid parent cell. In humans: diploid germ cell has 46 chromosomes → each sperm has 23 chromosomes (one set, n).',
+      diveDeep: 'Spermatogenesis: (1) diploid spermatogonium (2n=46) → DNA replication → (2) primary spermatocyte (2n=46, but replicated) → meiosis I → (3) two secondary spermatocytes (n=23, each with sister chromatids) → meiosis II → (4) four spermatids (n=23, single chromatids) → maturation → four sperm cells. Each sperm has one complete haploid set of chromosomes = half the genetic information of the diploid germ cell. Choice A (all genetic information) = diploid, like mitosis. Choice B (one-quarter) would occur if meiosis halved TWICE — but only one round of chromosome reduction occurs. Choice C (twice) would make gametes diploid and zygotes tetraploid — impossible for normal reproduction. One-half (choice D) is the definition of haploidy — the purpose of meiosis.',
     },
     {
       number: 41, part: 'B-1',
@@ -514,6 +594,8 @@ export default {
       ],
       topic: 'General',
       correct: 0,
+      explanation: 'To observe cell division (mitosis), which indicates growth, the student needs a higher magnification to see individual cells and their chromosomes clearly. Lower magnification shows more cells but insufficient detail to identify mitotic figures.',
+      diveDeep: 'Root tip growth occurs by cell division (mitosis) in the apical meristem. To observe mitosis, you need to see: condensed chromosomes (prophase), aligned chromosomes (metaphase), separating chromosomes (anaphase), or forming new nuclei (telophase). This requires high magnification (400× or higher with a compound microscope). Lower magnification (choice B) would show the general root structure but not individual dividing cells clearly enough. Adding stain might help visualize chromosomes (choice C has the right idea about staining but wrong magnification direction — and the stain is already on the slide, presumably). Salt solution (choice D) would cause plasmolysis (water out of cells), not help observe division. Students should know: high magnification for detail (organelles, chromosomes, cell division); low magnification for overview/scanning.',
     },
     {
       number: 42, part: 'B-1',
@@ -526,6 +608,8 @@ export default {
       ],
       topic: 'General',
       correct: 3,
+      explanation: 'A testable hypothesis must be specific, measurable, and falsifiable. "Bacterial growth will rapidly increase as temperature increases" predicts a specific, measurable outcome (growth rate) in response to a specific, controllable variable (temperature) — it can be tested by growing bacteria at different temperatures.',
+      diveDeep: 'A good scientific hypothesis is: (1) testable — can be supported or refuted by evidence; (2) falsifiable — it is possible to prove it wrong; (3) specific — identifies variables clearly; (4) based on prior knowledge. Choice A is not testable — "happiness" is subjective and cannot be measured objectively, and the relationship between tail-wag count and happiness cannot be verified. Choice B is a question, not a hypothesis — it is the starting point for forming a hypothesis. Choice C is not testable — plants do not experience "fear" (no nervous system); this is anthropomorphism. Choice D is testable: grow bacteria at different temperatures, measure colony size or turbidity → falsifiable (could find growth decreases or stays constant). Students should always check if a hypothesis can be tested with a controlled experiment and measured objectively.',
     },
     {
       number: 43, part: 'B-1',
@@ -538,6 +622,8 @@ export default {
       ],
       topic: 'General',
       correct: 0,
+      explanation: 'Reducing deforestation preserves existing forests (carbon sinks that absorb CO₂ through photosynthesis) and prevents carbon release from burning/decomposing trees. Both effects reduce atmospheric CO₂ levels, mitigating climate change.',
+      diveDeep: 'Forests are crucial carbon sinks: trees absorb CO₂ during photosynthesis and store carbon in wood, roots, leaves, and soil. Preventing deforestation: (1) keeps carbon stored in trees instead of releasing it as CO₂ when trees are burned or decompose; (2) maintains photosynthetic capacity for ongoing CO₂ absorption; (3) reduces greenhouse gas emissions. The Amazon alone stores an estimated 150–200 billion tons of carbon. Choice B (more land for agriculture) is actually the primary DRIVER of deforestation — reducing deforestation means less agricultural land, not more. Choice C (less firewood) is a minor concern and not a global benefit. Choice D (more construction sites) is the opposite — preserving forests means less land for development. Students should connect forest preservation to climate change mitigation through carbon cycle understanding.',
     },
   ],
 }

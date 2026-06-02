@@ -2,6 +2,7 @@ import React, { useState, useCallback, useRef, useEffect } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView,
   TextInput, StyleSheet, Animated, KeyboardAvoidingView, Platform,
+  useWindowDimensions,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
@@ -9,9 +10,95 @@ import { useAuthContext } from '../context/AuthContext'
 import { useXP } from '../hooks/useXP'
 import { usePetContext } from '../context/PetContext'
 import { useFocusSession, SUBJECT_CHIPS, SOUND_OPTIONS } from '../hooks/useFocusSession'
+
+// ── Background scenes (Study Bunny-style) ─────────────────────────────────────
+const BACKGROUNDS = [
+  { id: 'sky',     emoji: '☀️', label: 'Sunny',   top: '#FEF3C7', bottom: '#FDE68A', accent: '#F59E0B' },
+  { id: 'night',   emoji: '🌙', label: 'Night',   top: '#1E1B4B', bottom: '#312E81', accent: '#818CF8' },
+  { id: 'forest',  emoji: '🌿', label: 'Forest',  top: '#D1FAE5', bottom: '#6EE7B7', accent: '#10B981' },
+  { id: 'ocean',   emoji: '🌊', label: 'Ocean',   top: '#DBEAFE', bottom: '#93C5FD', accent: '#3B82F6' },
+  { id: 'sunset',  emoji: '🌅', label: 'Sunset',  top: '#FEE2E2', bottom: '#FDBA74', accent: '#EF4444' },
+  { id: 'space',   emoji: '🚀', label: 'Space',   top: '#0F172A', bottom: '#1E293B', accent: '#6366F1' },
+]
 import FocusTimerRing from '../components/FocusTimerRing'
 import StudyBuddyCompanion from '../components/StudyBuddyCompanion'
 import { T, cardShadow } from '../styles/duo'
+
+// ── BigPet: large centered pet with bounce + speech bubble ───────────────────
+function BigPet({ pet, message, onPress }) {
+  const { C } = useTheme()
+  const config = require('../data/petConfig').PETS.find((p) => p.id === pet?.petType)
+  const bounceY  = useRef(new Animated.Value(0)).current
+  const scaleAnim = useRef(new Animated.Value(1)).current
+  const [bubble, setBubble] = useState(null)
+  const bubbleOpacity = useRef(new Animated.Value(0)).current
+
+  useEffect(() => {
+    const float = Animated.loop(Animated.sequence([
+      Animated.timing(bounceY, { toValue: -8, duration: 1600, useNativeDriver: true }),
+      Animated.timing(bounceY, { toValue: 0,  duration: 1600, useNativeDriver: true }),
+    ]))
+    float.start()
+    return () => float.stop()
+  }, [])
+
+  useEffect(() => {
+    if (!message) return
+    setBubble(message)
+    bubbleOpacity.setValue(0)
+    Animated.sequence([
+      Animated.timing(bubbleOpacity, { toValue: 1, duration: 250, useNativeDriver: true }),
+      Animated.delay(2800),
+      Animated.timing(bubbleOpacity, { toValue: 0, duration: 350, useNativeDriver: true }),
+    ]).start(() => setBubble(null))
+  }, [message])
+
+  if (!config) return null
+
+  const accessories = pet.accessories ?? []
+  const hat = accessories.includes('graduationCap') ? '🎓'
+            : accessories.includes('wizardHat')     ? '🧙'
+            : accessories.includes('cowboyHat')     ? '🤠'
+            : accessories.includes('crown')         ? '👑' : null
+
+  return (
+    <View style={{ alignItems: 'center' }}>
+      {bubble && (
+        <Animated.View style={{
+          opacity: bubbleOpacity,
+          backgroundColor: 'rgba(255,255,255,0.92)',
+          borderRadius: 16,
+          paddingHorizontal: 16,
+          paddingVertical: 10,
+          marginBottom: 10,
+          maxWidth: 220,
+          shadowColor: '#000',
+          shadowOffset: { width: 0, height: 2 },
+          shadowOpacity: 0.12,
+          shadowRadius: 6,
+          elevation: 4,
+        }}>
+          <Text style={{ fontSize: 14, fontWeight: '700', color: '#1f2937', textAlign: 'center' }}>{bubble}</Text>
+        </Animated.View>
+      )}
+      <TouchableOpacity activeOpacity={0.85} onPress={onPress}>
+        <Animated.View style={{
+          transform: [{ translateY: bounceY }, { scale: scaleAnim }],
+          alignItems: 'center',
+          justifyContent: 'center',
+          width: 110,
+          height: 110,
+        }}>
+          {hat && <Text style={{ position: 'absolute', top: -8, left: 18, fontSize: 28, zIndex: 2 }}>{hat}</Text>}
+          <Text style={{ fontSize: 88 }}>{config.emoji}</Text>
+          {accessories.includes('sunglasses') && (
+            <Text style={{ position: 'absolute', top: 22, left: 22, fontSize: 22 }}>🕶️</Text>
+          )}
+        </Animated.View>
+      </TouchableOpacity>
+    </View>
+  )
+}
 
 export default function FocusScreen({ navigation }) {
   const { C } = useTheme()
@@ -19,11 +106,13 @@ export default function FocusScreen({ navigation }) {
   const uid = user?.uid
   const { earnXP } = useXP(uid)
   const { triggerReaction, studyBoost, pet } = usePetContext()
+  const { width: screenWidth } = useWindowDimensions()
 
   const [buddyMessage, setBuddyMessage] = useState(null)
   const [todoInput, setTodoInput]       = useState('')
   const [customSubject, setCustomSubject] = useState('')
   const [showCustomInput, setShowCustomInput] = useState(false)
+  const [background, setBackground] = useState(BACKGROUNDS[0])
 
   const handlePomodoroComplete = useCallback((count) => {
     triggerReaction('happy_dance')
@@ -33,7 +122,7 @@ export default function FocusScreen({ navigation }) {
   }, [triggerReaction, studyBoost])
 
   const session = useFocusSession(uid, earnXP, handlePomodoroComplete)
-  const { phase, secondsLeft, progress, pomodoroCount, sessionXP,
+  const { phase, secondsLeft, progress, pomodoroCount, sessionXP, partialMinutes,
           preset, setPreset, subject, setSubject, sound, setSound,
           todos, addTodo, toggleTodo,
           start, pause, resume, skip, stop, reset,
@@ -94,10 +183,18 @@ export default function FocusScreen({ navigation }) {
   if (isDone) {
     const doneTodos    = todos.filter((t) => t.done).length
     const totalTodos   = todos.length
-    const displayMin   = pomodoroCount * preset.study
+    const displayMin   = pomodoroCount * preset.study + partialMinutes
 
     return (
-      <SafeAreaView style={s.safe} edges={["bottom"]}>
+      <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+        <TouchableOpacity
+          style={[s.closeBtn, { alignSelf: 'flex-end', margin: 16, backgroundColor: C.surface2 }]}
+          onPress={() => navigation.goBack()}
+          activeOpacity={0.7}
+          hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+        >
+          <Text style={[s.closeBtnText, { color: C.textMuted }]}>✕</Text>
+        </TouchableOpacity>
         <ScrollView contentContainerStyle={s.doneScroll} showsVerticalScrollIndicator={false}>
           <Text style={s.doneEmoji}>🎉</Text>
           <Text style={[T.h1, { color: C.text, textAlign: 'center' }]}>Great session!</Text>
@@ -113,10 +210,22 @@ export default function FocusScreen({ navigation }) {
               <Text style={s.doneStatEmoji}>⏱</Text>
               <Text style={[s.doneStatVal, { color: C.text }]}>{displayMin} min</Text>
             </View>
-            <View style={[s.doneStat, { backgroundColor: C.surface2 }]}>
-              <Text style={s.doneStatEmoji}>🍅</Text>
-              <Text style={[s.doneStatVal, { color: C.text }]}>×{pomodoroCount}</Text>
-            </View>
+            {pomodoroCount > 0 && (
+              <View style={[s.doneStat, { backgroundColor: C.surface2 }]}>
+                <Text style={s.doneStatEmoji}>🍅</Text>
+                <Text style={[s.doneStatVal, { color: C.text }]}>×{pomodoroCount}</Text>
+                {partialMinutes > 0 && (
+                  <Text style={[s.doneStatSub, { color: C.textMuted }]}>+{partialMinutes}m</Text>
+                )}
+              </View>
+            )}
+            {pomodoroCount === 0 && partialMinutes > 0 && (
+              <View style={[s.doneStat, { backgroundColor: C.warnBg }]}>
+                <Text style={s.doneStatEmoji}>⏳</Text>
+                <Text style={[s.doneStatVal, { color: C.warn }]}>{partialMinutes}m</Text>
+                <Text style={[s.doneStatSub, { color: C.warn }]}>partial</Text>
+              </View>
+            )}
             <View style={[s.doneStat, { backgroundColor: C.warnBg }]}>
               <Text style={s.doneStatEmoji}>⭐</Text>
               <Text style={[s.doneStatVal, { color: C.warn }]}>+{sessionXP}</Text>
@@ -160,102 +269,131 @@ export default function FocusScreen({ navigation }) {
 
   // ── ACTIVE screen (focus / break / paused) ─────────────────────────────────
   if (isActive) {
+    const bg = background
+    const isBreak = phase === 'break'
+    const textColor = (bg.id === 'night' || bg.id === 'space') ? '#fff' : '#1f2937'
+    const mutedColor = (bg.id === 'night' || bg.id === 'space') ? 'rgba(255,255,255,0.6)' : 'rgba(0,0,0,0.45)'
+    const ringColor = bg.accent
+
     return (
-      <SafeAreaView style={s.safe} edges={["bottom"]}>
-        <View style={s.activeHeader}>
-          <View style={{ flex: 1 }}>
-            {subject ? <Text style={[s.activeSubject, { color: C.textMuted }]}>{subject}</Text> : null}
-            <Text style={[s.pomodoroCount, { color: C.text }]}>
-              {'🍅'.repeat(pomodoroCount)} {pomodoroCount > 0 ? '' : ''}
-            </Text>
+      <View style={{ flex: 1, backgroundColor: bg.top }}>
+        {/* Gradient-style background — two-tone vertical split */}
+        <View style={StyleSheet.absoluteFill}>
+          <View style={{ flex: 1, backgroundColor: bg.top }} />
+          <View style={{ flex: 1, backgroundColor: bg.bottom }} />
+        </View>
+
+        <SafeAreaView style={{ flex: 1 }} edges={['top', 'bottom']}>
+          {/* Top bar */}
+          <View style={s.activeHeader}>
+            <TouchableOpacity
+              style={[s.stopBtn, { backgroundColor: 'rgba(0,0,0,0.15)' }]}
+              onPress={() => navigation.goBack()}
+              activeOpacity={0.8}
+              hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+            >
+              <Text style={[s.stopBtnText, { color: textColor }]}>✕</Text>
+            </TouchableOpacity>
+            <View style={{ flex: 1, alignItems: 'center' }}>
+              {subject ? (
+                <Text style={[s.activeSubject, { color: mutedColor }]}>{subject}</Text>
+              ) : null}
+              {pomodoroCount > 0 && (
+                <Text style={{ fontSize: 18, marginTop: 2 }}>{'🍅'.repeat(Math.min(pomodoroCount, 8))}</Text>
+              )}
+            </View>
+            <TouchableOpacity
+              style={[s.stopBtn, { backgroundColor: 'rgba(0,0,0,0.15)' }]}
+              onPress={stop}
+              activeOpacity={0.8}
+            >
+              <Text style={[s.stopBtnText, { color: textColor }]}>■ Stop</Text>
+            </TouchableOpacity>
           </View>
-          <TouchableOpacity
-            style={[s.stopBtn, { backgroundColor: C.surface2 }]}
-            onPress={stop}
-            activeOpacity={0.8}
-          >
-            <Text style={[s.stopBtnText, { color: C.text }]}>■ Stop</Text>
-          </TouchableOpacity>
-        </View>
 
-        {/* Ring */}
-        <View style={s.ringArea}>
-          <FocusTimerRing
-            progress={progress}
-            secondsLeft={secondsLeft}
-            phase={phase}
-            size={220}
-          />
-        </View>
-
-        {/* Pause / Skip controls */}
-        <View style={s.timerControls}>
-          {phase === 'paused' ? (
-            <TouchableOpacity
-              style={[s.controlBtn, { backgroundColor: C.brand }]}
-              onPress={resume}
-              activeOpacity={0.85}
-            >
-              <Text style={s.controlBtnText}>▶ Resume</Text>
-            </TouchableOpacity>
-          ) : (
-            <TouchableOpacity
-              style={[s.controlBtn, { backgroundColor: C.surface2 }]}
-              onPress={pause}
-              activeOpacity={0.85}
-            >
-              <Text style={[s.controlBtnText, { color: C.text }]}>⏸ Pause</Text>
-            </TouchableOpacity>
+          {/* Big centered pet */}
+          {pet?.chosen && (
+            <View style={s.bigPetArea}>
+              <BigPet pet={pet} message={buddyMessage} onPress={() => setBuddyMessage(null)} />
+            </View>
           )}
-          <TouchableOpacity
-            style={[s.controlBtn, { backgroundColor: C.surface2 }]}
-            onPress={skip}
-            activeOpacity={0.85}
-          >
-            <Text style={[s.controlBtnText, { color: C.textMuted }]}>
-              {phase === 'break' ? '⏭ Skip break' : '⏭ Skip'}
-            </Text>
-          </TouchableOpacity>
-        </View>
 
-        {/* Tasks during session */}
-        {todos.length > 0 && (
-          <ScrollView style={s.activeTodos} showsVerticalScrollIndicator={false}>
-            <Text style={[s.sectionLabel, { color: C.textMuted }]}>Tasks</Text>
-            {todos.map((t) => (
+          {/* Timer ring */}
+          <View style={s.ringArea}>
+            <FocusTimerRing
+              progress={progress}
+              secondsLeft={secondsLeft}
+              phase={phase}
+              size={Math.min(screenWidth * 0.58, 240)}
+              color={ringColor}
+              textColor={textColor}
+            />
+          </View>
+
+          {/* Controls */}
+          <View style={s.timerControls}>
+            {phase === 'paused' ? (
               <TouchableOpacity
-                key={t.id}
-                style={s.todoRow}
-                onPress={() => toggleTodo(t.id)}
-                activeOpacity={0.7}
+                style={[s.controlBtn, { backgroundColor: bg.accent }]}
+                onPress={resume}
+                activeOpacity={0.85}
               >
-                <View style={[s.todoCheck, { borderColor: t.done ? C.correct : C.border, backgroundColor: t.done ? C.correct : 'transparent' }]}>
-                  {t.done && <Text style={{ color: '#fff', fontSize: 11, fontWeight: '700' }}>✓</Text>}
-                </View>
-                <Text style={[s.todoText, { color: t.done ? C.textMuted : C.text, textDecorationLine: t.done ? 'line-through' : 'none' }]}>
-                  {t.text}
-                </Text>
+                <Text style={[s.controlBtnText, { color: '#fff' }]}>▶ Resume</Text>
               </TouchableOpacity>
-            ))}
-          </ScrollView>
-        )}
+            ) : (
+              <TouchableOpacity
+                style={[s.controlBtn, { backgroundColor: 'rgba(0,0,0,0.15)' }]}
+                onPress={pause}
+                activeOpacity={0.85}
+              >
+                <Text style={[s.controlBtnText, { color: textColor }]}>⏸ Pause</Text>
+              </TouchableOpacity>
+            )}
+            <TouchableOpacity
+              style={[s.controlBtn, { backgroundColor: 'rgba(0,0,0,0.12)' }]}
+              onPress={skip}
+              activeOpacity={0.85}
+            >
+              <Text style={[s.controlBtnText, { color: mutedColor }]}>
+                {isBreak ? '⏭ Skip break' : '⏭ Skip'}
+              </Text>
+            </TouchableOpacity>
+          </View>
 
-        {/* Pet */}
-        {pet?.chosen && (
-          <StudyBuddyCompanion
-            petType={pet.petType}
-            petName={pet.name}
-            accessories={pet.accessories ?? []}
-            message={buddyMessage}
-          />
-        )}
-      </SafeAreaView>
+          {/* Tasks */}
+          {todos.length > 0 && (
+            <ScrollView style={s.activeTodos} showsVerticalScrollIndicator={false}>
+              {todos.map((t) => (
+                <TouchableOpacity
+                  key={t.id}
+                  style={s.todoRow}
+                  onPress={() => toggleTodo(t.id)}
+                  activeOpacity={0.7}
+                >
+                  <View style={[s.todoCheck, {
+                    borderColor: t.done ? bg.accent : 'rgba(255,255,255,0.5)',
+                    backgroundColor: t.done ? bg.accent : 'transparent',
+                  }]}>
+                    {t.done && <Text style={{ color: '#fff', fontSize: 11, fontWeight: '700' }}>✓</Text>}
+                  </View>
+                  <Text style={[s.todoText, {
+                    color: t.done ? mutedColor : textColor,
+                    textDecorationLine: t.done ? 'line-through' : 'none',
+                  }]}>
+                    {t.text}
+                  </Text>
+                </TouchableOpacity>
+              ))}
+            </ScrollView>
+          )}
+        </SafeAreaView>
+      </View>
     )
   }
 
   // ── IDLE setup screen ──────────────────────────────────────────────────────
   return (
-    <SafeAreaView style={s.safe} edges={["bottom"]}>
+    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
       <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={{ flex: 1 }}>
         <ScrollView
           contentContainerStyle={s.setupScroll}
@@ -265,9 +403,19 @@ export default function FocusScreen({ navigation }) {
           {/* Header */}
           <View style={s.setupHeader}>
             <Text style={[T.h1, { color: C.text }]}>🎯 Focus Mode</Text>
-            <TouchableOpacity onPress={() => navigation.navigate('FocusHistory', { history })} activeOpacity={0.7}>
-              <Text style={[T.small, { color: C.brand }]}>History</Text>
-            </TouchableOpacity>
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+              <TouchableOpacity onPress={() => navigation.navigate('FocusHistory', { history })} activeOpacity={0.7}>
+                <Text style={[T.small, { color: C.brand }]}>History</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={[s.closeBtn, { backgroundColor: C.surface2 }]}
+                onPress={() => navigation.goBack()}
+                activeOpacity={0.7}
+                hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+              >
+                <Text style={[s.closeBtnText, { color: C.textMuted }]}>✕</Text>
+              </TouchableOpacity>
+            </View>
           </View>
 
           {/* Subject */}
@@ -381,9 +529,28 @@ export default function FocusScreen({ navigation }) {
             })}
           </View>
 
+          {/* Background */}
+          <Text style={[s.sectionLabel, { color: C.textMuted }]}>Background</Text>
+          <View style={s.bgRow}>
+            {BACKGROUNDS.map((bg) => (
+              <TouchableOpacity
+                key={bg.id}
+                onPress={() => setBackground(bg)}
+                activeOpacity={0.8}
+                style={[
+                  s.bgSwatch,
+                  { backgroundColor: bg.bottom },
+                  background.id === bg.id && { borderColor: C.text, borderWidth: 3 },
+                ]}
+              >
+                <Text style={{ fontSize: 18 }}>{bg.emoji}</Text>
+              </TouchableOpacity>
+            ))}
+          </View>
+
           {/* Start button */}
           <TouchableOpacity
-            style={[s.startBtn, { backgroundColor: C.brand }]}
+            style={[s.startBtn, { backgroundColor: background.accent }]}
             onPress={start}
             activeOpacity={0.85}
           >
@@ -412,6 +579,8 @@ export default function FocusScreen({ navigation }) {
 function makeStyles(C) {
   return StyleSheet.create({
     safe:      { flex: 1, backgroundColor: C.bg },
+    closeBtn:      { width: 32, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
+    closeBtnText:  { fontSize: 16, fontWeight: '700' },
 
     // Setup
     setupScroll:  { paddingHorizontal: 20, paddingTop: 16 },
@@ -490,40 +659,56 @@ function makeStyles(C) {
     startBtnText: { color: '#fff', fontSize: 17, fontWeight: '800', letterSpacing: 0.3 },
     historyLink:  { alignItems: 'center', paddingTop: 16 },
 
-    // Active
+    // Active session
     activeHeader: {
-      flexDirection:    'row',
-      alignItems:       'center',
+      flexDirection:     'row',
+      alignItems:        'center',
       paddingHorizontal: 20,
-      paddingTop:        16,
-      paddingBottom:     8,
+      paddingTop:        12,
+      paddingBottom:     4,
     },
-    activeSubject:  { fontSize: 15, fontWeight: '600' },
-    pomodoroCount:  { fontSize: 22, marginTop: 2 },
+    activeSubject:  { fontSize: 15, fontWeight: '700' },
     stopBtn: {
-      borderRadius:     12,
+      borderRadius:      12,
       paddingHorizontal: 16,
-      paddingVertical:   10,
+      paddingVertical:   8,
     },
     stopBtnText: { fontSize: 14, fontWeight: '700' },
-    ringArea: { alignItems: 'center', justifyContent: 'center', flex: 1, paddingVertical: 16 },
+    bigPetArea: {
+      alignItems:     'center',
+      justifyContent: 'flex-end',
+      paddingTop:      8,
+      paddingBottom:   4,
+    },
+    ringArea: { alignItems: 'center', justifyContent: 'center', paddingVertical: 8 },
     timerControls: {
-      flexDirection:    'row',
-      gap:              12,
+      flexDirection:     'row',
+      gap:               12,
       paddingHorizontal: 20,
-      paddingBottom:    16,
+      paddingVertical:   12,
     },
     controlBtn: {
-      flex:            1,
-      borderRadius:    14,
-      paddingVertical:  13,
-      alignItems:      'center',
+      flex:           1,
+      borderRadius:   14,
+      paddingVertical: 13,
+      alignItems:     'center',
     },
-    controlBtnText: { fontSize: 14, fontWeight: '700', color: '#fff' },
+    controlBtnText: { fontSize: 14, fontWeight: '700' },
     activeTodos: {
-      maxHeight:        200,
+      maxHeight:         160,
       paddingHorizontal: 20,
-      marginBottom:     16,
+      marginBottom:      8,
+    },
+    // Background picker
+    bgRow:   { flexDirection: 'row', gap: 10, flexWrap: 'wrap' },
+    bgSwatch: {
+      width:          48,
+      height:         48,
+      borderRadius:   14,
+      alignItems:     'center',
+      justifyContent: 'center',
+      borderWidth:    2,
+      borderColor:    'transparent',
     },
 
     subjectBadge: {
@@ -550,6 +735,7 @@ function makeStyles(C) {
     },
     doneStatEmoji: { fontSize: 22 },
     doneStatVal:   { fontSize: 20, fontWeight: '800' },
+    doneStatSub:   { fontSize: 11, fontWeight: '600', marginTop: 1 },
     primaryBtn: {
       width:          '100%',
       borderRadius:    16,

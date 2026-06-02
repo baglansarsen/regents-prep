@@ -11,7 +11,7 @@
     "deploy:mobile": "npx firebase-tools@latest deploy --only hosting:mobile-web",
     "deploy:web": "npx firebase-tools@latest deploy --only hosting:regents",
     "deploy:all": "npx firebase-tools@latest deploy --only hosting",
-    "deploy": "npx firebase-tools@latest deploy --only hosting:regents"
+    "deploy": "npm run --prefix chromebook build && npx firebase-tools@latest deploy --only hosting:regents"
   },
   "dependencies": {
     "firebase": "^12.13.0",

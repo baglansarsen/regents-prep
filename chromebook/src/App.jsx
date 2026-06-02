@@ -3,7 +3,6 @@ import { AuthProvider, useAuth } from './hooks/useAuth'
 import { ThemeProvider, useTheme } from './hooks/useTheme'
 import { useXP } from './hooks/useXP'
 import { useDailyStreak } from './hooks/useDailyStreak'
-import { useLives } from './hooks/useLives'
 import { usePet } from './hooks/usePet'
 import { useMistakes } from './hooks/useMistakes'
 import { useSchool } from './hooks/useSchool'
@@ -36,72 +35,17 @@ import PetPickerScreen from './screens/PetPickerScreen'
 import BattleScreen from './screens/BattleScreen'
 import BattleQuizScreen from './screens/BattleQuizScreen'
 import BattleResultsScreen from './screens/BattleResultsScreen'
+import TeacherDashboardScreen from './screens/TeacherDashboardScreen'
+import { db } from './firebase'
+import { collection, addDoc } from 'firebase/firestore'
 
 function MainLayout() {
   const { user, loading: authLoading, signInWithGoogle, signInWithEmail, signUpWithEmail, signInAsGuest, logOut } = useAuth()
   const { isDark, mode, themeChosen, toggleTheme, pickTheme } = useTheme()
 
-  const [screen, setScreen] = useState('home') // 'home' | 'exams' | 'mistakes' | 'analytics' | 'shop' | 'profile' | 'petPicker' | 'quiz' | 'examActive' | 'results'
-  const [subject, setSubjectRaw] = useState(() => localStorage.getItem('regents_subject') || 'living-environment')
-  
-  // Quiz parameters
-  const [quizQuestions, setQuizQuestions] = useState([])
-  const [quizResults, setQuizResults] = useState(null)
-  const [activeExam, setActiveExam] = useState(null)
-
-  // Battle Arena parameters
-  const [battleOpponent, setBattleOpponent] = useState(null)
-  const [battleQuestions, setBattleQuestions] = useState([])
-  const [battleResults, setBattleResults] = useState(null)
-  const [battleReward, setBattleReward] = useState(null)
-
-  // Gamification & XP Boost States
-  const [doubleXPEndTime, setDoubleXPEndTime] = useState(() => {
-    return Number(localStorage.getItem('@double_xp_end') || '0')
-  })
-  const [isMistakeQuiz, setIsMistakeQuiz] = useState(false)
-
-  // Sync and tick Double XP countdown
-  useEffect(() => {
-    const timer = setInterval(() => {
-      const end = Number(localStorage.getItem('@double_xp_end') || '0')
-      if (end !== doubleXPEndTime) {
-        setDoubleXPEndTime(end)
-      }
-    }, 1000)
-    
-    const syncHandler = () => {
-      setDoubleXPEndTime(Number(localStorage.getItem('@double_xp_end') || '0'))
-    }
-    window.addEventListener('storage', syncHandler)
-    
-    return () => {
-      clearInterval(timer)
-      window.removeEventListener('storage', syncHandler)
-    }
-  }, [doubleXPEndTime])
-
-  const setSubject = useCallback((s) => {
-    localStorage.setItem('regents_subject', s)
-    setSubjectRaw(s)
-  }, [])
-
-  const subjectDataMap = {
-    'living-environment': livingEnvData,
-    'earth-science': earthScienceData,
-    'chemistry': chemistryData,
-    'physics': physicsData,
-    'algebra-1': algebra1Data,
-    'algebra-2': algebra2Data,
-    'geometry': geometryData,
-  }
-
-  const subjectData = subjectDataMap[subject] || livingEnvData
-
   // User States & hooks
   const { xp, earnXP, spendXP, level } = useXP(user?.uid)
   const { streak, studiedToday, weekDays, markStudied, hasFreeze, buyFreeze } = useDailyStreak(user?.uid)
-  const { lives, maxLives, loseLife, refillLives, addLife } = useLives(user?.uid)
   const { mistakes, mistakeCount, saveMistakes, removeMistakes, clearMistakes } = useMistakes()
   const { school, saveSchool, loading: schoolLoading } = useSchool(user)
   const { history, saveResult } = useProgress(user?.uid)
@@ -145,10 +89,196 @@ function MainLayout() {
     updateQuestProgress
   } = usePet(user?.uid)
 
-  // Auto redirect to onboarding if school not set yet
+  const [screen, setScreen] = useState('home') // 'home' | 'exams' | 'mistakes' | 'analytics' | 'shop' | 'profile' | 'petPicker' | 'quiz' | 'examActive' | 'results'
+  const [subject, setSubjectRaw] = useState(() => localStorage.getItem('regents_subject') || 'living-environment')
+  
+  // Quiz parameters
+  const [quizQuestions, setQuizQuestions] = useState([])
+  const [quizResults, setQuizResults] = useState(null)
+  const [activeExam, setActiveExam] = useState(null)
+
+  // Battle Arena parameters
+  const [battleOpponent, setBattleOpponent] = useState(null)
+  const [battleQuestions, setBattleQuestions] = useState([])
+  const [battleResults, setBattleResults] = useState(null)
+  const [battleReward, setBattleReward] = useState(null)
+
+  // Gamification & XP Boost States
+  const [doubleXPEndTime, setDoubleXPEndTime] = useState(() => {
+    return Number(localStorage.getItem('@double_xp_end') || '0')
+  })
+  const [isMistakeQuiz, setIsMistakeQuiz] = useState(false)
+
+  // Global settings states
+  const [soundEnabled, setSoundEnabled] = useState(() => {
+    return localStorage.getItem('@sound_effects_enabled') !== 'false'
+  })
+  const [teacherMode, setTeacherMode] = useState(() => {
+    return localStorage.getItem('@is_teacher_mode') === 'true'
+  })
+
+  // Level Up Confetti visual states
+  const [showLevelUpModal, setShowLevelUpModal] = useState(false)
+  const [celebratedLevel, setCelebratedLevel] = useState(null)
+
+  // 🎇 Live Level-Up Monitor with domestic falling confetti!
+  useEffect(() => {
+    if (level && level.level) {
+      if (celebratedLevel === null) {
+        setCelebratedLevel(level.level)
+        return
+      }
+      if (level.level > celebratedLevel) {
+        setShowLevelUpModal(true)
+        setCelebratedLevel(level.level)
+        runDOMConfetti()
+      }
+    }
+  }, [level, celebratedLevel])
+
+  function runDOMConfetti() {
+    const container = document.createElement('div')
+    container.className = 'confetti-canvas-overlay'
+    document.body.appendChild(container)
+
+    const colors = ['#58CC02', '#1CB0F6', '#CE82FF', '#FFC800', '#FF4B4B']
+    for (let i = 0; i < 75; i++) {
+      const p = document.createElement('div')
+      p.style.position = 'absolute'
+      p.style.width = Math.random() * 12 + 6 + 'px'
+      p.style.height = Math.random() * 8 + 4 + 'px'
+      p.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)]
+      p.style.left = Math.random() * 100 + 'vw'
+      p.style.top = '-10px'
+      p.style.opacity = Math.random() * 0.7 + 0.3
+      p.style.transform = `rotate(${Math.random() * 360}deg)`
+      container.appendChild(p)
+
+      const speed = Math.random() * 4 + 3
+      const drift = Math.random() * driftFactor()
+      let posY = -10
+      let posX = parseFloat(p.style.left)
+
+      function driftFactor() {
+        return Math.random() * 2 - 1
+      }
+
+      const interval = setInterval(() => {
+        posY += speed
+        posX += drift
+        p.style.top = posY + 'px'
+        p.style.left = posX + 'vw'
+
+        if (posY > window.innerHeight) {
+          clearInterval(interval)
+          p.remove()
+        }
+      }, 16)
+    }
+
+    setTimeout(() => {
+      container.remove()
+    }, 4500)
+  }
+
+  // Sync and tick Double XP countdown
+  useEffect(() => {
+    const timer = setInterval(() => {
+      const end = Number(localStorage.getItem('@double_xp_end') || '0')
+      if (end !== doubleXPEndTime) {
+        setDoubleXPEndTime(end)
+      }
+    }, 1000)
+    
+    const syncHandler = () => {
+      setDoubleXPEndTime(Number(localStorage.getItem('@double_xp_end') || '0'))
+    }
+    window.addEventListener('storage', syncHandler)
+    
+    return () => {
+      clearInterval(timer)
+      window.removeEventListener('storage', syncHandler)
+    }
+  }, [doubleXPEndTime])
+
+  const setSubject = useCallback((s) => {
+    localStorage.setItem('regents_subject', s)
+    setSubjectRaw(s)
+  }, [])
+
+  const subjectDataMap = {
+    'living-environment': livingEnvData,
+    'earth-science': earthScienceData,
+    'chemistry': chemistryData,
+    'physics': physicsData,
+    'algebra-1': algebra1Data,
+    'algebra-2': algebra2Data,
+    'geometry': geometryData,
+  }
+
+  const subjectData = subjectDataMap[subject] || livingEnvData
+
+  // 📱 Mr. SeN's Mobile Beta Sign-up States & Handlers
+  const [showBetaPrompt, setShowBetaPrompt] = useState(false)
+  const [betaOption, setBetaOption] = useState('ask') // 'ask' | 'submitting' | 'submitted'
+  const [betaGmail, setBetaGmail] = useState('')
+  const [betaError, setBetaError] = useState(null)
+
+  useEffect(() => {
+    if (xp >= 500 && screen === 'home') {
+      const prompted = localStorage.getItem('@mobile_beta_prompted')
+      if (!prompted) {
+        setShowBetaPrompt(true)
+      }
+    }
+  }, [xp, screen])
+
+  const handleCloseBetaPrompt = () => {
+    localStorage.setItem('@mobile_beta_prompted', 'true')
+    setShowBetaPrompt(false)
+  }
+
+  const handleBetaSubmit = async (e) => {
+    e.preventDefault()
+    if (!betaGmail.trim()) {
+      setBetaError('Please enter a valid Gmail address!')
+      return
+    }
+    if (!betaGmail.toLowerCase().endsWith('@gmail.com')) {
+      setBetaError('Please enter a valid Gmail address (must end with @gmail.com)!')
+      return
+    }
+
+    setBetaOption('submitting')
+    setBetaError(null)
+
+    try {
+      await addDoc(collection(db, 'mobileBetaSignups'), {
+        uid: user?.uid || 'guest',
+        displayName: user?.displayName || 'Guest Student',
+        email: betaGmail.trim(),
+        xp: xp,
+        school: school || 'Independent',
+        timestamp: new Date().toISOString()
+      })
+      setBetaOption('submitted')
+      localStorage.setItem('@mobile_beta_prompted', 'true')
+    } catch (err) {
+      console.error('[Beta Signup] Error:', err)
+      setBetaError('Failed to submit. Please try again!')
+      setBetaOption('ask')
+    }
+  }
+
+  // Auto redirect to onboarding if school not set yet (skip for guest users)
   useEffect(() => {
     if (user && !schoolLoading && !school && screen !== 'onboarding') {
-      setScreen('onboarding')
+      if (user.isAnonymous) {
+        // Guest users skip onboarding — auto-assign Independent
+        saveSchool('Independent')
+      } else {
+        setScreen('onboarding')
+      }
     }
   }, [user, school, schoolLoading, screen])
 
@@ -182,10 +312,6 @@ function MainLayout() {
 
   // Study lesson question pools loader
   function handleStartLesson(topic, lessonIdx, totalLessons) {
-    if (lives <= 0) {
-      alert('You have run out of lives! Refill your hearts using XP or wait for them to regenerate.')
-      return
-    }
     const questions = subjectData.getLessonQuestions 
       ? subjectData.getLessonQuestions(topic, lessonIdx, totalLessons)
       : subjectData.questions?.filter(q => q.topic === topic)?.slice(lessonIdx * 3, (lessonIdx + 1) * 3) || []
@@ -203,10 +329,6 @@ function MainLayout() {
 
   // Study topic challenge loader
   function handleStartChallenge(topic) {
-    if (lives <= 0) {
-      alert('Refill your lives first to begin unit challenges!')
-      return
-    }
     const pools = subjectData.questions?.filter(q => q.topic === topic) || []
     if (!pools.length) {
       alert('Challenge questions could not be loaded.')
@@ -220,10 +342,6 @@ function MainLayout() {
 
   // Mistakes quiz loader
   function handleStartMistakeQuiz() {
-    if (lives <= 0) {
-      alert('Refill your lives to practice mistakes!')
-      return
-    }
     const selected = [...mistakes].slice(0, 5)
     setQuizQuestions(selected)
     setIsMistakeQuiz(true)
@@ -232,10 +350,6 @@ function MainLayout() {
 
   // Past Exam loader
   function handleStartExam(ex) {
-    if (lives <= 0) {
-      alert('Refill your lives to take mock exams!')
-      return
-    }
     setActiveExam(ex)
     setScreen('examActive')
   }
@@ -268,6 +382,8 @@ function MainLayout() {
       )
       if (correctQuestions.length > 0) {
         await removeMistakes(correctQuestions)
+        const current = Number(localStorage.getItem('@achievement_mistakes_resolved') || '0')
+        localStorage.setItem('@achievement_mistakes_resolved', String(current + correctQuestions.length))
       }
     }
 
@@ -304,11 +420,24 @@ function MainLayout() {
     // 1. Calculate XP rewards
     let matchXP = res.score // points scored
     let bonus = 0
-    if (res.outcome === 'win') bonus = 50
-    else if (res.outcome === 'draw') bonus = 20
-    else bonus = 10
     
-    const finalXP = matchXP + bonus
+    // Check if the opponent was the weekly boss
+    const isBoss = battleOpponent?.isBoss
+    
+    if (res.outcome === 'win') {
+      bonus = isBoss ? 150 : 50
+    } else if (res.outcome === 'draw') {
+      bonus = 20
+    } else {
+      bonus = 10
+    }
+    
+    let finalXP = matchXP + bonus
+    if (isBoss && res.outcome === 'win') {
+      finalXP *= 2 // Double XP for conquering the boss!
+      localStorage.setItem('@boss_slayer_unlocked', 'true')
+    }
+
     const freshTotal = await earnXP(finalXP)
     
     // 2. Roll a loot reward if victory
@@ -362,7 +491,7 @@ function MainLayout() {
     // 4. Update stats state and show results
     setBattleResults({ ...res, score: finalXP })
     setScreen('battleResults')
-  }, [user, earnXP, addInventory, pet.chosen, checkAndEvolve, markStudied, updateQuestProgress])
+  }, [user, earnXP, addInventory, pet.chosen, checkAndEvolve, markStudied, updateQuestProgress, battleOpponent])
 
   // Render loading screen if Firebase Auth is initializing
   if (authLoading) {
@@ -423,10 +552,11 @@ function MainLayout() {
     return (
       <QuizScreen
         questions={quizQuestions}
-        loseLife={loseLife}
         updateQuestProgress={updateQuestProgress}
         onFinish={handleQuizFinished}
         onClose={() => setScreen('home')}
+        pet={pet}
+        subject={subject}
       />
     )
   }
@@ -439,6 +569,7 @@ function MainLayout() {
         updateQuestProgress={updateQuestProgress}
         onFinish={handleQuizFinished}
         onClose={() => setScreen('home')}
+        pet={pet}
       />
     )
   }
@@ -465,6 +596,7 @@ function MainLayout() {
         updateQuestProgress={updateQuestProgress}
         onFinish={handleBattleFinished}
         onClose={() => setScreen('battle')}
+        pet={pet}
       />
     )
   }
@@ -526,6 +658,12 @@ function MainLayout() {
             <span className="sidebar-icon">🏆</span> Leaderboard
           </button>
 
+          {teacherMode && (
+            <button className={`sidebar-btn ${screen === 'teacher' ? 'active' : ''}`} onClick={() => setScreen('teacher')}>
+              <span className="sidebar-icon">🏫</span> Teacher View
+            </button>
+          )}
+
           <button className={`sidebar-btn ${screen === 'profile' ? 'active' : ''}`} onClick={() => setScreen('profile')}>
             <span className="sidebar-icon">⚙️</span> Settings
           </button>
@@ -584,37 +722,11 @@ function MainLayout() {
             <div className="stat-badge xp" title="Study experience points">
               ⭐ {xp} XP
             </div>
-
-            <div className="stat-badge lives" title="Hearts (study lives)">
-              ❤️ {lives} lives
-              {lives < maxLives && (
-                <button
-                  onClick={() => {
-                    if (confirm(`Refill all lives for ${maxLives * 60} XP?`)) {
-                      refillLives(spendXP)
-                    }
-                  }}
-                  style={{
-                    marginLeft: '8px',
-                    background: 'var(--wrong)',
-                    color: '#fff',
-                    border: 'none',
-                    borderRadius: '4px',
-                    padding: '2px 6px',
-                    fontSize: '10px',
-                    fontWeight: 900,
-                    cursor: 'pointer'
-                  }}
-                >
-                  Refill
-                </button>
-              )}
-            </div>
           </div>
         </header>
 
         {/* Display Active Screen Panel */}
-        <div style={{ flexGrow: 1, overflowY: 'auto' }}>
+        <div style={{ flex: '1 1 0%', overflowY: 'auto', overflowX: 'hidden', minHeight: 0, WebkitOverflowScrolling: 'touch' }}>
           {screen === 'home' && (
             <HomeScreen
               user={user}
@@ -627,9 +739,6 @@ function MainLayout() {
               weekDays={weekDays}
               xp={xp}
               level={level}
-              lives={lives}
-              maxLives={maxLives}
-              refillLives={refillLives}
               hasFreeze={hasFreeze}
               buyFreeze={buyFreeze}
               pet={pet}
@@ -721,6 +830,9 @@ function MainLayout() {
               leaderboard={leaderboard}
               loading={lbLoading}
               refresh={refreshLb}
+              school={school}
+              friends={friends}
+              setScreen={setScreen}
             />
           )}
 
@@ -735,10 +847,254 @@ function MainLayout() {
               streak={streak}
               toggleTheme={toggleTheme}
               mode={mode}
+              history={history}
+              soundEnabled={soundEnabled}
+              setSoundEnabled={setSoundEnabled}
+              teacherMode={teacherMode}
+              setTeacherMode={setTeacherMode}
+            />
+          )}
+
+          {screen === 'teacher' && (
+            <TeacherDashboardScreen
+              subject={subject}
+              school={school}
             />
           )}
         </div>
       </div>
+
+      {/* 📱 Mr. SeN's Mobile Beta Sign-up Prompt */}
+      {showBetaPrompt && (
+        <div style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          width: '100vw',
+          height: '100vh',
+          backgroundColor: 'rgba(0, 0, 0, 0.6)',
+          backdropFilter: 'blur(8px)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          zIndex: 10000,
+          animation: 'fade-in 0.25s ease'
+        }}>
+          <div className="card-glass" style={{
+            maxWidth: '520px',
+            width: '90%',
+            padding: '36px',
+            borderRadius: '24px',
+            boxShadow: '0 20px 50px rgba(0,0,0,0.3)',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '20px',
+            animation: 'scale-up 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)',
+            border: '2px solid var(--brand)',
+            position: 'relative'
+          }}>
+            {/* Close Button */}
+            <button
+              onClick={handleCloseBetaPrompt}
+              style={{
+                position: 'absolute',
+                top: '20px',
+                right: '20px',
+                background: 'none',
+                border: 'none',
+                fontSize: '24px',
+                color: 'var(--text-muted)',
+                cursor: 'pointer'
+              }}
+            >
+              ✕
+            </button>
+
+            {betaOption === 'submitted' ? (
+              <div style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '16px', padding: '12px 0' }}>
+                <span style={{ fontSize: '72px', animation: 'float 2s ease infinite' }}>🚀</span>
+                <h2 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '24px', color: 'var(--brand-dark)' }}>
+                  You're on the list!
+                </h2>
+                <p style={{ color: 'var(--text-muted)', fontSize: '15px', lineHeight: '22px' }}>
+                  Awesome! Mr. SeN will add you to the exclusive early access mobile beta. Keep practicing on your Chromebook to unlock more surprises!
+                </p>
+                <button
+                  className="btn-duo btn-duo-correct"
+                  onClick={() => setShowBetaPrompt(false)}
+                  style={{ width: '100%', padding: '14px', marginTop: '10px' }}
+                >
+                  Awesome, let's study! 🎯
+                </button>
+              </div>
+            ) : (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                  <span style={{ fontSize: '48px', animation: 'pulse 1.5s infinite' }}>📱</span>
+                  <div>
+                    <span style={{
+                      fontSize: '11px',
+                      fontWeight: 900,
+                      textTransform: 'uppercase',
+                      color: 'var(--brand-dark)',
+                      letterSpacing: '1.2px',
+                      backgroundColor: 'var(--brand-bg)',
+                      padding: '4px 10px',
+                      borderRadius: '20px'
+                    }}>
+                      Milestone Unlocked!
+                    </span>
+                    <h2 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '22px', marginTop: '4px' }}>
+                      Try the Mobile App early!
+                    </h2>
+                  </div>
+                </div>
+
+                <p style={{ color: 'var(--text-muted)', fontSize: '14px', lineHeight: '22px' }}>
+                  Congrats on crossing <strong>{xp} XP</strong>! 🎉 To reward your consistency, would you like early access to try out the **mobile version** of this app?
+                </p>
+
+                <p style={{
+                  fontSize: '13.5px',
+                  lineHeight: '20px',
+                  backgroundColor: 'var(--surface-2)',
+                  padding: '12px 16px',
+                  borderRadius: '12px',
+                  borderLeft: '4px solid var(--brand)',
+                  color: 'var(--text)'
+                }}>
+                  💡 <strong>Notice:</strong> This entire application is designed and built with pride by your teacher, <strong>Mr. SeN</strong>, to support your learning!
+                </p>
+
+                <form onSubmit={handleBetaSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginTop: '6px' }}>
+                  <label style={{ fontSize: '13px', fontWeight: 800, color: 'var(--text-muted)' }}>
+                    Enter your Gmail address to receive the beta invite:
+                  </label>
+                  <input
+                    type="email"
+                    placeholder="e.g. classmate@gmail.com"
+                    value={betaGmail}
+                    onChange={(e) => setBetaGmail(e.target.value)}
+                    disabled={betaOption === 'submitting'}
+                    style={{
+                      width: '100%',
+                      padding: '12px 16px',
+                      borderRadius: '12px',
+                      border: '2px solid var(--border)',
+                      fontSize: '14px',
+                      fontWeight: 700,
+                      backgroundColor: 'var(--surface)',
+                      outline: 'none',
+                      color: 'var(--text)'
+                    }}
+                    required
+                  />
+
+                  {betaError && (
+                    <div style={{ color: 'var(--wrong-dark)', backgroundColor: 'var(--wrong-bg)', borderRadius: '8px', padding: '8px 12px', fontSize: '12px', fontWeight: 700 }}>
+                      ⚠️ {betaError}
+                    </div>
+                  )}
+
+                  <div style={{ display: 'flex', gap: '12px', marginTop: '8px' }}>
+                    <button
+                      type="button"
+                      className="btn-duo-outline"
+                      onClick={handleCloseBetaPrompt}
+                      disabled={betaOption === 'submitting'}
+                      style={{ flex: 1, padding: '12px' }}
+                    >
+                      No, thanks
+                    </button>
+                    <button
+                      type="submit"
+                      className="btn-duo btn-duo-correct"
+                      disabled={betaOption === 'submitting'}
+                      style={{ flex: 2, padding: '12px' }}
+                    >
+                      {betaOption === 'submitting' ? 'Submitting...' : 'Yes, Invite me! ✉️'}
+                    </button>
+                  </div>
+                </form>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* 👑 Widescreen Level Up celebration modal overlay */}
+      {showLevelUpModal && (
+        <div style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          width: '100vw',
+          height: '100vh',
+          backgroundColor: 'rgba(15, 23, 42, 0.8)',
+          backdropFilter: 'blur(10px)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          zIndex: 10000,
+          animation: 'fade-in 0.3s ease'
+        }}>
+          <div className="card-glass" style={{
+            maxWidth: '480px',
+            width: '90%',
+            padding: '40px',
+            borderRadius: '24px',
+            boxShadow: '0 20px 60px rgba(88, 204, 2, 0.3)',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            textAlign: 'center',
+            gap: '24px',
+            animation: 'scale-up 0.4s cubic-bezier(0.34, 1.56, 0.64, 1)',
+            border: '3px solid var(--brand)',
+            position: 'relative'
+          }}>
+            {/* Pulsing crown emoji */}
+            <span style={{ fontSize: '80px', animation: 'float 2s ease infinite alternate' }}>👑</span>
+            
+            <div>
+              <span style={{
+                fontSize: '11px',
+                fontWeight: 900,
+                textTransform: 'uppercase',
+                color: 'var(--brand-dark)',
+                letterSpacing: '2px',
+                backgroundColor: 'var(--brand-bg)',
+                padding: '4px 12px',
+                borderRadius: '20px'
+              }}>
+                Achievement Unlocked!
+              </span>
+              <h2 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '32px', marginTop: '12px', color: 'var(--brand-dark)' }}>
+                LEVEL UP! 🎉
+              </h2>
+            </div>
+
+            <p style={{ fontSize: '16px', lineHeight: '24px', margin: 0, fontWeight: 700 }}>
+              Congratulations! You've officially achieved <br />
+              <strong style={{ fontSize: '20px', color: 'var(--purple-dark)', fontFamily: 'var(--font-outfit)' }}>
+                Level {level.level}: {level.name}
+              </strong>
+            </p>
+
+            <p style={{ color: 'var(--text-muted)', fontSize: '13px', lineHeight: '18px', margin: 0 }}>
+              Your brain is getting stronger! Each correct answer unlocks your potential. Mr. SeN is proud of your consistency! 👨‍🏫
+            </p>
+
+            <button
+              className="btn-duo btn-duo-correct"
+              onClick={() => setShowLevelUpModal(false)}
+              style={{ width: '100%', padding: '14px', fontSize: '15px' }}
+            >
+              Let's Keep Studying! 🚀
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   )
 }

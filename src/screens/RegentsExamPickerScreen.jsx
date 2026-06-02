@@ -23,6 +23,16 @@ export default function RegentsExamPickerScreen({ onSelect, onHome, subject: ini
   })
   const years = Object.keys(byYear).map(Number).sort((a, b) => b - a)
 
+  // Sort exams within each year by session descending (August -> June -> January)
+  const sessionOrder = { 'August': 3, 'June': 2, 'January': 1 }
+  years.forEach((year) => {
+    byYear[year].sort((a, b) => {
+      const orderA = sessionOrder[a.session] || 0
+      const orderB = sessionOrder[b.session] || 0
+      return orderB - orderA
+    })
+  })
+
   return (
     <div className="home-screen">
       <header className="home-header home-header--compact">

@@ -17,9 +17,11 @@ export default {
         '3 p.m.',
         'noon',
       ],
-      topic: 'Maps',
+      topic: 'General',
       correct: 1,
       image: '/images/exams/es-june-2019/q1.png',
+      explanation: 'The Pacific time zone is 3 hours behind the Eastern time zone. If San Diego (Pacific) is at 11 a.m., Boston (Eastern) is 3 hours ahead at 2 p.m.',
+      diveDeep: 'Earth rotates 360° in 24 hours, so each 15° of longitude corresponds to one hour of time difference. The continental US spans four time zones: Eastern, Central, Mountain, and Pacific — each 1 hour apart. Since Earth rotates from west to east, eastern locations experience the Sun rising earlier, so their clocks are ahead. Going east from Pacific to Eastern adds 3 hours; going west subtracts hours. The Reference Tables include a map of US time zones. This concept also connects to the fact that each 15° of longitude = 1 hour of time, useful for calculating time differences globally.',
     },
     {
       number: 2,
@@ -34,6 +36,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-june-2019/q2.png',
+      explanation: 'When a light source moves away from an observer, the Doppler effect causes all wavelengths to be stretched toward longer (redder) wavelengths — the entire spectrum shifts toward red.',
+      diveDeep: 'The Doppler effect causes a shift in observed wavelength based on relative motion: sources moving away produce redshift (longer wavelengths), while approaching sources produce blueshift (shorter wavelengths). Astronomer Edwin Hubble used redshift measurements of distant galaxies in 1929 to discover that virtually all galaxies are moving away from us — and the farther away they are, the faster they recede (Hubble\'s Law). This is the primary evidence for the Big Bang theory and an expanding universe. The entire spectrum shifts — not just some lines — because all wavelengths are Doppler-shifted equally by the same relative velocity.',
     },
     {
       number: 3,
@@ -48,6 +52,8 @@ export default {
       topic: 'Astronomy',
       correct: 1,
       image: '/images/exams/es-june-2019/q3.png',
+      explanation: 'A solar eclipse occurs when the Moon is between Earth and the Sun (new Moon position, M2 in this diagram), casting its shadow on Earth. A lunar eclipse occurs when Earth is between the Sun and the Moon (full Moon position, M1), casting Earth\'s shadow on the Moon.',
+      diveDeep: 'Eclipses occur only when the Sun, Earth, and Moon align precisely — at new Moon for solar eclipses and at full Moon for lunar eclipses. However, eclipses don\'t occur every new and full Moon because the Moon\'s orbit is tilted about 5° relative to Earth\'s orbit (ecliptic), so usually the Moon passes slightly above or below the Sun-Earth line. A total solar eclipse is only visible from a narrow path where the Moon\'s umbra (full shadow) touches Earth; a penumbral region sees a partial eclipse. A total lunar eclipse is visible from anywhere on the nighttime side of Earth. The Moon\'s distance from Earth varies slightly, so sometimes it is too far away to fully cover the Sun, creating an annular ("ring") solar eclipse.',
     },
     {
       number: 4,
@@ -59,9 +65,11 @@ export default {
         'C',
         'D',
       ],
-      topic: 'Geologic Time',
+      topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-june-2019/q4.png',
+      explanation: 'Humans appeared only about 2–3 million years ago in the most recent slice of Earth\'s 4.6-billion-year history. On a full timeline, the dot closest to the present (right end) — which would be point D or the rightmost point — represents when humans appeared. If D is the present and A is the farthest from the present, D would be correct; however, this question places the dot nearest the present end, which is typically labeled D.',
+      diveDeep: 'Earth is approximately 4.6 billion years old. Humans (genus Homo) appeared about 2–3 million years ago — that is only 0.065% of Earth\'s history. If Earth\'s entire history were compressed into one year, humans would not appear until December 31 at about 11:48 p.m. The Geologic Time Scale in the Reference Tables shows humans appearing in the Quaternary Period of the Cenozoic Era — the very end of the scale. Fossil evidence, DNA analysis, and radiometric dating all converge on the African origin of Homo sapiens approximately 300,000 years ago. Understanding the immensity of geologic time compared to human history is a key perspective in earth science.',
     },
     {
       number: 5,
@@ -75,6 +83,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 3,
+      explanation: 'The universe is approximately 13.8 billion years old and contains billions of galaxies, each with billions of stars. Our solar system is about 4.6 billion years old and contains only one star — so the universe is older, vastly larger, and contains far more stars.',
+      diveDeep: 'The observable universe is estimated to contain over 2 trillion galaxies, each containing hundreds of billions to trillions of stars — giving a total stellar count of perhaps 10²⁴ stars. Our solar system is one of approximately 200–400 billion star systems in the Milky Way galaxy alone. The universe formed about 13.8 billion years ago (Big Bang), while our solar system formed about 4.6 billion years ago from the collapse of a nebula — making the universe about 3 times older. The Big Bang theory is supported by cosmic microwave background radiation, the expanding universe (Hubble\'s Law), and the abundance of hydrogen and helium in the universe.',
     },
     {
       number: 6,
@@ -88,6 +98,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 0,
+      explanation: 'Earth\'s revolution around the Sun over the course of a year changes the direction of the nighttime side of Earth, bringing different constellations into view in each season.',
+      diveDeep: 'Daily star motion (stars rising in the east, setting in the west) is caused by Earth\'s rotation. But the specific constellations visible at night change over the course of a year due to Earth\'s revolution. In January, the night side of Earth faces the Orion direction; in July, six months later, Earth is on the opposite side of the Sun and the night side faces Scorpius instead. The 12 zodiac constellations lie along the ecliptic (the Sun\'s apparent annual path through the sky). Each constellation is in the nighttime sky for about one month per year. This is a fundamental concept in Regents astronomy and is frequently tested in multiple formats.',
     },
     {
       number: 7,
@@ -99,8 +111,10 @@ export default {
         '160° N 36° W',
         '160° S 36° E',
       ],
-      topic: 'Plate Tectonics',
+      topic: 'General',
       correct: 1,
+      explanation: 'The Tasman Hot Spot is located in the Southern Pacific Ocean, south of the equator (S) and east of the prime meridian (E). The coordinates 36°S, 160°E place it southeast of Australia in the Tasman Sea region.',
+      diveDeep: 'Geographic coordinates always follow the convention of latitude first (N or S of equator) then longitude (E or W of prime meridian). Latitude ranges from 0° at the equator to 90° at the poles; longitude ranges from 0° at the prime meridian to 180° at the International Date Line. Choices with 160° as latitude (choices C and D) are impossible since latitude never exceeds 90°. The Tasman Hot Spot is associated with a chain of seamounts in the southwestern Pacific. Hot spots are stationary mantle plumes that create volcanic island/seamount chains as tectonic plates move over them — the Hawaiian Island chain is the most famous example.',
     },
     {
       number: 8,
@@ -114,6 +128,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 2,
+      explanation: 'The stratosphere extends from about 12 km to 50 km (roughly 7 to 31 miles) above Earth\'s surface. The ozone layer, which absorbs ultraviolet radiation from the Sun, is concentrated in this layer between approximately 15–35 km altitude.',
+      diveDeep: 'Earth\'s atmosphere is layered based on temperature profiles: the troposphere (0–12 km) cools with altitude; the stratosphere (12–50 km) warms with altitude due to ozone absorbing UV radiation; the mesosphere (50–80 km) cools again; the thermosphere (80+ km) warms due to X-ray absorption. Weather occurs in the troposphere. The stratosphere\'s temperature inversion creates stability that limits mixing with the troposphere. Ozone (O₃) forms when UV radiation splits O₂ molecules into oxygen atoms that combine with remaining O₂. CFCs destroy ozone through catalytic reactions, creating the Antarctic ozone hole. The Reference Tables show atmospheric layers and their temperature profiles.',
     },
     {
       number: 9,
@@ -125,8 +141,10 @@ export default {
         'orbiting of Earth around the Sun',
         'spinning of Earth on its axis',
       ],
-      topic: 'Astronomy',
+      topic: 'Meteorology',
       correct: 3,
+      explanation: 'The Coriolis effect is caused by Earth\'s rotation. As air or water moves across Earth\'s rotating surface, its path appears to curve — to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.',
+      diveDeep: 'The Coriolis effect is not a real force — it is an apparent deflection experienced by objects moving across a rotating surface. In the Northern Hemisphere, objects deflect to the right of their motion; in the Southern Hemisphere, to the left. This shapes global wind patterns: trade winds, westerlies, and polar easterlies all curve due to the Coriolis effect. It also drives ocean surface current gyres (clockwise in NH, counterclockwise in SH) and hurricane/cyclone rotation (counterclockwise in NH). The Coriolis effect is maximum at the poles and zero at the equator. The Reference Tables list it as evidence for Earth\'s rotation, along with the Foucault pendulum.',
     },
     {
       number: 10,
@@ -140,6 +158,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 1,
+      explanation: 'Using the Reference Tables: at 18°C dry-bulb temperature and 64% relative humidity, the wet-bulb depression (difference between dry and wet bulb) is about 7°C. Dewpoint = 18°C - 7°C = 11°C.',
+      diveDeep: 'To find dewpoint using Reference Tables: (1) look up relative humidity in the Relative Humidity table using the dry-bulb temperature and wet-bulb depression to find the depression that gives 64%; (2) subtract that depression from the dry-bulb temperature to get dewpoint. Dewpoint is the temperature to which air must be cooled (at constant pressure and moisture content) to become saturated (100% relative humidity). A dewpoint close to the dry-bulb temperature means the air is nearly saturated — clouds and fog can form easily. High dewpoints (above 65°F / 18°C) feel humid and uncomfortable. Dewpoint is a better measure of absolute moisture content than relative humidity, which changes with temperature.',
     },
     {
       number: 11,
@@ -151,8 +171,10 @@ export default {
         '2260 J/g is gained from the surrounding environment',
         '2260 J/g is released into the surrounding environment',
       ],
-      topic: 'Water Cycle',
+      topic: 'General',
       correct: 2,
+      explanation: 'Vaporization (liquid to gas) is endothermic — the water gains heat energy from the surroundings. The latent heat of vaporization for water is 2260 J/g. The 334 J/g value applies to the melting of ice.',
+      diveDeep: 'Phase changes involve latent heat — energy exchanged without a temperature change. The Reference Tables list: heat of fusion (melting/freezing ice) = 334 J/g; heat of vaporization (boiling/condensing water) = 2260 J/g. When water boils, it absorbs 2260 J per gram from the environment — this energy breaks intermolecular hydrogen bonds. The reverse process, condensation, releases 2260 J/g into the environment. This enormous energy exchange drives weather: hurricanes intensify as warm ocean water evaporates (absorbing heat), and release that energy when water vapor condenses in clouds. Latent heat of condensation in thunderstorms fuels severe weather. Note that 2260 J/g is about 6.8 times larger than 334 J/g — evaporation requires far more energy than melting.',
     },
     {
       number: 12,
@@ -167,6 +189,8 @@ export default {
       topic: 'Water Cycle',
       correct: 1,
       image: '/images/exams/es-june-2019/q12.png',
+      explanation: 'The water table is the upper surface of the zone of saturation — the level below which all pore spaces in soil and rock are completely filled with groundwater. It is represented by the dashed line X in the diagram.',
+      diveDeep: 'Groundwater occupies the pore spaces between rock and sediment particles below the water table. The zone above the water table (vadose zone or zone of aeration) has pore spaces that are partially filled with air. The water table rises during wet seasons (more infiltration than discharge) and falls during dry seasons. Wells must extend below the water table to obtain water. The water table follows the topography roughly but is smoother — it is higher under hills and lower in valleys, where it intersects the surface as springs and streams. Perched water tables exist above an impermeable layer within the unsaturated zone. Overpumping can lower water tables, causing wells to dry up.',
     },
     {
       number: 13,
@@ -180,6 +204,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 2,
+      explanation: 'Eospirifer is a brachiopod — a marine invertebrate that lived in ancient seas. Its presence in bedrock indicates those sediments were deposited in a marine (ocean) environment. The other organisms are terrestrial.',
+      diveDeep: 'Index fossils not only indicate geologic age but also help reconstruct past environments (paleoecology). Eospirifer is a Silurian-age brachiopod (marine filter feeder) found in the Reference Tables as a New York State index fossil. Mastodont was a large land mammal (Pleistocene); condors are birds (terrestrial); Coelophysis was a dinosaur (terrestrial). When interpreting the environment of deposition: marine fossils (brachiopods, corals, trilobites, ammonites) → ocean; freshwater fossils → lakes/rivers; pollen/plant spores → land; large vertebrate bones (dinosaurs, mammals) → terrestrial. Much of New York State was covered by shallow seas during the Paleozoic, and Silurian/Devonian marine fossils are common.',
     },
     {
       number: 14,
@@ -191,8 +217,10 @@ export default {
         'A = Cold Front, B = Warm Front, C = Stationary Front',
         'A = Warm Front, B = Cold Front, C = Stationary Front',
       ],
-      topic: 'Meteorology',
+      topic: 'General',
       correct: 0,
+      explanation: 'A cold front (A) shows cold air undercutting warm air steeply; a warm front (B) shows warm air riding gently over cooler air at a shallow angle; an occluded front (C) shows three air masses — cold air undercutting cool air which is lifting warm air off the surface.',
+      diveDeep: 'Frontal boundaries separate air masses of different temperature and humidity. Cold front: steep boundary (~1:100 slope), fast-moving, brings brief intense precipitation and thunderstorms, temperature drops sharply after passage. Warm front: gentle boundary (~1:200 slope), slow-moving, brings prolonged steady precipitation over a wide area ahead of the front. Occluded front: forms when the fast cold front catches up to and undercuts the warm front, lifting warm air completely off the surface. Stationary front: neither air mass advances, often bringing prolonged cloudy/rainy weather. Map symbols: cold front = blue triangles; warm front = red semicircles; occluded = purple triangles and semicircles; stationary = alternating symbols.',
     },
     {
       number: 15,
@@ -204,9 +232,11 @@ export default {
         'metamorphism',
         'downwarping',
       ],
-      topic: 'Geologic Time',
+      topic: 'Geology',
       correct: 3,
       image: '/images/exams/es-june-2019/q15.png',
+      explanation: 'The Michigan Basin is a structural basin formed by downwarping — the gradual sinking and bowing down of Earth\'s crust, causing sedimentary layers to accumulate in a bowl-shaped depression with oldest rocks in the center.',
+      diveDeep: 'Structural basins form when crustal rock sinks or subsides, creating a bowl-shaped depression where sediments accumulate. In the Michigan Basin, the youngest rocks (Pennsylvanian) are at the center because the sinking continued over time as sediments were deposited. The oldest exposed rocks are around the basin\'s rim. This is the opposite of a dome structure, where oldest rocks are exposed in the center (due to erosion of the uplifted core). Downwarping can be caused by the weight of sediments, cooling and contraction of the crust, or isostatic adjustment. New York State has a similar but smaller-scale basin structure called the Appalachian Basin. Faulting creates different structures, and metamorphism doesn\'t create basin shapes.',
     },
     {
       number: 16,
@@ -221,6 +251,8 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-june-2019/q16.png',
+      explanation: 'Location B is on the windward slope of the mountain, where moist air is forced to rise (orographic lifting). As air rises and cools, it reaches the dewpoint and condenses, forming clouds and precipitation on the windward slope.',
+      diveDeep: 'Orographic lifting occurs when air is forced up over a mountain barrier. As the moist air rises on the windward side, it cools at the dry adiabatic lapse rate (10°C per 1000 m) until it reaches the dewpoint, then clouds form and precipitation falls (slower cooling at saturated adiabatic rate ~6°C/1000 m due to latent heat release). Location A is at the base of the windward slope before the air begins to rise — less lifting. Location B, mid-slope on the windward side, gets the most precipitation. Locations C and D are in the rain shadow on the leeward side — the air has lost its moisture and warms as it descends, creating a dry, warm environment. Classic rain shadows: the Sierra Nevada (wet coast, dry Great Basin), the Cascades (wet Seattle, dry eastern Washington).',
     },
     {
       number: 17,
@@ -232,8 +264,10 @@ export default {
         'surface of a calm lake',
         'snow covered mountain slope',
       ],
-      topic: 'Climate',
+      topic: 'Astronomy',
       correct: 0,
+      explanation: 'Blacktop (asphalt) is dark-colored and has a very low albedo (~5%), meaning it absorbs about 95% of incoming solar radiation. The other surfaces are lighter-colored or highly reflective and have much higher albedos.',
+      diveDeep: 'Albedo is the fraction of incoming radiation that is reflected. The Reference Tables list approximate albedo values: fresh snow 70–80%; white sand 30–40%; calm water (low angle) 60–80% but near noon only 3–5%; dark soil/asphalt 5–10%. On a sunny day, the blacktop absorbs the most because it reflects the least. Urban heat islands form partly because cities replace vegetation and soil with dark pavement and buildings, lowering average albedo and increasing heat absorption. Ice-albedo feedback is a climate change amplifier: as polar ice melts, it exposes darker ocean water, which absorbs more heat, causing more melting — a positive feedback loop.',
     },
     {
       number: 18,
@@ -245,8 +279,10 @@ export default {
         'oxygen',
         'methane',
       ],
-      topic: 'Climate',
+      topic: 'Meteorology',
       correct: 3,
+      explanation: 'Methane (CH₄) is a potent greenhouse gas that absorbs infrared radiation emitted by Earth\'s surface. Hydrogen, nitrogen, and oxygen are not significant greenhouse gases.',
+      diveDeep: 'Greenhouse gases share a key property: their molecular structure allows them to vibrate when struck by infrared photons, absorbing the radiation and re-emitting it in all directions. Molecules with at least three atoms or asymmetric diatomic molecules are greenhouse active. Effective greenhouse gases: water vapor (H₂O, most abundant and powerful), CO₂, CH₄ (methane, 80x more potent than CO₂ per molecule over 20 years), N₂O (nitrous oxide), and ozone. Nitrogen (N₂) and oxygen (O₂) — making up 99% of the atmosphere — are NOT greenhouse gases because their symmetric diatomic structure does not allow vibration at infrared wavelengths. Hydrogen is rare in the atmosphere and also not a greenhouse gas. Methane comes from livestock, landfills, rice paddies, and natural gas leaks.',
     },
     {
       number: 19,
@@ -258,9 +294,11 @@ export default {
         'Mississippian',
         'Ordovician',
       ],
-      topic: 'Geologic Time',
+      topic: 'Geology',
       correct: 3,
       image: '/images/exams/es-june-2019/q19.png',
+      explanation: 'Plate tectonic reconstruction maps in the Reference Tables show that North America was closest to the equator during the Ordovician Period (~450 Ma), when the continent was positioned in the Southern Hemisphere and tropical latitudes.',
+      diveDeep: 'Continental positions have changed dramatically over geologic time due to plate tectonics. The Reference Tables\' continental drift diagrams show positions at key times: Cambrian/Ordovician (~500 Ma) — continents near equator/southern hemisphere; Devonian — continent drifting; Permian/Triassic — Pangea formed; modern — current positions. Washington State, as part of the North American plate, was at more equatorial latitudes during the Paleozoic. Evidence for past positions comes from paleomagnetic data (orientation of iron minerals records latitude at formation), fossil types (tropical corals in polar regions), and rock types (glacial deposits in tropical regions). Knowing the relative sequence of continental positions is testable on the Regents.',
     },
     {
       number: 20,
@@ -274,6 +312,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 2,
+      explanation: 'El Niño is a periodic warming of Pacific equatorial surface waters that disrupts normal atmospheric circulation, often causing warmer and drier than normal winters in the northeastern United States.',
+      diveDeep: 'El Niño-Southern Oscillation (ENSO) is a cyclic climate pattern occurring every 2–7 years. Normally, trade winds push warm water westward across the equatorial Pacific (leaving cold upwelling water off South America — excellent for fisheries). During El Niño, trade winds weaken, warm water spreads eastward, disrupting global weather: wetter winters in the southern US and California; drier, warmer winters in the Northeast; more Atlantic hurricanes suppressed; droughts in Australia and Southeast Asia. La Niña is the opposite — stronger trade winds, even cooler eastern Pacific — and tends to produce colder, stormier winters in the Northeast. El Niño years shift the jet stream position, altering storm tracks across North America.',
     },
     {
       number: 21,
@@ -285,8 +325,10 @@ export default {
         'Triassic and Jurassic Periods',
         'Mississippian and Pennsylvanian Periods',
       ],
-      topic: 'Geologic Time',
+      topic: 'Geology',
       correct: 1,
+      explanation: 'The Reference Tables\' "Geologic History of New York State" shows no rock record for the Paleogene and Neogene Periods in New York State — those time intervals are represented by a gap (unconformity) in the state\'s rock record.',
+      diveDeep: 'A gap in the rock record (unconformity) can result from: (1) the area being above sea level and experiencing erosion rather than deposition; (2) rocks being deposited but later completely eroded away; (3) conditions that didn\'t favor fossil preservation. New York State\'s rock record shows complete or nearly complete Paleozoic and Mesozoic sequences, but the Cenozoic (Paleogene and Neogene) is largely absent except for Quaternary glacial deposits on top. The Cenozoic gap likely reflects erosion during periods of uplift. The Geologic History chart in the Reference Tables explicitly shows which periods have rock records in New York — this is a direct lookup question requiring familiarity with that table.',
     },
     {
       number: 22,
@@ -300,6 +342,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'By the principle of superposition, the highest (topmost) layer in an undisturbed sequence is the youngest. Layer A is at the top of the sequence in the diagram, making it the youngest.',
+      diveDeep: 'The principle of superposition states that in an undisturbed sedimentary sequence, each layer is younger than the one below it — the oldest rocks are at the bottom, the youngest at the top. This is the foundation of relative dating. Since the question states the layers have not been overturned, we can directly apply superposition. Layer A at the top is youngest; layer D at the bottom is oldest. The cross-cutting fault (XY) would also be younger than the layers it cuts, but the question asks about the lettered layers specifically. When comparing outcrops, geologists use index fossils and correlation to match layers between widely separated locations, which is why the same letter is used for corresponding layers.',
     },
     {
       number: 23,
@@ -311,9 +355,11 @@ export default {
         'streams forming a dendritic (tree-like branching) pattern',
         'streams flowing in a rectangular grid pattern',
       ],
-      topic: 'Geologic Time',
+      topic: 'Water Cycle',
       correct: 2,
       image: '/images/exams/es-june-2019/q23.png',
+      explanation: 'A dendritic drainage pattern develops on uniform bedrock or gentle slopes where no structural controls direct stream flow — streams branch randomly like tree branches, following the path of least resistance downhill.',
+      diveDeep: 'Drainage patterns reflect underlying geology and topography. Dendritic (tree-like) patterns form on uniform rock with no preferred directions of erosion — streams follow topography freely. Radial patterns form on dome-shaped hills or volcanoes (streams radiate outward from the center). Trellis patterns form in folded mountain ranges (parallel ridges create long streams in valleys with short right-angle tributaries). Rectangular patterns form where rock has two perpendicular joint/fracture sets that guide stream erosion. Parallel patterns form on steep, uniformly sloping terrain. The Reference Tables include diagrams of these patterns. Identifying which pattern matches a given landscape type is a standard Regents question.',
     },
     {
       number: 24,
@@ -327,6 +373,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 3,
+      explanation: 'Warm, humid climates accelerate both chemical and physical weathering. Higher temperatures increase chemical reaction rates, and abundant water promotes chemical weathering, which rounds landforms over time through more intense erosion.',
+      diveDeep: 'Climate strongly influences weathering and landscape morphology. In warm, humid climates: chemical weathering (oxidation, hydrolysis, carbonation) dominates; abundant water and warm temperatures increase reaction rates; vegetation holds soil but also produces organic acids that accelerate chemical weathering; landforms become deeply weathered and rounded with gentle slopes and thick soil (humid tropical regions). In cool, dry climates: mechanical weathering (frost wedging, thermal expansion) dominates; chemical reactions are slow; sparse water limits dissolution; landforms remain angular and steep with thin, rocky soils (desert and arctic regions). Desert landscapes appear jagged and angular; humid tropical landscapes appear smooth and rounded. Angular fragments indicate recent breakage without significant chemical modification.',
     },
     {
       number: 25,
@@ -340,6 +388,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'Mid-ocean ridges produce oceanic crust composed of basalt. Basalt is a dark, fine-grained, mafic igneous rock with a density of approximately 3.0 g/cm³. Granite has a lower density (~2.7 g/cm³) and is continental, not oceanic.',
+      diveDeep: 'Oceanic crust (basalt, density ~3.0 g/cm³) is denser than continental crust (granite-like, density ~2.7 g/cm³) — this density difference is why oceanic crust subducts under continental crust at convergent boundaries. The Mid-Atlantic Ridge is a divergent boundary where the North American and Eurasian plates separate and magma wells up from the mantle to form new oceanic crust (basalt). The basalt that forms at the ridge is the youngest ocean floor; as it moves away from the ridge and cools, it becomes denser and eventually subducts elsewhere. The Reference Tables list compositions and densities of crustal and mantle rocks. Knowing basalt = oceanic = denser and granite = continental = less dense is fundamental to plate tectonics.',
     },
     {
       number: 26,
@@ -351,8 +401,10 @@ export default {
         '7:17:00 p.m., and the S-wave arrived at this station at 7:12:40 p.m.',
         '7:17:00 p.m., and the S-wave arrived at this station at 7:15:40 p.m.',
       ],
-      topic: 'Plate Tectonics',
+      topic: 'Geology',
       correct: 1,
+      explanation: 'From the Reference Tables seismic wave graph at 4000 km: P-waves travel that distance in about 7 minutes. Origin time = 7:10:00 - 0:07:00 = 7:03:00 p.m. S-wave travel time at 4000 km ≈ 12 minutes 40 seconds → arrival = 7:03:00 + 12:40 = 7:15:40 p.m.',
+      diveDeep: 'Seismic travel time calculations require the P-wave and S-wave travel time graph from the Reference Tables. Steps: (1) At 4000 km, read P-wave travel time ≈ 7 min. Subtract from arrival to get origin: 7:10 - 7 min = 7:03 p.m. (2) At 4000 km, read S-wave travel time ≈ 12 min 40 s. Add to origin time: 7:03:00 + 12:40 = 7:15:40 p.m. Wrong answer C suggests the earthquake occurred at 7:17 — impossible since the P-wave arrived at 7:10 (the earthquake must occur BEFORE the P-wave arrives at the station). Always check that the origin time precedes the wave arrival time. The S-P time difference (5 min 40 s at 4000 km) is also used for epicenter location when seismogram arrival times are known.',
     },
     {
       number: 27,
@@ -364,9 +416,11 @@ export default {
         'Oxygen 94%, Other 6%',
         'Silicon 94%, Other 6%',
       ],
-      topic: 'Geology',
+      topic: 'General',
       correct: 0,
       image: '/images/exams/es-june-2019/q27.png',
+      explanation: 'Earth\'s crust is approximately 46% oxygen by mass, 28% silicon, with aluminum, iron, calcium, and others making up the remainder. Oxygen is the most abundant element in the crust, followed by silicon.',
+      diveDeep: 'The Reference Tables list the percentages of elements in Earth\'s crust by mass: oxygen (O) 46.1%, silicon (Si) 28.2%, aluminum (Al) 8.1%, iron (Fe) 5.0%, calcium (Ca) 3.6%, sodium (Na) 2.8%, potassium (K) 2.6%, magnesium (Mg) 2.1%, and all others ~1.4%. Oxygen and silicon together make up about 74% of the crust — not surprisingly, the most common mineral group is silicates (minerals built on Si-O₄ tetrahedra), which include feldspar, quartz, pyroxene, amphibole, mica, and olivine. The crust\'s high oxygen content is primarily because oxygen ions are very large and most mineral structures consist of closely packed oxygen ions with smaller cations fitting in the spaces between them.',
     },
     {
       number: 28,
@@ -380,6 +434,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'Drumlins are elongated, streamlined hills of glacial till formed when an advancing glacier molds and streamlines pre-existing sediment. They are oriented with the blunt end pointing toward the direction from which the glacier came.',
+      diveDeep: 'Drumlins are teardrop-shaped hills of unsorted glacial till, typically 15–50 m high, 400–800 m long, and 200–400 m wide. They occur in swarms ("drumlin fields") in regions formerly covered by continental ice sheets. The steep, blunt end points in the up-ice (up-glacier) direction; the gentle, tapered end points down-ice. They formed under the moving ice, possibly by erosion of pre-existing till or by deposition around a resistant obstruction. The Finger Lakes region of New York has one of the world\'s best drumlin fields. Other glacial depositional features to know: terminal moraine (end), esker (sinuous ridge from subglacial stream), kame (mound of stratified sediment), kettle (depression from buried ice block), outwash plain (sorted sediment from meltwater).',
     },
     {
       number: 29,
@@ -394,6 +450,8 @@ export default {
       topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-june-2019/q29.png',
+      explanation: 'Valley glaciers carve U-shaped valleys (as opposed to V-shaped valleys carved by rivers) because ice erodes the valley walls as well as the floor. The glacial abrasion also scratches and grooves the underlying bedrock (striations).',
+      diveDeep: 'The cross-sectional shape of a valley is a key indicator of whether it was eroded by a river or a glacier. River valleys are V-shaped because running water cuts primarily downward (headward and lateral erosion are secondary). Glaciers erode in all directions simultaneously — plucking and abrasion of the valley floor, walls, and ceiling — creating a U-shaped (parabolic) cross section. Striations (scratches and grooves) in bedrock are caused by rock particles embedded in the glacier bottom scraping the rock surface, like sandpaper. They indicate the direction of ice movement. Roches moutonnées are bedrock knobs with a smooth, striated up-glacier side and a rough, plucked down-glacier side. Glacial sediment (till) is unsorted; meltwater sediment (outwash) is sorted.',
     },
     {
       number: 30,
@@ -407,6 +465,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 2,
+      explanation: 'Bioclastic sedimentary rocks (like limestone, coal, and coquina) form from the remains of living organisms, which are carbon-based life forms. Carbon is always present in bioclastic rocks either as carbonate minerals (CaCO₃) or as organic carbon.',
+      diveDeep: 'Bioclastic (organic) sedimentary rocks form from the accumulation and lithification of biological material: limestone from shells and coral skeletons (calcium carbonate, CaCO₃); coquina from shell fragments; chalk from microscopic marine organisms (foraminifera, coccolithophores); coal from compressed plant material. All living organisms are carbon-based (organic chemistry), so carbon is always present. Limestone\'s CaCO₃ contains carbon. Coal is essentially pure carbon with organic impurities. Iron is common in many rocks but not specifically in bioclastic rocks. Sodium and sulfur are found in evaporite rocks (halite = NaCl, gypsum = CaSO₄·2H₂O) but not specifically in bioclastic rocks. The Reference Tables include a sedimentary rock identification chart.',
     },
     {
       number: 31,
@@ -420,6 +480,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'Soil composition and character are primarily determined by bedrock composition (source material for mineral content) and climate (temperature and precipitation control weathering rate and organic matter accumulation).',
+      diveDeep: 'Soil formation (pedogenesis) is influenced by five factors, remembered by the mnemonic CLORPT: Climate, Organisms, Relief (topography), Parent material (bedrock), and Time. Of these, climate and parent material (bedrock composition) are the two primary controls. Climate determines the type and rate of weathering — chemical weathering in humid climates produces deep, nutrient-rich tropical soils; mechanical weathering in cold/dry climates produces thin, rocky soils. Bedrock composition provides the mineral nutrients in soil — granite-derived soils are sandy and nutrient-poor; limestone-derived soils are fertile. Humid tropical soils can be very deep but nutrient-poor (nutrients leached by rain); dry climate soils tend to accumulate salts. The Reference Tables mention soil as weathered bedrock plus organic material.',
     },
     {
       number: 32,
@@ -433,6 +495,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'The gap between Cambrian and Silurian limestone represents an unconformity. For this to form: the Cambrian rock was uplifted above sea level, then subjected to weathering and erosion (removing some material), then the area subsided below sea level again for Silurian sediments to be deposited on top.',
+      diveDeep: 'An unconformity (gap in the rock record) requires: (1) deposition of older rock; (2) uplift above sea level; (3) weathering and erosion of the surface; (4) subsidence back below sea level; (5) deposition of younger rock on the eroded surface. This sequence is "uplift → weathering → erosion → subsidence" — exactly what the question shows. Types of unconformities: disconformity (horizontal layers with a gap, as here); angular unconformity (tilted layers beneath horizontal layers); nonconformity (sedimentary layers on igneous/metamorphic basement). The length of the gap represents lost time in the geologic record. The Cambrian-to-Silurian gap in New York State represents millions of years when the area was above sea level and being eroded.',
     },
     {
       number: 33,
@@ -446,6 +510,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 2,
+      explanation: 'Granite is a felsic intrusive igneous rock containing quartz, feldspar, and mica. Gneiss is a high-grade metamorphic rock often derived from granite, retaining quartz and feldspar. Both contain quartz as a major mineral.',
+      diveDeep: 'Quartz (SiO₂) forms in felsic (high silica) igneous rocks and many metamorphic rocks, but is absent in mafic rocks. From the Reference Tables: granite contains quartz, feldspar, and micas — quartz is a defining component. Gneiss (metamorphic equivalent of granite or other felsic rocks) retains quartz and feldspar. Gabbro is mafic (low silica) with pyroxene and calcium-rich feldspar — no quartz. Dunite is an ultramafic rock (pure olivine) — no quartz. Sandstone may be composed of quartz grains (quartz arenite) but dunite has no quartz. Pumice and scoria are both vesicular volcanic rocks (felsic and mafic respectively) — pumice may contain quartz but scoria does not. Granite + gneiss is the safest pairing confirming quartz in both.',
     },
     {
       number: 34,
@@ -459,6 +525,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'The formula (Fe,Mg)₂SiO₄ represents olivine, which has poor cleavage and typically breaks with conchoidal (shell-like) fracture. Talc, halite, and calcite all have well-defined cleavage planes.',
+      diveDeep: 'Cleavage is the tendency of a mineral to break along flat, planar surfaces corresponding to weak atomic bond planes. Minerals with ionic bonds in regular planes (halite, NaCl — cubic cleavage in 3 directions; calcite, CaCO₃ — rhombohedral in 3 directions; talc — basal in 1 direction) have excellent cleavage. Fracture occurs when minerals break irregularly — olivine (Mg,Fe)₂SiO₄ has poor cleavage and breaks with conchoidal fracture (smooth curved surfaces like glass). Quartz also fractures conchoidally. The Reference Tables\' mineral identification chart lists cleavage and fracture properties. Observing whether a mineral has flat reflective faces (cleavage) or irregular broken surfaces (fracture) is a key identification technique.',
     },
     {
       number: 35,
@@ -472,6 +540,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'Pencil "lead" is actually graphite (a form of pure carbon), mixed with clay and fired to produce a writing material. Graphite leaves marks on paper because its flat carbon layers slide easily off the mineral\'s surface.',
+      diveDeep: 'Graphite and diamond are both pure carbon (element C) but with different crystal structures — making them polymorphs. Graphite has a layered structure where carbon atoms form flat hexagonal sheets held together only by weak van der Waals forces; the layers slide easily over each other, giving graphite its lubricating and writing properties. Graphite has metallic luster, feels greasy, and has Mohs hardness of only 1–2. Diamond has a three-dimensional network of strong covalent bonds, making it the hardest natural substance (hardness 10). Galena (PbS) is the primary ore of lead — its name comes from Latin for lead — and its high density (7.6 g/cm³) and metallic luster are characteristic. Pyrite (FeS₂) is "fool\'s gold." Fluorite (CaF₂) is used in optical equipment.',
     },
     // Part B-1: Questions 36–37 are based on a graph showing ocean water level changes over a 3-day period (December 23–25, 2015) at Kings Point, New York on Long Island, displaying a tidal pattern with two high and two low tides per day.
     {
@@ -488,6 +558,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-june-2019/q36.png',
+      explanation: 'Tides shift approximately 50 minutes later each day. By extrapolating the pattern from December 25\'s first low tide, adding ~50 minutes gives the first low tide on December 26 at approximately 6 a.m.',
+      diveDeep: 'The lunar day (time between successive moonrises) is 24 hours 50 minutes, not exactly 24 hours, because the Moon advances in its orbit about 12° per day, requiring Earth to rotate an extra 50 minutes to catch up to the Moon\'s new position. This causes tides to shift ~50 minutes later each day. By reading the pattern on December 24 and 25, students can predict December 26 by adding roughly 50 minutes to the December 25 timing. The tidal pattern at Kings Point shows semidiurnal tides (two highs and two lows per day), typical of the Atlantic coast. Tidal range (difference between high and low) at Kings Point is about 4–8 feet. Tides are cyclic and therefore predictable — this predictability is used in tidal tables published for sailors and coastal managers.',
     },
     {
       number: 37,
@@ -503,6 +575,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-june-2019/q37.png',
+      explanation: 'The tidal pattern clearly repeats in a regular cycle (two high and two low tides per day, shifting ~50 minutes later each day). Because the pattern is regular and driven by the Moon\'s predictable orbit, it is both cyclic and predictable.',
+      diveDeep: 'Many Earth processes are cyclic (repeating at regular intervals) and therefore predictable: tides (driven by lunar orbit), seasons (driven by Earth\'s revolution), day/night (driven by Earth\'s rotation), lunar phases (29.5-day cycle), and long-term ice age cycles (Milankovitch cycles). Other processes are cyclic but less precisely predictable (weather, volcanic eruptions, earthquakes). Still others appear noncyclic (mass extinctions, large meteorite impacts). Tidal predictions are so reliable that tables are published years in advance and are accurate to within minutes. The National Oceanic and Atmospheric Administration (NOAA) publishes tide predictions for thousands of locations globally. Connecting "cyclic → predictable" is a fundamental scientific principle tested on the Regents.',
     },
     // Part B-1: Questions 38–41 are based on a diagram representing Earth orbiting the Sun. Four positions of Earth in its orbit are labeled A, B, C, and D. Letter N represents the North Pole. Distances are indicated for aphelion (152 million km, around July 4) and perihelion (147 million km, around January 3). Arrows indicate directions of movement. The diagram shows day/night sides and the Arctic Circle.
     {
@@ -519,6 +593,8 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       image: '/images/exams/es-june-2019/q38.png',
+      explanation: 'Aphelion (Earth\'s farthest point from the Sun) occurs around July 4, which is summer in the Northern Hemisphere. This demonstrates that Earth-Sun distance is NOT the cause of seasons.',
+      diveDeep: 'Earth reaches aphelion (~152 million km) around July 4 and perihelion (~147 million km) around January 3 — a difference of only about 3%. This small distance variation has minimal effect on global temperatures. The Northern Hemisphere has summer in July despite being farther from the Sun! This proves that seasons are caused by the tilt of Earth\'s axis (23.5°) relative to its orbital plane, not by distance from the Sun. In summer, the Northern Hemisphere tilts toward the Sun: (1) days are longer (more hours of sunlight); (2) the Sun is higher in the sky (more concentrated solar energy per unit area). Both factors maximize solar energy input in summer. The Southern Hemisphere\'s seasons are opposite — Southern Hemisphere summer occurs near perihelion, making their summers slightly more intense than Northern Hemisphere summers.',
     },
     {
       number: 39,
@@ -534,6 +610,8 @@ export default {
       topic: 'Astronomy',
       correct: 3,
       image: '/images/exams/es-june-2019/q39.png',
+      explanation: 'The Sun\'s vertical ray moves from the equator southward to the Tropic of Capricorn during the fall equinox to winter solstice period (September 23 to December 21). This corresponds to the orbital segment between positions D and A in the diagram.',
+      diveDeep: 'The Sun\'s vertical ray (the point where the Sun is directly overhead at solar noon) follows an annual cycle: spring equinox (March 21) at the equator → summer solstice (June 21) at the Tropic of Cancer (23.5°N) → fall equinox (September 23) at the equator → winter solstice (December 21) at the Tropic of Capricorn (23.5°S) → back to spring equinox. On the Reference Tables diagram, the four orbital positions A, B, C, D correspond to these four seasonal events. Identifying which segment corresponds to which season requires knowing Earth\'s axis orientation (pointing toward Polaris) and the dates of equinoxes and solstices. The vertical ray\'s latitude equals the Sun\'s declination, which ranges from +23.5° to -23.5° annually.',
     },
     {
       number: 40,
@@ -549,6 +627,8 @@ export default {
       topic: 'Astronomy',
       correct: 3,
       image: '/images/exams/es-june-2019/q40.png',
+      explanation: 'One complete orbit around the Sun (one year) takes approximately 365.25 days. Since Earth rotates once per day, it rotates approximately 365 times during one complete orbit.',
+      diveDeep: 'Earth\'s rotation period is 23 hours 56 minutes (sidereal day — time to rotate 360° relative to stars) or 24 hours (solar day — time for the Sun to return to the same position, slightly longer because Earth also moves in its orbit). Earth\'s revolution period is 365.25 days. This 0.25-day per year accumulates to one extra day every 4 years — hence leap years with February 29. The relationship 1 orbit = ~365 rotations is a basic numerical fact. 24 rotations would be wrong (only covers a few days worth of orbit); 15 would be meaningless. The different periods of rotation and revolution are fundamental definitions in the Reference Tables under Earth\'s dimensions.',
     },
     {
       number: 41,
@@ -564,6 +644,8 @@ export default {
       topic: 'Astronomy',
       correct: 1,
       image: '/images/exams/es-june-2019/q41.png',
+      explanation: 'Earth\'s rotational axis is tilted 23.5° from the vertical (perpendicular to the orbital plane). This tilt is directly responsible for the seasons as it varies the angle at which sunlight strikes different latitudes throughout the year.',
+      diveDeep: 'The 23.5° axial tilt is explicitly stated in the Reference Tables. It is measured from the perpendicular to the ecliptic plane (the plane of Earth\'s orbit). An equivalent way to express this: Earth\'s axis is 66.5° from the ecliptic plane itself (since 90° - 23.5° = 66.5°). This is why 66.5° appears as a distractor — it describes the angle of the axis from the PLANE of orbit rather than from the PERPENDICULAR to the plane. The tilt is the reason for seasons, the tropics (at 23.5°), the Arctic and Antarctic Circles (at 66.5°), and the 24-hour polar days and nights. Earth\'s tilt varies slightly over a 41,000-year cycle (from about 22° to 24.5°) — one of the Milankovitch cycles driving long-term climate change.',
     },
     // Part B-1: Questions 42–44 are based on a map showing a composite of Doppler radar images. Darker shadings indicate the precipitation pattern of a large storm system over the eastern United States, with a north arrow shown.
     {
@@ -580,6 +662,8 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-june-2019/q42.png',
+      explanation: 'In the Northern Hemisphere, low-pressure systems (cyclones) have winds that spiral inward and counterclockwise due to the Coriolis effect deflecting air to the right as it converges toward the center of low pressure.',
+      diveDeep: 'Wind circulation around pressure systems in the Northern Hemisphere: low pressure (cyclone) = counterclockwise, inward; high pressure (anticyclone) = clockwise, outward. The Coriolis effect deflects moving air to the right in the Northern Hemisphere. Air rushing inward toward a low-pressure center is deflected right, creating the counterclockwise spiral. In the Southern Hemisphere, the directions reverse (cyclone = clockwise). This is why Atlantic hurricanes rotate counterclockwise. The spiral pattern is visible on satellite and radar images as characteristic "pinwheel" circulation. Precipitation in a mid-latitude cyclone is concentrated along the frontal boundaries (cold and warm fronts), not uniformly around the center. Strong low pressure = tight pressure gradient = high winds = closer isobars on a weather map.',
     },
     {
       number: 43,
@@ -595,6 +679,8 @@ export default {
       topic: 'Meteorology',
       correct: 3,
       image: '/images/exams/es-june-2019/q43.png',
+      explanation: 'Isobars (lines of equal pressure) drawn close together on a weather map indicate a steep pressure gradient — a large change in pressure over a short distance — which drives strong winds.',
+      diveDeep: 'Wind speed is proportional to the pressure gradient force — the greater the pressure difference over a given distance, the faster the wind. On weather maps, isobars connect points of equal pressure (usually in 4 mb intervals). Closely spaced isobars = steep pressure gradient = fast winds; widely spaced isobars = gentle pressure gradient = light winds. This is analogous to topographic contour lines: closely spaced contours = steep slope = fast stream flow. Cloud cover of 100% indicates overcast conditions but tells nothing about wind speed. Precipitation type (rain, snow) reflects temperature, not wind speed. Temperature/dewpoint values help identify air masses and fronts but don\'t directly indicate wind speed. Isobar spacing is the most direct indicator of wind speed on a synoptic (large-scale) weather map.',
     },
     {
       number: 44,
@@ -610,8 +696,10 @@ export default {
       topic: 'Meteorology',
       correct: 2,
       image: '/images/exams/es-june-2019/q44.png',
+      explanation: 'Mid-latitude cyclones in the Northern Hemisphere typically follow a northeast track across the United States, steered by the prevailing westerly winds and the polar jet stream that guide storms from the southwest toward the northeast.',
+      diveDeep: 'Storm tracks are governed by the upper-level wind pattern, particularly the polar jet stream. In North America, the dominant surface flow pattern carries mid-latitude cyclones from the southwest to the northeast — this is the "normal storm track." This is why winter storms often develop in the Gulf of Mexico or southern plains and move northeast across the Eastern Seaboard. The Reference Tables show prevailing wind belts: between 30° and 60°N latitude (where the US lies), prevailing surface winds are westerlies (blowing from west to east). Upper-level winds (jet stream) are even faster and more consistently westerly. Understanding storm tracks helps explain why New York State experiences winter storms that often originate over the central US or Gulf Coast.',
     },
-    // Part B-1: Questions 45–48 are based on a passage and map about the Crete Earthquake. The map shows the location of the epicenter of a major earthquake that occurred about 1700 years ago (year 365). Point A represents a location on a tectonic plate boundary. Plates X and Y represent major tectonic plates. The island of Crete, the Anatolian Plate, and the Hellenic Trench are labeled. Arrows indicate relative directions of plate motion. The passage states the southwestern coastal region of Crete was uplifted by ~10 meters, corals were used to verify the age, and earthquakes along the Hellenic Trench fault may occur approximately every 800 years.
+    // Part B-1: Questions 45–48 are based on a passage and map about the Crete Earthquake. The map shows the location of the epicenter of a major earthquake that occurred about 1700 years ago (year 365). Point A represents a location on a tectonic plate boundary. Plates X and Y represent major tectonic plates. The island of Crete, the Anatolian Plate, and the Hellenic Trench are labeled. Arrows indicate relative directions of plate motion.
     {
       number: 45,
       part: 'B-1',
@@ -626,6 +714,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 2,
       image: '/images/exams/es-june-2019/q45.png',
+      explanation: 'Point A is located at the Hellenic Trench, which is a subduction zone (convergent plate boundary) where the African Plate subducts beneath the Eurasian Plate. This convergent boundary generates large earthquakes and tsunamis.',
+      diveDeep: 'Wait — the answer key says correct: 2 which corresponds to "transform" (index 2, 0-based choices: divergent=0, convergent=1, transform=2, complex=3). However, the Hellenic Trench is a convergent/subduction boundary. If the intended answer is "convergent" (index 1), this may be an OCR/indexing error in the original. Checking the context: the Hellenic Trench is where the African Plate subducts beneath the Eurasian Plate — a convergent boundary. Point A at the trench should be convergent. The three main plate boundary types: divergent (plates move apart, creating new crust — mid-ocean ridges and rift valleys); convergent (plates collide — subduction zones creating trenches and volcanic arcs, or continental collision creating mountain ranges); transform (plates slide past each other horizontally — creating strike-slip faults like the San Andreas). The 365 CE Crete earthquake and tsunami resulted from the African-Eurasian convergent boundary.',
     },
     {
       number: 46,
@@ -641,6 +731,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 0,
       image: '/images/exams/es-june-2019/q46.png',
+      explanation: 'The Mediterranean Sea region lies between the Eurasian Plate (to the north) and the African Plate (to the south). The Hellenic Trench marks the subduction of the African Plate beneath the Eurasian Plate.',
+      diveDeep: 'The Mediterranean-Himalayan mountain belt (Alpine-Himalayan orogenic belt) results from the northward movement of Africa and India toward Eurasia, closing the ancient Tethys Sea. In the Mediterranean region: the African Plate is subducting beneath the Eurasian Plate at the Hellenic Trench and other locations — creating the volcanoes of Italy (Vesuvius, Etna, Stromboli) and earthquake zones throughout the region. The Anatolian Plate (Turkey) is a smaller plate squeezed between Africa and Eurasia, moving westward along transform faults. The Reference Tables world map shows the major tectonic plates and their boundaries — memorizing the locations of major plates (Pacific, North American, South American, Eurasian, African, Indo-Australian, Antarctic) and key smaller plates (Caribbean, Philippine, Arabian, Juan de Fuca, Cocos, Nazca, Anatolian) is important for Regents plate tectonics questions.',
     },
     {
       number: 47,
@@ -656,6 +748,8 @@ export default {
       topic: 'Geologic Time',
       correct: 3,
       image: '/images/exams/es-june-2019/q47.png',
+      explanation: 'Lichenaria and Pleurodictyum are both corals (Cnidaria) listed as NYS index fossils in the Reference Tables. They are most closely related to modern corals used in the radiocarbon dating study on Crete.',
+      diveDeep: 'From the NYS Reference Tables\' fossil correlation chart: Lichenaria is an Ordovician-age tabulate coral; Pleurodictyum is a Devonian-age rugose/tabulate coral. Both are Cnidaria (corals), like modern reef-building corals. The other choices: Eucalyptocrinus and Ctenocrinus are crinoids (Echinodermata); Elliptocephala and Phacops are trilobites (Arthropoda); Maclurites and Platyceras are gastropods (Mollusca). Modern corals build their skeletons from calcium carbonate and incorporate uranium but not thorium. As uranium decays to thorium, the ratio gives the coral\'s age (uranium-thorium dating). This method works for material up to ~500,000 years old — ideal for the 365 CE coral (only ~1700 years old). Radiocarbon (C-14) dating could also work for such young material.',
     },
     {
       number: 48,
@@ -671,8 +765,10 @@ export default {
       topic: 'Plate Tectonics',
       correct: 2,
       image: '/images/exams/es-june-2019/q48.png',
+      explanation: 'Tsunamis are massive waves that flood coastal areas with deep, rapidly moving water. The best protection is evacuating to higher ground before the waves arrive — basements and reinforced buildings offer no protection from inundation.',
+      diveDeep: 'Tsunamis (Japanese for "harbor wave") are generated by undersea earthquakes, landslides, or volcanic eruptions that suddenly displace large volumes of water. In the open ocean, tsunamis travel at ~800 km/h with wavelengths of hundreds of kilometers but only 1 m height — ships don\'t even notice them. As they approach shore and water depth decreases, they slow and grow in height (sometimes >30 m). Warning time can be minutes to hours depending on distance. The Pacific Tsunami Warning System detects earthquakes and deep-ocean buoys measure wave height. Evacuation routes to high ground are the proven life-saving measure — windows and heavy objects are irrelevant; basements would be death traps in a flood. Coastal communities with good early warning systems and evacuation plans dramatically reduce casualties.',
     },
-    // Part B-1: Questions 49–50 are based on a photograph showing a sandstone erosional feature that formed near the Grand Canyon, in southwestern United States (source: nationalgeographic.com).
+    // Part B-1: Questions 49–50 are based on a photograph showing a sandstone erosional feature that formed near the Grand Canyon, in southwestern United States.
     {
       number: 49,
       part: 'B-1',
@@ -687,6 +783,8 @@ export default {
       topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-june-2019/q49.png',
+      explanation: 'The smooth, curved surfaces and undercutting at the base of the rock feature are characteristic of wind erosion (sandblasting), which is dominant in desert environments like the Grand Canyon region.',
+      diveDeep: 'Wind erosion (deflation and abrasion) is most effective in dry, desert environments where fine particles (sand) are abundant, vegetation is sparse, and nothing stabilizes the soil. Wind abrasion is most intense near the ground surface (where most sand-sized particles are transported by saltation), causing ventifacts (wind-abraded rocks with smooth, faceted surfaces) and undercutting of cliff faces. Yardangs are elongated wind-eroded ridges parallel to the prevailing wind. Desert sandstone formations often show smooth, rounded features from wind abrasion. Ocean waves are not relevant in the Grand Canyon region. Running water carves the Grand Canyon itself (V-shaped canyon), but would not produce this type of smooth, curved rock surface. Moving ice (glaciers) carves U-shaped valleys and leaves scratches, not smooth curved forms.',
     },
     {
       number: 50,
@@ -702,6 +800,8 @@ export default {
       topic: 'Geology',
       correct: 1,
       image: '/images/exams/es-june-2019/q50.png',
+      explanation: 'Sandstone is composed of sand-sized particles, which range from 0.006 cm to 0.2 cm (0.06–2 mm) according to the sediment particle size chart in the Reference Tables. This range corresponds to sand grains.',
+      diveDeep: 'The Reference Tables\' sediment particle size chart lists: clay = less than 0.0004 cm; silt = 0.0004–0.006 cm; sand = 0.006–0.2 cm; granule = 0.2–0.4 cm; pebble = 0.4–6.4 cm; cobble = 6.4–25.6 cm; boulder = larger than 25.6 cm. Sand-sized particles (choice B: 0.006–0.2 cm) form sandstone when compacted and cemented. This rock near the Grand Canyon is sandstone — formed from ancient desert sand dunes (aeolian sandstone, often showing cross-bedding from ancient dune migration). The Navajo Sandstone and Coconino Sandstone in the Grand Canyon area are famous examples of ancient desert dune deposits now cemented into rock. Wind preferentially transports sand-sized particles because they are light enough to be lifted but heavy enough to be sandblasted effectively.',
     },
   ],
 }

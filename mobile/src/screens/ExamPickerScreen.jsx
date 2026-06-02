@@ -292,7 +292,25 @@ export default function ExamPickerScreen({ navigation }) {
     [SUBJECTS.ALGEBRA_2]:          A2_EXAMS,
     [SUBJECTS.GEOMETRY]:           GEO_EXAMS,
   }
-  const exams = EXAMS_BY_SUBJECT[subject] ?? LE_EXAMS
+  const exams = React.useMemo(() => {
+    const rawList = EXAMS_BY_SUBJECT[subject] ?? LE_EXAMS
+    const list = [...rawList]
+    const sessionOrder = { 'August': 3, 'June': 2, 'January': 1 }
+    list.sort((a, b) => {
+      const partsA = (a.label || '').split(' ')
+      const partsB = (b.label || '').split(' ')
+      const sessionA = partsA[0] || ''
+      const sessionB = partsB[0] || ''
+      const yearA = parseInt(partsA[1]) || 0
+      const yearB = parseInt(partsB[1]) || 0
+
+      if (yearA !== yearB) return yearB - yearA
+      const orderA = sessionOrder[sessionA] || 0
+      const orderB = sessionOrder[sessionB] || 0
+      return orderB - orderA
+    })
+    return list
+  }, [subject])
   const meta  = SUBJECT_META[subject] ?? SUBJECT_META['living-environment']
 
 

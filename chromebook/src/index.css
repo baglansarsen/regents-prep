@@ -211,7 +211,7 @@ button, input, select {
 .main-content {
   flex-grow: 1;
   height: 100%;
-  overflow-y: auto;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -222,9 +222,9 @@ button, input, select {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  min-height: 100%;
   display: flex;
   flex-direction: column;
+  gap: 0;
 }
 
 /* Two Column Layout on Dashboard */
@@ -1121,3 +1121,292 @@ button, input, select {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--text-dim);
 }
+
+/* ─── Gamification Suite & Mr. SeN's Upgrades ─── */
+
+/* Floating XP Particle */
+.floating-xp {
+  position: absolute;
+  color: var(--brand);
+  font-family: var(--font-outfit);
+  font-weight: 900;
+  font-size: 24px;
+  text-shadow: 0 0 10px rgba(88, 204, 2, 0.6), 0 2px 4px rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+  animation: float-up-fade 1.2s ease-out forwards;
+  z-index: 9999;
+}
+
+@keyframes float-up-fade {
+  0% {
+    transform: translateY(0) scale(0.6);
+    opacity: 0;
+  }
+  15% {
+    transform: translateY(-20px) scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-90px) scale(0.8);
+    opacity: 0;
+  }
+}
+
+/* Floating Pet Quiz Companion Bubble */
+.pet-quiz-companion {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: var(--surface);
+  border: 3px solid var(--border);
+  border-radius: 24px;
+  padding: 16px;
+  box-shadow: 0 10px 30px var(--shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  z-index: 100;
+  width: 140px;
+  animation: scale-up 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition: border-color 0.2s ease;
+}
+
+.pet-quiz-companion.correct {
+  border-color: var(--correct);
+  animation: pet-happy 0.5s ease infinite alternate;
+}
+
+.pet-quiz-companion.wrong {
+  border-color: var(--wrong);
+  animation: pet-shake 0.4s ease;
+}
+
+.pet-quiz-sprite-container {
+  font-size: 48px;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pet-quiz-bubble-speech {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 4px 8px;
+  font-size: 11px;
+  font-weight: 800;
+  text-align: center;
+  max-width: 120px;
+  line-height: 14px;
+  box-shadow: 0 2px 5px var(--shadow);
+}
+
+@keyframes pet-happy {
+  0% { transform: translateY(0) scale(1); }
+  100% { transform: translateY(-15px) scale(1.1); }
+}
+
+@keyframes pet-shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-6px) rotate(-5deg); }
+  75% { transform: translateX(6px) rotate(5deg); }
+}
+
+/* Daily Streak Shield Warning Banner */
+.streak-warning-banner {
+  background: linear-gradient(135deg, var(--warn-bg), #fffbeb);
+  border: 2px dashed var(--warn);
+  border-radius: 16px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 15px rgba(217, 119, 6, 0.1);
+  animation: pulse-border 2s infinite alternate;
+}
+
+[data-theme="dark"] .streak-warning-banner {
+  background: linear-gradient(135deg, #451a03, #1e1b4b);
+  border-color: var(--warn);
+}
+
+@keyframes pulse-border {
+  0% { box-shadow: 0 4px 15px rgba(217, 119, 6, 0.1); }
+  100% { box-shadow: 0 4px 20px rgba(217, 119, 6, 0.3); border-color: #f97316; }
+}
+
+/* Achievement Badge Chest Grid */
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.achievement-card {
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  position: relative;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+  box-shadow: 0 4px 12px var(--shadow);
+}
+
+.achievement-card.locked {
+  opacity: 0.65;
+  filter: grayscale(1);
+}
+
+.achievement-card:hover:not(.locked) {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px var(--shadow);
+  border-color: var(--brand);
+}
+
+.achievement-badge-icon {
+  font-size: 40px;
+  width: 64px;
+  height: 64px;
+  background: var(--surface-2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.06);
+}
+
+.achievement-card:not(.locked) .achievement-badge-icon {
+  background: linear-gradient(135deg, var(--brand-bg), #fff);
+  box-shadow: 0 4px 10px rgba(88, 204, 2, 0.2);
+}
+
+.achievement-name {
+  font-family: var(--font-outfit);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.achievement-desc {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 14px;
+}
+
+.achievement-progress-container {
+  width: 100%;
+  height: 6px;
+  background-color: var(--surface-3);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.achievement-progress-bar {
+  height: 100%;
+  background: var(--brand);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+/* Confetti Visual Canvas Overlay */
+.confetti-canvas-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 11000;
+}
+
+/* Mr. SeN's Announcement Board Card */
+.teacher-announcement-card {
+  background: linear-gradient(135deg, var(--purple-bg), var(--blue-bg));
+  border: 2px solid var(--purple-dark);
+  border-radius: 20px;
+  padding: 24px;
+  color: var(--text);
+  box-shadow: 0 8px 24px rgba(168, 85, 247, 0.15);
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  animation: scale-up 0.3s ease;
+}
+
+[data-theme="dark"] .teacher-announcement-card {
+  background: linear-gradient(135deg, #1e1b4b, #0f172a);
+  border-color: var(--purple);
+}
+
+.teacher-announcement-avatar {
+  font-size: 40px;
+  background: var(--surface);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  flex-shrink: 0;
+}
+
+/* ─── Premium UX/UI Skeleton Loading Screens ─── */
+.skeleton-box {
+  background: linear-gradient(90deg, var(--surface-2) 25%, var(--surface-3) 50%, var(--surface-2) 75%);
+  background-size: 200% 100%;
+  animation: loading-pulse 1.4s infinite linear;
+  border-radius: 8px;
+  border: none !important;
+}
+
+@keyframes loading-pulse {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.btn-duo:active, .btn-duo-outline:active, .sidebar-btn:active, .option-btn:active {
+  transform: scale(0.96) translateY(2px);
+  transition: transform 0.05s ease;
+}
+
+/* ─── Premium Deep Dive Modal Animations ─── */
+@keyframes modal-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modal-scale-up {
+  from {
+    transform: scale(0.9) translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+.modal-backdrop-animate {
+  animation: modal-fade-in 0.2s ease-out forwards;
+}
+
+.modal-content-animate {
+  animation: modal-scale-up 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+

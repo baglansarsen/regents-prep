@@ -110,3 +110,8 @@ INFO         | Warning: QObject::connect:  (receiver name: 'ToolControls') (:0, 
 INFO         | Created extended window in 227.17ms
 INFO         | Boot completed in 76744 ms
 INFO         | Increasing screen off timeout, logcat buffer size to 2M.
+INFO         | Wait for emulator (pid 89808) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+INFO         | Saving with gfxstream=1
+INFO         | Saving snapshot 'default_boot' using 7300 ms
+WARNING      | Netsim Wifi localhost:54292 is gone due to CANCELLED

@@ -15,9 +15,6 @@ export default function HomeScreen({
   weekDays,
   xp,
   level,
-  lives,
-  maxLives,
-  refillLives,
   hasFreeze,
   buyFreeze,
   pet,
@@ -152,12 +149,79 @@ export default function HomeScreen({
     }
   }
 
+  // Dismiss announcement local state
+  const [announcementDismissed, setAnnouncementDismissed] = useState(false)
+  const teacherAnn = localStorage.getItem('@teacher_announcement')
+
   return (
     <div className="screen-container">
       <div className="dashboard-grid">
         {/* Left Column: Study Path */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
           
+          {/* Mr. SeN's Bulletin Board Announcement */}
+          {teacherAnn && !announcementDismissed && (
+            <div className="teacher-announcement-card">
+              <div className="teacher-announcement-avatar">👨‍🏫</div>
+              <div style={{ flexGrow: 1 }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <h4 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '16px', color: 'var(--purple-dark)' }}>
+                    Mr. SeN's Bulletin Board
+                  </h4>
+                  <button 
+                    onClick={() => setAnnouncementDismissed(true)}
+                    style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '14px', opacity: 0.6 }}
+                  >
+                    ✕
+                  </button>
+                </div>
+                <p style={{ fontSize: '13px', marginTop: '6px', lineHeight: '18px', fontWeight: 700 }}>
+                  "{teacherAnn}"
+                </p>
+                <div style={{ display: 'flex', gap: '8px', marginTop: '10px' }}>
+                  <span className="pet-stage" style={{ fontSize: '10px', padding: '2px 6px', background: 'var(--purple-bg)', color: 'var(--purple-dark)' }}>
+                    Priority message
+                  </span>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Daily Streak Shield Warning Banner */}
+          {!studiedToday && streak > 0 && (
+            <div className="streak-warning-banner">
+              <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+                <span style={{ fontSize: '32px', animation: 'float 1s infinite alternate' }}>🔥</span>
+                <div>
+                  <h4 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 800, fontSize: '15px', color: 'var(--warn-dark)' }}>
+                    Streak Alert: Keep the fire burning!
+                  </h4>
+                  <p style={{ fontSize: '12px', opacity: 0.85, marginTop: '2px' }}>
+                    {hasFreeze ? (
+                      <span>❄️ You have a <strong>Streak Freeze</strong> equipped, but studying today keeps your momentum going!</span>
+                    ) : (
+                      <span>⚠️ Your <strong>{streak}-day study streak</strong> is in danger! Complete a quiz now to save it.</span>
+                    )}
+                  </p>
+                </div>
+              </div>
+              
+              <button 
+                onClick={() => setScreen('mistakes')}
+                className="btn-duo-outline"
+                style={{ 
+                  padding: '6px 12px', 
+                  fontSize: '11px', 
+                  borderColor: 'var(--warn-dark)', 
+                  color: 'var(--warn-dark)',
+                  background: 'transparent'
+                }}
+              >
+                Practice mistakes
+              </button>
+            </div>
+          )}
+
           {/* Diagnostic Placement Test Alert if new user */}
           {history.length === 0 && (
             <div className="card-glass" style={{

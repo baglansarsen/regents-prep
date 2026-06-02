@@ -1,7 +1,3 @@
-/**
- * StudyBuddyCompanion — floating mini-pet that accompanies study & quiz sessions.
- * Shows milestone reactions, speech bubbles, and cheers you on.
- */
 import React, { useEffect, useRef, useState } from 'react'
 import { View, Text, Animated, StyleSheet, TouchableOpacity } from 'react-native'
 import { PETS } from '../data/petConfig'
@@ -23,31 +19,28 @@ export default function StudyBuddyCompanion({
   onPress,
 }) {
   const { C } = useTheme()
-  const config = PETS.find((p) => p.id === petType)
-  if (!config || !petType) return null
-
   const [bubble, setBubble] = useState(null)
   const bubbleOpacity = useRef(new Animated.Value(0)).current
   const bounceY       = useRef(new Animated.Value(0)).current
   const scaleAnim     = useRef(new Animated.Value(1)).current
 
-  // Show message in speech bubble for 3s
+  const config = PETS.find((p) => p.id === petType)
+
   function showBubble(text) {
     setBubble(text)
     bubbleOpacity.setValue(0)
     Animated.sequence([
-      Animated.timing(bubbleOpacity, { toValue: 1, duration: 300, useNativeDriver: true }),
-      Animated.delay(2500),
-      Animated.timing(bubbleOpacity, { toValue: 0, duration: 400, useNativeDriver: true }),
+      Animated.timing(bubbleOpacity, { toValue: 1, duration: 250, useNativeDriver: true }),
+      Animated.delay(2800),
+      Animated.timing(bubbleOpacity, { toValue: 0, duration: 350, useNativeDriver: true }),
     ]).start(() => setBubble(null))
   }
 
-  // Bounce animation
   function bounce() {
     Animated.sequence([
-      Animated.spring(bounceY, { toValue: -12, useNativeDriver: true, tension: 400, friction: 5 }),
+      Animated.spring(bounceY, { toValue: -14, useNativeDriver: true, tension: 420, friction: 5 }),
       Animated.spring(bounceY, { toValue: -6,  useNativeDriver: true, tension: 300, friction: 5 }),
-      Animated.spring(bounceY, { toValue: -10, useNativeDriver: true, tension: 400, friction: 5 }),
+      Animated.spring(bounceY, { toValue: -10, useNativeDriver: true, tension: 400, friction: 6 }),
       Animated.spring(bounceY, { toValue: 0,   useNativeDriver: true, tension: 200, friction: 8 }),
     ]).start()
     Animated.sequence([
@@ -68,13 +61,16 @@ export default function StudyBuddyCompanion({
     return () => float.stop()
   }, [])
 
-  // React to external message prop
+  // React to milestone messages from parent
   useEffect(() => {
     if (message) {
       bounce()
       showBubble(message)
     }
   }, [message])
+
+  // Guard after all hooks
+  if (!config || !petType) return null
 
   const hat = accessories.includes('graduationCap') ? '🎓'
             : accessories.includes('wizardHat')     ? '🧙'
@@ -86,17 +82,17 @@ export default function StudyBuddyCompanion({
 
   return (
     <View style={s.container} pointerEvents="box-none">
-      {/* Speech bubble */}
+      {/* Speech bubble — appears above and to the left of the pet */}
       {bubble && (
         <Animated.View style={[s.bubble, { opacity: bubbleOpacity }]}>
           <Text style={s.bubbleText}>{bubble}</Text>
+          {/* Tail points down-right toward the pet */}
           <View style={s.bubbleTail} />
         </Animated.View>
       )}
 
-      {/* Pet */}
       <TouchableOpacity
-        activeOpacity={0.8}
+        activeOpacity={0.85}
         onPress={() => {
           bounce()
           const idx = Math.floor(Math.random() * IDLE_MESSAGES.length)
@@ -119,64 +115,65 @@ function makeStyles(C) {
   return StyleSheet.create({
     container: {
       position: 'absolute',
-      bottom: 100,
-      right: 16,
+      bottom: 110,     // clear the stats bar at bottom
+      right: 12,
       alignItems: 'flex-end',
       zIndex: 100,
     },
     petWrap: {
-      width: 56,
-      height: 56,
+      width: 54,
+      height: 54,
       alignItems: 'center',
       justifyContent: 'center',
     },
-    emoji: { fontSize: 42 },
+    emoji: { fontSize: 40 },
     hat: {
       position: 'absolute',
-      top: -10,
-      left: 10,
+      top: -8,
+      left: 8,
       fontSize: 20,
       zIndex: 2,
     },
     sunglasses: {
       position: 'absolute',
-      top: 10,
-      left: 12,
-      fontSize: 16,
+      top: 12,
+      left: 10,
+      fontSize: 15,
     },
     backpack: {
       position: 'absolute',
-      bottom: 2,
-      right: -2,
-      fontSize: 16,
+      bottom: 0,
+      right: -4,
+      fontSize: 15,
     },
     bubble: {
       backgroundColor: C.surface,
       borderColor: C.border,
       borderWidth: 1.5,
-      borderRadius: 12,
-      paddingHorizontal: 10,
-      paddingVertical: 7,
-      marginBottom: 6,
-      maxWidth: 170,
+      borderRadius: 14,
+      paddingHorizontal: 12,
+      paddingVertical: 8,
+      marginBottom: 8,
+      maxWidth: 180,
       shadowColor: C.shadow,
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 0.15,
-      shadowRadius: 4,
-      elevation: 3,
+      shadowOffset: { width: 0, height: 3 },
+      shadowOpacity: 0.18,
+      shadowRadius: 6,
+      elevation: 4,
     },
     bubbleText: {
-      fontSize: 12,
+      fontSize: 13,
       fontWeight: '600',
       color: C.text,
-      textAlign: 'right',
+      lineHeight: 18,
     },
+    // Tail points toward the pet (bottom-right corner of bubble)
     bubbleTail: {
       position: 'absolute',
-      bottom: -6,
-      right: 18,
-      width: 10,
-      height: 10,
+      bottom: -7,
+      right: 14,
+      width: 12,
+      height: 12,
       backgroundColor: C.surface,
       borderRightWidth: 1.5,
       borderBottomWidth: 1.5,

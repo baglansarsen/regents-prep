@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { doc, getDoc, setDoc, increment } from 'firebase/firestore'
 import AsyncStorage from '@react-native-async-storage/async-storage'
-import { db } from '../firebase'
+import { auth, db } from '../firebase'
 
 const AS_KEY = '@regents_xp_v1'
 
@@ -74,9 +74,18 @@ export function useXP(uid) {
     if (!uid || amount <= 0) return
     const earned = Math.round(amount * Math.max(1, multiplier))
 
+    const prevTotal    = xpRef.current
     const prevWeeklyXP = weeklyXPRef.current   // snapshot BEFORE optimistic update
-    const nextTotal    = xpRef.current + earned   // fresh ref, not stale closure
+    const nextTotal    = prevTotal + earned     // fresh ref, not stale closure
     _setXP(nextTotal)
+
+    // ── Level-up detection ─────────────────────────────────────────────────────
+    const prevLevel = getLevel(prevTotal).level
+    const newLevel  = getLevel(nextTotal).level
+    if (newLevel > prevLevel) {
+      const newLevelName = getLevel(nextTotal).name
+      try { await AsyncStorage.setItem('@levelUp', JSON.stringify({ level: newLevel, name: newLevelName })) } catch {}
+    }
 
     const week = getWeekKey()
     _setWeeklyXP(prevWeeklyXP + earned)        // optimistic
@@ -118,6 +127,7 @@ export function useXP(uid) {
         lbUpdate.lastWeekXP  = lastWeekXP
         lbUpdate.lastWeekKey = lastWeekKey
       }
+      lbUpdate.displayName = auth.currentUser?.displayName ?? 'Student'
       await setDoc(doc(db, 'leaderboard', uid), lbUpdate, { merge: true })
     } catch {}
 

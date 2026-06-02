@@ -7,9 +7,7 @@ import { useTheme } from '../context/ThemeContext'
 import StudyStack    from './StudyStack'
 import ExamsStack    from './ExamsStack'
 import ProgressStack from './ProgressStack'
-import FriendsStack  from './FriendsStack'
 import ProfileStack  from './ProfileStack'
-import FocusStack    from './FocusStack'
 import GlobalTopBar  from '../components/GlobalTopBar'
 
 const Tab = createBottomTabNavigator()
@@ -69,27 +67,11 @@ export default function TabNavigator() {
           }}
         />
         <Tab.Screen
-          name="FeedTab"
-          component={FriendsStack}
-          options={{
-            tabBarLabel: 'Feed',
-            tabBarIcon: ({ focused }) => <TabIcon emoji="🌐" focused={focused} />,
-          }}
-        />
-        <Tab.Screen
           name="ProfileTab"
           component={ProfileStack}
           options={{
             tabBarLabel: 'Profile',
             tabBarIcon: ({ focused }) => <TabIcon emoji="👤" focused={focused} />,
-          }}
-        />
-        <Tab.Screen
-          name="FocusTab"
-          component={FocusStack}
-          options={{
-            tabBarLabel: 'Focus',
-            tabBarIcon: ({ focused }) => <TabIcon emoji="⏱" focused={focused} />,
           }}
         />
       </Tab.Navigator>

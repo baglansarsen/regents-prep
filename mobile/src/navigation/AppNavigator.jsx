@@ -15,6 +15,8 @@ import SchoolOnboardingScreen   from '../screens/SchoolOnboardingScreen'
 import SubjectOnboardingScreen  from '../screens/SubjectOnboardingScreen'
 import PetPickerScreen, { petChosenKey } from '../screens/PetPickerScreen'
 import TabNavigator             from './TabNavigator'
+import FriendsStack             from './FriendsStack'
+import FocusStack               from './FocusStack'
 import ExamScreen               from '../screens/ExamScreen'
 import ExamResultsScreen        from '../screens/ExamResultsScreen'
 import PetShopScreen            from '../screens/PetShopScreen'
@@ -215,6 +217,10 @@ export default function AppNavigator() {
               options={{ presentation: 'fullScreenModal', animation: 'slide_from_bottom' }} />
             <Stack.Screen name="PetEvolution" component={PetEvolutionScreen}
               options={{ presentation: 'fullScreenModal', animation: 'fade' }} />
+            <Stack.Screen name="FriendsMain" component={FriendsStack}
+              options={{ presentation: 'modal', animation: 'slide_from_bottom' }} />
+            <Stack.Screen name="FocusMain" component={FocusStack}
+              options={{ presentation: 'modal', animation: 'slide_from_bottom' }} />
           </>
         )}
 

@@ -208,6 +208,7 @@ export default function GlobalTopBar() {
           </TouchableOpacity>
         )}
 
+
       </View>
 
       {/* Dropdown modal */}

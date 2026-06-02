@@ -164,7 +164,6 @@ export default function App() {
   const [tipsUnit,    setTipsUnit]    = useState(null)
   const [diagResult, setDiagResult]   = useState(null)
   const [speedResult, setSpeedResult] = useState(null)
-  const [noTimer, setNoTimer]         = useState(false)
   // Regents exam state
   const [activeExam, setActiveExam]         = useState(null)
   const [examResult, setExamResult]         = useState(null)
@@ -186,7 +185,6 @@ export default function App() {
     setQuestionSet(shuffled(pool))
     setActiveTopic(topic)
     setActiveLessonIndex(lessonIndex)
-    setNoTimer(false)
     setScreen('quiz')
   }, [questions, getByTopic, shuffled, sd])
 
@@ -203,7 +201,6 @@ export default function App() {
   const startContextPractice = useCallback(() => {
     setQuestionSet(shuffled(getContextual()))
     setActiveTopic(null)
-    setNoTimer(true)
     setScreen('quiz')
   }, [getContextual, shuffled])
 
@@ -301,7 +298,6 @@ export default function App() {
     setQuestionSet([...pool].sort(() => Math.random() - 0.5))
     setActiveTopic(null)
     setActiveLessonIndex(null)
-    setNoTimer(true)
     setScreen('quiz')
   }, [mistakes, subject])
 
@@ -515,7 +511,7 @@ export default function App() {
       )}
 
       {screen === 'quiz' && questionSet.length > 0 && (
-        <QuizScreen key={questionSet[0]?.id} questionSet={questionSet} onDone={finishQuiz} onHome={goHome} bookmarkedIds={bookmarkedIds} onBookmark={toggleBookmark} noTimer={noTimer} />
+        <QuizScreen key={questionSet[0]?.id} questionSet={questionSet} onDone={finishQuiz} onHome={goHome} bookmarkedIds={bookmarkedIds} onBookmark={toggleBookmark} />
       )}
 
       {screen === 'results' && quizResult && (

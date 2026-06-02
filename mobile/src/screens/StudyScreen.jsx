@@ -27,27 +27,22 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
   const [index, setIndex] = useState(0)
   const [gotIt, setGotIt] = useState(0)
   const [again, setAgain] = useState(0)
-
-  // Buddy companion message
   const [buddyMessage, setBuddyMessage] = useState(null)
 
-  // Floating +XP pip animation
   const xpPipOpacity = useRef(new Animated.Value(0)).current
   const xpPipY       = useRef(new Animated.Value(0)).current
-
-  // ── Study time tracking ──────────────────────────────────────────────────
   const lastMilestoneBoostRef = useRef(0)
+  const doneHandledRef = useRef(false)  // prevent double-firing on done screen
 
   const handleMilestone = useCallback((milestone) => {
     setBuddyMessage(milestone.message)
     triggerReaction(milestone.reaction)
-    // Boost pet happiness every milestone
     studyBoost?.()
   }, [triggerReaction, studyBoost])
 
   const { startSession, endSession, sessionSeconds } = useStudyTime(uid, earnXP, handleMilestone)
 
-  // Also boost pet happiness every 10 mins (600s) beyond existing milestones
+  // Boost pet happiness every 10 min of study (beyond the milestone system)
   useEffect(() => {
     const mins10 = Math.floor(sessionSeconds / 600)
     if (mins10 > lastMilestoneBoostRef.current) {
@@ -60,14 +55,21 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
   useEffect(() => {
     startSession('study')
     return () => { endSession() }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-
-  // ──────────────────────────────────────────────────────────────────────────
 
   const total   = deck.length
   const current = deck[index]
   const done    = index >= total
+
+  // Fire done-screen side effects exactly once, in an effect (not during render)
+  useEffect(() => {
+    if (done && !doneHandledRef.current) {
+      doneHandledRef.current = true
+      markStudied()
+      triggerReaction('happy')
+    }
+  }, [done])
 
   function goHome() {
     if (navigation?.goBack) { navigation.goBack(); return }
@@ -101,6 +103,7 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
   }
 
   function restart() {
+    doneHandledRef.current = false
     setDeck(shuffled(questionSet))
     setIndex(0)
     setGotIt(0)
@@ -111,11 +114,7 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
   const s = makeStyles(C)
 
   if (done) {
-    // Calculate time-based XP earned this session
-    const timeXP = Math.floor(sessionSeconds / 60)  // 1 XP/min drip already awarded; show total
-    markStudied()
-    triggerReaction('happy')
-
+    const timeXP = Math.floor(sessionSeconds / 60)
     return (
       <SafeAreaView style={s.safe}>
         <View style={s.doneScreen}>
@@ -124,16 +123,25 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
           <Text style={s.doneSub}>
             {gotIt} cards mastered · {again} marked for review
           </Text>
-          <Text style={[s.xpEarned, { color: C.brand }]}>+{gotIt * XP_PER_CARD} ⭐ XP earned</Text>
+
+          {/* XP summary row */}
+          <View style={[s.xpRow, { backgroundColor: C.warnBg, borderColor: C.warn + '50' }]}>
+            <Text style={[s.xpRowText, { color: C.warn }]}>+{gotIt * XP_PER_CARD} ⭐ card XP</Text>
+            {sessionSeconds >= 60 && (
+              <Text style={[s.xpRowText, { color: C.brand }]}>  ·  +{timeXP} ⏱ time XP</Text>
+            )}
+          </View>
+
           {sessionSeconds >= 60 && (
-            <Text style={[s.timeEarned, { color: C.textMuted }]}>
-              ⏱ {formatTime(sessionSeconds)} studied · +{timeXP} time XP
+            <Text style={[s.timeSub, { color: C.textMuted }]}>
+              Session: {formatTime(sessionSeconds)}
             </Text>
           )}
-          <TouchableOpacity style={s.restartBtn} onPress={restart} activeOpacity={0.85}>
+
+          <TouchableOpacity style={[s.restartBtn, { backgroundColor: C.brand }]} onPress={restart} activeOpacity={0.85}>
             <Text style={s.restartBtnText}>Study Again</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={s.homeBtn} onPress={goHome} activeOpacity={0.85}>
+          <TouchableOpacity style={[s.homeBtn, { backgroundColor: C.surface2 }]} onPress={goHome} activeOpacity={0.85}>
             <Text style={[s.homeBtnText, { color: C.text }]}>← Back</Text>
           </TouchableOpacity>
         </View>
@@ -143,23 +151,31 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
 
   return (
     <SafeAreaView style={s.safe}>
+      {/* Top bar — always 3 slots so layout never jumps */}
       <View style={s.topbar}>
-        <TouchableOpacity onPress={goHome} activeOpacity={0.7}>
-          <Text style={s.backText}>← Home</Text>
+        <TouchableOpacity onPress={goHome} activeOpacity={0.7} style={s.topbarSlot}>
+          <Text style={s.backText}>← Back</Text>
         </TouchableOpacity>
 
-        {/* Session timer */}
-        {sessionSeconds >= 10 && (
-          <Text style={[s.timerText, { color: C.brand }]}>⏱ {formatTime(sessionSeconds)}</Text>
-        )}
+        <View style={s.topbarCenter}>
+          {sessionSeconds >= 5 ? (
+            <View style={[s.timerPill, { backgroundColor: C.brand + '18', borderColor: C.brand + '40' }]}>
+              <Text style={[s.timerText, { color: C.brand }]}>⏱ {formatTime(sessionSeconds)}</Text>
+            </View>
+          ) : null}
+        </View>
 
-        <Text style={s.counter}>{index + 1} / {total}</Text>
+        <View style={s.topbarSlot}>
+          <Text style={[s.counter, { textAlign: 'right' }]}>{index + 1} / {total}</Text>
+        </View>
       </View>
 
+      {/* Progress bar */}
       <View style={s.progressTrack}>
         <View style={[s.progressFill, { width: `${Math.round((index / total) * 100)}%` }]} />
       </View>
 
+      {/* Card */}
       <View style={s.cardArea}>
         <StudyCard
           key={`${current?.id}-${index}`}
@@ -169,6 +185,7 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
         />
       </View>
 
+      {/* Stats footer */}
       <View style={s.stats}>
         <View>
           <Text style={s.statGot}>✓ {gotIt} mastered</Text>
@@ -196,21 +213,32 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
 function makeStyles(C) {
   return StyleSheet.create({
     safe: { flex: 1, backgroundColor: C.bg },
+
     topbar: {
       flexDirection: 'row',
-      justifyContent: 'space-between',
       alignItems: 'center',
-      paddingHorizontal: 20,
-      paddingTop: 12,
+      paddingHorizontal: 16,
+      paddingTop: 10,
       paddingBottom: 8,
     },
+    topbarSlot: { flex: 1 },
+    topbarCenter: { flex: 2, alignItems: 'center' },
     backText:  { fontSize: 14, color: C.textMuted },
-    timerText: { fontSize: 13, fontWeight: '700', letterSpacing: 0.3 },
     counter:   { fontSize: 14, color: C.textMuted },
+    timerPill: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      paddingHorizontal: 10,
+      paddingVertical: 4,
+      borderRadius: 99,
+      borderWidth: 1,
+    },
+    timerText: { fontSize: 13, fontWeight: '700', letterSpacing: 0.2 },
+
     progressTrack: {
       height: 4,
       backgroundColor: C.surface2,
-      marginHorizontal: 20,
+      marginHorizontal: 16,
       borderRadius: 99,
       overflow: 'hidden',
     },
@@ -219,33 +247,44 @@ function makeStyles(C) {
       backgroundColor: C.brand,
       borderRadius: 99,
     },
-    cardArea: { flex: 1, padding: 20, justifyContent: 'center' },
+
+    cardArea: { flex: 1, paddingHorizontal: 16, paddingTop: 12, justifyContent: 'center' },
+
     stats: {
       flexDirection: 'row',
       justifyContent: 'center',
-      gap: 24,
-      paddingBottom: 24,
+      gap: 28,
+      paddingVertical: 16,
+      paddingBottom: 20,
     },
-    statGot:   { fontSize: 13, color: C.correct, fontWeight: '600' },
+    statGot:   { fontSize: 13, color: C.correct, fontWeight: '700' },
     statAgain: { fontSize: 13, color: C.textMuted, fontWeight: '600' },
     xpPip:     { position: 'absolute', top: -18, left: 0, fontSize: 13, fontWeight: '800', color: C.brand },
-    xpEarned:  { fontSize: 15, fontWeight: '700', marginTop: 4 },
-    timeEarned:{ fontSize: 13, fontWeight: '500', marginTop: 2 },
 
+    // Done screen
     doneScreen: {
       flex: 1,
       alignItems: 'center',
       justifyContent: 'center',
-      padding: 32,
-      gap: 14,
+      padding: 28,
+      gap: 12,
     },
-    doneEmoji: { fontSize: 56, marginBottom: 4 },
-    doneTitle: { fontSize: 28, fontWeight: '800', color: C.text },
-    doneSub:   { fontSize: 15, color: C.textMuted, textAlign: 'center' },
+    doneEmoji:  { fontSize: 64, marginBottom: 4 },
+    doneTitle:  { fontSize: 28, fontWeight: '800', color: C.text },
+    doneSub:    { fontSize: 15, color: C.textMuted, textAlign: 'center' },
+    xpRow: {
+      flexDirection: 'row',
+      borderRadius: 12,
+      paddingHorizontal: 16,
+      paddingVertical: 10,
+      borderWidth: 1,
+      marginTop: 4,
+    },
+    xpRowText:  { fontSize: 15, fontWeight: '700' },
+    timeSub:    { fontSize: 13, marginTop: -4 },
     restartBtn: {
       width: '100%',
-      backgroundColor: C.brand,
-      borderRadius: 12,
+      borderRadius: 14,
       padding: 16,
       alignItems: 'center',
       marginTop: 8,
@@ -253,11 +292,10 @@ function makeStyles(C) {
     restartBtnText: { color: '#fff', fontSize: 16, fontWeight: '700' },
     homeBtn: {
       width: '100%',
-      backgroundColor: C.surface2,
-      borderRadius: 12,
+      borderRadius: 14,
       padding: 16,
       alignItems: 'center',
     },
-    homeBtnText: { fontSize: 16, fontWeight: '700' },
+    homeBtnText: { fontSize: 16, fontWeight: '600' },
   })
 }

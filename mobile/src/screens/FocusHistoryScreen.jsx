@@ -64,9 +64,8 @@ export default function FocusHistoryScreen({ navigation, route }) {
             <View key={date}>
               <Text style={[s.dateLabel, { color: C.textMuted }]}>{formatDate(date)}</Text>
               {sessions.map((session) => {
-                const duration = session.pomodorosCompleted * (
-                  session.preset === 'short' ? 15 : session.preset === 'long' ? 50 : 25
-                )
+                const presetMin = session.preset === 'short' ? 15 : session.preset === 'long' ? 50 : 25
+                const duration  = session.pomodorosCompleted * presetMin + (session.partialMinutes ?? 0)
                 const doneTasks  = (session.todos ?? []).filter((t) => t.done).length
                 const totalTasks = (session.todos ?? []).length
 
@@ -87,7 +86,14 @@ export default function FocusHistoryScreen({ navigation, route }) {
 
                     <View style={s.cardStats}>
                       <Text style={[s.statItem, { color: C.text }]}>⏱ {duration} min</Text>
-                      <Text style={[s.statItem, { color: C.text }]}>🍅 ×{session.pomodorosCompleted}</Text>
+                      {session.pomodorosCompleted > 0 && (
+                        <Text style={[s.statItem, { color: C.text }]}>🍅 ×{session.pomodorosCompleted}</Text>
+                      )}
+                      {session.partial && (
+                        <View style={[s.partialBadge, { backgroundColor: C.warnBg, borderColor: C.warn + '50' }]}>
+                          <Text style={[s.partialText, { color: C.warn }]}>partial</Text>
+                        </View>
+                      )}
                       {totalTasks > 0 && (
                         <Text style={[s.statItem, { color: doneTasks === totalTasks ? C.correct : C.textMuted }]}>
                           ✓ {doneTasks}/{totalTasks}
@@ -132,8 +138,10 @@ function makeStyles(C) {
     },
     subjectText: { fontSize: 13, fontWeight: '700' },
     xpBadge:     { fontSize: 14, fontWeight: '800' },
-    cardStats:   { flexDirection: 'row', gap: 16 },
-    statItem:    { fontSize: 14, fontWeight: '600' },
+    cardStats:    { flexDirection: 'row', gap: 16, alignItems: 'center' },
+    statItem:     { fontSize: 14, fontWeight: '600' },
+    partialBadge: { borderRadius: 8, borderWidth: 1, paddingHorizontal: 7, paddingVertical: 2 },
+    partialText:  { fontSize: 11, fontWeight: '700' },
     empty: {
       flex: 1,
       alignItems:     'center',

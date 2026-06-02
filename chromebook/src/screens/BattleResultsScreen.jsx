@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 export default function BattleResultsScreen({
   results = {},
@@ -17,15 +17,41 @@ export default function BattleResultsScreen({
       ? 'linear-gradient(135deg, var(--wrong), var(--wrong-dark))'
       : 'linear-gradient(135deg, var(--blue), var(--blue-dark))'
 
+  // CRITICAL: Allow body to scroll when results are shown
+  useEffect(() => {
+    document.body.style.overflow = 'auto'
+    document.body.style.height = 'auto'
+    document.documentElement.style.overflow = 'auto'
+    document.documentElement.style.height = 'auto'
+
+    return () => {
+      document.body.style.overflow = ''
+      document.body.style.height = ''
+      document.documentElement.style.overflow = ''
+      document.documentElement.style.height = ''
+    }
+  }, [])
+
   return (
-    <div className="quiz-layout" style={{ justifyContent: 'center', alignItems: 'center', overflowY: 'auto' }}>
+    <div style={{
+      minHeight: '100vh',
+      width: '100%',
+      backgroundColor: 'var(--bg)',
+      color: 'var(--text)',
+      fontFamily: 'var(--font-outfit)',
+      padding: '40px 16px 60px',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'flex-start',
+    }}>
       <div style={{
         maxWidth: '700px',
-        width: '90%',
+        width: '100%',
         display: 'flex',
         flexDirection: 'column',
         gap: '24px',
-        margin: '40px auto'
+        animation: 'fade-in 0.3s ease-out'
       }}>
         
         {/* Banner Victory Header */}
@@ -55,7 +81,7 @@ export default function BattleResultsScreen({
           
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 60px 1fr', gap: '20px', alignItems: 'center', marginTop: '20px' }}>
             {/* You Column */}
-            <div style={{ background: 'var(--surface-2)', padding: '20px', borderRadius: '16px', border: '1.5px solid var(--border)', textAlign: 'center' }}>
+            <div style={{ background: 'var(--surface-2)', padding: '20px', borderRadius: '16px', border: '2px solid var(--border)', textAlign: 'center' }}>
               <span style={{ fontSize: '32px' }}>🏃‍♂️</span>
               <h4 style={{ fontWeight: 800, fontSize: '16px', marginTop: '4px' }}>You</h4>
               
@@ -77,7 +103,7 @@ export default function BattleResultsScreen({
             </div>
 
             {/* Opponent Column */}
-            <div style={{ background: 'var(--surface-2)', padding: '20px', borderRadius: '16px', border: '1.5px solid var(--border)', textAlign: 'center' }}>
+            <div style={{ background: 'var(--surface-2)', padding: '20px', borderRadius: '16px', border: '2px solid var(--border)', textAlign: 'center' }}>
               <span style={{ fontSize: '32px' }}>{opponent.icon}</span>
               <h4 style={{ fontWeight: 800, fontSize: '16px', marginTop: '4px' }}>{opponent.name}</h4>
               
@@ -94,7 +120,7 @@ export default function BattleResultsScreen({
             </div>
           </div>
 
-          <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', marginTop: '24px', paddingTop: '16px', borderTop: '1px solid var(--border)' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', marginTop: '24px', paddingTop: '16px', borderTop: '2px solid var(--border)' }}>
             <div>
               <span style={{ fontSize: '12px', color: 'var(--text-muted)', fontWeight: 700 }}>Time Elapsed</span>
               <div style={{ fontSize: '18px', fontWeight: 900, marginTop: '2px', textAlign: 'center' }}>⏱️ {results.totalTime}s</div>
@@ -124,7 +150,11 @@ export default function BattleResultsScreen({
           </div>
         )}
 
-        <button onClick={onContinue} className="btn-duo btn-duo-purple" style={{ padding: '14px', fontSize: '15px' }}>
+        <button
+          onClick={onContinue}
+          className="btn-duo btn-duo-purple"
+          style={{ padding: '16px', fontSize: '16px', fontWeight: 800, cursor: 'pointer', width: '100%' }}
+        >
           Leave Arena & Continue
         </button>
 

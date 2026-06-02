@@ -1,10 +1,6 @@
 import { initializeApp } from 'firebase/app'
 import { getAuth, GoogleAuthProvider } from 'firebase/auth'
-import {
-  initializeFirestore,
-  persistentLocalCache,
-  persistentSingleTabManager,
-} from 'firebase/firestore'
+import { getFirestore } from 'firebase/firestore'
 
 const firebaseConfig = {
   apiKey:            "AIzaSyBZrJZ1MBnLAefK2gmc9B8YY5IS_AGBAUI",
@@ -20,9 +16,6 @@ const app = initializeApp(firebaseConfig)
 export const auth = getAuth(app)
 export const googleProvider = new GoogleAuthProvider()
 
-// Setup persistent single tab cache for lightning fast reloads
-export const db = initializeFirestore(app, {
-  localCache: persistentLocalCache({
-    tabManager: persistentSingleTabManager({ forceOwnership: false }),
-  }),
-})
+// Use default Firestore (no IndexedDB persistence) to avoid SDK version
+// mismatch crashes caused by stale cached data from a newer SDK version.
+export const db = getFirestore(app)

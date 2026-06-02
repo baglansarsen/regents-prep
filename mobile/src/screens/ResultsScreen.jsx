@@ -223,11 +223,25 @@ export default function ResultsScreen({ route, navigation }) {
               <Text style={[T.small, { color: C.text, lineHeight: 19 }]} numberOfLines={2}>
                 {r.question?.text}
               </Text>
-              {!r.correct && r.question && (
-                <Text style={[T.label, { color: C.correct, marginTop: 3, textTransform: 'none', letterSpacing: 0 }]}>
-                  ✓ {r.question.choices?.[r.question.correct ?? r.question.correctIndex]}
-                </Text>
-              )}
+              {!r.correct && r.question && (() => {
+                const q = r.question
+                const mcAnswer = q.choices?.[q.correct ?? q.correctIndex]
+                if (mcAnswer) {
+                  return (
+                    <Text style={[T.label, { color: C.correct, marginTop: 3, textTransform: 'none', letterSpacing: 0 }]}>
+                      ✓ {mcAnswer}
+                    </Text>
+                  )
+                }
+                if (q.explanation) {
+                  return (
+                    <Text style={[T.small, { color: C.correct, marginTop: 3, lineHeight: 18 }]} numberOfLines={3}>
+                      ✓ {q.explanation}
+                    </Text>
+                  )
+                }
+                return null
+              })()}
             </View>
             <Text style={{ fontSize: 16, marginLeft: 6 }}>{r.correct ? '✅' : '❌'}</Text>
           </View>

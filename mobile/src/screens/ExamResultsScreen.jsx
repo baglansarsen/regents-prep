@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useRef, useEffect } from 'react'
-import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Animated } from 'react-native'
+import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Animated, Modal } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { analyzeExamResults } from '../utils/topicAnalysis'
@@ -38,13 +38,19 @@ export default function ExamResultsScreen({ route, navigation }) {
   const { exam, questions, answers, writtenAnswers = {}, correct, total, xpEarned } = route.params
   const { C } = useTheme()
   const s = makeStyles(C)
-  const [showReview, setShowReview] = useState(false)
+  const [showReview,    setShowReview]    = useState(false)
   const [showStudyPlan, setShowStudyPlan] = useState(true)
+  const [diveDeepQ,     setDiveDeepQ]    = useState(null)
 
   const raw    = correct
   const scaled = getScaledScore(raw, total)
   const passed = scaled >= 65
   const color  = passed ? C.correct : C.wrong
+
+  const writtenQuestions  = questions.filter((q) => q.type === 'written')
+  const writtenMaxPts     = writtenQuestions.reduce((sum, q) => sum + (q.maxPoints ?? 1), 0)
+  const mcMaxPts          = questions.filter((q) => q.type !== 'written').length
+  const totalMaxPts       = mcMaxPts + writtenMaxPts
 
   const [displayScore, setDisplayScore] = useState(0)
   const [displayXP,    setDisplayXP]    = useState(0)
@@ -125,6 +131,27 @@ export default function ExamResultsScreen({ route, navigation }) {
               <Text style={[T.h3, { color: valueColor }]}>{value}</Text>
             </View>
           ))}
+
+          {/* Divider */}
+          <View style={{ height: 1, backgroundColor: C.border, marginVertical: 10 }} />
+
+          {/* Point breakdown */}
+          <Text style={[T.label, { color: C.textMuted, marginBottom: 8 }]}>EXAM POINT BREAKDOWN</Text>
+          <View style={s.breakdownRow}>
+            <Text style={[T.body, { color: C.textMuted }]}>Part I — MC ({mcMaxPts} pts max)</Text>
+            <Text style={[T.h3, { color: C.text }]}>{raw} / {mcMaxPts}</Text>
+          </View>
+          {writtenQuestions.length > 0 && (
+            <View style={s.breakdownRow}>
+              <Text style={[T.body, { color: C.textMuted }]}>Written Responses ({writtenMaxPts} pts max)</Text>
+              <Text style={[T.h3, { color: C.textMuted }]}>{writtenQuestions.length} submitted</Text>
+            </View>
+          )}
+          <View style={[s.breakdownRow, { marginTop: 4 }]}>
+            <Text style={[T.body, { color: C.text, fontWeight: '700' }]}>Total Possible Points</Text>
+            <Text style={[T.h3, { color: C.brand }]}>{totalMaxPts}</Text>
+          </View>
+
           <Text style={[T.small, { color: C.textDim, marginTop: 10, lineHeight: 16 }]}>
             ⚠️ Estimated score based on multiple-choice only. The official Regents
             conversion changes each exam and also counts written/lab responses, so
@@ -240,18 +267,32 @@ export default function ExamResultsScreen({ route, navigation }) {
               </View>
             )
           }
-          const userAns   = answers[i] ?? answers[String(i)]
+          const userAns    = answers[i] ?? answers[String(i)]
           const correctAns = q.correct ?? q.correctIndex
           const isCorrect  = userAns === correctAns
           return (
             <View key={i} style={[s.reviewRow, { borderColor: isCorrect ? C.correct : C.wrong }]}>
               <Text style={[T.label, { color: C.textMuted, width: 22, textTransform: 'none', letterSpacing: 0 }]}>{i + 1}</Text>
-              <View style={{ flex: 1 }}>
+              <View style={{ flex: 1, gap: 3 }}>
                 <Text style={[T.small, { color: C.text, lineHeight: 18 }]} numberOfLines={2}>{q.text}</Text>
                 {!isCorrect && (
-                  <Text style={[T.label, { color: C.correct, textTransform: 'none', letterSpacing: 0, marginTop: 2 }]}>
+                  <Text style={[T.label, { color: C.correct, textTransform: 'none', letterSpacing: 0 }]}>
                     ✓ {q.choices?.[correctAns]}
                   </Text>
+                )}
+                {q.explanation && (
+                  <Text style={[T.small, { color: C.textMuted, lineHeight: 16 }]} numberOfLines={2}>
+                    {q.explanation}
+                  </Text>
+                )}
+                {q.explanation && (
+                  <TouchableOpacity
+                    onPress={() => setDiveDeepQ(q)}
+                    style={[s.diveDeepBtn, { borderColor: C.brand + '50', backgroundColor: C.brandBg }]}
+                    activeOpacity={0.7}
+                  >
+                    <Text style={[T.label, { color: C.brand, textTransform: 'none', letterSpacing: 0 }]}>🔍 Dive Deep</Text>
+                  </TouchableOpacity>
                 )}
               </View>
               <Text>{isCorrect ? '✅' : '❌'}</Text>
@@ -259,24 +300,44 @@ export default function ExamResultsScreen({ route, navigation }) {
           )
         })}
 
-        {/* Actions */}
+        {/* Actions — read-only after submission, no retake */}
         <View style={s.actions}>
           <TouchableOpacity
             style={[duoBtn(C.brand, C.brandDark, { flex: 1 })]}
-            onPress={() => navigation.navigate('Exam', { exam, questions, subject: exam.subject })}
-          >
-            <Text style={[T.btn, { color: '#fff' }]}>🔄 RETAKE</Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={[duoBtnOutline(C.border, { flex: 1 })]}
             onPress={() => navigation.navigate('Main', { screen: 'ExamsTab', params: { screen: 'ExamPicker' } })}
           >
-            <Text style={[T.btn, { color: C.text }]}>← ALL EXAMS</Text>
+            <Text style={[T.btn, { color: '#fff' }]}>← ALL EXAMS</Text>
           </TouchableOpacity>
         </View>
 
         <View style={{ height: 20 }} />
       </ScrollView>
+
+      {/* Dive Deep modal */}
+      <Modal visible={!!diveDeepQ} transparent animationType="slide" onRequestClose={() => setDiveDeepQ(null)}>
+        <TouchableOpacity style={s.diveBackdrop} activeOpacity={1} onPress={() => setDiveDeepQ(null)} />
+        <View style={[s.diveSheet, { backgroundColor: C.surface }]}>
+          <View style={[s.diveHandle, { backgroundColor: C.border }]} />
+          <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ gap: 14, paddingBottom: 32 }}>
+            <Text style={[s.diveTitle, { color: C.brand }]}>🔍 Explanation</Text>
+            <Text style={[s.diveBody, { color: C.text }]}>{diveDeepQ?.explanation}</Text>
+            {diveDeepQ?.diveDeep && (
+              <>
+                <View style={[s.diveDivider, { backgroundColor: C.border }]} />
+                <Text style={[s.diveDeepLabel, { color: C.textMuted }]}>DEEP DIVE</Text>
+                <Text style={[s.diveBody, { color: C.text }]}>{diveDeepQ?.diveDeep}</Text>
+              </>
+            )}
+          </ScrollView>
+          <TouchableOpacity
+            style={[s.diveCloseBtn, { backgroundColor: C.brand }]}
+            onPress={() => setDiveDeepQ(null)}
+            activeOpacity={0.85}
+          >
+            <Text style={s.diveCloseBtnText}>Got it ✓</Text>
+          </TouchableOpacity>
+        </View>
+      </Modal>
     </SafeAreaView>
   )
 }
@@ -323,6 +384,16 @@ function makeStyles(C) {
       flexDirection: 'row', gap: 10, backgroundColor: C.surface,
       borderRadius: 12, padding: 12, borderLeftWidth: 3,
     },
-    actions:       { flexDirection: 'row', gap: 12, marginTop: 8 },
+    diveDeepBtn:     { alignSelf: 'flex-start', borderWidth: 1, borderRadius: 8, paddingHorizontal: 10, paddingVertical: 4, marginTop: 2 },
+    diveBackdrop:    { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.45)' },
+    diveSheet:       { position: 'absolute', bottom: 0, left: 0, right: 0, borderTopLeftRadius: 24, borderTopRightRadius: 24, padding: 20, maxHeight: '75%' },
+    diveHandle:      { width: 40, height: 4, borderRadius: 2, alignSelf: 'center', marginBottom: 16 },
+    diveTitle:       { fontSize: 17, fontWeight: '800' },
+    diveBody:        { fontSize: 15, lineHeight: 24 },
+    diveDivider:     { height: 1 },
+    diveDeepLabel:   { fontSize: 11, fontWeight: '700', letterSpacing: 1 },
+    diveCloseBtn:    { borderRadius: 14, paddingVertical: 14, alignItems: 'center', marginTop: 8 },
+    diveCloseBtnText:{ color: '#fff', fontWeight: '800', fontSize: 15 },
+    actions:         { flexDirection: 'row', gap: 12, marginTop: 8 },
   })
 }

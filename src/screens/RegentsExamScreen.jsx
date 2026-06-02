@@ -39,12 +39,15 @@ export default function RegentsExamScreen({ exam, onDone, onHome }) {
   const handleSubmit = useCallback((timedOut = false) => {
     clearInterval(timerRef.current)
     setSubmitted(true)
-    const results = questions.map((q, i) => ({
-      question: q,
-      selected: answers[i] ?? null,
-      correct: answers[i] === q.correct,
-      timedOut,
-    }))
+    const results = questions.map((q, i) => {
+      const isWritten = q.type === 'written'
+      return {
+        question: q,
+        selected: answers[i] ?? null,
+        correct: isWritten ? false : (answers[i] === q.correct),
+        timedOut,
+      }
+    })
     const correct = results.filter((r) => r.correct).length
     onDone({ exam, results, correct, total: questions.length, timedOut })
   }, [answers, exam, questions, onDone])
@@ -126,21 +129,52 @@ export default function RegentsExamScreen({ exam, onDone, onHome }) {
           </div>
         )}
 
-        <div className="choices">
-          {q.choices.map((text, i) => {
-            const selected = answers[current] === i
-            return (
-              <button
-                key={i}
-                className={`choice ${selected ? 'choice--selected-regents' : ''}`}
-                onClick={() => pickAnswer(i)}
-              >
-                <span className="choice-label">{LABELS[i]}</span>
-                <span className="choice-text">{text}</span>
-              </button>
-            )
-          })}
-        </div>
+        {q.type === 'written' ? (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', margin: '16px 0' }}>
+            <span style={{ fontSize: '14px', fontWeight: 'bold', color: 'var(--text-muted)' }}>
+              ✍️ Write your answer or show your work:
+            </span>
+            <textarea
+              className="free-response-textarea"
+              placeholder="Type your explanation, equations, or justification here..."
+              value={answers[current] || ''}
+              onChange={(e) => {
+                const val = e.target.value
+                setAnswers((prev) => ({ ...prev, [current]: val }))
+              }}
+              style={{
+                width: '100%',
+                minHeight: '140px',
+                padding: '12px',
+                fontSize: '15px',
+                color: 'var(--text)',
+                backgroundColor: 'rgba(255, 255, 255, 0.03)',
+                border: '1px solid var(--border)',
+                borderRadius: '8px',
+                resize: 'vertical',
+                outline: 'none',
+                fontFamily: 'inherit',
+                lineHeight: '22px'
+              }}
+            />
+          </div>
+        ) : (
+          <div className="choices">
+            {q.choices?.map((text, i) => {
+              const selected = answers[current] === i
+              return (
+                <button
+                  key={i}
+                  className={`choice ${selected ? 'choice--selected-regents' : ''}`}
+                  onClick={() => pickAnswer(i)}
+                >
+                  <span className="choice-label">{LABELS[i]}</span>
+                  <span className="choice-text">{text}</span>
+                </button>
+              )
+            })}
+          </div>
+        )}
 
         {/* Navigation */}
         <div className="regents-nav-row">

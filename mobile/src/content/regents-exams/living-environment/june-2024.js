@@ -23,6 +23,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 2,
+      explanation: 'Organelles are specialized structures within a cell that each perform specific functions — mitochondria produce ATP, ribosomes synthesize proteins, the Golgi apparatus packages molecules — together performing the metabolic processes (all chemical reactions) that keep the cell alive.',
+      diveDeep: 'Metabolism is the sum of all chemical reactions occurring in a cell, including anabolism (building molecules, requiring energy) and catabolism (breaking down molecules, releasing energy). Animal cells lack chloroplasts, so photosynthesis (choice A) is impossible in animal cells. Diffusion (choice B) is a physical process of molecular movement, not something organelles "carry out." Information storage (choice D) is a function specifically of the nucleus (DNA). The key concept: organelles are functionally interdependent — no single organelle can sustain life alone. Students should know the major organelle-function pairs and understand they collectively maintain cellular homeostasis.',
     },
     {
       number: 2,
@@ -36,6 +38,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 0,
+      explanation: 'New trees grow from shoots sent out by the root system (vegetative reproduction — a form of asexual reproduction). Since no fertilization or meiosis is involved, the new trees are genetically identical clones of the parent colony, produced through mitosis from existing root cells.',
+      diveDeep: 'Pando (the quaking aspen colony in Utah) is a famous example of a clonal organism — all 47,000+ stems are genetically identical, connected by a single root system. Vegetative reproduction is asexual: cells divide by mitosis, producing identical genetic copies. There is no mixing of genetic information from two parents, no meiosis, and no new allele combinations. All cells in an organism have the same amount of DNA (unless mature red blood cells or gametes) — root cells have the same genetic material as any other cell (choice C is wrong). Choice D (different gene combinations) requires sexual reproduction or mutation. Choice B is wrong — this is asexual, not sexual reproduction.',
     },
     {
       number: 3,
@@ -49,6 +53,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 2,
+      explanation: 'Different cell types in the prostate respond to different hormones because they have different receptor proteins on their cell membranes — center cells have testosterone receptors; outer cells have estrogen receptors. Receptors determine which signals a cell can detect and respond to.',
+      diveDeep: 'Hormone specificity depends on receptor-hormone complementarity (shape matching). A cell can only respond to a hormone if it has the matching receptor. Receptor proteins are encoded by different genes that are expressed (or not expressed) in different cell types during differentiation. All prostate cells have the same DNA (choice D is wrong — different DNA sequences would violate the principle that all body cells share the same genome). Choice A says center cells produce estrogen — but the passage says they respond to testosterone, not estrogen. Choice B says outer cells have testosterone receptors — but the passage says outer cells respond to estrogen, meaning they have estrogen receptors. This question tests understanding of cell signaling and receptor specificity.',
     },
     {
       number: 4,
@@ -62,6 +68,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 0,
+      explanation: 'Reducing species diversity lowers functional redundancy and disrupts food web connections — fewer species means fewer alternative pathways for energy flow, making the ecosystem more vulnerable to collapse if any remaining species is lost.',
+      diveDeep: 'Ecosystem stability is positively correlated with biodiversity. In this food web, multiple prey species support each predator — if one prey species disappears, predators can switch to others. Decomposers (choice B) are NOT included in the food web but are absolutely essential — without decomposers, nutrients would not cycle back to producers, and the food web would collapse (choice B is wrong). Grasses ARE present in the food web as producers (choice C is wrong). Energy pyramids show that lower trophic levels (rabbits) have more individuals than higher ones (foxes) — there would be MORE rabbits than foxes, not fewer (choice D is wrong). Students should connect species richness to ecosystem stability.',
     },
     {
       number: 5,
@@ -75,6 +83,8 @@ export default {
       ],
       topic: 'General',
       correct: 2,
+      explanation: 'Differentiation is the developmental process by which embryonic cells become progressively more specialized — different cells express different subsets of genes, developing into distinct cell types (muscle cells, nerve cells, epithelial cells) that form different tissues and organs.',
+      diveDeep: 'All cells in a multicellular organism originate from one zygote through repeated mitosis. Initially, cells are totipotent (can become any cell type). Through differentiation, they become progressively restricted: pluripotent (most cell types) → multipotent (limited cell types) → unipotent (one cell type). Chemical signals (morphogens, transcription factors, cell-to-cell contacts) direct which genes are expressed during differentiation. Fertilization (combining sperm and egg) = choice A describes fertilization, not differentiation. Choice B (forming different zygotes) describes variation in reproduction, not differentiation. Choice D (different sexes) describes sex determination, not cellular differentiation. Students should distinguish fertilization (forming zygote) from differentiation (zygote cells specializing).',
     },
     {
       number: 6,
@@ -88,6 +98,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 2,
+      explanation: 'The digestive system breaks down carbohydrates into glucose (absorption in small intestine) and the circulatory system transports this glucose through the bloodstream to all cells throughout the body. Both are essential to deliver glucose to cells.',
+      diveDeep: 'Glucose delivery pathway: food intake → mouth (amylase begins starch digestion) → stomach → small intestine (final digestion, glucose absorbed into blood capillaries via villi) → portal vein → liver → heart → arteries → capillaries at tissues → cells. The circulatory system is the transport network; the digestive system is the processing plant. The respiratory system (choice D) delivers oxygen to cells and removes CO₂ — not glucose. The nervous system coordinates body functions. The reproductive system produces gametes. Students should distinguish the roles of each body system: digestive = processes/absorbs nutrients; circulatory = transports materials; respiratory = gas exchange.',
     },
     {
       number: 7,
@@ -101,6 +113,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 2,
+      explanation: 'Each cell contains many organelles (mitochondria, ribosomes, endoplasmic reticulum, etc.), and there are trillions of cells in the human body. Since every cell contains hundreds to thousands of organelles, organelles are the most numerous structures listed.',
+      diveDeep: 'Biological organization hierarchy (from fewer to more numerous): organs (fewer, ~78 in humans) → tissues (hundreds) → cells (trillions, ~37 trillion in humans) → organelles (hundreds to thousands per cell × trillions of cells = the most numerous by far). A single liver cell contains approximately 1,000–2,000 mitochondria alone, plus thousands of ribosomes, multiple Golgi stacks, extensive ER, etc. Students are sometimes surprised that organelles outnumber cells — but each of ~37 trillion cells contains hundreds of organelles. The hierarchy from smallest/most numerous: organelles → cells → tissues → organs → organ systems → organism. Always think: the smaller the unit, the more numerous it is.',
     },
     {
       number: 8,
@@ -114,6 +128,8 @@ export default {
       ],
       topic: 'Reproduction',
       correct: 1,
+      explanation: 'In human females, gametes (eggs) are produced in the ovaries through oogenesis. Ovaries also produce estrogen, which regulates the reproductive cycle. Since dioxin disrupts gamete production in females, it most directly affects the ovaries and their associated hormone (estrogen) production.',
+      diveDeep: 'Female gamete production: ovaries contain follicles that mature and release eggs (ovulation) during the reproductive cycle. Ovarian granulosa and thecal cells also produce estrogen and progesterone. Dioxin (a persistent organic pollutant) disrupts endocrine function by binding to the Aryl Hydrocarbon Receptor (AhR), interfering with hormone signaling and gene expression. It can impair follicular development, ovulation, and hormonal balance. Testes (choice A) are male reproductive organs — dioxin affects female gamete production. Sperm cells (choice C) are male gametes — not relevant to female reproductive disruption. The pancreas (choice D) produces insulin for blood glucose regulation — unrelated to gamete production. Students should know which organs produce which gametes and hormones.',
     },
     {
       number: 9,
@@ -127,6 +143,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 0,
+      explanation: 'Genetic engineering (recombinant DNA technology) allows scientists to isolate a specific gene from one species and insert it into another species — even when they cannot interbreed sexually. This is the only method that can move a gene from one plant species to completely different crop species.',
+      diveDeep: 'Steps of genetic engineering to transfer a gene: (1) identify and isolate the protein-coding gene of interest using restriction enzymes; (2) insert the gene into a vector (plasmid or viral vector); (3) use the vector to transform target plant cells (via Agrobacterium, gene gun, or electroporation); (4) select transformed cells; (5) grow into transgenic plants. Selective breeding (choice B) can only work if the two species can cross-pollinate — a single plant species\' gene cannot be selectively bred into distantly related crops. Sexual reproduction (choice C) requires compatible species — also impossible across unrelated crop species. Gene deletion (choice D) removes genes rather than adding the desired gene. Genetic engineering is the ONLY method for inter-species gene transfer.',
     },
     {
       number: 10,
@@ -140,6 +158,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 3,
+      explanation: 'Herbivores eat producers (plants). If the herbivore population increases unchecked (due to fewer predators), they consume more plant material, causing the producer population to decrease — a classic trophic cascade.',
+      diveDeep: 'Trophic cascade: removing top predators → prey (herbivores) increase → producers (plants) decrease. This three-step cascade is well-documented in many ecosystems (wolves/elk/vegetation in Yellowstone; sea otters/sea urchins/kelp in Pacific). Decomposers (choice A) break down dead matter — they would increase if more organisms die and there\'s more dead matter, not decrease. Prey is herbivores in this context — they already increased (choice B would be wrong — herbivores ARE the prey of the predators). Consumers (choice C) include herbivores — they increased, not decreased. Only producers decrease when herbivores are more numerous. Students should trace the arrows of trophic cascades step by step.',
     },
     {
       number: 11,
@@ -153,6 +173,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 0,
+      explanation: 'For a mother\'s genetic information to be passed to her offspring, it must be accurately replicated (copied) and present in the egg cell (haploid gamete) that the mother contributes at fertilization. The egg carries half the mother\'s genetic information to the offspring.',
+      diveDeep: 'Maternal genetic transmission: (1) DNA is replicated in the mother\'s germ cells; (2) meiosis produces haploid egg cells (n=19 in lions, half the mother\'s 38 chromosomes); (3) the egg is fertilized by a sperm (carrying the father\'s half); (4) the zygote has the mother\'s haploid genome + the father\'s haploid genome → 50% of the cub\'s DNA comes from the lioness. The genetic information must be in the EGG (gamete), not in the mother\'s body cells. Choice B says combined with another lioness — wrong, it combines with the father\'s sperm. Choice C describes the father\'s contribution, not the mother\'s. Choice D about making enzymes for carbohydrates is unrelated to genetic inheritance. DNA replication before meiosis is essential for inheritance.',
     },
     {
       number: 12,
@@ -166,6 +188,8 @@ export default {
       ],
       topic: 'General',
       correct: 3,
+      explanation: 'The placenta is the interface between maternal and fetal blood supplies where gases, nutrients, and wastes are exchanged. Oxygen and nutrients pass from mother to fetus; CO₂ and fetal metabolic wastes pass from fetus to mother — all across the placental membrane without the two blood supplies actually mixing.',
+      diveDeep: 'The placenta is a remarkable organ formed from both maternal and fetal tissues. Key features: (1) maternal and fetal blood do NOT mix (they are separated by the placental barrier); (2) oxygen, glucose, amino acids, vitamins, and antibodies cross from mother to fetus; (3) CO₂ and urea cross from fetus to mother; (4) some substances (drugs, alcohol, certain pathogens like Rubella, HIV) can cross the placental barrier — it does NOT filter out all toxins (choice C is wrong). Meiosis occurs in ovaries, not the placenta (choice A wrong). Maternal and fetal blood absolutely do not mix (choice B wrong) — mixing would cause immune reactions. This placental exchange allows the fetus to breathe and get nutrition without having functional lungs or a digestive system.',
     },
     {
       number: 13,
@@ -179,6 +203,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 3,
+      explanation: 'Dynamic equilibrium describes the state of homeostasis — where the internal environment is not static but is continuously adjusted through feedback mechanisms to remain within a narrow stable range, despite ongoing external and internal changes.',
+      diveDeep: '"Dynamic" means constantly changing/active; "equilibrium" means balanced/stable. Together, dynamic equilibrium captures the essence of homeostasis: body temperature, blood glucose, and pH are not perfectly constant but oscillate within narrow ranges as the body continuously makes adjustments. Cellular respiration (choice A) produces ATP — it is one of many metabolic processes, not the term for the overall adjustment process. Active transport (choice B) moves molecules against gradients — a specific membrane transport mechanism. Natural selection (choice C) is an evolutionary process acting on populations over generations. Students should know that homeostasis = dynamic equilibrium = continual adjustments to maintain stable internal conditions.',
     },
     {
       number: 14,
@@ -192,6 +218,8 @@ export default {
       ],
       topic: 'Evolution',
       correct: 1,
+      explanation: 'Natural selection explains this adaptation: octopuses with random mutations producing more efficient oxygen-carrying proteins could survive in low-oxygen deep water; they reproduced more and passed the trait to offspring. Over generations, the advantageous protein became common in the deep-water population.',
+      diveDeep: 'This is a classic natural selection scenario: (1) variation existed in ancestral octopus population (different hemocyanin protein variants); (2) deep water has low O₂ — selection pressure; (3) octopuses with proteins that bound O₂ more efficiently could survive at depth; (4) those survived and reproduced → the efficient protein allele became more common. Choice C is Lamarckism (need-based protein development) — organisms cannot create new proteins on demand when they need them. Choice D (body cell mutations) is wrong because body cell mutations are not heritable — only germline mutations pass to offspring. Choice A says migration to shallower water favored the protein — but the deep-water octopuses live in deep water, not shallow. Students should recognize the Lamarckian trap in choice C.',
     },
     {
       number: 15,
@@ -205,6 +233,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 3,
+      explanation: 'The biological hierarchy is cells → tissues → organs. Tissue engineering must follow this order: first grow cells, which organize into tissues, which can then form an organ. You cannot skip levels in the hierarchy of biological organization.',
+      diveDeep: 'Tissue engineering typically: (1) obtains stem cells or patient\'s own cells; (2) grows cells on a scaffold (biopolymer framework shaped like the target organ); (3) cells divide and differentiate, filling the scaffold → tissue forms; (4) tissues organize into organ structure. This approach has successfully produced tracheas, bladders, and skin grafts. Choice A (assembling molecules directly into tissues) skips the cell level — molecules don\'t self-assemble into tissues without first forming cells. Choice B (making organelles to develop organs) skips the cell and tissue levels. Choice C (engineering body systems to develop organelles) is completely backwards — organelles are inside cells, not derived from body systems. Students must know the hierarchy: molecules → organelles → cells → tissues → organs → organ systems.',
     },
     {
       number: 16,
@@ -218,6 +248,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 0,
+      explanation: 'Digestive enzymes chemically break down large, complex food molecules (polysaccharides, proteins, fats) into small, absorbable units (monosaccharides, amino acids, fatty acids) that can cross the intestinal lining into the bloodstream and be used by cells.',
+      diveDeep: 'In cystic fibrosis, thick mucus blocks the ducts of the pancreas, preventing pancreatic enzymes (amylase, lipase, trypsin, etc.) from reaching the small intestine. Without these enzymes, large food molecules cannot be broken down and absorbed → malnutrition despite adequate food intake. Enzyme supplements replace these missing enzymes. Enzymes don\'t contain vitamins (choice B) — they are proteins that catalyze reactions. Enzymes don\'t synthesize large inorganic molecules (choice C) — digestion breaks molecules DOWN; also, nutrients are organic, not inorganic. Enzymes are not building blocks of carbohydrates (choice D) — they are proteins, not carbohydrates. Students should connect enzyme deficiency to malnutrition: no enzyme → food not digested → nutrients not absorbed → cells starved.',
     },
     {
       number: 17,
@@ -231,6 +263,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 2,
+      explanation: 'During meiosis (Process 1), independent assortment and crossing-over sort and recombine genes, producing gametes with unique gene combinations. Fertilization (Process 2) then combines two unique gametes, creating new genetic combinations not present in either parent.',
+      diveDeep: 'Genetic variation sources in sexual reproduction: (1) crossing-over during meiosis I (prophase I) — exchanges DNA segments between homologous chromosomes, creating new allele combinations on chromosomes; (2) independent assortment during meiosis I — random distribution of homologous pairs to cells; (3) fertilization — random union of gametes. Mutations in meiosis and fertilization (processes 1 and 2) CAN be passed to offspring because they occur in cells that contribute to gametes/zygote (choice A is wrong). Sexual reproduction produces genetically unique offspring, not exact copies (choice B is wrong — that\'s asexual reproduction). The zygote has the SAME chromosome number as adults (diploid) — mitosis restores the full number after meiosis halved it; offspring have the same amount of genetic information, not half (choice D is wrong).',
     },
     {
       number: 18,
@@ -244,6 +278,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 3,
+      explanation: 'The immune system recognizes the transplanted kidney\'s cells as "foreign" (non-self) because they carry different MHC (Major Histocompatibility Complex) proteins. T-cells and antibodies attack the transplant in a rejection response.',
+      diveDeep: 'Organ rejection is an immune response: T-cells (especially cytotoxic T-cells) recognize donor MHC proteins as foreign antigens → attack and destroy transplanted tissue. Rejection can be: (1) hyperacute (within minutes, antibody-mediated); (2) acute (days to weeks, T-cell mediated); (3) chronic (months to years, gradual immune damage). To prevent rejection: immunosuppressive drugs (cyclosporine, tacrolimus) suppress T-cell activity; HLA tissue typing matches donor and recipient as closely as possible. The excretory system (choice A) removes waste — it doesn\'t attack foreign tissue. The nervous system (choice B) coordinates responses but is not the rejection mechanism. The circulatory system (choice C) delivers immune cells to the transplant but is not itself the attacking system. Students should connect organ rejection to immune system function and MHC protein recognition.',
     },
     {
       number: 19,
@@ -257,6 +293,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 1,
+      explanation: 'An energy pyramid has producers (autotrophs) at the base (most energy), then herbivores (primary consumers), then carnivores (secondary consumers), with top carnivores at the apex (least energy). Column 2 correctly shows: A=producers → B=herbivores → C=carnivores → D=carnivores (top predators).',
+      diveDeep: 'Energy pyramids show: base (A) = producers (autotrophs, most energy, most biomass, most individuals); level B = primary consumers (herbivores); level C = secondary consumers (carnivores eating herbivores); level D (top) = tertiary consumers (top carnivores, least energy). Column 1 is wrong — it has producers in the middle (B) and herbivores at the base (A), which is inverted. Column 3 has autotrophs in level C (wrong — autotrophs are at the base) and heterotrophs at the top (wrong label — top organisms are specifically carnivores). Column 4 is wrong — it has producers at the top (D). Students should memorize: producers (base) → herbivores → carnivores → top carnivores (apex). Energy decreases at each higher level (~90% lost as heat).',
     },
     {
       number: 20,
@@ -271,6 +309,8 @@ export default {
       topic: 'Human Body',
       correct: 0,
       image: '/images/exams/le-june-2024/q20.png',
+      explanation: 'The described sequence is a negative feedback mechanism: a temperature drop (stimulus) triggers physiological responses (vasoconstriction, shivering) that generate and conserve heat, restoring body temperature to normal — the classic definition of homeostatic feedback.',
+      diveDeep: 'Thermoregulation negative feedback loop: temperature drop detected by thermoreceptors → signals sent to hypothalamus (body\'s thermostat) → hypothalamus activates effectors: (1) blood vessels in skin constrict (vasoconstriction) — reduces heat loss by keeping blood away from body surface; (2) skeletal muscles shiver (rapid contractions) — generate heat through muscle activity → body temperature rises back to 36–38°C. This is negative feedback: the response (warming) opposes the original change (cooling). Choice B (cellular communication) is too vague — this is specifically a homeostatic feedback mechanism. Choice C (immune response to heart rate) is wrong — the immune system fights pathogens, not temperature changes. Choice D (hormone production) is one part of the story (ADH and other hormones are involved in some homeostatic responses) but doesn\'t capture the full feedback mechanism described.',
     },
     {
       number: 21,
@@ -284,6 +324,8 @@ export default {
       ],
       topic: 'General',
       correct: 1,
+      explanation: 'Habitat destruction (from deforestation, urbanization, agriculture, pollution, and climate change) is the leading cause of wildlife population decline worldwide, eliminating the living space, food sources, shelter, and breeding sites that species need to survive.',
+      diveDeep: 'The WWF Living Planet Report tracks vertebrate animal populations. A 60% decline over 40 years is alarming and unprecedented in Earth\'s history outside of mass extinction events. The primary driver is human modification of habitats: land conversion for agriculture (~50% of habitable land), urban expansion, logging, mining, and water diversion. Secondary drivers include overexploitation (overfishing, hunting), invasive species, disease, and climate change. Successful reproduction (choice A) would increase populations, not decrease them. Environmental protection laws (choice C) slow decline — they are a solution, not a cause. Introducing NATIVE species (choice D) is a conservation strategy — introducing INVASIVE (non-native) species is harmful. The distinction between native and invasive species is critical.',
     },
     {
       number: 22,
@@ -297,6 +339,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 0,
+      explanation: 'Soil pH is a chemical property of the non-living soil component — it is an abiotic (non-living) factor. Soil pH affects nutrient availability and which plants can grow, influencing the entire ecosystem.',
+      diveDeep: 'Abiotic factors (non-living): temperature, water/precipitation, pH, salinity, light intensity, soil composition/mineral content, humidity, air pressure. Biotic factors (living): organisms and their interactions — predation, competition, mutualism, parasitism, population sizes. The number of deer (choice B) is a biotic factor — deer are living organisms. Different species of grass (choice C) are biotic — grass is a living plant species. The balance between predators and prey (choice D) is a biotic interaction. Soil pH affects whether certain nutrients (iron, nitrogen, phosphorus) are soluble and available to plants — acid rain in the Adirondacks has lowered soil pH, harming sensitive forest trees. Students should categorize any given environmental factor as abiotic (non-living, physical/chemical) or biotic (living or from living organisms).',
     },
     {
       number: 23,
@@ -310,6 +354,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 3,
+      explanation: 'Decomposers (bacteria and fungi) break down the organic compounds in owl waste products (uric acid, undigested material) into inorganic nutrients (nitrates, phosphates) that can be absorbed by plant roots. Without decomposers, nutrients would not be recycled back to producers.',
+      diveDeep: 'Nutrient cycling requires decomposers to process organic waste and dead matter back into inorganic forms that producers can use. Owl pellets and feces contain organic nitrogen compounds. Bacteria break these down (decomposition + nitrification) → ammonium → nitrites → nitrates → absorbed by grass roots. This closes the nutrient cycle. Autotrophs (choice A) are producers like grasses — they absorb nutrients but don\'t process waste. Carnivores (choice B) are predators — owls are carnivores, but they don\'t decompose their own waste. Herbivores (choice C) eat plants — field mice are herbivores, but again, they don\'t decompose waste. Only decomposers break down organic compounds in waste into inorganic forms available to plants. Students should trace nutrient cycling through food chains.',
     },
     {
       number: 24,
@@ -323,6 +369,8 @@ export default {
       ],
       topic: 'General',
       correct: 2,
+      explanation: 'Digestion breaks large molecules into smaller units (catabolism — breakdown), while synthesis builds large molecules from smaller units (anabolism — assembly). These are opposing processes: one tears apart what the other builds.',
+      diveDeep: 'Metabolism is divided into two opposing processes: catabolism (breakdown, releases energy — includes digestion and cellular respiration) and anabolism (synthesis/building, requires energy — includes protein synthesis, DNA replication, glycogen formation). Digestion (hydrolysis) breaks starch → glucose, proteins → amino acids, fats → fatty acids + glycerol. Synthesis (condensation/dehydration) builds glucose → starch, amino acids → proteins, fatty acids + glycerol → fats. The other pairs are NOT opposites: autotrophic nutrition and photosynthesis (choice A) are the same process — photosynthesis IS autotrophic nutrition. Asexual reproduction and cloning (choice B) are essentially the same thing. Natural selection and evolution (choice D) are related but not opposites — natural selection IS a mechanism OF evolution.',
     },
     {
       number: 25,
@@ -336,6 +384,8 @@ export default {
       ],
       topic: 'General',
       correct: 2,
+      explanation: 'Uncontrolled population growth exponentially increases demand for food, water, energy, and materials. As the human population grows without limits, it consumes finite resources (fossil fuels, freshwater, minerals, arable land) faster than they can be replenished or managed sustainably.',
+      diveDeep: 'Finite resources are non-renewable or limited: fossil fuels (coal, oil, natural gas), freshwater aquifers, topsoil, rare earth minerals, fishing stocks. Uncontrolled population growth increases per-capita resource consumption collectively: more food production needed (depleting soil and water), more energy needed (depleting fossil fuels), more land needed (destroying habitats). Recycling (choice A) reduces resource depletion — it is a conservation strategy. Wildlife habitat protection (choice B) preserves ecosystems and biodiversity — a positive action. Industrial pollution regulations (choice D) reduce environmental damage — also a positive action. Students should recognize that UNCONTROLLED population growth is the root driver of most environmental problems. Thomas Malthus famously analyzed population growth and resource limits in 1798.',
     },
     {
       number: 26,
@@ -349,6 +399,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 2,
+      explanation: 'Cloning from a single body cell produces genetically identical copies of the cell donor. Both clones came from the same donor body cell, so all three (donor + two clones) share the same nuclear DNA — they are genetically identical to each other and to the donor.',
+      diveDeep: 'Somatic cell nuclear transfer: one body cell\'s nucleus (with complete genome) is inserted into two separate enucleated eggs → two embryos develop → two cloned monkeys. Since both embryos received nuclei from the same original cell, they have identical nuclear DNA. The donor also has the same DNA. Very slight differences may exist due to mitochondrial DNA (from different enucleated egg donors) and epigenetic differences, but at the nuclear genome level, all three are genetically identical. Choice A (identical to each other but different from donor) would be true if they were cloned from the same source but that source was different — impossible in this scenario. Choice B (different from each other) would require different source cells. Choice D (different from everyone) contradicts the definition of cloning. Cloning always produces genetic copies of the source.',
     },
     {
       number: 27,
@@ -362,6 +414,8 @@ export default {
       ],
       topic: 'General',
       correct: 0,
+      explanation: 'Fish require dissolved oxygen for cellular respiration (breathing through gills). Severely reduced O₂ levels would cause fish to suffocate and die — immediately decreasing fish populations. This is called a hypoxic event.',
+      diveDeep: 'Hypoxia (low dissolved oxygen) in water bodies is caused by: algal blooms (when algae die and decompose, bacteria consume vast amounts of O₂), excessive fertilizer runoff (eutrophication), rising water temperatures (warm water holds less O₂), or direct pollution. Fish gills extract dissolved O₂ from water — at O₂ levels below ~4 mg/L, most fish experience stress; below 2 mg/L, mass fish kills occur. Aquatic "dead zones" (like those in the Gulf of Mexico) form when O₂ is depleted. Plants would INCREASE oxygen through photosynthesis, but low O₂ would harm them too (choice B incorrect). Biodiversity would DECREASE in a hypoxic event (choice C wrong). Water temperature is not directly affected by oxygen concentration (choice D wrong). Students should connect dissolved O₂ to aquatic animal survival.',
     },
     {
       number: 28,
@@ -375,6 +429,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 2,
+      explanation: 'Genetically engineered virus-resistant, faster-ripening papayas represent an agricultural biotechnology application designed to increase crop yields, reduce losses from disease, and improve profitability for farmers — a clear example of agricultural technology benefiting food production.',
+      diveDeep: 'The Rainbow papaya (genetically modified for ringspot virus resistance) saved Hawaii\'s papaya industry in the 1990s when ringspot virus nearly destroyed all crops. The transgenic papaya expresses a coat protein gene from the virus, providing immunity through a mechanism similar to vaccination. Agricultural biotechnology applications include: herbicide-tolerant crops (Roundup Ready), insect-resistant crops (Bt crops), virus-resistant crops (Rainbow papaya), faster-ripening fruits. Genetic modifications in food do NOT transfer to consumers (choice B) — genes in food are digested like any other DNA. The modifications don\'t cause slow ripening (choice A) — faster ripening was a goal. Virus-resistant crops cannot spread the virus (choice D) — the opposite is true, they are protected from it.',
     },
     {
       number: 29,
@@ -388,6 +444,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 0,
+      explanation: 'Vaccines introduce antigens that stimulate the immune system\'s B-cells to produce specific antibodies and memory cells. These antibodies and memory cells provide lasting protection — allowing a rapid, effective immune response when the actual pathogen is encountered.',
+      diveDeep: 'Vaccine-induced immunity: antigens in vaccine (weakened pathogen, killed pathogen, protein subunit, or mRNA instructions) → recognized by B-cells → B-cells proliferate (clonal expansion) → differentiate into plasma cells (produce specific antibodies) and memory B-cells → memory cells persist long-term → if actual pathogen enters later → memory cells rapidly produce large amounts of specific antibodies → pathogen neutralized before significant illness. Antibodies are produced BY the body, not synthesized as antigens (choice B — antigens are what stimulate the response, not what\'s produced). Vaccination should increase immune cell activity (choice C is wrong — more white blood cells would be produced, not fewer). Enzymes have nothing to do with direct immune defense against microbes (choice D). Antibody production is the central mechanism of vaccination.',
     },
     {
       number: 30,
@@ -401,6 +459,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 1,
+      explanation: 'Introduced predatory wasps are not specific to the target pest and may also attack beneficial insects (pollinators like bees, or other natural predators), disrupting ecological relationships and potentially causing unintended harm to the ecosystem.',
+      diveDeep: 'Biological control (using natural predators to control pests) can be effective but carries risks: introduced species may not stay confined to the target pest, preying on other species (non-target effects). Examples of failed biocontrols: cane toads introduced in Australia to control beetles ended up becoming major pests themselves. Wasps may predate native beneficial insects (pollinators, other pest controllers), disrupting food webs. Choice A is the intended BENEFIT, not a negative consequence. Choice C (mineral disruption) is not a mechanism by which wasps operate. Choice D (pesticide-resistant plants) is unrelated — wasps don\'t affect plant genetics. Students should understand environmental trade-offs of biological control methods versus chemical pesticides.',
     },
 
     // ── Part B-1 ──────────────────────────────────────────────────────────────
@@ -417,6 +477,8 @@ export default {
       ],
       topic: 'Evolution',
       correct: 2,
+      explanation: 'The data shows a wide range of mercury concentrations across species — some are very high (swordfish, mackerel) while others are very low (tilapia, shrimp). A balanced conclusion is that choosing low-mercury species provides omega-3 benefits without excessive mercury risk.',
+      diveDeep: 'This question requires interpreting data to make a balanced, evidence-based conclusion — a key scientific reasoning skill. Shrimp (0.009 ppm) and tilapia (0.013 ppm) have very low mercury — the claim that they contain "high levels" (choice A) is directly contradicted by the data. Saying mothers should ignore mercury concerns (choice B) is reckless — mercury causes serious neurological damage in developing fetuses. Recommending swordfish (0.995 ppm — highest) for pregnant women (choice D) is dangerous. The balanced conclusion (choice C) is most accurate: choose low-mercury species like shrimp, tilapia, trout, and halibut to get omega-3 benefits without mercury risk. The FDA and EPA recommend that pregnant women eat 2–3 servings/week of low-mercury seafood. Biomagnification explains why predatory fish (swordfish, mackerel) have higher mercury than small fish.',
     },
     {
       number: 32,
@@ -431,6 +493,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 1,
+      explanation: 'Industrialization from past and present generations has contaminated aquatic ecosystems with mercury. Pregnant mothers who eat high-mercury fish expose their developing fetuses to mercury — affecting future generations through the choices (industrial practices, dietary habits) of current generations.',
+      diveDeep: 'Mercury contamination is a multigenerational problem: industrial emissions release mercury → settles in water → bacteria convert to methylmercury (bioavailable form) → absorbed by phytoplankton → concentrates through food chain (biomagnification) → top predators (swordfish) have highest concentrations. When pregnant mothers consume high-mercury fish, methylmercury crosses the placenta and blood-brain barrier in the developing fetus, causing cognitive and neurological damage (Minamata disease — a famous historical case in Japan). This illustrates that industrial decisions made today affect children born decades later. Choice A directly contradicts the passage (industrialization HAS contributed). Choice C (plant-eating fish have highest mercury) is wrong — highest mercury is in large predatory fish (swordfish, mackerel) due to biomagnification. Choice D is wrong — mercury in fish comes from environmental contamination, not from humans eating fish.',
     },
     {
       number: 33,
@@ -444,6 +508,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 0,
+      explanation: 'A change in a protein\'s amino acid sequence (and thus its function) always originates from a change in the DNA base sequence in the nucleus. A DNA base mutation changes the codon sequence in mRNA, which changes the amino acid specified during translation.',
+      diveDeep: 'Central dogma chain of causation: DNA base sequence in nucleus → mRNA sequence (transcription) → amino acid sequence (translation) → protein 3D shape → protein function. When one amino acid in the pain receptor is different in grasshopper mice, it means one codon in the mRNA was different, which means 1–3 bases in the DNA gene were different (mutation). This mutation altered the receptor\'s structure enough to prevent scorpion venom from activating it. Fat molecules (choice B) are components of cell membranes — they don\'t encode protein sequences. DNA does not contain amino acids (choice C) — amino acids are the components of proteins, not DNA. Genes are in DNA, not in proteins (choice D) — proteins don\'t contain genes. Students should trace protein changes backwards to DNA mutations.',
     },
     {
       number: 34,
@@ -457,6 +523,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 1,
+      explanation: 'Deep-sea vent bacteria are chemoautotrophs — they produce organic compounds from inorganic sources. On land, the equivalent function is photosynthesis by plants (autotrophs that synthesize organic compounds from inorganic CO₂ and H₂O). Grasses are autotrophic producers, and photosynthesis is their energy-fixing process.',
+      diveDeep: 'Both chemoautotrophs (deep-sea) and photoautotrophs (land plants) are autotrophs — they fix inorganic carbon into organic molecules. The difference is energy source: chemoautotrophs use chemical energy (H₂S, Fe²⁺, etc.); photoautotrophs use light energy. In both cases, they produce organic matter from CO₂ and serve as the base of food chains (primary producers). Grasses + photosynthesis is the correct land equivalent. Small mammals (choices A and C) are heterotrophs — they consume organic matter, they don\'t produce it. Respiration (choices A and D) releases energy stored in organic compounds — it doesn\'t synthesize new organic compounds from inorganic ones. Grasses + respiration (choice D) is wrong because respiration releases energy, it doesn\'t fix carbon from inorganic sources.',
     },
     {
       number: 35,
@@ -471,6 +539,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 0,
+      explanation: 'Fish farming reduces genetic diversity among farmed fish (negative — makes them vulnerable to disease) but increases fish availability as a food source for humans (positive — meeting demand without further depleting wild stocks). Choice A correctly identifies these as the negative and positive consequences.',
+      diveDeep: 'Trade-offs of fish farming: POSITIVE — reduces fishing pressure on wild populations; provides reliable food supply; can be economic. NEGATIVE — farmed fish have low genetic diversity (inbreeding in small founder populations) → all susceptible to same diseases (as in monocultures); escaped farmed fish can interbreed with wild fish, reducing wild population\'s genetic diversity; farmed fish require feed (often wild-caught fish), can increase overall fishing pressure; can spread disease and parasites (sea lice) to wild fish. Choice B calls increased food sales a NEGATIVE and limited genetic diversity a POSITIVE — these are backwards. Choice C (decreased population size as positive) is backwards — fish farming should increase, not decrease, salmon availability. Choice D (increased biodiversity as negative) is backwards — increased biodiversity is generally positive.',
     },
     {
       number: 36,
@@ -484,6 +554,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 0,
+      explanation: 'The evolutionary relationships described: raccoon + red panda (raccoon lineage); bear + giant panda (bear lineage); raccoon lineage and bear lineage share a common ancestor ~50 mya. Tree 1 correctly shows raccoon-red panda as one clade, bear-giant panda as another clade, united by the ancient common ancestor.',
+      diveDeep: 'Phylogenetic trees show evolutionary relationships. The passage states: (1) bears and raccoons diverged ~50 mya; (2) giant pandas are more closely related to bears (within the bear lineage); (3) red pandas are more closely related to raccoons (within the raccoon lineage). This produces two clades: Clade 1: bears + giant pandas; Clade 2: raccoons + red pandas. These two clades share the ~50 mya common ancestor at the base of the tree. Tree 2 puts bear and red panda together — wrong (red panda is in the raccoon lineage). Tree 3 puts red panda with bears and giant pandas — wrong. Tree 4 puts giant panda with raccoons and red pandas — wrong (giant panda is in the bear lineage). Phylogenetics requires careful tracking of which species share more recent common ancestors.',
     },
     {
       number: 37,
@@ -498,6 +570,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 3,
+      explanation: 'Genetically identical organisms with different phenotypes must differ in gene expression, not in DNA sequence. Chemical signals from different predators trigger different patterns of gene expression in the water fleas, activating genes for different defensive body structures — a phenomenon called phenotypic plasticity.',
+      diveDeep: 'Water flea (Daphnia) defensive morphology is a stunning example of phenotypic plasticity: chemical cues (kairomones) released by predators are detected by water fleas → signaling pathways activate different transcription factors → different genes expressed → different body armor (neck teeth against fish; head shields against insects; no armor without predators). All three fleas have the SAME genes but express them differently based on predator cues. Choice A (random gene alterations from food) is wrong — these are reversible phenotypic changes, not DNA mutations. Choice B (predators cause mutations) is wrong — environmental signals change gene expression, not DNA sequence. Choice C (genes not involved) is wrong — genes encoding the structural proteins ARE involved; they are just differentially expressed. This exemplifies the genotype + environment → phenotype interaction.',
     },
     {
       number: 38,
@@ -512,6 +586,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 2,
+      explanation: 'A long-held scientific explanation (maternal-only mitochondrial inheritance) was overturned by new evidence — demonstrating that scientific knowledge is not permanent dogma but is always subject to revision when contradictory evidence emerges.',
+      diveDeep: 'Maternal mitochondrial inheritance was considered a fundamental rule for decades, used in evolutionary biology for tracing maternal lineages (mitochondrial Eve). The discovery of rare paternal mitochondrial inheritance cases challenges this model and shows that even well-established scientific "facts" can require revision. This is a strength of science, not a weakness — science self-corrects based on evidence. Choice A (reliability of sources) is about evaluating information quality, not about scientific knowledge evolution. Choice B (experiments without controls) is about experimental design validity. Choice D misrepresents science — technology advances help discover new findings; new findings refine theories but don\'t make them "invalid." Scientific theories are the strongest explanations supported by available evidence, always open to revision.',
     },
     {
       number: 39,
@@ -526,6 +602,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 3,
+      explanation: 'Mitochondria are the sites of cellular respiration, producing ATP (energy). Mutated mitochondria produce less ATP — muscle cells and neurons require large amounts of ATP, so mitochondrial dysfunction causes fatigue (muscles lack energy to contract) and pain (nerve cells malfunction).',
+      diveDeep: 'Mitochondrial diseases: mutations in mitochondrial DNA (mtDNA, which encodes components of the electron transport chain and ATP synthase) impair oxidative phosphorylation → reduced ATP production → cells with high energy demands (muscles, neurons, heart, kidneys) fail first. Symptoms: exercise intolerance and muscle weakness (fatigue), muscle pain (myopathy), neurological problems, heart disease. The brain and muscles are most affected because they use the most ATP per gram of tissue. Mitochondria do not produce antigens (choice A) or regulate nutrient transport (choice B). Muscles use glucose (broken down from starch), not starch directly — and mitochondria don\'t synthesize starch (choice C). Mitochondria are energy producers, not starch producers. Students should connect mitochondria exclusively to ATP production via cellular respiration.',
     },
     {
       number: 40,
@@ -540,6 +618,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 1,
+      explanation: 'The freeze acted as a natural selection event — cold-sensitive pythons died, but pythons with genetic variation conferring cold tolerance survived. The current population has a higher proportion of cold-tolerant individuals because the freeze differentially killed susceptible ones.',
+      diveDeep: 'This is a textbook natural selection scenario: (1) variation existed in cold tolerance before 2010; (2) the 2010 freeze was the selection pressure; (3) cold-tolerant individuals survived (differential survival); (4) survivors reproduced, passing cold-tolerance alleles to offspring; (5) current population has higher cold-tolerance allele frequency. This is an example of directional selection and the bottleneck/selection effect. Choice A (mutations appeared by need in 2010) is wrong — mutations are random and pre-existing; the freeze didn\'t cause beneficial mutations. Choice C (unable to reproduce during freeze) is wrong — the key is that cold-INTOLERANT pythons died before reproducing; COLD-TOLERANT ones survived and reproduced. Choice D (no change, same outcome next time) denies the shift in allele frequencies that natural selection produces. After selection, the population IS different genetically.',
     },
     {
       number: 41,
@@ -554,6 +634,8 @@ export default {
       ],
       topic: 'Evolution',
       correct: 3,
+      explanation: 'The successful expansion of Burmese pythons in the Everglades — adapting to eat smaller prey than in their native range — demonstrates that natural selection has already produced individuals well-suited to this new environment, with the population growing large and established.',
+      diveDeep: 'Burmese pythons (Python molurus bivittatus) were released/escaped in Florida and thrived because: no natural predators in the new environment; abundant prey (Florida has diverse mammal and bird fauna); warm, humid climate similar to native Southeast Asian range. The pythons that survived initial colonization and extreme weather events (like the 2010 freeze) were already adapted. Their flexible feeding behavior (able to eat various prey sizes) and broad thermal tolerance allowed successful establishment. Choice A is wrong — the passage says they expanded successfully, so food sources ARE appropriate. Choice B is Lamarckian — developing new organs as needed is impossible. Choice C (unlimited food) is an ecological impossibility — all resources are finite. Choice D correctly identifies successful natural selection-mediated adaptation to a new environment.',
     },
     {
       number: 42,
@@ -568,6 +650,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 2,
+      explanation: 'Reducing the trapping season from 46 to 30 days means fewer fishers are trapped each year, reducing human-caused mortality. With fewer individuals removed from the population, the population can grow.',
+      diveDeep: 'Population management principles: if mortality exceeds birth rate, population declines; reducing mortality allows population recovery. For fishers, the main mortality causes are: automobiles (difficult to control), trapping (controllable through regulation), habitat loss (controllable through land-use laws). Shortening the trapping season from 46 to 30 days = 35% reduction in trapping time → fewer fishers caught → reduced mortality → population recovery. Choice A (removing all regulations) would increase trapping → more deaths → population declines. Choice B (more trapping area) = more trapping → more deaths. Choice D (cheaper permits) = more trappers → more deaths. Any regulation that REDUCES trapping mortality will help the population. Students should apply population ecology principles: reduce mortality or increase reproduction → population grows.',
     },
     {
       number: 43,
@@ -582,6 +666,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 1,
+      explanation: 'Ecological succession allows disturbed ecosystems to recover gradually over time — pioneer species colonize, modify the environment, and are replaced by progressively more complex communities until a stable climax community is reached. This demonstrates ecosystems\' resilience.',
+      diveDeep: 'Ecological resilience — the ability of an ecosystem to recover from disturbance — is a fundamental property of complex ecosystems. After logging: grasses and weeds → shrubs → young trees → mature forest (secondary succession over decades to centuries). However: (1) recovery is GRADUAL, not quick (contradicting choice D); (2) recovery is possible but not instantaneous (contradicting "never" in choice A); (3) biodiversity generally INCREASES during recovery (contradicting choice C — a decrease in biodiversity would impair recovery, not enable it); (4) the recovered ecosystem may be similar but not identical to the original (choices A and D are both partially addressed). The nuanced answer is: ecosystems usually recover to long-term stability but it takes time, and the recovered state may differ somewhat from the pre-disturbance state. Students should connect ecological succession to ecosystem recovery from human disturbances.',
     },
 
     // Part B-2 (written / constructed response)
@@ -591,8 +677,8 @@ export default {
       context: 'Fishers are mammals that prefer forested areas. They have been affected by logging, road-building, and trapping. New regulations now limit trapping.',
       text: 'State ONE way that logging in fisher habitat can negatively affect the fisher population.',
       modelAnswer: 'Logging removes trees that provide shelter and hunting territory for fishers, reducing their available habitat and food sources such as squirrels that live in trees. This decreases the carrying capacity of the environment for fishers.',
-      maxPoints: 1,
-      topic: 'Ecology',
+      explanation: 'Logging destroys forested habitat that fishers require for shelter, travel corridors, and hunting — reducing the carrying capacity of the environment for this forest-dependent species.',
+      diveDeep: 'Habitat loss from logging affects fishers in multiple ways: loss of tree hollows and cavities used for denning and raising young; disruption of travel corridors through fragmented forest (roads and clearcuts); reduction of prey populations that also depend on forest (squirrels, snowshoe hares, porcupines); exposure to predators and human hunters when moving through open areas. Fishers are forest interior specialists — they avoid open areas and forest edges. Edge effects from logging increase vulnerability. This is a microcosm of how habitat fragmentation affects forest-dependent species globally.',
     },
     {
       number: 45, part: 'B-2',
@@ -600,8 +686,8 @@ export default {
       context: 'Fishers are one of the few organisms that successfully hunt and eat porcupines.',
       text: 'Explain how the fisher might be considered a keystone species in its ecosystem.',
       modelAnswer: 'Fishers control porcupine populations, which can damage trees by eating bark. Without fishers, porcupine populations could increase and cause significant damage to forest trees, altering the entire ecosystem. This disproportionate role makes fishers a keystone species.',
-      maxPoints: 2,
-      topic: 'Ecology',
+      explanation: 'Fishers are one of the very few predators that can kill and eat porcupines — making them uniquely responsible for controlling porcupine populations, which would otherwise irrupt and cause massive tree damage through bark-stripping.',
+      diveDeep: 'A keystone species has a disproportionately large effect on its ecosystem relative to its abundance. Fishers qualify because: without them, porcupine populations increase dramatically → porcupines strip bark from trees (girdling kills trees) → forest composition and health declines → all tree-dependent species are affected. This was documented in areas where fishers were extirpated — porcupine populations exploded and damaged forest trees. When fishers were reintroduced, porcupine populations declined and tree health improved. This parallels the wolf-elk-vegetation cascade in Yellowstone. Students should be able to explain the pathway from keystone species removal to ecosystem disruption.',
     },
     {
       number: 46, part: 'B-2',
@@ -609,24 +695,24 @@ export default {
       context: 'Living Environment Regents Exam — June 2024',
       text: 'Explain why biodiversity in an ecosystem is important for the stability of that ecosystem. Use an example in your answer.',
       modelAnswer: 'Biodiversity is important because ecosystems with more species are more resilient to disturbances. If one species is lost, others can fill its role. For example, if a single pollinator species is lost from an ecosystem with high biodiversity, other pollinators can continue to pollinate plants. In a low-biodiversity ecosystem, the loss of one pollinator could cause widespread plant decline.',
-      maxPoints: 2,
-      topic: 'Ecology',
+      explanation: 'Higher biodiversity provides functional redundancy — multiple species can perform similar ecological roles — so that the loss of any single species is less likely to cause catastrophic disruption, making the ecosystem more stable and resilient.',
+      diveDeep: 'Ecosystem stability has two components: resistance (withstanding disturbance) and resilience (recovering from disturbance). Both are enhanced by biodiversity. Functional redundancy means: if species A (a pollinator) disappears, species B and C can partially fill its role. In a monoculture (e.g., a field of one crop pollinated by one bee species), loss of that bee = loss of pollination = crop failure. In a diverse prairie with 50 pollinator species, losing one species has minimal impact. The relationship between biodiversity and stability was debated for decades but is now well-supported by studies showing more diverse ecosystems recover faster from drought, disease, and other disturbances. Students should provide a specific example (pollinators, predators, producers) when asked.',
     },
     {
       number: 47, part: 'B-2',
       type: 'written',
       text: 'Describe how a mutation in a gene that codes for an enzyme can affect the function of a cell.',
       modelAnswer: 'A mutation in a gene that codes for an enzyme can change the sequence of nucleotide bases, which may alter the sequence of amino acids in the enzyme. This change can alter the three-dimensional shape of the enzyme\'s active site. If the shape changes, the enzyme may no longer be able to bind to its substrate, reducing or eliminating its ability to catalyze the chemical reaction. This can disrupt cell processes that depend on the enzyme.',
-      maxPoints: 3,
-      topic: 'Cell Biology',
+      explanation: 'A DNA base mutation changes the mRNA codon sequence, potentially changing one or more amino acids in the enzyme, altering its three-dimensional shape and active site, reducing its ability to bind substrate and catalyze its reaction — disrupting dependent cellular processes.',
+      diveDeep: 'The complete pathway: DNA mutation → altered mRNA codon → different amino acid incorporated → protein folds differently → active site shape changes → substrate cannot bind properly → reaction rate decreases/stops → cellular process dependent on this enzyme is impaired → cell function disrupted. Depending on the enzyme\'s role, consequences can range from minor to lethal. Example: PKU (phenylketonuria) — a mutation in the PAH gene → non-functional phenylalanine hydroxylase enzyme → phenylalanine accumulates → neurological damage. Students should trace this complete pathway in their answers for full credit: gene → enzyme → function → cell effect.',
     },
     {
       number: 48, part: 'B-2',
       type: 'written',
       text: 'Explain how the process of natural selection leads to changes in a population over time.',
       modelAnswer: 'Natural selection occurs when individuals in a population have variations in their traits. Some variations provide a survival or reproductive advantage in the current environment. Individuals with advantageous traits are more likely to survive and reproduce, passing those traits to offspring. Over many generations, the frequency of advantageous traits increases in the population, leading to adaptation. If the environment changes significantly or populations become isolated, this process can eventually lead to the formation of new species.',
-      maxPoints: 3,
-      topic: 'Genetics',
+      explanation: 'Natural selection increases the frequency of advantageous heritable traits in a population over generations because individuals with those traits survive and reproduce more — gradually shifting the population\'s genetic makeup and potentially leading to the formation of new species.',
+      diveDeep: 'Natural selection requires four conditions (Darwin\'s postulates): (1) variation exists in the population (individuals differ in traits); (2) variation is heritable (traits are encoded in DNA); (3) struggle for existence (more offspring produced than can survive, limited resources); (4) differential reproduction (individuals with advantageous traits survive and reproduce more). Over generations: advantageous alleles increase in frequency, disadvantageous alleles decrease → population becomes better adapted to its environment. Over long time scales with geographic isolation: populations diverge into new species (speciation). Students should mention: variation, inheritance, differential survival/reproduction, and change in allele frequency over generations for full credit on free-response answers.',
     },
   ],
 }

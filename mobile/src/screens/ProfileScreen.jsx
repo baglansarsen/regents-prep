@@ -61,10 +61,13 @@ export default function ProfileScreen({ navigation }) {
     hour: notifHour, minute: notifMinute,
   } = useNotifications(streak)
 
-  const [showTimePicker, setShowTimePicker] = useState(false)
+  const [showTimePicker,    setShowTimePicker]    = useState(false)
+  const [showSubjectPicker, setShowSubjectPicker] = useState(false)
 
   // Slide-up animation for time picker modal
-  const slideAnim = useRef(new Animated.Value(400)).current
+  const slideAnim        = useRef(new Animated.Value(400)).current
+  const subjectSlideAnim = useRef(new Animated.Value(400)).current
+
   function openTimePicker() {
     setShowTimePicker(true)
     slideAnim.setValue(400)
@@ -73,6 +76,17 @@ export default function ProfileScreen({ navigation }) {
   function closeTimePicker() {
     Animated.timing(slideAnim, { toValue: 400, duration: 200, useNativeDriver: true }).start(
       () => setShowTimePicker(false)
+    )
+  }
+
+  function openSubjectPicker() {
+    setShowSubjectPicker(true)
+    subjectSlideAnim.setValue(400)
+    Animated.spring(subjectSlideAnim, { toValue: 0, tension: 120, friction: 10, useNativeDriver: true }).start()
+  }
+  function closeSubjectPicker() {
+    Animated.timing(subjectSlideAnim, { toValue: 400, duration: 200, useNativeDriver: true }).start(
+      () => setShowSubjectPicker(false)
     )
   }
 
@@ -144,26 +158,22 @@ export default function ProfileScreen({ navigation }) {
         </View>
 
         {/* ── Regents Exam Selection ── */}
-        <View style={[s.section, cardShadow(C.shadow), { backgroundColor: C.surface }]}>
-          <Text style={[T.label, { color: C.textMuted, marginBottom: 10 }]}>MY REGENTS EXAM</Text>
-          <View style={s.subjectGrid}>
-            {Object.values(SUBJECT_META).map(({ id, name, icon, color }) => {
-              const active = subject === id
-              return (
-                <TouchableOpacity
-                  key={id}
-                  style={[s.subjectChip, { borderColor: active ? color : C.border, backgroundColor: active ? color + '20' : C.surface2 }]}
-                  onPress={() => setSubject(id)}
-                  activeOpacity={0.75}
-                >
-                  <Text style={s.subjectIcon}>{icon}</Text>
-                  <Text style={[s.subjectName, { color: active ? color : C.textMuted }]}>{name}</Text>
-                  {active && <Text style={[s.subjectCheck, { color }]}>✓</Text>}
-                </TouchableOpacity>
-              )
-            })}
+        <TouchableOpacity
+          style={[s.rowCard, cardShadow(C.shadow)]}
+          onPress={openSubjectPicker}
+          activeOpacity={0.85}
+        >
+          <View style={s.rowLeft}>
+            <Text style={{ fontSize: 28 }}>{SUBJECT_META[subject]?.icon ?? '📚'}</Text>
+            <View style={{ marginLeft: 12 }}>
+              <Text style={[T.h3, { color: C.text }]}>My Regents Exam</Text>
+              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                {SUBJECT_META[subject]?.name ?? 'Select subject'}
+              </Text>
+            </View>
           </View>
-        </View>
+          <Text style={[T.body, { color: C.textMuted }]}>›</Text>
+        </TouchableOpacity>
 
         {/* ── School ── */}
         {!user?.isAnonymous && (
@@ -208,6 +218,22 @@ export default function ProfileScreen({ navigation }) {
             )}
             <Text style={[T.body, { color: C.textMuted }]}>›</Text>
           </View>
+        </TouchableOpacity>
+
+        {/* ── Feed ── */}
+        <TouchableOpacity
+          style={[s.rowCard, cardShadow(C.shadow)]}
+          onPress={() => navigation.navigate('FriendsMain')}
+          activeOpacity={0.85}
+        >
+          <View style={s.rowLeft}>
+            <Text style={{ fontSize: 28 }}>🌐</Text>
+            <View style={{ marginLeft: 12 }}>
+              <Text style={[T.h3, { color: C.text }]}>Feed</Text>
+              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Friends, league & challenges</Text>
+            </View>
+          </View>
+          <Text style={[T.body, { color: C.textMuted }]}>›</Text>
         </TouchableOpacity>
 
         {/* ── Support / Subscribe ── */}
@@ -325,6 +351,38 @@ export default function ProfileScreen({ navigation }) {
         <View style={{ height: 40 }} />
       </ScrollView>
 
+      {/* ── Subject Picker Modal ── */}
+      <Modal
+        visible={showSubjectPicker}
+        transparent
+        animationType="none"
+        onRequestClose={closeSubjectPicker}
+      >
+        <TouchableOpacity style={s.backdrop} activeOpacity={1} onPress={closeSubjectPicker} />
+        <Animated.View style={[s.sheet, { transform: [{ translateY: subjectSlideAnim }] }]}>
+          <View style={[s.handle, { backgroundColor: C.border }]} />
+          <Text style={[T.h3, { color: C.text, textAlign: 'center', marginBottom: 16 }]}>
+            My Regents Exam
+          </Text>
+          {Object.values(SUBJECT_META).map(({ id, name, icon, color }) => {
+            const active = subject === id
+            return (
+              <TouchableOpacity
+                key={id}
+                style={[s.subjectRow, { borderColor: active ? color : C.border, backgroundColor: active ? color + '15' : C.surface }]}
+                onPress={() => { setSubject(id); closeSubjectPicker() }}
+                activeOpacity={0.75}
+              >
+                <Text style={{ fontSize: 24 }}>{icon}</Text>
+                <Text style={[T.body, { color: active ? color : C.text, flex: 1, marginLeft: 12, fontWeight: active ? '700' : '400' }]}>{name}</Text>
+                {active && <Text style={{ color, fontSize: 16, fontWeight: '800' }}>✓</Text>}
+              </TouchableOpacity>
+            )
+          })}
+          <View style={{ height: 24 }} />
+        </Animated.View>
+      </Modal>
+
       {/* ── Time Picker Modal ── */}
       <Modal
         visible={showTimePicker}
@@ -405,12 +463,7 @@ function makeStyles(C) {
     statsRow:    { flexDirection: 'row', marginHorizontal: 16, gap: 10, marginBottom: 16 },
     statCard:    { flex: 1, backgroundColor: C.surface, borderRadius: 16, padding: 14, alignItems: 'center', borderWidth: 1, borderColor: C.border },
 
-    section:     { marginHorizontal: 16, marginBottom: 16, borderRadius: 18, padding: 16, borderWidth: 1, borderColor: C.border },
-    subjectGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
-    subjectChip: { flexDirection: 'row', alignItems: 'center', gap: 6, borderWidth: 1.5, borderRadius: 99, paddingHorizontal: 12, paddingVertical: 7 },
-    subjectIcon: { fontSize: 16 },
-    subjectName: { fontSize: 12, fontWeight: '700' },
-    subjectCheck:{ fontSize: 12, fontWeight: '800', marginLeft: 2 },
+    subjectRow:  { flexDirection: 'row', alignItems: 'center', borderWidth: 1.5, borderRadius: 14, paddingHorizontal: 14, paddingVertical: 13, marginBottom: 8 },
 
     rowCard: {
       flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',

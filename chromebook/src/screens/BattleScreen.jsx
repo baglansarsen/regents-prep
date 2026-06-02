@@ -6,6 +6,7 @@ export const OPPONENTS = [
   { id: 'buddy', name: 'Study Buddy Sophia', icon: '👧', title: 'Honor Roll Peer', difficulty: 'Medium', winRate: '58%', accuracy: 0.76, minTime: 4, maxTime: 7 },
   { id: 'overlord', name: 'Regents Overlord Kyle', icon: '🧑‍🎓', title: 'Varsity Quizmaster', difficulty: 'Hard', winRate: '82%', accuracy: 0.90, minTime: 3, maxTime: 5 },
   { id: 'grandmaster', name: 'AI Grandmaster G.P.T.', icon: '🤖', title: 'Virtual Oracle', difficulty: 'Expert', winRate: '96%', accuracy: 0.98, minTime: 2, maxTime: 4 },
+  { id: 'emperor_titan', name: 'Regents Emperor Titan 👑', icon: '🦖', title: 'Weekly Arena Boss', difficulty: 'Expert Boss', winRate: '99%', accuracy: 0.99, minTime: 2, maxTime: 3, isBoss: true },
 ]
 
 export default function BattleScreen({
@@ -62,11 +63,13 @@ export default function BattleScreen({
       return
     }
 
-    // Sample 10 random questions
-    const shuffled = [...questions].sort(() => Math.random() - 0.5)
-    const sample = shuffled.slice(0, 10)
-
     const targetOpponent = customOpponent || selectedOpponent
+    const count = targetOpponent.isBoss ? 15 : 10
+
+    // Sample random questions
+    const shuffled = [...questions].sort(() => Math.random() - 0.5)
+    const sample = shuffled.slice(0, count)
+
     onStartBattle(targetOpponent, sample)
   }
 

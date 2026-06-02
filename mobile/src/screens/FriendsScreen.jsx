@@ -300,8 +300,18 @@ export default function FriendsScreen({ navigation }) {
   }
 
   return (
-    <SafeAreaView style={s.safe} edges={['bottom']}>
-      <Text style={[T.h1, s.pageTitle]}>Social</Text>
+    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+      <View style={s.modalHeader}>
+        <Text style={[T.h1, { color: C.text }]}>Social</Text>
+        <TouchableOpacity
+          style={[s.closeBtn, { backgroundColor: C.surface2 }]}
+          onPress={() => navigation.goBack()}
+          activeOpacity={0.7}
+          hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+        >
+          <Text style={{ fontSize: 16, color: C.textMuted, fontWeight: '700' }}>✕</Text>
+        </TouchableOpacity>
+      </View>
 
       {/* Friend code banner */}
       {friendCode && (
@@ -531,7 +541,8 @@ export default function FriendsScreen({ navigation }) {
 function makeStyles(C) {
   return StyleSheet.create({
     safe:          { flex: 1, backgroundColor: C.bg },
-    pageTitle:     { color: C.text, paddingHorizontal: 20, paddingTop: 8, paddingBottom: 12 },
+    modalHeader:   { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 20, paddingTop: 8, paddingBottom: 12 },
+    closeBtn:      { width: 32, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
 
     codeBanner:    { marginHorizontal: 16, marginBottom: 10, backgroundColor: C.surface, borderRadius: 14, padding: 14, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderWidth: 1, borderColor: C.border },
     codeValue:     { fontSize: 22, fontFamily: 'Nunito_900Black', color: C.brand, letterSpacing: 3, marginTop: 2 },

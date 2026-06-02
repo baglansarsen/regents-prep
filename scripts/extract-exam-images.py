@@ -40,7 +40,7 @@ EXAMS = {
     'le-june-2023':   [BASE_LE + '623/lenv62023-examw.pdf'],
     'le-august-2022': [BASE_LE + '822/lenv82022-exam.pdf'],
     'le-june-2022':   [BASE_LE + '622/lenv62022-exam.pdf'],
-    'le-august-2021': [BASE_LE + '821/lenv-v202-exam.pdf'],
+    'le-august-2021': [BASE_LE + '621/lenv-v202-exam.pdf'],
     'le-june-2021':   [BASE_LE + '621/lenv-v202-exam.pdf'],
     'le-august-2019': [BASE_LE + '819/lenv82019-examw.pdf'],
     'le-june-2019':   [BASE_LE + '619/lenv62019-examw.pdf'],
@@ -269,7 +269,7 @@ def extract_images_for_questions(pdf_path, question_numbers):
 def read_image_question_numbers(exam_id):
     subject      = 'earth-science' if exam_id.startswith('es-') else 'living-environment'
     session_year = exam_id[3:]
-    js_path = os.path.join(REPO_ROOT, 'src', 'data', 'regents-exams', subject, f'{session_year}.js')
+    js_path = os.path.join(REPO_ROOT, 'shared', 'content', 'regents-exams', subject, f'{session_year}.js')
     if not os.path.exists(js_path):
         return []
     content = open(js_path).read()
@@ -288,7 +288,7 @@ VISUAL_RE = re.compile(
 def detect_image_candidates(exam_id):
     subject      = 'earth-science' if exam_id.startswith('es-') else 'living-environment'
     session_year = exam_id[3:]
-    js_path = os.path.join(REPO_ROOT, 'src', 'data', 'regents-exams', subject, f'{session_year}.js')
+    js_path = os.path.join(REPO_ROOT, 'shared', 'content', 'regents-exams', subject, f'{session_year}.js')
     if not os.path.exists(js_path):
         return []
     content = open(js_path).read()
@@ -307,7 +307,7 @@ def detect_image_candidates(exam_id):
 def add_image_fields_to_js(exam_id, q_nums):
     subject      = 'earth-science' if exam_id.startswith('es-') else 'living-environment'
     session_year = exam_id[3:]
-    js_path = os.path.join(REPO_ROOT, 'src', 'data', 'regents-exams', subject, f'{session_year}.js')
+    js_path = os.path.join(REPO_ROOT, 'shared', 'content', 'regents-exams', subject, f'{session_year}.js')
     content = open(js_path).read()
     changed = False
     for q_num in sorted(q_nums):

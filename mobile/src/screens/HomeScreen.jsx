@@ -477,58 +477,13 @@ export default function HomeScreen({ navigation }) {
             </Text>
           </View>
 
-          {/* Live stats: streak / hearts / XP */}
-          <View style={s.statusBar}>
-            <TouchableOpacity
-              style={s.statusChip}
-              onPress={() => {
-                if (hasFreeze) {
-                  Alert.alert('Streak Freeze', 'You already have a freeze active! It will protect your streak if you miss one day.')
-                } else if (xp >= 200) {
-                  Alert.alert('Protect Your Streak', `Buy a Streak Freeze for 200 XP?\n\nIt saves your streak if you miss one day.`, [
-                    { text: 'Cancel', style: 'cancel' },
-                    { text: 'Buy (200 XP)', onPress: () => buyFreeze(spendXP).then((res) => {
-                      if (res === 'success') Alert.alert('🧊 Freeze activated!', 'Your streak is protected for one missed day.')
-                    }) },
-                  ])
-                } else {
-                  Alert.alert('Streak Freeze', 'You need 200 XP to buy a Streak Freeze.')
-                }
-              }}
-              activeOpacity={0.7}
-            >
-              <Text style={s.statusIcon}>{hasFreeze ? '🧊' : '🔥'}</Text>
-              <Text style={[s.statusValue, { color: streak > 0 ? C.warn : C.textMuted }]}>{streak}</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity
-              style={s.statusChip}
-              onPress={() => Alert.alert('❤️ Lives', `You have ${lives} of ${maxLives} lives.\n\nYou gain 1 life every 30 minutes, or refill all for 300 XP.`, [
-                { text: 'OK', style: 'cancel' },
-                { text: 'Refill (300 XP)', onPress: () => refillLives(spendXP) },
-              ])}
-              activeOpacity={0.7}
-            >
-              <Text style={s.statusIcon}>❤️</Text>
-              <Text style={[s.statusValue, { color: lives < 3 ? C.wrong : C.text }]}>{lives}/{maxLives}</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity
-              style={s.statusChip}
-              onPress={() => navigation.navigate('Main', { screen: 'LeaderboardTab' })}
-              activeOpacity={0.7}
-            >
-              <Text style={s.statusIcon}>⭐</Text>
-              <Text style={[s.statusValue, { color: C.text }]}>{xp.toLocaleString()}</Text>
-            </TouchableOpacity>
-
-            {todaySeconds >= 60 && (
-              <View style={s.statusChip}>
-                <Text style={s.statusIcon}>📚</Text>
-                <Text style={[s.statusValue, { color: C.text }]}>{fmtStudyTime(todaySeconds)}</Text>
-              </View>
-            )}
-          </View>
+          {/* Study time today — shown only after 1 min of study */}
+          {todaySeconds >= 60 && (
+            <View style={[s.studyTimePill, { backgroundColor: C.brand + '18', borderColor: C.brand + '40' }]}>
+              <Text style={s.studyTimePillIcon}>📚</Text>
+              <Text style={[s.studyTimePillText, { color: C.brand }]}>{fmtStudyTime(todaySeconds)}</Text>
+            </View>
+          )}
         </View>
 
         {/* Week streak dots */}
@@ -714,11 +669,25 @@ export default function HomeScreen({ navigation }) {
           </TouchableOpacity>
         </View>
 
+        {/* ── FOCUS TIMER ── */}
+        <TouchableOpacity
+          style={[s.focusRow, elevatedCard(C), glassStyle]}
+          onPress={() => navigation.navigate('FocusMain')}
+          activeOpacity={0.85}
+        >
+          <Text style={{ fontSize: 22 }}>⏱</Text>
+          <View style={{ flex: 1, marginLeft: 12 }}>
+            <Text style={[T.h3, { color: C.text }]}>Focus Timer</Text>
+            <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Pomodoro study sessions</Text>
+          </View>
+          <Text style={{ fontSize: 18, color: C.textMuted }}>›</Text>
+        </TouchableOpacity>
+
         {/* ── LEAGUE WIDGET ── */}
         {tier !== 'none' && (
           <TouchableOpacity
             style={[s.leagueCard, elevatedCard(C), glassStyle]}
-            onPress={() => navigation.navigate('Main', { screen: 'LeaderboardTab' })}
+            onPress={() => navigation.navigate('FriendsMain')}
             activeOpacity={0.85}
           >
             <View style={{ flex: 1 }}>
@@ -1119,13 +1088,13 @@ function makeStyles(C) {
     safe:       { flex: 1, backgroundColor: C.bg },
     scroll:     { paddingBottom: 20 },
     header:       { paddingHorizontal: 20, paddingTop: 16, paddingBottom: 12, flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between', gap: 12 },
-    statusBar:    { flexDirection: 'row', gap: 6, alignItems: 'center', paddingTop: 4 },
-    statusChip:   { flexDirection: 'row', alignItems: 'center', gap: 3, backgroundColor: C.surface2, borderRadius: 14, paddingHorizontal: 8, paddingVertical: 6 },
-    statusIcon:   { fontSize: 15 },
-    statusValue:  { fontSize: 13, fontWeight: '700' },
+    studyTimePill: { flexDirection: 'row', alignItems: 'center', gap: 4, borderRadius: 14, paddingHorizontal: 10, paddingVertical: 6, borderWidth: 1, marginTop: 6, alignSelf: 'flex-start' },
+    studyTimePillIcon: { fontSize: 14 },
+    studyTimePillText: { fontSize: 13, fontWeight: '700' },
     freezeBanner: { marginHorizontal: 16, marginBottom: 12, borderRadius: 14, padding: 12, borderWidth: 1, gap: 8 },
     freezeBannerBtns: { flexDirection: 'row', alignItems: 'center', gap: 8 },
     freezeBtn:    { borderRadius: 10, paddingHorizontal: 12, paddingVertical: 7 },
+    focusRow:     { marginHorizontal: 16, marginBottom: 14, borderRadius: 16, padding: 14, flexDirection: 'row', alignItems: 'center', gap: 10 },
     leagueCard:   { marginHorizontal: 16, marginBottom: 14, borderRadius: 16, padding: 14, flexDirection: 'row', alignItems: 'center', gap: 10 },
     leagueHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
     coinChip:   { borderRadius: 16, paddingHorizontal: 10, paddingVertical: 5, borderWidth: 1 },
