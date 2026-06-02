@@ -9,6 +9,19 @@ import leJun2021 from './living-environment/june-2021'
 import leAug2021 from './living-environment/august-2021'
 import leJun2019 from './living-environment/june-2019'
 import leAug2019 from './living-environment/august-2019'
+import leJun2018 from './living-environment/june-2018'
+import leJun2017 from './living-environment/june-2017'
+import leJun2016 from './living-environment/june-2016'
+import leAug2025 from './living-environment/august-2025'
+import leAug2018 from './living-environment/august-2018'
+import leJan2026 from './living-environment/january-2026'
+import leJan2025 from './living-environment/january-2025'
+import leJan2024 from './living-environment/january-2024'
+import leJan2023 from './living-environment/january-2023'
+import leJan2020 from './living-environment/january-2020'
+import leJan2018 from './living-environment/january-2018'
+import leJan2017 from './living-environment/january-2017'
+import leJan2016 from './living-environment/january-2016'
 
 import esJun2025 from './earth-science/june-2025'
 import esJun2024 from './earth-science/june-2024'
@@ -21,11 +34,17 @@ import esJun2021 from './earth-science/june-2021'
 import esAug2021 from './earth-science/august-2021'
 import esJun2019 from './earth-science/june-2019'
 import esAug2019 from './earth-science/august-2019'
+import esJan2024 from './earth-science/january-2024'
 
 import chemJun2025 from './chemistry/june-2025'
 import chemJun2024 from './chemistry/june-2024'
 import chemAug2024 from './chemistry/august-2024'
 import chemJun2023 from './chemistry/june-2023'
+import chemJun2019 from './chemistry/june-2019'
+import chemJun2018 from './chemistry/june-2018'
+import chemJun2017 from './chemistry/june-2017'
+import chemJun2016 from './chemistry/june-2016'
+import chemAug2017 from './chemistry/august-2017'
 
 import physJun2025 from './physics/june-2025'
 import physJun2024 from './physics/june-2024'
@@ -70,12 +89,17 @@ import geoAug2019 from './geometry/august-2019'
 
 export const REGENTS_EXAMS = {
   'living-environment': [
-    leJun2025,
+    leJun2025, leAug2025,
     leJun2024, leAug2024,
     leJun2023, leAug2023,
     leJun2022, leAug2022,
     leJun2021, leAug2021,
     leJun2019, leAug2019,
+    leJun2018, leAug2018,
+    leJun2017,
+    leJun2016,
+    leJan2026, leJan2025, leJan2024, leJan2023,
+    leJan2020, leJan2018, leJan2017, leJan2016,
   ],
   'earth-science': [
     esJun2025,
@@ -84,9 +108,11 @@ export const REGENTS_EXAMS = {
     esJun2022, esAug2022,
     esJun2021, esAug2021,
     esJun2019, esAug2019,
+    esJan2024,
   ],
   'chemistry': [
     chemJun2025, chemJun2024, chemAug2024, chemJun2023,
+    chemJun2019, chemJun2018, chemJun2017, chemJun2016, chemAug2017,
   ],
   'physics': [
     physJun2025, physJun2024, physAug2024, physJun2023,

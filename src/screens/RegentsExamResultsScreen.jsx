@@ -208,6 +208,12 @@ export default function RegentsExamResultsScreen({ exam, results, correct: mcCor
                     {!r.correct && q.explanation && (
                       <p className="regents-review-explanation">{q.explanation}</p>
                     )}
+                    {q.diveDeep && (
+                      <details className="regents-review-divedeep">
+                        <summary>Dive Deep</summary>
+                        <p>{q.diveDeep}</p>
+                      </details>
+                    )}
                   </>
                 )}
               </div>

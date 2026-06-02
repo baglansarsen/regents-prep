@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { formatTime } from '../hooks/useStudyTime'
-import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Animated } from 'react-native'
+import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Animated, Modal } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
@@ -77,6 +77,7 @@ export default function ResultsScreen({ route, navigation }) {
   const { user } = useAuthContext()
   const { streak, weekDays } = useDailyStreak(user?.uid)
 
+  const [diveDeepQ,      setDiveDeepQ]      = useState(null)
   const [showCelebration, setShowCelebration] = useState(firstMastery)
   const [displayXP,    setDisplayXP]    = useState(0)
   const [showStreak,   setShowStreak]   = useState(false)
@@ -242,6 +243,15 @@ export default function ResultsScreen({ route, navigation }) {
                 }
                 return null
               })()}
+              {r.question?.explanation && (
+                <TouchableOpacity
+                  onPress={() => setDiveDeepQ(r.question)}
+                  style={[s.diveDeepBtn, { borderColor: C.brand + '50', backgroundColor: C.brand + '18' }]}
+                  activeOpacity={0.7}
+                >
+                  <Text style={[T.label, { color: C.brand, textTransform: 'none', letterSpacing: 0, fontSize: 12 }]}>🔍 Dive Deep</Text>
+                </TouchableOpacity>
+              )}
             </View>
             <Text style={{ fontSize: 16, marginLeft: 6 }}>{r.correct ? '✅' : '❌'}</Text>
           </View>
@@ -313,6 +323,32 @@ export default function ResultsScreen({ route, navigation }) {
         />
       )}
 
+      {/* ── Dive Deep modal ── */}
+      <Modal visible={!!diveDeepQ} transparent animationType="slide" onRequestClose={() => setDiveDeepQ(null)}>
+        <TouchableOpacity style={s.diveBackdrop} activeOpacity={1} onPress={() => setDiveDeepQ(null)} />
+        <View style={[s.diveSheet, { backgroundColor: C.surface }]}>
+          <View style={[s.diveHandle, { backgroundColor: C.border }]} />
+          <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ gap: 14, paddingBottom: 32 }}>
+            <Text style={[s.diveTitle, { color: C.brand }]}>🔍 Explanation</Text>
+            <Text style={[s.diveBody, { color: C.text }]}>{diveDeepQ?.explanation}</Text>
+            {diveDeepQ?.diveDeep && (
+              <>
+                <View style={[s.diveDivider, { backgroundColor: C.border }]} />
+                <Text style={[s.diveDeepLabel, { color: C.textMuted }]}>DEEP DIVE</Text>
+                <Text style={[s.diveBody, { color: C.text }]}>{diveDeepQ?.diveDeep}</Text>
+              </>
+            )}
+          </ScrollView>
+          <TouchableOpacity
+            style={[s.diveCloseBtn, { backgroundColor: C.brand }]}
+            onPress={() => setDiveDeepQ(null)}
+            activeOpacity={0.85}
+          >
+            <Text style={s.diveCloseBtnText}>Got it ✓</Text>
+          </TouchableOpacity>
+        </View>
+      </Modal>
+
     </SafeAreaView>
   )
 }
@@ -333,5 +369,15 @@ function makeStyles(C) {
     summaryBorder:{ borderTopWidth: 1, borderTopColor: C.border },
     resultRow:    { alignSelf: 'stretch', flexDirection: 'row', alignItems: 'flex-start', gap: 8, backgroundColor: C.surface, borderRadius: 12, padding: 12, borderLeftWidth: 3 },
     actions:      { alignSelf: 'stretch', flexDirection: 'row', gap: 12, marginTop: 8 },
+    diveDeepBtn:  { alignSelf: 'flex-start', borderWidth: 1, borderRadius: 8, paddingHorizontal: 10, paddingVertical: 4, marginTop: 6 },
+    diveBackdrop: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.45)' },
+    diveSheet:    { position: 'absolute', bottom: 0, left: 0, right: 0, borderTopLeftRadius: 24, borderTopRightRadius: 24, padding: 20, maxHeight: '75%' },
+    diveHandle:   { width: 40, height: 4, borderRadius: 2, alignSelf: 'center', marginBottom: 16 },
+    diveTitle:    { fontSize: 17, fontWeight: '800' },
+    diveBody:     { fontSize: 15, lineHeight: 24 },
+    diveDivider:  { height: 1 },
+    diveDeepLabel:{ fontSize: 11, fontWeight: '700', letterSpacing: 1 },
+    diveCloseBtn: { borderRadius: 14, paddingVertical: 14, alignItems: 'center', marginTop: 8 },
+    diveCloseBtnText: { color: '#fff', fontWeight: '700', fontSize: 15 },
   })
 }

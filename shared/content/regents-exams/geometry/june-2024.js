@@ -172,7 +172,7 @@ export default {
       topic: 'Similarity & Proof',
       correct: 2,
       explanation: 'Under a dilation, area scales by the SQUARE of the scale factor, so △DRS has 3² = 9 times the area of △KLM, not 3 times — making that statement false.',
-      diveDeep: 'When a figure is dilated by scale factor k: angles are preserved (so ∠K = ∠D, making choice 1 false as an inequality but the question asks "not always true"), lengths scale by k, perimeter scales by k, but AREA scales by k². This area-versus-length distinction is one of the most tested ideas in Geometry. The trap in choice 3 is applying the linear factor (3) to area when it should be squared (9). Note choice 1 says m∠K > m∠D which is never true since they're equal — but choice 3 is the intended "not always true" area statement. Always remember: area uses the square of the scale factor, volume uses the cube.'
+      diveDeep: 'When a figure is dilated by scale factor k: angles are preserved (so ∠K = ∠D, making choice 1 false as an inequality but the question asks "not always true"), lengths scale by k, perimeter scales by k, but AREA scales by k². This area-versus-length distinction is one of the most tested ideas in Geometry. The trap in choice 3 is applying the linear factor (3) to area when it should be squared (9). Note choice 1 says m∠K > m∠D which is never true since they\'re equal — but choice 3 is the intended "not always true" area statement. Always remember: area uses the square of the scale factor, volume uses the cube.'
     },
     {
       number: 15,
@@ -187,7 +187,7 @@ export default {
       topic: 'Area & Volume',
       correct: 1,
       explanation: 'Rotating a rectangle about one side sweeps out a cylinder; spinning about the 4-foot side makes that side the axis (height = 4) and the perpendicular 7-foot side the radius.',
-      diveDeep: 'Rotating a 2-D shape about an axis is a "solid of revolution": a rectangle generates a cylinder, while a right triangle generates a cone. The side you rotate about becomes the axis (the height), and the side perpendicular to it becomes the radius. The trap is swapping height and radius — the rotation axis is always the height. Visualize the side staying fixed (axis) while the opposite side sweeps a circle of radius equal to the rectangle's width.'
+      diveDeep: 'Rotating a 2-D shape about an axis is a "solid of revolution": a rectangle generates a cylinder, while a right triangle generates a cone. The side you rotate about becomes the axis (the height), and the side perpendicular to it becomes the radius. The trap is swapping height and radius — the rotation axis is always the height. Visualize the side staying fixed (axis) while the opposite side sweeps a circle of radius equal to the rectangle\'s width.'
     },
     {
       number: 16,

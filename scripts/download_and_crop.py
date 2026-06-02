@@ -320,7 +320,8 @@ def parse_needed_images(exam_key, force=True):
         qnum = int(m.group(1))
         img_path = m.group(2)
         disk_path = PUBLIC_DIR + img_path.replace('/images/exams', '')
-        if force or not os.path.exists(disk_path):
+        # force=True → replace placeholders only (not good real images)
+        if not os.path.exists(disk_path) or (force and is_placeholder(disk_path)):
             needed[qnum] = disk_path
     return needed
 
@@ -389,39 +390,38 @@ def extract_from_pdf(pdf_path, qnum, subject):
             if block.get("type") != 0:
                 continue
             for line in block.get("lines", []):
-                for span in line.get("spans", []):
-                    raw = span.get("text", "")
-                    text = raw.strip()
-                    font_size = span.get("size", 0)
-                    bbox = span.get("bbox", [0,0,0,0])
-                    x_pos = bbox[0]
+                if not line.get("spans"):
+                    continue
+                line_text  = " ".join(s.get("text","") for s in line["spans"]).strip()
+                first_span = line["spans"][0]
+                font_size  = first_span.get("size", 0)
+                bbox       = first_span.get("bbox", [0,0,0,0])
+                x_pos      = bbox[0]
+                y_pos      = bbox[1]
 
-                    # Pattern A: standalone number ("1", "24", etc.)
-                    # Pattern B: number at start of line ("1 Producers...", "24 The graph...")
-                    is_q = False
-                    is_next_q = False
+                if font_size < 9:
+                    continue
 
-                    if font_size >= 9 and x_pos < page_w * 0.18:
-                        # Pattern A
-                        if text == str(qnum):
-                            is_q = True
-                        elif text == str(qnum + 1):
-                            is_next_q = True
-                        # Pattern B — number starts the span
-                        elif re.match(rf'^{qnum}\s+\S', text):
-                            is_q = True
-                        elif re.match(rf'^{qnum+1}\s+\S', text):
-                            is_next_q = True
-                        # Pattern C — number alone at start of block (some formats)
-                        elif text.startswith(f'{qnum} ') or text == str(qnum):
-                            is_q = True
-                        elif text.startswith(f'{qnum+1} ') or text == str(qnum+1):
-                            is_next_q = True
+                in_left  = x_pos < 70
+                in_right = page_w * 0.42 < x_pos < page_w * 0.60
 
-                    if is_q:
-                        q_block_y = bbox[1]
-                    if is_next_q and q_block_y is not None and bbox[1] > q_block_y:
-                        next_q_y = min(next_q_y, bbox[1])
+                if not (in_left or in_right):
+                    continue
+
+                is_q = False; is_next_q = False
+
+                # Pattern A: standalone number
+                if re.match(r'^\d{1,2}$', line_text) and in_left:
+                    if line_text == str(qnum):     is_q      = True
+                    elif line_text == str(qnum+1): is_next_q = True
+                # Pattern B/C: number at start of line
+                elif re.match(rf'^{qnum}[\s\t.]+\S', line_text):     is_q      = True
+                elif re.match(rf'^{qnum+1}[\s\t.]+\S', line_text):   is_next_q = True
+
+                if is_q:
+                    q_block_y = y_pos
+                if is_next_q and q_block_y is not None and y_pos > q_block_y:
+                    next_q_y = min(next_q_y, y_pos)
 
         if q_block_y is None:
             continue
@@ -508,30 +508,40 @@ def extract_all_images_from_exam(pdf_path, needed_questions, subject):
             if block.get("type") != 0:
                 continue
             for line in block.get("lines", []):
-                for span in line.get("spans", []):
-                    raw = span.get("text", "")
-                    text = raw.strip()
-                    font_size = span.get("size", 0)
-                    bbox = span.get("bbox", [0,0,0,0])
-                    x_pos = bbox[0]
-                    if font_size >= 9 and x_pos < page_w * 0.18:
-                        # Pattern A: standalone number (tight x for math exams)
-                        if re.match(r'^\d{1,2}$', text) and x_pos < 70:
-                            q_num = int(text)
-                            if q_num not in q_positions:
-                                q_positions[q_num] = (page_num, bbox[1])
-                        # Pattern B: number+space or number+tab starts span
-                        m = re.match(r'^(\d{1,2})[\s\t]+\S', text)
-                        if m:
-                            q_num = int(m.group(1))
-                            if q_num not in q_positions:
-                                q_positions[q_num] = (page_num, bbox[1])
-                        # Pattern C: "## " at left edge (two-digit numbers)
-                        m2 = re.match(r'^(\d{1,2})\s*$', text)
-                        if m2 and x_pos < 70:
-                            q_num = int(m2.group(1))
-                            if q_num not in q_positions:
-                                q_positions[q_num] = (page_num, bbox[1])
+                if not line.get("spans"):
+                    continue
+                # Work at LINE level — combines all spans for multi-column layouts
+                line_text = " ".join(s.get("text","") for s in line["spans"]).strip()
+                first_span = line["spans"][0]
+                font_size  = first_span.get("size", 0)
+                bbox       = first_span.get("bbox", [0,0,0,0])
+                x_pos      = bbox[0]
+                y_pos      = bbox[1]
+
+                if font_size < 9:
+                    continue
+
+                # Accept left column (x<70) OR right column (≈page_w/2)
+                # This handles two-column layouts in physics/chemistry
+                in_left  = x_pos < 70
+                in_right = page_w * 0.42 < x_pos < page_w * 0.60
+
+                if not (in_left or in_right):
+                    continue
+
+                # Pattern A: standalone number at tight left margin only
+                if re.match(r'^\d{1,2}$', line_text) and in_left:
+                    q_num = int(line_text)
+                    if q_num not in q_positions:
+                        q_positions[q_num] = (page_num, y_pos)
+                    continue
+
+                # Pattern B/C: number starts the line (space, tab, or period after)
+                m = re.match(r'^(\d{1,2})[\s\t.]+\S', line_text)
+                if m:
+                    q_num = int(m.group(1))
+                    if q_num not in q_positions:
+                        q_positions[q_num] = (page_num, y_pos)
 
     # For each needed question, extract image
     for qnum in sorted(needed_questions):
@@ -610,7 +620,15 @@ def main():
     total_saved  = 0
     failed_exams = []
 
-    for exam_key, pdf_path_suffix in sorted(PDF_URLS.items()):
+    # Only process exams that still have placeholder images
+    all_items = sorted(PDF_URLS.items())
+    items = []
+    for k, v in all_items:
+        needed = parse_needed_images(k)
+        if needed:
+            items.append((k, v))
+    print(f"Exams with remaining placeholders: {len(items)}")
+    for exam_key, pdf_path_suffix in items:
         needed = parse_needed_images(exam_key)
         if not needed:
             continue
