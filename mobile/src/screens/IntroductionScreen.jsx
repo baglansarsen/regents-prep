@@ -35,7 +35,9 @@ function StreakPreview({ accent }) {
     <View style={sp.wrap}>
       {/* Flame + count */}
       <View style={sp.row}>
-        <Animated.Text style={[sp.flame, { transform: [{ scale: flameScale }] }]}>🔥</Animated.Text>
+        <Animated.View style={{ transform: [{ scale: flameScale }] }}>
+          <Text style={sp.flame}>🔥</Text>
+        </Animated.View>
         <Text style={[sp.count, { color: accent }]}>5</Text>
         <Text style={sp.label}>-day streak</Text>
       </View>

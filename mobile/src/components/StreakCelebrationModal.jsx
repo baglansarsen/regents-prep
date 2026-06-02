@@ -98,10 +98,10 @@ export default function StreakCelebrationModal({ event, onClose, weekDays, strea
       <View style={s.backdrop}>
         <Animated.View style={[s.card, { backgroundColor: C?.card ?? '#fff', transform: [{ scale: cardScale }] }]}>
 
-          {/* Icon / flame */}
-          <Animated.Text style={[s.icon, { transform: [{ scale: type !== 'broken' ? flameScale : 1 }] }]}>
-            {icon}
-          </Animated.Text>
+          {/* Icon / flame — wrap in View so emoji renders correctly (Animated.Text breaks emoji) */}
+          <Animated.View style={{ transform: [{ scale: type !== 'broken' ? flameScale : 1 }], marginBottom: 10 }}>
+            <Text style={s.icon}>{icon}</Text>
+          </Animated.View>
 
           {/* Headline */}
           <Text style={[s.headline, { color: C?.text ?? '#111827' }]}>{headline}</Text>
