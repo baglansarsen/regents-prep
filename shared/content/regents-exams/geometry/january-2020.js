@@ -202,5 +202,93 @@ export default {
       explanation: 'By the Triangle Proportionality Theorem: RL/RS = LM/ST → 2/(2+6) = 4/(x+2) → 2/8 = 4/(x+2) → x + 2 = 16. So ST = 16.',
       diveDeep: 'When a line is parallel to one side of a triangle and intersects the other two sides, it creates similar triangles. Use the full-side ratio: RL/RS = LM/ST → 2/8 = 4/(x+2). Cross-multiplying: 2(x+2) = 32 → x+2 = 16. A very common mistake is using RL/LS (partial ratio) = LM/something — while that proportion works, you must pair it with RM/MS, not RL/LS = LM/ST. The cleanest setup is RL/RS = LM/ST using full side lengths of each triangle.'
     },
+    {
+      number: 25, part: 'B', type: 'written',
+      text: 'In the diagram, right triangle PQR is transformed by a sequence of rigid motions that maps it onto right triangle NML. Write a set of three congruency statements that would show ASA congruency for these triangles.',
+      topic: 'Triangles & Congruence',
+      explanation: 'ASA requires two angles and the included side. For example: ∠P ≅ ∠N, PR ≅ NL, ∠R ≅ ∠L (if the right angles are at R and L, and the correspondence is P↔N, Q↔M, R↔L).',
+      diveDeep: 'To apply ASA congruence, you need two pairs of congruent angles and the pair of congruent included sides (the side between the two angles). From the vertex correspondence dictated by the transformation (rigid motion), identify matching right angles, matching acute angles, and the included sides between them. A common error is writing an SSA set (two sides and a non-included angle) rather than ASA. Make sure the congruent side is between the two congruent angles in each triangle.',
+      modelAnswer: 'From the rigid motion mapping PQR → NML, the vertex correspondence is P↔N, Q↔M, R↔L.\nASA congruency statements:\n1. ∠P ≅ ∠N (corresponding angles from the rigid motion)\n2. PR ≅ NL (included side between the two angles)\n3. ∠R ≅ ∠L (right angles, both = 90°)\nThese three statements establish ASA congruence: ∠P ≅ ∠N, PR ≅ NL, ∠R ≅ ∠L, therefore △PQR ≅ △NML.'
+    },
+    {
+      number: 26, part: 'B', type: 'written',
+      text: 'Diego needs to install a support beam for his birdhouse. The base of the birdhouse is 24½ inches long. The support beam will form an angle of 38° with the vertical post. Determine and state the approximate length of the support beam, x, to the nearest inch.',
+      topic: 'Right Triangles & Trig',
+      explanation: 'The base (24.5 in) is opposite the 38° angle at the top and the support beam x is the hypotenuse. Using tan: the base is adjacent to the complement angle 52°, or using sin: sin 38° is not the right ratio here. Since the 38° is between the post and the beam, and the base is opposite: tan(38°) = opposite/adjacent... actually the base is adjacent and x is hypotenuse: cos(38°) = 24.5/x → x = 24.5/cos(38°) ≈ 31 inches.',
+      diveDeep: 'The support beam forms a 38° angle with the vertical post. The base of the birdhouse (24½ in) is horizontal and perpendicular to the vertical post, making it the side adjacent to the 38° angle if measured from the beam-to-post angle. Using cos(38°) = adjacent/hypotenuse = 24.5/x, we get x = 24.5/cos(38°) ≈ 24.5/0.7880 ≈ 31.09 ≈ 31 in. Alternatively, with the angle at the base, set up the correct trig ratio from the diagram. Always identify which angle is given and which sides are opposite, adjacent, and hypotenuse.',
+      modelAnswer: 'Given: base = 24½ = 24.5 in, angle between beam and vertical post = 38°.\nThe base is adjacent to the 38° angle; x (beam) is the hypotenuse.\ncos(38°) = adjacent/hypotenuse = 24.5/x\nx = 24.5/cos(38°) = 24.5/0.7880 ≈ 31.09 inches.\nTo the nearest inch, the support beam is approximately 31 inches long.'
+    },
+    {
+      number: 27, part: 'B', type: 'written',
+      text: 'A rectangular tabletop will be made of maple wood that weighs 43 pounds per cubic foot. The tabletop will have a length of eight feet, a width of three feet, and a thickness of one inch. Determine and state the weight of the tabletop, in pounds.',
+      topic: 'Area & Volume',
+      explanation: 'Convert thickness to feet: 1 in = 1/12 ft. Volume = 8 × 3 × (1/12) = 2 ft³. Weight = 2 × 43 = 86 pounds.',
+      diveDeep: 'The key step is unit conversion: the thickness is given in inches but the density is in pounds per cubic foot, so convert 1 inch = 1/12 foot before computing volume. V = length × width × thickness = 8 × 3 × (1/12) = 24/12 = 2 ft³. Weight = density × volume = 43 × 2 = 86 lb. A common error is forgetting the unit conversion and computing V = 8 × 3 × 1 = 24 ft³ (using 1 inch as 1 foot), which gives the wildly incorrect 24 × 43 = 1032 lb.',
+      modelAnswer: 'Convert thickness: 1 inch = 1/12 foot.\nVolume = length × width × thickness = 8 × 3 × (1/12) = 2 ft³.\nWeight = volume × density = 2 ft³ × 43 lb/ft³ = 86 pounds.\nThe tabletop weighs 86 pounds.'
+    },
+    {
+      number: 28, part: 'B', type: 'written',
+      text: 'In the diagram of circle O, secant ABC and tangent AD are drawn. If CA = 12.5 and CB = 4.5, determine and state the length of DA.',
+      topic: 'Circles',
+      explanation: 'By the secant-tangent theorem from external point A: AD² = AB × AC. AB = AC − BC = 12.5 − 4.5 = 8. So AD² = 8 × 12.5 = 100, and AD = 10.',
+      diveDeep: 'For a tangent and a secant drawn from the same external point, the power of the point theorem gives: (tangent)² = (external segment of secant) × (whole secant). Here the external point is A, the tangent length is AD, the external part of the secant is AB = CA − CB = 12.5 − 4.5 = 8, and the whole secant is CA = 12.5. So AD² = AB × AC = 8 × 12.5 = 100, giving AD = 10. The most common error is using CB (the chord portion) as the external segment instead of AB.',
+      modelAnswer: 'External point A; secant through B and C; tangent at D.\nExternal segment of secant: AB = CA − CB = 12.5 − 4.5 = 8.\nPower of the point (secant-tangent): AD² = AB × AC = 8 × 12.5 = 100.\nDA = √100 = 10.\nThe length of DA is 10.'
+    },
+    {
+      number: 29, part: 'B', type: 'written',
+      text: 'Given segment MT, use a compass and straightedge to construct a 45° angle whose vertex is at point M. Leave all construction marks.',
+      topic: 'Constructions',
+      explanation: 'Construct a 90° angle at M by erecting a perpendicular to MT, then bisect that 90° angle to obtain 45°.',
+      diveDeep: 'A 45° angle is half of 90°. The construction proceeds in two stages: (1) construct a 90° angle at M by drawing a perpendicular to MT at M — this can be done by swinging equal arcs on both sides of M along MT and then intersecting arcs above to find the perpendicular point; (2) bisect the resulting 90° angle using the standard angle bisector construction. The bisector of the 90° angle creates two 45° angles. All arc marks must be left visible. A common error is attempting to directly "estimate" 45° without the two-step construction.',
+      modelAnswer: 'Step 1: Construct a perpendicular to MT at M.\n  a. Place compass at M; swing an arc intersecting MT at two points, P and Q.\n  b. Place compass at P and Q with equal radius; draw arcs that intersect above MT at point R.\n  c. Draw ray MR — this is perpendicular to MT (∠RMT = 90°).\nStep 2: Bisect ∠RMT (the 90° angle).\n  a. Place compass at M; swing an arc intersecting MT at S and MR at U.\n  b. Place compass at S and U with equal radius; draw arcs intersecting at V.\n  c. Draw ray MV — this bisects ∠RMT.\n∠VMT = 45°. All construction marks are left.'
+    },
+    {
+      number: 30, part: 'B', type: 'written',
+      text: 'In △XYZ, medians XE, YF, and ZD intersect at C. If CE = 5, YF = 21, and XZ = 15, determine and state the perimeter of triangle CFX.',
+      topic: 'Triangles & Congruence',
+      explanation: 'The centroid divides each median in ratio 2:1 from vertex. CE = 5 → XC = 10, XE = 15. YF = 21 → YC = 14, CF = 7. XZ = 15, and F is midpoint of XZ so XF = 7.5. Perimeter of △CFX = CF + FX + XC = 7 + 7.5 + 10 = 24.5.',
+      diveDeep: 'The centroid (C) divides each median in a 2:1 ratio from vertex to midpoint. For median XE: XC = (2/3)XE and CE = (1/3)XE. Given CE = 5, XE = 15 and XC = 10. For median YF: CF = (1/3)YF = (1/3)(21) = 7 and YC = 14. F is the midpoint of side XZ (since YF is a median to XZ), so XF = XZ/2 = 15/2 = 7.5. Perimeter of △CFX = CF + FX + XC = 7 + 7.5 + 10 = 24.5. Students often confuse which segment is 1/3 vs. 2/3 of the median.',
+      modelAnswer: 'The centroid C divides each median in a 2:1 ratio (vertex to midpoint).\nMedian XE: CE = 5 (given) → XE = 3 × CE = 15, XC = 2 × CE = 10.\nMedian YF: YF = 21 → CF = (1/3)(21) = 7, YC = (2/3)(21) = 14.\nF is the midpoint of XZ (YF is a median to side XZ): XF = XZ/2 = 15/2 = 7.5.\nPerimeter of △CFX = CF + FX + XC = 7 + 7.5 + 10 = 24.5.'
+    },
+    {
+      number: 31, part: 'B', type: 'written',
+      text: 'Determine and state an equation of the line perpendicular to the line 5x − 4y = 10 and passing through the point (5, 12).',
+      topic: 'Coordinate Geometry',
+      explanation: 'Rewrite 5x − 4y = 10 as y = (5/4)x − 5/2; slope = 5/4. Perpendicular slope = −4/5. Using point (5, 12): 12 = (−4/5)(5) + b → 12 = −4 + b → b = 16. Equation: y = −(4/5)x + 16.',
+      diveDeep: 'To find the perpendicular line, first convert to slope-intercept form: 5x − 4y = 10 → 4y = 5x − 10 → y = (5/4)x − 5/2. The slope is 5/4. The perpendicular slope is the negative reciprocal: −4/5. Substitute point (5, 12): 12 = (−4/5)(5) + b → 12 = −4 + b → b = 16. Equation: y = −(4/5)x + 16. Written in standard form: 4x + 5y = 80. Common errors include forgetting to negate the reciprocal (writing 4/5 instead of −4/5) or making arithmetic errors when substituting the point.',
+      modelAnswer: 'Rewrite the given line: 5x − 4y = 10 → y = (5/4)x − (5/2). Slope m₁ = 5/4.\nPerpendicular slope: m₂ = −1/m₁ = −4/5.\nUsing point-slope form through (5, 12):\ny − 12 = −(4/5)(x − 5)\ny − 12 = −(4/5)x + 4\ny = −(4/5)x + 16\nAn equation of the perpendicular line is y = −(4/5)x + 16 (or equivalently 4x + 5y = 80).'
+    },
+    {
+      number: 32, part: 'C', type: 'written',
+      text: 'Quadrilateral NATS has coordinates N(−4, −3), A(1, 2), T(8, 1), and S(3, −4). Prove quadrilateral NATS is a rhombus.',
+      topic: 'Coordinate Geometry',
+      explanation: 'Calculate all four side lengths: NA = √(5²+5²) = √50 = 5√2; AT = √(7²+1²) = √50 = 5√2; TS = √(5²+5²) = √50 = 5√2; SN = √(7²+1²) = √50 = 5√2. All four sides equal 5√2, so NATS is a rhombus.',
+      diveDeep: 'A rhombus is defined as a quadrilateral with all four sides congruent. Compute each side using the distance formula: NA = √((1−(−4))²+(2−(−3))²) = √(25+25) = √50; AT = √((8−1)²+(1−2)²) = √(49+1) = √50; TS = √((3−8)²+(−4−1)²) = √(25+25) = √50; SN = √((−4−3)²+(−3−(−4))²) = √(49+1) = √50. Since all four sides equal √50 = 5√2, NATS is a rhombus. Some students also verify the diagonals are perpendicular as an alternative proof of rhombus, but the all-sides-equal method is most direct.',
+      modelAnswer: 'Use the distance formula to compute all four side lengths:\nNA = √((1−(−4))² + (2−(−3))²) = √(5² + 5²) = √50 = 5√2\nAT = √((8−1)² + (1−2)²) = √(7² + (−1)²) = √(49+1) = √50 = 5√2\nTS = √((3−8)² + (−4−1)²) = √((−5)² + (−5)²) = √50 = 5√2\nSN = √((−4−3)² + (−3−(−4))²) = √((−7)² + 1²) = √(49+1) = √50 = 5√2\nSince NA = AT = TS = SN = 5√2, all four sides of quadrilateral NATS are congruent.\nTherefore, NATS is a rhombus.'
+    },
+    {
+      number: 33, part: 'C', type: 'written',
+      text: 'David needs a ladder for his treehouse. He is standing 1.3 meters from the stilt supporting the treehouse. The angle of elevation from his eye level to the bottom of the treehouse is 56°. David\'s eye level is 1.5 meters above the ground. Determine and state the minimum length of a ladder, to the nearest tenth of a meter, that David will need.',
+      topic: 'Right Triangles & Trig',
+      explanation: 'Height of treehouse ledge above ground: tan(56°) × 1.3 + 1.5 ≈ 1.926 + 1.5 = 3.426 m. The ladder runs from the ground anchor point (1.3 m from stilt) to the ledge at height 3.426 m. Ladder length = √(1.3² + 3.426²) ≈ √(1.69 + 11.74) ≈ √13.43 ≈ 3.7 m.',
+      diveDeep: 'First find the height of the treehouse ledge above the ground. The right triangle from eye level to the ledge has adjacent = 1.3 m and angle = 56°: opposite (rise from eye to ledge) = 1.3 × tan(56°) ≈ 1.3 × 1.4826 ≈ 1.927 m. Total ledge height = 1.927 + 1.5 = 3.427 m. Now the ladder is the hypotenuse of the triangle with legs 1.3 m (horizontal, from anchor to stilt base) and 3.427 m (vertical, full ledge height). Ladder = √(1.3² + 3.427²) ≈ √(1.69 + 11.74) ≈ √13.43 ≈ 3.7 m. Students often forget to add David\'s eye height of 1.5 m to find the total ledge height.',
+      modelAnswer: 'Step 1: Find the height of the ledge above David\'s eye level.\ntan(56°) = opposite/adjacent = h/1.3\nh = 1.3 × tan(56°) ≈ 1.3 × 1.4826 ≈ 1.927 m\n\nStep 2: Total height of ledge above ground = 1.927 + 1.5 = 3.427 m.\n\nStep 3: Ladder length (hypotenuse of triangle with legs 1.3 m and 3.427 m):\nL = √(1.3² + 3.427²) = √(1.69 + 11.744) = √13.434 ≈ 3.7 m.\n\nDavid needs a ladder of at least 3.7 meters.'
+    },
+    {
+      number: 34, part: 'C', type: 'written',
+      text: 'A manufacturer\'s original container for chocolate-covered almonds was a cylinder with a height of 18 cm and a diameter of 14 cm. The new container is a rectangular prism with a square base and the same volume. If the new container\'s height is 16 cm, determine and state, to the nearest tenth of a centimeter, the side length of the new container. Also determine the maximum number of new containers that fit on a shelf 80 cm long and 60 cm wide (one layer, square base down).',
+      topic: 'Area & Volume',
+      explanation: 'Cylinder volume: V = π(7²)(18) = 882π ≈ 2771.5 cm³. Square prism: s²(16) = 882π → s² = 882π/16 ≈ 173.2 → s ≈ 13.2 cm. Shelf: floor(80/13.2) × floor(60/13.2) = 6 × 4 = 24 containers.',
+      diveDeep: 'Cylinder volume: V = πr²h = π(7)²(18) = 882π ≈ 2771.53 cm³. Square prism volume: s²h = s²(16) = 882π → s² = 882π/16 ≈ 173.18 → s ≈ 13.16 ≈ 13.2 cm. For the shelf: 80/13.2 ≈ 6.06 → 6 containers along the length; 60/13.2 ≈ 4.55 → 4 containers along the width. Maximum = 6 × 4 = 24 containers. Students sometimes round s up instead of keeping the exact value for shelf calculation, leading to incorrect shelf counts. Use the exact s value when dividing shelf dimensions.',
+      modelAnswer: 'Part 1 — Side length of new container:\nCylinder V = πr²h = π(7)²(18) = 882π cm³.\nSquare prism (same volume): s² × 16 = 882π\ns² = 882π/16 ≈ 2771.53/16 ≈ 173.22\ns ≈ √173.22 ≈ 13.2 cm (to nearest tenth).\n\nPart 2 — Maximum containers on shelf (80 cm × 60 cm):\nAlong 80 cm: ⌊80/13.2⌋ = ⌊6.06⌋ = 6\nAlong 60 cm: ⌊60/13.2⌋ = ⌊4.55⌋ = 4\nMaximum number of containers = 6 × 4 = 24.'
+    },
+    {
+      number: 35, part: 'D', type: 'written',
+      text: 'In quadrilateral ABCD, E and F are points on AD and BC respectively, and BGD and EGF are drawn such that ∠ABG = ∠CDG, AB = CD, and CE = AF. Prove: FG ≅ EG.',
+      topic: 'Proofs',
+      explanation: 'From the given conditions, △ABG ≅ △CDG by ASA (∠ABG = ∠CDG, AB = CD, and vertical angles ∠AGB = ∠CGB... or using ∠AGB = ∠CGD as vertical angles). Then BG = DG by CPCTC. With CE = AF and BG = DG, use triangle congruence to show △EGD ≅ △FGB or similar triangles involving G, E, F to conclude FG = EG.',
+      diveDeep: 'Step-by-step strategy: (1) Prove △ABG ≅ △CDG using ASA — ∠ABG = ∠CDG (given), AB = CD (given), and ∠AGB = ∠CGB is not directly vertical... note that ∠BGA = ∠DGC as vertical angles since BGD is a straight line and G is the intersection. So the "included angle" between AB and BG is ∠ABG, and between CD and DG is ∠CDG; both are equal (given), making the triangles congruent by ASA. (2) From CPCTC: AG = CG and BG = DG. (3) Given AF = CE, note F is on BC and E is on AD; AG = CG (from step 2); AF = CE (given). Then in △AGF and △CGE: AG = CG, AF = CE, and ∠GAF = ∠GCE (from △ABG ≅ △CDG via CPCTC). So △AGF ≅ △CGE by SAS, giving GF = GE.',
+      modelAnswer: 'Proof:\n1. ∠ABG = ∠CDG (Given)\n2. AB = CD (Given)\n3. ∠AGB = ∠CGD (Vertical angles — BGD is a line through G)\n4. △ABG ≅ △CDG (ASA: steps 1, 2, 3)\n5. AG = CG and BG = DG (CPCTC from step 4)\n6. ∠GAF = ∠GCE (CPCTC from step 4, corresponding angles)\n7. AF = CE (Given)\n8. △AGF ≅ △CGE (SAS: AG = CG from step 5, ∠GAF = ∠GCE from step 6, AF = CE from step 7)\n9. FG = EG (CPCTC from step 8)\nTherefore FG ≅ EG. ∎'
+    },
   ]
 }

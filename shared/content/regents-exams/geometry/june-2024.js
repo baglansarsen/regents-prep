@@ -303,6 +303,116 @@ export default {
       correct: 0,
       explanation: 'The center of dilation (0, 3) lies on the line, so the line maps onto itself — same slope and same y-intercept, leaving the equation unchanged.',
       diveDeep: 'When the center of dilation lies on the line being dilated, the line is invariant (it maps onto itself) because every point scales along the line, keeping it in place. Check whether the center satisfies the equation: (0,3) gives y = 2(0)+3 = 3 ✓, so it is on the line. The trap is assuming the slope or intercept must change under a dilation; dilations preserve a line\'s slope always, and only shift the line if the center is off the line. First test if the center is on the line — if so, the equation is unchanged.'
+    },
+    {
+      number: 25,
+      part: 'B',
+      type: 'written',
+      text: 'Use a compass and straightedge to construct an equilateral triangle inscribed in circle A below. [Leave all construction marks.]',
+      topic: 'Constructions',
+      explanation: 'Set the compass to the radius of circle A, then step off that radius length six times around the circle to mark six equally-spaced points; connect alternating points to form the equilateral triangle inscribed in the circle.',
+      diveDeep: 'An equilateral triangle inscribed in a circle has vertices equally spaced 120° apart. Because the radius of the circle equals the side length of the inscribed equilateral triangle (a property of the regular hexagon), you set the compass to the circle\'s radius, place the compass on any point on the circle, and walk off six arcs — each new arc endpoint is the next vertex of a regular hexagon. Connecting every other vertex gives the equilateral triangle. A common error is not keeping the compass width fixed throughout; any change creates unequal spacing and a lopsided figure.',
+      modelAnswer: '1. Set compass width to the radius of circle A (from center A to any point on the circle).\n2. Place compass point anywhere on the circle; mark an arc intersection on the circle. Repeat around the circle, making six equally-spaced points.\n3. Connect alternating points (every other one of the six) with straight lines — three line segments form the equilateral triangle.\n4. Leave all arc marks showing.'
+    },
+    {
+      number: 26,
+      part: 'B',
+      type: 'written',
+      text: 'Quadrilateral DEAR and its image, quadrilateral D\'E\'A\'R\', are graphed on the set of axes. Describe a sequence of transformations that maps quadrilateral DEAR onto quadrilateral D\'E\'A\'R\'.',
+      topic: 'Transformations',
+      explanation: 'The image is a 180° rotation of DEAR about the origin (or equivalently a reflection over both axes), mapping each vertex (x, y) to (−x, −y).',
+      diveDeep: 'When each vertex maps to its opposite sign in both coordinates, (x, y) → (−x, −y), the transformation is a 180° rotation about the origin. This can also be described as a reflection over the x-axis followed by a reflection over the y-axis (or the y-axis first). On the exam, identifying the center and angle of rotation requires checking that the midpoint of each segment joining a pre-image vertex to its image passes through the center of rotation. A common error is naming only one reflection without completing the composition.',
+      modelAnswer: 'Examining the coordinates: D maps to D′, E maps to E′, A maps to A′, R maps to R′ with each (x, y) → (−x, −y). This is a 180° rotation about the origin. Alternatively: reflect DEAR over the x-axis, then reflect the result over the y-axis. Both descriptions are valid.'
+    },
+    {
+      number: 27,
+      part: 'B',
+      type: 'written',
+      text: 'In circle P, tangent AL and secant AKE are drawn. If AK = 12 and KE = 36, determine and state the length of AL.',
+      topic: 'Circles',
+      explanation: 'By the tangent-secant theorem, AL² = AK × AE = 12 × 48 = 576, so AL = 24.',
+      diveDeep: 'When a tangent and a secant are drawn from an external point, the square of the tangent length equals the product of the entire secant length and its external segment: AL² = AK × AE. Here AE = AK + KE = 12 + 36 = 48, so AL² = 12 × 48 = 576 and AL = 24. The most common mistake is using AK × KE (just the external and internal chord segments) instead of the full secant length AE. Always use the whole secant (from external point to the far intersection) and the external portion.',
+      modelAnswer: 'AE = AK + KE = 12 + 36 = 48.\nBy the tangent-secant theorem: AL² = AK × AE = 12 × 48 = 576.\nAL = √576 = 24.'
+    },
+    {
+      number: 28,
+      part: 'B',
+      type: 'written',
+      text: 'The equation of a circle is x² + y² + 8x − 6y + 7 = 0. Determine and state the coordinates of the center and the length of the radius of the circle.',
+      topic: 'Circles',
+      explanation: 'Completing the square gives (x + 4)² + (y − 3)² = 18, so the center is (−4, 3) and the radius is √18 = 3√2.',
+      diveDeep: 'Regroup: (x² + 8x) + (y² − 6y) = −7. Complete the square: add (8/2)² = 16 and (−6/2)² = 9 to both sides: (x + 4)² + (y − 3)² = −7 + 16 + 9 = 18. The center is (−4, 3) and r = √18 = 3√2 ≈ 4.24. Common errors: forgetting to add the completing-the-square values to the right side, or reading the center sign wrong (x + 4 means h = −4, not +4). Always move the constant to the right side first, then complete the square on each variable group.',
+      modelAnswer: 'x² + 8x + y² − 6y = −7\n(x² + 8x + 16) + (y² − 6y + 9) = −7 + 16 + 9\n(x + 4)² + (y − 3)² = 18\nCenter: (−4, 3)\nRadius: r = √18 = 3√2 ≈ 4.24'
+    },
+    {
+      number: 29,
+      part: 'B',
+      type: 'written',
+      text: 'On the set of axes, △ABC is drawn with vertices A(2, −3), B(4, 5), and C(−5, 1). Determine and state the area of △ABC.',
+      topic: 'Coordinate Geometry',
+      explanation: 'Using the coordinate area formula (shoelace formula), the area of △ABC is 33 square units.',
+      diveDeep: 'The shoelace formula for vertices (x₁,y₁), (x₂,y₂), (x₃,y₃) gives Area = ½|x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|. Substituting: ½|2(5−1) + 4(1−(−3)) + (−5)(−3−5)| = ½|2(4) + 4(4) + (−5)(−8)| = ½|8 + 16 + 40| = ½(64) = 32. An alternative method is the "box" method: enclose the triangle in a rectangle, compute the rectangle area, and subtract the three right triangle corner areas. Careful tracking of negative coordinates is the most frequent source of error.',
+      modelAnswer: 'Using the shoelace formula:\nArea = ½|x_A(y_B − y_C) + x_B(y_C − y_A) + x_C(y_A − y_B)|\n= ½|2(5 − 1) + 4(1 − (−3)) + (−5)(−3 − 5)|\n= ½|2(4) + 4(4) + (−5)(−8)|\n= ½|8 + 16 + 40|\n= ½(64) = 32 square units'
+    },
+    {
+      number: 30,
+      part: 'B',
+      type: 'written',
+      text: 'In the diagram, AE = 15, EB = 27, AF = 20, and FC = 36. Explain why EF ∥ BC.',
+      topic: 'Similarity & Proof',
+      explanation: 'Since AE/EB = 15/27 = 5/9 and AF/FC = 20/36 = 5/9, the ratios of corresponding sides are equal, so by the Triangle Proportionality Theorem (converse) EF ∥ BC.',
+      diveDeep: 'The converse of the Triangle Proportionality (Side-Splitter) Theorem states: if a segment divides two sides of a triangle proportionally, then it is parallel to the third side. Check both ratios: AE/EB = 15/27 = 5/9 and AF/FC = 20/36 = 5/9. Since they are equal, EF splits the two sides proportionally, guaranteeing EF ∥ BC. A common error is comparing AE/AB to AF/AC (the whole-side ratio) instead of AE/EB to AF/FC (the segment ratio) — both work, but students often mix the two forms and end up comparing incompatible ratios.',
+      modelAnswer: 'AE/EB = 15/27 = 5/9\nAF/FC = 20/36 = 5/9\nSince AE/EB = AF/FC, segment EF divides sides AB and AC proportionally.\nBy the converse of the Triangle Proportionality Theorem, EF ∥ BC.'
+    },
+    {
+      number: 31,
+      part: 'B',
+      type: 'written',
+      text: 'A building is composed of a rectangular pyramid on top of a rectangular prism. The rectangular prism has a length of 38 feet, a width of 15 feet, and a height of 22 feet. The rectangular pyramid sits directly on top and has a height of 12 feet. An air purification filter cleans all the air at a rate of 2400 cubic feet per minute. Determine and state how long it will take, to the nearest tenth of a minute, for the filter to clean the air in the building.',
+      topic: '3D Geometry & Volume',
+      explanation: 'The total volume is the prism volume plus the pyramid volume; dividing by the filter rate of 2400 ft³/min gives the time.',
+      diveDeep: 'Prism volume: V = lwh = 38 × 15 × 22 = 12,540 ft³. Pyramid volume: V = (1/3)Bh = (1/3)(38 × 15)(12) = (1/3)(570)(12) = 2,280 ft³. Total = 14,820 ft³. Time = 14,820 ÷ 2400 = 6.175 ≈ 6.2 minutes. A common error is using the full pyramid height formula (multiplying by 12 instead of (1/3)(12) = 4) and forgetting the 1/3 factor for the pyramid. Also watch that both solid bases are the same rectangle (38 × 15).',
+      modelAnswer: 'V_prism = 38 × 15 × 22 = 12,540 ft³\nV_pyramid = (1/3)(38 × 15)(12) = (1/3)(570)(12) = 2,280 ft³\nTotal volume = 12,540 + 2,280 = 14,820 ft³\nTime = 14,820 ÷ 2400 ≈ 6.175 ≈ 6.2 minutes'
+    },
+    {
+      number: 32,
+      part: 'C',
+      type: 'written',
+      text: 'Given: △ABC, △DEF, AB ⊥ BC, DE ⊥ EF, AE ≅ DB, and AC ∥ FD. Prove: △ABC ≅ △DEF.',
+      topic: 'Triangles & Congruence',
+      explanation: 'Using the given parallel sides and congruent segments, establish that AE + EB = DB + BE, making AB ≅ DE, then apply AAS with the right angles and alternate interior angles.',
+      diveDeep: 'Both triangles have right angles (AB ⊥ BC and DE ⊥ EF give ∠B = ∠E = 90°). AC ∥ FD means ∠CAB and ∠FDE are alternate interior angles cut by transversal AD (or by the parallel lines extended), so ∠CAB ≅ ∠FDE. Since AE ≅ DB, adding EB to both sides gives AE + EB = DB + EB, so AB ≅ DE. With two angles and the included side (actually with ∠B = ∠E = 90°, ∠A ≅ ∠D, and AB ≅ DE) we apply AAS to conclude △ABC ≅ △DEF. Organizing the proof with explicit statements and reasons is essential for full credit.',
+      modelAnswer: 'Statements | Reasons\n1. AB ⊥ BC, DE ⊥ EF | Given\n2. ∠ABC = 90°, ∠DEF = 90° | Definition of perpendicular lines\n3. ∠ABC ≅ ∠DEF | All right angles are congruent\n4. AC ∥ FD | Given\n5. ∠CAB ≅ ∠FDE | Alternate interior angles, AC ∥ FD, cut by transversal\n6. AE ≅ DB | Given\n7. AE + EB = DB + EB | Addition property of equality\n8. AB ≅ DE | Segment addition / substitution\n9. △ABC ≅ △DEF | AAS (steps 3, 5, 8)'
+    },
+    {
+      number: 33,
+      part: 'C',
+      type: 'written',
+      text: 'A boat at point A is traveling toward the Horseshoe Falls, which has a vertical drop of 188 feet. The angle of elevation from point A to the top of the waterfall is 15°. After the boat travels toward the falls, the angle of elevation at point B to the top of the waterfall is 23°. Determine and state, to the nearest foot, the distance the boat traveled from point A to point B.',
+      topic: 'Right Triangles & Trig',
+      explanation: 'Set up two right-triangle equations using the 188-ft height and the angles of elevation, then subtract the horizontal distances to find AB.',
+      diveDeep: 'Let the horizontal distance from the base of the falls to point A be d_A and to point B be d_B. tan(15°) = 188/d_A → d_A = 188/tan(15°) ≈ 701.6 ft. tan(23°) = 188/d_B → d_B = 188/tan(23°) ≈ 443.2 ft. Distance AB = d_A − d_B ≈ 701.6 − 443.2 ≈ 258 ft. A common error is subtracting angles instead of distances, or forgetting to set tan = opposite/adjacent (height over horizontal distance). Confirm by sketching the two right triangles sharing the same vertical leg.',
+      modelAnswer: 'Let d_A = horizontal distance from base of falls to A.\ntan(15°) = 188/d_A → d_A = 188/tan(15°) ≈ 701.6 ft\n\nLet d_B = horizontal distance from base of falls to B.\ntan(23°) = 188/d_B → d_B = 188/tan(23°) ≈ 443.2 ft\n\nAB = d_A − d_B ≈ 701.6 − 443.2 ≈ 258 feet'
+    },
+    {
+      number: 34,
+      part: 'C',
+      type: 'written',
+      text: 'Triangle JOE has vertices J(4, 6), O(−2, 4), and E(6, 0). Prove that △JOE is isosceles.',
+      topic: 'Coordinate Geometry',
+      explanation: 'Compute the lengths of all three sides using the distance formula; two sides will be equal, proving the triangle is isosceles.',
+      diveDeep: 'JO = √((4−(−2))² + (6−4)²) = √(36+4) = √40. JE = √((4−6)² + (6−0)²) = √(4+36) = √40. OE = √((−2−6)² + (4−0)²) = √(64+16) = √80. Since JO = JE = √40, triangle JOE is isosceles with JO ≅ JE. Clearly show each distance calculation with the formula; the grader needs to see the substitutions. The common trap is computing distances but not explicitly stating which two are equal and drawing the isosceles conclusion.',
+      modelAnswer: 'JO = √((4−(−2))² + (6−4)²) = √(6² + 2²) = √40\nJE = √((4−6)² + (6−0)²) = √((−2)² + 6²) = √40\nOE = √((−2−6)² + (4−0)²) = √(64+16) = √80\n\nSince JO = JE = √40, two sides are congruent.\nTherefore △JOE is isosceles.'
+    },
+    {
+      number: 35,
+      part: 'D',
+      type: 'written',
+      text: 'Triangle JOE has vertices J(4, 6), O(−2, 4), and E(6, 0). Point Y(2, 2) is on OE. Prove that JY is the perpendicular bisector of OE.',
+      topic: 'Coordinate Geometry',
+      explanation: 'Show that Y is the midpoint of OE (using the midpoint formula) and that JY ⊥ OE (using slopes that are negative reciprocals).',
+      diveDeep: 'To prove JY is the perpendicular bisector of OE, two things must be shown: (1) Y is the midpoint of OE, and (2) JY ⊥ OE. Midpoint of OE: ((−2+6)/2, (4+0)/2) = (2, 2) = Y ✓. Slope of OE: (0−4)/(6−(−2)) = −4/8 = −1/2. Slope of JY: (2−6)/(2−4) = −4/−2 = 2. Since (−1/2)(2) = −1, the slopes are negative reciprocals, so JY ⊥ OE. Together, these two facts prove JY is the perpendicular bisector of OE. Students often only prove one condition (midpoint OR perpendicularity) and lose half the credit.',
+      modelAnswer: 'Step 1 — Y is the midpoint of OE:\nMidpoint of OE = ((−2+6)/2, (4+0)/2) = (4/2, 4/2) = (2, 2) = Y ✓\n\nStep 2 — JY ⊥ OE:\nSlope of OE = (0−4)/(6−(−2)) = −4/8 = −1/2\nSlope of JY = (2−6)/(2−4) = −4/−2 = 2\n(−1/2)(2) = −1, so JY ⊥ OE ✓\n\nSince Y is the midpoint of OE and JY ⊥ OE, JY is the perpendicular bisector of OE.'
     }
   ]
 }

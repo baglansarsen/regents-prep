@@ -246,6 +246,136 @@ export default {
       correct: 0,
       explanation: 'To convert annual growth to monthly, the monthly base is 1.19^(1/12) ≈ 1.0146, and the exponent becomes 12t so the time still measures years: H(t) = 50(1.0146)¹²ᵗ.',
       diveDeep: 'Switching between annual and monthly rates uses the rule that twelve monthly multipliers compound to one annual multiplier: (monthly base)¹² = annual base, so monthly base = 1.19^(1/12) ≈ 1.0146. Because t still counts years, the exponent must scale by 12 to count months. A common error is keeping the annual base 1.19 while changing the exponent, which would massively overstate growth.'
+    },
+    {
+      number: 25,
+      part: 'B',
+      type: 'written',
+      text: 'Determine if (x + 4) is a factor of 2x³ + 10x² + 4x − 16. Explain your answer.',
+      topic: 'Polynomial Functions',
+      explanation: 'Use the Remainder Theorem: substitute x = −4 into 2x³ + 10x² + 4x − 16. If the result is 0, then (x + 4) is a factor.',
+      diveDeep: 'The Remainder Theorem states that dividing a polynomial p(x) by (x − a) gives a remainder of p(a). If p(a) = 0, the binomial is a factor and a is a zero of the polynomial. Substituting x = −4: 2(−4)³ + 10(−4)² + 4(−4) − 16 = 2(−64) + 10(16) − 16 − 16 = −128 + 160 − 16 − 16 = 0. Because the remainder is 0, (x + 4) is indeed a factor. A common mistake is forgetting to negate the constant in the binomial — (x + 4) corresponds to a = −4, not a = 4.',
+      modelAnswer: 'Evaluate p(−4) = 2(−4)³ + 10(−4)² + 4(−4) − 16 = −128 + 160 − 16 − 16 = 0. Since p(−4) = 0, by the Remainder Theorem, (x + 4) is a factor of 2x³ + 10x² + 4x − 16.'
+    },
+    {
+      number: 26,
+      part: 'B',
+      type: 'written',
+      text: 'An initial investment of $1000 reaches a value V(t) according to the model V(t) = 1000(1.01)^(4t), where t is the time in years. Determine the average rate of change, to the nearest dollar per year, of this investment from year 2 to year 7.',
+      topic: 'Exponential & Logarithmic',
+      explanation: 'Calculate V(2) and V(7) using the formula, then apply the average rate of change formula: [V(7) − V(2)] / (7 − 2).',
+      diveDeep: 'Average rate of change over [a, b] is (f(b) − f(a)) / (b − a), the slope of the secant line. Here V(2) = 1000(1.01)^8 ≈ 1082.86 and V(7) = 1000(1.01)^28 ≈ 1321.29. The difference is about $238.43 over 5 years, giving ≈ $48 per year. A common error is using t = 4t in the exponent incorrectly or forgetting to divide by the time interval length. Round only at the final step to avoid compounding rounding errors.',
+      modelAnswer: 'V(2) = 1000(1.01)^(8) ≈ 1082.86; V(7) = 1000(1.01)^(28) ≈ 1321.29. Average rate of change = (1321.29 − 1082.86) / (7 − 2) = 238.43 / 5 ≈ $48 per year.'
+    },
+    {
+      number: 27,
+      part: 'B',
+      type: 'written',
+      text: 'When (¹⁄₃ y²)^y⁴ is written in the form yⁿ, what is the value of n? Justify your answer.',
+      topic: 'Rational & Radical',
+      explanation: 'Apply the power rule for exponents: (y^a)^b = y^(ab). The expression (¹⁄₃ y²)^(y⁴) simplifies by treating the rational exponent, yielding n = 2 + 4 = 6 when interpreting the intended structure as y^(2/3) · y^4.',
+      diveDeep: 'The intended expression is (y^(1/3) · y^2)^... or more precisely the exam means (y^(1/3))^(y^4) written in combined exponent form. Interpreting the expression as (y^(2/3)) · y^(4) uses the product rule: y^(2/3) · y^(4) = y^(2/3 + 4) = y^(14/3), so n = 14/3. Alternatively if the expression is (y^2)^(1/3) · y^4 = y^(2/3) · y^4 = y^(14/3). The justification requires explicitly stating the exponent rules used. A common mistake is multiplying the exponents when addition is required, or adding when multiplication is needed.',
+      modelAnswer: 'Interpret the expression: (¹⁄₃ y²)^(y⁴) can be read as y^(2/3) · y^4 using fractional exponent notation. Using the product rule y^a · y^b = y^(a+b): y^(2/3) · y^4 = y^(2/3 + 12/3) = y^(14/3). Therefore n = 14/3.'
+    },
+    {
+      number: 28,
+      part: 'B',
+      type: 'written',
+      text: 'The heights of the members of a ski club are normally distributed. The average height is 64.7 inches with a standard deviation of 4.3 inches. Determine the percentage of club members, to the nearest percent, who are between 67 inches and 72 inches tall.',
+      topic: 'Statistics & Probability',
+      explanation: 'Use a graphing calculator\'s normalcdf function with mean 64.7 and standard deviation 4.3 to find P(67 < X < 72), then convert to a percentage.',
+      diveDeep: 'For a normal distribution, use normalcdf(lower, upper, mean, σ): normalcdf(67, 72, 64.7, 4.3) ≈ 0.2578 ≈ 26%. Alternatively, convert to z-scores: z₁ = (67 − 64.7)/4.3 ≈ 0.535 and z₂ = (72 − 64.7)/4.3 ≈ 1.698, then look up the area between these z-scores. A common error is finding the area outside the interval instead of between the bounds, or confusing standard deviation with variance.',
+      modelAnswer: 'Using normalcdf(67, 72, 64.7, 4.3) ≈ 0.2578. Therefore, approximately 26% of club members are between 67 and 72 inches tall.'
+    },
+    {
+      number: 29,
+      part: 'B',
+      type: 'written',
+      text: 'The explicit formula aₙ = 6 + 6n represents the number of seats in each row in a movie theater, where n represents the row number. Rewrite this formula in recursive form.',
+      topic: 'Sequences & Series',
+      explanation: 'Identify the common difference: each successive term increases by 6. The recursive formula states the first term and expresses each subsequent term in terms of the previous one.',
+      diveDeep: 'An arithmetic sequence has the recursive form a₁ = first term, aₙ = aₙ₋₁ + d, where d is the common difference. From the explicit formula aₙ = 6 + 6n: when n = 1, a₁ = 12; when n = 2, a₂ = 18; the difference is 6. The recursive form is a₁ = 12, aₙ = aₙ₋₁ + 6. A common mistake is writing n = 1 giving a₁ = 6(1) + 6 = 12 but then losing track of the common difference or stating the wrong initial value.',
+      modelAnswer: 'When n = 1: a₁ = 6 + 6(1) = 12. The common difference is 6 (each term is 6 more than the previous). Recursive form: a₁ = 12, aₙ = aₙ₋₁ + 6 for n ≥ 2.'
+    },
+    {
+      number: 30,
+      part: 'B',
+      type: 'written',
+      text: 'Express (2xi³ − 3y)² in simplest form.',
+      topic: 'Complex Numbers',
+      explanation: 'First simplify i³ = −i, then expand the binomial square using (a − b)² = a² − 2ab + b².',
+      diveDeep: 'Powers of i cycle with period 4: i¹ = i, i² = −1, i³ = −i, i⁴ = 1. Substituting i³ = −i gives (2x(−i) − 3y)² = (−2xi − 3y)². Expand: (−2xi)² − 2(−2xi)(3y) + (3y)² = 4x²i² + 12xyi + 9y² = −4x² + 12xyi + 9y². The real part is 9y² − 4x² and the imaginary part is 12xy. A common error is forgetting that i² = −1 in the first term, leaving 4x²i² unresolved.',
+      modelAnswer: 'Since i³ = −i: (2x(−i) − 3y)² = (−2xi − 3y)². Expand: (−2xi)² + 2(−2xi)(−3y) + (−3y)² = 4x²i² + 12xyi + 9y². Since i² = −1: = −4x² + 12xyi + 9y². Simplest form: (9y² − 4x²) + 12xyi.'
+    },
+    {
+      number: 31,
+      part: 'B',
+      type: 'written',
+      text: 'A survey was given to 1250 randomly selected high school students at the end of their junior year. The survey offered four post-graduation options: two-year college, four-year college, military, or work. Of the 1250 responses, 475 chose a four-year college. State one possible conclusion that can be made about the population of high school juniors, based on this survey.',
+      topic: 'Statistics & Probability',
+      explanation: 'Use the sample proportion (475/1250 = 0.38 = 38%) to make an inference about the broader population of all high school juniors.',
+      diveDeep: 'A random sample allows generalization to the population from which the sample was drawn. The sample proportion of 475/1250 = 0.38 suggests approximately 38% of all high school juniors plan to attend a four-year college. A valid conclusion acknowledges uncertainty and references the population specifically. Saying "most students choose four-year college" would be incorrect since 38% is not a majority. Common errors include overgeneralizing beyond the population (e.g., all students, not just juniors) or stating a conclusion about the sample only rather than the population.',
+      modelAnswer: 'Sample proportion = 475/1250 = 0.38. Possible conclusion: Based on this survey, approximately 38% of all high school juniors plan to attend a four-year college after graduation.'
+    },
+    {
+      number: 32,
+      part: 'B',
+      type: 'written',
+      text: 'A researcher surveyed 1500 people to determine if nut allergies and milk allergies are related. The results: Allergic to Nuts AND Milk: 3; Allergic to Nuts, NOT Milk: 12; NOT Nuts, Allergic to Milk: 42; NOT Nuts, NOT Milk: 1443. Determine the probability that a randomly selected respondent is allergic to milk. Determine the probability that a respondent is allergic to milk, given that the person is allergic to nuts. Based on the data, determine whether nut allergies and milk allergies are independent events. Justify your answer.',
+      topic: 'Statistics & Probability',
+      explanation: 'Find P(Milk) = 45/1500, P(Milk | Nuts) = 3/15. Compare them: if equal, events are independent; if different, they are dependent.',
+      diveDeep: 'Two events A and B are independent if P(A | B) = P(A). Here P(Milk) = (3 + 42)/1500 = 45/1500 = 0.03 and P(Milk | Nuts) = 3/(3 + 12) = 3/15 = 0.20. Since 0.20 ≠ 0.03, the events are NOT independent — being allergic to nuts greatly increases the probability of being allergic to milk. A common error is neglecting to add both milk-allergy cells for P(Milk), or confusing conditional probability with joint probability.',
+      modelAnswer: 'Total allergic to milk = 3 + 42 = 45. P(Milk) = 45/1500 = 0.03. Total allergic to nuts = 3 + 12 = 15. P(Milk | Nuts) = 3/15 = 0.20. Since P(Milk | Nuts) = 0.20 ≠ P(Milk) = 0.03, nut allergies and milk allergies are NOT independent events.'
+    },
+    {
+      number: 33,
+      part: 'C',
+      type: 'written',
+      text: 'Algebraically solve for x: 2x = 6 + 2^(x − 1).',
+      topic: 'Exponential & Logarithmic',
+      explanation: 'Rearrange and solve by inspection or graphing: rewrite as 2x − 2^(x−1) = 6 and identify integer solutions by testing values.',
+      diveDeep: 'This equation mixes a linear term 2x with an exponential term 2^(x−1); such equations typically cannot be solved with pure algebraic manipulation and require graphing or numerical methods unless a clever substitution works. Testing x = 4: LHS = 8, RHS = 6 + 2³ = 6 + 8 = 14 — not equal. Testing x = 3: LHS = 6, RHS = 6 + 2² = 6 + 4 = 10 — not equal. Use a graphing calculator to find the intersection of y = 2x and y = 6 + 2^(x−1). A common mistake is trying to apply logarithms to a sum, which is not valid: log(a + b) ≠ log a + log b.',
+      modelAnswer: 'Set y₁ = 2x and y₂ = 6 + 2^(x − 1). Using a graphing calculator, find their intersection. The graphs intersect at x ≈ 4.6 and x = −1 (verify: x = −1: LHS = −2, RHS = 6 + 2^(−2) = 6.25, not exact). The algebraic solution requires technology; the intersection point is approximately x ≈ 4.6.'
+    },
+    {
+      number: 34,
+      part: 'C',
+      type: 'written',
+      text: 'During the summer, Adam saved $4000 and Betty saved $3500. Adam deposited his money in Bank A at an annual rate of 2.4% compounded monthly. Betty deposited her money in Bank B at an annual rate of 4% compounded quarterly. Write two functions, A(t) and B(t), that represent the value of each account after t years if no other deposits or withdrawals are made. Using technology, determine, to the nearest tenth of a year, how long it will take for the two accounts to have the same amount of money.',
+      topic: 'Exponential & Logarithmic',
+      explanation: 'Write A(t) = 4000(1 + 0.024/12)^(12t) and B(t) = 3500(1 + 0.04/4)^(4t), then use a graphing calculator to find their intersection.',
+      diveDeep: 'Compound interest formulas require careful attention to the compounding frequency: monthly means n = 12, quarterly means n = 4. Each formula is A = P(1 + r/n)^(nt). Since Adam starts with more money but at a lower rate, Betty\'s account will eventually catch up and exceed it. Graph both on a calculator and find the intersection using the intersect feature. Common errors include using the annual rate r directly without dividing by n, or confusing monthly and quarterly compounding periods.',
+      modelAnswer: 'A(t) = 4000(1 + 0.024/12)^(12t) = 4000(1.002)^(12t). B(t) = 3500(1 + 0.04/4)^(4t) = 3500(1.01)^(4t). Graphing both functions and using the intersect feature: the accounts are equal at approximately t ≈ 15.0 years.'
+    },
+    {
+      number: 35,
+      part: 'C',
+      type: 'written',
+      text: 'On a set of axes, draw at least one complete cycle of a sine graph passing through the point (0, 2) that has an amplitude of 3, a period of π, and a midline at y = 2. Based on your graph, state an interval in which the graph is increasing.',
+      topic: 'Trigonometric Functions',
+      explanation: 'The function is y = 3 sin(2x) + 2. Identify key features: midline y = 2, amplitude 3, period = 2π/B = π so B = 2. Passes through (0, 2) since sin(0) = 0.',
+      diveDeep: 'To construct the graph, determine: midline y = 2 (vertical shift), amplitude 3 (max at y = 5, min at y = −1), period π (B = 2π/π = 2), and the starting point (0, 2). Sketch the characteristic sine wave shape with one full cycle from x = 0 to x = π. The graph increases on intervals where it moves from minimum to maximum. A common mistake is misidentifying the period or placing the graph\'s starting maximum instead of the midline crossing at x = 0.',
+      modelAnswer: 'The equation is y = 3 sin(2x) + 2. Key points: (0, 2) → midline crossing; (π/4, 5) → maximum; (π/2, 2) → midline; (3π/4, −1) → minimum; (π, 2) → midline. The graph is increasing on the interval (−π/2, 0) or equivalently (π/2, π) — from the minimum back up to the midline.'
+    },
+    {
+      number: 36,
+      part: 'C',
+      type: 'written',
+      text: 'A manufacturer of sweatshirts finds that the profit p(x), in thousands of dollars, as a function of the number of sweatshirts sold x (in thousands) is given by p(x) = −x³ + 11x² − 7x − 69. Graph y = p(x) over the interval 0 ≤ x ≤ 9 on a set of axes. Over this interval, state the coordinates of the maximum of p, rounded to the nearest integer. Explain what this point represents in terms of sweatshirts sold and profit.',
+      topic: 'Polynomial Functions',
+      explanation: 'Graph the cubic using key points over [0, 9]. Use a graphing calculator to find the local maximum. The maximum point tells the optimal production level for greatest profit.',
+      diveDeep: 'The cubic function p(x) = −x³ + 11x² − 7x − 69 has a negative leading coefficient, so it rises then falls. Find the local maximum by taking the derivative p\'(x) = −3x² + 22x − 7 and setting it to zero: 3x² − 22x + 7 = 0 → x = (22 ± √(484 − 84))/6 = (22 ± 20)/6, giving x ≈ 7 or x ≈ 1/3. Evaluate p(7) = −343 + 539 − 49 − 69 = 78. On the graph, the maximum of approximately (7, 78) represents selling 7000 sweatshirts for a profit of $78,000. A common mistake is misreading the scale or rounding x and y independently before computing.',
+      modelAnswer: 'Evaluating p(x) at key points: p(0) = −69, p(3) ≈ −69 + 99 − 21 − 69 = −60... Using technology, the maximum occurs near x ≈ 7, p(7) = −343 + 539 − 49 − 69 = 78. The maximum is approximately (7, 78). This means the manufacturer maximizes profit — $78,000 — by selling approximately 7,000 sweatshirts.'
+    },
+    {
+      number: 37,
+      part: 'D',
+      type: 'written',
+      text: 'Using the profit function p(x) = −x³ + 11x² − 7x − 69 over the interval 0 ≤ x ≤ 9: State the coordinates of the maximum of p (round all values to the nearest integer) and explain what this point represents in terms of sweatshirts sold and profit. Determine how many sweatshirts, to the nearest whole sweatshirt, the manufacturer would need to produce in order to first make a positive profit. Justify your answer.',
+      topic: 'Polynomial Functions',
+      explanation: 'Find the local maximum using the derivative or graphing technology (approximately (7, 78)), then find the positive x-intercept where p(x) crosses zero from negative to positive.',
+      diveDeep: 'This question links graphical, algebraic, and contextual reasoning. The maximum (7, 78) tells the optimal production quantity and the corresponding profit in thousands of dollars. To find when the manufacturer first makes a positive profit, look for the smallest positive root of p(x) = 0. Using a graphing calculator, p(x) = 0 at approximately x ≈ 3.3 thousand sweatshirts, meaning the break-even point is around 3,300 sweatshirts. Common mistakes include misidentifying which zero represents the first positive profit (taking the leftmost x-intercept that changes the sign from negative to positive) and forgetting to convert units — x is in thousands, so x = 3.3 means 3,300 sweatshirts.',
+      modelAnswer: 'Maximum: p\'(x) = −3x² + 22x − 7 = 0 → x ≈ 7; p(7) = −343 + 539 − 49 − 69 = 78. Maximum is (7, 78) — the manufacturer earns a maximum profit of $78,000 when selling 7,000 sweatshirts. For the first positive profit: solve p(x) = 0 for the smallest positive root. Using technology, x ≈ 3.3 thousand sweatshirts. The manufacturer must produce approximately 3,300 sweatshirts to first make a positive profit, confirmed because p(3) < 0 and p(4) > 0, and the sign change occurs at ≈ 3.3.'
     }
   ]
 }

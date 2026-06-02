@@ -1409,4 +1409,42 @@ button, input, select {
   animation: modal-scale-up 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
 }
 
+/* ── Regents Exam Results Screen ── */
+.regents-score-card       { border-radius: 16px; padding: 24px; text-align: center; margin-bottom: 20px; border: 2px solid; }
+.regents-score-card--pass { background: rgba(240,253,244,0.08); border-color: rgba(34,197,94,0.35); }
+.regents-score-card--fail { background: rgba(254,242,242,0.08); border-color: rgba(239,68,68,0.35); }
+.regents-score-scaled     { font-size: 3.5rem; font-weight: 800; color: var(--text); line-height: 1; }
+.regents-score-label      { font-size: .78rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: .06em; margin: 4px 0 10px; }
+.regents-score-verdict    { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
+.regents-score-verdict--pass { color: #22c55e; }
+.regents-score-verdict--fail { color: #ef4444; }
+.regents-score-raw        { font-size: .82rem; color: var(--text-muted); }
+.regents-xp-banner        { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; padding: 10px 14px; background: var(--surface-2); border-radius: 10px; border: 1.5px solid var(--border); }
+.regents-xp-earned        { font-size: 1rem; font-weight: 800; color: var(--brand-dark); }
+.regents-pb-badge         { font-size: .78rem; font-weight: 700; padding: 2px 10px; border-radius: 99px; background: rgba(34,197,94,.15); color: #16a34a; }
+.regents-breakdown        { background: var(--surface-2); border-radius: 12px; padding: 14px 16px; margin-bottom: 20px; display: flex; flex-direction: column; gap: 10px; border: 1px solid var(--border); }
+.regents-breakdown-row    { display: flex; align-items: center; gap: 10px; }
+.regents-breakdown-part   { font-size: .8rem; font-weight: 700; color: var(--text); min-width: 48px; }
+.regents-breakdown-bar-track { flex: 1; height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+.regents-breakdown-bar-fill  { height: 100%; border-radius: 4px; transition: width .4s; }
+.regents-breakdown-score  { font-size: .8rem; font-weight: 600; color: var(--text); min-width: 36px; text-align: right; }
+.regents-review-header    { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.regents-review-title     { font-size: .88rem; font-weight: 700; color: var(--text); }
+.regents-review-toggle    { font-size: .78rem; color: var(--brand-dark); font-weight: 600; background: none; border: none; cursor: pointer; }
+.regents-review-list      { display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
+.regents-review-item      { border-radius: 10px; padding: 12px 14px; border: 1.5px solid; }
+.regents-review-item--correct { background: rgba(240,253,244,0.06); border-color: rgba(34,197,94,0.25); }
+.regents-review-item--wrong   { background: rgba(254,242,242,0.06); border-color: rgba(239,68,68,0.25); }
+.regents-review-item-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.regents-review-qnum      { font-size: .72rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
+.regents-review-verdict   { font-size: .78rem; font-weight: 600; color: var(--text-muted); }
+.regents-review-qtext     { font-size: .85rem; color: var(--text); margin-bottom: 6px; }
+.regents-review-correct   { font-size: .82rem; color: #16a34a; }
+.regents-review-explanation { font-size: .8rem; color: var(--text-muted); margin-top: 4px; font-style: italic; line-height: 1.4; }
+.regents-review-divedeep  { margin-top: 8px; border-radius: 8px; background: var(--surface-2); border: 1px solid var(--border); overflow: hidden; }
+.regents-review-divedeep summary { cursor: pointer; padding: 6px 10px; font-size: .78rem; font-weight: 600; color: var(--brand-dark); user-select: none; }
+.regents-review-divedeep summary:hover { background: var(--surface-3); }
+.regents-review-divedeep p { margin: 0; padding: 8px 12px; font-size: .78rem; color: var(--text-muted); line-height: 1.55; }
+.regents-result-actions   { display: flex; gap: 10px; padding-bottom: 24px; }
+
 

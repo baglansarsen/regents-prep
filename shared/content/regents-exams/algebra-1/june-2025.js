@@ -337,6 +337,56 @@ export default {
       explanation: 'Factoring gives (2x − 1)(x + 3) = 0, so 2x − 1 = 0 → x = ½ or x + 3 = 0 → x = −3.',
       diveDeep: 'For quadratics where a ≠ 1, factor using the AC method: multiply a·c (here 2·−3 = −6) and find two numbers that multiply to −6 and add to the middle coefficient 5 (those are 6 and −1). Then split the middle term and factor by grouping, or use the quadratic formula if factoring is difficult. Once factored, apply the zero-product property: if a product equals zero, at least one factor must be zero. Solve each factor separately.',
       modelAnswer: 'Factor 2x² + 5x − 3 using the AC method.\na·c = 2·(−3) = −6. Find two numbers that multiply to −6 and add to 5: those are 6 and −1.\nSplit the middle term:\n2x² + 6x − x − 3 = 0\nFactor by grouping:\n2x(x + 3) − 1(x + 3) = 0\n(2x − 1)(x + 3) = 0\nSet each factor equal to zero:\n2x − 1 = 0 → x = ½\nx + 3 = 0 → x = −3\nThe solutions are x = ½ and x = −3.'
+    },
+    {
+      number: 33,
+      part: 'C',
+      type: 'written',
+      text: 'Graph f(x) = −3x and g(x) = x² + 2 on the set of axes below.\n\nState the values of x that satisfy the equation f(x) = g(x).',
+      topic: 'Functions & Relations',
+      explanation: 'Setting −3x = x² + 2 gives x² + 3x + 2 = 0, which factors as (x + 1)(x + 2) = 0, so x = −1 and x = −2 are the x-values where the graphs intersect.',
+      diveDeep: 'Solving f(x) = g(x) graphically means finding the x-coordinates of intersection points; algebraically it means setting the two expressions equal and solving. Here setting −3x = x² + 2 and rearranging to x² + 3x + 2 = 0 gives a factorable quadratic. A common mistake is giving the full ordered pairs instead of just the x-values — the question asks only for the values of x. Verify each answer by checking that f(x) equals g(x): f(−1) = 3 and g(−1) = 1 + 2 = 3 ✓; f(−2) = 6 and g(−2) = 4 + 2 = 6 ✓.',
+      modelAnswer: 'Graph f(x) = −3x (a line through the origin with slope −3) and g(x) = x² + 2 (an upward-opening parabola shifted up 2 units) on the same axes.\n\nTo find where f(x) = g(x), set the expressions equal:\n−3x = x² + 2\nMove all terms to one side:\n0 = x² + 3x + 2\nFactor:\n0 = (x + 1)(x + 2)\nSet each factor equal to zero:\nx + 1 = 0 → x = −1\nx + 2 = 0 → x = −2\n\nCheck: f(−1) = −3(−1) = 3 and g(−1) = (−1)² + 2 = 3 ✓\nf(−2) = −3(−2) = 6 and g(−2) = (−2)² + 2 = 6 ✓\n\nThe values of x that satisfy f(x) = g(x) are x = −1 and x = −2.'
+    },
+    {
+      number: 34,
+      part: 'C',
+      type: 'written',
+      text: 'Using the quadratic formula, solve 6x² + 2x − 1 = 0.\n\nExpress the answer in simplest radical form.',
+      topic: 'Quadratic Functions',
+      explanation: 'With a = 6, b = 2, c = −1, the discriminant is 4 + 24 = 28 = 4·7, so the quadratic formula gives x = (−2 ± 2√7) / 12, which simplifies to x = (−1 ± √7) / 6.',
+      diveDeep: 'The quadratic formula x = (−b ± √(b² − 4ac)) / (2a) always works, but simplifying the result requires reducing the radical and the fraction. Here √28 = √(4·7) = 2√7, and dividing numerator and denominator by 2 gives (−1 ± √7)/6. A frequent error is forgetting to simplify the radical or not dividing ALL terms in the numerator by the common factor. "Simplest radical form" means the radicand has no perfect-square factors and the fraction is fully reduced.',
+      modelAnswer: 'Identify a = 6, b = 2, c = −1.\nApply the quadratic formula:\nx = (−b ± √(b² − 4ac)) / (2a)\nx = (−2 ± √(2² − 4(6)(−1))) / (2·6)\nx = (−2 ± √(4 + 24)) / 12\nx = (−2 ± √28) / 12\n\nSimplify √28:\n√28 = √(4·7) = 2√7\n\nSubstitute back:\nx = (−2 ± 2√7) / 12\n\nDivide numerator and denominator by 2:\nx = (−1 ± √7) / 6\n\nThe solutions in simplest radical form are x = (−1 + √7) / 6 and x = (−1 − √7) / 6.'
+    },
+    {
+      number: 35,
+      part: 'C',
+      type: 'written',
+      text: 'The table below shows the price of a new cell phone and the length of time, in months, since its release.\n\nTime Since Release, in Months (x): 0, 3, 6, 9, 12\nPrice, in Dollars (y): 1200, 1150, 1100, 1000, 920\n\nState the linear regression equation for this set of data. Round all values to the nearest hundredth.\n\nState the correlation coefficient for this data set, to the nearest hundredth.\n\nState what the correlation coefficient indicates about the linear fit of the data.',
+      topic: 'Statistics & Probability',
+      explanation: 'The linear regression equation is y = −23.67x + 1216.00, the correlation coefficient is r ≈ −0.99, and since r is very close to −1 the data has a strong negative linear correlation — as time increases, price decreases in a nearly linear pattern.',
+      diveDeep: 'Linear regression finds the line of best fit that minimizes the sum of squared vertical distances from data points to the line. The slope (−23.67) tells you the average price drops about $23.67 per month. The correlation coefficient r ranges from −1 to 1: values close to ±1 indicate a strong linear relationship, values near 0 indicate little to no linear correlation, and a negative r means the variables move in opposite directions. Students often confuse r (correlation coefficient) with r² (coefficient of determination) — the question asks for r specifically.',
+      modelAnswer: 'Enter the data into a calculator using the linear regression (LinReg) function:\nx-values: 0, 3, 6, 9, 12\ny-values: 1200, 1150, 1100, 1000, 920\n\nThe linear regression equation (rounded to the nearest hundredth):\ny = −23.67x + 1216.00\n\nThe correlation coefficient (rounded to the nearest hundredth):\nr = −0.99\n\nInterpretation: The correlation coefficient of −0.99 indicates a strong negative linear relationship between the time since release and the price of the cell phone. As the time since release increases, the price decreases in a pattern that is very closely modeled by a linear equation.'
+    },
+    {
+      number: 36,
+      part: 'C',
+      type: 'written',
+      text: 'Solve the following system of equations algebraically for all values of x and y.\n\ny = x² + 9x + 4\ny − 2x = −6',
+      topic: 'Quadratic Functions',
+      explanation: 'Rewriting the second equation as y = 2x − 6 and substituting into the first gives x² + 7x + 10 = 0, which factors as (x + 5)(x + 2) = 0, yielding the solutions (−5, −16) and (−2, −10).',
+      diveDeep: 'To solve a linear-quadratic system algebraically, isolate y in the simpler (linear) equation and substitute into the quadratic. After collecting all terms on one side, factor or use the quadratic formula. A common mistake is forgetting to find the corresponding y-values after finding the x-values — the question asks for all values of x AND y, so both coordinates of each intersection point are required. Always substitute back into the linear equation (not the quadratic) for the y-values, as the arithmetic is simpler.',
+      modelAnswer: 'Rewrite the second equation to isolate y:\ny − 2x = −6\ny = 2x − 6\n\nSubstitute into the first equation:\n2x − 6 = x² + 9x + 4\nMove all terms to one side:\n0 = x² + 9x + 4 − 2x + 6\n0 = x² + 7x + 10\n\nFactor:\n0 = (x + 5)(x + 2)\n\nSet each factor equal to zero:\nx + 5 = 0 → x = −5\nx + 2 = 0 → x = −2\n\nFind the corresponding y-values using y = 2x − 6:\nWhen x = −5: y = 2(−5) − 6 = −10 − 6 = −16\nWhen x = −2: y = 2(−2) − 6 = −4 − 6 = −10\n\nCheck (−5, −16): y = (−5)² + 9(−5) + 4 = 25 − 45 + 4 = −16 ✓\nCheck (−2, −10): y = (−2)² + 9(−2) + 4 = 4 − 18 + 4 = −10 ✓\n\nThe solutions are (−5, −16) and (−2, −10).'
+    },
+    {
+      number: 37,
+      part: 'D',
+      type: 'written',
+      text: 'Sarah earns $6 per hour babysitting and $12 per hour tutoring. Her goal is to earn at least $120 per week. Sarah is allowed to work a maximum of 14 hours per week doing both jobs.\n\nIf x represents the number of hours Sarah babysits and y represents the number of hours she tutors, write a system of inequalities that could model this situation.\n\nOn the set of axes provided, graph the system of inequalities that you wrote.\n\nState a combination of hours babysitting and tutoring that would satisfy this situation. Justify your answer.',
+      topic: 'Linear Equations & Inequalities',
+      explanation: 'The two inequalities are 6x + 12y ≥ 120 (earnings goal) and x + y ≤ 14 (hour limit), with x ≥ 0 and y ≥ 0; the feasible region is where both shaded regions overlap, and any point in that region — for example, 2 hours babysitting and 10 hours tutoring — represents a valid combination.',
+      diveDeep: 'Modeling a real-world constraint system requires translating each condition into a separate inequality. The earnings constraint uses the rates as coefficients ($6 and $12 per hour) and "at least" means ≥. The time constraint uses the total hours and "maximum" means ≤. After graphing, the solution region is the overlap of all shaded areas. To justify a specific answer, show that the chosen point satisfies BOTH inequalities by substituting the values — one substitution check per inequality is required for full credit. Don\'t forget that x ≥ 0 and y ≥ 0 because hours cannot be negative.',
+      modelAnswer: 'Define variables: x = hours babysitting, y = hours tutoring.\n\nSystem of inequalities:\nEarnings constraint (at least $120): 6x + 12y ≥ 120  (which simplifies to x + 2y ≥ 20)\nTime constraint (maximum 14 hours): x + y ≤ 14\nAlso: x ≥ 0 and y ≥ 0 (hours cannot be negative)\n\nTo graph:\n• Graph x + 2y = 20 (or 6x + 12y = 120): y-intercept (0, 10), x-intercept (20, 0). Shade above (toward higher earnings).\n• Graph x + y = 14: y-intercept (0, 14), x-intercept (14, 0). Shade below (toward fewer hours).\n• The solution region is where the two shaded areas overlap in the first quadrant.\n\nSample valid combination: x = 2 hours babysitting, y = 10 hours tutoring.\n\nJustification:\nEarnings: 6(2) + 12(10) = 12 + 120 = $132 ≥ $120 ✓\nTotal hours: 2 + 10 = 12 ≤ 14 ✓\nBoth constraints are satisfied, so working 2 hours babysitting and 10 hours tutoring is a valid solution.'
     }
   ]
 }

@@ -26,6 +26,7 @@ import QuizScreen from './screens/QuizScreen'
 import ResultsScreen from './screens/ResultsScreen'
 import ExamPickerScreen from './screens/ExamPickerScreen'
 import ExamScreen from './screens/ExamScreen'
+import RegentsExamResultsScreen from './screens/RegentsExamResultsScreen'
 import MistakesScreen from './screens/MistakesScreen'
 import AnalyticsScreen from './screens/AnalyticsScreen'
 import PetShopScreen from './screens/PetShopScreen'
@@ -96,6 +97,7 @@ function MainLayout() {
   const [quizQuestions, setQuizQuestions] = useState([])
   const [quizResults, setQuizResults] = useState(null)
   const [activeExam, setActiveExam] = useState(null)
+  const [examResultsData, setExamResultsData] = useState(null)
 
   // Battle Arena parameters
   const [battleOpponent, setBattleOpponent] = useState(null)
@@ -415,6 +417,41 @@ function MainLayout() {
     setScreen('results')
   }
 
+  // Exam (Regents past paper) end results
+  async function handleExamFinished(resultsData) {
+    // Save wrong MC questions to mistakes
+    const wrongMC = (resultsData.fullResults || []).filter(r => !r.correct && r.question.type !== 'written')
+    if (wrongMC.length > 0) {
+      await saveMistakes(wrongMC.map(r => r.question), subject)
+    }
+
+    // Save progress record
+    await saveResult({
+      topic: activeExam?.subject || subject,
+      score: resultsData.score,
+      total: resultsData.total,
+      correct: resultsData.correct,
+      pct: resultsData.pct,
+      subject,
+    })
+
+    // Earn XP
+    let xpEarned = 0
+    if (resultsData.score > 0) {
+      xpEarned = resultsData.score
+      const freshTotal = await earnXP(resultsData.score)
+      if (pet.chosen) checkAndEvolve(freshTotal)
+    }
+
+    if (resultsData.correct > 0) {
+      markStudied()
+      updateQuestProgress('answer_correct', resultsData.correct)
+    }
+
+    setExamResultsData({ exam: activeExam, fullResults: resultsData.fullResults || [], xpEarned })
+    setScreen('examResults')
+  }
+
   // Battle Arena end results calculation
   const handleBattleFinished = useCallback(async (res) => {
     // 1. Calculate XP rewards
@@ -567,9 +604,24 @@ function MainLayout() {
       <ExamScreen
         exam={activeExam}
         updateQuestProgress={updateQuestProgress}
-        onFinish={handleQuizFinished}
+        onFinish={handleExamFinished}
         onClose={() => setScreen('home')}
         pet={pet}
+      />
+    )
+  }
+
+  // Render Regents Exam Results view
+  if (screen === 'examResults') {
+    return (
+      <RegentsExamResultsScreen
+        exam={examResultsData?.exam}
+        results={examResultsData?.fullResults || []}
+        xpEarned={examResultsData?.xpEarned}
+        onRetake={() => {
+          setScreen('examActive')
+        }}
+        onHome={() => setScreen('home')}
       />
     )
   }

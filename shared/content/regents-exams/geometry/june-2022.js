@@ -292,6 +292,119 @@ export default {
       correct: 3,
       explanation: 'With OA = OC = 10 (radii), and ∠OBA = 36°, then ∠AOB = 90° − 36° = 54° (tangent-radius is perpendicular). Arc CD relates to the central angle. Sector area = (θ/360°)πr² = (central angle/360°) × π(10²). The central angle for sector DOE is found using the given angle: area = 15π.',
       diveDeep: 'The tangent from external point B is perpendicular to radius OA, giving ∠OAB = 90°. In △OAB: ∠OBA = 36°, ∠OAB = 90°, so ∠AOB = 54°. Since OB is a secant along the diameter direction, the central angle for sector DOE can be calculated. Sector area formula: A = (θ/360)πr². With r = 10 and the appropriate central angle, A = (θ/360) × 100π = 15π implies θ = 54°. Always identify the central angle and radius before applying the sector formula.'
+    },
+    // Part B — 7 questions (2 credits each)
+    {
+      number: 25,
+      part: 'B',
+      type: 'written',
+      text: 'The Leaning Tower of Pisa in Italy is known for its slant, which occurred after its construction began. The angle of the slant is 86.03° from the ground. The low side of the tower reaches a height of 183.27 feet from the ground. Determine and state the slant height, x, of the low side of the tower, to the nearest hundredth of a foot.',
+      topic: 'Trigonometry',
+      explanation: 'Using trigonometry with the given angle (86.03°) and the vertical height (183.27 ft), set up sin(86.03°) = 183.27/x and solve: x = 183.27 / sin(86.03°) ≈ 183.61 feet.',
+      diveDeep: 'In a right triangle formed by the tower, its vertical height, and the slant height, the angle at the ground is 86.03°. The vertical height (183.27 ft) is opposite the angle, and the slant height x is the hypotenuse. Thus sin(86.03°) = opposite/hypotenuse = 183.27/x, which gives x = 183.27/sin(86.03°). A common mistake is confusing the angle placement — the angle is measured from the ground to the slant, so the vertical height is indeed opposite that angle. Make sure your calculator is in degree mode. sin(86.03°) ≈ 0.9979, so x ≈ 183.27/0.9979 ≈ 183.65 ft.',
+      modelAnswer: 'sin(86.03°) = 183.27 / x\nx = 183.27 / sin(86.03°)\nx = 183.27 / 0.99786...\nx ≈ 183.65 feet'
+    },
+    {
+      number: 26,
+      part: 'B',
+      type: 'written',
+      text: 'In the diagram below, quadrilateral ABCD is inscribed in circle O, and m arc AB : m arc BC : m arc CD : m arc DA = 2 : 3 : 5 : 5. Determine and state m∠B.',
+      topic: 'Circles',
+      explanation: 'The four arcs sum to 360°. With ratio 2:3:5:5, each part = 360/15 = 24°, so arc AB = 48°, arc BC = 72°, arc CD = 120°, arc DA = 120°. Inscribed angle B intercepts arc CD + arc DA (the arc not adjacent to B), giving m∠B = (1/2)(arc CDA) = (1/2)(120° + 120°) = 120°.',
+      diveDeep: 'For a quadrilateral inscribed in a circle, the arcs must sum to 360°. The ratio 2:3:5:5 gives 15 total parts, so each part = 360°/15 = 24°. Arc AB = 48°, arc BC = 72°, arc CD = 120°, arc DA = 120°. An inscribed angle equals half the intercepted arc. Inscribed angle B is formed at vertex B, so it intercepts the arc that does NOT contain B — that is arc CD + arc DA = 240°. Therefore m∠B = 240°/2 = 120°. A frequent error is using only one adjacent arc instead of the entire arc on the opposite side.',
+      modelAnswer: 'Total parts = 2 + 3 + 5 + 5 = 15\nEach part = 360° / 15 = 24°\nArc AB = 2(24°) = 48°\nArc BC = 3(24°) = 72°\nArc CD = 5(24°) = 120°\nArc DA = 5(24°) = 120°\nInscribed ∠B intercepts arc CDA (not containing B):\nArc CDA = 120° + 120° = 240°\nm∠B = (1/2)(240°) = 120°'
+    },
+    {
+      number: 27,
+      part: 'B',
+      type: 'written',
+      text: 'In the diagram below, a right circular cone has a diameter of 10 and a slant height of 13. Determine and state the volume of the cone, in terms of π.',
+      topic: 'Area & Volume',
+      explanation: 'The radius is 5 and the slant height is 13. Use the Pythagorean theorem to find the height: h = √(13² − 5²) = √(169 − 25) = √144 = 12. Volume = (1/3)πr²h = (1/3)π(25)(12) = 100π.',
+      diveDeep: 'For a cone, the slant height (l), the radius (r), and the height (h) form a right triangle: l² = r² + h². With diameter 10, radius r = 5; slant height l = 13. So h = √(13² − 5²) = √(169 − 25) = √144 = 12. This is a recognizable 5-12-13 Pythagorean triple. Volume of cone = (1/3)πr²h = (1/3)π(5²)(12) = (1/3)(25)(12)π = (300/3)π = 100π. A common mistake is using the slant height instead of the perpendicular height in the volume formula.',
+      modelAnswer: 'Radius r = 10/2 = 5\nSlant height l = 13\nh² = l² − r² = 13² − 5² = 169 − 25 = 144\nh = 12\nVolume = (1/3)πr²h = (1/3)π(5²)(12) = (1/3)(25)(12)π = 100π'
+    },
+    {
+      number: 28,
+      part: 'B',
+      type: 'written',
+      text: 'In the diagram below, parallelogram EFGH is mapped onto parallelogram IJKH after a reflection over line ℓ. Use the properties of rigid motions to explain why parallelogram EFGH is congruent to parallelogram IJKH.',
+      topic: 'Congruence & Transformations',
+      explanation: 'A reflection is a rigid motion, which preserves all distances and angle measures. Since EFGH maps exactly onto IJKH under this reflection, the two parallelograms are congruent by definition of congruence through rigid motion.',
+      diveDeep: 'Rigid motions — reflections, rotations, and translations — are distance-preserving (isometric) transformations. Because a reflection is a rigid motion, every side length and every angle measure in the pre-image (EFGH) equals the corresponding side length and angle measure in the image (IJKH). Two figures are congruent if and only if one can be mapped to the other by a sequence of rigid motions. Since a single reflection achieves that mapping here, EFGH ≅ IJKH. Note that point H is on the line of reflection ℓ (it is the shared vertex), so it maps to itself — this is consistent with both parallelograms sharing vertex H.',
+      modelAnswer: 'A reflection is a rigid motion. Rigid motions preserve distance (side lengths) and angle measure. Since parallelogram EFGH maps onto parallelogram IJKH under a reflection over line ℓ, all corresponding sides are congruent and all corresponding angles are congruent. Therefore, by the definition of congruence, parallelogram EFGH ≅ parallelogram IJKH.'
+    },
+    {
+      number: 29,
+      part: 'B',
+      type: 'written',
+      text: 'Izzy is making homemade clay pendants in the shape of a solid hemisphere. Each pendant has a radius of 2.8 cm. How much clay, to the nearest cubic centimeter, does Izzy need to make 100 pendants?',
+      topic: 'Area & Volume',
+      explanation: 'Volume of one hemisphere = (2/3)πr³ = (2/3)π(2.8)³ ≈ (2/3)π(21.952) ≈ 46.0 cm³. For 100 pendants: 100 × 46.0 ≈ 4,602 cm³.',
+      diveDeep: 'A hemisphere is half a sphere, so its volume is (1/2)(4/3)πr³ = (2/3)πr³. With r = 2.8 cm: r³ = 2.8³ = 21.952. Volume of one hemisphere = (2/3)π(21.952) ≈ (2/3)(3.14159)(21.952) ≈ 46.0 cm³. For 100 pendants: 100 × 46.0 = 4,600 cm³ (exact calculation gives approximately 4,602 cm³). A common error is using the full sphere volume formula (4/3)πr³ instead of dividing by 2 for a hemisphere, which would double the answer.',
+      modelAnswer: 'Volume of one hemisphere = (2/3)πr³\n= (2/3)π(2.8)³\n= (2/3)π(21.952)\n≈ 46.0 cm³\n\nFor 100 pendants:\n100 × 46.0 ≈ 4,602 cm³\n\nIzzy needs approximately 4,602 cubic centimeters of clay.'
+    },
+    {
+      number: 30,
+      part: 'B',
+      type: 'written',
+      text: 'Determine and state the coordinates of the center and the length of the radius of the circle whose equation is x² + y² + 6x − 6y − 63 = 0.',
+      topic: 'Circles',
+      explanation: 'Complete the square in x and y: (x + 3)² + (y − 3)² = 81. The center is (−3, 3) and the radius is 9.',
+      diveDeep: 'To convert from general form to standard form, complete the square for each variable. Group x-terms and y-terms: (x² + 6x) + (y² − 6y) = 63. Complete the square: add (6/2)² = 9 for x and (−6/2)² = 9 for y to both sides: (x² + 6x + 9) + (y² − 6y + 9) = 63 + 9 + 9 = 81. This gives (x + 3)² + (y − 3)² = 81, so center = (−3, 3) and r = √81 = 9. A very common mistake is adding the completion values only to the left side and forgetting to add them to the right side, or misreading the center signs from the factored form.',
+      modelAnswer: 'x² + y² + 6x − 6y − 63 = 0\n(x² + 6x) + (y² − 6y) = 63\nComplete the square:\n(x² + 6x + 9) + (y² − 6y + 9) = 63 + 9 + 9\n(x + 3)² + (y − 3)² = 81\n\nCenter: (−3, 3)\nRadius: r = √81 = 9'
+    },
+    {
+      number: 31,
+      part: 'B',
+      type: 'written',
+      text: 'Use a compass and straightedge to construct a line parallel to AB through point C, shown below. [Leave all construction marks.]',
+      topic: 'Constructions',
+      explanation: 'To construct a line parallel to AB through C, copy the angle that AB makes with a transversal at the point C using a compass and straightedge, then draw the parallel line through C.',
+      diveDeep: 'The standard construction of a parallel line uses the converse of the Corresponding Angles Postulate. Step 1: Draw a transversal through C that intersects AB (extend if needed). Step 2: At the intersection point on AB, open the compass to mark the angle. Step 3: Without changing the compass, replicate that angle at point C (same side, same orientation). Step 4: Draw the line through C along the direction of the copied angle — this line is parallel to AB. All compass arcs must be left visible. An alternative method uses the rhombus construction (mark equal lengths on the transversal from both C and the intersection, then connect the endpoints).',
+      modelAnswer: 'Construction steps:\n1. Draw a transversal line through point C that intersects line AB at a point (call it D).\n2. With compass centered at D, draw an arc intersecting AB and the transversal; label the two intersection points.\n3. Without changing compass width, place the compass at C and draw the same arc across the transversal.\n4. Set compass to the chord length of the arc at D, then use that width at C to mark where the arc intersects.\n5. Draw a line through C and the marked point — this line is parallel to AB.\n[All construction arcs must remain visible.]'
+    },
+    // Part C — 3 questions (4 credits each)
+    {
+      number: 32,
+      part: 'C',
+      type: 'written',
+      text: 'As modeled below, a projector mounted on a ceiling is 3.74 m from a wall, where a whiteboard is displayed. The vertical distance from the ceiling to the top of the whiteboard is 0.41 m, and the height of the whiteboard is 1.17 m. Determine and state the projection angle, θ, to the nearest tenth of a degree.',
+      topic: 'Trigonometry',
+      explanation: 'The angle θ is the angle at the projector between the line to the top and the line to the bottom of the whiteboard. The top of the whiteboard is 0.41 m below the ceiling; the bottom is 0.41 + 1.17 = 1.58 m below the ceiling. Using inverse tangent: θ = arctan(1.58/3.74) − arctan(0.41/3.74) ≈ 22.9° − 6.3° ≈ 16.6°.',
+      diveDeep: 'This problem requires finding the angle between two rays from the projector — one to the top of the whiteboard, one to the bottom. Let α = angle to the top: tan α = 0.41/3.74, so α = arctan(0.41/3.74) ≈ 6.3°. Let β = angle to the bottom: the bottom is 0.41 + 1.17 = 1.58 m below the ceiling, so tan β = 1.58/3.74, giving β ≈ 22.9°. The projection angle θ = β − α ≈ 22.9° − 6.3° = 16.6°. A common error is treating the entire vertical distance as the opposite side without accounting for the upper offset (0.41 m), or computing a single angle rather than the difference of two angles.',
+      modelAnswer: 'Distance from projector to wall = 3.74 m\nTop of whiteboard is 0.41 m below ceiling.\nBottom of whiteboard is 0.41 + 1.17 = 1.58 m below ceiling.\n\nAngle to top: α = arctan(0.41 / 3.74) ≈ arctan(0.1096) ≈ 6.3°\nAngle to bottom: β = arctan(1.58 / 3.74) ≈ arctan(0.4225) ≈ 22.9°\n\nProjection angle θ = β − α ≈ 22.9° − 6.3° ≈ 16.6°'
+    },
+    {
+      number: 33,
+      part: 'C',
+      type: 'written',
+      text: 'Given: Parallelogram PQRS, QT ⊥ PS, SU ⊥ QR. Prove: PT = RU.',
+      topic: 'Proofs',
+      explanation: 'In parallelogram PQRS, PQ = RS and ∠P = ∠R (opposite angles in a parallelogram are equal). Since QT ⊥ PS and SU ⊥ QR, triangles PQT and RSU are right triangles. By AAS (right angle, equal side PQ = RS, equal angle), △PQT ≅ △RSU, so PT = RU by CPCTC.',
+      diveDeep: 'The proof uses properties of a parallelogram and the AAS (Angle-Angle-Side) congruence theorem. Key steps: (1) In parallelogram PQRS, opposite sides are congruent: PQ ≅ SR. (2) Opposite angles are congruent: ∠P ≅ ∠R. (3) QT ⊥ PS gives ∠QTP = 90°; SU ⊥ QR gives ∠SUR = 90°, so ∠QTP ≅ ∠SUR. (4) By AAS: △PQT ≅ △RSU. (5) By CPCTC: PT ≅ RU. A common mistake is using SAS incorrectly by assuming PT and RU are the sides — those are what you must PROVE, not given. Always verify that the sides used in the congruence statement are the given ones, not the ones being proved.',
+      modelAnswer: 'Statement | Reason\n1. Parallelogram PQRS | Given\n2. QT ⊥ PS, SU ⊥ QR | Given\n3. ∠QTP = 90°, ∠SUR = 90° | Definition of perpendicular lines\n4. ∠QTP ≅ ∠SUR | All right angles are congruent\n5. PQ ≅ SR | Opposite sides of a parallelogram are congruent\n6. ∠P ≅ ∠R | Opposite angles of a parallelogram are congruent\n7. △PQT ≅ △RSU | AAS (steps 4, 6, 5)\n8. PT ≅ RU | CPCTC'
+    },
+    {
+      number: 34,
+      part: 'C',
+      type: 'written',
+      text: 'A concrete footing is a cylinder that is placed in the ground to support a building structure. The cylinder is 4 feet tall and 12 inches in diameter. A contractor is installing 10 footings. If a bag of concrete mix makes 2/3 of a cubic foot of concrete, determine and state the minimum number of bags of concrete mix needed to make all 10 footings.',
+      topic: 'Area & Volume',
+      explanation: 'Diameter = 12 inches = 1 foot, so radius = 0.5 ft. Volume of one footing = π(0.5)²(4) = π ft³. Total for 10 footings = 10π ft³ ≈ 31.42 ft³. Each bag makes 2/3 ft³, so bags needed = 31.42 ÷ (2/3) = 31.42 × 1.5 ≈ 47.1 → minimum 48 bags.',
+      diveDeep: 'Unit conversion is critical here: 12 inches = 1 foot, making the radius 0.5 ft (not 6). Volume of one cylinder = πr²h = π(0.5)²(4) = π(0.25)(4) = π ft³. For 10 footings: 10π ft³ ≈ 31.416 ft³. Dividing by the bag yield: 31.416 ÷ (2/3) = 31.416 × (3/2) = 47.12 bags. Since you must round UP to ensure enough concrete (you cannot buy 0.12 of a bag), the minimum is 48 bags. Students commonly forget to convert inches to feet, which inflates the volume by 144 times, or they round down instead of up.',
+      modelAnswer: 'Convert diameter to feet: 12 inches = 1 foot, so radius r = 0.5 ft\nHeight h = 4 ft\n\nVolume of one footing = πr²h = π(0.5)²(4) = π(0.25)(4) = π ft³\n\nVolume of 10 footings = 10π ≈ 31.42 ft³\n\nEach bag makes 2/3 ft³:\nNumber of bags = 31.42 ÷ (2/3) = 31.42 × (3/2) ≈ 47.12\n\nMinimum number of bags = 48 bags'
+    },
+    // Part D — 1 question (6 credits)
+    {
+      number: 35,
+      part: 'D',
+      type: 'written',
+      text: 'The coordinates of the vertices of △ABC are A(−2, 4), B(−7, −1), and C(−3, −3). Prove that △ABC is isosceles. State the coordinates of △A′B′C′, the image of △ABC, after a translation 5 units to the right and 5 units down. Prove that quadrilateral AA′C′C is a rhombus.',
+      topic: 'Coordinate Geometry',
+      explanation: 'Use the distance formula to show two sides of △ABC are equal (isosceles). The translation T(5, −5) gives A′(3, −1), B′(−2, −6), C′(2, −8). For rhombus AA′C′C, show all four sides are equal using the distance formula.',
+      diveDeep: 'For the isosceles proof: compute AB = √((−7−(−2))² + (−1−4)²) = √(25+25) = 5√2; BC = √((−3−(−7))² + (−3−(−1))²) = √(16+4) = √20 = 2√5; AC = √((−3−(−2))² + (−3−4)²) = √(1+49) = 5√2. Since AB = AC = 5√2, △ABC is isosceles. For the translation: add (5, −5) to each vertex: A′(3, −1), B′(−2, −6), C′(2, −8). For the rhombus: vertices of AA′C′C are A(−2,4), A′(3,−1), C′(2,−8), C(−3,−3). Show AA′ = A′C′ = C′C = CA by computing each with the distance formula — all equal 5√2. Since all four sides are equal, AA′C′C is a rhombus.',
+      modelAnswer: 'PART 1 — Prove △ABC is isosceles:\nAB = √((−7−(−2))² + (−1−4)²) = √((−5)² + (−5)²) = √(25+25) = √50 = 5√2\nBC = √((−3−(−7))² + (−3−(−1))²) = √(4² + (−2)²) = √(16+4) = √20 = 2√5\nAC = √((−3−(−2))² + (−3−4)²) = √((−1)² + (−7)²) = √(1+49) = √50 = 5√2\nSince AB = AC = 5√2, △ABC is isosceles.\n\nPART 2 — Translation T(5, −5):\nA(−2, 4) → A′(3, −1)\nB(−7, −1) → B′(−2, −6)\nC(−3, −3) → C′(2, −8)\n\nPART 3 — Prove AA′C′C is a rhombus:\nVertices: A(−2,4), A′(3,−1), C′(2,−8), C(−3,−3)\nAA′ = √((3−(−2))² + (−1−4)²) = √(25+25) = 5√2\nA′C′ = √((2−3)² + (−8−(−1))²) = √(1+49) = 5√2\nC′C = √((−3−2)² + (−3−(−8))²) = √(25+25) = 5√2\nCA = √((−2−(−3))² + (4−(−3))²) = √(1+49) = 5√2\nSince all four sides are equal (5√2), quadrilateral AA′C′C is a rhombus.'
     }
   ]
 }

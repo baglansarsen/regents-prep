@@ -312,6 +312,116 @@ export default {
       explanation: 'The centroid divides each median in a 2:1 ratio from vertex to midpoint, so BX = 2RX.',
       diveDeep: 'The centroid is the intersection of a triangle\'s three medians and divides each median so the portion from the vertex is twice the portion to the opposite midpoint (a 2:1 ratio). With BR a median, BX (vertex side) = 2 × RX (midpoint side). The other choices use arbitrary numerical relationships that need not hold. Memorize the centroid\'s defining 2:1 partition and that medians connect a vertex to the midpoint of the opposite side.',
       image: '/images/exams/geo-january-2026/q24.png'
+    },
+    {
+      number: 25,
+      part: 'B',
+      type: 'written',
+      text: 'A cylindrical bucket has an inside diameter of 10 inches and a height of 15 inches. If the topsoil weighs 0.0231 pound per cubic inch, determine and state the weight of the topsoil in the bucket when the bucket is full, to the nearest pound.',
+      topic: '3D Geometry & Volume',
+      explanation: 'Find the volume of the cylinder using V = πr²h, then multiply by the weight density to get the total weight.',
+      diveDeep: 'Radius = diameter/2 = 10/2 = 5 inches. V = π(5²)(15) = π(25)(15) = 375π ≈ 1178.1 in³. Weight = 1178.1 × 0.0231 ≈ 27.21 ≈ 27 pounds. Using the diameter (10) instead of the radius (5) in the formula — giving V = π(10²)(15) — quadruples the volume and is the most common error. Also, keep π in the calculation until the final step to preserve accuracy before rounding.',
+      modelAnswer: 'r = 10/2 = 5 inches\nV = πr²h = π(5²)(15) = 375π ≈ 1178.097 in³\nWeight = 1178.097 × 0.0231 ≈ 27.21 ≈ 27 pounds'
+    },
+    {
+      number: 26,
+      part: 'B',
+      type: 'written',
+      text: 'In right triangle SRT, m∠R = 90°, m∠S = 27°, and ST = 31.8. Determine and state the length of SR, to the nearest tenth.',
+      topic: 'Right Triangles & Trig',
+      explanation: 'Since ∠R = 90° and ∠S = 27°, SR is adjacent to angle S and ST is the hypotenuse, so cos(27°) = SR/ST; SR = 31.8 × cos(27°).',
+      diveDeep: 'In right triangle SRT with ∠R = 90°: ST is the hypotenuse (opposite the right angle), SR is the leg adjacent to ∠S, and RT is the leg opposite ∠S. Using cosine: cos(27°) = adjacent/hypotenuse = SR/31.8, so SR = 31.8 cos(27°) ≈ 31.8 × 0.8910 ≈ 28.3. A common error is using sin instead of cos (sin(27°) gives RT, not SR). Draw and label the triangle first to clearly identify which trig ratio applies to each side.',
+      modelAnswer: 'cos(27°) = SR/ST = SR/31.8\nSR = 31.8 × cos(27°) ≈ 31.8 × 0.8910 ≈ 28.3'
+    },
+    {
+      number: 27,
+      part: 'B',
+      type: 'written',
+      text: 'In △LET, LE = 7.5, ET = 9.3, and m∠LET = 115°. Determine and state the area of △LET, to the nearest tenth.',
+      topic: 'Triangles & Congruence',
+      explanation: 'Use the area formula for a triangle given two sides and the included angle: Area = (1/2)(LE)(ET)sin(∠LET).',
+      diveDeep: 'The two-sides-and-included-angle area formula is Area = (1/2)ab sin(C), where a and b are the two known sides and C is the angle between them. Here a = LE = 7.5, b = ET = 9.3, and C = 115°. Area = (1/2)(7.5)(9.3)sin(115°) = (1/2)(69.75)(0.9063) ≈ (1/2)(63.21) ≈ 31.6 square units. sin(115°) = sin(180° − 115°) = sin(65°) ≈ 0.9063 since 115° is obtuse — failing to account for the obtuse angle (e.g., using sin(65°) directly) still works because of this identity, but confusing 115° with 65° by miscalculating is a common slip.',
+      modelAnswer: 'Area = (1/2)(LE)(ET)sin(∠LET)\n= (1/2)(7.5)(9.3)sin(115°)\n= (1/2)(69.75)(0.9063)\n≈ (1/2)(63.21)\n≈ 31.6 square units'
+    },
+    {
+      number: 28,
+      part: 'B',
+      type: 'written',
+      text: 'A pool owner has a circular deck that surrounds her circular pool. The pool has a diameter of 24 feet. The distance from the edge of the pool to the outer edge of the deck is 8 feet. Determine and state the number of square feet of the deck, to the nearest square foot.',
+      topic: 'Circles',
+      explanation: 'The deck area is the area of the large circle (pool + deck) minus the area of the pool: π(20²) − π(12²).',
+      diveDeep: 'Pool radius = 24/2 = 12 ft. Outer radius = 12 + 8 = 20 ft. Deck area = π(20²) − π(12²) = 400π − 144π = 256π ≈ 804.25 ≈ 804 ft². The ring (annulus) area formula is π(R² − r²) where R is the outer radius and r is the inner radius. A common error is adding 8 to the diameter instead of the radius when computing the outer circle, giving radius 20 correctly but sometimes students use diameter 24 + 8 = 32 as the outer diameter (radius 16) incorrectly.',
+      modelAnswer: 'Pool radius = 24/2 = 12 ft\nOuter radius = 12 + 8 = 20 ft\nDeck area = π(20²) − π(12²) = 400π − 144π = 256π ≈ 804 ft²'
+    },
+    {
+      number: 29,
+      part: 'B',
+      type: 'written',
+      text: 'Use a compass and straightedge to construct an equilateral triangle with AB, shown below, as one of the sides. [Leave all construction marks.]',
+      topic: 'Constructions',
+      explanation: 'Set the compass to the length AB, draw arcs of the same radius from both A and B, and connect the intersection point to A and B to complete the equilateral triangle.',
+      diveDeep: 'An equilateral triangle has all three sides equal to the given segment AB. Set the compass width equal to AB. From point A, draw a wide arc above the segment. From point B with the same compass width, draw another arc. The two arcs intersect at point C. Connect A to C and B to C with straight lines — all three sides AB = AC = BC = AB, forming the equilateral triangle. The compass width must not be changed between the two arcs; even a small adjustment makes the triangle non-equilateral and earns no credit.',
+      modelAnswer: '1. Set compass width equal to the length of AB.\n2. Place compass point at A; draw an arc above AB.\n3. Without changing the compass width, place compass point at B; draw another arc intersecting the first — label the intersection C.\n4. Draw segments AC and BC with a straightedge.\n5. △ABC is equilateral with AB = AC = BC.\n[Leave all construction arcs visible.]'
+    },
+    {
+      number: 30,
+      part: 'B',
+      type: 'written',
+      text: 'In the diagram below, right triangle ABC is inscribed in the circle with right angle ABC. Explain why AC must be a diameter of the circle.',
+      topic: 'Circles',
+      explanation: 'By the Inscribed Angle Theorem, an inscribed angle is half the intercepted arc; ∠ABC = 90° intercepts arc AC, so arc AC = 180°, meaning AC is a diameter.',
+      diveDeep: 'The Inscribed Angle Theorem states: the measure of an inscribed angle equals half the measure of its intercepted arc. ∠ABC is inscribed in the circle and equals 90°, so the intercepted arc AC = 2 × 90° = 180°. An arc of 180° is a semicircle, which means AC is a diameter (a chord that passes through the center, dividing the circle into two semicircles). The converse (Thales\' Theorem) is equally useful to cite: any angle inscribed in a semicircle is a right angle. Answers that say "AC looks like it goes through the center" without citing the Inscribed Angle Theorem earn no credit.',
+      modelAnswer: 'Since ∠ABC is an inscribed angle that intercepts arc AC:\nm(arc AC) = 2 × m∠ABC = 2 × 90° = 180°\nAn arc of 180° is a semicircle.\nA chord that subtends a semicircle must pass through the center, so AC is a diameter of the circle.'
+    },
+    {
+      number: 31,
+      part: 'B',
+      type: 'written',
+      text: 'In isosceles triangle ABC, AD is an altitude drawn to base BC. If m∠BAC = 80° and AD = 8, determine and state the perimeter of △ABC, to the nearest tenth.',
+      topic: 'Triangles & Congruence',
+      explanation: 'The altitude to the base of an isosceles triangle bisects the vertex angle, creating two congruent right triangles; use trigonometry to find the legs AB and the half-base BD.',
+      diveDeep: 'Since △ABC is isosceles with the altitude AD to the base, AD bisects ∠BAC: ∠BAD = 40°. In right △ABD: tan(40°) = BD/AD → BD = 8 tan(40°) ≈ 6.713. So BC = 2 × BD ≈ 13.426. Also cos(40°) = AD/AB → AB = 8/cos(40°) ≈ 10.443. Perimeter = AB + AB + BC ≈ 10.443 + 10.443 + 13.426 ≈ 34.3. Note that ∠BAD = 40° because the full vertex angle is 80° and the altitude bisects it. A common error is using the full 80° angle in the right triangle instead of the half-angle 40°.',
+      modelAnswer: '∠BAD = 80°/2 = 40° (altitude bisects vertex angle in isosceles △)\n\nIn right △ABD:\ntan(40°) = BD/AD → BD = 8 tan(40°) ≈ 6.713\nBC = 2 × BD ≈ 13.426\n\ncos(40°) = AD/AB → AB = 8/cos(40°) ≈ 10.443\n\nPerimeter = AB + AB + BC ≈ 10.443 + 10.443 + 13.426 ≈ 34.3'
+    },
+    {
+      number: 32,
+      part: 'C',
+      type: 'written',
+      text: 'In quadrilateral SMIL, diagonals IS and ML intersect at point E, MS ∥ IL, and MS ≅ IL. Prove: △MIE ≅ △LSE.',
+      topic: 'Triangles & Congruence',
+      explanation: 'With MS ∥ IL, alternate interior angles are congruent; with MS ≅ IL, use AAS or ASA to prove the triangles congruent.',
+      diveDeep: 'MS ∥ IL gives: ∠MIS ≅ ∠LIS... more precisely, with transversals IS and ML, ∠IMS ≅ ∠SLI (alternate interior angles, MS ∥ IL cut by ML) and ∠MIS ≅ ∠LSI (alternate interior angles, MS ∥ IL cut by IS). MS ≅ IL (given). By AAS: ∠IMS ≅ ∠ILS, MS ≅ IL, ∠MSI ≅ ∠LIS → △MIE ≅ △LSE. Alternatively, use ASA with ∠MIE ≅ ∠LSE, IE... careful labeling of which angles and sides correspond is essential for full credit.',
+      modelAnswer: 'Statements | Reasons\n1. MS ∥ IL | Given\n2. MS ≅ IL | Given\n3. ∠IMS ≅ ∠LIS | Alternate interior angles (MS ∥ IL, transversal ML... wait — transversal MI)\n   ∠MIS ≅ ∠LSI | Alternate interior angles (MS ∥ IL, transversal IS)\n4. In △MIE and △LSE:\n   ∠EMI ≅ ∠ELS | Alternate interior angles (step 3)\n   MS ≅ IL | Given (step 2)\n   ∠MSI ≅ ∠LIS | Alternate interior angles (step 3)\n5. △MIE ≅ △LSE | AAS (two pairs of angles and the non-included side MS ≅ IL)'
+    },
+    {
+      number: 33,
+      part: 'C',
+      type: 'written',
+      text: 'A solid glass trophy is composed of a rectangular prism and a rectangular pyramid. The rectangular prism has a length of 12 cm, a width of 6 cm, and a height of 3 cm. The height of the pyramid is 10 cm. If the density of glass is 2.5 grams per cubic centimeter, determine and state the mass of the trophy, in grams.',
+      topic: '3D Geometry & Volume',
+      explanation: 'Compute the volume of both solids (prism + pyramid, sharing the same rectangular base), add them, and multiply by the density to find the mass.',
+      diveDeep: 'V_prism = l × w × h = 12 × 6 × 3 = 216 cm³. The pyramid sits on the same 12 × 6 base: V_pyramid = (1/3)(12 × 6)(10) = (1/3)(720) = 240 cm³. Total volume = 216 + 240 = 456 cm³. Mass = 456 × 2.5 = 1140 grams. The two most common errors: forgetting the 1/3 factor in the pyramid volume (giving 720 instead of 240), and using the wrong base dimensions for the pyramid (the pyramid shares the prism\'s top face, so its base is also 12 × 6).',
+      modelAnswer: 'V_prism = 12 × 6 × 3 = 216 cm³\nV_pyramid = (1/3)(12 × 6)(10) = (1/3)(720) = 240 cm³\nTotal volume = 216 + 240 = 456 cm³\nMass = 456 × 2.5 = 1140 grams'
+    },
+    {
+      number: 34,
+      part: 'C',
+      type: 'written',
+      text: 'Quadrilateral ABCD has vertices A(−3, 1), B(−3, −7), C(6, 5), and D(0, 5). Segment EF has endpoints E(−3, −3) and F(3, 5). Prove ABCD is a trapezoid. Use coordinate geometry to prove EF is parallel to AD and BC. Is EF = (1/2)(AD + BC)? Use coordinate geometry to justify your answer.',
+      topic: 'Coordinate Geometry',
+      explanation: 'Compute slopes to show exactly one pair of opposite sides of ABCD is parallel (making it a trapezoid), then verify EF\'s slope matches, and compare lengths to check the midsegment formula.',
+      diveDeep: 'Slope of AD: (5−1)/(0−(−3)) = 4/3. Slope of BC: (5−(−7))/(6−(−3)) = 12/9 = 4/3. Slope of AB: (−7−1)/(−3−(−3)) = undefined (vertical). Slope of DC: (5−5)/(6−0) = 0 (horizontal). Since AD ∥ BC (same slope 4/3) but AB is not parallel to DC (vertical vs. horizontal), ABCD is a trapezoid. Slope of EF = (5−(−3))/(3−(−3)) = 8/6 = 4/3 = slope of AD and BC, so EF ∥ AD ∥ BC. AD = √((0−(−3))² + (5−1)²) = √(9+16) = 5. BC = √((6−(−3))² + (5−(−7))²) = √(81+144) = √225 = 15. EF = √((3−(−3))² + (5−(−3))²) = √(36+64) = √100 = 10. (1/2)(AD + BC) = (1/2)(5+15) = 10 = EF ✓. EF is the midsegment.',
+      modelAnswer: 'Part 1 — Prove ABCD is a trapezoid:\nSlope AD = (5−1)/(0−(−3)) = 4/3\nSlope BC = (5−(−7))/(6−(−3)) = 12/9 = 4/3\nAD ∥ BC (equal slopes)\n\nSlope AB = (−7−1)/(−3−(−3)) = undefined (vertical)\nSlope DC = (5−5)/(6−0) = 0 (horizontal)\nAB is not parallel to DC.\n\nExactly one pair of opposite sides is parallel → ABCD is a trapezoid.\n\nPart 2 — EF ∥ AD and BC:\nSlope EF = (5−(−3))/(3−(−3)) = 8/6 = 4/3\nSince slope EF = slope AD = slope BC = 4/3, EF ∥ AD ∥ BC.\n\nPart 3 — Is EF = (1/2)(AD + BC)?\nAD = √((0+3)² + (5−1)²) = √(9+16) = 5\nBC = √((6+3)² + (5+7)²) = √(81+144) = 15\nEF = √((3+3)² + (5+3)²) = √(36+64) = 10\n(1/2)(AD + BC) = (1/2)(5+15) = 10 = EF ✓\nYes, EF = (1/2)(AD + BC).'
+    },
+    {
+      number: 35,
+      part: 'D',
+      type: 'written',
+      text: 'Quadrilateral ABCD has vertices A(−3, 1), B(−3, −7), C(6, 5), and D(0, 5). Segment EF has endpoints E(−3, −3) and F(3, 5). Prove ABCD is a trapezoid. Prove EF is parallel to AD and BC. Determine whether EF = (1/2)(AD + BC) using coordinate geometry.',
+      topic: 'Coordinate Geometry',
+      explanation: 'This 6-credit question requires proving the trapezoid, proving EF is a midsegment (parallel to the bases), and confirming the midsegment length formula EF = (1/2)(AD + BC).',
+      diveDeep: 'A full 6-credit response must address all three parts with justified coordinate calculations. Trapezoid: show exactly one pair of opposite sides parallel (AD ∥ BC but AB not parallel to DC). EF parallel: compute slope of EF and compare to slopes of AD and BC. Midsegment formula: compute all three lengths using the distance formula and verify (1/2)(5 + 15) = 10 = EF. Organize the work clearly, labeling each part. Losing points on this question usually comes from incomplete justification — computing lengths or slopes without explicitly stating the conclusion drawn from each calculation.',
+      modelAnswer: 'Trapezoid proof:\nSlope AD = 4/3, Slope BC = 4/3 → AD ∥ BC\nSlope AB = undefined, Slope DC = 0 → AB not ∥ DC\n→ Exactly one pair parallel → ABCD is a trapezoid.\n\nEF ∥ AD and BC:\nSlope EF = (5−(−3))/(3−(−3)) = 8/6 = 4/3 = slope AD = slope BC ✓\n\nMidsegment check:\nAD = √(3² + 4²) = √25 = 5\nBC = √(9² + 12²) = √(81+144) = √225 = 15\nEF = √(6² + 8²) = √(36+64) = √100 = 10\n(1/2)(AD + BC) = (1/2)(20) = 10 = EF ✓\nYes, EF satisfies the midsegment theorem.'
     }
   ]
 }

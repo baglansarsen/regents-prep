@@ -43,8 +43,8 @@ export default function HomeScreen({
     () => history.filter((h) => (h.subject ?? 'living-environment') === subject),
     [history, subject]
   )
-  const { lessonComplete, unitLessonsCompleted, unitComplete } = useLessonProgress(subjectHistory)
-  const { isUnlocked, unlockHint } = useUnlocks(subjectHistory, TOPIC_ORDER, subject)
+  const { lessonComplete, unitLessonsCompleted, unitComplete, isLessonUnlocked } = useLessonProgress(subjectHistory)
+  const { isUnlocked, unlockHint } = useUnlocks(subjectHistory, units, subject)
   
   const [digReward, setDigReward] = useState(null)
   const [petMsg, setPetMsg] = useState('Welcome back! Ready to study today? 🎓')
@@ -286,14 +286,19 @@ export default function HomeScreen({
                     <div className="lessons-grid">
                       {Array.from({ length: totalLessons }, (_, lessonIdx) => {
                         const isDone = lessonComplete(unit.topic, lessonIdx)
-                        const isNext = completedLessons === lessonIdx
+                        const lessonOpen = isLessonUnlocked(unit.topic, lessonIdx)
+                        const isNext = lessonOpen && !isDone && (lessonIdx === 0 || lessonComplete(unit.topic, lessonIdx - 1))
 
                         return (
                           <button
                             key={lessonIdx}
-                            onClick={() => onStartLesson(unit.topic, lessonIdx, totalLessons)}
+                            onClick={() => lessonOpen && onStartLesson(unit.topic, lessonIdx, totalLessons)}
+                            disabled={!lessonOpen}
                             className={`lesson-node ${isDone ? 'completed' : ''}`}
+                            title={lessonOpen ? `Lesson ${lessonIdx + 1}` : `Complete Lesson ${lessonIdx} first`}
                             style={{
+                              opacity: lessonOpen ? 1 : 0.35,
+                              cursor: lessonOpen ? 'pointer' : 'not-allowed',
                               borderColor: isDone ? 'var(--brand-dark)' : isNext ? activeColor : 'var(--border)',
                               boxShadow: isDone
                                 ? '0 6px 0 var(--brand-dark)'
@@ -307,9 +312,8 @@ export default function HomeScreen({
                                   : 'var(--surface)',
                               color: isDone ? '#fff' : 'var(--text)'
                             }}
-                            title={`Lesson ${lessonIdx + 1}`}
                           >
-                            <span className="node-icon">{isDone ? '✅' : unit.icon || '🔬'}</span>
+                            <span className="node-icon">{isDone ? '✅' : lessonOpen ? (unit.icon || '🔬') : '🔒'}</span>
                             <span className="node-label">L{lessonIdx + 1}</span>
                           </button>
                         )

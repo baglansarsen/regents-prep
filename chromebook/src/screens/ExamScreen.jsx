@@ -21,6 +21,7 @@ export default function ExamScreen({
 
   const [writtenAnswer, setWrittenAnswer] = useState('')
   const [awardedPoints, setAwardedPoints] = useState(0) // Credits awarded by self-grading
+  const fullResultsRef = useRef([])
 
   const questions = exam.questions || []
   const currentQuestion = questions[index] || { text: 'Empty Question', choices: [], options: [], correct: 0 }
@@ -53,21 +54,12 @@ export default function ExamScreen({
     const isCorrect = choiceIndex === normalizedCorrect
 
     if (isCorrect) {
-      setScore((s) => s + 20) // 20 XP per correct exam answer!
-
-      // Trigger floating XP animation
-      setXpAnimation({ amount: 20, x: window.innerWidth / 2, y: window.innerHeight / 2 })
-      setTimeout(() => setXpAnimation(null), 1200)
-
-      // Play correct chime
-      if (soundEnabled) playBeep(523.25, 'sine', 0.15)
+      setScore((s) => s + 20)
     } else {
       setWrongAnswers(prev => [...prev, currentQuestion])
-
-      // Play incorrect chime
-      if (soundEnabled) playBeep(220, 'triangle', 0.25)
     }
 
+    fullResultsRef.current.push({ question: currentQuestion, correct: isCorrect, selected: choiceIndex })
     setSelected(choiceIndex)
     setPhase('feedback')
   }, [phase, currentQuestion, questionChoices, soundEnabled])
@@ -98,7 +90,8 @@ export default function ExamScreen({
       total,
       pct: accuracy,
       wrongQuestions: wrongAnswers,
-      bestStreak: 1
+      bestStreak: 1,
+      fullResults: fullResultsRef.current,
     })
   }, [score, total, wrongAnswers, onFinish, updateQuestProgress])
 
@@ -388,9 +381,9 @@ export default function ExamScreen({
                         alert('Please type your answer before submitting.');
                         return;
                       }
+                      fullResultsRef.current.push({ question: currentQuestion, correct: false, selected: writtenAnswer })
                       setSelected(true);
                       setPhase('feedback');
-                      if (soundEnabled) playBeep(523.25, 'sine', 0.15);
                     }}
                     style={{ alignSelf: 'flex-start', padding: '12px 24px', fontSize: '15px' }}
                   >
@@ -398,65 +391,11 @@ export default function ExamScreen({
                   </button>
                 </>
               ) : (
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                  <div className="card-glass" style={{ padding: '20px', borderLeft: '4px solid var(--brand)' }}>
-                    <h4 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 800, fontSize: '15px', color: 'var(--brand-dark)' }}>
-                      Your Written Response:
-                    </h4>
-                    <p style={{ marginTop: '8px', fontSize: '14.5px', whiteSpace: 'pre-wrap', lineHeight: '22px' }}>
-                      {writtenAnswer || '(No answer provided)'}
-                    </p>
-                  </div>
-
-                  <div className="card-glass" style={{ padding: '20px', borderLeft: '4px solid var(--correct)' }}>
-                    <h4 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 800, fontSize: '15px', color: 'var(--correct-dark)' }}>
-                      🔑 Official Model Answer / Rubric:
-                    </h4>
-                    <p style={{ marginTop: '8px', fontSize: '14.5px', lineHeight: '22px' }}>
-                      {currentQuestion.modelAnswer}
-                    </p>
-                  </div>
-
-                  <div className="card-glass" style={{ padding: '20px', borderLeft: '4px solid var(--warn)' }}>
-                    <h4 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 800, fontSize: '15px', color: 'var(--warn-dark)' }}>
-                      🏆 Self-Grade: How many credits did your answer earn?
-                    </h4>
-                    <div style={{ display: 'flex', gap: '10px', marginTop: '12px', flexWrap: 'wrap' }}>
-                      {Array.from({ length: (currentQuestion.maxPoints || 1) + 1 }).map((_, scoreValue) => {
-                        const isScoreSelected = awardedPoints === scoreValue
-                        return (
-                          <button
-                            key={scoreValue}
-                            onClick={() => {
-                              const diff = scoreValue - awardedPoints
-                              setAwardedPoints(scoreValue)
-                              setScore((s) => s + diff * 10)
-
-                              if (diff > 0) {
-                                setXpAnimation({ amount: diff * 10, x: window.innerWidth / 2, y: window.innerHeight / 2 })
-                                setTimeout(() => setXpAnimation(null), 1200)
-                                if (soundEnabled) playBeep(523.25, 'sine', 0.15)
-                              }
-
-                              if (scoreValue === 0) {
-                                setWrongAnswers((prev) => {
-                                  if (!prev.includes(currentQuestion)) {
-                                    return [...prev, currentQuestion]
-                                  }
-                                  return prev
-                                })
-                              } else {
-                                setWrongAnswers((prev) => prev.filter((q) => q !== currentQuestion))
-                              }
-                            }}
-                            className={`btn-duo ${isScoreSelected ? 'btn-duo-blue' : 'btn-duo-outline'}`}
-                            style={{ padding: '8px 16px', fontSize: '14px' }}
-                          >
-                            {scoreValue} {scoreValue === 1 ? 'Credit' : 'Credits'}
-                          </button>
-                        )
-                      })}
-                    </div>
+                <div className="card-glass" style={{ padding: '20px', borderLeft: '4px solid var(--brand)', display: 'flex', alignItems: 'center', gap: '12px' }}>
+                  <span style={{ fontSize: '28px' }}>📝</span>
+                  <div>
+                    <p style={{ fontWeight: 800, fontSize: '15px', color: 'var(--brand-dark)', margin: 0 }}>Answer recorded</p>
+                    <p style={{ fontSize: '13px', color: 'var(--text-muted)', margin: '4px 0 0' }}>You'll self-grade this at the end of the exam.</p>
                   </div>
                 </div>
               )}
@@ -496,87 +435,18 @@ export default function ExamScreen({
         </div>
       </div>
 
-      {/* Exam Footer Action Banner */}
+      {/* Exam Footer */}
       <div className="quiz-footer">
-        {phase === 'answering' ? (
-          <div className="quiz-footer-wrapper" style={{ justifyContent: 'flex-end' }}>
-            <button className="btn-duo btn-duo-outline" onClick={handleFinish}>
-              Finish Exam Early
+        <div className="quiz-footer-wrapper" style={{ justifyContent: 'space-between' }}>
+          <button className="btn-duo btn-duo-outline" onClick={handleFinish} style={{ opacity: 0.7 }}>
+            Finish Early
+          </button>
+          {phase === 'feedback' && (
+            <button className="btn-duo btn-duo-blue" onClick={handleNext} style={{ minWidth: '160px' }}>
+              {isLast ? 'Submit Exam ✓' : 'Next Question →'}
             </button>
-          </div>
-        ) : (
-          <div className={`quiz-feedback-banner ${isWritten ? 'correct' : (isSelectedCorrect ? 'correct' : 'wrong')}`}>
-            <div className="feedback-wrapper">
-              <div className="feedback-message">
-                <span className="feedback-icon">{isWritten ? '📝' : (isSelectedCorrect ? '🎉' : '❌')}</span>
-                <div>
-                  <h4 className="feedback-title">
-                    {isWritten ? 'Written Response Submitted!' : (isSelectedCorrect ? 'Correct!' : 'Incorrect')}
-                  </h4>
-                  <div style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '12px', marginTop: '4px' }}>
-                    <p className="feedback-explanation" style={{ margin: 0 }}>
-                      {isWritten 
-                        ? `Self-grade below to earn XP (Max points: ${currentQuestion.maxPoints})`
-                        : (isSelectedCorrect ? '+20 XP Earned!' : `The correct answer was: ${questionChoices[normalizedCorrect]}`)}
-                    </p>
-                    <button
-                      onClick={() => setShowExplanationModal(true)}
-                      className="btn-duo-outline"
-                      style={{
-                        padding: '6px 14px',
-                        fontSize: '13px',
-                        fontWeight: 900,
-                        borderRadius: '16px',
-                        borderWidth: '1.5px',
-                        borderColor: isWritten ? 'var(--brand)' : (isSelectedCorrect ? 'var(--brand)' : 'var(--wrong)'),
-                        color: isWritten ? 'var(--brand-dark)' : (isSelectedCorrect ? 'var(--brand-dark)' : 'var(--wrong-dark)'),
-                        background: 'transparent',
-                        cursor: 'pointer',
-                        display: 'inline-flex',
-                        alignItems: 'center',
-                        gap: '4px',
-                        textTransform: 'uppercase',
-                        letterSpacing: '0.5px'
-                      }}
-                    >
-                      📖 Deep Dive
-                    </button>
-                    <button
-                      onClick={() => setShowReportModal(true)}
-                      className="btn-duo-outline"
-                      style={{
-                        padding: '6px 14px',
-                        fontSize: '13px',
-                        fontWeight: 900,
-                        borderRadius: '16px',
-                        borderWidth: '1.5px',
-                        borderColor: 'var(--border)',
-                        color: 'var(--text-muted)',
-                        background: 'transparent',
-                        cursor: 'pointer',
-                        display: 'inline-flex',
-                        alignItems: 'center',
-                        gap: '4px',
-                        textTransform: 'uppercase',
-                        letterSpacing: '0.5px'
-                      }}
-                    >
-                      🚩 Report
-                    </button>
-                  </div>
-                  {!isWritten && explanationParts.short && (
-                    <div style={{ marginTop: '6px', fontSize: '13px', fontStyle: 'italic', opacity: 0.85 }}>
-                      💡 <strong>Short Explanation:</strong> {explanationParts.short}
-                    </div>
-                  )}
-                </div>
-              </div>
-              <button onClick={handleNext} className="btn-duo" style={{ top: 0 }}>
-                Continue (Enter)
-              </button>
-            </div>
-          </div>
-        )}
+          )}
+        </div>
       </div>
 
       {/* Floating XP Animation overlay */}
@@ -692,6 +562,22 @@ export default function ExamScreen({
                 </strong>
                 <p style={{ fontSize: '13px', lineHeight: '18px', fontStyle: 'italic', color: 'var(--text)', margin: 0 }}>
                   {explanationParts.extended}
+                </p>
+              </div>
+            )}
+
+            {currentQuestion.diveDeep && (
+              <div style={{
+                background: 'linear-gradient(135deg, rgba(99,102,241,0.08), rgba(168,85,247,0.08))',
+                borderLeft: '4px solid var(--purple)',
+                padding: '14px',
+                borderRadius: '0 8px 8px 0',
+              }}>
+                <strong style={{ fontSize: '12px', color: 'var(--purple-dark)', textTransform: 'uppercase', letterSpacing: '0.5px', display: 'block', marginBottom: '6px' }}>
+                  🔬 Dive Deep
+                </strong>
+                <p style={{ fontSize: '13px', lineHeight: '19px', color: 'var(--text)', margin: 0 }}>
+                  {currentQuestion.diveDeep}
                 </p>
               </div>
             )}

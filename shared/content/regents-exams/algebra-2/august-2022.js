@@ -409,6 +409,16 @@ export default {
     },
     {
       number: 36,
+      part: 'C',
+      type: 'written',
+      text: 'State officials claim 82% of a community want to repeal the 30 mph speed limit on an expressway. A community organization devises a simulation based on the claim that 82% of the community supports the repeal. The simulation of 200 surveys (each of sample size 60) produced approximately normal results with Mean = 0.819 and SD = 0.053. Based on the simulation, determine an interval containing the middle 95% of plausible proportions. Round your answer to the nearest thousandth. The community organization conducted its own sample survey of 60 people and found 70% supported the repeal. Based on the results of the simulation, explain why the organization should question the State officials\' claim.',
+      topic: 'Statistics & Probability',
+      explanation: 'The 95% interval is Mean ± 2·SD = 0.819 ± 0.106, giving (0.713, 0.925). Since 70% (0.700) falls below the interval, it is unlikely if the true proportion were 82%, so the claim is questionable.',
+      diveDeep: 'A simulation-based 95% confidence interval spans approximately Mean ± 2·SD. Here 0.819 − 2(0.053) = 0.713 and 0.819 + 2(0.053) = 0.925. When an observed sample result (0.70) falls outside this interval, it suggests the observed result would be very unusual if the null proportion (82%) were true — that is, strong evidence against the claim. A common error is confusing the mean of the simulation with the sample proportion from the organization\'s own survey; they serve different roles.',
+      modelAnswer: '95% interval: Mean ± 2·SD = 0.819 ± 2(0.053) = 0.819 ± 0.106.\nLower bound: 0.819 − 0.106 = 0.713\nUpper bound: 0.819 + 0.106 = 0.925\nInterval: (0.713, 0.925).\n\nThe organization\'s survey found 70% (0.700) support the repeal. Since 0.700 < 0.713, this result falls below the 95% simulation interval. A result this low would be very unlikely if the true proportion were 82%, so the organization has grounds to question the State officials\' claim.'
+    },
+    {
+      number: 37,
       part: 'D',
       type: 'written',
       text: 'A loan of $15,000 is taken out at an annual interest rate of 6%, compounded monthly. The monthly payment M is given by M = P·(r(1 + r)ⁿ)/((1 + r)ⁿ − 1), where P is the principal, r is the monthly interest rate, and n is the total number of payments. Determine the monthly payment, to the nearest cent, for a 5-year loan. Then determine the total amount paid over the life of the loan and the total interest paid.',

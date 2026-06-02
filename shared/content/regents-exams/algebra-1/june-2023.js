@@ -304,6 +304,142 @@ export default {
       explanation: 'In an exponential model a(b)^t, the base 1.03 means the population is multiplied by 1.03 each year, equivalent to a 3% annual increase.',
       diveDeep: 'In exponential growth/decay of the form a(b)^t, the coefficient a is the initial amount (here 5000) and the base b is the growth factor. A base greater than 1 indicates growth; b = 1.03 means 100% of the previous value plus 3% more, so a 3% increase per year. A base between 0 and 1, like 0.97, would mean a 3% decrease. Do not confuse the multiplicative factor (1.03) with an additive constant (103 people) — exponential change is percentage-based, not a fixed number per period.',
       image: '/images/exams/alg1-june-2023/q24.png'
+    },
+
+    // ── Part B (Part II) – 2 credits each ────────────────────────────────────
+    {
+      number: 25,
+      part: 'B',
+      type: 'written',
+      text: 'Solve for x: 2(x − 3) + 5 = 3x − 4',
+      topic: 'Linear Equations & Inequalities',
+      explanation: 'Distribute to get 2x − 6 + 5 = 3x − 4, then simplify to 2x − 1 = 3x − 4, and solve to get x = 3.',
+      diveDeep: 'Start by distributing the 2 across the parentheses: 2·x and 2·(−3). After combining like terms on the left (−6 + 5 = −1), move all variable terms to one side and constants to the other. Subtracting 2x from both sides and adding 4 to both sides isolates x. Always substitute your answer back into the original equation to verify: 2(3 − 3) + 5 = 5 and 3(3) − 4 = 5 ✓.',
+      modelAnswer: 'Step 1: Distribute — 2x − 6 + 5 = 3x − 4.\nStep 2: Combine like terms on left — 2x − 1 = 3x − 4.\nStep 3: Subtract 2x from both sides — −1 = x − 4.\nStep 4: Add 4 to both sides — x = 3.\nCheck: 2(3 − 3) + 5 = 5 and 3(3) − 4 = 5 ✓'
+    },
+    {
+      number: 26,
+      part: 'B',
+      type: 'written',
+      text: 'The function f(x) is graphed on the set of axes below. The graph shows a curve passing through the x-axis at x = −3, x = 1, and x = 4.\n\nState the zeros of f(x). Explain your reasoning.',
+      topic: 'Functions & Relations',
+      explanation: 'The zeros of f(x) are x = −3, x = 1, and x = 4 because those are the x-values where the graph crosses the x-axis, meaning f(x) = 0 at those points.',
+      diveDeep: 'The zeros (also called roots or x-intercepts) of a function are the x-values that make f(x) = 0. On a graph, these are exactly the points where the curve crosses or touches the horizontal axis. Each x-intercept corresponds to a factor of the function — for example, a zero at x = 4 means (x − 4) is a factor. Students sometimes confuse zeros with y-intercepts; remember that zeros occur where y = 0, while the y-intercept is where x = 0.',
+      modelAnswer: 'The zeros of f(x) are x = −3, x = 1, and x = 4.\n\nReasoning: The zeros of a function are the x-values at which f(x) = 0. On the graph, f(x) = 0 where the curve intersects the x-axis. The graph crosses the x-axis at x = −3, x = 1, and x = 4, so those are the three zeros.'
+    },
+    {
+      number: 27,
+      part: 'B',
+      type: 'written',
+      text: 'Breanna creates the pattern of blocks below in her art class.\n\nPattern I: 4 blocks, Pattern II: 8 blocks, Pattern III: 12 blocks, Pattern IV: 16 blocks.\n\nA friend tells her that the number of blocks in the pattern is increasing exponentially. Is her friend correct? Explain your reasoning.',
+      topic: 'Functions & Relations',
+      explanation: 'The friend is incorrect. The pattern increases by 4 blocks each time (constant rate of change), which is linear growth, not exponential growth.',
+      diveDeep: 'Exponential growth requires the number of blocks to be multiplied by the same factor each step, such as doubling (×2). Instead, each pattern adds exactly 4 more blocks than the previous one: 4, 8, 12, 16 — a constant difference of 4. This is arithmetic (linear) growth. To confirm: for exponential growth, the ratio of consecutive terms must be constant. Here the ratios are 8/4 = 2, 12/8 = 1.5, 16/12 ≈ 1.33 — they are not equal, so growth is not exponential.',
+      modelAnswer: 'No, the friend is not correct. The pattern is increasing linearly, not exponentially.\n\nReasoning: \n• Pattern I: 4 blocks\n• Pattern II: 8 blocks (4 more)\n• Pattern III: 12 blocks (4 more)\n• Pattern IV: 16 blocks (4 more)\n\nThe number of blocks increases by a constant difference of 4 each time. Exponential growth requires multiplication by a constant factor each step (e.g., doubling), not constant addition. Therefore, this pattern is linear (arithmetic), not exponential.'
+    },
+    {
+      number: 28,
+      part: 'B',
+      type: 'written',
+      text: 'The data set 20, 36, 52, 56, 24, 16, 40, 4, 28 represents the number of books purchased by nine book club members in a year.\n\nConstruct a box plot for these data on the number line below.',
+      topic: 'Statistics & Probability',
+      explanation: 'Order the data: 4, 16, 20, 24, 28, 36, 40, 52, 56. The five-number summary is minimum = 4, Q1 = 18, median = 28, Q3 = 46, maximum = 56, and the box plot is drawn using these values.',
+      diveDeep: 'To construct a box plot, first arrange all values in order from least to greatest. Identify the five-number summary: minimum, first quartile (Q1 = median of the lower half), median (Q2), third quartile (Q3 = median of the upper half), and maximum. With 9 values, the median is the 5th value (28). The lower half is {4, 16, 20, 24}, giving Q1 = (16 + 20)/2 = 18. The upper half is {36, 40, 52, 56}, giving Q3 = (40 + 52)/2 = 46. Draw the box from Q1 to Q3 with a line at the median, and extend whiskers to the min and max.',
+      modelAnswer: 'Step 1: Order the data — 4, 16, 20, 24, 28, 36, 40, 52, 56.\nStep 2: Five-number summary:\n  • Minimum = 4\n  • Q1 = (16 + 20) / 2 = 18\n  • Median (Q2) = 28 (5th value)\n  • Q3 = (40 + 52) / 2 = 46\n  • Maximum = 56\nStep 3: Draw the box plot:\n  • Left whisker from 4 to 18\n  • Box from 18 to 46\n  • Vertical line inside box at 28\n  • Right whisker from 46 to 56'
+    },
+    {
+      number: 29,
+      part: 'B',
+      type: 'written',
+      text: 'Given:\nA = x + 5\nB = x² − 18\n\nExpress A² + B in standard form.',
+      topic: 'Polynomials & Factoring',
+      explanation: 'A² = (x + 5)² = x² + 10x + 25, then A² + B = x² + 10x + 25 + x² − 18 = 2x² + 10x + 7.',
+      diveDeep: 'To square a binomial, use the rule (a + b)² = a² + 2ab + b². Here (x + 5)² = x² + 2(x)(5) + 25 = x² + 10x + 25. A very common mistake is writing (x + 5)² = x² + 25, forgetting the middle term 2ab. After expanding, add B = x² − 18 by combining like terms by degree: x² + x² = 2x², the 10x has no like term, and 25 + (−18) = 7. Standard form means writing in descending degree order.',
+      modelAnswer: 'Step 1: Square A.\n  A² = (x + 5)² = x² + 2(x)(5) + 5² = x² + 10x + 25\n\nStep 2: Add B.\n  A² + B = (x² + 10x + 25) + (x² − 18)\n\nStep 3: Combine like terms.\n  = 2x² + 10x + 7\n\nA² + B = 2x² + 10x + 7'
+    },
+    {
+      number: 30,
+      part: 'B',
+      type: 'written',
+      text: 'The two relations shown below are not functions.\n\nRelation I: A graph of a curve that fails the vertical line test.\nRelation II: {(−5, −2), (−4, 0), (−2, 1), (−1, 3), (−4, 4)}\n\nExplain how you could change each relation so that they each become a function.',
+      topic: 'Functions & Relations',
+      explanation: 'For Relation I, remove or adjust the portion of the graph that causes it to fail the vertical line test so each x-value has only one y-value. For Relation II, remove one of the two ordered pairs with x = −4 (either (−4, 0) or (−4, 4)) so each x-value maps to exactly one y-value.',
+      diveDeep: 'A relation is a function if and only if every x-value (input) is paired with exactly one y-value (output). Relation I fails the vertical line test — a vertical line can cross its graph at more than one point, meaning one x produces multiple y-values. Relation II contains the ordered pairs (−4, 0) and (−4, 4), so x = −4 maps to two outputs, violating the function definition. For the set, simply remove one of the conflicting pairs. For the graph, any edit that makes it pass the vertical line test is valid.',
+      modelAnswer: 'Relation I: Change the graph by removing the portion that causes a vertical line to intersect the graph more than once, so that every vertical line crosses the graph at most once (passes the vertical line test). This ensures each x-value corresponds to exactly one y-value.\n\nRelation II: The pair (−4, 0) and (−4, 4) both have x = −4, which means one input maps to two outputs — not a function. Remove one of those ordered pairs. For example, remove (−4, 4) so that Relation II becomes {(−5, −2), (−4, 0), (−2, 1), (−1, 3)}, which is a function.'
+    },
+    {
+      number: 31,
+      part: 'B',
+      type: 'written',
+      text: 'Factor 2x² + 16x − 18 completely.',
+      topic: 'Polynomials & Factoring',
+      explanation: 'Factor out the GCF of 2 first: 2(x² + 8x − 9), then factor the trinomial to get 2(x + 9)(x − 1).',
+      diveDeep: '"Completely" signals that you must factor out the greatest common factor (GCF) before factoring the trinomial — leaving the 2 inside is a common error that loses a credit. After pulling out 2, find two numbers that multiply to −9 and add to 8: those are +9 and −1. Always check by expanding: 2(x + 9)(x − 1) = 2(x² − x + 9x − 9) = 2(x² + 8x − 9) = 2x² + 16x − 18 ✓.',
+      modelAnswer: 'Step 1: Find the GCF.\n  GCF of 2x², 16x, and −18 is 2.\n\nStep 2: Factor out 2.\n  2(x² + 8x − 9)\n\nStep 3: Factor the trinomial x² + 8x − 9.\n  Need two numbers that multiply to −9 and add to 8: +9 and −1.\n  x² + 8x − 9 = (x + 9)(x − 1)\n\nStep 4: Write the complete factorization.\n  2x² + 16x − 18 = 2(x + 9)(x − 1)'
+    },
+    {
+      number: 32,
+      part: 'B',
+      type: 'written',
+      text: 'Solve 3d² − 8d + 3 = 0 algebraically for all values of d, rounding to the nearest tenth.',
+      topic: 'Quadratic Functions',
+      explanation: 'Using the quadratic formula with a = 3, b = −8, c = 3: d = (8 ± √(64 − 36)) / 6 = (8 ± √28) / 6, giving d ≈ 2.2 and d ≈ 0.5.',
+      diveDeep: 'This trinomial does not factor over the integers, so the quadratic formula is required: d = (−b ± √(b² − 4ac)) / (2a). Compute the discriminant first: (−8)² − 4(3)(3) = 64 − 36 = 28. Since 28 > 0, there are two real solutions. √28 ≈ 5.292. Two solutions: d = (8 + 5.292)/6 ≈ 13.292/6 ≈ 2.2 and d = (8 − 5.292)/6 ≈ 2.708/6 ≈ 0.5. Always carry extra decimal places in intermediate steps to avoid rounding errors in the final answer.',
+      modelAnswer: 'Step 1: Identify a, b, c.\n  a = 3, b = −8, c = 3\n\nStep 2: Apply the quadratic formula.\n  d = (−b ± √(b² − 4ac)) / (2a)\n  d = (8 ± √(64 − 36)) / 6\n  d = (8 ± √28) / 6\n  d = (8 ± 5.2915…) / 6\n\nStep 3: Solve for both values.\n  d = (8 + 5.2915) / 6 ≈ 13.2915 / 6 ≈ 2.2\n  d = (8 − 5.2915) / 6 ≈ 2.7085 / 6 ≈ 0.5\n\nd ≈ 2.2 and d ≈ 0.5'
+    },
+
+    // ── Part C (Part III) – 4 credits each ───────────────────────────────────
+    {
+      number: 33,
+      part: 'C',
+      type: 'written',
+      text: 'Graph f(x) = |x| + 1 and g(x) = −x² + 6x + 1 on the set of axes below.\n\nBased on your graph, determine all values of x for which f(x) = g(x).',
+      topic: 'Functions & Relations',
+      explanation: 'After graphing both functions, the curves intersect at x = 0 and x = 5, so f(x) = g(x) when x = 0 and x = 5.',
+      diveDeep: 'Graph f(x) = |x| + 1 by shifting the absolute-value V up 1 unit; it has vertex (0, 1) and arms with slope ±1. Graph g(x) = −x² + 6x + 1 by finding its vertex: x = −6/(2·(−1)) = 3, y = −9 + 18 + 1 = 10, so vertex (3, 10), opening downward. Set the equations equal to find intersections algebraically: for x ≥ 0, |x| + 1 = x + 1, so x + 1 = −x² + 6x + 1 → x² − 5x = 0 → x(x − 5) = 0 → x = 0 or x = 5. Check x < 0: −x + 1 = −x² + 6x + 1 → x² − 7x = 0 → x = 0 or x = 7 (not negative). So x = 0 and x = 5.',
+      modelAnswer: 'Step 1: Graph f(x) = |x| + 1.\n  Vertex at (0, 1); slopes of +1 (right) and −1 (left).\n  Points: (−3, 4), (−2, 3), (−1, 2), (0, 1), (1, 2), (2, 3), (3, 4).\n\nStep 2: Graph g(x) = −x² + 6x + 1.\n  Vertex: x = −6/(2·(−1)) = 3; y = −9 + 18 + 1 = 10 → vertex (3, 10).\n  Points: (0, 1), (1, 6), (2, 9), (3, 10), (4, 9), (5, 6), (6, 1).\n\nStep 3: Identify intersection points from the graph.\n  The graphs intersect at (0, 1) and (5, 6).\n\nThe values of x for which f(x) = g(x) are x = 0 and x = 5.'
+    },
+    {
+      number: 34,
+      part: 'C',
+      type: 'written',
+      text: 'Jean recorded temperatures over a 24-hour period one day in August in Syracuse, NY. Her results are shown in the table below.\n\nTime (hour): 0, 3, 6, 9, 12, 15, 18, 21, 24\nTemperature (°F): 80, 75, 70, 78, 92, 89, 85, 80, 74\n\nHer data are modeled on the graph.\n\n(a) State the entire interval over which the temperature is increasing.\n(b) State the three-hour interval that has the greatest rate of change in temperature.\n(c) State the average rate of change from hour 12 to hour 24. Explain what this means in the context of the problem.',
+      topic: 'Functions & Relations',
+      explanation: 'The temperature increases from hour 6 to hour 12. The greatest three-hour rate of change is from hour 6 to hour 9 (rise of 8°F) or hour 9 to hour 12 (rise of 14°F) — it is from hour 9 to hour 12 with a change of 14°F in 3 hours. The average rate of change from hour 12 to 24 is (74 − 92)/(24 − 12) = −18/12 = −1.5°F per hour.',
+      diveDeep: 'Rate of change = (change in temperature) / (change in time). Calculate all three-hour intervals: 0→3: −5, 3→6: −5, 6→9: +8, 9→12: +14, 12→15: −3, 15→18: −4, 18→21: −5, 21→24: −6. The greatest (largest absolute rise) is 9→12 at +14°F/3 hr. For the increasing interval, the temperature must be going up continuously — from hour 6 (70°F) to hour 12 (92°F). The average rate from hour 12 to 24 is −1.5°F per hour, meaning the temperature was decreasing on average by 1.5 degrees per hour during that 12-hour afternoon-to-midnight span.',
+      modelAnswer: '(a) Interval where temperature is increasing:\n  From the table, temperature decreases from hour 0–6, then increases from 70°F at hour 6 to 92°F at hour 12.\n  The temperature is increasing on the interval [6, 12].\n\n(b) Greatest three-hour rate of change:\n  Calculate each 3-hour interval:\n  6 to 9: (78 − 70)/3 = 8/3 ≈ 2.67°F per hour\n  9 to 12: (92 − 78)/3 = 14/3 ≈ 4.67°F per hour ← greatest\n  The interval from hour 9 to hour 12 has the greatest rate of change.\n\n(c) Average rate of change from hour 12 to hour 24:\n  Rate = (74 − 92) / (24 − 12) = −18 / 12 = −1.5°F per hour\n\n  In context: The temperature decreased at an average rate of 1.5°F per hour from noon to midnight.'
+    },
+    {
+      number: 35,
+      part: 'C',
+      type: 'written',
+      text: 'Solve the following system of inequalities graphically on the set of axes below. Label the solution set S.\n\n2x + 3y ≥ −6\nx < 3y + 6\n\nIs the point (4, −2) in the solution set? Explain your answer.',
+      topic: 'Linear Equations & Inequalities',
+      explanation: 'Graph both boundary lines, shade the correct half-planes, and label the overlapping region S. The point (4, −2) is NOT in the solution set because it does not satisfy x < 3y + 6 (4 < 3(−2) + 6 → 4 < 0, which is false).',
+      diveDeep: 'For the first inequality 2x + 3y ≥ −6, rewrite as y ≥ (−2x − 6)/3. The boundary line is solid (≥) and you shade above it. For x < 3y + 6, rewrite as x − 6 < 3y, or y > (x − 6)/3; the boundary is dashed (<) and you shade above it. To check a point, substitute into BOTH inequalities — a point is in the solution set only if it satisfies both. For (4, −2): check inequality 1: 2(4) + 3(−2) = 2 ≥ −6 ✓; check inequality 2: 4 < 3(−2) + 6 = 0, so 4 < 0 is FALSE. Since one inequality fails, (4, −2) is not in S.',
+      modelAnswer: 'Step 1: Graph 2x + 3y ≥ −6.\n  Boundary line: 2x + 3y = −6 (solid, since ≥)\n  Rewrite: y = (−2x − 6)/3\n  x-intercept: (−3, 0); y-intercept: (0, −2)\n  Shade above the line (where y values are larger).\n\nStep 2: Graph x < 3y + 6.\n  Boundary line: x = 3y + 6 (dashed, since <)\n  Rewrite: y = (x − 6)/3\n  x-intercept: (6, 0); y-intercept: (0, −2)\n  Shade to the left (where x < 3y + 6).\n\nStep 3: Label the overlapping shaded region S.\n\nStep 4: Check (4, −2).\n  Inequality 1: 2(4) + 3(−2) = 8 − 6 = 2 ≥ −6 ✓\n  Inequality 2: 4 < 3(−2) + 6 = −6 + 6 = 0 → 4 < 0 ✗\n\nThe point (4, −2) is NOT in the solution set because it does not satisfy the second inequality.'
+    },
+    {
+      number: 36,
+      part: 'C',
+      type: 'written',
+      text: 'Suzanna collected information about a group of ponies and horses. She made a table showing the height, measured in hands (hh), and the weight, measured in pounds (lbs), of each pony and horse.\n\nHeight (hh) x: 11, 12, 13, 14, 15, 16, 17\nWeight (lbs) y: 264, 638, 700, 850, 1000, 1230, 1495\n\n(a) Write the linear regression equation for this set of data. Round all values to the nearest hundredth.\n(b) State the correlation coefficient for the linear regression. Round your answer to the nearest hundredth.\n(c) Explain what the correlation coefficient indicates about the linear fit of the data in the context of the problem.',
+      topic: 'Statistics & Probability',
+      explanation: 'Using linear regression, the equation is approximately y = 205.14x − 2106.07, the correlation coefficient r ≈ 0.99, indicating a very strong positive linear relationship between a horse\'s height and weight.',
+      diveDeep: 'Enter the data into a graphing calculator (STAT → EDIT → L1, L2) and run LinReg(ax + b) under STAT CALC. The slope a ≈ 205.14 means that for each additional hand of height, the weight increases by about 205.14 pounds. The y-intercept b ≈ −2106.07 is the theoretical weight at height 0, which has no practical meaning here. The correlation coefficient r close to 1 signals a very strong, nearly perfect positive linear association — taller animals are heavier in a highly consistent, near-linear pattern.',
+      modelAnswer: '(a) Linear regression equation:\n  Using a graphing calculator with the given data:\n  ŷ = 205.14x − 2106.07\n  (where x = height in hands, y = predicted weight in pounds)\n\n(b) Correlation coefficient:\n  r ≈ 0.99\n\n(c) Interpretation:\n  A correlation coefficient of r ≈ 0.99 is very close to 1, indicating a very strong positive linear relationship between the height and weight of ponies and horses. This means that as height increases, weight increases in a nearly linear pattern with very little scatter around the regression line.'
+    },
+
+    // ── Part D (Part IV) – 6 credits ─────────────────────────────────────────
+    {
+      number: 37,
+      part: 'D',
+      type: 'written',
+      text: 'Dana went shopping for plants to put in her garden. She bought three roses and two daisies for $31.88. Later that day, she went back and bought two roses and one daisy for $18.92.\n\nIf r represents the cost of one rose and d represents the cost of one daisy, write a system of equations that models this situation.\n\nUse your system of equations to algebraically determine both the cost of one rose and the cost of one daisy.\n\nIf Dana had waited until the plants were on sale, she would have paid $4.50 for each rose and $6.50 for each daisy. Determine the total amount of money she would have saved by buying all of her flowers during the sale.',
+      topic: 'Linear Equations & Inequalities',
+      explanation: 'The system is 3r + 2d = 31.88 and 2r + d = 18.92. Solving gives r = $5.96 and d = $7.00. At sale prices, Dana would pay 3($4.50) + 2($6.50) = $26.50, saving $31.88 − $26.50 = $5.38 for the first trip, and 2($4.50) + 1($6.50) = $15.50, saving $18.92 − $15.50 = $3.42 for the second trip, for a total savings of $8.80.',
+      diveDeep: 'Setting up the system is the first critical step: each shopping trip gives one equation. Multiplying the second equation by 2 gives 4r + 2d = 37.84, and subtracting the first equation eliminates d: r = 5.96. Back-substitute to find d: 2(5.96) + d = 18.92 → d = 18.92 − 11.92 = 7.00. For the savings calculation, compute the total paid on each trip at sale prices, subtract from the original price, and add the two savings together. Watch for the question asking for TOTAL savings across BOTH trips combined, not just one.',
+      modelAnswer: 'Step 1: Write the system of equations.\n  Trip 1: 3r + 2d = 31.88\n  Trip 2: 2r + d = 18.92\n\nStep 2: Solve the system algebraically (elimination).\n  Multiply equation 2 by 2:\n    4r + 2d = 37.84\n  Subtract equation 1:\n    (4r + 2d) − (3r + 2d) = 37.84 − 31.88\n    r = 5.96\n\n  Substitute r = 5.96 into 2r + d = 18.92:\n    2(5.96) + d = 18.92\n    11.92 + d = 18.92\n    d = 7.00\n\n  Check trip 1: 3(5.96) + 2(7.00) = 17.88 + 14.00 = 31.88 ✓\n  Check trip 2: 2(5.96) + 1(7.00) = 11.92 + 7.00 = 18.92 ✓\n\n  One rose costs $5.96 and one daisy costs $7.00.\n\nStep 3: Calculate savings at sale prices.\n  Dana bought: 3 roses + 2 daisies (trip 1) and 2 roses + 1 daisy (trip 2).\n\n  Trip 1 at sale price: 3($4.50) + 2($6.50) = $13.50 + $13.00 = $26.50\n    Savings: $31.88 − $26.50 = $5.38\n\n  Trip 2 at sale price: 2($4.50) + 1($6.50) = $9.00 + $6.50 = $15.50\n    Savings: $18.92 − $15.50 = $3.42\n\n  Total savings: $5.38 + $3.42 = $8.80\n\nDana would have saved $8.80 by buying all her flowers during the sale.'
     }
   ]
 }

@@ -1,12 +1,30 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useMemo } from 'react'
 
 function storageKey(subject) {
   return `@skipUnlocks_${subject ?? 'living-environment'}`
 }
 
-export function useUnlocks(history, topicOrder, subject) {
-  const TOPIC_ORDER = topicOrder ?? []
-  const passed = new Set(history.filter((h) => h.pct >= 65).map((h) => h.topic))
+// Unit N+1 unlocks only after ALL lessons in unit N are completed with ≥65%
+export function useUnlocks(history, units, subject) {
+  const UNITS = units ?? []
+
+  // Build best-score map: "topic::lessonIdx" → best pct
+  const lessonBest = useMemo(() => {
+    const map = new Map()
+    for (const h of history) {
+      if (h.lessonIndex == null) continue
+      const key = `${h.topic}::${h.lessonIndex}`
+      if ((h.pct ?? 0) > (map.get(key) ?? 0)) map.set(key, h.pct)
+    }
+    return map
+  }, [history])
+
+  function isUnitMastered(topic, lessonCount) {
+    for (let i = 0; i < lessonCount; i++) {
+      if ((lessonBest.get(`${topic}::${i}`) ?? 0) < 65) return false
+    }
+    return lessonCount > 0
+  }
 
   const [forceSet, setForceSet] = useState(new Set())
 
@@ -26,36 +44,37 @@ export function useUnlocks(history, topicOrder, subject) {
     localStorage.setItem(storageKey(subject), JSON.stringify([...updated]))
   }, [forceSet, subject])
 
-  const unlocked = new Set([TOPIC_ORDER[0]])
-  for (let i = 1; i < TOPIC_ORDER.length; i++) {
-    const prev = TOPIC_ORDER[i - 1]
-    if (passed.has(prev) || forceSet.has(prev)) {
-      unlocked.add(TOPIC_ORDER[i])
+  // Sequential unlock: first unit always open; each next unit requires previous mastered
+  const unlockedTopics = new Set()
+  for (let i = 0; i < UNITS.length; i++) {
+    const unit = UNITS[i]
+    if (i === 0) {
+      unlockedTopics.add(unit.topic)
     } else {
-      break
+      const prev = UNITS[i - 1]
+      if (isUnitMastered(prev.topic, prev.lessonCount) || forceSet.has(prev.topic)) {
+        unlockedTopics.add(unit.topic)
+      } else {
+        break // strict sequential — don't skip ahead
+      }
     }
   }
 
-  forceSet.forEach((t) => unlocked.add(t))
+  forceSet.forEach((t) => unlockedTopics.add(t))
 
   function isUnlocked(topic) {
     if (!topic) return true
-    return unlocked.has(topic)
+    return unlockedTopics.has(topic)
   }
 
   function unlockHint(topic) {
-    const idx = TOPIC_ORDER.indexOf(topic)
+    const idx = UNITS.findIndex((u) => u.topic === topic)
     if (idx <= 0) return null
-    return `65%+ on ${TOPIC_ORDER[idx - 1]} — or Skip Challenge`
+    const prev = UNITS[idx - 1]
+    return `Complete all ${prev.lessonCount} lessons in "${prev.title}" to unlock`
   }
 
-  function prerequisiteTopic(topic) {
-    const idx = TOPIC_ORDER.indexOf(topic)
-    if (idx <= 0) return null
-    return TOPIC_ORDER[idx - 1]
-  }
+  const completedCount = UNITS.filter((u) => isUnitMastered(u.topic, u.lessonCount) || forceSet.has(u.topic)).length
 
-  const completedCount = TOPIC_ORDER.filter((t) => passed.has(t) || forceSet.has(t)).length
-
-  return { isUnlocked, unlockHint, forceUnlock, prerequisiteTopic, completedCount, totalTopics: TOPIC_ORDER.length }
+  return { isUnlocked, unlockHint, forceUnlock, completedCount, totalTopics: UNITS.length }
 }

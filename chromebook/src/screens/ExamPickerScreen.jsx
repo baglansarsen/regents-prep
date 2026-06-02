@@ -1,11 +1,28 @@
-import React, { useMemo } from 'react'
+import React, { useMemo, useState, useEffect } from 'react'
 import { REGENTS_EXAMS } from '@content/regents-exams/index'
 import { SUBJECT_META } from '@content/subjects'
+
+const PB_KEY = 'regents_personal_best_v1'
+const LAST_KEY = 'regents_last_score_v1'
+
+function readScores() {
+  try {
+    const pbs = JSON.parse(localStorage.getItem(PB_KEY) || '{}')
+    const lasts = JSON.parse(localStorage.getItem(LAST_KEY) || '{}')
+    return { pbs, lasts }
+  } catch { return { pbs: {}, lasts: {} } }
+}
 
 export default function ExamPickerScreen({
   subject,
   onStartExam,
 }) {
+  const [scores, setScores] = useState(() => readScores())
+
+  useEffect(() => {
+    setScores(readScores())
+  }, [subject])
+
   const exams = useMemo(() => {
     const list = [...(REGENTS_EXAMS[subject] || [])]
     const sessionOrder = { 'August': 3, 'June': 2, 'January': 1 }
@@ -81,9 +98,24 @@ export default function ExamPickerScreen({
                         {ex.session} {ex.year}
                       </span>
                     </h3>
-                    <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginTop: '4px' }}>
-                      {ex.questions?.length ?? 0} multiple choice & stimulus questions · 45 mins limit
-                    </p>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginTop: '4px', flexWrap: 'wrap' }}>
+                      <p style={{ fontSize: '13px', color: 'var(--text-muted)', margin: 0 }}>
+                        {ex.questions?.length ?? 0} questions · 45 min
+                      </p>
+                      {scores.lasts[ex.id] != null && (
+                        <span style={{ fontSize: '12px', fontWeight: 700, padding: '2px 8px', borderRadius: '6px',
+                          background: scores.lasts[ex.id].scaled >= 65 ? 'rgba(34,197,94,0.12)' : 'rgba(239,68,68,0.12)',
+                          color: scores.lasts[ex.id].scaled >= 65 ? '#16a34a' : '#ef4444' }}>
+                          Last: {scores.lasts[ex.id].scaled}
+                        </span>
+                      )}
+                      {scores.pbs[ex.id] != null && (
+                        <span style={{ fontSize: '12px', fontWeight: 700, padding: '2px 8px', borderRadius: '6px',
+                          background: 'rgba(99,102,241,0.12)', color: '#6366f1' }}>
+                          🏅 Best: {scores.pbs[ex.id]}
+                        </span>
+                      )}
+                    </div>
                   </div>
                   <button className="btn-duo btn-duo-blue" style={{ padding: '10px 20px', fontSize: '14px' }}>
                     Start Exam

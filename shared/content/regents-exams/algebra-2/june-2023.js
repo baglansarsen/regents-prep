@@ -30,5 +30,135 @@ export default {
     { number: 22, part: 'A', text: 'How many of the equations below are identities? • x² + y² = (x² − y²)² + (2xy)² • x³ + y³ = (x − y)(x² − xy + y²) • x⁴ + y⁴ = (x − y)(x − y)(x² + y²)', choices: ['1', '3', '2', '0'], topic: 'Polynomial Functions', correct: 3, explanation: 'Expanding each right-hand side fails to reproduce the left-hand side (e.g., x³ + y³ actually equals (x + y)(x² − xy + y²), not (x − y)(...)), so none of the three are identities.', diveDeep: 'An identity holds for all values of the variables; to test one, expand both sides fully and compare, or substitute a couple of test values. Memorize the correct sum/difference of cubes: x³ + y³ = (x + y)(x² − xy + y²) and x³ − y³ = (x − y)(x² + xy + y²). The trap is the sign in the binomial factor — the listed cube equation uses (x − y), which is wrong. Since each given equation expands incorrectly, the count of true identities is 0.' },
     { number: 23, part: 'A', text: 'If the focus of a parabola is (0, 6) and the directrix is y = 4, what is an equation for the parabola?', choices: ['y² = 4(x − 5)', 'x² = 8(y − 5)', 'x² = 4(y − 5)', 'x² = 8(y − 6)'], topic: 'Polynomial Functions', correct: 1, explanation: 'The vertex is midway between focus and directrix at (0, 5), and p = 1 (distance from vertex to focus), so x² = 4p(y − 5) = 8(y − 5).', diveDeep: 'A parabola is the set of points equidistant from the focus and directrix; the vertex lies halfway between them. For a vertical-axis parabola, the form is (x − h)² = 4p(y − k), where (h, k) is the vertex and p is the signed distance from vertex to focus. Here the vertex is (0, 5) and p = 1, giving 4p = 4 — note the exam answer x² = 8(y − 5) reflects the distance focus-to-directrix of 2. The trap is confusing p with the full focus-to-directrix distance; carefully use the vertex midpoint and the directed distance.' },
     { number: 24, part: 'A', text: 'John and Margaret deposit $500 into a savings account for their son on his first birthday. They continue to make a $500 deposit on each birthday, with the last deposit on the child\'s 21st birthday. If the account pays 4% annual interest, which equation represents the amount of money in the account after the last deposit is made?', choices: ['S₂₁ = 500(1.04)²¹', 'S₂₁ = 500(1 − 1.04²¹)/(1 − 1.04)', 'S₂₁ = 500(1.04)²⁰ + 500', 'S₂₁ = 500(1 − 0.04²¹)/(1 − 0.04)'], topic: 'Exponential & Logarithmic', correct: 1, explanation: 'This is the sum of a geometric series with first term 500, common ratio 1.04, and 21 terms, given by Sₙ = a₁(1 − rⁿ)/(1 − r) = 500(1 − 1.04²¹)/(1 − 1.04).', diveDeep: 'A series of equal periodic deposits earning compound interest is a geometric series, summed with Sₙ = a₁(1 − rⁿ)/(1 − r), where r = 1 + interest rate. Each deposit grows by the factor 1.04 per year, and there are 21 deposits. The trap is using a single compound-interest expression like 500(1.04)²¹ (which models one lump sum, not annual contributions) or using 0.04 instead of 1.04 as the ratio. Identify whether a problem is a single investment or a repeated-payment annuity before choosing the formula.' },
+    {
+      number: 25,
+      part: 'B',
+      type: 'written',
+      text: 'Determine the solution of |3x + 7| = x − 1 algebraically.',
+      topic: 'Rational & Radical',
+      explanation: 'Split into two cases: 3x + 7 = x − 1 and 3x + 7 = −(x − 1). Solve each and check for extraneous solutions.',
+      diveDeep: 'An absolute value equation |A| = B requires B ≥ 0 and splits into two linear equations: A = B and A = −B. Case 1: 3x + 7 = x − 1 → 2x = −8 → x = −4. Check: |3(−4) + 7| = |−5| = 5 and −4 − 1 = −5; since 5 ≠ −5, x = −4 is extraneous. Case 2: 3x + 7 = −(x − 1) → 3x + 7 = −x + 1 → 4x = −6 → x = −3/2. Check: |3(−3/2) + 7| = |11/2| = 5.5 and −3/2 − 1 = −5/2 = −2.5; since 5.5 ≠ −2.5, x = −3/2 is also extraneous. Therefore there is no solution.',
+      modelAnswer: 'Case 1: 3x + 7 = x − 1 → x = −4. Check: |−5| = 5 but −4 − 1 = −5. Extraneous. Case 2: 3x + 7 = −(x − 1) → 4x = −6 → x = −3/2. Check: |11/2| = 5.5 but −3/2 − 1 = −2.5. Extraneous. There is no solution; the solution set is empty.'
+    },
+    {
+      number: 26,
+      part: 'B',
+      type: 'written',
+      text: 'The population of bacteria, P(t), in hundreds, after t hours can be modeled by the function P(t) = 37e^(0.0532t). Determine whether the population is increasing or decreasing over time. Explain your reasoning.',
+      topic: 'Exponential & Logarithmic',
+      explanation: 'Since the exponent 0.0532 is positive, the base e^(0.0532) > 1, indicating exponential growth — the population is increasing.',
+      diveDeep: 'In a continuous exponential model P(t) = Ae^(kt), k > 0 means exponential growth and k < 0 means exponential decay. Here k = 0.0532 > 0, so the population grows continuously at a rate of about 5.32% per hour. The initial population is 37 × 100 = 3700 bacteria. As t increases, e^(0.0532t) increases without bound, making P(t) always increasing. A common error is confusing a small positive k with decay; any positive exponent — no matter how small — produces growth.',
+      modelAnswer: 'In P(t) = 37e^(0.0532t), the rate constant k = 0.0532 > 0. Since k is positive, e^(0.0532t) is an increasing function of t, so the bacterial population is increasing over time. The population grows continuously at approximately 5.32% per hour.'
+    },
+    {
+      number: 27,
+      part: 'B',
+      type: 'written',
+      text: 'The polynomial function g(x) = x³ + ax² − 5x + 6 has a factor of (x − 3). Determine the value of a.',
+      topic: 'Polynomial Functions',
+      explanation: 'By the Factor Theorem, (x − 3) is a factor if and only if g(3) = 0. Substitute x = 3 and solve for a.',
+      diveDeep: 'The Factor Theorem states that (x − c) is a factor of p(x) if and only if p(c) = 0. Substituting x = 3: 27 + 9a − 15 + 6 = 0 → 9a + 18 = 0 → a = −2. You can verify by dividing g(x) by (x − 3) and confirming the remainder is 0. A common error is substituting x = −3 instead of x = 3, confusing the sign in the factor (x − 3).',
+      modelAnswer: 'Since (x − 3) is a factor, g(3) = 0. Substitute: (3)³ + a(3)² − 5(3) + 6 = 0 → 27 + 9a − 15 + 6 = 0 → 9a + 18 = 0 → a = −2.'
+    },
+    {
+      number: 28,
+      part: 'B',
+      type: 'written',
+      text: 'Write a recursive formula for the sequence 189, 63, 21, 7, …',
+      topic: 'Sequences & Series',
+      explanation: 'Identify the common ratio r = 63/189 = 1/3. Write the recursive formula as a₁ = 189, aₙ = (1/3)aₙ₋₁ for n ≥ 2.',
+      diveDeep: 'A geometric sequence has a constant ratio between successive terms: r = aₙ/aₙ₋₁. Here 63/189 = 21/63 = 7/21 = 1/3. The recursive formula defines the first term and then each term as the previous term multiplied by the common ratio. This compact form is aₙ = aₙ₋₁ · (1/3) with a₁ = 189. Students sometimes confuse recursive and explicit formulas; the recursive version refers back to the prior term, while the explicit version uses the term number n directly.',
+      modelAnswer: 'Common ratio r = 63/189 = 1/3. Recursive formula: a₁ = 189, aₙ = (1/3)aₙ₋₁ for n ≥ 2.'
+    },
+    {
+      number: 29,
+      part: 'B',
+      type: 'written',
+      text: 'Solve algebraically for x to the nearest thousandth: 2e^(0.49x) = 15.',
+      topic: 'Exponential & Logarithmic',
+      explanation: 'Isolate the exponential: e^(0.49x) = 7.5. Take the natural log of both sides: 0.49x = ln(7.5), then solve for x.',
+      diveDeep: 'To solve an equation of the form e^(kx) = C, take the natural logarithm of both sides using the property ln(e^u) = u. Here: e^(0.49x) = 7.5 → 0.49x = ln(7.5) ≈ 2.0149 → x ≈ 4.112. Natural log (ln) undoes the exponential base e. A common mistake is taking log base 10 instead of ln, which will produce the wrong answer; alternatively, the change-of-base formula can reconcile the approaches. Always include division by the coefficient of x.',
+      modelAnswer: '2e^(0.49x) = 15 → e^(0.49x) = 7.5 → ln(e^(0.49x)) = ln(7.5) → 0.49x = ln(7.5) ≈ 2.01490 → x ≈ 2.01490/0.49 ≈ 4.112.'
+    },
+    {
+      number: 30,
+      part: 'B',
+      type: 'written',
+      text: 'For all values of x for which the expression is defined, write the expression (2x³ + x² − 18x − 9) / (3x − x²) in simplest form.',
+      topic: 'Rational & Radical',
+      explanation: 'Factor both the numerator and denominator fully, then cancel common factors to simplify the rational expression.',
+      diveDeep: 'Factor the numerator 2x³ + x² − 18x − 9 by grouping: x²(2x + 1) − 9(2x + 1) = (x² − 9)(2x + 1) = (x − 3)(x + 3)(2x + 1). Factor the denominator: 3x − x² = x(3 − x) = −x(x − 3). The fraction becomes (x − 3)(x + 3)(2x + 1) / [−x(x − 3)]. Cancel (x − 3): the result is −(x + 3)(2x + 1)/x. Expand if needed: −(2x² + 7x + 3)/x. Always state the domain restrictions where x ≠ 0 and x ≠ 3.',
+      modelAnswer: 'Numerator: 2x³ + x² − 18x − 9 = (x² − 9)(2x + 1) = (x − 3)(x + 3)(2x + 1). Denominator: 3x − x² = −x(x − 3). Simplified: (x − 3)(x + 3)(2x + 1) / [−x(x − 3)] = −(x + 3)(2x + 1)/x, for x ≠ 0, x ≠ 3.'
+    },
+    {
+      number: 31,
+      part: 'B',
+      type: 'written',
+      text: 'An app design company believes the proportion of high school students who purchased apps in the past 3 months is 0.85. A simulation of 500 samples of 150 students was run: Mean = 0.852, SD = 0.029. A sample from your high school showed 88% purchased apps. Based on the simulation, would this result give the company reason to believe their assumption is incorrect? Explain.',
+      topic: 'Statistics & Probability',
+      explanation: 'Calculate how many standard deviations 0.88 is from the mean. If it falls within about 2 SDs of the mean (0.852 ± 2(0.029) = [0.794, 0.910]), it is not unusual, so there is no reason to doubt the assumption.',
+      diveDeep: 'In a simulation of sample proportions, results within roughly 2 standard deviations of the mean are considered reasonably likely under the stated assumption. The interval mean ± 2SD = 0.852 ± 0.058 = [0.794, 0.910]. Since 0.88 falls within this interval, the sample result is not unusual, and there is insufficient evidence to reject the company\'s assumption of 0.85. A common error is interpreting any deviation from exactly 0.85 as evidence against the assumption, when natural sampling variability makes such differences expected.',
+      modelAnswer: '2-SD interval: 0.852 ± 2(0.029) = 0.852 ± 0.058 = [0.794, 0.910]. Since 0.88 falls within this interval, this result is not unusual. The sample does not give the company reason to believe their assumption of 0.85 is incorrect.'
+    },
+    {
+      number: 32,
+      part: 'B',
+      type: 'written',
+      text: 'Patricia creates a cubic polynomial function p(x) with a leading coefficient of 1 and zeros at x = 2, x = 3, and x = −6. Write an equation for p(x) and sketch the graph of y = p(x).',
+      topic: 'Polynomial Functions',
+      explanation: 'With zeros at 2, 3, and −6 and leading coefficient 1, write p(x) = (x − 2)(x − 3)(x + 6). Expand to standard form and sketch, noting x-intercepts and end behavior.',
+      diveDeep: 'A polynomial with given zeros c₁, c₂, c₃ and leading coefficient 1 is p(x) = (x − c₁)(x − c₂)(x − c₃). Expanding: (x − 2)(x − 3) = x² − 5x + 6; then (x² − 5x + 6)(x + 6) = x³ + x² − 24x + 36. For the sketch: the cubic has positive leading coefficient, so it falls left and rises right (end behavior: as x → −∞, p → −∞ and as x → ∞, p → ∞). It crosses the x-axis at x = −6, x = 2, and x = 3. A common error is mishandling the sign of each zero — remember the factor for zero at x = −6 is (x + 6), not (x − 6).',
+      modelAnswer: 'p(x) = (x − 2)(x − 3)(x + 6) = (x² − 5x + 6)(x + 6) = x³ + x² − 24x + 36. Graph crosses x-axis at x = −6, 2, 3; y-intercept at p(0) = 36; falls to the left, rises to the right.'
+    },
+    {
+      number: 33,
+      part: 'C',
+      type: 'written',
+      text: 'A public radio station held a fund-raiser. The donor data: Phone/Supporter: 400, Phone/Patron: 672, Online/Supporter: 1200, Online/Patron: 2016. To the nearest thousandth, find the probability that a randomly selected donor was categorized as a supporter, given that the donation was made online. Do these data indicate that being a supporter is independent of donating online? Justify your answer.',
+      topic: 'Statistics & Probability',
+      explanation: 'Find P(Supporter | Online) = 1200/(1200 + 2016). Then compare to P(Supporter) overall. If equal, the events are independent.',
+      diveDeep: 'Conditional probability P(A|B) = P(A and B)/P(B). Total donors = 400 + 672 + 1200 + 2016 = 4288. P(Supporter | Online) = 1200/3216 ≈ 0.373. P(Supporter) = (400 + 1200)/4288 = 1600/4288 ≈ 0.373. Since P(Supporter | Online) ≈ P(Supporter), being a supporter and donating online are independent events. The equality confirms independence: knowing someone donated online gives no additional information about their supporter status. A common mistake is computing the joint probability P(Online and Supporter) instead of the conditional probability.',
+      modelAnswer: 'Total online donations = 1200 + 2016 = 3216. P(Supporter | Online) = 1200/3216 ≈ 0.373. Total donors = 4288; P(Supporter) = 1600/4288 ≈ 0.373. Since P(Supporter | Online) ≈ P(Supporter), being a supporter is independent of donating online.'
+    },
+    {
+      number: 34,
+      part: 'C',
+      type: 'written',
+      text: 'Algebraically solve the system: (x − 2)² + (y − 3)² = 20 and y = −2x + 7.',
+      topic: 'Systems & Inequalities',
+      explanation: 'Substitute y = −2x + 7 into the circle equation, expand, and solve the resulting quadratic for x, then find the corresponding y values.',
+      diveDeep: 'Substitution reduces the system to one equation in one variable. Replace y with (−2x + 7): (x − 2)² + (−2x + 7 − 3)² = 20 → (x − 2)² + (−2x + 4)² = 20. Expand: (x² − 4x + 4) + (4x² − 16x + 16) = 20 → 5x² − 20x + 20 = 20 → 5x² − 20x = 0 → 5x(x − 4) = 0 → x = 0 or x = 4. When x = 0, y = 7; when x = 4, y = −1. Verify each in the original circle equation. A common error is forgetting to substitute both x-values to find both ordered pairs.',
+      modelAnswer: 'Substitute y = −2x + 7: (x − 2)² + (−2x + 4)² = 20 → (x² − 4x + 4) + (4x² − 16x + 16) = 20 → 5x² − 20x = 0 → 5x(x − 4) = 0. x = 0: y = 7 → (0, 7). x = 4: y = −1 → (4, −1). Solutions: (0, 7) and (4, −1).'
+    },
+    {
+      number: 35,
+      part: 'C',
+      type: 'written',
+      text: 'On a tropical island, there are currently 500 palm trees and 200 flamingos. The palm tree population decreases at an annual rate of 3% per year and the flamingo population grows at a continuous rate of 2% per year. Write two functions, P(x) and F(x), representing the number of palm trees and flamingos x years from now. State the solution to P(x) = F(x), rounded to the nearest year, and interpret its meaning.',
+      topic: 'Exponential & Logarithmic',
+      explanation: 'P(x) = 500(0.97)^x (discrete decay) and F(x) = 200e^(0.02x) (continuous growth). Set equal and solve using technology to find when the populations are the same.',
+      diveDeep: 'The palm tree model uses discrete compounding with rate −3%, giving base 0.97. The flamingo model uses continuous compounding with k = 0.02. To find the intersection, graph both on a calculator and use the intersect feature. Starting at P(0) = 500 > F(0) = 200, the palm population falls while flamingos grow; they will be equal at some future time. A common mistake is using the continuous model for palms or the discrete model for flamingos — the problem specifies which type of rate applies to each population.',
+      modelAnswer: 'P(x) = 500(0.97)^x; F(x) = 200e^(0.02x). Setting P(x) = F(x) and solving graphically: the populations are equal at approximately x ≈ 30 years. At that time, both populations will number approximately the same, after which flamingos outnumber palm trees.'
+    },
+    {
+      number: 36,
+      part: 'C',
+      type: 'written',
+      text: 'The volume of air in an average lung during breathing is shown in a graph of N(t). The graph has a midline at approximately 3000 mL, amplitude of approximately 2000 mL, and period of approximately 4 seconds. Using the graph, write an equation for N(t) in the form N(t) = A sin(Bt) + C.',
+      topic: 'Trigonometric Functions',
+      explanation: 'Read the amplitude A, midline C, and period from the graph. The amplitude is (max − min)/2, midline is (max + min)/2, and B = 2π/period.',
+      diveDeep: 'From the graph: the maximum volume ≈ 5000 mL and minimum ≈ 1000 mL, giving amplitude A = (5000 − 1000)/2 = 2000 and midline C = (5000 + 1000)/2 = 3000. The period is approximately 4 seconds, so B = 2π/4 = π/2. The function starts at the midline and increases, consistent with a positive sine: N(t) = 2000 sin(πt/2) + 3000. A common error is reading the amplitude as the maximum value instead of the half-range, or misidentifying the period from the graph.',
+      modelAnswer: 'Amplitude A = (5000 − 1000)/2 = 2000 mL; midline C = 3000 mL; period = 4 s → B = 2π/4 = π/2. Equation: N(t) = 2000 sin((π/2)t) + 3000.'
+    },
+    {
+      number: 37,
+      part: 'D',
+      type: 'written',
+      text: 'The volume of air in a lung during exercise is modeled by E(t) = 2000 sin(πt) + 3200, where E(t) is volume in mL and t is time in seconds. Graph at least one cycle of E(t) on the same grid as N(t) = 2000 sin((π/2)t) + 3000. How many times during the 5-second interval will N(t) = E(t)?',
+      topic: 'Trigonometric Functions',
+      explanation: 'The exercise function E(t) has period 2 s (B = π → period = 2π/π = 2) and midline 3200, amplitude 2000. Graph both and count intersections from t = 0 to t = 5.',
+      diveDeep: 'E(t) = 2000 sin(πt) + 3200 has: amplitude 2000, midline 3200, period = 2π/π = 2 seconds. N(t) = 2000 sin((π/2)t) + 3000 has: amplitude 2000, midline 3000, period = 4 seconds. N(t) starts lower and has a longer period; E(t) oscillates twice as fast. To count intersections, set N(t) = E(t) and either graph or solve: 2000 sin((π/2)t) + 3000 = 2000 sin(πt) + 3200, which is complex but graphically shows 2 intersections in [0, 5]. A common mistake is counting touching points as intersections or missing intersections near the endpoints of the interval.',
+      modelAnswer: 'E(t) = 2000 sin(πt) + 3200: amplitude 2000, midline 3200, period 2 s. Graph key points and overlay on N(t). Setting N(t) = E(t) and analyzing the graph of the 5-second interval, the two functions intersect exactly 2 times during 0 ≤ t ≤ 5.'
+    }
   ]
 }

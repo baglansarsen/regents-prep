@@ -247,5 +247,118 @@ export default {
       explanation: 'The midpoint of AB is (−2, 5) and the slope of AB is (6 − 4)/(−4 − 0) = −1/2, so the perpendicular bisector has slope 2 and passes through (−2, 5): y − 5 = 2(x + 2), or y = 2x + 9.',
       diveDeep: 'A perpendicular bisector must satisfy two conditions: it passes through the midpoint of the segment and it is perpendicular to the segment. First find the midpoint with the average of coordinates, then find the segment slope and take its negative reciprocal for the perpendicular slope, and finally use point-slope form through the midpoint. Skipping the midpoint (using an endpoint instead) or forgetting the negative reciprocal are the two most common errors, which generate the trap choices.'
     },
+    // Part B — 7 questions (2 credits each)
+    {
+      number: 25,
+      part: 'B',
+      type: 'written',
+      text: 'Triangles ABC and DEF are graphed on the set of axes below. Describe a sequence of transformations that maps △ABC onto △DEF.',
+      topic: 'Congruence & Transformations',
+      explanation: 'Identify key coordinates of both triangles from the graph. A typical sequence is a reflection over a line followed by a translation (or rotation) that maps △ABC exactly onto △DEF. State each transformation with its precise parameters.',
+      diveDeep: 'To describe a mapping sequence, first identify corresponding vertices (A↔D, B↔E, C↔F) and compute how the coordinates change. Look for a reflection line (often x-axis, y-axis, or y = x) and whether a translation is also needed. For any rigid-motion sequence, verify that the composition correctly maps every vertex. Common mistakes include describing the transformations in the wrong order (order matters for compositions) or giving a vague description like "flip and slide" without specifying the line or direction and distance.',
+      modelAnswer: 'Based on the graph, identify corresponding vertices and determine the transformation:\nA reflection over the x-axis maps △ABC to an intermediate image, then a translation maps it onto △DEF.\n\nExample answer (coordinates from graph must be used):\n"A reflection over the x-axis, followed by a translation of ____ units right and ____ units up/down, maps △ABC onto △DEF."\n\nVerify by checking that each image vertex matches the target vertex after applying both transformations in order.'
+    },
+    {
+      number: 26,
+      part: 'B',
+      type: 'written',
+      text: 'Line segment PQ has endpoints P(−5, 1) and Q(5, 6), and point R is on PQ. Determine and state the coordinates of R, such that PR:RQ = 2:3.',
+      topic: 'Coordinate Geometry',
+      explanation: 'Use the directed partition formula: R = P + (2/5)(Q − P). R_x = −5 + (2/5)(5 − (−5)) = −5 + (2/5)(10) = −5 + 4 = −1. R_y = 1 + (2/5)(6 − 1) = 1 + 2 = 3. R = (−1, 3).',
+      diveDeep: 'The section formula divides a directed segment from P to Q in ratio m:n as: R = P + [m/(m+n)](Q − P). Here m = 2, n = 3, m+n = 5. For x: −5 + (2/5)(5 − (−5)) = −5 + (2/5)(10) = −5 + 4 = −1. For y: 1 + (2/5)(6 − 1) = 1 + (2/5)(5) = 1 + 2 = 3. So R = (−1, 3). A common mistake is using n/(m+n) = 3/5 instead of m/(m+n) = 2/5, which gives the wrong point. Also be careful that the ratio PR:RQ = 2:3 means R is closer to P (2 parts from P, 3 parts to Q).',
+      modelAnswer: 'PR:RQ = 2:3, so R divides PQ in ratio 2:3 from P.\n\nR_x = −5 + (2/5)(5 − (−5)) = −5 + (2/5)(10) = −5 + 4 = −1\nR_y = 1 + (2/5)(6 − 1) = 1 + (2/5)(5) = 1 + 2 = 3\n\nR = (−1, 3)'
+    },
+    {
+      number: 27,
+      part: 'B',
+      type: 'written',
+      text: 'A circle has a radius of 6.4 inches. Determine and state, to the nearest square inch, the area of a sector whose arc measures 80°.',
+      topic: 'Circles',
+      explanation: 'Sector area = (θ/360°)πr² = (80/360)π(6.4)² = (2/9)π(40.96) ≈ 28.56 ≈ 29 square inches.',
+      diveDeep: 'The sector area formula is A = (θ/360)πr², where θ is the central angle in degrees. With θ = 80° and r = 6.4: A = (80/360)π(6.4)² = (2/9)π(40.96). Compute: (2/9)(40.96) ≈ 9.102, then multiply by π ≈ 3.14159 to get ≈ 28.59 in², which rounds to 29 in². Common mistakes: forgetting to square the radius, using diameter instead of radius, or not simplifying 80/360 first (it equals 2/9). Always round at the last step to preserve accuracy.',
+      modelAnswer: 'Sector area = (θ/360°)πr²\n= (80/360)π(6.4)²\n= (2/9)π(40.96)\n= (81.92π)/9\n≈ (81.92 × 3.14159)/9\n≈ 257.28/9\n≈ 28.59 in²\n\nTo the nearest square inch: 29 square inches'
+    },
+    {
+      number: 28,
+      part: 'B',
+      type: 'written',
+      text: 'A large snowman is made of three spherical snowballs with radii of 1 foot, 2 feet, and 3 feet, respectively. Determine and state the amount of snow, in cubic feet, that is used to make the snowman. [Leave your answer in terms of π.]',
+      topic: 'Area & Volume',
+      explanation: 'Total volume = (4/3)π(1³) + (4/3)π(2³) + (4/3)π(3³) = (4π/3)(1 + 8 + 27) = (4π/3)(36) = 48π cubic feet.',
+      diveDeep: 'Volume of a sphere = (4/3)πr³. For each snowball: r=1 gives (4/3)π(1) = 4π/3; r=2 gives (4/3)π(8) = 32π/3; r=3 gives (4/3)π(27) = 36π. Add them: 4π/3 + 32π/3 + 36π = (4π + 32π)/3 + 108π/3 = 36π/3 + 108π/3 = 144π/3 = 48π. A common mistake is computing r² instead of r³, or forgetting the 4/3 factor. Converting to a common denominator before adding is the cleanest approach.',
+      modelAnswer: 'V = (4/3)π(1)³ + (4/3)π(2)³ + (4/3)π(3)³\n= (4π/3)(1) + (4π/3)(8) + (4π/3)(27)\n= (4π/3)(1 + 8 + 27)\n= (4π/3)(36)\n= 144π/3\n= 48π cubic feet'
+    },
+    {
+      number: 29,
+      part: 'B',
+      type: 'written',
+      text: 'In the diagram below of right triangle ACB, altitude CD is drawn to hypotenuse AB, AD = 2 and AC = 6. Determine and state the length of AB.',
+      topic: 'Similarity & Proof',
+      explanation: 'By the geometric mean (leg) theorem: AC² = AD × AB. So 6² = 2 × AB → 36 = 2 × AB → AB = 18.',
+      diveDeep: 'When an altitude is drawn from the right angle to the hypotenuse of a right triangle, each leg is the geometric mean of the hypotenuse and the adjacent segment. The relationship is: (leg)² = (adjacent hypotenuse segment) × (whole hypotenuse). Here leg AC = 6 and adjacent segment AD = 2, so: 6² = 2 × AB → 36 = 2 × AB → AB = 18. An alternative approach: find CD using CD² = AD × DB; first find DB using the other relationship, then check. Students often confuse the altitude theorem (altitude² = product of two segments) with the leg theorem (leg² = adjacent segment × whole hypotenuse). Identify which relationship uses which segments before setting up the equation.',
+      modelAnswer: 'Using the geometric mean (leg) theorem:\nAC² = AD × AB\n6² = 2 × AB\n36 = 2 × AB\nAB = 18'
+    },
+    {
+      number: 30,
+      part: 'B',
+      type: 'written',
+      text: 'Triangle RST has vertices with coordinates R(−3, −2), S(3, 2) and T(4, −4). Determine and state an equation of the line parallel to RT that passes through point S.',
+      topic: 'Coordinate Geometry',
+      explanation: 'Slope of RT = (−4 − (−2))/(4 − (−3)) = −2/7. A parallel line through S(3, 2) has the same slope: y − 2 = −(2/7)(x − 3), which gives y = −(2/7)x + 20/7.',
+      diveDeep: 'Parallel lines have identical slopes. Step 1: find slope of RT: m = (y_T − y_R)/(x_T − x_R) = (−4 − (−2))/(4 − (−3)) = (−2)/(7) = −2/7. Step 2: write the equation of a line through S(3, 2) with slope −2/7: y − 2 = −(2/7)(x − 3). Simplify: y = −(2/7)x + 6/7 + 2 = −(2/7)x + 6/7 + 14/7 = −(2/7)x + 20/7. The equation can also be left in point-slope form or written as 2x + 7y = 20. A common mistake is using the coordinates of R and T in the point-slope formula instead of the given point S.',
+      modelAnswer: 'Slope of RT: m = (−4 − (−2)) / (4 − (−3)) = (−2) / 7 = −2/7\n\nLine through S(3, 2) parallel to RT:\ny − 2 = −(2/7)(x − 3)\ny = −(2/7)x + 6/7 + 14/7\ny = −(2/7)x + 20/7\n\nOr equivalently: 2x + 7y = 20'
+    },
+    {
+      number: 31,
+      part: 'B',
+      type: 'written',
+      text: 'Cape Canaveral, Florida is where NASA launches rockets into space. As modeled in the diagram below, a person views the launch of a rocket from observation area A, 3280 feet away from launch pad B. After launch, the rocket was sighted at C with an angle of elevation of 15°. The rocket was later sighted at D with an angle of elevation of 31°. Determine and state, to the nearest foot, the distance the rocket traveled between the two sightings, C and D.',
+      topic: 'Trigonometry',
+      explanation: 'BC = 3280 × tan(15°) ≈ 879 ft; BD = 3280 × tan(31°) ≈ 1970 ft. Distance CD = BD − BC ≈ 1970 − 879 ≈ 1091 ft.',
+      diveDeep: 'The rocket travels vertically, and the observer is 3280 ft horizontally from the launch pad. At angle of elevation 15°: height of C above ground = 3280 × tan(15°) ≈ 3280 × 0.2679 ≈ 878.6 ft. At angle of elevation 31°: height of D = 3280 × tan(31°) ≈ 3280 × 0.6009 ≈ 1970.9 ft. The rocket traveled vertically, so distance CD = 1970.9 − 878.6 ≈ 1092.3 ≈ 1092 ft. The key insight is that both heights are measured from the same ground level, so the difference gives the vertical distance traveled. A common mistake is computing tan of the wrong angle or subtracting in the wrong order.',
+      modelAnswer: 'Height at C: BC = 3280 × tan(15°) ≈ 3280 × 0.2679 ≈ 878.7 ft\nHeight at D: BD = 3280 × tan(31°) ≈ 3280 × 0.6009 ≈ 1970.9 ft\n\nDistance traveled = BD − BC ≈ 1970.9 − 878.7 ≈ 1092.2\n\nTo the nearest foot: CD ≈ 1092 feet'
+    },
+    // Part C — 3 questions (4 credits each)
+    {
+      number: 32,
+      part: 'C',
+      type: 'written',
+      text: 'A small can of soup is a right circular cylinder with a base diameter of 7 cm and a height of 9 cm. A large container is also a right circular cylinder with a base diameter of 9 cm and a height of 13 cm. Determine and state the volume of the small can and the volume of the large container to the nearest cubic centimeter. What is the minimum number of small cans that must be opened to fill the large container? Justify your answer.',
+      topic: 'Area & Volume',
+      explanation: 'Small can: V = π(3.5)²(9) = π(12.25)(9) ≈ 346 cm³. Large container: V = π(4.5)²(13) = π(20.25)(13) ≈ 827 cm³. 827 ÷ 346 ≈ 2.39, so minimum 3 cans are needed.',
+      diveDeep: 'Small can radius = 7/2 = 3.5 cm: V = π(3.5)²(9) = π(12.25)(9) = 110.25π ≈ 346.36 ≈ 346 cm³. Large container radius = 9/2 = 4.5 cm: V = π(4.5)²(13) = π(20.25)(13) = 263.25π ≈ 827.07 ≈ 827 cm³. To fill the large container: 827 ÷ 346 ≈ 2.39, which means 2 cans are not enough (2 × 346 = 692 < 827), so a minimum of 3 cans must be opened. The justification must include showing that 2 cans are insufficient and 3 cans are enough. Always use radius (half the diameter), not diameter, in the cylinder formula.',
+      modelAnswer: 'Small can radius = 7/2 = 3.5 cm\nV_small = π(3.5)²(9) = 110.25π ≈ 346 cm³\n\nLarge container radius = 9/2 = 4.5 cm\nV_large = π(4.5)²(13) = 263.25π ≈ 827 cm³\n\nNumber of cans needed: 827 ÷ 346 ≈ 2.39\n\nSince 2 cans provide only 2 × 346 = 692 cm³ < 827 cm³, 2 cans are not enough.\n3 cans provide 3 × 346 = 1038 cm³ > 827 cm³, which is sufficient.\n\nMinimum number of small cans = 3'
+    },
+    {
+      number: 33,
+      part: 'C',
+      type: 'written',
+      text: 'Parallelogram MATH has vertices M(−7, −2), A(0, 4), T(9, 2), and H(2, −4). Prove that parallelogram MATH is a rhombus. Determine and state the area of MATH.',
+      topic: 'Coordinate Geometry',
+      explanation: 'A parallelogram is a rhombus if all sides are equal. Compute MA, AT, TH, HM with the distance formula — all equal √85. Area = base × height; using the diagonals, area = (1/2)|d₁||d₂| = (1/2)(MT)(AH), where MT and AH are perpendicular diagonals.',
+      diveDeep: 'Step 1 — Prove rhombus: compute all four sides. MA = √((0−(−7))² + (4−(−2))²) = √(49+36) = √85. AT = √((9−0)² + (2−4)²) = √(81+4) = √85. TH = √((2−9)² + (−4−2)²) = √(49+36) = √85. HM = √((−7−2)² + (−2−(−4))²) = √(81+4) = √85. All sides equal √85, so MATH is a rhombus. Step 2 — Area: for a rhombus, area = (1/2)d₁d₂. Diagonal MT: from M(−7,−2) to T(9,2), length = √((9−(−7))² + (2−(−2))²) = √(256+16) = √272 = 4√17. Diagonal AH: from A(0,4) to H(2,−4), length = √(4+64) = √68 = 2√17. Area = (1/2)(4√17)(2√17) = (1/2)(8 × 17) = 68.',
+      modelAnswer: 'Prove MATH is a rhombus (show all sides equal):\nMA = √((0−(−7))² + (4−(−2))²) = √(49+36) = √85\nAT = √((9−0)² + (2−4)²) = √(81+4) = √85\nTH = √((2−9)² + (−4−2)²) = √(49+36) = √85\nHM = √((−7−2)² + (−2−(−4))²) = √(81+4) = √85\nAll four sides = √85, so MATH is a rhombus.\n\nArea of MATH:\nDiagonal MT = √((9−(−7))² + (2−(−2))²) = √(256+16) = √272 = 4√17\nDiagonal AH = √((2−0)² + (−4−4)²) = √(4+64) = √68 = 2√17\nArea = (1/2)(4√17)(2√17) = (1/2)(8)(17) = 68 square units'
+    },
+    {
+      number: 34,
+      part: 'C',
+      type: 'written',
+      text: 'Given: Quadrilateral ABCD with AB ≅ CD, AB ∥ CD, diagonal AC intersects EF at G, and DE ≅ BF. Prove: G is the midpoint of EF.',
+      topic: 'Proofs',
+      explanation: 'Since AB ∥ CD and AB ≅ CD, ABCD is a parallelogram. Use properties of the parallelogram and the congruent segments (DE ≅ BF) with triangle congruence (SAS or ASA) to show EG ≅ GF, making G the midpoint of EF.',
+      diveDeep: 'With AB ≅ CD and AB ∥ CD, quadrilateral ABCD is a parallelogram (a quadrilateral with one pair of sides both congruent and parallel is a parallelogram). In a parallelogram, diagonals bisect each other, so if G is on diagonal AC, additional work is needed using the given DE ≅ BF. Consider triangles formed at G: △AGB and △CGD may be proven congruent, or focus on triangles containing E and F. Use alternate interior angles (from the parallel lines), the given congruences, and AAS or SAS to prove △EGA ≅ △FGB (or similar), giving EG ≅ GF. Then by the definition of midpoint, G is the midpoint of EF.',
+      modelAnswer: 'Statement | Reason\n1. AB ≅ CD, AB ∥ CD | Given\n2. ABCD is a parallelogram | A quadrilateral with one pair of sides both ≅ and ∥ is a parallelogram\n3. AC bisects BD; diagonals bisect each other | Property of parallelogram\n4. DE ≅ BF | Given\n5. ∠DAC ≅ ∠BCA | Alternate interior angles (AB ∥ CD, transversal AC)\n6. AC ≅ CA | Reflexive\n7. △DAG ≅ △BCG | (using appropriate congruence with DE ≅ BF and angle relationships)\n8. EG ≅ GF | CPCTC\n9. G is the midpoint of EF | Definition of midpoint'
+    },
+    // Part D — 1 question (6 credits)
+    {
+      number: 35,
+      part: 'D',
+      type: 'written',
+      text: 'Given: Quadrilateral ABCD with AB ≅ CD, AB ∥ CD, diagonal AC intersects EF at G, and DE ≅ BF. Prove: G is the midpoint of EF. [This is the Part IV continuation of question 35 from Part III.]',
+      topic: 'Proofs',
+      explanation: 'This is the 6-credit proof. ABCD is a parallelogram (AB ≅ CD and AB ∥ CD). Using congruent triangles formed at the intersection point G, show EG = GF so G is the midpoint of EF.',
+      diveDeep: 'The full 6-credit proof requires a complete two-column or paragraph proof with all reasons stated. Key steps: (1) Establish ABCD is a parallelogram using the given congruent and parallel sides. (2) Use alternate interior angles from the parallel sides with transversal EF. (3) Incorporate DE ≅ BF to set up a triangle congruence (likely AAS or SAS). (4) Conclude EG ≅ GF by CPCTC, then cite the definition of midpoint. Each step must have a corresponding reason. Partial credit is awarded for each correct logical step even if the proof is not fully completed — showing work is essential for the 6-credit question.',
+      modelAnswer: 'Given: AB ≅ CD, AB ∥ CD, AC intersects EF at G, DE ≅ BF\nProve: G is the midpoint of EF\n\nProof:\n1. AB ≅ CD, AB ∥ CD | Given\n2. ABCD is a parallelogram | One pair of sides both ≅ and ∥\n3. ∠ABG ≅ ∠CDG | Alternate interior angles (AB ∥ CD)\n4. ∠AGB ≅ ∠CGD | Vertical angles\n5. AB ≅ CD | Given (step 1)\n6. △AGB ≅ △CGD | ASA\n7. AG ≅ CG | CPCTC\n8. DE ≅ BF | Given\n9. In △EGA and △FGC: ∠EAG ≅ ∠FCG (alternate interior angles), AG ≅ CG (step 7), ∠EGA ≅ ∠FGC (vertical angles)\n10. △EGA ≅ △FGC | ASA\n11. EG ≅ FG | CPCTC\n12. G is the midpoint of EF | Definition of midpoint'
+    }
   ]
 }

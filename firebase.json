@@ -23,7 +23,7 @@
   "hosting": [
     {
       "target": "regents",
-      "public": "web-dist",
+      "public": "chromebook/dist",
       "ignore": [
         "firebase.json",
         "**/.*"

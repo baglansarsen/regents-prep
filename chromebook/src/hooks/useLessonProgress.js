@@ -27,5 +27,11 @@ export function useLessonProgress(subjectHistory) {
     return unitLessonsCompleted(topic, lessonCount) >= lessonCount
   }
 
-  return { lessonComplete, unitLessonsCompleted, unitComplete }
+  // L0 always open; Ln requires L(n-1) ≥65%
+  function isLessonUnlocked(topic, lessonIdx) {
+    if (lessonIdx === 0) return true
+    return lessonComplete(topic, lessonIdx - 1)
+  }
+
+  return { lessonComplete, unitLessonsCompleted, unitComplete, isLessonUnlocked }
 }
