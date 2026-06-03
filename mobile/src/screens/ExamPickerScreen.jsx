@@ -153,7 +153,9 @@ const GEO_EXAMS = [
 ]
 
 const LS_EXAMS = [
+  { id: 'ls-jun-2025', label: 'June 2025',    subject: SUBJECTS.LIFE_SCIENCE },
   { id: 'ls-jan-2026', label: 'January 2026', subject: SUBJECTS.LIFE_SCIENCE },
+  { id: 'ls-aug-2025', label: 'August 2025',  subject: SUBJECTS.LIFE_SCIENCE },
 ]
 
 // Map exam IDs to their data files
@@ -281,6 +283,8 @@ const EXAM_DATA_MAP = {
   'geo-aug-2022': () => require('../content/regents-exams/geometry/august-2022'),
   'geo-aug-2019': () => require('../content/regents-exams/geometry/august-2019'),
   'ls-jan-2026':  () => require('../content/regents-exams/life-science/january-2026'),
+  'ls-jun-2025':  () => require('../content/regents-exams/life-science/june-2025'),
+  'ls-aug-2025':  () => require('../content/regents-exams/life-science/august-2025'),
 }
 
 

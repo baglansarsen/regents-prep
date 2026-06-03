@@ -127,6 +127,10 @@ import geoJun2023 from './geometry/june-2023'
 import geoJun2024 from './geometry/june-2024'
 import geoJun2025 from './geometry/june-2025'
 
+import lsJan2026 from './life-science/january-2026'
+import lsJun2025 from './life-science/june-2025'
+import lsAug2025 from './life-science/august-2025'
+
 export const REGENTS_EXAMS = {
   'living-environment': [
     leAug2016,
@@ -263,6 +267,11 @@ export const REGENTS_EXAMS = {
     geoJun2023,
     geoJun2024,
     geoJun2025,
+  ],
+  'life-science': [
+    lsAug2025,
+    lsJan2026,
+    lsJun2025,
   ],
 }
 

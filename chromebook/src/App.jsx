@@ -18,6 +18,7 @@ import * as physicsData from '@content/physics/index'
 import * as algebra1Data from '@content/algebra-1/index'
 import * as algebra2Data from '@content/algebra-2/index'
 import * as geometryData from '@content/geometry/index'
+import * as lifeScienceData from '@content/life-science/index'
 
 import OnboardingScreen from './screens/OnboardingScreen'
 import LoginScreen from './screens/LoginScreen'
@@ -216,6 +217,7 @@ function MainLayout() {
     'algebra-1': algebra1Data,
     'algebra-2': algebra2Data,
     'geometry': geometryData,
+    'life-science': lifeScienceData,
   }
 
   const subjectData = subjectDataMap[subject] || livingEnvData

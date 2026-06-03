@@ -7,6 +7,7 @@ import * as physicsData from '@content/physics/index'
 import * as algebra1Data from '@content/algebra-1/index'
 import * as algebra2Data from '@content/algebra-2/index'
 import * as geometryData from '@content/geometry/index'
+import * as lifeScienceData from '@content/life-science/index'
 import { SUBJECT_META } from '@content/subjects'
 import { useAuth } from './hooks/useAuth'
 import { useTheme } from './hooks/useTheme'
@@ -84,6 +85,7 @@ export default function App() {
     'algebra-1': algebra1Data,
     'algebra-2': algebra2Data,
     'geometry': geometryData,
+    'life-science': lifeScienceData,
   }
   const sd = subjectDataMap[subject] ?? livingEnvData
   const { questions, getByTopic, shuffled, buildDiagnosticSet, getContextual, TOPIC_ORDER } = sd
