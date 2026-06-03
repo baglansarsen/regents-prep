@@ -25,9 +25,9 @@ export const SUBJECT_CHIPS = [
 
 export const SOUND_OPTIONS = [
   { id: 'off',    label: 'Off',    emoji: '🔇' },
-  { id: 'rain',   label: 'Rain',   emoji: '🌧️', url: 'https://regents-csas.web.app/sounds/rain.mp3' },
-  { id: 'forest', label: 'Forest', emoji: '🌿', url: 'https://regents-csas.web.app/sounds/forest.mp3' },
-  { id: 'lofi',   label: 'Lo-fi',  emoji: '🎧', url: 'https://regents-csas.web.app/sounds/lofi.mp3' },
+  { id: 'rain',   label: 'Rain',   emoji: '🌧️', url: 'https://regents-prep.web.app/sounds/rain.mp3' },
+  { id: 'forest', label: 'Forest', emoji: '🌿', url: 'https://regents-prep.web.app/sounds/forest.mp3' },
+  { id: 'lofi',   label: 'Lo-fi',  emoji: '🎧', url: 'https://regents-prep.web.app/sounds/lofi.mp3' },
 ]
 
 const XP_PER_FOCUS_MINUTE = 1

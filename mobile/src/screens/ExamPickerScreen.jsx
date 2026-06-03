@@ -1,10 +1,12 @@
 import React from 'react'
 import { View, Text, TouchableOpacity, FlatList, StyleSheet, Platform } from 'react-native'
+import { useFocusEffect } from '@react-navigation/native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useSubject } from '../context/SubjectContext'
 import { SUBJECTS, SUBJECT_META } from '../content/subjects'
 import { T, cardShadow } from '../styles/duo'
+import { useExamScores } from '../hooks/useExamScores'
 
 // Import exam registry dynamically
 const LE_EXAMS = [
@@ -150,6 +152,10 @@ const GEO_EXAMS = [
   { id: 'geo-aug-2019', label: 'August 2019', subject: SUBJECTS.GEOMETRY },
 ]
 
+const LS_EXAMS = [
+  { id: 'ls-jan-2026', label: 'January 2026', subject: SUBJECTS.LIFE_SCIENCE },
+]
+
 // Map exam IDs to their data files
 const EXAM_DATA_MAP = {
   'le-jun-2025': () => require('../content/regents-exams/living-environment/june-2025'),
@@ -274,6 +280,7 @@ const EXAM_DATA_MAP = {
   'geo-aug-2023': () => require('../content/regents-exams/geometry/august-2023'),
   'geo-aug-2022': () => require('../content/regents-exams/geometry/august-2022'),
   'geo-aug-2019': () => require('../content/regents-exams/geometry/august-2019'),
+  'ls-jan-2026':  () => require('../content/regents-exams/life-science/january-2026'),
 }
 
 
@@ -281,7 +288,10 @@ const EXAM_DATA_MAP = {
 export default function ExamPickerScreen({ navigation }) {
   const { C } = useTheme()
   const { subject } = useSubject()
+  const { scores, refresh } = useExamScores()
   const s = makeStyles(C)
+
+  useFocusEffect(React.useCallback(() => { refresh() }, []))
 
   const EXAMS_BY_SUBJECT = {
     [SUBJECTS.LIVING_ENVIRONMENT]: LE_EXAMS,
@@ -291,6 +301,7 @@ export default function ExamPickerScreen({ navigation }) {
     [SUBJECTS.ALGEBRA_1]:          A1_EXAMS,
     [SUBJECTS.ALGEBRA_2]:          A2_EXAMS,
     [SUBJECTS.GEOMETRY]:           GEO_EXAMS,
+    [SUBJECTS.LIFE_SCIENCE]:       LS_EXAMS,
   }
   const exams = React.useMemo(() => {
     const rawList = EXAMS_BY_SUBJECT[subject] ?? LE_EXAMS
@@ -340,27 +351,41 @@ export default function ExamPickerScreen({ navigation }) {
         maxToRenderPerBatch={10}
         windowSize={5}
         removeClippedSubviews={Platform.OS !== 'web'}
-        renderItem={({ item }) => (
-          <TouchableOpacity
-            style={[s.examCard, cardShadow(C.shadow), { borderLeftColor: meta.color ?? C.brand }]}
-            onPress={() => openExam(item)}
-            activeOpacity={0.75}
-          >
-            <Text style={{ fontSize: 28, marginRight: 12 }}>📋</Text>
-            <View style={{ flex: 1 }}>
-              <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>
-                {meta.name}
-              </Text>
-              <Text style={[T.h3, { color: C.text, marginTop: 2 }]}>{item.label} Regents</Text>
-            </View>
-            <View style={s.examRight}>
-              <View style={[s.qChip, { backgroundColor: C.surface2 }]}>
-                <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>50 Q</Text>
+        renderItem={({ item }) => {
+          const sc = scores[item.id]
+          const passColor = sc?.best >= 65 ? C.correct : C.wrong
+          return (
+            <TouchableOpacity
+              style={[s.examCard, cardShadow(C.shadow), { borderLeftColor: meta.color ?? C.brand }]}
+              onPress={() => openExam(item)}
+              activeOpacity={0.75}
+            >
+              <Text style={{ fontSize: 28, marginRight: 12 }}>📋</Text>
+              <View style={{ flex: 1 }}>
+                <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>
+                  {meta.name}
+                </Text>
+                <Text style={[T.h3, { color: C.text, marginTop: 2 }]}>{item.label} Regents</Text>
+                {sc && (
+                  <View style={s.scoreRow}>
+                    <Text style={[s.scoreChip, { color: passColor, borderColor: passColor + '50', backgroundColor: passColor + '12' }]}>
+                      Best {sc.best}
+                    </Text>
+                    <Text style={[s.scoreChip, { color: C.textMuted, borderColor: C.border, backgroundColor: C.surface2 }]}>
+                      Last {sc.last}
+                    </Text>
+                  </View>
+                )}
               </View>
-              <Text style={[T.h3, { color: C.textMuted }]}>›</Text>
-            </View>
-          </TouchableOpacity>
-        )}
+              <View style={{ alignItems: 'flex-end', gap: 6, marginLeft: 8 }}>
+                <View style={[s.qChip, { backgroundColor: C.surface2 }]}>
+                  <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>50 Q</Text>
+                </View>
+                <Text style={[T.h3, { color: C.textMuted }]}>›</Text>
+              </View>
+            </TouchableOpacity>
+          )
+        }}
       />
     </SafeAreaView>
   )
@@ -371,7 +396,8 @@ function makeStyles(C) {
     safe:      { flex: 1, backgroundColor: C.bg },
     list:      { padding: 16, gap: 12 },
     examCard:  { backgroundColor: C.surface, borderRadius: 16, padding: 16, flexDirection: 'row', alignItems: 'center', borderWidth: 1, borderColor: C.border, borderLeftWidth: 4 },
-    examRight: { flexDirection: 'row', alignItems: 'center', gap: 10, marginLeft: 8 },
+    scoreRow:  { flexDirection: 'row', gap: 6, marginTop: 6 },
+    scoreChip: { fontSize: 11, fontWeight: '700', borderWidth: 1, borderRadius: 8, paddingHorizontal: 8, paddingVertical: 3 },
     qChip:     { borderRadius: 10, paddingHorizontal: 10, paddingVertical: 4 },
   })
 }

@@ -12,6 +12,7 @@ const SUBJECT_LABEL = {
   'algebra-1':          'Algebra 1',
   'algebra-2':          'Algebra 2',
   'geometry':           'Geometry',
+  'life-science':       'Life Science: Biology',
 }
 
 // ─── Subject-specific practice hints ─────────────────────────────────────────
@@ -23,6 +24,7 @@ const SUBJECT_HINT = {
   'algebra-1':          'a quadratic equation',
   'algebra-2':          'a logarithm problem',
   'geometry':           'a proof',
+  'life-science':       'a genetics question',
 }
 
 // ─── Daily message templates (subject-aware) ─────────────────────────────────

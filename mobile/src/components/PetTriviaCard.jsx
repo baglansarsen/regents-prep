@@ -15,6 +15,7 @@ import * as physData from '../content/physics/index'
 import * as a1Data   from '../content/algebra-1/index'
 import * as a2Data   from '../content/algebra-2/index'
 import * as geoData  from '../content/geometry/index'
+import * as lsData   from '../content/life-science/index'
 
 const SUBJECT_DATA = {
   'living-environment': leData,
@@ -24,6 +25,7 @@ const SUBJECT_DATA = {
   'algebra-1':          a1Data,
   'algebra-2':          a2Data,
   'geometry':           geoData,
+  'life-science':       lsData,
 }
 
 function today() { return new Date().toISOString().slice(0, 10) }

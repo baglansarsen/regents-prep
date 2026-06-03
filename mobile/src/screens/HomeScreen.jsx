@@ -25,6 +25,7 @@ import * as physicsData from '../content/physics/index'
 import * as algebra1Data from '../content/algebra-1/index'
 import * as algebra2Data from '../content/algebra-2/index'
 import * as geometryData from '../content/geometry/index'
+import * as lifeScienceData from '../content/life-science/index'
 import { STRATEGY_CATEGORIES } from '../content/strategies-meta'
 import { T, duoBtn, duoBtnOutline, cardShadow, elevatedCard, sectionLabel } from '../styles/duo'
 import GoalRing from '../components/GoalRing'
@@ -72,6 +73,7 @@ export default function HomeScreen({ navigation }) {
     [SUBJECTS.ALGEBRA_1]:     algebra1Data,
     [SUBJECTS.ALGEBRA_2]:     algebra2Data,
     [SUBJECTS.GEOMETRY]:      geometryData,
+    [SUBJECTS.LIFE_SCIENCE]:  lifeScienceData,
   }
   const sd = mobileSubjectMap[subject] ?? leData
 

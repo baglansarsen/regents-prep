@@ -12,7 +12,7 @@ import { appendMistakes } from '../hooks/useMistakes'
 import { usePetContext } from '../context/PetContext'
 
 const EXAM_MINUTES = 85
-const CDN_BASE = 'https://regents-csas.web.app'
+const CDN_BASE = 'https://regents-prep.web.app'
 
 function ExamImageWithFallback({ uri, style }) {
   const [failed, setFailed] = React.useState(false)

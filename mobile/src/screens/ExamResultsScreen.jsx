@@ -3,6 +3,7 @@ import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Animated, Modal }
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { analyzeExamResults } from '../utils/topicAnalysis'
+import { saveExamScore } from '../hooks/useExamScores'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import * as leData from '../content/living-environment/index'
 import * as esData from '../content/earth-science/index'
@@ -56,6 +57,8 @@ export default function ExamResultsScreen({ route, navigation }) {
   const [displayXP,    setDisplayXP]    = useState(0)
   const scoreAnim = useRef(new Animated.Value(0)).current
   const xpAnim    = useRef(new Animated.Value(0)).current
+
+  useEffect(() => { saveExamScore(exam.id, scaled) }, [])
 
   useEffect(() => {
     const scoreId = scoreAnim.addListener(({ value }) => setDisplayScore(Math.round(value)))
@@ -285,7 +288,7 @@ export default function ExamResultsScreen({ route, navigation }) {
                     {q.explanation}
                   </Text>
                 )}
-                {q.explanation && (
+                {(q.explanation || q.diveDeep) && (
                   <TouchableOpacity
                     onPress={() => setDiveDeepQ(q)}
                     style={[s.diveDeepBtn, { borderColor: C.brand + '50', backgroundColor: C.brandBg }]}
@@ -319,13 +322,17 @@ export default function ExamResultsScreen({ route, navigation }) {
         <View style={[s.diveSheet, { backgroundColor: C.surface }]}>
           <View style={[s.diveHandle, { backgroundColor: C.border }]} />
           <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ gap: 14, paddingBottom: 32 }}>
-            <Text style={[s.diveTitle, { color: C.brand }]}>🔍 Explanation</Text>
-            <Text style={[s.diveBody, { color: C.text }]}>{diveDeepQ?.explanation}</Text>
+            {diveDeepQ?.explanation ? (
+              <>
+                <Text style={[s.diveTitle, { color: C.brand }]}>🔍 Explanation</Text>
+                <Text style={[s.diveBody, { color: C.text }]}>{diveDeepQ.explanation}</Text>
+              </>
+            ) : null}
             {diveDeepQ?.diveDeep && (
               <>
-                <View style={[s.diveDivider, { backgroundColor: C.border }]} />
+                {diveDeepQ?.explanation && <View style={[s.diveDivider, { backgroundColor: C.border }]} />}
                 <Text style={[s.diveDeepLabel, { color: C.textMuted }]}>DEEP DIVE</Text>
-                <Text style={[s.diveBody, { color: C.text }]}>{diveDeepQ?.diveDeep}</Text>
+                <Text style={[s.diveBody, { color: C.text }]}>{diveDeepQ.diveDeep}</Text>
               </>
             )}
           </ScrollView>

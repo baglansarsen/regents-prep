@@ -22,7 +22,7 @@ import StudyBuddyCompanion from '../components/StudyBuddyCompanion'
 import { useStudyTime } from '../hooks/useStudyTime'
 
 const LETTERS = ['A', 'B', 'C', 'D']
-const CDN_BASE = 'https://regents-csas.web.app'
+const CDN_BASE = 'https://regents-prep.web.app'
 const LETTER_COLORS = ['#1CB0F6', '#CE82FF', '#FF9600', '#FF4B4B']
 
 // Combo threshold labels
@@ -385,7 +385,7 @@ export default function QuizScreen({ route, navigation }) {
               Correct answer: {correctText}
             </Text>
           ) : null}
-          {currentQuestion.explanation ? (
+          {(currentQuestion.explanation || currentQuestion.diveDeep) ? (
             <ExplanationBlock question={currentQuestion} C={C} />
           ) : <View style={{ height: 16 }} />}
 
@@ -459,9 +459,14 @@ function ExplanationBlock({ question, C }) {
             borderLeftWidth: 4,
             borderLeftColor: C.brand,
           }}>
-            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: 10 }}>
-              <Text style={{ fontSize: 18 }}>🔍</Text>
-              <Text style={[T.label, { color: C.brand, fontSize: 13, letterSpacing: 1 }]}>DIVE DEEPER</Text>
+            <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 10 }}>
+              <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
+                <Text style={{ fontSize: 18 }}>🔍</Text>
+                <Text style={[T.label, { color: C.brand, fontSize: 13, letterSpacing: 1 }]}>DIVE DEEPER</Text>
+              </View>
+              <TouchableOpacity onPress={() => setShowDeep(false)} hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}>
+                <Text style={{ fontSize: 16, color: C.textMuted }}>✕</Text>
+              </TouchableOpacity>
             </View>
             <Text style={[T.body, { color: C.text, lineHeight: 23, fontSize: 15 }]}>{question.diveDeep}</Text>
           </View>
