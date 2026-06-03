@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-1",
+  "session": "january-2024",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The graph below represents a dog walker\u2019s speed during his 30-minute walk around the neighborhood. x 6 22 24 26 28 30 2 3 4 Time (minutes) Speed (miles per hour) 1 8 10 12 14 16 18 20 2 4 0 Which statement best describes what the dog walker was doing during the 12-18 minute interval of his walk?",
+      "choices": [
+        "He was walking at a constant rate.",
+        "He was increasing his speed.",
+        "He was decreasing his speed.",
+        "He was standing still."
+      ],
+      "image": "/images/exams/algebra-1/january-2024/q1.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Given the relation: {(0,4), (2,6), (4,8), (x,7)} Which value of x will make this relation a function?",
+      "choices": [
+        "0",
+        "2",
+        "6",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The Speedy Jet Ski Rental Company charges an insurance fee and an hourly rental rate. The total cost is modeled by the function R(x) 5 30 1 40x. Based on this model, which statements are true? I. R(x) represents the total cost. II. x is the number of hours rented. III. $40 is the insurance fee. IV. $30 is the hourly rental rate.",
+      "choices": [
+        "I, only",
+        "I and II, only",
+        "I, III, and IV, only",
+        "I, II, III, and IV"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The eleventh term of the sequence 3, 26, 12, 224, \u2026, is",
+      "choices": [
+        "23072",
+        "26144",
+        "3072",
+        "6144"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which situation represents exponential growth?",
+      "choices": [
+        "Aidan adds $10 to a jar each week.",
+        "A pine tree grows 1.5 feet per year.",
+        "Ella earns $20 per hour babysitting.",
+        "The number of people majoring in computer science doubles every 5 years."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The expression (2x2 1 3x 2 7) 2 (4x2 1 5x 2 2) is equivalent to",
+      "choices": [
+        "25x2 2 2x 2 9",
+        "25x2 2 2x 2 5",
+        "25x2 1 8x 2 9",
+        "25x2 1 8x 2 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "If f(x) 5 x2, which function is the result of shifting f (x) 3 units left and 2 units down?",
+      "choices": [
+        "g(x) 5 (x 1 2)2 2 3",
+        "h(x) 5 (x 2 2)2 1 3",
+        "j(x) 5 (x 1 3)2 2 2",
+        "k(x) 5 (x 2 3)2 1 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "An equation used to find the velocity of an object is given as v2 5 u2 1 2as, where u is the initial velocity, v is the final velocity, a is the acceleration of the object, and s is the distance traveled. When this equation is solved for a, the result is",
+      "choices": [
+        "a 5 v2u2 2s",
+        "a 5 v2 2 u2 2s",
+        "a 5 v2 2 u2 2 2s",
+        "a 5 2s(v2 2 u2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Mrs. Smith\u2019s math class surveyed students to determine their favorite flavors of soft ice cream. The results are shown in the table below. Chocolate Vanilla Twist Juniors 42 27 45 Seniors 67 42 21 Of the students who preferred chocolate, approximately what percentage were seniors?",
+      "choices": [
+        "27.5",
+        "44.7",
+        "51.5",
+        "61.5"
+      ],
+      "image": "/images/exams/algebra-1/january-2024/q9.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "If f(x) 5 x2 1 2x 1 1 and g(x) 5 3x 1 5, then what is the value of f",
+      "choices": [
+        "10",
+        "8",
+        "210",
+        "28"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which function has the largest y-intercept? f (x) 5 24x 2 1",
+      "choices": [
+        "g(x) 5 |x| 1 3",
+        "",
+        "",
+        "k(x) x x h(x) \u20131 1.5 0 2 1 3 2 5"
+      ],
+      "image": "/images/exams/algebra-1/january-2024/q11.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Two texting plans are advertised. Plan A has a monthly fee of $15 with a charge of $0.08 per text. Plan B has a monthly fee of $3 with a charge of $0.12 per text. If t represents the number of text messages in a month, which inequality should be used to show that the cost of Plan A is less than the cost of Plan B?",
+      "choices": [
+        "15 1 0.08 t , 3 1 0.12 t",
+        "15 1 0.08 t . 3 1 0.12 t",
+        "15 t 1 0.08 , 3 t 1 0.12",
+        "15 t 1 0.08 . 3 t 1 0.12"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The function f (x) is graphed on the set of axes below. y x f(x) What is the equation of the axis of symmetry for f (x)?",
+      "choices": [
+        "x 5 21",
+        "x 5 23",
+        "y 5 21",
+        "y 5 23"
+      ],
+      "image": "/images/exams/algebra-1/january-2024/q13.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "What is the degree of the polynomial 5x 2 3x2 2 1 1 7x3?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The product of (x2 1 3x 1 9) and (x 2 3) is",
+      "choices": [
+        "x3 2 27",
+        "x2 1 4x 1 6",
+        "x3 2 6x2 2 18x 2 27",
+        "26x4 1 x3 2 18x2 2 27"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The solution to 2 3 (3 2 2 x) 5 3 4 is",
+      "choices": [
+        "211 8",
+        "5 8",
+        "233 16",
+        "15 16"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "If f (x) 5 2 x 1 6 and g (x) 5 |x| are graphed on the same coordinate plane, for which value of x is f (x) 5 g (x)?",
+      "choices": [
+        "6",
+        "2",
+        "22",
+        "26"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "What is the solution to the inequality 2 x 2 7 . 2.5x 1 3?",
+      "choices": [
+        "x . 25",
+        "x , 25",
+        "x . 220",
+        "x , 220"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Three expressions are written below. A. (2 xy2)3 B. (2 x)3 y6 C. (2 x2y2)(4xy3) Which expressions are equivalent to 8x3y6?",
+      "choices": [
+        "A and B, only",
+        "B and C, only",
+        "A and C, only",
+        "A, B, and C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Joe deposits $4000 into a certificate of deposit (CD) at his local bank. The CD earns 3% interest, compounded annually. The value of the CD in x years can be found using the function",
+      "choices": [
+        "f (x) 5 4000 1 0.3x",
+        "f (x) 5 4000 1 0.03x",
+        "f (x) 5 4000(1.3)x",
+        "f (x) 5 4000(1.03)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "When factored completely, 2x3 1 10x2 1 24x is",
+      "choices": [
+        "2x(x 1 4)(x 2 6)",
+        "2x(x 2 4)(x 2 6)",
+        "2x(x 1 2)(x 2 12)",
+        "2x(x 2 2)(x 1 12)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "When the temperature is 59\u00b0F, the speed of sound at sea level is 1225 kilometers per hour. Which process could be used to convert this speed into feet per second?",
+      "choices": [
+        "1225 km 1 hr 1 mi 1 min 0.62 mi 1 hr 60 min 5280 ft 60 sec 1 km \u2022 \u2022 \u2022 \u2022",
+        "1225 km 1 hr 5280 ft 1 min 0.62 mi 1 hr 60 min 1 mi 60 sec 1 km \u2022 \u2022 \u2022 \u2022",
+        "1225 km 1 hr 5280 ft 1 min 1 km 1 hr 60 min 1 mi 60 sec 0.62 mi \u2022 \u2022 \u2022 \u2022",
+        "1225 km 60 min 5280 ft 1 min 0.62 mi 1 hr 1 hr 1 mi 60 sec 1 km \u2022 \u2022 \u2022 \u2022"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The zeros of a polynomial function are 22, 4, and 0. What are all the factors of this function?",
+      "choices": [
+        "(x 1 2) and (x 2 4)",
+        "(x 2 2) and (x 1 4)",
+        "x, (x 1 2), and (x 2 4)",
+        "x, (x 2 2), and (x 1 4)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "What is the range of the function f (x) 5 (x 2 4)2 1 1?",
+      "choices": [
+        "x . 4",
+        "x $ 4",
+        "f (x) . 1",
+        "f (x) $ 1 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Student scores on a recent test are shown in the table below. 85 96 92 82 90 90 88 95 85 88 90 87 96 82 85 92 96 85 92 87 On the number line below, create a dot plot to model the data. 80 85 90 95 100",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2024/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "State whether 3 1 6 2",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2024/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "The table below shows data from a recent car trip for the Burke family. Hours After Leaving (x) 1 2 3 4 5 Miles from Home (y) 45 112 178 238 305 State the average rate of change for the distance traveled between hours 2 and 4",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2024/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "On the set of axes below, graph the equation 3y 1 2x 5 15. y x Explain why (26,9)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2024/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Using the quadratic formula, solve 3x2 2 2x 2 6 5 0",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The piecewise function f (x) is given below. x . 3 x # 3 2x 2 3, f (x) 5 { 2x2 1 15, State the value of f (3)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Express the equation x2 2 8x 5 241 in the form (x 2 p)2 5",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Factor 36 2 4x2 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "While playing golf, Laura hit her ball from the ground. The height, in feet, of her golf ball can be modeled by h(t) 5 216 t2 1 48 t, where t is the time in seconds. Graph h(t) on the set of axes below. 8 4 Time (seconds) Height (feet) 12 16 20 24 28 32 36 1 2 3 4 t h(t) 40 0 0 What is the maximum height, in feet, that the golf ball reaches on this hit? How many seconds does it take the golf ball to hit the ground?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2024/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The table below shows the number of SAT prep classes five students attended and the scores they received on the test. Number of Prep Classes Attended (x) 3 1 6 7 6 Math SAT Score (y) 500 410 620 720 500 State the linear regression equation for this data set, rounding all values to the nearest hundredth. State the correlation coefficient,",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2024/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Julia is 4 years older than twice Kelly\u2019s age, x. The product of their ages is 96. Write an equation that models this situation. Determine Kelly\u2019s age algebraically. State the difference between Julia\u2019s and Kelly\u2019s ages,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "On the set of axes below, graph the following system of inequalities: 2x 2 y . 4 x 1 3y . 6 Label the solution set S. y x Is (4,2) a solution to this system? Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2024/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Jim had a bag of coins. The number of nickels, n, and the number of quarters, q, totaled 28 coins. The combined value of the coins was $4. Write a system of equations that models this situation. Use your system of equations to algebraically determine both the number of quarters, q, and the number of nickels, n, that Jim had in the bag. Jim was given an additional $3.00 that was made up of equal numbers of nickels and quarters. How many of each coin was he given? Justify your answer. Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 pr2 Circle C 5 pd or C 5 2pr General Prisms V 5 Bh Cylinder V 5 pr2h Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 pr2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u2260 1 Radians 1 radian 5 180 ___ p degrees Degrees 1 degree 5 p ___ 180 radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here ALGEBRA I ALGEBRA I Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

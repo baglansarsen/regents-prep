@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-2",
+  "session": "august-2016",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which equation has 1\u0002 i as a solution?",
+      "choices": [
+        "x2 \u0003 2x \u0002 2 \u0004 0",
+        "x2 \u0003 2x \u0003 2 \u0004 0",
+        "x2 \u0002 2x \u0002 2 \u0004 0",
+        "x2 \u0002 2x \u0003 2 \u0004 0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which statement(s) about statistical studies is true?",
+      "choices": [
+        "I, only",
+        "II, only",
+        "I and III",
+        "III and IV I. A survey of all English classes in a high school would be a good sample to determine the number of hours students throughout the school spend studying. II. A survey of all ninth graders in a high school would be a good sample to determine the number of student parking spaces needed at that high school. III. A survey of all students in one lunch period in a high school would be a good sample to determine the number of hours adults spend on social media websites. IV. A survey of all Calculus students in a high school would be a good sample to determine the number of students throughout the school who don\u2019t like math. Algebra II (Common Core)"
+      ],
+      "image": "/images/exams/algebra-2/august-2016/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "To the nearest tenth, the value of x that satisfies 2x \u0002 \u00032x \u0004 11 is",
+      "choices": [
+        "2.5",
+        "2.6",
+        "5.8",
+        "5.9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The lifespan of a 60-watt lightbulb produced by a company is normally distributed with a mean of 1450 hours and a standard deviation of 8.5 hours. If a 60-watt lightbulb produced by this company is selected at random, what is the probability that its lifespan will be between 1440 and 1465 hours?",
+      "choices": [
+        "0.3803",
+        "0.4612",
+        "0.8415",
+        "0.9612"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which factorization is incorrect?",
+      "choices": [
+        "4k2 \u0003 49 \u0002 (2k \u0004 7)(2k \u0003 7)",
+        "a3 \u0003 8b3 \u0002 (a \u0003 2b)(a2 \u0004 2ab \u0004 4b2)",
+        "m3 \u0004 3m2 \u0003 4m \u0004 12 \u0002 (m \u0003 2)2(m \u0004 3)",
+        "t3 \u0004 5t2 \u0004 6t \u0004 t2 \u0004 5t \u0004 6 \u0002 (t \u0004 1)(t \u0004 2)(t \u0004 3) Algebra II (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Sally\u2019s high school is planning their spring musical. The revenue, R, generated can be determined by the function R(t) \u0004 \u000233t2 \u0003 360t, where t represents the price of a ticket. The production cost, C, of the musical is represented by the function C(t) \u0004 700 \u0003 5t. What is the highest ticket price, to the nearest dollar, they can charge in order to not lose money on the event?",
+      "choices": [
+        "t \u0004 3",
+        "t \u0004 5",
+        "t \u0004 8",
+        "t \u0004 11"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The set of data in the table below shows the results of a survey on the number of messages that people of different ages text on their cell phones each month. If a person from this survey is selected at random, what is the probability that the person texts over 50 messages per month given that the person is between the ages of 23 and 60?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/august-2016/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A recursive formula for the sequence 18, 9, 4.5, ... is",
+      "choices": [
+        "g1 \u0004 18",
+        "n\u00021 1 2 \u239b \u239d\u239c \u239e \u23a0\u239f 1 2 157 456 157 312 157 384 157 229 Age Group Text Messages per Month 0\u201310 11\u201350 Over 50 15\u201318 4 37 68 19\u201322 6 25 87 23\u201360 25 47 157 Algebra II (Common Core)",
+        "g1 \u0004 18 gn \u0004 gn\u00021 gn \u0004 2gn\u00021",
+        "gn \u0004 18"
+      ],
+      "image": "/images/exams/algebra-2/august-2016/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Kristin wants to increase her running endurance. According to experts, a gradual mileage increase of 10% per week can reduce the risk of injury. If Kristin runs 8 miles in week one, which expression can help her find the total number of miles she will have run over the course of her 6-week training program?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/august-2016/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A sine function increasing through the origin can be used to model light waves. Violet light has a wavelength of 400 nanometers. Over which interval is the height of the wave decreasing, only?",
+      "choices": [
+        "(0, 200)",
+        "(100, 300)",
+        "(200, 400)",
+        "(300, 400)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The expression is equivalent to",
+      "choices": [
+        "x2 \u0003 3",
+        "x2 \u0003 1 \u0003",
+        "2x2 \u0003 x \u0003 6",
+        "2x2 \u0003 1 \u0003 8(1.10) 6 n n\u00041 \u2211 8 8(0.10) 1.10 \u0002 n 8(1.10) 6 n n \u0002 \u0004 1 1 \u2211 8 8(1.10) 0.90 6 \u0002 4 2 x \u0003 4 2 x \u0003 x x x x 3 2 2 6 2 \u0003 \u0003 \u0003 \u0003 Algebra II (Common Core)"
+      ],
+      "image": "/images/exams/algebra-2/august-2016/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A candidate for political office commissioned a poll. His staff received responses from 900 likely voters and 55% of them said they would vote for the candidate. The staff then conducted a simulation of 1000 more polls of 900 voters, assuming that 55% of voters would vote for their candidate. The output of the simulation is shown in the diagram below. Given this output, and assuming a 95% confidence level, the margin of error for the poll is closest to",
+      "choices": [
+        "0.01",
+        "0.03",
+        "0.06",
+        "0.12"
+      ],
+      "image": "/images/exams/algebra-2/august-2016/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "An equation to represent the value of a car after t months of ownership is v \u0004 32,000(0.81) t\u2013\u2013 12. Which statement is not correct?",
+      "choices": [
+        "The car lost approximately 19% of its value each month.",
+        "The car maintained approximately 98% of its value each month.",
+        "The value of the car when it was purchased was $32,000.",
+        "The value of the car 1 year after it was purchased was $25,920. \u0002\u0003 \u0004\u0003 \u0005\u0003 \u0006\u0003 \u0003 \u0003\u0007\u0002\b \u0003\u0007 \u0005 \u0003\u0007 \u0003\u0007 \u0003\u0007 \u0006 \u0002\u0003\u0004\u0005\u0006\u0004\u0007\b \u0003 \u0003 \u000e \u0007 Algebra II (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which equation represents an odd function?",
+      "choices": [
+        "y \u0004 sin x",
+        "y \u0004 cos x",
+        "y \u0004 (x \u0003 1)3",
+        "y \u0004 e5x"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The completely factored form of 2d4 \u0003 6d3 \u0002 18d2 \u0002 54d is",
+      "choices": [
+        "2d(d2 \u0002 9)(d \u0003 3)",
+        "2d(d2 \u0003 9)(d \u0003 3)",
+        "2d(d \u0003 3)2(d \u0002 3)",
+        "2d(d \u0002 3)2(d \u0003 3)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which diagram shows an angle rotation of 1 radian on the unit circle?",
+      "choices": [
+        "",
+        "y x y x",
+        "",
+        "y x y x Algebra II (Common Core)"
+      ],
+      "image": "/images/exams/algebra-2/august-2016/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The focal length, F, of a camera\u2019s lens is related to the distance of the object from the lens, J, and the distance to the image area in the camera, W, by the formula below. When this equation is solved for J in terms of F and W, J equals",
+      "choices": [
+        "F \u0002 W",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/august-2016/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The sequence a1 \u0004 6, an \u0004 3an\u00021 can also be written as",
+      "choices": [
+        "an \u0004 6 \u2022 3n",
+        "an \u0004 6 \u2022 3n\u00031",
+        "an \u0004 2 \u2022 3n",
+        "an \u0004 2 \u2022 3n\u00031"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which equation represents the set of points equidistant from line l and point R shown on the graph below?",
+      "choices": [
+        "y \u0004 \u0002 (x \u0003 2)2 \u0003 1",
+        "y \u0004 \u0002 (x \u0003 2)2 \u0002 1",
+        "y \u0004 \u0002 (x \u0002 2)2 \u0003 1",
+        "y \u0004 \u0002 (x \u0002 2)2 \u0002 1 1 8 1 8 1 8 1 8 y x \u0002 R FW F W \u0002 1 1 F W \u0002 FW W F \u0002 1 1 1 J W F \u0003 \u0004 Algebra II (Common Core)"
+      ],
+      "image": "/images/exams/algebra-2/august-2016/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Mr. Farison gave his class the three mathematical rules shown below to either prove or disprove. Which rules can be proved for all real numbers? I (m \u0003 p)2 \u0004 m2 \u0003 2mp \u0003 p2 II (x \u0003 y)3 \u0004 x3 \u0003 3xy \u0003 y3 III (a2 \u0003 b2)2 \u0004 (a2 \u0002 b2)2 \u0003 (2ab)2",
+      "choices": [
+        "I, only",
+        "I and II",
+        "II and III",
+        "I and III"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The graph of p(x) is shown below. What is the remainder when p(x) is divided by x \u0003 4?",
+      "choices": [
+        "x \u0002 4",
+        "\u00024",
+        "0",
+        "4 y x Algebra II (Common Core)"
+      ],
+      "image": "/images/exams/algebra-2/august-2016/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A payday loan company makes loans between $100 and $1000 available to customers. Every 14 days, customers are charged 30% interest with compounding. In 2013, Remi took out a $300 payday loan. Which expression can be used to calculate the amount she would owe, in dollars, after one year if she did not make payments?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/august-2016/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which value is not contained in the solution of the system shown below? a \u0003 5b \u0002 c \u0004 \u000220 4a \u0002 5b \u0003 4c \u0004 19 \u0002a \u0002 5b \u0002 5c \u0004 2",
+      "choices": [
+        "\u00022",
+        "2",
+        "3",
+        "\u00023"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "In 2010, the population of New York State was approximately 19,378,000 with an annual growth rate of 1.5%. Assuming the growth rate is maintained for a large number of years, which equation can be used to predict the population of New York State t years after 2010?",
+      "choices": [
+        "Pt \u0004 19,378,000(1.5)t",
+        "P0 \u0004 19,378,000 Pt \u0004 19,378,000 \u0003 1.015Pt \u00021",
+        "Pt \u0004 19,378,000(1.015)t\u00021",
+        "P0 \u0004 19,378,000 Pt \u0004 1.015Pt\u00021 300 1 30 . ( ) 14 365 300 1 30 . ( ) 365 14 300 30 .( ) 14 365 300 30 .( ) 365 14 Algebra II (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "The volume of air in a person\u2019s lungs, as the person breathes in and out, can be modeled by a sine graph. A scientist is studying the differences in this volume for people at rest compared to people told to take a deep breath. When examining the graphs, should the scientist focus on the amplitude, period, or midline? Explain your choice. Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Explain how ( ) 2 can be written as the equivalent radical expression . 3 1 5 9 5 Algebra II (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2016/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Simplify xi(i \u0002 7i)2, where i is the imaginary unit. Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Using the identity sin2 \u0005 \u0003 cos2 \u0005 \u0004 1, find the value of tan \u0005, to the nearest hundredth, if cos \u0005 is \u20130.7 and \u0005 is in Quadrant II. Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Elizabeth waited for 6 minutes at the drive thru at her favorite fast-food restaurant the last time she visited. She was upset about having to wait that long and notified the manager. The manager assured her that her experience was very unusual and that it would not happen again. A study of customers commissioned by this restaurant found an approximately normal distribution of results. The mean wait time was 226 seconds and the standard deviation was 38 seconds. Given these data, and using a 95% level of confidence, was Elizabeth\u2019s wait time unusual? Justify your answer. Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The x-value of which function\u2019s x-intercept is larger, f or h? Justify your answer. x h(x) \u00021 6 0 4 1 2 2 0 3 \u00022 f(x) \u0004 log(x \u0002 4) Algebra II (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2016/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "The distance needed to stop a car after applying the brakes varies directly with the square of the car\u2019s speed. The table below shows stopping distances for various speeds. Determine the average rate of change in braking distance, in ft/mph, between one car traveling at 50 mph and one traveling at 70 mph. Explain what this rate of change means as it relates to braking distance. Speed (mph) 10 20 30 40 50 60 70 Distance (ft) 6.25 25 56.25 100 156.25 225 306.25 Algebra II (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2016/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Given events A and B, such that P(A) \u0004 0.6, P(B) \u0004 0.5, and P(A \u222aB) \u0004 0.8, determine whether A and B are independent or dependent. Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Find algebraically the zeros for p(x) \u0004 x3 \u0003 x2 \u0002 4x \u0002 4. On the set of axes below, graph y \u0004 p(x). y x Algebra II (Common Core) Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2016/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "One of the medical uses of Iodine\u2013131 (I\u2013131), a radioactive isotope of iodine, is to enhance x-ray images. The half-life of I\u2013131 is approximately 8.02 days. A patient is injected with 20 milligrams of I\u2013131. Determine, to the nearest day, the amount of time needed before the amount of I\u2013131 in the patient\u2019s body is approximately 7 milligrams. Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Solve the equation \u0003 x \u0004 5 algebraically, and justify the solution set. 2 7 x \u0002 Algebra II (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2016/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Ayva designed an experiment to determine the effect of a new energy drink on a group of 20 volunteer students. Ten students were randomly selected to form group 1 while the remaining 10 made up group 2. Each student in group 1 drank one energy drink, and each student in group 2 drank one cola drink. Ten minutes later, their times were recorded for reading the same paragraph of a novel. The results of the experiment are shown below. a) Ayva thinks drinking energy drinks makes students read faster. Using information from the experimental design or the results, explain why Ayva\u2019s hypothesis may be incorrect. Group 1 (seconds) Group 2 (seconds) 17.4 23.3 18.1 18.8 18.2 22.1 19.6 12.7 18.6 16.9 16.2 24.4 16.1 21.2 15.3 21.2 17.8 16.3 19.7 14.5 Mean = 17.7 Mean = 19.1 Algebra II (Common Core) Using the given results, Ayva randomly mixes the 20 reading times, splits them into two groups of 10, and simulates the difference of the means 232 times. b) Ayva has decided that the difference in mean reading times is not an unusual occurence. Support her decision using the results of the simulation. Explain your reasoning. \u20134 Simulated Differences Differences (Group 1 \u2013 Group 2) Frequency \u20133.4 \u20132.8 \u20132.2 \u20131.6 \u20131 \u20130.4 0.2 0.8 1.4 2 2.6 3.2 3.8 0 2 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 Algebra II (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2016/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Seth\u2019s parents gave him $5000 to invest for his 16th birthday. He is considering two investment options. Option A will pay him 4.5% interest compounded annually. Option B will pay him 4.6% compounded quarterly. Write a function of option A and option B that calculates the value of each account after n years. Seth plans to use the money after he graduates from college in 6 years. Determine how much more money option B will earn than option A to the nearest cent. Algebraically determine, to the nearest tenth of a year, how long it would take for option B to double Seth\u2019s initial investment. Algebra II (Common Core) Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Algebra II (Common Core) Tear Here Tear Here ALGEBRA II (COMMON CORE) ALGEBRA II (COMMON CORE) Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

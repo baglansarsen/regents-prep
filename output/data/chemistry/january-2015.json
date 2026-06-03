@@ -1,0 +1,1101 @@
+{
+  "subject": "chemistry",
+  "session": "january-2015",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "According to the modern model of the atom, the nucleus of an atom is surrounded by one or more",
+      "choices": [
+        "electrons",
+        "neutrons",
+        "positrons",
+        "protons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which particle has a mass of approximately 1 atomic mass unit?",
+      "choices": [
+        "an alpha particle",
+        "a beta particle",
+        "an electron",
+        "a neutron"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "A specific amount of energy is emitted when excited electrons in an atom in a sample of an element return to the ground state. This emitted energy can be used to determine the",
+      "choices": [
+        "mass of the sample",
+        "volume of the sample",
+        "identity of the element",
+        "number of moles of the element"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "According to the wave-mechanical model, an orbital is defined as the",
+      "choices": [
+        "circular path for electrons",
+        "circular path for neutrons",
+        "most probable location of electrons",
+        "most probable location of neutrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "All phosphorus atoms have the same",
+      "choices": [
+        "atomic number",
+        "mass number",
+        "number of neutrons plus the number of electrons",
+        "number of neutrons plus the number of protons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "At STP, which element is a good conductor of electricity?",
+      "choices": [
+        "chlorine",
+        "iodine",
+        "silver",
+        "sulfur"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which phrase describes the molecular structure and properties of two solid forms of carbon, diamond and graphite?",
+      "choices": [
+        "the same molecular structures and the same properties",
+        "the same molecular structures and different properties",
+        "different molecular structures and the same properties",
+        "different molecular structures and different properties"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which quantity is equal to one mole of Au?",
+      "choices": [
+        "the atomic mass in grams",
+        "the atomic number in grams",
+        "the mass of neutrons in grams",
+        "the number of neutrons in grams"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing the reaction between methane and oxygen: CH4 \u0002 2O2 \u2192CO2 \u0002 2H2O According to this equation, what is the mole ratio of oxygen to methane?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/chemistry/january-2015/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which list includes three types of chemical reactions?",
+      "choices": [
+        "decomposition, single replacement, and solidification",
+        "decomposition, single replacement, and double replacement",
+        "solidification, double replacement, and decomposition",
+        "solidification, double replacement, and single replacement 2 moles O 1mole CH 2 4 2 grams O 1gram CH 2 4 1mole O 2 moles CH 2 4 1gram O 2 grams CH 2 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which compound has the greatest percent composition by mass of sulfur?",
+      "choices": [
+        "BaS",
+        "CaS",
+        "MgS",
+        "SrS"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Two molecules of HBr collide and then form H2 and Br2. During the collision, the bonds in the HBr molecules are",
+      "choices": [
+        "broken as energy is absorbed",
+        "broken as energy is released",
+        "formed as energy is absorbed",
+        "formed as energy is released"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which atom in the ground state has a stable electron configuration?",
+      "choices": [
+        "carbon",
+        "magnesium",
+        "neon",
+        "oxygen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which statement describes a multiple covalent bond?",
+      "choices": [
+        "Two electrons are shared.",
+        "Four electrons are shared.",
+        "Two electrons are transferred.",
+        "Four electrons are transferred."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The electronegativity difference between the atoms in a molecule of HCl can be used to determine",
+      "choices": [
+        "the entropy of the atoms",
+        "the atomic number of the atoms",
+        "the first ionization energy of the atoms",
+        "the polarity of the bond between the two atoms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which two gases can not be broken down by chemical means?",
+      "choices": [
+        "CO and He",
+        "CO and NH3",
+        "Xe and He",
+        "Xe and NH3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Two substances in a mixture differ in density and particle size. These properties can be used to",
+      "choices": [
+        "separate the substances",
+        "chemically combine the substances",
+        "determine the freezing point of the mixture",
+        "predict the electrical conductivity of the mixture"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which unit is used to express an amount of thermal energy?",
+      "choices": [
+        "gram",
+        "mole",
+        "joule",
+        "pascal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Under which conditions of temperature and pressure does a real gas behave most like an ideal gas?",
+      "choices": [
+        "low temperature and low pressure",
+        "low temperature and high pressure",
+        "high temperature and low pressure",
+        "high temperature and high pressure"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "According to the kinetic molecular theory for an ideal gas, all gas particles",
+      "choices": [
+        "are in random, constant, straight-line motion",
+        "are separated by very small distances relative to their sizes",
+        "have strong intermolecular forces",
+        "have collisions that decrease the total energy of the system"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which mathematical expression represents the heat of reaction for a chemical reaction?",
+      "choices": [
+        "(the heat of fusion) \u2013 (the heat of vaporization)",
+        "(the heat of vaporization) \u2013 (the heat of fusion)",
+        "(the potential energy of the products) \u2013 (the potential energy of the reactants)",
+        "(the potential energy of the reactants) \u2013 (the potential energy of the products)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "At 101.3 kPa and 298 K, a 1.0-mole sample of which compound absorbs the greatest amount of heat as the entire sample dissolves in water?",
+      "choices": [
+        "LiBr",
+        "NaCl",
+        "NaOH",
+        "NH4Cl"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "For a reaction at equilibrium, which change can increase the rates of the forward and reverse reactions?",
+      "choices": [
+        "a decrease in the concentration of the reactants",
+        "a decrease in the surface area of the products",
+        "an increase in the temperature of the system",
+        "an increase in the activation energy of the forward reaction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which reaction produces ethanol?",
+      "choices": [
+        "combustion",
+        "esterification",
+        "fermentation",
+        "polymerization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The chemical process in which electrons are gained by an atom or an ion is called",
+      "choices": [
+        "addition",
+        "oxidation",
+        "reduction",
+        "substitution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which process occurs in an operating voltaic cell?",
+      "choices": [
+        "Electrical energy is converted to chemical energy.",
+        "Chemical energy is converted to electrical energy.",
+        "Oxidation takes place at the cathode.",
+        "Reduction takes place at the anode."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "What can be explained by the Arrhenius theory?",
+      "choices": [
+        "the behavior of many acids and bases",
+        "the effect of stress on a phase equilibrium",
+        "the operation of an electrochemical cell",
+        "the spontaneous decay of some nuclei"
+      ],
+      "image": "/images/exams/chemistry/january-2015/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "According to one acid-base theory, a water molecule acts as an acid when the molecule",
+      "choices": [
+        "donates an H\u0002 ion",
+        "accepts an H\u0002 ion",
+        "donates an OH\u0003 ion",
+        "accepts an OH\u0003 ion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Positrons and beta particles have",
+      "choices": [
+        "the same charge and the same mass",
+        "the same charge and different masses",
+        "different charges and the same mass",
+        "different charges and different masses"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which term identifies a type of nuclear reaction?",
+      "choices": [
+        "transmutation",
+        "neutralization",
+        "deposition",
+        "reduction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "What is the number of electrons in an Al3\u0002 ion?",
+      "choices": [
+        "10",
+        "13",
+        "3",
+        "16"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The valence electron of which atom in the ground state has the greatest amount of energy?",
+      "choices": [
+        "cesium",
+        "lithium",
+        "rubidium",
+        "sodium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The numbers of protons and neutrons in each of four different atoms are shown in the table below. Protons and Neutrons in Four Different Atoms Which two atoms represent isotopes of the same element?",
+      "choices": [
+        "A and D",
+        "A and G",
+        "E and D",
+        "E and G"
+      ],
+      "image": "/images/exams/chemistry/january-2015/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Which elements have the most similar chemical properties?",
+      "choices": [
+        "boron and carbon",
+        "oxygen and sulfur",
+        "aluminum and bromine",
+        "argon and silicon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which element reacts with oxygen to form ionic bonds?",
+      "choices": [
+        "calcium",
+        "hydrogen",
+        "chlorine",
+        "nitrogen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The table below gives the atomic mass and the abundance of the two naturally occurring isotopes of chlorine. Naturally Occurring Isotopes of Chlorine Which numerical setup can be used to calculate the atomic mass of the element chlorine?",
+      "choices": [
+        "(34.97 u)(75.76) \u0002 (36.97 u)(24.24)",
+        "(34.97 u)(0.2424) \u0002 (36.97 u)(0.7576)",
+        "(34.97 u)(0.7576) \u0002 (36.97 u)(0.2424)",
+        "(34.97 u)(24.24) \u0002 (36.97 u)(75.76)"
+      ],
+      "image": "/images/exams/chemistry/january-2015/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which general trends in first ionization energy and electronegativity values are demonstrated by Group 15 elements as they are considered in order from top to bottom?",
+      "choices": [
+        "The first ionization energy decreases and the electronegativity decreases.",
+        "The first ionization energy increases and the electronegativity increases.",
+        "The first ionization energy decreases and the electronegativity increases.",
+        "The first ionization energy increases and the electronegativity decreases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "An aluminum sample has a mass of 80.01 g and a density of 2.70 g/cm3. According to the data, to what number of significant figures should the calculated volume of the aluminum sample be expressed?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4 Isotopes Atomic Mass of the Isotope (u) Natural Abundance (%) 35Cl 34.97 75.76 37Cl 36.97 24.24 Atom Number of Protons Number of Neutrons A 8 8 D 9 9 E 9 10 G 10 10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Given four particle models: Which two models can be classified as elements?",
+      "choices": [
+        "I and II",
+        "I and IV",
+        "II and III",
+        "II and IV"
+      ],
+      "image": "/images/exams/chemistry/january-2015/q39.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "After being thoroughly stirred at 10.\u00b0C, which mixture is heterogenous?",
+      "choices": [
+        "25.0 g of KCl and 100. g of H2O",
+        "25.0 g of KNO3 and 100. g of H2O",
+        "25.0 g of NaCl and 100. g of H2O",
+        "25.0 g of NaNO3 and 100. g of H2O"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Which two compounds are electrolytes?",
+      "choices": [
+        "KOH and CH3COOH",
+        "KOH and C5H12",
+        "CH3OH and CH3COOH",
+        "CH3OH and C5H12"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which statement explains why a CO2 molecule is nonpolar?",
+      "choices": [
+        "Carbon and oxygen are both nonmetals.",
+        "Carbon and oxygen have different electronegativities.",
+        "The molecule has a symmetrical distribution of charge.",
+        "The molecule has an asymmetrical distribution of charge."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Which temperature change indicates an increase in the average kinetic energy of the molecules in a sample?",
+      "choices": [
+        "15\u00b0C to 298 K",
+        "37\u00b0C to 273 K",
+        "305 K to 0\u00b0C",
+        "355 K to 25\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Given the particle diagram: Which substance at STP can be represented by this particle diagram?",
+      "choices": [
+        "N2",
+        "H2",
+        "Mg",
+        "Kr"
+      ],
+      "image": "/images/exams/chemistry/january-2015/q44.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Which type of equilibrium exists in a sealed flask containing Br2(\u2113) and Br2(g) at 298 K and 1.0 atm?",
+      "choices": [
+        "static phase equilibrium",
+        "static solution equilibrium",
+        "dynamic phase equilibrium",
+        "dynamic solution equilibrium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "What are the products when potassium hydroxide reacts with hydrochloric acid?",
+      "choices": [
+        "KH(s), Cl\u0002(aq), and OH\u0003(aq)",
+        "K(s), Cl2(g), and H2O(\u2113)",
+        "KCl(aq) and H2O(\u2113)",
+        "KOH(aq) and Cl2(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "In a titration, 20.0 milliliters of a 0.150 M NaOH(aq) solution exactly neutralizes 24.0 milliliters of an HCl(aq) solution. What is the concentration of the HCl(aq) solution?",
+      "choices": [
+        "0.125 M",
+        "0.180 M",
+        "0.250 M",
+        "0.360 M"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "What fraction of a Sr-90 sample remains unchanged after 87.3 years?",
+      "choices": [
+        "1__ 2",
+        "1 __ 3",
+        "1__ 4",
+        "1__ 8 Key = an atom IV I II III Key = an atom of element T = an atom of element X = an atom of element Z"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "written",
+      "text": "Which potential energy diagram represents the change in potential energy that occurs when a catalyst is added to a chemical reaction?",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2015/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which balanced equation represents a spontaneous radioactive decay?",
+      "choices": [
+        "14C \u0002 Ca3(PO4)2 \u21923CaC2 \u0002 2P \u0002 8CO",
+        "14 7N \u0002 1 0n \u219214 6C \u0002 1 1p",
+        "H2CO3 \u2192H2O \u0002 CO2",
+        "14 6C \u219214 7N \u0002 0 \u00031e reaction without catalyst reaction with catalyst Key Reaction Coordinate Potential Energy Reaction Coordinate Potential Energy Reaction Coordinate Potential Energy Reaction Coordinate Potential Energy ( 1 ) ( 3 ) ( 2 ) ( 4 )"
+      ],
+      "image": "/images/exams/chemistry/january-2015/q50.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Determine the mass of CO2 produced when 9.0 grams of glucose completely reacts with 9.6 grams of oxygen to produce 5.4 grams of water.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nThe balanced equation below represents the reaction of glucose, C6H12O6, with oxygen\nat 298 K and 101.3 kPa.\nC6H12O6(s) \u0002 6O2(g) \u21926CO2(g) \u0002 6H2O(\u2113)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Compare the entropy of the reactants to the entropy of the products.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nThe balanced equation below represents the reaction of glucose, C6H12O6, with oxygen\nat 298 K and 101.3 kPa.\nC6H12O6(s) \u0002 6O2(g) \u21926CO2(g) \u0002 6H2O(\u2113)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Write the empirical formula for glucose.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2015/q53.png",
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nThe balanced equation below represents the reaction of glucose, C6H12O6, with oxygen\nat 298 K and 101.3 kPa.\nC6H12O6(s) \u0002 6O2(g) \u21926CO2(g) \u0002 6H2O(\u2113)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Determine the new pressure of O2(g) in the cylinder, in atmospheres.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2015/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of chemistry.\nThe diagram below represents a cylinder with a movable piston. The cylinder contains\n1.0 liter of oxygen gas at STP. The movable piston in the cylinder is pushed downward \nat constant temperature until the volume of O2(g) is 0.50 liter.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "State the effect on the frequency of gas molecule collisions when the movable piston is pushed farther downward into the cylinder. Movable piston O2(g)",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2015/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of chemistry.\nThe diagram below represents a cylinder with a movable piston. The cylinder contains\n1.0 liter of oxygen gas at STP. The movable piston in the cylinder is pushed downward \nat constant temperature until the volume of O2(g) is 0.50 liter.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify the compound that has the strongest intermolecular forces.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2015/context_56_58.png",
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of chemistry.\nThe formulas and the boiling points at standard pressure for ethane, methane,\nmethanol, and water are shown in the table below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "State the change in potential energy that takes place in a sample of methane as it boils at \u0003161.5\u00b0C.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2015/context_56_58.png",
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of chemistry.\nThe formulas and the boiling points at standard pressure for ethane, methane,\nmethanol, and water are shown in the table below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Explain, in terms of molecular polarity, why the solubility of methanol in water is greater than the solubility of methane in water. H C H H H C H H Information for Four Compounds Name Formula Boiling Point (\u00b0C) ethane methane methanol water \u201388.6 \u2013161.5 64.6 100.0 H H C H H H H C OH H H O H",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2015/context_56_58.png",
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of chemistry.\nThe formulas and the boiling points at standard pressure for ethane, methane,\nmethanol, and water are shown in the table below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Draw a Lewis electron-dot diagram for an atom of the element present in all organic compounds.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2015/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of chemistry.\nThe diagrams below represent ball-and-stick models of two molecules. In a ball-and-stick\nmodel, each ball represents an atom, and the sticks between balls represent chemical bonds.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Explain, in terms of carbon-carbon bonds, why the hydrocarbon represented in diagram B is saturated.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2015/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of chemistry.\nThe diagrams below represent ball-and-stick models of two molecules. In a ball-and-stick\nmodel, each ball represents an atom, and the sticks between balls represent chemical bonds.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Explain why the molecules in diagrams A and B are isomers of each other.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2015/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of chemistry.\nThe diagrams below represent ball-and-stick models of two molecules. In a ball-and-stick\nmodel, each ball represents an atom, and the sticks between balls represent chemical bonds.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Balance the equation in your answer booklet for the reaction, using the smallest whole-number coefficients.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 and 63 on the information below and on your knowledge of chemistry.\nThe nuts, bolts, and hinges that attach some gates to a playground fence can be made\nof iron. The iron can react with oxygen in the air. The unbalanced equation representing\nthis reaction is shown below.\nFe(s) \u0002 O2(g) \u2192Fe2O3(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Determine the change in oxidation state for oxygen in this reaction. Key = an atom of hydrogen = an atom of carbon Diagram A Diagram B",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 and 63 on the information below and on your knowledge of chemistry.\nThe nuts, bolts, and hinges that attach some gates to a playground fence can be made\nof iron. The iron can react with oxygen in the air. The unbalanced equation representing\nthis reaction is shown below.\nFe(s) \u0002 O2(g) \u2192Fe2O3(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Complete the table in your answer booklet by writing the color of thymol blue in the NaCl(aq) and in the NaOH(aq) solutions.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2015/context_64_65.png",
+      "context": "Base your answers to questions 64 and 65 on the information below and on your knowledge of chemistry.\nThe pH of various aqueous solutions are shown in the table below.\npH of Various Aqueous Solutions",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "State how many times greater the hydronium ion concentration in the HCl(aq) is than the hydronium ion concentration in the HC2H3O2(aq). Aqueous Solution pH HCl(aq) 2 HC2H3O2(aq) 3 NaCl(aq) 7 NaOH(aq) 12",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2015/context_64_65.png",
+      "context": "Base your answers to questions 64 and 65 on the information below and on your knowledge of chemistry.\nThe pH of various aqueous solutions are shown in the table below.\npH of Various Aqueous Solutions",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Identify an element in Group 14 that is classified as a metalloid.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nThere are six elements in Group 14 on the Periodic Table. One of these elements has\nthe symbol Uuq, which is a temporary, systematic symbol. This element is now known as\nflerovium.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Explain, in terms of electron shells, why each successive element in Group 14 has a larger atomic radius, as the elements are considered in order of increasing atomic number.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nThere are six elements in Group 14 on the Periodic Table. One of these elements has\nthe symbol Uuq, which is a temporary, systematic symbol. This element is now known as\nflerovium.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "State the expected number of valence electrons in an atom of the element flerovium in the ground state.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nThere are six elements in Group 14 on the Periodic Table. One of these elements has\nthe symbol Uuq, which is a temporary, systematic symbol. This element is now known as\nflerovium.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Explain, in terms of heat flow, the change in the temperature of the bracelet when the student wore the bracelet.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of chemistry.\nA student made a copper bracelet by hammering a small copper bar into the desired\nshape. The bracelet has a mass of 30.1 grams and was at a temperature of 21\u00b0C in the \nclassroom. After the student wore the bracelet, the bracelet reached a temperature of 33\u00b0C.\nLater, the student removed the bracelet and placed it on a desk at home, where it cooled\nfrom 33\u00b0C to 19\u00b0C. The specific heat capacity of copper is 0.385 J/g\u2022K.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Determine the number of moles of copper in the bracelet.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of chemistry.\nA student made a copper bracelet by hammering a small copper bar into the desired\nshape. The bracelet has a mass of 30.1 grams and was at a temperature of 21\u00b0C in the \nclassroom. After the student wore the bracelet, the bracelet reached a temperature of 33\u00b0C.\nLater, the student removed the bracelet and placed it on a desk at home, where it cooled\nfrom 33\u00b0C to 19\u00b0C. The specific heat capacity of copper is 0.385 J/g\u2022K.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the amount of heat released by the bracelet as it cooled on the desk.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of chemistry.\nA student made a copper bracelet by hammering a small copper bar into the desired\nshape. The bracelet has a mass of 30.1 grams and was at a temperature of 21\u00b0C in the \nclassroom. After the student wore the bracelet, the bracelet reached a temperature of 33\u00b0C.\nLater, the student removed the bracelet and placed it on a desk at home, where it cooled\nfrom 33\u00b0C to 19\u00b0C. The specific heat capacity of copper is 0.385 J/g\u2022K.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Explain, in terms of chemical activity, why copper is a better choice than iron to make the bracelet.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of chemistry.\nA student made a copper bracelet by hammering a small copper bar into the desired\nshape. The bracelet has a mass of 30.1 grams and was at a temperature of 21\u00b0C in the \nclassroom. After the student wore the bracelet, the bracelet reached a temperature of 33\u00b0C.\nLater, the student removed the bracelet and placed it on a desk at home, where it cooled\nfrom 33\u00b0C to 19\u00b0C. The specific heat capacity of copper is 0.385 J/g\u2022K.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Determine the concentration, expressed as percent by mass, of the dissolved salts in the original sample of seawater.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 75 on the information below and on your knowledge of chemistry.\nSeawater contains dissolved salts in the form of ions. Some of the ions found in seawater\nare Ca2\u0002, Mg2\u0002, K\u0002, Na\u0002, Cl\u0003, HCO3\n\u0003, and SO4\n2\u0003.\nAn investigation was conducted to determine the concentration of dissolved salts in \nseawater at one location. A 300.-gram sample of the seawater was placed in an open \ncontainer. After a week, all the water had evaporated and 10. grams of solid salts remained\nin the container.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "At standard pressure, compare the freezing point of seawater to the freezing point of distilled water.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 75 on the information below and on your knowledge of chemistry.\nSeawater contains dissolved salts in the form of ions. Some of the ions found in seawater\nare Ca2\u0002, Mg2\u0002, K\u0002, Na\u0002, Cl\u0003, HCO3\n\u0003, and SO4\n2\u0003.\nAn investigation was conducted to determine the concentration of dissolved salts in \nseawater at one location. A 300.-gram sample of the seawater was placed in an open \ncontainer. After a week, all the water had evaporated and 10. grams of solid salts remained\nin the container.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Explain why the evaporation that occurred during the investigation is an endothermic process.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2015/q75.png",
+      "context": "Base your answers to questions 73 through 75 on the information below and on your knowledge of chemistry.\nSeawater contains dissolved salts in the form of ions. Some of the ions found in seawater\nare Ca2\u0002, Mg2\u0002, K\u0002, Na\u0002, Cl\u0003, HCO3\n\u0003, and SO4\n2\u0003.\nAn investigation was conducted to determine the concentration of dissolved salts in \nseawater at one location. A 300.-gram sample of the seawater was placed in an open \ncontainer. After a week, all the water had evaporated and 10. grams of solid salts remained\nin the container.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Identify one organic functional group in a molecule of lactic acid.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2015/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the information below and on your knowledge of chemistry.\nA student makes an aqueous solution of lactic acid. A formula for one form of lactic acid\nis shown below.\nThe solution is placed in a sealed flask to be used in a laboratory investigation. The\nequation below represents the lactic acid equilibrium system in the flask.\nCH3CHOHCOOH(aq) \u21ccH\u0002(aq) \u0002 CH3CHOHCOO\u0003(aq)\nlactic acid\nlactate ion",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Explain, in terms of the reaction rates, why the concentrations of the reactants and products remain constant in this system.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2015/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the information below and on your knowledge of chemistry.\nA student makes an aqueous solution of lactic acid. A formula for one form of lactic acid\nis shown below.\nThe solution is placed in a sealed flask to be used in a laboratory investigation. The\nequation below represents the lactic acid equilibrium system in the flask.\nCH3CHOHCOOH(aq) \u21ccH\u0002(aq) \u0002 CH3CHOHCOO\u0003(aq)\nlactic acid\nlactate ion",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Explain, in terms of LeChatelier\u2019s principle, why increasing the concentration of H\u0002(aq) increases the concentration of lactic acid. H H C H C C OH H O OH",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2015/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the information below and on your knowledge of chemistry.\nA student makes an aqueous solution of lactic acid. A formula for one form of lactic acid\nis shown below.\nThe solution is placed in a sealed flask to be used in a laboratory investigation. The\nequation below represents the lactic acid equilibrium system in the flask.\nCH3CHOHCOOH(aq) \u21ccH\u0002(aq) \u0002 CH3CHOHCOO\u0003(aq)\nlactic acid\nlactate ion",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Using the key in your answer booklet, draw two water molecules in the box, showing the orientation of each water molecule toward the Cu2\u0002 ion.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 79 through 81 on the information below and on your knowledge of chemistry.\nCopper can be used for water pipes in homes. When the pipes corrode, copper atoms\noxidize to form Cu2\u0002 ions in the water.\nA homeowner has a water quality report prepared for a sample of water taken from pipes\nin the home. According to the report, the 550.-gram sample contains 6.75 \u0004 10\u00034 gram \nof dissolved Cu2\u0002 ions.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the concentration, in parts per million, of dissolved Cu2\u0002 ions in the sample of water tested.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 79 through 81 on the information below and on your knowledge of chemistry.\nCopper can be used for water pipes in homes. When the pipes corrode, copper atoms\noxidize to form Cu2\u0002 ions in the water.\nA homeowner has a water quality report prepared for a sample of water taken from pipes\nin the home. According to the report, the 550.-gram sample contains 6.75 \u0004 10\u00034 gram \nof dissolved Cu2\u0002 ions.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Write a balanced half-reaction equation for the corrosion that forms the Cu2\u0002 ions.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 79 through 81 on the information below and on your knowledge of chemistry.\nCopper can be used for water pipes in homes. When the pipes corrode, copper atoms\noxidize to form Cu2\u0002 ions in the water.\nA homeowner has a water quality report prepared for a sample of water taken from pipes\nin the home. According to the report, the 550.-gram sample contains 6.75 \u0004 10\u00034 gram \nof dissolved Cu2\u0002 ions.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Determine the number of neutrons in an atom of the uranium isotope used in the breeder reactor.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nA breeder reactor is one type of nuclear reactor. In a breeder reactor, uranium-238 is\ntransformed in a series of nuclear reactions into plutonium-239.\nThe plutonium-239 can undergo fission as shown in the equation below. The X represents\na missing product in the equation.\n1\n0n \u0002 239\n94Pu \u2192X \u0002 94\n36Kr \u0002 21\n0n",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Based on Table N, identify the decay mode of the plutonium radioisotope produced in the breeder reactor.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nA breeder reactor is one type of nuclear reactor. In a breeder reactor, uranium-238 is\ntransformed in a series of nuclear reactions into plutonium-239.\nThe plutonium-239 can undergo fission as shown in the equation below. The X represents\na missing product in the equation.\n1\n0n \u0002 239\n94Pu \u2192X \u0002 94\n36Kr \u0002 21\n0n",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Compare the amount of energy released by 1 mole of completely fissioned plutonium-239 to the amount of energy released by the complete combustion of 1 mole of methane.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nA breeder reactor is one type of nuclear reactor. In a breeder reactor, uranium-238 is\ntransformed in a series of nuclear reactions into plutonium-239.\nThe plutonium-239 can undergo fission as shown in the equation below. The X represents\na missing product in the equation.\n1\n0n \u0002 239\n94Pu \u2192X \u0002 94\n36Kr \u0002 21\n0n",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Write a notation for the nuclide represented by missing product X in this equation. P.S./ P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nA breeder reactor is one type of nuclear reactor. In a breeder reactor, uranium-238 is\ntransformed in a series of nuclear reactions into plutonium-239.\nThe plutonium-239 can undergo fission as shown in the equation below. The X represents\na missing product in the equation.\n1\n0n \u0002 239\n94Pu \u2192X \u0002 94\n36Kr \u0002 21\n0n",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

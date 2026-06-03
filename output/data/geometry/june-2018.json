@@ -1,0 +1,476 @@
+{
+  "subject": "geometry",
+  "session": "june-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "After a counterclockwise rotation about point X, scalene triangle ABC maps onto \u0002RST, as shown in the diagram below. Which statement must be true?",
+      "choices": [
+        "\u2220A \u0002 \u2220R",
+        "\u2220A \u0002 \u2220S",
+        "\u0002",
+        "\u0002"
+      ],
+      "image": "/images/exams/geometry/june-2018/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "In the diagram below, , and intersect at C, m\u2220B \u0002 43\u00b0, and m\u2220CEF \u0002 152\u00b0. Which statement is true?",
+      "choices": [
+        "m\u2220D \u0002 28\u00b0",
+        "m\u2220A \u0002 43\u00b0",
+        "m\u2220ACD \u0002 71\u00b0",
+        "m\u2220BCE \u0002 109\u00b0 BD A B C D E F AE AB E || D F \u0002 \u0003 \u0002\u0002\u0002\u0002"
+      ],
+      "image": "/images/exams/geometry/june-2018/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "In the diagram below, line m is parallel to line n. Figure 2 is the image of Figure 1 after a reflection over line m. Figure 3 is the image of Figure 2 after a reflection over line n. Which single transformation would carry Figure 1 onto Figure 3?",
+      "choices": [
+        "a dilation",
+        "a rotation",
+        "a reflection",
+        "a translation"
+      ],
+      "image": "/images/exams/geometry/june-2018/q3.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In the diagram below, and intersect at C, and and are drawn such that m\u2220D \u0002 65\u00b0, m\u2220CBE \u0002 115\u00b0, DC \u0002 7.2, AC \u0002 9.6, and FC \u0002 21.6. What is the length of ?",
+      "choices": [
+        "3.2",
+        "4.8",
+        "16.2",
+        "19.2 m n Figure 1 Figure 2 Figure 3 CB FBE AD DB AF A D B E 7.2 9.6 C 21.6"
+      ],
+      "image": "/images/exams/geometry/june-2018/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Given square RSTV, where RS \u0002 9 cm. If square RSTV is dilated by a scale factor of 3 about a given center, what is the perimeter, in centimeters, of the image of RSTV after the dilation?",
+      "choices": [
+        "12",
+        "27",
+        "36",
+        "108"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "In right triangle ABC, hypotenuse has a length of 26 cm, and side has a length of 17.6 cm. What is the measure of angle B, to the nearest degree?",
+      "choices": [
+        "48\u00b0",
+        "47\u00b0",
+        "43\u00b0",
+        "34\u00b0"
+      ],
+      "image": "/images/exams/geometry/june-2018/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The greenhouse pictured below can be modeled as a rectangular prism with a half-cylinder on top. The rectangular prism is 20 feet wide, 12 feet high, and 45 feet long. The half-cylinder has a diameter of 20 feet. To the nearest cubic foot, what is the volume of the greenhouse?",
+      "choices": [
+        "17,869",
+        "24,937",
+        "39,074",
+        "67,349 BC AB 20 ft 12 ft 45 ft"
+      ],
+      "image": "/images/exams/geometry/june-2018/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "In a right triangle, the acute angles have the relationship sin (2x + 4) \u0002 cos (46). What is the value of x?",
+      "choices": [
+        "20",
+        "21",
+        "24",
+        "25"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "In the diagram below, , , and and are drawn. Which statement is always true?",
+      "choices": [
+        "\u0002DEF \u0002 \u0002CBF",
+        "\u0002BAG \u0002 \u0002BAE",
+        "\u0002BAG ~ \u0002AEB",
+        "\u0002DEF ~ \u0002AEB"
+      ],
+      "image": "/images/exams/geometry/june-2018/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The base of a pyramid is a rectangle with a width of 4.6 cm and a length of 9 cm. What is the height, in centimeters, of the pyramid if its volume is 82.8 cm3?",
+      "choices": [
+        "6",
+        "2",
+        "9",
+        "18 A E C D G B F AB DFC || EDA CBG ||"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "In the diagram below of right triangle AED, . Which statement is always true?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/geometry/june-2018/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "What is an equation of the line that passes through the point (6,8) and is perpendicular to a line with equation y \u0002 x \u0003 5?",
+      "choices": [
+        "y \u0004 8 \u0002 (x \u0004 6)",
+        "y \u0004 8 \u0002 \u0004 (x \u0004 6)",
+        "y \u0003 8 \u0002 (x \u0003 6)",
+        "y \u0003 8 \u0002 \u0004 (x \u0003 6) 2 3 2 3 3 2 3 2 3 2 AB AD BC DE \u0002 AC CE BC DE \u0002 DE BC DB AB \u0002 AC BC DE AE \u0002 A C B E D BC DE ||"
+      ],
+      "image": "/images/exams/geometry/june-2018/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The diagram below shows parallelogram ABCD with diagonals and intersecting at E. What additional information is sufficient to prove that parallelogram ABCD is also a rhombus?",
+      "choices": [
+        "bisects .",
+        "is parallel to .",
+        "is congruent to .",
+        "is perpendicular to ."
+      ],
+      "image": "/images/exams/geometry/june-2018/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Directed line segment DE has endpoints D(\u00044,\u00042) and E(1,8). Point F divides such that DF:FE is 2:3. What are the coordinates of F?",
+      "choices": [
+        "(\u00043,0)",
+        "(\u00042,2)",
+        "(\u00041,4)",
+        "(2,4)"
+      ],
+      "image": "/images/exams/geometry/june-2018/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Triangle DAN is graphed on the set of axes below. The vertices of \u0002DAN have coordinates D(\u00046,\u00041), A(6,3), and N(\u00043,10). What is the area of \u0002DAN?",
+      "choices": [
+        "60",
+        "120",
+        "",
+        "x y D A N 40 13 20 13"
+      ],
+      "image": "/images/exams/geometry/june-2018/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Triangle ABC, with vertices at A(0,0), B(3,5), and C(0,5), is graphed on the set of axes shown below. Which figure is formed when \u0002ABC is rotated continuously about ?",
+      "choices": [
+        "5 6",
+        "5 3",
+        "3 10",
+        "3 5"
+      ],
+      "image": "/images/exams/geometry/june-2018/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "In the diagram below of circle O, chords and intersect at E. If m \u0002 72\u00b0 and m\u2220AEC \u0002 58\u00b0, how many degrees are in m ?",
+      "choices": [
+        "108\u00b0",
+        "65\u00b0",
+        "44\u00b0",
+        "14\u00b0"
+      ],
+      "image": "/images/exams/geometry/june-2018/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "In triangle SRK below, medians , , and intersect at M. Which statement must always be true?",
+      "choices": [
+        "3(MC) \u0002 SC",
+        "MC \u0002 (SM)",
+        "RM \u0002 2MC",
+        "SM \u0002 KM 1 3 E C S R L K M RL KE SC AC \u0004 DB \u0004"
+      ],
+      "image": "/images/exams/geometry/june-2018/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The regular polygon below is rotated about its center. Which angle of rotation will carry the figure onto itself?",
+      "choices": [
+        "60\u00b0",
+        "108\u00b0",
+        "216\u00b0",
+        "540\u00b0"
+      ],
+      "image": "/images/exams/geometry/june-2018/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "What is an equation of circle O shown in the graph below?",
+      "choices": [
+        "x2 \u0003 10x \u0003 y2 \u0003 4y \u0002 \u000413",
+        "x2 \u0004 10x \u0003 y2 \u0004 4y \u0002 \u000413",
+        "x2 \u0003 10x \u0003 y2 \u0003 4y \u0002 \u000425",
+        "x2 \u0004 10x \u0003 y2 \u0004 4y \u0002 \u000425"
+      ],
+      "image": "/images/exams/geometry/june-2018/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "In the diagram below of \u0002PQR, is drawn parallel to , PS \u0002 2, SQ \u0002 5, and TR \u0002 5. What is the length of ?",
+      "choices": [
+        "7",
+        "2",
+        "",
+        ""
+      ],
+      "image": "/images/exams/geometry/june-2018/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The diagram below shows circle O with radii and . The measure of angle AOB is 120\u00b0, and the length of a radius is 6 inches. Which expression represents the length of arc AB, in inches?",
+      "choices": [
+        "",
+        "120(6)",
+        "",
+        "1 3(12\u03c0) 120 360 6( \u03c0) 1 3(36\u03c0) A O 6 B OA OB 17 1 2 12 1 2 QR Q 5 S 2 P R T 5"
+      ],
+      "image": "/images/exams/geometry/june-2018/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Line segment CD is the altitude drawn to hypotenuse in right triangle ECF. If EC \u0002 10 and EF \u0002 24, then, to the nearest tenth, ED is",
+      "choices": [
+        "4.2",
+        "5.4",
+        "15.5",
+        "21.8"
+      ],
+      "image": "/images/exams/geometry/june-2018/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Line MN is dilated by a scale factor of 2 centered at the point (0,6). If is represented by y \u0002 \u00043x \u0003 6, which equation can represent , the image of ?",
+      "choices": [
+        "y \u0002 \u00043x \u0003 12",
+        "y \u0002 \u00043x \u0003 6",
+        "y \u0002 \u00046x \u0003 12",
+        "y \u0002 \u00046x \u0003 6 M N \u0005 \u0003 \u0002\u0002\u0002\u0002 \u0005 \u0005 MN \u0005 \u0003 \u0002\u0002 MN \u0005 \u0003 \u0002\u0002 EF"
+      ],
+      "image": "/images/exams/geometry/june-2018/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Triangle A\u0005B\u0005C\u0005 is the image of triangle ABC after a translation of 2 units to the right and 3 units up. Is triangle ABC congruent to triangle A\u0005B\u0005C\u0005? Explain why. Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Triangle ABC and point D(1,2) are graphed on the set of axes below. Graph and label \u0002A\u0005B\u0005C\u0005, the image of \u0002ABC, after a dilation of scale factor 2",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2018/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "27",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2018/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "In the diagram below, secants and , drawn from point R, intersect circle O at S, T, Q, and P. If RS \u0002 6, ST \u0002 4, and RP \u0002 15, what is the length of ?",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2018/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Using a compass and straightedge, construct the median to side in \u0002ABC below. [Leave all construction marks.]",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2018/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Skye says that the two triangles below are congruent. Margaret says that the two triangles are similar. Are Skye and Margaret both correct? Explain why. 5 cm 5 cm 13 cm 12",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2018/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Randy\u2019s basketball is in the shape of a sphere with a maximum circumference of 29.5 inches. Determine and state the volume of the basketball,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Triangle ABC has vertices with coordinates A(\u00041,\u00041), B(4,0), and C(0,4). Prove that \u0002ABC is an isosceles triangle but not an equilateral triangle. [The use of the set of axes below is optional.] y x Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2018/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "The map of a campground is shown below. Campsite C, first aid station F, and supply station S lie along a straight path. The path from the supply station to the tower, T, is perpendicular to the path from the supply station to the campsite. The length of path is 400 feet. The angle formed by path and path is 72\u00b0. The angle formed by path and path is 55\u00b0. Determine and state, to the nearest foot, the distance from the campsite to the tower. Campground Map Tower Campsite C First aid Supply station F S T 400",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2018/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Shae has recently begun kickboxing and purchased training equipment as modeled in the diagram below. The total weight of the bag, pole, and unfilled base is 270 pounds. The cylindrical base is 18 inches tall with a diameter of 20 inches. The dry sand used to fill the base weighs 95.46 lbs per cubic foot. To the nearest pound, determine and state the total weight of the training equipment if the base is filled to 85% of its capacity. Bag Base 18 in 20",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2018/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Given: Parallelogram ABCD, , and Prove: BEDF is a rectangle DE BEC \u22a5 BF AFD \u22a5 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for the question to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Work space for question 35 Question 35 continued Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here GEOMETRY GEOMETRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2018/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

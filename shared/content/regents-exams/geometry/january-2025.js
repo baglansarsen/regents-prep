@@ -14,8 +14,7 @@ export default {
       topic: 'Transformations',
       correct: 2,
       explanation: 'A regular hexagon has 6 lines/orders of rotational symmetry, so it maps onto itself at multiples of 360° ÷ 6 = 60°. Of the choices, only 120° (which is 2 × 60°) is a multiple of 60°.',
-      diveDeep: 'For any regular n-gon, the smallest angle of rotational symmetry is 360°/n, and any integer multiple of that angle also maps the figure onto itself. A regular hexagon (n = 6) has symmetry every 60°, so 60°, 120°, 180°, 240°, 300°, and 360° all work. The common trap is choosing 90° because it works for a square — but the polygon here has 6 sides, not 4. Always compute 360°/n first, then test which choices are multiples of that value.'
-    },
+      diveDeep: 'For any regular n-gon, the smallest angle of rotational symmetry is 360°/n, and any integer multiple of that angle also maps the figure onto itself. A regular hexagon (n = 6) has symmetry every 60°, so 60°, 120°, 180°, 240°, 300°, and 360° all work. The common trap is choosing 90° because it works for a square — but the polygon here has 6 sides, not 4. Always compute 360°/n first, then test which choices are multiples of that value.', image: '/images/exams/geo-january-2025/q1.png' },
     {
       number: 2,
       part: 'A',
@@ -115,8 +114,7 @@ export default {
       topic: 'Area & Volume',
       correct: 0,
       explanation: 'Using V = πr²h, 1000π = πr²(10), so r² = 100 and r = 10 inches.',
-      diveDeep: 'The volume of a cylinder is V = πr²h; solve for the unknown by isolating r². Dividing 1000π by π cancels π immediately, leaving 1000 = 10r², so r² = 100 and r = 10. A common slip is forgetting to divide by the height as well, or stopping at r² without taking the square root. Keeping π symbolic until it cancels avoids unnecessary decimal rounding.'
-    },
+      diveDeep: 'The volume of a cylinder is V = πr²h; solve for the unknown by isolating r². Dividing 1000π by π cancels π immediately, leaving 1000 = 10r², so r² = 100 and r = 10. A common slip is forgetting to divide by the height as well, or stopping at r² without taking the square root. Keeping π symbolic until it cancels avoids unnecessary decimal rounding.', image: '/images/exams/geo-january-2025/q9.png' },
     {
       number: 10,
       part: 'A',
@@ -125,8 +123,7 @@ export default {
       topic: 'Circles',
       correct: 1,
       explanation: 'The angle formed by two chords intersecting inside a circle equals half the sum of the two intercepted arcs. Arc NA = 180° − 105° = 75° (since YN is a diameter) and arc YK = 120°... ∠ASN intercepts arcs NA (75°) and arc KY on the other side; m∠ASN = ½(75° + 120°) = 97.5°.',
-      diveDeep: 'When two chords intersect inside a circle, each formed angle equals half the SUM of its intercepted arc and the arc intercepted by its vertical angle. Because YN is a diameter, the arc on one side from Y to N is 180°, which lets you find the missing arcs by subtraction. A frequent trap is using the half-DIFFERENCE formula, which applies only to angles with vertices OUTSIDE the circle. Carefully match each angle to the pair of arcs its sides cut off before averaging.'
-    },
+      diveDeep: 'When two chords intersect inside a circle, each formed angle equals half the SUM of its intercepted arc and the arc intercepted by its vertical angle. Because YN is a diameter, the arc on one side from Y to N is 180°, which lets you find the missing arcs by subtraction. A frequent trap is using the half-DIFFERENCE formula, which applies only to angles with vertices OUTSIDE the circle. Carefully match each angle to the pair of arcs its sides cut off before averaging.', image: '/images/exams/geo-january-2025/q10.png' },
     {
       number: 11,
       part: 'A',
@@ -135,8 +132,7 @@ export default {
       topic: 'Coordinate Geometry',
       correct: 1,
       explanation: 'Using the coordinate area formula ½|x_A(y_B−y_C) + x_B(y_C−y_A) + x_C(y_A−y_B)| = ½|−3(1−2) + (−5)(2−4) + 3(4−1)| = ½|3 + 10 + 9| = ½(22) = 11.',
-      diveDeep: 'For a triangle given by coordinates, the "shoelace" formula Area = ½|x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)| gives the area directly without finding a base and height. Keep track of signs carefully and take the absolute value at the end, since area is never negative. An alternative is the bounding-box method: enclose the triangle in a rectangle and subtract the surrounding right triangles. Choosing whichever method matches the given information reduces arithmetic errors.'
-    },
+      diveDeep: 'For a triangle given by coordinates, the "shoelace" formula Area = ½|x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)| gives the area directly without finding a base and height. Keep track of signs carefully and take the absolute value at the end, since area is never negative. An alternative is the bounding-box method: enclose the triangle in a rectangle and subtract the surrounding right triangles. Choosing whichever method matches the given information reduces arithmetic errors.', image: '/images/exams/geo-january-2025/q11.png' },
     {
       number: 12,
       part: 'A',
@@ -150,8 +146,7 @@ export default {
       topic: 'Triangles & Congruence',
       correct: 0,
       explanation: 'A midsegment DE is half the length of the parallel side BC, so DE = ½BC. Since D is the midpoint of AB, BD = ½AB. Given BD ≅ DE means ½AB = ½BC, so AB = BC, making △ABC isosceles.',
-      diveDeep: 'The Triangle Midsegment Theorem states a midsegment is parallel to the third side and exactly half its length. Here DE connects midpoints, so DE = ½BC, and BD as half of side AB equals ½AB. Setting the two halves equal forces two sides of the triangle to be congruent. The trap answers (scalene, or pairing the wrong segments) ignore that a midsegment relates to the side it is parallel to, not an arbitrary side. Always identify which full side a midsegment parallels before comparing lengths.'
-    },
+      diveDeep: 'The Triangle Midsegment Theorem states a midsegment is parallel to the third side and exactly half its length. Here DE connects midpoints, so DE = ½BC, and BD as half of side AB equals ½AB. Setting the two halves equal forces two sides of the triangle to be congruent. The trap answers (scalene, or pairing the wrong segments) ignore that a midsegment relates to the side it is parallel to, not an arbitrary side. Always identify which full side a midsegment parallels before comparing lengths.', image: '/images/exams/geo-january-2025/q12.png' },
     {
       number: 13,
       part: 'A',
@@ -160,8 +155,7 @@ export default {
       topic: 'Lines & Angles',
       correct: 2,
       explanation: 'Since OR ≅ ON, △ORN is isosceles with base angles ∠ORN ≅ ∠ONR. The base angles each equal (180° − 116°)/2 = 32°. Then ∠LKN, an alternate interior angle relationship through the parallel lines, equals 116°.',
-      diveDeep: 'This problem combines parallel-line angle relationships with the Isosceles Triangle Theorem. When two parallel lines are cut by a transversal, alternate interior angles are congruent and co-interior (same-side interior) angles are supplementary. The congruent sides OR ≅ ON create equal base angles, letting you find the triangle\'s angles. Map each angle carefully to its parallel-line pair; mixing up alternate-interior with co-interior angles is the most common error here.'
-    },
+      diveDeep: 'This problem combines parallel-line angle relationships with the Isosceles Triangle Theorem. When two parallel lines are cut by a transversal, alternate interior angles are congruent and co-interior (same-side interior) angles are supplementary. The congruent sides OR ≅ ON create equal base angles, letting you find the triangle\'s angles. Map each angle carefully to its parallel-line pair; mixing up alternate-interior with co-interior angles is the most common error here.', image: '/images/exams/geo-january-2025/q13.png' },
     {
       number: 14,
       part: 'A',
@@ -185,8 +179,7 @@ export default {
       topic: 'Transformations',
       correct: 3,
       explanation: 'The diagonals of a parallelogram bisect each other at E, so a 180° rotation about E maps A→C, B→D, and C→A, carrying △ABC exactly onto △CDA.',
-      diveDeep: 'A parallelogram has point symmetry about the intersection of its diagonals: a 180° rotation about that center maps each vertex to the opposite vertex. Because the diagonals bisect each other, E is the midpoint of both AC and BD, which is precisely what a half-turn requires. Reflections over a diagonal generally do NOT map a parallelogram onto itself unless it is also a rhombus (where the diagonal is a line of symmetry). Verify by tracking each vertex to its image rather than relying on the figure\'s appearance.'
-    },
+      diveDeep: 'A parallelogram has point symmetry about the intersection of its diagonals: a 180° rotation about that center maps each vertex to the opposite vertex. Because the diagonals bisect each other, E is the midpoint of both AC and BD, which is precisely what a half-turn requires. Reflections over a diagonal generally do NOT map a parallelogram onto itself unless it is also a rhombus (where the diagonal is a line of symmetry). Verify by tracking each vertex to its image rather than relying on the figure\'s appearance.', image: '/images/exams/geo-january-2025/q15.png' },
     {
       number: 16,
       part: 'A',
@@ -195,8 +188,7 @@ export default {
       topic: 'Area & Volume',
       correct: 1,
       explanation: 'Volume of a pyramid is V = ⅓(base area)(height): 175 = ⅓(s²)(21) = 7s², so s² = 25 and s = 5. The base is a square, so its perimeter is 4 × 5 = 20.',
-      diveDeep: 'The volume of any pyramid is one-third the base area times the height, V = ⅓Bh. For a square base, B = s², so solve for s², take the square root to get the side, then multiply by 4 for perimeter. Common traps include forgetting the ⅓ factor, stopping at the side length instead of the perimeter, or using a wrong base shape. Track units and re-read the requested quantity (perimeter vs. side vs. area) at the end.'
-    },
+      diveDeep: 'The volume of any pyramid is one-third the base area times the height, V = ⅓Bh. For a square base, B = s², so solve for s², take the square root to get the side, then multiply by 4 for perimeter. Common traps include forgetting the ⅓ factor, stopping at the side length instead of the perimeter, or using a wrong base shape. Track units and re-read the requested quantity (perimeter vs. side vs. area) at the end.', image: '/images/exams/geo-january-2025/q16.png' },
     {
       number: 17,
       part: 'A',
@@ -236,8 +228,7 @@ export default {
       topic: 'Similarity & Proof',
       correct: 0,
       explanation: 'The altitude to the hypotenuse creates similar triangles, giving the leg geometric-mean relationship: each leg is the geometric mean of the hypotenuse and the adjacent hypotenuse segment, so ST² = RT · VT, i.e., RT/ST = ST/VT.',
-      diveDeep: 'When an altitude is drawn from the right angle to the hypotenuse, it forms two smaller triangles each similar to the original and to each other (the "geometric mean" relationships). Two key results: each leg is the geometric mean of the whole hypotenuse and the segment of the hypotenuse adjacent to that leg, and the altitude is the geometric mean of the two hypotenuse segments. Set up the correct proportion by pairing corresponding parts of the similar triangles. The frequent error is mismatching segments — always identify which leg is adjacent to which hypotenuse piece.'
-    },
+      diveDeep: 'When an altitude is drawn from the right angle to the hypotenuse, it forms two smaller triangles each similar to the original and to each other (the "geometric mean" relationships). Two key results: each leg is the geometric mean of the whole hypotenuse and the segment of the hypotenuse adjacent to that leg, and the altitude is the geometric mean of the two hypotenuse segments. Set up the correct proportion by pairing corresponding parts of the similar triangles. The frequent error is mismatching segments — always identify which leg is adjacent to which hypotenuse piece.', image: '/images/exams/geo-january-2025/q19.png' },
     {
       number: 20,
       part: 'A',
@@ -282,8 +273,7 @@ export default {
       topic: 'Circles',
       correct: 2,
       explanation: 'Each rotation covers one circumference = πd = π(2.25) ≈ 7.0686 feet. Number of rotations = 5280 ÷ 7.0686 ≈ 747.',
-      diveDeep: 'One full rotation of a wheel moves it forward a distance equal to its circumference, C = πd. Divide the total distance (converted to the same units as the circumference) by the circumference to get the number of rotations. The biggest pitfall is unit consistency: convert the mile to 5280 feet so it matches the tire diameter in feet. Using radius instead of diameter in C = πd, or forgetting the mile-to-feet conversion, produces the distractor answers.'
-    },
+      diveDeep: 'One full rotation of a wheel moves it forward a distance equal to its circumference, C = πd. Divide the total distance (converted to the same units as the circumference) by the circumference to get the number of rotations. The biggest pitfall is unit consistency: convert the mile to 5280 feet so it matches the tire diameter in feet. Using radius instead of diameter in C = πd, or forgetting the mile-to-feet conversion, produces the distractor answers.', image: '/images/exams/geo-january-2025/q23.png' },
     {
       number: 24,
       part: 'A',
@@ -307,8 +297,7 @@ export default {
       topic: 'Constructions',
       explanation: 'Bisect AB to find the midpoint M, then bisect AM to find its midpoint, which is (1/4) of the way from A to B.',
       diveDeep: 'Constructing (1/4)AB requires two perpendicular-bisector constructions. First, bisect AB to get midpoint M (so AM = (1/2)AB). Then bisect AM to get its midpoint, which is (1/4)AB from A. Each bisection requires the same compass-and-straightedge routine: set the compass to more than half the segment length, draw arcs above and below from each endpoint, and connect the two arc intersections. A common error is estimating the midpoint by eye rather than performing the full arc construction, which earns no credit.',
-      modelAnswer: '1. Set compass width to more than half of AB. From A, draw an arc above and below AB. From B, draw arcs (same width) intersecting those from A. Connect the two arc intersections — this line crosses AB at midpoint M. Now AM = (1/2)AB.\n2. Repeat the bisection process on segment AM: draw arcs from A and M, connect their intersections to find midpoint of AM.\n3. The midpoint of AM is (1/4) of the way from A to B — this point represents (1/4)AB.\n[Leave all construction arcs visible.]'
-    },
+      modelAnswer: '1. Set compass width to more than half of AB. From A, draw an arc above and below AB. From B, draw arcs (same width) intersecting those from A. Connect the two arc intersections — this line crosses AB at midpoint M. Now AM = (1/2)AB.\n2. Repeat the bisection process on segment AM: draw arcs from A and M, connect their intersections to find midpoint of AM.\n3. The midpoint of AM is (1/4) of the way from A to B — this point represents (1/4)AB.\n[Leave all construction arcs visible.]', image: '/images/exams/geo-january-2025/q25.png' },
     {
       number: 26,
       part: 'B',
@@ -317,8 +306,7 @@ export default {
       topic: 'Right Triangles & Trig',
       explanation: 'Use tan(36°) = opposite/adjacent to find the height above the dog\'s eye level, then add 2.5 feet for the eye height above the ground.',
       diveDeep: 'The angle of elevation is measured from the dog\'s eye level, not from the ground. So the right triangle\'s legs are: adjacent = 18.5 ft (horizontal distance to the tree) and opposite = height of bird above dog\'s eyes. tan(36°) = h/18.5, giving h = 18.5 × tan(36°) ≈ 18.5 × 0.7265 ≈ 13.44 ft. Total height above ground = 13.44 + 2.5 ≈ 15.9 ≈ 16 feet. Forgetting to add the eye height of 2.5 ft is the most common error; also watch that the base of the triangle is the horizontal distance to the tree, not the slant distance.',
-      modelAnswer: 'tan(36°) = h / 18.5\nh = 18.5 × tan(36°) ≈ 18.5 × 0.7265 ≈ 13.44 ft\n\nHeight above ground = 13.44 + 2.5 ≈ 15.9 ≈ 16 feet'
-    },
+      modelAnswer: 'tan(36°) = h / 18.5\nh = 18.5 × tan(36°) ≈ 18.5 × 0.7265 ≈ 13.44 ft\n\nHeight above ground = 13.44 + 2.5 ≈ 15.9 ≈ 16 feet', image: '/images/exams/geo-january-2025/q26.png' },
     {
       number: 27,
       part: 'B',
@@ -327,8 +315,7 @@ export default {
       topic: '3D Geometry & Volume',
       explanation: 'Find the volume of the sphere, then multiply by the density to get the mass: mass = density × volume.',
       diveDeep: 'Volume of a sphere: V = (4/3)πr³ = (4/3)π(0.5)³ = (4/3)π(0.125) = π/6 ≈ 0.5236 cm³. Mass = density × volume = 10.5 × 0.5236 ≈ 5.498 ≈ 5.5 g. The most common error is using the diameter (1 cm) instead of the radius (0.5 cm), which inflates the volume by a factor of 8. Also watch significant figures — round only at the final step.',
-      modelAnswer: 'V = (4/3)πr³ = (4/3)π(0.5)³ = (4/3)π(0.125) ≈ 0.5236 cm³\nMass = density × volume = 10.5 × 0.5236 ≈ 5.498 ≈ 5.5 grams'
-    },
+      modelAnswer: 'V = (4/3)πr³ = (4/3)π(0.5)³ = (4/3)π(0.125) ≈ 0.5236 cm³\nMass = density × volume = 10.5 × 0.5236 ≈ 5.498 ≈ 5.5 grams', image: '/images/exams/geo-january-2025/q27.png' },
     {
       number: 28,
       part: 'B',
@@ -347,8 +334,7 @@ export default {
       topic: 'Circles',
       explanation: 'By the tangent-secant theorem, PA² = PB × PC = 9 × 25 = 225, so PA = 15.',
       diveDeep: 'For a tangent and secant from an external point: (tangent)² = (external segment) × (whole secant). Here PB is the external segment of the secant and PC = PB + BC = 9 + 16 = 25 is the whole secant. PA² = 9 × 25 = 225, so PA = 15. The critical step students miss is computing the whole secant length (PB + BC) rather than using just BC. Always identify the full secant length (from external point to the far intersection) before applying the formula.',
-      modelAnswer: 'PC = PB + BC = 9 + 16 = 25\nBy the tangent-secant theorem: PA² = PB × PC = 9 × 25 = 225\nPA = √225 = 15'
-    },
+      modelAnswer: 'PC = PB + BC = 9 + 16 = 25\nBy the tangent-secant theorem: PA² = PB × PC = 9 × 25 = 225\nPA = √225 = 15', image: '/images/exams/geo-january-2025/q29.png' },
     {
       number: 30,
       part: 'B',
@@ -357,8 +343,7 @@ export default {
       topic: 'Right Triangles & Trig',
       explanation: 'Since sin θ = cos(90° − θ), set (4x + 3) + (2x − 9) = 90 and solve for x.',
       diveDeep: 'The co-function identity states sin(A) = cos(90° − A), meaning the two angles must be complementary: (4x + 3) + (2x − 9) = 90. Simplify: 6x − 6 = 90, so 6x = 96, giving x = 16. Verify: sin(4(16)+3)° = sin(67°) and cos(2(16)−9)° = cos(23°); since 67 + 23 = 90, they are complementary ✓. Students who set the arguments equal (4x + 3 = 2x − 9) instead of summing them to 90 make the most frequent error.',
-      modelAnswer: 'sin(A) = cos(90° − A), so the angles are complementary:\n(4x + 3) + (2x − 9) = 90\n6x − 6 = 90\n6x = 96\nx = 16\n\nVerify: sin(67°) = cos(23°) ✓ (67 + 23 = 90)'
-    },
+      modelAnswer: 'sin(A) = cos(90° − A), so the angles are complementary:\n(4x + 3) + (2x − 9) = 90\n6x − 6 = 90\n6x = 96\nx = 16\n\nVerify: sin(67°) = cos(23°) ✓ (67 + 23 = 90)', image: '/images/exams/geo-january-2025/q30.png' },
     {
       number: 31,
       part: 'B',
@@ -377,8 +362,7 @@ export default {
       topic: '3D Geometry & Volume',
       explanation: 'Subtract the removed rectangular prism area from the square base area, multiply by height to get volume, then compute the number of bags (rounding up) and total cost.',
       diveDeep: 'Base area of square prism = 6 × 6 = 36 ft². Base area of removed section = 4 × 2 = 8 ft². Net base area = 36 − 8 = 28 ft². Volume of topsoil = 28 × 1.25 = 35 ft³. Number of bags = ⌈35/2⌉ = ⌈17.5⌉ = 18 bags (must round up since a partial bag must be purchased). Total cost = 18 × $3.68 = $66.24. The critical error is rounding down the number of bags (getting 17) — you cannot buy half a bag, so always round up to ensure enough topsoil. Also watch the top-view dimensions carefully from the diagram.',
-      modelAnswer: 'Net base area = 6² − (4 × 2) = 36 − 8 = 28 ft²\nVolume of topsoil = 28 × 1.25 = 35 ft³\n\nNumber of bags = ⌈35 ÷ 2⌉ = ⌈17.5⌉ = 18 bags\nTotal cost = 18 × $3.68 = $66.24'
-    },
+      modelAnswer: 'Net base area = 6² − (4 × 2) = 36 − 8 = 28 ft²\nVolume of topsoil = 28 × 1.25 = 35 ft³\n\nNumber of bags = ⌈35 ÷ 2⌉ = ⌈17.5⌉ = 18 bags\nTotal cost = 18 × $3.68 = $66.24', image: '/images/exams/geo-january-2025/q32.png' },
     {
       number: 33,
       part: 'C',
@@ -387,8 +371,7 @@ export default {
       topic: 'Similarity & Proof',
       explanation: 'Because BE ∥ CD, triangles ABE and ACD are similar by AA, giving the proportion AB/AC = AE/AD, which cross-multiplies to AB · AD = AE · AC.',
       diveDeep: 'Since BE ∥ CD and ABC / AED are straight lines, ∠ABE and ∠ACD are corresponding angles (equal), and ∠A is shared. By AA Similarity, △ABE ~ △ACD. From the similarity ratio: AB/AC = AE/AD. Cross-multiplying: AB · AD = AE · AC. The proof must explicitly state the AA condition with both angles identified, then the similarity statement, then the proportion, then the cross-multiplication. Skipping the cross-multiplication step and just stating the proportion loses partial credit because the goal equation is the product form.',
-      modelAnswer: 'Statements | Reasons\n1. BE ∥ CD | Given\n2. ∠ABE ≅ ∠ACD | Corresponding angles, BE ∥ CD (with transversal AC)\n3. ∠A ≅ ∠A | Reflexive property\n4. △ABE ~ △ACD | AA Similarity (steps 2, 3)\n5. AB/AC = AE/AD | Corresponding sides of similar triangles are proportional\n6. AB · AD = AE · AC | Cross-multiplication (means-extremes product)'
-    },
+      modelAnswer: 'Statements | Reasons\n1. BE ∥ CD | Given\n2. ∠ABE ≅ ∠ACD | Corresponding angles, BE ∥ CD (with transversal AC)\n3. ∠A ≅ ∠A | Reflexive property\n4. △ABE ~ △ACD | AA Similarity (steps 2, 3)\n5. AB/AC = AE/AD | Corresponding sides of similar triangles are proportional\n6. AB · AD = AE · AC | Cross-multiplication (means-extremes product)', image: '/images/exams/geo-january-2025/q33.png' },
     {
       number: 34,
       part: 'C',
@@ -397,8 +380,7 @@ export default {
       topic: 'Coordinate Geometry',
       explanation: 'Use slopes to show two sides of △PET are perpendicular (product of slopes = −1), then find N using the rotation formula, and prove PENT is a rectangle by showing all right angles or perpendicular diagonals that bisect each other.',
       diveDeep: 'Slope of PE = (8−4)/(6−(−6)) = 4/12 = 1/3. Slope of PT = (−2−4)/(−4−(−6)) = −6/2 = −3. Since (1/3)(−3) = −1, PE ⊥ PT, so ∠P = 90° and △PET is a right triangle. For the 180° rotation about (1, 3): N = (2·1 − (−6), 2·3 − 4) = (8, 2). For PENT: verify all four angles are 90° using slopes of all four sides, or show diagonals are congruent and bisect each other. This is a 4-credit question requiring organized, complete work.',
-      modelAnswer: 'Part 1 — Prove △PET is right:\nSlope of PE = (8−4)/(6−(−6)) = 4/12 = 1/3\nSlope of PT = (−2−4)/(−4−(−6)) = −6/2 = −3\n(1/3)(−3) = −1 → PE ⊥ PT → ∠TPE = 90°\n∴ △PET is a right triangle.\n\nPart 2 — Coordinates of N (180° rotation about (1,3)):\nN = (2(1) − (−6), 2(3) − 4) = (2+6, 6−4) = (8, 2)\n\nPart 3 — Prove PENT is a rectangle:\nVertices: P(−6,4), E(6,8), N(8,2), T(−4,−2)\nSlope PE = 1/3; Slope EN = (2−8)/(8−6) = −6/2 = −3 → PE ⊥ EN\nSlope NT = (−2−2)/(−4−8) = −4/−12 = 1/3; Slope PT = −3\nOpposite sides are parallel (PE ∥ NT, EN ∥ PT) and all angles are 90°.\n∴ PENT is a rectangle.'
-    },
+      modelAnswer: 'Part 1 — Prove △PET is right:\nSlope of PE = (8−4)/(6−(−6)) = 4/12 = 1/3\nSlope of PT = (−2−4)/(−4−(−6)) = −6/2 = −3\n(1/3)(−3) = −1 → PE ⊥ PT → ∠TPE = 90°\n∴ △PET is a right triangle.\n\nPart 2 — Coordinates of N (180° rotation about (1,3)):\nN = (2(1) − (−6), 2(3) − 4) = (2+6, 6−4) = (8, 2)\n\nPart 3 — Prove PENT is a rectangle:\nVertices: P(−6,4), E(6,8), N(8,2), T(−4,−2)\nSlope PE = 1/3; Slope EN = (2−8)/(8−6) = −6/2 = −3 → PE ⊥ EN\nSlope NT = (−2−2)/(−4−8) = −4/−12 = 1/3; Slope PT = −3\nOpposite sides are parallel (PE ∥ NT, EN ∥ PT) and all angles are 90°.\n∴ PENT is a rectangle.', image: '/images/exams/geo-january-2025/q34.png' },
     {
       number: 35,
       part: 'D',

@@ -1,0 +1,1101 @@
+{
+  "subject": "chemistry",
+  "session": "january-2013",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which particles have approximately the same mass?",
+      "choices": [
+        "alpha particle and beta particle",
+        "alpha particle and proton",
+        "neutron and positron",
+        "neutron and proton"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which phrase describes an atom?",
+      "choices": [
+        "a negatively charged nucleus surrounded by positively charged protons",
+        "a negatively charged nucleus surrounded by positively charged electrons",
+        "a positively charged nucleus surrounded by negatively charged protons",
+        "a positively charged nucleus surrounded by negatively charged electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "An orbital is defined as a region of the most probable location of",
+      "choices": [
+        "an electron",
+        "a neutron",
+        "a nucleus",
+        "a proton"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The bright-line spectrum of an element in the gaseous phase is produced as",
+      "choices": [
+        "protons move from lower energy states to higher energy states",
+        "protons move from higher energy states to lower energy states",
+        "electrons move from lower energy states to higher energy states",
+        "electrons move from higher energy states to lower energy states"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "An atom of lithium-7 has an equal number of",
+      "choices": [
+        "electrons and neutrons",
+        "electrons and protons",
+        "positrons and neutrons",
+        "positrons and protons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "In which type of chemical reaction do two or more reactants combine to form one product, only?",
+      "choices": [
+        "synthesis",
+        "decomposition",
+        "single replacement",
+        "double replacement"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which statement explains why neon is a Group 18 element?",
+      "choices": [
+        "Neon is a gas at STP.",
+        "Neon has a low melting point.",
+        "Neon atoms have a stable valence electron configuration.",
+        "Neon atoms have two electrons in the first shell."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which element has chemical properties that are most similar to the chemical properties of fluorine?",
+      "choices": [
+        "boron",
+        "chlorine",
+        "neon",
+        "oxygen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "What occurs as two atoms of fluorine combine to become a molecule of fluorine?",
+      "choices": [
+        "A bond is formed as energy is absorbed.",
+        "A bond is formed as energy is released.",
+        "A bond is broken as energy is absorbed.",
+        "A bond is broken as energy is released."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "What is the number of pairs of electrons that are shared between the nitrogen atoms in a molecule of N2?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which set of values represents standard pressure and standard temperature?",
+      "choices": [
+        "1 atm and 101.3 K",
+        "1 kPa and 273 K",
+        "101.3 kPa and 0\u00b0C",
+        "101.3 atm and 273\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which statement about one atom of an element identifies the element?",
+      "choices": [
+        "The atom has 1 proton.",
+        "The atom has 2 neutrons.",
+        "The sum of the number of protons and neutrons in the atom is 3.",
+        "The difference between the number of neutrons and protons in the atom is 1."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A substance is classified as either an element or a",
+      "choices": [
+        "compound",
+        "solution",
+        "heterogeneous mixture",
+        "homogeneous mixture"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "A solid element that is malleable, a good conductor of electricity, and reacts with oxygen is classified as a",
+      "choices": [
+        "metal",
+        "metalloid",
+        "noble gas",
+        "nonmetal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Three forms of energy are",
+      "choices": [
+        "chemical, exothermic, and temperature",
+        "chemical, thermal, and electromagnetic",
+        "electrical, nuclear, and temperature",
+        "electrical, mechanical, and endothermic"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "What is the total amount of heat required to vaporize 1.00 gram of H2O(\u2113) at 100.\u00b0C and 1 atmosphere?",
+      "choices": [
+        "4.18 J",
+        "334 J",
+        "373 J",
+        "2260 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "What is required for a chemical reaction to occur?",
+      "choices": [
+        "standard temperature and pressure",
+        "a catalyst added to the reaction system",
+        "effective collisions between reactant particles",
+        "an equal number of moles of reactants and products"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which compound is soluble in water?",
+      "choices": [
+        "PbS",
+        "BaS",
+        "Na2S",
+        "Fe2S3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Compared to a 26-gram sample of NaCl(s) at STP, a 52-gram sample of NaCl(s) at STP has",
+      "choices": [
+        "a different density",
+        "a different gram-formula mass",
+        "the same chemical properties",
+        "the same volume"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A gas changes directly to a solid during",
+      "choices": [
+        "fusion",
+        "deposition",
+        "saponification",
+        "decomposition"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The phase of a sample of a molecular substance at STP is not determined by its",
+      "choices": [
+        "arrangement of molecules",
+        "intermolecular forces",
+        "number of molecules",
+        "molecular structure"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which atom has the weakest attraction for electrons in a chemical bond?",
+      "choices": [
+        "a boron atom",
+        "a calcium atom",
+        "a fluorine atom",
+        "a nitrogen atom"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which statement describes a chemical reaction at equilibrium?",
+      "choices": [
+        "The products are completely consumed in the reaction.",
+        "The reactants are completely consumed in the reaction.",
+        "The concentrations of the products and reactants are equal.",
+        "The concentrations of the products and reactants are constant."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which element has atoms that can bond to each other in rings and networks?",
+      "choices": [
+        "aluminum",
+        "carbon",
+        "hydrogen",
+        "oxygen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "In an oxidation-reduction reaction, the total number of electrons lost is",
+      "choices": [
+        "equal to the total number of electrons gained",
+        "equal to the total number of protons gained",
+        "less than the total number of electrons gained",
+        "less than the total number of protons gained"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which compounds are electrolytes?",
+      "choices": [
+        "C2H5OH and H2SO4",
+        "C2H5OH and CH4",
+        "KOH and H2SO4",
+        "KOH and CH4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which compounds yield hydrogen ions as the only positive ions in an aqueous solution?",
+      "choices": [
+        "H2CO3 and HC2H3O2",
+        "H2CO3 and NaHCO3",
+        "NH3 and HC2H3O2",
+        "NH3 and NaHCO3"
+      ],
+      "image": "/images/exams/chemistry/january-2013/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Nuclei of U-238 atoms are",
+      "choices": [
+        "stable and spontaneously absorb alpha particles",
+        "stable and spontaneously emit alpha particles",
+        "unstable and spontaneously absorb alpha particles",
+        "unstable and spontaneously emit alpha particles"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which nuclear emission has the greatest penetrating power?",
+      "choices": [
+        "proton",
+        "beta particle",
+        "gamma radiation",
+        "positron"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The dating of geological formations is an example of a beneficial use of",
+      "choices": [
+        "isomers",
+        "electrolytes",
+        "organic compounds",
+        "radioactive nuclides"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which electron configuration represents a selenium atom in an excited state?",
+      "choices": [
+        "2-7-18-6",
+        "2-7-18-7",
+        "2-8-18-6",
+        "2-8-18-7"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "When the hydronium ion concentration of a solution is increased by a factor of 10, the pH value of the solution",
+      "choices": [
+        "decreases 1 pH unit",
+        "decreases 10 pH units",
+        "increases 1 pH unit",
+        "increases 10 pH units"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "In the formula XF2, the element represented by X can be classified as a",
+      "choices": [
+        "Group 1 metal",
+        "Group 2 metal",
+        "Group 1 nonmetal",
+        "Group 2 nonmetal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Which compound has the smallest percent composition by mass of chlorine?",
+      "choices": [
+        "HCl",
+        "KCl",
+        "LiCl",
+        "NaCl"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Given the incomplete equation representing a reaction: 2C6H14 \u0002 ______ O2 \u219212CO2 \u0002 14H2O What is the coefficient of O2 when the equation is completely balanced using the smallest whole-number coefficients?",
+      "choices": [
+        "13",
+        "14",
+        "19",
+        "26"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "What is the oxidation number of iodine in KIO4?",
+      "choices": [
+        "\u00021",
+        "\u00031",
+        "\u00027",
+        "\u00037"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "What is the chemical formula for zinc carbonate?",
+      "choices": [
+        "ZnCO3",
+        "Zn(CO3)2",
+        "Zn2CO3",
+        "Zn3CO2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which statement explains why a molecule of CH4 is nonpolar?",
+      "choices": [
+        "The bonds between the atoms in a CH4 molecule are polar.",
+        "The bonds between the atoms in a CH4 molecule are ionic.",
+        "The geometric shape of a CH4 molecule distributes the charges symmetrically.",
+        "The geometric shape of a CH4 molecule distributes the charges asymmetrically."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which atom in the ground state has the same electron configuration as a calcium ion, Ca2\u0002, in the ground state?",
+      "choices": [
+        "Ar",
+        "K",
+        "Mg",
+        "Ne"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "In the compound KHSO4, there is an ionic bond between the",
+      "choices": [
+        "KH\u0002 and SO4 2\u0003 ions",
+        "KHSO3 \u0002 and O2\u0003 ions",
+        "K\u0002 and HS\u0003 ions",
+        "K\u0002 and HSO4 \u0003 ions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: 27 13Al \u0002 4 2He \u2192 30 15P \u0002 1 0n Which type of reaction is represented by this equation?",
+      "choices": [
+        "combustion",
+        "decomposition",
+        "saponification",
+        "transmutation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "A 220.0-mL sample of helium gas is in a cylinder with a movable piston at 105 kPa and 275 K. The piston is pushed in until the sample has a volume of 95.0 mL. The new temperature of the gas is 310. K. What is the new pressure of the sample?",
+      "choices": [
+        "51.1 kPa",
+        "216 kPa",
+        "243 kPa",
+        "274 kPa"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Given the cooling curve of a substance: During which intervals is potential energy decreasing and average kinetic energy remaining constant?",
+      "choices": [
+        "AB and BC",
+        "AB and CD",
+        "DE and BC",
+        "DE and EF"
+      ],
+      "image": "/images/exams/chemistry/january-2013/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which metal will spontaneously react with Zn2\u0002(aq), but will not spontaneously react with Mg2\u0002(aq)?",
+      "choices": [
+        "Mn(s)",
+        "Cu(s)",
+        "Ni(s)",
+        "Ba(s)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Which particle diagram represents the arrangement of F2 molecules in a sample of fluorine at 95 K and standard pressure?",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/q45.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Given the formulas of four organic compounds: Which compounds have the same molecular formula?",
+      "choices": [
+        "A and B",
+        "A and C",
+        "D and B",
+        "D and C H H C H C OH H H ( A ) H H C OH H ( B ) H H C O C H H H H ( C ) H H C H C O H H C H H H ( D ) ( 1 ) ( 2 ) ( 3 ) ( 4 ) Key = atom of fluorine Time (min) Temperature (\u0002C) A B C D E F"
+      ],
+      "image": "/images/exams/chemistry/january-2013/q46.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Given the incomplete equation representing a reaction: 2Na(s) \u0002 2H2O(\u2113) \u21922Na\u0002(aq) \u0002 2 _____ (aq) \u0002 H2(g) What is the formula of the missing product?",
+      "choices": [
+        "O2\u0003",
+        "O2",
+        "OH\u0003",
+        "OH"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction where the masses are expressed in atomic mass units: hydrogen-2 \u0002 hydrogen-1 \u2192helium-3 \u0002 8.814 \u0004 10\u000316 kJ 2.014 102 u 1.007 825 u 3.016 029 u Which phrase describes this reaction?",
+      "choices": [
+        "a chemical reaction and mass being converted to energy",
+        "a chemical reaction and energy being converted to mass",
+        "a nuclear reaction and mass being converted to energy",
+        "a nuclear reaction and energy being converted to mass"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Given the diagram representing a process being used to separate the colored dyes in food coloring: Which process is represented by this diagram?",
+      "choices": [
+        "chromatography",
+        "electrolysis",
+        "distillation",
+        "titration Drop of food coloring Paper Beaker Water Start of process End of process Red Pink"
+      ],
+      "image": "/images/exams/chemistry/january-2013/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Given the diagram representing a reaction: According to one acid-base theory, the water acts as",
+      "choices": [
+        "a base because it accepts an H\u0002",
+        "a base because it donates an H\u0002",
+        "an acid because it accepts an H\u0002",
+        "an acid because it donates an H\u0002 + Cl H O H H H H O H + Cl \u2013 +"
+      ],
+      "image": "/images/exams/chemistry/january-2013/q50.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Draw a Lewis electron-dot diagram for an atom of silicon.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/q51.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "State what interval 3 represents.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_52_54.png",
+      "context": "Base your answers to questions 52 through 54 on the information below.\nThe potential energy diagram and balanced equation shown below represent a reaction\nbetween solid carbon and hydrogen gas to produce 1 mole of C2H4(g) at 101.3 kPa and \n298 K.\n2C(s) \u0002 2H2(g) \u0002 52.4 kJ \u2192C2H4(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Determine the net amount of energy absorbed when 2.00 moles of C2H4(g) are produced.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_52_54.png",
+      "context": "Base your answers to questions 52 through 54 on the information below.\nThe potential energy diagram and balanced equation shown below represent a reaction\nbetween solid carbon and hydrogen gas to produce 1 mole of C2H4(g) at 101.3 kPa and \n298 K.\n2C(s) \u0002 2H2(g) \u0002 52.4 kJ \u2192C2H4(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify one change in the reaction conditions, other than adding a catalyst, that can increase the rate of this reaction. Potential Energy Reaction Coordinate ( 4 ) ( 3 ) ( 2 ) ( 1 )",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_52_54.png",
+      "context": "Base your answers to questions 52 through 54 on the information below.\nThe potential energy diagram and balanced equation shown below represent a reaction\nbetween solid carbon and hydrogen gas to produce 1 mole of C2H4(g) at 101.3 kPa and \n298 K.\n2C(s) \u0002 2H2(g) \u0002 52.4 kJ \u2192C2H4(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "On the grid in your answer booklet, mark an appropriate scale on the axis labeled \u201cAtomic Radius (pm).\u201d",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the information below.\nThe atomic number and corresponding atomic radius of the Period 3 elements are\nshown in the data table below.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "On the grid in your answer booklet, plot the data from the data table. Circle and connect the points.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the information below.\nThe atomic number and corresponding atomic radius of the Period 3 elements are\nshown in the data table below.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "State the general relationship between the atomic number and the atomic radius for the Period 3 elements.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the information below.\nThe atomic number and corresponding atomic radius of the Period 3 elements are\nshown in the data table below.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Explain, in terms of electrons, the change in radius when a sodium atom becomes a sodium ion. Atomic Number Atomic Radius (pm) 11 160. 12 140. 13 124 14 114 15 109 16 104 17 100. 18 101",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the information below.\nThe atomic number and corresponding atomic radius of the Period 3 elements are\nshown in the data table below.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Explain, in terms of bonding, why the hydrocarbon reactant is an unsaturated hydrocarbon.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below.\nThe equation below represents the reaction between 1-butene and bromine to form \nthe compound 1,2-dibromobutane, C4H8Br2.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Determine the gram-formula mass of 1-butene.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below.\nThe equation below represents the reaction between 1-butene and bromine to form \nthe compound 1,2-dibromobutane, C4H8Br2.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Write the empirical formula for the product.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below.\nThe equation below represents the reaction between 1-butene and bromine to form \nthe compound 1,2-dibromobutane, C4H8Br2.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Determine the number of moles of NH4Cl(s) used to produce 2.0 liters of this solution.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below.\nAmmonium chloride is dissolved in water to form a 0.10 M NH4Cl(aq) solution. This\ndissolving process is represented by the equation below.\nNH4Cl(s) \u0002 heat\nH2O\nNH4\n\u0002(aq) \u0002 Cl\u0003(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "State evidence that indicates the dissolving of ammonium chloride is an endothermic process.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below.\nAmmonium chloride is dissolved in water to form a 0.10 M NH4Cl(aq) solution. This\ndissolving process is represented by the equation below.\nNH4Cl(s) \u0002 heat\nH2O\nNH4\n\u0002(aq) \u0002 Cl\u0003(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Explain, in terms of ions, why a 10.0-milliliter sample of 0.30 M NH4Cl(aq) is a better conductor of electricity than a 10.0-milliliter sample of the 0.10 M NH4Cl(aq).",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below.\nAmmonium chloride is dissolved in water to form a 0.10 M NH4Cl(aq) solution. This\ndissolving process is represented by the equation below.\nNH4Cl(s) \u0002 heat\nH2O\nNH4\n\u0002(aq) \u0002 Cl\u0003(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Determine the minimum mass of NH4Cl(s) required to produce a saturated solution in 100. grams of water at 40.\u00b0C. + Br2 H Br C H C C H Br H C H H H H H C H C C H H C H H H H",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below.\nAmmonium chloride is dissolved in water to form a 0.10 M NH4Cl(aq) solution. This\ndissolving process is represented by the equation below.\nNH4Cl(s) \u0002 heat\nH2O\nNH4\n\u0002(aq) \u0002 Cl\u0003(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Identify one diatomic element found in the atmosphere.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below.\nNitrogen gas and oxygen gas make up about 99% of Earth\u2019s atmosphere. Other \natmospheric gases include argon, carbon dioxide, methane, ozone, hydrogen, etc.\nThe amount of carbon dioxide in the atmosphere can vary. Data for the concentration\nof CO2(g) from 1960 to 2000 are shown in the table below.\nAtmospheric Concentration of CO2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Explain, in terms of types of matter, why methane can be broken down by chemical means, but argon can not be broken down by chemical means. Your response must include both methane and argon.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below.\nNitrogen gas and oxygen gas make up about 99% of Earth\u2019s atmosphere. Other \natmospheric gases include argon, carbon dioxide, methane, ozone, hydrogen, etc.\nThe amount of carbon dioxide in the atmosphere can vary. Data for the concentration\nof CO2(g) from 1960 to 2000 are shown in the table below.\nAtmospheric Concentration of CO2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the mass of carbon dioxide in a 100.0-gram sample of air taken in 1980.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below.\nNitrogen gas and oxygen gas make up about 99% of Earth\u2019s atmosphere. Other \natmospheric gases include argon, carbon dioxide, methane, ozone, hydrogen, etc.\nThe amount of carbon dioxide in the atmosphere can vary. Data for the concentration\nof CO2(g) from 1960 to 2000 are shown in the table below.\nAtmospheric Concentration of CO2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Explain why the atmosphere is classified as a mixture. Year Concentration (ppm) 1960 316.9 1980 338.7 2000 369.4",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below.\nNitrogen gas and oxygen gas make up about 99% of Earth\u2019s atmosphere. Other \natmospheric gases include argon, carbon dioxide, methane, ozone, hydrogen, etc.\nThe amount of carbon dioxide in the atmosphere can vary. Data for the concentration\nof CO2(g) from 1960 to 2000 are shown in the table below.\nAtmospheric Concentration of CO2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Identify the component required for the electrolysis of molten NaCl that is missing from the cell diagram.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the information below.\nMetallic elements are obtained from their ores by reduction. Some metals, such as zinc,\nlead, iron, and copper, can be obtained by heating their oxides with carbon.\nMore active metals, such as aluminum, magnesium, and sodium, can not be reduced by\ncarbon. These metals can be obtained by the electrolysis of their molten (melted) ores. The\ndiagram below represents an incomplete cell for the electrolysis of molten NaCl. The \nequation below represents the reaction that occurs when the completed cell operates.\n2NaCl(\u2113) \u21922Na(\u2113) \u0002 Cl2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Identify one metal from the passage that is more active than carbon and one metal from the passage that is less active than carbon.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the information below.\nMetallic elements are obtained from their ores by reduction. Some metals, such as zinc,\nlead, iron, and copper, can be obtained by heating their oxides with carbon.\nMore active metals, such as aluminum, magnesium, and sodium, can not be reduced by\ncarbon. These metals can be obtained by the electrolysis of their molten (melted) ores. The\ndiagram below represents an incomplete cell for the electrolysis of molten NaCl. The \nequation below represents the reaction that occurs when the completed cell operates.\n2NaCl(\u2113) \u21922Na(\u2113) \u0002 Cl2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Write a balanced half-reaction equation for the reduction of the iron ions in iron(III) oxide to iron atoms.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the information below.\nMetallic elements are obtained from their ores by reduction. Some metals, such as zinc,\nlead, iron, and copper, can be obtained by heating their oxides with carbon.\nMore active metals, such as aluminum, magnesium, and sodium, can not be reduced by\ncarbon. These metals can be obtained by the electrolysis of their molten (melted) ores. The\ndiagram below represents an incomplete cell for the electrolysis of molten NaCl. The \nequation below represents the reaction that occurs when the completed cell operates.\n2NaCl(\u2113) \u21922Na(\u2113) \u0002 Cl2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Compare the abundance of the two naturally occurring isotopes of boron.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 76 on the information below.\nThe element boron, a trace element in Earth\u2019s crust, is found in foods produced from\nplants. Boron has only two naturally occurring stable isotopes, boron-10 and boron-11.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Write an isotopic notation of the heavier isotope of the element boron. Your response must include the atomic number, the mass number, and the symbol of this isotope.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 76 on the information below.\nThe element boron, a trace element in Earth\u2019s crust, is found in foods produced from\nplants. Boron has only two naturally occurring stable isotopes, boron-10 and boron-11.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "State, in terms of subatomic particles, one difference between the nucleus of a carbon-11 atom and the nucleus of a boron-11 atom.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 76 on the information below.\nThe element boron, a trace element in Earth\u2019s crust, is found in foods produced from\nplants. Boron has only two naturally occurring stable isotopes, boron-10 and boron-11.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "One sample of a green vegetable contains 0.0035 gram of boron. Determine the total number of moles of boron in this sample. Cathode Anode Cl\u2013 Na+ Wire Wire",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 76 on the information below.\nThe element boron, a trace element in Earth\u2019s crust, is found in foods produced from\nplants. Boron has only two naturally occurring stable isotopes, boron-10 and boron-11.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Write the chemical formula for the acetic acid.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 79 on the information below.\nThe active ingredient in the pain reliever aspirin is acetylsalicylic acid. This compound\ncan be produced by reacting salicylic acid with acetic acid. The label of one aspirin bottle\nindicates that the accepted mass of acetylsalicylic acid in each tablet is 325 milligrams.\nIn a laboratory, an aspirin tablet is crushed and mixed with water to dissolve all of the\nacetylsalicylic acid. The measured pH of the resulting solution is 3.0.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "State the color of methyl orange indicator after the indicator is placed in the solution.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 79 on the information below.\nThe active ingredient in the pain reliever aspirin is acetylsalicylic acid. This compound\ncan be produced by reacting salicylic acid with acetic acid. The label of one aspirin bottle\nindicates that the accepted mass of acetylsalicylic acid in each tablet is 325 milligrams.\nIn a laboratory, an aspirin tablet is crushed and mixed with water to dissolve all of the\nacetylsalicylic acid. The measured pH of the resulting solution is 3.0.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "The mass of acetylsalicylic acid in one aspirin tablet is determined to be 320. milligrams. Show a numerical setup for calculating the percent error for the mass of acetylsalicylic acid in this aspirin tablet.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/q79.png",
+      "context": "Base your answers to questions 77 through 79 on the information below.\nThe active ingredient in the pain reliever aspirin is acetylsalicylic acid. This compound\ncan be produced by reacting salicylic acid with acetic acid. The label of one aspirin bottle\nindicates that the accepted mass of acetylsalicylic acid in each tablet is 325 milligrams.\nIn a laboratory, an aspirin tablet is crushed and mixed with water to dissolve all of the\nacetylsalicylic acid. The measured pH of the resulting solution is 3.0.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Compare the average kinetic energy of the water molecules in the bottle at 7 a.m. to the average kinetic energy of the water molecules in the bottle at 3 p.m.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the information below.\nA student investigated heat transfer using a bottle of water. The student placed the\nbottle in a room at 20.5\u00b0C. The student measured the temperature of the water in the \nbottle at 7 a.m. and again at 3 p.m. The data from the investigation are shown in the table\nbelow.\nWater Bottle Investigation Data",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "State the direction of heat transfer between the surroundings and the water in the bottle from 7 a.m. to 3 p.m.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the information below.\nA student investigated heat transfer using a bottle of water. The student placed the\nbottle in a room at 20.5\u00b0C. The student measured the temperature of the water in the \nbottle at 7 a.m. and again at 3 p.m. The data from the investigation are shown in the table\nbelow.\nWater Bottle Investigation Data",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the change in the thermal energy of the water in the bottle from 7 a.m. to 3 p.m. 7 a.m. 3 p.m. Mass of Water (g) Temperature (\u00b0C) Mass of Water (g) Temperature (\u00b0C) 800. 12.5 800. 20.5",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the information below.\nA student investigated heat transfer using a bottle of water. The student placed the\nbottle in a room at 20.5\u00b0C. The student measured the temperature of the water in the \nbottle at 7 a.m. and again at 3 p.m. The data from the investigation are shown in the table\nbelow.\nWater Bottle Investigation Data",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Identify the type of organic reaction represented by this equation.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the information below.\nIn one method of making bread, starch is broken down into glucose. Zymase, an enzyme\npresent in yeast, acts as a catalyst for the reaction in which the glucose reacts to produce\nethanol and carbon dioxide. The carbon dioxide gas causes the bread dough to rise. The \nbalanced equation below represents the catalyzed reaction.\nC6H12O6(aq) \n2CH3CH2OH(aq) \u0002 2CO2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Identify the functional group in an ethanol molecule.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the information below.\nIn one method of making bread, starch is broken down into glucose. Zymase, an enzyme\npresent in yeast, acts as a catalyst for the reaction in which the glucose reacts to produce\nethanol and carbon dioxide. The carbon dioxide gas causes the bread dough to rise. The \nbalanced equation below represents the catalyzed reaction.\nC6H12O6(aq) \n2CH3CH2OH(aq) \u0002 2CO2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "State how the catalyst, zymase, increases the rate of this reaction. zymase \u23af \u2192 \u23af\u23af\u23af P.S./ P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2013/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the information below.\nIn one method of making bread, starch is broken down into glucose. Zymase, an enzyme\npresent in yeast, acts as a catalyst for the reaction in which the glucose reacts to produce\nethanol and carbon dioxide. The carbon dioxide gas causes the bread dough to rise. The \nbalanced equation below represents the catalyzed reaction.\nC6H12O6(aq) \n2CH3CH2OH(aq) \u0002 2CO2(g)",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -46,8 +46,7 @@ export default {
       topic: 'Coordinate Geometry',
       correct: 2,
       explanation: 'The midpoint is the average of the coordinates: ((−2 + 4)/2, (6 + (−2))/2) = (1, 2).',
-      diveDeep: 'The midpoint formula M = ((x₁ + x₂)/2, (y₁ + y₂)/2) finds the point exactly halfway between two endpoints. A common error is subtracting instead of adding the coordinates (that gives the components of the distance/slope, not the midpoint). Watch signs carefully when negative coordinates are involved. The midpoint is heavily used to find centers of circles, to test whether diagonals bisect each other in quadrilateral proofs, and to find the point of a partition.'
-    },
+      diveDeep: 'The midpoint formula M = ((x₁ + x₂)/2, (y₁ + y₂)/2) finds the point exactly halfway between two endpoints. A common error is subtracting instead of adding the coordinates (that gives the components of the distance/slope, not the midpoint). Watch signs carefully when negative coordinates are involved. The midpoint is heavily used to find centers of circles, to test whether diagonals bisect each other in quadrilateral proofs, and to find the point of a partition.', image: '/images/exams/geo-august-2024/q4.png' },
     {
       number: 5,
       part: 'A',
@@ -56,8 +55,7 @@ export default {
       topic: 'Similarity & Proof',
       correct: 0,
       explanation: 'Corresponding sides of similar triangles are proportional: 8/6 = 12/EF, so EF = (12 × 6)/8 = 9.',
-      diveDeep: 'When triangles are similar, corresponding sides are in a constant ratio (the scale factor) and corresponding angles are equal. Set up the proportion by matching corresponding vertices in the similarity statement △ABC ~ △DEF, so AB↔DE and BC↔EF. A common trap is pairing sides in the wrong order, which inverts the ratio. Cross-multiply and solve; here the scale factor from DEF to ABC is 8/6 = 4/3, so EF = 12 ÷ (4/3) = 9.'
-    },
+      diveDeep: 'When triangles are similar, corresponding sides are in a constant ratio (the scale factor) and corresponding angles are equal. Set up the proportion by matching corresponding vertices in the similarity statement △ABC ~ △DEF, so AB↔DE and BC↔EF. A common trap is pairing sides in the wrong order, which inverts the ratio. Cross-multiply and solve; here the scale factor from DEF to ABC is 8/6 = 4/3, so EF = 12 ÷ (4/3) = 9.', image: '/images/exams/geo-august-2024/q5.png' },
     {
       number: 6,
       part: 'A',
@@ -66,8 +64,7 @@ export default {
       topic: 'Circles',
       correct: 0,
       explanation: 'In the standard form (x − h)² + (y − k)² = r², the center is (h, k) = (3, −2) and r² = 16 so r = 4.',
-      diveDeep: 'The center-radius form (x − h)² + (y − k)² = r² lets you read the center and radius directly, but you must flip the signs of h and k. The (x − 3)² gives h = +3, and (y + 2)² = (y − (−2))² gives k = −2. The most common mistake is taking r = 16 instead of √16 = 4, forgetting that the equation stores r², not r. If a circle is given in general form x² + y² + Dx + Ey + F = 0, you must complete the square to convert before reading the center and radius.'
-    },
+      diveDeep: 'The center-radius form (x − h)² + (y − k)² = r² lets you read the center and radius directly, but you must flip the signs of h and k. The (x − 3)² gives h = +3, and (y + 2)² = (y − (−2))² gives k = −2. The most common mistake is taking r = 16 instead of √16 = 4, forgetting that the equation stores r², not r. If a circle is given in general form x² + y² + Dx + Ey + F = 0, you must complete the square to convert before reading the center and radius.', image: '/images/exams/geo-august-2024/q6.png' },
     {
       number: 7,
       part: 'A',
@@ -76,8 +73,7 @@ export default {
       topic: 'Area & Volume',
       correct: 1,
       explanation: 'The volume of a cylinder is V = πr²h = π(5)²(10) = π × 25 × 10 = 250π cubic centimeters.',
-      diveDeep: 'The cylinder volume formula V = πr²h appears on the reference sheet as V = Bh, where B = πr² is the area of the circular base. A frequent error is using the diameter instead of the radius, or forgetting to square the radius. Keep the answer "in terms of π" when asked, rather than multiplying out — that signals leaving π symbolic. Squaring happens only on the radius, never on the height, so the units are cubic.'
-    },
+      diveDeep: 'The cylinder volume formula V = πr²h appears on the reference sheet as V = Bh, where B = πr² is the area of the circular base. A frequent error is using the diameter instead of the radius, or forgetting to square the radius. Keep the answer "in terms of π" when asked, rather than multiplying out — that signals leaving π symbolic. Squaring happens only on the radius, never on the height, so the units are cubic.', image: '/images/exams/geo-august-2024/q7.png' },
     {
       number: 8,
       part: 'A',
@@ -86,8 +82,7 @@ export default {
       topic: 'Coordinate Geometry',
       correct: 1,
       explanation: 'A parallelogram with congruent diagonals must be a rectangle; the other three properties are true of every parallelogram and do not force right angles.',
-      diveDeep: 'Every parallelogram already has bisecting diagonals, congruent opposite sides, and congruent opposite angles — so those properties cannot distinguish a rectangle. The defining extra property of a rectangle is four right angles, which is equivalent to having congruent diagonals. By contrast, perpendicular diagonals indicate a rhombus, and diagonals that are both congruent and perpendicular indicate a square. Memorize this hierarchy: congruent diagonals → rectangle, perpendicular diagonals → rhombus, both → square.'
-    },
+      diveDeep: 'Every parallelogram already has bisecting diagonals, congruent opposite sides, and congruent opposite angles — so those properties cannot distinguish a rectangle. The defining extra property of a rectangle is four right angles, which is equivalent to having congruent diagonals. By contrast, perpendicular diagonals indicate a rhombus, and diagonals that are both congruent and perpendicular indicate a square. Memorize this hierarchy: congruent diagonals → rectangle, perpendicular diagonals → rhombus, both → square.', image: '/images/exams/geo-august-2024/q8.png' },
     {
       number: 9,
       part: 'A',
@@ -96,8 +91,7 @@ export default {
       topic: 'Triangles & Congruence',
       correct: 0,
       explanation: 'Sine of an angle is opposite over hypotenuse; the side opposite angle A is BC = 5 and the hypotenuse is AB = 13, so sin A = 5/13.',
-      diveDeep: 'Use SOH-CAH-TOA: sine = opposite/hypotenuse, cosine = adjacent/hypotenuse, tangent = opposite/adjacent. The hypotenuse is always opposite the right angle (here AB = 13). The leg opposite angle A is BC, so sin A = 5/13. A common trap is confusing which leg is "opposite" — it is the leg not touching the angle vertex. Note that this is a 5-12-13 Pythagorean triple, so AC = 12 and cos A = 12/13.'
-    },
+      diveDeep: 'Use SOH-CAH-TOA: sine = opposite/hypotenuse, cosine = adjacent/hypotenuse, tangent = opposite/adjacent. The hypotenuse is always opposite the right angle (here AB = 13). The leg opposite angle A is BC, so sin A = 5/13. A common trap is confusing which leg is "opposite" — it is the leg not touching the angle vertex. Note that this is a 5-12-13 Pythagorean triple, so AC = 12 and cos A = 12/13.', image: '/images/exams/geo-august-2024/q9.png' },
     {
       number: 10,
       part: 'A',
@@ -106,8 +100,7 @@ export default {
       topic: 'Triangles & Congruence',
       correct: 3,
       explanation: 'If HG is the perpendicular bisector of US, then UG ≅ SG (bisector), ∠HGU ≅ ∠HGS are right angles (perpendicular), and HG ≅ HG, giving SAS.',
-      diveDeep: 'For SAS you need two pairs of congruent sides with the included angle between them congruent. The perpendicular bisector gives you both the equal segments (UG ≅ SG) and the equal included right angles at G, with the shared side HG completing the pattern Side-Angle-Side. Merely bisecting US gives SSS-style info but no angle; being an altitude gives the right angle but not equal base segments. Always check that the congruent angle is the included angle between the two congruent sides — otherwise SAS does not apply.'
-    },
+      diveDeep: 'For SAS you need two pairs of congruent sides with the included angle between them congruent. The perpendicular bisector gives you both the equal segments (UG ≅ SG) and the equal included right angles at G, with the shared side HG completing the pattern Side-Angle-Side. Merely bisecting US gives SSS-style info but no angle; being an altitude gives the right angle but not equal base segments. Always check that the congruent angle is the included angle between the two congruent sides — otherwise SAS does not apply.', image: '/images/exams/geo-august-2024/q10.png' },
     {
       number: 11,
       part: 'A',
@@ -169,8 +162,7 @@ export default {
       topic: 'Circles',
       correct: 1,
       explanation: 'Completing the square gives (x − 1)² + (y + 2)² = 10, so r² = 10 and r = √10.',
-      diveDeep: 'To find the radius from the general form, complete the square on the x and y terms. Group x² − 2x + (y² + 4y) = 5, then add (−2/2)² = 1 and (4/2)² = 4 to both sides: (x − 1)² + (y + 2)² = 5 + 1 + 4 = 10. The radius is √10, not 10 — a very common trap is reporting r² as r. Always finish by taking the square root of the constant on the right side.'
-    },
+      diveDeep: 'To find the radius from the general form, complete the square on the x and y terms. Group x² − 2x + (y² + 4y) = 5, then add (−2/2)² = 1 and (4/2)² = 4 to both sides: (x − 1)² + (y + 2)² = 5 + 1 + 4 = 10. The radius is √10, not 10 — a very common trap is reporting r² as r. Always finish by taking the square root of the constant on the right side.', image: '/images/exams/geo-august-2024/q16.png' },
     {
       number: 17,
       part: 'A',
@@ -199,8 +191,7 @@ export default {
       topic: 'Triangles & Congruence',
       correct: 2,
       explanation: 'The right-triangle altitude theorems give true proportions for SN, ON, and NW as geometric means, but SW/NS = NS/OW is not a valid mean-proportional relationship.',
-      diveDeep: 'When an altitude is drawn to the hypotenuse of a right triangle, it creates three similar triangles and three geometric-mean (mean-proportional) relationships: each leg is the geometric mean between the hypotenuse and its adjacent segment (SN² = SO·SW, ON² = SO·OW), and the altitude is the geometric mean between the two hypotenuse segments (NW² = SW·OW). A correct proportion always squares a single segment that is the mean. The trap mixes segments that do not form a valid mean proportion, so cross-multiply each choice and verify it reduces to one of the three legitimate theorems.'
-    },
+      diveDeep: 'When an altitude is drawn to the hypotenuse of a right triangle, it creates three similar triangles and three geometric-mean (mean-proportional) relationships: each leg is the geometric mean between the hypotenuse and its adjacent segment (SN² = SO·SW, ON² = SO·OW), and the altitude is the geometric mean between the two hypotenuse segments (NW² = SW·OW). A correct proportion always squares a single segment that is the mean. The trap mixes segments that do not form a valid mean proportion, so cross-multiply each choice and verify it reduces to one of the three legitimate theorems.', image: '/images/exams/geo-august-2024/q19.png' },
     {
       number: 20,
       part: 'A',
@@ -220,8 +211,7 @@ export default {
       correct: 0,
       explanation: 'An angle formed by two chords equals half the sum of the intercepted arcs: 46 = ½(arc AD + arc LD) = ½(arc AD + 124), so arc AD = 92 − 124... use the vertical arc; arc AD = 2(46) − 124 = −32 is rejected, so 46 = ½(arc AD + arc LM) gives arc AD = 36°.',
       explanationOverride: true,
-      diveDeep: 'Two chords intersecting inside a circle form an angle equal to half the SUM of the two intercepted arcs (the arc "in front" of the angle and the arc "behind" it, i.e., the vertical angle\'s arc). Set up 46° = ½(arc AD + arc opposite). Because MD is a diameter, the arcs on each side sum to 180°, which lets you solve for arc AD = 36°. The most common trap is using half the difference (the formula for angles formed outside the circle by secants) instead of half the sum for chords meeting inside.'
-    },
+      diveDeep: 'Two chords intersecting inside a circle form an angle equal to half the SUM of the two intercepted arcs (the arc "in front" of the angle and the arc "behind" it, i.e., the vertical angle\'s arc). Set up 46° = ½(arc AD + arc opposite). Because MD is a diameter, the arcs on each side sum to 180°, which lets you solve for arc AD = 36°. The most common trap is using half the difference (the formula for angles formed outside the circle by secants) instead of half the sum for chords meeting inside.', image: '/images/exams/geo-august-2024/q21.png' },
     {
       number: 22,
       part: 'A',
@@ -230,8 +220,7 @@ export default {
       topic: 'Area & Volume',
       correct: 3,
       explanation: 'A plane perpendicular to both triangular bases of a right prism slices straight down through the parallel lateral faces, producing a rectangular cross section.',
-      diveDeep: 'Cross sections depend on the angle of the cut relative to the solid. A cut parallel to the bases of a prism reproduces the base shape (a triangle here), but a cut perpendicular to the bases slices vertically through the rectangular lateral faces, yielding a rectangle whose height equals the prism height. Visualize slicing a triangular wedge straight down: the exposed face is a rectangle. The trap is assuming any cross section of a triangular prism is a triangle — only cuts parallel to the bases reproduce the triangle.'
-    },
+      diveDeep: 'Cross sections depend on the angle of the cut relative to the solid. A cut parallel to the bases of a prism reproduces the base shape (a triangle here), but a cut perpendicular to the bases slices vertically through the rectangular lateral faces, yielding a rectangle whose height equals the prism height. Visualize slicing a triangular wedge straight down: the exposed face is a rectangle. The trap is assuming any cross section of a triangular prism is a triangle — only cuts parallel to the bases reproduce the triangle.', image: '/images/exams/geo-august-2024/q22.png' },
     {
       number: 23,
       part: 'A',
@@ -263,8 +252,7 @@ export default {
       topic: 'Constructions',
       modelAnswer: 'Place the compass point on A and open it to a radius greater than half of AB. Draw an arc above and below the segment. Without changing the compass setting, place the compass point on B and draw a second pair of arcs that intersect the first arcs above and below the segment. Use the straightedge to draw the line through the two intersection points of the arcs. This line is the perpendicular bisector of AB; it passes through the midpoint of AB and is perpendicular to it. All compass arcs must remain visible for full credit.',
       explanation: 'Points equidistant from both endpoints A and B lie on the perpendicular bisector, so the two arc intersections (each equidistant from A and B) determine that line.',
-      diveDeep: 'A perpendicular bisector construction relies on the locus definition: every point equidistant from A and B lies on the perpendicular bisector. Keeping the same radius greater than ½AB from both endpoints guarantees the two intersection points are equidistant from A and B. A common credit-losing error is changing the compass width between arcs or erasing the construction marks, which the graders require to see. The same arc technique underlies constructing a midpoint, an altitude, and the circumcenter of a triangle.'
-    },
+      diveDeep: 'A perpendicular bisector construction relies on the locus definition: every point equidistant from A and B lies on the perpendicular bisector. Keeping the same radius greater than ½AB from both endpoints guarantees the two intersection points are equidistant from A and B. A common credit-losing error is changing the compass width between arcs or erasing the construction marks, which the graders require to see. The same arc technique underlies constructing a midpoint, an altitude, and the circumcenter of a triangle.', image: '/images/exams/geo-august-2024/q25.png' },
     {
       number: 26,
       part: 'B',
@@ -273,8 +261,7 @@ export default {
       topic: 'Angles & Lines',
       modelAnswer: 'Because lines a and b are parallel and cut by transversal t, corresponding angles are congruent, so their measures are equal: 3x + 20 = 5x − 40. Subtract 3x from both sides: 20 = 2x − 40. Add 40 to both sides: 60 = 2x. Divide by 2: x = 30.',
       explanation: 'Corresponding angles formed by a transversal cutting parallel lines are congruent, so setting their expressions equal and solving gives x = 30.',
-      diveDeep: 'Parallel-line angle problems hinge on identifying the angle relationship before writing an equation: corresponding and alternate (interior or exterior) angles are congruent (set expressions equal), while same-side interior angles and linear pairs are supplementary (set the sum equal to 180°). Misclassifying the angle pair is the most common error, so always note whether to use "equal" or "sums to 180." After solving for x, you can substitute back to find each angle measure and check that the relationship holds.'
-    },
+      diveDeep: 'Parallel-line angle problems hinge on identifying the angle relationship before writing an equation: corresponding and alternate (interior or exterior) angles are congruent (set expressions equal), while same-side interior angles and linear pairs are supplementary (set the sum equal to 180°). Misclassifying the angle pair is the most common error, so always note whether to use "equal" or "sums to 180." After solving for x, you can substitute back to find each angle measure and check that the relationship holds.', image: '/images/exams/geo-august-2024/q26.png' },
     {
       number: 27,
       part: 'B',
@@ -283,8 +270,7 @@ export default {
       topic: 'Coordinate Geometry',
       modelAnswer: 'AB is horizontal: AB = |5 − 1| = 4. BC is vertical: BC = |6 − 2| = 4. AC uses the distance formula: AC = √[(5 − 1)² + (6 − 2)²] = √[16 + 16] = √32 = 4√2. The perimeter is AB + BC + AC = 4 + 4 + 4√2 = 8 + 4√2.',
       explanation: 'The two legs are 4 each and the hypotenuse is √32 = 4√2 by the distance formula, so the perimeter is 8 + 4√2.',
-      diveDeep: 'For coordinate-geometry perimeter problems, find each side length with the distance formula d = √[(x₂ − x₁)² + (y₂ − y₁)²]; horizontal and vertical segments can be found by simple subtraction. Simplest radical form requires factoring out perfect squares: √32 = √(16·2) = 4√2. A frequent error is leaving the answer as a decimal when "simplest radical form" is requested, or forgetting to simplify the radical. Recognizing this as an isosceles right (45-45-90) triangle confirms the hypotenuse is leg × √2.'
-    },
+      diveDeep: 'For coordinate-geometry perimeter problems, find each side length with the distance formula d = √[(x₂ − x₁)² + (y₂ − y₁)²]; horizontal and vertical segments can be found by simple subtraction. Simplest radical form requires factoring out perfect squares: √32 = √(16·2) = 4√2. A frequent error is leaving the answer as a decimal when "simplest radical form" is requested, or forgetting to simplify the radical. Recognizing this as an isosceles right (45-45-90) triangle confirms the hypotenuse is leg × √2.', image: '/images/exams/geo-august-2024/q27.png' },
     {
       number: 28,
       part: 'B',
@@ -293,8 +279,7 @@ export default {
       topic: 'Area & Volume',
       modelAnswer: 'The volume of a sphere is V = (4/3)πr³. Substitute r = 6: V = (4/3)π(6)³ = (4/3)π(216) = 288π cubic centimeters.',
       explanation: 'Using V = (4/3)πr³ with r = 6 gives (4/3)(216)π = 288π cm³.',
-      diveDeep: 'The sphere volume formula V = (4/3)πr³ is on the reference sheet; the cube applies only to the radius. Compute 6³ = 216 first, then multiply by 4/3 to get 288, leaving π symbolic when "in terms of π" is requested. A common error is squaring the radius (confusing the sphere with a circle area) or forgetting the 4/3 factor. Note a hemisphere would be exactly half this, (2/3)πr³ = 144π.'
-    },
+      diveDeep: 'The sphere volume formula V = (4/3)πr³ is on the reference sheet; the cube applies only to the radius. Compute 6³ = 216 first, then multiply by 4/3 to get 288, leaving π symbolic when "in terms of π" is requested. A common error is squaring the radius (confusing the sphere with a circle area) or forgetting the 4/3 factor. Note a hemisphere would be exactly half this, (2/3)πr³ = 144π.', image: '/images/exams/geo-august-2024/q28.png' },
     {
       number: 29,
       part: 'B',
@@ -303,8 +288,7 @@ export default {
       topic: 'Triangles & Congruence',
       modelAnswer: 'Two triangles are congruent if and only if there exists a sequence of rigid motions (translations, rotations, and reflections) that maps one exactly onto the other. Since △ABC ≅ △DEF, we can first translate △ABC so that vertex A maps onto vertex D. Then rotate the image about D until side AB aligns with side DE (possible because AB ≅ DE). If C and F are then on opposite sides of line DE, reflect over line DE. Because corresponding sides and angles are congruent (AB ≅ DE, ∠A ≅ ∠D, AC ≅ DF), point C maps exactly onto F, so the entire triangle ABC maps onto DEF. Rigid motions preserve distance and angle, so the image is congruent to the original.',
       explanation: 'Congruence is defined by the existence of a distance- and angle-preserving sequence of rigid motions mapping one figure onto the other, so the congruent triangles can be carried onto each other by translation, rotation, and (if needed) reflection.',
-      diveDeep: 'The modern definition of congruence is transformational: figures are congruent exactly when a sequence of rigid motions maps one onto the other. A standard mapping sequence is translate a vertex to its image, rotate to align an adjacent side, then reflect if the orientations differ. Because rigid motions preserve length and angle measure, corresponding parts stay congruent throughout, guaranteeing the final overlap. Full credit requires naming specific rigid motions and justifying why each corresponding part lands on its match, not merely asserting congruence.'
-    },
+      diveDeep: 'The modern definition of congruence is transformational: figures are congruent exactly when a sequence of rigid motions maps one onto the other. A standard mapping sequence is translate a vertex to its image, rotate to align an adjacent side, then reflect if the orientations differ. Because rigid motions preserve length and angle measure, corresponding parts stay congruent throughout, guaranteeing the final overlap. Full credit requires naming specific rigid motions and justifying why each corresponding part lands on its match, not merely asserting congruence.', image: '/images/exams/geo-august-2024/q29.png' },
     {
       number: 30,
       part: 'B',
@@ -313,8 +297,7 @@ export default {
       topic: 'Area & Volume',
       modelAnswer: 'In a right circular cone, the radius, height, and slant height form a right triangle with the slant height as the hypotenuse. By the Pythagorean theorem, r² + h² = l², so 3² + h² = 5². Then 9 + h² = 25, h² = 16, and h = 4 inches.',
       explanation: 'The radius (3), height, and slant height (5) form a right triangle, so by the Pythagorean theorem h = √(5² − 3²) = √16 = 4 inches.',
-      diveDeep: 'The slant height of a cone is the distance from the apex to the edge of the base along the surface; it is the hypotenuse of a right triangle whose legs are the radius and the vertical height. Apply r² + h² = l² and solve for the unknown. Recognize the 3-4-5 Pythagorean triple here to speed the work. A common trap is confusing slant height with height — the slant height is always the longest of the three and serves as the hypotenuse.'
-    },
+      diveDeep: 'The slant height of a cone is the distance from the apex to the edge of the base along the surface; it is the hypotenuse of a right triangle whose legs are the radius and the vertical height. Apply r² + h² = l² and solve for the unknown. Recognize the 3-4-5 Pythagorean triple here to speed the work. A common trap is confusing slant height with height — the slant height is always the longest of the three and serves as the hypotenuse.', image: '/images/exams/geo-august-2024/q30.png' },
     {
       number: 31,
       part: 'B',
@@ -333,8 +316,7 @@ export default {
       topic: 'Circles',
       modelAnswer: 'Arc length equals the fraction of the circle (central angle ÷ 360°) times the circumference 2πr. The circumference is 2π(10) = 20π cm. The fraction is 72/360 = 1/5. So arc AB = (1/5)(20π) = 4π cm.',
       explanation: 'The arc is 72/360 = 1/5 of the full circumference 20π, giving an arc length of 4π cm.',
-      diveDeep: 'Arc length is a proportional part of the circumference: arc = (central angle/360°) × 2πr. Reduce the fraction 72/360 to 1/5 before multiplying for cleaner numbers. Do not confuse arc length (a distance, in cm) with arc measure (an angle, in degrees) or with sector area (a region, using ½r²θ in radians or the fraction × πr²). Keep the answer in terms of π when requested rather than approximating with a decimal.'
-    },
+      diveDeep: 'Arc length is a proportional part of the circumference: arc = (central angle/360°) × 2πr. Reduce the fraction 72/360 to 1/5 before multiplying for cleaner numbers. Do not confuse arc length (a distance, in cm) with arc measure (an angle, in degrees) or with sector area (a region, using ½r²θ in radians or the fraction × πr²). Keep the answer in terms of π when requested rather than approximating with a decimal.', image: '/images/exams/geo-august-2024/q32.png' },
     {
       number: 33,
       part: 'C',
@@ -343,8 +325,7 @@ export default {
       topic: 'Coordinate Geometry',
       modelAnswer: 'Compute the four side lengths with the distance formula. AB = √[(2−(−2))² + (5−2)²] = √[16+9] = √25 = 5. BC = √[(5−2)² + (1−5)²] = √[9+16] = √25 = 5. CD = √[(1−5)² + (−2−1)²] = √[16+9] = √25 = 5. DA = √[(−2−1)² + (2−(−2))²] = √[9+16] = √25 = 5. All four sides are congruent (5 each), so ABCD is a rhombus. Now find the slopes of two adjacent sides. Slope of AB = (5−2)/(2−(−2)) = 3/4. Slope of BC = (1−5)/(5−2) = −4/3. The product of the slopes is (3/4)(−4/3) = −1, so AB ⊥ BC, meaning angle B is a right angle. A rhombus with a right angle is a square. Therefore ABCD is a square.',
       explanation: 'All four sides equal 5 (so ABCD is a rhombus) and adjacent sides AB and BC have slopes 3/4 and −4/3 whose product is −1 (so they are perpendicular), making a right angle; a rhombus with a right angle is a square.',
-      diveDeep: 'Coordinate proofs of a square require showing both that all four sides are congruent and that the sides meet at right angles. Use the distance formula for the four side lengths and the slope formula to test perpendicularity — perpendicular lines have slopes whose product is −1. State the conclusion at each stage: equal sides → rhombus, then one right angle → square. A common credit loss is proving only equal sides (which gives a rhombus, not necessarily a square) or only right angles (which gives a rectangle); you must establish both, and a clear concluding sentence is required for full credit.'
-    },
+      diveDeep: 'Coordinate proofs of a square require showing both that all four sides are congruent and that the sides meet at right angles. Use the distance formula for the four side lengths and the slope formula to test perpendicularity — perpendicular lines have slopes whose product is −1. State the conclusion at each stage: equal sides → rhombus, then one right angle → square. A common credit loss is proving only equal sides (which gives a rhombus, not necessarily a square) or only right angles (which gives a rectangle); you must establish both, and a clear concluding sentence is required for full credit.', image: '/images/exams/geo-august-2024/q33.png' },
     {
       number: 34,
       part: 'C',
@@ -363,7 +344,6 @@ export default {
       topic: 'Coordinate Geometry',
       modelAnswer: 'Find the three side lengths with the distance formula. AB = √[(0−(−4))² + (6−0)²] = √[16+36] = √52 = 2√13. BC = √[(4−0)² + (0−6)²] = √[16+36] = √52 = 2√13. AC = √[(4−(−4))² + (0−0)²] = √[64] = 8. Since AB = BC = 2√13 but AC = 8 ≠ 2√13, exactly two sides are congruent, so triangle ABC is isosceles but not equilateral. For the area, use AC as the base. AC lies on the x-axis with length 8. The height is the vertical distance from B(0, 6) to the x-axis, which is 6. Area = ½ × base × height = ½ × 8 × 6 = 24 square units.',
       explanation: 'Two sides equal 2√13 while the third equals 8, so the triangle is isosceles but not equilateral; with base AC = 8 on the x-axis and height 6 to vertex B, the area is ½(8)(6) = 24.',
-      diveDeep: 'To classify a triangle by sides on the coordinate plane, compute all three lengths with the distance formula and compare: exactly two equal means isosceles, all three equal means equilateral, none equal means scalene. Proving "isosceles but not equilateral" requires showing two sides match AND the third differs. For the area, pick a base lying on an axis when possible so the height is simply the perpendicular distance to the opposite vertex; here base AC sits on the x-axis so the height is just the y-coordinate of B. Always include a concluding sentence and the correct square units for full credit.'
-    }
+      diveDeep: 'To classify a triangle by sides on the coordinate plane, compute all three lengths with the distance formula and compare: exactly two equal means isosceles, all three equal means equilateral, none equal means scalene. Proving "isosceles but not equilateral" requires showing two sides match AND the third differs. For the area, pick a base lying on an axis when possible so the height is simply the perpendicular distance to the opposite vertex; here base AC sits on the x-axis so the height is just the y-coordinate of B. Always include a concluding sentence and the correct square units for full credit.', image: '/images/exams/geo-august-2024/q35.png' }
   ]
 }

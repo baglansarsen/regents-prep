@@ -1,0 +1,471 @@
+{
+  "subject": "algebra-1",
+  "session": "january-2025",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "When factored, the expression x3 2 36x is equivalent to",
+      "choices": [
+        "(x 1 6)(x 2 6)",
+        "(x 1 18)(x 2 18)",
+        "x(x 1 6)(x 2 6)",
+        "x(x 1 18)(x 2 18)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which equation represents the line that passes through the points (21,8) and (4,22)?",
+      "choices": [
+        "y 5 22x 1 6",
+        "y 5 22x 1 10",
+        "y 5 20.5x 1 7.5",
+        "y 5 20.5x 1 8.5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "written",
+      "text": "A geometric sequence is shown below. 1 2 , 2, 8, 32, \u2026 What is the common ratio? (1) 1",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "4",
+      "choices": [
+        "5",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "A landscaping company charges a set fee for a spring cleanup, plus an hourly labor rate. The total cost is modeled by the function C(x) 5 55x 1 80. In this function, what does the 55 represent?",
+      "choices": [
+        "the set fee for the cleanup",
+        "the hourly labor rate for a cleanup",
+        "the profit earned by the company for one cleanup",
+        "the number of hours of labor required for one cleanup"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to (5x2 2 2x 1 4) 2 (3x2 1 3x 2 1)?",
+      "choices": [
+        "2x2 1 x 1 3",
+        "2x2 2 5x 1 5",
+        "2x4 1 x2 1 3",
+        "2x4 2 5x2 1 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "A system of inequalities is graphed on the set of axes below. y x Which point is a solution to this system?",
+      "choices": [
+        "(1,1)",
+        "(2,22)",
+        "(1,8)",
+        "(4,2)"
+      ],
+      "image": "/images/exams/algebra-1/january-2025/q7.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "In an arithmetic sequence, the first term is 25 and the third term is 15. What is the tenth term in this sequence?",
+      "choices": [
+        "220",
+        "225",
+        "70",
+        "75"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "When the formula p 5 2l 1 2w is solved for w, the result is",
+      "choices": [
+        "w 5 2l 1 p 2",
+        "w 5 p 2 2l 2",
+        "w 5 p 2 1 l",
+        "w 5 l 2 p 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Market Street Pizza kept a record of pizza sales for the month of February. The results are shown in the table below. Type Plain Veggie Meat Only The Works Thin Crust 300 80 120 100 Deep-dish 200 25 105 70 Of all the pizzas sold in February, what percent were plain, deep-dish pizzas?",
+      "choices": [
+        "20%",
+        "30%",
+        "40%",
+        "50%"
+      ],
+      "image": "/images/exams/algebra-1/january-2025/q10.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "When solving 22(3x 2 5) 5 9 2 x 2 2 for x, the solution is",
+      "choices": [
+        "8 7",
+        "10 11",
+        "216 21",
+        "216 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The expression x2a 1 b is equivalent to",
+      "choices": [
+        "x2a 1 x b",
+        "xa 1 x a 1 b",
+        "xa \u2022 x a 1 b",
+        "x a 1 b \u2022 x a 1 b"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The inputs and outputs of a function are shown in the table below. x f(x) 0 0.0625 1 0.125 2 0.25 3 0.5 4 1 5 2 This function can best be described as",
+      "choices": [
+        "linear",
+        "quadratic",
+        "exponential",
+        "absolute value"
+      ],
+      "image": "/images/exams/algebra-1/january-2025/q13.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Stephanie is solving the equation x2 2 12 5 7x 2 8. Her first step is shown below. Given: x2 2 12 5 7x 2 8 Step 1: x2 2 4 5 7x Which property justifies her first step?",
+      "choices": [
+        "associative property",
+        "commutative property",
+        "distributive property",
+        "addition property of equality"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "What is the sum of 3 8 and 3 ?",
+      "choices": [
+        "6 8",
+        "6 9",
+        "3 7",
+        "3 9"
+      ],
+      "image": "/images/exams/algebra-1/january-2025/q15.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The dot plots below represent test scores for 20 students on a math test. IV I III 60 70 80 90 100 60 70 80 90 100 II 60 70 80 90 100 60 70 80 90 100 The mode for this math test is 80 and the median is 85. Which dot plot correctly represents this data?",
+      "choices": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "image": "/images/exams/algebra-1/january-2025/q16.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A function is graphed on the set of axes below. f(x) x The domain of this function is",
+      "choices": [
+        "{x|x . 22}",
+        "{x|x $ 22}",
+        "{x|x . 24}",
+        "{x|x $ 24}"
+      ],
+      "image": "/images/exams/algebra-1/january-2025/q17.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which ordered pair is a solution to the equation y 2 1 5 2(x 1 1 4)?",
+      "choices": [
+        "(0.75, 0)",
+        "(1.25, 4)",
+        "(2.5, 26.5)",
+        "(4, 29.5)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Elena\u2019s fastest time for the 50-meter dash is 7 seconds. She wants to know how fast this is in inches per minute. Which expression can Elena use for a correct conversion?",
+      "choices": [
+        "7 sec 1 meter 60 sec 50 meters 39.37 in 1 min \u2022 \u2022",
+        "7 sec 39.37 in 1 min 50 meters 1 meter 60 sec \u2022 \u2022",
+        "50 meters 1 meter 60 sec 7 sec 39.37 in 1 min \u2022 \u2022",
+        "50 meters 39.37 in 60 sec 7 sec 1 meter 1 min \u2022 \u2022"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The table below shows the highest temperatures recorded in August for several years in one town. Year Temperature (\u00b0F) 1990 86 1991 78 1992 84 1993 95 1994 81 1995 77 1996 88 1997 93 The interquartile range of these data is",
+      "choices": [
+        "7",
+        "10",
+        "11",
+        "18"
+      ],
+      "image": "/images/exams/algebra-1/january-2025/q20.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The function f(x) 5 x2 is multiplied by k, where k , 21. Which graph could represent g(x) 5 kf(x)? y x",
+      "choices": [
+        "y x",
+        "y x",
+        "y x",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/january-2025/q21.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which graph is the solution to the inequality 6.4 2 4x $ 22.8? 2.1 2.2 2.3 2.4 2.5 2.1 2.2 2.3 2.4 2.5 2.1 2.2 2.3 2.4 2.5 2.1 2.2 2.3 2.4 2.5",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/january-2025/q22.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The number of fish in a pond is eight more than the number of frogs. The total number of fish and frogs in the pond is at least 20. If x represents the number of frogs, which inequality can be used to represent this situation?",
+      "choices": [
+        "x 1 8x $ 20",
+        "2x 1 8 $ 20",
+        "x 1 8x # 20",
+        "2x 1 8 # 20"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which graph below represents a function that is always decreasing over the entire interval 23 , x , 3? y x",
+      "choices": [
+        "x",
+        "y x",
+        "y x",
+        "Part II Answer all 6 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/algebra-1/january-2025/q24.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "The graph below models Sally\u2019s drive to the store. 10 20 30 40 50 6 8 10 4 2 Speed (miles per hour) Time (in minutes)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2025/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "The Chart for Determining the Final Examination Score for the January 2025 https://www.nysed.gov/state-assessment/high-school-regents-examinations on the day of the examination. Conversion charts provided for previous administrations of the for this administration. Online Submission of Teacher Evaluations of the Test to the Department Suggestions and feedback from teachers provide an important contribution to the test development process. The Department provides an online evaluation form for State assessments. It contains spaces for teachers to respond to several specific questions and to make suggestions. Instructions for completing the evaluation form are as follows: 1. Go to https://www.nysed.gov/state-assessment/teacher-feedback-state-assessments. 2. Click Regents Examinations. 3. Complete the required demographic fields. 4. Select the test title from the Regents Examination dropdown list. 5. Complete each evaluation question and provide comments in the space provided. 6. Click the SUBMIT button at the bottom of the page to submit the completed form."
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Graph the function f (x) 5 x2 1 4x 1 3. f(x) x State the equation of the axis of symmetry of f(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2025/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "The function f (x) is shown in the table below. x 0 3 2 6 1 5 4 m f(x) 6 2 7 5 8 4 3 9 State an appropriate value for m in the table, so that f (x)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2025/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Solve x2 1 8x 5 33",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "If f (x) 5 23x 2 5 2 , algebraically determine the value of x when f (x) 5 222",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Rationalize the denominator of the fraction below. Express the solution in simplest form. 2 4 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2025/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Alex had $1.70 in nickels and dimes on his desk. There were 25 coins in all. Write a system of equations that could be used to determine both the number of nickels, n, and the number of dimes, d,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "The table below shows the average heart rate, x, and Calories burned, y, for seven men on an Olympic rowing team during a one-hour workout class. Average Heart Rate (x) 135 147 150 144 146 153 143 Calories Burned (y) 725 812 866 761 825 863 737 Write the linear regression equation that models these data, rounding all values to the nearest tenth. State the correlation coefficient,",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2025/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Using the quadratic formula, solve x2 1 4x 2 3 5 0",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Solve the following system of equations algebraically for all values of x and y. y 5 x2 2 7x 1 12 y 5 2x 2 6 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Anna plans to spend $30 on balloons and party hats for her daughter\u2019s birthday party. Including tax, balloons cost $2 each and party hats cost $1.50 each. The number of party hats Anna needs is twice as many as the number of balloons. If x represents the number of balloons and y represents the number of party hats, write a system of equations that can be used to represent this situation. Question 35 Graph your system of equations on the set of axes below. Number of Party Hats Number of Balloons 0 20 15 10 5 0 5 10 15 20 x y State the coordinates of the point of intersection of your lines. Explain what each coordinate means in the context of the problem. Question 35 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here Reference Sheet for Algebra I Conversions Conversions Across Measurement Systems 1 mile 5 5280 feet 1 mile 5 1760 yards 1 pound 5 16 ounces 1 ton 5 2000 pounds 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 1.609 kilometers 1 kilometer 5 0.6214 mile 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds Quadratic Equation y 5 ax2 1 bx 1 c Quadratic Formula b 2 2 4ac 2a 2b 6 x 5 Equation of the Axis of Symmetry b 2a x 5 2 Slope y2 2 y1 x2 2 x1 m 5 Linear Equation Slope Intercept y 5 mx 1 b Linear Equation Point Slope y 2 y1 5 m(x 2 x1) Exponential Equation y 5 abx Annual Compound Interest A 5 P(1 1 r)n Arithmetic Sequence an 5 a1 1 d(n 2 1) Geometric Sequence an 5 a1rn 2 1 Interquartile Range (IQR) IQR 5 Q3 2 Q1 Outlier Lower Outlier Boundary 5 Q1 2 1.5(IQR) Upper Outlier Boundary 5 Q3 1 1.5(IQR) Tear Here Tear Here ALGEBRA I ALGEBRA I Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -34,8 +34,7 @@ export default {
       topic: 'Complex Numbers',
       correct: 0,
       explanation: 'Since √(−50) = √(25 · 2 · −1) = √25 · √2 · √(−1) = 5√2 · i, the answer is 5i√2.',
-      diveDeep: 'A negative number under a square root requires the imaginary unit i, where i = √(−1). First factor out the perfect square (25) and the −1, then simplify: √(−50) = 5√2 i. A frequent error is dropping the i and treating the result as a real number, or pulling out the wrong perfect square. Always extract the largest perfect-square factor so the radical is fully simplified.'
-    },
+      diveDeep: 'A negative number under a square root requires the imaginary unit i, where i = √(−1). First factor out the perfect square (25) and the −1, then simplify: √(−50) = 5√2 i. A frequent error is dropping the i and treating the result as a real number, or pulling out the wrong perfect square. Always extract the largest perfect-square factor so the radical is fully simplified.', image: '/images/exams/alg2-august-2024/q3.png' },
     {
       number: 4,
       part: 'A',
@@ -64,8 +63,7 @@ export default {
       topic: 'Exponential & Logarithmic',
       correct: 0,
       explanation: 'log₂(32) asks "2 to what power equals 32?" Since 2⁵ = 32, the value is 5.',
-      diveDeep: 'A logarithm is the inverse of exponentiation: logₐ(b) = c means aᶜ = b. To evaluate log₂(32), rewrite 32 as a power of 2 (32 = 2⁵) and read off the exponent. Students sometimes confuse the base and the argument or guess based on size rather than powers. Knowing small powers of 2 (2, 4, 8, 16, 32, 64) cold makes these evaluations instant.'
-    },
+      diveDeep: 'A logarithm is the inverse of exponentiation: logₐ(b) = c means aᶜ = b. To evaluate log₂(32), rewrite 32 as a power of 2 (32 = 2⁵) and read off the exponent. Students sometimes confuse the base and the argument or guess based on size rather than powers. Knowing small powers of 2 (2, 4, 8, 16, 32, 64) cold makes these evaluations instant.', image: '/images/exams/alg2-august-2024/q6.png' },
     {
       number: 7,
       part: 'A',
@@ -124,8 +122,7 @@ export default {
       topic: 'Rational & Radical',
       correct: 1,
       explanation: 'Multiplying exponents gives x^(−8/3) = 1/x^(8/3) = 1/(x²·∛x²), since 8/3 = 2 + 2/3.',
-      diveDeep: 'A power raised to a power multiplies the exponents: (x^(2/3))^(−4) = x^(−8/3). A negative exponent means take the reciprocal, and a fractional exponent converts to a root, where the denominator is the index and the numerator is the power. Splitting 8/3 into 2 + 2/3 lets you write x^(8/3) = x²·∛x². Mismanaging the negative sign or the fraction conversion is the usual pitfall.'
-    },
+      diveDeep: 'A power raised to a power multiplies the exponents: (x^(2/3))^(−4) = x^(−8/3). A negative exponent means take the reciprocal, and a fractional exponent converts to a root, where the denominator is the index and the numerator is the power. Splitting 8/3 into 2 + 2/3 lets you write x^(8/3) = x²·∛x². Mismanaging the negative sign or the fraction conversion is the usual pitfall.', image: '/images/exams/alg2-august-2024/q12.png' },
     {
       number: 13,
       part: 'A',
@@ -155,8 +152,7 @@ export default {
       topic: 'Complex Numbers',
       correct: 3,
       explanation: 'Distribute: 5i·2x + 5i·3i − x = 10xi + 15i² − x = 10xi − 15 − x; combining gives −15 + (10x − x)i = −15 + 9xi.',
-      diveDeep: 'When multiplying expressions with i, distribute as usual and then replace i² with −1, which is the step that converts an imaginary term into a real one. Here 15i² becomes −15, producing the real part. Keep the real and imaginary parts separate when combining like terms. The most common error is forgetting that i² = −1 and leaving 15i² unsimplified, or mishandling the trailing −x.'
-    },
+      diveDeep: 'When multiplying expressions with i, distribute as usual and then replace i² with −1, which is the step that converts an imaginary term into a real one. Here 15i² becomes −15, producing the real part. Keep the real and imaginary parts separate when combining like terms. The most common error is forgetting that i² = −1 and leaving 15i² unsimplified, or mishandling the trailing −x.', image: '/images/exams/alg2-august-2024/q15.png' },
     {
       number: 16,
       part: 'A',
@@ -195,8 +191,7 @@ export default {
       topic: 'Rational & Radical',
       correct: 0,
       explanation: 'Combine under one cube root: ∛(8x² · 8x³) = ∛(64x⁵) = ∛64 · ∛x⁵ = 4 · x·∛(x²) = 4x·∛(x²).',
-      diveDeep: 'Cube roots multiply by combining their radicands under a single radical, then simplify by extracting perfect cubes. Here 64 is a perfect cube (4³) and x⁵ = x³·x², so ∛(x⁵) = x·∛(x²). Break the exponent into the largest multiple of 3 plus a remainder to know what comes out versus stays in. A common mistake is treating cube roots like square roots or mishandling the leftover x².'
-    },
+      diveDeep: 'Cube roots multiply by combining their radicands under a single radical, then simplify by extracting perfect cubes. Here 64 is a perfect cube (4³) and x⁵ = x³·x², so ∛(x⁵) = x·∛(x²). Break the exponent into the largest multiple of 3 plus a remainder to know what comes out versus stays in. A common mistake is treating cube roots like square roots or mishandling the leftover x².', image: '/images/exams/alg2-august-2024/q19.png' },
     {
       number: 20,
       part: 'A',
@@ -256,8 +251,7 @@ export default {
       topic: 'Polynomial Functions',
       explanation: 'Factor by grouping: x²(x + 3) − 4(x + 3) = (x + 3)(x² − 4) = (x + 3)(x + 2)(x − 2), giving x = −3, −2, 2.',
       diveDeep: 'Factoring by grouping works when a four-term polynomial splits into two pairs sharing a common binomial factor. After grouping, the resulting (x² − 4) is itself a difference of squares and factors further. Always factor completely so you capture every real root. A common error is stopping at (x + 3)(x² − 4) and forgetting that x² − 4 yields two more solutions.',
-      modelAnswer: 'Group the terms: (x³ + 3x²) + (−4x − 12) = 0. Factor each group: x²(x + 3) − 4(x + 3) = 0. Factor out the common binomial: (x + 3)(x² − 4) = 0. Factor the difference of squares: (x + 3)(x + 2)(x − 2) = 0. Set each factor equal to zero: x + 3 = 0 → x = −3; x + 2 = 0 → x = −2; x − 2 = 0 → x = 2. The solutions are x = −3, x = −2, and x = 2.'
-    },
+      modelAnswer: 'Group the terms: (x³ + 3x²) + (−4x − 12) = 0. Factor each group: x²(x + 3) − 4(x + 3) = 0. Factor out the common binomial: (x + 3)(x² − 4) = 0. Factor the difference of squares: (x + 3)(x + 2)(x − 2) = 0. Set each factor equal to zero: x + 3 = 0 → x = −3; x + 2 = 0 → x = −2; x − 2 = 0 → x = 2. The solutions are x = −3, x = −2, and x = 2.', image: '/images/exams/alg2-august-2024/q25.png' },
     {
       number: 26,
       part: 'B',
@@ -296,8 +290,7 @@ export default {
       topic: 'Polynomial Functions',
       explanation: 'Completing the square gives f(x) = (x − 3)² − 4, so the vertex is (3, −4).',
       diveDeep: 'Completing the square rewrites a quadratic in vertex form f(x) = a(x − h)² + k, directly revealing the vertex (h, k). Take half the coefficient of x, square it, and add and subtract that value to keep the expression equivalent. Here half of −6 is −3, and (−3)² = 9, so you add and subtract 9. The frequent mistake is forgetting to subtract the added constant back out, which changes the function.',
-      modelAnswer: 'Start with f(x) = x² − 6x + 5. Take half the x-coefficient: −6 ÷ 2 = −3, and square it: (−3)² = 9. Add and subtract 9: f(x) = (x² − 6x + 9) − 9 + 5. Write the perfect-square trinomial as a binomial squared and combine constants: f(x) = (x − 3)² − 4. In vertex form a(x − h)² + k, h = 3 and k = −4, so the vertex is (3, −4).'
-    },
+      modelAnswer: 'Start with f(x) = x² − 6x + 5. Take half the x-coefficient: −6 ÷ 2 = −3, and square it: (−3)² = 9. Add and subtract 9: f(x) = (x² − 6x + 9) − 9 + 5. Write the perfect-square trinomial as a binomial squared and combine constants: f(x) = (x − 3)² − 4. In vertex form a(x − h)² + k, h = 3 and k = −4, so the vertex is (3, −4).', image: '/images/exams/alg2-august-2024/q29.png' },
     {
       number: 30,
       part: 'B',
@@ -336,8 +329,7 @@ export default {
       topic: 'Polynomial Functions',
       explanation: 'The vertex occurs at m = −b/(2a) = −48/(2·−2) = 12 months, and P(12) = −2(144) + 48(12) − 200 = $88.',
       diveDeep: 'A downward-opening parabola (negative leading coefficient) reaches its maximum at its vertex, found with m = −b/(2a). After locating the optimal input, substitute it back into the function to find the maximum output value. Distinguish the question "when" (the m-value) from "how much" (the P-value). The common error is reporting only one of the two required pieces or using +b/(2a) with the wrong sign.',
-      modelAnswer: 'For P(m) = −2m² + 48m − 200, identify a = −2 and b = 48. The maximum of a downward parabola occurs at the vertex: m = −b/(2a) = −48/(2·(−2)) = −48/(−4) = 12. So the maximum profit occurs in month 12. Substitute m = 12: P(12) = −2(12)² + 48(12) − 200 = −2(144) + 576 − 200 = −288 + 576 − 200 = 88. The business earns its maximum profit of $88 in month 12.'
-    },
+      modelAnswer: 'For P(m) = −2m² + 48m − 200, identify a = −2 and b = 48. The maximum of a downward parabola occurs at the vertex: m = −b/(2a) = −48/(2·(−2)) = −48/(−4) = 12. So the maximum profit occurs in month 12. Substitute m = 12: P(12) = −2(12)² + 48(12) − 200 = −2(144) + 576 − 200 = −288 + 576 − 200 = 88. The business earns its maximum profit of $88 in month 12.', image: '/images/exams/alg2-august-2024/q33.png' },
     {
       number: 34,
       part: 'C',
@@ -346,8 +338,7 @@ export default {
       topic: 'Statistics & Probability',
       explanation: 'Between 67 and 73 inches is within one standard deviation of the mean, about 68%; the 90th percentile corresponds to z ≈ 1.28, giving 70 + 1.28(3) ≈ 73.8 inches.',
       diveDeep: 'In a normal distribution, the empirical rule says about 68% of data lie within one standard deviation, 95% within two, and 99.7% within three. For percentile problems, convert the percentile to a z-score using the inverse normal function, then unstandardize with x = μ + zσ. Here 67 to 73 is exactly μ ± 1σ. The common errors are misapplying the empirical rule percentages and forgetting to convert the z-score back into an actual height.',
-      modelAnswer: 'Part 1: The interval 67 to 73 inches is the mean (70) plus or minus 3 inches, which is exactly one standard deviation (μ ± 1σ). By the empirical rule, about 68% of values fall within one standard deviation, so approximately 68% of adult males are between 67 and 73 inches. Part 2: For the 90th percentile, find the z-score using the inverse normal: invNorm(0.90) ≈ 1.28. Unstandardize: x = μ + zσ = 70 + 1.28(3) = 70 + 3.84 = 73.84 ≈ 73.8 inches. The 90th percentile height is about 73.8 inches.'
-    },
+      modelAnswer: 'Part 1: The interval 67 to 73 inches is the mean (70) plus or minus 3 inches, which is exactly one standard deviation (μ ± 1σ). By the empirical rule, about 68% of values fall within one standard deviation, so approximately 68% of adult males are between 67 and 73 inches. Part 2: For the 90th percentile, find the z-score using the inverse normal: invNorm(0.90) ≈ 1.28. Unstandardize: x = μ + zσ = 70 + 1.28(3) = 70 + 3.84 = 73.84 ≈ 73.8 inches. The 90th percentile height is about 73.8 inches.', image: '/images/exams/alg2-august-2024/q34.png' },
     {
       number: 35,
       part: 'C',

@@ -1,0 +1,1046 @@
+{
+  "subject": "living-environment",
+  "session": "january-2012",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which statement describes an activity of a decomposer?",
+      "choices": [
+        "A mushroom digests and absorbs nutrients from organic matter.",
+        "A sunflower uses nutrients from the soil to make proteins.",
+        "A snail scrapes algae off rocks in an aquarium.",
+        "A hawk eats and digests a mouse."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The calcium concentration in the root cells of certain plants is higher than in the surrounding soil. Calcium may continue to enter the root cells of the plant by the process of",
+      "choices": [
+        "diffusion",
+        "respiration",
+        "active transport",
+        "protein synthesis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Homeostasis is maintained in a single-celled organism by the interaction of",
+      "choices": [
+        "organs",
+        "systems",
+        "tissues",
+        "organelles"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Within which structure of an animal cell does DNA replication take place?",
+      "choices": [
+        "vacuole",
+        "cell membrane",
+        "nucleus",
+        "ribosome"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The shape of a protein is originally determined by the",
+      "choices": [
+        "size of the protein molecule",
+        "location of the protein within the cell",
+        "arrangement of amino acids in the protein",
+        "function the protein must carry out"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Plant cells can synthesize energy-rich organic molecules, and later break them down to extract that energy for performing life processes. These activities require direct interaction between the",
+      "choices": [
+        "chloroplasts and vacuoles",
+        "cell walls and ribosomes",
+        "chloroplasts and mitochondria",
+        "ribosomes and mitochondria"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Selective breeding has been used for thousands of years to",
+      "choices": [
+        "develop bacteria that produce human insulin",
+        "clone desirable plant varieties",
+        "develop viruses that protect against diseases",
+        "produce new varieties of domestic animals"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A deletion of a DNA segment alters a gene in a single skin cell of an individual. Which statement best describes a result of this mutation?",
+      "choices": [
+        "Any cell produced from this skin cell will have the same mutation.",
+        "All offspring of the individual will have a skin cell mutation.",
+        "The mutation will spread into other types of cells.",
+        "The gametes of this individual will have the same mutation."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Some goats have been genetically modified with a human gene that codes for a blood anticlotting factor. The anticlotting factor can then be extracted from the goat milk and used during surgery. To produce these genetically modified goats, scientists most likely",
+      "choices": [
+        "injected the anticlotting factor into the milk- producing glands of the animals",
+        "added modified DNA into the milk of the animals",
+        "inserted the human gene into the egg cells of goats",
+        "altered the nutritional requirements of newborn goats"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which characteristic is necessary for natural selection to occur in a species?",
+      "choices": [
+        "stability",
+        "variation",
+        "complex cellular organization",
+        "a very low mutation rate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Researchers use a variety of techniques to learn more about the function of a specific gene in an organism. In one type of experiment, called a loss-of-function experiment, the gene being investigated is eliminated. In a gain-of-function experiment, extra copies of the gene being investigated are inserted. The cell process most directly affected in both experiments is",
+      "choices": [
+        "protein synthesis",
+        "waste disposal",
+        "transport of materials",
+        "breakdown of nutrients"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Plants are green because they contain the protein chlorophyll. A bucket was left on the lawn for one week. When the bucket was removed, the grass under the bucket had turned from green to a yellowish white color. This change is due to the interaction between the grass and",
+      "choices": [
+        "decomposer organisms in the soil, an abiotic factor",
+        "the amount of sunlight, an abiotic factor",
+        "increased moisture under the bucket, a biotic factor",
+        "the metal composition of the bucket, a biotic factor"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which statement describes a function of the human male reproductive system?",
+      "choices": [
+        "It produces gametes in testes.",
+        "It supplies a fluid that protects the fetus.",
+        "It provides support for the development of the embryo.",
+        "It provides nutrient materials through a placenta."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Exposure to toxins during early stages of pregnancy is more likely to cause birth defects than exposure in late pregnancy because",
+      "choices": [
+        "essential organs form during early development",
+        "the uterus provides more protection in late pregnancy",
+        "the placenta forms during late pregnancy",
+        "meiosis occurs rapidly during early development"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Although a liver cell and a muscle cell in a human developed from the same single cell, their appearance and functions are different. This is because the liver cell",
+      "choices": [
+        "contains different genes than the muscle cell",
+        "expresses different genes than the muscle cell",
+        "destroys the muscle cell genes it contains",
+        "lacks the genes found in muscle cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Sexual reproduction in a species usually results in",
+      "choices": [
+        "an increase in the chromosome number in the offspring",
+        "offspring genetically identical to the parent",
+        "recombination of genes",
+        "a decrease in biodiversity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "As water flows downhill, its energy can be used to generate electricity. Later, this water may evaporate, fall as rain, and be used again to generate electricity in the same way. This explains why electricity generated with water is considered",
+      "choices": [
+        "a source of water pollution",
+        "a renewable form of energy",
+        "more expensive than nuclear energy",
+        "responsible for global warming"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Scientists have found that although plants require light to carry on photosynthesis, very high levels of sunlight can kill some plants. This illustrates that many biochemical processes may occur",
+      "choices": [
+        "more rapidly when temperatures are very high",
+        "within a specific range of conditions",
+        "best in the absence of abiotic factors",
+        "even if homeostasis is disrupted"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "A relationship between a consumer and producer is best illustrated by a",
+      "choices": [
+        "snake eating a bird",
+        "tree absorbing minerals",
+        "fungus breaking down wastes",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The evolutionary pathways of several species are represented in the diagram below. Which species was best adapted for survival in changing environmental conditions?",
+      "choices": [
+        "A",
+        "E",
+        "K",
+        "L"
+      ],
+      "image": "/images/exams/living-environment/january-2012/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a microscopic view of blood. Cell A protects the body by producing specific chemicals in response to pathogens. Cell A is",
+      "choices": [
+        "a red blood cell",
+        "a bacteria cell",
+        "an insulin-producing cell",
+        "a white blood cell"
+      ],
+      "image": "/images/exams/living-environment/january-2012/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a change in guard cells that open and close pores in a plant. This change directly helps to",
+      "choices": [
+        "increase heterotrophic nutrition",
+        "absorb minerals",
+        "regulate water loss",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2012/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which statement represents a characteristic of an ecosystem that is not likely to sustain itself?",
+      "choices": [
+        "The Sun provides the needed energy.",
+        "Energy is transferred from plants to animals.",
+        "There are more consumers than producers.",
+        "There are interactions between biotic and abiotic factors."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which statement best explains why different plant species are found at different water depths as represented in the diagram below?",
+      "choices": [
+        "Energy flows through ecosystems in one direction, typically beginning with photo- synthetic organisms.",
+        "In any particular environment, the growth and survival of organisms is affected by physical conditions.",
+        "Plants on land are higher up the food chain than plants under water.",
+        "Plant cells and some one-celled organisms contain chloroplasts."
+      ],
+      "image": "/images/exams/living-environment/january-2012/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Some people see the benefit of wind energy as a clean alternative to fossil fuels for energy production. Others believe it is dangerous for migratory birds. These opinions best illustrate that decisions about alternate energy sources",
+      "choices": [
+        "will usually favor older methods of energy production over newer methods",
+        "must be made by weighing the risks and costs against the benefits",
+        "must be made by taking into account the present needs of the citizens without looking toward the future",
+        "should be the responsibility of each individual"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "One way humans can promote the survival of organisms in an ecosystem is to",
+      "choices": [
+        "decrease diversity in plant habitats",
+        "introduce new consumers to control autotrophs",
+        "release extra CO2 into the atmosphere to help autotrophs",
+        "learn about the interactions of populations"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Environmentalists are hoping to protect endangered organisms by calling for a reduction in the use of pesticides, because loss of these organisms would",
+      "choices": [
+        "increase the mutation rate in plants",
+        "cause pesticides to become more toxic to insects",
+        "reduce biodiversity in various ecosystems",
+        "decrease the space and resources available to other organisms"
+      ],
+      "image": "/images/exams/living-environment/january-2012/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which farming practice causes the least harm to the environment?",
+      "choices": [
+        "using natural predators to reduce insect numbers",
+        "adding chemical fertilizers to all the crops in the area",
+        "planting the same crop for 1 year on all the fields in the area",
+        "planting the same crop in the same field each year for 10 years"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Some bacteria are unable to survive unless a certain nutrient is present in their food supply. After exposure to ultraviolet radiation, some of these bacteria are able to synthesize this nutrient. This change is most likely due to",
+      "choices": [
+        "increased respiration",
+        "exposure to an antigen",
+        "an alteration in a gene",
+        "gamete formation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which action by humans could improve the quality of the air?",
+      "choices": [
+        "building homes that use only oil furnaces for heat",
+        "buying cars that get more miles per gallon of gasoline",
+        "increasing the number of coal-burning power plants that generate electricity",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which statement is a possible hypothesis for this experiment that could be supported by the results of this experiment?",
+      "choices": [
+        "If the average number of chloroplasts in euglena decreases, will less nitrate be needed in each tank?",
+        "If the nitrate concentration is increased, then the euglena will have a lower average number of chloroplasts.",
+        "If the number of euglena in a tank increases, will more nitrates be produced?",
+        "If the nitrate concentration is decreased, then more light will reduce the average number of chloroplasts in euglena."
+      ],
+      "image": "/images/exams/living-environment/january-2012/context_31_33.png",
+      "context": "Base your answers to questions 31 through 33 on the information below and on your knowledge of biology.\nEuglena are single-celled organisms that live in ponds. All euglena have chloroplasts\nand can make their own food. They can also take in food from the environment. The \ndiagram below represents a euglena.\nAn experiment was set up to determine the effect of nitrates, a pollutant, on the \nnumber of chloroplasts present in euglena. Five tanks were set up, each with euglena and\na different concentration of nitrate solution: 0%, 0.5%, 1.0%, 1.5%, and 2.0%. \nThe tanks were placed in a sunny location where each tank received the same amount\nof light.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Which statement correctly identifies a variable in this experiment?",
+      "choices": [
+        "The independent variable is the concentration of nitrate solution used.",
+        "The dependent variable is the number of euglena placed in the tanks.",
+        "The independent variable is the amount of sunlight.",
+        "The dependent variable is the number of tanks used."
+      ],
+      "image": "/images/exams/living-environment/january-2012/context_31_33.png",
+      "context": "Base your answers to questions 31 through 33 on the information below and on your knowledge of biology.\nEuglena are single-celled organisms that live in ponds. All euglena have chloroplasts\nand can make their own food. They can also take in food from the environment. The \ndiagram below represents a euglena.\nAn experiment was set up to determine the effect of nitrates, a pollutant, on the \nnumber of chloroplasts present in euglena. Five tanks were set up, each with euglena and\na different concentration of nitrate solution: 0%, 0.5%, 1.0%, 1.5%, and 2.0%. \nThe tanks were placed in a sunny location where each tank received the same amount\nof light.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Euglena can be classified as both",
+      "choices": [
+        "an autotroph and a parasite",
+        "a decomposer and a heterotroph",
+        "a producer and a parasite",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2012/context_31_33.png",
+      "context": "Base your answers to questions 31 through 33 on the information below and on your knowledge of biology.\nEuglena are single-celled organisms that live in ponds. All euglena have chloroplasts\nand can make their own food. They can also take in food from the environment. The \ndiagram below represents a euglena.\nAn experiment was set up to determine the effect of nitrates, a pollutant, on the \nnumber of chloroplasts present in euglena. Five tanks were set up, each with euglena and\na different concentration of nitrate solution: 0%, 0.5%, 1.0%, 1.5%, and 2.0%. \nThe tanks were placed in a sunny location where each tank received the same amount\nof light.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Two methods of reproduction are represented in the diagram below. How does the DNA in the offspring produced by these methods compare to the DNA in the original organism?",
+      "choices": [
+        "The offspring contain half the original number of chromosomes in each method.",
+        "The DNA in the offspring is genetically identical to that of the original organism in both methods.",
+        "The offspring produced by method A contain twice the original number of genes, while those produced by method B contain half the original number of genes.",
+        "The number of DNA bases is less than that of the original organism in method A, but more than the original number in method B."
+      ],
+      "image": "/images/exams/living-environment/january-2012/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Puppies are often given medicine to eliminate roundworms from their intestines. These worms consume some of the food the puppies have digested. The worms and the puppies represent a relationship known as",
+      "choices": [
+        "predator\u2013prey",
+        "consumer\u2013producer",
+        "parasite\u2013host",
+        "autotroph\u2013heterotroph Method B Method A Original organism Offspring Original organism 1 Nucleus removed Offspring Egg cell Body cell Organism 2 Embryo implanted in organism 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The diagram below represents cells and hormones present in the human body. Which statement correctly describes an interaction between the hormones and the cells?",
+      "choices": [
+        "Hormone A is synthesized by cell 2 and targets cell 1.",
+        "Hormone B bonds with both cell 1 and cell 2.",
+        "Specific reactions carried out by cell 1 are regulated by hormone C.",
+        "The specialized receptor molecules on cell 1 secrete hormone B."
+      ],
+      "image": "/images/exams/living-environment/january-2012/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "In the diagram below, which letter indicates the part of the cell that carries out a function most similar to a function of the human excretory system?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/january-2012/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "In a DNA sample, 15% of the bases are thymine (T). What percentage of the bases in this sample are adenine (A)?",
+      "choices": [
+        "15%",
+        "30%",
+        "35%",
+        "85%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The graph below shows the results of an action of the enzyme catalase on a piece of meat. Evidence of enzyme activity is indicated by bubbles of oxygen. Which statement best summarizes the activity of catalase shown in the graph?",
+      "choices": [
+        "The enzyme works better at 10\u00b0C than at 50\u00b0C.",
+        "The enzyme works better at 5\u00b0C than at 65\u00b0C.",
+        "The enzyme works better at 35\u00b0C than at either temperature extreme.",
+        "The enzyme works at the same level in all environments."
+      ],
+      "image": "/images/exams/living-environment/january-2012/q39.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which process is represented in the diagram below?",
+      "choices": [
+        "energy flow",
+        "biological evolution",
+        "cellular communication",
+        "ecological succession 20 10 0 30 40 50 60 15 10 5 Number of Bubbles Per Second Influence of Temperature on Oxygen Production B C D A Cell 1 Cell 2"
+      ],
+      "image": "/images/exams/living-environment/january-2012/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "If the amount of carbon dioxide in the atmosphere were to decrease, which organism in the diagram would be one of the first affected by this change?",
+      "choices": [
+        "hawks",
+        "wheat",
+        "locusts",
+        "molds"
+      ],
+      "image": "/images/exams/living-environment/january-2012/context_41_42.png",
+      "context": "Base your answers to questions 41 and 42 on the diagram below and on your knowledge of biology. The \ndiagram represents various levels of interaction between organisms in a prairie ecosystem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which statement best describes a function of the molds, bacteria, and yeasts in this ecosystem?",
+      "choices": [
+        "They convert light energy into chemical energy.",
+        "They carry out a food-making process, using inorganic raw materials.",
+        "They break down dead organisms, releasing raw materials to the environment.",
+        "They act as catalysts to speed up the energy flow between organisms."
+      ],
+      "image": "/images/exams/living-environment/january-2012/context_41_42.png",
+      "context": "Base your answers to questions 41 and 42 on the diagram below and on your knowledge of biology. The \ndiagram represents various levels of interaction between organisms in a prairie ecosystem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the measurement of a biological specimen. What is the approximate length of the specimen in millimeters?",
+      "choices": [
+        "25 mm",
+        "30 mm",
+        "35 mm",
+        "40 mm cm 1 2 3 4 5 6 7 Prairie Ecosystem Prairie dogs Hawks Molds, bacteria,"
+      ],
+      "image": "/images/exams/living-environment/january-2012/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2012/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nDiabetes is a disease characterized by consistently high blood glucose levels (at or above\n126 mg/100 mL) as a result of hormone deficiency. For a study of diabetes, blood glucose\nlevels from individual A and individual B were recorded each hour over a 5-hour period \nfollowing a meal. The results are shown in the data table below.\nBlood Glucose Levels\n(mg/100 mL)\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next\npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data for individual A on the grid, surround each point with a small circle, and connect the points.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2012/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nDiabetes is a disease characterized by consistently high blood glucose levels (at or above\n126 mg/100 mL) as a result of hormone deficiency. For a study of diabetes, blood glucose\nlevels from individual A and individual B were recorded each hour over a 5-hour period \nfollowing a meal. The results are shown in the data table below.\nBlood Glucose Levels\n(mg/100 mL)\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next\npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Plot the data for individual B on the grid, surround each point with a small triangle, and connect the points. Example: Example: Hours Individual A Individual B 0 135 90 1 175 122 2 200 110 3 185 87 4 165 85 5 150 90",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2012/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nDiabetes is a disease characterized by consistently high blood glucose levels (at or above\n126 mg/100 mL) as a result of hormone deficiency. For a study of diabetes, blood glucose\nlevels from individual A and individual B were recorded each hour over a 5-hour period \nfollowing a meal. The results are shown in the data table below.\nBlood Glucose Levels\n(mg/100 mL)\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next\npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which individual most likely has diabetes?",
+      "choices": [
+        "A",
+        "B",
+        "both A and B",
+        "neither A nor B"
+      ],
+      "image": "/images/exams/living-environment/january-2012/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nDiabetes is a disease characterized by consistently high blood glucose levels (at or above\n126 mg/100 mL) as a result of hormone deficiency. For a study of diabetes, blood glucose\nlevels from individual A and individual B were recorded each hour over a 5-hour period \nfollowing a meal. The results are shown in the data table below.\nBlood Glucose Levels\n(mg/100 mL)\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next\npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Identify one hormone associated with the maintenance of blood glucose levels. ___________________________________________ Key = Individual A = Individual B Blood Glucose (mg/100 mL) Time (hr)",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2012/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nDiabetes is a disease characterized by consistently high blood glucose levels (at or above\n126 mg/100 mL) as a result of hormone deficiency. For a study of diabetes, blood glucose\nlevels from individual A and individual B were recorded each hour over a 5-hour period \nfollowing a meal. The results are shown in the data table below.\nBlood Glucose Levels\n(mg/100 mL)\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next\npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "One possible reason that the wolves were released into the park was to",
+      "choices": [
+        "eliminate unwanted autotrophs",
+        "reduce an overpopulation of elk",
+        "provide food for small predators",
+        "increase the number of herbivores"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 49 and 50 on the food chain and information below. The food chain involves\norganisms in Yellowstone National Park.\nGrasses \u2192Elk \u2192Wolves\nWolves in the park were killed or driven off by humans in the 1920s and 1930s. In the\nwinter of 1995, humans released 17 wolves from Canada into the park. A year later, 14 more\nwolves were released.\nNote: The answers to questions 49 and 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "After the wolves were released, the populations of some scavengers increased. This was most likely due to",
+      "choices": [
+        "a reduction in predator populations",
+        "a decrease in the number of grasses",
+        "an increase in the number of dead elk",
+        "an increase in water supplies"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 49 and 50 on the food chain and information below. The food chain involves\norganisms in Yellowstone National Park.\nGrasses \u2192Elk \u2192Wolves\nWolves in the park were killed or driven off by humans in the 1920s and 1930s. In the\nwinter of 1995, humans released 17 wolves from Canada into the park. A year later, 14 more\nwolves were released.\nNote: The answers to questions 49 and 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State one possible reason why the biodiversity of an aquatic ecosystem could decrease if the water temperature were to increase. Support your answer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 51 on the information below and on your knowledge of biology.\nDissolved oxygen (DO) can be found in an aquatic ecosystem and is often one factor\nthat affects the size of populations of aquatic organisms. Water temperature is very \nimportant in determining the amount of DO in a water supply. The colder the temperature\nof the water, the more DO the water can hold.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify the substance in the polio vaccine that makes it effective.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 through 54 on the passage below and on your knowledge of biology.\nPolio is a virus that can cause paralysis or death. At its peak, the disease affected about\n500,000 people a year worldwide before the development of an effective vaccine in 1955.\nWhen the first polio vaccine was developed, it was tested in experiments using \nthousands of children as subjects. The children were injected with either the experimental\nvaccine or given a harmless injection without the vaccine.  Only after these extensive tests\nwas the vaccine finally accepted as being successful in preventing the disease.\nAlthough, at this time, polio has been nearly eliminated in the Western Hemisphere,\ncertain countries in the world still report new cases of the disease. Complete elimination of\nthe disease can be achieved in these countries by vaccinating all of the children at the same\ntime with the polio vaccine.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Describe how the body responds to the vaccine, making it effective against a particular disease.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 through 54 on the passage below and on your knowledge of biology.\nPolio is a virus that can cause paralysis or death. At its peak, the disease affected about\n500,000 people a year worldwide before the development of an effective vaccine in 1955.\nWhen the first polio vaccine was developed, it was tested in experiments using \nthousands of children as subjects. The children were injected with either the experimental\nvaccine or given a harmless injection without the vaccine.  Only after these extensive tests\nwas the vaccine finally accepted as being successful in preventing the disease.\nAlthough, at this time, polio has been nearly eliminated in the Western Hemisphere,\ncertain countries in the world still report new cases of the disease. Complete elimination of\nthe disease can be achieved in these countries by vaccinating all of the children at the same\ntime with the polio vaccine.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Explain why the children in the first testing of the polio vaccine were not all given an injection of the experimental vaccine.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 through 54 on the passage below and on your knowledge of biology.\nPolio is a virus that can cause paralysis or death. At its peak, the disease affected about\n500,000 people a year worldwide before the development of an effective vaccine in 1955.\nWhen the first polio vaccine was developed, it was tested in experiments using \nthousands of children as subjects. The children were injected with either the experimental\nvaccine or given a harmless injection without the vaccine.  Only after these extensive tests\nwas the vaccine finally accepted as being successful in preventing the disease.\nAlthough, at this time, polio has been nearly eliminated in the Western Hemisphere,\ncertain countries in the world still report new cases of the disease. Complete elimination of\nthe disease can be achieved in these countries by vaccinating all of the children at the same\ntime with the polio vaccine.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "55",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 55 on the information below and on your knowledge of biology.\nIn many areas, there are some small mammals whose fur color is influenced by \ntemperature. In these animals, the trait for fur color is expressed only if the air temperature\nis above a certain level. In cold weather, when the ground is covered with snow, the trait is\nnot expressed and the fur color is white.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 56\u201360 on the information below and on your knowledge of biology.\nNew varieties of organisms have resulted from human activities. These organisms have\noften led to problems in modern society. Two of these new varieties are listed below.\nAntibiotic-resistant bacteria\nPesticide-resistant insects\n56\u201360 Select one of these varieties and discuss a problem associated with the development of this new variety\nof organism. In your answer, be sure to:\n\u2022 identify the variety you selected\n\u2022 identify one biological process by which a population of this variety may develop resistance   [1]\n\u2022 describe how this process is involved in the production of a population of resistant organisms   [1]\n\u2022 identify one problem caused by this resistance   [1]\n\u2022 state one solution to this problem   [1]\n\u2022 identify one possible negative effect of this solution   [1]\nVariety: ________________________________\n\nLiving Environment\u2013Jan. \u201912\n[15]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "56\u201360 Select one of these varieties and discuss a problem associated with the development of this new variety of organism. In your answer, be sure to: \u2022 identify the variety you selected \u2022 identify one biological process by which a population of this variety may develop resistance \u2022 describe how this process is involved in the production of a population of resistant organisms \u2022 identify one problem caused by this resistance \u2022 state one solution to this problem \u2022 identify one possible negative effect of this solution Variety: ________________________________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 56\u201360 on the information below and on your knowledge of biology.\nNew varieties of organisms have resulted from human activities. These organisms have\noften led to problems in modern society. Two of these new varieties are listed below.\nAntibiotic-resistant bacteria\nPesticide-resistant insects\n56\u201360 Select one of these varieties and discuss a problem associated with the development of this new variety\nof organism. In your answer, be sure to:\n\u2022 identify the variety you selected\n\u2022 identify one biological process by which a population of this variety may develop resistance   [1]\n\u2022 describe how this process is involved in the production of a population of resistant organisms   [1]\n\u2022 identify one problem caused by this resistance   [1]\n\u2022 state one solution to this problem   [1]\n\u2022 identify one possible negative effect of this solution   [1]\nVariety: ________________________________\n\nLiving Environment\u2013Jan. \u201912\n[15]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2012/context_61_63.png",
+      "context": "Base your answer to question 61\u201363 on the passage below and on your knowledge of biology.\nGreen Tea & Acne\nGreen tea might be an effective treatment for acne, according to a study by researchers\nfrom Memorial Medical Center in the Philippines, reported by United Press International\n(UPI). The study showed that 3 percent green tea cream is comparable to 4 percent \nbenzoyl peroxide in the treatment of moderate to severe acne.\nGreen tea has been shown to fight bacteria, reduce inflammation and decrease \nhormone activity \u2014 three characteristics that make the ancient tea an excellent candidate\nfor an acne therapy.\nIn the study, one group of subjects applied benzoyl peroxide cream twice daily for \n12 weeks and another used green tea extract cream twice daily for the same period.\nPatients received identical bottles of cream and were unaware of the type of treatment they\nwere assigned. The researchers noted the green tea cream seemed to lighten patients\u2019\n[acne] and improve the overall appearance of their complexion.\nThe preliminary data suggest green tea extract cream causes fewer side effects than\nbenzoyl peroxide treatment. Patients in the green tea group reported fewer cases of dry\nskin, itching and allergic responses. Azucena Arguelles, MD, a private practice dermatologist\nfrom Mountain View, CA, told UPI that the findings, while promising, are not yet substantial\nenough to change clinical practice.\nAdvance for Nurses, Nov. 10, 2003,\n\u201cGreen Tea & Acne,\u201d www.advanceweb.com\n61\u201363 Explain how this experiment can be used to develop a new treatment for acne. In your answer, be \nsure to:\n\u2022 identify the organism targeted by green tea   [1]\n\u2022 identify one advantage of using green tea extract instead of benzoyl peroxide cream to treat acne   [1]\n\u2022 state one reason why, even though the findings are promising, they are \u201cnot yet substantial enough to\nchange clinical practice\u201d   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "61\u201363 Explain how this experiment can be used to develop a new treatment for acne. In your answer, be sure to: \u2022 identify the organism targeted by green tea \u2022 identify one advantage of using green tea extract instead of benzoyl peroxide cream to treat acne \u2022 state one reason why, even though the findings are promising, they are \u201cnot yet substantial enough to change clinical practice\u201d",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2012/context_61_63.png",
+      "context": "Base your answer to question 61\u201363 on the passage below and on your knowledge of biology.\nGreen Tea & Acne\nGreen tea might be an effective treatment for acne, according to a study by researchers\nfrom Memorial Medical Center in the Philippines, reported by United Press International\n(UPI). The study showed that 3 percent green tea cream is comparable to 4 percent \nbenzoyl peroxide in the treatment of moderate to severe acne.\nGreen tea has been shown to fight bacteria, reduce inflammation and decrease \nhormone activity \u2014 three characteristics that make the ancient tea an excellent candidate\nfor an acne therapy.\nIn the study, one group of subjects applied benzoyl peroxide cream twice daily for \n12 weeks and another used green tea extract cream twice daily for the same period.\nPatients received identical bottles of cream and were unaware of the type of treatment they\nwere assigned. The researchers noted the green tea cream seemed to lighten patients\u2019\n[acne] and improve the overall appearance of their complexion.\nThe preliminary data suggest green tea extract cream causes fewer side effects than\nbenzoyl peroxide treatment. Patients in the green tea group reported fewer cases of dry\nskin, itching and allergic responses. Azucena Arguelles, MD, a private practice dermatologist\nfrom Mountain View, CA, told UPI that the findings, while promising, are not yet substantial\nenough to change clinical practice.\nAdvance for Nurses, Nov. 10, 2003,\n\u201cGreen Tea & Acne,\u201d www.advanceweb.com\n61\u201363 Explain how this experiment can be used to develop a new treatment for acne. In your answer, be \nsure to:\n\u2022 identify the organism targeted by green tea   [1]\n\u2022 identify one advantage of using green tea extract instead of benzoyl peroxide cream to treat acne   [1]\n\u2022 state one reason why, even though the findings are promising, they are \u201cnot yet substantial enough to\nchange clinical practice\u201d   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Explain why Salmonella bacteria are described as pathogens.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the information below and on your knowledge of biology.\nRaw eggs and undercooked poultry may contain Salmonella bacteria. These bacteria\ncan cause food poisoning by invading the cells lining the small intestine and producing a\ntoxin that causes inflammation in the intestine. Symptoms usually appear 24 to 48 hours\nafter the bacteria are ingested. Symptoms include fever, diarrhea, vomiting, dehydration,\nand abdominal pain that may last for several days.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "State one possible reason why the symptoms of food poisoning do not appear for 24 to 48 hours after eating food contaminated with Salmonella bacteria.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2012/q65.png",
+      "context": "Base your answers to questions 64 and 65 on the information below and on your knowledge of biology.\nRaw eggs and undercooked poultry may contain Salmonella bacteria. These bacteria\ncan cause food poisoning by invading the cells lining the small intestine and producing a\ntoxin that causes inflammation in the intestine. Symptoms usually appear 24 to 48 hours\nafter the bacteria are ingested. Symptoms include fever, diarrhea, vomiting, dehydration,\nand abdominal pain that may last for several days.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "66\u201368 A student was visiting a friend at her home. Her friend owned two cats. After playing with the cats for a while, the student began to sneeze. Her nose began to run and her eyes became red, watery, and itchy. It also became hard for her to breathe. A few minutes after leaving her friend\u2019s home, the symptoms disappeared. Provide a biological explanation for the symptoms the girl developed at her friend\u2019s house. In your response, be sure to: \u2022 identify the body system that was responsible for triggering the reaction she experienced \u2022 identify the type of reaction the student was most likely experiencing \u2022",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2012/context_69_72.png",
+      "context": "Base your answer to question 69\u201372 on the information below and on your knowledge of biology.\nEnvironmentalists and public health experts are warning the public about some \nchemicals that they come in contact with daily, such as PBDEs and phthalates. PBDEs are\nused to make children\u2019s clothing flame retardant and phthalates are used to manufacture\nmany plastic bottles, toys, and cosmetics. Both of these chemicals accumulate in the body\nand endanger health.\nIn one family tested, the young children had PBDE levels seven times that of their \nparents. These levels were two to three times the levels that caused thyroid problems in \nanimals. Animal studies have shown that phthalates cause reproductive defects. Even at low\nlevels, phthalates may contribute to infertility and impaired testes in males. Both chemicals\ncan cause nervous system damage.\nBiomonitoring is a technology used to test for levels of industrial chemicals found in the\nbody. The technology is less than ten years old, but results from animal studies led some\ncountries to ban PBDEs in 2004.\nPresently, the United States EPA (Environmental Protection Agency) does not require\nchemical manufacturers to conduct human toxicity studies prior to approval for use. If \nconcerns regarding risk or exposure arise during the approval process, the EPA can ask for\nadditional testing. Additional testing occurs for approximately 10 percent of the new \nchemicals submitted each year. The EPA has also set up voluntary testing programs with\nmajor chemical manufacturers to rate some of the 3,000 most widely used chemicals.\n69\u201372 The use of industrial chemicals, such as PBDEs and phthalates, provides both advantages and\ndisadvantages. Discuss the disadvantages of using these chemicals. In your answer, be sure to:\n\u2022 state one specific reason why public health officials are concerned about the use of these chemicals   [1]\n\u2022 identify the technique used to determine exposure levels to these chemicals in humans   [1]\n\u2022 state one possible reason why young children might have higher levels of exposure to these \nchemicals than do adults   [1]\n\u2022 state one possible reason why chemical manufacturers might participate in the voluntary testing \nprograms set up by the EPA   [1]\nLiving Environment\u2013Jan. \u201912\n[17]\n[OVER]\n\nPart D\nAnswer all questions in this part.\n[13]\nDirections (73\u201385): For those questions that are multiple choice, record on your separate answer sheet the\nnumber of the choice that best completes the statement or answers the question. For all other questions in this\npart, follow the directions given and record your answers in the spaces provided in this examination booklet.\nNote: The answer to question 73 should be recorded on your separate answer sheet.\n73 The materials represented in the diagram below were used in a laboratory activity.\nThese materials were used to carry out the technique known as\n(1) DNA staining\n(3) paper chromatography\n(2) genetic engineering\n(4) glucose testing\nNote: The answer to question 74 should be recorded on your separate answer sheet.\n74 A coverslip should be slowly lowered from a 45\u00b0 angle onto a slide in order to\n(1) prevent the slide from being scratched\n(2) stop the loss of water from under the coverslip\n(3) ensure that the specimen being viewed will stay alive\n(4) reduce the formation of air bubbles\nNote: The answer to question 75 should be recorded on your separate answer sheet.\n75 A substance is most likely to diffuse into a cell when\n(1) it is a large organic food molecule such as protein or starch\n(2) it is enclosed in an organelle such as a vacuole\n(3) the concentration of the substance is greater outside the cell than inside\n(4) the pH of the substance is greater than the pH of the cell\nBc\nZ\nY\nWater\nBc\nX\nY\nZ\nX\nLiving Environment\u2013Jan. \u201912\n[18]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "69\u201372 The use of industrial chemicals, such as PBDEs and phthalates, provides both advantages and disadvantages. Discuss the disadvantages of using these chemicals. In your answer, be sure to: \u2022 state one specific reason why public health officials are concerned about the use of these chemicals \u2022 identify the technique used to determine exposure levels to these chemicals in humans \u2022 state one possible reason why young children might have higher levels of exposure to these chemicals than do adults \u2022",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2012/context_69_72.png",
+      "context": "Base your answer to question 69\u201372 on the information below and on your knowledge of biology.\nEnvironmentalists and public health experts are warning the public about some \nchemicals that they come in contact with daily, such as PBDEs and phthalates. PBDEs are\nused to make children\u2019s clothing flame retardant and phthalates are used to manufacture\nmany plastic bottles, toys, and cosmetics. Both of these chemicals accumulate in the body\nand endanger health.\nIn one family tested, the young children had PBDE levels seven times that of their \nparents. These levels were two to three times the levels that caused thyroid problems in \nanimals. Animal studies have shown that phthalates cause reproductive defects. Even at low\nlevels, phthalates may contribute to infertility and impaired testes in males. Both chemicals\ncan cause nervous system damage.\nBiomonitoring is a technology used to test for levels of industrial chemicals found in the\nbody. The technology is less than ten years old, but results from animal studies led some\ncountries to ban PBDEs in 2004.\nPresently, the United States EPA (Environmental Protection Agency) does not require\nchemical manufacturers to conduct human toxicity studies prior to approval for use. If \nconcerns regarding risk or exposure arise during the approval process, the EPA can ask for\nadditional testing. Additional testing occurs for approximately 10 percent of the new \nchemicals submitted each year. The EPA has also set up voluntary testing programs with\nmajor chemical manufacturers to rate some of the 3,000 most widely used chemicals.\n69\u201372 The use of industrial chemicals, such as PBDEs and phthalates, provides both advantages and\ndisadvantages. Discuss the disadvantages of using these chemicals. In your answer, be sure to:\n\u2022 state one specific reason why public health officials are concerned about the use of these chemicals   [1]\n\u2022 identify the technique used to determine exposure levels to these chemicals in humans   [1]\n\u2022 state one possible reason why young children might have higher levels of exposure to these \nchemicals than do adults   [1]\n\u2022 state one possible reason why chemical manufacturers might participate in the voluntary testing \nprograms set up by the EPA   [1]\nLiving Environment\u2013Jan. \u201912\n[17]\n[OVER]\n\nPart D\nAnswer all questions in this part.\n[13]\nDirections (73\u201385): For those questions that are multiple choice, record on your separate answer sheet the\nnumber of the choice that best completes the statement or answers the question. For all other questions in this\npart, follow the directions given and record your answers in the spaces provided in this examination booklet.\nNote: The answer to question 73 should be recorded on your separate answer sheet.\n73 The materials represented in the diagram below were used in a laboratory activity.\nThese materials were used to carry out the technique known as\n(1) DNA staining\n(3) paper chromatography\n(2) genetic engineering\n(4) glucose testing\nNote: The answer to question 74 should be recorded on your separate answer sheet.\n74 A coverslip should be slowly lowered from a 45\u00b0 angle onto a slide in order to\n(1) prevent the slide from being scratched\n(2) stop the loss of water from under the coverslip\n(3) ensure that the specimen being viewed will stay alive\n(4) reduce the formation of air bubbles\nNote: The answer to question 75 should be recorded on your separate answer sheet.\n75 A substance is most likely to diffuse into a cell when\n(1) it is a large organic food molecule such as protein or starch\n(2) it is enclosed in an organelle such as a vacuole\n(3) the concentration of the substance is greater outside the cell than inside\n(4) the pH of the substance is greater than the pH of the cell\nBc\nZ\nY\nWater\nBc\nX\nY\nZ\nX\nLiving Environment\u2013Jan. \u201912\n[18]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "The materials represented in the diagram below were used in a laboratory activity. These materials were used to carry out the technique known as",
+      "choices": [
+        "DNA staining",
+        "genetic engineering",
+        "paper chromatography",
+        "glucose testing"
+      ],
+      "image": "/images/exams/living-environment/january-2012/q73.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "A coverslip should be slowly lowered from a 45\u00b0 angle onto a slide in order to",
+      "choices": [
+        "prevent the slide from being scratched",
+        "stop the loss of water from under the coverslip",
+        "ensure that the specimen being viewed will stay alive",
+        "reduce the formation of air bubbles"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "A substance is most likely to diffuse into a cell when",
+      "choices": [
+        "it is a large organic food molecule such as protein or starch",
+        "it is enclosed in an organelle such as a vacuole",
+        "the concentration of the substance is greater outside the cell than inside",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "If a control group is not included in an experiment, it would be difficult to",
+      "choices": [
+        "formulate a hypothesis for the experiment",
+        "make observations about the experimental group",
+        "record data in a data table",
+        "draw a valid conclusion"
+      ],
+      "image": "/images/exams/living-environment/january-2012/context_76_77.png",
+      "context": "Base your answers to questions 76 and 77 on the information and data table below and on your knowledge\nof biology.\nFive students design an experiment to answer the question: \u201cHow is heart rate affected\nby running?\u201d Two chairs were set up at different ends of a large room. The pulse rate of\neach student was taken at rest just before running. Each of the five students ran between\nthe chairs a different number of times. Their pulse rates were taken after running and the\nresults are shown in the table below.\nEffect of Running on Heart Rate\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Explain how the change in heart rate helps to maintain homeostasis during exercise. Student Number of Times the Student Ran Between the Chairs Pulse Rate After Running (beats/min) A 2 88 B 4 96 C 6 104 D 8 112 E 10 120",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2012/context_76_77.png",
+      "context": "Base your answers to questions 76 and 77 on the information and data table below and on your knowledge\nof biology.\nFive students design an experiment to answer the question: \u201cHow is heart rate affected\nby running?\u201d Two chairs were set up at different ends of a large room. The pulse rate of\neach student was taken at rest just before running. Each of the five students ran between\nthe chairs a different number of times. Their pulse rates were taken after running and the\nresults are shown in the table below.\nEffect of Running on Heart Rate\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Draw lines in the sequences below for species 1 and species 2 to show where the catalyst would cut the DNA. Species 1: T A C C G G A T T A G T T A T G C C G G A T C G Species 2: T A C G G A T G C C G G A T C G G A A A T T C G",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 80 on the information below and on your knowledge of biology.\nThe sequences below represent the same portions of a DNA molecule from the same\ngene used by a student to study the relationship between two plant species. A biological \ncatalyst that recognizes the CCGG site is used to cut the DNA molecules into pieces. The\ncatalyst cuts the DNA between the C and G of the site.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Complete the data table below to show the results of the action of the catalyst. Results of Catalyst Action",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2012/q79.png",
+      "context": "Base your answers to questions 78 through 80 on the information below and on your knowledge of biology.\nThe sequences below represent the same portions of a DNA molecule from the same\ngene used by a student to study the relationship between two plant species. A biological \ncatalyst that recognizes the CCGG site is used to cut the DNA molecules into pieces. The\ncatalyst cuts the DNA between the C and G of the site.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Are the two species of plants closely related? Support your answer. Number of Cuts Number of Resulting Pieces of DNA Species 1 Species 2",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 80 on the information below and on your knowledge of biology.\nThe sequences below represent the same portions of a DNA molecule from the same\ngene used by a student to study the relationship between two plant species. A biological \ncatalyst that recognizes the CCGG site is used to cut the DNA molecules into pieces. The\ncatalyst cuts the DNA between the C and G of the site.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Which statement about the size of the organisms is correct?",
+      "choices": [
+        "Organism A is larger than organism B.",
+        "Organism B is larger than organism A.",
+        "Organisms A and B are both the same size.",
+        "The relative size of the organisms cannot be determined from the information given."
+      ],
+      "image": "/images/exams/living-environment/january-2012/context_81_81.png",
+      "context": "Base your answer to question 81 on the information and diagrams below and on your knowledge of biology.\nThe drawings below were made during a laboratory exercise in which a microscope was\nused to view slides of preserved protozoa. The microscope had a 10\u00d7 eyepiece and two \ndifferent objectives.\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "A student performed a gel electrophoresis experiment. The results are represented in the diagram below. Compared to the fragments at the top of the gel, the fragments at the lower end are",
+      "choices": [
+        "larger, and move slower",
+        "larger, and move faster",
+        "smaller, and move faster",
+        "smaller, and move slower Samples Well Fragment motion Plastic frame Buffer Gel Electrode Electrode Organism A viewed with 10 objective Organism B viewed with 40"
+      ],
+      "image": "/images/exams/living-environment/january-2012/q82.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "On an island populated by both warbler finches and small tree finches, there is a significant decrease in the amount of animal food. Which finch population would decrease more? Support your answer. Finch population: ________________________________________ Large ground finch Vegetarian finch Large tree finch Small tree finch Woodpecker finch Warbler finch Cactus finch Sharp-billed ground finch Small ground finch Medium ground finch E d g e c r u s h i n g B i t i n g t i p s C r u s h i n g b i l l s Mainly plant food Mainly animal food G r a s p i n g b i l l s All animal food P r o b i n g P r o b i n g b i l l s from: Galapagos: A Natural History Guide Variations in Beaks of Galapagos Islands Finches",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2012/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the diagram below and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Identify one species of finch that would most likely survive a sudden change in climate that destroyed seeds with small, thin coverings, leaving only seeds with large, thick coverings. Support your answer. Species of finch: ________________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2012/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the diagram below and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2012/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the diagram below and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

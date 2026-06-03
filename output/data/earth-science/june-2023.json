@@ -1,0 +1,1086 @@
+{
+  "subject": "earth-science",
+  "session": "june-2023",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which two characteristics classify Jupiter as a Jovian planet?",
+      "choices": [
+        "low density and large diameter",
+        "low density and small diameter",
+        "high density and large diameter",
+        "high density and small diameter"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "As observed from Earth, the wavelengths of light from the most distant galaxies are usually",
+      "choices": [
+        "blue shifted due to an expanding universe",
+        "blue shifted due to a contracting universe",
+        "red shifted due to an expanding universe",
+        "red shifted due to a contracting universe"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The rate of Earth\u2019s revolution around the Sun is approximately",
+      "choices": [
+        "1\u00b0/day",
+        "15\u00b0/day",
+        "24\u00b0/day",
+        "360\u00b0/day"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Different star constellations are observed from Earth at different times during the year because",
+      "choices": [
+        "constellations spin on an axis",
+        "constellations travel in an orbit around the Sun",
+        "Earth spins on its axis",
+        "Earth travels in an orbit around the Sun"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The apparent change in the direction of swing of a Foucault pendulum provides evidence of Earth\u2019s",
+      "choices": [
+        "rotation",
+        "revolution",
+        "tilted axis",
+        "elliptical orbit"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The Milky Way can best be described as",
+      "choices": [
+        "an elliptical galaxy",
+        "a collection of stars orbiting the Sun",
+        "a star that originated 4600 million years ago",
+        "one of billions of galaxies in the universe"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "How much heat energy is required to change five grams of ice to liquid water at 0\u00b0C?",
+      "choices": [
+        "334 joules",
+        "1670 joules",
+        "2260 joules",
+        "11,300 joules"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the change in mass of a potted plant over time. Bottom of potted plant wrapped in plastic Starting mass just after plastic wrap is applied Mass after 7 days What is the cause and its effect on the change in mass of the potted plant over time?",
+      "choices": [
+        "Transpiration caused a decrease in mass.",
+        "Condensation caused a decrease in mass.",
+        "Transpiration caused an increase in mass.",
+        "Condensation caused an increase in mass."
+      ],
+      "image": "/images/exams/earth-science/june-2023/q8.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Air temperatures are recorded as a weather balloon rises from Earth\u2019s surface. At first, the air temperature constantly decreases for 12 kilometers, then remains constant briefly before increasing for another 12 kilometers before the balloon bursts. In which layer did the balloon burst?",
+      "choices": [
+        "troposphere",
+        "stratosphere",
+        "mesosphere",
+        "thermosphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the Moon passing through the darker part of Earth\u2019s shadow called the umbra. Letters A and B represent locations on Earth\u2019s surface. (Not drawn to scale) Moon Earth Sun\u2019s rays B A Umbra Which statement best identifies this event and at which location it would be viewed?",
+      "choices": [
+        "A solar eclipse is occurring and can be seen from location A.",
+        "A solar eclipse is occurring and can be seen from location B.",
+        "A lunar eclipse is occurring and can be seen from location A.",
+        "A lunar eclipse is occurring and can be seen from location B."
+      ],
+      "image": "/images/exams/earth-science/june-2023/q10.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The photograph below shows an impact crater located in the southwestern United States. This crater most likely formed as a result of",
+      "choices": [
+        "an explosive volcanic eruption",
+        "the subduction at a plate boundary",
+        "an asteroid colliding with Earth",
+        "the evaporation of water from a lake"
+      ],
+      "image": "/images/exams/earth-science/june-2023/q11.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The diagrams below represent three containers, A, B, and C, which were filled with equal volumes of uniformly sorted plastic beads. To determine porosity, water was poured into each container until the water level rose to the top of the beads. C B A The porosity was found to be",
+      "choices": [
+        "greatest in container A",
+        "greatest in container B",
+        "greatest in container C",
+        "the same in all three containers"
+      ],
+      "image": "/images/exams/earth-science/june-2023/q12.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "written",
+      "text": "Which cross section represents the cloud patterns and the direction of air movement at a warm front? ( 1 ) ( 2 ) ( 3 ) ( 4 ) Warm air Cool air Warm air Cool air Warm air Cool air Warm air Cool air",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "written",
+      "text": "Which map shows the most likely path of a low pressure system (L) in the United States if it follows a normal storm track? L ( 1 ) L L ( 2 ) L ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "written",
+      "text": "Which weather instrument is an anemometer? 990 980 970 960 950 940 1050 1040 1030 1020 1010 1060 29.5 in 29 28.5 28 31.5 31 30.5 30 Change Rain Stormy Fair Very dry 1 0 0 0 m b 20 0 20 40 60 80 100 120 32 \u00b0C \u00b0F 30 20 10 0 10 20 30 40 50 W E N S ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The station model below represents some weather information for a location in New York State. 73 72 2 Based on the information on the station model, the weather at this location is",
+      "choices": [
+        "partly cloudy and windy with blowing snow",
+        "cloudy and windy with thunderstorms",
+        "cloudy and calm with visibility of 2 miles",
+        "partly cloudy and calm with an air temperature of 73\u00b0F"
+      ],
+      "image": "/images/exams/earth-science/june-2023/q16.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Electromagnetic energy travels through space from the Sun to the top of Earth\u2019s atmosphere by",
+      "choices": [
+        "conduction",
+        "convection",
+        "radiation",
+        "infiltration"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the position of Earth with respect to the Sun on March 21. A and B are two locations on Earth\u2019s surface. 0\u00b0 30\u00b0 N 60\u00b0 N A B Sun\u2019s rays 60\u00b0 S 30\u00b0 S 90\u00b0 N 90\u00b0 S The intensity of insolation over the next three months will",
+      "choices": [
+        "decrease for both A and B",
+        "decrease for A and increase for B",
+        "increase for both A and B",
+        "increase for A and decrease for B"
+      ],
+      "image": "/images/exams/earth-science/june-2023/q18.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which event is primarily responsible for the production of oxygen that first entered into Earth\u2019s early atmosphere?",
+      "choices": [
+        "evolution of oxygen-producing organisms",
+        "radioactive decay of isotopes producing oxygen",
+        "separation of oxygen from hydrogen in water",
+        "oxygen-rich comets impacting Earth"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Since the break up of Pangaea, it has been inferred that the continent of North America has been generally moving toward the",
+      "choices": [
+        "northwest",
+        "northeast",
+        "southwest",
+        "southeast"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The fossil Mucrospirifer is considered to be an index fossil because it existed over a",
+      "choices": [
+        "small geographic region for a long period of time",
+        "small geographic region for a short period of time",
+        "large geographic region for a long period of time",
+        "large geographic region for a short period of time"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Compared to Earth\u2019s outer core, the inner core properties are inferred to be",
+      "choices": [
+        "less dense and a solid",
+        "less dense and a liquid",
+        "more dense and a solid",
+        "more dense and a liquid"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A seismic station 4000 kilometers from the epicenter of an earthquake records the arrival time of the first S-wave at 1:05:40 p.m. At what time did the first P-wave arrive at this station?",
+      "choices": [
+        "12:58:40 p.m.",
+        "1:00:00 p.m.",
+        "1:05:40 p.m.",
+        "1:11:20 p.m."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The photograph below shows fossilized ammonoids in a rock outcrop. The presence of these fossils in the outcrop indicates that in the past, this region was most likely covered by",
+      "choices": [
+        "desert sand",
+        "ocean water",
+        "glacial ice",
+        "molten rock"
+      ],
+      "image": "/images/exams/earth-science/june-2023/q24.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The cross section below represents rock units within Earth\u2019s crust. Sedimentary rock layers are labeled 1 through 6. Contact metamorphism Key Igneous rock 1 2 3 4 5 6 The age of the igneous rock is",
+      "choices": [
+        "older than rock layers 1 and 2",
+        "the same age as rock layer 3",
+        "older than rock layer 3",
+        "younger than rock layers 4, 5, and 6"
+      ],
+      "image": "/images/exams/earth-science/june-2023/q25.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The maps below show different stream drainage patterns. What factor most likely causes these different stream drainage patterns?",
+      "choices": [
+        "age of bedrock",
+        "bedrock structure",
+        "types of fossils found in the bedrock",
+        "temperature variations in the bedrock"
+      ],
+      "image": "/images/exams/earth-science/june-2023/q26.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The photograph below shows boulders and other sediments that slid down a hillside. This rock slide is most likely an example of",
+      "choices": [
+        "mass movement due to prolonged periods of heavy traffic",
+        "mass movement following prolonged periods of heavy rain",
+        "abrasion by prolonged exposure to moving ice",
+        "abrasion following prolonged exposure to wind action"
+      ],
+      "image": "/images/exams/earth-science/june-2023/q27.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The Mariana Trench is Earth\u2019s deepest oceanic trench. This trench formed as the Pacific Plate was",
+      "choices": [
+        "overriding the Philippine Plate",
+        "overriding the Eurasian Plate",
+        "subducting under the Philippine Plate",
+        "subducting under the Eurasian Plate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The diagram below represents patterns of normal and reverse magnetic polarity in seafloor bedrock. Normal Reverse In which bedrock type and location can this magnetic pattern most likely be observed?",
+      "choices": [
+        "igneous bedrock at the East Pacific Ridge",
+        "igneous bedrock at the Tasman Hot Spot",
+        "sedimentary bedrock at the East Pacific Ridge",
+        "sedimentary bedrock at the Tasman Hot Spot"
+      ],
+      "image": "/images/exams/earth-science/june-2023/q29.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Compared to the thickness and density of the continental crust, the relative thickness and density of Earth\u2019s oceanic crust are",
+      "choices": [
+        "thinner and less dense",
+        "thinner and more dense",
+        "thicker and less dense",
+        "thicker and more dense"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Iron found in some minerals in basalt can react with oxygen and break down into iron oxide particles. This change is an example of",
+      "choices": [
+        "deposition",
+        "erosion",
+        "chemical weathering",
+        "physical weathering"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Which feature provides the best evidence that thick glacial ice sheets once advanced southward over New York State?",
+      "choices": [
+        "parallel grooves in bedrock",
+        "sorted layers of sediments",
+        "caves found in limestone bedrock",
+        "V-shaped valleys"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The photograph below shows the metamorphic rock gneiss. Three minerals that would most likely be found in this rock are",
+      "choices": [
+        "pyroxene, calcite, and fluorite",
+        "garnet, hornblende, and talc",
+        "amphibole, augite, and hematite",
+        "quartz, mica, and feldspar"
+      ],
+      "image": "/images/exams/earth-science/june-2023/q33.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Which igneous rock has a fine-grained texture and would have a mineral composition of 57% plagioclase feldspar, 28% amphibole, and 15% biotite?",
+      "choices": [
+        "gabbro",
+        "pegmatite",
+        "scoria",
+        "andesite"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "What is a common use of the mineral composed of Fe3Al2Si3O12?",
+      "choices": [
+        "ceramics",
+        "jewelry",
+        "building stones",
+        "plaster of paris"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Which diagram best illustrates the positions of Earth (E), the Sun (S), and the Moon (M), and the relative distance between Earth and the Moon that results in a king tide? ( 1 ) S E S E S E S E M ( 3 ) M ( 2 ) M ( 4 ) M",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/q36.png",
+      "context": "Base your answers to questions 36 through 39 on the passage below and on your knowledge of Earth science.\nKing Tides and Climate Change\nSpring tides are extremely high tides that occur when Earth, the Moon, and the Sun \nare aligned. A king tide is the common name given to an extremely high spring tide that \noccurs at perigee (when the Moon is closest to Earth in its orbit). King tides occur once \nor twice every year.\nNormal high tides are now reaching higher and extending farther inland than in the \npast because of global climate change and rising sea levels. This causes low-lying shorelines \nto be at an increased risk of flooding. If climate continues to change and sea levels rise, \nspring tides and king tides will have a greater effect on shorelines and coastal flooding.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "A coastal community can make advanced preparations for a king tide event because the motions of Earth and the Moon are",
+      "choices": [
+        "cyclic and predictable",
+        "cyclic and unpredictable",
+        "noncyclic and predictable",
+        "noncyclic and unpredictable"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 36 through 39 on the passage below and on your knowledge of Earth science.\nKing Tides and Climate Change\nSpring tides are extremely high tides that occur when Earth, the Moon, and the Sun \nare aligned. A king tide is the common name given to an extremely high spring tide that \noccurs at perigee (when the Moon is closest to Earth in its orbit). King tides occur once \nor twice every year.\nNormal high tides are now reaching higher and extending farther inland than in the \npast because of global climate change and rising sea levels. This causes low-lying shorelines \nto be at an increased risk of flooding. If climate continues to change and sea levels rise, \nspring tides and king tides will have a greater effect on shorelines and coastal flooding.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which factor is primarily causing global average sea levels to rise over time?",
+      "choices": [
+        "decreased incoming solar radiation",
+        "decreased ocean water temperature",
+        "increased amount of snowfall in Arctic regions",
+        "increased melting of glacial ice"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 36 through 39 on the passage below and on your knowledge of Earth science.\nKing Tides and Climate Change\nSpring tides are extremely high tides that occur when Earth, the Moon, and the Sun \nare aligned. A king tide is the common name given to an extremely high spring tide that \noccurs at perigee (when the Moon is closest to Earth in its orbit). King tides occur once \nor twice every year.\nNormal high tides are now reaching higher and extending farther inland than in the \npast because of global climate change and rising sea levels. This causes low-lying shorelines \nto be at an increased risk of flooding. If climate continues to change and sea levels rise, \nspring tides and king tides will have a greater effect on shorelines and coastal flooding.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Two major greenhouse gases that may be linked to global warming are",
+      "choices": [
+        "carbon dioxide and nitrogen",
+        "carbon dioxide and methane",
+        "oxygen and nitrogen",
+        "oxygen and methane GO ON TO THE NEXT PAGE"
+      ],
+      "image": "/images/exams/earth-science/june-2023/q39.png",
+      "context": "Base your answers to questions 36 through 39 on the passage below and on your knowledge of Earth science.\nKing Tides and Climate Change\nSpring tides are extremely high tides that occur when Earth, the Moon, and the Sun \nare aligned. A king tide is the common name given to an extremely high spring tide that \noccurs at perigee (when the Moon is closest to Earth in its orbit). King tides occur once \nor twice every year.\nNormal high tides are now reaching higher and extending farther inland than in the \npast because of global climate change and rising sea levels. This causes low-lying shorelines \nto be at an increased risk of flooding. If climate continues to change and sea levels rise, \nspring tides and king tides will have a greater effect on shorelines and coastal flooding.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "What time is it in Buffalo, New York, when it is 5:00 p.m. in Omaha, Nebraska?",
+      "choices": [
+        "6:00 p.m.",
+        "7:00 p.m.",
+        "3:00 p.m.",
+        "4:00 p.m."
+      ],
+      "image": "/images/exams/earth-science/june-2023/context_40_43.png",
+      "context": "Base your answers to questions 40 through 43 on the map below and on your knowledge of Earth science. \nThe map shows the four time zones and some latitude and longitude lines across the continental United States. \nSome cities are labeled on the map.\n120\u00b0 W\n105\u00b0 W\n90\u00b0 W\n75\u00b0 W\nMountain\ntime zone\nCentral\ntime zone\nEastern\ntime zone\nBuffalo\nOmaha\nReno\nSeattle\nMobile\nMiami\nDenver\nLos Angeles\nPacific\ntime zone\n50\u00b0 N\n40\u00b0 N\n30\u00b0 N",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The altitude of Polaris, as measured by an observer in Reno, Nevada, is closest to",
+      "choices": [
+        "39\u00b0",
+        "41\u00b0",
+        "119\u00b0",
+        "121\u00b0"
+      ],
+      "image": "/images/exams/earth-science/june-2023/context_40_43.png",
+      "context": "Base your answers to questions 40 through 43 on the map below and on your knowledge of Earth science. \nThe map shows the four time zones and some latitude and longitude lines across the continental United States. \nSome cities are labeled on the map.\n120\u00b0 W\n105\u00b0 W\n90\u00b0 W\n75\u00b0 W\nMountain\ntime zone\nCentral\ntime zone\nEastern\ntime zone\nBuffalo\nOmaha\nReno\nSeattle\nMobile\nMiami\nDenver\nLos Angeles\nPacific\ntime zone\n50\u00b0 N\n40\u00b0 N\n30\u00b0 N",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which city has the shortest duration of insolation on December 21?",
+      "choices": [
+        "Mobile",
+        "Omaha",
+        "Miami",
+        "Seattle"
+      ],
+      "image": "/images/exams/earth-science/june-2023/context_40_43.png",
+      "context": "Base your answers to questions 40 through 43 on the map below and on your knowledge of Earth science. \nThe map shows the four time zones and some latitude and longitude lines across the continental United States. \nSome cities are labeled on the map.\n120\u00b0 W\n105\u00b0 W\n90\u00b0 W\n75\u00b0 W\nMountain\ntime zone\nCentral\ntime zone\nEastern\ntime zone\nBuffalo\nOmaha\nReno\nSeattle\nMobile\nMiami\nDenver\nLos Angeles\nPacific\ntime zone\n50\u00b0 N\n40\u00b0 N\n30\u00b0 N",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The four time zones shown on the map are based on Earth\u2019s",
+      "choices": [
+        "tilted axis",
+        "orbital velocity",
+        "rate of rotation",
+        "rate of revolution"
+      ],
+      "image": "/images/exams/earth-science/june-2023/context_40_43.png",
+      "context": "Base your answers to questions 40 through 43 on the map below and on your knowledge of Earth science. \nThe map shows the four time zones and some latitude and longitude lines across the continental United States. \nSome cities are labeled on the map.\n120\u00b0 W\n105\u00b0 W\n90\u00b0 W\n75\u00b0 W\nMountain\ntime zone\nCentral\ntime zone\nEastern\ntime zone\nBuffalo\nOmaha\nReno\nSeattle\nMobile\nMiami\nDenver\nLos Angeles\nPacific\ntime zone\n50\u00b0 N\n40\u00b0 N\n30\u00b0 N",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which two elements are common to both rocks that make up the 4% section of the United States crushed stone rock types?",
+      "choices": [
+        "aluminum and iron",
+        "silicon and oxygen",
+        "calcium and magnesium",
+        "nitrogen and potassium"
+      ],
+      "image": "/images/exams/earth-science/june-2023/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and pie chart below. The pie chart shows \npercentages of different rock types used to make crushed stone in the United States during 2017.\nCrushed Stone\nCrushed stone is the world\u2019s most basic mineral commodity. It is abundant, widely \navailable, and inexpensive. In 2017, the United States produced 1.3 billion tons of crushed \nstone, most of which is used in highway and building construction.\nUnited States Crushed Stone Rock Types\nLimestone and\nDolostone\n70%\nSandstone/Quartzite\n4%\nGranite\n13%\nTrap Rock\n(usually dark colored\nmafic igneous rock) \n6%\nOther\n7%",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Which rock would most likely be included in trap rock?",
+      "choices": [
+        "phyllite",
+        "obsidian",
+        "diabase",
+        "rhyolite"
+      ],
+      "image": "/images/exams/earth-science/june-2023/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and pie chart below. The pie chart shows \npercentages of different rock types used to make crushed stone in the United States during 2017.\nCrushed Stone\nCrushed stone is the world\u2019s most basic mineral commodity. It is abundant, widely \navailable, and inexpensive. In 2017, the United States produced 1.3 billion tons of crushed \nstone, most of which is used in highway and building construction.\nUnited States Crushed Stone Rock Types\nLimestone and\nDolostone\n70%\nSandstone/Quartzite\n4%\nGranite\n13%\nTrap Rock\n(usually dark colored\nmafic igneous rock) \n6%\nOther\n7%",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Which crushed rock would most likely weather the fastest in areas that receive high levels of acidic rain?",
+      "choices": [
+        "trap rock",
+        "granite",
+        "quartzite",
+        "limestone"
+      ],
+      "image": "/images/exams/earth-science/june-2023/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and pie chart below. The pie chart shows \npercentages of different rock types used to make crushed stone in the United States during 2017.\nCrushed Stone\nCrushed stone is the world\u2019s most basic mineral commodity. It is abundant, widely \navailable, and inexpensive. In 2017, the United States produced 1.3 billion tons of crushed \nstone, most of which is used in highway and building construction.\nUnited States Crushed Stone Rock Types\nLimestone and\nDolostone\n70%\nSandstone/Quartzite\n4%\nGranite\n13%\nTrap Rock\n(usually dark colored\nmafic igneous rock) \n6%\nOther\n7%",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "When the driver of a dump truck raises the bed of the dump truck to release its load, quartzite tends to scratch the bottom and sides of the bed easier than limestone. Which property of the minerals in quartzite causes them to more easily scratch the bed of the dump truck?",
+      "choices": [
+        "streak",
+        "luster",
+        "hardness",
+        "cleavage"
+      ],
+      "image": "/images/exams/earth-science/june-2023/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and pie chart below. The pie chart shows \npercentages of different rock types used to make crushed stone in the United States during 2017.\nCrushed Stone\nCrushed stone is the world\u2019s most basic mineral commodity. It is abundant, widely \navailable, and inexpensive. In 2017, the United States produced 1.3 billion tons of crushed \nstone, most of which is used in highway and building construction.\nUnited States Crushed Stone Rock Types\nLimestone and\nDolostone\n70%\nSandstone/Quartzite\n4%\nGranite\n13%\nTrap Rock\n(usually dark colored\nmafic igneous rock) \n6%\nOther\n7%",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "One reason why carbon-14 was used to determine the age of the woolly rhinoceros tooth was because carbon-14",
+      "choices": [
+        "never completely decays",
+        "has a very long half-life",
+        "can be found in most organic remains",
+        "is easily identified in Carboniferous bedrock"
+      ],
+      "image": "/images/exams/earth-science/june-2023/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the data table below and on your knowledge of Earth\nscience. The data table lists samples of three different materials, the age of each sample, the radioactive isotope \nused to date each sample, and the location where the sample was found.\nSample\nAge\n(years)\nRadioactive Isotope\nUsed to Date Sample\nLocation of Sample\nWoolly rhinoceros tooth\n39,400\ncarbon-14\nKaminnaya Cave,\nAltai Mt., Russia\nZircon crystals\n4,400,000,000\nuranium-238\nJack Hills region,\nAustralia\nSediments with iridium\n65,500,000\npotassium-40\nItaly",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Approximately how much of the original uranium-238 is left in the sample of zircon crystals?",
+      "choices": [
+        "100%",
+        "50%",
+        "25%",
+        "12.5%"
+      ],
+      "image": "/images/exams/earth-science/june-2023/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the data table below and on your knowledge of Earth\nscience. The data table lists samples of three different materials, the age of each sample, the radioactive isotope \nused to date each sample, and the location where the sample was found.\nSample\nAge\n(years)\nRadioactive Isotope\nUsed to Date Sample\nLocation of Sample\nWoolly rhinoceros tooth\n39,400\ncarbon-14\nKaminnaya Cave,\nAltai Mt., Russia\nZircon crystals\n4,400,000,000\nuranium-238\nJack Hills region,\nAustralia\nSediments with iridium\n65,500,000\npotassium-40\nItaly",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The iridium-enriched sediment layer was deposited at the end of which geological period?",
+      "choices": [
+        "Permian",
+        "Paleogene",
+        "Quaternary",
+        "Cretaceous"
+      ],
+      "image": "/images/exams/earth-science/june-2023/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the data table below and on your knowledge of Earth\nscience. The data table lists samples of three different materials, the age of each sample, the radioactive isotope \nused to date each sample, and the location where the sample was found.\nSample\nAge\n(years)\nRadioactive Isotope\nUsed to Date Sample\nLocation of Sample\nWoolly rhinoceros tooth\n39,400\ncarbon-14\nKaminnaya Cave,\nAltai Mt., Russia\nZircon crystals\n4,400,000,000\nuranium-238\nJack Hills region,\nAustralia\nSediments with iridium\n65,500,000\npotassium-40\nItaly",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify the name of the large depositional feature formed by the sediment deposited where the Horton River flows into Franklin Bay.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the satellite image below and on your knowledge of Earth \nscience. The satellite image shows the Horton River flowing into Franklin Bay in northwestern Canada. Large \nabandoned meanders, now lakes, indicate where the Horton River once flowed before it changed its path over \ntime.\nAbandoned meander\nFranklin Bay\n1 mile N\nHorton River\nDepositional\nfeature",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for delta."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "State the general relationship between the distance from the shoreline and the average diameters of the rock particles deposited in Franklin Bay.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the satellite image below and on your knowledge of Earth \nscience. The satellite image shows the Horton River flowing into Franklin Bay in northwestern Canada. Large \nabandoned meanders, now lakes, indicate where the Horton River once flowed before it changed its path over \ntime.\nAbandoned meander\nFranklin Bay\n1 mile N\nHorton River\nDepositional\nfeature",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 As distance from the shoreline increases, the average diameter of the particles decreases. \u2014 As distance increases, size decreases. \u2014 Particle size decreases as you travel farther off shore. \u2014 Larger particles are closer to the shoreline. \u2014 an inverse relationship \u2014 negative correlation"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Identify the dominant process that occurs along the outside of a meander curve and the dominant process that occurs along the inside of a meander curve that caused this meandering river to change its path.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the satellite image below and on your knowledge of Earth \nscience. The satellite image shows the Horton River flowing into Franklin Bay in northwestern Canada. Large \nabandoned meanders, now lakes, indicate where the Horton River once flowed before it changed its path over \ntime.\nAbandoned meander\nFranklin Bay\n1 mile N\nHorton River\nDepositional\nfeature",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both processes are correct. Acceptable responses include, but are not limited to: Dominant process along the outside of curve: \u2014 erosion \u2014 removal of sediment from the stream bank Dominant process along the inside of curve: \u2014 deposition \u2014 sedimentation \u2014 depositing of rock fragments Note: Allow credit for \u201cweathering and erosion\u201d as the dominant process along the outside of the curve, but do not allow credit for \u201cweathering\u201d because weathering alone does not cause the river to change its path."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Explain how abrasion causes rounding of rock particles as they are transported by the Horton River.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the satellite image below and on your knowledge of Earth \nscience. The satellite image shows the Horton River flowing into Franklin Bay in northwestern Canada. Large \nabandoned meanders, now lakes, indicate where the Horton River once flowed before it changed its path over \ntime.\nAbandoned meander\nFranklin Bay\n1 mile N\nHorton River\nDepositional\nfeature",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Sharp corners break off or wear off when they hit obstacles. \u2014 Particles chip off the rock as it tumbles, bounces, and rolls along the bed of the river. \u2014 Particles collide with other rock fragments and break off sharp edges. Note: Do not allow credit for \u201cwater erosion\u201d or \u201cwater rounding,\u201d alone because water alone does not produce rounding."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify the type of plate boundary at location A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_55_57.png",
+      "context": "Base your answers to questions 55 through 57 on the passage and map below and on your knowledge of \nEarth science. The map shows the area of a portion of Africa that includes the Ethiopian Rift and the East\nAfrican Rift. The large arrows show the directions that the Arabian Plate and the two new plates forming from \nthe African Plate, labeled X and Y, are moving. Letter A represents a plate boundary.\nEast African Rift\nThe East African Rift System begins at a location where two tectonic plates meet in \nthe Afar region of Africa. The two plates that meet at this location are the Arabian Plate to \nthe north and the African Plate to the south. The African Plate is rifting to form two new \nplates.\nThe Nubian Plate is moving westward and the Somalian Plate is moving eastward \nrelative to the rift. The rift system began approximately 25 million years ago and now \nstretches over 3000 kilometers from the Red Sea and Gulf of Aden down toward the \nsouthern tip of Africa. The process of rifting is believed to occur due to heat rising from \nmagma below Earth\u2019s surface. In 2005, a part of the crust in the Afar region gave way, \nspreading the rift area by an additional 26 feet. This crack was filled with 600 billion \ngallons of molten rock, which solidified into basalt.\nEthiopian Rift\nEast African\nRift\nGulf of Aden\nRed\nSea\nAfar\nAfrica\nLocation of Map Area\nDetail\narea\nKey\nRift\narea\nA\nArabian\nPlate\nPlate\nX\nPlate\nY\nSplitting of African Plate\nN\n\nP.S./E. Sci.\u2013June \u201923\t\n[17]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for divergent/diverging plate boundary."
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify the names of the new plates, labeled plate X and plate Y, that are forming from the African Plate.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_55_57.png",
+      "context": "Base your answers to questions 55 through 57 on the passage and map below and on your knowledge of \nEarth science. The map shows the area of a portion of Africa that includes the Ethiopian Rift and the East\nAfrican Rift. The large arrows show the directions that the Arabian Plate and the two new plates forming from \nthe African Plate, labeled X and Y, are moving. Letter A represents a plate boundary.\nEast African Rift\nThe East African Rift System begins at a location where two tectonic plates meet in \nthe Afar region of Africa. The two plates that meet at this location are the Arabian Plate to \nthe north and the African Plate to the south. The African Plate is rifting to form two new \nplates.\nThe Nubian Plate is moving westward and the Somalian Plate is moving eastward \nrelative to the rift. The rift system began approximately 25 million years ago and now \nstretches over 3000 kilometers from the Red Sea and Gulf of Aden down toward the \nsouthern tip of Africa. The process of rifting is believed to occur due to heat rising from \nmagma below Earth\u2019s surface. In 2005, a part of the crust in the Afar region gave way, \nspreading the rift area by an additional 26 feet. This crack was filled with 600 billion \ngallons of molten rock, which solidified into basalt.\nEthiopian Rift\nEast African\nRift\nGulf of Aden\nRed\nSea\nAfar\nAfrica\nLocation of Map Area\nDetail\narea\nKey\nRift\narea\nA\nArabian\nPlate\nPlate\nX\nPlate\nY\nSplitting of African Plate\nN\n\nP.S./E. Sci.\u2013June \u201923\t\n[17]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying plate X as the Nubian Plate and plate Y as the Somalian Plate. Part B\u20132 Allow a maximum of 15 credits for this part. To ensure the accuracy of overlays, select a printer setting such as full, actual size, or 100% when printing this document. Do not select the fit to page setting. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Identify one tectonic event, other than volcanic activity, that is associated with this rifting in Africa.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_55_57.png",
+      "context": "Base your answers to questions 55 through 57 on the passage and map below and on your knowledge of \nEarth science. The map shows the area of a portion of Africa that includes the Ethiopian Rift and the East\nAfrican Rift. The large arrows show the directions that the Arabian Plate and the two new plates forming from \nthe African Plate, labeled X and Y, are moving. Letter A represents a plate boundary.\nEast African Rift\nThe East African Rift System begins at a location where two tectonic plates meet in \nthe Afar region of Africa. The two plates that meet at this location are the Arabian Plate to \nthe north and the African Plate to the south. The African Plate is rifting to form two new \nplates.\nThe Nubian Plate is moving westward and the Somalian Plate is moving eastward \nrelative to the rift. The rift system began approximately 25 million years ago and now \nstretches over 3000 kilometers from the Red Sea and Gulf of Aden down toward the \nsouthern tip of Africa. The process of rifting is believed to occur due to heat rising from \nmagma below Earth\u2019s surface. In 2005, a part of the crust in the Afar region gave way, \nspreading the rift area by an additional 26 feet. This crack was filled with 600 billion \ngallons of molten rock, which solidified into basalt.\nEthiopian Rift\nEast African\nRift\nGulf of Aden\nRed\nSea\nAfar\nAfrica\nLocation of Map Area\nDetail\narea\nKey\nRift\narea\nA\nArabian\nPlate\nPlate\nX\nPlate\nY\nSplitting of African Plate\nN\n\nP.S./E. Sci.\u2013June \u201923\t\n[17]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 earthquakes \u2014 faulting"
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw the 4-inch and 6-inch snowfall isolines. Extend both isolines to the top edge of the map.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 58 and 59 on the isoline map on your answer booklet and on your knowledge\nof Earth science. The map shows the snowfall totals recorded in inches from a lake effect snowstorm that\noccurred as a result of cold air passing over the warmer water of Lake Michigan in January 2012. The 2-inch and \n8-inch snowfall isolines are shown.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly drawing both the 4- and 6-inch isolines. Both must extend to the top edge of the map to receive credit. If other isolines are drawn, all lines must be correct to receive credit. Note: The 4-inch isoline must pass through or touch the two 4.0-inch snow symbols and the 6-inch isoline must pass through or touch the two 6.0-inch snow symbols to receive credit. Example of a 1-credit response: Lake Michigan January 1-3, 2012 Snowfall Totals in Inches 1.0 4.5 8.8 7.1 4.0 7.2 7.0 6.9 6.4 4.0 3.9 3.3 9.5 2.5 3.5 2.0 5.3 2.2 1.8 1.5 1.6 9.3 3.9 9.3 9.1 9.0 6.0 8 2 2 6.0"
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "The air mass that moved over Lake Michigan producing the snowstorm originated in Central Canada. Write the two-letter air mass symbol for this air mass that originated over Canada.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 58 and 59 on the isoline map on your answer booklet and on your knowledge\nof Earth science. The map shows the snowfall totals recorded in inches from a lake effect snowstorm that\noccurred as a result of cold air passing over the warmer water of Lake Michigan in January 2012. The 2-inch and \n8-inch snowfall isolines are shown.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for cA or cP. Allow credit for either uppercase or lowercase letters. Note: Do not allow credit if air-mass letters are reversed, such as Pc. For students who used the Spanish edition, either exclusively or in conjunction with the English edition of the exam, allow credit for the correct two-letter air-mass symbol as it appears in either the English or Spanish 2011 Edition Reference Table for Physical Setting: Earth Science. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, write the letter in each box labeled \u201cSun position\u201d that caused each of the three shadows.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 62 on the diagram on your answer booklet and on your knowledge\nof Earth science. The diagram represents the apparent path of the Sun for a location in New York State on\nOctober 21st. Three positions of the Sun are labeled A, B, and C. The length and direction of the shadow of\na vertical stick are represented at three different times during the day. Compass directions along the horizon\nare labeled.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if all three letters are correct as shown below."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, draw the apparent path of the Sun from sunrise to sunset on March 21.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 62 on the diagram on your answer booklet and on your knowledge\nof Earth science. The diagram represents the apparent path of the Sun for a location in New York State on\nOctober 21st. Three positions of the Sun are labeled A, B, and C. The length and direction of the shadow of\na vertical stick are represented at three different times during the day. Compass directions along the horizon\nare labeled.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a Sun path that begins at east and ends at west and is higher than the October 21 path. Note: If arrows are added to the student-drawn Sun path, the arrows must point in the correct direction. Example of a 2-credit response for questions 60 and 61: South Stick Shadow East West B A C Sun position Sun position Sun position B A C"
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify the letter of the Sun\u2019s position where it is closest to solar noon. State one piece of evidence shown in the diagram that supports your answer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 62 on the diagram on your answer booklet and on your knowledge\nof Earth science. The diagram represents the apparent path of the Sun for a location in New York State on\nOctober 21st. Three positions of the Sun are labeled A, B, and C. The length and direction of the shadow of\na vertical stick are represented at three different times during the day. Compass directions along the horizon\nare labeled.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for letter B and acceptable evidence. Acceptable responses include, but are not limited to: \u2014 The Sun is closest to its highest position in its apparent path. \u2014 The Sun is nearly over due south nearly halfway into its path. \u2014 The Sun at position B casts the shortest shadow. \u2014 Positions A and C are closer to the horizon than B. \u2014 Position B is the highest altitude of the three given positions. \u2014 B has the shortest shadow of the three. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "In your answer booklet, complete the table by matching the stage of star development listed below to its description. Each stage will be used only once. Giant, Main Sequence, Nebula, Protostar, White Dwarf",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the passage below and on your knowledge of Earth science.\nThe passage describes the life cycle of a Sun-like star.\nThe Life Cycle of a Sun-like Star\nStars like the Sun begin as a nebula, which is a large cloud of gas and dust in space. \nUnder the right conditions, a clump in the nebula begins to rotate, contract, and heat \nup, causing the gas (mainly hydrogen) and dust to glow more brightly. This protostar, or \nearly star, may reach a surface temperature of 3000 K with a luminosity 10 times greater \nthan the Sun. As the protostar continues to collapse, heat and pressure in its core become \nso great that nuclear reactions begin to use the hydrogen as fuel to produce energy, and \nthe protostar becomes a star. The pressure created by nuclear reactions in the star\u2019s core \npushes outward and exactly balances the inward pull of gravity. This balance between \nforces allows the star to maintain a certain size and brightness for about 80% of its life. \nThe star may reach a surface temperature of 5500 K and a luminosity equal to the Sun. \nAfter most of the hydrogen in the core is used up, a series of changes first causes the star \nto collapse, then greatly expand beyond its original size as the surface temperature lowers \nto 3000 K and the luminosity increases to 2000 times greater than the Sun. As the star \nreaches the end of its supply of nuclear fuel, its size changes to an equatorial diameter \nsimilar to the size of Earth. The surface temperature will be approximately 13,000 K and \nthe luminosity will decrease to 0.001 that of the Sun.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a correctly completed data table as shown below. Steps in the Lives of Sun-like Stars Step Description Stage of Star Development 1 Large gas cloud Nebula 2 Surface temperature: 3000 K Luminosity: 10 x Sun Protostar 3 Surface temperature: 5500 K Luminosity: 1 x Sun Main Sequence 4 Surface temperature: 3000 K Luminosity: 2000 x Sun Giant 5 Surface temperature: 13,000 K Luminosity: 0.001 x Sun White Dwarf"
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Identify the force responsible for the contraction of gas and dust within a nebula.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the passage below and on your knowledge of Earth science.\nThe passage describes the life cycle of a Sun-like star.\nThe Life Cycle of a Sun-like Star\nStars like the Sun begin as a nebula, which is a large cloud of gas and dust in space. \nUnder the right conditions, a clump in the nebula begins to rotate, contract, and heat \nup, causing the gas (mainly hydrogen) and dust to glow more brightly. This protostar, or \nearly star, may reach a surface temperature of 3000 K with a luminosity 10 times greater \nthan the Sun. As the protostar continues to collapse, heat and pressure in its core become \nso great that nuclear reactions begin to use the hydrogen as fuel to produce energy, and \nthe protostar becomes a star. The pressure created by nuclear reactions in the star\u2019s core \npushes outward and exactly balances the inward pull of gravity. This balance between \nforces allows the star to maintain a certain size and brightness for about 80% of its life. \nThe star may reach a surface temperature of 5500 K and a luminosity equal to the Sun. \nAfter most of the hydrogen in the core is used up, a series of changes first causes the star \nto collapse, then greatly expand beyond its original size as the surface temperature lowers \nto 3000 K and the luminosity increases to 2000 times greater than the Sun. As the star \nreaches the end of its supply of nuclear fuel, its size changes to an equatorial diameter \nsimilar to the size of Earth. The surface temperature will be approximately 13,000 K and \nthe luminosity will decrease to 0.001 that of the Sun.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for gravity or gravitational force."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "State the name of the gas that fuels the nuclear process in the core of a star for 80% of its life.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the passage below and on your knowledge of Earth science.\nThe passage describes the life cycle of a Sun-like star.\nThe Life Cycle of a Sun-like Star\nStars like the Sun begin as a nebula, which is a large cloud of gas and dust in space. \nUnder the right conditions, a clump in the nebula begins to rotate, contract, and heat \nup, causing the gas (mainly hydrogen) and dust to glow more brightly. This protostar, or \nearly star, may reach a surface temperature of 3000 K with a luminosity 10 times greater \nthan the Sun. As the protostar continues to collapse, heat and pressure in its core become \nso great that nuclear reactions begin to use the hydrogen as fuel to produce energy, and \nthe protostar becomes a star. The pressure created by nuclear reactions in the star\u2019s core \npushes outward and exactly balances the inward pull of gravity. This balance between \nforces allows the star to maintain a certain size and brightness for about 80% of its life. \nThe star may reach a surface temperature of 5500 K and a luminosity equal to the Sun. \nAfter most of the hydrogen in the core is used up, a series of changes first causes the star \nto collapse, then greatly expand beyond its original size as the surface temperature lowers \nto 3000 K and the luminosity increases to 2000 times greater than the Sun. As the star \nreaches the end of its supply of nuclear fuel, its size changes to an equatorial diameter \nsimilar to the size of Earth. The surface temperature will be approximately 13,000 K and \nthe luminosity will decrease to 0.001 that of the Sun.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for hydrogen or H. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Explain why the Intertropical Convergence Zone shifts northward after the Northern Hemisphere\u2019s spring equinox.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the passage and map below and on your knowledge of \nEarth science. The lines on the map show the average locations of the Intertropical Convergence Zone (ITCZ) in\nJanuary and July.\nITCZ\nThe Intertropical Convergence Zone (ITCZ) is a band of low atmospheric pressure \nwhere prevailing winds generally blow toward the equator and come together. As the Sun\u2019s \ndirect rays move northward from the equator after the Northern Hemisphere\u2019s spring \nequinox, the ITCZ also moves northward. As the Sun\u2019s direct rays move southward from \nthe equator after the Northern Hemisphere\u2019s autumnal equinox, the ITCZ also moves \nsouthward. This northward and southward movement shifts a greater distance over land \nthan over water.\n40\u00b0 N\n40\u00b0 N\n20\u00b0 N\n20\u00b0 N\n0\u00b0\n20\u00b0 S\n20\u00b0 S\n40\u00b0 S\n40\u00b0 S\n60\u00b0 S\n60\u00b0 S\n60\u00b0 N\n60\u00b0 N\nJuly\nJanuary\n0\u00b0",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Due to the tilt of Earth\u2019s axis, the direct rays move northward. \u2014 The Sun\u2019s direct rays move north of the equator. \u2014 Earth\u2019s axis is tilted."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Use the map to identify the maximum latitude that the Intertropical Convergence Zone reached when it shifted farthest north in July and the maximum latitude that it reached when it shifted farthest south in January.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the passage and map below and on your knowledge of \nEarth science. The lines on the map show the average locations of the Intertropical Convergence Zone (ITCZ) in\nJanuary and July.\nITCZ\nThe Intertropical Convergence Zone (ITCZ) is a band of low atmospheric pressure \nwhere prevailing winds generally blow toward the equator and come together. As the Sun\u2019s \ndirect rays move northward from the equator after the Northern Hemisphere\u2019s spring \nequinox, the ITCZ also moves northward. As the Sun\u2019s direct rays move southward from \nthe equator after the Northern Hemisphere\u2019s autumnal equinox, the ITCZ also moves \nsouthward. This northward and southward movement shifts a greater distance over land \nthan over water.\n40\u00b0 N\n40\u00b0 N\n20\u00b0 N\n20\u00b0 N\n0\u00b0\n20\u00b0 S\n20\u00b0 S\n40\u00b0 S\n40\u00b0 S\n60\u00b0 S\n60\u00b0 S\n60\u00b0 N\n60\u00b0 N\nJuly\nJanuary\n0\u00b0",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both latitude are acceptable. Latitude farthest north: \u2014 Allow credit for any value from 25\u00b0 N to 30\u00b0 N. Latitude farthest south: \u2014 Allow credit for any value from 20\u00b0 S to 25\u00b0 S."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Explain why air is rising along the Intertropical Convergence Zone.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the passage and map below and on your knowledge of \nEarth science. The lines on the map show the average locations of the Intertropical Convergence Zone (ITCZ) in\nJanuary and July.\nITCZ\nThe Intertropical Convergence Zone (ITCZ) is a band of low atmospheric pressure \nwhere prevailing winds generally blow toward the equator and come together. As the Sun\u2019s \ndirect rays move northward from the equator after the Northern Hemisphere\u2019s spring \nequinox, the ITCZ also moves northward. As the Sun\u2019s direct rays move southward from \nthe equator after the Northern Hemisphere\u2019s autumnal equinox, the ITCZ also moves \nsouthward. This northward and southward movement shifts a greater distance over land \nthan over water.\n40\u00b0 N\n40\u00b0 N\n20\u00b0 N\n20\u00b0 N\n0\u00b0\n20\u00b0 S\n20\u00b0 S\n40\u00b0 S\n40\u00b0 S\n60\u00b0 S\n60\u00b0 S\n60\u00b0 N\n60\u00b0 N\nJuly\nJanuary\n0\u00b0",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The air is warmer and less dense, causing it to lift. \u2014 Lower air pressure causes winds to converge and to rise. \u2014 ITCZ is a band of low air pressure. \u2014 Moist air is less dense. Part C Allow a maximum of 20 credits for this part. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "The celestial object represents one of the foci of this satellite\u2019s elliptical orbit. On the diagram in your answer booklet, draw an X to represent the position of the other focus of this orbit.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the diagram on your answer booklet and on your knowledge \nof Earth science. The diagram represents a satellite in four positions, labeled A through D, in its orbit around a \ncelestial object.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the center of an X is within or touches the clear rectangle shown below. Note: Allow credit if a symbol other than an X is used. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating. A D Celestial object B C"
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Describe what would happen to the shape of the orbit represented in the diagram if the two foci were close together.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the diagram on your answer booklet and on your knowledge \nof Earth science. The diagram represents a satellite in four positions, labeled A through D, in its orbit around a \ncelestial object.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The orbit would become less elliptical. \u2014 nearly circular/more circular Note: Do not allow credit for \u201cdecreasing eccentricity\u201d because eccentricity describes a numerical value, not a shape."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Identify the letter of the position where the satellite experiences the greatest amount of gravitational attraction with the celestial object. Explain why the greatest amount of gravitational attraction occurs at this position.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/q71.png",
+      "context": "Base your answers to questions 69 through 71 on the diagram on your answer booklet and on your knowledge \nof Earth science. The diagram represents a satellite in four positions, labeled A through D, in its orbit around a \ncelestial object.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for position C and a correct explanation. Acceptable responses include, but are not limited to: \u2014 The gravitational pull is greatest at C because the satellite is closest to the celestial object. \u2014 It is closest to the object being orbited. \u2014 It is closest to the celestial object. \u2014 As distance between objects decreases, gravity increases. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a line graph by plotting the data for the wind speed for each date shown on the data table. Connect all eight plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_72_74.png",
+      "context": "Base your answers to questions 72 through 74 on the data table below and on your knowledge of Earth\nscience. The data table shows the barometric pressure at the center of Hurricane Katrina and the wind speed \nrecorded at the same time each day from August 23 through August 30, 2005.\nHurricane Katrina Data\nDate\nBarometric Pressure\n(mb)\nWind Speed\n(mph)\nAugust 23\n1007\n35\nAugust 24\n1002\n45\nAugust 25\n985\n75\nAugust 26\n965\n100\nAugust 27\n945\n115\nAugust 28\n902\n165\nAugust 29\n960\n75\nAugust 30\n991\n30",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all eight plots are within or touch the circles shown and are correctly connected with a line that passes within or touches each circle. Note: Allow credit if the line does not pass through the student plots, but is still within or touching the circles. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating. Wind Speeds of Hurricane Katrina Wind Speed (miles per hour) August 180 160 140 120 100 80 60 40 20 0 23 190 170 150 130 110 90 70 50 30 10 200 24 25 26 27 28 29 30 X X X X X X X X"
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Hurricane Katrina made landfall on August 29. Describe one piece of evidence shown in the data table that supports this statement.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_72_74.png",
+      "context": "Base your answers to questions 72 through 74 on the data table below and on your knowledge of Earth\nscience. The data table shows the barometric pressure at the center of Hurricane Katrina and the wind speed \nrecorded at the same time each day from August 23 through August 30, 2005.\nHurricane Katrina Data\nDate\nBarometric Pressure\n(mb)\nWind Speed\n(mph)\nAugust 23\n1007\n35\nAugust 24\n1002\n45\nAugust 25\n985\n75\nAugust 26\n965\n100\nAugust 27\n945\n115\nAugust 28\n902\n165\nAugust 29\n960\n75\nAugust 30\n991\n30",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Hurricanes weaken over land, causing wind speed to drop suddenly. \u2014 The decrease in wind speed suggests that the hurricane made landfall. \u2014 The barometric pressure increased on the 29th. \u2014 When wind speed dropped, the hurricane weakened."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Describe the relationship between barometric pressure and wind speed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_72_74.png",
+      "context": "Base your answers to questions 72 through 74 on the data table below and on your knowledge of Earth\nscience. The data table shows the barometric pressure at the center of Hurricane Katrina and the wind speed \nrecorded at the same time each day from August 23 through August 30, 2005.\nHurricane Katrina Data\nDate\nBarometric Pressure\n(mb)\nWind Speed\n(mph)\nAugust 23\n1007\n35\nAugust 24\n1002\n45\nAugust 25\n985\n75\nAugust 26\n965\n100\nAugust 27\n945\n115\nAugust 28\n902\n165\nAugust 29\n960\n75\nAugust 30\n991\n30",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 As barometric pressure decreases, wind speed increases. \u2014 The wind speed is faster when barometric pressure is lower. \u2014 There is an inverse relationship. \u2014 negative correlation P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Identify, by letter, the only rock unit that remains in the original position in which the rock-forming sediments were deposited.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_75_78.png",
+      "context": "Base your answers to questions 75 through 78 on the cross section below and on your knowledge of Earth \nscience. The cross section represents rock units, labeled A through G, and a fault labeled H. Letters X and Y \nrepresent unconformities. The rock layers have not been overturned.\nLake\nX\nY\nB\nH\nC\nF\nE\nD\nA\nG",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for A."
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Indicate the relative ages of rock layers A, B, C, and D, and fault H by listing the letters from oldest to youngest.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_75_78.png",
+      "context": "Base your answers to questions 75 through 78 on the cross section below and on your knowledge of Earth \nscience. The cross section represents rock units, labeled A through G, and a fault labeled H. Letters X and Y \nrepresent unconformities. The rock layers have not been overturned.\nLake\nX\nY\nB\nH\nC\nF\nE\nD\nA\nG",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct order. \u2192 \u2192 \u2192 A H/fault H B D C \u2192 Oldest Youngest"
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Identify the letter and the name of the rock unit that has a bioclastic texture and is mostly composed of carbon.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_75_78.png",
+      "context": "Base your answers to questions 75 through 78 on the cross section below and on your knowledge of Earth \nscience. The cross section represents rock units, labeled A through G, and a fault labeled H. Letters X and Y \nrepresent unconformities. The rock layers have not been overturned.\nLake\nX\nY\nB\nH\nC\nF\nE\nD\nA\nG",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for both letter D and bituminous coal as the rock unit. Note: Do not allow credit for \u201ccoal\u201d alone because this term is too general; there is also anthracite coal."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Layer C is Ordovician age bedrock. Identify the name of the trilobite index fossil and the name of the nautiloid index fossil that could be found in rock layer C.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_75_78.png",
+      "context": "Base your answers to questions 75 through 78 on the cross section below and on your knowledge of Earth \nscience. The cross section represents rock units, labeled A through G, and a fault labeled H. Letters X and Y \nrepresent unconformities. The rock layers have not been overturned.\nLake\nX\nY\nB\nH\nC\nF\nE\nD\nA\nG",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Cryptolithus as the trilobite fossil and Valcouroceras as the nautiloid fossil."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Calculate the gradient between points X and Y in feet per mile.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the topographic map below and on your knowledge of Earth \nscience. Letters A, B, C, X, and Y are points on the map.\nN\nX\nY\nA\nC\nB\nContour interval 10 feet\n0\n5\nmiles\n450\n500\n450\n400\nL\ny\nma\nn\n \n \nS\nt\nr\nea\nm\n450\n400",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 18.5 to 21.8 feet/mile."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Determine one possible elevation of point A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the topographic map below and on your knowledge of Earth \nscience. Letters A, B, C, X, and Y are points on the map.\nN\nX\nY\nA\nC\nB\nContour interval 10 feet\n0\n5\nmiles\n450\n500\n450\n400\nL\ny\nma\nn\n \n \nS\nt\nr\nea\nm\n450\n400",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value greater than 470 feet, but less than 480 feet."
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a topographic profile along line BC by plotting the elevation of each contour line that crosses line BC. Points B and C have already been plotted on the grid. Connect all nine plots with a line from B to C to complete the profile.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the topographic map below and on your knowledge of Earth \nscience. Letters A, B, C, X, and Y are points on the map.\nN\nX\nY\nA\nC\nB\nContour interval 10 feet\n0\n5\nmiles\n450\n500\n450\n400\nL\ny\nma\nn\n \n \nS\nt\nr\nea\nm\n450\n400",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all seven plots are within or touch the rectangles shown and are correctly connected with a line that passes within or touches each rectangle. The high point of the line must extend above 490 feet, but below 500 feet. The low point must extend below 450 feet, but above 440 feet. Note: It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating. Allow credit if the line misses a plot, but is still within or touches the rectangle. 430 B Distance (mi) C 440 450 460 470 480 490 500 510 Elevation (ft) P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "State the general compass direction in which Lyman Stream flows. Describe the evidence shown by the contour lines on the map that supports this stream flowing downhill in that direction.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2023/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the topographic map below and on your knowledge of Earth \nscience. Letters A, B, C, X, and Y are points on the map.\nN\nX\nY\nA\nC\nB\nContour interval 10 feet\n0\n5\nmiles\n450\n500\n450\n400\nL\ny\nma\nn\n \n \nS\nt\nr\nea\nm\n450\n400",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for southeast/SE and correct evidence. Acceptable responses include, but is not limited to: \u2014 Contour lines show elevation is decreasing in the south (southeast) portion of the map. \u2014 Contour lines bend to point upstream when they cross Lyman stream. \u2014 Streams flow out of the open end of the Vs. Note: Do not allow credit for \u201cstreams flow downhill,\u201d because this does not indicate how contour lines show the direction of stream flow."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, draw one arrowhead on reference line A and one arrowhead on reference line B to indicate the direction of air flow on each side of the mountain.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the diagram on your answer booklet and on your knowledge \nof Earth science. The diagram represents temperatures that occur on either side of a mountain. Elevations are \nrecorded in meters (m) above sea level and air temperature is recorded in degrees Celsius (\u00b0C). Letters A and B \nrepresent reference lines on the diagram.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both arrowheads are correct. The arrowhead on the western side must show an upward direction and the arrowhead on the eastern side must show a downward direction. Example of a 1-credit response: Sea level Elevation (m) 1000 2000 3000 4000 Ocean West East 30\u00b0C 10\u00b0C 20\u00b0C 20\u00b0C 30\u00b0C 40\u00b0C 10\u00b0C 15\u00b0C A B P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Compared to the air temperature and moisture conditions on the western side of the mountain at sea level, describe how the air temperatures and moisture conditions on the eastern side of the mountain at sea level are different.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the diagram on your answer booklet and on your knowledge \nof Earth science. The diagram represents temperatures that occur on either side of a mountain. Elevations are \nrecorded in meters (m) above sea level and air temperature is recorded in degrees Celsius (\u00b0C). Letters A and B \nrepresent reference lines on the diagram.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the air temperature and moisture conditions are correct. Acceptable responses include, but are not limited to: Air temperature: \u2014 It\u2019s hotter on the eastern side. \u2014 warmer area \u2014 higher temperatures \u2014 It\u2019s 10\u00b0C warmer. \u2014 The west side is cooler. Moisture: \u2014 dryer \u2014 arid \u2014 less moisture \u2014 less precipitation \u2014 lower relative humidity \u2014 The west side is more moist."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "State the most probable air temperature that would occur on the west side of the mountain at 1500 meters and the most probable air temperature on the east side of the mountain at 1500 meters. P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the diagram on your answer booklet and on your knowledge \nof Earth science. The diagram represents temperatures that occur on either side of a mountain. Elevations are \nrecorded in meters (m) above sea level and air temperature is recorded in degrees Celsius (\u00b0C). Letters A and B \nrepresent reference lines on the diagram.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both temperatures are correct West: \u2014 any value from 17\u00b0C to 18\u00b0C East: \u2014 any value from 24\u00b0C to 26\u00b0C P.S./E. Sci. Rating Guide\u2013June \u2019"
+    }
+  ]
+}

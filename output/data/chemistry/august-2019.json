@@ -1,0 +1,1101 @@
+{
+  "subject": "chemistry",
+  "session": "august-2019",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which statement describes the earliest model of the atom?",
+      "choices": [
+        "An atom is an indivisible hard sphere.",
+        "An atom has a small, dense nucleus.",
+        "Electrons are negative particles in an atom.",
+        "Electrons in an atom have wave-like properties."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "In all atoms of bismuth, the number of electrons must equal the",
+      "choices": [
+        "number of protons",
+        "number of neutrons",
+        "sum of the number of neutrons and protons",
+        "difference between the number of neutrons and protons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which symbol represents a particle that has a mass approximately equal to the mass of a neutron?",
+      "choices": [
+        "\u03b1",
+        "\u0002\u0004",
+        "\u0002\u0003",
+        "p"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "An orbital is a region in an atom where there is a high probability of \ufb01 nding",
+      "choices": [
+        "an alpha particle",
+        "an electron",
+        "a neutron",
+        "a positron"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which electron shell in an atom of calcium in the ground state has an electron with the greatest amount of energy?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "As the elements in Period 2 are considered in order from lithium to \ufb02 uorine, there is an increase in the",
+      "choices": [
+        "atomic radius",
+        "electronegativity",
+        "number of electron shells",
+        "number of electrons in the \ufb01 rst shell"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which element is classi\ufb01 ed as a metalloid?",
+      "choices": [
+        "boron",
+        "potassium",
+        "sulfur",
+        "xenon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Strontium and barium have similar chemical properties because atoms of these elements have the same number of",
+      "choices": [
+        "protons",
+        "neutrons",
+        "electron shells",
+        "valence electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which term represents the \ufb01 xed proportion of elements in a compound?",
+      "choices": [
+        "atomic mass",
+        "molar mass",
+        "chemical formula",
+        "density formula"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which two terms represent types of chemical formulas?",
+      "choices": [
+        "mechanical and structural",
+        "mechanical and thermal",
+        "molecular and structural",
+        "molecular and thermal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which element has metallic bonds at room temperature?",
+      "choices": [
+        "bromine",
+        "cesium",
+        "krypton",
+        "sulfur"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "What is the number of electrons shared between the atoms in a molecule of nitrogen, N2?",
+      "choices": [
+        "8",
+        "2",
+        "3",
+        "6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: H \u0004 H \u2192 H2 What occurs during this reaction?",
+      "choices": [
+        "A bond is broken and energy is absorbed.",
+        "A bond is broken and energy is released.",
+        "A bond is formed and energy is absorbed.",
+        "A bond is formed and energy is released."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "An atom of which element has the strongest attraction for electrons in a chemical bond?",
+      "choices": [
+        "chlorine",
+        "carbon",
+        "phosphorus",
+        "sulfur"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "At STP, a 50.-gram sample of H2O(\u2113) and a 100.-gram sample of H2O(\u2113) have",
+      "choices": [
+        "the same chemical properties",
+        "the same volume",
+        "different temperatures",
+        "different empirical formulas"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which statement describes a mixture of sand and water at room temperature?",
+      "choices": [
+        "It is heterogeneous, and its components are in the same phase.",
+        "It is heterogeneous, and its components are in different phases.",
+        "It is homogeneous, and its components are in the same phase.",
+        "It is homogeneous, and its components are in different phases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Distillation is a process used to separate a mixture of liquids based on different",
+      "choices": [
+        "boiling points",
+        "densities",
+        "freezing points",
+        "solubilities"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "According to the kinetic molecular theory, which statement describes the particles in a sample of an ideal gas?",
+      "choices": [
+        "The particles are constantly moving in circular paths.",
+        "The particles collide, decreasing the total energy of the system.",
+        "The particles have attractive forces between them.",
+        "The particles are considered to have negligible volume."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which sample of matter has the greatest distance between molecules at STP?",
+      "choices": [
+        "N2(g)",
+        "NH3(aq)",
+        "C6H14(\u2113)",
+        "C6H12O6(s)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "For a chemical system at equilibrium, the concentrations of both the reactants and the products must",
+      "choices": [
+        "decrease",
+        "increase",
+        "be constant",
+        "be equal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "In terms of disorder and energy, systems in nature have a tendency to undergo changes toward",
+      "choices": [
+        "less disorder and lower energy",
+        "less disorder and higher energy",
+        "greater disorder and lower energy",
+        "greater disorder and higher energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The only two elements in alkenes and alkynes are",
+      "choices": [
+        "carbon and nitrogen",
+        "carbon and hydrogen",
+        "oxygen and nitrogen",
+        "oxygen and hydrogen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which functional group contains a nitrogen atom and an oxygen atom?",
+      "choices": [
+        "ester",
+        "ether",
+        "amide",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "When a sample of Mg(s) reacts completely with O2(g), the Mg(s) loses 5.0 moles of electrons. How many moles of electrons are gained by the O2(g)?",
+      "choices": [
+        "1.0 mol",
+        "2.5 mol",
+        "5.0 mol",
+        "10.0 mol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which statement describes the reactions in an electrochemical cell?",
+      "choices": [
+        "Oxidation occurs at the anode, and reduction occurs at the cathode.",
+        "Oxidation occurs at the cathode, and reduction occurs at the anode.",
+        "Oxidation and reduction both occur at the cathode.",
+        "Oxidation and reduction both occur at the anode."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "A 0.050 M aqueous solution of which compound is the best conductor of electric current?",
+      "choices": [
+        "C3H7OH",
+        "C6H12O6",
+        "MgSO4",
+        "K2SO4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "What is the color of bromcresol green indicator in a solution with a pH value of 2.0?",
+      "choices": [
+        "blue",
+        "green",
+        "red",
+        "yellow"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which formula can represent hydrogen ions in an aqueous solution?",
+      "choices": [
+        "OH\u0003(aq)",
+        "Hg22\u0004(aq)",
+        "H3O\u0004(aq)",
+        "NH4\u0004(aq)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "In which reaction is an atom of one element converted into an atom of another element?",
+      "choices": [
+        "combustion",
+        "fermentation",
+        "oxidation-reduction",
+        "transmutation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "In which type of nuclear reaction do nuclei combine to form a nucleus with a greater mass?",
+      "choices": [
+        "alpha decay",
+        "beta decay",
+        "fusion",
+        "\ufb01"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The bright-line spectra produced by four elements are represented in the diagram below. Bright-Line Spectra of Four Elements Element A Element D Element X Element Z Wavelength (nm) 750 700 650 600 550 500 450 400 750 700 650 600 550 500 450 400 Wavelength (nm) Given the bright-line spectrum of a mixture formed from two of these elements: Wavelength (nm) 750 700 650 600 550 500 450 400 Which elements are present in this mixture?",
+      "choices": [
+        "A and X",
+        "A and Z",
+        "D and X",
+        "D and Z"
+      ],
+      "image": "/images/exams/chemistry/august-2019/q31.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Which electron con\ufb01 guration represents the electrons in an atom of sulfur in an excited state?",
+      "choices": [
+        "2 \u2013 8 \u2013 6",
+        "2 \u2013 7 \u2013 7",
+        "2 \u2013 8 \u2013 7",
+        "2 \u2013 7 \u2013 8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which notations represent atoms that have the same number of protons but a different number of neutrons?",
+      "choices": [
+        "H-3 and He-3",
+        "S-32 and S-32",
+        "Cl-35 and Cl-37",
+        "Ga-70 and Ge-73"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "What is the chemical name of the compound NH4SCN?",
+      "choices": [
+        "ammonium thiocyanate",
+        "ammonium cyanide",
+        "nitrogen hydrogen cyanide",
+        "nitrogen hydrogen sulfate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which equation represents a conservation of atoms?",
+      "choices": [
+        "2Fe \u0004 2O2 \u2192 Fe2O3",
+        "2Fe \u0004 3O2 \u2192 Fe2O3",
+        "4Fe \u0004 2O2 \u2192 2Fe2O3",
+        "4Fe \u0004 3O2 \u2192 2Fe2O3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which compound has covalent bonds?",
+      "choices": [
+        "H2O",
+        "Li2O",
+        "Na2O",
+        "K2O"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Which particle diagram represents a sample of oxygen gas at STP? ( 1 ) Key = one atom of oxygen ( 4 ) ( 3 ) ( 2 )",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2019/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "At which temperature and pressure will a sample of neon gas behave most like an ideal gas?",
+      "choices": [
+        "300. K and 2.0 atm",
+        "300. K and 4.0 atm",
+        "500. K and 2.0 atm",
+        "500. K and 4.0 atm"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "What is the molarity of 2.0 liters of an aqueous solution that contains 0.50 mole of potassium iodide, KI?",
+      "choices": [
+        "1.0 M",
+        "2.0 M",
+        "0.25 M",
+        "0.50 M"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The volumes of four samples of gaseous compounds at 298 K and 101.3 kPa are shown in the table below. Sample Compounds Volume (L) 1 NH3(g) 44.0 2 CO2(g) 33.0 3 HF(g) 44.0 4 CH4(g) 22.0 Which two samples contain the same number of molecules?",
+      "choices": [
+        "1 and 2",
+        "1 and 3",
+        "2 and 3",
+        "2 and 4"
+      ],
+      "image": "/images/exams/chemistry/august-2019/q40.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Hydrochloric acid reacts faster with powdered zinc than with an equal mass of zinc strips because the greater surface area of the powdered zinc",
+      "choices": [
+        "decreases the frequency of particle collisions",
+        "decreases the activation energy of the reaction",
+        "increases the frequency of particle collisions",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a system at equilibrium in a sealed, rigid container: 2HI(g) \u21cb H2(g) \u0004 I2(g) \u0004 energy Increasing the temperature of the system causes the concentration of",
+      "choices": [
+        "HI to increase",
+        "H2 to increase",
+        "HI to remain constant",
+        "H2 to remain constant"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Based on Table I, which equation represents a reaction with the greatest difference between the potential energy of the products and the potential energy of the reactants?",
+      "choices": [
+        "4Al(s) \u0004 3O2(g) \u2192 2Al2O3(s)",
+        "2H2(g) \u0004 O2(g) \u2192 2H2O(\u2113)",
+        "C3H8(g) \u0004 5O2(g) \u2192 3CO2(g) \u0004 4H2O(\u2113)",
+        "C6H12O6(s) \u0004 6O2(g) \u2192 6CO2(g) \u0004 6H2O(\u2113)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which phase change results in an increase in entropy?",
+      "choices": [
+        "I2(g) \u2192 I2(s)",
+        "CH4(g) \u2192 CH4(\u2113)",
+        "Br2(\u2113) \u2192 Br2(g)",
+        "H2O(\u2113) \u2192 H2O(s)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Given the formula for a compound: H H C H C C H H H C H O O H C H H What is the name of this compound?",
+      "choices": [
+        "methyl butanoate",
+        "methyl butyl ether",
+        "pentanone",
+        "pentanoic acid"
+      ],
+      "image": "/images/exams/chemistry/august-2019/q45.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: 2Ca(s) + O2(g) \u2192 2CaO(s) During this reaction, each element changes in",
+      "choices": [
+        "atomic number",
+        "oxidation number",
+        "number of protons per atom",
+        "number of neutrons per atom"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which equation represents a spontaneous reaction?",
+      "choices": [
+        "Ca \u0004 Ba2\u0004 \u2192 Ca2\u0004 \u0004 Ba",
+        "Co \u0004 Zn2\u0004 \u2192 Co2\u0004 \u0004 Zn",
+        "Fe \u0004 Mg2\u0004 \u2192 Fe2\u0004 \u0004 Mg",
+        "Mn \u0004 Ni2\u0004 \u2192 Mn2\u0004 \u0004 Ni"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Which equation represents a neutralization reaction?",
+      "choices": [
+        "6HClO \u2192 4HCl \u0004 2HClO3",
+        "CH4 \u0004 2O2 \u2192 CO2 \u0004 2H2O",
+        "Ca(OH)2 \u0004 H2SO4 \u2192 CaSO4 \u0004 2H2O",
+        "Ba(OH)2 \u0004 Cu(NO3)2 \u2192 Ba(NO3)2 \u0004 Cu(OH)2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which radioisotope requires long-term storage as the method of disposal, to protect living things from radiation exposure over time?",
+      "choices": [
+        "Pu-239",
+        "Fr-220",
+        "Fe-53",
+        "P-32"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: 235U + 1n 92 0 140Ba + 93Kr + 31n + energy 36 56 0 total mass equals 236.053 u total mass equals 235.868 u Which statement explains the energy term in this reaction?",
+      "choices": [
+        "Mass is gained due to the conversion of mass to energy.",
+        "Mass is gained due to the conversion of energy to mass.",
+        "Mass is lost due to the conversion of mass to energy.",
+        ""
+      ],
+      "image": "/images/exams/chemistry/august-2019/q50.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State the number of protons in an atom of N-15.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nThe only naturally occurring isotopes of nitrogen are N-14 and N-15.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 7 or seven."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "State the number of electrons in each shell of a N-14 atom in the ground state.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nThe only naturally occurring isotopes of nitrogen are N-14 and N-15.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: First shell: 2 Second shell: 5 First shell: 2e\u0002 Second shell: 5e\u0002 First shell: two Second shell: five"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Based on the atomic mass of the element nitrogen on the Periodic Table, compare the relative abundances of the naturally occurring isotopes of nitrogen.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2019/q53.png",
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nThe only naturally occurring isotopes of nitrogen are N-14 and N-15.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Nitrogen-14 is more abundant than nitrogen-15. There are fewer N-15 atoms."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the substance in this table that is a liquid at STP.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2019/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of chemistry.\nThe melting points and boiling points of \ufb01 ve substances at standard pressure are listed \non the table below.\nMelting Points and Boiling Points of Five Substances\nSubstance\nMelting Point\n(K)\nBoiling Point\n(K)\nHCl\n159\n188\nNO\n109\n121\nF2\n53\n85\nBr2\n266\n332\nI2\n387\n457",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Br2 or bromine."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "State, in terms of the strength of intermolecular forces, why I2 has a higher boiling point than F2.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2019/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of chemistry.\nThe melting points and boiling points of \ufb01 ve substances at standard pressure are listed \non the table below.\nMelting Points and Boiling Points of Five Substances\nSubstance\nMelting Point\n(K)\nBoiling Point\n(K)\nHCl\n159\n188\nNO\n109\n121\nF2\n53\n85\nBr2\n266\n332\nI2\n387\n457",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The I2 has stronger intermolecular forces than F2. The F2 has weaker IMF. Note: Do not allow credit for a response that addresses bonding rather than intermolecular forces."
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "State what happens to the potential energy of a sample of NO(\u2113) at 121 K as it changes to NO(g)",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2019/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of chemistry.\nThe melting points and boiling points of \ufb01 ve substances at standard pressure are listed \non the table below.\nMelting Points and Boiling Points of Five Substances\nSubstance\nMelting Point\n(K)\nBoiling Point\n(K)\nHCl\n159\n188\nNO\n109\n121\nF2\n53\n85\nBr2\n266\n332\nI2\n387\n457",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The potential energy of NO increases. The NO( ) gains PE as it becomes NO(g)."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Using the information on Table B, determine the amount of heat absorbed by the water when the water is heated from 20.0\u00b0C to 50.0\u00b0C.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of chemistry.\nA 100.-gram sample of liquid water is heated from 20.0\u00b0C to 50.0\u00b0C. Enough KClO3(s) is \ndissolved in the sample of water at 50.0\u00b0C to form a saturated solution.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 12 500 J or any value from 12 500 J to 13 000 J, inclusive. \uf06c P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Based on Table H, determine the vapor pressure of the water sample at its \ufb01 nal temperature.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of chemistry.\nA 100.-gram sample of liquid water is heated from 20.0\u00b0C to 50.0\u00b0C. Enough KClO3(s) is \ndissolved in the sample of water at 50.0\u00b0C to form a saturated solution.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 11 kPa to 13 kPa, inclusive."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Based on Table G, determine the mass of KClO3(s) that must dissolve to make a saturated solution in 100. g of H2O at 50.0\u00b0C.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2019/q59.png",
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of chemistry.\nA 100.-gram sample of liquid water is heated from 20.0\u00b0C to 50.0\u00b0C. Enough KClO3(s) is \ndissolved in the sample of water at 50.0\u00b0C to form a saturated solution.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 20. g to 23 g, inclusive."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify the subatomic particles that \ufb02 ow through the wires as the cell operates.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2019/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of chemistry.\nThe diagram and ionic equation below represent an operating voltaic cell.\nCr(s)\nSalt \nbridge\nVoltaic Cell\nVoltmeter\nV\nCu(s)\nWire\nCu2+(aq)\nCr3+(aq)\n3Cu2+(aq) + 2Cr(s)\n3Cu(s) + 2Cr3+(aq)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: electrons e\u0002 Note: Do not allow credit for e without the (\u2013) sign."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State the purpose of the salt bridge in completing the circuit in this cell.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2019/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of chemistry.\nThe diagram and ionic equation below represent an operating voltaic cell.\nCr(s)\nSalt \nbridge\nVoltaic Cell\nVoltmeter\nV\nCu(s)\nWire\nCu2+(aq)\nCr3+(aq)\n3Cu2+(aq) + 2Cr(s)\n3Cu(s) + 2Cr3+(aq)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The salt bridge allows the migration of ions between the half-cells. The salt bridge prevents polarization of the half-cells. Electrical neutrality of the solutions is maintained."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "62",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2019/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of chemistry.\nThe diagram and ionic equation below represent an operating voltaic cell.\nCr(s)\nSalt \nbridge\nVoltaic Cell\nVoltmeter\nV\nCu(s)\nWire\nCu2+(aq)\nCr3+(aq)\n3Cu2+(aq) + 2Cr(s)\n3Cu(s) + 2Cr3+(aq)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Cu2\u0003(aq) \u0003 2e\u0002 \u2192 Cu(s) Cu\u00032 \u0003 2e\u0002 \u2192 Cu 3Cu2\u0003 \u0003 6e\u0002 \u2192 3Cu Note: Do not allow credit for e without the (\u2013) sign."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Determine the molarity of the HCl(aq) sample, using the titration data.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of chemistry.\nA NaOH(aq) solution with a pH value of 13 is used to determine the molarity of a \nHCl(aq) solution. A 10.0-mL sample of the HCl(aq) is exactly neutralized by 16.0 mL of \n0.100 M NaOH(aq). During this laboratory activity, appropriate safety equipment was used \nand safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0.160 M or .16 M."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Compare the hydronium ion concentration to the hydroxide ion concentration when the HCl(aq) solution is exactly neutralized by the NaOH(aq) solution.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of chemistry.\nA NaOH(aq) solution with a pH value of 13 is used to determine the molarity of a \nHCl(aq) solution. A 10.0-mL sample of the HCl(aq) is exactly neutralized by 16.0 mL of \n0.100 M NaOH(aq). During this laboratory activity, appropriate safety equipment was used \nand safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The hydronium ion concentration is equal to the hydroxide ion concentration. The concentrations of H3O\u0003 ions and OH\u0002 ions are the same."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Determine the pH value of a solution that has a H\u0004(aq) ion concentration 10 times greater than the original NaOH(aq)",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of chemistry.\nA NaOH(aq) solution with a pH value of 13 is used to determine the molarity of a \nHCl(aq) solution. A 10.0-mL sample of the HCl(aq) is exactly neutralized by 16.0 mL of \n0.100 M NaOH(aq). During this laboratory activity, appropriate safety equipment was used \nand safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 12.0 or 12 or twelve. P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Explain why the sample in the crucible was heated repeatedly until the sample had a constant mass.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nA hydrate is a compound that has water molecules within its crystal structure. \nMagnesium sulfate heptahydrate, MgSO4\u20227H2O, is a hydrated form of magnesium sulfate.\nThe hydrated compound has 7 moles of H2O for each mole of MgSO4. When 5.06 grams\nof MgSO4\u20227H2O are heated to at least 300.\u00b0C in a crucible by using a laboratory burner,\nthe water molecules are released. The sample was heated repeatedly, until the \nremaining MgSO4 had a constant mass of 2.47 grams. During this laboratory activity, \nappropriate safety equipment was used and safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Repeated heatings ensure that all of the water in the sample has been removed. It is necessary to drive out all of the water from the hydrate. to make sure all the H2O is gone"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Using the lab data, show a numerical setup for calculating the percent composition by mass of water in the hydrated compound.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nA hydrate is a compound that has water molecules within its crystal structure. \nMagnesium sulfate heptahydrate, MgSO4\u20227H2O, is a hydrated form of magnesium sulfate.\nThe hydrated compound has 7 moles of H2O for each mole of MgSO4. When 5.06 grams\nof MgSO4\u20227H2O are heated to at least 300.\u00b0C in a crucible by using a laboratory burner,\nthe water molecules are released. The sample was heated repeatedly, until the \nremaining MgSO4 had a constant mass of 2.47 grams. During this laboratory activity, \nappropriate safety equipment was used and safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Note: Do not allow credit if the fraction is not multiplied by 100."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Determine the gram-formula mass of the magnesium sulfate heptahydrate.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nA hydrate is a compound that has water molecules within its crystal structure. \nMagnesium sulfate heptahydrate, MgSO4\u20227H2O, is a hydrated form of magnesium sulfate.\nThe hydrated compound has 7 moles of H2O for each mole of MgSO4. When 5.06 grams\nof MgSO4\u20227H2O are heated to at least 300.\u00b0C in a crucible by using a laboratory burner,\nthe water molecules are released. The sample was heated repeatedly, until the \nremaining MgSO4 had a constant mass of 2.47 grams. During this laboratory activity, \nappropriate safety equipment was used and safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 246 g/mol, or any value from 245.989 g/mol to 247 g/mol, inclusive."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "State, in terms of electrons, why the radius of a Na\u0004 ion in the table salt is smaller than the radius of a Na atom.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of chemistry.\nSolid sodium chloride, also known as table salt, can be obtained by the solar evaporation \nof seawater and from underground mining. Liquid sodium chloride can be decomposed \nby electrolysis to produce liquid sodium and chlorine gas, as represented by the equation \nbelow.\n2NaCl(\u2113) \u2192 2Na(\u2113) \u0004 Cl2(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The Na atom is formed when the Na\u0003 ion gains an electron. A Na\u0003 ion has 10 electrons and a Na atom has 11 electrons. A sodium atom has one more electron shell than a sodium ion. A Na\u0003 ion is formed when a Na atom loses an electron. Note: Do not allow credit for a response indicating that the sodium ion lost an electron."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Identify the noble gas that has atoms with the same number of electrons as a chloride ion in table salt.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of chemistry.\nSolid sodium chloride, also known as table salt, can be obtained by the solar evaporation \nof seawater and from underground mining. Liquid sodium chloride can be decomposed \nby electrolysis to produce liquid sodium and chlorine gas, as represented by the equation \nbelow.\n2NaCl(\u2113) \u2192 2Na(\u2113) \u0004 Cl2(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Ar or argon. \u0002 \u0004 5.06 g 2.47 g 5.06 g 100 2.59(100) 5.06 \u0005 2.59 5.06 100 x"
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "In the space in your answer booklet, draw a Lewis electron-dot diagram of a Cl2",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of chemistry.\nSolid sodium chloride, also known as table salt, can be obtained by the solar evaporation \nof seawater and from underground mining. Liquid sodium chloride can be decomposed \nby electrolysis to produce liquid sodium and chlorine gas, as represented by the equation \nbelow.\n2NaCl(\u2113) \u2192 2Na(\u2113) \u0004 Cl2(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Examples of 1-credit responses: Note: Do not allow credit for for a bond, because each represents one electron and each represents two electrons."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "State what happens to the average kinetic energy of the gas molecules if the cabin temperature decreases.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 75 on the information below and on your knowledge of chemistry.\nThe enclosed cabin of a submarine has a volume of 2.4 \u00d7 105 liters, a temperature of \n312 K, and a pressure of 116 kPa. As people in the cabin breathe, carbon dioxide gas, CO2(g), \ncan build up to unsafe levels. Air in the cabin becomes unsafe to breathe when the mass of \nCO2(g) in this cabin exceeds 2156 grams.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The average kinetic energy of the gas molecules in the cabin would decrease. The average KE would be lower."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the pressure in the submarine cabin if the cabin temperature changes to 293 K.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 75 on the information below and on your knowledge of chemistry.\nThe enclosed cabin of a submarine has a volume of 2.4 \u00d7 105 liters, a temperature of \n312 K, and a pressure of 116 kPa. As people in the cabin breathe, carbon dioxide gas, CO2(g), \ncan build up to unsafe levels. Air in the cabin becomes unsafe to breathe when the mass of \nCO2(g) in this cabin exceeds 2156 grams.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to:"
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Determine the number of moles of CO2(g) in the submarine cabin at which the air becomes unsafe to breathe. The gram-formula mass of CO2 is 44.0 g/mol.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 75 on the information below and on your knowledge of chemistry.\nThe enclosed cabin of a submarine has a volume of 2.4 \u00d7 105 liters, a temperature of \n312 K, and a pressure of 116 kPa. As people in the cabin breathe, carbon dioxide gas, CO2(g), \ncan build up to unsafe levels. Air in the cabin becomes unsafe to breathe when the mass of \nCO2(g) in this cabin exceeds 2156 grams.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 49.0 mol or any value from 49 mol to 50. mol, inclusive."
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Convert the original air pressure in the cabin of the submarine to atmospheres.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 75 on the information below and on your knowledge of chemistry.\nThe enclosed cabin of a submarine has a volume of 2.4 \u00d7 105 liters, a temperature of \n312 K, and a pressure of 116 kPa. As people in the cabin breathe, carbon dioxide gas, CO2(g), \ncan build up to unsafe levels. Air in the cabin becomes unsafe to breathe when the mass of \nCO2(g) in this cabin exceeds 2156 grams.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 1.15 atm or any value from 1.14 atm to 1.16 atm, inclusive. Cl Cl Cl Cl Cl Cl , , or \u0004 \u0005 \u0004 312 K P 293 K (116 kPa)(2.4 10 L) (2.4 10 L) 5 2 5 312 K 293 K 116 kPa x \u0005 312 (116)(293) P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "On the labeled axes in your answer booklet, draw a potential energy diagram for the reaction represented by this equation.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 78 on the information below and on your knowledge of chemistry.\nAutomobile catalytic converters use a platinum catalyst to reduce air pollution by \nchanging emissions such as carbon monoxide, CO(g), into carbon dioxide, CO2(g). The \nuncatalyzed reaction is represented by the balanced equation below.\n2CO(g) \u0004 O2(g) \u2192 2CO2(g) \u0004 heat",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for showing that the PE of the products is lower than the PE of the reactants. Example of a 1-credit response:"
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Compare the activation energy of the catalyzed reaction to the activation energy of the uncatalyzed reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 78 on the information below and on your knowledge of chemistry.\nAutomobile catalytic converters use a platinum catalyst to reduce air pollution by \nchanging emissions such as carbon monoxide, CO(g), into carbon dioxide, CO2(g). The \nuncatalyzed reaction is represented by the balanced equation below.\n2CO(g) \u0004 O2(g) \u2192 2CO2(g) \u0004 heat",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The catalyzed reaction has a lower activation energy than the uncatalyzed reaction. The activation energy is higher for the reaction with no catalyst."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Determine the number of moles of O2(g) required to completely react with 28 moles of CO(g)",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 78 on the information below and on your knowledge of chemistry.\nAutomobile catalytic converters use a platinum catalyst to reduce air pollution by \nchanging emissions such as carbon monoxide, CO(g), into carbon dioxide, CO2(g). The \nuncatalyzed reaction is represented by the balanced equation below.\n2CO(g) \u0004 O2(g) \u2192 2CO2(g) \u0004 heat",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 14 mol."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify the element in propene that is in all organic compounds.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2019/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the information below and on your knowledge of chemistry.\nThe solvent 2-chloropropane can be made when chemists react propene with hydrogen \nchloride, as shown in the equation below.\nH\nH\nC\nH\nC\nC\nH\nH\nH\nH\nH\nC\nH\nC\nC\nH\nH\nH\nH\nCl\nHCl",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for C or carbon."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Explain, in terms of chemical bonds, why the hydrocarbon reactant is classi\ufb01 ed as unsaturated.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2019/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the information below and on your knowledge of chemistry.\nThe solvent 2-chloropropane can be made when chemists react propene with hydrogen \nchloride, as shown in the equation below.\nH\nH\nC\nH\nC\nC\nH\nH\nH\nH\nH\nC\nH\nC\nC\nH\nH\nH\nH\nCl\nHCl",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The hydrocarbon has a carbon-carbon double bond. The molecule has a C\u0005C bond. There is a multiple bond in each molecule. More H atoms could be bonded with this hydrocarbon."
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "81",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2019/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the information below and on your knowledge of chemistry.\nThe solvent 2-chloropropane can be made when chemists react propene with hydrogen \nchloride, as shown in the equation below.\nH\nH\nC\nH\nC\nC\nH\nH\nH\nH\nH\nC\nH\nC\nC\nH\nH\nH\nH\nCl\nHCl",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for CnH2n. Reaction Coordinate Potential Energy P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Compare the \ufb01 rst ionization energy of argon to the \ufb01 rst ionization energy of helium.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2019/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nRadioactive emissions can be detected by a Geiger counter. When radioactive emissions \nenter the Geiger counter probe, which contains a noble gas such as argon or helium, some of \nthe atoms are ionized. The ionized gas allows for a brief electric current. The current causes \nthe speaker to make a clicking sound. To make sure that the Geiger counter is measuring \nradiation properly, the device is tested using the radioisotope Cs-137.\nTo detect gamma radiation, an aluminum shield can be placed over the probe window, \nto keep alpha and beta radiation from entering the probe. A diagram that represents the \nGeiger counter is shown below.\nAmplifier and speaker\nWindow for\nradiation to enter\nProbe containing\na noble gas",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Argon has a lower ionization energy than helium. The Ar has a first ionization energy of 1521 kJ/mol and the He has a first ionization energy of 2372 kJ/mol. Helium has a higher first ionization energy than argon."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "State evidence from the passage that gamma radiation has greater penetrating power than alpha or beta radiation.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2019/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nRadioactive emissions can be detected by a Geiger counter. When radioactive emissions \nenter the Geiger counter probe, which contains a noble gas such as argon or helium, some of \nthe atoms are ionized. The ionized gas allows for a brief electric current. The current causes \nthe speaker to make a clicking sound. To make sure that the Geiger counter is measuring \nradiation properly, the device is tested using the radioisotope Cs-137.\nTo detect gamma radiation, an aluminum shield can be placed over the probe window, \nto keep alpha and beta radiation from entering the probe. A diagram that represents the \nGeiger counter is shown below.\nAmplifier and speaker\nWindow for\nradiation to enter\nProbe containing\na noble gas",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The gamma radiation has much greater penetrating power because it can pass through the aluminum shield. The alpha and beta particles cannot penetrate the aluminum shield. The aluminum shield does not stop gamma radiation."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Determine the time required for a sample of cesium-137 to decay until only 1 8 of the original sample remains unchanged.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2019/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nRadioactive emissions can be detected by a Geiger counter. When radioactive emissions \nenter the Geiger counter probe, which contains a noble gas such as argon or helium, some of \nthe atoms are ionized. The ionized gas allows for a brief electric current. The current causes \nthe speaker to make a clicking sound. To make sure that the Geiger counter is measuring \nradiation properly, the device is tested using the radioisotope Cs-137.\nTo detect gamma radiation, an aluminum shield can be placed over the probe window, \nto keep alpha and beta radiation from entering the probe. A diagram that represents the \nGeiger counter is shown below.\nAmplifier and speaker\nWindow for\nradiation to enter\nProbe containing\na noble gas",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 90.6 y. Significant figures do not need to be shown."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Complete the nuclear equation in your answer booklet for the decay of Cs-137 P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2019/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nRadioactive emissions can be detected by a Geiger counter. When radioactive emissions \nenter the Geiger counter probe, which contains a noble gas such as argon or helium, some of \nthe atoms are ionized. The ionized gas allows for a brief electric current. The current causes \nthe speaker to make a clicking sound. To make sure that the Geiger counter is measuring \nradiation properly, the device is tested using the radioisotope Cs-137.\nTo detect gamma radiation, an aluminum shield can be placed over the probe window, \nto keep alpha and beta radiation from entering the probe. A diagram that represents the \nGeiger counter is shown below.\nAmplifier and speaker\nWindow for\nradiation to enter\nProbe containing\na noble gas",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Ba-137 barium-137 Ba 56 137 Ba 137 P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    }
+  ]
+}

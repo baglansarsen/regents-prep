@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-1",
+  "session": "june-2016",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The expression x4 \u0002 16 is equivalent to",
+      "choices": [
+        "(x2 \u0003 8)(x2 \u0002 8)",
+        "(x2 \u0002 8)(x2 \u0002 8)",
+        "(x2 \u0003 4)(x2 \u0002 4)",
+        "(x2 \u0002 4)(x2 \u0002 4)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "An expression of the fifth degree is written with a leading coefficient of seven and a constant of six. Which expression is correctly written for these conditions?",
+      "choices": [
+        "6x5 \u0003 x4 \u0003 7",
+        "7x6 \u0002 6x4 \u0003 5",
+        "6x7 \u0002 x5 \u0003 5",
+        "7x5 \u0003 2x2 \u0003 6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The table below shows the year and the number of households in a building that had high-speed broadband internet access. For which interval of time was the average rate of change the smallest?",
+      "choices": [
+        "2002 \u2013 2004",
+        "2003 \u2013 2005",
+        "2004 \u2013 2006",
+        "2005 \u2013 2007 Number of Households 11 16 23 33 42 47 Year 2002 2003 2004 2005 2006 2007 Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/june-2016/q3.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The scatterplot below compares the number of bags of popcorn and the number of sodas sold at each performance of the circus over one week. Which conclusion can be drawn from the scatterplot?",
+      "choices": [
+        "There is a negative correlation between popcorn sales and soda sales.",
+        "There is a positive correlation between popcorn sales and soda sales.",
+        "There is no correlation between popcorn sales and soda sales.",
+        "Buying popcorn causes people to buy soda."
+      ],
+      "image": "/images/exams/algebra-1/june-2016/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The Celluloid Cinema sold 150 tickets to a movie. Some of these were child tickets and the rest were adult tickets. A child ticket cost $7.75 and an adult ticket cost $10.25. If the cinema sold $1470 worth of tickets, which system of equations could be used to determine how many adult tickets, a, and how many child tickets, c, were sold?",
+      "choices": [
+        "a \u0003 c \u0004 150",
+        "a \u0003 c \u0004 1470",
+        "a \u0003 c \u0004 150 10.25a \u0003 7.75c \u0004 1470 7.75a \u0003 10.25c \u0004 1470",
+        "a \u0003 c \u0004 1470 10.25a \u0003 7.75c \u0004 150 7.75a \u0003 10.25c \u0004 150 y x 500 450 400 350 300 250 200 150 150 200 250 300 350 400 450 500 Soda Sales Popcorn Sales Popcorn Sales and Soda Sales Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The tables below show the values of four different functions for given values of x. Which table represents a linear function?",
+      "choices": [
+        "f(x)",
+        "g(x)",
+        "h(x)",
+        "k(x)"
+      ],
+      "image": "/images/exams/algebra-1/june-2016/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The acidity in a swimming pool is considered normal if the average of three pH readings, p, is defined such that 7.0 \u0005 p \u0005 7.8. If the first two readings are 7.2 and 7.6, which value for the third reading will result in an overall rating of normal?",
+      "choices": [
+        "6.2",
+        "7.3",
+        "8.6",
+        "8.8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Dan took 12.5 seconds to run the 100-meter dash. He calculated the time to be approximately",
+      "choices": [
+        "0.2083 minute",
+        "750 minutes",
+        "0.2083 hour",
+        "0.52083 hour"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "When 3x \u0003 2 \u0006 5(x \u0002 4) is solved for x, the solution is",
+      "choices": [
+        "x \u0006 3",
+        "x \u0007 3",
+        "x \u0006 \u000211",
+        "x \u0007 11 x 1 2 3 4 f(x) 12 19 26 33 x 1 2 3 4 g(x) \u20131 1 5 13 x 1 2 3 4 h(x) 9 12 17 24 x 1 2 3 4 k(x) \u20132 4 14 28 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The expression 3(x2 \u0002 1) \u0002 (x2 \u0002 7x \u0003 10) is equivalent to",
+      "choices": [
+        "2x2 \u0002 7x \u0003 7",
+        "2x2 \u0003 7x \u0002 13",
+        "2x2 \u0002 7x \u0003 9",
+        "2x2 \u0003 7x \u0002 11"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The range of the function f(x) \u0004 x2 \u0003 2x \u0002 8 is all real numbers",
+      "choices": [
+        "less than or equal to \u00029",
+        "greater than or equal to \u00029",
+        "less than or equal to \u00021",
+        "greater than or equal to \u00021"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The zeros of the function f(x) \u0004 x2 \u0002 5x \u0002 6 are",
+      "choices": [
+        "\u00021 and 6",
+        "1 and \u00026",
+        "2 and \u00023",
+        "\u00022 and 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "In a sequence, the first term is 4 and the common difference is 3. The fifth term of this sequence is",
+      "choices": [
+        "\u000211",
+        "\u00028",
+        "16",
+        "19"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The growth of a certain organism can be modeled by C(t) \u0004 10(1.029)24t, where C(t) is the total number of cells after t hours. Which function is approximately equivalent to C(t)?",
+      "choices": [
+        "C(t) \u0004 240(.083)24t",
+        "C(t) \u0004 10(.083)t",
+        "C(t) \u0004 10(1.986)t",
+        "C(t) \u0004 240(1.986) t__ 24 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "A public opinion poll was taken to explore the relationship between age and support for a candidate in an election. The results of the poll are summarized in the table below. What percent of the 21\u201340 age group was for the candidate?",
+      "choices": [
+        "15",
+        "25",
+        "40",
+        "60"
+      ],
+      "image": "/images/exams/algebra-1/june-2016/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which equation and ordered pair represent the correct vertex form and vertex for j(x) \u0004 x2 \u0002 12x \u0003 7?",
+      "choices": [
+        "j(x) \u0004 (x \u0002 6)2 \u0003 43, (6,43)",
+        "j(x) \u0004 (x \u0002 6)2 \u0003 43, (\u00026,43)",
+        "j(x) \u0004 (x \u0002 6)2 \u0002 29, (6,\u000229)",
+        "j(x) \u0004 (x \u0002 6)2 \u0002 29, (\u00026,\u000229)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A student invests $500 for 3 years in a savings account that earns 4% interest per year. No further deposits or withdrawals are made during this time. Which statement does not yield the correct balance in the account at the end of 3 years?",
+      "choices": [
+        "500(1.04)3",
+        "500(1 \u0002 .04)3",
+        "500(1 \u0003 .04)(1 \u0003 .04)(1 \u0003 .04)",
+        "500 \u0003 500(.04) \u0003 520(.04) \u0003 540.8(.04) Age For Against No Opinion 21\u201340 30 12 8 41\u201360 20 40 15 Over 60 25 35 15 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The line represented by the equation 4y \u0003 2x \u0004 33.6 shares a solution point with the line represented by the table below. The solution for this system is",
+      "choices": [
+        "(\u000214.0,\u00021.4)",
+        "(\u00026.8,5.0)",
+        "(1.9,4.6)",
+        "(6.0,5.4)"
+      ],
+      "image": "/images/exams/algebra-1/june-2016/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "What is the solution of the equation 2(x \u0003 2)2 \u0002 4 \u0004 28?",
+      "choices": [
+        "6, only",
+        "2, only",
+        "2 and \u00026",
+        "6 and \u00022"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The dot plot shown below represents the number of pets owned by students in a class. Which statement about the data is not true?",
+      "choices": [
+        "The median is 3.",
+        "The interquartile range is 2.",
+        "The mean is 3.",
+        "The data contain no outliers. 0 1 2 3 4 5 6 x \u20135 \u20132 2 4 y 3.2 3.8 4.6 5 11 6.4 Algebra I (Common Core) Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/june-2016/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "What is the largest integer, x, for which the value of f(x) \u0004 5x4 \u0003 30x2 \u0003 9 will be greater than the value of g(x) \u0004 3x?",
+      "choices": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The graphs of the functions f(x) \u0004 |x \u0002 3| \u0003 1 and g(x) \u0004 2x \u0003 1 are drawn. Which statement about these functions is true?",
+      "choices": [
+        "The solution to f(x) \u0004 g(x) is 3.",
+        "The solution to f(x) \u0004 g(x) is 1.",
+        "The graphs intersect when y \u0004 1.",
+        "The graphs intersect when x \u0004 3."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A store sells self-serve frozen yogurt sundaes. The function C(w) represents the cost, in dollars, of a sundae weighing w ounces. An appropriate domain for the function would be",
+      "choices": [
+        "integers",
+        "rational numbers",
+        "nonnegative integers",
+        "nonnegative rational numbers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Sara was asked to solve this word problem: \u201cThe product of two consecutive integers is 156. What are the integers?\u201d What type of equation should she create to solve this problem?",
+      "choices": [
+        "linear",
+        "quadratic",
+        "exponential",
+        "absolute value"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Given that f(x) \u0004 2x \u0003 1, find g(x) if g(x) \u0004 2[f(x)] 2 \u0002 1.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Determine if the product of and is rational or irrational. Explain your answer. 3 2 8 18 Algebra I (Common Core) Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2016/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "On the set of axes below, draw the graph of y \u0004 x2 \u0002 4x \u0002 1. State the equation of the axis of symmetry. y x Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2016/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Amy solved the equation 2x2 \u0003 5x \u0002 42 \u0004 0. She stated that the solutions to the equation were and \u00026. Do you agree with Amy\u2019s solutions? Explain why or why not. 7 2 Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2016/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Sue and Kathy were doing their algebra homework. They were asked to write the equation of the line that passes through the points (\u00023,4) and (6,1). Sue wrote y \u0002 4 \u0004 \u0002 (x \u0003 3) and Kathy wrote y \u0004 \u0002 x \u0003 3. Justify why both students are correct. 1 3 1 3 Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2016/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "During a recent snowstorm in Red Hook, NY, Jaime noted that there were 4 inches of snow on the ground at 3:00 p.m., and there were 6 inches of snow on the ground at 7:00 p.m. If she were to graph these data, what does the slope of the line connecting these two points represent in the context of this problem? Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "The formula for the sum of the degree measures of the interior angles of a polygon is S \u0004 180(n \u0002 2). Solve for n, the number of sides of the polygon, in terms of S. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "In the diagram below, f(x) \u0004 x3 \u0003 2x2 is graphed. Also graphed is g(x), the result of a translation of f(x). Determine an equation of g(x). Explain your reasoning. x y \u20133 \u20132 \u20131 0 1 2 1 2 \u20131 \u20132 \u20133 \u20134 g(x) f(x) Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2016/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "The height, H, in feet, of an object dropped from the top of a building after t seconds is given by H(t) \u0004 \u000216t2 \u0003 144. How many feet did the object fall between one and two seconds after it was dropped? Determine, algebraically, how many seconds it will take for the object to reach the ground. Algebra I (Common Core) Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The sum of two numbers, x and y, is more than 8. When you double x and add it to y, the sum is less than 14. Graph the inequalities that represent this scenario on the set of axes below. Kai says that the point (6,2) is a solution to this system. Determine if he is correct and explain your reasoning. y x",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2016/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "An airplane leaves New York City and heads toward Los Angeles. As it climbs, the plane gradually increases its speed until it reaches cruising altitude, at which time it maintains a constant speed for several hours as long as it stays at cruising altitude. After flying for 32 minutes, the plane reaches cruising altitude and has flown 192 miles. After flying for a total of 92 minutes, the plane has flown a total of 762 miles. Determine the speed of the plane, at cruising altitude, in miles per minute. Write an equation to represent the number of miles the plane has flown, y, during x minutes at cruising altitude, only. Assuming that the plane maintains its speed at cruising altitude, determine the total number of miles the plane has flown 2 hours into the flight. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "On the set of axes below, graph g(x) \u0004 x \u0003 1 and f(x) \u0004 How many values of x satisfy the equation f(x) \u0004 g(x)? Explain your answer, using evidence from your graphs. y x 2 1, 1 2 , 1 2 x x x x \u0003 \u0002 \u0002 \u0002 \u2264 > \u23a7 \u23a8\u23aa \u23a9\u23aa 1 2 Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2016/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Franco and Caryl went to a bakery to buy desserts. Franco bought 3 packages of cupcakes and 2 packages of brownies for $19. Caryl bought 2 packages of cupcakes and 4 packages of brownies for $24. Let x equal the price of one package of cupcakes and y equal the price of one package of brownies. Write a system of equations that describes the given situation. On the set of axes below, graph the system of equations. Determine the exact cost of one package of cupcakes and the exact cost of one package of brownies in dollars and cents. Justify your solution. y x Algebra I (Common Core) Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Algebra I (Common Core) Tear Here Tear Here ALGEBRA I (COMMON CORE) ALGEBRA I (COMMON CORE) Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2016/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

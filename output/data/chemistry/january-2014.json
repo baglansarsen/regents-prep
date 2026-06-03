@@ -1,0 +1,1106 @@
+{
+  "subject": "chemistry",
+  "session": "january-2014",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "What is the approximate mass of a proton?",
+      "choices": [
+        "1 u",
+        "0.0005 u",
+        "1 g",
+        "0.0005 g"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "An electron in a sodium atom gains enough energy to move from the second shell to the third shell. The sodium atom becomes",
+      "choices": [
+        "a positive ion",
+        "a negative ion",
+        "an atom in an excited state",
+        "an atom in the ground state"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which particle has no charge?",
+      "choices": [
+        "electron",
+        "neutron",
+        "positron",
+        "proton"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which quantity represents the number of protons in an atom?",
+      "choices": [
+        "atomic number",
+        "oxidation number",
+        "number of neutrons",
+        "number of valence electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The element sulfur is classified as a",
+      "choices": [
+        "metal",
+        "metalloid",
+        "nonmetal",
+        "noble gas"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The elements in Group 2 have similar chemical properties because each atom of these elements has the same",
+      "choices": [
+        "atomic number",
+        "mass number",
+        "number of electron shells",
+        "number of valence electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "What is formed when two atoms of bromine bond together?",
+      "choices": [
+        "a monatomic molecule",
+        "a diatomic molecule",
+        "a heterogeneous mixture",
+        "a homogeneous mixture"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Gold can be flattened into an extremely thin sheet. The malleability of gold is due to the",
+      "choices": [
+        "radioactive decay mode of the isotope Au-198",
+        "proton-to-neutron ratio in an atom of gold",
+        "nature of the bonds between gold atoms",
+        "reactivity of gold atoms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which term represents the attraction one atom has for the electrons in a bond with another atom?",
+      "choices": [
+        "electronegativity",
+        "electrical conductivity",
+        "first ionization energy",
+        "mechanical energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Salt water is classified as a",
+      "choices": [
+        "compound because the proportion of its atoms is fixed",
+        "compound because the proportion of its atoms can vary",
+        "mixture because the proportion of its components is fixed",
+        "mixture because the proportion of its components can vary"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which substance can not be broken down by a chemical change?",
+      "choices": [
+        "ammonia",
+        "arsenic",
+        "ethane",
+        "propanal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Some physical properties of two samples of iodine-127 at two different temperatures are shown in the table below. Selected Physical Properties of Iodine-127 Samples at 1 atm These two samples are two different",
+      "choices": [
+        "mixtures",
+        "substances",
+        "phases of matter",
+        "isotopes of iodine Sample Sample Temperature (K) Description Density (g/cm3) 1 298 dark-gray crystals 4.933 2 525 dark-purple gas 0.006"
+      ],
+      "image": "/images/exams/chemistry/january-2014/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Powdered iron is magnetic, but powdered sulfur is not. What occurs when they form a mixture in a beaker at room temperature?",
+      "choices": [
+        "The iron retains its magnetic properties.",
+        "The iron loses its metallic properties.",
+        "The sulfur gains magnetic properties.",
+        "The sulfur gains metallic properties."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which property is a measure of the average kinetic energy of the particles in a sample of matter?",
+      "choices": [
+        "mass",
+        "density",
+        "pressure",
+        "temperature"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "According to the kinetic molecular theory, which statement describes the particles of an ideal gas?",
+      "choices": [
+        "The gas particles are arranged in a regular pattern.",
+        "The force of attraction between the gas particles is strong.",
+        "The gas particles are hard spheres in continuous circular motion.",
+        "The collisions of the gas particles may result in the transfer of energy."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The concentration of a solution can be expressed in",
+      "choices": [
+        "milliliters per minute",
+        "parts per million",
+        "grams per kelvin",
+        "joules per gram"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Two hydrogen atoms form a hydrogen molecule when",
+      "choices": [
+        "one atom loses a valence electron to the other atom",
+        "one atom shares four electrons with the other atom",
+        "the two atoms collide and both atoms gain energy",
+        "the two atoms collide with sufficient energy to form a bond"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which type of formula represents the simplest whole-number ratio of atoms of the elements in a compound?",
+      "choices": [
+        "molecular formula",
+        "condensed formula",
+        "empirical formula",
+        "structural formula"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The coefficients in a balanced chemical equation represent",
+      "choices": [
+        "the mass ratios of the substances in the reaction",
+        "the mole ratios of the substances in the reaction",
+        "the total number of electrons in the reaction",
+        "the total number of elements in the reaction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Systems in nature tend to undergo changes toward",
+      "choices": [
+        "lower energy and higher entropy",
+        "lower energy and lower entropy",
+        "higher energy and higher entropy",
+        "higher energy and lower entropy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which formula represents an organic compound?",
+      "choices": [
+        "CaH2",
+        "C4H8",
+        "H2O2",
+        "P2O5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which class of organic compounds contains nitrogen?",
+      "choices": [
+        "aldehyde",
+        "alcohol",
+        "amine",
+        "ether"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which term identifies a type of organic reaction?",
+      "choices": [
+        "deposition",
+        "distillation",
+        "esterification",
+        "sublimation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which compound is classified as a hydrocarbon?",
+      "choices": [
+        "butanal",
+        "butyne",
+        "2-butanol",
+        "2-butanone"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "In an oxidation-reduction reaction, the number of electrons lost is",
+      "choices": [
+        "equal to the number of electrons gained",
+        "equal to the number of protons gained",
+        "less than the number of electrons gained",
+        "less than the number of protons gained"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which substance is an electrolyte?",
+      "choices": [
+        "C6H12O6(s)",
+        "C2H5OH(\u2113)",
+        "NaOH(s)",
+        "H2(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which energy conversion must occur in an operating electrolytic cell?",
+      "choices": [
+        "electrical energy to chemical energy",
+        "electrical energy to nuclear energy",
+        "chemical energy to electrical energy",
+        "chemical energy to nuclear energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which compound yields H\u0002 ions as the only positive ions in an aqueous solution?",
+      "choices": [
+        "KOH",
+        "NaOH",
+        "CH3OH",
+        "CH3COOH"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which statement describes the relative masses of two different particles?",
+      "choices": [
+        "A neutron has less mass than a positron.",
+        "A beta particle has less mass than a neutron.",
+        "An alpha particle has less mass than a positron.",
+        "An alpha particle has less mass than a beta particle."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which term represents a type of nuclear reaction?",
+      "choices": [
+        "condensation",
+        "vaporization",
+        "single replacement",
+        "natural transmutation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which ion has the smallest radius?",
+      "choices": [
+        "O2\u2013",
+        "S2\u2013",
+        "Se2\u2013",
+        "Te2\u2013"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Equal amounts of ethanol and water are mixed at room temperature and at 101.3 kPa. Which process is used to separate ethanol from the mixture?",
+      "choices": [
+        "distillation",
+        "reduction",
+        "filtration",
+        "ionization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "A sample of a substance has these characteristics: \u2022 melting point of 984 K \u2022 hard, brittle solid at room temperature \u2022 poor conductor of heat and electricity as a solid \u2022 good conductor of electricity as a liquid or in an aqueous solution This sample is classified as",
+      "choices": [
+        "a metallic element",
+        "a radioactive element",
+        "a molecular compound",
+        "an ionic compound"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: N2 \u0002 energy \u2192N \u0002 N Which statement describes this reaction?",
+      "choices": [
+        "Bonds are broken, and the reaction is endothermic.",
+        "Bonds are broken, and the reaction is exothermic.",
+        "Bonds are formed, and the reaction is endothermic.",
+        "Bonds are formed, and the reaction is exothermic."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "When lithium reacts with bromine to form the compound LiBr, each lithium atom",
+      "choices": [
+        "gains one electron and becomes a negatively charged ion",
+        "gains three electrons and becomes a negatively charged ion",
+        "loses one electron and becomes a positively charged ion",
+        "loses three electrons and becomes a positively charged ion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "A beaker with water and the surrounding air are all at 24\u00b0C. After ice cubes are placed in the water, heat is transferred from",
+      "choices": [
+        "the ice cubes to the air",
+        "the beaker to the air",
+        "the water to the ice cubes",
+        "the water to the beaker"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "A sample of chlorine gas is at 300. K and 1.00 atmosphere. At which temperature and pressure would the sample behave more like an ideal gas?",
+      "choices": [
+        "0 K and 1.00 atm",
+        "150. K and 0.50 atm",
+        "273 K and 1.00 atm",
+        "600. K and 0.50 atm"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "When a sample of a gas is heated in a sealed, rigid container from 200. K to 400. K, the pressure exerted by the gas is",
+      "choices": [
+        "decreased by a factor of 2",
+        "increased by a factor of 2",
+        "decreased by a factor of 200.",
+        "increased by a factor of 200."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The bright-line spectra produced by four elements are represented in the diagram below. Given the bright-line spectrum of a mixture formed from two of these elements: Which elements are present in this mixture?",
+      "choices": [
+        "A and D",
+        "A and X",
+        "Z and D",
+        "Z and X"
+      ],
+      "image": "/images/exams/chemistry/january-2014/q39.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The graph below represents the relationship between time and temperature as heat is added at a constant rate to a sample of a substance. During interval AB, which energy change occurs for the particles in this sample?",
+      "choices": [
+        "The potential energy of the particles increases.",
+        "The potential energy of the particles decreases.",
+        "The average kinetic energy of the particles increases.",
+        "The average kinetic energy of the particles decreases. Temperature Time A B Wavelength (nm) 750 700 650 600 550 500 450 400 Bright-Line Spectra of Four Elements Element A Element D Element X Element Z Wavelength (nm) 750 700 650 600 550 500 450 400 750 700 650 600 550 500 450 400 Wavelength (nm)"
+      ],
+      "image": "/images/exams/chemistry/january-2014/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Given the potential energy diagram for a reversible chemical reaction: Each interval on the axis labeled \u201cPotential Energy (kJ/mol)\u201d represents 10. kilojoules per mole. What is the activation energy of the forward reaction?",
+      "choices": [
+        "10. kJ/mol",
+        "30. kJ/mol",
+        "40. kJ/mol",
+        "60. kJ/mol"
+      ],
+      "image": "/images/exams/chemistry/january-2014/q41.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which condensed structural formula represents an unsaturated compound?",
+      "choices": [
+        "CH3CHCHCH3",
+        "CH3CH2CH3",
+        "CH3CH3",
+        "CH4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Which element reacts spontaneously with 1.0 M HCl(aq) at room temperature?",
+      "choices": [
+        "copper",
+        "gold",
+        "silver",
+        "zinc"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Given the balanced ionic equation: 3Pb2\u0002(aq) \u0002 2Cr(s) \u21923Pb(s) \u0002 2Cr3\u0002(aq) What is the number of moles of electrons gained by 3.0 moles of lead ions?",
+      "choices": [
+        "5.0 mol",
+        "2.0 mol",
+        "3.0 mol",
+        "6.0 mol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "What is the amount of heat energy released when 50.0 grams of water is cooled from 20.0\u00b0C to 10.0\u00b0C?",
+      "choices": [
+        "5.00 \u0003 102 J",
+        "2.09 \u0003 103 J",
+        "1.67 \u0003 105 J",
+        "1.13 \u0003 106 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "What occurs at one of the electrodes in both an electrolytic cell and a voltaic cell?",
+      "choices": [
+        "Oxidation occurs as electrons are gained at the cathode.",
+        "Oxidation occurs as electrons are lost at the anode.",
+        "Reduction occurs as electrons are gained at the anode.",
+        "Reduction occurs as electrons are lost at the cathode."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: H2O(\u2113) \u0002 HCl(g) \u2192H3O\u0002(aq) \u0002 Cl\u0004(aq) According to one acid-base theory, the H2O(\u2113) molecules",
+      "choices": [
+        "accept H\u0002 ions",
+        "accept OH\u0004 ions",
+        "donate H\u0002 ions",
+        "donate OH\u0004 ions"
+      ],
+      "image": "/images/exams/chemistry/january-2014/q47.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "When an atom of the unstable isotope Na-24 decays, it becomes an atom of Mg-24 because the Na-24 atom spontaneously releases",
+      "choices": [
+        "an alpha particle",
+        "a beta particle",
+        "a neutron",
+        "a positron"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which balanced equation represents nuclear fusion?",
+      "choices": [
+        "3 1H \u21923 2He \u0002 0 \u00041e",
+        "235 92U \u2192231 90Th \u0002 4 2He",
+        "2 1H \u0002 2 1H \u21924 2He",
+        "235 92U \u0002 1 0n \u219290 38Sr \u0002 143 54Xe \u0002 31 0n"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which reaction releases the greatest amount of energy per kilogram of reactants?",
+      "choices": [
+        "1 0n \u0002 235 92U \u2192141 56Ba \u0002 92 36Kr \u0002 31 0n",
+        "2C \u0002 H2 \u2192C2H2",
+        "C3H8(g) \u0002 5O2(g) \u21923CO2(g) \u0002 4H2O(\u2113)",
+        "NaOH(aq) \u0002 HCl(aq) \u2192NaCl(aq) \u0002 H2O(\u2113) Reaction Coordinate Potential Energy (kJ/mol)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify the element from the diagram that will react with chlorine to form a compound with the general formula XCl4.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2014/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the information below and on your knowledge of chemistry.\nThe diagram below represents three elements in Group 13 and three elements in\nPeriod 3 and their relative positions on the Periodic Table.\nSome elements in the solid phase exist in different forms that vary in their physical\nproperties. For example, at room temperature, red phosphorus has a density of 2.16 g/cm3\nand white phosphorus has a density of 1.823 g/cm3.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Consider the Period 3 elements in the diagram in order of increasing atomic number. State the trend in electronegativity for these elements.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2014/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the information below and on your knowledge of chemistry.\nThe diagram below represents three elements in Group 13 and three elements in\nPeriod 3 and their relative positions on the Periodic Table.\nSome elements in the solid phase exist in different forms that vary in their physical\nproperties. For example, at room temperature, red phosphorus has a density of 2.16 g/cm3\nand white phosphorus has a density of 1.823 g/cm3.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Compare the number of atoms per cubic centimeter in red phosphorus with the number of atoms per cubic centimeter in white phosphorus.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2014/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the information below and on your knowledge of chemistry.\nThe diagram below represents three elements in Group 13 and three elements in\nPeriod 3 and their relative positions on the Periodic Table.\nSome elements in the solid phase exist in different forms that vary in their physical\nproperties. For example, at room temperature, red phosphorus has a density of 2.16 g/cm3\nand white phosphorus has a density of 1.823 g/cm3.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify one element from the diagram that will combine with phosphorus in the same ratio of atoms as the ratio in aluminum phosphide. Al Si P Ga In",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2014/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the information below and on your knowledge of chemistry.\nThe diagram below represents three elements in Group 13 and three elements in\nPeriod 3 and their relative positions on the Periodic Table.\nSome elements in the solid phase exist in different forms that vary in their physical\nproperties. For example, at room temperature, red phosphorus has a density of 2.16 g/cm3\nand white phosphorus has a density of 1.823 g/cm3.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Compare the entropy of 30. grams of solid KNO3 at 20.\u00b0C with the entropy of 30. grams of KNO3 dissolved in 100. grams of water at 20.\u00b0C.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 57 on the information below and on your knowledge of chemistry.\nThe compounds KNO3 and NaNO3 are soluble in water.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Explain why the total thermal energy of a sample containing 22.2 grams of NaNO3 dissolved in 200. grams of water at 20.\u00b0C is greater than the total thermal energy of a sample containing 11.1 grams of NaNO3 dissolved in 100. grams of water at 20.\u00b0C.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 57 on the information below and on your knowledge of chemistry.\nThe compounds KNO3 and NaNO3 are soluble in water.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Compare the boiling point of a NaNO3 solution at standard pressure to the boiling point of water at standard pressure.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2014/q57.png",
+      "context": "Base your answers to questions 55 through 57 on the information below and on your knowledge of chemistry.\nThe compounds KNO3 and NaNO3 are soluble in water.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Determine the molar mass of the product.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2014/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the information below and on your knowledge of chemistry.\nEthene and hydrogen can react at a faster rate in the presence of the catalyst platinum.\nThe equation below represents a reaction between ethene and hydrogen.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "State the number of electrons shared between the carbon atoms in one molecule of the reactant ethene.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2014/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the information below and on your knowledge of chemistry.\nEthene and hydrogen can react at a faster rate in the presence of the catalyst platinum.\nThe equation below represents a reaction between ethene and hydrogen.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Explain, in terms of activation energy, why the catalyzed reaction occurs at a faster rate.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2014/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the information below and on your knowledge of chemistry.\nEthene and hydrogen can react at a faster rate in the presence of the catalyst platinum.\nThe equation below represents a reaction between ethene and hydrogen.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Explain why the reaction is classified as an addition reaction. C H H C H H H H C C H H H H H H +",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2014/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the information below and on your knowledge of chemistry.\nEthene and hydrogen can react at a faster rate in the presence of the catalyst platinum.\nThe equation below represents a reaction between ethene and hydrogen.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "In the space in your answer booklet, show a numerical setup for calculating the molarity of the KOH(aq).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 and 63 on the information below and on your knowledge of chemistry.\nIn a titration, 50.0 milliliters of 0.026 M HCl(aq) is neutralized by 38.5 milliliters of\nKOH(aq).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Complete the equation in your answer booklet for the neutralization by writing the formula of the missing product.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2014/q63.png",
+      "context": "Base your answers to questions 62 and 63 on the information below and on your knowledge of chemistry.\nIn a titration, 50.0 milliliters of 0.026 M HCl(aq) is neutralized by 38.5 milliliters of\nKOH(aq).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Identify the functional group that appears more than once in the fructose molecule.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2014/context_64_65.png",
+      "context": "Base your answers to questions 64 and 65 on the information below and on your knowledge of chemistry.\nTable sugar, sucrose, is a combination of two simple sugars, glucose and fructose. The\nformulas below represent these simple sugars.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Explain, in terms of atoms and molecular structure, why glucose and fructose are isomers of each other. H C OH H H C HO H C H C OH C H C OH OH H O Glucose H C OH H C HO H C H C OH C H C OH O H H Fructose OH P.S./",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2014/context_64_65.png",
+      "context": "Base your answers to questions 64 and 65 on the information below and on your knowledge of chemistry.\nTable sugar, sucrose, is a combination of two simple sugars, glucose and fructose. The\nformulas below represent these simple sugars.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Write a chemical name for baking soda.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of chemistry.\nBaking soda, NaHCO3, can be commercially produced during a series of chemical \nreactions called the Solvay process. In this process, NH3(aq), NaCl(aq), and other chemicals\nare used to produce NaHCO3(s) and NH4Cl(aq).\nTo reduce production costs, NH3(aq) is recovered from NH4Cl(aq) through a different\nseries of reactions. This series of reactions can be summarized by the overall reaction \nrepresented by the unbalanced equation below.\nNH4Cl(aq) \u0002 CaO(s) \u2192NH3(aq) \u0002 H2O(\u2113) \u0002 CaCl2(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Determine the percent composition by mass of carbon in baking soda (gram-formula mass \u0005 84 grams per mole).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of chemistry.\nBaking soda, NaHCO3, can be commercially produced during a series of chemical \nreactions called the Solvay process. In this process, NH3(aq), NaCl(aq), and other chemicals\nare used to produce NaHCO3(s) and NH4Cl(aq).\nTo reduce production costs, NH3(aq) is recovered from NH4Cl(aq) through a different\nseries of reactions. This series of reactions can be summarized by the overall reaction \nrepresented by the unbalanced equation below.\nNH4Cl(aq) \u0002 CaO(s) \u2192NH3(aq) \u0002 H2O(\u2113) \u0002 CaCl2(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "State the color of bromcresol green in a sample of NH3(aq).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of chemistry.\nBaking soda, NaHCO3, can be commercially produced during a series of chemical \nreactions called the Solvay process. In this process, NH3(aq), NaCl(aq), and other chemicals\nare used to produce NaHCO3(s) and NH4Cl(aq).\nTo reduce production costs, NH3(aq) is recovered from NH4Cl(aq) through a different\nseries of reactions. This series of reactions can be summarized by the overall reaction \nrepresented by the unbalanced equation below.\nNH4Cl(aq) \u0002 CaO(s) \u2192NH3(aq) \u0002 H2O(\u2113) \u0002 CaCl2(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Determine the mass of NH4Cl that must be dissolved in 100. grams of H2O to produce a saturated solution at 70.\u00b0C.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of chemistry.\nBaking soda, NaHCO3, can be commercially produced during a series of chemical \nreactions called the Solvay process. In this process, NH3(aq), NaCl(aq), and other chemicals\nare used to produce NaHCO3(s) and NH4Cl(aq).\nTo reduce production costs, NH3(aq) is recovered from NH4Cl(aq) through a different\nseries of reactions. This series of reactions can be summarized by the overall reaction \nrepresented by the unbalanced equation below.\nNH4Cl(aq) \u0002 CaO(s) \u2192NH3(aq) \u0002 H2O(\u2113) \u0002 CaCl2(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Balance the equation in your answer booklet for the overall reaction used to recover NH3(aq), using the smallest whole-number coefficients.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of chemistry.\nBaking soda, NaHCO3, can be commercially produced during a series of chemical \nreactions called the Solvay process. In this process, NH3(aq), NaCl(aq), and other chemicals\nare used to produce NaHCO3(s) and NH4Cl(aq).\nTo reduce production costs, NH3(aq) is recovered from NH4Cl(aq) through a different\nseries of reactions. This series of reactions can be summarized by the overall reaction \nrepresented by the unbalanced equation below.\nNH4Cl(aq) \u0002 CaO(s) \u2192NH3(aq) \u0002 H2O(\u2113) \u0002 CaCl2(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Explain, in terms of electronegativity differences, why a C O bond is more polar than a C H bond.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of chemistry.\nRubbing alcohol is a product available at most pharmacies and supermarkets. One \nrubbing alcohol solution contains 2-propanol and water. The boiling point of 2-propanol is\n82.3\u00b0C at standard pressure.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Identify a strong intermolecular force of attraction between an alcohol molecule and a water molecule in the solution.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of chemistry.\nRubbing alcohol is a product available at most pharmacies and supermarkets. One \nrubbing alcohol solution contains 2-propanol and water. The boiling point of 2-propanol is\n82.3\u00b0C at standard pressure.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Determine the vapor pressure of water at a temperature equal to the boiling point of the 2-propanol.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of chemistry.\nRubbing alcohol is a product available at most pharmacies and supermarkets. One \nrubbing alcohol solution contains 2-propanol and water. The boiling point of 2-propanol is\n82.3\u00b0C at standard pressure.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Explain, in terms of charge distribution, why a molecule of the 2-propanol is a polar molecule.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of chemistry.\nRubbing alcohol is a product available at most pharmacies and supermarkets. One \nrubbing alcohol solution contains 2-propanol and water. The boiling point of 2-propanol is\n82.3\u00b0C at standard pressure.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "In the space in your answer booklet, draw a structural formula for the 2-propanol.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of chemistry.\nRubbing alcohol is a product available at most pharmacies and supermarkets. One \nrubbing alcohol solution contains 2-propanol and water. The boiling point of 2-propanol is\n82.3\u00b0C at standard pressure.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "In the space in your answer booklet, draw a Lewis electron-dot diagram for the compound that tarnishes silver.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 and 77 on the information below and on your knowledge of chemistry.\nSilver-plated utensils were popular before stainless steel became widely used to make\neating utensils. Silver tarnishes when it comes in contact with hydrogen sulfide, H2S, which\nis found in the air and in some foods. However, stainless steel does not tarnish when it\ncomes in contact with hydrogen sulfide.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "In the ground state, an atom of which noble gas has the same electron configuration as the sulfide ion in Ag2S? P.S./",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 and 77 on the information below and on your knowledge of chemistry.\nSilver-plated utensils were popular before stainless steel became widely used to make\neating utensils. Silver tarnishes when it comes in contact with hydrogen sulfide, H2S, which\nis found in the air and in some foods. However, stainless steel does not tarnish when it\ncomes in contact with hydrogen sulfide.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Compare the rate of the forward reaction to the rate of the reverse reaction for this system.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of chemistry.\nCommon household bleach is an aqueous solution containing hypochlorite ions. A\nclosed container of bleach is an equilibrium system represented by the equation below.\nCl2(g) \u0002 2OH\u0004(aq) \u21ccClO\u0004(aq) \u0002 Cl\u0004(aq) \u0002 H2O(\u2113)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "State the change in oxidation number for chlorine when the Cl2(g) changes to Cl\u0004(aq) during the forward reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of chemistry.\nCommon household bleach is an aqueous solution containing hypochlorite ions. A\nclosed container of bleach is an equilibrium system represented by the equation below.\nCl2(g) \u0002 2OH\u0004(aq) \u21ccClO\u0004(aq) \u0002 Cl\u0004(aq) \u0002 H2O(\u2113)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Explain why the container must be closed to maintain equilibrium.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of chemistry.\nCommon household bleach is an aqueous solution containing hypochlorite ions. A\nclosed container of bleach is an equilibrium system represented by the equation below.\nCl2(g) \u0002 2OH\u0004(aq) \u21ccClO\u0004(aq) \u0002 Cl\u0004(aq) \u0002 H2O(\u2113)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "State the effect on the concentration of the ClO\u0004 ion when there is a decrease in the concentration of the OH\u0004 ion.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of chemistry.\nCommon household bleach is an aqueous solution containing hypochlorite ions. A\nclosed container of bleach is an equilibrium system represented by the equation below.\nCl2(g) \u0002 2OH\u0004(aq) \u21ccClO\u0004(aq) \u0002 Cl\u0004(aq) \u0002 H2O(\u2113)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Determine the number of neutrons in an atom of I-127.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nIodine has many isotopes, but only iodine-127 is stable and is found in nature. One\nradioactive iodine isotope, I-108, decays by alpha particle emission. Iodine-131 is also\nradioactive and has many important medical uses.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Explain, in terms of protons and neutrons, why I-127 and I-131 are different isotopes of iodine.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nIodine has many isotopes, but only iodine-127 is stable and is found in nature. One\nradioactive iodine isotope, I-108, decays by alpha particle emission. Iodine-131 is also\nradioactive and has many important medical uses.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Complete the equation in your answer booklet for the nuclear decay of I-108.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nIodine has many isotopes, but only iodine-127 is stable and is found in nature. One\nradioactive iodine isotope, I-108, decays by alpha particle emission. Iodine-131 is also\nradioactive and has many important medical uses.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Determine the total time required for an 80.0-gram sample of I-131 to decay until only 1.25 grams of the sample remains unchanged. P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nIodine has many isotopes, but only iodine-127 is stable and is found in nature. One\nradioactive iodine isotope, I-108, decays by alpha particle emission. Iodine-131 is also\nradioactive and has many important medical uses.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

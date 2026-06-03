@@ -1,0 +1,486 @@
+{
+  "subject": "algebra-1",
+  "session": "august-2015",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Given the graph of the line represented by the equation f(x) \u0002 \u00032x \u0004 b, if b is increased by 4 units, the graph of the new line would be shifted 4 units",
+      "choices": [
+        "right",
+        "up",
+        "left",
+        "down"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Rowan has $50 in a savings jar and is putting in $5 every week. Jonah has $10 in his own jar and is putting in $15 every week. Each of them plots his progress on a graph with time on the horizontal axis and amount in the jar on the vertical axis. Which statement about their graphs is true?",
+      "choices": [
+        "Rowan\u2019s graph has a steeper slope than Jonah\u2019s.",
+        "Rowan\u2019s graph always lies above Jonah\u2019s.",
+        "Jonah\u2019s graph has a steeper slope than Rowan\u2019s.",
+        "Jonah\u2019s graph always lies above Rowan\u2019s."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "To watch a varsity basketball game, spectators must buy a ticket at the door. The cost of an adult ticket is $3.00 and the cost of a student ticket is $1.50. If the number of adult tickets sold is represented by a and student tickets sold by s, which expression represents the amount of money collected at the door from the ticket sales?",
+      "choices": [
+        "4.50as",
+        "4.50(a \u0004 s)",
+        "(3.00a)(1.50s)",
+        "3.00a \u0004 1.50s Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The graph of f(x) is shown below. Which function could represent the graph of f(x)?",
+      "choices": [
+        "f(x) \u0002 (x \u0004 2)(x2 \u0004 3x \u0003 4)",
+        "f(x) \u0002 (x \u0003 2)(x2 \u0004 3x \u0003 4)",
+        "f(x) \u0002 (x \u0004 2)(x2 \u0004 3x \u0004 4)",
+        "f(x) \u0002 (x \u0003 2)(x2 \u0004 3x \u0004 4)"
+      ],
+      "image": "/images/exams/algebra-1/august-2015/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The cost of a pack of chewing gum in a vending machine is $0.75. The cost of a bottle of juice in the same machine is $1.25. Julia has $22.00 to spend on chewing gum and bottles of juice for her team and she must buy seven packs of chewing gum. If b represents the number of bottles of juice, which inequality represents the maximum number of bottles she can buy?",
+      "choices": [
+        "0.75b \u0004 1.25(7) \u226522",
+        "0.75b \u0004 1.25(7) \u226422",
+        "0.75(7) \u0004 1.25b \u226522",
+        "0.75(7) \u0004 1.25b \u226422 y x Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "written",
+      "text": "Which graph represents the solution of y \u2264x \u0004 3 and y \u2265\u00032x \u0003 2?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2015/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The country of Benin in West Africa has a population of 9.05 million people. The population is growing at a rate of 3.1% each year. Which function can be used to find the population 7 years from now?",
+      "choices": [
+        "",
+        "",
+        "",
+        "y x y x y x Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A typical cell phone plan has a fixed base fee that includes a certain amount of data and an overage charge for data use beyond the plan. A cell phone plan charges a base fee of $62 and an overage charge of $30 per gigabyte of data that exceed 2 gigabytes. If C represents the cost and g represents the total number of gigabytes of data, which equation could represent this plan when more than 2 gigabytes are used?",
+      "choices": [
+        "C \u0002 30 \u0004 62(2 \u0003 g)",
+        "C \u0002 30 \u0004 62(g \u0003 2)",
+        "C \u0002 62 \u000430(2 \u0003 g)",
+        "C \u0002 62 \u0004 30(g \u0003 2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Four expressions are shown below. I 2(2x2 \u0003 2x \u0003 60) II 4(x2 \u0003 x \u0003 30) III 4(x \u0004 6)(x \u0003 5) IV 4x(x \u0003 1) \u0003 120 The expression 4x2 \u0003 4x \u0003 120 is equivalent to",
+      "choices": [
+        "I and II, only",
+        "II and IV, only",
+        "I, II, and IV",
+        "II, III, and IV"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Last week, a candle store received $355.60 for selling 20 candles. Small candles sell for $10.98 and large candles sell for $27.98. How many large candles did the store sell?",
+      "choices": [
+        "6",
+        "8",
+        "10",
+        "12 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which representations are functions?",
+      "choices": [
+        "I and II",
+        "II and IV",
+        "III, only",
+        "IV, only"
+      ],
+      "image": "/images/exams/algebra-1/august-2015/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "If f(x) \u0002 , then f( 1__ 2) \u0002",
+      "choices": [
+        "1",
+        "\u00032",
+        "\u00031",
+        "\u000313 __ 3"
+      ],
+      "image": "/images/exams/algebra-1/august-2015/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The zeros of the function f(x) \u0002 3x2 \u0003 3x \u0003 6 are",
+      "choices": [
+        "\u00031 and \u00032",
+        "1 and \u00032",
+        "1 and 2",
+        "\u00031 and 2 2 3 6 5 x x \u0004 \u0003 \u0002 5 5 2 \u20136 \u0002 \u0003 3 \u201312 4 7 2 6 y x \u0002\u0002\u0002 \u0002\u0002 y \u0002 2x \u0004 1 \u0002\u0003 { (1,1), (2,1), (3,2), (4,3), (5,5), (6,8), (7,13) } Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which recursively defined function has a first term equal to 10 and a common difference of 4?",
+      "choices": [
+        "\u0002 4 f(x) \u0002 f(x \u0003 1) \u0004 10 f(x) \u0002 10f(x \u0003 1)",
+        "f",
+        "f",
+        "f"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Firing a piece of pottery in a kiln takes place at different temperatures for different amounts of time. The graph below shows the temperatures in a kiln while firing a piece of pottery after the kiln is preheated to 200\u00baF. During which time interval did the temperature in the kiln show the greatest average rate of change?",
+      "choices": [
+        "0 to 1 hour",
+        "1 hour to 1.5 hours",
+        "2.5 hours to 5 hours",
+        "5 hours to 8 hours \u0002 \u0003 \u0004 \u0005 \u0006 \u0007\u0002 \u0007\u0005\u0002\u0002 \u0007\u0003\u0002\u0002 \u0006\u0002\u0002 \u0004\u0002\u0002 \u0004\u0005\u0006\u0007\u0005\b \b\u0005 \b \u0004 \u0006\u0005 \b \u000e\u000f\u0010\u0011 \b\u0006\u0012\u0007\u0006\u0002\u0002 \b\u0013\u0012\u0007\u0005\u0004\u0002 \b\u0003\u0014\u0013\u0012\u0007\u0015\u0002\u0002 \b\u0007\u0014\u0013\u0012 \u0016\u0002\u0002 \b\u0007\u0012 \u0017\u0002\u0002 Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/august-2015/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "written",
+      "text": "Which graph represents f(x) \u0002{ |x| x \u0006 1 ? \u0002\u0003\u0003x x \u22651",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2015/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "If f(x) \u0002 x2 \u0003 2x \u0003 8 and g(x) \u0002 1__ 4 x \u0003 1, for which values of x is f(x) \u0002 g(x)?",
+      "choices": [
+        "x y",
+        "x y",
+        "x y",
+        "Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Alicia has invented a new app for smart phones that two companies are interested in purchasing for a 2-year contract. Company A is offering her $10,000 for the first month and will increase the amount each month by $5000. Company B is offering $500 for the first month and will double their payment each month from the previous month. Monthly payments are made at the end of each month. For which monthly payment will company B\u2019s payment first exceed company A\u2019s payment?",
+      "choices": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The two sets of data below represent the number of runs scored by two different youth baseball teams over the course of a season. Team A: 4, 8, 5, 12, 3, 9, 5, 2 Team B: 5, 9, 11, 4, 6, 11, 2, 7 Which set of statements about the mean and standard deviation is true?",
+      "choices": [
+        "mean A \u0006 mean B standard deviation A \u0007 standard deviation B",
+        "mean A \u0007 mean B standard deviation A \u0006 standard deviation B",
+        "mean A \u0006 mean B standard deviation A \u0006 standard deviation B",
+        "mean A \u0007 mean B standard deviation A \u0007 standard deviation B"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "If Lylah completes the square for f(x) \u0002 x2 \u0003 12x \u0004 7 in order to find the minimum, she must write f(x) in the general form f(x) \u0002 (x \u0003 a)2 \u0004 b. What is the value of a for f(x)?",
+      "choices": [
+        "6",
+        "\u00036",
+        "12",
+        "\u000312 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Given the following quadratic functions: g(x) \u0002 \u0003x2 \u0003 x \u0004 6 and Which statement about these functions is true?",
+      "choices": [
+        "Over the interval \u00031 \u2264x \u22641, the average rate of change for n(x) is less than that for g(x).",
+        "The y-intercept of g(x) is greater than the y-intercept for n(x).",
+        "The function g(x) has a greater maximum value than n(x).",
+        "The sum of the roots of n(x) \u0002 0 is greater than the sum of the roots of g(x) \u0002 0."
+      ],
+      "image": "/images/exams/algebra-1/august-2015/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "For which value of P and W is P \u0004 W a rational number?",
+      "choices": [
+        "P \u0002 1 ____ \u0002\u0003\u00033 and W \u0002 1 ____ \u0002\u0003\u00036",
+        "P \u0002 1 ____ \u0002\u0003\u00034 and W \u0002 1 ____ \u0002\u0003\u00039",
+        "P \u0002 1 ____ \u0002\u0003\u00036 and W \u0002 1 _____ \u0002\u0003\u0003 10",
+        "P \u0002 1 _____ \u0002\u0003\u0003 25 and W \u0002 1 ____ \u0002\u0003\u00032 x \u20133 \u20132 \u20131 0 1 2 3 4 5 n(x) \u20137 0 5 8 9 8 5 0 \u20137 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The solution of the equation (x \u0004 3)2 \u0002 7 is",
+      "choices": [
+        "3 \b \u0002\u0003\u00037",
+        "7 \b \u0002\u0003\u00033",
+        "\u00033 \b \u0002\u0003\u00037",
+        "\u00037 \b \u0002\u0003\u00033"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which trinomial is equivalent to 3(x \u0003 2)2 \u0003 2(x \u0003 1)?",
+      "choices": [
+        "3x2 \u0003 2x \u0003 10",
+        "3x2 \u0003 2x \u0003 14",
+        "3x2 \u0003 14x \u0004 10",
+        "3x2 \u0003 14x \u0004 14 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Each day Toni records the height of a plant for her science lab. Her data are shown in the table below. The plant continues to grow at a constant daily rate. Write an equation to represent h(n), the height of the plant on the nth day. Day (n) 1 2 3 4 5 Height (cm) 3.0 4.5 6.0 7.5 9.0 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2015/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "On the set of axes below, graph the inequality 2x \u0004 y \u0007 1. y x Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2015/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Rachel and Marc were given the information shown below about the bacteria growing in a Petri dish in their biology class. Rachel wants to model this information with a linear function. Marc wants to use an exponential function. Which model is the better choice? Explain why you chose this model. Number of Hours, x 1 2 3 4 5 6 7 8 9 10 Number of Bacteria, B(x) 220 280 350 440 550 690 860 1070 1340 1680 Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2015/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "A driver leaves home for a business trip and drives at a constant speed of 60 miles per hour for 2 hours. Her car gets a flat tire, and she spends 30 minutes changing the tire. She resumes driving and drives at 30 miles per hour for the remaining one hour until she reaches her destination. On the set of axes below, draw a graph that models the driver\u2019s distance from home. x \u0004 \u0006\u0005 \b \u000e\u000f\u0010\u0011 \u000e \u000f \u0010\u0011\u0005 \b\u0018\u0019\u001a\u001b\u0011 300 240 180 120 60 1 2 3 4 5 Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2015/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "How many real solutions does the equation x2 \u0003 2x \u0004 5 \u0002 0 have? Justify your answer. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The number of carbon atoms in a fossil is given by the function y \u0002 5100(0.95)x, where x represents the number of years since being discovered. What is the percent of change each year? Explain how you arrived at your answer. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "A toy rocket is launched from the ground straight upward. The height of the rocket above the ground, in feet, is given by the equation h(t) \u0002 \u000316t2 \u0004 64t, where t is the time in seconds. Determine the domain for this function in the given context. Explain your reasoning. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Jackson is starting an exercise program. The first day he will spend 30 minutes on a treadmill. He will increase his time on the treadmill by 2 minutes each day. Write an equation for T(d), the time, in minutes, on the treadmill on day d. Find T(6), the minutes he will spend on the treadmill on day 6. Algebra I (Common Core) Algebra I (Common Core) Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Graph f(x) \u0002 x2 and g(x) \u0002 2x for x \u22650 on the set of axes below. State which function, f(x) or g(x), has a greater value when x \u0002 20. Justify your reasoning. y x",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2015/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Solve for x algebraically: 7x \u0003 3(4x \u0003 8) \u22646x \u0004 12 \u0003 9x If x is a number in the interval [4,8], state all integers that satisfy the given inequality. Explain how you determined these values. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "The volume of a large can of tuna fish can be calculated using the formula V \u0002 \u03c0r2h. Write an equation to find the radius, r, in terms of V and h. Determine the diameter, to the nearest inch, of a large can of tuna fish that has a volume of 66 cubic inches and a height of 3.3 inches. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "The table below shows the attendance at a museum in select years from 2007 to 2013. Attendance at Museum State the linear regression equation represented by the data table when x \u0002 0 is used to represent the year 2007 and y is used to represent the attendance. Round all values to the nearest hundredth. State the correlation coefficient to the nearest hundredth and determine whether the data suggest a strong or weak association. Year 2007 2008 2009 2011 2013 Attendance (millions) 8.3 8.5 8.5 8.8 9.3 Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2015/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "A rectangular picture measures 6 inches by 8 inches. Simon wants to build a wooden frame for the picture so that the framed picture takes up a maximum area of 100 square inches on his wall. The pieces of wood that he uses to build the frame all have the same width. Write an equation or inequality that could be used to determine the maximum width of the pieces of wood for the frame Simon could create. Explain how your equation or inequality models the situation. Solve the equation or inequality to determine the maximum width of the pieces of wood used for the frame to the nearest tenth of an inch. Algebra I (Common Core) Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be written in pencil. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Algebra I (Common Core) Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here ALGEBRA I (COMMON CORE) ALGEBRA I (COMMON CORE) Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

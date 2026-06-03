@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
-import { View, Text, TouchableOpacity, StyleSheet, Animated } from 'react-native'
+import { View, Text, TouchableOpacity, StyleSheet, Animated, ScrollView } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import StudyCard from '../components/StudyCard'
 import StudyBuddyCompanion from '../components/StudyBuddyCompanion'
@@ -116,7 +116,7 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
   if (done) {
     const timeXP = Math.floor(sessionSeconds / 60)
     return (
-      <SafeAreaView style={s.safe}>
+      <SafeAreaView style={s.safe} edges={['bottom']}>
         <View style={s.doneScreen}>
           <Text style={s.doneEmoji}>🎉</Text>
           <Text style={s.doneTitle}>Deck Complete!</Text>
@@ -150,7 +150,7 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
   }
 
   return (
-    <SafeAreaView style={s.safe}>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
       {/* Top bar — always 3 slots so layout never jumps */}
       <View style={s.topbar}>
         <TouchableOpacity onPress={goHome} activeOpacity={0.7} style={s.topbarSlot}>
@@ -176,14 +176,19 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
       </View>
 
       {/* Card */}
-      <View style={s.cardArea}>
+      <ScrollView
+        style={s.cardScroll}
+        contentContainerStyle={s.cardArea}
+        showsVerticalScrollIndicator={false}
+        keyboardShouldPersistTaps="handled"
+      >
         <StudyCard
           key={`${current?.id}-${index}`}
           question={current}
           onGotIt={handleGotIt}
           onStudyMore={handleStudyMore}
         />
-      </View>
+      </ScrollView>
 
       {/* Stats footer */}
       <View style={s.stats}>
@@ -248,7 +253,8 @@ function makeStyles(C) {
       borderRadius: 99,
     },
 
-    cardArea: { flex: 1, paddingHorizontal: 16, paddingTop: 12, justifyContent: 'center' },
+    cardScroll: { flex: 1 },
+    cardArea: { paddingHorizontal: 16, paddingTop: 12, paddingBottom: 8 },
 
     stats: {
       flexDirection: 'row',

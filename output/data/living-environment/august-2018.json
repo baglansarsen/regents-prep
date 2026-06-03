@@ -1,0 +1,1101 @@
+{
+  "subject": "living-environment",
+  "session": "august-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which human activity most directly causes a signi\ufb01 cant increase in the amount of carbon dioxide in the atmosphere?",
+      "choices": [
+        "growing corn for food",
+        "not using products containing plastics",
+        "driving cars long distances",
+        "planting large numbers of trees"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "An immune response is primarily due to the body\u2019s white blood cells recognizing",
+      "choices": [
+        "a hormone imbalance",
+        "abiotic organisms",
+        "foreign antigens",
+        "known antibiotics"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "In an effort to reduce the number of deaths due to malaria, scientists have successfully introduced a gene into mosquitoes. The gene makes the mosquitoes unable to support the development of the parasite that causes malaria. The technique used to produce this new variety of mosquito is most likely",
+      "choices": [
+        "chromatography",
+        "genetic engineering",
+        "electrophoresis of genes",
+        "selective breeding"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The organic compounds that scientists use to cut, copy, and move segments of DNA are",
+      "choices": [
+        "carbohydrates",
+        "enzymes",
+        "hormones",
+        "starches"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which statement most accurately predicts the result of interfering with populations in the web?",
+      "choices": [
+        "Removing the cricket population will have little effect on the balance of the food web.",
+        "Removing all the mountain lions from the food web will bene\ufb01 t the ecosystem.",
+        "Removing the cricket and rabbit popula- tions would cause the number of trees to decrease.",
+        "Removing deer from the food web will affect the rabbit and grass populations."
+      ],
+      "image": "/images/exams/living-environment/august-2018/context_5_6.png",
+      "context": "Base your answers to questions 5 and 6 on the \ndiagram below and on your knowledge of biology.\nRabbits\nSnakes\nMice\nTrees\nMountain \nlions\nCrickets\nFrogs\nHawks\nDeer\nGrass",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A factor not shown in the diagram that provides energy for living organisms is",
+      "choices": [
+        "carbon dioxide",
+        "water",
+        "the Sun",
+        "oxygen"
+      ],
+      "image": "/images/exams/living-environment/august-2018/context_5_6.png",
+      "context": "Base your answers to questions 5 and 6 on the \ndiagram below and on your knowledge of biology.\nRabbits\nSnakes\nMice\nTrees\nMountain \nlions\nCrickets\nFrogs\nHawks\nDeer\nGrass",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Scientists have found a gene that makes a protein called PKG that controls certain behaviors in many types of ants. The soldier ant will help collect food when it has a low level of PKG. When it has a high level of PKG, the soldier ant will protect and defend its colony. Soldier ants that are given PKG are more likely to ignore food sources and attack intruders. Which conclusion can best be made from this information?",
+      "choices": [
+        "PKG protein is synthesized only by the soldier ants.",
+        "Genes control which type of amino acids a cell can make.",
+        "Eating too much protein makes some organisms very aggressive.",
+        "The behavior of soldier ants is controlled in part by the PKG protein."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Genetic researchers have discovered a number of different gene mutations that have led to the development of cancer. These mutations affect how frequently a cell reproduces. Which process would be directly in\ufb02 uenced by these mutations?",
+      "choices": [
+        "differentiation of cells in an embryo",
+        "meiotic cell division",
+        "division of sperm and egg cells",
+        "mitotic cell division"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Lobsters are crustaceans related to cray\ufb01 sh, crabs, and shrimp. Most lobsters are a reddish- brown color, but on rare occasions, they can be orange, blue, or even multicolored. These color differences can be caused by",
+      "choices": [
+        "genetic variations",
+        "different numbers of offspring",
+        "overpopulation and excessive resources",
+        "the instability of the ecosystem"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which two factors could lead to the evolution of a species over time?",
+      "choices": [
+        "overproduction of offspring and no variation",
+        "changes in the genes of body cells and extinction",
+        "struggle for survival and fossilization",
+        "changes in the genes of sex cells and survival of the \ufb01 ttest"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "As human red blood cells mature, they lose their nuclei. As a result of this loss, which process would be impossible for mature red blood cells to carry out?",
+      "choices": [
+        "excretion",
+        "respiration",
+        "reproduction",
+        "transport"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "To clone a mammal, a cloned embryo is often put into an adult female of the same species to continue internal development. The structure in which the embryo will develop is the",
+      "choices": [
+        "ovary",
+        "placenta",
+        "uterus",
+        "egg"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Nuclear power plants, which produce electrical energy, use large quantities of water for cooling. Often, small \ufb01 sh, larvae, and \ufb01 sh eggs are sucked in along with the cooling water and destroyed. This example illustrates how",
+      "choices": [
+        "industrialization can have positive and negative effects",
+        "removal of these organisms has no effect on an ecosystem",
+        "direct harvesting increases the natural \ufb01 sh population",
+        "energy is generated without producing wastes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Acid rain is a major problem in the Adirondack Mountains. Evidence that acid rain negatively affected the Adirondack ecosystem is that",
+      "choices": [
+        "this rain has increased the amount of water in Adirondack lakes",
+        "there has been a decrease in the variety of \ufb01 sh found in Adirondack lakes",
+        "the amount of carbon dioxide in the air over the Adirondack Mountains has drastically decreased in recent years",
+        "the number of heterotrophic organisms in Adirondack lakes has increased"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which system in a multicellular organism functions most like the cytoplasm in a single- celled organism?",
+      "choices": [
+        "immune",
+        "reproductive",
+        "nervous",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "A common cycle in biology is represented below. ADP ATP P P The ATP molecule above is commonly used to",
+      "choices": [
+        "actively transport molecules in an organism",
+        "diffuse water across a membrane",
+        "move molecules from a high to a low concentration",
+        "balance the nutrients in an ecosystem"
+      ],
+      "image": "/images/exams/living-environment/august-2018/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Fat molecules typically contain long chains of carbon atoms. Animals tend to store fats for use when food resources are scarce. This is an advantage to the animal because",
+      "choices": [
+        "much energy can be gained by breaking the bonds between atoms in the fats",
+        "fats give off carbon dioxide that can be used by the muscles",
+        "amino acids from fat synthesis are more easily digested than carbohydrates",
+        "energy can only be created by digesting fats"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "While looking at the bottom surface of a leaf with a compound light microscope, a student notices pairs of cells with openings between them on the surface of the leaf. The main purpose of these openings and the cells that surround them is",
+      "choices": [
+        "removing excess sugars",
+        "synthesis of carbon dioxide",
+        "regulating gas exchange",
+        "puri\ufb01 cation of water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "An immune response to a usually harmless environmental substance is known as",
+      "choices": [
+        "an antigen",
+        "a vaccination",
+        "an allergy",
+        "a mutation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Scientists at Penn State have sequenced the DNA of the extinct woolly mammoth. The data suggested that the woolly mammoth was more closely related to present-day elephants than previously believed. Elephant Woolly mammoth Which statement could account for the similarities between the woolly mammoth and present-day elephants?",
+      "choices": [
+        "Common gene mutations were caused by agents such as industrial chemicals and radiation.",
+        "Present-day species developed from earlier, different species.",
+        "Selective breeding results in offspring better able to survive.",
+        "Both animals have identical genetic information."
+      ],
+      "image": "/images/exams/living-environment/august-2018/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Single-celled organisms are able to maintain homeostasis, even though they lack higher levels of organization such as organs and organ systems, because",
+      "choices": [
+        "single-celled organisms do not carry out the same life processes as multicellular organisms",
+        "multicellular organisms do not rely on tissues or organs to carry out life processes",
+        "cell structures work together to maintain homeostasis in single-celled organisms",
+        "single-celled organisms are able to coordinate organ functions to maintain homeostasis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Sharks are often followed by smaller \ufb01 sh that eat some of the scraps from the organisms eaten by the shark. These smaller \ufb01 sh are acting as",
+      "choices": [
+        "decomposers",
+        "scavengers",
+        "producers",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The photographs below are side-by-side images of twins A and B with identical genetic information. Twin A is a nonsmoker, while twin B is a longtime smoker. A B Source: http://holykaw.alltop.com The best explanation for the differences in the appearance of the twins is that",
+      "choices": [
+        "twin B is older than twin A",
+        "they each inherited half of their DNA from each parent",
+        "the expression of genes is in\ufb02 uenced by the environment",
+        "one twin resembles the mother and the other resembles the father"
+      ],
+      "image": "/images/exams/living-environment/august-2018/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Under the supervision of experts, certain areas in a nature preserve are regularly exposed to frequent, low-intensity \ufb01 res. These controlled \ufb01 res maintain speci\ufb01 c populations of plants by directly",
+      "choices": [
+        "increasing the consumption of \ufb01 nite resources",
+        "decreasing the carbon dioxide level in the atmosphere",
+        "stopping the process of evolution",
+        "interfering with the process of ecological succession"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "An invasive species, the spiny water \ufb02 ea, was recently found in a New York lake. These water \ufb02 eas eat zooplankton, a food also consumed by native \ufb01 shes. The \ufb02 eas spread from lake to lake by attaching to \ufb01 shing lines, anchor ropes, and boats. Which statement best describes the effect of the water \ufb02 ea on the lake?",
+      "choices": [
+        "It will not compete with animals in the local food chain.",
+        "It will feed on organisms that are important to other species.",
+        "The number of water \ufb02 eas will decrease due to a lack of food.",
+        "There will be no effect on native species in the lake."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "A stable ecosystem can have high biodiversity because each species in that ecosystem",
+      "choices": [
+        "occupies a different niche",
+        "inhabits a different environment",
+        "is part of a different community",
+        "lives in a different biosphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Stability within an ecosystem is achieved partially by the presence of organisms that break down important molecules and make them available for other organisms to use. These organisms are",
+      "choices": [
+        "plants",
+        "herbivores",
+        "scavengers",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a feedback mechanism. Higher blood sugar Lower blood sugar Pancreas secretes more hormone Pancreas secretes less hormone The hormone referred to in this feedback mechanism is",
+      "choices": [
+        "estrogen",
+        "insulin",
+        "progesterone",
+        "testosterone"
+      ],
+      "image": "/images/exams/living-environment/august-2018/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "After a lake dried up during a severe drought, a section of undisturbed rock layers was exposed. The layers are represented below. Fossils in Undisturbed Rock Layers Source: https://www.superteachertools.net This sequence of rock layers best illustrates the concept that",
+      "choices": [
+        "the living and nonliving environment both change over time",
+        "it is important to preserve the diversity of species and habitats",
+        "new inheritable characteristics can result from the recombining of genes",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2018/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Some organisms in an ecosystem are represented in the pyramid below. X X X X Source: Sylvia Mader, Human Biology (McGraw-Hill, 1998), p.476. In the pyramid, the arrows labeled X represent",
+      "choices": [
+        "the loss of organisms due to predation",
+        "a decrease in photosynthetic organisms",
+        "the loss of energy in the form of heat",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2018/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which tool is correctly paired with a procedure that could be used during this experiment?",
+      "choices": [
+        "an electronic balance to measure the volume of soil in which each corn plant is grown",
+        "a graduated cylinder to measure 30 mL of water for each plant daily",
+        "a metric ruler to determine the mass of each plant each week",
+        "a Celsius thermometer to determine the pH of the soil"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 31 and 32 on the information below and on your knowledge of biology.\nA student designed an experiment to determine if air temperature had an effect on the \nrate of photosynthesis in corn plants.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The independent variable in this experiment is the",
+      "choices": [
+        "air temperature at which the corn plants were grown",
+        "amount of carbon dioxide used by the corn plants",
+        "volume of oxygen produced by the corn plants",
+        ""
+      ],
+      "image": null,
+      "context": "Base your answers to questions 31 and 32 on the information below and on your knowledge of biology.\nA student designed an experiment to determine if air temperature had an effect on the \nrate of photosynthesis in corn plants.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The graph can best be used to illustrate",
+      "choices": [
+        "a food chain",
+        "ecological succession",
+        "natural selection",
+        "carrying capacity"
+      ],
+      "image": "/images/exams/living-environment/august-2018/context_33_34.png",
+      "context": "Base your answers to questions 33 and 34 on the information and graph below and on your knowledge of \nbiology. The graph shows the number of animals in a population throughout the course of a year. The population \nmigrated into the area at the beginning of 2011.\nJune\n80\nAnimal Population\nJune 2011 Through May 2012\nNumber of Animals\nin Population\nMonth\n70\n60\n50\n40\n30\n20\n10\n0\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember\nJanuary\nFebruary\nMarch\nApril\nMay",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The approximate number of animals that were found in June 2012 was most likely",
+      "choices": [
+        "16",
+        "26",
+        "76",
+        "86"
+      ],
+      "image": "/images/exams/living-environment/august-2018/context_33_34.png",
+      "context": "Base your answers to questions 33 and 34 on the information and graph below and on your knowledge of \nbiology. The graph shows the number of animals in a population throughout the course of a year. The population \nmigrated into the area at the beginning of 2011.\nJune\n80\nAnimal Population\nJune 2011 Through May 2012\nNumber of Animals\nin Population\nMonth\n70\n60\n50\n40\n30\n20\n10\n0\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember\nJanuary\nFebruary\nMarch\nApril\nMay",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "To prepare for an experiment, ten different sources of food were sterilized and kept in a sterile container. Bacteria of the same species were placed on each of the ten different food sources and kept at 26\u00b0C for two days. During this time, bacteria grew in nine of the containers. Based on this observation, the scientist could conclude that",
+      "choices": [
+        "all ten food sources used in the experiment are capable of supporting this species of bacteria",
+        "the temperature varied greatly in nine of the containers during this experiment",
+        "only the container that failed to grow any bacteria was prepared correctly",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The graph below shows three projections for future carbon dioxide (CO2) levels. 1990 2010 2030 2050 2070 2090 Year 250 350 450 550 650 750 CO2 Concentration (parts per million) Projections for Future CO2 Levels Business as usual Constant 1990 emissions Half 1990 emissions Source: http://www.yourclimateyourlife.org.uk \u2014 The \u201cBusiness as usual\u201d line shows CO2 levels if emissions remain at current levels. \u2014 The \u201cConstant 1990 emissions\u201d line shows CO2 levels if emissions are cut to the same level that they were in 1990. \u2014 The \u201cHalf 1990 emissions\u201d line shows CO2 levels if emissions are cut to half of the level that they were in 1990. Which statement is supported by the graph?",
+      "choices": [
+        "Climate change will result in the melting of polar ice caps.",
+        "The increase in carbon dioxide levels will cause a decrease in global average temperature.",
+        "Human activities have no effect on atmospheric carbon dioxide levels.",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2018/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Which graph most accurately represents the results obtained by this student? ( 1 ) Rate of Reaction pH 0 7 ( 2 ) Rate of Reaction pH 0 7 ( 3 ) pH Rate of Reaction 7 0 ( 4 ) pH Rate of Reaction 7 0",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_37_39.png",
+      "context": "Base your answers to questions 37 through 39 on the information below and on your knowledge of biology.\nHydrogen peroxide (H2O2) is a toxic compound that is produced by plant and animal \ncells. These cells also produce the enzyme catalase, which converts H2O2 into water and \noxygen gas, preventing the buildup of H2O2.\nA student designed an experiment to test the effect of an acidic pH on the rate of the \nreaction of H2O2 with catalase. The data below summarize the outcome of the experiment.\npH Level\n7\n(neutral)\n6\n5\n3\nReaction Rate (mL of oxygen/minute)\n1.5\n1.3\n1.0\n.55",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which conclusion is valid based upon the data collected by the student?",
+      "choices": [
+        "The change in pH prevents catalase from breaking down water.",
+        "Catalase has the greatest activity at a pH of 7.",
+        "Oxygen production will increase if more water is added to the reaction.",
+        "Catalase caused the greatest production of oxygen at a pH of 3."
+      ],
+      "image": "/images/exams/living-environment/august-2018/context_37_39.png",
+      "context": "Base your answers to questions 37 through 39 on the information below and on your knowledge of biology.\nHydrogen peroxide (H2O2) is a toxic compound that is produced by plant and animal \ncells. These cells also produce the enzyme catalase, which converts H2O2 into water and \noxygen gas, preventing the buildup of H2O2.\nA student designed an experiment to test the effect of an acidic pH on the rate of the \nreaction of H2O2 with catalase. The data below summarize the outcome of the experiment.\npH Level\n7\n(neutral)\n6\n5\n3\nReaction Rate (mL of oxygen/minute)\n1.5\n1.3\n1.0\n.55",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The best explanation for the change in catalase activity as the pH changed from 7 to 3 is that",
+      "choices": [
+        "strong acid digests the catalase, causing the reaction rate to increase",
+        "the student most likely cooled the H2O2 solution, causing the reaction rate to increase",
+        "in acidic solutions, the shape of catalase changes, causing the reaction rate to decrease",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2018/context_37_39.png",
+      "context": "Base your answers to questions 37 through 39 on the information below and on your knowledge of biology.\nHydrogen peroxide (H2O2) is a toxic compound that is produced by plant and animal \ncells. These cells also produce the enzyme catalase, which converts H2O2 into water and \noxygen gas, preventing the buildup of H2O2.\nA student designed an experiment to test the effect of an acidic pH on the rate of the \nreaction of H2O2 with catalase. The data below summarize the outcome of the experiment.\npH Level\n7\n(neutral)\n6\n5\n3\nReaction Rate (mL of oxygen/minute)\n1.5\n1.3\n1.0\n.55",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "written",
+      "text": "Which graph best illustrates the body temperature in an individual maintaining dynamic equilibrium? Body Temperature Time ( 1 ) Body Temperature Time ( 3 ) Body Temperature Time ( 2 ) Body Temperature Time ( 4 )",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The 2003 Energy Star models of refrigerators use an average of about 450 kilowatt hours of electrical energy annually. Approximately how much energy is saved by these models annually when compared to the models produced in 1972?",
+      "choices": [
+        "500 kilowatt hours",
+        "550 kilowatt hours",
+        "1500 kilowatt hours",
+        "1550 kilowatt hours"
+      ],
+      "image": "/images/exams/living-environment/august-2018/context_41_42.png",
+      "context": "Base your answers to questions 41 and 42 on the information and graph below and on your knowledge of \nbiology.\nFederal legislation establishes and updates energy-ef\ufb01 ciency standards for consumer \nproducts, including refrigerators. The graph shows the average annual energy consumption \nof similar types of refrigerators and the year they were manufactured.\n1972\n1990\n1993\nafter 2001\n2003\nEnergy\nStar\nYear Refrigerator Manufactured\n2500\n2000\n1500\n1000\n500\n0\nAnnual Electrical\nConsumption per\nRefrigerator\n(Kilowatt Hours)\nAverage Annual Energy Consumption of\nRefrigerators",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which statement best represents an outcome of federal standards that require increasing the energy ef\ufb01 ciency of appliances, such as refrigerators?",
+      "choices": [
+        "More technological improvements in appliances can help conserve \ufb01 nite resources.",
+        "Increased ef\ufb01 ciency of appliances requires greater use of our energy resources.",
+        "Newer appliances are manufactured from a greater number of \ufb01 nite resources.",
+        "Manufacturing more ef\ufb01"
+      ],
+      "image": "/images/exams/living-environment/august-2018/context_41_42.png",
+      "context": "Base your answers to questions 41 and 42 on the information and graph below and on your knowledge of \nbiology.\nFederal legislation establishes and updates energy-ef\ufb01 ciency standards for consumer \nproducts, including refrigerators. The graph shows the average annual energy consumption \nof similar types of refrigerators and the year they were manufactured.\n1972\n1990\n1993\nafter 2001\n2003\nEnergy\nStar\nYear Refrigerator Manufactured\n2500\n2000\n1500\n1000\n500\n0\nAnnual Electrical\nConsumption per\nRefrigerator\n(Kilowatt Hours)\nAverage Annual Energy Consumption of\nRefrigerators",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "A student placed a test tube containing elodea (an aquatic plant) and pond water 10 cm from a light source. He observed that the plant gave off bubbles of a gas and counted how many bubbles were released in one minute. He moved the plant farther away from the light source to see if distance from the source made a difference. The data table below shows his results. Light source Gas Production Distance from Light (cm) Bubbles Produced per Minute 10 40 20 30 30 7 40 4 The gas that was being produced was most likely",
+      "choices": [
+        "carbon dioxide as a product of the process of respiration",
+        "carbon dioxide as a product of the process of photosynthesis",
+        "oxygen as a product of the process of respiration",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2018/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_44_46.png",
+      "context": "Base your answers to questions 44 through 46 on the data table below and on your knowledge of biology. The \ndata table shows the estimated number of species extinctions from 1960 to 2010.\nNumber of Estimated\nSpecies Extinctions\nYear\nEstimated Number of\nSpecies Extinctions\n1960\n5000\n1970\n10,000\n1980\n15,000\n1990\n25,000\n2000\n35,000\n2010\n50,000\nNumber of Estimated \nSpecies Extinctions\nYear\nEstimated Number of  \nSpecies Extinctions\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid above,\nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data on the grid, connect the points and surround each point with a small circle. Example:",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_44_46.png",
+      "context": "Base your answers to questions 44 through 46 on the data table below and on your knowledge of biology. The \ndata table shows the estimated number of species extinctions from 1960 to 2010.\nNumber of Estimated\nSpecies Extinctions\nYear\nEstimated Number of\nSpecies Extinctions\n1960\n5000\n1970\n10,000\n1980\n15,000\n1990\n25,000\n2000\n35,000\n2010\n50,000\nNumber of Estimated \nSpecies Extinctions\nYear\nEstimated Number of  \nSpecies Extinctions\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid above,\nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "State one possible cause for the increase in the number of species extinctions from 1960-2010. \u20132",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_44_46.png",
+      "context": "Base your answers to questions 44 through 46 on the data table below and on your knowledge of biology. The \ndata table shows the estimated number of species extinctions from 1960 to 2010.\nNumber of Estimated\nSpecies Extinctions\nYear\nEstimated Number of\nSpecies Extinctions\n1960\n5000\n1970\n10,000\n1980\n15,000\n1990\n25,000\n2000\n35,000\n2010\n50,000\nNumber of Estimated \nSpecies Extinctions\nYear\nEstimated Number of  \nSpecies Extinctions\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid above,\nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Scientists have analyzed the ice\ufb01 sh DNA and documented genetic changes that gave rise to the antifreeze gene. Their \ufb01 ndings are represented in the diagram below. Digestive enzyme gene Process X Antifreeze protein gene Process X is referred to as",
+      "choices": [
+        "mitosis",
+        "mutation",
+        "differentiation",
+        "meiosis"
+      ],
+      "image": "/images/exams/living-environment/august-2018/q47.png",
+      "context": "Base your answers to questions 47 through 49 on the information and diagram below and on your knowledge \nof biology.\nIce\ufb01 sh Evolution\nOver the last 50 million years, ice\ufb01 sh evolved many adaptations that contributed to their \nsuccess in surviving the decreasing water temperatures of the ocean surrounding Antarctica. \nFor example, they have the ability to produce an antifreeze protein that prevents their blood \nfrom freezing in waters that are now below the normal freezing point of fresh water.\n \nNote: The answer to question 47 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Explain how the process of natural selection can account for the increase in frequency of the antifreeze protein gene in the ice\ufb01 sh population.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 47 through 49 on the information and diagram below and on your knowledge \nof biology.\nIce\ufb01 sh Evolution\nOver the last 50 million years, ice\ufb01 sh evolved many adaptations that contributed to their \nsuccess in surviving the decreasing water temperatures of the ocean surrounding Antarctica. \nFor example, they have the ability to produce an antifreeze protein that prevents their blood \nfrom freezing in waters that are now below the normal freezing point of fresh water.\n \nNote: The answer to question 47 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "In addition to the appearance of the antifreeze gene, ice\ufb01 sh have also been found to have DNA sequences similar to the DNA sequences in hemoglobin genes of other \ufb01 sh species. However, these DNA sequences are not complete and therefore not functional in ice\ufb01 sh. This evidence makes it likely that",
+      "choices": [
+        "ice\ufb01 sh ancestors had hemoglobin",
+        "ice\ufb01 sh will soon produce offspring with hemoglobin",
+        "hemoglobin is a molecule made by some \ufb01 sh that do not have genes for it",
+        "soon all \ufb01"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 47 through 49 on the information and diagram below and on your knowledge \nof biology.\nIce\ufb01 sh Evolution\nOver the last 50 million years, ice\ufb01 sh evolved many adaptations that contributed to their \nsuccess in surviving the decreasing water temperatures of the ocean surrounding Antarctica. \nFor example, they have the ability to produce an antifreeze protein that prevents their blood \nfrom freezing in waters that are now below the normal freezing point of fresh water.\n \nNote: The answer to question 47 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The best explanation for why sea slugs are able to pass on this ability to make food to their offspring is that",
+      "choices": [
+        "the gene for making algae is in all their body cells",
+        "making food is bene\ufb01 cial, so the slugs needed to mutate",
+        "the environment causes the slugs to become green",
+        "the gene for chlorophyll production is part of their DNA"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 50 and 51 on the passage below and on your knowledge of biology.\nGreen sea slugs are animals that live in water and have developed the ability to produce \ntheir own chlorophyll. These creatures can also pass this ability to make chlorophyll to their \noffspring. Once the offspring have one meal of algae, they are able to make food using \nsunlight. This one meal provides the baby slugs with the chloroplasts needed to make use of \nthe chlorophyll, and they are able to produce their own food in the future.\n \nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Explain how green sea slugs can be considered both a producer and a consumer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 50 and 51 on the passage below and on your knowledge of biology.\nGreen sea slugs are animals that live in water and have developed the ability to produce \ntheir own chlorophyll. These creatures can also pass this ability to make chlorophyll to their \noffspring. Once the offspring have one meal of algae, they are able to make food using \nsunlight. This one meal provides the baby slugs with the chloroplasts needed to make use of \nthe chlorophyll, and they are able to produce their own food in the future.\n \nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "State why fossil fuels are considered a \ufb01",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "The diagram below represents an organelle. Identify the process that occurs in this organelle, and explain the importance of this process to the survival of organisms. Process: Importance:",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/q53.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the type of cell division involved in each process. Skin cells: Gametes:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of biology.\nThe testes of a human male produce gametes. The process that produces these gametes \ndiffers from the process that produces new skin cells in the same individual.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "How does the genetic makeup of the skin cells differ from the genetic makeup of the gametes?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of biology.\nThe testes of a human male produce gametes. The process that produces these gametes \ndiffers from the process that produces new skin cells in the same individual.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Describe one function of the placenta during the internal development of an offspring.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of biology.\nPlacental mammals \u2013 as opposed to the kind that lay eggs, such as the platypus, or carry \nyoung in pouches, such as the kangaroo \u2013 are an extraordinarily diverse group of animals \nwith more than 5000 species today. They [placental mammals] include examples that \ufb02 y, \nswim, and run, and range in weight from a couple of grams to hundreds of tons. \u2026\nSource: \u201cEarliest Placental Mammal Ancestor Pinpointed,\u201d BBC News, February 7, 2013.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Describe one advantage for an offspring to develop internally as opposed to developing externally.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of biology.\nPlacental mammals \u2013 as opposed to the kind that lay eggs, such as the platypus, or carry \nyoung in pouches, such as the kangaroo \u2013 are an extraordinarily diverse group of animals \nwith more than 5000 species today. They [placental mammals] include examples that \ufb02 y, \nswim, and run, and range in weight from a couple of grams to hundreds of tons. \u2026\nSource: \u201cEarliest Placental Mammal Ancestor Pinpointed,\u201d BBC News, February 7, 2013.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Identify one factor, besides genetics, that could in\ufb02",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of biology.\nPlacental mammals \u2013 as opposed to the kind that lay eggs, such as the platypus, or carry \nyoung in pouches, such as the kangaroo \u2013 are an extraordinarily diverse group of animals \nwith more than 5000 species today. They [placental mammals] include examples that \ufb02 y, \nswim, and run, and range in weight from a couple of grams to hundreds of tons. \u2026\nSource: \u201cEarliest Placental Mammal Ancestor Pinpointed,\u201d BBC News, February 7, 2013.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Explain why it is an advantage for female \ufb01 nches to be small.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nBirds Are Evolving Rapidly\u2013Today\nMany people think that evolutionary change occurs so slowly, we cannot observe it \ndirectly. Not so!\nFor example today in the U.S., house \ufb01 nches are evolving rapidly and visibly. In 1941, \nsome captive house \ufb01 nches from California escaped near New York City. They spread \nrapidly and are now found across most of the United States and in southern Canada. Many \nof these areas have cold, snowy winters, during which many birds die. The \ufb01 nches have \nevolved, because those that survive differ from their parents. Size is one example.\nMale house \ufb01 nches in recently established populations in Michigan and Montana are \nlarger than the males that escaped. Large males outcompete small males for food, so are \nmore likely to survive the winter. They also pair more successfully with females early in the \nspring.\nSmaller females survive better than larger females as nestlings. Also, because they need \nless food to maintain their own bodies, they can breed earlier in spring. Females that breed \nearlier raise more young than those that start breeding later.\nRapid evolution of house \ufb01 nches reminds us that evolutionary changes are occurring \nvisibly all around us.\nSource: birdnote.org/show/birds-are-evolving-rapidly-today",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Explain why the population of large male house \ufb01 nches in Michigan and Montana continues to increase.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nBirds Are Evolving Rapidly\u2013Today\nMany people think that evolutionary change occurs so slowly, we cannot observe it \ndirectly. Not so!\nFor example today in the U.S., house \ufb01 nches are evolving rapidly and visibly. In 1941, \nsome captive house \ufb01 nches from California escaped near New York City. They spread \nrapidly and are now found across most of the United States and in southern Canada. Many \nof these areas have cold, snowy winters, during which many birds die. The \ufb01 nches have \nevolved, because those that survive differ from their parents. Size is one example.\nMale house \ufb01 nches in recently established populations in Michigan and Montana are \nlarger than the males that escaped. Large males outcompete small males for food, so are \nmore likely to survive the winter. They also pair more successfully with females early in the \nspring.\nSmaller females survive better than larger females as nestlings. Also, because they need \nless food to maintain their own bodies, they can breed earlier in spring. Females that breed \nearlier raise more young than those that start breeding later.\nRapid evolution of house \ufb01 nches reminds us that evolutionary changes are occurring \nvisibly all around us.\nSource: birdnote.org/show/birds-are-evolving-rapidly-today",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Predict what both the male and female \ufb01 nch populations might be like 10 years in the future, based on what is currently happening with the \ufb01 nch populations. Male: Female:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nBirds Are Evolving Rapidly\u2013Today\nMany people think that evolutionary change occurs so slowly, we cannot observe it \ndirectly. Not so!\nFor example today in the U.S., house \ufb01 nches are evolving rapidly and visibly. In 1941, \nsome captive house \ufb01 nches from California escaped near New York City. They spread \nrapidly and are now found across most of the United States and in southern Canada. Many \nof these areas have cold, snowy winters, during which many birds die. The \ufb01 nches have \nevolved, because those that survive differ from their parents. Size is one example.\nMale house \ufb01 nches in recently established populations in Michigan and Montana are \nlarger than the males that escaped. Large males outcompete small males for food, so are \nmore likely to survive the winter. They also pair more successfully with females early in the \nspring.\nSmaller females survive better than larger females as nestlings. Also, because they need \nless food to maintain their own bodies, they can breed earlier in spring. Females that breed \nearlier raise more young than those that start breeding later.\nRapid evolution of house \ufb01 nches reminds us that evolutionary changes are occurring \nvisibly all around us.\nSource: birdnote.org/show/birds-are-evolving-rapidly-today",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Temperatures at beaches where these turtles nest are expected to slowly increase with global climate change. State one speci\ufb01 c effect that a continuous rise in temperature could have on the sex ratio of the hatchling populations of these sea turtles.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the information below and on your knowledge of biology.\nNew Threat to Endangered Sea Turtles\nEndangered sea turtles in tropical areas are facing a new threat in the form of \nchanging beach temperatures caused by climate change. The sex of sea turtle hatchlings is \ndetermined by the temperature inside the nest. Embryos develop into males when the \ntemperature is approximately 28\u00b0C (82\u00b0F), whereas female embryos develop at \napproximately 31\u00b0C (88\u00b0F). If the temperature inside the nest is between these values, then \nboth male and female turtles are produced.\nIf these endangered sea turtles are going to survive in the long term, we need to protect\ntheir nesting habitat, ensure that the potential nest sites have adequate amounts of \nshade-producing vegetation (such as palm trees) nearby, and ensure that they are not \naffected by tourist activities in the area.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Explain how having adequate amounts of shade-producing vegetation nearby, such as palm trees, can affect the nesting success of endangered sea turtles.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the information below and on your knowledge of biology.\nNew Threat to Endangered Sea Turtles\nEndangered sea turtles in tropical areas are facing a new threat in the form of \nchanging beach temperatures caused by climate change. The sex of sea turtle hatchlings is \ndetermined by the temperature inside the nest. Embryos develop into males when the \ntemperature is approximately 28\u00b0C (82\u00b0F), whereas female embryos develop at \napproximately 31\u00b0C (88\u00b0F). If the temperature inside the nest is between these values, then \nboth male and female turtles are produced.\nIf these endangered sea turtles are going to survive in the long term, we need to protect\ntheir nesting habitat, ensure that the potential nest sites have adequate amounts of \nshade-producing vegetation (such as palm trees) nearby, and ensure that they are not \naffected by tourist activities in the area.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "64",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the information below and on your knowledge of biology.\nNew Threat to Endangered Sea Turtles\nEndangered sea turtles in tropical areas are facing a new threat in the form of \nchanging beach temperatures caused by climate change. The sex of sea turtle hatchlings is \ndetermined by the temperature inside the nest. Embryos develop into males when the \ntemperature is approximately 28\u00b0C (82\u00b0F), whereas female embryos develop at \napproximately 31\u00b0C (88\u00b0F). If the temperature inside the nest is between these values, then \nboth male and female turtles are produced.\nIf these endangered sea turtles are going to survive in the long term, we need to protect\ntheir nesting habitat, ensure that the potential nest sites have adequate amounts of \nshade-producing vegetation (such as palm trees) nearby, and ensure that they are not \naffected by tourist activities in the area.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "State the role of the population of grasshopper mice in the Sonoran Desert food web.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_65_68.png",
+      "context": "Base your answers to questions 65 through 68 on the information and photograph below and on your \nknowledge of biology. The photograph shows a grasshopper mouse howling after eating a scorpion.\n \nSource: Michael and Patricia Fogden/Minden/NGS\nGrasshopper Mice\nIn the Sonoran Desert in the southwestern United States, the grasshopper mouse is \nactive at night, searching for crickets, rodents, tarantulas, and even scorpions. The mouse \nignores the venom of the scorpion, kills it, and consumes its \ufb02 esh. The ability of the mouse \nto ignore the pain normally associated with the venom of the scorpion is due to the presence \nof a mutated protein. This protein prevents the pain signal from reaching the brain.\nThese mice are born killers, capable of taking down prey that are much larger than \nthemselves. They are also aggressive neighbors and take over nests by displacing other \ndesert inhabitants rather than making their own. Under dif\ufb01 cult environmental conditions, \nthey may even eat members of their own species.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "66",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_65_68.png",
+      "context": "Base your answers to questions 65 through 68 on the information and photograph below and on your \nknowledge of biology. The photograph shows a grasshopper mouse howling after eating a scorpion.\n \nSource: Michael and Patricia Fogden/Minden/NGS\nGrasshopper Mice\nIn the Sonoran Desert in the southwestern United States, the grasshopper mouse is \nactive at night, searching for crickets, rodents, tarantulas, and even scorpions. The mouse \nignores the venom of the scorpion, kills it, and consumes its \ufb02 esh. The ability of the mouse \nto ignore the pain normally associated with the venom of the scorpion is due to the presence \nof a mutated protein. This protein prevents the pain signal from reaching the brain.\nThese mice are born killers, capable of taking down prey that are much larger than \nthemselves. They are also aggressive neighbors and take over nests by displacing other \ndesert inhabitants rather than making their own. Under dif\ufb01 cult environmental conditions, \nthey may even eat members of their own species.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Identify one advantage to grasshopper mice of being active during the night rather than daylight.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_65_68.png",
+      "context": "Base your answers to questions 65 through 68 on the information and photograph below and on your \nknowledge of biology. The photograph shows a grasshopper mouse howling after eating a scorpion.\n \nSource: Michael and Patricia Fogden/Minden/NGS\nGrasshopper Mice\nIn the Sonoran Desert in the southwestern United States, the grasshopper mouse is \nactive at night, searching for crickets, rodents, tarantulas, and even scorpions. The mouse \nignores the venom of the scorpion, kills it, and consumes its \ufb02 esh. The ability of the mouse \nto ignore the pain normally associated with the venom of the scorpion is due to the presence \nof a mutated protein. This protein prevents the pain signal from reaching the brain.\nThese mice are born killers, capable of taking down prey that are much larger than \nthemselves. They are also aggressive neighbors and take over nests by displacing other \ndesert inhabitants rather than making their own. Under dif\ufb01 cult environmental conditions, \nthey may even eat members of their own species.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Explain how research on the mutated protein identi\ufb01 ed in the grasshopper mouse could bene\ufb01 t humans suffering from chronic pain.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_65_68.png",
+      "context": "Base your answers to questions 65 through 68 on the information and photograph below and on your \nknowledge of biology. The photograph shows a grasshopper mouse howling after eating a scorpion.\n \nSource: Michael and Patricia Fogden/Minden/NGS\nGrasshopper Mice\nIn the Sonoran Desert in the southwestern United States, the grasshopper mouse is \nactive at night, searching for crickets, rodents, tarantulas, and even scorpions. The mouse \nignores the venom of the scorpion, kills it, and consumes its \ufb02 esh. The ability of the mouse \nto ignore the pain normally associated with the venom of the scorpion is due to the presence \nof a mutated protein. This protein prevents the pain signal from reaching the brain.\nThese mice are born killers, capable of taking down prey that are much larger than \nthemselves. They are also aggressive neighbors and take over nests by displacing other \ndesert inhabitants rather than making their own. Under dif\ufb01 cult environmental conditions, \nthey may even eat members of their own species.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Explain how vaccinations protect against diseases.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 and 70 on the information below and on your knowledge of biology.\nTo attend public school in New York State, children need to be vaccinated against \nvarious diseases. The list below shows some required vaccinations.\nRequired Vaccinations\nPolio\nTetanus\nPertussis\nMeasles\nMumps\nRubella\nDiptheria",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "The \ufb02 u is a disease caused by a virus that can undergo frequent genetic changes. A different \ufb02 u vaccination is needed each year. Explain why a single vaccination is not effective against all \ufb02",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 and 70 on the information below and on your knowledge of biology.\nTo attend public school in New York State, children need to be vaccinated against \nvarious diseases. The list below shows some required vaccinations.\nRequired Vaccinations\nPolio\nTetanus\nPertussis\nMeasles\nMumps\nRubella\nDiptheria",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_71_72.png",
+      "context": "Base your answers to question 71\u201372 on the information below and on your knowledge of biology.\nSurvey Finds Invasive Snail in St. Lawrence River That Could Threaten Waterfowl\nNew research has found a larger presence of faucet snails in the Great Lakes than \npreviously recognized, including the northern parts of Lake Ontario and the St. Lawrence \nRiver. The invasive species can carry three types of intestinal parasites that can injure and \nkill waterfowl such as ducks. \u2026\n\u2026When the waterfowl eat the snails, the parasites attack internal organs, causing lesions \n[sores] and hemorrhage [uncontrolled bleeding]. Birds affected by the snail will \ufb02 y and \ndive erratically before their eventual death. The university said that the snails are about \n12 to 15 millimeters in height at full size, brown to black with a distinctive whorl of \nconcentric circles on the shell opening cover that looks like tree rings. \u2026\n\u2026Mr. Kosnicki [an ecologist] said the spread of snails, along with other invasive species, \nshows the need for increased awareness of possible contaminants coming from boats and in \nrunoff from land. \u2026\nSource: Watertown Daily Times, Monday, January 19, 2015, by Gordon Block\n  71\u201372 Discuss how invasive species can harm an ecosystem. In your answer, be sure to:\n \n\u2022 explain one negative effect that faucet snails have on the lake ecosystem   [1]\n \n\u2022 describe one human activity that can slow the spread of the faucet snail   [1]\n\n Living Environment\u2013Aug. \u201918 \n[25] \n[OVER]\nPart D\nAnswer all questions in this part.     [13]\nDirections (73\u201385): For those questions that are multiple choice, record on the separate answer sheet the \nnumber of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n \nNote: The answer to question 73 should be recorded on your separate answer sheet.\n 73 The diagram below represents one of many microscopic air sacs in a human lung. The alveolus (air sac) is \nthe place where oxygen (O2) and carbon dioxide (CO2) move into or out of the blood, as represented in the \ndiagram.\nAlveolus\nCO2\nO2\nOut\nIn\nCapillary\nWhich statement best explains why these gases are able to move in the directions shown in the diagram?\n(1) The CO2 moves out of the capillary and into the alveolus to make more room for the blood to carry O2.\n(2) The O2 is needed by the cells, so it is actively transported into the blood. The CO2, which is not needed, is \nactively transported out of the blood.\n(3) The blood coming to the lungs is low in CO2 and high in O2, so the gases each diffuse from a lower to a \nhigher concentration in this area.\n(4) The blood coming to the lungs is high in CO2 and low in O2, so the gases each diffuse from a higher to a \nlower concentration in this area.\n \nNote: The answer to question 74 should be recorded on your separate answer sheet.\n 74 During the process of chromosome replication, a genetic error occurs. As a result, a sequence of events \noccurs as described below.\nEvent A: a protein with a new sequence of amino acids is produced\nEvent B: a DNA strand with an altered base sequence is formed\nEvent C: a new inheritable trait is expressed in an organism\nEvent D: an mRNA strand with a new sequence of bases is synthesized\nThe usual order in which these events would occur is\n(1) B \u2014 D \u2014 A \u2014 C \n(3) D \u2014 A \u2014 B \u2014 C\n(2) B \u2014 D \u2014 C \u2014 A \n(4) D \u2014 C \u2014 B \u2014 A\n\n Living Environment\u2013Aug. \u201918 \n[26]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "71\u201372 Discuss how invasive species can harm an ecosystem. In your answer, be sure to: \u2022 explain one negative effect that faucet snails have on the lake ecosystem \u2022",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_71_72.png",
+      "context": "Base your answers to question 71\u201372 on the information below and on your knowledge of biology.\nSurvey Finds Invasive Snail in St. Lawrence River That Could Threaten Waterfowl\nNew research has found a larger presence of faucet snails in the Great Lakes than \npreviously recognized, including the northern parts of Lake Ontario and the St. Lawrence \nRiver. The invasive species can carry three types of intestinal parasites that can injure and \nkill waterfowl such as ducks. \u2026\n\u2026When the waterfowl eat the snails, the parasites attack internal organs, causing lesions \n[sores] and hemorrhage [uncontrolled bleeding]. Birds affected by the snail will \ufb02 y and \ndive erratically before their eventual death. The university said that the snails are about \n12 to 15 millimeters in height at full size, brown to black with a distinctive whorl of \nconcentric circles on the shell opening cover that looks like tree rings. \u2026\n\u2026Mr. Kosnicki [an ecologist] said the spread of snails, along with other invasive species, \nshows the need for increased awareness of possible contaminants coming from boats and in \nrunoff from land. \u2026\nSource: Watertown Daily Times, Monday, January 19, 2015, by Gordon Block\n  71\u201372 Discuss how invasive species can harm an ecosystem. In your answer, be sure to:\n \n\u2022 explain one negative effect that faucet snails have on the lake ecosystem   [1]\n \n\u2022 describe one human activity that can slow the spread of the faucet snail   [1]\n\n Living Environment\u2013Aug. \u201918 \n[25] \n[OVER]\nPart D\nAnswer all questions in this part.     [13]\nDirections (73\u201385): For those questions that are multiple choice, record on the separate answer sheet the \nnumber of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n \nNote: The answer to question 73 should be recorded on your separate answer sheet.\n 73 The diagram below represents one of many microscopic air sacs in a human lung. The alveolus (air sac) is \nthe place where oxygen (O2) and carbon dioxide (CO2) move into or out of the blood, as represented in the \ndiagram.\nAlveolus\nCO2\nO2\nOut\nIn\nCapillary\nWhich statement best explains why these gases are able to move in the directions shown in the diagram?\n(1) The CO2 moves out of the capillary and into the alveolus to make more room for the blood to carry O2.\n(2) The O2 is needed by the cells, so it is actively transported into the blood. The CO2, which is not needed, is \nactively transported out of the blood.\n(3) The blood coming to the lungs is low in CO2 and high in O2, so the gases each diffuse from a lower to a \nhigher concentration in this area.\n(4) The blood coming to the lungs is high in CO2 and low in O2, so the gases each diffuse from a higher to a \nlower concentration in this area.\n \nNote: The answer to question 74 should be recorded on your separate answer sheet.\n 74 During the process of chromosome replication, a genetic error occurs. As a result, a sequence of events \noccurs as described below.\nEvent A: a protein with a new sequence of amino acids is produced\nEvent B: a DNA strand with an altered base sequence is formed\nEvent C: a new inheritable trait is expressed in an organism\nEvent D: an mRNA strand with a new sequence of bases is synthesized\nThe usual order in which these events would occur is\n(1) B \u2014 D \u2014 A \u2014 C \n(3) D \u2014 A \u2014 B \u2014 C\n(2) B \u2014 D \u2014 C \u2014 A \n(4) D \u2014 C \u2014 B \u2014 A\n\n Living Environment\u2013Aug. \u201918 \n[26]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "The diagram below represents one of many microscopic air sacs in a human lung. The alveolus (air sac) is the place where oxygen (O2) and carbon dioxide (CO2) move into or out of the blood, as represented in the diagram. Alveolus CO2 O2 Out In Capillary Which statement best explains why these gases are able to move in the directions shown in the diagram?",
+      "choices": [
+        "The CO2 moves out of the capillary and into the alveolus to make more room for the blood to carry O2.",
+        "The O2 is needed by the cells, so it is actively transported into the blood. The CO2, which is not needed, is actively transported out of the blood.",
+        "The blood coming to the lungs is low in CO2 and high in O2, so the gases each diffuse from a lower to a higher concentration in this area.",
+        "The blood coming to the lungs is high in CO2 and low in O2, so the gases each diffuse from a higher to a lower concentration in this area."
+      ],
+      "image": "/images/exams/living-environment/august-2018/q73.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "During the process of chromosome replication, a genetic error occurs. As a result, a sequence of events occurs as described below. Event A: a protein with a new sequence of amino acids is produced Event B: a DNA strand with an altered base sequence is formed Event C: a new inheritable trait is expressed in an organism Event D: an mRNA strand with a new sequence of bases is synthesized The usual order in which these events would occur is",
+      "choices": [
+        "B \u2014 D \u2014 A \u2014 C",
+        "B \u2014 D \u2014 C \u2014 A",
+        "D \u2014 A \u2014 B \u2014 C",
+        "D \u2014 C \u2014 B \u2014"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "According to the tree, species B and C are more closely related to each other than to species A. Which gel electrophoresis diagram would best support this statement? Wells Species B Species A Species C Wells Species B Species A Species C ( 1 ) ( 2 ) Wells Species C Species B Species A Wells Species C Species B Species A ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of biology. \nThe evolutionary tree below represents possible relationships between several species of plants.\nA\nC\nB\nTime\n \nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "In addition to analyzing DNA, what other evidence could be used to best support the evolutionary relationship between species B and C?",
+      "choices": [
+        "Species B and C live in the same ecosystem.",
+        "Species B and C require the same amount of sunlight.",
+        "Species B and C possess many of the same enzymes.",
+        "Species B and C grow to the same maximum height as species A."
+      ],
+      "image": "/images/exams/living-environment/august-2018/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of biology. \nThe evolutionary tree below represents possible relationships between several species of plants.\nA\nC\nB\nTime\n \nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "On the diagram below, circle the dot that best represents the common ancestor of species A, B,",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of biology. \nThe evolutionary tree below represents possible relationships between several species of plants.\nA\nC\nB\nTime\n \nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Explain one way that sharp-billed ground \ufb01 nches and small tree \ufb01 nches could possibly compete with each other if they lived on the same island.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_78_79.png",
+      "context": "Base your answers to questions 78 and 79 on the information and chart below and on your knowledge of \nbiology. The chart below shows variations in the beaks of \ufb01 nches in the Galapagos Islands.\nLarge\nground \nfinch\nVegetarian\nfinch\nLarge \ntree finch\nSmall\ntree finch\nWoodpecker\nfinch\nWarbler\nfinch\nCactus\nfinch\nSharp-billed\nground finch\nSmall\nground\nfinch\nMedium\nground\nfinch\nE\nd\ng\ne\n \nc\nr\nu\ns\nh\ni\nn\ng\n \n \n \n \n \n \n \n \nB\ni\nti\nn\ng\n \nt\ni\np\ns\nMainly\nplant \nfood\nMainly\nanimal \nfood\nG\nr\na\ns\np\ni\nn\ng\n \nb\ni\nl\nl\ns\nall\nanimal\nfood\nP\nr\no\nb\ni\nn\ng\n \n \n \nP\nr\no\nb\ni\nn\ng\n \nb\ni\nl\nl\ns\nVariations in Beaks of Galapagos Islands Finches\nSource: Galapagos: A Natural History Guide\nC\nr\nu\ns\nh\ni\nn\ng\n \nb\ni\nl\nl\ns",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "A small tree \ufb01 nch and a large tree \ufb01",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_78_79.png",
+      "context": "Base your answers to questions 78 and 79 on the information and chart below and on your knowledge of \nbiology. The chart below shows variations in the beaks of \ufb01 nches in the Galapagos Islands.\nLarge\nground \nfinch\nVegetarian\nfinch\nLarge \ntree finch\nSmall\ntree finch\nWoodpecker\nfinch\nWarbler\nfinch\nCactus\nfinch\nSharp-billed\nground finch\nSmall\nground\nfinch\nMedium\nground\nfinch\nE\nd\ng\ne\n \nc\nr\nu\ns\nh\ni\nn\ng\n \n \n \n \n \n \n \n \nB\ni\nti\nn\ng\n \nt\ni\np\ns\nMainly\nplant \nfood\nMainly\nanimal \nfood\nG\nr\na\ns\np\ni\nn\ng\n \nb\ni\nl\nl\ns\nall\nanimal\nfood\nP\nr\no\nb\ni\nn\ng\n \n \n \nP\nr\no\nb\ni\nn\ng\n \nb\ni\nl\nl\ns\nVariations in Beaks of Galapagos Islands Finches\nSource: Galapagos: A Natural History Guide\nC\nr\nu\ns\nh\ni\nn\ng\n \nb\ni\nl\nl\ns",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Describe one change in beak characteristics that would most likely occur in the \ufb01 nch population after many generations if this change in seed size became permanent.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 and 81 on the information below and on your knowledge of biology.\nIn his journey to the Galapagos Islands, Charles Darwin was amazed by the variation in \nthe characteristics of plants and animals he encountered. In any habitat, food can be limited \nand the types of foods available may vary.\nOne year, there was no rain on these islands. Many plants failed to bloom and produced \nno new seeds. This left mostly large, tough seeds for the \ufb01 nches to eat.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "The different tools (such as spoons, chopsticks, or pliers) used during The Beaks of Finches laboratory activity represented variations in",
+      "choices": [
+        "feeding adaptations",
+        "seed size",
+        "\ufb01 nch migration",
+        ""
+      ],
+      "image": null,
+      "context": "Base your answers to questions 80 and 81 on the information below and on your knowledge of biology.\nIn his journey to the Galapagos Islands, Charles Darwin was amazed by the variation in \nthe characteristics of plants and animals he encountered. In any habitat, food can be limited \nand the types of foods available may vary.\nOne year, there was no rain on these islands. Many plants failed to bloom and produced \nno new seeds. This left mostly large, tough seeds for the \ufb01 nches to eat.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "During this activity, what was the purpose of \ufb01 nding the respiratory rates of the students at rest?",
+      "choices": [
+        "to determine if the students were healthy",
+        "to practice using the timer",
+        "to use as a comparison",
+        "to use as the variable"
+      ],
+      "image": "/images/exams/living-environment/august-2018/context_82_84.png",
+      "context": "Base your answers to questions 82 through 84 on the information below and on your knowledge of biology.\nRespiratory Rates\nA student completed a lab activity that demonstrated the connection between pulse \nrate, heart rate, and \ufb02 ow of blood during exercise. She left her class wondering if there is \na connection between breathing rate and exercise. With the help of her track coach, she \nconducted an investigation to try and \ufb01 nd an answer to her question.\nIn the investigation, the respiratory rates of thirty athletes were measured before any \nexercise. To measure their rates, they counted the number of times they took a breath \nin one minute. Then, they ran one lap around the track, and their respiratory rates were \ndetermined again. Finally, they ran two laps around the track and checked their respiratory \nrates one last time. All of their data were recorded, and the averages were calculated. The \ndata table shows the information obtained in this investigation.\nThe Effect of Exercise on the Respiratory \nRates of Thirty Athletes\nType of Activity\nAverage Respiratory Rates\n(breaths per minute)\nAt rest\n13\nAfter one lap\n30\nAfter two laps\n38\n \nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "State one likely hypothesis that the student was testing in this investigation.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_82_84.png",
+      "context": "Base your answers to questions 82 through 84 on the information below and on your knowledge of biology.\nRespiratory Rates\nA student completed a lab activity that demonstrated the connection between pulse \nrate, heart rate, and \ufb02 ow of blood during exercise. She left her class wondering if there is \na connection between breathing rate and exercise. With the help of her track coach, she \nconducted an investigation to try and \ufb01 nd an answer to her question.\nIn the investigation, the respiratory rates of thirty athletes were measured before any \nexercise. To measure their rates, they counted the number of times they took a breath \nin one minute. Then, they ran one lap around the track, and their respiratory rates were \ndetermined again. Finally, they ran two laps around the track and checked their respiratory \nrates one last time. All of their data were recorded, and the averages were calculated. The \ndata table shows the information obtained in this investigation.\nThe Effect of Exercise on the Respiratory \nRates of Thirty Athletes\nType of Activity\nAverage Respiratory Rates\n(breaths per minute)\nAt rest\n13\nAfter one lap\n30\nAfter two laps\n38\n \nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "When determining the respiratory rates of the students at rest, the student found that the rates ranged from 10 to 20",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/context_82_84.png",
+      "context": "Base your answers to questions 82 through 84 on the information below and on your knowledge of biology.\nRespiratory Rates\nA student completed a lab activity that demonstrated the connection between pulse \nrate, heart rate, and \ufb02 ow of blood during exercise. She left her class wondering if there is \na connection between breathing rate and exercise. With the help of her track coach, she \nconducted an investigation to try and \ufb01 nd an answer to her question.\nIn the investigation, the respiratory rates of thirty athletes were measured before any \nexercise. To measure their rates, they counted the number of times they took a breath \nin one minute. Then, they ran one lap around the track, and their respiratory rates were \ndetermined again. Finally, they ran two laps around the track and checked their respiratory \nrates one last time. All of their data were recorded, and the averages were calculated. The \ndata table shows the information obtained in this investigation.\nThe Effect of Exercise on the Respiratory \nRates of Thirty Athletes\nType of Activity\nAverage Respiratory Rates\n(breaths per minute)\nAt rest\n13\nAfter one lap\n30\nAfter two laps\n38\n \nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "The diagram below represents a container of water divided by a dialysis membrane into two areas, X and Y. X Y Dialysis membrane Starch solution was added to the water on side X. One hour later, amber-colored starch indicator solution was added to both sides. Identify the colors that could be observed at X and at Y after the addition of the starch indicator. Final color of X: Final color of Y: LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2018/q85.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

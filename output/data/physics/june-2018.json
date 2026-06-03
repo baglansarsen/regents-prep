@@ -1,0 +1,1071 @@
+{
+  "subject": "physics",
+  "session": "june-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which combination correctly pairs a vector quantity with its corresponding unit?",
+      "choices": [
+        "weight and kg",
+        "velocity and m/s",
+        "speed and m/s",
+        "acceleration and m2/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "A 12.0-kilogram cart is moving at a speed of 0.25 meter per second. After the speed of the cart is tripled, the inertia of the cart will be",
+      "choices": [
+        "unchanged",
+        "one-third as great",
+        "three times greater",
+        "nine times greater"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "While taking off from an aircraft carrier, a jet starting from rest accelerates uniformly to a final speed of 40. meters per second on a runway that is 70. meters long. What is the magnitude of the acceleration of the jet?",
+      "choices": [
+        "0.29 m/s2",
+        "0.57 m/s2",
+        "1.8 m/s2",
+        "11 m/s2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "A 6.0-kilogram cart initially traveling at 4.0 meters per second east accelerates uniformly at 0.50 meter per second squared east for 3.0 seconds. What is the speed of the cart at the end of this 3.0 second interval?",
+      "choices": [
+        "1.5 m/s",
+        "5.5 m/s",
+        "3.0 m/s",
+        "7.0 m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "A soccer ball is kicked into the air from level ground with an initial speed of 20. meters per second and returns to ground level. At which angle above the horizontal should the ball be kicked in order for the ball to travel the greatest total horizontal distance? [Neglect friction.]",
+      "choices": [
+        "15\u00b0",
+        "30.\u00b0",
+        "45\u00b0",
+        "75\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Starting from rest, a car travels 18 meters as it accelerates uniformly for 3.0 seconds. What is the magnitude of the car\u2019s acceleration?",
+      "choices": [
+        "6.0 m/s2",
+        "2.0 m/s2",
+        "3.0 m/s2",
+        "4.0 m/s2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "A ball is rolling horizontally at 3.00 meters per second as it leaves the edge of a tabletop 0.750 meter above the floor. The ball lands on the floor 0.391 second after leaving the tabletop. What is the magnitude of the ball\u2019s acceleration 0.200 second after it leaves the tabletop? [Neglect friction.]",
+      "choices": [
+        "1.96 m/s2",
+        "7.65 m/s2",
+        "9.81 m/s2",
+        "15.3 m/s2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A projectile with mass m is fired with initial horizontal velocity vx from height h above level ground. Which change would have resulted in a greater time of flight for the projectile? [Neglect friction.]",
+      "choices": [
+        "decreasing the mass to m/2",
+        "decreasing the height to h/2",
+        "increasing the initial horizontal velocity to 2vx",
+        "increasing the height to 2h"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A golf club hits a stationary 0.050-kilogram golf ball with an average force of 5.0 \u00d7 103 newtons, accelerating the ball to a speed of 44 meters per second. What is the magnitude of the impulse imparted to the ball by the golf club?",
+      "choices": [
+        "2.2 N\u2022s",
+        "880 N\u2022s",
+        "1.1 \u00d7 104 N\u2022s",
+        "2.2 \u00d7 105 N\u2022s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A tennis player\u2019s racket applies an average force of 200. newtons to a tennis ball for 0.025 second. The average force exerted on the racket by the tennis ball is",
+      "choices": [
+        "0.025 N",
+        "5.0 N",
+        "200. N",
+        "80.0 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a box sliding down an incline at constant velocity. Which arrow represents the direction of the frictional force acting on the box?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/physics/june-2018/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "written",
+      "text": "Which diagram represents the directions of the velocity, v, and acceleration, a, of a toy car as it moves in a clockwise, horizontal, circular path at a constant speed?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A charged particle is located in an electric field where the magnitude of the electric field strength is 2.0 \u00d7 103 newtons per coulomb. If the magnitude of the electrostatic force exerted on the particle is 3.0 \u00d7 10\u20133 newton, what is the charge of the particle?",
+      "choices": [
+        "1.6 \u00d7 10\u201319 C",
+        "1.5 \u00d7 10\u20136 C",
+        "6.0 C",
+        "6.7 \u00d7 105 C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The magnitude of the gravitational field strength near Earth\u2019s surface is represented by",
+      "choices": [
+        "",
+        "G",
+        "mg",
+        ""
+      ],
+      "image": "/images/exams/physics/june-2018/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "A car engine supplies 2.0 \u00d7 103 joules of energy during the 10. seconds it takes to accelerate the car along a horizontal surface. What is the average power developed by the car engine while it is accelerating?",
+      "choices": [
+        "2.0 \u00d7 101 W",
+        "2.0 \u00d7 102 W",
+        "2.0 \u00d7 103 W",
+        "2.0 \u00d7 104 W"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which forces can be either attractive or repulsive?",
+      "choices": [
+        "gravitational and magnetic",
+        "electrostatic and gravitational",
+        "magnetic and electrostatic",
+        "gravitational, magnetic, and electrostatic"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Compared to the resistivity of a 0.4-meter length of 1-millimeter-diameter copper wire at 0\u00b0C, the resistivity of a 0.8-meter length of 1-millimeter-diameter copper wire at 0\u00b0C is",
+      "choices": [
+        "one-fourth as great",
+        "one-half as great",
+        "the same",
+        "four times greater"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The work per unit charge required to move a charge between two points in an electric circuit defines electric",
+      "choices": [
+        "force",
+        "power",
+        "field strength",
+        "potential difference Gm m r 1 2 2 F m g \u0002 \u0003 \u0003 \u0002 \u0004\u0005\u0006\u0005\u0007 \u0004\u0005\b\u0005\u0007 \u0002 \u0003 \u0003 \u0002 \u0004\u0005 \u0005\u0007 \u0004\u0005 \u0005\u0007 A B C D v"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "A 2.0-meter length of copper wire is connected across a potential difference of 24 millivolts. The current through the wire is 0.40 ampere. The same copper wire at the same temperature is then connected across a potential difference of 48 millivolts. The current through the wire is",
+      "choices": [
+        "0.20 A",
+        "0.40 A",
+        "0.80 A",
+        "1.6 A"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "What is the magnitude of the gravitational force of attraction between two 0.425-kilogram soccer balls when the distance between their centers is 0.500 meter?",
+      "choices": [
+        "2.41 \u00d7 10\u221211 N",
+        "4.82 \u00d7 10\u221211 N",
+        "5.67 \u00d7 10\u221211 N",
+        "1.13 \u00d7 10\u221210 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A sound wave produced by a loudspeaker can travel through water, but not through a vacuum. In comparison, a red light wave produced by a laser can travel through",
+      "choices": [
+        "water, but not through a vacuum",
+        "a vacuum, but not through water",
+        "both water and a vacuum",
+        "neither water nor a vacuum"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "As a group of soldiers marches along a road, each soldier steps simultaneously. However, when crossing a bridge, the group does not step simultaneously in order to prevent the bridge from vibrating intensely. The phenomenon responsible for the intense vibrations is",
+      "choices": [
+        "action and reaction",
+        "conservation of momentum",
+        "inertia",
+        "resonance"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which characteristics of a light wave remain constant when the light wave travels from air into corn oil?",
+      "choices": [
+        "speed and frequency",
+        "wavelength and frequency",
+        "period and frequency",
+        "wavelength and period"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The speed of a light ray ( f = 5.09 \u00d7 1014 Hz) in corn oil is",
+      "choices": [
+        "1.47 \u00d7 108 m/s",
+        "2.04 \u00d7 108 m/s",
+        "3.00 \u00d7 108 m/s",
+        "4.41 \u00d7 108 m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The spreading out of a wave after passing through an opening in a barrier is an example of",
+      "choices": [
+        "diffraction",
+        "Doppler effect",
+        "reflection",
+        "refraction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "A microwave with a frequency of 5.0 \u00d7 1010 hertz has a period of",
+      "choices": [
+        "2.0 \u00d7 10\u221211 s",
+        "6.0 \u00d7 10\u22123 s",
+        "1.7 \u00d7 102 s",
+        "1.5 \u00d7 1019 s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "After two light waves have interfered in a vacuum, the two waves will be",
+      "choices": [
+        "changed in frequency",
+        "changed in velocity",
+        "changed in amplitude",
+        "unchanged"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "A glass rod is rubbed with silk. During this process, a positive charge is given to the glass rod by",
+      "choices": [
+        "adding electrons to the rod",
+        "adding protons to the rod",
+        "removing electrons from the rod",
+        "removing protons from the rod"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "A photon with an energy of 1.33 \u00d7 10\u221221 joule has a frequency of",
+      "choices": [
+        "5.02 \u00d7 1013 Hz",
+        "2.01 \u00d7 1012 Hz",
+        "8.82 \u00d7 1014 Hz",
+        "5.30 \u00d7 1034 Hz"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The speed of a car is increased uniformly from 11 meters per second to 19 meters per second. The average speed of the car during this interval is",
+      "choices": [
+        "0.0 m/s",
+        "15 m/s",
+        "30. m/s",
+        "4.0 m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The energy equivalent of the rest mass of an electron is",
+      "choices": [
+        "2.73 \u00d7 10\u221222 J",
+        "8.20 \u00d7 10\u221214 J",
+        "1.50 \u00d7 10\u221210 J",
+        "1.44 \u00d7 10\u22122 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "A spring has an unstretched length of 0.40 meter. The spring is stretched to a length of 0.60 meter when a 10.-newton weight is hung motionless from one end. The spring constant of this spring is",
+      "choices": [
+        "10. N/m",
+        "17 N/m",
+        "25 N/m",
+        "50. N/m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "An electric circuit contains a battery, three lamps, and an open switch, as represented in the diagram below. When the switch is open, there is an electric current in",
+      "choices": [
+        "lamp I, only",
+        "lamps II and III, only",
+        "lamps I, II, and III",
+        "none of the lamps"
+      ],
+      "image": "/images/exams/physics/june-2018/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Which diagram correctly represents an electric field?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which points on the wave diagram below are 90\u00ba out of phase with each other?",
+      "choices": [
+        "A and E",
+        "B and C",
+        "C and D",
+        "D and E A B C D E + + + + + \u2013 \u2013 \u2013 \u2013 \u2013 ( 1 ) + + + + + \u2013 \u2013 \u2013 \u2013 \u2013 ( 2 ) + ( 3 ) \u2013 ( 4 ) III II I"
+      ],
+      "image": "/images/exams/physics/june-2018/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The height of an individual step on a staircase is closest to",
+      "choices": [
+        "2.0 \u00d7 10\u22122 m",
+        "2.0 \u00d7 10\u22121 m",
+        "2.0 \u00d7 100 m",
+        "2.0 \u00d7 101 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "What is the magnitude of the electrostatic force exerted on an electron by another electron when they are 0.10 meter apart?",
+      "choices": [
+        "2.6 \u00d7 10\u221236 N",
+        "2.3 \u00d7 10\u221227 N",
+        "2.3 \u00d7 10\u221226 N",
+        "1.4 \u00d7 10\u22128 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "After a 65-newton weight has fallen freely from rest a vertical distance of 5.3 meters, the kinetic energy of the weight is",
+      "choices": [
+        "12 J",
+        "340 J",
+        "910 J",
+        "1800 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "A 0.500-kilogram cart traveling to the right on a horizontal, frictionless surface at 2.20 meters per second collides head on with a 0.800-kilogram cart moving to the left at 1.10 meters per second. What is the magnitude of the total momentum of the two-cart system after the collision?",
+      "choices": [
+        "0.22 kg\u2022m/s",
+        "0.39 kg\u2022m/s",
+        "1.98 kg\u2022m/s",
+        "4.29 kg\u2022m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "An object weighing 2.0 newtons is pushed across a horizontal, frictionless surface by a horizontal force of 4.0 newtons. The magnitude of the net force acting on the object is",
+      "choices": [
+        "0.0 N",
+        "2.0 N",
+        "8.0 N",
+        "4.0 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The ratio of the wavelength of AM radio waves traveling in a vacuum to the wavelength of FM radio waves traveling in a vacuum is approximately",
+      "choices": [
+        "1 to 1",
+        "2 to 1",
+        "102 to 1",
+        "108 to 1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "A charm quark has a charge of approximately",
+      "choices": [
+        "5.33 \u00d7 10\u221220 C",
+        "1.07 \u00d7 10\u221219 C",
+        "1.60 \u00d7 10\u221219 C",
+        "2.40 \u00d7 10\u221219 C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a 3.0-ohm resistor connected to a 12-volt battery. Meters X and Y are correctly connected in the circuit. What are the readings on the meters?",
+      "choices": [
+        "X = 12 V and Y = 0.25 A",
+        "X = 12 V and Y = 4.0 A",
+        "X = 0.25 A and Y = 12 V",
+        "X = 4.0 A and Y = 12 V"
+      ],
+      "image": "/images/exams/physics/june-2018/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "A toy airplane, flying in a horizontal, circular path, completes 10. complete circles in 30. seconds. If the radius of the plane\u2019s circular path is 4.0 meters, the average speed of the airplane is",
+      "choices": [
+        "0.13 m/s",
+        "0.84 m/s",
+        "1.3 m/s",
+        "8.4 m/s 3.0 \u03a9 12 V Y X"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Which pair of graphs represents the vertical motion of an object falling freely from rest?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/q45.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "An object is thrown straight upward. Which graph best represents the relationship between the object\u2019s kinetic energy and the height of the object above its release point? [Neglect friction.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/q46.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "written",
+      "text": "In the diagram below, X represents a particle in a spring. Which diagram represents the motion of particle X as a longitudinal wave passes through the spring toward the right? \u0004\u0005\u0006\u0005\u0007 \u0004\u0005 \u0005\u0007 \u0004\u0005\b\u0005\u0007 \u0004\u0005 \u0005\u0007 X \u0004\u0005\u0006\u0005\u0007 \u0002\u0003\u0004\u0005\u0006\u0007\u0004\b\u0002 \u0005\u0006 \u0006\u0004 \u000e\u0007 \u0004\u0005 \u0005\u0007 \u0006\u0004 \u000e\u0007 \u0002\u0003\u0004\u0005\u0006\u0007\u0004\b\u0002 \u0005\u0006 \u0004\u0005\b\u0005\u0007 \u0006\u0004 \u000e\u0007 \u0002\u0003\u0004\u0005\u0006\u0007\u0004\b\u0002 \u0005\u0006 \u0004\u0005 \u0005\u0007 \u0006\u0004 \u000e\u0007 \u0002\u0003\u0004\u0005\u0006\u0007\u0004\b\u0002 \u0005\u0006 \u0004\u0005\u0006\u0005\u0007 \u000f\u0004\u0010\u0006 \u0011\u0004\u0012\u0013\u0014\u0015\b\u0006\u0010\u0006\u0005\u0007 \u000f\u0004\u0010\u0006 \u0016\u0006\u0014\u0017\b\u0004\u0007 \u0004\u0005 \u0005\u0007 \u000f\u0004\u0010\u0006 \u000f\u0004\u0010\u0006 \u0004\u0005\b\u0005\u0007 \u000f\u0004\u0010\u0006 \u000f\u0004\u0010\u0006 \u0004\u0005 \u0005\u0007 \u000f\u0004\u0010\u0006 \u0011\u0004\u0012\u0013\u0014\u0015\b\u0006\u0010\u0006\u0005\u0007 \u000f\u0004\u0010\u0006 \u0016\u0006\u0014\u0017\b\u0004\u0007 \u0011\u0004\u0012\u0013\u0014\u0015\b\u0006\u0010\u0006\u0005\u0007 \u0016\u0006\u0014\u0017\b\u0004\u0007 \u0011\u0004\u0012\u0013\u0014\u0015\b\u0006\u0010\u0006\u0005\u0007 \u0016\u0006\u0014\u0017\b\u0004\u0007",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/q47.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "As represented in the diagram below, two wave pulses, X and Y, are traveling toward each other in a rope. Both wave pulses have an amplitude of 0.30 m. Which diagram shows the pulse produced due to the superposition of pulse X and pulse Y?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/q48.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "written",
+      "text": "The horn of a car produces a sound wave of constant frequency. The car, traveling at constant speed, approaches, passes, and then moves away from a stationary observer. Which graph best represents the frequency of this sound wave detected by the observer during the time interval in which the car approaches, passes, and moves away?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "A combination of two identical resistors connected in series has an equivalent resistance of 10. ohms. What is the equivalent resistance of the combination of these same two resistors when connected in parallel?",
+      "choices": [
+        "2.5 \u03a9",
+        "5.0 \u03a9",
+        "10. \u03a9",
+        "20. \u03a9 \u000f\u0004\u0010\u0006 \u0004\u0005\u0006\u0005\u0007 \u0018\u0019\u0012\u0006 \u001a\u0006\u001b \u0006 \u0006\u0005\b \u000f\u0004\u0010\u0006 \u0004\u0005 \u0005\u0007 \u0018\u0019\u0012\u0006 \u001a\u0006\u001b \u0006 \u0006\u0005\b \u000f\u0004\u0010\u0006 \u0004\u0005\b\u0005\u0007 \u0018\u0019\u0012\u0006 \u001a\u0006\u001b \u0006 \u0006\u0005\b \u000f\u0004\u0010\u0006 \u0004\u0005 \u0005\u0007 \u0018\u0019\u0012\u0006 \u001a\u0006\u001b \u0006 \u0006\u0005\b ( 1 ) ( 3 ) ( 4 ) ( 2 ) 0.30 m 0.60 m 0.60 m 0.30 m X Y 0.30 m 0.30 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Determine the linear scale used in the diagram.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of physics.\nThe scaled diagram below represents two forces acting concurrently at point P. The\nmagnitude of force A is 32 newtons and the magnitude of force B is 20. newtons. The angle\nbetween the directions of force A and force B is 120\u00ba.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, use a protractor and a ruler to construct a scaled vector to represent the resultant of forces A and B. Label the vector R.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of physics.\nThe scaled diagram below represents two forces acting concurrently at point P. The\nmagnitude of force A is 32 newtons and the magnitude of force B is 20. newtons. The angle\nbetween the directions of force A and force B is 120\u00ba.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Determine the magnitude of the resultant force. \u0002 \u0003 \u0004\u0005\u0006\u0002 \u0007\u0005\b \u0005\u0006 \b",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of physics.\nThe scaled diagram below represents two forces acting concurrently at point P. The\nmagnitude of force A is 32 newtons and the magnitude of force B is 20. newtons. The angle\nbetween the directions of force A and force B is 120\u00ba.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information and diagram below and on your knowledge\nof physics. \nA student pushes a box, weighing 50. newtons, 6.0 meters up an incline at a constant\nspeed by applying a force of 25 newtons parallel to the incline. The top of the incline is \n2.0 meters higher than the bottom.\n54\u201355 Calculate the total work done on the box by the student while pushing the box from the bottom to\nthe top of the incline. [Show all work, including the equation and substitution with units.]   [2]\n56 Describe what would happen to the total work done on the box by the student to push the box \n6.0 meters up the incline at constant speed if the coefficient of kinetic friction between the box and\nthe incline were increased.   [1]\n\u0011\u000f\r\u0005\u0012\n\u0013\r\u000f\u0005\u000e\n\t\u000f\r\u0005\u0012\n\u0014\u0005\u0015\u0005\t\u0013\u0005\u000e\nP.S./Physics\u2013June \u201918\n[10]\n\n57 In the diagram below, a light ray is incident on an interface between glass and air. When the light\nstrikes the glass-air interface, some of the light is reflected. On the diagram in your answer booklet,\nuse a protractor and straightedge to construct the reflected light ray.   [1]\n58\u201359 The current in a wire is 5.0 amperes. Calculate the total amount of charge, in coulombs, that travels\nthrough the wire in 36 seconds. [Show all work, including the equation and substitution with units.] [2]\n60\u201361 A spring, with a spring constant of 100. newtons per meter, possesses 2.0 joules of elastic potential\nenergy when compressed. Calculate the spring\u2019s change in length from its uncompressed length.\n[Show all work, including the equation and substitution with units.]   [2]\n62\u201363 A monochromatic ray of light (f = 5.09 \u00d7 1014 Hz) travels from air into medium X. The angle of\nincidence of the ray in air is 45.0\u00b0 and the ray\u2019s angle of refraction in medium X is 29.0\u00b0. Calculate\nthe absolute index of refraction of medium X. [Show all work, including the equation and substitution\nwith units.]   [2]\n64\u201365 An argon-ion laser emits blue-green light having a wavelength of 488 nanometers in a vacuum.\nCalculate the energy of a photon of this light. [Show all work, including the equation and substitution\nwith units.]   [2]\nAir\nNormal\nGlass\nP.S./Physics\u2013June \u201918\n[11]\n[OVER]\n\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2006 Edition Reference Tables for Physical Setting/Physics.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "54\u201355 Calculate the total work done on the box by the student while pushing the box from the bottom to the top of the incline. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information and diagram below and on your knowledge\nof physics. \nA student pushes a box, weighing 50. newtons, 6.0 meters up an incline at a constant\nspeed by applying a force of 25 newtons parallel to the incline. The top of the incline is \n2.0 meters higher than the bottom.\n54\u201355 Calculate the total work done on the box by the student while pushing the box from the bottom to\nthe top of the incline. [Show all work, including the equation and substitution with units.]   [2]\n56 Describe what would happen to the total work done on the box by the student to push the box \n6.0 meters up the incline at constant speed if the coefficient of kinetic friction between the box and\nthe incline were increased.   [1]\n\u0011\u000f\r\u0005\u0012\n\u0013\r\u000f\u0005\u000e\n\t\u000f\r\u0005\u0012\n\u0014\u0005\u0015\u0005\t\u0013\u0005\u000e\nP.S./Physics\u2013June \u201918\n[10]\n\n57 In the diagram below, a light ray is incident on an interface between glass and air. When the light\nstrikes the glass-air interface, some of the light is reflected. On the diagram in your answer booklet,\nuse a protractor and straightedge to construct the reflected light ray.   [1]\n58\u201359 The current in a wire is 5.0 amperes. Calculate the total amount of charge, in coulombs, that travels\nthrough the wire in 36 seconds. [Show all work, including the equation and substitution with units.] [2]\n60\u201361 A spring, with a spring constant of 100. newtons per meter, possesses 2.0 joules of elastic potential\nenergy when compressed. Calculate the spring\u2019s change in length from its uncompressed length.\n[Show all work, including the equation and substitution with units.]   [2]\n62\u201363 A monochromatic ray of light (f = 5.09 \u00d7 1014 Hz) travels from air into medium X. The angle of\nincidence of the ray in air is 45.0\u00b0 and the ray\u2019s angle of refraction in medium X is 29.0\u00b0. Calculate\nthe absolute index of refraction of medium X. [Show all work, including the equation and substitution\nwith units.]   [2]\n64\u201365 An argon-ion laser emits blue-green light having a wavelength of 488 nanometers in a vacuum.\nCalculate the energy of a photon of this light. [Show all work, including the equation and substitution\nwith units.]   [2]\nAir\nNormal\nGlass\nP.S./Physics\u2013June \u201918\n[11]\n[OVER]\n\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2006 Edition Reference Tables for Physical Setting/Physics.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Describe what would happen to the total work done on the box by the student to push the box 6.0 meters up the incline at constant speed if the coefficient of kinetic friction between the box and the incline were increased. \u0011\u000f \u0005\u0012 \u0013 \u000f\u0005\u000e \u000f \u0005\u0012 \u0014\u0005\u0015\u0005 \u0013\u0005\u000e",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information and diagram below and on your knowledge\nof physics. \nA student pushes a box, weighing 50. newtons, 6.0 meters up an incline at a constant\nspeed by applying a force of 25 newtons parallel to the incline. The top of the incline is \n2.0 meters higher than the bottom.\n54\u201355 Calculate the total work done on the box by the student while pushing the box from the bottom to\nthe top of the incline. [Show all work, including the equation and substitution with units.]   [2]\n56 Describe what would happen to the total work done on the box by the student to push the box \n6.0 meters up the incline at constant speed if the coefficient of kinetic friction between the box and\nthe incline were increased.   [1]\n\u0011\u000f\r\u0005\u0012\n\u0013\r\u000f\u0005\u000e\n\t\u000f\r\u0005\u0012\n\u0014\u0005\u0015\u0005\t\u0013\u0005\u000e\nP.S./Physics\u2013June \u201918\n[10]\n\n57 In the diagram below, a light ray is incident on an interface between glass and air. When the light\nstrikes the glass-air interface, some of the light is reflected. On the diagram in your answer booklet,\nuse a protractor and straightedge to construct the reflected light ray.   [1]\n58\u201359 The current in a wire is 5.0 amperes. Calculate the total amount of charge, in coulombs, that travels\nthrough the wire in 36 seconds. [Show all work, including the equation and substitution with units.] [2]\n60\u201361 A spring, with a spring constant of 100. newtons per meter, possesses 2.0 joules of elastic potential\nenergy when compressed. Calculate the spring\u2019s change in length from its uncompressed length.\n[Show all work, including the equation and substitution with units.]   [2]\n62\u201363 A monochromatic ray of light (f = 5.09 \u00d7 1014 Hz) travels from air into medium X. The angle of\nincidence of the ray in air is 45.0\u00b0 and the ray\u2019s angle of refraction in medium X is 29.0\u00b0. Calculate\nthe absolute index of refraction of medium X. [Show all work, including the equation and substitution\nwith units.]   [2]\n64\u201365 An argon-ion laser emits blue-green light having a wavelength of 488 nanometers in a vacuum.\nCalculate the energy of a photon of this light. [Show all work, including the equation and substitution\nwith units.]   [2]\nAir\nNormal\nGlass\nP.S./Physics\u2013June \u201918\n[11]\n[OVER]\n\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2006 Edition Reference Tables for Physical Setting/Physics.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "In the diagram below, a light ray is incident on an interface between glass and air. When the light strikes the glass-air interface, some of the light is reflected. On the diagram in your answer booklet, use a protractor and straightedge to construct the reflected light ray.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/q57.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "58\u201359 The current in a wire is 5.0 amperes. Calculate the total amount of charge, in coulombs, that travels through the wire in 36 seconds. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "60\u201361 A spring, with a spring constant of 100. newtons per meter, possesses 2.0 joules of elastic potential energy when compressed. Calculate the spring\u2019s change in length from its uncompressed length. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "62\u201363 A monochromatic ray of light (f = 5.09 \u00d7 1014 Hz) travels from air into medium X. The angle of incidence of the ray in air is 45.0\u00b0 and the ray\u2019s angle of refraction in medium X is 29.0\u00b0. Calculate the absolute index of refraction of medium X. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "64\u201365 An argon-ion laser emits blue-green light having a wavelength of 488 nanometers in a vacuum. Calculate the energy of a photon of this light. [Show all work, including the equation and substitution with units.] Air Normal Glass",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information and diagram below and on your knowledge\nof physics.\nAn incandescent lightbulb uses a length of thin tungsten wire as the filament (the part\nof the operating bulb that produces light).\nOne particular lightbulb has a 0.22-meter length of the tungsten wire used as its \nfilament. This tungsten wire filament has a resistance of 19 ohms at a temperature of 20\u00baC.\nThe tungsten wire filament has a resistance of 240 ohms when this bulb is operated at a\npotential difference of 120 volts.\n66\u201367 Calculate the cross-sectional area of this tungsten wire filament. [Show all work, including the\nequation and substitution with units.]   [2]\n68 Explain why the resistance of the tungsten wire filament increases when the bulb is being operated\ncompared to the resistance of the filament at 20\u00baC.   [1]\n69\u201370 Calculate the power of this lightbulb when it is being operated at a potential difference of 120 volts.\n[Show all work, including the equation and substitution with units.]   [2]\nIncandescent Lightbulb\nFilament\nP.S./Physics\u2013June \u201918\n[12]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "66\u201367 Calculate the cross-sectional area of this tungsten wire filament. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information and diagram below and on your knowledge\nof physics.\nAn incandescent lightbulb uses a length of thin tungsten wire as the filament (the part\nof the operating bulb that produces light).\nOne particular lightbulb has a 0.22-meter length of the tungsten wire used as its \nfilament. This tungsten wire filament has a resistance of 19 ohms at a temperature of 20\u00baC.\nThe tungsten wire filament has a resistance of 240 ohms when this bulb is operated at a\npotential difference of 120 volts.\n66\u201367 Calculate the cross-sectional area of this tungsten wire filament. [Show all work, including the\nequation and substitution with units.]   [2]\n68 Explain why the resistance of the tungsten wire filament increases when the bulb is being operated\ncompared to the resistance of the filament at 20\u00baC.   [1]\n69\u201370 Calculate the power of this lightbulb when it is being operated at a potential difference of 120 volts.\n[Show all work, including the equation and substitution with units.]   [2]\nIncandescent Lightbulb\nFilament\nP.S./Physics\u2013June \u201918\n[12]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Explain why the resistance of the tungsten wire filament increases when the bulb is being operated compared to the resistance of the filament at 20\u00baC.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information and diagram below and on your knowledge\nof physics.\nAn incandescent lightbulb uses a length of thin tungsten wire as the filament (the part\nof the operating bulb that produces light).\nOne particular lightbulb has a 0.22-meter length of the tungsten wire used as its \nfilament. This tungsten wire filament has a resistance of 19 ohms at a temperature of 20\u00baC.\nThe tungsten wire filament has a resistance of 240 ohms when this bulb is operated at a\npotential difference of 120 volts.\n66\u201367 Calculate the cross-sectional area of this tungsten wire filament. [Show all work, including the\nequation and substitution with units.]   [2]\n68 Explain why the resistance of the tungsten wire filament increases when the bulb is being operated\ncompared to the resistance of the filament at 20\u00baC.   [1]\n69\u201370 Calculate the power of this lightbulb when it is being operated at a potential difference of 120 volts.\n[Show all work, including the equation and substitution with units.]   [2]\nIncandescent Lightbulb\nFilament\nP.S./Physics\u2013June \u201918\n[12]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information and diagram below and on your knowledge\nof physics.\nAn incandescent lightbulb uses a length of thin tungsten wire as the filament (the part\nof the operating bulb that produces light).\nOne particular lightbulb has a 0.22-meter length of the tungsten wire used as its \nfilament. This tungsten wire filament has a resistance of 19 ohms at a temperature of 20\u00baC.\nThe tungsten wire filament has a resistance of 240 ohms when this bulb is operated at a\npotential difference of 120 volts.\n66\u201367 Calculate the cross-sectional area of this tungsten wire filament. [Show all work, including the\nequation and substitution with units.]   [2]\n68 Explain why the resistance of the tungsten wire filament increases when the bulb is being operated\ncompared to the resistance of the filament at 20\u00baC.   [1]\n69\u201370 Calculate the power of this lightbulb when it is being operated at a potential difference of 120 volts.\n[Show all work, including the equation and substitution with units.]   [2]\nIncandescent Lightbulb\nFilament\nP.S./Physics\u2013June \u201918\n[12]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "69\u201370 Calculate the power of this lightbulb when it is being operated at a potential difference of 120 volts. [Show all work, including the equation and substitution with units.] Incandescent Lightbulb Filament",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information and diagram below and on your knowledge\nof physics.\nAn incandescent lightbulb uses a length of thin tungsten wire as the filament (the part\nof the operating bulb that produces light).\nOne particular lightbulb has a 0.22-meter length of the tungsten wire used as its \nfilament. This tungsten wire filament has a resistance of 19 ohms at a temperature of 20\u00baC.\nThe tungsten wire filament has a resistance of 240 ohms when this bulb is operated at a\npotential difference of 120 volts.\n66\u201367 Calculate the cross-sectional area of this tungsten wire filament. [Show all work, including the\nequation and substitution with units.]   [2]\n68 Explain why the resistance of the tungsten wire filament increases when the bulb is being operated\ncompared to the resistance of the filament at 20\u00baC.   [1]\n69\u201370 Calculate the power of this lightbulb when it is being operated at a potential difference of 120 volts.\n[Show all work, including the equation and substitution with units.]   [2]\nIncandescent Lightbulb\nFilament\nP.S./Physics\u2013June \u201918\n[12]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information and diagram below and on your knowledge\nof physics.\nA 150-newton force, applied to a wooden crate at an angle of 30.\u00ba above the horizontal,\ncauses the crate to travel at constant velocity across a horizontal wooden floor, as \nrepresented below.\n71\u201372 Calculate the magnitude of the horizontal component of the 150-newton force. [Show all work,\nincluding the equation and substitution with units.]   [2]\n73 Determine the magnitude of the frictional force acting on the crate.   [1]\n74\u201375 Calculate the magnitude of the normal force exerted by the floor on the crate. [Show all work,\nincluding the equation and substitution with units.]   [2]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "71\u201372 Calculate the magnitude of the horizontal component of the 150-newton force. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information and diagram below and on your knowledge\nof physics.\nA 150-newton force, applied to a wooden crate at an angle of 30.\u00ba above the horizontal,\ncauses the crate to travel at constant velocity across a horizontal wooden floor, as \nrepresented below.\n71\u201372 Calculate the magnitude of the horizontal component of the 150-newton force. [Show all work,\nincluding the equation and substitution with units.]   [2]\n73 Determine the magnitude of the frictional force acting on the crate.   [1]\n74\u201375 Calculate the magnitude of the normal force exerted by the floor on the crate. [Show all work,\nincluding the equation and substitution with units.]   [2]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Determine the magnitude of the frictional force acting on the crate.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information and diagram below and on your knowledge\nof physics.\nA 150-newton force, applied to a wooden crate at an angle of 30.\u00ba above the horizontal,\ncauses the crate to travel at constant velocity across a horizontal wooden floor, as \nrepresented below.\n71\u201372 Calculate the magnitude of the horizontal component of the 150-newton force. [Show all work,\nincluding the equation and substitution with units.]   [2]\n73 Determine the magnitude of the frictional force acting on the crate.   [1]\n74\u201375 Calculate the magnitude of the normal force exerted by the floor on the crate. [Show all work,\nincluding the equation and substitution with units.]   [2]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information and diagram below and on your knowledge\nof physics.\nA 150-newton force, applied to a wooden crate at an angle of 30.\u00ba above the horizontal,\ncauses the crate to travel at constant velocity across a horizontal wooden floor, as \nrepresented below.\n71\u201372 Calculate the magnitude of the horizontal component of the 150-newton force. [Show all work,\nincluding the equation and substitution with units.]   [2]\n73 Determine the magnitude of the frictional force acting on the crate.   [1]\n74\u201375 Calculate the magnitude of the normal force exerted by the floor on the crate. [Show all work,\nincluding the equation and substitution with units.]   [2]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "74\u201375 Calculate the magnitude of the normal force exerted by the floor on the crate. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information and diagram below and on your knowledge\nof physics.\nA 150-newton force, applied to a wooden crate at an angle of 30.\u00ba above the horizontal,\ncauses the crate to travel at constant velocity across a horizontal wooden floor, as \nrepresented below.\n71\u201372 Calculate the magnitude of the horizontal component of the 150-newton force. [Show all work,\nincluding the equation and substitution with units.]   [2]\n73 Determine the magnitude of the frictional force acting on the crate.   [1]\n74\u201375 Calculate the magnitude of the normal force exerted by the floor on the crate. [Show all work,\nincluding the equation and substitution with units.]   [2]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_76_80.png",
+      "context": "Base your answers to question 76 through 80 on the information below and on your knowledge of physics.\nOn a flat, level road, a 1500-kilogram car travels around a curve having a constant radius\nof 45 meters. The centripetal acceleration of the car has a constant magnitude of 3.2 meters\nper second squared.\n76\u201377 Calculate the car\u2019s speed as it travels around the curve. [Show all work, including the equation and\nsubstitution with units.]   [2]\n78 Determine the magnitude of the centripetal force acting on the car as it travels around the curve.   [1]\n79 What force provides the centripetal force needed for the car to travel around the curve?   [1]\n80 Describe what happens to the magnitude of the centripetal force on the car as it travels around the\ncurve if the speed of the car decreases.   [1]\n\f\r\r\u000e\u000f\u0010\n\u0011\u0012\u0013\u0014\u000f\n\f\r\r\u000e\u000f\u0010\b\u0015\u0016\r\r\u0012\n\u0007\u0006\n\u0002\n\u0004\u0017\u0006\b\t\n\u0018\nP.S./Physics\u2013June \u201918\n[13]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "76\u201377 Calculate the car\u2019s speed as it travels around the curve. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_76_80.png",
+      "context": "Base your answers to question 76 through 80 on the information below and on your knowledge of physics.\nOn a flat, level road, a 1500-kilogram car travels around a curve having a constant radius\nof 45 meters. The centripetal acceleration of the car has a constant magnitude of 3.2 meters\nper second squared.\n76\u201377 Calculate the car\u2019s speed as it travels around the curve. [Show all work, including the equation and\nsubstitution with units.]   [2]\n78 Determine the magnitude of the centripetal force acting on the car as it travels around the curve.   [1]\n79 What force provides the centripetal force needed for the car to travel around the curve?   [1]\n80 Describe what happens to the magnitude of the centripetal force on the car as it travels around the\ncurve if the speed of the car decreases.   [1]\n\f\r\r\u000e\u000f\u0010\n\u0011\u0012\u0013\u0014\u000f\n\f\r\r\u000e\u000f\u0010\b\u0015\u0016\r\r\u0012\n\u0007\u0006\n\u0002\n\u0004\u0017\u0006\b\t\n\u0018\nP.S./Physics\u2013June \u201918\n[13]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Determine the magnitude of the centripetal force acting on the car as it travels around the curve.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_76_80.png",
+      "context": "Base your answers to question 76 through 80 on the information below and on your knowledge of physics.\nOn a flat, level road, a 1500-kilogram car travels around a curve having a constant radius\nof 45 meters. The centripetal acceleration of the car has a constant magnitude of 3.2 meters\nper second squared.\n76\u201377 Calculate the car\u2019s speed as it travels around the curve. [Show all work, including the equation and\nsubstitution with units.]   [2]\n78 Determine the magnitude of the centripetal force acting on the car as it travels around the curve.   [1]\n79 What force provides the centripetal force needed for the car to travel around the curve?   [1]\n80 Describe what happens to the magnitude of the centripetal force on the car as it travels around the\ncurve if the speed of the car decreases.   [1]\n\f\r\r\u000e\u000f\u0010\n\u0011\u0012\u0013\u0014\u000f\n\f\r\r\u000e\u000f\u0010\b\u0015\u0016\r\r\u0012\n\u0007\u0006\n\u0002\n\u0004\u0017\u0006\b\t\n\u0018\nP.S./Physics\u2013June \u201918\n[13]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "What force provides the centripetal force needed for the car to travel around the curve?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_76_80.png",
+      "context": "Base your answers to question 76 through 80 on the information below and on your knowledge of physics.\nOn a flat, level road, a 1500-kilogram car travels around a curve having a constant radius\nof 45 meters. The centripetal acceleration of the car has a constant magnitude of 3.2 meters\nper second squared.\n76\u201377 Calculate the car\u2019s speed as it travels around the curve. [Show all work, including the equation and\nsubstitution with units.]   [2]\n78 Determine the magnitude of the centripetal force acting on the car as it travels around the curve.   [1]\n79 What force provides the centripetal force needed for the car to travel around the curve?   [1]\n80 Describe what happens to the magnitude of the centripetal force on the car as it travels around the\ncurve if the speed of the car decreases.   [1]\n\f\r\r\u000e\u000f\u0010\n\u0011\u0012\u0013\u0014\u000f\n\f\r\r\u000e\u000f\u0010\b\u0015\u0016\r\r\u0012\n\u0007\u0006\n\u0002\n\u0004\u0017\u0006\b\t\n\u0018\nP.S./Physics\u2013June \u201918\n[13]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Describe what happens to the magnitude of the centripetal force on the car as it travels around the curve if the speed of the car decreases. \u000e\u000f\u0010 \u0011\u0012\u0013\u0014\u000f \u000e\u000f\u0010\b\u0015\u0016 \u0012 \u0007\u0006 \u0002 \u0004\u0017\u0006\b \u0018",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_76_80.png",
+      "context": "Base your answers to question 76 through 80 on the information below and on your knowledge of physics.\nOn a flat, level road, a 1500-kilogram car travels around a curve having a constant radius\nof 45 meters. The centripetal acceleration of the car has a constant magnitude of 3.2 meters\nper second squared.\n76\u201377 Calculate the car\u2019s speed as it travels around the curve. [Show all work, including the equation and\nsubstitution with units.]   [2]\n78 Determine the magnitude of the centripetal force acting on the car as it travels around the curve.   [1]\n79 What force provides the centripetal force needed for the car to travel around the curve?   [1]\n80 Describe what happens to the magnitude of the centripetal force on the car as it travels around the\ncurve if the speed of the car decreases.   [1]\n\f\r\r\u000e\u000f\u0010\n\u0011\u0012\u0013\u0014\u000f\n\f\r\r\u000e\u000f\u0010\b\u0015\u0016\r\r\u0012\n\u0007\u0006\n\u0002\n\u0004\u0017\u0006\b\t\n\u0018\nP.S./Physics\u2013June \u201918\n[13]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "On the diagram of the standing wave in your answer booklet, label one node with the letter N and one antinode with the letter A.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and diagram below and on your knowledge\nof physics.\nA musician plucks a 0.620-meter-long string on an acoustic guitar, as represented in the\ndiagram below.\nThe plucked string vibrates, producing a musical note called \u201cG.\u201d The waves traveling\nalong the vibrating string produce a standing wave with a frequency of 196 hertz.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Determine the wavelength of the standing wave on the 0.620-meter-long vibrating string.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and diagram below and on your knowledge\nof physics.\nA musician plucks a 0.620-meter-long string on an acoustic guitar, as represented in the\ndiagram below.\nThe plucked string vibrates, producing a musical note called \u201cG.\u201d The waves traveling\nalong the vibrating string produce a standing wave with a frequency of 196 hertz.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and diagram below and on your knowledge\nof physics.\nA musician plucks a 0.620-meter-long string on an acoustic guitar, as represented in the\ndiagram below.\nThe plucked string vibrates, producing a musical note called \u201cG.\u201d The waves traveling\nalong the vibrating string produce a standing wave with a frequency of 196 hertz.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "83\u201384 Calculate the speed of the wave traveling on the vibrating string. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and diagram below and on your knowledge\nof physics.\nA musician plucks a 0.620-meter-long string on an acoustic guitar, as represented in the\ndiagram below.\nThe plucked string vibrates, producing a musical note called \u201cG.\u201d The waves traveling\nalong the vibrating string produce a standing wave with a frequency of 196 hertz.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Describe what happens to the frequency when the musician shortens the vibrating portion of the string by pinching the string against the fingerboard while the string continues to vibrate. \u0010\u001b\u0017 ! \"\u001b\u0005# \" \u0002 \u0014\"\u001a#\u0019 $\u0017\u0002 \u0018 \u000f\u0011 \u0005\u0012 %\"\u001a# \u0019\u0005\u0003\"$ \u0002 \"\u001a#\u0005! \"\u001a# PS/PHYSICS PS/PHYSICS Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/physics/june-2018/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and diagram below and on your knowledge\nof physics.\nA musician plucks a 0.620-meter-long string on an acoustic guitar, as represented in the\ndiagram below.\nThe plucked string vibrates, producing a musical note called \u201cG.\u201d The waves traveling\nalong the vibrating string produce a standing wave with a frequency of 196 hertz.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -114,8 +114,7 @@ export default {
       topic: 'Meteorology',
       correct: 3,
       explanation: 'A station model for overcast skies shows a completely filled circle (100% cloud cover). The present weather symbol for drizzle is a comma or dot pattern. Visibility of 0.25 miles is encoded as a fraction.',
-      diveDeep: 'Weather station models use standardized symbols to encode many weather variables in a compact format. Cloud cover is shown by the central circle: empty = clear, half-filled = partly cloudy, fully filled = overcast, circle with X = sky obscured. Present weather symbols include specific codes for different precipitation types: rain (R), drizzle (,), snow (*), freezing rain (↯), thunderstorm (electrical bolt). Visibility is given in miles or fractions of miles. The model also encodes temperature, dewpoint, pressure, wind speed (barbs), wind direction, and pressure tendency. The Reference Tables include a complete station model symbol key. Practice reading these symbols until they are automatic for Regents success.',
-    },
+      diveDeep: 'Weather station models use standardized symbols to encode many weather variables in a compact format. Cloud cover is shown by the central circle: empty = clear, half-filled = partly cloudy, fully filled = overcast, circle with X = sky obscured. Present weather symbols include specific codes for different precipitation types: rain (R), drizzle (,), snow (*), freezing rain (↯), thunderstorm (electrical bolt). Visibility is given in miles or fractions of miles. The model also encodes temperature, dewpoint, pressure, wind speed (barbs), wind direction, and pressure tendency. The Reference Tables include a complete station model symbol key. Practice reading these symbols until they are automatic for Regents success.', image: '/images/exams/es-january-2026/q9.png' },
     {
       number: 10,
       part: 'A',
@@ -366,8 +365,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'Limestone (calcite) dissolves in slightly acidic water. Rainwater absorbs CO₂ from the atmosphere and soil to form carbonic acid (H₂CO₃), which reacts with calcite and gradually dissolves the rock, forming caves and karst topography.',
-      diveDeep: 'The chemical reaction: CaCO₃ + H₂CO₃ → Ca²⁺ + 2HCO₃⁻ describes calcite dissolution by carbonic acid. This process, called carbonation, creates karst landscapes with sinkholes, caves, disappearing streams, and spring-fed rivers. Famous cave systems (Mammoth Cave, Carlsbad Caverns) formed this way. Inside caves, dissolved calcium carbonate recrystallizes when water drips and CO₂ escapes, forming stalactites (hang from ceiling — "tites cling tight") and stalagmites (grow from floor — "mites might reach the ceiling"). The rate of dissolution increases in warmer, more CO₂-rich environments, which is why tropical regions often have extensive karst. New York State has some karst areas, particularly in Schoharie County where limestone underlies the surface.',
-    },
+      diveDeep: 'The chemical reaction: CaCO₃ + H₂CO₃ → Ca²⁺ + 2HCO₃⁻ describes calcite dissolution by carbonic acid. This process, called carbonation, creates karst landscapes with sinkholes, caves, disappearing streams, and spring-fed rivers. Famous cave systems (Mammoth Cave, Carlsbad Caverns) formed this way. Inside caves, dissolved calcium carbonate recrystallizes when water drips and CO₂ escapes, forming stalactites (hang from ceiling — "tites cling tight") and stalagmites (grow from floor — "mites might reach the ceiling"). The rate of dissolution increases in warmer, more CO₂-rich environments, which is why tropical regions often have extensive karst. New York State has some karst areas, particularly in Schoharie County where limestone underlies the surface.', image: '/images/exams/es-january-2026/q30.png' },
     {
       number: 31,
       part: 'A',
@@ -381,8 +379,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'Coarse-grained sample A cooled slowly underground from magma (intrusive); fine-grained sample B cooled quickly at the surface from lava (extrusive). Crystal size reflects cooling rate, which reflects the location of cooling.',
-      diveDeep: 'The terms magma (underground molten rock) and lava (magma that reaches the surface) refer to the same material in different locations. Intrusive (plutonic) igneous rocks cool slowly deep underground → coarse-grained (granite, gabbro, diorite). Extrusive (volcanic) igneous rocks cool quickly at the surface → fine-grained (rhyolite, basalt, andesite) or glassy (obsidian). Both coarse and fine-grained igneous rocks can have the same chemical composition — what differs is texture (crystal size), not composition. For example, granite and rhyolite are chemically similar (high silica, felsic) but granite has large crystals (intrusive) and rhyolite has tiny crystals (extrusive). This is the foundation of the igneous rock identification section in the Reference Tables.',
-    },
+      diveDeep: 'The terms magma (underground molten rock) and lava (magma that reaches the surface) refer to the same material in different locations. Intrusive (plutonic) igneous rocks cool slowly deep underground → coarse-grained (granite, gabbro, diorite). Extrusive (volcanic) igneous rocks cool quickly at the surface → fine-grained (rhyolite, basalt, andesite) or glassy (obsidian). Both coarse and fine-grained igneous rocks can have the same chemical composition — what differs is texture (crystal size), not composition. For example, granite and rhyolite are chemically similar (high silica, felsic) but granite has large crystals (intrusive) and rhyolite has tiny crystals (extrusive). This is the foundation of the igneous rock identification section in the Reference Tables.', image: '/images/exams/es-january-2026/q31.png' },
     {
       number: 32,
       part: 'A',
@@ -396,8 +393,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'Contour plowing creates rows that run horizontally across a slope, creating small ridges that intercept runoff and slow water flow, giving it time to infiltrate rather than erode the soil.',
-      diveDeep: 'Soil erosion by water (runoff) is accelerated by: steep slopes, lack of vegetation, heavy rainfall, and disturbed soil. Conservation practices that reduce erosion include: contour plowing (rows perpendicular to slope reduce runoff velocity), terracing (flat steps on hillsides), strip cropping (alternating crops reduce runoff), no-till farming (leaving crop residue on the surface), windbreaks (trees reduce wind erosion), and cover crops (vegetation holds soil between seasons). Plowing up and down a slope creates channels that concentrate and accelerate runoff. Vegetation is critically important — roots physically bind soil, and leaf cover intercepts raindrops (preventing splash erosion). Soil formation requires thousands of years, making conservation essential.',
-    },
+      diveDeep: 'Soil erosion by water (runoff) is accelerated by: steep slopes, lack of vegetation, heavy rainfall, and disturbed soil. Conservation practices that reduce erosion include: contour plowing (rows perpendicular to slope reduce runoff velocity), terracing (flat steps on hillsides), strip cropping (alternating crops reduce runoff), no-till farming (leaving crop residue on the surface), windbreaks (trees reduce wind erosion), and cover crops (vegetation holds soil between seasons). Plowing up and down a slope creates channels that concentrate and accelerate runoff. Vegetation is critically important — roots physically bind soil, and leaf cover intercepts raindrops (preventing splash erosion). Soil formation requires thousands of years, making conservation essential.', image: '/images/exams/es-january-2026/q32.png' },
     {
       number: 33,
       part: 'A',
@@ -406,8 +402,7 @@ export default {
       topic: 'Maps',
       correct: 1,
       explanation: 'Gradient = elevation change / horizontal distance = 200 m / 40 km = 5 m/km. This is a straightforward division calculation using the gradient formula from the Reference Tables.',
-      diveDeep: 'Stream gradient (slope) is calculated as: Gradient = change in elevation (m or ft) / horizontal distance (km or miles). This formula appears in the Reference Tables. Higher gradient means faster-flowing stream, which can erode more and carry larger particles. Near the headwaters, streams typically have high gradient and erode actively; near the mouth, gradient is low and deposition dominates. Contour map problems often require: (1) determining elevation change between two points using contour lines; (2) measuring horizontal distance using the map scale; (3) calculating gradient. Units must be consistent — if elevation is in meters and distance in kilometers, the answer is in m/km. Converting to the same units before dividing is essential.',
-    },
+      diveDeep: 'Stream gradient (slope) is calculated as: Gradient = change in elevation (m or ft) / horizontal distance (km or miles). This formula appears in the Reference Tables. Higher gradient means faster-flowing stream, which can erode more and carry larger particles. Near the headwaters, streams typically have high gradient and erode actively; near the mouth, gradient is low and deposition dominates. Contour map problems often require: (1) determining elevation change between two points using contour lines; (2) measuring horizontal distance using the map scale; (3) calculating gradient. Units must be consistent — if elevation is in meters and distance in kilometers, the answer is in m/km. Converting to the same units before dividing is essential.', image: '/images/exams/es-january-2026/q33.png' },
     {
       number: 34,
       part: 'A',
@@ -421,8 +416,7 @@ export default {
       topic: 'Climate',
       correct: 1,
       explanation: 'Coral fossils require warm tropical water to form. Finding coral fossils in present-day arctic regions indicates those regions were once in a tropical or subtropical climate — direct evidence of past climate change.',
-      diveDeep: 'Paleoclimate evidence comes from many sources: fossil organisms (coral, fern fossils in Antarctica), sedimentary features (tillite — ancient glacial deposits — in tropical regions; evaporites indicating hot dry conditions), oxygen isotope ratios in ice cores and deep-sea sediments, tree rings (dendrochronology), pollen records in lake sediments, and shoreline features at different elevations. Coral fossils in the Arctic indicate not just climate change but also plate tectonic movement — those regions were once at tropical latitudes. The Reference Tables\' "Geologic History of New York State" documents climate changes (warm shallow seas, glaciations) throughout New York\'s geologic past. Multiple lines of evidence must be considered when reconstructing past climates.',
-    },
+      diveDeep: 'Paleoclimate evidence comes from many sources: fossil organisms (coral, fern fossils in Antarctica), sedimentary features (tillite — ancient glacial deposits — in tropical regions; evaporites indicating hot dry conditions), oxygen isotope ratios in ice cores and deep-sea sediments, tree rings (dendrochronology), pollen records in lake sediments, and shoreline features at different elevations. Coral fossils in the Arctic indicate not just climate change but also plate tectonic movement — those regions were once at tropical latitudes. The Reference Tables\' "Geologic History of New York State" documents climate changes (warm shallow seas, glaciations) throughout New York\'s geologic past. Multiple lines of evidence must be considered when reconstructing past climates.', image: '/images/exams/es-january-2026/q34.png' },
     {
       number: 35,
       part: 'A',
@@ -431,8 +425,7 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       explanation: 'At the summer solstice, the Sun is directly overhead at 23.5°N (Tropic of Cancer). The noon Sun altitude = 90° - (latitude - 23.5°) for the Northern Hemisphere on that date. Solving: 71.5° = 90° - (lat - 23.5°), giving latitude = 42°N.',
-      diveDeep: 'The altitude of the noon Sun depends on latitude and season. The general formula: noon Sun altitude = 90° - zenith angle, where zenith angle = |observer latitude - Sun\'s declination|. On the summer solstice, the Sun\'s declination is +23.5° (directly overhead at the Tropic of Cancer). For an observer at 42°N (Albany): noon altitude = 90° - (42° - 23.5°) = 90° - 18.5° = 71.5°. This confirms the answer. The opposite calculation (finding latitude from sun altitude and date) is equally important. On the equinoxes (declination = 0°), the formula simplifies to: altitude = 90° - latitude. The Reference Tables show that the Sun\'s declination ranges from +23.5° (summer solstice) to -23.5° (winter solstice).',
-    },
+      diveDeep: 'The altitude of the noon Sun depends on latitude and season. The general formula: noon Sun altitude = 90° - zenith angle, where zenith angle = |observer latitude - Sun\'s declination|. On the summer solstice, the Sun\'s declination is +23.5° (directly overhead at the Tropic of Cancer). For an observer at 42°N (Albany): noon altitude = 90° - (42° - 23.5°) = 90° - 18.5° = 71.5°. This confirms the answer. The opposite calculation (finding latitude from sun altitude and date) is equally important. On the equinoxes (declination = 0°), the formula simplifies to: altitude = 90° - latitude. The Reference Tables show that the Sun\'s declination ranges from +23.5° (summer solstice) to -23.5° (winter solstice).', image: '/images/exams/es-january-2026/q35.png' },
     // Part B-1
     {
       number: 36,
@@ -443,8 +436,7 @@ export default {
       topic: 'Geology',
       correct: 3,
       explanation: 'The inner core is the hottest layer (~5000–6000°C) and is solid despite temperatures high enough to melt iron, because the extreme pressure (~360 GPa) at Earth\'s center forces the iron and nickel to remain in a solid crystalline state.',
-      diveDeep: 'Earth\'s interior temperature increases with depth (geothermal gradient), reaching about 5000–6000°C at the center — comparable to the Sun\'s surface temperature. The outer core (liquid iron-nickel) exists between 2900–5100 km. Below 5100 km, pressure becomes so extreme that even at these temperatures the metal solidifies — the inner core is a solid iron-nickel sphere about the size of the Moon. Evidence: the inner core reflects certain seismic waves differently than the outer core, including the observation of inner core anisotropy (seismic waves travel faster along Earth\'s rotation axis). The inner core may also be slowly growing as the outer core crystallizes, releasing latent heat that drives some outer core convection.',
-    },
+      diveDeep: 'Earth\'s interior temperature increases with depth (geothermal gradient), reaching about 5000–6000°C at the center — comparable to the Sun\'s surface temperature. The outer core (liquid iron-nickel) exists between 2900–5100 km. Below 5100 km, pressure becomes so extreme that even at these temperatures the metal solidifies — the inner core is a solid iron-nickel sphere about the size of the Moon. Evidence: the inner core reflects certain seismic waves differently than the outer core, including the observation of inner core anisotropy (seismic waves travel faster along Earth\'s rotation axis). The inner core may also be slowly growing as the outer core crystallizes, releasing latent heat that drives some outer core convection.', image: '/images/exams/es-january-2026/context_36_38.png' },
     {
       number: 37,
       part: 'B-1',
@@ -459,8 +451,7 @@ export default {
       topic: 'Meteorology',
       correct: 0,
       explanation: 'Cold front passage is characterized by: a sharp temperature drop (cold air replaces warm), a pressure rise (cold high pressure follows), a wind direction shift (typically from SW to NW), and clearing skies after the front passes.',
-      diveDeep: 'Cold front weather sequence: before the front — warm, humid, southwest winds, falling pressure, cumulus or cumulonimbus clouds developing; at the front — brief heavy precipitation (sometimes thunderstorms), squall line possible; after the front — temperature drops sharply, pressure rises, winds shift to northwest, skies clear and humidity drops. Cold fronts move faster than warm fronts (~35 km/h vs ~25 km/h), so the weather changes more abruptly. Cold fronts are shown on weather maps with blue lines bearing triangular points (pointing in direction of movement). The contrast between warm and cold air masses determines front intensity — a strong polar front can drop temperatures 10–20°C in minutes as it passes. This sequence is a classic Regents weather passage question.',
-    },
+      diveDeep: 'Cold front weather sequence: before the front — warm, humid, southwest winds, falling pressure, cumulus or cumulonimbus clouds developing; at the front — brief heavy precipitation (sometimes thunderstorms), squall line possible; after the front — temperature drops sharply, pressure rises, winds shift to northwest, skies clear and humidity drops. Cold fronts move faster than warm fronts (~35 km/h vs ~25 km/h), so the weather changes more abruptly. Cold fronts are shown on weather maps with blue lines bearing triangular points (pointing in direction of movement). The contrast between warm and cold air masses determines front intensity — a strong polar front can drop temperatures 10–20°C in minutes as it passes. This sequence is a classic Regents weather passage question.', image: '/images/exams/es-january-2026/context_36_38.png' },
     {
       number: 38,
       part: 'B-1',
@@ -475,8 +466,7 @@ export default {
       topic: 'Plate Tectonics',
       correct: 1,
       explanation: 'As the oceanic plate subducts and heats up, water and other volatiles are driven out of the hydrated oceanic crust into the overlying mantle wedge. These volatiles lower the melting point of the mantle rock, generating magma that rises through the continental plate to form a volcanic arc.',
-      diveDeep: 'This is the subduction zone volcanic arc mechanism, which creates mountain ranges like the Cascades (western United States), the Andes (South America), and the Japanese island arc. The key concept is flux melting: water (and CO₂) released from the subducting slab at depths of 80–150 km lowers the melting point of the overlying mantle wedge peridotite, causing partial melting. The resulting magma (intermediate in composition — andesite) rises through the crust to erupt at the surface. The Reference Tables show subduction zone cross-sections. Notable example: Mount St. Helens and the Cascade volcanoes are products of the Juan de Fuca Plate subducting beneath North America. The volcanoes are typically located about 100–200 km inland from the trench.',
-    },
+      diveDeep: 'This is the subduction zone volcanic arc mechanism, which creates mountain ranges like the Cascades (western United States), the Andes (South America), and the Japanese island arc. The key concept is flux melting: water (and CO₂) released from the subducting slab at depths of 80–150 km lowers the melting point of the overlying mantle wedge peridotite, causing partial melting. The resulting magma (intermediate in composition — andesite) rises through the crust to erupt at the surface. The Reference Tables show subduction zone cross-sections. Notable example: Mount St. Helens and the Cascade volcanoes are products of the Juan de Fuca Plate subducting beneath North America. The volcanoes are typically located about 100–200 km inland from the trench.', image: '/images/exams/es-january-2026/context_36_38.png' },
     {
       number: 39,
       part: 'B-1',
@@ -486,8 +476,7 @@ export default {
       topic: 'Geology',
       correct: 3,
       explanation: 'In still water, larger and denser particles settle faster than smaller ones (Stokes\' Law). Gravel (largest particles) settles first, followed by sand, silt, and finally clay (which may remain suspended for days).',
-      diveDeep: 'Settling velocity depends on particle size, density, and shape. Stokes\' Law: settling velocity ∝ r² (radius squared) for small spherical particles in slow flow. This means doubling particle size quadruples settling rate. In natural water bodies, this creates graded bedding — a sedimentary structure where particle size decreases upward within a single layer, from gravel at the bottom to clay at the top. This forms when a sudden influx of sediment (like a turbidity current) rapidly deposits particles that settle at different rates. Turbidites are ancient graded beds found on ocean floors. The Reference Tables include a particle size chart showing the size ranges for clay, silt, sand, granule, pebble, cobble, and boulder.',
-    },
+      diveDeep: 'Settling velocity depends on particle size, density, and shape. Stokes\' Law: settling velocity ∝ r² (radius squared) for small spherical particles in slow flow. This means doubling particle size quadruples settling rate. In natural water bodies, this creates graded bedding — a sedimentary structure where particle size decreases upward within a single layer, from gravel at the bottom to clay at the top. This forms when a sudden influx of sediment (like a turbidity current) rapidly deposits particles that settle at different rates. Turbidites are ancient graded beds found on ocean floors. The Reference Tables include a particle size chart showing the size ranges for clay, silt, sand, granule, pebble, cobble, and boulder.', image: '/images/exams/es-january-2026/context_39_42.png' },
     {
       number: 40,
       part: 'B-1',
@@ -502,8 +491,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'When a river maintains its course through rising mountains, it is an "antecedent stream" — the river predates the uplift and continued cutting downward as the land rose around it, creating a water gap through the mountains.',
-      diveDeep: 'Antecedent streams cut through mountain ranges because the river was there first and continued eroding downward as the land slowly uplifted. This creates dramatic water gaps — deep valleys cutting through ridges. The Delaware Water Gap in New Jersey/Pennsylvania is a classic example. The Mohawk Valley is a major corridor through what would otherwise be a mountain barrier, which is why it became an important historical transportation route (Erie Canal). From a geologic perspective, the valley\'s existence indicates the river was established before the Adirondacks reached their current elevation. Understanding landscape development requires considering the relative timing of fluvial erosion and tectonic uplift — both ongoing processes operating at different rates.',
-    },
+      diveDeep: 'Antecedent streams cut through mountain ranges because the river was there first and continued eroding downward as the land slowly uplifted. This creates dramatic water gaps — deep valleys cutting through ridges. The Delaware Water Gap in New Jersey/Pennsylvania is a classic example. The Mohawk Valley is a major corridor through what would otherwise be a mountain barrier, which is why it became an important historical transportation route (Erie Canal). From a geologic perspective, the valley\'s existence indicates the river was established before the Adirondacks reached their current elevation. Understanding landscape development requires considering the relative timing of fluvial erosion and tectonic uplift — both ongoing processes operating at different rates.', image: '/images/exams/es-january-2026/context_39_42.png' },
     {
       number: 41,
       part: 'B-1',
@@ -513,8 +501,7 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       explanation: 'Earth absorbs solar radiation (primarily visible light) and re-radiates it as longer-wavelength infrared (heat) radiation because Earth\'s surface is much cooler than the Sun and emits radiation at longer wavelengths corresponding to its lower temperature.',
-      diveDeep: 'Wien\'s Displacement Law states that hotter objects emit radiation at shorter wavelengths. The Sun (surface ~5500°C) peaks in visible light. Earth\'s surface (~15°C average) emits much longer wavelengths — infrared radiation. This difference in wavelength is crucial for the greenhouse effect: the atmosphere is largely transparent to incoming short-wave solar radiation but absorbs and re-emits outgoing long-wave infrared radiation. Greenhouse gases (H₂O, CO₂, CH₄) are much better at absorbing infrared than visible light — this is why they trap heat. The energy balance: incoming solar (short-wave) must equal outgoing infrared (long-wave) for Earth\'s temperature to remain stable. Increasing greenhouse gases disrupts this balance, causing warming.',
-    },
+      diveDeep: 'Wien\'s Displacement Law states that hotter objects emit radiation at shorter wavelengths. The Sun (surface ~5500°C) peaks in visible light. Earth\'s surface (~15°C average) emits much longer wavelengths — infrared radiation. This difference in wavelength is crucial for the greenhouse effect: the atmosphere is largely transparent to incoming short-wave solar radiation but absorbs and re-emits outgoing long-wave infrared radiation. Greenhouse gases (H₂O, CO₂, CH₄) are much better at absorbing infrared than visible light — this is why they trap heat. The energy balance: incoming solar (short-wave) must equal outgoing infrared (long-wave) for Earth\'s temperature to remain stable. Increasing greenhouse gases disrupts this balance, causing warming.', image: '/images/exams/es-january-2026/context_39_42.png' },
     {
       number: 42,
       part: 'B-1',
@@ -529,8 +516,7 @@ export default {
       topic: 'Astronomy',
       correct: 1,
       explanation: 'All five moons show the pattern: as orbital radius increases, orbital period increases. This is consistent with Kepler\'s Third Law (T² ∝ a³) which applies to all orbiting bodies, including moons around planets.',
-      diveDeep: 'Kepler\'s Third Law (Harmonic Law) states T² ∝ a³, where T is the orbital period and a is the semi-major axis of the orbit. This means a moon at 4 times the orbital radius of another will have a period 8 times longer (since 4³ = 64 = 8²). This law applies universally to orbital mechanics — planets around the Sun, moons around planets, and artificial satellites. The pattern is clearly visible in Jupiter\'s Galilean moons: Io (closest, shortest period) through Callisto (farthest, longest period). Newton later explained WHY Kepler\'s laws work: gravity decreases with distance, so distant moons orbit more slowly. The Reference Tables list planetary data including orbital radii and periods, making such calculations possible.',
-    },
+      diveDeep: 'Kepler\'s Third Law (Harmonic Law) states T² ∝ a³, where T is the orbital period and a is the semi-major axis of the orbit. This means a moon at 4 times the orbital radius of another will have a period 8 times longer (since 4³ = 64 = 8²). This law applies universally to orbital mechanics — planets around the Sun, moons around planets, and artificial satellites. The pattern is clearly visible in Jupiter\'s Galilean moons: Io (closest, shortest period) through Callisto (farthest, longest period). Newton later explained WHY Kepler\'s laws work: gravity decreases with distance, so distant moons orbit more slowly. The Reference Tables list planetary data including orbital radii and periods, making such calculations possible.', image: '/images/exams/es-january-2026/context_39_42.png' },
     {
       number: 43,
       part: 'B-1',
@@ -545,8 +531,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'During crystallization (a phase change from liquid to solid), latent heat is released — this heat temporarily maintains the temperature at a constant level, creating a plateau on the cooling curve until all liquid has solidified.',
-      diveDeep: 'Phase changes involve latent heat — energy exchanged at constant temperature. When water freezes, it releases 334 J/g; when it evaporates, it absorbs 2260 J/g (from the Reference Tables). Similarly, when magma crystallizes, minerals release latent heat of crystallization, temporarily halting the temperature drop. This creates a plateau on cooling curves. The specific crystallization temperature and sequence depends on mineral composition — Bowen\'s Reaction Series describes the order in which minerals crystallize from cooling basaltic magma: first olivine and calcium-rich feldspar (high temperature), then progressively to sodium-rich feldspar and quartz (lower temperature). This explains the mineral assemblages found in different igneous rock types.',
-    },
+      diveDeep: 'Phase changes involve latent heat — energy exchanged at constant temperature. When water freezes, it releases 334 J/g; when it evaporates, it absorbs 2260 J/g (from the Reference Tables). Similarly, when magma crystallizes, minerals release latent heat of crystallization, temporarily halting the temperature drop. This creates a plateau on cooling curves. The specific crystallization temperature and sequence depends on mineral composition — Bowen\'s Reaction Series describes the order in which minerals crystallize from cooling basaltic magma: first olivine and calcium-rich feldspar (high temperature), then progressively to sodium-rich feldspar and quartz (lower temperature). This explains the mineral assemblages found in different igneous rock types.', image: '/images/exams/es-january-2026/context_43_44.png' },
     {
       number: 44,
       part: 'B-1',
@@ -556,8 +541,7 @@ export default {
       topic: 'Maps',
       correct: 2,
       explanation: 'Gradient = elevation change / horizontal distance = (80 m - 30 m) / 5 km = 50 m / 5 km = 10 m/km.',
-      diveDeep: 'The gradient formula from the Reference Tables: Gradient = change in field value / distance. For topographic maps, this is elevation change in meters divided by horizontal distance in kilometers, giving units of m/km. To avoid errors: (1) subtract the lower elevation from the higher to get a positive change; (2) measure or use the given horizontal distance along the surface (map distance × map scale); (3) keep units consistent. Steeper gradients mean faster stream flow, more erosion, and steeper slopes visible on the map (closer contour lines). This calculation is one of the most frequently tested quantitative skills on the Earth Science Regents. Always check units in your answer.',
-    },
+      diveDeep: 'The gradient formula from the Reference Tables: Gradient = change in field value / distance. For topographic maps, this is elevation change in meters divided by horizontal distance in kilometers, giving units of m/km. To avoid errors: (1) subtract the lower elevation from the higher to get a positive change; (2) measure or use the given horizontal distance along the surface (map distance × map scale); (3) keep units consistent. Steeper gradients mean faster stream flow, more erosion, and steeper slopes visible on the map (closer contour lines). This calculation is one of the most frequently tested quantitative skills on the Earth Science Regents. Always check units in your answer.', image: '/images/exams/es-january-2026/context_43_44.png' },
     {
       number: 45,
       part: 'B-1',
@@ -572,8 +556,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'Clay particles are extremely small, giving them a very low settling velocity. They remain suspended in the water column and are carried far offshore by the river\'s current before they slowly settle to the seafloor.',
-      diveDeep: 'The sorting of sediment by particle size in a delta (or wherever stream velocity decreases) follows a predictable pattern: as a river slows where it meets the sea, it loses energy and deposits sediment from largest (heaviest) to smallest (lightest). Gravel and sand drop near the river mouth; silt is carried a bit farther; clay stays suspended and is carried far offshore before settling. This creates lateral sorting by grain size from shore outward. Vertical sorting also occurs in a single depositional event (turbidity current → graded bedding). Fine clay particles can also be carried by ocean currents globally and accumulate in deep-sea sediments (pelagic clay). The Reference Tables show sediment grain sizes and their names.',
-    },
+      diveDeep: 'The sorting of sediment by particle size in a delta (or wherever stream velocity decreases) follows a predictable pattern: as a river slows where it meets the sea, it loses energy and deposits sediment from largest (heaviest) to smallest (lightest). Gravel and sand drop near the river mouth; silt is carried a bit farther; clay stays suspended and is carried far offshore before settling. This creates lateral sorting by grain size from shore outward. Vertical sorting also occurs in a single depositional event (turbidity current → graded bedding). Fine clay particles can also be carried by ocean currents globally and accumulate in deep-sea sediments (pelagic clay). The Reference Tables show sediment grain sizes and their names.', image: '/images/exams/es-january-2026/context_45_47.png' },
     {
       number: 46,
       part: 'B-1',
@@ -588,8 +571,7 @@ export default {
       topic: 'Climate',
       correct: 1,
       explanation: 'Water molecules containing heavier oxygen-18 evaporate less readily and precipitate out first. During cold periods, less O-18 reaches polar regions, giving a lower O-18/O-16 ratio in the ice — providing a temperature proxy for past climates.',
-      diveDeep: 'Ice cores are one of paleoclimatology\'s most powerful tools. The oxygen isotope ratio (18O/16O, expressed as delta 18O) in ice reflects the temperature at which precipitation formed: cold periods → lighter molecules (16O) dominate ice → lower delta 18O; warm periods → more 18O reaches poles → higher delta 18O. Air bubbles trapped in ice also preserve ancient atmospheric samples, allowing direct measurement of past CO₂ and CH₄ concentrations. Greenland ice cores extend back ~120,000 years; Antarctic cores go back ~800,000 years. These records show clear glacial-interglacial cycles corresponding to Milankovitch orbital cycles (eccentricity, obliquity, precession) that drive ice ages. Ice cores also record volcanic eruptions (sulfate spikes) and human industrial pollution.',
-    },
+      diveDeep: 'Ice cores are one of paleoclimatology\'s most powerful tools. The oxygen isotope ratio (18O/16O, expressed as delta 18O) in ice reflects the temperature at which precipitation formed: cold periods → lighter molecules (16O) dominate ice → lower delta 18O; warm periods → more 18O reaches poles → higher delta 18O. Air bubbles trapped in ice also preserve ancient atmospheric samples, allowing direct measurement of past CO₂ and CH₄ concentrations. Greenland ice cores extend back ~120,000 years; Antarctic cores go back ~800,000 years. These records show clear glacial-interglacial cycles corresponding to Milankovitch orbital cycles (eccentricity, obliquity, precession) that drive ice ages. Ice cores also record volcanic eruptions (sulfate spikes) and human industrial pollution.', image: '/images/exams/es-january-2026/context_45_47.png' },
     {
       number: 47,
       part: 'B-1',
@@ -599,8 +581,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'Lithification is the process of converting loose sediment into sedimentary rock through compaction and cementation — this is represented by Arrow B, which goes from sediment to sedimentary rock.',
-      diveDeep: 'The rock cycle shows how rocks are continuously transformed between three major types. Lithification (Arrow B) involves two processes: compaction (weight of overlying sediment squeezes water out and presses particles together) and cementation (minerals dissolved in groundwater, primarily calcite, quartz, or iron oxides, precipitate in pore spaces and bind particles). Arrow A (igneous → sediment) represents weathering and erosion. Arrow C (sedimentary → metamorphic) represents burial, heat, and pressure. Arrow D (metamorphic → magma) represents extreme heat causing melting. Arrow E (magma → igneous) represents cooling and crystallization. Arrow F (any rock → magma) represents melting/anatexis. Understanding all rock cycle pathways and the processes along each arrow is essential for the Regents.',
-    },
+      diveDeep: 'The rock cycle shows how rocks are continuously transformed between three major types. Lithification (Arrow B) involves two processes: compaction (weight of overlying sediment squeezes water out and presses particles together) and cementation (minerals dissolved in groundwater, primarily calcite, quartz, or iron oxides, precipitate in pore spaces and bind particles). Arrow A (igneous → sediment) represents weathering and erosion. Arrow C (sedimentary → metamorphic) represents burial, heat, and pressure. Arrow D (metamorphic → magma) represents extreme heat causing melting. Arrow E (magma → igneous) represents cooling and crystallization. Arrow F (any rock → magma) represents melting/anatexis. Understanding all rock cycle pathways and the processes along each arrow is essential for the Regents.', image: '/images/exams/es-january-2026/context_45_47.png' },
     {
       number: 48,
       part: 'B-1',
@@ -615,8 +596,7 @@ export default {
       topic: 'Geology',
       correct: 0,
       explanation: 'Using the principles of superposition and cross-cutting relationships: the bottom 3 layers are oldest, then tilting and erosion created the unconformity, then the upper 2 horizontal layers were deposited, and finally the igneous intrusion cut through all existing layers (youngest).',
-      diveDeep: 'Interpreting geologic history from a cross-section uses several principles: (1) Superposition: lower layers are older; (2) Original Horizontality: layers were horizontal when deposited; if tilted, deformation occurred after deposition; (3) Cross-cutting Relationships: the intrusion cuts through all other features, making it the youngest; (4) Unconformities: an unconformity represents a gap in the rock record — erosion removed rock, then deposition resumed. The unconformity shown here is an angular unconformity (tilted layers below, horizontal above), indicating a sequence of: deposition → tilting/folding → erosion → more deposition. Then the intrusion came last. This step-by-step reading of geologic history from cross-sections is one of the most important and frequently tested skills on the Regents exam.',
-    },
+      diveDeep: 'Interpreting geologic history from a cross-section uses several principles: (1) Superposition: lower layers are older; (2) Original Horizontality: layers were horizontal when deposited; if tilted, deformation occurred after deposition; (3) Cross-cutting Relationships: the intrusion cuts through all other features, making it the youngest; (4) Unconformities: an unconformity represents a gap in the rock record — erosion removed rock, then deposition resumed. The unconformity shown here is an angular unconformity (tilted layers below, horizontal above), indicating a sequence of: deposition → tilting/folding → erosion → more deposition. Then the intrusion came last. This step-by-step reading of geologic history from cross-sections is one of the most important and frequently tested skills on the Regents exam.', image: '/images/exams/es-january-2026/context_48_50.png' },
     {
       number: 49,
       part: 'B-1',
@@ -626,8 +606,7 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       explanation: 'June 21 (summer solstice) is when the Northern Hemisphere is tilted most toward the Sun, producing the highest noon Sun altitude and the longest day of the year in New York State.',
-      diveDeep: 'At 42°N latitude, the noon Sun altitude on different dates: June 21 (summer solstice) = 90° - (42° - 23.5°) = 71.5°; September 23 (fall equinox) = 90° - 42° = 48°; December 21 (winter solstice) = 90° - (42° + 23.5°) = 24.5°. The formula is: noon altitude = 90° - |latitude - Sun\'s declination|. The Sun\'s declination ranges from +23.5° (summer solstice) to -23.5° (winter solstice). Higher noon altitude means more direct solar radiation per unit area (more concentrated), which is why summers are warmer even though Earth is actually slightly farther from the Sun in July. Both longer days AND more direct radiation combine to maximize summer insolation in the Northern Hemisphere.',
-    },
+      diveDeep: 'At 42°N latitude, the noon Sun altitude on different dates: June 21 (summer solstice) = 90° - (42° - 23.5°) = 71.5°; September 23 (fall equinox) = 90° - 42° = 48°; December 21 (winter solstice) = 90° - (42° + 23.5°) = 24.5°. The formula is: noon altitude = 90° - |latitude - Sun\'s declination|. The Sun\'s declination ranges from +23.5° (summer solstice) to -23.5° (winter solstice). Higher noon altitude means more direct solar radiation per unit area (more concentrated), which is why summers are warmer even though Earth is actually slightly farther from the Sun in July. Both longer days AND more direct radiation combine to maximize summer insolation in the Northern Hemisphere.', image: '/images/exams/es-january-2026/context_48_50.png' },
     {
       number: 50,
       part: 'B-1',
@@ -642,7 +621,6 @@ export default {
       topic: 'Meteorology',
       correct: 2,
       explanation: 'Buffalo\'s location immediately downwind of Lake Erie means that cold Arctic air masses pick up warmth and moisture from the relatively warm lake and drop it as heavy snow when the air reaches land — the lake-effect snow mechanism.',
-      diveDeep: 'Lake-effect snow requires: (1) cold, dry air (Arctic air mass) moving over relatively warm, open water; (2) sufficient fetch (distance over the lake) for the air to pick up moisture and heat; (3) a mechanism to lift the air once it reaches land (shoreline convergence, topography). Lake Erie is relatively shallow and freezes partially, limiting the lake-effect season. Lake Ontario (deeper, less likely to freeze) affects Syracuse and the Tug Hill Plateau with even greater snowfall — Tug Hill averages over 200 inches per year. Albany, protected by the Catskills and Adirondacks from both lake effects, receives much less snow. Lake-effect snow events can produce extremely localized heavy snowfall (3–5 feet in 24 hours) while locations just 30 miles away see little snow.',
-    },
+      diveDeep: 'Lake-effect snow requires: (1) cold, dry air (Arctic air mass) moving over relatively warm, open water; (2) sufficient fetch (distance over the lake) for the air to pick up moisture and heat; (3) a mechanism to lift the air once it reaches land (shoreline convergence, topography). Lake Erie is relatively shallow and freezes partially, limiting the lake-effect season. Lake Ontario (deeper, less likely to freeze) affects Syracuse and the Tug Hill Plateau with even greater snowfall — Tug Hill averages over 200 inches per year. Albany, protected by the Catskills and Adirondacks from both lake effects, receives much less snow. Lake-effect snow events can produce extremely localized heavy snowfall (3–5 feet in 24 hours) while locations just 30 miles away see little snow.', image: '/images/exams/es-january-2026/context_48_50.png' },
   ],
 }

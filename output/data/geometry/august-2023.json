@@ -1,0 +1,476 @@
+{
+  "subject": "geometry",
+  "session": "august-2023",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "A plane intersects a sphere. Which two-dimensional shape is formed by this cross section?",
+      "choices": [
+        "rectangle",
+        "triangle",
+        "square",
+        "circle"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The endpoints of AB are A(25,3) and B(7,25). Point P is on AB such that AP:PB 5 3:1. What are the coordinates of point P?",
+      "choices": [
+        "(22,23)",
+        "(1,21)",
+        "(22,1)",
+        "(4,23)"
+      ],
+      "image": "/images/exams/geometry/august-2023/q2.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Zach placed the foot of an extension ladder 8 feet from the base of the house and extended the ladder 25 feet to reach the house. To the nearest degree, what is the measure of the angle the ladder makes with the ground?",
+      "choices": [
+        "18",
+        "19",
+        "71",
+        "72"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Darnell models a cup with the cylinder below. He measured the diameter of the cup to be 10 cm and the height to be 9 cm. 10 cm 9 cm If Darnell fills the cup with water to a height of 8 cm, what is the volume of the water in the cup, to the nearest cubic centimeter?",
+      "choices": [
+        "628",
+        "707",
+        "2513",
+        "2827"
+      ],
+      "image": "/images/exams/geometry/august-2023/q4.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which quadrilateral has diagonals that are always perpendicular?",
+      "choices": [
+        "rectangle",
+        "rhombus",
+        "trapezoid",
+        "parallelogram"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which regular polygon would carry onto itself after a rotation of 300\u00b0 about its center?",
+      "choices": [
+        "decagon",
+        "nonagon",
+        "octagon",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The rectangle drawn below is continuously rotated about side S. S Which three-dimensional figure is formed by this rotation?",
+      "choices": [
+        "rectangular prism",
+        "square pyramid",
+        "cylinder",
+        "cone"
+      ],
+      "image": "/images/exams/geometry/august-2023/q7.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "An equation of the line perpendicular to the line whose equation is 4x 2 5y 5 6 and passes through the point (22,3) is",
+      "choices": [
+        "y 1 3 5 2 4 5 (x 2 2)",
+        "y 2 3 5 2 4 5 (x 1 2)",
+        "y 1 3 5 5 4 (x 2 2)",
+        "y 2 3 5 5 4 (x 1 2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "In circle P below, diameter AC and radius BP are drawn such that m/APB 5 110\u00b0. P C A B 110\u00b0 If AC 5 12, what is the area of shaded sector BPC?",
+      "choices": [
+        "6 7 \u03c0",
+        "7\u03c0",
+        "11\u03c0",
+        "28\u03c0"
+      ],
+      "image": "/images/exams/geometry/august-2023/q9.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "In nABC, side BC is extended through C to D. If m/A 5 30\u00b0 and m/ACD 5 110\u00b0, what is the longest side of nABC?",
+      "choices": [
+        "AC",
+        "BC",
+        "AB",
+        "CD"
+      ],
+      "image": "/images/exams/geometry/august-2023/q10.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Right triangle ACT has m/A 5 90\u00b0. Which expression is always equivalent to cos T?",
+      "choices": [
+        "cos C",
+        "sin C",
+        "tan T",
+        "sin T"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A regular pyramid with a square base is made of solid glass. It has a base area of 36 cm2 and a height of 10 cm. If the density of glass is 2.7 grams per cubic centimeter, the mass of the pyramid, in grams, is",
+      "choices": [
+        "120",
+        "324",
+        "360",
+        "972"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The equation of a circle is x2 1 y2 1 12x 5 227. What are the coordinates of the center and the length of the radius of the circle?",
+      "choices": [
+        "center (6,0) and radius 3",
+        "center (6,0) and radius 9",
+        "center (26,0) and radius 3",
+        "center (26,0) and radius 9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "In triangle ABC below, D is a point on AB and E is a point on AC, such that DE || BC. D A B C E If AD 5 12, DB 5 8, and EC 5 10, what is the length of AC?",
+      "choices": [
+        "15",
+        "22",
+        "24",
+        "25"
+      ],
+      "image": "/images/exams/geometry/august-2023/q14.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "In the diagram below, point E is located inside square ABCD such that nABE is equilateral, and CE is drawn. E C D A B What is m/BEC?",
+      "choices": [
+        "30\u00b0",
+        "60\u00b0",
+        "75\u00b0",
+        "90\u00b0"
+      ],
+      "image": "/images/exams/geometry/august-2023/q15.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "In the diagram below of quadrilateral ADBE, DE is the perpendicular bisector of AB. A B E D C Which statement is always true?",
+      "choices": [
+        "/ADC > /BDC",
+        "/EAC > /DAC",
+        "AD > BE",
+        "AE > AD"
+      ],
+      "image": "/images/exams/geometry/august-2023/q16.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "What is the image of (4,3) after a reflection over the line y 5 1?",
+      "choices": [
+        "(22,3)",
+        "(24,3)",
+        "(4,21)",
+        "(4,23)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "In the diagram below, a cone has a diameter of 16 inches and a slant height of 17 inches. 17 in 16 in What is the volume of the cone, in cubic inches?",
+      "choices": [
+        "320\u03c0",
+        "363\u03c0",
+        "960\u03c0",
+        "1280\u03c0"
+      ],
+      "image": "/images/exams/geometry/august-2023/q18.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "In the diagram below, lines \u2113 and m intersect lines n and p to create the shaded quadrilateral as shown. n m p 2 1 5 6 9 10 8 7 4 3 14 13 16 12 11 15 \u2113 Which congruence statement would be sufficient to prove the quadrilateral is a parallelogram?",
+      "choices": [
+        "/1 > /6 and /9 > /14",
+        "/5 > /10 and /6 > /9",
+        "/5 > /7 and /10 > /15",
+        "/6 > /9 and /9 > /11"
+      ],
+      "image": "/images/exams/geometry/august-2023/q19.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "In the circle below, secants TSR and TMH intersect at T, SR 5 5, HM 5 9, TM 5 3, and TS 5 x. R H S M T 5 9 3 x Which equation could be used to find the value of x?",
+      "choices": [
+        "x(x 1 5) 5 36",
+        "x(x 1 5) 5 27",
+        "3x 5 45",
+        "5x 5 27"
+      ],
+      "image": "/images/exams/geometry/august-2023/q20.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, the coordinates of three vertices of trapezoid ABCD are A(2,1), B(5,4), and D(22,3). y x D A B Which point could be vertex C?",
+      "choices": [
+        "(1,5)",
+        "(4,10)",
+        "(21,6)",
+        "(23,8)"
+      ],
+      "image": "/images/exams/geometry/august-2023/q21.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "In the diagram below, nABC > nDEC. C A B D E Which transformation will map nABC onto nDEC?",
+      "choices": [
+        "a rotation",
+        "a line reflection",
+        "a translation followed by a dilation",
+        "a line reflection followed by a second line reflection"
+      ],
+      "image": "/images/exams/geometry/august-2023/q22.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "If nTAP is dilated by a scale factor of 0.5, which statement about the image, nT9A9P9, is true?",
+      "choices": [
+        "m/T9A9P9 5 2 1 (m/TAP)",
+        "m/T9A9P9 5 2(m/TAP)",
+        "TA 5 2(T9A9)",
+        "TA 5 2 1 (T9A9)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "In the diagram below of nABC, X and Y are points on AB and AC, respectively, such that m/AYX 5 m/B. A C B X Y Which statement is not always true?",
+      "choices": [
+        "AC AX 5 CB XY",
+        "AB AY 5 AC AX",
+        "(AY)(CB) 5 (XY)(AB)",
+        "(AY)(AB) 5 (AC)(AX) Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/geometry/august-2023/q24.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "On the set of axes below, congruent quadrilaterals ROCK and R9O9C9K9 are graphed. y x R9 K9 O9 C9 K C O R Describe a sequence of transformations that would map quadrilateral ROCK onto quadrilateral R9O9C9K9",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2023/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "In triangle CEM, CE 5 3x 1 10, ME 5 5x 2 14, and CM 5 2x 2 6",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "A flagpole casts a shadow on the ground 91 feet long, with a 53\u00b0 angle of elevation from the end of the shadow to the top of the flagpole. Determine and state, to the nearest tenth of a foot,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "A man is spray-painting the tops of 10 patio tables. Five tables have round tops, with diameters of 4 feet, and five tables have rectangular tops, with dimensions of 4 feet by 6 feet. A can of spray paint covers 25 square feet. How many cans of spray paint must be purchased to paint all of the tabletops?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Using a compass and straightedge, construct a midsegment of nAHL below. [Leave all construction marks.]",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2023/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Right triangle STR is shown below, with m/T 5 90\u00b0. Altitude TQ is drawn to SQR, and TQ 5 8. T S R Q 8 If the ratio SQ:QR is 1:4,",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2023/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Line AB is dilated by a scale factor of 2 centered at point A. A B Evan thinks that the dilation of AB will result in a line parallel to AB, not passing through points A or B. Nathan thinks that the dilation of AB will result in the same line, AB. Who is correct? Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2023/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Josh is making a square-based fire pit out of concrete for his backyard, as modeled by the right prism below. He plans to make the outside walls of the fire pit 3.5 feet on each side with a height of 1.5 feet. The concrete walls of the fire pit are going to be 9 inches thick. 9 in 3.5 ft 1.5 ft If a bag of concrete mix will fill 0.6 ft3,",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2023/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "A telephone pole 11 meters tall needs to be stabilized with a support beam, as modeled below. 11 m Support beam Two conditions for proper support are: \u2022 The beam reaches the telephone pole at 70% of the telephone pole\u2019s height above the ground. \u2022 The beam forms a 65\u00b0 angle with the ground. Determine and state, to the nearest tenth of a meter, the length of the support beam that meets these conditions for this telephone pole. Determine and state, to the nearest tenth of a meter,",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2023/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The coordinates of the vertices of quadrilateral ABCD are A(0,4), B(3,8), C(8,3), and D(5,21). Prove that ABCD is a parallelogram, but not a rectangle. [The use of the set of axes below is optional.] Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2023/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "In the diagram below of quadrilateral FACT, BR intersects diagonal AT at E, AF || CT, and AF > CT. F R E T A B C Prove: (AB)(TE) 5 (AE)(TR) Work space for question 35 Question 35 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 pr2 Circle C 5 pd or C 5 2pr General Prisms V 5 Bh Cylinder V 5 pr2h Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 pr2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u2260 1 Radians 1 radian 5 180 ___ p degrees Degrees 1 degree 5 p ___ 180 radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here GEOMETRY GEOMETRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2023/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -1,0 +1,1101 @@
+{
+  "subject": "living-environment",
+  "session": "june-2014",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "How do cells in the ovary detect a hormone from the brain?",
+      "choices": [
+        "The brain sends a nerve impulse to the ovary.",
+        "White blood cells bring the hormone to the ovary.",
+        "Receptor molecules on the cells of the ovary bind with the hormone.",
+        "Vacuoles within the ovary bind with the hormone."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Single-celled organisms are able to maintain internal stability because they",
+      "choices": [
+        "have multiple organ systems",
+        "work with other cells",
+        "contain structures that perform life functions",
+        "carry out photosynthesis to produce food"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "A similarity between humans and many other multicellular animals is that they",
+      "choices": [
+        "occupy the same niche in most food webs",
+        "are composed of organ systems",
+        "have the same DNA sequences",
+        "carry out autotrophic nutrition"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In order to enter cells and be useful to the body, starch must be",
+      "choices": [
+        "absorbed through the skin",
+        "broken down into fats and water",
+        "digested into simple sugars",
+        "converted to carbon dioxide and ATP"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The increase of certain types of gases in the atmosphere has contributed to the problem of global warming. All these gases are",
+      "choices": [
+        "biotic factors",
+        "abiotic factors",
+        "organic factors",
+        "endangered factors"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Several goldfish were kept in a small aquarium for several years. The fish grew to be approximately 6 centimeters long in the first year, and after that, growth in length stopped. These fish were later transferred to a large pond. In the pond, the goldfish grew much larger, reaching lengths of around 25 centimeters. Which statement provides the best explanation for the increased growth of the fish in the pond?",
+      "choices": [
+        "Chemicals present in the pond increased the amount of DNA in the fish, causing the growth increase.",
+        "The expression of genetic information in the fish was influenced by their surroundings.",
+        "The fish expressed and passed on only those characteristics that enabled them to survive in the new environment.",
+        "The size of the fish depended only on their food supply and not on their DNA."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Autotrophs might survive when heterotrophs cannot, because autotrophs are able to",
+      "choices": [
+        "reproduce asexually",
+        "become dormant",
+        "exist without respiration",
+        "make their own food"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The inability of sperm cells to move normally could prevent the production of offspring by interfering with",
+      "choices": [
+        "meiosis",
+        "mitosis",
+        "fertilization",
+        "differentiation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which type of pathogenic microbe causes AIDS?",
+      "choices": [
+        "a bacterium",
+        "a virus",
+        "a multicellular fungus",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a technique used to produce carrots. Which reproductive process determines the traits present in the cluster of cells?",
+      "choices": [
+        "meiosis",
+        "mitosis",
+        "fertilization",
+        "differentiation"
+      ],
+      "image": "/images/exams/living-environment/june-2014/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a scientific technique in use today. Scientists have used this technique to",
+      "choices": [
+        "produce hormones for human use at a lower cost than other methods",
+        "produce pathogens that are able to live in humans",
+        "clone human cells with desired characteristics",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2014/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "DNA is able to control cellular activities most directly by regulating the process of",
+      "choices": [
+        "meiotic division",
+        "protein synthesis",
+        "active transport",
+        "selective breeding"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which statement describes an effect of natural selection on a species?",
+      "choices": [
+        "It favors the survival of certain members of the species and results in a change in the proportion of individuals with highly adaptive traits.",
+        "It provides feedback mechanisms for members of a species and results in a change in the proportion of individuals with homeostatic controls.",
+        "It leads to reproduction with other species, increasing the number of different adaptations.",
+        "It increases competition between populations that occupy different niches, increasing the chance of extinction of the less-adapted species."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Maple leaf beetles and willow leaf beetles are named for the type of tree where they live and reproduce. They look identical to each other when observed, but experiments have shown that willow beetles would starve before eating maple leaves. This is an example of specialization that would directly reduce",
+      "choices": [
+        "variation",
+        "competition",
+        "adaptation",
+        "replication"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which event would most likely cause a change in a genetic sequence in an organism?",
+      "choices": [
+        "eating certain foods high in saturated fats",
+        "strenuous physical activity",
+        "exposure to radiation",
+        "a sudden exposure to cooler temperatures"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "During the process of cellular respiration, energy is released from",
+      "choices": [
+        "carbon dioxide",
+        "oxygen atoms",
+        "water molecules",
+        "chemical bonds"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A new vaccine was developed and then tested on a large sample of individuals. This new vaccine will be considered effective if it helps prepare the body to fight future invasion by",
+      "choices": [
+        "inhibiting the response of red blood cells",
+        "stimulating the reproduction of microbes",
+        "inhibiting the action of immune cells",
+        "stimulating the production of antibodies"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which expression correctly represents a repro- ductive process that usually occurs in humans where 2n is equal to the number of chromo- somes in each body cell?",
+      "choices": [
+        "n \u0002 n \u2192n",
+        "n \u0002 n \u21922n",
+        "n \u0002 2n \u21922n",
+        "2n \u0002 2n \u21924n"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "One effect of uncontrolled diabetes is that the blood might develop an acidic pH. As a result, cells may not be able to regulate their internal pH. Within these cells, this could cause a disruption of the function of biological catalysts known as",
+      "choices": [
+        "enzymes",
+        "toxins",
+        "antibodies",
+        "antigens"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A Native American saying states that, \u201cWe do not inherit the land we live on from our grandparents, we borrow it from our grandchildren.\u201d This saying is an attempt to make us understand that",
+      "choices": [
+        "the impact we have on the environment lasts for many generations",
+        "we must pay a lot of money to buy land from our parents",
+        "what we do today to the environment has little impact on our children",
+        "human actions only affect other humans"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Cells of the immune system are able to respond to the presence of invading organisms because they recognize the",
+      "choices": [
+        "antigens present on the invaders",
+        "antibodies present in invading pathogens",
+        "DNA pattern in the nuclei of viruses",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Typhoid fever, a disease that causes headaches, digestive upset, and a high fever, is caused by the bacterium Salmonella typhi. Typhoid can be spread from person to person by contaminated water or food or by a lack of cleanliness. Since the 19th century, the number of individuals infected with this disease has decreased. Which statement best explains why the number of people with this disease and other bacterial diseases has decreased over the last 100 years?",
+      "choices": [
+        "Scientists have corrected the damaged genes that cause typhoid fever and other infectious diseases.",
+        "Public health officials have placed better controls on the use of the toxic substances that cause these diseases.",
+        "Typhoid fever, like most other bacterial diseases, is often caused by a lack of proper nutrition.",
+        "Personal habits, such as hand washing, have greatly reduced contamination from bacteria."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Deforestation most directly results in",
+      "choices": [
+        "an increase in oxygen in the atmosphere",
+        "a decrease in soil erosion",
+        "a decrease in biodiversity in the area",
+        "an increase in the absorption of carbon dioxide"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "In the California Mojave Desert, an energy company is building a large solar-power facility. It is expected to produce enough power for 140,000 homes and also cut carbon dioxide emissions by 500,000 tons a year. The facility will be built on 4,050 acres of wildlife habitat, which is near a protected refuge for a species of desert tortoise. The decision to build this power plant is most likely based on",
+      "choices": [
+        "proving that positive atmospheric changes are less important than preserving wildlife",
+        "a trade-off, weighing the need for a cleaner energy source versus the protection of a natural resource",
+        "the fact that building these solar-power energy plants disrupts wildlife habitats",
+        "providing evidence that technological advances always produce positive environmental impacts"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "As a result of human activity, a significant percentage of the coral reefs in the oceans have been damaged. One-third of marine fish species depend on coral reefs for survival. Many of these fish might die. The most direct cause of the death of these fish would be",
+      "choices": [
+        "habitat destruction",
+        "direct harvesting",
+        "recycling of nutrients",
+        "use of nuclear fuels"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which statement best describes the role of decomposers?",
+      "choices": [
+        "They convert carbon dioxide and water to glucose.",
+        "They break down organic compounds into products used by other organisms.",
+        "They release oxygen to the atmosphere.",
+        "They provide energy for the synthesis of proteins."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Many scientists are worried about some of Earth\u2019s finite resources because humans are",
+      "choices": [
+        "using carbon dioxide faster than it is being produced",
+        "placing industrial wastes in landfills",
+        "interfering with energy flow from consumers to producers",
+        "using large amounts of some materials that cannot be renewed"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Many communities have started programs to dispose of evergreen trees after the holiday season. These programs allow individuals to bring these trees to be shredded, and the resulting chips are spread around parks and recreational areas as mulch. These programs benefit the environment by",
+      "choices": [
+        "increasing pollution in parks",
+        "taking up more space in landfills",
+        "returning materials to the environment",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Modern dogs are direct descendants of the gray wolf. They first appeared about 130,000 years ago. Today, there are about 150 different breeds of domestic dog, a few of which are shown below. The great variety of modern dogs can best be explained by",
+      "choices": [
+        "selective breeding of dogs over many years",
+        "the cloning of domestic dogs",
+        "genetic alterations in gray wolves alive today",
+        "natural selection favoring wolves over dogs"
+      ],
+      "image": "/images/exams/living-environment/june-2014/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The diagram below shows an alteration that occurred during the replication process of a portion of a gene. The numbers identify the locations of specific bases in the sequence. This alteration is most likely the result of",
+      "choices": [
+        "a substitution at base 2",
+        "a deletion of base 2",
+        "an insertion of base 3",
+        "a deletion of base 4 A T C C G C A T C T T A T 1 2 3 4 5 6 7 8 9 10 11 12 13 A T C G C A T C T T A T Replication All modern domestic dogs are descendants of the gray wolf. Gray wolf adapted from:"
+      ],
+      "image": "/images/exams/living-environment/june-2014/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "What do the arrows in the diagram represent?",
+      "choices": [
+        "an increase in population",
+        "the evolution of organisms",
+        "the flow of energy",
+        "ecological succession"
+      ],
+      "image": "/images/exams/living-environment/june-2014/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the diagram below and on your knowledge of biology. The diagram\nrepresents a food web.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Which statement correctly describes interactions between organisms in this ecosystem?",
+      "choices": [
+        "Hawks are predators of insect-eating birds, but not of seed-eating birds.",
+        "Hawks and snakes prey on both rabbits and grasshoppers.",
+        "Rabbits and mice compete for both grasses and flower seeds.",
+        "Grasshoppers and mice compete for grasses,"
+      ],
+      "image": "/images/exams/living-environment/june-2014/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the diagram below and on your knowledge of biology. The diagram\nrepresents a food web.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Humans have altered ecosystems by activities that are sometimes deliberate and sometimes accidental. In the United States, humans have altered ecosystems by introducing invasive species that outcompete native species. Which activity resulted in the accidental introduction of an invasive species?",
+      "choices": [
+        "importing Japanese knotweed because it has an attractive flower",
+        "transporting zebra mussels to the Great Lakes by discharging water taken on in European ports to stabilize large ships",
+        "releasing Chinese mitten crabs in the Hudson River to establish them as a food source",
+        "planting purple loosestrife that was brought here from Europe as a source of medicine"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The diagram below represents a specialized cell located in the root of a plant. The arrows in the diagram indicate the movement of molecules of oxygen and water into the cell. Which row in the chart below correctly identifies the process responsible for the movement of each type of molecule represented in the diagram? Row Water Oxygen ( 1 ) diffusion active transport ( 2 ) diffusion diffusion ( 3 ) active transport diffusion ( 4 ) active transport active transport X X X X X X X X X X X X X X X X X X X X Key = water molecules =",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which statement is a valid inference that can be made based on the data in this graph?",
+      "choices": [
+        "The change in the level of gene expression in gene 4 could indicate it plays a major role in the development of cancer.",
+        "Slight decreases in gene expression will always result in the formation of cancer cells.",
+        "Cells will develop cancer if the gene expression of these five genes remains below four peptides per second.",
+        "An increase in the level of gene expression in these five genes is necessary for cancer to develop in cells."
+      ],
+      "image": "/images/exams/living-environment/june-2014/context_35_35.png",
+      "context": "Base your answer to question 35 on the graph below and on your knowledge of biology. The graph shows\nthe level of gene expression of five different genes in normal and cancerous cells.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The cells of some organisms contain both chloroplasts and mitochondria. Which statement describes what would happen in these cells if they were moved from a light environment to a dark one?",
+      "choices": [
+        "The amount of oxygen present would decrease and the amount of carbon dioxide would increase.",
+        "The amount of glucose present would increase and ATP would no longer be available.",
+        "The amount of carbon dioxide present would decrease and ATP would continue to be synthesized.",
+        "The amount of oxygen present would increase and the amount of glucose available would decrease. Gene Expression in Cancer Cells and Normal Cells Level of Gene Expression (peptides synthesized/second) 8.00 7.00 6.00 5.00 4.00 3.00 2.00 1.00 0.00 Gene 1 Gene 2 Key Cancer cells Normal cells Gene 3 Gene 4 Gene 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "In the spring of 2010, there was a catastrophic explosion on an ocean oil drilling rig, causing millions of gallons of oil to be released into the Gulf of Mexico. Many organisms died due to the thick sludge in their habitat. However, in some organisms, such as shellfish, the oil stuck to tissues inside their shells. Which statement expresses a major concern of environmentalists about the accumulation of the oil in certain organisms in the Gulf of Mexico ecosystem?",
+      "choices": [
+        "Larger organisms eat the shellfish and more chemicals will build up in their tissues.",
+        "The shellfish will prevent other organisms from obtaining oil.",
+        "Smaller organisms will be unaffected by the chemicals.",
+        "Larger organisms will be less affected by the oil, because they can eat other organisms."
+      ],
+      "image": "/images/exams/living-environment/june-2014/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "A review of this data could lead to the conclusion that",
+      "choices": [
+        "the most alligator eggs hatched if incubated at 26\u00b0C",
+        "the sex of the offspring depends on the incubation temperature",
+        "female alligators develop at higher temperatures",
+        "temperature doesn\u2019t affect the survival of alligator embryos"
+      ],
+      "image": "/images/exams/living-environment/june-2014/context_38_39.png",
+      "context": "Base your answers to questions 38 and 39 on the information and data table below and on your knowledge\nof biology.\nFertilized eggs containing embryos from the same species of alligator were incubated\nat different temperatures. The sex of the hatched offspring is shown in the table below.\nSex of Offspring Incubated at Different Temperatures",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The percent of surviving females at 32\u00b0C from the original number of eggs incubated was",
+      "choices": [
+        "13%",
+        "2%",
+        "85%",
+        "98% Temperature of Egg Incubation 26\u00b0C 28\u00b0C 30\u00b0C 32\u00b0C 34\u00b0C 36\u00b0C Number of Eggs Used 100 100 100 100 100 100 Number of Embryos that Died 80 4 3 2 6 86 Number of Females Hatched 20 96 97 85 0 0 Number of Males Hatched 0 0 0 13 94 14"
+      ],
+      "image": "/images/exams/living-environment/june-2014/context_38_39.png",
+      "context": "Base your answers to questions 38 and 39 on the information and data table below and on your knowledge\nof biology.\nFertilized eggs containing embryos from the same species of alligator were incubated\nat different temperatures. The sex of the hatched offspring is shown in the table below.\nSex of Offspring Incubated at Different Temperatures",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which environmental factor could have caused the change indicated at A?",
+      "choices": [
+        "increased predation by herbivores",
+        "increased availability of food",
+        "increased number of decomposers",
+        "increased competition among carnivores"
+      ],
+      "image": "/images/exams/living-environment/june-2014/context_40_41.png",
+      "context": "Base your answers to questions 40 and 41 on the graph below and on your knowledge of biology. The graph\nshows the growth of a population of rabbits in a specific ecosystem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Over a period of time, the location of the dashed line would move from location B to location C on this graph if",
+      "choices": [
+        "the birthrate of the rabbit population was equal to the death rate of the rabbit population",
+        "there was a decrease in the number of rabbit predators and an increase in the availability of plants",
+        "there was a decrease in the availability of minerals, water, and shelter",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2014/context_40_41.png",
+      "context": "Base your answers to questions 40 and 41 on the graph below and on your knowledge of biology. The graph\nshows the growth of a population of rabbits in a specific ecosystem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The interaction of substances A and B is an example of",
+      "choices": [
+        "a genetic mutation",
+        "homeostatic feedback",
+        "an immune response",
+        "active transport"
+      ],
+      "image": "/images/exams/living-environment/june-2014/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the diagram below and on your knowledge of biology. The \ndiagram represents the effect of two chemical substances, A and B, in maintaining the level of glucose in the\nblood in humans.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Which statement is correct regarding the substances involved in these interactions?",
+      "choices": [
+        "Substance A is insulin, which is released by cells in the pancreas.",
+        "Substance B is a chemical receptor molecule produced by blood cells.",
+        "Both substances A and B are classified as biological catalysts.",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2014/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the diagram below and on your knowledge of biology. The \ndiagram represents the effect of two chemical substances, A and B, in maintaining the level of glucose in the\nblood in humans.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Two views through a compound light microscope of a wet-mount slide preparation of cells are shown in the photographs below. Which procedure was most likely followed to obtain view B?",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/q44.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks, on the axis labeled \u201cConcentration of Estrogen.\u201d Day Concentration of Estrogen (pg/mL) 1 30 5 80 10 200 15 180 20 30 28 25",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the data table below and on your knowledge of biology.\nThe data table shows the concentration of estrogen in picograms per milliliter (pg/mL) in the blood of a woman\nover the course of 28 days.\nEstrogen Concentration in Blood\nDirections (45\u201346): Using the information given in the data table, construct a line graph on the grid following\nthe directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Plot the data for concentration of estrogen on the grid. Surround each point with a small circle and connect the points.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the data table below and on your knowledge of biology.\nThe data table shows the concentration of estrogen in picograms per milliliter (pg/mL) in the blood of a woman\nover the course of 28 days.\nEstrogen Concentration in Blood\nDirections (45\u201346): Using the information given in the data table, construct a line graph on the grid following\nthe directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The concentration of estrogen at day 8 is closest to",
+      "choices": [
+        "28 pg/mL",
+        "80 pg/mL",
+        "150 pg/mL",
+        "200 pg/mL Day Concentration of Estrogen (pg/mL) 0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 Estrogen Concentration in Blood Example:"
+      ],
+      "image": "/images/exams/living-environment/june-2014/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the data table below and on your knowledge of biology.\nThe data table shows the concentration of estrogen in picograms per milliliter (pg/mL) in the blood of a woman\nover the course of 28 days.\nEstrogen Concentration in Blood\nDirections (45\u201346): Using the information given in the data table, construct a line graph on the grid following\nthe directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Identify the molecule represented by letter X in process 1.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 48 and 49 on the word equations below and on your knowledge of biology.\nThe equations represent two biochemical processes that occur in living organisms. The letter X represents a\nmolecule produced from process 1.\nProcess 1: oxygen \u0002 glucose \u2192carbon dioxide \u0002 water \u0002 X\nProcess 2: carbon dioxide \u0002 water \u2192oxygen \u0002 glucose",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which process occurs in the cells of a green plant leaf?",
+      "choices": [
+        "process 1, only",
+        "process 2, only",
+        "neither process 1 nor process 2",
+        "both process 1 and process 2"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 48 and 49 on the word equations below and on your knowledge of biology.\nThe equations represent two biochemical processes that occur in living organisms. The letter X represents a\nmolecule produced from process 1.\nProcess 1: oxygen \u0002 glucose \u2192carbon dioxide \u0002 water \u0002 X\nProcess 2: carbon dioxide \u0002 water \u2192oxygen \u0002 glucose",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which sections of the graph represent structures affected directly by the hormones shown?",
+      "choices": [
+        "section A and section B, only",
+        "section B and section C, only",
+        "section A and section C, only",
+        "section A, section B, and section C"
+      ],
+      "image": "/images/exams/living-environment/june-2014/context_50_53.png",
+      "context": "Base your answers to questions 50 through 53 on the graph below and on your knowledge of biology. \nThe graph shows some events associated with the reproductive cycle of human females.\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "According to the graph, on which day is the egg released from the ovary? Day:_________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/context_50_53.png",
+      "context": "Base your answers to questions 50 through 53 on the graph below and on your knowledge of biology. \nThe graph shows some events associated with the reproductive cycle of human females.\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Which section of the graph shows the location where the zygote would most likely become implanted and develop? Section:_________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/context_50_53.png",
+      "context": "Base your answers to questions 50 through 53 on the graph below and on your knowledge of biology. \nThe graph shows some events associated with the reproductive cycle of human females.\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Identify another human reproductive hormone that is not shown on this graph. ___________________________ Events in the ovary Hormone levels in the blood Lining of the uterus Days of Menstrual Cycle 0 2 4 6 8 10 12 14 16 18 20 22 24 26 28",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/context_50_53.png",
+      "context": "Base your answers to questions 50 through 53 on the graph below and on your knowledge of biology. \nThe graph shows some events associated with the reproductive cycle of human females.\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Organize the data collected, from shortest to longest length of exposure, in the data table below. Relationship of Sunlight Exposure to Flower Production",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/q54.png",
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of biology.\nDifferent plant species require different amounts of direct sunlight in order to flower.\nA student designed an experiment to determine the length of exposure to direct sunlight\nnecessary for a specific plant species to produce flowers. The student collected the data\nbelow.\n0 hours, 0% with flowers; 9 hours, 0% with flowers\n1 hour, 0% with flowers; 5 hours, 90% with flowers\n3 hours, 80% with flowers; 7 hours, 10% with flowers",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "At the end of the experiment, the student stated that if plants are exposed to more hours of daylight, they will always produce a greater percentage of flowers. Is this a valid conclusion?",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/q55.png",
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of biology.\nDifferent plant species require different amounts of direct sunlight in order to flower.\nA student designed an experiment to determine the length of exposure to direct sunlight\nnecessary for a specific plant species to produce flowers. The student collected the data\nbelow.\n0 hours, 0% with flowers; 9 hours, 0% with flowers\n1 hour, 0% with flowers; 5 hours, 90% with flowers\n3 hours, 80% with flowers; 7 hours, 10% with flowers",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify one human activity and describe how that activity could directly or indirectly lead to a reduction in amphibian populations.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/q56.png",
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of biology.\nDecline in the Amphibians\nDeclines in amphibian species, such as frogs, toads and salamanders, might affect the\nways in which ecosystems function. Amphibians prey on many types of small organisms that\nsurvive by consuming leaf litter (leaf material on the ground of ecosystems). These small\norganisms include animals such as earthworms, centipedes, millipedes, pill bugs, and many\nspecies of insects. In turn, amphibians are preyed on by fish, herons, chipmunks, turkeys,\nfoxes, coyotes, and other animals.\nHuman activities often cause a reduction in the size of amphibian populations. As\namphibian populations are reduced, the organisms that are preyed on by amphibians\nincrease in number. As the populations of small forest organisms increase, the amount of\nleaf litter decreases. The decrease in the amount of leaf litter on the forest floor may have\nnegative effects on the forest ecosystem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "57",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/q57.png",
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of biology.\nDecline in the Amphibians\nDeclines in amphibian species, such as frogs, toads and salamanders, might affect the\nways in which ecosystems function. Amphibians prey on many types of small organisms that\nsurvive by consuming leaf litter (leaf material on the ground of ecosystems). These small\norganisms include animals such as earthworms, centipedes, millipedes, pill bugs, and many\nspecies of insects. In turn, amphibians are preyed on by fish, herons, chipmunks, turkeys,\nfoxes, coyotes, and other animals.\nHuman activities often cause a reduction in the size of amphibian populations. As\namphibian populations are reduced, the organisms that are preyed on by amphibians\nincrease in number. As the populations of small forest organisms increase, the amount of\nleaf litter decreases. The decrease in the amount of leaf litter on the forest floor may have\nnegative effects on the forest ecosystem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "State why parthenogenesis is considered a form of asexual reproduction.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/q58.png",
+      "context": "Base your answers to questions 58 and 59 on the information below and on your knowledge of biology.\nFemale Shark Reproduced Without Male DNA, Scientists Say\nA hammerhead shark that gave birth in a Nebraska aquarium reproduced without mating,\na genetic analysis shows.\nThis form of asexual reproduction, called parthenogenesis, has been found in other \nvertebrate species, including some snakes and lizards. But this is the first time it has been\ndocumented in a shark.\u2026\nInstead, the female shark\u2019s own genetic material combined during this process of cell\ndivision that produces an egg. A cell called the secondary oocyte, which contains half the\nfemale chromosomes and normally becomes the egg, fused with another cell called the \nsecondary polar body, which contains the identical [amount of] genetic material\u2026.\nRobert E. Hueter, director of the Center for Shark Research at the Mote Marine\nLaboratory in Sarasota, Fla., said the finding helped fill a gap in understanding \nparthenogenesis, which has been found to occur in most vertebrate lines except mammals,\nand until now, cartilaginous fishes like sharks\u2026.\n\u201cIt\u2019s a last-resort tactic that animals use when they absolutely can\u2019t find another mate,\u201d\nDr. Hueter said.\nSource:  Henry Fountain, The New York Times, May 23, 2007",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "59",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/q59.png",
+      "context": "Base your answers to questions 58 and 59 on the information below and on your knowledge of biology.\nFemale Shark Reproduced Without Male DNA, Scientists Say\nA hammerhead shark that gave birth in a Nebraska aquarium reproduced without mating,\na genetic analysis shows.\nThis form of asexual reproduction, called parthenogenesis, has been found in other \nvertebrate species, including some snakes and lizards. But this is the first time it has been\ndocumented in a shark.\u2026\nInstead, the female shark\u2019s own genetic material combined during this process of cell\ndivision that produces an egg. A cell called the secondary oocyte, which contains half the\nfemale chromosomes and normally becomes the egg, fused with another cell called the \nsecondary polar body, which contains the identical [amount of] genetic material\u2026.\nRobert E. Hueter, director of the Center for Shark Research at the Mote Marine\nLaboratory in Sarasota, Fla., said the finding helped fill a gap in understanding \nparthenogenesis, which has been found to occur in most vertebrate lines except mammals,\nand until now, cartilaginous fishes like sharks\u2026.\n\u201cIt\u2019s a last-resort tactic that animals use when they absolutely can\u2019t find another mate,\u201d\nDr. Hueter said.\nSource:  Henry Fountain, The New York Times, May 23, 2007",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify one error with the hypothesis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of biology.\nTicks, such as deer ticks and dog ticks, feed on the blood of humans and other animals.\nPart of the feeding process involves the tick injecting its saliva to help make blood flow. \nIn the process, they sometimes spread disease organisms to their host. Sometimes ticks get\non clothing, and can remain there for a few days before actually biting their host.\nA scientist found that ticks might be able to survive even when exposed to hot water and\ndetergent in a washing machine.\nStudents designed the experiment below to test how well ticks survive a hot-water \nwashing machine cycle with detergent. Note that some details of the design are incorrect.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Explain why the students\u2019 proposed data to be collected would not likely test what the students intended.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of biology.\nTicks, such as deer ticks and dog ticks, feed on the blood of humans and other animals.\nPart of the feeding process involves the tick injecting its saliva to help make blood flow. \nIn the process, they sometimes spread disease organisms to their host. Sometimes ticks get\non clothing, and can remain there for a few days before actually biting their host.\nA scientist found that ticks might be able to survive even when exposed to hot water and\ndetergent in a washing machine.\nStudents designed the experiment below to test how well ticks survive a hot-water \nwashing machine cycle with detergent. Note that some details of the design are incorrect.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify one error in the students\u2019 design in the shaded area of the table and explain how the students should change the experiment to correct the error. Error: Correction: Control Group Experimental Group Test Subjects: deer tick dog tick Experimental Setup: ticks in washing cycle with cold water and detergent ticks in washing cycle with hot water and detergent Number Used: 10 100 Hypothesis: Can ticks survive a hot water and detergent wash cycle in a washing machine? Data to be Collected:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of biology.\nTicks, such as deer ticks and dog ticks, feed on the blood of humans and other animals.\nPart of the feeding process involves the tick injecting its saliva to help make blood flow. \nIn the process, they sometimes spread disease organisms to their host. Sometimes ticks get\non clothing, and can remain there for a few days before actually biting their host.\nA scientist found that ticks might be able to survive even when exposed to hot water and\ndetergent in a washing machine.\nStudents designed the experiment below to test how well ticks survive a hot-water \nwashing machine cycle with detergent. Note that some details of the design are incorrect.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Describe one way humans have negatively influenced the ecosystem of the red ant.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/q63.png",
+      "context": "Base your answers to questions 63 through 66 on the passage below and on your knowledge of biology.\nThe Return of the Large Blue Butterfly\nIn 1979, the Large Blue Butterfly was declared extinct in the United Kingdom, despite\nthe efforts to protect the grasslands where it lived.\nResearch into the butterfly life cycle discovered the following facts. The butterflies lay\ntheir eggs on flowering thyme plants, and the caterpillars fall to the ground after they hatch.\nThe young butterfly caterpillars have a \u201choney gland\u201d on their posterior end, which, when\nstimulated by red ants, makes the caterpillars smell and wiggle like red ants. The red ants\ntreat the butterfly caterpillars as ant grubs and carry them to their underground homes. The\nred ants keep looking after them and guard them, even though the caterpillars eat ant grubs\nfor 10 months before flying away as adult butterflies in the spring.\nThe red ants live in fields of short grass. The grass is short enough to let the sun warm\nthe soil. This is where the ants find and eat insects and plants. Rabbits had kept the grass\nshort until the mid-1950s, when the rabbit populations were suddenly devastated by a viral\ndisease. Additionally, farmers allowed pastures to get overgrown by not letting cattle graze\non the grass. The red ants vanished when the taller grass increased the shade and cooled\nthe soil.\nA program was introduced to protect the pastures where the red ants nested. Their\nnumbers came back. Populations of Large Blue Butterflies from Sweden were brought into\nthe area, and now the Large Blue Butterfly is thriving again.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "64",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/q64.png",
+      "context": "Base your answers to questions 63 through 66 on the passage below and on your knowledge of biology.\nThe Return of the Large Blue Butterfly\nIn 1979, the Large Blue Butterfly was declared extinct in the United Kingdom, despite\nthe efforts to protect the grasslands where it lived.\nResearch into the butterfly life cycle discovered the following facts. The butterflies lay\ntheir eggs on flowering thyme plants, and the caterpillars fall to the ground after they hatch.\nThe young butterfly caterpillars have a \u201choney gland\u201d on their posterior end, which, when\nstimulated by red ants, makes the caterpillars smell and wiggle like red ants. The red ants\ntreat the butterfly caterpillars as ant grubs and carry them to their underground homes. The\nred ants keep looking after them and guard them, even though the caterpillars eat ant grubs\nfor 10 months before flying away as adult butterflies in the spring.\nThe red ants live in fields of short grass. The grass is short enough to let the sun warm\nthe soil. This is where the ants find and eat insects and plants. Rabbits had kept the grass\nshort until the mid-1950s, when the rabbit populations were suddenly devastated by a viral\ndisease. Additionally, farmers allowed pastures to get overgrown by not letting cattle graze\non the grass. The red ants vanished when the taller grass increased the shade and cooled\nthe soil.\nA program was introduced to protect the pastures where the red ants nested. Their\nnumbers came back. Populations of Large Blue Butterflies from Sweden were brought into\nthe area, and now the Large Blue Butterfly is thriving again.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "In the space below, construct a food chain consisting of at least three organisms, including a producer, that would be present in the ant ecosystem.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 66 on the passage below and on your knowledge of biology.\nThe Return of the Large Blue Butterfly\nIn 1979, the Large Blue Butterfly was declared extinct in the United Kingdom, despite\nthe efforts to protect the grasslands where it lived.\nResearch into the butterfly life cycle discovered the following facts. The butterflies lay\ntheir eggs on flowering thyme plants, and the caterpillars fall to the ground after they hatch.\nThe young butterfly caterpillars have a \u201choney gland\u201d on their posterior end, which, when\nstimulated by red ants, makes the caterpillars smell and wiggle like red ants. The red ants\ntreat the butterfly caterpillars as ant grubs and carry them to their underground homes. The\nred ants keep looking after them and guard them, even though the caterpillars eat ant grubs\nfor 10 months before flying away as adult butterflies in the spring.\nThe red ants live in fields of short grass. The grass is short enough to let the sun warm\nthe soil. This is where the ants find and eat insects and plants. Rabbits had kept the grass\nshort until the mid-1950s, when the rabbit populations were suddenly devastated by a viral\ndisease. Additionally, farmers allowed pastures to get overgrown by not letting cattle graze\non the grass. The red ants vanished when the taller grass increased the shade and cooled\nthe soil.\nA program was introduced to protect the pastures where the red ants nested. Their\nnumbers came back. Populations of Large Blue Butterflies from Sweden were brought into\nthe area, and now the Large Blue Butterfly is thriving again.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Select one organism from the food chain you constructed and write it on the line below. State one way the removal of the organism you selected would affect another organism in the food chain. Support your answer. Organism:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/q66.png",
+      "context": "Base your answers to questions 63 through 66 on the passage below and on your knowledge of biology.\nThe Return of the Large Blue Butterfly\nIn 1979, the Large Blue Butterfly was declared extinct in the United Kingdom, despite\nthe efforts to protect the grasslands where it lived.\nResearch into the butterfly life cycle discovered the following facts. The butterflies lay\ntheir eggs on flowering thyme plants, and the caterpillars fall to the ground after they hatch.\nThe young butterfly caterpillars have a \u201choney gland\u201d on their posterior end, which, when\nstimulated by red ants, makes the caterpillars smell and wiggle like red ants. The red ants\ntreat the butterfly caterpillars as ant grubs and carry them to their underground homes. The\nred ants keep looking after them and guard them, even though the caterpillars eat ant grubs\nfor 10 months before flying away as adult butterflies in the spring.\nThe red ants live in fields of short grass. The grass is short enough to let the sun warm\nthe soil. This is where the ants find and eat insects and plants. Rabbits had kept the grass\nshort until the mid-1950s, when the rabbit populations were suddenly devastated by a viral\ndisease. Additionally, farmers allowed pastures to get overgrown by not letting cattle graze\non the grass. The red ants vanished when the taller grass increased the shade and cooled\nthe soil.\nA program was introduced to protect the pastures where the red ants nested. Their\nnumbers came back. Populations of Large Blue Butterflies from Sweden were brought into\nthe area, and now the Large Blue Butterfly is thriving again.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/context_67_69.png",
+      "context": "Base your answer to question 67\u201369 on the information and photographs below and on your knowledge of\nbiology.\nIn addition to their use for hearing, ears contain many blood vessels that allow heat to\nescape into the air. Animals that live in warm climates tend to have ears with large areas\nexposed to the environment. Animals in cold climates have a more compact ear that keeps\nexposure to the environment to a minimum. The photographs below show a jackrabbit from\ndesert regions of the southwestern United States and a fennec fox from northern Africa\nwith large ears, and a snowshoe hare and an arctic fox with small ears.\n67\u201369 Discuss how differences in ear size in these organisms might have occurred. In your answer, be sure\nto:\n\u2022 explain how the size of these animals\u2019 ears can help the animals survive in their environment   [1]\n\u2022 identify one process that most likely resulted in the animals in warm climates having large ears, while\nanimals in cold climates have small ears   [1]\n\u2022 state how the overproduction of offspring in each species for many generations contributed to the\npresence of different ear sizes   [1]\nJackrabbit\nFennec Fox\nSnowshoe Hare\nArctic Fox\nLiving Environment\u2013June \u201914\n[24]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "67\u201369 Discuss how differences in ear size in these organisms might have occurred. In your answer, be sure to: \u2022 explain how the size of these animals\u2019 ears can help the animals survive in their environment \u2022 identify one process that most likely resulted in the animals in warm climates having large ears, while animals in cold climates have small ears \u2022",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/context_67_69.png",
+      "context": "Base your answer to question 67\u201369 on the information and photographs below and on your knowledge of\nbiology.\nIn addition to their use for hearing, ears contain many blood vessels that allow heat to\nescape into the air. Animals that live in warm climates tend to have ears with large areas\nexposed to the environment. Animals in cold climates have a more compact ear that keeps\nexposure to the environment to a minimum. The photographs below show a jackrabbit from\ndesert regions of the southwestern United States and a fennec fox from northern Africa\nwith large ears, and a snowshoe hare and an arctic fox with small ears.\n67\u201369 Discuss how differences in ear size in these organisms might have occurred. In your answer, be sure\nto:\n\u2022 explain how the size of these animals\u2019 ears can help the animals survive in their environment   [1]\n\u2022 identify one process that most likely resulted in the animals in warm climates having large ears, while\nanimals in cold climates have small ears   [1]\n\u2022 state how the overproduction of offspring in each species for many generations contributed to the\npresence of different ear sizes   [1]\nJackrabbit\nFennec Fox\nSnowshoe Hare\nArctic Fox\nLiving Environment\u2013June \u201914\n[24]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State one reason why Plasmodium is considered a parasite of humans.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/q70.png",
+      "context": "Base your answers to questions 70 and 71 on the information below and on your knowledge of biology.\nPlasmodium, the world\u2019s most lethal parasite, causes malaria. The parasite enters the\nbloodstream through a mosquito bite, hiding in the human liver before invading red blood\ncells. Ultimately, millions of infected blood cells explode at once, causing fever and death\nin 3 million people a year worldwide.\nSource: Zimmer, February 12, 2001, \u201cAnimal Parasites \u2013 As Gross As It Gets,\u201d\n\u201cScience World,\u201d pg 11.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "State one negative impact on humans when the use of pesticides for mosquitoes is decreased.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/q71.png",
+      "context": "Base your answers to questions 70 and 71 on the information below and on your knowledge of biology.\nPlasmodium, the world\u2019s most lethal parasite, causes malaria. The parasite enters the\nbloodstream through a mosquito bite, hiding in the human liver before invading red blood\ncells. Ultimately, millions of infected blood cells explode at once, causing fever and death\nin 3 million people a year worldwide.\nSource: Zimmer, February 12, 2001, \u201cAnimal Parasites \u2013 As Gross As It Gets,\u201d\n\u201cScience World,\u201d pg 11.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "If a large quantity of herbicide, a chemical that is designed to kill weeds, were accidentally spilled into a large lake,",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/q72.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "Which statement best describes a relationship between the common ancestor and the other organisms in the diagram?",
+      "choices": [
+        "The common ancestor most likely has segments of its DNA that will match each of the other organisms\u2019.",
+        "The common ancestor is more closely related to macaques than to gibbons.",
+        "Orangutans and gorillas have exactly the same DNA as the common ancestor.",
+        "Chimps and baboons were the first organisms to evolve from the common ancestor."
+      ],
+      "image": "/images/exams/living-environment/june-2014/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the diagram below and on your knowledge of biology. The diagram\nrepresents evolutionary relationships among some primates.\nNote: The answers to questions 73 and 74 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "A line representing an organism that is closely related to leaf monkeys and that evolved at about the same time as the gibbons would be drawn beginning at point",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2014/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the diagram below and on your knowledge of biology. The diagram\nrepresents evolutionary relationships among some primates.\nNote: The answers to questions 73 and 74 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "The parents of a new baby believe they brought the wrong child home from the hospital. Gel electrophoresis was performed using DNA samples from the parents and the child. A section of the gel electrophoresis results is shown below.",
+      "choices": [
+        "They have the correct child, because her genetic information is identical to that of the father.",
+        "They have the wrong child, because her genetic information does not match that of either parent.",
+        "They have the correct child, because her genetic information came from both parents.",
+        "They have the wrong child, because her genetic information matches only that of the mother."
+      ],
+      "image": "/images/exams/living-environment/june-2014/q75.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "The extremes of dry and wet weather of the Galapagos Islands cause the food supply to constantly change. During dry years, the food is mainly large, hard seeds, and finches with large beaks are found in greater numbers. Which statement best explains this observation?",
+      "choices": [
+        "Dry environments cause mutations in finches.",
+        "Finches grow larger when they have more water.",
+        "Small finches become smaller during dry seasons.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "State one reason why the pulse rates were not the same for all three students, even though they were all resting at the time.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/context_77_78.png",
+      "context": "Base your answers to questions 77 and 78 on the information below and on your knowledge of biology.\nThree students took their pulse rates in beats per minute (bpm) while sitting in class.\nThe results are shown in the data table below.\nPulse Rates of Three Students",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "What is the average pulse rate, in bpm, for this group of students? bpm Student Pulse Rate (bpm) 1 73 2 85 3 67",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/context_77_78.png",
+      "context": "Base your answers to questions 77 and 78 on the information below and on your knowledge of biology.\nThree students took their pulse rates in beats per minute (bpm) while sitting in class.\nThe results are shown in the data table below.\nPulse Rates of Three Students",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "State the effect of increasing the percent of salt in the solution used to water the plants on the average final height of the plants in groups A through D.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the information and data table below and on your knowledge\nof biology.\nIn an experiment, three plants of the same species were grown in each of six identical\npots. The heights of the plants were measured when growth began. Each of the pots was\nwatered every day with salt solutions of different concentrations. The data for the \nexperiment are shown in the table below.\nEffect of Salt Solution on the Height of Plants",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "State one way diffusion was involved in the cause of death of the plants in groups E and F. Plant Group Percent Salt Solution Used for Watering the Plants Average Initial Height (centimeters) Average Final Height (centimeters) A 0 2 30 B 1 2 28 C 2 3 15 D 3 2 10 E 4 3 (died) F 5 3 (died)",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the information and data table below and on your knowledge\nof biology.\nIn an experiment, three plants of the same species were grown in each of six identical\npots. The heights of the plants were measured when growth began. Each of the pots was\nwatered every day with salt solutions of different concentrations. The data for the \nexperiment are shown in the table below.\nEffect of Salt Solution on the Height of Plants",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "In an experiment to determine the effect of exercise on pulse rate, a student checks his pulse rate before and after exercising for several minutes. The purpose of checking his pulse rate before exercising is that it",
+      "choices": [
+        "serves as the conclusion for the experiment",
+        "is needed to justify the sample size",
+        "serves as a control for the experiment",
+        "is needed to formulate a hypothesis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "What is an advantage of a change in pulse rate after exercising?",
+      "choices": [
+        "The heart needs to produce more energy to supply the active muscle cells and maintain homeostasis.",
+        "An increased blood flow carries excess waste products away from the active muscle cells.",
+        "The blood is removing oxygen from muscle cells that were not active and carrying it to muscle cells that are active.",
+        "The blood is supplying the active muscle cells with carbon dioxide to neutralize wastes in those cells."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "The diagrams below represent seeds taken from a carrot plant and seeds taken from plant species 1, 2, and 3. Which species would be expected to be most similar to the carrot? Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/q83.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Other than having a variation in beak characteristics, describe another variation in a finch species that could promote survival of an individual bird. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2014/q84.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Identify or describe one tool used in \u201cThe Beaks of Finches\u201d lab, and explain why the special features of this beak represented either an advantage or a disadvantage in the competition. Tool: Advantage or disadvantage: Explanation: Carrot Species 1 Species 2 Species 3 LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

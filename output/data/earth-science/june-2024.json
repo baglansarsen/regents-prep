@@ -1,0 +1,1086 @@
+{
+  "subject": "earth-science",
+  "session": "june-2024",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The diagrams below represent the atmosphere and inferred interior structure of the planet Uranus. Core (silicate/iron-nickel rock) Mantle (water, ammonia, methane ices) Atmosphere (hydrogen, helium, methane gases) Outer atmosphere (the upper cloud layer) Which two factors caused the inferred layered structure of this planet in our solar system?",
+      "choices": [
+        "gravity and eccentricity of the orbit",
+        "gravity and density differences of materials",
+        "period of rotation at equator and eccentricity of the orbit",
+        "period of rotation at equator and density differences of materials"
+      ],
+      "image": "/images/exams/earth-science/june-2024/q1.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which process occurring in the Sun produces energy by converting lighter hydrogen into heavier helium?",
+      "choices": [
+        "radiation",
+        "conduction",
+        "radioactive decay",
+        "nuclear fusion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Compared to the sizes and periods of revolution of the terrestrial planets, the Jovian planets have",
+      "choices": [
+        "smaller sizes and shorter periods of revolution",
+        "smaller sizes and longer periods of revolution",
+        "larger sizes and shorter periods of revolution",
+        "larger sizes and longer periods of revolution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a dust-covered, icy object that has a highly elliptical orbit in our solar system. This celestial object is most likely a",
+      "choices": [
+        "comet that leaves a trail of particles in space",
+        "meteor that leaves a trail of light across the sky",
+        "moon that revolves around a planet",
+        "planet that revolves around the Sun"
+      ],
+      "image": "/images/exams/earth-science/june-2024/q4.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "At which location will the Sun appear to pass directly overhead for an observer?",
+      "choices": [
+        "northern Asia",
+        "northern Australia",
+        "southern Greenland",
+        "southern Antarctica"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The hydrosphere covers approximately",
+      "choices": [
+        "70% of Earth\u2019s atmosphere",
+        "70% of Earth\u2019s lithosphere",
+        "85% of Earth\u2019s atmosphere",
+        "85% of Earth\u2019s lithosphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a one-mile diameter feature on Earth\u2019s surface. What is this feature, and how was it formed?",
+      "choices": [
+        "dry kettle lake, formed from an impact event",
+        "dry kettle lake, formed from a retreating glacier",
+        "crater, formed from an impact event",
+        "crater, formed from a retreating glacier"
+      ],
+      "image": "/images/exams/earth-science/june-2024/q7.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The time-lapse photograph below shows stars as they appear to move around the central star Polaris. Polaris does not appear to move in the nighttime sky because Polaris is located",
+      "choices": [
+        "in our solar system",
+        "in our galaxy",
+        "above Earth\u2019s axis of rotation",
+        "above Earth\u2019s equator"
+      ],
+      "image": "/images/exams/earth-science/june-2024/q8.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The map below shows fi ve locations, labeled A, B, C, D, and X, on Earth\u2019s surface. Solar noon is occurring at location X. 0\u00b0 30\u00b0 60\u00b0 90\u00b0 30\u00b0 0\u00b0 30\u00b0 60\u00b0 90\u00b0 30\u00b0 30\u00b0 0\u00b0 30\u00b060\u00b090\u00b0 30\u00b0 0\u00b0 30\u00b0 60\u00b0 90\u00b0 15\u00b0 15\u00b0 15\u00b0 15\u00b0 45\u00b0 45\u00b0 75\u00b0 75\u00b0 A X B C D At which location is the time 2:00 p.m.?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2024/q9.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Approximately how many degrees per day does Earth move in its orbit around the Sun?",
+      "choices": [
+        "1\u00b0/day",
+        "15\u00b0/day",
+        "24\u00b0/day",
+        "360\u00b0/day"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which motion explains why some constellations appear in the night sky only during specifi c seasons?",
+      "choices": [
+        "The Sun revolves around Earth.",
+        "Earth revolves around the Sun.",
+        "Constellations revolve around Earth.",
+        "Constellations revolve around the Sun."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "What is the relative humidity when the air temperature is 20\u00b0C and the wet-bulb temperature is 11\u00b0C?",
+      "choices": [
+        "9%",
+        "2%",
+        "17%",
+        "30%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Earth\u2019s early atmosphere consisted of carbon dioxide, water vapor, hydrogen, and nitrogen. During this time in Earth\u2019s history, the fi rst crust formed and was made of igneous rock. Based on this information, how did Earth\u2019s early atmosphere most likely form?",
+      "choices": [
+        "outgassing from volcanic eruptions",
+        "radioactive decay of igneous rock",
+        "release of gases from plant life",
+        "evaporation of ocean water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The subtropical jet streams are located in Earth\u2019s",
+      "choices": [
+        "lower troposphere near 30\u00b0 N and 30\u00b0 S",
+        "upper troposphere near 30\u00b0 N and 30\u00b0 S",
+        "lower troposphere near 60\u00b0 N and 60\u00b0 S",
+        "upper troposphere near 60\u00b0 N and 60\u00b0 S"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The transfer of heat energy in the oceans due to density differences is best described as",
+      "choices": [
+        "conduction",
+        "convection",
+        "radiation",
+        "insolation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which list of Earth materials indicates an increasing order in the amount of energy needed to raise the temperatures of equal masses of the materials by 1\u00b0C?",
+      "choices": [
+        "copper, iron, basalt",
+        "basalt, iron, granite",
+        "iron, copper, lead",
+        "lead, basalt, granite"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which color and texture of surfaces with equal areas will have the least temperature increase when heated by the Sun?",
+      "choices": [
+        "light color and smooth texture",
+        "light color and rough texture",
+        "dark color and smooth texture",
+        "dark color and rough texture"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Over the last 200 years, global warming is inferred to be primarily caused by",
+      "choices": [
+        "strong El Ni\u00f1o conditions",
+        "retreating glaciers",
+        "an increase in greenhouse gases",
+        "an increase in sea level"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The graph below shows predicted air temperatures and dewpoints for a New York State location during a two-day period. Predicted Air Temperatures and Dewpoints Temperature (\u00b0F) 40 35 30 25 20 15 a.m. a.m. p.m. p.m. Tuesday Monday Noon Noon 2 10 8 6 4 2 10 8 6 4 2 10 8 6 4 2 10 8 6 4 Air temperature Dewpoint What is the day and time when precipitation will most likely occur at this location?",
+      "choices": [
+        "Monday at 6:00 a.m.",
+        "Monday at 8:00 p.m.",
+        "Tuesday at 8:00 a.m.",
+        "Tuesday at 6:00 p.m."
+      ],
+      "image": "/images/exams/earth-science/june-2024/q19.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a portion of the Grand Teton Mountains on a mid-July day. The inset map of the United States shows the location of the Grand Tetons. Pacific Ocean United States Grand Tetons Which factor is responsible for the snow seen on these mountains in July?",
+      "choices": [
+        "elevation",
+        "longitude",
+        "latitude",
+        "steep slopes"
+      ],
+      "image": "/images/exams/earth-science/june-2024/q20.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which percentage of the radioactive potassium-40 in a sample will have decayed in 2.6 \u00d7 109 years?",
+      "choices": [
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Based on Earth\u2019s geologic history, which group of organisms has existed for the shortest amount of time?",
+      "choices": [
+        "grasses",
+        "dinosaurs",
+        "birds",
+        "humans"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Oxygen fi rst became a major part of Earth\u2019s atmosphere from the",
+      "choices": [
+        "rifting in the Iapetus ocean",
+        "life processes of cyanobacteria in the ocean",
+        "extensive coal-forming forests",
+        "breakdown of ozone by ultraviolet radiation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The letter X on the map below shows the location of the present state of Florida on the early continent of North America. X The region that is now Florida is inferred to have been positioned on the equator approximately",
+      "choices": [
+        "59 million years ago",
+        "119 million years ago",
+        "232 million years ago",
+        "458 million years ago"
+      ],
+      "image": "/images/exams/earth-science/june-2024/q24.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The division of geologic time into eras, periods, and epochs is based upon the",
+      "choices": [
+        "appearance and extinction of life forms",
+        "occurrences of widespread volcanic eruptions",
+        "reversals in Earth\u2019s magnetic fi eld",
+        "major mountain-building events"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The fi rst P-wave from an earthquake was recorded at 10:20:00 a.m. at a seismic station located 2200 km from the earthquake epicenter. At what time did the S-wave arrive?",
+      "choices": [
+        "10:12:00 a.m.",
+        "10:16:30 a.m.",
+        "10:23:30 a.m.",
+        "10:27:50 a.m."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which two hot spots are located at plate boundaries?",
+      "choices": [
+        "Iceland and Yellowstone",
+        "Tasman and St. Helena",
+        "Canary Island and Galapagos",
+        "Easter Island and Bouvet"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The block diagram below shows a portion of a meandering stream. Points A, B, C, and D are locations on the streambed. The arrows show the direction of stream fl ow. A B C D At which location is the greatest amount of deposition most likely occurring?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2024/q28.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Instruments that record seismic waves on Mars allow scientists to infer the",
+      "choices": [
+        "gravitational forces between Mars and its two moons",
+        "percentage of minerals in the crust of Mars",
+        "availability of surface water on Mars",
+        "internal structure of Mars"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The block diagram below represents a landscape with two valleys. Valley Sandstone Limestone Conglomerate Shale Shale Igneous rock Valley Mountains The two valleys most likely formed because the shale and limestone bedrock",
+      "choices": [
+        "are less resistant to weathering than the igneous, sandstone, and conglomerate bedrock",
+        "are more resistant to weathering than the igneous, sandstone, and conglomerate bedrock",
+        "have undergone shorter periods of weathering than the igneous, sandstone, and conglomerate bedrock",
+        "have undergone longer periods of weathering than the igneous, sandstone, and conglomerate bedrock"
+      ],
+      "image": "/images/exams/earth-science/june-2024/q30.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The photograph below shows rocks found in England. Which process most likely caused these rocks to become smooth and round over time?",
+      "choices": [
+        "abrasion in moving water",
+        "dragging by a glacier",
+        "sandblasting by wind",
+        "downward movement by gravity"
+      ],
+      "image": "/images/exams/earth-science/june-2024/q31.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "The photograph below shows a volcanic mountain. Which map best shows the most likely complete stream drainage pattern near the summit (top) of this mountain at the time of this photograph? ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The aerial photograph below shows a landscape feature. Ocean This landscape feature is a",
+      "choices": [
+        "landslide formed by mass movement",
+        "landslide formed by stream deposition",
+        "delta formed by mass movement",
+        "delta formed by stream deposition"
+      ],
+      "image": "/images/exams/earth-science/june-2024/q33.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "What is the name and texture of a sedimentary rock composed of carbon?",
+      "choices": [
+        "shale with a clastic texture",
+        "shale with a bioclastic texture",
+        "bituminous coal with a clastic texture",
+        "bituminous coal with a bioclastic texture"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The cross section below represents an igneous intrusion into sedimentary bedrock layers. Letters A, B, and C identify different rocks within the shaded zone of contact metamorphism. A B C Igneous intrusion Which metamorphic rocks are most likely formed in zones A, B, and C?",
+      "choices": [
+        "A = marble, B = gneiss, C = schist",
+        "A = marble, B = quartzite, C = metaconglomerate",
+        "A = metaconglomerate, B = quartzite, C = marble",
+        "A = metaconglomerate, B = schist, C = gneiss"
+      ],
+      "image": "/images/exams/earth-science/june-2024/q35.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The gravitational force pulling the galaxies together is infl uenced by the",
+      "choices": [
+        "mass of the stars and amount of cosmic background radiation",
+        "mass of all the stars and the distance between the two galaxies",
+        "ages of the stars and amount of cosmic background radiation",
+        "ages of the stars and the distance between the two galaxies"
+      ],
+      "image": "/images/exams/earth-science/june-2024/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the diagram below and on your knowledge of Earth science. The \ndiagram represents the predicted collision between the Milky Way and its sister galaxy, Andromeda. The collision \nis predicted to begin in about four billion years. It will take an additional two billion years to completely merge \nthese two galaxies into one galaxy.\nCollision Scenario for the Milky Way and Andromeda Galaxies\nAndromeda\n(M31)\nCollision in\n4 billion years\nMilky Way",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The Andromeda Galaxy has a shape that is similar to the Milky Way Galaxy. The shape of the Andromeda Galaxy is best described as",
+      "choices": [
+        "elliptical and is the only other galaxy in the universe",
+        "elliptical and is one of the billions of other galaxies in the universe",
+        "spiral and is the only other galaxy in the universe",
+        "spiral and is one of billions of other galaxies in the universe"
+      ],
+      "image": "/images/exams/earth-science/june-2024/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the diagram below and on your knowledge of Earth science. The \ndiagram represents the predicted collision between the Milky Way and its sister galaxy, Andromeda. The collision \nis predicted to begin in about four billion years. It will take an additional two billion years to completely merge \nthese two galaxies into one galaxy.\nCollision Scenario for the Milky Way and Andromeda Galaxies\nAndromeda\n(M31)\nCollision in\n4 billion years\nMilky Way",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which process is represented by letter A?",
+      "choices": [
+        "transpiration",
+        "capillarity",
+        "infi ltration",
+        "precipitation"
+      ],
+      "image": "/images/exams/earth-science/june-2024/context_38_40.png",
+      "context": "Base your answers to questions 38 through 40 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the water cycle. Letters A through C identify some processes. Arrows represent the \nmovement of water.\nOcean\nSun\nThe Water Cycle\nGroundwater\nZone of saturation\nA\nC\nB",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which process and heat-energy exchange are represented by letter B?",
+      "choices": [
+        "condensation; gain of 334 J/g",
+        "condensation; release of 2260 J/g",
+        "evaporation; gain of 2260 J/g",
+        "evaporation; release of 334 J/g"
+      ],
+      "image": "/images/exams/earth-science/june-2024/context_38_40.png",
+      "context": "Base your answers to questions 38 through 40 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the water cycle. Letters A through C identify some processes. Arrows represent the \nmovement of water.\nOcean\nSun\nThe Water Cycle\nGroundwater\nZone of saturation\nA\nC\nB",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which conditions would cause runoff at location C to decrease?",
+      "choices": [
+        "decreased precipitation and decreased slope",
+        "decreased precipitation and increased slope",
+        "increased precipitation and decreased slope",
+        "increased precipitation and increased slope"
+      ],
+      "image": "/images/exams/earth-science/june-2024/context_38_40.png",
+      "context": "Base your answers to questions 38 through 40 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the water cycle. Letters A through C identify some processes. Arrows represent the \nmovement of water.\nOcean\nSun\nThe Water Cycle\nGroundwater\nZone of saturation\nA\nC\nB",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "written",
+      "text": "Which profi le represents the most likely shape of the land between locations A and B? A Location Elevation (ft) B ( 1 ) A Location Elevation (ft) B ( 2 ) A Location Elevation (ft) B ( 3 ) A Location Elevation (ft) B ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the topographic map below and on your knowledge of Earth \nscience. Lines AB and CD are reference lines on the map. Elevations are shown in feet. Letter X represents a \nlocation on Earth\u2019s surface.\nA\n0\n1\nN\nB\nC\nPond\n1000\nLake\nX\n500\n2 miles\nContour interval 100 feet\nD",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "What is the approximate gradient, in feet per mile (ft/mi), from point C to point D on the map?",
+      "choices": [
+        "133 ft/mi",
+        "167 ft/mi",
+        "250 ft/mi",
+        "500 ft/mi"
+      ],
+      "image": "/images/exams/earth-science/june-2024/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the topographic map below and on your knowledge of Earth \nscience. Lines AB and CD are reference lines on the map. Elevations are shown in feet. Letter X represents a \nlocation on Earth\u2019s surface.\nA\n0\n1\nN\nB\nC\nPond\n1000\nLake\nX\n500\n2 miles\nContour interval 100 feet\nD",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Letter X is located on which landscape feature?",
+      "choices": [
+        "sandbar",
+        "sand dune",
+        "escarpment",
+        "fl ood plain"
+      ],
+      "image": "/images/exams/earth-science/june-2024/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the topographic map below and on your knowledge of Earth \nscience. Lines AB and CD are reference lines on the map. Elevations are shown in feet. Letter X represents a \nlocation on Earth\u2019s surface.\nA\n0\n1\nN\nB\nC\nPond\n1000\nLake\nX\n500\n2 miles\nContour interval 100 feet\nD",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "The arrows on which map best represent the direction of stream fl ow relative to the pond? ( 1 ) ( 3 ) ( 2 ) ( 4 ) Pond Pond Pond Pond",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the topographic map below and on your knowledge of Earth \nscience. Lines AB and CD are reference lines on the map. Elevations are shown in feet. Letter X represents a \nlocation on Earth\u2019s surface.\nA\n0\n1\nN\nB\nC\nPond\n1000\nLake\nX\n500\n2 miles\nContour interval 100 feet\nD",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Compared to the density and thickness of the continental crust in diagram A, the oceanic crust is",
+      "choices": [
+        "less dense and thinner",
+        "less dense and thicker",
+        "more dense and thinner",
+        "more dense and thicker"
+      ],
+      "image": "/images/exams/earth-science/june-2024/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the cross sections below and on your knowledge of Earth \nscience. The cross sections represent three plate boundaries labeled A, B, and C.\nContinental\ncrust\nContinental\ncrust\nOcean\nOcean\nContinental\ncrust\nOceanic crust\nOceanic crust\nOceanic crust\n( A )\n( B )\n( C )",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Which diagram best represents the relative motion of the oceanic crust at plate boundary B? ( 3 ) ( 1 ) ( 4 ) ( 2 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the cross sections below and on your knowledge of Earth \nscience. The cross sections represent three plate boundaries labeled A, B, and C.\nContinental\ncrust\nContinental\ncrust\nOcean\nOcean\nContinental\ncrust\nOceanic crust\nOceanic crust\nOceanic crust\n( A )\n( B )\n( C )",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which geologic surface feature is created at plate boundary C?",
+      "choices": [
+        "ocean trench",
+        "rift valley",
+        "volcanic mountain",
+        "folded mountain"
+      ],
+      "image": "/images/exams/earth-science/june-2024/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the cross sections below and on your knowledge of Earth \nscience. The cross sections represent three plate boundaries labeled A, B, and C.\nContinental\ncrust\nContinental\ncrust\nOcean\nOcean\nContinental\ncrust\nOceanic crust\nOceanic crust\nOceanic crust\n( A )\n( B )\n( C )",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "The coral that eventually became Petoskey stones were alive during which geologic time period?",
+      "choices": [
+        "Permian",
+        "Devonian",
+        "Silurian",
+        "Ordovician"
+      ],
+      "image": "/images/exams/earth-science/june-2024/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the passage and photograph below and on your knowledge \nof Earth science. The photograph shows a typical Petoskey stone.\nPetoskey Stones\nPetoskey stones are famous rock specimens found on beaches all around Lake \nMichigan, but especially on beaches near the city of Petoskey, Michigan. The stones are \nactually well-eroded pieces of coral reefs that were alive between 375 and 400 million \nyears ago. At the time the coral animals were living and forming the reefs, the area was \nunderwater and the coral, along with many other reef animals, thrived. Eventually, the \nocean disappeared and the fossil reefs were uncovered. Advancing and retreating glaciers \nbroke pieces off the fossil reefs, smoothed their edges, and distributed them throughout \nthe area. Lake Michigan, along with the other Great Lakes, formed at the end of the \nIce Age. Today, lake waves continue to distribute a seemingly endless supply of Petoskey \nstones, with their unique coral fossils, to the beaches around Lake Michigan.\n6\ncm1\n2\n3\n4\n5\n( Actual size )",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which New York State index fossil is in the same group of organisms as the Petoskey stone coral?",
+      "choices": [
+        "Lichenaria",
+        "Platyceras",
+        "Bothriolepis",
+        "Cooksonia"
+      ],
+      "image": "/images/exams/earth-science/june-2024/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the passage and photograph below and on your knowledge \nof Earth science. The photograph shows a typical Petoskey stone.\nPetoskey Stones\nPetoskey stones are famous rock specimens found on beaches all around Lake \nMichigan, but especially on beaches near the city of Petoskey, Michigan. The stones are \nactually well-eroded pieces of coral reefs that were alive between 375 and 400 million \nyears ago. At the time the coral animals were living and forming the reefs, the area was \nunderwater and the coral, along with many other reef animals, thrived. Eventually, the \nocean disappeared and the fossil reefs were uncovered. Advancing and retreating glaciers \nbroke pieces off the fossil reefs, smoothed their edges, and distributed them throughout \nthe area. Lake Michigan, along with the other Great Lakes, formed at the end of the \nIce Age. Today, lake waves continue to distribute a seemingly endless supply of Petoskey \nstones, with their unique coral fossils, to the beaches around Lake Michigan.\n6\ncm1\n2\n3\n4\n5\n( Actual size )",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The Petoskey stone shown in the photograph is classifi ed as a",
+      "choices": [
+        "sand",
+        "pebble",
+        "cobble",
+        "boulder"
+      ],
+      "image": "/images/exams/earth-science/june-2024/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the passage and photograph below and on your knowledge \nof Earth science. The photograph shows a typical Petoskey stone.\nPetoskey Stones\nPetoskey stones are famous rock specimens found on beaches all around Lake \nMichigan, but especially on beaches near the city of Petoskey, Michigan. The stones are \nactually well-eroded pieces of coral reefs that were alive between 375 and 400 million \nyears ago. At the time the coral animals were living and forming the reefs, the area was \nunderwater and the coral, along with many other reef animals, thrived. Eventually, the \nocean disappeared and the fossil reefs were uncovered. Advancing and retreating glaciers \nbroke pieces off the fossil reefs, smoothed their edges, and distributed them throughout \nthe area. Lake Michigan, along with the other Great Lakes, formed at the end of the \nIce Age. Today, lake waves continue to distribute a seemingly endless supply of Petoskey \nstones, with their unique coral fossils, to the beaches around Lake Michigan.\n6\ncm1\n2\n3\n4\n5\n( Actual size )",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw the 1000 mb and 1004 mb isobars. Extend the isobars to the edges of the map.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the weather map in your answer booklet and on your \nknowledge of Earth science. The weather map shows air pressures in millibars (mb) at locations on and around \nthe Florida Peninsula during Hurricane Wilma. Five isobars are shown.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both the 1000 mb and 1004 mb isobars are correctly drawn to the edges of the map. The isobars must pass through or touch both 1000 dots and both 1004 dots. If additional isobars are drawn, all isobars must be correct to receive credit. Example of a 1-credit response: 86\u00b0 W 32\u00b0 N 23\u00b0 N 32\u00b0 N 23\u00b0 N 77\u00b0 W 86\u00b0 W 77\u00b0 W Florida Peninsula 1006 1001 999 997 998 997 1004 1008 984 992 996 988 1005 1007 1000 1002 1006 1004 1000 Gulf of Mexico Atlantic Ocean 1003"
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Convert the air pressure of the lowest value isobar shown on the map from millibars to inches of mercury.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the weather map in your answer booklet and on your \nknowledge of Earth science. The weather map shows air pressures in millibars (mb) at locations on and around \nthe Florida Peninsula during Hurricane Wilma. Five isobars are shown.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 29.05 to 29.06 in of Hg. Part B\u20132 Allow a maximum of 15 credits for this part. To ensure the accuracy of overlays, select a printer setting such as full, actual size, or 100% when printing this document. Do not select the fit to page setting. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Identify the weather instrument used to measure air pressure.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the weather map in your answer booklet and on your \nknowledge of Earth science. The weather map shows air pressures in millibars (mb) at locations on and around \nthe Florida Peninsula during Hurricane Wilma. Five isobars are shown.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for barometer or barograph."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Write the two-letter weather map symbol for the type of air mass in which this hurricane formed.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the weather map in your answer booklet and on your \nknowledge of Earth science. The weather map shows air pressures in millibars (mb) at locations on and around \nthe Florida Peninsula during Hurricane Wilma. Five isobars are shown.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for mT. Allow credit for either uppercase or lowercase letters. Note: Do not allow credit if air-mass letters are reversed, such as Tm or TM. For students who used the Spanish edition, either exclusively or in conjunction with the English edition of the exam, allow credit for the correct two-letter air-mass symbol as it appears in either the English or Spanish 2011 Edition Reference Tables for Physical Setting/Earth Science."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Determine the rock formation temperature for a rock sample with a garnet coeffi cient of 1.55.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_55_57.png",
+      "context": "Base your answers to questions 55 through 57 on the passage and data table below and on your knowledge of \nEarth science. The data table shows garnet coeffi cients and rock formation temperatures.\nUsing Garnet as a Geothermometer\nA geothermometer mineral is a mineral with slight differences in composition that \ncan be used to estimate the temperature at which some types of metamorphic rock form. \nGarnet is a geothermometer mineral because there are several kinds of garnet that contain \ndifferent amounts of iron and magnesium. The \u201cgarnet coeffi cient\u201d indicates the ratio of \niron to magnesium found in the garnet. When the garnet coeffi cient is high, there is a \ngreater percentage of iron compared to magnesium. The garnet coeffi cient is an indicator \nof the temperature at which a metamorphic rock formed.\nGarnet Coe\ufb03  cient and Rock\nFormation Temperature\nGarnet\nCoe\ufb03  cient\nTemperature at Which\nMetamorphic Rock Formed (\u00baC)\n1.22\n720\n1.34\n680\n1.38\n670\n1.40\n660\n1.47\n640\n1.63\n590\n1.70\n570",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value great than 590\u00b0C but less than 640\u00b0C."
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Describe the rock formation temperatures that are indicated when higher garnet coeffi cients are found.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_55_57.png",
+      "context": "Base your answers to questions 55 through 57 on the passage and data table below and on your knowledge of \nEarth science. The data table shows garnet coeffi cients and rock formation temperatures.\nUsing Garnet as a Geothermometer\nA geothermometer mineral is a mineral with slight differences in composition that \ncan be used to estimate the temperature at which some types of metamorphic rock form. \nGarnet is a geothermometer mineral because there are several kinds of garnet that contain \ndifferent amounts of iron and magnesium. The \u201cgarnet coeffi cient\u201d indicates the ratio of \niron to magnesium found in the garnet. When the garnet coeffi cient is high, there is a \ngreater percentage of iron compared to magnesium. The garnet coeffi cient is an indicator \nof the temperature at which a metamorphic rock formed.\nGarnet Coe\ufb03  cient and Rock\nFormation Temperature\nGarnet\nCoe\ufb03  cient\nTemperature at Which\nMetamorphic Rock Formed (\u00baC)\n1.22\n720\n1.34\n680\n1.38\n670\n1.40\n660\n1.47\n640\n1.63\n590\n1.70\n570",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Garnet coefficients are higher when rock formation temperature is lower. \u2014 Higher temperatures result in lower garnet coefficients. \u2014 inverse relationship/negative correlation"
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Identify one foliated metamorphic rock for which the garnet coeffi cient might be used to determine the temperature at which the rock formed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_55_57.png",
+      "context": "Base your answers to questions 55 through 57 on the passage and data table below and on your knowledge of \nEarth science. The data table shows garnet coeffi cients and rock formation temperatures.\nUsing Garnet as a Geothermometer\nA geothermometer mineral is a mineral with slight differences in composition that \ncan be used to estimate the temperature at which some types of metamorphic rock form. \nGarnet is a geothermometer mineral because there are several kinds of garnet that contain \ndifferent amounts of iron and magnesium. The \u201cgarnet coeffi cient\u201d indicates the ratio of \niron to magnesium found in the garnet. When the garnet coeffi cient is high, there is a \ngreater percentage of iron compared to magnesium. The garnet coeffi cient is an indicator \nof the temperature at which a metamorphic rock formed.\nGarnet Coe\ufb03  cient and Rock\nFormation Temperature\nGarnet\nCoe\ufb03  cient\nTemperature at Which\nMetamorphic Rock Formed (\u00baC)\n1.22\n720\n1.34\n680\n1.38\n670\n1.40\n660\n1.47\n640\n1.63\n590\n1.70\n570",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 phyllite \u2014 schist \u2014 gneiss"
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Compared to the average monthly air temperature curve for Melbourne, describe how the average monthly air temperature curve is different for a city in New York State.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_58_59.png",
+      "context": "Base your answers to questions 58 and 59 on the map and graph below and on your knowledge of Earth \nscience. The map of Australia shows the locations of three cities: Brisbane, Melbourne, and Wagga Wagga. The \ngraph shows the average monthly air temperatures in Wagga Wagga and Melbourne, in degrees Celsius (\u00b0C).\n10\u00b0 S\n20\u00b0 S\n30\u00b0 S\n40\u00b0 S\n160\u00b0 E\n150\u00b0 E\n140\u00b0 E\n130\u00b0 E\n120\u00b0 E\n110\u00b0 E\nMelbourne\nAustralia\nBrisbane\nWagga Wagga\n30\n10\n20\n0\nJ\nF\nM\nA\nM\nMonth\nAir temperature (\u00b0C)\nAverage Monthly Air Temperatures\nJ\nJ\nA\nS\nO\nN\nD\nW\na\ngg\na Wa\ngga\nM\nel\nbo\nurn\ne\n\nP.S./E. Sci.\u2013June \u201924 \n[21] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The warmest temperatures occur in June, July, and August and the coldest temperatures occur in December, January, and February for a city in New York State. \u2014 The curve would be opposite of Melbourne\u2019s curve. \u2014 Temperatures would increase until July then decrease. \u2014 The line would generally go up to the middle of the graph, then down. \u2014 The range of temperatures on the curve would be greater for a location in New York State. Note: Do not allow credit for \u201cit is cold in the winter and/or warm in the summer\u201d because it is always cold in the winter and warm in the summer, this alone does not explain that the seasons are reversed for these locations."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "In your answer booklet, circle warm or cool to indicate the relative temperature of the ocean current that fl ows off the coast of Brisbane. State the name of this current.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_58_59.png",
+      "context": "Base your answers to questions 58 and 59 on the map and graph below and on your knowledge of Earth \nscience. The map of Australia shows the locations of three cities: Brisbane, Melbourne, and Wagga Wagga. The \ngraph shows the average monthly air temperatures in Wagga Wagga and Melbourne, in degrees Celsius (\u00b0C).\n10\u00b0 S\n20\u00b0 S\n30\u00b0 S\n40\u00b0 S\n160\u00b0 E\n150\u00b0 E\n140\u00b0 E\n130\u00b0 E\n120\u00b0 E\n110\u00b0 E\nMelbourne\nAustralia\nBrisbane\nWagga Wagga\n30\n10\n20\n0\nJ\nF\nM\nA\nM\nMonth\nAir temperature (\u00b0C)\nAverage Monthly Air Temperatures\nJ\nJ\nA\nS\nO\nN\nD\nW\na\ngg\na Wa\ngga\nM\nel\nbo\nurn\ne\n\nP.S./E. Sci.\u2013June \u201924 \n[21] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for circling warm and identifying the East Australia/East Australia Current as the ocean current. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify one agent of erosion that removed the sediment and changed the position of the escarpment between 1838 and 1988.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the cross sections below and on your knowledge of Earth \nscience. The cross sections represent changes in the land at the Montauk Lighthouse between 1838 and 1988. \nThe Montauk Lighthouse, built on unconsolidated sediments, is located on the easternmost tip of Long Island. \nThe distance from the center of the lighthouse to the edge of the escarpment is indicated in each cross section.\nMontauk Lighthouse - 1838\n220 feet\nOcean\nMontauk Lighthouse - 1988\n100 feet\nEdge of\nescarpment\nOcean\nEdge of\nescarpment",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 wave action/ocean waves \u2014 mass movement/gravity \u2014 rainwater runoff \u2014 groundwater seepage \u2014 wind 61 Allow 1 credit for 0.8 or .8 ft/yr."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Calculate the rate of erosion, in feet per year, between the lighthouse and the edge of the escarpment that occurred between 1838 and 1988. Express your answer to the nearest tenth.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the cross sections below and on your knowledge of Earth \nscience. The cross sections represent changes in the land at the Montauk Lighthouse between 1838 and 1988. \nThe Montauk Lighthouse, built on unconsolidated sediments, is located on the easternmost tip of Long Island. \nThe distance from the center of the lighthouse to the edge of the escarpment is indicated in each cross section.\nMontauk Lighthouse - 1838\n220 feet\nOcean\nMontauk Lighthouse - 1988\n100 feet\nEdge of\nescarpment\nOcean\nEdge of\nescarpment",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Describe one action that could be taken to slow down or prevent the future erosion of the land between the escarpment and the ocean.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the cross sections below and on your knowledge of Earth \nscience. The cross sections represent changes in the land at the Montauk Lighthouse between 1838 and 1988. \nThe Montauk Lighthouse, built on unconsolidated sediments, is located on the easternmost tip of Long Island. \nThe distance from the center of the lighthouse to the edge of the escarpment is indicated in each cross section.\nMontauk Lighthouse - 1838\n220 feet\nOcean\nMontauk Lighthouse - 1988\n100 feet\nEdge of\nescarpment\nOcean\nEdge of\nescarpment",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Add large boulders along the shoreline around the lighthouse. \u2014 Build barriers to stop waves from affecting the coastal areas. \u2014 Plant more trees and vegetation to hold the soil in place. \u2014 Build a seawall or jetty. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "On the graph in your answer booklet, construct a line graph by plotting the altitude of the Sun for each time of day shown on the data table. Connect all ten plots with a line. The shadow-length data have already been plotted using the scale on the right.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the data table below and on your knowledge of Earth \nscience. The data table shows the Sun\u2019s altitude and the shadow length measured from the base of a fi ve-meter-\nhigh pole on June 22 in Rochester, New York. During daylight savings time, clocks are set one hour ahead, so \nsolar noon occurs at approximately 1:00 p.m.\nData Table\nTime of Day \n(EDT)\nAltitude of Sun \nin Degrees (\u00ba)\nShadow Length in \nMeters (m)\n9:00 a.m.\n35\n7.1\n10:00 a.m.\n46\n4.8\n11:00 a.m.\n56\n3.3\n12:00 p.m.\n65\n2.3\n1:00 p.m.\n70\n1.8\n2:00 p.m.\n68\n2.0\n3:00 p.m.\n60\n2.9\n4:00 p.m.\n50\n4.1\n5:00 p.m.\n40\n6.0\n6:00 p.m.\n29\n9.1",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all ten plots are within or touch the circles shown and are correctly connected with a line that passes within or touches each circle. Note: Allow credit if the line does not pass through the student plots, but is still within or touching the circles. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating. Altitude of the Sun and Shadow Length Time of Day Altitude of Sun (\u00b0) Shadow Length (m) 9 a.m. 10 a.m. 11 a.m. 12 p.m. 1 p.m. 2 p.m. 3 p.m. 4 p.m. 5 p.m. 6 p.m. 80 70 60 50 40 30 20 10 0 10 0 2 4 6 8 Shadow length"
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Based on the data table, describe the relationship between the altitude of the Sun and the length of the shadow.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the data table below and on your knowledge of Earth \nscience. The data table shows the Sun\u2019s altitude and the shadow length measured from the base of a fi ve-meter-\nhigh pole on June 22 in Rochester, New York. During daylight savings time, clocks are set one hour ahead, so \nsolar noon occurs at approximately 1:00 p.m.\nData Table\nTime of Day \n(EDT)\nAltitude of Sun \nin Degrees (\u00ba)\nShadow Length in \nMeters (m)\n9:00 a.m.\n35\n7.1\n10:00 a.m.\n46\n4.8\n11:00 a.m.\n56\n3.3\n12:00 p.m.\n65\n2.3\n1:00 p.m.\n70\n1.8\n2:00 p.m.\n68\n2.0\n3:00 p.m.\n60\n2.9\n4:00 p.m.\n50\n4.1\n5:00 p.m.\n40\n6.0\n6:00 p.m.\n29\n9.1",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 As the altitude of the Sun increases, the shadow length decreases. \u2014 When the Sun gets higher, the shadow gets shorter. \u2014 inverse or negative relationship/negative correlation"
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Based on the graph, determine the shadow length of the pole, in meters, at 4:30 p.m.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the data table below and on your knowledge of Earth \nscience. The data table shows the Sun\u2019s altitude and the shadow length measured from the base of a fi ve-meter-\nhigh pole on June 22 in Rochester, New York. During daylight savings time, clocks are set one hour ahead, so \nsolar noon occurs at approximately 1:00 p.m.\nData Table\nTime of Day \n(EDT)\nAltitude of Sun \nin Degrees (\u00ba)\nShadow Length in \nMeters (m)\n9:00 a.m.\n35\n7.1\n10:00 a.m.\n46\n4.8\n11:00 a.m.\n56\n3.3\n12:00 p.m.\n65\n2.3\n1:00 p.m.\n70\n1.8\n2:00 p.m.\n68\n2.0\n3:00 p.m.\n60\n2.9\n4:00 p.m.\n50\n4.1\n5:00 p.m.\n40\n6.0\n6:00 p.m.\n29\n9.1",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 5.0 m to 5.1 m. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Identify the most likely geologic time period during which unconformity WX was forming.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_66_67.png",
+      "context": "Base your answers to questions 66 and 67 on the cross section below and on your knowledge of Earth science. \nLetters G and H identify some rock layers. The wavy line WX indicates an unconformity, and line YZ indicates a \nfault. Index fossils are represented in some rock layers. Rock layers have not been overturned.\nSurface\nX\nZ\nH\nW\nG\nY",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Silurian or Devonian or Ordovician Period."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "In your answer booklet, circle the term that best describes the relative age of fault YZ compared to layers G and H. Describe the evidence that infers this relative age.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_66_67.png",
+      "context": "Base your answers to questions 66 and 67 on the cross section below and on your knowledge of Earth science. \nLetters G and H identify some rock layers. The wavy line WX indicates an unconformity, and line YZ indicates a \nfault. Index fossils are represented in some rock layers. Rock layers have not been overturned.\nSurface\nX\nZ\nH\nW\nG\nY",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for both circling younger and describing correct evidence. Acceptable responses include, but are not limited to: \u2014 Fault YZ displaces both rock layers G and H. \u2014 The fault has cut across these two preexisting rock layers. \u2014 The fault illustrates the Law of Crosscutting Relationships. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "On the grid in your answer booklet, plot the positions of stars 1 through 6. Record the star number of each star beside the plot. In order to create the correct shape of Cygnus, connect the plots with two lines: the fi rst line connects the plots numbered 1-2-5-6; the second line connects the plots numbered 4-2-3. This position of Tabby\u2019s Star, number 7, has been indicated with a .",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_68_71.png",
+      "context": "Base your answers to questions 68 through 71 on the data table and passage below, and on your knowledge of \nEarth science. The data table shows the location and characteristics of seven stars, numbered 1 through 7, found \nin the constellation Cygnus.\nLocation and Characteristics of Seven Stars in Cygnus\nStar\nNumber\nStar\nName\nCelestial\nLongitude \n(hours)\nCelestial\nLatitude\n(degrees)\nTemperature (K)\nLuminosity\n1\nDeneb\n20.7\n45\n8500\n197,000\n2\nSadr\n20.3\n40\n5800\n60,000\n3\nDelta Cygni\n19.8\n45\n9800\n180\n4\nEpsilon Cygni\n20.8\n34\n4800\n60\n5\nEta Cygni\n20\n35\n4840\n54\n6\nAlberio\n19.5\n28\n4400\n950\n7\nTabby's Star\n20.1\n44\n6200\n1.5\nThe Mystery of Tabby\u2019s Star\nLocated in the constellation of Cygnus, there is a mysterious star named Tabby\u2019s Star \nthat has a constant luminosity, but has a brightness that appears to change in a cyclic manner. \nA team of astronomers has developed a plausible explanation for this change. A dust cloud \nwith a variable thickness has an approximate 700-day period of revolution around Tabby\u2019s \nStar. Why dust? Astronomers observed that a portion of the electromagnetic spectrum \nhaving wavelengths just shorter than visible light is blocked out, causing a decrease in \napparent brightness. While astronomers don\u2019t know the origin of the dust cloud around \nTabby\u2019s Star, dust unevenly spaced in its orbit around the star would explain this cyclic \ndimming of Tabby\u2019s Star.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all six student plots are within or touch the circles shown and are correctly numbered. All six plots must be correctly connected with two separate lines that pass within or touch each circle as shown below. Note: Allow credit if the lines do not pass through student plots, but are still within or touching the circles. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating. Example of a 1-credit response: Celestial Longitude (hours) Celestial Latitude (degrees) 50 45 40 35 30 25 21.0 20.5 20.0 19.5 19.0 7 2 4 5 6 1 3"
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Identify the planet in our solar system that has a period of revolution most similar to the dust cloud orbiting Tabby\u2019s Star.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_68_71.png",
+      "context": "Base your answers to questions 68 through 71 on the data table and passage below, and on your knowledge of \nEarth science. The data table shows the location and characteristics of seven stars, numbered 1 through 7, found \nin the constellation Cygnus.\nLocation and Characteristics of Seven Stars in Cygnus\nStar\nNumber\nStar\nName\nCelestial\nLongitude \n(hours)\nCelestial\nLatitude\n(degrees)\nTemperature (K)\nLuminosity\n1\nDeneb\n20.7\n45\n8500\n197,000\n2\nSadr\n20.3\n40\n5800\n60,000\n3\nDelta Cygni\n19.8\n45\n9800\n180\n4\nEpsilon Cygni\n20.8\n34\n4800\n60\n5\nEta Cygni\n20\n35\n4840\n54\n6\nAlberio\n19.5\n28\n4400\n950\n7\nTabby's Star\n20.1\n44\n6200\n1.5\nThe Mystery of Tabby\u2019s Star\nLocated in the constellation of Cygnus, there is a mysterious star named Tabby\u2019s Star \nthat has a constant luminosity, but has a brightness that appears to change in a cyclic manner. \nA team of astronomers has developed a plausible explanation for this change. A dust cloud \nwith a variable thickness has an approximate 700-day period of revolution around Tabby\u2019s \nStar. Why dust? Astronomers observed that a portion of the electromagnetic spectrum \nhaving wavelengths just shorter than visible light is blocked out, causing a decrease in \napparent brightness. While astronomers don\u2019t know the origin of the dust cloud around \nTabby\u2019s Star, dust unevenly spaced in its orbit around the star would explain this cyclic \ndimming of Tabby\u2019s Star.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Mars."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State the name of the shortwave electromagnetic energy that is mostly blocked out by the dust cloud orbiting Tabby\u2019s Star.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_68_71.png",
+      "context": "Base your answers to questions 68 through 71 on the data table and passage below, and on your knowledge of \nEarth science. The data table shows the location and characteristics of seven stars, numbered 1 through 7, found \nin the constellation Cygnus.\nLocation and Characteristics of Seven Stars in Cygnus\nStar\nNumber\nStar\nName\nCelestial\nLongitude \n(hours)\nCelestial\nLatitude\n(degrees)\nTemperature (K)\nLuminosity\n1\nDeneb\n20.7\n45\n8500\n197,000\n2\nSadr\n20.3\n40\n5800\n60,000\n3\nDelta Cygni\n19.8\n45\n9800\n180\n4\nEpsilon Cygni\n20.8\n34\n4800\n60\n5\nEta Cygni\n20\n35\n4840\n54\n6\nAlberio\n19.5\n28\n4400\n950\n7\nTabby's Star\n20.1\n44\n6200\n1.5\nThe Mystery of Tabby\u2019s Star\nLocated in the constellation of Cygnus, there is a mysterious star named Tabby\u2019s Star \nthat has a constant luminosity, but has a brightness that appears to change in a cyclic manner. \nA team of astronomers has developed a plausible explanation for this change. A dust cloud \nwith a variable thickness has an approximate 700-day period of revolution around Tabby\u2019s \nStar. Why dust? Astronomers observed that a portion of the electromagnetic spectrum \nhaving wavelengths just shorter than visible light is blocked out, causing a decrease in \napparent brightness. While astronomers don\u2019t know the origin of the dust cloud around \nTabby\u2019s Star, dust unevenly spaced in its orbit around the star would explain this cyclic \ndimming of Tabby\u2019s Star.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for ultraviolet or UV. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Complete the table in your answer booklet by identifying the color and classifi cation for two of the stars in the constellation of Cygnus based on temperature and luminosity shown in the table. Color and classifi cation for Deneb have been completed as an example.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_68_71.png",
+      "context": "Base your answers to questions 68 through 71 on the data table and passage below, and on your knowledge of \nEarth science. The data table shows the location and characteristics of seven stars, numbered 1 through 7, found \nin the constellation Cygnus.\nLocation and Characteristics of Seven Stars in Cygnus\nStar\nNumber\nStar\nName\nCelestial\nLongitude \n(hours)\nCelestial\nLatitude\n(degrees)\nTemperature (K)\nLuminosity\n1\nDeneb\n20.7\n45\n8500\n197,000\n2\nSadr\n20.3\n40\n5800\n60,000\n3\nDelta Cygni\n19.8\n45\n9800\n180\n4\nEpsilon Cygni\n20.8\n34\n4800\n60\n5\nEta Cygni\n20\n35\n4840\n54\n6\nAlberio\n19.5\n28\n4400\n950\n7\nTabby's Star\n20.1\n44\n6200\n1.5\nThe Mystery of Tabby\u2019s Star\nLocated in the constellation of Cygnus, there is a mysterious star named Tabby\u2019s Star \nthat has a constant luminosity, but has a brightness that appears to change in a cyclic manner. \nA team of astronomers has developed a plausible explanation for this change. A dust cloud \nwith a variable thickness has an approximate 700-day period of revolution around Tabby\u2019s \nStar. Why dust? Astronomers observed that a portion of the electromagnetic spectrum \nhaving wavelengths just shorter than visible light is blocked out, causing a decrease in \napparent brightness. While astronomers don\u2019t know the origin of the dust cloud around \nTabby\u2019s Star, dust unevenly spaced in its orbit around the star would explain this cyclic \ndimming of Tabby\u2019s Star.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly completing the table as shown below. Selected Stars in Cygnus Color Classification Deneb White Supergiant Alberio Yellow or Orange or Yellow-orange Giant Tabby\u2019s Star Yellow or Yellow-white Main Sequence"
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Identify the two fronts represented along line XY.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_72_74.png",
+      "context": "Base your answers to questions 72 through 74 on the weather map below and on your knowledge of Earth \nscience. The weather map shows the high (H) and low (L) pressure centers and fronts across the United States \non a January morning. The darker gray shaded areas show radar images of precipitation. A partial station model \nrepresents weather conditions in southern Texas. Two different types of fronts are represented along the line \nfrom X to Y.\nCalifornia\nCanada\nWashington\nTexas\nNew York\n217\n46\n37\nH\nH\nH\nH\nL\nL\nL\nX\nY\nN",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stationary front and cold front."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Identify the compass direction toward which the low-pressure system located just south of New York State will move if it follows a normal storm track.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_72_74.png",
+      "context": "Base your answers to questions 72 through 74 on the weather map below and on your knowledge of Earth \nscience. The weather map shows the high (H) and low (L) pressure centers and fronts across the United States \non a January morning. The darker gray shaded areas show radar images of precipitation. A partial station model \nrepresents weather conditions in southern Texas. Two different types of fronts are represented along the line \nfrom X to Y.\nCalifornia\nCanada\nWashington\nTexas\nNew York\n217\n46\n37\nH\nH\nH\nH\nL\nL\nL\nX\nY\nN",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 northeast/NE \u2014 north northeast/NNE \u2014 eastward/E \u2014 east northeast/ENE"
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Complete the table in your answer booklet by fi lling in the values for the four weather variables that are represented by the station model.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_72_74.png",
+      "context": "Base your answers to questions 72 through 74 on the weather map below and on your knowledge of Earth \nscience. The weather map shows the high (H) and low (L) pressure centers and fronts across the United States \non a January morning. The darker gray shaded areas show radar images of precipitation. A partial station model \nrepresents weather conditions in southern Texas. Two different types of fronts are represented along the line \nfrom X to Y.\nCalifornia\nCanada\nWashington\nTexas\nNew York\n217\n46\n37\nH\nH\nH\nH\nL\nL\nL\nX\nY\nN",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if all four values are correct, as shown in the table below. Weather Variable Value Cloud cover 0 % Air Temperature 46 \u00b0F Dewpoint 37 \u00b0F Barometric pressure 1021.7 mb"
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Determine whether each of the eclipses shown on the maps were visible or not visible to an observer in Hawaii. In your answer booklet, circle \u201cvisible\u201d or \u201cnot visible\u201d on the line next to the date of each eclipse.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_75_76.png",
+      "context": "Base your answers to questions 75 and 76 on the maps and data table below and on your knowledge of Earth \nscience. Map 1 shows the area where a total lunar eclipse was visible on November 8, 2022. Map 2 shows the \narea where a total solar eclipse was visible on April 20, 2023. The data table shows the date, type, and duration of \ntotality for each total eclipse that has occurred or will occur at a specifi c location during the years 2022 through \n2025.\nArea where the total lunar\neclipse was visible\nKey\nMap 1 - November 8, 2022\nHawaii\nMap 2 - April 20, 2023\nHawaii\nArea where the total solar\neclipse was visible\nKey\n\nP.S./E. Sci.\u2013June \u201924 \n[27] \n[OVER]\nTotal Eclipses 2022\u20132025\nDate\nType of Eclipse\nDuration of Totality\nMay 16, 2022\nlunar\n1 hour 25 minutes\nNovember 8, 2022\nlunar\n1 hour 25 minutes\nApril 20, 2023\nsolar\n1 minute 16 seconds\nApril 8, 2024\nsolar\n4 minutes 28 seconds\nMarch 14, 2025\nlunar\n1 hour 5 minutes\nSeptember 7, 2025\nlunar\n1 hour 22 minutes",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both responses are correctly circled, as shown below: November 8, 2022 lunar eclipse: visible not visible April 20, 2023 solar eclipse: visible not visible P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, place an X on the Moon\u2019s orbit to indicate the position of the Moon on September 7, 2025.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_75_76.png",
+      "context": "Base your answers to questions 75 and 76 on the maps and data table below and on your knowledge of Earth \nscience. Map 1 shows the area where a total lunar eclipse was visible on November 8, 2022. Map 2 shows the \narea where a total solar eclipse was visible on April 20, 2023. The data table shows the date, type, and duration of \ntotality for each total eclipse that has occurred or will occur at a specifi c location during the years 2022 through \n2025.\nArea where the total lunar\neclipse was visible\nKey\nMap 1 - November 8, 2022\nHawaii\nMap 2 - April 20, 2023\nHawaii\nArea where the total solar\neclipse was visible\nKey\n\nP.S./E. Sci.\u2013June \u201924 \n[27] \n[OVER]\nTotal Eclipses 2022\u20132025\nDate\nType of Eclipse\nDuration of Totality\nMay 16, 2022\nlunar\n1 hour 25 minutes\nNovember 8, 2022\nlunar\n1 hour 25 minutes\nApril 20, 2023\nsolar\n1 minute 16 seconds\nApril 8, 2024\nsolar\n4 minutes 28 seconds\nMarch 14, 2025\nlunar\n1 hour 5 minutes\nSeptember 7, 2025\nlunar\n1 hour 22 minutes",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the center of the X is within or touches the clear band shown below. Note: Allow credit if a symbol other than an X is used. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating. Moon\u2019s orbit Sun\u2019s rays (Not drawn to scale) Earth"
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "State the number of degrees Earth\u2019s axis is tilted to a line perpendicular to the plane of its orbit.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_77_78.png",
+      "context": "Base your answers to questions 77 and 78 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a North polar view of Earth as viewed from space on September 23. The curved arrows \nindicate the direction of Earth\u2019s rotation.\nA\nr\nc\nt\ni\nc\n \nC\ni\nr\nc\nl\ne\nSun\u2019s\nrays\nNorth\nPole",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 23.5\u00b0 or 23__1\u00ba 2 . Note: Do not allow credit if a compass direction is included in the student\u2019s response."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Explain why a Foucault pendulum located on the Arctic Circle appears to change direction as it swings.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_77_78.png",
+      "context": "Base your answers to questions 77 and 78 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a North polar view of Earth as viewed from space on September 23. The curved arrows \nindicate the direction of Earth\u2019s rotation.\nA\nr\nc\nt\ni\nc\n \nC\ni\nr\nc\nl\ne\nSun\u2019s\nrays\nNorth\nPole",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The pendulum swings in the same direction or plane above a spinning Earth. \u2014 A Foucault pendulum appears to change direction of swing as Earth rotates beneath it. \u2014 Earth is rotating."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Determine the age and the magnetic orientation of the seafl oor bedrock located 80 kilometers south of the ridge center.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the block diagram below and on your knowledge of Earth \nscience. The diagram represents the magnetic orientation of the seafl oor bedrock on both sides of the Southeast \nIndian Ridge. The age of the igneous bedrock and its distance, in kilometers, from the ridge center are shown.\nSouth\nNorth\nSoutheast Indian Ridge\nSeafloor Bedrock Age (million years)\n4\n3\n2\n1\n0\n1\n2\n3\n4\n150\n100\n50\n50\n0\n100\n150\nDistance (km)\nKey\nNormal polarity\nReversed polarity",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 1.9 to 2.1 million years for age and normal polarity for magnetic orientation."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Identify the two tectonic plates that are diverging at the Southeast Indian Ridge.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the block diagram below and on your knowledge of Earth \nscience. The diagram represents the magnetic orientation of the seafl oor bedrock on both sides of the Southeast \nIndian Ridge. The age of the igneous bedrock and its distance, in kilometers, from the ridge center are shown.\nSouth\nNorth\nSoutheast Indian Ridge\nSeafloor Bedrock Age (million years)\n4\n3\n2\n1\n0\n1\n2\n3\n4\n150\n100\n50\n50\n0\n100\n150\nDistance (km)\nKey\nNormal polarity\nReversed polarity",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Antarctic Plate and Indian-Australian Plate (Indo-Australian Plate). P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Explain, in terms of cooling rate, why surface oceanic crust forming at this ocean ridge is most likely basalt instead of gabbro.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the block diagram below and on your knowledge of Earth \nscience. The diagram represents the magnetic orientation of the seafl oor bedrock on both sides of the Southeast \nIndian Ridge. The age of the igneous bedrock and its distance, in kilometers, from the ridge center are shown.\nSouth\nNorth\nSoutheast Indian Ridge\nSeafloor Bedrock Age (million years)\n4\n3\n2\n1\n0\n1\n2\n3\n4\n150\n100\n50\n50\n0\n100\n150\nDistance (km)\nKey\nNormal polarity\nReversed polarity",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The molten rock cools rapidly, forming basalt. \u2014 Basalt cools very rapidly. \u2014 Magma cools quickly when it reaches the surface. \u2014 Gabbro forms when magma cools slowly deep underground. \u2014 It cools quickly. \u2014 fast cooling rate Note: Do not allow credit for \u201csmall crystal size\u201d or \u201cbasalt has a fine texture\u201d alone because the cooling time determines the texture/crystal size, not that the texture/crystal size determines the cooling time."
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Identify the chemical composition of the quartz that makes up a Herkimer diamond.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the passage and photograph below and on your knowledge \nof Earth science. The photograph shows a Herkimer diamond located in a cavity in dolostone.\nHerkimer Diamonds\nHerkimer \u201cdiamonds\u201d are actually quartz crystals that are double terminated (pointed \nat both ends) and found within exposed outcrops of dolostone around the Mohawk River \nValley. The dolostone was formed about 500 million years ago in a shallow sea that was \nfi lled with sediment from the eroded ancient Adirondack Mountains to the north. While \nburied, cavities were formed in the dolostone by the slightly acidic ocean water. As \nsediment buried the rock, crystals grew in the cavities, slowly creating quartz crystals of \nexceptional clarity. The quartz crystals in the cavities are believed to have formed during \nthe Carboniferous Period.\nSource: \"Herkimer Diamonds\" Geology.com\nHerkimer Diamond in Dolostone Cavity",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for SiO2 or silicon dioxide."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Identify one physical characteristic of a Herkimer diamond, other than its color, that allows it to be used in jewelry.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the passage and photograph below and on your knowledge \nof Earth science. The photograph shows a Herkimer diamond located in a cavity in dolostone.\nHerkimer Diamonds\nHerkimer \u201cdiamonds\u201d are actually quartz crystals that are double terminated (pointed \nat both ends) and found within exposed outcrops of dolostone around the Mohawk River \nValley. The dolostone was formed about 500 million years ago in a shallow sea that was \nfi lled with sediment from the eroded ancient Adirondack Mountains to the north. While \nburied, cavities were formed in the dolostone by the slightly acidic ocean water. As \nsediment buried the rock, crystals grew in the cavities, slowly creating quartz crystals of \nexceptional clarity. The quartz crystals in the cavities are believed to have formed during \nthe Carboniferous Period.\nSource: \"Herkimer Diamonds\" Geology.com\nHerkimer Diamond in Dolostone Cavity",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 hardness \u2014 crystal shape or double-terminated crystal \u2014 glassy luster or reflectivity \u2014 clarity Note: Do not allow credit for \u201cHerkimer diamonds are the hardest mineral\u201d because true diamonds are the hardest mineral. Do not allow credit for \u201cvaluable\u201d or \u201crare\u201d because these are not physical characteristics."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Identify the orogeny that was responsible for the metamorphism of bedrock now exposed in the Adirondack Mountains.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the passage and photograph below and on your knowledge \nof Earth science. The photograph shows a Herkimer diamond located in a cavity in dolostone.\nHerkimer Diamonds\nHerkimer \u201cdiamonds\u201d are actually quartz crystals that are double terminated (pointed \nat both ends) and found within exposed outcrops of dolostone around the Mohawk River \nValley. The dolostone was formed about 500 million years ago in a shallow sea that was \nfi lled with sediment from the eroded ancient Adirondack Mountains to the north. While \nburied, cavities were formed in the dolostone by the slightly acidic ocean water. As \nsediment buried the rock, crystals grew in the cavities, slowly creating quartz crystals of \nexceptional clarity. The quartz crystals in the cavities are believed to have formed during \nthe Carboniferous Period.\nSource: \"Herkimer Diamonds\" Geology.com\nHerkimer Diamond in Dolostone Cavity",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Grenville orogeny."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "In your answer booklet, circle the term that describes the relative age of the Herkimer diamonds compared to the relative age of the dolostone. Explain how the evidence cited in the reading passage supports your answer. Use the terms Herkimer diamonds and dolostone in your explanation. P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2024/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the passage and photograph below and on your knowledge \nof Earth science. The photograph shows a Herkimer diamond located in a cavity in dolostone.\nHerkimer Diamonds\nHerkimer \u201cdiamonds\u201d are actually quartz crystals that are double terminated (pointed \nat both ends) and found within exposed outcrops of dolostone around the Mohawk River \nValley. The dolostone was formed about 500 million years ago in a shallow sea that was \nfi lled with sediment from the eroded ancient Adirondack Mountains to the north. While \nburied, cavities were formed in the dolostone by the slightly acidic ocean water. As \nsediment buried the rock, crystals grew in the cavities, slowly creating quartz crystals of \nexceptional clarity. The quartz crystals in the cavities are believed to have formed during \nthe Carboniferous Period.\nSource: \"Herkimer Diamonds\" Geology.com\nHerkimer Diamond in Dolostone Cavity",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for both circling younger and citing correct evidence. Acceptable responses include, but are not limited to: \u2014 Herkimer diamonds formed during the Carboniferous Period, which is long after the dolostone formation. \u2014 Dolostone formed 500 million years ago, and the Herkimer diamonds formed between 359 and 299 years ago. \u2014 Herkimer diamonds formed in cavities that were formed earlier in the dolostone by the acidic ocean. \u2014 Cambrian dolostones are older than Carboniferous Herkimer diamonds. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    }
+  ]
+}

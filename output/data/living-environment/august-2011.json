@@ -1,0 +1,1076 @@
+{
+  "subject": "living-environment",
+  "session": "august-2011",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The ability to grow in size is a characteristic of living organisms. Although an icicle may grow in size over time, it is considered nonliving because there is",
+      "choices": [
+        "an increase in matter, but no increase in the number of icicles",
+        "an interaction between the icicle and the environment",
+        "no way for the icicle to move away from heat",
+        "no metabolic activity present"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a woodpecker finch. This bird may best be described as",
+      "choices": [
+        "a decomposer that most likely feeds on nectar (a sugary liquid) from flowers",
+        "a heterotroph that may eat insects and is more closely related to a robin than to an earthworm",
+        "a scavenger that feeds on animals and repro- duces asexually",
+        "an autotroph that probes tree bark for insects and is pathogenic"
+      ],
+      "image": "/images/exams/living-environment/august-2011/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which cell structure is correctly paired with its primary function?",
+      "choices": [
+        "ribosome\u2013protein synthesis",
+        "mitochondrion\u2013movement",
+        "vacuole\u2013cell division",
+        "nucleus\u2013storage of nutrients"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The diagram below represents many species of plants and animals and their surroundings. The diagram best represents",
+      "choices": [
+        "a population",
+        "a community",
+        "an ecosystem",
+        "the biosphere"
+      ],
+      "image": "/images/exams/living-environment/august-2011/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The cytoplasm in a cell carries out a function similar to a function of which human system?",
+      "choices": [
+        "respiratory system",
+        "reproductive system",
+        "circulatory system",
+        "nervous system"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which statement best describes a human chromosome?",
+      "choices": [
+        "It is made of amino acid subunits that form genes.",
+        "It contains genes that may code for the production of enzymes.",
+        "It is normally passed to the next generation through a placenta.",
+        "It varies in function from one generation to the next."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Four different segments of a DNA molecule are represented below. Segment 1 Segment 2 Segment 3 Segment 4 T\u2013A\u2013G\u2013G\u2013C G\u2013G\u2013T\u2013G\u2013A G\u2013A\u2013T\u2013T\u2013A C\u2013A\u2013A\u2013T\u2013G A\u2013T\u2013C\u2013C\u2013G C\u2013C\u2013A\u2013C\u2013T C\u2013C\u2013A\u2013A\u2013T G\u2013T\u2013T\u2013A\u2013C There is an error in the DNA molecule in",
+      "choices": [
+        "segment 1, only",
+        "segment 3, only",
+        "segments 2 and 3",
+        "segments 2 and 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Some human structures and their functions are listed below. In a single-celled organism such as an ameba, all these functions can be performed by the",
+      "choices": [
+        "nucleus",
+        "ribosomes",
+        "mitochondria",
+        "cell membrane"
+      ],
+      "image": "/images/exams/living-environment/august-2011/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The diagram below can be used to illustrate cellular changes. Which row of terms in the chart below best completes the diagram? Row A B C",
+      "choices": [
+        "atmospheric oxygen mutations increased mitochondria",
+        "radiation cancer mutations",
+        "salt water more cytoplasm two nuclei",
+        "less sunlight extra genes decreased mutations A Cells exposed to Can develop B C and Human Structures Functions alveoli absorption of oxygen,"
+      ],
+      "image": "/images/exams/living-environment/august-2011/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A scientist wants to change the DNA of a sexually reproducing organism and have the new DNA present in every cell of the organism. In order to do this after fertilization, she would change the DNA in the",
+      "choices": [
+        "zygote",
+        "placenta",
+        "testes of the father",
+        "ovaries of the mother"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "If the same antibiotic is used too many times, it can become less effective against a certain type of bacteria. This observation is best explained by the",
+      "choices": [
+        "presence of pathogens in antibiotics",
+        "production of antibiotics by white blood cells",
+        "replication of viruses that attack bacteria",
+        "survival and reproduction of unaffected bacteria"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which group would most likely have the greatest survival success during a long period of environ- mental changes?",
+      "choices": [
+        "a small population of rabbits living in a field of grass",
+        "a large population of red ants living in a forest",
+        "an endangered population of polar bears living near an iceberg",
+        "one species of bird that nests only in sugar maple trees"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "When changes occur in the genes of sex cells, these changes",
+      "choices": [
+        "lead to mutations in the parent organism",
+        "are always harmful to the offspring",
+        "can be the basis for evolutionary change",
+        "only affect asexually reproducing organisms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Asexual reproduction produces offspring that each contain",
+      "choices": [
+        "genetic information from one parent",
+        "genetic information from two parents",
+        "less genetic information than either parent",
+        "a unique combination of genetic information"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The diagram below represents part of a human reproductive system. One of the functions of this part of the system is to",
+      "choices": [
+        "supply essential nutrients to the offspring in the form of milk",
+        "provide nutritional support for the embryo",
+        "provide a structure that allows the mixing of maternal and fetal blood",
+        "produce specialized proteins used in the production and release of sperm"
+      ],
+      "image": "/images/exams/living-environment/august-2011/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "written",
+      "text": "Which row in the chart below indicates the correct process for each event indicated?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The drinking of alcoholic beverages by a pregnant woman is harmful to the development of her fetus. This is most damaging early in a pregnancy because during this time",
+      "choices": [
+        "the lungs of the fetus become functional",
+        "alcohol can easily enter the mouth of the fetus",
+        "many of the essential organs of the fetus are forming",
+        "the fetus cannot excrete wastes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which substance is an inorganic molecule?",
+      "choices": [
+        "mitosis mitosis meiosis",
+        "mitosis meiosis mitosis",
+        "meiosis mitosis meiosis",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The enzyme amylase will affect the breakdown of carbohydrates, but it will not affect the break- down of proteins. The ability of an enzyme molecule to interact with specific molecules is most directly determined by the",
+      "choices": [
+        "shapes of the molecules involved",
+        "number of molecules involved",
+        "sequence of bases present in ATP",
+        "amount of glucose present in the cell"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The disease known as malaria may result in a fever, a decrease in red blood cells, and an enlarged liver and spleen. These symptoms are evidence of",
+      "choices": [
+        "a disruption of homeostasis",
+        "a decrease in allergic reactions",
+        "an increased number of cell organelles",
+        "hormone destruction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "An activity that occurs in the human body is shown below. This activity helps to",
+      "choices": [
+        "provide protection against pathogens",
+        "produce antibiotics to control disease",
+        "eliminate harmful gene alterations",
+        "regulate production of ATP by the cell"
+      ],
+      "image": "/images/exams/living-environment/august-2011/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Sweating is a process that helps cool the body during strenuous exercise. This is an example of",
+      "choices": [
+        "recycling of gases",
+        "cellular respiration",
+        "gene malfunction",
+        "a feedback mechanism"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A population of animals is permanently split by a natural barrier into two separate populations in different environments. What will likely result after a long period of time?",
+      "choices": [
+        "The evolution of the two populations will be identical.",
+        "The production of variations will stop in the two populations.",
+        "The two populations will evolve into separate species.",
+        "Autotrophic nutrition will replace hetero- trophic nutrition in the two populations."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which consequence could most likely be associ- ated with a decrease in biodiversity in an area?",
+      "choices": [
+        "More species would be better able to survive a major environmental change.",
+        "The ecosystems in the area would become more stable.",
+        "The amount of genetic information in the species of the area would increase.",
+        "Some sources of future foods or medications would be lost."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The release of products of combustion into the air often causes the formation of ozone near the surface of Earth. This ground-level ozone damages plants and affects their ability to absorb carbon dioxide. The doubling of ground-level ozone since 1850 is most likely due to",
+      "choices": [
+        "the chemical composition of the upper atmosphere",
+        "emissions from vehicles and industrial processes",
+        "the extinction of certain animal species",
+        "a greater use of nuclear fuel"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "After a fire destroys a forest, the area will most likely",
+      "choices": [
+        "remain bare land indefinitely",
+        "develop into a desert area",
+        "develop into an entirely different type of forest after hundreds of years",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "New fuels are being produced by converting corn and grasses into compounds containing alcohols that can be broken down for energy in various engines. The purpose of this research is to",
+      "choices": [
+        "reduce the use of finite resources",
+        "increase the rate of air pollution",
+        "reduce the rate of homeostasis in organisms",
+        "cause a loss of biodiversity in the rain forests"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The presence of wastes, such as plastic bags and motor oil, in lakes and streams miles away from developed areas suggests that",
+      "choices": [
+        "ecosystems are interconnected and human action can alter ecosystem equilibrium",
+        "recycling programs have failed to conserve biotic resources",
+        "natural processes can alter ecosystem stability",
+        "direct harvesting practices have led to irreversible destruction of ecosystems"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "A new bird species is introduced to control an insect pest. A negative consequence of this action is that the new bird species may",
+      "choices": [
+        "limit the population of the pest insect",
+        "consume beneficial insects",
+        "disrupt mineral availability in the ecosystem",
+        "cause an increase of pesticide-resistant insects"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Most scientists recommend reducing carbon dioxide emissions. Less carbon dioxide in the atmosphere would be expected to",
+      "choices": [
+        "reduce the rate of global warming",
+        "increase damage caused by acid rain",
+        "decrease the number of biotic factors in ecosystems",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "A laboratory technique is represented in the diagram below. Which knowledge was needed to develop this technique?",
+      "choices": [
+        "knowledge of sexual reproduction in plants",
+        "knowledge of the structure of starch molecules",
+        "knowledge of the development of embryos",
+        "knowledge of the structure of a DNA molecule"
+      ],
+      "image": "/images/exams/living-environment/august-2011/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Male stickleback fish with red undersides attack other male sticklebacks with red undersides and also attack models of fish with red undersides. Sticklebacks and fish models without red under- sides are not attacked. Which is the best inference that can be drawn regarding this behavior?",
+      "choices": [
+        "A male stickleback will defend its territory against all other fish.",
+        "The stimulus for an attack is a model with red fins or a male stickleback.",
+        "The stimulus for an attack is a red underside.",
+        "Male sticklebacks turn red to attract females."
+      ],
+      "image": "/images/exams/living-environment/august-2011/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Specialized cells and organs are necessary in multicellular organisms because in these organisms",
+      "choices": [
+        "fewer cells are in direct contact with the external environment",
+        "all cells are in direct contact with the external environment",
+        "a body type evolved that relied on fewer body cells",
+        "a body type evolved that required larger sized cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Bacillus thuringiensis, a bacterium commonly known as Bt, produces a protein that can kill certain insects that feed on corn crops. Scientists have been successful in transferring the gene that codes for this protein from the bacterium to the corn, so the corn can now make the Bt protein. Corn borers, insects that eat corn, die when they feed on corn containing the Bt protein. A potential problem associated with increased production of Bt corn is",
+      "choices": [
+        "corn borers may stop feeding on corn plants",
+        "corn borers may develop resistance to the Bt protein",
+        "farmers may need to use less pesticide to control corn borers",
+        "corn borers may compete with other insects that feed on corn plants"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Throughout the history of life on Earth, many processes have resulted in new traits in organisms. Which list shows some of these processes in order from the oldest to the most recently used?",
+      "choices": [
+        "gene manipulation, natural selection, selective breeding",
+        "natural selection, selective breeding, gene manipulation",
+        "natural selection, gene manipulation, selective breeding",
+        "selective breeding, gene manipulation, natural selection Human cell Genetic material Genetic material Bacterial cell"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "DDT and other pesticides used over 50 years ago are still affecting the environment today. Scientists have found these substances in recent glacier runoff. Glacier runoff occurs during the summer, when precipitation that has fallen on glaciers during the winter is released. Ice layers from existing glaciers have been analyzed. The results of this analysis show that the concentrations of DDT and other pesticides were highest about 10 years after the use of these substances was banned. This information shows that",
+      "choices": [
+        "DDT and other pesticides cause glacier runoff during the summer",
+        "it takes humans over 50 years to analyze a glacier",
+        "precipitation helps to break down pesticides",
+        "the decision of one human generation may have an impact on future generations"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Abnormalities present in the cells that line the uterus may prevent the production of offspring by directly interfering with the",
+      "choices": [
+        "development of the embryo",
+        "differentiation of gametes into zygotes",
+        "secretion of estrogen by the ovary",
+        "production and release of egg cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a cell of a green plant. Solar energy is used to produce energy-rich compounds in structure",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/august-2011/q38.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which species is most closely related to species L?",
+      "choices": [
+        "E",
+        "F",
+        "G",
+        "I"
+      ],
+      "image": "/images/exams/living-environment/august-2011/context_39_40.png",
+      "context": "Base your answers to questions 39 and 40 on the\ndiagram below and on your knowledge of biology.\nThe diagram represents possible evolutionary path-\nways of certain organisms.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which statement can best be inferred based on the information in the diagram?",
+      "choices": [
+        "Natural selection occurs only as a result of mutations.",
+        "Natural selection requires a minimum of 5 million years to occur.",
+        "Each new species that develops continues to exist through present time.",
+        "Some species that are no longer successful in their environment may become extinct."
+      ],
+      "image": "/images/exams/living-environment/august-2011/context_39_40.png",
+      "context": "Base your answers to questions 39 and 40 on the\ndiagram below and on your knowledge of biology.\nThe diagram represents possible evolutionary path-\nways of certain organisms.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Reasons for conducting peer review include all of the following except",
+      "choices": [
+        "analyzing the experimental design",
+        "pointing out possible bias",
+        "identifying an illogical conclusion",
+        "changing data to support the hypothesis D C A B Present time 25 million years ago 50 million years ago 75 million years ago J K M O P N F E D B A C H I G 100"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "written",
+      "text": "The diagram below represents a food chain made up of organisms found in a field. Which row in the chart correctly identifies characteristics that can be associated with the members of this food chain?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q42.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "A food web is represented below. When water used to cool machinery is returned to a river, it raises the river water temperature. This causes a sharp decline in small invertebrate populations. Based on the food web, a likely consequence of this change would be",
+      "choices": [
+        "corn snake mouse owl",
+        "mouse owl snake mouse",
+        "corn owl corn snake",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2011/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the data table below and on your knowledge of biology.\nThe data table shows the number of fish species found at various ocean depths.\nFish Species Found at\nVarious Ocean Depths\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data from the data table. Surround each point with a small circle and connect the points. Example: Water Depth (m) Number of Fish Species Found 50 35 75 31 100 22 150 13 200 6",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the data table below and on your knowledge of biology.\nThe data table shows the number of fish species found at various ocean depths.\nFish Species Found at\nVarious Ocean Depths\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "State the general relationship between water depth and the number of fish species found.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the data table below and on your knowledge of biology.\nThe data table shows the number of fish species found at various ocean depths.\nFish Species Found at\nVarious Ocean Depths\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The approximate number of fish species that can be found at 120 meters is",
+      "choices": [
+        "5",
+        "13",
+        "18",
+        "31 Number of Fish Species Found Water Depth (m)"
+      ],
+      "image": "/images/exams/living-environment/august-2011/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the data table below and on your knowledge of biology.\nThe data table shows the number of fish species found at various ocean depths.\nFish Species Found at\nVarious Ocean Depths\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "State one possible reason for the change in the number of species extinctions between 1890 and 1990.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the graph below and on your knowledge of biology. The graph\nshows the number of species that became extinct from 1800 to 2000. It also shows estimates of the number of\nspecies that will become extinct between 2000 and 2020.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The number of species that became extinct between the years 1950 and 2000 is approximately",
+      "choices": [
+        "5,000",
+        "12,000",
+        "22,000",
+        "37,000 Date Extinctions Species Extinctions Since 1800 60,000 50,000 40,000 30,000 20,000 10,000 0 1800 1830 1860 1890 1920 1950 1980 2010 2040"
+      ],
+      "image": "/images/exams/living-environment/august-2011/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the graph below and on your knowledge of biology. The graph\nshows the number of species that became extinct from 1800 to 2000. It also shows estimates of the number of\nspecies that will become extinct between 2000 and 2020.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Adult mayflies are unable to",
+      "choices": [
+        "take in food",
+        "move from place to place",
+        "form ATP",
+        "form gametes"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 50 through 52 on the passage below and on your knowledge of biology.\nMayflies\nMayflies belong to a group of insects known as Ephemeroptera, which means \u201cshort-\nlived wings.\u201d They have been given this name because the adult, the only stage that has\nwings, lives for only a few days. \nThe aquatic juvenile form of most mayfly species lives for several years under rocks in\nstreams that have high levels of dissolved oxygen. The juveniles feed on microscopic \nphotosynthetic organisms. Juveniles supply food for trout and other stream fish. \nMillions of adult mayflies emerge from stream water in early summer. The adults have\nwings for flight, but lack functional mouth parts.  Their energy supply comes from food\nstored in their bodies. Birds and bats eat adult mayflies.  Adult mayflies mate, lay eggs, and\ndie within a few days.\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify the nutritional role of the juveniles in a stream food chain. __________________________________________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 50 through 52 on the passage below and on your knowledge of biology.\nMayflies\nMayflies belong to a group of insects known as Ephemeroptera, which means \u201cshort-\nlived wings.\u201d They have been given this name because the adult, the only stage that has\nwings, lives for only a few days. \nThe aquatic juvenile form of most mayfly species lives for several years under rocks in\nstreams that have high levels of dissolved oxygen. The juveniles feed on microscopic \nphotosynthetic organisms. Juveniles supply food for trout and other stream fish. \nMillions of adult mayflies emerge from stream water in early summer. The adults have\nwings for flight, but lack functional mouth parts.  Their energy supply comes from food\nstored in their bodies. Birds and bats eat adult mayflies.  Adult mayflies mate, lay eggs, and\ndie within a few days.\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "A student was asked to construct a food chain based on the information given in the passage. The student\u2019s answer is shown below. microscopic plants \u2192mayfly eggs bats State one of the errors the student made when constructing this food chain.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q52.png",
+      "context": "Base your answers to questions 50 through 52 on the passage below and on your knowledge of biology.\nMayflies\nMayflies belong to a group of insects known as Ephemeroptera, which means \u201cshort-\nlived wings.\u201d They have been given this name because the adult, the only stage that has\nwings, lives for only a few days. \nThe aquatic juvenile form of most mayfly species lives for several years under rocks in\nstreams that have high levels of dissolved oxygen. The juveniles feed on microscopic \nphotosynthetic organisms. Juveniles supply food for trout and other stream fish. \nMillions of adult mayflies emerge from stream water in early summer. The adults have\nwings for flight, but lack functional mouth parts.  Their energy supply comes from food\nstored in their bodies. Birds and bats eat adult mayflies.  Adult mayflies mate, lay eggs, and\ndie within a few days.\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "State one way white blood cells protect the body from foreign microbes. \u2192",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q53.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify one structure present in Indohyus mentioned in the passage. State how that structure made Indohyus successful in its environment during the Eocene Epoch. Structure: _______________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q54.png",
+      "context": "Base your answers to questions 54 and 55 on the passage below and on your knowledge of biology.\nWhen Whales Walked the Earth\nA newly unearthed fossil is the missing link between land and marine mammals\nStanding two to three feet tall on legs adapted to wade through shallow water, the \n48-million-year-old Indohyus is the missing link between modern day whales and their\nland-lubbing ancestors. Hans Thewissen of the Northeastern Ohio Universities Colleges of\nMedicine and Pharmacy recovered the skeleton in rocks from Kashmir, a disputed region\nbetween India and Pakistan, where the deer-like herbivore lived during the Eocene epoch,\n56 to 34 million years ago.\nThe extreme thickness of its bones is a trait seen often in animals that are aquatic\nwaders (thick, heavy bones counteract buoyancy and allow the animal to stay underwater\nmore easily), and chemical traces in its teeth indicate that the animal ate plants in a \nfreshwater environment. Scientists know that Indohyus belongs in the evolutionary path\nwith whales because it has skeletal similarities to both modern whales and known \nprimordial whale ancestors.\nSource: Day Greenberg, \u201cWhen Whales Walked the Earth,\u201d Popular Science, May 2008",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "55",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q55.png",
+      "context": "Base your answers to questions 54 and 55 on the passage below and on your knowledge of biology.\nWhen Whales Walked the Earth\nA newly unearthed fossil is the missing link between land and marine mammals\nStanding two to three feet tall on legs adapted to wade through shallow water, the \n48-million-year-old Indohyus is the missing link between modern day whales and their\nland-lubbing ancestors. Hans Thewissen of the Northeastern Ohio Universities Colleges of\nMedicine and Pharmacy recovered the skeleton in rocks from Kashmir, a disputed region\nbetween India and Pakistan, where the deer-like herbivore lived during the Eocene epoch,\n56 to 34 million years ago.\nThe extreme thickness of its bones is a trait seen often in animals that are aquatic\nwaders (thick, heavy bones counteract buoyancy and allow the animal to stay underwater\nmore easily), and chemical traces in its teeth indicate that the animal ate plants in a \nfreshwater environment. Scientists know that Indohyus belongs in the evolutionary path\nwith whales because it has skeletal similarities to both modern whales and known \nprimordial whale ancestors.\nSource: Day Greenberg, \u201cWhen Whales Walked the Earth,\u201d Popular Science, May 2008",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "State how Clayton first learned that desiccating lice kills them.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q56.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q57.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "57\u201359 Design a controlled experiment to determine the effect of hot, dry air on head lice. In your experimental design, be sure to: \u2022 state the hypothesis to be tested in the experiment \u2022 state one way the control group will be treated differently from the experimental group \u2022 state one result of the experiment that would support the hypothesis",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q59.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "In the past, diabetics used horse or cow insulin to control their glucose levels. Today, as a result of genetic engineering, human insulin can be synthesized by bacteria. State one advantage for a person with diabetes to receive genetically engineered insulin rather than insulin taken from a horse or cow.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q60.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q61.png",
+      "context": "Base your answer to question 61\u201363 on the information below and on your knowledge of biology.\nSmokers are passing down problems to future generations. Men who smoke and drink\nalcohol could be endangering the health of their future children and grandchildren. Toxic\nchemicals in cigarettes and alcohol are thought to cause changes in the DNA, which are\npassed down via the sperm to future generations.\nSource: Associate Newspapers Ltd.,\nMail Online Health, Fiona Macrae, February 9, 2008\n61\u201363 Explain how smoking and drinking alcohol by males can affect the development of an embryo. In your\nanswer, be sure to:\n\u2022 identify the term used to describe a change in DNA   [1]\n\u2022 state why changes that take place in a sperm cell can affect an embryo   [1]\n\u2022 identify one factor, other than smoking and drinking alcohol, that may negatively affect a developing\nembryo   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "61\u201363 Explain how smoking and drinking alcohol by males can affect the development of an embryo. In your answer, be sure to: \u2022 identify the term used to describe a change in DNA \u2022 state why changes that take place in a sperm cell can affect an embryo \u2022 identify one factor, other than smoking and drinking alcohol, that may negatively affect a developing embryo",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q63.png",
+      "context": "Base your answer to question 61\u201363 on the information below and on your knowledge of biology.\nSmokers are passing down problems to future generations. Men who smoke and drink\nalcohol could be endangering the health of their future children and grandchildren. Toxic\nchemicals in cigarettes and alcohol are thought to cause changes in the DNA, which are\npassed down via the sperm to future generations.\nSource: Associate Newspapers Ltd.,\nMail Online Health, Fiona Macrae, February 9, 2008\n61\u201363 Explain how smoking and drinking alcohol by males can affect the development of an embryo. In your\nanswer, be sure to:\n\u2022 identify the term used to describe a change in DNA   [1]\n\u2022 state why changes that take place in a sperm cell can affect an embryo   [1]\n\u2022 identify one factor, other than smoking and drinking alcohol, that may negatively affect a developing\nembryo   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "64",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q64.png",
+      "context": "Base your answer to question 64 on the information below and on your knowledge of biology.\nThe California condor is the largest bird species in North America, with a wingspan of\nabout 3.5 meters. They live in parts of California and in the Grand Canyon, and nest on\nrock ledges. Condors are scavengers. The condor population in the Grand Canyon is very\nsmall, with only about 70 adult birds.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "State how the information in the table can be used to determine that the wolves are the predators.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/context_65_67.png",
+      "context": "Base your answers to questions 65 through 67 on the information below and on your knowledge of biology.\nEvery population is linked, directly or indirectly, with many others in an ecosystem. \nThe table below shows the size of the moose and wolf populations that live on an island in\nLake Superior.\nMoose and Wolf Populations",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "State one possible ecological reason, other than human activity, for the change in the moose population between 1975 and 1980.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/context_65_67.png",
+      "context": "Base your answers to questions 65 through 67 on the information below and on your knowledge of biology.\nEvery population is linked, directly or indirectly, with many others in an ecosystem. \nThe table below shows the size of the moose and wolf populations that live on an island in\nLake Superior.\nMoose and Wolf Populations",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Identify two limiting factors that keep the wolf population size from growing any larger. _________________________________ and _________________________________ Population Size Year Moose Wolves 1960 610 22 1965 733 28 1970 1295 18 1975 1355 41 1980 910 50 1985 1115 22 1990 1216 15 1995 2422 16 2000 850 29",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/context_65_67.png",
+      "context": "Base your answers to questions 65 through 67 on the information below and on your knowledge of biology.\nEvery population is linked, directly or indirectly, with many others in an ecosystem. \nThe table below shows the size of the moose and wolf populations that live on an island in\nLake Superior.\nMoose and Wolf Populations",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q68.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "68\u201370 Describe how a flu vaccine protects the human body. In your answer, be sure to: \u2022 identify what substance is in a flu vaccine that stimulates immunity \u2022 state how the human immune system reacts to the vaccine \u2022 state one reason the flu vaccine does not protect a person from other viral diseases, such as measles",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q70.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Identify the letter of the control method in the list that would most likely have the least damaging effect on the ecosystem. Support your answer. Method: ________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q71.png",
+      "context": "Base your answer to question 71 on the information below and on your knowledge of biology.\nTwo methods for controlling mosquitoes are listed below.\nControl Methods\nA: Draining a swamp where mosquitoes lay eggs\nB: Releasing more mosquito predators that are native to the ecosystem",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "72",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q72.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "How might an extended period of drought influ- ence the ground finch population?",
+      "choices": [
+        "The birds with smaller beaks would be more numerous.",
+        "The birds with larger beaks would be more numerous.",
+        "Drought decreases seed availability, but has no influence on the ground finch.",
+        "Drought increases seed availability, and all ground finches would be more numerous."
+      ],
+      "image": "/images/exams/living-environment/august-2011/context_73_76.png",
+      "context": "Base your answers to questions 73 through 76 on\nthe information and diagram below and on your\nknowledge of biology.\nAverage beak sizes of the seed-eating \nmedium ground finch on one of the Galapagos\nIslands are shown in the diagram below. During\nwet years, all types of seeds are abundant. The \nmedium ground finch prefers to eat small seeds\nthat are easy to crush. However, during droughts \n(dry years), when small seeds are not as \nabundant, they eat the larger seeds on the island.\nNote: The answers to questions 73 through\n76 should be recorded on your separate\nanswer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "How would the introduction of another species of seed-eating ground finch to the island most likely influence the medium ground finch?",
+      "choices": [
+        "The finches would not compete, since they both eat seeds.",
+        "The finches would interbreed and produce a new species of finch.",
+        "The medium ground finch would face increased competition for seeds.",
+        "The medium ground finch would become a parasite of the introduced species."
+      ],
+      "image": "/images/exams/living-environment/august-2011/context_73_76.png",
+      "context": "Base your answers to questions 73 through 76 on\nthe information and diagram below and on your\nknowledge of biology.\nAverage beak sizes of the seed-eating \nmedium ground finch on one of the Galapagos\nIslands are shown in the diagram below. During\nwet years, all types of seeds are abundant. The \nmedium ground finch prefers to eat small seeds\nthat are easy to crush. However, during droughts \n(dry years), when small seeds are not as \nabundant, they eat the larger seeds on the island.\nNote: The answers to questions 73 through\n76 should be recorded on your separate\nanswer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "Which factors most likely had a role in the development of beak characteristics in the medium ground finch?",
+      "choices": [
+        "mutation and cloning",
+        "genetic engineering and selective breeding",
+        "unchanging environment and the need to reproduce",
+        "variation and recombination"
+      ],
+      "image": "/images/exams/living-environment/august-2011/context_73_76.png",
+      "context": "Base your answers to questions 73 through 76 on\nthe information and diagram below and on your\nknowledge of biology.\nAverage beak sizes of the seed-eating \nmedium ground finch on one of the Galapagos\nIslands are shown in the diagram below. During\nwet years, all types of seeds are abundant. The \nmedium ground finch prefers to eat small seeds\nthat are easy to crush. However, during droughts \n(dry years), when small seeds are not as \nabundant, they eat the larger seeds on the island.\nNote: The answers to questions 73 through\n76 should be recorded on your separate\nanswer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "The most likely explanation for this variation in the beak size of the medium ground finch is that",
+      "choices": [
+        "the birds acquired larger beaks so they could take advantage of the supply of small seeds",
+        "the birds with smaller beaks mutated due to the drought so they produced more offspring",
+        "different adaptations gave some birds a better chance for survival",
+        "the environment caused the birds to exercise their beaks and the beaks became longer and stronger Year Beak size (mm) 1977 10.0 9.8 9.6 9.4 9.2 9.0 Beak size Medium ground finch 1980 1982 1984"
+      ],
+      "image": "/images/exams/living-environment/august-2011/context_73_76.png",
+      "context": "Base your answers to questions 73 through 76 on\nthe information and diagram below and on your\nknowledge of biology.\nAverage beak sizes of the seed-eating \nmedium ground finch on one of the Galapagos\nIslands are shown in the diagram below. During\nwet years, all types of seeds are abundant. The \nmedium ground finch prefers to eat small seeds\nthat are easy to crush. However, during droughts \n(dry years), when small seeds are not as \nabundant, they eat the larger seeds on the island.\nNote: The answers to questions 73 through\n76 should be recorded on your separate\nanswer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Two molecules, A and B, and their distribution inside and outside of a cell are represented in the diagram below. State one possible reason why molecule A could diffuse across the membrane of the cell but molecule B could not.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q77.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Some of the pain from a sore throat is caused by swelling of moist throat tissue. A common remedy for a sore throat is to gargle (rinse the throat tissue) with salt water. Explain why gargling with salt water would be expected to relieve the pain of a sore throat.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q78.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "A restriction enzyme is used to cut the DNA from species A and B. The enzyme binds to the sequence G G G A T T and cuts between G and A. State how many cuts will be made in the DNA sequences of each species when this enzyme is used. Plant species A cuts: ____________ Plant species B cuts: ____________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 79 on the information below and on your knowledge of biology.\nThe segments of DNA below were extracted from two different species of plants. \nThe segments represent the same region of DNA that codes for a particular pigment (color)\nin these species.\nPlant Species A: A C C G C A G G G A T T C G C\nPlant Species B: A C C G G A G C G A T T C G C",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "An experimental setup using a model cell is shown in the diagram below. State what cell structure the dialysis tubing represents. ________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q80.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "The dependent variable for this experiment is the",
+      "choices": [
+        "time the student was squeezing the clothespin",
+        "number of times the student was able to squeeze the clothespin",
+        "strength of the student",
+        "length of the clothespin"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 81 and 82 on the information below and on your knowledge of biology.\nAn experiment was designed to test whether students could squeeze a clothespin more\ntimes in one minute after resting or after exercise.\nNote: The answers to questions 81 and 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "The experimental results could be made more valid by",
+      "choices": [
+        "increasing the number of students",
+        "using a plastic clothespin",
+        "using safety precautions",
+        "making a bar graph of the data"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 81 and 82 on the information below and on your knowledge of biology.\nAn experiment was designed to test whether students could squeeze a clothespin more\ntimes in one minute after resting or after exercise.\nNote: The answers to questions 81 and 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "83",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/q83.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Identify the technique that was used to produce these results.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the information and diagram below and on your knowledge of\nbiology.\nA change in hemoglobin, a protein found in red blood cells, causes sickle-cell disease.\nHemoglobin samples from different individuals can be compared by using a specific \ntechnique. The protein banding patterns of three samples are shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Identify another substance that can be analyzed using this technique. Wells Individual without sickle-cell trait (healthy) Individual with sickle-cell trait (usually healthy) Individual with sickle-cell disease Banding Pattern for Hemoglobin Proteins + \u2013 LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2011/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the information and diagram below and on your knowledge of\nbiology.\nA change in hemoglobin, a protein found in red blood cells, causes sickle-cell disease.\nHemoglobin samples from different individuals can be compared by using a specific \ntechnique. The protein banding patterns of three samples are shown below.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

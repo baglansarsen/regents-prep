@@ -89,7 +89,7 @@ export default function SpeedRoundScreen({ route, navigation }) {
 
   if (phase === 'done') {
     return (
-      <SafeAreaView style={s.safe}>
+      <SafeAreaView style={s.safe} edges={['bottom']}>
         <View style={s.doneScreen}>
           <Text style={s.doneEmoji}>⚡</Text>
           <Text style={s.doneTitle}>Speed Round Complete!</Text>
@@ -110,7 +110,7 @@ export default function SpeedRoundScreen({ route, navigation }) {
   const timerColor = timeLeft > 20 ? C.brand : timeLeft > 10 ? C.warn : C.wrong
 
   return (
-    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
       {/* Timer bar */}
       <View style={s.timerBg}>
         <Animated.View style={[s.timerFill, { width: `${timerPct * 100}%`, backgroundColor: timerColor }]} />

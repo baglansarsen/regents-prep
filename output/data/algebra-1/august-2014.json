@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-1",
+  "session": "august-2014",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which statement is not always true?",
+      "choices": [
+        "The product of two irrational numbers is irrational.",
+        "The product of two rational numbers is rational.",
+        "The sum of two rational numbers is rational.",
+        "The sum of a rational number and an irrational number is irrational."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "A satellite television company charges a one-time installation fee and a monthly service charge. The total cost is modeled by the function y \u0002 40 \u0003 90x. Which statement represents the meaning of each part of the function?",
+      "choices": [
+        "y is the total cost, x is the number of months of service, $90 is the installation fee, and $40 is the service charge per month.",
+        "y is the total cost, x is the number of months of service, $40 is the installation fee, and $90 is the service charge per month.",
+        "x is the total cost, y is the number of months of service, $40 is the installation fee, and $90 is the service charge per month.",
+        "x is the total cost, y is the number of months of service, $90 is the installation fee, and $40 is the service charge per month."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "If 4x2 \u0004 100 \u0002 0, the roots of the equation are",
+      "choices": [
+        "\u000425 and 25",
+        "\u000425, only",
+        "\u00045 and 5",
+        "\u00045, only Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Isaiah collects data from two different companies, each with four employees. The results of the study, based on each worker\u2019s age and salary, are listed in the tables below. Company 1 Company 2 Which statement is true about these data?",
+      "choices": [
+        "The median salaries in both companies are greater than $37,000.",
+        "The mean salary in company 1 is greater than the mean salary in company 2.",
+        "The salary range in company 2 is greater than the salary range in company 1.",
+        "The mean age of workers at company 1 is greater than the mean age of workers at company 2."
+      ],
+      "image": "/images/exams/algebra-1/august-2014/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which point is not on the graph represented by y \u0002 x2 \u0003 3x \u0004 6?",
+      "choices": [
+        "(\u00046,12)",
+        "(\u00044,\u00042)",
+        "(2,4)",
+        "(3,\u00046) Worker\u2019s Age in Years Salary in Dollars 25 29,000 28 35,500 29 37,000 31 65,000 Worker\u2019s Age in Years Salary in Dollars 25 30,000 27 32,000 28 35,000 33 38,000 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A company produces x units of a product per month, where C(x) represents the total cost and R(x) represents the total revenue for the month. The functions are modeled by C(x) \u0002 300x \u0003 250 and R(x) \u0002 \u00040.5x2 \u0003 800x \u0004 100. The profit is the difference between revenue and cost where P(x) \u0002 R(x) \u0004 C(x). What is the total profit, P(x), for the month?",
+      "choices": [
+        "P(x) \u0002 \u00040.5x2 \u0003 500x \u0004 150",
+        "P(x) \u0002 \u00040.5x2 \u0003 500x \u0004 350",
+        "P(x) \u0002 \u00040.5x2 \u0004 500x \u0003 350",
+        "P(x) \u0002 \u00040.5x2 \u0003 500x \u0003 350"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "What is one point that lies in the solution set of the system of inequalities graphed below?",
+      "choices": [
+        "(7,0)",
+        "(3,0)",
+        "(0,7)",
+        "(\u00043,5) y x Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/august-2014/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The value of the x-intercept for the graph of 4x \u0004 5y \u0002 40 is",
+      "choices": [
+        "10",
+        "4__ 5",
+        "\u0004 4__ 5",
+        "\u00048"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Sam and Jeremy have ages that are consecutive odd integers. The product of their ages is 783. Which equation could be used to find Jeremy\u2019s age, j, if he is the younger man?",
+      "choices": [
+        "j2 \u0003 2 \u0002 783",
+        "j2 \u0004 2 \u0002 783",
+        "j2 \u0003 2j \u0002 783",
+        "j2 \u0004 2j \u0002 783"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A population that initially has 20 birds approximately doubles every 10 years. Which graph represents this population growth? 0 40 20 20 40 Number of Years Number of Birds",
+      "choices": [
+        "0 20 10 10 20",
+        "40 20 40 80",
+        "20 60 20 60 Number of Birds Number of Birds Number of Birds Number of Years Number of Years Number of Years 0 0",
+        "40 20 40 80"
+      ],
+      "image": "/images/exams/algebra-1/august-2014/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Let f be a function such that f(x) \u0002 2x \u0004 4 is defined on the domain 2 \u2264x \u22646. The range of this function is",
+      "choices": [
+        "0 \u2264y \u22648",
+        "0 \u2264y \u0005 \u221e",
+        "2 \u2264y \u22646",
+        "\u0004\u221e\u0005 y \u0005 \u221e"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which situation could be modeled by using a linear function?",
+      "choices": [
+        "a bank account balance that grows at a rate of 5% per year, compounded annually",
+        "a population of bacteria that doubles every 4.5 hours",
+        "the cost of cell phone service that charges a base amount plus 20 cents per minute",
+        "the concentration of medicine in a person\u2019s body that decays by a factor of one-third every hour"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which graph shows a line where each value of y is three more than half of x? y x",
+      "choices": [
+        "",
+        "",
+        "",
+        "y x y x y x Algebra I (Common Core) Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/august-2014/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The table below shows the average diameter of a pupil in a person\u2019s eye as he or she grows older. What is the average rate of change, in millimeters per year, of a person\u2019s pupil diameter from age 20 to age 80?",
+      "choices": [
+        "2.4",
+        "0.04",
+        "\u00042.4",
+        "\u00040.04"
+      ],
+      "image": "/images/exams/algebra-1/august-2014/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to x4 \u0004 12x2 \u0003 36?",
+      "choices": [
+        "(x2 \u0004 6)(x2 \u0004 6)",
+        "(x2 \u0003 6)(x2 \u0003 6)",
+        "(6 \u0004 x2)(6 \u0003 x2)",
+        "(x2 \u0003 6)(x2 \u0004 6)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The third term in an arithmetic sequence is 10 and the fifth term is 26. If the first term is a1, which is an equation for the nth term of this sequence?",
+      "choices": [
+        "an \u0002 8n \u0003 10",
+        "an \u0002 8n \u0004 14",
+        "an \u0002 16n \u0003 10",
+        "an \u0002 16n \u0004 38 Age (years) Average Pupil Diameter (mm) 20 4.7 30 4.3 40 3.9 50 3.5 60 3.1 70 2.7 80 2.3 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The graph of the equation y \u0002 ax2 is shown below. If a is multiplied by \u0004 1__ 2 , the graph of the new equation is",
+      "choices": [
+        "wider and opens downward",
+        "wider and opens upward",
+        "narrower and opens downward",
+        "narrower and opens upward"
+      ],
+      "image": "/images/exams/algebra-1/august-2014/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The zeros of the function f(x) \u0002 (x \u0003 2)2 \u0004 25 are",
+      "choices": [
+        "\u00042 and 5",
+        "\u00043 and 7",
+        "\u00045 and 2",
+        "\u00047 and 3 y x Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "During the 2010 season, football player McGee\u2019s earnings, m, were 0.005 million dollars more than those of his teammate Fitzpatrick\u2019s earnings, f. The two players earned a total of 3.95 million dollars. Which system of equations could be used to determine the amount each player earned, in millions of dollars?",
+      "choices": [
+        "m \u0003 f \u0002 3.95",
+        "m \u0004 3.95 \u0002 f",
+        "f \u0004 3.95 \u0002 m m \u0003 0.005 \u0002 f m \u0003 0.005 \u0002 f",
+        "m \u0003 f \u0002 3.95 f \u0003 0.005 \u0002 m f \u0003 0.005 \u0002 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "What is the value of x in the equation ?",
+      "choices": [
+        "4",
+        "6",
+        "8",
+        "11"
+      ],
+      "image": "/images/exams/algebra-1/august-2014/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The table below shows the number of grams of carbohydrates, x, and the number of Calories, y, of six different foods. Which equation best represents the line of best fit for this set of data?",
+      "choices": [
+        "y \u0002 15x",
+        "y \u0002 0.07x",
+        "y \u0002 0.1x \u0004 0.4",
+        "y \u0002 14.1x \u0003 5.8 Carbohydrates (x) Calories (y) 8 120 9.5 138 10 147 6 88 7 108 4 62 x \u0004 \u0003 \u0002 2 3 1 6 5 6 Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/august-2014/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A function is graphed on the set of axes below. Which function is related to the graph?",
+      "choices": [
+        "f(x) \u0002 { x2, x \u0005 1",
+        "f(x) \u0002{ x2, x \u0005 1",
+        "f(x) \u0002 { x2, x \u0005 1 x \u0004 2, x \u0006 1 2x \u0004 7, x \u0006 1",
+        "f(x) \u0002{ x2, x \u0005 1 1__ 2 x \u0003 1__ 2 , x \u0006 1 3__ 2 x \u0004 9__ 2 , x \u0006 1"
+      ],
+      "image": "/images/exams/algebra-1/august-2014/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The function h(t) \u0002 \u000416t2 \u0003 144 represents the height, h(t), in feet, of an object from the ground at t seconds after it is dropped. A realistic domain for this function is",
+      "choices": [
+        "\u00043 \u2264t \u22643",
+        "0 \u2264t \u22643",
+        "0 \u2264h(t) \u2264144",
+        "all real numbers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "If f",
+      "choices": [
+        "\u00045",
+        "11",
+        "21",
+        "43 y x Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "In the equation x2 \u0003 10x \u0003 24 \u0002 (x \u0003 a)(x \u0003 b), b is an integer. Find algebraically all possible values of b.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Rhonda deposited $3000 in an account in the Merrick National Bank, earning 4.2% interest, compounded annually. She made no deposits or withdrawals. Write an equation that can be used to find B, her account balance after t years. Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Guy and Jim work at a furniture store. Guy is paid $185 per week plus 3% of his total sales in dollars, x, which can be represented by g(x) \u0002 185 \u0003 0.03x. Jim is paid $275 per week plus 2.5% of his total sales in dollars, x, which can be represented by f(x) \u0002 275 \u0003 0.025x. Determine the value of x, in dollars, that will make their weekly pay the same. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Express the product of 2x2 \u0003 7x \u0004 10 and x \u0003 5 in standard form. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Let f be the function represented by the graph below. Let g be a function such that g(x) \u0002 \u0004 1__ 2 x2 \u0003 4x \u0003 3. Determine which function has the larger maximum value. Justify your answer. y x Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2014/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Solve the inequality below to determine and state the smallest possible value for x in the solution set. 3(x \u0003 3) \u22645x \u0004 3 Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "The table below represents the residuals for a line of best fit. Plot these residuals on the set of axes below. Using the plot, assess the fit of the line for these residuals and justify your answer. Residual x x 2 3 3 4 6 7 8 9 9 10 Residual 2 1 \u20131 \u20132 \u20133 \u20132 \u20131 2 0 3 Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2014/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "A student was given the equation x2 \u0003 6x \u0004 13 \u0002 0 to solve by completing the square. The first step that was written is shown below. x2 \u0003 6x \u0002 13 The next step in the student\u2019s process was x2 \u0003 6x \u0003 c \u0002 13 \u0003 c. State the value of c that creates a perfect square trinomial. Explain how the value of c is determined. Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "On the axes below, graph f(x) \u0002 |3x|. If g(x) \u0002 f(x) \u0004 2, how is the graph of f(x) translated to form the graph of g(x)? If h(x) \u0002 f(x \u0004 4), how is the graph of f(x) translated to form the graph of h(x)? y x Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2014/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The formula for the area of a trapezoid is A \u0002 1__ 2 h(b1 \u0003 b2). Express b1 in terms of A, h, and b2. The area of a trapezoid is 60 square feet, its height is 6 ft, and one base is 12 ft. Find the number of feet in the other base. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Let f(x) \u0002 \u00042x2 and g(x) \u0002 2x \u0004 4. On the set of axes below, draw the graphs of y \u0002 f(x) and y \u0002 g(x). Using this graph, determine and state all values of x for which f(x) \u0002 g(x). y x Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2014/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "A school is building a rectangular soccer field that has an area of 6000 square yards. The soccer field must be 40 yards longer than its width. Determine algebraically the dimensions of the soccer field, in yards. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Edith babysits for x hours a week after school at a job that pays $4 an hour. She has accepted a job that pays $8 an hour as a library assistant working y hours a week. She will work both jobs. She is able to work no more than 15 hours a week, due to school commitments. Edith wants to earn at least $80 a week, working a combination of both jobs. Write a system of inequalities that can be used to represent the situation. Graph these inequalities on the set of axes below. 10 10 x 20 20 y Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be written in pencil. Question 37 is continued on the next page. Algebra I (Common Core) Determine and state one combination of hours that will allow Edith to earn at least $80 per week while working no more than 15 hours. Question 37 continued Algebra I (Common Core) Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Algebra I (Common Core) Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here ALGEBRA I (COMMON CORE) ALGEBRA I (COMMON CORE) Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2014/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "subject": "geometry",
+  "session": "january-2017",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which equation represents the line that passes through the point (\u00022,2) and is parallel to y \u0003 x \u0004 8?",
+      "choices": [
+        "y \u0003 x",
+        "y \u0003 \u00022x \u0002 3",
+        "y \u0003 x \u0004 3",
+        "y \u0003 \u00022x \u0004 3"
+      ],
+      "image": "/images/exams/geometry/january-2017/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "In the diagram below, \u0002ADE is the image of \u0002ABC after a reflection over the line AC followed by a dilation of scale factor centered at point A. Which statement must be true?",
+      "choices": [
+        "m\u2220BAC \u0003 m\u2220AED",
+        "m\u2220ABC \u0003 m\u2220ADE",
+        "m\u2220DAE \u0003 m\u2220BAC",
+        "m\u2220ACB \u0003 m\u2220DAB"
+      ],
+      "image": "/images/exams/geometry/january-2017/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Given \u0002ABC \u0002 \u0002DEF, which statement is not always true?",
+      "choices": [
+        "",
+        "m\u2220A \u0003 m\u2220D",
+        "area of \u0002ABC \u0003 area of \u0002DEF",
+        "perimeter of \u0002ABC \u0003 perimeter of \u0002DEF 1 2 1 2 B A C D E AE AC BC DF \u0002 1 2 1 2 1 2 Part I Answer all 24 questions in this part. Each correct answer will receive 2 credits. No partial credit will be allowed. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For each statement or question, choose the word or expression that, of those given, best completes the statement or answers the question."
+      ],
+      "image": "/images/exams/geometry/january-2017/q3.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In the diagram below, are midsegments of \u0002ABC. The perimeter of quadrilateral ADEF is equivalent to",
+      "choices": [
+        "AB \u0004 BC \u0004 AC",
+        "AB \u0004 AC",
+        "2AB \u0004 2AC",
+        "AB \u0004 AC"
+      ],
+      "image": "/images/exams/geometry/january-2017/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "In the diagram below, if \u0002ABE \u0002 \u0002CDF and is drawn, then it could be proven that quadrilateral ABCD is a",
+      "choices": [
+        "square",
+        "rhombus",
+        "rectangle",
+        "parallelogram"
+      ],
+      "image": "/images/exams/geometry/january-2017/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Under which transformation would \u0002A\u0005B\u0005C\u0005, the image of \u0002ABC, not be congruent to \u0002ABC?",
+      "choices": [
+        "reflection over the y-axis",
+        "rotation of 90\u00ba clockwise about the origin",
+        "translation of 3 units right and 2 units down",
+        "dilation with a scale factor of 2 centered at the origin B D E A F C DE DF EF , , and A D E B C F AEFC 1 2 1 2 Geometry (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The diagram below shows two similar triangles. If tan \u0006 \u0003 , what is the value of x, to the nearest tenth?",
+      "choices": [
+        "1.2",
+        "5.6",
+        "7.6",
+        "8.8"
+      ],
+      "image": "/images/exams/geometry/january-2017/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A farmer has 64 feet of fence to enclose a rectangular vegetable garden. Which dimensions would result in the biggest area for this garden?",
+      "choices": [
+        "the length and the width are equal",
+        "the length is 2 more than the width",
+        "the length is 4 more than the width",
+        "the length is 6 more than the width"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The diagram shows rectangle ABCD, with diagonal . What is the perimeter of rectangle ABCD, to the nearest tenth?",
+      "choices": [
+        "28.4",
+        "32.8",
+        "48.0",
+        "62.4 A C B D 30\u00b0 12 BD 3 7 2.4 x \u03b8 Geometry (Common Core) Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/january-2017/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Identify which sequence of transformations could map pentagon ABCDE onto pentagon A\u0007B\u0007C\u0007D\u0007E\u0007, as shown below.",
+      "choices": [
+        "dilation followed by a rotation",
+        "translation followed by a rotation",
+        "line reflection followed by a translation",
+        "line reflection followed by a line reflection"
+      ],
+      "image": "/images/exams/geometry/january-2017/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A solid metal prism has a rectangular base with sides of 4 inches and 6 inches, and a height of 4 inches. A hole in the shape of a cylinder, with a radius of 1 inch, is drilled through the entire length of the rectangular prism. What is the approximate volume of the remaining solid, in cubic inches?",
+      "choices": [
+        "19",
+        "77",
+        "93",
+        "96 4 in 1 in 4 in 6 in A E B D C D\u0007 B\u0007 E\u0007 A\u0007 C\u0007 Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/january-2017/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Given the right triangle in the diagram below, what is the value of x, to the nearest foot?",
+      "choices": [
+        "11",
+        "17",
+        "18",
+        "22"
+      ],
+      "image": "/images/exams/geometry/january-2017/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "On the graph below, point A(3,4) and with coordinates B(4,3) and C(2,1) are graphed. What are the coordinates of B\u0005 and C\u0005 after undergoes a dilation centered at point A with a scale factor of 2?",
+      "choices": [
+        "B\u0005(5,2) and C\u0005(1,\u00022)",
+        "B\u0005(6,1) and C\u0005(0,\u00021)",
+        "B\u0005(5,0) and C\u0005(1,\u00022)",
+        "B\u0005(5,2) and C\u0005(3,0) \u0002 \u0003\u0004\u0005 \u0006\u0003\u0007\b BC y x A C B BC Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/january-2017/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "In the diagram of right triangle ADE below, . Which ratio is always equivalent to the sine of \u2220A?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/geometry/january-2017/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "In circle O, secants and are drawn from external point A such that points D, B, E, and C are on circle O. If AD \u0003 8, AE \u0003 6, and EC is 12 more than BD, the length of is",
+      "choices": [
+        "6",
+        "22",
+        "36",
+        "48"
+      ],
+      "image": "/images/exams/geometry/january-2017/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "A parallelogram is always a rectangle if",
+      "choices": [
+        "the diagonals are congruent",
+        "the diagonals bisect each other",
+        "the diagonals intersect at right angles",
+        "the opposite angles are congruent A C B E D BC DE || BD AEC ADB AB AC AE AD BC AB AD DE Geometry (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which rotation about its center will carry a regular decagon onto itself?",
+      "choices": [
+        "54\u00b0",
+        "162\u00b0",
+        "198\u00b0",
+        "252\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The equation of a circle is x2 \u0004 y2 \u0002 6y \u0004 1 \u0003 0. What are the coordinates of the center and the length of the radius of this circle?",
+      "choices": [
+        "center (0,3) and radius \u0003",
+        "center (0,\u00023) and radius \u0003",
+        "center (0,6) and radius \u0003",
+        "center (0,\u00026) and radius \u0003"
+      ],
+      "image": "/images/exams/geometry/january-2017/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Parallelogram ABCD has coordinates A(0,7) and C(2,1). Which statement would prove that ABCD is a rhombus?",
+      "choices": [
+        "The midpoint of is (1,4).",
+        "The length of is .",
+        "The slope of is .",
+        "The slope of is ."
+      ],
+      "image": "/images/exams/geometry/january-2017/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Point Q is on such that MQ:QN \u0003 2:3. If M has coordinates (3,5) and N has coordinates (8,\u00025), the coordinates of Q are",
+      "choices": [
+        "(5,1)",
+        "(5,0)",
+        "(6,\u00021)",
+        "(6,0) MN 35 35 2 2 2 2 AB 1 3 BD 1 3 BD 40 AC Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/january-2017/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "In the diagram below of circle O, GO \u0003 8 and m\u2220GOJ \u0003 60\u00b0. What is the area, in terms of \u03c0, of the shaded region?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/geometry/january-2017/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A circle whose center is the origin passes through the point (\u00025,12). Which point also lies on this circle?",
+      "choices": [
+        "(10,3)",
+        "(\u000212,13)",
+        "",
+        ""
+      ],
+      "image": "/images/exams/geometry/january-2017/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A plane intersects a hexagonal prism. The plane is perpendicular to the base of the prism. Which two-dimensional figure is the cross section of the plane intersecting the prism?",
+      "choices": [
+        "triangle",
+        "trapezoid",
+        "hexagon",
+        "rectangle"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A water cup in the shape of a cone has a height of 4 inches and a maximum diameter of 3 inches. What is the volume of the water in the cup, to the nearest tenth of a cubic inch, when the cup is filled to half its height?",
+      "choices": [
+        "1.2",
+        "3.5",
+        "4.7",
+        "14.1 ( , ) \u00028 5 21 ( , ) 11 2 12 20 3 \u03c0 160 3 \u03c0 4 3 \u03c0 32 3 \u03c0 G J O 60\u00b0 8 Geometry (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Using a compass and straightedge, construct the line of reflection over which triangle RST reflects onto triangle R\u0005S\u0005T\u0005. [Leave all construction marks.] S\u0005 T\u0005 R\u0005 T R S Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2017/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "The graph below shows \u0002ABC and its image, \u0002A\u0007B\u0007C\u0007. Describe a sequence of rigid motions which would map \u0002ABC onto \u0002A\u0007B\u0007C\u0007. y x B\u0007 C\u0007 A\u0007 A C B",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2017/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "When instructed to find the length of in right triangle HJG, Alex wrote the equation sin 28\u00b0 \u0003 while Marlene wrote cos 62\u00b0 \u0003 . Are both students\u2019 equations correct? Explain why.",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2017/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "In the diagram below, tangent and secant are drawn to circle O from external point D, such that . If m \u0003 152\u00b0, determine and state m\u2220D. BC \u0002 A O C D B AC BC \u0002 \u0002 \u0002 DA DBC HJ 20 HJ 20 HJ G J H 20 28\u0005 Geometry (Common Core) Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2017/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "In the diagram below, is parallel to , and intersects at A. Prove: \u0002GIA \u0003 \u0002TNA I G A T N GI NT IN GT",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2017/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "In the diagram below of isosceles triangle ABC, and angle bisectors , , and are drawn and intersect at X. If m\u2220BAC \u0003 50\u00b0, find m\u2220AXC. B E D F A C X AB CB \u0002 AD BF CE Geometry (Common Core) Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2017/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "In square GEOM, the coordinates of G are (2,\u00022) and the coordinates of O are (\u00024,2). Determine and state the coordinates of vertices E and M. [The use of the set of axes below is optional.] y x",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2017/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Triangle QRS is graphed on the set of axes below. On the same set of axes, graph and label \u0002Q\u0005R\u0005S\u0005, the image of \u0002QRS after a dilation with a scale factor of centered at the origin. Use slopes to explain why . Q R QR \u0005 \u0005|| 3 2 y x S R Q Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Geometry (Common Core) Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2017/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Using a compass and straightedge, construct a regular hexagon inscribed in circle O below. Label it ABCDEF. [Leave all construction marks.] If chords and are drawn, which type of triangle, according to its angles, would \u0002FBC be? Explain your answer. FB FC O",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2017/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "A candle maker uses a mold to make candles like the one shown below. The height of the candle is 13 cm and the circumference of the candle at its widest measure is 31.416 cm. Use modeling to approximate how much wax, to the nearest cubic centimeter, is needed to make this candle. Justify your answer. Geometry (Common Core) Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2017/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "In quadrilateral ABCD, , , and and are perpendicular to diagonal at points F and E. Prove: AE CF \u0002 D C A B E F AB CD \u0002 AB CD || BF DE AC Part IV Answer the 2 questions in this part. Each correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2017/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "New streetlights will be installed along a section of the highway. The posts for the streetlights will be 7.5 m tall and made of aluminum. The city can choose to buy the posts shaped like cylinders or the posts shaped like rectangular prisms. The cylindrical posts have a hollow core, with aluminum 2.5 cm thick, and an outer diameter of 53.4 cm. The rectangular-prism posts have a hollow core, with aluminum 2.5 cm thick, and a square base that measures 40 cm on each side. The density of aluminum is 2.7 g/cm3, and the cost of aluminum is $0.38 per kilogram. If all posts must be the same shape, which post design will cost the town less? How much money will be saved per streetlight post with the less expensive design? Work space for question 36 is continued on the next page. Geometry (Common Core) Question 36 continued High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here Geometry (Common Core) Tear Here Tear Here Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Printed on Recycled Paper GEOMETRY (COMMON CORE) GEOMETRY (COMMON CORE)",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2017/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

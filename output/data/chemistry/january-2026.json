@@ -1,0 +1,1096 @@
+{
+  "subject": "chemistry",
+  "session": "january-2026",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which conclusion resulted directly from the gold foil experiment?",
+      "choices": [
+        "Atoms are hard, indivisible spheres.",
+        "Electrons in an atom are negatively charged.",
+        "Atoms contain a small, dense nucleus.",
+        "Electrons in an atom are in shells that have different energies."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "What is the number of electrons in an atom with 37 protons and 49 neutrons?",
+      "choices": [
+        "12",
+        "37",
+        "49",
+        "86"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which statement describes the mass of an electron?",
+      "choices": [
+        "An electron has the same mass as a proton.",
+        "An electron has the same mass as a neutron.",
+        "An electron has much less mass than a proton.",
+        "An electron has much more mass than a neutron."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In the wave-mechanical model of the atom, electrons are located in regions called",
+      "choices": [
+        "spectra",
+        "orbitals",
+        "quanta",
+        "nuclei"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "At STP, a sample of potassium can be differentiated from a sample of rubidium based on",
+      "choices": [
+        "density",
+        "phase",
+        "temperature",
+        "pressure"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which statement describes a chemical property of chlorine?",
+      "choices": [
+        "Chlorine has an atomic radius of 100. pm.",
+        "Chlorine reacts with sodium to form a salt.",
+        "Chlorine has a melting point of 172 K.",
+        "Chlorine is a green-yellow gas at STP."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Oxygen gas, O2(g), and ozone gas, O3(g), are two forms of the element oxygen. These two forms of oxygen have",
+      "choices": [
+        "the same molecular structures and the same properties",
+        "the same molecular structures and different properties",
+        "different molecular structures and the same properties",
+        "different molecular structures and different properties"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which phrase describes two or more elements chemically combined?",
+      "choices": [
+        "a mixture with a fi xed proportion of elements",
+        "a mixture with variable proportions of elements",
+        "a compound with a fi xed proportion of elements",
+        "a compound with variable proportions of elements"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which formula is an empirical formula?",
+      "choices": [
+        "N2O4",
+        "N2O5",
+        "N2F2",
+        "N2H4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which terms represent two different categories of compounds?",
+      "choices": [
+        "covalent and molecular",
+        "covalent and electrical",
+        "ionic and molecular",
+        "ionic and electrical"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which element has molecules that each contain a multiple covalent bond?",
+      "choices": [
+        "bromine",
+        "hydrogen",
+        "iodine",
+        "oxygen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which formula represents an asymmetrical molecule?",
+      "choices": [
+        "HCl",
+        "CO2",
+        "Cl2",
+        "CH4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which changes in charge and radius occur when an atom gains one electron?",
+      "choices": [
+        "A negative ion forms with a radius smaller than the atom.",
+        "A negative ion forms with a radius larger than the atom.",
+        "A positive ion forms with a radius smaller than the atom.",
+        "A positive ion forms with a radius larger than the atom."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: N 1 N \u2192 N2 What occurs during this reaction?",
+      "choices": [
+        "Energy is absorbed as bonds are broken.",
+        "Energy is absorbed as bonds are formed.",
+        "Energy is released as bonds are broken.",
+        "Energy is released as bonds are formed."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which compound has both ionic and covalent bonds?",
+      "choices": [
+        "CaCl2",
+        "KClO2",
+        "Li2S",
+        "MnO2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which substance can not be broken down by a chemical change?",
+      "choices": [
+        "Fe",
+        "Fe2O3",
+        "FeSO4",
+        "Fe2(SO4)3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "According to the kinetic molecular theory, the particles of an ideal gas have",
+      "choices": [
+        "collisions that do not transfer energy",
+        "strong attractive forces between them",
+        "random, constant, straight-line motion",
+        "large volumes compared to the distances between them"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "In order for a chemical reaction to occur, colliding particles must have proper orientation and proper",
+      "choices": [
+        "radii",
+        "energy",
+        "molar masses",
+        "oxidation states"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "At STP, which sample of gas has the same number of atoms as 4.0 liters of Ne gas?",
+      "choices": [
+        "8.0 L of Ar(g)",
+        "2.0 L of He(g)",
+        "3.0 L of Kr(g)",
+        "4.0 L of Xe(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Based on Table I, the dissolving of which compound is an exothermic process at 298 K and 101.3 kPa?",
+      "choices": [
+        "KNO3(s)",
+        "NaOH(s)",
+        "NH4Cl(s)",
+        "NH4NO3(s)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which expression represents the heat of reaction for a chemical change in terms of potential energy, PE?",
+      "choices": [
+        "PE of products 3 PE of reactants",
+        "PE of products 4 PE of reactants",
+        "PE of products 1 PE of reactants",
+        "PE of products 2 PE of reactants"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which phrase describes how a catalyst increases the rate of a chemical reaction?",
+      "choices": [
+        "provides an alternate reaction pathway",
+        "provides an alternate energy source",
+        "increases the potential energy of the reactants",
+        "increases the activation energy of the reaction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "At standard pressure, which 5.0-gram sample of xenon has the greatest entropy?",
+      "choices": [
+        "Xe(s) at 161 K",
+        "Xe( ) at 161 K",
+        "Xe( ) at 165 K",
+        "Xe(g) at 165 K"
+      ],
+      "image": "/images/exams/chemistry/january-2026/q23.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Systems in nature tend to undergo changes that result in",
+      "choices": [
+        "lower energy and less disorder",
+        "higher energy and less disorder",
+        "lower energy and greater disorder",
+        "higher energy and greater disorder"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which compound is a member of the homologous series represented by the general formula CnH2n?",
+      "choices": [
+        "C2H2",
+        "C3H6",
+        "C4H10",
+        "C5H8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which term identifi es a reaction that produces an alcohol?",
+      "choices": [
+        "combustion",
+        "deposition",
+        "fermentation",
+        "sublimation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which statement describes a substance that is an electrolyte?",
+      "choices": [
+        "The substance conducts an electric current and cannot dissolve in water.",
+        "The substance cannot conduct an electric current and cannot dissolve in water.",
+        "When the substance dissolves in water, the solution can conduct an electric current.",
+        "When the substance dissolves in water, the solution cannot conduct an electric current."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which substance is an Arrhenius acid?",
+      "choices": [
+        "NH3",
+        "HNO3",
+        "NaCl",
+        "NaOH"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "A heavy nucleus splits into two lighter nuclei during which process?",
+      "choices": [
+        "decomposition",
+        "deposition",
+        "fi ssion",
+        "fusion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The energy released by nuclear fusion in the Sun results from the conversion of",
+      "choices": [
+        "energy to matter",
+        "matter to energy",
+        "atoms to molecules",
+        "molecules to atoms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which electron confi guration represents a lithium atom in an excited state?",
+      "choices": [
+        "2-1",
+        "2-2",
+        "1-2-1",
+        "1-1-1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Which Lewis electron-dot diagram represents an atom of selenium in the ground state? Se Se Se Se ( 1 ) ( 3 ) ( 2 ) ( 4 )",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which element could be represented by the X in the oxide formula, X2O?",
+      "choices": [
+        "Cd",
+        "Cr",
+        "Ca",
+        "Cs"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "What is a chemical name for the compound PdO?",
+      "choices": [
+        "palladium (II) oxide",
+        "palladium (IV) oxide",
+        "palladium peroxide",
+        "palladium hydroxide"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: CH4(g) 1 2O2(g) \u2192 2H2O( ) 1 CO2(g) 1 890.4 kJ When 12 grams of CH4(g) react completely with 48 grams of O2(g) to produce 33 grams of CO2(g), how many grams of H2O( ) are produced?",
+      "choices": [
+        "12 g",
+        "27 g",
+        "60. g",
+        "69 g"
+      ],
+      "image": "/images/exams/chemistry/january-2026/q35.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "What is the gram-formula mass of P2O5?",
+      "choices": [
+        "47 g/mol",
+        "111 g/mol",
+        "142 g/mol",
+        "187 g/mol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "In the ground state, ions of which two elements each have the same electron confi guration as an atom of neon in the ground state?",
+      "choices": [
+        "lithium and fl uorine",
+        "sodium and chlorine",
+        "magnesium and oxygen",
+        "calcium and sulfur"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "written",
+      "text": "Which particle model diagram represents a sample of fl uorine at STP? Key = an atom of a different element = an atom of an element ( 1 ) ( 3 ) ( 4 ) ( 2 )",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/q38.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Based on Table F, which compound is most soluble in water?",
+      "choices": [
+        "Ag2CrO4",
+        "AgNO3",
+        "CuCO3",
+        "Cu3(PO4)2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which solution has the lowest freezing point?",
+      "choices": [
+        "1.0 M NaCl(aq)",
+        "1.0 M C6H12O6(aq)",
+        "2.0 M NaCl(aq)",
+        "2.0 M C6H12O6(aq)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "What is the amount of heat energy required to completely vaporize a 12.5-gram sample of H2O( ) at 373 K and 1.0 atmosphere?",
+      "choices": [
+        "4180 J",
+        "5230 J",
+        "19 500 J",
+        "28 300 J"
+      ],
+      "image": "/images/exams/chemistry/january-2026/q41.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "A 2.0-gram sample of solid iron, Fe(s), reacts with 25 mL of 0.10 M HCl(aq). Which conditions will produce the fastest reaction rate?",
+      "choices": [
+        "powdered iron at 273 K",
+        "powdered iron at 303 K",
+        "strip of iron at 273 K",
+        "strip of iron at 303 K"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Which term describes a system with a sealed 100.-mL fl ask that contains 50. grams of water at 25\u00b0C?",
+      "choices": [
+        "physical equilibrium, only",
+        "chemical equilibrium, only",
+        "condensation, only",
+        "evaporation, only"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Given the equation and graph representing a reaction: 0 100. 20. 40. 60. 80. 0.000 0.020 0.040 0.060 0.080 0.100 0.120 Time (s) Concentration (M) Concentration Versus Time 0.140 NO2(g) N2O4(g) 2NO2(g) N2O4(g) At which time is the system at equilibrium?",
+      "choices": [
+        "12 s",
+        "22 s",
+        "50. s",
+        "70. s"
+      ],
+      "image": "/images/exams/chemistry/january-2026/q44.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a chemical system at equilibrium in a sealed, rigid container: H2(g) 1 I2(g) 1 energy 2HI(g) When the temperature of the system in the container is increased, the equilibrium shifts to the",
+      "choices": [
+        "right and the concentration of HI(g) decreases",
+        "right and the concentration of HI(g) increases",
+        "left and the concentration of HI(g) decreases",
+        "left and the concentration of HI(g) increases"
+      ],
+      "image": "/images/exams/chemistry/january-2026/q45.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Given the formula of a compound: H H C H H H C C C C H H C H H H H H C H H H H What is a chemical name for this compound?",
+      "choices": [
+        "4-methylhexane",
+        "3-methylhexane",
+        "3,4-dimethylpentane",
+        "2,3-dimethylpentane"
+      ],
+      "image": "/images/exams/chemistry/january-2026/q46.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "What is the oxidation state of chlorine in the compound KClO3?",
+      "choices": [
+        "11",
+        "21",
+        "15",
+        "17"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reversible reaction: NH3(g) 1 H2O( ) NH4 1(aq) 1 OH2(aq) According to one acid-base theory, the reactant in the reverse reaction that donates an H1 ion is",
+      "choices": [
+        "NH3(g)",
+        "H2O( )",
+        "NH4 1(aq)",
+        "OH2(aq)"
+      ],
+      "image": "/images/exams/chemistry/january-2026/q48.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "When the pH value of a solution is changed from 4.0 to 7.0, what is the change in the concentration of hydronium ions?",
+      "choices": [
+        "decreased by a factor of 1000",
+        "decreased by a factor of 3",
+        "increased by a factor of 1000",
+        "increased by a factor of 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a radioactive emission from a sample of chromium-51 passing through an electric fi eld between two oppositely charged metal plates. 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 Negatively charged plate Positively charged plate Chromium-51 Pb block Which type of radioactive emission is represented in the diagram?",
+      "choices": [
+        "alpha particle",
+        "beta particle",
+        "gamma radiation",
+        "positron"
+      ],
+      "image": "/images/exams/chemistry/january-2026/q50.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Determine the percent composition by mass of Cu in CuSO4 (gram-formula mass 5 160. g/mol).",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/q51.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 39.7% or any value from 39.67% to 40.3%, inclusive."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "State, in terms of both protons and neutrons, why an atom of K-39 is an isotope of an atom of K-40.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/context_52_54.png",
+      "context": "Base your answers to questions 52 through 54 on the information below and on your knowledge of chemistry.\nThe three naturally occurring isotopes of potassium are K-39, K-40, and K-41. The \natomic mass and percent natural abundance of each of these isotopes are shown in the table \nbelow.\nNaturally Occurring Isotopes of Potassium\nIsotope\nAtomic Mass (u)\nNatural Abundance (%)\nK-39\n38.964\n93.26\nK-40\n39.964\n0.01\nK-41\n40.962\n6.73",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The K-39 atoms and K-40 atoms have the same number of protons, but a different number of neutrons. Both atoms have 19 protons, but K-39 atoms each have 20 neutrons and K-40 atoms each have 21 neutrons. same number of protons, a different number of neutrons"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Compare the energy of an electron in the fi rst shell of a potassium atom to the energy of an electron in the fourth shell of the same atom.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/context_52_54.png",
+      "context": "Base your answers to questions 52 through 54 on the information below and on your knowledge of chemistry.\nThe three naturally occurring isotopes of potassium are K-39, K-40, and K-41. The \natomic mass and percent natural abundance of each of these isotopes are shown in the table \nbelow.\nNaturally Occurring Isotopes of Potassium\nIsotope\nAtomic Mass (u)\nNatural Abundance (%)\nK-39\n38.964\n93.26\nK-40\n39.964\n0.01\nK-41\n40.962\n6.73",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The energy of an electron in the fi rst shell is less than the energy of an electron in the fourth shell. The fourth shell electron has greater energy. less in fi rst shell"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the atomic mass of potassium.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/context_52_54.png",
+      "context": "Base your answers to questions 52 through 54 on the information below and on your knowledge of chemistry.\nThe three naturally occurring isotopes of potassium are K-39, K-40, and K-41. The \natomic mass and percent natural abundance of each of these isotopes are shown in the table \nbelow.\nNaturally Occurring Isotopes of Potassium\nIsotope\nAtomic Mass (u)\nNatural Abundance (%)\nK-39\n38.964\n93.26\nK-40\n39.964\n0.01\nK-41\n40.962\n6.73",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: (38.964 u)(0.9326) 1 (39.964 u)(0.0001) 1 (40.962 u)(0.0673) (38.964)(93.26) 1 (39.964)(0.01) 1 (40.962)(6.73) 100 (38.964)(93.26%) 1 (39.964)(0.01%) 1 (40.962)(6.73%) Note: Do not allow credit for a numerical setup using mass numbers rather than isotopic masses. Part B\u20132 Allow a total of 15 credits for this part. The student must answer all questions in this part. P.S./Chem. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "State, in terms of the number of each type of atom, why the equation is balanced.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 57 on the information below and on your knowledge of chemistry. \nAmmonia, NH3, is used in the production of some fertilizers, textiles, and plastics. \nNitrogen gas and hydrogen gas react to produce ammonia as represented by the balanced \nequation below.\nN2(g) 1 3H2(g) \u2192 2NH3(g) 1 91.8 kJ",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: There are two nitrogen atoms and six hydrogen atoms on the reactant side and two nitrogen atoms and six hydrogen atoms on the product side. There is the same number of atoms of each element on both sides of the equation. 2 N atoms 1 6 H atoms 5 2 N atoms and 6 H atoms"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "State evidence from the equation that the reaction is exothermic.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 57 on the information below and on your knowledge of chemistry. \nAmmonia, NH3, is used in the production of some fertilizers, textiles, and plastics. \nNitrogen gas and hydrogen gas react to produce ammonia as represented by the balanced \nequation below.\nN2(g) 1 3H2(g) \u2192 2NH3(g) 1 91.8 kJ",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The energy term is on the right side of the equation. The 91.8 kJ of energy is on the product side. The heat term is on the right. Heat is a product. Note: Do not accept \u201cHeat is produced.\u201d without stating supporting evidence from the equation."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Determine the number of moles of hydrogen gas required to react completely with nitrogen gas to produce 10.0 moles of ammonia gas in this reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 57 on the information below and on your knowledge of chemistry. \nAmmonia, NH3, is used in the production of some fertilizers, textiles, and plastics. \nNitrogen gas and hydrogen gas react to produce ammonia as represented by the balanced \nequation below.\nN2(g) 1 3H2(g) \u2192 2NH3(g) 1 91.8 kJ",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 15.0 mol or 15 mol."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "State the number of signifi cant fi gures used to express the original temperature of the sample of nitrogen gas.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 58 through 61 on the information below and on your knowledge of chemistry.\nA 320.-milliliter sample of nitrogen gas, N2(g), is placed in a sealed, rigid cylinder with a \nmovable piston at 300. K and 100. kilopascals.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 3 or three."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Compare the force of collisions of the gas particles at 300. K to the force of collisions at 450. K.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 58 through 61 on the information below and on your knowledge of chemistry.\nA 320.-milliliter sample of nitrogen gas, N2(g), is placed in a sealed, rigid cylinder with a \nmovable piston at 300. K and 100. kilopascals.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The force of collisions is less at 300. K than at 450. K. lower at 300 K than at 450 K greater at 450 K"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "State a change in temperature and a change in pressure of the nitrogen gas that will cause the gas in the cylinder to behave more like an ideal gas.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 58 through 61 on the information below and on your knowledge of chemistry.\nA 320.-milliliter sample of nitrogen gas, N2(g), is placed in a sealed, rigid cylinder with a \nmovable piston at 300. K and 100. kilopascals.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Temperature: increase Pressure: decrease Temperature: higher Pressure: lower Temperature: any temperature above 300. K Pressure: any pressure lower than 100. kPa"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Determine the volume of the N2 gas if the temperature is changed to 450. K and the pressure is changed to 60.0 kPa.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 58 through 61 on the information below and on your knowledge of chemistry.\nA 320.-milliliter sample of nitrogen gas, N2(g), is placed in a sealed, rigid cylinder with a \nmovable piston at 300. K and 100. kilopascals.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 800. mL or 800 mL. P.S./Chem. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Based on Table R, write the name of the class of compound to which reactant 1 belongs.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nThe organic compound ethyl methanoate is a clear liquid with a pleasant odor. A reaction \nto produce ethyl methanoate is represented by the equation below.\nH\nC\nC\nO\nOH\nOH\nH\nC\nH\nH\nH\nH\nC\nH\nC\nH\nH\nH\nH\nH\nC\nO\nO\nH2O\nReactant 1\nReactant 2",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for organic acid or organic acids."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify the element in reactant 2 that allows it to be classifi ed as an organic compound.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nThe organic compound ethyl methanoate is a clear liquid with a pleasant odor. A reaction \nto produce ethyl methanoate is represented by the equation below.\nH\nC\nC\nO\nOH\nOH\nH\nC\nH\nH\nH\nH\nC\nH\nC\nH\nH\nH\nH\nH\nC\nO\nO\nH2O\nReactant 1\nReactant 2",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for C or carbon."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "State the number of electrons shared between the carbon atoms in reactant 2.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nThe organic compound ethyl methanoate is a clear liquid with a pleasant odor. A reaction \nto produce ethyl methanoate is represented by the equation below.\nH\nC\nC\nO\nOH\nOH\nH\nC\nH\nH\nH\nH\nC\nH\nC\nH\nH\nH\nH\nH\nC\nO\nO\nH2O\nReactant 1\nReactant 2",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 2 or one pair."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "State, in terms of molecular formulas and structural formulas, why propanoic acid, CH3CH2COOH, is an isomer of ethyl methanoate, HCOOCH2CH3.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nThe organic compound ethyl methanoate is a clear liquid with a pleasant odor. A reaction \nto produce ethyl methanoate is represented by the equation below.\nH\nC\nC\nO\nOH\nOH\nH\nC\nH\nH\nH\nH\nC\nH\nC\nH\nH\nH\nH\nH\nC\nO\nO\nH2O\nReactant 1\nReactant 2",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Both propanoic acid and ethyl methanoate have the same molecular formula but different structural formulas. Both compounds are composed of 3 carbon atoms, 6 hydrogen atoms, and 2 oxygen atoms but differ in the arrangement of their atoms. same molecular formula, different structural formulas P.S./Chem. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "State, in terms of valence electrons, why bromine and iodine have similar chemical properties.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of chemistry.\nFluorine, chlorine, bromine, and iodine are called halogens. One use for some halogens \nis as a gas in halogen lightbulbs. These lightbulbs have a tungsten wire fi lament that glows \nbrightly when electricity fl ows through the wire. The contents of the halogen lightbulbs \nreach an operating temperature of 3200 K.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Bromine and iodine have similar chemical properties because their atoms each have seven valence electrons in the ground state. The outermost shell of each bromine and iodine atom has 7 electrons. Atoms of these elements have the same number of valence electrons. same number of valence electrons"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "State, in terms of the strength of intermolecular forces, why bromine has a higher boiling point at standard pressure than chlorine at standard pressure.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of chemistry.\nFluorine, chlorine, bromine, and iodine are called halogens. One use for some halogens \nis as a gas in halogen lightbulbs. These lightbulbs have a tungsten wire fi lament that glows \nbrightly when electricity fl ows through the wire. The contents of the halogen lightbulbs \nreach an operating temperature of 3200 K.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The bromine has stronger intermolecular forces than chlorine. The chlorine has weaker IMF."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Based on Table S, state the trend in fi rst ionization energy for these four halogen elements as they are considered in order of increasing atomic number.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of chemistry.\nFluorine, chlorine, bromine, and iodine are called halogens. One use for some halogens \nis as a gas in halogen lightbulbs. These lightbulbs have a tungsten wire fi lament that glows \nbrightly when electricity fl ows through the wire. The contents of the halogen lightbulbs \nreach an operating temperature of 3200 K.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The fi rst ionization energy of these 4 elements decreases in order of increasing atomic number. From fl uorine through iodine, the fi rst ionization energy decreases. The fi rst ionization energy decreases. decreases"
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Based on Table S, state why the tungsten fi lament does not melt in the operating halogen lightbulb.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of chemistry.\nFluorine, chlorine, bromine, and iodine are called halogens. One use for some halogens \nis as a gas in halogen lightbulbs. These lightbulbs have a tungsten wire fi lament that glows \nbrightly when electricity fl ows through the wire. The contents of the halogen lightbulbs \nreach an operating temperature of 3200 K.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: At 3200 K, the fi lament is below the melting point of tungsten, which is 3695 K. The melting point of tungsten is higher than the temperature inside the halogen bulb. Tungsten, W, doesn\u2019t melt until 3695 K."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State the element classifi cation of the element tungsten.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of chemistry.\nFluorine, chlorine, bromine, and iodine are called halogens. One use for some halogens \nis as a gas in halogen lightbulbs. These lightbulbs have a tungsten wire fi lament that glows \nbrightly when electricity fl ows through the wire. The contents of the halogen lightbulbs \nreach an operating temperature of 3200 K.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for metal or metals or transition metal. Part C Allow a total of 20 credits for this part. The student must answer all questions in this part. P.S./Chem. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Convert the temperature of the dry towel after 8 minutes to kelvins.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of chemistry. \nDuring a laboratory activity appropriate safety equipment was used and safety procedures \nwere followed. In the activity, a student performed a controlled experiment designed to \ninvestigate the cooling effect of the evaporation of water. The student used three beakers. \nA paper towel was held in place over the top of each beaker as shown in the diagram below.\nUsing a dropper, the student added room temperature water to one of the paper towels, \nadded hot water to another paper towel, and left one paper towel dry. The surface temperature \nof the dry towel was measured at the start and 8 minutes later. The temperatures of the other \ntwo towels were measured when the water was added and 8 minutes later. The data for this \nactivity are shown in the table below.\nTemperature Data for the Activity\nTowel\nTemperature at\nthe Start (\u00b0C)\nTemperature after\n8 minutes (\u00b0C)\nDry towel\n22.0\n22.0\nTowel with room temperature water\n22.0\n19.0\nTowel with hot water\n67.0\n20.0",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 295 K or any value from 295 K to 295.2 K, inclusive."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Determine the amount of heat absorbed when 3.60 grams of the water is heated from 22.0\u00b0C to 67.0\u00b0C.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of chemistry. \nDuring a laboratory activity appropriate safety equipment was used and safety procedures \nwere followed. In the activity, a student performed a controlled experiment designed to \ninvestigate the cooling effect of the evaporation of water. The student used three beakers. \nA paper towel was held in place over the top of each beaker as shown in the diagram below.\nUsing a dropper, the student added room temperature water to one of the paper towels, \nadded hot water to another paper towel, and left one paper towel dry. The surface temperature \nof the dry towel was measured at the start and 8 minutes later. The temperatures of the other \ntwo towels were measured when the water was added and 8 minutes later. The data for this \nactivity are shown in the table below.\nTemperature Data for the Activity\nTowel\nTemperature at\nthe Start (\u00b0C)\nTemperature after\n8 minutes (\u00b0C)\nDry towel\n22.0\n22.0\nTowel with room temperature water\n22.0\n19.0\nTowel with hot water\n67.0\n20.0",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 677 J or any value from 677 J to 680.4 J, inclusive."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "State the direction of heat fl ow between the hot water on the towel and the air at room temperature.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of chemistry. \nDuring a laboratory activity appropriate safety equipment was used and safety procedures \nwere followed. In the activity, a student performed a controlled experiment designed to \ninvestigate the cooling effect of the evaporation of water. The student used three beakers. \nA paper towel was held in place over the top of each beaker as shown in the diagram below.\nUsing a dropper, the student added room temperature water to one of the paper towels, \nadded hot water to another paper towel, and left one paper towel dry. The surface temperature \nof the dry towel was measured at the start and 8 minutes later. The temperatures of the other \ntwo towels were measured when the water was added and 8 minutes later. The data for this \nactivity are shown in the table below.\nTemperature Data for the Activity\nTowel\nTemperature at\nthe Start (\u00b0C)\nTemperature after\n8 minutes (\u00b0C)\nDry towel\n22.0\n22.0\nTowel with room temperature water\n22.0\n19.0\nTowel with hot water\n67.0\n20.0",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: from hot water to air at room temperature from towel with hot water to air around the beaker from water to air"
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "State what happens to the potential energy of the molecules of water as the water evaporates from the wet towels.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of chemistry. \nDuring a laboratory activity appropriate safety equipment was used and safety procedures \nwere followed. In the activity, a student performed a controlled experiment designed to \ninvestigate the cooling effect of the evaporation of water. The student used three beakers. \nA paper towel was held in place over the top of each beaker as shown in the diagram below.\nUsing a dropper, the student added room temperature water to one of the paper towels, \nadded hot water to another paper towel, and left one paper towel dry. The surface temperature \nof the dry towel was measured at the start and 8 minutes later. The temperatures of the other \ntwo towels were measured when the water was added and 8 minutes later. The data for this \nactivity are shown in the table below.\nTemperature Data for the Activity\nTowel\nTemperature at\nthe Start (\u00b0C)\nTemperature after\n8 minutes (\u00b0C)\nDry towel\n22.0\n22.0\nTowel with room temperature water\n22.0\n19.0\nTowel with hot water\n67.0\n20.0",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The potential energy of the water molecules increases as the water evaporates. There is more potential energy in the water vapor molecules than in the molecules in liquid water. The water molecules gain PE. increases"
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "State, in terms of experimental design, why the student left one paper towel dry on a beaker.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of chemistry. \nDuring a laboratory activity appropriate safety equipment was used and safety procedures \nwere followed. In the activity, a student performed a controlled experiment designed to \ninvestigate the cooling effect of the evaporation of water. The student used three beakers. \nA paper towel was held in place over the top of each beaker as shown in the diagram below.\nUsing a dropper, the student added room temperature water to one of the paper towels, \nadded hot water to another paper towel, and left one paper towel dry. The surface temperature \nof the dry towel was measured at the start and 8 minutes later. The temperatures of the other \ntwo towels were measured when the water was added and 8 minutes later. The data for this \nactivity are shown in the table below.\nTemperature Data for the Activity\nTowel\nTemperature at\nthe Start (\u00b0C)\nTemperature after\n8 minutes (\u00b0C)\nDry towel\n22.0\n22.0\nTowel with room temperature water\n22.0\n19.0\nTowel with hot water\n67.0\n20.0",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: One paper towel was left dry as a control to see if the temperature of the towel changes without adding any water. The student could see if there is a cooling effect with the dry towel. The dry towel on the beaker is a control in the activity."
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "State the form of energy that is converted to electrical energy in the operating cell.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the information below and on your knowledge of chemistry.\nA voltaic cell is used during a laboratory investigation. The diagram and ionic equation \nbelow represent this cell and the reaction that occurs when the switch is closed. During this \nlaboratory activity appropriate safety equipment is used and safety procedures are followed.\nNi(s) + Zn2+(aq)\nNi(s) electrode\nZn(s) electrode\nSalt \nbridge\nNi(NO3)2(aq)\nZn(NO3)2(aq)\nSwitch\nVoltmeter\nWire\nWire\nNi2+(aq) + Zn(s)\nV",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: chemical potential chemical potential"
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Identify the electrode that is the anode in the operating cell.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the information below and on your knowledge of chemistry.\nA voltaic cell is used during a laboratory investigation. The diagram and ionic equation \nbelow represent this cell and the reaction that occurs when the switch is closed. During this \nlaboratory activity appropriate safety equipment is used and safety procedures are followed.\nNi(s) + Zn2+(aq)\nNi(s) electrode\nZn(s) electrode\nSalt \nbridge\nNi(NO3)2(aq)\nZn(NO3)2(aq)\nSwitch\nVoltmeter\nWire\nWire\nNi2+(aq) + Zn(s)\nV",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Zn(s) electrode Zn(s) zinc P.S./Chem. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Write a balanced equation for the half-reaction that occurs in the nickel half-cell when the cell operates.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2026/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the information below and on your knowledge of chemistry.\nA voltaic cell is used during a laboratory investigation. The diagram and ionic equation \nbelow represent this cell and the reaction that occurs when the switch is closed. During this \nlaboratory activity appropriate safety equipment is used and safety procedures are followed.\nNi(s) + Zn2+(aq)\nNi(s) electrode\nZn(s) electrode\nSalt \nbridge\nNi(NO3)2(aq)\nZn(NO3)2(aq)\nSwitch\nVoltmeter\nWire\nWire\nNi2+(aq) + Zn(s)\nV",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Ni21(aq) 1 2e2 \u2192 Ni(s) Ni12 1 2e2 \u2192 Ni Note: Do not allow credit for the e without the minus sign (2)."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify the negative ion present in the NaOH(aq) solution.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 79 through 82 on the information below and on your knowledge of chemistry. \nA 15.0-milliliter sample of HCl(aq) was exactly neutralized by 25.2 milliliters of\n0.50 M NaOH(aq). During this laboratory activity appropriate safety equipment was\nused and safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for OH2 or OH2 ion or hydroxide or hydroxide ion. Note: Do not allow credit for OH or hydroxyl or hydroxyl ion."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Complete the equation in your answer booklet for the reaction of HCl(aq) with NaOH(aq) by writing the formula of the missing product.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 79 through 82 on the information below and on your knowledge of chemistry. \nA 15.0-milliliter sample of HCl(aq) was exactly neutralized by 25.2 milliliters of\n0.50 M NaOH(aq). During this laboratory activity appropriate safety equipment was\nused and safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: NaCl(aq) NaCl"
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "State the color of methyl orange indicator if it was added to a sample of the NaOH(aq).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 79 through 82 on the information below and on your knowledge of chemistry. \nA 15.0-milliliter sample of HCl(aq) was exactly neutralized by 25.2 milliliters of\n0.50 M NaOH(aq). During this laboratory activity appropriate safety equipment was\nused and safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for yellow."
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Determine the concentration of the HCl(aq) sample using the titration data.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 79 through 82 on the information below and on your knowledge of chemistry. \nA 15.0-milliliter sample of HCl(aq) was exactly neutralized by 25.2 milliliters of\n0.50 M NaOH(aq). During this laboratory activity appropriate safety equipment was\nused and safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0.84 M or .84 M. P.S./Chem. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Based on Table N, state the decay mode of tritium, H-3.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nNuclear fusion reactions are being researched as a source of energy to produce \nelectricity. One fusion reaction researched is the reaction of deuterium, H-2, and\ntritium, H-3. Deuterium can be recovered from seawater. Tritium can be produced by \nneutron bombardment of lithium as represented by the equation below.\n6 \n3Li 1 1 \n0n \u2192 3 \n1H 1 4 \n2He",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: b 2 0 21e beta decay 0 21b beta beta particle"
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Complete the equation in your answer booklet for the nuclear fusion of deuterium and tritium by writing a notation for the missing product.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nNuclear fusion reactions are being researched as a source of energy to produce \nelectricity. One fusion reaction researched is the reaction of deuterium, H-2, and\ntritium, H-3. Deuterium can be recovered from seawater. Tritium can be produced by \nneutron bombardment of lithium as represented by the equation below.\n6 \n3Li 1 1 \n0n \u2192 3 \n1H 1 4 \n2He",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: 1 0n 0n1"
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Based on Table N, determine the fraction of an original sample of tritium that remains unchanged after 36.93 years. P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nNuclear fusion reactions are being researched as a source of energy to produce \nelectricity. One fusion reaction researched is the reaction of deuterium, H-2, and\ntritium, H-3. Deuterium can be recovered from seawater. Tritium can be produced by \nneutron bombardment of lithium as represented by the equation below.\n6 \n3Li 1 1 \n0n \u2192 3 \n1H 1 4 \n2He",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: 1 __ 8 0.125 12.5% P.S./Chem. Rating Guide\u2013Jan. \u2019"
+    }
+  ]
+}

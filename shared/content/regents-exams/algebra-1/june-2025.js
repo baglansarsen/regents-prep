@@ -14,8 +14,7 @@ export default {
       topic: 'Linear Equations & Inequalities',
       correct: 0,
       explanation: 'Distribute 3 across (2x − 5) to get 6x − 15, then add 4x to combine like terms: 6x + 4x = 10x, leaving 10x − 15.',
-      diveDeep: 'The distributive property a(b + c) = ab + ac is the foundation of simplifying expressions. A common mistake is forgetting to multiply the 3 by BOTH terms inside the parentheses, or combining the constant −15 with the variable terms. Always distribute completely first, then collect like terms (terms with the same variable and exponent). When you see a number directly outside a parenthesis, treat distribution as your first step before anything else.'
-    },
+      diveDeep: 'The distributive property a(b + c) = ab + ac is the foundation of simplifying expressions. A common mistake is forgetting to multiply the 3 by BOTH terms inside the parentheses, or combining the constant −15 with the variable terms. Always distribute completely first, then collect like terms (terms with the same variable and exponent). When you see a number directly outside a parenthesis, treat distribution as your first step before anything else.', image: '/images/exams/alg1-june-2025/q1.png' },
     {
       number: 2,
       part: 'A',
@@ -24,8 +23,7 @@ export default {
       topic: 'Polynomials & Factoring',
       correct: 2,
       explanation: 'This is a difference of two perfect squares, x² − 7², which always factors as (x − 7)(x + 7).',
-      diveDeep: 'The difference of squares pattern a² − b² = (a − b)(a + b) appears constantly on the Regents. Recognize it when you see two perfect-square terms separated by a minus sign and no middle term. A frequent error is choosing (x − 7)(x − 7), which would multiply out to x² − 14x + 49 — note the extra middle term. The key is that the two binomial factors are identical except for opposite signs, which makes the middle terms cancel.'
-    },
+      diveDeep: 'The difference of squares pattern a² − b² = (a − b)(a + b) appears constantly on the Regents. Recognize it when you see two perfect-square terms separated by a minus sign and no middle term. A frequent error is choosing (x − 7)(x − 7), which would multiply out to x² − 14x + 49 — note the extra middle term. The key is that the two binomial factors are identical except for opposite signs, which makes the middle terms cancel.', image: '/images/exams/alg1-june-2025/q2.png' },
     {
       number: 3,
       part: 'A',
@@ -44,8 +42,7 @@ export default {
       topic: 'Exponential Functions',
       correct: 1,
       explanation: 'Compound interest grows by a constant percentage (a constant multiplier) each period, which is the defining feature of exponential growth.',
-      diveDeep: 'Linear models change by a constant ADDED amount per step, while exponential models change by a constant MULTIPLIED factor (percentage) per step. Constant speed, flat fees plus hourly rates, and fixed monthly costs all add equal amounts, making them linear. Interest "compounded annually" multiplies the balance by 1.03 each year, so the increase itself grows over time — the hallmark of exponential behavior. Ask yourself: is the quantity adding the same number, or multiplying by the same number?'
-    },
+      diveDeep: 'Linear models change by a constant ADDED amount per step, while exponential models change by a constant MULTIPLIED factor (percentage) per step. Constant speed, flat fees plus hourly rates, and fixed monthly costs all add equal amounts, making them linear. Interest "compounded annually" multiplies the balance by 1.03 each year, so the increase itself grows over time — the hallmark of exponential behavior. Ask yourself: is the quantity adding the same number, or multiplying by the same number?', image: '/images/exams/alg1-june-2025/q4.png' },
     {
       number: 5,
       part: 'A',
@@ -74,8 +71,7 @@ export default {
       topic: 'Linear Equations & Inequalities',
       correct: 0,
       explanation: 'Slope = (y₂ − y₁)/(x₂ − x₁) = (−8 − 4)/(3 − (−1)) = −12/4 = −3.',
-      diveDeep: 'Slope measures the change in y over the change in x ("rise over run"). The two most common errors are subtracting the coordinates in inconsistent orders (you must keep the same point first in both numerator and denominator) and mishandling the negatives, especially 3 − (−1) = 4. A negative slope means the line falls from left to right, which makes sense here since y dropped from 4 to −8 as x increased.'
-    },
+      diveDeep: 'Slope measures the change in y over the change in x ("rise over run"). The two most common errors are subtracting the coordinates in inconsistent orders (you must keep the same point first in both numerator and denominator) and mishandling the negatives, especially 3 − (−1) = 4. A negative slope means the line falls from left to right, which makes sense here since y dropped from 4 to −8 as x increased.', image: '/images/exams/alg1-june-2025/q7.png' },
     {
       number: 8,
       part: 'A',
@@ -104,8 +100,7 @@ export default {
       topic: 'Polynomials & Factoring',
       correct: 2,
       explanation: 'Divide each term by 2x: 8x² ÷ 2x = 4x and 2x ÷ 2x = 1, giving 4x + 1.',
-      diveDeep: 'To divide a polynomial by a monomial, split the fraction so each term of the numerator is divided separately by the denominator. A very common error is forgetting that 2x ÷ 2x = 1 (not 0 and not just x), which would lose the "+ 1" term. When dividing powers of the same base you subtract exponents: x² ÷ x¹ = x¹. Always check by multiplying your answer back by 2x to recover the original expression.'
-    },
+      diveDeep: 'To divide a polynomial by a monomial, split the fraction so each term of the numerator is divided separately by the denominator. A very common error is forgetting that 2x ÷ 2x = 1 (not 0 and not just x), which would lose the "+ 1" term. When dividing powers of the same base you subtract exponents: x² ÷ x¹ = x¹. Always check by multiplying your answer back by 2x to recover the original expression.', image: '/images/exams/alg1-june-2025/q10.png' },
     {
       number: 11,
       part: 'A',
@@ -147,8 +142,7 @@ export default {
       topic: 'Real Number System',
       correct: 3,
       explanation: 'Adding a rational number (3) to an irrational number (√2) always produces an irrational number, whose decimal neither terminates nor repeats.',
-      diveDeep: 'A rational number can be written as a fraction of integers and has a decimal that either terminates or repeats; an irrational number (like √2 or π) cannot, and its decimal goes on forever without repeating. The sum of a rational and an irrational is always irrational. Watch the wording carefully: "terminating decimal" describes a rational number, so any choice using that phrase to justify "irrational" is internally contradictory. The correct reasoning must pair "irrational" with "cannot be expressed as a terminating or repeating decimal."'
-    },
+      diveDeep: 'A rational number can be written as a fraction of integers and has a decimal that either terminates or repeats; an irrational number (like √2 or π) cannot, and its decimal goes on forever without repeating. The sum of a rational and an irrational is always irrational. Watch the wording carefully: "terminating decimal" describes a rational number, so any choice using that phrase to justify "irrational" is internally contradictory. The correct reasoning must pair "irrational" with "cannot be expressed as a terminating or repeating decimal."', image: '/images/exams/alg1-june-2025/q14.png' },
     {
       number: 15,
       part: 'A',
@@ -167,8 +161,7 @@ export default {
       topic: 'Real Number System',
       correct: 0,
       explanation: 'Simplify each radical: √27 = 3√3 and √12 = 2√3, so the sum is 3√3 + 2√3 = 5√3.',
-      diveDeep: 'To add radicals you must first simplify each one to find like radical terms — only radicals with the same radicand (the number under the root) can be combined. Factor out perfect squares: 27 = 9 · 3 so √27 = 3√3, and 12 = 4 · 3 so √12 = 2√3. A common error is adding the radicands (27 + 12) under one root, which is invalid. Treat √3 like a variable: 3√3 + 2√3 = 5√3, just as 3x + 2x = 5x.'
-    },
+      diveDeep: 'To add radicals you must first simplify each one to find like radical terms — only radicals with the same radicand (the number under the root) can be combined. Factor out perfect squares: 27 = 9 · 3 so √27 = 3√3, and 12 = 4 · 3 so √12 = 2√3. A common error is adding the radicands (27 + 12) under one root, which is invalid. Treat √3 like a variable: 3√3 + 2√3 = 5√3, just as 3x + 2x = 5x.', image: '/images/exams/alg1-june-2025/q16.png' },
     {
       number: 17,
       part: 'A',
@@ -208,8 +201,7 @@ export default {
       topic: 'Linear Equations & Inequalities',
       correct: 0,
       explanation: 'Starting from K = ½mv², multiply both sides by 2 to get 2K = mv², then divide both sides by v² to isolate m = 2K/v².',
-      diveDeep: 'Solving a formula for a different variable (literal equation) uses the same inverse-operation logic as solving for x. To undo multiplication by ½, multiply by 2; to undo multiplication by v², divide by v². Perform the inverse operations in reverse order of operations to peel away everything attached to the target variable. The result m = 2K/v² keeps K and v² where they belong — a common error is leaving v² in the numerator instead of the denominator.'
-    },
+      diveDeep: 'Solving a formula for a different variable (literal equation) uses the same inverse-operation logic as solving for x. To undo multiplication by ½, multiply by 2; to undo multiplication by v², divide by v². Perform the inverse operations in reverse order of operations to peel away everything attached to the target variable. The result m = 2K/v² keeps K and v² where they belong — a common error is leaving v² in the numerator instead of the denominator.', image: '/images/exams/alg1-june-2025/q20.png' },
     {
       number: 21,
       part: 'A',
@@ -266,8 +258,7 @@ export default {
       topic: 'Quadratic Functions',
       explanation: 'Setting the expressions equal gives x² + 4x − 5 = 2x − 2, which simplifies to x² + 2x − 3 = 0, factoring to (x + 3)(x − 1) = 0, so x = −3 or x = 1, with corresponding y-values of −8 and 0.',
       diveDeep: 'To solve a linear-quadratic system algebraically, use substitution: set the two expressions for y equal to each other, then collect all terms on one side to form a quadratic equal to zero. Factor (or use the quadratic formula) to find the x-values, then substitute each back into the simpler linear equation to get its y-value. The solutions are the intersection points of the parabola and the line — there can be two, one, or zero real solutions depending on how they meet.',
-      modelAnswer: 'Set the two expressions for y equal:\nx² + 4x − 5 = 2x − 2\nMove all terms to one side:\nx² + 4x − 5 − 2x + 2 = 0\nx² + 2x − 3 = 0\nFactor:\n(x + 3)(x − 1) = 0\nSo x = −3 or x = 1.\nSubstitute into y = 2x − 2:\nWhen x = −3: y = 2(−3) − 2 = −8, giving (−3, −8).\nWhen x = 1: y = 2(1) − 2 = 0, giving (1, 0).\nThe solutions are (−3, −8) and (1, 0).'
-    },
+      modelAnswer: 'Set the two expressions for y equal:\nx² + 4x − 5 = 2x − 2\nMove all terms to one side:\nx² + 4x − 5 − 2x + 2 = 0\nx² + 2x − 3 = 0\nFactor:\n(x + 3)(x − 1) = 0\nSo x = −3 or x = 1.\nSubstitute into y = 2x − 2:\nWhen x = −3: y = 2(−3) − 2 = −8, giving (−3, −8).\nWhen x = 1: y = 2(1) − 2 = 0, giving (1, 0).\nThe solutions are (−3, −8) and (1, 0).', image: '/images/exams/alg1-june-2025/q25.png' },
     {
       number: 26,
       part: 'B',
@@ -306,8 +297,7 @@ export default {
       topic: 'Quadratic Functions',
       explanation: 'The axis of symmetry is x = −(−2)/(2·1) = 1, and f(1) = 1 − 2 − 3 = −4, so the vertex is (1, −4); plotting points across the interval produces an upward parabola.',
       diveDeep: 'To graph a parabola, first find the axis of symmetry x = −b/(2a) to locate the vertex (the turning point), then build a table of values on either side. Because parabolas are symmetric, points equidistant from the axis share the same y-value, which speeds up plotting. With a = 1 > 0 the parabola opens upward, so the vertex is a minimum. Always label the vertex and at least a few points to earn full credit.',
-      modelAnswer: 'Find the axis of symmetry: x = −b/(2a) = −(−2)/(2·1) = 1.\nFind the vertex by evaluating f(1): f(1) = (1)² − 2(1) − 3 = 1 − 2 − 3 = −4.\nVertex: (1, −4).\nTable of values:\nx = −2: f(−2) = 4 + 4 − 3 = 5 → (−2, 5)\nx = −1: f(−1) = 1 + 2 − 3 = 0 → (−1, 0)\nx = 0: f(0) = 0 − 0 − 3 = −3 → (0, −3)\nx = 1: f(1) = −4 → (1, −4)\nx = 2: f(2) = 4 − 4 − 3 = −3 → (2, −3)\nx = 3: f(3) = 9 − 6 − 3 = 0 → (3, 0)\nx = 4: f(4) = 16 − 8 − 3 = 5 → (4, 5)\nPlot these points and draw a smooth upward-opening parabola. The vertex is (1, −4).'
-    },
+      modelAnswer: 'Find the axis of symmetry: x = −b/(2a) = −(−2)/(2·1) = 1.\nFind the vertex by evaluating f(1): f(1) = (1)² − 2(1) − 3 = 1 − 2 − 3 = −4.\nVertex: (1, −4).\nTable of values:\nx = −2: f(−2) = 4 + 4 − 3 = 5 → (−2, 5)\nx = −1: f(−1) = 1 + 2 − 3 = 0 → (−1, 0)\nx = 0: f(0) = 0 − 0 − 3 = −3 → (0, −3)\nx = 1: f(1) = −4 → (1, −4)\nx = 2: f(2) = 4 − 4 − 3 = −3 → (2, −3)\nx = 3: f(3) = 9 − 6 − 3 = 0 → (3, 0)\nx = 4: f(4) = 16 − 8 − 3 = 5 → (4, 5)\nPlot these points and draw a smooth upward-opening parabola. The vertex is (1, −4).', image: '/images/exams/alg1-june-2025/q29.png' },
     {
       number: 30,
       part: 'B',
@@ -326,8 +316,7 @@ export default {
       topic: 'Linear Equations & Inequalities',
       explanation: 'Let width = w and length = 2w + 3; the perimeter equation 2(w) + 2(2w + 3) = 66 simplifies to 6w + 6 = 66, so w = 10 and length = 23.',
       diveDeep: 'Word problems with geometric figures require defining a variable, translating relationships into expressions, and applying the correct formula (perimeter = 2l + 2w for a rectangle). Define the width as the simplest unknown and express the length in terms of it. Carefully translate "3 more than twice the width" as 2w + 3. After solving for the variable, remember to find BOTH dimensions and include units.',
-      modelAnswer: 'Let w = the width of the garden in feet.\nThen the length = 2w + 3.\nThe perimeter of a rectangle is P = 2(length) + 2(width):\n2(2w + 3) + 2(w) = 66\n4w + 6 + 2w = 66\n6w + 6 = 66\n6w = 60\nw = 10\nThe width is 10 feet.\nThe length is 2(10) + 3 = 23 feet.\nThe garden is 10 feet wide and 23 feet long.'
-    },
+      modelAnswer: 'Let w = the width of the garden in feet.\nThen the length = 2w + 3.\nThe perimeter of a rectangle is P = 2(length) + 2(width):\n2(2w + 3) + 2(w) = 66\n4w + 6 + 2w = 66\n6w + 6 = 66\n6w = 60\nw = 10\nThe width is 10 feet.\nThe length is 2(10) + 3 = 23 feet.\nThe garden is 10 feet wide and 23 feet long.', image: '/images/exams/alg1-june-2025/q31.png' },
     {
       number: 32,
       part: 'B',
@@ -346,8 +335,7 @@ export default {
       topic: 'Functions & Relations',
       explanation: 'Setting −3x = x² + 2 gives x² + 3x + 2 = 0, which factors as (x + 1)(x + 2) = 0, so x = −1 and x = −2 are the x-values where the graphs intersect.',
       diveDeep: 'Solving f(x) = g(x) graphically means finding the x-coordinates of intersection points; algebraically it means setting the two expressions equal and solving. Here setting −3x = x² + 2 and rearranging to x² + 3x + 2 = 0 gives a factorable quadratic. A common mistake is giving the full ordered pairs instead of just the x-values — the question asks only for the values of x. Verify each answer by checking that f(x) equals g(x): f(−1) = 3 and g(−1) = 1 + 2 = 3 ✓; f(−2) = 6 and g(−2) = 4 + 2 = 6 ✓.',
-      modelAnswer: 'Graph f(x) = −3x (a line through the origin with slope −3) and g(x) = x² + 2 (an upward-opening parabola shifted up 2 units) on the same axes.\n\nTo find where f(x) = g(x), set the expressions equal:\n−3x = x² + 2\nMove all terms to one side:\n0 = x² + 3x + 2\nFactor:\n0 = (x + 1)(x + 2)\nSet each factor equal to zero:\nx + 1 = 0 → x = −1\nx + 2 = 0 → x = −2\n\nCheck: f(−1) = −3(−1) = 3 and g(−1) = (−1)² + 2 = 3 ✓\nf(−2) = −3(−2) = 6 and g(−2) = (−2)² + 2 = 6 ✓\n\nThe values of x that satisfy f(x) = g(x) are x = −1 and x = −2.'
-    },
+      modelAnswer: 'Graph f(x) = −3x (a line through the origin with slope −3) and g(x) = x² + 2 (an upward-opening parabola shifted up 2 units) on the same axes.\n\nTo find where f(x) = g(x), set the expressions equal:\n−3x = x² + 2\nMove all terms to one side:\n0 = x² + 3x + 2\nFactor:\n0 = (x + 1)(x + 2)\nSet each factor equal to zero:\nx + 1 = 0 → x = −1\nx + 2 = 0 → x = −2\n\nCheck: f(−1) = −3(−1) = 3 and g(−1) = (−1)² + 2 = 3 ✓\nf(−2) = −3(−2) = 6 and g(−2) = (−2)² + 2 = 6 ✓\n\nThe values of x that satisfy f(x) = g(x) are x = −1 and x = −2.', image: '/images/exams/alg1-june-2025/q33.png' },
     {
       number: 34,
       part: 'C',
@@ -356,8 +344,7 @@ export default {
       topic: 'Quadratic Functions',
       explanation: 'With a = 6, b = 2, c = −1, the discriminant is 4 + 24 = 28 = 4·7, so the quadratic formula gives x = (−2 ± 2√7) / 12, which simplifies to x = (−1 ± √7) / 6.',
       diveDeep: 'The quadratic formula x = (−b ± √(b² − 4ac)) / (2a) always works, but simplifying the result requires reducing the radical and the fraction. Here √28 = √(4·7) = 2√7, and dividing numerator and denominator by 2 gives (−1 ± √7)/6. A frequent error is forgetting to simplify the radical or not dividing ALL terms in the numerator by the common factor. "Simplest radical form" means the radicand has no perfect-square factors and the fraction is fully reduced.',
-      modelAnswer: 'Identify a = 6, b = 2, c = −1.\nApply the quadratic formula:\nx = (−b ± √(b² − 4ac)) / (2a)\nx = (−2 ± √(2² − 4(6)(−1))) / (2·6)\nx = (−2 ± √(4 + 24)) / 12\nx = (−2 ± √28) / 12\n\nSimplify √28:\n√28 = √(4·7) = 2√7\n\nSubstitute back:\nx = (−2 ± 2√7) / 12\n\nDivide numerator and denominator by 2:\nx = (−1 ± √7) / 6\n\nThe solutions in simplest radical form are x = (−1 + √7) / 6 and x = (−1 − √7) / 6.'
-    },
+      modelAnswer: 'Identify a = 6, b = 2, c = −1.\nApply the quadratic formula:\nx = (−b ± √(b² − 4ac)) / (2a)\nx = (−2 ± √(2² − 4(6)(−1))) / (2·6)\nx = (−2 ± √(4 + 24)) / 12\nx = (−2 ± √28) / 12\n\nSimplify √28:\n√28 = √(4·7) = 2√7\n\nSubstitute back:\nx = (−2 ± 2√7) / 12\n\nDivide numerator and denominator by 2:\nx = (−1 ± √7) / 6\n\nThe solutions in simplest radical form are x = (−1 + √7) / 6 and x = (−1 − √7) / 6.', image: '/images/exams/alg1-june-2025/q34.png' },
     {
       number: 35,
       part: 'C',
@@ -366,8 +353,7 @@ export default {
       topic: 'Statistics & Probability',
       explanation: 'The linear regression equation is y = −23.67x + 1216.00, the correlation coefficient is r ≈ −0.99, and since r is very close to −1 the data has a strong negative linear correlation — as time increases, price decreases in a nearly linear pattern.',
       diveDeep: 'Linear regression finds the line of best fit that minimizes the sum of squared vertical distances from data points to the line. The slope (−23.67) tells you the average price drops about $23.67 per month. The correlation coefficient r ranges from −1 to 1: values close to ±1 indicate a strong linear relationship, values near 0 indicate little to no linear correlation, and a negative r means the variables move in opposite directions. Students often confuse r (correlation coefficient) with r² (coefficient of determination) — the question asks for r specifically.',
-      modelAnswer: 'Enter the data into a calculator using the linear regression (LinReg) function:\nx-values: 0, 3, 6, 9, 12\ny-values: 1200, 1150, 1100, 1000, 920\n\nThe linear regression equation (rounded to the nearest hundredth):\ny = −23.67x + 1216.00\n\nThe correlation coefficient (rounded to the nearest hundredth):\nr = −0.99\n\nInterpretation: The correlation coefficient of −0.99 indicates a strong negative linear relationship between the time since release and the price of the cell phone. As the time since release increases, the price decreases in a pattern that is very closely modeled by a linear equation.'
-    },
+      modelAnswer: 'Enter the data into a calculator using the linear regression (LinReg) function:\nx-values: 0, 3, 6, 9, 12\ny-values: 1200, 1150, 1100, 1000, 920\n\nThe linear regression equation (rounded to the nearest hundredth):\ny = −23.67x + 1216.00\n\nThe correlation coefficient (rounded to the nearest hundredth):\nr = −0.99\n\nInterpretation: The correlation coefficient of −0.99 indicates a strong negative linear relationship between the time since release and the price of the cell phone. As the time since release increases, the price decreases in a pattern that is very closely modeled by a linear equation.', image: '/images/exams/alg1-june-2025/q35.png' },
     {
       number: 36,
       part: 'C',

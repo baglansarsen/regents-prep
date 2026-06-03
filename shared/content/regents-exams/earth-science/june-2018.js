@@ -13,8 +13,7 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       explanation: 'In a solar eclipse, the Moon (A) passes between Earth and the Sun (B), blocking sunlight. The Moon is the smaller object in front, and the Sun is behind it.',
-      diveDeep: 'A solar eclipse occurs at new moon when the Moon\'s shadow falls on Earth. In a total solar eclipse, the umbra (darkest shadow) creates a path of totality where the Moon completely covers the Sun\'s disk. The Moon and Sun appear nearly the same size in our sky because, though the Sun is ~400 times larger, it is ~400 times farther away. A partial solar eclipse occurs when only the penumbra sweeps across an area. Common mistake: confusing solar and lunar eclipses — in a lunar eclipse it is Earth\'s shadow on the Moon.',
-    },
+      diveDeep: 'A solar eclipse occurs at new moon when the Moon\'s shadow falls on Earth. In a total solar eclipse, the umbra (darkest shadow) creates a path of totality where the Moon completely covers the Sun\'s disk. The Moon and Sun appear nearly the same size in our sky because, though the Sun is ~400 times larger, it is ~400 times farther away. A partial solar eclipse occurs when only the penumbra sweeps across an area. Common mistake: confusing solar and lunar eclipses — in a lunar eclipse it is Earth\'s shadow on the Moon.', image: '/images/exams/es-june-2018/q1.png' },
     {
       number: 2, part: 'A',
       text: 'Compared to the terrestrial planets, the Jovian planets',
@@ -76,8 +75,7 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       explanation: 'During Northern Hemisphere winter, the polar front jet stream shifts southward to around 40–50°N and flows generally west to east with large meanders (undulations).',
-      diveDeep: 'The polar front jet stream is a fast-moving band of air at the tropopause (~10 km altitude) near the polar front. It flows from west to east due to Earth\'s rotation. In winter, it dips farther south and meanders more, bringing cold Arctic air into mid-latitudes and steering storm systems. In summer it retreats northward. The subtropical jet stream is found near 30°N/S and is more consistent year-round. Jet streams are critical for weather forecasting because they guide low-pressure systems.',
-    },
+      diveDeep: 'The polar front jet stream is a fast-moving band of air at the tropopause (~10 km altitude) near the polar front. It flows from west to east due to Earth\'s rotation. In winter, it dips farther south and meanders more, bringing cold Arctic air into mid-latitudes and steering storm systems. In summer it retreats northward. The subtropical jet stream is found near 30°N/S and is more consistent year-round. Jet streams are critical for weather forecasting because they guide low-pressure systems.', image: '/images/exams/es-june-2018/q8.png' },
     {
       number: 9, part: 'A',
       text: 'The diagram below represents four positions of the Moon labeled A through D as it orbits Earth. Which diagram best represents the sequence of Moon phases as seen by an observer in New York State when the Moon travels from position A to position D in its orbit around Earth?',
@@ -115,8 +113,7 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       explanation: 'As Earth orbits the Sun, the nighttime side faces different directions in space, so different constellations become visible at different times of year.',
-      diveDeep: 'Earth\'s orbit around the Sun causes the nighttime side to face different regions of the galaxy throughout the year. In January, the nighttime side faces toward Orion; six months later it faces away from Orion and toward Scorpius. Stars do not orbit Earth — they are essentially fixed in space relative to our observation timescale. Earth\'s daily rotation causes stars to rise in the east and set in the west each night, while Earth\'s annual revolution determines which constellations are visible each season.',
-    },
+      diveDeep: 'Earth\'s orbit around the Sun causes the nighttime side to face different regions of the galaxy throughout the year. In January, the nighttime side faces toward Orion; six months later it faces away from Orion and toward Scorpius. Stars do not orbit Earth — they are essentially fixed in space relative to our observation timescale. Earth\'s daily rotation causes stars to rise in the east and set in the west each night, while Earth\'s annual revolution determines which constellations are visible each season.', image: '/images/exams/es-june-2018/q12.png' },
     {
       number: 13, part: 'A',
       text: 'Which table correctly shows the interior temperature, melting point, and state of matter of the material located 4000 kilometers below Earth\'s surface?',
@@ -181,8 +178,7 @@ export default {
       topic: 'Geologic Time',
       correct: 2,
       explanation: 'The pebbles must have existed before they could be incorporated into the conglomerate and cemented by calcite, so pebbles are older than both the cement and the rock.',
-      diveDeep: 'The principle of inclusions states that rock fragments (inclusions) within a rock are older than the rock containing them. The pebbles were eroded from pre-existing rock, transported, and then deposited. After deposition, compaction and cementation (by calcite) formed the conglomerate. Therefore the sequence from oldest to youngest is: pebble source rock → pebbles → conglomerate formation → calcite cement fills pores. This is similar to how xenoliths (rock fragments inside igneous rock) must predate the magma that engulfed them.',
-    },
+      diveDeep: 'The principle of inclusions states that rock fragments (inclusions) within a rock are older than the rock containing them. The pebbles were eroded from pre-existing rock, transported, and then deposited. After deposition, compaction and cementation (by calcite) formed the conglomerate. Therefore the sequence from oldest to youngest is: pebble source rock → pebbles → conglomerate formation → calcite cement fills pores. This is similar to how xenoliths (rock fragments inside igneous rock) must predate the magma that engulfed them.', image: '/images/exams/es-june-2018/q19.png' },
     {
       number: 20, part: 'A',
       text: 'The cross section below represents parts of Earth\'s water cycle. Letters A, B, C, and D represent processes. Which table correctly matches each letter with the process it represents?',
@@ -210,8 +206,7 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       explanation: 'Rounded sediment of various sizes is produced by abrasion in running water — particles collide and grind against each other, rounding their edges.',
-      diveDeep: 'Abrasion is the mechanical wearing down of sediment particles as they collide during transport. Running water is the most effective agent for producing rounded, smooth particles. The more a particle is transported, the rounder and smaller it becomes. Size sorting also occurs — slower water deposits larger particles first. Glaciers produce angular, poorly sorted sediment because ice does not allow particles to roll and round. Wind produces very well-rounded, frosted sand grains. Wave action on beaches also rounds cobbles and pebbles. The degree of rounding indicates transport distance.',
-    },
+      diveDeep: 'Abrasion is the mechanical wearing down of sediment particles as they collide during transport. Running water is the most effective agent for producing rounded, smooth particles. The more a particle is transported, the rounder and smaller it becomes. Size sorting also occurs — slower water deposits larger particles first. Glaciers produce angular, poorly sorted sediment because ice does not allow particles to roll and round. Wind produces very well-rounded, frosted sand grains. Wave action on beaches also rounds cobbles and pebbles. The degree of rounding indicates transport distance.', image: '/images/exams/es-june-2018/q22.png' },
     {
       number: 23, part: 'A',
       text: 'The photograph below shows an outcrop with two basaltic intrusions labeled A and B, in a rock unit labeled C. What is the relative age of these three rock units from oldest to youngest?',
@@ -219,8 +214,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'Rock unit C formed first (oldest). Intrusion B cut into C, then intrusion A cut through both B and C, making A the youngest.',
-      diveDeep: 'The principle of cross-cutting relationships states that any rock or feature that cuts across another must be younger than what it cuts. Rock unit C is the host rock (oldest). Intrusion B cuts through C (B is younger than C). Intrusion A cuts through both C and B (A is the youngest). This principle applies to faults, dikes, veins, and igneous intrusions. The principle of superposition (in undisturbed layers, lower layers are older) also applies to sedimentary sequences. Combining these principles allows relative dating of complex rock sequences.',
-    },
+      diveDeep: 'The principle of cross-cutting relationships states that any rock or feature that cuts across another must be younger than what it cuts. Rock unit C is the host rock (oldest). Intrusion B cuts through C (B is younger than C). Intrusion A cuts through both C and B (A is the youngest). This principle applies to faults, dikes, veins, and igneous intrusions. The principle of superposition (in undisturbed layers, lower layers are older) also applies to sedimentary sequences. Combining these principles allows relative dating of complex rock sequences.', image: '/images/exams/es-june-2018/q23.png' },
     {
       number: 24, part: 'A',
       text: 'The world map shows Earth\'s major tectonic plate boundaries. Letters A through D represent four surface locations. Which location is on a major rift valley?',
@@ -283,8 +277,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'Shale is formed by the compaction and cementation of clay and silt-sized particles (less than 0.0004 cm). It is the most common sedimentary rock.',
-      diveDeep: 'Clastic sedimentary rocks are classified by grain size using the ESRT: conglomerate (rounded pebbles >0.2 cm), sandstone (sand 0.006–0.2 cm), siltstone (silt 0.0004–0.006 cm), and shale (clay <0.0004 cm). Shale forms in quiet, low-energy environments like lake bottoms and deep ocean floors. Its fine particles allow it to split into thin layers (fissile texture). Limestone can be chemical or bioclastic. Coal is bioclastic from compressed plant material. Knowing the ESRT rock classification chart is essential for identifying sedimentary rocks by grain size.',
-    },
+      diveDeep: 'Clastic sedimentary rocks are classified by grain size using the ESRT: conglomerate (rounded pebbles >0.2 cm), sandstone (sand 0.006–0.2 cm), siltstone (silt 0.0004–0.006 cm), and shale (clay <0.0004 cm). Shale forms in quiet, low-energy environments like lake bottoms and deep ocean floors. Its fine particles allow it to split into thin layers (fissile texture). Limestone can be chemical or bioclastic. Coal is bioclastic from compressed plant material. Knowing the ESRT rock classification chart is essential for identifying sedimentary rocks by grain size.', image: '/images/exams/es-june-2018/q30.png' },
     {
       number: 31, part: 'A',
       text: 'Which type of igneous rock has a coarse-grained texture and is composed primarily of plagioclase feldspar and pyroxene?',
@@ -301,8 +294,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'Galena is a lead sulfide mineral (PbS) with a silver-gray color, metallic luster, hardness of 2.5, and perfect cubic cleavage. Lead from galena is used in batteries.',
-      diveDeep: 'Mineral identification uses physical properties: hardness (Mohs scale 1–10), luster (metallic vs. non-metallic), color, streak, cleavage/fracture, and special properties. Galena (PbS) is distinctive for its very high density (7.6 g/cm³), silver-gray color, metallic luster, and perfect cubic cleavage in three directions. Graphite is gray but has a greasy feel and is soft (H=1–2). Pyrite ("fool\'s gold") is brassy yellow with H=6–6.5. Magnetite is black and magnetic. The ESRT provides mineral properties for identification. Always use multiple properties, not just color.',
-    },
+      diveDeep: 'Mineral identification uses physical properties: hardness (Mohs scale 1–10), luster (metallic vs. non-metallic), color, streak, cleavage/fracture, and special properties. Galena (PbS) is distinctive for its very high density (7.6 g/cm³), silver-gray color, metallic luster, and perfect cubic cleavage in three directions. Graphite is gray but has a greasy feel and is soft (H=1–2). Pyrite ("fool\'s gold") is brassy yellow with H=6–6.5. Magnetite is black and magnetic. The ESRT provides mineral properties for identification. Always use multiple properties, not just color.', image: '/images/exams/es-june-2018/q32.png' },
     {
       number: 33, part: 'A',
       text: 'Which type of map projection shows accurate shapes of continents but distorts their sizes, especially near the poles?',
@@ -310,8 +302,7 @@ export default {
       topic: 'General',
       correct: 1,
       explanation: 'The Mercator projection preserves the shapes (conformal) of landmasses but distorts areas — regions near the poles appear much larger than they actually are.',
-      diveDeep: 'All flat maps distort Earth\'s spherical surface in some way — you cannot perfectly represent a sphere on a flat surface. The Mercator projection preserves angles (conformal), making it useful for navigation but causing extreme size distortion near the poles (Greenland appears as large as Africa, when Africa is ~14 times larger). Equal-area projections preserve relative sizes but distort shapes. Conic projections are used for mid-latitude regions. Polar projections are used to show the poles accurately. Understanding map projections is important for interpreting global maps of climate, tectonic plates, and ocean currents.',
-    },
+      diveDeep: 'All flat maps distort Earth\'s spherical surface in some way — you cannot perfectly represent a sphere on a flat surface. The Mercator projection preserves angles (conformal), making it useful for navigation but causing extreme size distortion near the poles (Greenland appears as large as Africa, when Africa is ~14 times larger). Equal-area projections preserve relative sizes but distort shapes. Conic projections are used for mid-latitude regions. Polar projections are used to show the poles accurately. Understanding map projections is important for interpreting global maps of climate, tectonic plates, and ocean currents.', image: '/images/exams/es-june-2018/q33.png' },
     {
       number: 34, part: 'A',
       text: 'Which two properties of a stream most directly control its ability to erode and transport sediment?',
@@ -319,8 +310,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'Stream velocity and discharge directly determine erosion and transport capacity — faster, larger-volume streams can move larger and more sediment.',
-      diveDeep: 'Stream competence (maximum particle size a stream can carry) is proportional to the square of velocity — doubling velocity increases competence by four times. Stream capacity (total load a stream can carry) increases with both velocity and discharge. Discharge = width × depth × velocity. Heavy rainfall increases discharge and velocity, allowing rivers to carry more and larger sediment. When velocity decreases (e.g., where a river enters a lake), sediment is deposited in order of decreasing size. This principle explains why deltas form at river mouths and alluvial fans form at canyon exits.',
-    },
+      diveDeep: 'Stream competence (maximum particle size a stream can carry) is proportional to the square of velocity — doubling velocity increases competence by four times. Stream capacity (total load a stream can carry) increases with both velocity and discharge. Discharge = width × depth × velocity. Heavy rainfall increases discharge and velocity, allowing rivers to carry more and larger sediment. When velocity decreases (e.g., where a river enters a lake), sediment is deposited in order of decreasing size. This principle explains why deltas form at river mouths and alluvial fans form at canyon exits.', image: '/images/exams/es-june-2018/q34.png' },
     {
       number: 35, part: 'A',
       text: 'Which New York State landscape region has the highest elevation and is composed primarily of metamorphic and igneous rocks?',
@@ -328,8 +318,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'The Adirondack Mountains have the highest elevations in New York State and are composed primarily of Precambrian metamorphic and igneous rocks (anorthosite, gneiss).',
-      diveDeep: 'The Adirondacks are a dome-shaped upwarp of ancient Precambrian basement rocks (~1 billion years old) that were exhumed by erosion. Mount Marcy (1629 m) is the highest peak in New York State. The bedrock is mainly anorthositic gneiss and metasedimentary rocks from the Grenville orogeny. The Catskills are a plateau of Devonian sedimentary rocks (shale, sandstone). The Hudson-Mohawk Lowlands are underlain by older sedimentary rocks. Using the ESRT Generalized Bedrock Geology of New York State map is essential for identifying landscape regions and their rock types.',
-    },
+      diveDeep: 'The Adirondacks are a dome-shaped upwarp of ancient Precambrian basement rocks (~1 billion years old) that were exhumed by erosion. Mount Marcy (1629 m) is the highest peak in New York State. The bedrock is mainly anorthositic gneiss and metasedimentary rocks from the Grenville orogeny. The Catskills are a plateau of Devonian sedimentary rocks (shale, sandstone). The Hudson-Mohawk Lowlands are underlain by older sedimentary rocks. Using the ESRT Generalized Bedrock Geology of New York State map is essential for identifying landscape regions and their rock types.', image: '/images/exams/es-june-2018/q35.png' },
     // Part B-1
     {
       number: 36, part: 'B-1',
@@ -339,8 +328,7 @@ export default {
       topic: 'Geology',
       correct: 0,
       explanation: 'The principle of superposition states that in undisturbed sequences, lower layers are older. Layer A at the bottom was deposited first.',
-      diveDeep: 'The principle of superposition (Nicolas Steno, 1669) states that in any sequence of undisturbed sedimentary rocks, the oldest layer is at the bottom and the youngest at the top. This applies only when layers have NOT been overturned by tectonic forces. Combined with other principles — original horizontality (layers form horizontal), lateral continuity (layers extend until thinning), cross-cutting relationships (intrusions are younger than host rock), and inclusions (fragments are older than the rock containing them) — geologists can determine relative ages of rock sequences without using radiometric dating.',
-    },
+      diveDeep: 'The principle of superposition (Nicolas Steno, 1669) states that in any sequence of undisturbed sedimentary rocks, the oldest layer is at the bottom and the youngest at the top. This applies only when layers have NOT been overturned by tectonic forces. Combined with other principles — original horizontality (layers form horizontal), lateral continuity (layers extend until thinning), cross-cutting relationships (intrusions are younger than host rock), and inclusions (fragments are older than the rock containing them) — geologists can determine relative ages of rock sequences without using radiometric dating.', image: '/images/exams/es-june-2018/context_36_39.png' },
     {
       number: 37, part: 'B-1',
       context: 'A cross section shows a hypothetical portion of Earth\'s crust with rock layers labeled A through G from bottom to top, an igneous intrusion cutting through several layers, a fault, and an unconformity between layers C and D.',
@@ -349,8 +337,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'An unconformity is a surface of erosion or non-deposition that represents a gap in the geologic record — time passed but no sediment was deposited or existing rock was removed.',
-      diveDeep: 'Three types of unconformities exist: (1) disconformity — parallel layers with a missing time interval between them (erosional surface); (2) angular unconformity — tilted layers below a horizontal erosional surface (Hutton\'s Unconformity at Siccar Point); (3) nonconformity — sedimentary layers resting on igneous or metamorphic basement rock. All unconformities represent time gaps in the record. The sequence of events creating an angular unconformity: deposition → tilting/folding → erosion → subsidence → new deposition. Recognizing unconformities is key to reading geologic cross sections.',
-    },
+      diveDeep: 'Three types of unconformities exist: (1) disconformity — parallel layers with a missing time interval between them (erosional surface); (2) angular unconformity — tilted layers below a horizontal erosional surface (Hutton\'s Unconformity at Siccar Point); (3) nonconformity — sedimentary layers resting on igneous or metamorphic basement rock. All unconformities represent time gaps in the record. The sequence of events creating an angular unconformity: deposition → tilting/folding → erosion → subsidence → new deposition. Recognizing unconformities is key to reading geologic cross sections.', image: '/images/exams/es-june-2018/context_36_39.png' },
     {
       number: 38, part: 'B-1',
       context: 'A cross section shows a hypothetical portion of Earth\'s crust with rock layers labeled A through G, an igneous intrusion, and a fault. The igneous intrusion cuts through layers A through D but not E through G.',
@@ -359,8 +346,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'Layer E is above the igneous intrusion and was not cut by it, indicating that Layer E was deposited after the intrusion occurred and is therefore younger.',
-      diveDeep: 'Cross-cutting relationships: any feature that cuts across another is younger. If an igneous intrusion cuts through layers A–D but not E–G, then E–G were deposited after the intrusion. Additionally, layers adjacent to the intrusion may show contact metamorphism (baked zones), confirming the intrusion is older than the unaltered layers above it. The intrusion itself is younger than layers A–D (which it cuts through) but older than layers E–G (which formed after the intrusion). This type of multi-step reasoning is required for relative dating questions on the Regents.',
-    },
+      diveDeep: 'Cross-cutting relationships: any feature that cuts across another is younger. If an igneous intrusion cuts through layers A–D but not E–G, then E–G were deposited after the intrusion. Additionally, layers adjacent to the intrusion may show contact metamorphism (baked zones), confirming the intrusion is older than the unaltered layers above it. The intrusion itself is younger than layers A–D (which it cuts through) but older than layers E–G (which formed after the intrusion). This type of multi-step reasoning is required for relative dating questions on the Regents.', image: '/images/exams/es-june-2018/context_36_39.png' },
     {
       number: 39, part: 'B-1',
       context: 'A weather map of the eastern United States shows isobars (lines of equal air pressure in millibars), a high pressure system (H) over the midwest, and a low pressure system (L) over the southeast. Wind arrows are shown at various stations.',
@@ -369,8 +355,7 @@ export default {
       topic: 'Meteorology',
       correct: 3,
       explanation: 'In the Northern Hemisphere, surface winds around a low pressure system spiral inward and counterclockwise due to the Coriolis effect and pressure gradient force.',
-      diveDeep: 'Air flows from high to low pressure due to the pressure gradient force. The Coriolis effect (from Earth\'s rotation) deflects winds to the right in the Northern Hemisphere, causing counterclockwise rotation around lows (cyclones) and clockwise around highs (anticyclones). In the Southern Hemisphere, the directions are reversed. Tightly spaced isobars indicate steep pressure gradients and strong winds. Low pressure systems bring cloudy, stormy weather; high pressure systems bring clear, calm weather. This pattern is fundamental to weather map interpretation.',
-    },
+      diveDeep: 'Air flows from high to low pressure due to the pressure gradient force. The Coriolis effect (from Earth\'s rotation) deflects winds to the right in the Northern Hemisphere, causing counterclockwise rotation around lows (cyclones) and clockwise around highs (anticyclones). In the Southern Hemisphere, the directions are reversed. Tightly spaced isobars indicate steep pressure gradients and strong winds. Low pressure systems bring cloudy, stormy weather; high pressure systems bring clear, calm weather. This pattern is fundamental to weather map interpretation.', image: '/images/exams/es-june-2018/context_36_39.png' },
     {
       number: 40, part: 'B-1',
       context: 'A weather map of the eastern United States shows isobars, a high pressure system (H), and a low pressure system (L). Temperature data shows 58°F at one station and 43°F at an adjacent station with a cold front between them.',
@@ -379,8 +364,7 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       explanation: 'A cold front represents cold air rapidly advancing and undercutting warmer air, causing it to rise quickly, leading to thunderstorms and a rapid temperature drop behind the front.',
-      diveDeep: 'Cold fronts are steep (nearly vertical) boundaries where advancing cold air wedges under warm air, forcing rapid uplift. This produces cumulonimbus clouds, intense (but brief) precipitation, and thunderstorms. The passage of a cold front brings a rapid temperature drop, wind shift (usually to northwest in the Northeast US), and clearing skies. Warm fronts are more gradual — warm air rises over retreating cold air, producing stratiform clouds and steady widespread precipitation. Cold fronts move faster (25–30 mph) than warm fronts (15–20 mph). Occluded fronts form when a cold front catches up to a warm front.',
-    },
+      diveDeep: 'Cold fronts are steep (nearly vertical) boundaries where advancing cold air wedges under warm air, forcing rapid uplift. This produces cumulonimbus clouds, intense (but brief) precipitation, and thunderstorms. The passage of a cold front brings a rapid temperature drop, wind shift (usually to northwest in the Northeast US), and clearing skies. Warm fronts are more gradual — warm air rises over retreating cold air, producing stratiform clouds and steady widespread precipitation. Cold fronts move faster (25–30 mph) than warm fronts (15–20 mph). Occluded fronts form when a cold front catches up to a warm front.', image: '/images/exams/es-june-2018/context_40_42.png' },
     {
       number: 41, part: 'B-1',
       context: 'A data table shows the dry-bulb temperature (24°C), wet-bulb temperature (18°C), and station pressure (1012 mb) for a weather station. Using the ESRT psychrometric tables.',
@@ -389,8 +373,7 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       explanation: 'With a dry-bulb of 24°C and wet-bulb of 18°C (depression of 6°C), the ESRT Dewpoint Temperature table gives a dewpoint of approximately 13°C.',
-      diveDeep: 'The dewpoint is the temperature at which air must be cooled (at constant pressure and water vapor content) for condensation to begin. Using the ESRT: find the dry-bulb temperature row (24°C), find the column for wet-bulb depression (24−18=6°C), and read the dewpoint (~13°C). When the air temperature equals the dewpoint, relative humidity = 100% and condensation begins. Clouds form when rising air cools to its dewpoint. Fog forms when surface air cools to its dewpoint. The closer the air temperature and dewpoint are together, the higher the relative humidity.',
-    },
+      diveDeep: 'The dewpoint is the temperature at which air must be cooled (at constant pressure and water vapor content) for condensation to begin. Using the ESRT: find the dry-bulb temperature row (24°C), find the column for wet-bulb depression (24−18=6°C), and read the dewpoint (~13°C). When the air temperature equals the dewpoint, relative humidity = 100% and condensation begins. Clouds form when rising air cools to its dewpoint. Fog forms when surface air cools to its dewpoint. The closer the air temperature and dewpoint are together, the higher the relative humidity.', image: '/images/exams/es-june-2018/context_40_42.png' },
     {
       number: 42, part: 'B-1',
       context: 'A topographic map of a region in New York State shows elevation contour lines (contour interval 20 meters), a stream flowing through a valley, and several labeled points A, B, C, and D at different elevations.',
@@ -399,8 +382,7 @@ export default {
       topic: 'General',
       correct: 1,
       explanation: 'Streams always flow from higher elevation to lower elevation, following gravity. On a topographic map, streams flow in the direction of decreasing elevation.',
-      diveDeep: 'On topographic maps, streams always flow from high to low elevation. Key rule: V-shaped contour lines pointing upstream (the V points uphill toward the stream\'s source). The gradient (slope) of a stream = change in elevation ÷ horizontal distance. Gradient formula is on the ESRT. Steep gradients (close contours) produce fast, erosive streams. Gentle gradients (widely spaced contours) produce slow, depositing streams. Divides (watersheds) are ridges between drainage basins. Water on each side of a divide flows in opposite directions. Topographic profiles can be drawn perpendicular to contour lines.',
-    },
+      diveDeep: 'On topographic maps, streams always flow from high to low elevation. Key rule: V-shaped contour lines pointing upstream (the V points uphill toward the stream\'s source). The gradient (slope) of a stream = change in elevation ÷ horizontal distance. Gradient formula is on the ESRT. Steep gradients (close contours) produce fast, erosive streams. Gentle gradients (widely spaced contours) produce slow, depositing streams. Divides (watersheds) are ridges between drainage basins. Water on each side of a divide flows in opposite directions. Topographic profiles can be drawn perpendicular to contour lines.', image: '/images/exams/es-june-2018/context_40_42.png' },
     {
       number: 43, part: 'B-1',
       context: 'A topographic map shows a hill with the summit at 380 meters elevation. Point A is at 200 meters elevation. The horizontal distance from Point A to the summit is 2 kilometers.',
@@ -409,8 +391,7 @@ export default {
       topic: 'General',
       correct: 0,
       explanation: 'Gradient = change in elevation ÷ horizontal distance = (380 − 200) m ÷ 2 km = 180 m ÷ 2 km = 90 m/km.',
-      diveDeep: 'The gradient formula from the ESRT: gradient = change in field value ÷ distance. For topography: gradient = (elevation at top − elevation at bottom) ÷ horizontal distance. Always divide elevation change by horizontal distance, not the slope distance along the hillside. Units are typically m/km or ft/mi. Steep gradients indicate rapid erosion potential. Rivers with steep gradients have high velocities and carry larger sediment. In New York State, the Adirondack streams have steeper gradients than the Hudson River near its mouth. Gradient calculations are a common math skill tested on the Regents exam.',
-    },
+      diveDeep: 'The gradient formula from the ESRT: gradient = change in field value ÷ distance. For topography: gradient = (elevation at top − elevation at bottom) ÷ horizontal distance. Always divide elevation change by horizontal distance, not the slope distance along the hillside. Units are typically m/km or ft/mi. Steep gradients indicate rapid erosion potential. Rivers with steep gradients have high velocities and carry larger sediment. In New York State, the Adirondack streams have steeper gradients than the Hudson River near its mouth. Gradient calculations are a common math skill tested on the Regents exam.', image: '/images/exams/es-june-2018/context_43_44.png' },
     {
       number: 44, part: 'B-1',
       context: 'A cross section represents Earth\'s interior layers. From center outward: inner core, outer core, mantle (asthenosphere + lithosphere), and crust. Approximate depths and temperatures are labeled.',
@@ -419,8 +400,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'Convection currents in the asthenosphere (partially molten upper mantle) transfer heat from Earth\'s interior to the surface and are thought to drive plate tectonic movement.',
-      diveDeep: 'The asthenosphere is a partially molten, ductile layer in the upper mantle (~100–700 km depth). Its rock can flow very slowly over millions of years. Heat from radioactive decay and residual formation heat creates convection — hot material rises, spreads, cools, and sinks. This convection is thought to be the primary mechanism driving plate motion (ridge push + slab pull also contribute). The rigid lithosphere (crust + uppermost mantle) rides on top of the asthenosphere. The boundary between crust and mantle is the Mohorovicic discontinuity (Moho), identified by a change in seismic wave velocity.',
-    },
+      diveDeep: 'The asthenosphere is a partially molten, ductile layer in the upper mantle (~100–700 km depth). Its rock can flow very slowly over millions of years. Heat from radioactive decay and residual formation heat creates convection — hot material rises, spreads, cools, and sinks. This convection is thought to be the primary mechanism driving plate motion (ridge push + slab pull also contribute). The rigid lithosphere (crust + uppermost mantle) rides on top of the asthenosphere. The boundary between crust and mantle is the Mohorovicic discontinuity (Moho), identified by a change in seismic wave velocity.', image: '/images/exams/es-june-2018/context_43_44.png' },
     {
       number: 45, part: 'B-1',
       context: 'A data table compares properties of the four inner (terrestrial) planets: Mercury, Venus, Earth, and Mars. Properties include diameter, density, distance from the Sun, and period of revolution.',
@@ -429,8 +409,7 @@ export default {
       topic: 'Astronomy',
       correct: 3,
       explanation: 'Mars is the farthest from the Sun among the terrestrial planets, so it has the longest orbital period (~687 Earth days), consistent with Kepler\'s third law.',
-      diveDeep: 'Kepler\'s third law: the square of a planet\'s orbital period is proportional to the cube of its average orbital radius (T² ∝ r³). Planets farther from the Sun move slower AND have longer orbital paths, resulting in much longer years. Mercury orbits in 88 days, Venus in 225 days, Earth in 365 days, Mars in 687 days. The ESRT provides planetary data. A common mistake is confusing rotation period (length of a day) with revolution period (length of a year). Mars has a day similar to Earth\'s (~24.6 hours) but a much longer year.',
-    },
+      diveDeep: 'Kepler\'s third law: the square of a planet\'s orbital period is proportional to the cube of its average orbital radius (T² ∝ r³). Planets farther from the Sun move slower AND have longer orbital paths, resulting in much longer years. Mercury orbits in 88 days, Venus in 225 days, Earth in 365 days, Mars in 687 days. The ESRT provides planetary data. A common mistake is confusing rotation period (length of a day) with revolution period (length of a year). Mars has a day similar to Earth\'s (~24.6 hours) but a much longer year.', image: '/images/exams/es-june-2018/context_45_47.png' },
     {
       number: 46, part: 'B-1',
       context: 'A map of New York State shows the location of surface bedrock outcrops. The map identifies different geologic time periods for the bedrock in different regions, ranging from Precambrian in the Adirondacks to Cretaceous on Long Island.',
@@ -439,8 +418,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'The Adirondack Mountains have Precambrian metamorphic and igneous bedrock (~1 billion years old), the oldest surface bedrock in New York State.',
-      diveDeep: 'The ESRT\'s Generalized Bedrock Geology of New York State map is essential. The Adirondacks expose Precambrian basement rocks (~1 billion years) — the oldest. Moving south and west, progressively younger Paleozoic sedimentary rocks are exposed. The Catskills are Devonian sedimentary rocks (~400 million years). Long Island is covered by Pleistocene glacial deposits overlying Cretaceous sediments — the youngest surface materials. New York\'s rock record has several gaps (no Permian, Triassic, or Jurassic bedrock exposed) due to erosion following mountain building. This map is one of the most frequently referenced on the Regents exam.',
-    },
+      diveDeep: 'The ESRT\'s Generalized Bedrock Geology of New York State map is essential. The Adirondacks expose Precambrian basement rocks (~1 billion years) — the oldest. Moving south and west, progressively younger Paleozoic sedimentary rocks are exposed. The Catskills are Devonian sedimentary rocks (~400 million years). Long Island is covered by Pleistocene glacial deposits overlying Cretaceous sediments — the youngest surface materials. New York\'s rock record has several gaps (no Permian, Triassic, or Jurassic bedrock exposed) due to erosion following mountain building. This map is one of the most frequently referenced on the Regents exam.', image: '/images/exams/es-june-2018/context_45_47.png' },
     {
       number: 47, part: 'B-1',
       context: 'A table shows the half-lives of four radioactive isotopes: Carbon-14 (5,700 years), Potassium-40 (1.3 billion years), Rubidium-87 (47 billion years), and Uranium-238 (4.5 billion years).',
@@ -449,8 +427,7 @@ export default {
       topic: 'Geologic Time',
       correct: 0,
       explanation: 'Carbon-14 (half-life ~5,700 years) is ideal for dating materials up to ~50,000 years old. A 10,000-year-old artifact would have gone through less than 2 half-lives, leaving measurable C-14.',
-      diveDeep: 'Radiometric dating works best when the sample age is between 1/10 and 10 times the half-life of the isotope used. For C-14 (5,700 year half-life), reliable dating range is roughly 100–50,000 years. For older materials, potassium-40 (1.3 billion year half-life) is used for rocks ~100,000+ years old. Uranium-238 (4.5 billion year half-life) is used for the oldest rocks. Carbon-14 is produced in the upper atmosphere when cosmic rays hit nitrogen, then incorporated into living organisms. After death, C-14 decays — measuring the remaining fraction gives the age.',
-    },
+      diveDeep: 'Radiometric dating works best when the sample age is between 1/10 and 10 times the half-life of the isotope used. For C-14 (5,700 year half-life), reliable dating range is roughly 100–50,000 years. For older materials, potassium-40 (1.3 billion year half-life) is used for rocks ~100,000+ years old. Uranium-238 (4.5 billion year half-life) is used for the oldest rocks. Carbon-14 is produced in the upper atmosphere when cosmic rays hit nitrogen, then incorporated into living organisms. After death, C-14 decays — measuring the remaining fraction gives the age.', image: '/images/exams/es-june-2018/context_45_47.png' },
     {
       number: 48, part: 'B-1',
       context: 'A photograph shows a rock outcrop with alternating dark and light bands. The rock has a foliated texture with mineral alignment. The rock unit is found in a region that experienced intense heat and pressure during a continental collision.',
@@ -459,8 +436,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'Gneiss is a high-grade metamorphic rock with a distinctive foliated (banded) texture of alternating light and dark mineral layers, formed under intense heat and pressure.',
-      diveDeep: 'Metamorphic rock identification uses texture and mineral content. Foliation (parallel alignment of minerals) forms perpendicular to the direction of maximum pressure. Types of foliation from low to high grade: slaty cleavage (slate) → phyllitic texture (phyllite) → schistosity (schist) → gneissic banding (gneiss). Gneiss has coarse, interlocking crystals and compositional banding (light quartz/feldspar alternating with dark amphibole/biotite layers). Contact metamorphism produces non-foliated rocks (hornfels, marble, quartzite) because it involves heat without directed pressure. The ESRT Scheme for Metamorphic Rock Identification organizes rocks by grade.',
-    },
+      diveDeep: 'Metamorphic rock identification uses texture and mineral content. Foliation (parallel alignment of minerals) forms perpendicular to the direction of maximum pressure. Types of foliation from low to high grade: slaty cleavage (slate) → phyllitic texture (phyllite) → schistosity (schist) → gneissic banding (gneiss). Gneiss has coarse, interlocking crystals and compositional banding (light quartz/feldspar alternating with dark amphibole/biotite layers). Contact metamorphism produces non-foliated rocks (hornfels, marble, quartzite) because it involves heat without directed pressure. The ESRT Scheme for Metamorphic Rock Identification organizes rocks by grade.', image: '/images/exams/es-june-2018/context_48_50.png' },
     {
       number: 49, part: 'B-1',
       context: 'A diagram represents a portion of the geologic time scale showing eons, eras, periods, and some key events. The Precambrian Eon encompasses about 88% of Earth\'s history.',
@@ -469,8 +445,7 @@ export default {
       topic: 'Geologic Time',
       correct: 3,
       explanation: 'The Precambrian spans from Earth\'s formation (~4.6 billion years ago) to the start of the Cambrian (~541 million years ago), encompassing about 88% of Earth\'s history.',
-      diveDeep: 'Calculating Precambrian proportion: (4600 − 541) million years ÷ 4600 million years ≈ 88%. Despite comprising most of Earth\'s history, the Precambrian has relatively few fossils because most organisms lacked hard parts. The Cambrian Explosion (~541 Ma) marked the sudden appearance of organisms with shells and skeletons, dramatically improving preservation. The ESRT geologic time scale lists eons (Hadean, Archean, Proterozoic, Phanerozoic), eras, and periods with their ages. The Phanerozoic (last 541 million years) contains most of the known fossil record and represents only about 12% of Earth\'s history.',
-    },
+      diveDeep: 'Calculating Precambrian proportion: (4600 − 541) million years ÷ 4600 million years ≈ 88%. Despite comprising most of Earth\'s history, the Precambrian has relatively few fossils because most organisms lacked hard parts. The Cambrian Explosion (~541 Ma) marked the sudden appearance of organisms with shells and skeletons, dramatically improving preservation. The ESRT geologic time scale lists eons (Hadean, Archean, Proterozoic, Phanerozoic), eras, and periods with their ages. The Phanerozoic (last 541 million years) contains most of the known fossil record and represents only about 12% of Earth\'s history.', image: '/images/exams/es-june-2018/context_48_50.png' },
     {
       number: 50, part: 'B-1',
       context: 'A graph shows temperature changes over the past 800,000 years derived from Antarctic ice core data, showing cycles of glacial (cold) and interglacial (warm) periods. The current interglacial (Holocene) began about 12,000 years ago.',
@@ -479,7 +454,6 @@ export default {
       topic: 'Climate',
       correct: 2,
       explanation: 'Ice core data shows approximately 8 major glacial-interglacial cycles over the past 800,000 years, with each cycle lasting roughly 100,000 years (Milankovitch cycle).',
-      diveDeep: 'Ice cores from Antarctica and Greenland provide proxy records of past climate through trapped air bubbles (CO₂, methane), oxygen isotope ratios (temperature proxy), and dust layers (volcanic eruptions). The ~100,000 year glacial cycles correspond to Milankovitch cycles — periodic changes in Earth\'s orbital eccentricity, axial tilt, and precession that alter the distribution of solar energy. CO₂ and temperature records from ice cores are closely correlated. The current CO₂ level (~420 ppm) far exceeds any level in the 800,000-year record (~280 ppm in interglacials), providing evidence for human-caused climate change.',
-    },
+      diveDeep: 'Ice cores from Antarctica and Greenland provide proxy records of past climate through trapped air bubbles (CO₂, methane), oxygen isotope ratios (temperature proxy), and dust layers (volcanic eruptions). The ~100,000 year glacial cycles correspond to Milankovitch cycles — periodic changes in Earth\'s orbital eccentricity, axial tilt, and precession that alter the distribution of solar energy. CO₂ and temperature records from ice cores are closely correlated. The current CO₂ level (~420 ppm) far exceeds any level in the 800,000-year record (~280 ppm in interglacials), providing evidence for human-caused climate change.', image: '/images/exams/es-june-2018/context_48_50.png' },
   ],
 }

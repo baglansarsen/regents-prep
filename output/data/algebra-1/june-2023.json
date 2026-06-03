@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-1",
+  "session": "june-2023",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The expression 9m2 2 100 is equivalent to",
+      "choices": [
+        "(3m 2 10)(3m 1 10)",
+        "(3m 2 10)(3m 2 10)",
+        "(3m 2 50)(3m 1 50)",
+        "(3m 2 50)(3m 2 50)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which expression represents an irrational number?",
+      "choices": [
+        "16 1 1",
+        "25 1 4",
+        "36 1 7",
+        "49 1 9"
+      ],
+      "image": "/images/exams/algebra-1/june-2023/q2.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which linear equation represents a line that passes through the point (23,28)?",
+      "choices": [
+        "y 5 2x 2 2",
+        "y 5 2x 2 8",
+        "y 5 2x 1 13",
+        "y 5 2x 2 14"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The expression (5x2 2 x 1 4) 2 3(x2 2 x 2 2) is equivalent to",
+      "choices": [
+        "2x2 2 2x 1 2",
+        "2x2 1 2x 1 10",
+        "2x4 2 2x2 1 2",
+        "2x4 2 2x2 1 10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The 24th term of the sequence 25, 211, 217, 223, \u2026 is",
+      "choices": [
+        "2149",
+        "2143",
+        "133",
+        "139"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "When completing the square for x2 2 18x 1 77 5 0, which equation is a correct step in this process?",
+      "choices": [
+        "(x 2 9)2 5 4",
+        "(x 2 3)2 5 2",
+        "x 5 613",
+        "x 2 9 5 69"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which function will have the greatest value when x . 1?",
+      "choices": [
+        "g(x) 5 2(5)x",
+        "f(x) 5 2x 1 5",
+        "h(x) 5 2x2 1 5",
+        "k(x) 5 2x3 1 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Mike uses the equation b 5 1300(2.65)x to determine the growth of bacteria in a laboratory setting. The exponent represents",
+      "choices": [
+        "the total number of bacteria currently present",
+        "the percent at which the bacteria are growing",
+        "the initial amount of bacteria",
+        "the number of time periods"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A company ships an average of 30,000 items each week. The approximate number of items shipped each minute is calculated using the conversion",
+      "choices": [
+        "\u2022 \u2022 \u2022 7 days 1 week 1 day 60 min 1 week 1 hr 24 hrs 30,000 items",
+        "\u2022 \u2022 \u2022 1 week 1 week 1 hr 1 day 7 days 24 hrs 60 min 30,000 items",
+        "\u2022 \u2022 \u2022 1 week 30,000 items 1 hr 1 day 7 days 24 hrs 60 min 1 week",
+        "\u2022 \u2022 \u2022 7 days 30,000 items 60 min 24 hrs 1 week 1 day 1 hr 1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A function is graphed below. f(x) x A possible equation for this function is",
+      "choices": [
+        "f(x) 5 (x 1 2)(x 2 3)",
+        "f(x) 5 (x 2 2)(x 1 3)",
+        "f(x) 5 (x 2 2)2(x 1 3)",
+        "f(x) 5 (x 2 2)(x 1 3)(x 2 12)"
+      ],
+      "image": "/images/exams/algebra-1/june-2023/q10.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "If g(x) 5 2x2 2 x 1 5, then g(24) is equal to",
+      "choices": [
+        "215",
+        "27",
+        "17",
+        "25"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A movie theater\u2019s popcorn box is a rectangular prism with a base that measures 6 inches by 4 inches and has a height of 8 inches. To create a larger box, both the length and the width will be increased by x inches. The height will remain the same. Which function represents the volume, V(x), of the larger box?",
+      "choices": [
+        "V(x) 5 (6 1 x)(4 1 x)(8 1 x)",
+        "V(x) 5 (6 1 x)(4 1 x)(8)",
+        "V(x) 5 (6 1 x) 1 (4 1 x) 1 (8 1 x)",
+        "V(x) 5 (6 1 x) 1 (4 1 x) 1 (8)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The expression 300",
+      "choices": [
+        "300",
+        "300(4x)3",
+        "300",
+        "3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Ashley only has 7 quarters and some dimes in her purse. She needs at least $3.00 to pay for lunch. Which inequality could be used to determine the number of dimes, d, she needs in her purse to be able to pay for lunch?",
+      "choices": [
+        "1.75 1 d $ 3.00",
+        "1.75 1 0.10d $ 3.00",
+        "1.75 1 d # 3.00",
+        "1.75 1 0.10d # 3.00"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The formula for the area of a trapezoid is A 5 1 2 (b1 1 b2)h. The height, h, of the trapezoid may be expressed as",
+      "choices": [
+        "2A 2 b1 2 b2",
+        "2A 2 b1 b2",
+        "1 2 A 2 b1 2 b2",
+        "2A b11 b2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The function f(x) 5 |x| is multiplied by k to create the new function g(x) 5 k|x|. Which statement is true about the graphs of f(x) and g(x) if k 5 1 2 ?",
+      "choices": [
+        "g(x) is a reflection of f(x) over the y-axis.",
+        "g(x) is a reflection of f(x) over the x-axis.",
+        "g(x) is wider than f(x).",
+        "g(x) is narrower than f(x)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Some adults were surveyed to find out if they would prefer to buy a sports utility vehicle (SUV) or a sports car. The results of the survey are summarized in the table below. SUV Sports Car Totals Male 21 38 59 Female 135 46 181 Totals 156 84 240 Of the number of adults that preferred sports cars, approximately what percent were males?",
+      "choices": [
+        "15.8",
+        "45.2",
+        "64.4",
+        "82.6"
+      ],
+      "image": "/images/exams/algebra-1/june-2023/q17.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The solution to 2x2 5 72 is",
+      "choices": [
+        "{9,4}",
+        "{24,9}",
+        "{6}",
+        "{66}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Three quadratic functions are given below. I. II. III. g(x) x 24 23 22 21 0 1 23 2 5 5 2 23 h(x) f(x) 5 (x 1 2)2 1 5 x Which of these functions have the same vertex?",
+      "choices": [
+        "I and II, only",
+        "II and III, only",
+        "I and III, only",
+        "I, II,"
+      ],
+      "image": "/images/exams/algebra-1/june-2023/q19.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The domain of the function f(x) 5 x2 1 x 2 12 is",
+      "choices": [
+        "(2`,24]",
+        "(2`,`)",
+        "[24,3]",
+        "[3,`)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A father makes a deal with his son regarding his weekly allowance. The first year, he agrees to pay his son a weekly allowance of $10. Every subsequent year, the allowance is recalculated by doubling the previous year\u2019s weekly allowance and then subtracting 8. Which recursive formula could be used to calculate the son\u2019s weekly allowance in future years?",
+      "choices": [
+        "an 5 2n 2 8",
+        "an 5 2(n 1 1) 2 8",
+        "a1 5 10 an 1 1 5 2an 2 8",
+        "a1 5 10 an 1 1 5 2(an 2 8)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "What is the solution to the inequality below? 4 2 2 5 x $ 1 3 x 1 15",
+      "choices": [
+        "x # 11",
+        "x $ 11",
+        "x # 215",
+        "x $ 215"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which statement is correct about the polynomial 3x2 1 5x 2 2?",
+      "choices": [
+        "It is a third-degree polynomial with a constant term of 22.",
+        "It is a third-degree polynomial with a leading coefficient of 3.",
+        "It is a second-degree polynomial with a constant term of 2.",
+        "It is a second-degree polynomial with a leading coefficient of 3."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A store manager is trying to determine if they should continue to sell a particular brand of nails. To model their profit, they use the function p(n), where n is the number of boxes of these nails sold in a day. A reasonable domain for this function would be",
+      "choices": [
+        "nonnegative integers",
+        "rational numbers",
+        "real numbers",
+        "Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Solve the equation algebraically for x: 22.4(x 1 1.4) 5 6.8x 2 22.68",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "The function f(x) is graphed on the set of axes below. f(x) x \u20134 \u20133 \u20132 \u20131 \u20135 \u201310 \u201315 2 1 3 4 5 10 15 State the zeros of f(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2023/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Breanna creates the pattern of blocks below in her art class. I II III IV A friend tells her that the number of blocks in the pattern is increasing exponentially. Is her friend correct?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2023/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The data set 20, 36, 52, 56, 24, 16, 40, 4, 28 represents the number of books purchased by nine book club members in a year. Construct a box plot for these data on the number line below. 0 20 40 60",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2023/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Given: A 5 x 1 5 B 5 x2 2 18 Express A2 1",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The two relations shown below are not functions. x Relation I: 1 2 3 4 5 6 10 20 30 40 50 y Relation II: {(25,22), (24,0), (22,1), (21,3), (24,4)}",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2023/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Factor 2x2 1 16x 2 18",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Solve 3d2 2 8d 1 3 5 0 algebraically for all values of d, Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Graph f(x) 5 |x| 1 1 and g(x) 5 2x2 1 6x 1 1 on the set of axes below. y x Based on your graph, determine all values of x for which f(x) 5 g(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2023/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Jean recorded temperatures over a 24-hour period one day in August in Syracuse, NY. Her results are shown in the table below. Time (hour) 0 3 6 9 12 15 18 21 24 Temperature (\u00b0F) 80 75 70 78 92 89 85 80 74 Her data are modeled on the graph below. Temperature (\u00b0F) 0 3 6 9 15 18 21 70 80 90 100 12 Time (hour) 24 State the entire interval over which the temperature is increasing. State the three-hour interval that has the greatest rate of change in temperature. State the average rate of change from hour 12 to hour 24",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2023/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Solve the following system of inequalities graphically on the set of axes below. 2x 1 3y $ 26 x , 3y 1 6 Label the solution set S. y x Is the point (4,22) in the solution set?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2023/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Suzanna collected information about a group of ponies and horses. She made a table showing the height, measured in hands (hh), and the weight, measured in pounds (lbs), of each pony and horse. Height (hh) x Weight (lbs) y 11 264 12 638 13 700 14 850 15 1000 16 1230 17 1495 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2023/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Dana went shopping for plants to put in her garden. She bought three roses and two daisies for $31.88. Later that day, she went back and bought two roses and one daisy for $18.92. If r represents the cost of one rose and d represents the cost of one daisy, write a system of equations that models this situation. Use your system of equations to algebraically determine both the cost of one rose and the cost of one daisy. Question 37 If Dana had waited until the plants were on sale, she would have paid $4.50 for each rose and $6.50 for each daisy. Determine the total amount of money she would have saved by buying all of her flowers during the sale. Question 37 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 pr2 Circle C 5 pd or C 5 2pr General Prisms V 5 Bh Cylinder V 5 pr2h Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 pr2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u2260 1 Radians 1 radian 5 180 ___ p degrees Degrees 1 degree 5 p ___ 180 radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here ALGEBRA I ALGEBRA I Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -1,0 +1,1101 @@
+{
+  "subject": "chemistry",
+  "session": "august-2025",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which statement describes the modern model of the atom?",
+      "choices": [
+        "The atom has a small, negatively charged nucleus.",
+        "The atom is a hard, indivisible sphere.",
+        "Electrons are positive particles in the atom.",
+        "Electrons in the atom have wave-like properties."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which subatomic particles are found in the nucleus of a beryllium atom?",
+      "choices": [
+        "neutrons and electrons",
+        "neutrons and positrons",
+        "protons and neutrons",
+        "protons and electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "According to the electron cloud model of the atom, the region of space with the highest probability of locating an electron is",
+      "choices": [
+        "a fixed circular path",
+        "the nucleus",
+        "an excited state",
+        "an orbital"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which element has atoms that each contain 14 protons?",
+      "choices": [
+        "Al",
+        "C",
+        "N",
+        "Si"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which statement describes a chemical property of an element?",
+      "choices": [
+        "Aluminum melts at 933 K.",
+        "Copper is reddish in color.",
+        "Silver reacts with hydrogen sulfide.",
+        "Potassium has a density of 0.89 g/cm3 at room temperature."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "At 298 K and 101.3 kPa, oxygen exists in two gaseous forms: O2(g) and O3(g). These two forms of oxygen have",
+      "choices": [
+        "the same molecular structure and the same properties",
+        "the same molecular structure and different properties",
+        "different molecular structures and the same properties",
+        "different molecular structures and different properties"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which two terms represent types of chemical formulas?",
+      "choices": [
+        "spectral and covalent",
+        "spectral and molecular",
+        "structural and empirical",
+        "structural and nuclear"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "In all chemical reactions, there is a conservation of",
+      "choices": [
+        "charge, mass, and energy",
+        "charge, mass, and volume",
+        "volume, energy, and charge",
+        "volume, energy, and mass"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A sample of solid tungsten has mobile valence electrons throughout the sample. Which type of bonding is present in the sample?",
+      "choices": [
+        "nonpolar covalent",
+        "polar covalent",
+        "metallic",
+        "ionic"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which formula represents a polar molecule?",
+      "choices": [
+        "F2",
+        "CH4",
+        "CO2",
+        "NH3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "What occurs when two fluorine atoms react to produce a fluorine molecule?",
+      "choices": [
+        "A bond is broken as energy is absorbed.",
+        "A bond is broken as energy is released.",
+        "A bond is formed as energy is absorbed.",
+        "A bond is formed as energy is released."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A sample of NaCl(s) and a sample of NaCl( ) have",
+      "choices": [
+        "the same phase and the same physical properties",
+        "the same phase and different physical properties",
+        "different phases and the same physical properties",
+        "different phases and different physical properties"
+      ],
+      "image": "/images/exams/chemistry/august-2025/q12.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which substance can not be broken down by a chemical change?",
+      "choices": [
+        "manganese",
+        "ethene",
+        "propanal",
+        "water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "All aqueous solutions of glucose are classified as",
+      "choices": [
+        "mixtures with a fixed proportion",
+        "compounds with a fixed proportion",
+        "mixtures with proportions that may vary",
+        "compounds with proportions that may vary"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "At which pressure and temperature does a sample of He(g) behave most like an ideal gas?",
+      "choices": [
+        "0.5 atm and 137 K",
+        "0.5 atm and 546 K",
+        "2.0 atm and 137 K",
+        "2.0 atm and 546 K"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The kinetic molecular theory states that the particles of an ideal gas",
+      "choices": [
+        "constantly move in circular paths",
+        "have no attractive forces between them",
+        "create energy when gas particles collide with each other",
+        "are separated by very small distances relative to their sizes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A reaction is most likely to occur when reactant particles collide with proper",
+      "choices": [
+        "energy and orientation",
+        "mass and volume",
+        "phase and charge",
+        "pressure and density"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A sample of gas is in a sealed, rigid cylinder at constant volume. Which changes occur in the force of collisions of the gas particles and frequency of their collisions when the sample is cooled?",
+      "choices": [
+        "Force of collisions decreases and frequency of collisions increases.",
+        "Force of collisions decreases and frequency of collisions decreases.",
+        "Force of collisions increases and frequency of collisions increases.",
+        "Force of collisions increases and frequency of collisions decreases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "At STP, 2.0 liters of Ar(g) contains 5.4 3 1022 atoms. How many atoms are contained in 2.0 liters of Ne(g) at STP?",
+      "choices": [
+        "2.7 3 1011",
+        "2.7 3 1022",
+        "5.4 3 1011",
+        "5.4 3 1022"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "When a system is at equilibrium, the concentrations of the reactants and the products must be",
+      "choices": [
+        "equal",
+        "constant",
+        "decreasing",
+        "increasing"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which expression represents the heat of reaction for a chemical change?",
+      "choices": [
+        "(potential energy of the products) 2 (potential energy of the reactants)",
+        "(potential energy of the products) 1 (potential energy of the reactants)",
+        "(kinetic energy of the products) 2 (kinetic energy of the reactants)",
+        "(kinetic energy of the products) 1 (kinetic energy of the reactants)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "When a catalyst is added to a chemical reaction it produces",
+      "choices": [
+        "a greater heat of reaction",
+        "a greater activation energy for the reactants",
+        "an alternate reaction pathway",
+        "an alternate potential energy for the products"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Naturally occurring chemical systems tend to undergo changes toward",
+      "choices": [
+        "lower energy and lower disorder",
+        "lower energy and greater disorder",
+        "higher energy and lower disorder",
+        "higher energy and greater disorder"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which formula represents an organic compound?",
+      "choices": [
+        "PCl3",
+        "BrCl",
+        "CH3Cl",
+        "NH4Cl"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Where do oxidation and reduction occur in an electrochemical cell?",
+      "choices": [
+        "Oxidation occurs at the anode and reduction occurs at the cathode.",
+        "Oxidation occurs at the anode and reduction occurs in the salt bridge.",
+        "Oxidation occurs at the cathode and reduction occurs at the anode.",
+        "Oxidation occurs at the cathode and reduction occurs in the salt bridge."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which element is the most active nonmetal?",
+      "choices": [
+        "bromine",
+        "chlorine",
+        "fluorine",
+        "iodine"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "When a sample of solid Ca(OH)2 dissolves in water, the only negative ions in the solution are",
+      "choices": [
+        "hydronium ions",
+        "hydroxide ions",
+        "oxide ions",
+        "calcium ions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which products are formed when an Arrhenius acid and an Arrhenius base react?",
+      "choices": [
+        "an alcohol and an ester",
+        "an alcohol and water",
+        "a salt and an ester",
+        "a salt and water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The stability of an isotope is related to the ratio of which subatomic particles?",
+      "choices": [
+        "neutrons and positrons",
+        "neutrons and protons",
+        "protons and positrons",
+        "protons and electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which nuclear emission has the greatest mass?",
+      "choices": [
+        "an alpha particle",
+        "a beta particle",
+        "a neutron",
+        "a positron"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which element is listed with the number of valence electrons and the number of non-valence electrons in one of its atoms in the ground state?",
+      "choices": [
+        "Sodium has two valence electrons and 11 non-valence electrons.",
+        "Phosphorus has five valence electrons and 10 non-valence electrons.",
+        "Chlorine has seven valence electrons and 17 non-valence electrons.",
+        "Argon has 10 valence electrons and 18 non- valence electrons."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "An atom has a mass number of 112 and contains 48 protons. How many neutrons does this atom contain?",
+      "choices": [
+        "48",
+        "54",
+        "64",
+        "160"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "There is a decrease in value of which property as the elements in Period 2 are considered in order from lithium to fluorine?",
+      "choices": [
+        "atomic radius",
+        "electronegativity",
+        "first ionization energy",
+        "atomic mass"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "What is a chemical name for NaClO3?",
+      "choices": [
+        "sodium chlorate",
+        "sodium chlorite",
+        "sodium hypochlorite",
+        "sodium perchlorate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which formula represents a molecule that has four electrons shared between the two atoms?",
+      "choices": [
+        "Br2",
+        "Cl2",
+        "H2",
+        "O2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: 4Al(s) 1 3O2(g) \u2192 2Al2O3(s) 1 3351 kJ What is the number of moles of Al2O3(s) formed when 12 moles of O2(g) react completely?",
+      "choices": [
+        "8 mol",
+        "2 mol",
+        "3 mol",
+        "12 mol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "A substance has an empirical formula of CH2 and a molar mass of 112 g/mol. What is the molecular formula for this compound?",
+      "choices": [
+        "CH2",
+        "C4H8",
+        "C8H16",
+        "C12H24"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Compared to the vapor pressure of ethanol at 1.0 atm and 25\u00b0C, the vapor pressure of water at 1.0 atm and 25\u00b0C is",
+      "choices": [
+        "lower because water has weaker intermolecular forces",
+        "lower because water has stronger intermolecular forces",
+        "higher because water has weaker intermolecular forces",
+        "higher because water has stronger intermolecular forces"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Based on Table S, a molecule of which substance contains the most polar bond?",
+      "choices": [
+        "HBr",
+        "HF",
+        "IBr",
+        "IF"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Based on Table F, which compound is most soluble in water?",
+      "choices": [
+        "CaS",
+        "CaCO3",
+        "CaSO4",
+        "CaCrO4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "written",
+      "text": "Each of four test tubes contains a different concentration of HCl(aq) at 298 K. A 1.0-gram sample of iron filings is added to each test tube. In which test tube is the reaction occurring at the fastest rate? ( 1 ) 0.0020 M HCl(aq) 10 mL ( 2 ) 0.020 M HCl(aq) 10 mL ( 3 ) 0.20 M HCl(aq) 10 mL ( 4 ) 2.0 M HCl(aq) 10 mL",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/q41.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which equation represents an increase in entropy?",
+      "choices": [
+        "CO2(g) \u2192 CO2(s)",
+        "H2O( ) \u2192 H2O(s)",
+        "Br2(g) \u2192 Br2( )",
+        "I2(s) \u2192 I2(g)"
+      ],
+      "image": "/images/exams/chemistry/august-2025/q42.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Given the formula representing a compound: C H C C H H H H H C C H H C C H H H H H H O What is a chemical name for this compound?",
+      "choices": [
+        "1-heptanone",
+        "7-heptanol",
+        "heptanal",
+        "heptanoic acid"
+      ],
+      "image": "/images/exams/chemistry/august-2025/q43.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Given the incomplete equation with X representing a missing product: CH4 1 Cl2 \u2192 X 1 HCl Which formula represents the missing product, X?",
+      "choices": [
+        "CH4Cl",
+        "CH4Cl2",
+        "CH3Cl",
+        "CH3Cl2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Which type of reaction produces ethanol and carbon dioxide from glucose, C6H12O6?",
+      "choices": [
+        "addition",
+        "fermentation",
+        "substitution",
+        "polymerization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Given the balanced ionic equation: 2Fe31(aq) 1 Sn21(aq) \u2192 2Fe21(aq) 1 Sn41(aq) How many moles of electrons are gained by Fe31(aq) when Sn21(aq) loses 2 moles of electrons?",
+      "choices": [
+        "1 mol",
+        "2 mol",
+        "3 mol",
+        "4 mol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which aqueous solution of LiCl is the best conductor of an electric current?",
+      "choices": [
+        "0.1 M LiCl(aq)",
+        "0.01 M LiCl(aq)",
+        "0.001 M LiCl(aq)",
+        "0.0001 M LiCl(aq)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: NH3 1 H2O \u2192 NH4 1 1 OH2 According to one acid-base theory, the H2O acts as an acid because it is an",
+      "choices": [
+        "H1 donor",
+        "H1 acceptor",
+        "OH2 donor",
+        "OH2 acceptor"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Based on Table N, which statement compares the half-lives and decay modes of krypton-85 and potassium-42?",
+      "choices": [
+        "They have the same half-life and the same decay mode.",
+        "They have the same half-life but different decay modes.",
+        "They have different half-lives but the same decay mode.",
+        "They have different half-lives and different decay modes."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which statement explains the energy released by a fission reaction?",
+      "choices": [
+        "Thermal energy is converted to chemical energy.",
+        "Chemical energy is converted to thermal energy.",
+        "Mass is converted to energy.",
+        "Energy is converted to mass."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State what happens to the average kinetic energy of the molecules in the sample during the first 3 minutes.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nA sample of a molecular substance starting as a liquid at 97.0\u00baC and 1 atm is cooled \nfor 10. minutes. The heat of fusion for this substance is 148 joules per gram. This cooling \nprocess is represented on the graph below.\nCooling Curve for a Substance\n100.\n90.\n80.\n70.\nTime (min)\n0\n2\n4\n6\n8\n10.\n12\nTemperature (\u00b0C)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The average kinetic energy decreases. The average KE goes down. decreases"
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Determine the freezing point of the substance in degrees Celsius.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nA sample of a molecular substance starting as a liquid at 97.0\u00baC and 1 atm is cooled \nfor 10. minutes. The heat of fusion for this substance is 148 joules per gram. This cooling \nprocess is represented on the graph below.\nCooling Curve for a Substance\n100.\n90.\n80.\n70.\nTime (min)\n0\n2\n4\n6\n8\n10.\n12\nTemperature (\u00b0C)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 80.\u00b0C to 82\u00b0C, inclusive."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Determine the amount of heat, in joules, released when a 64.0-gram sample of this liquid substance solidifies at its freezing point.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nA sample of a molecular substance starting as a liquid at 97.0\u00baC and 1 atm is cooled \nfor 10. minutes. The heat of fusion for this substance is 148 joules per gram. This cooling \nprocess is represented on the graph below.\nCooling Curve for a Substance\n100.\n90.\n80.\n70.\nTime (min)\n0\n2\n4\n6\n8\n10.\n12\nTemperature (\u00b0C)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 9470 J or for any value from 9470 J to 9500 J, inclusive."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "State, in terms of carbon-carbon bonds, why ethane is saturated.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of chemistry.\nAt standard pressure, the boiling points of four hydrocarbons and the boiling points of \nfour alcohols are shown in the table below.\nBoiling Points of Selected Hydrocarbons and Alcohols at Standard Pressure\nHydrocarbon\nBoiling Point \n(\u00b0C)\nAlcohol\nBoiling Point \n(\u00b0C)\nmethane\n2161.5\nmethanol\n64.6\nethane\n288.6\nethanol\n78.3\npropane\n242.1\n1-propanol\n97.2\nbutane\n20.5\n1-butanol\n117.1",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Ethane molecules have only single carbon-carbon bonds. There are no multiple bonds between the carbon atoms. No carbon-to-carbon double or triple bonds."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Draw a structural formula for 1-butanol.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of chemistry.\nAt standard pressure, the boiling points of four hydrocarbons and the boiling points of \nfour alcohols are shown in the table below.\nBoiling Points of Selected Hydrocarbons and Alcohols at Standard Pressure\nHydrocarbon\nBoiling Point \n(\u00b0C)\nAlcohol\nBoiling Point \n(\u00b0C)\nmethane\n2161.5\nmethanol\n64.6\nethane\n288.6\nethanol\n78.3\npropane\n242.1\n1-propanol\n97.2\nbutane\n20.5\n1-butanol\n117.1",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Examples of 1-credit responses: H H C H C C H C H H H C OH H H H H C H C C O H H H C H H H C C C H OH Note: Do not allow credit if only some of the H atoms bonded to C atoms are shown. Organic functional groups must be completely shown. Part B\u20132 Allow a total of 15 credits for this part. The student must answer all questions in this part. P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Describe what happens to the boiling points of the alcohols as the number of carbon atoms per molecule increases.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of chemistry.\nAt standard pressure, the boiling points of four hydrocarbons and the boiling points of \nfour alcohols are shown in the table below.\nBoiling Points of Selected Hydrocarbons and Alcohols at Standard Pressure\nHydrocarbon\nBoiling Point \n(\u00b0C)\nAlcohol\nBoiling Point \n(\u00b0C)\nmethane\n2161.5\nmethanol\n64.6\nethane\n288.6\nethanol\n78.3\npropane\n242.1\n1-propanol\n97.2\nbutane\n20.5\n1-butanol\n117.1",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The boiling point of each successive alcohol increases as the number of carbon atoms increases. Boiling points increase. more carbons, higher boiling point increases"
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "State the oxidation number of the silver atoms in the Ag(s) electrode.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of chemistry.\nThe diagram and ionic equation below represent an operating electrochemical cell.\nV\nWire\nCu(s) electrode\nAg(s) electrode\nSalt\nbridge\nVoltmeter\nCu(s) + 2Ag+(aq)\nCu2+(aq) + 2Ag(s)\nCu2+(aq)\nAg+(aq)\nWire",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0 or zero."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "State the form of energy that is converted to electrical energy in this operating cell.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of chemistry.\nThe diagram and ionic equation below represent an operating electrochemical cell.\nV\nWire\nCu(s) electrode\nAg(s) electrode\nSalt\nbridge\nVoltmeter\nCu(s) + 2Ag+(aq)\nCu2+(aq) + 2Ag(s)\nCu2+(aq)\nAg+(aq)\nWire",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: chemical potential energy chemical potential"
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Write a balanced half-reaction equation for the oxidation reaction that occurs when the cell operates.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of chemistry.\nThe diagram and ionic equation below represent an operating electrochemical cell.\nV\nWire\nCu(s) electrode\nAg(s) electrode\nSalt\nbridge\nVoltmeter\nCu(s) + 2Ag+(aq)\nCu2+(aq) + 2Ag(s)\nCu2+(aq)\nAg+(aq)\nWire",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Cu(s) \u2192 Cu21(aq) 1 2e2 Cu \u2192 2e2 1 Cu12 Note: Do not allow credit for the e without the minus sign (2)."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "State the color of bromthymol blue after it is added to a sample of the NaOH(aq) solution.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 63 on the information below and on your knowledge of chemistry.\nDuring a titration, 10.0 mL of HCl(aq) is exactly neutralized by adding 20.0 mL of \n0.10 M NaOH(aq). The NaOH(aq) has a pH value of 13.0. During this laboratory activity \nappropriate safety equipment is used and safety procedures are followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for blue."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State, in terms of ions, why the HCl(aq) solution can conduct electricity.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 63 on the information below and on your knowledge of chemistry.\nDuring a titration, 10.0 mL of HCl(aq) is exactly neutralized by adding 20.0 mL of \n0.10 M NaOH(aq). The NaOH(aq) has a pH value of 13.0. During this laboratory activity \nappropriate safety equipment is used and safety procedures are followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The HCl(aq) solution contains mobile ions. The H1 and Cl2 ions in the solution are moving. The solution has aqueous ions."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the molarity of the HCl(aq), using the titration data.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 63 on the information below and on your knowledge of chemistry.\nDuring a titration, 10.0 mL of HCl(aq) is exactly neutralized by adding 20.0 mL of \n0.10 M NaOH(aq). The NaOH(aq) has a pH value of 13.0. During this laboratory activity \nappropriate safety equipment is used and safety procedures are followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: MA (10.0 mL) 5 (0.10M)(20.0 mL) (0.10M)(20.0 mL) \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 10.0 mL (.10)(20) \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 10 P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "State the pH value when the H1 ion concentration in the original NaOH(aq) has increased by a factor of 10 compared to its original value.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 63 on the information below and on your knowledge of chemistry.\nDuring a titration, 10.0 mL of HCl(aq) is exactly neutralized by adding 20.0 mL of \n0.10 M NaOH(aq). The NaOH(aq) has a pH value of 13.0. During this laboratory activity \nappropriate safety equipment is used and safety procedures are followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 12.0 or 12."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "State, in terms of elements, why the equation represents a transmutation reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the information below and on your knowledge of chemistry.\nA phosphorus radioisotope decays by positron emission and has a half-life of  \n2.50 minutes. This reaction is represented by the equation below.\n30\n15P \u2192  0\n11b 1 30\n14Si",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: In this reaction, an isotope of phosphorus is changing into an isotope of silicon. A different element is formed. Phosphorous has an atomic number of 15 and becomes silicon with an atomic number of 14."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Determine the time required for an original 200.0-milligram sample of phosphorus\u201330 to decay until only 12.5 milligrams of the sample remains unchanged.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the information below and on your knowledge of chemistry.\nA phosphorus radioisotope decays by positron emission and has a half-life of  \n2.50 minutes. This reaction is represented by the equation below.\n30\n15P \u2192  0\n11b 1 30\n14Si",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 10.00 min. Significant figures do not need to be shown. P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Compare the energy of an electron in the fourth shell of a gallium atom to the energy of an electron in the first shell of the same atom.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nCompounds of gallium are used in lasers and light-emitting diodes, also known as LEDs. \nThe atomic mass and natural abundance of the two naturally occurring isotopes of gallium \nare given in the table below.\nNaturally Occurring Isotopes of Gallium\nIsotope\nAtomic \nMass \n(u)\nNatural \nAbundance \n(%)\nGa-69\n68.926\n60.11\nGa-71\n70.925\n39.89",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The energy of an electron in the fourth shell is higher than the energy of an electron in the first shell. The fourth shell electron has greater energy. The electron in the first shell has less."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "State how a bright-line spectrum from a sample of an element viewed through a spectroscope can be used to identify the element as gallium.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nCompounds of gallium are used in lasers and light-emitting diodes, also known as LEDs. \nThe atomic mass and natural abundance of the two naturally occurring isotopes of gallium \nare given in the table below.\nNaturally Occurring Isotopes of Gallium\nIsotope\nAtomic \nMass \n(u)\nNatural \nAbundance \n(%)\nGa-69\n68.926\n60.11\nGa-71\n70.925\n39.89",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The spectral lines seen in the spectroscope are compared to the known bright-line spectrum of gallium. The spectrum from the sample is matched to gallium on a chart of element spectra. Compare the spectral wavelengths to those of gallium."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the atomic mass of gallium.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nCompounds of gallium are used in lasers and light-emitting diodes, also known as LEDs. \nThe atomic mass and natural abundance of the two naturally occurring isotopes of gallium \nare given in the table below.\nNaturally Occurring Isotopes of Gallium\nIsotope\nAtomic \nMass \n(u)\nNatural \nAbundance \n(%)\nGa-69\n68.926\n60.11\nGa-71\n70.925\n39.89",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: (68.926 u)(0.6011) 1 (70.925 u)(0.3989) 60.11(68.926) 1 70.925 (39.89) \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 100 39.89%(70.925) 1 60.11%(68.926) Note: Do not allow credit for a numerical setup using mass numbers rather than isotopic masses."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Explain, in terms of both protons and neutrons, why an atom of Ga-69 and an atom of Ga-71 are classified as different isotopes of the same element.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nCompounds of gallium are used in lasers and light-emitting diodes, also known as LEDs. \nThe atomic mass and natural abundance of the two naturally occurring isotopes of gallium \nare given in the table below.\nNaturally Occurring Isotopes of Gallium\nIsotope\nAtomic \nMass \n(u)\nNatural \nAbundance \n(%)\nGa-69\n68.926\n60.11\nGa-71\n70.925\n39.89",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Both atoms have 31 protons. Ga-69 has 38 neutrons and Ga-71 has 40 neutrons. same number of protons, different number of neutrons"
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State why the equation represents a synthesis reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the information below and on your knowledge of chemistry.\nAmmonium sulfate is a fertilizer produced by the reaction between ammonia and sulfuric \nacid. The unbalanced equation for this reaction is shown below.\nNH3 1 H2SO4 \u2192 (NH4)2SO4",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Two reactants form one product. One substance is formed from two substances. Two compounds form one compound. Part C Allow a total of 20 credits for this part. The student must answer all questions in this part. P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Determine the percent composition by mass of nitrogen in NH3 (gram-formula mass of NH3 5 17.0 g/mol).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the information below and on your knowledge of chemistry.\nAmmonium sulfate is a fertilizer produced by the reaction between ammonia and sulfuric \nacid. The unbalanced equation for this reaction is shown below.\nNH3 1 H2SO4 \u2192 (NH4)2SO4",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 82.4% or for any value from 82% to 82.412%, inclusive."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Determine the gram-formula mass of H2SO4.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the information below and on your knowledge of chemistry.\nAmmonium sulfate is a fertilizer produced by the reaction between ammonia and sulfuric \nacid. The unbalanced equation for this reaction is shown below.\nNH3 1 H2SO4 \u2192 (NH4)2SO4",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 98 g/mol or for any value from 97.996 g/mol to 98.12 g/mol, inclusive."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Balance the equation in your answer booklet for the production of ammonium sulfate, using the smallest whole-number coefficients.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the information below and on your knowledge of chemistry.\nAmmonium sulfate is a fertilizer produced by the reaction between ammonia and sulfuric \nacid. The unbalanced equation for this reaction is shown below.\nNH3 1 H2SO4 \u2192 (NH4)2SO4",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for _______ 2 NH3 1 _______ H2SO4 \u2192 _______ (NH4)2SO4 Allow credit even if the coefficient \u201c1\u201d is written in front of H2SO4 and/or (NH4)2SO4."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "State, in terms of element classification, why the bonding in a sample of sodium chloride is ionic.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_74_78.png",
+      "context": "Base your answers to questions 74 through 78 on the information below and on your knowledge of chemistry.\nSeawater is also called salt water because it contains many dissolved ions. When the \nwater is evaporated from a sample of seawater, solid salts such as NaCl form. The table \nbelow shows the percent of some of the ions in the sample of seawater.\nSome Ions in the Sample \nof Seawater\nIon \nPercent of \nTotal Ions \n(%)\nCl2\n55.3\nNa1\n30.7\nMg21\n3.7",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Sodium is a metal and chlorine is a nonmetal, so the bonding is ionic. An active metal reacted with an active nonmetal."
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Identify the noble gas that has atoms with the same electron configuration as a chloride ion when both the atoms and the ions are in the ground state.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_74_78.png",
+      "context": "Base your answers to questions 74 through 78 on the information below and on your knowledge of chemistry.\nSeawater is also called salt water because it contains many dissolved ions. When the \nwater is evaporated from a sample of seawater, solid salts such as NaCl form. The table \nbelow shows the percent of some of the ions in the sample of seawater.\nSome Ions in the Sample \nof Seawater\nIon \nPercent of \nTotal Ions \n(%)\nCl2\n55.3\nNa1\n30.7\nMg21\n3.7",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Ar or argon."
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "In the space in your answer booklet, draw a Lewis electron-dot diagram for the ion in this table that has the greatest percentage of ions in seawater.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_74_78.png",
+      "context": "Base your answers to questions 74 through 78 on the information below and on your knowledge of chemistry.\nSeawater is also called salt water because it contains many dissolved ions. When the \nwater is evaporated from a sample of seawater, solid salts such as NaCl form. The table \nbelow shows the percent of some of the ions in the sample of seawater.\nSome Ions in the Sample \nof Seawater\nIon \nPercent of \nTotal Ions \n(%)\nCl2\n55.3\nNa1\n30.7\nMg21\n3.7",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. The positions of the electrons may vary. Examples of 1-credit responses: \u2013 CI \u2013 CI 1 CI \u2013 1"
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "State, in terms of electrons, why the radius of a Mg21 ion is smaller than the radius of a Mg atom.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_74_78.png",
+      "context": "Base your answers to questions 74 through 78 on the information below and on your knowledge of chemistry.\nSeawater is also called salt water because it contains many dissolved ions. When the \nwater is evaporated from a sample of seawater, solid salts such as NaCl form. The table \nbelow shows the percent of some of the ions in the sample of seawater.\nSome Ions in the Sample \nof Seawater\nIon \nPercent of \nTotal Ions \n(%)\nCl2\n55.3\nNa1\n30.7\nMg21\n3.7",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The Mg21 ion is smaller because it has two shells of electrons and a Mg atom has three shells of electrons. The Mg21 ion forms when the Mg atom loses two electrons. The magnesium ion has 10 electrons and the magnesium atom has 12 electrons. A Mg atom is formed when the Mg21 gains two electrons. Note: Do not allow credit for a response indicating that the Mg21 ion lost electrons. P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Using the key in your answer booklet, draw at least two water molecules in the box, showing the orientation of each water molecule toward the Na1 ion.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_74_78.png",
+      "context": "Base your answers to questions 74 through 78 on the information below and on your knowledge of chemistry.\nSeawater is also called salt water because it contains many dissolved ions. When the \nwater is evaporated from a sample of seawater, solid salts such as NaCl form. The table \nbelow shows the percent of some of the ions in the sample of seawater.\nSome Ions in the Sample \nof Seawater\nIon \nPercent of \nTotal Ions \n(%)\nCl2\n55.3\nNa1\n30.7\nMg21\n3.7",
+      "correct": null,
+      "modelAnswer": "Acceptable responses must show at least two water molecules. The oxygen atom of each water molecule must face toward the Na1 ion. Examples of 1-credit responses: Na+ Na+"
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Classify, in terms of saturation, the type of solution produced by the student.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 79 through 81 on the information below and on your knowledge of chemistry.\nA student investigating the properties of solutions dissolved 44.0 grams of KCl(s) in  \n200. grams of water at 30.\u00b0C. During this laboratory activity appropriate safety equipment \nwas used and safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for unsaturated or not saturated."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Based on Table G, state what happens to the solubility of KCl in water as temperature increases from 30.\u00b0C to 70.\u00b0C.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 79 through 81 on the information below and on your knowledge of chemistry.\nA student investigating the properties of solutions dissolved 44.0 grams of KCl(s) in  \n200. grams of water at 30.\u00b0C. During this laboratory activity appropriate safety equipment \nwas used and safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: From 30.\u00b0C to 70.\u00b0C, the solubility of KCl in water increases. At 70\u00b0C, KCl is more soluble than at 30\u00b0C. The solubility increases. increases"
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Compare the boiling point of the solution at standard pressure to the boiling point of water at standard pressure.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/q81.png",
+      "context": "Base your answers to questions 79 through 81 on the information below and on your knowledge of chemistry.\nA student investigating the properties of solutions dissolved 44.0 grams of KCl(s) in  \n200. grams of water at 30.\u00b0C. During this laboratory activity appropriate safety equipment \nwas used and safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: At standard pressure, the boiling point of the solution is higher than the boiling point of water. The boiling point of water is lower. P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Compare the rate of the forward reaction to the rate of the reverse reaction in this equilibrium system.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nIn a process used for centuries, limestone containing calcium carbonate is heated to \nproduce calcium oxide and carbon dioxide gas. When placed in a sealed, rigid container, the \nreaction is reversible, allowing CaO and CO2 to react to produce CaCO3. These reactions \nproduce an equilibrium system as represented by the equation below. \nCaCO3(s) 1 177.8 kJ \n CaO(s) 1 CO2(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The rates of the forward and reverse reactions are equal. The two reactions occur at the same rate. equal same"
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Convert the energy term in the equation, 177.8 kJ, to joules.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nIn a process used for centuries, limestone containing calcium carbonate is heated to \nproduce calcium oxide and carbon dioxide gas. When placed in a sealed, rigid container, the \nreaction is reversible, allowing CaO and CO2 to react to produce CaCO3. These reactions \nproduce an equilibrium system as represented by the equation below. \nCaCO3(s) 1 177.8 kJ \n CaO(s) 1 CO2(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: 177 800 J 1.778 3 105 J"
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Explain, in terms of collisions between CaO and CO2, why adding more CO2(g) to this equilibrium increases the amount of CaCO3(s) in the system.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nIn a process used for centuries, limestone containing calcium carbonate is heated to \nproduce calcium oxide and carbon dioxide gas. When placed in a sealed, rigid container, the \nreaction is reversible, allowing CaO and CO2 to react to produce CaCO3. These reactions \nproduce an equilibrium system as represented by the equation below. \nCaCO3(s) 1 177.8 kJ \n CaO(s) 1 CO2(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: A greater number of effective collisions occur between CO2 and CaO, producing more CaCO3. More CO2 molecules collide with CaO, producing more CaCO3. Adding CO2 increases the number of collisions between CaO and CO2."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "On the labeled axes in your answer booklet, draw a potential energy diagram for the forward reaction in this system. P.S./ P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2025/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nIn a process used for centuries, limestone containing calcium carbonate is heated to \nproduce calcium oxide and carbon dioxide gas. When placed in a sealed, rigid container, the \nreaction is reversible, allowing CaO and CO2 to react to produce CaCO3. These reactions \nproduce an equilibrium system as represented by the equation below. \nCaCO3(s) 1 177.8 kJ \n CaO(s) 1 CO2(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for showing that the PE of the products is higher than the PE of the reactants. Example of a 1-credit response: Potential Energy Reaction Coordinate P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    }
+  ]
+}

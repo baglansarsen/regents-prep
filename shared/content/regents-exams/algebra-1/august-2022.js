@@ -267,8 +267,7 @@ export default {
       topic: 'Functions & Relations',
       explanation: 'The absolute value function f(x) = |x + 1| is a V-shaped graph with its vertex at (−1, 0), opening upward with slopes of −1 on the left and +1 on the right.',
       diveDeep: 'An absolute value graph forms a V. For f(x) = |x + h|, the vertex shifts horizontally to x = −h, so |x + 1| moves the vertex left to (−1, 0). Each branch rises one unit for every one unit away from the vertex (slope ±1). To graph accurately, plot the vertex first, then plot one or two points on each side (e.g., (0, 1) and (−2, 1)) and connect with straight rays. A common error is shifting the vertex in the wrong direction.',
-      modelAnswer: 'Vertex at (−1, 0). Plot points: (−3, 2), (−2, 1), (−1, 0), (0, 1), (1, 2). Connect to form a V opening upward — the left ray has slope −1 and the right ray has slope +1. The graph is symmetric about the vertical line x = −1.'
-    },
+      modelAnswer: 'Vertex at (−1, 0). Plot points: (−3, 2), (−2, 1), (−1, 0), (0, 1), (1, 2). Connect to form a V opening upward — the left ray has slope −1 and the right ray has slope +1. The graph is symmetric about the vertical line x = −1.', image: '/images/exams/alg1-august-2022/q25.png' },
     {
       number: 26,
       part: 'B',
@@ -277,8 +276,7 @@ export default {
       topic: 'Functions & Relations',
       explanation: 'An exponential function is more appropriate because the values decrease by a roughly constant ratio (about 0.527 every 5 years) rather than by a constant amount.',
       diveDeep: 'To decide between linear and exponential models, check the differences and the ratios between successive y-values. A constant difference (subtraction) signals linear; a constant ratio (division) signals exponential. Here the drops (−9450, −4980, −2630, −1390) are not constant, but each value is about 0.53 times the previous one, so the data decay exponentially. Real-world depreciation almost always follows an exponential pattern because it loses a percentage of its value each year.',
-      modelAnswer: 'Exponential. The differences between consecutive values are not constant (20000→10550 is −9450, 10550→5570 is −4980, etc.), so the data are not linear. However, the ratios of consecutive values are approximately constant: 10550/20000 ≈ 0.53, 5570/10550 ≈ 0.53, 2940/5570 ≈ 0.53, 1550/2940 ≈ 0.53. Since the value is multiplied by about the same factor each 5-year period, an exponential function best models the data.'
-    },
+      modelAnswer: 'Exponential. The differences between consecutive values are not constant (20000→10550 is −9450, 10550→5570 is −4980, etc.), so the data are not linear. However, the ratios of consecutive values are approximately constant: 10550/20000 ≈ 0.53, 5570/10550 ≈ 0.53, 2940/5570 ≈ 0.53, 1550/2940 ≈ 0.53. Since the value is multiplied by about the same factor each 5-year period, an exponential function best models the data.', image: '/images/exams/alg1-august-2022/q26.png' },
     {
       number: 27,
       part: 'B',
@@ -287,8 +285,7 @@ export default {
       topic: 'Number Theory',
       explanation: 'The product √8 · √98 = √784 = 28, which is a whole number, so the product is rational.',
       diveDeep: 'The product of two radicals follows √a · √b = √(ab). Multiplying inside the radical, 8 · 98 = 784, and √784 = 28 because 28² = 784. A number is rational if it can be written as a ratio of integers (28 = 28/1 qualifies). Although each individual factor (√8 ≈ 2.83 and √98 ≈ 9.90) is irrational, their product happens to be a perfect square, producing a rational result—so you must actually compute rather than assume.',
-      modelAnswer: 'Rational. √8 · √98 = √(8 · 98) = √784 = 28. Since 28 is an integer and can be written as 28/1, the product is a rational number. (Even though √8 and √98 are each irrational, their product is a perfect square, 784, whose square root is the whole number 28.)'
-    },
+      modelAnswer: 'Rational. √8 · √98 = √(8 · 98) = √784 = 28. Since 28 is an integer and can be written as 28/1, the product is a rational number. (Even though √8 and √98 are each irrational, their product is a perfect square, 784, whose square root is the whole number 28.)', image: '/images/exams/alg1-august-2022/q27.png' },
     {
       number: 28,
       part: 'B',
@@ -297,8 +294,7 @@ export default {
       topic: 'Statistics & Probability',
       explanation: 'Ordering the data, the lower quartile (Q1) is 51 and the upper quartile (Q3) is 61, so the interquartile range is 61 − 51 = 10.',
       diveDeep: 'The interquartile range (IQR) measures the spread of the middle 50% of data and equals Q3 − Q1. First sort all values, then split into a lower and upper half (with 16 values, 8 in each half). Q1 is the median of the lower half and Q3 the median of the upper half. IQR is resistant to outliers, which is why it is preferred over range for skewed data. A graphing calculator’s 1-Var Stats gives Q1 and Q3 directly.',
-      modelAnswer: 'Ordered data: 43, 46, 47, 51, 51, 52, 54, 54, 55, 56, 60, 61, 62, 64, 69, 70. Lower half (first 8): 43, 46, 47, 51, 51, 52, 54, 54 → Q1 = (51 + 51)/2 = 51. Upper half (last 8): 55, 56, 60, 61, 62, 64, 69, 70 → Q3 = (61 + 62)/2 = 61.5. IQR = Q3 − Q1 = 61.5 − 51 = 10.5.'
-    },
+      modelAnswer: 'Ordered data: 43, 46, 47, 51, 51, 52, 54, 54, 55, 56, 60, 61, 62, 64, 69, 70. Lower half (first 8): 43, 46, 47, 51, 51, 52, 54, 54 → Q1 = (51 + 51)/2 = 51. Upper half (last 8): 55, 56, 60, 61, 62, 64, 69, 70 → Q3 = (61 + 62)/2 = 61.5. IQR = Q3 − Q1 = 61.5 − 51 = 10.5.', image: '/images/exams/alg1-august-2022/q28.png' },
     {
       number: 29,
       part: 'B',

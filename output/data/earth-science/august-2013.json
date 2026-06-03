@@ -1,0 +1,1086 @@
+{
+  "subject": "earth-science",
+  "session": "august-2013",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which two characteristics do all Jovian planets have in common?",
+      "choices": [
+        "small diameters and low densities",
+        "small diameters and high densities",
+        "large diameters and low densities",
+        "large diameters and high densities"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which event occurred approximately 4.6 billion years ago?",
+      "choices": [
+        "evolution of the earliest fish",
+        "evolution of stromatolites",
+        "formation of the oldest known Earth rocks",
+        "formation of Earth and our solar system"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which process combines lighter elements into heavier elements and produces energy within the Sun and other stars?",
+      "choices": [
+        "fusion",
+        "insolation",
+        "conduction",
+        "radioactive decay"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which evidence best supports the Big Bang theory?",
+      "choices": [
+        "rate of rotation of the Sun",
+        "existence of cosmic background radiation",
+        "uniform radioactive decay of uranium-238",
+        "separation of Earth\u2019s interior into different layers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which star has a surface temperature most similar to the surface temperature of Alpha Centauri?",
+      "choices": [
+        "Polaris",
+        "Betelgeuse",
+        "Procyon B",
+        "Sirius"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The red shift of light from most galaxies is evidence that",
+      "choices": [
+        "most galaxies are moving away from Earth",
+        "a majority of stars in most galaxies are red giants",
+        "the light slows down as it nears Earth",
+        "red light travels faster than other colors of light"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which motion causes some constellations to be visible in New York State only during winter nights and other constellations to be visible only during summer nights?",
+      "choices": [
+        "Stars in constellations revolve around Earth.",
+        "Stars in constellations revolve around the Sun.",
+        "Earth revolves around the Sun.",
+        "Earth rotates on its axis."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Sediment samples A through D below have the same volume and packing, but contain different percentages of various particle sizes. Sample A: 75% clay and 25% silt Sample B: 25% clay and 75% sand Sample C: 50% pebbles and 50% sand Sample D: 50% pebbles and 50% cobbles Which sample most likely has the greatest permeability?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Most of Earth\u2019s weather events take place in the",
+      "choices": [
+        "thermosphere",
+        "mesosphere",
+        "stratosphere",
+        "troposphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a weather instrument. Which weather variable was this instrument designed to measure?",
+      "choices": [
+        "air pressure",
+        "dewpoint",
+        "relative humidity",
+        "amount of precipitation"
+      ],
+      "image": "/images/exams/earth-science/august-2013/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Jet stream winds over the United States generally move from",
+      "choices": [
+        "east to west",
+        "west to east",
+        "north to south",
+        "south to north"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "What is the dewpoint when the dry-bulb temperature is 8\u00b0C and the wet-bulb temperature is 2\u00b0C?",
+      "choices": [
+        "28\u00b0C",
+        "6\u00b0C",
+        "3\u00b0C",
+        "\u00029\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The cross section below represents prevailing winds moving over a coastal mountain range. Letters A through D represent locations on Earth\u2019s surface. Which location will most likely have the least annual precipitation?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/august-2013/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which transfer of energy occurs mainly through the process of convection?",
+      "choices": [
+        "electromagnetic energy transferred from the Sun to the Moon",
+        "solar energy transferred through space to Earth\u2019s surface",
+        "heated air in the lower atmosphere trans- ferred upward by density differences",
+        "heat from radioactive decay transferred by molecular collisions to surrounding mantle rock"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "In which planetary wind belt do most storms move toward the northeast?",
+      "choices": [
+        "30\u00b0 N to 60\u00b0 N",
+        "0\u00b0 to 30\u00b0 N",
+        "0\u00b0 to 30\u00b0 S",
+        "30\u00b0 S to 60\u00b0 S"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "What is the inferred pressure, in millions of atmospheres, in Earth\u2019s interior at a depth of 2900 kilometers?",
+      "choices": [
+        "1.4",
+        "9.9",
+        "3.0",
+        "4900"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Compared to the oceanic crust, the continental crust is",
+      "choices": [
+        "less dense and more basaltic",
+        "less dense and more felsic",
+        "more dense and more granitic",
+        "more dense and more mafic Mountain range A Ocean B C Windward side Prevailing winds Leeward side D 29.92 in of Hg (one atmosphere) Glass tube (end sealed) Mercury in tube Vacuum Mercury in open dish (Not drawn to scale)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which landmass is moving northward with Australia as part of the same tectonic plate?",
+      "choices": [
+        "India",
+        "Antarctica",
+        "North America",
+        "South America"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The epicenter of an earthquake is located 6500 kilometers away from a seismic station. If the first S-wave arrived at this seismic station at 1:30 p.m., at what time did the first P-wave arrive?",
+      "choices": [
+        "1:20 p.m.",
+        "1:22 p.m.",
+        "1:38 p.m.",
+        "1:40 p.m."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which two cities are located in the Interior Lowlands?",
+      "choices": [
+        "Elmira and Binghamton",
+        "Riverhead and New York City",
+        "Massena and Old Forge",
+        "Buffalo and Watertown"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The large waterfall at Niagara Falls, New York, was originally located at the Niagara Escarpment. Which term best describes an escarpment?",
+      "choices": [
+        "U-shaped valley",
+        "V-shaped valley",
+        "cliff",
+        "drumlin"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Trees growing on the edge of a river\u2019s meander are most likely to fall into the river due to",
+      "choices": [
+        "deposition on the inside of the meander",
+        "deposition on the outside of the meander",
+        "erosion on the inside of the meander",
+        "erosion on the outside of the meander"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "What is the approximate minimum stream velocity needed to keep a 6.4-cm-diameter particle in motion?",
+      "choices": [
+        "10 cm/s",
+        "50 cm/s",
+        "100 cm/s",
+        "200 cm/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a sandstone butte in an arid region. Which agents of erosion are currently changing the appearance of this butte?",
+      "choices": [
+        "glaciers and mass movement",
+        "wave action and running water",
+        "wind and mass movement",
+        "running water and glaciers"
+      ],
+      "image": "/images/exams/earth-science/august-2013/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Sediment is deposited in a river delta because the",
+      "choices": [
+        "velocity of the river decreases",
+        "force of gravity decreases",
+        "volume of the river increases",
+        "gradient of the river increases"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which processes lead directly to the formation of igneous rock?",
+      "choices": [
+        "weathering and erosion",
+        "compaction and cementation",
+        "heat and pressure",
+        "melting and solidification P.S./"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "A graph of tidal sea-level changes at a coastal city is shown below. The number of hours from one high tide to the next high tide is approximately",
+      "choices": [
+        "4 h",
+        "8 h",
+        "12 h",
+        "24 h"
+      ],
+      "image": "/images/exams/earth-science/august-2013/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The diagram below represents planets A and B, of equal mass, revolving around a star. Compared to planet A, planet B has a",
+      "choices": [
+        "weaker gravitational attraction to the star and a shorter period of revolution",
+        "weaker gravitational attraction to the star and a longer period of revolution",
+        "stronger gravitational attraction to the star and a shorter period of revolution",
+        "stronger gravitational attraction to the star and a longer period of revolution Star Planet A Planet B 0 4 8 12 16 20 24 (h) High tide High tide High tide Low tide Low tide 4 2 0 \u20132 \u20134 Sea Level (ft)"
+      ],
+      "image": "/images/exams/earth-science/august-2013/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "The arrow on the map below represents the direction a wind is blowing over a land surface in the Northern Hemisphere without showing the Coriolis effect. Which dashed arrow represents how the wind direction will change in the Northern Hemisphere due to the Coriolis effect? ( 1 ) ( 3 ) ( 2 ) ( 4 ) N N N N N Map",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The map below shows a portion of the Middle East. Points A, B, C, D, and X are locations on Earth\u2019s surface. When it is 10:00 a.m. solar time at location X, at which location is 11:00 a.m. solar time being observed?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D A B X D 45\u00b0 N 40\u00b0 N 35\u00b0 N 30\u00b0 N 25\u00b0 N 20\u00b0 N 15\u00b0 N 10\u00b0 N 25\u00b0 E 30\u00b0 E 35\u00b0 E 40\u00b0 E 45\u00b0 E 50\u00b0 E 55\u00b0 E 60\u00b0 E 65\u00b0 E Africa Arabian Peninsula C Asia"
+      ],
+      "image": "/images/exams/earth-science/august-2013/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The weather map below shows a portion of a low-pressure system. Which front will most likely pass over location A during the next two hours?",
+      "choices": [
+        "warm",
+        "stationary",
+        "occluded",
+        "cold"
+      ],
+      "image": "/images/exams/earth-science/august-2013/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Which pie graph best shows the relative length of time of the major intervals of Earth\u2019s geologic history? Precambrian ( 1 ) Paleozoic Mesozoic Cenozoic ( 3 ) Mesozoic Cenozoic Precambrian Paleozoic Precambrian ( 4 ) Paleozoic Cenozoic Mesozoic Precambrian ( 2 ) Mesozoic Cenozoic Paleozoic N A Lake Ontario Lake Erie L P.S./",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The table below lists some information about the minerals graphite and diamond. Data Table Some properties of diamond are different from those of graphite because diamond",
+      "choices": [
+        "has a different arrangement of atoms",
+        "forms larger crystals",
+        "has a different composition",
+        "is older in geologic age"
+      ],
+      "image": "/images/exams/earth-science/august-2013/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a sample of mineral A. Mineral A is most likely",
+      "choices": [
+        "garnet",
+        "galena",
+        "olivine",
+        "halite"
+      ],
+      "image": "/images/exams/earth-science/august-2013/context_34_35.png",
+      "context": "Base your answers to questions 34 and 35 on the data table below and on your knowledge of Earth science.\nThe table provides information about four minerals, A through D.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which mineral can scratch A, B, and C, but can not scratch D?",
+      "choices": [
+        "talc",
+        "selenite gypsum",
+        "fluorite",
+        "quartz Mineral Composition Depth of Formation Hardness Electrical Conductor graphite carbon shallow 1 good diamond carbon very deep 10 poor Mineral Breakage Hardness Luster Color A cleavage 2.5 metallic silver B cleavage 2.5 nonmetallic black C cleavage 3 nonmetallic colorless D fracture 6.5 nonmetallic green"
+      ],
+      "image": "/images/exams/earth-science/august-2013/context_34_35.png",
+      "context": "Base your answers to questions 34 and 35 on the data table below and on your knowledge of Earth science.\nThe table provides information about four minerals, A through D.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Earth\u2019s warm interglacial intervals are due primarily to",
+      "choices": [
+        "changes in Earth\u2019s period of rotation",
+        "changes in Earth\u2019s orbit and tilt",
+        "increases in elevation of North America",
+        "divergence at the Mid-Atlantic Ridge"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 36 through 38 on the passage below and on your knowledge of Earth \nscience.\nIce Ages\nEarth has undergone many ice ages, each lasting millions of years. Some scientists\ninfer that most ice ages were caused by landmasses blocking the ocean currents\nbetween equatorial regions and the poles. Ice ages usually ended when the positions of\ncontinents allowed ocean currents to resume transporting equatorial heat to the poles.\nDuring each ice age there were advances and retreats of glaciers. These cool glacial\nand warm interglacial climate intervals were caused mostly by changes in Earth\u2019s orbit\nand tilt. Earth is presently in a warm interglacial interval.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Approximately 359 million years ago, the average intensity of insolation received in a year by the land area that is now eastern North America was likely",
+      "choices": [
+        "greater, because eastern North America was at a lower latitude",
+        "greater, because eastern North America was at a higher latitude",
+        "less, because eastern North America was at a lower latitude",
+        "less, because eastern North America was at a higher latitude"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 36 through 38 on the passage below and on your knowledge of Earth \nscience.\nIce Ages\nEarth has undergone many ice ages, each lasting millions of years. Some scientists\ninfer that most ice ages were caused by landmasses blocking the ocean currents\nbetween equatorial regions and the poles. Ice ages usually ended when the positions of\ncontinents allowed ocean currents to resume transporting equatorial heat to the poles.\nDuring each ice age there were advances and retreats of glaciers. These cool glacial\nand warm interglacial climate intervals were caused mostly by changes in Earth\u2019s orbit\nand tilt. Earth is presently in a warm interglacial interval.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Evidence that glaciers covered large areas of New York State is best provided by",
+      "choices": [
+        "long-term temperature measurements",
+        "folded layers of bedrock",
+        "kettle lakes and drumlins",
+        "the presence of streams and rivers"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 36 through 38 on the passage below and on your knowledge of Earth \nscience.\nIce Ages\nEarth has undergone many ice ages, each lasting millions of years. Some scientists\ninfer that most ice ages were caused by landmasses blocking the ocean currents\nbetween equatorial regions and the poles. Ice ages usually ended when the positions of\ncontinents allowed ocean currents to resume transporting equatorial heat to the poles.\nDuring each ice age there were advances and retreats of glaciers. These cool glacial\nand warm interglacial climate intervals were caused mostly by changes in Earth\u2019s orbit\nand tilt. Earth is presently in a warm interglacial interval.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "When a solar eclipse is viewed from Earth, the Moon must be located at orbital position",
+      "choices": [
+        "A",
+        "E",
+        "C",
+        "G"
+      ],
+      "image": "/images/exams/earth-science/august-2013/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the Moon in eight positions, A through H, in its orbit around Earth.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "How many days are required for the Moon to complete a cycle of phases from the new Moon position represented in the diagram to the new Moon the following month?",
+      "choices": [
+        "2.2 d",
+        "27.3 d",
+        "29.5 d",
+        "365.26 d"
+      ],
+      "image": "/images/exams/earth-science/august-2013/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the Moon in eight positions, A through H, in its orbit around Earth.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "written",
+      "text": "Which Moon phase is observed in New York State when the Moon is located at position F? ( 1 ) ( 2 ) ( 3 ) ( 4 ) A (Not drawn to scale) G H B C F Earth E D Moon\u2019s orbit",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the Moon in eight positions, A through H, in its orbit around Earth.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "written",
+      "text": "The arrow on which map best shows the direction of movement of the Juan de Fuca Plate in relation to the Juan de Fuca Ridge?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/q42.png",
+      "context": "Base your answers to questions 42 and 43 on the map below and on your knowledge of Earth science. The\nmap shows the coast of the northwestern United States. The Explorer and Gorda ridges and plates are parts of\nthe Juan de Fuca tectonic system.\nExplorer\nPlate\nCalifornia\nOregon\nWashington\nCanada\nJuan\nde Fuca\nPlate\nGorda\nPlate\nJuan de Fuca Ridge\nPacific\nOcean\nGorda Ridge\nExplorer\nRidge\n50\u00b0 N\n45\u00b0 N\n40\u00b0 N\n132\u00b0 W\n126\u00b0 W\n120\u00b0 W\n0\n100 200 km\n50\u00b0 N\n45\u00b0 N\n40\u00b0 N\n132\u00b0 W\n126\u00b0 W\n120\u00b0 W\nP.S./E. Sci.\u2013Aug. \u201913\n[12]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The Explorer Ridge is the boundary between the Explorer Plate and the",
+      "choices": [
+        "North American Plate",
+        "Pacific Plate",
+        "Juan de Fuca Plate",
+        "Gorda Plate Juan de Fuca Ridge Gorda Ridge Juan de Fuca Ridge Gorda Ridge Juan de Fuca Ridge Gorda Ridge Juan de Fuca Ridge Gorda Ridge ( 1 ) ( 2 ) ( 3 ) ( 4 )"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 42 and 43 on the map below and on your knowledge of Earth science. The\nmap shows the coast of the northwestern United States. The Explorer and Gorda ridges and plates are parts of\nthe Juan de Fuca tectonic system.\nExplorer\nPlate\nCalifornia\nOregon\nWashington\nCanada\nJuan\nde Fuca\nPlate\nGorda\nPlate\nJuan de Fuca Ridge\nPacific\nOcean\nGorda Ridge\nExplorer\nRidge\n50\u00b0 N\n45\u00b0 N\n40\u00b0 N\n132\u00b0 W\n126\u00b0 W\n120\u00b0 W\n0\n100 200 km\n50\u00b0 N\n45\u00b0 N\n40\u00b0 N\n132\u00b0 W\n126\u00b0 W\n120\u00b0 W\nP.S./E. Sci.\u2013Aug. \u201913\n[12]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which rock unit was formed most recently?",
+      "choices": [
+        "A",
+        "F",
+        "L",
+        "M"
+      ],
+      "image": "/images/exams/earth-science/august-2013/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the cross section below and on your knowledge of Earth\nscience. The cross section represents rock units that have not been overturned. Lines CC\u0003 and GG\u0003 represent\nunconformities. The geologic ages of some of the lettered rock units are shown below the cross section.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Why is there no contact metamorphism indicated between rock unit L and rock unit F?",
+      "choices": [
+        "Conglomerate does not metamorphose.",
+        "The intrusion was not hot enough to metamorphose rock unit F.",
+        "The contact metamorphism within rock unit F eroded away.",
+        "Rock unit F was deposited after the intrusion of rock unit L."
+      ],
+      "image": "/images/exams/earth-science/august-2013/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the cross section below and on your knowledge of Earth\nscience. The cross section represents rock units that have not been overturned. Lines CC\u0003 and GG\u0003 represent\nunconformities. The geologic ages of some of the lettered rock units are shown below the cross section.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "The diagrams below represent three index fossils found in one of the rock units. These fossils are most likely found in",
+      "choices": [
+        "rock unit I",
+        "rock unit J",
+        "rock unit K",
+        "rock unit M G' C' G C Rock Unit Geologic Age B = Cretaceous Period E = Permian Period J = Silurian Period M = Cambrian Period Key Igneous intrusion Contact metamorphism A B D M L I H F K J E P.S./"
+      ],
+      "image": "/images/exams/earth-science/august-2013/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the cross section below and on your knowledge of Earth\nscience. The cross section represents rock units that have not been overturned. Lines CC\u0003 and GG\u0003 represent\nunconformities. The geologic ages of some of the lettered rock units are shown below the cross section.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which inference about rock units D, E, and H can best be supported by evidence in the cross section?",
+      "choices": [
+        "They contain mostly sand-sized sediment.",
+        "They contain both land and marine fossils.",
+        "They were altered by contact metamorphism.",
+        "They were deposited as horizontal layers and were later tilted."
+      ],
+      "image": "/images/exams/earth-science/august-2013/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the cross section below and on your knowledge of Earth\nscience. The cross section represents rock units that have not been overturned. Lines CC\u0003 and GG\u0003 represent\nunconformities. The geologic ages of some of the lettered rock units are shown below the cross section.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "The greatest duration of insolation in Jamestown occurs when the Sun appears to travel along path",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/august-2013/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the diagram below and on your knowledge of Earth \nscience. The diagram represents four apparent paths of the Sun, labeled A, B, C, and D, observed in Jamestown,\nNew York. The June 21 and December 21 sunrise and sunset positions are indicated. Letter S identifies the\nSun\u2019s position on path C at a specific time of day. Compass directions are indicated along the horizon.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "At what time of day is the Sun at position S?",
+      "choices": [
+        "6 a.m.",
+        "9 a.m.",
+        "3 p.m.",
+        "6 p.m."
+      ],
+      "image": "/images/exams/earth-science/august-2013/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the diagram below and on your knowledge of Earth \nscience. The diagram represents four apparent paths of the Sun, labeled A, B, C, and D, observed in Jamestown,\nNew York. The June 21 and December 21 sunrise and sunset positions are indicated. Letter S identifies the\nSun\u2019s position on path C at a specific time of day. Compass directions are indicated along the horizon.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "When the Sun appears to travel along path D at Jamestown, which latitude on Earth receives the most direct rays from the Sun?",
+      "choices": [
+        "42\u00b0 N",
+        "23.5\u00b0 N",
+        "0\u00b0",
+        "23.5\u00b0 S The Sun\u2019s Changing Position Sunrise Jamestown, NY NE Due East SE Due South SW Due West NW noon Sunset Solar S P at h A (J un e 2 1) P a t h D ( D e c 2 1 ) Path B Path C"
+      ],
+      "image": "/images/exams/earth-science/august-2013/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the diagram below and on your knowledge of Earth \nscience. The diagram represents four apparent paths of the Sun, labeled A, B, C, and D, observed in Jamestown,\nNew York. The June 21 and December 21 sunrise and sunset positions are indicated. Letter S identifies the\nSun\u2019s position on path C at a specific time of day. Compass directions are indicated along the horizon.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "On the grid in your answer booklet, draw a profile of the bottom of western Lake Ontario by plotting the depth of the water along line AB. Plot each point where an isoline showing depth is crossed by line AB. Connect the plots with a line, starting at A and ending at B, to complete the profile.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the field map below and on your knowledge of Earth \nscience. The map shows the depth of Lake Ontario. Isoline values indicate water depth, in feet. Points A, B, and\nC represent locations on the shoreline of Lake Ontario. Points D and E represent locations on the bottom of the\nlake.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Calculate the gradient of the lake bottom between point C and point D. Label your answer with the correct units.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the field map below and on your knowledge of Earth \nscience. The map shows the depth of Lake Ontario. Isoline values indicate water depth, in feet. Points A, B, and\nC represent locations on the shoreline of Lake Ontario. Points D and E represent locations on the bottom of the\nlake.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "What is a possible depth of the water at location E?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the field map below and on your knowledge of Earth \nscience. The map shows the depth of Lake Ontario. Isoline values indicate water depth, in feet. Points A, B, and\nC represent locations on the shoreline of Lake Ontario. Points D and E represent locations on the bottom of the\nlake.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "What evidence shown on the map indicates that the southern section of the bottom of Lake Ontario has the steepest slope? Canada New York State Water Depth of Lake Ontario",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the field map below and on your knowledge of Earth \nscience. The map shows the depth of Lake Ontario. Isoline values indicate water depth, in feet. Points A, B, and\nC represent locations on the shoreline of Lake Ontario. Points D and E represent locations on the bottom of the\nlake.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Draw the fossil symbol that represents the best index fossil. Describe one piece of evidence shown in the outcrops that indicates that this fossil has characteristics of a good index fossil.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the cross sections below and on your knowledge of Earth\nscience. The cross sections represent three bedrock outcrops, 1, 2, and 3, found several kilometers apart. \nThe geologic time period when each sedimentary rock layer formed is shown. The symbols (\n, \n, , \n, and \n)\nrepresent fossils of different types of organisms present in the rock layers.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Write the outcrop number of the cross section that could be found in New York State. Describe the evidence that supports your answer.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the cross sections below and on your knowledge of Earth\nscience. The cross sections represent three bedrock outcrops, 1, 2, and 3, found several kilometers apart. \nThe geologic time period when each sedimentary rock layer formed is shown. The symbols (\n, \n, , \n, and \n)\nrepresent fossils of different types of organisms present in the rock layers.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Explain why the geologic age of these rock layers could not be accurately dated using carbon-14.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the cross sections below and on your knowledge of Earth\nscience. The cross sections represent three bedrock outcrops, 1, 2, and 3, found several kilometers apart. \nThe geologic time period when each sedimentary rock layer formed is shown. The symbols (\n, \n, , \n, and \n)\nrepresent fossils of different types of organisms present in the rock layers.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Explain why the index fossil Coelophysis is not preserved in any of the rock outcrops. X Outcrop 1 Outcrop 2 Outcrop 3 X X X X Permian Pennsylvanian Mississippian Devonian Silurian Ordovician Cambrian Devonian Permian Pennsylvanian Silurian Devonian X",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the cross sections below and on your knowledge of Earth\nscience. The cross sections represent three bedrock outcrops, 1, 2, and 3, found several kilometers apart. \nThe geologic time period when each sedimentary rock layer formed is shown. The symbols (\n, \n, , \n, and \n)\nrepresent fossils of different types of organisms present in the rock layers.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Describe one piece of evidence likely to be found on the exposed bedrock surfaces that could indicate the direction this glacier moved.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_59_62.png",
+      "context": "Base your answers to questions 59 through 62 on the map below and on your knowledge of Earth science.\nThe map shows a retreating valley glacier and the features that have formed because of the advance and retreat\nof the glacier.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Describe one difference between the arrangement of sediment in the moraines and the arrangement of sediment in the outwash plain.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_59_62.png",
+      "context": "Base your answers to questions 59 through 62 on the map below and on your knowledge of Earth science.\nThe map shows a retreating valley glacier and the features that have formed because of the advance and retreat\nof the glacier.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Describe the most likely shape of the valley being formed due to erosion by this glacier.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_59_62.png",
+      "context": "Base your answers to questions 59 through 62 on the map below and on your knowledge of Earth science.\nThe map shows a retreating valley glacier and the features that have formed because of the advance and retreat\nof the glacier.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Explain why the glacial ice absorbs less solar radiation than the surrounding exposed bedrock and soil. Lake Outwash plain Soils w it h s o me e x p osed b e d r o c k I c e f r o n t N Moraine Moraine Glacier I c e f r o nt",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_59_62.png",
+      "context": "Base your answers to questions 59 through 62 on the map below and on your knowledge of Earth science.\nThe map shows a retreating valley glacier and the features that have formed because of the advance and retreat\nof the glacier.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify one water cycle process represented by arrow A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the model below and on your knowledge of Earth science.\nThe model shows the movement of water in the water cycle. Arrow A represents a process within the water\ncycle.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "How many joules of heat energy are required to evaporate 2 grams of water from the lake surface?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the model below and on your knowledge of Earth science.\nThe model shows the movement of water in the water cycle. Arrow A represents a process within the water\ncycle.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "A portion of the land surface shown was recently paved with asphalt and concrete. Describe the change in the amount of runoff and infiltration that will occur. Ocean Infiltration Lake Runoff Evaporation Evaporation A",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the model below and on your knowledge of Earth science.\nThe model shows the movement of water in the water cycle. Arrow A represents a process within the water\ncycle.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a bar graph to represent the average surface temperature for each planet.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the table below and on your knowledge of Earth science.\nThe table lists the average surface temperature, in kelvins, and the average orbital velocity, in kilometers per\nsecond, of each planet of our solar system.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Approximately 97% of Venus\u2019s atmosphere is carbon dioxide. Describe how carbon dioxide contributes to the unusually high average surface temperature of Venus.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the table below and on your knowledge of Earth science.\nThe table lists the average surface temperature, in kelvins, and the average orbital velocity, in kilometers per\nsecond, of each planet of our solar system.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Use the set of axes in your answer booklet to draw a line that represents the general relationship between the mean distances of planets from the Sun and the average orbital velocities of the planets.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the table below and on your knowledge of Earth science.\nThe table lists the average surface temperature, in kelvins, and the average orbital velocity, in kilometers per\nsecond, of each planet of our solar system.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "The orbital velocity of Earth is sometimes faster and sometimes slower than its average orbital velocity. Explain why the orbital velocity of Earth varies in a cyclic pattern. Planet Average Surface Temperature (K) Average Orbital Velocity (km/s) Mercury 440 47.87 Venus 737 35.00 Earth 288 29.78 Mars 208 24.13 Jupiter 163 13.07 Saturn 133 9.69 Uranus 78 6.81 Neptune 73 5.43",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the table below and on your knowledge of Earth science.\nThe table lists the average surface temperature, in kelvins, and the average orbital velocity, in kilometers per\nsecond, of each planet of our solar system.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw the isotherm for 0\u00b0F. Extend each end of the isotherm to the edge of the map.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the weather map in your answer booklet and on your\nknowledge of Earth science. The map shows air temperatures (in \u00b0F) at locations in the northeastern United\nStates and part of Canada. Syracuse, New York, is labeled. Line AB represents a stationary frontal boundary.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Convert the air temperature at Syracuse from degrees Fahrenheit to degrees Celsius.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the weather map in your answer booklet and on your\nknowledge of Earth science. The map shows air temperatures (in \u00b0F) at locations in the northeastern United\nStates and part of Canada. Syracuse, New York, is labeled. Line AB represents a stationary frontal boundary.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Write the two-letter weather map symbol for the type of air mass that is most likely located north of frontal boundary AB.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the weather map in your answer booklet and on your\nknowledge of Earth science. The map shows air temperatures (in \u00b0F) at locations in the northeastern United\nStates and part of Canada. Syracuse, New York, is labeled. Line AB represents a stationary frontal boundary.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Explain why locations near the Atlantic Ocean have air temperatures that are warmer than locations farther inland.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/q73.png",
+      "context": "Base your answers to questions 70 through 73 on the weather map in your answer booklet and on your\nknowledge of Earth science. The map shows air temperatures (in \u00b0F) at locations in the northeastern United\nStates and part of Canada. Syracuse, New York, is labeled. Line AB represents a stationary frontal boundary.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Describe the evidence, shown in the sky model, which indicates that the observer is not located at the North Pole.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_74_76.png",
+      "context": "Base your answers to questions 74 through 76 on the sky model below and on your knowledge of Earth \nscience. The model shows the Sun\u2019s apparent path through the sky as seen by an observer in the Northern\nHemisphere on June 21.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "The diagram in your answer booklet represents the position of Earth in its orbit on March 21. Place an X on Earth\u2019s orbit to represent Earth\u2019s orbital position when the apparent path of the Sun in the sky model was observed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_74_76.png",
+      "context": "Base your answers to questions 74 through 76 on the sky model below and on your knowledge of Earth \nscience. The model shows the Sun\u2019s apparent path through the sky as seen by an observer in the Northern\nHemisphere on June 21.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Identify the cause of the apparent daily motion of the Sun through the sky. South North East West Sky Model Noon Sun Polaris *",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_74_76.png",
+      "context": "Base your answers to questions 74 through 76 on the sky model below and on your knowledge of Earth \nscience. The model shows the Sun\u2019s apparent path through the sky as seen by an observer in the Northern\nHemisphere on June 21.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Two rocks, scoria and basalt, have formed from the cooled lava that erupted from Nyiragongo. Describe the texture of each rock.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 79 on the passage below and on your knowledge of Earth \nscience. The passage describes unusual lava from a volcano in Africa.\nUnusual Volcano\nNyiragongo, located at 2\u00b0 S 29\u00b0 E, is an active African volcano. It has the most fluid\nlava on Earth. The lava has a composition unlike any other lava in the world. The rare\nisotopes found in the lava are similar to those found in ancient asteroids. This fact leads\nscientists to infer that the lava may be as old as our solar system and that it comes from\ndeep inside the mantle near Earth\u2019s outer core. Nyiragongo is one volcano in a ring of\nmany volcanoes surrounding an area that is domed upward nearly a mile above sea\nlevel, causing scientists to infer that a new mantle hot spot is forming there.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Identify the type of tectonic plate boundary found in the vicinity of Nyiragongo.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 79 on the passage below and on your knowledge of Earth \nscience. The passage describes unusual lava from a volcano in Africa.\nUnusual Volcano\nNyiragongo, located at 2\u00b0 S 29\u00b0 E, is an active African volcano. It has the most fluid\nlava on Earth. The lava has a composition unlike any other lava in the world. The rare\nisotopes found in the lava are similar to those found in ancient asteroids. This fact leads\nscientists to infer that the lava may be as old as our solar system and that it comes from\ndeep inside the mantle near Earth\u2019s outer core. Nyiragongo is one volcano in a ring of\nmany volcanoes surrounding an area that is domed upward nearly a mile above sea\nlevel, causing scientists to infer that a new mantle hot spot is forming there.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify two other locations on Earth, not on a plate boundary, where mantle rock is rising to Earth\u2019s surface.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/q79.png",
+      "context": "Base your answers to questions 77 through 79 on the passage below and on your knowledge of Earth \nscience. The passage describes unusual lava from a volcano in Africa.\nUnusual Volcano\nNyiragongo, located at 2\u00b0 S 29\u00b0 E, is an active African volcano. It has the most fluid\nlava on Earth. The lava has a composition unlike any other lava in the world. The rare\nisotopes found in the lava are similar to those found in ancient asteroids. This fact leads\nscientists to infer that the lava may be as old as our solar system and that it comes from\ndeep inside the mantle near Earth\u2019s outer core. Nyiragongo is one volcano in a ring of\nmany volcanoes surrounding an area that is domed upward nearly a mile above sea\nlevel, causing scientists to infer that a new mantle hot spot is forming there.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Formation A consists of three thin sandstone layers interbedded with shale layers. Hornfels and quartzite are found at the top of formation A. Describe how the hornfels and quartzite formed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the cross section below and on your knowledge of Earth\nscience. The cross section represents rock formations that exist in the southwestern part of the United States.\nNames of the faults and rock units are indicated on the diagram.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Explain why the Two Peaks sandstone is not a continuous layer.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the cross section below and on your knowledge of Earth\nscience. The cross section represents rock formations that exist in the southwestern part of the United States.\nNames of the faults and rock units are indicated on the diagram.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "List three minerals that are likely present in the Precambrian granite rock. Green ville f orm ati o n Rhyolite lava flow Valle y sh ale Roun d Hi ll lime st one Two Pea ks sa nd st o n e Precambrian granite Two P ea ks South fault Steep Cliff fault sandstone Ro un d Hi ll li m e st on e Two Pe aks sand sto ne Formation A Hog bac k sa nd st on e",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the cross section below and on your knowledge of Earth\nscience. The cross section represents rock formations that exist in the southwestern part of the United States.\nNames of the faults and rock units are indicated on the diagram.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "In your answer booklet, fill in the correct information for each weather variable listed for this station model.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the weather station model below and on your knowledge of\nEarth science. The model shows atmospheric conditions at Oswego, New York.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Explain how the data on the station model indicate a high relative humidity.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the weather station model below and on your knowledge of\nEarth science. The model shows atmospheric conditions at Oswego, New York.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Convert the coded air pressure shown on the station model into the actual millibars of air pressure. 995 31 29 P.S./ P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2013/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the weather station model below and on your knowledge of\nEarth science. The model shows atmospheric conditions at Oswego, New York.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

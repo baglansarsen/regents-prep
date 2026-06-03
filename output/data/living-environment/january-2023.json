@@ -1,0 +1,1106 @@
+{
+  "subject": "living-environment",
+  "session": "january-2023",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The removal of mitochondria from a typical animal cell would have an immediate effect on the cell\u2019s production of",
+      "choices": [
+        "DNA",
+        "oxygen",
+        "ATP",
+        "glucose"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which factor would be an abiotic limiting factor for fi sh living in a lake in New York State?",
+      "choices": [
+        "amount of algae",
+        "number of humans fi shing",
+        "number of fi sh predators",
+        "acidity of the water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "A native species is competing for resources with a nonnative species that was accidentally introduced into the area. The nonnative species is more likely to survive than the native species when",
+      "choices": [
+        "both species eat the same food",
+        "predators prey on both species",
+        "the native species is immune to a particular pathogen present in the ecosystem",
+        "the nonnative species has no natural enemies present in the ecosystem"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Evidence suggests that a large meteorite hit Earth 65 million years ago, causing a layer of dust to block the Sun, cooling the planet. It is estimated that 70% of all plant and animal species, including the dinosaurs, died off as a result. The best explanation for the deaths of these organisms is that",
+      "choices": [
+        "consumers require sunlight to make sugars in order to survive",
+        "the amount of energy available to the biosphere was decreased",
+        "energy is produced only by plants",
+        "all animals eat plants for energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "DNA is formed using four kinds of base subunits. In a double-stranded segment of DNA, the percentage of the base C is 18%. What is the approximate percentage of base T?",
+      "choices": [
+        "18%",
+        "32%",
+        "36%",
+        "64%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Students were studying the different species of organisms in two different pond ecosystems. Their fi ndings are summarized in the chart below. Species Present in Two Pond Ecosystems Plant Species Microorganism Species Pond A 10 20 Pond B 11 5 Based on the information in the chart, how does the biodiversity present in pond A compare to the biodiversity present in pond B?",
+      "choices": [
+        "Pond A has greater biodiversity than pond B because there are more species present.",
+        "Pond B has more biodiversity than pond A because there are more plants present.",
+        "Both ponds have the same levels of biodiversity because there is a variety of species present.",
+        "The biodiversity cannot be determined without also identifying the abiotic factors present."
+      ],
+      "image": "/images/exams/living-environment/january-2023/q6.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "When a person receives a transplanted organ, many medications are necessary to keep the organ from being rejected. The process of organ rejection is similar to the one involved in",
+      "choices": [
+        "the growth of cancerous tissue",
+        "an allergic reaction",
+        "a genetic mutation",
+        "the production of an antigen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Hydrilla, a plant native to Central Africa, was widely used in home aquaria. Hydrilla was often dumped with aquarium water into drains, sewers, or ponds. It then thrived and has become an invasive species, disrupting aquatic ecosystems from Florida through the northeast United States. Removing Hydrilla from these ecosystems will most likely require either physically removing it or adding chemicals to the affected waters to kill it. Source: South Carolina Department of Natural Resources The result of the introduction of Hydrilla into native ecosystems in the United States has shown that",
+      "choices": [
+        "chemical controls will now be necessary to maintain every stable ecosystem",
+        "Hydrilla will not continue to expand beyond one year because it is not native to the United States",
+        "organisms in ecosystems of the United States can eventually build up an immunity to Hydrilla",
+        "when humans alter ecosystems by adding specifi c organisms, serious consequences can result"
+      ],
+      "image": "/images/exams/living-environment/january-2023/q8.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "One result of the ability of organisms to detect and appropriately respond to stimuli is",
+      "choices": [
+        "an organ malfunction",
+        "an allergic reaction",
+        "dynamic equilibrium",
+        "gene manipulation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The tube-lipped nectar bat, found in Madidi National Park in Ecuador, has the longest tongue in relation to its size of any mammal. Its 8.5 cm tongue can reach into the deepest fl owers. Source: http://www.wild-facts.com/ 2013 It is likely that the population of these bats with exceptionally long tongues will increase in the Madidi National Park ecosystem if",
+      "choices": [
+        "the population of plants with very deep fl owers suffers a sharp decrease in number",
+        "the gene for the long tongue trait cannot get passed on to future generations of nectar bats",
+        "other mammal species with long tongues move into the area and increase competition",
+        "the tongue variation provides the species with an advantage in surviving and reproducing"
+      ],
+      "image": "/images/exams/living-environment/january-2023/q10.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Some organisms have variations. Two sources of these variations are",
+      "choices": [
+        "mitotic and meiotic cell division",
+        "mutations and recombination",
+        "cloning and sexual reproduction",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "In order to prepare for a future outbreak of Ebola, a harmful virus, two vaccines were tested. In order for either of these vaccines to be effective, they must",
+      "choices": [
+        "cause the immune system to produce special proteins that will recognize and destroy the virus",
+        "be able to destroy the DNA code that produces white blood cells that can carry the virus",
+        "stimulate the human body to produce antigens that can attach to and destroy the Ebola virus",
+        "produce bacterial cells that can attack the Ebola virus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The population of reindeer has been decreasing over the last 20 years in the Arctic because climate change has led to more rainfall there. The rain freezes on top of the snow, preventing the reindeer from getting through the snow to fi nd food. Which action by humans has most likely contributed to climate change?",
+      "choices": [
+        "recycling materials",
+        "protecting wildlife",
+        "maintaining the ozone shield",
+        "burning fossil fuels"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which statement about the functioning of the human reproductive system is correct?",
+      "choices": [
+        "The zygote helps the mother provide milk to the fetus before it is born.",
+        "Testes produce unfertilized eggs and release them so that they can be fertilized by sperm.",
+        "Ovaries are where male gametes under- go meiosis to reduce their chromosome number.",
+        "The uterus is where the fetus develops internally until birth."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "A Christmas tree farmer cuts down a native forest to plant Frasier fi r trees. Compared to the original forest, the newly planted Christmas tree farm will most likely be",
+      "choices": [
+        "more stable and more diverse",
+        "more stable and less diverse",
+        "less stable and more diverse",
+        "less stable and less diverse"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "A major environmental concern in urban areas is pollution produced by automobiles. Fluids, such as oil and gasoline, may leak out of vehicles and end up in lakes, streams, and rivers. One reason why scientists are concerned about this type of pollution is that",
+      "choices": [
+        "the presence of these fl uids in waterways could make them uninhabitable for aquatic organisms and reduce water supplies for humans",
+        "the addition of these fl uids will cause an increase in the levels of lakes and rivers, possibly causing fl ooding in nearby areas",
+        "these fl uids increase the rate of photosynthesis in aquatic plants, reducing the amount of O2 available for other life forms",
+        "the addition of these chemicals to waterways reduces air quality, which would lead to increased respiratory diseases and global warming"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "When a plant is in a hot and dry environment, the guard cells may close the stomate openings in the leaves. This action will directly",
+      "choices": [
+        "maintain homeostasis by reducing the evaporation of water",
+        "harm the plant by cutting off its oxygen supply",
+        "maintain homeostasis by preventing carbon dioxide from entering",
+        "harm the plant by cutting off its energy supply"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Destruction of ocean habitats by pollution today means that the organisms living there may not survive in the future. By polluting the oceans, humans are",
+      "choices": [
+        "helping advance economic gains by using resources wisely",
+        "altering the equilibrium of ocean ecosystems",
+        "decreasing the rate of species extinction",
+        "increasing the stability of the oceans"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Each of the cells present in a woman contains a complete set of chromosomes. The only exceptions are her",
+      "choices": [
+        "skin cells",
+        "egg cells",
+        "nerve cells",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The diagram below represents two processes that occur in some living organisms. X + Carbon dioxide + Water High-energy sugars Oxygen + Process A Process B Carbon dioxide + Water + ATP X most likely represents",
+      "choices": [
+        "the nucleus",
+        "the mitochondrion",
+        "sunlight",
+        "carbohydrates"
+      ],
+      "image": "/images/exams/living-environment/january-2023/q20.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which row in the chart below contains the correct sequence of events involved in the formation of a human embryo? Row Sequence of Events",
+      "choices": [
+        "meiosis, differentiation, fertilization, mitosis",
+        "differentiation, meiosis, mitosis, fertilization",
+        "fertilization, mitosis, meiosis, differentiation",
+        "meiosis, fertilization, mitosis, differentiation"
+      ],
+      "image": "/images/exams/living-environment/january-2023/q21.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Helicobacter pylori (H. pylori) is the bacterium responsible for most ulcers and many cases of stomach infl ammation. An antibiotic has been found to kill these bacteria. It works because H. pylori makes a particular enzyme that happens to react with the antibiotic and makes it poisonous to the bacterium. The sequences in the diagram below show the effects of antibiotic treatment on two strains of H. pylori, one of which does not produce the enzyme. H. pylori Normal (produces enzyme) Mutant (produces NO enzyme) Survives Dies Antibiotic applied Continues to reproduce and produces offspring that resist antibiotics used to treat it Source: Adapted from https://econjsun.files.wordpress.com/2011/11/h-pylori.jpg The overall series of events best illustrates the process of",
+      "choices": [
+        "H. pylori control by the stomach",
+        "DNA replication in bacterial cells",
+        "mutation of the antibiotic used in the treatment",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2023/q22.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The illustrations below are of an organism called Archeopteryx, which lived approximately 150 million years ago. Archeopteryx had teeth and claws like a dinosaur and wings with feathers like a bird. Source: http://www.dinosaurusi.com/en/post/252/ flying-dinosaur-pictures---archeopteryx/ Source: The Guardian (online) Archeopteryx Such fossils allow scientists to conclude that",
+      "choices": [
+        "dinosaurs and birds all ate the same foods",
+        "sexual reproduction in birds resulted in dinosaurs",
+        "dinosaurs and birds share a common ancestor",
+        "dinosaurs and birds belong to the same species"
+      ],
+      "image": "/images/exams/living-environment/january-2023/q23.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Infestation with bedbugs is a serious health problem, and scientists seeking to control bedbug reproduction are constantly researching new options. It has now been shown that freezing any articles of clothing or bedding containing bedbugs at a temperature below \u201315\u00b0C for 3.5 days will kill all of the bedbugs and their eggs. Source: Science Daily 12/8/13 Using the technique of freezing is preferable to using chemical insecticides because a major disadvantage of using chemical pesticides is that they",
+      "choices": [
+        "are highly toxic to the bedbugs, but not toxic to other organisms",
+        "could remain in the clothing or bedding and harm humans later",
+        "are made of molecules so the bedbugs will not develop resistance to them",
+        "could be useful for medical research and should not be wasted on bedbugs"
+      ],
+      "image": "/images/exams/living-environment/january-2023/q24.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Human society has become increasingly dependent on industry and technology. While this has had many benefi ts, it also has had the disadvantage of",
+      "choices": [
+        "reducing the amount of food that can be produced by one acre of farmland",
+        "lowering the level of carbon dioxide available for plants to use for photosynthesis",
+        "raising the number of producers worldwide to dangerous levels",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Within a specifi c kind of tissue, there are different types of cells. In bone tissue, there are four different cell types, as shown below. Osteocyte (maintains bone tissue) Osteoblast (forms bone matrix) Osteogenic cell (stem cell) Osteoclast (resorbs bone) Source: https://www.boundless.com/biology/textbooks/boundless- biology-textbook/the-musculoskeletal-system-38/bone-21 6/cell-types-in-bones-816-12058/ Since the four types of cells contain the same genetic instructions, how is it possible for them to have different shapes and carry out different functions?",
+      "choices": [
+        "Each cell type has the ability to remove unnecessary DNA sequences.",
+        "Different parts of the genetic code may be used in each of the cell types.",
+        "Different gene mutations take place within each cell type.",
+        "Each cell type is the result of different methods of cell division."
+      ],
+      "image": "/images/exams/living-environment/january-2023/q26.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The series of fossil snail shells below represents 10 samples that were collected from deposits laid down from 10 million years ago to 3 million years ago. The shells are arranged in order by age. The shells shown represent how they looked at various times over a 7-million-year period. Oldest Youngest Source: Life,The Science of Biology, Second Ed., Purves and Orians, Sinauer Associates 1987 It would be most accurate to conclude that the snails of this species",
+      "choices": [
+        "changed in size due to environmental changes that affected the survival of different-sized snails",
+        "grew smaller, then larger over time as the environment changed from a wetter to a drier climate",
+        "changed in size at different times, because they needed better protection from predators",
+        "grew larger because, as organisms evolve,"
+      ],
+      "image": "/images/exams/living-environment/january-2023/q27.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "When a person is threatened, the pituitary gland releases a hormone that stimulates the adrenal glands to release stress hormones. These stress hormones can cause a temporary increase in heart rate. This is an example of",
+      "choices": [
+        "an enzyme interaction",
+        "a feedback mechanism",
+        "an immune-system response",
+        "an allergic reaction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "A plant commonly referred to as \u201cMother of Thousands\u201d has lost its ability to produce seeds. In order to reproduce, the edges of the plant\u2019s leaves asexually develop miniature plants that drop off and grow into mature plants. Source: http://www.guide-to-houseplants.com/ mother-of-thousands.html The cells of the offspring would have",
+      "choices": [
+        "half the genetic information, when compared to cells of the parent plant\u2019s leaves",
+        "the same genetic information, when compared to cells of the parent plant",
+        "twice as much genetic information as is present in the cells of the parent plant",
+        "incomplete genetic information, because the parent plant does not produce seeds"
+      ],
+      "image": "/images/exams/living-environment/january-2023/q29.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The diagram below represents part of a biological process that begins with a chromosome containing a specifi c human gene being removed from a human cell. Human cell Human chromosome Specific gene Source: Adapted from Biology, Ninth Ed. Sylvia Mader. McGraw-Hill, Higher Education, Boston, 2007, p.268 The overall process is important because it",
+      "choices": [
+        "may be used to make human DNA identical to that of other organisms",
+        "helps scientists understand how amino acids are grouped together to form a genetic code",
+        "results in the production of carbohydrates that cannot mutate and cause disease",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2023/q30.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "What is the most likely reason for the variation in the dissolved oxygen levels in the pond over the 24-hour period?",
+      "choices": [
+        "The increased light during the day decreases the oxygen produced by photosynthesis.",
+        "Photosynthesis produces more oxygen during the day than is used by respiration.",
+        "Respiration is reduced at night, so the oxygen produced by photosynthesis increases.",
+        "More producers are active at night, so the dissolved oxygen increases."
+      ],
+      "image": "/images/exams/living-environment/january-2023/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the information and graph below and on your knowledge of \nbiology. The graph below shows changes in dissolved oxygen in a pond in the summertime over a 24-hour period.\n12\n2\n4\n6\n8\n10\n12\n2\n4 \n6\n8\n10\n12\nTime of Day\nDissolved Oxygen Level in a Pond\nDissolved Oxygen (mg/L)\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\nDark\nLight\nDark",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "A large population of fi sh was introduced into the pond. During which part of the day would these fi sh affect the dissolved oxygen level in the pond?",
+      "choices": [
+        "both day and night, because respiration is occurring all the time in plants and animals",
+        "nighttime, because no respiration is occurring",
+        "daytime, because that is when plants are most active",
+        "neither day nor night, because only plants produce oxygen"
+      ],
+      "image": "/images/exams/living-environment/january-2023/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the information and graph below and on your knowledge of \nbiology. The graph below shows changes in dissolved oxygen in a pond in the summertime over a 24-hour period.\n12\n2\n4\n6\n8\n10\n12\n2\n4 \n6\n8\n10\n12\nTime of Day\nDissolved Oxygen Level in a Pond\nDissolved Oxygen (mg/L)\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\nDark\nLight\nDark",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "An enzyme that rapidly breaks down a protein molecule in the stomach may break down that same protein much more slowly in the small intestine or mouth because",
+      "choices": [
+        "the enzyme is digested in those locations",
+        "no protein molecules are located in the small intestine or the mouth",
+        "the enzyme changes to fi t different molecules in different locations",
+        "the stomach may have a more suitable environment for the enzyme to work"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "A graph of population changes of two animal species over time is shown below. Population A: Population B: Population Changes Time Relative Population Key Using the information on the graph, what is the most likely relationship between these two populations?",
+      "choices": [
+        "predator/prey",
+        "parasite/host",
+        "consumer/decomposer",
+        "pathogen/host"
+      ],
+      "image": "/images/exams/living-environment/january-2023/q34.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The best explanation for the decrease in the amount of energy available as one moves up the pyramid is that",
+      "choices": [
+        "producers require more energy than consumers to survive",
+        "decomposers recycle nutrients at each level",
+        "much of the energy at each level is lost as heat",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2023/context_35_35.png",
+      "context": "Base your answer to question 35 on the information and diagram below and on your knowledge of biology. \nThe diagram represents the energy relationships in a forest ecosystem.\n0.1%\n1%\n10%\nSource: Adapted from http://www.sky-\nhunters.org/Presentations.html",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Researchers have shown that environmental factors, such as exposure to toxins, can bring about epigenetic effects. This research suggests that an organism\u2019s traits",
+      "choices": [
+        "are always determined by its DNA sequences",
+        "are only determined by environmental effects",
+        "can be infl uenced by environmental factors",
+        "alter half of the DNA they inherited from their parents"
+      ],
+      "image": "/images/exams/living-environment/january-2023/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the information and diagram below and on your knowledge of \nbiology.\nEpigenetics\nThe fi eld of epigenetics is the study of changes in gene expression due to factors other \nthan a change in the DNA sequence. One factor that can change gene expression is the \nattachment of a chemical, called a methyl group, to the DNA molecule. This attachment \nprevents that gene from being expressed, thereby altering that trait. Due to epigenetic \neffects, even identical twins may not be as identical as was once thought. The diagram below \nshows the DNA sequence of a gene present in a pair of identical twins. Twin B\u2019s gene shows \nan epigenetic effect.\nTransfer to site of\nprotein synthesis\nTwin A\nA\nT\nG\nC\nT\nA\nmRNA\nmade\nDNA\nNucleus\nC\nTwin B\nA\nT\nG\nC\nT\nA\nDNA\nNucleus\nC\nNo\nmRNA\nmade\nNo transfer to site of\nprotein synthesis\n= Methyl groups",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Based on the diagram, an explanation for why these identical twins are not identical in all traits is that",
+      "choices": [
+        "twin A can synthesize a protein resulting in a particular trait and twin B cannot",
+        "twin B can express a gene that twin A cannot",
+        "they have different DNA sequences for this particular gene",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2023/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the information and diagram below and on your knowledge of \nbiology.\nEpigenetics\nThe fi eld of epigenetics is the study of changes in gene expression due to factors other \nthan a change in the DNA sequence. One factor that can change gene expression is the \nattachment of a chemical, called a methyl group, to the DNA molecule. This attachment \nprevents that gene from being expressed, thereby altering that trait. Due to epigenetic \neffects, even identical twins may not be as identical as was once thought. The diagram below \nshows the DNA sequence of a gene present in a pair of identical twins. Twin B\u2019s gene shows \nan epigenetic effect.\nTransfer to site of\nprotein synthesis\nTwin A\nA\nT\nG\nC\nT\nA\nmRNA\nmade\nDNA\nNucleus\nC\nTwin B\nA\nT\nG\nC\nT\nA\nDNA\nNucleus\nC\nNo\nmRNA\nmade\nNo transfer to site of\nprotein synthesis\n= Methyl groups",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which statement represents an explanation for why it is necessary to remove the nucleus from the egg cell used during the cloning process?",
+      "choices": [
+        "If the egg cell nucleus remains in the cell, then there will be three copies of all cat chromosomes in the cloned cat.",
+        "If the egg cell nucleus is not removed, it will be impossible to predict the color of the cloned cat.",
+        "Removing the egg cell nucleus from the egg cell will cause the cell to become a body cell.",
+        "If the egg cell nucleus is not removed, then the cloned cat will always develop into a male."
+      ],
+      "image": null,
+      "context": "Base your answers to questions 38 and 39 on the passage below and on your knowledge of biology.\nCopy Cat\nIn February 2002, Cc \u2014 the fi rst-ever cloned cat \u2014 was introduced to the public by \nresearchers at Texas A&M University. The kitten had been born December 22, 2001, but \nannouncement of the successful cloning was delayed until the animal had completed its shot \nseries and its immune system was fully developed. In the cloning process, DNA [the nucleus] \nwas transplanted from the 2-year-old donor mother cat into an egg cell whose nucleus had \nbeen removed. This embryo then was implanted into the surrogate mother cat. \u2026\nSource: Discover Science Almanac. 2003:452-453. Editors of\nDiscover Science Magazine. Stonesong Press: New York, NY.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "If a donor cat was black and the surrogate mother was white, then the cloned cat would likely be",
+      "choices": [
+        "white, due to the color of the surrogate mother cat",
+        "white, due to mutations of the cloned cat",
+        "black, due to having the same DNA as the donor cat",
+        "black and white, due to mixing of the genes of the two cats during the cloning process"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 38 and 39 on the passage below and on your knowledge of biology.\nCopy Cat\nIn February 2002, Cc \u2014 the fi rst-ever cloned cat \u2014 was introduced to the public by \nresearchers at Texas A&M University. The kitten had been born December 22, 2001, but \nannouncement of the successful cloning was delayed until the animal had completed its shot \nseries and its immune system was fully developed. In the cloning process, DNA [the nucleus] \nwas transplanted from the 2-year-old donor mother cat into an egg cell whose nucleus had \nbeen removed. This embryo then was implanted into the surrogate mother cat. \u2026\nSource: Discover Science Almanac. 2003:452-453. Editors of\nDiscover Science Magazine. Stonesong Press: New York, NY.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Bacteria reproduce asexually by a process known as binary fi ssion. In binary fi ssion, the bacterium\u2019s single chromosome is copied and the cell splits in half, with each new cell receiving a copy of the chromosome. The biggest advantage that binary fi ssion often has over sexual reproduction is that",
+      "choices": [
+        "there is more genetic variety in the resulting cells",
+        "the genetic material comes from two parents",
+        "the offspring inherit only favorable genes",
+        "a large number of identical offspring are produced"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "For years, scientists believed that fl ight evolved when ancestral birds climbed trees and then glided back to the ground. Recent fossil evidence suggests that fl ight may have evolved from the ground up, as early birds used to jump off the ground as a way to avoid predators. These discoveries suggest that",
+      "choices": [
+        "scientists use only fossil evidence to study fl ight",
+        "scientifi c understandings can change as new information becomes available",
+        "most birds avoid predators by jumping off the ground into the air",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Colombia is a country in South America that grows and exports a large portion of the coffee that is used by Americans. A group of scientists in Colombia conducted an experiment on the effects of coffee on the development of Alzheimer\u2019s disease in elderly people. Their conclusion was that drinking coffee every day will decrease the occurrence of Alzheimer\u2019s disease, and they recommended that Americans drink coffee several times a day. In order to evaluate this conclusion and before they encourage Americans to drink more coffee, scientists in the United States should",
+      "choices": [
+        "conduct their own experiments to see if they arrive at the same conclusion",
+        "go to Colombia and see how the coffee is grown",
+        "provide coffee to people with Alzheimer\u2019s and see if it cures their disease",
+        "construct a data table to test the hypothesis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The graphs below display the percent of monitoring stations where three different amphibian species were seen. The data were collected between 1995 to 2007 in the wetlands surrounding the Great Lakes. 80% 60% 40% 20% 1995 2000 2005 Date 80% 60% 40% 20% 1995 2000 2005 Date 80% 60% 40% 20% 1995 2000 2005 Date Spring peeper Bullfrog American toad Percent of Monitoring Stations Reporting Amphibians in the Great Lakes Basin Source: Adapted from http://www.biodivcanada.ca/default.asp?lang=En&n=3AF43Cbb-1 Percent of Monitoring Stations Which claim is best supported by the data represented in the graphs?",
+      "choices": [
+        "The American toad population increased by approximately 57% in 1995 and 40% more in 2007.",
+        "The bullfrog population decreased every year between 1995 and 2005.",
+        "The spring peeper population is at about the same level in 2007 as it was in 1995.",
+        "All three amphibian populations were infected by a parasite in 2003"
+      ],
+      "image": "/images/exams/living-environment/january-2023/q43.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Plot the data for green turtles on the grid, connect the points, and surround each point with a small circle. Example:",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nProtecting Nesting Habitats\nSea turtles repeatedly return to the same beach to nest and there is no parental care \nonce the eggs have been deposited in the nest. Therefore, the characteristics of the nest \ndetermine whether the eggs will survive or not. The mother turtle must choose her nest site \ncarefully. Nests farther inland are more likely to dry out, and due to the distance that the \nhatchlings have to travel to reach the sea, there is a greater chance that they will be preyed \nupon. Nests too close to the sea are more likely to be damaged by erosion or fl ooding.\nTwo endangered turtle species are regularly found around Akumal, a popular tourist \ndestination in the Caribbean. The local beaches are an important nesting ground for the \nloggerhead turtle and green turtle. The beaches are managed by a local organization that \nmakes daily patrols to locate turtle nests and place protective barriers around them. Night \npatrols ensure that turtle nests are not disturbed by tourists. Local residents have agreed to \nminimize light pollution by closing all shops, bars, and restaurants before 11 p.m., and local \nfi shermen and tour boats avoid areas of sea grasses that are roped off, so that feeding turtles \nwill not be disturbed.\nThe data table below shows the results of efforts to increase the numbers of loggerhead \nand green turtles.\nTurtle Hatching Success\nYear\nNumber of Turtle Hatchlings\n(in thousands)\nGreen Turtles\nLoggerhead Turtles\n2006\n8\n4.5\n2007\n6\n8\n2008\n18\n10\n2009\n11\n9\n2010\n29\n8\n2011\n23\n10\n2012\n43\n14\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201923 \n[15] \n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly plotting the data for green turtles on the grid provided, connecting the points, and surrounding each point with a small circle."
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data for loggerhead turtles on the grid, connect the points, and surround each point with a small triangle. Example: = green turtles 2006 2007 2008 2009 2010 2011 2012 Years Turtle Hatching Success Number of Turtle Hatchlings (thousands) 4 8 12 16 20 24 28 32 36 40 44 Key = loggerhead turtles",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nProtecting Nesting Habitats\nSea turtles repeatedly return to the same beach to nest and there is no parental care \nonce the eggs have been deposited in the nest. Therefore, the characteristics of the nest \ndetermine whether the eggs will survive or not. The mother turtle must choose her nest site \ncarefully. Nests farther inland are more likely to dry out, and due to the distance that the \nhatchlings have to travel to reach the sea, there is a greater chance that they will be preyed \nupon. Nests too close to the sea are more likely to be damaged by erosion or fl ooding.\nTwo endangered turtle species are regularly found around Akumal, a popular tourist \ndestination in the Caribbean. The local beaches are an important nesting ground for the \nloggerhead turtle and green turtle. The beaches are managed by a local organization that \nmakes daily patrols to locate turtle nests and place protective barriers around them. Night \npatrols ensure that turtle nests are not disturbed by tourists. Local residents have agreed to \nminimize light pollution by closing all shops, bars, and restaurants before 11 p.m., and local \nfi shermen and tour boats avoid areas of sea grasses that are roped off, so that feeding turtles \nwill not be disturbed.\nThe data table below shows the results of efforts to increase the numbers of loggerhead \nand green turtles.\nTurtle Hatching Success\nYear\nNumber of Turtle Hatchlings\n(in thousands)\nGreen Turtles\nLoggerhead Turtles\n2006\n8\n4.5\n2007\n6\n8\n2008\n18\n10\n2009\n11\n9\n2010\n29\n8\n2011\n23\n10\n2012\n43\n14\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201923 \n[15] \n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly plotting the data for loggerhead turtles on the grid provided, connecting the points, and surrounding each point with a small triangle. Example of a 2-credit graph for questions 44-45: Note: Allow credit only if the circles and triangles are used. Do not allow credit for plotting points that are not in the data table, e.g., (0,0), or for extending lines beyond the data points. Do not deduct more than 1 credit for plotting points that are not in the data table or for extending lines beyond the data points. = green turtles 2006 2007 2008 2009 2010 2011 2012 Years Turtle Hatching Success Number of Turtle Hatchlings (thousands) 4 8 12 16 20 24 28 32 36 40 44 Key = loggerhead turtles Living Environment Rating Guide \u2013 Jan \u2019"
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Based on the information and data provided,",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nProtecting Nesting Habitats\nSea turtles repeatedly return to the same beach to nest and there is no parental care \nonce the eggs have been deposited in the nest. Therefore, the characteristics of the nest \ndetermine whether the eggs will survive or not. The mother turtle must choose her nest site \ncarefully. Nests farther inland are more likely to dry out, and due to the distance that the \nhatchlings have to travel to reach the sea, there is a greater chance that they will be preyed \nupon. Nests too close to the sea are more likely to be damaged by erosion or fl ooding.\nTwo endangered turtle species are regularly found around Akumal, a popular tourist \ndestination in the Caribbean. The local beaches are an important nesting ground for the \nloggerhead turtle and green turtle. The beaches are managed by a local organization that \nmakes daily patrols to locate turtle nests and place protective barriers around them. Night \npatrols ensure that turtle nests are not disturbed by tourists. Local residents have agreed to \nminimize light pollution by closing all shops, bars, and restaurants before 11 p.m., and local \nfi shermen and tour boats avoid areas of sea grasses that are roped off, so that feeding turtles \nwill not be disturbed.\nThe data table below shows the results of efforts to increase the numbers of loggerhead \nand green turtles.\nTurtle Hatching Success\nYear\nNumber of Turtle Hatchlings\n(in thousands)\nGreen Turtles\nLoggerhead Turtles\n2006\n8\n4.5\n2007\n6\n8\n2008\n18\n10\n2009\n11\n9\n2010\n29\n8\n2011\n23\n10\n2012\n43\n14\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201923 \n[15] \n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for green turtles and supporting the answer. Acceptable responses include, but are not limited to \u2014 The green turtles have increased from 8000 to 43,000 in six years while the loggerheads only increased by 9500. \u2014 The green turtles increased greatly (35,000 more) while loggerheads only went up 9500. \u2014 The green turtle population increased much more than the loggerhead population. Note: Allow credit for a correct answer not written in thousands (e.g., 8 to 43). 47 MC on scoring key"
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "A trade-off was made by the local population that has increased the number of turtles in the area. Which statement best describes the trade-off?",
+      "choices": [
+        "Placing barriers around the turtle nests made it easier for tourists to fi nd and photograph them.",
+        "The night patrols kept tourists from raiding the turtle nests and selling the eggs.",
+        "The shops, bars, and restaurants agreed to close early, even though they could lose customers, so that the turtles could have a better chance to nest successfully.",
+        "Local fi shermen agreed to stay away from certain fi shing areas and catch fewer fi sh so that the tour boats could bring tourists into the sea-grass areas."
+      ],
+      "image": "/images/exams/living-environment/january-2023/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nProtecting Nesting Habitats\nSea turtles repeatedly return to the same beach to nest and there is no parental care \nonce the eggs have been deposited in the nest. Therefore, the characteristics of the nest \ndetermine whether the eggs will survive or not. The mother turtle must choose her nest site \ncarefully. Nests farther inland are more likely to dry out, and due to the distance that the \nhatchlings have to travel to reach the sea, there is a greater chance that they will be preyed \nupon. Nests too close to the sea are more likely to be damaged by erosion or fl ooding.\nTwo endangered turtle species are regularly found around Akumal, a popular tourist \ndestination in the Caribbean. The local beaches are an important nesting ground for the \nloggerhead turtle and green turtle. The beaches are managed by a local organization that \nmakes daily patrols to locate turtle nests and place protective barriers around them. Night \npatrols ensure that turtle nests are not disturbed by tourists. Local residents have agreed to \nminimize light pollution by closing all shops, bars, and restaurants before 11 p.m., and local \nfi shermen and tour boats avoid areas of sea grasses that are roped off, so that feeding turtles \nwill not be disturbed.\nThe data table below shows the results of efforts to increase the numbers of loggerhead \nand green turtles.\nTurtle Hatching Success\nYear\nNumber of Turtle Hatchlings\n(in thousands)\nGreen Turtles\nLoggerhead Turtles\n2006\n8\n4.5\n2007\n6\n8\n2008\n18\n10\n2009\n11\n9\n2010\n29\n8\n2011\n23\n10\n2012\n43\n14\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201923 \n[15] \n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided \nfollowing the directions below.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Explain one likely reason for the population-size changes, as indicated by the graph, between years 5 and 10.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the graph below and on your knowledge of biology. The graph \nshows the changes in a population over a period of 10 years.\nPopulation Size\nTime (years)\n0\nPopulation Changes\n5\n10",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The population had reached the ecosystem\u2019s carrying capacity, and there were small changes due to predation/competition/disease. \u2014 Factors such as food availability/limiting factors caused small variations in the population each year. \u2014 The birth and death rates varied from year to year. 49 MC on scoring key 50 MC on scoring key"
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "One factor that could result in an increase in the population size after year 10 would be",
+      "choices": [
+        "increased competition within the species",
+        "additional food became available",
+        "predators of the species became more numerous",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2023/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the graph below and on your knowledge of biology. The graph \nshows the changes in a population over a period of 10 years.\nPopulation Size\nTime (years)\n0\nPopulation Changes\n5\n10",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "What is the most favorable temperature for the growth of the yellow perch population?",
+      "choices": [
+        "10\u00b0C",
+        "15\u00b0C",
+        "20\u00b0C",
+        "30\u00b0C"
+      ],
+      "image": "/images/exams/living-environment/january-2023/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the graph below and on your knowledge of biology. The graph \nshows how the population growth rate of several species of fi sh is affected by temperature.\n0\n10\n20\n30\n40\nRainbow \ntrout\nYellow\nperch\nLargemouth\nbass\nPopulation Growth Rate\nThe Influence of Temperature on \nGrowth Rates of Fish Populations\nTemperature (\u00b0C)\n \nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Several industries use water from a lake to cool their machinery. When this water is returned to the lake, it has been warmed by several degrees. Select one of the fi sh species and describe one way that a temperature increase from 20\u00b0C to 25\u00b0C could affect the growth rate of that species. Fish species:",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the graph below and on your knowledge of biology. The graph \nshows how the population growth rate of several species of fi sh is affected by temperature.\n0\n10\n20\n30\n40\nRainbow \ntrout\nYellow\nperch\nLargemouth\nbass\nPopulation Growth Rate\nThe Influence of Temperature on \nGrowth Rates of Fish Populations\nTemperature (\u00b0C)\n \nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for selecting one of the fish species and describing one way a temperature increase from 20\u00b0C to 25\u00b0C could affect the growth rate of that species. Acceptable responses include, but are not limited to: Largemouth bass: \u2014 The growth rate of the bass population would increase because their growth rate increases up to about 30\u00b0C. Rainbow trout: \u2014 The growth rate would not be affected because it is already at zero. Yellow perch: \u2014 The yellow perch growth rate would decrease in that temperature range. Living Environment Rating Guide \u2013 Jan \u2019"
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "The male peacock, illustrated below, attracts females (peahens) by fanning out his very long tail feathers in an elaborate display. However, the large fan of colorful feathers makes the males more noticeable to predators and makes it diffi cult for them to escape. Source: http://www.pngall.com/peacock-png Explain why male peacocks continue to have large tail feathers, even though having the feathers may make them more likely to be killed by predators.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/q52.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Peacocks with the largest tail-feather displays attract more females, mate, and produce more offspring. \u2014 Males with the biggest, most colorful tail feathers are more likely to pass their genes to the next generation. \u2014 While the individual male with the biggest display may not live as long, he reproduces more often/leaves more offspring. \u2014 It is a favorable adaptation for having more offspring."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "State what must happen to protein molecules in food before cells can use them.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 53 through 55 on the information below and on your knowledge of biology.\nProteins are an important part of any diet. Many kinds of food can provide the proteins \nthat we need.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Proteins must be digested to become small enough to enter cells. \u2014 Proteins must be broken down into amino acids. \u2014 Large protein molecules must be broken down."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the structure in a cell where proteins are synthesized.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 53 through 55 on the information below and on your knowledge of biology.\nProteins are an important part of any diet. Many kinds of food can provide the proteins \nthat we need.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for ribosome."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "55",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 53 through 55 on the information below and on your knowledge of biology.\nProteins are an important part of any diet. Many kinds of food can provide the proteins \nthat we need.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The shape of a protein determines its function. \u2014 Protein function is determined by its three-dimensional structure. \u2014 A protein will only react with specific molecules due to its shape/sequence of amino acids. Living Environment Rating Guide \u2013 Jan \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 56\u201358 on the information below and on your knowledge of biology.\nEcological succession and evolution are both processes that involve changes over time. \nHowever, these two processes are very different.\n  56\u201358 Explain how ecological succession differs from evolution. In your answer, be sure to:\n \n \u2022 describe the specifi c kinds of changes that occur when ecological succession takes place   [1]\n \n \u2022 describe one way that a population of red foxes could be affected as a result of ecological succession  \n in its habitat   [1]\n \n \u2022 describe one way that a population of red foxes could be changed as a result of evolution   [1]\nPart C\nAnswer all questions in this part.     [17]\nDirections (56\u201372):  Record your answers in the spaces provided in this examination booklet.\n\n Living Environment\u2013Jan. \u201923 \n[20]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for describing the specific kinds of changes that occur when ecological succession takes place. Acceptable responses include, but are not limited to: \u2014 During ecological succession, the types of plants that are most common are replaced over time by other types of plants. \u2014 During succession, a grassy field can eventually become a young forest. The change is in the types of plants common to the area at any given time. \u2014 The types of plants present change over time."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "56\u201358 Explain how ecological succession differs from evolution. In your answer, be sure to: \u2022 describe the specifi c kinds of changes that occur when ecological succession takes place \u2022 describe one way that a population of red foxes could be affected as a result of ecological succession in its habitat \u2022 describe one way that a population of red foxes could be changed as a result of evolution",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 56\u201358 on the information below and on your knowledge of biology.\nEcological succession and evolution are both processes that involve changes over time. \nHowever, these two processes are very different.\n  56\u201358 Explain how ecological succession differs from evolution. In your answer, be sure to:\n \n \u2022 describe the specifi c kinds of changes that occur when ecological succession takes place   [1]\n \n \u2022 describe one way that a population of red foxes could be affected as a result of ecological succession  \n in its habitat   [1]\n \n \u2022 describe one way that a population of red foxes could be changed as a result of evolution   [1]\nPart C\nAnswer all questions in this part.     [17]\nDirections (56\u201372):  Record your answers in the spaces provided in this examination booklet.\n\n Living Environment\u2013Jan. \u201923 \n[20]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for describing one way that a population of red foxes could be changed as a result of evolution. Acceptable responses include, but are not limited to: \u2014 Evolution can result in more foxes in a population having a trait that makes them better able to survive. \u2014 As a result of evolution, the fox species may contain a larger number of individuals with favorable traits, such as being able to run faster or see better. \u2014 Foxes with mutations that may be beneficial to the fox population, such as protective coloration or better hearing, would increase as a result of evolution/natural selection. \u2014 Those with unfavorable traits would be eliminated or the percentage present in the population would decrease."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "State one concern that doctors might have about using S. lugdunensis to treat MRSA.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nNose Antibiotics\nScientists have found what they think could be an important weapon in the fi ght \nagainst superbugs, and it lives in your nose. A new antibiotic made by nose-dwelling \nbacteria, Staphylococcus lugdunensis (S. lugdunensis) has been found to kill drug-resistant \nMRSA, Staphylococcus aureus (S. aureus), which kills up to 10,000 people a year in the \nUnited States.\nAs a result of swabbing noses, scientists discovered that MRSA and S. lugdunensis are \nrarely found together. This discovery supports the idea that S. lugdunensis helps in fi ghting off \nMRSA. This bacterium produces an antibiotic, called lugdunin, which prevents MRSA from \ngrowing in Petri dishes. When applied to the skin of mice infected with MRSA, it reduced or \neliminated the infection. MRSA shows no sign of antibiotic resistance to lugdunin. Although \nS. lugdunensis is effective in treating MRSA infections, it carries its own risk of causing \ninfections in the heart, joints, skin, and eyes.\nNormally, antibiotics are formed by soil bacteria and fungi. The idea that human bacteria \nmay be a source of antimicrobial agents is a new discovery. A new class of antibiotics like this \nhas not been found since the 1980s.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 S. lugdunensis can cause infections of the heart, joints, skin, and eyes. \u2014 It can cause other infections/harmful side effects. \u2014 S. lugdunensis may also kill beneficial bacteria. Living Environment Rating Guide \u2013 Jan \u2019"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "State one way that the antibiotic formed by S. lugdunensis is different from most other antibiotics.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nNose Antibiotics\nScientists have found what they think could be an important weapon in the fi ght \nagainst superbugs, and it lives in your nose. A new antibiotic made by nose-dwelling \nbacteria, Staphylococcus lugdunensis (S. lugdunensis) has been found to kill drug-resistant \nMRSA, Staphylococcus aureus (S. aureus), which kills up to 10,000 people a year in the \nUnited States.\nAs a result of swabbing noses, scientists discovered that MRSA and S. lugdunensis are \nrarely found together. This discovery supports the idea that S. lugdunensis helps in fi ghting off \nMRSA. This bacterium produces an antibiotic, called lugdunin, which prevents MRSA from \ngrowing in Petri dishes. When applied to the skin of mice infected with MRSA, it reduced or \neliminated the infection. MRSA shows no sign of antibiotic resistance to lugdunin. Although \nS. lugdunensis is effective in treating MRSA infections, it carries its own risk of causing \ninfections in the heart, joints, skin, and eyes.\nNormally, antibiotics are formed by soil bacteria and fungi. The idea that human bacteria \nmay be a source of antimicrobial agents is a new discovery. A new class of antibiotics like this \nhas not been found since the 1980s.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Normally, antibiotics are formed by soil bacteria and fungi. \u2014 Lugdunin is produced by a bacterium that infects humans. \u2014 It does not show signs of MRSA becoming resistant to it."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "61",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nNose Antibiotics\nScientists have found what they think could be an important weapon in the fi ght \nagainst superbugs, and it lives in your nose. A new antibiotic made by nose-dwelling \nbacteria, Staphylococcus lugdunensis (S. lugdunensis) has been found to kill drug-resistant \nMRSA, Staphylococcus aureus (S. aureus), which kills up to 10,000 people a year in the \nUnited States.\nAs a result of swabbing noses, scientists discovered that MRSA and S. lugdunensis are \nrarely found together. This discovery supports the idea that S. lugdunensis helps in fi ghting off \nMRSA. This bacterium produces an antibiotic, called lugdunin, which prevents MRSA from \ngrowing in Petri dishes. When applied to the skin of mice infected with MRSA, it reduced or \neliminated the infection. MRSA shows no sign of antibiotic resistance to lugdunin. Although \nS. lugdunensis is effective in treating MRSA infections, it carries its own risk of causing \ninfections in the heart, joints, skin, and eyes.\nNormally, antibiotics are formed by soil bacteria and fungi. The idea that human bacteria \nmay be a source of antimicrobial agents is a new discovery. A new class of antibiotics like this \nhas not been found since the 1980s.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Swabs of noses showed that S. lugdunensis and S. aureus were rarely found together. \u2014 Lugdunin prevented MRSA from growing in Petri dishes and/or on the skin of mice infected with MRSA. \u2014 MRSA shows no sign of antibiotic resistance to lugdunin."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify one life function that lysosomes help the cell carry out, and describe how they help the cell perform this function. Life function:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 and 63 on the information below and on your knowledge of biology.\nLysosomes\u2013Not Just Garbage Disposals\nLysosomes are cellular organelles that have the ability to break down large organic \ncompounds or old, worn-out cell organelles. Some of the products that are produced as a \nresult of this breakdown process can be reused as building blocks, while other products are \nreleased as wastes from the cell.\nRecently, studies have shown that lysosomes are more than just garbage disposals. New \nresearch has shown that lysosomes have the ability to sense how well-nourished a cell is. If \nlysosomes detect that there is a lack of nutrients for energy, the organelle prompts the cell \nto produce more enzymes. These enzymes can break down fat reserves and other cellular \nmaterials that could be used as a source of energy. On the other hand, if the cell has an \nabundance of nutrients, signals are sent from the lysosome that prompt the cell to grow or \ndivide, making more cells.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying one life function that lysosomes help the cell carry out and describing how they help the cell perform this function. Acceptable responses include, but are not limited to: Digestion: \u2014 The lysosomes are involved with digestion as they break down large molecules/materials/ cell organelles into smaller materials. Excretion: \u2014 The lysosomes break down materials, allowing them to be released from the cell. Regulation: \u2014 The lysosomes are involved with the cell\u2019s maintenance of homeostasis by sensing how well-nourished the cell is. \u2014 Lysosomes can send signals to other parts of a cell, prompting it to produce specific enzymes. Reproduction: \u2014 Lysosomes can prompt the cell to divide, making more cells. Note: Do not accept homeostasis, as this is not a life function."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify one additional cell structure and describe how the structure that you have selected interacts with the lysosome to carry out a specifi c cell function. Cell structure:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 and 63 on the information below and on your knowledge of biology.\nLysosomes\u2013Not Just Garbage Disposals\nLysosomes are cellular organelles that have the ability to break down large organic \ncompounds or old, worn-out cell organelles. Some of the products that are produced as a \nresult of this breakdown process can be reused as building blocks, while other products are \nreleased as wastes from the cell.\nRecently, studies have shown that lysosomes are more than just garbage disposals. New \nresearch has shown that lysosomes have the ability to sense how well-nourished a cell is. If \nlysosomes detect that there is a lack of nutrients for energy, the organelle prompts the cell \nto produce more enzymes. These enzymes can break down fat reserves and other cellular \nmaterials that could be used as a source of energy. On the other hand, if the cell has an \nabundance of nutrients, signals are sent from the lysosome that prompt the cell to grow or \ndivide, making more cells.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying one additional cell structure and describing how the selected structure interacts with the lysosome to carry out a specific cell function. Acceptable responses include, but are not limited to: \u2014 Cell membrane: allows broken-down materials or wastes produced by the lysosome to be excreted. \u2014 Vacuole: stores materials that the lysosome breaks down. \u2014 Mitochondrion: releases energy that a lysosome can utilize. \u2014 Ribosome: synthesizes enzymes when prompted by lysosomes. \u2014 Nucleus: prompts the cell to begin cell division. Living Environment Rating Guide \u2013 Jan \u2019"
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Explain why most people who are infected with HIV generally do not die from the virus itself, but instead from infections caused by other viruses or bacteria.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the information below and on your knowledge of biology.\nHVTN 702 \u2013 A New Vaccine\nIn November 2016, a new vaccine against HIV was tested in South Africa in a study \nidentifi ed as HVTN 702.\nThe vaccine has been developed to protect against the HVTN 702 strain that is most \ncommon in southern Africa. It is hoped that the new vaccine will provide greater and more \nlong-lasting protection.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 HIV attacks and weakens the immune system/T cells, allowing other pathogens to grow and spread. \u2014 The individual infected with HIV can\u2019t fight off other organisms/pathogens that may harm them."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Describe what a vaccine, such as the one used in the HVTN 702 trial,",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the information below and on your knowledge of biology.\nHVTN 702 \u2013 A New Vaccine\nIn November 2016, a new vaccine against HIV was tested in South Africa in a study \nidentifi ed as HVTN 702.\nThe vaccine has been developed to protect against the HVTN 702 strain that is most \ncommon in southern Africa. It is hoped that the new vaccine will provide greater and more \nlong-lasting protection.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 parts of the HIV pathogen \u2014 proteins from the virus \u2014 antigens from HIV \u2014 a weakened form of the virus \u2014 RNA specific to HIV proteins Note: Do not accept \u201ca little bit of the disease\u201d or \u201ca small amount of the virus.\u201d"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Identify one substance that the blood transports to organs and tissues of the body and explain why this substance is necessary for organs and tissues to continue to function. Substance: Why necessary:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the passage below and on your knowledge of biology.\nFrostbite\nFrostbite occurs when tissues freeze. This condition happens when you are exposed to \ntemperatures below the freezing point of skin.\n\u2026In conditions of prolonged cold exposure, your body sends signals to the blood vessels \nin your arms and legs telling them to constrict (narrow). By slowing blood fl ow to the \nskin, your body is able to send more blood to the vital organs, supplying them with critical \nnutrients, while also preventing a further decrease in internal body temperature by exposing \nless blood to the outside cold.\nAs this process continues and your extremities (the parts farthest from your heart) become \ncolder and colder, a condition called the hunting response is initiated. Your blood vessels are \ndilated (widened) for a period of time and then constricted again. Periods of dilation are \ncycled with times of constriction in order to preserve as much function in your extremities \nas possible. However, when your brain senses that you are in danger of hypothermia (when \nyour body temperature drops signifi cantly below 98.6\u00b0F), it permanently constricts these \nblood vessels in order to prevent them from returning cold blood to the internal organs. \nWhen this happens, frostbite has begun. \u2026\nSource: http://webmd.com/a-to-z-guides/frostbite#1",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying one substance that the blood transports to organs and tissues of the body and explaining why this is necessary for organs and tissues to continue to function. Acceptable responses include, but are not limited to: Substance: oxygen Why necessary: \u2014 need for cellular respiration \u2014 needed for production of ATP Substance: glucose Why necessary: \u2014 needed for cellular respiration \u2014 a source of energy"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Describe how the hunting response helps to preserve functioning of the muscle tissue in your extremities, such as your fi ngers.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the passage below and on your knowledge of biology.\nFrostbite\nFrostbite occurs when tissues freeze. This condition happens when you are exposed to \ntemperatures below the freezing point of skin.\n\u2026In conditions of prolonged cold exposure, your body sends signals to the blood vessels \nin your arms and legs telling them to constrict (narrow). By slowing blood fl ow to the \nskin, your body is able to send more blood to the vital organs, supplying them with critical \nnutrients, while also preventing a further decrease in internal body temperature by exposing \nless blood to the outside cold.\nAs this process continues and your extremities (the parts farthest from your heart) become \ncolder and colder, a condition called the hunting response is initiated. Your blood vessels are \ndilated (widened) for a period of time and then constricted again. Periods of dilation are \ncycled with times of constriction in order to preserve as much function in your extremities \nas possible. However, when your brain senses that you are in danger of hypothermia (when \nyour body temperature drops signifi cantly below 98.6\u00b0F), it permanently constricts these \nblood vessels in order to prevent them from returning cold blood to the internal organs. \nWhen this happens, frostbite has begun. \u2026\nSource: http://webmd.com/a-to-z-guides/frostbite#1",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The hunting response periodically sends blood to the fingers, providing them with the materials required for functioning. \u2014 The response lets oxygen and glucose get to the muscle cells some of the time, enabling them to carry carry out life processes. \u2014 The blood vessels temporarily widen, bringing materials to the muscle cells and removing wastes. \u2014 The response sends blood to the fingers every once in a while. Living Environment Rating Guide \u2013 Jan \u2019"
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "68",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the passage below and on your knowledge of biology.\nFrostbite\nFrostbite occurs when tissues freeze. This condition happens when you are exposed to \ntemperatures below the freezing point of skin.\n\u2026In conditions of prolonged cold exposure, your body sends signals to the blood vessels \nin your arms and legs telling them to constrict (narrow). By slowing blood fl ow to the \nskin, your body is able to send more blood to the vital organs, supplying them with critical \nnutrients, while also preventing a further decrease in internal body temperature by exposing \nless blood to the outside cold.\nAs this process continues and your extremities (the parts farthest from your heart) become \ncolder and colder, a condition called the hunting response is initiated. Your blood vessels are \ndilated (widened) for a period of time and then constricted again. Periods of dilation are \ncycled with times of constriction in order to preserve as much function in your extremities \nas possible. However, when your brain senses that you are in danger of hypothermia (when \nyour body temperature drops signifi cantly below 98.6\u00b0F), it permanently constricts these \nblood vessels in order to prevent them from returning cold blood to the internal organs. \nWhen this happens, frostbite has begun. \u2026\nSource: http://webmd.com/a-to-z-guides/frostbite#1",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for describing one possible long-term result of frostbite and explaining why it can happen. Acceptable responses include, but are not limited to: \u2014 Some cells/tissues may die when blood can no longer get to them when the vessels permanently constrict. \u2014 A part of the body may need to be amputated, as lack of blood flow will cause the tissues to die. \u2014 When the vessels constrict for good, circulation to the extremities is permanently stopped."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Describe one role of the sea urchin population in the kelp forest ecosystem. Support your answer with information from the food web.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of biology.\nKelp Forest Food Web\nKelp forest ecosystems are primarily located in the Pacifi c Ocean off the coasts of \nCalifornia and Alaska. The increased demand for sea urchins, whose roe (a mass of eggs) \nis a Japanese sushi ingredient, is causing them to be overharvested. A team of students is \nconcerned that this decrease might affect the number of other organisms inhabiting a kelp \nforest ecosystem.\nThe students studied the feeding relationships in the ecosystem and constructed the \nfood web shown below.\nSea stars\nLarge fish\nLarge crabs\nSea urchins\nSnails\nGiant kelp\n(algae)\nSea otters",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for describing one role of the sea urchin population in the kelp forest ecosystem and supporting the answer. Acceptable responses include, but are not limited to: \u2014 It is preyed on by sea otters/sea stars. \u2014 Sea urchins are consumers of kelp. \u2014 Sea urchins are herbivores that consume kelp."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "70",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of biology.\nKelp Forest Food Web\nKelp forest ecosystems are primarily located in the Pacifi c Ocean off the coasts of \nCalifornia and Alaska. The increased demand for sea urchins, whose roe (a mass of eggs) \nis a Japanese sushi ingredient, is causing them to be overharvested. A team of students is \nconcerned that this decrease might affect the number of other organisms inhabiting a kelp \nforest ecosystem.\nThe students studied the feeding relationships in the ecosystem and constructed the \nfood web shown below.\nSea stars\nLarge fish\nLarge crabs\nSea urchins\nSnails\nGiant kelp\n(algae)\nSea otters",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for describing how a decrease in the number of sea urchins would affect the population of large fish and supporting the answer. Acceptable responses include, but are not limited to: \u2014 The number of large fish would most likely decrease because sea otters would eat more of them. \u2014 The population of large fish would decrease. Sea otters would consume more large crabs, which serve as food for the large fish. \u2014 It might increase because there would be more kelp for the large crabs to eat. \u2014 It might not affect the large fish population, because their diet doesn\u2019t consist of sea urchins or the organisms that depend on sea urchins."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Another team of students predicted that, if they removed all of the sea stars, the ecosystem might remain stable. Explain why removing sea stars might seem like a good way to make up for the overharvesting of the sea urchins.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of biology.\nKelp Forest Food Web\nKelp forest ecosystems are primarily located in the Pacifi c Ocean off the coasts of \nCalifornia and Alaska. The increased demand for sea urchins, whose roe (a mass of eggs) \nis a Japanese sushi ingredient, is causing them to be overharvested. A team of students is \nconcerned that this decrease might affect the number of other organisms inhabiting a kelp \nforest ecosystem.\nThe students studied the feeding relationships in the ecosystem and constructed the \nfood web shown below.\nSea stars\nLarge fish\nLarge crabs\nSea urchins\nSnails\nGiant kelp\n(algae)\nSea otters",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The sea stars eat sea urchins. With the sea stars gone, the remaining sea urchins will not be eaten by sea stars. \u2014 Only fishing and sea otters would be removing sea urchins, not predatory sea stars, so the ecosystem would remain stable. \u2014 The sea urchins now only have one predator, so the population may increase/remain stable."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "72",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of biology.\nKelp Forest Food Web\nKelp forest ecosystems are primarily located in the Pacifi c Ocean off the coasts of \nCalifornia and Alaska. The increased demand for sea urchins, whose roe (a mass of eggs) \nis a Japanese sushi ingredient, is causing them to be overharvested. A team of students is \nconcerned that this decrease might affect the number of other organisms inhabiting a kelp \nforest ecosystem.\nThe students studied the feeding relationships in the ecosystem and constructed the \nfood web shown below.\nSea stars\nLarge fish\nLarge crabs\nSea urchins\nSnails\nGiant kelp\n(algae)\nSea otters",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The kelp ecosystem would be destroyed. Snails would increase out of control since the only animal eating them was the sea stars. \u2014 The snails and sea urchins would consume the kelp. \u2014 The sea otters would be feeding more on large crabs since there are no sea stars. Soon, sea otters would run out of food. \u2014 If sea stars are removed, the organisms in the other populations present will be affected. All of these populations are linked either directly or indirectly. With the sea stars gone and a reduced number of sea urchins, the ecosystem will be out of balance and likely disappear. Living Environment Rating Guide \u2013 Jan \u2019"
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "Is the student\u2019s conclusion valid?",
+      "choices": [
+        "Yes, because the structural similarities indicate a close relationship between the organisms.",
+        "Yes, because these plants grow in the same regions of the forest ecosystem and look similar.",
+        "No, because he did not evaluate soil conditions, such as pH, with chemical indicators.",
+        "No, because this structural evidence alone is insuffi cient and molecular evidence should be obtained."
+      ],
+      "image": "/images/exams/living-environment/january-2023/context_73_73.png",
+      "context": "Base your answer to question 73 on the information and illustrations below and on your knowledge of \nbiology. The illustrations represent cross sections of two different plant stems.\nA student compared two stem cross sections. Stem cross section A is from a plant that\ncan be used to produce products with valuable medicinal properties. Stem cross section B \nis from a plant growing in the same area of the forest and its usefulness for producing \nmedicines is unknown. The student concluded that the stem cross sections had many \nstructural similarities and that the plant that produced cross section B would produce the \nsame valuable medicinal products.\nA\nB\nSource: http://www.proprofs.com/quiz-school\n/story.php?title=monocot-dicot-quiz\nSource: http://www.bio.miami.edu/dana/pix/dicot_stem.jpg",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "A student was jumping rope and noticed that her heart was beating faster. The student\u2019s heart rate probably increased as a result of",
+      "choices": [
+        "a decrease in the need to provide waste materials to muscle cells",
+        "an increase in the number of red blood cells circulating through her leg muscles",
+        "an increase in carbon dioxide in her blood",
+        "a decrease in respiration in her blood cells"
+      ],
+      "image": "/images/exams/living-environment/january-2023/q74.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "The species that has the band containing the smallest DNA fragment for the sample that was sequenced is",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/january-2023/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information and diagram below and on your knowledge \nof biology.\nDNA samples were taken from four different species of animals labeled A, B, C, and D. \nThe diagram below represents the results of a procedure that separated the DNA fragments \nfrom each species.\nWells\nA\nB\nC\nD\n\u2013\n+\n \nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "The fragments of DNA separated into these bands because of their",
+      "choices": [
+        "pH and color",
+        "charge and radioactivity",
+        "electrical charge and size",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2023/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information and diagram below and on your knowledge \nof biology.\nDNA samples were taken from four different species of animals labeled A, B, C, and D. \nThe diagram below represents the results of a procedure that separated the DNA fragments \nfrom each species.\nWells\nA\nB\nC\nD\n\u2013\n+\n \nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Based on these banding patterns, label the branching tree diagram below using the letters A, B, C, and D to represent their possible evolutionary relationships.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information and diagram below and on your knowledge \nof biology.\nDNA samples were taken from four different species of animals labeled A, B, C, and D. \nThe diagram below represents the results of a procedure that separated the DNA fragments \nfrom each species.\nWells\nA\nB\nC\nD\n\u2013\n+\n \nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for completing the diagram as follows:"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "What is the total number of students who participated in this data collection?",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/context_78_79.png",
+      "context": "Base your answers to questions 78 and 79 on the graph below and on your knowledge of biology.\n0\n7\n<51\n51-60\n61-70\n71-80\n81-90\n>90\nBeats per Minute\nNumber of Students\n1\n2\n3\n4\n5\n6\nResting Pulse Rates",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 18."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "79",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/context_78_79.png",
+      "context": "Base your answers to questions 78 and 79 on the graph below and on your knowledge of biology.\n0\n7\n<51\n51-60\n61-70\n71-80\n81-90\n>90\nBeats per Minute\nNumber of Students\n1\n2\n3\n4\n5\n6\nResting Pulse Rates",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 A heart rate of 71-80 beats per minute is the most common range in the class. \u2014 Not all students have the same heart rate. \u2014 Few students have a pulse rate of 51 or less. \u2014 Few students have a pulse rate of 90 or more. D B A C or B D A C Living Environment Rating Guide \u2013 Jan \u2019"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Explain why the liquid level on the left side changed over the 20-minute period.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/context_80_81.png",
+      "context": "Base your answers to questions 80 and 81 on the diagram below and on your knowledge of biology.\nThe diagram illustrates the movement of molecules across an artifi cial membrane in a \nU-shaped glass tube. A 1% starch solution was poured into the left side of the tube, and \ndistilled water was placed in the right side of the tube.\nB\nNet movement\n20 minutes\nA\nArtificial membrane\nDistilled water\n1% starch\nsolution\nSource: Adapted from Biology, Barret, et \nal., 1986. p.147",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The liquid level rises on the left side because the water moves from an area of high concentration to an area of low concentration. \u2014 Water molecules move from the right side to the left, since there was a higher water concentration on the right side at the start. \u2014 Only water can go through the membrane so it moves from the area with the higher concentration. \u2014 The diffusion of distilled water occurred across the membrane. 81 MC on scoring key 82 MC on scoring key"
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "If a 1% salt solution were substituted for the starch solution in this setup, the results would be",
+      "choices": [
+        "different, because all of the molecules would move to the right side of the tube",
+        "similar, because the salt would block the movement of molecules across the membrane",
+        "the same, because the movement of molecules in a tube always goes from right to left",
+        "similar, because water molecules will still move across the membrane in a similar manner"
+      ],
+      "image": "/images/exams/living-environment/january-2023/context_80_81.png",
+      "context": "Base your answers to questions 80 and 81 on the diagram below and on your knowledge of biology.\nThe diagram illustrates the movement of molecules across an artifi cial membrane in a \nU-shaped glass tube. A 1% starch solution was poured into the left side of the tube, and \ndistilled water was placed in the right side of the tube.\nB\nNet movement\n20 minutes\nA\nArtificial membrane\nDistilled water\n1% starch\nsolution\nSource: Adapted from Biology, Barret, et \nal., 1986. p.147",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "During the Making Connections lab, several pulse readings are taken and averaged in order to",
+      "choices": [
+        "get the heart pumping faster",
+        "increase muscle fatigue",
+        "increase reliability",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "A student using a clothespin \u201cbeak\u201d during the Beaks of Finches lab obtained the results shown below. Trial Number of Seeds Collected 1 12 2 15 3 10 4 11 Average Over the course of the four trials, an average of at least 13 seeds must be \u201ceaten\u201d in order to go to the next round. Will the student go on?",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/q83.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for no and supporting the answer. Acceptable responses include, but are not limited to: \u2014 The student will not go on because the average = 12. \u2014 No, the average is not 13 or more."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "The cactus fi nch and the sharp-billed ground fi nch both eat plants. Explain why these two fi nches may not be in competition for the same food.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the diagram below and on your knowledge of biology.\nLarge\nground \nfinch\nVegetarian\nfinch\nLarge \ntree finch\nSmall\ntree finch\nWoodpecker\nfinch\nWarbler\nfinch\nCactus\nfinch\nSharp-billed\nground finch\nSmall\nground\nfinch\nMedium\nground\nfinch\nE\nd\ng\ne\n \nc\nr\nu\ns\nh\ni\nn\ng\n \n \n \n \n \n \n \n \nB\nit\ni\nn\ng\n \nt\ni\np\ns\nC\nr\nu\ns\nh\ni\nn\ng\n \nb\ni\nl\nl\ns\nMainly\nplant \nfood\nMainly\nanimal \nfood\nG\nr\na\ns\np\ni\nn\ng\n \nb\ni\nl\nl\ns\nall\nanimal\nfood\nP\nr\no\nb\ni\nn\ng\n \n \n \nP\nr\no\nb\ni\nn\ng\n \nb\ni\nl\nl\ns\nVariations in Beaks of Galapagos Islands Finches\nSource: Galapagos: A Natural History Guide",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 They may eat different-sized seeds/different plants. \u2014 The cactus finch has a probing bill, unlike the sharp-billed ground finch, which has a crushing bill. \u2014 They live on different islands. \u2014 Their beaks are different."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "The small tree fi nch and the small ground fi nch occupy different niches. State one reason, other than food, LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2023/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the diagram below and on your knowledge of biology.\nLarge\nground \nfinch\nVegetarian\nfinch\nLarge \ntree finch\nSmall\ntree finch\nWoodpecker\nfinch\nWarbler\nfinch\nCactus\nfinch\nSharp-billed\nground finch\nSmall\nground\nfinch\nMedium\nground\nfinch\nE\nd\ng\ne\n \nc\nr\nu\ns\nh\ni\nn\ng\n \n \n \n \n \n \n \n \nB\nit\ni\nn\ng\n \nt\ni\np\ns\nC\nr\nu\ns\nh\ni\nn\ng\n \nb\ni\nl\nl\ns\nMainly\nplant \nfood\nMainly\nanimal \nfood\nG\nr\na\ns\np\ni\nn\ng\n \nb\ni\nl\nl\ns\nall\nanimal\nfood\nP\nr\no\nb\ni\nn\ng\n \n \n \nP\nr\no\nb\ni\nn\ng\n \nb\ni\nl\nl\ns\nVariations in Beaks of Galapagos Islands Finches\nSource: Galapagos: A Natural History Guide",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 One finch lives on the ground, the other in trees. \u2014 They might be active at different times of day. \u2014 They might not be eaten by the same predators. Living Environment Rating Guide \u2013 Jan \u2019"
+    }
+  ]
+}

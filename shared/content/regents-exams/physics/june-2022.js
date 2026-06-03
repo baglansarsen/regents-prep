@@ -502,8 +502,7 @@ export default {
       topic: 'Forces & Newton',
       correct: 0,
       explanation: 'Original distance = R (Earth\'s radius). New distance = R + 3R = 4R. Force ∝ 1/r², so F_new = F × (R/4R)² = F/16.',
-      diveDeep: 'Newton\'s law of gravitation: F = Gm₁m₂/r². On Earth\'s surface, r = R (Earth\'s radius). In orbit at 3R above surface, the distance from Earth\'s center = R + 3R = 4R. Force ratio: F_orbit/F_surface = (R)²/(4R)² = 1/16. So F_orbit = F/16. A common mistake is using only the altitude (3R) as the new distance, giving (1/3)² = F/9. The distance must be measured from Earth\'s center: surface is at r = R, orbit is at r = 4R. The inverse-square law: doubling distance → ¼ force; quadrupling distance → 1/16 force.'
-    },
+      diveDeep: 'Newton\'s law of gravitation: F = Gm₁m₂/r². On Earth\'s surface, r = R (Earth\'s radius). In orbit at 3R above surface, the distance from Earth\'s center = R + 3R = 4R. Force ratio: F_orbit/F_surface = (R)²/(4R)² = 1/16. So F_orbit = F/16. A common mistake is using only the altitude (3R) as the new distance, giving (1/3)² = F/9. The distance must be measured from Earth\'s center: surface is at r = R, orbit is at r = 4R. The inverse-square law: doubling distance → ¼ force; quadrupling distance → 1/16 force.', image: '/images/exams/phys-june-2022/q42.png' },
     {
       number: 43,
       part: 'B-1',
@@ -513,8 +512,7 @@ export default {
       topic: 'Modern Physics',
       correct: 0,
       explanation: 'Finding the GCD of the measurements: all values are divisible by 3.2 g (35.2/3.2=11, 64.0/3.2=20, 48.0/3.2=15, 38.4/3.2=12, 41.6/3.2=13). The mass of one penny is 3.2 g.',
-      diveDeep: 'This is a quantization problem: the mass of each container must be an integer multiple of one penny\'s mass plus the container mass. Finding the greatest common divisor (GCD) helps: differences between masses should be multiples of one penny. 64.0 − 35.2 = 28.8 g = 9 × 3.2. 48.0 − 35.2 = 12.8 g = 4 × 3.2. 41.6 − 38.4 = 3.2 g = 1 × 3.2. The smallest difference is 3.2 g (one penny). Checking: all masses are divisible by 3.2 as shown. This demonstrates quantization: quantities come in discrete multiples of a fundamental unit (like charge coming in multiples of e = 1.6 × 10⁻¹⁹ C).'
-    },
+      diveDeep: 'This is a quantization problem: the mass of each container must be an integer multiple of one penny\'s mass plus the container mass. Finding the greatest common divisor (GCD) helps: differences between masses should be multiples of one penny. 64.0 − 35.2 = 28.8 g = 9 × 3.2. 48.0 − 35.2 = 12.8 g = 4 × 3.2. 41.6 − 38.4 = 3.2 g = 1 × 3.2. The smallest difference is 3.2 g (one penny). Checking: all masses are divisible by 3.2 as shown. This demonstrates quantization: quantities come in discrete multiples of a fundamental unit (like charge coming in multiples of e = 1.6 × 10⁻¹⁹ C).', image: '/images/exams/phys-june-2022/q43.png' },
     {
       number: 44,
       part: 'B-1',
@@ -641,8 +639,7 @@ export default {
       topic: 'Forces & Newton',
       modelAnswer: 'Equation: Ff = μk × FN\nNormal force: FN = mg = (55)(9.81) = 539 N\nSubstitution: μk = Ff/FN = 11 N / 539 N\nAnswer: μk ≈ 0.020',
       explanation: 'Coefficient of kinetic friction: μk = Ff/FN = 11/539 ≈ 0.020. The normal force equals the weight on a level surface.',
-      diveDeep: 'Kinetic friction: Ff = μk × FN. On a horizontal surface: FN = W = mg = (55)(9.81) = 539 N. Solving: μk = Ff/FN = 11/539 ≈ 0.0204 ≈ 0.020. The coefficient of kinetic friction is dimensionless (N/N). μk for ice is typically 0.01–0.03, confirming this is a realistic value for ice skating. This also explains why ice skates glide so well — very low μk. A common mistake is using FN = 11 N (the friction force) instead of the weight. For horizontal surfaces, FN always equals mg. The Regents tests both the equation setup and the numerical answer.'
-    },
+      diveDeep: 'Kinetic friction: Ff = μk × FN. On a horizontal surface: FN = W = mg = (55)(9.81) = 539 N. Solving: μk = Ff/FN = 11/539 ≈ 0.0204 ≈ 0.020. The coefficient of kinetic friction is dimensionless (N/N). μk for ice is typically 0.01–0.03, confirming this is a realistic value for ice skating. This also explains why ice skates glide so well — very low μk. A common mistake is using FN = 11 N (the friction force) instead of the weight. For horizontal surfaces, FN always equals mg. The Regents tests both the equation setup and the numerical answer.', image: '/images/exams/phys-june-2022/q54.png' },
     {
       number: 56,
       part: 'B-2',
@@ -651,8 +648,7 @@ export default {
       topic: 'Waves & Sound',
       modelAnswer: 'Amplitude = ½ × (crest-to-trough distance) = ½ × 1.0 m = 0.50 m',
       explanation: 'Amplitude is the maximum displacement from equilibrium. The diagram shows a peak-to-trough height of 1.0 m, so amplitude = 0.50 m.',
-      diveDeep: 'Amplitude is the maximum displacement from the equilibrium (rest) position, measured to either the crest or the trough — not crest to trough. Since crest-to-trough = 2 × amplitude: A = (crest-to-trough)/2 = 1.0/2 = 0.50 m. A common mistake is stating the amplitude as 1.0 m (the full crest-to-trough distance). Wave energy ∝ A², so doubling amplitude quadruples energy. The 4.5 m spring length will be used in Question 57 for wavelength. Always distinguish between amplitude (maximum displacement from equilibrium) and the peak-to-peak height (twice the amplitude).'
-    },
+      diveDeep: 'Amplitude is the maximum displacement from the equilibrium (rest) position, measured to either the crest or the trough — not crest to trough. Since crest-to-trough = 2 × amplitude: A = (crest-to-trough)/2 = 1.0/2 = 0.50 m. A common mistake is stating the amplitude as 1.0 m (the full crest-to-trough distance). Wave energy ∝ A², so doubling amplitude quadruples energy. The 4.5 m spring length will be used in Question 57 for wavelength. Always distinguish between amplitude (maximum displacement from equilibrium) and the peak-to-peak height (twice the amplitude).', image: '/images/exams/phys-june-2022/context_56_57.png' },
     {
       number: 57,
       part: 'B-2',
@@ -661,8 +657,7 @@ export default {
       topic: 'Waves & Sound',
       modelAnswer: 'From the diagram, 3 complete waves fit in 4.5 m.\nWavelength λ = 4.5 m / 3 = 1.5 m',
       explanation: 'Wavelength is the length of one complete wave cycle. If 3 full waves span 4.5 m, then λ = 4.5/3 = 1.5 m.',
-      diveDeep: 'Wavelength (λ) is the distance between two consecutive points in phase (e.g., crest to crest). The spring shows 3 complete wavelengths over 4.5 m, so λ = 4.5/3 = 1.5 m. We can verify using the wave equation: v = fλ = (2.0 Hz)(1.5 m) = 3.0 m/s. This is a reasonable wave speed for a spring on a tabletop. A common mistake is using the total length as the wavelength (4.5 m). Always count the number of complete cycles in the given length. One complete cycle is: crest → trough → next crest (or equivalently, equilibrium → crest → equilibrium → trough → equilibrium).'
-    },
+      diveDeep: 'Wavelength (λ) is the distance between two consecutive points in phase (e.g., crest to crest). The spring shows 3 complete wavelengths over 4.5 m, so λ = 4.5/3 = 1.5 m. We can verify using the wave equation: v = fλ = (2.0 Hz)(1.5 m) = 3.0 m/s. This is a reasonable wave speed for a spring on a tabletop. A common mistake is using the total length as the wavelength (4.5 m). Always count the number of complete cycles in the given length. One complete cycle is: crest → trough → next crest (or equivalently, equilibrium → crest → equilibrium → trough → equilibrium).', image: '/images/exams/phys-june-2022/context_56_57.png' },
     {
       number: 58,
       part: 'B-2',
@@ -671,8 +666,7 @@ export default {
       topic: 'Energy & Work',
       modelAnswer: 'W = F × d = (80. N)(20. m) = 1600 J',
       explanation: 'Work = Force × distance along the direction of motion. The 80 N force acts along the 20 m incline: W = (80)(20) = 1600 J.',
-      diveDeep: 'Work done by a force: W = F·d·cos θ, where θ is the angle between force and displacement. The applied force (80 N) is parallel to the incline (displacement of 20 m), so θ = 0° and cos 0° = 1. W = (80 N)(20 m) = 1600 J. A common mistake is using the vertical height (10 m) instead of the incline length (20 m). The distance d in W = Fd must be the displacement along the direction of the force, not the vertical component. This total work (1600 J) exceeds the gravitational PE gained (1000 J) — the difference is the work done against friction (600 J).'
-    },
+      diveDeep: 'Work done by a force: W = F·d·cos θ, where θ is the angle between force and displacement. The applied force (80 N) is parallel to the incline (displacement of 20 m), so θ = 0° and cos 0° = 1. W = (80 N)(20 m) = 1600 J. A common mistake is using the vertical height (10 m) instead of the incline length (20 m). The distance d in W = Fd must be the displacement along the direction of the force, not the vertical component. This total work (1600 J) exceeds the gravitational PE gained (1000 J) — the difference is the work done against friction (600 J).', image: '/images/exams/phys-june-2022/context_58_60.png' },
     {
       number: 59,
       part: 'B-2',
@@ -681,8 +675,7 @@ export default {
       topic: 'Energy & Work',
       modelAnswer: 'PE = W × h = (100. N)(10. m) = 1000 J\n(where W = weight = 100. N = mg, h = 10. m vertical height)',
       explanation: 'Gravitational PE gained = mgh = weight × vertical height = (100 N)(10 m) = 1000 J.',
-      diveDeep: 'Gravitational potential energy: PE = mgh, where h is the vertical height gained. Since weight = mg = 100 N: PE = (100 N)(10 m) = 1000 J. Only the vertical height matters for gravitational PE — not the length of the incline. A common mistake is using the incline length (20 m) instead of the vertical height (10 m). Gravitational PE depends on the vertical position, not the path taken. This is why PE is a conservative form of energy. Comparing: W_applied = 1600 J, ΔPE = 1000 J. The 600 J difference was converted to thermal energy by friction.'
-    },
+      diveDeep: 'Gravitational potential energy: PE = mgh, where h is the vertical height gained. Since weight = mg = 100 N: PE = (100 N)(10 m) = 1000 J. Only the vertical height matters for gravitational PE — not the length of the incline. A common mistake is using the incline length (20 m) instead of the vertical height (10 m). Gravitational PE depends on the vertical position, not the path taken. This is why PE is a conservative form of energy. Comparing: W_applied = 1600 J, ΔPE = 1000 J. The 600 J difference was converted to thermal energy by friction.', image: '/images/exams/phys-june-2022/context_58_60.png' },
     {
       number: 60,
       part: 'B-2',
@@ -691,8 +684,7 @@ export default {
       topic: 'Energy & Work',
       modelAnswer: 'The work done by the applied force (1600 J) is greater than the gravitational PE gained (1000 J) because some of the work done by the applied force was used to overcome friction between the box and the incline. The work done against friction was converted to thermal (heat) energy. W_friction = 1600 − 1000 = 600 J.',
       explanation: 'Some of the input work is dissipated as heat due to friction between the box and incline surface, so not all work converts to gravitational PE.',
-      diveDeep: 'Energy conservation: W_applied = ΔPE + W_friction. Here: 1600 J = 1000 J + W_friction → W_friction = 600 J. The friction force converts mechanical energy to thermal energy (heat), which is not recoverable. This is why real machines are less than 100% efficient — some energy is always lost to friction/heat. Efficiency = useful energy output / total energy input = 1000/1600 = 62.5%. If the surface were frictionless, all 1600 J would convert to PE and you could lower the box to recover all 1600 J — but in reality, the 600 J is permanently lost as heat.'
-    },
+      diveDeep: 'Energy conservation: W_applied = ΔPE + W_friction. Here: 1600 J = 1000 J + W_friction → W_friction = 600 J. The friction force converts mechanical energy to thermal energy (heat), which is not recoverable. This is why real machines are less than 100% efficient — some energy is always lost to friction/heat. Efficiency = useful energy output / total energy input = 1000/1600 = 62.5%. If the surface were frictionless, all 1600 J would convert to PE and you could lower the box to recover all 1600 J — but in reality, the 600 J is permanently lost as heat.', image: '/images/exams/phys-june-2022/context_58_60.png' },
     {
       number: 61,
       part: 'B-2',
@@ -701,8 +693,7 @@ export default {
       topic: 'Electricity',
       modelAnswer: 'Equation: Req = R1 + R2 (series)\nSubstitution: Req = 110. Ω + 220. Ω\nAnswer: Req = 330. Ω',
       explanation: 'In a series circuit, equivalent resistance = sum of individual resistances: Req = 110 + 220 = 330 Ω.',
-      diveDeep: 'Series circuit rule: Req = R₁ + R₂ + ... = 110 + 220 = 330 Ω. In series, current has only one path, so each resistor adds to the total resistance. The equivalent resistance is always greater than any individual resistor in a series combination. Contrast with parallel: 1/Req = 1/R₁ + 1/R₂, giving Req < either individual resistor. For this series circuit: I_total = V/Req = 6.00/330 ≈ 0.0182 A flows through both resistors. V₁ = IR₁ = 0.0182 × 110 = 2.00 V; V₂ = IR₂ = 0.0182 × 220 = 4.00 V. Check: V₁ + V₂ = 6.00 V ✓.'
-    },
+      diveDeep: 'Series circuit rule: Req = R₁ + R₂ + ... = 110 + 220 = 330 Ω. In series, current has only one path, so each resistor adds to the total resistance. The equivalent resistance is always greater than any individual resistor in a series combination. Contrast with parallel: 1/Req = 1/R₁ + 1/R₂, giving Req < either individual resistor. For this series circuit: I_total = V/Req = 6.00/330 ≈ 0.0182 A flows through both resistors. V₁ = IR₁ = 0.0182 × 110 = 2.00 V; V₂ = IR₂ = 0.0182 × 220 = 4.00 V. Check: V₁ + V₂ = 6.00 V ✓.', image: '/images/exams/phys-june-2022/context_61_65.png' },
     {
       number: 63,
       part: 'B-2',
@@ -711,8 +702,7 @@ export default {
       topic: 'Electricity',
       modelAnswer: 'Equation: I = V/R (Ohm\'s Law)\nSubstitution: I = 6.00 V / 330. Ω\nAnswer: I = 0.0182 A ≈ 1.82 × 10⁻² A',
       explanation: 'Using Ohm\'s law: I = V/Req = 6.00 V / 330 Ω ≈ 0.0182 A.',
-      diveDeep: 'Ohm\'s law: V = IR → I = V/R. Using the equivalent resistance from Q61–62: I = 6.00/330 ≈ 0.01818 A ≈ 1.82 × 10⁻² A. In a series circuit, this same current flows through both resistors. Voltage drops: V₁₁₀ = IR = (0.01818)(110) ≈ 2.00 V; V₂₂₀ = (0.01818)(220) ≈ 4.00 V. The 220 Ω resistor gets twice the voltage of the 110 Ω resistor (ratio matches resistance ratio). This verifies the voltage divider principle: V ∝ R in series. Power in 110 Ω: P = I²R = (0.01818)²(110) ≈ 0.0364 W. Power in 220 Ω: P = (0.01818)²(220) ≈ 0.0727 W.'
-    },
+      diveDeep: 'Ohm\'s law: V = IR → I = V/R. Using the equivalent resistance from Q61–62: I = 6.00/330 ≈ 0.01818 A ≈ 1.82 × 10⁻² A. In a series circuit, this same current flows through both resistors. Voltage drops: V₁₁₀ = IR = (0.01818)(110) ≈ 2.00 V; V₂₂₀ = (0.01818)(220) ≈ 4.00 V. The 220 Ω resistor gets twice the voltage of the 110 Ω resistor (ratio matches resistance ratio). This verifies the voltage divider principle: V ∝ R in series. Power in 110 Ω: P = I²R = (0.01818)²(110) ≈ 0.0364 W. Power in 220 Ω: P = (0.01818)²(220) ≈ 0.0727 W.', image: '/images/exams/phys-june-2022/context_61_65.png' },
     {
       number: 65,
       part: 'B-2',
@@ -721,8 +711,7 @@ export default {
       topic: 'Electricity',
       modelAnswer: 'P = I²R. In a series circuit, I is the same through both resistors.\nP₁₁₀ = I²(110) and P₂₂₀ = I²(220).\nSince P ∝ R for same current: P₂₂₀ = 2 × P₁₁₀.\nThe 220-ohm resistor dissipates twice the power of the 110-ohm resistor.',
       explanation: 'In a series circuit (same current), power is proportional to resistance (P = I²R). The 220 Ω resistor dissipates twice the power of the 110 Ω resistor.',
-      diveDeep: 'Power: P = I²R. In series, current I is equal through both resistors. So P ∝ R: P₂₂₀/P₁₁₀ = 220/110 = 2. The 220 Ω resistor dissipates twice as much power. Numerically: I ≈ 0.01818 A; P₁₁₀ = (0.01818)²(110) ≈ 0.0364 W; P₂₂₀ = (0.01818)²(220) ≈ 0.0727 W ≈ 2 × 0.0364 W. Note: In a parallel circuit (same voltage), P ∝ 1/R — the smaller resistor dissipates more power. The key is to first identify series (same I) or parallel (same V) configuration before comparing power. This distinction is frequently tested on the Regents.'
-    },
+      diveDeep: 'Power: P = I²R. In series, current I is equal through both resistors. So P ∝ R: P₂₂₀/P₁₁₀ = 220/110 = 2. The 220 Ω resistor dissipates twice as much power. Numerically: I ≈ 0.01818 A; P₁₁₀ = (0.01818)²(110) ≈ 0.0364 W; P₂₂₀ = (0.01818)²(220) ≈ 0.0727 W ≈ 2 × 0.0364 W. Note: In a parallel circuit (same voltage), P ∝ 1/R — the smaller resistor dissipates more power. The key is to first identify series (same I) or parallel (same V) configuration before comparing power. This distinction is frequently tested on the Regents.', image: '/images/exams/phys-june-2022/context_61_65.png' },
     // Part C
     {
       number: 66,
@@ -732,8 +721,7 @@ export default {
       topic: 'Kinematics',
       modelAnswer: 'Equation: vx = Δx/t\nSubstitution: vx = 2.0 m / 0.80 s\nAnswer: vx = 2.5 m/s',
       explanation: 'Horizontal velocity is constant (no friction). vx = horizontal distance / time = 2.0 m / 0.80 s = 2.5 m/s.',
-      diveDeep: 'In projectile motion (no air resistance), the horizontal velocity component is constant throughout the flight. vx = Δx/t = 2.0 m / 0.80 s = 2.5 m/s. This value remains constant from launch to landing. The horizontal distance and total time of flight give us the horizontal velocity directly. This is the simplest part of the projectile problem — no acceleration in x, so vx = Δx/Δt. The target being at the same height as the release point confirms the ball completes a symmetric parabolic arc, with total flight time 0.80 s. The maximum height information (0.78 m) will be used to find the initial vertical velocity.'
-    },
+      diveDeep: 'In projectile motion (no air resistance), the horizontal velocity component is constant throughout the flight. vx = Δx/t = 2.0 m / 0.80 s = 2.5 m/s. This value remains constant from launch to landing. The horizontal distance and total time of flight give us the horizontal velocity directly. This is the simplest part of the projectile problem — no acceleration in x, so vx = Δx/Δt. The target being at the same height as the release point confirms the ball completes a symmetric parabolic arc, with total flight time 0.80 s. The maximum height information (0.78 m) will be used to find the initial vertical velocity.', image: '/images/exams/phys-june-2022/context_66_70.png' },
     {
       number: 68,
       part: 'C',
@@ -742,8 +730,7 @@ export default {
       topic: 'Kinematics',
       modelAnswer: 'At maximum height, vy = 0. Using v = v₀ − gt, at max height:\n0 = v₀y − (9.81 m/s²)(0.40 s)\nv₀y = 3.9 m/s\n\nAlternatively using Δy = ½(v₀y + vy)t:\n0.78 m = ½(v₀y + 0)(0.40 s)\nv₀y = 2(0.78)/0.40 = 3.9 m/s',
       explanation: 'At maximum height, vertical velocity = 0. Time to reach max height = 0.40 s (half of 0.80 s). Using v = v₀ − gt: v₀y = g·t = (9.81)(0.40) ≈ 3.9 m/s.',
-      diveDeep: 'At maximum height, the vertical component of velocity = 0. Since the target is at the same height as the launch point, the trajectory is symmetric: time to max height = total time/2 = 0.80/2 = 0.40 s. Using v_y = v₀y − gt: 0 = v₀y − (9.81)(0.40) → v₀y = 3.924 ≈ 3.9 m/s. Verification: Δy = v₀y·t − ½gt² = (3.9)(0.40) − ½(9.81)(0.40)² = 1.56 − 0.7848 ≈ 0.78 m ✓. The total initial speed: v₀ = √(vx² + vy²) = √(2.5² + 3.9²) = √(6.25 + 15.21) = √21.46 ≈ 4.6 m/s.'
-    },
+      diveDeep: 'At maximum height, the vertical component of velocity = 0. Since the target is at the same height as the launch point, the trajectory is symmetric: time to max height = total time/2 = 0.80/2 = 0.40 s. Using v_y = v₀y − gt: 0 = v₀y − (9.81)(0.40) → v₀y = 3.924 ≈ 3.9 m/s. Verification: Δy = v₀y·t − ½gt² = (3.9)(0.40) − ½(9.81)(0.40)² = 1.56 − 0.7848 ≈ 0.78 m ✓. The total initial speed: v₀ = √(vx² + vy²) = √(2.5² + 3.9²) = √(6.25 + 15.21) = √21.46 ≈ 4.6 m/s.', image: '/images/exams/phys-june-2022/context_66_70.png' },
     {
       number: 70,
       part: 'C',
@@ -752,8 +739,7 @@ export default {
       topic: 'Kinematics',
       modelAnswer: 'Draw an arrow pointing straight downward from point P. At the maximum height, the ball\'s acceleration is entirely due to gravity, which acts straight downward at g = 9.81 m/s² regardless of the velocity direction.',
       explanation: 'At point P (maximum height), acceleration is solely gravitational — pointing straight downward. The horizontal velocity is nonzero, but acceleration has no horizontal component (neglecting friction).',
-      diveDeep: 'A common misconception is that at the top of a projectile\'s path, acceleration is zero (because velocity is not changing direction at that instant). This is incorrect: acceleration due to gravity (9.81 m/s² downward) acts at every point during projectile motion, including the apex. At point P, the vertical velocity component is momentarily zero, but acceleration remains g downward. The horizontal velocity (2.5 m/s) continues unchanged. The acceleration arrow must be vertical (downward) — not angled, not zero length. This is one of the most commonly missed points on Regents projectile questions.'
-    },
+      diveDeep: 'A common misconception is that at the top of a projectile\'s path, acceleration is zero (because velocity is not changing direction at that instant). This is incorrect: acceleration due to gravity (9.81 m/s² downward) acts at every point during projectile motion, including the apex. At point P, the vertical velocity component is momentarily zero, but acceleration remains g downward. The horizontal velocity (2.5 m/s) continues unchanged. The acceleration arrow must be vertical (downward) — not angled, not zero length. This is one of the most commonly missed points on Regents projectile questions.', image: '/images/exams/phys-june-2022/context_66_70.png' },
     {
       number: 71,
       part: 'C',
@@ -762,8 +748,7 @@ export default {
       topic: 'Energy & Work',
       modelAnswer: 'PE_spring = ½kx²\nPE_spring = ½(2600 N/m)(0.10 m)²\nPE_spring = ½(2600)(0.010)\nPE_spring = 13 J',
       explanation: 'Elastic PE = ½kx² = ½(2600)(0.10)² = ½(2600)(0.01) = 13 J.',
-      diveDeep: 'Elastic potential energy stored in a spring: PE = ½kx². Here k = 2600 N/m, x = 0.10 m. PE = ½(2600)(0.10)² = ½(2600)(0.01) = 13 J. Unit check: (N/m)(m²) = N·m = J ✓. Note: the formula uses x² — squaring the compression. Doubling the compression quadruples the stored energy. A common mistake is forgetting the ½ or squaring incorrectly: ½ × 2600 × 0.10 = 130 J (forgot to square x). This 13 J will be entirely converted to kinetic energy of the 3.0 kg block (Question 72–73) assuming no energy loss.'
-    },
+      diveDeep: 'Elastic potential energy stored in a spring: PE = ½kx². Here k = 2600 N/m, x = 0.10 m. PE = ½(2600)(0.10)² = ½(2600)(0.01) = 13 J. Unit check: (N/m)(m²) = N·m = J ✓. Note: the formula uses x² — squaring the compression. Doubling the compression quadruples the stored energy. A common mistake is forgetting the ½ or squaring incorrectly: ½ × 2600 × 0.10 = 130 J (forgot to square x). This 13 J will be entirely converted to kinetic energy of the 3.0 kg block (Question 72–73) assuming no energy loss.', image: '/images/exams/phys-june-2022/context_71_75.png' },
     {
       number: 72,
       part: 'C',
@@ -772,8 +757,7 @@ export default {
       topic: 'Energy & Work',
       modelAnswer: 'Conservation of energy: PE_spring = KE_block\n½kx² = ½mv₁²\n13 J = ½(3.0 kg)v₁²\nv₁² = 2(13)/3.0 = 26/3.0 = 8.667 m²/s²\nv₁ = √8.667 ≈ 2.9 m/s',
       explanation: 'All spring PE converts to block KE: 13 J = ½(3.0)v₁² → v₁ = √(2 × 13/3.0) ≈ 2.9 m/s.',
-      diveDeep: 'Energy conservation: PE_spring = KE_block. ½kx² = ½mv₁². The ½ cancels: kx² = mv₁² → v₁ = √(kx²/m) = √(2600 × 0.01/3.0) = √(26/3.0) = √8.667 ≈ 2.944 ≈ 2.9 m/s. Alternatively: use PE = 13 J (from Q71): 13 = ½(3.0)v₁² → v₁² = 26/3 → v₁ ≈ 2.9 m/s. This speed (v₁ = 2.9 m/s) is the initial speed before the collision in Q74–75. A common mistake is not taking the square root (v² ≠ v). Always confirm units: √(J/kg) = √(N·m/kg) = √(kg·m²/s²/kg) = m/s ✓.'
-    },
+      diveDeep: 'Energy conservation: PE_spring = KE_block. ½kx² = ½mv₁². The ½ cancels: kx² = mv₁² → v₁ = √(kx²/m) = √(2600 × 0.01/3.0) = √(26/3.0) = √8.667 ≈ 2.944 ≈ 2.9 m/s. Alternatively: use PE = 13 J (from Q71): 13 = ½(3.0)v₁² → v₁² = 26/3 → v₁ ≈ 2.9 m/s. This speed (v₁ = 2.9 m/s) is the initial speed before the collision in Q74–75. A common mistake is not taking the square root (v² ≠ v). Always confirm units: √(J/kg) = √(N·m/kg) = √(kg·m²/s²/kg) = m/s ✓.', image: '/images/exams/phys-june-2022/context_71_75.png' },
     {
       number: 74,
       part: 'C',
@@ -782,8 +766,7 @@ export default {
       topic: 'Forces & Newton',
       modelAnswer: 'Conservation of momentum (perfectly inelastic collision):\nm₁v₁ + m₂v₂_initial = (m₁ + m₂)v₂\n(3.0 kg)(2.9 m/s) + (1.0 kg)(0) = (3.0 + 1.0 kg)v₂\n8.7 kg·m/s = (4.0 kg)v₂\nv₂ = 8.7/4.0 = 2.2 m/s',
       explanation: 'Using conservation of momentum for a perfectly inelastic collision: p_before = p_after → (3.0)(2.9) = (4.0)v₂ → v₂ = 8.7/4.0 = 2.2 m/s.',
-      diveDeep: 'Perfectly inelastic collision (objects stick together): m₁v₁ + m₂(0) = (m₁ + m₂)v₂. With m₁ = 3.0 kg, v₁ = 2.9 m/s, m₂ = 1.0 kg: (3.0)(2.9) = (4.0)v₂ → 8.7 = 4.0v₂ → v₂ = 2.175 ≈ 2.2 m/s. Momentum is conserved in all collisions (no external horizontal force). KE check: KE_before = ½(3.0)(2.9)² = ½(3.0)(8.41) = 12.6 J; KE_after = ½(4.0)(2.2)² = ½(4.0)(4.84) = 9.68 J. KE lost = 12.6 − 9.7 ≈ 2.9 J converted to heat/deformation. This is characteristic of inelastic collisions: momentum conserved, kinetic energy not conserved.'
-    },
+      diveDeep: 'Perfectly inelastic collision (objects stick together): m₁v₁ + m₂(0) = (m₁ + m₂)v₂. With m₁ = 3.0 kg, v₁ = 2.9 m/s, m₂ = 1.0 kg: (3.0)(2.9) = (4.0)v₂ → 8.7 = 4.0v₂ → v₂ = 2.175 ≈ 2.2 m/s. Momentum is conserved in all collisions (no external horizontal force). KE check: KE_before = ½(3.0)(2.9)² = ½(3.0)(8.41) = 12.6 J; KE_after = ½(4.0)(2.2)² = ½(4.0)(4.84) = 9.68 J. KE lost = 12.6 − 9.7 ≈ 2.9 J converted to heat/deformation. This is characteristic of inelastic collisions: momentum conserved, kinetic energy not conserved.', image: '/images/exams/phys-june-2022/context_71_75.png' },
     {
       number: 76,
       part: 'C',
@@ -832,8 +815,7 @@ export default {
       topic: 'Waves & Sound',
       modelAnswer: 'Using a protractor on the diagram, the angle of incidence at point O (measured from the normal to the flat surface) is approximately 40° (accept 38°–42° based on measurement).',
       explanation: 'The angle of incidence is measured between the incident ray and the normal to the flat surface at point O. From the diagram, this is approximately 40°.',
-      diveDeep: 'Angle of incidence is always measured from the normal (perpendicular to the surface), not from the surface itself. The normal at the flat surface of the semicircular block is perpendicular to that flat surface. The light enters the curved surface perpendicular to it (no refraction at entry) and travels straight to point O on the flat surface. The angle between the ray and the normal at O is the angle of incidence. For fused quartz: n = 1.46 (from Regents reference table). The critical angle for total internal reflection: sin θ_c = 1/n = 1/1.46 → θ_c ≈ 43.2°. If θ_i < 43°, the light refracts out; if θ_i > 43°, total internal reflection occurs.'
-    },
+      diveDeep: 'Angle of incidence is always measured from the normal (perpendicular to the surface), not from the surface itself. The normal at the flat surface of the semicircular block is perpendicular to that flat surface. The light enters the curved surface perpendicular to it (no refraction at entry) and travels straight to point O on the flat surface. The angle between the ray and the normal at O is the angle of incidence. For fused quartz: n = 1.46 (from Regents reference table). The critical angle for total internal reflection: sin θ_c = 1/n = 1/1.46 → θ_c ≈ 43.2°. If θ_i < 43°, the light refracts out; if θ_i > 43°, total internal reflection occurs.', image: '/images/exams/phys-june-2022/context_81_85.png' },
     {
       number: 82,
       part: 'C',
@@ -842,8 +824,7 @@ export default {
       topic: 'Waves & Sound',
       modelAnswer: 'Equation: n₁ sin θ₁ = n₂ sin θ₂ (Snell\'s Law)\nn₁ = 1.46 (fused quartz, from reference table), θ₁ = 40°, n₂ = 1.00 (air)\n(1.46)(sin 40°) = (1.00)(sin θ₂)\n(1.46)(0.643) = sin θ₂\nsin θ₂ = 0.938\nθ₂ = sin⁻¹(0.938) ≈ 69.6° ≈ 70°',
       explanation: 'Using Snell\'s law: n_quartz × sin(40°) = n_air × sin(θ₂) → 1.46 × 0.643 = 1.00 × sin(θ₂) → θ₂ ≈ 70°.',
-      diveDeep: 'Snell\'s law: n₁ sin θ₁ = n₂ sin θ₂. From the Regents reference table: n_fused_quartz = 1.46 for f = 5.09 × 10¹⁴ Hz. n_air = 1.00 (air ≈ vacuum). sin θ₂ = (n₁/n₂) sin θ₁ = (1.46/1.00)(sin 40°) = 1.46 × 0.6428 ≈ 0.938. θ₂ = arcsin(0.938) ≈ 69.6° ≈ 70°. Note: sin θ₂ = 0.938 < 1, so refraction occurs (not total internal reflection). If θ_i were 43°+, sin θ₂ > 1 and light would undergo total internal reflection. The refracted ray bends away from the normal (from denser quartz to less dense air), confirming the ray speeds up as it exits.'
-    },
+      diveDeep: 'Snell\'s law: n₁ sin θ₁ = n₂ sin θ₂. From the Regents reference table: n_fused_quartz = 1.46 for f = 5.09 × 10¹⁴ Hz. n_air = 1.00 (air ≈ vacuum). sin θ₂ = (n₁/n₂) sin θ₁ = (1.46/1.00)(sin 40°) = 1.46 × 0.6428 ≈ 0.938. θ₂ = arcsin(0.938) ≈ 69.6° ≈ 70°. Note: sin θ₂ = 0.938 < 1, so refraction occurs (not total internal reflection). If θ_i were 43°+, sin θ₂ > 1 and light would undergo total internal reflection. The refracted ray bends away from the normal (from denser quartz to less dense air), confirming the ray speeds up as it exits.', image: '/images/exams/phys-june-2022/context_81_85.png' },
     {
       number: 84,
       part: 'C',
@@ -852,8 +833,7 @@ export default {
       topic: 'Waves & Sound',
       modelAnswer: 'Draw a straight line from point O into the air (below the flat surface) at approximately 70° from the normal to the flat surface, bending away from the normal (since light is going from denser medium to less dense medium, it speeds up and bends away from the normal).',
       explanation: 'The refracted ray exits at ~70° from the normal, drawn on the air side of the flat surface, bending away from the normal since light speeds up as it exits the quartz into air.',
-      diveDeep: 'Drawing guidelines: (1) Mark the normal (perpendicular to the flat surface at point O). (2) The refracted ray is on the air side (opposite side from incident ray relative to the surface). (3) Draw the ray at 70° from the normal, using a protractor. (4) The ray bends away from the normal (θ_refraction > θ_incidence), consistent with light going from a denser to a less dense medium. For full Regents credit: the ray must be on the correct side of the surface, the angle must be within a few degrees of 70°, and the ray must extend beyond point O. A protractor must be used for accuracy — do not estimate by eye alone.'
-    },
+      diveDeep: 'Drawing guidelines: (1) Mark the normal (perpendicular to the flat surface at point O). (2) The refracted ray is on the air side (opposite side from incident ray relative to the surface). (3) Draw the ray at 70° from the normal, using a protractor. (4) The ray bends away from the normal (θ_refraction > θ_incidence), consistent with light going from a denser to a less dense medium. For full Regents credit: the ray must be on the correct side of the surface, the angle must be within a few degrees of 70°, and the ray must extend beyond point O. A protractor must be used for accuracy — do not estimate by eye alone.', image: '/images/exams/phys-june-2022/context_81_85.png' },
     {
       number: 85,
       part: 'C',
@@ -862,7 +842,6 @@ export default {
       topic: 'Waves & Sound',
       modelAnswer: 'The frequency of light in fused quartz is the same as the frequency of light in air. Frequency does not change when light travels from one medium to another — only speed and wavelength change.',
       explanation: 'Frequency is unchanged when light changes medium. Only speed (v = c/n) and wavelength (λ = v/f) change between media; frequency remains constant.',
-      diveDeep: 'This is a fundamental principle of wave behavior: when a wave crosses a boundary between two media, the frequency remains constant. What changes is the speed (v = c/n) and wavelength (λ = v/f). In fused quartz: v = c/1.46 ≈ 2.05 × 10⁸ m/s; λ = v/f ≈ (2.05 × 10⁸)/(5.09 × 10¹⁴) ≈ 4.03 × 10⁻⁷ m. In air: v ≈ 3.00 × 10⁸ m/s; λ ≈ 5.89 × 10⁻⁷ m. The frequency (5.09 × 10¹⁴ Hz) is the same in both media. A common mistake is saying frequency changes — this is incorrect. The Regents tests this principle nearly every year: "frequency is unchanged when light changes medium."'
-    }
+      diveDeep: 'This is a fundamental principle of wave behavior: when a wave crosses a boundary between two media, the frequency remains constant. What changes is the speed (v = c/n) and wavelength (λ = v/f). In fused quartz: v = c/1.46 ≈ 2.05 × 10⁸ m/s; λ = v/f ≈ (2.05 × 10⁸)/(5.09 × 10¹⁴) ≈ 4.03 × 10⁻⁷ m. In air: v ≈ 3.00 × 10⁸ m/s; λ ≈ 5.89 × 10⁻⁷ m. The frequency (5.09 × 10¹⁴ Hz) is the same in both media. A common mistake is saying frequency changes — this is incorrect. The Regents tests this principle nearly every year: "frequency is unchanged when light changes medium."', image: '/images/exams/phys-june-2022/context_81_85.png' }
   ]
 }

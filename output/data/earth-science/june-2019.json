@@ -1,0 +1,1086 @@
+{
+  "subject": "earth-science",
+  "session": "june-2019",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The map below shows four major time zones of the United States. The locations of Boston and San Diego are shown. Mountain time zone Eastern time zone Boston San Diego Pacific time zone Central time zone What is the time in Boston when it is 11 a.m. in San Diego?",
+      "choices": [
+        "8 a.m.",
+        "2 p.m.",
+        "3 p.m.",
+        "noon"
+      ],
+      "image": "/images/exams/earth-science/june-2019/q1.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the spectral lines from the light emitted from a mixture of two gaseous elements in a laboratory on Earth. Blue Red If the same two elements were detected in a distant star that was moving away from Earth, how would the spectral lines appear?",
+      "choices": [
+        "The entire set of spectral lines would shift toward the red end.",
+        "The entire set of spectral lines would shift toward the blue end.",
+        "The spectral lines of the shorter wavelengths would move closer together.",
+        "The spectral lines of the longer wavelengths would move closer together."
+      ],
+      "image": "/images/exams/earth-science/june-2019/q2.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "written",
+      "text": "The diagram below shows Earth in orbit around the Sun, and the Moon in orbit around Earth. M1 and M2 indicate positions of the Moon in its orbit where eclipses might be seen from Earth. Earth\u00b7s orbit M1 M2\u00ac Sun Moon\u00b7s orbit (Not drawn to scale) Earth Which table correctly matches each type of eclipse with the orbital position of the Moon and the cause of each eclipse? Type of Eclipse Moon's Position Cause of Eclipse Type of Eclipse Moon's Position Cause of Eclipse Solar M1 Earth's shadow falls on Moon Solar M2 Earth's shadow falls on Moon Lunar M2 Moon's shadow falls on Earth Lunar M1 Moon's shadow falls on Earth ( 1 ) ( 3 ) Type of Eclipse Moon's Position Cause of Eclipse Type of Eclipse Moon's Position Cause of Eclipse Solar M1 Moon's shadow falls on Earth Solar M2 Moon's shadow falls on Earth Lunar M2 Earth's shadow falls on Moon Lunar M1 Earth's shadow falls on Moon ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/q3.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The timeline below represents the entire geologic history of Earth. The lettered dots on the timeline represent events in Earth\u2019s history. A B C D Present day Origin of Earth Which lettered dot best indicates the geologic time when humans \ufb01 rst appeared on Earth?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2019/q4.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Compared to our solar system, the universe is",
+      "choices": [
+        "younger, smaller, and contains fewer stars",
+        "younger, larger, and contains more stars",
+        "older, smaller, and contains fewer stars",
+        "older, larger, and contains more stars"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which motion allows an observer on Earth to view different constellations throughout the year?",
+      "choices": [
+        "Earth orbiting the Sun",
+        "constellations orbiting Earth",
+        "Earth orbiting the constellations",
+        "constellations orbiting the Sun"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "What is the approximate location of the Tasman Hot Spot in the Paci\ufb01 c Ocean?",
+      "choices": [
+        "36\u00b0 N 160\u00b0 W",
+        "36\u00b0 S 160\u00b0 E",
+        "160\u00b0 N 36\u00b0 W",
+        "160\u00b0 S 36\u00b0 E"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Most ozone is found in a region of Earth\u2019s atmosphere between 10 and 20 miles above Earth\u2019s surface. This temperature zone of the atmosphere is known as the",
+      "choices": [
+        "thermosphere",
+        "mesosphere",
+        "stratosphere",
+        "troposphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The Coriolis effect, which causes the curving of planetary winds, is a direct result of the",
+      "choices": [
+        "distance between Earth and the Sun",
+        "inclination of Earth\u2019s axis",
+        "orbiting of Earth around the Sun",
+        "spinning of Earth on its axis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "What is the dewpoint if the dry-bulb temperature is 18\u00b0C and the relative humidity is 64%?",
+      "choices": [
+        "14\u00b0C",
+        "11\u00b0C",
+        "9\u00b0C",
+        "4\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "When one gram of liquid water at its boiling point is changed into water vapor",
+      "choices": [
+        "334 J/g is gained from the surrounding environment",
+        "334 J/g is released into the surrounding environment",
+        "2260 J/g is gained from the surrounding environment",
+        "2260 J/g is released into the surrounding environment"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The cross section below represents some processes of the water cycle. Arrows represent the in\ufb01 ltration of water. The dashed line labeled X represents the uppermost level of Earth material that is saturated by groundwater. Ocean Groundwater Zone of saturation X Infiltration What is indicated by the dashed line labeled X?",
+      "choices": [
+        "watershed",
+        "water table",
+        "impermeable bedrock",
+        "impermeable soil"
+      ],
+      "image": "/images/exams/earth-science/june-2019/q12.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which index fossil in sedimentary surface bedrock most likely indicates that a marine environment once existed in the region where the sediments were deposited?",
+      "choices": [
+        "Mastodont",
+        "Condor",
+        "Eospirifer",
+        "Coelophysis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "written",
+      "text": "The three diagrams below represent three frontal boundaries with the surface locations of the fronts labeled A, B, and C. Arrows indicate direction of air movement. A Cold air Warm air B Cool air Warm air C Cold air Cool air Warm air Which table correctly matches each letter with the type of frontal boundary it represents? Letter Type of Frontal Boundary Letter Type of Frontal Boundary A Cold Front A Cold Front B Warm Front B Warm Front C Occluded Front C Stationary Front ( 1 ) ( 3 ) Letter Type of Frontal Boundary Letter Type of Frontal Boundary A Warm Front A Warm Front B Cold Front B Cold Front C Occluded Front C Stationary Front ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The cross section below indicates the geologic ages of the bedrock beneath the state of Michigan. These rocks formed from sediments deposited in an ancient depositional basin. This region is called the Michigan Basin. Glacial deposits cover most of the surface. 14,000 12,000 10,000 8,000 6,000 4,000 2,000 Sea level 2,000 Pennsylvanian Michigan Basin Jurassic Glacial deposits Sedimentary bedrock Precambrian Feet NW SE Mississippian Devonian Silurian Ordovician Cambrian Which process most likely caused the formation of the Michigan Basin?",
+      "choices": [
+        "uplift",
+        "faulting",
+        "metamorphism",
+        "downwarping"
+      ],
+      "image": "/images/exams/earth-science/june-2019/q15.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The cross section below represents prevailing winds, shown by arrows, moving over a coastal mountain range. Letters A through D represent locations on Earth\u2019s surface. Mountain range A Ocean B Prevailing winds D C Which location would most likely have cloud cover and precipitation?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2019/q16.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which Earth surface would most likely absorb the greatest amount of insolation on a sunny day if all of these surfaces have equal areas?",
+      "choices": [
+        "blacktop parking lot",
+        "white sand beach",
+        "surface of a calm lake",
+        "snow covered mountain slope"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Most of the infrared radiation given off by Earth\u2019s surface is absorbed in Earth\u2019s atmosphere by greenhouse gases such as water vapor, carbon dioxide, and",
+      "choices": [
+        "hydrogen",
+        "nitrogen",
+        "oxygen",
+        "methane"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The X on the map below indicates the region where the state of Washington is located on the present-day North American continent. X During which geologic period was the region of Washington State closest to the equator?",
+      "choices": [
+        "Cretaceous",
+        "Triassic",
+        "Mississippian",
+        "Ordovician"
+      ],
+      "image": "/images/exams/earth-science/june-2019/q19.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A climate event that occurs when surface water in the eastern equatorial area of the Paci\ufb01 c Ocean becomes warmer than normal and may cause a warm, dry winter in New York State is",
+      "choices": [
+        "an air mass formation",
+        "the Doppler effect",
+        "an El Ni \u02dcno",
+        "a monsoon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "In the New York State rock record, there is no bedrock from the Permian Period. Which two other entire geologic periods have no sediment or bedrock in the New York State rock record?",
+      "choices": [
+        "Cretaceous and Quaternary Periods",
+        "Paleogene and Neogene Periods",
+        "Triassic and Jurassic Periods",
+        "Mississippian and Pennsylvanian Periods"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The cross sections below represent two widely separated bedrock outcrops, 1 and 2. Letters A, B, C, and D identify some rock layers. Line XY represents a fault. The rock layers have not been overturned. Outcrop 1 C D B Outcrop 2 A X Y Which lettered rock layer is the youngest?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2019/q22.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "written",
+      "text": "The block diagram below represents the surface features in a landscape region. Which diagram best represents the general stream drainage pattern of this entire region? ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Compared to a landscape that develops in a cool, dry climate, a landscape that develops in a warm, rainy climate will most likely weather and erode",
+      "choices": [
+        "slower, so the landforms are more angular",
+        "slower, so the landforms are more rounded",
+        "faster, so the landforms are more angular",
+        "faster, so the landforms are more rounded"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Earth\u2019s crustal bedrock at the Mid-Atlantic Ridge is composed mostly of",
+      "choices": [
+        "basalt, with a density of 2.7 g/cm3",
+        "basalt, with a density of 3.0 g/cm3",
+        "granite, with a density of 2.7 g/cm3",
+        "granite, with a density of 3.0 g/cm3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "A seismic recording station located 4000 kilometers from the epicenter of an earthquake received the \ufb01 rst P-wave at 7:10:00 p.m. (h:min:s). Other information that could be determined from this recording was that the earthquake occurred at approximately",
+      "choices": [
+        "7:03:00 p.m., and the S-wave arrived at this station at 7:12:40 p.m.",
+        "7:03:00 p.m., and the S-wave arrived at this station at 7:15:40 p.m.",
+        "7:17:00 p.m., and the S-wave arrived at this station at 7:12:40 p.m.",
+        "7:17:00 p.m., and the S-wave arrived at this station at 7:15:40 p.m."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Which graph best represents the percentage by mass of elements of Earth\u2019s crust? Oxygen 46.1% Silicon 28.2% Other 25.7% ( 1 ) ( 2 ) Oxygen 94% Other 6% ( 4 ) Silicon 94% Other 6% Silicon 46.1% Oxygen 28.2% Other 25.7% ( 3 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The aerial photograph below shows an elongated hill near the Finger Lakes formed by glacial deposition in New York State. This elongated hill is best identi\ufb01 ed as a",
+      "choices": [
+        "kettle",
+        "moraine",
+        "sand dune",
+        "drumlin"
+      ],
+      "image": "/images/exams/earth-science/june-2019/q28.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a valley glacier altering the landscape. www.alicehenderson.com The result of this glacial action will be a",
+      "choices": [
+        "U-shaped valley with scratched and grooved bedrock",
+        "U-shaped valley with well-sorted, rounded sediment",
+        "V-shaped valley with scratched and grooved bedrock",
+        "V-shaped valley with well-sorted, rounded sediment"
+      ],
+      "image": "/images/exams/earth-science/june-2019/q29.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which element is always found in bioclastic sedimentary rocks?",
+      "choices": [
+        "iron",
+        "sodium",
+        "carbon",
+        "sulfur"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "What are two major factors that control the development of soil in a given location?",
+      "choices": [
+        "vegetative cover and slope",
+        "tectonic activity and elevation",
+        "erosion and transpiration",
+        "bedrock composition and climate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The cross section below represents rock units within Earth\u2019s crust. The geologic ages of two of the layers are shown. Silurian Cambrian Which sequence of geologic events occurred after the formation of the Cambrian limestone and before the formation of the Silurian limestone?",
+      "choices": [
+        "uplift \u2014\u203a weathering \u2014\u203a erosion \u2014\u203a subsidence",
+        "uplift \u2014\u203a subsidence \u2014\u203a erosion \u2014\u203a weathering",
+        "subsidence \u2014\u203a weathering \u2014\u203a erosion \u2014\u203a uplift",
+        "subsidence \u2014\u203a erosion \u2014\u203a uplift \u2014\u203a weathering"
+      ],
+      "image": "/images/exams/earth-science/june-2019/q32.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which two rocks contain the mineral quartz?",
+      "choices": [
+        "gabbro and schist",
+        "dunite and sandstone",
+        "granite and gneiss",
+        "pumice and scoria"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Which chemical formula represents the compo- sition of a mineral that usually exhibits fracture, not cleavage?",
+      "choices": [
+        "Mg3Si4O10(OH)2",
+        "NaCl",
+        "CaCO3",
+        "(Fe,Mg)2SiO4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which mineral is commonly used as the \u201clead\u201d in pencils?",
+      "choices": [
+        "pyrite",
+        "graphite",
+        "galena",
+        "\ufb02 uorite"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Based on the graph, the \ufb01 rst low tide on December 26 occurred at approximately",
+      "choices": [
+        "6 a.m.",
+        "11 a.m.",
+        "6 p.m.",
+        "11 p.m."
+      ],
+      "image": "/images/exams/earth-science/june-2019/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the graph below and on your knowledge of Earth science. The \ngraph shows changing ocean water levels, over a 3-day period, at a shoreline location at Kings Point, New York \non Long Island.\nWater Level (ft)\n\u20132\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0\n\u20131\n\u20132\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0\n\u20131\nTides at Kings Point, New York\nDecember 2015\na.m.\np.m.\nDec. 23\np.m.\na.m.\np.m.\n12\n6\n12\n6\n12\n6\n12\n6\n12\n6\n12\n6\n12\na.m.\nDec. 24\nDec. 25\nMidnight\nNoon\nMidnight\nNoon\nMidnight\nNoon\nMidnight\nWater Level (ft)\nTime",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "These Long Island tides show a pattern that is",
+      "choices": [
+        "cyclic and predictable",
+        "cyclic and unpredictable",
+        "noncyclic and predictable",
+        "noncyclic and unpredictable"
+      ],
+      "image": "/images/exams/earth-science/june-2019/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the graph below and on your knowledge of Earth science. The \ngraph shows changing ocean water levels, over a 3-day period, at a shoreline location at Kings Point, New York \non Long Island.\nWater Level (ft)\n\u20132\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0\n\u20131\n\u20132\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0\n\u20131\nTides at Kings Point, New York\nDecember 2015\na.m.\np.m.\nDec. 23\np.m.\na.m.\np.m.\n12\n6\n12\n6\n12\n6\n12\n6\n12\n6\n12\n6\n12\na.m.\nDec. 24\nDec. 25\nMidnight\nNoon\nMidnight\nNoon\nMidnight\nNoon\nMidnight\nWater Level (ft)\nTime",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "During which season in the Northern Hemisphere is Earth at aphelion?",
+      "choices": [
+        "winter",
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "image": "/images/exams/earth-science/june-2019/context_38_41.png",
+      "context": "Base your answers to questions 38 through 41 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth orbiting the Sun. Four positions of Earth in its orbit are labeled A, B, C, and D. \nLetter N represents the North Pole. Distances are indicated for aphelion (Earth\u2019s farthest position from the Sun \naround July 4) and perihelion (Earth\u2019s closest position to the Sun around January 3). Arrows indicate directions \nof movement.\nSun\n(Not drawn to scale)\nN\nDay\nNight\nN\nN\nNight\nDay\nArctic\nCircle\n147 million km\n152 million km\nN\nE\nq\nu\na\nt\no\nr\nD\nB\nC\nA",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Between which pair of lettered positions is the Sun\u2019s vertical ray moving from the equator southward to the Tropic of Capricorn?",
+      "choices": [
+        "A and B",
+        "B and C",
+        "C and D",
+        "D and A"
+      ],
+      "image": "/images/exams/earth-science/june-2019/context_38_41.png",
+      "context": "Base your answers to questions 38 through 41 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth orbiting the Sun. Four positions of Earth in its orbit are labeled A, B, C, and D. \nLetter N represents the North Pole. Distances are indicated for aphelion (Earth\u2019s farthest position from the Sun \naround July 4) and perihelion (Earth\u2019s closest position to the Sun around January 3). Arrows indicate directions \nof movement.\nSun\n(Not drawn to scale)\nN\nDay\nNight\nN\nN\nNight\nDay\nArctic\nCircle\n147 million km\n152 million km\nN\nE\nq\nu\na\nt\no\nr\nD\nB\nC\nA",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Approximately how many times does Earth rotate as it moves in its orbit from position A back to position A?",
+      "choices": [
+        "1 time",
+        "15 times",
+        "24 times",
+        "365 times"
+      ],
+      "image": "/images/exams/earth-science/june-2019/context_38_41.png",
+      "context": "Base your answers to questions 38 through 41 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth orbiting the Sun. Four positions of Earth in its orbit are labeled A, B, C, and D. \nLetter N represents the North Pole. Distances are indicated for aphelion (Earth\u2019s farthest position from the Sun \naround July 4) and perihelion (Earth\u2019s closest position to the Sun around January 3). Arrows indicate directions \nof movement.\nSun\n(Not drawn to scale)\nN\nDay\nNight\nN\nN\nNight\nDay\nArctic\nCircle\n147 million km\n152 million km\nN\nE\nq\nu\na\nt\no\nr\nD\nB\nC\nA",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "What is the tilt of Earth\u2019s rotational axis relative to a line perpendicular to the plane of Earth\u2019s orbit?",
+      "choices": [
+        "15\u00b0",
+        "23.5\u00b0",
+        "66.5\u00b0",
+        "90\u00b0"
+      ],
+      "image": "/images/exams/earth-science/june-2019/context_38_41.png",
+      "context": "Base your answers to questions 38 through 41 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth orbiting the Sun. Four positions of Earth in its orbit are labeled A, B, C, and D. \nLetter N represents the North Pole. Distances are indicated for aphelion (Earth\u2019s farthest position from the Sun \naround July 4) and perihelion (Earth\u2019s closest position to the Sun around January 3). Arrows indicate directions \nof movement.\nSun\n(Not drawn to scale)\nN\nDay\nNight\nN\nN\nNight\nDay\nArctic\nCircle\n147 million km\n152 million km\nN\nE\nq\nu\na\nt\no\nr\nD\nB\nC\nA",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The surface wind circulation pattern around the center of this storm system is",
+      "choices": [
+        "inward and clockwise",
+        "inward and counterclockwise",
+        "outward and clockwise",
+        "outward and counterclockwise"
+      ],
+      "image": "/images/exams/earth-science/june-2019/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the map below and on your knowledge of Earth science. \nThe map shows a composite of Doppler radar images. Darker shadings indicate the precipitation pattern of a \nlarge storm system over the eastern United States.\nN",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The best evidence on a weather map to indicate high-speed winds near the center of this storm system would most likely be",
+      "choices": [
+        "cloud cover of 100%",
+        "type of precipitation",
+        "temperature and dewpoint values",
+        "isobars drawn close together"
+      ],
+      "image": "/images/exams/earth-science/june-2019/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the map below and on your knowledge of Earth science. \nThe map shows a composite of Doppler radar images. Darker shadings indicate the precipitation pattern of a \nlarge storm system over the eastern United States.\nN",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "As this storm system follows a normal storm track, it will most likely move toward the",
+      "choices": [
+        "southeast",
+        "southwest",
+        "northeast",
+        "northwest"
+      ],
+      "image": "/images/exams/earth-science/june-2019/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the map below and on your knowledge of Earth science. \nThe map shows a composite of Doppler radar images. Darker shadings indicate the precipitation pattern of a \nlarge storm system over the eastern United States.\nN",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Which type of plate boundary is represented at point A?",
+      "choices": [
+        "divergent",
+        "convergent",
+        "transform",
+        "complex"
+      ],
+      "image": "/images/exams/earth-science/june-2019/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the passage and map below and on your knowledge of Earth \nscience. The map shows the location of the epicenter (\n) of a major earthquake that occurred about 1700 years \nago. Point A represents a location on a tectonic plate boundary. Plates X and Y represent major tectonic plates. \nThe island of Crete; the Anatolian Plate, which is a minor tectonic plate; and the Hellenic Trench have been \nlabeled. Arrows indicate the relative directions of plate motion.\nCrete Earthquake\nScientists have located the geological fault, off the coast of Crete in the Mediterranean \nSea, that likely shifted, causing a huge earthquake in the year 365 that devastated life \nand property on Crete. The southwestern coastal region of Crete was uplifted, as \nevidenced by remains of corals and other sea life now found on land 10 meters above \nsea level. Scientists measured the age of these corals to verify when this event occurred. \nThis earthquake caused a tsunami that devastated the southern and eastern coasts of the \nMediterranean Sea. It is estimated that earthquakes along the fault, associated with the \nHellenic Trench, may occur about every 800 years.\nMediterranean Sea\nBlack Sea\nCrete\n30\u00b0 N\n35\u00b0 N\n40\u00b0 N\n45\u00b0 N\n30\u00b0 N\n35\u00b0 N\n40\u00b0 N\n45\u00b0 N\n20\u00b0 E\n25\u00b0 E\n30\u00b0 E\n35\u00b0 E\n40\u00b0 E\n20\u00b0 E\n25\u00b0 E\n30\u00b0 E\n35\u00b0 E\n40\u00b0 E\nPlate X\nPlate Y\nA\n400 km\nAnatolian Plate\nEpicenter\nArabian\nPlate\nHellen\ni\nc\n \nT\nr\nen\nc\nh",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "What are the names of the major tectonic plates X and Y?",
+      "choices": [
+        "X \u0002 Eurasian Plate; Y \u0002 African Plate",
+        "X \u0002 Eurasian Plate; Y \u0002 Arabian Plate",
+        "X \u0002 Indian-Australian Plate; Y \u0002 African Plate",
+        "X \u0002 Indian-Australian Plate; Y \u0002 Arabian Plate"
+      ],
+      "image": "/images/exams/earth-science/june-2019/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the passage and map below and on your knowledge of Earth \nscience. The map shows the location of the epicenter (\n) of a major earthquake that occurred about 1700 years \nago. Point A represents a location on a tectonic plate boundary. Plates X and Y represent major tectonic plates. \nThe island of Crete; the Anatolian Plate, which is a minor tectonic plate; and the Hellenic Trench have been \nlabeled. Arrows indicate the relative directions of plate motion.\nCrete Earthquake\nScientists have located the geological fault, off the coast of Crete in the Mediterranean \nSea, that likely shifted, causing a huge earthquake in the year 365 that devastated life \nand property on Crete. The southwestern coastal region of Crete was uplifted, as \nevidenced by remains of corals and other sea life now found on land 10 meters above \nsea level. Scientists measured the age of these corals to verify when this event occurred. \nThis earthquake caused a tsunami that devastated the southern and eastern coasts of the \nMediterranean Sea. It is estimated that earthquakes along the fault, associated with the \nHellenic Trench, may occur about every 800 years.\nMediterranean Sea\nBlack Sea\nCrete\n30\u00b0 N\n35\u00b0 N\n40\u00b0 N\n45\u00b0 N\n30\u00b0 N\n35\u00b0 N\n40\u00b0 N\n45\u00b0 N\n20\u00b0 E\n25\u00b0 E\n30\u00b0 E\n35\u00b0 E\n40\u00b0 E\n20\u00b0 E\n25\u00b0 E\n30\u00b0 E\n35\u00b0 E\n40\u00b0 E\nPlate X\nPlate Y\nA\n400 km\nAnatolian Plate\nEpicenter\nArabian\nPlate\nHellen\ni\nc\n \nT\nr\nen\nc\nh",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which two New York State index fossils are most closely related to the corals that were radioactively dated in this study?",
+      "choices": [
+        "Eucalyptocrinus and Ctenocrinus",
+        "Elliptocephala and Phacops",
+        "Maclurites and Platyceras",
+        "Lichenaria and Pleurodictyum"
+      ],
+      "image": "/images/exams/earth-science/june-2019/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the passage and map below and on your knowledge of Earth \nscience. The map shows the location of the epicenter (\n) of a major earthquake that occurred about 1700 years \nago. Point A represents a location on a tectonic plate boundary. Plates X and Y represent major tectonic plates. \nThe island of Crete; the Anatolian Plate, which is a minor tectonic plate; and the Hellenic Trench have been \nlabeled. Arrows indicate the relative directions of plate motion.\nCrete Earthquake\nScientists have located the geological fault, off the coast of Crete in the Mediterranean \nSea, that likely shifted, causing a huge earthquake in the year 365 that devastated life \nand property on Crete. The southwestern coastal region of Crete was uplifted, as \nevidenced by remains of corals and other sea life now found on land 10 meters above \nsea level. Scientists measured the age of these corals to verify when this event occurred. \nThis earthquake caused a tsunami that devastated the southern and eastern coasts of the \nMediterranean Sea. It is estimated that earthquakes along the fault, associated with the \nHellenic Trench, may occur about every 800 years.\nMediterranean Sea\nBlack Sea\nCrete\n30\u00b0 N\n35\u00b0 N\n40\u00b0 N\n45\u00b0 N\n30\u00b0 N\n35\u00b0 N\n40\u00b0 N\n45\u00b0 N\n20\u00b0 E\n25\u00b0 E\n30\u00b0 E\n35\u00b0 E\n40\u00b0 E\n20\u00b0 E\n25\u00b0 E\n30\u00b0 E\n35\u00b0 E\n40\u00b0 E\nPlate X\nPlate Y\nA\n400 km\nAnatolian Plate\nEpicenter\nArabian\nPlate\nHellen\ni\nc\n \nT\nr\nen\nc\nh",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Which activity could best prepare residents along the Mediterranean coast to reduce the loss of human life during a future tsunami?",
+      "choices": [
+        "Board up windows.",
+        "Remove heavy objects from the walls in homes.",
+        "Plan evacuation routes to higher ground.",
+        "Build reinforced basements."
+      ],
+      "image": "/images/exams/earth-science/june-2019/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the passage and map below and on your knowledge of Earth \nscience. The map shows the location of the epicenter (\n) of a major earthquake that occurred about 1700 years \nago. Point A represents a location on a tectonic plate boundary. Plates X and Y represent major tectonic plates. \nThe island of Crete; the Anatolian Plate, which is a minor tectonic plate; and the Hellenic Trench have been \nlabeled. Arrows indicate the relative directions of plate motion.\nCrete Earthquake\nScientists have located the geological fault, off the coast of Crete in the Mediterranean \nSea, that likely shifted, causing a huge earthquake in the year 365 that devastated life \nand property on Crete. The southwestern coastal region of Crete was uplifted, as \nevidenced by remains of corals and other sea life now found on land 10 meters above \nsea level. Scientists measured the age of these corals to verify when this event occurred. \nThis earthquake caused a tsunami that devastated the southern and eastern coasts of the \nMediterranean Sea. It is estimated that earthquakes along the fault, associated with the \nHellenic Trench, may occur about every 800 years.\nMediterranean Sea\nBlack Sea\nCrete\n30\u00b0 N\n35\u00b0 N\n40\u00b0 N\n45\u00b0 N\n30\u00b0 N\n35\u00b0 N\n40\u00b0 N\n45\u00b0 N\n20\u00b0 E\n25\u00b0 E\n30\u00b0 E\n35\u00b0 E\n40\u00b0 E\n20\u00b0 E\n25\u00b0 E\n30\u00b0 E\n35\u00b0 E\n40\u00b0 E\nPlate X\nPlate Y\nA\n400 km\nAnatolian Plate\nEpicenter\nArabian\nPlate\nHellen\ni\nc\n \nT\nr\nen\nc\nh",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which erosional agent is most likely sandblasting this rock formation?",
+      "choices": [
+        "wind",
+        "waves",
+        "running water",
+        "moving ice"
+      ],
+      "image": "/images/exams/earth-science/june-2019/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the photograph below and on your knowledge of Earth science. \nThe photograph shows a sandstone erosional feature that formed near the Grand Canyon, in southwestern United \nStates.\nwww.nationalgeographic.com",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "What is the range of grain sizes that are most commonly found in rock making up this feature?",
+      "choices": [
+        "0.0004 cm \u2013 0.006 cm",
+        "0.006 cm \u2013 0.2 cm",
+        "0.2 cm \u2013 6.4 cm",
+        "6.4 cm \u2013 25.6 cm"
+      ],
+      "image": "/images/exams/earth-science/june-2019/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the photograph below and on your knowledge of Earth science. \nThe photograph shows a sandstone erosional feature that formed near the Grand Canyon, in southwestern United \nStates.\nwww.nationalgeographic.com",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a line graph by plotting the percentages of disintegration product Z forming over 6.5 billion years. Connect all six plots with a line. The percentages of radioactive isotope X have already been plotted.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the data table below, on the graph in your answer booklet, \nand on your knowledge of Earth science. The data table shows the projected percentages of radioactive isotope X \nremaining and its disintegration product Z forming over 6.5 billion years. The graph shows the disintegration of \nradioactive isotope X.\nRadioactive\nIsotope X\n(%)\nDisintegration\nProduct Z\n(%)\nTime\n(billion years)\n100\n0\n0\n50\n50\n1.3\n25\n75\n2.6\n12.5\n87.5\n3.9\n6.25\n93.75\n5.2\n3.125\n96.875\n6.5",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all six plots are within or touch the circles shown and are correctly connected with a line that passes within or touches each circle. Note: Allow credit if the student-drawn line does not pass through the student plots, but is still within or touches the circles. It is recommended that an overlay of the same scale as the student answer booklet be used to ensure reliability in rating."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify radioactive isotope X.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the data table below, on the graph in your answer booklet, \nand on your knowledge of Earth science. The data table shows the projected percentages of radioactive isotope X \nremaining and its disintegration product Z forming over 6.5 billion years. The graph shows the disintegration of \nradioactive isotope X.\nRadioactive\nIsotope X\n(%)\nDisintegration\nProduct Z\n(%)\nTime\n(billion years)\n100\n0\n0\n50\n50\n1.3\n25\n75\n2.6\n12.5\n87.5\n3.9\n6.25\n93.75\n5.2\n3.125\n96.875\n6.5",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 potassium\u201340 \u2014 40K \u2014 K\u201340 Note: Do not allow credit for potassium or K alone because potassium has more than one isotope."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Calculate the amount, in grams, of an original 300-gram sample of radioactive isotope X remaining after 3.9 billion years.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the data table below, on the graph in your answer booklet, \nand on your knowledge of Earth science. The data table shows the projected percentages of radioactive isotope X \nremaining and its disintegration product Z forming over 6.5 billion years. The graph shows the disintegration of \nradioactive isotope X.\nRadioactive\nIsotope X\n(%)\nDisintegration\nProduct Z\n(%)\nTime\n(billion years)\n100\n0\n0\n50\n50\n1.3\n25\n75\n2.6\n12.5\n87.5\n3.9\n6.25\n93.75\n5.2\n3.125\n96.875\n6.5",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 37.5 g. 0 1.3 2.6 3.9 5.2 6.5 Time (billion years) 0 25 50 75 100 Percentage (%) Radioactive Disintegration Ra dio active is oto pe X P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Describe the change in air pressure that will most likely occur at Rochester by the time that the cold front has reached Syracuse. Then describe what will most likely happen to the amount of cloud cover in Rochester with this change in air pressure and location of the cold front.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_54_57.png",
+      "context": "Base your answers to questions 54 through 57 on the weather map below and on your knowledge of Earth \nscience. The map shows the location of a low-pressure system over New York State during summer. Isobar values \nare recorded in millibars. The darker shading indicates areas of precipitation. Some New York State locations are \nindicated.\nN\nLOW\nSyracuse\nBinghamton\n1008\n1004\n1000\n996\nOld Forge\nBuffalo\nRochester\nAlbany\nNew York City\nPlattsburgh",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both responses are correct. Acceptable responses include, but are not limited to: Change in air pressure: \u2014 slight decrease, then a steady increase \u2014 generally increasing/rising \u2014 lower to higher \u2014 greater Amount of cloud cover: \u2014 It decreased. \u2014 lower percent \u2014 clear/0% \u2014 There are fewer clouds. \u2014 little cloud cover"
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "The station model below represents the weather conditions at Buffalo, New York, at the time that this map was prepared. 010 .25 66 72 Buffalo, New York In the table in your answer booklet, record the weather data represented on this station model.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_54_57.png",
+      "context": "Base your answers to questions 54 through 57 on the weather map below and on your knowledge of Earth \nscience. The map shows the location of a low-pressure system over New York State during summer. Isobar values \nare recorded in millibars. The darker shading indicates areas of precipitation. Some New York State locations are \nindicated.\nN\nLOW\nSyracuse\nBinghamton\n1008\n1004\n1000\n996\nOld Forge\nBuffalo\nRochester\nAlbany\nNew York City\nPlattsburgh",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if all four weather variables are correct as shown below. Note: Allow credit if the student places the correct units in the boxes as part of their response. Do not allow credit for a barometric pressure of 010, as this is the format used on a station model, not the actual barometric pressure."
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "State the relative humidity at Albany when the air temperature is equal to the dewpoint.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_54_57.png",
+      "context": "Base your answers to questions 54 through 57 on the weather map below and on your knowledge of Earth \nscience. The map shows the location of a low-pressure system over New York State during summer. Isobar values \nare recorded in millibars. The darker shading indicates areas of precipitation. Some New York State locations are \nindicated.\nN\nLOW\nSyracuse\nBinghamton\n1008\n1004\n1000\n996\nOld Forge\nBuffalo\nRochester\nAlbany\nNew York City\nPlattsburgh",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 100%."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Identify the name of the weather instrument used to measure the wind speed at Plattsburgh.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_54_57.png",
+      "context": "Base your answers to questions 54 through 57 on the weather map below and on your knowledge of Earth \nscience. The map shows the location of a low-pressure system over New York State during summer. Isobar values \nare recorded in millibars. The darker shading indicates areas of precipitation. Some New York State locations are \nindicated.\nN\nLOW\nSyracuse\nBinghamton\n1008\n1004\n1000\n996\nOld Forge\nBuffalo\nRochester\nAlbany\nNew York City\nPlattsburgh",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 anemometer \u2014 wind meter \u2014 wind sock \u2014 wind gauge \u2014 Doppler radar Air Temperature (\u00b0F) Barometric Pressure (mb) Wind Direction from the Wind Speed (knots) 72 1001.0 or 1001 northwest or NW 15 P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Identify the name of the object located at one of the foci of the elliptical orbit of Comet Tempel-Tuttle.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the diagram and passage below and on your knowledge of \nEarth science. The diagram represents the orbits of Earth, Comet Tempel-Tuttle, and planet X, another planet \nin our solar system. Arrows on each orbit represent the direction of movement.\nPlanet X\nEarth\nSun\nComet Tempel-Tuttle\nOrbit of Comet Tempel-Tuttle\n(Not drawn to scale)\nComet Tempel-Tuttle\nComet Tempel-Tuttle orbits our Sun and is responsible for the Leonid meteor \nshower event observed from Earth. This meteor shower occurs every year in November \nand is visible in the night sky as Earth passes through the debris left in space by this \ncomet. The debris from the comet produces meteors that are smaller than a grain of \nsand, which enter Earth\u2019s atmosphere and burn up in the mesosphere temperature zone. \nComet Tempel-Tuttle\u2019s orbital distance from the Sun ranges from about 145 million \nkilometers at its closest approach to 2900 million kilometers at its farthest distance. Its \ntwo most recent closest approaches to the Sun occurred in 1965 and one revolution \nlater in 1998.\n\n P.S./E. Sci.\u2013June \u201919 \n[17] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the Sun."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Identify the solar system planet represented by planet X, which orbits near Comet Tempel-Tuttle\u2019s farthest distance from the Sun.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the diagram and passage below and on your knowledge of \nEarth science. The diagram represents the orbits of Earth, Comet Tempel-Tuttle, and planet X, another planet \nin our solar system. Arrows on each orbit represent the direction of movement.\nPlanet X\nEarth\nSun\nComet Tempel-Tuttle\nOrbit of Comet Tempel-Tuttle\n(Not drawn to scale)\nComet Tempel-Tuttle\nComet Tempel-Tuttle orbits our Sun and is responsible for the Leonid meteor \nshower event observed from Earth. This meteor shower occurs every year in November \nand is visible in the night sky as Earth passes through the debris left in space by this \ncomet. The debris from the comet produces meteors that are smaller than a grain of \nsand, which enter Earth\u2019s atmosphere and burn up in the mesosphere temperature zone. \nComet Tempel-Tuttle\u2019s orbital distance from the Sun ranges from about 145 million \nkilometers at its closest approach to 2900 million kilometers at its farthest distance. Its \ntwo most recent closest approaches to the Sun occurred in 1965 and one revolution \nlater in 1998.\n\n P.S./E. Sci.\u2013June \u201919 \n[17] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Uranus."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Determine the year in which Comet Tempel-Tuttle will next make its closest approach to the Sun.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the diagram and passage below and on your knowledge of \nEarth science. The diagram represents the orbits of Earth, Comet Tempel-Tuttle, and planet X, another planet \nin our solar system. Arrows on each orbit represent the direction of movement.\nPlanet X\nEarth\nSun\nComet Tempel-Tuttle\nOrbit of Comet Tempel-Tuttle\n(Not drawn to scale)\nComet Tempel-Tuttle\nComet Tempel-Tuttle orbits our Sun and is responsible for the Leonid meteor \nshower event observed from Earth. This meteor shower occurs every year in November \nand is visible in the night sky as Earth passes through the debris left in space by this \ncomet. The debris from the comet produces meteors that are smaller than a grain of \nsand, which enter Earth\u2019s atmosphere and burn up in the mesosphere temperature zone. \nComet Tempel-Tuttle\u2019s orbital distance from the Sun ranges from about 145 million \nkilometers at its closest approach to 2900 million kilometers at its farthest distance. Its \ntwo most recent closest approaches to the Sun occurred in 1965 and one revolution \nlater in 1998.\n\n P.S./E. Sci.\u2013June \u201919 \n[17] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 2031."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Identify the force that causes debris from the comet to fall through Earth\u2019s atmosphere.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the diagram and passage below and on your knowledge of \nEarth science. The diagram represents the orbits of Earth, Comet Tempel-Tuttle, and planet X, another planet \nin our solar system. Arrows on each orbit represent the direction of movement.\nPlanet X\nEarth\nSun\nComet Tempel-Tuttle\nOrbit of Comet Tempel-Tuttle\n(Not drawn to scale)\nComet Tempel-Tuttle\nComet Tempel-Tuttle orbits our Sun and is responsible for the Leonid meteor \nshower event observed from Earth. This meteor shower occurs every year in November \nand is visible in the night sky as Earth passes through the debris left in space by this \ncomet. The debris from the comet produces meteors that are smaller than a grain of \nsand, which enter Earth\u2019s atmosphere and burn up in the mesosphere temperature zone. \nComet Tempel-Tuttle\u2019s orbital distance from the Sun ranges from about 145 million \nkilometers at its closest approach to 2900 million kilometers at its farthest distance. Its \ntwo most recent closest approaches to the Sun occurred in 1965 and one revolution \nlater in 1998.\n\n P.S./E. Sci.\u2013June \u201919 \n[17] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for gravity or gravitation or gravitational pull."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Describe the changes in the length of the observer\u2019s shadow as the Sun appears to move from position A to position D.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the apparent path of the Sun across the sky as seen by an observer on Earth\u2019s surface on \nJune 21. Points A, B, C, and D represent positions of the Sun at different times of the day. The angle of Polaris \nabove the horizon as seen in the nighttime sky is indicated.\n10\n20\n30\n40\n50\n60\n70\n80\n90\n80\n70\n60\n50\n40\n30\n20\n10\n0\n0\nSun\u2019s\napparent\npath\nHorizon\nE\nW\nS\nN\nB\nA\nD\nC\nObserver\nJune 21\nPolaris",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The length of the observer\u2019s shadow will decrease from A to C, then increase from C to D. \u2014 The shadow will get shorter, then longer. \u2014 The shadow was longest at A, became shortest at C, then became longer at D. \u2014 decreases then increases"
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Describe one piece of evidence from the diagram that supports the inference that the observer is located at the Tropic of Cancer.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the apparent path of the Sun across the sky as seen by an observer on Earth\u2019s surface on \nJune 21. Points A, B, C, and D represent positions of the Sun at different times of the day. The angle of Polaris \nabove the horizon as seen in the nighttime sky is indicated.\n10\n20\n30\n40\n50\n60\n70\n80\n90\n80\n70\n60\n50\n40\n30\n20\n10\n0\n0\nSun\u2019s\napparent\npath\nHorizon\nE\nW\nS\nN\nB\nA\nD\nC\nObserver\nJune 21\nPolaris",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The altitude of Polaris is at 23.5\u00b0 or 23 1\u20132 \u00b0. \u2014 The noon Sun for June 21 is directly overhead. \u2014 The highest Sun position is at 90\u00b0 (zenith) on June 21. \u2014 the angle/altitude of Polaris Note: Do not allow credit for 23 1\u20132 \u00b0 N or 23.5\u00b0 North, because a compass direction should not be included with an altitude value."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "State the number of daylight hours at this location on September 23.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the apparent path of the Sun across the sky as seen by an observer on Earth\u2019s surface on \nJune 21. Points A, B, C, and D represent positions of the Sun at different times of the day. The angle of Polaris \nabove the horizon as seen in the nighttime sky is indicated.\n10\n20\n30\n40\n50\n60\n70\n80\n90\n80\n70\n60\n50\n40\n30\n20\n10\n0\n0\nSun\u2019s\napparent\npath\nHorizon\nE\nW\nS\nN\nB\nA\nD\nC\nObserver\nJune 21\nPolaris",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 12 h."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "The Sun\u2019s apparent movement through the sky is caused by Earth\u2019s rotation. Identify the device that was used to \ufb01 rst demonstrate that Earth rotates.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the apparent path of the Sun across the sky as seen by an observer on Earth\u2019s surface on \nJune 21. Points A, B, C, and D represent positions of the Sun at different times of the day. The angle of Polaris \nabove the horizon as seen in the nighttime sky is indicated.\n10\n20\n30\n40\n50\n60\n70\n80\n90\n80\n70\n60\n50\n40\n30\n20\n10\n0\n0\nSun\u2019s\napparent\npath\nHorizon\nE\nW\nS\nN\nB\nA\nD\nC\nObserver\nJune 21\nPolaris",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Foucault pendulum or pendulum. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Determine how many times larger Jupiter\u2019s equatorial diameter is, compared to Earth\u2019s equatorial diameter.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the models below and on your knowledge of Earth science. \nThe models represent cutaway views of four planets in our solar system, showing their inferred interior struc-\ntures. Each planet is shown in relation to the size of Earth.\nMercury\nVenus\nJupiter\nSaturn\nHeavy-\nelement\ncore\nHeavy-\nelement\ncore\nCrust\nEarth\nCrust\nSolid\nMantle\nEarth\nEarth\nEarth\nHeavy-element\ncore\nLiquid metallic\nhydrogen\nLiquid hydrogen\nLiquid metallic\nhydrogen\nLiquid\nhydrogen\nGaseous\nhydrogen\nHeavy-element \ncore\n   Solid\nmantle\nGaseous\nhydrogen\nSeeds, Michael and Backman, Dana. 2011. The Solar System.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 11 to 12 times larger."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Explain why Jupiter appears brighter in the night sky than Mercury, despite Jupiter\u2019s greater distance from Earth.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the models below and on your knowledge of Earth science. \nThe models represent cutaway views of four planets in our solar system, showing their inferred interior struc-\ntures. Each planet is shown in relation to the size of Earth.\nMercury\nVenus\nJupiter\nSaturn\nHeavy-\nelement\ncore\nHeavy-\nelement\ncore\nCrust\nEarth\nCrust\nSolid\nMantle\nEarth\nEarth\nEarth\nHeavy-element\ncore\nLiquid metallic\nhydrogen\nLiquid hydrogen\nLiquid metallic\nhydrogen\nLiquid\nhydrogen\nGaseous\nhydrogen\nHeavy-element \ncore\n   Solid\nmantle\nGaseous\nhydrogen\nSeeds, Michael and Backman, Dana. 2011. The Solar System.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Jupiter is much larger than Mercury. \u2014 Larger objects appear brighter than small objects. \u2014 Jupiter reflects more light/has a greater albedo."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Identify two terrestrial planets shown in the models. Explain why they are considered terrestrial planets.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the models below and on your knowledge of Earth science. \nThe models represent cutaway views of four planets in our solar system, showing their inferred interior struc-\ntures. Each planet is shown in relation to the size of Earth.\nMercury\nVenus\nJupiter\nSaturn\nHeavy-\nelement\ncore\nHeavy-\nelement\ncore\nCrust\nEarth\nCrust\nSolid\nMantle\nEarth\nEarth\nEarth\nHeavy-element\ncore\nLiquid metallic\nhydrogen\nLiquid hydrogen\nLiquid metallic\nhydrogen\nLiquid\nhydrogen\nGaseous\nhydrogen\nHeavy-element \ncore\n   Solid\nmantle\nGaseous\nhydrogen\nSeeds, Michael and Backman, Dana. 2011. The Solar System.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for two correct terrestrial planets and a correct explanation. Acceptable responses include, but are not limited to: Terrestrial planets: Mercury or Venus or Earth Explanations: \u2014 Terrestrial planets are small and rocky. \u2014 Their interior layers are not gaseous. \u2014 Terrestrial planet densities are greater than Jovian planet densities. \u2014 They are closer to the Sun. \u2014 They have solid crusts. Note: Do not accept Mars as the terrestrial planet because it is not shown in the models."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Identify the name of the depositional feature labeled C.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the diagram below and on your knowledge of Earth science. \nThe diagram represents several streams converging and eventually \ufb02 owing into a lake. Points X and Y indicate \nlocations on either side of a meander in the stream. Points A and B indicate locations in the streams where the \nstream discharge was measured in cubic meters per second. The circled region labeled C represents a depositional \nfeature.\nStreams\nLake\nBeach\nY\nA\nB\nX\nC",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for delta."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "In the box in your answer booklet, draw a cross-sectional view of the general shape of the stream bottom from point X to point Y.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the diagram below and on your knowledge of Earth science. \nThe diagram represents several streams converging and eventually \ufb02 owing into a lake. Points X and Y indicate \nlocations on either side of a meander in the stream. Points A and B indicate locations in the streams where the \nstream discharge was measured in cubic meters per second. The circled region labeled C represents a depositional \nfeature.\nStreams\nLake\nBeach\nY\nA\nB\nX\nC",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the student\u2019s line is drawn from point X to point Y and shows that the stream channel is deepest near side X. Example of a 1-credit response: X Y Stream Surface P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Describe how the size and shape of sediments will most likely change as they are transported downstream.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the diagram below and on your knowledge of Earth science. \nThe diagram represents several streams converging and eventually \ufb02 owing into a lake. Points X and Y indicate \nlocations on either side of a meander in the stream. Points A and B indicate locations in the streams where the \nstream discharge was measured in cubic meters per second. The circled region labeled C represents a depositional \nfeature.\nStreams\nLake\nBeach\nY\nA\nB\nX\nC",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for two correct responses. Acceptable responses include, but are not limited to: Size: \u2014 becomes smaller \u2014 decrease Shape: \u2014 becomes more rounded \u2014 less angular \u2014 Sharp edges are worn down. Note: Do not accept \u201csmooth\u201d for the shape of the sediments, because smooth does not describe a shape but a texture."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "The stream velocity at location A is 100 centimeters per second, and the stream velocity at location B is 10 centimeters per second. Identify one possible particle diameter that would most likely be deposited between points A and B.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the diagram below and on your knowledge of Earth science. \nThe diagram represents several streams converging and eventually \ufb02 owing into a lake. Points X and Y indicate \nlocations on either side of a meander in the stream. Points A and B indicate locations in the streams where the \nstream discharge was measured in cubic meters per second. The circled region labeled C represents a depositional \nfeature.\nStreams\nLake\nBeach\nY\nA\nB\nX\nC",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 0.18 cm to 2.5 cm."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Explain why Hastings has a greater annual temperature range than Riverhead.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_73_76.png",
+      "context": "Base your answers to questions 73 through 76 on the map and graphs below and on your knowledge of Earth \nscience. The map shows the locations of two cities, Hastings, Nebraska, and Riverhead, New York. The graphs \nshow average monthly air temperatures for Hastings and Riverhead.\nPacific\nOcean\nAtlantic\nOcean\nGulf of Mexico\nMexico\nCanada\nUnited States\nRiverhead,\nNY\nHastings, NE\nMexico\n120\u00b0 W\n110\u00b0 W\n100\u00b0 W\n90\u00b0 W\n80\u00b0 W\n70\u00b0 W\n60\u00b0 W\n45\u00b0 N\n40\u00b0 N\n35\u00b0 N\n30\u00b0 N\n25\u00b0 N\n45\u00b0 N\n40\u00b0 N\n35\u00b0 N\n30\u00b0 N\n25\u00b0 N\n110\u00b0 W\n100\u00b0 W\n90\u00b0 W\n80\u00b0 W\n130\u00b0 W\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n60\n65\n70\n75\n80\nAir Temperature (\u00b0F)\nAverage Monthly Air Temperatures\nHastings, Nebraska\nMonth\nJan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n60\n65\n70\n75\n80\nAir Temperature (\u00b0F)\nAverage Monthly Air Temperatures\nRiverhead, New York\nMonth\nJan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Land has a lower specific heat than water and therefore causes warmer summers and cooler winters for Hastings. \u2014 Hastings is inland, where land surfaces heat up and cool down faster. \u2014 Riverhead is near a large body of water that moderates its temperature. \u2014 Land changes temperature faster than water."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Explain why the angle of insolation at both locations is approximately the same at solar noon on any given day.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_73_76.png",
+      "context": "Base your answers to questions 73 through 76 on the map and graphs below and on your knowledge of Earth \nscience. The map shows the locations of two cities, Hastings, Nebraska, and Riverhead, New York. The graphs \nshow average monthly air temperatures for Hastings and Riverhead.\nPacific\nOcean\nAtlantic\nOcean\nGulf of Mexico\nMexico\nCanada\nUnited States\nRiverhead,\nNY\nHastings, NE\nMexico\n120\u00b0 W\n110\u00b0 W\n100\u00b0 W\n90\u00b0 W\n80\u00b0 W\n70\u00b0 W\n60\u00b0 W\n45\u00b0 N\n40\u00b0 N\n35\u00b0 N\n30\u00b0 N\n25\u00b0 N\n45\u00b0 N\n40\u00b0 N\n35\u00b0 N\n30\u00b0 N\n25\u00b0 N\n110\u00b0 W\n100\u00b0 W\n90\u00b0 W\n80\u00b0 W\n130\u00b0 W\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n60\n65\n70\n75\n80\nAir Temperature (\u00b0F)\nAverage Monthly Air Temperatures\nHastings, Nebraska\nMonth\nJan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n60\n65\n70\n75\n80\nAir Temperature (\u00b0F)\nAverage Monthly Air Temperatures\nRiverhead, New York\nMonth\nJan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Riverhead and Hastings are both close to the same latitude (approximately 41\u00b0 N). \u2014 Both locations are approximately the same distance north of the equator. \u2014 at the same latitude"
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Identify the planetary wind belt that primarily in\ufb02 uences the climates of both Hastings and Riverhead.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_73_76.png",
+      "context": "Base your answers to questions 73 through 76 on the map and graphs below and on your knowledge of Earth \nscience. The map shows the locations of two cities, Hastings, Nebraska, and Riverhead, New York. The graphs \nshow average monthly air temperatures for Hastings and Riverhead.\nPacific\nOcean\nAtlantic\nOcean\nGulf of Mexico\nMexico\nCanada\nUnited States\nRiverhead,\nNY\nHastings, NE\nMexico\n120\u00b0 W\n110\u00b0 W\n100\u00b0 W\n90\u00b0 W\n80\u00b0 W\n70\u00b0 W\n60\u00b0 W\n45\u00b0 N\n40\u00b0 N\n35\u00b0 N\n30\u00b0 N\n25\u00b0 N\n45\u00b0 N\n40\u00b0 N\n35\u00b0 N\n30\u00b0 N\n25\u00b0 N\n110\u00b0 W\n100\u00b0 W\n90\u00b0 W\n80\u00b0 W\n130\u00b0 W\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n60\n65\n70\n75\n80\nAir Temperature (\u00b0F)\nAverage Monthly Air Temperatures\nHastings, Nebraska\nMonth\nJan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n60\n65\n70\n75\n80\nAir Temperature (\u00b0F)\nAverage Monthly Air Temperatures\nRiverhead, New York\nMonth\nJan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 prevailing southwesterlies or westerlies \u2014 SW Winds"
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Name the ocean current that most likely has the greatest effect on the climate of Riverhead.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_73_76.png",
+      "context": "Base your answers to questions 73 through 76 on the map and graphs below and on your knowledge of Earth \nscience. The map shows the locations of two cities, Hastings, Nebraska, and Riverhead, New York. The graphs \nshow average monthly air temperatures for Hastings and Riverhead.\nPacific\nOcean\nAtlantic\nOcean\nGulf of Mexico\nMexico\nCanada\nUnited States\nRiverhead,\nNY\nHastings, NE\nMexico\n120\u00b0 W\n110\u00b0 W\n100\u00b0 W\n90\u00b0 W\n80\u00b0 W\n70\u00b0 W\n60\u00b0 W\n45\u00b0 N\n40\u00b0 N\n35\u00b0 N\n30\u00b0 N\n25\u00b0 N\n45\u00b0 N\n40\u00b0 N\n35\u00b0 N\n30\u00b0 N\n25\u00b0 N\n110\u00b0 W\n100\u00b0 W\n90\u00b0 W\n80\u00b0 W\n130\u00b0 W\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n60\n65\n70\n75\n80\nAir Temperature (\u00b0F)\nAverage Monthly Air Temperatures\nHastings, Nebraska\nMonth\nJan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n60\n65\n70\n75\n80\nAir Temperature (\u00b0F)\nAverage Monthly Air Temperatures\nRiverhead, New York\nMonth\nJan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Gulf Stream Current. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Identify two processes that formed the sedimentary rock layers represented in the diagram.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the block diagram below and on your knowledge of Earth \nscience. The block diagram represents a region of sedimentary rock that has been intruded by magma, which has \nsince solidi\ufb01 ed. Points X and Y identify locations at the boundary between the igneous intrusion and surrounding \nsedimentary rock layers. Letters A and B represent speci\ufb01 c rock units. Letter C represents rock formed from the \nlava \ufb02 ow of the nearby volcano. The rock layers have not been overturned.\nA\nB\nC\nA\nKey\nContact\nmetamorphism\nIgneous rock\nAdapted from www.brocku.ca/earthsciences\nX\nY",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for two correct responses. Acceptable responses include, but are not limited to: \u2014 compaction \u2014 cementation \u2014 lithification \u2014 deposition/sedimentation \u2014 burial \u2014 dewatering \u2014 evaporation of water \u2014 precipitation from seawater \u2014 weathering \u2014 erosion \u2014 uplift"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Describe one piece of evidence shown in the diagram that indicates that rock unit A is younger than rock unit B.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the block diagram below and on your knowledge of Earth \nscience. The block diagram represents a region of sedimentary rock that has been intruded by magma, which has \nsince solidi\ufb01 ed. Points X and Y identify locations at the boundary between the igneous intrusion and surrounding \nsedimentary rock layers. Letters A and B represent speci\ufb01 c rock units. Letter C represents rock formed from the \nlava \ufb02 ow of the nearby volcano. The rock layers have not been overturned.\nA\nB\nC\nA\nKey\nContact\nmetamorphism\nIgneous rock\nAdapted from www.brocku.ca/earthsciences\nX\nY",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Rock unit A cuts across (cross-cutting) rock unit B. \u2014 There is contact metamorphism in rock unit B. \u2014 Rock unit A intrudes into rock unit B. \u2014 Parts of A extend above B."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Explain why the igneous rock that formed at location C is composed of crystals less than 1 millimeter in size.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the block diagram below and on your knowledge of Earth \nscience. The block diagram represents a region of sedimentary rock that has been intruded by magma, which has \nsince solidi\ufb01 ed. Points X and Y identify locations at the boundary between the igneous intrusion and surrounding \nsedimentary rock layers. Letters A and B represent speci\ufb01 c rock units. Letter C represents rock formed from the \nlava \ufb02 ow of the nearby volcano. The rock layers have not been overturned.\nA\nB\nC\nA\nKey\nContact\nmetamorphism\nIgneous rock\nAdapted from www.brocku.ca/earthsciences\nX\nY",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The rock at C has a fine texture because the lava cooled quickly. \u2014 Rock C crystallized/solidified on Earth\u2019s surface. \u2014 Extrusive igneous rock doesn\u2019t have time to grow large crystals. \u2014 The environment of formation is extrusive/volcanic."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "State the names of two different metamorphic rocks that are most likely found in the zone of contact metamorphism at locations X and Y.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the block diagram below and on your knowledge of Earth \nscience. The block diagram represents a region of sedimentary rock that has been intruded by magma, which has \nsince solidi\ufb01 ed. Points X and Y identify locations at the boundary between the igneous intrusion and surrounding \nsedimentary rock layers. Letters A and B represent speci\ufb01 c rock units. Letter C represents rock formed from the \nlava \ufb02 ow of the nearby volcano. The rock layers have not been overturned.\nA\nB\nC\nA\nKey\nContact\nmetamorphism\nIgneous rock\nAdapted from www.brocku.ca/earthsciences\nX\nY",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both responses are correct. Acceptable responses include: Location X: \u2014 marble \u2014 hornfels Location Y: \u2014 quartzite \u2014 hornfels Note: Do not allow credit if hornfels is used for both locations X and Y. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "On the \ufb01 eld map in your answer booklet, draw the 500-meter depth isoline.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the passage and map below, the \ufb01 eld map in your answer \nbooklet, and on your knowledge of Earth science. The map shows the location of Crater Lake in Oregon in the \nwestern United States. The \ufb01 eld map shows lake depths and some isolines in Crater Lake recorded in meters. \nLine AB and line CD are reference lines. Letter X represents a location on the lake bottom.\nCrater Lake\nCrater Lake is the deepest lake in the United States. The lake formed in the crater at \nthe top of volcanic Mount Mazama after it exploded in a violent eruption approximately \n7700 years ago. The rim of the crater is approximately 2300 meters (7500 feet) above sea \nlevel and is mostly composed of the rock andesite. The average yearly air temperature at \nthe lake is 38\u00b0F, and snowfall often occurs from October through June. Hydrothermal \nactivity (heating of the water) is ongoing under the lake, indicating that this region is \nstill volcanically active.\nWASHINGTON\nOREGON\nCrater\nLake\n40\u00b0 N\nN\nPacific\nOcean\nIDAHO\nMONTANA\nYellowstone\nWYOMING\nHot Spot\n40\u00b0 N",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the 500-meter depth isoline is correctly drawn. If additional isolines are drawn, all isolines must be correct to receive credit. Note: The isoline must touch all five points for the 500-meter depth. Example of a 1-credit response: Field Map of Crater Lake 0 2 1 Kilometers N X 200 550 575 500 550 550 550 500 500 530 540 450 450 460 500 540 570 560 570 565 460 594 490 400 400 300 200 100 0 450 460 500 560 450 450 400 475 300 200 100 0 450 494 A B D C Wizard Island Crater rim 0 www.craterlakeinstitute.com P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a pro\ufb01 le along line AB by plotting the lake depth of each isoline that crosses line AB. Connect all plots with a line to complete the pro\ufb01 le.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the passage and map below, the \ufb01 eld map in your answer \nbooklet, and on your knowledge of Earth science. The map shows the location of Crater Lake in Oregon in the \nwestern United States. The \ufb01 eld map shows lake depths and some isolines in Crater Lake recorded in meters. \nLine AB and line CD are reference lines. Letter X represents a location on the lake bottom.\nCrater Lake\nCrater Lake is the deepest lake in the United States. The lake formed in the crater at \nthe top of volcanic Mount Mazama after it exploded in a violent eruption approximately \n7700 years ago. The rim of the crater is approximately 2300 meters (7500 feet) above sea \nlevel and is mostly composed of the rock andesite. The average yearly air temperature at \nthe lake is 38\u00b0F, and snowfall often occurs from October through June. Hydrothermal \nactivity (heating of the water) is ongoing under the lake, indicating that this region is \nstill volcanically active.\nWASHINGTON\nOREGON\nCrater\nLake\n40\u00b0 N\nN\nPacific\nOcean\nIDAHO\nMONTANA\nYellowstone\nWYOMING\nHot Spot\n40\u00b0 N",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if all five plots are located within or touch the rectangles shown and are correctly connected with a line that passes within or touches each rectangle. Note: It is recommended that an overlay of the same scale as the student answer booklet be used to ensure reliability in rating."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Determine the gradient, in meters per kilometer, between points C and D.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the passage and map below, the \ufb01 eld map in your answer \nbooklet, and on your knowledge of Earth science. The map shows the location of Crater Lake in Oregon in the \nwestern United States. The \ufb01 eld map shows lake depths and some isolines in Crater Lake recorded in meters. \nLine AB and line CD are reference lines. Letter X represents a location on the lake bottom.\nCrater Lake\nCrater Lake is the deepest lake in the United States. The lake formed in the crater at \nthe top of volcanic Mount Mazama after it exploded in a violent eruption approximately \n7700 years ago. The rim of the crater is approximately 2300 meters (7500 feet) above sea \nlevel and is mostly composed of the rock andesite. The average yearly air temperature at \nthe lake is 38\u00b0F, and snowfall often occurs from October through June. Hydrothermal \nactivity (heating of the water) is ongoing under the lake, indicating that this region is \nstill volcanically active.\nWASHINGTON\nOREGON\nCrater\nLake\n40\u00b0 N\nN\nPacific\nOcean\nIDAHO\nMONTANA\nYellowstone\nWYOMING\nHot Spot\n40\u00b0 N",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 250 to 286 m/km or \u0002250 to \u0002286 m/km."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Determine one possible depth, in meters, of Crater Lake at location X.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the passage and map below, the \ufb01 eld map in your answer \nbooklet, and on your knowledge of Earth science. The map shows the location of Crater Lake in Oregon in the \nwestern United States. The \ufb01 eld map shows lake depths and some isolines in Crater Lake recorded in meters. \nLine AB and line CD are reference lines. Letter X represents a location on the lake bottom.\nCrater Lake\nCrater Lake is the deepest lake in the United States. The lake formed in the crater at \nthe top of volcanic Mount Mazama after it exploded in a violent eruption approximately \n7700 years ago. The rim of the crater is approximately 2300 meters (7500 feet) above sea \nlevel and is mostly composed of the rock andesite. The average yearly air temperature at \nthe lake is 38\u00b0F, and snowfall often occurs from October through June. Hydrothermal \nactivity (heating of the water) is ongoing under the lake, indicating that this region is \nstill volcanically active.\nWASHINGTON\nOREGON\nCrater\nLake\n40\u00b0 N\nN\nPacific\nOcean\nIDAHO\nMONTANA\nYellowstone\nWYOMING\nHot Spot\n40\u00b0 N",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value greater than 100 meters but less than 200 meters."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Line YZ on the diagram below represents the mineral composition of an andesitic rock taken from the bottom of Crater Lake. 100% 75% 50% 25% 0% Y Z Mineral Composition (Percent by Volume) 100% 75% 50% 25% 0% Potassium feldspar (pink to white) Quartz (clear to white) Plagioclase feldspar (white to gray) Pyroxene (green) Olivine (green) Biotite (black) Amphibole (black) Identify the percent by volume of each of the three minerals in this andesitic rock. P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2019/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the passage and map below, the \ufb01 eld map in your answer \nbooklet, and on your knowledge of Earth science. The map shows the location of Crater Lake in Oregon in the \nwestern United States. The \ufb01 eld map shows lake depths and some isolines in Crater Lake recorded in meters. \nLine AB and line CD are reference lines. Letter X represents a location on the lake bottom.\nCrater Lake\nCrater Lake is the deepest lake in the United States. The lake formed in the crater at \nthe top of volcanic Mount Mazama after it exploded in a violent eruption approximately \n7700 years ago. The rim of the crater is approximately 2300 meters (7500 feet) above sea \nlevel and is mostly composed of the rock andesite. The average yearly air temperature at \nthe lake is 38\u00b0F, and snowfall often occurs from October through June. Hydrothermal \nactivity (heating of the water) is ongoing under the lake, indicating that this region is \nstill volcanically active.\nWASHINGTON\nOREGON\nCrater\nLake\n40\u00b0 N\nN\nPacific\nOcean\nIDAHO\nMONTANA\nYellowstone\nWYOMING\nHot Spot\n40\u00b0 N",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if all three percentages are within the ranges shown below. Plagioclase feldspar: any value from 54% to 60% Biotite: any value from 13% to 19% Amphibole: any value from 24% to 30% A B 500 400 300 200 100 0 Depth (m) Distance (km) Lake Depth Lake surface P.S./E. Sci. Rating Guide\u2013June \u2019"
+    }
+  ]
+}

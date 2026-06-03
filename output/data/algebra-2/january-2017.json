@@ -1,0 +1,466 @@
+{
+  "subject": "algebra-2",
+  "session": "january-2017",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Relative to the graph of y \u0002 3sin x, what is the shift of the graph of y \u0002 3sin(x \u0003 \u03c0\u2013\u20133 )?",
+      "choices": [
+        "\u03c0\u2013\u20133 right",
+        "\u03c0\u2013\u20133 left",
+        "\u03c0\u2013\u20133 up",
+        "\u03c0\u2013\u20133 down"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "A rabbit population doubles every 4 weeks. There are currently \ufb01 ve rabbits in a restricted area. If t represents the time, in weeks, and P(t) is the population of rabbits with respect to time, about how many rabbits will there be in 98 days?",
+      "choices": [
+        "56",
+        "152",
+        "3688",
+        "81,920"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "When factored completely, m5 \u0003 m3 \u0004 6m is equivalent to",
+      "choices": [
+        "(m \u0003 3)(m \u0004 2)",
+        "(m3 \u0003 3m)(m2 \u0004 2)",
+        "m(m4 \u0003 m2 \u0004 6)",
+        "m(m2 \u0003 3)(m2 \u0004 2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "If sin2(32\u00b0) \u0003 cos2(M) \u0002 1, then M equals",
+      "choices": [
+        "{(0,\u00042)}",
+        "{(0,\u00042),(1,6)}",
+        "{(1,6)}",
+        "{(1,1),(6,16)}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which statement about statistical analysis is false?",
+      "choices": [
+        "Experiments can suggest patterns and relationships in data.",
+        "Experiments can determine cause and effect relationships.",
+        "Observational studies can determine cause and effect relationships.",
+        "Observational studies can suggest patterns and relationships in data."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The expression ( m m 2 1 3 ) \u00041 2 is equivalent to",
+      "choices": [
+        "y \u0002 x3",
+        "y \u0002 logx 3",
+        "y \u0002 3x",
+        "x \u0002 3y"
+      ],
+      "image": "/images/exams/algebra-2/january-2017/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Gabriel performed an experiment to see if planting 13 tomato plants in black plastic mulch leads to larger tomatoes than if 13 plants are planted without mulch. He observed that the average weight of the tomatoes from tomato plants grown in black plastic mulch was 5 ounces greater than those from the plants planted without mulch. To determine if the observed difference is statistically signi\ufb01 cant, he rerandomized the tomato groups 100 times to study these random differences in the mean weights. The output of his simulation is summarized in the dotplot below. \u000420 \u000410 0 10 20 Differences in Mean Weight (oz.) Given these results, what is an appropriate inference that can be drawn?",
+      "choices": [
+        "There was no effect observed between the two groups.",
+        "There was an effect observed that could be due to the random assignment of plants to the groups.",
+        "There is strong evidence to support the hypothesis that tomatoes from plants planted in black plastic mulch are larger than those planted without mulch.",
+        "There is strong evidence to support the hypothesis that tomatoes from plants planted without mulch are larger than those planted in black plastic mulch."
+      ],
+      "image": "/images/exams/algebra-2/january-2017/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "If p(x) \u0002 abx and r(x) \u0002 cdx, then p(x) \u2022 r(x) equals",
+      "choices": [
+        "ac(b \u0003 d)x",
+        "ac(b \u0003 d)2x",
+        "ac(bd)x",
+        "ac(bd)x2 Algebra II (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The solution to the equation 18x2 \u0004 24x \u0003 87 \u0002 0 is",
+      "choices": [
+        "\u0004 2\u2013\u20133 \u0005 6i 158",
+        "\u0004 2\u2013\u20133 \u0005 1\u2013\u20136 i 158",
+        "2\u2013\u20133 \u0005 6i 158",
+        "2\u2013\u20133 \u0005 1\u2013\u20136 i 158"
+      ],
+      "image": "/images/exams/algebra-2/january-2017/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "When g(x) \u0002 2 2 x\u0003 and h(x) \u0002 log(x \u0003 1) \u0003 3 are graphed on the same set of axes, which coordinates best approximate their point of intersection?",
+      "choices": [
+        "(\u00040.9,1.8)",
+        "(\u00040.9,1.9)",
+        "(1.4,3.3)",
+        "(1.4,3.4)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The price of a postage stamp in the years since the end of World War I is shown in the scatterplot below. 0 20 40 60 80 100 \u221210 0 10 20 30 40 50 60 Year (since end of WWI) Price (in cents) Price of a postage stamp Price of a Postage Stamp Since End of World War I The equation that best models the price, in cents, of a postage stamp based on these data is",
+      "choices": [
+        "y \u0002 0.59x \u0004 14.82",
+        "y \u0002 1.04(1.43)x",
+        "y \u0002 1.43(1.04)x",
+        "y \u0002 24sin(14x) \u0003 25 Algebra II (Common Core)"
+      ],
+      "image": "/images/exams/algebra-2/january-2017/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The eighth and tenth terms of a sequence are 64 and 100. If the sequence is either arithmetic or geometric, the ninth term can not be",
+      "choices": [
+        "\u000482",
+        "\u000480",
+        "80",
+        "82"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The loudness of sound is measured in units called decibels (dB). These units are measured by \ufb01 rst assigning an intensity I0 to a very soft sound that is called the threshold sound. The sound to be measured is assigned an intensity, I, and the decibel rating, d, of this sound is found using d \u0002 10 log I\u2014I0. The threshold sound audible to the average person is 1.0 \u0006 10\u000412 W/m2 (watts per square meter). Consider the following sound level classi\ufb01 cations: Moderate 45-69 dB Loud 70-89 dB Very loud 90-109 dB Deafening \u0007110 dB How would a sound with intensity 6.3 \u0006 10\u00043 W/m2 be classi\ufb01 ed?",
+      "choices": [
+        "moderate",
+        "loud",
+        "very loud",
+        "deafening"
+      ],
+      "image": "/images/exams/algebra-2/january-2017/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Pedro and Bobby each own an ant farm. Pedro starts with 100 ants and says his farm is growing exponentially at a rate of 15% per month. Bobby starts with 350 ants and says his farm is steadily decreasing by 5 ants per month. Assuming both boys are accurate in describing the population of their ant farms, after how many months will they both have approximately the same number of ants?",
+      "choices": [
+        "7",
+        "8",
+        "13",
+        "36 Algebra II (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "What is the solution, if any, of the equation 2 x \u0003 3 \u0004 3 4 \u0004 x \u0002 2x \u0004 2 x2 \u0004 x \u0004 12 ?",
+      "choices": [
+        "\u20131",
+        "\u20135",
+        "all real numbers",
+        "no real solution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "In 2013, approximately 1.6 million students took the Critical Reading portion of the SAT exam. The mean score, the modal score, and the standard deviation were calculated to be 496, 430, and 115, respectively. Which interval re\ufb02 ects 95% of the Critical Reading scores?",
+      "choices": [
+        "430 \u0005 115",
+        "430 \u0005 230",
+        "496 \u0005 115",
+        "496 \u0005 230"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which statement regarding the graphs of the functions below is untrue? f(x) \u0002 3 sin 2x, from \u0004\u03c0 \b x \b \u03c0 h(x) \u0002 log2 x g(x) \u0002 (x \u0004 0.5)(x \u00034)(x \u0004 2) j(x) \u0002 \u0004|4x \u0004 2| \u0003 3",
+      "choices": [
+        "f(x) and j(x) have a maximum y-value of 3.",
+        "f(x), h(x), and j(x) have one y-intercept.",
+        "g(x) and j(x) have the same end behavior as x \u2192 \u0004 .",
+        "g(x), h(x), and j(x) have rational zeros."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "When g(x) is divided by x \u0003 4, the remainder is 0. Given g(x) \u0002 x4 \u0003 3x3 \u0004 6x2 \u0004 6x \u0003 8, which conclusion about g(x) is true?",
+      "choices": [
+        "g",
+        "g(\u00044) \u0002 0",
+        "x \u0004 4 is a factor of g(x).",
+        "No conclusion can be made regarding g(x). Algebra II (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Joelle has a credit card that has a 19.2% annual interest rate compounded monthly. She owes a total balance of B dollars after m months. Assuming she makes no payments on her account, the table below illustrates the balance she owes after m months. m B 0 1000.00 10 1172.00 19 1352.00 36 1770.80 60 2591.90 69 2990.00 72 3135.80 73 3186.00 Over which interval of time is her average rate of change for the balance on her credit card account the greatest?",
+      "choices": [
+        "month 10 to month 60",
+        "month 19 to month 69",
+        "month 36 to month 72",
+        "month 60 to month 73"
+      ],
+      "image": "/images/exams/algebra-2/january-2017/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which graph represents a cosine function with no horizontal shift, an amplitude of 2, and a period of 2 3 \u03c0 ?",
+      "choices": [
+        "",
+        "",
+        "",
+        "2 1 0 2 1 0 2 1 0 \u20131 \u20131 2 1 0 \u20132 \u0000\u20131 \u0000\u20132 \u0000\u20131 \u0000\u20132 \u20132 Algebra II (Common Core)"
+      ],
+      "image": "/images/exams/algebra-2/january-2017/q22.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "According to a pricing website, Indroid phones lose 58% of their cash value over 1.5 years. Which expression can be used to estimate the value of a $300 Indroid phone in 1.5 years?",
+      "choices": [
+        "300e\u00040.87",
+        "300e\u00040.63",
+        "300e\u00040.58",
+        "300e\u00040.42"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A cardboard box manufacturing company is building boxes with length represented by x \u0003 1, width by 5 \u0004 x, and height by x \u0004 1. The volume of the box is modeled by the function below. 2 \u20136 6 10 14 18 V(x) \u20132 1 2 3 4 5 6 x \u20131 \u20132 Over which interval is the volume of the box changing at the fastest average rate?",
+      "choices": [
+        "[1,2]",
+        "[1,3.5]",
+        "[1,5]",
+        "[0,3.5] Algebra II (Common Core)"
+      ],
+      "image": "/images/exams/algebra-2/january-2017/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Express (1 \u0004 i)3 in a \u0003 bi form. Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "An orange-juice processing plant receives a truckload of oranges. The quality control team randomly chooses three pails of oranges, each containing 50 oranges, from the truckload. Identify the sample and the population in the given scenario. State one conclusion that the quality control team could make about the population if 5% of the sample was found to be unsatisfactory. Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Using the unit circle below, explain why csc \u0002 1\u2013\u2013y . (1,0) (x,y) Algebra II (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2017/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The function M(t) represents the mass of radium over time, t, in years. M(t) \u0002 100e ln 1 2 \u239b \u239d\u239c \u239e \u23a0\u239ft 1590 Determine if the function M(t) represents growth or decay. Explain your reasoning. Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "On the grid below, sketch a cubic polynomial whose zeros are 1, 3, and \u00042. Algebra II (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2017/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Given the equal terms x5 3 and y 5 6, determine and state y, in terms of x. Algebra II (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2017/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "The results of a survey of the student body at Central High School about television viewing preferences are shown below. Comedy Series Drama Series Reality Series Total Males 95 65 70 230 Females 80 70 110 260 Total 175 135 180 490 Are the events \u201cstudent is a male\u201d and \u201cstudent prefers reality series\u201d independent of each other? Justify your answer. Algebra II (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2017/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Given f(x) \u0002 3x2 \u0003 7x \u0004 20 and g(x) \u0002 x \u0004 2, state the quotient and remainder of f x( ) g x( ) , in the form q(x) \u0003 r x( ) g x( ) . Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Algebraically determine the values of h and k to correctly complete the identity stated below. 2x3 \u0004 10x2 \u0003 11x \u0004 7 \u0002 (x \u0004 4)(2x2 \u0003 hx \u0003 3) \u0003 k Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Elaina has decided to run the Buffalo half-marathon in May. She researched training plans on the Internet and is looking at two possible plans: Jillian\u2019s 12-week plan and Josh\u2019s 14-week plan. The number of miles run per week for each plan is plotted below. Josh's Plan Jillian's Plan Miles 2 4 6 8 10 12 14 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 Weeks Which one of the plans follows an arithmetic pattern? Explain how you arrived at your answer. Write a recursive de\ufb01 nition to represent the number of miles run each week for the duration of the plan you chose. Jillian\u2019s plan has an alternative if Elaina wanted to train instead for a full 26-mile marathon. Week one would start at 13 miles and follow the same pattern for the half-marathon, but it would continue for 14 weeks. Write an explicit formula, in simplest form, to represent the number of miles run each week for the full-marathon training plan. Algebra II (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2017/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "The guidance department has reported that of the senior class, 2.3% are members of key club, K, 8.6% are enrolled in AP Physics, P, and 1.9% are in both. Determine the probability of P given K, to the nearest tenth of a percent. The principal would like a basic interpretation of these results. Write a statement relating your calculated probabilities to student enrollment in the given situation. Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Using the formula below, determine the monthly payment on a 5-year car loan with a monthly percentage rate of 0.625% for a car with an original cost of $21,000 and a $1000 down payment, to the nearest cent. Pn \u0002 PMT ( 1 \u0004 1 \u0003 i ( ) \u0004n i ) Pn \u0002 present amount borrowed n \u0002 number of monthly pay periods PMT \u0002 monthly payment i \u0002 interest rate per month The affordable monthly payment is $300 for the same time period. Determine an appropriate down payment, to the nearest dollar. Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "The speed of a tidal wave, s, in hundreds of miles per hour, can be modeled by the equation s \u0002 t \u0004 2t \u0003 6, where t represents the time from its origin in hours. Algebraically determine the time when s \u0002 0. How much faster was the tidal wave traveling after 1 hour than 3 hours, to the nearest mile per hour? Justify your answer. Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Algebra II (Common Core) Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here ALGEBRA II (COMMON CORE) ALGEBRA II (COMMON CORE) Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2017/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

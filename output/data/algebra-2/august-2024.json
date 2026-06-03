@@ -1,0 +1,491 @@
+{
+  "subject": "algebra-2",
+  "session": "august-2024",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "A grocery store owner wonders how many customers bring reusable bags to the store. An employee stands at the store entrance for two hours and counts the number of people bringing in reusable bags. This type of study is best classified as",
+      "choices": [
+        "a census",
+        "an experiment",
+        "an observational study",
+        "a survey"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The graph of y 5 2x 2 4 is positive on which interval?",
+      "choices": [
+        "(2`,`)",
+        "(2,`)",
+        "(0,`)",
+        "(24,`)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Tim deposits $300 into a savings account. The annual interest rate is 2.7% and compounds monthly. He uses the equation A 5 300(1 1 12 0.027) 12t to determine how much money, A, he will have after t years. Which equation is equivalent to Tim\u2019s equation?",
+      "choices": [
+        "12t 1 ( 12 0.027) 12",
+        "A 5 300(0.08558)12t",
+        "A 5 300 1 1 ( 12 0.027) 12t",
+        "A 5 (300)12t"
+      ],
+      "image": "/images/exams/algebra-2/august-2024/q3.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which equation is true for all real values of x?",
+      "choices": [
+        "x4 1 x 5 (x 1 1)(x3 2 x2 1 x)",
+        "x4 1 x 5 (x 1 1)(x3 1 x)",
+        "x4 1 x 5 (x2 1 x)2",
+        "x4 1 x 5 (x 2 1)(x3 1 x2 1 x)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The solution of x 1 3 1 5 x x 2 4 2 x2 2 x 2 12 2x 1 27 is",
+      "choices": [
+        "23",
+        "27",
+        "3",
+        "7"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The cost, in dollars, of a single-ride fare in the New York City subway in the years since 1904 is listed in the table below. Years since 1904 (x) 0 49 72 91 99 111 Fare (y) $0.05 $0.15 $0.50 $1.50 $2.00 $2.75 Which equation best models the cost of a single-ride fare based on these data?",
+      "choices": [
+        "y 5 0.0375(1.0392)x",
+        "y 5 1.0392(0.0375)x",
+        "y 5 0.0234x 2 0.487",
+        "y 5 20.179 1 0.356 ln(x)"
+      ],
+      "image": "/images/exams/algebra-2/august-2024/q6.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to x 1 2 6x4 1 4x3 1 x 1 200?",
+      "choices": [
+        "6x2 2 8x 1 17 1 x 1 2 166",
+        "6x2 1 16x 1 33 1 x 1 2 266",
+        "6x3 1 16x2 1 32x 1 65 1 x 1 2 330",
+        "6x3 2 8x2 1 16x 2 31 1 x 1 2 262"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The solution to the equation 6(2x 1 4) 5 36 is",
+      "choices": [
+        "21",
+        "ln 12 ln 36 2 4",
+        "2 4",
+        "ln 2 ln 6 2 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The asymptote of the graph of f(x) 5 5 log(x 1 4) is",
+      "choices": [
+        "y 5 6",
+        "x 5 24",
+        "x 5 4",
+        "y 5 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The probability of having math homework is 3 1 and the probability of having English homework is 7 1 . The probability of having math homework or having English homework is 21 9 . What is the probability of having math homework and having English homework?",
+      "choices": [
+        "21 19",
+        "5 1",
+        "21 1",
+        "21 10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The solution set of the equation x 2 1 5 2x 1 6 is",
+      "choices": [
+        "{5, 21}",
+        "{5}",
+        "{21}",
+        "{ }"
+      ],
+      "image": "/images/exams/algebra-2/august-2024/q11.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Given x . 0, the expression (x22 1 ) 3 2 4 is equivalent to",
+      "choices": [
+        "x x",
+        "1 x x",
+        "3 x2",
+        "1 x2 3"
+      ],
+      "image": "/images/exams/algebra-2/august-2024/q12.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The graph of which function has a period of 3?",
+      "choices": [
+        "y 5 27sin( 3 2\u03c0 x) 2 5",
+        "y 5 27sin( 2 3\u03c0 x) 1 9",
+        "y 5 27sin(3x) 2 5",
+        "y 5 3sin(px) 1 9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "written",
+      "text": "Which graph could represent a 4th degree polynomial function with a positive leading coefficient, 2 real zeros, and 2 imaginary zeros? y x ( 1 ) y x ( 3 ) y x ( 2 ) y x ( 4 )",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2024/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Given i is the imaginary unit, which expression is equivalent to 5i(2x 1 3i) 2 x 29 ?",
+      "choices": [
+        "15 1 13xi",
+        "215 1 13xi",
+        "15 1 7xi",
+        "215 1 7xi"
+      ],
+      "image": "/images/exams/algebra-2/august-2024/q15.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "What is the focus of the parabola 8(y 1 2) 5 (x 1 5)2?",
+      "choices": [
+        "(25,0)",
+        "(25,24)",
+        "(5,0)",
+        "(5,4)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Given q(x) 5 2log(x) and r(x) 5 (x 2 2)3 2 4, what is a solution of q(x) 5 r(x) to the nearest tenth?",
+      "choices": [
+        "1.1",
+        "3.7",
+        "3.9",
+        "4.3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The volume of a cardboard box can be modeled by V(x), which is the product of the length, width, and height, x. If the length can be represented by L(x) 5 18 2 2x and the width can be represented by W(x) 5 18 2 2x, then which function represents V(x)?",
+      "choices": [
+        "V(x) 5 4x2 2 72x 1 324",
+        "V(x) 5 4x3 2 72x2 1 324x",
+        "V(x) 5 23x 1 36",
+        "V(x) 5 4x3 1 324x"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The expression 8 x 2 \u2022 8 x 3 is equivalent to",
+      "choices": [
+        "6 85x",
+        "64 5x 6",
+        "5 82x",
+        "64 x2 6"
+      ],
+      "image": "/images/exams/algebra-2/august-2024/q19.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "If q is an angle in standard position whose terminal side passes through the point (23,24), which statement is true?",
+      "choices": [
+        "sec q . 0 and tan q . 0",
+        "sec q , 0 and tan q , 0",
+        "sec q . 0 and tan q , 0",
+        "sec q , 0 and tan q . 0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "What is the value of y for the system shown below? 3x 1 4y 2 5z 5 227 2x 1 3y 2 z 5 23 6x 2 y 1 4z 5 3",
+      "choices": [
+        "227",
+        "6",
+        "3",
+        "23"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The number of employees who work nights and weekends at a department store is summarized in the table below. Works Nights Doesn\u2019t Work Nights Works Weekends 8 40 Doesn\u2019t Work Weekends 12 60 Let N represent the event \u201cworks nights\u201d and let W represent the event \u201cworks weekends.\u201d Based on the table, are N and W independent events?",
+      "choices": [
+        "Yes, because P(N) \u2022 P(W) 5 P(N > W).",
+        "Yes, because P(N) \u2022 P(W) \u00de P(N > W).",
+        "No, because P(N) \u2022 P(W) 5 P(N > W).",
+        "No, because P(N) \u2022 P(W) \u00de P(N > W)"
+      ],
+      "image": "/images/exams/algebra-2/august-2024/q22.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to x8 2 y8?",
+      "choices": [
+        "(x 2 y)8",
+        "(x2 1 y2)2 (x2 2 y2)2",
+        "(x4 1 y4)(x2 1 y2)(x 1 y)(x 2 y)",
+        "(x 1 y)4 (x 2 y)4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A research assistant receives a first year salary of $90,000 and a 2% annual raise throughout the first ten years of employment. In total, how much money will be earned over the first ten years, to the nearest dollar?",
+      "choices": [
+        "$91,837",
+        "$109,709",
+        "$877,917",
+        "$985,475 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "On the axes below, graph y 5 3.2(1.8)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2024/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Is x 1 3 a factor of 7x3 1 27x2 1 9x 2 27? Justify your answer.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Over the set of integers, factor the expression 2x4 2 10x3 1 3x2 2 15",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The monthly unemployment rate of towns in the United States is approximately normally distributed with a mean rate of 5.2% and a standard deviation of 1.6%. Determine the percentage of towns, to the nearest integer, that have a monthly unemployment rate greater than 6%",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "The function d(t) 5 2cos( 6 \u03c0 t) 1 5 models the water depth, in feet, at a location in a bay, t hours since the last high tide. Determine the minimum water depth of the location, in feet,",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2024/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "A brewed cup of coffee contains 130 mg of caffeine. The half-life of caffeine in the bloodstream is 5.5 hours. Write a function, C(t)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Markus is a long-distance walker. In one race, he walked 55 miles in t hours and in another race walked 65 miles in t 1 3 hours. His rates are shown in the equations below. r 5 t 55 r 5 t 1 3 65 Markus walked at an equivalent rate, r,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Solve the equation x2 1 3x 1 11 5 0 algebraically. Express the answer in a 1 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "The population of China, in millions, can be modeled by the function P(x) 5 316.93e 0.0133x, where x is the number of years since 1900. The population of India since 1900 is summarized in the table below: Years since 1900 0 10 20 30 40 50 60 70 80 90 100 110 120 Population (millions) 243 254 268 285 324 376.3 450.6 555.1 699 873.3 1056.6 1234.3 1380 Which country\u2019s population had a greater average rate of change between 1950 and 2020?",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2024/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "In a packaging plant, a machine packs boxes with jars. The machine\u2019s manufacturer states that a box is packed, on average, every 42 seconds. To test that claim, the packaging plant randomly selects a sample of 10 boxes and finds the sample mean to be 49.8 seconds. The company ran a simulation of 1000 trials based on the manufacturer's claim. The approximately normal results are shown below. 32.5 0 10 20 30 40 42.5 37.5 47.5 35.0 45.0 40.0 50.0 Mean = 42.029 SD = 3.105 n = 10 Time (seconds) Frequency Based on the simulation, determine an interval containing the middle 95% of plausible mean times. Round your answer to the nearest hundredth. Is the time 49.8 seconds unusual?",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2024/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Consider the function f(x) 5 2x. Is f(x) an even function? Justify your answer. Write an equation for g(x), the function that results after f(x) is shifted up 5 units. Write an equation for h(x), the inverse of g(x)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Solve the system of equations shown below algebraically: (x 2 4)2 1 (y 2 1)2 5 9 x 2 y 5 6 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Taylor wants to open an investment account with the $1200 she received for her birthday. She has narrowed her choices down to two banks. America\u2019s Bank offers 6.4% annual interest compounded quarterly. Barnyard Bank offers 6.35% annual interest compounded continuously. Write functions for A(t) and B(t) to represent the value of her investment with America\u2019s Bank and Barnyard Bank as a function of time, t, in years. Taylor would like to invest the $1200 into one bank for ten years making no additional deposits and no withdrawals. With which bank will Taylor earn the most money? Justify your answer. Question 37 Taylor chooses to invest her money in Barnyard Bank. Algebraically determine how long, to the nearest tenth of a year, it will take her initial investment to triple assuming she makes no deposits or withdrawals. Question 37 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 pr2 Circle C 5 pd or C 5 2pr General Prisms V 5 Bh Cylinder V 5 pr2h Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 pr2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u2260 1 Radians 1 radian 5 180 ___ p degrees Degrees 1 degree 5 p ___ 180 radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

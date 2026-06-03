@@ -1,0 +1,1111 @@
+{
+  "subject": "living-environment",
+  "session": "june-2019",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which activity is an example of a decomposer recycling organic compounds back into the environment?",
+      "choices": [
+        "A tree synthesizes starch from simpler molecules.",
+        "A bacterial cell performs photosynthesis.",
+        "A bird digests proteins from its food.",
+        "A fungus breaks down the body of a dead animal."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Itching and other skin problems are signs that a cat or dog may have \ufb02 eas. Fleas are parasites known for their biting and blood-sucking abilities. When they bite, \ufb02 ea saliva enters the pet\u2019s circulatory system, sometimes causing an allergic response commonly seen as a \u201chot spot\u201d on the pet\u2019s neck or the base of its tail. Source: https://www.planetnatural.com/ pest-problem-solver/household-pests/flea-control/ These observations are best explained by the fact that",
+      "choices": [
+        "\ufb02 ea saliva may stimulate an immune response in cats and dogs",
+        "\ufb02 eas are microbes whose bites cause a decreased blood \ufb02 ow",
+        "\ufb02 ea saliva is a toxic substance that is released when \ufb02 eas prey on cats and dogs",
+        "\ufb02 eas are host organisms whose saliva digests cat and dog fur, leaving \u201chot spots\u201d"
+      ],
+      "image": "/images/exams/living-environment/june-2019/q2.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "A German measles (rubella) epidemic during the years 1963 to 1965 resulted in approximately 30,000 babies being born with birth defects. The speci\ufb01 c cause of these birth defects was most likely",
+      "choices": [
+        "the development of rubella virus infections in embryos",
+        "the failure of zygotes infected with rubella to develop",
+        "mutations in the nerve cells of pregnant females at the time of the rubella epidemic",
+        "an increase in the amount of time needed for healthy embryonic development"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Placenta previa is a medical condition that occurs in some pregnant women. Women with this condition are often placed on bed rest, which prohibits them from any strenuous activity that may cause the blood vessels in the placenta to rupture. If not diagnosed, placenta previa can be a very dangerous condition because the placenta is",
+      "choices": [
+        "the primary source of oxygen for the mother",
+        "where the fetus obtains milk from the mother",
+        "where nutrients and wastes are exchanged",
+        "the primary source of estrogen and progesterone in the mother"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Over time, a tree that once had a total mass of 300 g increased in mass to 3000 kg. This increase in mass comes mostly from",
+      "choices": [
+        "carbon dioxide that enters through the leaf openings",
+        "oxygen that enters through the leaf openings",
+        "soil that all plants need to grow",
+        "chloroplasts that enter the roots and move to the leaves"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Recently, a type of genetically modi\ufb01 ed \ufb01 sh has been approved for sale for human consumption. The modi\ufb01 ed \ufb01 sh contain a growth hormone gene from a different \ufb01 sh species. As a result, the modi\ufb01 ed \ufb01 sh grow rapidly and are ready to sell in almost half the time it normally would take. The modi\ufb01 ed \ufb01 sh are able to produce the new growth hormone because",
+      "choices": [
+        "each of their cells contains the new gene to produce growth hormone",
+        "each gene contains the code to synthesize carbohydrates",
+        "the altered gene directs the mitochondria to synthesize the hormone",
+        "the modi\ufb01 ed body cells are able to reproduce by meiosis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Melanoma is a type of skin cancer that can spread to vital organs in the body. Doctors believe that exposure to ultraviolet (UV) radiation from the Sun is a leading cause of melanoma. One practical way governments can help prevent the harmful effects of UV radiation is to",
+      "choices": [
+        "require everyone to remain indoors during daylight hours",
+        "regulate the production and release of gases that damage the ozone shield",
+        "encourage the building of a greater number of cancer treatment centers",
+        "prohibit the use of solar panels on homes and businesses"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Some birds have recently modi\ufb01 ed their migratory behavior. Instead of \ufb02 ying to warmer climates during the winter months, the birds are remaining in northern areas where they can consume discarded food that is abundant in land\ufb01 lls. As a result of this change in migratory behavior, many insect populations that the birds normally feed on in the warmer climate areas are now increasing. This is an example of human activity",
+      "choices": [
+        "interfering with ecological succession",
+        "increasing competition for in\ufb01 nite resources",
+        "disrupting the homeostasis of organisms",
+        "altering the equilibrium of ecosystems"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "New York State charges consumers a fee when purchasing beverages sold in aluminum cans and plastic bottles. This money is returned to purchasers when they return these items for recycling. Programs such as these are an attempt to",
+      "choices": [
+        "encourage people to spend more money on their beverages",
+        "conserve the resources these containers are made from",
+        "reduce the amount of carbon dioxide produced by deforestation",
+        "totally eliminate the use of reusable containers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Recently, a human trachea (a respiratory organ) was produced by using a patient\u2019s own stem cells. The bene\ufb01 t of using the patient\u2019s own cells to produce a trachea instead of receiving one from a donor is that",
+      "choices": [
+        "there will be more enzymes produced to help maintain homeostasis in the trachea",
+        "there will be an increase in the quantity of antibodies that the patient produces in response to the new trachea",
+        "there is less of a chance that the patient\u2019s immune system will attack the trachea",
+        "there will be a greater response to any infectious agent that may enter the body"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the organization of structures within an organism. Cells Organs X Which term best indicates the structures represented by the circle labeled X?",
+      "choices": [
+        "organelles",
+        "chromosomes",
+        "organ systems",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2019/q11.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The chart below shows a comparison of the blood sugar levels for two individuals who took part in a scienti\ufb01 c study. Key Banana Cookie 115 100 85 115 100 85 Participant 445 Participant 644 Time (min) Blood Glucose (mg/dl) 0 30 60 90 120 Source: Science Daily 11/19/15 Scientists have observed that blood sugar levels rose by different amounts in the two individuals even though they were given identical portions of bananas and cookies. These results were obtained because",
+      "choices": [
+        "glucose is too large a molecule to be absorbed into the blood, so the researchers were only measuring the amount of glucose already present",
+        "participant 445 didn\u2019t like bananas, and his body absorbed more of the food that he likes",
+        "individuals have genetic differences that alter their responses to environmental factors",
+        "two different foods were used; the scientists should have had only one experimental variable"
+      ],
+      "image": "/images/exams/living-environment/june-2019/q12.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which row in the chart below correctly matches the human activity with its effect? Row Human Activity Effect",
+      "choices": [
+        "planting 20 acres of one crop increases biodiversity",
+        "industrialization decreases fossil fuel use",
+        "habitat destruction decreases ecosystem stability",
+        "use of \ufb01"
+      ],
+      "image": "/images/exams/living-environment/june-2019/q13.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Potatoes are an example of a crop that can be reproduced asexually. One potato will produce a number of \u201ceyes,\u201d which are sprouts that can grow into new plants. A potato with four eyes can be cut into four pieces, and each piece can be used to produce an individual potato plant. Source: https://www.quickcrop.ie/ blog/2014/02/growing-potatoes/ \u201cEyes\u201d A gardener could produce a small crop of potatoes by planting the eyes from a single potato in her garden. Some of the potatoes grown in this way could be used to obtain eyes for the next season\u2019s crop. One likely disadvantage of growing potatoes cloned in this way, year after year, would be that",
+      "choices": [
+        "after a few years, the potatoes would stop producing eyes altogether, so no potatoes could be grown in the garden",
+        "the potatoes produced each succeeding year would get larger and larger, eventually being too big for use as food",
+        "the cost for growing your own potatoes in the garden would be greatly reduced",
+        "a potato plant could become infected with a disease, and it could easily spread to the entire crop,"
+      ],
+      "image": "/images/exams/living-environment/june-2019/q14.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The back of the Namib Desert darkling beetle, shown in the photograph below, is covered in little bumps that collect water from the air. When it tilts forward, the water runs off its back into its mouth. Source: http://myinforms.com These specialized structures on the beetle\u2019s back allow it to",
+      "choices": [
+        "locate food within the harsh desert environment",
+        "obtain a substance that is required for survival",
+        "reproduce asexually if mates are not available in the area",
+        "increase the chances of survival by producing organic raw materials"
+      ],
+      "image": "/images/exams/living-environment/june-2019/q15.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "An increase in human population puts a stress on resources that can be renewed, such as",
+      "choices": [
+        "trees and coal",
+        "water and gasoline",
+        "oil and natural gas",
+        "water and trees"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Mitochondria provide ribosomes with",
+      "choices": [
+        "ATP for protein synthesis",
+        "amino acids for protein synthesis",
+        "oxygen for respiration",
+        "carbon dioxide for the production of sugars"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Mutations are most directly caused by changes in the",
+      "choices": [
+        "cell organelles of tissues",
+        "genes of chromosomes",
+        "ribosomes in gametes",
+        "receptors on membranes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Animals and green plants are similar in that they",
+      "choices": [
+        "both carry out heterotrophic nutrition",
+        "all produce offspring by asexual reproduction",
+        "both use DNA to transmit hereditary information to offspring",
+        "all require oxygen to carry out photosynthesis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Two organisms of different species are not likely to compete for the same",
+      "choices": [
+        "food",
+        "mate",
+        "space",
+        "water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Some salmon have been genetically modi\ufb01 ed to grow bigger and faster than wild salmon. They are grown in \ufb01 sh-farming facilities. These genetically modi\ufb01 ed \ufb01 sh should not be introduced into a natural habitat because",
+      "choices": [
+        "the salmon would recycle nutrients at a rapid rate",
+        "their rapid growth rate could cause them to outcompete native salmon",
+        "they would not have enough oxygen for survival",
+        "they would reproduce asexually once they were released"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a portion of a cell membrane. H+ H+ H+ H+ H+ External environment H+ pump H+ Cytoplasm ATP The arrow indicates that the cell membrane is carrying out the process of",
+      "choices": [
+        "respiration",
+        "cell recognition",
+        "diffusion",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2019/q22.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The expression of a trait is directly dependent on the",
+      "choices": [
+        "arrangement of amino acids in the protein synthesized",
+        "shape of the subunits in the DNA molecule",
+        "number of chromosomes present in the nucleus",
+        "sequence of bases coded for by the ribosome"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Global warming is most closely associated with",
+      "choices": [
+        "increased use of solar panels",
+        "increased industrialization",
+        "reducing the rate of species extinction",
+        "removal of environmental wastes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Which diagram below indicates that species D is more closely related to C than it is to either A or B? ( 1 ) B C A D ( 3 ) A C ( 2 ) A B C D ( 4 ) A C B D B D",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "As climate changes, which type of reproduction would most likely result in a greater chance of survival for a species?",
+      "choices": [
+        "sexual reproduction, with a short reproductive cycle",
+        "sexual reproduction, with a long reproductive cycle",
+        "asexual reproduction, with a short reproductive cycle",
+        "asexual reproduction, with a long reproductive cycle"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Adults of the Aedes mosquito genus are responsible for transmitting the viral diseases Zika and Dengue. Scientists have produced a modi\ufb01 ed form of male Aedes mosquitoes. The offspring of these male mosquitoes die before reaching adulthood. This method of reducing the spread of disease is dependent on",
+      "choices": [
+        "vaccines stimulating the immune system of infected people",
+        "providing medication to reduce the symptoms of disease",
+        "the use of natural selection to modify the viruses so they are no longer pathogenic",
+        "the use of genetic engineering to reduce the population of mosquitoes that carry the virus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Humans deplete the most resources when",
+      "choices": [
+        "using wind energy as a power source",
+        "generating power by using fossil fuels",
+        "using water power to generate electricity",
+        "recycling glass and plastics"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The diagram below does not represent a sustainable energy pyramid in an ecosystem because Carnivores Carnivores Herbivores Producers",
+      "choices": [
+        "energy is never transferred between levels in ecosystems",
+        "ecosystems never have more than three levels of energy transfer",
+        "more energy must be available in the producer level than in the consumer levels",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2019/q29.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The two diagrams below represent a sugar molecule and a fat molecule that are used by living organisms. O C H H C H O C O C H H C H H C H H C H H C H H H H C O C O C H H C H H C H H C H H C H H H H O C O C H H C H H C H H C H H C H H H Fat molecule Sugar molecule H C HO OH C H CH2OH C H OH C H H C OH Which statement best describes these two molecules?",
+      "choices": [
+        "Sugar molecules are inorganic and fat molecules are organic.",
+        "Sugar molecules are organic and fat molecules are inorganic.",
+        "Energy for life processes can be stored within the chemical bonds of both molecules.",
+        "Energy for life processes can be stored within the chemical bonds of sugar molecules,"
+      ],
+      "image": "/images/exams/living-environment/june-2019/q30.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "A scientist analyzed a segment of DNA from a human chromosome and found that the percentage of thymine molecular bases (T) was 35%. Which row in the chart below contains the correct percentages of the other molecular bases in the DNA segment? Row Guanine (G) Cytosine (C) Adenine (A)",
+      "choices": [
+        "15% 25% 25%",
+        "25% 25% 15%",
+        "15% 15% 35%",
+        "35% 15% 15%"
+      ],
+      "image": "/images/exams/living-environment/june-2019/q31.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The graph below shows changes in the populations of hares and lynx in a Canadian ecosystem. Changes in Hare and Lynx Populations Number of Hares per square kilometer Number of Lynx per 100 square kilometers Years 4000 3000 2000 1000 500 300 100 25 0 10 20 30 40 20 10 Key Hares Lynx Source: Adapted from http://lbyiene-jardin-wikispaces.com Which statement about the hares and lynx can be supported with information from the graph?",
+      "choices": [
+        "The hare is the predator of the lynx because it is a larger animal.",
+        "The lynx population begins to drop after the hare population drops.",
+        "Both populations go through cycles due to the succession of plant species.",
+        "Both populations have a carrying capacity of 3000"
+      ],
+      "image": "/images/exams/living-environment/june-2019/q32.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a cell in the human body. 1 3 4 2 Which statement concerning the structures within this cell is accurate?",
+      "choices": [
+        "Structure 1 is a chloroplast that carries out photosynthesis.",
+        "Structure 2 is a vacuole that contains DNA.",
+        "Structure 3 is a mitochondrion, where respiration takes place.",
+        "Structure 4 is the cell membrane, which provides rigid support for the cell."
+      ],
+      "image": "/images/exams/living-environment/june-2019/q33.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "An aquatic ecosystem experiences an increase in temperature. Which row in the chart below shows the effect of this increased temperature on the available oxygen and ecosystem? Row Amount of Available Oxygen Effect on Ecosystem",
+      "choices": [
+        "decreases greater stability of the ecosystem",
+        "increases lessens competition between predatory organisms",
+        "decreases reduces carrying capacity for \ufb01 sh",
+        "increases increases genetic mutations in bacteria"
+      ],
+      "image": "/images/exams/living-environment/june-2019/context_34_35.png",
+      "context": "Base your answers to questions 34 and 35 on the data table below and on your knowledge of biology. The \ntable below indicates the amount of oxygen present at various water temperatures in a pond.\nAmount of Available Oxygen in\nWater at Various Temperatures\nTemperature (\u00b0F)\nDissolved Oxygen (ppm)\n68.0\n9.2\n71.6\n8.8\n78.8\n8.2\n82.4\n7.9\n86.0\n7.6",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which process performed by organisms produces oxygen for the aquatic ecosystem?",
+      "choices": [
+        "respiration",
+        "replication",
+        "active transport",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2019/context_34_35.png",
+      "context": "Base your answers to questions 34 and 35 on the data table below and on your knowledge of biology. The \ntable below indicates the amount of oxygen present at various water temperatures in a pond.\nAmount of Available Oxygen in\nWater at Various Temperatures\nTemperature (\u00b0F)\nDissolved Oxygen (ppm)\n68.0\n9.2\n71.6\n8.8\n78.8\n8.2\n82.4\n7.9\n86.0\n7.6",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Examples of autotrophs in this food web are",
+      "choices": [
+        "killer whales and grasses",
+        "sedges and bulrushes",
+        "mosquitoes and grasshoppers",
+        "snails and seals"
+      ],
+      "image": "/images/exams/living-environment/june-2019/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the diagram below and on your knowledge of biology. The \ndiagram represents a food web illustrating some relationships in a tidal marsh ecosystem.\nAdapted from: http://www.physicalgeography.net/fundamental/9o.html\nKiller whales\nBald eagles\nMarsh hawks\nSnow geese\nRats\nHerring\nSalmon\nHarbour seals\nVoles\nSnails\nGrasshoppers\nMosquitoes\nMarsh vegetation (includes many species\nof sedges, grasses, bulrushes, algae, etc.)",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "In addition to grasshoppers, herring may also get energy from",
+      "choices": [
+        "algae",
+        "bald eagles",
+        "snails",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2019/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the diagram below and on your knowledge of biology. The \ndiagram represents a food web illustrating some relationships in a tidal marsh ecosystem.\nAdapted from: http://www.physicalgeography.net/fundamental/9o.html\nKiller whales\nBald eagles\nMarsh hawks\nSnow geese\nRats\nHerring\nSalmon\nHarbour seals\nVoles\nSnails\nGrasshoppers\nMosquitoes\nMarsh vegetation (includes many species\nof sedges, grasses, bulrushes, algae, etc.)",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Each species listed is a predator. If the prey organisms that each predator consumes were tested, they would most likely contain",
+      "choices": [
+        "the same amount of mercury as the predator species",
+        "less mercury than the predator species",
+        "more mercury than the predator species",
+        "no mercury, since the predators probably get it from the polluted water"
+      ],
+      "image": "/images/exams/living-environment/june-2019/context_38_39.png",
+      "context": "Base your answers to questions 38 and 39 on the information below and on your knowledge of biology.\nMercury is a toxic chemical that accumulates in the tissues of animals in a food chain. \nThe chart below shows mercury levels found in various commercial \ufb01 sh and shell\ufb01 sh.\nMercury Concentration\nSpecies\nAverage Mercury\nConcentration (ppm)\nNumber of Samples\nking mackerel\n0.730\n213\nshark\n0.979\n356\nswordfi sh\n0.995\n636\ntilefi sh (Gulf of Mexico)\n1.450\n60\ncatfi sh\n0.025\n57\nhaddock\n0.055\n50\nlobster (spiny)\n0.093\n13\nSource: www.fda.gov/food/foodborneillnesscontaminants/metals/ucm115644.html",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which statement is best supported by the data in the chart?",
+      "choices": [
+        "Any \ufb01 sh caught in the Gulf of Mexico would have low levels of mercury.",
+        "Eating cat\ufb01 sh or haddock would be most likely to cause deadly mercury poisoning.",
+        "Spiny lobsters may have more or less mercury than indicated because only a few were sampled.",
+        "Tile\ufb01 sh are the most nutritious of all the species listed."
+      ],
+      "image": "/images/exams/living-environment/june-2019/context_38_39.png",
+      "context": "Base your answers to questions 38 and 39 on the information below and on your knowledge of biology.\nMercury is a toxic chemical that accumulates in the tissues of animals in a food chain. \nThe chart below shows mercury levels found in various commercial \ufb01 sh and shell\ufb01 sh.\nMercury Concentration\nSpecies\nAverage Mercury\nConcentration (ppm)\nNumber of Samples\nking mackerel\n0.730\n213\nshark\n0.979\n356\nswordfi sh\n0.995\n636\ntilefi sh (Gulf of Mexico)\n1.450\n60\ncatfi sh\n0.025\n57\nhaddock\n0.055\n50\nlobster (spiny)\n0.093\n13\nSource: www.fda.gov/food/foodborneillnesscontaminants/metals/ucm115644.html",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a laboratory process. DNA The substance represented by the scissors shown cutting the DNA is",
+      "choices": [
+        "an enzyme",
+        "a starch molecule",
+        "a carbohydrate",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2019/q40.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The human body has many cells that are deep inside the body. For this reason, the human body requires",
+      "choices": [
+        "a transport system and other organs",
+        "carbon dioxide from the air",
+        "the synthesis of many inorganic compounds",
+        "the breakdown of glucose by the digestive system"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Based on the information, one danger of the new Bird Flu H7N9 strain is that it",
+      "choices": [
+        "causes death in over 75% of the individuals who become infected",
+        "is transferred to humans through consuming cooked poultry",
+        "can spread from humans to birds, such as crows and pigeons",
+        "mutates rapidly, making it hard to produce an effective vaccine"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 42 and 43 on the information below and on your knowledge of biology.\nBird Flu\nResearchers are not sure when the H7N9 virus, referred to as bird \ufb02 u, hit the China \npoultry markets. In February of 2012, the virus was found to have spread from birds to \nhumans. All cases resulted from direct contact with infected poultry.\nThe bird \ufb02 u can cause severe respiratory illness in humans. Since \ufb02 u viruses constantly \nmutate, it would be dif\ufb01 cult to develop a vaccine ahead of time. Scientists are worried that \nthe virus could spread easily among people, causing a worldwide outbreak of the disease.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The fact that the H7N9 virus has only recently infected humans helps explain why",
+      "choices": [
+        "it is highly transmissible through both the air and water",
+        "it is found only in the U.S.",
+        "humans have little or no immunity to the virus",
+        "\u20132"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 42 and 43 on the information below and on your knowledge of biology.\nBird Flu\nResearchers are not sure when the H7N9 virus, referred to as bird \ufb02 u, hit the China \npoultry markets. In February of 2012, the virus was found to have spread from birds to \nhumans. All cases resulted from direct contact with infected poultry.\nThe bird \ufb02 u can cause severe respiratory illness in humans. Since \ufb02 u viruses constantly \nmutate, it would be dif\ufb01 cult to develop a vaccine ahead of time. Scientists are worried that \nthe virus could spread easily among people, causing a worldwide outbreak of the disease.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information below and on your knowledge of biology.\nAs part of an experiment, a bacterial culture was grown in a lab for two days. No \nadditional nutrients were added to the culture after the initial set-up. As the bacteria \nreproduced asexually, the population of the culture was measured every six hours. Some of \nthe data related to the bacterial growth are shown in the data table below.\nBacterial Growth\nTime (hrs)\nPopulation (millions)\n0\n2.0\n6\n4.5\n18\n16.0\n30\n28.0\n48\n37.0\n\n Living Environment\u2013June \u201919 \n[15] \n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for marking an appropriate scale, without any breaks in the data, on each labeled axis. Note: Do not allow credit if the graph is extended to accommodate the scale."
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data on the grid provided. Connect the points and surround each point with a small circle. Example: Population (millions) Time (hrs) Bacterial Growth",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information below and on your knowledge of biology.\nAs part of an experiment, a bacterial culture was grown in a lab for two days. No \nadditional nutrients were added to the culture after the initial set-up. As the bacteria \nreproduced asexually, the population of the culture was measured every six hours. Some of \nthe data related to the bacterial growth are shown in the data table below.\nBacterial Growth\nTime (hrs)\nPopulation (millions)\n0\n2.0\n6\n4.5\n18\n16.0\n30\n28.0\n48\n37.0\n\n Living Environment\u2013June \u201919 \n[15] \n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly plotting the data, connecting the points, and surrounding each point with a small circle. Example of a 2-credit graph for questions 44-45: Note: Allow credit if the points are plotted correctly, but not circled. Do not assume that the intersection of the x- and y-axes is the origin (0,0) unless it is labeled. An appropriate scale only needs to include the data range in the data table. Do not allow credit if points are plotted that are not in the data table, e.g., (0,0), or for extending lines beyond the data points."
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "If data for the growth of this bacterial population continued to be recorded, would the data point at 60 hours be above or below 37 million? Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information below and on your knowledge of biology.\nAs part of an experiment, a bacterial culture was grown in a lab for two days. No \nadditional nutrients were added to the culture after the initial set-up. As the bacteria \nreproduced asexually, the population of the culture was measured every six hours. Some of \nthe data related to the bacterial growth are shown in the data table below.\nBacterial Growth\nTime (hrs)\nPopulation (millions)\n0\n2.0\n6\n4.5\n18\n16.0\n30\n28.0\n48\n37.0\n\n Living Environment\u2013June \u201919 \n[15] \n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating that the data point at 60 hours would be either above 37 million or below 37 million and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Since there are no more nutrients being added to the culture, the bacterial population will begin to drop below 37 million. \u2014 The bacteria will continue to increase as long as food is available. \u2014 Without additional nutrients in the culture, the bacteria population will begin to drop. \u2014 The population would decrease as wastes build up. \u2014 Above 37 million, if the trend continues, because as time increased, the population increased. \u0002\u0003\u0004\u0005\u0002\u0003\u0004\u0005\u0006\u0007 \b \u000e \u000f \b \u000e \b \b\u000f \b \u0006\u0007\b \u0005 \u0003\u0007 \u000e\u000f \u0010 \u0011\u000e\u0012\u0013 \u0007 \u0003\u000e\u0014\u0002\u0003\u0010\u0011\u0012\u0012\u0011\u0013\u0014\u0006\u0007 Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "One likely reason bacteria would be grown in laboratory cultures would be to",
+      "choices": [
+        "increase the number of antibiotics produced by human cells",
+        "eliminate the cloning of cells that can \ufb01 ght disease",
+        "increase the production of specialized proteins by using genetic engineering",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2019/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information below and on your knowledge of biology.\nAs part of an experiment, a bacterial culture was grown in a lab for two days. No \nadditional nutrients were added to the culture after the initial set-up. As the bacteria \nreproduced asexually, the population of the culture was measured every six hours. Some of \nthe data related to the bacterial growth are shown in the data table below.\nBacterial Growth\nTime (hrs)\nPopulation (millions)\n0\n2.0\n6\n4.5\n18\n16.0\n30\n28.0\n48\n37.0\n\n Living Environment\u2013June \u201919 \n[15] \n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Identify two groups of organisms from the diagram that still exist on Earth today. Describe how they may have been able to survive to the present. Organisms: and",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the information and diagram below and on your knowledge of \nbiology. The diagram represents a biological process.\nFossil evidence has demonstrated that birds evolved from a group of small carnivorous \ndinosaurs. Scientists have hypothesized that some evolved into birds as they \ufb01 lled available \nniches.\nThecodonts\nPterosaurs\nOrnithischian\ndinosaurs\nBirds\nSaurischian dinosaurs\nCrocodilians\nPast\nPresent\nosaurs\nschian\nurs\nB\nSaurischian dinosaurs\nrds\nir\nCrocodilians\nTh\nd",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying crocodilians and birds and for describing how they may have been able to survive to the present. Acceptable responses include, but are not limited to: \u2014 The crocodilians/crocodiles and birds may have survived because they had certain adaptations that allowed them to be successful in their environment then and now. \u2014 They had characteristics that allowed them to survive, reproduce, and pass their traits on to their offspring. \u2014 They had adaptations to their environments that allowed them to fill available niches. 49 MC on scoring key 50 MC on scoring key"
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The most recent fossil discoveries have \ufb01 lled in many of the gaps in the evolution of birds from dinosaurs. Before the latest fossils were found, there were some scientists who questioned this idea that birds evolved from dinosaurs. In general, scientists constantly work to",
+      "choices": [
+        "clarify scienti\ufb01 c explanations so they can be made into a law that never changes",
+        "develop theories based on the data and evidence from a few experiments with inconclusive results",
+        "provide enough evidence and accurate predictions to allow for widespread acceptance",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2019/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the information and diagram below and on your knowledge of \nbiology. The diagram represents a biological process.\nFossil evidence has demonstrated that birds evolved from a group of small carnivorous \ndinosaurs. Scientists have hypothesized that some evolved into birds as they \ufb01 lled available \nniches.\nThecodonts\nPterosaurs\nOrnithischian\ndinosaurs\nBirds\nSaurischian dinosaurs\nCrocodilians\nPast\nPresent\nosaurs\nschian\nurs\nB\nSaurischian dinosaurs\nrds\nir\nCrocodilians\nTh\nd",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The structure in which fertilization normally takes place is",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/june-2019/context_50_52.png",
+      "context": "Base your answers to questions 50 through 52 on the diagram below and on your knowledge of biology. The \ndiagram indicates some parts of the human female reproductive system.\nA\nC\nD\nB\n \nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State one function of organ B.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_50_52.png",
+      "context": "Base your answers to questions 50 through 52 on the diagram below and on your knowledge of biology. The \ndiagram indicates some parts of the human female reproductive system.\nA\nC\nD\nB\n \nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 production of egg cells \u2014 production of gametes \u2014 production of sex hormones \u2014 production of the hormones estrogen and progesterone"
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "52",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_50_52.png",
+      "context": "Base your answers to questions 50 through 52 on the diagram below and on your knowledge of biology. The \ndiagram indicates some parts of the human female reproductive system.\nA\nC\nD\nB\n \nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Embryos that grow inside the body of the female parent get greater protection from the environment than embryos that develop externally. \u2014 The survival rate of offspring is higher for internal development than external. \u2014 It is an efficient way to provide nutrients to the fetus. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Identify the ecological process that is represented from stage A through stage D, and explain why each stage is important to the stage that follows it. Process:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the information below and on your knowledge of biology. \nThe diagram represents an ecological process that occurs in New York State over a long period of time.\nGrass\nstage\nBare\nfield\nShrub\nstage\nTime\nHardwood forest\nstage\nPine forest stage\nA.\nB.\nC.\nD.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for ecological succession or succession and explaining why each stage is important to the stage that follows it. Acceptable responses include, but are not limited to: \u2014 Each stage modifies the environment for the next stage. \u2014 Each stage makes the environment more suitable for the replacement community."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify two abiotic factors that can determine which types of organisms can inhabit an ecosystem. and",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the information below and on your knowledge of biology. \nThe diagram represents an ecological process that occurs in New York State over a long period of time.\nGrass\nstage\nBare\nfield\nShrub\nstage\nTime\nHardwood forest\nstage\nPine forest stage\nA.\nB.\nC.\nD.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying two abiotic factors. Acceptable responses include, but are not limited to: \u2014 light intensity and temperature \u2014 soil composition and pH \u2014 water availability and light"
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify the short-term effect that a forest \ufb01",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the information below and on your knowledge of biology. \nThe diagram represents an ecological process that occurs in New York State over a long period of time.\nGrass\nstage\nBare\nfield\nShrub\nstage\nTime\nHardwood forest\nstage\nPine forest stage\nA.\nB.\nC.\nD.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Biodiversity would decrease. \u2014 Many trees and animals would no longer be present. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify the molecule that contains the hereditary material and the organelle in which it is found in turtle cells. Molecule: Organelle in turtle cells: __________________________________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of biology.\nTurtle Cells and Human Skin\nNew research has demonstrated that turtles and humans may have had a common \nancestor 310 million years ago. A recent study looked at the genes responsible for the skin \nlayers of turtle shells compared to the genes for human skin. The \ufb01 ndings of the study \nsuggest that about 250 million years ago, when turtle evolution split from other reptiles, a \nmutation in a speci\ufb01 c group of genes occurred. The basic organization of this group of genes \nis similar in turtles and humans, and they produce the important skin proteins that produce \nshells in turtles and protect against infection in the skin of humans.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying the molecule as DNA and that it is found in the nucleus."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Describe how the mutation in the genes of a turtle ancestor turned out to be a bene\ufb01",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of biology.\nTurtle Cells and Human Skin\nNew research has demonstrated that turtles and humans may have had a common \nancestor 310 million years ago. A recent study looked at the genes responsible for the skin \nlayers of turtle shells compared to the genes for human skin. The \ufb01 ndings of the study \nsuggest that about 250 million years ago, when turtle evolution split from other reptiles, a \nmutation in a speci\ufb01 c group of genes occurred. The basic organization of this group of genes \nis similar in turtles and humans, and they produce the important skin proteins that produce \nshells in turtles and protect against infection in the skin of humans.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The turtles produced proteins that strengthened skin, resulting in a tough shell for a defense mechanism. \u2014 The mutation results in a shell with better protection. \u2014 They produced skin proteins that protect against infection in humans. \u2014 The turtles were protected from predators."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "The little brown bat eats mainly mosquitoes and night-\ufb02 ying insects. State one way in which the animal is adapted to prey on these organisms.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the illustration and information below and on your \nknowledge of biology.\nSource: http://knatolee.blogspot.com/2011/09/not-ducklings.html\nThe Little Brown Bat\nThe illustration is of a species commonly called the little brown bat. It has 38 teeth \nand usually lives near bodies of water. The animal is considered bene\ufb01 cial by many people \nbecause it eats mosquitoes and many types of garden pests. They feed at night, detecting \ntheir prey by echolocation\u2014a form of sonar similar to what is used on ships. They can \ndetermine the location and size of their prey by listening to the return echo.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 It can catch these insects because it can fly. \u2014 It uses echolocation and can hear the return echo to find prey. \u2014 It has 38 teeth. \u2014 It has large ears so that it can hear the insects. \u2014 because it feeds at night \u2014 It feeds near bodies of water where mosquitoes breed."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "If a mutation occurs in some of these bats, it may result in a new inheritable trait that makes them better able to catch insects than other bats in the population. Describe what will most likely happen to the frequency of the original trait in the population. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the illustration and information below and on your \nknowledge of biology.\nSource: http://knatolee.blogspot.com/2011/09/not-ducklings.html\nThe Little Brown Bat\nThe illustration is of a species commonly called the little brown bat. It has 38 teeth \nand usually lives near bodies of water. The animal is considered bene\ufb01 cial by many people \nbecause it eats mosquitoes and many types of garden pests. They feed at night, detecting \ntheir prey by echolocation\u2014a form of sonar similar to what is used on ships. They can \ndetermine the location and size of their prey by listening to the return echo.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for describing what will most likely happen to the frequency of the original trait in the population and supporting the answer. Acceptable responses include, but are not limited to: \u2014 The frequency of the original trait will decrease because these bats will not be as successful at obtaining food. They will be less likely to produce offspring than the bats with the new mutation. \u2014 Since they will not be able to compete successfully with the bats with the mutation, they will produce fewer offspring, and the trait will decrease. \u2014 The trait would decrease in that population because those bats would be less successful. \u2014 The original trait will decrease due to natural selection for the new trait, which is beneficial. \u2014 There could be no change if there\u2019s plenty of food."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Coevolution occurs when the evolution of an adaptation by one species affects the evolution of an adaptation in a second species. Some species of moths have evolved the ability to emit high frequency sounds that can block the little brown bat\u2019s echolocation. Based on the information provided,",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the illustration and information below and on your \nknowledge of biology.\nSource: http://knatolee.blogspot.com/2011/09/not-ducklings.html\nThe Little Brown Bat\nThe illustration is of a species commonly called the little brown bat. It has 38 teeth \nand usually lives near bodies of water. The animal is considered bene\ufb01 cial by many people \nbecause it eats mosquitoes and many types of garden pests. They feed at night, detecting \ntheir prey by echolocation\u2014a form of sonar similar to what is used on ships. They can \ndetermine the location and size of their prey by listening to the return echo.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 After the bats evolved echolocation, some moths evolved a way to block it. \u2014 Bats that had adapted to find and eat moths by using echolocation led to the evolution of moths that could block these signals. \u2014 The bats evolved the ability to find food by echolocation. This made them better able to capture moths for food. Moths with the mutation to emit the sounds that blocked the echolocation of the bats were able to survive. The ability of the bats to use echolocation led to the ability of some moths to block it with a new adaptation of their own. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State one likely effect of the white\ufb02 ies on the bean plants in the control group (group 1) by the end of the study. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_61_64.png",
+      "context": "Base your answers to questions 61 through 64 on the information below and on your knowledge of biology.\nKaolin as a Spray to Control a Bean Pest\nSpraying kaolin, a clay-like material, on the leaves of plants has been effective in reducing \ninsect damage to plants that grow in temperate regions, but has not been tried in tropical \nareas.\nResearchers in the tropical Andean region of South America have recently conducted \nexperiments to see if kaolin can be used there to control the greenhouse white\ufb02 y, a \nsigni\ufb01 cant pest of the region\u2019s bean crops.\nIn the study, four groups of bean plants were used with the following treatments:\nGroup\nTreatment\nWhitefl ies\nKilled (%)\n1 (control)\nNo insecticide or other substance applied to the plants\n0\n2\nSynthetic chemical insecticide applied to leaves\n90\n3\nLeaves treated with 2.5% concentration of kaolin spray\n80\n4*\nLeaves treated with 5% concentration of kaolin spray\n80\n* Note: In group 4 the plants lost 40% less water and showed a 45% increase in chlorophyll content in the leaves.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating one likely effect of the whiteflies on the bean plants in the control group by the end of the study and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Since no pest-control method was used, they were probably eaten to a much greater extent. \u2014 Without pesticide or kaolin, the whiteflies probably caused serious damage to the plants in the control group. \u2014 With no protective spray/treatment added, these plants were probably eaten."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Should the group 3 kaolin treatments be considered as an acceptable alternative control method to the group 2 insecticide treatment for white\ufb02 ies? Support your answer with data from the chart.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_61_64.png",
+      "context": "Base your answers to questions 61 through 64 on the information below and on your knowledge of biology.\nKaolin as a Spray to Control a Bean Pest\nSpraying kaolin, a clay-like material, on the leaves of plants has been effective in reducing \ninsect damage to plants that grow in temperate regions, but has not been tried in tropical \nareas.\nResearchers in the tropical Andean region of South America have recently conducted \nexperiments to see if kaolin can be used there to control the greenhouse white\ufb02 y, a \nsigni\ufb01 cant pest of the region\u2019s bean crops.\nIn the study, four groups of bean plants were used with the following treatments:\nGroup\nTreatment\nWhitefl ies\nKilled (%)\n1 (control)\nNo insecticide or other substance applied to the plants\n0\n2\nSynthetic chemical insecticide applied to leaves\n90\n3\nLeaves treated with 2.5% concentration of kaolin spray\n80\n4*\nLeaves treated with 5% concentration of kaolin spray\n80\n* Note: In group 4 the plants lost 40% less water and showed a 45% increase in chlorophyll content in the leaves.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating whether the kaolin treatments should be considered as an acceptable alternative control method for whiteflies and supporting the answer with data from the chart. Acceptable responses include, but are not limited to: \u2014 The insecticide was about 90% effective, while both kaolin treatments were only about 80% effective. However 80% effectiveness is still quite effective, so it could be a good alternative. \u2014 The kaolin was only 10% less effective, but it was found to have other positive effects in the plants that could make it more desirable to use. \u2014 The kaolin treatments were only 80% effective, which is 10% less than the effectiveness of the insecticide, so it is not as good an alternative. \u2014 Even though the pesticide was the most effective (90%), it could damage other organisms in the area, so it should be replaced. \u2014 It should be considered as an acceptable method because it kills the majority of whiteflies."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Based on the results of groups 3 and 4, identify the kaolin treatment that would be best for bean plants grown in areas where low rainfall is a common occurrence. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_61_64.png",
+      "context": "Base your answers to questions 61 through 64 on the information below and on your knowledge of biology.\nKaolin as a Spray to Control a Bean Pest\nSpraying kaolin, a clay-like material, on the leaves of plants has been effective in reducing \ninsect damage to plants that grow in temperate regions, but has not been tried in tropical \nareas.\nResearchers in the tropical Andean region of South America have recently conducted \nexperiments to see if kaolin can be used there to control the greenhouse white\ufb02 y, a \nsigni\ufb01 cant pest of the region\u2019s bean crops.\nIn the study, four groups of bean plants were used with the following treatments:\nGroup\nTreatment\nWhitefl ies\nKilled (%)\n1 (control)\nNo insecticide or other substance applied to the plants\n0\n2\nSynthetic chemical insecticide applied to leaves\n90\n3\nLeaves treated with 2.5% concentration of kaolin spray\n80\n4*\nLeaves treated with 5% concentration of kaolin spray\n80\n* Note: In group 4 the plants lost 40% less water and showed a 45% increase in chlorophyll content in the leaves.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying the kaolin treatment that would be best for bean plants grown in areas where low rainfall is a common occurrence and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Treat the plants with 5% kaolin spray, since the plants will survive better in drought conditions. \u2014 Use the group 4 treatment, since the plants will function better in a drought and will grow better with more chlorophyll. \u2014 5% kaolin would give protection against insects and help the plants survive dry conditions too. \u2014 The plants treated with 5% kaolin spray will lose 40% less water."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "State one reason why the scientists are interested in reducing white\ufb02 y populations in the Andean region.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_61_64.png",
+      "context": "Base your answers to questions 61 through 64 on the information below and on your knowledge of biology.\nKaolin as a Spray to Control a Bean Pest\nSpraying kaolin, a clay-like material, on the leaves of plants has been effective in reducing \ninsect damage to plants that grow in temperate regions, but has not been tried in tropical \nareas.\nResearchers in the tropical Andean region of South America have recently conducted \nexperiments to see if kaolin can be used there to control the greenhouse white\ufb02 y, a \nsigni\ufb01 cant pest of the region\u2019s bean crops.\nIn the study, four groups of bean plants were used with the following treatments:\nGroup\nTreatment\nWhitefl ies\nKilled (%)\n1 (control)\nNo insecticide or other substance applied to the plants\n0\n2\nSynthetic chemical insecticide applied to leaves\n90\n3\nLeaves treated with 2.5% concentration of kaolin spray\n80\n4*\nLeaves treated with 5% concentration of kaolin spray\n80\n* Note: In group 4 the plants lost 40% less water and showed a 45% increase in chlorophyll content in the leaves.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 because they are a significant pest of the region\u2019s bean crops \u2014 The whitefly/insect is a major pest of bean plants in Andean regions. \u2014 The whiteflies decrease crop yields. \u2014 They cause damage to the plants/eat the crops. \u2014 in order to grow more crops Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "When he \ufb01 rst arrived at the hospital, the man reported feeling unusually tired. Explain why damage to the man\u2019s lung caused fatigue.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 65 through 68 on the passage below and on your knowledge of biology.\nMedical Mystery\nRecently, an elderly man went to a hospital. He felt tired and was coughing and \ndehydrated. At \ufb01 rst, the doctor thought he had pneumonia, but an x ray showed a spot on \nhis lung. Because the man was a smoker, the doctor expected to \ufb01 nd a tumor.\nInstead, the surgeon discovered a pea seed growing inside the man\u2019s lung. When the pea \nseedling was removed, the patient quickly regained his health.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 If the lungs do not function well, less oxygen is available to release energy in his cells. \u2014 He wouldn\u2019t get as much oxygen/air into his blood. \u2014 The damage to the man\u2019s lung resulted in a decrease in his ability to breathe. \u2014 Less carbon dioxide would be released and would build up."
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "In this case, the pea seed entered into the man\u2019s lung, but the immune system was not able to defend against it. Describe one speci\ufb01 c way the cells of the immune system usually protect the body against certain molecules or microbes that are breathed into the lungs.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 65 through 68 on the passage below and on your knowledge of biology.\nMedical Mystery\nRecently, an elderly man went to a hospital. He felt tired and was coughing and \ndehydrated. At \ufb01 rst, the doctor thought he had pneumonia, but an x ray showed a spot on \nhis lung. Because the man was a smoker, the doctor expected to \ufb01 nd a tumor.\nInstead, the surgeon discovered a pea seed growing inside the man\u2019s lung. When the pea \nseedling was removed, the patient quickly regained his health.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 White blood cells engulf and devour the pathogen. \u2014 The body makes killer T cells that destroy the pathogens. \u2014 The cells make antibodies to fight foreign antigens. \u2014 Certain white blood cells would mark the pathogens for destruction. \u2014 The cells release histamines."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Identify two environmental factors inside a human lung that would help the pea begin to germinate.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 65 through 68 on the passage below and on your knowledge of biology.\nMedical Mystery\nRecently, an elderly man went to a hospital. He felt tired and was coughing and \ndehydrated. At \ufb01 rst, the doctor thought he had pneumonia, but an x ray showed a spot on \nhis lung. Because the man was a smoker, the doctor expected to \ufb01 nd a tumor.\nInstead, the surgeon discovered a pea seed growing inside the man\u2019s lung. When the pea \nseedling was removed, the patient quickly regained his health.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for writing two environmental factors. Acceptable responses include, but are not limited to: \u2014 moisture/water and oxygen \u2014 warm and moist \u2014 water and air \u2014 temperature and pH"
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "68",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 65 through 68 on the passage below and on your knowledge of biology.\nMedical Mystery\nRecently, an elderly man went to a hospital. He felt tired and was coughing and \ndehydrated. At \ufb01 rst, the doctor thought he had pneumonia, but an x ray showed a spot on \nhis lung. Because the man was a smoker, the doctor expected to \ufb01 nd a tumor.\nInstead, the surgeon discovered a pea seed growing inside the man\u2019s lung. When the pea \nseedling was removed, the patient quickly regained his health.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for no and supporting the answer. Acceptable responses include, but are not limited to: \u2014 No, because the lungs have no source of light for photosynthesis. \u2014 No, because after the plant used up the nutrients stored in the seed, it would die."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Describe how the shape of molecules, such as the hormone ABA, is critical to their function in the Arabidopsis plant.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_69_70.png",
+      "context": "Base your answers to questions 69 and 70 on the information below and on your knowledge of biology.\nSource: Lancaster Farming 2/21/15/AAAS\nScientists Reprogram Plants for Drought Tolerance\nArabidopsis plants respond to drought conditions by producing a stress hormone called \nABA. This hormone slows down plant growth and leads to a decrease in the plant\u2019s use of \nwater.\nABA binds to speci\ufb01 c receptors in the plant that cause the guard cells on the leaf surfaces \nto close the stomatal openings through which water vapor can normally pass. This reduces \nwater loss during the drought conditions.\nAlthough it has been suggested that spraying plants with ABA during a drought could \nbe bene\ufb01 cial, it is not practical. The chemical is expensive to produce and quickly loses its \nability to bind to cell receptors in the plant cells.\nRecently, however, scientists have found a way to modify the ABA receptors in \nArabidopsis plants so they can be activated by another chemical that is both stable and \ninexpensive.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Only molecules with a specific shape can fit into the receptor. \u2014 If the molecule had a different shape, it would not fit into the receptor, and the response would not occur. \u2014 If the molecule shape changes, it won\u2019t match the shape of the other molecule it reacts with. \u2014 If the molecule\u2019s shape is different, it won\u2019t cause a reaction. \u2014 The shape of the molecule allows it to bind to the correct receptor. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "70",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_69_70.png",
+      "context": "Base your answers to questions 69 and 70 on the information below and on your knowledge of biology.\nSource: Lancaster Farming 2/21/15/AAAS\nScientists Reprogram Plants for Drought Tolerance\nArabidopsis plants respond to drought conditions by producing a stress hormone called \nABA. This hormone slows down plant growth and leads to a decrease in the plant\u2019s use of \nwater.\nABA binds to speci\ufb01 c receptors in the plant that cause the guard cells on the leaf surfaces \nto close the stomatal openings through which water vapor can normally pass. This reduces \nwater loss during the drought conditions.\nAlthough it has been suggested that spraying plants with ABA during a drought could \nbe bene\ufb01 cial, it is not practical. The chemical is expensive to produce and quickly loses its \nability to bind to cell receptors in the plant cells.\nRecently, however, scientists have found a way to modify the ABA receptors in \nArabidopsis plants so they can be activated by another chemical that is both stable and \ninexpensive.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The plant responds to a stimulus. When there is a drought, ABA is produced and the stomates are closed. When the drought is over, no ABA is produced and the stomates are opened. \u2014 The plant maintains homeostasis by opening or closing leaf openings according to the amount of water available. \u2014 The plant closes the stomates/slows growth when there is a drought or opens them/resumes growth when it rains. \u2014 The stomates open or close in response to changes in available water. \u2014 The guard cells close the stomates when there is less available water."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Record the approximate concentration of carbon dioxide at the start of the study and describe how it compares to the concentration in 2015. ppm CO2 Description:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the passage and graph below and on your knowledge of biology.\nAtmospheric Carbon Dioxide\nRecords from polar ice cores show that the natural range of atmospheric carbon dioxide \n(CO2) over the past 800,000 years was 170 to 300 parts per million (ppm) by volume. In \nthe early 20th century, scientists began to suspect that CO2 in the atmosphere might be \nincreasing beyond this range due to human activities, but there were no clear measurements \nof this trend. In 1958, Charles David Keeling began measuring atmospheric CO2 at the \nMauna Loa observatory on the big island of Hawaii.\nCarbon Dioxide Concentration at Mauna Loa Observatory\n400\n390\n380\n370\n360\n350\n350\n340\n330\n320\n310\n1960 1965 1970 1975 1980 1985 1990 1995 2000 2005 2010 2015\nCO2 Concentration (ppm)\nYears",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for recording the concentration of CO2 in 1958 and describing how it compares to the concentration in 2015. Acceptable responses include, but are not limited to: \u2014 Description: \u2014 In 2015, the concentration is approximately 400 ppm, while it was 315 ppm in 1958. \u2014 The concentration in 2015 is much more than in 1958. \u2014 The concentration was lower when the study began. \u2014 It has increased by about 85 ppm."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Identify one likely reason for the overall change in CO2 concentration observed between 1958 and 2015",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the passage and graph below and on your knowledge of biology.\nAtmospheric Carbon Dioxide\nRecords from polar ice cores show that the natural range of atmospheric carbon dioxide \n(CO2) over the past 800,000 years was 170 to 300 parts per million (ppm) by volume. In \nthe early 20th century, scientists began to suspect that CO2 in the atmosphere might be \nincreasing beyond this range due to human activities, but there were no clear measurements \nof this trend. In 1958, Charles David Keeling began measuring atmospheric CO2 at the \nMauna Loa observatory on the big island of Hawaii.\nCarbon Dioxide Concentration at Mauna Loa Observatory\n400\n390\n380\n370\n360\n350\n350\n340\n330\n320\n310\n1960 1965 1970 1975 1980 1985 1990 1995 2000 2005 2010 2015\nCO2 Concentration (ppm)\nYears",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The concentration of CO2 increased between 1958 and 2015 due to more CO2 produced by burning fossil fuels. \u2014 There was an increase in CO2 due to more people driving more cars. \u2014 There has been an increase in the use of fossil fuels. \u2014 increased industrialization \u2014 CO2 in the atmosphere increased due to human activities. \u2014 deforestation Note: Do not accept global warming since this is a result rather than the reason for the change. 315 \u00b13 ppm ( ) Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "Which group of materials would be most useful to a student planning to separate a mixture of leaf pigments using paper chromatography?",
+      "choices": [
+        "\ufb01 lter paper, dropper, solvent, beaker",
+        "enzymes, beaker, goggles, compound microscope",
+        "compound microscope, \ufb01 lter paper, coverslip, glass slide",
+        "meterstick, thermometer, solvent, enzymes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "In many parts of the world, plants are used as a source of medicine. Many of these plants are in danger of becoming extinct. It is therefore important for researchers to",
+      "choices": [
+        "collect and dry all the medicinal plants to preserve them for future use",
+        "search for other plant species that could be used as a new source of that medicine",
+        "use the plants now while we still have them",
+        "apply fertilizer to reduce the numbers of the plants that grow in the wild"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "In the lab activity Making Connections, an experiment was designed to test the effect of exercise on the ability to squeeze a clothespin. The number of times the clothespin was squeezed served as the",
+      "choices": [
+        "independent variable",
+        "dependent variable",
+        "hypothesis",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "When provided with a sequence of bases in one segment of mRNA, the Universal Genetic Code Chart is used to",
+      "choices": [
+        "directly identify the DNA from an animal cell",
+        "determine the sequence of amino acids in a protein",
+        "change the RNA sequence of a protein into DNA",
+        "identify the speci\ufb01"
+      ],
+      "image": "/images/exams/living-environment/june-2019/context_76_76.png",
+      "context": "Base your answer to question 76 on the Universal Genetic Code Chart below and on your knowledge of \nbiology.\nSECOND BASE\nT\nH\nI\nR\nD\nB\nA\nS\nE\nF\nI\nR\nS\nT\nB\nA\nS\nE\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nUUU\nUUC\nUUA\nUUG\nCUU\nCUC\nCUA\nCUG\nAUU\nAUC\nAUA\nAUG\nGUU\nGUC\nGUA\nGUG\nUCU\nUCC\nUCA\nUCG\nCCU\nCCC\nCCA\nCCG\nACU\nACC\nACA\nACG\nGCU\nGCC\nGCA\nGCG\nUAU\nUAC\nUAA\nUAG\nCAU\nCAC\nCAA\nCAG\nAAU\nAAC\nAAA\nAAG\nGAU\nGAC\nGAA\nGAG\nUGU\nUGC\nUGA\nUGG\nCGU\nCGC\nCGA\nCGG\nAGU\nAGC\nAGA\nAGG\nGGU\nGGC\nGGA\nGGG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nPHE\nLEU\nLEU\nILE\nMET or \nSTART\nVAL\nSER\nPRO\nTHR\nALA\nTYR\nSTOP\nHIS\nGLN\nASN\nLYS\nASP\nGLU\nARG\nSER\nARG\nGLY\nCYS\nSTOP\nTRP\nUniversal Genetic Code Chart\nU\n \nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "A student was setting up beakers that contained different solutions in order to conduct a laboratory investigation, but the next day he could not tell which beaker contained the starch and water mixture. In order to \ufb01 nd out which beaker contained starch, he took a small sample from each of the beakers and conducted a test for starch on each of them. Describe the test for starch that the student should use and the result that would indicate the presence of starch.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for describing the test and the result. Acceptable responses include, but are not limited to: \u2014 Add starch indicator to the samples. The one that turns black or blue-black would be the one with starch in it. \u2014 Add iodine to each sample. If one of the samples turns blue-black, it is the one that contains starch. \u2014 To test for starch, add Lugol\u2019s solution. If starch is present, it will turn blue-black. \u2014 Add starch indicator, and if starch is present, it will change color."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "In order to survive in its environment, a single-celled organism uses a contractile vacuole to remove excess water that diffuses into its cell. Another species, a hydra, also excretes excess water. Both processes involve the use of energy. Based on this information, state whether these two organisms live in fresh water or salt water. Support your answer.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating that these organisms live in fresh water and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Fresh water\u2014water would move in and they would need to remove or excrete it. \u2014 Fresh water\u2014in fresh water, the water would be diffusing into them all the time and would need to be pumped out in order to maintain homeostasis. \u2014 Fresh water\u2014if they are pumping out excess water, it is because water is diffusing into them from an area with a higher concentration of water. This means that the outside environment would be fresh water. \u2014 Fresh water\u2014if they were in salt water, they would be losing water all the time, and there would be no benefit in pumping out more."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "The diagram below represents two types of carbohydrate molecules, glucose and sucrose. H O CH2OH H H H OH O OH OH HO H O H Sucrose CH2OH CH2OH Glucose H H CH2OH H H OH H H HO H OH O OH HO State one reason why a glucose molecule is more likely than a sucrose molecule to diffuse through an arti\ufb01",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/q79.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The sucrose molecule may be too large to diffuse through the membrane. \u2014 Glucose is a smaller molecule. \u2014 Glucose is less complex. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Explain why speci\ufb01 c Galapagos tortoise species are able to live only on certain islands.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of biology. \nThe diagram represents some of the various types of giant tortoises that live on the Galapagos Islands. The chart \nprovides information about some individual island environments.\nTower\nMarchena\nJames\nSanta\nCruz\nSanta Fe\nFloreana\nHood\nHood Island\nSaddle-backed shell\nFernandina\nIsabela Island\nDomed-shaped shell\nIsabela\nGiant Tortoises of the Galapagos Islands\nSource: Adapted from http://slideplayer.com/slide/7372273\nEnvironmental Conditions on\nCertain Galapagos Islands\nGalapagos Island\nIsland Characteristics\nHood Island\nsparse vegetation located\nhigh off of the ground; hot, \ndry, arid\nIsabela Island\nrich variety of vegetation\nlocated low to the ground;\nmuch rainfall; humid",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The tortoises have beneficial structures that allow them to feed on specific food/vegetation located on certain islands. \u2014 Tortoises have inherited adaptations favorable to their survival on certain islands. \u2014 Different islands have different types of food that tortoises have to eat. \u2014 They are adapted to the food, temperature, and climate on certain islands. 81 MC on scoring key 82 MC on scoring key"
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "The role that the environment plays in determining which species survive is referred to as",
+      "choices": [
+        "a trade-off",
+        "a gene mutation",
+        "an ecological niche",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2019/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of biology. \nThe diagram represents some of the various types of giant tortoises that live on the Galapagos Islands. The chart \nprovides information about some individual island environments.\nTower\nMarchena\nJames\nSanta\nCruz\nSanta Fe\nFloreana\nHood\nHood Island\nSaddle-backed shell\nFernandina\nIsabela Island\nDomed-shaped shell\nIsabela\nGiant Tortoises of the Galapagos Islands\nSource: Adapted from http://slideplayer.com/slide/7372273\nEnvironmental Conditions on\nCertain Galapagos Islands\nGalapagos Island\nIsland Characteristics\nHood Island\nsparse vegetation located\nhigh off of the ground; hot, \ndry, arid\nIsabela Island\nrich variety of vegetation\nlocated low to the ground;\nmuch rainfall; humid",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "Over the years, human activity introduced organisms such as goats and other herbivores to the Galapagos Islands. The addition of these invasive organisms caused the tortoise species to be threatened because there was",
+      "choices": [
+        "an increase in competition for food sources",
+        "a decrease in ecological succession",
+        "an increase in the availability of vegetation",
+        "a decrease in direct harvesting"
+      ],
+      "image": "/images/exams/living-environment/june-2019/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of biology. \nThe diagram represents some of the various types of giant tortoises that live on the Galapagos Islands. The chart \nprovides information about some individual island environments.\nTower\nMarchena\nJames\nSanta\nCruz\nSanta Fe\nFloreana\nHood\nHood Island\nSaddle-backed shell\nFernandina\nIsabela Island\nDomed-shaped shell\nIsabela\nGiant Tortoises of the Galapagos Islands\nSource: Adapted from http://slideplayer.com/slide/7372273\nEnvironmental Conditions on\nCertain Galapagos Islands\nGalapagos Island\nIsland Characteristics\nHood Island\nsparse vegetation located\nhigh off of the ground; hot, \ndry, arid\nIsabela Island\nrich variety of vegetation\nlocated low to the ground;\nmuch rainfall; humid",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "As \ufb01 sh are frozen for storage, the water in the cells expands as it cools from 4\u00b0C to 0\u00b0C and may cause cells to burst. This lowers the quality of the \ufb01 sh. Explain how soaking the \ufb01 sh brie\ufb02",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Soaking fish briefly in salt water would reduce the water content in the cells, allowing space for the remaining water to expand when it freezes. \u2014 The fish cells will lose water, so they won\u2019t burst."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Identify one \ufb01 nch population that would be negatively affected if the birth rate of small tree \ufb01 nches increased signi\ufb01 cantly. Support your answer. Finch: Support:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the diagram below and on your knowledge of biology.\nVariations in Beaks of Galapagos Islands Finches\nLarge\nground \nfinch\nVegetarian\nfinch\nLarge \ntree finch\nSmall\ntree finch\nWoodpecker\nfinch\nWarbler\nfinch\nCactus\nfinch\nSharp-billed\nground finch\nSmall\nground\nfinch\nMedium\nground\nfinch\nE\nd\ng\ne\n \nc\nr\nu\ns\nh\ni\nn\ng\n \n \n \n \n \n \n \n \nB\ni\nti\nn\ng\n \nt\ni\np\ns\nMainly\nplant \nfood\nMainly\nanimal \nfood\nG\nr\na\ns\np\ni\nn\ng\n \nb\nil\nl\ns\n100%\nanimal\nfood\nP\nr\no\nb\ni\nn\ng\n \n \n \nP\nr\no\nb\ni\nn\ng\n \nb\ni\nl\nl\ns\nSource: Galapagos: A Natural History Guide\nC\nr\nu\ns\nh\ni\nn\ng\n \nb\ni\nl\nl\ns",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying one finch population that would be negatively affected if the birth rate of small tree finches increased significantly. Acceptable responses include, but are not limited to: \u2014 Large tree finch They eat mostly animal food/have biting tips on their beaks/have grasping bills. because it will have more competition for food \u2014 Woodpecker finches They eat mostly the same food/both have biting beak tips. \u2014 Warbler finch because the small tree finch eats the warbler finch\u2019s only food source"
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "A student completed two trials of the Beaks of Finches lab, each time picking up eleven seeds, as shown in the table below. If the student needs to collect an average of thirteen seeds to survive, how many seeds must he pick up in round 3? Record your answer in the space provided in the table below. Trial Number Seeds Picked Up 1 11 2 11 3 \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 Average 13 LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2019/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the diagram below and on your knowledge of biology.\nVariations in Beaks of Galapagos Islands Finches\nLarge\nground \nfinch\nVegetarian\nfinch\nLarge \ntree finch\nSmall\ntree finch\nWoodpecker\nfinch\nWarbler\nfinch\nCactus\nfinch\nSharp-billed\nground finch\nSmall\nground\nfinch\nMedium\nground\nfinch\nE\nd\ng\ne\n \nc\nr\nu\ns\nh\ni\nn\ng\n \n \n \n \n \n \n \n \nB\ni\nti\nn\ng\n \nt\ni\np\ns\nMainly\nplant \nfood\nMainly\nanimal \nfood\nG\nr\na\ns\np\ni\nn\ng\n \nb\nil\nl\ns\n100%\nanimal\nfood\nP\nr\no\nb\ni\nn\ng\n \n \n \nP\nr\no\nb\ni\nn\ng\n \nb\ni\nl\nl\ns\nSource: Galapagos: A Natural History Guide\nC\nr\nu\ns\nh\ni\nn\ng\n \nb\ni\nl\nl\ns",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for completing the chart with the number 17, as shown below. Trial Number Seeds Picked Up 1 11 2 11 3 \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 Average 13 Living Environment Rating Guide \u2013 June \u2019"
+    }
+  ]
+}

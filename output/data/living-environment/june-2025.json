@@ -1,0 +1,1111 @@
+{
+  "subject": "living-environment",
+  "session": "june-2025",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which of these components are found in all living organisms?",
+      "choices": [
+        "estrogen and testosterone",
+        "insulin and water",
+        "chlorophyll and hemoglobin",
+        "cytoplasm and ATP"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Two types of molecules directly involved in cellular communication are",
+      "choices": [
+        "hormones and nerve cell chemicals",
+        "fats and carbohydrates",
+        "ATP and carbon dioxide",
+        "glucose and oxygen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "When mountain lions consume large prey, they often leave large pieces of their prey behind. The carcass that is left becomes a food source for other organisms. A scientist reported a count of 24,000 beetles in an area where mountain lions had left partially eaten carcasses. Wolves, bears, and other animals also take advantage of the remains of the prey. The role of the mountain lion in this ecosystem is an example of the concept that",
+      "choices": [
+        "ecosystems require a large number of predators to increase the number of prey",
+        "populations are linked with many others in a stable ecosystem",
+        "large animals waste food, resulting in harm to other organisms in the ecosystem",
+        "predators should consume small prey to protect the diversity of the ecosystem"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Mutations are an important part of evolution. One reason for this is that mutations",
+      "choices": [
+        "that occur in body cells are passed to offspring",
+        "are random events that always increase the ability of members to reproduce",
+        "occur only in sexually reproducing organisms",
+        "may result in gene variations that provide a survival advantage"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Ladybugs that eat plant pests are currently raised and sold commercially to gardeners. It was assumed that all of the imported ladybugs would remain within the garden area and consume only the harmful insect pests. It is now known that the ladybugs can travel widely, with one study showing that within a few days, 99% had left the area where they were originally released. One environmental concern regarding the use of ladybugs to control insect pests could be that",
+      "choices": [
+        "ladybugs are an endangered species and must be collected in the wild",
+        "ladybugs are a safer alternative than the use of chemical pesticides",
+        "the migration of introduced ladybugs may affect food webs in other areas",
+        "the action of ladybugs may reduce insect pest populations"
+      ],
+      "image": "/images/exams/living-environment/june-2025/q5.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The best-adapted individuals in a population are most likely to be successful in passing on their traits to the next generation because",
+      "choices": [
+        "they were able to survive the conditions of their environment when others could not",
+        "their offspring will be better able to cope with any environmental changes that may occur",
+        "their genes are the strongest, which will help them attract suitable mates",
+        "they are less attractive and are less likely to find suitable mates"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Some structures found in living organisms are shown below. Protein molecule DNA molecule Cell Which statement best describes the relationship among the three structures?",
+      "choices": [
+        "DNA is produced by large protein molecules that diffuse into the cell.",
+        "Protein is composed of DNA that is produced in the cell.",
+        "DNA controls the production of protein in the cell.",
+        "A cell is composed entirely of DNA and protein."
+      ],
+      "image": "/images/exams/living-environment/june-2025/q7.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Scientists found that over a period of 300 years, a pond slowly transformed into a meadow and then a forest. During that time, communities of organisms were replaced by different communities. The best explanation for why new communities were able to replace the older communities is that",
+      "choices": [
+        "the species in the old communities died of disease",
+        "the environment gradually changed, making the area less favorable for the old communities",
+        "there was a lack of predators for the new communities of organisms",
+        "the original species suddenly became extinct"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Many species of warblers, including the Blackburnian warbler shown below, migrate from Central and South America to New York State, where they breed each summer. Warblers primarily prey on insects and nest in hemlock trees. An invasive insect, the wooly adelgid, is killing hemlock trees across the entire state. If this continues, fewer warblers will be able to find suitable nesting sites. One consequence of this may be that",
+      "choices": [
+        "there will be more food for birds that prey on warblers and other small birds",
+        "fewer acorns will grow on the oak trees that also grow in the forest",
+        "insect pest populations will increase because fewer warblers are present",
+        "more warbler eggs will be hatched in Central and South America to increase the population"
+      ],
+      "image": "/images/exams/living-environment/june-2025/q9.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Seagrass populations decrease significantly in size when sea turtles overgraze the area in which the grasses grow. When predators such as sharks have a constant presence in the same area, the turtles leave and the seagrass population increases. This is an example of how organisms",
+      "choices": [
+        "influence other species in a community",
+        "balance their basic nutritional needs",
+        "maintain their own internal stability",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Strawberry plants grow runners off of the main parent plant, as shown in the photo below. New strawberry plants that are genetically identical to the parent plant develop along the runners. This phenomenon can be best explained by the fact that these strawberry plants are produced by",
+      "choices": [
+        "asexual reproduction, and the new plants develop by mitosis and differentiation",
+        "sexual reproduction, and the new plants develop by meiosis and fertilization",
+        "asexual reproduction, and the new plants develop by meiosis and fertilization",
+        "sexual reproduction, and the new plants develop by mitosis and differentiation"
+      ],
+      "image": "/images/exams/living-environment/june-2025/q11.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "During a class field trip, a student measured and recorded some abiotic factors present in a pond. Which data did the student most likely include in their record of abiotic factors?",
+      "choices": [
+        "the number of possible food chains and food webs",
+        "the diversity of decomposers and their total mass",
+        "the temperature and pH of the water",
+        "the size and number of fish species"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Mammals, including humans, dolphins, and cows, produce milk for their young. Surprisingly, researchers have discovered that certain spiders also produce a milk-like fluid for their young. The spider leaves droplets of her \u201cmilk\u201d around the nest for the babies after they hatch from their eggs. After one week, the babies will feed on the \u201cmilk\u201d directly from her body for at least 20 days. Which statement best describes this recent discovery?",
+      "choices": [
+        "It proves that all female animals produce the same hormones to make milk.",
+        "The discovery will allow for the re- classification of spiders as mammals.",
+        "It is an example of parental care for the survival of their offspring.",
+        "The discovery confirms that spiders provide mammal milk to their offspring."
+      ],
+      "image": "/images/exams/living-environment/june-2025/q13.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "As part of the \u201cCharge NY\u201d energy plan, New York drivers are being encouraged to purchase electrically powered cars. Many believe that this will help the environment by",
+      "choices": [
+        "reducing the number of cars on the road, since drivers will only be able to go short distances before having to recharge the battery",
+        "reducing local air pollution by lowering levels of carbon dioxide and other pollutants",
+        "decreasing the number of car sales, since electric cars are more expensive than gasoline-powered cars",
+        "decreasing the consumption of fossil fuels,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The New Mexico whiptail is a female-only species of lizard that exhibits an unusual form of asexual reproduction. Researchers discovered that these lizards produce eggs that have a full set of chromosomes and have the genetic diversity of sexually reproducing lizards. Which statement best describes the offspring of these lizards?",
+      "choices": [
+        "The offspring are a result of uniting a male and female gamete.",
+        "The offspring develop from eggs with twice the genetic information of the female lizard.",
+        "The offspring have cells that contain DNA found only in the female lizard.",
+        "The offspring are genetically identical to each other and the female lizard."
+      ],
+      "image": "/images/exams/living-environment/june-2025/q15.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "In humans, the placenta is important to the developing embryo. Which essential life functions are carried out by the placenta?",
+      "choices": [
+        "nutrition, excretion, and reproduction",
+        "respiration, nutrition, and excretion",
+        "movement, reproduction, and nutrition",
+        "coordination, immunity, and movement"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Injecting individuals with a vaccine composed of killed bacteria protects them from a disease because the proteins from the killed bacteria",
+      "choices": [
+        "serve as food for invading pathogens, which prevents them from feeding on human proteins",
+        "bind with cell nuclei, preventing live pathogenic bacteria from binding with the nuclei later",
+        "cause a mild case of the disease, preventing the immune system from responding to future infections",
+        "stimulate the production of antibodies that can be produced in response to an infection"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which statement about amino acids and simple sugars is correct?",
+      "choices": [
+        "Amino acids are used to build inorganic molecules, and simple sugars are used to build organic molecules.",
+        "Starches are digested into amino acids, and proteins are digested into simple sugars.",
+        "Amino acids and simple sugars are used as building blocks in the synthesis of organic compounds.",
+        "Amino acids can enter cells, and simple sugars cannot enter cells."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Protein chains may break. This can cause a problem for living cells because",
+      "choices": [
+        "if the proteins break, the cell will contain more proteins than it needs",
+        "if the chains break, the amino acids will poison the cell, destroying organelles",
+        "the broken proteins will not interact with other molecules correctly",
+        "the broken chains will attack the ribosomes of the cell and shut them down"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Enzymes are essential to maintaining homeostasis and helping to regulate human metabolism. They are also examples of molecules that are",
+      "choices": [
+        "composed of complex carbohydrates",
+        "not specific to any life function",
+        "synthesized by the cell membrane",
+        "influenced by pH"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The process by which DNA molecules separate and add new molecular bases to form another DNA molecule is called",
+      "choices": [
+        "protein synthesis",
+        "cell membrane synthesis",
+        "replication",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which row in the chart below correctly describes activities that occur in each of the two organelles shown? Row Chloroplast Activity Mitochondrion Activity",
+      "choices": [
+        "uses glucose as it functions makes glucose as it functions",
+        "makes glucose as it functions uses glucose as it functions",
+        "uses oxygen as it functions makes oxygen as it functions",
+        "uses oxygen as an energy source uses carbon dioxide as an energy source"
+      ],
+      "image": "/images/exams/living-environment/june-2025/q22.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The amount of fossil fuels consumed from 1800 until 2017 is shown in the graph below. 120,000 TWh 100,000 TWh 80,000 TWh 60,000 TWh 40,000 TWh 20,000 TWh 0 TWh Natural gas Crude oil Coal 2017 1800 1850 1900 1950 2000 Global fossil fuel consumption Global primary energy consumption by fossil fuel source, measured in terawatt-hours (TWh). The increased demand for and use of fossil fuels is a direct result of an",
+      "choices": [
+        "increased focus on renewable energy sources",
+        "increased concern for environmental stability",
+        "increase in atmospheric changes",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2025/q23.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Some prescription drugs come with a warning that these drugs should be avoided during the early stages of pregnancy. The reason that pregnant women should avoid certain medications early in their pregnancy is because the drug may",
+      "choices": [
+        "affect the development of organs in the fetus",
+        "interfere with meiosis",
+        "allow differentiation to occur",
+        "interfere with fertilization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Lions in East Africa are night hunters. They are most successful during the darker phases of the moon, when they are less visible. Prey animals, such as the wildebeest shown below, are also influenced by the moon cycles and amount of darkness. During the dark phases of the moon, they are less active. This behavior shows that",
+      "choices": [
+        "predator behaviors are controlled by the carrying capacity of the environment",
+        "environmental factors can influence the behavior of predators and their prey",
+        "producers directly regulate the number of predators in community",
+        "consumers influence the physical factors in the predator\u2019s ecosystem"
+      ],
+      "image": "/images/exams/living-environment/june-2025/q25.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The removal of three consecutive base-subunits from a gene would most directly affect the",
+      "choices": [
+        "membrane of a cell",
+        "structure of a protein",
+        "pH of the cytoplasm",
+        "size of a cell nucleus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Some medications have been found to damage mitochondria. This can upset metabolism because mitochondria",
+      "choices": [
+        "synthesize energy to make organic compounds",
+        "produce carbon dioxide, which is used for cellular respiration",
+        "release oxygen, which is necessary for photosynthesis",
+        "produce ATP molecules used for cellular processes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The Labrador retriever is a breed of dog that is characterized by a solid yellow, brown, or black coat and a friendly personality. In order to increase the chances of Labrador retriever puppies having these traits, breeders should",
+      "choices": [
+        "insert the genes for these traits into the cells of the puppies",
+        "increase genetic variation by mating dogs with different traits",
+        "breed only dogs with the desired traits to produce puppies",
+        "use asexual reproduction to breed dogs with a variety of traits"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "An example of a harmful immune response occurs when immune cells cause the breakdown of",
+      "choices": [
+        "cancerous tissue",
+        "bacteria cells",
+        "pathogenic viruses",
+        "transplanted organs"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Individuals who use tanning beds have an increased risk of getting skin cancer. Their skin cancer may",
+      "choices": [
+        "be passed to their offspring because it is a gene mutation",
+        "spread in the individual but will not be directly passed to their offspring",
+        "result in the offspring having immunity to skin cancer",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Based on the model, which bacteria are able to convert atmospheric nitrogen gas to nitrogen compounds in the soil?",
+      "choices": [
+        "aerobic and anaerobic bacteria",
+        "nitrifying bacteria",
+        "nitrogen-fixing bacteria",
+        "denitrifying bacteria"
+      ],
+      "image": "/images/exams/living-environment/june-2025/context_31_34.png",
+      "context": "Base your answers to questions 31 through 34 on the information and nitrogen-cycling model illustrated \nbelow and on your knowledge of biology.\nMaterial cycles are necessary to recycle substances needed and used by organisms in \ntheir habitat.\nThe atmosphere is composed of about 80% nitrogen gas (N2) that cannot be used by \nmost organisms in that form. It is through the action of many different types of bacteria that \nthe nitrogen gas can be made available to other organisms.\nThe diagram below represents a model of the nitrogen cycle.\nAtmospheric Nitrogen (N2)\nAmmonium (NH4\n+)\nDenitrification\nNitrate (NO3\n-)\nDecomposers\nPlants\nNitrite (NO2\n-)\nAmmonium (NH4\n+)\nFungi\nAerobic and anaerobic bacteria\nAmmonification\nNitrification\nNitrifying bacteria\nNitrogen\nfixation\nNitrogen-fixing bacteria\nin legume root nodules\nNitrogen\nfixation\nNitrifying \nbacteria\nDenitrifying\nbacteria\nAssimilation\nNitrogen-fixing soil bacteria",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Based on the model, which two organisms carry out opposite processes?",
+      "choices": [
+        "nitrifying bacteria and nitrogen-fixing bacteria in the soil",
+        "nitrogen-fixing bacteria in the soil and nitrogen-fixing bacteria in legumes",
+        "aerobic bacteria and anaerobic bacteria",
+        "denitrifying bacteria and nitrogen-fixing bacteria in the soil"
+      ],
+      "image": "/images/exams/living-environment/june-2025/context_31_34.png",
+      "context": "Base your answers to questions 31 through 34 on the information and nitrogen-cycling model illustrated \nbelow and on your knowledge of biology.\nMaterial cycles are necessary to recycle substances needed and used by organisms in \ntheir habitat.\nThe atmosphere is composed of about 80% nitrogen gas (N2) that cannot be used by \nmost organisms in that form. It is through the action of many different types of bacteria that \nthe nitrogen gas can be made available to other organisms.\nThe diagram below represents a model of the nitrogen cycle.\nAtmospheric Nitrogen (N2)\nAmmonium (NH4\n+)\nDenitrification\nNitrate (NO3\n-)\nDecomposers\nPlants\nNitrite (NO2\n-)\nAmmonium (NH4\n+)\nFungi\nAerobic and anaerobic bacteria\nAmmonification\nNitrification\nNitrifying bacteria\nNitrogen\nfixation\nNitrogen-fixing bacteria\nin legume root nodules\nNitrogen\nfixation\nNitrifying \nbacteria\nDenitrifying\nbacteria\nAssimilation\nNitrogen-fixing soil bacteria",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Plants can use nitrates from the soil to make amino acids such as alanine (C3H7NO2). Two other substances plants take in from their environment that would provide all of the components to make many alanine molecules are",
+      "choices": [
+        "carbon dioxide (CO2) and water (H2O)",
+        "carbon dioxide (CO2) and sunlight",
+        "water (H2O) and oxygen (O2)",
+        "glucose (C6H12O6) and oxygen (O2)"
+      ],
+      "image": "/images/exams/living-environment/june-2025/context_31_34.png",
+      "context": "Base your answers to questions 31 through 34 on the information and nitrogen-cycling model illustrated \nbelow and on your knowledge of biology.\nMaterial cycles are necessary to recycle substances needed and used by organisms in \ntheir habitat.\nThe atmosphere is composed of about 80% nitrogen gas (N2) that cannot be used by \nmost organisms in that form. It is through the action of many different types of bacteria that \nthe nitrogen gas can be made available to other organisms.\nThe diagram below represents a model of the nitrogen cycle.\nAtmospheric Nitrogen (N2)\nAmmonium (NH4\n+)\nDenitrification\nNitrate (NO3\n-)\nDecomposers\nPlants\nNitrite (NO2\n-)\nAmmonium (NH4\n+)\nFungi\nAerobic and anaerobic bacteria\nAmmonification\nNitrification\nNitrifying bacteria\nNitrogen\nfixation\nNitrogen-fixing bacteria\nin legume root nodules\nNitrogen\nfixation\nNitrifying \nbacteria\nDenitrifying\nbacteria\nAssimilation\nNitrogen-fixing soil bacteria",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "If all of the aerobic and anaerobic bacteria indicated as decomposers in the model were lost from this ecosystem, the most likely effect would be",
+      "choices": [
+        "a decrease in the carrying capacity for nitrogen-fixing bacteria",
+        "an increase in the number of nitrifying bacteria",
+        "a decrease in the carrying capacity for plants",
+        "an increase in activity of the nitrifying bacteria"
+      ],
+      "image": "/images/exams/living-environment/june-2025/context_31_34.png",
+      "context": "Base your answers to questions 31 through 34 on the information and nitrogen-cycling model illustrated \nbelow and on your knowledge of biology.\nMaterial cycles are necessary to recycle substances needed and used by organisms in \ntheir habitat.\nThe atmosphere is composed of about 80% nitrogen gas (N2) that cannot be used by \nmost organisms in that form. It is through the action of many different types of bacteria that \nthe nitrogen gas can be made available to other organisms.\nThe diagram below represents a model of the nitrogen cycle.\nAtmospheric Nitrogen (N2)\nAmmonium (NH4\n+)\nDenitrification\nNitrate (NO3\n-)\nDecomposers\nPlants\nNitrite (NO2\n-)\nAmmonium (NH4\n+)\nFungi\nAerobic and anaerobic bacteria\nAmmonification\nNitrification\nNitrifying bacteria\nNitrogen\nfixation\nNitrogen-fixing bacteria\nin legume root nodules\nNitrogen\nfixation\nNitrifying \nbacteria\nDenitrifying\nbacteria\nAssimilation\nNitrogen-fixing soil bacteria",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which statement most accurately describes the relationship between the data and the original hypothesis?",
+      "choices": [
+        "The data support the hypothesis because crickets with the mutation had fewer fly larvae.",
+        "The data support the hypothesis because crickets without the mutation had a greater percentage of survivors.",
+        "The data do not support the hypothesis because crickets with the mutation had more fly larvae.",
+        "The data do not support the hypothesis because crickets with the mutation had a smaller percentage of survivors."
+      ],
+      "image": "/images/exams/living-environment/june-2025/context_35_36.png",
+      "context": "Base your answers to questions 35 and 36 on the information below and on your knowledge of biology.\nMale Pacific field crickets make a loud song that travels a long distance to attract females. \nThey use their wings to create the sound. On the island of Kauai, the loud calls not only \nattract mates, but also a specific fly species. The fly deposits larvae on the cricket. As the fly \nlarvae mature, they eat the cricket from the inside out. \nOne summer, observers on Kauai noticed that the crickets were unusually quiet. They \nalso noticed that the wings of these quiet crickets were shaped differently. The scientists \nhypothesized that the wing mutation helped crickets escape the fly. They collected the \nfollowing data while testing their hypothesis:\nMale Pacific Field Crickets\nWithout Wing Mutation\nWith Wing Mutation\nFly Larvae Present\n30\n1\nFly Larvae Not Present\n70\n121\nPercent With Larvae\n30%\n0.8%",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Scientists have noticed that crickets with the mutation are still able to attract mates. Based on the data, which prediction is valid if this particular fly remains part of the cricket\u2019s environment?",
+      "choices": [
+        "The number of crickets with the mutation will decrease because the trait is beneficial to them.",
+        "The number of crickets with the mutation will remain the same because the trait is neither beneficial nor harmful.",
+        "The number of crickets with the mutation will increase because the trait gives them an advantage.",
+        "For 20 days, two groups of plants, all with stems of the same length, were grown at two different temperatures. These plants normally grow at a temperature of 25\u00b0C. All other environmental conditions were the same. The stem lengths of the plants were measured every five days, averaged, and the data recorded in the table below. Time (days) Length of Stem (mm) Plants in A Grown at 17\u00b0C Plants in B Grown at 27\u00b0C 1 15 15 5 25 30 10 42 68 15 54 80 20 71 92"
+      ],
+      "image": "/images/exams/living-environment/june-2025/context_35_36.png",
+      "context": "Base your answers to questions 35 and 36 on the information below and on your knowledge of biology.\nMale Pacific field crickets make a loud song that travels a long distance to attract females. \nThey use their wings to create the sound. On the island of Kauai, the loud calls not only \nattract mates, but also a specific fly species. The fly deposits larvae on the cricket. As the fly \nlarvae mature, they eat the cricket from the inside out. \nOne summer, observers on Kauai noticed that the crickets were unusually quiet. They \nalso noticed that the wings of these quiet crickets were shaped differently. The scientists \nhypothesized that the wing mutation helped crickets escape the fly. They collected the \nfollowing data while testing their hypothesis:\nMale Pacific Field Crickets\nWithout Wing Mutation\nWith Wing Mutation\nFly Larvae Present\n30\n1\nFly Larvae Not Present\n70\n121\nPercent With Larvae\n30%\n0.8%",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Scientists claimed that plants growing in the Group A experimental setup at 17\u00b0C would be likely to survive if the temperature in their natural environment decreased over time to 17\u00b0C. Which statement uses data from the table to support this claim?",
+      "choices": [
+        "Plants in A survived growing at 17\u00b0C in their experimental setup and would therefore be likely to survive.",
+        "Plants in A require less water. This makes them more likely to survive in cooler temperatures.",
+        "Plants in B are growing the most rapidly. A temperature of 17\u00b0C will not harm them.",
+        "Plants in B will survive and will grow faster at the cooler temperature. Sea Otters at Risk A single-celled parasite is responsible for the death of a large number of sea otters. Scientists have traced the origin of the parasite to multiple sources, including domestic cat feces. Rain washes some litter box wastes, which contain cat feces, into the ocean kelp forests where sea otters live."
+      ],
+      "image": "/images/exams/living-environment/june-2025/q37.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Failure to properly dispose of contaminated cat litter is an example of",
+      "choices": [
+        "one way sea otters are negatively affecting large numbers of household pets",
+        "how humans are preventing a dangerous parasite from reproducing",
+        "a human action that inadvertently could alter the equilibrium in an ecosystem",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "In order to support the claim that lead in the soil can result in learning difficulties in children, the scientists should",
+      "choices": [
+        "repeat the study comparing lead levels in the soils near rivers with those near highways",
+        "support the passage of laws to eliminate the use of lead additives in gasoline",
+        "determine if high soil concentration of other metals, such as iron, causes learning difficulties in children",
+        "determine if there is a correlation between high levels of lead in the soil and in the blood of children with learning disabilities"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 39 and 40 on the information below and on your knowledge of biology.\nLead in the Environment\nSoil contaminated with lead is a source of lead exposure in people and is a worldwide \nhealth concern. Scientists examined the relationship between exposure to lead in the topsoil \nand the occurrence of learning difficulties in children. Soil clings to fingers, toys, and other \nobjects. When young children are exposed to lead, they can experience difficulty with \nremembering, concentrating, and learning.\nLead was used as a gasoline additive until 1996, when it was banned. Emissions from \ncars and trucks resulted in a buildup of lead in the soil along the side of the road. In a \nrecent study, scientists measured the concentration of lead along sections of the interstate \nhighway system. They then compared the levels of lead in the soil along the side of the road \nwith the number of children in the area experiencing cognitive difficulties. The scientists \ndiscovered that where the level of lead in the soil is high, the number of children with \nlearning difficulties is also high.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "After discovering where lead levels in the topsoil are high, what could parents do to reduce the chances of learning difficulties in their children?",
+      "choices": [
+        "Provide their children with only organic fruits and vegetables.",
+        "Have their children wash their hands after playing outside.",
+        "Have their children attend school in a different part of the community where lead levels are lower.",
+        "Provide their family physician with information about any genetic disorders in the family."
+      ],
+      "image": null,
+      "context": "Base your answers to questions 39 and 40 on the information below and on your knowledge of biology.\nLead in the Environment\nSoil contaminated with lead is a source of lead exposure in people and is a worldwide \nhealth concern. Scientists examined the relationship between exposure to lead in the topsoil \nand the occurrence of learning difficulties in children. Soil clings to fingers, toys, and other \nobjects. When young children are exposed to lead, they can experience difficulty with \nremembering, concentrating, and learning.\nLead was used as a gasoline additive until 1996, when it was banned. Emissions from \ncars and trucks resulted in a buildup of lead in the soil along the side of the road. In a \nrecent study, scientists measured the concentration of lead along sections of the interstate \nhighway system. They then compared the levels of lead in the soil along the side of the road \nwith the number of children in the area experiencing cognitive difficulties. The scientists \ndiscovered that where the level of lead in the soil is high, the number of children with \nlearning difficulties is also high.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Beavers have been migrating north and impacting Arctic ecosystems. By building dams on streams, beavers are creating new bodies of water where there were none. These new bodies of water contribute to the thawing of the frozen permafrost soil, which is a huge natural reservoir of stored greenhouse gases. In a study of beaver dams located on Alaska\u2019s Baldwin Peninsula, there was a total of 94 dams in 2010, and by 2019 there was a total of 409 dams. Based on these numbers of beaver dams constructed between 2010 and 2019, a reasonable claim that scientists can make concerning beaver activity in the Arctic is that beavers",
+      "choices": [
+        "are accelerating the rate of global climate change",
+        "are producing a more stable Arctic ecosystem through dam-building",
+        "have exceeded their carrying capacity in the Arctic",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "White-tailed deer in New York State breed once a year. The timing of the breeding season and birth of offspring is represented in the chart below. White-Tailed Deer Reproductive Cycle Timeline Female deer reproductive cycle Deer breeding season Aug. Sept. Oct. Nov. Dec. Jan. Feb. Mar. Apr. May June July Birth of offspring Which statement best helps explain why this breeding cycle is successful for deer?",
+      "choices": [
+        "Giving birth in the spring and early summer ensures that there will be food for the offspring.",
+        "Deer avoid giving birth during the fall hunting season.",
+        "Fall is the only time of the year male and female deer are in the same locations.",
+        "Large deer predators move to cooler locations during the hot summer months. The diagram below represents human body cells and their interactions with the hormone, insulin. Normal Insulin Resistance Body cells Body cells Insulin Insulin Glucose Bloodstream"
+      ],
+      "image": "/images/exams/living-environment/june-2025/q42.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Insulin resistance results when the body produces insulin but cells are not able to respond to it. This resistance could result in",
+      "choices": [
+        "a lower level of glucose in the bloodstream",
+        "an increase of glucose in the cell",
+        "a failure of glucose to leave the cells",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information below and on your knowledge of biology.\nWhy Do Marimo Balls Float and Sink?\nMarimo are fuzzy, round balls of a rare algae that is native to some cold, freshwater \nlakes. They have been observed to float after dawn and sink after dusk. A group of scientists \nconducted experiments to determine the cause of this floating and sinking action.\nIn one experiment, a marimo ball was placed in a graduated cylinder with 500 mL of \nwater and exposed to light for four minutes. After four minutes, the light was turned off and \nthe marimo was kept in the dark for another four minutes. The position of the marimo was \nmeasured each minute by recording the location of the marimo in the graduated cylinder \nwith respect to the mL lines.\nThe experimental setup and data table are shown below. The data table gives the position of the top of \nthe marimo in the cylinder during the eight-minute interval.\n500\n400\n300\nmL\n200\n100\nMarimo\nExperimential Set-up\nMarimo Position in Light and Dark Conditions\nTime (minutes)\nPosition (mL)\nLight on\n1\n100\n2\n \n225\n3\n500\n4\n500\nLight off\n5\n500\n6\n425\n7\n200\n8\n100\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 June \u201925\t\n[15]\t\n[OVER]\nDirections (44\u201345): Using the information given in the data table, construct a line graph on the grid provided, \nfollowing the instructions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for marking an appropriate scale on the grid provided, without any breaks in the data, on each labeled axis. Note: Do not allow credit if the grid is altered to accommodate the scale."
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data on the grid provided. Connect the points and surround each point with a small circle. Example: Position (mL line) Marimo Position in Light and Dark Conditions Time (minutes)",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information below and on your knowledge of biology.\nWhy Do Marimo Balls Float and Sink?\nMarimo are fuzzy, round balls of a rare algae that is native to some cold, freshwater \nlakes. They have been observed to float after dawn and sink after dusk. A group of scientists \nconducted experiments to determine the cause of this floating and sinking action.\nIn one experiment, a marimo ball was placed in a graduated cylinder with 500 mL of \nwater and exposed to light for four minutes. After four minutes, the light was turned off and \nthe marimo was kept in the dark for another four minutes. The position of the marimo was \nmeasured each minute by recording the location of the marimo in the graduated cylinder \nwith respect to the mL lines.\nThe experimental setup and data table are shown below. The data table gives the position of the top of \nthe marimo in the cylinder during the eight-minute interval.\n500\n400\n300\nmL\n200\n100\nMarimo\nExperimential Set-up\nMarimo Position in Light and Dark Conditions\nTime (minutes)\nPosition (mL)\nLight on\n1\n100\n2\n \n225\n3\n500\n4\n500\nLight off\n5\n500\n6\n425\n7\n200\n8\n100\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 June \u201925\t\n[15]\t\n[OVER]\nDirections (44\u201345): Using the information given in the data table, construct a line graph on the grid provided, \nfollowing the instructions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly plotting the data and connecting the points and surrounding each point with a small circle. Example of a 2-credit graph for questions 44-45: 100 Position (mL line) 200 300 400 500 1 2 3 4 5 6 7 8 Marimo Position in Light and Dark Conditions Time (minutes) Note: Allow credit if the points are plotted correctly, but not circled. Do not assume that the intersection of the x- and y-axes is the origin (0,0) unless it is labeled. An appropriate scale only needs to include the data range in the data table. Do not allow credit if points are plotted that are not in the data table, e.g., (0,0), or for extending lines beyond the data points. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "State the relationship between the light exposure and the position of the marimo balls.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information below and on your knowledge of biology.\nWhy Do Marimo Balls Float and Sink?\nMarimo are fuzzy, round balls of a rare algae that is native to some cold, freshwater \nlakes. They have been observed to float after dawn and sink after dusk. A group of scientists \nconducted experiments to determine the cause of this floating and sinking action.\nIn one experiment, a marimo ball was placed in a graduated cylinder with 500 mL of \nwater and exposed to light for four minutes. After four minutes, the light was turned off and \nthe marimo was kept in the dark for another four minutes. The position of the marimo was \nmeasured each minute by recording the location of the marimo in the graduated cylinder \nwith respect to the mL lines.\nThe experimental setup and data table are shown below. The data table gives the position of the top of \nthe marimo in the cylinder during the eight-minute interval.\n500\n400\n300\nmL\n200\n100\nMarimo\nExperimential Set-up\nMarimo Position in Light and Dark Conditions\nTime (minutes)\nPosition (mL)\nLight on\n1\n100\n2\n \n225\n3\n500\n4\n500\nLight off\n5\n500\n6\n425\n7\n200\n8\n100\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 June \u201925\t\n[15]\t\n[OVER]\nDirections (44\u201345): Using the information given in the data table, construct a line graph on the grid provided, \nfollowing the instructions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 As the time of light exposure increases, the position of the marimo balls in the cylinder is higher. \u2014 The longer the marimo balls are exposed to light, the more they float. \u2014 When marimo balls are not exposed to light, they do not float/they sink. \u2014 As the light exposure increases, the marimo balls float higher. 47 4"
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The scientists observed that when the marimo were floating, they were covered with tiny bubbles. They hypothesized that these bubbles were products of photosynthesis. Therefore, the bubbles were most likely",
+      "choices": [
+        "carbon dioxide",
+        "hydrogen",
+        "glucose",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2025/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information below and on your knowledge of biology.\nWhy Do Marimo Balls Float and Sink?\nMarimo are fuzzy, round balls of a rare algae that is native to some cold, freshwater \nlakes. They have been observed to float after dawn and sink after dusk. A group of scientists \nconducted experiments to determine the cause of this floating and sinking action.\nIn one experiment, a marimo ball was placed in a graduated cylinder with 500 mL of \nwater and exposed to light for four minutes. After four minutes, the light was turned off and \nthe marimo was kept in the dark for another four minutes. The position of the marimo was \nmeasured each minute by recording the location of the marimo in the graduated cylinder \nwith respect to the mL lines.\nThe experimental setup and data table are shown below. The data table gives the position of the top of \nthe marimo in the cylinder during the eight-minute interval.\n500\n400\n300\nmL\n200\n100\nMarimo\nExperimential Set-up\nMarimo Position in Light and Dark Conditions\nTime (minutes)\nPosition (mL)\nLight on\n1\n100\n2\n \n225\n3\n500\n4\n500\nLight off\n5\n500\n6\n425\n7\n200\n8\n100\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 June \u201925\t\n[15]\t\n[OVER]\nDirections (44\u201345): Using the information given in the data table, construct a line graph on the grid provided, \nfollowing the instructions below.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Describe one advantage to the marimo algal balls having the ability to float during the day.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information below and on your knowledge of biology.\nWhy Do Marimo Balls Float and Sink?\nMarimo are fuzzy, round balls of a rare algae that is native to some cold, freshwater \nlakes. They have been observed to float after dawn and sink after dusk. A group of scientists \nconducted experiments to determine the cause of this floating and sinking action.\nIn one experiment, a marimo ball was placed in a graduated cylinder with 500 mL of \nwater and exposed to light for four minutes. After four minutes, the light was turned off and \nthe marimo was kept in the dark for another four minutes. The position of the marimo was \nmeasured each minute by recording the location of the marimo in the graduated cylinder \nwith respect to the mL lines.\nThe experimental setup and data table are shown below. The data table gives the position of the top of \nthe marimo in the cylinder during the eight-minute interval.\n500\n400\n300\nmL\n200\n100\nMarimo\nExperimential Set-up\nMarimo Position in Light and Dark Conditions\nTime (minutes)\nPosition (mL)\nLight on\n1\n100\n2\n \n225\n3\n500\n4\n500\nLight off\n5\n500\n6\n425\n7\n200\n8\n100\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 June \u201925\t\n[15]\t\n[OVER]\nDirections (44\u201345): Using the information given in the data table, construct a line graph on the grid provided, \nfollowing the instructions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Floating closer to the surface during the day provides them with more light for photosynthesis. \u2014 Being near the surface increases their ability to perform photosynthesis. \u2014 Marimo will grow better if they can float and absorb more light for photosynthesis. \u2014 There is more light near the surface of the water. 49 1 50 1"
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "In order to determine if the floating of marimo was due to photosynthesis, the scientists treated them with DCMU, a chemical that prevents cells from carrying out photosynthesis. The DCMU-treated marimo were exposed to light continuously for 48 hours. No bubbles were observed on the surface of the treated marimo and they did not float. Based on these results, scientists can conclude that",
+      "choices": [
+        "gas released during photosynthesis causes marimo to float",
+        "warmer temperatures cause marimo to float",
+        "photosynthesis is not responsible for marimo floating",
+        "DCMU treatment increases the ability to float"
+      ],
+      "image": "/images/exams/living-environment/june-2025/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information below and on your knowledge of biology.\nWhy Do Marimo Balls Float and Sink?\nMarimo are fuzzy, round balls of a rare algae that is native to some cold, freshwater \nlakes. They have been observed to float after dawn and sink after dusk. A group of scientists \nconducted experiments to determine the cause of this floating and sinking action.\nIn one experiment, a marimo ball was placed in a graduated cylinder with 500 mL of \nwater and exposed to light for four minutes. After four minutes, the light was turned off and \nthe marimo was kept in the dark for another four minutes. The position of the marimo was \nmeasured each minute by recording the location of the marimo in the graduated cylinder \nwith respect to the mL lines.\nThe experimental setup and data table are shown below. The data table gives the position of the top of \nthe marimo in the cylinder during the eight-minute interval.\n500\n400\n300\nmL\n200\n100\nMarimo\nExperimential Set-up\nMarimo Position in Light and Dark Conditions\nTime (minutes)\nPosition (mL)\nLight on\n1\n100\n2\n \n225\n3\n500\n4\n500\nLight off\n5\n500\n6\n425\n7\n200\n8\n100\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 June \u201925\t\n[15]\t\n[OVER]\nDirections (44\u201345): Using the information given in the data table, construct a line graph on the grid provided, \nfollowing the instructions below.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which inference is reasonable, based on the data in the graph?",
+      "choices": [
+        "Spruce grouse, which inhabit spruce forests, became more common over the years.",
+        "Mice and other grassland species remained abundant in the area for many years.",
+        "Birds living in this area in 1995 preferred shrub habitats over heavily wooded habitats.",
+        "Birch trees are likely the most common type of tree species in the area today."
+      ],
+      "image": "/images/exams/living-environment/june-2025/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the information and graph below and on your knowledge of \nbiology.\nAdirondack Logging Results\nA forested area in the Adirondacks was heavily logged in the early 1900s. The logging \nended in 1915, leaving empty fields of grasses and some shrubs. Over the next 80 years, \nuntil 1995, the abundance of different plant species was recorded periodically to show the \nchanges that occurred in the area. A graph representing these changes is shown below.\nMaple \ntrees\nSpruce\ntrees\nGrasses\nShrubs\nBirch trees\nTime\nRelative Mass of \nEach Plant Species\nChanges in an Adirondack \nEcosystem Over Time\n\nLiving Environment \u2013 June \u201925\t\n[17]\t\n[OVER]\n\t\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Describe how the graph would likely appear 20 or more years after 1995 if the study had continued. Support your answer. The diagrams below represent parts of the human male and female reproductive systems. B A D C D A B C Male Reproductive System Female Reproductive System",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the information and graph below and on your knowledge of \nbiology.\nAdirondack Logging Results\nA forested area in the Adirondacks was heavily logged in the early 1900s. The logging \nended in 1915, leaving empty fields of grasses and some shrubs. Over the next 80 years, \nuntil 1995, the abundance of different plant species was recorded periodically to show the \nchanges that occurred in the area. A graph representing these changes is shown below.\nMaple \ntrees\nSpruce\ntrees\nGrasses\nShrubs\nBirch trees\nTime\nRelative Mass of \nEach Plant Species\nChanges in an Adirondack \nEcosystem Over Time\n\nLiving Environment \u2013 June \u201925\t\n[17]\t\n[OVER]\n\t\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for describing how the graph would appear 20 or more years after 1995 if the study had continued to that point and supporting the answer. Acceptable responses include, but are not limited to: \u2014 It would be about the same because the environment may have reached a state of long-term stability/climax community. \u2014 New tree species would appear and increase while the spruces and others would decrease because succession would continue. \u2014 There would be fewer shrubs and more spruce trees because succession would continue. \u2014 There would be mostly grasses and shrubs if an ecosystem was disturbed by a forest fire or flood."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "The diagram below represents the carrying capacities of an ecosystem for three different species and the relative population sizes for each species in the area. Species Key Carrying capacity 1 2 3 Actual population size Number of Individuals in the Species Carrying Capacities of an Ecosystem",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 gamete/sex cell production \u2014 sex hormone production \u2014 meiotic cell division Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Which species is most likely to undergo a population increase in the future? Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/q53.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying species 1 as most likely to undergo a population increase in the future, and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Species 1, because the carrying capacity for this population is far above the number of the species that are presently living there. \u2014 Species 1, because it is the only one whose population is below the carrying capacity. \u2014 Species 1, because they have more resources available."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Explain why this diagram is labeled \u201cActive Transport.\u201d",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the diagram below and on your knowledge of biology. \nThe diagram illustrates the active transport of molecules of A through a portion of a cell membrane.\nActive Transport\nMolecules of A\nEnergy Use",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Energy is required to move the molecules. \u2014 Molecules of A are being moved from an area of low concentration to an area of high concentration. \u2014 Cellular energy is being used to transport molecules through the cell membrane. \u2014 Molecules are being moved against the concentration gradient."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "The \u201cEnergy Use\u201d",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the diagram below and on your knowledge of biology. \nThe diagram illustrates the active transport of molecules of A through a portion of a cell membrane.\nActive Transport\nMolecules of A\nEnergy Use",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for ATP as the molecule that is involved in the \u201cEnergy Use\u201d process, and identifying the process that produces it. Acceptable responses include, but are not limited to: \u2014 Molecule: ATP \u2014 Process: cellular respiration/respiration/aerobic respiration Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Explain how the ability of honey badgers to eat venomous snakes is an example of a favorable adaptation.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_56_57.png",
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of biology.\nWhy Honey Badgers Don\u2019t Care\nThe honey badger, found in parts of India, Africa, and the Middle East, has been \nidentified as \u201cthe world\u2019s most fearless creature\u201d by the Guinness Book of World Records. \nAlthough they are primarily carnivorous, honey badgers consume a wide variety of food: \nrodents, insects, bee larvae, birds, and fruit. Venomous snakes, including cobras and puff \nadders, are also favorite items on their menu.\nAs much as 25% of a honey badger\u2019s diet consists of venomous snakes with fangs. The \nadaptation to withstand snake venom has enabled them to be one of the only predators to \nfeast on this source of meat. They hunt fairly slow-moving prey with fangs rather than fast \nprey with claws and teeth.\nSnake venom contains more than 100 proteins that could potentially poison a honey \nbadger\u2014meaning that honey badgers need multiple defenses. Scientists have focused their \nresearch on a nasty class of molecules in cobra venom called alpha-neurotoxins, that paralyze \nthe muscles associated with breathing. These neurotoxins block a specific receptor and \ntherefore prevent muscle cells from receiving signals from the nervous system.\nPresently, most antivenoms used to treat snake bites are made of proteins produced by \nthe immune systems of horses and sheep exposed to specific snake venoms. These proteins \nattack the venom directly in people bitten by a venomous snake.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 It is a favorable adaptation because they get to hunt fairly slow-moving prey with fangs rather than fast prey with claws and teeth. \u2014 They have a greater variety of food available. This should help them to survive and reproduce. \u2014 There is less competition for food. \u2014 The honey badgers are not affected by the venom in the venomous snakes."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "State why using an antivenom made from horse proteins could result in an allergic reaction.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_56_57.png",
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of biology.\nWhy Honey Badgers Don\u2019t Care\nThe honey badger, found in parts of India, Africa, and the Middle East, has been \nidentified as \u201cthe world\u2019s most fearless creature\u201d by the Guinness Book of World Records. \nAlthough they are primarily carnivorous, honey badgers consume a wide variety of food: \nrodents, insects, bee larvae, birds, and fruit. Venomous snakes, including cobras and puff \nadders, are also favorite items on their menu.\nAs much as 25% of a honey badger\u2019s diet consists of venomous snakes with fangs. The \nadaptation to withstand snake venom has enabled them to be one of the only predators to \nfeast on this source of meat. They hunt fairly slow-moving prey with fangs rather than fast \nprey with claws and teeth.\nSnake venom contains more than 100 proteins that could potentially poison a honey \nbadger\u2014meaning that honey badgers need multiple defenses. Scientists have focused their \nresearch on a nasty class of molecules in cobra venom called alpha-neurotoxins, that paralyze \nthe muscles associated with breathing. These neurotoxins block a specific receptor and \ntherefore prevent muscle cells from receiving signals from the nervous system.\nPresently, most antivenoms used to treat snake bites are made of proteins produced by \nthe immune systems of horses and sheep exposed to specific snake venoms. These proteins \nattack the venom directly in people bitten by a venomous snake.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The antivenom could contain some proteins from the horse unrelated to the antibodies, and they could cause a reaction. \u2014 The horse proteins could be interpreted as a foreign antigen even though they are being injected to help the person. \u2014 The person\u2019s immune system could interpret the antibodies contained in the antivenom as a pathogen and attack them."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Explain why the decline in some North American bird populations is having a negative effect on ecosystems.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the information below and on your knowledge of biology.\nThree Billion North American Birds Have Vanished Since 1970\nRecent surveys of 529 bird species revealed that since 1970 the North American continent \nlost 3 billion birds, 29% of the total. Birds are excellent indicators of environmental health \nand are vital to ecosystems. Common bird species control insects, pollinate flowers, spread \nseeds, and help regenerate forests. As a result, when these birds disappear, their former \nhabitats are not the same.\nChange in North American Bird Populations Since 1970\nBird decline by habitat (%)\nWetlands\nCoasts\nArid lands\nEastern forest\nForest generalist\nHabitat generalist\nArctic tundra\nWestern forest\nBoreal forest\nGrassland\n250\n240\n230\n220\n210\n0\n10\nAmerican sparrows\nWood warblers\nBlackbirds\nOld world sparrows\nLarks\nFinches\nSwallows, nightjars, swifts\nTyrant flycatchers\nStarlings\nThrushes\nTurkeys and grouse\nRaptors\nGnatcatchers\nDucks and geese\nVireos\nDecline by type (%)\n250\n0\n50\n200\nMany factors influence the bird populations. Loss of habitat to urban sprawl, converting \ngrasslands into farmlands, and the use of pesticides to reduce insect populations have been \nparticularly hard on some bird species. Changes to natural habitats can reduce nesting sites \nand limit flight paths for migratory birds. House cats that are allowed outside and feral cats \ncontribute significantly to the loss of birds.\nHowever, some birds have increased due to changes in human activities. Studies found \nthat raptors (predators) such as bald eagles have rebounded after the pesticide DDT was \nbanned. Waterfowl such as ducks and geese have also increased due to conservation programs.\n\nLiving Environment \u2013 June \u201925\t\n[21]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Loss of birds reduces the biodiversity of the ecosystem, decreasing stability. \u2014 There will be an increase in insect pests. \u2014 Having fewer birds could impact the food web of an ecosystem. \u2014 Having fewer birds could result in fewer flowers being pollinated. \u2014 Most North American birds control insect populations, help pollinate flowers, spread seeds, and help regenerate forests."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Identify the habitat that has had the greatest decline in birds since 1970, and describe a cause of the loss of birds in that habitat. The bobolink is a small blackbird whose population has undergone a decline of 75% in some regions. These birds nest in fields of tall grass during the summer across the northern United States and migrate long distances to winter in southern South America.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the information below and on your knowledge of biology.\nThree Billion North American Birds Have Vanished Since 1970\nRecent surveys of 529 bird species revealed that since 1970 the North American continent \nlost 3 billion birds, 29% of the total. Birds are excellent indicators of environmental health \nand are vital to ecosystems. Common bird species control insects, pollinate flowers, spread \nseeds, and help regenerate forests. As a result, when these birds disappear, their former \nhabitats are not the same.\nChange in North American Bird Populations Since 1970\nBird decline by habitat (%)\nWetlands\nCoasts\nArid lands\nEastern forest\nForest generalist\nHabitat generalist\nArctic tundra\nWestern forest\nBoreal forest\nGrassland\n250\n240\n230\n220\n210\n0\n10\nAmerican sparrows\nWood warblers\nBlackbirds\nOld world sparrows\nLarks\nFinches\nSwallows, nightjars, swifts\nTyrant flycatchers\nStarlings\nThrushes\nTurkeys and grouse\nRaptors\nGnatcatchers\nDucks and geese\nVireos\nDecline by type (%)\n250\n0\n50\n200\nMany factors influence the bird populations. Loss of habitat to urban sprawl, converting \ngrasslands into farmlands, and the use of pesticides to reduce insect populations have been \nparticularly hard on some bird species. Changes to natural habitats can reduce nesting sites \nand limit flight paths for migratory birds. House cats that are allowed outside and feral cats \ncontribute significantly to the loss of birds.\nHowever, some birds have increased due to changes in human activities. Studies found \nthat raptors (predators) such as bald eagles have rebounded after the pesticide DDT was \nbanned. Waterfowl such as ducks and geese have also increased due to conservation programs.\n\nLiving Environment \u2013 June \u201925\t\n[21]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying the grassland habitat as the habitat with the greatest decline in birds since 1970 and describing the cause of the loss of birds in that habitat. Acceptable responses include, but are not limited to: \u2014 Grasslands have been converted to farmland. \u2014 Grasslands have been turned into farms, so there is less biodiversity to support the birds. \u2014 The use of pesticides in grasslands has reduced insects as food for birds. \u2014 Grassland birds that consume insects contaminated with pesticides might die."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Describe an action people might take that could reduce the decline in the bobolink population.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the information below and on your knowledge of biology.\nThree Billion North American Birds Have Vanished Since 1970\nRecent surveys of 529 bird species revealed that since 1970 the North American continent \nlost 3 billion birds, 29% of the total. Birds are excellent indicators of environmental health \nand are vital to ecosystems. Common bird species control insects, pollinate flowers, spread \nseeds, and help regenerate forests. As a result, when these birds disappear, their former \nhabitats are not the same.\nChange in North American Bird Populations Since 1970\nBird decline by habitat (%)\nWetlands\nCoasts\nArid lands\nEastern forest\nForest generalist\nHabitat generalist\nArctic tundra\nWestern forest\nBoreal forest\nGrassland\n250\n240\n230\n220\n210\n0\n10\nAmerican sparrows\nWood warblers\nBlackbirds\nOld world sparrows\nLarks\nFinches\nSwallows, nightjars, swifts\nTyrant flycatchers\nStarlings\nThrushes\nTurkeys and grouse\nRaptors\nGnatcatchers\nDucks and geese\nVireos\nDecline by type (%)\n250\n0\n50\n200\nMany factors influence the bird populations. Loss of habitat to urban sprawl, converting \ngrasslands into farmlands, and the use of pesticides to reduce insect populations have been \nparticularly hard on some bird species. Changes to natural habitats can reduce nesting sites \nand limit flight paths for migratory birds. House cats that are allowed outside and feral cats \ncontribute significantly to the loss of birds.\nHowever, some birds have increased due to changes in human activities. Studies found \nthat raptors (predators) such as bald eagles have rebounded after the pesticide DDT was \nbanned. Waterfowl such as ducks and geese have also increased due to conservation programs.\n\nLiving Environment \u2013 June \u201925\t\n[21]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Maintain migratory paths with resources for the bobolink. \u2014 Pass legislation to protect the bobolink. \u2014 Protect and grow fields/grasslands so that the bobolink has nesting sites. \u2014 Keep house cats inside. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "According to the evolutionary tree, identify which species, the African golden wolf or the modern dog, is most closely related to the gray wolf. Support your answer with evidence from the evolutionary tree.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_61_62.png",
+      "context": "Base your answers to questions 61 and 62 on the information below, on the next page, and on your \nknowledge of biology.\nNew research comparing the anatomy and behavior of dogs and wolves found that dogs \nhave small facial muscles around their eyes which allow them to raise their inner eyebrow. \nThis makes their eyes appear larger and more infant-like. Wolves do not have these muscles.\nRaised eyebrow \nmuscle\nRaised \neyebrow \nmuscle\nFacial musculature in the dog (left) and \nwolf (right) with anatomical differences.\n\nLiving Environment \u2013 June \u201925\t\n[22]\nScientists hypothesize that dogs expressing this \u201cpuppy-dog eye\u201d trait unconsciously \nstimulate a desire in humans to take care of them.\nExamine the evolutionary tree below of modern dogs and their relatives.\nModern dog\nGray wolf\nCoyote\nAfrican golden wolf\nGolden jackal\nEthiopian wolf\nAsian wolf\nAfrican wild dog\nSide-striped jackal\nBlack-backed jackal\nCanine Evolution",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying modern dogs as the species most closely related to the gray wolf and supporting the answer with evidence from the evolutionary tree diagram. Acceptable responses include, but are not limited to: \u2014 Modern dogs and the gray wolf share a more recent common ancestor than the gray wolf and the African golden wolf. \u2014 According to the tree, the gray wolf and the modern dog species share a more recent common ancestor. \u2014 Modern dogs and gray wolves are on the same branch of the evolutionary tree."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "62",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_61_62.png",
+      "context": "Base your answers to questions 61 and 62 on the information below, on the next page, and on your \nknowledge of biology.\nNew research comparing the anatomy and behavior of dogs and wolves found that dogs \nhave small facial muscles around their eyes which allow them to raise their inner eyebrow. \nThis makes their eyes appear larger and more infant-like. Wolves do not have these muscles.\nRaised eyebrow \nmuscle\nRaised \neyebrow \nmuscle\nFacial musculature in the dog (left) and \nwolf (right) with anatomical differences.\n\nLiving Environment \u2013 June \u201925\t\n[22]\nScientists hypothesize that dogs expressing this \u201cpuppy-dog eye\u201d trait unconsciously \nstimulate a desire in humans to take care of them.\nExamine the evolutionary tree below of modern dogs and their relatives.\nModern dog\nGray wolf\nCoyote\nAfrican golden wolf\nGolden jackal\nEthiopian wolf\nAsian wolf\nAfrican wild dog\nSide-striped jackal\nBlack-backed jackal\nCanine Evolution",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Since people favored the \u201cpuppy-dog\u201d trait, they bred these dogs, and the frequency of the trait increased over time. \u2014 Animals with the eyebrow-raising gene were more likely to be accepted by humans and cared for. This increased their chance of survival, and the trait was passed on to their offspring. The frequency of the trait would increase."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Using evidence from the graphs, support the claim that the scientists were successful in developing a more efficient enzyme.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_63_66.png",
+      "context": "Base your answers to questions 63 through 66 on the information and graphs below and on your knowledge \nof biology.\nBreaking Down Plastics\nResearchers collected soil contaminated with specific plastics outside a plastic bottle \nrecycling facility. They discovered a type of bacterium in the soil that was able to depolymerize \n(break down) and use these plastics as a source of nutrition. A bacterial enzyme that could \ndigest large molecules of plastic into their building blocks was isolated. Those building blocks \ncan be used to produce new plastic products. Scientists have been working to improve the \nefficiency of this enzyme by altering the specific molecules the bacteria need to code for the \nsynthesis of the enzyme. Using this method, many variations of the enzyme were produced \nby the altered bacteria, and these variants were tested.\nThe graphs below show a comparison of the activity of the original enzyme and two \nvariants produced by the scientists.\n40\n35\n30\n25\n20\n15\n5\n00\n1\n2\n3\n4\n5\n6\n10\nOriginal Enzyme\nDepolymerization (%)\nTime (Days)\n100\n90\n80\n70\n60\n50\n40\n00\n3\n6\n9 12 15 18 21 24\n10\n20\n30\nTwo Variations of Enzymes\nDepolymerization (%)\nTime (hours)\nVariant 1 \nenzyme\nVariant 2  \nenzyme\nKey\nActivity of Plastic-Digesting Enzymes",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The altered enzymes are much faster, so they might be useful for recycling these plastics. \u2014 The original enzyme was much slower, so it wasn\u2019t as efficient in breaking down specific plastics. \u2014 The original enzyme digested around 30% of the plastic, but the new enzymes digested 90%. \u2014 The altered enzymes broke the plastic down in hours, compared to the original enzyme that took days. \u2014 The new variations of the enzymes are much faster than the original."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Describe a technique the scientists most likely would use to alter the specific molecules in the bacteria referred to in the reading.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_63_66.png",
+      "context": "Base your answers to questions 63 through 66 on the information and graphs below and on your knowledge \nof biology.\nBreaking Down Plastics\nResearchers collected soil contaminated with specific plastics outside a plastic bottle \nrecycling facility. They discovered a type of bacterium in the soil that was able to depolymerize \n(break down) and use these plastics as a source of nutrition. A bacterial enzyme that could \ndigest large molecules of plastic into their building blocks was isolated. Those building blocks \ncan be used to produce new plastic products. Scientists have been working to improve the \nefficiency of this enzyme by altering the specific molecules the bacteria need to code for the \nsynthesis of the enzyme. Using this method, many variations of the enzyme were produced \nby the altered bacteria, and these variants were tested.\nThe graphs below show a comparison of the activity of the original enzyme and two \nvariants produced by the scientists.\n40\n35\n30\n25\n20\n15\n5\n00\n1\n2\n3\n4\n5\n6\n10\nOriginal Enzyme\nDepolymerization (%)\nTime (Days)\n100\n90\n80\n70\n60\n50\n40\n00\n3\n6\n9 12 15 18 21 24\n10\n20\n30\nTwo Variations of Enzymes\nDepolymerization (%)\nTime (hours)\nVariant 1 \nenzyme\nVariant 2  \nenzyme\nKey\nActivity of Plastic-Digesting Enzymes",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Scientists could insert/delete/substitute DNA segments to alter the bacterial genes. \u2014 They used genetic engineering/CRISPR to alter the DNA of the bacteria. \u2014 Enzymes could be used to cut/insert DNA into the bacteria."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "65",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_63_66.png",
+      "context": "Base your answers to questions 63 through 66 on the information and graphs below and on your knowledge \nof biology.\nBreaking Down Plastics\nResearchers collected soil contaminated with specific plastics outside a plastic bottle \nrecycling facility. They discovered a type of bacterium in the soil that was able to depolymerize \n(break down) and use these plastics as a source of nutrition. A bacterial enzyme that could \ndigest large molecules of plastic into their building blocks was isolated. Those building blocks \ncan be used to produce new plastic products. Scientists have been working to improve the \nefficiency of this enzyme by altering the specific molecules the bacteria need to code for the \nsynthesis of the enzyme. Using this method, many variations of the enzyme were produced \nby the altered bacteria, and these variants were tested.\nThe graphs below show a comparison of the activity of the original enzyme and two \nvariants produced by the scientists.\n40\n35\n30\n25\n20\n15\n5\n00\n1\n2\n3\n4\n5\n6\n10\nOriginal Enzyme\nDepolymerization (%)\nTime (Days)\n100\n90\n80\n70\n60\n50\n40\n00\n3\n6\n9 12 15 18 21 24\n10\n20\n30\nTwo Variations of Enzymes\nDepolymerization (%)\nTime (hours)\nVariant 1 \nenzyme\nVariant 2  \nenzyme\nKey\nActivity of Plastic-Digesting Enzymes",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The use of the enzymes can increase the amount of plastic that\u2019s recycled. \u2014 Using enzymes enables us to recycle more plastic. \u2014 The building blocks can be used to make new, useful products. \u2014 There would be less plastic waste in landfills. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Explain why these enzymes will break down specific plastics but not react with other substances.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_63_66.png",
+      "context": "Base your answers to questions 63 through 66 on the information and graphs below and on your knowledge \nof biology.\nBreaking Down Plastics\nResearchers collected soil contaminated with specific plastics outside a plastic bottle \nrecycling facility. They discovered a type of bacterium in the soil that was able to depolymerize \n(break down) and use these plastics as a source of nutrition. A bacterial enzyme that could \ndigest large molecules of plastic into their building blocks was isolated. Those building blocks \ncan be used to produce new plastic products. Scientists have been working to improve the \nefficiency of this enzyme by altering the specific molecules the bacteria need to code for the \nsynthesis of the enzyme. Using this method, many variations of the enzyme were produced \nby the altered bacteria, and these variants were tested.\nThe graphs below show a comparison of the activity of the original enzyme and two \nvariants produced by the scientists.\n40\n35\n30\n25\n20\n15\n5\n00\n1\n2\n3\n4\n5\n6\n10\nOriginal Enzyme\nDepolymerization (%)\nTime (Days)\n100\n90\n80\n70\n60\n50\n40\n00\n3\n6\n9 12 15 18 21 24\n10\n20\n30\nTwo Variations of Enzymes\nDepolymerization (%)\nTime (hours)\nVariant 1 \nenzyme\nVariant 2  \nenzyme\nKey\nActivity of Plastic-Digesting Enzymes",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 These enzymes have specific shapes that fit with only the specific plastic. \u2014 Enzymes have specific parts that determine the molecules that they work with. \u2014 Enzymes have specific shapes that influence both how they function and how they interact with other molecules. \u2014 The enzyme was genetically modified to work with this specific plastic, but not other substances."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Identify the type of relationship between the collared lizard and the grasshopper mouse as positive, negative, or neutral. Support your answer with information from the food web.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_67_69.png",
+      "context": "Base your answers to questions 67 through 69 on the partial Arizona desert food web represented below and \non your knowledge of biology.\nRed-tailed \nhawk\nElf \nowl\nMantid\nRed \nharvester \nants\nWestern \ndiamondback \nrattlesnake\nGila\nwoodpecker\nCollared \nlizard\nWood \nrat\nSaguaro\ncactus\nPrickly\npear cactus\nBrittlebrush\nPallid-winged\ngrasshopper\nGrasshopper\nmouse\nAntelope \nsquirrel\nArizona Desert Food Web\nDesert food webs are complex and often contain more food chains than a grassland or \nforest food web. This is important to the stability of the desert ecosystem.\nRelationships between organisms can be described as positive, negative, or neutral.\nPositive relationship:\t\nBoth species benefit.\nNegative relationship:\t\nEither species would benefit if the other species were no longer present.\nNeutral relationship:\t\nThe species have no effect on each other.\n\nLiving Environment \u2013 June \u201925\t\n[25]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying the relationship between the collared lizard and the grasshopper mouse as negative and supporting the answer. Acceptable responses include, but are not limited to: \u2014 The relationship is negative because both species compete for the pallid-winged grasshopper. \u2014 Negative, because the lizard and the grasshopper mouse compete with each other for food. Either species would gain if the other was no longer present."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "People often want to remove top-level predators from an ecosystem. There are a number of reasons for this, depending on the area and the predator. Explain how removing the red-tailed hawk would affect the prickly pear cactus population in this food web. Support your answer with information from the food web. One group of students drew energy pyramid A to model where the energy is located in the Arizona desert food web. Another group of students drew energy pyramid B for their model. Model Arizona Desert Energy Pyramids Producers A B",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_67_69.png",
+      "context": "Base your answers to questions 67 through 69 on the partial Arizona desert food web represented below and \non your knowledge of biology.\nRed-tailed \nhawk\nElf \nowl\nMantid\nRed \nharvester \nants\nWestern \ndiamondback \nrattlesnake\nGila\nwoodpecker\nCollared \nlizard\nWood \nrat\nSaguaro\ncactus\nPrickly\npear cactus\nBrittlebrush\nPallid-winged\ngrasshopper\nGrasshopper\nmouse\nAntelope \nsquirrel\nArizona Desert Food Web\nDesert food webs are complex and often contain more food chains than a grassland or \nforest food web. This is important to the stability of the desert ecosystem.\nRelationships between organisms can be described as positive, negative, or neutral.\nPositive relationship:\t\nBoth species benefit.\nNegative relationship:\t\nEither species would benefit if the other species were no longer present.\nNeutral relationship:\t\nThe species have no effect on each other.\n\nLiving Environment \u2013 June \u201925\t\n[25]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for explaining how removing the red-tailed hawk would affect the prickly pear cactus population in this food web and supporting the answer with information from the food web. Acceptable responses include, but are not limited to: \u2014 The hawk feeds on the wood rat. Without the hawk, the wood rat population would increase, eating more of the prickly pear cactus. \u2014 The hawk feeds on the western diamondback rattlesnake, which feeds on antelope squirrels and wood rats, which both feed on the prickly pear cactus. With more rattlesnakes, there will be fewer antelope squirrels and rats, so less of the cactus will be eaten."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "If energy pyramid B actually represents what is happening in that area of the desert, explain what would eventually happen and why. In 1980 the red wolf was declared extinct in the wild. Only one small captive population survives in North Carolina. Recently a group of canines resembling coyotes but with red fur were discovered on an island near Texas. They are clearly a kind of coyote, but could possibly contain some red wolf genetic material.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_67_69.png",
+      "context": "Base your answers to questions 67 through 69 on the partial Arizona desert food web represented below and \non your knowledge of biology.\nRed-tailed \nhawk\nElf \nowl\nMantid\nRed \nharvester \nants\nWestern \ndiamondback \nrattlesnake\nGila\nwoodpecker\nCollared \nlizard\nWood \nrat\nSaguaro\ncactus\nPrickly\npear cactus\nBrittlebrush\nPallid-winged\ngrasshopper\nGrasshopper\nmouse\nAntelope \nsquirrel\nArizona Desert Food Web\nDesert food webs are complex and often contain more food chains than a grassland or \nforest food web. This is important to the stability of the desert ecosystem.\nRelationships between organisms can be described as positive, negative, or neutral.\nPositive relationship:\t\nBoth species benefit.\nNegative relationship:\t\nEither species would benefit if the other species were no longer present.\nNeutral relationship:\t\nThe species have no effect on each other.\n\nLiving Environment \u2013 June \u201925\t\n[25]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 There would not be enough energy available to support the animals. The base of the pyramid represents the producers/plants where energy enters the ecosystem. Energy is released to the environment at each level, and there is less energy in the base than in the herbivores. \u2014 The food chain would collapse. There would not be enough energy captured to support the other organisms. Less energy would be available at each feeding level. \u2014 There isn\u2019t enough energy available to support the levels above the producers, so those levels will be reduced."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "70",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Populations having more diversity help increase the chances that some can survive if their environment changes. \u2014 If the environment changes in the future, it\u2019s more likely that some of the red wolves would have the traits that would help them survive change. \u2014 The red wolves would be less likely to go extinct, impacting the population. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Other than age or an error in the cloning process, describe one factor that could have led to the differences observed in Garlic 2.0, as compared to the original cat. The embryo that became Garlic 2.0 was implanted into another cat, a surrogate mother shown in the photo below. Garlic 2.0 (right) and surrogate mother",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the information below and on your knowledge of biology.\nA cat owner was devastated by the death of his beloved cat, Garlic. He contacted a \ncloning company that was able to produce Garlic 2.0 using DNA from preserved cells of \nthe original cat. However, the client was disappointed to see that while Garlic 2.0 was very \nsimilar to his original pet, there were slight differences in the cloned cat\u2019s appearance.\nGarlic 2.0\nOriginal Garlic",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The environment often affects gene expression. \u2014 The appearance may have been affected by the nutrition that Garlic 2.0 received. \u2014 There may have been a random mutation. \u2014 There may have been an epigenetic change."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Explain why scientists claimed that the surrogate mother did not determine the genetic makeup of the Garlic 2.0",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the information below and on your knowledge of biology.\nA cat owner was devastated by the death of his beloved cat, Garlic. He contacted a \ncloning company that was able to produce Garlic 2.0 using DNA from preserved cells of \nthe original cat. However, the client was disappointed to see that while Garlic 2.0 was very \nsimilar to his original pet, there were slight differences in the cloned cat\u2019s appearance.\nGarlic 2.0\nOriginal Garlic",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The genes in Garlic 2.0 were all present in the embryo implanted in the surrogate mother. \u2014 The nutrients and oxygen for growth were obtained from the surrogate, but the genes were present in the implanted embryo. \u2014 All the DNA from Garlic 2.0 came from the original Garlic. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "Since the arrival of the single ancestral species on Madagascar, there are now over 100 species of lemurs. Which statement is a likely explanation for the current diversity of lemurs?",
+      "choices": [
+        "Genetic variation was limited because they were living on an island.",
+        "There were no natural predators and many available niches.",
+        "Competition between lemurs stopped natural selection.",
+        "Habitats were destroyed after the arrival of humans."
+      ],
+      "image": "/images/exams/living-environment/june-2025/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the information below and on your knowledge of biology.\nLemurs of Madagascar\nLemurs are primates found only on the island of Madagascar, which is located about 250 \nmiles off the coast of Africa. The ancestral species of lemurs arrived 40-50 million years ago \n(mya), long after Madagascar became an island. This concept is illustrated in the diagram \nbelow.\nAfrica\nLorises Bushbabies\n$55 mya\nLemurs\n$54 mya\n$62 mya\nMadagascar\n\t\nNote: The answer to question 73 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "Which is an example of physical evidence that could be used to support a possible evolutionary relationship among lemur species?",
+      "choices": [
+        "similar amino acids",
+        "similar social behaviors",
+        "similar food choices",
+        "similar skeletal structures"
+      ],
+      "image": "/images/exams/living-environment/june-2025/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the information below and on your knowledge of biology.\nLemurs of Madagascar\nLemurs are primates found only on the island of Madagascar, which is located about 250 \nmiles off the coast of Africa. The ancestral species of lemurs arrived 40-50 million years ago \n(mya), long after Madagascar became an island. This concept is illustrated in the diagram \nbelow.\nAfrica\nLorises Bushbabies\n$55 mya\nLemurs\n$54 mya\n$62 mya\nMadagascar\n\t\nNote: The answer to question 73 should be recorded on your separate answer sheet.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Drastic environmental changes are occurring on an island. Which graph below best represents the variation in finch beak sizes that would most likely provide the greatest chance for survival? 0 100 200 300 400 6 7 8 Beak Depth (mm) ( 1 ) 9 11 12 13 14 10 Number of Finches Number of Finches 0 100 200 300 400 6 7 8 Beak Depth (mm) ( 2 ) 9 11 12 13 14 10 0 100 200 300 400 6 7 8 Beak Depth (mm) ( 3 ) 9 11 12 13 14 10 Number of Finches 0 100 200 300 400 6 7 8 Beak Depth (mm) ( 4 ) 9 11 12 13 14 10 Number of Finches The chart below compares some of the characteristics of four different plant species. Comparison of Four Plant Species Plant Species Flower Color Enzyme X Present Leaf Shape/Color Number of Flower Petals A blue yes oval/dark green 7 B blue no oval/yellow green 5 C red yes oval/dark green 7 D red no oval/dark green 5",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/q75.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "According to the information provided in the chart, which two plant species appear to be the most closely related?",
+      "choices": [
+        "A and B",
+        "B and D",
+        "C and A",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "This segment was cut with a restriction enzyme that recognizes CCGG and cuts between the C and G. The fragments were then analyzed using gel electrophoresis. How many bands would you expect to appear on the gel?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 and 78 on the information below and on your knowledge of biology.\nA gene segment from a species of plant has the following sequence:\nATTCCGGATCGATCGCCGGATATACTCCGGTAATATC",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for four (4)."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Once the gel is running, explain why the segments would move different distances in the gel. Students in a class performed an experiment. They recorded their resting pulse rates. Then, they ran in place and immediately recorded their pulse rates again. The data obtained are shown in the two histograms below. 12 10 8 6 4 2 0 Class Data Resting Pulse Rates Average Pulse Rate Range (per min) < 50 51\u201360 61\u201370 71\u201380 81\u201390 > 90 Number of Students 12 10 8 6 4 2 0 Class Data Pulse Rates After Activity Average Pulse Rate Range (per min) < 50 51\u201360 61\u201370 71\u201380 81\u201390 > 90 Number of Students",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/q78.png",
+      "context": "Base your answers to questions 77 and 78 on the information below and on your knowledge of biology.\nA gene segment from a species of plant has the following sequence:\nATTCCGGATCGATCGCCGGATATACTCCGGTAATATC",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The sizes of the segments determine how far the segments move. \u2014 Smaller segments will move farther in the gel. \u2014 The electrical current moves smaller pieces faster."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "A student in a biology class squeezed a clothespin as many times as possible in a 60-second period. After resting for 20 seconds, they then repeated the experiment, for a total of five trial periods of \u201csqueezing/resting.\u201d The student recorded their experimental data in the table below. Clothespin Data Trial Number of Clothespin Squeezes in 60 Seconds 1 82 2 75 3 58 4 50 5 45 The student reported feeling some burning in their finger muscles after squeezing the clothespin. The teacher explained that the burning sensation may have been due to a buildup of waste products in the finger muscles.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 If an individual\u2019s activity level increases, then his or her pulse rate will increase. \u2014 Exercise affects pulse rate. Note: Do not allow credit for a hypothesis in the form of a question."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Predict the number of clothespin squeezes expected if the student had performed a sixth trial. Support your answer.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for predicting a number less than 45 of clothespin squeezes expected had the student performed a sixth trial and supporting the answer. Acceptable responses include, but are not limited to: \u2014 More wastes built up. \u2014 The burning sensation became painful. \u2014 less oxygen, less ATP \u2014 The trend in the number of clothespin squeezes is decreasing. 81 2 82 4 Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "A recent newspaper headline read, \u201cExpert Warns About Effect of Rock Salt on Plants\u201d. The de-icing chemical, rock salt, has been used on highways for years. The concern expressed by the expert is most likely that",
+      "choices": [
+        "the salt will enter the plants and make them too salty and unusable as food",
+        "the presence of salt in the environment will cause the plants to lose water",
+        "de-icing chemicals always present a safety risk to humans",
+        "plants respond more rapidly to salt in colder temperatures"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "Some runners prepare for a race by completing a variety of warmups. These exercises are beneficial because they",
+      "choices": [
+        "can prevent the production of carbon dioxide in muscle cells",
+        "speed up the breakdown of protein that is released during respiration",
+        "reduce the need for water in muscle cell metabolism",
+        "A group of students took their pulse rates. The results are shown in the graph below. < 50 51\u201360 1 2 3 4 5 61\u201370 Pulse (beats/minute) Students\u2019 Pulse Rates Number of Students 71\u201380 81\u201390 > 90 A student wrote the hypothesis, \u201cStudents who smoke tend to have a higher pulse rate than students who do not smoke.\u201d"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "What additional information is needed to test the student\u2019s hypothesis?",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/q83.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The data should include students who smoke and who do not smoke. \u2014 More data are needed about students who smoke. \u2014 The student\u2019s data should distinguish between smokers and nonsmokers."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "If the common ancestor of the four finches originally lived on an island with few trees, little rain, and very few insects, identify which finch it might most likely resemble and support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the diagram below and on your knowledge of biology. The \ndiagram illustrates different finch species living in a certain area.\nWarbler finch: probing \nbill, insect eater, feeds \nin trees\nWoodpecker finch: probing \nbill,insect eater, uses twig or \ncactus spine to remove\ninsects from cactus\nMangrove finch: \ngrasping bill, insect \neater, feeds in trees\nVegetarian finch:\ncrushing bill,\ncactus-seed eater",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for vegetarian finch and supporting the answer. Acceptable responses include, but are not limited to: \u2014 The environment had fewer trees and insects; the vegetarian finch doesn\u2019t live on trees and eats seeds. \u2014 There are few trees or insects on the island. The vegetarian finch does not require either; the other finches do."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Identify the finch in the diagram most likely to compete with the mangrove finch. Support your answer. LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2025/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the diagram below and on your knowledge of biology. The \ndiagram illustrates different finch species living in a certain area.\nWarbler finch: probing \nbill, insect eater, feeds \nin trees\nWoodpecker finch: probing \nbill,insect eater, uses twig or \ncactus spine to remove\ninsects from cactus\nMangrove finch: \ngrasping bill, insect \neater, feeds in trees\nVegetarian finch:\ncrushing bill,\ncactus-seed eater",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for warbler finch and supporting the answer. Acceptable responses include, but are not limited to: \u2014 the warbler finch, because they both eat insects in trees \u2014 warbler finch, since they eat the same thing in the same place \u2014 the warbler finch, because it also feeds in trees \u2014 warbler finch, because they have the same niche Living Environment Rating Guide \u2013 June \u2019"
+    }
+  ]
+}

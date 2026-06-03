@@ -1,0 +1,491 @@
+{
+  "subject": "algebra-2",
+  "session": "january-2026",
+  "questions": [
+    {
+      "number": 1,
+      "type": "written",
+      "text": "The value of t in the equation 27 6 2 t 5 9 t 2 1 is (1) 7",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "2",
+      "choices": [
+        "(x 2 2)(x 2 1)",
+        "(x 1 2)(x 2 3)",
+        "(x 2 10)(x 2 5)",
+        "(x 2 6)(x 2 7)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Researchers wanted to determine if listening to classical music can reduce math anxiety. They divided 100 students randomly into two groups and put them in identical rooms. Both groups completed a math test and a survey rating their level of math anxiety. One group then listened to classical music for 10 minutes while the other group sat quietly. Both groups then took another math test, rated their level of math anxiety, and the researchers compared their results. Is this an observational study or an experiment?",
+      "choices": [
+        "It is an observational study because the participants completed a survey about math anxiety.",
+        "It is an observational study because the researchers watched the participants take math tests.",
+        "It is an experiment because one group was randomly assigned to listen to classical music while the other group was not.",
+        "It is an experiment because the participants took a math test."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2026/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "5",
+      "choices": [
+        "h(t) 5 1.9cos( 6 \u03c0 t) 1 1.5",
+        "h(t) 5 1.5cos( 6 \u03c0 t) 1 1.9",
+        "h(t) 5 1.9cos(12 \u03c0 t) 1 1.5",
+        "h(t) 5 1.5cos(12 \u03c0 t) 1 1.9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The solutions to 3x2 2 4x 1 2 5 0 are",
+      "choices": [
+        "x 5 3 3 2 2 6 i",
+        "x 5 3 3 10 2 6",
+        "x 5 3 3 2 2 6",
+        "x 5 3 3 10 2 6"
+      ],
+      "image": "/images/exams/algebra-2/january-2026/q6.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The value of sin( 2\u03c0 3 ) is equivalent to",
+      "choices": [
+        "sin( 4\u03c0 3 )",
+        "cos( \u03c0 6)",
+        "tan( \u03c0 3)",
+        "csc( 2\u03c0 3 )"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Given f 21(x) 5 4x 1 1 3 , which function represents f (x)?",
+      "choices": [
+        "f (x) 5 x 2 1 3 1 4",
+        "f (x) 5 (4x 1 1)3",
+        "f (x) 5 1 4(x3 2 1)",
+        "f (x) 5 x3 4 2 1"
+      ],
+      "image": "/images/exams/algebra-2/january-2026/q8.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "In order for a school to purchase graduation gowns, the heights of all of the high school seniors are recorded. The heights are approximately normally distributed with a mean of 64.7 inches and a standard deviation of 4.267 inches. If a senior is selected at random, what is the probability that this student has a height that falls between 65 and 68 inches?",
+      "choices": [
+        "0.085",
+        "0.177",
+        "0.252",
+        "0.271"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Consider the system of equations below. (x 1 1)2 1 (y 2 4)2 5 9 x 5 2 The x-value and y-value of the solution of the system are",
+      "choices": [
+        "one rational and one imaginary",
+        "both rational",
+        "one rational and one irrational",
+        "both irrational"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which expressions are equivalent to 36x4 2 9x2? I. x2(6x 1 3)(6x 2 3) III. 9(2x2 1 x)(2x2 2 x) II. 36(x2 2 1 2)(x2 1 1 2) IV. 36x2(x 2 1 2)(x 1 1 2)",
+      "choices": [
+        "I and II, only",
+        "I and III, only",
+        "I, II, and III, only",
+        "I, III, and IV, only"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A deposit of $1250 is made into a savings account that earns 1.86% annual interest. The amount in this account at any time, t, in years, is modeled by A(t) 5 1250(1.0186)t. Which expression best models the equivalent monthly growth of the account?",
+      "choices": [
+        "1250(0.001550)t",
+        "1250(0.001550) t 12",
+        "1250(1.001537)12t",
+        "1250(1.001537) t 12"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which graph represents a function that has a remainder of zero when divided by (x 2 4)?",
+      "choices": [
+        "y y x x",
+        "y y x x",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/january-2026/q13.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Given a . 0, which expression is equivalent to a 3 a a2 5 \u2022 ?",
+      "choices": [
+        "a 2 13",
+        "a 7 30",
+        "a 4 15",
+        "a 7 3"
+      ],
+      "image": "/images/exams/algebra-2/january-2026/q14.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which function could represent the sketch below, where a, b, c, and d are all greater than zero? f(x) x b c 2 2a d",
+      "choices": [
+        "f (x) 5 2(x 1 a)(cx 1 b)(x 2 d)2",
+        "f (x) 5 2(x 1 a)(bx 1 c)(2x 2 d)",
+        "f (x) 5 2(x 2 a)(cx 2 b)(x 1 d)2",
+        "f (x) 5 2(x 2 a)(bx 2 c)(2x 1 d)"
+      ],
+      "image": "/images/exams/algebra-2/january-2026/q15.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Before leaving for summer vacation, 447 students at a high school were asked whether or not they had a job for the summer. The results of the survey, broken down by the students\u2019 averages, are shown in the table below. Below 70% 70%\u201379% 80%\u201389% 90%\u2013100% Has a Job 35 73 78 52 Does Not Have a Job 42 62 70 35 The probability that a student has a job, given that the student\u2019s average is between 90% and 100%, rounded to the nearest hundredth, is",
+      "choices": [
+        "0.11",
+        "0.12",
+        "0.59",
+        "0.60"
+      ],
+      "image": "/images/exams/algebra-2/january-2026/q16.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The expression 3x3 2 4x2 2 17x 1 6 3x 2 1 , where x ? 1 3 , is equivalent to",
+      "choices": [
+        "(x 1 3)(x 2 2)",
+        "(x 2 3)(x 1 2)",
+        "(x 2 3)(x 2 2)",
+        "x2 2 x 2 6 1 12 3x 2 1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Three students put their first steps to solve the equation x2 2 4x 5 9 on the board at school. x2 2 4x 5 9 x 2 2x 5 3 Max x2 2 4x x2 2 4x 1 4 5 9 1 4 5 9 Gus x(x 2 4) 5 9 x 5 9 x 2 4 5 9 Rosie Correct steps are shown for",
+      "choices": [
+        "Max, only",
+        "Gus, only",
+        "Max and Rosie, only",
+        "Gus and Rosie, only"
+      ],
+      "image": "/images/exams/algebra-2/january-2026/q18.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The average depreciation rate of a laptop is approximately 33.3% each year. If Garrett purchased a new laptop for $700, which recursive formula represents the value of his laptop n years after it was purchased?",
+      "choices": [
+        "a0 5 700",
+        "a0 5 700",
+        "an 5 700(0.667)n 2 1 an 5 an 2 1(0.667)",
+        "an 5 700(0.333)n 2 1 an 5 an 2 1(0.333)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Given that the directrix of a parabola is y 5 7 and its focus is 6 units vertically away from it, the vertex of this parabola could be the point",
+      "choices": [
+        "(5,13)",
+        "(2,1)",
+        "(3,10)",
+        "(4,6)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "How many values of x satisfy the equation x x 2 1 5 2|2x 2 3| 1 5?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The tangent of an angle in standard position that terminates in Quadrant II is 2 6 . What is the cosine of this angle?",
+      "choices": [
+        "1 6",
+        "2 7",
+        "2 1 37",
+        "1 2 7"
+      ],
+      "image": "/images/exams/algebra-2/january-2026/q22.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Miranda joins a gym and pays an annual membership of $400. Due to rising costs, the gym operator has told her the membership will increase 8% each year after the first year. How much will Miranda have paid in total, to the nearest dollar, if she is a member for 6 years?",
+      "choices": [
+        "635",
+        "2592",
+        "2934",
+        "4320"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Ms. Miles observed slides of bacteria under a microscope. She found that over a specific amount of time, t, in hours, the population was growing. She graphed the results of the population, p(t), in thousands, of the bacteria over time on the graph below. p(t) t 1 2 1 (0.25,4.76) (0.75,6.72) (1.5,11.31) Assuming exponential growth, which statement is true?",
+      "choices": [
+        "The population can be modeled by p(t) 5 2",
+        "The population can be modeled by p(t) 5 3.92 t 1 3.78.",
+        "The population approximately doubled every hour.",
+        "Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/algebra-2/january-2026/q24.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "The number of people at a concert t hours after the doors open can be modeled by the equation B(t) 5 250(1.8)t. Determine how much time, to the nearest hundredth of an hour, must pass before the number of people reaches 2000",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "On a day in June 2017 on Staten Island, the function T(h) 5 8sin(12 \u03c0 h) 1 82 was used to model the temperature, T, in degrees Fahrenheit, h hours after 9 a.m. State the value of T(6)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "The Chart for Determining the Final Examination Score for the January 2026 https://www.nysed.gov/state-assessment/high-school-regents-examinations on the day of the examination. Conversion charts provided for previous administrations of the scores for this administration. Online Submission of Teacher Evaluations of the Test to the Department Suggestions and feedback from teachers provide an important contribution to the test development process. The Department provides an online evaluation form for State assessments. It contains spaces for teachers to respond to several specific questions and to make suggestions. Instructions for completing the evaluation form are as follows: 1. Go to https://www.nysed.gov/state-assessment/teacher-feedback-state-assessments. 2. Click Regents Examinations. 3. Complete the required demographic fields. 4. Select the test title from the Regents Examination dropdown list. 5. Complete each evaluation question and provide comments in the space provided. 6. Click the SUBMIT button at the bottom of the page to submit the completed form."
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Use properties of exponents to show why (264) 2 3 5 16",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Graph y 5 2x 2 2",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2026/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "30",
+      "choices": [
+        "The population can be modeled by p(t) 5 2",
+        "The population can be modeled by p(t) 5 3.92 t 1 3.78.",
+        "The population approximately doubled every hour.",
+        "Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. 25 The number of people at a concert t hours after the doors open can be modeled by the equation B(t) 5 250(1.8)t. Determine how much time, to the nearest hundredth of an hour, must pass before the number of people reaches 2000 26 On a day in June 2017 on Staten Island, the function T(h) 5 8sin(12 \u03c0 h) 1 82 was used to model the temperature, T, in degrees Fahrenheit, h hours after 9 a.m. State the value of T(6) 27 Use properties of exponents to show why (264) 2 3 5 16 28 Graph y 5 2x 2 2 29 In a survey of students at a large high school, 58% speak English fluently, 24% speak Mandarin fluently, and 16% 30 The following table represents the number of years after 1980, x, and the median value of a home in the United States in thousands of dollars, y. x 1 10 20 30 40 y 59.07 97.02 131.6 180.7 269.2 Based on these data, write an exponential regression equation to model the median home value, in thousands of dollars, x years after 1980"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Solve algebraically for all values of x that satisfy the equation below. 24 x2 1 4x x x 1 4 5 x 1 5",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Express i(x 1 i) 2 (x 2 i)2 in simplest a 1 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "On a high school basketball team, Alex typically makes 60% of his free throws. In the last four minutes of the game, Alex took 10 free throws and made 30% of them. Fans were saying he missed on purpose. A simulation was run of sample size 10, simulated 200 times, based on the premise that 60% of the free throws were made. The approximately normal results are shown below. 50 40 30 20 10 0 0.10 0.20 0.30 0.40 0.50 Proportion of Free Throws Made Frequency 0.60 0.70 0.80 0.90 1.00 Mean = 0.607 SD = 0.157 Based on the simulation, determine an interval containing the middle 95% of simulated values. State your answer to three decimal places. Do the fans have a valid argument?",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2026/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The breakdown of a drug is modeled by A(t) 5 A0e2rt, where A(t) is the amount of the drug in the body, A0 is the initial dosage, r is the rate of decay, and t is the time in hours. A patient is given 450 mg of a drug that has a decay rate of 0.205. Write a function, A(t), to model the amount of the drug remaining in the body after t hours. The sketch below shows the function R(t), which models the breakdown of a different drug administered to the same patient. Graph A(t) on the grid below. 0 t y R(t) 600 10 Using the graph,",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2026/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Consider the sinusoidal function below. d(t) 5 6800cos( 4 3 p t) 1 6400 State the maximum value of d(t). State the period of d(t). Determine the average rate of change from 3 4 # t # 2",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Solve algebraically for all values of m: m 2 2 4m 2 3 5 3 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2026/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Xander and Yvette are each practicing for their road tests. Xander decides to drive for 15 minutes the first day and plans to increase the amount of time he spends driving by five minutes each day leading up to the day of his test. Yvette decides to drive for 10 minutes the first day, and she plans to increase the amount of time she spends driving by 15% each day leading up to the day of her test. State whose plan for the amount of time driving per day can be modeled by an arithmetic sequence, and whose plan can be modeled by a geometric sequence. Explain your reasoning. Write an equation for xn that represents the amount of time spent driving on the nth day for Xander\u2019s plan and an equation for yn that represents the amount of time spent driving on the nth day for Yvette\u2019s plan. Who will spend more time driving on the 19th day of practicing? Justify your answer. Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 pr2 Circle C 5 pd or C 5 2pr General Prisms V 5 Bh Cylinder V 5 pr2h Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 pr2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u2260 1 Radians 1 radian 5 180 ___ p degrees Degrees 1 degree 5 p ___ 180 radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

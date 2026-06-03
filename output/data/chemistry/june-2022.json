@@ -1,0 +1,1106 @@
+{
+  "subject": "chemistry",
+  "session": "june-2022",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which subatomic particles are matched with their charges?",
+      "choices": [
+        "Protons are positive and neutrons are negative.",
+        "Protons are positive and electrons are negative.",
+        "Protons are negative and neutrons have no charge.",
+        "Protons are negative and electrons have no charge."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which conclusion directly resulted from the \u201cgold foil experiment\u201d?",
+      "choices": [
+        "Atoms are mostly empty space.",
+        "Atoms are hard, indivisible spheres.",
+        "Electrons are located in shells.",
+        "Electrons have a small mass."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The bright-line spectrum of an element is produced when excited-state electrons",
+      "choices": [
+        "absorb energy and move to higher energy states",
+        "absorb energy and move to lower energy states",
+        "release energy and move to higher energy states",
+        "release energy and move to lower energy states"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The elements on the Periodic Table of the Elements are arranged in order of increasing",
+      "choices": [
+        "atomic mass",
+        "atomic number",
+        "mass number",
+        "oxidation state"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Atoms of which element in Group 15 have the greatest electronegativity?",
+      "choices": [
+        "As",
+        "Bi",
+        "N",
+        "P"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which term represents the simplest whole- number ratio of atoms of the elements in a compound?",
+      "choices": [
+        "atomic mass",
+        "formula mass",
+        "empirical formula",
+        "structural formula"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "How many electrons are shared in a triple bond between two atoms?",
+      "choices": [
+        "6",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: Cl2 \u2192 Cl \u0002 Cl What occurs during this reaction?",
+      "choices": [
+        "Energy is released as a bond is broken.",
+        "Energy is released as a bond is formed.",
+        "Energy is absorbed as a bond is broken.",
+        "Energy is absorbed as a bond is formed."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Krypton atoms in the ground state tend not to bond with other atoms because their",
+      "choices": [
+        "second electron shell contains eight electrons",
+        "third electron shell contains eighteen electrons",
+        "innermost electron shell contains two electrons",
+        "outermost electron shell contains eight electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "All matter can be classi\ufb01 ed as",
+      "choices": [
+        "an element",
+        "a compound",
+        "a mixture or an element",
+        "a mixture or a substance"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which sample at STP has the same chemical properties as 10. grams of Al(s) at STP?",
+      "choices": [
+        "10. grams of Si(s)",
+        "10. grams of Na(s)",
+        "5 grams of Al(s)",
+        "5 grams of Mg(s)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which sample of matter can not be broken down by a chemical change?",
+      "choices": [
+        "antimony",
+        "ethanol",
+        "methane",
+        "water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Based on Table F, which 10.-gram sample, when thoroughly mixed with 1 liter of water at room temperature, forms a heterogeneous mixture?",
+      "choices": [
+        "ammonium chloride, NH4Cl",
+        "potassium iodide, KI",
+        "silver bromide, AgBr",
+        "sodium nitrate, NaNO3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Compared to a 1.0 M NaCl(aq) solution at 1.0 atm, a 2.0 M NaCl(aq) solution at 1.0 atm has",
+      "choices": [
+        "a lower boiling point and a lower freezing point",
+        "a lower boiling point and a higher freezing point",
+        "a higher boiling point and a lower freezing point",
+        "a higher boiling point and a higher freezing point"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which list includes three forms of energy?",
+      "choices": [
+        "temperature, chemical, thermal",
+        "temperature, thermal, alkalinity",
+        "electromagnetic, nuclear, chemical",
+        "electromagnetic, alkalinity, nuclear"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Under which conditions of pressure and temperature is a real gas most like an ideal gas?",
+      "choices": [
+        "low pressure and low temperature",
+        "low pressure and high temperature",
+        "high pressure and low temperature",
+        "high pressure and high temperature"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which sample of argon gas has the same number of atoms as a 100.-milliliter sample of helium gas at 1.0 atm and 300. K?",
+      "choices": [
+        "50. mL at 1.0 atm and 300. K",
+        "50. mL at 0.5 atm and 300. K",
+        "100. mL at 0.5 atm and 300. K",
+        "100. mL at 1.0 atm and 300. K"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which process is a chemical change?",
+      "choices": [
+        "condensation of H2O(g)",
+        "synthesis of MgO(s)",
+        "evaporation of C2H5OH(\u0002)",
+        "sublimation of CO2(s)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which property is determined by the structure, arrangement, and interactions of the molecules of a substance at a given temperature and pressure?",
+      "choices": [
+        "atomic radius",
+        "half-life",
+        "formula mass",
+        "physical state"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A collision between reactant particles is most likely to result in a reaction when the particles have proper orientation and proper",
+      "choices": [
+        "charge",
+        "energy",
+        "mass",
+        "radius"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a system at equilibrium: 2NO2(g) \u21cc N2O4(g) Which statement describes this reaction at equilibrium?",
+      "choices": [
+        "The concentration of the reactant and the product must be equal.",
+        "The concentration of the reactant and the product must be constant.",
+        "The rates of the forward and reverse reactions are increasing.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which phrase describes the effect of adding a catalyst to a chemical reaction in order to increase the reaction rate?",
+      "choices": [
+        "provides a different reaction pathway with a lower activation energy",
+        "provides a different reaction pathway with a higher activation energy",
+        "uses the same reaction pathway with a higher activation energy",
+        "uses the same reaction pathway with a lower activation energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Systems in nature tend to undergo changes toward",
+      "choices": [
+        "lower energy and less disorder",
+        "lower energy and greater disorder",
+        "higher energy and less disorder",
+        "higher energy and greater disorder"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which element must be present in an organic compound?",
+      "choices": [
+        "carbon",
+        "sulfur",
+        "nitrogen",
+        "oxygen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which formula represents a saturated hydro- carbon?",
+      "choices": [
+        "C2H2",
+        "C2H4",
+        "C6H10",
+        "C6H14"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which reaction occurs at the anode in an electrochemical cell?",
+      "choices": [
+        "saponi\ufb01 cation",
+        "oxidation",
+        "esteri\ufb01 cation",
+        "reduction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which statement describes the two types of reactions that occur in operating electrochemical cells?",
+      "choices": [
+        "Nonspontaneous reactions occur in voltaic cells, and spontaneous reactions occur in electrolytic cells.",
+        "Nonspontaneous reactions occur in electrolytic cells, and nonspontaneous reactions occur in voltaic cells.",
+        "Spontaneous reactions occur in voltaic cells, and nonspontaneous reactions occur in electrolytic cells.",
+        "Spontaneous reactions occur in electrolytic cells, and spontaneous reactions occur in voltaic cells."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which term describes an acid according to one acid-base theory?",
+      "choices": [
+        "H\u0002 acceptor",
+        "H\u0002 donor",
+        "H2 acceptor",
+        "H2 donor"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which emission will be released from an unstable Fe-53 nucleus?",
+      "choices": [
+        "an alpha particle",
+        "a beta particle",
+        "a positron",
+        "a proton"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "What is a potential risk associated with radioactive isotopes?",
+      "choices": [
+        "biological exposure",
+        "curing of diseases",
+        "industrial measurements",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which electron con\ufb01 guration represents the electrons of a phosphorus atom in an excited state?",
+      "choices": [
+        "2\u00038\u00035",
+        "2\u00038\u00036",
+        "2\u00037\u00036",
+        "2\u00037\u00034"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "A 26.7-gram sample of which element has a volume of 3.00 cubic centimeters at room temperature?",
+      "choices": [
+        "Cr",
+        "Cd",
+        "Nb",
+        "Ni"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which element is a nonmetal and solid at STP?",
+      "choices": [
+        "lead",
+        "nitrogen",
+        "sodium",
+        "sulfur"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "What is the molecular formula for CH3CH2COOCH3?",
+      "choices": [
+        "C2H4O",
+        "C2H4O2",
+        "C4H8O",
+        "C4H8O2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "A substance conducts electricity in the liquid phase but not in the solid phase. This substance can be classi\ufb01 ed as",
+      "choices": [
+        "covalent",
+        "ionic",
+        "metallic",
+        "molecular"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "A student measured the melting point of a sample of gallium to be 309 K. Based on Table S, which numerical setup can be used to calculate the student\u2019s percent error?",
+      "choices": [
+        "\u0004 309K \u2013 303K 303K 100",
+        "\u0004 309K \u2013 303K 309K 100",
+        "\u0004 303K 309K 100",
+        "\u0004 309K 303K 100"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which chemical bond is most polar?",
+      "choices": [
+        "a O\u2013H bond in H2O",
+        "a S\u2013H bond in H2S",
+        "a Se\u2013H bond in H2Se",
+        "a Te\u2013H bond in H2Te"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "What is the amount of heat required to melt 43 grams of solid magnesium oxide at its melting point? The heat of fusion is 1.9 \u0004 103 J/g.",
+      "choices": [
+        "2.3 \u0004 10\u00032 J",
+        "4.4 \u0004 101 J",
+        "8.2 \u0004 104 J",
+        "3.4 \u0004 105 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Given the diagram of a laboratory apparatus: Thermometer Glass tubing Water out Rubber stopper Salt water 125-mL Florence flask Hot plate Condenser Cork stopper Water Beaker Water in This apparatus is used for which process?",
+      "choices": [
+        "\ufb01 ltration",
+        "distillation",
+        "chromatography",
+        "electrolysis"
+      ],
+      "image": "/images/exams/chemistry/june-2022/q39.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Solid aluminum has a speci\ufb01 c heat capacity of 0.90 J/g\u2022K. How many joules of heat are absorbed to raise the temperature of 24.0 grams of aluminum from 300. K to 350. K?",
+      "choices": [
+        "22 J",
+        "45 J",
+        "1100 J",
+        "1200 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Based on Table G, which solute sample in 100.g of water at 40.\u00b0C can produce a solution equilibrium in a closed system?",
+      "choices": [
+        "10. g KClO3",
+        "25 g NaCl",
+        "45 g KCl",
+        "55 g KNO3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a system at equilibrium: 2SO2(g) \u0002 O2(g) \u21cc 2SO3(g) \u0002 energy Which change favors the forward reaction?",
+      "choices": [
+        "increasing the concentration of O2(g)",
+        "increasing the temperature",
+        "decreasing the pressure",
+        "decreasing the concentration of SO2(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "When ice, H2O(s), melts at 0\u00b0C, entropy increases because the",
+      "choices": [
+        "average kinetic energy of the particles increases",
+        "average kinetic energy of the particles decreases",
+        "particle arrangement is more random",
+        "particle arrangement is less random"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "At STP, propanal and propanone have different chemical properties due to their different",
+      "choices": [
+        "molecular masses",
+        "empirical formulas",
+        "percent compositions",
+        "functional groups"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Given the formula for a compound: H C C C H H H H H H C C H H C H H H H H C H H C H H What is the IUPAC name of the compound?",
+      "choices": [
+        "2,3-dimethyloctane",
+        "2,3-dimethylhexane",
+        "4,5-dimethyloctane",
+        "4,5-dimethylhexane"
+      ],
+      "image": "/images/exams/chemistry/june-2022/q45.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Given the formula representing a compound: H H C O C N H H H This compound is classi\ufb01 ed as an",
+      "choices": [
+        "amide",
+        "amine",
+        "ester",
+        "ether"
+      ],
+      "image": "/images/exams/chemistry/june-2022/q46.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which substance is an electrolyte?",
+      "choices": [
+        "H2",
+        "HCl",
+        "C6H14",
+        "C6H12O6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "An indicator is added to an aqueous solution with a pH value of 5.6. Which indicator is paired with its observed color in this solution?",
+      "choices": [
+        "Methyl orange is yellow.",
+        "Phenolphthalein is pink.",
+        "Bromcresol green is yellow.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Solution A has a pH value of 2.0 and solution B has a pH value of 4.0. How many times greater is the hydronium ion concentration in solution A than the hydronium ion concentration in solution B?",
+      "choices": [
+        "10",
+        "2",
+        "100",
+        "4"
+      ],
+      "image": "/images/exams/chemistry/june-2022/q49.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which net change occurs in both nuclear \ufb01 ssion and nuclear fusion reactions?",
+      "choices": [
+        "Mass is converted to energy.",
+        "Energy is converted to mass.",
+        "Small nuclei form a larger nucleus.",
+        ""
+      ],
+      "image": "/images/exams/chemistry/june-2022/q50.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State the number of electrons in an atom of Li-7.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2022/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nThe two naturally occuring isotopes of lithium are Li-6 and Li-7. The table below shows \nthe atomic mass and percent natural abundance for these isotopes.\nNaturally Occurring Isotopes of Lithium\nIsotope\nAtomic\nMass \n(u)\nNatural\nAbundance\n(%)\nLi-6\n6.015\n7.59\nLi-7\n7.016\n92.41",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 3 or three."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Compare the energy of an electron in the \ufb01 rst shell of a lithium atom to the energy of an electron in the second shell of the same atom.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2022/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nThe two naturally occuring isotopes of lithium are Li-6 and Li-7. The table below shows \nthe atomic mass and percent natural abundance for these isotopes.\nNaturally Occurring Isotopes of Lithium\nIsotope\nAtomic\nMass \n(u)\nNatural\nAbundance\n(%)\nLi-6\n6.015\n7.59\nLi-7\n7.016\n92.41",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The energy of an electron in the first shell is less than the energy of an electron in the second shell. The second shell electron has greater energy."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "53",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2022/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nThe two naturally occuring isotopes of lithium are Li-6 and Li-7. The table below shows \nthe atomic mass and percent natural abundance for these isotopes.\nNaturally Occurring Isotopes of Lithium\nIsotope\nAtomic\nMass \n(u)\nNatural\nAbundance\n(%)\nLi-6\n6.015\n7.59\nLi-7\n7.016\n92.41",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: (6.015 u)(0.0759) \u0002 (7.016 u)(0.9241) (7.59%)(6.015) \u0002 (92.41%)(7.016) Note: Do not allow credit for a numerical setup using mass numbers rather than isotopic masses."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "State the general trend for the atomic radius of the \ufb01 rst seven elements in Period 3 when considered in order from left to right.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2022/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of chemistry.\nThe graph below represents the atomic radii of the elements in Period 3 on the Periodic \nTable of the Elements.\nAtomic Radii of\nPeriod 3 Elements\nRadius (pm)\nElement\nNa\nMg\n90.\n130.\n100.\n120.\n170.\n110.\n140.\n150.\n160.\nAl\nSi\nP\nS\nCl\nAr",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: From left to right in Period 3, the atomic radius generally decreases. The atomic radius decreases from Na to Cl across Period 3. Radii decrease."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "State, in terms of valence electrons, why aluminum and sulfur have different chemical properties.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2022/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of chemistry.\nThe graph below represents the atomic radii of the elements in Period 3 on the Periodic \nTable of the Elements.\nAtomic Radii of\nPeriod 3 Elements\nRadius (pm)\nElement\nNa\nMg\n90.\n130.\n100.\n120.\n170.\n110.\n140.\n150.\n160.\nAl\nSi\nP\nS\nCl\nAr",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Aluminum atoms and sulfur atoms have a different number of outermost shell electrons per atom. An Al atom has 3 valence electrons and an S atom has 6 valence electrons. Aluminum tends to lose valence electrons and sulfur tends to gain valence electrons. Aluminum tends to transfer valence electrons while sulfur tends to share valence electrons."
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify the element in Period 3 that reacts with oxygen to form an ionic compound represented by X in the formula X2O.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2022/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of chemistry.\nThe graph below represents the atomic radii of the elements in Period 3 on the Periodic \nTable of the Elements.\nAtomic Radii of\nPeriod 3 Elements\nRadius (pm)\nElement\nNa\nMg\n90.\n130.\n100.\n120.\n170.\n110.\n140.\n150.\n160.\nAl\nSi\nP\nS\nCl\nAr",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Na or sodium. \u0002 (7.59)(6.015) (92.41)(7.016) 100 P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "State, in terms of electrons, why the radius of a Be2\u0002 ion is smaller than the radius of a Be atom.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 and 58 on the information below and on your knowledge of chemistry.\nLithium, beryllium, boron, and \ufb02 uorine are four elements in Period 2 on the Periodic \nTable.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: A Be2\u0002 ion is smaller because it has only 1 shell of electrons and a Be atom has 2 shells of electrons. The Be atom has 4 electrons and the Be2\u0002 ion has 2 electrons. A Be2\u0002 ion forms when the Be atom loses 2 electrons. A beryllium ion has two fewer electrons. Note: Do not allow credit for a response indicating that the Be2\u0002 ion lost electrons."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "58",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 and 58 on the information below and on your knowledge of chemistry.\nLithium, beryllium, boron, and \ufb02 uorine are four elements in Period 2 on the Periodic \nTable.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. The positions of the electrons may vary. Examples of 1 credit responses:"
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Explain, in terms of molecular formulas and structural formulas, why 1-butene is an isomer of 2-butene.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2022/context_59_60.png",
+      "context": "Base your answers to questions 59 and 60 on the information below and on your knowledge of chemistry.\nThe incomplete equation below represents a reaction between 2-butene and hydrogen \nin the presence of a catalyst, producing one compound, X.\nH\nC\nC\nC\nH\nH\nH\nH\nC\nH\nH\nH\nH2\nX\ncatalyst",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The molecular formulas for the two compounds are the same, but the structural formulas are different. Both molecules have the same number of C atoms and the same number of H atoms, but have a different arrangement of atoms. Both compounds are C4H8, but have different structures. Both compounds are C4H8, but one has the double bond on an end carbon, and the other compound has the double bond between the middle carbons."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Draw a structural formula for the missing product, X, in the equation.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2022/context_59_60.png",
+      "context": "Base your answers to questions 59 and 60 on the information below and on your knowledge of chemistry.\nThe incomplete equation below represents a reaction between 2-butene and hydrogen \nin the presence of a catalyst, producing one compound, X.\nH\nC\nC\nC\nH\nH\nH\nH\nC\nH\nH\nH\nH2\nX\ncatalyst",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Examples of 1-credit reponses. Note: Do not allow credit if only some of the H atoms bonded to C atoms are shown. B B B H C C C H H H H H H C H H H C C C C P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State the number of signi\ufb01 cant \ufb01 gures used to express the volume of the HCl(aq) solution.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 65 on the information below and on your knowledge of chemistry.\nIn a titration using a pH meter, 16.0 milliliters of 0.18 M NaOH(aq) exactly neutralizes \na 24.0-milliliter sample of HCl(aq) in a \ufb02 ask. During this laboratory activity, appropriate \nsafety equipment was used and safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 3 or three."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify the negative ion in the NaOH(aq) used in the titration.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 65 on the information below and on your knowledge of chemistry.\nIn a titration using a pH meter, 16.0 milliliters of 0.18 M NaOH(aq) exactly neutralizes \na 24.0-milliliter sample of HCl(aq) in a \ufb02 ask. During this laboratory activity, appropriate \nsafety equipment was used and safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for OH\u0003 or hydroxide or hydroxide ion. Note: Do not allow credit for OH or hydroxyl or hydroxyl ion."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Compare the number of moles of hydronium ions to the number of moles of hydroxide ions in the titration mixture when the HCl(aq) is exactly neutralized by the NaOH(aq).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 65 on the information below and on your knowledge of chemistry.\nIn a titration using a pH meter, 16.0 milliliters of 0.18 M NaOH(aq) exactly neutralizes \na 24.0-milliliter sample of HCl(aq) in a \ufb02 ask. During this laboratory activity, appropriate \nsafety equipment was used and safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The number of hydronium ions is the same as the number of hydroxide ions. The number of moles of H3O\u0002(aq) ions equals the number of moles of OH\u0003(aq) ions. moles of H\u0002 \u0004 moles of OH\u0003 equal same"
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Complete the equation in your answer booklet for the neutralization reaction by writing a formula for each product.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 65 on the information below and on your knowledge of chemistry.\nIn a titration using a pH meter, 16.0 milliliters of 0.18 M NaOH(aq) exactly neutralizes \na 24.0-milliliter sample of HCl(aq) in a \ufb02 ask. During this laboratory activity, appropriate \nsafety equipment was used and safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: NaCl(aq) \u0002 H2O(\u0002) HOH \u0002 NaCl"
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Determine the molarity of the HCl(aq)",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 65 on the information below and on your knowledge of chemistry.\nIn a titration using a pH meter, 16.0 milliliters of 0.18 M NaOH(aq) exactly neutralizes \na 24.0-milliliter sample of HCl(aq) in a \ufb02 ask. During this laboratory activity, appropriate \nsafety equipment was used and safety procedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0.12 M or .12M. Part C Allow a total of 20 credits for this part. The student must answer all questions in this part."
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the number of moles of oxygen gas required for the average person per day. The gram-formula mass of O2(g) is 32 g/mol.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of chemistry.\nAn average person on board the International Space Station (ISS) requires 840 grams of \noxygen per day. To produce the oxygen needed on the ISS, water undergoes an electrolysis \nreaction. The oxygen produced is vented into the ISS cabin, and the hydrogen is vented into \nouter space. The reaction is represented by the balanced equation below.\n2H2O(\u0002) \u0002 energy \u2192 2H2(g) \u0002 O2(g)\nSome gases in the ISS must be removed from the air the astronauts breathe. Carbon dioxide \ncan be removed using solid lithium hydroxide.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to:"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "State the change in oxidation number for oxygen during the electrolysis reaction represented by the equation.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of chemistry.\nAn average person on board the International Space Station (ISS) requires 840 grams of \noxygen per day. To produce the oxygen needed on the ISS, water undergoes an electrolysis \nreaction. The oxygen produced is vented into the ISS cabin, and the hydrogen is vented into \nouter space. The reaction is represented by the balanced equation below.\n2H2O(\u0002) \u0002 energy \u2192 2H2(g) \u0002 O2(g)\nSome gases in the ISS must be removed from the air the astronauts breathe. Carbon dioxide \ncan be removed using solid lithium hydroxide.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: From \u00032 to 0 From 2\u0003 to 0 From negative two to zero Note: Do not allow credit for the 2 without a minus sign (\u0003)."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Determine the number of moles of oxygen vented into the cabin when 120 moles of water undergoes electrolysis.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of chemistry.\nAn average person on board the International Space Station (ISS) requires 840 grams of \noxygen per day. To produce the oxygen needed on the ISS, water undergoes an electrolysis \nreaction. The oxygen produced is vented into the ISS cabin, and the hydrogen is vented into \nouter space. The reaction is represented by the balanced equation below.\n2H2O(\u0002) \u0002 energy \u2192 2H2(g) \u0002 O2(g)\nSome gases in the ISS must be removed from the air the astronauts breathe. Carbon dioxide \ncan be removed using solid lithium hydroxide.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 60. mol or 60 mol."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Determine the percent composition by mass of hydrogen in water.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of chemistry.\nAn average person on board the International Space Station (ISS) requires 840 grams of \noxygen per day. To produce the oxygen needed on the ISS, water undergoes an electrolysis \nreaction. The oxygen produced is vented into the ISS cabin, and the hydrogen is vented into \nouter space. The reaction is represented by the balanced equation below.\n2H2O(\u0002) \u0002 energy \u2192 2H2(g) \u0002 O2(g)\nSome gases in the ISS must be removed from the air the astronauts breathe. Carbon dioxide \ncan be removed using solid lithium hydroxide.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 11% or any value from 11% to 11.223%, inclusive."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Balance the equation for the reaction between LiOH and CO2 in your answer booklet, using the smallest whole-number coef\ufb01",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of chemistry.\nAn average person on board the International Space Station (ISS) requires 840 grams of \noxygen per day. To produce the oxygen needed on the ISS, water undergoes an electrolysis \nreaction. The oxygen produced is vented into the ISS cabin, and the hydrogen is vented into \nouter space. The reaction is represented by the balanced equation below.\n2H2O(\u0002) \u0002 energy \u2192 2H2(g) \u0002 O2(g)\nSome gases in the ISS must be removed from the air the astronauts breathe. Carbon dioxide \ncan be removed using solid lithium hydroxide.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 2 LiOH \u0002 CO2 \u2192 Li2CO3 \u0002 H2O Allow credit even if the coefficient \u201c1\u201d is written in front of CO2, Li2CO3 and/or H2O. 840 g 32 g/mol 840g 1mol 32 g \u0005 x 32 g 1mol 840 g \u0004 840 32 P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Determine the parts per million of CaCO3 in the tap water sample.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 71 through 73 on the information below and on your knowledge of chemistry.\nOne sample of tap water contains dissolved ions such as Ca2\u0002(aq), Mg2\u0002(aq), and \nCO32\u0003(aq). A 150.-gram sample of this tap water contains 0.000 75 gram of CaCO3(aq). \nWhen these ions in the tap water are present in greater concentrations, the water is called \nhard water. The hard water can damage water pipes and water heaters by producing large \ndeposits of solid calcium carbonate, known as scale. Some homeowners have a water \nsoftener to replace positive ions, such as Ca2\u0002(aq) and Mg2\u0002(aq), in hard water with \nsodium ions, Na\u0002(aq).",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 5.0 ppm or 5 ppm."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "State, in terms of aqueous ions, why this tap water can conduct an electric current.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 71 through 73 on the information below and on your knowledge of chemistry.\nOne sample of tap water contains dissolved ions such as Ca2\u0002(aq), Mg2\u0002(aq), and \nCO32\u0003(aq). A 150.-gram sample of this tap water contains 0.000 75 gram of CaCO3(aq). \nWhen these ions in the tap water are present in greater concentrations, the water is called \nhard water. The hard water can damage water pipes and water heaters by producing large \ndeposits of solid calcium carbonate, known as scale. Some homeowners have a water \nsoftener to replace positive ions, such as Ca2\u0002(aq) and Mg2\u0002(aq), in hard water with \nsodium ions, Na\u0002(aq).",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The water contains Ca2\u0002(aq), Mg2\u0002(aq), and CO3 2\u0003 (aq) that can move. There are mobile ions in the solution. Tap water contains aqueous ions that allow electrical conductivity. The water contains dissolved ions."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Using the key in your answer booklet, draw at least two water molecules in the box, showing the orientation of each water molecule toward the Ca2\u0002 ion.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 71 through 73 on the information below and on your knowledge of chemistry.\nOne sample of tap water contains dissolved ions such as Ca2\u0002(aq), Mg2\u0002(aq), and \nCO32\u0003(aq). A 150.-gram sample of this tap water contains 0.000 75 gram of CaCO3(aq). \nWhen these ions in the tap water are present in greater concentrations, the water is called \nhard water. The hard water can damage water pipes and water heaters by producing large \ndeposits of solid calcium carbonate, known as scale. Some homeowners have a water \nsoftener to replace positive ions, such as Ca2\u0002(aq) and Mg2\u0002(aq), in hard water with \nsodium ions, Na\u0002(aq).",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses must show at least two water molecules. The oxygen atom of each water molecule must face toward the Ca2\u0002 ion. Examples of 1-credit responses:"
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "State evidence, from the equation, that the reaction is exothermic.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 74 through 77 on the information below and on your knowledge of chemistry.\nA 3% hydrogen peroxide solution, H2O2(aq), is commonly used as a disinfectant. \nHydrogen peroxide, H2O2, decomposes as represented by the balanced equation below.\n2H2O2 \u2192 2H2O \u0002 O2 \u0002 heat",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Heat is shown on the product side on the equation. The energy term is on the right side of the equation. Heat is a product. Ca2+ Ca2+ P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Explain, in terms of substances, why the reaction is a decomposition reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 74 through 77 on the information below and on your knowledge of chemistry.\nA 3% hydrogen peroxide solution, H2O2(aq), is commonly used as a disinfectant. \nHydrogen peroxide, H2O2, decomposes as represented by the balanced equation below.\n2H2O2 \u2192 2H2O \u0002 O2 \u0002 heat",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: One substance reacts to become two different substances. A compound becomes a compound and an element."
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "State how increasing the temperature of the H2O2 affects the rate of the reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 74 through 77 on the information below and on your knowledge of chemistry.\nA 3% hydrogen peroxide solution, H2O2(aq), is commonly used as a disinfectant. \nHydrogen peroxide, H2O2, decomposes as represented by the balanced equation below.\n2H2O2 \u2192 2H2O \u0002 O2 \u0002 heat",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The increase in temperature of the reactant will increase the reaction rate. The reaction will happen faster after the temperature increases. higher temperature, faster rate"
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "On the potential energy diagram in your answer booklet, draw a double-headed arrow (\u2195)",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 74 through 77 on the information below and on your knowledge of chemistry.\nA 3% hydrogen peroxide solution, H2O2(aq), is commonly used as a disinfectant. \nHydrogen peroxide, H2O2, decomposes as represented by the balanced equation below.\n2H2O2 \u2192 2H2O \u0002 O2 \u0002 heat",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Examples of 1-credit responses: Note: The double-headed arrow (\u2195) does not need to touch lines, but must be close. Reaction Coordinate Potential Energy Reaction Coordinate Potential Energy P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Identify the subatomic particles that \ufb02 ow through the wire as the cell operates.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2022/context_78_82.png",
+      "context": "Base your answers to questions 78 through 82 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, appropriate safety equipment is used and safety procedures \nare followed. A student constructs a voltaic cell with magnesium and copper electrodes. \nThe diagram and net ionic equation below represent this cell and the reaction that occurs.\nCu(s)\nelectrode\nSalt \nbridge\nVoltaic Cell\nVoltmeter\nV\nMg(s)\nelectrode\nWire\nWire\nMg2+(aq)\nCu2+(aq)\nMg(s) + Cu2+(aq)\nMg2+(aq) + Cu(s)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: electrons electron e\u0003 Note: Do not allow credit for the e without the minus sign (\u0003)."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Compare the number of electrons lost to the number of electrons gained during the reaction in the operating cell.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2022/context_78_82.png",
+      "context": "Base your answers to questions 78 through 82 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, appropriate safety equipment is used and safety procedures \nare followed. A student constructs a voltaic cell with magnesium and copper electrodes. \nThe diagram and net ionic equation below represent this cell and the reaction that occurs.\nCu(s)\nelectrode\nSalt \nbridge\nVoltaic Cell\nVoltmeter\nV\nMg(s)\nelectrode\nWire\nWire\nMg2+(aq)\nCu2+(aq)\nMg(s) + Cu2+(aq)\nMg2+(aq) + Cu(s)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The number of electrons lost by Mg(s) equals the number of electrons gained by Cu2\u0002(aq). The number of electrons lost and gained is the same. equal same"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "State the form of energy that is converted to electrical energy in the operating cell.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2022/context_78_82.png",
+      "context": "Base your answers to questions 78 through 82 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, appropriate safety equipment is used and safety procedures \nare followed. A student constructs a voltaic cell with magnesium and copper electrodes. \nThe diagram and net ionic equation below represent this cell and the reaction that occurs.\nCu(s)\nelectrode\nSalt \nbridge\nVoltaic Cell\nVoltmeter\nV\nMg(s)\nelectrode\nWire\nWire\nMg2+(aq)\nCu2+(aq)\nMg(s) + Cu2+(aq)\nMg2+(aq) + Cu(s)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: chemical potential energy chemical potential"
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Write a balanced equation for the half-reaction that occurs in the copper half-cell when the cell operates.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2022/context_78_82.png",
+      "context": "Base your answers to questions 78 through 82 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, appropriate safety equipment is used and safety procedures \nare followed. A student constructs a voltaic cell with magnesium and copper electrodes. \nThe diagram and net ionic equation below represent this cell and the reaction that occurs.\nCu(s)\nelectrode\nSalt \nbridge\nVoltaic Cell\nVoltmeter\nV\nMg(s)\nelectrode\nWire\nWire\nMg2+(aq)\nCu2+(aq)\nMg(s) + Cu2+(aq)\nMg2+(aq) + Cu(s)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Cu2\u0002(aq) \u0002 2e\u0003 \u2192 Cu(s) Cu\u00022 \u0002 2e\u0003 \u2192 Cu Note: Do not allow credit for the e without the minus sign (\u0003). P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "82",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2022/context_78_82.png",
+      "context": "Base your answers to questions 78 through 82 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, appropriate safety equipment is used and safety procedures \nare followed. A student constructs a voltaic cell with magnesium and copper electrodes. \nThe diagram and net ionic equation below represent this cell and the reaction that occurs.\nCu(s)\nelectrode\nSalt \nbridge\nVoltaic Cell\nVoltmeter\nV\nMg(s)\nelectrode\nWire\nWire\nMg2+(aq)\nCu2+(aq)\nMg(s) + Cu2+(aq)\nMg2+(aq) + Cu(s)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Na calcium Sr barium Cs K Rb Li"
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Determine the fraction of Bk-249 that remains unchanged after 960. days.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nElement 117, Uus, has been synthesized and has at least two isotopes, Uus-293 and \nUus-294. Atoms of Uus-293 can be made by bombarding Bk-249 with Ca-48 in a reaction \nrepresented by the nuclear equation below.\nCa\nBk\n20\n48\n97\n249\n\u0002\n\u2192\n\u0002 \nUus\n4 n\n117\n293\n0\n1\n \nThe Bk-249 has a half-life of 320. days, decays by beta emission, and also emits gamma rays.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: 0.125 12.5%"
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "State, in terms of both protons and neutrons, why Uus-293 and Uus-294 are isotopes of the same element.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nElement 117, Uus, has been synthesized and has at least two isotopes, Uus-293 and \nUus-294. Atoms of Uus-293 can be made by bombarding Bk-249 with Ca-48 in a reaction \nrepresented by the nuclear equation below.\nCa\nBk\n20\n48\n97\n249\n\u0002\n\u2192\n\u0002 \nUus\n4 n\n117\n293\n0\n1\n \nThe Bk-249 has a half-life of 320. days, decays by beta emission, and also emits gamma rays.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Protons: Both atoms contain 117 protons. Neutrons: 294Uus has 177 neutrons and 293Uus has 176 neutrons. Protons: same number Neutrons: different number"
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Complete the nuclear equation in your answer booklet for the alpha decay of Uus-294 by writing a notation for the missing product. P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nElement 117, Uus, has been synthesized and has at least two isotopes, Uus-293 and \nUus-294. Atoms of Uus-293 can be made by bombarding Bk-249 with Ca-48 in a reaction \nrepresented by the nuclear equation below.\nCa\nBk\n20\n48\n97\n249\n\u0002\n\u2192\n\u0002 \nUus\n4 n\n117\n293\n0\n1\n \nThe Bk-249 has a half-life of 320. days, decays by beta emission, and also emits gamma rays.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: 290 115Uup 290 115Mc Uup-290 Mc-290 ununpentium-290 moscovium-290 290Uup 290Mc 1 8 P.S./Chem. Rating Guide\u2013June \u2019"
+    }
+  ]
+}

@@ -1,11 +1,12 @@
 import React, { useRef, useState, useEffect } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, StyleSheet,
-  Switch, Alert, Animated, Modal, FlatList,
+  Switch, Alert, Animated, Modal, FlatList, Platform,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
+import { useAuth } from '../hooks/useAuth'
 import { useSubject } from '../context/SubjectContext'
 import { SUBJECT_META } from '../content/subjects'
 import { useProgress } from '../hooks/useProgress'
@@ -33,6 +34,7 @@ const TIME_OPTIONS = Array.from({ length: 36 }, (_, i) => {
 export default function ProfileScreen({ navigation }) {
   const { C, isDark, toggleTheme } = useTheme()
   const { user } = useAuthContext()
+  const { deleteAccount } = useAuth()
   const uid = user?.uid
 
   const { history }                   = useProgress(uid)
@@ -106,6 +108,53 @@ export default function ProfileScreen({ navigation }) {
         try { await signOut(auth) } catch (e) { Alert.alert('Error', e.message) }
       }},
     ])
+  }
+
+  async function performDelete(password) {
+    try {
+      // On success, onAuthStateChanged clears the user and the app routes to login.
+      await deleteAccount({ password })
+    } catch (e) {
+      const msg =
+        e?.code === 'auth/wrong-password' || e?.code === 'auth/invalid-credential'
+          ? 'Incorrect password. Please try again.'
+          : e?.code === 'auth/requires-recent-login'
+          ? 'For your security, please sign out, sign back in, and try again.'
+          : (e?.message || 'Could not delete your account. Please try again.')
+      Alert.alert('Delete Failed', msg)
+    }
+  }
+
+  function handleDeleteAccount() {
+    const providerId = user?.providerData?.[0]?.providerId
+    Alert.alert(
+      'Delete Account',
+      'This permanently deletes your account and all your data — progress, streaks, friends, and pets. This cannot be undone.',
+      [
+        { text: 'Cancel', style: 'cancel' },
+        {
+          text: 'Delete',
+          style: 'destructive',
+          onPress: () => {
+            // Email/password users must re-enter their password to confirm.
+            if (providerId === 'password' && Platform.OS === 'ios') {
+              Alert.prompt(
+                'Confirm Password',
+                'Enter your password to permanently delete your account.',
+                [
+                  { text: 'Cancel', style: 'cancel' },
+                  { text: 'Delete', style: 'destructive', onPress: (pw) => performDelete(pw) },
+                ],
+                'secure-text',
+              )
+            } else {
+              // Google users re-authenticate via the Google sheet; guests delete directly.
+              performDelete()
+            }
+          },
+        },
+      ],
+    )
   }
 
   async function handleToggleNotif() {
@@ -344,6 +393,13 @@ export default function ProfileScreen({ navigation }) {
             <Text style={[T.btn, { color: C.wrong }]}>SIGN OUT</Text>
           </TouchableOpacity>
         </View>
+
+        {/* ── Delete account (App Store Guideline 5.1.1(v)) ── */}
+        <TouchableOpacity onPress={handleDeleteAccount} style={{ marginTop: 12, alignItems: 'center', paddingVertical: 8 }}>
+          <Text style={[T.label, { color: C.textDim, textTransform: 'none', letterSpacing: 0, textDecorationLine: 'underline' }]}>
+            Delete Account
+          </Text>
+        </TouchableOpacity>
 
         <Text style={[T.label, { color: C.textDim, textAlign: 'center', marginTop: 12, textTransform: 'none', letterSpacing: 0 }]}>
           Regents Prep · v1.0.0

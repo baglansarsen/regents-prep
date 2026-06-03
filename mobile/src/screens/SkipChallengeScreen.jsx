@@ -96,7 +96,7 @@ export default function SkipChallengeScreen({ route, navigation }) {
   // ── FAILED screen ────────────────────────────────────────────────────────
   if (phase === 'failed') {
     return (
-      <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+      <SafeAreaView style={s.safe} edges={['bottom']}>
         <View style={s.resultContainer}>
           <Text style={{ fontSize: 72 }}>💔</Text>
           <Text style={[T.h1, { color: C.wrong, marginTop: 16, textAlign: 'center' }]}>
@@ -160,7 +160,7 @@ export default function SkipChallengeScreen({ route, navigation }) {
   if (phase === 'done') {
 
     return (
-      <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+      <SafeAreaView style={s.safe} edges={['bottom']}>
         <View style={s.resultContainer}>
           <Text style={{ fontSize: 72 }}>🏆</Text>
           <Text style={[T.h1, { color: C.brand, marginTop: 16, textAlign: 'center' }]}>
@@ -198,7 +198,7 @@ export default function SkipChallengeScreen({ route, navigation }) {
   // ── QUIZ ─────────────────────────────────────────────────────────────────
   return (
     <View style={s.root}>
-      <SafeAreaView style={s.safe} edges={['top']}>
+      <SafeAreaView style={s.safe} edges={['bottom']}>
 
         {/* Header */}
         <View style={s.header}>

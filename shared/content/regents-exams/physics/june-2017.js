@@ -129,8 +129,7 @@ export default {
       topic: 'Electricity',
       correct: 2,
       explanation: 'For circular motion at constant speed, the net force is always directed toward the center of the circle (centripetal force). The magnetic force on a charged particle provides this centripetal force.',
-      diveDeep: 'In circular motion, the net force always points centripetally — toward the center. A magnetic force on a moving charge is always perpendicular to the velocity (F = qv × B), which means it continuously redirects the charge without doing work (no speed change). For an electron (negative charge) moving right in a field out of the page, the magnetic force is directed downward (toward center if the electron is at the top). This is a direct application of the left-hand rule for electrons or right-hand rule reversed. Constant speed with centripetal acceleration is a key Regents concept.'
-    },
+      diveDeep: 'In circular motion, the net force always points centripetally — toward the center. A magnetic force on a moving charge is always perpendicular to the velocity (F = qv × B), which means it continuously redirects the charge without doing work (no speed change). For an electron (negative charge) moving right in a field out of the page, the magnetic force is directed downward (toward center if the electron is at the top). This is a direct application of the left-hand rule for electrons or right-hand rule reversed. Constant speed with centripetal acceleration is a key Regents concept.', image: '/images/exams/phys-june-2017/q12.png' },
     {
       number: 13,
       part: 'A',
@@ -301,8 +300,7 @@ export default {
       correct: 0,
       topic: 'Kinematics',
       explanation: 'The area under a velocity-time graph equals displacement (Δx = v × Δt for constant velocity; the integral of v dt in general).',
-      diveDeep: 'On a velocity-time graph: the slope equals acceleration (Δv/Δt), and the area under the curve equals displacement. This is because displacement = ∫v dt. For a straight-line v-t graph the area is a triangle or trapezoid. A common mistake is calling the area "distance" (valid only if v ≥ 0 throughout) or "speed" (which is the y-axis value, not the area). Regents frequently test interpretation of graph features: slope = acceleration, area = displacement.'
-    },
+      diveDeep: 'On a velocity-time graph: the slope equals acceleration (Δv/Δt), and the area under the curve equals displacement. This is because displacement = ∫v dt. For a straight-line v-t graph the area is a triangle or trapezoid. A common mistake is calling the area "distance" (valid only if v ≥ 0 throughout) or "speed" (which is the y-axis value, not the area). Regents frequently test interpretation of graph features: slope = acceleration, area = displacement.', image: '/images/exams/phys-june-2017/q38.png' },
     {
       number: 39,
       part: 'B-1',
@@ -334,8 +332,7 @@ export default {
       correct: 2,
       topic: 'Forces & Newton',
       explanation: 'By Newton\'s third law, the force on the cannon from the cannonball equals the force on the cannonball from the cannon in magnitude: 8.0 × 10³ N.',
-      diveDeep: 'Newton\'s third law: for every action there is an equal and opposite reaction. The force the cannon exerts on the cannonball (8.0 × 10³ N forward) is paired with an equal force the cannonball exerts on the cannon (8.0 × 10³ N backward). The cannon\'s acceleration is much smaller (a = F/m = 8000/500 = 16 m/s²) because of its much greater mass — but the force magnitude is identical. Students sometimes pick "16 N" (the cannon\'s acceleration × mass incorrectly calculated) or confuse force with acceleration.'
-    },
+      diveDeep: 'Newton\'s third law: for every action there is an equal and opposite reaction. The force the cannon exerts on the cannonball (8.0 × 10³ N forward) is paired with an equal force the cannonball exerts on the cannon (8.0 × 10³ N backward). The cannon\'s acceleration is much smaller (a = F/m = 8000/500 = 16 m/s²) because of its much greater mass — but the force magnitude is identical. Students sometimes pick "16 N" (the cannon\'s acceleration × mass incorrectly calculated) or confuse force with acceleration.', image: '/images/exams/phys-june-2017/q41.png' },
     {
       number: 42,
       part: 'B-1',
@@ -372,8 +369,7 @@ export default {
       correct: 0,
       topic: 'Light & Optics',
       explanation: 'E = hf = hc/λ, so E ∝ 1/λ. As wavelength increases, photon energy decreases — an inverse (hyperbolic) relationship.',
-      diveDeep: 'Photon energy E = hf and c = fλ, so E = hc/λ. This is an inverse relationship: doubling λ halves E. On a graph of E vs. λ, this appears as a hyperbola (decreasing curve, never touching the axes). The Regents often presents four graph shapes for this relationship — the correct one is the inverse curve (graph 1). Common traps: a straight line through the origin (suggests direct proportion) or a straight line with negative slope (linear, not inverse). Recognizing proportionality types from equations is a key exam skill.'
-    },
+      diveDeep: 'Photon energy E = hf and c = fλ, so E = hc/λ. This is an inverse relationship: doubling λ halves E. On a graph of E vs. λ, this appears as a hyperbola (decreasing curve, never touching the axes). The Regents often presents four graph shapes for this relationship — the correct one is the inverse curve (graph 1). Common traps: a straight line through the origin (suggests direct proportion) or a straight line with negative slope (linear, not inverse). Recognizing proportionality types from equations is a key exam skill.', image: '/images/exams/phys-june-2017/q44.png' },
     {
       number: 45,
       part: 'B-1',
@@ -383,8 +379,7 @@ export default {
       correct: 2,
       topic: 'Waves & Sound',
       explanation: 'At a node, the incident and reflected waves are exactly out of phase (180°), causing complete destructive interference and zero displacement.',
-      diveDeep: 'Standing waves form when two waves of equal amplitude and frequency travel in opposite directions and superpose. At nodes, destructive interference gives zero displacement — this requires the waves to be 180° out of phase at that point. At antinodes, constructive interference gives maximum displacement — the waves are in phase (0°). When a wave reflects from a fixed wall (fixed end), it inverts (gains a 180° phase shift), which is why nodes form at fixed ends. This 180° phase shift is distinct from a free-end reflection, where no phase inversion occurs.'
-    },
+      diveDeep: 'Standing waves form when two waves of equal amplitude and frequency travel in opposite directions and superpose. At nodes, destructive interference gives zero displacement — this requires the waves to be 180° out of phase at that point. At antinodes, constructive interference gives maximum displacement — the waves are in phase (0°). When a wave reflects from a fixed wall (fixed end), it inverts (gains a 180° phase shift), which is why nodes form at fixed ends. This 180° phase shift is distinct from a free-end reflection, where no phase inversion occurs.', image: '/images/exams/phys-june-2017/context_45_46.png' },
     {
       number: 46,
       part: 'B-1',
@@ -394,8 +389,7 @@ export default {
       correct: 2,
       topic: 'Waves & Sound',
       explanation: 'The standing wave diagram shows 3 antinodes (points of maximum displacement, halfway between adjacent nodes).',
-      diveDeep: 'Antinodes are the points of maximum constructive interference in a standing wave, located halfway between nodes. For a standing wave with n loops (half-wavelengths), there are n antinodes and n+1 nodes (for fixed-end boundary conditions). The diagram for this problem shows 3 loops, giving 3 antinodes. A common mistake is counting nodes instead of antinodes, or confusing the two. Antinodes = loops = number of half-wavelengths fitting in the medium\'s length.'
-    },
+      diveDeep: 'Antinodes are the points of maximum constructive interference in a standing wave, located halfway between nodes. For a standing wave with n loops (half-wavelengths), there are n antinodes and n+1 nodes (for fixed-end boundary conditions). The diagram for this problem shows 3 loops, giving 3 antinodes. A common mistake is counting nodes instead of antinodes, or confusing the two. Antinodes = loops = number of half-wavelengths fitting in the medium\'s length.', image: '/images/exams/phys-june-2017/context_45_46.png' },
     {
       number: 47,
       part: 'B-1',
@@ -405,8 +399,7 @@ export default {
       correct: 1,
       topic: 'Electricity',
       explanation: 'R = ρL/A. Wire 2 has length 2ℓ and area A, giving R = ρ(2ℓ)/A = 2ρℓ/A — the highest resistance among the four wires.',
-      diveDeep: 'Resistance R = ρL/A: resistance increases with length and decreases with cross-sectional area. Comparing: Wire 1 = ρℓ/A (baseline); Wire 2 = ρ(2ℓ)/A = 2R_base (longest, narrowest → most resistance); Wire 3 = ρℓ/(2A) = 0.5R_base; Wire 4 = ρ(2ℓ)/(2A) = R_base. Wire 2 has the greatest resistance. Intuitively, longer wire = more collisions for electrons; smaller area = less room for electron flow. Both effects raise resistance.'
-    },
+      diveDeep: 'Resistance R = ρL/A: resistance increases with length and decreases with cross-sectional area. Comparing: Wire 1 = ρℓ/A (baseline); Wire 2 = ρ(2ℓ)/A = 2R_base (longest, narrowest → most resistance); Wire 3 = ρℓ/(2A) = 0.5R_base; Wire 4 = ρ(2ℓ)/(2A) = R_base. Wire 2 has the greatest resistance. Intuitively, longer wire = more collisions for electrons; smaller area = less room for electron flow. Both effects raise resistance.', image: '/images/exams/phys-june-2017/q47.png' },
     {
       number: 48,
       part: 'B-1',
@@ -416,8 +409,7 @@ export default {
       correct: 2,
       topic: 'Electricity',
       explanation: 'Number of elementary charges = Q/e = (4 × 10⁻⁶ C) / (1.6 × 10⁻¹⁹ C) = 2.5 × 10¹³.',
-      diveDeep: 'The elementary charge e = 1.6 × 10⁻¹⁹ C is the charge of one proton (or one electron in magnitude). To find the number of excess charges: n = Q/e = 4×10⁻⁶ / 1.6×10⁻¹⁹ = 2.5×10¹³. Common mistakes: inverting to get e/Q (gives tiny number like 6.4×10⁻²⁵, which is choice 1 — a classic trap). The answer makes physical sense: macroscopic charges involve trillions of elementary charges, so 10¹³ is a reasonable order of magnitude.'
-    },
+      diveDeep: 'The elementary charge e = 1.6 × 10⁻¹⁹ C is the charge of one proton (or one electron in magnitude). To find the number of excess charges: n = Q/e = 4×10⁻⁶ / 1.6×10⁻¹⁹ = 2.5×10¹³. Common mistakes: inverting to get e/Q (gives tiny number like 6.4×10⁻²⁵, which is choice 1 — a classic trap). The answer makes physical sense: macroscopic charges involve trillions of elementary charges, so 10¹³ is a reasonable order of magnitude.', image: '/images/exams/phys-june-2017/context_48_49.png' },
     {
       number: 49,
       part: 'B-1',
@@ -427,8 +419,7 @@ export default {
       correct: 2,
       topic: 'Electricity',
       explanation: 'F = kq₁q₂/r² = (8.99 × 10⁹)(4 × 10⁻⁶)(8 × 10⁻⁶)/(0.020)² = (8.99 × 10⁹)(3.2 × 10⁻¹¹)/(4 × 10⁻⁴) ≈ 720/4×10⁻⁴... Let me compute: numerator = 8.99×10⁹ × 3.2×10⁻¹¹ = 0.2877; denominator = (0.020)² = 4×10⁻⁴; F = 0.2877/(4×10⁻⁴) ≈ 719 N. Wait — recalculating: (9×10⁹)(4×10⁻⁶)(8×10⁻⁶)/(0.02)² = 9×10⁹ × 32×10⁻¹² / 4×10⁻⁴ = 288×10⁻³/4×10⁻⁴ = 720 N. Answer is 720 N is not among choices — the separation must be 2.0 × 10⁻² m gives 720 N. Looking at choices and the original PDF, the answer is 2.7 × 10⁻² N, suggesting r = 1.0 m or different charges. Using given answers: F ≈ 2.7 × 10⁻² N.',
-      diveDeep: 'Coulomb\'s law F = kq₁q₂/r² is used to find the electric force. Both charges are positive so the force is repulsive. The calculation requires careful handling of exponents: k = 8.99 × 10⁹ N·m²/C². Plug in the given charges and separation distance, square the distance (a common error is forgetting to square r), and compute. The force between two microcoulomb charges at centimeter distances falls in the millinewton to newton range — much stronger than gravitational forces at the same scale, illustrating the dominance of electrostatic forces at small distances.'
-    },
+      diveDeep: 'Coulomb\'s law F = kq₁q₂/r² is used to find the electric force. Both charges are positive so the force is repulsive. The calculation requires careful handling of exponents: k = 8.99 × 10⁹ N·m²/C². Plug in the given charges and separation distance, square the distance (a common error is forgetting to square r), and compute. The force between two microcoulomb charges at centimeter distances falls in the millinewton to newton range — much stronger than gravitational forces at the same scale, illustrating the dominance of electrostatic forces at small distances.', image: '/images/exams/phys-june-2017/context_48_49.png' },
     {
       number: 50,
       part: 'B-1',
@@ -443,8 +434,7 @@ export default {
       correct: 3,
       topic: 'Waves & Sound',
       explanation: 'This is the Doppler effect. Point B is behind the moving source, so it observes lower frequency (waves spread out) and longer wavelength. Point A (ahead) observes higher frequency and shorter wavelength.',
-      diveDeep: 'The Doppler effect: when a source moves toward an observer, wave fronts compress → higher frequency and shorter wavelength. When the source moves away from an observer, wave fronts spread out → lower frequency and longer wavelength. Point A is ahead of the rightward-moving source (source approaching A → higher f, shorter λ). Point B is behind the source (source receding from B → lower f, longer λ). Frequency and wavelength are inversely related (v = fλ, v constant in same medium), so both change together in the expected direction.'
-    },
+      diveDeep: 'The Doppler effect: when a source moves toward an observer, wave fronts compress → higher frequency and shorter wavelength. When the source moves away from an observer, wave fronts spread out → lower frequency and longer wavelength. Point A is ahead of the rightward-moving source (source approaching A → higher f, shorter λ). Point B is behind the source (source receding from B → lower f, longer λ). Frequency and wavelength are inversely related (v = fλ, v constant in same medium), so both change together in the expected direction.', image: '/images/exams/phys-june-2017/q50.png' },
     // Part B-2: Questions 51–65 (Written)
     {
       number: 51,
@@ -494,8 +484,7 @@ export default {
       modelAnswer: '2d. The time of flight depends only on the height of the cliff and vertical free-fall (t = √(2h/g)), which is the same for both balls since they are launched from the same height. Horizontal distance d = v₀ₓ × t. For the second ball: d₂ = (20 m/s) × t = 2 × (10 m/s × t) = 2d.',
       topic: 'Kinematics',
       explanation: 'Both balls fall the same height, so they take the same time t to reach the ground. The horizontal distance is proportional to horizontal speed, so doubling the speed doubles the range to 2d.',
-      diveDeep: 'In projectile motion (neglecting air resistance), horizontal and vertical motions are independent. The time of flight is determined solely by the vertical drop: t = √(2h/g). Since both balls start at the same height, t is identical for both. Horizontal range = v_x × t. Ball 1: d = (10)t. Ball 2: d₂ = (20)t = 2(10t) = 2d. This independence of axes is the central concept of projectile motion. A common misconception is that the faster ball will also fall faster — it does not; both accelerate downward at g.'
-    },
+      diveDeep: 'In projectile motion (neglecting air resistance), horizontal and vertical motions are independent. The time of flight is determined solely by the vertical drop: t = √(2h/g). Since both balls start at the same height, t is identical for both. Horizontal range = v_x × t. Ball 1: d = (10)t. Ball 2: d₂ = (20)t = 2(10t) = 2d. This independence of axes is the central concept of projectile motion. A common misconception is that the faster ball will also fall faster — it does not; both accelerate downward at g.', image: '/images/exams/phys-june-2017/q55.png' },
     {
       number: 56,
       part: 'B-2',
@@ -544,8 +533,7 @@ export default {
       modelAnswer: 'Step 1 — Find the elongation: x = 0.25 m − 0.15 m = 0.10 m.\nStep 2 — Apply Hooke\'s law: F = kx → k = F/x = 35 N / 0.10 m = 350 N/m.',
       topic: 'Energy & Power',
       explanation: 'The elongation is the change in length (0.10 m), not the total length. Hooke\'s law k = F/x gives 350 N/m.',
-      diveDeep: 'Hooke\'s law: F = kx, where x is the extension (or compression) from the natural/equilibrium length — not the total stretched length. Here x = 0.25 − 0.15 = 0.10 m. k = F/x = 35/0.10 = 350 N/m. A common mistake is using x = 0.25 m (the total stretched length) instead of the elongation (0.10 m), which gives k = 140 N/m — incorrect. At equilibrium hanging, the spring force equals the weight of the block: kx = mg. This is a direct application of Hooke\'s law and static equilibrium.'
-    },
+      diveDeep: 'Hooke\'s law: F = kx, where x is the extension (or compression) from the natural/equilibrium length — not the total stretched length. Here x = 0.25 − 0.15 = 0.10 m. k = F/x = 35/0.10 = 350 N/m. A common mistake is using x = 0.25 m (the total stretched length) instead of the elongation (0.10 m), which gives k = 140 N/m — incorrect. At equilibrium hanging, the spring force equals the weight of the block: kx = mg. This is a direct application of Hooke\'s law and static equilibrium.', image: '/images/exams/phys-june-2017/q60.png' },
     {
       number: 61,
       part: 'B-2',
@@ -594,8 +582,7 @@ export default {
       modelAnswer: 'Apply the principle of superposition: at each point, add the displacements of pulse A and pulse B algebraically. Where the pulses overlap: resultant displacement = +1.20 m + (−0.40 m) = +0.80 m. Draw the resultant pulse with a positive displacement of 0.80 m where the pulses overlap, showing partial destructive interference.',
       topic: 'Waves & Sound',
       explanation: 'When two pulses occupy the same region, the superposition principle requires adding their displacements algebraically: +1.20 + (−0.40) = +0.80 m.',
-      diveDeep: 'The principle of superposition states that when two or more waves overlap, the resultant displacement at any point equals the algebraic sum of the individual displacements at that point. A positive pulse (+1.20 m) and a negative pulse (−0.40 m) partially cancel, giving +0.80 m — partial destructive interference. If both pulses had equal magnitudes opposite in sign, complete destructive interference would give zero displacement. After the pulses pass through each other, they resume their original shapes — a key property of wave superposition (waves pass through each other unchanged).'
-    },
+      diveDeep: 'The principle of superposition states that when two or more waves overlap, the resultant displacement at any point equals the algebraic sum of the individual displacements at that point. A positive pulse (+1.20 m) and a negative pulse (−0.40 m) partially cancel, giving +0.80 m — partial destructive interference. If both pulses had equal magnitudes opposite in sign, complete destructive interference would give zero displacement. After the pulses pass through each other, they resume their original shapes — a key property of wave superposition (waves pass through each other unchanged).', image: '/images/exams/phys-june-2017/q65.png' },
     // Part C: Questions 66–85 (Written, multi-part)
     {
       number: 66,
@@ -605,8 +592,7 @@ export default {
       modelAnswer: 'W = Fd = (158 N)(230. m) = 3.63 × 10⁴ J ≈ 3.6 × 10⁴ J.',
       topic: 'Energy & Power',
       explanation: 'Work = Force × displacement (in the direction of force). W = 158 N × 230 m = 36,340 J ≈ 3.6 × 10⁴ J.',
-      diveDeep: 'W = Fd applies when force and displacement are parallel (or W = Fd cosθ when at an angle). Here the rope force is directed along the hill surface (parallel to displacement), so W = (158)(230) = 36,340 J. This work goes into increasing gravitational PE, increasing kinetic energy, and overcoming friction. Since speed is constant (no ΔKE) and PE gain can be calculated, the difference reveals energy lost to friction. This is a foundational energy accounting problem.'
-    },
+      diveDeep: 'W = Fd applies when force and displacement are parallel (or W = Fd cosθ when at an angle). Here the rope force is directed along the hill surface (parallel to displacement), so W = (158)(230) = 36,340 J. This work goes into increasing gravitational PE, increasing kinetic energy, and overcoming friction. Since speed is constant (no ΔKE) and PE gain can be calculated, the difference reveals energy lost to friction. This is a foundational energy accounting problem.', image: '/images/exams/phys-june-2017/context_66_70.png' },
     {
       number: 67,
       part: 'C',
@@ -615,8 +601,7 @@ export default {
       modelAnswer: 'PE = mgh = (72.0 kg)(9.81 m/s²)(40.0 m) = 28,253 J ≈ 2.83 × 10⁴ J.\n\nThe skier gains approximately 2.83 × 10⁴ joules of gravitational potential energy.',
       topic: 'Energy & Power',
       explanation: 'Gravitational PE = mgh, using height h = 40.0 m (vertical rise, not the slant distance of 230 m). PE = 72.0 × 9.81 × 40.0 ≈ 2.83 × 10⁴ J.',
-      diveDeep: 'The critical distinction here is using vertical height h = 40.0 m (not the slant distance of 230 m) in PE = mgh. Gravitational PE depends only on vertical displacement. A common mistake is using 230 m as h, which would give ~1.62×10⁵ J — far too large. The difference between work done by the rope (3.6×10⁴ J) and PE gained (2.83×10⁴ J) represents energy lost to friction: ΔE_friction ≈ 3.6×10⁴ − 2.83×10⁴ ≈ 7.7×10³ J.'
-    },
+      diveDeep: 'The critical distinction here is using vertical height h = 40.0 m (not the slant distance of 230 m) in PE = mgh. Gravitational PE depends only on vertical displacement. A common mistake is using 230 m as h, which would give ~1.62×10⁵ J — far too large. The difference between work done by the rope (3.6×10⁴ J) and PE gained (2.83×10⁴ J) represents energy lost to friction: ΔE_friction ≈ 3.6×10⁴ − 2.83×10⁴ ≈ 7.7×10³ J.', image: '/images/exams/phys-june-2017/context_66_70.png' },
     {
       number: 68,
       part: 'C',
@@ -625,8 +610,7 @@ export default {
       modelAnswer: 'For full credit: Equation PE = mgh, substitution (72.0 kg)(9.81 m/s²)(40.0 m), answer 2.83 × 10⁴ J with units. Both points require correct equation with units and correct numerical answer.',
       topic: 'Energy & Power',
       explanation: 'The second credit point is earned by correctly writing PE = mgh with all values substituted with proper units, yielding ~2.83 × 10⁴ J.',
-      diveDeep: 'Use h = 40.0 m (vertical height), not 230 m (slant distance). g = 9.81 m/s² from the reference table. The gravitational PE gain equals the work done against gravity. Because speed is constant (no ΔKE), all work beyond the PE gain went to overcoming friction. This energy accounting is a central theme in mechanics problems involving slopes.'
-    },
+      diveDeep: 'Use h = 40.0 m (vertical height), not 230 m (slant distance). g = 9.81 m/s² from the reference table. The gravitational PE gain equals the work done against gravity. Because speed is constant (no ΔKE), all work beyond the PE gain went to overcoming friction. This energy accounting is a central theme in mechanics problems involving slopes.', image: '/images/exams/phys-june-2017/context_66_70.png' },
     {
       number: 69,
       part: 'C',
@@ -635,8 +619,7 @@ export default {
       modelAnswer: 'The internal energy of the skier-hill system increases. Friction between the skier and the hill surface converts some mechanical energy into thermal (heat) energy, raising the internal energy of both the skier and the hill.',
       topic: 'Energy & Power',
       explanation: 'Friction between the skier and hill converts mechanical energy into thermal energy (heat), increasing the internal (thermal) energy of the system.',
-      diveDeep: 'Internal energy encompasses the microscopic kinetic and potential energy of particles (thermal energy). When friction acts, macroscopic kinetic or potential energy is irreversibly converted to microscopic thermal energy — the surfaces warm up slightly. This is a non-conservative process: the energy goes into internal energy and cannot be fully recovered as mechanical energy. The total energy of the system (mechanical + internal) is still conserved (by the first law of thermodynamics), but usable mechanical energy decreases. This concept links mechanics to thermodynamics.'
-    },
+      diveDeep: 'Internal energy encompasses the microscopic kinetic and potential energy of particles (thermal energy). When friction acts, macroscopic kinetic or potential energy is irreversibly converted to microscopic thermal energy — the surfaces warm up slightly. This is a non-conservative process: the energy goes into internal energy and cannot be fully recovered as mechanical energy. The total energy of the system (mechanical + internal) is still conserved (by the first law of thermodynamics), but usable mechanical energy decreases. This concept links mechanics to thermodynamics.', image: '/images/exams/phys-june-2017/context_66_70.png' },
     {
       number: 70,
       part: 'C',
@@ -645,8 +628,7 @@ export default {
       modelAnswer: 'The total mechanical energy of the skier-hill system increases. The rope-tow (an external agent) does work on the system, transferring energy into it. The gravitational potential energy increases as the skier gains height, while kinetic energy remains constant (constant speed). Net mechanical energy increases by the work done by the rope minus the energy lost to friction.',
       topic: 'Energy & Power',
       explanation: 'The rope-tow is an external energy source doing positive work, so total mechanical energy of the skier-hill system increases (mainly as gravitational PE). Friction reduces the increase but the net effect is an increase.',
-      diveDeep: 'Mechanical energy = KE + PE. Since speed is constant (KE unchanged) and height increases (PE increases), total ME increases. The rope does positive work (W = 3.6×10⁴ J), which is the source of this increase. Friction converts some ME to internal energy (heat), so ME increases by less than the rope\'s work: ΔME = W_rope − W_friction = 3.6×10⁴ − 7.7×10³ ≈ 2.83×10⁴ J (equal to the PE gained, since ΔKE = 0). The distinction between "internal energy increases" (Q69) and "total mechanical energy increases" (Q70) is a key conceptual point.'
-    },
+      diveDeep: 'Mechanical energy = KE + PE. Since speed is constant (KE unchanged) and height increases (PE increases), total ME increases. The rope does positive work (W = 3.6×10⁴ J), which is the source of this increase. Friction converts some ME to internal energy (heat), so ME increases by less than the rope\'s work: ΔME = W_rope − W_friction = 3.6×10⁴ − 7.7×10³ ≈ 2.83×10⁴ J (equal to the PE gained, since ΔKE = 0). The distinction between "internal energy increases" (Q69) and "total mechanical energy increases" (Q70) is a key conceptual point.', image: '/images/exams/phys-june-2017/context_66_70.png' },
     {
       number: 71,
       part: 'C',
@@ -655,8 +637,7 @@ export default {
       modelAnswer: '1/R_eq = 1/R₁ + 1/R₂ = 1/15 + 1/30 = 2/30 + 1/30 = 3/30 = 1/10\nR_eq = 10 Ω\n\nThe equivalent (parallel) resistance is 10 ohms.',
       topic: 'Electricity',
       explanation: 'For resistors in parallel: 1/R_eq = 1/R₁ + 1/R₂ = 1/15 + 1/30 = 3/30, so R_eq = 10 Ω.',
-      diveDeep: 'Parallel resistors: 1/R_eq = Σ(1/Rᵢ). For two resistors: R_eq = R₁R₂/(R₁+R₂) = (15×30)/(15+30) = 450/45 = 10 Ω (shortcut formula for two parallel resistors). Note R_eq < either individual resistor — parallel connections always reduce equivalent resistance. A common mistake is adding resistors directly (15 + 30 = 45 Ω — that would be series). In parallel, current has multiple paths, reducing overall resistance. The 10 Ω result is used in subsequent calculations.'
-    },
+      diveDeep: 'Parallel resistors: 1/R_eq = Σ(1/Rᵢ). For two resistors: R_eq = R₁R₂/(R₁+R₂) = (15×30)/(15+30) = 450/45 = 10 Ω (shortcut formula for two parallel resistors). Note R_eq < either individual resistor — parallel connections always reduce equivalent resistance. A common mistake is adding resistors directly (15 + 30 = 45 Ω — that would be series). In parallel, current has multiple paths, reducing overall resistance. The 10 Ω result is used in subsequent calculations.', image: '/images/exams/phys-june-2017/context_71_76.png' },
     {
       number: 72,
       part: 'C',
@@ -665,8 +646,7 @@ export default {
       modelAnswer: 'Full credit requires: writing 1/R_eq = 1/15 Ω + 1/30 Ω, finding 1/R_eq = 3/30 = 1/10, and stating R_eq = 10 Ω. Both points earned for correct setup with units and correct numerical answer.',
       topic: 'Electricity',
       explanation: 'The second point rewards writing the parallel resistance formula correctly with all values and units substituted, arriving at R_eq = 10 Ω.',
-      diveDeep: 'The parallel resistance formula must be applied carefully: take reciprocals of each resistance, sum them, then take the reciprocal of the result. The intermediate step (1/R_eq = 1/10) must be inverted to get R_eq = 10 Ω — a step many students skip, leaving an answer of "0.1" (forgetting the final inversion). Always write the reciprocal form clearly and invert at the end.'
-    },
+      diveDeep: 'The parallel resistance formula must be applied carefully: take reciprocals of each resistance, sum them, then take the reciprocal of the result. The intermediate step (1/R_eq = 1/10) must be inverted to get R_eq = 10 Ω — a step many students skip, leaving an answer of "0.1" (forgetting the final inversion). Always write the reciprocal form clearly and invert at the end.', image: '/images/exams/phys-june-2017/context_71_76.png' },
     {
       number: 73,
       part: 'C',
@@ -675,8 +655,7 @@ export default {
       modelAnswer: 'I = V/R_eq = 60. V / 10 Ω = 6.0 A.\n\nThe ammeter reads 6.0 amperes.',
       topic: 'Electricity',
       explanation: 'Using Ohm\'s law with the equivalent resistance: I = V/R_eq = 60/10 = 6.0 A. This is the total current from the battery.',
-      diveDeep: 'The ammeter in series with the parallel combination reads the total current from the battery. Using Ohm\'s law: I_total = V/R_eq = 60/10 = 6.0 A. This total current then splits between the two parallel resistors: I₁ = V/R₁ = 60/15 = 4.0 A; I₂ = V/R₂ = 60/30 = 2.0 A. Check: 4.0 + 2.0 = 6.0 A ✓ (Kirchhoff\'s current law). Each parallel branch has the full 60 V across it — this is a key property of parallel circuits.'
-    },
+      diveDeep: 'The ammeter in series with the parallel combination reads the total current from the battery. Using Ohm\'s law: I_total = V/R_eq = 60/10 = 6.0 A. This total current then splits between the two parallel resistors: I₁ = V/R₁ = 60/15 = 4.0 A; I₂ = V/R₂ = 60/30 = 2.0 A. Check: 4.0 + 2.0 = 6.0 A ✓ (Kirchhoff\'s current law). Each parallel branch has the full 60 V across it — this is a key property of parallel circuits.', image: '/images/exams/phys-june-2017/context_71_76.png' },
     {
       number: 74,
       part: 'C',
@@ -685,8 +664,7 @@ export default {
       modelAnswer: 'P = IV = (6.0 A)(60. V) = 360 W.\n\nAlternatively: P = V²/R_eq = (60)²/10 = 3600/10 = 360 W.\n\nThe battery supplies energy at a rate of 360 watts.',
       topic: 'Electricity',
       explanation: 'Power = IV = (6.0 A)(60 V) = 360 W. This is the rate at which the battery delivers electrical energy to the circuit.',
-      diveDeep: 'Power can be calculated three ways: P = IV, P = I²R, or P = V²/R. Since both V and I are known, P = IV = (6.0)(60) = 360 W is the most direct. This 360 W is split between R₁ and R₂: P₁ = I₁V = (4.0)(60) = 240 W; P₂ = I₂V = (2.0)(60) = 120 W. Check: 240 + 120 = 360 W ✓. In parallel circuits, the resistor with lower resistance dissipates more power (more current flows through it). The battery is the source of all this power; it converts chemical energy to electrical energy at 360 J/s.'
-    },
+      diveDeep: 'Power can be calculated three ways: P = IV, P = I²R, or P = V²/R. Since both V and I are known, P = IV = (6.0)(60) = 360 W is the most direct. This 360 W is split between R₁ and R₂: P₁ = I₁V = (4.0)(60) = 240 W; P₂ = I₂V = (2.0)(60) = 120 W. Check: 240 + 120 = 360 W ✓. In parallel circuits, the resistor with lower resistance dissipates more power (more current flows through it). The battery is the source of all this power; it converts chemical energy to electrical energy at 360 J/s.', image: '/images/exams/phys-june-2017/context_71_76.png' },
     {
       number: 75,
       part: 'C',
@@ -695,8 +673,7 @@ export default {
       modelAnswer: 'For full two-point credit: write P = IV (or P = V²/R), substitute (6.0 A)(60. V) = 360 W with units. Both the correct equation with substitution including units (point 1) and the correct numerical answer with units — 360 W (point 2) — are required.',
       topic: 'Electricity',
       explanation: 'The second point for this power calculation is earned by showing P = IV with the correct values and units, arriving at 360 W.',
-      diveDeep: 'Power equations P = IV, P = I²R, and P = V²/R are equivalent and all appear on the Regents reference table. Choose the form that uses known quantities: with I = 6.0 A and V = 60 V available, P = IV is the most direct. Always include units in the substitution (amperes × volts = watts) to earn the unit-tracking credit point.'
-    },
+      diveDeep: 'Power equations P = IV, P = I²R, and P = V²/R are equivalent and all appear on the Regents reference table. Choose the form that uses known quantities: with I = 6.0 A and V = 60 V available, P = IV is the most direct. Always include units in the substitution (amperes × volts = watts) to earn the unit-tracking credit point.', image: '/images/exams/phys-june-2017/context_71_76.png' },
     {
       number: 76,
       part: 'C',
@@ -705,8 +682,7 @@ export default {
       modelAnswer: 'Adding another resistor in parallel would have no effect on the current through R₁. In a parallel circuit, the voltage across each branch remains equal to the battery voltage (60 V). Since R₁ = 15 Ω and V = 60 V remain unchanged, I₁ = V/R₁ = 60/15 = 4.0 A — unchanged.',
       topic: 'Electricity',
       explanation: 'In a parallel circuit, each branch has the same voltage (the battery voltage). Adding a new parallel branch does not change the voltage across existing branches, so I₁ = V/R₁ remains 4.0 A.',
-      diveDeep: 'This is a conceptual question about parallel circuit behavior. Key principle: all branches in a parallel circuit share the same terminal voltage. Adding more branches decreases total equivalent resistance and increases total current from the battery, but each existing branch still sees the same voltage as before. I₁ = V/R₁ = 60/15 = 4.0 A regardless of what other resistors are added in parallel. This is fundamentally different from series circuits, where adding more resistance reduces current everywhere.'
-    },
+      diveDeep: 'This is a conceptual question about parallel circuit behavior. Key principle: all branches in a parallel circuit share the same terminal voltage. Adding more branches decreases total equivalent resistance and increases total current from the battery, but each existing branch still sees the same voltage as before. I₁ = V/R₁ = 60/15 = 4.0 A regardless of what other resistors are added in parallel. This is fundamentally different from series circuits, where adding more resistance reduces current everywhere.', image: '/images/exams/phys-june-2017/context_71_76.png' },
     {
       number: 77,
       part: 'C',
@@ -715,8 +691,7 @@ export default {
       modelAnswer: 'KE = ½mv² = ½(2.50 kg)(18.0 m/s)² = ½(2.50)(324) = ½(810) = 405 J.\n\nThe kinetic energy of the airplane is 405 joules.',
       topic: 'Energy & Power',
       explanation: 'KE = ½mv² = ½(2.50)(18.0²) = ½(2.50)(324) = 405 J.',
-      diveDeep: 'KE = ½mv² is on the Regents reference table. Common mistakes: forgetting the ½ factor (gives 810 J), or not squaring v (gives ½ × 2.50 × 18.0 = 22.5 J). Note v = 18.0 m/s must be squared: 18² = 324. The airplane moves in a circle at constant speed, so its KE is constant (magnitude of velocity is constant). The centripetal force changes the direction of velocity but not its magnitude, hence KE does not change during circular motion.'
-    },
+      diveDeep: 'KE = ½mv² is on the Regents reference table. Common mistakes: forgetting the ½ factor (gives 810 J), or not squaring v (gives ½ × 2.50 × 18.0 = 22.5 J). Note v = 18.0 m/s must be squared: 18² = 324. The airplane moves in a circle at constant speed, so its KE is constant (magnitude of velocity is constant). The centripetal force changes the direction of velocity but not its magnitude, hence KE does not change during circular motion.', image: '/images/exams/phys-june-2017/context_77_80.png' },
     {
       number: 78,
       part: 'C',
@@ -725,8 +700,7 @@ export default {
       modelAnswer: 'For full credit: write KE = ½mv², substitute KE = ½(2.50 kg)(18.0 m/s)², compute 18.0² = 324, then KE = ½(2.50)(324) = 405 J. Both points require showing the equation with units and arriving at 405 J.',
       topic: 'Energy & Power',
       explanation: 'Second point: show KE = ½mv² with values and units substituted correctly, yielding 405 J.',
-      diveDeep: 'The squaring of velocity is frequently missed. Writing out (18.0 m/s)² = 324 m²/s² explicitly avoids this error. Units: kg × (m/s)² = kg·m²/s² = J ✓. The radius (25.0 m) is not needed for kinetic energy — it will be used in the centripetal force calculation in Q79–80.'
-    },
+      diveDeep: 'The squaring of velocity is frequently missed. Writing out (18.0 m/s)² = 324 m²/s² explicitly avoids this error. Units: kg × (m/s)² = kg·m²/s² = J ✓. The radius (25.0 m) is not needed for kinetic energy — it will be used in the centripetal force calculation in Q79–80.', image: '/images/exams/phys-june-2017/context_77_80.png' },
     {
       number: 79,
       part: 'C',
@@ -735,8 +709,7 @@ export default {
       modelAnswer: 'F_c = mv²/r = (2.50 kg)(18.0 m/s)² / (25.0 m) = (2.50)(324) / 25.0 = 810 / 25.0 = 32.4 N.\n\nThe centripetal force is 32.4 newtons.',
       topic: 'Forces & Newton',
       explanation: 'F_c = mv²/r = (2.50)(324)/25.0 = 32.4 N, directed toward the center of the circular path (along the cord toward the student).',
-      diveDeep: 'Centripetal force is the net inward force required for circular motion: F_c = mv²/r = mω²r. Here: F_c = (2.50)(18.0²)/25.0 = 810/25 = 32.4 N. This force is provided by the tension in the cord. It is always directed toward the center — centripetal means "center-seeking." Common mistake: using F_c = ma_c = m(v/r) — forgetting to square v. Note that KE from Q77 can be used as a shortcut: F_c = 2KE/r = 2(405)/25 = 810/25 = 32.4 N ✓.'
-    },
+      diveDeep: 'Centripetal force is the net inward force required for circular motion: F_c = mv²/r = mω²r. Here: F_c = (2.50)(18.0²)/25.0 = 810/25 = 32.4 N. This force is provided by the tension in the cord. It is always directed toward the center — centripetal means "center-seeking." Common mistake: using F_c = ma_c = m(v/r) — forgetting to square v. Note that KE from Q77 can be used as a shortcut: F_c = 2KE/r = 2(405)/25 = 810/25 = 32.4 N ✓.', image: '/images/exams/phys-june-2017/context_77_80.png' },
     {
       number: 80,
       part: 'C',
@@ -745,8 +718,7 @@ export default {
       modelAnswer: 'For full credit: write F_c = mv²/r, substitute (2.50 kg)(18.0 m/s)²/(25.0 m) = 32.4 N with units. Correct equation + substitution with units (point 1) and correct answer 32.4 N (point 2).',
       topic: 'Forces & Newton',
       explanation: 'The second point requires the correct formula F_c = mv²/r with values and units substituted, giving 32.4 N.',
-      diveDeep: 'Units check: kg × (m/s)² / m = kg × m²/s² / m = kg·m/s² = N ✓. The result 32.4 N inward is the centripetal force. By Newton\'s third law, the airplane pulls outward on the cord with 32.4 N (centrifugal reaction force in the student\'s frame). On the Regents, centripetal force direction (toward center) is conceptually important but the magnitude calculation is the focus of this two-point question.'
-    },
+      diveDeep: 'Units check: kg × (m/s)² / m = kg × m²/s² / m = kg·m/s² = N ✓. The result 32.4 N inward is the centripetal force. By Newton\'s third law, the airplane pulls outward on the cord with 32.4 N (centrifugal reaction force in the student\'s frame). On the Regents, centripetal force direction (toward center) is conceptually important but the magnitude calculation is the focus of this two-point question.', image: '/images/exams/phys-june-2017/context_77_80.png' },
     {
       number: 81,
       part: 'C',
@@ -755,8 +727,7 @@ export default {
       modelAnswer: 'In air (vacuum), c = 3.00 × 10⁸ m/s.\nλ = c/f = (3.00 × 10⁸ m/s) / (5.09 × 10¹⁴ Hz) = 5.89 × 10⁻⁷ m.\n\nThe wavelength in air is approximately 5.89 × 10⁻⁷ m (589 nm — yellow-orange visible light).',
       topic: 'Light & Optics',
       explanation: 'λ = c/f = (3.00 × 10⁸ m/s) / (5.09 × 10¹⁴ Hz) ≈ 5.89 × 10⁻⁷ m. This corresponds to yellow-orange visible light.',
-      diveDeep: 'The wave equation v = fλ, with v = c = 3.00 × 10⁸ m/s in air (from the reference table). λ = c/f = 3.00×10⁸ / 5.09×10¹⁴ = 5.89×10⁻⁷ m = 589 nm. This frequency places the light in the yellow portion of the visible spectrum (visible range: ~400–700 nm). Frequency does not change when light crosses from one medium to another — only wavelength and speed change. The wavelength in medium X is shorter: λ_X = λ_air/n_X.'
-    },
+      diveDeep: 'The wave equation v = fλ, with v = c = 3.00 × 10⁸ m/s in air (from the reference table). λ = c/f = 3.00×10⁸ / 5.09×10¹⁴ = 5.89×10⁻⁷ m = 589 nm. This frequency places the light in the yellow portion of the visible spectrum (visible range: ~400–700 nm). Frequency does not change when light crosses from one medium to another — only wavelength and speed change. The wavelength in medium X is shorter: λ_X = λ_air/n_X.', image: '/images/exams/phys-june-2017/context_81_85.png' },
     {
       number: 82,
       part: 'C',
@@ -765,8 +736,7 @@ export default {
       modelAnswer: 'For full credit: write v = fλ (or λ = c/f), substitute λ = (3.00 × 10⁸ m/s) / (5.09 × 10¹⁴ Hz), solve for λ ≈ 5.89 × 10⁻⁷ m with units (meters). Both the setup with units and numerical answer are required.',
       topic: 'Light & Optics',
       explanation: 'The second point is earned by correctly writing λ = c/f with values and units substituted, arriving at λ ≈ 5.89 × 10⁻⁷ m.',
-      diveDeep: 'Unit check: (m/s)/(1/s) = m ✓. The result 5.89×10⁻⁷ m = 589 nm is in the visible range, consistent with yellow-green sodium light. This wavelength is used in subsequent questions to find the index of refraction of medium X using Snell\'s law at the critical angle condition (angle of refraction = 90° means the incident angle in medium X equals the critical angle).'
-    },
+      diveDeep: 'Unit check: (m/s)/(1/s) = m ✓. The result 5.89×10⁻⁷ m = 589 nm is in the visible range, consistent with yellow-green sodium light. This wavelength is used in subsequent questions to find the index of refraction of medium X using Snell\'s law at the critical angle condition (angle of refraction = 90° means the incident angle in medium X equals the critical angle).', image: '/images/exams/phys-june-2017/context_81_85.png' },
     {
       number: 83,
       part: 'C',
@@ -775,8 +745,7 @@ export default {
       modelAnswer: 'The angle of incidence must be measured from the normal (perpendicular to the boundary surface) to the incident ray in medium X. Based on the diagram, the angle of incidence is approximately 42° (measured from the normal). [Accept answers in the range 40°–44° as correct for measurement-based questions.]',
       topic: 'Light & Optics',
       explanation: 'The angle of incidence is measured between the incident ray and the normal to the surface at point P. From the diagram, this is approximately 42° — the critical angle for medium X.',
-      diveDeep: 'When the angle of refraction is 90°, the incident angle equals the critical angle (θ_c). At the critical angle, refracted light travels along the boundary (90° from normal). Measuring from the diagram: θ_c ≈ 42°. This measurement question requires a protractor on the actual exam. The critical angle relates to the index of refraction: sin(θ_c) = n_air/n_X = 1/n_X, so n_X = 1/sin(θ_c). The measured value of ~42° is used in Q84–85.'
-    },
+      diveDeep: 'When the angle of refraction is 90°, the incident angle equals the critical angle (θ_c). At the critical angle, refracted light travels along the boundary (90° from normal). Measuring from the diagram: θ_c ≈ 42°. This measurement question requires a protractor on the actual exam. The critical angle relates to the index of refraction: sin(θ_c) = n_air/n_X = 1/n_X, so n_X = 1/sin(θ_c). The measured value of ~42° is used in Q84–85.', image: '/images/exams/phys-june-2017/context_81_85.png' },
     {
       number: 84,
       part: 'C',
@@ -785,8 +754,7 @@ export default {
       modelAnswer: 'At the critical angle, Snell\'s law gives: n_X sin(θ_c) = n_air sin(90°)\nn_X sin(42°) = (1.00)(1)\nn_X = 1/sin(42°) = 1/0.669 ≈ 1.50\n\nThe absolute index of refraction for medium X is approximately 1.50.',
       topic: 'Light & Optics',
       explanation: 'At the critical angle, Snell\'s law simplifies to n_X = 1/sin(θ_c) = 1/sin(42°) ≈ 1.50. This value matches common glass.',
-      diveDeep: 'Snell\'s law: n₁sinθ₁ = n₂sinθ₂. With n_air = 1.00, θ_air = 90° (sin 90° = 1), and θ_c ≈ 42°: n_X = 1/sin(42°) ≈ 1/0.669 ≈ 1.50. This matches the index of refraction for ordinary glass (~1.50) and optical glass in the Regents reference table. The critical angle condition (refraction at 90°) is used in total internal reflection applications: fiber optics, diamonds (high n → small θ_c → brilliance), and prisms. A larger index means a smaller critical angle.'
-    },
+      diveDeep: 'Snell\'s law: n₁sinθ₁ = n₂sinθ₂. With n_air = 1.00, θ_air = 90° (sin 90° = 1), and θ_c ≈ 42°: n_X = 1/sin(42°) ≈ 1/0.669 ≈ 1.50. This matches the index of refraction for ordinary glass (~1.50) and optical glass in the Regents reference table. The critical angle condition (refraction at 90°) is used in total internal reflection applications: fiber optics, diamonds (high n → small θ_c → brilliance), and prisms. A larger index means a smaller critical angle.', image: '/images/exams/phys-june-2017/context_81_85.png' },
     {
       number: 85,
       part: 'C',
@@ -795,7 +763,6 @@ export default {
       modelAnswer: 'For full credit: write n_X sinθ_c = n_air sin90° (Snell\'s law at critical angle), substitute n_X sin(42°) = (1.00)(1), solve n_X = 1/sin(42°) ≈ 1.50. Both the correct Snell\'s law setup with substitution (point 1) and the correct numerical answer n_X ≈ 1.50 (point 2) are required.',
       topic: 'Light & Optics',
       explanation: 'The second point requires writing Snell\'s law for the critical angle condition with correct substitution, arriving at n_X ≈ 1.50.',
-      diveDeep: 'The index of refraction is dimensionless (ratio of speed of light in vacuum to speed in medium: n = c/v). For medium X with n ≈ 1.50, the speed of light in medium X is v = c/n = 3.00×10⁸/1.50 = 2.00×10⁸ m/s. The measured angle from Q83 directly feeds into this calculation — the two-part structure (measure then calculate) tests both lab skills and analytical application of Snell\'s law.'
-    }
+      diveDeep: 'The index of refraction is dimensionless (ratio of speed of light in vacuum to speed in medium: n = c/v). For medium X with n ≈ 1.50, the speed of light in medium X is v = c/n = 3.00×10⁸/1.50 = 2.00×10⁸ m/s. The measured angle from Q83 directly feeds into this calculation — the two-part structure (measure then calculate) tests both lab skills and analytical application of Snell\'s law.', image: '/images/exams/phys-june-2017/context_81_85.png' }
   ]
 }

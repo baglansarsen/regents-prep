@@ -1,0 +1,491 @@
+{
+  "subject": "algebra-1",
+  "session": "august-2017",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "A part of Jennifer\u2019s work to solve the equation 2(6x2 \u0002 3) \u0003 11x2 \u0002 x is shown below. Given: 2(6x2 \u0002 3) \u0003 11x2 \u0002 x Step 1: 12x2 \u0002 6 \u0003 11x2 \u0002 x Which property justi\ufb01 es her \ufb01 rst step?",
+      "choices": [
+        "identity property of multiplication",
+        "multiplication property of equality",
+        "commutative property of multiplication",
+        "distributive property of multiplication over subtraction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "written",
+      "text": "Which value of x results in equal outputs for j(x) \u0003 3x \u0002 2 and b(x) \u0003 |x \u0004 2|? (1) \u00022 (3) 2__",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "3",
+      "choices": [
+        "(7x \u0002 6)2",
+        "(24.5x \u0002 18)2",
+        "(7x \u0002 6)(7x \u0004 6)",
+        "(24.5x \u0002 18)(24.5x \u0004 18) Part I Answer all 24 questions in this part. Each correct answer will receive 2 credits. No partial credit will be allowed. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For each statement or question, choose the word or expression that, of those given,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "If f(x) \u0003 1__ 2 x2 \u0002 ( 1__ 4 x \u0004 3), what is the value of f(8)?",
+      "choices": [
+        "11",
+        "17",
+        "27",
+        "33"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The graph below models the height of a remote-control helicopter over 20 seconds during \ufb02 ight. y x 10 5 15 20 (0,46) Time (seconds) Height (ft) (5,19) (15,14) (20,17) (10,20) 50 40 30 20 10 Over which interval does the helicopter have the slowest average rate of change?",
+      "choices": [
+        "0 to 5 seconds",
+        "5 to 10 seconds",
+        "10 to 15 seconds",
+        "15 to 20 seconds"
+      ],
+      "image": "/images/exams/algebra-1/august-2017/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "In the functions f(x) \u0003 kx2 and g(x) \u0003 |kx|, k is a positive integer. If k is replaced by 1__ 2 , which statement about these new functions is true?",
+      "choices": [
+        "The graphs of both f(x) and g(x) become wider.",
+        "The graph of f(x) becomes narrower and the graph of g(x) shifts left.",
+        "The graphs of both f(x) and g(x) shift vertically.",
+        "The graph of f(x) shifts left and the graph of g(x)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Wenona sketched the polynomial P(x) as shown on the axes below. P(x) x Which equation could represent P(x)?",
+      "choices": [
+        "P(x) \u0003 (x \u0004 1)(x \u0002 2)2",
+        "P(x) \u0003 (x \u0002 1)(x \u0004 2)2",
+        "P(x) \u0003 (x \u0004 1)(x \u0002 2)",
+        "P(x) \u0003 (x \u0002 1)(x \u0004 2)"
+      ],
+      "image": "/images/exams/algebra-1/august-2017/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which situation does not describe a causal relationship?",
+      "choices": [
+        "The higher the volume on a radio, the louder the sound will be.",
+        "The faster a student types a research paper, the more pages the research paper will have.",
+        "The shorter the time a car remains running, the less gasoline it will use.",
+        "The slower the pace of a runner, the longer it will take the runner to \ufb01"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A plumber has a set fee for a house call and charges by the hour for repairs. The total cost of her services can be modeled by c(t) \u0003 125t \u0004 95. Which statements about this function are true? I. A house call fee costs $95. II. The plumber charges $125 per hour. III. The number of hours the job takes is represented by t.",
+      "choices": [
+        "I and II, only",
+        "I and III, only",
+        "II and III, only",
+        "I, II, and III"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "What is the domain of the relation shown below? {(4,2),(1,1),(0,0),(1,\u00021),(4,\u00022)}",
+      "choices": [
+        "{0, 1, 4}",
+        "{\u00022, \u00021, 0, 1, 2}",
+        "{\u00022, \u00021, 0, 1, 2, 4}",
+        "{\u00022, \u00021, 0, 0, 1, 1, 1, 2, 4, 4}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "What is the solution to the inequality 2 \u0004 4__ 9 x \u2265 4 \u0004 x?",
+      "choices": [
+        "x \u2264 \u000218 __ 5",
+        "x \u2265 \u000218 __ 5",
+        "x \u2264 54 __ 5",
+        "x \u2265 54 __ 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Konnor wants to burn 250 Calories while exercising for 45 minutes at the gym. On the treadmill, he can burn 6 Cal/min. On the stationary bike, he can burn 5 Cal/min. If t represents the number of minutes on the treadmill and b represents the number of minutes on the stationary bike, which expression represents the number of Calories that Konnor can burn on the stationary bike?",
+      "choices": [
+        "b",
+        "5b",
+        "45 \u0002 b",
+        "250 \u0002 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which value of x satis\ufb01 es the equation 5__ 6 ( 3__ 8 \u0002 x) \u0003 16?",
+      "choices": [
+        "\u201319.575",
+        "\u201318.825",
+        "\u201316.3125",
+        "\u201315.6875"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "If a population of 100 cells triples every hour, which function represents p(t), the population after t hours?",
+      "choices": [
+        "p(t) \u0003 3(100)t",
+        "p(t) \u0003 100",
+        "t",
+        "p(t) \u0003 100t \u0004 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "A sequence of blocks is shown in the diagram below. This sequence can be de\ufb01 ned by the recursive function a1 \u0003 1 and an \u0003 an \u0002 1 \u0004 n. Assuming the pattern continues, how many blocks will there be when n \u0003 7?",
+      "choices": [
+        "13",
+        "21",
+        "28",
+        "36"
+      ],
+      "image": "/images/exams/algebra-1/august-2017/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Mario\u2019s $15,000 car depreciates in value at a rate of 19% per year. The value, V, after t years can be modeled by the function V \u0003 15,000(0.81)t. Which function is equivalent to the original function?",
+      "choices": [
+        "V \u0003 15,000(0.9)9t",
+        "V \u0003 15,000(0.9)2t",
+        "V \u0003 15,000(0.9) t__ 9",
+        "V \u0003 15,000(0.9) t__ 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The highest possible grade for a book report is 100. The teacher deducts 10 points for each day the report is late. Which kind of function describes this situation?",
+      "choices": [
+        "linear",
+        "quadratic",
+        "exponential growth",
+        "exponential decay"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The function h(x), which is graphed below, and the function g(x) \u0003 2|x \u0004 4| \u0002 3 are given. y h(x) x Which statements about these functions are true? I. g(x) has a lower minimum value than h(x). II. For all values of x, h(x) \u0005 g(x). III. For any value of x, g(x) \u2260 h(x).",
+      "choices": [
+        "I and II, only",
+        "I and III, only",
+        "II and III, only",
+        "I, II,"
+      ],
+      "image": "/images/exams/algebra-1/august-2017/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The zeros of the function f(x) \u0003 2x3 \u0004 12x \u0002 10x2 are",
+      "choices": [
+        "{2, 3}",
+        "{\u00021, 6}",
+        "{0, 2, 3}",
+        "{0, \u00021, 6}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "How many of the equations listed below represent the line passing through the points (2,3) and (4,\u00027)? 5x \u0004 y \u0003 13 y \u0004 7 \u0003 \u00025(x \u0002 4) y \u0003 \u00025x \u0004 13 y \u0002 7 \u0003 5(x \u0002 4)",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The Ebola virus has an infection rate of 11% per day as compared to the SARS virus, which has a rate of 4% per day. If there were one case of Ebola and 30 cases of SARS initially reported to authorities and cases are reported each day, which statement is true?",
+      "choices": [
+        "At day 10 and day 53 there are more Ebola cases.",
+        "At day 10 and day 53 there are more SARS cases.",
+        "At day 10 there are more SARS cases, but at day 53 there are more Ebola cases.",
+        "At day 10 there are more Ebola cases, but at day 53"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The results of a linear regression are shown below. y \u0003 ax \u0004 b a \u0003 \u00021.15785 b \u0003 139.3171772 r \u0003 \u00020.896557832 r2 \u0003 0.8038159461 Which phrase best describes the relationship between x and y?",
+      "choices": [
+        "strong negative correlation",
+        "strong positive correlation",
+        "weak negative correlation",
+        "weak positive correlation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Abigail\u2019s and Gina\u2019s ages are consecutive integers. Abigail is younger than Gina and Gina\u2019s age is represented by x. If the difference of the square of Gina\u2019s age and eight times Abigail\u2019s age is 17, which equation could be used to \ufb01 nd Gina\u2019s age?",
+      "choices": [
+        "(x \u0004 1)2 \u0002 8x \u0003 17",
+        "(x \u0002 1)2 \u0002 8x \u0003 17",
+        "x2 \u0002 8(x \u0004 1) \u0003 17",
+        "x2 \u0002 8(x \u0002 1) \u0003 17"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which system of equations does not have the same solution as the system below? 4x \u0004 3y \u0003 10 \u00026x \u0002 5y \u0003 \u000216",
+      "choices": [
+        "\u000212x \u0002 9y \u0003 \u000230",
+        "20x \u0004 15y \u0003 50",
+        "24x \u0004 18y \u0003 60 12x \u0004 10y \u0003 32 \u000224x \u0002 20y \u0003 \u000264",
+        "40x \u0004 30y \u0003 100 \u000218x \u0002 15y \u0003 \u000248 36x \u0004 30y \u0003 \u000296"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "A teacher wrote the following set of numbers on the board: a \u0003 \u221a __ 20 b \u0003 2.5 c \u0003 \u221a ___ 225 225 Explain why a \u0004 b is irrational, but b \u0004 c is rational. Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Determine and state whether the sequence 1, 3, 9, 27,\u2026 displays exponential behavior. Explain how you arrived at your decision.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Using the formula for the volume of a cone, express r in terms of V, h, and \u03c0",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The graph below models the cost of renting video games with a membership in Plan A and Plan B. 8 16 24 20 40 60 80 Number of Games Cost (dollars) Plan A Plan B Explain why Plan B is the better choice for Dylan if he only has $50 to spend on video games, including a membership fee. Bobby wants to spend $65 on video games, including a membership fee. Which plan should he choose?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2017/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Samantha purchases a package of sugar cookies. The nutrition label states that each serving size of 3 cookies contains 160 Calories. Samantha creates the graph below showing the number of cookies eaten and the number of Calories consumed. 320 160 0 Cookies Eaten Calories Consumed 480 960 2 4 6 8 10 12 14 640 800 16",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2017/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "A two-inch-long grasshopper can jump a horizontal distance of 40 inches. An athlete, who is \ufb01 ve feet nine, wants to cover a distance of one mile by jumping. If this person could jump at the same ratio of body-length to jump-length as the grasshopper, determine, to the nearest jump,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Write the expression 5x \u0004 4x2(2x \u0004 7) \u0002 6x2 \u0002 9",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Solve the equation x2 \u0002 6x \u0003 15",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Loretta and her family are going on vacation. Their destination is 610 miles from their home. Loretta is going to share some of the driving with her dad. Her average speed while driving is 55 mph and her dad\u2019s average speed while driving is 65 mph. The plan is for Loretta to drive for the \ufb01 rst 4 hours of the trip and her dad to drive for the remainder of the trip. Determine the number of hours it will take her family to reach their destination. After Loretta has been driving for 2 hours, she gets tired and asks her dad to take over. Determine, to the nearest tenth of an hour, how much time the family will save by having Loretta\u2019s dad drive for the remainder of the trip. Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The heights, in feet, of former New York Knicks basketball players are listed below. 6.4 6.9 6.3 6.2 6.3 6.0 6.1 6.3 6.8 6.2 6.5 7.1 6.4 6.3 6.5 6.5 6.4 7.0 6.4 6.3 6.2 6.3 7.0 6.4 6.5 6.5 6.5 6.0 6.2 Using the heights given, complete the frequency table below. Interval Frequency 6.0 \u2013 6.1 6.2 \u2013 6.3 6.4 \u2013 6.5 6.6 \u2013 6.7 6.8 \u2013 6.9 \u2013 7.1 7.0 Question 34 Question 34 continued. Based on the frequency table created,",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2017/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Solve the following system of inequalities graphically on the grid below and label the solution S. 3x \u0004 4y \u0006 20 x \u0005 3y \u0002 18 Is the point (3,7) in the solution set?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2017/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "An Air Force pilot is \ufb02 ying at a cruising altitude of 9000 feet and is forced to eject from her aircraft. The function h(t) \u0003 \u000216t2 \u0004 128t \u0004 9000 models the height, in feet, of the pilot above the ground, where t is the time, in seconds, after she is ejected from the aircraft. Determine and state the vertex of h(t). Explain what the second coordinate of the vertex represents in the context of the problem. After the pilot was ejected, what is the maximum number of feet she was above the aircraft\u2019s cruising altitude?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Zeke and six of his friends are going to a baseball game. Their combined money totals $28.50. At the game, hot dogs cost $1.25 each, hamburgers cost $2.50 each, and sodas cost $0.50 each. Each person buys one soda. They spend all $28.50 on food and soda. Write an equation that can determine the number of hot dogs, x, and hamburgers, y, Zeke and his friends can buy. Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Question 37 Question 37 continued. Graph your equation on the grid below. Determine how many different combinations, including those combinations containing zero, of hot dogs and hamburgers Zeke and his friends can buy, spending all $28.50. Explain your answer. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. High School Math Reference Sheet 1 inch \u0003 2.54 centimeters 1 kilometer \u0003 0.62 mile 1 cup \u0003 8 fluid ounces 1 meter \u0003 39.37 inches 1 pound \u0003 16 ounces 1 pint \u0003 2 cups 1 mile \u0003 5280 feet 1 pound \u0003 0.454 kilogram 1 quart \u0003 2 pints 1 mile \u0003 1760 yards 1 kilogram \u0003 2.2 pounds 1 gallon \u0003 4 quarts 1 mile \u0003 1.609 kilometers 1 ton \u0003 2000 pounds 1 gallon \u0003 3.785 liters 1 liter \u0003 0.264 gallon 1 liter \u0003 1000 cubic centimeters Triangle A \u0003 bh 1 2 Parallelogram A \u0003 bh Circle A \u0003 \u03c0r2 Circle C \u0003 \u03c0d or C \u0003 2\u03c0r General Prisms V \u0003 Bh Cylinder V \u0003 \u03c0r2h Sphere V \u0003 \u03c0r3 4 3 Cone V \u0003 \u03c0r2h 1 3 Pyramid V \u0003 Bh 1 3 Pythagorean Theorem a2 \u0004 b2 \u0003 c2 Quadratic Formula x \u0003 \u0002 \u0007 \u0002 b a b2 2 4ac Arithmetic Sequence an \u0003 a1 \u0004 (n \u0002 1)d Geometric Sequence an \u0003 a1r n \u0002 1 Geometric Series Sn \u0003 where r \b 1 a a r r n 1 1 1 \u0002 \u0002 Radians 1 radian \u0003 degrees 180 \u03c0 Degrees 1 degree \u0003 radians \u03c0 180 Exponential Growth/Decay A \u0003 A0ek(t \u0002 t0) \u0004 B0 Tear Here Tear Here ALGEBRA I ALGEBRA I Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

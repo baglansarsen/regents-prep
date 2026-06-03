@@ -386,8 +386,7 @@ export default {
       correct: 3,
       topic: 'Electricity',
       explanation: 'Current through circuit: I = V/R = 12 V / 3.0 Ω = 4.0 A. Meter X is in series (ammeter) → reads 4.0 A; Meter Y is in parallel across the battery (voltmeter) → reads 12 V.',
-      diveDeep: 'From the diagram, X is connected in series with the resistor (ammeter position) and Y is in parallel across the battery (voltmeter position). I = V/R = 12/3.0 = 4.0 A; voltage across battery = 12 V. Ammeters have very low resistance and are connected in series; voltmeters have very high resistance and are connected in parallel. A common mistake is confusing which meter is X and which is Y by not reading the circuit diagram carefully. Always identify series vs. parallel connections first.'
-    },
+      diveDeep: 'From the diagram, X is connected in series with the resistor (ammeter position) and Y is in parallel across the battery (voltmeter position). I = V/R = 12/3.0 = 4.0 A; voltage across battery = 12 V. Ammeters have very low resistance and are connected in series; voltmeters have very high resistance and are connected in parallel. A common mistake is confusing which meter is X and which is Y by not reading the circuit diagram carefully. Always identify series vs. parallel connections first.', image: '/images/exams/phys-june-2018/q43.png' },
     {
       number: 44,
       part: 'B-1',
@@ -418,8 +417,7 @@ export default {
       correct: 0,
       topic: 'Kinematics',
       explanation: 'For free fall from rest: position increases as d = ½gt² (parabola) and velocity increases linearly as v = gt (straight line with positive slope starting from zero).',
-      diveDeep: 'Under constant gravitational acceleration: d = ½gt² gives a parabolic position-time graph (starts at origin, curves upward). v = gt gives a linear velocity-time graph with constant positive slope equal to g. A common mistake is choosing a linear d-t graph (which would imply constant velocity, not acceleration). Another mistake is choosing a curved v-t graph (which would imply changing acceleration). These graph shapes are among the most tested Regents concepts in kinematics.'
-    },
+      diveDeep: 'Under constant gravitational acceleration: d = ½gt² gives a parabolic position-time graph (starts at origin, curves upward). v = gt gives a linear velocity-time graph with constant positive slope equal to g. A common mistake is choosing a linear d-t graph (which would imply constant velocity, not acceleration). Another mistake is choosing a curved v-t graph (which would imply changing acceleration). These graph shapes are among the most tested Regents concepts in kinematics.', image: '/images/exams/phys-june-2018/q45.png' },
     {
       number: 46,
       part: 'B-1',
@@ -434,8 +432,7 @@ export default {
       correct: 0,
       topic: 'Energy & Work',
       explanation: 'KE = ½mv² and PE = mgh. Since total energy is conserved: KE + PE = constant → KE = E_total − mgh. This is linear in h with a negative slope.',
-      diveDeep: 'By conservation of energy (no friction): KE + PE = constant. PE = mgh increases linearly with height, so KE = E_total − mgh decreases linearly with height. The KE vs. h graph is a straight line with negative slope, starting at maximum KE (at h = 0) and reaching zero KE at maximum height. Students often incorrectly choose a curved graph. The linear relationship comes from PE being linear in h, not quadratic. This is one of the most important energy-conservation graph relationships on the Regents.'
-    },
+      diveDeep: 'By conservation of energy (no friction): KE + PE = constant. PE = mgh increases linearly with height, so KE = E_total − mgh decreases linearly with height. The KE vs. h graph is a straight line with negative slope, starting at maximum KE (at h = 0) and reaching zero KE at maximum height. Students often incorrectly choose a curved graph. The linear relationship comes from PE being linear in h, not quadratic. This is one of the most important energy-conservation graph relationships on the Regents.', image: '/images/exams/phys-june-2018/q46.png' },
     {
       number: 47,
       part: 'B-1',
@@ -450,8 +447,7 @@ export default {
       correct: 0,
       topic: 'Waves & Sound',
       explanation: 'In a longitudinal wave, particles oscillate parallel to the direction of wave propagation. Since the wave travels right, particle X moves back and forth left and right.',
-      diveDeep: 'Longitudinal waves (like sound and compression waves in a spring/Slinky) cause particle displacement parallel to the wave\'s direction of travel. The particle oscillates back and forth (compression and rarefaction) along the same axis as the wave moves. Transverse waves (like light, or waves on a string) cause perpendicular displacement. A spring (Slinky) demonstration clearly shows longitudinal motion. The Regents reference table classifies waves by type; knowing longitudinal vs. transverse is essential.'
-    },
+      diveDeep: 'Longitudinal waves (like sound and compression waves in a spring/Slinky) cause particle displacement parallel to the wave\'s direction of travel. The particle oscillates back and forth (compression and rarefaction) along the same axis as the wave moves. Transverse waves (like light, or waves on a string) cause perpendicular displacement. A spring (Slinky) demonstration clearly shows longitudinal motion. The Regents reference table classifies waves by type; knowing longitudinal vs. transverse is essential.', image: '/images/exams/phys-june-2018/q47.png' },
     {
       number: 48,
       part: 'B-1',
@@ -466,8 +462,7 @@ export default {
       correct: 1,
       topic: 'Waves & Sound',
       explanation: 'When two pulses of equal amplitude on the same side of the rope overlap, constructive interference occurs. The resultant amplitude = 0.30 + 0.30 = 0.60 m.',
-      diveDeep: 'The principle of superposition states that when waves overlap, the resultant displacement equals the algebraic sum of individual displacements. If both pulses are on the same side (both upward), amplitudes add: 0.30 + 0.30 = 0.60 m (constructive interference). If they are on opposite sides, they would cancel: 0.30 − 0.30 = 0 (destructive interference). The diagram in the question shows both pulses on the same side, giving constructive interference and a resultant of 0.60 m. After passing through each other, the pulses return to their original shapes.'
-    },
+      diveDeep: 'The principle of superposition states that when waves overlap, the resultant displacement equals the algebraic sum of individual displacements. If both pulses are on the same side (both upward), amplitudes add: 0.30 + 0.30 = 0.60 m (constructive interference). If they are on opposite sides, they would cancel: 0.30 − 0.30 = 0 (destructive interference). The diagram in the question shows both pulses on the same side, giving constructive interference and a resultant of 0.60 m. After passing through each other, the pulses return to their original shapes.', image: '/images/exams/phys-june-2018/q48.png' },
     {
       number: 49,
       part: 'B-1',
@@ -482,8 +477,7 @@ export default {
       correct: 2,
       topic: 'Waves & Sound',
       explanation: 'This is the Doppler effect. As the car approaches, the observer detects a higher-than-emitted frequency (constant). As the car passes and recedes, the detected frequency drops suddenly to a lower constant value.',
-      diveDeep: 'The Doppler effect: when a source moves toward an observer, detected frequency is higher than emitted; when moving away, it is lower. Since car speed is constant, the detected frequency is constant (but elevated) while approaching, then drops sharply as the car passes, and remains at a lower constant value while receding. The graph looks like a step function: flat high, instant drop, flat low. This is distinct from a gradual change — at constant source speed the frequency heard is constant on each side. The Regents commonly presents this as a graph-interpretation question.'
-    },
+      diveDeep: 'The Doppler effect: when a source moves toward an observer, detected frequency is higher than emitted; when moving away, it is lower. Since car speed is constant, the detected frequency is constant (but elevated) while approaching, then drops sharply as the car passes, and remains at a lower constant value while receding. The graph looks like a step function: flat high, instant drop, flat low. This is distinct from a gradual change — at constant source speed the frequency heard is constant on each side. The Regents commonly presents this as a graph-interpretation question.', image: '/images/exams/phys-june-2018/q49.png' },
     {
       number: 50,
       part: 'B-1',
@@ -511,8 +505,7 @@ export default {
       modelAnswer: 'The scale is 4.0 newtons per unit length (i.e., 1 cm = 4.0 N, or whichever unit is used on the diagram). Students measure the vector representing force A (32 N) on the diagram and divide: scale = 32 N ÷ (measured length). For example, if force A is drawn as 8.0 cm, the scale = 32 N / 8.0 cm = 4.0 N/cm.',
       topic: 'Forces & Newton',
       explanation: 'The linear scale is determined by measuring the length of a known vector (e.g., force A = 32 N) on the diagram and dividing the force magnitude by that length.',
-      diveDeep: 'To determine the scale: measure the drawn length of one of the given vectors (using a ruler), then divide the known magnitude by that length. For example, if force A (32 N) is drawn as 8 cm, the scale is 4 N/cm. This scale must then be used consistently to interpret the resultant vector\'s length. Vector diagrams on the Regents always include a stated or implied scale, and students must apply it correctly to convert lengths to force magnitudes.'
-    },
+      diveDeep: 'To determine the scale: measure the drawn length of one of the given vectors (using a ruler), then divide the known magnitude by that length. For example, if force A (32 N) is drawn as 8 cm, the scale is 4 N/cm. This scale must then be used consistently to interpret the resultant vector\'s length. Vector diagrams on the Regents always include a stated or implied scale, and students must apply it correctly to convert lengths to force magnitudes.', image: '/images/exams/phys-june-2018/context_51_53.png' },
     {
       number: 52,
       part: 'B-2',
@@ -521,8 +514,7 @@ export default {
       modelAnswer: 'Draw force A and force B to scale with 120° between them at point P. Complete the parallelogram by drawing lines parallel to each force vector from the tip of the other. Draw the diagonal from point P to the opposite corner — this diagonal is the resultant R. Label it R with an arrowhead pointing away from P.',
       topic: 'Forces & Newton',
       explanation: 'The resultant of two concurrent forces is found using the parallelogram law: construct parallel sides from each vector tip and draw the diagonal from the common origin.',
-      diveDeep: 'The parallelogram method for vector addition: place both vectors tail-to-tail at point P, draw lines parallel to each from the tip of the other, and the resultant R is the diagonal of the parallelogram from P. Alternatively, use the tip-to-tail (head-to-tail) method: draw force A, then draw force B starting from the tip of A; R goes from the start of A to the tip of B. The angle of 120° between A and B is crucial for placement. This construction method appears frequently on B-2 of the Physics Regents.'
-    },
+      diveDeep: 'The parallelogram method for vector addition: place both vectors tail-to-tail at point P, draw lines parallel to each from the tip of the other, and the resultant R is the diagonal of the parallelogram from P. Alternatively, use the tip-to-tail (head-to-tail) method: draw force A, then draw force B starting from the tip of A; R goes from the start of A to the tip of B. The angle of 120° between A and B is crucial for placement. This construction method appears frequently on B-2 of the Physics Regents.', image: '/images/exams/phys-june-2018/context_51_53.png' },
     {
       number: 53,
       part: 'B-2',
@@ -531,8 +523,7 @@ export default {
       modelAnswer: 'Using the law of cosines: R² = A² + B² − 2AB·cos(180° − 120°) = 32² + 20² − 2(32)(20)cos(60°) = 1024 + 400 − 1280(0.5) = 1424 − 640 = 784. R = √784 = 28 N.\n\nAlternatively, measure the length of vector R on the constructed diagram and multiply by the scale factor to get approximately 28 N.',
       topic: 'Forces & Newton',
       explanation: 'The magnitude of the resultant is found by measuring the diagonal of the parallelogram on the diagram and applying the scale, or by using the law of cosines analytically.',
-      diveDeep: 'Analytically: the angle between vectors in the parallelogram is the supplement of the given angle when using the law of cosines for the resultant. The angle between A and B is 120°, so the angle used in the parallelogram diagonal formula is 180° − 120° = 60°. R = √(32² + 20² − 2·32·20·cos60°) = √(1024 + 400 − 640) = √784 = 28 N. Graphically, measure R on the diagram and apply the scale. The Regents accepts either method; show all work for full credit.'
-    },
+      diveDeep: 'Analytically: the angle between vectors in the parallelogram is the supplement of the given angle when using the law of cosines for the resultant. The angle between A and B is 120°, so the angle used in the parallelogram diagonal formula is 180° − 120° = 60°. R = √(32² + 20² − 2·32·20·cos60°) = √(1024 + 400 − 640) = √784 = 28 N. Graphically, measure R on the diagram and apply the scale. The Regents accepts either method; show all work for full credit.', image: '/images/exams/phys-june-2018/context_51_53.png' },
     {
       number: 54,
       part: 'B-2',
@@ -541,8 +532,7 @@ export default {
       modelAnswer: 'Equation: W = Fd\nSubstitution: W = (25 N)(6.0 m)\nAnswer: W = 150 J\n\nThe student applies 25 N parallel to the incline over a distance of 6.0 m along the incline, so total work done by the student = 150 J.',
       topic: 'Energy & Work',
       explanation: 'Work done by the student equals the applied force (parallel to displacement) multiplied by the distance traveled along the incline: W = Fd = 25 × 6.0 = 150 J.',
-      diveDeep: 'W = F·d·cosθ where θ is the angle between force and displacement. Since the force is applied parallel to the incline and motion is along the incline, θ = 0°, cos0° = 1, so W = Fd = (25 N)(6.0 m) = 150 J. Note: this is the work done by the student, not the net work on the box (which is zero at constant speed). The gravitational PE gained is mgh = (50)(2.0) = 100 J, and the "extra" 50 J goes to overcoming friction. Always specify whose work and on what object.'
-    },
+      diveDeep: 'W = F·d·cosθ where θ is the angle between force and displacement. Since the force is applied parallel to the incline and motion is along the incline, θ = 0°, cos0° = 1, so W = Fd = (25 N)(6.0 m) = 150 J. Note: this is the work done by the student, not the net work on the box (which is zero at constant speed). The gravitational PE gained is mgh = (50)(2.0) = 100 J, and the "extra" 50 J goes to overcoming friction. Always specify whose work and on what object.', image: '/images/exams/phys-june-2018/context_54_56.png' },
     {
       number: 55,
       part: 'B-2',
@@ -551,8 +541,7 @@ export default {
       modelAnswer: 'See question 54 for the complete solution. Work by student = W = Fd = (25 N)(6.0 m) = 150 J.',
       topic: 'Energy & Work',
       explanation: 'See question 54. The two-point calculation requires the equation W = Fd, substitution with units, and the answer 150 J.',
-      diveDeep: 'On the Regents, questions labeled "54–55" share two points: one for the equation and setup, one for the correct numerical answer. Always write the formula first, substitute values with units, then calculate. This work (150 J) by the student accounts for both overcoming gravity (100 J) and friction (50 J) — demonstrating that work done against friction is the "extra" energy not stored as PE.'
-    },
+      diveDeep: 'On the Regents, questions labeled "54–55" share two points: one for the equation and setup, one for the correct numerical answer. Always write the formula first, substitute values with units, then calculate. This work (150 J) by the student accounts for both overcoming gravity (100 J) and friction (50 J) — demonstrating that work done against friction is the "extra" energy not stored as PE.', image: '/images/exams/phys-june-2018/context_54_56.png' },
     {
       number: 56,
       part: 'B-2',
@@ -561,8 +550,7 @@ export default {
       modelAnswer: 'The total work done by the student would increase. A higher coefficient of kinetic friction means a larger frictional force opposing motion. To maintain constant speed, the student must apply a greater force, and therefore does more work over the same 6.0-meter distance.',
       topic: 'Forces & Newton',
       explanation: 'Increasing the coefficient of kinetic friction increases the friction force. To maintain constant speed, the applied force must increase, so W = Fd increases.',
-      diveDeep: 'At constant speed, net force = 0, so the applied force must equal the sum of friction and the component of gravity along the incline. If μ_k increases, friction force f_k = μ_k·F_N increases, requiring a larger applied force F. Since W = Fd and d is fixed (6.0 m), more force means more work. The extra work goes entirely into overcoming the increased friction (converted to heat), while the gravitational PE gained (mgh = 100 J) stays the same. This illustrates the energy cost of friction on inclined surfaces.'
-    },
+      diveDeep: 'At constant speed, net force = 0, so the applied force must equal the sum of friction and the component of gravity along the incline. If μ_k increases, friction force f_k = μ_k·F_N increases, requiring a larger applied force F. Since W = Fd and d is fixed (6.0 m), more force means more work. The extra work goes entirely into overcoming the increased friction (converted to heat), while the gravitational PE gained (mgh = 100 J) stays the same. This illustrates the energy cost of friction on inclined surfaces.', image: '/images/exams/phys-june-2018/context_54_56.png' },
     {
       number: 57,
       part: 'B-2',
@@ -571,8 +559,7 @@ export default {
       modelAnswer: 'Measure the angle of incidence (the angle between the incident ray and the normal to the surface at the point of incidence). Draw the reflected ray on the opposite side of the normal such that the angle of reflection equals the angle of incidence. The reflected ray remains in the glass medium (on the same side of the interface as the incident ray). Use a protractor to ensure the angles are equal.',
       topic: 'Waves & Sound',
       explanation: 'The law of reflection states that the angle of incidence equals the angle of reflection, both measured from the normal to the surface at the point of incidence.',
-      diveDeep: 'The law of reflection: θ_i = θ_r (angles measured from the normal, not the surface). The incident ray, reflected ray, and normal are all in the same plane. For a glass-air interface, some light is always reflected back into the glass regardless of angle (partial reflection). Total internal reflection occurs only when the angle of incidence exceeds the critical angle and light attempts to go from the denser medium (glass) to the less dense medium (air). For this question, construct the reflected ray on the glass side at the same angle from the normal as the incident ray.'
-    },
+      diveDeep: 'The law of reflection: θ_i = θ_r (angles measured from the normal, not the surface). The incident ray, reflected ray, and normal are all in the same plane. For a glass-air interface, some light is always reflected back into the glass regardless of angle (partial reflection). Total internal reflection occurs only when the angle of incidence exceeds the critical angle and light attempts to go from the denser medium (glass) to the less dense medium (air). For this question, construct the reflected ray on the glass side at the same angle from the normal as the incident ray.', image: '/images/exams/phys-june-2018/q57.png' },
     {
       number: 58,
       part: 'B-2',
@@ -664,8 +651,7 @@ export default {
       modelAnswer: 'Resistivity of tungsten at 20°C from reference table: ρ = 5.60 × 10⁻⁸ Ω·m\n\nEquation: R = ρL/A  →  A = ρL/R\n\nSubstitution: A = (5.60 × 10⁻⁸ Ω·m × 0.22 m) / (19 Ω)\n\nA = (1.232 × 10⁻⁸ Ω·m²) / (19 Ω)\n\nA ≈ 6.5 × 10⁻¹⁰ m²\n\nThe cross-sectional area of the tungsten filament is approximately 6.5 × 10⁻¹⁰ m².',
       topic: 'Electricity',
       explanation: 'Using R = ρL/A and solving for A: A = ρL/R = (5.60 × 10⁻⁸ Ω·m)(0.22 m)/(19 Ω) ≈ 6.5 × 10⁻¹⁰ m².',
-      diveDeep: 'The resistance formula R = ρL/A (from the Regents reference table) connects resistivity ρ, length L, cross-sectional area A, and resistance R. Solving for A: A = ρL/R. Plugging in ρ_W = 5.60 × 10⁻⁸ Ω·m (from the reference table at 20°C), L = 0.22 m, R = 19 Ω (resistance at 20°C): A = (5.60 × 10⁻⁸)(0.22)/19 ≈ 6.5 × 10⁻¹⁰ m². This tiny area (about 29 μm diameter) explains why the filament is so thin and resistive. The 240-Ω operating resistance is given for other parts.'
-    },
+      diveDeep: 'The resistance formula R = ρL/A (from the Regents reference table) connects resistivity ρ, length L, cross-sectional area A, and resistance R. Solving for A: A = ρL/R. Plugging in ρ_W = 5.60 × 10⁻⁸ Ω·m (from the reference table at 20°C), L = 0.22 m, R = 19 Ω (resistance at 20°C): A = (5.60 × 10⁻⁸)(0.22)/19 ≈ 6.5 × 10⁻¹⁰ m². This tiny area (about 29 μm diameter) explains why the filament is so thin and resistive. The 240-Ω operating resistance is given for other parts.', image: '/images/exams/phys-june-2018/context_66_70.png' },
     {
       number: 67,
       part: 'C',
@@ -674,8 +660,7 @@ export default {
       modelAnswer: 'A = ρL/R = (5.60 × 10⁻⁸ Ω·m)(0.22 m)/(19 Ω) ≈ 6.5 × 10⁻¹⁰ m². See question 66.',
       topic: 'Electricity',
       explanation: 'Cross-sectional area ≈ 6.5 × 10⁻¹⁰ m². See question 66.',
-      diveDeep: 'See question 66. The cross-sectional area is extremely small (~6.5 × 10⁻¹⁰ m²), which gives the filament high resistance per unit length. The equation A = ρL/R requires the resistivity at 20°C (matching the 19 Ω resistance given at 20°C). Never mix temperatures: use the 240 Ω resistance for the operating temperature calculations in questions 69–70.'
-    },
+      diveDeep: 'See question 66. The cross-sectional area is extremely small (~6.5 × 10⁻¹⁰ m²), which gives the filament high resistance per unit length. The equation A = ρL/R requires the resistivity at 20°C (matching the 19 Ω resistance given at 20°C). Never mix temperatures: use the 240 Ω resistance for the operating temperature calculations in questions 69–70.', image: '/images/exams/phys-june-2018/context_66_70.png' },
     {
       number: 68,
       part: 'C',
@@ -684,8 +669,7 @@ export default {
       modelAnswer: 'When the bulb is operating, electrical energy heats the filament to a very high temperature (approximately 2500–3000°C). As temperature increases, the metal ions in the tungsten lattice vibrate more vigorously, increasing the number of collisions with free electrons. This increased collision frequency impedes electron flow more, resulting in higher resistance.',
       topic: 'Electricity',
       explanation: 'In metals, resistance increases with temperature because higher thermal energy causes greater lattice vibration, increasing electron scattering and impeding current flow.',
-      diveDeep: 'Tungsten is a metallic conductor. In metals, resistance has a positive temperature coefficient: R increases with temperature. The physical reason: at higher temperatures, metal ions vibrate with greater amplitude, increasing the probability of collisions with conduction electrons. These collisions impede electron drift, raising resistivity ρ. The Regents reference table lists resistivity at 20°C; at operating temperature (~2500°C), tungsten\'s resistivity is roughly 12–13 times higher, consistent with R rising from 19 Ω to 240 Ω. This is a key conceptual question about metallic conductors vs. semiconductors (which have the opposite temperature dependence).'
-    },
+      diveDeep: 'Tungsten is a metallic conductor. In metals, resistance has a positive temperature coefficient: R increases with temperature. The physical reason: at higher temperatures, metal ions vibrate with greater amplitude, increasing the probability of collisions with conduction electrons. These collisions impede electron drift, raising resistivity ρ. The Regents reference table lists resistivity at 20°C; at operating temperature (~2500°C), tungsten\'s resistivity is roughly 12–13 times higher, consistent with R rising from 19 Ω to 240 Ω. This is a key conceptual question about metallic conductors vs. semiconductors (which have the opposite temperature dependence).', image: '/images/exams/phys-june-2018/context_66_70.png' },
     {
       number: 69,
       part: 'C',
@@ -694,8 +678,7 @@ export default {
       modelAnswer: 'Equation: P = V²/R\nSubstitution: P = (120 V)² / (240 Ω)\nP = 14400 / 240\nP = 60. W\n\nThe power of the lightbulb is 60. watts.\n\nAlternative: I = V/R = 120/240 = 0.50 A; P = IV = (0.50)(120) = 60. W.',
       topic: 'Electricity',
       explanation: 'Using P = V²/R with V = 120 V and R = 240 Ω (operating resistance): P = (120)²/240 = 14400/240 = 60. W.',
-      diveDeep: 'Three equivalent power equations: P = IV = I²R = V²/R. With V = 120 V and R = 240 Ω (the operating resistance at full temperature), P = V²/R = 14400/240 = 60 W. This is a classic 60-watt incandescent lightbulb — a recognizable real-world result that confirms the calculation. A common mistake is using the cold resistance (19 Ω) instead of the operating resistance (240 Ω), giving P = 14400/19 ≈ 758 W — clearly unreasonable for a household bulb. Always use the resistance at the operating condition.'
-    },
+      diveDeep: 'Three equivalent power equations: P = IV = I²R = V²/R. With V = 120 V and R = 240 Ω (the operating resistance at full temperature), P = V²/R = 14400/240 = 60 W. This is a classic 60-watt incandescent lightbulb — a recognizable real-world result that confirms the calculation. A common mistake is using the cold resistance (19 Ω) instead of the operating resistance (240 Ω), giving P = 14400/19 ≈ 758 W — clearly unreasonable for a household bulb. Always use the resistance at the operating condition.', image: '/images/exams/phys-june-2018/context_66_70.png' },
     {
       number: 70,
       part: 'C',
@@ -704,8 +687,7 @@ export default {
       modelAnswer: 'P = V²/R = (120 V)² / (240 Ω) = 60. W. See question 69.',
       topic: 'Electricity',
       explanation: 'Power = 60. W. See question 69 for full solution.',
-      diveDeep: 'See question 69. Power equations P = IV = I²R = V²/R are all on the Regents reference table. For this problem, P = V²/R is most direct since V and R (operating) are given. The 60 W result matches a standard incandescent household bulb, reinforcing that the operating resistance (240 Ω) must be used, not the cold resistance (19 Ω).'
-    },
+      diveDeep: 'See question 69. Power equations P = IV = I²R = V²/R are all on the Regents reference table. For this problem, P = V²/R is most direct since V and R (operating) are given. The 60 W result matches a standard incandescent household bulb, reinforcing that the operating resistance (240 Ω) must be used, not the cold resistance (19 Ω).', image: '/images/exams/phys-june-2018/context_66_70.png' },
     {
       number: 71,
       part: 'C',
@@ -714,8 +696,7 @@ export default {
       modelAnswer: 'Equation: F_x = F cos θ\nSubstitution: F_x = (150 N)(cos 30.°)\nF_x = (150 N)(0.866)\nF_x ≈ 130 N\n\nThe horizontal component of the applied force is approximately 130 newtons.',
       topic: 'Forces & Newton',
       explanation: 'The horizontal component of a force at angle θ above horizontal is F_x = F cosθ = (150 N)(cos 30°) ≈ (150)(0.866) ≈ 130 N.',
-      diveDeep: 'Vector resolution: any force at angle θ from horizontal has components F_x = F cosθ (horizontal) and F_y = F sinθ (vertical). F_x = 150 cos30° = 150 × 0.8660 ≈ 129.9 N ≈ 130 N. This horizontal component does work on the crate and must equal friction (since constant velocity means net force = 0). The vertical component (F_y = 150 sin30° = 75 N) is upward, reducing the normal force. This two-dimensional force analysis is a core Regents skill.'
-    },
+      diveDeep: 'Vector resolution: any force at angle θ from horizontal has components F_x = F cosθ (horizontal) and F_y = F sinθ (vertical). F_x = 150 cos30° = 150 × 0.8660 ≈ 129.9 N ≈ 130 N. This horizontal component does work on the crate and must equal friction (since constant velocity means net force = 0). The vertical component (F_y = 150 sin30° = 75 N) is upward, reducing the normal force. This two-dimensional force analysis is a core Regents skill.', image: '/images/exams/phys-june-2018/context_71_75.png' },
     {
       number: 72,
       part: 'C',
@@ -724,8 +705,7 @@ export default {
       modelAnswer: 'F_x = F cosθ = (150 N)(cos 30.°) = (150)(0.866) ≈ 130 N. See question 71.',
       topic: 'Forces & Newton',
       explanation: 'Horizontal component ≈ 130 N. See question 71.',
-      diveDeep: 'See question 71. cos 30° = √3/2 ≈ 0.866. Rounding to the appropriate significant figures: F_x ≈ 130 N (3 significant figures matching the given 150 N and 30.°). The dot above 30° in "30.°" indicates the zero is significant, so three sig figs is appropriate here.'
-    },
+      diveDeep: 'See question 71. cos 30° = √3/2 ≈ 0.866. Rounding to the appropriate significant figures: F_x ≈ 130 N (3 significant figures matching the given 150 N and 30.°). The dot above 30° in "30.°" indicates the zero is significant, so three sig figs is appropriate here.', image: '/images/exams/phys-june-2018/context_71_75.png' },
     {
       number: 73,
       part: 'C',
@@ -734,8 +714,7 @@ export default {
       modelAnswer: 'Since the crate moves at constant velocity, the net force is zero. Therefore the frictional force equals the horizontal component of the applied force:\n\nf = F_x = F cos30° ≈ 130 N\n\nThe frictional force is approximately 130 newtons.',
       topic: 'Forces & Newton',
       explanation: 'At constant velocity, net force = 0. Friction must equal the horizontal driving force: f = F cosθ = 150 cos30° ≈ 130 N.',
-      diveDeep: 'Newton\'s first law: constant velocity → net force = 0. Horizontally: F cosθ − f = 0 → f = F cos30° ≈ 130 N. This is the kinetic friction force since the crate is sliding. No calculation beyond recognizing force balance is needed for this 1-point question. Note: students sometimes try to use f = μF_N, but without μ or F_N explicitly given, the equilibrium approach is simpler and sufficient.'
-    },
+      diveDeep: 'Newton\'s first law: constant velocity → net force = 0. Horizontally: F cosθ − f = 0 → f = F cos30° ≈ 130 N. This is the kinetic friction force since the crate is sliding. No calculation beyond recognizing force balance is needed for this 1-point question. Note: students sometimes try to use f = μF_N, but without μ or F_N explicitly given, the equilibrium approach is simpler and sufficient.', image: '/images/exams/phys-june-2018/context_71_75.png' },
     {
       number: 74,
       part: 'C',
@@ -744,8 +723,7 @@ export default {
       modelAnswer: 'The crate moves at constant velocity (no vertical acceleration). Vertical equilibrium:\n\nF_N + F_y − W = 0\n\nwhere F_y = F sin30° = (150 N)(sin 30°) = (150)(0.500) = 75 N (upward component of applied force)\nand W = weight of the crate (given as needed from the problem — if the crate weighs W, then F_N = W − 75 N).\n\nNote: The original problem states the crate is on a horizontal wooden floor with a 150-N applied force. If the crate\'s weight is not provided in the exam, the answer is expressed as F_N = W − F sin30°. However, for a typical Regents scenario where the crate weight must be found from additional info, the examiner expects: F_N = W − (150)(sin30°) = W − 75 N.\n\nFor the June 2018 exam, the crate\'s weight is not given in the passage — students express the answer as: F_N = W_crate − 75 N, or if a weight is inferred from context (e.g., μ_k × F_N = friction), use that. The expected method is to set up the vertical equilibrium equation.',
       topic: 'Forces & Newton',
       explanation: 'Vertically: F_N + F sinθ = W (weight of crate). The applied force has an upward component that reduces the normal force: F_N = W − F sin30° = W − 75 N.',
-      diveDeep: 'Vertical equilibrium (no vertical acceleration): F_N (up) + F sinθ (up) − W (down) = 0, so F_N = W − F sinθ = W − (150)(0.5) = W − 75 N. The upward component of the applied force reduces the normal force below the object\'s weight — this reduces friction, which is why pushing at an angle can be advantageous. If the weight were given (e.g., W = 200 N), F_N = 200 − 75 = 125 N. Without a stated crate weight, the formula F_N = W − 75 N is the complete answer.'
-    },
+      diveDeep: 'Vertical equilibrium (no vertical acceleration): F_N (up) + F sinθ (up) − W (down) = 0, so F_N = W − F sinθ = W − (150)(0.5) = W − 75 N. The upward component of the applied force reduces the normal force below the object\'s weight — this reduces friction, which is why pushing at an angle can be advantageous. If the weight were given (e.g., W = 200 N), F_N = 200 − 75 = 125 N. Without a stated crate weight, the formula F_N = W − 75 N is the complete answer.', image: '/images/exams/phys-june-2018/context_71_75.png' },
     {
       number: 75,
       part: 'C',
@@ -754,8 +732,7 @@ export default {
       modelAnswer: 'F_N = W_crate − F sin30° = W_crate − (150 N)(0.500) = W_crate − 75 N. See question 74.',
       topic: 'Forces & Newton',
       explanation: 'Normal force = crate weight − 75 N. See question 74 for full vertical equilibrium solution.',
-      diveDeep: 'See question 74. The key insight is that the applied force has an upward component (F sinθ = 75 N) that partially supports the crate, reducing the floor\'s normal force below the crate\'s weight. This is why the normal force equation on an inclined-force problem is F_N = W − F sinθ, not simply F_N = W.'
-    },
+      diveDeep: 'See question 74. The key insight is that the applied force has an upward component (F sinθ = 75 N) that partially supports the crate, reducing the floor\'s normal force below the crate\'s weight. This is why the normal force equation on an inclined-force problem is F_N = W − F sinθ, not simply F_N = W.', image: '/images/exams/phys-june-2018/context_71_75.png' },
     {
       number: 76,
       part: 'C',
@@ -764,8 +741,7 @@ export default {
       modelAnswer: 'Equation: a_c = v²/r  →  v = √(a_c × r)\nSubstitution: v = √(3.2 m/s² × 45 m)\nv = √(144 m²/s²)\nv = 12 m/s\n\nThe car\'s speed is 12 meters per second.',
       topic: 'Kinematics',
       explanation: 'Centripetal acceleration a_c = v²/r. Solving for v: v = √(a_c × r) = √(3.2 × 45) = √144 = 12 m/s.',
-      diveDeep: 'The centripetal acceleration formula a_c = v²/r relates the center-directed acceleration to speed and radius. Solving for v: v = √(a_c · r) = √(3.2 × 45) = √144 = 12 m/s. Note that this is a perfectly clean answer — 3.2 × 45 = 144, and √144 = 12 exactly. When Regents problems give "nice" numbers like this, it is a good sign you are on the right track. The formula a_c = v²/r is on the Regents reference table.'
-    },
+      diveDeep: 'The centripetal acceleration formula a_c = v²/r relates the center-directed acceleration to speed and radius. Solving for v: v = √(a_c · r) = √(3.2 × 45) = √144 = 12 m/s. Note that this is a perfectly clean answer — 3.2 × 45 = 144, and √144 = 12 exactly. When Regents problems give "nice" numbers like this, it is a good sign you are on the right track. The formula a_c = v²/r is on the Regents reference table.', image: '/images/exams/phys-june-2018/context_76_80.png' },
     {
       number: 77,
       part: 'C',
@@ -774,8 +750,7 @@ export default {
       modelAnswer: 'v = √(a_c × r) = √(3.2 m/s² × 45 m) = √144 = 12 m/s. See question 76.',
       topic: 'Kinematics',
       explanation: 'Car speed = 12 m/s. See question 76 for full solution.',
-      diveDeep: 'See question 76. 12 m/s ≈ 43 km/h ≈ 27 mph — a reasonable city driving speed for a curve with 45-meter radius. This real-world reasonableness check confirms the answer. Units: √(m/s² × m) = √(m²/s²) = m/s ✓.'
-    },
+      diveDeep: 'See question 76. 12 m/s ≈ 43 km/h ≈ 27 mph — a reasonable city driving speed for a curve with 45-meter radius. This real-world reasonableness check confirms the answer. Units: √(m/s² × m) = √(m²/s²) = m/s ✓.', image: '/images/exams/phys-june-2018/context_76_80.png' },
     {
       number: 78,
       part: 'C',
@@ -784,8 +759,7 @@ export default {
       modelAnswer: 'F_c = ma_c = (1500 kg)(3.2 m/s²) = 4800 N\n\nThe centripetal force is 4800 newtons.',
       topic: 'Forces & Newton',
       explanation: 'F_c = ma_c = (1500 kg)(3.2 m/s²) = 4800 N.',
-      diveDeep: 'By Newton\'s second law, F_net = ma. The centripetal force F_c = ma_c = (1500)(3.2) = 4800 N directed toward the center of the curve. This is not a separate "new" force — it is the net force provided by friction (or banked road normal force) that causes the circular motion. A common mistake is computing F_c = mv²/r with v = 12: F_c = 1500 × 144/45 = 1500 × 3.2 = 4800 N ✓ — same result, confirming consistency.'
-    },
+      diveDeep: 'By Newton\'s second law, F_net = ma. The centripetal force F_c = ma_c = (1500)(3.2) = 4800 N directed toward the center of the curve. This is not a separate "new" force — it is the net force provided by friction (or banked road normal force) that causes the circular motion. A common mistake is computing F_c = mv²/r with v = 12: F_c = 1500 × 144/45 = 1500 × 3.2 = 4800 N ✓ — same result, confirming consistency.', image: '/images/exams/phys-june-2018/context_76_80.png' },
     {
       number: 79,
       part: 'C',
@@ -794,8 +768,7 @@ export default {
       modelAnswer: 'Friction between the car\'s tires and the road surface provides the centripetal force.',
       topic: 'Forces & Newton',
       explanation: 'On a flat, level road, the only horizontal force available to provide centripetal acceleration is the static friction between the tires and the road surface.',
-      diveDeep: 'For a car turning on a flat horizontal road, there is no banked surface to provide a horizontal normal force component. The only horizontal force is static friction between the tires and the road (static because the contact point is momentarily at rest relative to the road). This frictional force points toward the center of curvature and provides the centripetal force. This is why cars cannot turn on ice (low friction) without sliding outward. The maximum safe speed for a curve depends on μ_s: v_max = √(μ_s g r).'
-    },
+      diveDeep: 'For a car turning on a flat horizontal road, there is no banked surface to provide a horizontal normal force component. The only horizontal force is static friction between the tires and the road (static because the contact point is momentarily at rest relative to the road). This frictional force points toward the center of curvature and provides the centripetal force. This is why cars cannot turn on ice (low friction) without sliding outward. The maximum safe speed for a curve depends on μ_s: v_max = √(μ_s g r).', image: '/images/exams/phys-june-2018/context_76_80.png' },
     {
       number: 80,
       part: 'C',
@@ -804,8 +777,7 @@ export default {
       modelAnswer: 'The magnitude of the centripetal force decreases. Since F_c = mv²/r and mass and radius are constant, a decrease in speed v causes a decrease in v², which decreases the centripetal force.',
       topic: 'Forces & Newton',
       explanation: 'F_c = mv²/r. Since m and r are constant, if v decreases, F_c decreases (proportional to v²).',
-      diveDeep: 'F_c = mv²/r shows that centripetal force is proportional to the square of speed. If speed decreases, say by half, the centripetal force decreases to one-quarter. This is why a car going slower around a curve needs less friction — it is less likely to skid at lower speeds. Conversely, doubling speed quadruples the required centripetal force. This v² relationship is key to understanding why high-speed turns are dangerous and why banked curves are necessary for highways.'
-    },
+      diveDeep: 'F_c = mv²/r shows that centripetal force is proportional to the square of speed. If speed decreases, say by half, the centripetal force decreases to one-quarter. This is why a car going slower around a curve needs less friction — it is less likely to skid at lower speeds. Conversely, doubling speed quadruples the required centripetal force. This v² relationship is key to understanding why high-speed turns are dangerous and why banked curves are necessary for highways.', image: '/images/exams/phys-june-2018/context_76_80.png' },
     {
       number: 81,
       part: 'C',
@@ -814,8 +786,7 @@ export default {
       modelAnswer: 'A node (N) is a point of zero displacement (zero amplitude) — located at either fixed end of the string and at any interior point of zero vibration. An antinode (A) is a point of maximum displacement — located at the midpoint between nodes.\n\nFor the fundamental (first harmonic) standing wave on a guitar string: nodes are at both ends (fixed ends), and the antinode is at the center of the string. Label N at either end and A at the midpoint.',
       topic: 'Waves & Sound',
       explanation: 'Nodes are points of zero amplitude (fixed ends of string); antinodes are points of maximum amplitude (midpoint for the fundamental harmonic).',
-      diveDeep: 'A standing wave is formed by the superposition of two waves traveling in opposite directions. Nodes are points of complete destructive interference — always zero displacement. Antinodes are points of complete constructive interference — maximum displacement. For a string fixed at both ends, nodes occur at the ends and at intervals of λ/2. The fundamental (first harmonic) has one antinode (at the center) and two nodes (at the ends). Higher harmonics have additional nodes and antinodes. The diagram for this problem shows the fundamental mode based on the string length and frequency given.'
-    },
+      diveDeep: 'A standing wave is formed by the superposition of two waves traveling in opposite directions. Nodes are points of complete destructive interference — always zero displacement. Antinodes are points of complete constructive interference — maximum displacement. For a string fixed at both ends, nodes occur at the ends and at intervals of λ/2. The fundamental (first harmonic) has one antinode (at the center) and two nodes (at the ends). Higher harmonics have additional nodes and antinodes. The diagram for this problem shows the fundamental mode based on the string length and frequency given.', image: '/images/exams/phys-june-2018/context_81_85.png' },
     {
       number: 82,
       part: 'C',
@@ -824,8 +795,7 @@ export default {
       modelAnswer: 'For the fundamental (first harmonic) standing wave on a string fixed at both ends, one full wavelength fits as: L = λ/2, so λ = 2L.\n\nλ = 2 × 0.620 m = 1.24 m\n\nThe wavelength of the standing wave is 1.24 meters.',
       topic: 'Waves & Sound',
       explanation: 'For the fundamental harmonic (the standing wave shown), L = λ/2, so λ = 2L = 2(0.620) = 1.24 m.',
-      diveDeep: 'For a string fixed at both ends, standing waves form when the string length is a whole-number multiple of half-wavelengths: L = nλ/2, where n = 1, 2, 3,... For the fundamental (n = 1): L = λ/2 → λ = 2L = 2(0.620) = 1.24 m. This is the longest possible wavelength (lowest frequency) for this string. The diagram in the problem shows one half-wave (one arch), confirming n = 1. Students should always look at the standing wave diagram to determine how many half-wavelengths fit in the string length.'
-    },
+      diveDeep: 'For a string fixed at both ends, standing waves form when the string length is a whole-number multiple of half-wavelengths: L = nλ/2, where n = 1, 2, 3,... For the fundamental (n = 1): L = λ/2 → λ = 2L = 2(0.620) = 1.24 m. This is the longest possible wavelength (lowest frequency) for this string. The diagram in the problem shows one half-wave (one arch), confirming n = 1. Students should always look at the standing wave diagram to determine how many half-wavelengths fit in the string length.', image: '/images/exams/phys-june-2018/context_81_85.png' },
     {
       number: 83,
       part: 'C',
@@ -834,8 +804,7 @@ export default {
       modelAnswer: 'Equation: v = fλ\nSubstitution: v = (196 Hz)(1.24 m)\nv ≈ 243 m/s\n\nThe speed of the wave on the guitar string is approximately 243 meters per second.',
       topic: 'Waves & Sound',
       explanation: 'v = fλ = (196 Hz)(1.24 m) ≈ 243 m/s. The wavelength λ = 1.24 m was determined in question 82.',
-      diveDeep: 'The universal wave equation v = fλ relates wave speed, frequency, and wavelength. Using f = 196 Hz and λ = 1.24 m: v = 196 × 1.24 = 243.04 m/s ≈ 243 m/s. This is the wave speed in the guitar string — much slower than sound in air (343 m/s) or light. The string\'s wave speed depends on tension (T) and linear mass density (μ): v = √(T/μ). The note G (196 Hz) is in the audible range; the sound wave produced in air has wavelength = 343/196 ≈ 1.75 m, different from the string\'s wavelength.'
-    },
+      diveDeep: 'The universal wave equation v = fλ relates wave speed, frequency, and wavelength. Using f = 196 Hz and λ = 1.24 m: v = 196 × 1.24 = 243.04 m/s ≈ 243 m/s. This is the wave speed in the guitar string — much slower than sound in air (343 m/s) or light. The string\'s wave speed depends on tension (T) and linear mass density (μ): v = √(T/μ). The note G (196 Hz) is in the audible range; the sound wave produced in air has wavelength = 343/196 ≈ 1.75 m, different from the string\'s wavelength.', image: '/images/exams/phys-june-2018/context_81_85.png' },
     {
       number: 84,
       part: 'C',
@@ -844,8 +813,7 @@ export default {
       modelAnswer: 'v = fλ = (196 Hz)(1.24 m) ≈ 243 m/s. See question 83.',
       topic: 'Waves & Sound',
       explanation: 'Wave speed on string ≈ 243 m/s. See question 83 for full solution.',
-      diveDeep: 'See question 83. Units check: Hz × m = (1/s) × m = m/s ✓. The two-point Regents format requires the equation v = fλ, the substitution with units, and the numerical answer. Round to 3 significant figures: 243 m/s.'
-    },
+      diveDeep: 'See question 83. Units check: Hz × m = (1/s) × m = m/s ✓. The two-point Regents format requires the equation v = fλ, the substitution with units, and the numerical answer. Round to 3 significant figures: 243 m/s.', image: '/images/exams/phys-june-2018/context_81_85.png' },
     {
       number: 85,
       part: 'C',
@@ -854,7 +822,6 @@ export default {
       modelAnswer: 'The frequency increases. Shortening the string reduces its vibrating length L. Since λ = 2L for the fundamental, a shorter L means a shorter wavelength. Since wave speed (v) in the string remains constant (tension unchanged), and v = fλ, a shorter wavelength means a higher frequency.',
       topic: 'Waves & Sound',
       explanation: 'Shorter string → shorter wavelength (λ = 2L) → higher frequency (f = v/λ), since wave speed in the string stays constant.',
-      diveDeep: 'When a guitarist presses a string against a fret, the effective vibrating length decreases. For the fundamental: λ = 2L, so if L decreases, λ decreases. The wave speed v = √(T/μ) depends on tension T and linear density μ — neither changes when fretting (tension is set by tuning). Therefore v is constant, and since f = v/λ, a smaller λ means higher f. This is why higher frets produce higher-pitched notes. Halving the string length doubles the frequency — a rise of exactly one octave. This is the physical basis of musical scales.'
-    }
+      diveDeep: 'When a guitarist presses a string against a fret, the effective vibrating length decreases. For the fundamental: λ = 2L, so if L decreases, λ decreases. The wave speed v = √(T/μ) depends on tension T and linear density μ — neither changes when fretting (tension is set by tuning). Therefore v is constant, and since f = v/λ, a smaller λ means higher f. This is why higher frets produce higher-pitched notes. Halving the string length doubles the frequency — a rise of exactly one octave. This is the physical basis of musical scales.', image: '/images/exams/phys-june-2018/context_81_85.png' }
   ]
 }

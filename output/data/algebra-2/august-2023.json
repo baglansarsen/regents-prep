@@ -1,0 +1,491 @@
+{
+  "subject": "algebra-2",
+  "session": "august-2023",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "A group of high school students wanted to collect information on how many times per week students exercised. If they want the least biased results they should survey every fifth student at the school who is",
+      "choices": [
+        "entering the gym",
+        "in the junior class",
+        "entering the library",
+        "entering the building"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Given x \uf0b9 23, which expression is equivalent to 2x3 1 3x2 2 4x 1 5 x 1 3 ?",
+      "choices": [
+        "2x3 1 9x2 1 23x 1 74",
+        "2x2 2 3x 1 5 2 10 x 1 3",
+        "2x3 2 3x2 1 5x 2 10",
+        "2x2 1 9x 1 23 1 74 x 1 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The table below shows the food preferences of sports fans whose favorite sport is football or baseball. Favorite Food to Eat While Watching Sports Wings Pizza Hot Dogs Football 14 20 6 Baseball 6 12 42 The probability that a fan prefers pizza given that the fan prefers football is",
+      "choices": [
+        "1__ 2",
+        "1__ 5",
+        "5__ 8",
+        "13 ___ 25"
+      ],
+      "image": "/images/exams/algebra-2/august-2023/q3.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2023/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "5",
+      "choices": [
+        "(4,0)",
+        "(1,5)",
+        "(2,2)",
+        "(3,1)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "What is the solution of 2(3x 1 4) 5 56?",
+      "choices": [
+        "x 5 log3(28) 2 4",
+        "x 5 21",
+        "x 5 log(25) 2 4",
+        "x 5 log (56) _______ log (6) 2 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "In a survey of people who recently bought a laptop, 45% said they were looking for a large screen, 31% said they were looking for a fast processor, and 58% said they wanted a large screen or a fast processor. If a survey respondent is selected at random, what is the probability that the respondent wanted both a large screen and a fast processor?",
+      "choices": [
+        "76%",
+        "14%",
+        "77%",
+        "18%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "In the quadratic formula, b2 2 4ac is called the discriminant. The function f(x) has a discriminant value of 8, and g(x) has a discriminant value of 216. The quadratic graphs, h(x) and j(x), are shown below. h(x) x j(x) x Which quadratic functions have imaginary roots?",
+      "choices": [
+        "g(x) and h(x)",
+        "g(x) and j(x)",
+        "f(x) and h(x)",
+        "f(x) and j(x)"
+      ],
+      "image": "/images/exams/algebra-2/august-2023/q8.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The element Americium has a half-life of 25 minutes. Given an initial amount, A0, which expression could be used to determine the amount of Americium remaining after t minutes?",
+      "choices": [
+        "A0 2 1 t 25",
+        "A0(25) t 2",
+        "25 2 1 t",
+        "A0 2 1 25t"
+      ],
+      "image": "/images/exams/algebra-2/august-2023/q9.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which function has the greatest y-intercept?",
+      "choices": [
+        "f(x) 5 4sin(2x)",
+        "g(x) 5 3x4 1 2x3 1 7",
+        "h(x) 5 5e2x 1 3",
+        "j(x) 5 6log2(3x 1 4)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "According to the USGS, an agency within the Department of Interior of the United States, the frog population in the U.S. is decreasing at the rate of 3.79% per year. A student created a model, P 5 12,150(0.962)t, to estimate the population in a pond after t years. The student then created a model that would predict the population after d decades. This model is best represented by",
+      "choices": [
+        "P 5 12,150(0.461)d",
+        "P 5 12,150(0.679)d",
+        "P 5 12,150(0.996)d",
+        "P 5 12,150(0.998)d"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "What is the value of tanq when sinq 5 2__ 5 and q is in quadrant II?",
+      "choices": [
+        "21 2 5",
+        "21 2 2",
+        "21 22",
+        "2 21"
+      ],
+      "image": "/images/exams/algebra-2/august-2023/q12.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A population is normally distributed with a mean of 23 and a standard deviation of 1.2. The percentage of the population that falls below 21, to the nearest hundredth, is",
+      "choices": [
+        "0.05",
+        "4.78",
+        "8.29",
+        "91.30"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Audra is interested in studying the number of students entering kindergarten in the Ahlville Central School District over the next several years. Using data dating back to 2015, she determines that the number of kindergarteners is decreasing at an exponential rate. She creates a formula to model this situation y 5 a(b)x, where x is the number of years since 2015 and y is the number of students entering kindergarten. If there were 105 students entering kindergarten in Ahlville in 2015, which statement about Audra\u2019s formula is true?",
+      "choices": [
+        "a is positive and b is negative.",
+        "a is negative and b is positive.",
+        "Both a and b are positive.",
+        "Both a and b are negative."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The solution set for the equation 3(x 1 6) 5 x is",
+      "choices": [
+        "{6, \u22123}",
+        "{\u22126, 3}",
+        "{6}",
+        "{\u22123}"
+      ],
+      "image": "/images/exams/algebra-2/august-2023/q15.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The George family would like to borrow $45,000 to purchase a new boat. They qualified for a loan with an annual interest rate of 6.75%. The monthly loan payment can be found using the formula below. = M P 12 r 1 1 2 1 n 12 r 12 r 11 n M 5 monthly payment P 5 amount borrowed r 5 annual interest rate n 5 number of monthly payments What is the monthly payment if they would like to pay off the loan in five years?",
+      "choices": [
+        "$262.99",
+        "$252.13",
+        "$915.24",
+        "$885.76"
+      ],
+      "image": "/images/exams/algebra-2/august-2023/q16.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A retailer advertises that items will be discounted by 10% every Monday until they are sold. In how many weeks will an item costing $50 first be sold for under half price?",
+      "choices": [
+        "7",
+        "6",
+        "5",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The graph of the function f(x) is shown below. f(x) x In which interval is f(x) always positive?",
+      "choices": [
+        "(22,4)",
+        "(0,10)",
+        "(212,25)",
+        "(210,0)"
+      ],
+      "image": "/images/exams/algebra-2/august-2023/q18.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "If f(x) 5 (x2 1 3x 1 2)(x2 2 4x 1 3) and g(x) 5 x2 2 9, then how many real solutions are there to the equation f(x) 5 g(x)?",
+      "choices": [
+        "1",
+        "2",
+        "6",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which expression is a factor of x4 2 x3 2 11x2 1 5x 1 30?",
+      "choices": [
+        "x 1 2",
+        "x 2 2",
+        "x 1 5",
+        "x 2 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The expression x2 1 6 x2 1 4 is equivalent to",
+      "choices": [
+        "6__ 4",
+        "1 1 10 x2 1 4",
+        "1 2 2 x2 1 4",
+        "1 1 2 x2 1 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Stone Manufacturing has developed a cost model, C(x) 5 0.18x3 1 0.02x2 1 4x 1 180, where x is the number of sprockets sold, in thousands. The sale price can be modeled by S(x) 5 95.4 2 6x and the company\u2019s revenue by R(x) 5 x\u2022S(x). The company profits, R(x) 2 C(x), could be modeled by",
+      "choices": [
+        "0.18x3 1 6.02x2 1 91.4x 1 180",
+        "0.18x3 2 5.98x2 2 91.4x 1 180",
+        "20.18x3 2 6.02x2 1 91.4x 2 180",
+        "0.18x3 1 5.98x2 1 99.4x 1 180"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which function is even?",
+      "choices": [
+        "f(x) 5 x3 1 2",
+        "f(x) 5 x2 1 1",
+        "f(x) 5 |x 1 2|",
+        "f(x) 5 sin(2x)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2023/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "25",
+      "choices": [
+        "x 2 2",
+        "x 1 2",
+        "x 2 3",
+        "x 1 3 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. 25 Factor the expression 2x3 2 3x2 2 18x 1 27"
+      ],
+      "image": "/images/exams/algebra-2/august-2023/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Algebraically determine the values of x that satisfy the system of equations shown below: y 5 x2 1 8x 2 5 y 5 8x 2 4",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Solve the equation 3x2 1 5x 1 8 5 0. Write your solution in a 1",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "On the coordinate plane below, sketch at least one cycle of a cosine function with a midline at y 5 22, an amplitude of 3, and a period of p__ 2",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2023/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Given i is the imaginary unit, simplify (5xi3 2 4i)2 as a polynomial in standard form.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Consider the parabola given by y 5 1__ 4 x2 1 x 1 8 with vertex (22,7) and focus (22,8)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Write x3 x x5 3 as a single term in simplest form,",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2023/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "A fruit fly population can be modeled by the equation P 5 10(1.27)t, where P represents the number of fruit flies after t days. What is the average rate of change of the population, rounded to the nearest hundredth, over the interval [0,10.5]? Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Sketch p(x) 5 2log2(x 1 3) 1 2 on the axes below. y x Describe the end behavior of p(x) as x \u2192 23. Describe the end behavior of p(x) as x \u2192 \u221e",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2023/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Solve for x algebraically: 1 x 2 6 x x 2 2 4 x2 2 8x 1 12 1 5",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Solve the following system of equations algebraically for x, y, and z. 2x 1 4y 2 3z 5 12 3x 2 2y 1 2z 5 29 2x 1 y 2 3z 5 0",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Two classes of students were entered into an experiment to see whether using an interactive whiteboard leads to better grades. It was observed that the mean grade of students in the class with the interactive whiteboard was 0.6 points higher than the class without it. To determine if the observed difference is statistically significant, the classes were rerandomized 5000 times to study these random differences in the mean grades. The output of the simulation is summarized in the histogram below. \u20131.5 Count Mean = 0.01 SD = 0.38 0 800 200 400 600 \u20131.0 \u20130.5 0.0 0.5 1.0 Difference of Means Determine an interval containing the middle 95% of the simulation results. Round your answer to the nearest hundredth. Does the interval indicate that the difference between the classes\u2019 grades is signifi cant? Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2023/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "The Manford family started savings accounts for their twins, Abby and Brett, on the day they were born. They invested $8000 in an account for each child. Abby\u2019s account pays 4.2% annual interest compounded quarterly. Brett\u2019s account pays 3.9% annual interest compounded continuously. Write a function, A(t), for Abby\u2019s account and a function, B(t), for Brett\u2019s account that calculates the value of each account after t years. Determine who will have more money in their account when the twins turn 18 years old, and find the difference in the amounts in the accounts to the nearest cent. Question 37 Algebraically determine, to the nearest tenth of a year, how long it takes for Brett\u2019s account to triple in value. Question 37 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 pr2 Circle C 5 pd or C 5 2pr General Prisms V 5 Bh Cylinder V 5 pr2h Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 pr2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u2260 1 Radians 1 radian 5 180 ___ p degrees Degrees 1 degree 5 p ___ 180 radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

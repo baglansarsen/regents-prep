@@ -54,8 +54,7 @@ export default {
       topic: 'Statistics & Probability',
       correct: 2,
       explanation: 'Liem only watched and recorded what naturally happened without assigning treatments or manipulating any variable, which is the definition of an observational study.',
-      diveDeep: 'The key distinction is whether the researcher imposes a treatment (experiment) or merely observes existing conditions (observational study). Because Liem did not control which singers were animated or randomly assign anyone to a group, there is no experiment or random assignment. A sample survey would involve asking respondents questions. Observational studies can reveal associations but cannot establish cause-and-effect, since lurking variables are not controlled.'
-    },
+      diveDeep: 'The key distinction is whether the researcher imposes a treatment (experiment) or merely observes existing conditions (observational study). Because Liem did not control which singers were animated or randomly assign anyone to a group, there is no experiment or random assignment. A sample survey would involve asking respondents questions. Observational studies can reveal associations but cannot establish cause-and-effect, since lurking variables are not controlled.', image: '/images/exams/alg2-august-2022/q5.png' },
     {
       number: 6,
       part: 'A',
@@ -74,8 +73,7 @@ export default {
       topic: 'Complex Numbers',
       correct: 0,
       explanation: 'Completing the square gives (x + 3)² = −4, so x + 3 = ±2i and x = −3 ± 2i.',
-      diveDeep: 'When the discriminant b² − 4ac is negative (here 36 − 52 = −16), the solutions are a complex-conjugate pair. Using the quadratic formula, x = (−6 ± √(−16))/2 = (−6 ± 4i)/2 = −3 ± 2i. Remember √(−16) = 4i, and divide both the real part and the imaginary part by the denominator. Complex roots always come in conjugate pairs for real-coefficient polynomials.'
-    },
+      diveDeep: 'When the discriminant b² − 4ac is negative (here 36 − 52 = −16), the solutions are a complex-conjugate pair. Using the quadratic formula, x = (−6 ± √(−16))/2 = (−6 ± 4i)/2 = −3 ± 2i. Remember √(−16) = 4i, and divide both the real part and the imaginary part by the denominator. Complex roots always come in conjugate pairs for real-coefficient polynomials.', image: '/images/exams/alg2-august-2022/q7.png' },
     {
       number: 8,
       part: 'A',
@@ -144,8 +142,7 @@ export default {
       topic: 'Rational & Radical',
       correct: 0,
       explanation: 'Distributing 2b√a gives 2b√a·3√a = 6ab and 2b√a·(−4√b) = −8b√(ab), so the result is 6ab − 8b√(ab).',
-      diveDeep: 'Multiplying radical expressions follows the distributive property combined with the rule √a · √a = a and √a · √b = √(ab). The first product, 2b·3·(√a·√a) = 6b·a = 6ab, has no remaining radical because √a·√a = a. The second product keeps a radical, √(ab). Keep the rational coefficients and the radical parts separate as you multiply, and only combine like radical terms at the end.'
-    },
+      diveDeep: 'Multiplying radical expressions follows the distributive property combined with the rule √a · √a = a and √a · √b = √(ab). The first product, 2b·3·(√a·√a) = 6b·a = 6ab, has no remaining radical because √a·√a = a. The second product keeps a radical, √(ab). Keep the rational coefficients and the radical parts separate as you multiply, and only combine like radical terms at the end.', image: '/images/exams/alg2-august-2022/q13.png' },
     {
       number: 14,
       part: 'A',
@@ -234,8 +231,7 @@ export default {
       topic: 'Trigonometric Functions',
       correct: 3,
       explanation: 'Over −π to π the argument ½θ ranges from −π/2 to π/2, where sine increases the whole way, so p increases throughout the interval.',
-      diveDeep: 'For a sine function, behavior depends on the inner argument. Here ½θ spans only −π/2 to π/2 as θ goes from −π to π, and sine rises monotonically from −1 to 1 across that quarter-to-quarter span. The amplitude 3 stretches the values but does not change whether the function increases or decreases. Track the range of the inner expression (½θ) against the known increasing/decreasing intervals of sine to determine monotonic behavior.'
-    },
+      diveDeep: 'For a sine function, behavior depends on the inner argument. Here ½θ spans only −π/2 to π/2 as θ goes from −π to π, and sine rises monotonically from −1 to 1 across that quarter-to-quarter span. The amplitude 3 stretches the values but does not change whether the function increases or decreases. Track the range of the inner expression (½θ) against the known increasing/decreasing intervals of sine to determine monotonic behavior.', image: '/images/exams/alg2-august-2022/q20.png' },
     {
       number: 21,
       part: 'A',
@@ -305,8 +301,7 @@ export default {
       topic: 'Complex Numbers',
       explanation: '√(−81) = 9i, and (9 + i)² = 81 + 18i + i² = 80 + 18i, so 9i − (80 + 18i) = −80 − 9i.',
       diveDeep: 'Working with complex numbers requires converting √(negative) into i form (√(−81) = 9i) before any arithmetic, and replacing i² with −1 when expanding squares. Distribute the subtraction carefully across both the real and imaginary parts of the squared binomial. Group all real terms and all imaginary terms separately to reach the standard a + bi form. A sign slip on the subtracted parenthesis is the most common scoring error here.',
-      modelAnswer: 'First, √(−81) = √(81)·√(−1) = 9i. Next expand (9 + i)² = 9² + 2(9)(i) + i² = 81 + 18i + (−1) = 80 + 18i. Now subtract: 9i − (80 + 18i) = 9i − 80 − 18i = −80 − 9i. In simplest a + bi form the answer is −80 − 9i.'
-    },
+      modelAnswer: 'First, √(−81) = √(81)·√(−1) = 9i. Next expand (9 + i)² = 9² + 2(9)(i) + i² = 81 + 18i + (−1) = 80 + 18i. Now subtract: 9i − (80 + 18i) = 9i − 80 − 18i = −80 − 9i. In simplest a + bi form the answer is −80 − 9i.', image: '/images/exams/alg2-august-2022/q25.png' },
     {
       number: 26,
       part: 'B',
@@ -345,8 +340,7 @@ export default {
       topic: 'Rational & Radical',
       explanation: 'Isolating the radical and squaring gives x² − 8x + 8 = 0... after correct setup the valid solution is x = 4, while a second candidate is extraneous because it fails the original equation.',
       diveDeep: 'Solving radical equations requires isolating the radical, squaring both sides, and then solving the resulting polynomial. Squaring can introduce extraneous solutions because it can turn a false statement into a true one, so every candidate must be checked in the ORIGINAL equation. Reject any value that makes the radicand negative or fails to balance the equation. The check step is not optional — it is part of earning full credit on these problems.',
-      modelAnswer: 'Isolate the radical: √(2x + 1) = x − 1. Square both sides: 2x + 1 = (x − 1)² = x² − 2x + 1. Bring all terms to one side: 0 = x² − 4x, so 0 = x(x − 4), giving x = 0 or x = 4. Check x = 4: √(2·4 + 1) − 1 = √9 − 1 = 3 − 1 = 2, and x − 2 = 4 − 2 = 2 ✓. Check x = 0: √(2·0 + 1) − 1 = √1 − 1 = 0, but x − 2 = 0 − 2 = −2 ✗. Therefore x = 4 is the only solution; x = 0 is extraneous because it does not satisfy the original equation.'
-    },
+      modelAnswer: 'Isolate the radical: √(2x + 1) = x − 1. Square both sides: 2x + 1 = (x − 1)² = x² − 2x + 1. Bring all terms to one side: 0 = x² − 4x, so 0 = x(x − 4), giving x = 0 or x = 4. Check x = 4: √(2·4 + 1) − 1 = √9 − 1 = 3 − 1 = 2, and x − 2 = 4 − 2 = 2 ✓. Check x = 0: √(2·0 + 1) − 1 = √1 − 1 = 0, but x − 2 = 0 − 2 = −2 ✗. Therefore x = 4 is the only solution; x = 0 is extraneous because it does not satisfy the original equation.', image: '/images/exams/alg2-august-2022/q29.png' },
     {
       number: 30,
       part: 'B',
@@ -365,8 +359,7 @@ export default {
       topic: 'Statistics & Probability',
       explanation: 'For independent events, P(A and B) = P(A)·P(B) = 0.45 × 0.20 = 0.09.',
       diveDeep: 'Independence means one event occurring does not change the probability of the other, which is exactly the condition that lets you multiply: P(A and B) = P(A)·P(B). If the events were not independent, you would instead need P(A)·P(B|A). A quick way to confirm independence in data is to check whether P(A and B) actually equals the product of the marginals. Here 0.45 × 0.20 = 0.09, meaning about 9% of students do both.',
-      modelAnswer: 'Because playing a sport and being in the band are independent events, the probability of both occurring is the product of the individual probabilities: P(sport and band) = P(sport) × P(band) = 0.45 × 0.20 = 0.09. So the probability that a randomly chosen student both plays a sport and is in the band is 0.09 (or 9%).'
-    },
+      modelAnswer: 'Because playing a sport and being in the band are independent events, the probability of both occurring is the product of the individual probabilities: P(sport and band) = P(sport) × P(band) = 0.45 × 0.20 = 0.09. So the probability that a randomly chosen student both plays a sport and is in the band is 0.09 (or 9%).', image: '/images/exams/alg2-august-2022/q31.png' },
     {
       number: 32,
       part: 'B',
@@ -395,8 +388,7 @@ export default {
       topic: 'Systems & Inequalities',
       explanation: 'Setting x² − 4x + 3 = 2x − 2 gives x² − 6x + 5 = 0, which factors to (x − 1)(x − 5) = 0; the solutions are (1, 0) and (5, 8).',
       diveDeep: 'To solve a system with a quadratic and a line, set the expressions equal (substitution), collect everything to one side, and solve the resulting quadratic by factoring or the quadratic formula. Each x-value must be substituted back into the simpler (linear) equation to find its matching y-value, producing complete ordered pairs. A line can intersect a parabola at two points, one point (tangent), or none — the discriminant tells you which. Always present answers as ordered pairs, not just x-values.',
-      modelAnswer: 'Set the two expressions for y equal: x² − 4x + 3 = 2x − 2. Move all terms to one side: x² − 4x + 3 − 2x + 2 = 0, so x² − 6x + 5 = 0. Factor: (x − 1)(x − 5) = 0, giving x = 1 or x = 5. Substitute into y = 2x − 2: when x = 1, y = 2(1) − 2 = 0; when x = 5, y = 2(5) − 2 = 8. The solutions are (1, 0) and (5, 8).'
-    },
+      modelAnswer: 'Set the two expressions for y equal: x² − 4x + 3 = 2x − 2. Move all terms to one side: x² − 4x + 3 − 2x + 2 = 0, so x² − 6x + 5 = 0. Factor: (x − 1)(x − 5) = 0, giving x = 1 or x = 5. Substitute into y = 2x − 2: when x = 1, y = 2(1) − 2 = 0; when x = 5, y = 2(5) − 2 = 8. The solutions are (1, 0) and (5, 8).', image: '/images/exams/alg2-august-2022/q34.png' },
     {
       number: 35,
       part: 'C',
@@ -405,8 +397,7 @@ export default {
       topic: 'Exponential & Logarithmic',
       explanation: 'At t = 0, P(0) = 1200/(1 + 5) = 200; as t → ∞, e^(−0.4t) → 0, so P approaches 1200/(1 + 0) = 1200, the carrying capacity.',
       diveDeep: 'This is a logistic growth model, which describes populations that grow rapidly at first but level off at a maximum sustainable size called the carrying capacity. The carrying capacity is the numerator (1200) because the exponential term in the denominator decays to 0 over time, leaving 1200/1. The initial value comes from substituting t = 0, which makes e⁰ = 1. Logistic models are S-shaped: limited resources slow growth as the population nears the carrying capacity, unlike pure exponential growth that increases without limit.',
-      modelAnswer: 'Initial population: substitute t = 0. Since e^(−0.4·0) = e⁰ = 1, P(0) = 1200/(1 + 5·1) = 1200/6 = 200. So the initial population is 200 fish. As t increases without bound, the exponent −0.4t → −∞, so e^(−0.4t) → 0, making the denominator approach 1 + 5·0 = 1. Therefore P(t) → 1200/1 = 1200. The population approaches 1200 fish, which is the carrying capacity — the maximum population the lake can sustain.'
-    },
+      modelAnswer: 'Initial population: substitute t = 0. Since e^(−0.4·0) = e⁰ = 1, P(0) = 1200/(1 + 5·1) = 1200/6 = 200. So the initial population is 200 fish. As t increases without bound, the exponent −0.4t → −∞, so e^(−0.4t) → 0, making the denominator approach 1 + 5·0 = 1. Therefore P(t) → 1200/1 = 1200. The population approaches 1200 fish, which is the carrying capacity — the maximum population the lake can sustain.', image: '/images/exams/alg2-august-2022/q35.png' },
     {
       number: 36,
       part: 'C',
@@ -415,8 +406,7 @@ export default {
       topic: 'Statistics & Probability',
       explanation: 'The 95% interval is Mean ± 2·SD = 0.819 ± 0.106, giving (0.713, 0.925). Since 70% (0.700) falls below the interval, it is unlikely if the true proportion were 82%, so the claim is questionable.',
       diveDeep: 'A simulation-based 95% confidence interval spans approximately Mean ± 2·SD. Here 0.819 − 2(0.053) = 0.713 and 0.819 + 2(0.053) = 0.925. When an observed sample result (0.70) falls outside this interval, it suggests the observed result would be very unusual if the null proportion (82%) were true — that is, strong evidence against the claim. A common error is confusing the mean of the simulation with the sample proportion from the organization\'s own survey; they serve different roles.',
-      modelAnswer: '95% interval: Mean ± 2·SD = 0.819 ± 2(0.053) = 0.819 ± 0.106.\nLower bound: 0.819 − 0.106 = 0.713\nUpper bound: 0.819 + 0.106 = 0.925\nInterval: (0.713, 0.925).\n\nThe organization\'s survey found 70% (0.700) support the repeal. Since 0.700 < 0.713, this result falls below the 95% simulation interval. A result this low would be very unlikely if the true proportion were 82%, so the organization has grounds to question the State officials\' claim.'
-    },
+      modelAnswer: '95% interval: Mean ± 2·SD = 0.819 ± 2(0.053) = 0.819 ± 0.106.\nLower bound: 0.819 − 0.106 = 0.713\nUpper bound: 0.819 + 0.106 = 0.925\nInterval: (0.713, 0.925).\n\nThe organization\'s survey found 70% (0.700) support the repeal. Since 0.700 < 0.713, this result falls below the 95% simulation interval. A result this low would be very unlikely if the true proportion were 82%, so the organization has grounds to question the State officials\' claim.', image: '/images/exams/alg2-august-2022/q36.png' },
     {
       number: 37,
       part: 'D',
@@ -425,7 +415,6 @@ export default {
       topic: 'Exponential & Logarithmic',
       explanation: 'With P = 15000, r = 0.06/12 = 0.005, and n = 60, M ≈ $289.99; total paid ≈ $17,399.40 and total interest ≈ $2,399.40.',
       diveDeep: 'The amortization formula compounds interest monthly, so always convert the annual rate to a monthly rate (divide by 12) and express the term in months (years × 12). Carefully evaluate (1 + r)ⁿ first, then build the numerator and denominator before dividing, keeping full decimal precision until the final rounding to avoid accumulating error. Total paid equals the monthly payment times the number of payments, and total interest is total paid minus the original principal. Real-world finance problems hinge on getting these unit conversions (annual to monthly, years to months) correct.',
-      modelAnswer: 'Convert the rate and term: monthly rate r = 0.06/12 = 0.005; number of payments n = 5 × 12 = 60. Compute (1 + r)ⁿ = (1.005)⁶⁰ ≈ 1.348850. Numerator: P·r·(1.005)⁶⁰ = 15000 × 0.005 × 1.348850 ≈ 101.16375. Denominator: (1.005)⁶⁰ − 1 ≈ 0.348850. Monthly payment M = 101.16375/0.348850 ≈ $289.99. Total amount paid = M × n = 289.99 × 60 ≈ $17,399.40. Total interest paid = total paid − principal = 17,399.40 − 15,000 = $2,399.40. So the monthly payment is about $289.99, the total paid is about $17,399.40, and the total interest is about $2,399.40.'
-    }
+      modelAnswer: 'Convert the rate and term: monthly rate r = 0.06/12 = 0.005; number of payments n = 5 × 12 = 60. Compute (1 + r)ⁿ = (1.005)⁶⁰ ≈ 1.348850. Numerator: P·r·(1.005)⁶⁰ = 15000 × 0.005 × 1.348850 ≈ 101.16375. Denominator: (1.005)⁶⁰ − 1 ≈ 0.348850. Monthly payment M = 101.16375/0.348850 ≈ $289.99. Total amount paid = M × n = 289.99 × 60 ≈ $17,399.40. Total interest paid = total paid − principal = 17,399.40 − 15,000 = $2,399.40. So the monthly payment is about $289.99, the total paid is about $17,399.40, and the total interest is about $2,399.40.', image: '/images/exams/alg2-august-2022/q37.png' }
   ]
 }

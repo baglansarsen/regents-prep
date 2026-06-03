@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-1",
+  "session": "january-2019",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The scatter plot below shows the relationship between the number of members in a family and the amount of the family\u2019s weekly grocery bill. 1 100 200 300 400 500 600 Grocery Bill (Dollars) 2 3 4 5 6 7 8 9 y x Number of Family Members The most appropriate prediction of the grocery bill for a family that consists of six members is",
+      "choices": [
+        "$100",
+        "$300",
+        "$400",
+        "$500"
+      ],
+      "image": "/images/exams/algebra-1/january-2019/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The function g(x) is defined as g(x) 5 22x2 1 3x. The value of g(23) is",
+      "choices": [
+        "227",
+        "29",
+        "27",
+        "45"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which expression results in a rational number?",
+      "choices": [
+        "121 21 \u0012",
+        "25 50 s",
+        "36 225 \u0014",
+        "3 5 2 5 \u0011"
+      ],
+      "image": "/images/exams/algebra-1/january-2019/q3.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The math department needs to buy new textbooks and laptops for the computer science classroom. The textbooks cost $116.00 each, and the laptops cost $439.00 each. If the math department has $6500 to spend and purchases 30 textbooks, how many laptops can they buy?",
+      "choices": [
+        "6",
+        "7",
+        "11",
+        "12"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "What is the solution to the equation 3 5(x 1 4 3) 5 1.04?",
+      "choices": [
+        "3.06\u2013",
+        "0.4",
+        "20.48\u2013",
+        "20.7093\u2013"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The area of a rectangle is represented by 3x2 2 10x 2 8. Which expression can also be used to represent the area of the same rectangle?",
+      "choices": [
+        "(3x 1 2)(x 2 4)",
+        "(3x 1 2)(x 1 4)",
+        "(3x 1 4)(x 2 2)",
+        "(3x 2 4)(x 1 2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which relation does not represent a function? x 1 2 3 4 5 6 y 3.2 4 5.1 6 7.4 8.8",
+      "choices": [
+        "y x",
+        "",
+        "",
+        "1 4 5 2 6 7 3 8 9 y x 5 1 2 3 1 2"
+      ],
+      "image": "/images/exams/algebra-1/january-2019/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Britney is solving a quadratic equation. Her first step is shown below. Problem: 3x2 2 8 2 10x 5 3(2x 1 3) Step 1: 3x2 2 10x 2 8 5 6x 1 9 Which two properties did Britney use to get to step 1? I. addition property of equality II. commutative property of addition III. multiplication property of equality IV. distributive property of multiplication over addition",
+      "choices": [
+        "I and III",
+        "I and IV",
+        "II and III",
+        "II and IV"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The graph of y 5 1 2 x2 2 x 2 4 is shown below. The points A(22,0), B(0,24), and C(4,0) lie on this graph. y x Which of these points can determine the zeros of the equation y 5 1 2 x2 2 x 2 4?",
+      "choices": [
+        "A, only",
+        "B, only",
+        "A and C, only",
+        "A, B,"
+      ],
+      "image": "/images/exams/algebra-1/january-2019/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Given the parent function f(x) 5 x3, the function g(x) 5 (x 2 1)3 2 2 is the result of a shift of f(x)",
+      "choices": [
+        "1 unit left and 2 units down",
+        "1 unit left and 2 units up",
+        "1 unit right and 2 units down",
+        "1 unit right and 2 units up"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "If C 5 2a2 2 5 and D 5 3 2 a, then C 2 2D equals",
+      "choices": [
+        "2a2 1 a 2 8",
+        "2a2 2 a 2 8",
+        "2a2 1 2a 2 11",
+        "2a2 2 a 2 11"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Marc bought a new laptop for $1250. He kept track of the value of the laptop over the next three years, as shown in the table below. Years After Purchase Value in Dollars 1 1000 2 800 3 640 Which function can be used to determine the value of the laptop for x years after the purchase?",
+      "choices": [
+        "f(x) 5 1000(1.2)x",
+        "f(x) 5 1000(0.8)x",
+        "f(x) 5 1250(1.2)x",
+        "f(x) 5 1250(0.8)x"
+      ],
+      "image": "/images/exams/algebra-1/january-2019/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The height of a ball Doreen tossed into the air can be modeled by the function h(x) 5 24.9x2 1 6x 1 5, where x is the time elapsed in seconds, and h(x) is the height in meters. The number 5 in the function represents",
+      "choices": [
+        "the initial height of the ball",
+        "the time at which the ball reaches the ground",
+        "the time at which the ball was at its highest point",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The function f(x) 5 2x2 1 6x 2 12 has a domain consisting of the integers from 22 to 1, inclusive. Which set represents the corresponding range values for f(x)?",
+      "choices": [
+        "{232, 220, 212, 24}",
+        "{216, 212, 24}",
+        "{232, 24}",
+        "{216, 24}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which equation has the same solution as x2 1 8x 2 33 5 0?",
+      "choices": [
+        "(x 1 4)2 5 49",
+        "(x 2 4)2 5 49",
+        "(x 1 4)2 5 17",
+        "(x 2 4)2 5 17"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The table below shows the weights of Liam\u2019s pumpkin, l(w), and Patricia\u2019s pumpkin, p(w), over a four-week period where w represents the number of weeks. Liam\u2019s pumpkin grows at a constant rate. Patricia\u2019s pumpkin grows at a weekly rate of approximately 52%. Weeks w Weight in Pounds l(w) Weight in Pounds p(w) 6 2.4 2.5 7 5.5 3.8 8 8.6 5.8 9 11.7 8.8 Assume the pumpkins continue to grow at these rates through week 13. When comparing the weights of both Liam\u2019s and Patricia\u2019s pumpkins in week 10 and week 13, which statement is true?",
+      "choices": [
+        "Liam\u2019s pumpkin will weigh more in week 10 and week 13.",
+        "Patricia\u2019s pumpkin will weigh more in week 10 and week 13.",
+        "Liam\u2019s pumpkin will weigh more in week 10, and Patricia\u2019s pumpkin will weigh more in week 13.",
+        "Patricia\u2019s pumpkin will weigh more in week 10, and Liam\u2019s pumpkin will weigh more in week 13"
+      ],
+      "image": "/images/exams/algebra-1/january-2019/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The function f(x) is graphed below. x f(x) The domain of this function is",
+      "choices": [
+        "all positive real numbers",
+        "all positive integers",
+        "x $ 0",
+        "x $ 21"
+      ],
+      "image": "/images/exams/algebra-1/january-2019/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which pair of equations would have (\u20131,2) as a solution?",
+      "choices": [
+        "y 5 x 1 3 and y 5 2x",
+        "y 5 x 2 1 and y 5 2x",
+        "y 5 x2 2 3x 2 2 and y 5 4x 1 6",
+        "2x 1 3y 5 24 and y 5 21 2 x 2 3 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which function could be used to represent the sequence 8, 20, 50, 125, 312.5,..., given that a1 5 8?",
+      "choices": [
+        "an 5 an 2 1 1 a1",
+        "an 5 2.5(an 2 1)",
+        "an 5 a1 1 1.5(an 2 1)",
+        "an 5 (a1)(an 2 1)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The formula for electrical power, P, is P 5 I2R, where I is current and R is resistance. The formula for I in terms of P and R is",
+      "choices": [
+        "I 5 ( P R) 2",
+        "I P R 5",
+        "I 5 (P 2 R)2",
+        "I P R 5 2"
+      ],
+      "image": "/images/exams/algebra-1/january-2019/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The functions f(x), q(x), and p(x) are shown below. 2 3 4 5 6 5 4 3 4 5 x f(x) q(x) \u0015 (x \u0012\u00001)2 \u0012\u00006 x p(x) When the input is 4, which functions have the same output value?",
+      "choices": [
+        "f(x) and q(x), only",
+        "f(x) and p(x), only",
+        "q(x) and p(x), only",
+        "f(x), q(x), and p(x)"
+      ],
+      "image": "/images/exams/algebra-1/january-2019/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Using the substitution method, Vito is solving the following system of equations algebraically: y 1 3x 5 24 2x 2 3y 5 221 Which equivalent equation could Vito use?",
+      "choices": [
+        "2(23x 2 4) 1 3x 5 221",
+        "2(3x 2 4) 1 3x 5 221",
+        "2x 2 3(23x 2 4) 5 221",
+        "2x 2 3(3x 2 4) 5 221"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Materials A and B decay over time. The function for the amount of material A is A(t) 5 1000(0.5)2t and for the amount of material B is B(t) 5 1000(0.25)t, where t represents time in days. On which day will the amounts of material be equal?",
+      "choices": [
+        "initial day, only",
+        "day 2, only",
+        "day 5, only",
+        "every day"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The following conversion was done correctly: 3 miles 1 hour 1 hour 60 minutes 5280 fee s s t 1 mile 12 inches 1 foot s What were the final units for this conversion?",
+      "choices": [
+        "minutes per foot",
+        "minutes per inch",
+        "feet per minute",
+        "Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Solve algebraically for x: 3600 1 1.02x , 2000 1 1.04",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "The number of people who attended a school\u2019s last six basketball games increased as the team neared the state sectional games. The table below shows the data. Game 13 14 15 16 17 18 Attendance 348 435 522 609 696 783",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2019/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Solve x2 2 8x 2 9 5 0",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The graph of f(t) models the height, in feet, that a bee is flying above the ground with respect to the time it traveled in t seconds. f(t) t 2 4 6 8 10 12 14 2 4 Time (seconds) Height (feet)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2019/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Graph the function f(x) 5 2x 2 7 on the set of axes below. y x If g(x) 5 1.5x 2 3, determine if f(x) . g(x) when x 5 4",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2019/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Determine algebraically the zeros of f(x) 5 3x3 1 21x2 1 36",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Santina is considering a vacation and has obtained high-temperature data from the last two weeks for Miami and Los Angeles. Miami 76 75 83 73 60 66 76 81 83 85 83 87 80 80 Los Angeles 74 63 65 67 65 65 65 62 62 72 69 64 64 61 Which location has the least variability in temperatures?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2019/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Solve the quadratic equation below for the exact values of x. 4x2 2 5 5 75 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Marilyn collects old dolls. She purchases a doll for $450. Research shows this doll\u2019s value will increase by 2.5% each year. Write an equation that determines the value, V, of the doll t years after purchase. Assuming the doll\u2019s rate of appreciation remains the same, will the doll\u2019s value be doubled in 20 years?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The data given in the table below show some of the results of a study comparing the height of a certain breed of dog, based upon its mass. Mass (kg) 4.5 5 4 3.5 5.5 5 5 4 4 6 3.5 5.5 Height (cm) 41 40 35 38 43 44 37 39 42 44 31 30 Write the linear regression equation for these data, where x is the mass and y is the height. Round all values to the nearest tenth. State the value of the correlation coefficient to the nearest tenth,",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2019/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Myranda received a movie gift card for $100 to her local theater. Matinee tickets cost $7.50 each and evening tickets cost $12.50 each. If x represents the number of matinee tickets she could purchase, and y represents the number of evening tickets she could purchase, write an inequality that represents all the possible ways Myranda could spend her gift card on movies at the theater. On the set of axes below, graph this inequality. y x Number of Matinee Tickets Number of Evening Tickets What is the maximum number of matinee tickets Myranda could purchase with her gift card?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2019/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "One spring day, Elroy noted the time of day and the temperature, in degrees Fahrenheit. His findings are stated below. At 6 a.m., the temperature was 50\u00b0F. For the next 4 hours, the temperature rose 3\u00b0 per hour. The next 6 hours, it rose 2\u00b0 per hour. The temperature then stayed steady until 6 p.m. For the next 2 hours, the temperature dropped 1\u00b0 per hour. The temperature then dropped steadily until the temperature was 56\u00b0F at midnight. On the set of axes below, graph Elroy\u2019s data. 80 70 60 50 6 am 12 Noon 6 pm 12 Midnight Temperature (\u00b0F) State the entire time interval for which the temperature was increasing. Determine the average rate of change, in degrees per hour, from 6:00 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2019/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "A recreation center ordered a total of 15 tricycles and bicycles from a sporting goods store. The number of wheels for all the tricycles and bicycles totaled 38. Write a linear system of equations that models this scenario, where t represents the number of tricycles and b represents the number of bicycles ordered. On the set of axes below, graph this system of equations. b t 10 2 4 6 8 12 14 16 18 2 4 6 8 10 12 14 16 18 Question 37 Question 37 continued Based on your graph of this scenario, could the recreation center have ordered 10 tricycles? Explain your reasoning. Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0004 2.54 centimeters 1 kilometer \u0004 0.62 mile 1 cup \u0004 8 fluid ounces 1 meter \u0004 39.37 inches 1 pound \u0004 16 ounces 1 pint \u0004 2 cups 1 mile \u0004 5280 feet 1 pound \u0004 0.454 kilogram 1 quart \u0004 2 pints 1 mile \u0004 1760 yards 1 kilogram \u0004 2.2 pounds 1 gallon \u0004 4 quarts 1 mile \u0004 1.609 kilometers 1 ton \u0004 2000 pounds 1 gallon \u0004 3.785 liters 1 liter \u0004 0.264 gallon 1 liter \u0004 1000 cubic centimeters Triangle A \u0004 bh 1 2 Parallelogram A \u0004 bh Circle A \u0004 \u03c0r2 Circle C \u0004 \u03c0d or C \u0004 2\u03c0r General Prisms V \u0004 Bh Cylinder V \u0004 \u03c0r2h Sphere V \u0004 \u03c0r3 4 3 Cone V \u0004 \u03c0r2h 1 3 Pyramid V \u0004 Bh 1 3 Pythagorean Theorem a2 \u0002 b2 \u0004 c2 Quadratic Formula x \u0004 \u0003 \u0005 \u0003 b a b2 2 4ac Arithmetic Sequence an \u0004 a1 \u0002 (n \u0003 1)d Geometric Sequence an \u0004 a1r n \u0003 1 Geometric Series Sn \u0004 where r \u0006 1 a a r r n 1 1 1 \u0003 \u0003 Radians 1 radian \u0004 degrees 180 \u03c0 Degrees 1 degree \u0004 radians \u03c0 180 Exponential Growth/Decay A \u0004 A0ek(t \u0003 t0) \u0002 B0 Tear Here Tear Here ALGEBRA I ALGEBRA I Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2019/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

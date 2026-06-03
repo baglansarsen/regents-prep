@@ -44,8 +44,7 @@ export default {
       topic: 'Forces & Newton',
       correct: 1,
       explanation: 'The component of weight perpendicular to the incline = W cos θ = 10. × cos 30.° = 10. × 0.866 ≈ 8.7 N.',
-      diveDeep: 'On an inclined plane at angle θ: perpendicular component = W cosθ, parallel component = W sinθ. For θ = 30.°: perpendicular = 10 × cos30° = 10 × 0.866 = 8.7 N; parallel = 10 × sin30° = 10 × 0.50 = 5.0 N. A common mistake is using sinθ for the perpendicular component (giving 5.0 N — choice A, the parallel component). The perpendicular component (normal force related) is always cosθ because as the angle increases toward 90°, the normal force approaches zero (not the weight). These components are on the Regents reference table as a force diagram.'
-    },
+      diveDeep: 'On an inclined plane at angle θ: perpendicular component = W cosθ, parallel component = W sinθ. For θ = 30.°: perpendicular = 10 × cos30° = 10 × 0.866 = 8.7 N; parallel = 10 × sin30° = 10 × 0.50 = 5.0 N. A common mistake is using sinθ for the perpendicular component (giving 5.0 N — choice A, the parallel component). The perpendicular component (normal force related) is always cosθ because as the angle increases toward 90°, the normal force approaches zero (not the weight). These components are on the Regents reference table as a force diagram.', image: '/images/exams/phys-june-2025/q4.png' },
     {
       number: 5,
       part: 'A',
@@ -166,8 +165,7 @@ export default {
       topic: 'Electricity',
       correct: 2,
       explanation: 'The electric field direction is defined as the direction of force on a positive charge. Since the proton (positive) experiences a force to the right, the electric field points to the right (toward point B).',
-      diveDeep: 'By definition, electric field E points in the direction of force on a positive test charge. A proton has positive charge, so the force on it (to the right) is in the same direction as the field. If the charge were an electron (negative), the force and field would be in opposite directions. This question tests the fundamental definition E = F/q for positive charges. A common mistake is reversing the relationship for negative charges and applying that incorrectly to a proton. Always: field direction = force direction for positive charges.'
-    },
+      diveDeep: 'By definition, electric field E points in the direction of force on a positive test charge. A proton has positive charge, so the force on it (to the right) is in the same direction as the field. If the charge were an electron (negative), the force and field would be in opposite directions. This question tests the fundamental definition E = F/q for positive charges. A common mistake is reversing the relationship for negative charges and applying that incorrectly to a proton. Always: field direction = force direction for positive charges.', image: '/images/exams/phys-june-2025/q16.png' },
     {
       number: 17,
       part: 'A',
@@ -217,8 +215,7 @@ export default {
       topic: 'Electricity',
       correct: 0,
       explanation: "Ohm's law states V = IR, so I = V/R — current is directly proportional to voltage. The graph of I vs. V (or V vs. I) is a straight line through the origin.",
-      diveDeep: "Ohm's law V = IR is a linear relationship. For a constant resistance R, I increases proportionally with V: the graph is a straight line through the origin with slope = 1/R (for I vs. V) or slope = R (for V vs. I). Non-ohmic devices (diodes, transistors, light bulbs at high temperatures) show curved graphs. A straight line through the origin is the defining characteristic of an ohmic (linear) device. A common mistake is choosing a curved line. Linearity and passing through the origin are both required — a line that doesn't pass through the origin would imply current at zero voltage, which is impossible for a simple resistor."
-    },
+      diveDeep: "Ohm's law V = IR is a linear relationship. For a constant resistance R, I increases proportionally with V: the graph is a straight line through the origin with slope = 1/R (for I vs. V) or slope = R (for V vs. I). Non-ohmic devices (diodes, transistors, light bulbs at high temperatures) show curved graphs. A straight line through the origin is the defining characteristic of an ohmic (linear) device. A common mistake is choosing a curved line. Linearity and passing through the origin are both required — a line that doesn't pass through the origin would imply current at zero voltage, which is impossible for a simple resistor.", image: '/images/exams/phys-june-2025/q20.png' },
     {
       number: 21,
       part: 'A',
@@ -311,8 +308,7 @@ export default {
       correct: 1,
       topic: 'Mechanics',
       explanation: 'For constant acceleration, v = v₀ + at — a linear equation. The v-t graph is a straight line with slope = a. If the object starts from rest (v₀ = 0), the line passes through the origin.',
-      diveDeep: 'v = v₀ + at is linear in t with slope = a (constant). A straight line on a v-t graph means constant acceleration. A curved line would indicate changing acceleration. The v-intercept represents the initial velocity. If v₀ > 0, the line has a positive v-intercept and positive slope. The most common Regents version shows the line starting from the origin (v₀ = 0 with positive acceleration). The area under the v-t graph equals displacement. A common mistake is drawing a parabola — that would be the x-t graph (position vs. time) for constant acceleration, not the v-t graph.'
-    },
+      diveDeep: 'v = v₀ + at is linear in t with slope = a (constant). A straight line on a v-t graph means constant acceleration. A curved line would indicate changing acceleration. The v-intercept represents the initial velocity. If v₀ > 0, the line has a positive v-intercept and positive slope. The most common Regents version shows the line starting from the origin (v₀ = 0 with positive acceleration). The area under the v-t graph equals displacement. A common mistake is drawing a parabola — that would be the x-t graph (position vs. time) for constant acceleration, not the v-t graph.', image: '/images/exams/phys-june-2025/q38.png' },
     {
       number: 39,
       part: 'B-1',
@@ -327,8 +323,7 @@ export default {
       correct: 3,
       topic: 'Mechanics',
       explanation: 'In projectile motion (neglecting air resistance), there is no horizontal force. By Newton\'s first law, the horizontal velocity component remains constant throughout the flight.',
-      diveDeep: 'Projectile motion separates into independent vertical and horizontal components. Horizontally: no force (neglecting friction/air resistance) → no acceleration → constant horizontal velocity. Vertically: gravity acts downward at 9.81 m/s², causing the vertical velocity to change. The horizontal speed remains constant from launch to landing. A common mistake is thinking the ball slows down horizontally as it rises — this would only happen with air resistance. On the Regents, "neglect friction" is the cue that horizontal velocity is constant. This independence of components is the key principle of projectile motion analysis.'
-    },
+      diveDeep: 'Projectile motion separates into independent vertical and horizontal components. Horizontally: no force (neglecting friction/air resistance) → no acceleration → constant horizontal velocity. Vertically: gravity acts downward at 9.81 m/s², causing the vertical velocity to change. The horizontal speed remains constant from launch to landing. A common mistake is thinking the ball slows down horizontally as it rises — this would only happen with air resistance. On the Regents, "neglect friction" is the cue that horizontal velocity is constant. This independence of components is the key principle of projectile motion analysis.', image: '/images/exams/phys-june-2025/q39.png' },
     {
       number: 40,
       part: 'B-1',
@@ -343,8 +338,7 @@ export default {
       correct: 0,
       topic: 'Mechanics',
       explanation: 'Kinetic friction force f_k = μ_k × N. Since μ_k is constant for the same pair of surfaces, f_k is directly proportional to normal force N — a straight line through the origin.',
-      diveDeep: 'The kinetic friction formula f_k = μ_k N shows a direct linear proportionality between friction force and normal force, with the slope equal to μ_k (the coefficient of kinetic friction). The graph is a straight line through the origin. The slope is the coefficient of kinetic friction for wood on wood (~0.2–0.4). Moving at constant velocity means net force = 0, so friction = applied force — but this affects how friction is measured, not the f_k vs. N relationship itself. A common mistake is drawing a curved line (suggesting friction decreases at higher normal forces, which is incorrect for standard kinetic friction). The linear relationship is an empirical law that holds well for most solid surfaces.'
-    },
+      diveDeep: 'The kinetic friction formula f_k = μ_k N shows a direct linear proportionality between friction force and normal force, with the slope equal to μ_k (the coefficient of kinetic friction). The graph is a straight line through the origin. The slope is the coefficient of kinetic friction for wood on wood (~0.2–0.4). Moving at constant velocity means net force = 0, so friction = applied force — but this affects how friction is measured, not the f_k vs. N relationship itself. A common mistake is drawing a curved line (suggesting friction decreases at higher normal forces, which is incorrect for standard kinetic friction). The linear relationship is an empirical law that holds well for most solid surfaces.', image: '/images/exams/phys-june-2025/q40.png' },
     {
       number: 41,
       part: 'B-1',
@@ -375,8 +369,7 @@ export default {
       correct: 2,
       topic: 'Electricity & Magnetism',
       explanation: 'Any motion of the copper wire (left or right) through the magnetic field induces an EMF by Faraday\'s law, causing current to flow through R. Both directions of motion change the flux and induce a current.',
-      diveDeep: 'Faraday\'s law: EMF is induced whenever there is a change in magnetic flux. Moving the wire either left or right changes the area of the circuit loop and hence the flux, inducing an EMF and driving current through R. The direction of current reverses when the direction of wire motion reverses (Lenz\'s law), but current flows in both cases. Moving the wire at right angles to both its length and the field (either horizontally left or right along the rails) produces F = qv×B on the charges. A common mistake is thinking only one direction produces current. Both directions work — just with opposite current directions through R.'
-    },
+      diveDeep: 'Faraday\'s law: EMF is induced whenever there is a change in magnetic flux. Moving the wire either left or right changes the area of the circuit loop and hence the flux, inducing an EMF and driving current through R. The direction of current reverses when the direction of wire motion reverses (Lenz\'s law), but current flows in both cases. Moving the wire at right angles to both its length and the field (either horizontally left or right along the rails) produces F = qv×B on the charges. A common mistake is thinking only one direction produces current. Both directions work — just with opposite current directions through R.', image: '/images/exams/phys-june-2025/q42.png' },
     {
       number: 43,
       part: 'B-1',
@@ -407,8 +400,7 @@ export default {
       correct: 1,
       topic: 'Electricity & Magnetism',
       explanation: 'For two resistors in parallel: 1/R_eq = 1/3.0 + 1/6.0 = 2/6 + 1/6 = 3/6 → R_eq = 2.0 Ω.',
-      diveDeep: '1/R_eq = 1/R₁ + 1/R₂ = 1/3.0 + 1/6.0 = 2/6 + 1/6 = 3/6 → R_eq = 6/3 = 2.0 Ω. For two resistors in parallel, R_eq is always less than the smaller resistor (here, less than 3.0 Ω). Choice D (9.0 Ω) is the series combination (3 + 6 = 9). Choice C (3.0 Ω) is the smaller resistor alone. A common mistake is adding reciprocals but not taking the final reciprocal. The ammeter reading (3.0 A through the 3.0 Ω branch) is useful for Q45 but not needed here. The equivalent resistance for parallel circuits is always less than any individual branch resistance.'
-    },
+      diveDeep: '1/R_eq = 1/R₁ + 1/R₂ = 1/3.0 + 1/6.0 = 2/6 + 1/6 = 3/6 → R_eq = 6/3 = 2.0 Ω. For two resistors in parallel, R_eq is always less than the smaller resistor (here, less than 3.0 Ω). Choice D (9.0 Ω) is the series combination (3 + 6 = 9). Choice C (3.0 Ω) is the smaller resistor alone. A common mistake is adding reciprocals but not taking the final reciprocal. The ammeter reading (3.0 A through the 3.0 Ω branch) is useful for Q45 but not needed here. The equivalent resistance for parallel circuits is always less than any individual branch resistance.', image: '/images/exams/phys-june-2025/context_44_45.png' },
     {
       number: 45,
       part: 'B-1',
@@ -423,8 +415,7 @@ export default {
       correct: 0,
       topic: 'Electricity & Magnetism',
       explanation: 'In a parallel circuit, all branches share the same potential difference (voltage). The voltage across the 3.0 Ω resistor equals the voltage across the 6.0 Ω resistor.',
-      diveDeep: 'In a parallel circuit, each branch is connected directly across the same two nodes, so the potential difference (voltage) across each branch is identical. This is the defining property of parallel connections. V = IR: for the 3.0 Ω branch with 3.0 A → V = 3.0 × 3.0 = 9.0 V. For the 6.0 Ω branch: same V = 9.0 V → I = 9.0/6.0 = 1.5 A. A common mistake is confusing current and voltage: in parallel circuits, voltages are equal but currents differ (inversely proportional to resistance). In series circuits, currents are equal but voltages differ.'
-    },
+      diveDeep: 'In a parallel circuit, each branch is connected directly across the same two nodes, so the potential difference (voltage) across each branch is identical. This is the defining property of parallel connections. V = IR: for the 3.0 Ω branch with 3.0 A → V = 3.0 × 3.0 = 9.0 V. For the 6.0 Ω branch: same V = 9.0 V → I = 9.0/6.0 = 1.5 A. A common mistake is confusing current and voltage: in parallel circuits, voltages are equal but currents differ (inversely proportional to resistance). In series circuits, currents are equal but voltages differ.', image: '/images/exams/phys-june-2025/context_44_45.png' },
     {
       number: 46,
       part: 'B-1',
@@ -455,8 +446,7 @@ export default {
       correct: 3,
       topic: 'Waves & Light',
       explanation: 'In a transverse wave moving to the right, particles move perpendicular to the wave\'s direction of travel. A particle just past the crest (on the descending side) moves downward.',
-      diveDeep: 'In a transverse wave, particle motion is perpendicular to wave propagation. The direction a specific particle moves depends on its position in the wave cycle and the direction of wave travel. For a wave moving to the right: a particle on the leading (right) slope of a crest moves downward as the crest passes through it. Analogy: think of an ocean wave approaching — as the wave moves right, a buoy on the front slope of the wave bobs downward. A common mistake is saying the particle moves in the wave\'s propagation direction (right). Particles in a transverse wave never move in the direction of wave propagation — they oscillate perpendicular to it.'
-    },
+      diveDeep: 'In a transverse wave, particle motion is perpendicular to wave propagation. The direction a specific particle moves depends on its position in the wave cycle and the direction of wave travel. For a wave moving to the right: a particle on the leading (right) slope of a crest moves downward as the crest passes through it. Analogy: think of an ocean wave approaching — as the wave moves right, a buoy on the front slope of the wave bobs downward. A common mistake is saying the particle moves in the wave\'s propagation direction (right). Particles in a transverse wave never move in the direction of wave propagation — they oscillate perpendicular to it.', image: '/images/exams/phys-june-2025/q47.png' },
     {
       number: 48,
       part: 'B-1',
@@ -471,8 +461,7 @@ export default {
       correct: 2,
       topic: 'Waves & Light',
       explanation: 'The reflected ray obeys the law of reflection: angle of incidence = angle of reflection, measured from the normal, on the same side of the boundary as the incident ray.',
-      diveDeep: 'Law of reflection: θ_incidence = θ_reflection, both measured from the normal at the point of incidence, and both on the same side of the boundary (the air side). The reflected ray stays in the incident medium (air) and makes the same angle with the normal as the incoming ray. The refracted ray crosses into the glass at a different angle (Snell\'s law). Path C is the reflection path: symmetric to the incident ray about the normal, on the air side. A common mistake is confusing reflected and refracted rays, or measuring angles from the surface instead of from the normal. Always draw the normal first when analyzing reflection/refraction.'
-    },
+      diveDeep: 'Law of reflection: θ_incidence = θ_reflection, both measured from the normal at the point of incidence, and both on the same side of the boundary (the air side). The reflected ray stays in the incident medium (air) and makes the same angle with the normal as the incoming ray. The refracted ray crosses into the glass at a different angle (Snell\'s law). Path C is the reflection path: symmetric to the incident ray about the normal, on the air side. A common mistake is confusing reflected and refracted rays, or measuring angles from the surface instead of from the normal. Always draw the normal first when analyzing reflection/refraction.', image: '/images/exams/phys-june-2025/q48.png' },
     {
       number: 49,
       part: 'B-1',
@@ -487,8 +476,7 @@ export default {
       correct: 2,
       topic: 'Waves & Light',
       explanation: 'Diffraction is the spreading of waves as they pass through an opening or around an obstacle. The diagram shows straight wave fronts bending around the edges of the opening and spreading behind the barrier.',
-      diveDeep: 'Diffraction occurs when waves encounter an opening or obstacle whose size is comparable to the wavelength. The waves spread out (diffract) beyond the opening, creating curved wave fronts behind the barrier. This is why sound can be heard around corners and why light diffracts through narrow slits (producing patterns). Resonance involves standing waves at specific frequencies. The Doppler effect involves frequency change due to relative motion. Reflection involves waves bouncing off a surface. Diffraction is uniquely identified by the spreading of wave fronts through an opening — the key signature is waves bending into the "shadow" region behind the barrier.'
-    },
+      diveDeep: 'Diffraction occurs when waves encounter an opening or obstacle whose size is comparable to the wavelength. The waves spread out (diffract) beyond the opening, creating curved wave fronts behind the barrier. This is why sound can be heard around corners and why light diffracts through narrow slits (producing patterns). Resonance involves standing waves at specific frequencies. The Doppler effect involves frequency change due to relative motion. Reflection involves waves bouncing off a surface. Diffraction is uniquely identified by the spreading of wave fronts through an opening — the key signature is waves bending into the "shadow" region behind the barrier.', image: '/images/exams/phys-june-2025/q49.png' },
     {
       number: 50,
       part: 'B-1',
@@ -583,8 +571,7 @@ export default {
       modelAnswer: 'Net horizontal force = applied force − friction force = 27 N − 16 N = 11 N\n\nVertically: N − W = 0 (no vertical acceleration)\n\nThe magnitude of the net force acting on the box is 11 N (directed to the right).',
       topic: 'Mechanics',
       explanation: 'Horizontally: F_net = F_applied − F_friction = 27 − 16 = 11 N. Vertically: N = W (balanced). Net force = 11 N.',
-      diveDeep: 'Forces on the box: horizontal → applied force 27 N right, friction 16 N left; vertical → normal force N up, weight 53 N down. Vertical equilibrium: N = 53 N (no vertical acceleration). Horizontal net force: F_net = 27 − 16 = 11 N (to the right). The net force has only a horizontal component since vertical forces balance. Common mistakes: (1) including the weight or normal force in the net force (they cancel); (2) adding 27 + 16 = 43 N instead of subtracting (not accounting for opposite directions of applied force and friction). Net force = 11 N produces acceleration a = F_net/m = 11/(53/9.81) ≈ 2.04 m/s² to the right.'
-    },
+      diveDeep: 'Forces on the box: horizontal → applied force 27 N right, friction 16 N left; vertical → normal force N up, weight 53 N down. Vertical equilibrium: N = 53 N (no vertical acceleration). Horizontal net force: F_net = 27 − 16 = 11 N (to the right). The net force has only a horizontal component since vertical forces balance. Common mistakes: (1) including the weight or normal force in the net force (they cancel); (2) adding 27 + 16 = 43 N instead of subtracting (not accounting for opposite directions of applied force and friction). Net force = 11 N produces acceleration a = F_net/m = 11/(53/9.81) ≈ 2.04 m/s² to the right.', image: '/images/exams/phys-june-2025/q62.png' },
     {
       number: 63,
       part: 'B-2',
@@ -593,8 +580,7 @@ export default {
       modelAnswer: 'Measure the angle between the refracted ray and the normal inside medium X using a protractor.\n\nThe angle of refraction in medium X is approximately 22° (measured from the normal to the refracted ray inside the medium).\n\n[Accept any value from 21° to 23° as read from the diagram.]',
       topic: 'Waves & Light',
       explanation: 'The angle of refraction is measured from the normal to the refracted ray inside medium X. From the diagram, this angle is approximately 22°.',
-      diveDeep: 'Refraction: when light enters a denser medium (higher index), it bends toward the normal, so the refraction angle < incidence angle. The incidence angle is given as 35°. The refracted ray bends toward the normal inside medium X, giving a smaller angle (~22°). This is read directly from the diagram using a protractor. For Regents credit, students must correctly identify which angle to measure — always from the normal (perpendicular to the surface at the boundary), not from the surface itself. A common mistake is measuring the angle from the surface (which would give 90° − 22° = 68°). The normal is the dashed line perpendicular to the boundary.'
-    },
+      diveDeep: 'Refraction: when light enters a denser medium (higher index), it bends toward the normal, so the refraction angle < incidence angle. The incidence angle is given as 35°. The refracted ray bends toward the normal inside medium X, giving a smaller angle (~22°). This is read directly from the diagram using a protractor. For Regents credit, students must correctly identify which angle to measure — always from the normal (perpendicular to the surface at the boundary), not from the surface itself. A common mistake is measuring the angle from the surface (which would give 90° − 22° = 68°). The normal is the dashed line perpendicular to the boundary.', image: '/images/exams/phys-june-2025/context_63_65.png' },
     {
       number: 64,
       part: 'B-2',
@@ -603,8 +589,7 @@ export default {
       modelAnswer: 'Using Snell\'s Law: n₁ sin θ₁ = n₂ sin θ₂\n\nFor air: n₁ = 1.00\nAngle of incidence: θ₁ = 35°\nAngle of refraction: θ₂ ≈ 22°\n\nn₂ = (n₁ sin θ₁) / sin θ₂ = (1.00 × sin 35°) / sin 22°\nn₂ = (1.00 × 0.574) / 0.374\nn₂ ≈ 1.53\n\nThe absolute index of refraction of medium X is approximately 1.53.',
       topic: 'Waves & Light',
       explanation: 'Snell\'s law: n₁ sin θ₁ = n₂ sin θ₂. With n₁ = 1.00 (air), θ₁ = 35°, θ₂ ≈ 22°: n₂ = sin 35°/sin 22° ≈ 0.574/0.374 ≈ 1.53.',
-      diveDeep: 'n = sin θ_air / sin θ_medium (Snell\'s law with n_air = 1.00). Using θ_air = 35° and θ_medium = 22° (from Q63): n = sin 35°/sin 22° = 0.5736/0.3746 ≈ 1.53. This value (≈1.53) corresponds to a glass-like material (crown glass is 1.52, flint glass is 1.61). The light slows down in medium X: v = c/n ≈ (3.00 × 10⁸)/1.53 ≈ 1.96 × 10⁸ m/s. A common mistake is inverting the formula: n = sin θ_medium / sin θ_air (which gives a value less than 1, impossible for a material denser than air). Always: n = sin(air angle)/sin(medium angle) when going from air into the medium.'
-    },
+      diveDeep: 'n = sin θ_air / sin θ_medium (Snell\'s law with n_air = 1.00). Using θ_air = 35° and θ_medium = 22° (from Q63): n = sin 35°/sin 22° = 0.5736/0.3746 ≈ 1.53. This value (≈1.53) corresponds to a glass-like material (crown glass is 1.52, flint glass is 1.61). The light slows down in medium X: v = c/n ≈ (3.00 × 10⁸)/1.53 ≈ 1.96 × 10⁸ m/s. A common mistake is inverting the formula: n = sin θ_medium / sin θ_air (which gives a value less than 1, impossible for a material denser than air). Always: n = sin(air angle)/sin(medium angle) when going from air into the medium.', image: '/images/exams/phys-june-2025/context_63_65.png' },
     {
       number: 66,
       part: 'C',
@@ -613,8 +598,7 @@ export default {
       modelAnswer: 'Using the universal law of gravitation: F_B = Gm_A m_B / r²\n\nSolve for r:\nr² = Gm_A m_B / F_B\nr² = (6.67 × 10⁻¹¹ N·m²/kg²)(4.0 kg)(4.0 kg) / (5.08 × 10⁻¹⁰ N)\nr² = (6.67 × 10⁻¹¹ × 16) / (5.08 × 10⁻¹⁰)\nr² = (1.0672 × 10⁻⁹) / (5.08 × 10⁻¹⁰)\nr² = 2.1008 m²\nr = √2.1008 ≈ 1.45 m\n\nThe distance between the centers of masses A and B is approximately 1.45 m.',
       topic: 'Mechanics',
       explanation: 'F = Gm₁m₂/r² → r = √(Gm₁m₂/F) = √((6.67×10⁻¹¹)(4.0)(4.0) / 5.08×10⁻¹⁰) ≈ 1.45 m.',
-      diveDeep: 'Newton\'s law of universal gravitation: F = Gm₁m₂/r². Rearranging for r: r = √(Gm₁m₂/F). G = 6.67 × 10⁻¹¹ N·m²/kg² (from reference table). m_A = m_B = 4.0 kg. F_B = 5.08 × 10⁻¹⁰ N. r = √[(6.67×10⁻¹¹)(4.0)(4.0)/(5.08×10⁻¹⁰)] = √[(1.0672×10⁻⁹)/(5.08×10⁻¹⁰)] = √(2.101) ≈ 1.45 m. Common mistakes: forgetting to take the square root of r², or using F as the resultant R instead of F_B. The question specifies using F_B (the force from B alone on A) to find the A–B distance. The resultant R is used for Q68.'
-    },
+      diveDeep: 'Newton\'s law of universal gravitation: F = Gm₁m₂/r². Rearranging for r: r = √(Gm₁m₂/F). G = 6.67 × 10⁻¹¹ N·m²/kg² (from reference table). m_A = m_B = 4.0 kg. F_B = 5.08 × 10⁻¹⁰ N. r = √[(6.67×10⁻¹¹)(4.0)(4.0)/(5.08×10⁻¹⁰)] = √[(1.0672×10⁻⁹)/(5.08×10⁻¹⁰)] = √(2.101) ≈ 1.45 m. Common mistakes: forgetting to take the square root of r², or using F as the resultant R instead of F_B. The question specifies using F_B (the force from B alone on A) to find the A–B distance. The resultant R is used for Q68.', image: '/images/exams/phys-june-2025/context_66_68.png' },
     {
       number: 68,
       part: 'C',
@@ -623,8 +607,7 @@ export default {
       modelAnswer: 'The resultant gravitational force on the new 7.0-kg mass would be greater than R.\n\nExplanation: The positions and masses of B and C are unchanged, so the gravitational forces they exert scale proportionally with the mass at A\'s position. The new force on the 7.0-kg mass is:\n\nF_new = (7.0 kg / 4.0 kg) × R = 1.75 × R = 1.75 × (5.74 × 10⁻¹⁰ N) ≈ 1.00 × 10⁻⁹ N\n\nThe resultant gravitational force on the 7.0-kg mass is 1.75 times greater than R (larger than R).',
       topic: 'Mechanics',
       explanation: 'Gravitational force scales with mass: F ∝ m. Since 7.0/4.0 = 1.75, the new force is 1.75 × R — larger than R.',
-      diveDeep: 'F = Gm_B m_A / r² (and similarly for C). Since r (the distances from B and C to position A) remains unchanged and m_B, m_C are unchanged, the force on the object at position A scales directly with the mass placed there. New mass = 7.0 kg; original mass = 4.0 kg. Ratio = 7.0/4.0 = 1.75. New resultant = 1.75 × 5.74 × 10⁻¹⁰ ≈ 1.00 × 10⁻⁹ N. A common mistake is thinking the force stays the same (because positions are unchanged) — but gravitational force depends on both masses. The placement mass (at position A) directly scales the force. This illustrates the equivalence principle: heavier mass → stronger gravitational pull from the same sources.'
-    },
+      diveDeep: 'F = Gm_B m_A / r² (and similarly for C). Since r (the distances from B and C to position A) remains unchanged and m_B, m_C are unchanged, the force on the object at position A scales directly with the mass placed there. New mass = 7.0 kg; original mass = 4.0 kg. Ratio = 7.0/4.0 = 1.75. New resultant = 1.75 × 5.74 × 10⁻¹⁰ ≈ 1.00 × 10⁻⁹ N. A common mistake is thinking the force stays the same (because positions are unchanged) — but gravitational force depends on both masses. The placement mass (at position A) directly scales the force. This illustrates the equivalence principle: heavier mass → stronger gravitational pull from the same sources.', image: '/images/exams/phys-june-2025/context_66_68.png' },
     {
       number: 69,
       part: 'C',
@@ -633,8 +616,7 @@ export default {
       modelAnswer: '(69) Plot each data point: (0.0, 0.0), (0.5, 2.1), (1.0, 4.2), (1.5, 6.3), (2.0, 8.4), (2.5, 11.0), (3.0, 13.0), (3.5, 15.0), (4.0, 18.0).\n\n(70) Draw a best-fit straight line through the plotted points. The line should best represent the general trend.\n\n(71) The average force = slope of the best-fit p vs. t line.\nSlope ≈ Δp/Δt = (18.0 − 0.0) kg·m/s / (4.0 − 0.0) s ≈ 4.5 N\nThe average force is approximately 4.5 N.\n\n(72–73) Average acceleration:\na = F/m = 4.5 N / 2.8 kg ≈ 1.6 m/s²\n\nAlternatively: a = Δv/Δt. Since p = mv, Δv = Δp/m.\na = Δp/(m × Δt) = 18.0/(2.8 × 4.0) = 18.0/11.2 ≈ 1.6 m/s²\n\nThe magnitude of the average acceleration is approximately 1.6 m/s².',
       topic: 'Mechanics',
       explanation: 'The slope of the p-t graph gives force (F = Δp/Δt). Slope ≈ 4.5 N. Acceleration a = F/m = 4.5/2.8 ≈ 1.6 m/s².',
-      diveDeep: 'Impulse-momentum theorem: F = Δp/Δt — the slope of a momentum vs. time graph is force. From the best-fit line: slope = (18.0 − 0)/(4.0 − 0) = 4.5 kg·m/s² = 4.5 N. Then a = F/m = 4.5/2.8 ≈ 1.6 m/s². Note the data is nearly linear (indicating nearly constant net force/acceleration) but has slight variations. The best-fit line averages these. Q72-73 requires showing the formula and substitution for Regents credit. A common mistake is computing acceleration from two arbitrary data points rather than using the best-fit line slope. Also: make sure the graph has labeled axes, appropriate scale, and data points clearly marked to earn full graphing credit.'
-    },
+      diveDeep: 'Impulse-momentum theorem: F = Δp/Δt — the slope of a momentum vs. time graph is force. From the best-fit line: slope = (18.0 − 0)/(4.0 − 0) = 4.5 kg·m/s² = 4.5 N. Then a = F/m = 4.5/2.8 ≈ 1.6 m/s². Note the data is nearly linear (indicating nearly constant net force/acceleration) but has slight variations. The best-fit line averages these. Q72-73 requires showing the formula and substitution for Regents credit. A common mistake is computing acceleration from two arbitrary data points rather than using the best-fit line slope. Also: make sure the graph has labeled axes, appropriate scale, and data points clearly marked to earn full graphing credit.', image: '/images/exams/phys-june-2025/context_69_73.png' },
     {
       number: 74,
       part: 'C',
@@ -643,8 +625,7 @@ export default {
       modelAnswer: '(74) Measure the wavelength from the diagram: one complete wave cycle measures approximately 2.0 cm on the diagram.\nActual wavelength: λ = 2.0 cm × (0.10 m/cm) = 0.20 m\n\n(75–76) First find the distance from A to B using the diagram scale.\nSuppose A to B spans approximately 4.0 cm → actual distance d = 4.0 × 0.10 = 0.40 m\nv = d/t = 0.40 m / 2.0 s = 0.20 m/s\n\nVerification using v = fλ: f = v/λ = 0.20/0.20 = 1.0 Hz ✓\n\n(77) A point 180° out of phase with point C is exactly one half-wavelength away from C (either direction along the wave). Place the X at the position one half-wavelength from C (0.10 m or 1.0 cm from C on the diagram).',
       topic: 'Waves & Light',
       explanation: 'Wavelength is read from the diagram using the scale. Speed v = d/t using the A-to-B distance and time. A 180° phase difference = half a wavelength away from point C.',
-      diveDeep: 'Wave measurements from scale diagrams: (1) wavelength = length of one complete cycle (crest to crest or trough to trough), converted using the scale. (2) Speed = distance/time, where distance is the A-to-B gap converted by scale, time = 2.0 s. (3) 180° out of phase means half a wavelength away — the point is at the opposite displacement (if C is at a crest, 180° out of phase is at a trough, and vice versa). Common mistakes: measuring peak height instead of cycle length for wavelength; using time in wrong units; placing X at ¼ wavelength (90° out of phase) instead of ½ wavelength. The scale factor 1.0 cm = 0.10 m must be applied to all measurements.'
-    },
+      diveDeep: 'Wave measurements from scale diagrams: (1) wavelength = length of one complete cycle (crest to crest or trough to trough), converted using the scale. (2) Speed = distance/time, where distance is the A-to-B gap converted by scale, time = 2.0 s. (3) 180° out of phase means half a wavelength away — the point is at the opposite displacement (if C is at a crest, 180° out of phase is at a trough, and vice versa). Common mistakes: measuring peak height instead of cycle length for wavelength; using time in wrong units; placing X at ¼ wavelength (90° out of phase) instead of ½ wavelength. The scale factor 1.0 cm = 0.10 m must be applied to all measurements.', image: '/images/exams/phys-june-2025/context_74_77.png' },
     {
       number: 78,
       part: 'C',
@@ -653,8 +634,7 @@ export default {
       modelAnswer: '(78) Weight W = mg = (51.0 kg)(9.81 m/s²) = 500. N\n\n(79–80) At rest, the spring force equals the child\'s weight (equilibrium):\nF_spring = W = 500. N, x = 0.15 m\nHooke\'s law: F = kx\nk = F/x = 500. N / 0.15 m ≈ 3.3 × 10³ N/m = 3300 N/m\n\n(81–82) Elastic potential energy stored in the spring:\nPE_spring = ½kx²\nPE_spring = ½(3300 N/m)(0.15 m)²\nPE_spring = ½(3300)(0.0225)\nPE_spring = ½(74.25) = 37.125 ≈ 37 J',
       topic: 'Mechanics',
       explanation: 'W = mg = (51.0)(9.81) ≈ 500. N. k = F/x = 500/0.15 ≈ 3300 N/m. PE = ½kx² = ½(3300)(0.15)² ≈ 37 J.',
-      diveDeep: 'Three-part pogo stick problem: (78) W = mg = 51.0 × 9.81 ≈ 500. N (or 499.11 N; accept 500 N). (79-80) Static equilibrium → spring force = weight → k = F/x = 500/0.15 = 3333 N/m ≈ 3.3 × 10³ N/m. (81-82) PE = ½kx² = ½(3333)(0.0225) = 37.5 ≈ 37 J. Alternatively: PE = ½Fx = ½(500)(0.15) = 37.5 J (since F = kx at equilibrium). Common mistakes: (78) not multiplying by g (just writing m = 51.0 N); (80) dividing x/F instead of F/x; (82) forgetting the ½ factor in elastic PE or using x without squaring it. The spring constant of ~3300 N/m is typical for a pogo stick spring.'
-    },
+      diveDeep: 'Three-part pogo stick problem: (78) W = mg = 51.0 × 9.81 ≈ 500. N (or 499.11 N; accept 500 N). (79-80) Static equilibrium → spring force = weight → k = F/x = 500/0.15 = 3333 N/m ≈ 3.3 × 10³ N/m. (81-82) PE = ½kx² = ½(3333)(0.0225) = 37.5 ≈ 37 J. Alternatively: PE = ½Fx = ½(500)(0.15) = 37.5 J (since F = kx at equilibrium). Common mistakes: (78) not multiplying by g (just writing m = 51.0 N); (80) dividing x/F instead of F/x; (82) forgetting the ½ factor in elastic PE or using x without squaring it. The spring constant of ~3300 N/m is typical for a pogo stick spring.', image: '/images/exams/phys-june-2025/context_78_82.png' },
     {
       number: 83,
       part: 'C',

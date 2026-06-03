@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-1",
+  "session": "june-2022",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which correlation shows a causal relationship?",
+      "choices": [
+        "The more minutes an athlete is on the playing field, the more goals he scores.",
+        "The more gasoline that you purchase at the pump, the more you pay.",
+        "The longer a shopper stays at the mall, the more purchases she makes.",
+        "As the price of a gift increases, the size of the gift box increases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Given f(x) \u0002 3x \u0003 5, which statement is true?",
+      "choices": [
+        "f(0) \u0002 0",
+        "f",
+        "\u0002 4",
+        "f(5) \u0002 0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "At Benny\u2019s Caf\u00e9, a mixed-greens salad costs $5.75. Additional toppings can be added for $0.75 each. Which function could be used to determine the cost, c(s), in dollars, of a salad with s additional toppings?",
+      "choices": [
+        "c(s) \u0002 5.75s \u0004 0.75",
+        "c(s) \u0002 0.75s \u0004 5.75",
+        "c(s) \u0002 5.00s \u0004 0.75",
+        "c(s) \u0002 0.75s \u0004 5.00"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to x2 \u0004 5x \u0003 6?",
+      "choices": [
+        "(x \u0004 3)(x \u0003 2)",
+        "(x \u0004 2)(x \u0003 3)",
+        "(x \u0003 6)(x \u0004 1)",
+        "(x \u0004 6)(x \u0003 1)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Peter has $100 to spend on drinks for his party. Bottles of lemonade cost $2 each, and juice boxes cost $0.50 each. If x is the number of bottles of lemonade and y is the number of juice boxes, which inequality models this situation?",
+      "choices": [
+        "0.50x \u0004 2y \u2264 100",
+        "0.50x \u0004 2y \u2265 100",
+        "2x \u0004 0.50y \u2264 100",
+        "2x \u0004 0.50y \u2265 100"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which domain is most appropriate for a function that represents the number of items, f(x), placed into a laundry basket each day, x, for the month of January?",
+      "choices": [
+        "integers",
+        "whole numbers",
+        "rational numbers",
+        "irrational numbers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "What is the solution to 3 2 b \u0004 5 \u0005 17?",
+      "choices": [
+        "b \u0005 8",
+        "b \u0006 8",
+        "b \u0005 18",
+        "b \u0006 18"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which table of values represents an exponential relationship? x f(x) 1 6 2 9 3 12 4 15 5 18",
+      "choices": [
+        "x k(x) 1 4 2 16 3 64 4 256 5 1024",
+        "x p(x) 1 \u20139.5 2 \u201312 3 \u201314.5 4 \u201317 5 \u201319.5",
+        "x h(x) 1 2 2 7 3 12 4 17 5 22",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/june-2022/q8.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which expression is not equivalent to (52x)3?",
+      "choices": [
+        "(5x)6",
+        "(53x)2",
+        "(55)x",
+        "(52)3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which relation is a function?",
+      "choices": [
+        "",
+        "\u00031 0 1 1 2 1 0 1 2 4 x y 3 9",
+        "y x {(0,1), (2,3), (3,2), (3,4)} x, \u00031\u0005 x \u0094 2 x2, 2 \u0094 x \u0005 4 { y \u0002",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/june-2022/q10.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The formula Ax \u0004 By \u0002 C represents the equation of a line in standard form. Which expression represents y in terms of A, B, C, and x?",
+      "choices": [
+        "C Ax B \u0003",
+        "C A Bx \u0003",
+        "C A x B \u0003 \u0004",
+        "C B Ax \u0003"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "What are the zeros of f(x) \u0002 (2x \u0003 4)(3x \u0004 4)?",
+      "choices": [
+        "4 3,2 \u0003 { }",
+        "{\u00034,4}",
+        "2,4 3 \u0003 { }",
+        "{\u00034,2}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Joe has dimes and nickels in his piggy bank totaling $1.45. The number of nickels he has is 5 more than twice the number of dimes, d. Which equation could be used to find the number of dimes he has?",
+      "choices": [
+        "0.10d \u0004 0.05(2d \u0004 5) \u0002 1.45",
+        "0.10(2d \u0004 5) \u0004 0.05d \u0002 1.45",
+        "d \u0004 (2d \u0004 5) \u0002 1.45",
+        "(d \u0003 5) \u0004 2d \u0002 1.45"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Donna and Andrew compared their math final exam scores from grade 8 through grade 12. Their scores are shown below. Donna 8th 90 9th 92 10th 87 11th 94 12th 95 Andrew 8th 78 9th 96 10th 87 11th 94 12th 93 Which statement about their final exam scores is correct?",
+      "choices": [
+        "Andrew has a higher mean than Donna.",
+        "Donna and Andrew have the same median.",
+        "Andrew has a larger interquartile range than Donna.",
+        "The 3rd quartile for Donna is greater than the 3rd quartile for Andrew."
+      ],
+      "image": "/images/exams/algebra-1/june-2022/q14.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The first term in a sequence is 5 and the fifth term is 17. What is the common difference?",
+      "choices": [
+        "2.4",
+        "12",
+        "3",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "A quadratic function and a linear function are graphed on the same set of axes. Which situation is not possible?",
+      "choices": [
+        "The graphs do not intersect.",
+        "The graphs intersect in one point.",
+        "The graphs intersect in two points.",
+        "The graphs intersect in three points."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The expression (m \u0003 3)2 is equivalent to",
+      "choices": [
+        "m2 \u0004 9",
+        "m2 \u0003 9",
+        "m2 \u0003 6m \u0004 9",
+        "m2 \u0003 6m \u0003 9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Mrs. Rossano asked her students to explain why (3,\u00034) is a solution to 2y \u0004 3x \u0002 1. Three student responses are given below. Andrea: \u201cWhen the equation is graphed on a calculator, the point can be found within its table.\u201d Bill: \u201cSubstituting x \u0002 3 and y \u0002 \u00034 into the equation makes it true.\u201d Christine: \u201cThe graph of the line passes through the point (3,\u00034).\u201d Which students are correct?",
+      "choices": [
+        "Andrea and Bill, only",
+        "Bill and Christine, only",
+        "Andrea and Christine, only",
+        "Andrea, Bill, and Christine"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Four quadratic functions are shown below. j(x) \u0002 \u0003 x2 \u0004 x \u0004 4 1 2 y x h(x) \u00034 \u00032 \u00031 0 2 \u00034 4 5 4 \u00034 f(x) x g(x) \u0002 \u0003(x \u0003 4)2 \u0004 5 Which statement is true?",
+      "choices": [
+        "The maximum of f(x) is less than the maximum of j(x).",
+        "The maximum of g(x) is less than the maximum of h(x).",
+        "The maximum of f(x) equals the maximum of g(x).",
+        "The maximum of h(x) equals the maximum of j(x)"
+      ],
+      "image": "/images/exams/algebra-1/june-2022/q19.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "An example of a sixth-degree polynomial with a leading coefficient of seven and a constant term of four is",
+      "choices": [
+        "6x7 \u0003 x5 \u0004 2x \u0004 4",
+        "4 \u0004 x \u0004 7x6 \u0003 3x2",
+        "7x4 \u0004 6 \u0004 x2",
+        "5x \u0004 4x6\u0004 7"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "In the equation A \u0002 P(1 \u0007 r)t, A is the total amount, P is the principal amount, r is the annual interest rate, and t is the time in years. Which statement correctly relates information regarding the annual interest rate for each given equation?",
+      "choices": [
+        "For A \u0002 P(1.025)t, the principal amount of money is increasing at a 25% interest rate.",
+        "For A \u0002 P(1.0052)t, the principal amount of money is increasing at a 52% interest rate.",
+        "For A \u0002 P(0.86)t, the principal amount of money is decreasing at a 14% interest rate.",
+        "For A \u0002 P(0.68)t, the principal amount of money is decreasing at a 68% interest rate."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "It takes Tim 4.5 hours to run 50 kilometers. Which expression will allow him to change this rate to minutes per mile?",
+      "choices": [
+        "4.5 hr 50 km 1.609 km 1mi 60 min 1 hr \u2022 \u2022",
+        "50 km 4.5 hr 1mi 1.609 km 60 min 1 hr \u2022 \u2022",
+        "50 km 4.5 hr 1mi 1.609 km 1 hr 60 min \u2022 \u2022",
+        "4.5 hr 50 km 1mi 1.609 km 60 min 1 hr \u2022 \u2022"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "When the equation x a a 1 2 4 3 4 \u0003 \u0003 \u0002 is solved for x in terms of a, the solution is",
+      "choices": [
+        "a 3 2 \u0004 1",
+        "a \u0004 1",
+        "a 4 1 2 \u0004",
+        "2a \u0004 1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "If a sequence is defined recursively as a1 \u0002 \u00033 and an \u0002 \u00033an \u0003 1 \u0003 2, then a4 is",
+      "choices": [
+        "\u0003107",
+        "\u000395",
+        "55",
+        "67 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Is the product of 1024 and \u00033.4 rational or irrational?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2022/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Describe the transformations performed on the graph of f(x) \u0002 x2 to obtain the graph of g(x) when g(x) \u0002 (x \u0003 3)2 \u0003 4",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "The total profit earned at a garage sale during the first five hours is modeled by the graph shown below. y x 1 2 3 4 5 20 40 60 80 100 120 Hours Total Profit (in dollars) Determine the average rate of change, in dollars per hour, over the interval 1 \u2264 x \u2264 4",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2022/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Subtract 3x(x \u0003 2y) from 6(x2 \u0003 xy)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "29",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2022/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Solve 6x2 \u0004 5x \u0003 6 \u0002 0",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Factor the expression x4 \u0003 36x2",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Determine the exact values of x for x2 \u0003 8x \u0003 5 \u0002 0 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "The graph below models the height of Sam\u2019s kite over a period of time. 2 1 20 40 Time (in minutes) Height (in feet) Explain what the zeros of the graph represent in the context of the situation. State the time intervals over which the height of the kite is increasing. State the maximum height, in feet,",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2022/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "On the set of axes below, graph f(x) \u0002 x2 \u0003 1 and g(x) \u0002 3x. y x Based on your graph, for how many values of x does f(x) \u0002 g(x)?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2022/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "An insurance agent is looking at records to determine if there is a relationship between a driver\u2019s age and percentage of accidents caused by speeding. The table below shows his data. Age (x) 17 18 21 25 30 35 40 45 50 55 60 65 Percentage of Accidents Caused by Speeding (y) 49 49 48 38 31 33 24 25 16 10 5 6 State the linear regression equation that models the relationship between the driver\u2019s age, x, and the percentage of accidents caused by speeding,",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2022/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Solve the system of inequalities graphically on the set of axes below. Label the solution set S. 2x \u0004 3y \u0005 9 2y \u2265 4x \u0004 6 y x Determine if the point (0,3) Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2022/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "At an amusement park, the cost for an adult admission is a, and for a child the cost is c. For a group of six that included two children, the cost was $325.94. For a group of five that included three children, the cost was $256.95. All ticket prices include tax. Write a system of equations, in terms of a and c, that models this situation. Use your system of equations to determine the exact cost of each type of ticket algebraically. Determine the cost for a group of four that includes three children. Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0004 b2 \u0002 c2 Quadratic Formula x \u0002 \u0003 \u0007 \u0003 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0004 (n \u0003 1)d Geometric Sequence an \u0002 a1r n \u0003 1 Geometric Series Sn \u0002 where r \b 1 a a r r n 1 1 1 \u0003 \u0003 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0003 t0) \u0004 B0 Tear Here Tear Here ALGEBRA I ALGEBRA I Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

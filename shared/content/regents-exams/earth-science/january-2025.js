@@ -124,8 +124,7 @@ export default {
       topic: 'Meteorology',
       correct: 0,
       explanation: 'Station models encode pressure by dropping the leading 9 or 10 and the decimal point. "150" represents 1015.0 mb — the leading "10" is added and the decimal placed before the last digit.',
-      diveDeep: 'Decoding station model pressure is a standard Regents skill. The rule: if the three digits are 500 or higher, prefix with 9; if below 500, prefix with 10. Then insert a decimal before the last digit. So 150 → 10 + 150 = 1015.0 mb; 956 → 9 + 956 = 995.6 mb. Normal sea-level pressure is 1013.25 mb (29.92 in Hg). Pressures above 1013 mb indicate high pressure (fair weather); below 1013 mb indicate low pressure (stormy weather). Practicing this decoding with multiple examples is the best preparation.',
-    },
+      diveDeep: 'Decoding station model pressure is a standard Regents skill. The rule: if the three digits are 500 or higher, prefix with 9; if below 500, prefix with 10. Then insert a decimal before the last digit. So 150 → 10 + 150 = 1015.0 mb; 956 → 9 + 956 = 995.6 mb. Normal sea-level pressure is 1013.25 mb (29.92 in Hg). Pressures above 1013 mb indicate high pressure (fair weather); below 1013 mb indicate low pressure (stormy weather). Practicing this decoding with multiple examples is the best preparation.', image: '/images/exams/es-january-2025/q9.png' },
     {
       number: 10,
       part: 'A',
@@ -134,8 +133,7 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       explanation: 'Long-exposure photographs of the northern sky show stars tracing circular arcs centered on Polaris, the North Star, because it lies almost directly above Earth\'s North Pole and appears nearly stationary.',
-      diveDeep: 'Polaris is located within about 0.7° of the celestial north pole (the point directly above Earth\'s rotational axis), so it appears almost stationary as Earth rotates. All other stars appear to circle around it due to Earth\'s rotation. The altitude of Polaris above the horizon equals the observer\'s latitude — so from Albany (~42.7°N), Polaris appears about 43° above the northern horizon. Star trail photographs visually demonstrate Earth\'s rotation and are frequently used as evidence on the Regents exam.',
-    },
+      diveDeep: 'Polaris is located within about 0.7° of the celestial north pole (the point directly above Earth\'s rotational axis), so it appears almost stationary as Earth rotates. All other stars appear to circle around it due to Earth\'s rotation. The altitude of Polaris above the horizon equals the observer\'s latitude — so from Albany (~42.7°N), Polaris appears about 43° above the northern horizon. Star trail photographs visually demonstrate Earth\'s rotation and are frequently used as evidence on the Regents exam.', image: '/images/exams/es-january-2025/q10.png' },
     {
       number: 11,
       part: 'A',
@@ -166,8 +164,7 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       explanation: 'A mid-latitude cyclone begins with separate cold and warm fronts, and over time the faster-moving cold front catches up to and lifts the warm front, forming an occluded front. The sequence C, D, A, B represents this progression.',
-      diveDeep: 'Mid-latitude cyclone development (the Norwegian Cyclone Model) follows a predictable sequence: (1) a stationary front develops a wave; (2) distinct warm and cold fronts form as the low deepens; (3) the cold front moves faster and overtakes the warm front; (4) an occluded front forms as the warm air is lifted completely off the ground. The occluded front eventually dissipates as the storm loses its energy source. On the Regents, knowing the symbols for each front type (cold = triangles, warm = semicircles, occluded = both) and the sequence of cyclone development is essential.',
-    },
+      diveDeep: 'Mid-latitude cyclone development (the Norwegian Cyclone Model) follows a predictable sequence: (1) a stationary front develops a wave; (2) distinct warm and cold fronts form as the low deepens; (3) the cold front moves faster and overtakes the warm front; (4) an occluded front forms as the warm air is lifted completely off the ground. The occluded front eventually dissipates as the storm loses its energy source. On the Regents, knowing the symbols for each front type (cold = triangles, warm = semicircles, occluded = both) and the sequence of cyclone development is essential.', image: '/images/exams/es-january-2025/q13.png' },
     {
       number: 14,
       part: 'A',
@@ -352,8 +349,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'Streak — the color of a mineral\'s powder when rubbed on a white unglazed porcelain plate — is more reliable than surface color because it is constant regardless of impurities or surface oxidation.',
-      diveDeep: 'Color is the least reliable mineral property because impurities can change it significantly (quartz can be clear, white, pink, purple, or black). Streak eliminates surface effects and shows the mineral\'s true powder color. For example, pyrite (fool\'s gold) has a brassy yellow color but a black streak, easily distinguishing it from real gold (yellow streak). However, minerals with hardness greater than the porcelain plate (hardness 6.5) may not produce a streak. Other identifying properties include hardness (Mohs scale), cleavage, fracture, specific gravity, and special properties like magnetism or acid reaction. The Reference Tables include a mineral identification table.',
-    },
+      diveDeep: 'Color is the least reliable mineral property because impurities can change it significantly (quartz can be clear, white, pink, purple, or black). Streak eliminates surface effects and shows the mineral\'s true powder color. For example, pyrite (fool\'s gold) has a brassy yellow color but a black streak, easily distinguishing it from real gold (yellow streak). However, minerals with hardness greater than the porcelain plate (hardness 6.5) may not produce a streak. Other identifying properties include hardness (Mohs scale), cleavage, fracture, specific gravity, and special properties like magnetism or acid reaction. The Reference Tables include a mineral identification table.', image: '/images/exams/es-january-2025/q27.png' },
     {
       number: 28,
       part: 'A',
@@ -367,8 +363,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'Large mineral crystals indicate slow cooling, which gives atoms time to migrate and arrange into ordered crystalline structures. Granite forms deep underground as magma cools over thousands to millions of years.',
-      diveDeep: 'Crystal size is the key indicator of cooling rate in igneous rocks. Slow cooling (intrusive/plutonic rocks like granite) = large crystals (coarse-grained). Fast cooling (extrusive/volcanic rocks like rhyolite) = small crystals (fine-grained). Very rapid cooling (volcanic glass like obsidian) = no crystals at all. This concept is captured in the igneous rock classification section of the Reference Tables. If a rock has two distinct crystal sizes (porphyritic texture), it experienced two stages of cooling — one slow (large crystals) then one rapid (small crystals). This texture indicates magma was partially crystallized before erupting.',
-    },
+      diveDeep: 'Crystal size is the key indicator of cooling rate in igneous rocks. Slow cooling (intrusive/plutonic rocks like granite) = large crystals (coarse-grained). Fast cooling (extrusive/volcanic rocks like rhyolite) = small crystals (fine-grained). Very rapid cooling (volcanic glass like obsidian) = no crystals at all. This concept is captured in the igneous rock classification section of the Reference Tables. If a rock has two distinct crystal sizes (porphyritic texture), it experienced two stages of cooling — one slow (large crystals) then one rapid (small crystals). This texture indicates magma was partially crystallized before erupting.', image: '/images/exams/es-january-2025/q28.png' },
     {
       number: 29,
       part: 'A',
@@ -382,8 +377,7 @@ export default {
       topic: 'Water Cycle',
       correct: 2,
       explanation: 'Stream velocity determines the energy available to carry sediment. Faster streams can carry larger and more numerous particles; when velocity decreases, larger particles are deposited first.',
-      diveDeep: 'Hjulström\'s diagram (or the equivalent stream competence concept in the Reference Tables) shows the relationship between stream velocity and particle size for erosion, transport, and deposition. As velocity increases, the stream can erode and transport larger particles. As velocity decreases (e.g., where a stream enters a lake or the sea), particles settle out by size — largest first (gravels), then sand, then silt, then clay. This creates sorting by particle size in deposits. Meanders, where water slows on the inside of curves, deposit sediment forming point bars, while the outside of curves erode (cut banks). Understanding stream energy is fundamental to understanding erosion and deposition patterns.',
-    },
+      diveDeep: 'Hjulström\'s diagram (or the equivalent stream competence concept in the Reference Tables) shows the relationship between stream velocity and particle size for erosion, transport, and deposition. As velocity increases, the stream can erode and transport larger particles. As velocity decreases (e.g., where a stream enters a lake or the sea), particles settle out by size — largest first (gravels), then sand, then silt, then clay. This creates sorting by particle size in deposits. Meanders, where water slows on the inside of curves, deposit sediment forming point bars, while the outside of curves erode (cut banks). Understanding stream energy is fundamental to understanding erosion and deposition patterns.', image: '/images/exams/es-january-2025/q29.png' },
     {
       number: 30,
       part: 'A',
@@ -397,8 +391,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'Clastic sedimentary rocks form from fragments (clasts) of pre-existing rocks that are deposited, buried, compacted under pressure, and cemented by minerals precipitating from groundwater.',
-      diveDeep: 'Sedimentary rocks are classified into three groups: clastic (formed from sediment fragments — e.g., conglomerate, sandstone, shale), chemical (precipitated from solution — e.g., rock salt, rock gypsum), and bioclastic/organic (formed from organic remains — e.g., limestone, coal). The rock cycle shows how all three rock types interconvert. Compaction alone cannot lithify sediment — minerals like calcite, quartz, or iron oxides must cement grains together. The size of the clasts determines the rock name: boulder/cobble → conglomerate, sand → sandstone, silt/clay → shale. The Reference Tables include a sedimentary rock identification chart.',
-    },
+      diveDeep: 'Sedimentary rocks are classified into three groups: clastic (formed from sediment fragments — e.g., conglomerate, sandstone, shale), chemical (precipitated from solution — e.g., rock salt, rock gypsum), and bioclastic/organic (formed from organic remains — e.g., limestone, coal). The rock cycle shows how all three rock types interconvert. Compaction alone cannot lithify sediment — minerals like calcite, quartz, or iron oxides must cement grains together. The size of the clasts determines the rock name: boulder/cobble → conglomerate, sand → sandstone, silt/clay → shale. The Reference Tables include a sedimentary rock identification chart.', image: '/images/exams/es-january-2025/q30.png' },
     {
       number: 31,
       part: 'A',
@@ -417,8 +410,7 @@ export default {
       topic: 'Geology',
       correct: 3,
       explanation: 'Talus (scree) slopes form directly below cliffs where angular rock fragments fall due to gravity (mass wasting) after being broken off by frost wedging or other weathering processes.',
-      diveDeep: 'The angularity of talus fragments is a critical clue — angular particles have not been transported far or long enough to become rounded. Running water, wind, and glaciers all round particles through abrasion during transport. Gravity (mass wasting) moves material short distances without the tumbling and grinding that rounds particles. Types of mass wasting include: creep (slow), slump, rockslide, rock avalanche, and fall. Talus cones are classic examples of rockfall. When identifying the erosional agent from particle shape: rounded = transported (water/wind/ice), angular = not transported far (gravity/frost wedging).',
-    },
+      diveDeep: 'The angularity of talus fragments is a critical clue — angular particles have not been transported far or long enough to become rounded. Running water, wind, and glaciers all round particles through abrasion during transport. Gravity (mass wasting) moves material short distances without the tumbling and grinding that rounds particles. Types of mass wasting include: creep (slow), slump, rockslide, rock avalanche, and fall. Talus cones are classic examples of rockfall. When identifying the erosional agent from particle shape: rounded = transported (water/wind/ice), angular = not transported far (gravity/frost wedging).', image: '/images/exams/es-january-2025/q32.png' },
     {
       number: 33,
       part: 'A',
@@ -485,8 +477,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'After each half-life, half of the remaining parent material decays: 100% → 50% → 25% → 12.5%. After 3 half-lives, 12.5% of the original material remains.',
-      diveDeep: 'The radioactive decay equation is: Amount remaining = Original amount × (1/2)^n, where n is the number of half-lives. This exponential decay follows a predictable curve shown in the Reference Tables. After 1 half-life: 50%; 2 half-lives: 25%; 3 half-lives: 12.5%; 4 half-lives: 6.25%; 10 half-lives: less than 0.1%. Knowing this allows calculation of rock ages from isotope ratios. Common Regents isotopes: C-14 (5,730 years), K-40 (1.3 billion years), U-238 (4.5 billion years). The older the rock, the more daughter product has accumulated relative to parent.',
-    },
+      diveDeep: 'The radioactive decay equation is: Amount remaining = Original amount × (1/2)^n, where n is the number of half-lives. This exponential decay follows a predictable curve shown in the Reference Tables. After 1 half-life: 50%; 2 half-lives: 25%; 3 half-lives: 12.5%; 4 half-lives: 6.25%; 10 half-lives: less than 0.1%. Knowing this allows calculation of rock ages from isotope ratios. Common Regents isotopes: C-14 (5,730 years), K-40 (1.3 billion years), U-238 (4.5 billion years). The older the rock, the more daughter product has accumulated relative to parent.', image: '/images/exams/es-january-2025/q37.png' },
     {
       number: 38,
       part: 'B-1',
@@ -512,8 +503,7 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       explanation: 'The station model shows 75% cloud cover (mostly cloudy) and southwest winds at 15 knots. The temperature and dewpoint are close but no precipitation symbol is shown, so mostly cloudy with southwest winds is most accurate.',
-      diveDeep: 'Reading weather station models is a critical Regents skill. The standard model includes: (1) temperature (upper left); (2) dewpoint (lower left); (3) present weather symbol (center left); (4) cloud cover circle (center — fraction filled indicates % coverage); (5) wind barbs (pointing into the circle, each barb = 10 knots, half-barb = 5 knots); (6) pressure (upper right, decoded by adding 9 or 10 prefix); (7) pressure change (lower right). Southwest wind barbs point from the SW toward the center of the circle. The proximity of temperature and dewpoint (small difference) suggests high relative humidity but not necessarily precipitation.',
-    },
+      diveDeep: 'Reading weather station models is a critical Regents skill. The standard model includes: (1) temperature (upper left); (2) dewpoint (lower left); (3) present weather symbol (center left); (4) cloud cover circle (center — fraction filled indicates % coverage); (5) wind barbs (pointing into the circle, each barb = 10 knots, half-barb = 5 knots); (6) pressure (upper right, decoded by adding 9 or 10 prefix); (7) pressure change (lower right). Southwest wind barbs point from the SW toward the center of the circle. The proximity of temperature and dewpoint (small difference) suggests high relative humidity but not necessarily precipitation.', image: '/images/exams/es-january-2025/context_39_41.png' },
     {
       number: 40,
       part: 'B-1',
@@ -528,8 +518,7 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       explanation: 'Infrared radiation is located just beyond the red end of the visible spectrum, meaning it has longer wavelengths and (since wavelength and frequency are inversely related) lower frequencies than visible light.',
-      diveDeep: 'The electromagnetic spectrum from shortest to longest wavelength: gamma rays, X-rays, ultraviolet, visible light (violet-blue-green-yellow-orange-red), infrared, microwaves, radio waves. Wavelength and frequency are inversely proportional (c = λf, where c = speed of light). Infrared radiation (heat radiation) is emitted by warm objects including Earth\'s surface, making it central to the greenhouse effect. Ultraviolet radiation from the Sun is absorbed by the ozone layer. The Sun\'s peak emission is in visible wavelengths; Earth re-emits solar energy as longer-wavelength infrared. Understanding this wavelength difference explains why greenhouse gases trap Earth\'s outgoing energy.',
-    },
+      diveDeep: 'The electromagnetic spectrum from shortest to longest wavelength: gamma rays, X-rays, ultraviolet, visible light (violet-blue-green-yellow-orange-red), infrared, microwaves, radio waves. Wavelength and frequency are inversely proportional (c = λf, where c = speed of light). Infrared radiation (heat radiation) is emitted by warm objects including Earth\'s surface, making it central to the greenhouse effect. Ultraviolet radiation from the Sun is absorbed by the ozone layer. The Sun\'s peak emission is in visible wavelengths; Earth re-emits solar energy as longer-wavelength infrared. Understanding this wavelength difference explains why greenhouse gases trap Earth\'s outgoing energy.', image: '/images/exams/es-january-2025/context_39_41.png' },
     {
       number: 41,
       part: 'B-1',
@@ -539,8 +528,7 @@ export default {
       topic: 'Meteorology',
       correct: 2,
       explanation: 'Buffalo sits directly downwind of Lake Erie for the prevailing westerly winds. Cold air picks up moisture and heat from the lake, then drops heavy snow when it moves over land — the classic lake-effect snow pattern.',
-      diveDeep: 'Lake-effect snow forms when cold, dry Arctic air moves over relatively warm lake water. The air picks up moisture and warmth from the lake surface, becomes unstable, rises, and dumps heavy localized snowfall on the downwind shore. Buffalo averages over 90 inches of snow per year, much of it from Lake Erie. Syracuse receives heavy lake-effect snow from Lake Ontario. This phenomenon illustrates how bodies of water dramatically affect local climate. The Great Lakes are particularly effective at producing lake-effect snow in autumn and early winter before they freeze over. Understanding lake-effect requires knowing wind direction (westerly) and lake locations.',
-    },
+      diveDeep: 'Lake-effect snow forms when cold, dry Arctic air moves over relatively warm lake water. The air picks up moisture and warmth from the lake surface, becomes unstable, rises, and dumps heavy localized snowfall on the downwind shore. Buffalo averages over 90 inches of snow per year, much of it from Lake Erie. Syracuse receives heavy lake-effect snow from Lake Ontario. This phenomenon illustrates how bodies of water dramatically affect local climate. The Great Lakes are particularly effective at producing lake-effect snow in autumn and early winter before they freeze over. Understanding lake-effect requires knowing wind direction (westerly) and lake locations.', image: '/images/exams/es-january-2025/context_39_41.png' },
     {
       number: 42,
       part: 'B-1',
@@ -550,8 +538,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'Ocean waves, approaching the shore at an angle, move sand and sediment along the beach in a zigzag pattern called longshore drift. The net movement of sediment is parallel to the shore in the direction of wave approach.',
-      diveDeep: 'Longshore drift (littoral drift) occurs when waves approach a beach at an angle: the swash (incoming wave) pushes sediment up the beach diagonally in the wave\'s direction, and the backwash (retreating water) pulls sediment straight back down the beach due to gravity. This zigzag motion moves sediment along the coast. Over time, longshore drift can build up sandbars and spits at headlands. Human structures like jetties and groins interrupt longshore drift, which can cause beach erosion on the downdrift side. Longshore drift is responsible for the dynamic nature of barrier island coastlines like Long Island.',
-    },
+      diveDeep: 'Longshore drift (littoral drift) occurs when waves approach a beach at an angle: the swash (incoming wave) pushes sediment up the beach diagonally in the wave\'s direction, and the backwash (retreating water) pulls sediment straight back down the beach due to gravity. This zigzag motion moves sediment along the coast. Over time, longshore drift can build up sandbars and spits at headlands. Human structures like jetties and groins interrupt longshore drift, which can cause beach erosion on the downdrift side. Longshore drift is responsible for the dynamic nature of barrier island coastlines like Long Island.', image: '/images/exams/es-january-2025/context_42_44.png' },
     {
       number: 43,
       part: 'B-1',
@@ -561,8 +548,7 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       explanation: 'A full Moon occurs when the Moon is on the opposite side of Earth from the Sun (position C), allowing the Sun to illuminate the entire face of the Moon visible from Earth.',
-      diveDeep: 'The Moon\'s phases are caused by the changing angle between the Sun, Moon, and Earth as the Moon orbits Earth every 29.5 days. At new Moon (position A, between Earth and Sun), the illuminated side faces away from Earth — Moon is invisible. At first quarter (position B, 90° from Sun), half the Moon is lit. At full Moon (position C, opposite Sun), the entire visible face is illuminated. At third quarter (position D), the other half is lit. Lunar eclipses occur at full Moon when Earth\'s shadow falls on the Moon. Solar eclipses occur at new Moon when the Moon\'s shadow falls on Earth. This moon phase diagram appears regularly on the Regents.',
-    },
+      diveDeep: 'The Moon\'s phases are caused by the changing angle between the Sun, Moon, and Earth as the Moon orbits Earth every 29.5 days. At new Moon (position A, between Earth and Sun), the illuminated side faces away from Earth — Moon is invisible. At first quarter (position B, 90° from Sun), half the Moon is lit. At full Moon (position C, opposite Sun), the entire visible face is illuminated. At third quarter (position D), the other half is lit. Lunar eclipses occur at full Moon when Earth\'s shadow falls on the Moon. Solar eclipses occur at new Moon when the Moon\'s shadow falls on Earth. This moon phase diagram appears regularly on the Regents.', image: '/images/exams/es-january-2025/context_42_44.png' },
     {
       number: 44,
       part: 'B-1',
@@ -577,8 +563,7 @@ export default {
       topic: 'Plate Tectonics',
       correct: 1,
       explanation: 'Convection currents in the semi-solid mantle, driven by heat from Earth\'s interior, drag and push the overlying lithospheric plates, causing them to move at rates of a few centimeters per year.',
-      diveDeep: 'Plate tectonic movement is driven primarily by mantle convection. Heat from radioactive decay in the mantle and core-mantle heat transfer warms rock near the base of the mantle, making it less dense, causing it to rise. At the surface it spreads laterally, cools, becomes denser, and sinks (subducts). This convection cycle creates the "conveyor belt" that moves plates. Additional mechanisms include ridge push (at mid-ocean ridges, elevated ridges push plates apart) and slab pull (dense subducting ocean crust pulls the plate down). The Reference Tables diagram shows convection in the mantle beneath diverging and converging plate boundaries.',
-    },
+      diveDeep: 'Plate tectonic movement is driven primarily by mantle convection. Heat from radioactive decay in the mantle and core-mantle heat transfer warms rock near the base of the mantle, making it less dense, causing it to rise. At the surface it spreads laterally, cools, becomes denser, and sinks (subducts). This convection cycle creates the "conveyor belt" that moves plates. Additional mechanisms include ridge push (at mid-ocean ridges, elevated ridges push plates apart) and slab pull (dense subducting ocean crust pulls the plate down). The Reference Tables diagram shows convection in the mantle beneath diverging and converging plate boundaries.', image: '/images/exams/es-january-2025/context_42_44.png' },
     {
       number: 45,
       part: 'B-1',
@@ -593,8 +578,7 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       explanation: 'The Great Oxidation Event (~2.4 billion years ago) was caused by photosynthetic cyanobacteria producing oxygen as a byproduct, fundamentally changing Earth\'s atmosphere from reducing to oxidizing.',
-      diveDeep: 'Earth\'s early atmosphere (outgassed from volcanoes) was primarily water vapor, CO₂, N₂, and SO₂ — essentially no free oxygen. The rise of photosynthetic organisms (cyanobacteria) about 2.7 billion years ago began producing O₂, which initially reacted with dissolved iron in the oceans (forming banded iron formations). Once the oceans were saturated, O₂ began accumulating in the atmosphere ~2.4 billion years ago. This oxygen revolution allowed aerobic respiration and eventually the ozone layer, which blocks UV radiation and enabled life to colonize land. The modern 21% O₂ level is maintained by the balance between photosynthesis and respiration.',
-    },
+      diveDeep: 'Earth\'s early atmosphere (outgassed from volcanoes) was primarily water vapor, CO₂, N₂, and SO₂ — essentially no free oxygen. The rise of photosynthetic organisms (cyanobacteria) about 2.7 billion years ago began producing O₂, which initially reacted with dissolved iron in the oceans (forming banded iron formations). Once the oceans were saturated, O₂ began accumulating in the atmosphere ~2.4 billion years ago. This oxygen revolution allowed aerobic respiration and eventually the ozone layer, which blocks UV radiation and enabled life to colonize land. The modern 21% O₂ level is maintained by the balance between photosynthesis and respiration.', image: '/images/exams/es-january-2025/context_45_47.png' },
     {
       number: 46,
       part: 'B-1',
@@ -609,8 +593,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'The Adirondacks are an exposed dome of ancient Precambrian igneous and metamorphic rocks (primarily anorthosite, gneiss, and granite), uplifted and eroded to expose some of Earth\'s oldest rocks.',
-      diveDeep: 'The Adirondack Mountains represent one of the most geologically interesting regions in New York State — they are a dome of Precambrian basement rocks (1.0–1.3 billion years old) that were uplifted and exposed by erosion. Unlike the folded sedimentary rocks of the Appalachians, the Adirondacks are an erosional remnant of an ancient mountain belt (the Grenville Orogeny). They continue to rise today at a rate of about 3 mm/year. The surrounding lowlands are underlain by younger Paleozoic sedimentary rocks. The Reference Tables\' "Generalized Bedrock Geology of New York State" map shows this clearly — the Adirondacks appear as Precambrian igneous/metamorphic rocks surrounded by Paleozoic sedimentary units.',
-    },
+      diveDeep: 'The Adirondack Mountains represent one of the most geologically interesting regions in New York State — they are a dome of Precambrian basement rocks (1.0–1.3 billion years old) that were uplifted and exposed by erosion. Unlike the folded sedimentary rocks of the Appalachians, the Adirondacks are an erosional remnant of an ancient mountain belt (the Grenville Orogeny). They continue to rise today at a rate of about 3 mm/year. The surrounding lowlands are underlain by younger Paleozoic sedimentary rocks. The Reference Tables\' "Generalized Bedrock Geology of New York State" map shows this clearly — the Adirondacks appear as Precambrian igneous/metamorphic rocks surrounded by Paleozoic sedimentary units.', image: '/images/exams/es-january-2025/context_45_47.png' },
     {
       number: 47,
       part: 'B-1',
@@ -625,8 +608,7 @@ export default {
       topic: 'Plate Tectonics',
       correct: 1,
       explanation: 'At divergent plate boundaries (mid-ocean ridges), plates pull apart and magma from the mantle rises to fill the gap, solidifying as new oceanic crust (basalt). This process is called seafloor spreading.',
-      diveDeep: 'Seafloor spreading was proposed by Harry Hess in 1960 and provided key evidence for plate tectonics. As plates diverge at ridges, upwelling mantle material (basaltic magma) fills the rift, creating new oceanic crust. Evidence includes: (1) age of seafloor — youngest at ridges, oldest near continents; (2) magnetic striping — alternating normal/reversed polarity bands symmetric about the ridge, recording ancient magnetic reversals; (3) heat flow — highest at ridges. The Atlantic Ocean is widening at about 2–3 cm/year. Eventually, old oceanic crust reaches a subduction zone and returns to the mantle, completing the rock cycle. The Mid-Atlantic Ridge is a prominent example, separating the North/South American plates from the Eurasian/African plates.',
-    },
+      diveDeep: 'Seafloor spreading was proposed by Harry Hess in 1960 and provided key evidence for plate tectonics. As plates diverge at ridges, upwelling mantle material (basaltic magma) fills the rift, creating new oceanic crust. Evidence includes: (1) age of seafloor — youngest at ridges, oldest near continents; (2) magnetic striping — alternating normal/reversed polarity bands symmetric about the ridge, recording ancient magnetic reversals; (3) heat flow — highest at ridges. The Atlantic Ocean is widening at about 2–3 cm/year. Eventually, old oceanic crust reaches a subduction zone and returns to the mantle, completing the rock cycle. The Mid-Atlantic Ridge is a prominent example, separating the North/South American plates from the Eurasian/African plates.', image: '/images/exams/es-january-2025/context_45_47.png' },
     {
       number: 48,
       part: 'B-1',
@@ -641,8 +623,7 @@ export default {
       topic: 'Water Cycle',
       correct: 1,
       explanation: 'Large grain sizes create larger pore spaces between particles, allowing water to flow through quickly (high permeability). Large grains with high permeability enable the fastest infiltration.',
-      diveDeep: 'Permeability is the ability of a material to allow fluids to pass through it and is controlled by pore size and connectivity. Large particles (gravel, coarse sand) have large pore spaces and high permeability; small particles (clay) have small pores and low permeability (clay can even be relatively impermeable). Capillarity (capillary action) is the ability of water to be drawn upward through small pores against gravity — it is highest in fine-grained materials like clay. High capillarity actually slows infiltration because water is held tightly. The Reference Tables include a permeability chart showing the relationship between sediment grain size and permeability/capillarity. These concepts are essential for understanding groundwater systems and the water table.',
-    },
+      diveDeep: 'Permeability is the ability of a material to allow fluids to pass through it and is controlled by pore size and connectivity. Large particles (gravel, coarse sand) have large pore spaces and high permeability; small particles (clay) have small pores and low permeability (clay can even be relatively impermeable). Capillarity (capillary action) is the ability of water to be drawn upward through small pores against gravity — it is highest in fine-grained materials like clay. High capillarity actually slows infiltration because water is held tightly. The Reference Tables include a permeability chart showing the relationship between sediment grain size and permeability/capillarity. These concepts are essential for understanding groundwater systems and the water table.', image: '/images/exams/es-january-2025/context_48_50.png' },
     {
       number: 49,
       part: 'B-1',
@@ -657,8 +638,7 @@ export default {
       topic: 'Meteorology',
       correct: 2,
       explanation: 'As air rises (orographic lifting), it expands and cools adiabatically. Cooling causes condensation and precipitation on the windward slope, removing moisture. Both temperature and moisture decrease as air ascends.',
-      diveDeep: 'Orographic lifting drives one of the most important climate contrasts in geography — the rain shadow effect. Windward slopes (facing the wind) receive heavy precipitation as moist air rises and cools past the dew point, condensing and precipitating. The leeward side ("rain shadow") is dry because the air has lost its moisture and warms as it descends (adiabatic warming). Classic examples: the wet Pacific Northwest coast vs. the dry Great Basin; the lush windward side of Hawaiian islands vs. dry leeward sides. The adiabatic lapse rate (cooling with altitude) is about 10°C per 1000 m for dry air and about 6°C per 1000 m for saturated air (because condensation releases latent heat, slowing cooling).',
-    },
+      diveDeep: 'Orographic lifting drives one of the most important climate contrasts in geography — the rain shadow effect. Windward slopes (facing the wind) receive heavy precipitation as moist air rises and cools past the dew point, condensing and precipitating. The leeward side ("rain shadow") is dry because the air has lost its moisture and warms as it descends (adiabatic warming). Classic examples: the wet Pacific Northwest coast vs. the dry Great Basin; the lush windward side of Hawaiian islands vs. dry leeward sides. The adiabatic lapse rate (cooling with altitude) is about 10°C per 1000 m for dry air and about 6°C per 1000 m for saturated air (because condensation releases latent heat, slowing cooling).', image: '/images/exams/es-january-2025/context_48_50.png' },
     {
       number: 50,
       part: 'B-1',
@@ -673,7 +653,6 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       explanation: 'On June 21 (summer solstice), the Northern Hemisphere is tilted toward the Sun, giving New York State more than 12 hours of daylight — in fact, it is the longest day of the year.',
-      diveDeep: 'The summer solstice (approximately June 21) is when the Sun is directly overhead at the Tropic of Cancer (23.5°N), and the Northern Hemisphere receives its maximum insolation due to three factors: (1) more hours of daylight (>12 hours everywhere north of the equator); (2) Sun reaches its highest altitude in the sky; (3) solar radiation strikes at a more direct angle. In New York State (~42°N), June 21 has about 15 hours of daylight. The winter solstice (December 21) has the shortest day. At the equinoxes (March 21, September 23), all locations on Earth have exactly 12 hours of daylight. These solstice/equinox concepts are fundamental to understanding seasons and insolation patterns on the Regents.',
-    },
+      diveDeep: 'The summer solstice (approximately June 21) is when the Sun is directly overhead at the Tropic of Cancer (23.5°N), and the Northern Hemisphere receives its maximum insolation due to three factors: (1) more hours of daylight (>12 hours everywhere north of the equator); (2) Sun reaches its highest altitude in the sky; (3) solar radiation strikes at a more direct angle. In New York State (~42°N), June 21 has about 15 hours of daylight. The winter solstice (December 21) has the shortest day. At the equinoxes (March 21, September 23), all locations on Earth have exactly 12 hours of daylight. These solstice/equinox concepts are fundamental to understanding seasons and insolation patterns on the Regents.', image: '/images/exams/es-january-2025/context_48_50.png' },
   ],
 }

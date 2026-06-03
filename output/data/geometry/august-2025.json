@@ -1,0 +1,476 @@
+{
+  "subject": "geometry",
+  "session": "august-2025",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "An equilateral triangle is continuously rotated around one of its altitudes. The three-dimensional object formed is a",
+      "choices": [
+        "cone",
+        "sphere",
+        "cylinder",
+        "pyramid"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, quadrilateral BDGF is rotated 90 degrees clockwise about the origin and then reflected over the y-axis. The image of quadrilateral BDGF is quadrilateral MQSP. y B F Q M P S G D x Side ___ BD will always map onto",
+      "choices": [
+        "___ MP",
+        "__ PS",
+        "___ MQ",
+        "___"
+      ],
+      "image": "/images/exams/geometry/august-2025/q2.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "In right triangle JOE, hypotenuse JO 5 31.8 and m/J 5 38\u00b0. To the nearest tenth, the length of __ EJ is",
+      "choices": [
+        "19.6",
+        "25.1",
+        "40.4",
+        "51.7"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The hemisphere below has a radius of 8 cm. 8 cm To the nearest cubic centimeter, the volume of the hemisphere is",
+      "choices": [
+        "201",
+        "268",
+        "1072",
+        "2145"
+      ],
+      "image": "/images/exams/geometry/august-2025/q4.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "In parallelogram ABCD, diagonals ___ AC and ___ BD intersect at E. Which information is sufficient to prove ABCD is a rhombus?",
+      "choices": [
+        "___ AE >\uf020 ___ EC",
+        "___ AC > ___ BD",
+        "___ AB \uf05e\uf020 ___ BC",
+        "___ AC \uf05e ___ BD"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Trapezoid JOSH, shown below, has non-parallel sides __ JH and ___ OS, m/J 5 65\u00b0, m/O 5 30\u00b0, m/OSA 5 80\u00b0, and m/SHU 5 60\u00b0. H 65\u00b0 60\u00b0 80\u00b0 S J U A O 30\u00b0 What is m/HSA?",
+      "choices": [
+        "55\u00b0",
+        "60\u00b0",
+        "65\u00b0",
+        "70\u00b0"
+      ],
+      "image": "/images/exams/geometry/august-2025/q6.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "In nABC below, points D and E are on ___ AB and ___ CB, respectively, such that ___ DE || ___ AC. B E D A C If AD 5 8, DB 5 4, and DE 5 6, what is the length of ___ AC?",
+      "choices": [
+        "24",
+        "18",
+        "12",
+        "10"
+      ],
+      "image": "/images/exams/geometry/august-2025/q7.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, circle C has a center with coordinates (2,\u20131). y x C Which equation represents circle C?",
+      "choices": [
+        "(x22)2 1 (y11)2 5 25",
+        "(x22)2 1 (y11)2 5 16",
+        "(x12)2 1 (y21)2 5 25",
+        "(x12)2 1 (y21)2 5 16"
+      ],
+      "image": "/images/exams/geometry/august-2025/q8.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, nD9E9F9 is the image of nDEF. y F D E9 D9 F9 E x A transformation that maps nDEF onto nD9E9F9 is a",
+      "choices": [
+        "reflection over the line y 5 x",
+        "reflection over the line y 5 \u2013x",
+        "point reflection through the origin",
+        "translation 4 units left and 4 units down"
+      ],
+      "image": "/images/exams/geometry/august-2025/q9.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "In circle O below, secants ____ PCA and ____ PDB are drawn from external point P. A C O B D P If PA 5 17, PD 5 10, and BD 5 12, what is the length of ___ PC, to the nearest tenth?",
+      "choices": [
+        "7.1",
+        "7.7",
+        "12.9",
+        "14.2"
+      ],
+      "image": "/images/exams/geometry/august-2025/q10.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "In the diagram below, ___ CD || ___ AB, and ___ CB bisects /ABD. C D A B Which statement must be true?",
+      "choices": [
+        "___ CD > ___ AB",
+        "___ AB > ___ BD",
+        "nCDB is a right triangle",
+        "nCDB is an isosceles triangle"
+      ],
+      "image": "/images/exams/geometry/august-2025/q11.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Line h is represented by the equation y 5 2 2 3 x 2 4. Which equation represents the line that is perpendicular to line h and passes through the point (6,1)?",
+      "choices": [
+        "y 2 15 2 2 3 (x 2 6)",
+        "y 1 15 2 2 3 (x 1 6)",
+        "y 2 15 23 2 2 (x 2 6)",
+        "y 1 15 23 2 2 (x 1 6)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A wooden toy block can be modeled by a pyramid with a square base, as shown below. The height of the block is 17.4 cm and the square base has a side length of 8.2 cm. 8.2 cm 17.4 cm The block is made of solid oak, which has a density of 0.77 g/cm3. What is the mass of the block, to the nearest gram?",
+      "choices": [
+        "300",
+        "506",
+        "637",
+        "901"
+      ],
+      "image": "/images/exams/geometry/august-2025/q13.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "In nABC below, midsegment ___ DE is drawn. E B D C A If DE 5 x 1 3 and AC 5 3x 2 5, what is the length of ___ DE?",
+      "choices": [
+        "28",
+        "14",
+        "7",
+        "4"
+      ],
+      "image": "/images/exams/geometry/august-2025/q14.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Triangle DUG is an isosceles right triangle with the right angle at G. If DU 5 2 10 , what is the length of ___ GU?",
+      "choices": [
+        "5",
+        "2 5",
+        "10",
+        "2 10"
+      ],
+      "image": "/images/exams/geometry/august-2025/q15.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "In nRST below, RS = 9 cm, RT = 8 cm, and m/TRS 5 55\u00b0. 55\u00b0 R 8 cm 9 cm S T What is the area of nRST, to the nearest square centimeter?",
+      "choices": [
+        "59",
+        "36",
+        "29",
+        "21"
+      ],
+      "image": "/images/exams/geometry/august-2025/q16.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Triangle ABC is dilated by a scale factor of 2 to map onto its image, nRST, on the set of axes below. y x R A S B C T What are the coordinates of the center of this dilation?",
+      "choices": [
+        "(1,\u20131)",
+        "(2,1)",
+        "(3,3)",
+        "(0,0)"
+      ],
+      "image": "/images/exams/geometry/august-2025/q17.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "What is the perimeter of nABC, where the vertices have coordinates A(\u20132,3), B(\u20132,\u20131), and C(6,\u20131)?",
+      "choices": [
+        "16",
+        "92",
+        "5 16",
+        "12 1 5 4"
+      ],
+      "image": "/images/exams/geometry/august-2025/q18.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "In the diagram below, ___ GT and ___ PF intersect at E, and /P >/F. P E G F T Which equation is always true?",
+      "choices": [
+        "PE ___ FE 5 FT ___ PG",
+        "GE ___ TE 5 FT ___ PG",
+        "PE ___ GE 5 TE ___ FE",
+        "PE ___ FE 5 PG ___ FT"
+      ],
+      "image": "/images/exams/geometry/august-2025/q19.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A section of sidewalk in the shape of a rectangular prism is being replaced. The sidewalk is 10 feet long, 4 feet wide, and 4 inches deep. A brand of concrete mix yields 0.6 cubic foot of concrete per bag. What is the minimum number of bags of concrete mix that must be purchased to completely replace this sidewalk?",
+      "choices": [
+        "22",
+        "23",
+        "26",
+        "27"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The line 4x 2 6y 5 24 is transformed by a dilation of scale factor 3 centered at the origin. Which equation represents the image of the line after this dilation?",
+      "choices": [
+        "y 5 2 _ 3 x 2 12",
+        "y 5 2 _ 3 x 2 4",
+        "y 5 2x 2 12",
+        "y 5 2x 2 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A rhombus is graphed on the set of axes below. y x Which transformation does not carry the rhombus onto itself ?",
+      "choices": [
+        "a rotation of 180\u00b0 about the origin",
+        "a rotation of 180\u00b0 about point (1,0)",
+        "a reflection over the line y 5 1 _ 2 x 2 1 _ 2",
+        "a reflection over the line y 5 \u20132x 1 2"
+      ],
+      "image": "/images/exams/geometry/august-2025/q22.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "In right triangle HAY below, altitude ___ AL is drawn to hypotenuse ___ HY. A H L Y If HY 5 25 and YA 5 20, the length of ___ AL is",
+      "choices": [
+        "9",
+        "12",
+        "15",
+        "16"
+      ],
+      "image": "/images/exams/geometry/august-2025/q23.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Square ABCD has an area of 36. If the square is dilated by a scale factor of 1 _ 2 centered at A, what is the area of its image?",
+      "choices": [
+        "9",
+        "18",
+        "72",
+        "144 Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Triangle D9A9N9 is the image of nDAN after a translation. Explain why nD9A9N9",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "The Chart for Determining the Final Examination Score for the August 2025 at: https://www.nysed.gov/state-assessment/high-school-regents-examinations. Conversion charts provided for previous administrations of the Regents Examination in Geometry must NOT be used to determine students\u2019 fi nal scores for this administration. Online Submission of Teacher Evaluations of the Test to the Department Suggestions and feedback from teachers provide an important contribution to the test development process. The Department provides an online evaluation form for State assessments. It contains spaces for teachers to respond to several specifi c questions and to make suggestions. Instructions for completing the evaluation form are as follows: 1. Go to https://www.nysed.gov/state-assessment/teacher-feedback-state-assessments. 2. Click Regents Examinations. 3. Complete the required demographic fi elds. 4. Select the test title from the Regents Examination dropdown list. 5. Complete each evaluation question and provide comments in the space provided. 6. Click the SUBMIT button at the bottom of the page to submit the completed form."
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "The table below lists five metals and their densities. Metal Density (g/cm3) Zinc 7.14 Tin 7.31 Iron 7.86 Copper 8.96 Silver 10.5 A solid metal cube has an edge length of 5 cm and a mass of 982.5 grams. Using the table above,",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2025/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "The endpoints of ____ CAS are C(\u20133,1) and S(7,6). Determine and state the coordinates of point A such that the ratio of CA:AS is 3:2. [The use of the set of axes below is optional.]",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2025/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The ramp shown in the diagram below has an angle of elevation of 4.8\u00b0. The ramp is built to a landing 0.6 m above the ground. 4.8\u00b0 Ramp Landing 0.6 m Determine and state the length of the ramp,",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2025/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Angle KML is the vertex angle of isosceles triangle KLM below. Side ___ LM is extended through vertex M to point N. K N M L If m/K 5 15\u00b0, determine and state m/",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2025/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "In the diagram below of circle L, the area of the shaded sector KLM is 7.5\u03c0 and LK 5 5. K L M 5 7.5\u009b\u0003 Determine and state the degree measure of angle KLM,",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2025/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Using a compass and straightedge, construct the image of point A after a reflection over ___ BC. [Leave all construction marks.] Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2025/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Joan wants to fill an empty 75-liter fish tank with water. She uses a cylindrical bucket with a diameter of 20 cm. Determine and state the maximum number of buckets of water, fi lled to an exact height of 26 cm, Joan can put into the fi sh tank before it overfl ows. [1000 cm3 5 1 liter]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "As modeled in the diagram below, two cables are attached from a point on a tree 12 feet above the ground. The longer cable is anchored on the ground 3 feet farther from the tree than the shorter cable is anchored. The angle of elevation between the shorter cable and the ground is 50\u00b0. 50\u00b0 3 ft 12 ft Determine and state, to the nearest foot, the distance from the base of the tree to the point where the longer cable is attached to the ground. Determine and state, to the nearest degree,",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2025/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Quadrilateral READ has vertices with coordinates R(\u20131,3), E(2,7), A(10,1), and D(7,\u20133). Prove READ is a rectangle. [The use of the set of axes below is optional.] y x Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2025/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "In quadrilateral ABCD below, side ___ CD is extended through D to point E such that ____ AFD and ____ BFE bisect each other, and ___ DE > ___ DC. A C B F E D Prove ABCD is a parallelogram. Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 Reference Sheet for Geometry Cylinder V 5 Bh where B is the area of the base General Prism V 5 Bh where B is the area of the base Volume Sphere V 5 4_ 3 Sr3 Cone V 5 1_ 3 Bh where B is the area of the base Pyramid V 5 1_ 3 Bh where B is the area of the base Tear Here Tear Here GEOMETRY GEOMETRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2025/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

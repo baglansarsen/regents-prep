@@ -1,0 +1,1111 @@
+{
+  "subject": "living-environment",
+  "session": "june-2016",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which statement is an example of the inter- dependence of organisms?",
+      "choices": [
+        "Owls hunt at night.",
+        "Ants get food from insects and protect insects from predators.",
+        "Ticks feed on the blood of animals and the ticks grow larger.",
+        "Crows feed on dead mice."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Residents of a town are concerned that a recently built factory could pose health risks. Scientists were asked to investigate the effects of the factory on the health of local residents. The most relevant information they reported was that",
+      "choices": [
+        "in a survey, residents felt that the air in town looks dirtier now",
+        "there have been reports that other types of factories have been linked with health issues",
+        "residents have occasionally seen smoke coming from the factory",
+        "local medical facilities have recently reported a 15% increase in the number of patients treated for asthma"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Farmers may someday clone their best milk- producing cow into a whole herd. What potential disadvantage might be important to consider in having such a large group of clones on one farm?",
+      "choices": [
+        "It may be difficult to tell the animals apart.",
+        "Lack of variation may limit survival in the herd.",
+        "The cows could be fertilized by only one type of bull.",
+        "The cows could be mated only with each other."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "DNA replication occurs in preparation for",
+      "choices": [
+        "mitosis, only",
+        "meiosis, only",
+        "both mitosis and meiosis",
+        "neither mitosis nor meiosis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "An individual eats a hamburger. Which two systems must interact to transfer the nutrients in the hamburger to human muscle tissue?",
+      "choices": [
+        "respiratory and excretory",
+        "digestive and immune",
+        "digestive and circulatory",
+        "circulatory and respiratory"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The diagram below shows cell A completing a life process. Cell A performs functions similar to the tissues and systems in complex, multicellular organisms. This process results in",
+      "choices": [
+        "increased genetic variation",
+        "the maintenance of homeostasis",
+        "a reduction in competition",
+        "increased autotrophic nutrition"
+      ],
+      "image": "/images/exams/living-environment/june-2016/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The shape of a protein molecule directly determines its",
+      "choices": [
+        "movements through the cytoplasm",
+        "functions inside and outside of cells",
+        "roles in building water molecules",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a cell and some molecules in its environment. Which molecule would require the use of energy in order to be brought into the cell?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": "/images/exams/living-environment/june-2016/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Many domestic plants that are currently used for food by humans share a wild plant ancestor. The changes that have occurred in four common plants and the results are shown in the chart below. What event most likely produced the changes that occurred in the wild plant ancestor?",
+      "choices": [
+        "Mutations in wild mustard sex cells were passed on to offspring.",
+        "Humans did not like to eat wild mustard.",
+        "Competition for survival occurred in all ecosystems of the world.",
+        "Ancient herbivores overgrazed wild mustard. Wild Plant Ancestor Change That Occurred Resulting Modern Plant wild mustard reduced flower development broccoli wild mustard sterile flowers cauliflower wild mustard enlargement of leaves kale wild mustard shortened stem length cabbage Key 2 3 4 1"
+      ],
+      "image": "/images/exams/living-environment/june-2016/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A strand of DNA in a skin cell contains the bases: A-T-G-C-C-A-T-C-G-G-T-A After the cell is exposed to ultraviolet light, the strand contains the bases: A-T-G-G-C-C-A-T-C-G-G-T-A Which statement describes the result of this exposure?",
+      "choices": [
+        "A new base has been inserted.",
+        "A base has been deleted.",
+        "One base has been substituted for another.",
+        "There have been no changes in the bases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "An ameba, a one-celled organism, can move, ingest, and transport materials within the cell, because it has",
+      "choices": [
+        "organs",
+        "organelles",
+        "tissues",
+        "systems"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "In humans, the placenta is essential to the embryo for",
+      "choices": [
+        "nutrition, excretion, and reproduction",
+        "respiration, nutrition, and excretion",
+        "movement, reproduction, and nutrition",
+        "coordination, movement, and growth"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A student infected by a common cold virus ran a low-grade fever. After a few days, the student\u2019s temperature returned to normal and the student was free of cold symptoms. The fever served as",
+      "choices": [
+        "an antigen in the circulatory system",
+        "an immune response to a pathogen",
+        "a biological catalyst",
+        "a weakened pathogen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Many animals have developed courtship behaviors. Males will often dance, swim, or sing in a particular way to attract a female. Males who are more successful at the courtship behavior will have a greater chance of having more offspring. This behavior is a result of",
+      "choices": [
+        "natural selection",
+        "genetic engineering",
+        "asexual reproduction",
+        "gene manipulation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "After a zygote is formed, specialization of cells occurs. Through which process do the cells of a zygote become specialized?",
+      "choices": [
+        "sexual reproduction",
+        "meiosis",
+        "fertilization",
+        "differentiation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "A farmer wanted to rid his apple trees of a particular leaf-eating insect. He sprayed his trees with an insecticide that killed 98% of the insects. The survival of 2% of this population of insects is most likely due to",
+      "choices": [
+        "genes obtained from another species",
+        "certain chemicals that stimulated over- production",
+        "variations that resulted from sexual repro- duction",
+        "their ability to produce food from the pesticide"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which occurrence represents an example of evolution?",
+      "choices": [
+        "Exposure to radiation reduces the rate of mutation in leaf cells.",
+        "A mutation in a liver cell causes a person to produce an enzyme that is less efficient.",
+        "Cells in a zygote eventually change into bone cells or skin cells.",
+        "Some antibiotics are almost useless, because pathogens have developed a resistance to these antibiotics."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Populations of aspen trees in the western United States are being destroyed by an unexplained illness. The altered landscape is affecting the animals that live there. Populations of deer mice are increasing greatly in these areas. Unfortunately, these mice often carry a virus that is deadly to humans. This scenario best illustrates that",
+      "choices": [
+        "a change in the environment always results in disease",
+        "humans are the cause of the breakdown of this ecosystem",
+        "the stability of this ecosystem is limited by the amount of water available",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The paramecium is a single-celled organism that reproduces asexually. The offspring of a paramecium usually contain",
+      "choices": [
+        "only half of the genes of the parent cells",
+        "more DNA than the parent cell",
+        "genetic material identical to that of the parent cell",
+        "fewer mutations than the parent cell"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A dead or weakened pathogen used to establish immunity would most likely be found in",
+      "choices": [
+        "a pesticide",
+        "an antibiotic",
+        "a vaccine",
+        "a toxin"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which statement is true for all of the organisms in the ecosystem represented in the diagram below?",
+      "choices": [
+        "They use energy to combine the inorganic molecules carbon dioxide and water into energy-rich organic compounds.",
+        "Stored energy cannot be used by these organisms as a source of energy for life processes.",
+        "Energy stored in inorganic molecules is released during cellular respiration in these organisms.",
+        "Energy is used by the organisms to obtain and transport materials, and to eliminate wastes."
+      ],
+      "image": "/images/exams/living-environment/june-2016/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "When a natural disaster destroys a stable ecosystem, the area is temporarily less stable than before. This is most likely due to",
+      "choices": [
+        "a decrease in biodiversity",
+        "an increase in the number of food chains",
+        "an increase in the number of species",
+        "a decrease in the rate of mutation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "An individual walks out of his air-conditioned (75\u00b0F) home into the hot outside environment (85\u00b0F). His ability to adjust to this changing environment involves a mechanism similar to",
+      "choices": [
+        "the regulation of water loss by guard cells in plant leaves",
+        "the digestion of carbohydrates by enzymes",
+        "using ATP for the diffusion of water",
+        "glucose production in the pancreas"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Nonrenewable resources are",
+      "choices": [
+        "not finite and are not depleted over time",
+        "not finite and are depleted over time",
+        "finite and are not depleted over time",
+        "finite and are depleted over time"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Dodder, a plant with no chlorophyll, grows on a living plant of a different species from which it obtains nutrients. Which pair of terms describes this relationship?",
+      "choices": [
+        "parasite and host",
+        "predator and prey",
+        "producer and decomposer",
+        "consumer and scavenger"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Three human hormones most directly involved in sexual reproduction are",
+      "choices": [
+        "estrogen, insulin, and progesterone",
+        "testosterone, estrogen, and insulin",
+        "progesterone, ATP, and testosterone",
+        "estrogen, progesterone, and testosterone"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "At one point, scientists observed that the ozone shield was getting thinner. They warned that the loss of the effectiveness of this shield may lead to an increase in",
+      "choices": [
+        "allergies to ozone",
+        "mutations that lead to cancer",
+        "viral diseases, such as AIDS",
+        "ice formation at the poles"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "As it grows from a seed to a mature plant, a plant will grow taller and thicker. Which are abiotic factors most responsible for the increase in the mass of the plant?",
+      "choices": [
+        "water, minerals, bacteria",
+        "sunlight, oxygen, plant receptors",
+        "minerals, water, plant enzymes",
+        "water, sunlight,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Structures in an animal cell are represented in the diagram below. Which row in the chart correctly identifies the functions of structures A, B, and C?",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The diagram below represents how air pollution may move across the eastern United States. In order to reduce the amount of air pollution in Pennsylvania, which change is necessary?",
+      "choices": [
+        "waste removal extract energy from nutrients protein synthesis",
+        "information storage transport of materials storage of liquids",
+        "protein synthesis storage of wastes reproduction",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2016/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which sequence of organisms represents a food chain within this food web?",
+      "choices": [
+        "tadpoles \u2192algae \u2192daphnia \u2192back swimmers",
+        "sedges \u2192ants \u2192frogs \u2192kookaburras",
+        "algae \u2192daphnia \u2192decayed material \u2192bacteria",
+        "dragonflies \u2192sedges \u2192ants \u2192centipedes"
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the diagram below and on your knowledge of biology. \nThe diagram represents part of a food web.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Which population would be most immediately affected by the removal of the lizard population?",
+      "choices": [
+        "sedges",
+        "algae",
+        "ants",
+        "centipedes Dragonflies Kookaburras Maned geese Lizards Tadpoles Bacteria Algae Decayed material Sedges Moths Frogs Ants Damselflies Centipedes Daphnia Back swimmers"
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the diagram below and on your knowledge of biology. \nThe diagram represents part of a food web.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "During an investigation, a student measures out 15 grams of salt. Then, he measures 15 milliliters of water and adds the salt to it. Next, he measures a 1 centimeter wide by 4 centimeters long section of plant leaf. Which list of tools is arranged in the order that the student used them?",
+      "choices": [
+        "graduated cylinder, ruler, balance",
+        "balance, ruler, graduated cylinder",
+        "graduated cylinder, balance, ruler",
+        "balance, graduated cylinder, ruler"
+      ],
+      "image": "/images/exams/living-environment/june-2016/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Based on the information provided in the graph, the process that is occurring is",
+      "choices": [
+        "ecological succession",
+        "biological evolution",
+        "selective breeding",
+        "genetic engineering"
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_34_36.png",
+      "context": "Base your answers to questions 34 through 36 on the graph below and on your knowledge of biology. The\ngraph shows the masses of different types of plants found in an area of the Adirondack Mountains after a forest\nfire occurred.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The time shown in the graph is most likely measured in",
+      "choices": [
+        "days",
+        "weeks",
+        "months",
+        "years"
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_34_36.png",
+      "context": "Base your answers to questions 34 through 36 on the graph below and on your knowledge of biology. The\ngraph shows the masses of different types of plants found in an area of the Adirondack Mountains after a forest\nfire occurred.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The mass of plants shown in the graph refers to the mass of a number of",
+      "choices": [
+        "populations",
+        "decomposers",
+        "ecosystems",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_34_36.png",
+      "context": "Base your answers to questions 34 through 36 on the graph below and on your knowledge of biology. The\ngraph shows the masses of different types of plants found in an area of the Adirondack Mountains after a forest\nfire occurred.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The building blocks for this molecule are",
+      "choices": [
+        "amino acids",
+        "simple sugars",
+        "fats",
+        "molecular bases"
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_37_38.png",
+      "context": "Base your answers to questions 37 and 38 on the diagram below and on your knowledge of biology. The dia-\ngram represents a portion of a starch molecule.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The energy in this molecule is stored",
+      "choices": [
+        "in the bonds between atoms",
+        "in the oxygen found in the molecule",
+        "when the carbon atoms break off",
+        "when water breaks this molecule apart"
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_37_38.png",
+      "context": "Base your answers to questions 37 and 38 on the diagram below and on your knowledge of biology. The dia-\ngram represents a portion of a starch molecule.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Government agencies and citizens should propose the use of enviropig in the future only after",
+      "choices": [
+        "developing ways to remove the bacterial enzyme",
+        "assessing risks, costs, and benefits",
+        "people have eaten lots of enviropig meat and determined the effects",
+        "a different, cheaper pig can be produced regardless of the output of phosphorus CH2OH H OH H H OH H HO O H CH2OH H OH H H OH O H CH2"
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_39_39.png",
+      "context": "Base your answer to question 39 on the information below and on your knowledge of biology.\nA genetically modified pig, nicknamed the \u201cenviropig,\u201d has the ability to produce a \nbacterial enzyme in its saliva that helps reduce the amount of phosphorus in its wastes.\nPhosphorus pollution is a serious environmental concern. Enviropigs are expensive, but the\ncost is balanced against the benefit to the environment. There is also a concern that the US\nDepartment of Agriculture still has not cleared enviropig meat for human consumption.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The molecules used to cut, copy, and connect the DNA segments used in this process are",
+      "choices": [
+        "sugars",
+        "enzymes",
+        "indicators",
+        "antigens"
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_40_41.png",
+      "context": "Base your answers to questions 40 and 41 on the information below and on your knowledge of biology.\nResearchers have produced rice plants that can withstand being completely submerged\nfor up to two weeks. This is good news for farmers in the flood regions of Southeast Asia.\nThe farmers in this region rely heavily on this crop. The diagram below illustrates the\nprocess used to genetically modify plants, such as rice.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The best explanation for these modified rice plants being flood resistant is that",
+      "choices": [
+        "the gene for flood resistance was inserted into plant cells, which grew into plants whose cells are expressing this gene",
+        "they were produced by fertilization, using gametes from two flood-resistant bacterial cells",
+        "there was a mutation in the bacterial DNA after it was inserted into the plant that caused it to be flood resistant",
+        "the researchers used selective breeding for the flood-resistance trait Bacterial cell Flood-resistance gene isolated Bacterial cell transfers DNA to plant cells + Plant cells with new DNA divide Plant cells grow into flood-resistant plants"
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_40_41.png",
+      "context": "Base your answers to questions 40 and 41 on the information below and on your knowledge of biology.\nResearchers have produced rice plants that can withstand being completely submerged\nfor up to two weeks. This is good news for farmers in the flood regions of Southeast Asia.\nThe farmers in this region rely heavily on this crop. The diagram below illustrates the\nprocess used to genetically modify plants, such as rice.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The diagram below represents two cells viewed using the same magnification with the same microscope. One possible conclusion that can be drawn about the activity of these two cells is that",
+      "choices": [
+        "more active transport occurs in cell B than in cell A",
+        "more active transport occurs in cell A than in cell B",
+        "cell B uses some of the extra mitochondria to make food",
+        "cell A is a plant cell since it has a cell wall"
+      ],
+      "image": "/images/exams/living-environment/june-2016/q42.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the processes leading to the formation of a human embryo. The correct sequence for processes 1, 2, and 3 represented in the diagram is Row Process 1 Process 2 Process 3",
+      "choices": [
+        "gamete formation cell division fertilization",
+        "cell division gamete formation fertilization",
+        "gamete formation fertilization cell division",
+        "fertilization gamete formation cell division Reproductive Organs Zygote Embryo Sperm Egg Process 1 Process 2 Process 3"
+      ],
+      "image": "/images/exams/living-environment/june-2016/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on each axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nFor most animals, the sex of the offspring is determined by sex chromosomes. In some\nspecies of reptiles, such as the painted turtle, there are no sex chromosomes. It has been\ndiscovered that the sex of the offspring is determined by the temperature of the nest in\nwhich the egg develops.\nSex of Painted Turtle Offspring\nat Various Nest Temperatures\nTemperature\n(\u00b0C)\nSex of Offspring\nMales (%)\nFemales (%)\n19\n0\n100\n20\n5\n95\n21\n20\n80\n22\n25\n75\n23\n0\n100\n24\n0\n100\n25\n0\n100\nLiving Environment\u2013June \u201916\n[12]\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nLiving Environment\u2013June \u201916\n[13]\n[OVER]\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data for percent males on the grid. Connect the points and surround each point with a small circle.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nFor most animals, the sex of the offspring is determined by sex chromosomes. In some\nspecies of reptiles, such as the painted turtle, there are no sex chromosomes. It has been\ndiscovered that the sex of the offspring is determined by the temperature of the nest in\nwhich the egg develops.\nSex of Painted Turtle Offspring\nat Various Nest Temperatures\nTemperature\n(\u00b0C)\nSex of Offspring\nMales (%)\nFemales (%)\n19\n0\n100\n20\n5\n95\n21\n20\n80\n22\n25\n75\n23\n0\n100\n24\n0\n100\n25\n0\n100\nLiving Environment\u2013June \u201916\n[12]\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nLiving Environment\u2013June \u201916\n[13]\n[OVER]\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Plot the data for percent females on the grid. Connect the points and surround each point with a small triangle.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nFor most animals, the sex of the offspring is determined by sex chromosomes. In some\nspecies of reptiles, such as the painted turtle, there are no sex chromosomes. It has been\ndiscovered that the sex of the offspring is determined by the temperature of the nest in\nwhich the egg develops.\nSex of Painted Turtle Offspring\nat Various Nest Temperatures\nTemperature\n(\u00b0C)\nSex of Offspring\nMales (%)\nFemales (%)\n19\n0\n100\n20\n5\n95\n21\n20\n80\n22\n25\n75\n23\n0\n100\n24\n0\n100\n25\n0\n100\nLiving Environment\u2013June \u201916\n[12]\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nLiving Environment\u2013June \u201916\n[13]\n[OVER]\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The fact that the sex of the painted turtle offspring is controlled by the temperature of the nest is an example of",
+      "choices": [
+        "natural selection causing a new species to form",
+        "a predator-prey interaction",
+        "habitat destruction decreasing biodiversity",
+        "environment modifying gene expression Offspring (\u0002) Temperature (\u0003C) Sex of Painted Turtles at Various Nest Temperatures Key Males Females Example: Example:"
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nFor most animals, the sex of the offspring is determined by sex chromosomes. In some\nspecies of reptiles, such as the painted turtle, there are no sex chromosomes. It has been\ndiscovered that the sex of the offspring is determined by the temperature of the nest in\nwhich the egg develops.\nSex of Painted Turtle Offspring\nat Various Nest Temperatures\nTemperature\n(\u00b0C)\nSex of Offspring\nMales (%)\nFemales (%)\n19\n0\n100\n20\n5\n95\n21\n20\n80\n22\n25\n75\n23\n0\n100\n24\n0\n100\n25\n0\n100\nLiving Environment\u2013June \u201916\n[12]\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nLiving Environment\u2013June \u201916\n[13]\n[OVER]\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "State the relationship between increasing light intensity and the percentage of disks floating at the conclusion of Investigation 1.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the information and graphs below and on your knowledge\nof biology. The graphs represent the results of two investigations using leaf disks from spinach plants.\nSmall disks were cut from spinach leaves that had been treated to remove any air from\ninside the leaf. The disks were placed in a solution that allowed them to carry out \nphotosynthesis. At first, all the disks sank to the bottom of the container. These disks were\nthen used for two different investigations.\nInvestigation 1\nThe disks were divided into five groups. Each group was exposed to light of a different\nintensity, measured in watts per meter squared (W/m2). Some of the disks began to float.\nThe results of the first investigation are shown in the graph below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The substance produced inside the leaf disks that caused them to float to the surface of the solution is",
+      "choices": [
+        "ozone",
+        "oxygen",
+        "water",
+        "nitrogen 100 80 60 40 20 0 0.036 0.064 0.1 0.154 0 Light Intensity (W/m2) Disks Floating (%) Investigation 2 A number of freshly prepared disks were placed in five containers. These containers were then each exposed to light of a different color. The results of the second investigation are shown in the graph below."
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the information and graphs below and on your knowledge\nof biology. The graphs represent the results of two investigations using leaf disks from spinach plants.\nSmall disks were cut from spinach leaves that had been treated to remove any air from\ninside the leaf. The disks were placed in a solution that allowed them to carry out \nphotosynthesis. At first, all the disks sank to the bottom of the container. These disks were\nthen used for two different investigations.\nInvestigation 1\nThe disks were divided into five groups. Each group was exposed to light of a different\nintensity, measured in watts per meter squared (W/m2). Some of the disks began to float.\nThe results of the first investigation are shown in the graph below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which color of light appears to be least effective for photosynthesis in spinach leaves?",
+      "choices": [
+        "white",
+        "blue",
+        "green",
+        "red"
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the information and graphs below and on your knowledge\nof biology. The graphs represent the results of two investigations using leaf disks from spinach plants.\nSmall disks were cut from spinach leaves that had been treated to remove any air from\ninside the leaf. The disks were placed in a solution that allowed them to carry out \nphotosynthesis. At first, all the disks sank to the bottom of the container. These disks were\nthen used for two different investigations.\nInvestigation 1\nThe disks were divided into five groups. Each group was exposed to light of a different\nintensity, measured in watts per meter squared (W/m2). Some of the disks began to float.\nThe results of the first investigation are shown in the graph below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify the organelle present in plants where this conversion takes place. Yellow pigment 100 80 60 40 20 0 Disks Floating (%)",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_51_51.png",
+      "context": "Base your answer to question 51 on the information and photograph below and on your knowledge of \nbiology. The photograph shows an oriental hornet.\nOriental hornets are unique insects. A yellow pigment in the body of the insect converts\nsolar energy to electrical energy. Plants also convert energy from the Sun.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "There are trade-offs involved in the use of solar-powered cars. Provide one advantage and one disadvantage of owning a solar car. Advantage: Disadvantage:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 52 on the information below and on your knowledge of biology. \nThe SUNY Solar Car Model Racing Team\u2019s Sunhawk: Car of the Future?\nThe Sunhawk, a car built by students at SUNY New Paltz, prompted Forbes Magazine\nto ask \u201cIs The $250,000 Sunhawk the Solar Car of the Future?\u201d These cars show the most\nadvanced solar technology and vehicle construction.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "53",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/q53.png",
+      "context": "Base your answer to question 53 on the information below and on your knowledge of biology.\nTen years ago, scientists discovered a well-preserved set of dinosaur remains in China.\nThis dinosaur, which walked on Earth about 125 million years ago, had feathers and was\nabout the same size as a turkey \u2014 but don\u2019t be fooled. This dino\u2019s bite was a lot worse \nthan a turkey\u2019s gobble. After a close (and careful!) examination of the dino\u2019s teeth, scientists\nrecently concluded that this dinosaur was probably poisonous. The study was led by David\nBurnham, who works and teaches at the University of Kansas in Lawrence.\nSource: www.sciencenewsforkids.org",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "State one reason why the offspring of crows skilled at using twigs as tools would have the greatest chance of survival.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the photograph and information below and on your knowledge\nof biology.\nA Great Larvae Meal\nNew Caledonian crows consume a wide range of foods. These crows require tools to\nextract the larvae of wood boring beetles from their burrows. A bird pokes a larva with a\nstick until the larva is disturbed enough to bite the stick and hang on to it. The bird is then\nable to pull the larva out of its burrow. These larvae, with their unusual diet, have a distinct\nchemical that can be found in the feathers and blood of crows\u2014allowing scientists to \ndetermine the percentage of the crows\u2019 diet that is made up of beetle larvae. Scientists\nfound that the beetle larvae are so energy-rich that just a few could satisfy the daily energy\nrequirement for a crow. The crows with the greatest skill in using a twig as a tool benefit\nmost in terms of nutrition.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "State one reason why some members of a population of crows equally skilled in the use of twigs have different rates of survival. A captive New Caledonian crow forages for food using a stick tool. (Credit: Dr. Simon Walker)",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the photograph and information below and on your knowledge\nof biology.\nA Great Larvae Meal\nNew Caledonian crows consume a wide range of foods. These crows require tools to\nextract the larvae of wood boring beetles from their burrows. A bird pokes a larva with a\nstick until the larva is disturbed enough to bite the stick and hang on to it. The bird is then\nable to pull the larva out of its burrow. These larvae, with their unusual diet, have a distinct\nchemical that can be found in the feathers and blood of crows\u2014allowing scientists to \ndetermine the percentage of the crows\u2019 diet that is made up of beetle larvae. Scientists\nfound that the beetle larvae are so energy-rich that just a few could satisfy the daily energy\nrequirement for a crow. The crows with the greatest skill in using a twig as a tool benefit\nmost in terms of nutrition.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_56_57.png",
+      "context": "Base your answer to question 56\u201357 on the information below and on your knowledge of biology.\nAfrican violet plants are grown for their delicate, colorful flowers and furry, soft leaves.\nPeople often want to touch the leaves and brush the hairy leaves with their fingers. Growers\nand plant owners were concerned that this could negatively affect the plant. Of particular\nconcern was the presence of body lotion or other skin products on the hands of persons\ntouching the leaves.\nA student thought this might be the basis of a science project. He selected two African\nviolet plants. Ten leaves on each of the two plants were brushed with a gloved hand for 30\nseconds, once a day, for a period of five days. The difference was that leaves of the second\nplant were brushed with a gloved hand that had hand lotion applied to the glove.\n56\u201357 As part of the peer review process, evaluate the student\u2019s experiment. As part of your evaluation, \nbe sure to:\n\u2022 state one possible hypothesis for the experiment proposed by the student   [1]\n\u2022 describe the type of data that should be collected to determine if the brushing with lotion was \nhaving a negative effect on the African violet plant   [1]\n\nLiving Environment\u2013June \u201916\n[19]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "56\u201357 As part of the peer review process, evaluate the student\u2019s experiment. As part of your evaluation, be sure to: \u2022 state one possible hypothesis for the experiment proposed by the student \u2022",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_56_57.png",
+      "context": "Base your answer to question 56\u201357 on the information below and on your knowledge of biology.\nAfrican violet plants are grown for their delicate, colorful flowers and furry, soft leaves.\nPeople often want to touch the leaves and brush the hairy leaves with their fingers. Growers\nand plant owners were concerned that this could negatively affect the plant. Of particular\nconcern was the presence of body lotion or other skin products on the hands of persons\ntouching the leaves.\nA student thought this might be the basis of a science project. He selected two African\nviolet plants. Ten leaves on each of the two plants were brushed with a gloved hand for 30\nseconds, once a day, for a period of five days. The difference was that leaves of the second\nplant were brushed with a gloved hand that had hand lotion applied to the glove.\n56\u201357 As part of the peer review process, evaluate the student\u2019s experiment. As part of your evaluation, \nbe sure to:\n\u2022 state one possible hypothesis for the experiment proposed by the student   [1]\n\u2022 describe the type of data that should be collected to determine if the brushing with lotion was \nhaving a negative effect on the African violet plant   [1]\n\nLiving Environment\u2013June \u201916\n[19]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "State the role of mutation or recombination in the appearance of the trait for black fur color in the pocket mouse population.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_58_59.png",
+      "context": "Base your answers to questions 58 and 59 on the information and chart below and on your knowledge of\nbiology.\nScientists studied the distribution of a species of pocket mouse that lived in the sandy\ndesert regions of the southwestern United States. They are eaten by a variety of predators.\nPocket mice are active at night, and feed on seeds and grasses. A single female mouse can\nreproduce several times each year, producing a litter of 3 to 13 offspring each time. Each\nnew litter is considered a generation.\nA volcanic eruption that resulted in lava flows changed the color of the area that the\nmice inhabit from light brown to black. Data from the scientist\u2019s research of the population\nare shown in the chart below.\nChanges in Pocket Mouse Fur Color after a Volcanic Eruption",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Explain why the percentage of black pocket mice changed so much after the volcanic eruption. Number of Generations Percentage of Pocket Mice with Light Brown Fur Percentage of Pocket Mice with Black Fur 10 95% 5% 25 90% 10% 50 75% 25% 100 5% 95%",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_58_59.png",
+      "context": "Base your answers to questions 58 and 59 on the information and chart below and on your knowledge of\nbiology.\nScientists studied the distribution of a species of pocket mouse that lived in the sandy\ndesert regions of the southwestern United States. They are eaten by a variety of predators.\nPocket mice are active at night, and feed on seeds and grasses. A single female mouse can\nreproduce several times each year, producing a litter of 3 to 13 offspring each time. Each\nnew litter is considered a generation.\nA volcanic eruption that resulted in lava flows changed the color of the area that the\nmice inhabit from light brown to black. Data from the scientist\u2019s research of the population\nare shown in the chart below.\nChanges in Pocket Mouse Fur Color after a Volcanic Eruption",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "A scientist analyzes the bases in a segment of DNA from a human skin cell to determine if it codes for a protein. The base A is 12% of the bases in this segment of DNA. Calculate the percentage of bases that would be C. %",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 and 61 on the information below and on your knowledge of biology.\nIn 2003, as a result of the Human Genome Project, the complete sequence of all the\nbases in human DNA was released to the public. Although knowing the entire sequence of\nbases has proven valuable, scientists are currently working to map genes. Mapping genes\ninvolves determining the exact location of each gene. Since much of human DNA does not\ncode for a protein, it is challenging to figure out which segments are actual genes. Often,\nscientists look at the percent composition of bases in a segment of DNA. If the segment of\nDNA has a large percentage of C and G bases (together over 50%), it is likely that it is a\ngene and codes for a protein.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Is it likely this segment of DNA codes for a protein? Circle yes or no and support your answer. Circle one:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/q61.png",
+      "context": "Base your answers to questions 60 and 61 on the information below and on your knowledge of biology.\nIn 2003, as a result of the Human Genome Project, the complete sequence of all the\nbases in human DNA was released to the public. Although knowing the entire sequence of\nbases has proven valuable, scientists are currently working to map genes. Mapping genes\ninvolves determining the exact location of each gene. Since much of human DNA does not\ncode for a protein, it is challenging to figure out which segments are actual genes. Often,\nscientists look at the percent composition of bases in a segment of DNA. If the segment of\nDNA has a large percentage of C and G bases (together over 50%), it is likely that it is a\ngene and codes for a protein.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Using the terms antigens and antibodies, explain why the tumor cells are ignored by the immune system in Tasmanian devils.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the illustration and information below and on your \nknowledge of biology. The illustration is of a Tasmanian devil.\nThe Tasmanian devil is the largest surviving carnivorous marsupial in Australia. It is in\ndanger of extinction due to an unusual type of cancer called Devil Facial Tumor Disease\n(DFTD). It can be passed from one individual to another through wounds that occur when\nthey fight over food. Tumor cells in the mouth of an infected animal break off and enter \nthe wound on an uninfected animal. The tumor cells multiply in the body of the newly\ninfected devil, forming new tumors that eventually kill the animal.\nRecent research has shown that the immune system of a Tasmanian devil accepts tumor\ncells from another devil as if they were cells from its own body. The tumor cells are ignored\nby the immune system. No immune response develops against them, and the cancerous\ncells multiply. Scientists predict that DFTD could wipe out all the remaining Tasmanian\ndevils in 25 years, unless a treatment is developed.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Explain how cancer cells differ from normal cells.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the illustration and information below and on your \nknowledge of biology. The illustration is of a Tasmanian devil.\nThe Tasmanian devil is the largest surviving carnivorous marsupial in Australia. It is in\ndanger of extinction due to an unusual type of cancer called Devil Facial Tumor Disease\n(DFTD). It can be passed from one individual to another through wounds that occur when\nthey fight over food. Tumor cells in the mouth of an infected animal break off and enter \nthe wound on an uninfected animal. The tumor cells multiply in the body of the newly\ninfected devil, forming new tumors that eventually kill the animal.\nRecent research has shown that the immune system of a Tasmanian devil accepts tumor\ncells from another devil as if they were cells from its own body. The tumor cells are ignored\nby the immune system. No immune response develops against them, and the cancerous\ncells multiply. Scientists predict that DFTD could wipe out all the remaining Tasmanian\ndevils in 25 years, unless a treatment is developed.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Describe one possible way to maintain a population of healthy, uninfected Tasmanian devils until a treatment or cure can be found. Source: http://",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the illustration and information below and on your \nknowledge of biology. The illustration is of a Tasmanian devil.\nThe Tasmanian devil is the largest surviving carnivorous marsupial in Australia. It is in\ndanger of extinction due to an unusual type of cancer called Devil Facial Tumor Disease\n(DFTD). It can be passed from one individual to another through wounds that occur when\nthey fight over food. Tumor cells in the mouth of an infected animal break off and enter \nthe wound on an uninfected animal. The tumor cells multiply in the body of the newly\ninfected devil, forming new tumors that eventually kill the animal.\nRecent research has shown that the immune system of a Tasmanian devil accepts tumor\ncells from another devil as if they were cells from its own body. The tumor cells are ignored\nby the immune system. No immune response develops against them, and the cancerous\ncells multiply. Scientists predict that DFTD could wipe out all the remaining Tasmanian\ndevils in 25 years, unless a treatment is developed.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Explain why coyotes were not in competition with the lynx prior to the presence of packed snow trails.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_65_67.png",
+      "context": "Base your answers to questions 65 through 67 on the information below and on your knowledge of biology.\nThe photograph below shows a Canada lynx, a mammal native to North America.\nLynx are found in areas where there is deep, soft snow cover during the winter months.\nThe body design of the Canada lynx helps keep the animal on top of the soft snow. Several\nunique characteristics, such as the design of its feet and its weight, enable the cat to \nsuccessfully chase and catch snowshoe hares, its primary source of food. Snowshoe hares\nare also able to remain on top of the snow.\nIncreased winter recreation has created packed snow trails in lynx habitat. This allows\ncoyotes and cougars to compete with lynx.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Describe the niche that the lynx, coyote, and cougar are competing to fill.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_65_67.png",
+      "context": "Base your answers to questions 65 through 67 on the information below and on your knowledge of biology.\nThe photograph below shows a Canada lynx, a mammal native to North America.\nLynx are found in areas where there is deep, soft snow cover during the winter months.\nThe body design of the Canada lynx helps keep the animal on top of the soft snow. Several\nunique characteristics, such as the design of its feet and its weight, enable the cat to \nsuccessfully chase and catch snowshoe hares, its primary source of food. Snowshoe hares\nare also able to remain on top of the snow.\nIncreased winter recreation has created packed snow trails in lynx habitat. This allows\ncoyotes and cougars to compete with lynx.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Explain how the carrying capacity affects the number of predators in an area. Source: http://",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_65_67.png",
+      "context": "Base your answers to questions 65 through 67 on the information below and on your knowledge of biology.\nThe photograph below shows a Canada lynx, a mammal native to North America.\nLynx are found in areas where there is deep, soft snow cover during the winter months.\nThe body design of the Canada lynx helps keep the animal on top of the soft snow. Several\nunique characteristics, such as the design of its feet and its weight, enable the cat to \nsuccessfully chase and catch snowshoe hares, its primary source of food. Snowshoe hares\nare also able to remain on top of the snow.\nIncreased winter recreation has created packed snow trails in lynx habitat. This allows\ncoyotes and cougars to compete with lynx.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "State one way that the use of pesticides to kill ticks could lead to the decline of the oxpecker population.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/q68.png",
+      "context": "Base your answers to questions 68 and 69 on the information below and on your knowledge of biology.\nCowherds Discovering Ticks Are for the Birds\nSouth African cowherds [cowboys] are discovering that when it comes to debugging\ntheir cattle, nature knows best. Generations of cattle owners who dipped their livestock in\npesticides ended up killing not only the ticks that feast on them, but also the red-billed\noxpeckers [birds] that eat the ticks. Now environmentalists want to cut out the pesticides,\nhand the job back to the birds and in the process save them from extinction.\u2026\nThe bird is famous for its bright red bill, yellow ringed eyes and voracious appetite for\nticks. An oxpecker can eat 13,000 of them [ticks] in a day, and meals are everywhere\u2014\non antelope, horses, cattle, buffalo, rhino, lion, elephant and leopard. The ticks carry a host\nof illnesses, including red-water disease, a common killer of cattle, but [ticks] are harmless\nto oxpeckers.\u2026\nSource: Eric Naki, Associated Press writer",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "69",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/q69.png",
+      "context": "Base your answers to questions 68 and 69 on the information below and on your knowledge of biology.\nCowherds Discovering Ticks Are for the Birds\nSouth African cowherds [cowboys] are discovering that when it comes to debugging\ntheir cattle, nature knows best. Generations of cattle owners who dipped their livestock in\npesticides ended up killing not only the ticks that feast on them, but also the red-billed\noxpeckers [birds] that eat the ticks. Now environmentalists want to cut out the pesticides,\nhand the job back to the birds and in the process save them from extinction.\u2026\nThe bird is famous for its bright red bill, yellow ringed eyes and voracious appetite for\nticks. An oxpecker can eat 13,000 of them [ticks] in a day, and meals are everywhere\u2014\non antelope, horses, cattle, buffalo, rhino, lion, elephant and leopard. The ticks carry a host\nof illnesses, including red-water disease, a common killer of cattle, but [ticks] are harmless\nto oxpeckers.\u2026\nSource: Eric Naki, Associated Press writer",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State one possible relationship between CO2 levels and the change in Antarctic ice mass.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/q70.png",
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of biology.\nOver the past few decades, researchers have observed declining numbers in two species\nof penguins native to the West Antarctic peninsula. New evidence is pointing to a decline\nin their food supply as the primary cause for the recent drops in their numbers. These \npenguins feed on krill, small animals that grow and develop under ice masses. The graphs\nbelow show data related to two factors: atmospheric carbon dioxide (CO2) levels and\nAntarctic ice mass. The diagram of a generalized Antarctic food web illustrates the role of\nthe penguins.\n(Not drawn to scale)\nSource: School Improvement in Maryland, www.mdk12.org\nCod\nLeopard\nseal\nKiller whale\nSquid\nKrill\nPenguin\nAntarctic Food Web\nPhytoplankton\nElephant seal\nZooplankton\nYear\nChange in Ice Mass (gigatons)\n0\n2005 2006 2007 2008 2009 2010\n2004\n2003\n2002\n-200\n-400\n-600\n-800\n-1000\n-1200\n-1400\n-1600\n-1800\nAntarctica Mass Variation Since 2002\nDirect CO2 Measurements: 2005-2011\nCO2 (parts per million)\n392\n390\n388\n386\n384\n382\n380\n378\n2005 2006 2007 2008 2009 2010 2011\nYear\nSource: http://www.nasa.gov\nLiving Environment\u2013June \u201916\n[24]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Explain why the change in ice mass is resulting in a decline in the penguin populations.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/q71.png",
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of biology.\nOver the past few decades, researchers have observed declining numbers in two species\nof penguins native to the West Antarctic peninsula. New evidence is pointing to a decline\nin their food supply as the primary cause for the recent drops in their numbers. These \npenguins feed on krill, small animals that grow and develop under ice masses. The graphs\nbelow show data related to two factors: atmospheric carbon dioxide (CO2) levels and\nAntarctic ice mass. The diagram of a generalized Antarctic food web illustrates the role of\nthe penguins.\n(Not drawn to scale)\nSource: School Improvement in Maryland, www.mdk12.org\nCod\nLeopard\nseal\nKiller whale\nSquid\nKrill\nPenguin\nAntarctic Food Web\nPhytoplankton\nElephant seal\nZooplankton\nYear\nChange in Ice Mass (gigatons)\n0\n2005 2006 2007 2008 2009 2010\n2004\n2003\n2002\n-200\n-400\n-600\n-800\n-1000\n-1200\n-1400\n-1600\n-1800\nAntarctica Mass Variation Since 2002\nDirect CO2 Measurements: 2005-2011\nCO2 (parts per million)\n392\n390\n388\n386\n384\n382\n380\n378\n2005 2006 2007 2008 2009 2010 2011\nYear\nSource: http://www.nasa.gov\nLiving Environment\u2013June \u201916\n[24]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "State one specific way in which humans might have caused the changes in atmospheric CO2",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/q72.png",
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of biology.\nOver the past few decades, researchers have observed declining numbers in two species\nof penguins native to the West Antarctic peninsula. New evidence is pointing to a decline\nin their food supply as the primary cause for the recent drops in their numbers. These \npenguins feed on krill, small animals that grow and develop under ice masses. The graphs\nbelow show data related to two factors: atmospheric carbon dioxide (CO2) levels and\nAntarctic ice mass. The diagram of a generalized Antarctic food web illustrates the role of\nthe penguins.\n(Not drawn to scale)\nSource: School Improvement in Maryland, www.mdk12.org\nCod\nLeopard\nseal\nKiller whale\nSquid\nKrill\nPenguin\nAntarctic Food Web\nPhytoplankton\nElephant seal\nZooplankton\nYear\nChange in Ice Mass (gigatons)\n0\n2005 2006 2007 2008 2009 2010\n2004\n2003\n2002\n-200\n-400\n-600\n-800\n-1000\n-1200\n-1400\n-1600\n-1800\nAntarctica Mass Variation Since 2002\nDirect CO2 Measurements: 2005-2011\nCO2 (parts per million)\n392\n390\n388\n386\n384\n382\n380\n378\n2005 2006 2007 2008 2009 2010 2011\nYear\nSource: http://www.nasa.gov\nLiving Environment\u2013June \u201916\n[24]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "Which statement best describes what would most likely be observed after 20 minutes?",
+      "choices": [
+        "The contents of the dialysis tube would turn blue-black.",
+        "The liquid in the beaker would turn blue-black.",
+        "The dialysis tube would burst.",
+        "There would be no change visible."
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_73_75.png",
+      "context": "Base your answers to questions 73 through 75 on the diagram below and on your knowledge of biology. \nThe diagram represents an experimental setup.\nNote: The answer to question 73 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "Which term correctly identifies the process by which molecules move through the dialysis tube membrane?",
+      "choices": [
+        "paper chromatography",
+        "active transport",
+        "diffusion",
+        "digestion"
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_73_75.png",
+      "context": "Base your answers to questions 73 through 75 on the diagram below and on your knowledge of biology. \nThe diagram represents an experimental setup.\nNote: The answer to question 73 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "A student filled a dialysis tube with 97% water solution and sealed the ends. The tube and its contents had a mass of 55 grams. The student placed the tube in a solution, and the mass of the tube and its contents increased to 60 grams. Into which solution was the dialysis tube placed?",
+      "choices": [
+        "0% water",
+        "95% water",
+        "97% water",
+        "99%"
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_73_75.png",
+      "context": "Base your answers to questions 73 through 75 on the diagram below and on your knowledge of biology. \nThe diagram represents an experimental setup.\nNote: The answer to question 73 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "Which statement best describes the method used above to determine the evolutionary relationships between three species of finches?",
+      "choices": [
+        "Examine the structure of the beaks and compare them.",
+        "Observe behavioral and physical characteristics of all the finches and group them by similarities.",
+        "Obtain molecular evidence from all three species and identify similarities.",
+        "Compare common ancestors of all three of the species to see if they are the same."
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_76_77.png",
+      "context": "Base your answers to questions 76 and 77 on the information and diagram below and on your knowledge of\nbiology.\nScientists attempted to determine the evolutionary relationships between three different\nfinch species, A, B, and C. In order to do this, they examined the physical characteristics\nand DNA of these species. DNA was extracted from all three species and analyzed using\ngel electrophoresis. The results are shown in the diagram.\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Based on the data they collected using gel electrophoresis, label the branching tree diagram below. Write the letters A, B, and C, to represent the possible evolutionary relationships between species A, B,",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_76_77.png",
+      "context": "Base your answers to questions 76 and 77 on the information and diagram below and on your knowledge of\nbiology.\nScientists attempted to determine the evolutionary relationships between three different\nfinch species, A, B, and C. In order to do this, they examined the physical characteristics\nand DNA of these species. DNA was extracted from all three species and analyzed using\ngel electrophoresis. The results are shown in the diagram.\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "One of the finch species has a slightly smaller, weaker beak. Is this species 1 or species 2? Support your answer with information from the graph. Species: _______",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_78_80.png",
+      "context": "Base your answers to questions 78 through 80 on the information and diagram below and on your knowledge\nof biology.\nTwo species of finches found on a particular Galapagos island eat the seeds of a certain\nvariety of plant. The relative strength of their beaks is shown in the graph below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Select the point on the graph where beak strength of the two bird species is equal. Support your answer. Point: _______",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_78_80.png",
+      "context": "Base your answers to questions 78 through 80 on the information and diagram below and on your knowledge\nof biology.\nTwo species of finches found on a particular Galapagos island eat the seeds of a certain\nvariety of plant. The relative strength of their beaks is shown in the graph below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "If the environment on the island changed and the seeds of more of the plants became harder to crack open, describe what the graph might look like after many years have passed. Increasing Beak Strength Relative Number of Individuals Beak Strength of Two Finch Species Key Species 1 Species 2",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_78_80.png",
+      "context": "Base your answers to questions 78 through 80 on the information and diagram below and on your knowledge\nof biology.\nTwo species of finches found on a particular Galapagos island eat the seeds of a certain\nvariety of plant. The relative strength of their beaks is shown in the graph below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "The process used to remove excess water from the paramecium by the contractile vacuole is",
+      "choices": [
+        "synthesis",
+        "digestion",
+        "active transport",
+        "passive transport"
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_81_82.png",
+      "context": "Base your answers to questions 81 and 82 on the information and diagram below and on your knowledge of\nbiology.\nUsing a microscope and a wet-mount slide, a student observed a pond water sample\ncontaining paramecia, which are single-celled freshwater organisms. He noticed that there\nwas a structure within each living paramecium that contracted regularly\u2014about four times\neach minute. He researched the organism in his science textbook and found that the structure\nwas a contractile vacuole and its function was to remove excess water from the paramecium.\nIn the diagram below, a paramecium is represented as seen through a microscope. \nThe function of the contractile vacuole is described.\nHe decided to determine if the concentration of salt in the environment of the \nparamecium would affect the rate at which the contractile vacuole would contract. \nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "The student predicted that the contractile vacuole would contract fewer times in one minute in a solution that had a higher concentration of salt than that found in typical pond water. This prediction is most likely",
+      "choices": [
+        "correct, because a high concentration of salt in the environment will force water into the cell, causing the contractile vacuole to pump",
+        "incorrect, because salt would be entering the cell, and the contractile vacuole would have to pump it out",
+        "incorrect, because the concentration of salt in the environment should not affect a cell",
+        "correct,"
+      ],
+      "image": "/images/exams/living-environment/june-2016/context_81_82.png",
+      "context": "Base your answers to questions 81 and 82 on the information and diagram below and on your knowledge of\nbiology.\nUsing a microscope and a wet-mount slide, a student observed a pond water sample\ncontaining paramecia, which are single-celled freshwater organisms. He noticed that there\nwas a structure within each living paramecium that contracted regularly\u2014about four times\neach minute. He researched the organism in his science textbook and found that the structure\nwas a contractile vacuole and its function was to remove excess water from the paramecium.\nIn the diagram below, a paramecium is represented as seen through a microscope. \nThe function of the contractile vacuole is described.\nHe decided to determine if the concentration of salt in the environment of the \nparamecium would affect the rate at which the contractile vacuole would contract. \nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "State one reason why an individual\u2019s pulse rate increased during exercise.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of biology.\nFive individuals had their pulses taken in beats per minute (bpm) before and after exer-\ncise. The data are shown in the chart below.\nPulse Rates",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Calculate the average pulse rate before exercise for this group, to the nearest tenth. ______________ bpm",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of biology.\nFive individuals had their pulses taken in beats per minute (bpm) before and after exer-\ncise. The data are shown in the chart below.\nPulse Rates",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "State why the individuals in this group have different pulse rates before exercise. Individual Pulse before Exercise (bpm) Pulse after Exercise (bpm) A 68 100 B 70 120 C 54 130 D 64 122 E 75 115 LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2016/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of biology.\nFive individuals had their pulses taken in beats per minute (bpm) before and after exer-\ncise. The data are shown in the chart below.\nPulse Rates",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -9,6 +9,7 @@ import ExamsStack    from './ExamsStack'
 import ProgressStack from './ProgressStack'
 import ProfileStack  from './ProfileStack'
 import GlobalTopBar  from '../components/GlobalTopBar'
+import StreakCelebrationHost from '../components/StreakCelebrationHost'
 
 const Tab = createBottomTabNavigator()
 
@@ -74,6 +75,7 @@ export default function TabNavigator() {
           }}
         />
       </Tab.Navigator>
+      <StreakCelebrationHost />
     </View>
   )
 }

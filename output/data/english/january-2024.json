@@ -1,0 +1,366 @@
+{
+  "subject": "english",
+  "session": "january-2024",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Lines 8 through 11 reveal the",
+      "choices": [
+        "tenants\u2019 pride in the vicomte\u2019s noble heritage",
+        "tenants\u2019 appreciation of the vicomte\u2019s good fortune",
+        "vicomte\u2019s respect for his uncle\u2019s wishes",
+        "vicomte\u2019s motivation for his novel decision"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The similes in lines 16 and 28 emphasize Bernard\u2019s",
+      "choices": [
+        "shock at the vicomte\u2019s ideas",
+        "exhaustion from his duties",
+        "impatience with the tenants",
+        "disregard of the vicomte\u2019s demand"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which statement indicates that Bernard feels the vicomte may have acted impulsively?",
+      "choices": [
+        "\u201cBut he quickly recovered himself; he had heard badly\u201d (lines 16 and 17)",
+        "\u201c \u2018Monsieur, of course means to raise the rents\u2019 \u201d (line 19)",
+        "\u201c \u2018Monsieur has not reflected,\u2019 persisted he\u201d (line 24)",
+        "\u201cOne would not conduct himself thus without being forced\u201d (line 51)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "A central idea reflected in lines 32 through 41 is that people",
+      "choices": [
+        "are easily satisfied",
+        "are suspicious of change",
+        "accept gifts graciously",
+        "reveal secrets of others"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The repetition of the statement in lines 54 and 81 reinforces a shift from",
+      "choices": [
+        "discomfort to comfort",
+        "complaint to praise",
+        "fear to trust",
+        "uncertainty to certainty"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "As used in line 60, the word \u201chazard\u201d most likely means to",
+      "choices": [
+        "suggest that",
+        "rule out that",
+        "ignore that",
+        "require proof that"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Lines 61 through 74 reveal that the tenants are",
+      "choices": [
+        "making excuses for the vicomte\u2019s rude behavior",
+        "imagining reasons why the vicomte lowered the rents",
+        "investigating the history of the building",
+        "accusing one another of crimes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "As used in line 85, the phrase \u201cgeneral rout\u201d indicates that the tenants are",
+      "choices": [
+        "seeking revenge",
+        "being frugal",
+        "acting irrationally",
+        "being responsible"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which statement reflects a conclusion based on the text?",
+      "choices": [
+        "Poor communication can generate hysterical behavior.",
+        "Clear communication facilitates mutual benefits.",
+        "Good intentions can create positive effects.",
+        "Negative experiences foster group hostility."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which quotation best reflects a central idea in the passage?",
+      "choices": [
+        "\u201cHe learned, also, that the unfurnished building, bought in 1849 for 300,000 francs, now brought in, clear of taxes, rentals of 82,000 francs a year.\u201d (lines 5 through 7)",
+        "\u201cWith this excellent purpose in view, the Vicomte de B\u2014 sent immediately for the conci\u00e8rge of the building, who presented himself as promptly, with back bent like a bow.\u201d (lines 12 and 13)",
+        "\u201cStaggering like a drunken man, Monsieur Bernard went out from the house of his proprietor.\u201d (lines 28 and 29)",
+        "\u201c \u2018What motives,\u2019 said they all, \u2018actuate this strange man? For certainly he must have grave reasons for a step like this!\u2019 \u201d (lines 48 and 49) Regents Exam in ELA \u2014 Jan. \u201924 Reading Comprehension Passage B The Sound of Snow Snow falls in the dusk of Connecticut. The stranger Looks up to the glutenous sky, and it is remembrance That tickles the end of his nose like the fingertips Of a child and remembrance that touches the end of his Tongue with the antique purity and coolness of the snow, As if this were almost the beginning, the first snowstorm Fluttering between his house and the serious hemlocks.1 And best of all is the sound of snow in the stillness, A susurration,2 the minute percussion of settling flakes; And the stranger listens, intent to the whispering snow In the fir boughs, earth\u2019s most intimate confiding, And he thinks that this is the time of sweet cognizance3 As it was once when the house, graying in old dusk, Knew him and sang to him, before the house forgot. In the last moments of day the earth and the sky Close in the veils of snow that flutter around him, Shutting him in the sphere of the storm, where he stands In his elephantine galoshes,4 peering this way and that At the trees in their aloofness and the nameless house Vanishing into the dark; and he stamps his feet urgently, Turning as if in anger away from an evil companion. Yet when, like a warning just at the fall of darkness, Yellow light cries from the window above in the house, From the boy\u2019s room, from the old sixteen-paned window, The stranger remembers the boy who sits in the light And turns the glass sphere, watching to see the snowstorm Whirling inside. And the stranger shivers and listens To the tranquil and lucid5 whispering of the snow. \u2014Hayden Carruth \u201cThe Sound of Snow\u201d from Collected Shorter Poems 1946\u20131991, 1992 Copper Canyon Press 1hemlocks \u2014 evergreen trees 2susurration \u2014 murmuring 3cognizance \u2014 awareness 4galoshes \u2014 rubber boots 5lucid \u2014 clear 10 5 15 20 25 Regents Exam in ELA \u2014 Jan. \u201924"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "In the first stanza, the stranger is vividly reminded of the",
+      "choices": [
+        "power he felt during snowstorms in Connecticut",
+        "enjoyment he found playing in fresh snow as a child",
+        "relief he found in the winter snow in Connecticut",
+        "sensations he experienced during snowfall as a child"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "In the context of the poem, the personification in lines 13 and 14 serves to",
+      "choices": [
+        "establish the stranger\u2019s connection with the house",
+        "transform the stranger\u2019s feelings about the house",
+        "illustrate the stranger\u2019s dim memory of the house",
+        "reveal the stranger\u2019s obscured view of the house"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The references to \u201cthe sphere of the storm\u201d (line 17) and \u201cthe glass sphere\u201d (line 26) create a link between the stranger\u2019s",
+      "choices": [
+        "health and illness",
+        "acceptance and rejection",
+        "present and past",
+        "insight and confusion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Lines 15 through 21 signal the stranger\u2019s",
+      "choices": [
+        "changing attitude towards the storm",
+        "increasing confidence about finding his way",
+        "developing sense of control over the storm",
+        "growing disinterest in continuing his journey Reading Comprehension Passage C Crikey! This excerpt from an article presents information regarding Australian saltwater crocodiles. \u2026Bindi and Robert are the offspring of Steve Irwin, the boisterous, can-do naturalist of \u201cCrocodile Hunter\u201d fame. Perpetually clad in khaki shorts and hiking boots, the elder Irwin\u2019s shtick1\u2014provocative,2 up-close interactions with wild animals and squeals of wonderment (\u201cCrikey!\u201d) at their magnificent deadliness\u2014made him an international TV phenomenon. Irwin\u2019s encounters with lethal animals ended in 2006, when a stingray\u2019s barb pierced his heart while he was filming on the Great Barrier Reef. He was 44. \u2026 What\u2019s perhaps surprising is that Irwin, though controversial for his flamboyant hands- on approach to wildlife, quietly teamed with serious scientists and conservationists to make a genuine contribution to the systematic natural history of this enigmatic3 critter [the saltwater crocodile]. Their discoveries about the salties\u2019 habits, homing abilities and private lives have prompted a rethink of how they live and how we can coexist with them. Adult crocs have no natural predators except people, possibly because we\u2019re meaner. \u2026 The research project that Irwin helped launch is led by Craig Franklin, a University of Queensland [Australia] zoologist, who, using capture techniques developed by the Croc Hunter, has trapped, tagged and released scores of salties in Aussie waterways. Data gathered by satellite and acoustic telemetry is beamed to a Brisbane lab, which maps the beasts\u2019 whereabouts and logs their dive times and depths. The project is bankrolled by the Irwins\u2019 zoo, federal grants and private donors\u2014a little over $6,000 gets you the \u201cexclusive naming rights\u201d to a wild, caught croc. Far from being just sedentary, solitary animals with one dominant male defending a set territory, as once thought, salties also turn out to be far-ranging creatures with complex social hierarchies. \u201cCrocodiles are misunderstood because they\u2019re not cute and fluffy,\u201d says Bindi, a mainstay of Franklin\u2019s annual field trips since Day 1. \u2026 Aboriginal people have traditionally hunted crocodiles for their meat, but the animal\u2019s population remained stable until World War II ended and high-powered rifles became widely available. Commercial hunters and trigger-happy sportsmen slaughtered them indiscriminately. Since given protection in Australia during the early 1970s, their numbers have rebounded, then boomed to about 100,000. 1shtick \u2014 style of performance 2provocative \u2014 exciting 3enigmatic \u2014 puzzling 20 10 5 15 25 Regents Exam in ELA \u2014 Jan. \u201924 Of the 23 crocodilian species, two inhabit the rivers, billabongs4 and mangrove swamps of the Australian tropics: the freshwater, or Johnson\u2019s, crocodile, which is relatively harmless, and the formidable estuarine, or saltwater, croc, which can grow to 20 feet in length and weigh more than a ton. The range of the two overlaps somewhat, and sometimes the bigger and far more aggressive saltie will make a hearty lunch of the freshie. Robert Irwin got it right: Salties are ruthlessly efficient killing machines. They come equipped with nearly 70 interlocking teeth, many as sharp as a steak knife. If one breaks off, there\u2019s another underneath to replace it. Numerous muscles close the brute\u2019s jaws but only a few open them. Over the last 70 million years not much has changed in the saltie\u2019s evolutionary design. This archosaurian behemoth5 can see well by day and by night and has three pairs of eyelids, one of which functions like swimming goggles to protect the croc\u2019s vision underwater. Another membrane holds the tongue in place, preventing water from filling the lungs, which is why, even in contempt, the crocodile can\u2019t stick it out. Salties stalk their quarry6 with deadly patience\u2014over days if necessary\u2014learning its habits and feeding times. The croc skulks below the surface near the water\u2019s edge, poised to ambush anything it can clamp those jaws on\u2014cattle, wild boar, kangaroos, even other crocodiles as they come to drink. In a constant state of awareness, they\u2019ll reveal themselves and strike only when confident of success. \u2026 If a crocodile needs to sink in a hurry, it can move its larger internal organs to the back of its body, like a submarine shifting ballast.7 Franklin and [colleague, Michael] Axelsson proposed that the cogged-teeth valves allow crocs to ration oxygen underwater and stay submerged for hours. In 2004, Franklin and Irwin joined forces with Australia\u2019s parks and wildlife department to launch Crocs in Space, the first published satellite-tracking study of wild crocodiles. Dozens of adult salties were seized, restrained and outfitted with satellite transmitters to keep tabs on them. Over the years, researchers have determined that saltwater crocs can hold their breath for nearly seven hours and dive to 23 feet; that they\u2019re capable of walking miles overland between waterholes; that nesting mothers check out potential nests weeks before laying eggs; that dominant males maximize reproductive success, while subordinate males roam hundreds of miles of waterway, possibly in search of unguarded females. \u201cTo me,\u201d says Bindi, \u201ctheir nomadic behavior is so, so fascinating.\u201d Salties, she notes, invest considerable parental care in the rearing of their young. The female digs them out of the nest when they start chirping and gently rolls the eggs in her mouth to assist hatching. Gingerly, if not tenderly, she carries her darlings to the water\u2019s edge and remains at their side for several months. \u201cAdorable!\u201d Bindi says. What she loves most about the research study is that you can track a crocodile for ten years, and \u201clearn all its secrets.\u201d Some are caught and recaught and recaught again. \u201cIt\u2019s kind of like seeing an old friend. You become attached to an individual and watch it grow and observe all its changes. It becomes part of your family. Imagine that: a dinosaur in your family! This is our purpose\u2014catching prehistoric creatures and learning to share what we\u2019ve learned with the world. And maybe, just maybe, someone listens and thinks, \u2018Dinosaurs are extinct! These guys are so precious.\u2019 \u201d \u2026 4billabongs \u2014 lakes or isolated ponds 5archosaurian behemoth \u2014 a huge descendant of dinosaurs 6quarry \u2014 prey 7ballast \u2014 weights used to balance a ship 40 45 50 55 60 65 30 35 70 Regents Exam in ELA \u2014 Jan. \u201924 Regents Exam in ELA \u2014 Jan. \u201924"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Lines 1 through 12 reveal that Steve Irwin sought to",
+      "choices": [
+        "manage wild animal living areas",
+        "educate the public about wild animals",
+        "protect the public from wild animals",
+        "control wild animal predatory behaviors"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Steve Irwin was able to use his television fame to",
+      "choices": [
+        "initiate crocodile research projects",
+        "purchase crocodiles for zoos",
+        "develop crocodile breeding techniques",
+        "fund crocodile hunting preserves"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "As used in line 20, the word \u201csedentary\u201d most nearly means",
+      "choices": [
+        "living in large groups",
+        "remaining in one location",
+        "easy to aggravate",
+        "hard to capture"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which lines best support the idea that some crocodiles \u201care ruthlessly efficient killing machines\u201d (line 34)?",
+      "choices": [
+        "\u201cthe formidable estuarine, or saltwater, croc, which can grow to 20 feet in length and weigh more than a ton\u201d (lines 31 and 32)",
+        "\u201cAnother membrane holds the tongue in place, preventing water from filling the lungs\u201d (lines 41 and 42)",
+        "\u201cThe croc skulks below the surface near the water\u2019s edge, poised to ambush anything it can clamp those jaws on\u201d (lines 44 and 45)",
+        "\u201cit can move its larger internal organs to the back of its body\u201d (lines 48 and 49)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Lines 43 through 47 emphasize crocodiles\u2019",
+      "choices": [
+        "impulsive search for prey",
+        "limited selection of prey",
+        "techniques for hunting prey",
+        "methods for frightening prey Herpetologists8 had long wondered how salties\u2014notoriously poor long-distance swimmers\u2014have inhabited so many South Pacific islands separated by wide expanses of ocean. But data gathered by Franklin and others revealed that during long voyages, the crocs ride surface currents, like surfers catching waves or migratory birds using thermal columns. In contrast, on jaunts of 6.2 miles or less the crocs under observation were just as likely to travel with or against the flow. \u2026 Salties\u2019 uncanny ability to find their way home after being relocated, which Franklin and coworkers have documented in several studies, remains something of a mystery. Perhaps, Franklin speculates, \u201cthey swim around when released and realign themselves in their environment by celestial navigation or geomagnetic cues.\u201d Such findings proved significant because moving salties from one place to another, a practice known as translocation, has been used in Queensland to manage potential safety risks posed by the animals. \u201cOur experiment showed that translocation was ineffective and extremely dangerous,\u201d Franklin says. Residents and tourists got a false sense that the waters were crocodile-free. The government abandoned its program in 2011. \u2026 \u201cIt\u2019s up to us to learn to live with crocs,\u201d she [Bindi] says. \u201cAfter all, they were here first.\u201d \u2014Franz Lidz excerpted and adapted from \u201cCrikey!\u201d Smithsonian, March 2015 8herpetologists \u2014 scientists who study reptiles and amphibians 80 85 75 Regents Exam in ELA \u2014 Jan. \u201924"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The implementation of \u201cCrocs in Space\u201d (line 53) is important to crocodile research because it",
+      "choices": [
+        "supports relocation efforts by predicting crocodile migratory paths",
+        "provides video and sound feedback of crocodile social interactions",
+        "is responsible for protecting researchers who study crocodile habitats",
+        "is capable of tracking and recording crocodile movements for several years"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "As used in line 64, \u201cGingerly\u201d most nearly means",
+      "choices": [
+        "quickly",
+        "eagerly",
+        "cautiously",
+        "separately"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The description of crocodile behavior in lines 56 through 68 contributes to a central idea by emphasizing the",
+      "choices": [
+        "responsibilities males share in raising their young",
+        "care females show in nurturing their young",
+        "subordinate role played by females",
+        "courtship rituals employed by males"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Lines 79 through 87 reveal that the practice of translocation in Queensland was ultimately",
+      "choices": [
+        "unsuccessful",
+        "practical",
+        "popular",
+        "uneconomical"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which statement best expresses a central idea of the text?",
+      "choices": [
+        "\u201cAboriginal people have traditionally hunted crocodiles for their meat\u201d (line 24)",
+        "\u201cOf the 23 crocodilian species, two inhabit the rivers, billabongs and mangrove swamps of the Australian tropics\u201d (lines 29 and 30)",
+        "\u201cAnd maybe, just maybe, someone listens and thinks, \u2018Dinosaurs are extinct! These guys are so precious\u2019 \u201d (lines 71 and 72)",
+        "\u201cResidents and tourists got a false sense that the waters were crocodile-free\u201d (lines 86 and 87) Regents Exam in ELA \u2014 Jan. \u201924 Part 2 Argument Directions: Closely read each of the four texts provided on pages 13 through 20 and write a source-based argument on the topic below. You may use the margins to take notes as you read and scrap paper to plan your response. Write your argument beginning on page 1 of your essay booklet. Topic: Should English curriculum focus on the classics? Your Task: Carefully read each of the four texts provided. Then, using evidence from at least three of the texts, write a well-developed argument regarding whether or not English curriculum should focus on the classics. Clearly establish your claim, distinguish your claim from alternate or opposing claims, and use specific, relevant, and sufficient evidence from at least three of the texts to develop your argument. Do not simply summarize each text. Guidelines: Be sure to: \u2022 Establish your claim regarding whether or not English curriculum should focus on the classics \u2022 Distinguish your claim from alternate or opposing claims \u2022 Use specific, relevant, and sufficient evidence from at least three of the texts to develop your argument \u2022 Identify each source that you reference by text number and line number(s) or graphic (for example: Text 1, line 4 or Text 2, graphic) \u2022 Organize your ideas in a cohesive and coherent manner \u2022 Maintain a formal style of writing \u2022 Follow the conventions of standard written English Texts: Text 1 \u2013 The Reading Wars: Choice vs. Canon Text 2 \u2013 Why Kids and Teens Need Diverse Books and Our Recommended Reads Text 3 \u2013 Classic Works of Literature Still Have a Place in Today\u2019s Classrooms Text 4 \u2013 Giving High School Students the Tools to Question Classic Literature Regents Exam in ELA \u2014 Jan. \u201924 Text 1 The Reading Wars: Choice vs. Canon1 The day I arrive for the school-wide \u201cRead-In\u201d this past spring, teenagers and books are covering every available surface in Jarred Amato\u2019s English classroom at Maplewood High School in Nashville, Tennessee\u2014flung across lived-in couches, desks, and chairs. But there\u2019s not a book one might traditionally identify as a \u201cclassic\u201d in sight, and that\u2019s by design. In the middle of the room, a group of girls are cracking open the third installment of March, the graphic novel by Rep. [Representative] John Lewis and Andrew Aydin about the civil rights movement, when a student pushes his way through. \u201cHey, get out of my way,\u201d he says playfully to the girls, grabbing a copy off the top of the stack. \u201cI\u2019ve wanted to read March!\u201d Things weren\u2019t always this way. Four years ago, when Amato arrived at Maplewood High, he assigned his freshmen Lord of the Flies\u2014a staple of high school lit [literature] classes for more than 50 years\u2014but he couldn\u2019t get students to read the book. \u201cIt\u2019s a classic for some reason, but I don\u2019t know what that reason is. Because it\u2019s not good,\u201d says Calvin, a graduating senior, who laughed when I asked if he finished it. Frustrated, Amato surveyed students about their reading preferences and found that most didn\u2019t know: They almost never read outside of school and generally had negative attitudes about reading. Many students felt like the books they were assigned at school didn\u2019t reflect their experiences, and featured characters who didn\u2019t look, think, or talk like them. The issue of a disconnect between young readers and the books they\u2019re assigned isn\u2019t new, though. Like previous generations, American middle and high school students have continued to spend English class reading from a similar and familiar list from the English and American literature canon: Steinbeck, Dickens, Fitzgerald, Alcott, and, of course, Shakespeare. But now, as social attitudes and population demographics2 have shifted, teachers across the country are saying that the disconnect between the canon and its intended audience has become an epidemic, driven by rapid changes in the composition of American schools and the emergence of always-on digital platforms that vie for kids\u2019 attention. By middle and high school, teachers concede, many of today\u2019s students simply aren\u2019t reading at all. \u2026 To Amato and a growing number of teachers, the solution has been to move away from classics in English class and instead let students choose the books they read, while encouraging literature that is more reflective of the demographics and experiences of students in America\u2019s classrooms. In teacher training programs, in professional publications, and throughout social media, choice reading has become a refrain that can sometimes sound like dogma,3 and for some it has become a call for advocacy.4 But while the student choice reading movement is growing, it is by no means universally accepted or supported in all classrooms. Other educators have warily pushed back on the approach, worrying that too much student choice is putting young adult (YA) and graphic novels\u2014not highly regarded and vetted5 literature\u2014at the center of the English literature curriculum. While not all books are enjoyable (or easy) to read, challenging books help boost 1canon \u2014 a collection of writings considered to be the most important or influential 2population demographics \u2014 characteristics such as age, gender, ethnicity, and socio-economic status 3dogma \u2014 accepted beliefs 4advocacy \u2014 support 5vetted \u2014 critically examined 5 10 15 20 25 30 35 Regents Exam in ELA \u2014 Jan. \u201924 students\u2019 comprehension and reading proficiency, they argue, and force them to grapple6 with difficult, timeless questions about love, life and death, and societal dynamics. \u2026 Doug Lemov, an educator and managing director of the Uncommon Schools charter network, tells me a story of visiting a special school for elite soccer athletes a few years ago. Looking around the room, he noticed that many students in their choice-based English classes had selected books about soccer. \u201cThey should not be reading books about soccer. All they know is soccer,\u201d says Lemov, who, along with coauthors Colleen Driggs and Erica Woolway, has written Reading Reconsidered, a book that pushes back on choice reading. Lemov believes that student choice reading has been overhyped by schools and makes a couple of assumptions that don\u2019t add up: First, that adolescents know enough about books to know what they like to read; and second, that there\u2019s greater power in the freedom to \u201cdo your own thing\u201d rather than in developing a deep understanding of what you\u2019re reading. \u2026 And though it may not foster a love of reading, the data also shows that teacher-led explicit instruction in reading a particular text (especially in different genres), combined with lots of reading, can reap four to eight times the payoff compared with students\u2019 choosing books and reading on their own, according to Timothy Shanahan, founding director of the Center for Literacy at the University of Illinois at Chicago. \u2026 Yet while the data suggests that we are failing to interest many of today\u2019s students in reading, it seems that educators are starting to find some equilibrium between choice and a regimented list of must-reads: Shakespeare can exist in class alongside books kids want to read. \u2026 \u2014Holly Korbey excerpted and adapted from \u201cThe Reading Wars: Choice vs. Canon\u201d www.edutopia.org, July 9, 2019 6grapple \u2014 struggle 45 40 50 55 60 Regents Exam in ELA \u2014 Jan. \u201924 Text 2 Why Kids and Teens Need Diverse Books and Our Recommended Reads Think back to your middle or high school English class and the books you read. Great Gatsby? Lord of the Flies? Maybe 1984 or Les Mis\u00e9rables? While those are all important works, the literary canon has long been dominated by white authors, white perspectives, white characters \u2014 and those voices are often male. There are so many other voices we need to hear from. \u2026 Diversity and engagement... Instead of perpetuating the idea that so-called \u201cclassics\u201d are the only literature belonging in classrooms \u2014 and steadily distancing our modern students from the joys of literature \u2014 isn\u2019t it time we ensure that the fiction we teach matches the world in which we live? In the last decade, the young adult and children\u2019s markets have noticeably expanded their offerings of diverse authors, characters, and stories. \u2026 It\u2019s logical to argue that students would be more engaged if they saw themselves represented in literature. After all, what is literature but a mirror of human experience? Reading the classics is wonderful, but solely providing stories about unrecognizable characters in time periods long past restricts the interconnection and inspiration our young people can and should feel from reading. \u201cIt\u2019s important that more books by authors of color featuring diverse characters make it into schools because all students (no matter their race, ethnicity, or sexual background) should be able to relate to the characters in novels and see that their culture is being represented in literature,\u201d says Tiffany Brownlee, author of Wrong in All the Right Ways, a modern YA retelling of Bront\u00eb\u2019s Wuthering Heights. \u201cAs a teacher, I always try to look for ways to include novels by authors of color in my curriculum to expose my students to different lifestyles and cultures that they wouldn\u2019t normally be exposed to. And you\u2019d be surprised at how high the level of engagement can rise when a student\u2019s race or culture is being taught in class. Let me just say, it soars!\u201d \u201cReading engagement is the foundation for building successful readers and a strong literacy environment,\u201d says Carrie Kondor, EdD, Associate Professor and Reading Endorsement Chair at Concordia University-Portland. \u201cDiverse books are an essential component of increasing reading achievement for all students because of engagement. As humans, we seek out and enjoy connections. Students must have the opportunity to engage in texts that relate to their experiences, their cultures, and their interests.\u201d Empathy1 and representation Studies have shown that reading fiction builds empathy. A 2013 study in the American Psychological Association\u2019s journal Psychology of Aesthetics, Creativity, and the Arts discovered that when readers visualize scenes while reading stories, there is an actual and measurable surge of empathy. Imagine then the impact if schools were full of diverse books \u2014 providing a literary peek into the lives of not only students themselves but of those around them. \u2026 Relevant stories for teens In the throes2 of adolescence, literature can deeply impact one\u2019s emotional development and the way you see the world. \u201cI think teen readers of realistic fiction want to read books where what is going on in the world is reflected back to them,\u201d says Ren\u00e9e Watson, author 1empathy \u2014 an understanding of others\u2019 feelings and experiences 2throes \u2014 struggle 20 25 30 35 10 5 15 Regents Exam in ELA \u2014 Jan. \u201924 of numerous books including Piecing Me Together, which received a Coretta Scott King Award and a Newbery Honor. \u201cAs an author, I want to create work that helps young people face and cope with reality, not escape it. I believe books that center around children who are often underrepresented in literature affirms their experiences and whispers to them, \u2018You are not alone, your story matters.\u2019\u201d In an era of technological devices and near-constant stimulation, diversity in literature may be a pathway toward keeping literature relevant. \u201cRelatable topics and topics of personal interest get teens to put down their phones and pick up a book. Anything that appeals to their personal lives and interests (romantic/friend-based/familial relationships/fantastical worlds/the LGBTQ community/etc.) makes a teen want to read,\u201d says author Tiffany Brownlee. \u201cWhen the teen can relate to what they\u2019re reading through the characters (with an emphasis on characters with diverse backgrounds), settings, or topics discussed in the book, it suddenly becomes so much more engaging for them. They get more out of a text when their diverse backgrounds are represented, and that\u2019s what\u2019s important. Not just getting them to read, but getting them to take something away from that experience, too.\u201d \u2014The Room 241 Team excerpted from \u201cWhy Kids and Teens Need Diverse Books and Our Recommended Reads\u201d https://education.cu-portland.edu, September 8, 2018 45 40 50 Regents Exam in ELA \u2014 Jan. \u201924 Text 3 Classic Works of Literature Still Have a Place in Today\u2019s Classrooms When introducing literature to a new class I ask two questions: \u201cWhy do we study it and what can we learn from it?\u201d Now, if you\u2019re a teacher you\u2019ll know that it\u2019s not always a smooth ride to the final destination, which is all part of the fun, but the answer we usually get to, albeit with teacher sat-nav [satellite-navigation] switched on, is that through literature, we can visit cultures impossible for us to experience ourselves. From our reading, we can begin to understand what it must have been like to live in a particular time, under certain conditions, in different parts of the world. But the best bit is that we can do all this while honing1 those oh-so-necessary and desired critical-thinking skills. And that\u2019s the point: that the study of literature in the contemporary classroom is, perhaps, even more relevant today than it has ever been. So, back in September when the Secret Teacher [a teacher blog] posted that the Alan Bennett monologue A Cream Cracker under the Settee [a literary work] was to be replaced in the curriculum by an episode of Waterloo Road [a British television series], it\u2019s not unimaginable that English teachers stood poised, quills aloft, ready to defend the body of work that has shaped the modern world, to the death. Well, to the staffroom and the discussion forums at least. \u2026 From the linguistic2 perspective, studying classic literature from the Western canon (Shakespeare, Dickens, Orwell and so on) affords students of English the opportunity to understand, analyse, and evaluate language quite different from their own. Structures, trends in punctuation and in the way we speak have evolved through the ages and being aware of these developments really helps us to understand better, language in its current context. If we didn\u2019t read and study texts from the past, and only looked to the best seller list, how would we know of this evolution? In my experience, pupils\u2019 creativity runs rampant3 when they can remix particular structures and styles with their own writing to lend authenticity to character, story, and setting. One of the challenges teachers face is the need to edge learners beyond their comfort zones but in doing so, we challenge their thinking and we bolster their confidence to become even more skilled in the use of their own language. Or as the CBI (Confederation of British Industry) might say, we\u2019re equipping them with essential skills for the real world. There are more benefits to the study of literature. Understanding a story through the experiences of a character enables us to feel what it could have been like and helps us consider the impact of events, significant or otherwise, on ordinary people. Gaining a broad view of society, through the eyes of another, fosters understanding, tolerance and empathy4 and the value of these capacities cannot be underestimated in today\u2019s world. Understanding the past does, we hope, prevent us from repeating the mistakes of our predecessors but, more than that, it helps us appreciate how attitudes have changed over time. This, in turn, promotes a deeper understanding of why we are who we are today. While we must safeguard the teaching of classic literature or risk depriving our young people of the wealth of knowledge, enjoyment and sense of heritage and history to be gained from our classics, we should also be open to the idea that more contemporary texts, of varying titles and formats, have a justifiable place in the curriculum too. 1honing \u2014 perfecting 2linguistic \u2014 the study of language 3rampant \u2014 wild 4empathy \u2014 an understanding of others\u2019 feelings and experiences 20 25 30 35 10 5 15 40 Regents Exam in ELA \u2014 Jan. \u201924 Any text, if taught well, will engage on some level or another. A few years ago I received a thank you card from a student at the end of her school career but it didn\u2019t convey the usual gratitude for helping her complete the course, or for getting her through the exam. It simply read: \u201cThank you for introducing me to beautiful literature \u2013 I have learned so much from it.\u201d And that golden moment is enough to convince me that great literature, from any time, is something that all our young people should be entitled to. That\u2019s the point. \u2014Sally Law excerpted and adapted from \u201cClassic Works of Literature Still Have a Place in Today\u2019s Classrooms\u201d www.theguardian.com, December 11, 2012 45 Regents Exam in ELA \u2014 Jan. \u201924 Text 4 Giving High School Students the Tools to Question Classic Literature Generations of students have read Shakespeare and Hemingway for high school literature class and Jeanne Dyches, assistant professor in Iowa State University\u2019s School of Education, would like students to question that tradition. \u201cAs a field, we need to think about how our disciplines are advancing certain stories, silencing certain stories and socializing our students to think that what we\u2019re teaching them is neutral,\u201d Dyches said. \u201cWe need to have a conversation around why certain texts are taught year after year.\u201d The titles often at the top of high school reading lists are considered \u201cclassics\u201d or required for \u201ccultural literacy,\u201d she said. However, the authors \u2014 typically white European men \u2014 do not reflect the diversity of students in the classroom. Dyches says assigning these texts without questioning issues of race or gender may exclude students who do not see themselves in the text, and make them feel their voices are not valued. This lack of questioning also normalizes the experiences of students who belong to dominant groups. That is why Dyches encourages educators to consider the ideology ingrained1 in the texts they assign, and give students the tools to question what they are reading. For a new paper, published by Harvard Educational Review, Dyches spent time in a high school literature class teaching students to critically examine and question the discipline of English language arts. \u2026 Her research found the lessons sharpened students\u2019 awareness and recognition of messages of power and oppression within classic literature. By the end of the study, 77 percent of students \u2014 a 27 percent increase \u2014 recognized the politicized nature of teaching these traditional texts. Dyches says while most students were uncomfortable talking about oppression and injustice in a specific text, students of color demonstrated more awareness of these issues. \u201cWe all have different experiences and reactions when we\u2019re having conversations that challenge us to question and consider race, gender, and sexuality and all the messy intersections,\u201d Dyches said. \u201cIt\u2019s OK for students who have never heard these things to still be grappling with their own racial understanding and social-cultural identity. But we must still create opportunities for students to learn, wrestle with and apply new critical lenses to their educational experiences and the world around them.\u201d Bland, yet timeless Dyches surveyed students at the beginning and end of the study to understand their perceptions and relationships with the texts they were reading in literature class. In their responses, students described the texts as \u201cbland and ineffective,\u201d adding that they \u201ccan\u2019t relate to any of it,\u201d yet they still considered the titles to be \u201ctimeless\u201d and important \u201cto improve upon their reading and writing skills.\u201d Dyches said students read the texts because they believed doing so would prepare them for college. Their responses illustrate a commonly held belief about the \u201cvalue\u201d of classic literature, which is based more on tradition than literary standards, Dyches said. The problem is students and educators alike do not think to question why this is the case. In fact, Dyches says until she started researching social justice issues, she was unaware of the historical perspectives and ideologies she promoted through the texts she assigned. 1ingrained \u2014 firmly established 20 25 30 35 40 10 5 15 Regents Exam in ELA \u2014 Jan. \u201924 Not only does she want to empower students to question what they\u2019re reading in class, Dyches also wants teachers to recognize the political context of their decisions. Educators, like all people, have different biases or beliefs, Dyches said. However, if teachers know this and address those biases in the classroom, she says that is a step in the right direction. \u201cWe\u2019re all political beings and whether you recognize it or not, you\u2019re always teaching from your belief systems. It\u2019s essential to recognize and understand how our ideas or beliefs influence our teaching. I would argue you\u2019re being just as political when you assign \u2018Macbeth\u2019 as when you assign \u2018The Hate U Give,\u2019\u201d Dyches said. \u2026 \u2014Iowa State University excerpted from \u201cGiving High School Students the Tools to Question Classic Literature\u201d www.sciencedaily.com, January 29, 2019 45 Regents Exam in ELA \u2014 Jan. \u201924 Part 3 Text-Analysis Response Your Task: Closely read the text provided on pages 22 and 23 and write a well-developed, text-based response of two to three paragraphs. In your response, identify a central idea in the text and analyze how the author\u2019s use of one writing strategy (literary element or literary technique or rhetorical device) develops this central idea. Use strong and thorough evidence from the text to support your analysis. Do not simply summarize the text. You may use the margins to take notes as you read and scrap paper to plan your response. Write your response in the spaces provided on pages 7 through 9 of your essay booklet. Guidelines: Be sure to: \u2022 Identify a central idea in the text \u2022 Analyze how the author\u2019s use of one writing strategy (literary element or literary technique or rhetorical device) develops this central idea. Examples include: characterization, conflict, denotation/connotation, metaphor, simile, irony, language use, point-of-view, setting, structure, symbolism, theme, tone, etc. \u2022 Use strong and thorough evidence from the text to support your analysis \u2022 Organize your ideas in a cohesive and coherent manner \u2022 Maintain a formal style of writing \u2022 Follow the conventions of standard written English Regents Exam in ELA \u2014 Jan. \u201924 Why Do We Fly? \u2026During the five or ten minutes I had watched the herd of game spread like a barbaric invasion across the plain, I had unconsciously observed, almost in their midst, a pool of water bright as a splinter from a glazier\u2019s1 table. \u2026 Like the date palm on the Russian steppes, this crystal pool in the arid roughness of the Serengetti was not only incongruous, it was impossible. And yet, without the slightest hesitation, I flew over it and beyond it until it was gone from sight and from my thoughts. There is no twilight in East Africa. Night tramps on the heels of Day with little gallantry and takes the place she lately held, in severe and humourless silence. Sounds of the things that live in the sun are quickly gone \u2014 and with them the sounds of roving aeroplanes, if their pilots have learned the lessons there are to learn about night weather, distances that seem never to shrink, and the perfidy2 of landing fields that look like aerodromes by day, but vanish in darkness. I watched small shadows creep from the rocks and saw birds in black flocks homeward bound to the scattered bush, and I began to consider my own home and a hot bath and food. Hope always persists beyond reason, and it seemed futile to nurse any longer the expectation of finding Woody with so much of the afternoon already gone. If he were not dead, he would of course light fires by night, but already my fuel was low, I had no emergency rations \u2014 and no sleep. I had touched my starboard rudder, altering my course east for Nairobi, when the thought first struck me that the shining bit of water I had so calmly flown over was not water at all, but the silvered wings of a Klemm monoplane bright and motionless in the path of the slanting sun. \u2026 But before considering any of this, I had already reversed my direction, lost altitude, and opened the throttle again. It was a race with racing shadows, a friendly trial between the sun and me. As I flew, my hunch became conviction. Nothing in the world, I thought, could have looked so much like reflecting water as the wings of Woody\u2019s plane. I remembered how bright those wings had been when last I saw them, freshly painted to shine like silver or stainless steel. Yet they were only of flimsy wood and cloth and hardened glue. The deception had amused Woody. \u2018All metal,\u2019 he would say, jerking a thumb toward the Klemm; \u2018all metal, except just the wings and fuselage3 and prop and little things like that. Everything else is metal \u2014 even the engine.\u2019 Even the engine! \u2014 as much of a joke to us as to the arrant winds of Equatorial Africa; a toy engine with bustling manner and frantic voice; an hysterical engine, guilty at last perhaps of what, in spite of Woody\u2019s jokes and our own, we all had feared. Now almost certainly guilty, I thought, for there at last was what I hunted \u2014 not an incredible pool of water, but, unmistakable this time, the Klemm huddled to earth like a shot bird, not crushed, but lifeless and alone, beside it no fire, not even a stick with a fluttering rag. \u2026 I throttled down, allowing just enough revs to prevent the ship from stalling at the slow speed required to land in so small a space. Flattening out and swinging the tail from side to side in order to get what limited vision I could at the ground below and directly ahead, I flew in gently and brought the Avian to earth in a surprisingly smooth run. I made a 1glazier\u2019s \u2014 glass cutter\u2019s 2perfidy \u2014 betrayal 3fuselage \u2014 body of the plane 20 25 30 35 10 5 15 40 Regents Exam in ELA \u2014 Jan. \u201924 mental note at the time that the take-off, especially if Woody were aboard, might be a good deal more difficult. But there was no Woody. I climbed out, got my dusty and dented water bottle from the locker, and walked over to the Klemm, motionless and still glittering in the late light. I stood in front of her wings and saw no sign of mishap, and heard nothing. There she rested, frail and feminine, against the rough, grey ground, her pretty wings unmarked, her propeller rakishly tilted, her cock- pit empty. \u2026 I found a path with the grass bent down and little stones scuffed from their hollows, and I followed it past some larger stones into a tangle of thorn trees. I shouted for Woody and got nothing but my own voice for an answer, but when I turned my head to shout again, I saw two boulders leaning together, and in the cleft they made were a pair of legs clothed in grimy work slacks and, beyond the legs, the rest of Woody, face down with his head in the crook of his arm. I went over to where he was, unscrewed the cap of the water bottle and leaned down and shook him. \u2026 Woody began to back out of the cleft of the rocks with a motion irrelevantly reminiscent4 of the delectable crayfish of the South of France. He was mumbling, and I recalled that men dying of thirst are likely to mumble and that what they want is water. I poured a few drops on the back of his neck as it appeared and got, for my pains, a startled grunt. It was followed by a few of those exquisite words common to the vocabularies of sailors, airplane pilots, and stevedores \u2014 and then abruptly Woody was sitting upright on the ground, his face skinny beneath a dirty beard, his lips cinder-dry and split, his eyes red-rimmed and sunk in his cheeks. He was a sick man and he was grinning. \u2026 \u2018Why do we fly?\u2019 said Woody. \u2018We could do other things. We could work in offices, or have farms, or get into the Civil Service. We could\u2026\u2019 \u2018We could give up flying tomorrow. You could, anyhow. You could walk away from your plane and never put your feet on a rudder bar again. You could forget about weather and night flights and forced landings, and passengers who get airsick, and spare parts that you can\u2019t find, and wonderful new ships that you can\u2019t buy. You could forget all that and go off somewhere away from Africa and never look at an aerodrome again. You might be a very happy man, so why don\u2019t you?\u2019 \u2018I couldn\u2019t bear it,\u2019 said Woody. \u2018It would all be so dull.\u2019 \u2026 \u2014Beryl Markham \u201cWhy Do We Fly?\u201d excerpted from West With the Night, 2013 North Point Press 4reminiscent \u2014 suggestive 45 50 55 60 65 70 75 REGENTS IN ELA REGENTS IN ELA Printed on Recycled Paper"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    }
+  ]
+}

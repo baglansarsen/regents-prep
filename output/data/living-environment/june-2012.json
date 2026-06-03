@@ -1,0 +1,1071 @@
+{
+  "subject": "living-environment",
+  "session": "june-2012",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "One characteristic of all living things is that they",
+      "choices": [
+        "develop organ systems",
+        "produce identical offspring",
+        "maintain internal stability",
+        "synthesize only inorganic matter"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The diagram below represents interactions between organisms in a stable ecosystem. Which statement correctly describes organisms in this ecosystem?",
+      "choices": [
+        "Organisms in level B obtain their energy directly from the Sun.",
+        "Organisms in level C obtain their nutrients directly from organisms in level D.",
+        "Organisms in level A are herbivores.",
+        "Organisms in level D are heterotrophic."
+      ],
+      "image": "/images/exams/living-environment/june-2012/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Due to overfishing, the number of fish in the ocean could drastically decrease. This will cause",
+      "choices": [
+        "an increase in the stability of the oceans",
+        "an increase in the salt content of the oceans",
+        "a decrease in the stability of the oceans",
+        "a decrease in the oxygen available in the oceans"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which substance can enter a cell by diffusion without having to be digested?",
+      "choices": [
+        "water",
+        "protein",
+        "starch",
+        "fat"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "A single-celled organism is represented below. Structure X carries out a function most similar to which structure in a human?",
+      "choices": [
+        "lung",
+        "brain",
+        "ovary",
+        "heart"
+      ],
+      "image": "/images/exams/living-environment/june-2012/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Parrots are tropical birds. However, in some areas of New York City, some parrots have been able to survive outdoors year-round. These parrots survive, while most others cannot, due to",
+      "choices": [
+        "overproduction of offspring",
+        "extinction of previous species",
+        "asexual reproduction of parrots with a mutation",
+        "a variation that allows these parrots to live in colder climates"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Changing one base in a gene could have the most direct effect on the",
+      "choices": [
+        "function of the membrane of a cell",
+        "sequence of building blocks of a protein found in a cell",
+        "number of mitochondria in a cell",
+        "type of carbohydrates synthesized by a cell"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "An alteration of genetic information is shown below. A-G-T-A-C-C-G-A-T \u2192A-G-T-G-A-T This type of alteration of the genetic information is an example of",
+      "choices": [
+        "deletion",
+        "insertion",
+        "substitution",
+        "recombination X D C B A"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The table below shows adaptations in two organisms. Environmental Adaptations The presence of these adaptations is most likely the result of",
+      "choices": [
+        "reproductive technology",
+        "natural selection",
+        "asexual reproduction",
+        "human interference"
+      ],
+      "image": "/images/exams/living-environment/june-2012/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The diagram below represents an activity that occurs in the human body. This diagram best illustrates",
+      "choices": [
+        "active transport",
+        "maintenance of homeostasis",
+        "synthesis of nutrients",
+        "differentiation"
+      ],
+      "image": "/images/exams/living-environment/june-2012/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "In which row in the chart below is a human action correctly paired with its environmental impact? Row Human Action Environmental Impact",
+      "choices": [
+        "deforestation increased biodiversity",
+        "population growth increased number of species",
+        "industrialization increased global temperature",
+        "overharvesting increased mineral resources A person exercises and body temperature increases. Body temperature decreases. Small blood vessels near the surface of the skin increase in diameter. \u2192 \u2192"
+      ],
+      "image": "/images/exams/living-environment/june-2012/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A laboratory technique is represented in the diagram below. Letter A represents a process. Which specific chemicals are needed to success- fully carry out the process shown at A?",
+      "choices": [
+        "receptor molecules",
+        "carbohydrates",
+        "enzymes",
+        "starch molecules"
+      ],
+      "image": "/images/exams/living-environment/june-2012/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The diagram below represents genetic material. The expression of the section labeled X may be modified by",
+      "choices": [
+        "temperature, only",
+        "asexual reproduction",
+        "the environment",
+        "pH, only"
+      ],
+      "image": "/images/exams/living-environment/june-2012/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Characteristics that are harmful to a species tend to decrease in frequency from generation to generation because these characteristics usually",
+      "choices": [
+        "have a high survival value for the species",
+        "have a low survival value for the species",
+        "are inherited by more individuals",
+        "affect only the older members of the population"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which situation results in a characteristic that is inheritable?",
+      "choices": [
+        "A limb is lost when two marine organisms fight.",
+        "A puppy learns to beg for food by watching an older dog perform tricks.",
+        "A gene is inserted into a bacterium, allowing the organism to produce insulin.",
+        "A random mutation causes the immediate death of a microbe."
+      ],
+      "image": "/images/exams/living-environment/june-2012/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which statement best describes bat populations in a stable ecosystem?",
+      "choices": [
+        "They are held in check by environmental factors.",
+        "They are producers that rely indirectly on other producers.",
+        "They are not limited by natural predators.",
+        "They are not dependent on other species."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which characteristic of a geographic region would have the greatest influence on the type of ecosystem that forms in that region?",
+      "choices": [
+        "ratio of autotrophs to heterotrophs",
+        "concentration of atmospheric oxygen",
+        "number of food chains",
+        "climatic conditions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A scientist claimed that he had cloned a guinea pig to produce two offspring, a male and a female. The claim is not valid because",
+      "choices": [
+        "guinea pigs can reproduce both sexually and asexually",
+        "the two offspring are not identical copies of the original guinea pig",
+        "each of the offspring had half the genetic information of the original guinea pig",
+        "none of the genetic information came from the original guinea pig"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The major function of the placenta is to",
+      "choices": [
+        "cushion the fetus so it won\u2019t be hurt when the mother moves",
+        "exchange food, oxygen, and waste between mother and fetus",
+        "store food for the fetus",
+        "support the egg for the process of fertilization X DNA Cell 1 Cell 2 A Cell 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "During the process of photosynthesis, energy from the Sun is converted into",
+      "choices": [
+        "chemical energy in the bonds of inorganic molecules",
+        "chemical energy in the bonds of organic molecules",
+        "enzymes used to produce inorganic molecules",
+        "enzymes used to produce organic molecules"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A pesticide that kills an insect by interfering with the production of proteins in the insect would most directly affect the activity of",
+      "choices": [
+        "ribosomes",
+        "minerals",
+        "chloroplasts",
+        "mitochondria"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "When two different bird species temporarily occupy the same niche, they would most likely",
+      "choices": [
+        "change their nesting behaviors",
+        "not affect one another",
+        "interbreed to form a new species",
+        "compete with one another"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which group would most likely be represented in a food chain?",
+      "choices": [
+        "biotic factors",
+        "abiotic factors",
+        "inorganic compounds",
+        "finite resources"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which statement describes a similarity between all enzymes, antibodies, and hormones?",
+      "choices": [
+        "Their chemical structure is critical to their ability to function.",
+        "Their ability to replicate identical copies ensures continuation of the species.",
+        "They work better at 100\u00b0C than 37\u00b0C.",
+        "They are made by and carried by the blood."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "The diagram below represents a cycling of materials. Which row in the chart below shows the substances represented by X and Y?",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Over a long period of time, the stages represented in the diagram below were each present in a particular ecosystem. After a forest fire, what is the most likely order in which these stages appeared?",
+      "choices": [
+        "oxygen carbon dioxide",
+        "glucose oxygen",
+        "carbon dioxide oxygen",
+        "amino acids carbon dioxide Plant X Human Y"
+      ],
+      "image": "/images/exams/living-environment/june-2012/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "A ski resort installed a wind turbine similar to those represented below to supply some of its energy needs. This turbine was most likely installed because wind power is",
+      "choices": [
+        "renewable and does substantial damage to the atmosphere",
+        "renewable and does minimal damage to the atmosphere",
+        "nonrenewable and does substantial damage to the atmosphere",
+        "nonrenewable and does minimal damage to the atmosphere"
+      ],
+      "image": "/images/exams/living-environment/june-2012/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which activity would reduce biodiversity in a forest ecosystem?",
+      "choices": [
+        "adding plants that are naturally resistant to insects",
+        "protecting wildflowers from logging activities",
+        "replacing harvested trees with young trees that are naturally found in the forest",
+        "clearing a large area and planting one species of hardwood tree that can be used for lumber"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "An increase in the amount of ultraviolet light entering the atmosphere through holes in the ozone layer will most likely",
+      "choices": [
+        "reduce the rate of photosynthesis in fungi",
+        "result in rapid recycling of finite resources",
+        "prevent animal migration",
+        "cause an increase in the rate of certain mutations"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Many scientists suggest that billions of years ago, life on Earth began with",
+      "choices": [
+        "simple, single-celled organisms",
+        "simple, multicellular organisms",
+        "complex, single-celled organisms",
+        "complex,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The failure of a cell to react in a normal manner to insulin is most likely the result of a problem with",
+      "choices": [
+        "vacuoles",
+        "receptors",
+        "mitochondria",
+        "sugars"
+      ],
+      "image": "/images/exams/living-environment/june-2012/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the\ninformation below and on your knowledge of biology.\nDiabetes is a condition characterized by \nelevated blood sugar levels. One form of \ndiabetes occurs when insulin fails to properly \nregulate blood sugar levels. Complications from\ndiabetes can include nerve cell damage and\npoor blood flow, especially in the feet and legs.\nIn individuals with diabetes, wounds usually\ntake longer than normal to heal.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "One reason for the change in wound healing time in a diabetic is that",
+      "choices": [
+        "elevated hormone levels block the synthesis of glucose in immune cells",
+        "nerve damage increases absorption of glucose by healthy cells",
+        "poor circulation reduces the supply of nutri- ents and oxygen to the cells",
+        "decreased enzyme production slows protein synthesis in pancreatic cells"
+      ],
+      "image": "/images/exams/living-environment/june-2012/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the\ninformation below and on your knowledge of biology.\nDiabetes is a condition characterized by \nelevated blood sugar levels. One form of \ndiabetes occurs when insulin fails to properly \nregulate blood sugar levels. Complications from\ndiabetes can include nerve cell damage and\npoor blood flow, especially in the feet and legs.\nIn individuals with diabetes, wounds usually\ntake longer than normal to heal.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a series of events that occur in living cells. Which molecule is indicated by X?",
+      "choices": [
+        "glucose",
+        "ATP",
+        "carbon dioxide",
+        "protein"
+      ],
+      "image": "/images/exams/living-environment/june-2012/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Which structure produces the male hormone responsible for characteristics such as muscle development, deep voice, and gamete production?",
+      "choices": [
+        "A",
+        "B",
+        "E",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/june-2012/context_34_35.png",
+      "context": "Base your answers to questions 34 and 35 on the\ndiagram below and on your knowledge of biology.\nThe letters in the diagram indicate structures present\nin a human male.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "What change would occur immediately if both structures labeled B were damaged or blocked?",
+      "choices": [
+        "Structure A would decrease in size.",
+        "The blood supply to structure E would decrease.",
+        "Gametes would no longer be transported to structure C.",
+        "Structure D would be able to deliver more gametes."
+      ],
+      "image": "/images/exams/living-environment/june-2012/context_34_35.png",
+      "context": "Base your answers to questions 34 and 35 on the\ndiagram below and on your knowledge of biology.\nThe letters in the diagram indicate structures present\nin a human male.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which term refers to the ecological niche of many bacteria and fungi in an ecosystem?",
+      "choices": [
+        "decomposer",
+        "herbivore",
+        "producer",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a model of a biological process that occurs in humans at normal body temperature, 37\u00b0C. Increasing body temperature to 40\u00b0C would interfere most directly with the rate of function of structure",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/june-2012/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "A process that could be represented by A is",
+      "choices": [
+        "fertilization",
+        "meiosis",
+        "mitosis",
+        "mutation"
+      ],
+      "image": "/images/exams/living-environment/june-2012/context_38_39.png",
+      "context": "Base your answers to questions 38 and 39 on the diagram below and on your knowledge of biology. The \ndiagram represents the reproductive cycle of a squirrel species with 40 chromosomes in each zygote.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "A liver cell in this species of squirrel would have",
+      "choices": [
+        "20 chromosomes",
+        "40 chromosomes",
+        "60 chromosomes",
+        "80 chromosomes"
+      ],
+      "image": "/images/exams/living-environment/june-2012/context_38_39.png",
+      "context": "Base your answers to questions 38 and 39 on the diagram below and on your knowledge of biology. The \ndiagram represents the reproductive cycle of a squirrel species with 40 chromosomes in each zygote.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "A sample of body cells and samples of sex cells received from four members of a species are screened for the presence of a specific gene mutation. The results of the gene-testing procedure conducted on the cells are shown in the table below. Which species member would be unlikely to pass the gene mutation on to its offspring?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4 1 + + 2 + + 3 \u2212 + 4 + \u2212 Body Cells Sperm Egg Type of Cells Tested and the Result (+ = mutation present, \u2212= mutation absent) Species Member Tested A B C +"
+      ],
+      "image": "/images/exams/living-environment/june-2012/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Wombats are classified as herbivores because they can",
+      "choices": [
+        "get energy from the Sun",
+        "provide energy for the kookaburras",
+        "get nutrition from the grasses and sedges",
+        "provide nutrition for the kangaroos"
+      ],
+      "image": "/images/exams/living-environment/june-2012/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the diagram below and on your knowledge of biology. The\ndiagram represents an energy pyramid for an ecosystem in the Australian outback.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which two organisms could have a predator-prey relationship?",
+      "choices": [
+        "kookaburras and gum trees",
+        "kangaroos and silky mice",
+        "dingos and kangaroo grasses",
+        "wedge-tailed eagles and wombats"
+      ],
+      "image": "/images/exams/living-environment/june-2012/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the diagram below and on your knowledge of biology. The\ndiagram represents an energy pyramid for an ecosystem in the Australian outback.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Dingos are an introduced species in Australia that are outcompeting many native species. Which of the cur- rent environmental problems most likely resulted directly from the introduction of dingos to Australia?",
+      "choices": [
+        "vanishing of kangaroo grasses",
+        "near extinction of wallabies",
+        "forests overrun with koalas",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2012/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the diagram below and on your knowledge of biology. The\ndiagram represents an energy pyramid for an ecosystem in the Australian outback.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Label the x-axis. Be sure to include units.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nDaphnia (water fleas) are sensitive to many changes in pond ecosystems. For this \nreason they are often used in bioassays, tests in which organisms are exposed to various \nlevels of a chemical to determine what levels are safe. The results of these tests determine\nwhether or not the chemical being tested will affect other pond organisms.\nAn experiment was designed to determine the toxicity of different salt solutions on \ncultures of daphnia. Five fish tanks were each filled with the same amount of water \ncontaining different concentrations of salt. Ten daphnia were placed into each tank. After\n48 hours, the number of daphnia that had survived and the number of daphnia that had\ndied in each tank were recorded and the percent mortality was calculated. The results of\nthe experiment are shown in the data table below.\nEffect of Salt Concentration on Daphnia After 48 Hours\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next\npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks, on each axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nDaphnia (water fleas) are sensitive to many changes in pond ecosystems. For this \nreason they are often used in bioassays, tests in which organisms are exposed to various \nlevels of a chemical to determine what levels are safe. The results of these tests determine\nwhether or not the chemical being tested will affect other pond organisms.\nAn experiment was designed to determine the toxicity of different salt solutions on \ncultures of daphnia. Five fish tanks were each filled with the same amount of water \ncontaining different concentrations of salt. Ten daphnia were placed into each tank. After\n48 hours, the number of daphnia that had survived and the number of daphnia that had\ndied in each tank were recorded and the percent mortality was calculated. The results of\nthe experiment are shown in the data table below.\nEffect of Salt Concentration on Daphnia After 48 Hours\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next\npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Plot the data for mortality on the grid. Surround each point with a small circle and connect the points. Example: Salt Concentration (g/L) Number that Survived Number that Died Mortality (%) 0.63 8 2 20 1.25 7 3 30 2.5 10 0 0 5.0 3 7 70 10.0 0 10 100",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nDaphnia (water fleas) are sensitive to many changes in pond ecosystems. For this \nreason they are often used in bioassays, tests in which organisms are exposed to various \nlevels of a chemical to determine what levels are safe. The results of these tests determine\nwhether or not the chemical being tested will affect other pond organisms.\nAn experiment was designed to determine the toxicity of different salt solutions on \ncultures of daphnia. Five fish tanks were each filled with the same amount of water \ncontaining different concentrations of salt. Ten daphnia were placed into each tank. After\n48 hours, the number of daphnia that had survived and the number of daphnia that had\ndied in each tank were recorded and the percent mortality was calculated. The results of\nthe experiment are shown in the data table below.\nEffect of Salt Concentration on Daphnia After 48 Hours\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next\npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which salt concentration was most toxic to the daphnia in this experiment?",
+      "choices": [
+        "1.25 g/L",
+        "2.5 g/L",
+        "5.0 g/L",
+        "10.0 g/L"
+      ],
+      "image": "/images/exams/living-environment/june-2012/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nDaphnia (water fleas) are sensitive to many changes in pond ecosystems. For this \nreason they are often used in bioassays, tests in which organisms are exposed to various \nlevels of a chemical to determine what levels are safe. The results of these tests determine\nwhether or not the chemical being tested will affect other pond organisms.\nAn experiment was designed to determine the toxicity of different salt solutions on \ncultures of daphnia. Five fish tanks were each filled with the same amount of water \ncontaining different concentrations of salt. Ten daphnia were placed into each tank. After\n48 hours, the number of daphnia that had survived and the number of daphnia that had\ndied in each tank were recorded and the percent mortality was calculated. The results of\nthe experiment are shown in the data table below.\nEffect of Salt Concentration on Daphnia After 48 Hours\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next\npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Which salt concentration is most likely closest to the concentration of salt found in the natural environment of this species of daphnia? Support your answer. Salt concentration:_______________________ g/L Effect of Salt Concentration on Daphnia After 48",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nDaphnia (water fleas) are sensitive to many changes in pond ecosystems. For this \nreason they are often used in bioassays, tests in which organisms are exposed to various \nlevels of a chemical to determine what levels are safe. The results of these tests determine\nwhether or not the chemical being tested will affect other pond organisms.\nAn experiment was designed to determine the toxicity of different salt solutions on \ncultures of daphnia. Five fish tanks were each filled with the same amount of water \ncontaining different concentrations of salt. Ten daphnia were placed into each tank. After\n48 hours, the number of daphnia that had survived and the number of daphnia that had\ndied in each tank were recorded and the percent mortality was calculated. The results of\nthe experiment are shown in the data table below.\nEffect of Salt Concentration on Daphnia After 48 Hours\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next\npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The immune system of an individual who is allergic to dust mite waste produces",
+      "choices": [
+        "specialized chemicals that mark dust mite waste for destruction",
+        "viruses that combat dust mites",
+        "white blood cells that attack human skin cells",
+        "white blood cells that attack the skin cells of cats and dogs"
+      ],
+      "image": "/images/exams/living-environment/june-2012/context_49_51.png",
+      "context": "Base your answers to questions 49 through 51 on the information below and on your knowledge of biology.\nBeware of Dust Mites\nQuietly lurking within our mattresses, under our beds, and\ninside sofas and carpets are creatures too small to be seen with-\nout a microscope. Dust mites are arthropods closely related to\nspiders, scorpions, and ticks. They feed on the dead skin cells\nregularly shed by humans and their animal pets. The average\nhuman sheds about 10 grams of dead skin a week. Cats and\ndogs create even more dander for dust mites to eat. The mites\nalso eat pollen, fungi, and bacteria. They do not drink water but\nabsorb it from the air.\nDust mites do not carry diseases and are harmless to most\npeople. It\u2019s their bathroom habits that make some of us itch and\nsneeze. Many people develop severe allergies to dust mite feces\n(wastes). If you lie on a rug where dust mites live, you might\ndevelop itchy red bumps on your skin. Breathe in dust containing their feces and you might\nhave more serious symptoms, such as difficulty breathing or a severe asthma attack.\nDust mites thrive in warm, humid environments \u2014 eating and nesting in dust-collecting\nbedding, fabric, and carpet. Think about this! A typical mattress can contain anywhere from\n100,000 to 10 million dust mites. Nearly 100,000 dust mites can live in one square yard of\ncarpet.\nDuring a process called sensitization, a person\u2019s immune system mistakenly identifies\nthe inhaled dust mite waste as an invader. The next time the person is exposed to the dust\nmite waste, the immune system launches an allergic reaction.\nNote: The answers to questions 49 and 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "An allergic reaction occurs when the immune system",
+      "choices": [
+        "does not respond to pathogens",
+        "maintains homeostasis",
+        "responds to usually harmless environmental substances",
+        "undergoes rapid, uncontrolled cell division"
+      ],
+      "image": "/images/exams/living-environment/june-2012/context_49_51.png",
+      "context": "Base your answers to questions 49 through 51 on the information below and on your knowledge of biology.\nBeware of Dust Mites\nQuietly lurking within our mattresses, under our beds, and\ninside sofas and carpets are creatures too small to be seen with-\nout a microscope. Dust mites are arthropods closely related to\nspiders, scorpions, and ticks. They feed on the dead skin cells\nregularly shed by humans and their animal pets. The average\nhuman sheds about 10 grams of dead skin a week. Cats and\ndogs create even more dander for dust mites to eat. The mites\nalso eat pollen, fungi, and bacteria. They do not drink water but\nabsorb it from the air.\nDust mites do not carry diseases and are harmless to most\npeople. It\u2019s their bathroom habits that make some of us itch and\nsneeze. Many people develop severe allergies to dust mite feces\n(wastes). If you lie on a rug where dust mites live, you might\ndevelop itchy red bumps on your skin. Breathe in dust containing their feces and you might\nhave more serious symptoms, such as difficulty breathing or a severe asthma attack.\nDust mites thrive in warm, humid environments \u2014 eating and nesting in dust-collecting\nbedding, fabric, and carpet. Think about this! A typical mattress can contain anywhere from\n100,000 to 10 million dust mites. Nearly 100,000 dust mites can live in one square yard of\ncarpet.\nDuring a process called sensitization, a person\u2019s immune system mistakenly identifies\nthe inhaled dust mite waste as an invader. The next time the person is exposed to the dust\nmite waste, the immune system launches an allergic reaction.\nNote: The answers to questions 49 and 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State one way, other than using a pesticide, that an individual could decrease the number of dust mites present in his home.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_49_51.png",
+      "context": "Base your answers to questions 49 through 51 on the information below and on your knowledge of biology.\nBeware of Dust Mites\nQuietly lurking within our mattresses, under our beds, and\ninside sofas and carpets are creatures too small to be seen with-\nout a microscope. Dust mites are arthropods closely related to\nspiders, scorpions, and ticks. They feed on the dead skin cells\nregularly shed by humans and their animal pets. The average\nhuman sheds about 10 grams of dead skin a week. Cats and\ndogs create even more dander for dust mites to eat. The mites\nalso eat pollen, fungi, and bacteria. They do not drink water but\nabsorb it from the air.\nDust mites do not carry diseases and are harmless to most\npeople. It\u2019s their bathroom habits that make some of us itch and\nsneeze. Many people develop severe allergies to dust mite feces\n(wastes). If you lie on a rug where dust mites live, you might\ndevelop itchy red bumps on your skin. Breathe in dust containing their feces and you might\nhave more serious symptoms, such as difficulty breathing or a severe asthma attack.\nDust mites thrive in warm, humid environments \u2014 eating and nesting in dust-collecting\nbedding, fabric, and carpet. Think about this! A typical mattress can contain anywhere from\n100,000 to 10 million dust mites. Nearly 100,000 dust mites can live in one square yard of\ncarpet.\nDuring a process called sensitization, a person\u2019s immune system mistakenly identifies\nthe inhaled dust mite waste as an invader. The next time the person is exposed to the dust\nmite waste, the immune system launches an allergic reaction.\nNote: The answers to questions 49 and 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "A small village that is heavily infested with mosquitoes was sprayed with an insecticide once a week for several months. Changes in the size of the mosquito population are shown in the graph below. State one way that the population of mosquitoes present 7 months after spraying differs genetically from the population of mosquitoes present before the spraying began.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/q52.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "The diagram below shows a branching \u201ctree\u201d representing the evolution of ten different groups of organisms alive today. Identify the group of organisms that is most closely related to the Arthropoda group. Support your answer. Group of organisms:_______________________ Daily Mosquito Count 10,000 5,000 0 0 1 2 3 4 5 6 7 8",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/q53.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify which species population would most likely have the greatest competition among its members. Support your answer using information from the graph. Species number:_______________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the information and graph below and on your knowledge of\nbiology. The graph contains information about an ecosystem.\nThe graph below shows the carrying capacities of an ecosystem for three different\nspecies, 1, 2, and 3, that inhabit an area and the actual population sizes of these three \ndifferent species in the area.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Explain how an ecosystem can have three different carrying capacities. Species Key Carrying capacity 1 2 3",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the information and graph below and on your knowledge of\nbiology. The graph contains information about an ecosystem.\nThe graph below shows the carrying capacities of an ecosystem for three different\nspecies, 1, 2, and 3, that inhabit an area and the actual population sizes of these three \ndifferent species in the area.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "State one way the contents of the control tank would differ from the contents of the three experimental tanks.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 60 on the information below and on your knowledge of biology.\nA chemical known as fertex affects external fertilization of sea urchin eggs. An experi-\nment was set up using three tanks to investigate the effect of fertex. Each tank had a \ndifferent concentration of fertex: 1%, 2%, and 3%. Ten sea urchin eggs and 2 mL of sea\nurchin sperm were added to each of the three tanks. A fourth tank was set up as a control.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Identify two factors that must be kept the same in all four tanks. Factor 1: Factor 2:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 60 on the information below and on your knowledge of biology.\nA chemical known as fertex affects external fertilization of sea urchin eggs. An experi-\nment was set up using three tanks to investigate the effect of fertex. Each tank had a \ndifferent concentration of fertex: 1%, 2%, and 3%. Ten sea urchin eggs and 2 mL of sea\nurchin sperm were added to each of the three tanks. A fourth tank was set up as a control.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "State one way to improve the validity of the experimental results.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 60 on the information below and on your knowledge of biology.\nA chemical known as fertex affects external fertilization of sea urchin eggs. An experi-\nment was set up using three tanks to investigate the effect of fertex. Each tank had a \ndifferent concentration of fertex: 1%, 2%, and 3%. Ten sea urchin eggs and 2 mL of sea\nurchin sperm were added to each of the three tanks. A fourth tank was set up as a control.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Identify the independent variable in the experiment.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 60 on the information below and on your knowledge of biology.\nA chemical known as fertex affects external fertilization of sea urchin eggs. An experi-\nment was set up using three tanks to investigate the effect of fertex. Each tank had a \ndifferent concentration of fertex: 1%, 2%, and 3%. Ten sea urchin eggs and 2 mL of sea\nurchin sperm were added to each of the three tanks. A fourth tank was set up as a control.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "State one example of the type of data that should be collected during the experiment.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 60 on the information below and on your knowledge of biology.\nA chemical known as fertex affects external fertilization of sea urchin eggs. An experi-\nment was set up using three tanks to investigate the effect of fertex. Each tank had a \ndifferent concentration of fertex: 1%, 2%, and 3%. Ten sea urchin eggs and 2 mL of sea\nurchin sperm were added to each of the three tanks. A fourth tank was set up as a control.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_61_63.png",
+      "context": "Base your answer to question 61\u201363 on the information below and on your knowledge of biology.\n61\u201363 In order to enroll in most schools, students must be vaccinated against certain viral diseases, such as\nmumps. Even with these vaccinations, many students still suffer from other diseases. Discuss how a\nvaccination works and why some students still become infected with other diseases. In your answer, be\nsure to:\n\u2022 identify what is present in a vaccine that stimulates an immune response   [1]\n\u2022 describe how a vaccine protects against disease   [1]\n\u2022 state why a student vaccinated against mumps can still be infected by the pathogens that cause other\ndiseases, such as chicken pox   [1]\n64 Recently, the bison population in Yellowstone National Park declined significantly. This was due in part\nto a particularly harsh winter. State one reason why a harsh winter would have this negative effect on\nthe bison population.   [1]\n65 People who live in rural areas often use septic tanks for the storage of sewage. These people often flush\na product containing harmless bacteria down the toilet once a month. These bacteria break down the\nsewage before it enters the environment. State one ecologically sound reason for this action.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "61\u201363 In order to enroll in most schools, students must be vaccinated against certain viral diseases, such as mumps. Even with these vaccinations, many students still suffer from other diseases. Discuss how a vaccination works and why some students still become infected with other diseases. In your answer, be sure to: \u2022 identify what is present in a vaccine that stimulates an immune response \u2022 describe how a vaccine protects against disease \u2022 state why a student vaccinated against mumps can still be infected by the pathogens that cause other diseases, such as chicken pox",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_61_63.png",
+      "context": "Base your answer to question 61\u201363 on the information below and on your knowledge of biology.\n61\u201363 In order to enroll in most schools, students must be vaccinated against certain viral diseases, such as\nmumps. Even with these vaccinations, many students still suffer from other diseases. Discuss how a\nvaccination works and why some students still become infected with other diseases. In your answer, be\nsure to:\n\u2022 identify what is present in a vaccine that stimulates an immune response   [1]\n\u2022 describe how a vaccine protects against disease   [1]\n\u2022 state why a student vaccinated against mumps can still be infected by the pathogens that cause other\ndiseases, such as chicken pox   [1]\n64 Recently, the bison population in Yellowstone National Park declined significantly. This was due in part\nto a particularly harsh winter. State one reason why a harsh winter would have this negative effect on\nthe bison population.   [1]\n65 People who live in rural areas often use septic tanks for the storage of sewage. These people often flush\na product containing harmless bacteria down the toilet once a month. These bacteria break down the\nsewage before it enters the environment. State one ecologically sound reason for this action.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Recently, the bison population in Yellowstone National Park declined significantly. This was due in part to a particularly harsh winter. State one reason why a harsh winter would have this negative effect on the bison population.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "People who live in rural areas often use septic tanks for the storage of sewage. These people often flush a product containing harmless bacteria down the toilet once a month. These bacteria break down the sewage before it enters the environment. State one ecologically sound reason for this action.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_66_68.png",
+      "context": "Base your answer to question 66\u201368 on the information below and on your knowledge of biology.\nOfficials OK Insect Release To Control Invasive Vine\nThe U.S. federal government has approved the release of a non-indigenous [nonnative]\ninsect on Guam and in the Northern Marianas to control the rapid spread of a vine that is\ncovering forests like a blanket, the Saipan Tribune reports.\nThe U.S. Department of Agriculture has given the green light to breed and release the\nHeteropsylla spinulosa insect, which eats the Mimosa dilotricha [diplotricha] vine. The fast-\nspreading plant is found in many Pacific Islands, but is particularly widespread in the\nNorthern Marianas and on Guam. It usually kills the trees and shrubs that it covers.\nOfficials will collect the insect from Pohnpei, in the Federated States of Micronesia,\nPalau and Australia.\nSource:  \u201cOfficials OK Insect Release To Control Invasive Vine,\u201d 4/2/08,\nwww.saipantribune.com\n66\u201368 Discuss the advantages of using the insect to control the rapid spread of the Mimosa diplotricha vine\non Guam and the Northern Marianas. In your answer, be sure to:\n\u2022 state one possible way the Mimosa diplotricha vine kills trees and shrubs   [1]\n\u2022 identify one location from which the Heteropsylla spinulosa insect will be collected   [1]\n\u2022 explain why releasing the insect might be safer than spraying chemicals to kill the vine   [1]\nLiving Environment\u2013June \u201912\n[17]\n[OVER]\n\nLiving Environment\u2013June \u201912\n[18]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "66\u201368 Discuss the advantages of using the insect to control the rapid spread of the Mimosa diplotricha vine on Guam and the Northern Marianas. In your answer, be sure to: \u2022 state one possible way the Mimosa diplotricha vine kills trees and shrubs \u2022 identify one location from which the Heteropsylla spinulosa insect will be collected \u2022",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_66_68.png",
+      "context": "Base your answer to question 66\u201368 on the information below and on your knowledge of biology.\nOfficials OK Insect Release To Control Invasive Vine\nThe U.S. federal government has approved the release of a non-indigenous [nonnative]\ninsect on Guam and in the Northern Marianas to control the rapid spread of a vine that is\ncovering forests like a blanket, the Saipan Tribune reports.\nThe U.S. Department of Agriculture has given the green light to breed and release the\nHeteropsylla spinulosa insect, which eats the Mimosa dilotricha [diplotricha] vine. The fast-\nspreading plant is found in many Pacific Islands, but is particularly widespread in the\nNorthern Marianas and on Guam. It usually kills the trees and shrubs that it covers.\nOfficials will collect the insect from Pohnpei, in the Federated States of Micronesia,\nPalau and Australia.\nSource:  \u201cOfficials OK Insect Release To Control Invasive Vine,\u201d 4/2/08,\nwww.saipantribune.com\n66\u201368 Discuss the advantages of using the insect to control the rapid spread of the Mimosa diplotricha vine\non Guam and the Northern Marianas. In your answer, be sure to:\n\u2022 state one possible way the Mimosa diplotricha vine kills trees and shrubs   [1]\n\u2022 identify one location from which the Heteropsylla spinulosa insect will be collected   [1]\n\u2022 explain why releasing the insect might be safer than spraying chemicals to kill the vine   [1]\nLiving Environment\u2013June \u201912\n[17]\n[OVER]\n\nLiving Environment\u2013June \u201912\n[18]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_69_72.png",
+      "context": "Base your answer to question 69\u201372 on the information below and on your knowledge of biology.\nChickens as Drug Factories\nScientists in Scotland have successfully produced five generations of chickens that lay\neggs containing certain protein-based drugs. The scientists changed the DNA of the \nchickens so that two drugs, one used to treat skin cancer and the other used to treat \nmultiple sclerosis, were present in the egg whites. Cows, sheep, and goats have already\nbeen altered to produce protein-based drugs in their milk. Chickens are considered good\n\u201cdrug factories\u201d because they are inexpensive to care for, they grow fast, and their chicks\ninherit the special drug-producing ability.\n69\u201372 Explain why scientists altered the DNA of the chickens instead of altering a protein already present in\nthe chickens. In your answer, be sure to:\n\u2022 identify the technique used to alter the DNA   [1]\n\u2022 state one reason why the scientists altered the DNA of the chickens instead of altering a protein\nalready present in the chickens   [1]\n\u2022 state one advantage of using chickens for this procedure   [1]\n\u2022 state one reason why some people might not support this method of drug production   [1]\n\nLiving Environment\u2013June \u201912\n[19]\n[OVER]\nNote: The answer to question 73 should be recorded on your separate answer sheet.\n73 Certain chemicals, such as cytochrome C, are found within cells of all living organisms. The biochemical\nstructure of cytochrome C in ground finches and in tree finches is very similar. This suggests that tree \nfinches and ground finches have\n(1) identical DNA\n(3) evolved at the same time\n(2) a common ancestor\n(4) the same nesting site\nNote: The answer to question 74 should be recorded on your separate answer sheet.\n74 The diagram below represents the results of a laboratory procedure.\nThis procedure is used to\n(1) separate molecules in a liquid mixture\n(3) detect glucose in a solution\n(2) determine the rate of photosynthesis in plants\n(4) examine the gene sequences of organisms\nPart D\nAnswer all questions in this part.\n[13]\nDirections (73\u201385): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nLiving Environment\u2013June \u201912\n[20]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "69\u201372 Explain why scientists altered the DNA of the chickens instead of altering a protein already present in the chickens. In your answer, be sure to: \u2022 identify the technique used to alter the DNA \u2022 state one reason why the scientists altered the DNA of the chickens instead of altering a protein already present in the chickens \u2022 state one advantage of using chickens for this procedure \u2022",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_69_72.png",
+      "context": "Base your answer to question 69\u201372 on the information below and on your knowledge of biology.\nChickens as Drug Factories\nScientists in Scotland have successfully produced five generations of chickens that lay\neggs containing certain protein-based drugs. The scientists changed the DNA of the \nchickens so that two drugs, one used to treat skin cancer and the other used to treat \nmultiple sclerosis, were present in the egg whites. Cows, sheep, and goats have already\nbeen altered to produce protein-based drugs in their milk. Chickens are considered good\n\u201cdrug factories\u201d because they are inexpensive to care for, they grow fast, and their chicks\ninherit the special drug-producing ability.\n69\u201372 Explain why scientists altered the DNA of the chickens instead of altering a protein already present in\nthe chickens. In your answer, be sure to:\n\u2022 identify the technique used to alter the DNA   [1]\n\u2022 state one reason why the scientists altered the DNA of the chickens instead of altering a protein\nalready present in the chickens   [1]\n\u2022 state one advantage of using chickens for this procedure   [1]\n\u2022 state one reason why some people might not support this method of drug production   [1]\n\nLiving Environment\u2013June \u201912\n[19]\n[OVER]\nNote: The answer to question 73 should be recorded on your separate answer sheet.\n73 Certain chemicals, such as cytochrome C, are found within cells of all living organisms. The biochemical\nstructure of cytochrome C in ground finches and in tree finches is very similar. This suggests that tree \nfinches and ground finches have\n(1) identical DNA\n(3) evolved at the same time\n(2) a common ancestor\n(4) the same nesting site\nNote: The answer to question 74 should be recorded on your separate answer sheet.\n74 The diagram below represents the results of a laboratory procedure.\nThis procedure is used to\n(1) separate molecules in a liquid mixture\n(3) detect glucose in a solution\n(2) determine the rate of photosynthesis in plants\n(4) examine the gene sequences of organisms\nPart D\nAnswer all questions in this part.\n[13]\nDirections (73\u201385): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nLiving Environment\u2013June \u201912\n[20]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "Certain chemicals, such as cytochrome C, are found within cells of all living organisms. The biochemical structure of cytochrome C in ground finches and in tree finches is very similar. This suggests that tree finches and ground finches have",
+      "choices": [
+        "identical DNA",
+        "a common ancestor",
+        "evolved at the same time",
+        "the same nesting site"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the results of a laboratory procedure. This procedure is used to",
+      "choices": [
+        "separate molecules in a liquid mixture",
+        "determine the rate of photosynthesis in plants",
+        "detect glucose in a solution",
+        "examine the gene sequences of organisms"
+      ],
+      "image": "/images/exams/living-environment/june-2012/q74.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "Which species of finch has an edge-crushing bill that can also probe into plants for food?",
+      "choices": [
+        "cactus finch",
+        "sharp-billed ground finch",
+        "warbler finch",
+        "large ground finch"
+      ],
+      "image": "/images/exams/living-environment/june-2012/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the diagram below and on your knowledge of biology.\nNote: The answers to questions 75 and 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "One finch that would most likely compete with the warbler finch for food is the",
+      "choices": [
+        "woodpecker finch",
+        "cactus finch",
+        "sharp-billed ground finch",
+        "vegetarian finch"
+      ],
+      "image": "/images/exams/living-environment/june-2012/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the diagram below and on your knowledge of biology.\nNote: The answers to questions 75 and 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "The large ground finch, sharp-billed ground finch, and small tree finch inhabit the same island. If the insect population decreases, which finch would most likely be affected? Support your answer. Finch:_______________________ Large ground finch Vegetarian finch Large tree finch Small tree finch Woodpecker finch Warbler finch Cactus finch Sharp-billed ground finch Small ground finch Medium ground finch E d g e c r u s h i n g B i t i n g t i p s C r u s h i n g b i l l s Mainly plant food Mainly animal food G r a s p i n g b i l l s All animal food P r o b i n g P r o b i n g b i l l s from: Galapagos:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the diagram below and on your knowledge of biology.\nNote: The answers to questions 75 and 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "In the diagram below, draw in the expected location of the glucose molecules after 20 minutes.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_78_79.png",
+      "context": "Base your answers to questions 78 and 79 on the information below and on your knowledge of biology.\nAn artificial cell filled with a glucose solution was placed in a beaker of water, as \nrepresented below. The beaker was left undisturbed for 20 minutes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "If both glucose and starch were added to the artificial cell, where would the starch be located after 20 minutes?",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_78_79.png",
+      "context": "Base your answers to questions 78 and 79 on the information below and on your knowledge of biology.\nAn artificial cell filled with a glucose solution was placed in a beaker of water, as \nrepresented below. The beaker was left undisturbed for 20 minutes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "State one advantage of using a stain to study frog skin cells with a microscope. = Glucose =",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "An experiment was designed to test whether students could squeeze a clothespin more times in 1 minute after resting or after exercising. What would be a hypothesis for the experiment?",
+      "choices": [
+        "Do students squeeze clothespins more often in 1 minute after exercising?",
+        "Can most students squeeze a clothespin more times after they rest?",
+        "Ten students who exercise before squeezing a clothespin squeezed it more times in 1 minute than ten students who rested first.",
+        "Students who rest before squeezing a clothespin will squeeze it fewer times in 1 minute than students who exercise beforehand."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "DNA samples can be separated according to size using the technique of",
+      "choices": [
+        "chromatography",
+        "electrophoresis",
+        "replication",
+        "dissection"
+      ],
+      "image": "/images/exams/living-environment/june-2012/q82.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Complete the missing amino acid sequences for plant species A in the table below.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the Universal Genetic Code Chart below and on your\nknowledge of biology.\nUniversal Genetic Code Chart\nMessenger RNA Codons and the Amino Acids for Which They Code\nSECOND BASE\nT\nH\nI\nR\nD\nB\nA\nS\nE\nF\nI\nR\nS\nT\nB\nA\nS\nE\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nUUU\nUUC\nUUA\nUUG\nPHE\nLEU\nCUU\nCUC\nCUA\nCUG\nLEU\nILE\nAUU\nAUC\nAUA\nAUG\nMET or\nSTART\nGUU\nGUC\nGUA\nGUG\nVAL\nUCU\nUCC\nUCA\nUCG\nSER\nCCU\nCCC\nCCA\nCCG\nPRO\nACU\nACC\nACA\nACG\nTHR\nGCU\nGCC\nGCA\nGCG\nALA\nUAU\nUAC\nUAA\nUAG\nTYR\nSTOP\nCAU\nCAC\nCAA\nCAG\nHIS\nGLN\nAAU\nAAC\nAAA\nAAG\nASN\nLYS\nGAU\nGAC\nGAA\nGAG\nASP\nGLU\nCGU\nCGC\nCGA\nCGG\nARG\nAGU\nAGC\nAGA\nAGG\nSER\nARG\nGGU\nGGC\nGGA\nGGG\nGLY\nUGU\nUGC\nUGA\nUGG\nCYS\nSTOP\nTRP\n\nLiving Environment\u2013June \u201912\n[23]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Complete the missing mRNA base sequences for plant species B in the table below. Plant Species Table",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the Universal Genetic Code Chart below and on your\nknowledge of biology.\nUniversal Genetic Code Chart\nMessenger RNA Codons and the Amino Acids for Which They Code\nSECOND BASE\nT\nH\nI\nR\nD\nB\nA\nS\nE\nF\nI\nR\nS\nT\nB\nA\nS\nE\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nUUU\nUUC\nUUA\nUUG\nPHE\nLEU\nCUU\nCUC\nCUA\nCUG\nLEU\nILE\nAUU\nAUC\nAUA\nAUG\nMET or\nSTART\nGUU\nGUC\nGUA\nGUG\nVAL\nUCU\nUCC\nUCA\nUCG\nSER\nCCU\nCCC\nCCA\nCCG\nPRO\nACU\nACC\nACA\nACG\nTHR\nGCU\nGCC\nGCA\nGCG\nALA\nUAU\nUAC\nUAA\nUAG\nTYR\nSTOP\nCAU\nCAC\nCAA\nCAG\nHIS\nGLN\nAAU\nAAC\nAAA\nAAG\nASN\nLYS\nGAU\nGAC\nGAA\nGAG\nASP\nGLU\nCGU\nCGC\nCGA\nCGG\nARG\nAGU\nAGC\nAGA\nAGG\nSER\nARG\nGGU\nGGC\nGGA\nGGG\nGLY\nUGU\nUGC\nUGA\nUGG\nCYS\nSTOP\nTRP\n\nLiving Environment\u2013June \u201912\n[23]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Based on the information provided in the completed table, which plant species is most closely related to the endangered species? Support your answer. Species:_______________________ Endangered plant species DNA base sequence mRNA base sequence amino acid sequence AAT UUA LEU CCG GGC GLY AGT UCA SER GGA CCU PRO Plant species A DNA base sequence mRNA base sequence amino acid sequence AAC UUG _________ CCA GGU _________ AGT UCA _________ GGA CCU _________ Plant species B DNA base sequence mRNA base sequence amino acid sequence ATA _________ TYR CCC _________ GLY AGG _________ SER GGA _________ PRO Plant species C DNA base sequence mRNA base sequence amino acid sequence CAT GUA VAL CCT GGA GLY ATA UAU TYR GGA CCU PRO LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2012/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the Universal Genetic Code Chart below and on your\nknowledge of biology.\nUniversal Genetic Code Chart\nMessenger RNA Codons and the Amino Acids for Which They Code\nSECOND BASE\nT\nH\nI\nR\nD\nB\nA\nS\nE\nF\nI\nR\nS\nT\nB\nA\nS\nE\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nUUU\nUUC\nUUA\nUUG\nPHE\nLEU\nCUU\nCUC\nCUA\nCUG\nLEU\nILE\nAUU\nAUC\nAUA\nAUG\nMET or\nSTART\nGUU\nGUC\nGUA\nGUG\nVAL\nUCU\nUCC\nUCA\nUCG\nSER\nCCU\nCCC\nCCA\nCCG\nPRO\nACU\nACC\nACA\nACG\nTHR\nGCU\nGCC\nGCA\nGCG\nALA\nUAU\nUAC\nUAA\nUAG\nTYR\nSTOP\nCAU\nCAC\nCAA\nCAG\nHIS\nGLN\nAAU\nAAC\nAAA\nAAG\nASN\nLYS\nGAU\nGAC\nGAA\nGAG\nASP\nGLU\nCGU\nCGC\nCGA\nCGG\nARG\nAGU\nAGC\nAGA\nAGG\nSER\nARG\nGGU\nGGC\nGGA\nGGG\nGLY\nUGU\nUGC\nUGA\nUGG\nCYS\nSTOP\nTRP\n\nLiving Environment\u2013June \u201912\n[23]",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

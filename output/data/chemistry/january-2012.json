@@ -1,0 +1,1096 @@
+{
+  "subject": "chemistry",
+  "session": "january-2012",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "What is the number of electrons in a completely filled second shell of an atom?",
+      "choices": [
+        "32",
+        "2",
+        "18",
+        "8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "What is the number of electrons in an atom that has 3 protons and 4 neutrons?",
+      "choices": [
+        "1",
+        "7",
+        "3",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "As a result of the gold foil experiment, it was concluded that an atom",
+      "choices": [
+        "contains protons, neutrons, and electrons",
+        "contains a small, dense nucleus",
+        "has positrons and orbitals",
+        "is a hard, indivisible sphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which statement describes the distribution of charge in an atom?",
+      "choices": [
+        "A neutral nucleus is surrounded by one or more negatively charged electrons.",
+        "A neutral nucleus is surrounded by one or more positively charged electrons.",
+        "A positively charged nucleus is surrounded by one or more negatively charged electrons.",
+        "A positively charged nucleus is surrounded by one or more positively charged electrons."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which atom in the ground state has an outer- most electron with the most energy?",
+      "choices": [
+        "Cs",
+        "K",
+        "Li",
+        "Na"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which particle has the least mass?",
+      "choices": [
+        "alpha particle",
+        "beta particle",
+        "neutron",
+        "proton"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The elements in Group 2 are classified as",
+      "choices": [
+        "metals",
+        "metalloids",
+        "nonmetals",
+        "noble gases"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which list includes elements with the most similar chemical properties?",
+      "choices": [
+        "Br, Ga, Hg",
+        "Cr, Pb, Xe",
+        "O, S, Se",
+        "N, O, F"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The notation for the nuclide 137 55Cs gives infor- mation about",
+      "choices": [
+        "mass number, only",
+        "atomic number, only",
+        "both mass number and atomic number",
+        "neither mass number nor atomic number"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which pair represents two forms of an element in the same phase at STP but with different structures and different properties?",
+      "choices": [
+        "I2(s) and I2(g)",
+        "O2(g) and O3(g)",
+        "H2(g) and Hg(g)",
+        "H2O(s) and H2O(\u2113)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The elements on the Periodic Table are arranged in order of increasing",
+      "choices": [
+        "atomic mass",
+        "atomic number",
+        "molar mass",
+        "oxidation number"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "What is the IUPAC name for the compound ZnO?",
+      "choices": [
+        "zinc oxide",
+        "zinc oxalate",
+        "zinc peroxide",
+        "zinc hydroxide"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which atom attains a stable valence electron configuration by bonding with another atom?",
+      "choices": [
+        "neon",
+        "radon",
+        "helium",
+        "hydrogen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "An ionic bond can be formed when one or more electrons are",
+      "choices": [
+        "equally shared by two atoms",
+        "unequally shared by two atoms",
+        "transferred from the nucleus of one atom to the nucleus of another atom",
+        "transferred from the valence shell of one atom to the valence shell of another atom"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which sample of CO2 has a definite shape and a definite volume?",
+      "choices": [
+        "CO2(aq)",
+        "CO2(g)",
+        "CO2(\u2113)",
+        "CO2(s)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "What occurs in order to break the bond in a Cl2 molecule?",
+      "choices": [
+        "Energy is absorbed.",
+        "Energy is released.",
+        "The molecule creates energy.",
+        "The molecule destroys energy."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A sealed, rigid 1.0-liter cylinder contains He gas at STP. An identical sealed cylinder contains Ne gas at STP. These two cylinders contain the same number of",
+      "choices": [
+        "atoms",
+        "electrons",
+        "ions",
+        "protons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which statement describes a chemical change?",
+      "choices": [
+        "Alcohol evaporates.",
+        "Water vapor forms snowflakes.",
+        "Table salt (NaCl) is crushed into powder.",
+        "Glucose (C6H12O6) and oxygen produce CO2 and H2O."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which statement describes the particles of an ideal gas according to the kinetic molecular theory?",
+      "choices": [
+        "The gas particles are arranged in a regular geometric pattern.",
+        "The gas particles are in random, constant, straight-line motion.",
+        "The gas particles are separated by very small distances, relative to their sizes.",
+        "The gas particles are strongly attracted to each other."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which sample of matter is classified as a substance?",
+      "choices": [
+        "air",
+        "ammonia",
+        "milk",
+        "seawater"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which element has the lowest electronegativity value?",
+      "choices": [
+        "F",
+        "Fr",
+        "Cl",
+        "Cr"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "At standard pressure, CH4 boils at 112 K and H2O boils at 373 K. What accounts for the higher boiling point of H2O at standard pressure?",
+      "choices": [
+        "covalent bonding",
+        "ionic bonding",
+        "hydrogen bonding",
+        "metallic bonding"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A mixture of sand and table salt can be separated by filtration because the substances in the mixture differ in",
+      "choices": [
+        "boiling point",
+        "density at STP",
+        "freezing point",
+        "solubility in water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Systems in nature tend to undergo changes toward",
+      "choices": [
+        "lower energy and lower entropy",
+        "lower energy and higher entropy",
+        "higher energy and lower entropy",
+        "higher energy and higher entropy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "In the wave-mechanical model of the atom, an orbital is the most probable location of",
+      "choices": [
+        "a proton",
+        "a positron",
+        "a neutron",
+        "an electron"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Functional groups are used to classify",
+      "choices": [
+        "organic compounds",
+        "inorganic compounds",
+        "heterogeneous mixtures",
+        "homogeneous mixtures"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which class of compounds contains at least one element from Group 17 of the Periodic Table?",
+      "choices": [
+        "aldehyde",
+        "amine",
+        "ester",
+        "halide"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "In a propanal molecule, an oxygen atom is bonded with a carbon atom. What is the total number of pairs of electrons shared between these atoms?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "When a voltaic cell operates, ions move through the",
+      "choices": [
+        "anode",
+        "cathode",
+        "salt bridge",
+        "external circuit"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "When dissolved in water, an Arrhenius base yields",
+      "choices": [
+        "hydrogen ions",
+        "hydronium ions",
+        "hydroxide ions",
+        "oxide ions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "What is the total number of valence electrons in a germanium atom in the ground state?",
+      "choices": [
+        "22",
+        "2",
+        "32",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Which element is paired with an excited-state electron configuration for an atom of the element?",
+      "choices": [
+        "Ca: 2-8-8-2",
+        "Na: 2-8-2",
+        "K: 2-6-8-3",
+        "F: 2-8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Given the balanced equations representing two chemical reactions: Cl2 + 2NaBr \u21922NaCl + Br2 2NaCl \u21922Na + Cl2 Which types of chemical reactions are represented by these equations?",
+      "choices": [
+        "single replacement and decomposition",
+        "single replacement and double replacement",
+        "synthesis and decomposition",
+        "synthesis and double replacement"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "An ion that consists of 7 protons, 6 neutrons, and 10 electrons has a net charge of",
+      "choices": [
+        "4\u2212",
+        "3\u2212",
+        "3+",
+        "4+"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Which Lewis electron-dot diagram represents a molecule having a nonpolar covalent bond?",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which quantity is equal to 50 kilojoules?",
+      "choices": [
+        "0.05 J",
+        "500 J",
+        "5 \u00d7 103 J",
+        "5 \u00d7 104 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which compound is formed from its elements by an exothermic reaction at 298 K and 101.3 kPa?",
+      "choices": [
+        "C2H4(g)",
+        "HI(g)",
+        "H2O(g)",
+        "NO2(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "At which temperature is the vapor pressure of ethanol equal to 80. kPa?",
+      "choices": [
+        "48\u00b0C",
+        "73\u00b0C",
+        "80.\u00b0C",
+        "101\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "At 25\u00b0C, gas in a rigid cylinder with a movable piston has a volume of 145 mL and a pressure of 125 kPa. Then the gas is compressed to a volume of 80. mL. What is the new pressure of the gas if the temperature is held at 25\u00b0C?",
+      "choices": [
+        "69 kPa",
+        "93 kPa",
+        "160 kPa",
+        "230 kPa"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "A 2400.-gram sample of an aqueous solution contains 0.012 gram of NH3. What is the concentration of NH3 in the solution, expressed as parts per million?",
+      "choices": [
+        "5.0 ppm",
+        "15 ppm",
+        "20. ppm",
+        "50. ppm"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Which equation represents a change that results in an increase in disorder?",
+      "choices": [
+        "I2(s) \u2192I2(g)",
+        "CO2(g) \u2192CO2(s)",
+        "2Na(s) + Cl2(g) \u21922NaCl(s)",
+        "2H2(g) + O2(g) \u21922H2O(\u2113) K+ \u2013 Br ( 1 ) ( 2 ) ( 3 ) ( 4 ) Cl Cl S H H H Cl"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "A solution consists of 0.50 mole of CaCl2 dissolved in 100. grams of H2O at 25\u00b0C. Compared to the boiling point and freezing point of 100. grams of H2O at standard pressure, the solution at standard pressure has",
+      "choices": [
+        "a lower boiling point and a lower freezing point",
+        "a lower boiling point and a higher freezing point",
+        "a higher boiling point and a lower freezing point",
+        "a higher boiling point and a higher freezing point"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Given the balanced ionic equation representing a reaction: 2Al(s) + 3Cu2+(aq) \u21922Al3+(aq) + 3Cu(s) Which half-reaction represents the reduction that occurs?",
+      "choices": [
+        "Al \u2192Al3+ + 3e",
+        "Al3+ + 3e \u2192Al",
+        "Cu \u2192Cu2+ + 2e",
+        "Cu2+ + 2e \u2192Cu"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Given the equation and potential energy diagram representing a reaction: If each interval on the axis labeled \u201cPotential Energy (kJ/mol)\u201d represents 10. kJ/mol, what is the heat of reaction?",
+      "choices": [
+        "+60. kJ/mol",
+        "+20. kJ/mol",
+        "+30. kJ/mol",
+        "+40. kJ/mol"
+      ],
+      "image": "/images/exams/chemistry/january-2012/q44.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Some solid KNO3 remains at the bottom of a stoppered flask containing a saturated KNO3(aq) solution at 22\u00b0C. Which statement explains why the contents of the flask are at equilibrium?",
+      "choices": [
+        "The rate of dissolving is equal to the rate of crystallization.",
+        "The rate of dissolving is greater than the rate of crystallization.",
+        "The concentration of the solid is equal to the concentration of the solution.",
+        "The concentration of the solid is greater than the concentration of the solution."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Which formula represents the product of the addition reaction between ethene and chlorine, Cl2?",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/q46.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Based on Reference Table J, which two reactants react spontaneously?",
+      "choices": [
+        "Mg(s) + ZnCl2(aq)",
+        "Cu(s) + FeSO4(aq)",
+        "Pb(s) + ZnCl2(aq)",
+        "Co(s) + NaCl(aq)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "When the pH value of a solution is changed from 2 to 1, the concentration of hydronium ions",
+      "choices": [
+        "decreases by a factor of 2",
+        "increases by a factor of 2",
+        "decreases by a factor of 10",
+        "increases by a factor of 10 ( 4 ) CI C C H H H H H ( 2 ) H C C H H H Cl Cl ( 3 ) CI C C CI H H H H ( 1 ) H C C Cl CI Cl H Cl Potential Energy (kJ/mol) Reaction Coordinate A + B C A + B C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a nuclear reaction: 2 1H + 3 1H \u21924 2He + 1 0n Which phrase identifies and describes this reaction?",
+      "choices": [
+        "fission, mass converted to energy",
+        "fission, energy converted to mass",
+        "fusion, mass converted to energy",
+        "fusion, energy converted to mass"
+      ],
+      "image": "/images/exams/chemistry/january-2012/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reversible reaction: NH3(g) + H2O(\u2113) \u21ccNH4 +(aq) + OH (aq) According to one acid-base theory, the reactant that donates an H+ ion in the forward reaction is",
+      "choices": [
+        "NH3(g)",
+        "H2O(\u2113)",
+        "NH4 +(aq)",
+        "OH (aq) P.S./"
+      ],
+      "image": "/images/exams/chemistry/january-2012/q50.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Estimate the radius of a Br ion.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the information below.\nThe atomic radius and the ionic radius for some Group 1 and some Group 17 elements\nare given in the tables below.\nAtomic and Ionic Radii of Some Elements\nGroup 1\nGroup 17",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Explain, in terms of electron shells, why the radius of a K+ ion is greater than the radius of an Na+ ion.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the information below.\nThe atomic radius and the ionic radius for some Group 1 and some Group 17 elements\nare given in the tables below.\nAtomic and Ionic Radii of Some Elements\nGroup 1\nGroup 17",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Write both the name and the charge of the particle that is gained by an F atom when the atom becomes an F ion.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the information below.\nThe atomic radius and the ionic radius for some Group 1 and some Group 17 elements\nare given in the tables below.\nAtomic and Ionic Radii of Some Elements\nGroup 1\nGroup 17",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "State the relationship between atomic number and first ionization energy as the elements in Group 1 are considered in order of increasing atomic number. Particle Radius (pm) Li atom Li+ ion 130. 78 Na atom Na+ ion 160. 98 K atom K+ ion 200. 133 Rb atom Rb+ ion 215 148 Particle Radius (pm) F atom F\u2212ion 60. 133 Cl atom Cl\u2212ion 100. 181 Br atom Br\u2212ion 117 ? l atom l\u2212ion 136 220.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the information below.\nThe atomic radius and the ionic radius for some Group 1 and some Group 17 elements\nare given in the tables below.\nAtomic and Ionic Radii of Some Elements\nGroup 1\nGroup 17",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "What is the melting point of this substance?",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/context_55_57.png",
+      "context": "Base your answers to questions 55 through 57 on the information below.\nStarting as a gas at 206\u00b0C, a sample of a substance is allowed to cool for 16 minutes. \nThis process is represented by the cooling curve below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "At what time do the particles of this sample have the lowest average kinetic energy?",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/context_55_57.png",
+      "context": "Base your answers to questions 55 through 57 on the information below.\nStarting as a gas at 206\u00b0C, a sample of a substance is allowed to cool for 16 minutes. \nThis process is represented by the cooling curve below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Using the key in your answer booklet, draw two particle diagrams to represent the two phases of the sample at minute 4. Your response must include at least six particles for each diagram.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/context_55_57.png",
+      "context": "Base your answers to questions 55 through 57 on the information below.\nStarting as a gas at 206\u00b0C, a sample of a substance is allowed to cool for 16 minutes. \nThis process is represented by the cooling curve below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Explain, in terms of bonds, why these hydrocarbons are unsaturated.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/context_58_59.png",
+      "context": "Base your answers to questions 58 and 59 on the information below.\nTwo hydrocarbons that are isomers of each other are represented by the structural \nformulas and molecular formulas below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Explain, in terms of structural formulas and molecular formulas, why these hydrocarbons are isomers of each other. Hydrocarbon 1 H H C H C C H H H C H H C Hydrocarbon 2 C5H8 C5H8 H C H C C H H H H C C H H 240 220 200 180 160 140 120 100 80 60 40 Time (min) Cooling Curve for a Substance 0 2 4 6 8 10 12 14 16",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/context_58_59.png",
+      "context": "Base your answers to questions 58 and 59 on the information below.\nTwo hydrocarbons that are isomers of each other are represented by the structural \nformulas and molecular formulas below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify the cathode in the cell.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below.\nThe diagram below represents an operating electrolytic cell used to plate silver onto a\nnickel key. As the cell operates, oxidation occurs at the silver electrode and the mass of the\nsilver electrode decreases.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State the purpose of the power source in the cell.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below.\nThe diagram below represents an operating electrolytic cell used to plate silver onto a\nnickel key. As the cell operates, oxidation occurs at the silver electrode and the mass of the\nsilver electrode decreases.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Explain, in terms of Ag atoms and Ag+(aq) ions, why the mass of the silver electrode decreases as the cell operates.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below.\nThe diagram below represents an operating electrolytic cell used to plate silver onto a\nnickel key. As the cell operates, oxidation occurs at the silver electrode and the mass of the\nsilver electrode decreases.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "The volume of the NaOH(aq) solution is expressed to what number of significant figures?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below.  \nIn a titration, a few drops of an indicator are added to a flask containing 35.0 milliliters\nof HNO3(aq) of unknown concentration. After 30.0 milliliters of 0.15 M NaOH(aq) \nsolution is slowly added to the flask, the indicator changes color, showing the acid is \nneutralized.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Complete the equation in your answer booklet for this neutralization reaction by writing the formula of each product.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below.  \nIn a titration, a few drops of an indicator are added to a flask containing 35.0 milliliters\nof HNO3(aq) of unknown concentration. After 30.0 milliliters of 0.15 M NaOH(aq) \nsolution is slowly added to the flask, the indicator changes color, showing the acid is \nneutralized.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "In the space in your answer booklet, show a numerical setup for calculating the concentration of the HNO3(aq) solution. Power source Ni(s) Ag(s) electrode AgNO3(aq) P.S./",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below.  \nIn a titration, a few drops of an indicator are added to a flask containing 35.0 milliliters\nof HNO3(aq) of unknown concentration. After 30.0 milliliters of 0.15 M NaOH(aq) \nsolution is slowly added to the flask, the indicator changes color, showing the acid is \nneutralized.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Write the formula for the salt used to produce green light in a fireworks display.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below.\nDuring a fireworks display, salts are heated to very high temperatures.  Ions in the salts\nabsorb energy and become excited. Spectacular colors are produced as energy is emitted\nfrom the ions in the form of light.\nThe color of the emitted light is characteristic of the metal ion in each salt. \nFor example, the lithium ion in lithium carbonate, Li2CO3, produces a deep-red color. \nThe strontium ion in strontium carbonate, SrCO3, produces a bright-red color. Similarly,\ncalcium chloride is used for orange light, sodium chloride for yellow light, and barium \nchloride for green light.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Identify the two types of chemical bonds found in the salt used to produce a deep-red color.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below.\nDuring a fireworks display, salts are heated to very high temperatures.  Ions in the salts\nabsorb energy and become excited. Spectacular colors are produced as energy is emitted\nfrom the ions in the form of light.\nThe color of the emitted light is characteristic of the metal ion in each salt. \nFor example, the lithium ion in lithium carbonate, Li2CO3, produces a deep-red color. \nThe strontium ion in strontium carbonate, SrCO3, produces a bright-red color. Similarly,\ncalcium chloride is used for orange light, sodium chloride for yellow light, and barium \nchloride for green light.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Determine the oxidation state of carbon in the salt used to produce a bright-red color.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below.\nDuring a fireworks display, salts are heated to very high temperatures.  Ions in the salts\nabsorb energy and become excited. Spectacular colors are produced as energy is emitted\nfrom the ions in the form of light.\nThe color of the emitted light is characteristic of the metal ion in each salt. \nFor example, the lithium ion in lithium carbonate, Li2CO3, produces a deep-red color. \nThe strontium ion in strontium carbonate, SrCO3, produces a bright-red color. Similarly,\ncalcium chloride is used for orange light, sodium chloride for yellow light, and barium \nchloride for green light.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Explain, in terms of subatomic particles and energy states, how the colors in a fireworks display are produced.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/q69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below.\nDuring a fireworks display, salts are heated to very high temperatures.  Ions in the salts\nabsorb energy and become excited. Spectacular colors are produced as energy is emitted\nfrom the ions in the form of light.\nThe color of the emitted light is characteristic of the metal ion in each salt. \nFor example, the lithium ion in lithium carbonate, Li2CO3, produces a deep-red color. \nThe strontium ion in strontium carbonate, SrCO3, produces a bright-red color. Similarly,\ncalcium chloride is used for orange light, sodium chloride for yellow light, and barium \nchloride for green light.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Based on Reference Table G, identify, in terms of saturation, the type of solution made by the scientist.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/context_70_71.png",
+      "context": "Base your answers to questions 70 and 71 on the information below.\nA scientist makes a solution that contains 44.0 grams of hydrogen chloride gas, HCl(g),\nin 200. grams of water, H2O(\u2113), at 20.\u00b0C. This process is represented by the balanced \nequation below.\nHCl(g) \nH+(aq) + Cl (aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Explain, in terms of the distribution of particles, why the solution is a homogeneous mixture. H2O",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2012/context_70_71.png",
+      "context": "Base your answers to questions 70 and 71 on the information below.\nA scientist makes a solution that contains 44.0 grams of hydrogen chloride gas, HCl(g),\nin 200. grams of water, H2O(\u2113), at 20.\u00b0C. This process is represented by the balanced \nequation below.\nHCl(g) \nH+(aq) + Cl (aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Identify one substance in the passage that can not be broken down by a chemical change.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 74 on the information below.\nIron has been used for thousands of years. In the air, iron corrodes. One reaction for the\ncorrosion of iron is represented by the balanced equation below.\nEquation 1:  4Fe(s) + 3O2(g) \u21922Fe2O3(s)\nIn the presence of water, iron corrodes more quickly. This corrosion is represented by\nthe unbalanced equation below.\nEquation 2:  Fe(s) + O2(g) + H2O(\u2113) \u2192Fe(OH)2(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Using equation 1, describe one chemical property of iron.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 74 on the information below.\nIron has been used for thousands of years. In the air, iron corrodes. One reaction for the\ncorrosion of iron is represented by the balanced equation below.\nEquation 1:  4Fe(s) + 3O2(g) \u21922Fe2O3(s)\nIn the presence of water, iron corrodes more quickly. This corrosion is represented by\nthe unbalanced equation below.\nEquation 2:  Fe(s) + O2(g) + H2O(\u2113) \u2192Fe(OH)2(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Balance the equation in your answer booklet, using the smallest whole-number coefficients.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 74 on the information below.\nIron has been used for thousands of years. In the air, iron corrodes. One reaction for the\ncorrosion of iron is represented by the balanced equation below.\nEquation 1:  4Fe(s) + 3O2(g) \u21922Fe2O3(s)\nIn the presence of water, iron corrodes more quickly. This corrosion is represented by\nthe unbalanced equation below.\nEquation 2:  Fe(s) + O2(g) + H2O(\u2113) \u2192Fe(OH)2(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "What is the color of the indicator thymol blue after it is added to an aqueous solution of vitamin C?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 78 on the information below.\nVitamin C, also known as ascorbic acid, is water soluble and cannot be produced by \nthe human body. Each day, a person\u2019s diet should include a source of vitamin C, such as \norange juice. Ascorbic acid has a molecular formula of C6H8O6 and a gram-formula mass of\n176 grams per mole.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Determine the number of moles of vitamin C in an orange that contains 0.071 gram of vitamin C.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 78 on the information below.\nVitamin C, also known as ascorbic acid, is water soluble and cannot be produced by \nthe human body. Each day, a person\u2019s diet should include a source of vitamin C, such as \norange juice. Ascorbic acid has a molecular formula of C6H8O6 and a gram-formula mass of\n176 grams per mole.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "In the space in your answer booklet, show a numerical setup for calculating the percent composition by mass of oxygen in ascorbic acid.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 78 on the information below.\nVitamin C, also known as ascorbic acid, is water soluble and cannot be produced by \nthe human body. Each day, a person\u2019s diet should include a source of vitamin C, such as \norange juice. Ascorbic acid has a molecular formula of C6H8O6 and a gram-formula mass of\n176 grams per mole.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Write the empirical formula for ascorbic acid.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 78 on the information below.\nVitamin C, also known as ascorbic acid, is water soluble and cannot be produced by \nthe human body. Each day, a person\u2019s diet should include a source of vitamin C, such as \norange juice. Ascorbic acid has a molecular formula of C6H8O6 and a gram-formula mass of\n176 grams per mole.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Explain, in terms of collision theory, why increasing the pressure of the gases in the cylinder increases the rate of the forward reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 79 through 81 on the information below.\nSeveral steps are involved in the industrial production of sulfuric acid. One step \ninvolves the oxidation of sulfur dioxide gas to form sulfur trioxide gas. A catalyst is used to\nincrease the rate of production of sulfur trioxide gas. In a rigid cylinder with a movable \npiston, this reaction reaches equilibrium, as represented by the equation below.\n2SO2(g) + O2(g) \u21cc2SO3(g) + 392 kJ",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Determine the amount of heat released by the production of 1.0 mole of SO3(g).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 79 through 81 on the information below.\nSeveral steps are involved in the industrial production of sulfuric acid. One step \ninvolves the oxidation of sulfur dioxide gas to form sulfur trioxide gas. A catalyst is used to\nincrease the rate of production of sulfur trioxide gas. In a rigid cylinder with a movable \npiston, this reaction reaches equilibrium, as represented by the equation below.\n2SO2(g) + O2(g) \u21cc2SO3(g) + 392 kJ",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "State, in terms of the concentration of SO3(g), what occurs when more O2(g) is added to the reaction at equilibrium.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 79 through 81 on the information below.\nSeveral steps are involved in the industrial production of sulfuric acid. One step \ninvolves the oxidation of sulfur dioxide gas to form sulfur trioxide gas. A catalyst is used to\nincrease the rate of production of sulfur trioxide gas. In a rigid cylinder with a movable \npiston, this reaction reaches equilibrium, as represented by the equation below.\n2SO2(g) + O2(g) \u21cc2SO3(g) + 392 kJ",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "State one risk to human tissue associated with the use of radioisotopes to treat cancer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below.\nNuclear radiation is harmful to living cells, particularly to fast-growing cells, such as\ncancer cells and blood cells. An external beam of the radiation emitted from a radioisotope\ncan be directed on a small area of a person to destroy cancer cells within the body.\nCobalt-60 is an artificially produced radioisotope that emits gamma rays and beta \nparticles. One hospital keeps a 100.0-gram sample of cobalt-60 in an appropriate, secure\nstorage container for future cancer treatment.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Compare the penetrating power of the two emissions from the Co-60.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below.\nNuclear radiation is harmful to living cells, particularly to fast-growing cells, such as\ncancer cells and blood cells. An external beam of the radiation emitted from a radioisotope\ncan be directed on a small area of a person to destroy cancer cells within the body.\nCobalt-60 is an artificially produced radioisotope that emits gamma rays and beta \nparticles. One hospital keeps a 100.0-gram sample of cobalt-60 in an appropriate, secure\nstorage container for future cancer treatment.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Complete the nuclear equation in your answer booklet for the beta decay of the Co-60 by writing an isotopic notation for the missing product.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below.\nNuclear radiation is harmful to living cells, particularly to fast-growing cells, such as\ncancer cells and blood cells. An external beam of the radiation emitted from a radioisotope\ncan be directed on a small area of a person to destroy cancer cells within the body.\nCobalt-60 is an artificially produced radioisotope that emits gamma rays and beta \nparticles. One hospital keeps a 100.0-gram sample of cobalt-60 in an appropriate, secure\nstorage container for future cancer treatment.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Determine the total time that will have elapsed when 12.5 grams of the original Co-60 sample at the hospital remains unchanged. P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below.\nNuclear radiation is harmful to living cells, particularly to fast-growing cells, such as\ncancer cells and blood cells. An external beam of the radiation emitted from a radioisotope\ncan be directed on a small area of a person to destroy cancer cells within the body.\nCobalt-60 is an artificially produced radioisotope that emits gamma rays and beta \nparticles. One hospital keeps a 100.0-gram sample of cobalt-60 in an appropriate, secure\nstorage container for future cancer treatment.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

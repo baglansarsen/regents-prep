@@ -14,8 +14,7 @@ export default {
       topic: 'Solids & 3D',
       correct: 3,
       explanation: 'Skew lines are lines that are not parallel and do not intersect; CG lies in a different plane from AB, never meets it, and is not parallel to it.',
-      diveDeep: 'In a rectangular prism, edges fall into three direction families. Edges parallel to AB run the same direction; edges that share a vertex or face with AB intersect it. Skew edges are the ones that are perpendicular in direction but offset in space so they never touch. A common trap is to pick an edge that looks "diagonal" in the 2D drawing but actually lies in the same plane as AB. Always check both conditions: not parallel AND not intersecting.'
-    },
+      diveDeep: 'In a rectangular prism, edges fall into three direction families. Edges parallel to AB run the same direction; edges that share a vertex or face with AB intersect it. Skew edges are the ones that are perpendicular in direction but offset in space so they never touch. A common trap is to pick an edge that looks "diagonal" in the 2D drawing but actually lies in the same plane as AB. Always check both conditions: not parallel AND not intersecting.', image: '/images/exams/geo-june-2023/q1.png' },
     {
       number: 2,
       part: 'A',
@@ -24,8 +23,7 @@ export default {
       topic: 'Transformations',
       correct: 0,
       explanation: 'Rigid motions (translations, reflections, rotations) preserve distance and angle measure, so the image and pre-image are congruent and therefore have equal area.',
-      diveDeep: 'Rigid motions guarantee congruence: corresponding sides and angles are equal, so perimeter and area are preserved. The trap answers involve incorrect correspondence — when △ABC is the image of △DEF, the matching parts are A↔D, B↔E, C↔F, not A↔F. Because we are not told the specific sequence, only properties that hold for ALL rigid motions are "always true," and area preservation is one of them.'
-    },
+      diveDeep: 'Rigid motions guarantee congruence: corresponding sides and angles are equal, so perimeter and area are preserved. The trap answers involve incorrect correspondence — when △ABC is the image of △DEF, the matching parts are A↔D, B↔E, C↔F, not A↔F. Because we are not told the specific sequence, only properties that hold for ALL rigid motions are "always true," and area preservation is one of them.', image: '/images/exams/geo-june-2023/q2.png' },
     {
       number: 3,
       part: 'A',
@@ -44,8 +42,7 @@ export default {
       topic: 'Angles & Lines',
       correct: 2,
       explanation: 'Corresponding angles formed by a transversal cutting parallel lines are congruent, so 3x + 20 = 5x − 40, giving 2x = 60 and x = 30.',
-      diveDeep: 'When parallel lines are cut by a transversal, corresponding angles are equal, alternate interior angles are equal, and co-interior (same-side interior) angles are supplementary. The most common error is setting the expressions equal when the angles are actually supplementary (summing to 180), or vice versa. Always identify the angle relationship first, then choose "equal" or "sum to 180" before writing the equation.'
-    },
+      diveDeep: 'When parallel lines are cut by a transversal, corresponding angles are equal, alternate interior angles are equal, and co-interior (same-side interior) angles are supplementary. The most common error is setting the expressions equal when the angles are actually supplementary (summing to 180), or vice versa. Always identify the angle relationship first, then choose "equal" or "sum to 180" before writing the equation.', image: '/images/exams/geo-june-2023/q4.png' },
     {
       number: 5,
       part: 'A',
@@ -54,8 +51,7 @@ export default {
       topic: 'Circles',
       correct: 0,
       explanation: 'In the standard form (x − h)² + (y − k)² = r², the center is (h, k) = (3, −2) and the radius is √16 = 4.',
-      diveDeep: 'The standard equation of a circle encodes the center and radius directly, but two sign/value traps catch students: the center coordinates are the OPPOSITE of the signs in the parentheses (x − 3 gives h = +3; y + 2 means y − (−2), so k = −2), and the right side equals r², not r, so you must take the square root. If the equation is given in general form (expanded), complete the square first to recover this standard form.'
-    },
+      diveDeep: 'The standard equation of a circle encodes the center and radius directly, but two sign/value traps catch students: the center coordinates are the OPPOSITE of the signs in the parentheses (x − 3 gives h = +3; y + 2 means y − (−2), so k = −2), and the right side equals r², not r, so you must take the square root. If the equation is given in general form (expanded), complete the square first to recover this standard form.', image: '/images/exams/geo-june-2023/q5.png' },
     {
       number: 6,
       part: 'A',
@@ -64,8 +60,7 @@ export default {
       topic: 'Circles',
       correct: 2,
       explanation: 'A tangent is perpendicular to the radius at the point of tangency, so ∠OBA = 90°; the angles of triangle OAB sum to 180°, giving m∠AOB = 180° − 90° − 35° = 55°.',
-      diveDeep: 'The tangent–radius perpendicularity theorem is a foundational circle fact: a tangent line meets the radius drawn to the point of tangency at exactly 90°. Once you mark that right angle, the figure becomes a right triangle and the angle sum (or the fact that the two acute angles are complementary) finishes the problem. A trap is forgetting the right angle and assuming the triangle is isosceles or equilateral.'
-    },
+      diveDeep: 'The tangent–radius perpendicularity theorem is a foundational circle fact: a tangent line meets the radius drawn to the point of tangency at exactly 90°. Once you mark that right angle, the figure becomes a right triangle and the angle sum (or the fact that the two acute angles are complementary) finishes the problem. A trap is forgetting the right angle and assuming the triangle is isosceles or equilateral.', image: '/images/exams/geo-june-2023/q6.png' },
     {
       number: 7,
       part: 'A',
@@ -74,8 +69,7 @@ export default {
       topic: 'Solids & 3D',
       correct: 2,
       explanation: 'The volume of a cylinder is V = πr²h = π(5²)(12) = π(25)(12) = 300π cubic centimeters.',
-      diveDeep: 'The cylinder volume formula V = πr²h multiplies the circular base area (πr²) by the height. The most common mistake is using the diameter instead of the radius, or forgetting to square the radius. Distinguish this from lateral surface area (2πrh) and total surface area (2πr² + 2πrh). Keeping answers in terms of π avoids rounding error and matches the answer choices on most Regents items.'
-    },
+      diveDeep: 'The cylinder volume formula V = πr²h multiplies the circular base area (πr²) by the height. The most common mistake is using the diameter instead of the radius, or forgetting to square the radius. Distinguish this from lateral surface area (2πrh) and total surface area (2πr² + 2πrh). Keeping answers in terms of π avoids rounding error and matches the answer choices on most Regents items.', image: '/images/exams/geo-june-2023/q7.png' },
     {
       number: 8,
       part: 'A',
@@ -84,8 +78,7 @@ export default {
       topic: 'Transformations',
       correct: 2,
       explanation: 'A dilation with a scale factor other than 1 changes the size of the figure, so it produces a similar but not congruent image; reflections, rotations, and translations are rigid motions that preserve size.',
-      diveDeep: 'Reflections, rotations, and translations are the three rigid motions — they preserve both distance and angle, guaranteeing congruence. Dilations preserve angle measure but multiply lengths by the scale factor, so the image is similar (same shape) but congruent only when the scale factor is exactly 1 or −1. The phrase "not always" is the key: a dilation with |k| ≠ 1 changes area by a factor of k², so it cannot guarantee congruence.'
-    },
+      diveDeep: 'Reflections, rotations, and translations are the three rigid motions — they preserve both distance and angle, guaranteeing congruence. Dilations preserve angle measure but multiply lengths by the scale factor, so the image is similar (same shape) but congruent only when the scale factor is exactly 1 or −1. The phrase "not always" is the key: a dilation with |k| ≠ 1 changes area by a factor of k², so it cannot guarantee congruence.', image: '/images/exams/geo-june-2023/q8.png' },
     {
       number: 9,
       part: 'A',
@@ -104,8 +97,7 @@ export default {
       topic: 'Quadrilaterals',
       correct: 1,
       explanation: 'A parallelogram is a rectangle if and only if its diagonals are congruent, so BT ≅ HE is sufficient to prove BETH is a rectangle.',
-      diveDeep: 'Each special parallelogram has a diagonal signature: congruent diagonals → rectangle, perpendicular diagonals → rhombus, both → square. BT ⊥ HE would prove a rhombus, not a rectangle. BE ∥ HT is already guaranteed in any parallelogram, so it adds nothing. BE ≅ ET would make adjacent sides equal (a rhombus condition). The key skill is matching the extra diagonal property to the specific quadrilateral being proven.'
-    },
+      diveDeep: 'Each special parallelogram has a diagonal signature: congruent diagonals → rectangle, perpendicular diagonals → rhombus, both → square. BT ⊥ HE would prove a rhombus, not a rectangle. BE ∥ HT is already guaranteed in any parallelogram, so it adds nothing. BE ≅ ET would make adjacent sides equal (a rhombus condition). The key skill is matching the extra diagonal property to the specific quadrilateral being proven.', image: '/images/exams/geo-june-2023/q10.png' },
     {
       number: 11,
       part: 'A',
@@ -124,8 +116,7 @@ export default {
       topic: 'Trigonometry',
       correct: 0,
       explanation: 'Since the triangles are similar with ∠G ≅ ∠T as right angles, ∠D ≅ ∠C and ∠O ≅ ∠A; angles D and A are the two acute angles whose roles swap, so sin D = cos A because they are complementary corresponding parts.',
-      diveDeep: 'The co-function relationship states that the sine of an angle equals the cosine of its complement: sin θ = cos(90° − θ). In a right triangle the two acute angles are complementary, so the side opposite one is adjacent to the other. With ∠D ≅ ∠C, sin D = sin C; but the question pairs the OTHER acute angle, so sin D = cos A (since ∠A corresponds to ∠O, the complement of ∠D). Carefully track the correspondence from the similarity statement before applying co-function identities.'
-    },
+      diveDeep: 'The co-function relationship states that the sine of an angle equals the cosine of its complement: sin θ = cos(90° − θ). In a right triangle the two acute angles are complementary, so the side opposite one is adjacent to the other. With ∠D ≅ ∠C, sin D = sin C; but the question pairs the OTHER acute angle, so sin D = cos A (since ∠A corresponds to ∠O, the complement of ∠D). Carefully track the correspondence from the similarity statement before applying co-function identities.', image: '/images/exams/geo-june-2023/q12.png' },
     {
       number: 13,
       part: 'A',
@@ -145,8 +136,7 @@ export default {
       topic: 'Similarity & Proof',
       correct: 1,
       explanation: 'Because △AHE is isosceles with the base angles at A and E congruent, the two right triangles formed (△ABC and △EDF) share equal acute base angles and are therefore similar, giving the proportion AB/ED = CB/FE between corresponding sides.',
-      diveDeep: 'Isosceles triangles give you congruent base angles "for free," which is often the key to unlocking a similarity argument. Here the two small right triangles each contain a right angle (from the perpendiculars) and a congruent base angle, so by AA they are similar. The challenge is writing the proportion with corresponding sides in matching positions — opposite the right angle, opposite the base angle, etc. Mis-pairing the sides produces the trap choices, so label corresponding vertices carefully.'
-    },
+      diveDeep: 'Isosceles triangles give you congruent base angles "for free," which is often the key to unlocking a similarity argument. Here the two small right triangles each contain a right angle (from the perpendiculars) and a congruent base angle, so by AA they are similar. The challenge is writing the proportion with corresponding sides in matching positions — opposite the right angle, opposite the base angle, etc. Mis-pairing the sides produces the trap choices, so label corresponding vertices carefully.', image: '/images/exams/geo-june-2023/q14.png' },
     {
       number: 15,
       part: 'A',
@@ -185,8 +175,7 @@ export default {
       topic: 'Angles & Lines',
       correct: 3,
       explanation: 'Using the parallel lines, the bisector, and the isosceles relationships, the corresponding/alternate angle chain forces m∠DFK = m∠KLF, which holds in every configuration consistent with the givens.',
-      diveDeep: 'Multi-condition angle problems require tracking each given separately: parallel lines give corresponding and alternate angles; an angle bisector splits an angle into two equal halves; congruent segments create isosceles triangles with equal base angles. Build a chain of equal angles step by step, marking the diagram as you go. The trap answers each hold only under an extra unstated assumption, while the correct statement follows from the givens alone — test each option against ALL the constraints before committing.'
-    },
+      diveDeep: 'Multi-condition angle problems require tracking each given separately: parallel lines give corresponding and alternate angles; an angle bisector splits an angle into two equal halves; congruent segments create isosceles triangles with equal base angles. Build a chain of equal angles step by step, marking the diagram as you go. The trap answers each hold only under an extra unstated assumption, while the correct statement follows from the givens alone — test each option against ALL the constraints before committing.', image: '/images/exams/geo-june-2023/q18.png' },
     {
       number: 19,
       part: 'A',
@@ -215,8 +204,7 @@ export default {
       topic: 'Similarity & Proof',
       correct: 3,
       explanation: 'Because BC ∥ DF, the transversal AF creates congruent corresponding angles, so ∠ACB ≅ ∠AFD.',
-      diveDeep: 'A line parallel to one side of a triangle creates a smaller similar triangle (△ABC ~ △ADF) by the AA criterion, since the parallel line produces congruent corresponding angles. From the similarity you get proportional sides AB/AD = AC/AF = BC/DF — note the proportions use FULL sides from the shared vertex A, not segment pieces like BD or CF. The trap AB:AD = AC:CF mixes a full side with a partial side. BC = ½DF is only true if B and C are midpoints, which is not given.'
-    },
+      diveDeep: 'A line parallel to one side of a triangle creates a smaller similar triangle (△ABC ~ △ADF) by the AA criterion, since the parallel line produces congruent corresponding angles. From the similarity you get proportional sides AB/AD = AC/AF = BC/DF — note the proportions use FULL sides from the shared vertex A, not segment pieces like BD or CF. The trap AB:AD = AC:CF mixes a full side with a partial side. BC = ½DF is only true if B and C are midpoints, which is not given.', image: '/images/exams/geo-june-2023/q21.png' },
     {
       number: 22,
       part: 'A',
@@ -235,8 +223,7 @@ export default {
       topic: 'Triangles & Congruence',
       correct: 2,
       explanation: 'Triangles SOR and TOA are formed by the legs and parts of the diagonals; without a guaranteed angle or side correspondence they are congruent in an isosceles trapezoid but not built from the parallel-side AA relationship, so they are not always similar in the proportional sense the question targets.',
-      diveDeep: 'In a trapezoid with ST ∥ RA, the diagonals create two triangles (△STO and △ARO) that are always similar by AA from the alternate interior angles of the parallel sides. The triangles formed by the legs and diagonal pieces, however, do not inherit that parallel-line angle pairing. In an isosceles trapezoid certain triangles are congruent by symmetry, but congruence is a special case and the "not always similar" pair is the one lacking the AA guarantee. Carefully separate which similarities come from the parallel sides versus the isosceles symmetry.'
-    },
+      diveDeep: 'In a trapezoid with ST ∥ RA, the diagonals create two triangles (△STO and △ARO) that are always similar by AA from the alternate interior angles of the parallel sides. The triangles formed by the legs and diagonal pieces, however, do not inherit that parallel-line angle pairing. In an isosceles trapezoid certain triangles are congruent by symmetry, but congruence is a special case and the "not always similar" pair is the one lacking the AA guarantee. Carefully separate which similarities come from the parallel sides versus the isosceles symmetry.', image: '/images/exams/geo-june-2023/q23.png' },
     {
       number: 24,
       part: 'A',
@@ -256,8 +243,7 @@ export default {
       topic: 'Congruence & Transformations',
       explanation: 'Identify key coordinates of both triangles from the graph. A typical sequence is a reflection over a line followed by a translation (or rotation) that maps △ABC exactly onto △DEF. State each transformation with its precise parameters.',
       diveDeep: 'To describe a mapping sequence, first identify corresponding vertices (A↔D, B↔E, C↔F) and compute how the coordinates change. Look for a reflection line (often x-axis, y-axis, or y = x) and whether a translation is also needed. For any rigid-motion sequence, verify that the composition correctly maps every vertex. Common mistakes include describing the transformations in the wrong order (order matters for compositions) or giving a vague description like "flip and slide" without specifying the line or direction and distance.',
-      modelAnswer: 'Based on the graph, identify corresponding vertices and determine the transformation:\nA reflection over the x-axis maps △ABC to an intermediate image, then a translation maps it onto △DEF.\n\nExample answer (coordinates from graph must be used):\n"A reflection over the x-axis, followed by a translation of ____ units right and ____ units up/down, maps △ABC onto △DEF."\n\nVerify by checking that each image vertex matches the target vertex after applying both transformations in order.'
-    },
+      modelAnswer: 'Based on the graph, identify corresponding vertices and determine the transformation:\nA reflection over the x-axis maps △ABC to an intermediate image, then a translation maps it onto △DEF.\n\nExample answer (coordinates from graph must be used):\n"A reflection over the x-axis, followed by a translation of ____ units right and ____ units up/down, maps △ABC onto △DEF."\n\nVerify by checking that each image vertex matches the target vertex after applying both transformations in order.', image: '/images/exams/geo-june-2023/q25.png' },
     {
       number: 26,
       part: 'B',
@@ -266,8 +252,7 @@ export default {
       topic: 'Coordinate Geometry',
       explanation: 'Use the directed partition formula: R = P + (2/5)(Q − P). R_x = −5 + (2/5)(5 − (−5)) = −5 + (2/5)(10) = −5 + 4 = −1. R_y = 1 + (2/5)(6 − 1) = 1 + 2 = 3. R = (−1, 3).',
       diveDeep: 'The section formula divides a directed segment from P to Q in ratio m:n as: R = P + [m/(m+n)](Q − P). Here m = 2, n = 3, m+n = 5. For x: −5 + (2/5)(5 − (−5)) = −5 + (2/5)(10) = −5 + 4 = −1. For y: 1 + (2/5)(6 − 1) = 1 + (2/5)(5) = 1 + 2 = 3. So R = (−1, 3). A common mistake is using n/(m+n) = 3/5 instead of m/(m+n) = 2/5, which gives the wrong point. Also be careful that the ratio PR:RQ = 2:3 means R is closer to P (2 parts from P, 3 parts to Q).',
-      modelAnswer: 'PR:RQ = 2:3, so R divides PQ in ratio 2:3 from P.\n\nR_x = −5 + (2/5)(5 − (−5)) = −5 + (2/5)(10) = −5 + 4 = −1\nR_y = 1 + (2/5)(6 − 1) = 1 + (2/5)(5) = 1 + 2 = 3\n\nR = (−1, 3)'
-    },
+      modelAnswer: 'PR:RQ = 2:3, so R divides PQ in ratio 2:3 from P.\n\nR_x = −5 + (2/5)(5 − (−5)) = −5 + (2/5)(10) = −5 + 4 = −1\nR_y = 1 + (2/5)(6 − 1) = 1 + (2/5)(5) = 1 + 2 = 3\n\nR = (−1, 3)', image: '/images/exams/geo-june-2023/q26.png' },
     {
       number: 27,
       part: 'B',
@@ -276,8 +261,7 @@ export default {
       topic: 'Circles',
       explanation: 'Sector area = (θ/360°)πr² = (80/360)π(6.4)² = (2/9)π(40.96) ≈ 28.56 ≈ 29 square inches.',
       diveDeep: 'The sector area formula is A = (θ/360)πr², where θ is the central angle in degrees. With θ = 80° and r = 6.4: A = (80/360)π(6.4)² = (2/9)π(40.96). Compute: (2/9)(40.96) ≈ 9.102, then multiply by π ≈ 3.14159 to get ≈ 28.59 in², which rounds to 29 in². Common mistakes: forgetting to square the radius, using diameter instead of radius, or not simplifying 80/360 first (it equals 2/9). Always round at the last step to preserve accuracy.',
-      modelAnswer: 'Sector area = (θ/360°)πr²\n= (80/360)π(6.4)²\n= (2/9)π(40.96)\n= (81.92π)/9\n≈ (81.92 × 3.14159)/9\n≈ 257.28/9\n≈ 28.59 in²\n\nTo the nearest square inch: 29 square inches'
-    },
+      modelAnswer: 'Sector area = (θ/360°)πr²\n= (80/360)π(6.4)²\n= (2/9)π(40.96)\n= (81.92π)/9\n≈ (81.92 × 3.14159)/9\n≈ 257.28/9\n≈ 28.59 in²\n\nTo the nearest square inch: 29 square inches', image: '/images/exams/geo-june-2023/q27.png' },
     {
       number: 28,
       part: 'B',
@@ -306,8 +290,7 @@ export default {
       topic: 'Coordinate Geometry',
       explanation: 'Slope of RT = (−4 − (−2))/(4 − (−3)) = −2/7. A parallel line through S(3, 2) has the same slope: y − 2 = −(2/7)(x − 3), which gives y = −(2/7)x + 20/7.',
       diveDeep: 'Parallel lines have identical slopes. Step 1: find slope of RT: m = (y_T − y_R)/(x_T − x_R) = (−4 − (−2))/(4 − (−3)) = (−2)/(7) = −2/7. Step 2: write the equation of a line through S(3, 2) with slope −2/7: y − 2 = −(2/7)(x − 3). Simplify: y = −(2/7)x + 6/7 + 2 = −(2/7)x + 6/7 + 14/7 = −(2/7)x + 20/7. The equation can also be left in point-slope form or written as 2x + 7y = 20. A common mistake is using the coordinates of R and T in the point-slope formula instead of the given point S.',
-      modelAnswer: 'Slope of RT: m = (−4 − (−2)) / (4 − (−3)) = (−2) / 7 = −2/7\n\nLine through S(3, 2) parallel to RT:\ny − 2 = −(2/7)(x − 3)\ny = −(2/7)x + 6/7 + 14/7\ny = −(2/7)x + 20/7\n\nOr equivalently: 2x + 7y = 20'
-    },
+      modelAnswer: 'Slope of RT: m = (−4 − (−2)) / (4 − (−3)) = (−2) / 7 = −2/7\n\nLine through S(3, 2) parallel to RT:\ny − 2 = −(2/7)(x − 3)\ny = −(2/7)x + 6/7 + 14/7\ny = −(2/7)x + 20/7\n\nOr equivalently: 2x + 7y = 20', image: '/images/exams/geo-june-2023/q30.png' },
     {
       number: 31,
       part: 'B',
@@ -316,8 +299,7 @@ export default {
       topic: 'Trigonometry',
       explanation: 'BC = 3280 × tan(15°) ≈ 879 ft; BD = 3280 × tan(31°) ≈ 1970 ft. Distance CD = BD − BC ≈ 1970 − 879 ≈ 1091 ft.',
       diveDeep: 'The rocket travels vertically, and the observer is 3280 ft horizontally from the launch pad. At angle of elevation 15°: height of C above ground = 3280 × tan(15°) ≈ 3280 × 0.2679 ≈ 878.6 ft. At angle of elevation 31°: height of D = 3280 × tan(31°) ≈ 3280 × 0.6009 ≈ 1970.9 ft. The rocket traveled vertically, so distance CD = 1970.9 − 878.6 ≈ 1092.3 ≈ 1092 ft. The key insight is that both heights are measured from the same ground level, so the difference gives the vertical distance traveled. A common mistake is computing tan of the wrong angle or subtracting in the wrong order.',
-      modelAnswer: 'Height at C: BC = 3280 × tan(15°) ≈ 3280 × 0.2679 ≈ 878.7 ft\nHeight at D: BD = 3280 × tan(31°) ≈ 3280 × 0.6009 ≈ 1970.9 ft\n\nDistance traveled = BD − BC ≈ 1970.9 − 878.7 ≈ 1092.2\n\nTo the nearest foot: CD ≈ 1092 feet'
-    },
+      modelAnswer: 'Height at C: BC = 3280 × tan(15°) ≈ 3280 × 0.2679 ≈ 878.7 ft\nHeight at D: BD = 3280 × tan(31°) ≈ 3280 × 0.6009 ≈ 1970.9 ft\n\nDistance traveled = BD − BC ≈ 1970.9 − 878.7 ≈ 1092.2\n\nTo the nearest foot: CD ≈ 1092 feet', image: '/images/exams/geo-june-2023/q31.png' },
     // Part C — 3 questions (4 credits each)
     {
       number: 32,
@@ -327,8 +309,7 @@ export default {
       topic: 'Area & Volume',
       explanation: 'Small can: V = π(3.5)²(9) = π(12.25)(9) ≈ 346 cm³. Large container: V = π(4.5)²(13) = π(20.25)(13) ≈ 827 cm³. 827 ÷ 346 ≈ 2.39, so minimum 3 cans are needed.',
       diveDeep: 'Small can radius = 7/2 = 3.5 cm: V = π(3.5)²(9) = π(12.25)(9) = 110.25π ≈ 346.36 ≈ 346 cm³. Large container radius = 9/2 = 4.5 cm: V = π(4.5)²(13) = π(20.25)(13) = 263.25π ≈ 827.07 ≈ 827 cm³. To fill the large container: 827 ÷ 346 ≈ 2.39, which means 2 cans are not enough (2 × 346 = 692 < 827), so a minimum of 3 cans must be opened. The justification must include showing that 2 cans are insufficient and 3 cans are enough. Always use radius (half the diameter), not diameter, in the cylinder formula.',
-      modelAnswer: 'Small can radius = 7/2 = 3.5 cm\nV_small = π(3.5)²(9) = 110.25π ≈ 346 cm³\n\nLarge container radius = 9/2 = 4.5 cm\nV_large = π(4.5)²(13) = 263.25π ≈ 827 cm³\n\nNumber of cans needed: 827 ÷ 346 ≈ 2.39\n\nSince 2 cans provide only 2 × 346 = 692 cm³ < 827 cm³, 2 cans are not enough.\n3 cans provide 3 × 346 = 1038 cm³ > 827 cm³, which is sufficient.\n\nMinimum number of small cans = 3'
-    },
+      modelAnswer: 'Small can radius = 7/2 = 3.5 cm\nV_small = π(3.5)²(9) = 110.25π ≈ 346 cm³\n\nLarge container radius = 9/2 = 4.5 cm\nV_large = π(4.5)²(13) = 263.25π ≈ 827 cm³\n\nNumber of cans needed: 827 ÷ 346 ≈ 2.39\n\nSince 2 cans provide only 2 × 346 = 692 cm³ < 827 cm³, 2 cans are not enough.\n3 cans provide 3 × 346 = 1038 cm³ > 827 cm³, which is sufficient.\n\nMinimum number of small cans = 3', image: '/images/exams/geo-june-2023/q32.png' },
     {
       number: 33,
       part: 'C',
@@ -347,8 +328,7 @@ export default {
       topic: 'Proofs',
       explanation: 'Since AB ∥ CD and AB ≅ CD, ABCD is a parallelogram. Use properties of the parallelogram and the congruent segments (DE ≅ BF) with triangle congruence (SAS or ASA) to show EG ≅ GF, making G the midpoint of EF.',
       diveDeep: 'With AB ≅ CD and AB ∥ CD, quadrilateral ABCD is a parallelogram (a quadrilateral with one pair of sides both congruent and parallel is a parallelogram). In a parallelogram, diagonals bisect each other, so if G is on diagonal AC, additional work is needed using the given DE ≅ BF. Consider triangles formed at G: △AGB and △CGD may be proven congruent, or focus on triangles containing E and F. Use alternate interior angles (from the parallel lines), the given congruences, and AAS or SAS to prove △EGA ≅ △FGB (or similar), giving EG ≅ GF. Then by the definition of midpoint, G is the midpoint of EF.',
-      modelAnswer: 'Statement | Reason\n1. AB ≅ CD, AB ∥ CD | Given\n2. ABCD is a parallelogram | A quadrilateral with one pair of sides both ≅ and ∥ is a parallelogram\n3. AC bisects BD; diagonals bisect each other | Property of parallelogram\n4. DE ≅ BF | Given\n5. ∠DAC ≅ ∠BCA | Alternate interior angles (AB ∥ CD, transversal AC)\n6. AC ≅ CA | Reflexive\n7. △DAG ≅ △BCG | (using appropriate congruence with DE ≅ BF and angle relationships)\n8. EG ≅ GF | CPCTC\n9. G is the midpoint of EF | Definition of midpoint'
-    },
+      modelAnswer: 'Statement | Reason\n1. AB ≅ CD, AB ∥ CD | Given\n2. ABCD is a parallelogram | A quadrilateral with one pair of sides both ≅ and ∥ is a parallelogram\n3. AC bisects BD; diagonals bisect each other | Property of parallelogram\n4. DE ≅ BF | Given\n5. ∠DAC ≅ ∠BCA | Alternate interior angles (AB ∥ CD, transversal AC)\n6. AC ≅ CA | Reflexive\n7. △DAG ≅ △BCG | (using appropriate congruence with DE ≅ BF and angle relationships)\n8. EG ≅ GF | CPCTC\n9. G is the midpoint of EF | Definition of midpoint', image: '/images/exams/geo-june-2023/q34.png' },
     // Part D — 1 question (6 credits)
     {
       number: 35,
@@ -358,7 +338,6 @@ export default {
       topic: 'Proofs',
       explanation: 'This is the 6-credit proof. ABCD is a parallelogram (AB ≅ CD and AB ∥ CD). Using congruent triangles formed at the intersection point G, show EG = GF so G is the midpoint of EF.',
       diveDeep: 'The full 6-credit proof requires a complete two-column or paragraph proof with all reasons stated. Key steps: (1) Establish ABCD is a parallelogram using the given congruent and parallel sides. (2) Use alternate interior angles from the parallel sides with transversal EF. (3) Incorporate DE ≅ BF to set up a triangle congruence (likely AAS or SAS). (4) Conclude EG ≅ GF by CPCTC, then cite the definition of midpoint. Each step must have a corresponding reason. Partial credit is awarded for each correct logical step even if the proof is not fully completed — showing work is essential for the 6-credit question.',
-      modelAnswer: 'Given: AB ≅ CD, AB ∥ CD, AC intersects EF at G, DE ≅ BF\nProve: G is the midpoint of EF\n\nProof:\n1. AB ≅ CD, AB ∥ CD | Given\n2. ABCD is a parallelogram | One pair of sides both ≅ and ∥\n3. ∠ABG ≅ ∠CDG | Alternate interior angles (AB ∥ CD)\n4. ∠AGB ≅ ∠CGD | Vertical angles\n5. AB ≅ CD | Given (step 1)\n6. △AGB ≅ △CGD | ASA\n7. AG ≅ CG | CPCTC\n8. DE ≅ BF | Given\n9. In △EGA and △FGC: ∠EAG ≅ ∠FCG (alternate interior angles), AG ≅ CG (step 7), ∠EGA ≅ ∠FGC (vertical angles)\n10. △EGA ≅ △FGC | ASA\n11. EG ≅ FG | CPCTC\n12. G is the midpoint of EF | Definition of midpoint'
-    }
+      modelAnswer: 'Given: AB ≅ CD, AB ∥ CD, AC intersects EF at G, DE ≅ BF\nProve: G is the midpoint of EF\n\nProof:\n1. AB ≅ CD, AB ∥ CD | Given\n2. ABCD is a parallelogram | One pair of sides both ≅ and ∥\n3. ∠ABG ≅ ∠CDG | Alternate interior angles (AB ∥ CD)\n4. ∠AGB ≅ ∠CGD | Vertical angles\n5. AB ≅ CD | Given (step 1)\n6. △AGB ≅ △CGD | ASA\n7. AG ≅ CG | CPCTC\n8. DE ≅ BF | Given\n9. In △EGA and △FGC: ∠EAG ≅ ∠FCG (alternate interior angles), AG ≅ CG (step 7), ∠EGA ≅ ∠FGC (vertical angles)\n10. △EGA ≅ △FGC | ASA\n11. EG ≅ FG | CPCTC\n12. G is the midpoint of EF | Definition of midpoint', image: '/images/exams/geo-june-2023/q35.png' }
   ]
 }

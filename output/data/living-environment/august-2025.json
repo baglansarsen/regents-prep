@@ -1,0 +1,1111 @@
+{
+  "subject": "living-environment",
+  "session": "august-2025",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which mechanism is used to maintain a stable internal environment in humans?",
+      "choices": [
+        "use of guard cells to control water loss and gas exchange",
+        "destruction of the immune system by the AIDS virus",
+        "increased perspiration during periods of intense activity",
+        "an allergic reaction to pollen from cats"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Industrial processes often release lead and copper compounds into waterways, which could then have adverse effects on human health. Previously, methods to remove these compounds were expensive and often produced toxins themselves. Researchers have now found that minced banana peels are able to quickly absorb lead and copper from river water. In addition, banana peels are non-toxic and inexpensive. The use of the banana peels in this case is probably a",
+      "choices": [
+        "poor use of resources, because it introduces a new organism into the ecosystem",
+        "trade-off, because the more toxic methods might still be used",
+        "simple proposal, which will increase the costs of cleaning up the waterways",
+        "good use of resources, which can help to restore a natural ecosystem"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which abiotic factor would most directly limit the size of a gray squirrel population?",
+      "choices": [
+        "variety of food sources",
+        "number of predators",
+        "availability of water in the forest",
+        "amount of nitrogen in the atmosphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Human chromosomes differ from the chromosomes of fruit flies in that human chromosomes",
+      "choices": [
+        "are made from only four kinds of bases",
+        "contain only 46 genes",
+        "may be involved in both mitosis and meiosis",
+        "have different sequences of bases"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "One major benefit of the use of water power is that it",
+      "choices": [
+        "does not produce a significant amount of carbon dioxide as a waste product",
+        "increases the production of oxygen in the atmosphere",
+        "has no impact on the rivers that are used",
+        "increases the recycling of nutrients"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Adding chlorine to drinking water in many modern cities has been credited with reducing outbreaks of diseases, such as cholera. Some scientists claim that adding chlorine may result in by-products in the water that may very slightly increase the risk of cancer. The decision to add chlorine to drinking water most likely involved",
+      "choices": [
+        "an assessment of trade-offs",
+        "the elimination of genetic diseases",
+        "the removal of all pathogens from water",
+        "the disruption of dynamic equilibrium in ponds"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a process that can occur when chromosomes are copied in sexually reproducing organisms. One result of this process is",
+      "choices": [
+        "an increase in the number of chromosomes in the cell to double its original number",
+        "an increase in the number of new gene combinations that can be passed on to offspring",
+        "an elimination of mutations in reproductive cells and zygotes",
+        "the formation of new genes that will decrease variation in future generations"
+      ],
+      "image": "/images/exams/living-environment/august-2025/q7.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Scientists initially studying the decline of certain penguin populations in Antarctic regions found that the penguins\u2019 food source, a small animal known as krill, had dropped by 80%. These scientists are now studying the reduction in the number of tiny photosynthetic organisms that are the food source of the krill. The decline of the penguin population was a direct effect of the disruption of a",
+      "choices": [
+        "parasitic relationship",
+        "biosphere",
+        "food chain",
+        "mechanism of evolution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a process that occurs during the development of human body cells. Nerve Muscle Skin Fertilized egg Which statement is correct regarding these cells?",
+      "choices": [
+        "The fertilized egg and other types of cells all have the same DNA.",
+        "The fertilized egg contains half the genetic information of the other types of cells.",
+        "Each cell contains only the genetic information necessary for its particular function.",
+        "The body cells undergo mitosis and the fertilized egg undergoes meiosis."
+      ],
+      "image": "/images/exams/living-environment/august-2025/q9.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which situation would most likely lead to increased diversity in a species?",
+      "choices": [
+        "A population of birds with high variation migrates to a group of islands with different environmental conditions.",
+        "Selective breeding is used to develop a species that is only able to live in very specific environmental conditions.",
+        "An ecosystem containing few species experiences many centuries of stable climatic conditions.",
+        "Asexual reproduction is used to produce more plants of a certain species."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Some allergies are inherited. Allergic reactions are often much less severe in adults who were exposed to the allergen (the substance causing the reaction) during infancy. What does this show about some inherited traits?",
+      "choices": [
+        "The effect of allergens can never be predicted.",
+        "Developing allergies requires genes from both parents.",
+        "Allergies are always caused by DNA.",
+        "Gene expression can be influenced by environmental conditions."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A tall building is built on an empty lot. The new building blocks the sunlight on nearby streets for most of the day. Trees and plants grow more slowly or die off because the building has interfered with a",
+      "choices": [
+        "removal of water from the atmosphere",
+        "production of finite resources",
+        "recycling of solar energy",
+        "process that produces organic compounds"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The Madagascar rose periwinkle, a species of rainforest flower that was used to treat cancer, is now endangered in its native habitat due to deforestation. Continuing the destruction of rainforests is likely to have a negative impact on future medical discoveries because it could cause a decrease in the",
+      "choices": [
+        "growing season for rainforest species",
+        "biodiversity of the rainforest ecosystem",
+        "land available to cultivate new plants",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The letters in the diagram below indicate some parts of a cell. B C D A Which structure provides the energy needed for protein synthesis?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/august-2025/q14.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "One reason why some organisms, such as insects, evolve much faster than others is because they",
+      "choices": [
+        "undergo physical changes during development",
+        "have very short reproductive cycles",
+        "are sometimes exposed to predators that cause mutations",
+        "produce offspring only by asexual reproduction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a metabolic process involving amino acids represented by AA. AA AA AA AA AA AA AA AA Where in a cell would this process most likely take place?",
+      "choices": [
+        "ribosome",
+        "mitochondrion",
+        "chloroplast",
+        "vacuole"
+      ],
+      "image": "/images/exams/living-environment/august-2025/q16.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Fossil fuels are considered nonrenewable because",
+      "choices": [
+        "oil and coal are being used at an increasing rate",
+        "people are becoming more interested in buying energy-efficient vehicles",
+        "oil and coal are no longer being formed at a significant rate",
+        "Earth\u2019s supply of nuclear fuels is finite"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The male emperor penguin cares for his unhatched egg for a long period of time by resting it upon his feet and against his body. This behavior in the male penguins most likely developed over time because the behavior",
+      "choices": [
+        "attracted female penguins for mating",
+        "increased the rate of natural selection",
+        "increased reproductive success",
+        "led to increased predation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Many advertisements warn pregnant women of the dangers of exposure to certain risk factors because these factors may",
+      "choices": [
+        "cause mutations in the ovary of the mother and thus change the genetic makeup of the developing fetus",
+        "cause mutations in the blood cells of the mother and thus change the genetic makeup of the fetus",
+        "cause changes in the stomach cells of the mother, which would result in a clone of her fetus",
+        "cause organs in the fetus to develop abnormally"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "When a colony of bacteria was exposed to a particular antibiotic, some of the bacteria survived while others did not. Which concept is supported by this example?",
+      "choices": [
+        "Biotic factors in the environment influence gene expression.",
+        "Favorable mutations occur as a result of environmental changes.",
+        "Overproduction limits genetic variation.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "When uncooked meat is tenderized using pineapple juice, specific organic molecules in the meat are broken down. This reaction occurs because the pineapple juice most likely contains",
+      "choices": [
+        "antibodies that preserve the meat",
+        "hormones that influence cell division",
+        "enzymes that alter the structure of proteins",
+        "sugars that metabolize starches"
+      ],
+      "image": "/images/exams/living-environment/august-2025/q21.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "One factor that might threaten global stability and alter the equilibrium in an ecosystem is increasing",
+      "choices": [
+        "the rate of reforestation",
+        "biodiversity",
+        "recycling",
+        "the rate of climate change"
+      ],
+      "image": "/images/exams/living-environment/august-2025/q22.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which group of organisms would be at the greatest risk of extinction if they were infected by a deadly virus?",
+      "choices": [
+        "a small population of a bird species found only on Martha\u2019s Vineyard island",
+        "a population of squirrels living in Los Angeles, California",
+        "all pigeons living in parks in Florida",
+        "all the rabbits living in Kinderhook, New York"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "When a person gets a tattoo and the needle used is contaminated with a pathogen, how does the human immune system respond?",
+      "choices": [
+        "It produces hormones.",
+        "It digests white blood cells.",
+        "It produces more white blood cells.",
+        "It digests antibiotics."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which row in the chart below correctly pairs the life function with the cell structure and organ that carry out the function? Row Life Function Cell Structure and Organ",
+      "choices": [
+        "excretion cell membrane and lung",
+        "coordination mitochondrion and pancreas",
+        "transport chloroplast and heart",
+        "synthesis ribosome and stomach"
+      ],
+      "image": "/images/exams/living-environment/august-2025/q25.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Wolves are carnivores and no organism in their ecosystem preys on them. Which level would they occupy in the energy pyramid shown below? A B C D",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/august-2025/q26.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Extinction has been a part of the history of Earth for over 3 billion years. Most of the species that have lived on Earth no longer exist. One reason the extinction of species is so common is that",
+      "choices": [
+        "Earth has experienced many environmental changes",
+        "species that are unable to adapt evolve into new species",
+        "environmental changes cause harmful mutations in species",
+        "most species on Earth reproduce asexually,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The diagram below shows steps in the vaccination of an individual. X Injected into human body production of specific antibodies against X Substance X most likely contains",
+      "choices": [
+        "white blood cells",
+        "weakened microbes",
+        "hormones",
+        "ATP"
+      ],
+      "image": "/images/exams/living-environment/august-2025/q28.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a process that occurs in a cell. Nucleus DNA Unwinding of DNA mRNA Rewinding of DNA \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | Transfer to site of protein synthesis In this process, DNA serves as a",
+      "choices": [
+        "code for meiotic cell division",
+        "template required in protein synthesis",
+        "code for protein division",
+        "template for DNA replication"
+      ],
+      "image": "/images/exams/living-environment/august-2025/q29.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The diagram below shows the relationships between some present-day species of bear. Red panda Raccoon Giant panda Spectacled bear Sloth bear Sun bear American black bear Asiatic black bear Polar bear Brown bear Present Ancestor Past Which statement best explains why so many bear species arose from a single ancestor?",
+      "choices": [
+        "Genetic changes took place within populations because their environment was threatened.",
+        "The environment got colder, so bear populations needed to change in order to survive.",
+        "The environment selected for some genetic changes within bear populations.",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2025/q30.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The diagram represents the process of",
+      "choices": [
+        "evolution",
+        "cultivation",
+        "energy transfer",
+        "ecological succession The table below shows the levels of glucose in blood samples taken from two individuals. Samples were taken over a five-hour period, starting right after they ate an average meal. The levels were compared to a medical standard range for blood glucose. Glucose in Blood Samples (mg/100 dl) Time (hours) Medical Standard Range Individual 1 Individual 2 0.0 80\u2013110 75 75 0.5 < 150 120 135 1.0 < 160 140 200 2.0 80\u2013110 90 150 3.0 80\u2013110 75 120 4.0 80\u2013110 60 115 5.0 80\u2013110 75 110 Note: < represents less than"
+      ],
+      "image": "/images/exams/living-environment/august-2025/context_31_31.png",
+      "context": "Base your answer to question 31 on the process represented in the diagram below and on your knowledge of \nbiology.\nStage E\nExposed rock\nStage D\nStage C\nStage B\nStage A\nTime",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The information in the data table best represents regulation by means of",
+      "choices": [
+        "an antigen-antibody reaction",
+        "an allergic reaction",
+        "a feedback mechanism",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Which graph indicates that increasing the amount of antibiotic most effectively reduces the population of bacteria? Number of Bacteria Antibiotic (mg) ( 1 ) Effects of Antibiotic Number of Bacteria Antibiotic (mg) ( 3 ) Effects of Antibiotic Number of Bacteria Antibiotic (mg) ( 2 ) Effects of Antibiotic Number of Bacteria Antibiotic (mg) ( 4 ) Effects of Antibiotic 0 2 4 6 8 10 0 2 4 6 8 10 0 2 4 6 8 10 0 2 4 6 8 10",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "A biologist conducted a survey to determine the number of different species of organisms found in each of three different ecosystems. The data are shown in the table below. Species in Three Different Ecosystems Type of Species Ecosystem 1 Ecosystem 2 Ecosystem 3 plant 14 6 10 animal 11 3 5 fungus 10 12 8 bacteria 35 28 21 All three ecosystems experienced large-scale environmental change. Which statement describes the most likely outcome?",
+      "choices": [
+        "All species in ecosystem 2 would survive because it has the greatest number of decomposers.",
+        "Ecosystems 2 and 3 would become extinct due to a lack of biodiversity.",
+        "Ecosystem 1 would be able to maintain stability because it has the highest level of biodiversity.",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2025/q34.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Bacteria are often used to study how genetic codes function in organisms. One reason these studies are useful is that",
+      "choices": [
+        "all organisms contain the same genetic codes for the production of the same enzymes as bacteria",
+        "bacteria use the same molecular bases in their genetic code as other organisms",
+        "only bacterial DNA molecules are duplicated in the same way as the DNA molecules of complex organisms",
+        "bacterial DNA codes for all of the same traits that are found in complex organisms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "A process known as acidification (lowering the pH) has been increasing in the oceans since the Industrial Revolution began. Acidification is related to the amount of carbon dioxide that dissolves in the oceans. One possible cause of the increase in carbon dioxide levels over the years is",
+      "choices": [
+        "the production of ozone in the upper atmosphere",
+        "an increase in the use of fuels such as gasoline and coal",
+        "an increase in the development of nuclear power plants",
+        "the use of cars powered by electricity and solar cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "In preparing the results of an experiment for publication, the use of a peer review committee would help the researcher to",
+      "choices": [
+        "add new conclusions based on different data",
+        "make conclusions based on the opinions of the group",
+        "restate the hypothesis as an inference",
+        "analyze and evaluate the experimental data"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The levels of organization for structure and function in living things are shown below. organism D C B A organelle Which choice correctly identifies one of these levels?",
+      "choices": [
+        "A is tissue.",
+        "B is an organ.",
+        "C is a cell.",
+        "D is an organ system."
+      ],
+      "image": "/images/exams/living-environment/august-2025/q38.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Scientists have inserted genes into potato plants, which enable the potatoes to produce a specific vaccine. The technology used to develop the potatoes that produce this vaccine involves",
+      "choices": [
+        "manipulating DNA to alter gene combinations",
+        "use of radiation to change genes within an organism",
+        "selectively breeding organisms that have both plant and animal traits",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Changes in the size of the populations of three different species are shown in the graph below. Population Size Time Mouse Fox Hawk Key Population Size Which statement is a valid inference, based on information in the graph?",
+      "choices": [
+        "The fox population is not affected by the population of mice or hawks.",
+        "The hawk population increased due to an increase in the population of mice.",
+        "The mouse population increased because there were more seeds.",
+        "The fox population decreased because the hawks decreased in number."
+      ],
+      "image": "/images/exams/living-environment/august-2025/q40.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The graph below represents data obtained from an experiment involving a certain chemical reaction. Reaction with enzyme A Reaction without enzyme A Increasing Product Formation Time Chemical Reaction Results Which statement is a valid conclusion based on information in the graph?",
+      "choices": [
+        "Enzyme shape influences how enzymes function.",
+        "Enzyme action is influenced by pH.",
+        "Enzyme A affects the rate of chemical change.",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2025/q41.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which statement represents the most likely explanation for the changes in the mosquito population shown in the graph during months 0-5?",
+      "choices": [
+        "The population had many natural variations that directly caused the initial decline, and it never recovered.",
+        "Some mosquitoes survived, reproduced, and the population was restored.",
+        "Some individual mosquitoes had harmful mutations, but those genes were later repaired.",
+        "In the first month, the population was facing extinction and needed to reproduce in greater numbers."
+      ],
+      "image": "/images/exams/living-environment/august-2025/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the graph below and on your knowledge of biology. The graph \nshows the number of mosquitoes in a certain mosquito population living in a rainforest ecosystem that was \nsprayed with an insecticide during the first month of an 8-month study.\nMonths\nMosquito Population\n0\n1\n2\n3\n4\n5\n6\n7\n8\n5,000\n10,000\nDaily Mosquito Count",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "If the mosquitoes in the initial population were compared to the mosquitoes surviving after seven months, the mosquitoes would most likely differ slightly in",
+      "choices": [
+        "their genetic makeup",
+        "abiotic requirements",
+        "their role in the food chain present in the ecosystem",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2025/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the graph below and on your knowledge of biology. The graph \nshows the number of mosquitoes in a certain mosquito population living in a rainforest ecosystem that was \nsprayed with an insecticide during the first month of an 8-month study.\nMonths\nMosquito Population\n0\n1\n2\n3\n4\n5\n6\n7\n8\n5,000\n10,000\nDaily Mosquito Count",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nStudents carried out an investigation to determine the time needed to digest egg protein. They used an \nenzyme similar to one found in the stomach. Four grams of cooked egg white, which is mainly protein, were \nplaced in a test tube and 15 milliliters of a solution containing the enzyme were added to the tube. The test \ntube was kept at 37\u00b0C for 20 hours.\nThe percentage of protein that was digested over the 20-hour time period was recorded, and this \ninformation is shown in the table below.\n\t\nDigestion of Egg Protein Over Time\nTime (hrs)\nEgg Protein Digested (%)\n0\n0\n4\n12\n8\n28\n12\n56\n16\n70\n20\n82\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 Aug. \u201925\t\n[13]\t\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for marking an appropriate scale, without any breaks, on each labeled axis."
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data on the grid. Connect the points and surround each point with a small circle. Example: Digestion of Egg Protein Over Time Egg Protein Digested (%) Time (hrs)",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nStudents carried out an investigation to determine the time needed to digest egg protein. They used an \nenzyme similar to one found in the stomach. Four grams of cooked egg white, which is mainly protein, were \nplaced in a test tube and 15 milliliters of a solution containing the enzyme were added to the tube. The test \ntube was kept at 37\u00b0C for 20 hours.\nThe percentage of protein that was digested over the 20-hour time period was recorded, and this \ninformation is shown in the table below.\n\t\nDigestion of Egg Protein Over Time\nTime (hrs)\nEgg Protein Digested (%)\n0\n0\n4\n12\n8\n28\n12\n56\n16\n70\n20\n82\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 Aug. \u201925\t\n[13]\t\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly plotting the data and connecting the points. Example of a 2-credit graph for questions 44 and 45: 90 80 70 60 50 40 30 20 10 0 0 8 12 16 20 4 Digestion of Egg Protein Over Time Egg Protein Digested (%) Time (hrs) 2 6 10 14 18 Note: Allow credit if points are correctly plotted but not circled. Do not assume that the intersection of the x- and y-axes is the origin (0,0), unless it is labeled. An appropriate scale only needs to include the data range in the data table. Do not allow credit for plotting points that are not in the data table, or for extending lines beyond the data points. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "State one change that could be made to improve the design of this investigation.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nStudents carried out an investigation to determine the time needed to digest egg protein. They used an \nenzyme similar to one found in the stomach. Four grams of cooked egg white, which is mainly protein, were \nplaced in a test tube and 15 milliliters of a solution containing the enzyme were added to the tube. The test \ntube was kept at 37\u00b0C for 20 hours.\nThe percentage of protein that was digested over the 20-hour time period was recorded, and this \ninformation is shown in the table below.\n\t\nDigestion of Egg Protein Over Time\nTime (hrs)\nEgg Protein Digested (%)\n0\n0\n4\n12\n8\n28\n12\n56\n16\n70\n20\n82\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 Aug. \u201925\t\n[13]\t\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Increase the number of trials. \u2014 Increase the number of setups. \u2014 Add a control with no enzyme. \u2014 Repeat the investigation many times. 47 3"
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "During which time period was the greatest amount of egg protein digested?",
+      "choices": [
+        "0\u20134 hours",
+        "4\u20138 hours",
+        "8\u201312 hours",
+        "16\u201320 hours"
+      ],
+      "image": "/images/exams/living-environment/august-2025/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nStudents carried out an investigation to determine the time needed to digest egg protein. They used an \nenzyme similar to one found in the stomach. Four grams of cooked egg white, which is mainly protein, were \nplaced in a test tube and 15 milliliters of a solution containing the enzyme were added to the tube. The test \ntube was kept at 37\u00b0C for 20 hours.\nThe percentage of protein that was digested over the 20-hour time period was recorded, and this \ninformation is shown in the table below.\n\t\nDigestion of Egg Protein Over Time\nTime (hrs)\nEgg Protein Digested (%)\n0\n0\n4\n12\n8\n28\n12\n56\n16\n70\n20\n82\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 Aug. \u201925\t\n[13]\t\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "The same investigation was repeated at a higher temperature. It was expected that more protein would be digested in less time; however, no protein was digested. State one possible reason for this result.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nStudents carried out an investigation to determine the time needed to digest egg protein. They used an \nenzyme similar to one found in the stomach. Four grams of cooked egg white, which is mainly protein, were \nplaced in a test tube and 15 milliliters of a solution containing the enzyme were added to the tube. The test \ntube was kept at 37\u00b0C for 20 hours.\nThe percentage of protein that was digested over the 20-hour time period was recorded, and this \ninformation is shown in the table below.\n\t\nDigestion of Egg Protein Over Time\nTime (hrs)\nEgg Protein Digested (%)\n0\n0\n4\n12\n8\n28\n12\n56\n16\n70\n20\n82\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 Aug. \u201925\t\n[13]\t\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The shape of the enzyme/protein changed. \u2014 The enzyme was denatured. \u2014 Heat changed the shape of the enzyme molecule so that it could not catalyze the reaction. 49 3 50 3"
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "A company makes a claim about the effectiveness of a new product. Which situation would make the claim invalid?",
+      "choices": [
+        "A large amount of test data was collected during field tests of the product.",
+        "A review of the product was conducted by a scientific journal.",
+        "Conclusions stated about the product were not supported by the data.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which statement best describes the effect of a decrease in the mouse population on another population in the food web?",
+      "choices": [
+        "The snake population would increase.",
+        "The cricket population would be unaffected.",
+        "Owls would eat more frogs.",
+        "Hawks would eat more deer."
+      ],
+      "image": "/images/exams/living-environment/august-2025/context_50_52.png",
+      "context": "Base your answers to questions 50 through 52 on the diagram of a food web below and on your knowledge \nof biology.\nMountain lions\nHawks\nOwls\nFrogs\nCrickets\nMice\nGrasses\nShrubs\nRabbits\nSnakes\nTrees\nDeer",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Describe the role of the Sun in maintaining this food web.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_50_52.png",
+      "context": "Base your answers to questions 50 through 52 on the diagram of a food web below and on your knowledge \nof biology.\nMountain lions\nHawks\nOwls\nFrogs\nCrickets\nMice\nGrasses\nShrubs\nRabbits\nSnakes\nTrees\nDeer",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 original source of energy \u2014 provides the energy for photosynthesis"
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "52",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_50_52.png",
+      "context": "Base your answers to questions 50 through 52 on the diagram of a food web below and on your knowledge \nof biology.\nMountain lions\nHawks\nOwls\nFrogs\nCrickets\nMice\nGrasses\nShrubs\nRabbits\nSnakes\nTrees\nDeer",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for: trees or shrubs or grasses. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "State which process, A or B, results in an increase in genetic variation. Support your answer. Process:",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_53_54.png",
+      "context": "Base your answers to questions 53 and 54 on the information below and on your knowledge of biology.\nHydra are small aquatic animals that attach themselves to vegetation and rocks in \nfreshwater habitats. They can reproduce by:\n\u2022 Process A: producing an outgrowth known as a bud that \n\t\n\t\nlater separates from the parent\n\u2022 Process B: producing sperm and eggs that are released\n\t\nin the water",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating process B and for supporting the answer. Acceptable responses include, but are not limited to: \u2014 It is sexual reproduction. Offspring inherit different combinations of genes. \u2014 Sexual reproduction results in a new combination of traits. \u2014 It involves the sorting and recombination of chromosomes. \u2014 It increases the chance of getting DNA from different sources."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Explain the importance of having genetic variations in a species.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_53_54.png",
+      "context": "Base your answers to questions 53 and 54 on the information below and on your knowledge of biology.\nHydra are small aquatic animals that attach themselves to vegetation and rocks in \nfreshwater habitats. They can reproduce by:\n\u2022 Process A: producing an outgrowth known as a bud that \n\t\n\t\nlater separates from the parent\n\u2022 Process B: producing sperm and eggs that are released\n\t\nin the water",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 It allows some individuals to survive in a changing environment. \u2014 It increases biodiversity by increasing genetic combinations. \u2014 There is a better chance the species will survive."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "The State of New York is currently banning the transport of untreated firewood,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 By banning the transport of firewood, the emerald ash borer might be contained in an area and not spread into unaffected areas. \u2014 The transport of untreated firewood may lead to the elimination of ash trees. \u2014 It will slow/stop the spread of an invasive species. \u2014 Untreated firewood could contain the ash borer, which could disrupt local food webs. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "State one life function that would be affected by cobra venom and explain why it would be affected.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of biology.\nAcetylcholine Receptors\nAcetylcholine receptors are found on the cell membranes of muscle cells. Produced by \nnerve cells, acetylcholine is an important molecule that allows for communication between \nnerve and muscle cells.\nMany organisms produce poisons that block acetylcholine receptors, causing an inability \nfor muscles to move. An example of this is a neurotoxin found in cobra venom. Cobra venom \ncontains a molecule that blocks acetylcholine molecules from binding to receptors on the \ndiaphragm muscle cells of the prey. The diaphragm is a muscle that controls breathing.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating one life function that would be affected by cobra venom and explaining why it would be affected. Acceptable responses include, but are not limited to: \u2014 movement \u2013 communication between nerve and muscle cells is blocked \u2014 respiration/breathing because it causes the diaphragm to stop functioning \u2014 coordination \u2013 nerve cells would not be able to send messages to muscle cells \u2014 (aerobic) cellular respiration because it requires oxygen and the venom causes breathing to stop"
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Explain how cobra venom interferes with cellular communication.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of biology.\nAcetylcholine Receptors\nAcetylcholine receptors are found on the cell membranes of muscle cells. Produced by \nnerve cells, acetylcholine is an important molecule that allows for communication between \nnerve and muscle cells.\nMany organisms produce poisons that block acetylcholine receptors, causing an inability \nfor muscles to move. An example of this is a neurotoxin found in cobra venom. Cobra venom \ncontains a molecule that blocks acetylcholine molecules from binding to receptors on the \ndiaphragm muscle cells of the prey. The diaphragm is a muscle that controls breathing.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The venom contains a molecule that blocks the acetylcholine receptors on muscle cells. \u2014 The nerve cells cannot communicate with the muscle cells because the receptors are blocked. \u2014 It blocks receptors on cells. \u2014 It blocks the communication between nerve and muscle cells."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Identify the type of pollen that caused the greatest histamine level in the student.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the information below and on your knowledge of biology.\nThe immune system protects the body in multiple ways, one of which is through the \nswelling of tissue. Upon injury, histamine is released which causes swelling. Swelling helps \nto prevent an infection from spreading throughout the body. The greater the histamine \nlevel, the greater the swelling. Sometimes, harmless substances, such as pollen, will cause \nhistamine to be released and swelling to occur.\nThe data table below shows the pollen level in the air and the histamine levels in a \nstudent for two months in the summer.\nPollen Levels and Student Histamine Levels for Two Months\nDate\nTree Pollen\nGrass Pollen\nRagweed \nPollen\nHistamine Level \n(mg/mL)\n6/30\nhigh\nlow\nnone\n0.3\n7/4\nhigh\nmoderate\nnone\n0.5\n7/19\nmoderate\nhigh\nnone\n0.3\n8/15\nlow\nmoderate\nlow\n1.2\n8/30\nnone\nlow\nhigh\n2.5",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for ragweed."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Explain why exposure to pollen caused the student to have increased histamine levels.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the information below and on your knowledge of biology.\nThe immune system protects the body in multiple ways, one of which is through the \nswelling of tissue. Upon injury, histamine is released which causes swelling. Swelling helps \nto prevent an infection from spreading throughout the body. The greater the histamine \nlevel, the greater the swelling. Sometimes, harmless substances, such as pollen, will cause \nhistamine to be released and swelling to occur.\nThe data table below shows the pollen level in the air and the histamine levels in a \nstudent for two months in the summer.\nPollen Levels and Student Histamine Levels for Two Months\nDate\nTree Pollen\nGrass Pollen\nRagweed \nPollen\nHistamine Level \n(mg/mL)\n6/30\nhigh\nlow\nnone\n0.3\n7/4\nhigh\nmoderate\nnone\n0.5\n7/19\nmoderate\nhigh\nnone\n0.3\n8/15\nlow\nmoderate\nlow\n1.2\n8/30\nnone\nlow\nhigh\n2.5",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The pollen is an antigen that stimulates an immune response. \u2014 The pollen caused an allergic reaction. \u2014 Pollen stimulates the immune system to release histamine. \u2014 The student\u2019s body interpreted the pollen as harmful and releases histamine."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Describe one way, other than swelling,",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the information below and on your knowledge of biology.\nThe immune system protects the body in multiple ways, one of which is through the \nswelling of tissue. Upon injury, histamine is released which causes swelling. Swelling helps \nto prevent an infection from spreading throughout the body. The greater the histamine \nlevel, the greater the swelling. Sometimes, harmless substances, such as pollen, will cause \nhistamine to be released and swelling to occur.\nThe data table below shows the pollen level in the air and the histamine levels in a \nstudent for two months in the summer.\nPollen Levels and Student Histamine Levels for Two Months\nDate\nTree Pollen\nGrass Pollen\nRagweed \nPollen\nHistamine Level \n(mg/mL)\n6/30\nhigh\nlow\nnone\n0.3\n7/4\nhigh\nmoderate\nnone\n0.5\n7/19\nmoderate\nhigh\nnone\n0.3\n8/15\nlow\nmoderate\nlow\n1.2\n8/30\nnone\nlow\nhigh\n2.5",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 produces antibodies against pathogens \u2014 White blood cells engulf invaders. \u2014 White blood cells attack the invaders. \u2014 It releases antibodies in response to antigens. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Copies of the human gene for insulin are removed from human cells before being placed in bacteria. Identify the specific kind of molecule that is used to cut and transfer the genes.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of biology.\nInsulin Then and Now\nBefore 1978, diabetics were given insulin obtained from animals such as pigs or cows. \nScientists then began making human insulin using recombinant DNA technology, where \ncopies of the gene for human insulin are put into bacteria. The bacteria then produce human \ninsulin.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 enzymes/restriction enzymes \u2014 Restriction enzymes are used to remove the DNA from the human cell."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Explain why all the offspring produced by the altered bacteria should be able to make human insulin.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of biology.\nInsulin Then and Now\nBefore 1978, diabetics were given insulin obtained from animals such as pigs or cows. \nScientists then began making human insulin using recombinant DNA technology, where \ncopies of the gene for human insulin are put into bacteria. The bacteria then produce human \ninsulin.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 All offspring bacteria will be identical to the parent. \u2014 They all have the gene to produce insulin. \u2014 Bacteria reproduce asexually."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "63",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of biology.\nInsulin Then and Now\nBefore 1978, diabetics were given insulin obtained from animals such as pigs or cows. \nScientists then began making human insulin using recombinant DNA technology, where \ncopies of the gene for human insulin are put into bacteria. The bacteria then produce human \ninsulin.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The insulin made by the bacteria is identical to normal human insulin, so diabetics won\u2019t have a reaction against it like they might with the animal insulin. \u2014 Diabetics might be allergic to the insulin from animals, but not to the insulin made by the bacteria. \u2014 The bacterial insulin may be cheaper/easier/faster to produce. \u2014 There would be fewer allergic reactions/side effects."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Explain why the concentration of DDT in the tissues of the animals in this food chain increases (biomagnification) at each level. The graph below shows the changes in the New York State bald eagle population from 1967 to 2007. Breeding Bald Eagles in New York: 1967-2007 140 120 100 80 60 40 20 0 Number of Breeding Pairs Year 1967 1969 1971 1973 1975 1977 1979 1981 1983 1985 1987 1989 1991 1993 1995 1997 1999 2003 2005 2007 2001",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_64_66.png",
+      "context": "Base your answers to questions 64 through 66 on the diagram, graph, and information below and on your \nknowledge of biology.\nBiomagnification of DDT\nFrom the 1940s until the 1970s, DDT was used to control mosquitoes spreading malaria \nand lice transmitting typhus, both of which are diseases that might be fatal. The use of DDT \nresulted in dramatic reductions in the number of people with these diseases.\nWhen DDT enters an aquatic environment, it is taken in by microscopic organisms \n(plankton) that are eaten by aquatic animals. The DDT is stored in the fatty tissues of aquatic \nanimals, rather than being excreted. This is how DDT becomes part of the food chain.\nThe bald eagle population in New York State began declining in the early 1900s, and by \n1952, bald eagles were rare. Scientists learned that this was partially due to the extensive \nuse of DDT. DDT and several other pesticides inhibited eagle reproduction by making the \nshells of their eggs too thin to support the weight of parent birds attempting to incubate \nthe eggs. The shells broke and the young did not survive. By 1974, the New York State \npopulation consisted of a single, non-reproducing pair in Livingston County.\nDDT in\nfish-eating birds\n25 ppm\nDDT in\nlarge fish\n2 ppm\nDDT in\nsmall fish\n0.5 ppm\nDDT in\nplankton\n0.04 ppm\nDDT in water\n0.000003 ppm\n \n\nLiving Environment \u2013 Aug. \u201925\t\n[21]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Animals higher in the food chain eat more organisms and store more DDT. \u2014 The concentration increases because each animal consumes organisms that already have some DDT in their tissues. The DDT is not excreted, so it just adds up. \u2014 The DDT is stored in each animal\u2019s fatty tissues. An herbivore accumulates DDT from all of the plants it eats. A carnivore accumulates the DDT of all of the herbivores it consumes. The top carnivore gets all of the DDT consumed by the organisms below it in the food chain."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "What is the most likely value for the missing data from 1993?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_64_66.png",
+      "context": "Base your answers to questions 64 through 66 on the diagram, graph, and information below and on your \nknowledge of biology.\nBiomagnification of DDT\nFrom the 1940s until the 1970s, DDT was used to control mosquitoes spreading malaria \nand lice transmitting typhus, both of which are diseases that might be fatal. The use of DDT \nresulted in dramatic reductions in the number of people with these diseases.\nWhen DDT enters an aquatic environment, it is taken in by microscopic organisms \n(plankton) that are eaten by aquatic animals. The DDT is stored in the fatty tissues of aquatic \nanimals, rather than being excreted. This is how DDT becomes part of the food chain.\nThe bald eagle population in New York State began declining in the early 1900s, and by \n1952, bald eagles were rare. Scientists learned that this was partially due to the extensive \nuse of DDT. DDT and several other pesticides inhibited eagle reproduction by making the \nshells of their eggs too thin to support the weight of parent birds attempting to incubate \nthe eggs. The shells broke and the young did not survive. By 1974, the New York State \npopulation consisted of a single, non-reproducing pair in Livingston County.\nDDT in\nfish-eating birds\n25 ppm\nDDT in\nlarge fish\n2 ppm\nDDT in\nsmall fish\n0.5 ppm\nDDT in\nplankton\n0.04 ppm\nDDT in water\n0.000003 ppm\n \n\nLiving Environment \u2013 Aug. \u201925\t\n[21]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 20 \u00b1 1."
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "The domestic use of DDT was banned in the United States in 1972. Based on the data in the graph, has this ban been successful?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_64_66.png",
+      "context": "Base your answers to questions 64 through 66 on the diagram, graph, and information below and on your \nknowledge of biology.\nBiomagnification of DDT\nFrom the 1940s until the 1970s, DDT was used to control mosquitoes spreading malaria \nand lice transmitting typhus, both of which are diseases that might be fatal. The use of DDT \nresulted in dramatic reductions in the number of people with these diseases.\nWhen DDT enters an aquatic environment, it is taken in by microscopic organisms \n(plankton) that are eaten by aquatic animals. The DDT is stored in the fatty tissues of aquatic \nanimals, rather than being excreted. This is how DDT becomes part of the food chain.\nThe bald eagle population in New York State began declining in the early 1900s, and by \n1952, bald eagles were rare. Scientists learned that this was partially due to the extensive \nuse of DDT. DDT and several other pesticides inhibited eagle reproduction by making the \nshells of their eggs too thin to support the weight of parent birds attempting to incubate \nthe eggs. The shells broke and the young did not survive. By 1974, the New York State \npopulation consisted of a single, non-reproducing pair in Livingston County.\nDDT in\nfish-eating birds\n25 ppm\nDDT in\nlarge fish\n2 ppm\nDDT in\nsmall fish\n0.5 ppm\nDDT in\nplankton\n0.04 ppm\nDDT in water\n0.000003 ppm\n \n\nLiving Environment \u2013 Aug. \u201925\t\n[21]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for basing the answer on the data in the graph whether or not the ban had been successful and for supporting the answer. Acceptable responses include, but are not limited to: \u2014 The DDT ban has been successful because the eagle population went from no breeding pairs in 1972 to more than 120 in 2007. \u2014 The ban has been successful. Since 1972, the number of breeding pairs of eagles has increased from zero to more than 120. \u2014 Yes, the number of eagles has increased. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Explain how the banning of DDT is an example of a trade-off.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The ban is a trade-off. Without DDT, there may be more insects that transmit diseases. However, DDT won\u2019t be in the environment and accumulate in the fatty tissue of animals. \u2014 Banning DDT is an example of a trade-off because without DDT, the eagle population increases, but so could mosquitoes that spread malaria/lice that transmit typhus. \u2014 There could be more mosquitoes but the DNA would be removed from the food chain. Note: Do not allow credit if only an advantage or a disadvantage is stated."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "State one specific action, other than removing DDT from the environment, that will help ensure that the eagle population will continue to increase.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 People can protect eagle habitats. \u2014 Laws can be passed to make it illegal to hunt or kill eagles. \u2014 Set up protected eagle nesting sites."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Identify one relationship that exists between the flying carp and the native fish population.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the passage below and on your knowledge of biology.\nFlying Carp\nThe flying carp is a foreign fish that has been introduced by humans into American \nrivers. These fish feed on native fish populations and some of the same food sources as many \nnative fish populations.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 predator-prey \u2014 competition \u2014 The carp eat native fish."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State one reason why the flying carp might be successful in the new environment.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the passage below and on your knowledge of biology.\nFlying Carp\nThe flying carp is a foreign fish that has been introduced by humans into American \nrivers. These fish feed on native fish populations and some of the same food sources as many \nnative fish populations.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Carp are well-adapted to their new environment. \u2014 A lot of food is available. \u2014 fewer predators/no natural enemies \u2014 They might outcompete native fish."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "71",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the passage below and on your knowledge of biology.\nFlying Carp\nThe flying carp is a foreign fish that has been introduced by humans into American \nrivers. These fish feed on native fish populations and some of the same food sources as many \nnative fish populations.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The introduced fish might kill off/eliminate some native species. \u2014 There will be less biodiversity. \u2014 The food web will be disrupted."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "72",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 72 on the information below and on your knowledge of biology.\nBlackcap Migrations\nThe common practice of feeding birds during the winter can have a profound effect on \nthe evolutionary future of a species. Scientists have been studying the blackcap, a bird that \nis widespread throughout northern Europe. They observed that the original population had \nsplit into two groups. These two groups, even though they inhabit the same forests for part \nof the year, are now unable to interbreed.\nResearchers have noticed that, in recent years, large numbers of these birds are spending \nthe winter in backyards and gardens in southern England, instead of migrating to areas \naround the Mediterranean. It is thought that the easy availability of food from bird feeders \ncompensates for the less-than-desirable climate. It has been reported that those birds \nwintering in England tend to mate with each other and avoid the birds that spend the winter \nin warmer areas.\nDifferences between the two groups are becoming more and more obvious. The wings \nof blackcaps spending the winter in England are becoming rounder. This allows them to \nmaneuver better, but limits the distance they can fly. Their beaks are longer and narrower \nthan the beaks of the other group, enabling them to more easily feed on the seeds in feeders. \nThe other group feeds on small fruits and insects.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 In recent years, more people are putting out bird feeders. \u2014 Climate change has resulted in warmer winter weather in southern England. \u2014 They find enough food in backyards. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "Finches found living on Pinta Island have different beak structures than finches found on Espa\u00f1ola Island. The most likely explanation for these differences is that the",
+      "choices": [
+        "finches on each island evolved from the same original ancestors",
+        "finches on each island adapted to different niches",
+        "resources necessary for the survival of finches were found only on one island",
+        "the environment of the islands changed, depending upon the season"
+      ],
+      "image": "/images/exams/living-environment/august-2025/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the map below and on your knowledge of biology. The map \nshows the Galapagos Islands, which is a group of volcanic islands located 600 miles off the coast of South America \nin the Pacific Ocean.\nPacific Ocean\nPinta\nMarchena\nGenovesa\nSan Salvador\nNorth Seymour\nBaltra\nSanta Cruz\nEspa\u00f1ola\nSanta F\u00e9\nChampion\nIslet\nFloreana\nIsabela\nFernandina\nSan Crist\u00f3bal\n\t\nNote: The answer to question 73 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "The type of food available on the Galapagos Islands is thought to have had a major influence on the evolution of finches. Which factor would have the least influence on the evolution of the finches?",
+      "choices": [
+        "competition with other birds",
+        "predators living in the same area",
+        "plant species growing on the islands",
+        "stable temperatures on the islands"
+      ],
+      "image": "/images/exams/living-environment/august-2025/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the map below and on your knowledge of biology. The map \nshows the Galapagos Islands, which is a group of volcanic islands located 600 miles off the coast of South America \nin the Pacific Ocean.\nPacific Ocean\nPinta\nMarchena\nGenovesa\nSan Salvador\nNorth Seymour\nBaltra\nSanta Cruz\nEspa\u00f1ola\nSanta F\u00e9\nChampion\nIslet\nFloreana\nIsabela\nFernandina\nSan Crist\u00f3bal\n\t\nNote: The answer to question 73 should be recorded on your separate answer sheet.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "Which types of evidence do these three diagrams represent?",
+      "choices": [
+        "structural and fossil",
+        "chromosomal and molecular",
+        "chemical and geographical",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "A student recorded his pulse rate for 20 seconds. He repeated this two more times. In his data table, the results were recorded as 21 beats, 19 beats, and 14 beats. The student\u2019s average pulse rate per minute was",
+      "choices": [
+        "19",
+        "21",
+        "54",
+        "80 Students carried out an investigation using the sequence of steps listed below. After each step, the pulse rate was measured and recorded in a data table. 1. Stand motionless for 1 minute. 2. Walk slowly for 1 minute. 3. Walk quickly for 1 minute. 4. Run slowly for 1 minute. 5. Run quickly for 1 minute."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Explain why the independent variable is the level of physical activity, rather than the pulse rate.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Pulse is dependent on the level of activity. \u2014 Activity level affects pulse rate. \u2014 The activity is the variable that you directly control. \u2014 The activity is the manipulated variable."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "State one change that could be observed in human cells on a microscope slide after they are exposed to salt water.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The cells would appear smaller after being exposed to salt water. \u2014 The cells would have shrunk. \u2014 The cells would appear to have lost water."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Explain how an increase in heart rate during strenuous activity helps to maintain homeostasis.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 During exercise, increased heart rate moves more food and O2 to cells. \u2014 During exercise, cells produce more carbon dioxide that must be taken to the lungs for disposal. \u2014 During exercise, the body produces excess heat. Blood must travel to the skin faster to remove this extra heat. \u2014 Increased heart rate moves food and O2 to cells faster."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Identify which plant appears to be most closely related to plant A. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_80_81.png",
+      "context": "Base your answers to questions 80 and 81 on the information and data table below and on your knowledge \nof biology.\nStructural characteristics of four plants were observed and recorded in a data table.\nPlant Characteristics\nPlant\nFlowers\nLeaves\nStem Cross \nSection\nRoots\nA\nyellow, 8 petals\nsimple, opposite, \nbranched veins\ncircular pattern\ntap root\nB\nred, 8 petals\nsimple, opposite, \nbranched veins\ncircular pattern\ntap root\nC\nyellow, 6 petals\nsimple, parallel veins\nscattered pattern\nfibrous root\nD\nyellow, 6 petals\ncompound, alternate, \nbranched veins\ncircular pattern\nfibrous root",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for B and supporting the answer. Acceptable responses include, but are not limited to: \u2014 because it has the most similar characteristics to plant A \u2014 because all observed traits are the same except flower color \u2014 It has three out of four traits in common. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "A technique that could be used to determine relationships between organisms more accurately than the use of the information in the data table is",
+      "choices": [
+        "genetic engineering",
+        "gene manipulation",
+        "protein analysis",
+        "cloning"
+      ],
+      "image": "/images/exams/living-environment/august-2025/context_80_81.png",
+      "context": "Base your answers to questions 80 and 81 on the information and data table below and on your knowledge \nof biology.\nStructural characteristics of four plants were observed and recorded in a data table.\nPlant Characteristics\nPlant\nFlowers\nLeaves\nStem Cross \nSection\nRoots\nA\nyellow, 8 petals\nsimple, opposite, \nbranched veins\ncircular pattern\ntap root\nB\nred, 8 petals\nsimple, opposite, \nbranched veins\ncircular pattern\ntap root\nC\nyellow, 6 petals\nsimple, parallel veins\nscattered pattern\nfibrous root\nD\nyellow, 6 petals\ncompound, alternate, \nbranched veins\ncircular pattern\nfibrous root",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "A student placed one solution in a beaker and another solution inside a dialysis tubing bag that was suspended in the solution in the beaker. In which setup would the contents of the dialysis tubing bag turn blue-black after a few minutes? Setup Beaker Dialysis Bag",
+      "choices": [
+        "glucose solution starch solution",
+        "starch solution glucose solution",
+        "starch solution starch indicator solution",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2025/q82.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "83",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_83_83.png",
+      "context": "Base your answer to question 83 on the diagram below and on your knowledge of biology. The diagram shows \nthe beaks of several different bird species.\na\nd\ng\nb\ne\nh\nc\nf\ni",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for selecting one species that would compete with species g and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Species c might compete because they have similar curved beak shapes. \u2014 Species c, because its beak is small like g. \u2014 Species a, because the shapes of the beaks indicate that they may eat similar foods. \u2014 Species d, because it has a short, thick beak like g."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "84",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_84_84.png",
+      "context": "Base your answer to question 84 on the diagram below and on your knowledge of biology. The diagram \nrepresents an experimental setup with a model cell. The letters G, P, and S represent molecules present in the \nsetup.\nG\nS\nP\nBeaker\nModel cell\nWater\nKey\nG = Glucose\nP = Protein\nS  = Starch",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for diffusion or passive transport or osmosis."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2025/context_85_85.png",
+      "context": "Base your answer to question 85 on the table and graph below and on your knowledge of biology.\nWhen writing a lab report, a student organized his data in the data table below and used \nthese data to plot the graph.\nClothespin Squeezing Results\nTrial Number\nNumber of \nClothespin Squeezes\n1\n25\n2\n20\n3\n18\n4\n15\n1\n3\n4\nClothespin Squeezing Results\n35\n30\n25\n20\n15\n10\n5\nNumber of Clothespin Squeezes\n2",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying two mistakes made when graphing the information from the table. Acceptable responses include, but are not limited to: \u2014 The students did not label the x-axis and the data point for 18 squeezes is not plotted correctly. \u2014 The scale is wrong for the Trial Numbers axis (x-axis), and the x-axis is not labeled. Living Environment Rating Guide \u2013 Aug. \u2019"
+    }
+  ]
+}

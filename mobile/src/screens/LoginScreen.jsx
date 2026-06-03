@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import {
   View, Text, TextInput, TouchableOpacity, StyleSheet,
   KeyboardAvoidingView, Platform, ScrollView, ActivityIndicator, Alert, Image, Animated,
@@ -20,6 +20,16 @@ export default function LoginScreen({ navigation }) {
   const [name, setName]         = useState('')
   const [loading, setLoading]   = useState(false)
   const [focusedField, setFocusedField] = useState(null)
+  const [appleAvailable, setAppleAvailable] = useState(false)
+
+  // Sign in with Apple is iOS 13+ only; show the button only where it's supported.
+  useEffect(() => {
+    let mounted = true
+    AppleAuthentication.isAvailableAsync()
+      .then((ok) => { if (mounted) setAppleAvailable(ok) })
+      .catch(() => {})
+    return () => { mounted = false }
+  }, [])
 
   const submitScale = useRef(new Animated.Value(1)).current
   const googleScale = useRef(new Animated.Value(1)).current
@@ -58,8 +68,9 @@ export default function LoginScreen({ navigation }) {
     try {
       await signInWithApple()
     } catch (e) {
-      // ERR_CANCELED means the user closed the sheet — don't show an error
-      if (e.code !== 'ERR_CANCELED') {
+      // User closed the sheet — don't show an error. expo-apple-authentication 7.x
+      // rejects with ERR_REQUEST_CANCELED; older/native variants use ERR_CANCELED.
+      if (e.code !== 'ERR_REQUEST_CANCELED' && e.code !== 'ERR_CANCELED') {
         Alert.alert('Sign in failed', e.message)
       }
     } finally {
@@ -182,6 +193,17 @@ export default function LoginScreen({ navigation }) {
             <View style={s.divLine} />
           </View>
 
+          {/* Apple Sign-In — grouped with Google; required by App Store Guideline 4.8. */}
+          {appleAvailable && Platform.OS === 'ios' && (
+            <AppleAuthentication.AppleAuthenticationButton
+              buttonType={AppleAuthentication.AppleAuthenticationButtonType.SIGN_IN}
+              buttonStyle={AppleAuthentication.AppleAuthenticationButtonStyle.BLACK}
+              cornerRadius={14}
+              style={s.appleBtn}
+              onPress={handleApple}
+            />
+          )}
+
           {/* Google Sign-In */}
           <Animated.View style={{ transform: [{ scale: googleScale }], width: '100%' }}>
             <TouchableOpacity
@@ -242,24 +264,6 @@ export default function LoginScreen({ navigation }) {
             Progress saved locally. Link an account any time.
           </Text>
 
-          {/* Apple Sign-In — requires paid Apple Developer account; hidden for dev builds */}
-          {false && Platform.OS === 'ios' && (
-            <>
-              <View style={s.divider}>
-                <View style={s.divLine} />
-                <Text style={[T.label, { color: C.textMuted }]}>OR</Text>
-                <View style={s.divLine} />
-              </View>
-              <AppleAuthentication.AppleAuthenticationButton
-                buttonType={AppleAuthentication.AppleAuthenticationButtonType.SIGN_IN}
-                buttonStyle={AppleAuthentication.AppleAuthenticationButtonStyle.BLACK}
-                cornerRadius={14}
-                style={s.appleBtn}
-                onPress={handleApple}
-              />
-            </>
-          )}
-
           <View style={{ height: 32 }} />
         </ScrollView>
       </KeyboardAvoidingView>
@@ -287,6 +291,6 @@ function makeStyles(C) {
       borderWidth: 1.5, borderColor: '#dadce0',
     },
     googleG:    { fontSize: 18, fontWeight: '700', color: '#4285F4', width: 20, textAlign: 'center' },
-    appleBtn:   { width: '100%', height: 52 },
+    appleBtn:   { width: '100%', height: 52, marginBottom: 10 },
   })
 }

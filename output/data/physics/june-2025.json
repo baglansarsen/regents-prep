@@ -1,0 +1,1086 @@
+{
+  "subject": "physics",
+  "session": "june-2025",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The magnitude of the acceleration of the car is",
+      "choices": [
+        "0.0500 m/s2",
+        "1.25 m/s2",
+        "2.50 m/s2",
+        "3.13 m/s2"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 1 and 2 on the \ninformation below and on your knowledge of physics. \n\t A car, initially moving at 20.0 meters per second, \ntravels 200. meters while accelerating uniformly to \na speed of 30.0 meters per second.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The time required for the car to travel the 200. meters is",
+      "choices": [
+        "6.67 s",
+        "8.00 s",
+        "10.0 s",
+        "20.0 s"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 1 and 2 on the \ninformation below and on your knowledge of physics. \n\t A car, initially moving at 20.0 meters per second, \ntravels 200. meters while accelerating uniformly to \na speed of 30.0 meters per second.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "A car traveling at 12 meters per second north accelerates in a straight line at 3.0 meters per second squared north for 4.0 seconds. How far north does the car travel during the 4.0 seconds it accelerates?",
+      "choices": [
+        "24 m",
+        "48 m",
+        "54 m",
+        "72 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "A block weighing 10. newtons rests on an inclined plane, as shown in the diagram below. 30\u00b0 10.N Block The magnitude of the component of the block\u2019s weight perpendicular to the plane is closest to",
+      "choices": [
+        "5.0 N",
+        "5.8 N",
+        "8.7 N",
+        "10. N"
+      ],
+      "image": "/images/exams/physics/june-2025/q4.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "A sailor is near the top of a sailboat mast. The sailboat is traveling at a constant velocity of 5.0 meters per second west. The sailor drops a screwdriver that falls freely for 1.0 second before hitting the deck of the sailboat. [Neglect friction.] Where does the screwdriver land?",
+      "choices": [
+        "directly below the sailor",
+        "5.0 m behind the sailor",
+        "5.0 m in front of the sailor",
+        "49 m behind the sailor"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A marble is projected horizontally from a fixed height above a level floor. If the marble is projected horizontally again from the same fixed height, but with twice the initial speed, its time of flight will be",
+      "choices": [
+        "halved",
+        "doubled",
+        "unchanged",
+        "quartered"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which animal has the greatest inertia?",
+      "choices": [
+        "an 8.0-kg meerkat moving at 2 m/s",
+        "a 350-kg zebra moving at 18 m/s",
+        "a 190-kg lion moving at 0.5 m/s",
+        "an 1800-kg hippopotamus at rest"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A cart is rolling along in a straight line on an inclined ramp. The cart is in equilibrium when it is rolling up or down the ramp with",
+      "choices": [
+        "decreasing speed",
+        "increasing speed",
+        "constant acceleration",
+        "constant speed"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A 3.5-kilogram bowling ball and a 7.0-kilogram bowling ball are in free fall near the surface of Earth. Compared to the magnitude of the acceleration of the 3.5-kilogram ball, the magnitude of the acceleration of the 7.0-kg ball is",
+      "choices": [
+        "half as great",
+        "twice as great",
+        "the same",
+        "four times greater"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a 600-newton student standing in an elevator. The elevator floor exerts an upward force of 400 newtons on the student. The student has",
+      "choices": [
+        "a constant velocity directed downward",
+        "a constant velocity directed upward",
+        "an acceleration directed downward",
+        "an acceleration directed upward"
+      ],
+      "image": "/images/exams/physics/june-2025/q10.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "One end of a spring is held stationary and a 40.-newton force applied to the free end of the spring elongates the spring 0.20 meter from its unstretched length. What is the magnitude of the total force required to stretch the spring 0.80 meter from its unstretched length if the spring\u2019s elastic limit has not been exceeded?",
+      "choices": [
+        "10. N",
+        "20. N",
+        "120 N",
+        "160 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The engine of a toy train is traveling at constant speed on a horizontal, circular track. If the speed of the engine is doubled, the magnitude of the centripetal acceleration of the engine is",
+      "choices": [
+        "halved",
+        "doubled",
+        "quartered",
+        "quadrupled"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The strength of an electric field has a magnitude of 3.5 \u00d7 105 newtons per coulomb. What is the magnitude of the electrostatic force on a 5.3 \u00d7 10\u20136-coulomb charge in this field?",
+      "choices": [
+        "1.5 \u00d7 10\u201311 N",
+        "1.9 N",
+        "19 N",
+        "6.6 \u00d7 1010 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "A car is traveling on a level highway at a speed of 15.0 meters per second. A braking force of magnitude 3.00 \u00d7 103 newtons brings the car to a stop in 10.0 seconds. The mass of the car is",
+      "choices": [
+        "1.50 \u00d7 103 kg",
+        "2.00 \u00d7 103 kg",
+        "3.00 \u00d7 103 kg",
+        "4.50 \u00d7 103 kg"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "A 5.00-kilogram cart traveling east at a speed of 15.0 meters per second collides with a 10.0 kilogram cart traveling west at a speed of 15.0 meters per second. The total momentum of the two-cart system after the collision is",
+      "choices": [
+        "75.0 kg \u2022 m/s west",
+        "75.0 kg \u2022 m/s east",
+        "225 kg \u2022 m/s west",
+        "225 kg \u2022 m/s east"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "In the diagram below, a force acts to the right on a proton, P, in an electric field. P Force A C D B To produce this force, the direction of the electric field at the position of the proton is toward point",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/physics/june-2025/q16.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "While investigating static electricity, a student notices a negatively charged plastic rod attracts a small piece of paper. The student correctly concludes the charge of the paper",
+      "choices": [
+        "must be negative",
+        "must be positive",
+        "could be negative or neutral",
+        "could be positive or neutral"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a 1.0-kilogram cart moving to the right at 1.0 meter per second that is about to collide head on with a 2.0-kilogram cart moving to the left at 2.0 meters per second. During the collision, the magnitude of the force exerted on the 1.0-kilogram cart by the 2.0-kilogram car is F. 2.0 m/s 2.0 kg Frictionless, horizontal surface 1.0 m/s 1.0 kg What is the magnitude of the force exerted on the 2.0-kilogram cart by the 1.0-kilogram cart during the collision?",
+      "choices": [
+        "F/4",
+        "F/2",
+        "F",
+        "2F"
+      ],
+      "image": "/images/exams/physics/june-2025/q18.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Sunlight shines on solar panels on the roof of a house. The panels are hooked up to the house\u2019s electrical system, which is used to operate a microwave oven that heats up a cup of coffee. What energy conversions are taking place in this entire process?",
+      "choices": [
+        "electromagnetic \u2192 electrical \u2192 electromagnetic \u2192 thermal",
+        "thermal \u2192 electromagnetic \u2192 nuclear \u2192 electrical",
+        "mechanical \u2192 electrical \u2192 electromagnetic \u2192 chemical",
+        "electromagnetic \u2192 thermal \u2192 mechanical \u2192 electrical"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "written",
+      "text": "Which graph best represents the relationship between the potential difference across a resistor and the resulting current through the resistor, for a resistor that obeys Ohm\u2019s law? Current ( 1 ) Potential Difference Current ( 2 ) Potential Difference Current ( 3 ) Potential Difference Current ( 4 ) Potential Difference",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "As shown in the diagram of a pendulum below, mass M is released from rest at point A and allowed to swing through point B to point C. [Neglect friction.] 0.4 m 0.4 m A M B C Compared to the kinetic energy of mass M at point B, the kinetic energy of mass M at point C is",
+      "choices": [
+        "half as great",
+        "twice as great",
+        "the same",
+        "four times greater"
+      ],
+      "image": "/images/exams/physics/june-2025/q21.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A student, running at 6 meters per second, slides to rest on a horizontal floor. As the student slides, the internal energy of the student-floor system",
+      "choices": [
+        "decreases and the student\u2019s kinetic energy decreases",
+        "increases and the student\u2019s kinetic energy decreases",
+        "decreases and the student\u2019s kinetic energy remains the same",
+        "increases and the student\u2019s kinetic energy remains the same"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which object will most likely produce a magnetic field?",
+      "choices": [
+        "a stationary neutral object",
+        "a moving neutral object",
+        "a stationary charged object",
+        "a moving charged object"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "To reduce the electrical resistance of a copper wire, increase the wire\u2019s",
+      "choices": [
+        "length",
+        "temperature",
+        "diameter",
+        "resistivity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "A potential difference of 12 volts is applied across a resistor for 60. seconds. A constant current of 0.10 ampere flows through the resistor during this time. What is the power of the resistor?",
+      "choices": [
+        "1.2 W",
+        "12 W",
+        "72 W",
+        "120 W"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "What type of waves are sound waves?",
+      "choices": [
+        "longitudinal waves",
+        "transverse waves",
+        "electromagnetic waves",
+        "ultraviolet waves"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "As waves travel through space, they transfer",
+      "choices": [
+        "mass, only",
+        "energy, only",
+        "both mass and energy",
+        "neither mass nor energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The frequency of an orange light wave is 4.85 \u00d7 1014 hertz. What is the wavelength of the wave in a vacuum?",
+      "choices": [
+        "1.00 \u00d7 10\u20137 m",
+        "4.82 \u00d7 10\u20137 m",
+        "5.96 \u00d7 10\u20137 m",
+        "6.19 \u00d7 10\u20137 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which statement describes mechanical and electromagnetic waves?",
+      "choices": [
+        "Mechanical waves all travel at the same speed in a vacuum, whereas the speeds of electromagnetic waves vary in a vacuum.",
+        "Mechanical waves all have the same frequency, whereas electromagnetic waves all have the same period.",
+        "Mechanical waves require a material medium through which to travel, whereas eletromagnetic waves can travel through a vacuum.",
+        "Mechanical waves are transverse waves, whereas electromagnetic waves are longitudinal waves."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Which diagram represents a parallel circuit with an equivalent resistance of 4.0 ohms? ( 1 ) 2.0 \u2126 2.0 \u2126 ( 3 ) 2.0 \u2126 2.0 \u2126 ( 2 ) 8.0 \u2126 8.0 \u2126 ( 4 ) 8.0 \u2126 8.0 \u2126",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The diagram below shows four waves. A B C D Which two waves, when superimposed, would produce complete destructive interference at every point along the waves?",
+      "choices": [
+        "A and C",
+        "A and D",
+        "B and C",
+        "B and D"
+      ],
+      "image": "/images/exams/physics/june-2025/q31.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "A musician plays a flute by blowing across the opening in the mouth piece of the flute. This causes the air inside the flute to vibrate and produce sound waves. The phenomenon that causes the creation of these sound waves in a flute is",
+      "choices": [
+        "diffraction",
+        "refraction",
+        "resonance",
+        "the Doppler effect"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Compared to FM radio waves, AM radio waves",
+      "choices": [
+        "travel faster in a vacuum",
+        "travel slower in a vacuum",
+        "have a higher frequency",
+        "have a longer wavelength"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "A star approaches Earth. Compared to the frequency and wavelength of the light emitted by the star, the light detected by an observer on Earth would have a",
+      "choices": [
+        "lower frequency and shorter wavelength",
+        "lower frequency and longer wavelength",
+        "higher frequency and shorter wavelength",
+        "higher frequency and longer wavelength"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "A beam of electrons directed at a polycrystalline nickel target scatters to form a diffraction pattern on a detecting screen. The diffraction of electrons is an example of the",
+      "choices": [
+        "particle nature of light",
+        "Doppler effect",
+        "action-reaction principle",
+        "wave nature of matter"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "What is the approximate width of a typical five- passenger automobile?",
+      "choices": [
+        "2 \u00d7 10\u20131 m",
+        "2 \u00d7 100 m",
+        "2 \u00d7 101 m",
+        "2 \u00d7 102 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Two identical metal spheres with charges of +3.0 microcoulombs and \u20131.0 microcoulomb, respectively, are brought into contact and then separated. Which statement describes the electrostatic force between the spheres?",
+      "choices": [
+        "It is attractive before contact and repulsive after contact.",
+        "It is attractive both before contact and after contact.",
+        "It is repulsive before contact and attractive after contact.",
+        "It is repulsive both before contact and after contact."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "written",
+      "text": "Which graph best represents the relationship between velocity, v, and time, t, for an object moving with constant positive acceleration? ( 1 ) ( 2 ) ( 3 ) ( 4 ) t v v v v t t t",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/q38.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "A soccer ball is kicked from point Pi at an angle above a horizontal field and lands on the field at point Pf . [Neglect friction.] Horizontal field Pi Pf Ball As the ball travels from Pi to Pf in air, the horizontal component of its velocity",
+      "choices": [
+        "decreases, only",
+        "increases, only",
+        "decreases and then increases",
+        "remains the same"
+      ],
+      "image": "/images/exams/physics/june-2025/q39.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "written",
+      "text": "Which graph best represents the relationship between the forces of kinetic friction and the normal force exerted on wooden boxes of various weights as they are moved at constant velocity across a level, wooden floor? Normal Force (N) Normal Force (N) Normal Force (N) Normal Force (N) ( 1 ) ( 2 ) ( 3 ) ( 4 ) Force of Kinetic Friction (N) Force of Kinetic Friction (N) Force of Kinetic Friction (N) Force of Kinetic Friction (N)",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "A 75-kilogram student runs up a set of stairs a vertical distance of 13 meters in 25 seconds. The average power developed by the student is",
+      "choices": [
+        "3.0 W",
+        "39 W",
+        "380 W",
+        "9600 W"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The diagram below represents an apparatus consisting of two conducting rails connected to a resistor, R, and a copper wire of length d, connected to each rail in a uniform magnetic field directed into the page. Rail 2 R d X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X Rail 1 Copper wire Uniform magnetic field directed into page Electrons will flow through resistor R if the copper wire is moving",
+      "choices": [
+        "to the right, only",
+        "to the left, only",
+        "either right or left",
+        "neither right nor left"
+      ],
+      "image": "/images/exams/physics/june-2025/q42.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The current through an incandescent lamp is 0.500 ampere. The number of elementary charges that pass through the lamp in 5.00 seconds is",
+      "choices": [
+        "8.00 \u00d7 10\u201320",
+        "4.00 \u00d7 10\u201319",
+        "3.13 \u00d7 1018",
+        "1.56 \u00d7 1019"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "The equivalent resistance of the circuit is",
+      "choices": [
+        "0.5 \u2126",
+        "2.0 \u2126",
+        "3.0 \u2126",
+        "9.0 \u2126"
+      ],
+      "image": "/images/exams/physics/june-2025/context_44_45.png",
+      "context": "Base your answers to questions 44 and 45 on \nthe information and diagram below and on your \nknowledge of physics.\n\t The diagram below represents an electrical \ncircuit. The reading of A1 is 3.0 amperes.\n6.0 \u2126\n3.0 \u2126\n3.0 A\nV\nA1",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Compared to the potential difference across the 6-ohm resistor, the potential difference across the 3-ohm resistor is",
+      "choices": [
+        "the same",
+        "twice as much",
+        "one half as much",
+        "one quarter as much"
+      ],
+      "image": "/images/exams/physics/june-2025/context_44_45.png",
+      "context": "Base your answers to questions 44 and 45 on \nthe information and diagram below and on your \nknowledge of physics.\n\t The diagram below represents an electrical \ncircuit. The reading of A1 is 3.0 amperes.\n6.0 \u2126\n3.0 \u2126\n3.0 A\nV\nA1",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Which expression is a unit of work?",
+      "choices": [
+        "\u2126 V2 \u2022 s",
+        "\u2126 V2",
+        "s2 kg \u2022 m",
+        "s3 kg \u2022 m3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a wave propagating to the right through a uniform medium. Point A represents a particle of the medium. v A At the instant shown, the particle at point A is moving",
+      "choices": [
+        "right",
+        "left",
+        "up",
+        "down"
+      ],
+      "image": "/images/exams/physics/june-2025/q47.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "A ray traveling through air strikes a boundary with crown glass as shown. Incident ray Normal Crown glass Air D C B A Which path would the reflected ray take?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/physics/june-2025/q48.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The diagram below shows wave fronts going through an opening and spreading into the area behind the barrier. Wave fronts Which wave phenomenon is represented in the diagram?",
+      "choices": [
+        "resonance",
+        "Doppler effect",
+        "diffraction",
+        "reflection"
+      ],
+      "image": "/images/exams/physics/june-2025/q49.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "What occurs as an electron in a mercury atom moves from energy level b to energy level a?",
+      "choices": [
+        "a photon is emitted with an energy of 4.64 J",
+        "a photon is absorbed with an energy of 4.64 J",
+        "a photon is emitted with an energy of 7.42 3 10219 J",
+        "a photon is absorbed with an energy of 7.42 3 10219 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Determine the resistance of the toaster.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of physics. \nA 750-watt toaster is operating at 120 volts and is being used to heat a blueberry bagel \nfor 2.5 minutes.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 19 \u2126."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of physics. \nA 750-watt toaster is operating at 120 volts and is being used to heat a blueberry bagel \nfor 2.5 minutes.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units or for an answer, with units, that is consistent with the student\u2019s response to question 51. Refer to Scoring Criteria for Calculations in this rating guide. Examples of 1-credit responses: V 2 t R or W = Pt W = (750 W)(150 s) W = W = (120 V)2(150 s) (19 \u2126 )"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "52\u201353 Calculate the total amount of electrical energy consumed by the toaster during the heating of the bagel. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of physics. \nA 750-watt toaster is operating at 120 volts and is being used to heat a blueberry bagel \nfor 2.5 minutes.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to questions 51 and/or 52. Examples of 1-credit responses: W = 110 000 J or W = 1.1 \u00d7 105 J Note: Do not penalize the student more than 1 credit for errors in units in questions 52 and 53."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "In a linear accelerator, a proton is accelerated from rest through a potential difference of 4.40 \u00d7 106 volts. Determine the total kinetic energy, in joules, gained by this proton as it travels through this linear accelerator.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 7.04 \u00d7 10-13 J"
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units. Refer to Scoring Criteria for Calculations in this rating guide. Example of a 1-credit response: R = A \u03c1L (1.72 \u00d7 10\u22128 \u2126 \u2022 m)(0.050 m) R = 5.73 \u00d7 10\u221210 m2"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "55\u201356 Calculate the resistance of a 0.050-meter-long copper wire having a cross-sectional area of 5.73 \u00d7 10\u201310 meter squared at 20\u00b0C. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 55. Example of a 1-credit response: R = 1.5 W Note: Do not penalize the student more than 1 credit for errors in units in questions 55 and 56. P.S./Physics\u2013June \u2019"
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units. Refer to Scoring Criteria for Calculations in this rating guide. Examples of 1-credit responses: p = mv vA = v = 70.0 kg 585 kg \u2022 m/s or mAvA = mBvB vA = mA mBvB (70.0 kg) (90.0 kg)(6.50 m/s) v = p m"
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "57\u201358 During a football game, player A, a 70.0-kilogram football player, attempts to prevent player B, a 90.0-kilogram player, from scoring a touchdown. Player B is running toward player A at a constant speed of 6.50 meters per second. Calculate the speed of player A such that the magnitude of the momentum of player A is equal to the magnitude of the momentum of player B. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 57. Example of a 1-credit response: v = 8.36 m/s Note: Do not penalize the student more than 1 credit for errors in units in questions 57 and 58."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units. Refer to Scoring Criteria for Calculations in this rating guide. Examples of 1-credit responses: hc \u03bb (5.03 \u00d7 10\u22127 m) (6.63 \u00d7 10\u221234 J \u2022 s)(3.00 \u00d7 108 m/s) or Ephoton = Ephoton = Ephoton = hf Ephoton = (6.63 \u00d7 10\u221234 J \u2022 s)(5.96 \u00d7 1014 Hz)"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "59\u201360 A photon has a wavelength of 5.03 \u00d7 10\u20137 meter. Calculate the energy of this photon. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 59. Example of a 1-credit response: Ephoton = 3.95 \u00d7 10-19 J Note: Do not penalize the student more than 1 credit for errors in units in questions 59 and 60. P.S./Physics\u2013June \u2019"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, use a scale of 1.0 cm = 10. N and start at point P to construct a vector representing the normal force exerted on the box by the floor.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 and 62 on the information below and on your knowledge of physics. \nA 53-newton box on a horizontal surface is pulled toward the right by a horizontal force \nof 27 newtons. The force of friction exerted on the box by the surface has a magnitude of \n16 newtons.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for constructing a vector pointing toward the top of the page that is 5.3 cm 6 0.2 cm in length. Example of a 1-credit response: P Horizontal surface Note: Do not penalize the student if the vector does not start at point P."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Determine the magnitude of the net force acting on the box.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/q62.png",
+      "context": "Base your answers to questions 61 and 62 on the information below and on your knowledge of physics. \nA 53-newton box on a horizontal surface is pulled toward the right by a horizontal force \nof 27 newtons. The force of friction exerted on the box by the surface has a magnitude of \n16 newtons.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 11 N."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Using a protractor, determine the angle of refraction in medium X, to the nearest degree.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information and diagram below and on your knowledge \nof physics. \nA ray of monochromatic light (f = 5.09 \u00d7 1014 hertz) passes from air into a transparent \nmedium, X, as shown in the diagram below.\nMedium X\nAir\nRay\nNormal\n35\u00b0",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 20.\u00b0 6 2\u00b0."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information and diagram below and on your knowledge \nof physics. \nA ray of monochromatic light (f = 5.09 \u00d7 1014 hertz) passes from air into a transparent \nmedium, X, as shown in the diagram below.\nMedium X\nAir\nRay\nNormal\n35\u00b0",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units or for an answer, with units, consistent with the student\u2019s response to question 63. Refer to Scoring Criteria for Calculations in this rating guide. Example of a 1-credit response: n1 sin \u03b81 = n2 sin \u03b82 1.00 sin 35\u00b0 n2 = n2 = sin \u03b82 n1 sin \u03b81 sin 20.\u00b0"
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "64\u201365 Calculate the absolute index of refraction of medium X. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information and diagram below and on your knowledge \nof physics. \nA ray of monochromatic light (f = 5.09 \u00d7 1014 hertz) passes from air into a transparent \nmedium, X, as shown in the diagram below.\nMedium X\nAir\nRay\nNormal\n35\u00b0",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer without units or for an answer, without units, that is consistent with the student\u2019s response to questions 63 and/or 64. Examples of 1-credit responses: n2 = 1.7 or n2 = 1.6 Note: Do not penalize the student more than 1 credit for errors in units in questions 64 and 65. P.S./Physics\u2013June \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information and diagram below and on your knowledge \nof physics.\nThree 4.0-kilogram spherical masses, A, B, and C, are positioned as shown below.\nMass B and mass C exert gravitational forces on mass A. The gravitational force, FB, exerted \nby mass B on mass A is 5.08 \u00d7 10\u201310 newton south. The resultant gravitational force, R, \nexerted on mass A is 5.74 \u00d7 10\u201310 newton at 27\u00b0 east of south.\nA\nB\nC\nMass Positions\nA\nGravitational Force\non Mass A\nFc\nFB\nR\n27\u00b0\nW\nE\nS\nN\n(Not drawn to scale)\n66\u201367\t Calculate the distance separating the centers of masses A and B. [Show all work, including the equation \nand substitution with units.]   [2]\n\t\n68\t Mass A is removed and a 7.0-kilogram mass is placed at the same position. Compare the magnitude of \nthe resultant gravitational force on the 7.0-kilogram mass with the magnitude of the original resultant \ngravitational force, R.   [1]\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2006 Edition Reference Tables for Physical Setting/Physics.\n\nP.S./Physics\u2013June \u201925\t\n[15]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units. Refer to Scoring Criteria for Calculations in this rating guide. Example of a 1-credit response: r = r = 6.67 \u00d7 10\u221211 4.0 kg 5.08 \u00d7 10\u221210 N Gm1m2 Fg Fg = Gm1m2 r2 N \u2022 m 2 kg 2 2 ( () )"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "66\u201367 Calculate the distance separating the centers of masses A and B. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information and diagram below and on your knowledge \nof physics.\nThree 4.0-kilogram spherical masses, A, B, and C, are positioned as shown below.\nMass B and mass C exert gravitational forces on mass A. The gravitational force, FB, exerted \nby mass B on mass A is 5.08 \u00d7 10\u201310 newton south. The resultant gravitational force, R, \nexerted on mass A is 5.74 \u00d7 10\u201310 newton at 27\u00b0 east of south.\nA\nB\nC\nMass Positions\nA\nGravitational Force\non Mass A\nFc\nFB\nR\n27\u00b0\nW\nE\nS\nN\n(Not drawn to scale)\n66\u201367\t Calculate the distance separating the centers of masses A and B. [Show all work, including the equation \nand substitution with units.]   [2]\n\t\n68\t Mass A is removed and a 7.0-kilogram mass is placed at the same position. Compare the magnitude of \nthe resultant gravitational force on the 7.0-kilogram mass with the magnitude of the original resultant \ngravitational force, R.   [1]\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2006 Edition Reference Tables for Physical Setting/Physics.\n\nP.S./Physics\u2013June \u201925\t\n[15]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 66. Example of a 1-credit response: r = 1.4 m Note: Do not penalize the student more than one credit for errors in units in questions 66 and 67."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Mass A is removed and a 7.0-kilogram mass is placed at the same position. Compare the magnitude of the resultant gravitational force on the 7.0-kilogram mass with the magnitude of the original resultant gravitational force, R.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information and diagram below and on your knowledge \nof physics.\nThree 4.0-kilogram spherical masses, A, B, and C, are positioned as shown below.\nMass B and mass C exert gravitational forces on mass A. The gravitational force, FB, exerted \nby mass B on mass A is 5.08 \u00d7 10\u201310 newton south. The resultant gravitational force, R, \nexerted on mass A is 5.74 \u00d7 10\u201310 newton at 27\u00b0 east of south.\nA\nB\nC\nMass Positions\nA\nGravitational Force\non Mass A\nFc\nFB\nR\n27\u00b0\nW\nE\nS\nN\n(Not drawn to scale)\n66\u201367\t Calculate the distance separating the centers of masses A and B. [Show all work, including the equation \nand substitution with units.]   [2]\n\t\n68\t Mass A is removed and a 7.0-kilogram mass is placed at the same position. Compare the magnitude of \nthe resultant gravitational force on the 7.0-kilogram mass with the magnitude of the original resultant \ngravitational force, R.   [1]\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2006 Edition Reference Tables for Physical Setting/Physics.\n\nP.S./Physics\u2013June \u201925\t\n[15]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit indicating that the magnitude of the resultant force increases. Acceptable responses include, but are not limited to: \u2014 It increases. \u2014 gets larger \u2014 The new resultant force has a greater magnitude. P.S./Physics\u2013June \u2019"
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Plot the momentum versus time for the first 4.0 seconds of the train\u2019s trip.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the information and data table below and on your \nknowledge of physics. \nAn electric train with a mass of 2.8 kilograms moves from rest down a long, straight \ntrack. The table shows the train\u2019s momentum during the first 4.0 seconds of its trip.\nData Table\nTime\n(s)\nMomentum\n(kg \u2022 m/s)\n0.0\n0.0\n0.5\n2.1\n1.0\n4.2\n1.5\n6.3\n2.0\n8.4\n2.5\n11.0\n3.0\n13.0\n3.5\n15.0\n4.0\n18.0\n\t\n\t\nUsing information from the data table, construct a graph in your answer booklet, following the directions \nbelow.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for plotting all points accurately \u00b1 0.3 grid space."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Draw a best-fit line, using a straight edge, to represent the relationship between momentum and time.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the information and data table below and on your \nknowledge of physics. \nAn electric train with a mass of 2.8 kilograms moves from rest down a long, straight \ntrack. The table shows the train\u2019s momentum during the first 4.0 seconds of its trip.\nData Table\nTime\n(s)\nMomentum\n(kg \u2022 m/s)\n0.0\n0.0\n0.5\n2.1\n1.0\n4.2\n1.5\n6.3\n2.0\n8.4\n2.5\n11.0\n3.0\n13.0\n3.5\n15.0\n4.0\n18.0\n\t\n\t\nUsing information from the data table, construct a graph in your answer booklet, following the directions \nbelow.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for drawing a best-fit line that is consistent with the student\u2019s response to question 69. Example of a 2-credit response for questions 69 and 70: Momentum (kg\u2022m/s) Time (s) 0 0 10.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 8.0 6.0 4.0 2.0 18.0 16.0 14.0 12.0 Momentum vs. Time"
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Using your best-fit line, determine the average force that acted upon the train.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the information and data table below and on your \nknowledge of physics. \nAn electric train with a mass of 2.8 kilograms moves from rest down a long, straight \ntrack. The table shows the train\u2019s momentum during the first 4.0 seconds of its trip.\nData Table\nTime\n(s)\nMomentum\n(kg \u2022 m/s)\n0.0\n0.0\n0.5\n2.1\n1.0\n4.2\n1.5\n6.3\n2.0\n8.4\n2.5\n11.0\n3.0\n13.0\n3.5\n15.0\n4.0\n18.0\n\t\n\t\nUsing information from the data table, construct a graph in your answer booklet, following the directions \nbelow.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 4.3 N \u00b1 0.2 N or for an answer that is consistent with the student\u2019s response to question 70. P.S./Physics\u2013June \u2019"
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the information and data table below and on your \nknowledge of physics. \nAn electric train with a mass of 2.8 kilograms moves from rest down a long, straight \ntrack. The table shows the train\u2019s momentum during the first 4.0 seconds of its trip.\nData Table\nTime\n(s)\nMomentum\n(kg \u2022 m/s)\n0.0\n0.0\n0.5\n2.1\n1.0\n4.2\n1.5\n6.3\n2.0\n8.4\n2.5\n11.0\n3.0\n13.0\n3.5\n15.0\n4.0\n18.0\n\t\n\t\nUsing information from the data table, construct a graph in your answer booklet, following the directions \nbelow.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units or for an answer, with units, consistent with the student\u2019s response to question 71. Refer to Scoring Criteria for Calculations in this rating guide. Examples of 1-credit responses: or a = t v \u2206 2.8 kg 4.3 N a = a = 2.0 s 3.0 m/s a = m Fnet"
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "72\u201373 Calculate the magnitude of the average acceleration of the train. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the information and data table below and on your \nknowledge of physics. \nAn electric train with a mass of 2.8 kilograms moves from rest down a long, straight \ntrack. The table shows the train\u2019s momentum during the first 4.0 seconds of its trip.\nData Table\nTime\n(s)\nMomentum\n(kg \u2022 m/s)\n0.0\n0.0\n0.5\n2.1\n1.0\n4.2\n1.5\n6.3\n2.0\n8.4\n2.5\n11.0\n3.0\n13.0\n3.5\n15.0\n4.0\n18.0\n\t\n\t\nUsing information from the data table, construct a graph in your answer booklet, following the directions \nbelow.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to questions 71 and/or 72. Example of a 1-credit response: a = 1.5 m/s2 Note: Do not penalize the student more than one credit for errors in units in questions 72 and 73."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Determine the wavelength of the wave in meters.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_74_77.png",
+      "context": "Base your answers to questions 74 through 77 on the information and diagram below and on your knowledge \nof physics. \nThe diagram below represents a medium as a periodic wave passes through it, traveling \nto the right. The wave requires 2.0 seconds to travel from point A to point B. The scale \nused in the diagram is 1.0 centimeter = 0.10 meter.\nC\nB\nA",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0.80 m \u00b1 0.02 m."
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_74_77.png",
+      "context": "Base your answers to questions 74 through 77 on the information and diagram below and on your knowledge \nof physics. \nThe diagram below represents a medium as a periodic wave passes through it, traveling \nto the right. The wave requires 2.0 seconds to travel from point A to point B. The scale \nused in the diagram is 1.0 centimeter = 0.10 meter.\nC\nB\nA",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units or for an answer, with units, that is consistent with the student\u2019s response to question 74. Refer to Scoring Criteria for Calculations in this rating guide. Examples of 1-credit responses: d t or v = v = v = f \u03bb v = (0.88 Hz)(0.80 m) 1.4 m 2.0 s"
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "75\u201376 Calculate the speed of the wave in meters per second. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_74_77.png",
+      "context": "Base your answers to questions 74 through 77 on the information and diagram below and on your knowledge \nof physics. \nThe diagram below represents a medium as a periodic wave passes through it, traveling \nto the right. The wave requires 2.0 seconds to travel from point A to point B. The scale \nused in the diagram is 1.0 centimeter = 0.10 meter.\nC\nB\nA",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to questions 74 and/or 75. Example of a 1-credit response: v = 0.70 m/s Note: Do not penalize the student more than one credit for errors in units in questions 75 and 76. P.S./Physics\u2013June \u2019"
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, place an X on the wave at a position that is 180\u00b0 out of phase with point C.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_74_77.png",
+      "context": "Base your answers to questions 74 through 77 on the information and diagram below and on your knowledge \nof physics. \nThe diagram below represents a medium as a periodic wave passes through it, traveling \nto the right. The wave requires 2.0 seconds to travel from point A to point B. The scale \nused in the diagram is 1.0 centimeter = 0.10 meter.\nC\nB\nA",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for an X placed in either position as shown. Examples of 1-credit responses: C B A X X"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Determine the magnitude of the weight of the child in newtons.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_78_82.png",
+      "context": "Base your answers to questions 78 through 82 on the information and diagram below and on your knowledge \nof physics.\nA pogo stick is a popular children\u2019s toy with a spring on the bottom. When a  51.0-kilogram \nchild stands at rest on a pogo stick, the spring is compressed 0.15 meter.\nChild\nSpring",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 500. N."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_78_82.png",
+      "context": "Base your answers to questions 78 through 82 on the information and diagram below and on your knowledge \nof physics.\nA pogo stick is a popular children\u2019s toy with a spring on the bottom. When a  51.0-kilogram \nchild stands at rest on a pogo stick, the spring is compressed 0.15 meter.\nChild\nSpring",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units or for an answer, with units, that is consistent with the student\u2019s response to question 78. Refer to Scoring Criteria for Calculations in this rating guide. Example of a 1-credit response: Fs x k = 500. N 0.15 m k = Fs = kx"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "79\u201380 Calculate the spring constant of the spring on the pogo stick. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_78_82.png",
+      "context": "Base your answers to questions 78 through 82 on the information and diagram below and on your knowledge \nof physics.\nA pogo stick is a popular children\u2019s toy with a spring on the bottom. When a  51.0-kilogram \nchild stands at rest on a pogo stick, the spring is compressed 0.15 meter.\nChild\nSpring",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to questions 78 and/or 79. Refer to Scoring Criteria for Calculations in this rating guide. Example of a 1-credit response: k = 3300 N/m Note: Do not penalize the student more than one credit for errors in units in questions 79 and 80. P.S./Physics\u2013June \u2019"
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_78_82.png",
+      "context": "Base your answers to questions 78 through 82 on the information and diagram below and on your knowledge \nof physics.\nA pogo stick is a popular children\u2019s toy with a spring on the bottom. When a  51.0-kilogram \nchild stands at rest on a pogo stick, the spring is compressed 0.15 meter.\nChild\nSpring",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units or for an answer, with units, that is consistent with the student\u2019s response to question 80. Refer to Scoring Criteria for Calculations in this rating guide. Example of a 1-credit response: 1 2 PEs = 1 2 PEs = kx2 (3300 N/m)(0.15 m)2"
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "81-82 Calculate the total energy stored in the pogo stick\u2019s spring when the child\u2019s weight has compressed the spring 0.15 meter. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2025/context_78_82.png",
+      "context": "Base your answers to questions 78 through 82 on the information and diagram below and on your knowledge \nof physics.\nA pogo stick is a popular children\u2019s toy with a spring on the bottom. When a  51.0-kilogram \nchild stands at rest on a pogo stick, the spring is compressed 0.15 meter.\nChild\nSpring",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to questions 80 and/or 81. Refer to Scoring Criteria for Calculations in this rating guide. Example of a 1-credit response: PEs = 37 J Note: Do not penalize the student more than one credit for errors in units in questions 81 and 82."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Determine both the sign and the magnitude of the charge of the Xb particle, in elementary charges.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of physics.\nScientists at the CERN Large Hadron Collider discovered a new subatomic particle. \nIt is called the Xb particle and is composed of one down quark, one strange quark, and\none bottom quark. The mass of the Xb particle is approximately 5950 MeV.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for \u20131 e."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Identify the fundamental force that holds the quarks together in the Xb particle.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of physics.\nScientists at the CERN Large Hadron Collider discovered a new subatomic particle. \nIt is called the Xb particle and is composed of one down quark, one strange quark, and\none bottom quark. The mass of the Xb particle is approximately 5950 MeV.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 strong nuclear force \u2014 strong force \u2014 strong Note: Do not allow credit for nuclear force only."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Determine the mass of the Xb particle, in universal mass units. P.S./PHYSICS P.S./PHYSICS Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of physics.\nScientists at the CERN Large Hadron Collider discovered a new subatomic particle. \nIt is called the Xb particle and is composed of one down quark, one strange quark, and\none bottom quark. The mass of the Xb particle is approximately 5950 MeV.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 6.39 u. P.S./Physics\u2013June \u2019"
+    }
+  ]
+}

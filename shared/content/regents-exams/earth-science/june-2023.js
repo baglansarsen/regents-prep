@@ -193,8 +193,7 @@ export default {
       topic: 'Meteorology',
       correct: 2,
       explanation: 'At a warm front, warm air gradually rises over a retreating wedge of cold air at a gentle slope, producing a sequence of high to low clouds (cirrus → altostratus → stratus → nimbostratus) ahead of the front.',
-      diveDeep: 'The ESRT\'s weather map symbols show fronts: warm fronts (red line with red semicircles pointing in direction of movement), cold fronts (blue line with blue triangles), occluded fronts (purple with alternating symbols), and stationary fronts. Warm fronts have a gentle slope (~1:100), producing a wide zone of clouds and precipitation (steady rain) extending hundreds of km ahead. Cold fronts have a steep slope (~1:50), causing rapid lifting and often thunderstorms. As a warm front approaches: cirrus → cirrostratus → altostratus → nimbostratus → stratus, with temperature eventually rising after the front passes. The ESRT\'s front symbols diagram is an essential reference.',
-    },
+      diveDeep: 'The ESRT\'s weather map symbols show fronts: warm fronts (red line with red semicircles pointing in direction of movement), cold fronts (blue line with blue triangles), occluded fronts (purple with alternating symbols), and stationary fronts. Warm fronts have a gentle slope (~1:100), producing a wide zone of clouds and precipitation (steady rain) extending hundreds of km ahead. Cold fronts have a steep slope (~1:50), causing rapid lifting and often thunderstorms. As a warm front approaches: cirrus → cirrostratus → altostratus → nimbostratus → stratus, with temperature eventually rising after the front passes. The ESRT\'s front symbols diagram is an essential reference.', image: '/images/exams/es-june-2023/q13.png' },
     {
       number: 14, part: 'A',
       text: 'Which map shows the most likely path of a low pressure system (L) in the United States if it follows a normal storm track?',
@@ -207,8 +206,7 @@ export default {
       topic: 'Meteorology',
       correct: 0,
       explanation: 'Low pressure systems (mid-latitude cyclones) in the US typically move from west to east or southwest to northeast, driven by the prevailing westerlies in the mid-latitude atmospheric circulation.',
-      diveDeep: 'In the mid-latitudes (30°–60°N), the prevailing westerlies steer surface low-pressure systems generally from west to east. The typical storm track across the continental United States follows a path from the southwest to the northeast — this is why weather systems generally approach from the west and exit to the east. The jet stream, located in the upper troposphere, serves as the "steering current" for surface weather systems, and its position shifts seasonally (more southward in winter, more northward in summer). Understanding this pattern is essential for forecasting — cold fronts typically approach from the northwest.',
-    },
+      diveDeep: 'In the mid-latitudes (30°–60°N), the prevailing westerlies steer surface low-pressure systems generally from west to east. The typical storm track across the continental United States follows a path from the southwest to the northeast — this is why weather systems generally approach from the west and exit to the east. The jet stream, located in the upper troposphere, serves as the "steering current" for surface weather systems, and its position shifts seasonally (more southward in winter, more northward in summer). Understanding this pattern is essential for forecasting — cold fronts typically approach from the northwest.', image: '/images/exams/es-june-2023/q14.png' },
     {
       number: 15, part: 'A',
       text: 'Which weather instrument is an anemometer?',
@@ -221,8 +219,7 @@ export default {
       topic: 'Meteorology',
       correct: 0,
       explanation: 'An anemometer measures wind speed using rotating cups that spin faster in stronger winds. A barometer measures air pressure; a thermometer measures temperature; a compass shows wind direction (wind vane).',
-      diveDeep: 'Weather instruments and what they measure: anemometer (wind speed, in knots or mph), wind vane (wind direction), barometer (air pressure, in millibars), thermometer (temperature), sling psychrometer (wet-bulb and dry-bulb temperatures for calculating relative humidity and dew point), rain gauge (precipitation), and radiosonde (balloon-carried instrument measuring temperature, humidity, and pressure at altitude). The station model uses standardized symbols to record all these measurements at a given location and time. The ESRT\'s station model key shows how wind speed, direction, cloud cover, temperature, dew point, and pressure are encoded on a station model.',
-    },
+      diveDeep: 'Weather instruments and what they measure: anemometer (wind speed, in knots or mph), wind vane (wind direction), barometer (air pressure, in millibars), thermometer (temperature), sling psychrometer (wet-bulb and dry-bulb temperatures for calculating relative humidity and dew point), rain gauge (precipitation), and radiosonde (balloon-carried instrument measuring temperature, humidity, and pressure at altitude). The station model uses standardized symbols to record all these measurements at a given location and time. The ESRT\'s station model key shows how wind speed, direction, cloud cover, temperature, dew point, and pressure are encoded on a station model.', image: '/images/exams/es-june-2023/q15.png' },
     {
       number: 16, part: 'A',
       text: 'A station model shows 73°F temperature, 72°F dew point, wind speed 2. Based on the information on the station model, the weather at this location is',
@@ -591,7 +588,7 @@ export default {
       correct: 0,
       explanation: 'Buffalo is in the Eastern Time Zone and Omaha is in the Central Time Zone. Eastern time is 1 hour ahead of Central time, so when it is 5:00 p.m. in Omaha, it is 6:00 p.m. in Buffalo.',
       diveDeep: 'Time zones are based on Earth\'s rotation: each 15° of longitude represents one hour (360°/24 hours = 15°/hour). The continental US has four time zones from east to west: Eastern (UTC−5 standard), Central (UTC−6), Mountain (UTC−7), and Pacific (UTC−8). Moving west, you subtract hours; moving east, you add hours. Buffalo is near 79°W (Eastern zone); Omaha is near 96°W (Central zone). The difference is 1 time zone = 1 hour, with Eastern ahead. The ESRT\'s time zone map can be used to read off time zones for given cities. International Date Line at 180° is where the date changes.',
-      image: '/images/exams/es-june-2023/q40.png',
+      image: '/images/exams/es-june-2023/context_40_43.png',
     },
     {
       number: 41, part: 'B-1',
@@ -607,7 +604,7 @@ export default {
       correct: 0,
       explanation: 'Reno, Nevada is located at approximately 39°N latitude. The altitude of Polaris equals the observer\'s latitude, so it appears about 39° above the northern horizon.',
       diveDeep: 'The rule "altitude of Polaris = latitude" is one of the most fundamental and testable relationships in Earth Science. It works because Polaris is positioned almost exactly above Earth\'s geographic North Pole. The angle between the horizon and Polaris equals the angle between the equator and the observer\'s location (latitude). This principle was used by navigators for centuries to determine latitude at sea. New York State locations span about 40°–45°N, so Polaris is visible 40°–45° above the northern horizon from anywhere in the state. Reno (39°N) is just south of New York\'s latitude range. The other two choices (119°, 121°) are the longitude values for Reno — a common trap.',
-      image: '/images/exams/es-june-2023/q41.png',
+      image: '/images/exams/es-june-2023/context_40_43.png',
     },
     {
       number: 42, part: 'B-1',
@@ -623,7 +620,7 @@ export default {
       correct: 3,
       explanation: 'On December 21 (winter solstice), the Northern Hemisphere has its shortest daylight period, and the duration decreases with increasing latitude. Seattle (~47°N) is the northernmost of the cities listed, giving it the shortest daylight.',
       diveDeep: 'Duration of insolation (daylength) depends on latitude and time of year. At the winter solstice, the Northern Hemisphere tilts away from the Sun; daylight is shortest at high latitudes. The Arctic Circle experiences 24 hours of darkness. As you move southward, daylight lengthens. At the equator, daylength is always ~12 hours. Ranking from northernmost to southernmost: Seattle (~47°N) > Omaha (~41°N) > Mobile (~31°N) ≈ Miami (~26°N). Therefore Seattle has the shortest duration on December 21. The ESRT\'s latitude/longitude coordinates of cities and the "Relationship between longitude and time" concept can help verify city latitudes.',
-      image: '/images/exams/es-june-2023/q42.png',
+      image: '/images/exams/es-june-2023/context_40_43.png',
     },
     {
       number: 43, part: 'B-1',
@@ -639,7 +636,7 @@ export default {
       correct: 2,
       explanation: 'Time zones are based on Earth\'s rotation rate of 15° per hour (360°/24 h). Each time zone spans 15° of longitude, so the world is divided into 24 time zones corresponding to 24 hours of rotation.',
       diveDeep: 'Standardized time zones were adopted in the 1880s–1890s to coordinate railroad schedules. Ideally, each zone spans exactly 15° of longitude, but political and geographic boundaries modify this. Earth\'s rotation rate (15°/hr) is the sole basis for time zone divisions. The tilt of Earth\'s axis (23.5°) causes seasons but not time zones. Revolution (orbit) determines the length of the year. Orbital velocity variation (Kepler\'s second law — faster at perihelion, slower at aphelion) causes slight seasonal variations in solar noon that are corrected by the "equation of time," but this has no effect on time zone boundaries. The prime meridian (0° longitude, Greenwich, England) is the reference for UTC.',
-      image: '/images/exams/es-june-2023/q43.png',
+      image: '/images/exams/es-june-2023/context_40_43.png',
     },
     {
       number: 44, part: 'B-1',
@@ -655,7 +652,7 @@ export default {
       correct: 1,
       explanation: 'Both sandstone (SiO₂ sand grains + cement) and quartzite (metamorphosed sandstone, pure SiO₂) are composed primarily of quartz (silicon dioxide), making silicon and oxygen the two common elements.',
       diveDeep: 'Sandstone is a clastic sedimentary rock composed mainly of sand-sized quartz grains (SiO₂). Quartzite is the metamorphic equivalent — regional metamorphism recrystallizes the quartz grains, producing an extremely hard, non-foliated rock composed almost entirely of interlocking quartz crystals. Both rocks share the fundamental composition of quartz (SiO₂): silicon (Si) and oxygen (O). The ESRT\'s most abundant crustal elements (O, Si, Al, Fe...) confirms that Si and O are the most common elements overall. Calcium and magnesium are found in limestone and dolostone. Aluminum and iron are less characteristic of pure quartz rocks. The quartzite/sandstone pairing is a common rock cycle question type.',
-      image: '/images/exams/es-june-2023/q44.png',
+      image: '/images/exams/es-june-2023/context_44_47.png',
     },
     {
       number: 45, part: 'B-1',
@@ -671,7 +668,7 @@ export default {
       correct: 2,
       explanation: 'Trap rock is a commercial term for dark, dense, fine-to-medium-grained igneous rocks (mainly basalt and diabase) used in construction. Diabase (dolerite) is the intrusive equivalent of basalt and is the most commonly quarried trap rock.',
       diveDeep: 'Trap rock (from Swedish "trappa," meaning staircase, due to the step-like topography of lava flows) is an industry term for dark, hard igneous rocks including basalt, gabbro, and diabase. These mafic rocks are quarried for road aggregate, railroad ballast, and concrete because of their durability and hardness. Diabase (also called dolerite) is medium-grained (between fine-grained basalt and coarse-grained gabbro), intrusive, and has the same mafic composition. The Palisades Sill along the Hudson River is a classic diabase intrusion. Phyllite is a low-grade metamorphic rock; obsidian is volcanic glass (felsic, not mafic); rhyolite is felsic volcanic rock — neither would be classified as trap rock.',
-      image: '/images/exams/es-june-2023/q45.png',
+      image: '/images/exams/es-june-2023/context_44_47.png',
     },
     {
       number: 46, part: 'B-1',
@@ -687,7 +684,7 @@ export default {
       correct: 3,
       explanation: 'Limestone is composed of calcite (CaCO₃), which dissolves readily in acidic solutions (even weak carbonic acid). Acid rain accelerates this dissolution through carbonation weathering.',
       diveDeep: 'Chemical weathering rates depend on mineral composition and environmental conditions. Calcite (CaCO₃) reacts with carbonic acid (H₂CO₃, formed when CO₂ dissolves in rainwater) and even more rapidly with stronger acids (sulfuric, nitric — components of acid rain): CaCO₃ + H₂CO₃ → Ca²⁺ + 2HCO₃⁻. This reaction dissolves limestone, creating sinkholes, caves, and karst topography. Granite and trap rock contain silicate minerals (quartz, feldspar, pyroxene) that are much more resistant to acid dissolution. Quartzite is almost pure SiO₂ and is extremely resistant. The vulnerability of limestone buildings and monuments to acid rain is a significant environmental concern in urban and industrial areas.',
-      image: '/images/exams/es-june-2023/q46.png',
+      image: '/images/exams/es-june-2023/context_44_47.png',
     },
     {
       number: 47, part: 'B-1',
@@ -703,7 +700,7 @@ export default {
       correct: 2,
       explanation: 'Quartzite is composed of quartz (hardness 7 on the Mohs scale), which is significantly harder than calcite (hardness 3), the mineral composing limestone. A harder mineral scratches softer materials.',
       diveDeep: 'Hardness is the resistance of a mineral to being scratched, measured on the Mohs scale (1 = talc to 10 = diamond). The key principle: a harder mineral scratches a softer one. Quartz (7) easily scratches calcite (3), steel (~5.5), and glass (~5.5). Hardness relates to bond strength within the crystal structure — covalent bonds (like in diamond and quartz) produce high hardness; ionic bonds in calcite allow planes of easy breakage. Streak (color of powder) and luster (surface appearance) do not affect scratching ability. Cleavage describes how a mineral breaks along weak planes. The ESRT\'s mineral property table lists hardness values for all common minerals.',
-      image: '/images/exams/es-june-2023/q47.png',
+      image: '/images/exams/es-june-2023/context_44_47.png',
     },
     {
       number: 48, part: 'B-1',
@@ -719,7 +716,7 @@ export default {
       correct: 2,
       explanation: 'Carbon-14 is incorporated into the bodies of all living organisms through photosynthesis and the food chain. After death, C-14 decays at a known rate, making it useful for dating any organic material.',
       diveDeep: 'Carbon-14 is produced in the upper atmosphere when cosmic ray neutrons collide with nitrogen-14 atoms. It enters the food chain via CO₂ absorbed in photosynthesis, so all living organisms contain a constant proportion of C-14 (equal to the atmospheric ratio). After death, no new C-14 is incorporated, and the existing C-14 decays with a half-life of 5,730 years. After ~50,000 years (8–10 half-lives), the remaining C-14 is too small to measure accurately. Uranium-238 (half-life 4.5 billion years) is used for very old inorganic minerals. Potassium-40 (half-life 1.3 billion years) dates igneous rocks older than ~100,000 years. Match the isotope to the sample\'s age and organic/inorganic nature.',
-      image: '/images/exams/es-june-2023/q48.png',
+      image: '/images/exams/es-june-2023/context_48_50.png',
     },
     {
       number: 49, part: 'B-1',
@@ -735,7 +732,7 @@ export default {
       correct: 1,
       explanation: 'The zircon is 4.4 billion years old and U-238 has a half-life of 4.5 billion years. After nearly one half-life, approximately 50% of the original U-238 remains.',
       diveDeep: 'After each half-life, half the remaining radioactive parent isotope decays to the stable daughter product. Starting at 100%: after 1 half-life = 50%; after 2 = 25%; after 3 = 12.5%; after 4 = 6.25%. The zircon\'s age (4.4 Ga) divided by U-238\'s half-life (4.5 Ga) ≈ 0.98 half-lives — just under one half-life. Therefore, slightly more than 50% remains (the answer rounds to 50%). The ESRT\'s radioactive decay table lists half-lives of common isotopes. Uranium-238 decays to lead-206; potassium-40 decays to argon-40 and calcium-40; carbon-14 decays to nitrogen-14. Zircon is ideal for U-238 dating because it incorporates uranium but excludes lead when it crystallizes, providing a clean "clock."',
-      image: '/images/exams/es-june-2023/q49.png',
+      image: '/images/exams/es-june-2023/context_48_50.png',
     },
     {
       number: 50, part: 'B-1',
@@ -751,7 +748,7 @@ export default {
       correct: 3,
       explanation: 'The iridium-rich layer at 65.5 Ma marks the Cretaceous-Paleogene (K-Pg) boundary, the end of the Cretaceous Period when a massive asteroid impact caused the mass extinction of non-avian dinosaurs.',
       diveDeep: 'The iridium anomaly at the K-Pg boundary was discovered by Luis and Walter Alvarez in 1980. Iridium is rare on Earth\'s surface but common in asteroids. A global thin layer of iridium-enriched clay at 65.5 Ma boundary, combined with shocked quartz, tektites, and the buried Chicxulub crater (Mexico), supports the asteroid impact hypothesis for the end-Cretaceous mass extinction. This event eliminated ~75% of species including non-avian dinosaurs, pterosaurs, and marine reptiles. The Permian extinction (~252 Ma) was earlier and larger; the Paleogene Period and Quaternary Period are after 65.5 Ma. The ESRT\'s geologic time scale shows the Cretaceous ending at ~66 Ma.',
-      image: '/images/exams/es-june-2023/q50.png',
+      image: '/images/exams/es-june-2023/context_48_50.png',
     },
   ],
 }

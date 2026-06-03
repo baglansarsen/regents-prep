@@ -53,16 +53,14 @@ export default {
       choices: ['4.7', '8.4', '6.5', '13.1'],
       topic: 'Similarity & Proof', correct: 2,
       explanation: 'Triangles AEB and CED are similar by AA. The ratio AE/CE = 5.2/(11.7 − 5.2) = 5.2/6.5 = 0.8. So AB = CD × 0.8 = 10.5 × 0.8 ≈ 8.4. Checking the other setup gives AB ≈ 6.5.',
-      diveDeep: 'When a diagonal of a trapezoid is divided by another diagonal or segment, the resulting triangles share an angle at the intersection and have parallel sides creating equal alternate interior angles — producing similar triangles by AA. Set up the proportion carefully using the correct corresponding sides. The ratio involves the sub-segments of the diagonal, not the full diagonal. A common error is using the full diagonal length instead of the two parts.'
-    },
+      diveDeep: 'When a diagonal of a trapezoid is divided by another diagonal or segment, the resulting triangles share an angle at the intersection and have parallel sides creating equal alternate interior angles — producing similar triangles by AA. Set up the proportion carefully using the correct corresponding sides. The ratio involves the sub-segments of the diagonal, not the full diagonal. A common error is using the full diagonal length instead of the two parts.', image: '/images/exams/geo-january-2020/q6.png' },
     {
       number: 7, part: 'A',
       text: 'If △ABC ~ △DEF with right angles at B and E, BC = 15 cm, and AC = 17 cm, what is the measure of ∠F, to the nearest degree?',
       choices: ['28°', '62°', '41°', '88°'],
       topic: 'Right Triangles & Trig', correct: 1,
       explanation: 'In △ABC: AB = √(17² − 15²) = 8. The correspondence gives ∠C ↔ ∠F. cos C = BC/AC = 15/17, so ∠C ≈ 28°. But ∠F ↔ ∠C so ∠F ≈ 28°… Actually sin A = 15/17, ∠A ≈ 62°, and since A↔D, C↔F, we get ∠F = ∠C = 90° − 62° = 28°. The answer for ∠F is 28°, matching choice 0 (28°). With the choices given as 28°, 62°, 41°, 88°, the answer is 62° if the question asks for ∠D or ∠A.',
-      diveDeep: 'In the similarity △ABC ~ △DEF with right angles at B and E: A↔D, B↔E, C↔F. In right △ABC, sin A = BC/AC = 15/17 ≈ 0.882, so ∠A ≈ 62°. Then ∠C = 90° − 62° = 28° and ∠F = ∠C = 28°. If the exam asks for ∠D, the answer is 62°. Always track the vertex correspondence from the similarity statement to identify which angle is which in each triangle.'
-    },
+      diveDeep: 'In the similarity △ABC ~ △DEF with right angles at B and E: A↔D, B↔E, C↔F. In right △ABC, sin A = BC/AC = 15/17 ≈ 0.882, so ∠A ≈ 62°. Then ∠C = 90° − 62° = 28° and ∠F = ∠C = 28°. If the exam asks for ∠D, the answer is 62°. Always track the vertex correspondence from the similarity statement to identify which angle is which in each triangle.', image: '/images/exams/geo-january-2020/q7.png' },
     {
       number: 8, part: 'A',
       text: 'The line represented by 2y = x − 8 is dilated by a scale factor of k centered at the origin, such that the image of the line has an equation of y = (1/2)x − 2. What is the scale factor?',
@@ -77,8 +75,7 @@ export default {
       choices: ['9', '12', '10', '21'],
       topic: 'Triangles & Congruence', correct: 1,
       explanation: 'H is the midpoint of AC and F is the midpoint of BC, so FH is a midsegment of △ABC. By the Triangle Midsegment Theorem, FH = AB/2 = 24/2 = 12.',
-      diveDeep: 'The Triangle Midsegment Theorem: a segment connecting the midpoints of two sides of a triangle is parallel to the third side and half its length. F and H are midpoints of BC and AC respectively, so FH ∥ AB and FH = AB/2 = 12. The given values of CD = 18 and AH = 10 are distractors for this sub-question. Students often try to average AB and CD (trapezoid midline) instead — use the midsegment theorem since FH is inside △ABC.'
-    },
+      diveDeep: 'The Triangle Midsegment Theorem: a segment connecting the midpoints of two sides of a triangle is parallel to the third side and half its length. F and H are midpoints of BC and AC respectively, so FH ∥ AB and FH = AB/2 = 12. The given values of CD = 18 and AH = 10 are distractors for this sub-question. Students often try to average AB and CD (trapezoid midline) instead — use the midsegment theorem since FH is inside △ABC.', image: '/images/exams/geo-january-2020/q9.png' },
     {
       number: 10, part: 'A',
       text: 'Jaden is comparing two cones. The radius of the base of cone A is twice as large as the radius of the base of cone B. The height of cone B is twice the height of cone A. The volume of cone A is',
@@ -101,16 +98,14 @@ export default {
       choices: ['△MAH is isosceles.', '△MAT is isosceles.', 'MT bisects ∠AMH.', '∠A and ∠TMH are complementary.'],
       topic: 'Triangles & Congruence', correct: 2,
       explanation: 'The perpendicular bisector of AH ensures MA = MH (so △MAH is isosceles) and TA = TH (so △MAT is isosceles with two equal legs from T). MT bisects ∠AMH only if M lies on the perpendicular bisector of AH, which is not automatically an angle bisector from M.',
-      diveDeep: 'Every point on the perpendicular bisector of a segment is equidistant from the segment\'s endpoints. So MA = MH (since M is given to be on the bisector) — △MAH is isosceles. Also TA = TH since T is on the bisector — △MAT is isosceles. However, the perpendicular bisector is NOT necessarily the angle bisector of ∠AMH; that would require the additional condition MA = MH AND that M is the midpoint, which is not guaranteed. Choice (3) is not always true.'
-    },
+      diveDeep: 'Every point on the perpendicular bisector of a segment is equidistant from the segment\'s endpoints. So MA = MH (since M is given to be on the bisector) — △MAH is isosceles. Also TA = TH since T is on the bisector — △MAT is isosceles. However, the perpendicular bisector is NOT necessarily the angle bisector of ∠AMH; that would require the additional condition MA = MH AND that M is the midpoint, which is not guaranteed. Choice (3) is not always true.', image: '/images/exams/geo-january-2020/q12.png' },
     {
       number: 13, part: 'A',
       text: 'In circle B, diameter RT, radius BE, and chord RE are drawn. If m∠TRE = 15° and BE = 9, then the area of sector EBR is',
       choices: ['3.375π', '33.75π', '6.75π', '37.125π'],
       topic: 'Circles', correct: 2,
       explanation: 'Inscribed angle ∠TRE = 15° intercepts arc TE, so arc TE = 30°. Since RT is a diameter, arc RE = 180° − 30° = 150°. Central angle ∠EBR = 150°. Area = (150/360)π(9²) = (5/12)(81π) = 33.75π.',
-      diveDeep: 'The Inscribed Angle Theorem: inscribed angle = (1/2) × intercepted arc. ∠TRE intercepts arc TE, so arc TE = 2 × 15° = 30°. Since RT is a diameter, arc RTE (the semicircle containing E) = 180°, meaning arc RE = 180° − 30° = 150°. Central angle ∠EBR = arc RE = 150°. Sector area = (θ°/360°)πr². Students often confuse the inscribed angle (15°) with the central angle, producing a sector area of (15/360)π(81) = 3.375π — off by a factor of 10.'
-    },
+      diveDeep: 'The Inscribed Angle Theorem: inscribed angle = (1/2) × intercepted arc. ∠TRE intercepts arc TE, so arc TE = 2 × 15° = 30°. Since RT is a diameter, arc RTE (the semicircle containing E) = 180°, meaning arc RE = 180° − 30° = 150°. Central angle ∠EBR = arc RE = 150°. Sector area = (θ°/360°)πr². Students often confuse the inscribed angle (15°) with the central angle, producing a sector area of (15/360)π(81) = 3.375π — off by a factor of 10.', image: '/images/exams/geo-january-2020/q13.png' },
     {
       number: 14, part: 'A',
       text: 'In △ABC, DE is drawn parallel to BC with D on AB and E on AC. If AD = 4, DB = 6, and DE = 8, what is the length of BC?',
@@ -125,24 +120,21 @@ export default {
       choices: ['y = 2x − 9', 'y = −(1/2)x + 1', 'y = −(1/2)x − 3', 'y = 2x − 3'],
       topic: 'Coordinate Geometry', correct: 1,
       explanation: 'The slope of the given line is 2. The perpendicular slope is −1/2. Using point (4, −1): −1 = −(1/2)(4) + b → −1 = −2 + b → b = 1. Equation: y = −(1/2)x + 1.',
-      diveDeep: 'Perpendicular slopes are negative reciprocals: if the original slope is m, the perpendicular slope is −1/m. For m = 2, perpendicular slope = −1/2. Substitute the given point (4, −1): −1 = (−1/2)(4) + b → −1 = −2 + b → b = 1. The equation is y = −(1/2)x + 1. Common mistakes include using the same slope (parallel line) or using the reciprocal without negating it.'
-    },
+      diveDeep: 'Perpendicular slopes are negative reciprocals: if the original slope is m, the perpendicular slope is −1/m. For m = 2, perpendicular slope = −1/2. Substitute the given point (4, −1): −1 = (−1/2)(4) + b → −1 = −2 + b → b = 1. The equation is y = −(1/2)x + 1. Common mistakes include using the same slope (parallel line) or using the reciprocal without negating it.', image: '/images/exams/geo-january-2020/q15.png' },
     {
       number: 16, part: 'A',
       text: 'A square has a perimeter of 36. What is the length of the diagonal of the square, in simplest radical form?',
       choices: ['9', '9√2', '6√2', '18'],
       topic: 'Triangles & Congruence', correct: 1,
       explanation: 'Side length = 36/4 = 9. The diagonal of a square = s√2 = 9√2.',
-      diveDeep: 'In a square with side s, the diagonal divides it into two 45-45-90 triangles. By the Pythagorean theorem, d² = s² + s² = 2s², so d = s√2. Here s = 9, so d = 9√2. Students commonly compute 9 × 2 = 18 instead of 9√2. Memorize the 45-45-90 triangle side ratios (1 : 1 : √2) — these appear frequently on the Geometry Regents exam.'
-    },
+      diveDeep: 'In a square with side s, the diagonal divides it into two 45-45-90 triangles. By the Pythagorean theorem, d² = s² + s² = 2s², so d = s√2. Here s = 9, so d = 9√2. Students commonly compute 9 × 2 = 18 instead of 9√2. Memorize the 45-45-90 triangle side ratios (1 : 1 : √2) — these appear frequently on the Geometry Regents exam.', image: '/images/exams/geo-january-2020/q16.png' },
     {
       number: 17, part: 'A',
       text: 'In circle O, two secants ABP and CDP are drawn to external point P. If m⌢AC = 72° and m⌢BD = 34°, what is the measure of ∠P?',
       choices: ['19°', '53°', '38°', '106°'],
       topic: 'Circles', correct: 0,
       explanation: 'For an angle formed by two secants from an external point: ∠P = (1/2)|arc AC − arc BD| = (1/2)|72° − 34°| = (1/2)(38°) = 19°.',
-      diveDeep: 'When two secants are drawn from an external point, the angle at the external point equals half the (positive) difference of the intercepted arcs: ∠P = (1/2)(far arc − near arc) = (1/2)(72° − 34°) = 19°. The "far arc" is the larger intercepted arc (AC) and the "near arc" is the smaller one (BD). Students often add the arcs instead of subtracting, which gives the answer for an inscribed angle scenario. Remember: external angle = half the difference.'
-    },
+      diveDeep: 'When two secants are drawn from an external point, the angle at the external point equals half the (positive) difference of the intercepted arcs: ∠P = (1/2)(far arc − near arc) = (1/2)(72° − 34°) = 19°. The "far arc" is the larger intercepted arc (AC) and the "near arc" is the smaller one (BD). Students often add the arcs instead of subtracting, which gives the answer for an inscribed angle scenario. Remember: external angle = half the difference.', image: '/images/exams/geo-january-2020/q17.png' },
     {
       number: 18, part: 'A',
       text: 'On the set of axes below, rhombus ABCD has vertices A(1, 2), B(4, 6), C(7, 2), and D(4, −2). What is the area of rhombus ABCD?',
@@ -182,8 +174,7 @@ export default {
       choices: ['I', 'III', 'II', 'IV'],
       topic: 'Transformations', correct: 0,
       explanation: 'From the diagram R is in Quadrant II (negative x, positive y). A 90° clockwise rotation: (x, y)→(y, −x) sends Q II to Q III. Reflection over x-axis: (x, y)→(x, −y) sends Q III to Q II. Re-evaluating with actual coordinates confirms R′ lands in Quadrant I.',
-      diveDeep: 'Apply transformations step by step. 90° clockwise rotation rule: (x, y) → (y, −x). If R is at (−a, b) with a, b > 0 (Quadrant II), after rotation: (b, a) — both positive, so Q I. Then reflect over the x-axis: (b, a) → (b, −a) — Q IV. Track actual coordinate signs rather than just quadrant labels for accuracy. With the given figure, starting in Q II and performing these two transforms lands in Q I. When uncertain, substitute actual coordinates from the graph.'
-    },
+      diveDeep: 'Apply transformations step by step. 90° clockwise rotation rule: (x, y) → (y, −x). If R is at (−a, b) with a, b > 0 (Quadrant II), after rotation: (b, a) — both positive, so Q I. Then reflect over the x-axis: (b, a) → (b, −a) — Q IV. Track actual coordinate signs rather than just quadrant labels for accuracy. With the given figure, starting in Q II and performing these two transforms lands in Q I. When uncertain, substitute actual coordinates from the graph.', image: '/images/exams/geo-january-2020/q22.png' },
     {
       number: 23, part: 'A',
       text: 'In the diagram below of right triangle ABC, altitude BD is drawn to hypotenuse AC. Which ratio is always equivalent to cos A?',
@@ -208,16 +199,14 @@ export default {
       topic: 'Triangles & Congruence',
       explanation: 'ASA requires two angles and the included side. For example: ∠P ≅ ∠N, PR ≅ NL, ∠R ≅ ∠L (if the right angles are at R and L, and the correspondence is P↔N, Q↔M, R↔L).',
       diveDeep: 'To apply ASA congruence, you need two pairs of congruent angles and the pair of congruent included sides (the side between the two angles). From the vertex correspondence dictated by the transformation (rigid motion), identify matching right angles, matching acute angles, and the included sides between them. A common error is writing an SSA set (two sides and a non-included angle) rather than ASA. Make sure the congruent side is between the two congruent angles in each triangle.',
-      modelAnswer: 'From the rigid motion mapping PQR → NML, the vertex correspondence is P↔N, Q↔M, R↔L.\nASA congruency statements:\n1. ∠P ≅ ∠N (corresponding angles from the rigid motion)\n2. PR ≅ NL (included side between the two angles)\n3. ∠R ≅ ∠L (right angles, both = 90°)\nThese three statements establish ASA congruence: ∠P ≅ ∠N, PR ≅ NL, ∠R ≅ ∠L, therefore △PQR ≅ △NML.'
-    },
+      modelAnswer: 'From the rigid motion mapping PQR → NML, the vertex correspondence is P↔N, Q↔M, R↔L.\nASA congruency statements:\n1. ∠P ≅ ∠N (corresponding angles from the rigid motion)\n2. PR ≅ NL (included side between the two angles)\n3. ∠R ≅ ∠L (right angles, both = 90°)\nThese three statements establish ASA congruence: ∠P ≅ ∠N, PR ≅ NL, ∠R ≅ ∠L, therefore △PQR ≅ △NML.', image: '/images/exams/geo-january-2020/q25.png' },
     {
       number: 26, part: 'B', type: 'written',
       text: 'Diego needs to install a support beam for his birdhouse. The base of the birdhouse is 24½ inches long. The support beam will form an angle of 38° with the vertical post. Determine and state the approximate length of the support beam, x, to the nearest inch.',
       topic: 'Right Triangles & Trig',
       explanation: 'The base (24.5 in) is opposite the 38° angle at the top and the support beam x is the hypotenuse. Using tan: the base is adjacent to the complement angle 52°, or using sin: sin 38° is not the right ratio here. Since the 38° is between the post and the beam, and the base is opposite: tan(38°) = opposite/adjacent... actually the base is adjacent and x is hypotenuse: cos(38°) = 24.5/x → x = 24.5/cos(38°) ≈ 31 inches.',
       diveDeep: 'The support beam forms a 38° angle with the vertical post. The base of the birdhouse (24½ in) is horizontal and perpendicular to the vertical post, making it the side adjacent to the 38° angle if measured from the beam-to-post angle. Using cos(38°) = adjacent/hypotenuse = 24.5/x, we get x = 24.5/cos(38°) ≈ 24.5/0.7880 ≈ 31.09 ≈ 31 in. Alternatively, with the angle at the base, set up the correct trig ratio from the diagram. Always identify which angle is given and which sides are opposite, adjacent, and hypotenuse.',
-      modelAnswer: 'Given: base = 24½ = 24.5 in, angle between beam and vertical post = 38°.\nThe base is adjacent to the 38° angle; x (beam) is the hypotenuse.\ncos(38°) = adjacent/hypotenuse = 24.5/x\nx = 24.5/cos(38°) = 24.5/0.7880 ≈ 31.09 inches.\nTo the nearest inch, the support beam is approximately 31 inches long.'
-    },
+      modelAnswer: 'Given: base = 24½ = 24.5 in, angle between beam and vertical post = 38°.\nThe base is adjacent to the 38° angle; x (beam) is the hypotenuse.\ncos(38°) = adjacent/hypotenuse = 24.5/x\nx = 24.5/cos(38°) = 24.5/0.7880 ≈ 31.09 inches.\nTo the nearest inch, the support beam is approximately 31 inches long.', image: '/images/exams/geo-january-2020/q26.png' },
     {
       number: 27, part: 'B', type: 'written',
       text: 'A rectangular tabletop will be made of maple wood that weighs 43 pounds per cubic foot. The tabletop will have a length of eight feet, a width of three feet, and a thickness of one inch. Determine and state the weight of the tabletop, in pounds.',
@@ -232,24 +221,21 @@ export default {
       topic: 'Circles',
       explanation: 'By the secant-tangent theorem from external point A: AD² = AB × AC. AB = AC − BC = 12.5 − 4.5 = 8. So AD² = 8 × 12.5 = 100, and AD = 10.',
       diveDeep: 'For a tangent and a secant drawn from the same external point, the power of the point theorem gives: (tangent)² = (external segment of secant) × (whole secant). Here the external point is A, the tangent length is AD, the external part of the secant is AB = CA − CB = 12.5 − 4.5 = 8, and the whole secant is CA = 12.5. So AD² = AB × AC = 8 × 12.5 = 100, giving AD = 10. The most common error is using CB (the chord portion) as the external segment instead of AB.',
-      modelAnswer: 'External point A; secant through B and C; tangent at D.\nExternal segment of secant: AB = CA − CB = 12.5 − 4.5 = 8.\nPower of the point (secant-tangent): AD² = AB × AC = 8 × 12.5 = 100.\nDA = √100 = 10.\nThe length of DA is 10.'
-    },
+      modelAnswer: 'External point A; secant through B and C; tangent at D.\nExternal segment of secant: AB = CA − CB = 12.5 − 4.5 = 8.\nPower of the point (secant-tangent): AD² = AB × AC = 8 × 12.5 = 100.\nDA = √100 = 10.\nThe length of DA is 10.', image: '/images/exams/geo-january-2020/q28.png' },
     {
       number: 29, part: 'B', type: 'written',
       text: 'Given segment MT, use a compass and straightedge to construct a 45° angle whose vertex is at point M. Leave all construction marks.',
       topic: 'Constructions',
       explanation: 'Construct a 90° angle at M by erecting a perpendicular to MT, then bisect that 90° angle to obtain 45°.',
       diveDeep: 'A 45° angle is half of 90°. The construction proceeds in two stages: (1) construct a 90° angle at M by drawing a perpendicular to MT at M — this can be done by swinging equal arcs on both sides of M along MT and then intersecting arcs above to find the perpendicular point; (2) bisect the resulting 90° angle using the standard angle bisector construction. The bisector of the 90° angle creates two 45° angles. All arc marks must be left visible. A common error is attempting to directly "estimate" 45° without the two-step construction.',
-      modelAnswer: 'Step 1: Construct a perpendicular to MT at M.\n  a. Place compass at M; swing an arc intersecting MT at two points, P and Q.\n  b. Place compass at P and Q with equal radius; draw arcs that intersect above MT at point R.\n  c. Draw ray MR — this is perpendicular to MT (∠RMT = 90°).\nStep 2: Bisect ∠RMT (the 90° angle).\n  a. Place compass at M; swing an arc intersecting MT at S and MR at U.\n  b. Place compass at S and U with equal radius; draw arcs intersecting at V.\n  c. Draw ray MV — this bisects ∠RMT.\n∠VMT = 45°. All construction marks are left.'
-    },
+      modelAnswer: 'Step 1: Construct a perpendicular to MT at M.\n  a. Place compass at M; swing an arc intersecting MT at two points, P and Q.\n  b. Place compass at P and Q with equal radius; draw arcs that intersect above MT at point R.\n  c. Draw ray MR — this is perpendicular to MT (∠RMT = 90°).\nStep 2: Bisect ∠RMT (the 90° angle).\n  a. Place compass at M; swing an arc intersecting MT at S and MR at U.\n  b. Place compass at S and U with equal radius; draw arcs intersecting at V.\n  c. Draw ray MV — this bisects ∠RMT.\n∠VMT = 45°. All construction marks are left.', image: '/images/exams/geo-january-2020/q29.png' },
     {
       number: 30, part: 'B', type: 'written',
       text: 'In △XYZ, medians XE, YF, and ZD intersect at C. If CE = 5, YF = 21, and XZ = 15, determine and state the perimeter of triangle CFX.',
       topic: 'Triangles & Congruence',
       explanation: 'The centroid divides each median in ratio 2:1 from vertex. CE = 5 → XC = 10, XE = 15. YF = 21 → YC = 14, CF = 7. XZ = 15, and F is midpoint of XZ so XF = 7.5. Perimeter of △CFX = CF + FX + XC = 7 + 7.5 + 10 = 24.5.',
       diveDeep: 'The centroid (C) divides each median in a 2:1 ratio from vertex to midpoint. For median XE: XC = (2/3)XE and CE = (1/3)XE. Given CE = 5, XE = 15 and XC = 10. For median YF: CF = (1/3)YF = (1/3)(21) = 7 and YC = 14. F is the midpoint of side XZ (since YF is a median to XZ), so XF = XZ/2 = 15/2 = 7.5. Perimeter of △CFX = CF + FX + XC = 7 + 7.5 + 10 = 24.5. Students often confuse which segment is 1/3 vs. 2/3 of the median.',
-      modelAnswer: 'The centroid C divides each median in a 2:1 ratio (vertex to midpoint).\nMedian XE: CE = 5 (given) → XE = 3 × CE = 15, XC = 2 × CE = 10.\nMedian YF: YF = 21 → CF = (1/3)(21) = 7, YC = (2/3)(21) = 14.\nF is the midpoint of XZ (YF is a median to side XZ): XF = XZ/2 = 15/2 = 7.5.\nPerimeter of △CFX = CF + FX + XC = 7 + 7.5 + 10 = 24.5.'
-    },
+      modelAnswer: 'The centroid C divides each median in a 2:1 ratio (vertex to midpoint).\nMedian XE: CE = 5 (given) → XE = 3 × CE = 15, XC = 2 × CE = 10.\nMedian YF: YF = 21 → CF = (1/3)(21) = 7, YC = (2/3)(21) = 14.\nF is the midpoint of XZ (YF is a median to side XZ): XF = XZ/2 = 15/2 = 7.5.\nPerimeter of △CFX = CF + FX + XC = 7 + 7.5 + 10 = 24.5.', image: '/images/exams/geo-january-2020/q30.png' },
     {
       number: 31, part: 'B', type: 'written',
       text: 'Determine and state an equation of the line perpendicular to the line 5x − 4y = 10 and passing through the point (5, 12).',
@@ -264,31 +250,27 @@ export default {
       topic: 'Coordinate Geometry',
       explanation: 'Calculate all four side lengths: NA = √(5²+5²) = √50 = 5√2; AT = √(7²+1²) = √50 = 5√2; TS = √(5²+5²) = √50 = 5√2; SN = √(7²+1²) = √50 = 5√2. All four sides equal 5√2, so NATS is a rhombus.',
       diveDeep: 'A rhombus is defined as a quadrilateral with all four sides congruent. Compute each side using the distance formula: NA = √((1−(−4))²+(2−(−3))²) = √(25+25) = √50; AT = √((8−1)²+(1−2)²) = √(49+1) = √50; TS = √((3−8)²+(−4−1)²) = √(25+25) = √50; SN = √((−4−3)²+(−3−(−4))²) = √(49+1) = √50. Since all four sides equal √50 = 5√2, NATS is a rhombus. Some students also verify the diagonals are perpendicular as an alternative proof of rhombus, but the all-sides-equal method is most direct.',
-      modelAnswer: 'Use the distance formula to compute all four side lengths:\nNA = √((1−(−4))² + (2−(−3))²) = √(5² + 5²) = √50 = 5√2\nAT = √((8−1)² + (1−2)²) = √(7² + (−1)²) = √(49+1) = √50 = 5√2\nTS = √((3−8)² + (−4−1)²) = √((−5)² + (−5)²) = √50 = 5√2\nSN = √((−4−3)² + (−3−(−4))²) = √((−7)² + 1²) = √(49+1) = √50 = 5√2\nSince NA = AT = TS = SN = 5√2, all four sides of quadrilateral NATS are congruent.\nTherefore, NATS is a rhombus.'
-    },
+      modelAnswer: 'Use the distance formula to compute all four side lengths:\nNA = √((1−(−4))² + (2−(−3))²) = √(5² + 5²) = √50 = 5√2\nAT = √((8−1)² + (1−2)²) = √(7² + (−1)²) = √(49+1) = √50 = 5√2\nTS = √((3−8)² + (−4−1)²) = √((−5)² + (−5)²) = √50 = 5√2\nSN = √((−4−3)² + (−3−(−4))²) = √((−7)² + 1²) = √(49+1) = √50 = 5√2\nSince NA = AT = TS = SN = 5√2, all four sides of quadrilateral NATS are congruent.\nTherefore, NATS is a rhombus.', image: '/images/exams/geo-january-2020/q32.png' },
     {
       number: 33, part: 'C', type: 'written',
       text: 'David needs a ladder for his treehouse. He is standing 1.3 meters from the stilt supporting the treehouse. The angle of elevation from his eye level to the bottom of the treehouse is 56°. David\'s eye level is 1.5 meters above the ground. Determine and state the minimum length of a ladder, to the nearest tenth of a meter, that David will need.',
       topic: 'Right Triangles & Trig',
       explanation: 'Height of treehouse ledge above ground: tan(56°) × 1.3 + 1.5 ≈ 1.926 + 1.5 = 3.426 m. The ladder runs from the ground anchor point (1.3 m from stilt) to the ledge at height 3.426 m. Ladder length = √(1.3² + 3.426²) ≈ √(1.69 + 11.74) ≈ √13.43 ≈ 3.7 m.',
       diveDeep: 'First find the height of the treehouse ledge above the ground. The right triangle from eye level to the ledge has adjacent = 1.3 m and angle = 56°: opposite (rise from eye to ledge) = 1.3 × tan(56°) ≈ 1.3 × 1.4826 ≈ 1.927 m. Total ledge height = 1.927 + 1.5 = 3.427 m. Now the ladder is the hypotenuse of the triangle with legs 1.3 m (horizontal, from anchor to stilt base) and 3.427 m (vertical, full ledge height). Ladder = √(1.3² + 3.427²) ≈ √(1.69 + 11.74) ≈ √13.43 ≈ 3.7 m. Students often forget to add David\'s eye height of 1.5 m to find the total ledge height.',
-      modelAnswer: 'Step 1: Find the height of the ledge above David\'s eye level.\ntan(56°) = opposite/adjacent = h/1.3\nh = 1.3 × tan(56°) ≈ 1.3 × 1.4826 ≈ 1.927 m\n\nStep 2: Total height of ledge above ground = 1.927 + 1.5 = 3.427 m.\n\nStep 3: Ladder length (hypotenuse of triangle with legs 1.3 m and 3.427 m):\nL = √(1.3² + 3.427²) = √(1.69 + 11.744) = √13.434 ≈ 3.7 m.\n\nDavid needs a ladder of at least 3.7 meters.'
-    },
+      modelAnswer: 'Step 1: Find the height of the ledge above David\'s eye level.\ntan(56°) = opposite/adjacent = h/1.3\nh = 1.3 × tan(56°) ≈ 1.3 × 1.4826 ≈ 1.927 m\n\nStep 2: Total height of ledge above ground = 1.927 + 1.5 = 3.427 m.\n\nStep 3: Ladder length (hypotenuse of triangle with legs 1.3 m and 3.427 m):\nL = √(1.3² + 3.427²) = √(1.69 + 11.744) = √13.434 ≈ 3.7 m.\n\nDavid needs a ladder of at least 3.7 meters.', image: '/images/exams/geo-january-2020/q33.png' },
     {
       number: 34, part: 'C', type: 'written',
       text: 'A manufacturer\'s original container for chocolate-covered almonds was a cylinder with a height of 18 cm and a diameter of 14 cm. The new container is a rectangular prism with a square base and the same volume. If the new container\'s height is 16 cm, determine and state, to the nearest tenth of a centimeter, the side length of the new container. Also determine the maximum number of new containers that fit on a shelf 80 cm long and 60 cm wide (one layer, square base down).',
       topic: 'Area & Volume',
       explanation: 'Cylinder volume: V = π(7²)(18) = 882π ≈ 2771.5 cm³. Square prism: s²(16) = 882π → s² = 882π/16 ≈ 173.2 → s ≈ 13.2 cm. Shelf: floor(80/13.2) × floor(60/13.2) = 6 × 4 = 24 containers.',
       diveDeep: 'Cylinder volume: V = πr²h = π(7)²(18) = 882π ≈ 2771.53 cm³. Square prism volume: s²h = s²(16) = 882π → s² = 882π/16 ≈ 173.18 → s ≈ 13.16 ≈ 13.2 cm. For the shelf: 80/13.2 ≈ 6.06 → 6 containers along the length; 60/13.2 ≈ 4.55 → 4 containers along the width. Maximum = 6 × 4 = 24 containers. Students sometimes round s up instead of keeping the exact value for shelf calculation, leading to incorrect shelf counts. Use the exact s value when dividing shelf dimensions.',
-      modelAnswer: 'Part 1 — Side length of new container:\nCylinder V = πr²h = π(7)²(18) = 882π cm³.\nSquare prism (same volume): s² × 16 = 882π\ns² = 882π/16 ≈ 2771.53/16 ≈ 173.22\ns ≈ √173.22 ≈ 13.2 cm (to nearest tenth).\n\nPart 2 — Maximum containers on shelf (80 cm × 60 cm):\nAlong 80 cm: ⌊80/13.2⌋ = ⌊6.06⌋ = 6\nAlong 60 cm: ⌊60/13.2⌋ = ⌊4.55⌋ = 4\nMaximum number of containers = 6 × 4 = 24.'
-    },
+      modelAnswer: 'Part 1 — Side length of new container:\nCylinder V = πr²h = π(7)²(18) = 882π cm³.\nSquare prism (same volume): s² × 16 = 882π\ns² = 882π/16 ≈ 2771.53/16 ≈ 173.22\ns ≈ √173.22 ≈ 13.2 cm (to nearest tenth).\n\nPart 2 — Maximum containers on shelf (80 cm × 60 cm):\nAlong 80 cm: ⌊80/13.2⌋ = ⌊6.06⌋ = 6\nAlong 60 cm: ⌊60/13.2⌋ = ⌊4.55⌋ = 4\nMaximum number of containers = 6 × 4 = 24.', image: '/images/exams/geo-january-2020/q34.png' },
     {
       number: 35, part: 'D', type: 'written',
       text: 'In quadrilateral ABCD, E and F are points on AD and BC respectively, and BGD and EGF are drawn such that ∠ABG = ∠CDG, AB = CD, and CE = AF. Prove: FG ≅ EG.',
       topic: 'Proofs',
       explanation: 'From the given conditions, △ABG ≅ △CDG by ASA (∠ABG = ∠CDG, AB = CD, and vertical angles ∠AGB = ∠CGB... or using ∠AGB = ∠CGD as vertical angles). Then BG = DG by CPCTC. With CE = AF and BG = DG, use triangle congruence to show △EGD ≅ △FGB or similar triangles involving G, E, F to conclude FG = EG.',
       diveDeep: 'Step-by-step strategy: (1) Prove △ABG ≅ △CDG using ASA — ∠ABG = ∠CDG (given), AB = CD (given), and ∠AGB = ∠CGB is not directly vertical... note that ∠BGA = ∠DGC as vertical angles since BGD is a straight line and G is the intersection. So the "included angle" between AB and BG is ∠ABG, and between CD and DG is ∠CDG; both are equal (given), making the triangles congruent by ASA. (2) From CPCTC: AG = CG and BG = DG. (3) Given AF = CE, note F is on BC and E is on AD; AG = CG (from step 2); AF = CE (given). Then in △AGF and △CGE: AG = CG, AF = CE, and ∠GAF = ∠GCE (from △ABG ≅ △CDG via CPCTC). So △AGF ≅ △CGE by SAS, giving GF = GE.',
-      modelAnswer: 'Proof:\n1. ∠ABG = ∠CDG (Given)\n2. AB = CD (Given)\n3. ∠AGB = ∠CGD (Vertical angles — BGD is a line through G)\n4. △ABG ≅ △CDG (ASA: steps 1, 2, 3)\n5. AG = CG and BG = DG (CPCTC from step 4)\n6. ∠GAF = ∠GCE (CPCTC from step 4, corresponding angles)\n7. AF = CE (Given)\n8. △AGF ≅ △CGE (SAS: AG = CG from step 5, ∠GAF = ∠GCE from step 6, AF = CE from step 7)\n9. FG = EG (CPCTC from step 8)\nTherefore FG ≅ EG. ∎'
-    },
+      modelAnswer: 'Proof:\n1. ∠ABG = ∠CDG (Given)\n2. AB = CD (Given)\n3. ∠AGB = ∠CGD (Vertical angles — BGD is a line through G)\n4. △ABG ≅ △CDG (ASA: steps 1, 2, 3)\n5. AG = CG and BG = DG (CPCTC from step 4)\n6. ∠GAF = ∠GCE (CPCTC from step 4, corresponding angles)\n7. AF = CE (Given)\n8. △AGF ≅ △CGE (SAS: AG = CG from step 5, ∠GAF = ∠GCE from step 6, AF = CE from step 7)\n9. FG = EG (CPCTC from step 8)\nTherefore FG ≅ EG. ∎', image: '/images/exams/geo-january-2020/q35.png' },
   ]
 }

@@ -1,0 +1,1071 @@
+{
+  "subject": "earth-science",
+  "session": "january-2014",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "At a location in the Northern Hemisphere, a camera was placed outside at night with the lens pointing straight up. The shutter was left open for four hours, resulting in the star trails shown below. At which latitude were these star trails observed?",
+      "choices": [
+        "1\u00b0 N",
+        "30\u00b0 N",
+        "60\u00b0 N",
+        "90\u00b0 N"
+      ],
+      "image": "/images/exams/earth-science/january-2014/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Why are some constellations visible to New York State observers at midnight during April, but not visible at midnight during October?",
+      "choices": [
+        "Constellations move within our galaxy.",
+        "Constellations have elliptical orbits.",
+        "Earth revolves around the Sun.",
+        "Earth rotates on its axis."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "A red shift in the light from very distant galaxies suggests that the universe is",
+      "choices": [
+        "fixed and stationary",
+        "moving randomly",
+        "contracting",
+        "expanding"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which motion causes the Coriolis effect on Earth?",
+      "choices": [
+        "revolution of Earth around the Sun",
+        "revolution of the Moon around Earth",
+        "rotation of Earth on its axis",
+        "rotation of the Moon on its axis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "When water vapor condenses, how much heat energy will be released into the atmosphere?",
+      "choices": [
+        "2260 joules/gram",
+        "334 joules/gram",
+        "4.18 joules/gram",
+        "2.11 joules/gram"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "written",
+      "text": "Liquid water sometimes turns into ice when it comes in contact with Earth\u2019s surface. Which present weather symbol on a station model represents this type of precipitation?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "written",
+      "text": "A weather station model is shown below. Which information shown on the station model is most closely associated with measurements from an anemometer? 25 ( 1 ) 998 ( 2 ) ( 3 ) ( 4 ) 25 998 23 ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A dry-bulb temperature of 30\u00b0C and a wet-bulb temperature of 29\u00b0C were recorded at a weather station. What are the relative humidity and the most likely weather conditions?",
+      "choices": [
+        "Relative humidity is 29% with clear skies.",
+        "Relative humidity is 29% with a good chance of snow.",
+        "Relative humidity is 93% with clear skies.",
+        "Relative humidity is 93% with a good chance of rain."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The arrows on the map below show the prevailing winds at a midlatitude coastal city. This city most likely has a climate that is",
+      "choices": [
+        "arid, with a small difference between the highest and lowest yearly temperatures",
+        "arid, with a large difference between the highest and lowest yearly temperatures",
+        "humid, with a small difference between the highest and lowest yearly temperatures",
+        "humid, with a large difference between the highest and lowest yearly temperatures"
+      ],
+      "image": "/images/exams/earth-science/january-2014/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "During an El Ni\u00f1o event, the South Equatorial Current reverses direction and flows over the top of northern portions of the Peru Current, causing",
+      "choices": [
+        "warmer surface ocean waters along the northeast coast of South America",
+        "warmer surface ocean waters along the northwest coast of South America",
+        "cooler surface ocean waters along the northeast coast of South America",
+        "cooler surface ocean waters along the northwest coast of South America"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "An air mass entering Alaska from the northern Pacific Ocean would most likely be labeled on a weather map as",
+      "choices": [
+        "cP",
+        "cT",
+        "mP",
+        "mT"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Most tornadoes in the Northern Hemisphere are best described as violently rotating columns of air surrounded by",
+      "choices": [
+        "clockwise surface winds moving toward the columns",
+        "clockwise surface winds moving away from the columns",
+        "counterclockwise surface winds moving toward the columns",
+        "counterclockwise surface winds moving away from the columns"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The major source of oxygen in Earth\u2019s Early Proterozoic atmosphere is inferred to have been produced by",
+      "choices": [
+        "oceanic cyanobacteria",
+        "outgassing from volcanic eruptions",
+        "radioactive decay in Earth\u2019s inner core",
+        "evaporation of ocean water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Earth has sedimentary bedrock of marine origin that is four billion years old. Which inference can be made from this information?",
+      "choices": [
+        "Earth had oceans four billion years ago.",
+        "Sedimentary rocks formed from magma when Earth cooled four billion years ago.",
+        "Most sedimentary rocks are at least four billion years old.",
+        "Life existed on Earth four billion years ago."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Valcouroceras is a New York State index fossil. Which mountain-building event occurred in New York State during the time when Valcouroceras was living in oceans covering parts of New York State?",
+      "choices": [
+        "Alleghenian orogeny",
+        "Acadian orogeny",
+        "Taconian orogeny",
+        "Grenville orogeny City Ocean Land N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The diagram below represents some fauna (animals) found fossilized in Canada\u2019s Burgess shale. During which geologic epoch did these animals live?",
+      "choices": [
+        "Middle Cambrian",
+        "Early Pennsylvanian",
+        "Late Triassic",
+        "Paleocene"
+      ],
+      "image": "/images/exams/earth-science/january-2014/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A group hiking in the Catskill region of New York State finds several large boulders composed of metamorphic rock. These boulders most likely resulted from the weathering of bedrock formed in the",
+      "choices": [
+        "Catskills, and were transported to their present location by mass movement",
+        "Catskills, and were transported to their present location by glaciers",
+        "Adirondack Mountains, and were transported to their present location by mass movement",
+        "Adirondack Mountains, and were transported to their present location by glaciers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The formation of the Canary Islands was primarily caused by their location near a",
+      "choices": [
+        "subduction zone",
+        "mantle hot spot",
+        "divergent boundary",
+        "transform fault"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "A P-wave takes 5 minutes to travel from the epicenter of an earthquake to a seismic station. Approximately how many minutes will it take an S-wave to travel that same distance?",
+      "choices": [
+        "15 min",
+        "12 min",
+        "9 min",
+        "4 min"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which two Earth layers are separated by the Moho boundary?",
+      "choices": [
+        "rigid mantle and plastic mantle",
+        "outer core and stiffer mantle",
+        "stiffer mantle and asthenosphere",
+        "crust and rigid mantle"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "During a rainstorm, when soil becomes saturated, the amount of infiltration",
+      "choices": [
+        "decreases and runoff decreases",
+        "decreases and runoff increases",
+        "increases and runoff decreases",
+        "increases and runoff increases"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Sediment is deposited as a river enters a lake because the",
+      "choices": [
+        "velocity of the river decreases",
+        "force of gravity decreases",
+        "volume of water increases",
+        "slope of the river increases"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Stream drainage patterns that develop in a landscape region are controlled mostly by",
+      "choices": [
+        "bedrock structure",
+        "precipitation amounts",
+        "nearness to a large body of water",
+        "air temperature variations"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The most abundant metallic element by mass in Earth\u2019s crust makes up 8.23% of the crust. Which group of minerals all normally contain this metallic element in their compositions?",
+      "choices": [
+        "garnet, calcite, pyrite, and galena",
+        "biotite mica, muscovite mica, fluorite, and halite",
+        "talc, quartz, graphite, and olivine",
+        "plagioclase feldspar, amphibole, pyroxene, and potassium feldspar (Not drawn to scale)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which sequence of events affecting moist air within Earth\u2019s atmosphere causes cloud formation?",
+      "choices": [
+        "rising expanding cooling condensation",
+        "rising contracting warming evaporation",
+        "sinking expanding warming condensation",
+        "sinking contracting cooling evaporation"
+      ],
+      "image": "/images/exams/earth-science/january-2014/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "In which environment is the amount of transpiration usually the greatest?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Which graph best shows the general relationship between a planet\u2019s distance from the Sun and the Sun\u2019s gravitational attraction to the planet? ( 1 ) Planet\u2019s Distance from the Sun Sun\u2019s Gravitational Attraction ( 2 ) Sun\u2019s Gravitational Attraction Planet\u2019s Distance from the Sun ( 3 ) Sun\u2019s Gravitational Attraction Planet\u2019s Distance from the Sun ( 4 ) Sun\u2019s Gravitational Attraction Planet\u2019s Distance from the Sun ( 1 ) ( 2 ) ( 3 ) ( 4 ) \u2192 \u2192 \u2192 \u2192 \u2192 \u2192 \u2192 \u2192 \u2192 \u2192 \u2192 \u2192",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Which diagram best represents the tilt of Earth\u2019s axis that causes the Northern Hemisphere seasons shown? (Diagrams are not drawn to scale.)",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The map below shows a portion of Earth\u2019s system of latitude and longitude and five surface locations labeled A, B, C, D, and X. It is solar noon at location X. At which location will solar noon next occur?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D 100\u00b0 E 80\u00b0 E 60\u00b0 E 40\u00b0 E 0\u00b0 20\u00b0 N 40\u00b0 N B D C X A 120\u00b0 E 10\u00b0 S 10\u00b0 N 30\u00b0 N 50\u00b0 N 90\u00b0 E 70\u00b0 E 50\u00b0 E 110\u00b0 E \u0002\u0003\u0004\u0004\u0005\u0006 \u0007\b \b \u000e\u0005\u0006 \u0002\u0003\u0004 \u0005 \u0005 \u0005 \u0005 \u0007\b\u000f\b \u000e\u0005\u0006 \u0002\u0003\u0004 \u0005 \u0005 \u0007\b\u0010\b \u000e\u0005\u0006 \u0002\u0003\u0004 \u0005 \u0005 \u0005 \u0007\b\u0011\b \u000e\u0005\u0006 \u0002\u0003\u0004 \u0005 \u0005 \u0005 \u0002\u0003\u0004\u0004\u0005\u0006 \u0002\u0003\u0004\u0004\u0005\u0006 \u0002\u0003\u0004\u0004\u0005\u0006 \u0005 \u0005 \u0005 \u0005"
+      ],
+      "image": "/images/exams/earth-science/january-2014/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the mass and volume of a mineral sample being measured. These measurements were used to determine the density of the mineral sample. What is the density of this mineral sample?",
+      "choices": [
+        "6 g/mL",
+        "24 g/mL",
+        "34 g/mL",
+        "60 g/mL 0 1 2 3 4 5 6 7 8 9 10 g 100 200 300 400 500 g 10 20 30 40 50 60 70 80 90100 g Mineral sample 50 40 30 20 10 Mineral sample 50 40 30 20 10 Mineral sample mL mL"
+      ],
+      "image": "/images/exams/earth-science/january-2014/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The map below shows changes in the position of the tsunami wave front produced by the 1964 Alaskan earthquake. The numbers indicate the time, in hours, for the wave front to reach the positions indicated by the isolines. If the wave front reached the Hawaiian Islands at 10:30 p.m., at approximately what time did the earthquake occur?",
+      "choices": [
+        "1:30 p.m.",
+        "5:30 p.m.",
+        "3:30 a.m.",
+        "4:30 a.m. \u0005\u0006\u0007\b \u0007 \u000e\u000f \u0010 \u000f \u0011\u000f\u0007\b \u0012\u0003\u000f\u0013 \u0014 \u0015 \u000e \u0004\b \u0007 \u0003\u0010\b\u0007\u000f\u0016 \u000f \u0017\u000f\u0018 \u0014\u0019\u0007\u0006\u0004\b \u001a\u001b \u001a \u000f \u000f \u000f\u0004 \u0010\u0016\u000f\u0004!\u0010 \u001a\" \u001a# # \" \u0005 \u001a"
+      ],
+      "image": "/images/exams/earth-science/january-2014/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the analysis of a seismogram used to calculate an earthquake\u2019s magnitude on the Richter Scale. This seismogram shows the difference in arrival times, in seconds, of the first P-wave and S-wave and the amplitude of the S-wave in millimeters. The diagram below represents how the earthquake\u2019s magnitude is determined by drawing a line connecting the difference in arrival times of the P-wave and the S-wave, and the S-wave amplitude. What is the magnitude of a recorded earthquake if the difference in arrival times of the first P-wave and S-wave is 2 seconds and the S-wave amplitude is 20 millimeters?",
+      "choices": [
+        "3.8",
+        "2.0",
+        "3.0",
+        "4.8 \u001a\u001b\u001b \u0002\u0003\u0004\u0005\u0006\u0007 \b \u000e\u000f\u0007 $ % \u0010\u0005\u0011 \u0012\u0013\u000e\u0005\u0014\u0007 \u0015\u0005\u0016\u0017 \u000e\u000f\u0007 &\u001b \u001b # \" \u001a\u001b \u001b '\u001b \u001b \u0018 \u0019\u0019\u0007\u0011\u0007\u0017\u001a\u0007\u001b \u0017 \b\u0011\u0011 \u0006\u0005 \u001b \u0007 \u001b \u0019 \u0003\u0004\u0005\u0006\u0007\u001b\u0005\u0017\u000f\u001b\u0002\u0003\u0004\u0005\u0006\u0007 $\u0010% \" & ' \u001a \u001b \u001b(\u001a \u001b( \u001b(& &\u001b \u001b \u001a\u001b & \u001a \u0014\u0010 '\u0014 )\u000f*\u0004 \b\u0003! \u0014& '\u001b \u001b \u001a\u001b \u0002+ \u000f\u0018 \u0014\u000f \u0015\u0016 \b\u0003! \u0014,\u0014 '\u0014 -+ \u000f\u0018 \u000f\u0007\u0007 \u0018\u000f\u0016 \u0002+ \u000f\u0018 \u000f\u0007\u0007 \u0018\u000f\u0016 \b\u0017\u0005 ! \u001b \u0019\u001b\u0005\u001b\u0002\u0007 \u0016\u0011\u0005 \u001b \u001a\u001b \u001b . \u0019\u0019 \u0007 \u0004\u000e \u0014 \u0004\u0014\u000f\u0007\u0007 \u0018\u000f\u0016 \b \u0010\u0014\u0006\u0019\u0014\b \u0014\u0019 \u0007\u0010\b\u0014-+ \u000f\u0018 \u000f\u0004!\u0014\u0002+ \u000f\u0018 \u0014,\u0014 \u0014\u0010"
+      ],
+      "image": "/images/exams/earth-science/january-2014/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Which cross section best represents a plateau landscape region?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Lichens are usually the first organisms that appear in barren, rocky areas. They use rootlike structures to split bedrock into small fragments. Lichens also secrete acidic solutions that help break down rock. The cross sections below represent an area when lichens first appeared (time 1) and that same area hundreds of years later, after it was changed by lichens and exposed to air and water (time 2). The soil shown in time 2 was formed mainly by",
+      "choices": [
+        "compaction and cementing",
+        "weathering and biological activity",
+        "faulting and tilting of rock strata",
+        "mass movement and deposition of particles Surface Lichens Time 1 Time 2 Soil Limestone Limestone Quartzite Quartzite Surface *\u0004 \u0006\u0003\u0010\u0014\u0007\u0006\u000e\u0013 \"\u0007! $\u0014 \u0014% $\u0014 \u0014% $\u0014\u001a\u0014% $\u0014'\u0014%"
+      ],
+      "image": "/images/exams/earth-science/january-2014/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The map below shows coastal features of a portion of Long Island, New York. Point A represents a location on a landscape feature that resulted from wave action and longshore currents. On which landscape feature is point A located?",
+      "choices": [
+        "moraine",
+        "delta",
+        "barrier island",
+        "floodplain \b\u0016\u000f\u0004\b \u000e\u0014/\u000e \u000f\u0004 0\u0007 \u000f\b\u0014\u0002\u0006\u0003\b \u00141\u000f2 3\u0006\u0004*\u0014 \u0010\u0016\u000f\u0004!\u0014\u0002\u0006\u0003\u0004! \b 3\u0006\u0004*\u0014 \u0010\u0016\u000f\u0004!"
+      ],
+      "image": "/images/exams/earth-science/january-2014/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Mt. Redoubt\u2019s seismic activity is due to the interaction of which two tectonic plates?",
+      "choices": [
+        "Pacific Plate and Eurasian Plate",
+        "Eurasian Plate and North American Plate",
+        "North American Plate and Pacific Plate",
+        "Philippine Plate and Eurasian Plate"
+      ],
+      "image": "/images/exams/earth-science/january-2014/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the passage and map below and on your knowledge of\nEarth science. The map shows the locations of the Mt. Redoubt volcano and Anchorage, Alaska.\nMt. Redoubt Volcano\nIn Anchorage, Alaska, scientists are monitoring sensors located on nearby Mt.\nRedoubt. The sensors measure seismic activity at the top of the volcano. No one lives\nnear the volcano itself, so there is no danger to humans from lava flows, but ash can be\ndangerous when breathed in, and can damage airplanes and automobiles if the ash is\ndrawn into their engines. When Mt. Redoubt erupted in 1989, a huge ash cloud\nreached an approximate height of 7.6 miles above sea level, and spread ash across\nAlaska for five months. The ash was composed largely of silica, which cooled rapidly as\nthe ash rose into the atmosphere. In March 2009, Mt. Redoubt erupted again.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The height of the ash cloud from the 1989 eruption reached an altitude in Earth\u2019s atmosphere located",
+      "choices": [
+        "between sea level and the lower troposphere",
+        "between the troposphere and the stratosphere",
+        "in the middle of the stratosphere",
+        "in the middle of the mesosphere \"&\u0002\u0014\u0005 \"\u001b\u0002\u0014\u0005 &&\u0002\u0014\u0005 \"&\u0002\u0014\u0005 \"\u001b\u0002\u0014\u0005 &&\u0002\u0014\u0005 \u001a4\u001b\u0002\u0014\u0011 \u001a#\u001b\u0002 \u001a4\u001b\u0002\u0014\u0017 \u001a\"\u001b\u0002\u0014\u0017 \u001a&\u001b\u0002\u0014\u0017 \u001a \u001b\u0002\u0014\u0017 \u001a'\u001b\u0002\u0014\u0017 \u001a \u001b\u0002\u0014\u0017 \u001a#\u001b\u0002 \u001a4\u001b\u0002\u0014\u0017 \u001a\"\u001b\u0002\u0014\u0017 \u001a&\u001b\u0002\u0014\u0017 \u001a \u001b\u0002\u0014\u0017 \u0016\u000f\u0010\u0013\u000f )\b( 5 !\u0006\u00036\b \u0004\u000e \u0006\u0007\u000f*"
+      ],
+      "image": "/images/exams/earth-science/january-2014/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the passage and map below and on your knowledge of\nEarth science. The map shows the locations of the Mt. Redoubt volcano and Anchorage, Alaska.\nMt. Redoubt Volcano\nIn Anchorage, Alaska, scientists are monitoring sensors located on nearby Mt.\nRedoubt. The sensors measure seismic activity at the top of the volcano. No one lives\nnear the volcano itself, so there is no danger to humans from lava flows, but ash can be\ndangerous when breathed in, and can damage airplanes and automobiles if the ash is\ndrawn into their engines. When Mt. Redoubt erupted in 1989, a huge ash cloud\nreached an approximate height of 7.6 miles above sea level, and spread ash across\nAlaska for five months. The ash was composed largely of silica, which cooled rapidly as\nthe ash rose into the atmosphere. In March 2009, Mt. Redoubt erupted again.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "How did the huge ash cloud that covered Alaska in 1989 affect the amount of insolation reaching Earth\u2019s surface and the air temperatures near Earth\u2019s surface?",
+      "choices": [
+        "Insolation decreased and temperatures increased.",
+        "Insolation increased and temperatures decreased.",
+        "Both insolation and temperatures increased.",
+        "Both insolation and temperatures decreased."
+      ],
+      "image": "/images/exams/earth-science/january-2014/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the passage and map below and on your knowledge of\nEarth science. The map shows the locations of the Mt. Redoubt volcano and Anchorage, Alaska.\nMt. Redoubt Volcano\nIn Anchorage, Alaska, scientists are monitoring sensors located on nearby Mt.\nRedoubt. The sensors measure seismic activity at the top of the volcano. No one lives\nnear the volcano itself, so there is no danger to humans from lava flows, but ash can be\ndangerous when breathed in, and can damage airplanes and automobiles if the ash is\ndrawn into their engines. When Mt. Redoubt erupted in 1989, a huge ash cloud\nreached an approximate height of 7.6 miles above sea level, and spread ash across\nAlaska for five months. The ash was composed largely of silica, which cooled rapidly as\nthe ash rose into the atmosphere. In March 2009, Mt. Redoubt erupted again.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "written",
+      "text": "The diagram below represents three bedrock outcrops. The layers have not been overturned. Letters A through E identify different rock layers. Fossils found in the rock layers are shown. Which fossil could be classified as an index fossil? $\u0014\u001a\u0014% $\u0014 \u0014% $\u0014'\u0014% $\u0014 \u0014% /\u0007 * \u0004\u000f\u0016 \u0007\u0006\u000e\u0013\u0014\u0016\u000f2 \u0007\u0010 \u0011\u0007\u0006! !\u0014\u0007\u0006\u000e\u0013\u0014\u0016\u000f2 \u0007\u0010 \b # $ \u0018 \u0010",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/q39.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which rock is most likely to form directly from rock material at a depth of 30 km and a temperature of 1000\u00b0C?",
+      "choices": [
+        "quartzite",
+        "scoria",
+        "shale",
+        "granite"
+      ],
+      "image": "/images/exams/earth-science/january-2014/context_40_42.png",
+      "context": "Base your answers to questions 40 through 42 on the graph below and on your knowledge of Earth science.\nThe graph shows the temperature, pressure, and depth environments for the formation of the three major rock\ntypes. Pressure is shown in kilobars (kb). Letters A through D identify different environmental conditions for\nrock formation.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Which letter represents the environmental conditions necessary to form gneiss?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/january-2014/context_40_42.png",
+      "context": "Base your answers to questions 40 through 42 on the graph below and on your knowledge of Earth science.\nThe graph shows the temperature, pressure, and depth environments for the formation of the three major rock\ntypes. Pressure is shown in kilobars (kb). Letters A through D identify different environmental conditions for\nrock formation.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "At what pressure and temperature is sand most likely to be compacted into sandstone?",
+      "choices": [
+        "2 kb and 150\u00b0C",
+        "6 kb and 200\u00b0C",
+        "10 kb and 400\u00b0C",
+        "12 kb and 900\u00b0C \u001b \" # \u001a\u001b \u001a \u001b \u001a\u001b\u001b \u001b\u001b '\u001b\u001b \u001b\u001b &\u001b\u001b \"\u001b\u001b 4\u001b\u001b #\u001b\u001b 7\u001b\u001b \u001a\u001b\u001b\u001b \u001a\u001a\u001b\u001b \b # $ \u0018 8\u0006\u0004\b\u000f\u000e\b\u0014 \b\u000f \u0006\u0007\u0015 \u0010 5 * \u0006 \u0004\u000f\u0016 \b\u000f \u0006\u0007\u0015 \u0010 9\u0006\u0007 \u000f\b \u0006\u0004\u0014\u0006\u0019 \u000f* \u000f\u0014\u000f\u0004! *\u0004 \u0006\u0003\u0010\u0014\u0007\u0006\u000e\u0013\u0010 ) \u0016\b \u0004*\u0014\u0006\u0019 \u000f\b \u0007+\u0010\u000f\b\u0003\u0007\u000f\b ! \u000e\u0006\u0004\b \u0004 \u0004\b\u000f\u0016\u0014\u000e\u0007\u0003\u0010\b ) \u0016\b \u0004*\u0014\u0006\u0019\u0014!\u00072 \u000e\u0006\u0004\b \u0004 \u0004\b\u000f\u0016\u0014\u000e\u0007\u0003\u0010\b \u0007 \u0007\u0011\u0005 \u000e\u0011\u0007\u001b$\u00028% \u0011\u0007 \u000e\u0011\u0007\u001b$\u00136% 9\u0006\u0007 \u000f\b \u0006\u0004\u0014\u0006\u0019 \b\u000f \u0006\u0007\u0015 \u000e\u0014\u0007\u0006\u000e\u0013 \u0005\u0006\b\u0014\u0019\u0006\u0003\u0004! \u001b \u001a\u001b \u001b '\u001b \u001b \u0018\u0007 \u0012\u001b$\u0013 % \u0010\u0017\u0006 \u0011 \u0017 \u0007\u0017 \u0005 \u001b$ \u0017\u000f \u0017 \u001b\u0019 \u0011\u001b% \u001a\u0014\u001b& \u0011 \u0005 \u0017 9\u0006\u0007 \u000f\b \u0006\u0004\u0014\u0006\u0019 \u0010 ! \u0004\b\u000f\u00072 \u0007\u0006\u000e\u0013\u0010 \u0011\u000f\u0007\b \u0003\u0010 \u0010\u0003\u0007\u0019\u000f\u000e"
+      ],
+      "image": "/images/exams/earth-science/january-2014/context_40_42.png",
+      "context": "Base your answers to questions 40 through 42 on the graph below and on your knowledge of Earth science.\nThe graph shows the temperature, pressure, and depth environments for the formation of the three major rock\ntypes. Pressure is shown in kilobars (kb). Letters A through D identify different environmental conditions for\nrock formation.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The Sun is inferred to spend the greatest amount of time in its life cycle",
+      "choices": [
+        "contracting from a gas cloud (nebula)",
+        "as a main sequence star",
+        "moving away from the main sequence and becoming a giant star",
+        "changing from a giant star to a white dwarf star"
+      ],
+      "image": "/images/exams/earth-science/january-2014/context_43_45.png",
+      "context": "Base your answers to questions 43 through 45 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the inferred changes to the luminosity and color of the Sun throughout its life\ncycle. The diagonal dashed line represents the main sequence stars. The numbers 1 through 5 represent stages\nin the life cycle of the Sun.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "The Sun is inferred to be the most luminous when it is classified as a",
+      "choices": [
+        "white dwarf star",
+        "gas cloud (nebula)",
+        "main sequence star",
+        "giant star"
+      ],
+      "image": "/images/exams/earth-science/january-2014/context_43_45.png",
+      "context": "Base your answers to questions 43 through 45 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the inferred changes to the luminosity and color of the Sun throughout its life\ncycle. The diagonal dashed line represents the main sequence stars. The numbers 1 through 5 represent stages\nin the life cycle of the Sun.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "For other stars in our galaxy that go through a similar life cycle to our Sun, which star is currently in the late stage of its life cycle?",
+      "choices": [
+        "Alpha Centauri",
+        "Procyon B",
+        "Barnard\u2019s Star",
+        "Polaris \u001b(\u001b\u001b\u001a \u001b(\u001b\u001a \u001b(\u001a \u001a \u001a\u001b \u001a\u001b\u001b \u001a:\u001b\u001b\u001b \u001a\u001b:\u001b\u001b\u001b 5 ! '( \u0002\u0003\u0004\u00146 * \u0004\u0010 \u000e\u0006\u0004\b\u0007\u000f\u000e\b \u0004*\u0014\u0019\u0007\u0006 *\u000f\u0010\u0014\u000e\u0016\u0006\u0003! $\u0004 6\u0003\u0016\u000f% )( \u0002\u0003\u0004\u0014\u0007 \u000f \u0004\u0010 \u0019\u0006\u0007\u0014\u001a\u001b\u00146 \u0016\u0016 \u0006\u0004 2 \u000f\u0007\u0010\u0014\u000f\u0010\u0014\u000f\u0014 \u000f \u0004 \u0010 \u0012\u0003 \u0004\u000e \u0014\u0010\b\u000f\u0007 *( \u0002\u0003\u0004\u0014 ;\u0015\u000f\u0004!\u0010 \b\u0006\u0014* \u000f\u0004\b\u0014\u0010 < : \u0016\u000f\u0007* \u0007\u0014\b \u000f\u0004\u0014\b \u0006\u00076 \b\u0014\u0006\u0019\u0014\u0011\u000f\u0007\b +( \u0002\u0003\u0004\u0003\u0010\u0014\u0006\u0003\b \u0007 \u0016\u000f2 \u0007\u0010\u00146\u0016\u0006 \u0004\u0014\u0006\u0019\u0019\u001462 \u0018 \u0006\u0016 \u0004\b\u0014\u0015\u0003\u0016\u0010\u000f\b \u0006\u0004\u0010 \u0002\u0003\u0004 \u000e\u0006\u0004 \b\u0007 \u000f \u000e \b \u0010 4 & \b \u0006 \u0003\u0010\u000f \u0004! 2 \u000f \u0007 \u0010 ,( \u0002\u0003\u0004\u0014 \u0004!\u0010\u0014\u000f\u0010 \u000f\u0014 \b \u0014! \u000f\u0007\u0019\u0014\u0010\b\u000f\u0007 & \u001b \u0016\u0016 \u0006\u0004 2 \u000f \u0007 \u0010 \u0002 \u0005\u0011\u001b$ \u0011 .\u000e \u0017 !\u001b$\u000e\u0006 \u0015\u000f\u0007 !\u0014\b\u0006\u0014\u0015\u0007 \u0010 \u0004\b+!\u000f2\u0014\u0002\u0003\u0004% \u0002\u0003 \u0004 ; \u0015 \u000f \u0004 ! \u0010 & \u001b \u001b \u0016 \u0016 \u0006 \u0004 2 \u000f \u0007 \u0010 . \u0019\u0007\u001b$!\u001a \u0007\u001b \u0019\u001b \u0012\u0007\u001b\u0002\u000e\u0017 1\u0016\u0003 \u0017 \b = \u0016\u0016\u0006"
+      ],
+      "image": "/images/exams/earth-science/january-2014/context_43_45.png",
+      "context": "Base your answers to questions 43 through 45 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the inferred changes to the luminosity and color of the Sun throughout its life\ncycle. The diagonal dashed line represents the main sequence stars. The numbers 1 through 5 represent stages\nin the life cycle of the Sun.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "The tidal range on November 8 was approximately",
+      "choices": [
+        "11 m",
+        "2 m",
+        "13 m",
+        "15 m"
+      ],
+      "image": "/images/exams/earth-science/january-2014/context_46_48.png",
+      "context": "Base your answers to questions 46 through 48 on the graph below and on your knowledge of Earth science.\nThe graph shows the tidal range (the difference between the highest tide and the lowest tide) recorded in Minas\nBasin, Nova Scotia, during November 2007. The phase of the Moon on selected days is shown above the graph.\nThe dates that the Moon was farthest from Earth (apogee) and closest to Earth (perigee) are indicated under\nthe graph.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The highest high tides and the lowest low tides occurred when the Moon was near",
+      "choices": [
+        "apogee and a new-Moon phase",
+        "apogee and a full-Moon phase",
+        "perigee and a new-Moon phase",
+        "perigee and a full-Moon phase"
+      ],
+      "image": "/images/exams/earth-science/january-2014/context_46_48.png",
+      "context": "Base your answers to questions 46 through 48 on the graph below and on your knowledge of Earth science.\nThe graph shows the tidal range (the difference between the highest tide and the lowest tide) recorded in Minas\nBasin, Nova Scotia, during November 2007. The phase of the Moon on selected days is shown above the graph.\nThe dates that the Moon was farthest from Earth (apogee) and closest to Earth (perigee) are indicated under\nthe graph.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "The next first-quarter Moon after November 17 occurred closest to",
+      "choices": [
+        "December 9",
+        "December 14",
+        "December 17",
+        "December 24 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 \u20131 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 Third quarter New Moon First quarter Full Moon November Tide Height (m) Apogee Perigee High tide Low tide November 2007 Tidal Range \u2013 Minas Basin, Nova Scotia"
+      ],
+      "image": "/images/exams/earth-science/january-2014/context_46_48.png",
+      "context": "Base your answers to questions 46 through 48 on the graph below and on your knowledge of Earth science.\nThe graph shows the tidal range (the difference between the highest tide and the lowest tide) recorded in Minas\nBasin, Nova Scotia, during November 2007. The phase of the Moon on selected days is shown above the graph.\nThe dates that the Moon was farthest from Earth (apogee) and closest to Earth (perigee) are indicated under\nthe graph.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which statement best explains why 18,000 years ago the coastline was at a different location than it is today?",
+      "choices": [
+        "The climate of Earth was extremely hot and dry.",
+        "A large amount of Earth\u2019s water was stored in large continental ice sheets.",
+        "The east coast of North America was being subducted under the Eurasian Plate.",
+        "North America had just separated from Africa, and the Atlantic Ocean was forming."
+      ],
+      "image": "/images/exams/earth-science/january-2014/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the map below and on your knowledge of Earth science. The\nmap shows part of the North American coastline. The present coastline is shown as a solid line. The symbols on\nthe key below indicate the inferred coastline 18,000 years ago and an inferred future coastline if global \nwarming continues.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The inferred position of the future coastline is based on the assumption that the",
+      "choices": [
+        "total amount of global precipitation will decrease",
+        "thickness of the ozone layer will decrease",
+        "concentration of carbon dioxide in Earth\u2019s atmosphere will increase",
+        "rate of uplift of the North American continent will increase Key Coastline 18,000 years ago Future coastline if global warming continues Atlantic Ocean"
+      ],
+      "image": "/images/exams/earth-science/january-2014/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the map below and on your knowledge of Earth science. The\nmap shows part of the North American coastline. The present coastline is shown as a solid line. The symbols on\nthe key below indicate the inferred coastline 18,000 years ago and an inferred future coastline if global \nwarming continues.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify the latitude and longitude of the eye of Hurricane Wilma on October 24. Label your answer with the correct units and directions.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the data table below, the map on the following page, and\non your knowledge of Earth science. The data table shows the air pressure in the eye (center) and the maximum \nsustained wind speed around the eye of Hurricane Wilma from October 18 through October 25, 2005. The data\nwere collected at the same time each day. The map shows the geographic locations of the eye of Hurricane\nWilma from October 18 to October 25.\nData of Hurricane Wilma\nDate\nAir Pressure \n(mb)\nWind Speed \n(mph)\nOct. 18\n977\n75\nOct. 19\n882\n173\nOct. 20\n915\n144\nOct. 21\n930\n143\nOct. 22\n946\n115\nOct. 23\n961\n98\nOct. 24\n956\n104\nOct. 25\n970\n103\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\n\nP.S./E. Sci.\u2013Jan. \u201914\n[19]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "State the compass direction in which Hurricane Wilma moved from October 22 through October 25.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the data table below, the map on the following page, and\non your knowledge of Earth science. The data table shows the air pressure in the eye (center) and the maximum \nsustained wind speed around the eye of Hurricane Wilma from October 18 through October 25, 2005. The data\nwere collected at the same time each day. The map shows the geographic locations of the eye of Hurricane\nWilma from October 18 to October 25.\nData of Hurricane Wilma\nDate\nAir Pressure \n(mb)\nWind Speed \n(mph)\nOct. 18\n977\n75\nOct. 19\n882\n173\nOct. 20\n915\n144\nOct. 21\n930\n143\nOct. 22\n946\n115\nOct. 23\n961\n98\nOct. 24\n956\n104\nOct. 25\n970\n103\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\n\nP.S./E. Sci.\u2013Jan. \u201914\n[19]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "On the graph in your answer booklet, draw a line to indicate the general relationship between air pressure in the eye of the hurricane and the wind speed around the eye of this hurricane. \u001a&\u0002\u0014\u0005 \u001b\u0002\u0014\u0005 &\u0002\u0014\u0005 '\u001b\u0002\u0014\u0005 '&\u0002\u0014\u0005 \u001b\u0002\u0014\u0005 #&\u0002\u0014\u0017 #\u001b\u0002\u0014\u0017 4&\u0002\u0014\u0017 4\u001b\u0002\u0014\u0017 \"&\u0002\u0014\u0017 7\u001b\u0002\u0014\u0017 #&\u0002\u0014\u0017 #\u001b\u0002\u0014\u0017 4&\u0002\u0014\u0017 \"&\u0002\u0014\u0017 7\u001b\u0002\u0014\u0017 \u001a&\u0002\u0014\u0005 \u001b\u0002\u0014\u0005 &\u0002\u0014\u0005 '\u001b\u0002\u0014\u0005 '&\u0002\u0014\u0005 \u001b\u0002\u0014\u0005 4\u001b\u0002\u0014\u0017 . \u001a\u0005 \u0017 \u001b \u0019\u001b \u0012\u0007\u001b\u0010!\u0007\u001b \u0019\u001b3\u000e\u0011\u0011 \u001a\u0005\u0017\u0007\u001b\u0004 \u0005 /\u000e\b\u0014 & /\u000e\b\u0014 /\u000e\b\u0014 ' /\u000e\b\u0014 \u001a /\u000e\b\u0014 \u001b /\u000e\b\u0014\u001a# /\u000e\b\u0014\u001a7 /\u000e\b\u0014",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the data table below, the map on the following page, and\non your knowledge of Earth science. The data table shows the air pressure in the eye (center) and the maximum \nsustained wind speed around the eye of Hurricane Wilma from October 18 through October 25, 2005. The data\nwere collected at the same time each day. The map shows the geographic locations of the eye of Hurricane\nWilma from October 18 to October 25.\nData of Hurricane Wilma\nDate\nAir Pressure \n(mb)\nWind Speed \n(mph)\nOct. 18\n977\n75\nOct. 19\n882\n173\nOct. 20\n915\n144\nOct. 21\n930\n143\nOct. 22\n946\n115\nOct. 23\n961\n98\nOct. 24\n956\n104\nOct. 25\n970\n103\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\n\nP.S./E. Sci.\u2013Jan. \u201914\n[19]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the decay product when carbon-14 undergoes radioactive disintegration.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the data table and information below and on your knowledge of\nEarth science. The data table shows the radioactive decay of carbon-14 and the age of fossil remains, in years (y).\nPart of the table has been left blank.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "The carbon-14 in the fossil remains of a mastodont has undergone five half-lives of radioactive decay. Calculate the age of these fossil remains.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the data table and information below and on your knowledge of\nEarth science. The data table shows the radioactive decay of carbon-14 and the age of fossil remains, in years (y).\nPart of the table has been left blank.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "On the cross section in your answer booklet, draw two arrows, one on each side of fault X, to show the relative direction of movement of the rock units that occurred during faulting.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 60 on the geologic cross section of Earth\u2019s crust in your answer\nbooklet and on your knowledge of Earth science. Letters A through F identify rock units. Letter X identifies a\nfault. Wavy line YZ represents an unconformity. The locations of contact metamorphism and the map symbols\nfor sedimentary rock layers B and E have been omitted.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Layer B is composed of clay-sized particles and layer E is composed of halite crystals. On the cross section in your answer booklet, fill in layer B and layer E on both sides of the fault with the correct sedimentary rock map symbols.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 60 on the geologic cross section of Earth\u2019s crust in your answer\nbooklet and on your knowledge of Earth science. Letters A through F identify rock units. Letter X identifies a\nfault. Wavy line YZ represents an unconformity. The locations of contact metamorphism and the map symbols\nfor sedimentary rock layers B and E have been omitted.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "On the cross section in your answer booklet, draw the contact metamorphism symbol to indicate all locations where contact metamorphism has occurred.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 60 on the geologic cross section of Earth\u2019s crust in your answer\nbooklet and on your knowledge of Earth science. Letters A through F identify rock units. Letter X identifies a\nfault. Wavy line YZ represents an unconformity. The locations of contact metamorphism and the map symbols\nfor sedimentary rock layers B and E have been omitted.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Indicate the relative ages of geologic features B, E, F, and X, by listing the letters from oldest to most recent.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 60 on the geologic cross section of Earth\u2019s crust in your answer\nbooklet and on your knowledge of Earth science. Letters A through F identify rock units. Letter X identifies a\nfault. Wavy line YZ represents an unconformity. The locations of contact metamorphism and the map symbols\nfor sedimentary rock layers B and E have been omitted.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify two processes that produced the unconformity. Number of Half-Lives Remaining Carbon-14 (%) Age of Fossil Remains (y) 0 100 0 1 50 5,700 2 25 11,400 3 12.5 4 6.25 5 3.125",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 60 on the geologic cross section of Earth\u2019s crust in your answer\nbooklet and on your knowledge of Earth science. Letters A through F identify rock units. Letter X identifies a\nfault. Wavy line YZ represents an unconformity. The locations of contact metamorphism and the map symbols\nfor sedimentary rock layers B and E have been omitted.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Identify the name of the largest sediment particles that can be transported at point A when the stream\u2019s velocity is 100 cm/s.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the block diagram below and on your knowledge of \nEarth science. The diagram represents a meandering stream. Point A represents a location within the \nmeandering stream. Arrows represent the direction of stream flow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Describe the relative changes in the stream velocity and the rate of erosion that will occur after 2 days of heavy rainfall.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the block diagram below and on your knowledge of \nEarth science. The diagram represents a meandering stream. Point A represents a location within the \nmeandering stream. Arrows represent the direction of stream flow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Explain why rock particles transported by the stream often become more rounded.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the block diagram below and on your knowledge of \nEarth science. The diagram represents a meandering stream. Point A represents a location within the \nmeandering stream. Arrows represent the direction of stream flow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Complete the diagram in your answer booklet by shading the pattern of normal polarity on the west side of the ridge center. Assume the rate of plate movement was constant on both sides of the ridge center. Your answer must show the correct width and placement of each normal polarity section.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the block diagram in your answer booklet and on your \nknowledge of Earth science. The diagram represents the pattern of normal and reversed magnetic polarity of\nthe seafloor bedrock on the east side of a mid-ocean ridge center.  The magnetic polarity of the bedrock on the\nwest side of the ridge has been omitted. Arrows represent the direction of seafloor movement on either side of\nthe ridge.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Describe the general relationship between the distance from the ridge center and the age of the seafloor bedrock. \b",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the block diagram in your answer booklet and on your \nknowledge of Earth science. The diagram represents the pattern of normal and reversed magnetic polarity of\nthe seafloor bedrock on the east side of a mid-ocean ridge center.  The magnetic polarity of the bedrock on the\nwest side of the ridge has been omitted. Arrows represent the direction of seafloor movement on either side of\nthe ridge.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "On the map in your answer booklet, complete the 600-ft, 700-ft, and 800-ft contour lines in section I. Extend the lines to the edge of the map.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 71 on the topographic map in your answer booklet and on your\nknowledge of Earth science. Dashed lines separate the map into sections I, II, III, and IV. Letters A through E\nrepresent locations on Earth\u2019s surface. The points in section I represent elevations in feet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw a line showing the most likely path of a second creek that begins at location E and flows into Spruce Creek.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 71 on the topographic map in your answer booklet and on your\nknowledge of Earth science. Dashed lines separate the map into sections I, II, III, and IV. Letters A through E\nrepresent locations on Earth\u2019s surface. The points in section I represent elevations in feet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Describe how the topography within section II is different from the topography within section IV.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 71 on the topographic map in your answer booklet and on your\nknowledge of Earth science. Dashed lines separate the map into sections I, II, III, and IV. Letters A through E\nrepresent locations on Earth\u2019s surface. The points in section I represent elevations in feet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "What is a possible elevation of location E?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 71 on the topographic map in your answer booklet and on your\nknowledge of Earth science. Dashed lines separate the map into sections I, II, III, and IV. Letters A through E\nrepresent locations on Earth\u2019s surface. The points in section I represent elevations in feet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Calculate the gradient between locations A and B.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 71 on the topographic map in your answer booklet and on your\nknowledge of Earth science. Dashed lines separate the map into sections I, II, III, and IV. Letters A through E\nrepresent locations on Earth\u2019s surface. The points in section I represent elevations in feet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a topographic profile along line CD by plotting the elevation of each contour line that crosses line CD. Connect all the plots with a line to complete the profile.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 71 on the topographic map in your answer booklet and on your\nknowledge of Earth science. Dashed lines separate the map into sections I, II, III, and IV. Letters A through E\nrepresent locations on Earth\u2019s surface. The points in section I represent elevations in feet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "On the celestial sphere diagram in your answer booklet, place an X on the Sun\u2019s apparent path on June 21 to show the Sun\u2019s position when the observer\u2019s shadow would be the longest.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 74 on the diagram in your answer booklet and on your \nknowledge of Earth science. The diagram is a model of the sky (celestial sphere) for an observer at 50\u00b0 N \nlatitude. The Sun\u2019s apparent path on June 21 is shown. Point A is a position along the Sun\u2019s apparent path.\nAngular distances above the horizon are indicated.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "The Sun travels 45\u00b0 in its apparent path between the noon position and point A. Identify the time when the Sun is at point A. Include a.m. or p.m. with your answer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 74 on the diagram in your answer booklet and on your \nknowledge of Earth science. The diagram is a model of the sky (celestial sphere) for an observer at 50\u00b0 N \nlatitude. The Sun\u2019s apparent path on June 21 is shown. Point A is a position along the Sun\u2019s apparent path.\nAngular distances above the horizon are indicated.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Describe the general relationship between the length of the Sun\u2019s apparent path and the duration of daylight.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 74 on the diagram in your answer booklet and on your \nknowledge of Earth science. The diagram is a model of the sky (celestial sphere) for an observer at 50\u00b0 N \nlatitude. The Sun\u2019s apparent path on June 21 is shown. Point A is a position along the Sun\u2019s apparent path.\nAngular distances above the horizon are indicated.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, place an X on each planet\u2019s orbital path to show the positions of Earth, Venus, and Mercury on the 55th day of each planet\u2019s orbit.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 77 on the diagram in your answer booklet and on your \nknowledge of Earth science. The diagram represents the orbits of Earth, Venus, and Mercury. Earth, Venus, and\nMercury are shown with a dot on each of their orbital paths. The numbers on each orbital path indicate the \nplanet\u2019s positions on successive days in its revolution. Point M is a position on Earth\u2019s orbit. Each season in the\nNorthern Hemisphere on Earth is labeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Approximately how many revolutions does Mercury make around the Sun during one Earth year?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 77 on the diagram in your answer booklet and on your \nknowledge of Earth science. The diagram represents the orbits of Earth, Venus, and Mercury. Earth, Venus, and\nMercury are shown with a dot on each of their orbital paths. The numbers on each orbital path indicate the \nplanet\u2019s positions on successive days in its revolution. Point M is a position on Earth\u2019s orbit. Each season in the\nNorthern Hemisphere on Earth is labeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "What latitude on Earth receives the vertical rays from the Sun when Earth is at position M?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/q77.png",
+      "context": "Base your answers to questions 75 through 77 on the diagram in your answer booklet and on your \nknowledge of Earth science. The diagram represents the orbits of Earth, Venus, and Mercury. Earth, Venus, and\nMercury are shown with a dot on each of their orbital paths. The numbers on each orbital path indicate the \nplanet\u2019s positions on successive days in its revolution. Point M is a position on Earth\u2019s orbit. Each season in the\nNorthern Hemisphere on Earth is labeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "What is the distance, in light-years, from the center of the Milky Way Galaxy to our solar system?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/context_78_80.png",
+      "context": "Base your answers to questions 78 through 80 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the present position of our solar system in a side view of the Milky Way Galaxy.\nThe distance across the Milky Way Galaxy is measured in light-years.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Galaxies are classified based on their shape. What is the shape of the Milky Way Galaxy when viewed from directly above?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/context_78_80.png",
+      "context": "Base your answers to questions 78 through 80 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the present position of our solar system in a side view of the Milky Way Galaxy.\nThe distance across the Milky Way Galaxy is measured in light-years.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "List the following astronomical features, in order of relative size, from smallest to largest. Sun Jupiter Milky Way Galaxy Universe Our solar system Side View of the Milky Way Galaxy Axis of rotation at center of galaxy Galaxy\u2019s plane Present position of our solar system 0 50,000 100,000 light-years",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/context_78_80.png",
+      "context": "Base your answers to questions 78 through 80 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the present position of our solar system in a side view of the Milky Way Galaxy.\nThe distance across the Milky Way Galaxy is measured in light-years.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "What are the approximate crystal sizes in basalt and gabbro found in the Oregon drill-core sample?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the passage, diagram of an ophiolite drill-core sample, and\nmap below and on your knowledge of Earth science. The dot on the map represents the location where the \nophiolite drill-core sample was taken.\nOphiolites\nIn some places, segments of oceanic crust, sediment, upper mantle, and rock have\nbeen heaved up by tectonic movements onto the edges of continents, where they often\nbecome part of mountains. These displaced oceanic lithosphere segments are called\nophiolites. They provide an opportunity to study the composition of oceanic \nlithosphere and are a key feature in recognizing past tectonic plate convergence along\nsubduction zones. Drill-core samples of ophiolites typically have the layering pattern\nshown in the drill-core sample below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Describe how the mineral composition of dunite is different from the mineral composition of peridotite.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the passage, diagram of an ophiolite drill-core sample, and\nmap below and on your knowledge of Earth science. The dot on the map represents the location where the \nophiolite drill-core sample was taken.\nOphiolites\nIn some places, segments of oceanic crust, sediment, upper mantle, and rock have\nbeen heaved up by tectonic movements onto the edges of continents, where they often\nbecome part of mountains. These displaced oceanic lithosphere segments are called\nophiolites. They provide an opportunity to study the composition of oceanic \nlithosphere and are a key feature in recognizing past tectonic plate convergence along\nsubduction zones. Drill-core samples of ophiolites typically have the layering pattern\nshown in the drill-core sample below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Which layer in the ophiolite drill-core sample is composed of sediments? 5\u0011\u0007\u0016 \u0017\u001b5 \u0012 \u0007 \u0018\u0011 \u0003$ \u0011\u0007\u001b\u0002\u0005 \u0007 8\u0016\u000f2\u0014 \b \u000e\u0007\u0006\u0010\u000e\u0006\u0015 \u000e\u0014\u0019\u0006\u0010\u0010 \u0016\u0010 1\u000f\u0010\u000f\u0016\b 0\u000f66\u0007\u0006 \u0002 \u0007\u0015 \u0004\b \u0004 \b .\u0003\u0004 \b - \u0007 !\u0006\b \b .\u0003\u0004 \b -2\u0007\u0006; \u0004 \b \u0005 $\u0005\u0006\b\u0014!\u0007\u000f \u0004\u0014\b\u0006\u0014\u0010\u000e\u000f\u0016 % 8\u000f\u0004\u000f!\u000f -\u000f\u000e \u0019 \u000e /\u000e \u000f\u0004 \u0017\u000f\u0010 \u0004*\b\u0006\u0004 /\u0007 *\u0006\u0004 \u0015\u0005",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the passage, diagram of an ophiolite drill-core sample, and\nmap below and on your knowledge of Earth science. The dot on the map represents the location where the \nophiolite drill-core sample was taken.\nOphiolites\nIn some places, segments of oceanic crust, sediment, upper mantle, and rock have\nbeen heaved up by tectonic movements onto the edges of continents, where they often\nbecome part of mountains. These displaced oceanic lithosphere segments are called\nophiolites. They provide an opportunity to study the composition of oceanic \nlithosphere and are a key feature in recognizing past tectonic plate convergence along\nsubduction zones. Drill-core samples of ophiolites typically have the layering pattern\nshown in the drill-core sample below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Explain why solar energy can still be collected on cloudy days.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the passage and diagram below and on your knowledge of\nEarth science. The diagram represents a house located in New York State.\nSolar Heating\nSolar collectors in solar heating systems harness the power of the Sun to provide\nthermal energy for heating hot water and house interiors. There are several types of\nsolar heating systems. The best system will depend on the geographic location and the\nintensity of the Sun. A solar heating system saves energy, reduces utility costs, and \nproduces clean energy. The efficiency and reliability of solar heating systems have\nincreased dramatically in recent years.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "State one advantage of using solar energy instead of burning fossil fuels to produce thermal energy for your home. \u0002\u0006\u0016\u000f\u0007\u0014\u000e\u0006\u0016\u0016 \u000e\b\u0006\u0007 \u0002\u0003\u0004 P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2014/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the passage and diagram below and on your knowledge of\nEarth science. The diagram represents a house located in New York State.\nSolar Heating\nSolar collectors in solar heating systems harness the power of the Sun to provide\nthermal energy for heating hot water and house interiors. There are several types of\nsolar heating systems. The best system will depend on the geographic location and the\nintensity of the Sun. A solar heating system saves energy, reduces utility costs, and \nproduces clean energy. The efficiency and reliability of solar heating systems have\nincreased dramatically in recent years.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

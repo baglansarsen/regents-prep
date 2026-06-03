@@ -1,0 +1,1071 @@
+{
+  "subject": "living-environment",
+  "session": "june-2015",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Materials are transported within a single-celled organism by the",
+      "choices": [
+        "nucleus",
+        "cytoplasm",
+        "mitochondrion",
+        "ribosome"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "written",
+      "text": "Which row in the chart below correctly pairs a food molecule with its building block?",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The flow of energy in an ecosystem is best described as energy moving in",
+      "choices": [
+        "one direction from the Sun to the producers and then to the consumers",
+        "one direction from a consumer to a producer and then to the Sun as heat and light",
+        "two directions between the producers that are present",
+        "two directions, back and forth, between the producers and the consumers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Occasionally, during pregnancy, the placenta can separate from the uterus. This causes a disruption in development and sometimes death of the fetus. Harm to the developing fetus might occur because the placenta",
+      "choices": [
+        "transfers oxygen and nutrients to the fetal blood",
+        "sends maternal blood into the fetus",
+        "supplies milk for the fetus",
+        "breaks down wastes of the fetus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which process produces only identical offspring?",
+      "choices": [
+        "meiotic cell division",
+        "selective breeding",
+        "cloning",
+        "fertilization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A photograph of human cells as seen with a compound light microscope is shown below. A cell structure is labeled A. Structure A is most likely a",
+      "choices": [
+        "mitochondrion that synthesizes food for the cell",
+        "nucleus that is the site of food storage",
+        "mitochondrion that absorbs energy from the Sun",
+        "nucleus that is responsible for the storage of information"
+      ],
+      "image": "/images/exams/living-environment/june-2015/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "A land-dwelling organism, A, and an aquatic single-celled organism, B, are represented below. Which statement best explains how A and B are able to survive in their environments?",
+      "choices": [
+        "starch amino acid",
+        "sugar starch",
+        "protein amino acid",
+        "amino acid sugar"
+      ],
+      "image": "/images/exams/living-environment/june-2015/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A man is exposed to large amounts of ultraviolet radiation while sunbathing at the beach. This exposure causes a genetic change in the DNA of a skin cell. In the future, this change can be passed on to",
+      "choices": [
+        "his male and female children",
+        "his male children, only",
+        "all cells in his body",
+        "his skin cells, only"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Palm oil, produced from palm trees, is not only a biofuel, but is also used in food additives, cosmetics, and lubricants. Palm tree plantations are now cultivated in areas that were formerly natural forests. One ecological concern raised by this expansion is that",
+      "choices": [
+        "the natural forest ecosystem may harm the palm trees",
+        "the use of the land for agriculture will increase the biodiversity of the area",
+        "humans are changing the basic processes of the palm trees",
+        "planting large expanses of one crop reduces the biodiversity of the area"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Fishermen have harvested certain fish to the point where the population of that fish is decreasing. This level of direct harvesting could cause",
+      "choices": [
+        "ecosystems to be improved for future generations",
+        "ecosystems to be severely damaged",
+        "the restoration of environmental stability",
+        "all other fish species to increase in number"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which phrase best describes a gene?",
+      "choices": [
+        "a segment of a DNA molecule found only in the body cells of an organism",
+        "a segment of a DNA molecule found only in the gametes of an organism",
+        "a segment of a DNA molecule that contains the instructions for producing a trait in an organism",
+        "a segment of a DNA molecule that contains the instructions for producing all the characteristics of an organism"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The molecule DNA contains the four bases listed below. A \u2013 adenine C \u2013 cytosine G \u2013 guanine T \u2013 thymine Which base pairings normally occur during DNA replication?",
+      "choices": [
+        "Guanine pairs with cytosine. Thymine pairs with thymine.",
+        "Adenine pairs with thymine. Cytosine pairs with guanine.",
+        "Thymine pairs with guanine. Cytosine pairs with adenine.",
+        "Cytosine pairs with cytosine. Thymine pairs with thymine."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Evolution of a species could occur as a result of changes in the",
+      "choices": [
+        "DNA in muscle cells",
+        "base sequences in liver cells",
+        "genes in an egg cell",
+        "number of chromosomes in a fetal bone cell"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "One positive impact that industrialization has had is that",
+      "choices": [
+        "industrialization produces waste gases that pollute the air",
+        "fossil fuels used by industries help reduce finite resources",
+        "industrialization has been a source of many jobs for people",
+        "new technologies have increased acid rain"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "When receiving x rays, individuals wear a lead shield over major organs in order to limit the body\u2019s exposure to radiation. One reason for this procedure is to",
+      "choices": [
+        "protect the patient against broken bones",
+        "prevent mutations in gametes",
+        "improve circulation in the patient",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "When an ant in a colony dies, the live ants will throw the dead ant out of the anthill. If a live ant from the colony, ant X, is sprayed with a chemi- cal characteristic of dead ants, the live ants will repeatedly throw this ant out of the anthill until they can no longer detect the chemical on ant X. What is the best explanation for this behavior?",
+      "choices": [
+        "The ants are responding to a chromosomal mutation in ant X.",
+        "The chemical is exhibiting a feedback mech- anism.",
+        "The live ants must continue this behavior until they have eliminated ant X.",
+        "The chemical acts as a stimulus for a partic- ular behavior."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Rabbits produce large numbers of offspring during each reproductive season, yet the number of rabbits within a given population changes very little from year to year. The stability of the population size is most likely the result of",
+      "choices": [
+        "the development of mutations in young rabbits",
+        "environmental factors that keep the population in check",
+        "rabbits continuing to reproduce when the population is large",
+        "the survival of more female rabbits than male rabbits"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Genetic engineering has the potential to correct human genetic disorders. In gene therapy, a defective gene is replaced by using a virus to insert a normal gene into the cells of an individual. This treatment will be most successful if the virus is inserted into cells that",
+      "choices": [
+        "lack a nucleus",
+        "are recycled after death, rather than removed from the body",
+        "carry out one specific function, rather than multiple functions",
+        "continue to divide during the life of the patient"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "In one town, some people support a proposal to build a shopping mall on a large, undeveloped lot, because it would increase business and create new jobs. As a trade-off, the shopping mall would cause a decrease in the",
+      "choices": [
+        "amount of air pollution",
+        "volume of garbage and litter",
+        "amount of wastewater entering the local sewage system",
+        "variety of wildlife populations in the area"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The human female reproductive system is represented below. Which structure produces chemicals that regulate the reproductive cycle?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/june-2015/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a cell structure involved in converting energy stored in organic molecules into a form used by animal cells. The arrows represent the movement of which substances?",
+      "choices": [
+        "carbon dioxide and sugar",
+        "oxygen and ATP",
+        "ATP and carbon dioxide",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2015/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The diagram below shows a concept map. Which label correctly identifies what X represents in the concept map?",
+      "choices": [
+        "nucleus",
+        "chromosome",
+        "autotrophic cell",
+        "heterotrophic cell"
+      ],
+      "image": "/images/exams/living-environment/june-2015/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The diagrams below represent two molecules that are involved in metabolic activities in some living cells. The shape of each of the molecules is important because",
+      "choices": [
+        "molecules having different shapes are always found in different organisms",
+        "the shape of a molecule determines how it functions in chemical reactions",
+        "the shape of a molecule determines the age of an organism",
+        "if the shape of any molecule in an organism changes, the DNA in that organism will also change Chloroplasts Ribosomes DNA Genes X Contains Contains Contains Contains"
+      ],
+      "image": "/images/exams/living-environment/june-2015/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "In the early 1900s, experiments were conducted on two caterpillar species. The members of the two species were each divided into two groups. One group of each species was placed under red light, while the other group of each species was kept in the dark. When the caterpillars developed into butterflies, their wings showed extreme color differences. Exposure to red light resulted in intensely colored wings, while those kept in the dark had paler wing colors. The color differences were most likely due to",
+      "choices": [
+        "mutations in the color-producing genes",
+        "the caterpillars in the red light producing more DNA",
+        "gene expression being affected by the environment",
+        "the caterpillars in the dark evolving less than those in the light"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "A student used a microscope to observe a single-celled organism. As he watched, it looked as if the organism split into two cells. He made drawings, shown below, of the organism over a short period of time. Which process did the student record in his drawings?",
+      "choices": [
+        "genetic engineering",
+        "asexual reproduction",
+        "selective breeding",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2015/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Medical professionals are concerned with the increase in the number of bacterial species that are resistant to antibiotics. Once resistance appears in a bacterial population, it spreads rapidly. This is most likely because",
+      "choices": [
+        "populations of resistant bacteria are small",
+        "exposure to antibiotics increases the rate of reproduction in bacteria",
+        "resistant bacteria are small when compared to non-resistant bacteria.",
+        "resistant bacteria survive in greater numbers and pass the trait to their offspring"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "When getting a vaccination, which substance is injected into the body?",
+      "choices": [
+        "bacteria to combat a pathogen",
+        "white blood cells to engulf a pathogen",
+        "a weakened form of a virus",
+        "antibiotics to kill a virus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Many beverage companies are required to recycle bottles and cans because this activity directly reduces",
+      "choices": [
+        "air pollution and destruction of the ozone shield",
+        "overpopulation and soil erosion",
+        "solid waste and depletion of resources",
+        "thermal pollution and extinction of wildlife"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The diagram below shows some of the DNA in a bacterium into which a human gene, X, has been successfully inserted. The bacteria that result from reproduction of this cell will most likely have the ability to",
+      "choices": [
+        "replicate all of the genetic instructions found in humans",
+        "produce vaccines to be used to immunize humans",
+        "produce a human blood cell according to instructions in gene X",
+        "produce the human protein coded for by gene X"
+      ],
+      "image": "/images/exams/living-environment/june-2015/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The Eurasian water milfoil is a nonnative species, which was once commonly sold as an aquarium plant, and is now found growing in many lakes in New York State. It has few natural enemies, and grows rapidly, crowding out many native species. This plant ruins fishing areas and interferes with boating and other water sports. This is an example of",
+      "choices": [
+        "human consumption of finite resources",
+        "an unintended consequence of adding an organism to an ecosystem",
+        "an abiotic factor having a negative effect on an ecosystem",
+        "the introduction of a species that has increased the long-term biodiversity of an ecosystem X DNA of bacterium Cell wall of bacterium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The graph below shows the size of a population of foxes over a period of years. If the line did not stay around the carrying capacity, but continued to rise, which concept would this graph best illustrate?",
+      "choices": [
+        "environmental stability",
+        "genetic variety",
+        "behavioral change",
+        "overproduction"
+      ],
+      "image": "/images/exams/living-environment/june-2015/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "A food web is represented below. Which organism would receive the least amount of transferred solar energy?",
+      "choices": [
+        "grasses",
+        "owls",
+        "frogs",
+        "field mice Population (millions) Year Carrying Capacity 2.0 1.5 1.0 0.5 1800 1825 1850 1875 1900 1925 Population Size Field mice Frogs Owls Grasses"
+      ],
+      "image": "/images/exams/living-environment/june-2015/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Birch bolete is a fungus that normally grows on the roots of birch trees in New York State. During the life of the fungus and the birch, each organism receives nutrients from the various biochemical processes of the other. According to this information, it can be inferred that these two species",
+      "choices": [
+        "are both predators",
+        "require the same amount of sunlight",
+        "require a similar soil pH",
+        "recycle the remains of dead organisms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The photographs below show different varieties of cattle and characteristics of each variety. Which statement best explains the development of variety C?",
+      "choices": [
+        "Nuclei from body cells taken from variety A were inserted into egg cells lacking nuclei taken from variety B.",
+        "Selective breeding was used to combine desirable traits from both varieties A and B.",
+        "The need to adapt to changes in the environment led to the selection of advantageous characteristics in the offspring of variety B.",
+        "Mutations that occurred in the body cells of variety A were passed on to the offspring generation after generation."
+      ],
+      "image": "/images/exams/living-environment/june-2015/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a remora fish attached to a shark. A remora fish has an adhesive disk or sucker on its head, which it uses to attach itself to larger fishes, such as sharks. This attachment causes the shark no harm. The remora fish eat scraps of food that the sharks drop as they feed. This is an example of",
+      "choices": [
+        "an adaptation to a specialized niche",
+        "an adaptation of a successful parasite",
+        "competition between two fish species for food",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2015/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Each row in the chart below represents a different population of the same species of insect. Which row shows the population with the greatest chance of survival in a changing environment?",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The development of nerve, muscle, and skin cells is represented in the diagram below. Which statement best explains how each of the different cell types can develop from the same embryo?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2015/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The graph below represents the effect of pH on three different enzymes at normal body temperature. The graph illustrates that enzymes 1, 2, and 3",
+      "choices": [
+        "are not affected by pH",
+        "work best at different pH levels",
+        "work best in an acidic environment",
+        "work best in a basic environment"
+      ],
+      "image": "/images/exams/living-environment/june-2015/q38.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The human male reproductive system is represented below. Which structure produces cells that have the potential to become gametes?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D D A B C 1 2 3 4 2 4 6 8 10 12 pH Relative Rate of Enzyme Activity The Effect of pH on Three Different Enzymes at Normal Body Temperature Key Enzyme 1 Enzyme 2 Enzyme 3"
+      ],
+      "image": "/images/exams/living-environment/june-2015/q39.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Some scientists have collected and stored seeds for many types of food-producing plants. The purpose of this is to",
+      "choices": [
+        "increase the destruction of environments",
+        "continue the deforestation of world ecosystems",
+        "decrease the dependence on plants for food",
+        "preserve the diversity of plant species"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "written",
+      "text": "Which diagram best illustrates the relationship between the number of cells, tissues, and organs in a complex multicellular organism? Organs Cells Tissues Organs Cells Tissues Organs Tissues Cells Tissues Cells Organs ( 1 ) ( 3 ) ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/q41.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "This ameba would most likely be classified as a",
+      "choices": [
+        "decomposer",
+        "producer",
+        "consumer",
+        "pathogen"
+      ],
+      "image": "/images/exams/living-environment/june-2015/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the diagram below, which represents an ameba engulfing \nbacteria, and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The activity taking place is",
+      "choices": [
+        "photosynthesis",
+        "differentiation",
+        "autotrophic nutrition",
+        "heterotrophic nutrition Bacterium Bacteria are in a cell structure Bacteria are broken down Ameba"
+      ],
+      "image": "/images/exams/living-environment/june-2015/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the diagram below, which represents an ameba engulfing \nbacteria, and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your\nknowledge of biology.\nThe Enzyme Catalase\nCatalase is an enzyme found in nearly all living organisms that breathe or are exposed\nto oxygen. According to recent scientific studies, low levels of catalase may play a role in the\ngraying process of human hair. The body naturally produces hydrogen peroxide, and \ncatalase breaks it down into water and oxygen. If there is a dip in catalase levels, hydrogen\nperoxide cannot be broken down. This causes hydrogen peroxide to bleach hair from the\ninside out. Scientists believe this finding may someday be used in anti-graying treatments\nfor hair.\nA pharmaceutical company, investigating ways to prevent hair from turning gray, took\ntissue samples from two different individuals. Both individuals were the same age. Each of\nthe samples was placed in a solution of hydrogen peroxide. The volume of oxygen gas \nproduced was measured every 5 minutes for 25 minutes. The data the company collected\nare shown below.\nOxygen Production in the Breakdown of \nHydrogen Peroxide by Catalase\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next\npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data from the data table for the sample from person A on the grid. Connect the points and surround each point with a small circle.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your\nknowledge of biology.\nThe Enzyme Catalase\nCatalase is an enzyme found in nearly all living organisms that breathe or are exposed\nto oxygen. According to recent scientific studies, low levels of catalase may play a role in the\ngraying process of human hair. The body naturally produces hydrogen peroxide, and \ncatalase breaks it down into water and oxygen. If there is a dip in catalase levels, hydrogen\nperoxide cannot be broken down. This causes hydrogen peroxide to bleach hair from the\ninside out. Scientists believe this finding may someday be used in anti-graying treatments\nfor hair.\nA pharmaceutical company, investigating ways to prevent hair from turning gray, took\ntissue samples from two different individuals. Both individuals were the same age. Each of\nthe samples was placed in a solution of hydrogen peroxide. The volume of oxygen gas \nproduced was measured every 5 minutes for 25 minutes. The data the company collected\nare shown below.\nOxygen Production in the Breakdown of \nHydrogen Peroxide by Catalase\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next\npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Plot the data from the data table for the sample from person B on the grid. Connect the points and surround each point with a small triangle. Example: Example: Time (min) Sample from Person A (mL oxygen) Sample from Person B (mL oxygen) 5 2.0 4.5 10 3.5 8.5 15 5.0 12.0 20 7.5 15.5 25 9.5 20.0",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your\nknowledge of biology.\nThe Enzyme Catalase\nCatalase is an enzyme found in nearly all living organisms that breathe or are exposed\nto oxygen. According to recent scientific studies, low levels of catalase may play a role in the\ngraying process of human hair. The body naturally produces hydrogen peroxide, and \ncatalase breaks it down into water and oxygen. If there is a dip in catalase levels, hydrogen\nperoxide cannot be broken down. This causes hydrogen peroxide to bleach hair from the\ninside out. Scientists believe this finding may someday be used in anti-graying treatments\nfor hair.\nA pharmaceutical company, investigating ways to prevent hair from turning gray, took\ntissue samples from two different individuals. Both individuals were the same age. Each of\nthe samples was placed in a solution of hydrogen peroxide. The volume of oxygen gas \nproduced was measured every 5 minutes for 25 minutes. The data the company collected\nare shown below.\nOxygen Production in the Breakdown of \nHydrogen Peroxide by Catalase\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next\npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "If the temperature of the tissue samples used in the experiment had been raised from 37\u00b0C (body temperature) to 50\u00b0C, the results would have been different because",
+      "choices": [
+        "more enzymes are produced at higher temperatures, increasing the amount of hydrogen peroxide",
+        "more hydrogen peroxide is released at higher temperatures, increasing the activity of catalase",
+        "increasing temperatures altered the structure of catalase, decreasing oxygen production",
+        "increasing temperatures decreased the synthesis of amino acids, increasing levels of hydrogen peroxide"
+      ],
+      "image": "/images/exams/living-environment/june-2015/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your\nknowledge of biology.\nThe Enzyme Catalase\nCatalase is an enzyme found in nearly all living organisms that breathe or are exposed\nto oxygen. According to recent scientific studies, low levels of catalase may play a role in the\ngraying process of human hair. The body naturally produces hydrogen peroxide, and \ncatalase breaks it down into water and oxygen. If there is a dip in catalase levels, hydrogen\nperoxide cannot be broken down. This causes hydrogen peroxide to bleach hair from the\ninside out. Scientists believe this finding may someday be used in anti-graying treatments\nfor hair.\nA pharmaceutical company, investigating ways to prevent hair from turning gray, took\ntissue samples from two different individuals. Both individuals were the same age. Each of\nthe samples was placed in a solution of hydrogen peroxide. The volume of oxygen gas \nproduced was measured every 5 minutes for 25 minutes. The data the company collected\nare shown below.\nOxygen Production in the Breakdown of \nHydrogen Peroxide by Catalase\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next\npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "According to the data provided, which person, A or B, is more likely to be the first to have gray hair? Support your answer. Person: ____________ Time (min) Oxygen Produced (mL)",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your\nknowledge of biology.\nThe Enzyme Catalase\nCatalase is an enzyme found in nearly all living organisms that breathe or are exposed\nto oxygen. According to recent scientific studies, low levels of catalase may play a role in the\ngraying process of human hair. The body naturally produces hydrogen peroxide, and \ncatalase breaks it down into water and oxygen. If there is a dip in catalase levels, hydrogen\nperoxide cannot be broken down. This causes hydrogen peroxide to bleach hair from the\ninside out. Scientists believe this finding may someday be used in anti-graying treatments\nfor hair.\nA pharmaceutical company, investigating ways to prevent hair from turning gray, took\ntissue samples from two different individuals. Both individuals were the same age. Each of\nthe samples was placed in a solution of hydrogen peroxide. The volume of oxygen gas \nproduced was measured every 5 minutes for 25 minutes. The data the company collected\nare shown below.\nOxygen Production in the Breakdown of \nHydrogen Peroxide by Catalase\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next\npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "One half-hour after the liter of water was consumed, the urine produced by the kidneys was",
+      "choices": [
+        "between 2 and 3 mL/min",
+        "between 4 and 5 mL/min",
+        "eight times greater than normal",
+        "below the normal range"
+      ],
+      "image": "/images/exams/living-environment/june-2015/context_49_52.png",
+      "context": "Base your answers to questions 49 through 52 on the information and graph below and on your knowledge\nof biology.\nAn investigation was carried out to determine the effect of drinking an excessive amount\nof water on urine flow. A subject drank 1 liter of water in 5 minutes, and then urine output\nwas measured. The graph shows how the human adult kidneys responded to regulate water\nbalance in the body. Urine output was measured every 10 minutes for a little over 3 hours.\nNormal output for an average adult is approximately 0.5\u20131 mL/min.\nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The change in urine production during this 3-hour period was most likely the result of",
+      "choices": [
+        "antibody production",
+        "homeostatic feedback",
+        "enzymatic breakdown of the water consumed",
+        "nerve cell malfunctions of the kidneys"
+      ],
+      "image": "/images/exams/living-environment/june-2015/context_49_52.png",
+      "context": "Base your answers to questions 49 through 52 on the information and graph below and on your knowledge\nof biology.\nAn investigation was carried out to determine the effect of drinking an excessive amount\nof water on urine flow. A subject drank 1 liter of water in 5 minutes, and then urine output\nwas measured. The graph shows how the human adult kidneys responded to regulate water\nbalance in the body. Urine output was measured every 10 minutes for a little over 3 hours.\nNormal output for an average adult is approximately 0.5\u20131 mL/min.\nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify a structure, in organisms that do not have kidneys, that is adapted to regulate water balance.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_49_52.png",
+      "context": "Base your answers to questions 49 through 52 on the information and graph below and on your knowledge\nof biology.\nAn investigation was carried out to determine the effect of drinking an excessive amount\nof water on urine flow. A subject drank 1 liter of water in 5 minutes, and then urine output\nwas measured. The graph shows how the human adult kidneys responded to regulate water\nbalance in the body. Urine output was measured every 10 minutes for a little over 3 hours.\nNormal output for an average adult is approximately 0.5\u20131 mL/min.\nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Approximately how long did it take, in minutes, for the body to return to normal after the intake of water? ____________ minutes Urine Production in an Adult with Normal Kidney Function 10 8 6 4 2 0 Time (min) Urine Output (mL/min) 1 liter of water consumed 0 60 120 180",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_49_52.png",
+      "context": "Base your answers to questions 49 through 52 on the information and graph below and on your knowledge\nof biology.\nAn investigation was carried out to determine the effect of drinking an excessive amount\nof water on urine flow. A subject drank 1 liter of water in 5 minutes, and then urine output\nwas measured. The graph shows how the human adult kidneys responded to regulate water\nbalance in the body. Urine output was measured every 10 minutes for a little over 3 hours.\nNormal output for an average adult is approximately 0.5\u20131 mL/min.\nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Which type of vegetation appears to have the lowest soil nutrient requirements? Support your answer with information from the data table. Lowest soil nutrient requirement vegetation: ___________________________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the information and data table below and on your \nknowledge of biology.\nThe data table summarizes the changes that occurred to farmland in the years \nimmediately following its abandonment. The land is located in a very stable ecosystem. It\nwas abandoned after years of overuse and weathering, which resulted in the depletion of\nsoil nutrients.\nCommon Types of Vegetation Present",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Assuming the ecosystem remains undisturbed, which type of vegetation would you expect to be most common in this area 200 years after it was first abandoned? Support your answer. Most common vegetation: ___________________________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the information and data table below and on your \nknowledge of biology.\nThe data table summarizes the changes that occurred to farmland in the years \nimmediately following its abandonment. The land is located in a very stable ecosystem. It\nwas abandoned after years of overuse and weathering, which resulted in the depletion of\nsoil nutrients.\nCommon Types of Vegetation Present",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Describe how the types of vegetation present on this farmland would change if a fire burned down all the trees 120 years after the land was abandoned. Years Since Abandoned Grasses and Weeds Shrubs Pine Forest Hardwood Forest 1 X 18 X X X 30 X 70 X X 100 X 118 (present)",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the information and data table below and on your \nknowledge of biology.\nThe data table summarizes the changes that occurred to farmland in the years \nimmediately following its abandonment. The land is located in a very stable ecosystem. It\nwas abandoned after years of overuse and weathering, which resulted in the depletion of\nsoil nutrients.\nCommon Types of Vegetation Present",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_56_58.png",
+      "context": "Base your answer to question 56\u201358 on the information and photograph below and on your knowledge of\nbiology.\nThe photograph below is part of an advertisement used by a company selling solar \npanels. The company claims that their panels, like plants, provide clean, renewable energy.\nThey also claim that using solar panels will have a positive effect on the biosphere by \nreducing global warming.\n56\u201358 Explain why these claims are valid. In your answer, be sure to:\n\u2022 explain why both plants and solar panels provide renewable energy, rather than nonrenewable \nenergy   [1]\n\u2022 state how the widespread use of solar panels to generate electricity can help to reduce global \nwarming   [1]\n\u2022 state how the energy-capturing process used by plants worldwide can help to reduce global \nwarming  [1]\nSource:http://www.stockwatch.in/files/Energy.jpg\n\nLiving Environment\u2013June \u201915\n[19]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "56\u201358 Explain why these claims are valid. In your answer, be sure to: \u2022 explain why both plants and solar panels provide renewable energy, rather than nonrenewable energy \u2022 state how the widespread use of solar panels to generate electricity can help to reduce global warming \u2022 state how the energy-capturing process used by plants worldwide can help to reduce global warming Source:http://www.stockwatch.in/files/",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_56_58.png",
+      "context": "Base your answer to question 56\u201358 on the information and photograph below and on your knowledge of\nbiology.\nThe photograph below is part of an advertisement used by a company selling solar \npanels. The company claims that their panels, like plants, provide clean, renewable energy.\nThey also claim that using solar panels will have a positive effect on the biosphere by \nreducing global warming.\n56\u201358 Explain why these claims are valid. In your answer, be sure to:\n\u2022 explain why both plants and solar panels provide renewable energy, rather than nonrenewable \nenergy   [1]\n\u2022 state how the widespread use of solar panels to generate electricity can help to reduce global \nwarming   [1]\n\u2022 state how the energy-capturing process used by plants worldwide can help to reduce global \nwarming  [1]\nSource:http://www.stockwatch.in/files/Energy.jpg\n\nLiving Environment\u2013June \u201915\n[19]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Describe the role of a drug like cyclosporine when transplanting organs from one person to another person.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 and 60 on the information below and on your knowledge of biology\nFungi are interesting organisms that interact with humans in many ways. Yeasts are\nfungi used in the food industry to produce products such as bread and certain beverages.\nSome fungi are valuable in medicine. For example, the drug cyclosporine, which is capable\nof suppressing the response of the immune system to foreign antigens, and the antibiotic\npenicillin are both products from fungi. Other fungi are less welcomed by humans. \nThe irritation of athlete\u2019s foot is caused by a fungus, and a number of allergies are caused\nby reproductive spores released by fungi.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Explain the difference between an infection caused by a fungus and an allergy caused by a fungus.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 and 60 on the information below and on your knowledge of biology\nFungi are interesting organisms that interact with humans in many ways. Yeasts are\nfungi used in the food industry to produce products such as bread and certain beverages.\nSome fungi are valuable in medicine. For example, the drug cyclosporine, which is capable\nof suppressing the response of the immune system to foreign antigens, and the antibiotic\npenicillin are both products from fungi. Other fungi are less welcomed by humans. \nThe irritation of athlete\u2019s foot is caused by a fungus, and a number of allergies are caused\nby reproductive spores released by fungi.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Identify the process most likely responsible for a mosquito initially becoming resistant to DEET.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 and 62 on the information below and on your knowledge of biology.\nFemale mosquitoes need a meal of blood from a person or other animal in order to \nproduce eggs. It has been discovered that mosquitoes have cells on their antennae that can\ndetect the insect repellent known as DEET. The repellent is not harmful to mosquitoes, but\nwhen mosquitoes detect DEET, they will not land on the surface where the DEET has\nbeen applied. This protects people from being bitten by mosquitoes.\nRecently, scientists found some mosquitoes that are resistant to DEET because they do\nnot detect its presence. They bred these mosquitoes and eventually produced a population\nconsisting of about 50% DEET-resistant insects.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Mosquitoes with DEET resistance have been found in natural environments. Explain how the continued use of this repellent may cause the percentage of these resistant mosquitoes to increase in the future.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 and 62 on the information below and on your knowledge of biology.\nFemale mosquitoes need a meal of blood from a person or other animal in order to \nproduce eggs. It has been discovered that mosquitoes have cells on their antennae that can\ndetect the insect repellent known as DEET. The repellent is not harmful to mosquitoes, but\nwhen mosquitoes detect DEET, they will not land on the surface where the DEET has\nbeen applied. This protects people from being bitten by mosquitoes.\nRecently, scientists found some mosquitoes that are resistant to DEET because they do\nnot detect its presence. They bred these mosquitoes and eventually produced a population\nconsisting of about 50% DEET-resistant insects.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify the process by which ancestral iguanas developed into the present-day marine iguanas and land iguanas of the Galapagos Islands. Process: ________________________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 67 on the passage below and on your knowledge of biology.\nOcean-dwelling (marine) iguanas and land iguanas inhabit the Galapagos Islands. Some\nscientists believe that both types of iguanas diverged from a common ancestor. Marine \niguanas eat algae. Land iguanas feed on cacti. Algae are more abundant in the ocean than\ncacti are on the islands. Both species lay their eggs in the sand.\nRats, cats, and goats have been introduced to the islands by humans. Rats feed on \niguana eggs, cats eat baby iguanas, and goats eat cacti.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Identify one organism in the Galapagos Islands that directly limits the population of both the marine iguanas and land iguanas. Organism: ______________________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 67 on the passage below and on your knowledge of biology.\nOcean-dwelling (marine) iguanas and land iguanas inhabit the Galapagos Islands. Some\nscientists believe that both types of iguanas diverged from a common ancestor. Marine \niguanas eat algae. Land iguanas feed on cacti. Algae are more abundant in the ocean than\ncacti are on the islands. Both species lay their eggs in the sand.\nRats, cats, and goats have been introduced to the islands by humans. Rats feed on \niguana eggs, cats eat baby iguanas, and goats eat cacti.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Which population of iguanas, marine or land, would you expect to be larger? Support your answer. Population of iguana:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 67 on the passage below and on your knowledge of biology.\nOcean-dwelling (marine) iguanas and land iguanas inhabit the Galapagos Islands. Some\nscientists believe that both types of iguanas diverged from a common ancestor. Marine \niguanas eat algae. Land iguanas feed on cacti. Algae are more abundant in the ocean than\ncacti are on the islands. Both species lay their eggs in the sand.\nRats, cats, and goats have been introduced to the islands by humans. Rats feed on \niguana eggs, cats eat baby iguanas, and goats eat cacti.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Would the introduction of goats have a greater effect on the population of the marine iguanas or the land iguanas? Support your answer. Population of iguana:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 67 on the passage below and on your knowledge of biology.\nOcean-dwelling (marine) iguanas and land iguanas inhabit the Galapagos Islands. Some\nscientists believe that both types of iguanas diverged from a common ancestor. Marine \niguanas eat algae. Land iguanas feed on cacti. Algae are more abundant in the ocean than\ncacti are on the islands. Both species lay their eggs in the sand.\nRats, cats, and goats have been introduced to the islands by humans. Rats feed on \niguana eggs, cats eat baby iguanas, and goats eat cacti.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Identify one technique that can be used to support the conclusion that these two species of iguana developed from a common ancestor. Technique:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 67 on the passage below and on your knowledge of biology.\nOcean-dwelling (marine) iguanas and land iguanas inhabit the Galapagos Islands. Some\nscientists believe that both types of iguanas diverged from a common ancestor. Marine \niguanas eat algae. Land iguanas feed on cacti. Algae are more abundant in the ocean than\ncacti are on the islands. Both species lay their eggs in the sand.\nRats, cats, and goats have been introduced to the islands by humans. Rats feed on \niguana eggs, cats eat baby iguanas, and goats eat cacti.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_68_72.png",
+      "context": "Base your answer to question 68\u201372 on the information and diagram below and on your knowledge of \nbiology.\nThe presence of air is believed to be important for root growth in bean plants. The \napparatus available to conduct an investigation is shown below. There are enough bottles and\nother materials to have multiple setups. Air (for aeration) can be bubbled into the bottle\nthrough the rubber tube.\n68\u201372 Design an experiment to test the effect of aeration on the growth of roots of bean seedlings. In your\nanswer, be sure to:\n\u2022 state one hypothesis the experiment would test   [1]\n\u2022 describe how the control group will be treated differently from the experimental group   [1]\n\u2022 identify the dependent variable in the experiment   [1]\n\u2022 state one reason why many setups should be used in both the experimental and control groups   [1]\n\u2022 state one reason why several different kinds of seedlings were not tested in this experiment   [1]\nRubber tube\nfrom aerating\npump\nPlant nutrient\nsolution\nPlastic\nmodeling clay\nBean seedling\nSource: Biology Handbook, SED 1960\nLiving Environment\u2013June \u201915\n[21]\n[OVER]\n\nPart D\nAnswer all questions in this part.\n[13]\nDirections (73\u201385): For those questions that are multiple choice, record on the separate answer sheet the\nnumber of the choice that, of those given, best completes the statement or answers the question. For all other\nquestions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\nNote: The answer to question 73 should be recorded on your separate answer sheet.\n73 The buildup of waste products in muscle cells that are active might cause\n(1) digestion\n(3) increased fatigue\n(2) cellular respiration\n(4) decreased heart rate\nNote: The answer to question 74 should be recorded on your separate answer sheet.\n74 The diagram below shows the evolutionary relationships among several types of mammals.\nWhich mammal would be most closely related to a hippopotamus?\n(1) deer\n(3) pig\n(2) whale\n(4) cow\nEarlier\nMammal\nSpecies\nCow\nDeer\nWhale\nHippopotamus\nPig\nCamel\nLiving Environment\u2013June \u201915\n[22]\n\nLiving Environment\u2013June \u201915\n[23]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "X X 100 X 118 (present)",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_68_72.png",
+      "context": "Base your answer to question 68\u201372 on the information and diagram below and on your knowledge of \nbiology.\nThe presence of air is believed to be important for root growth in bean plants. The \napparatus available to conduct an investigation is shown below. There are enough bottles and\nother materials to have multiple setups. Air (for aeration) can be bubbled into the bottle\nthrough the rubber tube.\n68\u201372 Design an experiment to test the effect of aeration on the growth of roots of bean seedlings. In your\nanswer, be sure to:\n\u2022 state one hypothesis the experiment would test   [1]\n\u2022 describe how the control group will be treated differently from the experimental group   [1]\n\u2022 identify the dependent variable in the experiment   [1]\n\u2022 state one reason why many setups should be used in both the experimental and control groups   [1]\n\u2022 state one reason why several different kinds of seedlings were not tested in this experiment   [1]\nRubber tube\nfrom aerating\npump\nPlant nutrient\nsolution\nPlastic\nmodeling clay\nBean seedling\nSource: Biology Handbook, SED 1960\nLiving Environment\u2013June \u201915\n[21]\n[OVER]\n\nPart D\nAnswer all questions in this part.\n[13]\nDirections (73\u201385): For those questions that are multiple choice, record on the separate answer sheet the\nnumber of the choice that, of those given, best completes the statement or answers the question. For all other\nquestions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\nNote: The answer to question 73 should be recorded on your separate answer sheet.\n73 The buildup of waste products in muscle cells that are active might cause\n(1) digestion\n(3) increased fatigue\n(2) cellular respiration\n(4) decreased heart rate\nNote: The answer to question 74 should be recorded on your separate answer sheet.\n74 The diagram below shows the evolutionary relationships among several types of mammals.\nWhich mammal would be most closely related to a hippopotamus?\n(1) deer\n(3) pig\n(2) whale\n(4) cow\nEarlier\nMammal\nSpecies\nCow\nDeer\nWhale\nHippopotamus\nPig\nCamel\nLiving Environment\u2013June \u201915\n[22]\n\nLiving Environment\u2013June \u201915\n[23]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "68\u201372 Design an experiment to test the effect of aeration on the growth of roots of bean seedlings. In your answer, be sure to: \u2022 state one hypothesis the experiment would test \u2022 describe how the control group will be treated differently from the experimental group \u2022 identify the dependent variable in the experiment \u2022 state one reason why many setups should be used in both the experimental and control groups \u2022 state one reason why several different kinds of seedlings were not tested in this experiment Rubber tube from aerating pump Plant nutrient solution Plastic modeling clay Bean seedling Source: Biology Handbook, SED 1960",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_68_72.png",
+      "context": "Base your answer to question 68\u201372 on the information and diagram below and on your knowledge of \nbiology.\nThe presence of air is believed to be important for root growth in bean plants. The \napparatus available to conduct an investigation is shown below. There are enough bottles and\nother materials to have multiple setups. Air (for aeration) can be bubbled into the bottle\nthrough the rubber tube.\n68\u201372 Design an experiment to test the effect of aeration on the growth of roots of bean seedlings. In your\nanswer, be sure to:\n\u2022 state one hypothesis the experiment would test   [1]\n\u2022 describe how the control group will be treated differently from the experimental group   [1]\n\u2022 identify the dependent variable in the experiment   [1]\n\u2022 state one reason why many setups should be used in both the experimental and control groups   [1]\n\u2022 state one reason why several different kinds of seedlings were not tested in this experiment   [1]\nRubber tube\nfrom aerating\npump\nPlant nutrient\nsolution\nPlastic\nmodeling clay\nBean seedling\nSource: Biology Handbook, SED 1960\nLiving Environment\u2013June \u201915\n[21]\n[OVER]\n\nPart D\nAnswer all questions in this part.\n[13]\nDirections (73\u201385): For those questions that are multiple choice, record on the separate answer sheet the\nnumber of the choice that, of those given, best completes the statement or answers the question. For all other\nquestions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\nNote: The answer to question 73 should be recorded on your separate answer sheet.\n73 The buildup of waste products in muscle cells that are active might cause\n(1) digestion\n(3) increased fatigue\n(2) cellular respiration\n(4) decreased heart rate\nNote: The answer to question 74 should be recorded on your separate answer sheet.\n74 The diagram below shows the evolutionary relationships among several types of mammals.\nWhich mammal would be most closely related to a hippopotamus?\n(1) deer\n(3) pig\n(2) whale\n(4) cow\nEarlier\nMammal\nSpecies\nCow\nDeer\nWhale\nHippopotamus\nPig\nCamel\nLiving Environment\u2013June \u201915\n[22]\n\nLiving Environment\u2013June \u201915\n[23]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "The buildup of waste products in muscle cells that are active might cause",
+      "choices": [
+        "digestion",
+        "cellular respiration",
+        "increased fatigue",
+        "decreased heart rate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "The diagram below shows the evolutionary relationships among several types of mammals. Which mammal would be most closely related to a hippopotamus?",
+      "choices": [
+        "deer",
+        "whale",
+        "pig",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2015/q74.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "Which statement is an example of an observation the students could have made?",
+      "choices": [
+        "Pulse rates in beats per minute decrease for all people after exercise.",
+        "Student A most likely exercises regularly.",
+        "The pulse rate of student C was dangerously low.",
+        "The pulse rate of student F increased by 30 beats per minute."
+      ],
+      "image": "/images/exams/living-environment/june-2015/context_75_76.png",
+      "context": "Base your answers to questions 75 and 76 on the information and data table below and on your knowledge\nof biology.\nA group of students obtained the following data while trying to determine the effect of\nexercise on pulse rate.\nEffect of Exercise on Pulse Rate\nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "Which two body systems were most actively involved in this experiment?",
+      "choices": [
+        "respiratory and immune",
+        "digestive and endocrine",
+        "respiratory and circulatory",
+        "immune and circulatory Student Resting Pulse Rate (beats per minute) Pulse Rate After Exercising (beats per minute) A 66 92 B 82 107 C 65 97 D 74 124 E 79 118 F 68 98 G 89 122"
+      ],
+      "image": "/images/exams/living-environment/june-2015/context_75_76.png",
+      "context": "Base your answers to questions 75 and 76 on the information and data table below and on your knowledge\nof biology.\nA group of students obtained the following data while trying to determine the effect of\nexercise on pulse rate.\nEffect of Exercise on Pulse Rate\nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "The diagram below represents a green plant cell viewed with the high power of a compound light microscope before and after a particular substance was added. Identify a substance that could have been added to the slide to bring about the change shown.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/q77.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Using the DNA base sequences below, identify which two species are more closely related. Support your answer. Species A: CAC GTG GAC AGA GGA CAC CTC Species B: CAT GTG GAC AGA GGA CAC CTC Species C: CAC GTA GAC TGA GGA CTT CTC Species: ____________ and ____________",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "79",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Identify one pigment molecule common to all five organisms.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_80_81.png",
+      "context": "Base your answers to questions 80 and 81 on the diagram below and on your knowledge of biology. \nThe diagram represents the results of paper chromatography performed on extracts from five organisms.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Which two organisms are most closely related?",
+      "choices": [
+        "cyanobacteria and green algae",
+        "red algae and spinach",
+        "brown algae and red algae",
+        "red algae and cyanobacteria Red algae Green algae Spinach Brown algae Cyanobacteria mixture of pigments xanthophyll (faint yellow) fucoxanthin (bright orange-brown) chlorophyll c (pale green) chlorophyll a (blue-green) chlorophyll b (yellow-green) xanthophylls (yellow) Beta carotene (yellow-orange)"
+      ],
+      "image": "/images/exams/living-environment/june-2015/context_80_81.png",
+      "context": "Base your answers to questions 80 and 81 on the diagram below and on your knowledge of biology. \nThe diagram represents the results of paper chromatography performed on extracts from five organisms.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "In this diagram, the variety of beak sizes and shapes are adaptations directly related to successful",
+      "choices": [
+        "feeding",
+        "camouflage",
+        "defense",
+        "singing"
+      ],
+      "image": "/images/exams/living-environment/june-2015/context_82_84.png",
+      "context": "Base your answers to questions 82 through 84 on the diagram below and on your knowledge of biology. \nThe diagram shows variations in the beaks of finches in the Galapagos Islands.\nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "State one reason why the large ground finch and the woodpecker finch can live successfully on the same island.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_82_84.png",
+      "context": "Base your answers to questions 82 through 84 on the diagram below and on your knowledge of biology. \nThe diagram shows variations in the beaks of finches in the Galapagos Islands.\nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Identify one finch in the diagram that is least likely to compete with any of the other finches. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2015/context_82_84.png",
+      "context": "Base your answers to questions 82 through 84 on the diagram below and on your knowledge of biology. \nThe diagram shows variations in the beaks of finches in the Galapagos Islands.\nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "State one reason why a molecule may not be able to pass into or out of a cell. Large ground finch Vegetarian tree finch Large insectivorous tree finch Small insectivorous tree finch Woodpecker finch Warbler finch Cactus ground finch Sharp-beaked ground finch Small ground finch Medium ground finch G ra s pi ng bi ll s P ro bi n g bi ll s Cr u sh in g bi ll s Wa rb ler fi n ch Tr e e fi nc he s Gr o un d fin ch es Insect eaters Cactus eaters Seed eaters Fruit eaters Pa rr ot -li ke bi ll s Source: www.pbs.org LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

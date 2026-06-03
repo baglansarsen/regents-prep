@@ -1,0 +1,491 @@
+{
+  "subject": "algebra-1",
+  "session": "june-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The solution to 4p + 2 < 2(p + 5) is",
+      "choices": [
+        "p > -6",
+        "p < -6",
+        "p > 4",
+        "p < 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "If k(x) = 2x2 - 3 x , then k(9) is",
+      "choices": [
+        "315",
+        "307",
+        "159",
+        "153"
+      ],
+      "image": "/images/exams/algebra-1/june-2018/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The expression 3(x2 + 2x - 3) - 4(4x2 - 7x + 5) is equivalent to",
+      "choices": [
+        "-13x - 22x + 11",
+        "-13x2 + 34x - 29",
+        "19x2 - 22x + 11",
+        "19x2 + 34x \u00ad 29"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The zeros of the function p(x) = x2 - 2x - 24 are",
+      "choices": [
+        "-8 and 3",
+        "-6 and 4",
+        "-4 and 6",
+        "-3 and 8 Use this space for"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The box plot below summarizes the data for the average monthly high temperatures in degrees Fahrenheit for Orlando, Florida. 70 75 80 85 90 95 The third quartile is",
+      "choices": [
+        "92",
+        "90",
+        "83",
+        "71"
+      ],
+      "image": "/images/exams/algebra-1/june-2018/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Joy wants to buy strawberries and raspberries to bring to a party. Strawberries cost $1.60 per pound and raspberries cost $1.75 per pound. If she only has $10 to spend on berries, which inequality represents the situation where she buys x pounds of strawberries and y pounds of raspberries?",
+      "choices": [
+        "1.60x + 1.75y < 10",
+        "1.60x + 1.75y > 10",
+        "1.75x + 1.60y < 10",
+        "1.75x + 1.60y > 10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "On the main floor of the Kodak Hall at the Eastman Theater, the number of seats per row increases at a constant rate. Steven counts 31 seats in row 3 and 37 seats in row 6. How many seats are there in row 20?",
+      "choices": [
+        "65",
+        "67",
+        "69",
+        "71"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which ordered pair below is not a solution to f(x) = x2 - 3x + 4?",
+      "choices": [
+        "(0,4)",
+        "(1.5,1.75)",
+        "(5,14)",
+        "(-1,6)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Students were asked to name their favorite sport from a list of basketball, soccer, or tennis. The results are shown in the table below. Basketball Soccer Tennis Girls 42 58 20 Boys 84 41 5 What percentage of the students chose soccer as their favorite sport?",
+      "choices": [
+        "39.6%",
+        "41.4%",
+        "50.4%",
+        "58.6%"
+      ],
+      "image": "/images/exams/algebra-1/june-2018/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The trinomial x2 - 14x + 49 can be expressed as",
+      "choices": [
+        "(x - 7)2",
+        "(x + 7)2",
+        "(x - 7)(x + 7)",
+        "(x - 7)(x + 2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A function is defined as {(0,1), (2,3), (5,8), (7,2)}. Isaac is asked to create one more ordered pair for the function. Which ordered pair can he add to the set to keep it a function?",
+      "choices": [
+        "(0,2)",
+        "(5,3)",
+        "(7,0)",
+        "(1,3)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The quadratic equation x2 - 6x = 12 is rewritten in the form (x + p)2 = q, where q is a constant. What is the value of p?",
+      "choices": [
+        "-12",
+        "-9",
+        "-3",
+        "9 Use this space for"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which of the quadratic functions below has the smallest minimum value? h(x) \u0015 x2 \u0011 2x \u0012 6 k(x) \u0015 (x \u0011 5)(x \u0011 2)",
+      "choices": [
+        "",
+        "",
+        "g(x) x x f(x) \u2013 1 \u2013 2 0 \u2013 5 1 \u2013 6 2 \u2013 5 3 \u2013 2",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/june-2018/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which situation is not a linear function?",
+      "choices": [
+        "A gym charges a membership fee of $10.00 down and $10.00 per month.",
+        "A cab company charges $2.50 initially and $3.00 per mile.",
+        "A restaurant employee earns $12.50 per hour.",
+        "A $12,000 car depreciates 15%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The Utica Boilermaker is a 15-kilometer road race. Sara is signed up to run this race and has done the following training runs: I. II. III. 10 miles 44,880 feet 15,560 yards Which run(s) are at least 15 kilometers?",
+      "choices": [
+        "I, only",
+        "II, only",
+        "I and III",
+        "II and III"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "If f(x) = x2 + 2, which interval describes the range of this function?",
+      "choices": [
+        "(-o,o)",
+        "[0,o)",
+        "[2,o)",
+        "(-o,2]"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The amount Mike gets paid weekly can be represented by the expression 2.50a + 290, where a is the number of cell phone accessories he sells that week. What is the constant term in this expression and what does it represent?",
+      "choices": [
+        "2.50a, the amount he is guaranteed to be paid each week",
+        "2.50a, the amount he earns when he sells a accessories",
+        "290, the amount he is guaranteed to be paid each week",
+        "290, Use this space for"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A cubic function is graphed on the set of axes below. y x Which function could represent this graph?",
+      "choices": [
+        "f(x) = (x - 3)(x - 1)(x + 1)",
+        "g(x) = (x + 3)(x + 1)(x - 1)",
+        "h(x) = (x - 3)(x - 1)(x + 3)",
+        "k(x) = (x + 3)(x + 1)(x - 3) Use this space for"
+      ],
+      "image": "/images/exams/algebra-1/june-2018/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2018/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Boys 84 41 5 What percentage of the students chose soccer as their favorite sport?",
+      "choices": [
+        "x x",
+        "x x",
+        "y y",
+        "Use this space for"
+      ],
+      "image": "/images/exams/algebra-1/june-2018/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "At an ice cream shop, the profit, P(c), is modeled by the function P(c) = 0.87c, where c represents the number of ice cream cones sold. An appropriate domain for this function is",
+      "choices": [
+        "an integer < 0",
+        "an integer > 0",
+        "a rational number < 0",
+        "a rational number > 0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "How many real-number solutions does 4x2 + 2x + 5 = 0 have?",
+      "choices": [
+        "one",
+        "two",
+        "zero",
+        "infinitely many"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Students were asked to write a formula for the length of a rectangle by using the formula for its perimeter, p = 2 + 2w. Three of their responses are shown below. 1 I. = 2 p - w II. = 1 (p - 2w) 2 p \u0012 2w III. = 2 Which responses are correct?",
+      "choices": [
+        "I and II, only",
+        "II and III, only",
+        "I and III, only",
+        "I, II, and III"
+      ],
+      "image": "/images/exams/algebra-1/june-2018/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "If a = n(a 1) and a1 = 1, what is the value of a5? n n \u00ad",
+      "choices": [
+        "5",
+        "20",
+        "120",
+        "720 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Graph f(x) = x+2 over the domain -2 < x < 7",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2018/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Caleb claims that the ordered pairs shown in the table below are from a nonlinear function. x f(x) 0 2 1 4 2 8 3 16",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2018/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Solve for x to the nearest tenth: x2 + x - 5 = 0",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The graph of the function p(x) is represented below. On the same set of axes, sketch the function p(x + 2)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2018/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "When an apple is dropped from a tower 256 feet high, the function h(t) = -16t2 + 256 models the height of the apple, in feet, after t seconds. Determine, algebraically,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Solve the equation below algebraically for the exact value of x. 6 - 2 (x + 5) = 4x 3",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Is the product of 16 and 4 rational or irrational? Explain your reasoning. 7",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2018/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "On the set of axes below, graph the piecewise function: 1 \u0012 x x , 2 f(x) = 2 , \u0004 2 x x f(x) Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2018/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "A population of rabbits in a lab, p(x), can be modeled by the function p(x) = 20(1.014)x, where x represents the number of days since the population was first counted. Explain what 20 and 1.014 represent in the context of the problem. Determine, to the nearest tenth, the average rate of change from day 50 to day 100",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "There are two parking garages in Beacon Falls. Garage A charges $7.00 to park for the first 2 hours, and each additional hour costs $3.00. Garage B charges $3.25 per hour to park. When a person parks for at least 2 hours,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "On the set of axes below, graph the following system of inequalities: 2y + 3x < 14 4x - y < 2 y x Determine if the point (1,2)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2018/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "The percentage of students scoring 85 or better on a mathematics final exam and an English final exam during a recent school year for seven schools is shown in the table below. Percentage of Students Scoring 85 or Better Mathematics, x English, y 27 46 12 28 13 45 10 34 30 56 45 67 20 42 Write the linear regression equation for these data, rounding all values to the nearest hundredth. State the correlation coefficient of the linear regression equation, Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2018/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Dylan has a bank that sorts coins as they are dropped into it. A panel on the front displays the total number of coins inside as well as the total value of these coins. The panel shows 90 coins with a value of $17.55 inside of the bank. If Dylan only collects dimes and quarters, write a system of equations in two variables or an equation in one variable that could be used to model this situation. Using your equation or system of equations, algebraically determine the number of quarters Dylan has in his bank. Question 37 Question 37 continued Dylan\u2019s mom told him that she would replace each one of his dimes with a quarter. If he uses all of his coins, determine if Dylan would then have enough money to buy a game priced at $20.98 if he must also pay an 8% Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here High School Math Reference Sheet 1 inch = 2.54 centimeters 1 kilometer = 0.62 mile 1 cup = 8 fluid ounces 1 meter = 39.37 inches 1 pound = 16 ounces 1 pint = 2 cups 1 mile = 5280 feet 1 pound = 0.454 kilogram 1 quart = 2 pints 1 mile = 1760 yards 1 kilogram = 2.2 pounds 1 gallon = 4 quarts 1 mile = 1.609 kilometers 1 ton = 2000 pounds 1 gallon = 3.785 liters 1 liter = 0.264 gallon 1 liter = 1000 cubic centimeters Triangle A = bh 1 2 Parallelogram A = bh Circle A = \u03c0r2 Circle C = \u03c0d or C = 2\u03c0r General Prisms V = Bh Cylinder V = \u03c0r2h Sphere V = \u03c0r3 4 3 Cone V = \u03c0r2h 1 3 Pyramid V = Bh 1 3 Pythagorean Theorem a2 + b2 = c2 Quadratic Formula x = - : - b a b2 2 4ac Arithmetic Sequence an = a1 + (n \u00ad 1)d Geometric Sequence an = a1r n \u00ad 1 Geometric Series Sn = where r * 1 a a r r n 1 1 1 - - Radians 1 radian = 180 degrees \u03c0 Degrees 1 degree = radians \u03c0 180 Exponential Growth/Decay A = A0ek(t \u00ad t0) + B0 ALGEBRA I Tear Here Tear Here Printed on Recycled Paper ALGEBRA I",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

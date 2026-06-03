@@ -1,0 +1,1101 @@
+{
+  "subject": "chemistry",
+  "session": "june-2014",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Compared to the charge of a proton, the charge of an electron has",
+      "choices": [
+        "a greater magnitude and the same sign",
+        "a greater magnitude and the opposite sign",
+        "the same magnitude and the same sign",
+        "the same magnitude and the opposite sign"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which atom has the largest atomic radius?",
+      "choices": [
+        "potassium",
+        "rubidium",
+        "francium",
+        "cesium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "In the wave-mechanical model of the atom, an orbital is defined as",
+      "choices": [
+        "a region of the most probable proton location",
+        "a region of the most probable electron location",
+        "a circular path traveled by a proton around the nucleus",
+        "a circular path traveled by an electron around the nucleus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "When an excited electron in an atom moves to the ground state, the electron",
+      "choices": [
+        "absorbs energy as it moves to a higher energy state",
+        "absorbs energy as it moves to a lower energy state",
+        "emits energy as it moves to a higher energy state",
+        "emits energy as it moves to a lower energy state"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which polyatomic ion is found in the compound represented by the formula NaHCO3?",
+      "choices": [
+        "acetate",
+        "hydrogen carbonate",
+        "hydrogen sulfate",
+        "oxalate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The atomic mass of magnesium is the weighted average of the atomic masses of",
+      "choices": [
+        "all of the artificially produced isotopes of Mg",
+        "all of the naturally occurring isotopes of Mg",
+        "the two most abundant artificially produced isotopes of Mg",
+        "the two most abundant naturally occurring isotopes of Mg"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which element has atoms that can form halide ions?",
+      "choices": [
+        "iodine",
+        "silver",
+        "strontium",
+        "xenon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Two forms of solid carbon, diamond and graphite, differ in their physical properties due to the differences in their",
+      "choices": [
+        "atomic numbers",
+        "crystal structures",
+        "isotopic abundances",
+        "percent compositions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which quantity can be calculated for a solid compound, given only the formula of the com- pound and the Periodic Table of the Elements?",
+      "choices": [
+        "the density of the compound",
+        "the heat of fusion of the compound",
+        "the melting point of each element in the compound",
+        "the percent composition by mass of each element in the compound"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which terms identify types of chemical reactions?",
+      "choices": [
+        "decomposition and sublimation",
+        "decomposition and synthesis",
+        "deposition and sublimation",
+        "deposition and synthesis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The greatest amount of energy released per gram of reactants occurs during a",
+      "choices": [
+        "redox reaction",
+        "fission reaction",
+        "substitution reaction",
+        "neutralization reaction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which element has atoms with the strongest attraction for electrons in a chemical bond?",
+      "choices": [
+        "chlorine",
+        "nitrogen",
+        "fluorine",
+        "oxygen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Compared to the physical and chemical proper- ties of the compound NO2, the compound N2O has",
+      "choices": [
+        "different physical properties and different chemical properties",
+        "different physical properties and the same chemical properties",
+        "the same physical properties and different chemical properties",
+        "the same physical properties and the same chemical properties"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which phrase describes a molecule of CH4, in terms of molecular polarity and distribution of charge?",
+      "choices": [
+        "polar with an asymmetrical distribution of charge",
+        "polar with a symmetrical distribution of charge",
+        "nonpolar with an asymmetrical distribution of charge",
+        "nonpolar with a symmetrical distribution of charge"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which sample of copper has atoms with the lowest average kinetic energy?",
+      "choices": [
+        "10. g at 45\u00b0C",
+        "20. g at 35\u00b0C",
+        "30. g at 25\u00b0C",
+        "40. g at 15\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which change results in the formation of different substances?",
+      "choices": [
+        "burning of propane",
+        "melting of NaCl(s)",
+        "deposition of CO2(g)",
+        "solidification of water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which substance can not be broken down by a chemical change?",
+      "choices": [
+        "ammonia",
+        "ethanol",
+        "propanal",
+        "zirconium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "According to Table I, which equation represents a change resulting in the greatest quantity of energy released?",
+      "choices": [
+        "2C(s) \u0002 3H2(g) \u2192C2H6(g)",
+        "2C(s) \u0002 2H2(g) \u2192C2H4(g)",
+        "N2(g) \u0002 3H2(g) \u21922NH3(g)",
+        "N2(g) \u0002 O2(g) \u21922NO(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which element is a liquid at STP?",
+      "choices": [
+        "bromine",
+        "cesium",
+        "francium",
+        "iodine"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which statement describes a reversible reaction at equilibrium?",
+      "choices": [
+        "The activation energy of the forward reaction must equal the activation energy of the reverse reaction.",
+        "The rate of the forward reaction must equal the rate of the reverse reaction.",
+        "The concentration of the reactants must equal the concentration of the products.",
+        "The potential energy of the reactants must equal the potential energy of the products."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: O2 \u2192O \u0002 O What occurs during this reaction?",
+      "choices": [
+        "Energy is absorbed as bonds are broken.",
+        "Energy is absorbed as bonds are formed.",
+        "Energy is released as bonds are broken.",
+        "Energy is released as bonds are formed."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "In terms of entropy and energy, systems in nature tend to undergo changes toward",
+      "choices": [
+        "lower entropy and lower energy",
+        "lower entropy and higher energy",
+        "higher entropy and lower energy",
+        "higher entropy and higher energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which term is defined as the difference between the potential energy of the products and the potential energy of the reactants in a chemical reaction?",
+      "choices": [
+        "activation energy",
+        "thermal energy",
+        "heat of fusion",
+        "heat of reaction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "What is the atomic number of the element whose atoms bond to each other in chains, rings, and networks?",
+      "choices": [
+        "10",
+        "8",
+        "6",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "How many pairs of electrons are shared between two adjacent carbon atoms in a saturated hydrocarbon?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: 4Al(s) \u0002 3O2(g) \u21922Al2O3(s) As the aluminum loses 12 moles of electrons, the oxygen",
+      "choices": [
+        "gains 4 moles of electrons",
+        "gains 12 moles of electrons",
+        "loses 4 moles of electrons",
+        "loses 12 moles of electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which compound is an electrolyte?",
+      "choices": [
+        "CH3CHO",
+        "CH3OCH3",
+        "CH3COOH",
+        "CH3CH2CH3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which statement describes one acid-base theory?",
+      "choices": [
+        "An acid is an H\u0002 acceptor, and a base is an H\u0002 donor.",
+        "An acid is an H\u0002 donor, and a base is an H\u0002 acceptor.",
+        "An acid is an H\u0003 acceptor, and a base is an H\u0003 donor.",
+        "An acid is an H\u0003 donor, and a base is an H\u0003 acceptor."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which compounds are classified as Arrhenius acids?",
+      "choices": [
+        "HCl and NaOH",
+        "HNO3 and NaCl",
+        "NH3 and H2CO3",
+        "HBr and H2SO4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which statement describes the stability of the nuclei of potassium atoms?",
+      "choices": [
+        "All potassium atoms have stable nuclei that spontaneously decay.",
+        "All potassium atoms have unstable nuclei that do not spontaneously decay.",
+        "Some potassium atoms have unstable nuclei that spontaneously decay.",
+        "Some potassium atoms have unstable nuclei that do not spontaneously decay."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which notations represent different isotopes of the element sodium?",
+      "choices": [
+        "32S and 34S",
+        "S2\u0003 and S6\u0002",
+        "Na\u0002 and Na0",
+        "22Na and 23Na"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Which electron configuration represents the electrons in an atom of Ga in an excited state?",
+      "choices": [
+        "2-8-17-3",
+        "2-8-17-4",
+        "2-8-18-3",
+        "2-8-18-4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which statement describes the general trends in electronegativity and first ionization energy as the elements in Period 3 are considered in order from Na to Cl?",
+      "choices": [
+        "Electronegativity increases, and first ionization energy decreases.",
+        "Electronegativity decreases, and first ionization energy increases.",
+        "Electronegativity and first ionization energy both increase.",
+        "Electronegativity and first ionization energy both decrease."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "What is the gram-formula mass of Fe(NO3)3?",
+      "choices": [
+        "146 g/mol",
+        "194 g/mol",
+        "214 g/mol",
+        "242 g/mol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: Al2(SO4)3 \u0002 6NaOH \u21922Al(OH)3 \u0002 3Na2SO4 The mole ratio of NaOH to Al(OH)3 is",
+      "choices": [
+        "1:1",
+        "1:3",
+        "3:1",
+        "3:7"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which equation represents a single replacement reaction?",
+      "choices": [
+        "2H2O2 \u21922H2O \u0002 O2",
+        "2H2 \u0002 O2 \u21922H2O",
+        "H2SO4 \u0002 Mg \u2192H2 \u0002 MgSO4",
+        "HCl \u0002 KOH \u2192KCl \u0002 H2O"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The accepted value for the percent by mass of water in a hydrate is 36.0%. In a laboratory activity, a student determined the percent by mass of water in the hydrate to be 37.8%. What is the percent error for the student\u2019s measured value?",
+      "choices": [
+        "5.0%",
+        "4.8%",
+        "1.8%",
+        "0.05%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The boiling points, at standard pressure, of four compounds are given in the table below. Which type of attraction can be used to explain the unusually high boiling point of H2O?",
+      "choices": [
+        "ionic bonding",
+        "hydrogen bonding",
+        "polar covalent bonding",
+        "nonpolar covalent bonding"
+      ],
+      "image": "/images/exams/chemistry/june-2014/q38.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which formula represents a molecule with the most polar bond?",
+      "choices": [
+        "CO",
+        "NO",
+        "HI",
+        "HCl Compound Boiling Point (\u00b0C) H2O 100.0 H2S \u000359.6 H2Se \u000341.3 H2Te \u00032.0 Boiling Points of Four Compounds"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The graph below represents the uniform heating of a substance from the solid to the gas phase. Which line segment of the graph represents boiling?",
+      "choices": [
+        "AB \u2014",
+        "BC \u2014",
+        "CD \u2014",
+        "DE \u2014"
+      ],
+      "image": "/images/exams/chemistry/june-2014/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "A 1-gram sample of a compound is added to 100 grams of H2O(\u2113) and the resulting mixture is then thoroughly stirred. Some of the compound is then separated from the mixture by filtration. Based on Table F, the compound could be",
+      "choices": [
+        "AgCl",
+        "CaCl2",
+        "NaCl",
+        "NiCl2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "At standard pressure, the total amount of heat required to completely vaporize a 100.-gram sample of water at its boiling point is",
+      "choices": [
+        "2.26 \u0004 10 J",
+        "2.26 \u0004 102 J",
+        "2.26 \u0004 103 J",
+        "2.26 \u0004 105 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "A sample of helium gas is in a sealed, rigid container. What occurs as the temperature of the sample is increased?",
+      "choices": [
+        "The mass of the sample decreases.",
+        "The number of moles of gas increases.",
+        "The volume of each atom decreases.",
+        "The frequency of collisions between atoms increases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction at equilibrium: 2SO2(g) \u0002 O2(g) \u21cc2SO3(g) \u0002 heat Which change causes the equilibrium to shift to the right?",
+      "choices": [
+        "adding a catalyst",
+        "adding more O2(g)",
+        "decreasing the pressure",
+        "increasing the temperature"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Given the formula representing a compound: What is a chemical name of this compound?",
+      "choices": [
+        "2-pentene",
+        "2-pentyne",
+        "3-pentene",
+        "3-pentyne"
+      ],
+      "image": "/images/exams/chemistry/june-2014/q45.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "What is the oxidation number of manganese in KMnO4?",
+      "choices": [
+        "\u00027",
+        "\u00022",
+        "\u00023",
+        "\u00024"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "When the pH of an aqueous solution is changed from 1 to 2, the concentration of hydronium ions in the solution is",
+      "choices": [
+        "decreased by a factor of 2",
+        "decreased by a factor of 10",
+        "increased by a factor of 2",
+        "increased by a factor of 10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "What is the color of the indicator thymol blue in a solution that has a pH of 11?",
+      "choices": [
+        "red",
+        "blue",
+        "pink",
+        "yellow H H C H C C H H H C H C H H H Time Temperature A B C D E F"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "written",
+      "text": "Which formulas represent compounds that are isomers of each other?",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2014/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "One beneficial use of radioisotopes is",
+      "choices": [
+        "detection of disease",
+        "neutralization of an acid spill",
+        "decreasing the dissolved O2(g) level in seawater",
+        "increasing the concentration of CO2(g) in the atmosphere ( 1 ) H H C H H and H H C H H C H H ( 2 ) HO H C H H and H H C H OH ( 3 ) ( 4 ) and C H C H H C OH H H H H H H C O C H H C H H H H and H OH C C H C OH C H H C H H H H H H H H"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Draw a Lewis electron-dot diagram for a molecule of bromomethane, CH3Br.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Explain, in terms of atomic structure, why Group 18 elements on the Periodic Table rarely form compounds.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Explain, in terms of electrons, why the radius of a potassium atom is larger than the radius of a potassium ion in the ground state.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the type of bonding in solid potassium.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Determine the molarity of this solution.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 and 56 on the information below and on your knowledge of chemistry.\nA 2.50-liter aqueous solution contains 1.25 moles of dissolved sodium chloride. The \ndissolving of NaCl(s) in water is represented by the equation below.\nNaCl(s)\nH2O\n\u2014\u2192Na\u0002(aq) \u0002 Cl\u0003(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Compare the freezing point of this solution to the freezing point of a solution containing 0.75 mole NaCl per 2.50 liters of solution.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 and 56 on the information below and on your knowledge of chemistry.\nA 2.50-liter aqueous solution contains 1.25 moles of dissolved sodium chloride. The \ndissolving of NaCl(s) in water is represented by the equation below.\nNaCl(s)\nH2O\n\u2014\u2192Na\u0002(aq) \u0002 Cl\u0003(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Write the empirical formula for glucose.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 and 58 on the information below and on your knowledge of chemistry.\nA 1.00-mole sample of glucose, C6H12O6, completely reacts with oxygen, as represented\nby the balanced equation below.\nC6H12O6(s) \u0002 6O2(g) \u21926CO2(g) \u0002 6H2O(\u2113) \u0002 energy",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Using the axes in your answer booklet, complete the potential energy curve for the reaction of glucose with oxygen.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 and 58 on the information below and on your knowledge of chemistry.\nA 1.00-mole sample of glucose, C6H12O6, completely reacts with oxygen, as represented\nby the balanced equation below.\nC6H12O6(s) \u0002 6O2(g) \u21926CO2(g) \u0002 6H2O(\u2113) \u0002 energy",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Identify the class of organic compounds to which ethanol belongs.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of chemistry.\nEthane, C2H6, has a boiling point of \u000389\u00b0C at standard pressure. Ethanol, C2H5OH,\nhas a much higher boiling point than ethane at standard pressure. At STP, ethane is a gas\nand ethanol is a liquid.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "A liquid boils when the vapor pressure of the liquid equals the atmospheric pressure on the surface of the liquid. Based on Table H, what is the boiling point of ethanol at standard pressure?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of chemistry.\nEthane, C2H6, has a boiling point of \u000389\u00b0C at standard pressure. Ethanol, C2H5OH,\nhas a much higher boiling point than ethane at standard pressure. At STP, ethane is a gas\nand ethanol is a liquid.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Compare the intermolecular forces of the two substances at STP.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2014/q61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of chemistry.\nEthane, C2H6, has a boiling point of \u000389\u00b0C at standard pressure. Ethanol, C2H5OH,\nhas a much higher boiling point than ethane at standard pressure. At STP, ethane is a gas\nand ethanol is a liquid.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify the subatomic particles that flow through the wire as the cell operates.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2014/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nAn operating voltaic cell has zinc and iron electrodes. The cell and the unbalanced ionic\nequation representing the reaction that occurs in the cell are shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Balance the equation in your answer booklet for the redox reaction that occurs in this cell, using the smallest whole-number coefficients.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2014/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nAn operating voltaic cell has zinc and iron electrodes. The cell and the unbalanced ionic\nequation representing the reaction that occurs in the cell are shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Identify one metal from Table J that is more easily oxidized than Zn.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2014/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nAn operating voltaic cell has zinc and iron electrodes. The cell and the unbalanced ionic\nequation representing the reaction that occurs in the cell are shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Explain, in terms of Zn atoms and Zn ions, why the mass of the Zn electrode decreases as the cell operates. Fe(s) electrode Salt bridge Voltaic Cell Voltmeter V Zn(s) electrode Wire Zn2+(aq) Fe3+(aq) Zn(s) + Fe3+(aq) Zn2+(aq) + Fe(s)",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2014/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nAn operating voltaic cell has zinc and iron electrodes. The cell and the unbalanced ionic\nequation representing the reaction that occurs in the cell are shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "State the model that first included electrons as subatomic particles.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2014/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of \nchemistry.\nA student compares some models of the atom. These models are listed in the table\nbelow in order of development from top to bottom.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "State one conclusion about the internal structure of the atom that resulted from the gold foil experiment.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2014/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of \nchemistry.\nA student compares some models of the atom. These models are listed in the table\nbelow in order of development from top to bottom.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Using the conclusion from the Rutherford model, identify the charged subatomic particle that is located in the nucleus.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2014/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of \nchemistry.\nA student compares some models of the atom. These models are listed in the table\nbelow in order of development from top to bottom.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "State one way in which the Bohr model agrees with the Thomson model. Model Observation Conclusion Dalton model Matter is conserved during a chemical reaction. Atoms are hard, indivisible spheres of different sizes. Thomson model Cathode rays are deflected by magnetic/electric fields. Atoms have small, negatively charged particles as part of their internal structure. Rutherford model Most alpha particles pass straight through gold foil but a few are deflected. An atom is mostly empty space with a small, dense, positively charged nucleus. Bohr model Unique spectral lines are emitted by excited gaseous elements. Packets of energy are absorbed or emitted by atoms when an electron changes shells. Models of the Atom",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2014/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of \nchemistry.\nA student compares some models of the atom. These models are listed in the table\nbelow in order of development from top to bottom.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Determine the total number of moles of CO2 added to the tank before it is used for paintball.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of \nchemistry.\nPaintball is a popular recreational activity that uses a metal tank of compressed carbon\ndioxide or nitrogen to launch small capsules of paint. A typical tank has a volume of \n508 cubic centimeters. A 340.-gram sample of carbon dioxide is added to the tank before it\nis used for paintball. At 20.\u00b0C, this tank contains both CO2(g) and CO2(\u2113). After a paintball\ngame, the tank contains only CO2(g).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "In the box in your answer booklet, use the key to draw a particle diagram to represent the two phases of CO2 in a newly filled tank. Your response must include at least six molecules of CO2 in each phase.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of \nchemistry.\nPaintball is a popular recreational activity that uses a metal tank of compressed carbon\ndioxide or nitrogen to launch small capsules of paint. A typical tank has a volume of \n508 cubic centimeters. A 340.-gram sample of carbon dioxide is added to the tank before it\nis used for paintball. At 20.\u00b0C, this tank contains both CO2(g) and CO2(\u2113). After a paintball\ngame, the tank contains only CO2(g).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "After the paintball game, the tank has a gas pressure of 6.1 atmospheres and is at 293 K. If the tank is heated to 313 K, the pressure in the tank will change. Show a numerical setup for calculating the pressure of the gas in the tank at 313 K.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of \nchemistry.\nPaintball is a popular recreational activity that uses a metal tank of compressed carbon\ndioxide or nitrogen to launch small capsules of paint. A typical tank has a volume of \n508 cubic centimeters. A 340.-gram sample of carbon dioxide is added to the tank before it\nis used for paintball. At 20.\u00b0C, this tank contains both CO2(g) and CO2(\u2113). After a paintball\ngame, the tank contains only CO2(g).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Draw a structural formula for the ethanol formed during this reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 75 on the information below and on your knowledge of \nchemistry.\nMany breads are made by adding yeast to dough, causing the dough to rise. Yeast is a\ntype of microorganism that produces the catalyst zymase, which converts glucose, C6H12O6,\nto ethanol and carbon dioxide gas. The balanced equation for this reaction is shown below.\nC6H12O6(aq)\n2C2H5OH(aq) \u0002 2CO2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Describe how the catalyst, zymase, speeds up this reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 75 on the information below and on your knowledge of \nchemistry.\nMany breads are made by adding yeast to dough, causing the dough to rise. Yeast is a\ntype of microorganism that produces the catalyst zymase, which converts glucose, C6H12O6,\nto ethanol and carbon dioxide gas. The balanced equation for this reaction is shown below.\nC6H12O6(aq)\n2C2H5OH(aq) \u0002 2CO2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Determine the total mass of ethanol produced when 270. grams of glucose reacts completely to form ethanol and 132 grams of carbon dioxide. _____\u2192 zymase",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 75 on the information below and on your knowledge of \nchemistry.\nMany breads are made by adding yeast to dough, causing the dough to rise. Yeast is a\ntype of microorganism that produces the catalyst zymase, which converts glucose, C6H12O6,\nto ethanol and carbon dioxide gas. The balanced equation for this reaction is shown below.\nC6H12O6(aq)\n2C2H5OH(aq) \u0002 2CO2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "What number of significant figures is used to express the concentration of the KOH(aq)?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 79 on the information below and on your knowledge of \nchemistry.\nDuring a laboratory activity, a student places 25.0 mL of HCl(aq) of unknown \nconcentration into a flask. The student adds four drops of phenolphthalein to the solution\nin the flask. The solution is titrated with 0.150 M KOH(aq) until the solution appears faint\npink. The volume of KOH(aq) added is 18.5 mL.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Complete the equation in your answer booklet for the neutralization reaction that occurs during the titration.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 79 on the information below and on your knowledge of \nchemistry.\nDuring a laboratory activity, a student places 25.0 mL of HCl(aq) of unknown \nconcentration into a flask. The student adds four drops of phenolphthalein to the solution\nin the flask. The solution is titrated with 0.150 M KOH(aq) until the solution appears faint\npink. The volume of KOH(aq) added is 18.5 mL.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Determine the concentration of the HCl(aq) solution, using the titration data.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 79 on the information below and on your knowledge of \nchemistry.\nDuring a laboratory activity, a student places 25.0 mL of HCl(aq) of unknown \nconcentration into a flask. The student adds four drops of phenolphthalein to the solution\nin the flask. The solution is titrated with 0.150 M KOH(aq) until the solution appears faint\npink. The volume of KOH(aq) added is 18.5 mL.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Describe one laboratory safety procedure that should be used if a drop of the KOH(aq) is spilled on the arm of the student.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 79 on the information below and on your knowledge of \nchemistry.\nDuring a laboratory activity, a student places 25.0 mL of HCl(aq) of unknown \nconcentration into a flask. The student adds four drops of phenolphthalein to the solution\nin the flask. The solution is titrated with 0.150 M KOH(aq) until the solution appears faint\npink. The volume of KOH(aq) added is 18.5 mL.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "State the direction of heat flow that occurs between the dry ice and the air in the flask.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of \nchemistry.\nA few pieces of dry ice, CO2(s), at \u000378\u00b0C are placed in a flask that contains air at 21\u00b0C.\nThe flask is sealed by placing an uninflated balloon over the mouth of the flask. As the \nballoon inflates, the dry ice disappears and no liquid is observed in the flask.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Write the name of the process that occurs as the dry ice undergoes a phase change in the flask.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of \nchemistry.\nA few pieces of dry ice, CO2(s), at \u000378\u00b0C are placed in a flask that contains air at 21\u00b0C.\nThe flask is sealed by placing an uninflated balloon over the mouth of the flask. As the \nballoon inflates, the dry ice disappears and no liquid is observed in the flask.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Compare the entropy of the CO2 molecules in the dry ice to the entropy of the CO2 molecules in the inflated balloon. P.S./",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of \nchemistry.\nA few pieces of dry ice, CO2(s), at \u000378\u00b0C are placed in a flask that contains air at 21\u00b0C.\nThe flask is sealed by placing an uninflated balloon over the mouth of the flask. As the \nballoon inflates, the dry ice disappears and no liquid is observed in the flask.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "State, in terms of neutrons, how an atom of tritium differs from an atom of hydrogen-1.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of \nchemistry.\nIlluminated EXIT signs are used in public buildings such as schools. If the word EXIT is\ngreen, the sign may contain the radioisotope tritium, hydrogen-3. The tritium is a gas sealed\nin glass tubes. The emissions from the decay of the tritium gas cause a coating on the inside\nof the tubes to glow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Determine the fraction of an original sample of tritium that remains unchanged after 24.62 years.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of \nchemistry.\nIlluminated EXIT signs are used in public buildings such as schools. If the word EXIT is\ngreen, the sign may contain the radioisotope tritium, hydrogen-3. The tritium is a gas sealed\nin glass tubes. The emissions from the decay of the tritium gas cause a coating on the inside\nof the tubes to glow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Complete the nuclear equation in your answer booklet for the radioactive decay of tritium, by writing a notation for the missing product. P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of \nchemistry.\nIlluminated EXIT signs are used in public buildings such as schools. If the word EXIT is\ngreen, the sign may contain the radioisotope tritium, hydrogen-3. The tritium is a gas sealed\nin glass tubes. The emissions from the decay of the tritium gas cause a coating on the inside\nof the tubes to glow.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

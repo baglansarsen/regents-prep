@@ -33,8 +33,7 @@ export default {
       topic: 'Cell Biology',
       correct: 2,
       explanation: 'Homeostasis is the process by which living organisms maintain a stable internal environment (such as constant body temperature and blood glucose) despite changes in external conditions, using feedback mechanisms to detect and correct deviations.',
-      diveDeep: 'Homeostasis relies primarily on negative feedback loops: when a variable (like blood glucose) deviates from the set point, sensors detect the change, a control center processes the signal, and effectors take action to restore balance (e.g., insulin is released to lower blood glucose). Evolution (choice A) involves changes in populations over generations. Ecological succession (choice B) is the change in community composition over time. Differentiation (choice D) is the process by which cells become specialized. Students should know concrete examples of homeostasis: thermoregulation, blood glucose regulation, and water balance (osmoregulation).',
-    },
+      diveDeep: 'Homeostasis relies primarily on negative feedback loops: when a variable (like blood glucose) deviates from the set point, sensors detect the change, a control center processes the signal, and effectors take action to restore balance (e.g., insulin is released to lower blood glucose). Evolution (choice A) involves changes in populations over generations. Ecological succession (choice B) is the change in community composition over time. Differentiation (choice D) is the process by which cells become specialized. Students should know concrete examples of homeostasis: thermoregulation, blood glucose regulation, and water balance (osmoregulation).', image: '/images/exams/le-june-2019/q2.png' },
     {
       number: 3, part: 'A',
       text: 'Which statement correctly identifies the role of decomposers in an ecosystem?',
@@ -159,8 +158,7 @@ export default {
       topic: 'Cell Biology',
       correct: 1,
       explanation: 'Photosynthesis uses carbon dioxide (CO₂) from the air and water (H₂O) absorbed by roots as raw materials, along with light energy captured by chlorophyll, to produce glucose and oxygen.',
-      diveDeep: 'The photosynthesis equation: 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂. Glucose and oxygen (choice A) are the PRODUCTS of photosynthesis, not the reactants. ATP (choice C) is produced by photosynthesis in the light reactions and used in the Calvin cycle — it is an intermediate, not a raw material input from outside. Oxygen (choice D) is a product released as a byproduct of water splitting. Students should know both the reactants AND products of photosynthesis, and be careful not to confuse them with the reactants and products of cellular respiration (glucose + O₂ → CO₂ + H₂O + ATP), which are the reverse.',
-    },
+      diveDeep: 'The photosynthesis equation: 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂. Glucose and oxygen (choice A) are the PRODUCTS of photosynthesis, not the reactants. ATP (choice C) is produced by photosynthesis in the light reactions and used in the Calvin cycle — it is an intermediate, not a raw material input from outside. Oxygen (choice D) is a product released as a byproduct of water splitting. Students should know both the reactants AND products of photosynthesis, and be careful not to confuse them with the reactants and products of cellular respiration (glucose + O₂ → CO₂ + H₂O + ATP), which are the reverse.', image: '/images/exams/le-june-2019/q11.png' },
     {
       number: 12, part: 'A',
       text: 'A group of scientists studying an ecosystem in Africa found that when lions were present, the wildebeest population moved frequently and did not overgraze any single area. When lions were removed, wildebeest grazed in the same areas, causing the vegetation to decline. This illustrates that',
@@ -173,8 +171,7 @@ export default {
       topic: 'Ecology',
       correct: 1,
       explanation: 'This is a "landscape of fear" effect — the presence of lions causes wildebeest to move frequently to avoid predation, preventing overgrazing. When lions are removed, wildebeest behavior changes, indirectly harming the plant community through a trophic cascade.',
-      diveDeep: 'Top predators influence ecosystems not only by directly killing prey but by altering prey behavior — this is called the "ecology of fear." When prey sense predator presence, they change their foraging patterns, which can benefit vegetation. The Yellowstone wolf reintroduction is the most famous example: wolves changed elk behavior, allowing riverside vegetation to recover, which stabilized riverbanks and improved river health. Choice A is too absolute (other factors also prevent overgrazing). Choice C incorrectly elevates wildebeest as most important. Choice D is wrong — removing predators typically harms ecosystem productivity by allowing herbivore populations to grow unchecked.',
-    },
+      diveDeep: 'Top predators influence ecosystems not only by directly killing prey but by altering prey behavior — this is called the "ecology of fear." When prey sense predator presence, they change their foraging patterns, which can benefit vegetation. The Yellowstone wolf reintroduction is the most famous example: wolves changed elk behavior, allowing riverside vegetation to recover, which stabilized riverbanks and improved river health. Choice A is too absolute (other factors also prevent overgrazing). Choice C incorrectly elevates wildebeest as most important. Choice D is wrong — removing predators typically harms ecosystem productivity by allowing herbivore populations to grow unchecked.', image: '/images/exams/le-june-2019/q12.png' },
     {
       number: 13, part: 'A',
       text: 'An organism\'s phenotype is determined by',
@@ -187,8 +184,7 @@ export default {
       topic: 'Cell Biology',
       correct: 2,
       explanation: 'Phenotype (observable traits) results from the interaction of genotype (genetic information) and environmental factors. While genes provide the blueprint, environmental conditions can influence how and to what extent genes are expressed.',
-      diveDeep: 'Classic examples of gene-environment interactions: Himalayan rabbits have genes for both black and white fur, but temperature determines which is expressed. Identical twins share the same genotype but may have different phenotypes due to different environments (diet, exercise, sun exposure). Height is influenced by height genes (genotype) AND nutrition (environment). The phrase "genotype + environment = phenotype" is a useful formula. Choice A (genotype alone) ignores environmental influence. Choice B (environment alone) ignores genetic blueprints. Choice D (random chance) is wrong — phenotype is not random but is shaped by both genetics and environment.',
-    },
+      diveDeep: 'Classic examples of gene-environment interactions: Himalayan rabbits have genes for both black and white fur, but temperature determines which is expressed. Identical twins share the same genotype but may have different phenotypes due to different environments (diet, exercise, sun exposure). Height is influenced by height genes (genotype) AND nutrition (environment). The phrase "genotype + environment = phenotype" is a useful formula. Choice A (genotype alone) ignores environmental influence. Choice B (environment alone) ignores genetic blueprints. Choice D (random chance) is wrong — phenotype is not random but is shaped by both genetics and environment.', image: '/images/exams/le-june-2019/q13.png' },
     {
       number: 14, part: 'A',
       text: 'Which statement best describes a characteristic of all living organisms?',
@@ -201,8 +197,7 @@ export default {
       topic: 'Cell Biology',
       correct: 2,
       explanation: 'All living organisms (from bacteria to plants to animals) carry out metabolism — the chemical reactions that obtain, transform, and use energy to maintain life. This is a universal characteristic of life.',
-      diveDeep: 'The characteristics of life include: cellular organization, metabolism, response to stimuli, homeostasis, growth, reproduction, and evolution. Not all organisms have a nucleus (choice A) — prokaryotes like bacteria lack a membrane-bound nucleus. Not all reproduce sexually (choice B) — many bacteria and some animals reproduce asexually. Not all have chlorophyll (choice D) — only photosynthetic organisms (plants, algae, some bacteria) have chlorophyll; animals and fungi do not. Metabolism (all chemical reactions in an organism) is universal. Students should memorize all characteristics of life for potential "what do all living things have in common" questions.',
-    },
+      diveDeep: 'The characteristics of life include: cellular organization, metabolism, response to stimuli, homeostasis, growth, reproduction, and evolution. Not all organisms have a nucleus (choice A) — prokaryotes like bacteria lack a membrane-bound nucleus. Not all reproduce sexually (choice B) — many bacteria and some animals reproduce asexually. Not all have chlorophyll (choice D) — only photosynthetic organisms (plants, algae, some bacteria) have chlorophyll; animals and fungi do not. Metabolism (all chemical reactions in an organism) is universal. Students should memorize all characteristics of life for potential "what do all living things have in common" questions.', image: '/images/exams/le-june-2019/q14.png' },
     {
       number: 15, part: 'A',
       text: 'The tundra biome has very low biodiversity compared to a tropical rainforest. The primary reason for this is that',
@@ -215,8 +210,7 @@ export default {
       topic: 'Evolution',
       correct: 1,
       explanation: 'The tundra\'s extreme cold, permafrost, short growing season, and limited sunlight create harsh conditions that only specially adapted organisms can tolerate, drastically limiting the diversity of species compared to more hospitable biomes like tropical rainforests.',
-      diveDeep: 'Biodiversity generally increases from the poles toward the equator (latitudinal diversity gradient). Tropical rainforests have high year-round temperatures, abundant rainfall, and intense sunlight — supporting enormous species diversity. The tundra has permanently frozen subsoil (permafrost), temperatures averaging well below freezing, and only 6–10 weeks of growing season. Choice D is partially true but redundant — "harsh climate" specifically explains why abiotic factors limit species. Choice C (competition) cannot be the primary reason — competition presupposes organisms are already present. Choice A (human destruction) is false for most tundra regions. Abiotic factors ultimately determine which biome a region is and what species can live there.',
-    },
+      diveDeep: 'Biodiversity generally increases from the poles toward the equator (latitudinal diversity gradient). Tropical rainforests have high year-round temperatures, abundant rainfall, and intense sunlight — supporting enormous species diversity. The tundra has permanently frozen subsoil (permafrost), temperatures averaging well below freezing, and only 6–10 weeks of growing season. Choice D is partially true but redundant — "harsh climate" specifically explains why abiotic factors limit species. Choice C (competition) cannot be the primary reason — competition presupposes organisms are already present. Choice A (human destruction) is false for most tundra regions. Abiotic factors ultimately determine which biome a region is and what species can live there.', image: '/images/exams/le-june-2019/q15.png' },
     {
       number: 16, part: 'A',
       text: 'Gene therapy involves inserting functional genes into cells to treat genetic diseases. Which technique is most likely used to insert new genes into cells?',
@@ -313,8 +307,7 @@ export default {
       topic: 'Cell Biology',
       correct: 1,
       explanation: 'Phenotypic plasticity is the ability of a single genotype to produce different phenotypes in response to different environmental conditions, without changes to the underlying DNA sequence. Adjusting chloroplast number in response to light is a plastic response.',
-      diveDeep: 'Phenotypic plasticity is an important adaptive strategy — it allows one individual with one genotype to survive in a range of environments. Sun leaves (small, thick, many chloroplasts) and shade leaves (large, thin, fewer but larger chloroplasts) on the same tree are a classic example. This is different from natural selection (choice A), which requires genetic variation, differential reproduction, and inheritance over generations. Genetic mutation (choice C) would change the DNA sequence — plasticity does not involve mutations. Ecological succession (choice D) is the change in community composition over time in an ecosystem. Students should distinguish between genetic change (evolution/mutation) and plastic responses to environment.',
-    },
+      diveDeep: 'Phenotypic plasticity is an important adaptive strategy — it allows one individual with one genotype to survive in a range of environments. Sun leaves (small, thick, many chloroplasts) and shade leaves (large, thin, fewer but larger chloroplasts) on the same tree are a classic example. This is different from natural selection (choice A), which requires genetic variation, differential reproduction, and inheritance over generations. Genetic mutation (choice C) would change the DNA sequence — plasticity does not involve mutations. Ecological succession (choice D) is the change in community composition over time in an ecosystem. Students should distinguish between genetic change (evolution/mutation) and plastic responses to environment.', image: '/images/exams/le-june-2019/q22.png' },
     {
       number: 23, part: 'A',
       text: 'Which pair of organisms has a mutualistic relationship?',
@@ -355,8 +348,7 @@ export default {
       topic: 'Cell Biology',
       correct: 1,
       explanation: 'An aquatic plant (such as Elodea) in bright light produces visible oxygen bubbles that can be directly collected and measured, providing observable and quantifiable evidence of oxygen production during photosynthesis.',
-      diveDeep: 'Experimental design requires that you directly measure the variable you are testing. Since the hypothesis is that plants release oxygen during photosynthesis, the setup must detect oxygen production under photosynthetic conditions (light). Placing the plant in a dark room (choice A) would measure cellular respiration (CO₂ release), not photosynthesis. Measuring soil temperature (choice C) and plant height (choice D) do not address oxygen production at all. The Elodea/aquatic plant in light experiment is a classic demonstration because bubbles are easily visible and bubble rate can be quantified. Students should practice designing experiments: identify the independent variable, dependent variable, and control.',
-    },
+      diveDeep: 'Experimental design requires that you directly measure the variable you are testing. Since the hypothesis is that plants release oxygen during photosynthesis, the setup must detect oxygen production under photosynthetic conditions (light). Placing the plant in a dark room (choice A) would measure cellular respiration (CO₂ release), not photosynthesis. Measuring soil temperature (choice C) and plant height (choice D) do not address oxygen production at all. The Elodea/aquatic plant in light experiment is a classic demonstration because bubbles are easily visible and bubble rate can be quantified. Students should practice designing experiments: identify the independent variable, dependent variable, and control.', image: '/images/exams/le-june-2019/q25.png' },
     {
       number: 26, part: 'A',
       text: 'Many species of plants in the Amazon rainforest have never been studied by scientists. The rapid deforestation of the Amazon is concerning because',
@@ -411,8 +403,7 @@ export default {
       topic: 'Evolution',
       correct: 1,
       explanation: 'A zoonotic disease (zoonosis) is an infectious disease that can be transmitted from animals to humans. Many of the most significant human diseases, including rabies, Ebola, and COVID-19, are zoonotic in origin.',
-      diveDeep: 'Approximately 60% of known infectious diseases are zoonotic — they originate in animals and can "spill over" into human populations. Bats are reservoir hosts for several dangerous viruses (SARS-CoV, MERS-CoV, Ebola, Nipah, Hendra) because their immune systems can tolerate these viruses without becoming ill. Transmission can occur through direct contact, respiratory droplets, insect vectors (mosquitoes, ticks), or contaminated food/water. This is NOT mutualism (choice A) — the virus harms humans. Autoimmune disorder (choice C) involves the body attacking itself, not a viral infection. A genetic mutation in the insulin gene (choice D) causes diabetes, not infectious disease.',
-    },
+      diveDeep: 'Approximately 60% of known infectious diseases are zoonotic — they originate in animals and can "spill over" into human populations. Bats are reservoir hosts for several dangerous viruses (SARS-CoV, MERS-CoV, Ebola, Nipah, Hendra) because their immune systems can tolerate these viruses without becoming ill. Transmission can occur through direct contact, respiratory droplets, insect vectors (mosquitoes, ticks), or contaminated food/water. This is NOT mutualism (choice A) — the virus harms humans. Autoimmune disorder (choice C) involves the body attacking itself, not a viral infection. A genetic mutation in the insulin gene (choice D) causes diabetes, not infectious disease.', image: '/images/exams/le-june-2019/q29.png' },
     {
       number: 30, part: 'A',
       text: 'Which statement about the fossil record as evidence for evolution is correct?',
@@ -425,8 +416,7 @@ export default {
       topic: 'Evolution',
       correct: 1,
       explanation: 'The fossil record shows a chronological sequence of organisms, documenting the appearance of new species, the extinction of others, and gradual or punctuated changes in body form over geological time — providing direct evidence of evolution.',
-      diveDeep: 'The fossil record is one of the most important lines of evidence for evolution, alongside comparative anatomy, biogeography, molecular biology, and direct observation. Fossils show: (1) many species that once existed are now extinct; (2) species have changed over time (e.g., the horse fossil series); (3) transitional forms exist (e.g., Tiktaalik, Archaeopteryx). Choice A directly contradicts the fossil record — it clearly shows species have changed. The fossil record is considered reliable (choice C is wrong), though incomplete because fossilization is rare. Choice D is wrong because evolution has no direction — some lineages have become "simpler" over time (e.g., parasites often lose organs they don\'t need).',
-    },
+      diveDeep: 'The fossil record is one of the most important lines of evidence for evolution, alongside comparative anatomy, biogeography, molecular biology, and direct observation. Fossils show: (1) many species that once existed are now extinct; (2) species have changed over time (e.g., the horse fossil series); (3) transitional forms exist (e.g., Tiktaalik, Archaeopteryx). Choice A directly contradicts the fossil record — it clearly shows species have changed. The fossil record is considered reliable (choice C is wrong), though incomplete because fossilization is rare. Choice D is wrong because evolution has no direction — some lineages have become "simpler" over time (e.g., parasites often lose organs they don\'t need).', image: '/images/exams/le-june-2019/q30.png' },
 
     // Part B-1
     {
@@ -489,7 +479,7 @@ export default {
       ],
       topic: 'Genetics',
       correct: 1,
-      image: '/images/exams/le-june-2019/q34.png',
+      image: '/images/exams/le-june-2019/context_34_35.png',
       explanation: 'The drought created an environmental pressure (only large seeds available) that favored finches with deeper beaks. These finches survived and reproduced more, shifting the population\'s average beak depth upward — the definition of natural selection.',
       diveDeep: 'Natural selection requires: (1) variation in a trait (beak depth varied among finches); (2) the variation is heritable (beak depth is genetic); (3) differential survival/reproduction based on the trait (deep-beaked finches survived the drought better); (4) the trait becomes more common in the next generation. All four conditions are met here. Artificial selection (choice A) requires deliberate human intervention — the drought is a natural environmental pressure. Mutations (choice C) do not happen simultaneously in all individuals. Phenotypic plasticity (choice D) would mean individual birds grew deeper beaks — but the change reflects different individuals surviving (selection), not individual birds changing their beaks. This study is a textbook example of evolution by natural selection.',
     },
@@ -505,8 +495,7 @@ export default {
       topic: 'General',
       correct: 1,
       explanation: 'In valid scientific experiments, multiple trials or replicates are needed to calculate averages and assess variability. With only one plant per condition, a single abnormal plant could skew results, and there is no way to determine if results are reproducible.',
-      diveDeep: 'Sample size is critical for experimental validity. With n=1 per condition: you cannot calculate a meaningful average (a single data point is not representative); you cannot assess variability within groups; you cannot determine if results are due to the variable or random chance. If one plant happens to be sick or unusually vigorous, the results are misleading. Proper experiments use multiple replicates (e.g., 10+ plants per condition) to ensure results are reliable and statistically meaningful. Choice A is wrong — one plant is clearly insufficient for reliable conclusions. Changing plant type (choice C) or measurement method (choice D) would not address the sample size problem and would introduce new variables.',
-    },
+      diveDeep: 'Sample size is critical for experimental validity. With n=1 per condition: you cannot calculate a meaningful average (a single data point is not representative); you cannot assess variability within groups; you cannot determine if results are due to the variable or random chance. If one plant happens to be sick or unusually vigorous, the results are misleading. Proper experiments use multiple replicates (e.g., 10+ plants per condition) to ensure results are reliable and statistically meaningful. Choice A is wrong — one plant is clearly insufficient for reliable conclusions. Changing plant type (choice C) or measurement method (choice D) would not address the sample size problem and would introduce new variables.', image: '/images/exams/le-june-2019/context_34_35.png' },
     {
       number: 36, part: 'B-1',
       text: 'Scientists have discovered that in some ecosystems, removing a top predator causes a "trophic cascade" — a chain of effects that ripples down through the food web. Which example best illustrates a trophic cascade?',
@@ -519,8 +508,7 @@ export default {
       topic: 'Ecology',
       correct: 0,
       explanation: 'A trophic cascade shows how removing a top predator sends effects through multiple trophic levels: wolves removed → elk population increases unchecked → elk overgraze vegetation → erosion occurs → river flow changes. This is a chain of effects across trophic levels.',
-      diveDeep: 'The Yellowstone wolf reintroduction (1995) is the most famous real-world trophic cascade. After wolves were reintroduced: elk population decreased and elk changed grazing patterns → riverside vegetation recovered → roots stabilized riverbanks → rivers changed course and flow. This indirect effect on rivers via behavioral changes in elk (landscape of fear) was called a "geomorphic cascade." Choice B is ecologically wrong — wolves and deer/elk compete for the same prey? No, wolves EAT deer/elk. Choice C is wrong — wolves do not routinely spread disease to their ecosystems. Choice D denies the concept being tested. Students should know that trophic cascades demonstrate how ecosystems are interconnected and how removing one species can have far-reaching effects.',
-    },
+      diveDeep: 'The Yellowstone wolf reintroduction (1995) is the most famous real-world trophic cascade. After wolves were reintroduced: elk population decreased and elk changed grazing patterns → riverside vegetation recovered → roots stabilized riverbanks → rivers changed course and flow. This indirect effect on rivers via behavioral changes in elk (landscape of fear) was called a "geomorphic cascade." Choice B is ecologically wrong — wolves and deer/elk compete for the same prey? No, wolves EAT deer/elk. Choice C is wrong — wolves do not routinely spread disease to their ecosystems. Choice D denies the concept being tested. Students should know that trophic cascades demonstrate how ecosystems are interconnected and how removing one species can have far-reaching effects.', image: '/images/exams/le-june-2019/context_36_37.png' },
     {
       number: 37, part: 'B-1',
       context: 'A diagram shows the structure of a cell membrane with a phospholipid bilayer, embedded proteins, and receptor molecules. Arrows show different molecules interacting with the membrane.',
@@ -533,7 +521,7 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 2,
-      image: '/images/exams/le-june-2019/q37.png',
+      image: '/images/exams/le-june-2019/context_36_37.png',
       explanation: 'The phospholipid bilayer is hydrophobic (water-repelling) in its interior. Small, nonpolar (fat-soluble) molecules can dissolve in and pass directly through the lipid bilayer by simple diffusion without needing transport proteins.',
       diveDeep: 'Cell membrane permeability depends on molecule characteristics: (1) small, nonpolar molecules (O₂, CO₂, lipids, steroids) — freely cross by simple diffusion; (2) small polar molecules (water, small alcohols) — cross slowly or via aquaporins; (3) large polar molecules (glucose, amino acids) — require carrier proteins (facilitated diffusion or active transport); (4) ions (Na⁺, K⁺, Cl⁻) — require specific ion channels. Large proteins (choice A) cannot cross membranes without specialized processes. Charged ions (choice B) require channel proteins because the hydrophobic interior repels them. Glucose (choice D) is a large polar molecule requiring GLUT carrier proteins. The "like dissolves like" principle: nonpolar molecules dissolve in the nonpolar lipid bilayer interior.',
     },
@@ -549,7 +537,7 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 2,
-      image: '/images/exams/le-june-2019/q38.png',
+      image: '/images/exams/le-june-2019/context_38_39.png',
       explanation: 'When a hormone (the signal/ligand) binds to its specific receptor protein on the cell surface, it initiates a signal transduction cascade — a series of molecular events that transmit the signal from the cell surface to the interior, triggering a cellular response.',
       diveDeep: 'Signal transduction is how cells receive and respond to chemical messages. Steps: (1) signal molecule (hormone) binds to specific receptor; (2) receptor changes shape (conformational change); (3) intracellular signaling cascade is triggered (second messengers like cAMP); (4) target molecules are activated/deactivated; (5) cellular response occurs. Osmosis (choice A) refers specifically to water movement — hormones are not water. Active transport (choice B) moves molecules across membranes using ATP — binding to surface receptors does not require ATP energy. Diffusion (choice D) applies to molecules crossing the membrane — most hormones bind surface receptors and do NOT enter the cell. Students should know examples: insulin binds cell surface receptors; steroid hormones cross the membrane and bind nuclear receptors.',
     },
@@ -565,8 +553,7 @@ export default {
       topic: 'Evolution',
       correct: 1,
       explanation: 'Higher biodiversity provides functional redundancy — multiple species can perform similar ecological roles, so if one species is lost, others can partially fill its niche. Ecosystem A loses 10% of its species (5/50), while Ecosystem B loses 50% (5/10), making B far more vulnerable.',
-      diveDeep: 'Ecological resilience is the ability of an ecosystem to recover from disturbance. Biodiversity increases resilience through functional redundancy: multiple species occupy similar niches, so the loss of one does not cause total collapse of that function. In diverse ecosystems, food webs have many alternative pathways for energy flow. Ecosystem B loses 50% of its species — losing half its species is catastrophic and each species lost likely represents a unique function with no replacement. Ecosystem A loses 10% with many remaining species to compensate. Choice C ignores that losing 5/10 species is far more devastating than losing 5/50. Choice D is wrong — fewer species means less redundancy and slower recovery, not faster.',
-    },
+      diveDeep: 'Ecological resilience is the ability of an ecosystem to recover from disturbance. Biodiversity increases resilience through functional redundancy: multiple species occupy similar niches, so the loss of one does not cause total collapse of that function. In diverse ecosystems, food webs have many alternative pathways for energy flow. Ecosystem B loses 50% of its species — losing half its species is catastrophic and each species lost likely represents a unique function with no replacement. Ecosystem A loses 10% with many remaining species to compensate. Choice C ignores that losing 5/10 species is far more devastating than losing 5/50. Choice D is wrong — fewer species means less redundancy and slower recovery, not faster.', image: '/images/exams/le-june-2019/context_38_39.png' },
     {
       number: 40, part: 'B-1',
       context: 'A diagram shows the stages of meiosis, with labels showing how chromosomes are distributed during meiosis I and meiosis II.',
@@ -580,8 +567,7 @@ export default {
       topic: 'Reproduction',
       correct: 1,
       explanation: 'Meiosis produces four haploid daughter cells, each with half the chromosome number of the original diploid parent cell. Meiosis I separates homologous pairs, and meiosis II separates sister chromatids, resulting in four cells.',
-      diveDeep: 'Meiosis I is the reductive division: it separates homologous chromosome pairs, reducing the cell from diploid (2n) to haploid (n). After meiosis I, there are 2 haploid cells. Meiosis II is like mitosis: it separates sister chromatids, producing 2 cells from each of the 2 cells from meiosis I, resulting in 4 haploid cells total. In humans: a diploid cell with 46 chromosomes → four cells each with 23 chromosomes. Mitosis (not meiosis) produces 2 cells with the same chromosome number (choice A). Choice C describes meiosis I only, not complete meiosis. Choice D (doubling) would only occur during S phase of the cell cycle, not during meiosis. Students must memorize: mitosis → 2 identical diploid cells; meiosis → 4 unique haploid cells.',
-    },
+      diveDeep: 'Meiosis I is the reductive division: it separates homologous chromosome pairs, reducing the cell from diploid (2n) to haploid (n). After meiosis I, there are 2 haploid cells. Meiosis II is like mitosis: it separates sister chromatids, producing 2 cells from each of the 2 cells from meiosis I, resulting in 4 haploid cells total. In humans: a diploid cell with 46 chromosomes → four cells each with 23 chromosomes. Mitosis (not meiosis) produces 2 cells with the same chromosome number (choice A). Choice C describes meiosis I only, not complete meiosis. Choice D (doubling) would only occur during S phase of the cell cycle, not during meiosis. Students must memorize: mitosis → 2 identical diploid cells; meiosis → 4 unique haploid cells.', image: '/images/exams/le-june-2019/q40.png' },
     {
       number: 41, part: 'B-1',
       text: 'A researcher is testing the effect of a new drug on the growth of cancer cells. She grows cancer cells in four different petri dishes and adds different doses of the drug to each dish. After 48 hours, she counts the number of cancer cells in each dish. Which step is most important to ensure that her results are valid?',

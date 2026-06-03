@@ -1,0 +1,1091 @@
+{
+  "subject": "living-environment",
+  "session": "august-2015",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which statement describes a situation that would reduce the stability of a forest ecosystem?",
+      "choices": [
+        "A fierce predator is removed from the ecosystem.",
+        "The number of producers remains constant in the ecosystem.",
+        "Organisms frequently interact within the ecosystem.",
+        "The energy in the ecosystem flows from the Sun."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Although the digestive system is primarily responsible for the breakdown of food, this process can be disrupted if the circulatory system malfunctions. The best explanation for this disruption is that",
+      "choices": [
+        "human body systems interact with each other to perform life functions",
+        "the circulatory system is the control center of the body",
+        "the digestive system and the circulatory system have many organs in common",
+        "the circulatory system is responsible for the coordination of life functions, including the breakdown of food"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "When an organism reproduces asexually, it usually has",
+      "choices": [
+        "only one parent, and half as much DNA as the parent",
+        "only one parent, and the same chromosome number as the parent",
+        "two parents, and twice as much DNA as either parent",
+        "two parents, and the same chromosome number as each parent"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a food pyramid in an ecosystem. The best explanation for the decrease in the amount of energy transferred to each succeeding level is that much of the energy is",
+      "choices": [
+        "consumed by predators",
+        "released as heat",
+        "stored within inorganic materials",
+        "used in photosynthesis"
+      ],
+      "image": "/images/exams/living-environment/august-2015/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The corn we eat today is larger and has more kernels than the corn people first grew thousands of years ago. Which process is most likely responsible for the changes that have occurred?",
+      "choices": [
+        "mitosis",
+        "succession",
+        "direct harvesting",
+        "selective breeding"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which statement is correct concerning hereditary information?",
+      "choices": [
+        "A chromosome is composed of many genes.",
+        "A gene is composed of many chromosomes.",
+        "Each chromosome carries the same information.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which process is most closely associated with the regulation of water loss from the leaves of trees?",
+      "choices": [
+        "digestion of water within the cytoplasm in the leaf cells of the trees",
+        "synthesis of protein by the chloroplasts in the leaf cells of the trees",
+        "movement of water through leaf openings controlled by the guard cells",
+        "absorption of nitrogen through leaf openings controlled by the guard cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A mutation occurring in a human can be passed from parent to offspring when it occurs in a",
+      "choices": [
+        "lung cell, due to exposure to a toxic gas",
+        "gamete formed in the ovary",
+        "body cell undergoing mitosis",
+        "heart cell with chromosome damage"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "If the concentration of sodium is greater outside a cell than inside the cell, which process could move sodium out of the cell?",
+      "choices": [
+        "diffusion",
+        "carbohydrate synthesis",
+        "active transport",
+        "digestion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The basic building blocks of a protein are",
+      "choices": [
+        "glucose molecules",
+        "amino acids",
+        "hormones",
+        "fats"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Over time, data that support the successful evolution of a species would include observations that describe",
+      "choices": [
+        "an increase in the genetic changes occurring in body cells",
+        "a decrease in the genetic variety carried in sex cells",
+        "an increase in the proportion of offspring that have favorable characteristics",
+        "a decrease in the proportion of the population that has beneficial traits"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Caffeine is a compound found in the seeds of many different plants, such as coffee beans, cola nuts, and cacao beans (the source of chocolate). The presence of this chemical in all three types of plants suggests that these plants",
+      "choices": [
+        "inherited identical mutations",
+        "share a common ancestry",
+        "were exposed to the same type of radiation in the past",
+        "were cloned from a caffeine plant"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Male turkeys are birds that naturally strut and display their large tail feathers, which attracts female turkeys. This display is an example of",
+      "choices": [
+        "a behavioral adaptation",
+        "selective breeding",
+        "asexual reproduction",
+        "a learned behavior"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "A scientist at a large natural history museum has a collection of fossils that were found throughout the world. Only a few of the fossils represent species that are still alive on Earth today. One reason for this is that",
+      "choices": [
+        "most of the species that have ever lived on Earth are alive today",
+        "most of the species that have ever lived on Earth are extinct",
+        "fossils of only extinct species have been found",
+        "species alive today will not form any fossils for future discovery by scientists"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which statement concerning sexual reproduc- tion is correct?",
+      "choices": [
+        "It is not necessary in order for the individual to survive.",
+        "The offspring are identical to the parent.",
+        "It is necessary in order for the individual to survive.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "When a paramecium, a single-celled organism, is living under stressful conditions, it sometimes switches from asexual to sexual reproduction. The main advantage when this switch occurs is that the paramecium is most likely to",
+      "choices": [
+        "produce fewer offspring",
+        "increase variation among its offspring",
+        "avoid having to find a mate",
+        "produce clones of itself"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The diagram below represents some processes in the early development of a multicellular organism. Which statement describing this diagram is correct?",
+      "choices": [
+        "The cell represented by structure 3 has the same genetic content as structure 2.",
+        "Process A represents the process of meiosis.",
+        "Each cell in structure 4 has the same genetic content as that in structure 3.",
+        "Processes A and B both occur in the placenta."
+      ],
+      "image": "/images/exams/living-environment/august-2015/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which statement describes a function of the hormone estrogen?",
+      "choices": [
+        "It regulates the secretion of digestive enzymes.",
+        "It promotes sperm production in males.",
+        "It influences the development of adult sex characteristics.",
+        "It maintains blood sugar levels."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The primary function of the human male reproductive system is to",
+      "choices": [
+        "provide a site for fertilization",
+        "produce and transport gametes",
+        "protect and nourish the embryo",
+        "prevent urine from leaving the body"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "In an embryo, the formation of many types of tissues and organs occurs as a result of the process of",
+      "choices": [
+        "fertilization",
+        "genetic sorting",
+        "differentiation",
+        "gene recombination"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which activity would be an appropriate first step when designing an experiment?",
+      "choices": [
+        "reporting a conclusion based on multiple experimental trials",
+        "researching the problem, using information from a variety of sources",
+        "creating a data table to organize experimental observations",
+        "repeating the experiment with a different hypothesis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Every time a child visited a cousin who has two cats, the child\u2019s eyes turned red, itched, and began to water. Then, the child began to have trouble breathing. It is most likely that the child reacted this way because",
+      "choices": [
+        "normally harmless cat antigens stimulated the immune system",
+        "it is difficult for the respiratory system to filter cat antigens out of the inhaled air",
+        "cat antigens are a health hazard, since they always cause disease",
+        "cat antigens stop the immune system from making antibodies, so bacteria cause these responses"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Shrimp that live in the cold waters off Alaska will die if introduced into warm water. One likely reason these shrimp do not survive is that enzymes in the shrimp",
+      "choices": [
+        "start to replicate",
+        "change shape",
+        "are composed of fat molecules that melt",
+        "break down into small starch molecules + Structure 1 Structure 2 Process A Structure 3 Process B Structure 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A DNA segment removed from neurospora (a pink mold) contained the base sequence G-T-C-C-A-T-G-C-A. A similar segment of DNA removed from neurospora that had been exposed to radiation for several hours had the base sequence G-T-C-C-A-T. This change in the base sequence is an example of",
+      "choices": [
+        "a deletion",
+        "an insertion",
+        "a substitution",
+        "a replication"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Farmers in India have increased the harvest yield of food crops like eggplant by growing them from seeds that have been modified to produce a bacterial toxin that is harmful to pest insects. This is an example of",
+      "choices": [
+        "selective breeding of the insects",
+        "spraying an insecticide on plants",
+        "selective breeding of the eggplant",
+        "an application of biotechnology"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The graph below shows changes in human population numbers over time. A consequence of these changes is",
+      "choices": [
+        "an increase in the numbers and kinds of organisms worldwide",
+        "a decrease in the availability of natural resources",
+        "a decrease in deforestation due to technological improvements",
+        "an increase in biosphere stability"
+      ],
+      "image": "/images/exams/living-environment/august-2015/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "In the fall, some farmers plow the remains of corn plants into the ground. This activity contributes most directly to the",
+      "choices": [
+        "increase in the biodiversity of their fields",
+        "depletion of nonrenewable resources",
+        "destruction of natural habitats",
+        "recycling of organic matter"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "A person usually experiences small variations in body temperature over a 24-hour period. These variations in temperature are an example of",
+      "choices": [
+        "an immune response",
+        "genetic differences between individuals",
+        "an adaptation to global warming",
+        "dynamic equilibrium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Fossil fuels have been used for years as a source of energy. Even though there are many negative issues associated with the use of fossil fuels, they continue to be used to a great extent. This is most likely because",
+      "choices": [
+        "they have been commercially available as an energy source",
+        "there are alternatives to these types of fuels",
+        "they have had a positive effect on global temperatures",
+        "fossil fuels can be burned to produce large quantities of carbon dioxide"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Sometimes, a person is born with one or more extra chromosomes in each cell. This usually results in abnormalities because the affected person has",
+      "choices": [
+        "a reduced number of genes in cell nuclei",
+        "fewer cell mutations than a person with a normal chromosome number",
+        "more genes in each cell than a person with a normal chromosome number",
+        "less DNA in cell nuclei, but more proteins in cell mitochondria 7000 1000 2000 3000 4000 5000 6000 Millions of Persons Year 1400 1600 1800 2000"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which statement concerning the snails is correct?",
+      "choices": [
+        "The lava particles turned the tan snails black.",
+        "The tan snails will become extinct.",
+        "The black snails had an adaptive advantage.",
+        "The tan snails preyed on the black snails."
+      ],
+      "image": "/images/exams/living-environment/august-2015/context_31_33.png",
+      "context": "Base your answers to questions 31 through 33 on the information and graph below and on your knowledge\nof biology.\nA population composed of tan snails and black snails inhabits the same sandy beach. \nA nearby volcano erupted, and black lava particles washed down to the beach. The once tan\nbeach was now black. The graph below shows the population of tan snails and black snails\nbefore and after the volcanic eruption.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The increase in the number of black snails can best be explained by",
+      "choices": [
+        "natural selection after an environmental change",
+        "climatic change followed by ecological succession",
+        "increased stability due to a decrease in variation",
+        "an increase in mutation rate"
+      ],
+      "image": "/images/exams/living-environment/august-2015/context_31_33.png",
+      "context": "Base your answers to questions 31 through 33 on the information and graph below and on your knowledge\nof biology.\nA population composed of tan snails and black snails inhabits the same sandy beach. \nA nearby volcano erupted, and black lava particles washed down to the beach. The once tan\nbeach was now black. The graph below shows the population of tan snails and black snails\nbefore and after the volcanic eruption.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Variation in snail color is an example of",
+      "choices": [
+        "environmental stability",
+        "a natural limitation",
+        "equilibrium",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2015/context_31_33.png",
+      "context": "Base your answers to questions 31 through 33 on the information and graph below and on your knowledge\nof biology.\nA population composed of tan snails and black snails inhabits the same sandy beach. \nA nearby volcano erupted, and black lava particles washed down to the beach. The once tan\nbeach was now black. The graph below shows the population of tan snails and black snails\nbefore and after the volcanic eruption.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The diagram below represents relationships in a community. After a pathogen reduced the population of grasshoppers, the number of mice increased, while the numbers of toads and rabbits decreased. These changes in the community demonstrate that",
+      "choices": [
+        "ecosystems are shaped by nonliving factors",
+        "autotrophs convert solar energy into food",
+        "grasshoppers are producers that are essential for ecosystem stability",
+        "populations are linked with many others in the ecosystem"
+      ],
+      "image": "/images/exams/living-environment/august-2015/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "This process best represents",
+      "choices": [
+        "the bonding of amino acids to form a starch molecule",
+        "the digestion of amino acids to form a starch molecule",
+        "the bonding of simple sugars to form a starch molecule",
+        "the digestion of simple sugars to form a starch molecule"
+      ],
+      "image": "/images/exams/living-environment/august-2015/context_35_36.png",
+      "context": "Base your answers to questions 35 and 36 on the\ndiagram below, which represents a metabolic\nprocess, and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The letter X in the process represents",
+      "choices": [
+        "an antibody",
+        "a hormone",
+        "a receptor",
+        "an enzyme"
+      ],
+      "image": "/images/exams/living-environment/august-2015/context_35_36.png",
+      "context": "Base your answers to questions 35 and 36 on the\ndiagram below, which represents a metabolic\nprocess, and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The evolutionary pathways of ten different species are represented in the diagram below. Which statement would most likely be correct, based on the information in the diagram?",
+      "choices": [
+        "Species C had many variations and lived in a stable, unchanging environment.",
+        "Species D, C, and J are extinct.",
+        "Species F evolved from species D.",
+        "Species J had little variation and lived in a changing environment."
+      ],
+      "image": "/images/exams/living-environment/august-2015/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Blockages caused by a condition known as Pelvic Inflammatory Disease (PID) are represented in the diagram of the female reproductive system below. If blockages of this type occur, the most likely result would be that",
+      "choices": [
+        "the egg would remain in the uterus and not travel upward",
+        "the female gamete would not be able to unite with the male gamete",
+        "hormones could not be produced by the ovaries",
+        "the process of asexual reproduction would be prevented or interrupted Blockages E F G H A B J C Time Present Past I D Starch + + +"
+      ],
+      "image": "/images/exams/living-environment/august-2015/q38.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "If no additional materials were added to the culture dish, after day 14, the paramecium population would most probably",
+      "choices": [
+        "remain the same, since it has reached carrying capacity and has an unlimited food supply",
+        "begin to increase as they continue to reproduce",
+        "begin to increase, since they have not yet reached carrying capacity",
+        "begin to decrease as finite resources are used up"
+      ],
+      "image": "/images/exams/living-environment/august-2015/context_39_40.png",
+      "context": "Base your answers to questions 39 and 40 on the information below and on your knowledge of biology. The\ngraph below shows the growth of Paramecium aurelia in the same culture dish for 14 days.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "In another experiment, a second species of paramecium was introduced into a culture dish with Paramecium aurelia. Which statement describes a possible result as the populations interact over the next 14 days?",
+      "choices": [
+        "The population numbers of Paramecium aurelia would be lower than 250, since the new species is competing with it for resources.",
+        "The population of Paramecium aurelia would increase above 250, since they would mate with the new species.",
+        "The population of Paramecium aurelia would increase above 250, since the two species occupy the same niche.",
+        "The population of Paramecium aurelia would remain at 250, since the species compete with each other for the same resources."
+      ],
+      "image": "/images/exams/living-environment/august-2015/context_39_40.png",
+      "context": "Base your answers to questions 39 and 40 on the information below and on your knowledge of biology. The\ngraph below shows the growth of Paramecium aurelia in the same culture dish for 14 days.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The chart below lists substances involved in the process of photosynthesis. Substance Which statement best describes how these substances interact in photosynthesis?",
+      "choices": [
+        "A and B combine to produce C and D.",
+        "B and C combine to produce A and D.",
+        "C and D combine to produce A and B.",
+        "A and C combine to produce B and D. A glucose B oxygen C carbon dioxide D water Number of Paramecia Time (days) 300 250 200 150 100 50 0 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14"
+      ],
+      "image": "/images/exams/living-environment/august-2015/q41.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "At the present time, both populations have the same number of individuals. In which of these countries will the population growth over the next 20 years place the greatest strain on the environment?",
+      "choices": [
+        "Country A, since the larger percentage of young could result in rapid population growth",
+        "Country B, since the smaller percentage of young could result in rapid population growth",
+        "Country A, since the smaller percentage of people over 60 uses the most resources",
+        "Country B, since the larger percentage of people over 60 uses the fewest resources"
+      ],
+      "image": "/images/exams/living-environment/august-2015/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the diagram below and on your knowledge of biology. The \ndiagram represents the current percentage of each population by age and gender (male/female) for two \ncountries.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Approximately what percent of the population of Country A is less than 10 years old?",
+      "choices": [
+        "8%",
+        "16%",
+        "32%",
+        "64% Male Female Percent of Population 10 8 6 4 2 0 2 4 6 8 10 Age 85+ 80-84 75-79 70-74 65-69 60-64 55-59 50-54 45-49 40-44 35-39 30-34 25-29 20-24 15-19 10-14 5-9 0-4 Male Female Percent of Population 8 6 4 2 0 2 4 6 8 Age 85+ 80-84 75-79 70-74 65-69 60-64 55-59 50-54 45-49 40-44 35-39 30-34 25-29 20-24 15-19 10-14 5-9 0-4 Country A Country B Adapted from: Campbell Biology, 8"
+      ],
+      "image": "/images/exams/living-environment/august-2015/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the diagram below and on your knowledge of biology. The \ndiagram represents the current percentage of each population by age and gender (male/female) for two \ncountries.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on each axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information below and on your knowledge of biology.\nAn experiment was carried out to determine the effect of exposure to UV light on the\ngrowth of bacteria. Equal quantities of bacteria were spread on 5 petri dishes containing\nnutrient agar. Half of each petri dish was exposed to UV light for various amounts of time,\nand the other half was protected from the UV light with a UV screen. After the UV treat-\nment, the bacteria were grown in an incubator for 24 hours, and the number of colonies was\ncounted. The diagram below represents the initial set up.\nThe table below contains the data collected by counting the number of bacterial colonies growing on both\nthe screen-covered side and the unscreened side.\nGrowth of Bacterial Colonies\nPetri \nDish\nExposure Time to\nUV Light\nNumber of Bacterial Colonies on \nScreened Side\nNumber of Bacterial Colonies on \nUnscreened Side\n1\nNo exposure\n(0.0 minutes)\n17\n18\n2\n1.0 minute\n18\n15\n3\n2.0 minutes\n17\n11\n4\n5.0 minutes\n18\n4\n5\n10.0 minutes\n16\n1\nUV Screen\nPetri dish\nLiving Environment\u2013Aug. \u201915\n[10]\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data for the number of bacterial colonies on the screened side. Connect the points and surround each point with a small circle.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information below and on your knowledge of biology.\nAn experiment was carried out to determine the effect of exposure to UV light on the\ngrowth of bacteria. Equal quantities of bacteria were spread on 5 petri dishes containing\nnutrient agar. Half of each petri dish was exposed to UV light for various amounts of time,\nand the other half was protected from the UV light with a UV screen. After the UV treat-\nment, the bacteria were grown in an incubator for 24 hours, and the number of colonies was\ncounted. The diagram below represents the initial set up.\nThe table below contains the data collected by counting the number of bacterial colonies growing on both\nthe screen-covered side and the unscreened side.\nGrowth of Bacterial Colonies\nPetri \nDish\nExposure Time to\nUV Light\nNumber of Bacterial Colonies on \nScreened Side\nNumber of Bacterial Colonies on \nUnscreened Side\n1\nNo exposure\n(0.0 minutes)\n17\n18\n2\n1.0 minute\n18\n15\n3\n2.0 minutes\n17\n11\n4\n5.0 minutes\n18\n4\n5\n10.0 minutes\n16\n1\nUV Screen\nPetri dish\nLiving Environment\u2013Aug. \u201915\n[10]\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Plot the data for the number of bacterial colonies on the unscreened side. Connect the points and surround each point with a small triangle. Key Screened side Unscreened side Number of Bacterial Colonies Exposure Time to UV Light (minutes) Growth of Bacterial Colonies Example: Example:",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information below and on your knowledge of biology.\nAn experiment was carried out to determine the effect of exposure to UV light on the\ngrowth of bacteria. Equal quantities of bacteria were spread on 5 petri dishes containing\nnutrient agar. Half of each petri dish was exposed to UV light for various amounts of time,\nand the other half was protected from the UV light with a UV screen. After the UV treat-\nment, the bacteria were grown in an incubator for 24 hours, and the number of colonies was\ncounted. The diagram below represents the initial set up.\nThe table below contains the data collected by counting the number of bacterial colonies growing on both\nthe screen-covered side and the unscreened side.\nGrowth of Bacterial Colonies\nPetri \nDish\nExposure Time to\nUV Light\nNumber of Bacterial Colonies on \nScreened Side\nNumber of Bacterial Colonies on \nUnscreened Side\n1\nNo exposure\n(0.0 minutes)\n17\n18\n2\n1.0 minute\n18\n15\n3\n2.0 minutes\n17\n11\n4\n5.0 minutes\n18\n4\n5\n10.0 minutes\n16\n1\nUV Screen\nPetri dish\nLiving Environment\u2013Aug. \u201915\n[10]\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The diagram below represents cellular growth that can occur in human skin after prolonged exposure to ultraviolet light. Which statement provides a possible explanation for this growth pattern?",
+      "choices": [
+        "Manipulation of genes caused the movement of embryonic skin cells.",
+        "Exposure to light stimulated the development of cells containing ozone.",
+        "Uncontrolled mitotic division occurred as a result of gene mutations.",
+        "An immune reaction triggered the formation of excess blood cells."
+      ],
+      "image": "/images/exams/living-environment/august-2015/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information below and on your knowledge of biology.\nAn experiment was carried out to determine the effect of exposure to UV light on the\ngrowth of bacteria. Equal quantities of bacteria were spread on 5 petri dishes containing\nnutrient agar. Half of each petri dish was exposed to UV light for various amounts of time,\nand the other half was protected from the UV light with a UV screen. After the UV treat-\nment, the bacteria were grown in an incubator for 24 hours, and the number of colonies was\ncounted. The diagram below represents the initial set up.\nThe table below contains the data collected by counting the number of bacterial colonies growing on both\nthe screen-covered side and the unscreened side.\nGrowth of Bacterial Colonies\nPetri \nDish\nExposure Time to\nUV Light\nNumber of Bacterial Colonies on \nScreened Side\nNumber of Bacterial Colonies on \nUnscreened Side\n1\nNo exposure\n(0.0 minutes)\n17\n18\n2\n1.0 minute\n18\n15\n3\n2.0 minutes\n17\n11\n4\n5.0 minutes\n18\n4\n5\n10.0 minutes\n16\n1\nUV Screen\nPetri dish\nLiving Environment\u2013Aug. \u201915\n[10]\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Which enzyme would most likely function in the stomach? Support your answer. Enzyme: _________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the information and graphs below and on your knowledge of\nbiology. The graphs show the relative enzymatic activity of four different enzymes in acidic (below pH 7) and\nbasic (above pH 7) environments.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The activity of which enzyme decreases in both acidic and basic environments?",
+      "choices": [
+        "chymotrypsin",
+        "pepsin",
+        "cholinesterase",
+        "papain pH and Enzyme Activity 6 8 10 pH 4 6 8 10 pH 4 4 6 8 pH 2 6 8 10 pH 4 Part of Digestive System pH Range mouth 6.5 \u2013 7.5 stomach 1.5 \u2013 4.0 small intestine 4.0 \u2013 7.0 large intestine 4.0 \u2013 7.0"
+      ],
+      "image": "/images/exams/living-environment/august-2015/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the information and graphs below and on your knowledge of\nbiology. The graphs show the relative enzymatic activity of four different enzymes in acidic (below pH 7) and\nbasic (above pH 7) environments.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which statement best explains the hellbender population decline in western New York State?",
+      "choices": [
+        "Human activities had the unexpected consequence of decreasing the hellbender population to a dangerous level.",
+        "Humans have purposefully removed the hellbender from its habitat due to its aggressive behavior.",
+        "The decline of the hellbender population is due mainly to natural causes that humans cannot control.",
+        "The hellbender population decreased because salamanders are very resistant to climate change."
+      ],
+      "image": null,
+      "context": "Base your answers to questions 50 and 51 on the information below and on your knowledge of biology.\nHead Start for Hellbenders\nThe hellbenders (a species of large salamander) at the Bronx Zoo are now approximately\nseven inches in length and will grow to full size in about five years. Once they are about \ntwo-and-a-half years old, they will be returned to the wild in western New York State.\nHellbender populations are declining due to several factors including over-collection for the\npet trade, disease, pollution, and habitat destruction. Juvenile hellbenders in the wild \ncurrently face great difficulties in reaching adulthood, so the \u201chead start\u201d provided by the\nreintroduction of the 41 animals will help boost local populations.\nSource: Wildlife Conservation Society, Members News\nMay/June 2011\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Describe one potential ecological effect, other than the loss of the hellbender from western New York State, of the hellbender population continuing to decline.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q51.png",
+      "context": "Base your answers to questions 50 and 51 on the information below and on your knowledge of biology.\nHead Start for Hellbenders\nThe hellbenders (a species of large salamander) at the Bronx Zoo are now approximately\nseven inches in length and will grow to full size in about five years. Once they are about \ntwo-and-a-half years old, they will be returned to the wild in western New York State.\nHellbender populations are declining due to several factors including over-collection for the\npet trade, disease, pollution, and habitat destruction. Juvenile hellbenders in the wild \ncurrently face great difficulties in reaching adulthood, so the \u201chead start\u201d provided by the\nreintroduction of the 41 animals will help boost local populations.\nSource: Wildlife Conservation Society, Members News\nMay/June 2011\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q52.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "52\u201354 Animals eat and digest food to obtain the energy available for life activities. Discuss energy use in animals. In your discussion, be sure to: \u2022 identify the type of protein molecules used to digest food \u2022 identify the organelle where energy from nutrients is released \u2022",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q54.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "A dichotomous key to these bacterial types is shown below. Complete the missing information for sections 3a. and 3b. so that the key is complete for all four types. 1a. Is rod shaped ........................................ bacillus 1b. Is not rod shaped.................................. go to 2 2a. Is spiral shaped..................................... spirillum 2b. Is not spiral shaped............................... go to 3 3a. _______________________________ type C 3b. _______________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/context_55_55.png",
+      "context": "Base your answer to question 55 on the diagram below and on your knowledge of biology. The diagram \nrepresents four types of bacteria.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Select one of the listed changes experienced by the individual and write it on the line below. Explain how the change you chose allows the individual to effectively respond to a threat. Change:",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q56.png",
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of biology.\nThe fight-or-flight response in humans prepares the body to fight off or run away from\na potential threat. This response results from a series of nerve and chemical signals that\ndirect how cells function. This, in turn, determines the actions of organs in these situations.\nSome of the changes experienced by the individuals as part of this response include:\nincreased pulse rate\nincreased blood glucose levels\nincreased breathing rate",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Once the threat has passed, another series of changes returns the body to its original state. Why must this occur?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q57.png",
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of biology.\nThe fight-or-flight response in humans prepares the body to fight off or run away from\na potential threat. This response results from a series of nerve and chemical signals that\ndirect how cells function. This, in turn, determines the actions of organs in these situations.\nSome of the changes experienced by the individuals as part of this response include:\nincreased pulse rate\nincreased blood glucose levels\nincreased breathing rate",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Describe one way that an infection with the white-nose fungus can cause death in little brown bats.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q58.png",
+      "context": "Base your answers to questions 58 and 59 on the article below and on your knowledge of biology.\nBats Devastated by Deadly Fungus\nThe most common bat species in North America, the little brown bat, could be facing\nextinction because of a fungus. The fungus, called white-nose syndrome, grows on the\nexposed skin of bats as they hibernate in cool caves or mines. Infected bats develop lesions\n(sores) on their wings, which play important roles in water balance, circulation and heat reg-\nulation. These lesions on a bat\u2019s wings or on its nose cause the bat to wake up during hiber-\nnation. Waking up early forces the bat to use up the energy it has stored as fat for its long\nsleep, exhausting the animal and eventually killing it.\nIn some infected caves, 90 percent to 100 percent of bats die. On average, the disease\ntakes out 73 percent of the bat population at a given hibernation site. If infection continues\nat current rates, the researchers predict that the little brown bat population will drop below\n0.01 percent of its current numbers by 2026.\nThe loss of the little brown bat would be harmful for humans because bats eat their\nbody weight in insects each night. Many of these bugs are agricultural pests or carriers of\nhuman disease.\nOne way to decrease the spread of the disease would be for the researchers who visit\ninfected caves to decontaminate their clothes and gear with antiseptics. It has also been sug-\ngested that a small number of these bats could be placed in an artificial hibernating area\nand medicated to protect them.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "59",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q59.png",
+      "context": "Base your answers to questions 58 and 59 on the article below and on your knowledge of biology.\nBats Devastated by Deadly Fungus\nThe most common bat species in North America, the little brown bat, could be facing\nextinction because of a fungus. The fungus, called white-nose syndrome, grows on the\nexposed skin of bats as they hibernate in cool caves or mines. Infected bats develop lesions\n(sores) on their wings, which play important roles in water balance, circulation and heat reg-\nulation. These lesions on a bat\u2019s wings or on its nose cause the bat to wake up during hiber-\nnation. Waking up early forces the bat to use up the energy it has stored as fat for its long\nsleep, exhausting the animal and eventually killing it.\nIn some infected caves, 90 percent to 100 percent of bats die. On average, the disease\ntakes out 73 percent of the bat population at a given hibernation site. If infection continues\nat current rates, the researchers predict that the little brown bat population will drop below\n0.01 percent of its current numbers by 2026.\nThe loss of the little brown bat would be harmful for humans because bats eat their\nbody weight in insects each night. Many of these bugs are agricultural pests or carriers of\nhuman disease.\nOne way to decrease the spread of the disease would be for the researchers who visit\ninfected caves to decontaminate their clothes and gear with antiseptics. It has also been sug-\ngested that a small number of these bats could be placed in an artificial hibernating area\nand medicated to protect them.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Describe how a student could use a microscope to compare the size of frog skin cells to the size of human skin cells.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q60.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Identify the component of a vaccine that makes it effective.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q61.png",
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of biology.\nChickenpox vaccine is the best way to prevent chickenpox. Vaccination not only protects\nvaccinated persons, it also reduces the risk for exposure in the community for persons\nunable to be vaccinated because of illness or other conditions, including those who may be\nat greater risk for severe disease. While no vaccine is 100% effective in preventing disease,\nthe chickenpox vaccine is very effective: about 8 to 9 of every 10 people who are vaccinat-\ned are completely protected from chickenpox. In addition, the vaccine almost always pre-\nvents against severe disease. If a vaccinated person does get chickenpox, it is usually a very\nmild case lasting only a few days and involving fewer skin lesions (usually less than 50), mild\nor no fever, and few other symptoms.\nSource: www.cdc.gov",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Describe how a vaccination prevents disease in the individual who receives a vaccination.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q62.png",
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of biology.\nChickenpox vaccine is the best way to prevent chickenpox. Vaccination not only protects\nvaccinated persons, it also reduces the risk for exposure in the community for persons\nunable to be vaccinated because of illness or other conditions, including those who may be\nat greater risk for severe disease. While no vaccine is 100% effective in preventing disease,\nthe chickenpox vaccine is very effective: about 8 to 9 of every 10 people who are vaccinat-\ned are completely protected from chickenpox. In addition, the vaccine almost always pre-\nvents against severe disease. If a vaccinated person does get chickenpox, it is usually a very\nmild case lasting only a few days and involving fewer skin lesions (usually less than 50), mild\nor no fever, and few other symptoms.\nSource: www.cdc.gov",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Describe how vaccinations help to prevent the spread of disease,",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q63.png",
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of biology.\nChickenpox vaccine is the best way to prevent chickenpox. Vaccination not only protects\nvaccinated persons, it also reduces the risk for exposure in the community for persons\nunable to be vaccinated because of illness or other conditions, including those who may be\nat greater risk for severe disease. While no vaccine is 100% effective in preventing disease,\nthe chickenpox vaccine is very effective: about 8 to 9 of every 10 people who are vaccinat-\ned are completely protected from chickenpox. In addition, the vaccine almost always pre-\nvents against severe disease. If a vaccinated person does get chickenpox, it is usually a very\nmild case lasting only a few days and involving fewer skin lesions (usually less than 50), mild\nor no fever, and few other symptoms.\nSource: www.cdc.gov",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/context_64_66.png",
+      "context": "Base your answer to question 64\u201366 on the diagram below and on your knowledge of biology. The diagram\nrepresents a food web typical of the Great Lakes area of New York State.\nDead animals\nand plants\nBacteria\nand fungi\nSnapping\nturtles\nEagles\nMineral\nnutrients\nInvertebrates\nCormorants\nHerring\ngulls\nHumans\nForage fish\nAlewives\nChubs\nSculpins\nSmelts\nWaterfowl\nPlankton\nSalmon/lake trout\nAdapted from: http://www.uwsp.edu/geo/ faculty/ritter/\ngeog101/textbook/title_page.html\nLiving Environment\u2013Aug. \u201915\n[18]\n\n64\u201366 Some people have argued for the removal of cormorants from the eastern shores of Lake Ontario\nbecause of their negative effects on the fishing industry. Describe the consequences of this action. In\nyour answer, be sure to:\n\u2022 state one reason why removing the cormorants from the food web could have a positive impact on\nthe fishing industry   [1]\n\u2022 state one possible effect of removing the cormorants on a species other than fish and support your\nanswer   [1]\n\u2022 describe one action, other than removing a population of organisms from the environment, that\nhumans could take to preserve the fishing industry in Lake Ontario   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "64\u201366 Some people have argued for the removal of cormorants from the eastern shores of Lake Ontario because of their negative effects on the fishing industry. Describe the consequences of this action. In your answer, be sure to: \u2022 state one reason why removing the cormorants from the food web could have a positive impact on the fishing industry \u2022 state one possible effect of removing the cormorants on a species other than fish and support your answer \u2022 describe one action, other than removing a population of organisms from the environment, that humans could take to preserve the fishing industry in Lake Ontario",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/context_64_66.png",
+      "context": "Base your answer to question 64\u201366 on the diagram below and on your knowledge of biology. The diagram\nrepresents a food web typical of the Great Lakes area of New York State.\nDead animals\nand plants\nBacteria\nand fungi\nSnapping\nturtles\nEagles\nMineral\nnutrients\nInvertebrates\nCormorants\nHerring\ngulls\nHumans\nForage fish\nAlewives\nChubs\nSculpins\nSmelts\nWaterfowl\nPlankton\nSalmon/lake trout\nAdapted from: http://www.uwsp.edu/geo/ faculty/ritter/\ngeog101/textbook/title_page.html\nLiving Environment\u2013Aug. \u201915\n[18]\n\n64\u201366 Some people have argued for the removal of cormorants from the eastern shores of Lake Ontario\nbecause of their negative effects on the fishing industry. Describe the consequences of this action. In\nyour answer, be sure to:\n\u2022 state one reason why removing the cormorants from the food web could have a positive impact on\nthe fishing industry   [1]\n\u2022 state one possible effect of removing the cormorants on a species other than fish and support your\nanswer   [1]\n\u2022 describe one action, other than removing a population of organisms from the environment, that\nhumans could take to preserve the fishing industry in Lake Ontario   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Explain why not mowing the field allowed the ecosystem to undergo ecological succession.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q67.png",
+      "context": "Base your answers to questions 67 through 69 on the passage below and on your knowledge of biology.\nA field in New York State is mowed all summer long for a number of years. The field is\nsold, and the new owner decides to stop mowing. Over a number of years, the ecosystem\nbegins to undergo ecological succession. After a series of different plant communities are\npresent, the area eventually becomes a stable forest ecosystem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Identify one specific human activity, other than mowing, that could alter this succession and explain how this activity affects biodiversity. Human activity: Effect on biodiversity:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 67 through 69 on the passage below and on your knowledge of biology.\nA field in New York State is mowed all summer long for a number of years. The field is\nsold, and the new owner decides to stop mowing. Over a number of years, the ecosystem\nbegins to undergo ecological succession. After a series of different plant communities are\npresent, the area eventually becomes a stable forest ecosystem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Describe how this forest ecosystem would respond to a natural disaster, such as a flood,",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q69.png",
+      "context": "Base your answers to questions 67 through 69 on the passage below and on your knowledge of biology.\nA field in New York State is mowed all summer long for a number of years. The field is\nsold, and the new owner decides to stop mowing. Over a number of years, the ecosystem\nbegins to undergo ecological succession. After a series of different plant communities are\npresent, the area eventually becomes a stable forest ecosystem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "In a laboratory, spinach leaves exposed to continuous fluorescent light increased in vitamin content by 50 to 100 percent. Spinach leaves kept in darkness for a similar period of time either lost vitamin content or produced no gain. Describe how these findings could influence the way in which spinach is displayed for sale in supermarkets.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q70.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Explain how the original decision to drill for oil in the Gulf of Mexico could be considered a trade-off.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q71.png",
+      "context": "Base your answers to questions 71 and 72 on the passage below and on your knowledge of biology.\nOn April 20, 2010, an explosion occurred at an oil well in the Gulf of Mexico, causing\nmillions of gallons of oil to escape into the water over the next few months. Large areas of\nthe Gulf were covered by oil. As the oil washed ashore, many areas along the coastline that\nwere breeding grounds for various bird species were contaminated. By November 2010,\nresearchers along the coast and in the Gulf had collected 6104 dead birds, 609 dead turtles,\nand 100 dead mammals. Although the oil well had provided oil for energy for a large \nnumber of people, the oil spill had a great effect on the ecosystems in and around the Gulf\nof Mexico.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "72",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q72.png",
+      "context": "Base your answers to questions 71 and 72 on the passage below and on your knowledge of biology.\nOn April 20, 2010, an explosion occurred at an oil well in the Gulf of Mexico, causing\nmillions of gallons of oil to escape into the water over the next few months. Large areas of\nthe Gulf were covered by oil. As the oil washed ashore, many areas along the coastline that\nwere breeding grounds for various bird species were contaminated. By November 2010,\nresearchers along the coast and in the Gulf had collected 6104 dead birds, 609 dead turtles,\nand 100 dead mammals. Although the oil well had provided oil for energy for a large \nnumber of people, the oil spill had a great effect on the ecosystems in and around the Gulf\nof Mexico.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "A plant was discovered that contained a compound that was found to have potential medicinal value. However, the plant is rare, so it is important to see if a related plant might also produce the same compound. The chart shows some characteristics of the plant and four possible relatives.",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/august-2015/q73.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "A drug company has discovered an endangered plant that produces a chemical that might be used to cure cancer. A first step in developing this cancer cure could be to",
+      "choices": [
+        "preserve the habitat where the species is found",
+        "introduce a new plant species that will share the habitat of the plant",
+        "eliminate every species that eats this plant",
+        "harvest all of the plants of this species and use them to treat cancer patients"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Students in a science class took their pulse rates before and after they ran in place for one minute. The class data showed that pulse rates increased with exercise. A graph of the data would look most like Time Pulse Rate ( 1 ) Time ( 3 ) Pulse Rate Time ( 2 ) Pulse Rate Time ( 4 ) Pulse Rate Plant Flower Leaves Amino Acid Sequence Medicinal Plant Red, 6 petals simple, parallel veins Ile\u2013Ile\u2013Try\u2013Gly\u2013Glu\u2013Asp\u2013Pro A Red, 9 petals simple, parallel veins Ile\u2013Arg\u2013Try\u2013Gly-Glu-Asp\u2013Ser B Yellow, 8 petals compound, branched veins Ile\u2013Arg\u2013Ala\u2013Gly-Glu-Asp\u2013Pro C Pink, 6 petals simple, parallel veins Ile\u2013Ile\u2013Try\u2013Gly\u2013Glu\u2013Asp\u2013Ser D Yellow, 6 petals compound, parallel veins Ile\u2013Arg\u2013Try\u2013Gly\u2013Glu\u2013Asp\u2013Pro",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q75.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "The technique used to separate the DNA for analysis is",
+      "choices": [
+        "genetic engineering",
+        "electrophoresis",
+        "chromatography",
+        "protein synthesis"
+      ],
+      "image": "/images/exams/living-environment/august-2015/context_76_77.png",
+      "context": "Base your answers to questions 76 and 77 on the information below and on your knowledge of biology.\nCaretakers at a zoo are trying to determine which of two male tigers fathered the newest\ncub. They obtained DNA from the tiger cub, the mother tiger, and the two male tigers. \nThe DNA was analyzed. The results of the analysis are shown below.\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Which male tiger is the father of the newborn cub? Support your answer. Male tiger: _________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/context_76_77.png",
+      "context": "Base your answers to questions 76 and 77 on the information below and on your knowledge of biology.\nCaretakers at a zoo are trying to determine which of two male tigers fathered the newest\ncub. They obtained DNA from the tiger cub, the mother tiger, and the two male tigers. \nThe DNA was analyzed. The results of the analysis are shown below.\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Some roads are salted heavily in winter. Describe one way plants growing near these roads could be harmed by the salt. Male 1 Male 2",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q78.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Several populations of finches migrated to an island that had mostly large seeds with tough outer coverings. Identify a finch population that would most likely survive on the island. Support your answer. Large ground finch Vegetarian finch Large tree finch Small tree finch Woodpecker finch Warbler finch Cactus finch Sharp-billed ground finch Small ground finch Medium ground finch E d g e c r u s h i n g B i t i n g t i p s C r u s h i n g b i l l s Mainly plant food Mainly animal food G r a s p i n g b i l l s 100% animal food P r o b i n g P r o b i n g b i l l s Variations in Beaks of Galapagos Islands Finches from: Galapagos:",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/context_79_79.png",
+      "context": "Base your answer to question 79 on the diagram below and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "The diagram below shows how a coverslip should be placed on a drop of pond water during the prepara- tion of a wet mount. State one reason why this is the recommended procedure for placing a coverslip.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q80.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Both bird species A and species B can most likely survive on the same small island because they",
+      "choices": [
+        "use different resources and, therefore, they do not compete",
+        "mate with each other, keeping both populations constant",
+        "compete for food, but do not compete for shelter",
+        "eat the same food, but feed at different times of the day"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 81 through 83 on the information below and on your knowledge of biology.\nThere are two different species of finch that live on the same small island, species A and\nspecies B. Both species successfully feed and reproduce on the island. Species A nests in\npine trees and eats large seeds. Species B nests in hollowed-out dead logs and eats small\ninsects.\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "The factor most often acting as a selecting agent for the survival of a species in a particular location is the",
+      "choices": [
+        "strength of the organism",
+        "new mutations within the individual",
+        "speed of the organism",
+        "environment they inhabit"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 81 through 83 on the information below and on your knowledge of biology.\nThere are two different species of finch that live on the same small island, species A and\nspecies B. Both species successfully feed and reproduce on the island. Species A nests in\npine trees and eats large seeds. Species B nests in hollowed-out dead logs and eats small\ninsects.\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "A third species of finch, species C,",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q83.png",
+      "context": "Base your answers to questions 81 through 83 on the information below and on your knowledge of biology.\nThere are two different species of finch that live on the same small island, species A and\nspecies B. Both species successfully feed and reproduce on the island. Species A nests in\npine trees and eats large seeds. Species B nests in hollowed-out dead logs and eats small\ninsects.\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Is there a relationship between height and resting pulse rate? Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/context_84_84.png",
+      "context": "Base your answers to question 84 on the information below and on your knowledge of biology.\nBiology students conducted a preliminary survey to study the relationship between\nbody height and resting pulse rate. The students collected data from 10 classmates and the\nresults are shown in the graph below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "The table below shows the number of individual molecules obtained when a DNA molecule from a bacterial species is broken down. Molecules from Bacterial DNA What data in the data table indicate that adenine pairs with thymine in a DNA molecule? Molecule Number sugar 4.6 million phosphate 4.6 million adenine (A) 1.75 million cytosine (C) 0.55 million guanine (G) 0.55 million thymine (T) 1.75 million Pulse Rate (beats per minute) Height (in) 80 70 60 60 66 72 78 LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2015/q85.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

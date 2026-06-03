@@ -1,0 +1,476 @@
+{
+  "subject": "geometry",
+  "session": "january-2025",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, nAB9C9 is the image of nABC. y x B C9 B9 A C What is the scale factor and center of dilation that maps nABC onto nAB9C9?",
+      "choices": [
+        "1__ 2 and the origin",
+        "2 and the origin",
+        "1__ 2 and vertex A",
+        "2"
+      ],
+      "image": "/images/exams/geometry/january-2025/q1.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Line segment PAQ has endpoints whose coordinates are P(22,6) and Q(3,24). What are the coordinates of point A, such that PA:AQ 5 2:3?",
+      "choices": [
+        "(1,0)",
+        "(2,22)",
+        "(21,4)",
+        "(0,2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, congruent parallelograms ABCD and RSTU are graphed. y x R U T S A D B C Which sequence of transformations maps ABCD onto RSTU?",
+      "choices": [
+        "a reflection over the x-axis followed by a translation ten units to the left and one unit up",
+        "a translation four units down followed by a reflection over the y-axis",
+        "a reflection over the y-axis followed by a translation of two units down",
+        ""
+      ],
+      "image": "/images/exams/geometry/january-2025/q3.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Triangle ABC has a right angle at C. If AC 5 7.7 and m/B 5 24\u00b0, what is AB, to the nearest tenth?",
+      "choices": [
+        "18.9",
+        "17.3",
+        "8.4",
+        "3.1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Given nPQR and nLMN with ___ PQ > ____ LM, which additional statement is sufficient to always prove nPQR > nLMN?",
+      "choices": [
+        "___ QR > ____ MN and /R > /N",
+        "___ QR > ____ MN and /Q > /M",
+        "___ QR > ____ MN and /P > /L",
+        "___ QR > ____ MN and /P > /M"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The equation of a circle is x2 1 6y 5 4x 2 y2 1 12. What are the coordinates of the center and the length of the radius?",
+      "choices": [
+        "center (2,23) and radius 5",
+        "center (22,3) and radius 5",
+        "center (2,23) and radius 25",
+        "center (22,3) and radius 25"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "A square with a side length of 3 is continuously rotated about one of its sides. The resulting three-dimensional object is a",
+      "choices": [
+        "cube with a volume of 9.",
+        "cube with a volume of 27.",
+        "cylinder with a volume of 27\u03c0.",
+        "cylinder with a volume of 54\u03c0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Line k is represented by the equation 4y 1 3 5 7x. Which equation represents a line that is perpendicular to line k and passes through the point (25,2)?",
+      "choices": [
+        "y 1 2 5 4__ 7 (x 2 5)",
+        "y 2 2 5 4__ 7 (x 1 5)",
+        "y 1 2 5 2 4__ 7 (x 2 5)",
+        "y 2 2 5 2 4__ 7 (x 1 5)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Scalene triangle JKL is drawn below. L K J If median ___ LM is drawn to side __ KJ, which statement is always true?",
+      "choices": [
+        "LM 5 KM",
+        "KM 5 1__ 2 KJ",
+        "___ LM ^ __ KJ",
+        "/KLM > /JLM"
+      ],
+      "image": "/images/exams/geometry/january-2025/q9.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "In circle O, chord ___ KA intersects diameter ___ YN at S. If mYK 5 120\u00b0 and mYA 5 105\u00b0, what is m/ASN?",
+      "choices": [
+        "22.5\u00b0",
+        "75\u00b0",
+        "97.5\u00b0",
+        "120\u00b0"
+      ],
+      "image": "/images/exams/geometry/january-2025/q10.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Triangle ABC is graphed on the set of axes below. The vertices of nABC have coordinates A(23,4), B(25,21), and C(3,22). y x A B C What is the area of nABC?",
+      "choices": [
+        "16",
+        "20",
+        "21",
+        "24"
+      ],
+      "image": "/images/exams/geometry/january-2025/q11.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "In nABC below, ___ DE is a midsegment, and ___ BD > ___ DE. E C A D B Which statement is always true?",
+      "choices": [
+        "nABC is isosceles",
+        "nABC is scalene",
+        "___ BD > ___ BE",
+        "___ DA > ___"
+      ],
+      "image": "/images/exams/geometry/january-2025/q12.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "As shown in the diagram below, ____ JKL || ______ MNOP, ____ KRN, and ___ OR > ___ ON. R K L P O N J M If m/POR 5 116\u00b0, what is m/LKN?",
+      "choices": [
+        "58\u00b0",
+        "116\u00b0",
+        "122\u00b0",
+        "128\u00b0"
+      ],
+      "image": "/images/exams/geometry/january-2025/q13.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The ratio of similarity of square ABCD to square WXYZ is 2:5. If AB 5 x 1 3 and WX 5 3x 1 5, then the perimeter of ABCD is",
+      "choices": [
+        "8",
+        "20",
+        "32",
+        "80"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "In parallelogram ABCD below, diagonals ___ AC and ___ BD intersect at E. B D C E A Which transformation would map nABC onto nCDA?",
+      "choices": [
+        "a reflection over ___ AC",
+        "a reflection over ___ DB",
+        "a clockwise rotation of 90\u00b0 about point E",
+        "a clockwise rotation of 180\u00b0 about point E"
+      ],
+      "image": "/images/exams/geometry/january-2025/q15.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The square pyramid drawn below has a volume of 175. If the height of the pyramid is 21, what is the perimeter of the base?",
+      "choices": [
+        "5",
+        "10",
+        "20",
+        "25"
+      ],
+      "image": "/images/exams/geometry/january-2025/q16.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A glass fish tank is designed to be placed on a stand in the corner of a room with perpendicular walls. The tank can be modeled using part of a cylinder, as shown below. The inner length of the fish tank along the wall is 22 inches, and the height of the tank is 27 inches. Fish tank 22 in 27 in Fish tank stand 22 in How much water, to the nearest gallon, does the fish tank hold? [1 gal = 231 in3]",
+      "choices": [
+        "44",
+        "59",
+        "89",
+        "178"
+      ],
+      "image": "/images/exams/geometry/january-2025/q17.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Line m, whose equation is y 5 22x 1 8, is dilated by a scale factor of 1__ 2 centered at the origin. Which equation represents the image of line m?",
+      "choices": [
+        "y 5 2x 1 4",
+        "y 5 22x 1 4",
+        "y 5 2x 1 8",
+        "y 5 22x 1 8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "In right triangle RST below, altitude ___ SV is drawn to hypotenuse ___ RT. S V R T Which statement is always true?",
+      "choices": [
+        "RT ___ ST 5 ST ___ VT",
+        "VR ___ VT 5 VT ___ VS",
+        "RV ___ SV 5 SV ___ RT",
+        "TR ___ VR 5 VR ___ SR"
+      ],
+      "image": "/images/exams/geometry/january-2025/q19.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "What is the measure, in radians, of a central angle that intercepts an arc length of 12\u03c0 cm in a circle with a diameter of 36 cm?",
+      "choices": [
+        "\u03c0__ 6",
+        "\u03c0__ 3",
+        "2\u03c0 ___ 3",
+        "3\u03c0 ___ 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A regular nonagon has a center point, P. What degree of rotation about point P will carry the nonagon onto itself?",
+      "choices": [
+        "60\u00b0",
+        "90\u00b0",
+        "180\u00b0",
+        "200\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "If two sides of a triangle have lengths of 2 and 7, the length of the third side could be",
+      "choices": [
+        "9",
+        "8",
+        "5",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The car tire shown in the photograph below has a diameter of 2 1__ 4 feet. Approximately how many rotations will the tire make in one mile?",
+      "choices": [
+        "373",
+        "747",
+        "1328",
+        "2347"
+      ],
+      "image": "/images/exams/geometry/january-2025/q23.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "In quadrilateral TOWN, ____ OW > ___ TN and ___ OT > ____ WN. Which additional information is sufficient to prove quadrilateral TOWN is a rhombus?",
+      "choices": [
+        "___ ON ^ ____ TW",
+        "___ TO ^ ____ OW",
+        "____ OW || ___ TN",
+        "___ ON and ____ Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "In the diagram below, quadrilateral BCDE maps onto quadrilateral JKLM using a sequence of rigid motions. M L J K 117\u00b0 70\u00b0 91\u00b0",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2025/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "The Chart for Determining the Final Examination Score for the January 2025 at: https://www.nysed.gov/state-assessment/high-school-regents-examinations on Wednesday, January 22, 2025. Conversion charts provided for previous administrations of the determine students\u2019 final scores for this administration. Online Submission of Teacher Evaluations of the Test to the Department Suggestions and feedback from teachers provide an important contribution to the test development process. The Department provides an online evaluation form for State assessments. It contains spaces for teachers to respond to several specific questions and to make suggestions. Instructions for completing the evaluation form are as follows: 1. Go to https://www.nysed.gov/state-assessment/teacher-feedback-state-assessments. 2. Click Regents Examinations. 3. Complete the required demographic fields. 4. Select the test title from the Regents Examination dropdown list. 5. Complete each evaluation question and provide comments in the space provided. 6. Click the SUBMIT button at the bottom of the page to submit the completed form."
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Given ___ AB below, use a compass and a straightedge to construct a segment that is 1__ 4 AB. [Leave all construction marks.]",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2025/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "A dog sees a bird in a tree. The angle of elevation from the dog\u2019s eyes to the bird is 36\u00b0, as modeled below. 36\u00b0 The dog is 18.5 feet away from the base of the tree, and his eyes are 2.5 feet above the ground. Determine and state how high the bird is above the ground,",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2025/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Pure silver has a density of 10.5 g/cm3. Samantha has a pure silver charm on her necklace in the shape of a sphere. The radius of the charm is 0.5 cm. Determine and state the mass of the charm,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "In nABC below, ___ DE is drawn such that AD 5 4, DB 5 8, AE 5 3, and EC 5 6. A B C 8 6 D 4 3 E Explain why nADE~",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2025/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "In circle E below, tangent ___ PA and secant ____ PBC are drawn. B E C P A If PB 5 9 and BC 5 16, determine and state the length of ___",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2025/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "In a right triangle, sin(4x 1 3)\u00b0 5 cos(2x 2 9)\u00b0 Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Modeled by right triangles below, a surveyor (S) is taking land measurements using a cabin (C), a boulder (B), and a tree (T) as fixed points of reference. The cabin, boulder, and tree are collinear. The surveyor is 917 meters from the cabin, 1048 meters from the boulder, and 1425 meters from the tree. 1425 m B T C S 917 m 1048 m Determine and state, to the nearest degree, the measure of /",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2025/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "A garden bed, pictured below, is a square prism with a rectangular prism taken out. The inside length of the square prism is 6 feet. The rectangular prism taken out has a width of 2 feet and a length of 4 feet. The diagram below shows the top view of the garden bed with its inside measurements. Garden Bed Top View of Garden Bed 6 ft 6 ft 2 ft 2 ft 2 ft 4 ft 4 ft The garden bed is filled with topsoil to a uniform height of 1.25 feet. Determine and state the volume of the topsoil, in cubic feet. Each bag of topsoil sells for $3.68 and contains 2",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2025/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Given: nACD with ____ ABC, ____ AED, and ___ BE || ___ CD D A C E B Prove: AB \u2022 AD 5 AE \u2022 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2025/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Triangle PET has vertices with coordinates P(26,4), E(6,8), and T(24,22). Prove nPET is a right triangle. [The use of the set of axes on the next page is optional.] State the coordinates of N, the image of P, after a 180\u00b0 rotation centered at (1,3). Question 35 Prove PENT is a rectangle. [The use of the set of axes below is optional.] y x Question 35 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 pr2 Circle C 5 pd or C 5 2pr General Prisms V 5 Bh Cylinder V 5 pr2h Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 pr2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u2260 1 Radians 1 radian 5 180 ___ p degrees Degrees 1 degree 5 p ___ 180 radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here GEOMETRY GEOMETRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

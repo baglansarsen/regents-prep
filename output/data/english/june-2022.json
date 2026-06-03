@@ -1,0 +1,366 @@
+{
+  "subject": "english",
+  "session": "june-2022",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "In the first paragraph, Miss Conway\u2019s choice of clothing is intended to convey her",
+      "choices": [
+        "glamour",
+        "sorrow",
+        "modesty",
+        "aloofness"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "In lines 18 and 19, Mr. Donovan presents himself as",
+      "choices": [
+        "concerned for Miss Conway",
+        "insincere in his intention",
+        "overwhelmed by the Count\u2019s death",
+        "apologetic about his behavior"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Miss Conway most likely relates the anecdote about Count Fernando Mazzini (lines 29 through 36) in order to",
+      "choices": [
+        "seek compassion from Mr. Donovan",
+        "contradict boarding house rumors",
+        "flaunt her recent inheritance",
+        "obtain advice from Mr. Donovan"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The quote \u201cThe sympathetic but cheerful friend was the role he essayed\u201d (lines 49 and 50) suggests that Mr. Donovan",
+      "choices": [
+        "was not interested in romance",
+        "was once a professional actor",
+        "had no need to hide his feelings",
+        "had a motive for kind behavior"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "As used in line 52, the word \u201cdiminution\u201d most nearly means",
+      "choices": [
+        "acceptance",
+        "appearance",
+        "reduction",
+        "explanation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Miss Conway\u2019s response to Mr. Donovan\u2019s \u201clook of abstracted gloom\u201d (line 62) is one of",
+      "choices": [
+        "tender persistence",
+        "impatient disapproval",
+        "controlled hostility",
+        "superficial interest"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The hyperbole in lines 80 and 81 highlights Mr. Donovan\u2019s",
+      "choices": [
+        "selfless intention",
+        "distrust of Big Mike",
+        "violent nature",
+        "respect for Big Mike"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which statement foreshadows a revelation at the end of the text?",
+      "choices": [
+        "\u201cI hope you haven\u2019t sustained a loss?\u201d (line 14)",
+        "\u201cWe were going to be married next spring\u201d (lines 29 and 30)",
+        "\u201cMr. Donovan gazed long and with much interest at the photograph in the locket that Miss Conway opened for him\u201d (lines 40 and 41)",
+        "\u201cA subtle task confronted Mr. Donovan,\u2014 that of supplanting the unfortunate Count in the heart of Miss Conway\u201d (lines 47 and 48)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The text is developed primarily through the use of",
+      "choices": [
+        "symbolism",
+        "repetition",
+        "action",
+        "dialogue"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A central idea of the text is that",
+      "choices": [
+        "people can benefit from the misfortune of others",
+        "people can find happiness by admitting the truth",
+        "friends can encourage each other\u2019s success",
+        "strangers can complicate people\u2019s lives Regents Exam in ELA \u2014 June \u201922 Reading Comprehension Passage B A Dream of Mountaineering The following poem was written by a revered 8th century Chinese poet (701\u2013762 AD). At night, in my dream, I stoutly climbed a mountain, Going out alone with my staff of holly-wood.1 A thousand crags, a hundred hundred valleys\u2014 In my dream-journey none were unexplored And all the while my feet never grew tired And my step was as strong as in my young days. Can it be that when the mind travels backward The body also returns to its old state? And can it be, as between body and soul, That the body may languish, while the soul is still strong? Soul and body\u2014both are vanities:2 Dreaming and waking\u2014both alike unreal. In the day my feet are palsied3 and tottering; In the night my steps go striding over the hills. As day and night are divided in equal parts\u2014 Between the two, I get as much as I lose. \u2014Po Ch\u00fc\u2013I \u201cA Dream of Mountaineering\u201d from A Hundred and Seventy Chinese Poems, 1918 translated by Arthur Waley Constable and Company Ltd. 5 10 15 1staff of holly-wood \u2014 a walking stick 2vanities \u2014 superficial things 3palsied \u2014 shaking Regents Exam in ELA \u2014 June \u201922"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Lines 5 and 13 serve to emphasize a contrast between",
+      "choices": [
+        "illusion and reality",
+        "calm and stress",
+        "instinct and reason",
+        "belief and doubt"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "As used in line 10, \u201clanguish\u201d most nearly means",
+      "choices": [
+        "communicate",
+        "deteriorate",
+        "survive",
+        "forget"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Lines 15 and 16 suggest that \u201cday and night\u201d",
+      "choices": [
+        "reflect failure",
+        "nourish creativity",
+        "cause conflict",
+        "ensure balance"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The tone of the poem can best be described as",
+      "choices": [
+        "desperate",
+        "forgiving",
+        "reflective",
+        "insensitive Regents Exam in ELA \u2014 June \u201922 Reading Comprehension Passage C A Crack in the World Marie Tharp spent the fall of 1952 hunched over a drafting table, surrounded by charts, graphs, and jars of India ink. Nearby, spread across several additional tables, lay her project\u2014the largest and most detailed map ever produced of a part of the world no one had ever seen. Source: Heinrich C. Berann, Bruce C. Heezen, and Marie Tharp, Manuscript Painting of Heezen-Tharp \u201cWorld ocean floor\u201d map, Library of Congress, 1977 For centuries, scientists had believed that the ocean floor was basically flat and featureless\u2014it was too far beyond reach to know otherwise. But the advent of sonar had changed everything. For the first time, ships could \u201csound out\u201d the precise depths of the ocean below them. For five years, Tharp\u2019s colleagues at Columbia University had been crisscrossing the Atlantic, recording its depths. Women weren\u2019t allowed on these research trips\u2014the lab director considered them bad luck at sea\u2014so Tharp wasn\u2019t on board. Instead, she stayed in the lab, meticulously checking and plotting the ships\u2019 raw findings, a mass of data so large it was printed on a 5,000-foot scroll. As she charted the measurements by hand on sheets of white linen, the floor of the ocean slowly took shape before her. Tharp spent weeks creating a series of six parallel profiles of the Atlantic floor stretching from east to west. Her drawings showed\u2014for the first time\u2014exactly where the continental shelf began to rise out of the abyssal plain1 and where a large mountain range jutted from the ocean floor. That range had been a shock when it was discovered in the 1870s by an expedition testing routes for transatlantic telegraph cables, and it had remained the subject of speculation since; Tharp\u2019s charting revealed its length and detail. Her maps also showed something else\u2014something no one expected. Repeating in each was \u201ca deep notch near the crest of the ridge,\u201d a V-shaped gap that seemed to run the entire 5 10 15 20 1abyssal plain \u2014 the flat sea floor at a depth of 10,000 to 20,000 feet, generally adjacent to a continent Regents Exam in ELA \u2014 June \u201922 45 50 55 60 length of the mountain range. Tharp stared at it. It had to be a mistake. She crunched and re-crunched the numbers for weeks on end, double- and triple- checking her data. As she did, she became more convinced that the impossible was true: She was looking at evidence of a rift valley, a place where magma emerged from inside the earth, forming new crust and thrusting the land apart. If her calculations were right, the geosciences would never be the same. A few decades before, a German geologist named Alfred Wegener had put forward the radical theory that the continents of the earth had once been connected and had drifted apart. In 1926, at a gathering of the American Association of Petroleum Geologists, the scientists in attendance rejected Wegener\u2019s theory and mocked its maker. No force on Earth was thought powerful enough to move continents. \u201cThe dream of a great poet,\u201d opined2 the director of the Geological Survey of France: \u201cOne tries to embrace it, and finds that he has in his arms a little vapor or smoke.\u201d Later, the president of the American Philosophical Society deemed it \u201cutter, damned rot!\u201d In the 1950s, as Tharp looked down at that tell-tale valley, Wegener\u2019s theory was still considered verboten3 in the scientific community\u2014even discussing it was tantamount to heresy.4 Almost all of Tharp\u2019s colleagues, and practically every other scientist in the country, dismissed it; you could get fired for believing in it, she later recalled. But Tharp trusted what she\u2019d seen. Though her job at Columbia was simply to plot and chart measurements, she had more training in geology than most plotters\u2014more, in fact, than some of the men she reported to. Tharp had grown up among rocks. Her father worked for the Bureau of Chemistry and Soils, and as a child, she would accompany him as he collected samples. But she never expected to be a mapmaker or even a scientist. At the time, the fields didn\u2019t welcome women, so her first majors were music and English. After Pearl Harbor, however, universities opened up their departments. At the University of Ohio, she discovered geology and found a mentor who encouraged her to take drafting. Because Tharp was a woman, he told her, fieldwork was out of the question, but drafting experience could help her get a job in an office like the one at Columbia. After graduating from Ohio, she enrolled in a program at the University of Michigan, where, with men off fighting in the war, accelerated geology degrees were offered to women. There, Tharp became particularly fascinated with geomorphology,5 devouring textbooks on how landscapes form. A rock formation\u2019s structure, composition, and location could tell you all sorts of things if you knew how to look at it. Studying the crack in the ocean floor, Tharp could see it was too large, too contiguous,6 to be anything but a rift valley, a place where two masses of land had separated. When she compared it to a rift valley in Africa, she grew more certain. But when she showed Bruce Heezen, her research supervisor (four years her junior), \u201che groaned and said, \u2018It cannot be. It looks too much like continental drift,\u2019 \u201d Tharp wrote later. \u201cBruce initially dismissed my interpretation of the profiles as \u2018girl talk.\u2019 \u201d With the lab\u2019s reputation on the line, Heezen ordered her to redo the map. Tharp went back to the data and started plotting again from scratch. \u2026 In late 1952, as Tharp was replotting the ocean floor, Heezen took on another deep-sea project searching for safe places to plant transatlantic cables. He was creating his own map, 40 25 30 35 2opined \u2014 declared 3verboten \u2014 forbidden 4tantamount to heresy \u2014 unacceptable 5geomorphology \u2014 the study of the physical features of the surfaces of the earth 6contiguous \u2014 near Regents Exam in ELA \u2014 June \u201922 which plotted earthquake epicenters in the ocean floor. As his calculations accumulated, he noticed something strange: Most quakes occurred in a nearly continuous line that sliced down the center of the Atlantic. Meanwhile, Tharp had finished her second map\u2014 a physiographic diagram giving the ocean floor a 3-D appearance\u2014and sure enough, it showed the rift again. When Heezen and Tharp laid their two maps on top of each other on a light table, both were stunned by how neatly the maps fit. The earthquake line threaded right through Tharp\u2019s valley. They moved on from the Atlantic and began analyzing data from other oceans and other expeditions, but the pattern kept repeating. They found additional mountain ranges, all seemingly connected and all split by rift valleys; within all of them, they found patterns of earthquakes. \u201cThere was but one conclusion,\u201d Tharp wrote. \u201cThe mountain range with its central valley was more or less a continuous feature across the face of the earth.\u201d The matter of whether their findings offered evidence of continental drift kept the pair sparring, but there was no denying they had made a monumental discovery: the mid-ocean ridge, a 40,000-mile underwater mountain range that wraps around the globe like the seams on a baseball. It\u2019s the largest single geographical feature on the planet. \u2026 By 1961, the idea that she\u2019d put forward nearly a decade before\u2014that the rift in the Mid-Atlantic Ridge had been caused by land masses pulling apart\u2014had finally reached widespread acceptance. The National Geographic Society commissioned Tharp and Heezen to make maps of the ocean floor and its features, helping laypeople7 visualize the vast plates that allowed the earth\u2019s crust to move. Throughout the 1960s, a slew of discoveries helped ideas such as seafloor spreading and plate tectonics gain acceptance, bringing with them a cascade of new theories about the way the planet and life on it had evolved. Tharp compared the collective eye-opening to the Copernican revolution. \u201cScientists and the general public,\u201d she wrote, \u201cgot their first relatively realistic image of a vast part of the planet that they could never see.\u201d \u2026 \u2014Brooke Jarvis excerpted from \u201cA Crack in the World\u201d Mental Floss, December 2014 90 85 7laypeople \u2014 non-scientists 65 70 75 80 Regents Exam in ELA \u2014 June \u201922"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The opening paragraph serves to",
+      "choices": [
+        "reveal Tharp\u2019s vivid imagination",
+        "explain the nature of Tharp\u2019s work",
+        "establish Tharp\u2019s controversial views",
+        "illustrate a flaw in Tharp\u2019s methodology"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Tharp\u2019s initial reaction to her maps (lines 20 through 22) is one of",
+      "choices": [
+        "relief",
+        "helplessness",
+        "amazement",
+        "fear"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The figurative language used in lines 33 and 34 suggests Wegener\u2019s theory was",
+      "choices": [
+        "absurd",
+        "valued",
+        "untested",
+        "intriguing"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Lines 36 through 42 reveal Tharp\u2019s",
+      "choices": [
+        "reluctance to share her observations",
+        "determination to validate her conclusion",
+        "reputation for supporting her colleagues",
+        "insecurity about risking her career"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Lines 49 through 51 reveal that Tharp\u2019s opportunity for additional education was influenced by the",
+      "choices": [
+        "increased availability of technical equipment",
+        "expanding popularity of drafting courses",
+        "increased demand for military service",
+        "developing concern about environmental change"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The word \u201csparring\u201d (line 78) suggests a",
+      "choices": [
+        "disagreement about the implications of their maps",
+        "rejection of the criticism of their work",
+        "refusal of Tharp to accept Heezen\u2019s authority",
+        "competition between Heezen and Tharp"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The reference to \u201cseams on a baseball\u201d (lines 79 and 80) serves to help readers imagine the",
+      "choices": [
+        "speed of the continental drift",
+        "purpose of the mid-ocean ridge",
+        "importance of the continental drift",
+        "extent of the mid-ocean ridge"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which quotation reflects a central idea of the text?",
+      "choices": [
+        "\u201cThat range had been a shock when it was discovered in the 1870s\u201d (lines 17 and 18)",
+        "\u201cIf her calculations were right, the geosciences would never be the same\u201d (lines 26 and 27)",
+        "\u201cA rock formation\u2019s structure, composition, and location could tell you all sorts of things\u201d (lines 53 and 54)",
+        "\u201cIn late 1952, as Tharp was replotting the ocean floor, Heezen took on another deep-sea project\u201d (lines 63 and 64)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which statement reflects an irony in the text?",
+      "choices": [
+        "Tharp\u2019s career was advanced by the gender bias of her time.",
+        "Tharp\u2019s superstitions led her to ground- breaking interpretations.",
+        "Tharp\u2019s navigational experience distorted her graphing accuracy.",
+        "Tharp\u2019s collaboration with other scientists limited her originality."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "With which statement would the author most likely agree?",
+      "choices": [
+        "Intellectual conflict is often avoidable.",
+        "People are discouraged by criticism.",
+        "It is difficult to change long held beliefs.",
+        "Scientific insight is usually rooted in tradition. Regents Exam in ELA \u2014 June \u201922 Part 2 Argument Directions: Closely read each of the four texts provided on pages 13 through 20 and write a source-based argument on the topic below. You may use the margins to take notes as you read and scrap paper to plan your response. Write your argument beginning on page 1 of your essay booklet. Topic: Are AI [Artificial Intelligence] devices beneficial to children? Your Task: Carefully read each of the four texts provided. Then, using evidence from at least three of the texts, write a well-developed argument regarding whether or not AI [Artificial Intelligence] devices are beneficial to children. Clearly establish your claim, distinguish your claim from alternate or opposing claims, and use specific, relevant, and sufficient evidence from at least three of the texts to develop your argument. Do not simply sum- marize each text. Guidelines: Be sure to: \u2022 Establish your claim regarding whether or not AI [Artificial Intelligence] devices are beneficial to children \u2022 Distinguish your claim from alternate or opposing claims \u2022 Use specific, relevant, and sufficient evidence from at least three of the texts to develop your argument \u2022 Identify each source that you reference by text number and line number(s) or graphic (for example: Text 1, line 4 or Text 2, graphic) \u2022 Organize your ideas in a cohesive and coherent manner \u2022 Maintain a formal style of writing \u2022 Follow the conventions of standard written English Texts: Text 1 \u2013 How Will AI Technologies Affect Child Development? Text 2 \u2013 4 Ways \u2018Internet of Things\u2019 Toys Endanger Children Text 3 \u2013 Let Robots Teach Our Kids? Here\u2019s Why That Isn\u2019t Such a Bad Idea Text 4 \u2013 Why These Friendly Robots Can\u2019t Be Good Friends to Our Kids Regents Exam in ELA \u2014 June \u201922 Text 1 How Will AI Technologies Affect Child Development? Whenever Amy Blake\u2019s four-year-old son Oliver wants to listen to songs from his Spotify playlist, he simply says aloud, \u201cHey Google, play Oliver\u2019s jams\u201d and one of the family\u2019s two Google Home Mini smart speaker devices automatically plays them for him. At night, her two-year-old daughter Isabel calls out, \u201cGood night, Google!\u201d and the devices communicate with the lights in her room to turn them on in her favourite pink hue. \u2026 In a family of early adopters, Blake\u2019s children are among the first generation to grow up surrounded by artificially intelligent technologies. The advantages are plenty, Blake says; she and her family find the devices fun and entertaining, and they make life more convenient. But with the introduction of intelligent virtual assistants and AI-powered toys also comes questions about how these technologies will shape this new generation. \u2026 Researchers are only beginning to learn how children think about and interact with smart technologies, never mind how these technologies influence developing minds. But as AI toys and devices become rapidly more sophisticated and widely used (the global market for virtual assistants is expected to grow to 1.8 billion users by 2021, according to a report from the market-research store Research and Markets), some parents and experts argue now is the time to consider their role in children\u2019s future. Sandra Chang-Kredl, associate professor of the department of education at Concordia University, says she has reservations about the creation of smart technologies that are meant to mimic or even eventually replace human interaction. \u201cDo we want children to think that toys or objects are just as good as actual pets or actual friends or actual humans? That concerns me,\u201d she says. In the future, she adds, \u201chow is it going to be when children are purposely encouraged to confuse what\u2019s an object and what\u2019s a living thing?\u201d \u2026 Generally, when children form emotional attachments with their stuffed animals and teddy bears, \u201cwhat\u2019s important, from a psychoanalytic or psychological perspective, is that they imagine that their toys are alive,\u201d she explains. She notes that when children come up with their toys\u2019 responses on their own, they learn symbolic play, or the ability to use objects to represent other objects, and they develop empathy1 by imagining how their toy feels. But when an AI toy is already programmed with its own personality and voice, \u201cthere\u2019s less room for the child to make it up themselves,\u201d she says. Chang-Kredl also wonders whether the ubiquity2 of virtual helpers, such as Siri or Google Assistant, will affect young people\u2019s ability to simply sit alone with their feelings, since, at any time, these technologies may allow them to avoid difficult feelings by connecting with someone or something. Moveover, she points out, it\u2019s much easier for people to say hateful things online than in person since they don\u2019t see the recipients\u2019 facial expressions. Likewise, with AI toys and devices, she says, \u201cyou can be really mean to these toys and you\u2019re not going to hurt it. So, well, what do you learn?\u201d \u2026 Blake says in her home there may be some drawbacks to using smart technologies, but 10 5 15 20 25 30 35 40 1empathy \u2014 understanding of others 2ubiquity \u2014 constant presence Regents Exam in ELA \u2014 June \u201922 the advantages seem to outweigh the negatives. Having the Google Home Minis has meant her children spend less time in front of digital screens. Instead, they\u2019re often using the devices to listen to music or stories. While her children are still too young to have homework, Blake isn\u2019t worried about them one day relying on virtual assistants to do their school work for them. On the contrary, she says it will be good for the children to be able to ask them for help when they\u2019re stuck. Similarly, she sees chatbots,3 such as AI-powered therapists, as good resources for young people who don\u2019t have anyone else with whom they can talk. \u201cKids don\u2019t always feel comfortable talking to their parents,\u201d she says. For her, smart technologies such as her Google Home Minis are not a threat to real life interactions and relationships. \u201cIt\u2019s an interesting tool,\u201d she says \u2013 and one that\u2019s about to become more commonplace. \u2014Wency Leung excerpted from \u201cHow Will AI Technologies Affect Child Development?\u201d www.theglobeandmail.com, July 23, 2018 45 50 3chatbots \u2014 an artificial intelligence or computer program that simulates human conversation through auditory or textual methods Regents Exam in ELA \u2014 June \u201922 Text 2 4 Ways \u2018Internet of Things\u20191 Toys Endanger Children \u2026Online devices raise privacy concerns for all their users, but children are particularly vulnerable and have special legal protections. Consumer advocates have raised alarms about the toys\u2019 insecure wireless internet connections \u2013 either directly over Wi-Fi or via Bluetooth to a smartphone or tablet with internet access. \u2026 1. Unsecured wireless connections Some \u201cinternet of things\u201d [IoT] toys can connect to smartphone apps without any form of authentication. So a user can download a free app, find an associated toy nearby, and then communicate directly with the child playing with that toy. In 2015, security researchers discovered that Hello Barbie, an internet-enabled Barbie doll, automatically connected to unsecured Wi-Fi networks that broadcast the network name \u201cBarbie.\u201d It would be very simple for an attacker to set up a Wi-Fi network with that name and communicate directly with an unsuspecting child. \u2026 Unsecured devices allow attackers to do more than just talk to children: A toy can talk to another internet-connected device, too. In 2017, security researchers hijacked a CloudPets connected stuffed animal and used it to place an order through an Amazon Echo2 in the same room. 2. Tracking kids\u2019 movements Some internet-connected toys have GPS [Global Positioning System] like those in fitness trackers and smartphones, which can also reveal users\u2019 locations, even if those users are children. In addition, the Bluetooth communications some toys use can be detected as far away as 30 feet. If someone within that range looks for a Bluetooth device \u2013 even if they\u2019re only seeking to pair their own headphones with a smartphone \u2013 they\u2019ll see the toy\u2019s name, and know a child is nearby. \u2026 3. Poor data protections Internet-connected toys have cameras that watch kids and microphones that listen to them, recording what they see and hear. Sometimes they send that information to company servers that analyze the inputs and send back directions on how the toy should respond. But those functions can also be hijacked to listen in on family conversations or take photographs or video of children without the kids or parents ever noticing. Toy manufacturers don\u2019t always ensure the data is stored and transmitted securely, even when laws require it: In 2018, toymaker VTech was fined US $650,000 for failing to fulfill its promise to encrypt private data and for violating U.S. laws protecting children\u2019s privacy. 4. Working with third parties Toy companies have also shared the information they collect about kids with other companies \u2013 much as Facebook shared its users\u2019 data with Cambridge Analytica and other firms. 10 5 15 20 25 30 1Internet of Things \u2014 the interconnection of everyday objects through the internet 2Amazon Echo \u2014 a brand of voice-controlled smart speaker that connects to other AI-powered devices and functions as a virtual assistant Regents Exam in ELA \u2014 June \u201922 And they can also surreptitiously3 share information from third parties with kids. One toy company came under fire, for example, in both Norway and the U.S. for a business relationship with Disney in which the My Friend Cayla doll was programmed to discuss what were described as the doll\u2019s favorite Disney movies with kids. Parents weren\u2019t told about this arrangement, which critics said amounted to \u201cproduct placement\u201d4-style advertising in a toy. What can parents do? In my view, and according to consumer advice from the FBI, parents should carefully research internet-connected toys before buying them, and evaluate their capabilities, functioning, and security and privacy settings before bringing these devices into their homes. Without proper safeguards \u2013 by parents, if not toy companies \u2013 children are at risk, both individually and through collection of aggregate5 data about kids\u2019 activities. \u2014Marie-Helen Maras excerpted and adapted from \u201c4 Ways \u2018Internet of Things\u2019 Toys Endanger Children\u201d http://theconversation.com, May 10, 2018 35 40 3surreptitiously \u2014 secretively 4product placement \u2014 a subtle advertising technique of promoting brand name products (such as cereal boxes or logos on clothing, etc.) within the context of a show or movie 5aggregate \u2014 accumulated Regents Exam in ELA \u2014 June \u201922 Text 3 Let Robots Teach Our Kids? Here\u2019s Why That Isn\u2019t Such a Bad Idea \u2026With recent advances in programming algorithms and artificial intelligence, the possibility of robots moving from the factory floor into our homes\u2014and even looking after our children\u2014is a fast-approaching reality. Think Rosie, the space-age robot maid and nanny to \u201cThe Jetsons.\u201d1 \u2026 Overall, research shows that children can benefit from interacting with robots, but it\u2019s important to recognize that these benefits are less pronounced than those a child would get from interacting with a person, says Solace Shen, a Cornell University psychologist who studies robot-human interactions, particularly in the development of children. \u201cThe goal is not to have the robot replace interactions with humans,\u201d she says. \u201cBut more to supplement them.\u201d \u2026 Placed in preschool classes, social robots like Pepper2 could use their powerful emotion-recognition engines to spot minor squabbles, which would allow teachers to focus on the larger meltdowns that occur. The robots may also be programmed with established negotiation strategies to better resolve conflicts and further reinforce skills children are developing. Robots can also help improve the emotional and social development of children with special needs, such as those with autism or Down syndrome because these machines have several characteristics that make them attractive to these children. \u2026 For one thing, a vast body of research shows some kids with autism respond well to technology in general, including computers, phones, tablets, and robotic toys. Studies also suggest robots are appealing to special needs children because they\u2019re less complex and more predictable than people, less intimidating, perpetually patient and consistent in the tone of voice and mood, and highly customizable and adaptable to children\u2019s specific needs. \u2026 For these reasons, researchers have used robots to engage with special needs children and elicit3 numerous behaviors, including initiating interactions, imitating behaviors, learning to take turns, recognizing emotions, and focusing their attention. One oft[en]-used robot in this research is Kaspar, a child-sized droid that\u2019s comfortable for autistic children to interact with because of its simplified speech, gestures, and facial and body expressions. In some studies, researchers allowed isolated autistic children\u2014 those who don\u2019t respond to or interact well with humans\u2014to play with Kaspar while a teacher or experimenter was nearby. In one case, a child touched his teacher\u2019s face and eyes after excitedly exploring Kaspar\u2019s face and later invited the teacher to join in a game with Kaspar. \u2026 Aside from engaging with children on the social and emotional level, these robots will soon enrich children\u2019s cognitive skills, particularly at home. \u201cRobots will potentially help children with things like math problems and learning to read,\u201d [bioethicist, Jason] Borenstein says. 10 5 15 20 25 30 35 1The Jetsons \u2014 a 1960s animated TV show set in the distant future 2Pepper \u2014 a 4-foot tall interactive robot able to recognize human emotional states by analyzing tone of voice, facial expressions, and other non-verbal cues 3elicit \u2014 draw out Regents Exam in ELA \u2014 June \u201922 Robots will also be helpful in children learning languages because they will allow a degree of language immersion at home that children don\u2019t normally receive in the classroom, [roboticist, Henny] Admoni says. What\u2019s more, research shows robots, such as the furry, literacy-minded Tega, can help preschool age children improve primary language skills and build greater vocabularies through storytelling activities. \u2026 Somewhat paradoxical,4 robots are sometimes more effective tutors when they\u2019re playing dumb. Scientists in Japan found that children learned English vocabulary words better when robots made mistakes and the children had to correct their mechanized study partners, likely because doing so boosts self-confidence and reinforces existing knowledge. Robots can potentially take their tutoring lessons to places human teachers may not be able to, such as isolation units in hospitals. In these cases, Shen says, robots can help ill children keep up with their studies, and provide emotional and social support when parents aren\u2019t able to be there. Despite the wealth of potential benefits robot tutors present, there\u2019s much to consider. \u2026 Though there\u2019s little evidence that interactions with robots will stunt children\u2019s emotional and social growth, some experts are concerned that children may develop a kind of master- servant relationship with robots that then translates into their interactions with people. That is, if robots are programmed to follow orders and are unable to experience pain and explain that feeling to children [who] may bully them, will this affect what children believe to be socially acceptable behaviors? \u2026 With robo-tutors likely hitting the market within the next several years, these concerns won\u2019t be put to rest before the robots are in children\u2019s hands. Yet, while these issues are important to consider, various social and communicative technologies\u2014including robots\u2014 are generally improving people\u2019s lives rather than harming them, Admoni says. \u201cMost people designing robots are really looking to fill a void that already exists,\u201d Admoni says. \u201cWe\u2019re building robots that are not replacing people but are helping in new ways to improve children\u2019s learning. It\u2019s a tremendous time for human-robot interactions.\u201d \u2014Joseph Bennington-Castro excerpted and adapted from \u201cLet Robots Teach Our Kids? Here\u2019s Why That Isn\u2019t Such a Bad Idea\u201d www.nbcnews.com, April 19, 2017 40 4paradoxical \u2014 self-contradictory 45 50 55 60 Regents Exam in ELA \u2014 June \u201922 Text 4 Why These Friendly Robots Can\u2019t Be Good Friends to Our Kids Jibo the robot swivels around when it hears its name and tilts its touchscreen face upward, expectantly. \u201cI am a robot, but I am not just a machine,\u201d it says. \u201cI have a heart. Well, not a real heart. But feelings. Well, not human feelings. You know what I mean.\u201d Actually, I\u2019m not sure we do. And that\u2019s what unsettles me about the wave of \u201csociable robots\u201d that are coming online. The new releases include Jibo, Cozmo, Kuri and M.A.X. Although they bear some resemblance to assistants such as Apple\u2019s Siri, Google Home and Amazon\u2019s Alexa (Amazon chief executive Jeff Bezos also owns The Washington Post1), these robots come with an added dose of personality. They are designed to win us over not with their smarts but with their sociability. They are marketed as companions. And they do more than engage us in conversation\u2014they feign2 emotion and empathy. \u2026 So, before adding a sociable robot to the holiday gift list, parents may want to pause to consider what they would be inviting into their homes. These machines are seductive and offer the wrong payoff: the illusion of companionship without the demands of friendship, the illusion of connection without the reciprocity of a mutual relationship. And interacting with these empathy machines may get in the way of children\u2019s ability to develop a capacity for empathy themselves. \u2026 In 2001, [Jibo\u2019s creator, Cynthia] Breazeal and I did a study together\u2014along with Yale robotics pioneer Brian Scassellati and Olivia Dast\u00e9, who develops robots for the elderly\u2014 looking at the emotional impact of sociable robots on children. We introduced 60 children, ages 8 to 13, to two early sociable robots: Kismet, built by Breazeal, and Cog, a project on which Scassellati was a principal designer. I found the encounters worrisome. The children saw the robots as \u201csort of alive\u201d\u2014alive enough to have thoughts and emotions, alive enough to care about you, alive enough that their feelings for you mattered. The children tended to describe the robots as gendered. They asked the robots: Are you happy? Do you love me? As one 11-year-old girl put it: \u201cIt\u2019s not like a toy, because you can\u2019t teach a toy, it\u2019s like something that\u2019s part of you, you know, something you love, kind of, like another person, like a baby.\u201d \u2026 So far, the main objection to sociable robots for kids has been over privacy. The privacy policies for these robots tend to be squishy, allowing companies to share the information their devices collect\u2014recorded conversations, photos, videos and other data\u2014with vaguely defined service providers and vendors. That\u2019s generating pushback. In October, Mattel3 scrapped plans for Aristotle\u2014a kind of Alexa for the nursery, designed to accompany children as they progress from lullabies and bedtime stories through high school homework\u2014after lawmakers and child advocacy groups argued that the data the device collected about children could be misused by Mattel, marketers, hackers and other third parties. I was part of that campaign: There is something deeply unsettling about encouraging children to confide in machines that are in turn sharing their conversations with countless others. Privacy, though, should not be our only concern. Recently, I opened my MIT mail and found a \u201ccall for subjects\u201d for a study involving sociable robots that will engage children in conversation to \u201celicit empathy.\u201d What will these children be empathizing with, exactly? 10 5 15 20 25 30 35 1The Washington Post \u2014 newspaper that published this article 2feign \u2014 simulate or to fake 3Mattel \u2014 a toy manufacturer 40 Regents Exam in ELA \u2014 June \u201922 Empathy is a capacity that allows us to put ourselves in the place of others, to know what they are feeling. Robots, however, have no emotions to share. And they cannot put themselves in our place. \u2026 For instance, Cozmo the robot needs to be fed, repaired and played with. Boris Sofman, the chief executive of Anki, the company behind Cozmo, says that the idea is to create \u201ca deeper and deeper emotional connection.\u2026And if you neglect him, you feel the pain of that.\u201d You feel the pain of that. What is the point of this exercise, exactly? What does it mean to feel the pain of neglecting something that feels no pain at being neglected? Or to feel anguish at being neglected by something that has no moral sense that it is neglecting you? What will this do to children\u2019s capacity for empathy, for care, for relationships? \u2026 For so long, we dreamed of artificial intelligence offering us not only instrumental help but the simple salvations of conversation and care. But now that our fantasy is becoming reality, it is time to confront the emotional downside of living with the robots of our dreams. \u2014Sherry Turkle excerpted and adapted from \u201cWhy These Friendly Robots Can\u2019t Be Good Friends to Our Kids\u201d www.washingtonpost.com, December 7, 2017 45 50 Regents Exam in ELA \u2014 June \u201922 Part 3 Text-Analysis Response Your Task: Closely read the text provided on pages 22 and 23 and write a well-developed, text-based response of two to three paragraphs. In your response, identify a central idea in the text and analyze how the author\u2019s use of one writing strategy (literary element or literary technique or rhetorical device) develops this central idea. Use strong and thorough evidence from the text to support your analysis. Do not simply summarize the text. You may use the margins to take notes as you read and scrap paper to plan your response. Write your response in the spaces provided on pages 7 through 9 of your essay booklet. Guidelines: Be sure to: \u2022 Identify a central idea in the text \u2022 Analyze how the author\u2019s use of one writing strategy (literary element or literary technique or rhetorical device) develops this central idea. Examples include: characterization, conflict, denotation/connotation, metaphor, simile, irony, language use, point-of-view, setting, structure, symbolism, theme, tone, etc. \u2022 Use strong and thorough evidence from the text to support your analysis \u2022 Organize your ideas in a cohesive and coherent manner \u2022 Maintain a formal style of writing \u2022 Follow the conventions of standard written English Text The Vertical Ladder As he felt the first watery eggs of sweat moistening the palms of his hands, as with every rung higher his body seemed to weigh more heavily, this young man Flegg regretted in sudden desperation but still in vain, the irresponsible events that had thrust him up into his present precarious1 climb. Here he was, isolated on a vertical iron ladder flat to the side of a gasometer2 and bound to climb higher and higher until he should reach the vertiginous skyward summit.3 How could he ever have wished this on himself? How easy it had been to laugh away his cautionary fears on the firm ground \u2026 now he would give the very hands that clung to the ladder for a safe conduct to solid earth. It had been a strong spring day, abruptly as warm as midsummer. The sun flooded the parks and streets with sudden heat\u2014Flegg and his friends had felt stifled in their thick winter clothes. The green glare of the new leaves everywhere struck the eye too fiercely, the air seemed almost sticky from the exhalations of buds and swelling resins.4 Cold winter senses were overcome\u2014the girls had complained of headaches\u2014and their thoughts had grown confused and uncomfortable as the wool underneath against their skins. They had wandered out from the park by a back gate, into an area of back streets. \u2026 They walked out into the wasteland, the two girls and Flegg and the other two boys, and stood presently before the old gasometer itself. Among the ruined sheds this was the only erection still whole, it still predominated over the yards, towering high above other buildings for hundreds of feet around. So they threw bricks against its rusted sides. The rust flew off in flakes and the iron rang dully. Flegg, who wished to excel in the eyes of the dark-haired girl, began throwing his bricks higher than the others, at the same time lobbing them, to suggest that he knew something of grenade-throwing, claiming for himself vicariously5 the glamour of a uniform. He felt the girl\u2019s eyes follow his shoulders, his shoulders broadened. She had black eyes, unshadowed beneath short wide-awake lids, as bright as a boy\u2019s eyes; her lips pouted with difficulty over a scramble of irregular teeth, so that it often looked as if she were laughing; she always frowned\u2014and Flegg liked her earnest, purposeful expression. Altogether she seemed a wide-awake girl who would be the first to appreciate an active sort of a man. Now she frowned and shouted: \u2018Bet you can\u2019t climb as high as you can throw!\u2019 \u2026 Flegg turned round scoffing, so that the girl had quickly shouted again, laughing shrilly and pointing upwards. Already all five of them felt uneasy. Then in quick succession, all in a few seconds, the third boy had repeated: \u2018Course he bloody can\u2019t.\u2019 Flegg had said: \u2018Climb to the top of anything.\u2019 The other boy had said: \u2018Climb to the top of my aunt Fanny.\u20196 The girl had said: \u2018Climb to the top of the gasworks then.\u2019 \u2026 He looked up, following the dizzying rise of the rungs to the skyline. From this angle flat against the iron sheeting, the gasometer appeared higher than before. The blue sky 10 5 15 20 25 30 35 1precarious \u2014 risky 2gasometer \u2014 a large structure used to store natural gas 3vertiginous skyward summit \u2014 dizzying height 4resins \u2014 plant scents 5vicariously \u2014 by association 6my aunt Fanny \u2014 an expression of disbelief Regents Exam in ELA \u2014 June \u201922 Regents Exam in ELA \u2014 June \u201922 seemed to descend and almost touch it. The redness of the rust dissolved into a deepening grey shadow, the distant curved summit loomed over black and high. Although it was immensely stable, as seen in rounded perspective from a few yards away, there against the side it appeared top heavy, so that this huge segment of sheet iron seemed to have lost the support of its invisible complement behind, the support that was now unseen and therefore unfelt, and Flegg imagined despite himself that the entire erection had become unsteady, that quite possibly the gasometer might suddenly blow over like a gigantic top-heavy sail. He lowered his eyes quickly and concentrated on the hands before him. He began to climb. \u2026 The ground had receded horribly, the drop now appeared terrifying, out of all proportion to this height he had reached. From the ground such a height would have appeared unnoteworthy. But now looking down the distance seemed to have doubled. Each object familiar to his everyday eyes\u2014his friends, the lamp-posts, a brick wall, the kerb, a drain\u2014all these had grown infinitely small. His senses demanded that these objects should be of a certain accustomed size. Alternatively, the world of chimneys and attic windows and roof-coping7 would grow unpleasantly giant as his pavement-bred eyes approached. Even now the iron sheeting that stretched to either side and above and below seemed to have grown, he was lost among such huge smooth dimensions, grown smaller himself and clinging now like a child lost on some monstrous desert of red rust. \u2026 The sight of the top of the gasometer had proved endemically8 more frightful than the appearance of the drop beneath. There lay about it a sense of material danger, not of the risk of falling, but of something removed and unhuman\u2014a sense of appalling isolation. It echoed its elemental iron aloofness, a wind blew round it that had never known the warmth of flesh nor the softness of green fibres. Its blind eyes were raised above the world. It was like the eyeless iron vizor of an ancient god, it touched against the sky having risen in awful perpendicular to this isolation, solitary as the grey gannet9 cliffs that mark the end of the northern world. It was immeasurably old, outside the connotation of time; it was nothing human, only washed by the high weather, echoing with wind, visited never and silently alone. \u2026 Flegg, clutching his body close to the rust, made small weeping sounds through his mouth. Shivering, shuddering, he began to tread up again, working his knees and elbows outward like a frog, so that his stomach could feel the firm rungs. Were they firm? His ears filled with a hot roaring, he hurried himself, he began to scramble up, wrenching at his last strength, whispering urgent meaningless words to himself like the swift whispers that close in on a nightmare. A huge weight pulled at him, dragging him to drop. He climbed higher. He reached the top rung\u2014and found his face staring still at a wall of red rust. He looked, wild with terror. It was the top rung! the ladder had ended! Yet\u2014no platform\u2026the real top rungs were missing\u2026the platform jutted five impassable feet above\u2026Flegg stared dumbly, circling his head like a lost animal\u2026then he jammed his legs in the lower rungs and his arms past the elbows to the armpits in through the top rungs and there he hung shivering and past knowing what more he could ever do.\u2026 \u2014William Sansom excerpted from \u201cThe Vertical Ladder\u201d The Stories of William Sansom, 1963 The Hogarth Press 50 45 55 60 65 70 7roof-coping \u2014 roof covering 8endemically \u2014 extensively 9gannet \u2014 large sea bird that breeds in sea cliffs 40 75 REGENTS IN ELA REGENTS IN ELA Printed on Recycled Paper"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    }
+  ]
+}

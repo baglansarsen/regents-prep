@@ -1,0 +1,1096 @@
+{
+  "subject": "living-environment",
+  "session": "january-2020",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "There are over 2000 kinds of edible insects in the world, and they are becoming an increasingly popular source of protein. One cup of cricket \ufb02 our contains over 28 grams of protein. The building blocks of the protein in cricket \ufb02 our are",
+      "choices": [
+        "amino acids",
+        "water",
+        "simple sugars",
+        "carbohydrates"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which list contains only abiotic conditions that might be found in a pond ecosystem?",
+      "choices": [
+        "temperature of the water, green plant populations, dissolved minerals in the water",
+        "temperature of the water, dissolved oxygen in the water, dissolved minerals in the water",
+        "bacteria, dissolved minerals in the water, temperature of the water",
+        "dissolved oxygen in the water, \ufb01 sh populations, insect populations"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Protein synthesis is accomplished primarily by the interaction of which two cell structures?",
+      "choices": [
+        "vacuoles and mitochondria",
+        "ribosomes and vacuoles",
+        "nuclei and ribosomes",
+        "nuclei and mitochondria"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Identical twins were separated at birth and raised by two different families. Years later, one twin was a physically \ufb01 t member of the cross-country team, and the other twin was overweight with slightly higher-than-normal blood pressure. The differences in these twins could be explained by the fact that",
+      "choices": [
+        "the genes in the two individuals are completely different",
+        "in twins, each individual inherits genes from only one parent",
+        "the DNA bases in twins combine differently",
+        "the environment can in\ufb02 uence the expression of genes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The diagram below represents various factors in an area. Photosynthesis Animals Plants Dead animals Respiration Excretion Bacteria The diagram best represents",
+      "choices": [
+        "the recycling of energy in a forest community",
+        "ecological succession after climatic changes",
+        "competition for limited resources in a population",
+        "the \ufb02 ow of materials in a forest community"
+      ],
+      "image": "/images/exams/living-environment/january-2020/q5.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Traits are passed from parents to offspring. These traits are determined by",
+      "choices": [
+        "chromosomes, located on genes, found in the nucleus",
+        "genes, located on chromosomes, found in the nucleus",
+        "chromosomes, located on genes, found in the ribosomes",
+        "genes, located on chromosomes, found in the ribosomes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "In which cell structure is energy extracted from nutrients?",
+      "choices": [
+        "chloroplast",
+        "ribosome",
+        "mitochondrion",
+        "vacuole"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a food web in a pond ecosystem. Small invertebrates Crayfish Water plants Clams Crabs Bass Two carnivores in the food web are",
+      "choices": [
+        "bass and small invertebrates",
+        "small invertebrates and crabs",
+        "water plants and clams",
+        "crabs and cray\ufb01 sh"
+      ],
+      "image": "/images/exams/living-environment/january-2020/q8.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Dodder plants consist of tangled masses of yellow, lea\ufb02 ess vines and contain few chloroplasts. The vines twist around and grow into the stems of other plants and absorb water and nutrients from them. Which statement best describes this relationship?",
+      "choices": [
+        "Dodder plants are parasitic, relying on host organisms for resources.",
+        "Dodder plants are decomposers, returning organic material back to the environment.",
+        "Dodder plants are producers, while the other plants that they attach to are consumers.",
+        "Dodder plants are consumers, transferring energy to other plants in the ecosystem."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Two kittens in a litter are genetically different from each other and from their parents. These genetic differences are most directly due to",
+      "choices": [
+        "sexual reproduction",
+        "asexual reproduction",
+        "cloning",
+        "evolution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A genetic change that occurs in a body cell of a mouse will not contribute to the evolution of the species because",
+      "choices": [
+        "body cell mutations will cause the cell to die before it reproduces",
+        "the evolution of a species can result from changes in reproductive cells, not body cells",
+        "random changes are repaired by enzymes before they are passed on to offspring",
+        "the evolution of a species is caused by natural selection, not genetic variation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Scientists who have examined the fossil record have noted that some species have changed very little over long periods of geologic time. The lack of change in such organisms is most likely because",
+      "choices": [
+        "all members of their population were genetically identical, and they lived in a rapidly changing environment",
+        "there was a large amount of variation in their population, and the environment changed frequently",
+        "they could move between different environ- ments when food supplies became scarce",
+        "the environment that they lived in remained the same, and they were well-adapted to it"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Doctors often use certain medications to treat infections. A few people have a reaction to some of these medications, such as itching, swelling, or trouble breathing. This is an example of",
+      "choices": [
+        "using antibodies to cure a medical problem",
+        "the body\u2019s immune system overreacting to a usually harmless substance",
+        "the body creating a mutation to \ufb01 ght unknown pathogens",
+        "a vaccine causing the body to produce antigens against the infection"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Organisms that live on land rarely compete for",
+      "choices": [
+        "food",
+        "space",
+        "water",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Orcas are endangered whales. Only about 80 individuals remain off the coast of Washington State. Salmon are a source of food for orcas. Some individuals are proposing that four dams in Washington State be removed so that habitat areas for salmon will be increased. Those opposed to the dam removals say that the dams provide low-cost hydroelectric power and positively in\ufb02 uence the local economy. Source: The Times-Tribune 11/3/16 This situation is an example of",
+      "choices": [
+        "direct harvesting of an endangered orca species by humans",
+        "orcas overproducing in an ecosystem with no resources",
+        "a community relying on nonrenewable energy sources",
+        "a decision where bene\ufb01 ts and risks have to be weighed"
+      ],
+      "image": "/images/exams/living-environment/january-2020/q15.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "A small lizard spends the morning hours lying in the sunlight until its body temperature rises. Later on in the day, the lizard rests in a shady area until its body temperature cools. This type of behavior is important to",
+      "choices": [
+        "maintain homeostasis",
+        "detect variations",
+        "attract mates",
+        "obtain nutrients"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Sexually reproducing organisms pass on genetic information as a",
+      "choices": [
+        "long chain of amino acids",
+        "complex series of inorganic proteins",
+        "sequence of complex sugars",
+        "sequence of the bases A, T, C, and G"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Some viruses attack cells by attaching to their outer covering, entering, and taking over their genetic \u201cmachinery.\u201d Viruses are able to invade cells after \ufb01 rst attaching to their",
+      "choices": [
+        "nuclear membrane",
+        "cell membrane",
+        "genetic machinery",
+        "viral proteins"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Gene mutations can be caused by many things. These mutations are biologically important because they",
+      "choices": [
+        "occur at a regular rate and therefore can be controlled",
+        "can be passed to the offspring if they occur in any cell of the body",
+        "are always harmful and therefore help to eliminate weak traits",
+        "can result in a new variety of gene combinations in the species"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Maintaining a rich variety of genetic material that may lead to discoveries useful to humans can be ensured by",
+      "choices": [
+        "preserving biodiversity",
+        "increasing cloning",
+        "asexual reproduction",
+        "selective breeding"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Many bacteria and fungi are important in the environment because they",
+      "choices": [
+        "return energy to the environment, making it available for plants",
+        "recycle nutrients, making them available for other organisms",
+        "produce glucose through the process of respiration",
+        "reverse the \ufb02 ow of energy in the ecosystem"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which statement best describes a characteristic of the carrying capacity of an ecosystem?",
+      "choices": [
+        "It can be illustrated with a food web.",
+        "It allows organisms to produce populations of unlimited size.",
+        "It is determined directly by an organism\u2019s reproductive success.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The Venus \ufb02 ytrap is a plant that has a unique system by which it traps and breaks down its prey. Unsuspecting insects land on the leaf and touch tiny hairs located on the leaf, triggering the leaf to close around the prey. Source: https://gardenofeaden.blogspot.co.uk/2010/ 02/ why-do-carnivorous-plants-eat-animals.html The substance responsible for breaking down the Venus \ufb02 ytrap\u2019s prey most likely contains",
+      "choices": [
+        "chlorophyll molecules",
+        "glucose molecules",
+        "hormone molecules",
+        "enzyme molecules"
+      ],
+      "image": "/images/exams/living-environment/january-2020/q23.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "It may be harmful when people compete to see who can hold their breath the longest under water. Without oxygen, brain cells",
+      "choices": [
+        "cannot make enough ATP",
+        "have too few mitochondria",
+        "make too many enzymes",
+        "have too much water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Students did an experiment comparing the activity of four different enzymes, A, B, C, and D. The results are represented in the graph below. Relative Rate of Enzyme Activity pH 7 A B C D 1 14 Acid Base The Effect of pH on Enzyme Activity A valid conclusion based on the information in the graph is that",
+      "choices": [
+        "the pH of some enzymes changes as the temperature changes",
+        "enzymes change color in proportion to the rate of activity",
+        "a difference in the pH of an environment changes enzyme activity",
+        "enzyme activity causes acids to change into bases over time"
+      ],
+      "image": "/images/exams/living-environment/january-2020/q25.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Euglena are unique single-celled organisms. Depending on the physical conditions present in their aquatic environment, Euglena can act as either producers or consumers. Source: Adapted from http://www.microscope-microscope.org Euglena will most likely act as consumers when placed in an environment that has",
+      "choices": [
+        "an acidic pH",
+        "a low oxygen level",
+        "little or no light present",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2020/q26.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The diagram below illustrates the movement of glucose across a cell membrane. Glucose molecules Low glucose concentration outside of cell High glucose concentration inside of cell Key Source: Adapted from http://bodell.mtchs.org/ Which two processes are most directly represented in this diagram?",
+      "choices": [
+        "ATP synthesis and the diffusion of water",
+        "molecule transport and energy use",
+        "homeostasis and ATP synthesis",
+        "homeostasis and the diffusion of water"
+      ],
+      "image": "/images/exams/living-environment/january-2020/q27.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The diagram below shows the relationship between the snowshoe hare and the lynx. The snowshoe hare is prey of the lynx. 160 1850 1875 1900 Year Thousands of Hares Thousands of Lynx 1925 120 80 40 9 6 3 0 Key Lynx Snowshoe hare Source: Adapted from http://gaiachange.blogspot.com/p/ global-change-model.html The populations of the two species increase and decrease based on the numbers of each species present. This relationship is an example of",
+      "choices": [
+        "ecological succession",
+        "an energy pyramid",
+        "interdependency",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2020/q28.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Following fertilization, a zygote divides and soon becomes a multicelled embryo with many different cell types, as represented below. Source: Adapted from http://www.buzzle.com/articles/cell-differentiation.html and https://en.wikipedia.org/wiki/embryogenesis Zygote Muscle cells Blood cells Nerve cell Cardiac cells Embryo Intestinal cells Liver cells Which statement best explains this development?",
+      "choices": [
+        "Specialization occurs, resulting in the formation of a great variety of cell types.",
+        "Genes are inserted into the zygote to allow for the formation of different cell types.",
+        "The expression of genes responsible for the different cell types is controlled by the placenta.",
+        "The genetic information in the zygote is divided to produce a complete set for each cell type."
+      ],
+      "image": "/images/exams/living-environment/january-2020/q29.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The diagram below represents changes that take place within the human body. Instability in internal conditions Stability Stimulus Response Stability The diagram represents",
+      "choices": [
+        "cellular differentiation",
+        "dynamic equilibrium",
+        "gene interaction",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2020/q30.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "An experiment is carried out to determine how different pH values of soil will affect the growth of tomato plants. In this experiment, the dependent variable could be the",
+      "choices": [
+        "height of the tomato plants",
+        "pH of the soil",
+        "speci\ufb01 c variety of tomato plants used",
+        "pH of enzymes in tomato leaf cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Using microscopes he constructed in the 1600s, Antonie van Leeuwenhoek discovered a new microscopic world. His discoveries paved the way for the development of the microscopes used today and for many important biological breakthroughs. Source: http://famousbiologists.org/ antonie-van-leeuwenhoek/ Which statement best describes van Leeuwenhoek\u2019s work?",
+      "choices": [
+        "His observations alone provided enough information to form modern biological theories.",
+        "The microscopes he made were used by all scientists and have remained unchanged over the years.",
+        "Knowledge gained by his work has led to the improvement and development of modern scienti\ufb01 c concepts.",
+        "Explanations of the microscopic world today are solely based on his observations and conclusions."
+      ],
+      "image": "/images/exams/living-environment/january-2020/q32.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "This signal in the male body to stop producing testosterone is an example of",
+      "choices": [
+        "an underproduction of estrogen",
+        "a feedback mechanism",
+        "an overproduction of testosterone",
+        "a decrease in anabolic steroid use"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 33 and 34 on the information below and on your knowledge of biology.\nAnabolic Steroids\nAnabolic steroids are hormones that affect muscle growth. Many athletes take synthetic \nanabolic steroids, in hopes of developing larger muscles so they can perform better at their \nsport. These hormones can act like the hormone testosterone. When men take an excess of \nanabolic steroids, they can have an increase in feminine features. This is due to the fact that \nthe excess of these chemicals signals the male body to stop producing testosterone.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "One reason why anabolic steroids can imitate the hormone testosterone is because",
+      "choices": [
+        "anabolic steroids and testosterone both interact with the same cell receptors",
+        "testosterone acts only on muscle cells",
+        "females produce small amounts of the hormone testosterone",
+        "an increase in testosterone in males using anabolic steroids increases male features"
+      ],
+      "image": "/images/exams/living-environment/january-2020/q34.png",
+      "context": "Base your answers to questions 33 and 34 on the information below and on your knowledge of biology.\nAnabolic Steroids\nAnabolic steroids are hormones that affect muscle growth. Many athletes take synthetic \nanabolic steroids, in hopes of developing larger muscles so they can perform better at their \nsport. These hormones can act like the hormone testosterone. When men take an excess of \nanabolic steroids, they can have an increase in feminine features. This is due to the fact that \nthe excess of these chemicals signals the male body to stop producing testosterone.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "How does the ability to produce 3000 to 6500 eggs bene\ufb01 t the species?",
+      "choices": [
+        "It decreases the opportunity for more frogs to compete for limited resources.",
+        "More offspring are likely to survive and reproduce.",
+        "The offspring will be more widely distributed by fast-moving water.",
+        "The chances for asexual reproduction in the frogs will increase."
+      ],
+      "image": "/images/exams/living-environment/january-2020/context_35_36.png",
+      "context": "Base your answers to questions 35 and 36 on the information in the chart below and on your knowledge of \nbiology.\nLeopard Frog Reproduction Facts\nWhere in New York State do leopard frogs live?\nMarshes, ponds, swamps, and slow-moving water\nHow often do they breed?\nOnce each year\nWhen is their breeding season?\nMarch until June\nHow many eggs does one frog produce?\n3000 to 6500\nHow long until the fertilized eggs hatch?\n2 to 3 weeks\nWhen do they reach sexual maturity?\nMales: 365 days  \nFemales: 730 days",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "One explanation for the timing and length of the leopard frog breeding season is that it occurs",
+      "choices": [
+        "when environmental conditions are most favorable",
+        "365 days after the eggs have hatched the year before",
+        "2 to 3 weeks after female frogs have reached sexual maturity",
+        "when there is a greater chance of mutation producing favorable variations"
+      ],
+      "image": "/images/exams/living-environment/january-2020/context_35_36.png",
+      "context": "Base your answers to questions 35 and 36 on the information in the chart below and on your knowledge of \nbiology.\nLeopard Frog Reproduction Facts\nWhere in New York State do leopard frogs live?\nMarshes, ponds, swamps, and slow-moving water\nHow often do they breed?\nOnce each year\nWhen is their breeding season?\nMarch until June\nHow many eggs does one frog produce?\n3000 to 6500\nHow long until the fertilized eggs hatch?\n2 to 3 weeks\nWhen do they reach sexual maturity?\nMales: 365 days  \nFemales: 730 days",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Sailors in the past may have heard the greeting from a passing ship, \u201cAvast ye scurvy dogs.\u201d This greeting would be a reference to a disease known as scurvy, which is due to inadequate intake of vitamin C. Which row in the chart below correctly identi\ufb01 es the cause of this disease and a possible treatment for it? Row Cause Treatment",
+      "choices": [
+        "inherited trait gene manipulation",
+        "organ malfunction antibiotic injections",
+        "poor nutrition fresh fruit",
+        "virus vaccination"
+      ],
+      "image": "/images/exams/living-environment/january-2020/q37.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Male birds of two different species living on the same island have developed different mating behaviors, as shown in the table below. Species Mating Behavior of Male Birds A rapid chirps while spreading their tail feathers B movement in circles while spreading their tail feathers Which statement is best supported by information in the table?",
+      "choices": [
+        "It is likely that male birds in species A will mate with female birds in species B.",
+        "It is likely that birds from species A will only mate with birds from species A.",
+        "Male birds from one species will change their mating behavior if the only female birds available are from the other species.",
+        "Mating behaviors are important only when these two species live together in the same area."
+      ],
+      "image": "/images/exams/living-environment/january-2020/q38.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "In a DNA molecule, if 38% of the molecular bases are C (cytosine), what percent of the bases are T (thymine)?",
+      "choices": [
+        "12",
+        "24",
+        "38",
+        "62"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "An increased demand for soybeans has led to an increase in converting native forests and grasslands to \ufb01 elds for growing soybeans. One negative consequence of this environmental change has been",
+      "choices": [
+        "an increase in natural resources for the future",
+        "an increase in the kinds of foods that can be produced",
+        "a decrease in suitable habitats for wildlife",
+        "a decrease in the need to set aside land for conservation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "In the 1660s, Flemish physician Jan van Helmont grew a small willow tree in a pot of soil. He added only water to the pot. At the end of \ufb01 ve years, he found that the tree had gained 75 kilograms, but there was very little change in the mass of the soil. Van Helmont concluded that the plant gained weight directly from the water. We now know that this conclusion is only partially correct because, in addition to water, photosynthesis also requires",
+      "choices": [
+        "oxygen from the atmosphere",
+        "carbon dioxide from the atmosphere",
+        "proteins from animal prey",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which statement regarding these methods of reproduction is correct?",
+      "choices": [
+        "They are both forms of asexual reproduction.",
+        "They are both forms of sexual reproduction.",
+        "Method A is a form of asexual reproduction and method B is a form of sexual reproduction.",
+        "Method A is a form of sexual reproduction and method B is a form of asexual reproduction."
+      ],
+      "image": "/images/exams/living-environment/january-2020/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the illustration below and on your knowledge of biology. \nThe illustration shows two methods of reproduction, method A and method B.\nMethod B\nMethod A\nOriginal\norganism\nOffspring\nOriginal\norganism 1\nNucleus\nremoved\nOffspring\nEgg cell\nBody cell\nnucleus\nOrganism 2\nEmbryo implanted in organism 2",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Which process takes place in both method A and method B?",
+      "choices": [
+        "meiosis",
+        "mitosis",
+        "fertilization",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2020/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the illustration below and on your knowledge of biology. \nThe illustration shows two methods of reproduction, method A and method B.\nMethod B\nMethod A\nOriginal\norganism\nOffspring\nOriginal\norganism 1\nNucleus\nremoved\nOffspring\nEgg cell\nBody cell\nnucleus\nOrganism 2\nEmbryo implanted in organism 2",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Corals are a group of organisms that live in shallow, warm areas of the world\u2019s oceans. Coral reefs are composed of a hard material that is produced by these small coral animals, and is then colonized by photosynthetic organisms called Zooxanthellae. These plant-like organisms generate sugars that are used by their animal partners for food and are needed for the survival of the coral. State one possible reason that coral reefs exist only in shallow waters.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/q44.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Sunlight is available for photosynthesis in shallow waters. \u2014 Light may not be available in deep waters. \u2014 Their food providers live in shallow water. \u2014 More food is available there. \u2014 Zooxanthellae are photosynthetic."
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the information and data table below and on your knowledge \nof biology.\nMeasles: Eliminated?\nMeasles is a highly contagious viral disease. Infected people \ufb01 rst experience a fever, \ncold-like symptoms, and a rash. Several complications can develop, such as ear infections, \ndiarrhea, pneumonia, encephalitis (swelling of the brain), and death. Prior to the widespread \nuse of the measles vaccine in the 1960s, it is estimated that 3\u20134 million people were infected \nevery year. The Centers for Disease Control and Prevention declared measles eliminated \nin the United States in 2000. This was accomplished, in part, due to a highly effective \nvaccination program. However, since 2016 the disease has made a comeback, and there has \nbeen an increase in measles cases in recent years.\nNumber of Measles Cases \n2010-2016\nYear\nNumber of Cases\n2010\n63\n2011\n220\n2012\n55\n2013\n187\n2014\n667\n2015\n188\n2016\n70\nSource: www.cdc.gov/measles/\ncases-outbreaks.html\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201920 \n[13] \n[OVER]\nDirections (45\u201346): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for marking an appropriate scale on the grid provided, without any breaks in the data, on each labeled axis. Note: Do not allow credit if the grid is altered to accommodate the scale."
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Plot the data on the grid. Connect the points and surround each point with a small circle. Example: Year Number of Measles Cases 2010\u20132016 Number of Cases",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the information and data table below and on your knowledge \nof biology.\nMeasles: Eliminated?\nMeasles is a highly contagious viral disease. Infected people \ufb01 rst experience a fever, \ncold-like symptoms, and a rash. Several complications can develop, such as ear infections, \ndiarrhea, pneumonia, encephalitis (swelling of the brain), and death. Prior to the widespread \nuse of the measles vaccine in the 1960s, it is estimated that 3\u20134 million people were infected \nevery year. The Centers for Disease Control and Prevention declared measles eliminated \nin the United States in 2000. This was accomplished, in part, due to a highly effective \nvaccination program. However, since 2016 the disease has made a comeback, and there has \nbeen an increase in measles cases in recent years.\nNumber of Measles Cases \n2010-2016\nYear\nNumber of Cases\n2010\n63\n2011\n220\n2012\n55\n2013\n187\n2014\n667\n2015\n188\n2016\n70\nSource: www.cdc.gov/measles/\ncases-outbreaks.html\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201920 \n[13] \n[OVER]\nDirections (45\u201346): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly plotting the data and connecting the points and surrounding each point with a small circle. Example of a 2-credit graph for questions 45-46: Note: Allow credit if the points are plotted correctly, but not circled. Do not assume that the intersection of the x- and y-axes is the origin (0,0) unless it is labeled. An appropriate scale only needs to include the data range in the data table. Do not allow credit if points are plotted that are not in the data table, e.g., (0,0), or for extending lines beyond the data points. Year Number of Measles Cases 2010\u20132016 Number of Cases 2010 2011 2012 2013 2014 2015 2016 100 200 300 400 500 600 700 Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The reason for the dramatic decline in the number of measles cases from the 1960s to 2010 in the United States was because the vaccine",
+      "choices": [
+        "contained pathogens to \ufb01 ght against this highly contagious virus",
+        "prevented the development of serious complications after infection",
+        "exposed many people to a weakened form of the measles virus, making them immune",
+        "contained an antibiotic that killed the measles virus,"
+      ],
+      "image": "/images/exams/living-environment/january-2020/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the information and data table below and on your knowledge \nof biology.\nMeasles: Eliminated?\nMeasles is a highly contagious viral disease. Infected people \ufb01 rst experience a fever, \ncold-like symptoms, and a rash. Several complications can develop, such as ear infections, \ndiarrhea, pneumonia, encephalitis (swelling of the brain), and death. Prior to the widespread \nuse of the measles vaccine in the 1960s, it is estimated that 3\u20134 million people were infected \nevery year. The Centers for Disease Control and Prevention declared measles eliminated \nin the United States in 2000. This was accomplished, in part, due to a highly effective \nvaccination program. However, since 2016 the disease has made a comeback, and there has \nbeen an increase in measles cases in recent years.\nNumber of Measles Cases \n2010-2016\nYear\nNumber of Cases\n2010\n63\n2011\n220\n2012\n55\n2013\n187\n2014\n667\n2015\n188\n2016\n70\nSource: www.cdc.gov/measles/\ncases-outbreaks.html\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201920 \n[13] \n[OVER]\nDirections (45\u201346): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Identify in which of the Great Lakes you would expect to see the greatest increase in the number of predatory \ufb01 sh in 2008 and 2009 Examine the Great Lakes food web represented below. Food Web in Great Lakes Cormorants Eagles Lake trout Sculpins Plankton Bacteria Sea lampreys Salmon (Not drawn to scale)",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the information below and on your knowledge of biology.\nThe line graphs below represent trends in prey \ufb01 sh populations for each of the \ufb01 ve Great \nLakes.\nBiomass of Prey Fishes in the Great Lakes\nSource: http://biodivcanada.ca (adapted)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying Lake Erie and supporting the answer. Acceptable responses include, but are not limited to: \u2014 The prey fish population increased between 2005 and 2007. There would be more food for predatory fish to consume in 2008 and 2009. \u2014 In all of the lakes but Lake Erie, the population of prey fish has decreased. \u2014 Lake Erie has the only population of prey fish that has increased over the past few years. 49 MC on scoring key 50 MC on scoring key"
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which statement is correct, based on the information in the diagram?",
+      "choices": [
+        "Salmon are predators of sea lampreys.",
+        "Plankton decompose salmon and sculpins.",
+        "Cormorants and sea lampreys compete for bacteria.",
+        "Lake trout and salmon compete for sculpins."
+      ],
+      "image": "/images/exams/living-environment/january-2020/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the information below and on your knowledge of biology.\nThe line graphs below represent trends in prey \ufb01 sh populations for each of the \ufb01 ve Great \nLakes.\nBiomass of Prey Fishes in the Great Lakes\nSource: http://biodivcanada.ca (adapted)",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Scientists have incorporated a barley gene into a type of rice and produced rice plants that have much lower methane emissions. It is most likely that the scientists incorporated the barley gene into the rice, producing a new variety, using the process of",
+      "choices": [
+        "selective breeding",
+        "meiosis, followed by recombination",
+        "genetic engineering",
+        "sexual reproduction, followed by mitosis"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 50 and 51 on the information below and on your knowledge of biology.\nBarley Gene Lowers Emissions From Rice\nOver half the people on the planet eat rice as a staple food. Growing rice emits methane, \na potent greenhouse gas\u2014to the tune of 25 million to 100 million tons of methane every \nyear, a notable contribution to human-caused greenhouse gas emissions\u2026\n\u2026When rice paddies are \ufb02 ooded, methane-producing bacteria thrive on the \ncarbohydrates secreted by rice roots in the oxygen-free soils. The rice plant itself acts as a \nconduit [pathway], transmitting methane from the soil into the atmosphere\u2026\nSource: Times Tribune 7/23/15\n \nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Now that the scientists have developed this new variety of rice plant, identify one method that could be used to produce large quantities of only these bene\ufb01",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 50 and 51 on the information below and on your knowledge of biology.\nBarley Gene Lowers Emissions From Rice\nOver half the people on the planet eat rice as a staple food. Growing rice emits methane, \na potent greenhouse gas\u2014to the tune of 25 million to 100 million tons of methane every \nyear, a notable contribution to human-caused greenhouse gas emissions\u2026\n\u2026When rice paddies are \ufb02 ooded, methane-producing bacteria thrive on the \ncarbohydrates secreted by rice roots in the oxygen-free soils. The rice plant itself acts as a \nconduit [pathway], transmitting methane from the soil into the atmosphere\u2026\nSource: Times Tribune 7/23/15\n \nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The scientists could take cells from the new variety of rice plant and clone a large number of plants. \u2014 cutting or rooting (asexual reproduction) of the new variety of rice plant \u2014 cloning/make cuttings to grow more \u2014 planting large fields/amounts of this particular rice/beneficial plant"
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Based on the information in the diagram,",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_52_52.png",
+      "context": "Base your answer to question 52 on the information and diagram below and on your knowledge of biology. \nThe diagram represents the energy relationships in a forest ecosystem.\n0.1%\n1%\n10%\nSource: Adapted from http://www.sky-hunters.org/Presentations.html",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The remaining energy is mostly given off/lost as heat. \u2014 It is given off as heat. \u2014 Some energy is used for metabolic processes."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Describe one way that a glowing abdomen helps the glow-worm increase its reproductive success.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the information below and on your knowledge of biology.\nGlow-Worms\nThe European glow-worm (Lampyris noctiluca) is an insect and a member of the \ufb01 re\ufb02 y \nfamily. Males are ordinary-looking beetles with brown wings. Females are much larger, don\u2019t \nhave wings, glow, and look like a large larva. Adult glow-worms usually live for less than two \nweeks. They don\u2019t eat, focusing all their energy on \ufb01 nding a mate. The glow-worm has few \nenemies. Its body contains a poison that protects it from predators and its light warns would-\nbe attackers that it is not safe to eat.\nGreenish light glows from the end of a female\u2019s abdomen, an organ called the lantern, for \nup to several hours each night. There are great differences in the size of the female lanterns. \nIn an experiment, scientists found that females with larger lanterns glowed brighter, and the \nbrightest females laid the most eggs. The diagram below shows three different glow-worms.\nSource: http://www.nynehead.org/index.php/environment/\nglow-worm-survey\nLampyris noctiluca\nMale\n15-18 mm\nFemale\n15-25 mm\nLarva\n3-25 mm",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 It attracts males to the female. \u2014 The brighter glow attracts more males. \u2014 It warns off more predators. \u2014 The brightest female will lay more eggs. \u2014 Glowing warns predators it is not safe to eat."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Explain why increased light pollution in areas where glow-worms are found could affect glow-worm populations.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the information below and on your knowledge of biology.\nGlow-Worms\nThe European glow-worm (Lampyris noctiluca) is an insect and a member of the \ufb01 re\ufb02 y \nfamily. Males are ordinary-looking beetles with brown wings. Females are much larger, don\u2019t \nhave wings, glow, and look like a large larva. Adult glow-worms usually live for less than two \nweeks. They don\u2019t eat, focusing all their energy on \ufb01 nding a mate. The glow-worm has few \nenemies. Its body contains a poison that protects it from predators and its light warns would-\nbe attackers that it is not safe to eat.\nGreenish light glows from the end of a female\u2019s abdomen, an organ called the lantern, for \nup to several hours each night. There are great differences in the size of the female lanterns. \nIn an experiment, scientists found that females with larger lanterns glowed brighter, and the \nbrightest females laid the most eggs. The diagram below shows three different glow-worms.\nSource: http://www.nynehead.org/index.php/environment/\nglow-worm-survey\nLampyris noctiluca\nMale\n15-18 mm\nFemale\n15-25 mm\nLarva\n3-25 mm",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The males won\u2019t find mates. \u2014 It interferes with reproduction. \u2014 Predators might not notice them. \u2014 It confuses predators. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Although the females glow at night and are easily seen by predators, they have few enemies. State one characteristic that protects them from predators.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the information below and on your knowledge of biology.\nGlow-Worms\nThe European glow-worm (Lampyris noctiluca) is an insect and a member of the \ufb01 re\ufb02 y \nfamily. Males are ordinary-looking beetles with brown wings. Females are much larger, don\u2019t \nhave wings, glow, and look like a large larva. Adult glow-worms usually live for less than two \nweeks. They don\u2019t eat, focusing all their energy on \ufb01 nding a mate. The glow-worm has few \nenemies. Its body contains a poison that protects it from predators and its light warns would-\nbe attackers that it is not safe to eat.\nGreenish light glows from the end of a female\u2019s abdomen, an organ called the lantern, for \nup to several hours each night. There are great differences in the size of the female lanterns. \nIn an experiment, scientists found that females with larger lanterns glowed brighter, and the \nbrightest females laid the most eggs. The diagram below shows three different glow-worms.\nSource: http://www.nynehead.org/index.php/environment/\nglow-worm-survey\nLampyris noctiluca\nMale\n15-18 mm\nFemale\n15-25 mm\nLarva\n3-25 mm",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Their bodies contain a poison. \u2014 Their light/glow warns off predators. \u2014 Their light/glow warns predators that they are poisonous/not safe to eat. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Other than the issues mentioned in the passage, state one action that humans could take to slow down the rate of global warming.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of biology.\nGlobal Warming\nThroughout its long history, Earth has warmed and cooled time and again. Climate has \nchanged when the planet received more or less sunlight due to subtle shifts in its orbit, as \nthe atmosphere or surface changed, or when the Sun\u2019s energy varied. But in the past century, \nanother force has started to in\ufb02 uence Earth\u2019s climate: humanity. \u2026\n\u2026What has scientists concerned now is that over the past 250 years, humans have been \narti\ufb01 cially raising the concentration of greenhouse gases in the atmosphere at an ever-\nincreasing rate, mostly by burning fossil fuels, but also from cutting down carbon-absorbing \nforests. Since the Industrial Revolution began in about 1750, carbon dioxide levels have \nincreased nearly 38 percent as of 2009 and methane levels have increased 148 percent. \u2026\nSource: http://earthobservatory.nasa.gov",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 People could carpool/use mass transportation/ride bikes. \u2014 Regulate factory emissions. \u2014 Use wind or solar power. \u2014 Plant more trees. \u2014 recycle Note: Do not allow credit for issues mentioned in the passage, such as \u201cstop burning fossil fuels.\u201d"
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Other than global warming, state one speci\ufb01 c effect on the environment if the human activities mentioned in the passage continue.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of biology.\nGlobal Warming\nThroughout its long history, Earth has warmed and cooled time and again. Climate has \nchanged when the planet received more or less sunlight due to subtle shifts in its orbit, as \nthe atmosphere or surface changed, or when the Sun\u2019s energy varied. But in the past century, \nanother force has started to in\ufb02 uence Earth\u2019s climate: humanity. \u2026\n\u2026What has scientists concerned now is that over the past 250 years, humans have been \narti\ufb01 cially raising the concentration of greenhouse gases in the atmosphere at an ever-\nincreasing rate, mostly by burning fossil fuels, but also from cutting down carbon-absorbing \nforests. Since the Industrial Revolution began in about 1750, carbon dioxide levels have \nincreased nearly 38 percent as of 2009 and methane levels have increased 148 percent. \u2026\nSource: http://earthobservatory.nasa.gov",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Many species that live in our forests could see their numbers decline and possibly become extinct. \u2014 CO2/methane levels will continue to increase. \u2014 negative health effects on people or natural environments \u2014 Sea levels may rise. \u2014 decrease in biodiversity \u2014 increase air/water pollution/acid rain Note: Do not allow credit for just pollution."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "On November 4, 2016, the Paris Agreement brought many nations into a common cause to combat climate change and adapt to its effects on a global level. State one reason why climate change needs to be addressed globally as well as locally.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of biology.\nGlobal Warming\nThroughout its long history, Earth has warmed and cooled time and again. Climate has \nchanged when the planet received more or less sunlight due to subtle shifts in its orbit, as \nthe atmosphere or surface changed, or when the Sun\u2019s energy varied. But in the past century, \nanother force has started to in\ufb02 uence Earth\u2019s climate: humanity. \u2026\n\u2026What has scientists concerned now is that over the past 250 years, humans have been \narti\ufb01 cially raising the concentration of greenhouse gases in the atmosphere at an ever-\nincreasing rate, mostly by burning fossil fuels, but also from cutting down carbon-absorbing \nforests. Since the Industrial Revolution began in about 1750, carbon dioxide levels have \nincreased nearly 38 percent as of 2009 and methane levels have increased 148 percent. \u2026\nSource: http://earthobservatory.nasa.gov",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Climate change is affecting the planet as a whole. \u2014 A change in one area alone would not have a significant effect on the effects of global warming. \u2014 Air pollutants travel across national borders. \u2014 Greenhouse gases move globally."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Explain why the use of croton nut oil represents an advantage over the use of conventional diesel fuel.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information and photograph below and on your \nknowledge of biology. The photograph shows a handful of croton nuts.\nThe Power of the Croton Nut\nThe croton nut tree grows in East Africa. It produces a nut that is inedible [to humans], \nand the tree itself was considered of little use except for \ufb01 rewood. The trees grow over vast \nareas, and many of these areas have been deforested to get rid of the trees and to make more \nland available for agriculture.\nRecently, scientists and engineers in Kenya have been able to crush the nuts and \nobtain oil, which can be used as a less expensive substitute for diesel fuel, a nonrenewable \nfossil fuel. The leftover nut pulp can be processed and sold for fertilizer, compressed into \nbiofuel briquettes for use in cooking stoves, or converted into feed for chickens, making the \ncommercial use of the croton nut a zero-waste process.\nSource: http://www.ozy.com/fast-forward/\nplease-dont-eat-the-diesel-substitute/60533",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The croton nut oil is renewable; the diesel fuel is not. \u2014 The diesel fuel is a fossil fuel and is nonrenewable. \u2014 The croton nut oil is less expensive than the diesel fuel."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Describe one environmental bene\ufb01 t of maintaining croton forests rather than cutting them down to use the land for farming.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information and photograph below and on your \nknowledge of biology. The photograph shows a handful of croton nuts.\nThe Power of the Croton Nut\nThe croton nut tree grows in East Africa. It produces a nut that is inedible [to humans], \nand the tree itself was considered of little use except for \ufb01 rewood. The trees grow over vast \nareas, and many of these areas have been deforested to get rid of the trees and to make more \nland available for agriculture.\nRecently, scientists and engineers in Kenya have been able to crush the nuts and \nobtain oil, which can be used as a less expensive substitute for diesel fuel, a nonrenewable \nfossil fuel. The leftover nut pulp can be processed and sold for fertilizer, compressed into \nbiofuel briquettes for use in cooking stoves, or converted into feed for chickens, making the \ncommercial use of the croton nut a zero-waste process.\nSource: http://www.ozy.com/fast-forward/\nplease-dont-eat-the-diesel-substitute/60533",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 It maintains the habitat/biodiversity. \u2014 Deforestation leads to reduced CO2 uptake and contributes to global warming. \u2014 There would be an increase in oxygen production. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "61",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information and photograph below and on your \nknowledge of biology. The photograph shows a handful of croton nuts.\nThe Power of the Croton Nut\nThe croton nut tree grows in East Africa. It produces a nut that is inedible [to humans], \nand the tree itself was considered of little use except for \ufb01 rewood. The trees grow over vast \nareas, and many of these areas have been deforested to get rid of the trees and to make more \nland available for agriculture.\nRecently, scientists and engineers in Kenya have been able to crush the nuts and \nobtain oil, which can be used as a less expensive substitute for diesel fuel, a nonrenewable \nfossil fuel. The leftover nut pulp can be processed and sold for fertilizer, compressed into \nbiofuel briquettes for use in cooking stoves, or converted into feed for chickens, making the \ncommercial use of the croton nut a zero-waste process.\nSource: http://www.ozy.com/fast-forward/\nplease-dont-eat-the-diesel-substitute/60533",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The nuts are used almost entirely, and nothing is wasted. \u2014 No part of the nut is wasted. \u2014 The oil can be used as fuel and the remaining for other purposes."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Some scientists began to suspect that DDT was not the \u201cmiracle pesticide\u201d that it was originally thought to be. State one possible hypothesis that these scientists may have proposed to begin their research to \ufb01 nd out more about DDT.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_62_63.png",
+      "context": "Base your answers to questions 62 and 63 on the information below and on your knowledge of biology.\nDDT: A \u201cMiracle Pesticide\u201d\nDDT is a pesticide developed during World War II that successfully killed insects, such \nas mosquitoes, that were a large problem for our soldiers in the Paci\ufb01 c. DDT was also very \neffective for preventing insect damage to crops, so it was considered, at the time, to be a \n\u201cmiracle pesticide.\u201d\nSoon, however, scientists noticed that DDT was negatively affecting other animals and \nbeing passed along food chains. For example, some birds accumulated large amounts of \nDDT in their tissues, which caused them to lay eggs with weakened shells that broke before \nhatching.\nRachel Carson, a marine biologist and author, became concerned about the use of \npesticides and their negative effects on the environment. Carson began to write books and \nspeak about the dangers of pesticides. Her actions eventually led to many changes in our \nuse of pesticides and proved valuable to protecting our environment and people from the \nnegative effects that were being discovered about pesticides.\nSource: http://www.signature-reads.com/2015/04/\nheadstrong-52-female-scientists-and-their-earth-shaking-\ndiscoveries/\nRachel Carson",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 If birds are exposed to DDT, then they will have eggs with weaker shells. \u2014 The use of DDT will have a negative effect on the health of human populations. \u2014 If more DDT is used to kill insects in a field/forest, then the number of birds living there will decrease. \u2014 The use of DDT in an area will lead to a decrease in the number of species living there. \u2014 If DDT is used, the number of DDT-resistant mosquitoes will increase. \u2014 The use of DDT will have little effect on the populations of birds living in the area. Note: Do not allow credit for a hypothesis written in the form of a question."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "All scienti\ufb01 c explanations are tentative and subject to change or improvement. Explain how this statement relates to the scienti\ufb01",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_62_63.png",
+      "context": "Base your answers to questions 62 and 63 on the information below and on your knowledge of biology.\nDDT: A \u201cMiracle Pesticide\u201d\nDDT is a pesticide developed during World War II that successfully killed insects, such \nas mosquitoes, that were a large problem for our soldiers in the Paci\ufb01 c. DDT was also very \neffective for preventing insect damage to crops, so it was considered, at the time, to be a \n\u201cmiracle pesticide.\u201d\nSoon, however, scientists noticed that DDT was negatively affecting other animals and \nbeing passed along food chains. For example, some birds accumulated large amounts of \nDDT in their tissues, which caused them to lay eggs with weakened shells that broke before \nhatching.\nRachel Carson, a marine biologist and author, became concerned about the use of \npesticides and their negative effects on the environment. Carson began to write books and \nspeak about the dangers of pesticides. Her actions eventually led to many changes in our \nuse of pesticides and proved valuable to protecting our environment and people from the \nnegative effects that were being discovered about pesticides.\nSource: http://www.signature-reads.com/2015/04/\nheadstrong-52-female-scientists-and-their-earth-shaking-\ndiscoveries/\nRachel Carson",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 As more information became available, DDT changed from being considered a \u201cmiracle pesticide\u201d to an environmental problem. \u2014 DDT was thought to be a good solution to the mosquito problem, but this changed as scientists observed more of the side effects of its use. \u2014 At first, DDT was thought to be good as a pesticide, but later was found to be harmful to birds/other animals."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Explain why most human cells require a supply of glucose.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_64_67.png",
+      "context": "Base your answers to questions 64 through 67 on the information and graph below and on your knowledge of \nbiology. The graph shows the change in the blood glucose level of one person after eating a cookie.\n0\n30\n60\n90\n120\n85\n100\n115\nTime (minutes)\nBlood Glucose\n(milligrams per deciliter)\nSource: Adapted from https://www.sciencenews.org/article/\ngood-diet-you-may-be-bad-me\nBlood Glucose Over Time",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Cells require a supply of glucose to produce ATP. \u2014 Cells need glucose to carry out cellular respiration. \u2014 Cells need glucose to release energy/for energy/as a source of energy. \u2014 Glucose is needed to provide energy for cells."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "State one speci\ufb01 c response of the body to the increase in blood glucose level that would account for the changes that begin about 30 minutes after eating the cookie.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_64_67.png",
+      "context": "Base your answers to questions 64 through 67 on the information and graph below and on your knowledge of \nbiology. The graph shows the change in the blood glucose level of one person after eating a cookie.\n0\n30\n60\n90\n120\n85\n100\n115\nTime (minutes)\nBlood Glucose\n(milligrams per deciliter)\nSource: Adapted from https://www.sciencenews.org/article/\ngood-diet-you-may-be-bad-me\nBlood Glucose Over Time",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The pancreas releases insulin, lowering blood sugar. \u2014 Insulin is released by the body. \u2014 Insulin is released and glucose enters cells. \u2014 Glucose/sugar moves into the cells. \u2014 The body stores glucose as glycogen. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Describe how the line representing blood glucose would change if the body could not take corrective actions to return this system to normal levels after eating a cookie.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_64_67.png",
+      "context": "Base your answers to questions 64 through 67 on the information and graph below and on your knowledge of \nbiology. The graph shows the change in the blood glucose level of one person after eating a cookie.\n0\n30\n60\n90\n120\n85\n100\n115\nTime (minutes)\nBlood Glucose\n(milligrams per deciliter)\nSource: Adapted from https://www.sciencenews.org/article/\ngood-diet-you-may-be-bad-me\nBlood Glucose Over Time",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The line would show increased blood glucose levels, which are not brought back down. \u2014 The line would stay at a high level and not come back down for a long time. \u2014 The line might go down at a slower rate. \u2014 The line would increase."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Based on the data and information provided,",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_64_67.png",
+      "context": "Base your answers to questions 64 through 67 on the information and graph below and on your knowledge of \nbiology. The graph shows the change in the blood glucose level of one person after eating a cookie.\n0\n30\n60\n90\n120\n85\n100\n115\nTime (minutes)\nBlood Glucose\n(milligrams per deciliter)\nSource: Adapted from https://www.sciencenews.org/article/\ngood-diet-you-may-be-bad-me\nBlood Glucose Over Time",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating whether or not, based on the information provided, it would be valid to conclude that bananas supply more glucose than cookies and supporting the answer. Acceptable responses include, but are not limited to: \u2014 No, it is not valid because only a cookie was tested. \u2014 No, it is not valid because there is no data for bananas. \u2014 No, bananas were not tested. Note: The student\u2019s response to the bulleted items in question 68\u201371 need not appear in the following order."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 68\u201371 on the information below and on your knowledge of biology.\nArti\ufb01 cial Placenta\nIt is estimated that every year more than 15 million babies are born too early. The lungs \nof these premature infants are often immature and easily damaged. Premature births happen \nfor a variety of reasons\u2014some known and some unknown. Those that are known include \ninfections and conditions such as diabetes and high blood pressure. Scientists are researching \nwhat causes premature births, in an attempt to develop solutions to prevent them.\nScientists are also working on the development of an arti\ufb01 cial placenta. At the University \nof Michigan, \ufb01 ve premature lambs were placed in arti\ufb01 cial placentas and kept alive for \nweeks. During this time, each lamb\u2019s blood was circulated through its arti\ufb01 cial placenta.\n68\u201371 Discuss how the development of an arti\ufb01 cial placenta is an important step in the study of premature \nbirths. In your answer, be sure to:\n\u2022 explain why it would be harmful for a human mother\u2019s blood to pass across the placenta and into the \nfetus   [1]\n\u2022 state how an arti\ufb01 cial placenta would be of bene\ufb01 t to the lungs of premature infants   [1]\n\u2022 explain why the lambs\u2019 blood must be \ufb01 ltered as it circulates through the arti\ufb01 cial placenta   [1]\n\u2022 state one reason why premature lambs were likely used as model organisms in this study rather than \nmice   [1]\n 72 As the rate of environmental change has increased over the last 50-100 years, there has been an increase in \nextinction rates. Lower reproductive rates seem to have also contributed to this increase in extinctions.\nDescribe one possible reason for an increased extinction rate in populations of species with a lower rate of \nreproduction.   [1]\n\n Living Environment\u2013Jan. \u201920 \n[23] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating why it would be harmful for a human mother\u2019s blood to pass across the placenta and into the fetus. Acceptable responses include, but are not limited to: \u2014 The mother\u2019s blood may be interpreted as a pathogen and attacked by the fetus\u2019s immune system. \u2014 The mother\u2019s blood could contain chemicals and pathogens that could harm the fetus. \u2014 It could cause an immune response. \u2014 It could be a different blood type that could cause a reaction. \u2014 It could harm the fetus\u2019s organs."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "68\u201371 Discuss how the development of an arti\ufb01 cial placenta is an important step in the study of premature births. In your answer, be sure to: \u2022 explain why it would be harmful for a human mother\u2019s blood to pass across the placenta and into the fetus \u2022 state how an arti\ufb01 cial placenta would be of bene\ufb01 t to the lungs of premature infants \u2022 explain why the lambs\u2019 blood must be \ufb01 ltered as it circulates through the arti\ufb01 cial placenta \u2022 state one reason why premature lambs were likely used as model organisms in this study rather than mice",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 68\u201371 on the information below and on your knowledge of biology.\nArti\ufb01 cial Placenta\nIt is estimated that every year more than 15 million babies are born too early. The lungs \nof these premature infants are often immature and easily damaged. Premature births happen \nfor a variety of reasons\u2014some known and some unknown. Those that are known include \ninfections and conditions such as diabetes and high blood pressure. Scientists are researching \nwhat causes premature births, in an attempt to develop solutions to prevent them.\nScientists are also working on the development of an arti\ufb01 cial placenta. At the University \nof Michigan, \ufb01 ve premature lambs were placed in arti\ufb01 cial placentas and kept alive for \nweeks. During this time, each lamb\u2019s blood was circulated through its arti\ufb01 cial placenta.\n68\u201371 Discuss how the development of an arti\ufb01 cial placenta is an important step in the study of premature \nbirths. In your answer, be sure to:\n\u2022 explain why it would be harmful for a human mother\u2019s blood to pass across the placenta and into the \nfetus   [1]\n\u2022 state how an arti\ufb01 cial placenta would be of bene\ufb01 t to the lungs of premature infants   [1]\n\u2022 explain why the lambs\u2019 blood must be \ufb01 ltered as it circulates through the arti\ufb01 cial placenta   [1]\n\u2022 state one reason why premature lambs were likely used as model organisms in this study rather than \nmice   [1]\n 72 As the rate of environmental change has increased over the last 50-100 years, there has been an increase in \nextinction rates. Lower reproductive rates seem to have also contributed to this increase in extinctions.\nDescribe one possible reason for an increased extinction rate in populations of species with a lower rate of \nreproduction.   [1]\n\n Living Environment\u2013Jan. \u201920 \n[23] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for discussing why premature lambs were likely used as model organisms in this study rather than mice. Acceptable responses include, but are not limited to: \u2014 Lambs are larger and more similar to human fetuses than mice are. \u2014 The development of a premature lamb is more similar to that of a human."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "As the rate of environmental change has increased over the last 50-100 years,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 A lower rate of reproduction may not produce enough variation for this species to be able to survive an environmental change. \u2014 The reproductive rate may be too low to maintain survival of these organisms in a changing environment. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "The messenger RNA sequence that codes for the amino acid chain TYR\u2013ARG\u2013GLY\u2013VAL\u2013ALA\u2013LEU is",
+      "choices": [
+        "UAU\u2013CGA\u2013GUU\u2013UUU\u2013UUA\u2013CUC",
+        "UAU\u2013CGA\u2013GGA\u2013GUU\u2013GCG\u2013CUC",
+        "CUC\u2013GCG\u2013GUU\u2013GGA\u2013CGA\u2013UAU",
+        "CUC\u2013UUA\u2013UUU\u2013GUU\u2013CGA\u2013UAU"
+      ],
+      "image": "/images/exams/living-environment/january-2020/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the information and Universal Genetic Code Chart below and \non your knowledge of biology.\nSECOND BASE\nT\nH\nI\nR\nD\nB\nA\nS\nE\nF\nI\nR\nS\nT\nB\nA\nS\nE\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nUUU\nUUC\nUUA\nUUG\nCUU\nCUC\nCUA\nCUG\nAUU\nAUC\nAUA\nAUG\nGUU\nGUC\nGUA\nGUG\nUCU\nUCC\nUCA\nUCG\nCCU\nCCC\nCCA\nCCG\nACU\nACC\nACA\nACG\nGCU\nGCC\nGCA\nGCG\nUAU\nUAC\nUAA\nUAG\nCAU\nCAC\nCAA\nCAG\nAAU\nAAC\nAAA\nAAG\nGAU\nGAC\nGAA\nGAG\nUGU\nUGC\nUGA\nUGG\nCGU\nCGC\nCGA\nCGG\nAGU\nAGC\nAGA\nAGG\nGGU\nGGC\nGGA\nGGG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nPHE\nLEU\nLEU\nILE\nMET or \nSTART\nVAL\nSER\nPRO\nTHR\nALA\nTYR\nSTOP\nHIS\nGLN\nASN\nLYS\nASP\nGLU\nARG\nSER\nARG\nGLY\nCYS\nSTOP\nTRP\nUniversal Genetic Code Chart\nU\n \nNote: The answer to question 73 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "The messenger RNA sequence that is most likely to produce a functional protein is",
+      "choices": [
+        "UGA\u2013UAU\u2013CGA\u2013GGA\u2013GUU\u2013GCG\u2013CUC\u2013UAG",
+        "UAG\u2013UAU\u2013CGA\u2013GGA\u2013GUU\u2013GCG\u2013CUC\u2013AUG",
+        "AUG\u2013UAU\u2013CGA\u2013GGA\u2013GUU\u2013GCG\u2013CUC\u2013UGA",
+        "UAA\u2013CUC\u2013UUA\u2013UUU\u2013GUU\u2013CGA\u2013UAU\u2013UAA"
+      ],
+      "image": "/images/exams/living-environment/january-2020/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the information and Universal Genetic Code Chart below and \non your knowledge of biology.\nSECOND BASE\nT\nH\nI\nR\nD\nB\nA\nS\nE\nF\nI\nR\nS\nT\nB\nA\nS\nE\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nUUU\nUUC\nUUA\nUUG\nCUU\nCUC\nCUA\nCUG\nAUU\nAUC\nAUA\nAUG\nGUU\nGUC\nGUA\nGUG\nUCU\nUCC\nUCA\nUCG\nCCU\nCCC\nCCA\nCCG\nACU\nACC\nACA\nACG\nGCU\nGCC\nGCA\nGCG\nUAU\nUAC\nUAA\nUAG\nCAU\nCAC\nCAA\nCAG\nAAU\nAAC\nAAA\nAAG\nGAU\nGAC\nGAA\nGAG\nUGU\nUGC\nUGA\nUGG\nCGU\nCGC\nCGA\nCGG\nAGU\nAGC\nAGA\nAGG\nGGU\nGGC\nGGA\nGGG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nPHE\nLEU\nLEU\nILE\nMET or \nSTART\nVAL\nSER\nPRO\nTHR\nALA\nTYR\nSTOP\nHIS\nGLN\nASN\nLYS\nASP\nGLU\nARG\nSER\nARG\nGLY\nCYS\nSTOP\nTRP\nUniversal Genetic Code Chart\nU\n \nNote: The answer to question 73 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "In order to compare the composition of the pigments on the suspect\u2019s jeans to the pigments of the plants at the home, the forensic scientist should use",
+      "choices": [
+        "restriction enzymes",
+        "genetic engineering",
+        "paper chromatography",
+        "receptor molecules"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 75 and 76 on the information below and on your knowledge of biology.\nA forensic scientist is trying to determine if the plant pieces found on a burglary suspect \nmatch the plants found outside a home that was robbed. The suspect had plant pieces in the \nhood of his jacket as well as green stains on the knees of his jeans.\n \nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "The evidence that would be most convincing in determining that the plant pieces found in the suspect\u2019s hood matched the plants outside the home that was robbed would be if they both had the same",
+      "choices": [
+        "color \ufb02 ower petal",
+        "gene sequence",
+        "kind of pollen grains",
+        "type of leaf structure"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 75 and 76 on the information below and on your knowledge of biology.\nA forensic scientist is trying to determine if the plant pieces found on a burglary suspect \nmatch the plants found outside a home that was robbed. The suspect had plant pieces in the \nhood of his jacket as well as green stains on the knees of his jeans.\n \nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Identify one molecule, present in this setup, that will be able to pass through the dialysis tubing.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_77_78.png",
+      "context": "Base your answers to questions 77 and 78 on the information below and on your knowledge of biology.\nThe diagram below represents a lab setup. The arti\ufb01 cial cell (dialysis tube) contains a \nstarch solution and the beaker contains a solution of starch indicator and water. The setup is \nleft undisturbed for twenty minutes.\nStarch indicator and water\nDialysis tube\nStarch solution",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for starch indicator/iodine or water."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Describe one observation that could be made that would con\ufb01 rm that the molecule you identi\ufb01 ed in question 77",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_77_78.png",
+      "context": "Base your answers to questions 77 and 78 on the information below and on your knowledge of biology.\nThe diagram below represents a lab setup. The arti\ufb01 cial cell (dialysis tube) contains a \nstarch solution and the beaker contains a solution of starch indicator and water. The setup is \nleft undisturbed for twenty minutes.\nStarch indicator and water\nDialysis tube\nStarch solution",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 If the color of the liquid in the cell turns blue-black, the starch indicator passed into the cell. \u2014 If the cell weighs more, water moved in. \u2014 If the cell weighs less, water moved out. \u2014 The cell would expand if water moved in. \u2014 The cell would shrink if water moved out. \u2014 If the starch had passed through, the water in the beaker would have changed color/turned blue-black."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "A new \ufb01 nch is found to have a diet of worms and caterpillars. Identify one \ufb01 nch from the diagram that would have a beak most similar to the new \ufb01 nch. Support your answer. Finch: _________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_79_79.png",
+      "context": "Base your answer to question 79 on the diagram below and on your knowledge of biology.\nVariations in Beaks of Galapagos Islands Finches\nLarge\nground \nfinch\nVegetarian\nfinch\nLarge \ntree finch\nSmall\ntree finch\nWoodpecker\nfinch\nWarbler\nfinch\nCactus\nfinch\nSharp-billed\nground finch\nSmall\nground\nfinch\nMedium\nground\nfinch\nE\nd\ng\ne\n \nc\nr\nu\ns\nh\ni\nn\ng\n \n \n \n \n \n \n \n \nB\ni\nti\nn\ng\n \nt\ni\np\ns\nMainly\nplant \nfood\nMainly\nanimal \nfood\nG\nr\na\ns\np\ni\nn\ng\n \nb\nil\nl\ns\nAll\nanimal\nfood\nP\nr\no\nb\ni\nn\ng\n \n \n \nP\nr\no\nb\ni\nn\ng\n \nb\ni\nl\nl\ns\nSource: Galapagos: A Natural History Guide\nC\nr\nu\ns\nh\ni\nn\ng\n \nb\ni\nl\nl\ns",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying one finch from the diagram that would have a beak most similar to the new finch and supporting the answer. Acceptable responses include, but are not limited to: \u2014 warbler finch, because it eats all animal food \u2014 small tree finch, because it eats mainly animal food \u2014 large tree finch, because it has a biting/grasping beak that would allow it to pick up and crush caterpillars and worms \u2014 woodpecker finch, because it eats mainly animal food"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "A student was given forceps (tweezers) as his tool in the Beaks of Finches lab. Circle which type of food he would likely pick up most easily \u2013 small seeds or large seeds. Support your answer. Small seeds Large seeds Support:",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 small seeds, because the tweezers have small prongs \u2014 small seeds, because the tweezers aren\u2019t strong enough to hold the big seeds \u2014 small seeds, because the big seeds won\u2019t fit in the tweezers/would slip out of the small forceps \u2014 It could be either size depending on the size of the forceps. \u2014 Larger seeds are easier to pick up because they have a larger surface area. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "After 20 minutes, the section of paper towel connecting the two beakers had turned color. The towel most likely turned green as a result of the",
+      "choices": [
+        "separation of the dye molecules through the process of chromatography",
+        "dyes moving across the towel due to the process of electrophoresis",
+        "diffusion of the blue- and yellow-dyed water across the towel",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2020/context_81_81.png",
+      "context": "Base your answer to question 81 on the information and diagram below and on your knowledge of biology.\nA student added equal volumes of water to two different beakers. He then added blue \nfood dye to one and yellow to the other. Next, he placed a white paper towel across the two \nbeakers so that it went down into the liquid and connected the two beakers.\nPaper towel\nBlue\nYellow\nBeakers of water\nGreen\n \nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "A section of the mammalian evolutionary tree is shown below. 1 2 3 4 Source: Adapted from Norton Media Library, W. W. Norton & Company, 2012 Pigs Ruminants Hippopotamuses Cetaceans Horses Rhinoceroses Tapirs Hyraxes Manatees Elephants Which number would indicate the most recent common ancestor of the hyrax, elephant, and manatee on the section of this mammalian evolutionary tree?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": "/images/exams/living-environment/january-2020/context_82_83.png",
+      "context": "Base your answers to questions 82 and 83 on the information and photograph below and on your knowledge \nof biology.\nA Close Relative of the Elephant\nA hyrax is an animal that has been called a rock rabbit and looks like a guinea pig. Fossil \nrecords show that hyraxes \ufb01 rst appeared on Earth approximately 37 million years ago. As they \nevolved, some became mouse-sized, while some were the size of a horse. Some eventually \nadapted to marine life and are related to manatees, and some became grazers and are related \nto elephants.\nSource: https://www.mnn.com/earth-matters/animals/photos/\n12-facts-change-way-see-elephants/elephants-closest-relative-rock-hyrax\nHyrax and Elephant\n Living Environment\u2013Jan. \u201920 \n[28]\n\n Living Environment\u2013Jan. \u201920 \n[29] \n[OVER]\n \nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Identify one type of molecular evidence that could have been used to develop this mammalian evolutionary tree, and describe one speci\ufb01 c way that the evidence could have been used to construct the tree. Evidence: ________________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_82_83.png",
+      "context": "Base your answers to questions 82 and 83 on the information and photograph below and on your knowledge \nof biology.\nA Close Relative of the Elephant\nA hyrax is an animal that has been called a rock rabbit and looks like a guinea pig. Fossil \nrecords show that hyraxes \ufb01 rst appeared on Earth approximately 37 million years ago. As they \nevolved, some became mouse-sized, while some were the size of a horse. Some eventually \nadapted to marine life and are related to manatees, and some became grazers and are related \nto elephants.\nSource: https://www.mnn.com/earth-matters/animals/photos/\n12-facts-change-way-see-elephants/elephants-closest-relative-rock-hyrax\nHyrax and Elephant\n Living Environment\u2013Jan. \u201920 \n[28]\n\n Living Environment\u2013Jan. \u201920 \n[29] \n[OVER]\n \nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Evidence: DNA \u2014 The more similar the DNA codes of organisms are, the closer the organisms will be on the tree. Evidence: Similar proteins \u2014 If organisms produce several similar proteins, they are likely to be closely related and closer on the evolutionary tree. Evidence: Amino acid sequences \u2014 The more amino acid sequences that are the same in two organisms, the more closely related they are."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "What was the student\u2019s resting pulse rate in beats per minute? ___________ beats/min.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the information and graph below and on your knowledge of \nbiology.\nDuring a lab experiment a student took his resting pulse rate, counting 23 beats in \n20 seconds. The student then exercised for several minutes. The student\u2019s pulse was taken \nimmediately after the exercise, and then every minute for 6 minutes. The graph below shows \nchanges in the pulse rate after the exercise was completed.\nTime Elapsed After Exercise\nPulse Rate\n(beats/min.)\n100\n0\n40\n80\n20\n60\n120\n140\n160\n180\nPulse Rate vs. Time\n1 min after\n2 min after\n3 min after\n4 min after\n5 min after\n6 min after\nExercise",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 69 beats/min."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "State one biological explanation for how the pulse rate increase bene\ufb01 ted the student as he exercised. LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2020/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the information and graph below and on your knowledge of \nbiology.\nDuring a lab experiment a student took his resting pulse rate, counting 23 beats in \n20 seconds. The student then exercised for several minutes. The student\u2019s pulse was taken \nimmediately after the exercise, and then every minute for 6 minutes. The graph below shows \nchanges in the pulse rate after the exercise was completed.\nTime Elapsed After Exercise\nPulse Rate\n(beats/min.)\n100\n0\n40\n80\n20\n60\n120\n140\n160\n180\nPulse Rate vs. Time\n1 min after\n2 min after\n3 min after\n4 min after\n5 min after\n6 min after\nExercise",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The CO2 level in the blood would decrease faster due to a faster pulse/heart rate. \u2014 More blood is going to the lungs per minute for gas exchange. \u2014 More blood is going to the muscles per minute, providing more glucose/oxygen for energy. Living Environment Rating Guide \u2013 Jan. \u2019"
+    }
+  ]
+}

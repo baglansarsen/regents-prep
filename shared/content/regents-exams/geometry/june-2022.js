@@ -25,8 +25,7 @@ export default {
       topic: 'Area & Volume',
       correct: 2,
       explanation: 'A plane cutting a square pyramid parallel to its square base produces a cross section that is also a square.',
-      diveDeep: 'Cross sections of pyramids parallel to the base are always similar to the base. A square pyramid has a square base, so a parallel cross section is a square. If you cut a cone parallel to its circular base you get a circle; if you cut a triangular pyramid (tetrahedron) parallel to its base you get a triangle. Cutting perpendicular to the base of a square pyramid produces a triangle or rectangle depending on the orientation. Cross-section visualization is a key 3D Geometry skill on the Regents.'
-    },
+      diveDeep: 'Cross sections of pyramids parallel to the base are always similar to the base. A square pyramid has a square base, so a parallel cross section is a square. If you cut a cone parallel to its circular base you get a circle; if you cut a triangular pyramid (tetrahedron) parallel to its base you get a triangle. Cutting perpendicular to the base of a square pyramid produces a triangle or rectangle depending on the orientation. Cross-section visualization is a key 3D Geometry skill on the Regents.', image: '/images/exams/geo-june-2022/q2.png' },
     {
       number: 3,
       part: 'A',
@@ -35,8 +34,7 @@ export default {
       topic: 'Similarity & Proof',
       correct: 0,
       explanation: 'In right triangle CAB, sin A = opposite/hypotenuse = CB/CA, and since △CDE ~ △CAB, sin A = DE/CD by the corresponding ratio.',
-      diveDeep: 'When two triangles are similar, corresponding trigonometric ratios are equal. In this dilation, △CAB ~ △CDE with correspondence A↔D, B↔E. The sine of angle A equals the ratio of the side opposite A to the hypotenuse in the similar triangle: sin A = DE/CD. This problem tests whether students understand that trig ratios depend only on angle measure, not on the size of the triangle. This is the foundation of why trig works for any size right triangle.'
-    },
+      diveDeep: 'When two triangles are similar, corresponding trigonometric ratios are equal. In this dilation, △CAB ~ △CDE with correspondence A↔D, B↔E. The sine of angle A equals the ratio of the side opposite A to the hypotenuse in the similar triangle: sin A = DE/CD. This problem tests whether students understand that trig ratios depend only on angle measure, not on the size of the triangle. This is the foundation of why trig works for any size right triangle.', image: '/images/exams/geo-june-2022/q3.png' },
     {
       number: 4,
       part: 'A',
@@ -82,8 +80,7 @@ export default {
       topic: 'Congruence & Transformations',
       correct: 3,
       explanation: 'Since AE = DE and BE = CE, triangles AEB and DEC are congruent by SAS (vertical angles at E), so ∠EAC = ∠EDB by CPCTC.',
-      diveDeep: 'With AE = DE and BE = CE, and ∠AEB = ∠DEC (vertical angles), △AEB ≅ △DEC by SAS. By CPCTC, corresponding angles ∠EAB = ∠EDB (or written ∠EAC = ∠EDB). Note that EB = EC is already given (choice A restates a given), and AC = DB requires the full diagonal lengths which may not be directly proven here. Always check which triangles to prove congruent and apply CPCTC to get the desired conclusion.'
-    },
+      diveDeep: 'With AE = DE and BE = CE, and ∠AEB = ∠DEC (vertical angles), △AEB ≅ △DEC by SAS. By CPCTC, corresponding angles ∠EAB = ∠EDB (or written ∠EAC = ∠EDB). Note that EB = EC is already given (choice A restates a given), and AC = DB requires the full diagonal lengths which may not be directly proven here. Always check which triangles to prove congruent and apply CPCTC to get the desired conclusion.', image: '/images/exams/geo-june-2022/q7.png' },
     {
       number: 8,
       part: 'A',
@@ -97,8 +94,7 @@ export default {
       topic: '3D Geometry & Volume',
       correct: 0,
       explanation: 'Rotating a right triangle about one of its legs generates a cone. The leg of length 8 is the axis (height), so BC = 15 sweeps out the base radius, giving a cone with radius 15 and height 8.',
-      diveDeep: 'When a right triangle is rotated about one of its legs, the other leg sweeps out the circular base of a cone, and the hypotenuse sweeps out the lateral surface. The axis of rotation becomes the height of the cone. Here AC is the axis; if AC = 8, then BC = 15 is the radius. If the rotation were about BC, the radius would be 8 and height 15. The slant height of the cone equals the hypotenuse: √(8² + 15²) = √(64 + 225) = √289 = 17. This is a classic 8-15-17 Pythagorean triple.'
-    },
+      diveDeep: 'When a right triangle is rotated about one of its legs, the other leg sweeps out the circular base of a cone, and the hypotenuse sweeps out the lateral surface. The axis of rotation becomes the height of the cone. Here AC is the axis; if AC = 8, then BC = 15 is the radius. If the rotation were about BC, the radius would be 8 and height 15. The slant height of the cone equals the hypotenuse: √(8² + 15²) = √(64 + 225) = √289 = 17. This is a classic 8-15-17 Pythagorean triple.', image: '/images/exams/geo-june-2022/q8.png' },
     {
       number: 9,
       part: 'A',
@@ -107,8 +103,7 @@ export default {
       topic: 'Angles & Lines',
       correct: 2,
       explanation: '∠4 ≅ ∠7 means alternate interior angles between lines k and ℓ cut by transversal n are equal, proving k ∥ ℓ, and along with the other pair of parallel sides proves ABCD is a parallelogram.',
-      diveDeep: 'A parallelogram requires both pairs of opposite sides to be parallel. Alternate interior angles being congruent proves two lines are parallel. ∠4 and ∠7 are alternate interior angles formed by the transversal n cutting lines k and ℓ, so their congruence proves k ∥ ℓ. Combined with m ∥ n (if established), ABCD is a parallelogram. Analyze each choice by identifying which lines and which angle relationship each refers to. Choices A and C alone may only prove one pair of parallel sides.'
-    },
+      diveDeep: 'A parallelogram requires both pairs of opposite sides to be parallel. Alternate interior angles being congruent proves two lines are parallel. ∠4 and ∠7 are alternate interior angles formed by the transversal n cutting lines k and ℓ, so their congruence proves k ∥ ℓ. Combined with m ∥ n (if established), ABCD is a parallelogram. Analyze each choice by identifying which lines and which angle relationship each refers to. Choices A and C alone may only prove one pair of parallel sides.', image: '/images/exams/geo-june-2022/q9.png' },
     {
       number: 10,
       part: 'A',
@@ -132,8 +127,7 @@ export default {
       topic: 'Similarity & Proof',
       correct: 1,
       explanation: 'By similar triangles (AA), EF/HG = FI/HI: 5/12 = (1.4x + 3)/(6.1x − 6.5). Cross-multiplying and solving gives x = 2.5, so HI = 6.1(2.5) − 6.5 = 15.25 − 6.5 ≈ 8.75. Using the proportion correctly: 5(6.1x − 6.5) = 12(1.4x + 3) → 30.5x − 32.5 = 16.8x + 36 → 13.7x = 68.5 → x ≈ 5, HI = 6.1(5) − 6.5 = 24.',
-      diveDeep: 'When two parallel lines are cut by transversals meeting at a point, the triangles formed are similar. The ratio EF:HG = FI:HI = EI:GI. Set up the proportion 5/12 = (1.4x + 3)/(6.1x − 6.5), cross-multiply to get 5(6.1x − 6.5) = 12(1.4x + 3), and solve for x. Substituting back gives the actual segment length. This is an application of the Triangle Proportionality theorem and the properties of similar triangles.'
-    },
+      diveDeep: 'When two parallel lines are cut by transversals meeting at a point, the triangles formed are similar. The ratio EF:HG = FI:HI = EI:GI. Set up the proportion 5/12 = (1.4x + 3)/(6.1x − 6.5), cross-multiply to get 5(6.1x − 6.5) = 12(1.4x + 3), and solve for x. Substituting back gives the actual segment length. This is an application of the Triangle Proportionality theorem and the properties of similar triangles.', image: '/images/exams/geo-june-2022/q11.png' },
     {
       number: 12,
       part: 'A',
@@ -142,8 +136,7 @@ export default {
       topic: 'Area & Volume',
       correct: 0,
       explanation: 'Volume = (1/3)(4.5²)(10) = (1/3)(20.25)(10) = 67.5 cm³. Mass = density × volume = 0.676 × 67.5 ≈ 45.6 g.',
-      diveDeep: 'Mass = density × volume. The pyramid volume is V = (1/3)Bh = (1/3)(4.5²)(10) = (1/3)(20.25)(10) = 67.5 cm³. Then mass = 0.676 g/cm³ × 67.5 cm³ ≈ 45.63 g ≈ 45.6 g. A common mistake is forgetting the 1/3 factor for pyramid volume and computing 202.5 cm³ instead. Density problems combine volume formulas with the D = M/V relationship. Always verify the units: cm³ × g/cm³ = g.'
-    },
+      diveDeep: 'Mass = density × volume. The pyramid volume is V = (1/3)Bh = (1/3)(4.5²)(10) = (1/3)(20.25)(10) = 67.5 cm³. Then mass = 0.676 g/cm³ × 67.5 cm³ ≈ 45.63 g ≈ 45.6 g. A common mistake is forgetting the 1/3 factor for pyramid volume and computing 202.5 cm³ instead. Density problems combine volume formulas with the D = M/V relationship. Always verify the units: cm³ × g/cm³ = g.', image: '/images/exams/geo-june-2022/q12.png' },
     {
       number: 13,
       part: 'A',
@@ -152,8 +145,7 @@ export default {
       topic: 'Similarity & Proof',
       correct: 2,
       explanation: 'EF² = EH × EG (geometric mean leg theorem): 15² = EH × EG. Also FH² = EH × HG: 81 = EH × HG. With EF = 15 and FH = 9, EH = EF² / (something)… Using EH = EF²/EG and the altitude theorem: FH² = EH · HG, work through to find EH = 225/EG and then solve. Alternatively, EH = EF²/EG: 9² = EH · (EG − EH). From EF² = EH · EG: EH = 225/EG. Then 81 = (225/EG)(EG − 225/EG) → 81EG² = 225EG − 225² → solve to get EG = 25.',
-      diveDeep: 'In a right triangle with altitude to the hypotenuse: each leg is the geometric mean of the hypotenuse and the adjacent segment (EF² = EH · EG), and the altitude is the geometric mean of the two hypotenuse segments (FH² = EH · HG). From EF² = EH · EG: 225 = EH · EG, so EH = 225/EG. From FH² = EH · HG = EH(EG − EH): substitute EH = 225/EG to get 81 = (225/EG)(EG − 225/EG), leading to EG = 25. These geometric mean relationships come directly from the three similar triangles created by the altitude.'
-    },
+      diveDeep: 'In a right triangle with altitude to the hypotenuse: each leg is the geometric mean of the hypotenuse and the adjacent segment (EF² = EH · EG), and the altitude is the geometric mean of the two hypotenuse segments (FH² = EH · HG). From EF² = EH · EG: 225 = EH · EG, so EH = 225/EG. From FH² = EH · HG = EH(EG − EH): substitute EH = 225/EG to get 81 = (225/EG)(EG − 225/EG), leading to EG = 25. These geometric mean relationships come directly from the three similar triangles created by the altitude.', image: '/images/exams/geo-june-2022/q13.png' },
     {
       number: 14,
       part: 'A',
@@ -167,8 +159,7 @@ export default {
       topic: 'Similarity & Proof',
       correct: 1,
       explanation: 'By AA similarity (∠A is shared, ∠ADE = ∠ABC as corresponding angles with DE ∥ BC), △ADE ∼ △ABC.',
-      diveDeep: 'The Triangle Proportionality theorem: if a line is parallel to one side of a triangle and intersects the other two sides, it creates a smaller triangle similar to the original. With DE ∥ BC, ∠A is common to both triangles, and ∠ADE = ∠ABC (corresponding angles), giving AA similarity. This means AD/AB = AE/AC = DE/BC. Choice C (DE = BC/2) would only be true if D and E are midpoints — not necessarily the case. Choice D (AD = DB) would only hold at the midpoint.'
-    },
+      diveDeep: 'The Triangle Proportionality theorem: if a line is parallel to one side of a triangle and intersects the other two sides, it creates a smaller triangle similar to the original. With DE ∥ BC, ∠A is common to both triangles, and ∠ADE = ∠ABC (corresponding angles), giving AA similarity. This means AD/AB = AE/AC = DE/BC. Choice C (DE = BC/2) would only be true if D and E are midpoints — not necessarily the case. Choice D (AD = DB) would only hold at the midpoint.', image: '/images/exams/geo-june-2022/q14.png' },
     {
       number: 15,
       part: 'A',
@@ -231,8 +222,7 @@ export default {
       topic: 'Circles',
       correct: 0,
       explanation: 'The tangent-secant angle from an external point equals half the difference of the intercepted arcs. Arc AC = 100°, so arc ADC = 180° − 100° = 80° (since AC + ADC = 180° as A is on a semicircle). ∠P = (1/2)|arc AC − arc AD| = (1/2)|100° − 80°| = 10°.',
-      diveDeep: 'When a tangent and a secant (or two secants, or two tangents) meet at an external point, the angle equals half the positive difference of the intercepted arcs. Here arc AOD is a diameter (180°), so arc AC = 100° means arc CD = 80°. The tangent PA touches at A, and the secant goes through the diameter. ∠P = (1/2)(far arc − near arc). Identifying the correct "far" and "near" arcs is the key skill. The tangent-secant angle formula is one of the most frequently tested circle theorems.'
-    },
+      diveDeep: 'When a tangent and a secant (or two secants, or two tangents) meet at an external point, the angle equals half the positive difference of the intercepted arcs. Here arc AOD is a diameter (180°), so arc AC = 100° means arc CD = 80°. The tangent PA touches at A, and the secant goes through the diameter. ∠P = (1/2)(far arc − near arc). Identifying the correct "far" and "near" arcs is the key skill. The tangent-secant angle formula is one of the most frequently tested circle theorems.', image: '/images/exams/geo-june-2022/q19.png' },
     {
       number: 20,
       part: 'A',
@@ -246,8 +236,7 @@ export default {
       topic: 'Coordinate Geometry',
       correct: 3,
       explanation: 'Midpoint of JM = (6, 5). Slope of JM = (9 − 1)/(7 − 5) = 8/2 = 4. Perpendicular slope = −1/4. Equation: y − 5 = −(1/4)(x − 6).',
-      diveDeep: 'Steps for a perpendicular bisector: (1) midpoint = ((5+7)/2, (1+9)/2) = (6, 5); (2) slope of JM = (9−1)/(7−5) = 4; (3) perpendicular slope = −1/4 (negative reciprocal); (4) point-slope form: y − 5 = −(1/4)(x − 6). The perpendicular bisector is the locus of all points equidistant from J and M. It is used to find the circumcenter of a triangle (intersection of perpendicular bisectors). Always compute the midpoint and slope carefully before forming the equation.'
-    },
+      diveDeep: 'Steps for a perpendicular bisector: (1) midpoint = ((5+7)/2, (1+9)/2) = (6, 5); (2) slope of JM = (9−1)/(7−5) = 4; (3) perpendicular slope = −1/4 (negative reciprocal); (4) point-slope form: y − 5 = −(1/4)(x − 6). The perpendicular bisector is the locus of all points equidistant from J and M. It is used to find the circumcenter of a triangle (intersection of perpendicular bisectors). Always compute the midpoint and slope carefully before forming the equation.', image: '/images/exams/geo-june-2022/q20.png' },
     {
       number: 21,
       part: 'A',
@@ -256,8 +245,7 @@ export default {
       topic: 'Angles & Lines',
       correct: 0,
       explanation: 'In isosceles triangle EBF (EB = FB), ∠E = ∠F = 62°, so ∠EBF = 180° − 124° = 56°. Using the angle relationships with parallelogram and the given perpendicular, ∠FHB = 180° − 51° − 56° + adjustments = 79°.',
-      diveDeep: 'This multi-step angle problem requires tracking several angle relationships: isosceles triangle (EB = FB gives ∠E = ∠F = 62°), so ∠EBF = 56°. In parallelogram ABCD, opposite angles are equal and consecutive angles are supplementary. Use the exterior angle theorem and linear pairs to find ∠FHB. Multi-step geometry problems require setting up intermediate steps clearly — label each angle found before moving to the next. Work methodically: isosceles triangle first, then parallelogram properties, then the perpendicular.'
-    },
+      diveDeep: 'This multi-step angle problem requires tracking several angle relationships: isosceles triangle (EB = FB gives ∠E = ∠F = 62°), so ∠EBF = 56°. In parallelogram ABCD, opposite angles are equal and consecutive angles are supplementary. Use the exterior angle theorem and linear pairs to find ∠FHB. Multi-step geometry problems require setting up intermediate steps clearly — label each angle found before moving to the next. Work methodically: isosceles triangle first, then parallelogram properties, then the perpendicular.', image: '/images/exams/geo-june-2022/q21.png' },
     {
       number: 22,
       part: 'A',
@@ -281,8 +269,7 @@ export default {
       topic: 'Similarity & Proof',
       correct: 3,
       explanation: 'When a line is dilated with the center of dilation on the line, the image is the same line — it maps onto itself.',
-      diveDeep: 'A dilation of a line centered at a point ON the line maps the line to itself. Every point on the line either moves along the line (closer to or farther from the center) but the image is still the same line. This is different from a dilation centered at a point NOT on the line, which maps a line to a parallel line. The slope of a line is preserved under any dilation (dilations preserve angle measures and direction). This is an important conceptual distinction frequently tested on the Regents.'
-    },
+      diveDeep: 'A dilation of a line centered at a point ON the line maps the line to itself. Every point on the line either moves along the line (closer to or farther from the center) but the image is still the same line. This is different from a dilation centered at a point NOT on the line, which maps a line to a parallel line. The slope of a line is preserved under any dilation (dilations preserve angle measures and direction). This is an important conceptual distinction frequently tested on the Regents.', image: '/images/exams/geo-june-2022/q23.png' },
     {
       number: 24,
       part: 'A',
@@ -291,8 +278,7 @@ export default {
       topic: 'Circles',
       correct: 3,
       explanation: 'With OA = OC = 10 (radii), and ∠OBA = 36°, then ∠AOB = 90° − 36° = 54° (tangent-radius is perpendicular). Arc CD relates to the central angle. Sector area = (θ/360°)πr² = (central angle/360°) × π(10²). The central angle for sector DOE is found using the given angle: area = 15π.',
-      diveDeep: 'The tangent from external point B is perpendicular to radius OA, giving ∠OAB = 90°. In △OAB: ∠OBA = 36°, ∠OAB = 90°, so ∠AOB = 54°. Since OB is a secant along the diameter direction, the central angle for sector DOE can be calculated. Sector area formula: A = (θ/360)πr². With r = 10 and the appropriate central angle, A = (θ/360) × 100π = 15π implies θ = 54°. Always identify the central angle and radius before applying the sector formula.'
-    },
+      diveDeep: 'The tangent from external point B is perpendicular to radius OA, giving ∠OAB = 90°. In △OAB: ∠OBA = 36°, ∠OAB = 90°, so ∠AOB = 54°. Since OB is a secant along the diameter direction, the central angle for sector DOE can be calculated. Sector area formula: A = (θ/360)πr². With r = 10 and the appropriate central angle, A = (θ/360) × 100π = 15π implies θ = 54°. Always identify the central angle and radius before applying the sector formula.', image: '/images/exams/geo-june-2022/q24.png' },
     // Part B — 7 questions (2 credits each)
     {
       number: 25,
@@ -302,8 +288,7 @@ export default {
       topic: 'Trigonometry',
       explanation: 'Using trigonometry with the given angle (86.03°) and the vertical height (183.27 ft), set up sin(86.03°) = 183.27/x and solve: x = 183.27 / sin(86.03°) ≈ 183.61 feet.',
       diveDeep: 'In a right triangle formed by the tower, its vertical height, and the slant height, the angle at the ground is 86.03°. The vertical height (183.27 ft) is opposite the angle, and the slant height x is the hypotenuse. Thus sin(86.03°) = opposite/hypotenuse = 183.27/x, which gives x = 183.27/sin(86.03°). A common mistake is confusing the angle placement — the angle is measured from the ground to the slant, so the vertical height is indeed opposite that angle. Make sure your calculator is in degree mode. sin(86.03°) ≈ 0.9979, so x ≈ 183.27/0.9979 ≈ 183.65 ft.',
-      modelAnswer: 'sin(86.03°) = 183.27 / x\nx = 183.27 / sin(86.03°)\nx = 183.27 / 0.99786...\nx ≈ 183.65 feet'
-    },
+      modelAnswer: 'sin(86.03°) = 183.27 / x\nx = 183.27 / sin(86.03°)\nx = 183.27 / 0.99786...\nx ≈ 183.65 feet', image: '/images/exams/geo-june-2022/q25.png' },
     {
       number: 26,
       part: 'B',
@@ -312,8 +297,7 @@ export default {
       topic: 'Circles',
       explanation: 'The four arcs sum to 360°. With ratio 2:3:5:5, each part = 360/15 = 24°, so arc AB = 48°, arc BC = 72°, arc CD = 120°, arc DA = 120°. Inscribed angle B intercepts arc CD + arc DA (the arc not adjacent to B), giving m∠B = (1/2)(arc CDA) = (1/2)(120° + 120°) = 120°.',
       diveDeep: 'For a quadrilateral inscribed in a circle, the arcs must sum to 360°. The ratio 2:3:5:5 gives 15 total parts, so each part = 360°/15 = 24°. Arc AB = 48°, arc BC = 72°, arc CD = 120°, arc DA = 120°. An inscribed angle equals half the intercepted arc. Inscribed angle B is formed at vertex B, so it intercepts the arc that does NOT contain B — that is arc CD + arc DA = 240°. Therefore m∠B = 240°/2 = 120°. A frequent error is using only one adjacent arc instead of the entire arc on the opposite side.',
-      modelAnswer: 'Total parts = 2 + 3 + 5 + 5 = 15\nEach part = 360° / 15 = 24°\nArc AB = 2(24°) = 48°\nArc BC = 3(24°) = 72°\nArc CD = 5(24°) = 120°\nArc DA = 5(24°) = 120°\nInscribed ∠B intercepts arc CDA (not containing B):\nArc CDA = 120° + 120° = 240°\nm∠B = (1/2)(240°) = 120°'
-    },
+      modelAnswer: 'Total parts = 2 + 3 + 5 + 5 = 15\nEach part = 360° / 15 = 24°\nArc AB = 2(24°) = 48°\nArc BC = 3(24°) = 72°\nArc CD = 5(24°) = 120°\nArc DA = 5(24°) = 120°\nInscribed ∠B intercepts arc CDA (not containing B):\nArc CDA = 120° + 120° = 240°\nm∠B = (1/2)(240°) = 120°', image: '/images/exams/geo-june-2022/q26.png' },
     {
       number: 27,
       part: 'B',
@@ -322,8 +306,7 @@ export default {
       topic: 'Area & Volume',
       explanation: 'The radius is 5 and the slant height is 13. Use the Pythagorean theorem to find the height: h = √(13² − 5²) = √(169 − 25) = √144 = 12. Volume = (1/3)πr²h = (1/3)π(25)(12) = 100π.',
       diveDeep: 'For a cone, the slant height (l), the radius (r), and the height (h) form a right triangle: l² = r² + h². With diameter 10, radius r = 5; slant height l = 13. So h = √(13² − 5²) = √(169 − 25) = √144 = 12. This is a recognizable 5-12-13 Pythagorean triple. Volume of cone = (1/3)πr²h = (1/3)π(5²)(12) = (1/3)(25)(12)π = (300/3)π = 100π. A common mistake is using the slant height instead of the perpendicular height in the volume formula.',
-      modelAnswer: 'Radius r = 10/2 = 5\nSlant height l = 13\nh² = l² − r² = 13² − 5² = 169 − 25 = 144\nh = 12\nVolume = (1/3)πr²h = (1/3)π(5²)(12) = (1/3)(25)(12)π = 100π'
-    },
+      modelAnswer: 'Radius r = 10/2 = 5\nSlant height l = 13\nh² = l² − r² = 13² − 5² = 169 − 25 = 144\nh = 12\nVolume = (1/3)πr²h = (1/3)π(5²)(12) = (1/3)(25)(12)π = 100π', image: '/images/exams/geo-june-2022/q27.png' },
     {
       number: 28,
       part: 'B',
@@ -332,8 +315,7 @@ export default {
       topic: 'Congruence & Transformations',
       explanation: 'A reflection is a rigid motion, which preserves all distances and angle measures. Since EFGH maps exactly onto IJKH under this reflection, the two parallelograms are congruent by definition of congruence through rigid motion.',
       diveDeep: 'Rigid motions — reflections, rotations, and translations — are distance-preserving (isometric) transformations. Because a reflection is a rigid motion, every side length and every angle measure in the pre-image (EFGH) equals the corresponding side length and angle measure in the image (IJKH). Two figures are congruent if and only if one can be mapped to the other by a sequence of rigid motions. Since a single reflection achieves that mapping here, EFGH ≅ IJKH. Note that point H is on the line of reflection ℓ (it is the shared vertex), so it maps to itself — this is consistent with both parallelograms sharing vertex H.',
-      modelAnswer: 'A reflection is a rigid motion. Rigid motions preserve distance (side lengths) and angle measure. Since parallelogram EFGH maps onto parallelogram IJKH under a reflection over line ℓ, all corresponding sides are congruent and all corresponding angles are congruent. Therefore, by the definition of congruence, parallelogram EFGH ≅ parallelogram IJKH.'
-    },
+      modelAnswer: 'A reflection is a rigid motion. Rigid motions preserve distance (side lengths) and angle measure. Since parallelogram EFGH maps onto parallelogram IJKH under a reflection over line ℓ, all corresponding sides are congruent and all corresponding angles are congruent. Therefore, by the definition of congruence, parallelogram EFGH ≅ parallelogram IJKH.', image: '/images/exams/geo-june-2022/q28.png' },
     {
       number: 29,
       part: 'B',
@@ -342,8 +324,7 @@ export default {
       topic: 'Area & Volume',
       explanation: 'Volume of one hemisphere = (2/3)πr³ = (2/3)π(2.8)³ ≈ (2/3)π(21.952) ≈ 46.0 cm³. For 100 pendants: 100 × 46.0 ≈ 4,602 cm³.',
       diveDeep: 'A hemisphere is half a sphere, so its volume is (1/2)(4/3)πr³ = (2/3)πr³. With r = 2.8 cm: r³ = 2.8³ = 21.952. Volume of one hemisphere = (2/3)π(21.952) ≈ (2/3)(3.14159)(21.952) ≈ 46.0 cm³. For 100 pendants: 100 × 46.0 = 4,600 cm³ (exact calculation gives approximately 4,602 cm³). A common error is using the full sphere volume formula (4/3)πr³ instead of dividing by 2 for a hemisphere, which would double the answer.',
-      modelAnswer: 'Volume of one hemisphere = (2/3)πr³\n= (2/3)π(2.8)³\n= (2/3)π(21.952)\n≈ 46.0 cm³\n\nFor 100 pendants:\n100 × 46.0 ≈ 4,602 cm³\n\nIzzy needs approximately 4,602 cubic centimeters of clay.'
-    },
+      modelAnswer: 'Volume of one hemisphere = (2/3)πr³\n= (2/3)π(2.8)³\n= (2/3)π(21.952)\n≈ 46.0 cm³\n\nFor 100 pendants:\n100 × 46.0 ≈ 4,602 cm³\n\nIzzy needs approximately 4,602 cubic centimeters of clay.', image: '/images/exams/geo-june-2022/q29.png' },
     {
       number: 30,
       part: 'B',
@@ -362,8 +343,7 @@ export default {
       topic: 'Constructions',
       explanation: 'To construct a line parallel to AB through C, copy the angle that AB makes with a transversal at the point C using a compass and straightedge, then draw the parallel line through C.',
       diveDeep: 'The standard construction of a parallel line uses the converse of the Corresponding Angles Postulate. Step 1: Draw a transversal through C that intersects AB (extend if needed). Step 2: At the intersection point on AB, open the compass to mark the angle. Step 3: Without changing the compass, replicate that angle at point C (same side, same orientation). Step 4: Draw the line through C along the direction of the copied angle — this line is parallel to AB. All compass arcs must be left visible. An alternative method uses the rhombus construction (mark equal lengths on the transversal from both C and the intersection, then connect the endpoints).',
-      modelAnswer: 'Construction steps:\n1. Draw a transversal line through point C that intersects line AB at a point (call it D).\n2. With compass centered at D, draw an arc intersecting AB and the transversal; label the two intersection points.\n3. Without changing compass width, place the compass at C and draw the same arc across the transversal.\n4. Set compass to the chord length of the arc at D, then use that width at C to mark where the arc intersects.\n5. Draw a line through C and the marked point — this line is parallel to AB.\n[All construction arcs must remain visible.]'
-    },
+      modelAnswer: 'Construction steps:\n1. Draw a transversal line through point C that intersects line AB at a point (call it D).\n2. With compass centered at D, draw an arc intersecting AB and the transversal; label the two intersection points.\n3. Without changing compass width, place the compass at C and draw the same arc across the transversal.\n4. Set compass to the chord length of the arc at D, then use that width at C to mark where the arc intersects.\n5. Draw a line through C and the marked point — this line is parallel to AB.\n[All construction arcs must remain visible.]', image: '/images/exams/geo-june-2022/q31.png' },
     // Part C — 3 questions (4 credits each)
     {
       number: 32,
@@ -373,8 +353,7 @@ export default {
       topic: 'Trigonometry',
       explanation: 'The angle θ is the angle at the projector between the line to the top and the line to the bottom of the whiteboard. The top of the whiteboard is 0.41 m below the ceiling; the bottom is 0.41 + 1.17 = 1.58 m below the ceiling. Using inverse tangent: θ = arctan(1.58/3.74) − arctan(0.41/3.74) ≈ 22.9° − 6.3° ≈ 16.6°.',
       diveDeep: 'This problem requires finding the angle between two rays from the projector — one to the top of the whiteboard, one to the bottom. Let α = angle to the top: tan α = 0.41/3.74, so α = arctan(0.41/3.74) ≈ 6.3°. Let β = angle to the bottom: the bottom is 0.41 + 1.17 = 1.58 m below the ceiling, so tan β = 1.58/3.74, giving β ≈ 22.9°. The projection angle θ = β − α ≈ 22.9° − 6.3° = 16.6°. A common error is treating the entire vertical distance as the opposite side without accounting for the upper offset (0.41 m), or computing a single angle rather than the difference of two angles.',
-      modelAnswer: 'Distance from projector to wall = 3.74 m\nTop of whiteboard is 0.41 m below ceiling.\nBottom of whiteboard is 0.41 + 1.17 = 1.58 m below ceiling.\n\nAngle to top: α = arctan(0.41 / 3.74) ≈ arctan(0.1096) ≈ 6.3°\nAngle to bottom: β = arctan(1.58 / 3.74) ≈ arctan(0.4225) ≈ 22.9°\n\nProjection angle θ = β − α ≈ 22.9° − 6.3° ≈ 16.6°'
-    },
+      modelAnswer: 'Distance from projector to wall = 3.74 m\nTop of whiteboard is 0.41 m below ceiling.\nBottom of whiteboard is 0.41 + 1.17 = 1.58 m below ceiling.\n\nAngle to top: α = arctan(0.41 / 3.74) ≈ arctan(0.1096) ≈ 6.3°\nAngle to bottom: β = arctan(1.58 / 3.74) ≈ arctan(0.4225) ≈ 22.9°\n\nProjection angle θ = β − α ≈ 22.9° − 6.3° ≈ 16.6°', image: '/images/exams/geo-june-2022/q32.png' },
     {
       number: 33,
       part: 'C',
@@ -383,8 +362,7 @@ export default {
       topic: 'Proofs',
       explanation: 'In parallelogram PQRS, PQ = RS and ∠P = ∠R (opposite angles in a parallelogram are equal). Since QT ⊥ PS and SU ⊥ QR, triangles PQT and RSU are right triangles. By AAS (right angle, equal side PQ = RS, equal angle), △PQT ≅ △RSU, so PT = RU by CPCTC.',
       diveDeep: 'The proof uses properties of a parallelogram and the AAS (Angle-Angle-Side) congruence theorem. Key steps: (1) In parallelogram PQRS, opposite sides are congruent: PQ ≅ SR. (2) Opposite angles are congruent: ∠P ≅ ∠R. (3) QT ⊥ PS gives ∠QTP = 90°; SU ⊥ QR gives ∠SUR = 90°, so ∠QTP ≅ ∠SUR. (4) By AAS: △PQT ≅ △RSU. (5) By CPCTC: PT ≅ RU. A common mistake is using SAS incorrectly by assuming PT and RU are the sides — those are what you must PROVE, not given. Always verify that the sides used in the congruence statement are the given ones, not the ones being proved.',
-      modelAnswer: 'Statement | Reason\n1. Parallelogram PQRS | Given\n2. QT ⊥ PS, SU ⊥ QR | Given\n3. ∠QTP = 90°, ∠SUR = 90° | Definition of perpendicular lines\n4. ∠QTP ≅ ∠SUR | All right angles are congruent\n5. PQ ≅ SR | Opposite sides of a parallelogram are congruent\n6. ∠P ≅ ∠R | Opposite angles of a parallelogram are congruent\n7. △PQT ≅ △RSU | AAS (steps 4, 6, 5)\n8. PT ≅ RU | CPCTC'
-    },
+      modelAnswer: 'Statement | Reason\n1. Parallelogram PQRS | Given\n2. QT ⊥ PS, SU ⊥ QR | Given\n3. ∠QTP = 90°, ∠SUR = 90° | Definition of perpendicular lines\n4. ∠QTP ≅ ∠SUR | All right angles are congruent\n5. PQ ≅ SR | Opposite sides of a parallelogram are congruent\n6. ∠P ≅ ∠R | Opposite angles of a parallelogram are congruent\n7. △PQT ≅ △RSU | AAS (steps 4, 6, 5)\n8. PT ≅ RU | CPCTC', image: '/images/exams/geo-june-2022/q33.png' },
     {
       number: 34,
       part: 'C',
@@ -393,8 +371,7 @@ export default {
       topic: 'Area & Volume',
       explanation: 'Diameter = 12 inches = 1 foot, so radius = 0.5 ft. Volume of one footing = π(0.5)²(4) = π ft³. Total for 10 footings = 10π ft³ ≈ 31.42 ft³. Each bag makes 2/3 ft³, so bags needed = 31.42 ÷ (2/3) = 31.42 × 1.5 ≈ 47.1 → minimum 48 bags.',
       diveDeep: 'Unit conversion is critical here: 12 inches = 1 foot, making the radius 0.5 ft (not 6). Volume of one cylinder = πr²h = π(0.5)²(4) = π(0.25)(4) = π ft³. For 10 footings: 10π ft³ ≈ 31.416 ft³. Dividing by the bag yield: 31.416 ÷ (2/3) = 31.416 × (3/2) = 47.12 bags. Since you must round UP to ensure enough concrete (you cannot buy 0.12 of a bag), the minimum is 48 bags. Students commonly forget to convert inches to feet, which inflates the volume by 144 times, or they round down instead of up.',
-      modelAnswer: 'Convert diameter to feet: 12 inches = 1 foot, so radius r = 0.5 ft\nHeight h = 4 ft\n\nVolume of one footing = πr²h = π(0.5)²(4) = π(0.25)(4) = π ft³\n\nVolume of 10 footings = 10π ≈ 31.42 ft³\n\nEach bag makes 2/3 ft³:\nNumber of bags = 31.42 ÷ (2/3) = 31.42 × (3/2) ≈ 47.12\n\nMinimum number of bags = 48 bags'
-    },
+      modelAnswer: 'Convert diameter to feet: 12 inches = 1 foot, so radius r = 0.5 ft\nHeight h = 4 ft\n\nVolume of one footing = πr²h = π(0.5)²(4) = π(0.25)(4) = π ft³\n\nVolume of 10 footings = 10π ≈ 31.42 ft³\n\nEach bag makes 2/3 ft³:\nNumber of bags = 31.42 ÷ (2/3) = 31.42 × (3/2) ≈ 47.12\n\nMinimum number of bags = 48 bags', image: '/images/exams/geo-june-2022/q34.png' },
     // Part D — 1 question (6 credits)
     {
       number: 35,

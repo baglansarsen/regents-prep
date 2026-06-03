@@ -300,8 +300,7 @@ export default {
       correct: 3,
       topic: 'Electricity',
       explanation: 'R2 ∥ R3 = (21 × 24)/(21 + 24) ≈ 11.2 Ω. Total R = 15 + 11.2 = 26.2 Ω. I_total = 12/26.2 ≈ 0.458 A. V_parallel = 0.458 × 11.2 ≈ 5.13 V. I_R3 = 5.13/24 ≈ 0.21 A ≈ 0.20 A.',
-      diveDeep: 'For R2 and R3 in parallel: 1/R_par = 1/21 + 1/24 = 45/504, so R_par ≈ 11.2 Ω. Series total: R_total = 15 + 11.2 = 26.2 Ω. Total current: I = 12/26.2 ≈ 0.458 A. The voltage across the parallel pair = I × R_par ≈ 0.458 × 11.2 ≈ 5.1 V. Current through R3: I_R3 = 5.1/24 ≈ 0.21 A, which rounds to 0.20 A. A common mistake is treating all three resistors as purely in series or purely in parallel. Recognize that R1 is in series with the parallel combination of R2 and R3.'
-    },
+      diveDeep: 'For R2 and R3 in parallel: 1/R_par = 1/21 + 1/24 = 45/504, so R_par ≈ 11.2 Ω. Series total: R_total = 15 + 11.2 = 26.2 Ω. Total current: I = 12/26.2 ≈ 0.458 A. The voltage across the parallel pair = I × R_par ≈ 0.458 × 11.2 ≈ 5.1 V. Current through R3: I_R3 = 5.1/24 ≈ 0.21 A, which rounds to 0.20 A. A common mistake is treating all three resistors as purely in series or purely in parallel. Recognize that R1 is in series with the parallel combination of R2 and R3.', image: '/images/exams/phys-june-2024/q37.png' },
     {
       number: 38,
       part: 'B-1',
@@ -380,8 +379,7 @@ export default {
       correct: 2,
       topic: 'Waves & Sound',
       explanation: 'When wave A (positive) and wave B (negative) have equal amplitudes and are mirror images, their superposition results in complete destructive interference — a flat line (zero displacement).',
-      diveDeep: 'The principle of superposition states that the net displacement at any point is the algebraic sum of the individual wave displacements. When waves A and B have equal amplitudes but opposite displacements (one crest aligns with the other\'s trough), they completely cancel: y_net = y_A + y_B = +A + (−A) = 0 everywhere. This is complete destructive interference. Partial destructive interference occurs when amplitudes are unequal. Constructive interference occurs when both waves have the same sign of displacement at each point. The Regents often tests superposition with diagrams showing peaks and troughs of equal amplitude overlapping.'
-    },
+      diveDeep: 'The principle of superposition states that the net displacement at any point is the algebraic sum of the individual wave displacements. When waves A and B have equal amplitudes but opposite displacements (one crest aligns with the other\'s trough), they completely cancel: y_net = y_A + y_B = +A + (−A) = 0 everywhere. This is complete destructive interference. Partial destructive interference occurs when amplitudes are unequal. Constructive interference occurs when both waves have the same sign of displacement at each point. The Regents often tests superposition with diagrams showing peaks and troughs of equal amplitude overlapping.', image: '/images/exams/phys-june-2024/q42.png' },
     {
       number: 43,
       part: 'B-1',
@@ -396,8 +394,7 @@ export default {
       correct: 2,
       topic: 'Waves & Sound',
       explanation: 'Sound is a longitudinal (compressional) wave. The medium particles vibrate parallel to the direction of wave travel.',
-      diveDeep: 'Sound waves are longitudinal — the medium particles (air molecules) oscillate back and forth in the same direction as the wave travels, creating alternating compressions and rarefactions. This contrasts with transverse waves (light, water surface waves) where particle vibration is perpendicular to the wave travel direction. On a Regents diagram, a longitudinal wave is identified by arrows showing particle vibration parallel to the wave velocity arrow. Options 1 and 2 show transverse waves. The key identifier for sound: vibration direction ∥ wave travel direction.'
-    },
+      diveDeep: 'Sound waves are longitudinal — the medium particles (air molecules) oscillate back and forth in the same direction as the wave travels, creating alternating compressions and rarefactions. This contrasts with transverse waves (light, water surface waves) where particle vibration is perpendicular to the wave travel direction. On a Regents diagram, a longitudinal wave is identified by arrows showing particle vibration parallel to the wave velocity arrow. Options 1 and 2 show transverse waves. The key identifier for sound: vibration direction ∥ wave travel direction.', image: '/images/exams/phys-june-2024/q43.png' },
     {
       number: 44,
       part: 'B-1',
@@ -460,8 +457,7 @@ export default {
       correct: 0,
       topic: 'Kinematics',
       explanation: 'Free fall from rest: d = ½gt². Distance increases as a parabolic function of time, giving an upward-curving distance–time graph. This is true on the Moon (g_moon ≈ 1.62 m/s²) as well as Earth.',
-      diveDeep: 'For free fall from rest: d = ½g_moon t², where g_moon ≈ 1.62 m/s². This is the equation of a parabola — distance increases proportionally to t². On a d-vs-t graph, this appears as an upward-curving curve starting at the origin. A straight diagonal line (choice B) would represent constant velocity, not acceleration. The shape of the curve is the same as on Earth — just with a smaller coefficient (less steep). Students sometimes confuse a d-vs-t graph with a v-vs-t graph; for constant acceleration, d-vs-t is parabolic while v-vs-t is linear.'
-    },
+      diveDeep: 'For free fall from rest: d = ½g_moon t², where g_moon ≈ 1.62 m/s². This is the equation of a parabola — distance increases proportionally to t². On a d-vs-t graph, this appears as an upward-curving curve starting at the origin. A straight diagonal line (choice B) would represent constant velocity, not acceleration. The shape of the curve is the same as on Earth — just with a smaller coefficient (less steep). Students sometimes confuse a d-vs-t graph with a v-vs-t graph; for constant acceleration, d-vs-t is parabolic while v-vs-t is linear.', image: '/images/exams/phys-june-2024/q47.png' },
     {
       number: 48,
       part: 'B-1',
@@ -476,8 +472,7 @@ export default {
       correct: 3,
       topic: 'Kinematics',
       explanation: 'Time of flight T = 2v₀sinθ/g. Compare vertical components: (1) 10 sin30° = 5.00; (2) 10 sin45° ≈ 7.07; (3) 9.0 sin45° ≈ 6.36; (4) 9.0 sin60° ≈ 7.79. Projectile 4 has the largest vertical component → longest flight time.',
-      diveDeep: 'Time of flight depends only on the vertical component of initial velocity: T = 2v_y/g = 2v₀sinθ/g. Calculate v₀sinθ for each option: (1) 10 × sin30° = 10 × 0.500 = 5.00 m/s; (2) 10 × sin45° = 10 × 0.707 = 7.07 m/s; (3) 9.0 × sin45° = 9.0 × 0.707 = 6.36 m/s; (4) 9.0 × sin60° = 9.0 × 0.866 = 7.79 m/s. Projectile 4 (9.0 m/s at 60°) has the largest vertical component (7.79 m/s) and therefore the longest time of flight. A common mistake is assuming the fastest or highest-angle projectile always has the longest flight time — here, the combination of speed and angle matters. Increasing the angle toward 90° maximizes the vertical component.',
-    },
+      diveDeep: 'Time of flight depends only on the vertical component of initial velocity: T = 2v_y/g = 2v₀sinθ/g. Calculate v₀sinθ for each option: (1) 10 × sin30° = 10 × 0.500 = 5.00 m/s; (2) 10 × sin45° = 10 × 0.707 = 7.07 m/s; (3) 9.0 × sin45° = 9.0 × 0.707 = 6.36 m/s; (4) 9.0 × sin60° = 9.0 × 0.866 = 7.79 m/s. Projectile 4 (9.0 m/s at 60°) has the largest vertical component (7.79 m/s) and therefore the longest time of flight. A common mistake is assuming the fastest or highest-angle projectile always has the longest flight time — here, the combination of speed and angle matters. Increasing the angle toward 90° maximizes the vertical component.', image: '/images/exams/phys-june-2024/q48.png' },
     {
       number: 49,
       part: 'B-1',
@@ -492,8 +487,7 @@ export default {
       correct: 0,
       topic: 'Forces & Newton',
       explanation: 'Vertical: F_N = F_g → no vertical acceleration. Horizontal: net force = 100 N right − 50 N left = 50 N right → the crate accelerates to the right.',
-      diveDeep: 'Apply Newton\'s second law in each direction. Vertical: F_N − F_g = 150 − 150 = 0 N → no vertical acceleration. Horizontal: F_net = F_rope − F_f = 100 − 50 = 50 N to the right. Since F_net ≠ 0, the crate accelerates in the direction of the net force: to the right. A common mistake is assuming the crate moves at constant velocity because some forces are balanced — but only the vertical forces are balanced, not the horizontal. The net horizontal force of 50 N produces a_x = F_net/m (unknown mass, but acceleration exists). Choice C (constant velocity) would require F_rope = F_f.'
-    },
+      diveDeep: 'Apply Newton\'s second law in each direction. Vertical: F_N − F_g = 150 − 150 = 0 N → no vertical acceleration. Horizontal: F_net = F_rope − F_f = 100 − 50 = 50 N to the right. Since F_net ≠ 0, the crate accelerates in the direction of the net force: to the right. A common mistake is assuming the crate moves at constant velocity because some forces are balanced — but only the vertical forces are balanced, not the horizontal. The net horizontal force of 50 N produces a_x = F_net/m (unknown mass, but acceleration exists). Choice C (constant velocity) would require F_rope = F_f.', image: '/images/exams/phys-june-2024/q49.png' },
     {
       number: 50,
       part: 'B-1',
@@ -508,8 +502,7 @@ export default {
       correct: 3,
       topic: 'Energy & Work',
       explanation: 'PE_s = ½kx². At x = 0.0400 m, PE_s = 0.200 J: 0.200 = ½k(0.0400)². k = 2(0.200)/(0.0016) = 250. N/m.',
-      diveDeep: 'The elastic potential energy formula: PE_s = ½kx². Solving for k: k = 2(PE_s)/x² = 2(0.200)/(0.0400)² = 0.400/0.0016 = 250 N/m. Alternatively, the slope of a PE_s vs. x² graph equals ½k — but this is a PE_s vs. x graph (not x²), so it appears parabolic. To find k from the graph, read a point and apply the formula. Choice C (125 N/m) comes from using k = PE_s/x² without the factor of 2 (forgetting the ½). Choice A (5.00) comes from k = PE_s/x = 0.200/0.04 = 5.0, forgetting to square x. Always remember the ½ and squaring x in Hooke\'s energy formula.'
-    },
+      diveDeep: 'The elastic potential energy formula: PE_s = ½kx². Solving for k: k = 2(PE_s)/x² = 2(0.200)/(0.0400)² = 0.400/0.0016 = 250 N/m. Alternatively, the slope of a PE_s vs. x² graph equals ½k — but this is a PE_s vs. x graph (not x²), so it appears parabolic. To find k from the graph, read a point and apply the formula. Choice C (125 N/m) comes from using k = PE_s/x² without the factor of 2 (forgetting the ½). Choice A (5.00) comes from k = PE_s/x = 0.200/0.04 = 5.0, forgetting to square x. Always remember the ½ and squaring x in Hooke\'s energy formula.', image: '/images/exams/phys-june-2024/q50.png' },
 
     // ── Part B-2 (Q51–65) ──────────────────────────────────────────────────
     {
@@ -530,8 +523,7 @@ export default {
       modelAnswer: 'Equation: d = ½(v_i + v_f)t  →  t = 2d/(v_i + v_f)\nSubstitution: t = 2(5.0 m) / (1.0 m/s + 4.0 m/s)\nt = 10.0 / 5.0\nAnswer: t = 2.0 s\n\nAlternative: First find a = (v_f − v_i)/t ... use d = v_i·t + ½at² or rearrange for t.',
       topic: 'Kinematics',
       explanation: 'Using the average-velocity formula: d = ½(v_i + v_f)t → t = 2d/(v_i + v_f) = 2(5.0)/(1.0 + 4.0) = 2.0 s.',
-      diveDeep: 'For uniform acceleration, the average velocity = (v_i + v_f)/2, and d = v_avg × t. Solving for t: t = 2d/(v_i + v_f) = 10.0/5.0 = 2.0 s. This is the cleanest approach. Alternatively, find acceleration first: use v_f² = v_i² + 2ad → a = (16 − 1)/(2 × 5) = 1.5 m/s², then t = (v_f − v_i)/a = 3.0/1.5 = 2.0 s. Both methods give 2.0 s. A common mistake is using d = v·t with only the final or initial velocity, not the average. On the Regents, always show the equation, substitution with units, and final answer with units for full credit.'
-    },
+      diveDeep: 'For uniform acceleration, the average velocity = (v_i + v_f)/2, and d = v_avg × t. Solving for t: t = 2d/(v_i + v_f) = 10.0/5.0 = 2.0 s. This is the cleanest approach. Alternatively, find acceleration first: use v_f² = v_i² + 2ad → a = (16 − 1)/(2 × 5) = 1.5 m/s², then t = (v_f − v_i)/a = 3.0/1.5 = 2.0 s. Both methods give 2.0 s. A common mistake is using d = v·t with only the final or initial velocity, not the average. On the Regents, always show the equation, substitution with units, and final answer with units for full credit.', image: '/images/exams/phys-june-2024/q53.png' },
     {
       number: 55,
       part: 'B-2',
@@ -550,8 +542,7 @@ export default {
       modelAnswer: 'Average speed = (v_i + v_f)/2 = (0 + 10.0 m/s)/2 = 5.0 m/s\n\n(Alternatively: average speed = total distance / total time; distance = area under v–t graph = ½ × 8.0 s × 10.0 m/s = 40. m; average speed = 40./8.0 = 5.0 m/s)',
       topic: 'Kinematics',
       explanation: 'For uniform acceleration from 0 to 10.0 m/s, the average speed = (0 + 10.0)/2 = 5.0 m/s.',
-      diveDeep: 'Average speed for uniform (constant) acceleration = (v_i + v_f)/2. With v_i = 0 and v_f = 10.0 m/s, average speed = 5.0 m/s. This equals the instantaneous speed at the midpoint of the time interval (t = 4.0 s). Alternatively, compute total distance as the area under the v-t graph (a triangle): d = ½ × base × height = ½ × 8.0 × 10.0 = 40. m, then average speed = 40./8.0 = 5.0 m/s. Both methods agree. This is a 1-point question — just the final answer with units is sufficient, though showing work is good practice.'
-    },
+      diveDeep: 'Average speed for uniform (constant) acceleration = (v_i + v_f)/2. With v_i = 0 and v_f = 10.0 m/s, average speed = 5.0 m/s. This equals the instantaneous speed at the midpoint of the time interval (t = 4.0 s). Alternatively, compute total distance as the area under the v-t graph (a triangle): d = ½ × base × height = ½ × 8.0 × 10.0 = 40. m, then average speed = 40./8.0 = 5.0 m/s. Both methods agree. This is a 1-point question — just the final answer with units is sufficient, though showing work is good practice.', image: '/images/exams/phys-june-2024/context_57_59.png' },
     {
       number: 58,
       part: 'B-2',
@@ -560,8 +551,7 @@ export default {
       modelAnswer: 'Equation: a = Δv / Δt = (v_f − v_i) / t\nSubstitution: a = (10.0 m/s − 0 m/s) / 8.0 s\nAnswer: a = 1.25 m/s² ≈ 1.3 m/s²',
       topic: 'Kinematics',
       explanation: 'a = Δv/Δt = (10.0 − 0)/8.0 = 1.25 m/s².',
-      diveDeep: 'The slope of a speed-time graph gives acceleration: a = Δv/Δt = (10.0 − 0)/8.0 = 1.25 m/s². This is uniform (constant) acceleration since the graph is linear. On the Regents, the slope of a v-t graph is one of the most frequently tested graphical skills. For the 2-point question, show: (1) the equation a = Δv/Δt or slope = rise/run, (2) the substitution with units, and (3) the answer with units. The "magnitude" means give the positive value (1.25 m/s²), not a negative sign. Note: 1.25 m/s² rounds to 1.3 m/s² — either is acceptable.'
-    },
+      diveDeep: 'The slope of a speed-time graph gives acceleration: a = Δv/Δt = (10.0 − 0)/8.0 = 1.25 m/s². This is uniform (constant) acceleration since the graph is linear. On the Regents, the slope of a v-t graph is one of the most frequently tested graphical skills. For the 2-point question, show: (1) the equation a = Δv/Δt or slope = rise/run, (2) the substitution with units, and (3) the answer with units. The "magnitude" means give the positive value (1.25 m/s²), not a negative sign. Note: 1.25 m/s² rounds to 1.3 m/s² — either is acceptable.', image: '/images/exams/phys-june-2024/context_57_59.png' },
     {
       number: 60,
       part: 'B-2',
@@ -580,8 +570,7 @@ export default {
       modelAnswer: 'Draw the refracted ray in medium Y bending toward the normal (closer to the normal line than the incident ray in medium X). Since n_Y > n_X, light travels slower in medium Y, and by Snell\'s law (n_X sinθ_X = n_Y sinθ_Y), the angle of refraction θ_Y < angle of incidence θ_X. The refracted ray should be on the transmitted side of the surface, bent toward the normal.',
       topic: 'Waves & Light',
       explanation: 'When light passes from a lower-index medium (X) to a higher-index medium (Y), it slows down and bends toward the normal. The refracted angle is smaller than the incident angle.',
-      diveDeep: 'Snell\'s law: n_X sinθ_X = n_Y sinθ_Y. Since n_Y > n_X, sinθ_Y = (n_X/n_Y) sinθ_X < sinθ_X, so θ_Y < θ_X — the refracted ray is closer to the normal. This is analogous to a car driving from a smooth road onto gravel: the wheel that hits gravel first slows first, causing the car to turn toward the gravel (slower) side. For the diagram: the incident ray in X hits the surface at some angle to the normal; the refracted ray in Y continues on the other side of the surface but at a smaller angle to the normal. A common mistake is drawing the ray bending away from the normal (which would occur if n_Y < n_X).'
-    },
+      diveDeep: 'Snell\'s law: n_X sinθ_X = n_Y sinθ_Y. Since n_Y > n_X, sinθ_Y = (n_X/n_Y) sinθ_X < sinθ_X, so θ_Y < θ_X — the refracted ray is closer to the normal. This is analogous to a car driving from a smooth road onto gravel: the wheel that hits gravel first slows first, causing the car to turn toward the gravel (slower) side. For the diagram: the incident ray in X hits the surface at some angle to the normal; the refracted ray in Y continues on the other side of the surface but at a smaller angle to the normal. A common mistake is drawing the ray bending away from the normal (which would occur if n_Y < n_X).', image: '/images/exams/phys-june-2024/q61.png' },
     {
       number: 62,
       part: 'B-2',
@@ -600,8 +589,7 @@ export default {
       modelAnswer: 'Elongation: x = 0.500 m − 0.200 m = 0.300 m\nEquation: F = kx\nSubstitution: F = (250. N/m)(0.300 m)\nAnswer: F = 75.0 N\n\n(The block\'s weight = 75.0 N, and by Newton\'s third law, the block exerts 75.0 N downward on the spring.)',
       topic: 'Energy & Work',
       explanation: 'Stretch = 0.500 − 0.200 = 0.300 m. F = kx = 250. N/m × 0.300 m = 75.0 N.',
-      diveDeep: 'First, find the elongation (not the total length): x = 0.500 − 0.200 = 0.300 m. Hooke\'s Law: F_spring = kx = 250. × 0.300 = 75.0 N. Since the block is motionless (static equilibrium), the spring force equals the weight of the block: F_g = 75.0 N. By Newton\'s third law, the block exerts an equal and opposite force on the spring: 75.0 N downward. A common mistake is using the total spring length (0.500 m) instead of the elongation (0.300 m). Always calculate stretch as final length − natural length. Another mistake is forgetting Newton\'s third law — the block pulls the spring down with the same magnitude force the spring pulls the block up.'
-    },
+      diveDeep: 'First, find the elongation (not the total length): x = 0.500 − 0.200 = 0.300 m. Hooke\'s Law: F_spring = kx = 250. × 0.300 = 75.0 N. Since the block is motionless (static equilibrium), the spring force equals the weight of the block: F_g = 75.0 N. By Newton\'s third law, the block exerts an equal and opposite force on the spring: 75.0 N downward. A common mistake is using the total spring length (0.500 m) instead of the elongation (0.300 m). Always calculate stretch as final length − natural length. Another mistake is forgetting Newton\'s third law — the block pulls the spring down with the same magnitude force the spring pulls the block up.', image: '/images/exams/phys-june-2024/q64.png' },
 
     // ── Part C (Q66–85) ────────────────────────────────────────────────────
     {
@@ -612,8 +600,7 @@ export default {
       modelAnswer: '66. Plot each (V, I) pair as a data point on a grid with Potential Difference (V) on the x-axis and Current (A) on the y-axis:\n  (0.0, 0.00), (2.0, 0.26), (3.0, 0.35), (5.0, 0.63), (8.0, 0.98)\n\n67. Draw a straight line of best fit through the data points. The line should pass through or near the origin (0,0) and have a positive slope, with approximately equal numbers of data points above and below the line.',
       topic: 'Electricity',
       explanation: 'The data shows a linear relationship between current and potential difference (Ohm\'s Law: I = V/R), so the best-fit line is straight through the origin.',
-      diveDeep: 'Ohm\'s Law states that for a resistor at constant temperature, I ∝ V (current is directly proportional to potential difference). A graph of I vs. V produces a straight line through the origin. The slope of this line equals 1/R (conductance). When drawing a line of best fit: (1) use a ruler/straightedge; (2) aim for equal numbers of points above and below the line; (3) do not connect the dots — draw one smooth line. The line should pass through or near the origin since at V = 0, I = 0. These are standard graphing skills tested in the Regents laboratory component.'
-    },
+      diveDeep: 'Ohm\'s Law states that for a resistor at constant temperature, I ∝ V (current is directly proportional to potential difference). A graph of I vs. V produces a straight line through the origin. The slope of this line equals 1/R (conductance). When drawing a line of best fit: (1) use a ruler/straightedge; (2) aim for equal numbers of points above and below the line; (3) do not connect the dots — draw one smooth line. The line should pass through or near the origin since at V = 0, I = 0. These are standard graphing skills tested in the Regents laboratory component.', image: '/images/exams/phys-june-2024/context_66_70.png' },
     {
       number: 68,
       part: 'C',
@@ -622,8 +609,7 @@ export default {
       modelAnswer: '68–69. Choose two widely separated points on the line of best fit (not necessarily data points):\nExample: (1.0 V, 0.12 A) and (8.0 V, 0.98 A)\nslope = ΔI/ΔV = (0.98 − 0.12) A / (8.0 − 1.0) V = 0.86 / 7.0 ≈ 0.123 A/V\n\n(Acceptable range using best-fit line: approximately 0.12–0.13 A/V)\n\n70. R = 1/slope = 1 / 0.123 A/V ≈ 8.1 Ω\n\n(Acceptable range: approximately 7.7–8.3 Ω; consistent with the data: e.g., R ≈ 8.0/0.98 ≈ 8.2 Ω at the highest data point)',
       topic: 'Electricity',
       explanation: 'The slope of the I vs. V graph = ΔI/ΔV ≈ 0.12–0.13 A/V = 1/R, so R ≈ 8.0 Ω.',
-      diveDeep: 'The slope of an I vs. V graph has units of A/V = 1/Ω (siemens, or conductance). For an ohmic resistor: I = V/R, so the slope = 1/R. Calculating from data endpoints: slope ≈ (0.98 − 0)/( 8.0 − 0) = 0.1225 A/V. R = 1/slope ≈ 8.2 Ω. Regents scoring: for the slope calculation (2 pts) — show the formula slope = Δy/Δx, pick two points on the line (not necessarily data points), substitute values with units, give the numerical slope with units. For resistance (1 pt): use R = 1/slope or R = V/I from any data point. Common mistake: using only data points for slope instead of points on the best-fit line.'
-    },
+      diveDeep: 'The slope of an I vs. V graph has units of A/V = 1/Ω (siemens, or conductance). For an ohmic resistor: I = V/R, so the slope = 1/R. Calculating from data endpoints: slope ≈ (0.98 − 0)/( 8.0 − 0) = 0.1225 A/V. R = 1/slope ≈ 8.2 Ω. Regents scoring: for the slope calculation (2 pts) — show the formula slope = Δy/Δx, pick two points on the line (not necessarily data points), substitute values with units, give the numerical slope with units. For resistance (1 pt): use R = 1/slope or R = V/I from any data point. Common mistake: using only data points for slope instead of points on the best-fit line.', image: '/images/exams/phys-june-2024/context_66_70.png' },
     {
       number: 71,
       part: 'C',
@@ -632,8 +618,7 @@ export default {
       modelAnswer: '71. Charge of alpha particle = 2 elementary charges × (1.6 × 10⁻¹⁹ C/elementary charge)\n    q = 3.2 × 10⁻¹⁹ C\n\n72. Draw 3 or more parallel, horizontal arrows pointing from the positive plate (+) to the negative plate (−). The field lines should be evenly spaced and perpendicular to the plates.\n\n73. The electrostatic force on the alpha particle is directed toward the negative plate (in the direction of the electric field), because the alpha particle has a positive charge and positive charges experience force in the direction of E.',
       topic: 'Electricity',
       explanation: 'Alpha particle charge = 2 × 1.6 × 10⁻¹⁹ C = 3.2 × 10⁻¹⁹ C. Electric field lines point from + to − plate. Force on positive charge is in the direction of E — toward the negative plate.',
-      diveDeep: 'An alpha particle consists of 2 protons and 2 neutrons; its charge is +2e = 2(1.6 × 10⁻¹⁹) = 3.2 × 10⁻¹⁹ C. Between parallel plates, the electric field is uniform and directed from + plate to − plate. Electric field lines always point from positive to negative. The force on a charge in an electric field: F = qE. For a positive charge (q > 0), force is in the same direction as E — toward the negative plate. For negative charges, force opposes E. A common mistake is drawing field lines from − to + (backward). Remember: field lines point in the direction a positive test charge would accelerate.'
-    },
+      diveDeep: 'An alpha particle consists of 2 protons and 2 neutrons; its charge is +2e = 2(1.6 × 10⁻¹⁹) = 3.2 × 10⁻¹⁹ C. Between parallel plates, the electric field is uniform and directed from + plate to − plate. Electric field lines always point from positive to negative. The force on a charge in an electric field: F = qE. For a positive charge (q > 0), force is in the same direction as E — toward the negative plate. For negative charges, force opposes E. A common mistake is drawing field lines from − to + (backward). Remember: field lines point in the direction a positive test charge would accelerate.', image: '/images/exams/phys-june-2024/context_71_75.png' },
     {
       number: 74,
       part: 'C',
@@ -642,8 +627,7 @@ export default {
       modelAnswer: 'Equation: F = qE\nSubstitution: F = (3.2 × 10⁻¹⁹ C)(5.0 × 10⁴ N/C)\nAnswer: F = 1.6 × 10⁻¹⁴ N',
       topic: 'Electricity',
       explanation: 'F = qE = (3.2 × 10⁻¹⁹ C)(5.0 × 10⁴ N/C) = 1.6 × 10⁻¹⁴ N.',
-      diveDeep: 'The electrostatic force on a charge in an electric field: F = qE. Here q = 3.2 × 10⁻¹⁹ C (from Q71) and E = 5.0 × 10⁴ N/C. F = (3.2 × 10⁻¹⁹)(5.0 × 10⁴) = 16.0 × 10⁻¹⁵ = 1.6 × 10⁻¹⁴ N. This tiny force (compared to everyday scales) has a large effect on the nearly massless alpha particle: a = F/m = 1.6 × 10⁻¹⁴ / (6.64 × 10⁻²⁷) ≈ 2.4 × 10¹² m/s² — an enormous acceleration! Units check: C × N/C = N ✓. For the Regents 2-point answer: 1 point for correct equation/setup, 1 point for correct numerical answer with units.'
-    },
+      diveDeep: 'The electrostatic force on a charge in an electric field: F = qE. Here q = 3.2 × 10⁻¹⁹ C (from Q71) and E = 5.0 × 10⁴ N/C. F = (3.2 × 10⁻¹⁹)(5.0 × 10⁴) = 16.0 × 10⁻¹⁵ = 1.6 × 10⁻¹⁴ N. This tiny force (compared to everyday scales) has a large effect on the nearly massless alpha particle: a = F/m = 1.6 × 10⁻¹⁴ / (6.64 × 10⁻²⁷) ≈ 2.4 × 10¹² m/s² — an enormous acceleration! Units check: C × N/C = N ✓. For the Regents 2-point answer: 1 point for correct equation/setup, 1 point for correct numerical answer with units.', image: '/images/exams/phys-june-2024/context_71_75.png' },
     {
       number: 76,
       part: 'C',

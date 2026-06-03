@@ -1,0 +1,1091 @@
+{
+  "subject": "earth-science",
+  "session": "june-2022",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Astronomers have determined that the star Arcturus has a surface temperature of 4560 K and a luminosity of 170. Based on these characteristics, Arcturus is classi\ufb01 ed as which type of star?",
+      "choices": [
+        "giant",
+        "supergiant",
+        "white dwarf",
+        "main sequence"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The image below shows the near-Earth asteroid Itokawa. 540 meters Which surface feature would be created if Itokawa hit Earth\u2019s surface?",
+      "choices": [
+        "volcanic crater",
+        "impact crater",
+        "mountain valley",
+        "rift valley"
+      ],
+      "image": "/images/exams/earth-science/june-2022/q2.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The north end of Earth\u2019s axis of rotation points toward",
+      "choices": [
+        "Alpha Centauri",
+        "Betelgeuse",
+        "Polaris",
+        "Spica"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "What is the approximate percentage of Earth\u2019s surface that is covered by the hydrosphere?",
+      "choices": [
+        "10%",
+        "50%",
+        "70%",
+        "90%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The table below shows the times of high tides and low tides for a coastal location. Tides Type of Tide Time high 4:44 a.m. low 11:07 a.m. high 5:10 p.m. low 11:33 p.m. How much time occurred between the high tides on this day?",
+      "choices": [
+        "approximately 6.5 hours",
+        "a little less than 12 hours",
+        "almost 12.5 hours",
+        "a little more than 24 hours"
+      ],
+      "image": "/images/exams/earth-science/june-2022/q5.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The map below shows a weather variable recorded at the same time across the United States. 43 49 32 33 54 56 56 47 59 69 71 31 72 69 89 13 11 26 24 29 75 62 54 55 68 67 59 65 54 58 49 19 23 29 15 18 16 19 15 22 25 28 36 29 38 35 47 47 45 35 47 56 44 36 34 33 53 48 45 42 64 57 73 66 79 65 28 39 26 85 According to the data on the map, which weather variable was most likely recorded?",
+      "choices": [
+        "wind speed in knots",
+        "air pressure in millibars",
+        "rainfall in inches in the last 6 hours",
+        "air temperature in degrees Fahrenheit"
+      ],
+      "image": "/images/exams/earth-science/june-2022/q6.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The table below shows the dates of peak activity of four meteor showers for \ufb01 ve different years. Meteor showers are named for the constellations in which they appear to originate, as observed from Earth. Name of Meteor Shower Date of Peak Activity 2007 2008 2009 2014 2015 Quadrantids January 3 January 4 January 3, 4 January 3, 4 January 3, 4 Lyrids April 22 April 21, 22 April 21, 22 April 21, 22 April 21, 22 Perseids August 13 August 12 August 12, 13 August 12, 13 August 12, 13 Orionids October 21, 22 October 21 October 21, 22 October 21, 22 October 21, 22 Based on the data, the dates of these meteor showers appear to depend on the",
+      "choices": [
+        "position of Earth in its orbit",
+        "turning of Earth on its axis",
+        "phase of the Moon during the month",
+        "movement of meteors in their orbits"
+      ],
+      "image": "/images/exams/earth-science/june-2022/q7.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The diagram below represents four different land surfaces of equal area. Sand Grassy field with silt soil Pebbles Forest with clay soil Which area would most likely have the greatest permeability as each area receives the same amount of rainfall?",
+      "choices": [
+        "sand",
+        "grassy \ufb01 eld with silt soil",
+        "pebbles",
+        "forest with clay soil"
+      ],
+      "image": "/images/exams/earth-science/june-2022/q8.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a portion of the water cycle. Letters A, B, C, and D represent processes or features related to the water cycle. Arrows represent movement of water. Water Cycle D Key A C B unsaturated soil saturated soil Which table correctly matches these letters with the processes or features related to the water cycle? Letter Process or Feature A Groundwater B Precipitation C Water table D Evaporation",
+      "choices": [
+        "Letter Process or Feature A Groundwater B In\ufb01 ltration C Water table D Transpiration",
+        "Letter Process or Feature A Water table B Runoff C Groundwater D Precipitation",
+        "Letter Process or Feature A Water table B In\ufb01 ltration C Groundwater D Transpiration",
+        ""
+      ],
+      "image": "/images/exams/earth-science/june-2022/q9.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The leading edge of a thunderstorm reached Elmira, New York, at 1:00 p.m. This thunderstorm was moving eastward at 45 miles per hour. The leading edge of the thunderstorm most likely reached Binghamton, New York, at approximately",
+      "choices": [
+        "1:00 p.m.",
+        "2:00 p.m.",
+        "12:00 p.m.",
+        "4:00 p.m."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "An air temperature of 30\u00b0C is equal to",
+      "choices": [
+        "\u20131\u00b0F",
+        "68\u00b0F",
+        "83\u00b0F",
+        "86\u00b0F"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The subtropical jet streams are fast \ufb02 owing air currents located in the atmosphere about 10 kilometers above the surface of Earth. In which layer of the atmosphere are the subtropical streams located?",
+      "choices": [
+        "stratosphere",
+        "mesosphere",
+        "troposphere",
+        "thermosphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which substance given off by a volcano is most likely to cause global cooling following a large volcanic eruption?",
+      "choices": [
+        "carbon dioxide",
+        "airborne ash",
+        "water vapor",
+        "methane"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The table below shows general climate conditions of four different locations, A, B, C, and D. Location Annual Temperature Range (\u00b0C) Annual Precipitation (cm) A \u20133 to 10 100 B \u201315 to 4 70 C 0 to 16 50 D 10 to 28 165 In which location is chemical weathering probably greatest, based on these climate conditions?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2022/q14.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The picture below shows a calorimeter being used to demonstrate a method of heat transfer. One cup is \ufb01 lled with hot water, and the other cup is \ufb01 lled with cold water. A metal bar extends through the lids into the water in both cups. Thermometers record changes in temperature. This calorimeter demonstrates the transfer of heat through the metal bar from",
+      "choices": [
+        "cold water to hot water by conduction",
+        "cold water to hot water by radiation",
+        "hot water to cold water by conduction",
+        "hot water to cold water by radiation"
+      ],
+      "image": "/images/exams/earth-science/june-2022/q15.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "At the end of which geologic time period were the continents of South America and Africa joined together and entirely located south of the equator?",
+      "choices": [
+        "Paleogene Period",
+        "Jurassic Period",
+        "Permian Period",
+        "Devonian Period"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "written",
+      "text": "Which atmospheric cross section best represents the general air circulation over the North Pole? ( 2 ) North Pole ( 3 ) North Pole ( 4 ) North Pole ( 1 ) North Pole",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a sling psychrometer. C C \u20136 \u20134 \u20132 0 2 4 6 8 10 12 14 16 18 20 22 24 \u20136 \u20134 \u20132 0 2 4 6 8 10 12 14 16 18 20 22 24 Wet bulb Dry bulb Based on the wet-bulb temperature and the dry-bulb temperature, what is the approximate relative humidity?",
+      "choices": [
+        "6%",
+        "8%",
+        "30%",
+        "60%"
+      ],
+      "image": "/images/exams/earth-science/june-2022/q18.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "written",
+      "text": "The graph below represents the decay of a radioactive isotope into a stable disintegration product. 0 25 50 75 100 0 5 10 15",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Time ( x 10 3 years) Percent of Material (%) Rad ioa cti ve is oto pe Stab le d isi nte gr ati on p ro du ct Which remains could be dated using this radioactive isotope?",
+      "choices": [
+        "decreases and upwelling decreases",
+        "decreases and upwelling increases",
+        "increases and upwelling decreases",
+        "increases and upwelling increases"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Ordovician-age crinoid fossils of tropical marine origin are found in the bedrock of the Hudson- Mohawk lowlands region of New York State. This provides evidence that New York State was once located at a",
+      "choices": [
+        "lower latitude and lower elevation",
+        "lower latitude and higher elevation",
+        "higher latitude and lower elevation",
+        "higher latitude and higher elevation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The photograph below shows the New York State fossil Eurypterus remipes. Eurypterus fossils are most likely to be found in surface bedrock near",
+      "choices": [
+        "Elmira",
+        "Mt. Marcy",
+        "Watertown",
+        "Niagara Falls"
+      ],
+      "image": "/images/exams/earth-science/june-2022/q22.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The study of fossil evidence suggests that humans",
+      "choices": [
+        "lived on the continent of Pangaea",
+        "lived at the same time as dinosaurs",
+        "have existed for a very brief time in geologic history",
+        "have existed during most of geologic time"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "What is occurring at the Southeast Indian Ridge?",
+      "choices": [
+        "New oceanic crust is forming.",
+        "Old oceanic crust is being destroyed.",
+        "New continental crust is forming.",
+        "Old continental crust is being destroyed."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The cross sections below represent two rock outcrops labeled I and II. Letters A, B, C, D, and X identify rock layers. The rock layers have not been overturned. Outcrop I X Outcrop II B A C D Which rock layer in outcrop II best correlates with layer X in outcrop I?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2022/q25.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which igneous rock formed from magma that cooled slowly and is composed of 5% amphibole, 8% biotite, 15% plagioclase feldspar, 37% quartz, and 35% potassium feldspar?",
+      "choices": [
+        "rhyolite",
+        "granite",
+        "diorite",
+        "scoria"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "A mudslide is most likely to occur on a hillslope having soil that is",
+      "choices": [
+        "saturated with water and without vegetation",
+        "saturated with water and covered by vegetation",
+        "unsaturated and without vegetation",
+        "unsaturated and covered by vegetation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The map below represents portions of three tectonic plates. Points A through D represent locations on Earth\u2019s surface. African Plate Eurasian Plate Arabian Plate A C B D Which location is closest to a zone of rifting?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2022/q28.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The table below shows the chemical formulas for four rock-forming minerals. Mineral Composition Chalcopyrite CuFeS2 Fayalite Fe2SiO4 Apatite Ca5(PO4)3OH Barite BaSO4 Which mineral contains the two most abundant elements by mass in Earth\u2019s crust?",
+      "choices": [
+        "Location Velocity (cm/sec) A 88 B 94 C 100",
+        "Location Velocity (cm/sec) A 100 B 88 C 94",
+        "Location Velocity (cm/sec) A 88 B 100 C 94",
+        ""
+      ],
+      "image": "/images/exams/earth-science/june-2022/q29.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The map below represents a bridge over the meander of a stream. From the bridge, a student measures the stream velocity at locations A, B, and C. Bridge A B C Which table represents the most probable stream velocity recordings at each location?",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The sequence of diagrams below represent three stages in the formation of a geologic feature over time. 1 2 3 Geologic feature sediment sediment Glacier Glacier Ice sediment Which geologic feature is formed by this process?",
+      "choices": [
+        "drumlin",
+        "dune",
+        "\ufb01 nger lake",
+        "kettle lake"
+      ],
+      "image": "/images/exams/earth-science/june-2022/q31.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Which mineral has cleavage in two directions and is commonly used to manufacture ceramics?",
+      "choices": [
+        "muscovite mica",
+        "potassium feldspar",
+        "\ufb02 uorite",
+        "olivine"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "A mixture of rounded pebbles and sand was deposited in a river. Over time, these sediments were compacted and cemented together to form the sedimentary rock",
+      "choices": [
+        "conglomerate",
+        "sandstone",
+        "breccia",
+        "shale"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The map below shows a portion of Matagorda Island. This barrier island is located along the coast of Texas in the Gulf of Mexico. Texas Matagorda Island Gulf of Mexico Which agent of erosion is primarily responsible for the formation of Matagorda Island?",
+      "choices": [
+        "streams",
+        "moving ice",
+        "wave action",
+        "wind"
+      ],
+      "image": "/images/exams/earth-science/june-2022/q34.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "A primary difference between sedimentary rocks and nonsedimentary rocks is that",
+      "choices": [
+        "nonsedimentary rocks contain an abundance of fossils",
+        "nonsedimentary rocks originate in regions of great heat and/or pressure",
+        "sedimentary rocks are currently found only in marine locations",
+        "sedimentary rocks are formed at plate bound- aries"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which limestone is classi\ufb01 ed as inorganic?",
+      "choices": [
+        "chalk",
+        "coquina",
+        "coral",
+        "travertine"
+      ],
+      "image": "/images/exams/earth-science/june-2022/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the table below and on your knowledge of Earth science. \nThe data table describes some types of limestone.\nTypes of Limestone\nLimestone Name\nDescription\nChalk\nthick accumulations of microscopic shells of tiny organisms with \ncalcite cement\nCoquina\npoorly cemented shells and shell fragments\nCoral\nskeletons of coral organisms with calcite cement\nTravertine\ndeposits left by hot springs or dripping water in caves",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The photograph below shows one type of limestone described in the table. daniellesdives.\ufb01 les.wordpress.com This type of limestone is best identi\ufb01 ed as",
+      "choices": [
+        "chalk",
+        "coquina",
+        "coral",
+        "travertine"
+      ],
+      "image": "/images/exams/earth-science/june-2022/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the table below and on your knowledge of Earth science. \nThe data table describes some types of limestone.\nTypes of Limestone\nLimestone Name\nDescription\nChalk\nthick accumulations of microscopic shells of tiny organisms with \ncalcite cement\nCoquina\npoorly cemented shells and shell fragments\nCoral\nskeletons of coral organisms with calcite cement\nTravertine\ndeposits left by hot springs or dripping water in caves",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "In the anorthositic gneiss, the mineral garnet is most likely observed in the",
+      "choices": [
+        "dark bands, has a red color, and has a hardness of 7.0",
+        "dark bands, has a silver color, and has a hardness of 3.0",
+        "light bands, has a red color, and has a hardness of 3.0",
+        "light bands, has a silver color, and has a hardness of 7.0"
+      ],
+      "image": "/images/exams/earth-science/june-2022/context_38_40.png",
+      "context": "Base your answers to questions 38 through 40 on the passage and photograph below and on your knowledge \nof Earth science. The photograph shows anorthositic gneiss bedrock from Whiteface Mountain in New York \nState.\nWhiteface Mountain\nWhiteface Mountain, located in the Mount Marcy region, is one of New York State\u2019s \nhighest mountain peaks. Most of the surface bedrock on Whiteface is anorthositic gneiss \nmade up of large, light-colored plagioclase feldspar crystals and dark mineral bands \ncomposed of amphibole, pyroxene, and garnet. The foliated crystal alignment in the gneiss \nwas produced during a major tectonic event called the Grenville orogeny. Landslides have \nexposed steep slopes of this white and gray bedrock on the sides of Whiteface Mountain.\nwww.adkresearch.org",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The texture of the gneiss indicates that the bedrock",
+      "choices": [
+        "underwent contact metamorphism",
+        "underwent regional metamorphism",
+        "was bioclastic in origin",
+        "was composed of compacted sediment"
+      ],
+      "image": "/images/exams/earth-science/june-2022/context_38_40.png",
+      "context": "Base your answers to questions 38 through 40 on the passage and photograph below and on your knowledge \nof Earth science. The photograph shows anorthositic gneiss bedrock from Whiteface Mountain in New York \nState.\nWhiteface Mountain\nWhiteface Mountain, located in the Mount Marcy region, is one of New York State\u2019s \nhighest mountain peaks. Most of the surface bedrock on Whiteface is anorthositic gneiss \nmade up of large, light-colored plagioclase feldspar crystals and dark mineral bands \ncomposed of amphibole, pyroxene, and garnet. The foliated crystal alignment in the gneiss \nwas produced during a major tectonic event called the Grenville orogeny. Landslides have \nexposed steep slopes of this white and gray bedrock on the sides of Whiteface Mountain.\nwww.adkresearch.org",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The altitude of Polaris as seen by an observer on Whiteface Mountain in the Mount Marcy region will be approximately",
+      "choices": [
+        "40\u00b0",
+        "44\u00b0",
+        "74\u00b0",
+        "90\u00b0"
+      ],
+      "image": "/images/exams/earth-science/june-2022/context_38_40.png",
+      "context": "Base your answers to questions 38 through 40 on the passage and photograph below and on your knowledge \nof Earth science. The photograph shows anorthositic gneiss bedrock from Whiteface Mountain in New York \nState.\nWhiteface Mountain\nWhiteface Mountain, located in the Mount Marcy region, is one of New York State\u2019s \nhighest mountain peaks. Most of the surface bedrock on Whiteface is anorthositic gneiss \nmade up of large, light-colored plagioclase feldspar crystals and dark mineral bands \ncomposed of amphibole, pyroxene, and garnet. The foliated crystal alignment in the gneiss \nwas produced during a major tectonic event called the Grenville orogeny. Landslides have \nexposed steep slopes of this white and gray bedrock on the sides of Whiteface Mountain.\nwww.adkresearch.org",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Which type of tectonic plate boundary is represented in the cross-section?",
+      "choices": [
+        "complex",
+        "transform",
+        "convergent",
+        "divergent"
+      ],
+      "image": "/images/exams/earth-science/june-2022/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the cross section below and on your knowledge of Earth \nscience. The cross section represents a section of Earth\u2019s lithosphere along the coast of Japan. The epicenter of \na large magnitude earthquake that occurred on March 11, 2011 is indicated. Devastation occurred mainly in the \nlow-lying coastal areas of Japan closest to the epicenter. Letter A represents a geologic feature.\nMagma\nOceanic crust\nJapan\nEarthquake\nepicenter\nA\nOceanic crust\nSea of Japan\nPacific Ocean\n(Not drawn to scale)\nMelting crust",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The geologic feature indicated by letter A is",
+      "choices": [
+        "a hot spot",
+        "an island arc",
+        "an ocean trench",
+        "an igneous intrusion"
+      ],
+      "image": "/images/exams/earth-science/june-2022/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the cross section below and on your knowledge of Earth \nscience. The cross section represents a section of Earth\u2019s lithosphere along the coast of Japan. The epicenter of \na large magnitude earthquake that occurred on March 11, 2011 is indicated. Devastation occurred mainly in the \nlow-lying coastal areas of Japan closest to the epicenter. Letter A represents a geologic feature.\nMagma\nOceanic crust\nJapan\nEarthquake\nepicenter\nA\nOceanic crust\nSea of Japan\nPacific Ocean\n(Not drawn to scale)\nMelting crust",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "What most likely caused the major devastation along the \ufb02 at coastal areas of Japan as a result of this earthquake?",
+      "choices": [
+        "crustal downwarping",
+        "lava \ufb02 ows",
+        "landslides",
+        "a tsunami"
+      ],
+      "image": "/images/exams/earth-science/june-2022/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the cross section below and on your knowledge of Earth \nscience. The cross section represents a section of Earth\u2019s lithosphere along the coast of Japan. The epicenter of \na large magnitude earthquake that occurred on March 11, 2011 is indicated. Devastation occurred mainly in the \nlow-lying coastal areas of Japan closest to the epicenter. Letter A represents a geologic feature.\nMagma\nOceanic crust\nJapan\nEarthquake\nepicenter\nA\nOceanic crust\nSea of Japan\nPacific Ocean\n(Not drawn to scale)\nMelting crust",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which arrows represent re\ufb02 ected insolation?",
+      "choices": [
+        "A and E",
+        "B and C",
+        "C and D",
+        "D and A"
+      ],
+      "image": "/images/exams/earth-science/june-2022/context_44_46.png",
+      "context": "Base your answers to questions 44 through 46 on the cross section below and on your knowledge of Earth \nscience. The cross section represents the effect of Earth\u2019s atmosphere on energy from the Sun. Arrows labeled A, \nB, C, D, and E represent some possible paths of this insolation. The dashed arrows represent energy reradiated \nfrom Earth\u2019s surface.\nAtmosphere\nEarth\u2019s\nsurface\nA\nB\nEnergy\nfrom\nthe Sun\nC\nD\nE",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Compared to path D, the amount of energy reaching Earth\u2019s surface following path B is likely",
+      "choices": [
+        "less, because atmospheric transparency is less",
+        "less, because atmospheric transparency is greater",
+        "more, because atmospheric transparency is less",
+        "more, because atmospheric transparency is greater"
+      ],
+      "image": "/images/exams/earth-science/june-2022/context_44_46.png",
+      "context": "Base your answers to questions 44 through 46 on the cross section below and on your knowledge of Earth \nscience. The cross section represents the effect of Earth\u2019s atmosphere on energy from the Sun. Arrows labeled A, \nB, C, D, and E represent some possible paths of this insolation. The dashed arrows represent energy reradiated \nfrom Earth\u2019s surface.\nAtmosphere\nEarth\u2019s\nsurface\nA\nB\nEnergy\nfrom\nthe Sun\nC\nD\nE",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Which type of surface material absorbs and reradiates the greatest amount of energy?",
+      "choices": [
+        "white with a smooth texture",
+        "white with a rough texture",
+        "dark with a smooth texture",
+        "dark with a rough texture"
+      ],
+      "image": "/images/exams/earth-science/june-2022/context_44_46.png",
+      "context": "Base your answers to questions 44 through 46 on the cross section below and on your knowledge of Earth \nscience. The cross section represents the effect of Earth\u2019s atmosphere on energy from the Sun. Arrows labeled A, \nB, C, D, and E represent some possible paths of this insolation. The dashed arrows represent energy reradiated \nfrom Earth\u2019s surface.\nAtmosphere\nEarth\u2019s\nsurface\nA\nB\nEnergy\nfrom\nthe Sun\nC\nD\nE",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which group of living organisms survived all \ufb01 ve major mass extinctions?",
+      "choices": [
+        "ammonoids",
+        "brachiopods",
+        "graptolites",
+        "trilobites"
+      ],
+      "image": "/images/exams/earth-science/june-2022/context_47_48.png",
+      "context": "Base your answers to questions 47 and 48 on the graph below and on your knowledge of Earth science. \nThe graph shows the number of families (groups of closely related species) represented in the fossil record and \n\ufb01 ve major mass extinction events in Earth\u2019s history.\n900\n0\n600\n300\nNumber of Families\nMajor Mass Extinctions on Earth\nE x t i n c t i o n  E v e n t s\nUnits of Geologic Time\nCambrian\nPrec.\nOrdov.\nSil. Dev. Carbonif. Per. Tri. Jurassic Cretaceous Cenozoic",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "One group of organisms that existed on Earth before 550 million years ago was",
+      "choices": [
+        "sharks",
+        "insects",
+        "Ediacaran fauna",
+        "Burgess shale fauna"
+      ],
+      "image": "/images/exams/earth-science/june-2022/context_47_48.png",
+      "context": "Base your answers to questions 47 and 48 on the graph below and on your knowledge of Earth science. \nThe graph shows the number of families (groups of closely related species) represented in the fossil record and \n\ufb01 ve major mass extinction events in Earth\u2019s history.\n900\n0\n600\n300\nNumber of Families\nMajor Mass Extinctions on Earth\nE x t i n c t i o n  E v e n t s\nUnits of Geologic Time\nCambrian\nPrec.\nOrdov.\nSil. Dev. Carbonif. Per. Tri. Jurassic Cretaceous Cenozoic",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which diagram represents the correct direction of Earth\u2019s rotation? W E S Equator N W E S N Equator W E S N Equator Equator W E S N",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/earth-science/june-2022/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the apparent change in direction of the swing of a scienti\ufb01 c device over a period of \ufb01 ve \nhours. This device provides evidence of Earth\u2019s rotation.\nSteel\nball\nFloor\n5 Hours\n4\n3\n2\n1\nSwing\nWire 200 feet long\n0",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Approximately how many degrees does Earth rotate on its axis over this \ufb01 ve-hour period?",
+      "choices": [
+        "15\u00b0",
+        "45\u00b0",
+        "75\u00b0",
+        "90\u00b0"
+      ],
+      "image": "/images/exams/earth-science/june-2022/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the apparent change in direction of the swing of a scienti\ufb01 c device over a period of \ufb01 ve \nhours. This device provides evidence of Earth\u2019s rotation.\nSteel\nball\nFloor\n5 Hours\n4\n3\n2\n1\nSwing\nWire 200 feet long\n0",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Other than latitude, identify the climate factor that produces the cold temperatures responsible for the snow-covered mountains.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the block diagram below and on your knowledge of Earth \nscience. The block diagram represents an east coast location near the southern tip of South America. Arrows \nrepresent incoming and outgoing radiation.\nOutgoing\nradiation\nCity\nSouth Atlantic \nOcean\nBeach\nSnow covered\nmountains\nIncoming\nradiation\nN\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 elevation \u2014 altitude \u2014 height above sea level"
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Complete the table in your answer booklet by using terms to describe how the relative daytime air temperature and the relative daytime air pressure over the beach and ocean are different in the summer months.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the block diagram below and on your knowledge of Earth \nscience. The block diagram represents an east coast location near the southern tip of South America. Arrows \nrepresent incoming and outgoing radiation.\nOutgoing\nradiation\nCity\nSouth Atlantic \nOcean\nBeach\nSnow covered\nmountains\nIncoming\nradiation\nN\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if all four student responses are correct. Acceptable responses include, but are not limited to:"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "On the set of axes in your answer booklet, draw a line that generally represents the average monthly air temperatures from January to December at the Southern Hemisphere city shown in the diagram.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the block diagram below and on your knowledge of Earth \nscience. The block diagram represents an east coast location near the southern tip of South America. Arrows \nrepresent incoming and outgoing radiation.\nOutgoing\nradiation\nCity\nSouth Atlantic \nOcean\nBeach\nSnow covered\nmountains\nIncoming\nradiation\nN\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a line that shows the lowest air temperature in June, July, or August and the highest air temperatures in January and December. Example of a 1-credit response: Time of Day and Atmospheric Condition Over the Beach Over the Ocean Daytime air temperature \u2014 higher \u2014 warmer \u2014 hotter \u2014 lower \u2014 cooler \u2014 colder Daytime air pressure \u2014 lower \u2014 less \u2014 higher \u2014 more Average Monthly Air Temperature J F M A M J J A S O N D Month P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw the 5.5-inch, 6.0-inch, and 6.5-inch isolines. Extend the isolines to the edges of New York State.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 57 on the passage below, the map in your answer booklet, and \non your knowledge of Earth science. The partially completed isoline map shows the highest one-day total rainfall \nvalues that are predicted to occur at least once in 100 years for New York State. Isolines for the 4.5-inch, 5.0-inch, \nand 8.0-inch rainfall values have been drawn.\nExtreme precipitation events, like those predicted to occur once every 100 years, as \nshown on the map, can produce local and widespread \ufb02 ooding. These \ufb02 oods can damage \nproperty, affect water quality, and pose a danger to humans. Climate scientists have been \ncollecting precipitation data for many years and are able to make estimates of extreme \nrainfall events. Scientists are observing that these extreme precipitation events are now \noccurring with greater frequency than in the past.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly drawing the 5.5, 6.0, and 6.5 inch isolines that extend to the edges of the state. If additional isolines are drawn, all isolines must be correct to receive credit. Note: The isolines must pass through or touch the 5.5, 6.0, and 6.5 data points. Example of a 1-credit response:"
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify the amount of rainfall, in inches (in), that is predicted to occur at Oswego, New York, for the highest rainfall event occurring once in 100 years.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 57 on the passage below, the map in your answer booklet, and \non your knowledge of Earth science. The partially completed isoline map shows the highest one-day total rainfall \nvalues that are predicted to occur at least once in 100 years for New York State. Isolines for the 4.5-inch, 5.0-inch, \nand 8.0-inch rainfall values have been drawn.\nExtreme precipitation events, like those predicted to occur once every 100 years, as \nshown on the map, can produce local and widespread \ufb02 ooding. These \ufb02 oods can damage \nproperty, affect water quality, and pose a danger to humans. Climate scientists have been \ncollecting precipitation data for many years and are able to make estimates of extreme \nrainfall events. Scientists are observing that these extreme precipitation events are now \noccurring with greater frequency than in the past.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value greater than 4.5 inches but less than 5.0 inches."
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify two New York State landscape regions with the highest predicted rainfall value for an event occurring once in 100 years.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 57 on the passage below, the map in your answer booklet, and \non your knowledge of Earth science. The partially completed isoline map shows the highest one-day total rainfall \nvalues that are predicted to occur at least once in 100 years for New York State. Isolines for the 4.5-inch, 5.0-inch, \nand 8.0-inch rainfall values have been drawn.\nExtreme precipitation events, like those predicted to occur once every 100 years, as \nshown on the map, can produce local and widespread \ufb02 ooding. These \ufb02 oods can damage \nproperty, affect water quality, and pose a danger to humans. Climate scientists have been \ncollecting precipitation data for many years and are able to make estimates of extreme \nrainfall events. Scientists are observing that these extreme precipitation events are now \noccurring with greater frequency than in the past.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for two correct responses from the list below. \u2014 Atlantic Coastal Plain \u2014 Manhattan Prong \u2014 Newark Lowlands \u2014 Hudson Highlands Note: Allow credit for New England Province (Highlands) only if Manhattan Prong or Hudson Highlands are not used as a response. Lake Erie Lake Ontario Predicted Highest Rainfall Event Occurring Once in 100 Years 5.7 5.3 5.2 5.4 5.8 5.5 6.8 6.5 5.8 6.0 7.3 7.5 7.7 7.1 6.8 6.4 6.6 5.9 5.0 5.0 5.0 8.0 5.0 7.0 4.5 8.0 4.5 P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Explain why urban areas are more likely to experience \ufb02 ooding from extreme rainfall events than rural areas.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 57 on the passage below, the map in your answer booklet, and \non your knowledge of Earth science. The partially completed isoline map shows the highest one-day total rainfall \nvalues that are predicted to occur at least once in 100 years for New York State. Isolines for the 4.5-inch, 5.0-inch, \nand 8.0-inch rainfall values have been drawn.\nExtreme precipitation events, like those predicted to occur once every 100 years, as \nshown on the map, can produce local and widespread \ufb02 ooding. These \ufb02 oods can damage \nproperty, affect water quality, and pose a danger to humans. Climate scientists have been \ncollecting precipitation data for many years and are able to make estimates of extreme \nrainfall events. Scientists are observing that these extreme precipitation events are now \noccurring with greater frequency than in the past.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Land covered by blacktop and concrete has a lower permeability. \u2014 Rainfall can\u2019t infiltrate city surfaces. \u2014 There are more areas for water to seep into the ground in rural areas. \u2014 More vegetation in rural areas slows the runoff and allows more time for infiltration."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Describe the arrangement of sediments found within the moraine indicated by letter A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the photograph below and on your knowledge of Earth \nscience. The photograph shows a glacier located in the Chugach Mountains of Alaska. Letter A indicates a \nmoraine. The glacier previously \ufb02 owed down the entire valley. The lower portion of this valley is now occupied \nby a stream. Letter B represents a location within the stream.\nA\nB",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 unsorted \u2014 unlayered \u2014 mixed"
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Identify the name of the largest particles that can be transported by the stream at letter B if the stream velocity is 20 centimeters per second.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the photograph below and on your knowledge of Earth \nscience. The photograph shows a glacier located in the Chugach Mountains of Alaska. Letter A indicates a \nmoraine. The glacier previously \ufb02 owed down the entire valley. The lower portion of this valley is now occupied \nby a stream. Letter B represents a location within the stream.\nA\nB",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for pebbles."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Describe the cross-sectional shape of the valley created by this glacier.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the photograph below and on your knowledge of Earth \nscience. The photograph shows a glacier located in the Chugach Mountains of Alaska. Letter A indicates a \nmoraine. The glacier previously \ufb02 owed down the entire valley. The lower portion of this valley is now occupied \nby a stream. Letter B represents a location within the stream.\nA\nB",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 U-shaped valley \u2014 The valley will have a rounded bottom with steep sides. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "On the map in your answer booklet, plot the latitude and longitude locations of Hurricane Irma that are listed in the data table. Connect all \ufb01 ve plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the data table below, on the map in your answer booklet, \nand on your knowledge of Earth science. The data table shows the date, location, barometric pressure, and wind \nspeed at the center of Hurricane Irma at 12 noon from September 7 through September 11, 2017. The map in \nyour answer booklet shows the latitude and longitude coordinates and a portion of the southeast United States \nand the Caribbean.\nHurricane Irma Data Table\nDate\nLatitude\nLongitude\nBarometric \nPressure (mb)\nWind Speed \n(knots)\nSept. 7\n20\u00b0 N\n69\u00b0 W\n921\n157\nSept. 8\n22\u00b0 N\n75\u00b0 W\n927\n130\nSept. 9\n23\u00b0 N\n80\u00b0 W\n937\n113\nSept. 10\n25\u00b0 N\n82\u00b0 W\n929\n118\nSept. 11\n30\u00b0 N\n83\u00b0 W\n970\n61",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all five plots are within or touch the boxes shown and are correctly connected with a line that passes within or touches each box. Note: Allow credit if the line does not pass through the student\u2019s plots, but is still within or touches the boxes. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating. Do not allow credit if the student drawn line extends beyond the first and last boxes on the rating guide."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Describe the general relationship between the barometric pressure and wind speed for Hurricane Irma.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the data table below, on the map in your answer booklet, \nand on your knowledge of Earth science. The data table shows the date, location, barometric pressure, and wind \nspeed at the center of Hurricane Irma at 12 noon from September 7 through September 11, 2017. The map in \nyour answer booklet shows the latitude and longitude coordinates and a portion of the southeast United States \nand the Caribbean.\nHurricane Irma Data Table\nDate\nLatitude\nLongitude\nBarometric \nPressure (mb)\nWind Speed \n(knots)\nSept. 7\n20\u00b0 N\n69\u00b0 W\n921\n157\nSept. 8\n22\u00b0 N\n75\u00b0 W\n927\n130\nSept. 9\n23\u00b0 N\n80\u00b0 W\n937\n113\nSept. 10\n25\u00b0 N\n82\u00b0 W\n929\n118\nSept. 11\n30\u00b0 N\n83\u00b0 W\n970\n61",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 As barometric pressure increases, the wind speed decreases. \u2014 The higher the wind speed, the lower the pressure. \u2014 inverse relationship/negative relationship"
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "According to the information in the data table, identify the name of the warm ocean current that caused Hurricane Irma to strengthen on Sept. 10.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the data table below, on the map in your answer booklet, \nand on your knowledge of Earth science. The data table shows the date, location, barometric pressure, and wind \nspeed at the center of Hurricane Irma at 12 noon from September 7 through September 11, 2017. The map in \nyour answer booklet shows the latitude and longitude coordinates and a portion of the southeast United States \nand the Caribbean.\nHurricane Irma Data Table\nDate\nLatitude\nLongitude\nBarometric \nPressure (mb)\nWind Speed \n(knots)\nSept. 7\n20\u00b0 N\n69\u00b0 W\n921\n157\nSept. 8\n22\u00b0 N\n75\u00b0 W\n927\n130\nSept. 9\n23\u00b0 N\n80\u00b0 W\n937\n113\nSept. 10\n25\u00b0 N\n82\u00b0 W\n929\n118\nSept. 11\n30\u00b0 N\n83\u00b0 W\n970\n61",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Florida Current."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Determine the inferred pressure, in million atmospheres, and temperature, in \u00b0C, within Earth\u2019s interior at the boundary between layers B and C.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_64_65.png",
+      "context": "Base your answers to questions 64 and 65 on the model below and on your knowledge of Earth science. \nThe model represents a cross-sectional view from Earth\u2019s surface to its center. Four layers of Earth\u2019s interior \nare labeled A, B, C, and D. The depth below Earth\u2019s surface of the boundary between C and D, measured from \nEarth\u2019s surface, is indicated.\n(Not drawn to scale)\nOcean\n5200 km\nRigid mantle\nCrust\nB\nD\nA\nC",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value for a temperature from 4900\u00b0C to 5000\u00b0C and any value for a pressure from 1.4 million atmospheres to 1.6 million atmospheres."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "In your answer booklet, circle the inferred state of matter of layer D and name the two major elements that make up the composition of layer D.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_64_65.png",
+      "context": "Base your answers to questions 64 and 65 on the model below and on your knowledge of Earth science. \nThe model represents a cross-sectional view from Earth\u2019s surface to its center. Four layers of Earth\u2019s interior \nare labeled A, B, C, and D. The depth below Earth\u2019s surface of the boundary between C and D, measured from \nEarth\u2019s surface, is indicated.\n(Not drawn to scale)\nOcean\n5200 km\nRigid mantle\nCrust\nB\nD\nA\nC",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for both circling solid and identifying iron (Fe) and nickel (Ni) for the composition. 15\u00b0 N 20\u00b0 N 25\u00b0 N 30\u00b0 N 35\u00b0 N 85\u00b0 W 80\u00b0 W 75\u00b0 W 70\u00b0 W 65\u00b0 W 90\u00b0 W 85\u00b0 W 80\u00b0 W 75\u00b0 W 65\u00b0 W 90\u00b0 W 15\u00b0 N 20\u00b0 N 25\u00b0 N 30\u00b0 N 35\u00b0 N 70\u00b0 W P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "On the weather map in your answer booklet, draw weather-front symbols on the correct sides of both line XY and line XZ to show the most probable type and direction of each moving front.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the weather map in your answer booklet, on the data table \nbelow, and on your knowledge of Earth science. The map shows the center of a low-pressure system (L). Lines \nXY and XZ represent two fronts associated with this low-pressure system. Points R, S, and T represent locations \non Earth\u2019s surface. The data table lists weather conditions at these three locations.\nWeather Data\nWeather Condition\nLocation R\nLocation S\nLocation T\nTemperature (\u00b0F)\n65\n55\n82\nDewpoint (\u00b0F)\n64\n36\n72\nCloud cover (%)\n100\n0\n50\nWind from the\nE\nNW\nSW\nWind speed (knots)\n10\n20\n10",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the placement of the correct symbols facing in the correct directions for both fronts. Note: Allow credit if the symbols are not shaded in. Example of a 1-credit response:"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "On the weather station model in your answer booklet, using the proper format, record the \ufb01 ve weather conditions shown in the data table for location R.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the weather map in your answer booklet, on the data table \nbelow, and on your knowledge of Earth science. The map shows the center of a low-pressure system (L). Lines \nXY and XZ represent two fronts associated with this low-pressure system. Points R, S, and T represent locations \non Earth\u2019s surface. The data table lists weather conditions at these three locations.\nWeather Data\nWeather Condition\nLocation R\nLocation S\nLocation T\nTemperature (\u00b0F)\n65\n55\n82\nDewpoint (\u00b0F)\n64\n36\n72\nCloud cover (%)\n100\n0\n50\nWind from the\nE\nNW\nSW\nWind speed (knots)\n10\n20\n10",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if all five weather conditions are in the correct location and in the correct format. Note: Allow credit for a wind speed feather drawn at the end on either side of the wind direction line. Example of a 1-credit response: Atlantic Ocean Gulf of Mexico United States 40\u00b0 N 35\u00b0 N 30\u00b0 N 25\u00b0 N 100\u00b0 W 90\u00b0 W 80\u00b0 W S R T Y X Z L 65 64 Part C Allow a maximum of 20 credits for this part. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Identify the compass direction toward which the center of this low-pressure system will move if it follows a normal storm track.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the weather map in your answer booklet, on the data table \nbelow, and on your knowledge of Earth science. The map shows the center of a low-pressure system (L). Lines \nXY and XZ represent two fronts associated with this low-pressure system. Points R, S, and T represent locations \non Earth\u2019s surface. The data table lists weather conditions at these three locations.\nWeather Data\nWeather Condition\nLocation R\nLocation S\nLocation T\nTemperature (\u00b0F)\n65\n55\n82\nDewpoint (\u00b0F)\n64\n36\n72\nCloud cover (%)\n100\n0\n50\nWind from the\nE\nNW\nSW\nWind speed (knots)\n10\n20\n10",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 northeast/NE \u2014 eastward/E \u2014 NNE \u2014 ENE \u2014 west to east"
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, place an X on Earth\u2019s surface at the latitude where the vertical ray of the Sun would be directly overhead on June 21.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 and 70 on the diagram in your answer booklet, which shows Earth on June \n21, when the Northern Hemisphere experiences the most hours of daylight in a 24-hour period. The shaded area \nrepresents nighttime.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the center of the X is drawn at any location within 1 mm above or below the Tropic of Cancer. Example of a 1-credit response:"
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State one cause for the different lengths of daylight shown on June 21 at these different northern latitudes.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 and 70 on the diagram in your answer booklet, which shows Earth on June \n21, when the Northern Hemisphere experiences the most hours of daylight in a 24-hour period. The shaded area \nrepresents nighttime.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The Earth\u2019s axis is not perpendicular to the plane of Earth\u2019s orbit. \u2014 The Earth\u2019s axis is inclined 23 1__ 2 \u00b0. \u2014 The northern end of Earth\u2019s axis is tilted toward the Sun on this date. \u2014 Earth\u2019s axis is tilted. \u2014 Earth rotates on its axis 13.5 h 12 h (Not drawn to scale) Hours of Daylight 24 h Tropic of Cancer Equator 24 h 18 h 16 h North America Atlantic Ocean X N S 23 1 2\u00b0 23 1 2\u00b0 P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, place an X on the Moon\u2019s orbit to indicate the Moon\u2019s position on August 21, 2017.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_71_74.png",
+      "context": "Base your answers to questions 71 through 74 on the passage and photographs below and on your knowledge \nof Earth science. The photographs show two celestial objects before, during, and after a total solar eclipse that \nwas observed in Kingston, Tennessee at 2:37 p.m., on August 21, 2017, taken from a \ufb01 xed position.\nSolar Eclipses and the Saros Cycle\nSolar eclipses occur between two and \ufb01 ve times a year somewhere on Earth, but are \nrare for any one location. The plane of the Moon\u2019s orbit is tilted approximately 5\u00b0 to Earth\u2019s \norbit around the Sun. So, even though the Moon is in the correct phase, New Moon, to \nproduce a solar eclipse, the Moon\u2019s shadow usually falls above or below Earth\u2019s position \nin its orbit. To produce a total solar eclipse, the Moon in its orbit must be at or near its \nclosest point to Earth, making it appear large enough to cover the Sun. Solar eclipses \nfollow speci\ufb01 c, cyclic patterns called Saros Cycles. A Saros Cycle lasts 18 years, 11 days, \nand 8 hours. Since eight hours is approximately one-third of Earth\u2019s daily rotation, it takes \nthree Saros Cycles (54 years and 34 days) for a solar eclipse to return to the same section \nof Earth. \nTotal Solar Eclipse\n1:45 p.m.\n2:10 p.m.\n2:37 p.m.\n3:10 p.m.\n3:30 p.m.\nG. Meyer",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the center of the X is drawn within or touches the clear band shown below. Note: Allow credit if a symbol other than an X is used. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "The plane of the Moon\u2019s orbit is tilted approximately 5\u00b0 to Earth\u2019s orbit around the Sun. Explain how the tilt of the Moon\u2019s orbit prevents a solar eclipse from occurring every month.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_71_74.png",
+      "context": "Base your answers to questions 71 through 74 on the passage and photographs below and on your knowledge \nof Earth science. The photographs show two celestial objects before, during, and after a total solar eclipse that \nwas observed in Kingston, Tennessee at 2:37 p.m., on August 21, 2017, taken from a \ufb01 xed position.\nSolar Eclipses and the Saros Cycle\nSolar eclipses occur between two and \ufb01 ve times a year somewhere on Earth, but are \nrare for any one location. The plane of the Moon\u2019s orbit is tilted approximately 5\u00b0 to Earth\u2019s \norbit around the Sun. So, even though the Moon is in the correct phase, New Moon, to \nproduce a solar eclipse, the Moon\u2019s shadow usually falls above or below Earth\u2019s position \nin its orbit. To produce a total solar eclipse, the Moon in its orbit must be at or near its \nclosest point to Earth, making it appear large enough to cover the Sun. Solar eclipses \nfollow speci\ufb01 c, cyclic patterns called Saros Cycles. A Saros Cycle lasts 18 years, 11 days, \nand 8 hours. Since eight hours is approximately one-third of Earth\u2019s daily rotation, it takes \nthree Saros Cycles (54 years and 34 days) for a solar eclipse to return to the same section \nof Earth. \nTotal Solar Eclipse\n1:45 p.m.\n2:10 p.m.\n2:37 p.m.\n3:10 p.m.\n3:30 p.m.\nG. Meyer",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The Moon\u2019s shadow falls above or below Earth\u2019s position in its orbit. \u2014 The shadow of the Moon is not aligned with Earth. \u2014 The Moon and Earth are not aligned on the same plane."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Predict the next year after 2017 when the total solar eclipse path associated with this Saros Cycle will return to the same section of Earth.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_71_74.png",
+      "context": "Base your answers to questions 71 through 74 on the passage and photographs below and on your knowledge \nof Earth science. The photographs show two celestial objects before, during, and after a total solar eclipse that \nwas observed in Kingston, Tennessee at 2:37 p.m., on August 21, 2017, taken from a \ufb01 xed position.\nSolar Eclipses and the Saros Cycle\nSolar eclipses occur between two and \ufb01 ve times a year somewhere on Earth, but are \nrare for any one location. The plane of the Moon\u2019s orbit is tilted approximately 5\u00b0 to Earth\u2019s \norbit around the Sun. So, even though the Moon is in the correct phase, New Moon, to \nproduce a solar eclipse, the Moon\u2019s shadow usually falls above or below Earth\u2019s position \nin its orbit. To produce a total solar eclipse, the Moon in its orbit must be at or near its \nclosest point to Earth, making it appear large enough to cover the Sun. Solar eclipses \nfollow speci\ufb01 c, cyclic patterns called Saros Cycles. A Saros Cycle lasts 18 years, 11 days, \nand 8 hours. Since eight hours is approximately one-third of Earth\u2019s daily rotation, it takes \nthree Saros Cycles (54 years and 34 days) for a solar eclipse to return to the same section \nof Earth. \nTotal Solar Eclipse\n1:45 p.m.\n2:10 p.m.\n2:37 p.m.\n3:10 p.m.\n3:30 p.m.\nG. Meyer",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 2071."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "State the number of days that it takes the Moon to go from one New Moon phase to the next New Moon phase as viewed from Earth.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_71_74.png",
+      "context": "Base your answers to questions 71 through 74 on the passage and photographs below and on your knowledge \nof Earth science. The photographs show two celestial objects before, during, and after a total solar eclipse that \nwas observed in Kingston, Tennessee at 2:37 p.m., on August 21, 2017, taken from a \ufb01 xed position.\nSolar Eclipses and the Saros Cycle\nSolar eclipses occur between two and \ufb01 ve times a year somewhere on Earth, but are \nrare for any one location. The plane of the Moon\u2019s orbit is tilted approximately 5\u00b0 to Earth\u2019s \norbit around the Sun. So, even though the Moon is in the correct phase, New Moon, to \nproduce a solar eclipse, the Moon\u2019s shadow usually falls above or below Earth\u2019s position \nin its orbit. To produce a total solar eclipse, the Moon in its orbit must be at or near its \nclosest point to Earth, making it appear large enough to cover the Sun. Solar eclipses \nfollow speci\ufb01 c, cyclic patterns called Saros Cycles. A Saros Cycle lasts 18 years, 11 days, \nand 8 hours. Since eight hours is approximately one-third of Earth\u2019s daily rotation, it takes \nthree Saros Cycles (54 years and 34 days) for a solar eclipse to return to the same section \nof Earth. \nTotal Solar Eclipse\n1:45 p.m.\n2:10 p.m.\n2:37 p.m.\n3:10 p.m.\n3:30 p.m.\nG. Meyer",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 29 to 30 days. Moon\u2019s orbit Sun\u2019s rays (Not drawn to scale) Earth P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a topographic pro\ufb01 le along line AB by plotting the elevation of each contour line that crosses line AB. Points A and B have been plotted. Connect all nine plots with a line from A to B to complete the pro\ufb01 le.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_75_78.png",
+      "context": "Base your answers to questions 75 through 78 on the topographic map below and on your knowledge of Earth \nscience. The map shows features and contour lines in the region of a proposed airport. Line AB is a reference line \non the map. Points X and Y represent surface locations along a creek. Elevations are shown in feet.\nKris\nCreek\n0\n1\n2\n3 miles\nN\nContour interval = 20 ft\nX\nY\n300\nA\nB\n400\n500\nLake\nProposed area\nfor airport",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all seven student plots are within or touch the rectangles shown and all 9 plots are correctly connected with a line that passes within or touches the rectangles. The line must show a hill higher than 500 feet, but lower than 520 feet. Note: Allow credit if the student-drawn line does not pass through the student plots but is still within or touching the rectangles. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating."
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Calculate the gradient along Kris Creek between locations X and Y. Label your answer with the correct units.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_75_78.png",
+      "context": "Base your answers to questions 75 through 78 on the topographic map below and on your knowledge of Earth \nscience. The map shows features and contour lines in the region of a proposed airport. Line AB is a reference line \non the map. Points X and Y represent surface locations along a creek. Elevations are shown in feet.\nKris\nCreek\n0\n1\n2\n3 miles\nN\nContour interval = 20 ft\nX\nY\n300\nA\nB\n400\n500\nLake\nProposed area\nfor airport",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 37 to 43 with correct units. Acceptable units include, but are not limited to: \u2014 ft/mi \u2014 feet/mi \u2014 feet per mile"
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Describe how the contour lines provide evidence that the land is \ufb02 at enough for an airport of this size to be built at the proposed location.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_75_78.png",
+      "context": "Base your answers to questions 75 through 78 on the topographic map below and on your knowledge of Earth \nscience. The map shows features and contour lines in the region of a proposed airport. Line AB is a reference line \non the map. Points X and Y represent surface locations along a creek. Elevations are shown in feet.\nKris\nCreek\n0\n1\n2\n3 miles\nN\nContour interval = 20 ft\nX\nY\n300\nA\nB\n400\n500\nLake\nProposed area\nfor airport",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The contour lines are spread far apart here. \u2014 No contour lines pass through this area, so it is relatively flat. \u2014 Wider-spaced contour lines show a flatter area."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Identify the general compass direction toward which Kris Creek \ufb02 ows.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_75_78.png",
+      "context": "Base your answers to questions 75 through 78 on the topographic map below and on your knowledge of Earth \nscience. The map shows features and contour lines in the region of a proposed airport. Line AB is a reference line \non the map. Points X and Y represent surface locations along a creek. Elevations are shown in feet.\nKris\nCreek\n0\n1\n2\n3 miles\nN\nContour interval = 20 ft\nX\nY\n300\nA\nB\n400\n500\nLake\nProposed area\nfor airport",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for southwest/SW or from the northeast/NE to southwest/SW. B A Distance Elevation (ft) 380 400 420 440 460 480 500 520 540 Elevation (ft) 380 400 420 440 460 480 500 520 540"
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Describe one piece of evidence in the cross section indicating that the igneous rock at location C is extrusive.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the cross section below and on your knowledge of Earth science. \nThe cross section shows several rock units. Line AB indicates a fault. Points C and D are locations within the \nigneous rock unit. Circled letters E and F represent two of the sedimentary rock layers.\nE\nC\nD\nA\nB\nIgneous rock\nContact \nmetamorphism\nKey\nF",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Rock units above letter C have not been metamorphosed. \u2014 Contact metamorphism is missing above location C. \u2014 Conglomerate and sandstone do not show contact metamorphism above letter C."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "List fault AB, rock unit E, and rock unit F in order from oldest to youngest.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the cross section below and on your knowledge of Earth science. \nThe cross section shows several rock units. Line AB indicates a fault. Points C and D are locations within the \nigneous rock unit. Circled letters E and F represent two of the sedimentary rock layers.\nE\nC\nD\nA\nB\nIgneous rock\nContact \nmetamorphism\nKey\nF",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for: F or shale Fault AB or AB E or conglomerate __________________ _________________ _________________ Oldest Youngest"
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Identify the force that was primarily responsible for contracting the gas cloud in stage 1.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the diagram below and on your knowledge of Earth science. \nThe diagram represents \ufb01 ve inferred stages in the formation of our solar system. Stage 1 represents a contracting \ngas cloud. Stages 2 through 4 represent the gas cloud \ufb02 attening into a spinning disk as planets formed around our \nSun. Stage 5 represents the \ufb01 nal stage in the formation of the solar system.\nStage 1\nStage 2\nStage 3\nStage 4\nStage 5\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for gravity or gravitational force."
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "State the number of million years ago (mya) for the estimated time of origin of our solar system.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the diagram below and on your knowledge of Earth science. \nThe diagram represents \ufb01 ve inferred stages in the formation of our solar system. Stage 1 represents a contracting \ngas cloud. Stages 2 through 4 represent the gas cloud \ufb02 attening into a spinning disk as planets formed around our \nSun. Stage 5 represents the \ufb01 nal stage in the formation of the solar system.\nStage 1\nStage 2\nStage 3\nStage 4\nStage 5\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 4600 mya. Note: Allow credit if an equivalent value is expressed in other units (e.g., 4.6 billion years ago), if the student crosses out mya (million years ago)."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Identify the nuclear process occurring within the Sun at stage 5 that converts mass into great amounts of energy.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the diagram below and on your knowledge of Earth science. \nThe diagram represents \ufb01 ve inferred stages in the formation of our solar system. Stage 1 represents a contracting \ngas cloud. Stages 2 through 4 represent the gas cloud \ufb02 attening into a spinning disk as planets formed around our \nSun. Stage 5 represents the \ufb01 nal stage in the formation of the solar system.\nStage 1\nStage 2\nStage 3\nStage 4\nStage 5\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for fusion or nuclear fusion."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Compared to the terrestrial planets that formed closer to the Sun, describe two characteristics that are different for the Jovian planets that formed farther from the Sun.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the diagram below and on your knowledge of Earth science. \nThe diagram represents \ufb01 ve inferred stages in the formation of our solar system. Stage 1 represents a contracting \ngas cloud. Stages 2 through 4 represent the gas cloud \ufb02 attening into a spinning disk as planets formed around our \nSun. Stage 5 represents the \ufb01 nal stage in the formation of the solar system.\nStage 1\nStage 2\nStage 3\nStage 4\nStage 5\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for two correct responses. Acceptable responses include, but are not limited to: \u2014 The Jovian planets formed from less dense materials/lower density \u2014 Jovian planets are larger/have greater equatorial diameters/more massive. \u2014 Jovian planets are composed of more gaseous materials. \u2014 greater period of revolution \u2014 shorter period of rotation \u2014 greater mass \u2014 They are colder. \u2014 greater number of Moons \u2014 Jovian planets have rings."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Identify the planet in stage 5 that has a period of rotation greater than its period of revolution. P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2022/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the diagram below and on your knowledge of Earth science. \nThe diagram represents \ufb01 ve inferred stages in the formation of our solar system. Stage 1 represents a contracting \ngas cloud. Stages 2 through 4 represent the gas cloud \ufb02 attening into a spinning disk as planets formed around our \nSun. Stage 5 represents the \ufb01 nal stage in the formation of the solar system.\nStage 1\nStage 2\nStage 3\nStage 4\nStage 5\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Venus. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    }
+  ]
+}

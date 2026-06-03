@@ -1,0 +1,1076 @@
+{
+  "subject": "earth-science",
+  "session": "january-2013",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Why is the surface of Mercury covered with meteor impact craters, while Earth\u2019s surface has relatively few craters?",
+      "choices": [
+        "Mercury is larger than Earth, so it gets hit with more meteors.",
+        "Mercury is an older planet, so it has a longer history of meteor impacts.",
+        "Earth\u2019s less dense water surface attracts fewer meteors.",
+        "Earth\u2019s hydrosphere and atmosphere destroyed or buried most meteor impact sites."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which information best supports the inference that the universe began with an explosion?",
+      "choices": [
+        "measurements of rates of decay using carbon-14",
+        "measurements of cosmic background radiation",
+        "calculations of the distance from the Sun to each asteroid in the asteroid belt",
+        "calculations of the temperature and luminosity of stars"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "A blue shift of the light from a star indicates that the star",
+      "choices": [
+        "will soon become a main sequence star",
+        "will soon become a giant star",
+        "is moving closer to Earth",
+        "is moving away from Earth"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Evidence that Earth revolves around the Sun is provided by the",
+      "choices": [
+        "apparent rising and setting of the Sun during one day",
+        "apparent rising and setting of Polaris during one day",
+        "seasonal changes in the apparent positions of constellations",
+        "hourly changes in the apparent direction of the swing of a Foucault pendulum"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "What causes many surface winds to deflect to the right in the Northern Hemisphere?",
+      "choices": [
+        "rotation of Earth on its axis",
+        "unequal heating of Earth\u2019s surface",
+        "gravitational force of the Moon",
+        "gravitational force of the Sun"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "During which Northern Hemisphere season is Earth closest to the Sun?",
+      "choices": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "An observer on Earth measures the angle of sight between Venus and the setting Sun. Which statement best describes and explains the apparent motion of Venus over the next few hours?",
+      "choices": [
+        "Venus will set 1 hour after the Sun because Earth rotates at 45\u00b0 per hour.",
+        "Venus will set 2 hours after the Sun because Venus orbits Earth faster than the Sun orbits Earth.",
+        "Venus will set 3 hours after the Sun because Earth rotates at 15\u00b0 per hour.",
+        "Venus will set 4 hours after the Sun because Venus orbits Earth slower than the Sun orbits Earth. Sun Venus (Not drawn to scale)"
+      ],
+      "image": "/images/exams/earth-science/january-2013/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "written",
+      "text": "The diagram below represents the horizon and the Sun\u2019s apparent paths, A, B, and C, on three different dates, as viewed from the same location in New York State. Which table correctly shows the dates on which the apparent paths of the Sun were observed? ( 1 ) ( 3 ) ( 2 ) ( 4 ) Path of Sun Date A December 21 B March 21 C June 21 Path of Sun Date A June 21 B March 21 C December 21 Path of Sun Date A December 21 B September 23 C March 21 Path of Sun Date A March 21 B September 23 C June 21 Sun South East Sun rises West Sun sets C B A Horizon",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Scientists infer that most of Earth\u2019s earliest atmosphere was produced by",
+      "choices": [
+        "a collision with a giant gas cloud",
+        "capturing gases from a nearby planet",
+        "vaporizing comets that impacted Earth\u2019s surface",
+        "the escape of gases from Earth\u2019s molten surface"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "An increase in the transparency of Earth\u2019s atmosphere is often caused by",
+      "choices": [
+        "a decrease in cloud cover",
+        "a decrease in solar radiation",
+        "an increase in airborne dust particles",
+        "an increase in the duration of insolation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "written",
+      "text": "Which station model shows a wind direction from the southeast?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The direction of movement of the major surface ocean currents is most affected by Earth\u2019s",
+      "choices": [
+        "tilted axis",
+        "prevailing winds",
+        "rate of revolution",
+        "tidal action"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The winds shift from southwest to northwest as heavy rains and hail begin to fall in Albany, New York. These changes are most likely caused by the arrival of",
+      "choices": [
+        "an mT air mass",
+        "a cT air mass",
+        "a cold front",
+        "a warm front"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "A city located on the coast of North America has warmer winters and cooler summers than a city at the same elevation and latitude located near the center of North America. Which statement best explains the difference between the climates of the two cities?",
+      "choices": [
+        "Ocean surfaces change temperature more slowly than land surfaces.",
+        "Warm, moist air rises when it meets cool, dry air.",
+        "Wind speeds are usually greater over land than over ocean water.",
+        "Water has a lower specific heat than land."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Most of the electromagnetic energy radiated from Earth\u2019s surface is in the form of",
+      "choices": [
+        "ultraviolet rays",
+        "infrared rays",
+        "gamma rays",
+        "x rays"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which two 23.5\u00b0-latitude locations are influenced by cool surface ocean currents?",
+      "choices": [
+        "the east coast of North America and the west coast of Australia",
+        "the east coast of Asia and the east coast of North America",
+        "the west coast of Africa and the east coast of South America",
+        "the west coast of North America and the west coast of South America"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The arrival time of the first earthquake P-wave at a seismograph station was 10:11:20 (hours:minutes:seconds). If the epicenter of the earthquake is 8000 km away, what was the approximate arrival time of the first S-wave from this earthquake?",
+      "choices": [
+        "10:02:00",
+        "10:09:20",
+        "10:20:40",
+        "10:32:00 ( 1 ) ( 3 ) ( 2 ) ( 4 ) P.S./"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the intensity of the shaking that occurs on different Earth surfaces during the same earthquake. The greatest earthquake hazard to homes exists when they are built on",
+      "choices": [
+        "hard igneous rock",
+        "sedimentary rock",
+        "coarse sediments",
+        "silt and mud"
+      ],
+      "image": "/images/exams/earth-science/january-2013/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which tectonic plate boundary is best represented by this diagram?",
+      "choices": [
+        "Nazca Plate and Pacific Plate boundary",
+        "Scotia Plate and South American Plate boundary",
+        "Juan de Fuca Plate and North American Plate boundary",
+        "Antarctic Plate and Indian-Australian Plate boundary"
+      ],
+      "image": "/images/exams/earth-science/january-2013/context_19_20.png",
+      "context": "Base your answers to questions 19 and 20 on the block diagram below, which shows a tectonic plate boundary.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Compared to the oceanic crust, the continental crust is",
+      "choices": [
+        "more dense and more mafic",
+        "more dense and more felsic",
+        "less dense and more mafic",
+        "less dense and more felsic Rigid mantle Trench Continental crust Oceanic c ru s t Rigid mantle (Not drawn to scale) Asthenosphere Volcanic mountain range Hard igneous rock Sedimentary rock Coarse sediments Silt and mud"
+      ],
+      "image": "/images/exams/earth-science/january-2013/context_19_20.png",
+      "context": "Base your answers to questions 19 and 20 on the block diagram below, which shows a tectonic plate boundary.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Most of the sediment that is compacted and later forms shale bedrock is",
+      "choices": [
+        "clay",
+        "silt",
+        "sand",
+        "pebbles"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "In which two Earth regions is oxygen the second most abundant element by volume?",
+      "choices": [
+        "crust and hydrosphere",
+        "hydrosphere and troposphere",
+        "troposphere and core",
+        "core and crust"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which two properties are most useful in distinguishing between galena and halite?",
+      "choices": [
+        "cleavage and color",
+        "luster and color",
+        "hardness and streak",
+        "streak and cleavage"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The graph below shows the decay of a radioactive material over time. How long does it take for this radioactive material to decay through 2 half-lives?",
+      "choices": [
+        "1 \u00d7 103 years",
+        "5 \u00d7 103 years",
+        "10 \u00d7 103 years",
+        "40 \u00d7 103 years"
+      ],
+      "image": "/images/exams/earth-science/january-2013/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "A 65.5-million-year-old impact crater in Mexico provides evidence for the cause of the",
+      "choices": [
+        "breakup of Pangaea",
+        "evolution of the earliest corals",
+        "Alleghenian orogeny",
+        "extinction of ammonoids"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "When did the earliest humans appear on Earth?",
+      "choices": [
+        "before the earliest dinosaurs",
+        "before the earliest flowering plants",
+        "during the Pleistocene Epoch",
+        "during the Late Triassic Epoch"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "A landslide is an example of",
+      "choices": [
+        "river deposition",
+        "glacial scouring",
+        "mass movement",
+        "chemical weathering"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Each of the rock particles below has the same density and volume. Which particle will most likely settle at the fastest rate in moving water?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which rock weathers most rapidly when exposed to acid rain?",
+      "choices": [
+        "quartzite",
+        "granite",
+        "basalt",
+        "limestone"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "What is the approximate minimum stream velocity needed to keep a particle in motion that has a diameter of 10 centimeters?",
+      "choices": [
+        "110 cm/s",
+        "190 cm/s",
+        "325 cm/s",
+        "425 cm/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which change is most likely to occur in a landscape if its climate changes from humid to arid?",
+      "choices": [
+        "Wind will become a more important agent of erosion.",
+        "Surface features will become more rounded.",
+        "Chemical weathering will increase.",
+        "Vegetation will increase."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The surface bedrock in the Hudson Highlands consists mostly of",
+      "choices": [
+        "diabase, dolostone, and granite",
+        "slate, siltstone, and basalt",
+        "gneiss, quartzite, and marble",
+        "limestone, shale, sandstone, and conglomerate ( 1 ) ( 2 ) ( 3 ) ( 4 ) 0 0 Radioactive Material Remaining (%) 5 10 15 20 25 50 75 100 End of first half-life Time ( 103 years)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The Catskills landscape region is classified as a plateau because it has",
+      "choices": [
+        "low elevations and mostly faulted or folded bedrock",
+        "low elevations and mostly horizontal bedrock",
+        "high elevations and mostly faulted or folded bedrock",
+        "high elevations and mostly horizontal bedrock"
+      ],
+      "image": "/images/exams/earth-science/january-2013/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The rock that formed in the contact metamorphic zone between rock unit E and rock unit D is",
+      "choices": [
+        "hornfels",
+        "marble",
+        "schist",
+        "anthracite coal"
+      ],
+      "image": "/images/exams/earth-science/january-2013/context_34_35.png",
+      "context": "Base your answers to questions 34 and 35 on the block diagram below, which shows bedrock units \nA through F and boundary XX\u0002.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which sequence best describes the geologic history, from oldest to youngest, that occurred at this site?",
+      "choices": [
+        "deposition of F, D, C, B \u2192intrusion of E \u2192uplift and erosion \u2192deposition of A",
+        "intrusion of E \u2192deposition of F, D, C, B \u2192uplift and erosion \u2192deposition of A",
+        "deposition of F, D, C, B, A \u2192uplift and erosion \u2192intrusion of E",
+        "deposition of F, D, C, B, A \u2192intrusion of E \u2192uplift and erosion A B C D E F Key Contact metamorphism P.S./"
+      ],
+      "image": "/images/exams/earth-science/january-2013/context_34_35.png",
+      "context": "Base your answers to questions 34 and 35 on the block diagram below, which shows bedrock units \nA through F and boundary XX\u0002.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "During which stage of development does the star have a cool surface temperature and the greatest luminosity?",
+      "choices": [
+        "protostar",
+        "main sequence",
+        "giant",
+        "white dwarf"
+      ],
+      "image": "/images/exams/earth-science/january-2013/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the diagram below, which shows the change in the size of a star\nsuch as our Sun as it evolves from a protostar to a white dwarf star.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which process produces the energy radiated by the star when it becomes a main sequence star?",
+      "choices": [
+        "radioactive decay",
+        "nuclear fusion",
+        "conduction",
+        "convection Protostar Main sequence Giant White dwarf Starts to emit radiation"
+      ],
+      "image": "/images/exams/earth-science/january-2013/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the diagram below, which shows the change in the size of a star\nsuch as our Sun as it evolves from a protostar to a white dwarf star.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which type of tectonic plate boundary is located at mid-ocean ridges?",
+      "choices": [
+        "convergent",
+        "transform",
+        "divergent",
+        "complex"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 38 through 40 on the passage below.\nCrustal Activity at Mid-Ocean Ridges\nMid-ocean ridges are found at one type of tectonic plate boundary. These ridges\nconsist of extensive underwater mountain ranges split by rift valleys. The rift valleys\nmark places where two crustal plates are pulling apart, widening the ocean basins, and\nallowing magma from the asthenosphere to move upward. In some cases, mid-ocean\nridges have migrated toward nearby mantle hot spots. This explains why mid-ocean\nridges and mantle hot spots are found together at several locations.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which mantle hot spot is located closest to a mid-ocean ridge?",
+      "choices": [
+        "Canary Islands",
+        "Easter Island",
+        "Hawaii",
+        "Tasman"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 38 through 40 on the passage below.\nCrustal Activity at Mid-Ocean Ridges\nMid-ocean ridges are found at one type of tectonic plate boundary. These ridges\nconsist of extensive underwater mountain ranges split by rift valleys. The rift valleys\nmark places where two crustal plates are pulling apart, widening the ocean basins, and\nallowing magma from the asthenosphere to move upward. In some cases, mid-ocean\nridges have migrated toward nearby mantle hot spots. This explains why mid-ocean\nridges and mantle hot spots are found together at several locations.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The map below shows a part of Earth\u2019s surface. Points A through D are locations on the ocean floor. At which location is the temperature of the ocean floor bedrock most likely highest?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D Caribbean Plate P e r u - C h il e T rench South American Plate Mid-Atlantic Ridge Scotia Plate African Plate Sandwich Plate"
+      ],
+      "image": "/images/exams/earth-science/january-2013/q40.png",
+      "context": "Base your answers to questions 38 through 40 on the passage below.\nCrustal Activity at Mid-Ocean Ridges\nMid-ocean ridges are found at one type of tectonic plate boundary. These ridges\nconsist of extensive underwater mountain ranges split by rift valleys. The rift valleys\nmark places where two crustal plates are pulling apart, widening the ocean basins, and\nallowing magma from the asthenosphere to move upward. In some cases, mid-ocean\nridges have migrated toward nearby mantle hot spots. This explains why mid-ocean\nridges and mantle hot spots are found together at several locations.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The data used to construct the isolines on this map were recorded in which units?",
+      "choices": [
+        "inches",
+        "millibars",
+        "feet",
+        "meters"
+      ],
+      "image": "/images/exams/earth-science/january-2013/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the weather map below, which shows the locations of a\nhigh-pressure center (H) and a low-pressure center (L) over a portion of North America. The isolines indicate\nsurface air pressures.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "written",
+      "text": "Which map shows the most likely location of clouds associated with these pressure centers? L L L L ( 1 ) ( 2 ) ( 3 ) ( 4 ) H H H H 1000 996 1004 1008 1020 1016 1012 1008 1004",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the weather map below, which shows the locations of a\nhigh-pressure center (H) and a low-pressure center (L) over a portion of North America. The isolines indicate\nsurface air pressures.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "written",
+      "text": "The arrows on which map best show the pattern of surface winds around these two pressure centers?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the weather map below, which shows the locations of a\nhigh-pressure center (H) and a low-pressure center (L) over a portion of North America. The isolines indicate\nsurface air pressures.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "The arrows on which map show the most likely path in which these two pressure centers will move over the next few days? ( 1 ) ( 2 ) ( 3 ) ( 4 ) ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the weather map below, which shows the locations of a\nhigh-pressure center (H) and a low-pressure center (L) over a portion of North America. The isolines indicate\nsurface air pressures.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Which process is represented by letter F?",
+      "choices": [
+        "capillarity",
+        "infiltration",
+        "condensation",
+        "vaporization"
+      ],
+      "image": "/images/exams/earth-science/january-2013/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the diagram below, which shows a model of the water\ncycle. Letters A through F represent some processes of the water cycle. Letter X indicates the top of the \nunderground zone that is saturated with water.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "What does letter X represent?",
+      "choices": [
+        "the water table",
+        "a floodplain",
+        "sea level",
+        "impermeable rock"
+      ],
+      "image": "/images/exams/earth-science/january-2013/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the diagram below, which shows a model of the water\ncycle. Letters A through F represent some processes of the water cycle. Letter X indicates the top of the \nunderground zone that is saturated with water.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "If the surface soil is saturated and precipitation increases, there will be",
+      "choices": [
+        "a decrease in the amount of groundwater",
+        "a decrease in the surface elevation of the lake",
+        "an increase in the rate of capillarity",
+        "an increase in the amount of runoff"
+      ],
+      "image": "/images/exams/earth-science/january-2013/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the diagram below, which shows a model of the water\ncycle. Letters A through F represent some processes of the water cycle. Letter X indicates the top of the \nunderground zone that is saturated with water.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "The processes of transpiration and evaporation are represented by letters",
+      "choices": [
+        "A and B",
+        "B and E",
+        "C and A",
+        "D and E Groundwater D X B E A C Lake F (Not drawn to scale)"
+      ],
+      "image": "/images/exams/earth-science/january-2013/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the diagram below, which shows a model of the water\ncycle. Letters A through F represent some processes of the water cycle. Letter X indicates the top of the \nunderground zone that is saturated with water.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "This rock should be classified as",
+      "choices": [
+        "an intrusive igneous rock",
+        "an extrusive igneous rock",
+        "a bioclastic sedimentary rock",
+        "a clastic sedimentary rock"
+      ],
+      "image": "/images/exams/earth-science/january-2013/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the diagram below, which represents a rock composed of\ncemented pebbles and sand.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which change would most likely occur if this rock became buried deep within Earth\u2019s crust and was subjected to intense heat and pressure, but did not melt?",
+      "choices": [
+        "The density of the pebbles and sand would decrease.",
+        "The rock would become a plutonic rock composed mostly of quartz.",
+        "The rock would become more felsic with a higher concentration of magnesium.",
+        "The pebbles would become distorted and the sand would be recrystallized."
+      ],
+      "image": "/images/exams/earth-science/january-2013/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the diagram below, which represents a rock composed of\ncemented pebbles and sand.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, place an X at a location on Earth\u2019s surface where the Sun was directly overhead at some time on December 21.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the diagram in your answer booklet, which shows Earth as\nviewed from space on December 21. Some latitudes are labeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "State one factor, other than the tilt of Earth\u2019s axis, that causes seasons to change on Earth.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the diagram in your answer booklet, which shows Earth as\nviewed from space on December 21. Some latitudes are labeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "At which latitude is Polaris observed at an altitude of 66.5\u00b0?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the diagram in your answer booklet, which shows Earth as\nviewed from space on December 21. Some latitudes are labeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "According to Bowen\u2019s Reaction Series, how is the chemical composition of plagioclase feldspar found in basaltic rock different from the chemical composition of plagioclase feldspar found in granitic rock?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the diagram of Bowen\u2019s Reaction Series below, which\nshows the sequence in which minerals crystallize as magma cools and forms different types of igneous rocks\nfrom the same magma. The arrow for each mineral represents the relative temperature range at which that \nmineral crystallizes.\nBowen\u2019s Reaction Series",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Describe the temperature conditions shown in Bowen\u2019s Reaction Series that explain why olivine and quartz are not usually found in the same igneous rock type.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the diagram of Bowen\u2019s Reaction Series below, which\nshows the sequence in which minerals crystallize as magma cools and forms different types of igneous rocks\nfrom the same magma. The arrow for each mineral represents the relative temperature range at which that \nmineral crystallizes.\nBowen\u2019s Reaction Series",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify one similarity and one difference between the igneous rocks andesite and diorite. High temperature (first to crystallize) Low temperature (last to crystallize) Cooling magma Olivine Pyroxene Amphibole Biotite mica (More calcium rich) Ultramafic (peridotite) Basaltic (basalt/gabbro) Andesitic (andesite/diorite) Granitic (rhyolite/granite) Potassium feldspar Minerals that Crystallize from Magma as the Magma Cools (More sodium rich) Muscovite mica Quartz",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the diagram of Bowen\u2019s Reaction Series below, which\nshows the sequence in which minerals crystallize as magma cools and forms different types of igneous rocks\nfrom the same magma. The arrow for each mineral represents the relative temperature range at which that \nmineral crystallizes.\nBowen\u2019s Reaction Series",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "On the map in your answer booklet, place an X at the location where this rock sample was collected.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 through 61 on the diagram and tables below. The diagram shows a rock\nsample containing fossils from a location in New York State at 42\u00b0 N 78\u00b0 15\u0002 W. Fossils 1, 2, 3, and 4 are labeled.\nTable A lists the names and rock types of the New York State rock units from the Middle and Late Devonian in\nthis area. The presence of fossil 1, 2, 3, or 4 in a rock unit is indicated by an X in the fossils column in the table.\nTable B identifies typical rocks formed within different marine (ocean) environments.\nTable A: New York State Rock Units in Area Where the Rock Sample was Found\nTable B:  Sedimentary Rock Types Formed in Different Marine Environments\nSedimentary Rocks\nMarine Environment\nlimestones\nclear, shallow water\ngray shales\nmuddy, oxygen rich\nblack shales\nmuddy, oxygen poor\nsiltstones and sandstones\nsilty to sandy bottom\nevaporites\nvery salty, shallow seas\ncoarse-grained sandstones \nand conglomerates\ntidal shores and deltas\nGeologic\nAge:\nDevonian\nName of\nRock Unit\nType of Rock Found in Unit\nFossils\n1\n2\n3\n4\nLate\nConewango\nshales and sandstones\nX\nX\nX\nLate\nConneaut\nshales and sandstones\nX\nX\nX\nLate\nCanadaway\nshales and sandstones\nX\nX\nX\nX\nLate\nWest Falls\nshales and sandstones\nX\nX\nX\nLate\nSonyea\nshale\nX\nX\nX\nLate/Middle\nGenesee\nshale\nX\nX\nMiddle\nTully\nlimestone\nX\nX\nMiddle\nHamilton\nlimestone\nX\nX\nMiddle\nOnondaga\nlimestone (includes volcanic ash bed)\nX\n3\n2\n4\n1\nP.S./E. Sci.\u2013Jan. \u201913\n[16]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Based on the fossils present, the rock sample shown in the diagram came from which rock unit listed in table A?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 through 61 on the diagram and tables below. The diagram shows a rock\nsample containing fossils from a location in New York State at 42\u00b0 N 78\u00b0 15\u0002 W. Fossils 1, 2, 3, and 4 are labeled.\nTable A lists the names and rock types of the New York State rock units from the Middle and Late Devonian in\nthis area. The presence of fossil 1, 2, 3, or 4 in a rock unit is indicated by an X in the fossils column in the table.\nTable B identifies typical rocks formed within different marine (ocean) environments.\nTable A: New York State Rock Units in Area Where the Rock Sample was Found\nTable B:  Sedimentary Rock Types Formed in Different Marine Environments\nSedimentary Rocks\nMarine Environment\nlimestones\nclear, shallow water\ngray shales\nmuddy, oxygen rich\nblack shales\nmuddy, oxygen poor\nsiltstones and sandstones\nsilty to sandy bottom\nevaporites\nvery salty, shallow seas\ncoarse-grained sandstones \nand conglomerates\ntidal shores and deltas\nGeologic\nAge:\nDevonian\nName of\nRock Unit\nType of Rock Found in Unit\nFossils\n1\n2\n3\n4\nLate\nConewango\nshales and sandstones\nX\nX\nX\nLate\nConneaut\nshales and sandstones\nX\nX\nX\nLate\nCanadaway\nshales and sandstones\nX\nX\nX\nX\nLate\nWest Falls\nshales and sandstones\nX\nX\nX\nLate\nSonyea\nshale\nX\nX\nX\nLate/Middle\nGenesee\nshale\nX\nX\nMiddle\nTully\nlimestone\nX\nX\nMiddle\nHamilton\nlimestone\nX\nX\nMiddle\nOnondaga\nlimestone (includes volcanic ash bed)\nX\n3\n2\n4\n1\nP.S./E. Sci.\u2013Jan. \u201913\n[16]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Identify the New York State index fossil group that includes fossil 4 shown on the rock sample.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 through 61 on the diagram and tables below. The diagram shows a rock\nsample containing fossils from a location in New York State at 42\u00b0 N 78\u00b0 15\u0002 W. Fossils 1, 2, 3, and 4 are labeled.\nTable A lists the names and rock types of the New York State rock units from the Middle and Late Devonian in\nthis area. The presence of fossil 1, 2, 3, or 4 in a rock unit is indicated by an X in the fossils column in the table.\nTable B identifies typical rocks formed within different marine (ocean) environments.\nTable A: New York State Rock Units in Area Where the Rock Sample was Found\nTable B:  Sedimentary Rock Types Formed in Different Marine Environments\nSedimentary Rocks\nMarine Environment\nlimestones\nclear, shallow water\ngray shales\nmuddy, oxygen rich\nblack shales\nmuddy, oxygen poor\nsiltstones and sandstones\nsilty to sandy bottom\nevaporites\nvery salty, shallow seas\ncoarse-grained sandstones \nand conglomerates\ntidal shores and deltas\nGeologic\nAge:\nDevonian\nName of\nRock Unit\nType of Rock Found in Unit\nFossils\n1\n2\n3\n4\nLate\nConewango\nshales and sandstones\nX\nX\nX\nLate\nConneaut\nshales and sandstones\nX\nX\nX\nLate\nCanadaway\nshales and sandstones\nX\nX\nX\nX\nLate\nWest Falls\nshales and sandstones\nX\nX\nX\nLate\nSonyea\nshale\nX\nX\nX\nLate/Middle\nGenesee\nshale\nX\nX\nMiddle\nTully\nlimestone\nX\nX\nMiddle\nHamilton\nlimestone\nX\nX\nMiddle\nOnondaga\nlimestone (includes volcanic ash bed)\nX\n3\n2\n4\n1\nP.S./E. Sci.\u2013Jan. \u201913\n[16]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify the landmass that collided with the eastern coast of North America to create the Acadian mountain range and the basin for the deposition of the Devonian rock units in table A.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 through 61 on the diagram and tables below. The diagram shows a rock\nsample containing fossils from a location in New York State at 42\u00b0 N 78\u00b0 15\u0002 W. Fossils 1, 2, 3, and 4 are labeled.\nTable A lists the names and rock types of the New York State rock units from the Middle and Late Devonian in\nthis area. The presence of fossil 1, 2, 3, or 4 in a rock unit is indicated by an X in the fossils column in the table.\nTable B identifies typical rocks formed within different marine (ocean) environments.\nTable A: New York State Rock Units in Area Where the Rock Sample was Found\nTable B:  Sedimentary Rock Types Formed in Different Marine Environments\nSedimentary Rocks\nMarine Environment\nlimestones\nclear, shallow water\ngray shales\nmuddy, oxygen rich\nblack shales\nmuddy, oxygen poor\nsiltstones and sandstones\nsilty to sandy bottom\nevaporites\nvery salty, shallow seas\ncoarse-grained sandstones \nand conglomerates\ntidal shores and deltas\nGeologic\nAge:\nDevonian\nName of\nRock Unit\nType of Rock Found in Unit\nFossils\n1\n2\n3\n4\nLate\nConewango\nshales and sandstones\nX\nX\nX\nLate\nConneaut\nshales and sandstones\nX\nX\nX\nLate\nCanadaway\nshales and sandstones\nX\nX\nX\nX\nLate\nWest Falls\nshales and sandstones\nX\nX\nX\nLate\nSonyea\nshale\nX\nX\nX\nLate/Middle\nGenesee\nshale\nX\nX\nMiddle\nTully\nlimestone\nX\nX\nMiddle\nHamilton\nlimestone\nX\nX\nMiddle\nOnondaga\nlimestone (includes volcanic ash bed)\nX\n3\n2\n4\n1\nP.S./E. Sci.\u2013Jan. \u201913\n[16]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "According to the tables, in which marine environment was the Tully rock unit deposited? P.S./",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 through 61 on the diagram and tables below. The diagram shows a rock\nsample containing fossils from a location in New York State at 42\u00b0 N 78\u00b0 15\u0002 W. Fossils 1, 2, 3, and 4 are labeled.\nTable A lists the names and rock types of the New York State rock units from the Middle and Late Devonian in\nthis area. The presence of fossil 1, 2, 3, or 4 in a rock unit is indicated by an X in the fossils column in the table.\nTable B identifies typical rocks formed within different marine (ocean) environments.\nTable A: New York State Rock Units in Area Where the Rock Sample was Found\nTable B:  Sedimentary Rock Types Formed in Different Marine Environments\nSedimentary Rocks\nMarine Environment\nlimestones\nclear, shallow water\ngray shales\nmuddy, oxygen rich\nblack shales\nmuddy, oxygen poor\nsiltstones and sandstones\nsilty to sandy bottom\nevaporites\nvery salty, shallow seas\ncoarse-grained sandstones \nand conglomerates\ntidal shores and deltas\nGeologic\nAge:\nDevonian\nName of\nRock Unit\nType of Rock Found in Unit\nFossils\n1\n2\n3\n4\nLate\nConewango\nshales and sandstones\nX\nX\nX\nLate\nConneaut\nshales and sandstones\nX\nX\nX\nLate\nCanadaway\nshales and sandstones\nX\nX\nX\nX\nLate\nWest Falls\nshales and sandstones\nX\nX\nX\nLate\nSonyea\nshale\nX\nX\nX\nLate/Middle\nGenesee\nshale\nX\nX\nMiddle\nTully\nlimestone\nX\nX\nMiddle\nHamilton\nlimestone\nX\nX\nMiddle\nOnondaga\nlimestone (includes volcanic ash bed)\nX\n3\n2\n4\n1\nP.S./E. Sci.\u2013Jan. \u201913\n[16]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Map II shows the course of the Allegheny River during a specific part of a geologic time period. State the name of this geologic time period.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the maps below. The southwest corner of the New York State\nmap below is enlarged in maps I, II, and III. Arrows on maps I, II, and III show the location and direction of flow\nfor part of the Allegheny River at different times during the Cenozoic Era. The present boundaries of New York\nState and Lake Erie are shown on each map. Point A on map III represents a location in New York State.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Explain why the direction of flow of the Allegheny River changed between the times shown on map I and map II.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the maps below. The southwest corner of the New York State\nmap below is enlarged in maps I, II, and III. Arrows on maps I, II, and III show the location and direction of flow\nfor part of the Allegheny River at different times during the Cenozoic Era. The present boundaries of New York\nState and Lake Erie are shown on each map. Point A on map III represents a location in New York State.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Identify the present-day feature that prevents the Allegheny River from returning to its earlier (Neogene) direction of flow to the northwest.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the maps below. The southwest corner of the New York State\nmap below is enlarged in maps I, II, and III. Arrows on maps I, II, and III show the location and direction of flow\nfor part of the Allegheny River at different times during the Cenozoic Era. The present boundaries of New York\nState and Lake Erie are shown on each map. Point A on map III represents a location in New York State.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "The diagram in your answer booklet shows a partial cross section of a valley near location A on map III. On this diagram, draw a line beginning at X and ending at Y to show the shape of this valley after it was eroded by glacial ice that flowed down the valley. Glacial moraine Glacial ice sheet NY PA All eg h eny R i v e r NY PA A Lake Erie NY PA \u0002\u0003\u0004\u0005\u0006\u0007\b\u0003 \b \u0007\b \u0007\u000e \u0007\u000f\u0010\b\u0011\u0012\u0013\u0007\u0005 A ll e g h e n y R i v e r A lle g h e ny R i v e r Map Area",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the maps below. The southwest corner of the New York State\nmap below is enlarged in maps I, II, and III. Arrows on maps I, II, and III show the location and direction of flow\nfor part of the Allegheny River at different times during the Cenozoic Era. The present boundaries of New York\nState and Lake Erie are shown on each map. Point A on map III represents a location in New York State.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a line graph by plotting the average carbon dioxide concentrations in Earth\u2019s atmosphere for each year shown on the data table. Connect the plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the data table below, which shows the average \ncarbon dioxide (CO2) concentrations in Earth\u2019s atmosphere for specific years from 1930 to 2010. Carbon dioxide\nis a greenhouse gas in Earth\u2019s atmosphere that contributes to global warming. The average carbon dioxide\nconcentrations were measured in parts per million (ppm).\nAverage Carbon Dioxide Concentrations \nin Earth\u2019s Atmosphere",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Calculate the rate of change from 2000 to 2010 of the average carbon dioxide concentrations, in parts per million per year.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the data table below, which shows the average \ncarbon dioxide (CO2) concentrations in Earth\u2019s atmosphere for specific years from 1930 to 2010. Carbon dioxide\nis a greenhouse gas in Earth\u2019s atmosphere that contributes to global warming. The average carbon dioxide\nconcentrations were measured in parts per million (ppm).\nAverage Carbon Dioxide Concentrations \nin Earth\u2019s Atmosphere",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Identify one greenhouse gas, other than carbon dioxide, that contributes to global warming. Year Average CO2 Concentration (ppm) 1930 306 1940 308 1950 310 1960 316 1970 326 1980 338 1990 354 2000 370 2010 390",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the data table below, which shows the average \ncarbon dioxide (CO2) concentrations in Earth\u2019s atmosphere for specific years from 1930 to 2010. Carbon dioxide\nis a greenhouse gas in Earth\u2019s atmosphere that contributes to global warming. The average carbon dioxide\nconcentrations were measured in parts per million (ppm).\nAverage Carbon Dioxide Concentrations \nin Earth\u2019s Atmosphere",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a profile of the snowfall amounts along line AB by plotting the isoline amounts that cross line AB. The amounts for points A and B have been plotted. Complete the profile by connecting all the plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the map and passage below.\nA Lake-Effect Snowstorm\nA snowstorm affected western New York State on October 12 and 13, 2006.\nA blend of weather conditions caused more than 24 inches of heavy, wet, lake-effect\nsnow, bringing much of western New York to a standstill. The New York State Thruway\nwas closed to traffic between exits 46 and 59, which are circled on the map. The \nisolines on the map show the amount of snowfall, measured in inches, resulting from\nthis storm. Points A and B represent locations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Approximately how many miles of this section of the Thruway were closed due to the snowstorm?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the map and passage below.\nA Lake-Effect Snowstorm\nA snowstorm affected western New York State on October 12 and 13, 2006.\nA blend of weather conditions caused more than 24 inches of heavy, wet, lake-effect\nsnow, bringing much of western New York to a standstill. The New York State Thruway\nwas closed to traffic between exits 46 and 59, which are circled on the map. The \nisolines on the map show the amount of snowfall, measured in inches, resulting from\nthis storm. Points A and B represent locations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Determine the number of inches of snow that was received in Niagara Falls, New York, from this snowstorm.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the map and passage below.\nA Lake-Effect Snowstorm\nA snowstorm affected western New York State on October 12 and 13, 2006.\nA blend of weather conditions caused more than 24 inches of heavy, wet, lake-effect\nsnow, bringing much of western New York to a standstill. The New York State Thruway\nwas closed to traffic between exits 46 and 59, which are circled on the map. The \nisolines on the map show the amount of snowfall, measured in inches, resulting from\nthis storm. Points A and B represent locations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Identify the most probable direction from which the wind was blowing to produce the pattern of snowfall shown on the map.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the map and passage below.\nA Lake-Effect Snowstorm\nA snowstorm affected western New York State on October 12 and 13, 2006.\nA blend of weather conditions caused more than 24 inches of heavy, wet, lake-effect\nsnow, bringing much of western New York to a standstill. The New York State Thruway\nwas closed to traffic between exits 46 and 59, which are circled on the map. The \nisolines on the map show the amount of snowfall, measured in inches, resulting from\nthis storm. Points A and B represent locations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Identify two hazards to human life or property that can result from a snowstorm of this size. Lake Ontario CANADA Lake Erie 59 0 10 20 30 40 50 miles N 1 12 6 18 12 1 18 24 6 46 NYS Thruway New York State",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the map and passage below.\nA Lake-Effect Snowstorm\nA snowstorm affected western New York State on October 12 and 13, 2006.\nA blend of weather conditions caused more than 24 inches of heavy, wet, lake-effect\nsnow, bringing much of western New York to a standstill. The New York State Thruway\nwas closed to traffic between exits 46 and 59, which are circled on the map. The \nisolines on the map show the amount of snowfall, measured in inches, resulting from\nthis storm. Points A and B represent locations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Identify one weather instrument that could be used to determine the dewpoint of the air at point A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_74_77.png",
+      "context": "Base your answers to questions 74 through 77 on the diagram below, which shows the windward and \nleeward sides of a mountain range. Arrows show the movement of air over a mountain. Points A and B\nrepresent locations at sea level on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "What is the relative humidity at the base (bottom) of the cloud on the windward side of the mountain?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_74_77.png",
+      "context": "Base your answers to questions 74 through 77 on the diagram below, which shows the windward and \nleeward sides of a mountain range. Arrows show the movement of air over a mountain. Points A and B\nrepresent locations at sea level on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Explain why air cools as it rises up this mountain.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_74_77.png",
+      "context": "Base your answers to questions 74 through 77 on the diagram below, which shows the windward and \nleeward sides of a mountain range. Arrows show the movement of air over a mountain. Points A and B\nrepresent locations at sea level on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Compared to the temperature and relative humidity of the air at point A, describe how the temperature and relative humidity of the air are different as the air arrives at point B. Sea level 4000 3000 2000 1000 Windward Leeward A B Elevation (m) P.S./",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_74_77.png",
+      "context": "Base your answers to questions 74 through 77 on the diagram below, which shows the windward and \nleeward sides of a mountain range. Arrows show the movement of air over a mountain. Points A and B\nrepresent locations at sea level on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, circle the position of the Moon where a solar eclipse is possible.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 82 on the diagram in your answer booklet, which represents eight\npositions of the Moon in its orbit around Earth.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, shade the portion of the Moon that is in darkness to show the phase of the Moon at position 3, as viewed from New York State.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 82 on the diagram in your answer booklet, which represents eight\npositions of the Moon in its orbit around Earth.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Using the terms rotation and revolution, explain why the same side of the Moon always faces Earth.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 82 on the diagram in your answer booklet, which represents eight\npositions of the Moon in its orbit around Earth.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Explain why the Moon\u2019s gravity has a greater effect on Earth\u2019s ocean tides than the Sun\u2019s gravity.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 82 on the diagram in your answer booklet, which represents eight\npositions of the Moon in its orbit around Earth.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "The table below shows times of ocean tides on March 4 for a city on the Atlantic coast of the United States. Ocean Tides on March 4 Determine the time when the next low tide occurred. Include a.m. or p.m. in your answer, if needed. Tide Time high 12:00 a.m. low 6:13 a.m. high 12:26 p.m.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/q82.png",
+      "context": "Base your answers to questions 78 through 82 on the diagram in your answer booklet, which represents eight\npositions of the Moon in its orbit around Earth.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "What natural process occurring on Earth produces smooth, rounded rocks similar to those found at the probe\u2019s landing site on Titan?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the passage and data table below, which describe the \nexploration and characteristics of one of Saturn\u2019s moons, Titan.\nHuygens Probe Lands on Titan\nThe Huygens probe was carried to Saturn by the Cassini spacecraft and parachuted\nto the surface of Saturn\u2019s giant moon, Titan. The Huygens probe\u2019s landing site was \nlittered with smooth, rounded, rocklike objects. Photographs taken of Titan\u2019s surface\nshow drainage channels leading to an apparent shoreline. The question is, what are\nthey draining? One of the photographs seems to show ground fog consisting not of\nwater, but perhaps of ethane or methane.\nTitan Data",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Approximately how many times farther is Titan from Saturn than Earth\u2019s Moon is from Earth?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the passage and data table below, which describe the \nexploration and characteristics of one of Saturn\u2019s moons, Titan.\nHuygens Probe Lands on Titan\nThe Huygens probe was carried to Saturn by the Cassini spacecraft and parachuted\nto the surface of Saturn\u2019s giant moon, Titan. The Huygens probe\u2019s landing site was \nlittered with smooth, rounded, rocklike objects. Photographs taken of Titan\u2019s surface\nshow drainage channels leading to an apparent shoreline. The question is, what are\nthey draining? One of the photographs seems to show ground fog consisting not of\nwater, but perhaps of ethane or methane.\nTitan Data",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Identify the planet with a density closest to the density of Titan. Distance from Saturn 1.22 million km Diameter 5150 km Average Density 1.881 g/cm3 Atmospheric Pressure at Surface 1500 mb Mass (Earth = 1) 0.022 Air Temperature at Landing Site \u2013291\u00b0F P.S./ P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2013/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the passage and data table below, which describe the \nexploration and characteristics of one of Saturn\u2019s moons, Titan.\nHuygens Probe Lands on Titan\nThe Huygens probe was carried to Saturn by the Cassini spacecraft and parachuted\nto the surface of Saturn\u2019s giant moon, Titan. The Huygens probe\u2019s landing site was \nlittered with smooth, rounded, rocklike objects. Photographs taken of Titan\u2019s surface\nshow drainage channels leading to an apparent shoreline. The question is, what are\nthey draining? One of the photographs seems to show ground fog consisting not of\nwater, but perhaps of ethane or methane.\nTitan Data",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

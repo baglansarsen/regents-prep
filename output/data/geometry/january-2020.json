@@ -1,0 +1,476 @@
+{
+  "subject": "geometry",
+  "session": "january-2020",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "In the diagram below, || and and are drawn. If m\u2220FAB \u0002 48\u00b0 and m\u2220ECB = 18\u00b0, what is m\u2220ABC?",
+      "choices": [
+        "18\u00b0",
+        "48\u00b0",
+        "66\u00b0",
+        "114\u00b0"
+      ],
+      "image": "/images/exams/geometry/january-2020/q1.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "A cone has a volume of 108\u03c0 and a base diameter of 12. What is the height of the cone?",
+      "choices": [
+        "27",
+        "9",
+        "3",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Triangle JGR is similar to triangle MST. Which statement is not always true?",
+      "choices": [
+        "\u2220J \u0002 \u2220M",
+        "\u2220G \u0002 \u2220T",
+        "\u2220R \u0002 \u2220T",
+        "\u2220G \u0002 \u2220S FAD \uf073 \uf072 \uf075\uf075\uf075\uf075 EHC \u0002 \u0003 \u0004\u0004\u0004\u0004 ,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In parallelogram ABCD, diagonals AC ___ and ___ BD intersect at E. Which statement proves ABCD is a rectangle?",
+      "choices": [
+        "AC ___ \u0002 ___ BD",
+        "AB ___ \u22a5 ___ BD",
+        "AC ___ \u22a5 ___ BD",
+        "AC ___ bisects \u2220BCD"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The endpoints of directed line segment PQ have coordinates of P(\u00037,\u00035) and Q(5,3). What are the coordinates of point A, on PQ ___ , that divide PQ ___ into a ratio of 1:3?",
+      "choices": [
+        "A(\u00031,\u00031)",
+        "A(2,1)",
+        "A(3,2)",
+        "A(\u00034,\u00033)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "In trapezoid ABCD below, AB ___ || CD ___ . If AE \u0002 5.2, AC \u0002 11.7, and CD \u0002 10.5, what is the length of AB ___ , to the nearest tenth?",
+      "choices": [
+        "4.7",
+        "6.5",
+        "8.4",
+        "13.1"
+      ],
+      "image": "/images/exams/geometry/january-2020/q6.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Kayla was cutting right triangles from wood to use for an art project. Two of the right triangles she cut are shown below. If rABC \u223c rDEF, with right angles B and E, BC \u0002 15 cm, and AC \u0002 17 cm, what is the measure of \u2220F, to the nearest degree?",
+      "choices": [
+        "28\u00b0",
+        "41\u00b0",
+        "62\u00b0",
+        "88\u00b0"
+      ],
+      "image": "/images/exams/geometry/january-2020/q7.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The line represented by 2y \u0002 x \u0004 8 is dilated by a scale factor of k centered at the origin, such that the image of the line has an equation of y \u0003 1__ 2 x \u0002 2. What is the scale factor?",
+      "choices": [
+        "k \u0002 1__ 2",
+        "k \u0002 2",
+        "k \u0002 1__ 4",
+        "k \u0002 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "In quadrilateral ABCD below, AB ___ || CD ___ , and E, H, and F are the midpoints of ___ AD, AC ___ , and BC ___ , respectively. If AB = 24, CD = 18, and AH = 10, then FH is",
+      "choices": [
+        "9",
+        "10",
+        "12",
+        "21 D C E F H A B B 17 cm 15"
+      ],
+      "image": "/images/exams/geometry/january-2020/q9.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Jaden is comparing two cones. The radius of the base of cone A is twice as large as the radius of the base of cone B. The height of cone B is twice the height of cone A. The volume of cone A is",
+      "choices": [
+        "twice the volume of cone B",
+        "four times the volume of cone B",
+        "equal to the volume of cone B",
+        "equal to half the volume of cone B"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A regular hexagon is rotated about its center. Which degree measure will carry the regular hexagon onto itself?",
+      "choices": [
+        "45\u00b0",
+        "90\u00b0",
+        "120\u00b0",
+        "135\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "In triangle MAH below, ___ MT is the perpendicular bisector of ___ AH. Which statement is not always true?",
+      "choices": [
+        "rMAH is isosceles.",
+        "rMAT is isosceles.",
+        "___ MT bisects \u2220AMH.",
+        "\u2220A and \u2220"
+      ],
+      "image": "/images/exams/geometry/january-2020/q12.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "In circle B below, diameter ___ RT, radius ___ BE, and chord ___ RE are drawn. If m\u2220TRE \u0002 15\u00b0 and BE \u0002 9, then the area of sector EBR is",
+      "choices": [
+        "3.375\u03c0",
+        "6.75\u03c0",
+        "33.75\u03c0",
+        "37.125\u03c0"
+      ],
+      "image": "/images/exams/geometry/january-2020/q13.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Lou has a solid clay brick in the shape of a rectangular prism with a length of 8 inches, a width of 3.5 inches, and a height of 2.25 inches. If the clay weighs 1.055 oz/in3, how much does Lou\u2019s brick weigh, to the nearest ounce?",
+      "choices": [
+        "66",
+        "64",
+        "63",
+        "60"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Rhombus ABCD can be mapped onto rhombus KLMN by a rotation about point P, as shown below. What is the measure of \u2220KNM if the measure of \u2220CAD \u0002 35\u00b0?",
+      "choices": [
+        "35\u00b0",
+        "55\u00b0",
+        "70\u00b0",
+        "110\u00b0"
+      ],
+      "image": "/images/exams/geometry/january-2020/q15.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "In right triangle RST below, altitude SV ___ is drawn to hypotenuse RT ___ . If RV \u0002 4.1 and TV \u0002 10.2, what is the length of ___ ST, to the nearest tenth?",
+      "choices": [
+        "6.5",
+        "7.7",
+        "11.0",
+        "12.1 D B C A P M K L N 35\u00b0"
+      ],
+      "image": "/images/exams/geometry/january-2020/q16.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, pentagon ABCDE is congruent to A\u0005B\u0005C\u0005D\u0005E\u0005. Which describes a sequence of rigid motions that maps ABCDE onto A\u0005B\u0005C\u0005D\u0005E\u0005?",
+      "choices": [
+        "a rotation of 90\u00b0 counterclockwise about the origin followed by a reflection over the x-axis",
+        "a rotation of 90\u00b0 counterclockwise about the origin followed by a translation down 7 units",
+        "a reflection over the y-axis followed by a reflection over the x-axis",
+        "a reflection over the x-axis followed by a rotation of 90\u00b0 counterclockwise about the origin y x A E D C B\u0005 A\u0005 D\u0005 C\u0005 E\u0005"
+      ],
+      "image": "/images/exams/geometry/january-2020/q17.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, rhombus ABCD has vertices whose coordinates are A(1,2), B(4,6), C(7,2), and D(4,\u20132). What is the area of rhombus ABCD?",
+      "choices": [
+        "20",
+        "24",
+        "25",
+        "48"
+      ],
+      "image": "/images/exams/geometry/january-2020/q18.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which figure(s) below can have a triangle as a two-dimensional cross section? I. cone II. cylinder III. cube IV. square pyramid",
+      "choices": [
+        "I, only",
+        "IV, only",
+        "I, II, and IV, only",
+        "I, III, and IV,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "What is an equation of a circle whose center is at (2,\u00034) and is tangent to the line x \u0002 \u00032?",
+      "choices": [
+        "(x \u0003 2)2 \u0004 (y \u0004 4)2 \u0002 4",
+        "(x \u0003 2)2 \u0004 (y \u0004 4)2 \u0002 16",
+        "(x \u0004 2)2 \u0004 (y \u0003 4)2 \u0002 4",
+        "(x \u0004 2)2 \u0004 (y \u0003 4)2 \u0002 16"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "For the acute angles in a right triangle, sin (4x)\u00b0 \u0002 cos (3x \u0004 13)\u00b0. What is the number of degrees in the measure of the smaller angle?",
+      "choices": [
+        "11\u00b0",
+        "13\u00b0",
+        "44\u00b0",
+        "52\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Triangle PQR is shown on the set of axes below. Which quadrant will contain point R\u0005, the image of point R, after a 90\u00b0 clockwise rotation centered at (0,0) followed by a reflection over the x-axis?",
+      "choices": [
+        "I",
+        "II",
+        "III",
+        ""
+      ],
+      "image": "/images/exams/geometry/january-2020/q22.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "In the diagram below of right triangle ABC, altitude ___ BD is drawn. Which ratio is always equivalent to cos A?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/geometry/january-2020/q23.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "In the diagram below of rRST, L is a point on ___ RS, and M is a point on ___ RT, such that ___ LM || ___ ST. If RL \u0002 2, LS \u0002 6, LM \u0002 4, and ST \u0002 x \u0004 2, what is the length of ___ ST ?",
+      "choices": [
+        "10",
+        "12",
+        "14",
+        "16 Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/geometry/january-2020/q24.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "In the diagram below,",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2020/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Diego needs to install a support beam to hold up his new birdhouse, as modeled below. The base of the birdhouse is 24 1__ 2 inches long. The support beam will form an angle of 38\u00b0 with the vertical post. Determine and state the approximate length of the support beam, x, to the nearest inch. 38\u00b0 X 241/2",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2020/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "A rectangular tabletop will be made of maple wood that weighs 43 pounds per cubic foot. The tabletop will have a length of eight feet, a width of three feet, and a thickness of one inch. Determine and state the weight of the tabletop,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "In the diagram below of circle O, secant ____ ABC and tangent are drawn. If CA \u0002 12.5 and CB \u0002 4.5, determine and state the length of ___ DA. O A D B C \uf075\uf072 \uf075\uf075",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2020/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Given ___ MT below, use a compass and straightedge to construct a 45\u00b0 angle whose vertex is at point M. [Leave all construction marks.]",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2020/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "In rXYZ shown below, medians ___ XE, ___ YF, and ___ ZD intersect at C. If CE \u0002 5, YF \u0002 21, and XZ \u0002 15,",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2020/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Determine and state an equation of the line perpendicular to the line 5x \u0003 4y \u0002 10 and passing through the point (5,12) Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Quadrilateral NATS has coordinates N(\u00034,\u00033), A(1,2), T(8,1), and S(3,\u00034). Prove quadrilateral NATS is a rhombus. [The use of the set of axes below is optional.]",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2020/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "David has just finished building his treehouse and still needs to buy a ladder to be attached to the ledge of the treehouse and anchored at a point on the ground, as modeled below. David is standing 1.3 meters from the stilt supporting the treehouse. This is the point on the ground where he has decided to anchor the ladder. The angle of elevation from his eye level to the bottom of the treehouse is 56 degrees. David\u2019s eye level is 1.5 meters above the ground. Determine and state the minimum length of a ladder, to the nearest tenth of a meter, that David will need to buy for his treehouse. 56\u00b0 1.5 m 1.3 m 56\u00b0 1.5 m 1.3",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2020/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "A manufacturer is designing a new container for their chocolate-covered almonds. Their original container was a cylinder with a height of 18 cm and a diameter of 14 cm. The new container can be modeled by a rectangular prism with a square base and will contain the same amount of chocolate-covered almonds. If the new container\u2019s height is 16 cm, determine and state, to the nearest tenth of a centimeter, the side length of the new container if both containers contain the same amount of almonds. A store owner who sells the chocolate-covered almonds displays them on a shelf whose dimensions are 80 cm long and 60 cm wide. The shelf can only hold one layer of new containers when each new container sits on its square base. Determine and state the maximum number of new containers the store owner can fit on the shelf. 14 cm 18",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2020/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "In quadrilateral ABCD, E and F are points on ___ BC and ___ AD, respectively, and and are drawn such that \u2220ABG \u0002 \u2220CDG, AB ___ \u0002 CD ___ , and ___ CE \u0002 ___ AF. Prove: ___ FG \u0002 ___ EG BGD EGF C F D E G A B Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for the question to determine your answer. Note that diagrams are not necessarily drawn to scale. For the question in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Work space for question 35 Question 35 continued Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0004 b2 \u0002 c2 Quadratic Formula x \u0002 \u0003 \u0006 \u0003 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0004 (n \u0003 1)d Geometric Sequence an \u0002 a1r n \u0003 1 Geometric Series Sn \u0002 where r \u0007 1 a a r r n 1 1 1 \u0003 \u0003 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0003 t0) \u0004 B0 Tear Here Tear Here GEOMETRY GEOMETRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2020/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

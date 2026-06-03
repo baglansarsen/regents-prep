@@ -1,0 +1,1091 @@
+{
+  "subject": "chemistry",
+  "session": "june-2013",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "According to the wave-mechanical model of the atom, an orbital is a region of the most probable location of",
+      "choices": [
+        "an alpha particle",
+        "a gamma ray",
+        "an electron",
+        "a proton"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which particles have approximately the same mass?",
+      "choices": [
+        "an electron and an alpha particle",
+        "an electron and a proton",
+        "a neutron and an alpha particle",
+        "a neutron and a proton"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "During a flame test, a lithium salt produces a characteristic red flame. This red color is produced when electrons in excited lithium atoms",
+      "choices": [
+        "are lost by the atoms",
+        "are gained by the atoms",
+        "return to lower energy states within the atoms",
+        "move to higher energy states within the atoms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Compared to the energy and charge of the electrons in the first shell of a Be atom, the electrons in the second shell of this atom have",
+      "choices": [
+        "less energy and the same charge",
+        "less energy and a different charge",
+        "more energy and the same charge",
+        "more energy and a different charge"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which quantity can vary among atoms of the same element?",
+      "choices": [
+        "mass number",
+        "atomic number",
+        "number of protons",
+        "number of electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which substances have atoms of the same element but different molecular structures?",
+      "choices": [
+        "He(g) and Ne(g)",
+        "O2(g) and O3(g)",
+        "K(s) and Na(s)",
+        "P4(s) and S8(s)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "An atom that has 13 protons and 15 neutrons is an isotope of the element",
+      "choices": [
+        "nickel",
+        "silicon",
+        "aluminum",
+        "phosphorus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which elements have the most similar chemical properties?",
+      "choices": [
+        "Si, As, and Te",
+        "N2, O2, and F2",
+        "Mg, Sr, and Ba",
+        "Ca, Cs, and Cu"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which list includes three types of chemical formulas for organic compounds?",
+      "choices": [
+        "covalent, metallic, isotopic",
+        "covalent, metallic, molecular",
+        "empirical, structural, isotopic",
+        "empirical, structural, molecular"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "In a bond between an atom of carbon and an atom of fluorine, the fluorine atom has a",
+      "choices": [
+        "weaker attraction for electrons",
+        "stronger attraction for electrons",
+        "smaller number of first-shell electrons",
+        "larger number of first-shell electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A sample of CO2(s) and a sample of CO2(g) differ in their",
+      "choices": [
+        "chemical compositions",
+        "empirical formulas",
+        "molecular structures",
+        "physical properties"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which statement defines the temperature of a sample of matter?",
+      "choices": [
+        "Temperature is a measure of the total electromagnetic energy of the particles.",
+        "Temperature is a measure of the total thermal energy of the particles.",
+        "Temperature is a measure of the average potential energy of the particles.",
+        "Temperature is a measure of the average kinetic energy of the particles."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "For a chemical reaction, the difference between the potential energy of the products and the potential energy of the reactants is equal to the",
+      "choices": [
+        "heat of fusion",
+        "heat of reaction",
+        "activation energy of the forward reaction",
+        "activation energy of the reverse reaction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which equation represents sublimation?",
+      "choices": [
+        "Hg(\u2113) \u2192Hg(s)",
+        "H2O(s) \u2192H2O(g)",
+        "NH3(g) \u2192NH3(\u2113)",
+        "CH4(\u2113) \u2192CH4(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which statement describes the particles of an ideal gas, based on the kinetic molecular theory?",
+      "choices": [
+        "The motion of the gas particles is orderly and circular.",
+        "The gas particles have no attractive forces between them.",
+        "The gas particles are larger than the dis- tances separating them.",
+        "As the gas particles collide, the total energy of the system decreases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Two grams of potassium chloride are completely dissolved in a sample of water in a beaker. This solution is classified as",
+      "choices": [
+        "an element",
+        "a compound",
+        "a homogeneous mixture",
+        "a heterogeneous mixture"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which compound has the strongest hydrogen bonding between its molecules?",
+      "choices": [
+        "HBr",
+        "HCl",
+        "HF",
+        "HI"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Powdered sulfur is yellow, and powdered iron is gray. When powdered sulfur and powdered iron are mixed at 20\u00b0C, the powdered iron",
+      "choices": [
+        "becomes yellow",
+        "becomes a liquid",
+        "remains ionic",
+        "remains magnetic"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "An effective collision between reactant particles requires the particles to have the proper",
+      "choices": [
+        "charge and mass",
+        "charge and orientation",
+        "energy and mass",
+        "energy and orientation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which term is defined as a measure of the disorder of a system?",
+      "choices": [
+        "heat",
+        "entropy",
+        "kinetic energy",
+        "activation energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which process is used to determine the concen- tration of an acid?",
+      "choices": [
+        "chromatography",
+        "distillation",
+        "electrolysis",
+        "titration"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The compounds CH3OCH3 and CH3CH2OH have different functional groups. Therefore, these compounds have different",
+      "choices": [
+        "chemical properties",
+        "gram-formula masses",
+        "percent compositions by mass",
+        "numbers of atoms per molecule"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which term identifies the half-reaction that occurs at the anode of an operating electro- chemical cell?",
+      "choices": [
+        "oxidation",
+        "reduction",
+        "neutralization",
+        "transmutation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "During the operation of a voltaic cell, the cell produces",
+      "choices": [
+        "electrical energy spontaneously",
+        "chemical energy spontaneously",
+        "electrical energy nonspontaneously",
+        "chemical energy nonspontaneously"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "In which type of chemical reaction are electrons transferred?",
+      "choices": [
+        "organic addition",
+        "oxidation-reduction",
+        "double replacement",
+        "acid-base neutralization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "A substance that dissolves in water and produces hydronium ions as the only positive ions in the solution is classified as",
+      "choices": [
+        "an alcohol",
+        "an acid",
+        "a base",
+        "a salt"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "According to one acid-base theory, a base is an",
+      "choices": [
+        "H\u0002 acceptor",
+        "H\u0002 donor",
+        "Na\u0002 acceptor",
+        "Na\u0002 donor"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which compound is an electrolyte?",
+      "choices": [
+        "CCl4",
+        "CH3OH",
+        "C6H12O6",
+        "Ca(OH)2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which term identifies a type of nuclear reaction?",
+      "choices": [
+        "fermentation",
+        "deposition",
+        "reduction",
+        "fission"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which radioisotopes have the same decay mode and have half-lives greater than 1 hour?",
+      "choices": [
+        "double replacement",
+        "single replacement",
+        "decomposition",
+        "synthesis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "What is the overall charge of an ion that has 12 protons, 10 electrons, and 14 neutrons?",
+      "choices": [
+        "2\u0003",
+        "2\u0002",
+        "4\u0003",
+        "4\u0002"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "As the elements in Period 3 are considered in order of increasing atomic number, there is a general decrease in",
+      "choices": [
+        "atomic mass",
+        "atomic radius",
+        "electronegativity",
+        "first ionization energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Which electron configuration represents the electrons of a sulfur atom in an excited state?",
+      "choices": [
+        "2-6-6",
+        "2-7-7",
+        "2-8-4",
+        "2-8-6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Given the word equation: sodium chlorate \u2192sodium chloride \u0002 oxygen Which type of chemical reaction is represented by this equation?",
+      "choices": [
+        "A",
+        "D",
+        "X",
+        "Z Bright-Line Spectra Element A Element D Element X Element Z Mixture Wavelength (nm) 400 500 600 700 750 400 500 600 700 750"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which compound has the highest percent com- position by mass of strontium?",
+      "choices": [
+        "SrCl2",
+        "SrI2",
+        "SrO",
+        "SrS"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Given the formula for hydrazine: How many pairs of electrons are shared between the two nitrogen atoms?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": "/images/exams/chemistry/june-2013/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which formulas represent one ionic compound and one molecular compound?",
+      "choices": [
+        "N2 and SO2",
+        "Cl2 and H2S",
+        "BaCl2 and N2O4",
+        "NaOH and BaSO4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which Kelvin temperature is equal to 200.\u00b0C?",
+      "choices": [
+        "\u000373 K",
+        "73 K",
+        "200. K",
+        "473 K"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "A 10.0-gram sample of H2O(\u2113) at 23.0\u00b0C absorbs 209 joules of heat. What is the final temperature of the H2O(\u2113) sample?",
+      "choices": [
+        "5.0\u00b0C",
+        "18.0\u00b0C",
+        "28.0\u00b0C",
+        "50.0\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a system at equilibrium: AgCl(s) Ag\u0002(aq) \u0002 Cl\u0003(aq) When the concentration of Cl\u0003(aq) is increased, the concentration of Ag\u0002(aq)",
+      "choices": [
+        "decreases, and the amount of AgCl(s) increases",
+        "decreases, and the amount of AgCl(s) decreases",
+        "increases, and the amount of AgCl(s) increases",
+        "increases, and the amount of AgCl(s) decreases"
+      ],
+      "image": "/images/exams/chemistry/june-2013/q41.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "written",
+      "text": "Which particle diagram represents a sample of matter that can not be broken down by chemical means?",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/q42.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "written",
+      "text": "Which formula represents an unsaturated hydrocarbon? ( 1 ) H H C H H C H H ( 2 ) ( 3 ) H H C H H C OH H H H C C H O H ( 4 ) H C C H H C H H2O \u0002 \u21c0 \u0002\u0002\u0002 \u21bd \u0002 \u0002\u0002\u0002 Key = atom of one element = atom of a different element ( 1 ) ( 2 ) ( 3 ) ( 4 ) H H H H N N",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "When the pH of a solution is changed from 4 to 3, the hydronium ion concentration of the solution",
+      "choices": [
+        "decreases by a factor of 10",
+        "increases by a factor of 10",
+        "decreases by a factor of 100",
+        "increases by a factor of 100"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Three samples of the same solution are tested, each with a different indicator. All three indicators, bromthymol blue, bromcresol green, and thymol blue, appear blue if the pH of the solution is",
+      "choices": [
+        "4.7",
+        "6.0",
+        "7.8",
+        "9.9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "A 10.0-milliliter sample of NaOH(aq) is neutral- ized by 40.0 milliliters of 0.50 M HCl. What is the molarity of the NaOH(aq)?",
+      "choices": [
+        "1.0 M",
+        "2.0 M",
+        "0.25 M",
+        "0.50 M"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Radiation is spontaneously emitted from hydrogen-3 nuclei, but radiation is not spontaneously emitted from hydrogen-1 nuclei or hydrogen-2 nuclei. Which hydrogen nuclei are stable?",
+      "choices": [
+        "nuclei of H-1 and H-2, only",
+        "nuclei of H-1 and H-3, only",
+        "nuclei of H-2 and H-3, only",
+        "nuclei of H-1, H-2, and H-3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a nuclear reaction in which X represents a nuclide: 232 90Th \u21924 2He \u0002 X Which nuclide is represented by X?",
+      "choices": [
+        "236 92Ra",
+        "228 88Ra",
+        "236 92U",
+        "228 88U"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "After decaying for 48 hours, 1__ 16 of the original mass of a radioisotope sample remains unchanged. What is the half-life of this radioisotope?",
+      "choices": [
+        "3.0 h",
+        "9.6 h",
+        "12 h",
+        "24 h"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which balanced equation represents nuclear fusion?",
+      "choices": [
+        "2 1H \u0002 2 1H \u21924 2He",
+        "2H2 \u0002 O2 \u21922H2O",
+        "6 3Li \u0002 1 0n \u21923 1H \u0002 4 2He",
+        "CaO \u0002 CO2 \u2192CaCO3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Balance the equation in your answer booklet for the reaction between magnesium and nitrogen, using the smallest whole-number coefficients.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nWhen magnesium is ignited in air, the magnesium reacts with oxygen and nitrogen. \nThe reaction between magnesium and nitrogen is represented by the unbalanced equation\nbelow.\nMg(s) \u0002 N2(g) \u2192Mg3N2(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "In the ground state, which noble gas has atoms with the same electron configuration as a magnesium ion?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nWhen magnesium is ignited in air, the magnesium reacts with oxygen and nitrogen. \nThe reaction between magnesium and nitrogen is represented by the unbalanced equation\nbelow.\nMg(s) \u0002 N2(g) \u2192Mg3N2(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Explain, in terms of electrons, why an atom of the metal in this reaction forms an ion that has a smaller radius than its atom.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nWhen magnesium is ignited in air, the magnesium reacts with oxygen and nitrogen. \nThe reaction between magnesium and nitrogen is represented by the unbalanced equation\nbelow.\nMg(s) \u0002 N2(g) \u2192Mg3N2(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the type of chemical bond in a molecule of the reactant.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of chemistry.\nThe balanced equation below represents a reaction.\nO2(g) \u0002 energy \u2192O(g) \u0002 O(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "In the space in your answer booklet, draw a Lewis electron-dot diagram of one oxygen atom.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of chemistry.\nThe balanced equation below represents a reaction.\nO2(g) \u0002 energy \u2192O(g) \u0002 O(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Explain, in terms of bonds, why energy is absorbed during this reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of chemistry.\nThe balanced equation below represents a reaction.\nO2(g) \u0002 energy \u2192O(g) \u0002 O(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Describe what happens to both the potential energy and the average kinetic energy of the molecules in the H2O sample during interval AB.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of chemistry.\nStarting as a solid at \u000325\u00b0C, a sample of H2O is heated at a constant rate until the \nsample is at 125\u00b0C. This heating occurs at standard pressure. The graph below represents\nthe relationship between temperature and heat added to the sample.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Using the graph, determine the total amount of heat added to the sample during interval CD.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of chemistry.\nStarting as a solid at \u000325\u00b0C, a sample of H2O is heated at a constant rate until the \nsample is at 125\u00b0C. This heating occurs at standard pressure. The graph below represents\nthe relationship between temperature and heat added to the sample.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Explain, in terms of heat of fusion and heat of vaporization, why the heat added during interval DE is greater than the heat added during interval BC for this sample of water. 50. 100. Heat Added (kJ) Heating Curve for H2O 4 12 20. 28 36 44 52 60. 125 75 25 0 \u201325 A B C D E F",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of chemistry.\nStarting as a solid at \u000325\u00b0C, a sample of H2O is heated at a constant rate until the \nsample is at 125\u00b0C. This heating occurs at standard pressure. The graph below represents\nthe relationship between temperature and heat added to the sample.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Compare the total number of gas molecules in cylinder A to the total number of gas molecules in cylinder B.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of chemistry.\nCylinder A has a movable piston and contains hydrogen gas. An identical cylinder, B,\ncontains methane gas. The diagram below represents these cylinders and the conditions of\npressure, volume, and temperature of the gas in each cylinder.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State a change in temperature and a change in pressure that will cause the gas in cylinder A to behave more like an ideal gas.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of chemistry.\nCylinder A has a movable piston and contains hydrogen gas. An identical cylinder, B,\ncontains methane gas. The diagram below represents these cylinders and the conditions of\npressure, volume, and temperature of the gas in each cylinder.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "In the space in your answer booklet, show a numerical setup for calculating the volume of the gas in cylinder B at STP. Cylinder A Hydrogen gas P = 1.2 atm V = 1.25 L T = 293 K Cylinder B Methane gas P = 1.2 atm V = 1.25 L T = 293 K P.S./",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of chemistry.\nCylinder A has a movable piston and contains hydrogen gas. An identical cylinder, B,\ncontains methane gas. The diagram below represents these cylinders and the conditions of\npressure, volume, and temperature of the gas in each cylinder.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify the homologous series to which these isomers belong.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of chemistry.\nThere are several isomers of C6H14. The formulas and boiling points for two of these\nisomers are given in the table below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Write the empirical formula for isomer 1.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of chemistry.\nThere are several isomers of C6H14. The formulas and boiling points for two of these\nisomers are given in the table below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Explain, in terms of intermolecular forces, why isomer 2 boils at a lower temperature than isomer 1. H H C H C C H H H H C C H H C H H H H H Isomer 1 2 Formula Boiling Point at 1 atm (\u00b0C) 68.7 49.7 H H C C C H C H H C H H H H H H C H H H",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of chemistry.\nThere are several isomers of C6H14. The formulas and boiling points for two of these\nisomers are given in the table below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Identify one characteristic used by Mendeleev to develop his classification system of the elements.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nBefore atomic numbers were known, Mendeleev developed a classification system for\nthe 63 elements known in 1872, using oxide formulas and atomic masses. He used an R in\nthe oxide formulas to represent any element in each group. The atomic mass was listed in\nparentheses after the symbol of each element. A modified version of Mendeleev\u2019s classification\nsystem is shown in the table below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Based on Mendeleev\u2019s oxide formula, what is the number of electrons lost by each atom of the elements in Group III?",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nBefore atomic numbers were known, Mendeleev developed a classification system for\nthe 63 elements known in 1872, using oxide formulas and atomic masses. He used an R in\nthe oxide formulas to represent any element in each group. The atomic mass was listed in\nparentheses after the symbol of each element. A modified version of Mendeleev\u2019s classification\nsystem is shown in the table below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Based on Table J, identify the least active metal listed in Group I on Mendeleev\u2019s table.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nBefore atomic numbers were known, Mendeleev developed a classification system for\nthe 63 elements known in 1872, using oxide formulas and atomic masses. He used an R in\nthe oxide formulas to represent any element in each group. The atomic mass was listed in\nparentheses after the symbol of each element. A modified version of Mendeleev\u2019s classification\nsystem is shown in the table below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Explain, in terms of chemical reactivity, why the elements in Group 18 on the modern Periodic Table were not identified by Mendeleev at that time. Oxide formulas H(1) Li(7) Na(23) K(39) Cu(63) Rb(85) Ag(108) Cs(133) I II III IV V VI VII R2O RO R2O3 RO2 R2O5 RO3 R2O7 1 2 3 4 5 6 7 8 Group Series Be(9.4) Mg(24) Ca(40) Zn(65) Sr(87) Cd(112) Ba(137) B(11) Al(27.3) Yt(88) In(113) Di(138) C(12) Si(28) Ti(48) Zr(90) Sn(118) Ce(140) N(14) P(31) V(51) As(75) Nb(94) Sb(122) O(16) S(32) Cr(52) Se(78) Mo(96) Te(125) F(19) Cl(35.5) Mn(55) Br(80) I(127) Modified Version of Mendeleev\u2019s Table",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nBefore atomic numbers were known, Mendeleev developed a classification system for\nthe 63 elements known in 1872, using oxide formulas and atomic masses. He used an R in\nthe oxide formulas to represent any element in each group. The atomic mass was listed in\nparentheses after the symbol of each element. A modified version of Mendeleev\u2019s classification\nsystem is shown in the table below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Determine the change in oxidation number for the hydrogen that reacts.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_70_73.png",
+      "context": "Base your answers to questions 70 through 73 on the information below and on your knowledge of chemistry.\nIn a laboratory apparatus, a sample of lead(II) oxide reacts with hydrogen gas at high\ntemperature. The products of this reaction are liquid lead and water vapor. As the reaction\nproceeds, water vapor and excess hydrogen gas leave the glass tube. The diagram and \nbalanced equation below represent this reaction.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Write a balanced half-reaction equation for the reduction of the Pb2\u0002 ions in this reaction.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_70_73.png",
+      "context": "Base your answers to questions 70 through 73 on the information below and on your knowledge of chemistry.\nIn a laboratory apparatus, a sample of lead(II) oxide reacts with hydrogen gas at high\ntemperature. The products of this reaction are liquid lead and water vapor. As the reaction\nproceeds, water vapor and excess hydrogen gas leave the glass tube. The diagram and \nbalanced equation below represent this reaction.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Explain why the reaction that occurs in this glass tube can not reach equilibrium.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_70_73.png",
+      "context": "Base your answers to questions 70 through 73 on the information below and on your knowledge of chemistry.\nIn a laboratory apparatus, a sample of lead(II) oxide reacts with hydrogen gas at high\ntemperature. The products of this reaction are liquid lead and water vapor. As the reaction\nproceeds, water vapor and excess hydrogen gas leave the glass tube. The diagram and \nbalanced equation below represent this reaction.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "State one change in reaction conditions, other than adding a catalyst, that would cause the rate of this reaction to increase. Glass tube H2(g) H2O(g) and H2(g) PbO(s) Laboratory burner PbO(s) + H2(g) + heat Pb( ) + H2O(g) Pb( )",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_70_73.png",
+      "context": "Base your answers to questions 70 through 73 on the information below and on your knowledge of chemistry.\nIn a laboratory apparatus, a sample of lead(II) oxide reacts with hydrogen gas at high\ntemperature. The products of this reaction are liquid lead and water vapor. As the reaction\nproceeds, water vapor and excess hydrogen gas leave the glass tube. The diagram and \nbalanced equation below represent this reaction.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Compare the chemical properties of a 300.-kilogram sample of Al2O3(\u2113) with the chemical properties of a 600.-kilogram sample of Al2O3(\u2113).",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_74_77.png",
+      "context": "Base your answers to questions 74 through 77 on the information below and on your knowledge of chemistry.\nIn the late 19th century, the Hall-Herroult process was invented as an inexpensive way\nto produce aluminum. In this process, Al2O3(\u2113) extracted from bauxite is dissolved in\nNa3AlF6(\u2113) in a graphite-lined tank, as shown in the diagram below. The products are \ncarbon dioxide and molten aluminum metal.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Write the chemical name for the liquid compound dissolved in the Na3AlF6(\u2113).",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_74_77.png",
+      "context": "Base your answers to questions 74 through 77 on the information below and on your knowledge of chemistry.\nIn the late 19th century, the Hall-Herroult process was invented as an inexpensive way\nto produce aluminum. In this process, Al2O3(\u2113) extracted from bauxite is dissolved in\nNa3AlF6(\u2113) in a graphite-lined tank, as shown in the diagram below. The products are \ncarbon dioxide and molten aluminum metal.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "What is the melting point of the substance that collects at the bottom of the tank?",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_74_77.png",
+      "context": "Base your answers to questions 74 through 77 on the information below and on your knowledge of chemistry.\nIn the late 19th century, the Hall-Herroult process was invented as an inexpensive way\nto produce aluminum. In this process, Al2O3(\u2113) extracted from bauxite is dissolved in\nNa3AlF6(\u2113) in a graphite-lined tank, as shown in the diagram below. The products are \ncarbon dioxide and molten aluminum metal.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Compare the density of the Al(\u2113) with the density of the mixture of Al2O3(\u2113) and Na3AlF6(\u2113).",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2013/context_74_77.png",
+      "context": "Base your answers to questions 74 through 77 on the information below and on your knowledge of chemistry.\nIn the late 19th century, the Hall-Herroult process was invented as an inexpensive way\nto produce aluminum. In this process, Al2O3(\u2113) extracted from bauxite is dissolved in\nNa3AlF6(\u2113) in a graphite-lined tank, as shown in the diagram below. The products are \ncarbon dioxide and molten aluminum metal.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Determine the amount of energy released when 1.00 mole of sulfur trioxide is produced.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 80 on the information below and on your knowledge of chemistry.\nOne process used to manufacture sulfuric acid is called the contact process. One step\nin this process, the reaction between sulfur dioxide and oxygen, is represented by the \nforward reaction in the system at equilibrium shown below.\n2SO2(g) \u0002 O2(g) \u21cc2SO3(g) \u0002 394 kJ\nA mixture of platinum and vanadium(V) oxide may be used as a catalyst for this \nreaction. The sulfur trioxide produced is then used to make sulfuric acid.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Write the chemical formula for vanadium(V) oxide.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 80 on the information below and on your knowledge of chemistry.\nOne process used to manufacture sulfuric acid is called the contact process. One step\nin this process, the reaction between sulfur dioxide and oxygen, is represented by the \nforward reaction in the system at equilibrium shown below.\n2SO2(g) \u0002 O2(g) \u21cc2SO3(g) \u0002 394 kJ\nA mixture of platinum and vanadium(V) oxide may be used as a catalyst for this \nreaction. The sulfur trioxide produced is then used to make sulfuric acid.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "On the labeled axes in your answer booklet, complete the potential energy diagram for the forward reaction represented by this equation. Hall-Heroult Process Graphite rod Graphite-lined tank Power source P.S./",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 80 on the information below and on your knowledge of chemistry.\nOne process used to manufacture sulfuric acid is called the contact process. One step\nin this process, the reaction between sulfur dioxide and oxygen, is represented by the \nforward reaction in the system at equilibrium shown below.\n2SO2(g) \u0002 O2(g) \u21cc2SO3(g) \u0002 394 kJ\nA mixture of platinum and vanadium(V) oxide may be used as a catalyst for this \nreaction. The sulfur trioxide produced is then used to make sulfuric acid.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "In the space in your answer booklet, draw a structural formula for Freon-12.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 and 82 on the information below and on your knowledge of chemistry.\nTwo very stable compounds, Freon-12 and Freon-14, are used as liquid refrigerants. A\nFreon-12 molecule consists of one carbon atom, two chlorine atoms, and two fluorine\natoms. A Freon-14 molecule consists of one carbon atom and four fluorine atoms.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "To which class of organic compounds do Freon-12 and Freon-14 belong?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 and 82 on the information below and on your knowledge of chemistry.\nTwo very stable compounds, Freon-12 and Freon-14, are used as liquid refrigerants. A\nFreon-12 molecule consists of one carbon atom, two chlorine atoms, and two fluorine\natoms. A Freon-14 molecule consists of one carbon atom and four fluorine atoms.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Explain, in terms of the polarity of sugar molecules, why the sugar dissolves in water.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nChemical concepts are applied in candy making. A recipe for making lollipops is shown\nbelow.\nHard-Candy Lollipops Recipe\nIngredients:\n414 grams of sugar\n177 grams of water\n158 milliliters of light corn syrup\nStep 1: In a saucepan, mix the sugar and water. Heat this mixture, while stirring, until\nall of the sugar dissolves.\nStep 2: Add the corn syrup and heat the mixture until it boils.\nStep 3: Continue boiling the mixture until the temperature reaches 143\u00b0C at standard\npressure.\nStep 4: Remove the pan from the heat and allow it to stand until the bubbling stops.\nPour the mixture into lollipop molds that have been coated with cooking oil\nspray.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Determine the concentration, expressed as percent by mass, of the sugar dissolved in the mixture produced in step 1.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nChemical concepts are applied in candy making. A recipe for making lollipops is shown\nbelow.\nHard-Candy Lollipops Recipe\nIngredients:\n414 grams of sugar\n177 grams of water\n158 milliliters of light corn syrup\nStep 1: In a saucepan, mix the sugar and water. Heat this mixture, while stirring, until\nall of the sugar dissolves.\nStep 2: Add the corn syrup and heat the mixture until it boils.\nStep 3: Continue boiling the mixture until the temperature reaches 143\u00b0C at standard\npressure.\nStep 4: Remove the pan from the heat and allow it to stand until the bubbling stops.\nPour the mixture into lollipop molds that have been coated with cooking oil\nspray.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Explain, in terms of the concentration of sugar molecules, why the boiling point of the mixture in step 3 increases as water evaporates from the mixture. P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nChemical concepts are applied in candy making. A recipe for making lollipops is shown\nbelow.\nHard-Candy Lollipops Recipe\nIngredients:\n414 grams of sugar\n177 grams of water\n158 milliliters of light corn syrup\nStep 1: In a saucepan, mix the sugar and water. Heat this mixture, while stirring, until\nall of the sugar dissolves.\nStep 2: Add the corn syrup and heat the mixture until it boils.\nStep 3: Continue boiling the mixture until the temperature reaches 143\u00b0C at standard\npressure.\nStep 4: Remove the pan from the heat and allow it to stand until the bubbling stops.\nPour the mixture into lollipop molds that have been coated with cooking oil\nspray.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

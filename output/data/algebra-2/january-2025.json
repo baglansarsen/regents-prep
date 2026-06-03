@@ -1,0 +1,486 @@
+{
+  "subject": "algebra-2",
+  "session": "january-2025",
+  "questions": [
+    {
+      "number": 1,
+      "type": "written",
+      "text": "The exact value of sin( 3 8\u03c0) is (1) 2 1 (3) 2 3",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2025/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "2",
+      "choices": [
+        "an experiment",
+        "an unbiased survey",
+        "a simulation",
+        "an observational study"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to (x 2 2)2 1 27(x 2 2) 2 90?",
+      "choices": [
+        "(x 1 30)(x 2 3)",
+        "(x 1 28)(x 2 5)",
+        "(x 2 30)(x 1 3)",
+        "(x 2 2)(x 1 25)(x 2 90)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Given the functions f(x) 5 2x 1 2 5 and g(x) 5 x 3 , what are the solutions to f(x) 5 g(x)?",
+      "choices": [
+        "(0.75, 4) or (22,21.5)",
+        "x 5 0.75 or x 5 22",
+        "y 5 21.5 or y 5 4",
+        "(22, 0.75)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Given f(x) 5 2x3 2 3x2 2 5x 2 12 and g(x) 5 x 2 3, the quotient of g(x) f(x) is",
+      "choices": [
+        "2x2 1 3x 1 4",
+        "2x3 1 3x2 1 4x",
+        "2x2 2 9x 1 22 2 x 2 3 78",
+        "2x3 2 9x2 1 22x 2 78"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Abby is told that each day there is a 50% chance it will rain. Which simulation can Abby perform to determine the likelihood of it raining for the next seven days?",
+      "choices": [
+        "Flip a coin seven times, count how many heads, and repeat 50 times.",
+        "Roll a die seven times, count how many twos, and repeat 50 times.",
+        "Roll a pair of dice, count totals of seven, and repeat 50 times.",
+        "Flip a coin 50"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "What are the solutions to 4x2 2 7x 2 2 5 210?",
+      "choices": [
+        "2 4 1 , 2",
+        "8 7 6 8 79i",
+        "8 7 6 8 241",
+        "8 7 6 8 143i"
+      ],
+      "image": "/images/exams/algebra-2/january-2025/q7.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "If x 2 5 is a factor of p(x) 5 ax4 1 bx3 1 cx2 1 dx 1 e, then which statement must be true?",
+      "choices": [
+        "p(25) 5 0",
+        "p(25) \u00de 0",
+        "p(5) 5 0",
+        "p(5) \u00de 0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "In a small city, there are 22 gas stations. The mean price for a gallon of regular gas was $2.12 with a standard deviation of $0.05. The distribution of the data was approximately normal. Given this information, the middle 95% of the gas stations in this small city likely charge",
+      "choices": [
+        "$1.90 to $2.34 for a gallon of gas",
+        "$1.97 to $2.27 for a gallon of gas",
+        "$2.02 to $2.22 for a gallon of gas",
+        "$2.07 to $2.17"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The expression x2 2 1 4x2 2 5 is equivalent to",
+      "choices": [
+        "4 2 x2 2 1 1",
+        "4 1 x2 2 1 1",
+        "4 2 x2 2 1 9",
+        "4 2 x2 2 1 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "For all positive values of x, which expression is equivalent to x \u2022 x11 4 ?",
+      "choices": [
+        "x 19 22",
+        "x 11 8",
+        "x 13 4",
+        "x 2 11"
+      ],
+      "image": "/images/exams/algebra-2/january-2025/q11.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The expression i2(5x 2 2i)2 is equivalent to",
+      "choices": [
+        "225x2 1 20xi 2 4",
+        "225x2 1 20xi 1 4",
+        "25x2 1 20xi 1 4",
+        "25x2 1 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Functions f and g are given below. f(x) 5 2 7 x2 2 5x 1 11 g(x) 5 3x2 2 7x 1 25 When 2f(x) is subtracted from g(x), the result is",
+      "choices": [
+        "4x2 2 3x 2 3",
+        "24x2 1 3x 1 3",
+        "4x2 2 17x 2 47",
+        "24x2 2 17x 1 47"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "A manufacturer claims that the number of ounces of a beverage dispensed by one of its automatic dispensers is normally distributed with a mean of 8.0 ounces and a standard deviation of 0.04 ounces. To the nearest tenth of a percent, what percent of the cups filled by this company\u2019s dispenser will contain between 7.9 and 8.11 ounces?",
+      "choices": [
+        "99.5",
+        "99.4",
+        "99.1",
+        "97.6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "What is the value of x in the solution of the system of equations below? 5x 1 2y 2 z 5 214 7y 2 z 5 31 5y 1 4z 2 5x 5 223",
+      "choices": [
+        "217",
+        "2",
+        "5 2 1",
+        "27"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The graph below shows the amount of a radioactive substance left over time. 50 25 Number of Days Amount of Substance (g) 8 0 x y The daily rate of decay over an 8-day interval is approximately",
+      "choices": [
+        "23%",
+        "95%",
+        "5%",
+        "77%"
+      ],
+      "image": "/images/exams/algebra-2/january-2025/q16.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "If 4(105x 2 2) 5 12, then x equals",
+      "choices": [
+        "5 2.3",
+        "3 1(log40 log12 1 5)",
+        "1 2",
+        "5 1( log4 log12 1 2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A random sample of 152 students was surveyed on a particular day about how they got to school. The survey results are summarized in the table below. Attendance Status Late On-Time Method of Transportation Car 6 24 Bus 20 80 Walk 4 18 Which statement is best supported by the data?",
+      "choices": [
+        "The probability of being late given that a student walked is greater than the probability that a student walked given that the student was late.",
+        "The probability of being late given that a student walked is less than the probability that a student walked given that the student was late.",
+        "The probability of being late given that a student walked is equal to the probability that a student walked given that the student was late.",
+        "The probability of being late given that a student walked cannot be determined."
+      ],
+      "image": "/images/exams/algebra-2/january-2025/q18.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "If f(x) 5 x 3 1 4, then f 21(x) equals",
+      "choices": [
+        "x 2 4 3",
+        "(x 2 4)3",
+        "x3 1 4 1",
+        "x 2 3 2 4"
+      ],
+      "image": "/images/exams/algebra-2/january-2025/q19.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Given the equation S(x) 5 1.7sin(bx) 1 12, where the period of S(x) is 12, what is the value of b?",
+      "choices": [
+        "6 \u03c0",
+        "24p",
+        "12 \u03c0",
+        "6p"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2025/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "22",
+      "choices": [
+        "(x2 2 y2)2 1 (2xy)2",
+        "(x 1 y)4 1 2(xy)2",
+        "x2(x2 1 2y2) 1 (y2)2",
+        "(2x2 1 y2)2 2 (3x4 1 2x2 y2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The height of a running trail is modeled by the quartic function y 5 f(x) shown below, where x is the distance in miles from the start of the trail and y is the height in feet relative to sea level. f(x) x 0 6 5 y 5 f(x) 4 3 1 2 16 8 28 216 If this trail has a minimum height of 16 feet below sea level, which function(s) could represent a running trail whose minimum height is half of the minimum height of the original trail? I. y 5 f( 2 1 x) II. y 5 f(x) 1 8 III. y 5 2 1 f(x)",
+      "choices": [
+        "I, only",
+        "II, only",
+        "I and III",
+        "II and III"
+      ],
+      "image": "/images/exams/algebra-2/january-2025/q23.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The crew aboard a small fishing boat caught 350 pounds of fish on Monday. From that Monday through the end of the week on Friday, the weight of the fish caught increased 15% per day. The total weight, in pounds, of fish caught is approximately",
+      "choices": [
+        "411",
+        "612",
+        "1748",
+        "2360 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Describe the translations that map f(x) 5 log x to g(x) 5 log(x 1 3) 2 5",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "The Chart for Determining the Final Examination Score for the January 2025 https://www.nysed.gov/state-assessment/high-school-regents-examinations on the day of the examination. Conversion charts provided for previous administrations of the scores for this administration. Online Submission of Teacher Evaluations of the Test to the Department Suggestions and feedback from teachers provide an important contribution to the test development process. The Department provides an online evaluation form for State assessments. It contains spaces for teachers to respond to several specific questions and to make suggestions. Instructions for completing the evaluation form are as follows: 1. Go to https://www.nysed.gov/state-assessment/teacher-feedback-state-assessments. 2. Click Regents Examinations. 3. Complete the required demographic fields. 4. Select the test title from the Regents Examination dropdown list. 5. Complete each evaluation question and provide comments in the space provided. 6. Click the SUBMIT button at the bottom of the page to submit the completed form."
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Solve algebraically for x: 2x 1 2 6 5 5 x 3",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Given cos q 5 7 2 2 with q in Quadrant II,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Given a . 1, use the properties of rational exponents to determine the value of x for the equation below. a10 5 (a3) 1 2 5",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2025/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Graph at least one cycle of y 5 5sin(4x) 2 3",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2025/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The cost of a brand-new electric-hybrid vehicle is listed at $33,400, and the average annual depreciation for the vehicle is 15%. The car\u2019s value can be modeled by the function V(x) 5 33,400(0.85)x, where x represents the years since purchase. Julia and Jacob have each written a function that is equivalent to the original. Jacob\u2019s function: V(x) 5 33,400(0.1422) x 1 12 Julia\u2019s function: V(x) 5 33,400(0.9865)12x Whose function is correctly rewritten to reveal the approximate monthly depreciation rate?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Write a recursive formula for the sequence 8, 20, 50, 125, 312.5,\u2026",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "A grocery store orders 50 bags of oranges from a company\u2019s distribution center. The bags have a mean weight of 3.85 pounds per bag. The company claims that their bags of oranges have a mean weight of 4 pounds. The grocery store ran a simulation of 50 bags, 2500 times, assuming a mean of 4 pounds. The results are shown below. 50 40 30 20 10 0 3.92 3.94 3.96 3.98 4.00 4.02 4.04 4.06 4.08 Mean = 4.001 SD = 0.026 Is the mean weight of the grocery store\u2019s sample unusual? Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2025/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "At the Lakeside Resort, the probability that a guest room has a view of the lake is 0.24. The probability that a guest room has a queen-size bed is 0.74. Let A be the event that the guest room has a view of the lake,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Which function has a greater average rate of change on the interval [21,4]? Justify your answer. x m(x) 22 23 21 1 0 1 1 3 2 13 3 37 4 81 5 151 p(x) 5 3x 1 1",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2025/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Determine an equation for the parabola with focus (22, 4) and directrix y 5 10. (The use of the grid below is optional.)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2025/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Algebraically find the zeros of c(x) 5 x3 1 2x2 2 16x 2 32. On the axes below, sketch y 5 c(x) Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2025/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "The populations of honeybees in two different colonies are studied for four months. During this time, the colony population can be approximated by P(t) 5 P0ert, where P(t) is the colony population of bees at t months, P0 is the initial population, and r is the growth rate. Colony A has an initial population of 10,000 bees and a continuous growth rate of 0.25. Colony B has an initial population of 6000 bees and a continuous growth rate of 0.45. Write functions for both A(t) and B(t) that model the honeybee populations of the colonies after t months. Graph A(t) and B(t) for 0 # t # 4. 1 0 0 10 20 30 40 50 2 Months Bee Population (in thousands) 3 4 Question 37 State, to the nearest tenth of a month, when the colonies will have the same population. Determine algebraically how long it will take, to the nearest tenth of a month, for the population in Colony A to triple. Question 37 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 pr2 Circle C 5 pd or C 5 2pr General Prisms V 5 Bh Cylinder V 5 pr2h Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 pr2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u2260 1 Radians 1 radian 5 180 ___ p degrees Degrees 1 degree 5 p ___ 180 radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2025/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

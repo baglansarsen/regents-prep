@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-1",
+  "session": "june-2019",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The expression w4 \u0002 36 is equivalent to",
+      "choices": [
+        "(w2 \u0002 18)(w2 \u0002 18)",
+        "(w2 \u0003 18)(w2 \u0002 18)",
+        "(w2 \u0002 6)(w2 \u0002 6)",
+        "(w2 \u0003 6)(w2 \u0002 6)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "If f(x) \u0004 4x \u0003 5, what is the value of f(\u00023)?",
+      "choices": [
+        "\u00022",
+        "\u00027",
+        "17",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which relation is not a function? 3x \u0011 2y \u0015 4 \u201310 \u20136 \u20132 1 5 \u20132 2 6 9 13 y x",
+      "choices": [
+        "y x",
+        "",
+        "",
+        "1 2 3"
+      ],
+      "image": "/images/exams/algebra-1/june-2019/q3.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Given: f(x) \u0004 (x \u0002 2)2 \u0003 4 g(x) \u0004 (x \u0002 5)2 \u0003 4 When compared to the graph of f(x), the graph of g(x) is",
+      "choices": [
+        "shifted 3 units to the left",
+        "shifted 3 units to the right",
+        "shifted 5 units to the left",
+        "shifted 5 units to the right"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Students were asked to write 6x5 \u0003 8x \u0002 3x3 \u0003 7x7 in standard form. Shown below are four student responses. Anne: 7x7 \u0003 6x5 \u0002 3x3 \u0003 8x Bob: \u00023x3 \u0003 6x5 \u0003 7x7 \u0003 8x Carrie: 8x \u0003 7x7 \u0003 6x5 \u0002 3x3 Dylan: 8x \u0002 3x3 \u0003 6x5 \u0003 7x7 Which student is correct?",
+      "choices": [
+        "Anne",
+        "Bob",
+        "Carrie",
+        "Dylan"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The function f is shown in the table below. x f(x) 0 1 1 3 2 9 3 27 Which type of function best models the given data?",
+      "choices": [
+        "exponential growth function",
+        "exponential decay function",
+        "linear function with positive rate of change",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/june-2019/q6.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which expression results in a rational number?",
+      "choices": [
+        "2 18 \u2022",
+        "5 5 \u2022",
+        "2 2 \u0003",
+        "3 2 2 3 \u0003"
+      ],
+      "image": "/images/exams/algebra-1/june-2019/q7.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A polynomial function is graphed below. f(x) x Which function could represent this graph?",
+      "choices": [
+        "f(x) \u0004 (x \u0003 1)(x2 \u0003 2)",
+        "f(x) \u0004 (x \u0002 1)(x2 \u0002 2)",
+        "f(x) \u0004 (x \u0002 1)(x2 \u0002 4)",
+        "f(x) \u0004 (x \u0003 1)(x2 \u0003 4)"
+      ],
+      "image": "/images/exams/algebra-1/june-2019/q8.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "When solving p2 \u0003 5 \u0004 8p \u0002 7, Kate wrote p2 \u0003 12 \u0004 8p. The property she used is",
+      "choices": [
+        "the associative property",
+        "the commutative property",
+        "the distributive property",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "David wanted to go on an amusement park ride. A sign posted at the entrance read \u201cYou must be greater than 42 inches tall and no more than 57 inches tall for this ride.\u201d Which inequality would model the height, x, required for this amusement park ride?",
+      "choices": [
+        "42 \u0005 x \u0006 57",
+        "42 \u0007 x \b 57",
+        "42 \u0005 x or x \u0006 57",
+        "42 \u0007 x or x \b 57"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which situation can be modeled by a linear function?",
+      "choices": [
+        "The population of bacteria triples every day.",
+        "The value of a cell phone depreciates at a rate of 3.5% each year.",
+        "An amusement park allows 50 people to enter every 30 minutes.",
+        "A baseball tournament eliminates half of the teams after each round."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Jenna took a survey of her senior class to see whether they preferred pizza or burgers. The results are summarized in the table below. Pizza Burgers Male 23 42 Female 31 26 Of the people who preferred burgers, approximately what percentage were female?",
+      "choices": [
+        "21.3",
+        "38.2",
+        "45.6",
+        "61.9"
+      ],
+      "image": "/images/exams/algebra-1/june-2019/q12.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "When 3a \u0003 7b \u0007 2a \u0002 8b is solved for a, the result is",
+      "choices": [
+        "a \u0007 \u0002b",
+        "a \u0005 \u0002b",
+        "a \u0005 \u000215b",
+        "a \u0007 \u000215"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Three functions are shown below. A: g(x) \u0004 \u00023 2x \u0003 4 B: f(x) \u0004 (x \u0003 2)(x \u0003 6) C: Which statement is true?",
+      "choices": [
+        "B and C have the same zeros.",
+        "A and B have the same y-intercept.",
+        "B has a minimum and C has a maximum.",
+        "C has a maximum and A has a minimum."
+      ],
+      "image": "/images/exams/algebra-1/june-2019/q14.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Nicci\u2019s sister is 7 years less than twice Nicci\u2019s age, a. The sum of Nicci\u2019s age and her sister\u2019s age is 41. Which equation represents this relationship?",
+      "choices": [
+        "a \u0003 (7 \u0002 2a) \u0004 41",
+        "a \u0003 (2a \u0002 7) \u0004 41",
+        "2a \u0002 7 \u0004 41",
+        "a \u0004 2a \u0002 7 h(x)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The population of a small town over four years is recorded in the chart below, where 2013 is represented by x \u0004 0. [Population is rounded to the nearest person] Year 2013 2014 2015 2016 Population 3810 3943 4081 4224 The population, P(x), for these years can be modeled by the function P(x) \u0004 abx, where b is rounded to the nearest thousandth. Which statements about this function are true? I. a \u0004 3810 II. a \u0004 4224 III. b \u0004 0.035 IV. b \u0004 1.035",
+      "choices": [
+        "I and III",
+        "I and IV",
+        "II and III",
+        "II and IV"
+      ],
+      "image": "/images/exams/algebra-1/june-2019/q16.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "When written in factored form, 4w2 \u0002 11w \u0002 3 is equivalent to",
+      "choices": [
+        "(2w \u0003 1)(2w \u0002 3)",
+        "(2w \u0002 1)(2w \u0003 3)",
+        "(4w \u0003 1)(w \u0002 3)",
+        "(4w \u0002 1)(w \u0003 3)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which ordered pair does not represent a point on the graph of y \u0004 3x2 \u0002 x \u0003 7?",
+      "choices": [
+        "(\u00021.5, 15.25)",
+        "(0.5, 7.25)",
+        "(1.25, 10.25)",
+        "(2.5, 23.25)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Given the following three sequences: I. 2, 4, 6, 8, 10... II. 2, 4, 8, 16, 32... III. a, a \u0003 2, a \u0003 4, a \u0003 6, a \u0003 8... Which ones are arithmetic sequences?",
+      "choices": [
+        "I and II, only",
+        "I and III, only",
+        "II and III, only",
+        "I, II,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A grocery store sells packages of beef. The function C(w) represents the cost, in dollars, of a package of beef weighing w pounds. The most appropriate domain for this function would be",
+      "choices": [
+        "integers",
+        "rational numbers",
+        "positive integers",
+        "positive rational numbers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The roots of x2 \u0002 5x \u0002 4 \u0004 0 are",
+      "choices": [
+        "1 and 4",
+        "5 41 2",
+        "\u20131 and \u20134",
+        "5 41 2 \u0002"
+      ],
+      "image": "/images/exams/algebra-1/june-2019/q21.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The following table shows the heights, in inches, of the players on the opening-night roster of the 2015-2016 New York Knicks. 84 80 87 75 77 79 80 74 76 80 80 82 82 The population standard deviation of these data is approximately",
+      "choices": [
+        "3.5",
+        "13",
+        "79.7",
+        "80"
+      ],
+      "image": "/images/exams/algebra-1/june-2019/q22.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A population of bacteria can be modeled by the function f(t) \u0004 1000(0.98)t, where t represents the time since the population started decaying, and f(t) represents the population of the remaining bacteria at time t. What is the rate of decay for this population?",
+      "choices": [
+        "98%",
+        "2%",
+        "0.98%",
+        "0.02%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Bamboo plants can grow 91 centimeters per day. What is the approximate growth of the plant, in inches per hour?",
+      "choices": [
+        "1.49",
+        "3.79",
+        "9.63",
+        "35.83 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Solve algebraically for x: x x x 2 3 ( 12) 2 3 5 4 2 \u0002 \u0003 \u0003 \u0004\u0002 \u0003",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "If C \u0004 G \u0002 3F, find the trinomial that represents C when F \u0004 2x2 \u0003 6x \u0002 5 and G \u0004 3x2 \u0003 4",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Graph the following piecewise function on the set of axes below. f(x) \u0004 { x x x x | |, 5 2 2 10, 2 6 \u0002 \u0006 \u0005 \u0002 \u0003 \u0006 \u0006 f(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2019/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Solve 5x2 \u0004 180",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "A blizzard occurred on the East Coast during January, 2016. Snowfall totals from the storm were recorded for Washington, D.C. and are shown in the table below. Washington, D.C. Time Snow (inches) 1 a.m. 1 3 a.m. 5 6 a.m. 11 12 noon 33 3 p.m. 36 Which interval, 1 a.m. to 12 noon or 6 a.m. to 3 p.m., has the greatest rate of snowfall, in inches per hour?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2019/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The formula for the volume of a cone is V \u0004 1 3 r 2h. Solve the equation for h in terms of V, r,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Given the recursive formula: a1 \u0004 3 an \u0004 2(an \u0002 1 \u0003 1) State the values of a2, a3, and a4",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Determine and state the vertex of f(x) \u0004 x2 \u0002 2x \u0002 8 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "A school plans to have a fundraiser before basketball games selling shirts with their school logo. The school contacted two companies to find out how much it would cost to have the shirts made. Company A charges a $50 set-up fee and $5 per shirt. Company B charges a $25 set-up fee and $6 per shirt. Write an equation for Company A that could be used to determine the total cost, A, when x shirts are ordered. Write a second equation for Company B that could be used to determine the total cost, B,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Graph y \u0004 f(x) and y \u0004 g(x) on the set of axes below. f(x) \u0004 2x2 \u0002 8x \u0003 3 g(x) \u0004 \u00022x \u0003 3 y x Determine and state all values of x for which f(x) \u0004 g(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2019/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "The table below shows the number of hours ten students spent studying for a test and their scores. Hours Spent Studying (x) 0 1 2 4 4 4 6 6 7 8 Test Scores (y) 35 40 46 65 67 70 82 88 82 95 Write the linear regression equation for this data set. Round all values to the nearest hundredth. State the correlation coefficient of this line,",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2019/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2019/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "When visiting friends in a state that has no sales tax, two families went to a fast-food restaurant for lunch. The Browns bought 4 cheeseburgers and 3 medium fries for $16.53. The Greens bought 5 cheeseburgers and 4 medium fries for $21.11. Using c for the cost of a cheeseburger and f for the cost of medium fries, write a system of equations that models this situation. The Greens said that since their bill was $21.11, each cheeseburger must cost $2.49 and each order of medium fries must cost $2.87 each. Are they correct? Justify your answer. Using your equations, algebraically determine both the cost of one cheeseburger and the cost of one order of medium fries. Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here ALGEBRA I ALGEBRA I Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

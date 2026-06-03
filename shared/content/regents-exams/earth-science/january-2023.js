@@ -112,8 +112,7 @@ export default {
       topic: 'Maps',
       correct: 2,
       explanation: 'Portland, Oregon (Pacific time zone) is 3 hours behind Cleveland, Ohio (Eastern time zone); 9 p.m. Eastern − 3 hours = 6 p.m. Pacific.',
-      diveDeep: 'US time zones from east to west: Eastern, Central (−1 hr), Mountain (−2 hr), Pacific (−3 hr). Cleveland = Eastern; Portland = Pacific → 3-hour difference. Moving west = earlier time. 9 p.m. − 3 hours = 6 p.m. The time zone boundaries follow approximately 75°W (Eastern), 90°W (Central), 105°W (Mountain), and 120°W (Pacific), each 15° apart representing 1 hour. Knowing that the continental US spans 4 time zones (Eastern through Pacific) is essential for these questions. When traveling west, clocks go back; traveling east, clocks go forward.',
-    },
+      diveDeep: 'US time zones from east to west: Eastern, Central (−1 hr), Mountain (−2 hr), Pacific (−3 hr). Cleveland = Eastern; Portland = Pacific → 3-hour difference. Moving west = earlier time. 9 p.m. − 3 hours = 6 p.m. The time zone boundaries follow approximately 75°W (Eastern), 90°W (Central), 105°W (Mountain), and 120°W (Pacific), each 15° apart representing 1 hour. Knowing that the continental US spans 4 time zones (Eastern through Pacific) is essential for these questions. When traveling west, clocks go back; traveling east, clocks go forward.', image: '/images/exams/es-january-2023/q12.png' },
     {
       number: 13, part: 'A',
       text: 'The diagrams below represent the constellations visible above the southern horizon at midnight from the same New York State location on two different dates: Orion/Canis Minor/Monoceros/etc. in January; Aquila/Sagittarius/Scorpius/etc. in July. Why are different constellations seen on these two dates at midnight?',
@@ -256,8 +255,7 @@ export default {
       topic: 'Maps',
       correct: 1,
       explanation: 'Closely spaced contour lines on the eastern slope indicate a steep gradient (large elevation change over short distance), while widely spaced contour lines on the western slope indicate a gentle gradient.',
-      diveDeep: 'Reading topographic maps: contour line spacing directly indicates slope steepness. Closely spaced contours = steep slope = high gradient; widely spaced contours = gentle slope = low gradient. On a hillside with asymmetric slopes (like many glacially sculpted hills), the steeper face is apparent from the closer contour spacing. Gradient = elevation change ÷ horizontal distance. For a hill: if western side has contour lines 100 m apart and eastern side has them 20 m apart (same elevation change, shorter distance), the eastern slope is 5× steeper. This principle applies to any field measured on a map (temperature, pressure, etc.).',
-    },
+      diveDeep: 'Reading topographic maps: contour line spacing directly indicates slope steepness. Closely spaced contours = steep slope = high gradient; widely spaced contours = gentle slope = low gradient. On a hillside with asymmetric slopes (like many glacially sculpted hills), the steeper face is apparent from the closer contour spacing. Gradient = elevation change ÷ horizontal distance. For a hill: if western side has contour lines 100 m apart and eastern side has them 20 m apart (same elevation change, shorter distance), the eastern slope is 5× steeper. This principle applies to any field measured on a map (temperature, pressure, etc.).', image: '/images/exams/es-january-2023/q27.png' },
     {
       number: 28, part: 'A',
       text: 'The diagram shows a coastal area with wave action. Which feature forms where sand accumulates in a long, narrow strip extending from a headland or point of land across the mouth of a bay?',
@@ -265,8 +263,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'A sand spit is a long, narrow landform of sand deposited by longshore drift extending from a headland across the mouth of a bay, attached to land at one end.',
-      diveDeep: 'Coastal depositional landforms: Barrier island = offshore island parallel to coast; Sand spit = attached to land, extending into water across a bay; Tombolo = sand bar connecting an island to mainland; Bay-mouth bar = sand bar closing a bay completely. Formation: longshore drift (littoral drift) carries sand parallel to shore. When the coastline curves (at a headland), the longshore current loses energy and deposits sand, building a spit. Over time, spits can curve (hooks) and eventually close off a bay. Deltas form at river mouths (freshwater into sea). Sea stacks are erosional features (pillars of resistant rock isolated by wave erosion).',
-    },
+      diveDeep: 'Coastal depositional landforms: Barrier island = offshore island parallel to coast; Sand spit = attached to land, extending into water across a bay; Tombolo = sand bar connecting an island to mainland; Bay-mouth bar = sand bar closing a bay completely. Formation: longshore drift (littoral drift) carries sand parallel to shore. When the coastline curves (at a headland), the longshore current loses energy and deposits sand, building a spit. Over time, spits can curve (hooks) and eventually close off a bay. Deltas form at river mouths (freshwater into sea). Sea stacks are erosional features (pillars of resistant rock isolated by wave erosion).', image: '/images/exams/es-january-2023/q28.png' },
     {
       number: 29, part: 'A',
       text: 'A cross section shows a sequence of rock layers. From bottom to top: granite intrusion, sandstone, shale (with trilobite fossils), limestone (with coral fossils), and unconformity (erosion surface), then conglomerate at top. The rock layers have not been overturned. Which sequence of events is correct?',
@@ -279,8 +276,7 @@ export default {
       topic: 'Geology',
       correct: 0,
       explanation: 'Superposition (lower = older) and crosscutting relationships (intrusion = younger than rocks it cuts) together establish the correct sequence: granite intruded first, then sedimentary layers were deposited in order from oldest (sandstone) to newest (conglomerate above the unconformity).',
-      diveDeep: 'Combining principles: (1) Granite intruded into pre-existing rocks (crosscutting) — but sandstone lies ABOVE granite, meaning sandstone was deposited AFTER intrusion; (2) Shale above sandstone (superposition, shale younger); (3) Limestone above shale (younger still); (4) Unconformity represents erosion gap; (5) Conglomerate deposited last (youngest). The sequence is: granite intrudes pre-existing basement → sandstone deposited → shale deposited → limestone deposited → uplift/erosion (unconformity) → conglomerate deposited. This type of multi-principle problem is common on Regents Part B and C.',
-    },
+      diveDeep: 'Combining principles: (1) Granite intruded into pre-existing rocks (crosscutting) — but sandstone lies ABOVE granite, meaning sandstone was deposited AFTER intrusion; (2) Shale above sandstone (superposition, shale younger); (3) Limestone above shale (younger still); (4) Unconformity represents erosion gap; (5) Conglomerate deposited last (youngest). The sequence is: granite intrudes pre-existing basement → sandstone deposited → shale deposited → limestone deposited → uplift/erosion (unconformity) → conglomerate deposited. This type of multi-principle problem is common on Regents Part B and C.', image: '/images/exams/es-january-2023/q29.png' },
     {
       number: 30, part: 'A',
       text: 'Which rock sample provides direct evidence that Earth\'s temperature was once much higher than it is today in a specific region?',
@@ -293,8 +289,7 @@ export default {
       topic: 'Geology',
       correct: 3,
       explanation: 'Obsidian is volcanic glass formed when lava cools so rapidly that crystals cannot form; its presence indicates extremely high temperatures from volcanic activity at that location.',
-      diveDeep: 'Obsidian provides direct evidence of past volcanic activity (high temperatures). Granite has large crystals indicating SLOW cooling deep underground (not necessarily surface high temperatures). Shale with graded bedding indicates underwater deposition from turbidity currents. Limestone with coral fossils indicates warm, shallow marine environment (not extreme temperatures). Obsidian\'s glassy texture (no crystals) is diagnostic: extremely rapid cooling = no time for crystal growth = volcanic glass. This is the only choice directly indicating extremely high-temperature volcanic conditions at the surface.',
-    },
+      diveDeep: 'Obsidian provides direct evidence of past volcanic activity (high temperatures). Granite has large crystals indicating SLOW cooling deep underground (not necessarily surface high temperatures). Shale with graded bedding indicates underwater deposition from turbidity currents. Limestone with coral fossils indicates warm, shallow marine environment (not extreme temperatures). Obsidian\'s glassy texture (no crystals) is diagnostic: extremely rapid cooling = no time for crystal growth = volcanic glass. This is the only choice directly indicating extremely high-temperature volcanic conditions at the surface.', image: '/images/exams/es-january-2023/q30.png' },
     {
       number: 31, part: 'A',
       text: 'A diagram shows a segment of mid-ocean ridge with seafloor spreading occurring. On both sides of the ridge, alternating bands of normal and reversed magnetic polarity are recorded in the basaltic rock. Which statement best explains why the magnetic polarity bands are symmetrical on both sides of the ridge?',
@@ -307,8 +302,7 @@ export default {
       topic: 'Plate Tectonics',
       correct: 1,
       explanation: 'As magma erupts at the ridge and solidifies into new basalt, the rock records the current magnetic field orientation; since spreading is symmetric (equal rates on both sides), mirror-image polarity bands form.',
-      diveDeep: 'Seafloor spreading creates magnetic stripes symmetrically because: new magma erupts at the ridge center, splits, and moves equally in both directions. Each batch of new rock records Earth\'s magnetic field at the time of cooling (normal or reversed). Since polarity reversals occur globally and simultaneously, and spreading is symmetric, the same pattern appears as a mirror image on both sides. This magnetic striping was discovered in the early 1960s and became one of the most compelling proofs of seafloor spreading and plate tectonics. The "tape recorder" analogy: the seafloor records Earth\'s magnetic history as it spreads.',
-    },
+      diveDeep: 'Seafloor spreading creates magnetic stripes symmetrically because: new magma erupts at the ridge center, splits, and moves equally in both directions. Each batch of new rock records Earth\'s magnetic field at the time of cooling (normal or reversed). Since polarity reversals occur globally and simultaneously, and spreading is symmetric, the same pattern appears as a mirror image on both sides. This magnetic striping was discovered in the early 1960s and became one of the most compelling proofs of seafloor spreading and plate tectonics. The "tape recorder" analogy: the seafloor records Earth\'s magnetic history as it spreads.', image: '/images/exams/es-january-2023/q31.png' },
     {
       number: 32, part: 'A',
       text: 'Which statement correctly describes the composition and characteristics of the asthenosphere?',
@@ -321,8 +315,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'The asthenosphere is a zone of partially molten, plastic rock in the upper mantle (approximately 100–350 km depth) that flows slowly over geological time, enabling plate tectonic movement.',
-      diveDeep: 'Earth\'s interior layers relevant to tectonics: Lithosphere = rigid outer layer (crust + uppermost mantle), divided into tectonic plates. Asthenosphere = zone of plastic (partially molten) rock in the upper mantle, allows lithospheric plates to "float" and move. Mesosphere (lower mantle) = solid but weaker than lithosphere under long-term stress. Outer core = liquid iron-nickel. Inner core = solid iron-nickel. The asthenosphere\'s plastic behavior is critical for plate tectonics: convection currents in the mantle (including asthenosphere) drive plate movement. The Reference Table shows these layers on the Earth interior diagram.',
-    },
+      diveDeep: 'Earth\'s interior layers relevant to tectonics: Lithosphere = rigid outer layer (crust + uppermost mantle), divided into tectonic plates. Asthenosphere = zone of plastic (partially molten) rock in the upper mantle, allows lithospheric plates to "float" and move. Mesosphere (lower mantle) = solid but weaker than lithosphere under long-term stress. Outer core = liquid iron-nickel. Inner core = solid iron-nickel. The asthenosphere\'s plastic behavior is critical for plate tectonics: convection currents in the mantle (including asthenosphere) drive plate movement. The Reference Table shows these layers on the Earth interior diagram.', image: '/images/exams/es-january-2023/q32.png' },
     {
       number: 33, part: 'A',
       text: 'Which type of metamorphism and resulting rock texture is produced over a wide area during major mountain-building events?',
@@ -335,8 +328,7 @@ export default {
       topic: 'Geology',
       correct: 3,
       explanation: 'Regional metamorphism occurs over large areas during tectonic collisions, subjecting rocks to directed pressure that causes minerals to align perpendicular to the stress, producing foliated textures (slate, schist, gneiss).',
-      diveDeep: 'Metamorphism types: Regional = large areas, directed pressure + heat from tectonic burial, produces foliated rocks (minerals align in bands/layers): slate (low grade), phyllite → schist → gneiss (high grade). Contact = local (aureole around igneous intrusion), high temperature + low pressure, produces non-foliated rocks: hornfels, marble, quartzite. The key: directed pressure (regional) = foliation; heat without directed pressure (contact) = no foliation. Foliation forms because minerals (especially sheet silicates like mica) align perpendicular to the maximum stress direction. Major mountain belts (Himalayas, Alps, Appalachians) produce extensive regional metamorphic belts.',
-    },
+      diveDeep: 'Metamorphism types: Regional = large areas, directed pressure + heat from tectonic burial, produces foliated rocks (minerals align in bands/layers): slate (low grade), phyllite → schist → gneiss (high grade). Contact = local (aureole around igneous intrusion), high temperature + low pressure, produces non-foliated rocks: hornfels, marble, quartzite. The key: directed pressure (regional) = foliation; heat without directed pressure (contact) = no foliation. Foliation forms because minerals (especially sheet silicates like mica) align perpendicular to the maximum stress direction. Major mountain belts (Himalayas, Alps, Appalachians) produce extensive regional metamorphic belts.', image: '/images/exams/es-january-2023/q33.png' },
     {
       number: 34, part: 'A',
       text: 'The table below lists properties of four different soil samples: Sample A (fine clay, high water retention), Sample B (coarse sand, rapid drainage), Sample C (mixed loam, moderate retention), Sample D (gravel, very rapid drainage). Which sample would support the most plant growth due to best balance of water retention and drainage?',
@@ -353,8 +345,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'The principle of superposition states that in an undisturbed sequence of sedimentary rock layers, the oldest layers are at the bottom and progressively younger layers are above.',
-      diveDeep: 'Superposition is Nicolas Steno\'s principle from 1669: "In an undisturbed sequence, the oldest layer is at the bottom, the youngest at the top." This is because each new layer of sediment is deposited ON TOP of existing layers. The key qualifier: "undisturbed" — tectonic forces can overturn layers, reverse the order. When layers are overturned, geologists look for "way-up indicators" (graded bedding, ripple marks, mud cracks) to determine original orientation. The Grand Canyon walls are a classic example of superposition, with Precambrian rocks at the bottom and Permian rocks at the rim.',
-    },
+      diveDeep: 'Superposition is Nicolas Steno\'s principle from 1669: "In an undisturbed sequence, the oldest layer is at the bottom, the youngest at the top." This is because each new layer of sediment is deposited ON TOP of existing layers. The key qualifier: "undisturbed" — tectonic forces can overturn layers, reverse the order. When layers are overturned, geologists look for "way-up indicators" (graded bedding, ripple marks, mud cracks) to determine original orientation. The Grand Canyon walls are a classic example of superposition, with Precambrian rocks at the bottom and Permian rocks at the rim.', image: '/images/exams/es-january-2023/q35.png' },
     {
       number: 36, part: 'B-1',
       context: 'A weather map of the eastern United States shows a low-pressure system (L) centered over Ohio with isobars at 1000, 1004, 1008, and 1012 mb. A cold front extends southwest and a warm front extends northeast. Station models at four cities (W, X, Y, Z) show different weather conditions.',
@@ -363,8 +354,7 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       explanation: 'In the Northern Hemisphere, winds around a low-pressure center flow counterclockwise and inward, as the Coriolis effect deflects air to the right while pressure gradient force drives it toward the low.',
-      diveDeep: 'NH cyclone (low pressure): counterclockwise + inward. NH anticyclone (high pressure): clockwise + outward. SH: patterns reversed (CCW = high, CW = low). The Coriolis effect deflects moving air to the right in the NH — air flowing toward a low from the north is deflected east (producing counterclockwise rotation around the low). Air flowing from the south toward the low is deflected west (still CCW). Knowing these patterns is essential for reading weather maps and identifying approaching storm systems. Low pressure = convergence + rising air = clouds + precipitation. High pressure = divergence + sinking air = clear skies.',
-    },
+      diveDeep: 'NH cyclone (low pressure): counterclockwise + inward. NH anticyclone (high pressure): clockwise + outward. SH: patterns reversed (CCW = high, CW = low). The Coriolis effect deflects moving air to the right in the NH — air flowing toward a low from the north is deflected east (producing counterclockwise rotation around the low). Air flowing from the south toward the low is deflected west (still CCW). Knowing these patterns is essential for reading weather maps and identifying approaching storm systems. Low pressure = convergence + rising air = clouds + precipitation. High pressure = divergence + sinking air = clear skies.', image: '/images/exams/es-january-2023/context_36_40.png' },
     {
       number: 37, part: 'B-1',
       context: 'A weather map of the eastern United States shows a low-pressure system (L) centered over Ohio with fronts extending from it. Clouds and precipitation are reported at city X just ahead of the cold front.',
@@ -378,8 +368,7 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       explanation: 'Just ahead of a cold front, warm moist air is forced sharply upward by the advancing wedge of cold air, producing tall cumulonimbus clouds, heavy precipitation, and thunderstorms with warm, humid conditions.',
-      diveDeep: 'Cold front weather sequence: AHEAD of front = warm, humid (mT air), falling pressure, SW winds, tall cumulonimbus clouds, heavy brief precipitation, possible severe storms. AT the front = rapid temperature drop, wind shift from SW to NW, gusty winds, intense precipitation. BEHIND front = cool/cold temperatures, rising pressure, NW winds, clearing skies (possibly cumulus clouds). Warm front sequence (ahead = cirrostratus/altostratus/nimbostratus = steady widespread rain; at front = clearing; behind = warm moist). Cold fronts produce more severe weather due to steeper slope forcing more rapid uplift.',
-    },
+      diveDeep: 'Cold front weather sequence: AHEAD of front = warm, humid (mT air), falling pressure, SW winds, tall cumulonimbus clouds, heavy brief precipitation, possible severe storms. AT the front = rapid temperature drop, wind shift from SW to NW, gusty winds, intense precipitation. BEHIND front = cool/cold temperatures, rising pressure, NW winds, clearing skies (possibly cumulus clouds). Warm front sequence (ahead = cirrostratus/altostratus/nimbostratus = steady widespread rain; at front = clearing; behind = warm moist). Cold fronts produce more severe weather due to steeper slope forcing more rapid uplift.', image: '/images/exams/es-january-2023/context_36_40.png' },
     {
       number: 38, part: 'B-1',
       context: 'A cross section shows rock layers at two locations 50 km apart. Location 1 (left): granite below with three sedimentary layers labeled I (Devonian), II (Silurian), III (Ordovician) from top to bottom. Location 2 (right): two sedimentary layers labeled A (Devonian) and B (unknown age), and a volcanic ash layer between them.',
@@ -388,8 +377,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'Layer A at location 2 correlates with layer I (Devonian) at location 1 by relative position; therefore layer B below layer A must be approximately Silurian age, correlating with layer II.',
-      diveDeep: 'Rock correlation procedure: (1) Match by similar age indicators — index fossils, volcanic ash layers, distinctive rock types; (2) Use superposition — if layer A at location 2 correlates with layer I (Devonian) at location 1, then layer B (below A) must be older than Devonian → Silurian age, matching layer II. This is the same logic used in biostratigraphy. Volcanic ash layers (as in this question) are particularly useful because they represent a geologically instantaneous event that can be correlated across great distances. This type of correlation question requires careful attention to the stratigraphic position.',
-    },
+      diveDeep: 'Rock correlation procedure: (1) Match by similar age indicators — index fossils, volcanic ash layers, distinctive rock types; (2) Use superposition — if layer A at location 2 correlates with layer I (Devonian) at location 1, then layer B (below A) must be older than Devonian → Silurian age, matching layer II. This is the same logic used in biostratigraphy. Volcanic ash layers (as in this question) are particularly useful because they represent a geologically instantaneous event that can be correlated across great distances. This type of correlation question requires careful attention to the stratigraphic position.', image: '/images/exams/es-january-2023/context_36_40.png' },
     {
       number: 39, part: 'B-1',
       context: 'A graph shows Earth\'s average global temperature (as a deviation from a 20th-century average) over the past 150 years (1870–2020). The graph shows fluctuations but with a clear upward trend, especially after 1980. Average temperatures have risen about 1.2°C above the 20th-century average by 2020.',
@@ -403,8 +391,7 @@ export default {
       topic: 'Climate',
       correct: 1,
       explanation: 'The burning of fossil fuels (coal, oil, natural gas) since the Industrial Revolution has dramatically increased atmospheric CO₂ and other greenhouse gases, which trap additional heat and drive the observed global warming trend.',
-      diveDeep: 'The global temperature rise since ~1850 (Industrial Revolution) correlates strongly with rising atmospheric CO₂ from fossil fuel combustion. CO₂ concentration has increased from ~280 ppm (pre-industrial) to over 420 ppm (2023). The greenhouse effect: CO₂ and other gases absorb and re-emit Earth\'s outgoing infrared radiation, trapping additional heat. Volcanic activity has not increased systematically — large eruptions actually cause short-term cooling. Ozone depletion allows more UV in but doesn\'t cause global warming (it\'s a different wavelength issue). Urban heat islands are local, not global. The scientific consensus attributes recent warming primarily to human greenhouse gas emissions.',
-    },
+      diveDeep: 'The global temperature rise since ~1850 (Industrial Revolution) correlates strongly with rising atmospheric CO₂ from fossil fuel combustion. CO₂ concentration has increased from ~280 ppm (pre-industrial) to over 420 ppm (2023). The greenhouse effect: CO₂ and other gases absorb and re-emit Earth\'s outgoing infrared radiation, trapping additional heat. Volcanic activity has not increased systematically — large eruptions actually cause short-term cooling. Ozone depletion allows more UV in but doesn\'t cause global warming (it\'s a different wavelength issue). Urban heat islands are local, not global. The scientific consensus attributes recent warming primarily to human greenhouse gas emissions.', image: '/images/exams/es-january-2023/context_36_40.png' },
     {
       number: 40, part: 'B-1',
       context: 'A map of New York State shows the distribution of different landscape regions. Points A through D are located in: A = Erie-Ontario Lowlands; B = Adirondack Mountains; C = Catskill Mountains (plateau); D = Atlantic Coastal Lowlands.',
@@ -413,8 +400,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'The Adirondack Mountains contain Precambrian metamorphic and igneous rocks approximately 1 billion years old, formed during the Grenville Orogeny — the oldest exposed bedrock in New York State.',
-      diveDeep: 'NY State bedrock age pattern: Adirondacks (Precambrian, ~1 Ga, oldest) → St. Lawrence Lowlands and Hudson Lowlands (Cambrian-Ordovician) → Mohawk Valley (Ordovician-Silurian) → Catskills and Allegheny Plateau (Devonian) → Newark Lowlands near NYC (Triassic-Jurassic, some of youngest). Atlantic Coastal Lowlands consist of recent sediments. Erie-Ontario Lowlands have Silurian-Devonian bedrock. The Grenville Orogeny produced the Adirondack basement approximately 1.1–1.0 billion years ago — significantly older than anything in the surrounding areas. This NY State geologic map pattern is heavily tested.',
-    },
+      diveDeep: 'NY State bedrock age pattern: Adirondacks (Precambrian, ~1 Ga, oldest) → St. Lawrence Lowlands and Hudson Lowlands (Cambrian-Ordovician) → Mohawk Valley (Ordovician-Silurian) → Catskills and Allegheny Plateau (Devonian) → Newark Lowlands near NYC (Triassic-Jurassic, some of youngest). Atlantic Coastal Lowlands consist of recent sediments. Erie-Ontario Lowlands have Silurian-Devonian bedrock. The Grenville Orogeny produced the Adirondack basement approximately 1.1–1.0 billion years ago — significantly older than anything in the surrounding areas. This NY State geologic map pattern is heavily tested.', image: '/images/exams/es-january-2023/context_36_40.png' },
     {
       number: 41, part: 'B-1',
       context: 'A diagram shows the apparent path of the Sun across the sky on June 21 as seen from New York State (approximately 43°N latitude). The Sun rises in the northeast, reaches maximum altitude at solar noon, and sets in the northwest.',
@@ -423,8 +409,7 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       explanation: 'Solar noon altitude on June 21 = 90° − latitude + 23.5° = 90° − 43° + 23.5° = 70.5°, because the Sun\'s direct rays are at the Tropic of Cancer (23.5°N) on June 21.',
-      diveDeep: 'Solar noon altitude formula: On June 21, direct rays are at 23.5°N. For an observer at latitude L in the NH: solar noon altitude = 90° − (L − 23.5°) = 90° − L + 23.5°. At 43°N: 90° − 43° + 23.5° = 70.5°. On December 21 (direct rays at 23.5°S): altitude = 90° − (L + 23.5°) = 90° − 43° − 23.5° = 23.5°. At equinoxes: altitude = 90° − L = 47°. The Sun\'s noon altitude is HIGHEST in summer (longest days, most intense insolation) and LOWEST in winter. These calculations require knowing the formula and the date of direct solar rays (Tropics).',
-    },
+      diveDeep: 'Solar noon altitude formula: On June 21, direct rays are at 23.5°N. For an observer at latitude L in the NH: solar noon altitude = 90° − (L − 23.5°) = 90° − L + 23.5°. At 43°N: 90° − 43° + 23.5° = 70.5°. On December 21 (direct rays at 23.5°S): altitude = 90° − (L + 23.5°) = 90° − 43° − 23.5° = 23.5°. At equinoxes: altitude = 90° − L = 47°. The Sun\'s noon altitude is HIGHEST in summer (longest days, most intense insolation) and LOWEST in winter. These calculations require knowing the formula and the date of direct solar rays (Tropics).', image: '/images/exams/es-january-2023/context_41_44.png' },
     {
       number: 42, part: 'B-1',
       context: 'A table shows data on four radioactive isotopes used for geologic dating: Carbon-14 (half-life 5,730 years), Potassium-40 (half-life 1.3 × 10⁹ years), Uranium-235 (half-life 7.1 × 10⁸ years), Uranium-238 (half-life 4.5 × 10⁹ years).',
@@ -433,8 +418,7 @@ export default {
       topic: 'Geologic Time',
       correct: 0,
       explanation: 'Carbon-14 has a half-life of 5,730 years, making it ideal for dating organic material up to about 50,000 years old; 8,000 years is well within its useful range.',
-      diveDeep: 'Choosing the right radiometric isotope: C-14 (5,730 yr half-life) → useful range ~0–50,000 years (for organic material containing carbon). K-40 (1.3 × 10⁹ yr) → useful range ~100,000 to billions of years. U-238 (4.5 × 10⁹ yr) → useful for very ancient rocks (billions of years). U-235 (7.1 × 10⁸ yr) → ~tens of millions to billions of years. Rule: choose the isotope with a half-life comparable to the age being measured — at least a few half-lives should have elapsed for accuracy, but not so many that almost none remains. For 8,000 years: C-14 is perfect (about 1.4 half-lives elapsed, ~37% remains).',
-    },
+      diveDeep: 'Choosing the right radiometric isotope: C-14 (5,730 yr half-life) → useful range ~0–50,000 years (for organic material containing carbon). K-40 (1.3 × 10⁹ yr) → useful range ~100,000 to billions of years. U-238 (4.5 × 10⁹ yr) → useful for very ancient rocks (billions of years). U-235 (7.1 × 10⁸ yr) → ~tens of millions to billions of years. Rule: choose the isotope with a half-life comparable to the age being measured — at least a few half-lives should have elapsed for accuracy, but not so many that almost none remains. For 8,000 years: C-14 is perfect (about 1.4 half-lives elapsed, ~37% remains).', image: '/images/exams/es-january-2023/context_41_44.png' },
     {
       number: 43, part: 'B-1',
       context: 'A cross section of Earth\'s crust shows a trench on the left, an oceanic plate subducting under a continental plate, a zone of partial melting in the mantle wedge, and a chain of volcanoes on the continental side.',
@@ -443,8 +427,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'Subduction zone volcanoes on continental margins tend to produce andesite and rhyolite (intermediate to felsic compositions) because the subducting oceanic plate\'s partial melt mixes with continental crustal material, creating more silica-rich magma.',
-      diveDeep: 'Volcanic rock composition varies by tectonic setting: Mid-ocean ridges = basalt (mafic, low silica, low viscosity, effusive eruptions). Subduction zones on oceanic crust = basalt-andesite. Subduction zones on continental crust = andesite to rhyolite (intermediate-felsic, high silica, high viscosity, explosive eruptions — like Cascade volcanoes, Andes). Hot spots = basalt (Hawaii) to rhyolite (Yellowstone). Granite forms from slow cooling of felsic magma underground (intrusive). The more continental crust involved, the more silica-rich the magma, and the more explosive the eruption. Andesite is named after the Andes Mountains.',
-    },
+      diveDeep: 'Volcanic rock composition varies by tectonic setting: Mid-ocean ridges = basalt (mafic, low silica, low viscosity, effusive eruptions). Subduction zones on oceanic crust = basalt-andesite. Subduction zones on continental crust = andesite to rhyolite (intermediate-felsic, high silica, high viscosity, explosive eruptions — like Cascade volcanoes, Andes). Hot spots = basalt (Hawaii) to rhyolite (Yellowstone). Granite forms from slow cooling of felsic magma underground (intrusive). The more continental crust involved, the more silica-rich the magma, and the more explosive the eruption. Andesite is named after the Andes Mountains.', image: '/images/exams/es-january-2023/context_41_44.png' },
     {
       number: 44, part: 'B-1',
       context: 'A diagram shows the water cycle over a forested watershed in New York State, with annual precipitation of 100 cm. Of this, approximately 40% evapotranspires, 35% infiltrates to groundwater, and 25% becomes surface runoff.',
@@ -458,8 +441,7 @@ export default {
       topic: 'Water Cycle',
       correct: 2,
       explanation: 'Deforestation removes vegetation that promotes infiltration and transpiration; without roots and leaf litter, soil becomes compacted, infiltration drops, and surface runoff increases significantly.',
-      diveDeep: 'Forest vs. cleared land water budgets: Forests intercept rainfall (reducing impact erosion), promote infiltration (root channels, organic matter), maintain high evapotranspiration (40–50% of precipitation), produce low runoff. Cleared/paved land: no interception, compacted/impermeable soil, low infiltration, high runoff. Real-world consequence: deforestation in tropical areas (Amazon) causes increased flooding, decreased cloud formation (less transpiration), and reduced groundwater recharge. Urban areas have the most extreme version: up to 80–90% of precipitation becomes runoff compared to 5–15% in forests. This is why green infrastructure (rain gardens, permeable pavement) is being promoted in urban planning.',
-    },
+      diveDeep: 'Forest vs. cleared land water budgets: Forests intercept rainfall (reducing impact erosion), promote infiltration (root channels, organic matter), maintain high evapotranspiration (40–50% of precipitation), produce low runoff. Cleared/paved land: no interception, compacted/impermeable soil, low infiltration, high runoff. Real-world consequence: deforestation in tropical areas (Amazon) causes increased flooding, decreased cloud formation (less transpiration), and reduced groundwater recharge. Urban areas have the most extreme version: up to 80–90% of precipitation becomes runoff compared to 5–15% in forests. This is why green infrastructure (rain gardens, permeable pavement) is being promoted in urban planning.', image: '/images/exams/es-january-2023/context_41_44.png' },
     {
       number: 45, part: 'B-1',
       context: 'A topographic map shows an area with a river, its tributary, and a reservoir. Contour interval is 50 feet. The dam creating the reservoir is at an elevation of 800 feet. A town is located at 600 feet elevation downstream. The highest point on the map is 2100 feet.',
@@ -473,8 +455,7 @@ export default {
       topic: 'Maps',
       correct: 2,
       explanation: 'Flood water flows downhill to areas of lower elevation; areas below 800 feet elevation downstream of the dam are at immediate risk if the dam fails and releases stored water.',
-      diveDeep: 'Topographic map reasoning: water always flows downhill (toward lower elevations). A dam failure releases water that flows downstream (in the direction of decreasing elevation). Areas at elevations below the dam\'s 800-foot water level are at risk, while areas above 800 feet are not (water flows away from them, not toward them). The town at 600 feet downstream is directly at risk. This type of applied topographic reasoning appears frequently on the Regents exam. Understanding elevation, slope direction, and water flow on topographic maps is a core skill tested in Part B and C questions.',
-    },
+      diveDeep: 'Topographic map reasoning: water always flows downhill (toward lower elevations). A dam failure releases water that flows downstream (in the direction of decreasing elevation). Areas at elevations below the dam\'s 800-foot water level are at risk, while areas above 800 feet are not (water flows away from them, not toward them). The town at 600 feet downstream is directly at risk. This type of applied topographic reasoning appears frequently on the Regents exam. Understanding elevation, slope direction, and water flow on topographic maps is a core skill tested in Part B and C questions.', image: '/images/exams/es-january-2023/context_45_47.png' },
     {
       number: 46, part: 'B-1',
       context: 'A diagram shows the solar system with planets labeled. A table shows planet data including: diameter (km), distance from Sun (AU), and period of revolution (Earth years).',
@@ -483,8 +464,7 @@ export default {
       topic: 'Astronomy',
       correct: 1,
       explanation: 'Jupiter has an orbital period of approximately 11.9 Earth years, which is most nearly equal to 12 Earth years among the listed planets.',
-      diveDeep: 'Planetary orbital periods (Reference Table): Mars = 1.88 years; Jupiter = 11.9 years ≈ 12 years; Saturn = 29.5 years; Uranus = 84 years. Jupiter (11.9 years) is the closest to 12 years. This is a straight Reference Table lookup question. Kepler\'s Third Law (P² ∝ a³) predicts longer periods for more distant planets. Jupiter, being approximately 5.2 AU from the Sun, has a period of ~12 years. Knowing the order-of-magnitude periods for the outer planets (Jupiter ~12, Saturn ~30, Uranus ~84, Neptune ~165 years) is useful for Regents questions.',
-    },
+      diveDeep: 'Planetary orbital periods (Reference Table): Mars = 1.88 years; Jupiter = 11.9 years ≈ 12 years; Saturn = 29.5 years; Uranus = 84 years. Jupiter (11.9 years) is the closest to 12 years. This is a straight Reference Table lookup question. Kepler\'s Third Law (P² ∝ a³) predicts longer periods for more distant planets. Jupiter, being approximately 5.2 AU from the Sun, has a period of ~12 years. Knowing the order-of-magnitude periods for the outer planets (Jupiter ~12, Saturn ~30, Uranus ~84, Neptune ~165 years) is useful for Regents questions.', image: '/images/exams/es-january-2023/context_45_47.png' },
     {
       number: 47, part: 'B-1',
       context: 'A graph shows a generalized relationship between stream velocity and particle size for erosion, transportation, and deposition. The y-axis shows velocity (cm/s) and the x-axis shows particle diameter (mm): clay, silt, sand, pebbles, cobbles, boulders.',
@@ -498,8 +478,7 @@ export default {
       topic: 'Water Cycle',
       correct: 3,
       explanation: 'As velocity drops from 100 cm/s to 10 cm/s, larger particles (pebbles, cobbles) settle while finer particles (sand, silt, clay) may remain in suspension because they have lower settling velocities.',
-      diveDeep: 'The Hjulström curve describes which particle sizes are eroded, transported, or deposited at different velocities. At 100 cm/s: even boulders can be transported. At 10 cm/s: cobbles and boulders settle, pebbles may start settling, sand remains in transport, silt and clay remain in suspension (their small size and surface charge actually make them hard to deposit). This is why river deltas have coarse sediment near the mouth and fine clay settles in calm water offshore. The counterintuitive finding: very fine clay requires HIGHER velocity to initially erode than medium sand (due to cohesion between particles).',
-    },
+      diveDeep: 'The Hjulström curve describes which particle sizes are eroded, transported, or deposited at different velocities. At 100 cm/s: even boulders can be transported. At 10 cm/s: cobbles and boulders settle, pebbles may start settling, sand remains in transport, silt and clay remain in suspension (their small size and surface charge actually make them hard to deposit). This is why river deltas have coarse sediment near the mouth and fine clay settles in calm water offshore. The counterintuitive finding: very fine clay requires HIGHER velocity to initially erode than medium sand (due to cohesion between particles).', image: '/images/exams/es-january-2023/context_45_47.png' },
     {
       number: 48, part: 'B-1',
       context: 'Photographs show two rock samples: Sample X is dark gray, fine-grained with no visible crystals. Sample Y is light gray with large visible crystals of quartz, feldspar, and mica, approximately 5 mm in size.',
@@ -513,8 +492,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'Sample X (dark, fine-grained, no visible crystals) is basalt, which forms from rapid cooling of mafic lava at Earth\'s surface; Sample Y (light, coarse-grained) is granite, formed by slow cooling deep underground where crystals have time to grow.',
-      diveDeep: 'Crystal size in igneous rocks reflects cooling rate: Rapid cooling (extrusive/volcanic) = fine-grained texture (crystals too small to see with naked eye) — basalt, andesite, rhyolite. Slow cooling (intrusive/plutonic, deep underground) = coarse-grained texture (visible crystals) — gabbro, diorite, granite. Instantaneous cooling = glassy texture (obsidian). Basalt = dark (mafic: iron, magnesium-rich), fine-grained. Granite = light (felsic: silica, aluminum-rich), coarse-grained. Gabbro = dark, coarse-grained (intrusive equivalent of basalt). Rhyolite = light, fine-grained (extrusive equivalent of granite). The Reference Table rock identification chart uses these criteria.',
-    },
+      diveDeep: 'Crystal size in igneous rocks reflects cooling rate: Rapid cooling (extrusive/volcanic) = fine-grained texture (crystals too small to see with naked eye) — basalt, andesite, rhyolite. Slow cooling (intrusive/plutonic, deep underground) = coarse-grained texture (visible crystals) — gabbro, diorite, granite. Instantaneous cooling = glassy texture (obsidian). Basalt = dark (mafic: iron, magnesium-rich), fine-grained. Granite = light (felsic: silica, aluminum-rich), coarse-grained. Gabbro = dark, coarse-grained (intrusive equivalent of basalt). Rhyolite = light, fine-grained (extrusive equivalent of granite). The Reference Table rock identification chart uses these criteria.', image: '/images/exams/es-january-2023/context_48_50.png' },
     {
       number: 49, part: 'B-1',
       context: 'A cross section shows the continental margin of eastern North America, with the Appalachian Mountains inland and the Atlantic Ocean to the right. Rock ages shown: Adirondack Precambrian (~1 Ga), Appalachian metamorphics (~300 Ma), Atlantic coastal plain sediments (~65 Ma), ocean floor basalt (youngest = 0 Ma at Mid-Atlantic Ridge).',
@@ -528,8 +506,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'The Adirondack rocks (~1 billion years old) are oldest, followed by Appalachian metamorphics (~300 Ma), then Atlantic coastal sediments (~65 Ma), and the youngest rock is at the Mid-Atlantic Ridge axis where new basalt is continuously forming today.',
-      diveDeep: 'This question integrates several concepts: (1) absolute ages from the geologic record; (2) seafloor spreading (youngest oceanic crust at ridge); (3) NY State geologic history (Grenville Orogeny → Adirondack Precambrian, ~1 Ga oldest; Alleghenian Orogeny → Appalachians ~300 Ma; Pangaea breakup → Atlantic opening ~200 Ma; modern coastal sediments ~65 Ma–present). At the Mid-Atlantic Ridge: new basalt erupts TODAY, so age = 0. Moving away from ridge, age increases. This age progression is one of the key proofs of seafloor spreading and plate tectonics.',
-    },
+      diveDeep: 'This question integrates several concepts: (1) absolute ages from the geologic record; (2) seafloor spreading (youngest oceanic crust at ridge); (3) NY State geologic history (Grenville Orogeny → Adirondack Precambrian, ~1 Ga oldest; Alleghenian Orogeny → Appalachians ~300 Ma; Pangaea breakup → Atlantic opening ~200 Ma; modern coastal sediments ~65 Ma–present). At the Mid-Atlantic Ridge: new basalt erupts TODAY, so age = 0. Moving away from ridge, age increases. This age progression is one of the key proofs of seafloor spreading and plate tectonics.', image: '/images/exams/es-january-2023/context_48_50.png' },
     {
       number: 50, part: 'B-1',
       context: 'A station model diagram shows weather data at Albany, NY: temperature 62°F, dew point 55°F, cloud cover 3/4, wind speed 15 knots from the southwest, pressure 1008.3 mb, weather symbol indicating rain.',
@@ -543,7 +520,6 @@ export default {
       topic: 'Meteorology',
       correct: 2,
       explanation: 'The station model shows relatively warm temperature (62°F), high humidity (dewpoint 55°F, close to temperature), and rain from the southwest — characteristic of a warm, moist maritime Tropical (mT) air mass.',
-      diveDeep: 'Air mass classification: Source region determines temperature (c = continental/dry; m = maritime/moist) and latitude determines temperature (A = Arctic; P = Polar; T = Tropical). mT (maritime Tropical) = forms over warm tropical oceans, brings warm and humid conditions, typical of summer heat and humidity in the eastern US. cP (continental Polar) = forms over cold Canadian landmass, brings cold dry air. cA (continental Arctic) = extremely cold and dry, brings Arctic outbreaks. cT = forms over hot dry deserts (rare in eastern US). The combination of warm temperature, high dewpoint (close to temperature = high humidity), southwest winds, and rain = clearly mT air mass.',
-    },
+      diveDeep: 'Air mass classification: Source region determines temperature (c = continental/dry; m = maritime/moist) and latitude determines temperature (A = Arctic; P = Polar; T = Tropical). mT (maritime Tropical) = forms over warm tropical oceans, brings warm and humid conditions, typical of summer heat and humidity in the eastern US. cP (continental Polar) = forms over cold Canadian landmass, brings cold dry air. cA (continental Arctic) = extremely cold and dry, brings Arctic outbreaks. cT = forms over hot dry deserts (rare in eastern US). The combination of warm temperature, high dewpoint (close to temperature = high humidity), southwest winds, and rain = clearly mT air mass.', image: '/images/exams/es-january-2023/context_48_50.png' },
   ],
 }

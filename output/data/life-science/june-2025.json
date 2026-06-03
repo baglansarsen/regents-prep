@@ -1,0 +1,636 @@
+{
+  "subject": "life-science",
+  "session": "june-2025",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which claim about the kelp carbon pool is best supported by evidence from the information and the model above?",
+      "choices": [
+        "The carbon storage is higher with the otters present because the sea otters eat the sea urchins.",
+        "The carbon storage is higher with the sea urchins present because they control the kelp population.",
+        "The carbon storage is lower with the otters present because the sea otters eat the kelp.",
+        "The carbon storage is lower with the sea urchins present because they carry out autotrophic nutrition. Life Science:"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_1_5.png",
+      "context": "Base your answers to questions 1 through 5 on the information below and on your knowledge of biology.\nCarbon! Where Does It Come From? Where Does It Go?\nOn Earth, carbon compounds are found in the oceans, atmosphere, and living \norganisms, as well as stored in rocks and sediments.  Earth and its atmosphere can \nbe considered a closed system. The amount of carbon in different locations within \nEarth\u2019s system is always changing.\nSea otters help maintain the carbon balance in their ecosystem. Otters eat \nsea urchins. Eating sea urchins is important, as sea urchins are herbivores that \ncan destroy a kelp forest. Kelp are large autotrophic algae that grow much faster \nthan most plants. When kelp die, they sink into the deep ocean. The low oxygen \nconditions of the sea floor cause decomposition to be slow or incomplete.\nScientists calculated the carbon pool (how much carbon kelp stores) with and \nwithout sea otters, as shown in the model below.\nKelp carbon pool\n101-180 gC/m2\nKelp carbon pool\n8-14 gC/m2\nWith Otters\nWithout Otters\nOtter\nKelp\nDead kelp\nDead kelp\nSea Urchin\nKelp Forest System",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which statement uses the model to describe how kelp contributes to a reduction of carbon entering the atmosphere?",
+      "choices": [
+        "Kelp produces carbon as it grows within the hydrosphere.",
+        "Some of the carbon stored in the dead kelp is trapped in the geosphere of the sea floor.",
+        "Kelp produces carbon as it sinks into the hydrosphere.",
+        "Some of the carbon stored in kelp is added to the geosphere through cell respiration."
+      ],
+      "image": "/images/exams/life-science/june-2025/context_1_5.png",
+      "context": "Base your answers to questions 1 through 5 on the information below and on your knowledge of biology.\nCarbon! Where Does It Come From? Where Does It Go?\nOn Earth, carbon compounds are found in the oceans, atmosphere, and living \norganisms, as well as stored in rocks and sediments.  Earth and its atmosphere can \nbe considered a closed system. The amount of carbon in different locations within \nEarth\u2019s system is always changing.\nSea otters help maintain the carbon balance in their ecosystem. Otters eat \nsea urchins. Eating sea urchins is important, as sea urchins are herbivores that \ncan destroy a kelp forest. Kelp are large autotrophic algae that grow much faster \nthan most plants. When kelp die, they sink into the deep ocean. The low oxygen \nconditions of the sea floor cause decomposition to be slow or incomplete.\nScientists calculated the carbon pool (how much carbon kelp stores) with and \nwithout sea otters, as shown in the model below.\nKelp carbon pool\n101-180 gC/m2\nKelp carbon pool\n8-14 gC/m2\nWith Otters\nWithout Otters\nOtter\nKelp\nDead kelp\nDead kelp\nSea Urchin\nKelp Forest System",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which model identifies the process that converts light energy into chemical energy inside the kelp? + 6CO2 Carbon Dioxide 6CO2 Carbon Dioxide 6CO2 Carbon Dioxide 6CO2 Carbon Dioxide 6H2O C6H12O6 Water 6H2O Water 6H2O Water Glucose 6O2 Oxygen 6O2 Oxygen 6O2 Oxygen 6O2 Oxygen + C6H12O6 Glucose + + ATP + C6H12O6 Glucose + Sunlight ATP + C6H12O6 Glucose + Sunlight",
+      "choices": [
+        "",
+        "",
+        "",
+        "6H2O Water Life Science: Increased atmospheric carbon dioxide has been linked to changes within marine ecosystems. When CO2 combines with water, it produces carbonic acid, lowering the water\u2019s pH. A pH of less than 7.8 can interfere with the ability of some marine organisms to make shells and skeletons. These organisms include corals, mussels, plankton, seastars, and sea urchins. The graph below shows the relationship between atmospheric CO2 concentration and the pH of seawater. 1800 1850 1900 1950 2000 2050 2100 5 10 15 20 25 30 35 8.3 8.2 8.1 8.0 7.9 7.8 CO2 (mmol/m3) pH Time (years) Relationship Between CO2 and pH in Marine Ecosystems Key CO2 pH"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_1_5.png",
+      "context": "Base your answers to questions 1 through 5 on the information below and on your knowledge of biology.\nCarbon! Where Does It Come From? Where Does It Go?\nOn Earth, carbon compounds are found in the oceans, atmosphere, and living \norganisms, as well as stored in rocks and sediments.  Earth and its atmosphere can \nbe considered a closed system. The amount of carbon in different locations within \nEarth\u2019s system is always changing.\nSea otters help maintain the carbon balance in their ecosystem. Otters eat \nsea urchins. Eating sea urchins is important, as sea urchins are herbivores that \ncan destroy a kelp forest. Kelp are large autotrophic algae that grow much faster \nthan most plants. When kelp die, they sink into the deep ocean. The low oxygen \nconditions of the sea floor cause decomposition to be slow or incomplete.\nScientists calculated the carbon pool (how much carbon kelp stores) with and \nwithout sea otters, as shown in the model below.\nKelp carbon pool\n101-180 gC/m2\nKelp carbon pool\n8-14 gC/m2\nWith Otters\nWithout Otters\nOtter\nKelp\nDead kelp\nDead kelp\nSea Urchin\nKelp Forest System",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "written",
+      "text": "If the trend in atmospheric CO2 levels continues, sea urchin populations may be impacted. Describe evidence from the graph that supports this claim. Life Science: The following diagram shows some information about the cycling of carbon. (Model not to scale) atmospheric CO2 CO2 dissolved CO2 H2O + H2CO3 carbonic acid H+ hydrogen ion+ HCO3 \u2013 bicarbonate ion CO3 2\u2013 carbonate ion CaCO3 calcium carbonate + CO3 2\u2013 carbonate ion Ca2+ calcium ion HCO3 \u2013 bicarbonate ion Model of Ocean Acidification The model below shows the equation for how sea urchins make their shells. Ca21 1 CO3 22 \u2192 CaCO3 Calcium ions and carbonate ions produce calcium carbonate.",
+      "choices": [],
+      "image": "/images/exams/life-science/june-2025/context_1_5.png",
+      "context": "Base your answers to questions 1 through 5 on the information below and on your knowledge of biology.\nCarbon! Where Does It Come From? Where Does It Go?\nOn Earth, carbon compounds are found in the oceans, atmosphere, and living \norganisms, as well as stored in rocks and sediments.  Earth and its atmosphere can \nbe considered a closed system. The amount of carbon in different locations within \nEarth\u2019s system is always changing.\nSea otters help maintain the carbon balance in their ecosystem. Otters eat \nsea urchins. Eating sea urchins is important, as sea urchins are herbivores that \ncan destroy a kelp forest. Kelp are large autotrophic algae that grow much faster \nthan most plants. When kelp die, they sink into the deep ocean. The low oxygen \nconditions of the sea floor cause decomposition to be slow or incomplete.\nScientists calculated the carbon pool (how much carbon kelp stores) with and \nwithout sea otters, as shown in the model below.\nKelp carbon pool\n101-180 gC/m2\nKelp carbon pool\n8-14 gC/m2\nWith Otters\nWithout Otters\nOtter\nKelp\nDead kelp\nDead kelp\nSea Urchin\nKelp Forest System",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "written",
+      "text": "As ocean acidification increases, the amount of available carbonate ions decreases. Use the model and information provided to describe how the cycling of carbon between the biosphere and at least one other sphere is affected as environmental conditions change. Life Science:",
+      "choices": [],
+      "image": "/images/exams/life-science/june-2025/context_1_5.png",
+      "context": "Base your answers to questions 1 through 5 on the information below and on your knowledge of biology.\nCarbon! Where Does It Come From? Where Does It Go?\nOn Earth, carbon compounds are found in the oceans, atmosphere, and living \norganisms, as well as stored in rocks and sediments.  Earth and its atmosphere can \nbe considered a closed system. The amount of carbon in different locations within \nEarth\u2019s system is always changing.\nSea otters help maintain the carbon balance in their ecosystem. Otters eat \nsea urchins. Eating sea urchins is important, as sea urchins are herbivores that \ncan destroy a kelp forest. Kelp are large autotrophic algae that grow much faster \nthan most plants. When kelp die, they sink into the deep ocean. The low oxygen \nconditions of the sea floor cause decomposition to be slow or incomplete.\nScientists calculated the carbon pool (how much carbon kelp stores) with and \nwithout sea otters, as shown in the model below.\nKelp carbon pool\n101-180 gC/m2\nKelp carbon pool\n8-14 gC/m2\nWith Otters\nWithout Otters\nOtter\nKelp\nDead kelp\nDead kelp\nSea Urchin\nKelp Forest System",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which statement describes how the organization of the urinary system and one other system interact to maintain homeostasis in the human body?",
+      "choices": [
+        "The adrenal gland, part of the endocrine system, delivers nutrients to the cells of the urinary system to remove carbon dioxide from the blood.",
+        "The internal urethral sphincter muscle, part of the muscular system, contracts to signal the cells of the urinary system to regulate blood sugar.",
+        "The brain, part of the nervous system, sends messages to the renal plexus (nerves) to signal the cells of the urinary system to deliver oxygen to the blood.",
+        "The arteries, part of the circulatory system, deliver unfiltered blood to the cells of the urinary system to remove wastes. Life Science: Each kidney is composed of about a million waste-filtering structures known as nephrons. Water is reabsorbed through some parts of the nephron, such as the tubule. The model below shows the structure of a nephron in two organisms. Tubule Blood vessel Fish Nephron Terrestrial Mammalian Nephron Tubule Blood vessel Bowman\u2019s capsule Bowman\u2019s capsule Key = water Nephrons of Various Organisms"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_6_10.png",
+      "context": "Base your answers to questions 6 through 10 on the information below and on your knowledge of biology.\nDrinking Water Is Just The Beginning!\nThe amount of water taken in must be in balance with the amount lost. The \nurinary system is involved in maintaining the salt and water balances within the \nbody.\nHuman Urinary System\nDirection of Blood Flow\nRight kidney\nLeft kidney\nAdrenal gland\nRenal vein\nRenal artery\nRenal plexus\n(Nerves)\nUreter\nUrinary bladder\nMuscle\nUrethra",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Based on evidence in the model, which statement explains that natural selection led to the evolution of the nephron\u2019s structure and function in terrestrial mammals?",
+      "choices": [
+        "The development of the Bowman\u2019s capsule in animal kidneys was more advantageous to mammals than fish.",
+        "Nephrons with longer tubules were selected for in organisms that lived on land to conserve the water they drank.",
+        "The longer nephron tubule was selected for in animals that lived in oceans, rivers and lakes to filter the excess water absorbed.",
+        "The number of nephrons is more important in the evolution of mammals than it is to the evolution of fish. Life Science: Another function of the kidney is to aid in regulating the number of red blood cells. The kidneys produce a protein known as Erythropoietin (EPO) that stimulates the increased production of red blood cells. The graph below shows the results of a study. Participants were exposed to different conditions prior to time zero, then EPO levels were measured over a 4.5-hour time period. 0 1 2 3 4 5 Time (hours) 20 18 16 14 12 10"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_6_10.png",
+      "context": "Base your answers to questions 6 through 10 on the information below and on your knowledge of biology.\nDrinking Water Is Just The Beginning!\nThe amount of water taken in must be in balance with the amount lost. The \nurinary system is involved in maintaining the salt and water balances within the \nbody.\nHuman Urinary System\nDirection of Blood Flow\nRight kidney\nLeft kidney\nAdrenal gland\nRenal vein\nRenal artery\nRenal plexus\n(Nerves)\nUreter\nUrinary bladder\nMuscle\nUrethra",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "written",
+      "text": "EPO Level (mU/ml) Normal oxygen exposure Eight 4-minute cycles of low oxygen 120 minutes of continuous low oxygen Key Effect of Oxygen Exposure on EPO Production 8 Using the information provided, describe the evidence to support the claim that exposure to low oxygen levels results in a feedback mechanism that allows the body to maintain homeostasis. Life Science: In addition to their other functions, red blood cells (RBCs) have the capacity to carry water. The surface of the cell contains structures called aquaporins, which transport water across cell membranes. Due to their unique cell structure, RBCs are able to expand up to 74% or shrink up to 40% compared to the original cell size.",
+      "choices": [],
+      "image": "/images/exams/life-science/june-2025/context_6_10.png",
+      "context": "Base your answers to questions 6 through 10 on the information below and on your knowledge of biology.\nDrinking Water Is Just The Beginning!\nThe amount of water taken in must be in balance with the amount lost. The \nurinary system is involved in maintaining the salt and water balances within the \nbody.\nHuman Urinary System\nDirection of Blood Flow\nRight kidney\nLeft kidney\nAdrenal gland\nRenal vein\nRenal artery\nRenal plexus\n(Nerves)\nUreter\nUrinary bladder\nMuscle\nUrethra",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which statement provides the best explanation for how red blood cells contribute to a feedback mechanism that maintains homeostasis?",
+      "choices": [
+        "The aquaporins in the red blood cells facilitate the exchange of water in environments of different concentrations and help the kidneys more efficiently regulate salt and water balance.",
+        "The aquaporins in the red blood cells prevent the exchange of water in environments of different concentrations and help the kidneys more efficiently regulate salt and water balance.",
+        "The red blood cells change their shape to move through the kidney but have minimal effect on salt and water balance in the kidneys.",
+        "The red blood cells change their shape to move through the kidney but do not regulate any feedback mechanisms. Life Science: RBCs typically have a biconcave disk shape. A scientific study examined the effect of changing the RBC shape and membrane flexibility on its ability to transfer oxygen. For this study, when the RBC membrane was less flexible, the oxygen transfer capacity decreased by 18%. When the RBC was more flexible, the oxygen carrying capacity increased by 21%. When RBCs take on water their membrane initially becomes more flexible. Typical Biconcave Disc Shape of Red Blood Cells 2.0 \u00b5m 7.5 \u00b5m Side view (cross section) Top view"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_6_10.png",
+      "context": "Base your answers to questions 6 through 10 on the information below and on your knowledge of biology.\nDrinking Water Is Just The Beginning!\nThe amount of water taken in must be in balance with the amount lost. The \nurinary system is involved in maintaining the salt and water balances within the \nbody.\nHuman Urinary System\nDirection of Blood Flow\nRight kidney\nLeft kidney\nAdrenal gland\nRenal vein\nRenal artery\nRenal plexus\n(Nerves)\nUreter\nUrinary bladder\nMuscle\nUrethra",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "What evidence would support the claim that consuming water after exercise helps an athlete\u2019s body maintain homeostasis? Number of RBCs Taking on Water RBC Flexibility Rate of Oxygen Transfer",
+      "choices": [
+        "increases decreases decreases",
+        "increases increases increases",
+        "decreases increases increases",
+        "decreases decreases decreases Life Science:"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_6_10.png",
+      "context": "Base your answers to questions 6 through 10 on the information below and on your knowledge of biology.\nDrinking Water Is Just The Beginning!\nThe amount of water taken in must be in balance with the amount lost. The \nurinary system is involved in maintaining the salt and water balances within the \nbody.\nHuman Urinary System\nDirection of Blood Flow\nRight kidney\nLeft kidney\nAdrenal gland\nRenal vein\nRenal artery\nRenal plexus\n(Nerves)\nUreter\nUrinary bladder\nMuscle\nUrethra",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which question could be asked in order to determine if the abnormalities seen in the frog legs were caused by an inherited mutation?",
+      "choices": [
+        "Do the offspring with an abnormality live in the same environment as the parents?",
+        "Were the parents exposed to the same environmental factors as some of their offspring?",
+        "Is a mutation that causes abnormal legs present in the DNA of the sex cells of the parents?",
+        "Do the cells within the legs of the parents contain DNA with a mutation that causes abnormal limbs? Life Science: After further research, scientists discovered that these deformities in frogs were not caused by genetic mutations. The actual cause was a parasitic flatworm called Ribeiroia. Ribeiroia completes a complex life cycle by inhabiting several hosts. This life cycle is summarized in the diagram below. Ribeiroia eggs Ribeiroia early larvae hatch Ribeiroia early larvae enter snail host and reproduce asexually to form late larvae Ribeiroia late larvae exit snail Ribeiroia late larvae enter tadpole host Ribeiroia develop into adults in host frog Infected frog is eaten by bird \u2013 Ribeiroia reproduces sexually in bird Bird waste Ribeiroia eggs released in bird waste Ribeiroia Life Cycle"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_11_16.png",
+      "context": "Base your answers to questions 11 through 16 on the information below and on your knowledge of biology.\nHeads or Tails?\nIn the mid 1990s, people across several states were finding large numbers of \nfrogs and other amphibians with extra limbs. Possible explanations regarding the \ncause of these abnormalities ranged from UV radiation, chemical contaminants in \nthe water, parasites, or even airborne substances.\nPacific Chorus Frog with Extra Legs",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A student claims that the Ribeiroia parasites that cause the most severe limb abnormalities in frogs have a greater chance of survival and reproduction than those that do not. Which explanation best supports this claim?",
+      "choices": [
+        "The frogs with the most severe limb deformities will be more likely to be caught by birds, allowing the adult Ribeiroia to be more likely to survive and reproduce.",
+        "The adult Ribeiroia will have a greater chance of remaining in the frog to complete all phases of its life cycle, allowing it a better chance to survive and reproduce.",
+        "The Ribeiroia will have a greater chance of reproducing sexually because it stays in the snail, releasing larvae with this trait back into the water.",
+        "The Ribeiroia larva will have a greater chance of reproducing asexually and completing its life cycle in the bird. Life Science: Hox genes are an important group of regulatory genes that help determine the body plan and head-to-tail orientation of animals in their early stages of development. High concentrations of retinoic acid have been found to influence the activity of Hox genes. The diagram below shows how proteins produced by the activated Hox genes attach to DNA sequences that act as molecular switches to turn large numbers of different genes on. Binds to DNA sequence Hox Genes Controlling Leg Formation Leg genes Leg produced Protein Hox genes"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_11_16.png",
+      "context": "Base your answers to questions 11 through 16 on the information below and on your knowledge of biology.\nHeads or Tails?\nIn the mid 1990s, people across several states were finding large numbers of \nfrogs and other amphibians with extra limbs. Possible explanations regarding the \ncause of these abnormalities ranged from UV radiation, chemical contaminants in \nthe water, parasites, or even airborne substances.\nPacific Chorus Frog with Extra Legs",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Using the information above, which statement might best explain why the extra limbs grew in parasite-infected frogs?",
+      "choices": [
+        "The Hox genes in the limb caused an increase in the retinoic acid levels which produced proteins that signaled the leg genes to turn off.",
+        "The parasites increased the level of retinoic acid in the tadpoles limb, causing Hox genes to transcribe more of the proteins that activated limb formation genes.",
+        "The proteins produced by the developing limb signaled the Hox genes to turn on, which increased the retinoic acid levels causing more legs to grow.",
+        "The higher retinoic acid levels caused by the parasites turned off the Hox genes in the tadpole limb, signaling the leg formation genes to activate. Life Science: Scientists have found that when the Ribeiroia parasite enters the frog tadpole, it burrows into the limb bud which develops into the frog\u2019s leg. The levels of a chemical called retinoic acid increase rapidly in the limb bud of the tadpoles due to the parasitic infection."
+      ],
+      "image": "/images/exams/life-science/june-2025/context_11_16.png",
+      "context": "Base your answers to questions 11 through 16 on the information below and on your knowledge of biology.\nHeads or Tails?\nIn the mid 1990s, people across several states were finding large numbers of \nfrogs and other amphibians with extra limbs. Possible explanations regarding the \ncause of these abnormalities ranged from UV radiation, chemical contaminants in \nthe water, parasites, or even airborne substances.\nPacific Chorus Frog with Extra Legs",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which question could be asked about the effect of retinoic acid levels on inheritance of the observed changes in the frogs?",
+      "choices": [
+        "Do retinoic acid levels affect the inheritance of Hox genes that code for proteins important for leg development?",
+        "Do retinoic acid levels affect the inheritance of non-coding DNA resulting in a leg?",
+        "How do decreased retinoic acid levels influence the inheritance of proteins that code for leg development?",
+        "How do increased retinoic acid levels impact the inheritance of non-coding regions of Hox genes? Life Science: Hox genes are also found in arthropods. The diagrams below show some information about the Hox genes and body segmentation in a fruit fly. The body plans for other arthropod species are also shown. The differing shades of gray indicate the Hox genes responsible for each body segment\u2019s development. Hox Genes Responsible for Fruit Fly Development Arthropod Body Plans Structures in the adult controlled by Hox genes Head Thorax Abdomen Grasshopper Lobster Bee Mosquito Dragonfly Zones of Hox gene activity in the embryo"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_11_16.png",
+      "context": "Base your answers to questions 11 through 16 on the information below and on your knowledge of biology.\nHeads or Tails?\nIn the mid 1990s, people across several states were finding large numbers of \nfrogs and other amphibians with extra limbs. Possible explanations regarding the \ncause of these abnormalities ranged from UV radiation, chemical contaminants in \nthe water, parasites, or even airborne substances.\nPacific Chorus Frog with Extra Legs",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "written",
+      "text": "Describe genetic and physical evidence that would support the claim that all of these arthropods share a common ancestor. Life Science: Hox genes are also present in mammals and other vertebrates to produce specific body parts in the correct orientation. Specific Hox genes from a mouse and fruit fly can be interchanged.",
+      "choices": [],
+      "image": "/images/exams/life-science/june-2025/context_11_16.png",
+      "context": "Base your answers to questions 11 through 16 on the information below and on your knowledge of biology.\nHeads or Tails?\nIn the mid 1990s, people across several states were finding large numbers of \nfrogs and other amphibians with extra limbs. Possible explanations regarding the \ncause of these abnormalities ranged from UV radiation, chemical contaminants in \nthe water, parasites, or even airborne substances.\nPacific Chorus Frog with Extra Legs",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 They came from a similar ancestry because they all have similar Hox genes resulting in similar segmentation. \u2014 The head (or thorax, or abdomen) in all organisms is coded for by the same Hox gene. \u2014 The Hox gene makes the body plan follow the head, thorax, abdomen pattern."
+    },
+    {
+      "number": 16,
+      "type": "written",
+      "text": "Construct an explanation for why typical functioning eyes form in a mouse and a fly when specific Hox genes that activate eye development are interchanged. Life Science:",
+      "choices": [],
+      "image": "/images/exams/life-science/june-2025/context_11_16.png",
+      "context": "Base your answers to questions 11 through 16 on the information below and on your knowledge of biology.\nHeads or Tails?\nIn the mid 1990s, people across several states were finding large numbers of \nfrogs and other amphibians with extra limbs. Possible explanations regarding the \ncause of these abnormalities ranged from UV radiation, chemical contaminants in \nthe water, parasites, or even airborne substances.\nPacific Chorus Frog with Extra Legs",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The Hox genes are the same and are interchangeable because their DNA is the same, producing the right proteins to turn on the correct genes in the given animal. \u2014 The Hox genes are so similar that they will switch on the correct genes for producing eyes in either animal."
+    },
+    {
+      "number": 17,
+      "type": "written",
+      "text": "Using evidence provided, construct an explanation that describes how natural selection has led to the development of an adaptation within yak populations that enable them to survive in their environment. Life Science: A gene called EPAS1 is involved in allowing animals to respond to a low oxygen environment. Scientists studied this gene in yaks. They found that yaks having a certain allele of the gene had a greater amount of hemoglobin, which transports oxygen through the body. This allele has a small change in nucleic acid sequence from other alleles of the EPAS1 gene found in yak populations.",
+      "choices": [],
+      "image": "/images/exams/life-science/june-2025/context_17_21.png",
+      "context": "Base your answers to questions 17 through 21 on the information below and on your knowledge of \nbiology.\nOrganisms of the Tibetan Plateau\nThe yak is an herbivore that lives in the high altitude of the Tibetan Plateau, \nlocated in the Himalayan Mountains. They inhabit the Tibetan Plateau at \nelevations between 3,000 and 5,000 meters. Yaks have a large heart and lungs, as \nwell as a specialized hemoglobin in the cells of their blood that enables them to \nextract more oxygen from the air.\nExtreme altitude\n9000 m (32% O2*)\nConcentration of Atmospheric Oxygen Available at \nDifferent Altitudes\n5000 m (52% O2*)\n3500 m (66% O2*)\n2500 m (76% O2*)\n1500 m (84% O2*)\nVery high altitude\nHigh altitude\nSea level\n*Percentage of oxygen (O2) available at this altitude compared to sea level",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable answers include, but are not limited to: \u2014 Yaks with large hearts that pump more oxygenated blood to the cells were better able to survive and reproduce in high altitudes. \u2014 Yaks that have small lungs and are less able to take in oxygen are more likely to die and less likely to pass on their traits. \u2014 Yaks with specialized hemoglobin that can extract more oxygen from the air can survive in high-altitude environments. Since the altitude between 3000 and 5000m above sea level has only 52% to 66% of the normal amount of oxygen, they are better adapted to this environment. They will pass on this trait to offspring."
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "What is the most likely origin of the change that resulted in this allele?",
+      "choices": [
+        "A change in the sequence of the EPAS1 gene occurred during the mitosis of yak blood cells.",
+        "The levels of hemoglobin in a yak\u2019s blood caused changes to a sequence of the EPAS1 gene.",
+        "A change in the sequence of the EPAS1 gene occurred during meiosis of yak gametes.",
+        "A yak experienced genetic changes in the EPAS1 gene in response to low oxygen conditions. Plants that yaks eat grow under stressful conditions. Decreased atmospheric pressure results in changes in the concentrations of gases, as represented below. Barometric Pressure (mmHg) Change in Gas Molecule Density at Different Altitudes 300 0 2,000 4,000 6,000 8,000 400 Gas molecules Sea level Extreme altitude Atmospheric Pressure Altitude (meters) 500 600 700 800"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_17_21.png",
+      "context": "Base your answers to questions 17 through 21 on the information below and on your knowledge of \nbiology.\nOrganisms of the Tibetan Plateau\nThe yak is an herbivore that lives in the high altitude of the Tibetan Plateau, \nlocated in the Himalayan Mountains. They inhabit the Tibetan Plateau at \nelevations between 3,000 and 5,000 meters. Yaks have a large heart and lungs, as \nwell as a specialized hemoglobin in the cells of their blood that enables them to \nextract more oxygen from the air.\nExtreme altitude\n9000 m (32% O2*)\nConcentration of Atmospheric Oxygen Available at \nDifferent Altitudes\n5000 m (52% O2*)\n3500 m (66% O2*)\n2500 m (76% O2*)\n1500 m (84% O2*)\nVery high altitude\nHigh altitude\nSea level\n*Percentage of oxygen (O2) available at this altitude compared to sea level",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which statement best explains why the carrying capacity for producers in extreme-altitude ecosystems is less than in sea-level ecosystems?",
+      "choices": [
+        "There is more oxygen available to use for cellular respiration at high altitudes.",
+        "There is less carbon dioxide available to use for photosynthesis at extreme altitudes.",
+        "There is increased water vapor available at extreme altitudes which limits the process of photosynthesis.",
+        "There is decreased pressure at high altitudes, resulting in faster cellular respiration. Life Science: The pika is another herbivorous mammal species that inhabits the Tibetan Plateau. Pika move quickly and spend much of their time foraging for food and keeping a lookout for predators. They are small (5-9 inches long), live in systems of underground tunnels that they dig and maintain, and lack a large heart and large lungs. The photograph and graph below show some information about the Tibetan Plateau. \u20134 \u20132 0 2000 2500 3000 3500 4000 4500 5000 Altitude (m) Air temperature (\u00b0C) 2 4 6 8 10 12 14 16 Relationship Between Altitude and Temperature"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_17_21.png",
+      "context": "Base your answers to questions 17 through 21 on the information below and on your knowledge of \nbiology.\nOrganisms of the Tibetan Plateau\nThe yak is an herbivore that lives in the high altitude of the Tibetan Plateau, \nlocated in the Himalayan Mountains. They inhabit the Tibetan Plateau at \nelevations between 3,000 and 5,000 meters. Yaks have a large heart and lungs, as \nwell as a specialized hemoglobin in the cells of their blood that enables them to \nextract more oxygen from the air.\nExtreme altitude\n9000 m (32% O2*)\nConcentration of Atmospheric Oxygen Available at \nDifferent Altitudes\n5000 m (52% O2*)\n3500 m (66% O2*)\n2500 m (76% O2*)\n1500 m (84% O2*)\nVery high altitude\nHigh altitude\nSea level\n*Percentage of oxygen (O2) available at this altitude compared to sea level",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "written",
+      "text": "Construct an explanation based on evidence that natural selection leads to a behavioral adaptation that pika possess that would help them to survive in the Tibetan ecosystem. Life Science: Other organisms that are part of the Tibetan Plateau ecosystem include carnivores such as wolves, eagles, and snow leopards. The model below shows some approximate biomass at each trophic level of the Tibetan Plateau ecosystem. Carnivores 1-5 (g/m2) Mass per Square Meter Tibetan Plateau Pyramid of Biomass 10-30 (g/m2) 100-200 (g/m2) 1000 (g/m2) Primary Carnivores Herbivores Producers",
+      "choices": [],
+      "image": "/images/exams/life-science/june-2025/context_17_21.png",
+      "context": "Base your answers to questions 17 through 21 on the information below and on your knowledge of \nbiology.\nOrganisms of the Tibetan Plateau\nThe yak is an herbivore that lives in the high altitude of the Tibetan Plateau, \nlocated in the Himalayan Mountains. They inhabit the Tibetan Plateau at \nelevations between 3,000 and 5,000 meters. Yaks have a large heart and lungs, as \nwell as a specialized hemoglobin in the cells of their blood that enables them to \nextract more oxygen from the air.\nExtreme altitude\n9000 m (32% O2*)\nConcentration of Atmospheric Oxygen Available at \nDifferent Altitudes\n5000 m (52% O2*)\n3500 m (66% O2*)\n2500 m (76% O2*)\n1500 m (84% O2*)\nVery high altitude\nHigh altitude\nSea level\n*Percentage of oxygen (O2) available at this altitude compared to sea level",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 At altitudes of 3500 m and above, where the pika lives, temperatures are less than 6\u00b0C, so living underground would help them survive. \u2014 They live in tunnels/burrows that protect them from the extreme cold of the Tibetan Plateau. \u2014 The faster-moving pikas can quickly escape predators by running into tunnels."
+    },
+    {
+      "number": 21,
+      "type": "written",
+      "text": "Use the evidence provided to make a claim about how energy flow among organisms in the Tibetan Plateau ecosystem affects biomass. Life Science:",
+      "choices": [],
+      "image": "/images/exams/life-science/june-2025/context_17_21.png",
+      "context": "Base your answers to questions 17 through 21 on the information below and on your knowledge of \nbiology.\nOrganisms of the Tibetan Plateau\nThe yak is an herbivore that lives in the high altitude of the Tibetan Plateau, \nlocated in the Himalayan Mountains. They inhabit the Tibetan Plateau at \nelevations between 3,000 and 5,000 meters. Yaks have a large heart and lungs, as \nwell as a specialized hemoglobin in the cells of their blood that enables them to \nextract more oxygen from the air.\nExtreme altitude\n9000 m (32% O2*)\nConcentration of Atmospheric Oxygen Available at \nDifferent Altitudes\n5000 m (52% O2*)\n3500 m (66% O2*)\n2500 m (76% O2*)\n1500 m (84% O2*)\nVery high altitude\nHigh altitude\nSea level\n*Percentage of oxygen (O2) available at this altitude compared to sea level",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 There is a 800-900 g/m2 (90%) reduction in biomass between the level that the pika and yak are at and the level of what they eat. This shows that the energy is lost as it flows up the trophic levels. \u2014 Carnivores at the top level of the pyramid have less biomass than the herbivores that they prey on because energy is lost to heat as you move up trophic levels."
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which claim best describes the complex interactions that would have the greatest immediate effect on populations of smooth cordgrass in the low salt marsh?",
+      "choices": [
+        "The smooth cordgrass population would be most affected by an influx of saltmarsh sparrows that relocate after severe storms.",
+        "The smooth cordgrass population would be most affected by rising sea levels due to global warming that affects the tide level.",
+        "The smooth cordgrass would be most affected by a temporary increase in salinity due to severe storms.",
+        "The smooth cordgrass would be most affected by erosion due to severe storms and resulting floods. Life Science: Erosion can affect shorelines, including salt marshes. Mathematical models often report shoreline erosion using transect distance. Transect distance measures the same sand dunes along the same line between two specific points. Due to the influence of tides on coastal zones, elevation also affects erosion. The models below show some information about factors that affect shorelines. Natural Shoreline Recovery Buried plants New plant growth Scarp collapses Scarp Dune Berm Offshore Erosion Vegetation line Beachface Dune recovery Models of Shoreline Erosion Key Initial 50 yrs 200 yrs 0 \u20133 \u20132.5 \u20132 \u20131 1 0 \u20131.5 \u20130.5 0.5 50 100 150 200 250 Transect Distance (m) Without Vegetation Elevation (m) 300 350 400 450 500 With Vegetation Key Initial 50 yrs 200 yrs 0 \u20133 \u20132.5 \u20132 \u20131 1 0 \u20131.5 \u20130.5 0.5 50 100 150 200 250 Transect Distance (m) Elevation (m) 300 350 400 450 500"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_22_27.png",
+      "context": "Base your answers to questions 22 through 27 on the information below and on your knowledge of biology.\nSalt Marsh Shoreline\nSalt marshes are unique ecosystems located along an ocean shoreline, \nbetween the ocean itself and dry, upland ecosystems. They are important areas \nthat filter water, protect coastlines, and provide essential habitat. Salt marshes \ncan be affected by tides and weather events. Depending on a variety of factors, \nsalt marshes can contain varied amounts of vegetation, which can influence \nthe biodiversity and function of the salt marsh. The model below shows some \ninformation about a typical salt marsh.\nStriped \nbass, \nseaweed, \nflounder, \nclams\nCrab, \nmussels, \nworms\nSubtidal \nSubmerged\nTidal \nMudflat \nFlooded at \nhigh tide\nLow \nMarsh\n Flooded at \nhigh tide\nAnatomy of a Salt Marsh\nUpper \nBorder\n Reached only \nby storm surge\nUpland\n Above tidal \nzone\nHigh Marsh with \nSalt Pannes\nReached by salt \nspray/very high tide\nSmooth \ncordgrass, \nheron, \negret\nAtlantic \nsilversides, \nminnows, \nmussels\nGlasswort \nand sea \nlavender\nSaltmeadow \ncordgrass, \nspikegrass, \nsaltmarsh \nsparrow, \nasters\nGoldenrod, \ngroundsel \nbush, \nmarsh \nelder, \nswitchgrass\nCommon \nreed \nDeer, \nhawk, \ncedar\nSpring high tide\nNormal high tide\nSea level\nSalt \npanne\nTransitional \narea\nNormal low tide",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Using the information provided, which statement best describes how natural shoreline erosion affects the habitat\u2019s carrying capacity at different scales?",
+      "choices": [
+        "Habitat carrying capacity rapidly decreases in shorelines with vegetation that are affected by erosion.",
+        "Habitat carrying capacity rapidly increases in shorelines with vegetation that are affected by erosion.",
+        "Habitat carrying capacity rapidly decreases in shorelines without vegetation that are affected by erosion.",
+        "Habitat carrying capacity rapidly increases in shorelines without vegetation that are affected by erosion. Life Science: Global climate change may impact salt marshes and other coastal ecosystems. The graph below shows some data collected by NASA using satellites. 1993 2000 2010 2020 2023 2030 2040 2 0 4 6 8 10 12 14 16 18 20 Year Record of Sea Level Rise Global Rise Since 1993 (cm) Current rate 0.42 cm/year Extrapolated"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_22_27.png",
+      "context": "Base your answers to questions 22 through 27 on the information below and on your knowledge of biology.\nSalt Marsh Shoreline\nSalt marshes are unique ecosystems located along an ocean shoreline, \nbetween the ocean itself and dry, upland ecosystems. They are important areas \nthat filter water, protect coastlines, and provide essential habitat. Salt marshes \ncan be affected by tides and weather events. Depending on a variety of factors, \nsalt marshes can contain varied amounts of vegetation, which can influence \nthe biodiversity and function of the salt marsh. The model below shows some \ninformation about a typical salt marsh.\nStriped \nbass, \nseaweed, \nflounder, \nclams\nCrab, \nmussels, \nworms\nSubtidal \nSubmerged\nTidal \nMudflat \nFlooded at \nhigh tide\nLow \nMarsh\n Flooded at \nhigh tide\nAnatomy of a Salt Marsh\nUpper \nBorder\n Reached only \nby storm surge\nUpland\n Above tidal \nzone\nHigh Marsh with \nSalt Pannes\nReached by salt \nspray/very high tide\nSmooth \ncordgrass, \nheron, \negret\nAtlantic \nsilversides, \nminnows, \nmussels\nGlasswort \nand sea \nlavender\nSaltmeadow \ncordgrass, \nspikegrass, \nsaltmarsh \nsparrow, \nasters\nGoldenrod, \ngroundsel \nbush, \nmarsh \nelder, \nswitchgrass\nCommon \nreed \nDeer, \nhawk, \ncedar\nSpring high tide\nNormal high tide\nSea level\nSalt \npanne\nTransitional \narea\nNormal low tide",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "written",
+      "text": "Using the evidence provided, evaluate the claim that rising sea levels will impact the numbers and types of organisms that interact within a low marsh. Life Science: Strategies that mimic the natural surroundings are being developed to reduce erosion and restore shoreline ecosystems. The chart below shows some information about the characteristics of various options for shoreline restoration. Living Shoreline Shoreline Engineering Solutions Vegetation Only Name Description \u2022 Roots hold soil in place \u2022 Provides buffer. \u2022 Breaks small waves Low energy wave environments Low to moderate wave environments Sites with preexisting hardened shorelines High energy wave environments Native plants Stone and living reef (oyster, mussels) Stone, rubble, concrete blocks or slabs, sand/ concrete-filled bags Steel, timber, concrete, carbon fiber \u2022 Provides habitat \u2022 Slows inland water transfer and stores water \u2022 Maintains aquatic/terrestrial connection \u2022 No high water protection \u2022 Vegetation may not grow \u2022 Provides habitat \u2022 Slows upland water transfer \u2022 Prevents wetland loss \u2022 Natural barriers to waves \u2022 No high water protection \u2022 Vegetation may not grow \u2022 Moderates wave action \u2022 Reduces tide fluctuations \u2022 Prevents natural marsh migration \u2022 No major flood protection \u2022 Loss of aquatic/ terrestrial connection \u2022 Decreases fisheries\u2019 habitat and diversity \u2022 Reduces wave action \u2022 Low maintenance \u2022 May fragment habitat \u2022 No major flood or high water protection \u2022 Loss of aquatic/ terrestrial connection \u2022 Natural structures parallel to existing habitat \u2022 Reduce wave energy \u2022 Vertical retaining wall parallel to shoreline \u2022 Holds shore in place \u2022 Lays over slope of shoreline \u2022 Protects shoreline from erosion and waves Optimal Conditions Material Options Advantages Disadvantages Cost $ $$ $$$$ $$$ $ $ $$ $$ Initial Construction Operations & Maintenance Construction Sills Revetment Bulkhead Harder Techniques Life Science:",
+      "choices": [],
+      "image": "/images/exams/life-science/june-2025/context_22_27.png",
+      "context": "Base your answers to questions 22 through 27 on the information below and on your knowledge of biology.\nSalt Marsh Shoreline\nSalt marshes are unique ecosystems located along an ocean shoreline, \nbetween the ocean itself and dry, upland ecosystems. They are important areas \nthat filter water, protect coastlines, and provide essential habitat. Salt marshes \ncan be affected by tides and weather events. Depending on a variety of factors, \nsalt marshes can contain varied amounts of vegetation, which can influence \nthe biodiversity and function of the salt marsh. The model below shows some \ninformation about a typical salt marsh.\nStriped \nbass, \nseaweed, \nflounder, \nclams\nCrab, \nmussels, \nworms\nSubtidal \nSubmerged\nTidal \nMudflat \nFlooded at \nhigh tide\nLow \nMarsh\n Flooded at \nhigh tide\nAnatomy of a Salt Marsh\nUpper \nBorder\n Reached only \nby storm surge\nUpland\n Above tidal \nzone\nHigh Marsh with \nSalt Pannes\nReached by salt \nspray/very high tide\nSmooth \ncordgrass, \nheron, \negret\nAtlantic \nsilversides, \nminnows, \nmussels\nGlasswort \nand sea \nlavender\nSaltmeadow \ncordgrass, \nspikegrass, \nsaltmarsh \nsparrow, \nasters\nGoldenrod, \ngroundsel \nbush, \nmarsh \nelder, \nswitchgrass\nCommon \nreed \nDeer, \nhawk, \ncedar\nSpring high tide\nNormal high tide\nSea level\nSalt \npanne\nTransitional \narea\nNormal low tide",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The claim is valid. As sea levels continue to rise, crabs and mussels will move into the low marsh area, which will provide more food for herons and egrets, so their population will increase. \u2014 Rising sea levels may cause the mudflat to move into the low marsh, which could decrease the habitat availability for minnows and silversides. This could decrease populations of heron and egret because of food shortage. This supports the claim that organisms will be impacted."
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which type of restoration project would promote the conditions necessary for the development of a stable ecosystem that would support complex interactions between the organisms living there?",
+      "choices": [
+        "The formation of a salt marsh area would allow only one species of water plant to grow in the damaged area.",
+        "Build bulkheads so fish and water plants would be held back from shorelines.",
+        "Planting vegetation along damaged shorelines would provide shelter for the protection of the shoreline organisms.",
+        "The building of a hard structure, such as a revetment, would increase the energy from the waves striking the shoreline."
+      ],
+      "image": "/images/exams/life-science/june-2025/context_22_27.png",
+      "context": "Base your answers to questions 22 through 27 on the information below and on your knowledge of biology.\nSalt Marsh Shoreline\nSalt marshes are unique ecosystems located along an ocean shoreline, \nbetween the ocean itself and dry, upland ecosystems. They are important areas \nthat filter water, protect coastlines, and provide essential habitat. Salt marshes \ncan be affected by tides and weather events. Depending on a variety of factors, \nsalt marshes can contain varied amounts of vegetation, which can influence \nthe biodiversity and function of the salt marsh. The model below shows some \ninformation about a typical salt marsh.\nStriped \nbass, \nseaweed, \nflounder, \nclams\nCrab, \nmussels, \nworms\nSubtidal \nSubmerged\nTidal \nMudflat \nFlooded at \nhigh tide\nLow \nMarsh\n Flooded at \nhigh tide\nAnatomy of a Salt Marsh\nUpper \nBorder\n Reached only \nby storm surge\nUpland\n Above tidal \nzone\nHigh Marsh with \nSalt Pannes\nReached by salt \nspray/very high tide\nSmooth \ncordgrass, \nheron, \negret\nAtlantic \nsilversides, \nminnows, \nmussels\nGlasswort \nand sea \nlavender\nSaltmeadow \ncordgrass, \nspikegrass, \nsaltmarsh \nsparrow, \nasters\nGoldenrod, \ngroundsel \nbush, \nmarsh \nelder, \nswitchgrass\nCommon \nreed \nDeer, \nhawk, \ncedar\nSpring high tide\nNormal high tide\nSea level\nSalt \npanne\nTransitional \narea\nNormal low tide",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which claim best describes the complex interactions in a natural living shoreline that are affected by changing conditions, such as a severe storm?",
+      "choices": [
+        "Erosion that occurs during a storm can cause changes to the slope of the land, which exposes high marsh plants to decreased levels of salt, reducing biodiversity.",
+        "Oyster reefs can reduce erosion caused by storm waves, which allows salt marshes to expand upland, increasing habitat availability for other organisms.",
+        "Bulkheads prevent erosion and increase biodiversity by preventing marsh migration and maintaining the berm during storms.",
+        "Severe storms have no impact on the salinity of a salt marsh which causes cordgrass to die, resulting in shorelines that have less vegetation to prevent erosion. Life Science: Water levels across the Great Lakes are primarily the result of natural, uncontrolled water supplies into the basin. In June 2019, Lake Ontario experienced record high water levels resulting from heavy rains and storms. Oswego, NY is a city located on the shoreline of Lake Ontario. Significant damages and other impacts were experienced across the system. Concerns about shoreline loss ranged from loss of revenue from recreational activities in lakeside towns, such as boating, fishing, swimming, and fine dining to property loss for homeowners and businesses. Shoreline communities are seeking reliable ways to reduce property damages and maintain the beach town culture and natural recreational opportunities. The photograph shows one shoreline in Oswego, NY after the 2019 high water event."
+      ],
+      "image": "/images/exams/life-science/june-2025/context_22_27.png",
+      "context": "Base your answers to questions 22 through 27 on the information below and on your knowledge of biology.\nSalt Marsh Shoreline\nSalt marshes are unique ecosystems located along an ocean shoreline, \nbetween the ocean itself and dry, upland ecosystems. They are important areas \nthat filter water, protect coastlines, and provide essential habitat. Salt marshes \ncan be affected by tides and weather events. Depending on a variety of factors, \nsalt marshes can contain varied amounts of vegetation, which can influence \nthe biodiversity and function of the salt marsh. The model below shows some \ninformation about a typical salt marsh.\nStriped \nbass, \nseaweed, \nflounder, \nclams\nCrab, \nmussels, \nworms\nSubtidal \nSubmerged\nTidal \nMudflat \nFlooded at \nhigh tide\nLow \nMarsh\n Flooded at \nhigh tide\nAnatomy of a Salt Marsh\nUpper \nBorder\n Reached only \nby storm surge\nUpland\n Above tidal \nzone\nHigh Marsh with \nSalt Pannes\nReached by salt \nspray/very high tide\nSmooth \ncordgrass, \nheron, \negret\nAtlantic \nsilversides, \nminnows, \nmussels\nGlasswort \nand sea \nlavender\nSaltmeadow \ncordgrass, \nspikegrass, \nsaltmarsh \nsparrow, \nasters\nGoldenrod, \ngroundsel \nbush, \nmarsh \nelder, \nswitchgrass\nCommon \nreed \nDeer, \nhawk, \ncedar\nSpring high tide\nNormal high tide\nSea level\nSalt \npanne\nTransitional \narea\nNormal low tide",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Identify the best possible option for shoreline restoration in Oswego, NY from the Shoreline Engineering Solutions chart based on the associated cost, reliability, and aesthetics. Evaluate the social and environmental impacts of this solution using those criteria and their trade-offs. Life Science:",
+      "choices": [],
+      "image": "/images/exams/life-science/june-2025/context_22_27.png",
+      "context": "Base your answers to questions 22 through 27 on the information below and on your knowledge of biology.\nSalt Marsh Shoreline\nSalt marshes are unique ecosystems located along an ocean shoreline, \nbetween the ocean itself and dry, upland ecosystems. They are important areas \nthat filter water, protect coastlines, and provide essential habitat. Salt marshes \ncan be affected by tides and weather events. Depending on a variety of factors, \nsalt marshes can contain varied amounts of vegetation, which can influence \nthe biodiversity and function of the salt marsh. The model below shows some \ninformation about a typical salt marsh.\nStriped \nbass, \nseaweed, \nflounder, \nclams\nCrab, \nmussels, \nworms\nSubtidal \nSubmerged\nTidal \nMudflat \nFlooded at \nhigh tide\nLow \nMarsh\n Flooded at \nhigh tide\nAnatomy of a Salt Marsh\nUpper \nBorder\n Reached only \nby storm surge\nUpland\n Above tidal \nzone\nHigh Marsh with \nSalt Pannes\nReached by salt \nspray/very high tide\nSmooth \ncordgrass, \nheron, \negret\nAtlantic \nsilversides, \nminnows, \nmussels\nGlasswort \nand sea \nlavender\nSaltmeadow \ncordgrass, \nspikegrass, \nsaltmarsh \nsparrow, \nasters\nGoldenrod, \ngroundsel \nbush, \nmarsh \nelder, \nswitchgrass\nCommon \nreed \nDeer, \nhawk, \ncedar\nSpring high tide\nNormal high tide\nSea level\nSalt \npanne\nTransitional \narea\nNormal low tide",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Answers must include: \u2022 The name of a solution from the chart. \u2022 A discussion of cost, reliability, and aesthetics. \u2022 A discussion of social and environmental impacts. Acceptable responses include, but are not limited to: \u2014 Bulkheads have a higher initial price but lower maintenance costs and are a permanent and reliable solution to environmental concerns of shoreline loss. They are set back from the water, so social and recreational activities could continue without the aesthetics being affected. \u2014 Because the community is focused on the social and recreational value of the shoreline, the revetment would be the best aesthetic option to restore the shoreline because it looks natural. The revetment also is the most reliable option and is cheaper to maintain. However, it does not protect against floods and has the highest cost. \u2014 The best solution for Oswego is to install sills because they are not too expensive to construct, have low maintenance, and look more natural than some other options. Sills do not prevent the flooding of businesses but they do slow down water rise while providing habitat for organisms and protecting wetlands."
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "What evidence could be used to support the claim that there are patterns in how front limbs evolved in descendants of ancestral bony fish?",
+      "choices": [
+        "documented changes in the habitat of ancestral ray-finned fish that required them to change the number of genes used to produce pectoral fins",
+        "similarities in the base sequence of genes that control the development of pectoral fins in the zebrafish and front limbs in tetrapods",
+        "a comparison of the total number of fins on a zebrafish and the total number of limbs present on a tetrapod that is alive today",
+        "information regarding how the front limb is used within the environment of the modern-day tetrapod Life Science: The diagram summarizes some of the current structural and fossil information regarding front limb evolution in some living animal species and some extinct water-dwelling animal species. Evolution of Tetrapod Front Limbs Living Extinct (Not drawn to scale) Human Upper arm (1 bone) Lower arm (2 bones) Wrist (many bones) Fingers (digits) Mole Horse Porpoise Acanthostega Bat Ancestral bony fish X Species"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_28_32.png",
+      "context": "Base your answers to questions 28 through 32 on the information and diagrams below and on your knowledge \nof biology.\nLimb Evolution\nTetrapods include all animals with backbones that have four limbs that end \nwith digits (fingers and toes). Some tetrapods, such as whales and snakes, do \nnot have four obvious limbs but are included because they have a four-limbed \nancestor.\nThe front limbs of tetrapods are believed to have evolved from the pectoral \nfins of an ancestral bony fish.\nEvolutionary Relationships\nAncestral\nbony fish\nRay-finned fish\nLobe-finned fish\nand tetrapods\nZebrafish\nA Modern Ray-Finned Fish\nPectoral fin\nCluster of \nthick bones\nThin bones",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which statement below identifies the evolutionary relationships presented in the diagram?",
+      "choices": [
+        "The forelimbs of Acanthostega and the living species have a bone structure best suited to life on land, therefore the forelimb of all species evolved from an extinct land-dwelling ancestor.",
+        "The extinct, water-dwelling Acanthostega and porpoise share the most similar habitat, therefore they share the most recent, extinct common ancestor.",
+        "Each of the living species has different forelimb bone structures because they developed different structures in order to evolve within their specific habitats.",
+        "The forelimbs of the extinct, water-dwelling species and the living species have a similar arrangement of bones, which provides evidence of common ancestry."
+      ],
+      "image": "/images/exams/life-science/june-2025/context_28_32.png",
+      "context": "Base your answers to questions 28 through 32 on the information and diagrams below and on your knowledge \nof biology.\nLimb Evolution\nTetrapods include all animals with backbones that have four limbs that end \nwith digits (fingers and toes). Some tetrapods, such as whales and snakes, do \nnot have four obvious limbs but are included because they have a four-limbed \nancestor.\nThe front limbs of tetrapods are believed to have evolved from the pectoral \nfins of an ancestral bony fish.\nEvolutionary Relationships\nAncestral\nbony fish\nRay-finned fish\nLobe-finned fish\nand tetrapods\nZebrafish\nA Modern Ray-Finned Fish\nPectoral fin\nCluster of \nthick bones\nThin bones",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Construct an explanation, based on evidence, that the evolution of limb development can be the result of environmental factors. Life Science: Scientists are searching for transitional fossils to provide evidence that land- living tetrapods evolved from bony fish. This missing species is represented by Species X on the Evolution of Tetrapods Front Limbs diagram. In 2004, fossilized remains of a possible contender were discovered in Canada. It was named Tiktaalik. Tiktaalik was a large, fish-like organism that lived about 385 million years ago, when the seas were crowded with many species of fish. It is believed that Tiktaalik lived in shallow, warm water. During this time period the first plants were taking over the land and creeping insects and spiders flourished. Tiktaalik could spot prey on the land and in the water using its eyes, located on top of its head. It could also use its very strong front fins to chase and catch prey on the shore. Although it was a large animal, it is likely that Tiktaalik was also the prey for even larger predatory fish, such as the gigantic Rhizodus, which had two massive fangs located at the front of its jaw. The diagram below shows some information about possible extinct organisms. Characteristics of Tiktaalik and Rhizodus Tiktaalik Rhizodus Length 125 - 275cm Length 600cm Thick bones Thin bones (Not drawn to scale)",
+      "choices": [],
+      "image": "/images/exams/life-science/june-2025/context_28_32.png",
+      "context": "Base your answers to questions 28 through 32 on the information and diagrams below and on your knowledge \nof biology.\nLimb Evolution\nTetrapods include all animals with backbones that have four limbs that end \nwith digits (fingers and toes). Some tetrapods, such as whales and snakes, do \nnot have four obvious limbs but are included because they have a four-limbed \nancestor.\nThe front limbs of tetrapods are believed to have evolved from the pectoral \nfins of an ancestral bony fish.\nEvolutionary Relationships\nAncestral\nbony fish\nRay-finned fish\nLobe-finned fish\nand tetrapods\nZebrafish\nA Modern Ray-Finned Fish\nPectoral fin\nCluster of \nthick bones\nThin bones",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Random changes in the genes for limb development provided variation for the process of natural selection to act on. Different limb variations will be selected for or against based on the habitat the organism lives in. The mole and the porpoise have similar bone structures, but are both well adapted to their environment. Organisms with beneficial variations will pass them on. \u2014 When the environment changes, those organisms that are better able to survive will reproduce and pass on their genes to the next generation. Over time this would lead to limb development in the population that is well suited to the new environment."
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Use patterns in the front limb bone structure to support the researcher\u2019s claim that Tiktaalik represents an ancestral form between ray-finned fish and the early tetrapod, Acanthostega. Life Science:",
+      "choices": [],
+      "image": "/images/exams/life-science/june-2025/context_28_32.png",
+      "context": "Base your answers to questions 28 through 32 on the information and diagrams below and on your knowledge \nof biology.\nLimb Evolution\nTetrapods include all animals with backbones that have four limbs that end \nwith digits (fingers and toes). Some tetrapods, such as whales and snakes, do \nnot have four obvious limbs but are included because they have a four-limbed \nancestor.\nThe front limbs of tetrapods are believed to have evolved from the pectoral \nfins of an ancestral bony fish.\nEvolutionary Relationships\nAncestral\nbony fish\nRay-finned fish\nLobe-finned fish\nand tetrapods\nZebrafish\nA Modern Ray-Finned Fish\nPectoral fin\nCluster of \nthick bones\nThin bones",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The fins of Tiktaalik have both thin bones, like ray-finned fish, and thick bones, like Acanthostega. \u2014 Tiktaalik has thick bones close to its body with thin bones toward the tips of the pectoral fins. \u2014 Some bone structures of Tiktaalik are similar to both the zebrafish and Acanthostega. Life Science: Biology Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "What evidence supports the explanation that animals with traits well-suited to life on land evolved because of the environmental factors present 385 million years ago?",
+      "choices": [
+        "The large body of Rhizodus allowed it to move quickly through the shallow water.",
+        "The location of Tiktaalik\u2019s eyes allowed it to see prey in both the land and water.",
+        "Rhizodus had large fangs which allowed it to function as a predator of Tiktaalik both on land and in the water.",
+        "Tiktaalik was able to access new food sources and evade predation by Rhizodus because the bone structure of its fins enabled it to walk on land. Life Science:"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_28_32.png",
+      "context": "Base your answers to questions 28 through 32 on the information and diagrams below and on your knowledge \nof biology.\nLimb Evolution\nTetrapods include all animals with backbones that have four limbs that end \nwith digits (fingers and toes). Some tetrapods, such as whales and snakes, do \nnot have four obvious limbs but are included because they have a four-limbed \nancestor.\nThe front limbs of tetrapods are believed to have evolved from the pectoral \nfins of an ancestral bony fish.\nEvolutionary Relationships\nAncestral\nbony fish\nRay-finned fish\nLobe-finned fish\nand tetrapods\nZebrafish\nA Modern Ray-Finned Fish\nPectoral fin\nCluster of \nthick bones\nThin bones",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Using information from the model, which statement correctly identifies how the movement of matter in this ecosystem provides energy for different organisms?",
+      "choices": [
+        "The plant takes in carbon compounds from the atmosphere, which get converted into sugar and then used by the cow during Process B to produce usable energy.",
+        "The plant takes in oxygen from the soil, which gets converted into nutrients during Process B to produce usable energy.",
+        "The cow performs Process C, which releases sugars into the atmosphere and then is used by plants during Process A to produce usable energy.",
+        "The cow\u2019s wastes are broken down through Process A, which releases sugars into the soil and then is used by plants during Process C to produce usable energy. Life Science:"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_33_37.png",
+      "context": "Base your answers to questions 33 through 37 on the information below and on your knowledge of biology.\nDoes It Matter?\nThe carbon used by plants is moved between living organisms, the minerals \nin the soil, the hydrosphere, and the atmosphere through processes in the carbon \ncycle.\nSunlight\nCarbon compound\nemissions\nProcess \nA\nProcess \nB\nProcess \nC\nMatter Conversions\nNutrients added to soil\n60 3 1015\ngrams of \nmatter \nemitted\n60 3 1015\ngrams of matter \nemitted\n123 3 1015\ngrams of \nmatter \nabsorbed\nDead organisms\nand fertilizer products",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Using evidence from the model, construct an explanation for the role of Process C in the cycling of matter between living organisms in this ecosystem. Plants rearrange matter to produce other needed compounds. The model below shows some of the compounds that plants synthesize. Boxes X, Y, and Z represent element(s) used to make these compounds. Box Y Box Z Box X Lipids Starch Proteins Substance 1 DNA + + How Plants Rearrange Matter",
+      "choices": [],
+      "image": "/images/exams/life-science/june-2025/context_33_37.png",
+      "context": "Base your answers to questions 33 through 37 on the information below and on your knowledge of biology.\nDoes It Matter?\nThe carbon used by plants is moved between living organisms, the minerals \nin the soil, the hydrosphere, and the atmosphere through processes in the carbon \ncycle.\nSunlight\nCarbon compound\nemissions\nProcess \nA\nProcess \nB\nProcess \nC\nMatter Conversions\nNutrients added to soil\n60 3 1015\ngrams of \nmatter \nemitted\n60 3 1015\ngrams of matter \nemitted\n123 3 1015\ngrams of \nmatter \nabsorbed\nDead organisms\nand fertilizer products",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 According to the model, matter from living organisms is returned to the soil, where it can be used by plants through the process of decomposition. \u2014 Process C makes nutrients available to plants when organisms die/eliminate waste. \u2014 When organisms die, bacteria use the matter to carry out their life processes. \u2014 Process C releases carbon dioxide into the atmosphere as dead organisms and fertilizer products are broken down."
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which explanation best supports the claim that elements from Substance 1 in the model combine with different elements to form other carbon-based molecules?",
+      "choices": [
+        "The elements in Box Y are broken down into nitrogen and phosphorous and then combined to form lipids.",
+        "Substance 1 molecules can be joined together to make starch.",
+        "The elements in Box Y are combined with nitrogen to make the substances which are used to form proteins.",
+        "Substance 1 molecules can be joined together to make DNA. Life Science:"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_33_37.png",
+      "context": "Base your answers to questions 33 through 37 on the information below and on your knowledge of biology.\nDoes It Matter?\nThe carbon used by plants is moved between living organisms, the minerals \nin the soil, the hydrosphere, and the atmosphere through processes in the carbon \ncycle.\nSunlight\nCarbon compound\nemissions\nProcess \nA\nProcess \nB\nProcess \nC\nMatter Conversions\nNutrients added to soil\n60 3 1015\ngrams of \nmatter \nemitted\n60 3 1015\ngrams of matter \nemitted\n123 3 1015\ngrams of \nmatter \nabsorbed\nDead organisms\nand fertilizer products",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Based on the information in all the models provided, which claim can be made about why Substance 1 is essential for plant metabolism?",
+      "choices": [
+        "Process B combines Substance 1 with other elements to form lipids to be utilized by the plant.",
+        "Process A rearranges elements of carbon, hydrogen, and oxygen to form Substance 1 to be utilized by the plant.",
+        "Processes A and C combine nitrogen and phosphorus with Substance 1 to form proteins utilized by the plant.",
+        "Processes B and C rearrange nitrogen and Substance 1 to form DNA and starches utilized by the plant."
+      ],
+      "image": "/images/exams/life-science/june-2025/context_33_37.png",
+      "context": "Base your answers to questions 33 through 37 on the information below and on your knowledge of biology.\nDoes It Matter?\nThe carbon used by plants is moved between living organisms, the minerals \nin the soil, the hydrosphere, and the atmosphere through processes in the carbon \ncycle.\nSunlight\nCarbon compound\nemissions\nProcess \nA\nProcess \nB\nProcess \nC\nMatter Conversions\nNutrients added to soil\n60 3 1015\ngrams of \nmatter \nemitted\n60 3 1015\ngrams of matter \nemitted\n123 3 1015\ngrams of \nmatter \nabsorbed\nDead organisms\nand fertilizer products",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Construct an explanation using quantitative evidence for how the cycling of matter in plants results in changes to carbon stored in the atmosphere and biosphere. Life Science:",
+      "choices": [],
+      "image": "/images/exams/life-science/june-2025/context_33_37.png",
+      "context": "Base your answers to questions 33 through 37 on the information below and on your knowledge of biology.\nDoes It Matter?\nThe carbon used by plants is moved between living organisms, the minerals \nin the soil, the hydrosphere, and the atmosphere through processes in the carbon \ncycle.\nSunlight\nCarbon compound\nemissions\nProcess \nA\nProcess \nB\nProcess \nC\nMatter Conversions\nNutrients added to soil\n60 3 1015\ngrams of \nmatter \nemitted\n60 3 1015\ngrams of matter \nemitted\n123 3 1015\ngrams of \nmatter \nabsorbed\nDead organisms\nand fertilizer products",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Since plants absorb 123 3 1015 grams of matter but only emit 60 3 1015 grams of matter overall, they move matter from the atmosphere to the biosphere. \u2014 Plants absorb 60 3 1015 more grams of matter into the biosphere than they release into the atmosphere."
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "How did the number of prairie dog burrows affect the carrying capacity of burrowing owls in the area?",
+      "choices": [
+        "As the number of prairie dog burrows decreased, the number of burrowing owls the area could support increased.",
+        "As the number of burrowing owls increased, the number of prairie dogs the area could support decreased.",
+        "As the number of prairie dog burrows decreased, the number of burrowing owls the area could support decreased.",
+        "As the number of burrowing owls increased, the number of total burrows the area could support decreased."
+      ],
+      "image": "/images/exams/life-science/june-2025/context_38_42.png",
+      "context": "Base your answers to questions 38 through 42 on the information below and on your knowledge of biology.\nKeystone Species: Black-Tailed Prairie Dogs\nThe black-tailed prairie dog is a keystone species because it maintains the \ncomplex web of relationships in North America\u2019s central grassland ecosystems. \nThey feed primarily on plants that are high in moisture and nutrients. As they eat \nthe plants, they drop leaf clippings, which add nutrients to the soil. They construct \nburrows, which when abandoned can provide homes to rattlesnakes, burrowing \nowls, and insects. Prairie dogs are the primary prey for many organisms, including \nthe black-footed ferret, one of the rarest and most endangered animals in North \nAmerica. \nThe prairie dog population of North America\u2019s central grassland is on a steady \ndecline. The most significant threats facing prairie dogs are the conversion of \nrangeland to cropland, urban development, hunting, and use of poison because \nthey are considered a pest to local farmers and ranchers.\nThe graph below shows some data collected in a study of 17 prairie dog \ncolonies in Nebraska.\n1990\n1991\n1992\n1993\n1994\n1995\n1996\n0\n*Complete data not available for 1991.\n0\n*\n1\n2\n3\n4\nNumber of \nowls\nBurrows not \nin use\nBurrows used \nby prairie dogs\n5\n6\nOwl Numbers\nTime (years)\nMean Burrow Density\n20\n40\nKey\nChanges in Average Number of Prairie Dog Burrows and \nBurrowing Owl Populations in North America\n60\n80\n100\n\nLife Science: Biology \u2013 June \u201925\t\n[35]\t\n[OVER]",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "written",
+      "text": "Evaluate the claim that a significant decrease in the prairie dog population would have widespread effects by identifying a specific interaction between ecosystem components. Life Science: A disease known as the Sylvatic Plague is caused by a bacterium that is carried by fleas on rats. The disease targets small mammals, including the prairie dog. This disease entered the western United States as a consequence of the shipping industry and has been spreading eastward. The graph below shows changes in the prairie dog populations observed in two different states during the 1990s. 0 0 20 40 60 80 100 2 Year of Monitoring Fluctuations in Prairie Dog Populations in North America Population (Percent of highest) 4 6 8 10 12 South Dakota (no plague) Colorado (plague present) Key",
+      "choices": [],
+      "image": "/images/exams/life-science/june-2025/context_38_42.png",
+      "context": "Base your answers to questions 38 through 42 on the information below and on your knowledge of biology.\nKeystone Species: Black-Tailed Prairie Dogs\nThe black-tailed prairie dog is a keystone species because it maintains the \ncomplex web of relationships in North America\u2019s central grassland ecosystems. \nThey feed primarily on plants that are high in moisture and nutrients. As they eat \nthe plants, they drop leaf clippings, which add nutrients to the soil. They construct \nburrows, which when abandoned can provide homes to rattlesnakes, burrowing \nowls, and insects. Prairie dogs are the primary prey for many organisms, including \nthe black-footed ferret, one of the rarest and most endangered animals in North \nAmerica. \nThe prairie dog population of North America\u2019s central grassland is on a steady \ndecline. The most significant threats facing prairie dogs are the conversion of \nrangeland to cropland, urban development, hunting, and use of poison because \nthey are considered a pest to local farmers and ranchers.\nThe graph below shows some data collected in a study of 17 prairie dog \ncolonies in Nebraska.\n1990\n1991\n1992\n1993\n1994\n1995\n1996\n0\n*Complete data not available for 1991.\n0\n*\n1\n2\n3\n4\nNumber of \nowls\nBurrows not \nin use\nBurrows used \nby prairie dogs\n5\n6\nOwl Numbers\nTime (years)\nMean Burrow Density\n20\n40\nKey\nChanges in Average Number of Prairie Dog Burrows and \nBurrowing Owl Populations in North America\n60\n80\n100\n\nLife Science: Biology \u2013 June \u201925\t\n[35]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The claim is valid because the prairie dogs interact with many other species. If the prairie dog population decreased, there would be less food available for black footed ferrets. As the ferrets are already endangered, this could mean the loss of this species and a direct decrease in biodiversity. \u2014 Prairie dog burrows are used by owls/rattlesnakes/insects, so a decrease in prairie dog population would cause a decrease in the number of burrows available. This claim is valid because there would be fewer burrows/homes for many other organisms. \u2014 This claim is supported because without prairie dogs dropping clippings, the soil would be lower in nutrients, which would dramatically alter the ecosystem. Life Science: Biology Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "A claim was made that some of the prairie dogs in Colorado had an advantageous heritable trait that protected them from the plague. Which statement would provide evidence to support this claim?",
+      "choices": [
+        "The prairie dog population increased between years 1 and 2 and years 7 and 8, but then declined because the prairie dogs with the protective variation soon died.",
+        "The prairie dog population declined between years 1 and 2 and years 7 and 8, but was able to recover because the prairie dogs with the protective variations survived to reproduce.",
+        "The prairie dogs were protected from the plague because the percentage of prairie dogs surviving the plague was always above 60.",
+        "Both populations of prairie dogs recovered from plague infections before year 12. Life Science:"
+      ],
+      "image": "/images/exams/life-science/june-2025/context_38_42.png",
+      "context": "Base your answers to questions 38 through 42 on the information below and on your knowledge of biology.\nKeystone Species: Black-Tailed Prairie Dogs\nThe black-tailed prairie dog is a keystone species because it maintains the \ncomplex web of relationships in North America\u2019s central grassland ecosystems. \nThey feed primarily on plants that are high in moisture and nutrients. As they eat \nthe plants, they drop leaf clippings, which add nutrients to the soil. They construct \nburrows, which when abandoned can provide homes to rattlesnakes, burrowing \nowls, and insects. Prairie dogs are the primary prey for many organisms, including \nthe black-footed ferret, one of the rarest and most endangered animals in North \nAmerica. \nThe prairie dog population of North America\u2019s central grassland is on a steady \ndecline. The most significant threats facing prairie dogs are the conversion of \nrangeland to cropland, urban development, hunting, and use of poison because \nthey are considered a pest to local farmers and ranchers.\nThe graph below shows some data collected in a study of 17 prairie dog \ncolonies in Nebraska.\n1990\n1991\n1992\n1993\n1994\n1995\n1996\n0\n*Complete data not available for 1991.\n0\n*\n1\n2\n3\n4\nNumber of \nowls\nBurrows not \nin use\nBurrows used \nby prairie dogs\n5\n6\nOwl Numbers\nTime (years)\nMean Burrow Density\n20\n40\nKey\nChanges in Average Number of Prairie Dog Burrows and \nBurrowing Owl Populations in North America\n60\n80\n100\n\nLife Science: Biology \u2013 June \u201925\t\n[35]\t\n[OVER]",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The South Dakota prairie dog population shows fluctuation within a range. Which row of the table identifies how different factors affect the carrying capacity? Row Factor keeping population from dropping substantially Factor keeping population from increasing substantially",
+      "choices": [
+        "Urban development Number of abandoned burrows",
+        "Depletion of soil nutrients Reduced rangeland",
+        "Preservation of grassland Predation by ferrets",
+        "Decreased use of poisons Increased soil nutrients Various methods of controlling this plague are being investigated. Two methods that have been found to be effective are described in the table below. Vaccination Burrow Dusting - Oral vaccine given as peanut butter- flavored tablet - Fights off infection for up to 9 months after becoming effective - Tablets must be eaten by the prairie dogs within 7 days of being dropped - Insecticide powder is sprayed into prairie dog burrows - Kills fleas that carry disease that is transmitted to prairie dogs - Can reduce fleas for up to 2 years beginning immediately after spraying The location of the study is near residential areas and open ranges that are used to graze cattle and serve as habitats for wild animals. Researchers have been asked to make recommendations regarding which strategy would be the best to use to protect the prairie dog populations from the plague without negatively impacting the nearby areas."
+      ],
+      "image": "/images/exams/life-science/june-2025/context_38_42.png",
+      "context": "Base your answers to questions 38 through 42 on the information below and on your knowledge of biology.\nKeystone Species: Black-Tailed Prairie Dogs\nThe black-tailed prairie dog is a keystone species because it maintains the \ncomplex web of relationships in North America\u2019s central grassland ecosystems. \nThey feed primarily on plants that are high in moisture and nutrients. As they eat \nthe plants, they drop leaf clippings, which add nutrients to the soil. They construct \nburrows, which when abandoned can provide homes to rattlesnakes, burrowing \nowls, and insects. Prairie dogs are the primary prey for many organisms, including \nthe black-footed ferret, one of the rarest and most endangered animals in North \nAmerica. \nThe prairie dog population of North America\u2019s central grassland is on a steady \ndecline. The most significant threats facing prairie dogs are the conversion of \nrangeland to cropland, urban development, hunting, and use of poison because \nthey are considered a pest to local farmers and ranchers.\nThe graph below shows some data collected in a study of 17 prairie dog \ncolonies in Nebraska.\n1990\n1991\n1992\n1993\n1994\n1995\n1996\n0\n*Complete data not available for 1991.\n0\n*\n1\n2\n3\n4\nNumber of \nowls\nBurrows not \nin use\nBurrows used \nby prairie dogs\n5\n6\nOwl Numbers\nTime (years)\nMean Burrow Density\n20\n40\nKey\nChanges in Average Number of Prairie Dog Burrows and \nBurrowing Owl Populations in North America\n60\n80\n100\n\nLife Science: Biology \u2013 June \u201925\t\n[35]\t\n[OVER]",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "written",
+      "text": "Describe the treatment, vaccination or burrow dusting, that will best protect the prairie dogs from the plague while considering the criteria and constraints of cost, safety, or reliability. Use specific information from the table to justify your choice of cost, safety, or reliability. Life Science:",
+      "choices": [],
+      "image": "/images/exams/life-science/june-2025/context_38_42.png",
+      "context": "Base your answers to questions 38 through 42 on the information below and on your knowledge of biology.\nKeystone Species: Black-Tailed Prairie Dogs\nThe black-tailed prairie dog is a keystone species because it maintains the \ncomplex web of relationships in North America\u2019s central grassland ecosystems. \nThey feed primarily on plants that are high in moisture and nutrients. As they eat \nthe plants, they drop leaf clippings, which add nutrients to the soil. They construct \nburrows, which when abandoned can provide homes to rattlesnakes, burrowing \nowls, and insects. Prairie dogs are the primary prey for many organisms, including \nthe black-footed ferret, one of the rarest and most endangered animals in North \nAmerica. \nThe prairie dog population of North America\u2019s central grassland is on a steady \ndecline. The most significant threats facing prairie dogs are the conversion of \nrangeland to cropland, urban development, hunting, and use of poison because \nthey are considered a pest to local farmers and ranchers.\nThe graph below shows some data collected in a study of 17 prairie dog \ncolonies in Nebraska.\n1990\n1991\n1992\n1993\n1994\n1995\n1996\n0\n*Complete data not available for 1991.\n0\n*\n1\n2\n3\n4\nNumber of \nowls\nBurrows not \nin use\nBurrows used \nby prairie dogs\n5\n6\nOwl Numbers\nTime (years)\nMean Burrow Density\n20\n40\nKey\nChanges in Average Number of Prairie Dog Burrows and \nBurrowing Owl Populations in North America\n60\n80\n100\n\nLife Science: Biology \u2013 June \u201925\t\n[35]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Because burrow dusting is effective at reducing fleas for up to two years, the prairie dogs will be protected from the plague at a lower cost than the vaccine, which fights infection for only nine months. \u2014 Burrow dusting would be the safest method because the insecticide powder is applied to underground burrows, where it should not affect the cattle living on the range. \u2014 Vaccination will be the most reliable method because prairie dogs will seek out the good-tasting tablets. Burrow dusting would be less reliable because workers might miss some burrows."
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Which question would help determine the role of DNA in passing genetic information that influenced birth weight from the mothers during the famine to their children?",
+      "choices": [
+        "Did the genes that play a role in determining birth weight come from both parents?",
+        "Did genes made of amino acids come from the DNA of only one parent?",
+        "Did genes composed of protein come from the DNA of both parents?",
+        "Did the stomach cells of the mother have genes that play a role in birth weight? Life Science: Scientists determined that the children whose mothers were in early pregnancy during the famine (children of the famine), had more obesity and chronic health problems in adulthood compared to their siblings that did not have this exposure. The children of the famine had changes in expression of some of their genes. One of these genes, known as IGF2 (insulin-like growth factor 2), codes for a hormone. The codon chart below can be used to determine the amino acids that are coded for by a DNA sequence. First Base U UUU UUC UUG UUA CUU CUC CUG CUA AUU AUC AUG AUA GUU GUC GUG GUA UAU UAC UAG UAA CAU CAC CAG CAA AAU AAC AAG AAA GAU GAC GAG GAA UGU UGC UGG UGA CGU CGC CGG CGA AGU AGC AGG AGA GGU GGC GGG GGA U C G A U C G A U C G A U C G A UCU UCC UCG UCA CCU CCC CCG CCA ACU ACC ACG ACA GCU GCC GCG GCA Phenylalanine Phenylalanine Leucine Leucine Leucine Leucine Leucine Leucine Isoleucine Isoleucine Methionine or start Isoleucine Valine Valine Valine Valine Tyrosine Tyrosine Stop Stop Histidine Histidine Glutamine Glutamine Asparagine Asparagine Lysine Lysine Aspartic Acid Aspartic Acid Glutamic Acid Glutamic Acid Cysteine Cysteine Tryptophan Stop Arginine Arginine Arginine Arginine Serine Serine Arginine Arginine Glycine Glycine Glycine Glycine Serine Serine Serine Serine Proline Proline Proline Proline Threonine Threonine Threonine Threonine Alanine Alanine Alanine Alanine U C A G Third Base Second Base Codons in mRNA G A C Life Science: A portion of the IGF2 DNA sequence is included in the table below. DNA CTC CAC GCT mRNA GAG GUG CGA Amino Acid glutamic acid valine arginine"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 43 through 48 on the information below and on your knowledge of \nbiology.\nNature or Nurture?\nDuring one winter in the 20th century, the Netherlands experienced a severe \nfamine (a shortage of food). Some of the women that were in the early stages \nof pregnancy during the famine gave birth to children that surprisingly had \naverage or even above-average birth weights, considering the poor nutrition of \nthe mothers.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "A student claimed that changing CTC to CTG in the DNA would result in production of a different protein. Which explanation supports this claim?",
+      "choices": [
+        "When GAG turns to GAC, aspartic acid is included in the protein instead of glutamic acid.",
+        "When GAG turns to GAC, there is no change to the protein produced.",
+        "When GAG turns to GAC, the protein would include valine in place of glutamic acid.",
+        "When GAG turns to GAC, all of the amino acids that make up the protein would be different. Life Science: In a cell, DNA interacts with different molecules. It also interacts with methyl groups in a process known as methylation. X Methyl groups DNA DNA Transcription No transcription Unmethylated Methylated DNA Methylated vs Unmethylated DNA The IGF2 gene codes for a hormone that promotes fetal growth. The children of the famine had less methylation of the IGF2 gene than is typical in other children."
+      ],
+      "image": null,
+      "context": "Base your answers to questions 43 through 48 on the information below and on your knowledge of \nbiology.\nNature or Nurture?\nDuring one winter in the 20th century, the Netherlands experienced a severe \nfamine (a shortage of food). Some of the women that were in the early stages \nof pregnancy during the famine gave birth to children that surprisingly had \naverage or even above-average birth weights, considering the poor nutrition of \nthe mothers.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Construct an explanation based on evidence for how the structure of unmethylated DNA impacts the function of IGF2, resulting in greater birth weight. Life Science: Researchers tracked the health of the children of the famine and their offspring for many years. The research findings showed similar results in their offspring.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 43 through 48 on the information below and on your knowledge of \nbiology.\nNature or Nurture?\nDuring one winter in the 20th century, the Netherlands experienced a severe \nfamine (a shortage of food). Some of the women that were in the early stages \nof pregnancy during the famine gave birth to children that surprisingly had \naverage or even above-average birth weights, considering the poor nutrition of \nthe mothers.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Unmethylated DNA results in increased transcription of the IGF2 gene. This promotes the production of the growth hormone and increases fetal birth weight. \u2014 More IDF2 is transcribed when DNA is unmethylated, so more growth hormone is made."
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Which claim is best supported by evidence that their offspring had similar health problems despite a lack of exposure to famine?",
+      "choices": [
+        "Methylation levels of DNA are inherited for only one generation.",
+        "Methylation levels of DNA can be inherited over many generations.",
+        "The DNA base sequence is the only factor affecting gene expression.",
+        "The DNA base sequence is protected from mutation due to methylation. Besides famine during pregnancy, other environmental factors such as smoking nicotine can cause demethylation (removal of methyl groups) of portions of DNA responsible for cell division. The result of this demethylation is shown in the model below. Normal cell Methylated Demethylated Early stage tumor Intermediate stage tumor Late stage tumor Increasing DNA Demethylation Effects of Demethylation on Lung Cells"
+      ],
+      "image": "/images/exams/life-science/june-2025/q46.png",
+      "context": "Base your answers to questions 43 through 48 on the information below and on your knowledge of \nbiology.\nNature or Nurture?\nDuring one winter in the 20th century, the Netherlands experienced a severe \nfamine (a shortage of food). Some of the women that were in the early stages \nof pregnancy during the famine gave birth to children that surprisingly had \naverage or even above-average birth weights, considering the poor nutrition of \nthe mothers.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "written",
+      "text": "Using evidence from the model describe how the disruption of the flow of information affects lung cells with demethylated DNA.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 43 through 48 on the information below and on your knowledge of \nbiology.\nNature or Nurture?\nDuring one winter in the 20th century, the Netherlands experienced a severe \nfamine (a shortage of food). Some of the women that were in the early stages \nof pregnancy during the famine gave birth to children that surprisingly had \naverage or even above-average birth weights, considering the poor nutrition of \nthe mothers.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Smoking can lead to demethylation, which increases cell division and may form tumors. \u2014 Smoking can increase the risk of cancer by demethylating the DNA, causing cells to divide abnormally."
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Which statement identifies a solution that researchers could use to decrease tumor growth and progression?",
+      "choices": [
+        "Use radiation to remove methyl groups from the tumor genes.",
+        "Use gene therapy to modify the DNA to accelerate cell division in tumor cells.",
+        "Use medication to add methyl groups to the genes that cause an increase in cell division.",
+        "Use medication that increases the rate of mitosis in all body cells. LIFE SCIENCE: BIOLOGY LIFE SCIENCE: BIOLOGY Printed on Recycled Paper"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 43 through 48 on the information below and on your knowledge of \nbiology.\nNature or Nurture?\nDuring one winter in the 20th century, the Netherlands experienced a severe \nfamine (a shortage of food). Some of the women that were in the early stages \nof pregnancy during the famine gave birth to children that surprisingly had \naverage or even above-average birth weights, considering the poor nutrition of \nthe mothers.",
+      "correct": 2,
+      "modelAnswer": null
+    }
+  ]
+}

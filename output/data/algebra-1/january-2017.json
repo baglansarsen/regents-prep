@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-1",
+  "session": "january-2017",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to 16x2 \u0002 36?",
+      "choices": [
+        "4(2x \u0002 3)(2x \u0002 3)",
+        "4(2x \u0003 3)(2x \u0002 3)",
+        "(4x \u0002 6)(4x \u0002 6)",
+        "(4x \u0003 6)(4x \u0003 6)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "What is the solution set of the equation (x \u0002 2)(x \u0002 a) \u0004 0?",
+      "choices": [
+        "\u00022 and a",
+        "\u00022 and \u0002a",
+        "2 and a",
+        "2 and \u0002a"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Analysis of data from a statistical study shows a linear relationship in the data with a correlation coef\ufb01 cient of \u00020.524. Which statement best summarizes this result?",
+      "choices": [
+        "There is a strong positive correlation between the variables.",
+        "There is a strong negative correlation between the variables.",
+        "There is a moderate positive correlation between the variables.",
+        "There is a moderate negative correlation between the variables."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Boyle\u2019s Law involves the pressure and volume of gas in a container. It can be represented by the formula P1V1 \u0004 P2V2. When the formula is solved for P2, the result is",
+      "choices": [
+        "P1V1V2",
+        "V2 ______ P1V1",
+        "P1V1 _______ V2",
+        "P1V2 _______ V1 Part I Answer all 24 questions in this part. Each correct answer will receive 2 credits. No partial credit will be allowed. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For each statement or question, choose the word or expression that, of those given, best completes the statement or answers the question."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "written",
+      "text": "A radio station did a survey to determine what kind of music to play by taking a sample of middle school, high school, and college students. They were asked which of three different types of music they prefer on the radio: hip-hop, alternative, or classic rock. The results are summarized in the table below. Hip-Hop Alternative Classic Rock Middle School 28 18 4 High School 22 22",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2017/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "College 16 20 14 What percentage of college students prefer classic rock?",
+      "choices": [
+        "Algebra I (Common Core)",
+        "x y",
+        "",
+        "x y g(x) \u0015 x2 \u0012 7x \u0012 8 f(x) \u0015 x2 \u0011 7x \u0012 8"
+      ],
+      "image": "/images/exams/algebra-1/january-2017/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to 2(3g \u0002 4) \u0002 (8g \u0003 3)?",
+      "choices": [
+        "\u00022g \u0002 1",
+        "\u00022g \u0002 5",
+        "\u00022g \u0002 7",
+        "\u00022g \u0002 11"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "In 2014, the cost to mail a letter was 49\u00a2 for up to one ounce. Every additional ounce cost 21\u00a2. Which recursive function could be used to determine the cost of a 3-ounce letter, in cents?",
+      "choices": [
+        "a1 \u0004 49; an \u0004 an \u0002 1 \u0003 21",
+        "a1 \u0004 0; an \u0004 49an \u0002 1 \u0003 21",
+        "a1 \u0004 21; an \u0004 an \u0002 1 \u0003 49",
+        "a1 \u0004 0; an \u0004 21an \u0002 1 \u0003 49"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A car leaves Albany, NY, and travels west toward Buffalo, NY. The equation D \u0004 280 \u0002 59t can be used to represent the distance, D, from Buffalo after t hours. In this equation, the 59 represents the",
+      "choices": [
+        "car\u2019s distance from Albany",
+        "speed of the car",
+        "distance between Buffalo and Albany",
+        "number of hours driving"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Faith wants to use the formula C(f) \u0004 5 __ 9 (f \u0002 32) to convert degrees Fahrenheit, f, to degrees Celsius, C(f). If Faith calculated C(68), what would her result be?",
+      "choices": [
+        "20\u00b0 Celsius",
+        "20\u00b0 Fahrenheit",
+        "154\u00b0 Celsius",
+        "154\u00b0 Fahrenheit Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which scenario represents exponential growth?",
+      "choices": [
+        "A water tank is \ufb01 lled at a rate of 2 gallons/minute.",
+        "A vine grows 6 inches every week.",
+        "A species of \ufb02 y doubles its population every month during the summer.",
+        "A car increases its distance from a garage as it travels at a constant speed of 25 miles per hour."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "What is the minimum value of the function y \u0004 |x \u0003 3| \u0002 2?",
+      "choices": [
+        "\u00022",
+        "2",
+        "3",
+        "\u00023"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "What type of relationship exists between the number of pages printed on a printer and the amount of ink used by that printer?",
+      "choices": [
+        "positive correlation, but not causal",
+        "positive correlation, and causal",
+        "negative correlation, but not causal",
+        "negative correlation, and causal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "A computer application generates a sequence of musical notes using the function f(n) \u0004 6(16)n, where n is the number of the note in the sequence and f(n) is the note frequency in hertz. Which function will generate the same note sequence as f(n)?",
+      "choices": [
+        "g(n) \u0004 12",
+        "4n",
+        "p(n) \u0004 12",
+        "k(n) \u0004 6(8)2n Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which value of x is a solution to the equation 13 \u0002 36x2 \u0004 \u000212?",
+      "choices": [
+        "36 ___ 25",
+        "25 ___ 36",
+        "\u0002 6 __ 5",
+        "\u0002 5 __ 6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which point is a solution to the system below? 2y \u0005 \u000212x \u0003 4 y \u0005 \u00026x \u0003 4",
+      "choices": [
+        "(1, 1 __ 2 )",
+        "(0,6)",
+        "(\u0002 1 __ 2 ,5)",
+        "(\u00023,2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "When the function f(x) \u0004 x2 is multiplied by the value a, where a \u0006 1, the graph of the new function, g(x) \u0004 ax2",
+      "choices": [
+        "opens upward and is wider",
+        "opens upward and is narrower",
+        "opens downward and is wider",
+        "opens downward and is narrower"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Andy has $310 in his account. Each week, w, he withdraws $30 for his expenses. Which expression could be used if he wanted to \ufb01 nd out how much money he had left after 8 weeks?",
+      "choices": [
+        "310 \u0002 8w",
+        "280 \u0003 30(w \u0002 1)",
+        "310w \u0002 30",
+        "280 \u0002 30(w \u0002 1) Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The daily cost of production in a factory is calculated using c(x) \u0004 200 \u0003 16x, where x is the number of complete products manufactured. Which set of numbers best de\ufb01 nes the domain of c(x)?",
+      "choices": [
+        "integers",
+        "positive real numbers",
+        "positive rational numbers",
+        "whole numbers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Noah conducted a survey on sports participation. He created the following two dot plots to represent the number of students participating, by age, in soccer and basketball. 8 10 12 6 7 9 11 Soccer Players\u2019 Ages 8 10 12 6 7 9 11 Basketball Players\u2019 Ages Which statement about the given data sets is correct?",
+      "choices": [
+        "The data for soccer players are skewed right.",
+        "The data for soccer players have less spread than the data for basketball players.",
+        "The data for basketball players have the same median as the data for soccer players.",
+        "The data for basketball players have a greater mean than the data for soccer players. Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/january-2017/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A graph of average resting heart rates is shown below. The average resting heart rate for adults is 72 beats per minute, but doctors consider resting rates from 60-100 beats per minute within normal range. 20 120 100 80 60 40 0 10 20 30 40 50 60 y x Heart Rate (beats/min) Average Resting Heart Rate by Age Age (years) (0,112) (20,72) (50,72) Which statement about average resting heart rates is not supported by the graph?",
+      "choices": [
+        "A 10-year-old has the same average resting heart rate as a 20-year-old.",
+        "A 20-year-old has the same average resting heart rate as a 30-year-old.",
+        "A 40-year-old may have the same average resting heart rate for ten years.",
+        "The average resting heart rate for teenagers steadily decreases."
+      ],
+      "image": "/images/exams/algebra-1/january-2017/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The method of completing the square was used to solve the equation 2x2 \u0002 12x \u0003 6 \u0004 0. Which equation is a correct step when using this method?",
+      "choices": [
+        "(x \u0002 3)2 \u0004 6",
+        "(x \u0002 3)2 \u0004 \u00026",
+        "(x \u0002 3)2 \u0004 3",
+        "(x \u0002 3)2 \u0004 \u00023 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Nancy works for a company that offers two types of savings plans. Plan A is represented on the graph below. 10 20 30 40 50 60 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 0 Weeks Savings Plan A Plan B is represented by the function f(x) \u0004 0.01 \u0003 0.05x2, where x is the number of weeks. Nancy wants to have the highest savings possible after a year. Nancy picks Plan B. Her decision is",
+      "choices": [
+        "correct, because Plan B is an exponential function and will increase at a faster rate",
+        "correct, because Plan B is a quadratic function and will increase at a faster rate",
+        "incorrect, because Plan A will have a higher value after 1 year",
+        "incorrect, because Plan B is a quadratic function and will increase at a slower rate"
+      ],
+      "image": "/images/exams/algebra-1/january-2017/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "25",
+      "choices": [
+        "The number of miles he runs will increase by 90% each week.",
+        "The number of miles he runs will be 10% of the previous week.",
+        "M(w) represents the total mileage run in a given week.",
+        "w represents the number of weeks left until his marathon. Algebra I (Common Core) 25 In attempting to solve the system of equations y \u0004 3x \u0002 2 and 6x \u0002 2y \u0004 4, John graphed the two equations on his graphing calculator. Because he saw only one line, John wrote that the answer to the system is the empty set. Is he correct? Explain your answer. Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "A typical marathon is 26.2 miles. Allan averages 12 kilometers per hour when running in marathons. Determine how long it would take Allan to complete a marathon, to the nearest tenth of an hour. Justify your answer. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Solve the inequality below: 1.8 \u0002 0.4y \u2265 2.2 \u0002 2y Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Jakob is working on his math homework. He decides that the sum of the expression 1 __ 3 \u0003 6\u221a _ 5 ____ 7 must be rational because it is a fraction. Is Jakob correct? Explain your reasoning. Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2017/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Graph the inequality y \u0006 2x \u0002 5 on the set of axes below. State the coordinates of a point in its solution. y x Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2017/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Sandy programmed a website\u2019s checkout process with an equation to calculate the amount customers will be charged when they download songs. The website offers a discount. If one song is bought at the full price of $1.29, then each additional song is $.99. State an equation that represents the cost, C, when s songs are downloaded. Sandy \ufb01 gured she would be charged $52.77 for 52 songs. Is this the correct amount? Justify your answer. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "A family is traveling from their home to a vacation resort hotel. The table below shows their distance from home as a function of time. Time (hrs) 0 2 5 7 Distance (mi) 0 140 375 480 Determine the average rate of change between hour 2 and hour 7, including units. Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2017/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Nora says that the graph of a circle is a function because she can trace the whole graph without picking up her pencil. Mia says that a circle graph is not a function because multiple values of x map to the same y-value. Determine if either one is correct, and justify your answer completely. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Graph f(x) \u0004 |x| and g(x) \u0004 \u0002x2 \u0003 6 on the grid below. Does f(\u00022) \u0004 g(\u00022)? Use your graph to explain why or why not. Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2017/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Two friends went to a restaurant and ordered one plain pizza and two sodas. Their bill totaled $15.95. Later that day, \ufb01 ve friends went to the same restaurant. They ordered three plain pizzas and each person had one soda. Their bill totaled $45.90. Write and solve a system of equations to determine the price of one plain pizza. [Only an algebraic solution can receive full credit.] Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2017/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "36",
+      "choices": [
+        "The number of miles he runs will increase by 90% each week.",
+        "The number of miles he runs will be 10% of the previous week.",
+        "M(w) represents the total mileage run in a given week.",
+        "w represents the number of weeks left until his marathon. Algebra I (Common Core) 25 In attempting to solve the system of equations y \u0004 3x \u0002 2 and 6x \u0002 2y \u0004 4, John graphed the two equations on his graphing calculator. Because he saw only one line, John wrote that the answer to the system is the empty set. Is he correct? Explain your answer. Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Algebra I (Common Core) 26 A typical marathon is 26.2 miles. Allan averages 12 kilometers per hour when running in marathons. Determine how long it would take Allan to complete a marathon, to the nearest tenth of an hour. Justify your answer. Algebra I (Common Core) 27 Solve the inequality below: 1.8 \u0002 0.4y \u2265 2.2 \u0002 2y Algebra I (Common Core) 28 Jakob is working on his math homework. He decides that the sum of the expression 1 __ 3 \u0003 6\u221a _ 5 ____ 7 must be rational because it is a fraction. Is Jakob correct? Explain your reasoning. Algebra I (Common Core) 29 Graph the inequality y \u0006 2x \u0002 5 on the set of axes below. State the coordinates of a point in its solution. y x Algebra I (Common Core) 30 Sandy programmed a website\u2019s checkout process with an equation to calculate the amount customers will be charged when they download songs. The website offers a discount. If one song is bought at the full price of $1.29, then each additional song is $.99. State an equation that represents the cost, C, when s songs are downloaded. Sandy \ufb01 gured she would be charged $52.77 for 52 songs. Is this the correct amount? Justify your answer. Algebra I (Common Core) 31 A family is traveling from their home to a vacation resort hotel. The table below shows their distance from home as a function of time. Time (hrs) 0 2 5 7 Distance (mi) 0 140 375 480 Determine the average rate of change between hour 2 and hour 7, including units. Algebra I (Common Core) 32 Nora says that the graph of a circle is a function because she can trace the whole graph without picking up her pencil. Mia says that a circle graph is not a function because multiple values of x map to the same y-value. Determine if either one is correct, and justify your answer completely. Algebra I (Common Core) 33 Graph f(x) \u0004 |x| and g(x) \u0004 \u0002x2 \u0003 6 on the grid below. Does f(\u00022) \u0004 g(\u00022)? Use your graph to explain why or why not. Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Algebra I (Common Core) 34 Two friends went to a restaurant and ordered one plain pizza and two sodas. Their bill totaled $15.95. Later that day, \ufb01 ve friends went to the same restaurant. They ordered three plain pizzas and each person had one soda. Their bill totaled $45.90. Write and solve a system of equations to determine the price of one plain pizza. [Only an algebraic solution can receive full credit.] Algebra I (Common Core) 35 Tanya is making homemade greeting cards. The data table below represents the amount she spends in dollars, f(x), in terms of the number of cards she makes, x. x f(x) 4 7.50 6 9 9 11.25 10 12 Write a linear function, f(x), that represents the data. Explain what the slope and y-intercept of f(x) mean in the given context. Algebra I (Common Core) 36 Alex launched a ball into the air. The height of the ball can be represented by the equation h \u0004 \u00028t2 \u0003 40t \u0003 5, where h is the height, in units, and t is the time, in seconds, after the ball was launched. Graph the equation from t \u0004 0 to t \u0004 5 seconds. Time (in seconds) Height (units) State the coordinates of the vertex and explain its meaning in the context of the problem. Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Ian is borrowing $1000 from his parents to buy a notebook computer. He plans to pay them back at the rate of $60 per month. Ken is borrowing $600 from his parents to purchase a snowboard. He plans to pay his parents back at the rate of $20 per month. Write an equation that can be used to determine after how many months the boys will owe the same amount. Determine algebraically and state in how many months the two boys will owe the same amount. State the amount they will owe at this time. Ian claims that he will have his loan paid off 6 months after he and Ken owe the same amount. Determine and state if Ian is correct. Explain your reasoning. Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. High School Math Reference Sheet 1 inch \u0004 2.54 centimeters 1 kilometer \u0004 0.62 mile 1 cup \u0004 8 fluid ounces 1 meter \u0004 39.37 inches 1 pound \u0004 16 ounces 1 pint \u0004 2 cups 1 mile \u0004 5280 feet 1 pound \u0004 0.454 kilogram 1 quart \u0004 2 pints 1 mile \u0004 1760 yards 1 kilogram \u0004 2.2 pounds 1 gallon \u0004 4 quarts 1 mile \u0004 1.609 kilometers 1 ton \u0004 2000 pounds 1 gallon \u0004 3.785 liters 1 liter \u0004 0.264 gallon 1 liter \u0004 1000 cubic centimeters Triangle A \u0004 bh 1 2 Parallelogram A \u0004 bh Circle A \u0004 \u03c0r2 Circle C \u0004 \u03c0d or C \u0004 2\u03c0r General Prisms V \u0004 Bh Cylinder V \u0004 \u03c0r2h Sphere V \u0004 \u03c0r3 4 3 Cone V \u0004 \u03c0r2h 1 3 Pyramid V \u0004 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0004 c2 Quadratic Formula x \u0004 \u0002 \u0007 \u0002 b a b2 2 4ac Arithmetic Sequence an \u0004 a1 \u0003 (n \u0002 1)d Geometric Sequence an \u0004 a1r n \u0002 1 Geometric Series Sn \u0004 where r \b 1 a a r r n 1 1 1 \u0002 \u0002 Radians 1 radian \u0004 degrees 180 \u03c0 Degrees 1 degree \u0004 radians \u03c0 180 Exponential Growth/Decay A \u0004 A0ek(t \u0002 t0) \u0003 B0 Tear Here Tear Here Algebra I (Common Core) Tear Here Tear Here ALGEBRA I (COMMON CORE) ALGEBRA I (COMMON CORE) Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

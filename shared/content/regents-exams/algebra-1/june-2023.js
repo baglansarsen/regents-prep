@@ -29,8 +29,7 @@ export default {
       topic: 'Polynomials & Factoring',
       correct: 0,
       explanation: 'Subtracting means distributing the negative: (5x² + 7x − 1) − (2x² − 3x + 4) = 5x² − 2x² + 7x + 3x − 1 − 4 = 3x² + 10x − 5.',
-      diveDeep: 'The most frequent error in polynomial subtraction is failing to distribute the minus sign to every term in the second polynomial. Rewrite the subtraction as adding the opposite of each term, then combine like terms by degree. Line up x², x, and constant terms in columns if it helps avoid sign mistakes. Always double-check the sign of the middle and constant terms, since those are where students lose points most often.'
-    },
+      diveDeep: 'The most frequent error in polynomial subtraction is failing to distribute the minus sign to every term in the second polynomial. Rewrite the subtraction as adding the opposite of each term, then combine like terms by degree. Line up x², x, and constant terms in columns if it helps avoid sign mistakes. Always double-check the sign of the middle and constant terms, since those are where students lose points most often.', image: '/images/exams/alg1-june-2023/q2.png' },
     {
       number: 3,
       part: 'A',
@@ -325,8 +324,7 @@ export default {
       topic: 'Functions & Relations',
       explanation: 'The zeros of f(x) are x = −3, x = 1, and x = 4 because those are the x-values where the graph crosses the x-axis, meaning f(x) = 0 at those points.',
       diveDeep: 'The zeros (also called roots or x-intercepts) of a function are the x-values that make f(x) = 0. On a graph, these are exactly the points where the curve crosses or touches the horizontal axis. Each x-intercept corresponds to a factor of the function — for example, a zero at x = 4 means (x − 4) is a factor. Students sometimes confuse zeros with y-intercepts; remember that zeros occur where y = 0, while the y-intercept is where x = 0.',
-      modelAnswer: 'The zeros of f(x) are x = −3, x = 1, and x = 4.\n\nReasoning: The zeros of a function are the x-values at which f(x) = 0. On the graph, f(x) = 0 where the curve intersects the x-axis. The graph crosses the x-axis at x = −3, x = 1, and x = 4, so those are the three zeros.'
-    },
+      modelAnswer: 'The zeros of f(x) are x = −3, x = 1, and x = 4.\n\nReasoning: The zeros of a function are the x-values at which f(x) = 0. On the graph, f(x) = 0 where the curve intersects the x-axis. The graph crosses the x-axis at x = −3, x = 1, and x = 4, so those are the three zeros.', image: '/images/exams/alg1-june-2023/q26.png' },
     {
       number: 27,
       part: 'B',
@@ -335,8 +333,7 @@ export default {
       topic: 'Functions & Relations',
       explanation: 'The friend is incorrect. The pattern increases by 4 blocks each time (constant rate of change), which is linear growth, not exponential growth.',
       diveDeep: 'Exponential growth requires the number of blocks to be multiplied by the same factor each step, such as doubling (×2). Instead, each pattern adds exactly 4 more blocks than the previous one: 4, 8, 12, 16 — a constant difference of 4. This is arithmetic (linear) growth. To confirm: for exponential growth, the ratio of consecutive terms must be constant. Here the ratios are 8/4 = 2, 12/8 = 1.5, 16/12 ≈ 1.33 — they are not equal, so growth is not exponential.',
-      modelAnswer: 'No, the friend is not correct. The pattern is increasing linearly, not exponentially.\n\nReasoning: \n• Pattern I: 4 blocks\n• Pattern II: 8 blocks (4 more)\n• Pattern III: 12 blocks (4 more)\n• Pattern IV: 16 blocks (4 more)\n\nThe number of blocks increases by a constant difference of 4 each time. Exponential growth requires multiplication by a constant factor each step (e.g., doubling), not constant addition. Therefore, this pattern is linear (arithmetic), not exponential.'
-    },
+      modelAnswer: 'No, the friend is not correct. The pattern is increasing linearly, not exponentially.\n\nReasoning: \n• Pattern I: 4 blocks\n• Pattern II: 8 blocks (4 more)\n• Pattern III: 12 blocks (4 more)\n• Pattern IV: 16 blocks (4 more)\n\nThe number of blocks increases by a constant difference of 4 each time. Exponential growth requires multiplication by a constant factor each step (e.g., doubling), not constant addition. Therefore, this pattern is linear (arithmetic), not exponential.', image: '/images/exams/alg1-june-2023/q27.png' },
     {
       number: 28,
       part: 'B',
@@ -397,8 +394,7 @@ export default {
       topic: 'Functions & Relations',
       explanation: 'After graphing both functions, the curves intersect at x = 0 and x = 5, so f(x) = g(x) when x = 0 and x = 5.',
       diveDeep: 'Graph f(x) = |x| + 1 by shifting the absolute-value V up 1 unit; it has vertex (0, 1) and arms with slope ±1. Graph g(x) = −x² + 6x + 1 by finding its vertex: x = −6/(2·(−1)) = 3, y = −9 + 18 + 1 = 10, so vertex (3, 10), opening downward. Set the equations equal to find intersections algebraically: for x ≥ 0, |x| + 1 = x + 1, so x + 1 = −x² + 6x + 1 → x² − 5x = 0 → x(x − 5) = 0 → x = 0 or x = 5. Check x < 0: −x + 1 = −x² + 6x + 1 → x² − 7x = 0 → x = 0 or x = 7 (not negative). So x = 0 and x = 5.',
-      modelAnswer: 'Step 1: Graph f(x) = |x| + 1.\n  Vertex at (0, 1); slopes of +1 (right) and −1 (left).\n  Points: (−3, 4), (−2, 3), (−1, 2), (0, 1), (1, 2), (2, 3), (3, 4).\n\nStep 2: Graph g(x) = −x² + 6x + 1.\n  Vertex: x = −6/(2·(−1)) = 3; y = −9 + 18 + 1 = 10 → vertex (3, 10).\n  Points: (0, 1), (1, 6), (2, 9), (3, 10), (4, 9), (5, 6), (6, 1).\n\nStep 3: Identify intersection points from the graph.\n  The graphs intersect at (0, 1) and (5, 6).\n\nThe values of x for which f(x) = g(x) are x = 0 and x = 5.'
-    },
+      modelAnswer: 'Step 1: Graph f(x) = |x| + 1.\n  Vertex at (0, 1); slopes of +1 (right) and −1 (left).\n  Points: (−3, 4), (−2, 3), (−1, 2), (0, 1), (1, 2), (2, 3), (3, 4).\n\nStep 2: Graph g(x) = −x² + 6x + 1.\n  Vertex: x = −6/(2·(−1)) = 3; y = −9 + 18 + 1 = 10 → vertex (3, 10).\n  Points: (0, 1), (1, 6), (2, 9), (3, 10), (4, 9), (5, 6), (6, 1).\n\nStep 3: Identify intersection points from the graph.\n  The graphs intersect at (0, 1) and (5, 6).\n\nThe values of x for which f(x) = g(x) are x = 0 and x = 5.', image: '/images/exams/alg1-june-2023/q33.png' },
     {
       number: 34,
       part: 'C',
@@ -407,8 +403,7 @@ export default {
       topic: 'Functions & Relations',
       explanation: 'The temperature increases from hour 6 to hour 12. The greatest three-hour rate of change is from hour 6 to hour 9 (rise of 8°F) or hour 9 to hour 12 (rise of 14°F) — it is from hour 9 to hour 12 with a change of 14°F in 3 hours. The average rate of change from hour 12 to 24 is (74 − 92)/(24 − 12) = −18/12 = −1.5°F per hour.',
       diveDeep: 'Rate of change = (change in temperature) / (change in time). Calculate all three-hour intervals: 0→3: −5, 3→6: −5, 6→9: +8, 9→12: +14, 12→15: −3, 15→18: −4, 18→21: −5, 21→24: −6. The greatest (largest absolute rise) is 9→12 at +14°F/3 hr. For the increasing interval, the temperature must be going up continuously — from hour 6 (70°F) to hour 12 (92°F). The average rate from hour 12 to 24 is −1.5°F per hour, meaning the temperature was decreasing on average by 1.5 degrees per hour during that 12-hour afternoon-to-midnight span.',
-      modelAnswer: '(a) Interval where temperature is increasing:\n  From the table, temperature decreases from hour 0–6, then increases from 70°F at hour 6 to 92°F at hour 12.\n  The temperature is increasing on the interval [6, 12].\n\n(b) Greatest three-hour rate of change:\n  Calculate each 3-hour interval:\n  6 to 9: (78 − 70)/3 = 8/3 ≈ 2.67°F per hour\n  9 to 12: (92 − 78)/3 = 14/3 ≈ 4.67°F per hour ← greatest\n  The interval from hour 9 to hour 12 has the greatest rate of change.\n\n(c) Average rate of change from hour 12 to hour 24:\n  Rate = (74 − 92) / (24 − 12) = −18 / 12 = −1.5°F per hour\n\n  In context: The temperature decreased at an average rate of 1.5°F per hour from noon to midnight.'
-    },
+      modelAnswer: '(a) Interval where temperature is increasing:\n  From the table, temperature decreases from hour 0–6, then increases from 70°F at hour 6 to 92°F at hour 12.\n  The temperature is increasing on the interval [6, 12].\n\n(b) Greatest three-hour rate of change:\n  Calculate each 3-hour interval:\n  6 to 9: (78 − 70)/3 = 8/3 ≈ 2.67°F per hour\n  9 to 12: (92 − 78)/3 = 14/3 ≈ 4.67°F per hour ← greatest\n  The interval from hour 9 to hour 12 has the greatest rate of change.\n\n(c) Average rate of change from hour 12 to hour 24:\n  Rate = (74 − 92) / (24 − 12) = −18 / 12 = −1.5°F per hour\n\n  In context: The temperature decreased at an average rate of 1.5°F per hour from noon to midnight.', image: '/images/exams/alg1-june-2023/q34.png' },
     {
       number: 35,
       part: 'C',
@@ -417,8 +412,7 @@ export default {
       topic: 'Linear Equations & Inequalities',
       explanation: 'Graph both boundary lines, shade the correct half-planes, and label the overlapping region S. The point (4, −2) is NOT in the solution set because it does not satisfy x < 3y + 6 (4 < 3(−2) + 6 → 4 < 0, which is false).',
       diveDeep: 'For the first inequality 2x + 3y ≥ −6, rewrite as y ≥ (−2x − 6)/3. The boundary line is solid (≥) and you shade above it. For x < 3y + 6, rewrite as x − 6 < 3y, or y > (x − 6)/3; the boundary is dashed (<) and you shade above it. To check a point, substitute into BOTH inequalities — a point is in the solution set only if it satisfies both. For (4, −2): check inequality 1: 2(4) + 3(−2) = 2 ≥ −6 ✓; check inequality 2: 4 < 3(−2) + 6 = 0, so 4 < 0 is FALSE. Since one inequality fails, (4, −2) is not in S.',
-      modelAnswer: 'Step 1: Graph 2x + 3y ≥ −6.\n  Boundary line: 2x + 3y = −6 (solid, since ≥)\n  Rewrite: y = (−2x − 6)/3\n  x-intercept: (−3, 0); y-intercept: (0, −2)\n  Shade above the line (where y values are larger).\n\nStep 2: Graph x < 3y + 6.\n  Boundary line: x = 3y + 6 (dashed, since <)\n  Rewrite: y = (x − 6)/3\n  x-intercept: (6, 0); y-intercept: (0, −2)\n  Shade to the left (where x < 3y + 6).\n\nStep 3: Label the overlapping shaded region S.\n\nStep 4: Check (4, −2).\n  Inequality 1: 2(4) + 3(−2) = 8 − 6 = 2 ≥ −6 ✓\n  Inequality 2: 4 < 3(−2) + 6 = −6 + 6 = 0 → 4 < 0 ✗\n\nThe point (4, −2) is NOT in the solution set because it does not satisfy the second inequality.'
-    },
+      modelAnswer: 'Step 1: Graph 2x + 3y ≥ −6.\n  Boundary line: 2x + 3y = −6 (solid, since ≥)\n  Rewrite: y = (−2x − 6)/3\n  x-intercept: (−3, 0); y-intercept: (0, −2)\n  Shade above the line (where y values are larger).\n\nStep 2: Graph x < 3y + 6.\n  Boundary line: x = 3y + 6 (dashed, since <)\n  Rewrite: y = (x − 6)/3\n  x-intercept: (6, 0); y-intercept: (0, −2)\n  Shade to the left (where x < 3y + 6).\n\nStep 3: Label the overlapping shaded region S.\n\nStep 4: Check (4, −2).\n  Inequality 1: 2(4) + 3(−2) = 8 − 6 = 2 ≥ −6 ✓\n  Inequality 2: 4 < 3(−2) + 6 = −6 + 6 = 0 → 4 < 0 ✗\n\nThe point (4, −2) is NOT in the solution set because it does not satisfy the second inequality.', image: '/images/exams/alg1-june-2023/q35.png' },
     {
       number: 36,
       part: 'C',
@@ -427,8 +421,7 @@ export default {
       topic: 'Statistics & Probability',
       explanation: 'Using linear regression, the equation is approximately y = 205.14x − 2106.07, the correlation coefficient r ≈ 0.99, indicating a very strong positive linear relationship between a horse\'s height and weight.',
       diveDeep: 'Enter the data into a graphing calculator (STAT → EDIT → L1, L2) and run LinReg(ax + b) under STAT CALC. The slope a ≈ 205.14 means that for each additional hand of height, the weight increases by about 205.14 pounds. The y-intercept b ≈ −2106.07 is the theoretical weight at height 0, which has no practical meaning here. The correlation coefficient r close to 1 signals a very strong, nearly perfect positive linear association — taller animals are heavier in a highly consistent, near-linear pattern.',
-      modelAnswer: '(a) Linear regression equation:\n  Using a graphing calculator with the given data:\n  ŷ = 205.14x − 2106.07\n  (where x = height in hands, y = predicted weight in pounds)\n\n(b) Correlation coefficient:\n  r ≈ 0.99\n\n(c) Interpretation:\n  A correlation coefficient of r ≈ 0.99 is very close to 1, indicating a very strong positive linear relationship between the height and weight of ponies and horses. This means that as height increases, weight increases in a nearly linear pattern with very little scatter around the regression line.'
-    },
+      modelAnswer: '(a) Linear regression equation:\n  Using a graphing calculator with the given data:\n  ŷ = 205.14x − 2106.07\n  (where x = height in hands, y = predicted weight in pounds)\n\n(b) Correlation coefficient:\n  r ≈ 0.99\n\n(c) Interpretation:\n  A correlation coefficient of r ≈ 0.99 is very close to 1, indicating a very strong positive linear relationship between the height and weight of ponies and horses. This means that as height increases, weight increases in a nearly linear pattern with very little scatter around the regression line.', image: '/images/exams/alg1-june-2023/q36.png' },
 
     // ── Part D (Part IV) – 6 credits ─────────────────────────────────────────
     {

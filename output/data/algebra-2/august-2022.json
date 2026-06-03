@@ -1,0 +1,486 @@
+{
+  "subject": "algebra-2",
+  "session": "august-2022",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The Hot and Tasty Coffee chain conducts a survey of its customers at its location at the Staten Island ferry terminal. After the survey is completed, the statistical consultant states that 70% of customers who took the survey said the most important factor in choosing where to get their coffee is how fast they are served. Based on this result, Hot and Tasty Coffee can infer that",
+      "choices": [
+        "most of its customers in New York State care most about being served quickly",
+        "coffee drinkers care less about taste and more about being served quickly",
+        "most of its customers at the Staten Island ferry terminal care most about being served quickly",
+        "most of its customers at transportation terminals and stations care most about being served quickly"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Given that i is the imaginary unit, the expression (x 2 2i)2 is equivalent to",
+      "choices": [
+        "x2 1 4",
+        "x2 2 4",
+        "x2 2 2xi 2 4",
+        "x2 2 4xi 2 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The equation below can be used to model the height of a tide in feet, H(t), on a beach at t hours. H(t) 5 4.8sin( p __ 6 (t 1 3)) 1 5.1 Using this function, the amplitude of the tide is",
+      "choices": [
+        "p __ 6",
+        "4.8",
+        "3",
+        "5.1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In watching auditions for lead singer in a band, Liem became curious as to whether there is an association between how animated the lead singer is and the amount of applause from the audience. He decided to watch each singer and rate the singer on a scale of 1 to 5, where 1 is the least animated and 5 is the most animated. He did this for all 5 nights of auditions and found that the more animated singers did receive louder applause. The study Liem conducted would be best described as",
+      "choices": [
+        "experimental",
+        "observational",
+        "a sample survey",
+        "a random assignment"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2022/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "(t 1 3)) 1 5.1 Using this function, the amplitude of the tide is",
+      "choices": [
+        "2x 2 1 is a factor of f(x).",
+        "x 2 3 is a factor of f(x).",
+        "\u2260 f(2 1__ 2 )",
+        "f( 1__ 2 ) 5 0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which sketch could represent the function m(x) 5 2log100(x 2 2)?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/august-2022/q7.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which equation has roots of 3 1 i and 3 2 i ?",
+      "choices": [
+        "x2 2 6x 1 10 5 0",
+        "x2 1 6x 2 10 5 0",
+        "x2 2 10x 1 6 5 0",
+        "x2 1 10x 2 6 5 0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A local university has a current enrollment of 12,000 students. The enrollment is increasing continuously at a rate of 2.5% each year. Which logarithm is equal to the number of years it will take for the population to increase to 15,000 students?",
+      "choices": [
+        "ln 1.25 ______ 0.25",
+        "ln 3000 ______ 0.025",
+        "ln 1.25 ______ 2.5",
+        "ln 1.25 ______ 0.025"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "What is the total number of points of intersection of the graphs of the equations y 5 ex and xy 5 20 ?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The amount of a substance, A(t), in grams, remaining after t days is modeled by A(t) 5 50(0.5) t __ 3. Which statement is false?",
+      "choices": [
+        "In 20 days, there is no substance remaining.",
+        "2t ___ 3.",
+        "The amount of the substance remaining can also be modeled by A(t) 5 50",
+        "After one week, there is less than 10g of the substance remaining."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A parabola that has a vertex at (2,1) and a focus of (2,23) has an equation of",
+      "choices": [
+        "y 5 1 __ 16 (x 2 2)2 1 1",
+        "y 5 2 1 __ 16 (x 1 2)2 2 1",
+        "y 5 2 1 __ 16 (x 2 2)2 1 1",
+        "y 5 2 1 __ 16 (x 2 2)2 2 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The expression 2b a ) ) 3 2 4a b) ) 3 2 is equivalent to",
+      "choices": [
+        "a 2ab 3 2",
+        "2ab",
+        "2a 2ab 3 2",
+        "2b 2a b 3 2"
+      ],
+      "image": "/images/exams/algebra-2/august-2022/q13.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Given f(x) 5 3x21 1 2, as x \u2192 2`",
+      "choices": [
+        "f(x) \u2192 21",
+        "f(x) \u2192 0",
+        "f(x) \u2192 2",
+        "f(x) \u2192 2`"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "(x 2 2)2 1 1",
+      "choices": [
+        "an 5 64(0.75)n21",
+        "a1 5 64",
+        "an 5 64 1 (n 2 1)(216)",
+        "a1 5 64 an 5 an 2 1 2 16 an 5 0.75 an 2 1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to x3 2 2 ______ x 2 2 ?",
+      "choices": [
+        "x2",
+        "x2 1 2x 1 4 1 6 _____ x 2 2",
+        "x2 2 2",
+        "x2 2 2x 1 4 2 10 _____ x 2 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "What is the solution set of the equation 4 k2 2 8k 1 12 5 k k 2 2 1 1 k 2 6 ?",
+      "choices": [
+        "{21, 6}",
+        "{1, 26}",
+        "{21}",
+        "{1}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Given the polynomial identity x6 1 y6 5 (x2 1 y2)(x4 2 x2 y2 1 y4), which equation must also be true for all values of x and y?",
+      "choices": [
+        "x6 1 y6 5 x2 (x4 2 x2y2 1 y4) 1 y2(x4 2 x2y2 1 y4)",
+        "x6 1 y6 5 (x2 1 y2)(x2 2 y2)(x2 2 y2)",
+        "(x3 1 y3)2 5 (x2 1 y2)(x4 2 x2y2 1 y4)",
+        "(x6 1 y6) 2 (x2 1 y2) 5 x4 2 x2y2 1 y4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Given p( ) 5 3sin( 1__ 2 ) on the interval 2p , , p, the function p",
+      "choices": [
+        "decreases, then increases",
+        "increases, then decreases",
+        "decreases throughout the interval",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/august-2022/q20.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A company fired several employees in order to save money. The amount of money the company saved per year over five years following the loss of employees is shown in the table below. Year Amount Saved (in dollars) 1 59,000 2 64,900 3 71,390 4 78,529 5 86,381.9 Which expression determines the total amount of money saved by the company over 5 years?",
+      "choices": [
+        "59,000 2 59,000(1.1)5 1 2 1.1",
+        "59,000 2 59,000(0.1)5 1 2 0.1",
+        "59,000(1.1)n",
+        "59,000(0.1)n 2 1"
+      ],
+      "image": "/images/exams/algebra-2/august-2022/q21.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A rush-hour commuter train has arrived on time 64 of its first 80 days. As arrivals continue, which equation can be used to find x, the number of consecutive days that the train must arrive on schedule to raise its on-time performance rate to 90%?",
+      "choices": [
+        "64 90 80 1 x 100 5",
+        "64 1 x 90 80 1 x 100 5",
+        "64 1 x 90 80 100 5",
+        "x 90 80 1 x 100 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Given f(x) 522 5x 1 4 , which statement is true of the inverse function f21(x)?",
+      "choices": [
+        "f21(x) is a line with slope 5 2.",
+        "f21(x) is a line with slope 2 5.",
+        "f21(x) passes through the point (6, 25).",
+        "f21(x) has a y-intercept at (0, 24)."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The amount of a substance, A(t), that remains after t days can be given by the equation A(t) 5 A0(0.5) t 0.0803 , where A0 represents the initial amount of the substance. An equivalent form of this equation is",
+      "choices": [
+        "A(t) 5 A0(0.000178)t",
+        "A(t) 5 A0(0.945861)t",
+        "A(t) 5 A0(0.04015)t",
+        "A(t) 5 A0(1.08361) Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Determine the average rate of change, in mph, from 2 to 4 hours on the graph shown below. Distance (miles) Time (hours) 1 2 3 4 5 20 40 60 80",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2022/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Factor the expression x3 2 2x2 2 9x 1 18",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Solve algebraically for all values of x: \u221a ________ 4x 1 1 5 11 2",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Given that ( y y 17 5 8 4) 24 5 yn, where y . 0,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Given cos A 5 3 ___ \u221a __ 10 _ and cot A 5 23,",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2022/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "According to a study done at a hospital, the average weight of a newborn baby is 3.39 kg, with a standard deviation of 0.55 kg. The weights of all the newborns in this hospital closely follow a normal distribution. Last year, 9256 babies were born at this hospital. Determine, to the nearest integer, approximately how many babies weighed more than 4",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "The table below shows the results of gender and music preference. Based on these data, determine if the events \u201cthe person is female\u201d and \u201cthe person prefers classic rock\u201d are independent of each other. Justify your answer. Rap Techno Classic Rock Classical Male 39 17 42 12 Female 17 37 36 15",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2022/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Algebraically determine the solution set for the system of equations below. y 5 2x2 2 7x 1 4 y 5 11 2 2 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "When observed by researchers under a microscope, a smartphone screen contained approximately 11,000 bacteria per square inch. Bacteria, under normal conditions, double in population every 20 minutes. a) Assuming an initial value of 11,000 bacteria, write a function, p(t), that can be used to model the population of bacteria, p, on a smartphone screen, where t represents the time in minutes after it is first observed under a microscope. b) Using p(t) from part a, determine algebraically, to the nearest hundredth of a minute, the amount of time it would take for a smartphone screen that was not touched or cleaned to have a population of 1,000,000",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The function v(x) 5 x(3 2 x)(x 1 4) models the volume, in cubic inches, of a rectangular solid for 0 # x # 3. Graph y 5 v(x) over the domain 0 # x # 3. 1 0 2 3 x y To the nearest tenth of a cubic inch, what is the maximum volume of the rectangular solid?",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2022/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Given f(x) 5 3x3 2 4x2 1 2x 2 1 and g(x) 5 x 2 4, state the quotient and remainder of f(x) g(x), in the form q(x) 1 r(x) ____ g(x) . Is x 5 4 a root of f(x)?",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2022/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "State officials claim 82% of a community want to repeal the 30 mph speed limit on an expressway. A community organization devises a simulation based on the claim that 82% of the community supports the repeal. Each dot on the graph below represents the proportion of community members who support the repeal. The graph shows 200 simulated surveys, each of sample size 60. 0.66 0.72 Proportion 0.96 0.90 0.84 0.78 10 Frequency Mean = 0.819 SD = 0.053 0 20 40 30 Based on the simulation, determine an interval containing the middle 95% of plausible proportions. Round your answer to the nearest thousandth. The community organization conducted its own sample survey of 60 people and found 70% supported the repeal. Based on the results of the simulation, Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2022/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "A technology company is comparing two plans for speeding up its technical support time. Plan A can be modeled by the function A(x) 5 15.7(0.98)x and plan B can be modeled by the function B(x) 5 11(0.99)x where x is the number of customer service representatives employed by the company and A(x) and B(x) represent the average wait time, in minutes, of each customer. Graph A(x) and B(x) in the interval 0 # x # 100 on the set of axes below. 0 20 40 60 100 2 4 6 8 10 12 14 18 16 20 x y 10 30 50 70 90 80 Average Wait Time Number of Customer Service Representatives Question 37 To the nearest integer, solve the equation A(x) 5 B(x). Determine, to the nearest minute, B(100) 2 A(100). Explain what this value represents in the given context. Question 37 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch 2.54 centimeters 1 kilometer 0.62 mile 1 cup 8 fluid ounces 1 meter 39.37 inches 1 pound 16 ounces 1 pint 2 cups 1 mile 5280 feet 1 pound 0.454 kilogram 1 quart 2 pints 1 mile 1760 yards 1 kilogram 2.2 pounds 1 gallon 4 quarts 1 mile 1.609 kilometers 1 ton 2000 pounds 1 gallon 3.785 liters 1 liter 0.264 gallon 1 liter 1000 cubic centimeters Triangle A bh 1 2 Parallelogram A bh Circle A \u03c0r2 Circle C \u03c0d or C 2\u03c0r General Prisms V Bh Cylinder V \u03c0r2h Sphere V \u03c0r3 4 3 Cone V \u03c0r2h 1 3 Pyramid V Bh 1 3 Pythagorean Theorem a2 b2 c2 Quadratic Formula x \u001b b a b2 2 4ac Arithmetic Sequence an a1 (n 1)d Geometric Sequence an a1r n 1 Geometric Series Sn where r \u001a 1 a a r r n 1 1 1 Radians 1 radian degrees 180 \u03c0 Degrees 1 degree radians \u03c0 180 Exponential Growth/Decay A A0ek(t t0) B0 Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2022/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

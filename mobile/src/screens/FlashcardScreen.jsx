@@ -50,7 +50,7 @@ export default function FlashcardScreen({ route, navigation }) {
 
   if (!card) {
     return (
-      <SafeAreaView style={s.safe}>
+      <SafeAreaView style={s.safe} edges={['bottom']}>
         <View style={s.empty}>
           <Text style={s.emptyText}>🎉 All caught up!</Text>
           <Text style={s.emptySubtext}>No cards due right now.</Text>
@@ -63,7 +63,7 @@ export default function FlashcardScreen({ route, navigation }) {
   }
 
   return (
-    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
       {/* Header */}
       <View style={s.header}>
         <TouchableOpacity onPress={() => navigation.goBack()}>

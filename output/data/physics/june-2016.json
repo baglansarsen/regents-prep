@@ -1,0 +1,1061 @@
+{
+  "subject": "physics",
+  "session": "june-2016",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which quantity is a vector?",
+      "choices": [
+        "power",
+        "kinetic energy",
+        "speed",
+        "weight"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "A 65.0-kilogram astronaut weighs 638 newtons at the surface of Earth. What is the mass of the astronaut at the surface of the Moon, where the acceleration due to gravity is 1.62 meters per second squared?",
+      "choices": [
+        "10.7 kg",
+        "65.0 kg",
+        "105 N",
+        "638 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "When the sum of all the forces acting on a block on an inclined plane is zero, the block",
+      "choices": [
+        "must be at rest",
+        "must be accelerating",
+        "may be slowing down",
+        "may be moving at constant speed"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The greatest increase in the inertia of an object would be produced by increasing the",
+      "choices": [
+        "mass of the object from 1.0 kg to 2.0 kg",
+        "net force applied to the object from 1.0 N to 2.0 N",
+        "time that a net force is applied to the object from 1.0 s to 2.0 s",
+        "speed of the object from 1.0 m/s to 2.0 m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "A 100.-kilogram cart accelerates at 0.50 meter per second squared west as a horse exerts a force of 60. newtons west on the cart. What is the magnitude of the force that the cart exerts on the horse?",
+      "choices": [
+        "10. N",
+        "50. N",
+        "60. N",
+        "110 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Sound waves are described as",
+      "choices": [
+        "mechanical and transverse",
+        "mechanical and longitudinal",
+        "electromagnetic and transverse",
+        "electromagnetic and longitudinal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "An electrical force of 8.0 \u00d7 10\u22125 newton exists between two point charges, q1 and q2. If the distance between the charges is doubled, the new electrical force between the charges will be",
+      "choices": [
+        "1.6 \u00d7 10\u22124 N",
+        "2.0 \u00d7 10\u22125 N",
+        "3.2 \u00d7 10\u22124 N",
+        "4.0 \u00d7 10\u22125 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A blue lab cart is traveling west on a track when it collides with and sticks to a red lab cart traveling east. The magnitude of the momentum of the blue cart before the collision is 2.0 kilogram \u2022 meters per second, and the magnitude of the momentum of the red cart before the collision is 3.0 kilogram \u2022 meters per second. The magnitude of the total momentum of the two carts after the collision is",
+      "choices": [
+        "1.0 kg \u2022 m/s",
+        "2.0 kg \u2022 m/s",
+        "3.0 kg \u2022 m/s",
+        "5.0 kg \u2022 m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "written",
+      "text": "The diagram below represents the path of a thrown ball through the air. Which arrow best represents the direction in which friction acts on the ball at point P?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A magnetic field would be produced by a beam of",
+      "choices": [
+        "x rays",
+        "gamma rays",
+        "protons",
+        "neutrons ( 1 ) ( 2 ) ( 3 ) ( 4 ) P Ground"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the electric field in the region of two small charged spheres, A and B. What is the sign of the net charge on A and B?",
+      "choices": [
+        "A is positive and B is positive.",
+        "A is positive and B is negative.",
+        "A is negative and B is negative.",
+        "A is negative and B is positive."
+      ],
+      "image": "/images/exams/physics/june-2016/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A horizontal force of 20 newtons eastward causes a 10-kilogram box to have a displacement of 5 meters eastward. The total work done on the box by the 20-newton force is",
+      "choices": [
+        "40 J",
+        "100 J",
+        "200 J",
+        "1000 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A block initially at rest on a horizontal, frictionless surface is accelerated by a constant horizontal force of 5.0 newtons. If 15 joules of work is done on the block by this force while accelerating it, the kinetic energy of the block increases by",
+      "choices": [
+        "3.0 J",
+        "15 J",
+        "20. J",
+        "75 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Two objects, A and B, are held one meter above the horizontal ground. The mass of B is twice as great as the mass of A. If PE is the gravitational potential energy of A relative to the ground, then the gravitational potential energy of B relative to the ground is",
+      "choices": [
+        "PE",
+        "2PE",
+        "",
+        "4PE"
+      ],
+      "image": "/images/exams/physics/june-2016/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "What is the kinetic energy of a 55-kilogram skier traveling at 9.0 meters per second?",
+      "choices": [
+        "2.5 \u00d7 102 J",
+        "5.0 \u00d7 102 J",
+        "2.2 \u00d7 103 J",
+        "4.9 \u00d7 103 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "A 5.09 \u00d7 1014-hertz electromagnetic wave is traveling through a transparent medium. The main factor that determines the speed of this wave is the",
+      "choices": [
+        "nature of the medium",
+        "amplitude of the wave",
+        "phase of the wave",
+        "distance traveled through the medium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A motor does a total of 480 joules of work in 5.0 seconds to lift a 12-kilogram block to the top of a ramp. The average power developed by the motor is",
+      "choices": [
+        "8.0 W",
+        "40. W",
+        "96 W",
+        "2400 W"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A 5.8 \u00d7 104-watt elevator motor can lift a total weight of 2.1 \u00d7 104 newtons with a maximum constant speed of",
+      "choices": [
+        "0.28 m/s",
+        "0.36 m/s",
+        "2.8 m/s",
+        "3.6 m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "A stationary police officer directs radio waves emitted by a radar gun at a vehicle moving toward the officer. Compared to the emitted radio waves, the radio waves reflected from the vehicle and received by the radar gun have a",
+      "choices": [
+        "longer wavelength",
+        "higher speed",
+        "longer period",
+        "higher frequency"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A light wave strikes the Moon and reflects toward Earth. As the light wave travels from the Moon toward Earth, the wave carries",
+      "choices": [
+        "energy, only",
+        "matter, only",
+        "both energy and matter",
+        "neither energy nor matter"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The time required to produce one cycle of a wave is known as the wave\u2019s",
+      "choices": [
+        "amplitude",
+        "frequency",
+        "period",
+        "wavelength PE 2 A B"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A magnetic compass is placed near an insulated copper wire. When the wire is connected to a battery and a current is created, the compass needle moves and changes its position. Which is the best explanation for the production of a force that causes the needle to move?",
+      "choices": [
+        "The copper wire magnetizes the compass needle and exerts the force on the compass needle.",
+        "The compass needle magnetizes the copper wire and exerts the force on the compass needle.",
+        "The insulation on the wire becomes charged, which exerts the force on the compass needle.",
+        "The current in the wire produces a magnetic field that exerts the force on the compass needle."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A beam of monochromatic light (f =5.09 \u00d71014 Hz) has a wavelength of 589 nanometers in air. What is the wavelength of this light in Lucite?",
+      "choices": [
+        "150 nm",
+        "393 nm",
+        "589 nm",
+        "884 nm"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "If the amplitude of a sound wave is increased, there is an increase in the sound\u2019s",
+      "choices": [
+        "loudness",
+        "pitch",
+        "velocity",
+        "wavelength"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "In the diagram below, point P is located in the electric field between two oppositely charged parallel plates. Compared to the magnitude and direction of the electrostatic force on an electron placed at point P, the electrostatic force on a proton placed at point P has",
+      "choices": [
+        "the same magnitude and the same direction",
+        "the same magnitude, but the opposite direction",
+        "a greater magnitude, but the same direction",
+        "a greater magnitude and the opposite direction"
+      ],
+      "image": "/images/exams/physics/june-2016/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The effect produced when two or more sound waves pass through the same point simultaneously is called",
+      "choices": [
+        "interference",
+        "diffraction",
+        "refraction",
+        "resonance"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "A gamma ray photon and a microwave photon are traveling in a vacuum. Compared to the wavelength and energy of the gamma ray photon, the microwave photon has a",
+      "choices": [
+        "shorter wavelength and less energy",
+        "shorter wavelength and more energy",
+        "longer wavelength and less energy",
+        "longer wavelength and more energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "According to the Standard Model of Particle Physics, a neutrino is a type of",
+      "choices": [
+        "lepton",
+        "photon",
+        "meson",
+        "baryon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which combination of quarks produces a neutral baryon?",
+      "choices": [
+        "cts",
+        "dsb",
+        "uds",
+        "uct"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "When 2.0 \u00d7 10\u221216 kilogram of matter is converted into energy, how much energy is released?",
+      "choices": [
+        "1.8 \u00d7 10\u22121 J",
+        "1.8 \u00d7 101 J",
+        "6.0 \u00d7 10\u221232 J",
+        "6.0 \u00d7 10\u22128 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "A ball is hit straight up with an initial speed of 28 meters per second. What is the speed of the ball 2.2 seconds after it is hit? [Neglect friction.]",
+      "choices": [
+        "4.3 m/s",
+        "6.4 m/s",
+        "22 m/s",
+        "28 m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "A particle with a charge of 3.00 elementary charges moves through a potential difference of 4.50 volts. What is the change in electrical potential energy of the particle?",
+      "choices": [
+        "1.07 \u00d7 10\u221219 eV",
+        "2.16 \u00d7 10\u221218 eV",
+        "1.50 eV",
+        "13.5 eV \u2013 \u2013 \u2013 \u2013 \u2013 + + + + + P"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Which circuit has the largest equivalent resistance?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "A transverse wave is moving toward the right in a uniform medium. Point X represents a particle of the uniform medium. Which diagram represents the direction of the motion of particle X at the instant shown? X ( 1 ) Direction of Wave Motion X ( 2 ) Direction of Wave Motion X ( 3 ) Direction of Wave Motion X ( 4 ) Direction of Wave Motion 12V 12V 12V 12V 2\u03a9 4\u03a9 2\u03a9 2\u03a9 6\u03a9 2\u03a9 2\u03a9 2\u03a9 6\u03a9 4\u03a9 2\u03a9 2\u03a9 ( 1 ) ( 3 ) ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Which diagram represents magnetic field lines between two north magnetic poles? N N ( 1 ) N N ( 2 ) N N ( 3 ) N N ( 4 )",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which measurement is closest to 1 \u00d7 10\u22122 meter?",
+      "choices": [
+        "diameter of an atom",
+        "width of a student\u2019s finger",
+        "length of a football field",
+        "height of a schoolteacher"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Which graph represents the relationship between the speed of a freely falling object and the time of fall of the object near Earth\u2019s surface?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "A hair dryer with a resistance of 9.6 ohms operates at 120 volts for 2.5 minutes. The total electrical energy used by the dryer during this time interval is",
+      "choices": [
+        "2.9 \u00d7 103 J",
+        "3.8 \u00d7 103 J",
+        "1.7 \u00d7 105 J",
+        "2.3 \u00d7 105 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "A box weighing 46 newtons rests on an incline that makes an angle of 25\u00b0 with the horizontal. What is the magnitude of the component of the box\u2019s weight perpendicular to the incline?",
+      "choices": [
+        "19 N",
+        "21 N",
+        "42 N",
+        "46 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "written",
+      "text": "Which graph represents the motion of an object traveling with a positive velocity and a negative acceleration?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Car A, moving in a straight line at a constant speed of 20. meters per second, is initially 200 meters behind car B, moving in the same straight line at a constant speed of 15 meters per second. How far must car A travel from this initial position before it catches up with car B?",
+      "choices": [
+        "200 m",
+        "400 m",
+        "800 m",
+        "1000 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "A 2700-ohm resistor in an electric circuit draws a current of 2.4 milliamperes. The total charge that passes through the resistor in 15 seconds is",
+      "choices": [
+        "1.6 \u00d7 10\u22124 C",
+        "3.6 \u00d7 10\u22122 C",
+        "1.6 \u00d7 10\u22121 C",
+        "3.6 \u00d7 101 C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "A 1000.\u2013kilogram car traveling 20.0 meters per second east experiences an impulse of 2000. newton \u2022 seconds west. What is the final velocity of the car after the impulse has been applied?",
+      "choices": [
+        "18.0 m/s east",
+        "19.5 m/s east",
+        "20.5 m/s west",
+        "22.0 m/s west Time Position ( 1 ) Time Position ( 2 ) Time Position ( 3 ) Time Position ( 4 ) ( 4 ) ( 1 ) ( 3 ) ( 2 ) Speed Time Time Speed Time Speed Time Speed"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Which graph represents the relationship between the potential difference applied to a copper wire and the resulting current in the wire at constant temperature?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/q44.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "A tungsten wire has resistance R at 20\u00b0C. A second tungsten wire at 20\u00b0C has twice the length and half the cross-sectional area of the first wire. In terms of R, the resistance of the second wire is",
+      "choices": [
+        "",
+        "R",
+        "2R",
+        "4R"
+      ],
+      "image": "/images/exams/physics/june-2016/q45.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "After an incandescent lamp is turned on, the temperature of its filament rapidly increases from room temperature to its operating temperature. As the temperature of the filament increases, what happens to the resistance of the filament and the current through the filament?",
+      "choices": [
+        "The resistance increases and the current decreases.",
+        "The resistance increases and the current increases.",
+        "The resistance decreases and the current decreases.",
+        "The resistance decreases and the current increases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "written",
+      "text": "Parallel wave fronts are incident on an opening in a barrier. Which diagram shows the configuration of wave fronts and barrier opening that will result in the greatest diffraction of the waves passing through the opening? [Assume all diagrams are drawn to the same scale.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/q47.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "A singer demonstrated that she could shatter a crystal glass by singing a note with a wavelength of 0.320 meter in air at STP. What was the natural frequency of the glass?",
+      "choices": [
+        "9.67 \u00d7 10\u22124 Hz",
+        "1.05 \u00d7 102 Hz",
+        "1.03 \u00d7 103 Hz",
+        "9.38 \u00d7 108 Hz ( 4 ) ( 2 ) Current Current ( 3 ) Current ( 1 ) Current Potential Difference Potential Difference Potential Difference Potential Difference ( 1 ) ( 2 ) ( 3 ) ( 4 ) R 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a standing wave in a string. Maximum constructive interference occurs at the",
+      "choices": [
+        "antinodes A, C, and E",
+        "nodes A, C, and E",
+        "antinodes B and D",
+        "nodes B and D"
+      ],
+      "image": "/images/exams/physics/june-2016/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "written",
+      "text": "Which circuit diagram represents voltmeter V connected correctly to measure the potential difference across resistor R2? V ( 1 ) ( 2 ) V ( 3 ) V ( 4 ) R1 R2 R1 R2 V R1 R2 R1 R2 Standing Wave A B C E D String",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/q50.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the information and diagram below and on your knowledge\nof physics.\nAs represented in the diagram below, a constant 15-newton force, F, is applied to a 2.5-kilogram\nbox, accelerating the box to the right at 2.0 meters per second squared across a rough horizontal\nsurface.\n51\u201352 Calculate the magnitude of the net force acting on the box. [Show all work, including the equation\nand substitution with units.]   [2]\n53 Determine the magnitude of the force of friction on the box.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "51\u201352 Calculate the magnitude of the net force acting on the box. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the information and diagram below and on your knowledge\nof physics.\nAs represented in the diagram below, a constant 15-newton force, F, is applied to a 2.5-kilogram\nbox, accelerating the box to the right at 2.0 meters per second squared across a rough horizontal\nsurface.\n51\u201352 Calculate the magnitude of the net force acting on the box. [Show all work, including the equation\nand substitution with units.]   [2]\n53 Determine the magnitude of the force of friction on the box.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Determine the magnitude of the force of friction on the box.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the information and diagram below and on your knowledge\nof physics.\nAs represented in the diagram below, a constant 15-newton force, F, is applied to a 2.5-kilogram\nbox, accelerating the box to the right at 2.0 meters per second squared across a rough horizontal\nsurface.\n51\u201352 Calculate the magnitude of the net force acting on the box. [Show all work, including the equation\nand substitution with units.]   [2]\n53 Determine the magnitude of the force of friction on the box.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the information and diagram below and on your knowledge of\nphysics.\nA ray of light (f = 5.09 \u00d7 1014 Hz) is traveling through a mineral sample that is submerged in water.\nThe ray refracts as it enters the water, as shown in the diagram below.\n54\u201355 Calculate the absolute index of refraction of the mineral. [Show all work, including the equation and\nsubstitution with units.]   [2]\nWater\nMineral\n27\u00b0\n63\u00b0\n49\u00b0\n41\u00b0\nNormal\n2.5 kg\nP\nF  = 15 N\na",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "54\u201355 Calculate the absolute index of refraction of the mineral. [Show all work, including the equation and substitution with units.] Water Mineral 27\u00b0 63\u00b0 49\u00b0 41\u00b0 Normal 2.5 kg P F = 15 N a",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the information and diagram below and on your knowledge of\nphysics.\nA ray of light (f = 5.09 \u00d7 1014 Hz) is traveling through a mineral sample that is submerged in water.\nThe ray refracts as it enters the water, as shown in the diagram below.\n54\u201355 Calculate the absolute index of refraction of the mineral. [Show all work, including the equation and\nsubstitution with units.]   [2]\nWater\nMineral\n27\u00b0\n63\u00b0\n49\u00b0\n41\u00b0\nNormal\n2.5 kg\nP\nF  = 15 N\na",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of physics.\nA ball is rolled twice across the same level laboratory table and allowed to roll off \nthe table and strike the floor. In each trial, the time it takes the ball to travel from the edge of \nthe table to the floor is accurately measured. [Neglect friction.]\n56\u201357 In trial A, the ball is traveling at 2.50 meters per second when it reaches the edge of the table. \nThe ball strikes the floor 0.391 second after rolling off the edge of the table. Calculate the height of\nthe table.  [Show all work, including the equation and substitution with units.]   [2]\n58 In trial B, the ball is traveling at 5.00 meters per second when it reaches the edge of the table.\nCompare the time it took the ball to reach the floor in trial B to the time it took the ball to reach \nthe floor in trial A.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "56\u201357 In trial A, the ball is traveling at 2.50 meters per second when it reaches the edge of the table. The ball strikes the floor 0.391 second after rolling off the edge of the table. Calculate the height of the table. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of physics.\nA ball is rolled twice across the same level laboratory table and allowed to roll off \nthe table and strike the floor. In each trial, the time it takes the ball to travel from the edge of \nthe table to the floor is accurately measured. [Neglect friction.]\n56\u201357 In trial A, the ball is traveling at 2.50 meters per second when it reaches the edge of the table. \nThe ball strikes the floor 0.391 second after rolling off the edge of the table. Calculate the height of\nthe table.  [Show all work, including the equation and substitution with units.]   [2]\n58 In trial B, the ball is traveling at 5.00 meters per second when it reaches the edge of the table.\nCompare the time it took the ball to reach the floor in trial B to the time it took the ball to reach \nthe floor in trial A.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "In trial B, the ball is traveling at 5.00 meters per second when it reaches the edge of the table. Compare the time it took the ball to reach the floor in trial B to the time it took the ball to reach the floor in trial A.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/q58.png",
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of physics.\nA ball is rolled twice across the same level laboratory table and allowed to roll off \nthe table and strike the floor. In each trial, the time it takes the ball to travel from the edge of \nthe table to the floor is accurately measured. [Neglect friction.]\n56\u201357 In trial A, the ball is traveling at 2.50 meters per second when it reaches the edge of the table. \nThe ball strikes the floor 0.391 second after rolling off the edge of the table. Calculate the height of\nthe table.  [Show all work, including the equation and substitution with units.]   [2]\n58 In trial B, the ball is traveling at 5.00 meters per second when it reaches the edge of the table.\nCompare the time it took the ball to reach the floor in trial B to the time it took the ball to reach \nthe floor in trial A.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information and diagram below and on your knowledge\nof physics.\nA toy airplane flies clockwise at a constant speed in a horizontal circle of radius 8.0 meters. \nThe magnitude of the acceleration of the airplane is 25 meters per second squared. The diagram\nshows the path of the airplane as it travels around the circle.\n59\u201360 Calculate the speed of the airplane. [Show all work, including the equation and substitution with\nunits.]   [2]\n61 State the direction of the velocity of the airplane at the instant the acceleration of the airplane is\nsouthward.   [1]\nW\nE\nN\nS\n8.0 m\nP.S./Physics\u2013June \u201916\n[11]\n[OVER]\n\nP.S./Physics\u2013June \u201916\n[12]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "59\u201360 Calculate the speed of the airplane. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information and diagram below and on your knowledge\nof physics.\nA toy airplane flies clockwise at a constant speed in a horizontal circle of radius 8.0 meters. \nThe magnitude of the acceleration of the airplane is 25 meters per second squared. The diagram\nshows the path of the airplane as it travels around the circle.\n59\u201360 Calculate the speed of the airplane. [Show all work, including the equation and substitution with\nunits.]   [2]\n61 State the direction of the velocity of the airplane at the instant the acceleration of the airplane is\nsouthward.   [1]\nW\nE\nN\nS\n8.0 m\nP.S./Physics\u2013June \u201916\n[11]\n[OVER]\n\nP.S./Physics\u2013June \u201916\n[12]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State the direction of the velocity of the airplane at the instant the acceleration of the airplane is southward. W E N S 8.0 m",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information and diagram below and on your knowledge\nof physics.\nA toy airplane flies clockwise at a constant speed in a horizontal circle of radius 8.0 meters. \nThe magnitude of the acceleration of the airplane is 25 meters per second squared. The diagram\nshows the path of the airplane as it travels around the circle.\n59\u201360 Calculate the speed of the airplane. [Show all work, including the equation and substitution with\nunits.]   [2]\n61 State the direction of the velocity of the airplane at the instant the acceleration of the airplane is\nsouthward.   [1]\nW\nE\nN\nS\n8.0 m\nP.S./Physics\u2013June \u201916\n[11]\n[OVER]\n\nP.S./Physics\u2013June \u201916\n[12]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "What quantity is represented by the slope of the graph?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the information and graph below and on your knowledge \nof physics.\nThe graph below represents the speed of a marble rolling down a straight incline as a function\nof time.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the information and graph below and on your knowledge \nof physics.\nThe graph below represents the speed of a marble rolling down a straight incline as a function\nof time.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "63\u201364 Calculate the distance the marble travels during the first 3.0 seconds. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the information and graph below and on your knowledge \nof physics.\nThe graph below represents the speed of a marble rolling down a straight incline as a function\nof time.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "The graph below represents the relationship between weight and mass for objects on the surface of planet X. Determine the acceleration due to gravity on the surface of planet X. 24.0 18.0 12.0 6.0 0 0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 Weight (N) Mass (kg) Weight vs. Mass on Planet X 6.0 5.0 4.0 3.0 2.0 1.0 0 Speed vs. Time Time (s) 0 1.0 2.0 3.0 4.0 5.0 Speed (m/s)",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/q65.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Using a metric ruler, determine the scale used in the vector diagram.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information and vector diagram below and on your\nknowledge of physics.\nA hiker starts at point P and walks 2.0 kilometers due east and then 1.4 kilometers due north.\nThe vectors in the diagram below represent these two displacements.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, use a ruler to construct the vector representing the hiker\u2019s resultant displacement.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information and vector diagram below and on your\nknowledge of physics.\nA hiker starts at point P and walks 2.0 kilometers due east and then 1.4 kilometers due north.\nThe vectors in the diagram below represent these two displacements.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Determine the magnitude of the hiker\u2019s resultant displacement.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information and vector diagram below and on your\nknowledge of physics.\nA hiker starts at point P and walks 2.0 kilometers due east and then 1.4 kilometers due north.\nThe vectors in the diagram below represent these two displacements.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Using a protractor, determine the angle between east and the hiker\u2019s resultant displacement. W E N S 2.0 km P 1.4 km",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information and vector diagram below and on your\nknowledge of physics.\nA hiker starts at point P and walks 2.0 kilometers due east and then 1.4 kilometers due north.\nThe vectors in the diagram below represent these two displacements.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_70_74.png",
+      "context": "Base your answers to questions 70 through 74 on the information and diagram below and on your knowledge\nof physics.\nA jack-in-the-box is a toy in which a figure in an open box is pushed down, compressing \na spring. The lid of the box is then closed. When the box is opened, the figure is pushed up by \nthe spring. The spring in the toy is compressed 0.070 meter by using a downward force of \n12.0 newtons.\n70\u201371 Calculate the spring constant of the spring. [Show all work, including the equation and substitution\nwith units.]   [2]\n72\u201373 Calculate the total amount of elastic potential energy stored in the spring when it is compressed.\n[Show all work, including the equation and substitution with units.]   [2]\n74 Identify one form of energy to which the elastic potential energy of the spring is converted when the\nfigure is pushed up by the spring.   [1]\nP.S./Physics\u2013June \u201916\n[14]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "70\u201371 Calculate the spring constant of the spring. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_70_74.png",
+      "context": "Base your answers to questions 70 through 74 on the information and diagram below and on your knowledge\nof physics.\nA jack-in-the-box is a toy in which a figure in an open box is pushed down, compressing \na spring. The lid of the box is then closed. When the box is opened, the figure is pushed up by \nthe spring. The spring in the toy is compressed 0.070 meter by using a downward force of \n12.0 newtons.\n70\u201371 Calculate the spring constant of the spring. [Show all work, including the equation and substitution\nwith units.]   [2]\n72\u201373 Calculate the total amount of elastic potential energy stored in the spring when it is compressed.\n[Show all work, including the equation and substitution with units.]   [2]\n74 Identify one form of energy to which the elastic potential energy of the spring is converted when the\nfigure is pushed up by the spring.   [1]\nP.S./Physics\u2013June \u201916\n[14]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_70_74.png",
+      "context": "Base your answers to questions 70 through 74 on the information and diagram below and on your knowledge\nof physics.\nA jack-in-the-box is a toy in which a figure in an open box is pushed down, compressing \na spring. The lid of the box is then closed. When the box is opened, the figure is pushed up by \nthe spring. The spring in the toy is compressed 0.070 meter by using a downward force of \n12.0 newtons.\n70\u201371 Calculate the spring constant of the spring. [Show all work, including the equation and substitution\nwith units.]   [2]\n72\u201373 Calculate the total amount of elastic potential energy stored in the spring when it is compressed.\n[Show all work, including the equation and substitution with units.]   [2]\n74 Identify one form of energy to which the elastic potential energy of the spring is converted when the\nfigure is pushed up by the spring.   [1]\nP.S./Physics\u2013June \u201916\n[14]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "72\u201373 Calculate the total amount of elastic potential energy stored in the spring when it is compressed. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_70_74.png",
+      "context": "Base your answers to questions 70 through 74 on the information and diagram below and on your knowledge\nof physics.\nA jack-in-the-box is a toy in which a figure in an open box is pushed down, compressing \na spring. The lid of the box is then closed. When the box is opened, the figure is pushed up by \nthe spring. The spring in the toy is compressed 0.070 meter by using a downward force of \n12.0 newtons.\n70\u201371 Calculate the spring constant of the spring. [Show all work, including the equation and substitution\nwith units.]   [2]\n72\u201373 Calculate the total amount of elastic potential energy stored in the spring when it is compressed.\n[Show all work, including the equation and substitution with units.]   [2]\n74 Identify one form of energy to which the elastic potential energy of the spring is converted when the\nfigure is pushed up by the spring.   [1]\nP.S./Physics\u2013June \u201916\n[14]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Identify one form of energy to which the elastic potential energy of the spring is converted when the figure is pushed up by the spring.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2016/context_70_74.png",
+      "context": "Base your answers to questions 70 through 74 on the information and diagram below and on your knowledge\nof physics.\nA jack-in-the-box is a toy in which a figure in an open box is pushed down, compressing \na spring. The lid of the box is then closed. When the box is opened, the figure is pushed up by \nthe spring. The spring in the toy is compressed 0.070 meter by using a downward force of \n12.0 newtons.\n70\u201371 Calculate the spring constant of the spring. [Show all work, including the equation and substitution\nwith units.]   [2]\n72\u201373 Calculate the total amount of elastic potential energy stored in the spring when it is compressed.\n[Show all work, including the equation and substitution with units.]   [2]\n74 Identify one form of energy to which the elastic potential energy of the spring is converted when the\nfigure is pushed up by the spring.   [1]\nP.S./Physics\u2013June \u201916\n[14]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Using the circuit symbols shown on the Reference Tables for Physical Setting/Physics, draw a diagram of the circuit in the space provided in your answer booklet.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 80 on the information below and on your knowledge of physics.\nA 12-volt battery causes 0.60 ampere to flow through a circuit that contains a lamp and \na resistor connected in parallel. The lamp is operating at 6.0 watts.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 80 on the information below and on your knowledge of physics.\nA 12-volt battery causes 0.60 ampere to flow through a circuit that contains a lamp and \na resistor connected in parallel. The lamp is operating at 6.0 watts.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "76\u201377 Calculate the current through the lamp. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 80 on the information below and on your knowledge of physics.\nA 12-volt battery causes 0.60 ampere to flow through a circuit that contains a lamp and \na resistor connected in parallel. The lamp is operating at 6.0 watts.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Determine the current in the resistor.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 80 on the information below and on your knowledge of physics.\nA 12-volt battery causes 0.60 ampere to flow through a circuit that contains a lamp and \na resistor connected in parallel. The lamp is operating at 6.0 watts.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 80 on the information below and on your knowledge of physics.\nA 12-volt battery causes 0.60 ampere to flow through a circuit that contains a lamp and \na resistor connected in parallel. The lamp is operating at 6.0 watts.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "79\u201380 Calculate the resistance of the resistor. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 80 on the information below and on your knowledge of physics.\nA 12-volt battery causes 0.60 ampere to flow through a circuit that contains a lamp and \na resistor connected in parallel. The lamp is operating at 6.0 watts.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Determine the energy, in electronvolts, of an emitted photon when an electron transition from n = 3 to n = 2 occurs.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 through 85 on the information below and on your knowledge of physics.\nThe Great Nebula in the constellation Orion consists primarily of excited hydrogen gas. \nThe electrons in the atoms of excited hydrogen have been raised to higher energy levels. \nWhen these atoms release energy, a frequent electron transition is from the excited \nn = 3 energy level to the n = 2 energy level, which gives the nebula one of its characteristic colors.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Determine the energy of this emitted photon in joules.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 through 85 on the information below and on your knowledge of physics.\nThe Great Nebula in the constellation Orion consists primarily of excited hydrogen gas. \nThe electrons in the atoms of excited hydrogen have been raised to higher energy levels. \nWhen these atoms release energy, a frequent electron transition is from the excited \nn = 3 energy level to the n = 2 energy level, which gives the nebula one of its characteristic colors.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 through 85 on the information below and on your knowledge of physics.\nThe Great Nebula in the constellation Orion consists primarily of excited hydrogen gas. \nThe electrons in the atoms of excited hydrogen have been raised to higher energy levels. \nWhen these atoms release energy, a frequent electron transition is from the excited \nn = 3 energy level to the n = 2 energy level, which gives the nebula one of its characteristic colors.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "83\u201384 Calculate the frequency of the emitted photon. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 through 85 on the information below and on your knowledge of physics.\nThe Great Nebula in the constellation Orion consists primarily of excited hydrogen gas. \nThe electrons in the atoms of excited hydrogen have been raised to higher energy levels. \nWhen these atoms release energy, a frequent electron transition is from the excited \nn = 3 energy level to the n = 2 energy level, which gives the nebula one of its characteristic colors.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Identify the color of light associated with this photon. P.S./PHYSICS P.S./PHYSICS Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 through 85 on the information below and on your knowledge of physics.\nThe Great Nebula in the constellation Orion consists primarily of excited hydrogen gas. \nThe electrons in the atoms of excited hydrogen have been raised to higher energy levels. \nWhen these atoms release energy, a frequent electron transition is from the excited \nn = 3 energy level to the n = 2 energy level, which gives the nebula one of its characteristic colors.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

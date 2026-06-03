@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-1",
+  "session": "january-2016",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "In the function f(x) \u0002 (x \u0003 2)2 \u0004 4, the minimum value occurs when x is",
+      "choices": [
+        "\u00032",
+        "2",
+        "\u00034",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The graph below was created by an employee at a gas station. Which statement can be justified by using the graph?",
+      "choices": [
+        "If 10 gallons of gas was purchased, $35 was paid.",
+        "For every gallon of gas purchased, $3.75 was paid.",
+        "For every 2 gallons of gas purchased, $5.00 was paid.",
+        "If zero gallons of gas were purchased, zero miles were driven. 45 40 35 30 25 20 15 10 5 0 \u0002\u0003\u0004\u0005\u0006\u0007\b \b \u000e\u000f \u000f\b\u0010 \u0006\u000f \u0011 \u000f\u0012\b \b \u000f\b\u0002\u0003\u0004\u0005\u0006\u0007\b\b 2 4 6 8 10 12 14 16 18 20 50 Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/january-2016/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "For a recently released movie, the function y \u0002 119.67(0.61)x models the revenue earned, y, in millions of dollars each week, x, for several weeks after its release. Based on the equation, how much more money, in millions of dollars, was earned in revenue for week 3 than for week 5?",
+      "choices": [
+        "37.27",
+        "27.16",
+        "17.06",
+        "10.11"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Given the following expressions: I. III. II. IV. Which expression(s) result in an irrational number?",
+      "choices": [
+        "II, only",
+        "III, only",
+        "I, III, IV",
+        "II, III, IV"
+      ],
+      "image": "/images/exams/algebra-1/january-2016/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which inequality is represented by the graph below?",
+      "choices": [
+        "y \u22642x \u00033",
+        "y \u22652x \u00033",
+        "y \u2264\u00033x \u0004 2",
+        "y \u2265\u00033x \u0004 2 3 49 \u2022( ) 1 2 \u0004 2 5 5 ( ) ( ) \u2022 \u0003 \u0004 5 8 3 5 y x Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/january-2016/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Michael borrows money from his uncle, who is charging him simple interest using the formula I \u0002 Prt. To figure out what the interest rate, r, is, Michael rearranges the formula to find r. His new formula is r equals",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/january-2016/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which equation is equivalent to y \u0003 34 \u0002 x(x \u0003 12)?",
+      "choices": [
+        "y \u0002 (x \u0003 17)(x \u0004 2)",
+        "y \u0002 (x \u0003 17)(x \u0003 2)",
+        "y \u0002 (x \u0003 6)2 \u0004 2",
+        "y \u0002 (x \u0003 6)2 \u0003 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The equation A \u0002 1300(1.02)7 is being used to calculate the amount of money in a savings account. What does 1.02 represent in this equation?",
+      "choices": [
+        "0.02% decay",
+        "0.02% growth",
+        "2% decay",
+        "2% growth"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The zeros of the function f(x) \u0002 2x2 \u0003 4x \u0003 6 are",
+      "choices": [
+        "3 and \u00031",
+        "3 and 1",
+        "\u00033 and 1",
+        "\u00033 and \u00031"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "When (2x \u0003 3)2 is subtracted from 5x2, the result is",
+      "choices": [
+        "x2 \u0003 12x \u0003 9",
+        "x2 \u0003 12x \u0004 9",
+        "x2 \u0004 12x \u0003 9",
+        "x2 \u0004 12x \u0004 9 Pt I I Pt P I t \u2013 I P t \u2013 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Joe has a rectangular patio that measures 10 feet by 12 feet. He wants to increase the area by 50% and plans to increase each dimension by equal lengths, x. Which equation could be used to determine x?",
+      "choices": [
+        "(10 \u0004 x)(12 \u0004 x) \u0002 120",
+        "(10 \u0004 x)(12 \u0004 x) \u0002 180",
+        "(15 \u0004 x)(18 \u0004 x) \u0002 180",
+        "(15)(18) \u0002 120 \u0004 x2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "When factored completely, x3 \u0003 13x2 \u0003 30x is",
+      "choices": [
+        "x(x \u0004 3)(x \u0003 10)",
+        "x(x \u0003 3)(x \u0003 10)",
+        "x(x \u0004 2)(x \u0003 15)",
+        "x(x \u0003 2)(x \u0004 15)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The table below shows the cost of mailing a postcard in different years. During which time interval did the cost increase at the greatest average rate?",
+      "choices": [
+        "1898\u20131971",
+        "1971\u20131985",
+        "1985\u20132006",
+        "2006\u20132012"
+      ],
+      "image": "/images/exams/algebra-1/january-2016/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "When solving the equation x2 \u0003 8x \u0003 7 \u0002 0 by completing the square, which equation is a step in the process?",
+      "choices": [
+        "(x \u0003 4)2 \u0002 9",
+        "(x \u0003 4)2 \u0002 23",
+        "(x \u0003 8)2 \u0002 9",
+        "(x \u0003 8)2 \u0002 23"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "A construction company uses the function f(p), where p is the number of people working on a project, to model the amount of money it spends to complete a project. A reasonable domain for this function would be",
+      "choices": [
+        "positive integers",
+        "positive real numbers",
+        "both positive and negative integers",
+        "both positive and negative real numbers Year 1898 1971 1985 2006 2012 Cost (\u00a2) 1 6 14 24 35 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which function is shown in the table below?",
+      "choices": [
+        "f(x) \u0002 3x",
+        "f(x) \u0002 x \u0004 3",
+        "f(x) \u0002 \u0003x3",
+        "f(x) \u0002 3x"
+      ],
+      "image": "/images/exams/algebra-1/january-2016/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Given the functions h(x) \u0002 x \u0004 3 and j(x) \u0002 |x|, which value of x makes h(x) \u0002 j(x)?",
+      "choices": [
+        "\u00032",
+        "2",
+        "3",
+        "\u00036"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which recursively defined function represents the sequence 3, 7, 15, 31, \u2026?",
+      "choices": [
+        "\u0002 3, f(n \u0004 1) \u0002 3f(n) \u0003 2",
+        "f",
+        "f",
+        "f"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The range of the function defined as y \u0002 5x is",
+      "choices": [
+        "y \u0005 0",
+        "y \u0006 0",
+        "y \u22640",
+        "y \u22650 0 1 2 9 3 27 \u0013 \u0014\u0013\u0015 \u20132 \u20131 1 9 1 3 1 3 1 2 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The graph of y \u0002 f(x) is shown below. What is the graph of y \u0002 f(x \u0004 1) \u0003 2? x x y y",
+      "choices": [
+        "",
+        "",
+        "y x y x x y Algebra I (Common Core)",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/january-2016/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which pair of equations could not be used to solve the following equations for x and y? 4x \u0004 2y \u0002 22 \u00032x \u0004 2y \u0002 \u00038",
+      "choices": [
+        "4x \u0004 2y \u0002 22",
+        "4x \u0004 2y \u0002 22",
+        "12x \u0004 6y \u0002 66 2x \u0003 2y \u0002 8 6x \u0003 6y \u0002 24",
+        "8x \u0004 4y \u0002 44 \u00034x \u0004 4y \u0002 \u000316 \u00038x \u0004 8y \u0002 \u00038"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The graph representing a function is shown below. Which function has a minimum that is less than the one shown in the graph?",
+      "choices": [
+        "y \u0002 x2 \u0003 6x \u0004 7",
+        "y \u0002 |x \u0004 3| \u0003 6",
+        "y \u0002 x2 \u0003 2x \u0003 10",
+        "y \u0002 |x \u0003 8| \u0004 2 y x y x Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/january-2016/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Grisham is considering the three situations below. I. For the first 28 days, a sunflower grows at a rate of 3.5 cm per day. II. The value of a car depreciates at a rate of 15% per year after it is purchased. III. The amount of bacteria in a culture triples every two days during an experiment. Which of the statements describes a situation with an equal difference over an equal interval?",
+      "choices": [
+        "I, only",
+        "II, only",
+        "I and III",
+        "II and III"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "After performing analyses on a set of data, Jackie examined the scatter plot of the residual values for each analysis. Which scatter plot indicates the best linear fit for the data? y x y x y x y x",
+      "choices": [
+        "",
+        "",
+        "",
+        "Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/january-2016/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "The function, t(x), is shown in the table below. Determine whether t(x) is linear or exponential. Explain your answer. \u20133 \u20131 1 3 5 10 7.5 5 2.5 0 \u0012\u0014\u0013\u0015 \u0013 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2016/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Marcel claims that the graph below represents a function. State whether Marcel is correct. Justify your answer. 1 \u20131 \u20132 2 \u20131 \u20132 \u20133 2 3 1 3 \u20133 4 \u20134 \u20134 4 y x Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2016/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Solve the equation for y. (y \u0003 3)2 \u0002 4y \u0003 12 Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The graph below shows the variation in the average temperature of Earth\u2019s surface from 1950\u20132000, according to one source. During which years did the temperature variation change the most per unit time? Explain how you determined your answer. \u20130.4 0.4 0.3 0.2 0.1 0 \u20130.1 \u20130.2 \u20130.3 1950 1960 1970 1980 1990 2000 \u0016\u0017\u0006\u0007 \u0018\u0006\b\u0019 \u0007\u001a \u0012\u001a \u000e\b\u001a\u000e\b\u001b\u0006\u0004 \u0006\u0007 \u0012\u0003\u0007\u0006\u0005\u0002 \u000e \u0019 \u0007\u001a \u0012\u001a \u000e\b \b \u0007\u0012 \u000f\b\u0010\u0003\u0007 \u0006 \u001b\u0006\u0004 \u0006\u0007 \u0012\u0003\u0007\u0006\b!\u0017\u0006\u0007\b\"#\b$\u0006 \u0007\u000f 1955 1965 1975 1985 1995 Year Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2016/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "The cost of belonging to a gym can be modeled by C(m) \u0002 50m \u0004 79.50, where C(m) is the total cost for m months of membership. State the meaning of the slope and y-intercept of this function with respect to the costs associated with the gym membership. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "A statistics class surveyed some students during one lunch period to obtain opinions about television programming preferences. The results of the survey are summarized in the table below. Programming Preferences Based on the sample, predict how many of the school\u2019s 351 males would prefer comedy. Justify your answer. Comedy Drama Male 70 35 Female 48 42 Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2016/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Given that a \u0006 b, solve for x in terms of a and b: b(x \u0003 3) \u0007 ax \u0004 7b Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Jacob and Jessica are studying the spread of dandelions. Jacob discovers that the growth over t weeks can be defined by the function f(t) \u0002 (8) \u2022 2t. Jessica finds that the growth function over t weeks is g(t) \u0002 2t \u0004 3. Calculate the number of dandelions that Jacob and Jessica will each have after 5 weeks. Based on the growth from both functions, explain the relationship between f(t) and g(t). Algebra I (Common Core) Algebra I (Common Core) Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Let h(t) \u0002 \u000316t2 \u0004 64t \u0004 80 represent the height of an object above the ground after t seconds. Determine the number of seconds it takes to achieve its maximum height. Justify your answer. State the time interval, in seconds, during which the height of the object decreases. Explain your reasoning.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Fred\u2019s teacher gave the class the quadratic function f(x) \u0002 4x2 \u0003 16x \u0003 9. a) State two different methods Fred could use to solve the equation f(x) \u0002 0. b) Using one of the methods stated in part a, solve f(x) \u0002 0 for x, to the nearest tenth. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Erica, the manager at Stellarbeans, collected data on the daily high temperature and revenue from coffee sales. Data from nine days this past fall are shown in the table below. State the linear regression function, f(t), that estimates the day\u2019s coffee sales with a high temperature of t. Round all values to the nearest integer. State the correlation coefficient, r, of the data to the nearest hundredth. Does r indicate a strong linear relationship between the variables? Explain your reasoning. Day 1 Day 2 Day 3 Day 4 Day 5 Day 6 Day 7 Day 8 Day 9 High Temperature, t 54 50 62 67 70 58 52 46 48 Coffee Sales, f(t) $2900 $3080 $2500 $2380 $2200 $2700 $3000 $3620 $3720 Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2016/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "A contractor has 48 meters of fencing that he is going to use as the perimeter of a rectangular garden. The length of one side of the garden is represented by x, and the area of the garden is 108 square meters. Determine, algebraically, the dimensions of the garden in meters. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "The Reel Good Cinema is conducting a mathematical study. In its theater, there are 200 seats. Adult tickets cost $12.50 and child tickets cost $6.25. The cinema\u2019s goal is to sell at least $1500 worth of tickets for the theater. Write a system of linear inequalities that can be used to find the possible combinations of adult tickets, x, and child tickets, y, that would satisfy the cinema\u2019s goal. Graph the solution to this system of inequalities on the set of axes on the next page. Label the solution with an S. Marta claims that selling 30 adult tickets and 80 child tickets will result in meeting the cinema\u2019s goal. Explain whether she is correct or incorrect, based on the graph drawn. Algebra I (Common Core) Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Algebra I (Common Core) 0 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 210 220 230 240 250 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 210 220 230 240 250 y x Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Algebra I (Common Core) Tear Here Tear Here ALGEBRA I (COMMON CORE) ALGEBRA I (COMMON CORE) Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

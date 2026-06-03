@@ -35,8 +35,7 @@ export default {
       topic: 'Coordinate Geometry',
       correct: 0,
       explanation: 'Rewriting 2y = 3x − 10 as y = ³⁄₂x − 5 shows slope ³⁄₂; a perpendicular line must have the negative reciprocal slope −⅔, which matches y = −⅔x + 7.',
-      diveDeep: 'Perpendicular slopes are negative reciprocals — flip the fraction AND change the sign. The most common error is using only the negative (−³⁄₂) or only the reciprocal (⅔) instead of both. Always convert to slope-intercept form y = mx + b first so the slope is visible; the y-intercept is irrelevant to perpendicularity. Parallel lines, by contrast, share the same slope, so distinguishing the two relationships is essential.'
-    },
+      diveDeep: 'Perpendicular slopes are negative reciprocals — flip the fraction AND change the sign. The most common error is using only the negative (−³⁄₂) or only the reciprocal (⅔) instead of both. Always convert to slope-intercept form y = mx + b first so the slope is visible; the y-intercept is irrelevant to perpendicularity. Parallel lines, by contrast, share the same slope, so distinguishing the two relationships is essential.', image: '/images/exams/geo-january-2024/q3.png' },
     {
       number: 4,
       part: 'A',
@@ -66,8 +65,7 @@ export default {
       topic: 'Circles',
       correct: 1,
       explanation: 'Completing the square gives (x − 3)² + (y + 2)² = 25, so the center is (3, −2) and the radius is √25 = 5.',
-      diveDeep: 'Converting general form to center-radius form requires completing the square for both x and y: add (−6/2)² = 9 and (4/2)² = 4 to both sides, giving 12 + 9 + 4 = 25 on the right. Common traps are sign errors (the center signs are opposite the constants inside the squares) and forgetting that the right side equals r², not r — so radius is √25 = 5, not 25. Keep the standard form (x − h)² + (y − k)² = r² firmly in mind.'
-    },
+      diveDeep: 'Converting general form to center-radius form requires completing the square for both x and y: add (−6/2)² = 9 and (4/2)² = 4 to both sides, giving 12 + 9 + 4 = 25 on the right. Common traps are sign errors (the center signs are opposite the constants inside the squares) and forgetting that the right side equals r², not r — so radius is √25 = 5, not 25. Keep the standard form (x − h)² + (y − k)² = r² firmly in mind.', image: '/images/exams/geo-january-2024/q6.png' },
     {
       number: 7,
       part: 'A',
@@ -98,8 +96,7 @@ export default {
       topic: 'Similarity & Proof',
       correct: 2,
       explanation: 'For similar figures the ratio of areas equals the square of the ratio of corresponding sides; (2:5)² = 4:25, so 16/areaDEF = 4/25, giving areaDEF = 100 square units.',
-      diveDeep: 'Linear scale factor k relates to area by k² and to volume by k³. A frequent trap is multiplying the area by the linear ratio (2:5) instead of its square. Here, since ABC is the smaller triangle (ratio 2:5), DEF must be larger: 16 × (25/4) = 100. Always set up the proportion with the squared ratio and check that the larger triangle ends up with the larger area as a sanity test.'
-    },
+      diveDeep: 'Linear scale factor k relates to area by k² and to volume by k³. A frequent trap is multiplying the area by the linear ratio (2:5) instead of its square. Here, since ABC is the smaller triangle (ratio 2:5), DEF must be larger: 16 × (25/4) = 100. Always set up the proportion with the squared ratio and check that the larger triangle ends up with the larger area as a sanity test.', image: '/images/exams/geo-january-2024/q9.png' },
     {
       number: 10,
       part: 'A',
@@ -118,8 +115,7 @@ export default {
       topic: 'Right Triangles & Trig',
       correct: 3,
       explanation: 'The ramp length 75 is the hypotenuse and x is the side opposite the 30° angle, so x = 75·sin(30°) = 75(0.5) = 37.5 feet.',
-      diveDeep: 'Set up the trig ratio by identifying which sides relate to the given angle: opposite/hypotenuse uses sine, adjacent/hypotenuse uses cosine. Here the rising height is opposite the 30° angle and the ramp is the hypotenuse, so sine applies. A classic trap is using cosine (which would give 65.0, the horizontal run) or tangent. Note sin(30°) = 0.5 exactly — a value worth memorizing along with the 30-60-90 special triangle ratios.'
-    },
+      diveDeep: 'Set up the trig ratio by identifying which sides relate to the given angle: opposite/hypotenuse uses sine, adjacent/hypotenuse uses cosine. Here the rising height is opposite the 30° angle and the ramp is the hypotenuse, so sine applies. A classic trap is using cosine (which would give 65.0, the horizontal run) or tangent. Note sin(30°) = 0.5 exactly — a value worth memorizing along with the 30-60-90 special triangle ratios.', image: '/images/exams/geo-january-2024/q11.png' },
     {
       number: 12,
       part: 'A',
@@ -300,8 +296,7 @@ export default {
       topic: 'Circles',
       explanation: 'The radius is the distance from the center to the given point: √((6−3)² + (2−(−2))²) = √(9 + 16) = 5, so the equation is (x − 3)² + (y + 2)² = 25.',
       diveDeep: 'The center-radius form (x − h)² + (y − k)² = r² requires the center (h, k) and r². When only a point on the circle is given, compute r with the distance formula and then square it for the equation — do not leave the radius unsquared. Watch the sign rule: a center of (3, −2) produces (x − 3)² + (y + 2)², with signs opposite the coordinates. The right side is r² = 25, not r = 5.',
-      modelAnswer: 'The radius equals the distance from the center (3, −2) to the point (6, 2): r = √((6 − 3)² + (2 − (−2))²) = √(3² + 4²) = √(9 + 16) = √25 = 5. Using center-radius form (x − h)² + (y − k)² = r² with (h, k) = (3, −2) and r² = 25, the equation of the circle is (x − 3)² + (y + 2)² = 25.'
-    },
+      modelAnswer: 'The radius equals the distance from the center (3, −2) to the point (6, 2): r = √((6 − 3)² + (2 − (−2))²) = √(3² + 4²) = √(9 + 16) = √25 = 5. Using center-radius form (x − h)² + (y − k)² = r² with (h, k) = (3, −2) and r² = 25, the equation of the circle is (x − 3)² + (y + 2)² = 25.', image: '/images/exams/geo-january-2024/q28.png' },
     {
       number: 29,
       part: 'B',
@@ -310,8 +305,7 @@ export default {
       topic: 'Transformations',
       explanation: 'Both a reflection and a translation are rigid motions, which preserve distance and angle measure; therefore the composition maps △ABC onto an image of the same size and shape, proving congruence.',
       diveDeep: 'Congruence is formally defined as the existence of a sequence of rigid motions (reflections, translations, rotations) mapping one figure onto another. Each rigid motion preserves side lengths and angle measures, so any composition of them does too. The reflection reverses orientation while the translation preserves it; together the final image is congruent regardless. A strong answer names the preserved attributes (distance, angle measure, and hence congruence) and cites that both transformations are rigid motions.',
-      modelAnswer: 'A reflection over the y-axis and a translation are both rigid motions (isometries). Rigid motions preserve distance (side lengths) and angle measure. Because every corresponding side and angle of △ABC is preserved through both transformations, the final image has exactly the same side lengths and angle measures as △ABC. Since there exists a sequence of rigid motions (the reflection followed by the translation) that maps △ABC onto its final image, △ABC is congruent to its final image by the definition of congruence.'
-    },
+      modelAnswer: 'A reflection over the y-axis and a translation are both rigid motions (isometries). Rigid motions preserve distance (side lengths) and angle measure. Because every corresponding side and angle of △ABC is preserved through both transformations, the final image has exactly the same side lengths and angle measures as △ABC. Since there exists a sequence of rigid motions (the reflection followed by the translation) that maps △ABC onto its final image, △ABC is congruent to its final image by the definition of congruence.', image: '/images/exams/geo-january-2024/q29.png' },
     {
       number: 30,
       part: 'B',
@@ -331,8 +325,7 @@ export default {
       topic: 'Area & Volume',
       explanation: 'Using V = ⅓πr²h = ⅓π(6²)(8) = ⅓π(36)(8) = 96π ≈ 301.6, the volume is approximately 302 cubic centimeters.',
       diveDeep: 'The cone volume formula V = ⅓πr²h is exactly one-third of the corresponding cylinder volume — a relationship worth remembering to avoid omitting the ⅓ factor, the most frequent error. Square only the radius, not the height, and keep π in the calculation until the final rounding to maximize accuracy. Note that a 6-8-10 right triangle hides here (the slant height is 10), which would matter for surface area but not for volume.',
-      modelAnswer: 'The volume of a cone is V = ⅓πr²h. Substituting r = 6 and h = 8: V = ⅓π(6)²(8) = ⅓π(36)(8) = ⅓π(288) = 96π. Evaluating, V = 96π ≈ 301.59 cubic centimeters, which rounds to 302 cubic centimeters.'
-    },
+      modelAnswer: 'The volume of a cone is V = ⅓πr²h. Substituting r = 6 and h = 8: V = ⅓π(6)²(8) = ⅓π(36)(8) = ⅓π(288) = 96π. Evaluating, V = 96π ≈ 301.59 cubic centimeters, which rounds to 302 cubic centimeters.', image: '/images/exams/geo-january-2024/q31.png' },
     {
       number: 32,
       part: 'C',

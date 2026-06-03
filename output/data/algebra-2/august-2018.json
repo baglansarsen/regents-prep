@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-2",
+  "session": "august-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The solution of 87e0.3x \u0002 5918, to the nearest thousandth, is",
+      "choices": [
+        "0.583",
+        "1.945",
+        "4.220",
+        "14.066"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "A researcher randomly divides 50 bean plants into two groups. He puts one group by a window to receive natural light and the second group under artificial light. He records the growth of the plants weekly. Which data collection method is described in this situation?",
+      "choices": [
+        "observational study",
+        "controlled experiment",
+        "survey",
+        "systematic sample"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "If f(x) \u0002 x2 \u0003 9 and g(x) \u0002 x \u0003 3, which operation would not result in a polynomial expression?",
+      "choices": [
+        "f(x) \u0003 g(x)",
+        "f(x) \u0004 g(x)",
+        "f(x) \u2022 g(x)",
+        "f(x) \u0005 g(x)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Consider the function p(x) \u0002 3x3 \u0003 x2 \u0004 5x and the graph of y \u0002 m(x) below. Which statement is true?",
+      "choices": [
+        "p(x) has three real roots and m(x) has two real roots.",
+        "p(x) has one real root and m(x) has two real roots.",
+        "p(x) has two real roots and m(x) has three real roots.",
+        "p(x) has three real roots and m(x) has four real roots."
+      ],
+      "image": "/images/exams/algebra-2/august-2018/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to ?",
+      "choices": [
+        "2x3 \u0003 4x2 \u0003 x \u0004 12 \u0003",
+        "2x3 \u0004 4x2 \u0004 x \u0003 14",
+        "2x3 \u0004 4x2 \u0004 x \u0003",
+        "2x3 \u0004 4x2 \u0004 x \u20131 \u20132 \u20131 \u201310 1 2 1 4 y x 14 6 x \u0003 86 6 x \u0003 2 8 25 6 14 6 4 3 2 x x x x x \u0003 \u0004 \u0004 \u0003 \u0003"
+      ],
+      "image": "/images/exams/algebra-2/august-2018/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Given f(x) \u0002 1__ 2 x \u0003 8, which equation represents the inverse, g(x)?",
+      "choices": [
+        "g(x) \u0002 2x \u0004 8",
+        "g(x) \u0002 2x \u0004 16",
+        "g(x) \u0002 \u0004 1__ 2 x \u0003 8",
+        "g(x) \u0002 \u0004 1__ 2 x \u0004 16"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The value(s) of x that satisfy are",
+      "choices": [
+        "{5}",
+        "{7}",
+        "{5, 7}",
+        "{3, 5, 7}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Stephanie found that the number of white-winged crossbills in an area can be represented by the formula C \u0002 550(1.08)t, where t represents the number of years since 2010. Which equation correctly represents the number of white-winged crossbills in terms of the monthly rate of population growth?",
+      "choices": [
+        "C \u0002 550(1.00643)t",
+        "C \u0002 550(1.00643)12t",
+        "C \u0002 550(1.00643) t__ 12",
+        "C \u0002 550(1.00643)t \u0003 12"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The roots of the equation 3x2 \u0003 2x \u0002 \u00047 are",
+      "choices": [
+        "\u00042,\u0004 1__ 3",
+        "\u0004 7__ 3 ,1",
+        "\u0004 1__ 3 \u0006 2i\u0002\u0003\u00035 _____ 3",
+        "\u0004 1__ 3 \u0006 \u0002\u0003\u0003 11 ____ 3 x x x 2 4 5 2 10 \u0004 \u0004 \u0002 \u0004"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The average depreciation rate of a new boat is approximately 8% per year. If a new boat is purchased at a price of $75,000, which model is a recursive formula representing the value of the boat n years after it was purchased?",
+      "choices": [
+        "an \u0002 75,000(0.08)n",
+        "a0 \u0002 75,000",
+        "an \u0002 75,000(1.08)n",
+        "a0 \u0002 75,000 an \u0002 (0.92)n an \u0002 0.92(an \u0004 1)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Given cos \u03b8 \u0002 7__ 25, where \u03b8 is an angle in standard position terminating in quadrant IV, and sin2\u03b8 \u0003 cos2\u03b8 \u0002 1, what is the value of tan \u03b8?",
+      "choices": [
+        "\u0004 24 ___ 25",
+        "\u0004 24 ___ 7",
+        "24 ___ 25",
+        "24 ___ 7"
+      ],
+      "image": "/images/exams/algebra-2/august-2018/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "For x \u0007 0, which expression is equivalent to ?",
+      "choices": [
+        "x",
+        "x 3__ 2",
+        "x3",
+        "x10 x x x 2 3 5 6"
+      ],
+      "image": "/images/exams/algebra-2/august-2018/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Jake wants to buy a car and hopes to save at least $5000 for a down payment. The table below summarizes the amount of money he plans to save each week. Based on this plan, which expression should he use to determine how much he has saved in n weeks?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/august-2018/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to x6y4(x4 \u0004 16) \u0004 9(x4 \u0004 16)?",
+      "choices": [
+        "x10y4 \u0004 16x6y4 \u0004 9x4 \u0004 144",
+        "(x6y4 \u0004 9)(x \u0003 2)3(x \u0004 2)",
+        "(x3y2 \u0003 3)(x3y2 \u0004 3)(x \u0003 2)2(x \u0004 2)2",
+        "(x3y2 \u0003 3)(x3y2 \u0004 3)(x2 \u0003 4)(x2 \u0004 4)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "If A \u0002 \u00043 \u0003 5i, B \u0002 4 \u0004 2i, and C \u0002 1 \u0003 6i, where i is the imaginary unit, then A \u0004 BC equals",
+      "choices": [
+        "5 \u0004 17i",
+        "5 \u0003 27i",
+        "\u000419 \u0004 17i",
+        "\u000419 \u0003 27i 2 2 2 5 1 2 5 1 \u0004 \u0004 ( . ) . n\u2212 2 2 2 5 1 2 5 \u0004 \u0004 ( . ) . n 1 2 5 1 2 5 1 \u0004 \u0004 . . n\u2212 1 2 5 1 2 5 \u0004 . . n \u2212 Week 1 2 3 4 5 Money Saved, in Dollars 2 5 12.5 31.25 \u2026"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which sketch best represents the graph of x \u0002 3y? y x y x y x y x",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/august-2018/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The graph below represents national and New York State average gas prices. If New York State\u2019s gas prices are modeled by G(x) and C \u0007 0, which expression best approximates the national average x months from August 2014?",
+      "choices": [
+        "G(x \u0003 C)",
+        "G(x) \u0003 C",
+        "G(x \u0004 C)",
+        "G(x) \u0004 C"
+      ],
+      "image": "/images/exams/algebra-2/august-2018/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Data for the students enrolled in a local high school are shown in the Venn diagram below. If a student from the high school is selected at random, what is the probability that the student is a sophomore given that the student is enrolled in Algebra II?",
+      "choices": [
+        "85 ____ 210",
+        "85 ____ 295",
+        "85 ____ 405",
+        "85 _____ 1600 210 Sophomores 85 320 985 Algebra II 2.18 Aug 2014 Oct 2014 Dec 2014 Feb 2015 Apr 2015 Jun 2015 Aug 2015 2.28 2.38 2.48 2.98 3.08 3.28 2.58 2.68 2.78 2.88 3.18 3.58 3.68 3.38 3.48 3.78 Key National NYS Average Gas Price ($)"
+      ],
+      "image": "/images/exams/algebra-2/august-2018/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "If p(x) \u0002 2 ln(x) \u0004 1 and m(x) \u0002 ln(x \u0003 6), then what is the solution for p(x) \u0002 m(x)?",
+      "choices": [
+        "1.65",
+        "3.14",
+        "5.62",
+        "no solution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which function\u2019s graph has a period of 8 and reaches a maximum height of 1 if at least one full period is graphed?",
+      "choices": [
+        "y \u0002 \u00044cos( \u03c0__ 4 x) \u0004 3",
+        "y \u0002 \u00044cos( \u03c0__ 4 x) \u0003 5",
+        "y \u0002 \u00044cos(8x) \u0004 3",
+        "y \u0002 \u00044cos(8x) \u0003 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Given c(m) \u0002 m3 \u0004 2m2 \u0003 4m \u0004 8, the solution of c(m) \u0002 0 is",
+      "choices": [
+        "\u00062",
+        "2, only",
+        "2i,2",
+        "\u00062i,2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The height above ground for a person riding a Ferris wheel after t seconds is modeled by h(t) \u0002 150sin( \u03c0 ___ 45 t \u0003 67.5) \u0003 160 feet. How many seconds does it take to go from the bottom of the wheel to the top of the wheel?",
+      "choices": [
+        "10",
+        "45",
+        "90",
+        "150"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The parabola described by the equation y \u0002 1 ___ 12(x \u0004 2)2 \u0003 2 has the directrix at y \u0002 \u00041. The focus of the parabola is",
+      "choices": [
+        "(2,\u00041)",
+        "(2,2)",
+        "(2,3)",
+        "(2,5)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2018/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "25",
+      "choices": [
+        "0.344",
+        "0.3648",
+        "0.57",
+        "0.8 P F P F D ( ) . ( ) . \u0002 \u0002 0 8 0 456 \u2229 25 Over the set of integers, factor the expression x4 \u0004 4x2 \u0004 12. Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/algebra-2/august-2018/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Express the fraction in simplest radical form. 2 16 3 2 4 1 4 x x ( )",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2018/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "The world population was 2560 million people in 1950 and 3040 million in 1960 and can be modeled by the function p(t) \u0002 2560e0.017185t, where t is time in years after 1950 and p(t) is the population in millions. Determine the average rate of change of p(t) in millions of people per year, from 4 \u2264t \u22648. Round your answer to the nearest hundredth.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The scores of a recent test taken by 1200 students had an approximately normal distribution with a mean of 225 and a standard deviation of 18. Determine the number of students who scored between 200 and 245.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Algebraically solve for x: \u0004 \u0003 \u0003 \u0002 \u0004 3 3 1 2 6 1 2",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2018/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Graph t(x) \u0002 3sin(2x) \u0003 2 over the domain [0,2\u03c0] on the set of axes below. t(x) x",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2018/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Solve the following system of equations algebraically. x2 \u0003 y2 \u0002 400 y \u0002 x \u0004 28",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Some smart-phone applications contain \u201cin-app\u201d purchases, which allow users to purchase special content within the application. A random sample of 140 users found that 35 percent made in-app purchases. A simulation was conducted with 200 samples of 140 users assuming 35 percent of the samples make in-app purchases. The approximately normal results are shown below. Considering the middle 95% of the data, determine the margin of error, to the nearest hundredth, for the simulated results. In the given context, explain what this value represents. 0.20 0.24 0.28 0.32 0.36 0.40 0.44 0.48 0.52 5 0 10 15 20 25 Mean = 0.350 SD = 0.042 Proportion of In-App Purchases Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2018/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Solve the following system of equations algebraically for all values of x, y, and z. 2x \u0003 3y \u0004 4z \u0002 \u00041 x \u0004 2y \u0003 5z \u0002 3 \u00044x \u0003 y \u0003 z \u0002 16",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Evaluate j(\u00041) given j(x) \u0002 2x4 \u0004 x3 \u000435x2 \u0003 16x \u0003 48. Explain what your answer tells you about x \u0003 1 as a factor. Algebraically find the remaining zeros of j(x)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Determine, to the nearest tenth of a year, how long it would take an investment to double at a 3 3__ 4 % interest rate,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "To determine if the type of music played while taking a quiz has a relationship to results, 16 students were randomly assigned to either a room softly playing classical music or a room softly playing rap music. The results on the quiz were as follows: Classical: 74, 83, 77, 77, 84, 82, 90, 89 Rap: 77, 80, 78, 74, 69, 72, 78, 69 John correctly rounded the difference of the means of his experimental groups as 7. How did John obtain this value and what does it represent in the given context? Justify your answer. To determine if there is any significance in this value, John rerandomized the 16 scores into two groups of 8, calculated the difference of the means, and simulated this process 250 times as shown below. Does the simulation support the theory that there may be a significant difference in quiz scores? Explain. Classical vs. Rap Difference of the Means Frequency \u00045 0 \u00045 5",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2018/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "A major car company analyzes its revenue, R(x), and costs C(x), in millions of dollars over a fifteen-year period. The company represents its revenue and costs as a function of time, in years, x, using the given functions. R(x) \u0002 550x3 \u0004 12,000x2 \u0003 83,000x \u0003 7000 C(x) \u0002 880x3 \u0004 21,000x2 \u0003 150,000x \u0004 160,000 The company\u2019s profits can be represented as the difference between its revenue and costs. Write the profit function, P(x), as a polynomial in standard form. Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Question 37 Question 37 continued Graph y \u0002 P(x) on the set of axes below over the domain 2 \u2264x \u226416. Over the given domain, state when the company was the least profitable and the most profitable, to the nearest year. Explain how you determined your answer. y x Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2018/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

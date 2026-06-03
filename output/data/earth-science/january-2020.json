@@ -1,0 +1,1096 @@
+{
+  "subject": "earth-science",
+  "session": "january-2020",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "What are two pieces of evidence that support the Big Bang Theory?",
+      "choices": [
+        "red shift of light and cosmic background radiation",
+        "red shift of light and the different shapes of galaxies",
+        "planetary motion and cosmic background radiation",
+        "planetary motion and the different shapes of galaxies"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The diagram below compares the relative diameters of two planets in our solar system. Which two planets have diameters that most closely resemble this comparison?",
+      "choices": [
+        "Uranus and Neptune",
+        "Jupiter and Saturn",
+        "Earth and Mars",
+        "Mercury and Venus"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q2.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The motion of a Foucault pendulum provides evidence that Earth",
+      "choices": [
+        "varies in distance from the Sun",
+        "spins on its axis",
+        "is tilted on its axis",
+        "travels around the Sun"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which factor is a primary cause of seasonal changes on Earth?",
+      "choices": [
+        "change in Earth\u2019s distance from the Sun",
+        "change in the rate of Earth\u2019s rotation",
+        "wobble of Earth\u2019s axis",
+        "tilt of Earth\u2019s axis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the location of gyres in the Paci\ufb01 c Ocean. A gyre is a circular pattern of \ufb02 owing ocean currents. Equator Gyre Planet Earth, Understanding Science and Nature, Time Life Inc. The clockwise direction of \ufb02 ow of these currents in the Northern Hemisphere, and the counterclockwise direction of \ufb02 ow in the Southern Hemisphere are the result of",
+      "choices": [
+        "the Coriolis effect",
+        "the Doppler effect",
+        "Earth\u2019s magnetism",
+        "the Moon\u2019s magnetism"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q5.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which changes in surface water movement are likely to occur when vegetation is removed from the side of a hill?",
+      "choices": [
+        "in\ufb01 ltration decreases and runoff decreases",
+        "in\ufb01 ltration decreases and runoff increases",
+        "in\ufb01 ltration increases and runoff decreases",
+        "in\ufb01 ltration increases and runoff increases"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "During which phase change will two grams of water release 668 joules of heat energy?",
+      "choices": [
+        "melting",
+        "freezing",
+        "vaporization",
+        "condensation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The chart below describes some components of the solar system. Object Description X chunk of rock and ice orbiting from the outer solar system to near the Sun Y streak of light seen when a space rock enters Earth\u2019s atmosphere and starts burning up Z rocky/metallic object orbiting the Sun between Mars and Jupiter Letters X, Y, and Z identify which components of our solar system?",
+      "choices": [
+        "X = asteroid; Y = meteor; Z = comet",
+        "X = asteroid; Y = meteor; Z = moon",
+        "X = comet; Y = meteor; Z = asteroid",
+        "X = comet; Y = moon; Z = meteor"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q8.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The time-exposure photograph shown below was taken by an observer in the Northern Hemisphere to record the apparent paths of stars. http://dianajuncher.dk/ The name of the bright star near the center that the other stars appear to be circling is",
+      "choices": [
+        "Polaris",
+        "Alpha Centauri",
+        "Betelgeuse",
+        "Deneb"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q9.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The map below shows the average annual snowfall, in inches, for western New York State. Lake Erie Lake Ontario Pennsylvania Average Season Snowfall in Inches New York 60 60 100 150 80 150 100 100 100 80 100 80 200 According to the map, which of these cities receives the greatest average annual snowfall?",
+      "choices": [
+        "Buffalo",
+        "Jamestown",
+        "Niagara Falls",
+        "Elmira"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q10.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which current has a warming effect on the climate of the southeast coast of Africa?",
+      "choices": [
+        "Guinea Current",
+        "Falkland Current",
+        "Benguela Current",
+        "Agulhas Current"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Geologic history is divided into eras, periods, and epochs based on the",
+      "choices": [
+        "type of rock deposited at different times throughout history",
+        "half-life of radioactive isotopes found in rocks",
+        "inferred movements of Earth\u2019s landmasses",
+        "fossil evidence found in bedrock"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The map below shows two locations, labeled A and B, separated by a mountain range. The locations are at the same elevation. The arrow represents the direction of prevailing winds. A B Ocean Key Mountains N Compared to the climate at location A, the climate at location B is most likely",
+      "choices": [
+        "warmer and drier",
+        "warmer and wetter",
+        "cooler and drier",
+        "cooler and wetter"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q13.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which important geologic event in New York State occurred just after the Grenville Mountains were starting to erode?",
+      "choices": [
+        "Pangaea began to break up.",
+        "The Iapetus Ocean began to open.",
+        "The Catskill Delta formed.",
+        "The Taconic Mountains were eroded."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Scientists infer that oxygen \ufb01 rst began to enter Earth\u2019s atmosphere after the appearance of",
+      "choices": [
+        "the earliest grasses",
+        "the earliest \ufb02 owering plants",
+        "coal-forming forests",
+        "oceanic cyanobacteria"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which mantle hot spot is correctly matched to its overlying tectonic plate?",
+      "choices": [
+        "Tasman Hot Spot\u2013Paci\ufb01 c Plate",
+        "Canary Island Hot Spot\u2013Eurasian Plate",
+        "St. Helena Hot Spot\u2013South American Plate",
+        "Yellowstone Hot Spot\u2013North American Plate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The weather map below shows air-pressure readings given in millibars. Points A, B, C, and D are locations on Earth\u2019s surface. C D B 992 996 1000 1004 1008 1016 1024 1020 A 1012 1012 At which location is surface wind speed the lowest?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q17.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The diagram below shows a weather instrument used to determine relative humidity. Wet bulb 50 40 30 10 20 0 \u00b0C 50 40 30 10 20 0 \u00b0C Dry bulb What is the relative humidity?",
+      "choices": [
+        "40%",
+        "36%",
+        "8%",
+        "4%"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q18.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The diagram below shows the locations of the two major jet streams in Earth\u2019s atmosphere. North Pole 60\u00b0 N 30\u00b0 N Equator Subtropical jet stream Polar front jet stream Tropopause Latitude (\u00b0N) Compared to the subtropical jet stream, the polar front jet stream is at a",
+      "choices": [
+        "lower latitude and lower altitude",
+        "lower latitude and higher altitude",
+        "higher latitude and lower altitude",
+        "higher latitude and higher altitude"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q19.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The graph below shows the average global temperature changes before and after Mount Pinatubo\u2019s eruption in the Philippines. Sulfur from volcanic eruptions, like Mount Pinatubo\u2019s, forms sulfuric acid particles in the upper atmosphere. (normal) + 0.4 + 0.3 + 0.2 + 0.1 0 \u2013 0.1 \u2013 0.2 \u2013 0.3 \u2013 0.4 \u2013 0.5 1990 1991 1992 Mount Pinatubo erupts Average Global Air Temperature Change (C\u00b0) Adapted from: Aherns, C. Donald, Essentials of Meteorology: An Invitation to the Atmosphere According to the graph, these atmospheric particles appear to have caused global air temperatures to",
+      "choices": [
+        "generally decrease for one year",
+        "decrease, but then increase to normal levels in one year",
+        "generally increase for one year",
+        "increase, but then decrease to normal levels in one year"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q20.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The map below shows the location of the Chicxulub crater, which was formed when a massive asteroid impacted Earth 65.5 million years ago. Gulf of Mexico UNITED STATES MEXICO Chicxulub Crater Scientists infer that this impact contributed to the extinction of",
+      "choices": [
+        "trilobites",
+        "gastropods",
+        "many land plants",
+        "placoderm \ufb01 sh"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q21.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The cross section below represents the boundaries of the Paci\ufb01 c Plate, the Juan de Fuca Plate, and the North American Plate. The numbers show the age of the sea \ufb02 oor, in millions of years, at locations on the Paci\ufb01 c Plate. Letter X represents a location on the ocean \ufb02 oor surface. X 12 10 8 6 4 2 Pacific Plate Juan de Fuca Plate North American Plate Adapted from: http://mountainculturegroup.com/ What is the most probable age of the ocean \ufb02 oor at location X, if the Paci\ufb01 c Plate and the Juan de Fuca Plate are moving at the same rate?",
+      "choices": [
+        "10 million years",
+        "8 million years",
+        "6 million years",
+        "4 million years"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q22.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A cross section of Earth\u2019s crust is represented below. Index fossils are present in some of the rock layers. These rock layers indicate evidence of past crustal movement based on the principle of",
+      "choices": [
+        "down-warping",
+        "crosscutting",
+        "original horizontality",
+        "contact metamorphism"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q23.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The map below shows the continent of Australia. Letters A and B indicate locations on Earth\u2019s crustal surface. Australia Ocean A B Compared to the crust at A, the crust at B is",
+      "choices": [
+        "thinner and less dense",
+        "thinner and more dense",
+        "thicker and less dense",
+        "thicker and more dense"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q24.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Why are P-waves received, but S-waves are not received by seismic stations located on the opposite side of Earth from an earthquake epicenter?",
+      "choices": [
+        "S-waves travel slower than P-waves.",
+        "S-waves travel faster than P-waves.",
+        "Earth\u2019s inner core absorbs S-waves.",
+        "Earth\u2019s outer core absorbs S-waves."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The Tug Hill region of New York State is geologically classi\ufb01 ed as a plateau because this region has relatively",
+      "choices": [
+        "high elevation and deformed bedrock",
+        "low elevation and deformed bedrock",
+        "high elevation and horizontal bedrock",
+        "low elevation and horizontal bedrock"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "What is the approximate minimum stream velocity required to transport the smallest particles of sand?",
+      "choices": [
+        "1.0 cm/s",
+        "0.7 cm/s",
+        "0.3 cm/s",
+        "0.1 cm/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which agent of erosion is primarily responsible for the formation of the barrier islands along the south shoreline of Long Island, New York?",
+      "choices": [
+        "wave action",
+        "wind",
+        "glacial ice",
+        "mass movement"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "A glacial moraine is best described as",
+      "choices": [
+        "unsorted sediment directly deposited by a glacier",
+        "sorted sediment deposited as the glacier melts",
+        "a body of water formed by a retreating glacier",
+        "an elongated hill composed of sand and formed by a retreating glacier"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which medium-grain-sized metamorphic rock is composed mostly of the same mineral as the sedimentary rock limestone?",
+      "choices": [
+        "gneiss",
+        "marble",
+        "quartzite",
+        "schist"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Which diagram below best represents the surface features developed in a humid climate? ( 2 ) ( 4 ) ( 1 ) ( 3 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The block diagram below represents a section of a meandering stream. The arrows show the direction of stream \ufb02 ow. Meander The streambank on the outside of this meander is steeper than the streambank on the inside of this meander because the water on the outside of this meander is moving",
+      "choices": [
+        "slower, causing more deposition",
+        "slower, causing more erosion",
+        "faster, causing more deposition",
+        "faster, causing more erosion"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q32.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "What is the texture of an igneous rock formed from magma that cooled slowly deep underground?",
+      "choices": [
+        "nonvesicular and coarse",
+        "nonvesicular and glassy",
+        "vesicular and \ufb01 ne",
+        "vesicular and very coarse"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a portion of a roadway in the mountains that was destroyed due to a landslide. http://fijisun.com.fj Which two factors most likely caused this landslide?",
+      "choices": [
+        "wind action and meandering streams",
+        "wind action and movement of glacial ice",
+        "gravity and sand blasting of bedrock",
+        "gravity and saturated soil"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q34.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The two photographs below and the arrow between them show conglomerate and the processes that changed the conglomerate to rock X. Conglomerate Rock X Heat and pressure Rock X is most likely",
+      "choices": [
+        "breccia",
+        "slate",
+        "metaconglomerate",
+        "vesicular basalt"
+      ],
+      "image": "/images/exams/earth-science/january-2020/q35.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which two forms of electromagnetic energy are used to produce the most spectacular \ufb02 uorescence when placed in darkness?",
+      "choices": [
+        "microwaves and x rays",
+        "microwaves and infrared",
+        "ultraviolet and x rays",
+        "ultraviolet and infrared"
+      ],
+      "image": "/images/exams/earth-science/january-2020/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the passage and mineral table below and on your knowledge \nof Earth science. The table shows some properties of four minerals that display \ufb02 uorescence.\nFluorescent Minerals\nAll minerals have the ability to re\ufb02 ect visible light. Only about 15% of minerals have \nan interesting physical property known as \ufb02 uorescence. These minerals have the ability to \ntemporarily absorb a small amount of electromagnetic energy and, an instant later, release \na small amount of energy of a different wavelength. This change in wavelength causes \na temporary color change of the mineral in the eye of an observer. The color change of \n\ufb02 uorescent minerals is most spectacular when the minerals are placed in darkness and \nexposed to electromagnetic energy shorter than visible light.\nA former zinc mine in New Jersey is one of the most famous sources of \ufb02 uorescent \nminerals in the entire world. Zincite and willemite were two of the zinc ores mined there. \nIt was later discovered that more than 91 minerals in this region displayed \ufb02 uorescence \nunder shortwave electromagnetic energy. \nMineral\nHardness\nColor Under Visible Light\n\u201cFluorescent\u201d Color\nComposition\nCalcite\n3\nclear-white-variable\nbright orange\nCaCO3\nCelestine\n3 to 3.5\ncolorless-variable\nyellow and/or white/blue\nSrSO4\nWillemite\n5.5\npink-tan\nbright green\nZn2SiO4\nZincite\n4\nyellow-orange\nyellow\nZnO",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which two minerals can have the same \ufb02 uorescent color?",
+      "choices": [
+        "calcite and celestine",
+        "calcite and zincite",
+        "celestine and willemite",
+        "celestine and zincite"
+      ],
+      "image": "/images/exams/earth-science/january-2020/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the passage and mineral table below and on your knowledge \nof Earth science. The table shows some properties of four minerals that display \ufb02 uorescence.\nFluorescent Minerals\nAll minerals have the ability to re\ufb02 ect visible light. Only about 15% of minerals have \nan interesting physical property known as \ufb02 uorescence. These minerals have the ability to \ntemporarily absorb a small amount of electromagnetic energy and, an instant later, release \na small amount of energy of a different wavelength. This change in wavelength causes \na temporary color change of the mineral in the eye of an observer. The color change of \n\ufb02 uorescent minerals is most spectacular when the minerals are placed in darkness and \nexposed to electromagnetic energy shorter than visible light.\nA former zinc mine in New Jersey is one of the most famous sources of \ufb02 uorescent \nminerals in the entire world. Zincite and willemite were two of the zinc ores mined there. \nIt was later discovered that more than 91 minerals in this region displayed \ufb02 uorescence \nunder shortwave electromagnetic energy. \nMineral\nHardness\nColor Under Visible Light\n\u201cFluorescent\u201d Color\nComposition\nCalcite\n3\nclear-white-variable\nbright orange\nCaCO3\nCelestine\n3 to 3.5\ncolorless-variable\nyellow and/or white/blue\nSrSO4\nWillemite\n5.5\npink-tan\nbright green\nZn2SiO4\nZincite\n4\nyellow-orange\nyellow\nZnO",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The mineral zincite will scratch",
+      "choices": [
+        "calcite, but will not scratch celestine and willemite",
+        "willemite, but will not scratch calcite and celestine",
+        "calcite and celestine, but will not scratch willemite",
+        "willemite and celestine, but will not scratch calcite"
+      ],
+      "image": "/images/exams/earth-science/january-2020/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the passage and mineral table below and on your knowledge \nof Earth science. The table shows some properties of four minerals that display \ufb02 uorescence.\nFluorescent Minerals\nAll minerals have the ability to re\ufb02 ect visible light. Only about 15% of minerals have \nan interesting physical property known as \ufb02 uorescence. These minerals have the ability to \ntemporarily absorb a small amount of electromagnetic energy and, an instant later, release \na small amount of energy of a different wavelength. This change in wavelength causes \na temporary color change of the mineral in the eye of an observer. The color change of \n\ufb02 uorescent minerals is most spectacular when the minerals are placed in darkness and \nexposed to electromagnetic energy shorter than visible light.\nA former zinc mine in New Jersey is one of the most famous sources of \ufb02 uorescent \nminerals in the entire world. Zincite and willemite were two of the zinc ores mined there. \nIt was later discovered that more than 91 minerals in this region displayed \ufb02 uorescence \nunder shortwave electromagnetic energy. \nMineral\nHardness\nColor Under Visible Light\n\u201cFluorescent\u201d Color\nComposition\nCalcite\n3\nclear-white-variable\nbright orange\nCaCO3\nCelestine\n3 to 3.5\ncolorless-variable\nyellow and/or white/blue\nSrSO4\nWillemite\n5.5\npink-tan\nbright green\nZn2SiO4\nZincite\n4\nyellow-orange\nyellow\nZnO",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which two locations have the same solar time?",
+      "choices": [
+        "A and B",
+        "B and D",
+        "C and E",
+        "D and E"
+      ],
+      "image": "/images/exams/earth-science/january-2020/context_39_40.png",
+      "context": "Base your answers to questions 39 and 40 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the lines of latitude and longitude on Earth. Points A through E represent locations on \nEarth.\nNorth Pole\nP\nri\nme\n M\nerid\nian\n15\u00b0\n15\u00b0\n30\u00b0\n45\u00b0\n60\u00b0\n75\u00b0\n90\u00b0\nEqu\nato\nr\nE\nD\nA\nB\nC\n20\u00b0\n40\u00b0\n60\u00b0",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "From which location would an observer never see Polaris in the nighttime sky?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/january-2020/context_39_40.png",
+      "context": "Base your answers to questions 39 and 40 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the lines of latitude and longitude on Earth. Points A through E represent locations on \nEarth.\nNorth Pole\nP\nri\nme\n M\nerid\nian\n15\u00b0\n15\u00b0\n30\u00b0\n45\u00b0\n60\u00b0\n75\u00b0\n90\u00b0\nEqu\nato\nr\nE\nD\nA\nB\nC\n20\u00b0\n40\u00b0\n60\u00b0",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "What causes the gas and dust cloud to condense and become a star?",
+      "choices": [
+        "density",
+        "friction",
+        "gravity",
+        "outgassing"
+      ],
+      "image": "/images/exams/earth-science/january-2020/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the inferred origin and evolution of most stars.\nSupergiant\nor\ngiant\nStar\nformation\n(gases and dust\ncondense)\nLo\nw \nma\nss\nSupernova\nWhite dwarf\nM\nain \nsequence\nMa\nss\niv\ne s\ntar\nGas and\ndust cloud",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which star is most likely to become a supernova?",
+      "choices": [
+        "Sun",
+        "Deneb",
+        "Pollux",
+        "Barnard\u2019s Star"
+      ],
+      "image": "/images/exams/earth-science/january-2020/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the inferred origin and evolution of most stars.\nSupergiant\nor\ngiant\nStar\nformation\n(gases and dust\ncondense)\nLo\nw \nma\nss\nSupernova\nWhite dwarf\nM\nain \nsequence\nMa\nss\niv\ne s\ntar\nGas and\ndust cloud",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Which process produces large amounts of energy in a star by combining lighter elements into a heavier element?",
+      "choices": [
+        "convection",
+        "radiation",
+        "radioactive decay",
+        "nuclear fusion"
+      ],
+      "image": "/images/exams/earth-science/january-2020/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the inferred origin and evolution of most stars.\nSupergiant\nor\ngiant\nStar\nformation\n(gases and dust\ncondense)\nLo\nw \nma\nss\nSupernova\nWhite dwarf\nM\nain \nsequence\nMa\nss\niv\ne s\ntar\nGas and\ndust cloud",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which radioactive isotope takes the greatest amount of time to disintegrate?",
+      "choices": [
+        "potassium-40",
+        "uranium-235",
+        "uranium-238",
+        "rubidium-87"
+      ],
+      "image": "/images/exams/earth-science/january-2020/context_44_45.png",
+      "context": "Base your answers to questions 44 and 45 on the table below and on your knowledge of Earth science. The \ntable shows the disintegration products and half-lives of \ufb01 ve commonly used radioactive isotopes.\nRadioactive\nIsotope\nDisintegration\nHalf-Life\n(years)\nCarbon-14\nPotassium-40\nUranium-235\nUranium-238\nRubidium-87\n14C\n14N\n103\n5.7\n109\n1.3\n108\n7.1\n109\n4.5\n1010\n4.9\n235U\n207Pb\n238U\n206Pb\n87Rb\n87Sr\n40K\n40Ar\n40Ca\nRadioactive Decay Data",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Which graph below represents the amount of potassium-40 and the amount of argon-40 and calcium-40 over four half-lives? 0 4 1 2 3 ( 1 ) Half-lives Percentage of Original Mass (%) 0 25 50 75 100 40A r an d 40 C a 40K ( 3 ) Half-lives 0 4 1 2 3 Percentage of Original Mass (%) 0 25 50 75 100 40 K 40Ar a n d 40C a ( 2 ) Half-lives 0 4 1 2 3 Percentage of Original Mass (%) 0 25 50 75 100 40Ar and 40Ca 40K 0 4 1 2 3 ( 4 ) Half-lives Percentage of Original Mass (%) 0 25 50 75 100 40K 40Ar and 40Ca",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_44_45.png",
+      "context": "Base your answers to questions 44 and 45 on the table below and on your knowledge of Earth science. The \ntable shows the disintegration products and half-lives of \ufb01 ve commonly used radioactive isotopes.\nRadioactive\nIsotope\nDisintegration\nHalf-Life\n(years)\nCarbon-14\nPotassium-40\nUranium-235\nUranium-238\nRubidium-87\n14C\n14N\n103\n5.7\n109\n1.3\n108\n7.1\n109\n4.5\n1010\n4.9\n235U\n207Pb\n238U\n206Pb\n87Rb\n87Sr\n40K\n40Ar\n40Ca\nRadioactive Decay Data",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Which type of front is represented by this cross section?",
+      "choices": [
+        "warm",
+        "cold",
+        "stationary",
+        "occluded"
+      ],
+      "image": "/images/exams/earth-science/january-2020/context_46_48.png",
+      "context": "Base your answers to questions 46 through 48 on the cross section below and on your knowledge of Earth \nscience. The arrows on the cross section represent the air movement along a weather front between two different \nair masses. The air masses are labeled.\ncP\nmT",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Clouds are forming along the front because the rising air is",
+      "choices": [
+        "contracting and warming, causing evaporation",
+        "contracting and cooling, causing evaporation",
+        "expanding and warming, causing condensation",
+        "expanding and cooling, causing condensation"
+      ],
+      "image": "/images/exams/earth-science/january-2020/context_46_48.png",
+      "context": "Base your answers to questions 46 through 48 on the cross section below and on your knowledge of Earth \nscience. The arrows on the cross section represent the air movement along a weather front between two different \nair masses. The air masses are labeled.\ncP\nmT",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Which statement best describes the difference in air temperature and humidity between the cP and mT air masses?",
+      "choices": [
+        "The mT air mass is warmer and more humid.",
+        "The mT air mass is cooler and less humid.",
+        "The cP air mass is warmer and less humid.",
+        "The cP air mass is cooler and more humid."
+      ],
+      "image": "/images/exams/earth-science/january-2020/context_46_48.png",
+      "context": "Base your answers to questions 46 through 48 on the cross section below and on your knowledge of Earth \nscience. The arrows on the cross section represent the air movement along a weather front between two different \nair masses. The air masses are labeled.\ncP\nmT",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which motion causes observers on Earth to see different constellations at different times of the year?",
+      "choices": [
+        "Earth revolves around the constellations.",
+        "Earth revolves around the Sun.",
+        "The constellations revolve around Earth.",
+        "The constellations revolve around the Sun."
+      ],
+      "image": "/images/exams/earth-science/january-2020/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the diagram below and on your knowledge of Earth science. \nThe diagram represents twelve positions of Earth in its orbit around the Sun and twelve constellations that can \nbe seen in the midnight sky by an observer looking south in New York State at different times of the year. The \napproximate locations of the constellations in relation to Earth\u2019s orbit are shown.\nAries\nPisces\nAquarius\nCapricornus\nSagittarius\nScorpius\nLibra\nVirgo\nLeo\nCancer\nGemini\nTaurus\n1\n7\n6\n5\n4\n3\n2\n12\n11\n10\n9\n8\nEa\nrt\nh\u00b7\ns \npo\nsit\nio\nns\n in\n o\nrb\nit\nSun\n(Not drawn to scale)",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "At position 5, an observer on Earth sees a full Moon (the fully lighted side of the Moon) at midnight. At this time, the full Moon would appear closest to the constellation",
+      "choices": [
+        "Aries",
+        "Capricornus",
+        "Libra",
+        "Scorpius"
+      ],
+      "image": "/images/exams/earth-science/january-2020/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the diagram below and on your knowledge of Earth science. \nThe diagram represents twelve positions of Earth in its orbit around the Sun and twelve constellations that can \nbe seen in the midnight sky by an observer looking south in New York State at different times of the year. The \napproximate locations of the constellations in relation to Earth\u2019s orbit are shown.\nAries\nPisces\nAquarius\nCapricornus\nSagittarius\nScorpius\nLibra\nVirgo\nLeo\nCancer\nGemini\nTaurus\n1\n7\n6\n5\n4\n3\n2\n12\n11\n10\n9\n8\nEa\nrt\nh\u00b7\ns \npo\nsit\nio\nns\n in\n o\nrb\nit\nSun\n(Not drawn to scale)",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Draw a line on grid 1 in your answer booklet to show the general relationship between bead size and capillarity. Draw a line on grid 2 in your answer booklet to show the general relationship between bead size and permeability.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_51_52.png",
+      "context": "Base your answers to questions 51 and 52 on the diagram below and on your knowledge of Earth science. The \ndiagram represents three containers, A, B, and C, which have the same volume and are \ufb01 lled to the same level \nwith uniform-sized beads. The beads are held in place by a screen across the bottom of each container.\nScreen\nScreen\nScreen\nC\nB\nA\n(0.70-cm diameter)\n(0.40-cm diameter)\n(0.10-cm diameter)\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for grid 1 showing an inverse relationship, and grid 2 showing a direct relationship. Example of a 1-credit response:"
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Describe one way to prepare a fourth container of beads, \ufb01 lled to the same level as shown in A, B, and C, that would reduce porosity.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_51_52.png",
+      "context": "Base your answers to questions 51 and 52 on the diagram below and on your knowledge of Earth science. The \ndiagram represents three containers, A, B, and C, which have the same volume and are \ufb01 lled to the same level \nwith uniform-sized beads. The beads are held in place by a screen across the bottom of each container.\nScreen\nScreen\nScreen\nC\nB\nA\n(0.70-cm diameter)\n(0.40-cm diameter)\n(0.10-cm diameter)\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Mix beads of two or more sizes. \u2014 Use beads of varying shapes. \u2014 Use an unsorted mixture of beads. \u2014 Pack the beads more tightly together. Bead Size (cm) Capillarity Grid 1 Bead Size (cm) Permeability Grid 2 P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, place an X on the Moon\u2019s orbit to indicate the Moon\u2019s position when the next spring tide will occur.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_53_54.png",
+      "context": "Base your answers to questions 53 and 54 on the ocean tide diagram below and on your knowledge of Earth \nscience. The diagram represents a north pole (NP) view of Earth and the Moon\u2019s orbital position during a spring \ntide. Spring tides occur when the Sun, Earth, and Moon are aligned, producing high tides that are extremely high \nand low tides that are extremely low. Point A indicates another position of the Moon in its orbit.\nHigh tide\nLow tide\n(Not drawn to scale)\nNP\nSun\u00b7s\nrays\nSpring Tide\nA\nMoon",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the center of the X is within or touches the clear region on the Moon\u2019s orbit shown below."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, shade the portion of the Moon that is in darkness, as viewed from New York State, when the Moon is located at position A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_53_54.png",
+      "context": "Base your answers to questions 53 and 54 on the ocean tide diagram below and on your knowledge of Earth \nscience. The diagram represents a north pole (NP) view of Earth and the Moon\u2019s orbital position during a spring \ntide. Spring tides occur when the Sun, Earth, and Moon are aligned, producing high tides that are extremely high \nand low tides that are extremely low. Point A indicates another position of the Moon in its orbit.\nHigh tide\nLow tide\n(Not drawn to scale)\nNP\nSun\u00b7s\nrays\nSpring Tide\nA\nMoon",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for shading in less than half of the right side of the Moon. Examples of a 1-credit response: (Not drawn to scale) Sun\u2019s rays Earth NP Moon's orbit P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "On the map in your answer booklet, place an X on the tributary that is located farthest south and \ufb02 ows into the Mississippi River.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 57 on the map in your answer booklet and on your knowledge of \nEarth science. The map shows a portion of the continent of North America and some of the major rivers. The \nRio Grande and the Mississippi River are labeled. Points A and B represent locations along the Mississippi River. \nPoint C represents a location along a river in New York State (NY) that is part of the Mississippi River watershed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the center of the X is on or touches the dashed line as shown below. Example of a 1-credit response."
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Describe the change in shape and change in size of sediments as they are transported in the Mississippi River from point A to point B.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 57 on the map in your answer booklet and on your knowledge of \nEarth science. The map shows a portion of the continent of North America and some of the major rivers. The \nRio Grande and the Mississippi River are labeled. Points A and B represent locations along the Mississippi River. \nPoint C represents a location along a river in New York State (NY) that is part of the Mississippi River watershed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for two correct responses. Acceptable responses include, but are not limited to: Change in shape: \u2014 The sediments become more rounded. \u2014 less angular Change in size: \u2014 The sediments become smaller. \u2014 Bigger sediments are broken into smaller pieces. Note: Do not allow credit for \u201csmooth\u201d alone for change in shape because smooth is not a shape."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Identify the name of the New York State landscape region where the river at point C is located.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 57 on the map in your answer booklet and on your knowledge of \nEarth science. The map shows a portion of the continent of North America and some of the major rivers. The \nRio Grande and the Mississippi River are labeled. Points A and B represent locations along the Mississippi River. \nPoint C represents a location along a river in New York State (NY) that is part of the Mississippi River watershed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Allegheny Plateau or Appalachian Plateau (Uplands). Pacific Ocean Gulf of Mexico Atlantic Ocean A B C Mississippi River Rio Grande NY X P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Write the chemical symbol for the element produced by the breakdown of CFCs. Describe one environmental impact that results from this element being released into Earth\u2019s stratosphere.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the passage and graph below and on your knowledge of \nEarth science. The graph shows changes in the amount of chloro\ufb02 uorocarbon production, in tons per year (T/y), \nby some countries over a 10-year period.\nCFCs and Ozone\nCFCs (chloro\ufb02 uorocarbons) are chemicals that threaten to destroy stratospheric \nozone. CFCs were \ufb01 rst manufactured in 1928 to be used as chilling agents in refrigerators. \nIn later years, they were used for cleaning electrical circuit boards and to make foam \nfor insulation. Unfortunately, scientists found that these chemicals escaped into the \natmosphere and rose to the stratosphere. In the stratosphere, intense ultraviolet (UV) \nradiation broke the CFCs down, producing chlorine, a gas that reacts with and destroys \nozone. In 1974, two scientists identi\ufb01 ed the depletion of stratospheric ozone from the \nrelease of CFCs. After this discovery, 27 countries agreed to reduce production of CFCs, \nbecause ozone in the stratosphere protects all life from the Sun\u2019s most damaging UV rays.\n1986\nYear\nCFC  Production in Tons (T)\n0\n50,000\n1988\n1990\n1992\n1994\n1996\n100,000\n150,000\n200,000\n250,000\n300,000\n350,000\nProduction of Chlorofluorocarbons in Selected Countries,1986-1996\nUnited States\nChina\nFrance\nGermany\nJapan\nIndia\nAdapted from: Gore, Al. An Inconvenient Truth",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the symbol Cl and a correct environmental impact. Acceptable responses include, but are not limited to: \u2014 reacts with and destroys ozone \u2014 Chlorine breaks down ozone molecules. \u2014 increases the amount of UV rays reaching Earth\u2019s surface Note: Do not allow credit for \u201cchlorine\u201d for the chemical symbol because this is the name of the element not the chemical symbol. Do not allow credit for \u201cCL\u201d for the chemical symbol because this is not the correct format for writing chemical symbols."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Identify the name of the atmospheric temperature zones directly below and directly above the atmospheric layer in which intense UV radiation breaks down CFCs.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the passage and graph below and on your knowledge of \nEarth science. The graph shows changes in the amount of chloro\ufb02 uorocarbon production, in tons per year (T/y), \nby some countries over a 10-year period.\nCFCs and Ozone\nCFCs (chloro\ufb02 uorocarbons) are chemicals that threaten to destroy stratospheric \nozone. CFCs were \ufb01 rst manufactured in 1928 to be used as chilling agents in refrigerators. \nIn later years, they were used for cleaning electrical circuit boards and to make foam \nfor insulation. Unfortunately, scientists found that these chemicals escaped into the \natmosphere and rose to the stratosphere. In the stratosphere, intense ultraviolet (UV) \nradiation broke the CFCs down, producing chlorine, a gas that reacts with and destroys \nozone. In 1974, two scientists identi\ufb01 ed the depletion of stratospheric ozone from the \nrelease of CFCs. After this discovery, 27 countries agreed to reduce production of CFCs, \nbecause ozone in the stratosphere protects all life from the Sun\u2019s most damaging UV rays.\n1986\nYear\nCFC  Production in Tons (T)\n0\n50,000\n1988\n1990\n1992\n1994\n1996\n100,000\n150,000\n200,000\n250,000\n300,000\n350,000\nProduction of Chlorofluorocarbons in Selected Countries,1986-1996\nUnited States\nChina\nFrance\nGermany\nJapan\nIndia\nAdapted from: Gore, Al. An Inconvenient Truth",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for troposphere and mesosphere."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Calculate the approximate rate, in tons per year (T/y), at which the United States decreased CFC production in the 8 years between 1988 and 1996.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the passage and graph below and on your knowledge of \nEarth science. The graph shows changes in the amount of chloro\ufb02 uorocarbon production, in tons per year (T/y), \nby some countries over a 10-year period.\nCFCs and Ozone\nCFCs (chloro\ufb02 uorocarbons) are chemicals that threaten to destroy stratospheric \nozone. CFCs were \ufb01 rst manufactured in 1928 to be used as chilling agents in refrigerators. \nIn later years, they were used for cleaning electrical circuit boards and to make foam \nfor insulation. Unfortunately, scientists found that these chemicals escaped into the \natmosphere and rose to the stratosphere. In the stratosphere, intense ultraviolet (UV) \nradiation broke the CFCs down, producing chlorine, a gas that reacts with and destroys \nozone. In 1974, two scientists identi\ufb01 ed the depletion of stratospheric ozone from the \nrelease of CFCs. After this discovery, 27 countries agreed to reduce production of CFCs, \nbecause ozone in the stratosphere protects all life from the Sun\u2019s most damaging UV rays.\n1986\nYear\nCFC  Production in Tons (T)\n0\n50,000\n1988\n1990\n1992\n1994\n1996\n100,000\n150,000\n200,000\n250,000\n300,000\n350,000\nProduction of Chlorofluorocarbons in Selected Countries,1986-1996\nUnited States\nChina\nFrance\nGermany\nJapan\nIndia\nAdapted from: Gore, Al. An Inconvenient Truth",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 38,750 T/y to 41,250 T/y. Note: Allow credit if the answer is expressed as a negative value."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Based on the graph, identify the two countries that began to decrease CFC production as early as 1986.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the passage and graph below and on your knowledge of \nEarth science. The graph shows changes in the amount of chloro\ufb02 uorocarbon production, in tons per year (T/y), \nby some countries over a 10-year period.\nCFCs and Ozone\nCFCs (chloro\ufb02 uorocarbons) are chemicals that threaten to destroy stratospheric \nozone. CFCs were \ufb01 rst manufactured in 1928 to be used as chilling agents in refrigerators. \nIn later years, they were used for cleaning electrical circuit boards and to make foam \nfor insulation. Unfortunately, scientists found that these chemicals escaped into the \natmosphere and rose to the stratosphere. In the stratosphere, intense ultraviolet (UV) \nradiation broke the CFCs down, producing chlorine, a gas that reacts with and destroys \nozone. In 1974, two scientists identi\ufb01 ed the depletion of stratospheric ozone from the \nrelease of CFCs. After this discovery, 27 countries agreed to reduce production of CFCs, \nbecause ozone in the stratosphere protects all life from the Sun\u2019s most damaging UV rays.\n1986\nYear\nCFC  Production in Tons (T)\n0\n50,000\n1988\n1990\n1992\n1994\n1996\n100,000\n150,000\n200,000\n250,000\n300,000\n350,000\nProduction of Chlorofluorocarbons in Selected Countries,1986-1996\nUnited States\nChina\nFrance\nGermany\nJapan\nIndia\nAdapted from: Gore, Al. An Inconvenient Truth",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Germany and China."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify the geologic time period in which the extensive coal-forming forests represented in diagram A were most abundant.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the formation of coal and other fossil fuels in the environment.\nMillions of years\nAccumulation of\norganic material\nover millions of years\nA\nCO2 emission\nCO2 emission\nCollecting and burning\nfossil fuels\nD\nFossil fuels produced and\n stored in sedimentary rocks\nC\nBuried organic matter\nB\nLake\nNatural gas\nOil\nCoal\nAdapted from: Wright, Richard and Nebel, Bernard. Environmental\nScience, Learning System Edition",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Carboniferous or Pennsylvanian Period. Note: Do not allow credit for \u201cEarly Pennsylvanian\u201d or \u201cLate Pennsylvanian\u201d because these terms denote epochs not periods."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify one process that changed the buried organic matter of diagram B into coal.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the formation of coal and other fossil fuels in the environment.\nMillions of years\nAccumulation of\norganic material\nover millions of years\nA\nCO2 emission\nCO2 emission\nCollecting and burning\nfossil fuels\nD\nFossil fuels produced and\n stored in sedimentary rocks\nC\nBuried organic matter\nB\nLake\nNatural gas\nOil\nCoal\nAdapted from: Wright, Richard and Nebel, Bernard. Environmental\nScience, Learning System Edition",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 compaction \u2014 compression \u2014 metamorphism/heat and/or pressure Note: Do not allow credit for \u201ccementation\u201d because coal is formed from compacted plant remains."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Identify the primary chemical element found in coal.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the formation of coal and other fossil fuels in the environment.\nMillions of years\nAccumulation of\norganic material\nover millions of years\nA\nCO2 emission\nCO2 emission\nCollecting and burning\nfossil fuels\nD\nFossil fuels produced and\n stored in sedimentary rocks\nC\nBuried organic matter\nB\nLake\nNatural gas\nOil\nCoal\nAdapted from: Wright, Richard and Nebel, Bernard. Environmental\nScience, Learning System Edition",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for carbon or C."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "The burning of fossil fuels, represented in D, produces the greenhouse gas carbon dioxide (CO2), which is associated with air pollution and global warming. Other than CO2, identify one other major greenhouse gas.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the formation of coal and other fossil fuels in the environment.\nMillions of years\nAccumulation of\norganic material\nover millions of years\nA\nCO2 emission\nCO2 emission\nCollecting and burning\nfossil fuels\nD\nFossil fuels produced and\n stored in sedimentary rocks\nC\nBuried organic matter\nB\nLake\nNatural gas\nOil\nCoal\nAdapted from: Wright, Richard and Nebel, Bernard. Environmental\nScience, Learning System Edition",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 CH4/methane \u2014 H2O gas/water vapor \u2014 N2O/nitrous oxide \u2014 O3/ozone \u2014 CFCs/chlorofluorocarbons P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Calculate the gradient along the reference line from A to B. Include units with your answer.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the topographic map below and on your knowledge of Earth \nscience. Points A, B, C, D, and X represent surface locations on the map. Lines AB and CD are reference lines.\n0\n1\n5 kilometers\nN\nContour interval = 10 meters\n2\n3\n4\nB\nA\n50\n100\nX\nC\nD\nBlue River\nLake",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 12.1 to 12.9 and the correct units. Units include, but are not limited to: \u2014 m/km \u2014 meters per kilometer"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a topographic pro\ufb01 le along line CD by plotting the elevation of each contour line that crosses line CD. Connect all six plots with a line to complete the pro\ufb01 le.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the topographic map below and on your knowledge of Earth \nscience. Points A, B, C, D, and X represent surface locations on the map. Lines AB and CD are reference lines.\n0\n1\n5 kilometers\nN\nContour interval = 10 meters\n2\n3\n4\nB\nA\n50\n100\nX\nC\nD\nBlue River\nLake",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all six plots are within or touch the rectangles shown below and are correctly connected with a line from C to D that passes within or touches each rectangle. The line should extend below 70 m but not touch 60 m in the valley. The line should extend above 80 m, but not touch 90 m on the hill. Note: Allow credit if the line does not pass through the student plots, but is still within or touches the rectangles. It is recommended that an overlay of the same scale as the student answer booklet be used to ensure reliability in rating."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Determine one possible elevation of point X.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the topographic map below and on your knowledge of Earth \nscience. Points A, B, C, D, and X represent surface locations on the map. Lines AB and CD are reference lines.\n0\n1\n5 kilometers\nN\nContour interval = 10 meters\n2\n3\n4\nB\nA\n50\n100\nX\nC\nD\nBlue River\nLake",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value greater than 100 meters, but less than 110 meters."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Identify the season that is just beginning in the Northern Hemisphere when Earth is in this position.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a side view of Earth. The North Pole and some latitudes are labeled. The dashed line \nrepresents Earth\u2019s axis.\nNorth Pole\nSun\u00b7s\nrays\nSouth Pole\n60\u00b0 N\n60\u00b0 N\nEquator\nEquator\n30\u00b0 N\n30\u00b0 N\n30\u00b0S\n30\u00b0S\nS\n60\u00b0S",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for summer."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State the number of hours of daylight that would be experienced at the Equator three months after the date represented by this diagram.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a side view of Earth. The North Pole and some latitudes are labeled. The dashed line \nrepresents Earth\u2019s axis.\nNorth Pole\nSun\u00b7s\nrays\nSouth Pole\n60\u00b0 N\n60\u00b0 N\nEquator\nEquator\n30\u00b0 N\n30\u00b0 N\n30\u00b0S\n30\u00b0S\nS\n60\u00b0S",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 12 h."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "State the general relationship between latitude and the duration of insolation on this day from the Equator to 60\u00b0 N.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a side view of Earth. The North Pole and some latitudes are labeled. The dashed line \nrepresents Earth\u2019s axis.\nNorth Pole\nSun\u00b7s\nrays\nSouth Pole\n60\u00b0 N\n60\u00b0 N\nEquator\nEquator\n30\u00b0 N\n30\u00b0 N\n30\u00b0S\n30\u00b0S\nS\n60\u00b0S",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 the greater the latitude, the greater the duration of insolation \u2014 direct relationship C D 110 100 90 80 70 60 50 Elevation (m) 110 100 90 80 70 60 50 Elevation (m) Part C Allow a maximum of 20 credits for this part. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "On the block diagram of the tectonic plate boundary in your answer booklet, draw two arrows, one in each box, to indicate the general direction that each plate moved in relation to each other, causing the 2010 Chile earthquake to occur.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_72_75.png",
+      "context": "Base your answers to questions 72 through 75 on the passage and map below and on your knowledge of Earth \nscience. The map shows the location of a major earthquake that occurred in 2010 off the west coast of Chile, in \nSouth America. The star \n represents the location of the earthquake epicenter.\nOn February 27, 2010, a strong earthquake with a magnitude of 8.8 occurred off the \nwest coast of South America near the city of Concepci\u00f3n in central Chile. There was \ntremendous damage to the region and loss of life, as buildings collapsed. Tremors were felt \nas far north as Ica, Peru, 2400 kilometers away. The earthquake triggered a tsunami that \ndamaged several coastal towns. Tsunami warnings were issued to 53 countries, including \nthe United States, where damage was reported. This earthquake is ranked as one of the \nhighest in magnitude ever recorded by a seismograph. Chile has experienced some of the \nstrongest earthquakes in the past, including a 1960 earthquake that had a magnitude of \n9.5, the highest ever recorded.\nPERU\nBOLIVIA\nARGENTINA\nIca\nCHILE\nConcepci\u00f3n\n80\u00b0 W\n70\u00b0 W\n50\u00b0 S\n40\u00b0 S\n30\u00b0 S\n20\u00b0 S\n10\u00b0 S\nEarthquake Map\n50\u00b0 S\n40\u00b0 S\n30 \u00b0S\n10\u00b0 S\nN\nKey\nMountain\n20\u00b0 S",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both arrows are correctly drawn and indicate convergence. Example of a 1-credit response:"
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Identify the name of the oceanic tectonic plate located along the west coast of South America where this earthquake occurred.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_72_75.png",
+      "context": "Base your answers to questions 72 through 75 on the passage and map below and on your knowledge of Earth \nscience. The map shows the location of a major earthquake that occurred in 2010 off the west coast of Chile, in \nSouth America. The star \n represents the location of the earthquake epicenter.\nOn February 27, 2010, a strong earthquake with a magnitude of 8.8 occurred off the \nwest coast of South America near the city of Concepci\u00f3n in central Chile. There was \ntremendous damage to the region and loss of life, as buildings collapsed. Tremors were felt \nas far north as Ica, Peru, 2400 kilometers away. The earthquake triggered a tsunami that \ndamaged several coastal towns. Tsunami warnings were issued to 53 countries, including \nthe United States, where damage was reported. This earthquake is ranked as one of the \nhighest in magnitude ever recorded by a seismograph. Chile has experienced some of the \nstrongest earthquakes in the past, including a 1960 earthquake that had a magnitude of \n9.5, the highest ever recorded.\nPERU\nBOLIVIA\nARGENTINA\nIca\nCHILE\nConcepci\u00f3n\n80\u00b0 W\n70\u00b0 W\n50\u00b0 S\n40\u00b0 S\n30\u00b0 S\n20\u00b0 S\n10\u00b0 S\nEarthquake Map\n50\u00b0 S\n40\u00b0 S\n30 \u00b0S\n10\u00b0 S\nN\nKey\nMountain\n20\u00b0 S",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Nazca Plate."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Determine the P-wave travel time, in minutes and seconds, from this earthquake\u2019s epicenter to the tremors that were felt in Ica, Peru.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_72_75.png",
+      "context": "Base your answers to questions 72 through 75 on the passage and map below and on your knowledge of Earth \nscience. The map shows the location of a major earthquake that occurred in 2010 off the west coast of Chile, in \nSouth America. The star \n represents the location of the earthquake epicenter.\nOn February 27, 2010, a strong earthquake with a magnitude of 8.8 occurred off the \nwest coast of South America near the city of Concepci\u00f3n in central Chile. There was \ntremendous damage to the region and loss of life, as buildings collapsed. Tremors were felt \nas far north as Ica, Peru, 2400 kilometers away. The earthquake triggered a tsunami that \ndamaged several coastal towns. Tsunami warnings were issued to 53 countries, including \nthe United States, where damage was reported. This earthquake is ranked as one of the \nhighest in magnitude ever recorded by a seismograph. Chile has experienced some of the \nstrongest earthquakes in the past, including a 1960 earthquake that had a magnitude of \n9.5, the highest ever recorded.\nPERU\nBOLIVIA\nARGENTINA\nIca\nCHILE\nConcepci\u00f3n\n80\u00b0 W\n70\u00b0 W\n50\u00b0 S\n40\u00b0 S\n30\u00b0 S\n20\u00b0 S\n10\u00b0 S\nEarthquake Map\n50\u00b0 S\n40\u00b0 S\n30 \u00b0S\n10\u00b0 S\nN\nKey\nMountain\n20\u00b0 S",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 4 min 40 s to 4 min 50 s."
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Describe one action that coastal residents should have taken in response to the tsunami warnings that would have reduced loss of life.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_72_75.png",
+      "context": "Base your answers to questions 72 through 75 on the passage and map below and on your knowledge of Earth \nscience. The map shows the location of a major earthquake that occurred in 2010 off the west coast of Chile, in \nSouth America. The star \n represents the location of the earthquake epicenter.\nOn February 27, 2010, a strong earthquake with a magnitude of 8.8 occurred off the \nwest coast of South America near the city of Concepci\u00f3n in central Chile. There was \ntremendous damage to the region and loss of life, as buildings collapsed. Tremors were felt \nas far north as Ica, Peru, 2400 kilometers away. The earthquake triggered a tsunami that \ndamaged several coastal towns. Tsunami warnings were issued to 53 countries, including \nthe United States, where damage was reported. This earthquake is ranked as one of the \nhighest in magnitude ever recorded by a seismograph. Chile has experienced some of the \nstrongest earthquakes in the past, including a 1960 earthquake that had a magnitude of \n9.5, the highest ever recorded.\nPERU\nBOLIVIA\nARGENTINA\nIca\nCHILE\nConcepci\u00f3n\n80\u00b0 W\n70\u00b0 W\n50\u00b0 S\n40\u00b0 S\n30\u00b0 S\n20\u00b0 S\n10\u00b0 S\nEarthquake Map\n50\u00b0 S\n40\u00b0 S\n30 \u00b0S\n10\u00b0 S\nN\nKey\nMountain\n20\u00b0 S",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Evacuate coastal areas. \u2014 Move inland. \u2014 Get to higher ground. \u2014 Move to higher floors in buildings. Continental crust Oceanic c rus t (Not drawn to scale) Asthenosphere P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "On the map in your answer booklet, complete the path of Hurricane Matthew by plotting the location of the storm center for October 5 through October 9. Draw a line to connect all \ufb01 ve of these plots to the October 4 plot to complete the path.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the data table below, on the map in your answer booklet, \nand on your knowledge of Earth science. The table lists storm data for Hurricane Matthew, which occurred in the \nfall of 2016. Air pressure, wind speed, and storm location are shown for the hurricane\u2019s center at the same time \neach day. The map shows the location of Hurricane Matthew from September 28 to October 4.\nHurricane Matthew Data\nDate\nAir Pressure\n(mb)\nWind Speed\n(mph)\nLocation of\nStorm Center\nSept. 28\n1008\n60\n13\u00b0 N, 61\u00b0 W\nSept. 29\n995\n70\n14\u00b0 N, 66\u00b0 W\nSept. 30\n968\n115\n14\u00b0 N, 71\u00b0 W\nOct. 1\n946\n145\n13\u00b0 N, 74\u00b0 W\nOct. 2\n946\n140\n14\u00b0 N, 75\u00b0 W\nOct. 3\n941\n140\n16\u00b0 N, 75\u00b0 W\nOct. 4\n949\n145\n19\u00b0 N, 74\u00b0 W\nOct. 5\n962\n120\n22\u00b0 N, 75\u00b0 W\nOct. 6\n940\n140\n25\u00b0 N, 78\u00b0 W\nOct. 7\n946\n120\n29\u00b0 N, 81\u00b0 W\nOct. 8\n967\n75\n33\u00b0 N, 79\u00b0 W\nOct. 9\n984\n75\n35\u00b0 N, 74\u00b0 W",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if all five plots are within or touch the circles shown below and are correctly connected with a line (beginning at the 10/4 plot) that passes within or touches each circle. Note: Allow credit if the line does not pass through the student plots, but is still within or touching the circles. It is recommended that an overlay of the same scale as the student answer booklet be used to ensure reliability in rating."
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Identify the two consecutive dates between which the greatest decrease in air pressure occurred.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the data table below, on the map in your answer booklet, \nand on your knowledge of Earth science. The table lists storm data for Hurricane Matthew, which occurred in the \nfall of 2016. Air pressure, wind speed, and storm location are shown for the hurricane\u2019s center at the same time \neach day. The map shows the location of Hurricane Matthew from September 28 to October 4.\nHurricane Matthew Data\nDate\nAir Pressure\n(mb)\nWind Speed\n(mph)\nLocation of\nStorm Center\nSept. 28\n1008\n60\n13\u00b0 N, 61\u00b0 W\nSept. 29\n995\n70\n14\u00b0 N, 66\u00b0 W\nSept. 30\n968\n115\n14\u00b0 N, 71\u00b0 W\nOct. 1\n946\n145\n13\u00b0 N, 74\u00b0 W\nOct. 2\n946\n140\n14\u00b0 N, 75\u00b0 W\nOct. 3\n941\n140\n16\u00b0 N, 75\u00b0 W\nOct. 4\n949\n145\n19\u00b0 N, 74\u00b0 W\nOct. 5\n962\n120\n22\u00b0 N, 75\u00b0 W\nOct. 6\n940\n140\n25\u00b0 N, 78\u00b0 W\nOct. 7\n946\n120\n29\u00b0 N, 81\u00b0 W\nOct. 8\n967\n75\n33\u00b0 N, 79\u00b0 W\nOct. 9\n984\n75\n35\u00b0 N, 74\u00b0 W",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for from Sept. 29 to Sept. 30 or from 9/29 to 9/30."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "The table below shows the Saf\ufb01 r-Simpson Scale, which is used to classify hurricanes. Saf\ufb01 r-Simpson Scale Classi\ufb01 cation of Hurricane Wind Speed (mph) Category 1 74-95 Category 2 96-110 Category 3 111-129 Category 4 130-156 Category 5 \u2265157 Identify the greatest wind speed of Hurricane Matthew listed on the data table, and identify the classi\ufb01 cation of Hurricane Matthew based on this wind speed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the data table below, on the map in your answer booklet, \nand on your knowledge of Earth science. The table lists storm data for Hurricane Matthew, which occurred in the \nfall of 2016. Air pressure, wind speed, and storm location are shown for the hurricane\u2019s center at the same time \neach day. The map shows the location of Hurricane Matthew from September 28 to October 4.\nHurricane Matthew Data\nDate\nAir Pressure\n(mb)\nWind Speed\n(mph)\nLocation of\nStorm Center\nSept. 28\n1008\n60\n13\u00b0 N, 61\u00b0 W\nSept. 29\n995\n70\n14\u00b0 N, 66\u00b0 W\nSept. 30\n968\n115\n14\u00b0 N, 71\u00b0 W\nOct. 1\n946\n145\n13\u00b0 N, 74\u00b0 W\nOct. 2\n946\n140\n14\u00b0 N, 75\u00b0 W\nOct. 3\n941\n140\n16\u00b0 N, 75\u00b0 W\nOct. 4\n949\n145\n19\u00b0 N, 74\u00b0 W\nOct. 5\n962\n120\n22\u00b0 N, 75\u00b0 W\nOct. 6\n940\n140\n25\u00b0 N, 78\u00b0 W\nOct. 7\n946\n120\n29\u00b0 N, 81\u00b0 W\nOct. 8\n967\n75\n33\u00b0 N, 79\u00b0 W\nOct. 9\n984\n75\n35\u00b0 N, 74\u00b0 W",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a wind speed of 145 mph and a Category 4/Cat 4 classification of hurricane. 85\u00b0 W 80\u00b0 W 75\u00b0 W 70\u00b0 W 65\u00b0 W 60\u00b0 W 55\u00b0 W 50\u00b0 W 45\u00b0 W 10\u00b0 N 15\u00b0 N 20\u00b0 N 25\u00b0 N 30\u00b0 N 35\u00b0 N 40\u00b0 N Hurricane Tracking Map Hurricane Matthew, Fall 2016 10\u00b0 N 15\u00b0 N 20\u00b0 N 25\u00b0 N 30\u00b0 N 35\u00b0 N 40\u00b0 N 85\u00b0 W 80\u00b0 W 75\u00b0 W 70\u00b0 W 65\u00b0 W 60\u00b0 W 55\u00b0 W 50\u00b0 W 45\u00b0 W 9/28 9/29 9/30 10/1 10/2 10/3 10/4"
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify the names of the two index fossils found in these rock layers that represent organisms that could have been alive at the same time.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the diagrams below and on your knowledge of Earth \nscience. The diagrams represent three sedimentary rock outcrops labeled I, II, and III, found in the northeastern \nUnited States. The outcrops have not been overturned. Some rock layers contain New York State index fossils. \nOne unconformity has been labeled X.\nUnconformity\nIII\nII\nI\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Cryptolithus and Valcouroceras. Note: Do not allow credit for B and D because these are not the names of the fossils."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Good index fossils are often abundant or easily identi\ufb01 ed. Describe one other characteristic of these fossils that makes them index fossils.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the diagrams below and on your knowledge of Earth \nscience. The diagrams represent three sedimentary rock outcrops labeled I, II, and III, found in the northeastern \nUnited States. The outcrops have not been overturned. Some rock layers contain New York State index fossils. \nOne unconformity has been labeled X.\nUnconformity\nIII\nII\nI\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 These organisms only existed for a short time. \u2014 These fossils have widespread distribution."
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Identify, by name, the sedimentary rock layer that is missing from rock outcrop III due to the formation of unconformity X.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the diagrams below and on your knowledge of Earth \nscience. The diagrams represent three sedimentary rock outcrops labeled I, II, and III, found in the northeastern \nUnited States. The outcrops have not been overturned. Some rock layers contain New York State index fossils. \nOne unconformity has been labeled X.\nUnconformity\nIII\nII\nI\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for limestone."
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Describe the relationship between a planet\u2019s mean distance from this star and the period of revolution.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information and data table below and on your knowledge \nof Earth science. The table shows data for the six planets in the Kepler-11 star system.\nKepler-11 is one of many star systems discovered by space satellites. Scientists \ufb01 nd this \nsystem unusual because of its small size and its six planets, identi\ufb01 ed by letters b through g,\nthat orbit relatively close to its central star. The central star, Kepler-11, has a surface \ntemperature of 5663 K and a luminosity of 1.0.\nPlanet\nMean Distance\nfrom Star \n(million km)\nPeriod of \nRevolution\n(days)\nEccentricity\nof Orbit\nEquatorial \nDiameter\n(km)\nDensity\n(g/cm3)\nKepler-11b\n13.7\n10.3\n0.045\n45,869\n1.70\nKepler-11c\n16.0\n13.0\n0.026\n73,151\n0.66\nKepler-11d\n23.2\n22.7\n0.004\n79,528\n1.28\nKepler-11e\n29.1\n32.0\n0.012\n106,780\n0.58\nKepler-11f\n37.5\n46.7\n0.013\n63,456\n0.69\nKepler-11g\n69.7\n118.4\n0.150\n84,847\n1.20",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 As the distance from Kepler-11 increases, the period of revolution increases. \u2014 As one increases, the other increases. \u2014 the closer the planet, the smaller the period of revolution \u2014 direct relationship"
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "The diagram in your answer booklet represents the scaled distances of Mercury, Venus, and Earth from the Sun. Place an X on the line to indicate where Kepler-11c would be located if it were in our solar system.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information and data table below and on your knowledge \nof Earth science. The table shows data for the six planets in the Kepler-11 star system.\nKepler-11 is one of many star systems discovered by space satellites. Scientists \ufb01 nd this \nsystem unusual because of its small size and its six planets, identi\ufb01 ed by letters b through g,\nthat orbit relatively close to its central star. The central star, Kepler-11, has a surface \ntemperature of 5663 K and a luminosity of 1.0.\nPlanet\nMean Distance\nfrom Star \n(million km)\nPeriod of \nRevolution\n(days)\nEccentricity\nof Orbit\nEquatorial \nDiameter\n(km)\nDensity\n(g/cm3)\nKepler-11b\n13.7\n10.3\n0.045\n45,869\n1.70\nKepler-11c\n16.0\n13.0\n0.026\n73,151\n0.66\nKepler-11d\n23.2\n22.7\n0.004\n79,528\n1.28\nKepler-11e\n29.1\n32.0\n0.012\n106,780\n0.58\nKepler-11f\n37.5\n46.7\n0.013\n63,456\n0.69\nKepler-11g\n69.7\n118.4\n0.150\n84,847\n1.20",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the center of the X is within or touches the edge of the box below. Note: Allow credit if a symbol other than an X is used. It is recommended that an overlay of the same scale as the student answer booklet be used to ensure reliability in rating."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Identify the two planets in our solar system that have an orbital shape most similar to the orbital shape of Kepler-11b.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information and data table below and on your knowledge \nof Earth science. The table shows data for the six planets in the Kepler-11 star system.\nKepler-11 is one of many star systems discovered by space satellites. Scientists \ufb01 nd this \nsystem unusual because of its small size and its six planets, identi\ufb01 ed by letters b through g,\nthat orbit relatively close to its central star. The central star, Kepler-11, has a surface \ntemperature of 5663 K and a luminosity of 1.0.\nPlanet\nMean Distance\nfrom Star \n(million km)\nPeriod of \nRevolution\n(days)\nEccentricity\nof Orbit\nEquatorial \nDiameter\n(km)\nDensity\n(g/cm3)\nKepler-11b\n13.7\n10.3\n0.045\n45,869\n1.70\nKepler-11c\n16.0\n13.0\n0.026\n73,151\n0.66\nKepler-11d\n23.2\n22.7\n0.004\n79,528\n1.28\nKepler-11e\n29.1\n32.0\n0.012\n106,780\n0.58\nKepler-11f\n37.5\n46.7\n0.013\n63,456\n0.69\nKepler-11g\n69.7\n118.4\n0.150\n84,847\n1.20",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Uranus and Jupiter."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Identify the star located on the Characteristics of Stars graph on the Physical Setting/Earth Science Reference Tables that has the most similar surface temperature and luminosity as the Kepler-11 star. P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2020/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information and data table below and on your knowledge \nof Earth science. The table shows data for the six planets in the Kepler-11 star system.\nKepler-11 is one of many star systems discovered by space satellites. Scientists \ufb01 nd this \nsystem unusual because of its small size and its six planets, identi\ufb01 ed by letters b through g,\nthat orbit relatively close to its central star. The central star, Kepler-11, has a surface \ntemperature of 5663 K and a luminosity of 1.0.\nPlanet\nMean Distance\nfrom Star \n(million km)\nPeriod of \nRevolution\n(days)\nEccentricity\nof Orbit\nEquatorial \nDiameter\n(km)\nDensity\n(g/cm3)\nKepler-11b\n13.7\n10.3\n0.045\n45,869\n1.70\nKepler-11c\n16.0\n13.0\n0.026\n73,151\n0.66\nKepler-11d\n23.2\n22.7\n0.004\n79,528\n1.28\nKepler-11e\n29.1\n32.0\n0.012\n106,780\n0.58\nKepler-11f\n37.5\n46.7\n0.013\n63,456\n0.69\nKepler-11g\n69.7\n118.4\n0.150\n84,847\n1.20",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the Sun. 0 150 Sun Mercury Venus Earth (Distances drawn to scale in million kilometers) P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    }
+  ]
+}

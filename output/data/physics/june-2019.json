@@ -1,0 +1,1076 @@
+{
+  "subject": "physics",
+  "session": "june-2019",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which pair of quantities represent scalar quantities?",
+      "choices": [
+        "displacement and velocity",
+        "displacement and time",
+        "energy and velocity",
+        "energy and time"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "A sailboat on a lake sails 40. meters north and then sails 40. meters due east. Compared to its starting position, the new position of the sailboat is",
+      "choices": [
+        "40. m due east",
+        "40. m due north",
+        "57 m northeast",
+        "80. m northeast"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "A ball is thrown straight upward from the surface of Earth. Which statement best describes the ball\u2019s velocity and acceleration at the top of its flight?",
+      "choices": [
+        "Both velocity and acceleration are zero.",
+        "Velocity is zero and acceleration is nonzero.",
+        "Velocity is nonzero and acceleration is zero.",
+        "Both velocity and acceleration are not zero."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "As a student runs a plastic comb through her hair, the comb acquires a negative electric charge. This charge results from the transfer of",
+      "choices": [
+        "protons from the comb to her hair",
+        "protons from her hair to the comb",
+        "electrons from the comb to her hair",
+        "electrons from her hair to the comb"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "How would the mass and weight of an object on the Moon compare to the mass and weight of the same object on Earth?",
+      "choices": [
+        "Mass and weight would both be less on the Moon.",
+        "Mass would be the same but its weight would be less on the Moon.",
+        "Mass would be less on the Moon and its weight would be the same.",
+        "Mass and weight would both be the same on the Moon."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "An object is moving with constant speed in a circular path. The object\u2019s centripetal acceleration remains constant in",
+      "choices": [
+        "magnitude, only",
+        "direction, only",
+        "both magnitude and direction",
+        "neither magnitude nor direction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "As shown in the diagram below, a rope attached to a 500.-kilogram crate is used to exert a force of 45 newtons at an angle of 65 degrees above the horizontal. The horizontal component of the force acting on the crate is",
+      "choices": [
+        "19 N",
+        "41 N",
+        "210 N",
+        "450 N"
+      ],
+      "image": "/images/exams/physics/june-2019/q7.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A spring with a spring constant of 68 newtons per meter hangs from a ceiling. When a 12-newton downward force is applied to the free end of the spring, the spring stretches a total distance of",
+      "choices": [
+        "0.18 m",
+        "0.59 m",
+        "5.7 m",
+        "820 m 500. kg 45 N 65\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "As a student walks downhill at constant speed, his gravitational potential energy",
+      "choices": [
+        "increases and his kinetic energy increases",
+        "increases and his kinetic energy remains the same",
+        "decreases and his kinetic energy increases",
+        "decreases and his kinetic energy remains the same"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "When 150 joules of work is done on a system by an external force of 15 newtons in 20. seconds, the total energy of that system increases by",
+      "choices": [
+        "1.5 \u00d7 102 J",
+        "2.0 \u00d7 102 J",
+        "3.0 \u00d7 102 J",
+        "2.3 \u00d7 103 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A person on a ledge throws a ball vertically downward, striking the ground below the ledge with 200 joules of kinetic energy. The person then throws an identical ball vertically upward at the same initial speed from the same point. What is the kinetic energy of the second ball when it hits the ground? [Neglect friction.]",
+      "choices": [
+        "200 J",
+        "400 J",
+        "less than 200 J",
+        "more than 400 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Two construction cranes are used to lift identical 1200-kilogram loads of bricks the same vertical distance. The first crane lifts the bricks in 20. seconds and the second crane lifts the bricks in 40. seconds. Compared to the power developed by the first crane, the power developed by the second crane is",
+      "choices": [
+        "the same",
+        "twice as great",
+        "half as great",
+        "four times as great"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "An ionized calcium atom has a charge of +2 elementary charges. If this ion is accelerated through a potential difference of 2.0 \u00d7 103 volts, the ion\u2019s change in kinetic energy will be",
+      "choices": [
+        "1.0 \u00d7 103 eV",
+        "2.0 \u00d7 103 eV",
+        "3.0 \u00d7 103 eV",
+        "4.0 \u00d7 103 eV"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "A total charge of 100. coulombs flows past a fixed point in a circuit every 500. seconds. What is the current at this point in the circuit?",
+      "choices": [
+        "0.200 A",
+        "5.00 A",
+        "5.00 \u00d7 104 A",
+        "1.25 \u00d7 1018 A"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "An aluminum wire of length 1.0 meter has a resistance of 9.0 \u00d7 10\u20133 ohm. If the wire were cut into two equal lengths, each length would have a resistance of",
+      "choices": [
+        "2.8 \u00d7 10\u20138 \u03a9",
+        "4.5 \u00d7 10\u20133 \u03a9",
+        "9.0 \u00d7 10\u20133 \u03a9",
+        "1.8 \u00d7 10\u20132 \u03a9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "In an operating electrical circuit, the source of potential difference could be",
+      "choices": [
+        "a voltmeter",
+        "a battery",
+        "an ammeter",
+        "a resistor"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A lightbulb with a resistance of 2.9 ohms is operated using a 1.5-volt battery. At what rate is electrical energy transformed in the lightbulb?",
+      "choices": [
+        "0.52 W",
+        "0.78 W",
+        "4.4 W",
+        "6.5 W"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A 40.0-kilogram child exerts a 100.-newton force on a 50.0-kilogram object. The magnitude of the force that the object exerts on the child is",
+      "choices": [
+        "0.0 N",
+        "80.0 N",
+        "100. N",
+        "125 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "written",
+      "text": "Two identical stationary bar magnets are arranged as shown in the diagram below. What is the direction of the magnetic field at point P?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": ""
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A student claps his hands once to produce a sudden loud sound that travels through the air. This sound is classified as a",
+      "choices": [
+        "longitudinal mechanical wave",
+        "longitudinal electromagnetic wave",
+        "transverse mechanical wave",
+        "transverse electromagnetic wave"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A student generates water waves in a pool of water. In order to increase the energy carried by the waves, the student should generate waves with a",
+      "choices": [
+        "greater amplitude",
+        "higher frequency",
+        "greater wavelength",
+        "longer period"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A wave generator produces straight, parallel wave fronts in a shallow tank of uniform-depth water. As the frequency of vibration of the generator increases, which characteristic of the wave will always decrease?",
+      "choices": [
+        "amplitude",
+        "phase",
+        "wavelength",
+        "speed"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A space probe produces a radio signal pulse. If the pulse reaches Earth 12.3 seconds after it is emitted by the probe, what is the distance from the probe to Earth?",
+      "choices": [
+        "3.71 \u00d7 102 m",
+        "4.07 \u00d7 103 m",
+        "4.10 \u00d7 108 m",
+        "3.69 \u00d7 109 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a light ray reflecting from a plane mirror. The angle of reflection for this light ray is",
+      "choices": [
+        "20\u00b0",
+        "70\u00b0",
+        "140\u00b0",
+        "160\u00b0"
+      ],
+      "image": "/images/exams/physics/june-2019/q24.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "A light wave travels from one medium into a second medium with a greater absolute index of refraction. Which characteristic of the wave can not change as the wave enters the second medium?",
+      "choices": [
+        "frequency",
+        "speed",
+        "direction",
+        "wavelength"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The speed of light ( f = 5.09 \u00d7 1014 Hz) in glycerol is",
+      "choices": [
+        "1.70 \u00d7 106 m/s",
+        "2.04 \u00d7 108 m/s",
+        "3.00 \u00d7 108 m/s",
+        "4.41 \u00d7 108 m/s N P S S N ( 1 ) ( 2 ) ( 3 ) ( 4 ) 20\u00b0 20\u00b0 70\u00b0 70\u00b0 Plane mirror Normal Light ray"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a standing wave produced in a string by a vibrating wave generator. How many antinodes are shown in this standing wave?",
+      "choices": [
+        "6",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": "/images/exams/physics/june-2019/q27.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The Doppler effect is best described as the",
+      "choices": [
+        "bending of waves as they pass by obstacles or through openings",
+        "change in speed of a wave as the wave moves from one medium to another",
+        "creation of a standing wave from two waves traveling in opposite directions in the same medium",
+        "shift in the observed frequency and wave- length of a wave caused by the relative motion between the wave\u2019s source and an observer"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Which diagram represents diffraction of wave fronts as they encounter an obstacle?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which types of forces exist between the two protons in a helium nucleus?",
+      "choices": [
+        "a repulsive electrostatic force and a repulsive gravitational force",
+        "a repulsive electrostatic force and an attractive strong nuclear force",
+        "an attractive electrostatic force and an attractive gravitational force",
+        "an attractive electrostatic force and an attractive strong nuclear force"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "A meson could be composed of",
+      "choices": [
+        "a top quark and a bottom quark",
+        "an electron and an antielectron",
+        "a strange quark and an anticharm quark",
+        "an up quark and a muon Support rod Wave generator ( 1 ) ( 2 ) ( 3 ) ( 4 )"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "An electron in an excited mercury atom is in energy level g. What is the minimum energy required to ionize this atom?",
+      "choices": [
+        "0.20 eV",
+        "0.91 eV",
+        "2.48 eV",
+        "7.90 eV"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "A student is standing in an elevator that travels from the first floor to the tenth floor of a building. The student exerts the greatest force on the floor of the elevator when the elevator is",
+      "choices": [
+        "accelerating upward as it leaves the first floor",
+        "slowing down as it approaches the tenth floor",
+        "moving upward at constant speed",
+        "at rest on the first floor"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "At the bottom of a hill, a car has an initial velocity of +16.0 meters per second. The car is uniformly accelerated at \u22122.20 meters per second squared for 5.00 seconds as it moves up the hill. How far does the car travel during this 5.00-second interval?",
+      "choices": [
+        "107 m",
+        "74.5 m",
+        "52.5 m",
+        "25.0 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "A particle enters the electric field between two oppositely charged parallel plates, as represented in the diagram below. Which particle will be deflected toward the positive plate as it enters the electric field?",
+      "choices": [
+        "photon",
+        "proton",
+        "electron",
+        "neutrino + + + + + _ _ _ _ _ Particle v"
+      ],
+      "image": "/images/exams/physics/june-2019/q35.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "As represented in the diagram below, an object of mass m, located on the surface of the Moon, is attracted to the Moon with a gravitational force, F. An object of mass 2m, at an altitude equal to the Moon\u2019s radius, r, above the surface of the Moon, is attracted to the Moon with a gravitational force of",
+      "choices": [
+        "F",
+        "2F",
+        "F/2",
+        "F/4"
+      ],
+      "image": "/images/exams/physics/june-2019/q36.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The graph below represents the relationship between velocity and time for an object moving along a straight line. What is the magnitude of the object\u2019s acceleration?",
+      "choices": [
+        "5.0 m/s2",
+        "8.0 m/s2",
+        "10. m/s2",
+        "20. m/s2 r 2m m (Not drawn to scale) 40. 30. 20. 10. 0.0 \u201310. Velocity vs. Time Time (s) Velocity (m/s) \u201320. 5.0 1.0 2.0 3.0 4.0"
+      ],
+      "image": "/images/exams/physics/june-2019/q37.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Two muons would have a combined charge of",
+      "choices": [
+        "\u22123.2 \u00d7 10\u221219 C",
+        "\u22121.6 \u00d7 10\u221219 C",
+        "0 C",
+        "+3.2 \u00d7 10\u221219 C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "A 1.47-newton baseball is dropped from a height of 10.0 meters and falls through the air to the ground. The kinetic energy of the ball is 12.0 joules the instant before the ball strikes the ground. The maximum amount of mechanical energy converted to internal energy during the fall is",
+      "choices": [
+        "2.7 J",
+        "12.0 J",
+        "14.7 J",
+        "26.7 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "written",
+      "text": "A projectile lands at the same height from which it was launched. Which initial velocity will result in the greatest horizontal displacement of the projectile? [Neglect friction.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "A 5.0-kilogram box is sliding across a level floor. The box is acted upon by a force of 27 newtons east and a frictional force of 17 newtons west. What is the magnitude of the acceleration of the box?",
+      "choices": [
+        "0.50 m/s2",
+        "2.0 m/s2",
+        "8.8 m/s2",
+        "10. m/s2 ( 1 ) Horizontal 45\u00b0 vi = 10. m/s ( 3 ) Horizontal 45\u00b0 vi = 20. m/s ( 2 ) Horizontal 30\u00b0 vi = 10. m/s ( 4 ) Horizontal 60\u00b0 vi = 20. m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a 2.0-kilogram toy car moving at a constant speed of 3.0 meters per second counterclockwise in a circular path with a radius of 2.0 meters. At the instant shown in the diagram, the centripetal force acting on the car is",
+      "choices": [
+        "4.5 N north",
+        "4.5 N west",
+        "9.0 N north",
+        "9.0 N west"
+      ],
+      "image": "/images/exams/physics/june-2019/q42.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "written",
+      "text": "In which electric circuit would the voltmeter read 10 volts?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "N 65\u00b0 9 As a student walks downhill at constant speed, his gravitational potential energy",
+      "choices": [
+        "2.67 \u00d7 10\u221216 kg",
+        "2.67 \u00d7 10\u221210 kg",
+        "8.00 \u00d7 10\u22128 kg",
+        "8.00 \u00d7 10\u22122 kg"
+      ],
+      "image": "/images/exams/physics/june-2019/q45.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "A red photon in the bright-line spectrum of hydrogen gas has an energy of 3.02 \u00d7 10\u221219 joule. What energy-level transition does an electron in a hydrogen atom undergo to produce this photon?",
+      "choices": [
+        "n = 3 to n = 2",
+        "n = 4 to n = 2",
+        "n = 5 to n = 2",
+        "n = 6 to n = 2 r = 2.0 m N S W E Toy car ( 1 ) 1 \u03a9 20 V V 1 \u03a9 ( 2 ) 10 V ( 3 ) ( 4 ) 1 \u03a9 20 V V 1 \u03a9 1 \u03a9 V 1 \u03a9 10 V 1 \u03a9 V 1 \u03a9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "In the diagram below, a negatively charged rod is placed between, but does not touch, identical small metal spheres R and S hanging from insulating threads. What can be concluded if the rod repels sphere R but attracts sphere S?",
+      "choices": [
+        "Sphere R must be negative and sphere S must be positive.",
+        "Sphere R must be negative and sphere S may be positive or neutral.",
+        "Sphere R must be positive and sphere S must be negative.",
+        "Sphere R must be positive and sphere S may be negative or neutral."
+      ],
+      "image": "/images/exams/physics/june-2019/q47.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "The amount of electric energy consumed by a 60.0-watt lightbulb for 1.00 minute could lift a 10.0 newton object to a maximum vertical height of",
+      "choices": [
+        "6.00 m",
+        "36.7 m",
+        "360. m",
+        "600. m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Microwaves can have a wavelength closest to the",
+      "choices": [
+        "radius of Earth",
+        "height of Mount Everest",
+        "length of a football field",
+        "length of a physics student\u2019s thumb"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "written",
+      "text": "Two pulses approach each other in a uniform medium, as represented in the diagram below. Which diagram best represents the superposition of the two pulses when the pulses overlap? R S ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/q50.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Determine the elastic potential energy stored in the spring when the launcher is ready to launch a plastic sphere.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of physics. \nA toy launcher that is used to launch small plastic spheres horizontally contains a spring \nwith a spring constant of 50. newtons per meter. The spring is compressed a distance of  \n0.10 meter when the launcher is ready to launch a plastic sphere.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0.25 J."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of physics. \nA toy launcher that is used to launch small plastic spheres horizontally contains a spring \nwith a spring constant of 50. newtons per meter. The spring is compressed a distance of  \n0.10 meter when the launcher is ready to launch a plastic sphere.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units or for an answer, with units, that is consistent with the student\u2019s response to question 51. Refer to the Scoring Criteria for Calculations in this rating guide. Examples of 1-credit responses:"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "52-53 The spring is released and a 0.10-kilogram plastic sphere is fired from the launcher. Calculate the maximum speed with which the plastic sphere will be launched. [Neglect friction.] [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of physics. \nA toy launcher that is used to launch small plastic spheres horizontally contains a spring \nwith a spring constant of 50. newtons per meter. The spring is compressed a distance of  \n0.10 meter when the launcher is ready to launch a plastic sphere.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 52. Example of a 1-credit response: v = 2.2 m/s Note: Do not penalize the student more than 1 credit for errors in units in questions 52 and 53."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Two 10.-ohm resistors have an equivalent resistance of 5.0 ohms when connected in an electric circuit with a source of potential difference. Using circuit symbols found in the Reference Tables for Physical Setting/Physics, draw a diagram of this circuit.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a circuit diagram showing two resistors connected in parallel with a cell or a battery. Examples of 1-credit responses: Note: Allow credit for lines not touching the battery if the distances from the lines to the battery is less than or equal to the distance between the battery symbol lines. or KE PEs m 1 2 1 2 (50.N/m)(0.10 m) 0.10 kg 2 2 2 2 mv kx v kx v \u0394 = \u0394 = = = or KE PE KE KE 1 2 2 2(0.25 J) 0.10 kg 2 mv v v m \u0394 = \u0394 = = = P.S./Physics Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "The graph below shows the relationship between distance, d, and time, t, for a moving object. On the axes in your answer booklet, sketch the general shape of the graph that shows the relationship between the magnitude of the velocity, v, and time, t, for the moving object. d t",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/q55.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a line that approximates a horizontal line representing constant velocity. Example of a 1-credit response:"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Using a protractor, measure and record the angle of refraction in the air, to the nearest degree.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_56_58.png",
+      "context": "Base your answers to questions 56 through 58 on the information and diagram below and on your knowledge \nof physics. \nA ray of monochromatic light (f = 5.09 \u00d7 1014 Hz) passes from medium X into air. The \nangle of incidence of the ray in medium X is 25\u00b0, as shown.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 40.\u00b0 \u00b1 2\u00b0."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_56_58.png",
+      "context": "Base your answers to questions 56 through 58 on the information and diagram below and on your knowledge \nof physics. \nA ray of monochromatic light (f = 5.09 \u00d7 1014 Hz) passes from medium X into air. The \nangle of incidence of the ray in medium X is 25\u00b0, as shown.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and subsitution with units or for an answer, with units, that is consis- tent with the student\u2019s response to question 56. Refer to the Scoring Criteria for Calculations in this rating guide. Example of a 1-credit response:"
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "57-58 Calculate the absolute index of refraction of medium X. [Show all work, including the equation and substitution with units.] 25\u00b0 Medium X Air Normal",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_56_58.png",
+      "context": "Base your answers to questions 56 through 58 on the information and diagram below and on your knowledge \nof physics. \nA ray of monochromatic light (f = 5.09 \u00d7 1014 Hz) passes from medium X into air. The \nangle of incidence of the ray in medium X is 25\u00b0, as shown.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer or for an answer, without units, that is consistent with the student\u2019s response to question 57. Example of a 1-credit response: n1 = 1.5 Note: Do not penalize the student more than 1 credit for errors in units for questions 57 and 58. v t \u03b8 = \u03b8 = \u03b8 \u03b8 = \u00b0 \u00b0 n n n n n sin sin sin sin (1.00)(sin40. ) sin25 1 1 2 2 1 2 2 1 1 P.S./Physics Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units. Refer to the Scoring Criteria for Calculations in the rating guide. Examples of 1-credit responses:"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "59\u201360 A student wishes to record a 7.5-kilogram watermelon colliding with the ground. Calculate how far the watermelon must fall freely from rest so it would be traveling at 29 meters per second the instant it hits the ground. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 59. Example of a 1-credit response: d = 43 m Note: Do not penalize the student more than 1 credit for errors in units in questions 59 and 60."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/q61.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units. Refer to the Scoring Criteria for Calculations in the rating guide. Example of a 1-credit response: pbefore = pafter (mAvA + mBvB)before = (mAvA + mBvB)after (0.100 kg)(4.0 m/s) + (0.150 kg)(0 m/s) = (0.100 kg)(\u22121.5 m/s) + (0.150 kg)(vB after) Note: Do not penalize the student for using grams instead of kilograms."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "61-62 As represented in the diagram below, block A with a mass of 100. grams slides to the right at 4.0 meters per second and hits stationary block B with a mass of 150. grams. After the collision, block B slides to the right and block A rebounds to the left at 1.5 meters per second. [Neglect friction.] Calculate the speed of block B after the collision. [Show all calculations, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/q62.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 61. Example of a 1-credit response: vB after = 3.7 m/s Note: Do not penalize the student more than 1 credit for errors in units in questions 61 and 62. v v ad d v v a d 2 2 (29 m/s) (0 m/s) 2(9.81 m/s ) f i f i 2 2 2 2 2 2 2 = + = \u2212 = \u2212 or v v ad d v a d 2 2 ( 29 m/s) 2( 9.81 m/s ) f i f 2 2 2 2 2 = + = = \u2212 \u2212 or 1 2 2 (29 m/s) 2(9.81m/s ) 2 2 2 2 PE KE mg h mv h v g h \u0394 = \u0394 \u0394 = \u0394 = \u0394 = P.S./Physics Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of physics. \nA 1.20 \u00d7 103-kilogram car is traveling east at 25 meters per second. The brakes are applied and \nthe car is brought to rest in 5.00 seconds. \n63-64 Calculate the magnitude of the total impulse applied to the car to bring it to rest. [Show all work, \nincluding the equation and substitution with units.]   [2] \n65 State the direction of the impulse applied to the car.   [1] \nA\nm = 100. g\nBefore collision\nB\nm = 150. g\nA\nm = 100. g\nAfter collision\nB\nm = 150. g\nBlock A\nBlock B\nBlock A\nBlock B\n4.0 m/s\n1.5 m/s\n\nP.S./Physics\u2013June \u201919\n[14]\nPart C \nAnswer all questions in this part. \nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions \nmay require the use of the 2006 Edition Reference Tables for Physical Setting/Physics.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units. Refer to Scoring Criteria for Calculations in this rating guide. Examples of 1-credit responses: J = \u0394p = m\u0394v J = Fnett or J = (1.20 \u00d7 103 kg)(0 m/s \u2212 25 m/s) J = (6.0 \u00d7 103 N)(5.0 s)"
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "63-64 Calculate the magnitude of the total impulse applied to the car to bring it to rest. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of physics. \nA 1.20 \u00d7 103-kilogram car is traveling east at 25 meters per second. The brakes are applied and \nthe car is brought to rest in 5.00 seconds. \n63-64 Calculate the magnitude of the total impulse applied to the car to bring it to rest. [Show all work, \nincluding the equation and substitution with units.]   [2] \n65 State the direction of the impulse applied to the car.   [1] \nA\nm = 100. g\nBefore collision\nB\nm = 150. g\nA\nm = 100. g\nAfter collision\nB\nm = 150. g\nBlock A\nBlock B\nBlock A\nBlock B\n4.0 m/s\n1.5 m/s\n\nP.S./Physics\u2013June \u201919\n[14]\nPart C \nAnswer all questions in this part. \nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions \nmay require the use of the 2006 Edition Reference Tables for Physical Setting/Physics.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 63. Examples of 1-credit responses: 3.0 \u00d7 104 N\u2022s or \u22123.0 \u00d7 104 kg\u2022m/s Note: Do not penalize the student more than 1 credit for errors in units in questions 63 and 64. Allow credit for a correct answer with units that is positive or negative."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "State the direction of the impulse applied to the car. A m = 100. g Before collision B m = 150. g A m = 100. g After collision B m = 150. g Block A Block B Block A Block B 4.0 m/s 1.5 m/s",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of physics. \nA 1.20 \u00d7 103-kilogram car is traveling east at 25 meters per second. The brakes are applied and \nthe car is brought to rest in 5.00 seconds. \n63-64 Calculate the magnitude of the total impulse applied to the car to bring it to rest. [Show all work, \nincluding the equation and substitution with units.]   [2] \n65 State the direction of the impulse applied to the car.   [1] \nA\nm = 100. g\nBefore collision\nB\nm = 150. g\nA\nm = 100. g\nAfter collision\nB\nm = 150. g\nBlock A\nBlock B\nBlock A\nBlock B\n4.0 m/s\n1.5 m/s\n\nP.S./Physics\u2013June \u201919\n[14]\nPart C \nAnswer all questions in this part. \nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions \nmay require the use of the 2006 Edition Reference Tables for Physical Setting/Physics.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating the direction of the impulse applied to the car. Acceptable responses include, but are not limited to: \u2014 West \u2014 opposite to direction of the car\u2019s motion \u2014 backwards P.S./Physics Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information and diagram below and on your knowledge \nof physics. \nThe diagram shows a negatively charged oil drop that is suspended motionless between \ntwo oppositely charged, parallel, horizontal metal plates. The electric field strength \nbetween the charged plates is 4.0 \u00d7 104 newtons per coulomb. The 1.96 \u00d7 10\u221215-kilogram \noil drop is being acted upon by a gravitational force, Fg, and an electrical force, Fe. \n \n66\u201367 Calculate the magnitude of the gravitational force, Fg, acting on the oil drop. [Show all work, \nincluding the equation and substitution with units.]   [2] \n68 Determine the magnitude of the upward electrical force, Fe, acting on the oil drop suspended \nmotionless between the charged metal plates.   [1] \n69\u201370 Calculate the net electric charge on the oil drop in coulombs. [Show all work, including the equation \nand substitution with units.]   [2]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units. Refer to the Scoring Criteria for Calculations in this rating guide. Example of a 1-credit response:"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "66\u201367 Calculate the magnitude of the gravitational force, Fg, acting on the oil drop. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information and diagram below and on your knowledge \nof physics. \nThe diagram shows a negatively charged oil drop that is suspended motionless between \ntwo oppositely charged, parallel, horizontal metal plates. The electric field strength \nbetween the charged plates is 4.0 \u00d7 104 newtons per coulomb. The 1.96 \u00d7 10\u221215-kilogram \noil drop is being acted upon by a gravitational force, Fg, and an electrical force, Fe. \n \n66\u201367 Calculate the magnitude of the gravitational force, Fg, acting on the oil drop. [Show all work, \nincluding the equation and substitution with units.]   [2] \n68 Determine the magnitude of the upward electrical force, Fe, acting on the oil drop suspended \nmotionless between the charged metal plates.   [1] \n69\u201370 Calculate the net electric charge on the oil drop in coulombs. [Show all work, including the equation \nand substitution with units.]   [2]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 66. Example of a 1-credit response: Fg = 1.92 \u00d7 10\u221214 N Note: Do not penalize the student more than 1 credit for errors in units in questions 66 and 67."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Determine the magnitude of the upward electrical force, Fe, acting on the oil drop suspended motionless between the charged metal plates.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information and diagram below and on your knowledge \nof physics. \nThe diagram shows a negatively charged oil drop that is suspended motionless between \ntwo oppositely charged, parallel, horizontal metal plates. The electric field strength \nbetween the charged plates is 4.0 \u00d7 104 newtons per coulomb. The 1.96 \u00d7 10\u221215-kilogram \noil drop is being acted upon by a gravitational force, Fg, and an electrical force, Fe. \n \n66\u201367 Calculate the magnitude of the gravitational force, Fg, acting on the oil drop. [Show all work, \nincluding the equation and substitution with units.]   [2] \n68 Determine the magnitude of the upward electrical force, Fe, acting on the oil drop suspended \nmotionless between the charged metal plates.   [1] \n69\u201370 Calculate the net electric charge on the oil drop in coulombs. [Show all work, including the equation \nand substitution with units.]   [2]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 1.92 \u00d7 10\u221214 N or for an answer that is consistent with the student\u2019s response to question 67."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information and diagram below and on your knowledge \nof physics. \nThe diagram shows a negatively charged oil drop that is suspended motionless between \ntwo oppositely charged, parallel, horizontal metal plates. The electric field strength \nbetween the charged plates is 4.0 \u00d7 104 newtons per coulomb. The 1.96 \u00d7 10\u221215-kilogram \noil drop is being acted upon by a gravitational force, Fg, and an electrical force, Fe. \n \n66\u201367 Calculate the magnitude of the gravitational force, Fg, acting on the oil drop. [Show all work, \nincluding the equation and substitution with units.]   [2] \n68 Determine the magnitude of the upward electrical force, Fe, acting on the oil drop suspended \nmotionless between the charged metal plates.   [1] \n69\u201370 Calculate the net electric charge on the oil drop in coulombs. [Show all work, including the equation \nand substitution with units.]   [2]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units or for an answer, with units, that is consistent with the student\u2019s response to questions 67 and 68. Refer to the Scoring Criteria for Calculations in this rating guide. Example of a 1-credit response: g F m F mg F kg)(9.81m/s ) g g g 2 = = = (1.96 \u00d7 10\u221215 E F q q F E q 1.92 10 N 4.0 10 N/C e e 14 4 = = = \u00d7 \u00d7 \u2212 P.S./Physics Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "69\u201370 Calculate the net electric charge on the oil drop in coulombs. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information and diagram below and on your knowledge \nof physics. \nThe diagram shows a negatively charged oil drop that is suspended motionless between \ntwo oppositely charged, parallel, horizontal metal plates. The electric field strength \nbetween the charged plates is 4.0 \u00d7 104 newtons per coulomb. The 1.96 \u00d7 10\u221215-kilogram \noil drop is being acted upon by a gravitational force, Fg, and an electrical force, Fe. \n \n66\u201367 Calculate the magnitude of the gravitational force, Fg, acting on the oil drop. [Show all work, \nincluding the equation and substitution with units.]   [2] \n68 Determine the magnitude of the upward electrical force, Fe, acting on the oil drop suspended \nmotionless between the charged metal plates.   [1] \n69\u201370 Calculate the net electric charge on the oil drop in coulombs. [Show all work, including the equation \nand substitution with units.]   [2]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 69. Example of a 1-credit response: q = 4.8 \u00d7 10\u221219 C Note: Do not penalize the student more than 1 credit for errors in units in questions 69 and 70."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of physics. \nIn a circuit, a 100.-ohm resistor and a 200.-ohm resistor are connected in parallel to a 10.0-volt \nbattery. \n71-72 Calculate the equivalent resistance of the circuit. [Show all work, including the equation and \nsubstitution with units.]   [2] \n73\u201374 Calculate the current in the 200.-ohm resistor. [Show all work, including the equation and \nsubstitution with units.]   [2] \n75 Determine the power dissipated by the 100.-ohm resistor.   [1] \n    +   +   +   +   +   +    \n\u2013   \u2013   \u2013   \u2013   \u2013   \u2013\nOil drop\nFe\nFg\n\nP.S./Physics\u2013June \u201919\n[15]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units. Refer to Scoring Criteria for Calculations in this rating guide. Examples of 1-credit responses: or or"
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "71-72 Calculate the equivalent resistance of the circuit. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of physics. \nIn a circuit, a 100.-ohm resistor and a 200.-ohm resistor are connected in parallel to a 10.0-volt \nbattery. \n71-72 Calculate the equivalent resistance of the circuit. [Show all work, including the equation and \nsubstitution with units.]   [2] \n73\u201374 Calculate the current in the 200.-ohm resistor. [Show all work, including the equation and \nsubstitution with units.]   [2] \n75 Determine the power dissipated by the 100.-ohm resistor.   [1] \n    +   +   +   +   +   +    \n\u2013   \u2013   \u2013   \u2013   \u2013   \u2013\nOil drop\nFe\nFg\n\nP.S./Physics\u2013June \u201919\n[15]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 71. Example of a 1-credit response: Req = 66.7 \u03a9 Note: Do not penalize the student more than 1 credit for errors in units in questions 71 and 72."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of physics. \nIn a circuit, a 100.-ohm resistor and a 200.-ohm resistor are connected in parallel to a 10.0-volt \nbattery. \n71-72 Calculate the equivalent resistance of the circuit. [Show all work, including the equation and \nsubstitution with units.]   [2] \n73\u201374 Calculate the current in the 200.-ohm resistor. [Show all work, including the equation and \nsubstitution with units.]   [2] \n75 Determine the power dissipated by the 100.-ohm resistor.   [1] \n    +   +   +   +   +   +    \n\u2013   \u2013   \u2013   \u2013   \u2013   \u2013\nOil drop\nFe\nFg\n\nP.S./Physics\u2013June \u201919\n[15]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units. Refer to Scoring Criteria for Calculations in this rating guide. Example of a 1-credit response:"
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "73\u201374 Calculate the current in the 200.-ohm resistor. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of physics. \nIn a circuit, a 100.-ohm resistor and a 200.-ohm resistor are connected in parallel to a 10.0-volt \nbattery. \n71-72 Calculate the equivalent resistance of the circuit. [Show all work, including the equation and \nsubstitution with units.]   [2] \n73\u201374 Calculate the current in the 200.-ohm resistor. [Show all work, including the equation and \nsubstitution with units.]   [2] \n75 Determine the power dissipated by the 100.-ohm resistor.   [1] \n    +   +   +   +   +   +    \n\u2013   \u2013   \u2013   \u2013   \u2013   \u2013\nOil drop\nFe\nFg\n\nP.S./Physics\u2013June \u201919\n[15]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 73. Example of a 1-credit response: I = 5.00 \u00d7 10\u22122 A Note: Do not penalize the student more than 1 credit for errors in units in questions 73 and 74. R R R R 1 1 + 1 1 1 100. 1 200. eq eq 1 2 = = \u03a9 + \u03a9 V I R R 10.0 V 0.150 A = = R R eq eq R R R R (100. )(200. ) 100. 200. 1 2 1 2 = + = \u03a9 \u03a9 \u03a9 + \u03a9 R I I 10.0 V 200. V I V R = = = \u03a9 P.S./Physics Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Determine the power dissipated by the 100.-ohm resistor. + + + + + + \u2013 \u2013 \u2013 \u2013 \u2013 \u2013 Oil drop Fe Fg",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of physics. \nIn a circuit, a 100.-ohm resistor and a 200.-ohm resistor are connected in parallel to a 10.0-volt \nbattery. \n71-72 Calculate the equivalent resistance of the circuit. [Show all work, including the equation and \nsubstitution with units.]   [2] \n73\u201374 Calculate the current in the 200.-ohm resistor. [Show all work, including the equation and \nsubstitution with units.]   [2] \n75 Determine the power dissipated by the 100.-ohm resistor.   [1] \n    +   +   +   +   +   +    \n\u2013   \u2013   \u2013   \u2013   \u2013   \u2013\nOil drop\nFe\nFg\n\nP.S./Physics\u2013June \u201919\n[15]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 1.00 W."
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below and on your knowledge of physics. \nA wave traveling through a uniform medium has an amplitude of 0.20 meter, a wavelength \nof 0.40 meter, and a frequency of 10. hertz. \n76-77 On the grid in your answer booklet, draw one complete cycle of the wave.   [2] \n78-79 Calculate the speed of the wave. [Show all work, including the equation and substitution with units.]   \n[2] \n80 Determine the period of this wave.   [1]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for at least one complete wave with a wavelength of 0.40 meter regardless of phase or shape."
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "76-77 On the grid in your answer booklet, draw one complete cycle of the wave.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below and on your knowledge of physics. \nA wave traveling through a uniform medium has an amplitude of 0.20 meter, a wavelength \nof 0.40 meter, and a frequency of 10. hertz. \n76-77 On the grid in your answer booklet, draw one complete cycle of the wave.   [2] \n78-79 Calculate the speed of the wave. [Show all work, including the equation and substitution with units.]   \n[2] \n80 Determine the period of this wave.   [1]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for at least one complete wave with an amplitude of 0.20 meter regardless of phase or shape. Example of a 2-credit response for questions 76 and 77:"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below and on your knowledge of physics. \nA wave traveling through a uniform medium has an amplitude of 0.20 meter, a wavelength \nof 0.40 meter, and a frequency of 10. hertz. \n76-77 On the grid in your answer booklet, draw one complete cycle of the wave.   [2] \n78-79 Calculate the speed of the wave. [Show all work, including the equation and substitution with units.]   \n[2] \n80 Determine the period of this wave.   [1]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units. Refer to Scoring Criteria for Calculations in this rating guide. Example of a 1-credit response: v = f \u03bb v = (10. Hz)(0.40 m)"
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "78-79 Calculate the speed of the wave. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below and on your knowledge of physics. \nA wave traveling through a uniform medium has an amplitude of 0.20 meter, a wavelength \nof 0.40 meter, and a frequency of 10. hertz. \n76-77 On the grid in your answer booklet, draw one complete cycle of the wave.   [2] \n78-79 Calculate the speed of the wave. [Show all work, including the equation and substitution with units.]   \n[2] \n80 Determine the period of this wave.   [1]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 78. Example of a 1-credit response: v = 4.0 m/s Note: Do not penalize the student more than 1 credit for errors in units in questions 78 and 79."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Determine the period of this wave.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/q80.png",
+      "context": "Base your answers to questions 76 through 80 on the information below and on your knowledge of physics. \nA wave traveling through a uniform medium has an amplitude of 0.20 meter, a wavelength \nof 0.40 meter, and a frequency of 10. hertz. \n76-77 On the grid in your answer booklet, draw one complete cycle of the wave.   [2] \n78-79 Calculate the speed of the wave. [Show all work, including the equation and substitution with units.]   \n[2] \n80 Determine the period of this wave.   [1]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0.10 s."
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Mark an appropriate scale on the axis labeled \u201cCurrent (A).\u201d",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and data table below and on your knowledge \nof physics. \nIn an experiment, the potential difference applied across an unmarked resistor was  \nvaried while the resistor was held at a constant temperature. The corresponding current \nthrough the resistor was measured. The data collected appear in the table below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for an appropriate linear scale. 0 Position (m) .10 .20 .30 .40 .50 .60 Particle Displacement (m) \u2013.10 \u2013.20 \u2013.30 \u2013.40 .10 .20 .30 .40 P.S./Physics Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Plot the data points for current versus potential difference.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and data table below and on your knowledge \nof physics. \nIn an experiment, the potential difference applied across an unmarked resistor was  \nvaried while the resistor was held at a constant temperature. The corresponding current \nthrough the resistor was measured. The data collected appear in the table below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for plotting all points accurately \u00b1 0.3 grid space."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Draw the line or curve of best fit.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and data table below and on your knowledge \nof physics. \nIn an experiment, the potential difference applied across an unmarked resistor was  \nvaried while the resistor was held at a constant temperature. The corresponding current \nthrough the resistor was measured. The data collected appear in the table below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for drawing the best fit line or curve that is consistent with the student\u2019s responses to questions 81 and 82. Example of a 3-credit response for questions 81 through 83:"
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and data table below and on your knowledge \nof physics. \nIn an experiment, the potential difference applied across an unmarked resistor was  \nvaried while the resistor was held at a constant temperature. The corresponding current \nthrough the resistor was measured. The data collected appear in the table below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units or for an answer, with units, that is con- sistent with the student\u2019s responses to question 81 through 83. Refer to the Scoring Criteria for Calculations in this rating guide. Examples of 1-credit responses:"
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "84-85 Using your graph, calculate the resistance of the resistor. [Show all work, including the equation and substitution with units.] Potential Difference (volts) Current (amperes) 1.5 0.0032 3.0 0.0059 6.0 0.0124 9.0 0.0177 12.0 0.0244 PS/PHYSICS PS/PHYSICS Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/physics/june-2019/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and data table below and on your knowledge \nof physics. \nIn an experiment, the potential difference applied across an unmarked resistor was  \nvaried while the resistor was held at a constant temperature. The corresponding current \nthrough the resistor was measured. The data collected appear in the table below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 84. Example of a 1-credit response: R = 5.0 \u00d7 102 \u03a9 Note: Do not penalize the student more than 1 credit for errors in units in questions 84 and 85. 0 Potential Difference (V) .005 .010 .015 .020 .025 Potential Difference vs. Current 0 5.0 10.0 15.0 Current (A) = = \u0394 \u0394 = \u0394 \u0394 = \u2212 \u2212 R R y x V I R slope 9.0V 3.0V 0.018A 0.006 A or = = R V I R 9.0V 0.018A P.S./Physics Rating Guide\u2013June \u2019"
+    }
+  ]
+}

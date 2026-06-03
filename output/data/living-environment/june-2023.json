@@ -1,0 +1,1116 @@
+{
+  "subject": "living-environment",
+  "session": "june-2023",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which two body systems provide humans with the raw materials necessary for their cells to release energy?",
+      "choices": [
+        "muscular and skeletal",
+        "endocrine and nervous",
+        "digestive and respiratory",
+        "reproductive and circulatory"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "An example of an activity that best contributes to maintaining homeostasis in an organism is a",
+      "choices": [
+        "bear eating fish from a polluted stream",
+        "deer losing its fur at the start of winter",
+        "person not sweating on a 100\u00b0F day",
+        "response to a chickenpox vaccination"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Equine cloning can be used to produce performance horses. Although the horses are clones of each other, they may still exhibit slight differences in appearance. Source: http://vetmed.tamu.edu/images /site/labs/eel/5-cloned-foals.jpg Horse Clones The differences in the physical characteristics of the cloned horses are most likely the result of",
+      "choices": [
+        "environmental influences",
+        "natural selection",
+        "sexual reproduction",
+        "changes in gametes"
+      ],
+      "image": "/images/exams/living-environment/june-2023/q3.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which situation is an example of an organism responding to an abiotic factor?",
+      "choices": [
+        "Plants in a forest grow toward areas where there is more sunlight available.",
+        "Rabbits attract mates by performing a mating dance.",
+        "Woodpeckers peck holes in the trunks of trees to find insects for food.",
+        "Deer eat tree bark in winter when other food is scarce."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "CRISPR/Cas9 is a powerful system that bacteria use to cut and remove DNA from invading viruses. Using CRISPR/Cas9, researchers have successfully corrected a disease-causing mutation for muscular dystrophy in laboratory mice. Correcting the harmful mutation using CRISPR/Cas9 is an example of",
+      "choices": [
+        "biological evolution",
+        "cloning techniques",
+        "genetic engineering",
+        "selective breeding"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Many animal populations living in a particular area would most likely",
+      "choices": [
+        "occupy the same niche",
+        "have similar physical requirements",
+        "eat the same food",
+        "require an input of solar energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Cells possess structures that perform specific jobs. Which statement correctly pairs a cell structure with a function it performs in the cells?",
+      "choices": [
+        "The cell membrane synthesizes proteins for cell processes.",
+        "The mitochondria provide energy for cell processes.",
+        "Ribosomes regulate which materials enter and leave the cell.",
+        "Vacuoles transfer genetic information from one cell to another."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The endangered Everglade snail kite is a predatory bird which usually feeds on small snails. Conservationists feared the snail kite would face a greater decline when the Everglades was invaded by a species of larger snail that the birds had historically struggled to eat. But the snail kite population increased over several years, and the snail kites now have larger beaks and bodies. Source: https://www.nytimes.com/2017/11/28 This change in the snail kite can best be explained by",
+      "choices": [
+        "selective breeding with larger kites",
+        "natural selection after an environmental change",
+        "genetic engineering to modify specific genes",
+        "ecological succession due to random mutation"
+      ],
+      "image": "/images/exams/living-environment/june-2023/q8.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Scientists turned a specialized stomach cell from a mouse into a skin cell by activating a specific gene responsible for the production of skin cells. Which claim can be made, based on this evidence?",
+      "choices": [
+        "Stomach cells have the genetic information to form other types of cells.",
+        "Skin and stomach cells produce identical proteins.",
+        "Stomach cells receive half their genetic information from each parent.",
+        "Skin and stomach cells have completely different genes."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "New York State is home to animals such as the Eastern chipmunk. Individuals within this species are not genetically identical. Source: J. Bartsch This variability is primarily the result of",
+      "choices": [
+        "asexual reproduction and mutation",
+        "mitosis and selective breeding",
+        "meiosis and recombination",
+        "sexual reproduction and cloning"
+      ],
+      "image": "/images/exams/living-environment/june-2023/q10.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Zebra mussels are aquatic animals found in many bodies of fresh water in New York State. These organisms are not native to North America. When these mussels first appeared, their populations increased rapidly, which led scientists to fear their potential impact on native species. Lately, it has been observed that the rate of population growth of the zebra mussels has decreased. A reason for this decrease may be",
+      "choices": [
+        "resources needed for the continued growth of their population are limited",
+        "competition between zebra mussels for limited resources has decreased",
+        "the food available for zebra mussels has decreased, reducing their rate of photosynthesis",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a food web. Coyotes Roadrunners Rodents Insects Lizards Grasses Bushes Which statement best describes a relationship represented in the diagram?",
+      "choices": [
+        "Bushes are herbivores that feed on insects.",
+        "Rodents are consumers that feed on lizards.",
+        "Roadrunners are carnivores that feed on insects.",
+        "Grasses are producers that are eaten by lizards."
+      ],
+      "image": "/images/exams/living-environment/june-2023/q12.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Cell membranes inside the cells that line the stomach pump hydrogen ions from areas of low concentration inside the cells to areas of higher concentration outside the cells. Which activity produces the ATP that makes this pumping possible?",
+      "choices": [
+        "cellular respiration",
+        "active transport",
+        "carbohydrate digestion",
+        "enzyme synthesis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "If scientists wanted to study the physical characteristics of an extinct animal that once lived in a specific area, the best source of information would be to investigate",
+      "choices": [
+        "plants living in habitats similar to those of long ago",
+        "the producer organisms living in that area at the current time",
+        "the animals that live in that area today",
+        "the fossil record of that area"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Tasmanian devils are predators found on the Tasman Peninsula of Australia. Their numbers were greatly reduced after two forms of contagious cancer appeared in the population. Scientists have found an effective cancer vaccine that has saved a number of adult Tasmanian devils. Source: http://bigstory.ap.org/ The beneficial effect of the vaccine will not be passed on to the Tasmanian devils\u2019 offspring because the",
+      "choices": [
+        "vaccine contained only a small amount of the cancer",
+        "cancer can mutate, and the vaccine would then be ineffective",
+        "cancer caused the body of the adults to produce antigens against it",
+        "vaccine did not produce a change in the sex cells of the adults"
+      ],
+      "image": "/images/exams/living-environment/june-2023/q15.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Usually, snakes reproduce sexually. However, some female copperhead snakes sometimes produce offspring asexually without sperm from a male. Compared with snakes formed by sexual reproduction, the offspring of these asexually reproducing snakes",
+      "choices": [
+        "have more genetic variation",
+        "have limited genetic variation",
+        "contain more DNA than the parent",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The brown anole is native to Cuba and the Bahamas. Males and females of the species share most of the same genes. They are the same size when they hatch out of their eggs. However, during the first year, the males grow to be three times larger than the females. Source: Science Daily 3/1/17 The most likely explanation for the differences in size between male and female anoles is that",
+      "choices": [
+        "male organisms are always larger than the female members of a species",
+        "the males developed for a longer period of time",
+        "the females mutated during hatching, reducing their ability to grow",
+        "hormones can affect gene expression"
+      ],
+      "image": "/images/exams/living-environment/june-2023/q17.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Myasthenia gravis is an autoimmune disease characterized by weakness of the skeletal muscles. It occurs when normal communication between nerve and muscle cells is interrupted. The weakness is likely due to",
+      "choices": [
+        "the lack of ATP in the muscle caused by a decrease of available carbon dioxide",
+        "the brain failing to send the proper hormone signal to vacuoles within muscle cells",
+        "the failure of receptor molecules on the muscle to receive the chemical produced by nerve cells",
+        "the ribosomes in the muscle cells failing to produce enough sugar for muscle contraction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The removal of a short sequence of bases from a gene would most directly affect the",
+      "choices": [
+        "diffusion of materials into a cell",
+        "shape of a protein molecule",
+        "pH of the cytoplasm",
+        "size of a cell\u2019s nucleus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "As energy moves through a forest ecosystem, it flows from",
+      "choices": [
+        "heterotrophs to autotrophs",
+        "animals to plants",
+        "herbivores to carnivores",
+        "carnivores to autotrophs"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Each winter in the Adirondack Mountains, some of the salt applied to roadways gets washed into lakes. The increase in salt levels in areas where frogs breed has resulted in more male frogs hatching than females. Source: https://www.adirondackexplorer. org/book_reviews/the-frogs-and-toads-of-north-america This is an example of",
+      "choices": [
+        "asexual reproduction of male frogs",
+        "an abiotic factor affecting gene expression",
+        "the normal expression of a gene for female frogs",
+        "loss of genetic information for male frogs"
+      ],
+      "image": "/images/exams/living-environment/june-2023/q21.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which substances usually stimulate an immune response?",
+      "choices": [
+        "antibodies",
+        "antigens",
+        "carbon dioxide molecules",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A certain species of rough-skinned newt produces an extremely powerful toxin that helps prevent attacks by predators. However, one predator, the garter snake, can eat these newts without being affected by the toxin. Which statement best explains the resistance of garter snakes to the newt toxin?",
+      "choices": [
+        "The snakes needed to become resistant to the toxin in order to survive, so they developed a toxin-resistance gene.",
+        "As the newts became more toxic, the snakes became increasingly resistant in order to survive.",
+        "Exposure to newt toxin caused a mutation in the snakes, which increased resistance to the toxin in the snakes.",
+        "A random genetic mutation that resulted in toxin resistance increased the survival rates of the snakes that had it, and they passed it on to their offspring."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The photo below is of a magnified podocyte, a highly specialized cell that produces special proteins for filtering fluid in the human kidney. Source: https://s-media-cache-ak0.pinimg.com/originals/ The specialized function of this cell is most dependent on",
+      "choices": [
+        "mutations that produce cells that have a specific shape for filtering the blood",
+        "the differentiation of the cell membrane and the functioning of vacuoles",
+        "the DNA codes in the cell and the activity of ribosomes",
+        "mitochondria in the cell that produce filtering organelles for the kidney"
+      ],
+      "image": "/images/exams/living-environment/june-2023/q24.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Maintaining stability in an ecosystem most likely depends on",
+      "choices": [
+        "a high level of diversity and few resources",
+        "little diversity and rapid ecological succession",
+        "a high level of diversity and multiple ecological niches",
+        "little diversity and multiple extinctions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Photosynthesis and cellular respiration both involve the gases carbon dioxide and oxygen. Which statement best identifies how these gases are involved in the two processes?",
+      "choices": [
+        "Photosynthesis and cellular respiration both use carbon dioxide and release oxygen.",
+        "Cellular respiration uses oxygen and releases carbon dioxide, while photosynthesis uses carbon dioxide and releases oxygen.",
+        "Cellular respiration uses carbon dioxide and releases oxygen, while photosynthesis uses oxygen and releases carbon dioxide.",
+        "Photosynthesis and cellular respiration both use oxygen and release carbon dioxide."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Antibodies produced against one pathogen infecting the human body may not work against a different pathogen because antibodies are",
+      "choices": [
+        "only produced once in the body so they can\u2019t work on any other infection",
+        "unable to produce effective antibiotics against the infection",
+        "made of DNA the second pathogen doesn\u2019t contain",
+        "specific for the shape of the proteins present on a particular pathogen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "A multicellular organism has cells that perform various roles in that organism. This is most likely due to the",
+      "choices": [
+        "differentiation of cells during embryonic development",
+        "specialization of gametes",
+        "cloning of cells during embryonic development",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The diagrams below represent a response that occurs in the guard cells of a plant. Sun is shining Large amount of water is available Guard cells open leaf pores Result Sun is shining Little water is available Guard cells close leaf pores Result The changes in the guard cells\u2019 activity illustrate",
+      "choices": [
+        "an immune response intended to limit water use",
+        "passive transport in response to the Sun shining",
+        "a feedback mechanism to control water loss",
+        "genetic manipulation caused by the presence or absence of water"
+      ],
+      "image": "/images/exams/living-environment/june-2023/q29.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Today\u2019s whales and alligators both have pelvic and hind leg bones, yet these bones only function in alligators. Source: Adapted from http://www.cpalms.org/Public/PreviewStandard/Preview/1992 Whale Alligator Pelvic and hind leg bones Pelvic and hind leg bones This similarity between whales and alligators supports the idea that",
+      "choices": [
+        "whales evolved from alligators",
+        "alligators evolved from whales",
+        "alligators and whales share a common ancestor",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2023/q30.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The most likely reason decreased levels of oxygen in the water result in a decrease in the body size of some fish species is",
+      "choices": [
+        "due to the presence of more plant species carrying out photosynthesis",
+        "the species producing more ATP molecules and less oxygen",
+        "due to an increase in the size of the gills bringing in more carbon dioxide",
+        "the species being unable to meet the energy requirements of a larger body size"
+      ],
+      "image": "/images/exams/living-environment/june-2023/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the information and diagram below and on your knowledge of \nbiology.\nWarming Water Leaves Fish Gasping for Air and Shrinking in Size\nAs fish grow into adulthood, their body mass increases and so does their demand for \noxygen. However, the gills, through which oxygen is obtained, do not increase in size at the \nsame rate as the body.\nScientists have observed that as the ocean waters become warmer, there is less dissolved \noxygen in the water. The result is that the average size of many fish species becomes smaller.\nAs ocean temperatures increase\n20-30% decrease in \nbody size\nSource: Adapted from Pauly D. Cheung WWL.\nGills\nGills",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "One human activity that most directly contributes to the decrease in the amount of oxygen present in ocean water is",
+      "choices": [
+        "overfishing, causing a lack of biodiversity",
+        "planting more trees, causing more soil erosion",
+        "introducing foreign species, causing more competition",
+        "industrialization, which releases large amounts of carbon dioxide into the atmosphere"
+      ],
+      "image": "/images/exams/living-environment/june-2023/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the information and diagram below and on your knowledge of \nbiology.\nWarming Water Leaves Fish Gasping for Air and Shrinking in Size\nAs fish grow into adulthood, their body mass increases and so does their demand for \noxygen. However, the gills, through which oxygen is obtained, do not increase in size at the \nsame rate as the body.\nScientists have observed that as the ocean waters become warmer, there is less dissolved \noxygen in the water. The result is that the average size of many fish species becomes smaller.\nAs ocean temperatures increase\n20-30% decrease in \nbody size\nSource: Adapted from Pauly D. Cheung WWL.\nGills\nGills",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The graph below represents the interactions of two female reproductive hormones. Hormone levels in the blood 0 14 Days 28 Egg developing Female Reproductive Hormone Interaction Egg moving to uterus Egg released Key Progesterone Estrogen Based on the graph, which statement is correct regarding the interaction of the levels of estrogen and progesterone?",
+      "choices": [
+        "When the amounts of estrogen and progesterone are at the same level, an egg begins to develop in the ovary.",
+        "When an egg is released from the ovary, the level of estrogen is higher than the level of progesterone.",
+        "The level of progesterone controls the cycle since it is always higher than the level of estrogen.",
+        "After an egg is released from the ovary, the level of estrogen keeps increasing,"
+      ],
+      "image": "/images/exams/living-environment/june-2023/q33.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Which conclusion is most valid, based on the data?",
+      "choices": [
+        "Male juncos with a higher percentage of the male chemical have greater reproductive success.",
+        "Male juncos with a lower percentage of the male chemical have greater reproductive success.",
+        "The percentage of the male chemical has no effect on the reproductive success of the male juncos.",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2023/context_34_34.png",
+      "context": "Base your answer to question 34 on the information below and on your knowledge of biology.\nFitness of Male Juncos\nAnimals communicate with each other in many ways. For example, many male birds have \nbright colors to signal their fitness to females. Scientists hypothesized that female birds also \nuse their sense of smell to gather information about the fitness of their potential mates. To \ntest this, scientists gathered male juncos and determined the amount of a chemical produced \nby the male birds that is sensed by the female birds. Scientists then collected data on the \nnumber of offspring produced by each male during one breeding season. The results are \nshown in the chart below.\nSource: Adapted from http://datanuggets.org/wp-content/uploads/2014/09/\nSexy-Smells_StudentA.pdf\nMale Fitness\n8\n7\n6\n5\n4\n3\n2\n1\n0\n0\n1\n2\n3\n4\n5\n6\n7\n% of Male Chemical\nNumber of Offspring",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Pikas are small mammals found in the grassland ecosystems of the Tibetan plateau. Pikas are prey for many of the predators also inhabiting the Tibetan grasslands, which serves as an important watershed for the area. This watershed drains large amounts of groundwater during the rainy season. Pikas have large burrow systems that help to quickly drain the groundwater. The burrows also serve as nesting sites for numerous bird species. Because they compete with livestock for grass, many people want the pikas totally removed from the Tibetan plateau. Source: https://www.theguardian.com/ environment/2016/aug/26 If the pika populations are completely removed from the grasslands of the Tibetan plateau, the most likely result will be that the grassland ecosystems will become",
+      "choices": [
+        "unstable, because predators will have fewer prey, the birds will have fewer nesting sites, and groundwater supplies will be disrupted",
+        "more stable, because the pikas will be replaced by other species, the birds will adapt to nesting above ground, and the soil will become more fertile since it is not drained by groundwater",
+        "unstable, because predators will migrate to nearby ecosystems, birds will nest in nearby trees, and other small animals will make burrows in the soil",
+        "more stable, because the pikas will no longer be eating the grasses, the birds will migrate to other ecosystems during the nesting season, and small lakes will form because the water will not drain without the pika burrows"
+      ],
+      "image": "/images/exams/living-environment/june-2023/q35.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Jean-Baptiste Lamarck was a French naturalist who proposed the idea that modern-day organisms developed new characteristics through a process known as the inheritance of acquired traits. As more evidence became available, this theory was eventually replaced by Charles Darwin\u2019s theory of evolution. This modification of scientific knowledge illustrates that",
+      "choices": [
+        "scientists do not communicate with each other and often make mistakes",
+        "all scientific explanations are tentative and subject to change or improvement",
+        "scientists often ignore evidence that does not help prove their theory",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The activity of nuclease enzymes would most likely result in the release of",
+      "choices": [
+        "four different kinds of molecular bases",
+        "glucose",
+        "a variety of different amino acids",
+        "hormones"
+      ],
+      "image": "/images/exams/living-environment/june-2023/context_37_39.png",
+      "context": "Base your answers to questions 37 through 39 on the information and diagram below and on your knowledge \nof biology.\nThe diagram provides information about some of the digestive enzymes produced by the \nhuman pancreas.\nSource: Adapted from http://www.return2health.net\n/articles/riseand-fall-digestive-enzymes/\nAmylase\nDigests carbohydrates\nLipase\nDigests fats\nTrypsin\nCarboxypeptidase\nDigests proteins\nNucleases\nChymotrypsin\nDigests nucleic\nacids\nDigestive Enzymes Produced \nBy Your Pancreas\nPancreas",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The end products resulting from the action of amylase would most likely be",
+      "choices": [
+        "starches and proteins",
+        "carbon dioxide and water",
+        "amino acids",
+        "simple sugars"
+      ],
+      "image": "/images/exams/living-environment/june-2023/context_37_39.png",
+      "context": "Base your answers to questions 37 through 39 on the information and diagram below and on your knowledge \nof biology.\nThe diagram provides information about some of the digestive enzymes produced by the \nhuman pancreas.\nSource: Adapted from http://www.return2health.net\n/articles/riseand-fall-digestive-enzymes/\nAmylase\nDigests carbohydrates\nLipase\nDigests fats\nTrypsin\nCarboxypeptidase\nDigests proteins\nNucleases\nChymotrypsin\nDigests nucleic\nacids\nDigestive Enzymes Produced \nBy Your Pancreas\nPancreas",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Another important molecule not shown in the diagram is also produced by the pancreas. It functions to decrease glucose levels in the blood. This molecule is",
+      "choices": [
+        "progesterone",
+        "insulin",
+        "testosterone",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2023/context_37_39.png",
+      "context": "Base your answers to questions 37 through 39 on the information and diagram below and on your knowledge \nof biology.\nThe diagram provides information about some of the digestive enzymes produced by the \nhuman pancreas.\nSource: Adapted from http://www.return2health.net\n/articles/riseand-fall-digestive-enzymes/\nAmylase\nDigests carbohydrates\nLipase\nDigests fats\nTrypsin\nCarboxypeptidase\nDigests proteins\nNucleases\nChymotrypsin\nDigests nucleic\nacids\nDigestive Enzymes Produced \nBy Your Pancreas\nPancreas",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The process of meiotic division in human males is represented below. Source: Adapted from http://bio-education.weebly.com /uploads/9/4/9/5/949532/4040231.jpg?495x268 Spermatogenesis Diploid germ cell Sperm Undifferentiated sperm cells Immature sperm cells This process produces four sperm cells, each with",
+      "choices": [
+        "all of the genetic information contained in the diploid germ cell",
+        "one-quarter of the genetic information contained in the diploid germ cell",
+        "twice the genetic information found in the diploid germ cell",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2023/q40.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "A student viewed a slide of an onion root tip with a compound light microscope. The photograph below represents what he saw. Source: http://slideplayer.com/slide/ 760969/2/images/77/Onion+root+tip.jpg In order to observe whether or not this root tip was growing, the student should",
+      "choices": [
+        "switch to a higher magnification and look for evidence of cell division",
+        "switch to a lower magnification and look for evidence of cell division",
+        "switch to a lower magnification and add a stain to the onion root tip cells",
+        "switch to a higher magnification and add salt solution to the onion root tip cells"
+      ],
+      "image": "/images/exams/living-environment/june-2023/q41.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which statement is an example of a hypothesis that can be tested through experimentation?",
+      "choices": [
+        "The number of times a dog wags its tail is a direct measure of how happy the dog is.",
+        "Is the ability of a fish to taste food affected by how clear the water is where it lives?",
+        "A plant\u2019s fear of herbivores increases as the plant grows older.",
+        "Bacterial growth will rapidly increase as the temperature increases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Deforestation is a major cause of soil loss. Without trees and other plants to hold the soil in place, it either washes or blows away. Governments, international organizations, and others are working to decrease the rate of deforestation. In addition to slowing the rate of soil loss, another potential benefit of this action would be",
+      "choices": [
+        "a decrease in atmospheric carbon dioxide levels",
+        "more land available for agriculture",
+        "a decrease in the amount of firewood for heating",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Identify when during Earth\u2019s history autotrophs most likely first appeared. Support your answer using information from the graph. \u20132",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_44_44.png",
+      "context": "Base your answer to question 44 on the information and graph below and on your knowledge of biology.\nThe graph shows the amount of oxygen in Earth\u2019s atmosphere from 3500 million years \nago to present. Scientists can use this information to learn more about the evolution of \ndifferent species.\nSource: Adapted from https://www.indiana.edu/~ensiweb/lessons/\nfoot-topo-10inch.pdf\nAmount of Oxygen in\nEarth\u2019s Atmosphere\n3500\n3000\n2500\n2000\n1500\n1000\n500\nPresent\nMillion Years Ago (mya)\nOxygen and Our Planet",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying when during Earth\u2019s history autotrophs first appeared and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Autotrophs first appeared 2500 mya (\u00b1 100 mya). That is when oxygen started to accumulate in the atmosphere. \u2014 2500 mya, because autotrophs produce oxygen as a result of photosynthesis. The level of oxygen in the atmosphere before that was almost nonexistent."
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_45_49.png",
+      "context": "Base your answers to questions 45 through 49 on the information and data table below and on your \nknowledge of biology.\nWhitebark Pines in Yellowstone Park\nScientists claim that mountain pine beetles have been blamed for the death of mature \nwhitebark pine trees in the Greater Yellowstone forest ecosystem. The beetles burrow into \nthe trees to lay their eggs. When the eggs hatch, the larvae feed on the tree, cutting off the \nflow of water. As a result, the trees become stressed and begin to die. An increase in the \ntemperature is contributing to the increase in beetles. Cooler temperatures tend to keep the \nbeetle population controlled. Many organisms, including squirrels, birds, and even grizzly \nbears, have been impacted by the decrease in the numbers of trees. Many organisms use \nwhitebark pine seeds for food.\nThe data table below shows the proportion of live mature whitebark pine trees compared \nwith their population in 2000.\nMature Whitebark Pine Trees in \nthe Greater Yellowstone Ecosystem\nYear\nProportion of Live Mature Whitebark Pine Trees \nCompared with Their Population in 2000\n2000\n1.00\n2002\n1.00\n2004\n0.70\n2006\n0.60\n2008\n0.40\n2010\n0.25\n2012\n0.25\nDirections (45\u201346): Using the information in the data table, construct a line graph on the grid on the next \npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for marking an appropriate scale, without any breaks in the data, on each labeled axis. Note: Do not allow credit if the grid is extended to accommodate the scale."
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Plot the data on the grid. Connect the points and surround each point with a small circle. Example: Proportion of Live Mature Whitebark Pine Trees Year Whitebark Pine Trees in the Greater Yellowstone Ecosystem",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_45_49.png",
+      "context": "Base your answers to questions 45 through 49 on the information and data table below and on your \nknowledge of biology.\nWhitebark Pines in Yellowstone Park\nScientists claim that mountain pine beetles have been blamed for the death of mature \nwhitebark pine trees in the Greater Yellowstone forest ecosystem. The beetles burrow into \nthe trees to lay their eggs. When the eggs hatch, the larvae feed on the tree, cutting off the \nflow of water. As a result, the trees become stressed and begin to die. An increase in the \ntemperature is contributing to the increase in beetles. Cooler temperatures tend to keep the \nbeetle population controlled. Many organisms, including squirrels, birds, and even grizzly \nbears, have been impacted by the decrease in the numbers of trees. Many organisms use \nwhitebark pine seeds for food.\nThe data table below shows the proportion of live mature whitebark pine trees compared \nwith their population in 2000.\nMature Whitebark Pine Trees in \nthe Greater Yellowstone Ecosystem\nYear\nProportion of Live Mature Whitebark Pine Trees \nCompared with Their Population in 2000\n2000\n1.00\n2002\n1.00\n2004\n0.70\n2006\n0.60\n2008\n0.40\n2010\n0.25\n2012\n0.25\nDirections (45\u201346): Using the information in the data table, construct a line graph on the grid on the next \npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly plotting the data and connecting the points. Example of a 2-credit graph for questions 45-46: Proportion of Live Mature Whitebark Pine Trees .20 .40 .60 .80 1.00 Year Whitebark Pine Trees in the Greater Yellowstone Ecosystem 2000 2002 2004 2006 2008 2010 2012 Note: Allow credit if the points are plotted correctly, but not circled. Do not assume that the intersection of the x- and y-axes is the origin (0,0) unless it is labeled. An appropriate scale only needs to include the data range in the data table. Do not allow credit if points are plotted that are not in the data table, e.g., (0,0), or for extending lines beyond the data points. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The nutritional roles of the whitebark pine trees and the beetles are best described as",
+      "choices": [
+        "producer and carnivore",
+        "producer and herbivore",
+        "predator and decomposer",
+        "herbivore and parasite"
+      ],
+      "image": "/images/exams/living-environment/june-2023/context_45_49.png",
+      "context": "Base your answers to questions 45 through 49 on the information and data table below and on your \nknowledge of biology.\nWhitebark Pines in Yellowstone Park\nScientists claim that mountain pine beetles have been blamed for the death of mature \nwhitebark pine trees in the Greater Yellowstone forest ecosystem. The beetles burrow into \nthe trees to lay their eggs. When the eggs hatch, the larvae feed on the tree, cutting off the \nflow of water. As a result, the trees become stressed and begin to die. An increase in the \ntemperature is contributing to the increase in beetles. Cooler temperatures tend to keep the \nbeetle population controlled. Many organisms, including squirrels, birds, and even grizzly \nbears, have been impacted by the decrease in the numbers of trees. Many organisms use \nwhitebark pine seeds for food.\nThe data table below shows the proportion of live mature whitebark pine trees compared \nwith their population in 2000.\nMature Whitebark Pine Trees in \nthe Greater Yellowstone Ecosystem\nYear\nProportion of Live Mature Whitebark Pine Trees \nCompared with Their Population in 2000\n2000\n1.00\n2002\n1.00\n2004\n0.70\n2006\n0.60\n2008\n0.40\n2010\n0.25\n2012\n0.25\nDirections (45\u201346): Using the information in the data table, construct a line graph on the grid on the next \npage, following the directions below.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Warmer climatic temperatures are one of the reasons for the increase in the pine beetle population. State one action that humans can take to help to reduce this warming trend.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_45_49.png",
+      "context": "Base your answers to questions 45 through 49 on the information and data table below and on your \nknowledge of biology.\nWhitebark Pines in Yellowstone Park\nScientists claim that mountain pine beetles have been blamed for the death of mature \nwhitebark pine trees in the Greater Yellowstone forest ecosystem. The beetles burrow into \nthe trees to lay their eggs. When the eggs hatch, the larvae feed on the tree, cutting off the \nflow of water. As a result, the trees become stressed and begin to die. An increase in the \ntemperature is contributing to the increase in beetles. Cooler temperatures tend to keep the \nbeetle population controlled. Many organisms, including squirrels, birds, and even grizzly \nbears, have been impacted by the decrease in the numbers of trees. Many organisms use \nwhitebark pine seeds for food.\nThe data table below shows the proportion of live mature whitebark pine trees compared \nwith their population in 2000.\nMature Whitebark Pine Trees in \nthe Greater Yellowstone Ecosystem\nYear\nProportion of Live Mature Whitebark Pine Trees \nCompared with Their Population in 2000\n2000\n1.00\n2002\n1.00\n2004\n0.70\n2006\n0.60\n2008\n0.40\n2010\n0.25\n2012\n0.25\nDirections (45\u201346): Using the information in the data table, construct a line graph on the grid on the next \npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Reduce the use of fossil fuels/use alternative energy sources. \u2014 Decrease greenhouse gas (carbon dioxide) emissions. \u2014 Decrease the amount of deforestation/industrialization. \u2014 More people could use alternative (more efficient/less polluting) modes of transportation. 49 MC on scoring key 50 MC on scoring key"
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The dependent variable in this study is the",
+      "choices": [
+        "proportion of mountain pine beetles",
+        "increasing temperature of the area",
+        "time that the study was conducted",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2023/context_45_49.png",
+      "context": "Base your answers to questions 45 through 49 on the information and data table below and on your \nknowledge of biology.\nWhitebark Pines in Yellowstone Park\nScientists claim that mountain pine beetles have been blamed for the death of mature \nwhitebark pine trees in the Greater Yellowstone forest ecosystem. The beetles burrow into \nthe trees to lay their eggs. When the eggs hatch, the larvae feed on the tree, cutting off the \nflow of water. As a result, the trees become stressed and begin to die. An increase in the \ntemperature is contributing to the increase in beetles. Cooler temperatures tend to keep the \nbeetle population controlled. Many organisms, including squirrels, birds, and even grizzly \nbears, have been impacted by the decrease in the numbers of trees. Many organisms use \nwhitebark pine seeds for food.\nThe data table below shows the proportion of live mature whitebark pine trees compared \nwith their population in 2000.\nMature Whitebark Pine Trees in \nthe Greater Yellowstone Ecosystem\nYear\nProportion of Live Mature Whitebark Pine Trees \nCompared with Their Population in 2000\n2000\n1.00\n2002\n1.00\n2004\n0.70\n2006\n0.60\n2008\n0.40\n2010\n0.25\n2012\n0.25\nDirections (45\u201346): Using the information in the data table, construct a line graph on the grid on the next \npage, following the directions below.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which statement most accurately summarizes the function of pepsin?",
+      "choices": [
+        "It prevents harmful substances from entering the stomach.",
+        "It regulates the transport of starch across the cell membrane.",
+        "It controls the rate at which certain chemical reactions occur.",
+        "It prevents the production of harmful by-products in stomach cells."
+      ],
+      "image": "/images/exams/living-environment/june-2023/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the information below and on your knowledge of biology.\nPepsin is a protein-digesting enzyme. It is produced inside cells that line the stomach \nand then secreted into the stomach cavity, where it begins to work.\nWhen first produced, the pepsin exists in an inactive form called pepsinogen. Pepsinogen \ncannot work because it has an extra segment that keeps it from interacting with the proteins \nit would normally digest.\nWhen it is secreted into the stomach cavity, the acid there causes the pepsinogen \nmolecule to lose this extra segment, which changes it into the active pepsin that can begin \nto digest food proteins.\nSource: http://pdb101.rcsb.org/motm/12\nExtra segment\nInactive Pepsinogen\nActive Pepsin\n\t\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "51",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the information below and on your knowledge of biology.\nPepsin is a protein-digesting enzyme. It is produced inside cells that line the stomach \nand then secreted into the stomach cavity, where it begins to work.\nWhen first produced, the pepsin exists in an inactive form called pepsinogen. Pepsinogen \ncannot work because it has an extra segment that keeps it from interacting with the proteins \nit would normally digest.\nWhen it is secreted into the stomach cavity, the acid there causes the pepsinogen \nmolecule to lose this extra segment, which changes it into the active pepsin that can begin \nto digest food proteins.\nSource: http://pdb101.rcsb.org/motm/12\nExtra segment\nInactive Pepsinogen\nActive Pepsin\n\t\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The enzyme has the wrong shape. \u2014 The extra segment blocks the active site of the pepsin. \u2014 The segment prevents the pepsin from attaching to another molecule/substrate. \u2014 keeps it from interacting with the proteins it would normally digest"
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Explain why it only requires a sample of cheek cells present in the dog\u2019s saliva, rather than using a mix of cells present in different tissues of the dog, to determine the breeds making up the dog\u2019s ancestry.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_52_53.png",
+      "context": "Base your answers to questions 52 and 53 on the information below and on your knowledge of biology.\nTrixie\u2019s Pedigree\nPet owners today have access to genetic technologies that can provide them with \ninformation about their pets. For example, ancestry charts (pedigrees) can be developed \nfor dogs by analyzing specific DNA sequences that are present in their cells. The presence \nof these DNA sequences can be used to determine the types of breeds present in the dogs\u2019 \nancestors. The chart below represents the family tree of a dog named Trixie.\nMixed\nBreed\nPekingese\nMixed\nBreed\nAustralian\nShepherd\nAustralian\nShepherd\nMixed\nBreed\nAustralian\nShepherd\nTrixie\u2019s\nGrandparents\nSource: Adapted from Wisdom Panel\nPekingese Mix Crossed with Australian Shepherd\nTrixie\u2019s\nGreat- \nGrandparents\nPekingese\nAustralian\nShepherd\nAustralian\nShepherd",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Each of the body cells of the dog has the same genetic information. \u2014 One cell type is enough, since all the body cells in a dog have the same DNA."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "53",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_52_53.png",
+      "context": "Base your answers to questions 52 and 53 on the information below and on your knowledge of biology.\nTrixie\u2019s Pedigree\nPet owners today have access to genetic technologies that can provide them with \ninformation about their pets. For example, ancestry charts (pedigrees) can be developed \nfor dogs by analyzing specific DNA sequences that are present in their cells. The presence \nof these DNA sequences can be used to determine the types of breeds present in the dogs\u2019 \nancestors. The chart below represents the family tree of a dog named Trixie.\nMixed\nBreed\nPekingese\nMixed\nBreed\nAustralian\nShepherd\nAustralian\nShepherd\nMixed\nBreed\nAustralian\nShepherd\nTrixie\u2019s\nGrandparents\nSource: Adapted from Wisdom Panel\nPekingese Mix Crossed with Australian Shepherd\nTrixie\u2019s\nGreat- \nGrandparents\nPekingese\nAustralian\nShepherd\nAustralian\nShepherd",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Recombination of existing genes could produce a new trait that her ancestors did not show. \u2014 Conditions in Trixie\u2019s environment were different from those of her ancestors, which could affect gene expression. \u2014 A mutation could have occurred. \u2014 It could have been a recessive trait. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Two parts of the biobag system are the plastic bag and the external oxygenator. Select one of these parts and circle it below. Identify the structure in the reproductive system that the part of the biobag system you selected represents, and state the function of that part. Circle one: Plastic bag External oxygenator",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of biology.\nSource: Children\u2019s Hospital of Philadelphia/Discover Magazine,\nJanuary/February 2018, Page 24\nBiobag System\nAfter decades of research, scientists have \ndeveloped a biobag system with the potential to save \nextremely premature babies. They have successfully \nremoved eight lamb fetuses from their mothers and \nplaced them into biobags. Eventually, the fetuses \ndeveloped into healthy sheep.\nThe biobag is a clear plastic bag filled with a \nsolution of water containing various salts. A machine \noutside the bag is attached to the blood vessels in \nthe lamb\u2019s umbilical cord. The lamb\u2019s umbilical cord \nbrings in nutrients, and its heart pumps blood through \nan external oxygenator that removes carbon dioxide \nfrom the blood and adds oxygen.\nThe biobag models early development in the \nreproduction of mammals. In the future, this system \nmay be able to be used with human premature babies. \nThe biobag system could allow them to continue to \ndevelop for a longer period of time.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying the structure in the reproductive system and the function of that part. Acceptable responses include, but are not limited to: Plastic bag: \u2014 This represents the uterus, and the fetus develops here. \u2014 This is the amniotic sac, which contains the fluid that protects/surrounds the fetus. External oxygenator: \u2014 This represents the placenta, where oxygen and CO2 gases are exchanged. \u2014 The placenta is represented by this, and it is where gases and nutrients are exchanged."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "55",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of biology.\nSource: Children\u2019s Hospital of Philadelphia/Discover Magazine,\nJanuary/February 2018, Page 24\nBiobag System\nAfter decades of research, scientists have \ndeveloped a biobag system with the potential to save \nextremely premature babies. They have successfully \nremoved eight lamb fetuses from their mothers and \nplaced them into biobags. Eventually, the fetuses \ndeveloped into healthy sheep.\nThe biobag is a clear plastic bag filled with a \nsolution of water containing various salts. A machine \noutside the bag is attached to the blood vessels in \nthe lamb\u2019s umbilical cord. The lamb\u2019s umbilical cord \nbrings in nutrients, and its heart pumps blood through \nan external oxygenator that removes carbon dioxide \nfrom the blood and adds oxygen.\nThe biobag models early development in the \nreproduction of mammals. In the future, this system \nmay be able to be used with human premature babies. \nThe biobag system could allow them to continue to \ndevelop for a longer period of time.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The organs and systems of sheep are similar to humans. \u2014 Testing in animals is easier to get approval for than testing in humans. \u2014 There would be fewer ethical concerns. \u2014 It will help determine if the procedure is safe for humans. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Explain why a change in the pH of lakes and forests as a result of acid rain can upset the dynamic equilibrium of these ecosystems.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of biology.\nAcid Rain\nAcid rain comes in many forms: wet deposition, such as rain, snow, sleet, hail, and fog, \nand dry deposition, such as deposits of acid particles, aerosols, and gases. It is formed when \nsulfur dioxide (SO2) and nitrogen oxides (NOx) combine with moisture in the atmosphere \nto produce sulfuric acid and nitric acid. Damage to aquatic and forest ecosystems, serious \nhuman illness, and the slow destruction of buildings and bridges have all been linked to \nacid rain.\nTwo sources that contribute to producing acid rain include:\n\u2022\tEmissions from airplanes, automobiles, and industries\n\u2022\tEmissions of SO2 and NOx from power plants\nSource: Adapted from New York State Department of Environmental\nConservation (http://www.dec.ny.gov/chemical/8418.html)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 In any ecosystem, the survival of organisms depends on physical factors such as pH. If the pH is altered, many organisms will not survive. \u2014 The enzymes in organisms work best within a specific pH range, so if enzymes don\u2019t work, organisms may die. \u2014 A change in pH could result in the death of many organisms, disrupting food webs. \u2014 If the organisms weren\u2019t adapted to the pH changes, they could die."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Identify one specific action individuals could take to significantly reduce the amount of acid rain falling in New York State.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of biology.\nAcid Rain\nAcid rain comes in many forms: wet deposition, such as rain, snow, sleet, hail, and fog, \nand dry deposition, such as deposits of acid particles, aerosols, and gases. It is formed when \nsulfur dioxide (SO2) and nitrogen oxides (NOx) combine with moisture in the atmosphere \nto produce sulfuric acid and nitric acid. Damage to aquatic and forest ecosystems, serious \nhuman illness, and the slow destruction of buildings and bridges have all been linked to \nacid rain.\nTwo sources that contribute to producing acid rain include:\n\u2022\tEmissions from airplanes, automobiles, and industries\n\u2022\tEmissions of SO2 and NOx from power plants\nSource: Adapted from New York State Department of Environmental\nConservation (http://www.dec.ny.gov/chemical/8418.html)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Use public transportation/carpool/walk/ride a bicycle. \u2014 Use alternative energy sources such as wind and solar instead of fossil fuels. \u2014 Don\u2019t burn fuels high in sulfur or nitrogen content. \u2014 Reduce the burning of fossil fuels. \u2014 Lobby the federal government to regulate SO2 and NOx emissions from power plants."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Explain how the specific action you identified in question 57 would decrease the formation of acid rain.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of biology.\nAcid Rain\nAcid rain comes in many forms: wet deposition, such as rain, snow, sleet, hail, and fog, \nand dry deposition, such as deposits of acid particles, aerosols, and gases. It is formed when \nsulfur dioxide (SO2) and nitrogen oxides (NOx) combine with moisture in the atmosphere \nto produce sulfuric acid and nitric acid. Damage to aquatic and forest ecosystems, serious \nhuman illness, and the slow destruction of buildings and bridges have all been linked to \nacid rain.\nTwo sources that contribute to producing acid rain include:\n\u2022\tEmissions from airplanes, automobiles, and industries\n\u2022\tEmissions of SO2 and NOx from power plants\nSource: Adapted from New York State Department of Environmental\nConservation (http://www.dec.ny.gov/chemical/8418.html)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Using public transportation (carpooling, walking, riding a bicycle) will result in less fossil fuel being burned and less acid rain being formed in the atmosphere. \u2014 Alternative energy sources such as wind and solar do not add pollutants to the air. \u2014 Some fuels have a lower sulfur content than others. By using them, less SO2 will be put into the air. \u2014 With less burning of fossil fuels, less CO2 /SO2 /NOx will be put into the air. \u2014 By advocating for stricter regulations, the government may limit SO2 and NOx emissions. Note: Only allow credit for an answer consistent with the student\u2019s response to question 57."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "State one specific reason why these invasive fish have been able to rapidly increase their population and range over the last 20 years.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nLionfish Invasion\nLionfish are native to the Indian and Pacific Oceans. They have recently been found \nalong the southeast coast of the U.S., the Caribbean, and in parts of the Gulf of Mexico. \nExperts speculate that the lionfish invasion was caused by people dumping unwanted lionfish \ninto the Atlantic Ocean from home aquariums.\nLionfish have venomous spines and feed on small crustaceans and many fish, including \nthe young of important commercial fish species such as snapper and grouper. The current \ninvasion of lionfish most likely started with the dumping of about 12 fish. Today, there \nare thousands of them over a wide area.\nSource: http://dailymail.co.uk/sciencetech/article-4564472/\nInvasive-lionfish-Caribbean-sea-preying-new-species.html",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 There are no natural predators in these regions. \u2014 The lionfish can outcompete the native species for food. \u2014 They can eat a large variety of food that is found in the area. \u2014 They were adapted to a variety of environments. \u2014 Lionfish may have reproductive rates that are greater than other fish. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Explain why the amount of genetic diversity within the invasive lionfish population would be expected to be quite low.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nLionfish Invasion\nLionfish are native to the Indian and Pacific Oceans. They have recently been found \nalong the southeast coast of the U.S., the Caribbean, and in parts of the Gulf of Mexico. \nExperts speculate that the lionfish invasion was caused by people dumping unwanted lionfish \ninto the Atlantic Ocean from home aquariums.\nLionfish have venomous spines and feed on small crustaceans and many fish, including \nthe young of important commercial fish species such as snapper and grouper. The current \ninvasion of lionfish most likely started with the dumping of about 12 fish. Today, there \nare thousands of them over a wide area.\nSource: http://dailymail.co.uk/sciencetech/article-4564472/\nInvasive-lionfish-Caribbean-sea-preying-new-species.html",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The original population was small/12 fish, so the amount of variation would be low. \u2014 Only a dozen or so released lionfish started the whole population. They probably did not have much variation in their genes."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "61",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nLionfish Invasion\nLionfish are native to the Indian and Pacific Oceans. They have recently been found \nalong the southeast coast of the U.S., the Caribbean, and in parts of the Gulf of Mexico. \nExperts speculate that the lionfish invasion was caused by people dumping unwanted lionfish \ninto the Atlantic Ocean from home aquariums.\nLionfish have venomous spines and feed on small crustaceans and many fish, including \nthe young of important commercial fish species such as snapper and grouper. The current \ninvasion of lionfish most likely started with the dumping of about 12 fish. Today, there \nare thousands of them over a wide area.\nSource: http://dailymail.co.uk/sciencetech/article-4564472/\nInvasive-lionfish-Caribbean-sea-preying-new-species.html",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating two ways invasive species can disrupt ecosystems. Acceptable responses include, but are not limited to: \u2014 They could cause extinctions of native plants and animals. \u2014 They reduce biodiversity/stability in an ecosystem. \u2014 They compete with native organisms for limited resources. \u2014 They alter habitats. \u2014 They disrupt food webs. Note: A correct response must include two ways invasive species can disrupt ecosystems."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "State whether the new drug used without the chemotherapy drug would enable the immune system to successfully attack the cancer cells. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the information below and on your knowledge of biology.\nNew Drug \u201cWakes up\u201d Immune System\nto Fight Pancreatic Cancer\nPancreatic cancer makes up three \npercent of all cancers. Recently, scientists \nannounced the discovery of a new drug that \nhas helped extend the lives of some patients \nwith pancreatic cancer.\nPancreatic \ntumors \nusually \nhave \na \nprotective protein layer surrounding them. \nThe protein is produced by the tumor cells. \nThis protein shield seems to deactivate white \nblood cells that would normally recognize \nand target the tumor cells for destruction.\nThe new drug reactivates these white \nblood cells, stimulating them to attack the \ntumor again. A specific chemotherapy drug \nblows holes in the protective protein layer \naround the tumor. This action then allows \nthe activated white blood cells to directly \nattack the tumor. The process is modeled in \nthe diagram on the left.\nHow the New Drug Works\nSkin layer\nNew drug injected into skin\nActivates white blood \ncells to attack tumor\nProtective tumor \nprotein shield\nChemotherapy drug \nadded to blood\nDrug blows \nholes through \nprotective shield\nSource: Adapted from https://www.theguardian.com/science/2016/sep/06\nArea of tumor cells",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating no and supporting the answer. Acceptable responses include, but are not limited to: \u2014 No, the chemotherapy drug is necessary to make holes in the protective shield so that white blood cells can reach the cancer cells. \u2014 No, the new drug only strengthens the immune system; the chemotherapy drug allows white blood cells to reach tumor cells. \u2014 No, both drugs must be used for white blood cells to attack these tumor cells."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Explain the role of white blood cells in the process of killing cancer cells.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the information below and on your knowledge of biology.\nNew Drug \u201cWakes up\u201d Immune System\nto Fight Pancreatic Cancer\nPancreatic cancer makes up three \npercent of all cancers. Recently, scientists \nannounced the discovery of a new drug that \nhas helped extend the lives of some patients \nwith pancreatic cancer.\nPancreatic \ntumors \nusually \nhave \na \nprotective protein layer surrounding them. \nThe protein is produced by the tumor cells. \nThis protein shield seems to deactivate white \nblood cells that would normally recognize \nand target the tumor cells for destruction.\nThe new drug reactivates these white \nblood cells, stimulating them to attack the \ntumor again. A specific chemotherapy drug \nblows holes in the protective protein layer \naround the tumor. This action then allows \nthe activated white blood cells to directly \nattack the tumor. The process is modeled in \nthe diagram on the left.\nHow the New Drug Works\nSkin layer\nNew drug injected into skin\nActivates white blood \ncells to attack tumor\nProtective tumor \nprotein shield\nChemotherapy drug \nadded to blood\nDrug blows \nholes through \nprotective shield\nSource: Adapted from https://www.theguardian.com/science/2016/sep/06\nArea of tumor cells",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 White blood cells mark cancer cells for destruction using antibodies. \u2014 White blood cells attack/fight and engulf cancer cells. \u2014 The cells normally recognize and target tumor cells for destruction."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "64",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the information below and on your knowledge of biology.\nNew Drug \u201cWakes up\u201d Immune System\nto Fight Pancreatic Cancer\nPancreatic cancer makes up three \npercent of all cancers. Recently, scientists \nannounced the discovery of a new drug that \nhas helped extend the lives of some patients \nwith pancreatic cancer.\nPancreatic \ntumors \nusually \nhave \na \nprotective protein layer surrounding them. \nThe protein is produced by the tumor cells. \nThis protein shield seems to deactivate white \nblood cells that would normally recognize \nand target the tumor cells for destruction.\nThe new drug reactivates these white \nblood cells, stimulating them to attack the \ntumor again. A specific chemotherapy drug \nblows holes in the protective protein layer \naround the tumor. This action then allows \nthe activated white blood cells to directly \nattack the tumor. The process is modeled in \nthe diagram on the left.\nHow the New Drug Works\nSkin layer\nNew drug injected into skin\nActivates white blood \ncells to attack tumor\nProtective tumor \nprotein shield\nChemotherapy drug \nadded to blood\nDrug blows \nholes through \nprotective shield\nSource: Adapted from https://www.theguardian.com/science/2016/sep/06\nArea of tumor cells",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 This treatment would be less effective if the person has AIDS because AIDS weakens the immune system, and there might not be enough white blood cells to attack the tumor. \u2014 This treatment would be less effective because AIDS weakens the immune system. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Students drew a few models of the food chain in Zion National Park, as described in the reading. A Cottonwoods \u2192 Deer \u2192 Cougar B Deer \u2192 Cottonwoods \u2192 Cougar C Cougar \u2192 Deer \u2192 Cottonwoods Record the letter of the model that represents the actual food chain in Zion National Park and explain why the model you chose is correct.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_65_67.png",
+      "context": "Base your answers to questions 65 through 67 on the information below and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for A and explaining why model A is correct. \u2014 Cottonwoods, which are producers, are eaten by the deer, which are eaten by the cougars. \u2014 Food chains go from producers to herbivores to predators. \u2014 Energy and materials flow from producers to primary to secondary consumers. \u2014 Food chains start with a producer/autotroph."
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Destabilization is a phenomenon that has been observed in a variety of ecosystems when the number of predators has been significantly reduced. Explain how the destabilization caused by the loss of cougars in Zion National Park has resulted in a decrease in the cottonwood trees.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_65_67.png",
+      "context": "Base your answers to questions 65 through 67 on the information below and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Without cougars, the deer increased and consumed the cottonwoods. \u2014 Cougars previously kept the deer in check, so fewer cottonwoods were eaten. \u2014 There were more deer eating the cottonwood trees. \u2014 Destabilization caused by the loss of cougars will result in an increase of deer, which results in a decrease in the cottonwoods."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "The researchers claimed the decrease in the cougar population is a result of the increase in the number of visitors in the park. Describe evidence the researchers could use to support their claim. The Cougars of Zion National Park Researchers claim that the crowds of visitors at Utah\u2019s Zion National Park have led to the displacement of cougars, the area\u2019s top predator, resulting in a devastating series of changes to the region\u2019s biodiversity. The researchers compared Zion Canyon\u2019s ecosystem with a nearby habitat called North Creek, where human visits are infrequent and the cougars still thrive. In Zion Canyon, there are many more deer, the cougar\u2019s main prey, and fewer cottonwood trees than in North Creek. Zion also has a reduced number and diversity of butterflies, amphibians, and wetland plants. To measure the impact of the shrinking cougar population, researchers collected data on Zion Canyon\u2019s deer populations dating back to the 1930s, when tourism Source: https://www. smithsonian mag.com began to increase. Currently, with over three million visitors per year, the cougars, which usually avoid humans, are becoming increasingly rare. The researchers also estimated the age and abundance of cottonwoods, a favorite food of young deer, and found a healthy mix of old and young cottonwoods in North Creek,",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_65_67.png",
+      "context": "Base your answers to questions 65 through 67 on the information below and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 In areas with fewer visitors, the cougars are thriving. \u2014 North Creek has few visitors, and cougars are more common. \u2014 As the number of visitors increased, the number of cougars decreased."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Bald eagle populations declined when a pesticide called DDT was used to kill insects. Once DDT was banned in 1972, the population of bald eagles rebounded. State one reason why the bald eagles could be considered a sentinel species like canaries in coal mines.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_68_70.png",
+      "context": "Base your answers to questions 68 through 70 on the information below and on your knowledge of biology.\nSource: https://www.naturalworldpets.co.uk/\ncanary-care-sheet/\nMeet the Sentinels\nCanaries are the most familiar example of a sentinel species, \nwhich are animals and plants that serve as harbingers [indicators] \nof danger to human health and the environment. In the case of \ncanaries, if odorless carbon monoxide were present in a high enough \nconcentration in a coal mine, the small bird would die first and give \nminers time to escape.\nCats, too, have been sentinels. In the 1950s, people in the town \nof Minamata, Japan, began to notice that local cats were acting \nstrangely; The cats were unable to walk straight and uncontrollably \njumped about. After some time, people began to act similarly. The \ncause of the \u201cdancing cat fever\u201d was quickly connected to the release \nof methylmercury in the wastewater of a local chemical factory. \nThe discharge fed into the city\u2019s harbor, where it bioaccumulated \nin [tissues of] fish and shellfish. Although several thousand people \nwere affected with what became known as Minamata disease, the \noutcome could have been worse were it not for the warning from \nthe dancing cats. \u2026\nSource: C&EN/CEN.ACS.Org/November 20, 2017\n\nLiving Environment\u2013June \u201923\t\n[26]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The DDT built up in the bald eagles, and their deaths signaled to humans that something was dangerous in the environment. \u2014 The decline of the bald eagle served as an indicator of a potential danger to human health and the environment. \u2014 The bald eagles were reacting to harmful substances that could eventually harm humans."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Explain why the banning of certain pesticides might cause a problem for humans.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_68_70.png",
+      "context": "Base your answers to questions 68 through 70 on the information below and on your knowledge of biology.\nSource: https://www.naturalworldpets.co.uk/\ncanary-care-sheet/\nMeet the Sentinels\nCanaries are the most familiar example of a sentinel species, \nwhich are animals and plants that serve as harbingers [indicators] \nof danger to human health and the environment. In the case of \ncanaries, if odorless carbon monoxide were present in a high enough \nconcentration in a coal mine, the small bird would die first and give \nminers time to escape.\nCats, too, have been sentinels. In the 1950s, people in the town \nof Minamata, Japan, began to notice that local cats were acting \nstrangely; The cats were unable to walk straight and uncontrollably \njumped about. After some time, people began to act similarly. The \ncause of the \u201cdancing cat fever\u201d was quickly connected to the release \nof methylmercury in the wastewater of a local chemical factory. \nThe discharge fed into the city\u2019s harbor, where it bioaccumulated \nin [tissues of] fish and shellfish. Although several thousand people \nwere affected with what became known as Minamata disease, the \noutcome could have been worse were it not for the warning from \nthe dancing cats. \u2026\nSource: C&EN/CEN.ACS.Org/November 20, 2017\n\nLiving Environment\u2013June \u201923\t\n[26]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 It may be expensive to find a safe alternative chemical that works as well. \u2014 Insects that cause diseases in humans might increase in number. \u2014 There would be damage to crops. \u2014 The pest population would increase. \u2014 Insects compete with humans\u2019 food/resources. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Describe one specific human action, other than banning its use, that could reduce the chance that a toxic chemical could contaminate the environment.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_68_70.png",
+      "context": "Base your answers to questions 68 through 70 on the information below and on your knowledge of biology.\nSource: https://www.naturalworldpets.co.uk/\ncanary-care-sheet/\nMeet the Sentinels\nCanaries are the most familiar example of a sentinel species, \nwhich are animals and plants that serve as harbingers [indicators] \nof danger to human health and the environment. In the case of \ncanaries, if odorless carbon monoxide were present in a high enough \nconcentration in a coal mine, the small bird would die first and give \nminers time to escape.\nCats, too, have been sentinels. In the 1950s, people in the town \nof Minamata, Japan, began to notice that local cats were acting \nstrangely; The cats were unable to walk straight and uncontrollably \njumped about. After some time, people began to act similarly. The \ncause of the \u201cdancing cat fever\u201d was quickly connected to the release \nof methylmercury in the wastewater of a local chemical factory. \nThe discharge fed into the city\u2019s harbor, where it bioaccumulated \nin [tissues of] fish and shellfish. Although several thousand people \nwere affected with what became known as Minamata disease, the \noutcome could have been worse were it not for the warning from \nthe dancing cats. \u2026\nSource: C&EN/CEN.ACS.Org/November 20, 2017\n\nLiving Environment\u2013June \u201923\t\n[26]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Companies could have secure storage of the chemical in their factory. \u2014 Stop using the toxic chemical and replace it with a non-toxic alternative. \u2014 Treat the chemicals to make them safe before they are released into the environment. \u2014 Fine companies that release these chemicals so they won\u2019t do it again. \u2014 Use less of the toxic chemical."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Describe one way the temporary blocking of the sunlight could have impacted the survival of the dinosaurs.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the information below and on your knowledge of biology.\nDinosaur Extinction\nThe hypothesis that an asteroid strike led to the mass extinction of dinosaurs is widely \naccepted. It is understood that the asteroid strike caused a massive and quick shift in Earth\u2019s \ntemperature and blocked much of the sunlight. While devastating for the dinosaurs, this \ndramatic event provided opportunities for other species. For example, surviving birds and \nmammals underwent a time of rapid evolution, which led to the thousands of birds and \nmammal species present on Earth today.\nSource: https://www.independent.co.uk/",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Less sunlight would reduce plant growth, so the dinosaurs would have less food. \u2014 It was colder, so the plants the dinosaurs ate died. \u2014 Dinosaurs were not adapted to the changed environment, so they did not survive."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "72",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the information below and on your knowledge of biology.\nDinosaur Extinction\nThe hypothesis that an asteroid strike led to the mass extinction of dinosaurs is widely \naccepted. It is understood that the asteroid strike caused a massive and quick shift in Earth\u2019s \ntemperature and blocked much of the sunlight. While devastating for the dinosaurs, this \ndramatic event provided opportunities for other species. For example, surviving birds and \nmammals underwent a time of rapid evolution, which led to the thousands of birds and \nmammal species present on Earth today.\nSource: https://www.independent.co.uk/",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The bird species that existed must have had adaptations that enabled them to survive the conditions after the asteroid impact. \u2014 Birds had the ability to fly greater distances to find food and other resources they needed to survive. \u2014 They were able to find enough food. \u2014 They were smaller and required less food. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "Which two species of finch would be affected if a bird with a grasping beak that ate ants and beetles was introduced into their habitat?",
+      "choices": [
+        "large ground finch and warbler",
+        "woodpecker finch and small ground finch",
+        "large tree finch and small tree finch",
+        "cactus finch and medium ground finch"
+      ],
+      "image": "/images/exams/living-environment/june-2023/context_73_73.png",
+      "context": "Base your answer to question 73 on the information below and on your knowledge of biology.\nLarge\nground \nfinch\nVegetarian\ntree finch\nLarge \ntree finch\nSmall\ntree finch\nWoodpecker\nfinch\nWarbler\nfinch\nCactus\nground finch\nSharp-beaked\nground finch\nSmall\nground finch\nMedium\nground finch\nC\nru\ns\nhi\nn\ng \nb\ne\na\nk\ns\nP\nro\nbi\nn\ng \nb\ne\na\nk\ns\nGr\nas\npi\nng\n b\nea\nks\nCactus\neaters\nSeed\neaters\nFruit eaters\nGr\nou\nnd\n F\nin\nch\nes\nW\nar\nbl\ner\nFi\nnc\nh\nSource: Adapted from www.pbs.org\n  T\nre\ne\n F\nin\nch\ne\ns\nPar\nr\no\nt\nbea\nk\nInsect eaters\n\t\nNote: The answer to question 73 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "Comparisons between species can be done using both structural and molecular evidence. An example of using structural evidence is comparing",
+      "choices": [
+        "seed characteristics",
+        "enzyme characteristics",
+        "amino acid sequences",
+        "DNA banding patterns"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "The DNA from three different bacterial species are compared with a specific strain of E. coli bacteria. These data were used to construct the evolutionary tree below. G R P E. coli Which row in the data table below best supports the evolutionary diagram constructed by the scientists? Species Comparison (Percent of Identical DNA) Row E. coli Species G Species R Species P",
+      "choices": [
+        "100% 99% 95% 93%",
+        "100% 93% 95% 99%",
+        "100% 99% 93% 99%",
+        "100% 95% 99% 93%"
+      ],
+      "image": "/images/exams/living-environment/june-2023/q75.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "The purpose of checking the breathing rate before exercising is that it",
+      "choices": [
+        "serves as a control for the experiment",
+        "is needed to form a hypothesis",
+        "can be changed to form a conclusion",
+        "can be used to predict the results"
+      ],
+      "image": "/images/exams/living-environment/june-2023/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the information below and on your knowledge of biology.\nA student conducted an experiment to determine the effect of exercising on breathing \nrate. The student measured the breathing rate of three classmates at rest and again after \nexercising for intervals of 30, 60, and 90 seconds. Her results are shown in the data table \nbelow.\nBreathing Rate in Breaths/Minute\nTime Exercising \n(seconds)\nStudent A\nStudent B\nStudent C\nAverage\n0 (Resting)\n12\n12\n15\n30\n25\n18\n20\n21\n60\n38\n27\n28\n31\n90\n43\n33\n38\n38\n\t\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Calculate the average resting breathing rate for this group of students. Record your answer in the appropriate space in the data table above.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the information below and on your knowledge of biology.\nA student conducted an experiment to determine the effect of exercising on breathing \nrate. The student measured the breathing rate of three classmates at rest and again after \nexercising for intervals of 30, 60, and 90 seconds. Her results are shown in the data table \nbelow.\nBreathing Rate in Breaths/Minute\nTime Exercising \n(seconds)\nStudent A\nStudent B\nStudent C\nAverage\n0 (Resting)\n12\n12\n15\n30\n25\n18\n20\n21\n60\n38\n27\n28\n31\n90\n43\n33\n38\n38\n\t\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 13."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "State one biological benefit of the breathing rate increasing while exercising.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the information below and on your knowledge of biology.\nA student conducted an experiment to determine the effect of exercising on breathing \nrate. The student measured the breathing rate of three classmates at rest and again after \nexercising for intervals of 30, 60, and 90 seconds. Her results are shown in the data table \nbelow.\nBreathing Rate in Breaths/Minute\nTime Exercising \n(seconds)\nStudent A\nStudent B\nStudent C\nAverage\n0 (Resting)\n12\n12\n15\n30\n25\n18\n20\n21\n60\n38\n27\n28\n31\n90\n43\n33\n38\n38\n\t\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 There would be more oxygen available. \u2014 CO2 would be removed more rapidly. \u2014 It would allow for the production of more ATP in muscle cells. \u2014 It helps maintain homeostasis."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify a process that caused these changes in mass of each of the three slices.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the information below and on your knowledge of biology.\nThree potato slices with the same mass were each placed in three beakers, each labeled \nwith its number and contents. After 30 minutes, the potato slices were removed from the \nsolutions, dried with a paper towel, and the mass was determined. The results are shown in \nthe table below.\nChange in Mass of Potato in Different Solutions\nBeaker\nSolution\nChange in Mass\n1\ndistilled water\n\t\ngained 4.0 grams\n2\n\t\n6% salt solution\n\t\nlost 0.4 grams\n3\n\t\n16% salt solution\n\t\nlost 4.7 grams",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for diffusion/osmosis/passive transport."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Explain why the potato slice in distilled water (Beaker 1) was the only one to gain mass after 30",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the information below and on your knowledge of biology.\nThree potato slices with the same mass were each placed in three beakers, each labeled \nwith its number and contents. After 30 minutes, the potato slices were removed from the \nsolutions, dried with a paper towel, and the mass was determined. The results are shown in \nthe table below.\nChange in Mass of Potato in Different Solutions\nBeaker\nSolution\nChange in Mass\n1\ndistilled water\n\t\ngained 4.0 grams\n2\n\t\n6% salt solution\n\t\nlost 0.4 grams\n3\n\t\n16% salt solution\n\t\nlost 4.7 grams",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Water moved into the potato cells because there was a higher concentration outside than inside the slice. The concentration of water outside the other slices was lower, so water moved out of them and they lost mass. \u2014 The potato slice increased in water content. This made it gain mass. The other slices lost water content. \u2014 Solution 1 is the only one with the water concentration higher outside than inside the potato cells, so water moved in. \u2014 More water moved into that potato slice. 81 MC on scoring key 82 MC on scoring key"
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Using the Universal Genetic Code Chart, how many messenger RNA codons code for the amino acid leucine (LEU)?",
+      "choices": [
+        "6",
+        "2",
+        "8",
+        "4 The table below shows a section of messenger RNA for five species of similar organisms. Messenger RNA of Similar Species Species Messenger RNA Codons X UUA CCC AAU AGA 1 CUG CCC AAU AGA 2 GUC CCC AAU AGA 3 UGG CCC CAU ACA 4 UGU CGC UUU GCG"
+      ],
+      "image": "/images/exams/living-environment/june-2023/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the information below and on your knowledge of biology.\nSECOND BASE\nT\nH\nI\nR\nD\nB\nA\nS\nE\nF\nI\nR\nS\nT\nB\nA\nS\nE\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nUUU\nUUC\nUUA\nUUG\nCUU\nCUC\nCUA\nCUG\nAUU\nAUC\nAUA\nAUG\nGUU\nGUC\nGUA\nGUG\nUCU\nUCC\nUCA\nUCG\nCCU\nCCC\nCCA\nCCG\nACU\nACC\nACA\nACG\nGCU\nGCC\nGCA\nGCG\nUAU\nUAC\nUAA\nUAG\nCAU\nCAC\nCAA\nCAG\nAAU\nAAC\nAAA\nAAG\nGAU\nGAC\nGAA\nGAG\nUGU\nUGC\nUGA\nUGG\nCGU\nCGC\nCGA\nCGG\nAGU\nAGC\nAGA\nAGG\nGGU\nGGC\nGGA\nGGG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nPHE\nLEU\nLEU\nILE\nMET or \nSTART\nVAL\nSER\nPRO\nTHR\nALA\nTYR\nSTOP\nHIS\nGLN\nASN\nLYS\nASP\nGLU\nARG\nSER\nARG\nGLY\nCYS\nSTOP\nTRP\nUniversal Genetic Code Chart\nMessenger RNA Codons and the Amino Acids for Which They Code\nU\n\t\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "What is the DNA sequence that codes for the messenger RNA codons shown in Species X?",
+      "choices": [
+        "AAT GGG ATT TCT",
+        "ACC AAT GGG TCT",
+        "AAT GGG TTA TCT",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2023/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the information below and on your knowledge of biology.\nSECOND BASE\nT\nH\nI\nR\nD\nB\nA\nS\nE\nF\nI\nR\nS\nT\nB\nA\nS\nE\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nUUU\nUUC\nUUA\nUUG\nCUU\nCUC\nCUA\nCUG\nAUU\nAUC\nAUA\nAUG\nGUU\nGUC\nGUA\nGUG\nUCU\nUCC\nUCA\nUCG\nCCU\nCCC\nCCA\nCCG\nACU\nACC\nACA\nACG\nGCU\nGCC\nGCA\nGCG\nUAU\nUAC\nUAA\nUAG\nCAU\nCAC\nCAA\nCAG\nAAU\nAAC\nAAA\nAAG\nGAU\nGAC\nGAA\nGAG\nUGU\nUGC\nUGA\nUGG\nCGU\nCGC\nCGA\nCGG\nAGU\nAGC\nAGA\nAGG\nGGU\nGGC\nGGA\nGGG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nPHE\nLEU\nLEU\nILE\nMET or \nSTART\nVAL\nSER\nPRO\nTHR\nALA\nTYR\nSTOP\nHIS\nGLN\nASN\nLYS\nASP\nGLU\nARG\nSER\nARG\nGLY\nCYS\nSTOP\nTRP\nUniversal Genetic Code Chart\nMessenger RNA Codons and the Amino Acids for Which They Code\nU\n\t\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Write the number of the species in the table that would produce the same sequence of amino acids as Species X.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the information below and on your knowledge of biology.\nSECOND BASE\nT\nH\nI\nR\nD\nB\nA\nS\nE\nF\nI\nR\nS\nT\nB\nA\nS\nE\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nUUU\nUUC\nUUA\nUUG\nCUU\nCUC\nCUA\nCUG\nAUU\nAUC\nAUA\nAUG\nGUU\nGUC\nGUA\nGUG\nUCU\nUCC\nUCA\nUCG\nCCU\nCCC\nCCA\nCCG\nACU\nACC\nACA\nACG\nGCU\nGCC\nGCA\nGCG\nUAU\nUAC\nUAA\nUAG\nCAU\nCAC\nCAA\nCAG\nAAU\nAAC\nAAA\nAAG\nGAU\nGAC\nGAA\nGAG\nUGU\nUGC\nUGA\nUGG\nCGU\nCGC\nCGA\nCGG\nAGU\nAGC\nAGA\nAGG\nGGU\nGGC\nGGA\nGGG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nPHE\nLEU\nLEU\nILE\nMET or \nSTART\nVAL\nSER\nPRO\nTHR\nALA\nTYR\nSTOP\nHIS\nGLN\nASN\nLYS\nASP\nGLU\nARG\nSER\nARG\nGLY\nCYS\nSTOP\nTRP\nUniversal Genetic Code Chart\nMessenger RNA Codons and the Amino Acids for Which They Code\nU\n\t\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for species 1. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Based on these data, the students concluded that pulse rate increases with age. State one reason why this conclusion might be questioned.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2023/context_84_84.png",
+      "context": "Base your answer to question 84 on the information below and on your knowledge of biology.\nA group of students designed an experiment to determine if an individual\u2019s age had any \neffect on pulse rate. The data collected are recorded in the table below.\nEffect of Age on Pulse Rate\nAge\n8\n17\n18\n22\n28\n31\n37\n43\n51\n60\nPulse rate/minute\n76\n61\n67\n58\n68\n69\n62\n48\n84\n54",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The 60-year-old person had a rate lower than many of the others. \u2014 The 8-year-old had a higher pulse rate than the 60-year-old. \u2014 There weren\u2019t enough people tested to draw a valid conclusion. \u2014 Only ten people were tested. \u2014 The pulse rate did not increase each time the age increased."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Identify an organ of the human body where diffusion occurs, and identify one specific molecule that diffuses between that organ and the blood. LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying an organ of the human body where diffusion occurs and identifying one specific molecule that diffuses between that organ and the blood. Acceptable responses include, but are not limited to: \u2014 lungs \u2013 oxygen/CO2 \u2014 small intestine \u2013 simple sugars/amino acids/nutrients \u2014 intestine \u2013 glucose \u2014 large intestine \u2013 water \u2014 liver \u2013 oxygen/glucose Living Environment Rating Guide \u2013 June \u2019"
+    }
+  ]
+}

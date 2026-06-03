@@ -1,0 +1,1096 @@
+{
+  "subject": "living-environment",
+  "session": "january-2016",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Bacteria and humans are similar in that they both",
+      "choices": [
+        "contain genetic material",
+        "are single-celled",
+        "lack cell organelles",
+        "carry out autotrophic nutrition"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which cell structure is mainly responsible for releasing energy from food molecules in some single-celled organisms?",
+      "choices": [
+        "ribosome",
+        "chloroplast",
+        "cell membrane",
+        "mitochondrion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "During gas exchange, the cell membrane of a single-celled organism has the same function as which organ system in humans?",
+      "choices": [
+        "nervous",
+        "reproductive",
+        "digestive",
+        "respiratory"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "An ecosystem is self-sustaining as long as organ- isms have sufficient quantities of energy, oxygen, minerals, and water. When organisms die, some of these materials are recycled back to plants in the ecosystem primarily through the activity of",
+      "choices": [
+        "predators",
+        "decomposers",
+        "pathogens",
+        "parasites"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which sequence represents structures organized from least complex to most complex?",
+      "choices": [
+        "nerve cell \u2192nucleus \u2192nervous system \u2192 brain",
+        "nucleus \u2192nerve cell \u2192brain \u2192nervous system",
+        "brain \u2192nervous system \u2192nucleus \u2192nerve cell",
+        "nervous system \u2192brain \u2192nerve cell \u2192 nucleus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which group consists entirely of organic molecules?",
+      "choices": [
+        "protein, oxygen, fat",
+        "protein, starch, fat",
+        "water, carbon dioxide, oxygen",
+        "water, starch, protein"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "A scientist plans to cut a segment of DNA so that it can be inserted into the DNA of a bacterium, a single-celled organism. The scientist needs to use a special type of organic molecule to perform this cutting process. This molecule is",
+      "choices": [
+        "a lipid",
+        "a carbohydrate",
+        "an enzyme",
+        "a hormone"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A finite resource in the environment that keeps a population from steadily increasing is known as",
+      "choices": [
+        "dynamic equilibrium",
+        "a limiting factor",
+        "a reproductive enzyme",
+        "ecological succession"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Human reproduction usually involves",
+      "choices": [
+        "internal fertilization and internal development",
+        "external fertilization and external development",
+        "internal fertilization and external development",
+        "external fertilization and internal development"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Even though human proteins are synthesized from only 20 different amino acids, there are thousands of different proteins found in human cells. This great variety of proteins is possible because the",
+      "choices": [
+        "size of a specific amino acid can vary within a protein",
+        "chemical composition of a specific amino acid can vary",
+        "sequence and number of amino acids can be different in each protein",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Aphids, small insects that feed on the sap of plants, undergo asexual reproduction during the summer months. They produce eggs that are formed without the separation of chromosomes. These eggs do not need to be fertilized, and all of the resulting offspring are female. Source: http://www.bbc.co.uk/nature/adaptations/ Asexual_reproduction The best explanation for all of these offspring being female is that",
+      "choices": [
+        "there is not enough food to support male aphids",
+        "asexual reproduction produces offspring with many mutations",
+        "only the females are able to feed on the sap of the plants",
+        "asexual reproduction produces offspring that are genetically identical to the parent"
+      ],
+      "image": "/images/exams/living-environment/january-2016/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Potato farmers in Ireland during the mid 1800s all grew the same type of potato. The potato plants were all produced as clones of one another. When a fungus infected the crop, all of the potatoes were destroyed. This occurred because these potato plants",
+      "choices": [
+        "had little genetic variability",
+        "had increased biodiversity",
+        "were the product of fertilization",
+        "were the result of biotechnology"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A cell is represented in the diagram below. The coded information that the cell uses to synthesize many different proteins is stored in structure",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/january-2016/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Wildflowers grow and reproduce during the spring snowmelt in the desert region of Death Valley, California. Which environmental factor would most likely have the greatest influence on these activities?",
+      "choices": [
+        "percentage of nitrogen in the atmosphere",
+        "number of plant species in the area",
+        "variety of scavengers in the ecosystem",
+        "amount of time that water is present"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which statement best describes how a major change in the size of one population affects an ecosystem?",
+      "choices": [
+        "It will immediately affect every population and the physical conditions.",
+        "It will affect the physical conditions, but not the other populations.",
+        "It could directly or indirectly affect the physical conditions and any population.",
+        "It affects every population,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a stage in the development of a fetus. A major function of structure X is to",
+      "choices": [
+        "produce gametes by meiosis",
+        "protect the fetus from physical injury",
+        "exchange materials between the mother and the fetus",
+        "store food to provide the fetus with nutrients"
+      ],
+      "image": "/images/exams/living-environment/january-2016/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which statement is most likely correct regarding soil bacteria that inhabit the polar regions of Earth?",
+      "choices": [
+        "They do not carry out the process of respiration.",
+        "They contain enzymes that function at low temperatures.",
+        "They are part of the abiotic resources of that ecosystem.",
+        "They do not reproduce."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Some plants increase in height due to changes in specialized regions of cells in the tips of their branches. The processes that result in these changes include",
+      "choices": [
+        "meiosis, cell growth, and cloning",
+        "mitosis, zygote formation, and cloning",
+        "meiosis, gamete formation, and differentiation",
+        "mitosis, cell growth, and differentiation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The hormone adrenaline can affect only cells with",
+      "choices": [
+        "appropriately shaped receptors",
+        "the appropriate antibodies",
+        "ribosomes that produce adrenaline",
+        "genes that break down adrenaline"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The diagram below shows part of the human body with some organs that help to carry out the removal of wastes. The energy necessary to perform this function comes directly from the",
+      "choices": [
+        "exchange of H2O and O2 during respiration",
+        "blood flowing through the organs",
+        "ATP molecules produced during cellular respiration",
+        "water that is eliminated by the organs"
+      ],
+      "image": "/images/exams/living-environment/january-2016/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "In living cells, chemical processes, such as synthesis, all require the action of",
+      "choices": [
+        "specialized antibiotics",
+        "hormones",
+        "salts",
+        "biological catalysts"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Plants that live in hot, dry climates have evolved mechanisms to help conserve limited water sup- plies. One example is the closing of leaf openings by guard cells during the day to decrease water loss from their leaves. This detection of and response to an environmental stimulus is an example of",
+      "choices": [
+        "a feedback mechanism",
+        "a genetic mutation",
+        "an organ malfunction",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which sequence best represents the flow of energy through an ecosystem?",
+      "choices": [
+        "Sun \u2192green plants \u2192herbivores \u2192 carnivores",
+        "Sun \u2192herbivores \u2192producers \u2192consumers",
+        "green plants \u2192carnivores \u2192consumers \u2192 herbivores",
+        "consumers \u2192carnivores \u2192herbivores \u2192 producers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A student set up a small freshwater fish tank. The tank included water, fish, gravel, a snail, and plants, as represented below. Which statement best describes an activity performed by a student investigating an abiotic factor using this setup?",
+      "choices": [
+        "He records the temperature of the water.",
+        "He feeds the fish 0.5 gram of fish food twice a day.",
+        "He measures the growth of the plants with a metric ruler.",
+        "He observes the snail scrape algae off the gravel."
+      ],
+      "image": "/images/exams/living-environment/january-2016/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which situation is most likely to lead to ecological succession?",
+      "choices": [
+        "The fish populations in a large lake remain the same for many years.",
+        "Hunters are allowed to hunt wolves, with no limits, for one season.",
+        "The amount of industrialization increased in an area, resulting in the increased burning of fossil fuels.",
+        "A farmer who has planted corn for many years retires, and the field is left abandoned."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The diagram below represents interactions that occur between some organisms in an ecosystem. Which factor would most likely cause an increase in the number of frogs?",
+      "choices": [
+        "an increase in the number of deer",
+        "a decrease in the amount of grasses",
+        "an increase in the number of snakes",
+        "a decrease in the amount of trees"
+      ],
+      "image": "/images/exams/living-environment/january-2016/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Members of a bird-watching club observed the activities of three species of birds for an entire spring and summer. They noticed that the different species fed at different heights in the same pine tree. Which ecological concept is supported by this observation?",
+      "choices": [
+        "Organisms that feed on different foods in the same area of an ecosystem fill the same niche.",
+        "Organisms that live in the same ecosystem can occupy different niches in the ecosystem.",
+        "Different species feeding in the same ecosystem will eventually compete with each other, eliminating all the species except one.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which factor would be least likely to contribute to the development of a new species?",
+      "choices": [
+        "plentiful resources within the environment occupied by the species",
+        "increased genetic variation within the species",
+        "changes in the environment of the species",
+        "the ability of the species to increase its numbers by sexual reproduction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Water pollution as a result of fertilizer runoff from farms is harmful because it initially",
+      "choices": [
+        "changes the chemical composition of nearby streams and lakes",
+        "adds ozone to the atmosphere, increasing global temperatures",
+        "decreases the water temperature of streams and lakes",
+        "decreases the amount of nutrient recycling in lakes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Overfishing has depleted the rich harvests of fish from the oceans. As a solution, a large industry that cultivates shrimp and fish in warm coastal ponds has been developed. To make way for these ponds, mangrove forests are cut down. Local organisms are displaced. In order for people to decide if this new fish farming technology is a good long-term solution, they must consider",
+      "choices": [
+        "the risks and costs as well as the benefits",
+        "that the mangrove forests would probably die off someday anyway",
+        "that food production is always more important than any other concern",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2016/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which statement concerning the oxygen level in the lake can be inferred from the graphs?",
+      "choices": [
+        "Trout and whitefish require higher oxygen levels than do carp.",
+        "Carp are more sensitive to oxygen levels than are other fish.",
+        "The fish in this lake all require the same amount of oxygen for survival.",
+        "Walleye populations were highest when the oxygen levels were lowest."
+      ],
+      "image": "/images/exams/living-environment/january-2016/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the graphs below and on your knowledge of biology. The graphs\nshow the effect of sewage (human organic waste) flowing into a lake on the level of dissolved oxygen in the water\nand the size of different fish populations.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Which inference can be made from the graphs?",
+      "choices": [
+        "The increase in sewage waste from 1950 to 1970 was due to a decreasing human population.",
+        "The decrease in sewage waste shows that the environmental problems associated with land pollution have been solved.",
+        "Sewage waste is a good source of nutrients for most fish.",
+        "Increases in sewage waste were responsible for decreasing oxygen levels in the lake. Oxygen Content and Fish Population in a Lake Amount of Specific Substances 1950 1955 1960 1965 1970 Oxygen Sewage waste Relative Quantity of Fish 1950 1955 1960 1965 1970 Trout Carp Walleye Whitefish"
+      ],
+      "image": "/images/exams/living-environment/january-2016/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the graphs below and on your knowledge of biology. The graphs\nshow the effect of sewage (human organic waste) flowing into a lake on the level of dissolved oxygen in the water\nand the size of different fish populations.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The best explanation for the fact the emerald ash borer is not as great a problem in Asia as it is in the United States is that",
+      "choices": [
+        "there are few natural predators of the ash borer in the United States, while there are many in Asia",
+        "the same pesticides that work in Asia do not work on controlling the ash borer in the United States",
+        "only healthy ash borers arrived in the United States, while many unhealthy ash borers are present in the population in Asia",
+        "the ash borers are not as adapted to the climate in the United States as they are to the one in Asia"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 33 and 34 on the information below and on your knowledge of biology.\nThe emerald ash borer is an insect that was introduced into North America sometime\nin the 1990s. It probably arrived in the United States in wooden packing material carried in\ncargo ships or on airplanes coming from Asia. The ash borer was first reported killing ash\ntrees in Michigan in 2002. Since then, it has spread to Pennsylvania and New York.\nSince its arrival, the insect has destroyed tens of millions of trees. One of the ways the\nash borer has been able to spread so quickly is through the transport of wood that is infested\nwith their larvae. The USDA has proposed the introduction of Asian wasps to control the\nash borer population.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "One action that individuals can take to control the spread of the emerald ash borer is to",
+      "choices": [
+        "spray all the oak trees at one time with a variety of pesticides",
+        "plant only trees from Asia in yards and parks",
+        "plant more ash trees to replace those that are infected",
+        "use wood from only local sources for heating and for campfires"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 33 and 34 on the information below and on your knowledge of biology.\nThe emerald ash borer is an insect that was introduced into North America sometime\nin the 1990s. It probably arrived in the United States in wooden packing material carried in\ncargo ships or on airplanes coming from Asia. The ash borer was first reported killing ash\ntrees in Michigan in 2002. Since then, it has spread to Pennsylvania and New York.\nSince its arrival, the insect has destroyed tens of millions of trees. One of the ways the\nash borer has been able to spread so quickly is through the transport of wood that is infested\nwith their larvae. The USDA has proposed the introduction of Asian wasps to control the\nash borer population.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "A news release about production of farm-raised salmon contains the following information: \u0002 The program is mating targeted fish to concentrate key traits in Atlantic salmon stocks. \u0002 The three-year process includes spawning, tagging, and choice of parent fish. \u0002 The fish are weighed, measured, and monitored to identify those with the best growth rates. \u0002 The project examines the performance of fish to determine which fish to use to produce the next generation. These statements indicate that the producers are attempting to improve salmon through the use of",
+      "choices": [
+        "genetic engineering",
+        "homeostatic feedback",
+        "selective breeding",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The three graphs below show the population changes in two species of single-celled organisms that have been grown separately and together in identical environments. Which term is the most closely associated with the changes in relative population size shown in graph C?",
+      "choices": [
+        "mutation",
+        "artificial selection",
+        "genetic engineering",
+        "competition"
+      ],
+      "image": "/images/exams/living-environment/january-2016/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "When water is available and growth begins, the plant embryo inside the seed secretes enzymes to digest the starch stored in the seed. The enzymes in cells of the plant embryo are produced directly by the",
+      "choices": [
+        "ribosomes",
+        "nuclei",
+        "mitochondria",
+        "vacuoles"
+      ],
+      "image": "/images/exams/living-environment/january-2016/context_37_38.png",
+      "context": "Base your answers to questions 37 and 38 on \nthe diagram and information below and on your\nknowledge of biology. The diagram represents a \ngerminating bean seed that has been split open.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Plants are able to continue to grow and develop once the starch supply in the seed is gone, because they",
+      "choices": [
+        "develop roots to absorb starch from the environment",
+        "grow leaves, which use light energy for cell respiration",
+        "have chloroplasts and use light energy to make more food",
+        "produce more seeds, which contain additional food reserves Bean plant embryo Seed coat Stored starch Germinating bean seed (split open) Relative Population Size Graph A: Species 1 grown alone 50 Graph B: Species 2 grown alone 50 Graph C: The two species grown together 50 Days 0 2 4 6 8 10 12 14 16 18 KEY Species 1 Species 2"
+      ],
+      "image": "/images/exams/living-environment/january-2016/context_37_38.png",
+      "context": "Base your answers to questions 37 and 38 on \nthe diagram and information below and on your\nknowledge of biology. The diagram represents a \ngerminating bean seed that has been split open.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "An athlete might believe that there is a benefit to blood doping with red blood cells because it",
+      "choices": [
+        "could improve the delivery of oxygen to the muscles",
+        "could increase the amount of training necessary",
+        "would help to deliver necessary nutrient molecules to the cells",
+        "would help an athlete to fight disease"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 39 through 41 on the passage below and on your knowledge of biology.\nBlood Doping\nSome athletes who compete in endurance events, such as marathon runners or cyclists,\nbelieve that they will be more competitive if they can increase the number of red blood cells\nin their bloodstreams. One way of increasing the number of red blood cells in an athlete is\nto engage in blood doping.\nBlood doping is an illegal practice in which athletes harvest their own blood months\nbefore a competition, isolate the red blood cells, and freeze them. Just before the date of\nthe competition, the blood cells are returned to the athlete\u2019s bloodstream. Another type of\nblood doping involves using donated blood from another person (blood transfusions). \nIn either case, the athlete will have more red blood cells available than competitors who do\nnot engage in blood doping.\nAthletes who use their own blood cells to blood dope often become anemic as a result.\nAnemia is a condition caused by a lack of red blood cells and/or iron in the blood. Iron is a\nnecessary part of the pigment used to carry oxygen to the cells. Athletes who use donated\nblood to blood dope also run the risk of contracting a blood-borne disease.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Using blood doping to artificially increase the number of red blood cells in an athlete might lead to a long- term shortage of red blood cells because",
+      "choices": [
+        "red blood cells could stop being produced by meiosis",
+        "homeostasis could be disrupted in the athlete",
+        "red blood cells could attack and destroy the extra red blood cells",
+        "the athlete would no longer need red blood cells"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 39 through 41 on the passage below and on your knowledge of biology.\nBlood Doping\nSome athletes who compete in endurance events, such as marathon runners or cyclists,\nbelieve that they will be more competitive if they can increase the number of red blood cells\nin their bloodstreams. One way of increasing the number of red blood cells in an athlete is\nto engage in blood doping.\nBlood doping is an illegal practice in which athletes harvest their own blood months\nbefore a competition, isolate the red blood cells, and freeze them. Just before the date of\nthe competition, the blood cells are returned to the athlete\u2019s bloodstream. Another type of\nblood doping involves using donated blood from another person (blood transfusions). \nIn either case, the athlete will have more red blood cells available than competitors who do\nnot engage in blood doping.\nAthletes who use their own blood cells to blood dope often become anemic as a result.\nAnemia is a condition caused by a lack of red blood cells and/or iron in the blood. Iron is a\nnecessary part of the pigment used to carry oxygen to the cells. Athletes who use donated\nblood to blood dope also run the risk of contracting a blood-borne disease.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "An athlete who uses blood from another person for blood doping runs the risk of contracting a blood-borne disease because",
+      "choices": [
+        "white blood cells are not passed on through blood transfusions",
+        "blood is tested for pathogens before it is donated",
+        "pathogens can exist in the blood and be passed on through transfusions",
+        "iron is a pigment needed to carry oxygen"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 39 through 41 on the passage below and on your knowledge of biology.\nBlood Doping\nSome athletes who compete in endurance events, such as marathon runners or cyclists,\nbelieve that they will be more competitive if they can increase the number of red blood cells\nin their bloodstreams. One way of increasing the number of red blood cells in an athlete is\nto engage in blood doping.\nBlood doping is an illegal practice in which athletes harvest their own blood months\nbefore a competition, isolate the red blood cells, and freeze them. Just before the date of\nthe competition, the blood cells are returned to the athlete\u2019s bloodstream. Another type of\nblood doping involves using donated blood from another person (blood transfusions). \nIn either case, the athlete will have more red blood cells available than competitors who do\nnot engage in blood doping.\nAthletes who use their own blood cells to blood dope often become anemic as a result.\nAnemia is a condition caused by a lack of red blood cells and/or iron in the blood. Iron is a\nnecessary part of the pigment used to carry oxygen to the cells. Athletes who use donated\nblood to blood dope also run the risk of contracting a blood-borne disease.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The graph indicates that the number of species that have become extinct",
+      "choices": [
+        "has increased with increasing human population",
+        "has decreased with increasing human population",
+        "is not affected by the size of the human population",
+        "is greater than the size of the human population"
+      ],
+      "image": "/images/exams/living-environment/january-2016/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the graph below and on your knowledge of biology. The graph\nshows the number of species that have become extinct since 1800. It also shows the change in the size of the\nhuman population for the same period of time.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The rapid increase in human population between 1960 and 2010 is most likely the direct result of advances in",
+      "choices": [
+        "medical technology",
+        "space exploration",
+        "communication technology",
+        "marine exploration 60000 0 10000 20000 30000 40000 50000 Species Extinctions Species Extinctions and Human Population Size Human Population (millions) 6000 0 1000 2000 3000 4000 5000 7000 8000 Time 1800 1830 1860 1890 1920 1950 1980 2010 Species Extinctions Human Population Key Source:"
+      ],
+      "image": "/images/exams/living-environment/january-2016/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the graph below and on your knowledge of biology. The graph\nshows the number of species that have become extinct since 1800. It also shows the change in the size of the\nhuman population for the same period of time.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nThe diagram below represents a setup used in an experiment to determine the effect of\ntemperature on fermentation. Fermentation is a type of respiration in yeast that produces\nalcohol and a gas. Five setups were used. Each was kept at a different temperature. \nThe number of gas bubbles released in each tube was counted and recorded in the data\ntable below.\nRespiration in Yeast\nTemperature\n(\u00b0C)\nRate of Fermentation\n(gas bubbles per minute)\n15\n10\n20\n40\n25\n70\n30\n100\n35\n130\nWater bath\nYeast/glucose solution\nGas bubble\nWater\nLiving Environment\u2013Jan. \u201916\n[12]\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nLiving Environment\u2013Jan. \u201916\n[13]\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data, connect the points, and surround each point with a small circle.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nThe diagram below represents a setup used in an experiment to determine the effect of\ntemperature on fermentation. Fermentation is a type of respiration in yeast that produces\nalcohol and a gas. Five setups were used. Each was kept at a different temperature. \nThe number of gas bubbles released in each tube was counted and recorded in the data\ntable below.\nRespiration in Yeast\nTemperature\n(\u00b0C)\nRate of Fermentation\n(gas bubbles per minute)\n15\n10\n20\n40\n25\n70\n30\n100\n35\n130\nWater bath\nYeast/glucose solution\nGas bubble\nWater\nLiving Environment\u2013Jan. \u201916\n[12]\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nLiving Environment\u2013Jan. \u201916\n[13]\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "State the relationship between the rate of fermentation and temperature.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nThe diagram below represents a setup used in an experiment to determine the effect of\ntemperature on fermentation. Fermentation is a type of respiration in yeast that produces\nalcohol and a gas. Five setups were used. Each was kept at a different temperature. \nThe number of gas bubbles released in each tube was counted and recorded in the data\ntable below.\nRespiration in Yeast\nTemperature\n(\u00b0C)\nRate of Fermentation\n(gas bubbles per minute)\n15\n10\n20\n40\n25\n70\n30\n100\n35\n130\nWater bath\nYeast/glucose solution\nGas bubble\nWater\nLiving Environment\u2013Jan. \u201916\n[12]\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nLiving Environment\u2013Jan. \u201916\n[13]\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The number of bubbles produced at 27\u00b0C would be approximately",
+      "choices": [
+        "30",
+        "60",
+        "80",
+        "110 Temperature (\u00b0C) Rate of Fermentation (bubbles per minute) Respiration in Yeast Example:"
+      ],
+      "image": "/images/exams/living-environment/january-2016/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nThe diagram below represents a setup used in an experiment to determine the effect of\ntemperature on fermentation. Fermentation is a type of respiration in yeast that produces\nalcohol and a gas. Five setups were used. Each was kept at a different temperature. \nThe number of gas bubbles released in each tube was counted and recorded in the data\ntable below.\nRespiration in Yeast\nTemperature\n(\u00b0C)\nRate of Fermentation\n(gas bubbles per minute)\n15\n10\n20\n40\n25\n70\n30\n100\n35\n130\nWater bath\nYeast/glucose solution\nGas bubble\nWater\nLiving Environment\u2013Jan. \u201916\n[12]\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nLiving Environment\u2013Jan. \u201916\n[13]\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "The number of amino acid differences in the protein cytochrome c between chimpanzees and some other animals is shown in the table below. Comparison of Chimpanzee Cytochrome c to that of Other Animals Explain how the data in the table can be used to determine possible evolutionary relationships. Animal Number of Amino Acid Differences Chimpanzee 0 Dog 8 Dogfish shark 24 Rattlesnake 12 Rhesus monkey 1",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q48.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The best explanation for the increase in rabies, anthrax, and other diseases in humans is that the",
+      "choices": [
+        "decrease in the number of vultures has upset ecosystem stability",
+        "vulture population is being killed off by an increase in cases of human rabies",
+        "vultures are changing their feeding role from scavenger to decomposer",
+        "people are consuming scavengers that have eaten diseased vultures"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 49 and 50 on the information below and on your knowledge of biology.\nSince 1980, the vulture population in India has declined from 40 million to 60 thousand\ndue to poisoning by a pain reliever used in cattle. If only 1% of the cattle carcasses fed on\nby vultures are animals that have been treated with the drug, it can lead to a drastic decline\nin the vulture population. The grim picture is that over 10% of the carcasses have been\nfound to contain this drug.\nVultures feed exclusively on the carcasses of dead animals. This helps to prevent the\nspread of diseases such as rabies and anthrax among wildlife, livestock, and humans.\nWithout as many vultures present, other scavengers such as dogs have moved in and taken\nadvantage of the newly available food. The abundance of these other scavengers has led to\nan increase in the number of cases of human rabies and an outbreak of tuberculosis,\nanthrax, and foot-and-mouth disease. These diseases are not spread to humans by vultures.\nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Dogs can be vaccinated against the rabies virus. When a vaccinated dog is exposed to the rabies virus, the dog will most likely",
+      "choices": [
+        "develop a mutation that will make the dog sick and the dog will be unable to recover",
+        "have a damaged immune system and will not be able to be protected",
+        "have an immune response and will be able to fight the microbes",
+        ""
+      ],
+      "image": null,
+      "context": "Base your answers to questions 49 and 50 on the information below and on your knowledge of biology.\nSince 1980, the vulture population in India has declined from 40 million to 60 thousand\ndue to poisoning by a pain reliever used in cattle. If only 1% of the cattle carcasses fed on\nby vultures are animals that have been treated with the drug, it can lead to a drastic decline\nin the vulture population. The grim picture is that over 10% of the carcasses have been\nfound to contain this drug.\nVultures feed exclusively on the carcasses of dead animals. This helps to prevent the\nspread of diseases such as rabies and anthrax among wildlife, livestock, and humans.\nWithout as many vultures present, other scavengers such as dogs have moved in and taken\nadvantage of the newly available food. The abundance of these other scavengers has led to\nan increase in the number of cases of human rabies and an outbreak of tuberculosis,\nanthrax, and foot-and-mouth disease. These diseases are not spread to humans by vultures.\nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Using the metric ruler represented below, determine the diameter in millimeters (mm) of the ZOI for antibiotic disk A shown below. ZOI Disk A ___________________ mm",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q51.png",
+      "context": "Base your answers to questions 51 through 54 on the information below and on your knowledge of biology.\nScientists will often grow bacteria in prepared petri dishes. In some experiments, \nthe petri dish will also contain paper disks soaked in a particular antibiotic. The area where\nthe bacteria do not grow is called the zone of inhibition, or ZOI. The diameter of the ZOI \nindicates the effectiveness of the antibiotic.\nThe ZOI data collected by one scientist while trying to determine which disk (A, B, C,\nor D) is most effective at killing Streptococcus bacteria are: Disk D\u20139 mm, Disk B\u20138 mm,\nDisk C\u20130 mm.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Insert the appropriate heading (with units) for the second column in the data table below and record the data from this investigation. Disk A 0 D 1 2 3 4 5 6 7 8 10 9 11 12 13 14 15 metric (cm) Bacteria growth Area of no growth (ZOI) Antibiotic disk A 1 2 3 4 5 6 7 8 10 9 11 12 13 14 15 metric (cm) Bacteria growth Area of no growth (ZOI)",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q52.png",
+      "context": "Base your answers to questions 51 through 54 on the information below and on your knowledge of biology.\nScientists will often grow bacteria in prepared petri dishes. In some experiments, \nthe petri dish will also contain paper disks soaked in a particular antibiotic. The area where\nthe bacteria do not grow is called the zone of inhibition, or ZOI. The diameter of the ZOI \nindicates the effectiveness of the antibiotic.\nThe ZOI data collected by one scientist while trying to determine which disk (A, B, C,\nor D) is most effective at killing Streptococcus bacteria are: Disk D\u20139 mm, Disk B\u20138 mm,\nDisk C\u20130 mm.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Which disk is most likely the control for this experiment? Support your answer. Disk: _______",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q53.png",
+      "context": "Base your answers to questions 51 through 54 on the information below and on your knowledge of biology.\nScientists will often grow bacteria in prepared petri dishes. In some experiments, \nthe petri dish will also contain paper disks soaked in a particular antibiotic. The area where\nthe bacteria do not grow is called the zone of inhibition, or ZOI. The diameter of the ZOI \nindicates the effectiveness of the antibiotic.\nThe ZOI data collected by one scientist while trying to determine which disk (A, B, C,\nor D) is most effective at killing Streptococcus bacteria are: Disk D\u20139 mm, Disk B\u20138 mm,\nDisk C\u20130 mm.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the letter of the most effective antibiotic and explain why you selected that antibiotic. Letter: _______",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the information below and on your knowledge of biology.\nScientists will often grow bacteria in prepared petri dishes. In some experiments, \nthe petri dish will also contain paper disks soaked in a particular antibiotic. The area where\nthe bacteria do not grow is called the zone of inhibition, or ZOI. The diameter of the ZOI \nindicates the effectiveness of the antibiotic.\nThe ZOI data collected by one scientist while trying to determine which disk (A, B, C,\nor D) is most effective at killing Streptococcus bacteria are: Disk D\u20139 mm, Disk B\u20138 mm,\nDisk C\u20130 mm.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "55",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q55.png",
+      "context": "Base your answer to question 55 on the information below and on your knowledge of biology.\nTermites depend on microbes living in their guts to digest molecules of the large, \ncomplex carbohydrate, cellulose. Cellulose is the part of wood termites feed on. \nThe microbes produce a substance called cellulase, which speeds up the breakdown of \ncellulose into molecules of glucose. Termites cannot make cellulase on their own. Without\nthe help of the microbes, the termites are not able to absorb the nutrients that they need\nto survive.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "For many years, health officials had encouraged using antibacterial hand soap. Today, many scientists recommend using hand soap with no added antibacterial substances. State one reason why using antibacterial hand soap may no longer be recommended.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q56.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "State why the populations decrease between July and December.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/context_57_58.png",
+      "context": "Base your answers to questions 57 and 58 on the chart below and on your knowledge of biology. The chart\nshows seasonal changes in an ecosystem and the overall carrying capacity of the ecosystem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "58",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/context_57_58.png",
+      "context": "Base your answers to questions 57 and 58 on the chart below and on your knowledge of biology. The chart\nshows seasonal changes in an ecosystem and the overall carrying capacity of the ecosystem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "State one specific benefit increased recycling efforts would have on the environment in New York State.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q59.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nSolid Waste Management Act of 1988\nIn the Solid Waste Management Act of 1988, the New York State legislature established\nour State Solid Waste Management Policy. The solid waste management priorities in \nNew York State are:\n(a) first, to reduce the amount of solid waste generated;\n(b) second, to reuse material for the purpose for which it was originally intended or to\nrecycle material that cannot be reused;\n(c) third, to recover, in an environmentally acceptable manner, energy from solid waste\nthat can not be economically and technically reused or recycled; and\n(d) fourth, to dispose of solid waste that is not being reused, recycled or from which\nenergy is not being recovered, by land burial or other methods approved by the\ndepartment.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify one factor that would hinder recycling efforts within a community and state how it could be corrected. Factor: Correction:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nSolid Waste Management Act of 1988\nIn the Solid Waste Management Act of 1988, the New York State legislature established\nour State Solid Waste Management Policy. The solid waste management priorities in \nNew York State are:\n(a) first, to reduce the amount of solid waste generated;\n(b) second, to reuse material for the purpose for which it was originally intended or to\nrecycle material that cannot be reused;\n(c) third, to recover, in an environmentally acceptable manner, energy from solid waste\nthat can not be economically and technically reused or recycled; and\n(d) fourth, to dispose of solid waste that is not being reused, recycled or from which\nenergy is not being recovered, by land burial or other methods approved by the\ndepartment.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State one community action, other than recycling, that could be implemented to address one part of the Solid Waste Management Act of 1988 and explain how this action would improve the environment of the community. Community Action: Improvement:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nSolid Waste Management Act of 1988\nIn the Solid Waste Management Act of 1988, the New York State legislature established\nour State Solid Waste Management Policy. The solid waste management priorities in \nNew York State are:\n(a) first, to reduce the amount of solid waste generated;\n(b) second, to reuse material for the purpose for which it was originally intended or to\nrecycle material that cannot be reused;\n(c) third, to recover, in an environmentally acceptable manner, energy from solid waste\nthat can not be economically and technically reused or recycled; and\n(d) fourth, to dispose of solid waste that is not being reused, recycled or from which\nenergy is not being recovered, by land burial or other methods approved by the\ndepartment.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify one process that is responsible for the variations in coloration observed in guppies.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 and 63 on the information below and on your knowledge of biology.\nGuppies are small, tropical freshwater fish that display wide variation in coloration.\nSome have bright splotches of blue, red, and orange, while others are quite drab and dull.\nResearch has shown that females prefer to mate with brightly colored males; however, this\ntrait makes them more likely to be seen. Guppies, like all species, must be able to both sur-\nvive and reproduce in order to avoid extinction.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Both types of adaptations in coloration (bright and drab) can be considered advantageous for guppies. Identify one factor that could affect which color trait is selected for in a particular environment.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q63.png",
+      "context": "Base your answers to questions 62 and 63 on the information below and on your knowledge of biology.\nGuppies are small, tropical freshwater fish that display wide variation in coloration.\nSome have bright splotches of blue, red, and orange, while others are quite drab and dull.\nResearch has shown that females prefer to mate with brightly colored males; however, this\ntrait makes them more likely to be seen. Guppies, like all species, must be able to both sur-\nvive and reproduce in order to avoid extinction.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/context_64_67.png",
+      "context": "Base your answers to question 64\u201367 on the information below and on your knowledge of biology.\n64\u201367 All organisms need to reproduce for the continuation of their species. Discuss the process of\nreproduction in humans. In your answer, be sure to:\n\u2022 identify one hormone present in a female that is involved in regulating the reproductive cycle   [1]\n\u2022 state one way the nucleus of a sex cell is different from the nucleus of a body cell   [1]\n\u2022 state how the normal chromosome number for humans is maintained from one generation to the next\n[1]\n\u2022 identify one action by the mother that can influence the development of the embryo and state a result\nof that influence   [1]\nLiving Environment\u2013Jan. \u201916\n[20]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "64\u201367 All organisms need to reproduce for the continuation of their species. Discuss the process of reproduction in humans. In your answer, be sure to: \u2022 identify one hormone present in a female that is involved in regulating the reproductive cycle \u2022 state one way the nucleus of a sex cell is different from the nucleus of a body cell \u2022 state how the normal chromosome number for humans is maintained from one generation to the next \u2022",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/context_64_67.png",
+      "context": "Base your answers to question 64\u201367 on the information below and on your knowledge of biology.\n64\u201367 All organisms need to reproduce for the continuation of their species. Discuss the process of\nreproduction in humans. In your answer, be sure to:\n\u2022 identify one hormone present in a female that is involved in regulating the reproductive cycle   [1]\n\u2022 state one way the nucleus of a sex cell is different from the nucleus of a body cell   [1]\n\u2022 state how the normal chromosome number for humans is maintained from one generation to the next\n[1]\n\u2022 identify one action by the mother that can influence the development of the embryo and state a result\nof that influence   [1]\nLiving Environment\u2013Jan. \u201916\n[20]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Explain why some elephant species did not survive.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q68.png",
+      "context": "Base your answers to questions 68 through 70 on the information below and on your knowledge of biology.\nEVOLUTION OF THE ELEPHANT\nToday\u2019s elephants are the result of a long process of evolution. Over millions of years,\nsmall changes were passed from one generation to the next. The first fossil elephant species\nwere small, but over time, they increased both in size and weight. The three species alive\ntoday are the sole survivors of a once much more widespread group.\nSource: www.factmonster.com/dk/science/encyclopedia/evolution.html",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Provide a possible explanation for the increase in size and weight of the elephants over millions of years.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q69.png",
+      "context": "Base your answers to questions 68 through 70 on the information below and on your knowledge of biology.\nEVOLUTION OF THE ELEPHANT\nToday\u2019s elephants are the result of a long process of evolution. Over millions of years,\nsmall changes were passed from one generation to the next. The first fossil elephant species\nwere small, but over time, they increased both in size and weight. The three species alive\ntoday are the sole survivors of a once much more widespread group.\nSource: www.factmonster.com/dk/science/encyclopedia/evolution.html",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Explain why it took so long for elephants to evolve in this way, while insects and bacteria can undergo evolution much more rapidly.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q70.png",
+      "context": "Base your answers to questions 68 through 70 on the information below and on your knowledge of biology.\nEVOLUTION OF THE ELEPHANT\nToday\u2019s elephants are the result of a long process of evolution. Over millions of years,\nsmall changes were passed from one generation to the next. The first fossil elephant species\nwere small, but over time, they increased both in size and weight. The three species alive\ntoday are the sole survivors of a once much more widespread group.\nSource: www.factmonster.com/dk/science/encyclopedia/evolution.html",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Identify one way in which the process of growth of a human embryo is similar to the process of reproduction in a single-celled organism.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q71.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Enzymes and antibodies are molecules that have specific shapes that give them different functions. Select either enzyme or antibody, and explain how the shape of the molecule you chose helps it carry out its normal function. Molecule:",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q72.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "An experiment was conducted to determine the effect of activity on pulse rate. Data were collected and recorded in the table below. Pulse Rate Which activity most likely corresponds to the pulse rate of the person while sleeping?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": "/images/exams/living-environment/january-2016/q73.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "The diagram below represents what occurred when an onion cell and a red blood cell were placed in distilled water. The best explanation for why the onion cells do not burst, while red blood cells often do, is that",
+      "choices": [
+        "the red blood cells have only a cell membrane, which does not protect them from bursting",
+        "the onion cells do not have a cell wall that could protect them from bursting",
+        "the onion cells have a cell membrane, which can protect them from bursting",
+        "the red blood cells have a cell wall, which does not protect them from bursting Red onion cell - swells up Red blood cell - bursts Distilled water Distilled water Activity # Pulse Rate Recorded (per minute) 1 146 2 86 3 55 4 75"
+      ],
+      "image": "/images/exams/living-environment/january-2016/q74.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the distribution of some molecules inside and outside of an artificial cell over a period of time. Which statement is best supported by the diagram?",
+      "choices": [
+        "Oxygen molecules entered the cell over time by active transport.",
+        "Water molecules are too large to enter or leave the cell, so they remained where they were at the start of the investigation.",
+        "Protein molecules are kept inside of the cell because the cell needs them.",
+        "The protein molecules are too large to diffuse out of the cell."
+      ],
+      "image": "/images/exams/living-environment/january-2016/q75.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "A microscope slide viewed with high power can most likely be damaged by",
+      "choices": [
+        "adding distilled water",
+        "adding salt water",
+        "rotating the coarse adjustment knob",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "A student measured her pulse rate for a 15-second period, three separate times, and recorded the results. She then calculated her pulse rate for 1 minute. Complete the data table below by filling in the missing information. Pulse Rates",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q77.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "The diagram below represents a laboratory technique. State one reason a student would use this technique during a scientific investigation. Trial Number 15 Second Pulse Rate 1 Minute Pulse Rate 1 19 76 2 18 3 17 68 Average 72",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q78.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "A student wished to determine the evolutionary relationships between three unidentified plant species (X, Y, and Z) and a known species Botana curus. Using an indicator powder to test for the presence of a specific chemical, the student made the observations shown in the data table below. In the space provided in the data table, write an observation the student would expect to make if species Y were more closely related to Botana curus than it was to species X and Z. Student Observations",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q79.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "A student proposes that, if volunteers warm up before squeezing a clothespin for one minute, they will increase the number of times that they can squeeze it without tiring. He states that this is because their muscles will be better prepared for exercise. The data from an experiment are shown in the data table below. Student Results Which trial from the chart above provides the best data to support his claim? Support your answer. Trial: ___________ Trial Group Group Description Average Number of Squeezes/Minute 1 1 10 students who warm up before squeezing 72 1 2 10 students who do not warm up before squeezing 73 2 3 25 students who warm up before squeezing 67 2 4 25 students who do not warm up before squeezing 65 Plant Species Observations When Mixed With Indicator Powder Botana curus produced a lot of bubbles/",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/q80.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Based on the information in the chart, which statement is correct?",
+      "choices": [
+        "Finches that eat animals always have larger beaks than finches that eat plants.",
+        "Finches that eat plants all have very large beaks.",
+        "Finches with crushing bills eat only animals for food.",
+        "Finches with grasping bills usually eat animals for food."
+      ],
+      "image": "/images/exams/living-environment/january-2016/context_81_82.png",
+      "context": "Base your answers to questions 81 and 82 on the information in the diagram below and on your knowledge\nof biology.\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "The first species of finch to inhabit the Galapagos Islands thousands of years ago was most likely an insect eater. Today, finch species on these islands feed on a great variety of plants and animals. One early event that probably occurred that led to this feeding diversity was that",
+      "choices": [
+        "members of the ancestral finch species had to decide if they would be better off feeding on seeds rather than on relatively scarce insect species",
+        "some of the finch ancestors were born with beaks that were different from the beaks of other finches, and could eat both insects and seeds",
+        "some members of the ancestral species that fed on insects began to die off, leaving few offspring",
+        "another species of bird, a seed eater, arrived on the islands and began to breed with members of the ancestral species Large ground finch Vegetarian finch Large tree finch Small tree finch Woodpecker finch Warbler finch Cactus finch Sharp-billed ground finch Small ground finch Medium ground finch E d g e c r u s h i n g B i t i n g t i p s C r u s h i n g b i l l s Mainly plant food Mainly animal food G r a s p i n g b i l l s All animal food P r o b i n g P r o b i n g b i l l s from: Galapagos:"
+      ],
+      "image": "/images/exams/living-environment/january-2016/context_81_82.png",
+      "context": "Base your answers to questions 81 and 82 on the information in the diagram below and on your knowledge\nof biology.\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Describe how the beaks of the bird species D, E, F, and J that eat fruits and seeds differ from the beaks of the bird species that eat only nectar.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the diagram below, which shows the evolution of Hawaiian\nHoney Creepers from a common ancestor. As their ancestors spread to new islands, they found a variety of dif-\nferent food sources. Gradually, behaviors and beak structures evolved that took advantage of these different food\nsources, resulting in the formation of several new species.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Other types of birds arrived at the islands, but they found it difficult to compete with the many forms of honey creepers. Explain why the honey creepers were able to compete so successfully against the new arrivals.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the diagram below, which shows the evolution of Hawaiian\nHoney Creepers from a common ancestor. As their ancestors spread to new islands, they found a variety of dif-\nferent food sources. Gradually, behaviors and beak structures evolved that took advantage of these different food\nsources, resulting in the formation of several new species.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2016/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the diagram below, which shows the evolution of Hawaiian\nHoney Creepers from a common ancestor. As their ancestors spread to new islands, they found a variety of dif-\nferent food sources. Gradually, behaviors and beak structures evolved that took advantage of these different food\nsources, resulting in the formation of several new species.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

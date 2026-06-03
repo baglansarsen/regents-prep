@@ -18,6 +18,7 @@ import { LivesProvider } from './src/context/LivesContext'
 import { SubscriptionProvider } from './src/context/SubscriptionContext'
 import { PetProvider }    from './src/context/PetContext'
 import { SpeechProvider } from './src/context/SpeechContext'
+import { StreakProvider } from './src/context/StreakContext'
 import AppNavigator from './src/navigation/AppNavigator'
 
 if (Platform.OS !== 'web') SplashScreen.preventAutoHideAsync()
@@ -69,7 +70,11 @@ export default function App() {
     // In Expo Go the module is absent; on web TurboModuleRegistry itself may be
     // undefined — optional chaining makes both cases a clean no-op.
     if (!TurboModuleRegistry?.get?.('RNGoogleMobileAdsModule')) return
-    import('react-native-google-mobile-ads')
+    // Show the ATT prompt before accessing the IDFA, then initialize AdMob.
+    import('./src/utils/adTracking')
+      .then(({ requestAdTracking }) => requestAdTracking())
+      .catch(() => {})
+      .then(() => import('react-native-google-mobile-ads'))
       .then(({ default: MobileAds }) => MobileAds().initialize())
       .catch((e) => console.warn('[AdMob] init error:', e))
   }, [])
@@ -84,7 +89,9 @@ export default function App() {
               <LivesProvider>
                 <PetProvider>
                   <SpeechProvider>
-                    <Inner />
+                    <StreakProvider>
+                      <Inner />
+                    </StreakProvider>
                   </SpeechProvider>
                 </PetProvider>
               </LivesProvider>

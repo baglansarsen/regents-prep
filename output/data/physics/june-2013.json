@@ -1,0 +1,1086 @@
+{
+  "subject": "physics",
+  "session": "june-2013",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which term identifies a scalar quantity?",
+      "choices": [
+        "displacement",
+        "momentum",
+        "velocity",
+        "time"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Two 20.-newton forces act concurrently on an object. What angle between these forces will produce a resultant force with the greatest magnitude?",
+      "choices": [
+        "0\u00b0",
+        "45\u00b0",
+        "90.\u00b0",
+        "180.\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "A car traveling west in a straight line on a highway decreases its speed from 30.0 meters per second to 23.0 meters per second in 2.00 seconds. The car\u2019s average acceleration during this time interval is",
+      "choices": [
+        "3.5 m/s2 east",
+        "3.5 m/s2 west",
+        "13 m/s2 east",
+        "13 m/s2 west"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In a race, a runner traveled 12 meters in 4.0 seconds as she accelerated uniformly from rest. The magnitude of the acceleration of the runner was",
+      "choices": [
+        "0.25 m/s2",
+        "1.5 m/s2",
+        "3.0 m/s2",
+        "48 m/s2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "A projectile is launched at an angle above the ground. The horizontal component of the projectile\u2019s velocity, vx, is initially 40. meters per second. The vertical component of the projectile\u2019s velocity, vy, is initially 30. meters per second. What are the components of the projectile\u2019s velocity after 2.0 seconds of flight? [Neglect friction.]",
+      "choices": [
+        "vx = 40. m/s and vy = 10. m/s",
+        "vx = 40. m/s and vy = 30. m/s",
+        "vx = 20. m/s and vy = 10. m/s",
+        "vx = 20. m/s and vy = 30. m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A ball is thrown with an initial speed of 10. meters per second. At what angle above the horizontal should the ball be thrown to reach the greatest height?",
+      "choices": [
+        "0\u00b0",
+        "30.\u00b0",
+        "45\u00b0",
+        "90.\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which object has the greatest inertia?",
+      "choices": [
+        "a 0.010-kg bullet traveling at 90. m/s",
+        "a 30.-kg child traveling at 10. m/s on her bike",
+        "a 490-kg elephant walking with a speed of 1.0 m/s",
+        "a 1500-kg car at rest in a parking lot"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "An 8.0-newton wooden block slides across a horizontal wooden floor at constant velocity. What is the magnitude of the force of kinetic friction between the block and the floor?",
+      "choices": [
+        "2.4 N",
+        "3.4 N",
+        "8.0 N",
+        "27 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which situation represents a person in equilibrium?",
+      "choices": [
+        "a child gaining speed while sliding down a slide",
+        "a woman accelerating upward in an elevator",
+        "a man standing still on a bathroom scale",
+        "a teenager driving around a corner in his car"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A rock is thrown straight up into the air. At the highest point of the rock\u2019s path, the magnitude of the net force acting on the rock is",
+      "choices": [
+        "less than the magnitude of the rock\u2019s weight, but greater than zero",
+        "greater than the magnitude of the rock\u2019s weight",
+        "the same as the magnitude of the rock\u2019s weight",
+        "zero"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The diagram below shows a compressed spring between two carts initially at rest on a horizontal, frictionless surface. Cart A has a mass of 2 kilograms and cart B has a mass of 1 kilogram. A string holds the carts together. The string is cut and the carts move apart. Compared to the magnitude of the force the spring exerts on cart A, the magnitude of the force the spring exerts on cart B is",
+      "choices": [
+        "the same",
+        "half as great",
+        "twice as great",
+        "four times as great"
+      ],
+      "image": "/images/exams/physics/june-2013/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "An 8.0-newton block is accelerating down a frictionless ramp inclined at 15\u00b0 to the horizontal, as shown in the diagram below. What is the magnitude of the net force causing the block\u2019s acceleration?",
+      "choices": [
+        "0 N",
+        "2.1 N",
+        "7.7 N",
+        "8.0 N"
+      ],
+      "image": "/images/exams/physics/june-2013/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "At a certain location, a gravitational force with a magnitude of 350 newtons acts on a 70.-kilogram astronaut. What is the magnitude of the gravitational field strength at this location?",
+      "choices": [
+        "0.20 kg/N",
+        "5.0 N/kg",
+        "9.8 m/s2",
+        "25 000 N\u2022kg"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "A spring gains 2.34 joules of elastic potential energy as it is compressed 0.250 meter from its equilibrium position. What is the spring constant of this spring?",
+      "choices": [
+        "9.36 N/m",
+        "18.7 N/m",
+        "37.4 N/m",
+        "74.9 N/m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "When a teacher shines light on a photocell attached to a fan, the blades of the fan turn. The brighter the light shone on the photocell, the faster the blades turn. Which energy conversion is illustrated by this demonstration?",
+      "choices": [
+        "light \u2192thermal \u2192mechanical",
+        "light \u2192nuclear \u2192thermal",
+        "light \u2192electrical \u2192mechanical",
+        "light \u2192mechanical \u2192chemical"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which statement describes a characteristic common to all electromagnetic waves and mechanical waves?",
+      "choices": [
+        "Both types of waves travel at the same speed.",
+        "Both types of waves require a material medium for propagation.",
+        "Both types of waves propagate in a vacuum.",
+        "Both types of waves transfer energy."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "An electromagnetic wave is produced by charged particles vibrating at a rate of 3.9 \u00d7 108 vibrations per second. The electromagnetic wave is classified as",
+      "choices": [
+        "a radio wave",
+        "an infrared wave",
+        "an x ray",
+        "visible light"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The energy of a sound wave is most closely related to the wave\u2019s",
+      "choices": [
+        "frequency",
+        "amplitude",
+        "wavelength",
+        "speed"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "A sound wave traveling eastward through air causes the air molecules to",
+      "choices": [
+        "vibrate east and west",
+        "vibrate north and south",
+        "move eastward, only",
+        "move northward, only"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "What is the speed of light (f = 5.09 \u00d7 1014 Hz) in ethyl alcohol?",
+      "choices": [
+        "4.53 \u00d7 10\u22129 m/s",
+        "2.43 \u00d7 102 m/s",
+        "1.24 \u00d7 108 m/s",
+        "2.21 \u00d7 108 m/s 15\u00b0 Horizontal 8.0 N a Frictionless ramp 2 kg 1 kg B A"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "In the diagram below, an ideal pendulum released from position A swings freely to position B. As the pendulum swings from A to B, its total mechanical energy",
+      "choices": [
+        "decreases, then increases",
+        "increases, only",
+        "increases, then decreases",
+        "remains the same"
+      ],
+      "image": "/images/exams/physics/june-2013/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a periodic wave. Which two points on the wave are out of phase?",
+      "choices": [
+        "A and C",
+        "B and F",
+        "C and E",
+        "D and G"
+      ],
+      "image": "/images/exams/physics/june-2013/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A dry plastic rod is rubbed with wool cloth and then held near a thin stream of water from a faucet. The path of the stream of water is changed, as represented in the diagram below. Which force causes the path of the stream of water to change due to the plastic rod?",
+      "choices": [
+        "nuclear",
+        "magnetic",
+        "electrostatic",
+        "gravitational Plastic rod Stream of water Faucet A B C D E F G H A B"
+      ],
+      "image": "/images/exams/physics/june-2013/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A distance of 1.0 \u00d7 10\u22122 meter separates successive crests of a periodic wave produced in a shallow tank of water. If a crest passes a point in the tank every 4.0 \u00d7 10\u22121 second, what is the speed of this wave?",
+      "choices": [
+        "2.5 \u00d7 10\u22124 m/s",
+        "4.0 \u00d7 10\u22123 m/s",
+        "2.5 \u00d7 10\u22122 m/s",
+        "4.0 \u00d7 10\u22121 m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "One vibrating 256-hertz tuning fork transfers energy to another 256-hertz tuning fork, causing the second tuning fork to vibrate. This phenomenon is an example of",
+      "choices": [
+        "diffraction",
+        "reflection",
+        "refraction",
+        "resonance"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Sound waves are produced by the horn of a truck that is approaching a stationary observer. Compared to the sound waves detected by the driver of the truck, the sound waves detected by the observer have a greater",
+      "choices": [
+        "wavelength",
+        "frequency",
+        "period",
+        "speed"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The electronvolt is a unit of",
+      "choices": [
+        "energy",
+        "charge",
+        "electric field strength",
+        "electric potential difference"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which particle would produce a magnetic field?",
+      "choices": [
+        "a neutral particle moving in a straight line",
+        "a neutral particle moving in a circle",
+        "a stationary charged particle",
+        "a moving charged particle"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "A physics student takes her pulse and determines that her heart beats periodically 60 times in 60 seconds. The period of her heartbeat is",
+      "choices": [
+        "1 Hz",
+        "60 Hz",
+        "1 s",
+        "60 s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Moving 4.0 coulombs of charge through a circuit requires 48 joules of electric energy. What is the potential difference across this circuit?",
+      "choices": [
+        "190 V",
+        "48 V",
+        "12 V",
+        "4.0 V"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The diagram below shows currents in a segment of an electric circuit. What is the reading of ammeter A?",
+      "choices": [
+        "1 A",
+        "5 A",
+        "9 A",
+        "15 A"
+      ],
+      "image": "/images/exams/physics/june-2013/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "An electric dryer consumes 6.0 \u00d7 106 joules of electrical energy when operating at 220 volts for 1.8 \u00d7 103 seconds. During operation, the dryer draws a current of",
+      "choices": [
+        "10. A",
+        "15 A",
+        "9.0 \u00d7 102 A",
+        "3.3 \u00d7 103 A"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which net charge could be found on an object?",
+      "choices": [
+        "+4.80 \u00d7 10\u221219 C",
+        "+2.40 \u00d7 10\u221219 C",
+        "\u22122.40 \u00d7 10\u221219 C",
+        "\u22125.60 \u00d7 10\u221219 C"
+      ],
+      "image": "/images/exams/physics/june-2013/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "A photon is emitted as the electron in a hydrogen atom drops from the n = 5 energy level directly to the n = 3 energy level. What is the energy of the emitted photon?",
+      "choices": [
+        "0.85 eV",
+        "0.97 eV",
+        "1.51 eV",
+        "2.05 eV"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "In a process called pair production, an energetic gamma ray is converted into an electron and a positron. It is not possible for a gamma ray to be converted into two electrons because",
+      "choices": [
+        "charge must be conserved",
+        "momentum must be conserved",
+        "mass-energy must be conserved",
+        "baryon number must be conserved 7A 3A 5A A"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The approximate length of an unsharpened No. 2 pencil is",
+      "choices": [
+        "2.0 \u00d7 10\u22122 m",
+        "2.0 \u00d7 10\u22121 m",
+        "2.0 \u00d7 100 m",
+        "2.0 \u00d7 101 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The diagram below shows an 8.0-kilogram cart moving to the right at 4.0 meters per second about to make a head-on collision with a 4.0-kilogram cart moving to the left at 6.0 meters per second. After the collision, the 4.0-kilogram cart moves to the right at 3.0 meters per second. What is the velocity of the 8.0-kilogram cart after the collision?",
+      "choices": [
+        "0.50 m/s left",
+        "0.50 m/s right",
+        "5.5 m/s left",
+        "5.5 m/s right"
+      ],
+      "image": "/images/exams/physics/june-2013/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Four forces act concurrently on a block on a horizontal surface as shown in the diagram below. As a result of these forces, the block",
+      "choices": [
+        "moves at constant speed to the right",
+        "moves at constant speed to the left",
+        "accelerates to the right",
+        "accelerates to the left"
+      ],
+      "image": "/images/exams/physics/june-2013/q38.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "If a motor lifts a 400.-kilogram mass a vertical distance of 10. meters in 8.0 seconds, the minimum power generated by the motor is",
+      "choices": [
+        "3.2 \u00d7 102 W",
+        "5.0 \u00d7 102 W",
+        "4.9 \u00d7 103 W",
+        "3.2 \u00d7 104 W"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "A 4.0-kilogram object is accelerated at 3.0 meters per second2 north by an unbalanced force. The same unbalanced force acting on a 2.0-kilogram object will accelerate this object toward the north at",
+      "choices": [
+        "12 m/s2",
+        "6.0 m/s2",
+        "3.0 m/s2",
+        "1.5 m/s2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "An electron is located in an electric field of magnitude 600. newtons per coulomb. What is the magnitude of the electrostatic force acting on the electron?",
+      "choices": [
+        "3.75 \u00d7 1021 N",
+        "6.00 \u00d7 102 N",
+        "9.60 \u00d7 10\u221217 N",
+        "2.67 \u00d7 10\u221222 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The current in a wire is 4.0 amperes. The time required for 2.5 \u00d7 1019 electrons to pass a certain point in the wire is",
+      "choices": [
+        "1.0 s",
+        "0.25 s",
+        "0.50 s",
+        "4.0 s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "When two point charges of magnitude q1 and q2 are separated by a distance, r, the magnitude of the electrostatic force between them is F. What would be the magnitude of the electrostatic force between point charges 2q1 and 4q2 when separated by a distance of 2r?",
+      "choices": [
+        "F",
+        "2F",
+        "16F",
+        "4F"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "The composition of a meson with a charge of \u22121 elementary charge could be",
+      "choices": [
+        "sc_",
+        "d s s",
+        "ub _",
+        "u_ c_ d _ Block 80.N 120.N 100.N 80.N 8.0 kg 4.0 kg 4.0 m/s Frictionless, horizontal surface 6.0 m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Which graph represents the relationship between the kinetic energy and the speed of a freely falling object?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/q45.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Which diagram represents the electric field between two oppositely charged conducting spheres?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/q46.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "written",
+      "text": "Which graph represents the relationship between the magnitude of the gravitational force, Fg, between two masses and the distance, r, between the centers of the masses?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/q47.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "The diagram below shows two waves traveling toward each other at equal speed in a uniform medium. When both waves are in the region between points A and B, they will undergo",
+      "choices": [
+        "diffraction",
+        "the Doppler effect",
+        "destructive interference",
+        "constructive interference ( 4 ) ( 1 ) ( 2 ) ( 3 ) + \u2013 + \u2013 \u2013 + + \u2013 Speed Kinetic Energy ( 1 ) Speed Kinetic Energy ( 2 ) Speed Kinetic Energy ( 3 ) Speed ( 4 ) Kinetic Energy A B x x x r Fg ( 1 ) r Fg ( 4 ) ( 2 ) Fg r Fg ( 3 ) r"
+      ],
+      "image": "/images/exams/physics/june-2013/q48.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "written",
+      "text": "The diagram below shows a series of straight wave fronts produced in a shallow tank of water approaching a small opening in a barrier. Which diagram represents the appearance of the wave fronts after passing through the opening in the barrier?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The graph below represents the relationship between energy and the equivalent mass from which it can be converted. The slope of this graph represents",
+      "choices": [
+        "c",
+        "c2",
+        "g",
+        "g2 Energy Equivalent Mass 1.4 cm ( 3 ) 0.7 cm ( 4 ) 1.4 cm ( 1 ) 0.7 cm ( 2 ) 1.4 cm Wave fronts Barrier"
+      ],
+      "image": "/images/exams/physics/june-2013/q50.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "51\u201352 A 25.0-meter length of platinum wire with a cross-sectional area of 3.50 \u00d7 10\u22126 meter2 has a resistance of 0.757 ohm at 20\u00b0C. Calculate the resistivity of the wire. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "The diagram below represents a periodic wave moving along a rope. On the grid in your answer booklet, draw at least one full wave with the same amplitude and half the wavelength of the given wave.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/q53.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "54\u201355 A baseball bat exerts an average force of 600. newtons east on a ball, imparting an impulse of 3.6 newton\u2022seconds east to the ball. Calculate the amount of time the baseball bat is in contact with the ball. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "The diagram below shows the north pole of one bar magnet located near the south pole of another bar magnet. On the diagram in your answer booklet, draw three magnetic field lines in the region between the magnets. N S Displacement (m) \u20130.1 0.0 0.1 Position (m) 2 4 6 \u20130.2 0.2",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/q56.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Determine the magnitude of the acceleration of the car.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the information and graph below.\nThe graph below shows the relationship between speed and elapsed time for a car moving in a\nstraight line.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the information and graph below.\nThe graph below shows the relationship between speed and elapsed time for a car moving in a\nstraight line.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "58\u201359 Calculate the total distance the car traveled during the time interval 4.0 seconds to 8.0 seconds. [Show all work, including the equation and substitution with units.] Speed vs. Time Time (s) Speed (m/s) 16.0 14.0 12.0 10.0 8.0 6.0 4.0 2.0 0.0 0.0 2.0 4.0 6.0 8.0 10.0 12.0",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the information and graph below.\nThe graph below shows the relationship between speed and elapsed time for a car moving in a\nstraight line.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Determine the equivalent resistance of the circuit.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below.\nA 20.-ohm resistor, R1, and a resistor of unknown resistance, R2, are connected in parallel to \na 30.-volt source, as shown in the circuit diagram below. An ammeter in the circuit reads 2.0 amperes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below.\nA 20.-ohm resistor, R1, and a resistor of unknown resistance, R2, are connected in parallel to \na 30.-volt source, as shown in the circuit diagram below. An ammeter in the circuit reads 2.0 amperes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "61\u201362 Calculate the resistance of resistor R2. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below.\nA 20.-ohm resistor, R1, and a resistor of unknown resistance, R2, are connected in parallel to \na 30.-volt source, as shown in the circuit diagram below. An ammeter in the circuit reads 2.0 amperes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below.\nA 28-gram rubber stopper is attached to a string and whirled clockwise in a horizontal circle\nwith a radius of 0.80 meter. The diagram in your answer booklet represents the motion of the\nrubber stopper. The stopper maintains a constant speed of 2.5 meters per second. \n63\u201364 Calculate the magnitude of the centripetal acceleration of the stopper. [Show all work, including \nthe equation and substitution with units.]   [2]\n65 On the diagram in your answer booklet, draw an arrow showing the direction of the centripetal force\nacting on the stopper when it is at the position shown.   [1]\n30. V\n2.0 A\nA\nR1 = 20. \u03a9\nR2",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "63\u201364 Calculate the magnitude of the centripetal acceleration of the stopper. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below.\nA 28-gram rubber stopper is attached to a string and whirled clockwise in a horizontal circle\nwith a radius of 0.80 meter. The diagram in your answer booklet represents the motion of the\nrubber stopper. The stopper maintains a constant speed of 2.5 meters per second. \n63\u201364 Calculate the magnitude of the centripetal acceleration of the stopper. [Show all work, including \nthe equation and substitution with units.]   [2]\n65 On the diagram in your answer booklet, draw an arrow showing the direction of the centripetal force\nacting on the stopper when it is at the position shown.   [1]\n30. V\n2.0 A\nA\nR1 = 20. \u03a9\nR2",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, draw an arrow showing the direction of the centripetal force acting on the stopper when it is at the position shown. 30. V 2.0 A A R1 = 20. \u03a9 R2",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below.\nA 28-gram rubber stopper is attached to a string and whirled clockwise in a horizontal circle\nwith a radius of 0.80 meter. The diagram in your answer booklet represents the motion of the\nrubber stopper. The stopper maintains a constant speed of 2.5 meters per second. \n63\u201364 Calculate the magnitude of the centripetal acceleration of the stopper. [Show all work, including \nthe equation and substitution with units.]   [2]\n65 On the diagram in your answer booklet, draw an arrow showing the direction of the centripetal force\nacting on the stopper when it is at the position shown.   [1]\n30. V\n2.0 A\nA\nR1 = 20. \u03a9\nR2",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "What is the order of magnitude of the time, in seconds, that most atoms spend in an excited state?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below.\nAuroras over the polar regions of Earth are caused by collisions between charged particles from\nthe Sun and atoms in Earth\u2019s atmosphere. The charged particles give energy to the atoms, exciting\nthem from their lowest available energy level, the ground state, to higher energy levels, excited\nstates. Most atoms return to their ground state within 10. nanoseconds.\nIn the higher regions of Earth\u2019s atmosphere, where there are fewer interatom collisions, a few\nof the atoms remain in excited states for longer times. For example, oxygen atoms remain in an\nexcited state for up to 1.0 second. These atoms account for the greenish and red glows of\nthe auroras. As these oxygen atoms return to their ground state, they emit green photons\n( f = 5.38 \u00d7 1014 Hz) and red photons ( f = 4.76 \u00d7 1014 Hz). These emissions last long enough to\nproduce the changing aurora phenomenon.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below.\nAuroras over the polar regions of Earth are caused by collisions between charged particles from\nthe Sun and atoms in Earth\u2019s atmosphere. The charged particles give energy to the atoms, exciting\nthem from their lowest available energy level, the ground state, to higher energy levels, excited\nstates. Most atoms return to their ground state within 10. nanoseconds.\nIn the higher regions of Earth\u2019s atmosphere, where there are fewer interatom collisions, a few\nof the atoms remain in excited states for longer times. For example, oxygen atoms remain in an\nexcited state for up to 1.0 second. These atoms account for the greenish and red glows of\nthe auroras. As these oxygen atoms return to their ground state, they emit green photons\n( f = 5.38 \u00d7 1014 Hz) and red photons ( f = 4.76 \u00d7 1014 Hz). These emissions last long enough to\nproduce the changing aurora phenomenon.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "67\u201368 Calculate the energy of a photon, in joules, that accounts for the red glow of the aurora. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below.\nAuroras over the polar regions of Earth are caused by collisions between charged particles from\nthe Sun and atoms in Earth\u2019s atmosphere. The charged particles give energy to the atoms, exciting\nthem from their lowest available energy level, the ground state, to higher energy levels, excited\nstates. Most atoms return to their ground state within 10. nanoseconds.\nIn the higher regions of Earth\u2019s atmosphere, where there are fewer interatom collisions, a few\nof the atoms remain in excited states for longer times. For example, oxygen atoms remain in an\nexcited state for up to 1.0 second. These atoms account for the greenish and red glows of\nthe auroras. As these oxygen atoms return to their ground state, they emit green photons\n( f = 5.38 \u00d7 1014 Hz) and red photons ( f = 4.76 \u00d7 1014 Hz). These emissions last long enough to\nproduce the changing aurora phenomenon.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Explain what is meant by an atom being in its ground state.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/q69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below.\nAuroras over the polar regions of Earth are caused by collisions between charged particles from\nthe Sun and atoms in Earth\u2019s atmosphere. The charged particles give energy to the atoms, exciting\nthem from their lowest available energy level, the ground state, to higher energy levels, excited\nstates. Most atoms return to their ground state within 10. nanoseconds.\nIn the higher regions of Earth\u2019s atmosphere, where there are fewer interatom collisions, a few\nof the atoms remain in excited states for longer times. For example, oxygen atoms remain in an\nexcited state for up to 1.0 second. These atoms account for the greenish and red glows of\nthe auroras. As these oxygen atoms return to their ground state, they emit green photons\n( f = 5.38 \u00d7 1014 Hz) and red photons ( f = 4.76 \u00d7 1014 Hz). These emissions last long enough to\nproduce the changing aurora phenomenon.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 75 on the information below.\nA girl rides her bicycle 1.40 kilometers west, 0.70 kilometer south, and 0.30 kilometer east in\n12 minutes. The vector diagram in your answer booklet represents the girl\u2019s first two displacements\nin sequence from point P. The scale used in the diagram is 1.0 centimeter = 0.20 kilometer.\n70\u201371 On the vector diagram in your answer booklet, using a ruler and a protractor, construct the following\nvectors:\n\u2022 Starting at the arrowhead of the second displacement vector, draw a vector to represent the \n0.30 kilometer east displacement. Label the vector with its magnitude.   [1]\n\u2022 Draw the vector representing the resultant displacement of the girl for the entire bicycle trip and\nlabel the vector R.   [1]\n72\u201373 Calculate the girl\u2019s average speed for the entire bicycle trip. [Show all work, including the equation\nand substitution with units.]   [2]\n74 Determine the magnitude of the girl\u2019s resultant displacement for the entire bicycle trip, in kilometers.   [1]\n75 Determine the measure of the angle, in degrees, between the resultant and the 1.40-kilometer\ndisplacement vector.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "70\u201371 On the vector diagram in your answer booklet, using a ruler and a protractor, construct the following vectors: \u2022 Starting at the arrowhead of the second displacement vector, draw a vector to represent the 0.30 kilometer east displacement. Label the vector with its magnitude. \u2022 Draw the vector representing the resultant displacement of the girl for the entire bicycle trip and label the vector R.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 75 on the information below.\nA girl rides her bicycle 1.40 kilometers west, 0.70 kilometer south, and 0.30 kilometer east in\n12 minutes. The vector diagram in your answer booklet represents the girl\u2019s first two displacements\nin sequence from point P. The scale used in the diagram is 1.0 centimeter = 0.20 kilometer.\n70\u201371 On the vector diagram in your answer booklet, using a ruler and a protractor, construct the following\nvectors:\n\u2022 Starting at the arrowhead of the second displacement vector, draw a vector to represent the \n0.30 kilometer east displacement. Label the vector with its magnitude.   [1]\n\u2022 Draw the vector representing the resultant displacement of the girl for the entire bicycle trip and\nlabel the vector R.   [1]\n72\u201373 Calculate the girl\u2019s average speed for the entire bicycle trip. [Show all work, including the equation\nand substitution with units.]   [2]\n74 Determine the magnitude of the girl\u2019s resultant displacement for the entire bicycle trip, in kilometers.   [1]\n75 Determine the measure of the angle, in degrees, between the resultant and the 1.40-kilometer\ndisplacement vector.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 75 on the information below.\nA girl rides her bicycle 1.40 kilometers west, 0.70 kilometer south, and 0.30 kilometer east in\n12 minutes. The vector diagram in your answer booklet represents the girl\u2019s first two displacements\nin sequence from point P. The scale used in the diagram is 1.0 centimeter = 0.20 kilometer.\n70\u201371 On the vector diagram in your answer booklet, using a ruler and a protractor, construct the following\nvectors:\n\u2022 Starting at the arrowhead of the second displacement vector, draw a vector to represent the \n0.30 kilometer east displacement. Label the vector with its magnitude.   [1]\n\u2022 Draw the vector representing the resultant displacement of the girl for the entire bicycle trip and\nlabel the vector R.   [1]\n72\u201373 Calculate the girl\u2019s average speed for the entire bicycle trip. [Show all work, including the equation\nand substitution with units.]   [2]\n74 Determine the magnitude of the girl\u2019s resultant displacement for the entire bicycle trip, in kilometers.   [1]\n75 Determine the measure of the angle, in degrees, between the resultant and the 1.40-kilometer\ndisplacement vector.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "72\u201373 Calculate the girl\u2019s average speed for the entire bicycle trip. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 75 on the information below.\nA girl rides her bicycle 1.40 kilometers west, 0.70 kilometer south, and 0.30 kilometer east in\n12 minutes. The vector diagram in your answer booklet represents the girl\u2019s first two displacements\nin sequence from point P. The scale used in the diagram is 1.0 centimeter = 0.20 kilometer.\n70\u201371 On the vector diagram in your answer booklet, using a ruler and a protractor, construct the following\nvectors:\n\u2022 Starting at the arrowhead of the second displacement vector, draw a vector to represent the \n0.30 kilometer east displacement. Label the vector with its magnitude.   [1]\n\u2022 Draw the vector representing the resultant displacement of the girl for the entire bicycle trip and\nlabel the vector R.   [1]\n72\u201373 Calculate the girl\u2019s average speed for the entire bicycle trip. [Show all work, including the equation\nand substitution with units.]   [2]\n74 Determine the magnitude of the girl\u2019s resultant displacement for the entire bicycle trip, in kilometers.   [1]\n75 Determine the measure of the angle, in degrees, between the resultant and the 1.40-kilometer\ndisplacement vector.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Determine the magnitude of the girl\u2019s resultant displacement for the entire bicycle trip, in kilometers.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 75 on the information below.\nA girl rides her bicycle 1.40 kilometers west, 0.70 kilometer south, and 0.30 kilometer east in\n12 minutes. The vector diagram in your answer booklet represents the girl\u2019s first two displacements\nin sequence from point P. The scale used in the diagram is 1.0 centimeter = 0.20 kilometer.\n70\u201371 On the vector diagram in your answer booklet, using a ruler and a protractor, construct the following\nvectors:\n\u2022 Starting at the arrowhead of the second displacement vector, draw a vector to represent the \n0.30 kilometer east displacement. Label the vector with its magnitude.   [1]\n\u2022 Draw the vector representing the resultant displacement of the girl for the entire bicycle trip and\nlabel the vector R.   [1]\n72\u201373 Calculate the girl\u2019s average speed for the entire bicycle trip. [Show all work, including the equation\nand substitution with units.]   [2]\n74 Determine the magnitude of the girl\u2019s resultant displacement for the entire bicycle trip, in kilometers.   [1]\n75 Determine the measure of the angle, in degrees, between the resultant and the 1.40-kilometer\ndisplacement vector.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Determine the measure of the angle, in degrees, between the resultant and the 1.40-kilometer displacement vector.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 75 on the information below.\nA girl rides her bicycle 1.40 kilometers west, 0.70 kilometer south, and 0.30 kilometer east in\n12 minutes. The vector diagram in your answer booklet represents the girl\u2019s first two displacements\nin sequence from point P. The scale used in the diagram is 1.0 centimeter = 0.20 kilometer.\n70\u201371 On the vector diagram in your answer booklet, using a ruler and a protractor, construct the following\nvectors:\n\u2022 Starting at the arrowhead of the second displacement vector, draw a vector to represent the \n0.30 kilometer east displacement. Label the vector with its magnitude.   [1]\n\u2022 Draw the vector representing the resultant displacement of the girl for the entire bicycle trip and\nlabel the vector R.   [1]\n72\u201373 Calculate the girl\u2019s average speed for the entire bicycle trip. [Show all work, including the equation\nand substitution with units.]   [2]\n74 Determine the magnitude of the girl\u2019s resultant displacement for the entire bicycle trip, in kilometers.   [1]\n75 Determine the measure of the angle, in degrees, between the resultant and the 1.40-kilometer\ndisplacement vector.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "What is the angle of reflection of the light ray at the interface?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below.\nA light ray with a frequency of 5.09 \u00d7 1014 hertz traveling in water has an angle of incidence of\n35\u00b0 on a water-air interface. At the interface, part of the ray is reflected from the interface and part\nof the ray is refracted as it enters the air.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, using a protractor and a straightedge, draw the reflected ray.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below.\nA light ray with a frequency of 5.09 \u00d7 1014 hertz traveling in water has an angle of incidence of\n35\u00b0 on a water-air interface. At the interface, part of the ray is reflected from the interface and part\nof the ray is refracted as it enters the air.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below.\nA light ray with a frequency of 5.09 \u00d7 1014 hertz traveling in water has an angle of incidence of\n35\u00b0 on a water-air interface. At the interface, part of the ray is reflected from the interface and part\nof the ray is refracted as it enters the air.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "78\u201379 Calculate the angle of refraction of the light ray as it enters the air. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below.\nA light ray with a frequency of 5.09 \u00d7 1014 hertz traveling in water has an angle of incidence of\n35\u00b0 on a water-air interface. At the interface, part of the ray is reflected from the interface and part\nof the ray is refracted as it enters the air.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Identify one characteristic of this light ray that is the same in both the water and the air.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below.\nA light ray with a frequency of 5.09 \u00d7 1014 hertz traveling in water has an angle of incidence of\n35\u00b0 on a water-air interface. At the interface, part of the ray is reflected from the interface and part\nof the ray is refracted as it enters the air.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Determine the total work done by the 30.4-newton force in sliding the crate along the incline.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and diagram below.\nA 30.4-newton force is used to slide a 40.0-newton crate a distance of 6.00 meters at constant\nspeed along an incline to a vertical height of 3.00 meters.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and diagram below.\nA 30.4-newton force is used to slide a 40.0-newton crate a distance of 6.00 meters at constant\nspeed along an incline to a vertical height of 3.00 meters.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "82\u201383 Calculate the total increase in the gravitational potential energy of the crate after it has slid 6.00 meters along the incline. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and diagram below.\nA 30.4-newton force is used to slide a 40.0-newton crate a distance of 6.00 meters at constant\nspeed along an incline to a vertical height of 3.00 meters.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "State what happens to the kinetic energy of the crate as it slides along the incline.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and diagram below.\nA 30.4-newton force is used to slide a 40.0-newton crate a distance of 6.00 meters at constant\nspeed along an incline to a vertical height of 3.00 meters.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "State what happens to the internal energy of the crate as it slides along the incline. 30.\u00b0 F = 30.4 N 6.00 m 3.00 m 40.0 N P.S./PHYSICS P.S./PHYSICS Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/physics/june-2013/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and diagram below.\nA 30.4-newton force is used to slide a 40.0-newton crate a distance of 6.00 meters at constant\nspeed along an incline to a vertical height of 3.00 meters.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

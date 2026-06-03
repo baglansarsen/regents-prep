@@ -1,0 +1,486 @@
+{
+  "subject": "algebra-1",
+  "session": "august-2016",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The graph below shows the distance in miles, m, hiked from a camp in h hours. 2 4 6 1 Hours (h) Miles (m) 2 3 4 5 6 1 3 5 0 Which hourly interval had the greatest rate of change?",
+      "choices": [
+        "hour 0 to hour 1",
+        "hour 1 to hour 2",
+        "hour 2 to hour 3",
+        "hour 3 to hour 4"
+      ],
+      "image": "/images/exams/algebra-1/august-2016/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The solution of an equation with two variables, x and y, is",
+      "choices": [
+        "the set of all x values that make y 5 0",
+        "the set of all y values that make x 5 0",
+        "the set of all ordered pairs, (x,y), that make the equation true",
+        "the set of all ordered pairs, (x,y), where the graph of the equation crosses the y-axis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which statistic can not be determined from a box plot representing the scores on a math test in Mrs. DeRidder\u2019s algebra class?",
+      "choices": [
+        "the lowest score",
+        "the median score",
+        "the highest score",
+        "the score that occurs most frequently Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which chart could represent the function f(x) 5 22x 1 6? x f(x) 0 6 2 10 4 14 6 18",
+      "choices": [
+        "x f(x) 0 6 2 2 4 \u20132 6 \u20136",
+        "x f(x) 0 8 2 10 4 12 6 14",
+        "x f(x) 0 4 2 6 4 8 6 10",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/august-2016/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "\u20136",
+      "choices": [
+        "It is close to 21.",
+        "It is close to 1.",
+        "It is close to 0.",
+        "It is close to 0.5. Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/august-2016/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "What is the solution to 2h 1 8 . 3h 2 6?",
+      "choices": [
+        "h , 14",
+        "h , 14 5",
+        "h . 14",
+        "h . 14 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to 36x2 2 100?",
+      "choices": [
+        "4(3x 2 5)(3x 2 5)",
+        "4(3x 1 5)(3x 2 5)",
+        "2(9x 2 25)(9x 2 25)",
+        "2(9x 1 25)(9x 2 25)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Patricia is trying to compare the average rainfall of New York to that of Arizona. A comparison between these two states for the months of July through September would be best measured in",
+      "choices": [
+        "feet per hour",
+        "inches per hour",
+        "inches per month",
+        "feet per month"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which function defines the sequence 26, 210, 214, 218, \u2026, where f(6) 5 226?",
+      "choices": [
+        "f(x) 5 24x 2 2",
+        "f(x) 5 4x 2 2",
+        "f(x) 5 2x 1 32",
+        "f(x) 5 x 2 26"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which function has the greatest y-intercept?",
+      "choices": [
+        "f(x) 5 3x",
+        "2x 1 3y 5 12",
+        "the line that has a slope of 2 and passes through (1,24)",
+        "f(x) x Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/august-2016/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "What is the product of 2x 1 3 and 4x2 2 5x 1 6?",
+      "choices": [
+        "8x3 2 2x2 1 3x 1 18",
+        "8x3 2 2x2 2 3x 1 18",
+        "8x3 1 2x2 2 3x 1 18",
+        "8x3 1 2x2 1 3x 1 18"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The height of a rocket, at selected times, is shown in the table below. Time (sec) 0 1 2 3 4 5 6 7 Height (ft) 180 260 308 324 308 260 180 68 Based on these data, which statement is not a valid conclusion?",
+      "choices": [
+        "The rocket was launched from a height of 180 feet.",
+        "The maximum height of the rocket occurred 3 seconds after launch.",
+        "The rocket was in the air approximately 6 seconds before hitting the ground.",
+        "The rocket was above 300 feet for approximately 2 seconds."
+      ],
+      "image": "/images/exams/algebra-1/august-2016/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "A parking garage charges a base rate of $3.50 for up to 2 hours, and an hourly rate for each additional hour. The sign below gives the prices for up to 5 hours of parking. 2 hours 3 hours 4 hours 5 hours $3.50 $9.00 $14.50 $20.00 Parking Rates Which linear equation can be used to find x, the additional hourly parking rate?",
+      "choices": [
+        "9.00 1 3x 5 20.00",
+        "9.00 1 3.50x 5 20.00",
+        "2x 1 3.50 5 14.50",
+        "2x 1 9.00 5 14.50 Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/august-2016/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which function has a constant rate of change equal to 23? x 0 1 2 3 y 2 5 8 11",
+      "choices": [
+        "",
+        "",
+        "y x",
+        "2y \u0004 \u00036x \u0002 10 {(1,5), (2,2), (3,\u00035), (4,4)}"
+      ],
+      "image": "/images/exams/algebra-1/august-2016/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Kendal bought x boxes of cookies to bring to a party. Each box contains 12 cookies. She decides to keep two boxes for herself. She brings 60 cookies to the party. Which equation can be used to find the number of boxes, x, Kendal bought?",
+      "choices": [
+        "2x 2 12 5 60",
+        "12x 2 2 5 60",
+        "12x 2 24 5 60",
+        "24 2 12x 5 60"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The table below shows the temperature, T(m), of a cup of hot chocolate that is allowed to chill over several minutes, m. Time, m (minutes) 0 2 4 6 8 Temperature, T(m) (\u00b0F) 150 108 78 56 41 Which expression best fits the data for T(m)?",
+      "choices": [
+        "150(0.85)m",
+        "150(1.15)m",
+        "150(0.85)m 2 1",
+        "150(1.15)m 2 1 Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/august-2016/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "As x increases beyond 25, which function will have the largest value?",
+      "choices": [
+        "f(x) 5 1.5x",
+        "g(x) 5 1.5x 1 3",
+        "h(x) 5 1.5x2",
+        "k(x) 5 1.5x3 1 1.5x2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "What are the solutions to the equation 3x2 1 10x 5 8?",
+      "choices": [
+        "2 3 and 24",
+        "22 3 and 4",
+        "4 3 and 22",
+        "24 3 and 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "An online company lets you download songs for $0.99 each after you have paid a $5 membership fee. Which domain would be most appropriate to calculate the cost to download songs?",
+      "choices": [
+        "rational numbers greater than zero",
+        "whole numbers greater than or equal to one",
+        "integers less than or equal to zero",
+        "whole numbers less than or equal to one"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "and 22",
+      "choices": [
+        "3x 1 6y 5 15",
+        "4x 1 8y 5 20",
+        "x 1 2y 5 5 2x 1 y 5 4 6x 1 3y 5 12",
+        "x 1 2y 5 5 2x 1 y 5 4 4x 1 2y 5 12 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Based on the graph below, which expression is a possible factorization of p(x)? p(x) x 1",
+      "choices": [
+        "(x 1 3)(x 2 2)(x 2 4)",
+        "(x 2 3)(x 1 2)(x 1 4)",
+        "(x 1 3)(x 2 5)(x 2 2)(x 2 4)",
+        "(x 2 3)(x 1 5)(x 1 2)(x 1 4)"
+      ],
+      "image": "/images/exams/algebra-1/august-2016/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Milton has his money invested in a stock portfolio. The value, v(x), of his portfolio can be modeled with the function v(x) 5 30,000(0.78)x, where x is the number of years since he made his investment. Which statement describes the rate of change of the value of his portfolio?",
+      "choices": [
+        "It decreases 78% per year.",
+        "It decreases 22% per year.",
+        "It increases 78% per year.",
+        "It increases 22% per year. Algebra I (Common Core) Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Graph the function y 5 2 x1 3 on the set of axes below. y x Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2016/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Richard is asked to transform the graph of b(x) below. b(x) x The graph of b(x) is transformed using the equation h(x) 5 b(x 2 2) 2 3. Describe how the graph of b(x) changed to form the graph of h(x). Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2016/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Consider the pattern of squares shown below: Which type of model, linear or exponential, should be used to determine how many squares are in the nth pattern? Explain your answer.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2016/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "When multiplying polynomials for a math assignment, Pat found the product to be 24x 1 8x2 2 2x3 1 5. He then had to state the leading coefficient of this polynomial. Pat wrote down 24. Do you agree with Pat\u2019s answer? Explain your reasoning. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Is the sum of 3 2 and 4 2 rational or irrational? Explain your answer.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2016/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The graph below shows two functions, f(x) and g(x). State all the values of x for which f(x) 5 g(x). g(x) f(x) x y Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2016/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Find the zeros of f(x) 5 (x 2 3)2 2 49, algebraically.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Solve the equation below for x in terms of a. 4(ax 1 3) 2 3ax 5 25 1 3a Algebra I (Common Core) Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "The data table below shows the median diameter of grains of sand and the slope of the beach for 9 naturally occurring ocean beaches. Median Diameter of Grains of Sand, in Millimeters (x) 0.17 0.19 0.22 0.235 0.235 0.3 0.35 0.42 0.85 Slope of Beach, in Degrees (y) 0.63 0.7 0.82 0.88 1.15 1.5 4.4 7.3 11.3 Write the linear regression equation for this set of data, rounding all values to the nearest thousandth. Using this equation, predict the slope of a beach, to the nearest tenth of a degree, on a beach with grains of sand having a median diameter of 0.65 mm. Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2016/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Shawn incorrectly graphed the inequality 2x 2 2y $ 8 as shown below. y x Explain Shawn\u2019s mistake. Graph the inequality correctly on the set of axes below. y x Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2016/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "A drama club is selling tickets to the spring musical. The auditorium holds 200 people. Tickets cost $12 at the door and $8.50 if purchased in advance. The drama club has a goal of selling at least $1000 worth of tickets to Saturday\u2019s show. Write a system of inequalities that can be used to model this scenario. If 50 tickets are sold in advance, what is the minimum number of tickets that must be sold at the door so that the club meets its goal? Justify your answer. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Janice is asked to solve 0 5 64x2 1 16x 2 3. She begins the problem by writing the following steps: Line 1 0 5 64x2 1 16x 2 3 Line 2 0 5 B2 1 2B 2 3 Line 3 0 5 (B 1 3)(B 2 1) Use Janice\u2019s procedure to solve the equation for x. Explain the method Janice used to solve the quadratic equation. Algebra I (Common Core) Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "For a class picnic, two teachers went to the same store to purchase drinks. One teacher purchased 18 juice boxes and 32 bottles of water, and spent $19.92. The other teacher purchased 14 juice boxes and 26 bottles of water, and spent $15.76. Write a system of equations to represent the costs of a juice box, j, and a bottle of water, w. Kara said that the juice boxes might have cost 52 cents each and that the bottles of water might have cost 33 cents each. Use your system of equations to justify that Kara\u2019s prices are not possible. Question 37 is continued on the next page. Algebra I (Common Core) Solve your system of equations to determine the actual cost, in dollars, of each juice box and each bottle of water. Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0004 2.54 centimeters 1 kilometer \u0004 0.62 mile 1 cup \u0004 8 fluid ounces 1 meter \u0004 39.37 inches 1 pound \u0004 16 ounces 1 pint \u0004 2 cups 1 mile \u0004 5280 feet 1 pound \u0004 0.454 kilogram 1 quart \u0004 2 pints 1 mile \u0004 1760 yards 1 kilogram \u0004 2.2 pounds 1 gallon \u0004 4 quarts 1 mile \u0004 1.609 kilometers 1 ton \u0004 2000 pounds 1 gallon \u0004 3.785 liters 1 liter \u0004 0.264 gallon 1 liter \u0004 1000 cubic centimeters Triangle A \u0004 bh 1 2 Parallelogram A \u0004 bh Circle A \u0004 \u03c0r2 Circle C \u0004 \u03c0d or C \u0004 2\u03c0r General Prisms V \u0004 Bh Cylinder V \u0004 \u03c0r2h Sphere V \u0004 \u03c0r3 4 3 Cone V \u0004 \u03c0r2h 1 3 Pyramid V \u0004 Bh 1 3 Pythagorean Theorem a2 \u0002 b2 \u0004 c2 Quadratic Formula x \u0004 \u0003 \u0005 \u0003 b a b2 2 4ac Arithmetic Sequence an \u0004 a1 \u0002 (n \u0003 1)d Geometric Sequence an \u0004 a1r n \u0003 1 Geometric Series Sn \u0004 where r \u0006 1 a a r r n 1 1 1 \u0003 \u0003 Radians 1 radian \u0004 degrees 180 \u03c0 Degrees 1 degree \u0004 radians \u03c0 180 Exponential Growth/Decay A \u0004 A0ek(t \u0003 t0) \u0002 B0 Algebra I (Common Core) Tear Here Tear Here ALGEBRA I (COMMON CORE) ALGEBRA I (COMMON CORE) Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

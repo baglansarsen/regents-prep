@@ -1,0 +1,1096 @@
+{
+  "subject": "living-environment",
+  "session": "january-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which organisms and set of characteristics are correctly paired?",
+      "choices": [
+        "fungi\u2014carry out photosynthesis and heterotrophic nutrition",
+        "plants\u2014carry out respiration and autotrophic nutrition",
+        "decomposers\u2014carry out photosynthesis and autotrophic nutrition",
+        "animals\u2014carry out autotrophic nutrition and heterotrophic nutrition"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Humans have an effect on ecosystems when they use native grasslands or forested areas for farming or urban use. One negative effect of these changes on the ecosystem is that there will be",
+      "choices": [
+        "less biodiversity",
+        "more homes",
+        "successful economic growth",
+        "increased food production"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The diagram below represents structures found in the female reproductive system. A A If the areas labeled A were completely blocked on both sides, the most likely result would be that",
+      "choices": [
+        "egg and estrogen production would stop",
+        "sperm and insulin production would stop",
+        "fertilization would not occur",
+        "an embryo would develop"
+      ],
+      "image": "/images/exams/living-environment/january-2018/q3.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Scientists have studied oceanic plastic garbage \u201cpatches\u201d around the world. These are areas that accumulate plastic garbage from coastal regions. Their environmental effect ranges from killing sea life to blocking sunlight from reaching photosynthetic organisms. Without a change in human plastic usage, new garbage patches will continue to form. Which human activity would most directly reduce the amount of plastic garbage that enters the ocean?",
+      "choices": [
+        "Ban the production and usage of all bags made from recycled plastic.",
+        "Clean up plastic trash from shorelines, rivers, and other waterways that \ufb02 ow into the oceans.",
+        "Manufacture fewer reusable water bottles, so that people will be more likely to use disposable ones.",
+        "Implement a glass bottle deposit system to discourage people from recycling plastic bottles."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Monarch butter\ufb02 ies migrate from the U.S. and Canada to Mexico every winter. Over the past 10 years, there has been a drastic decrease in the number of monarch butter\ufb02 ies. Scientists have estimated that the population may have decreased from about 1 billion to 35 million. Which action would not be considered a reason for the decline in monarch butter\ufb02 y populations?",
+      "choices": [
+        "illegal deforestation",
+        "extreme temperature changes",
+        "decreasing food supplies",
+        "habitat preservation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Finches on the Galapagos Islands express a variety of traits. Variability in the offspring of these \ufb01 nches is a result of",
+      "choices": [
+        "mutation and cloning",
+        "meiosis and mutation",
+        "mitosis and asexual reproduction",
+        "mitosis and genetic recombination"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Exposure to certain environmental toxins, such as pesticides, may reduce fertility in males by interfering with their ability to produce gametes. These toxins are most likely having an effect on the",
+      "choices": [
+        "testes and progesterone",
+        "ovaries and testosterone",
+        "ovaries and estrogen",
+        "testes and testosterone"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which statement best describes an important process carried out by structure X? x",
+      "choices": [
+        "Milk passes from the mother to the fetus.",
+        "Materials are exchanged between fetal and maternal blood.",
+        "Maternal blood is converted into fetal blood.",
+        "Oxygen diffuses from fetal blood to maternal blood."
+      ],
+      "image": "/images/exams/living-environment/january-2018/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Traditional lightbulbs are only 10% ef\ufb01 cient. Ninety percent of the energy they use is converted to heat. Modern lightbulbs are much more ef\ufb01 cient, but may cost three times as much as traditional lightbulbs. Consumers who switch to modern lightbulbs are most likely",
+      "choices": [
+        "spending more money for no good reason",
+        "trying to stop pollution of the oceans",
+        "trading a short-term cost for long-term savings",
+        "helping traditional lightbulb factories employ people"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Many oak trees are cut down and removed from an oak-hickory forest. A likely result of the direct harvesting of the oak species would be the",
+      "choices": [
+        "disruption of natural cycles",
+        "conservation of these natural forest resources",
+        "recycling of all the nutrients in the forest",
+        "prevention of the extinction of animals native to the area"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A sequence of events is represented in the diagram below. DNA from the spider Spider Goat Remove Insert Produces Spider silk proteins in goat milk Which statement best describes a result of this process?",
+      "choices": [
+        "The spider from which the DNA sample was obtained can no longer produce spider silk.",
+        "The goat milk now contains DNA molecules made of spider silk proteins.",
+        "Both the spider and the goat can now produce both spider silk and goat milk.",
+        "Spider silk proteins can now be produced in large quantities without killing spiders to obtain them."
+      ],
+      "image": "/images/exams/living-environment/january-2018/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which change is an example of a response to a stimulus?",
+      "choices": [
+        "The pupil of an eye decreases in size in bright light.",
+        "A leaf absorbs sunlight in the morning.",
+        "The water level of a pond rises on a rainy day.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "After feeding at the surface of the ocean during the day, many ocean organisms migrate to deeper waters. While there, they release ammonia in their urine. Many bacteria use the nitrogen from the ammonia as they make amino acids, which eventually end up in food chains on both land and water. These amino acids may even be used in humans. Which statement best explains these observations?",
+      "choices": [
+        "Chemical elements, including nitrogen, pass through food webs and are combined and recombined in different ways.",
+        "Chemical elements, including nitrogen, are removed from food webs and eliminated from ecosystems.",
+        "Nitrogen is transferred directly from bacteria to humans.",
+        "All elements in the ocean remain there and are not transferred to other ecosystems."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which statement describes an event that would most severely disrupt the process of ecological succession in an area?",
+      "choices": [
+        "The season changes from spring into summer.",
+        "Native plants are planted in an abandoned \ufb01 eld.",
+        "Plants and animals begin to colonize a newly formed volcanic island.",
+        "A dam is built on a river to form a reservoir."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The processes of diffusion and active transport are both used to",
+      "choices": [
+        "break down molecules to release energy",
+        "move molecules into or out of cells of the body",
+        "bring molecules into cells when they are more concentrated outside of the cell",
+        "move molecules against a concentration gradient, using ATP molecules"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Botulinum toxin is a substance that can cause paralysis in humans. The effects of the toxin are due to the blocking of a signaling molecule that is necessary for communication between nerve cells. The toxin most likely interferes with the normal functioning of a",
+      "choices": [
+        "chromosome",
+        "DNA molecule",
+        "receptor",
+        "digestive hormone"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The bar graph below shows the number of species in four pond ecosystems. 20 80 140 200 A D Pond Ecosystems Number of Different Species Number of Species in Four Pond Ecosystems B C Based on this information, which ecosystem is likely to be the most stable?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/january-2018/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a marine food web. Dolphins Small fish Whales Zooplankton Bacteria X The organisms represented by X are",
+      "choices": [
+        "decomposers",
+        "producers",
+        "carnivores",
+        "scavengers"
+      ],
+      "image": "/images/exams/living-environment/january-2018/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "When rain forests are cut down, there is a",
+      "choices": [
+        "loss of fossil fuels that could be used by industry",
+        "release of excess oxygen to the atmosphere",
+        "release of chemicals which cause helpful mutations",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Scientists who study rock formations in caves describe some of the formations as \u201cliving rock\u201d because, under certain conditions, they increase in size. Which statement would best dispute the claim that these rock formations are living?",
+      "choices": [
+        "Rocks are not composed of cells, while living organisms are.",
+        "Rocks perform complex metabolic processes, but cannot grow.",
+        "Rocks cannot reproduce sexually.",
+        "Rocks remain stable in a wide range of physical conditions."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Carbon dioxide and oxygen are important resources in ecosystems and are",
+      "choices": [
+        "recycled through the activity of living and nonliving systems",
+        "stored in the animals of the ecosystem",
+        "lost due to the activities of decomposers",
+        "released by the process of photosynthesis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Before they can pass from a parent cell to its offspring cells, the inherited instructions that a human cell carries must \ufb01 rst be",
+      "choices": [
+        "moved into the nucleus",
+        "broken down and made into DNA molecules",
+        "used to make speci\ufb01 c protein molecules that form genes",
+        "accurately replicated"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Eye color, hair color, and skin color often vary from person to person and even within a family. One explanation is that",
+      "choices": [
+        "the glucose units in a DNA molecule are often rearranged",
+        "the genetic material of the female parent has the most in\ufb02 uence on offspring",
+        "the inherited traits of individuals are determined by different gene combinations",
+        "some extra parts of genetic material are often gained during fertilization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Organic compounds are used as building blocks for",
+      "choices": [
+        "water, DNA, and starches",
+        "water, proteins, and oxygen",
+        "proteins, DNA, and carbon dioxide",
+        "proteins, starches, and fats"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Scientists have developed the ability to manufacture hormones, such as human growth hormone, using bacteria. One bene\ufb01 t of this new technology is that",
+      "choices": [
+        "scientists can use only one type of bacteria",
+        "bacteria are relatively inexpensive and reproduce quickly",
+        "patients can spend more money on their medications",
+        "scientists produce drugs that cause more immune reactions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Although all of the cells of a plant contain the same genetic material, root cells and leaf cells are not identical because they",
+      "choices": [
+        "use different genetic bases for the synthesis of DNA",
+        "use different parts of their genetic instructions",
+        "select different cells to express",
+        "delete different sections of their enzymes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "During cellular respiration, what is the direct source of the energy used in the cells of consumers in the ecosystem represented below?",
+      "choices": [
+        "the Sun",
+        "enzymes",
+        "the atoms making up inorganic molecules",
+        "the chemical bonds in organic molecules"
+      ],
+      "image": "/images/exams/living-environment/january-2018/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which dissolved substance do aquatic animals remove from their external environment for use in cellular respiration?",
+      "choices": [
+        "carbon dioxide",
+        "ATP molecules",
+        "oxygen molecules",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The photographs below are of two Siamese cats. Cat Kept Outdoors Cat Kept Indoors Source: Http://aboutmyrecovery .com/2008/12/13/my-very-own- siamese-pet-kitten/ Source: Http://www.superstock.com/stock- photos-images/662-220 The Siamese breed has a gene that controls fur color. The cat in the \ufb01 rst photograph was kept indoors while the cat in the second photograph was kept outdoors. Which statement best explains the differences in fur color between these two cats?",
+      "choices": [
+        "The cat kept indoors is older than the cat kept outdoors.",
+        "The environment in\ufb02 uenced the expression of fur color genes.",
+        "The environment in\ufb02 uenced the production of all the proteins in the cat kept outdoors.",
+        "The cat kept outdoors has a gene mutation that prevents it from producing light-colored fur."
+      ],
+      "image": "/images/exams/living-environment/january-2018/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a cell. D A B C Which letter indicates the speci\ufb01 c structure where most hereditary mutations occur?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2018/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "During which month would the bears in the area have the most \ufb01 sh available?",
+      "choices": [
+        "May",
+        "July",
+        "August",
+        "October"
+      ],
+      "image": "/images/exams/living-environment/january-2018/context_31_33.png",
+      "context": "Base your answers to questions 31 through 33 on the information and graphs below, and on your knowledge \nof biology. The diagrams below show the number of \ufb01 sh in a lake and the average water temperature in the lake \nfor the months of May through October.\nDuring certain times of the year, bears feed heavily on a population of \ufb01 sh in a lake. At \nother times of the year, the bear population feeds primarily on fruits, berries, and insects.\nNumber of Fish in Lake\n5\n10\n15\n20\n30\n35\nTemperature (\u00b0C)\n5\n10\nFish\nPopulation\n(thousands)\n0\n25\n40\nAverage Lake Temperatures\nMay\nJun\nJul\nAug\nSep\n0\nMonth\n5\n10\n15\n20\n25\n30\n35\n40\nAverage\nTemperature\n(\u00b0C)\nOct",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "One of the best ways to represent the interdependence of all of the organisms in this ecosystem is",
+      "choices": [
+        "an evolutionary tree",
+        "a food chain",
+        "an electrophoresis gel",
+        "a food web"
+      ],
+      "image": "/images/exams/living-environment/january-2018/context_31_33.png",
+      "context": "Base your answers to questions 31 through 33 on the information and graphs below, and on your knowledge \nof biology. The diagrams below show the number of \ufb01 sh in a lake and the average water temperature in the lake \nfor the months of May through October.\nDuring certain times of the year, bears feed heavily on a population of \ufb01 sh in a lake. At \nother times of the year, the bear population feeds primarily on fruits, berries, and insects.\nNumber of Fish in Lake\n5\n10\n15\n20\n30\n35\nTemperature (\u00b0C)\n5\n10\nFish\nPopulation\n(thousands)\n0\n25\n40\nAverage Lake Temperatures\nMay\nJun\nJul\nAug\nSep\n0\nMonth\n5\n10\n15\n20\n25\n30\n35\n40\nAverage\nTemperature\n(\u00b0C)\nOct",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Within the \ufb01 sh population, variations exist in color, size, gamete production, and swimming speed. A variation that would most likely be passed on to future generations of the species is",
+      "choices": [
+        "a swimming speed that is less than that of its predators",
+        "the presence of bright, colorful markings that contrast with the lake bottom",
+        "being of a size that enables them to hide among the rocks in the lake",
+        "the production of a small number of gametes during the peak of the breeding season"
+      ],
+      "image": "/images/exams/living-environment/january-2018/context_31_33.png",
+      "context": "Base your answers to questions 31 through 33 on the information and graphs below, and on your knowledge \nof biology. The diagrams below show the number of \ufb01 sh in a lake and the average water temperature in the lake \nfor the months of May through October.\nDuring certain times of the year, bears feed heavily on a population of \ufb01 sh in a lake. At \nother times of the year, the bear population feeds primarily on fruits, berries, and insects.\nNumber of Fish in Lake\n5\n10\n15\n20\n30\n35\nTemperature (\u00b0C)\n5\n10\nFish\nPopulation\n(thousands)\n0\n25\n40\nAverage Lake Temperatures\nMay\nJun\nJul\nAug\nSep\n0\nMonth\n5\n10\n15\n20\n25\n30\n35\n40\nAverage\nTemperature\n(\u00b0C)\nOct",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 34 and 35 on the information below, and on your knowledge of biology.\nBefore conducting an experiment, two students gathered information about the effect of \ngreenhouse gases on global warming. Student A found information in a newspaper article. \nStudent B found information in several peer-reviewed scienti\ufb01 c journals and on three websites.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Temperature (\u00b0C) 5 10 Fish Population (thousands) 0 25 40 Average Lake Temperatures May Jun Jul Aug Sep 0 Month 5 10 15 20 25 30 35 40 Average Temperature (\u00b0C) Oct 31 During which month would the bears in the area have the most \ufb01 sh available?",
+      "choices": [
+        "a swimming speed that is less than that of its predators",
+        "the presence of bright, colorful markings that contrast with the lake bottom",
+        "being of a size that enables them to hide among the rocks in the lake",
+        "the production of a small number of gametes during the peak of the breeding season"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 34 and 35 on the information below, and on your knowledge of biology.\nBefore conducting an experiment, two students gathered information about the effect of \ngreenhouse gases on global warming. Student A found information in a newspaper article. \nStudent B found information in several peer-reviewed scienti\ufb01 c journals and on three websites.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "A student wondered if butter\ufb02 ies would show any differences in their wing color if, as caterpillars, they were grown in the dark or grown in bright white light. Which statement would be a possible hypothesis for an experiment to test this idea?",
+      "choices": [
+        "Caterpillars exposed to bright white light will show more blue and green in their wings when they become butter\ufb02 ies than caterpillars kept in the dark.",
+        "Will caterpillars kept in the dark have brighter wings when they become butter\ufb02 ies than caterpillars exposed to bright white light?",
+        "Ten caterpillars will be kept in the dark and ten caterpillars will be exposed to bright white light and allowed to develop into butter\ufb02 ies.",
+        "Results show that caterpillars kept in the dark and those exposed to bright white light had the same wing color when they became butter\ufb02"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The chart below shows the number of differences in genetic material between individuals within the same species. Scientists can use this information to determine which populations demonstrate the greatest amount of genetic diversity. 0 10 20 30 40 50 60 70 80 90 100 Genetic Diversity Within Different Species Number of Genetic Differences Wolf Panda Polar bear Whale Brown bear Steller sea lion Bison Tasmanian devil Tasmanian tiger 77 67 44 28 25 19 15 10 5 adapted from: www.pnas.org According to the chart, which two species would be more likely to survive if their environmental conditions changed?",
+      "choices": [
+        "Tasmanian tiger and Tasmanian devil",
+        "brown bear and whale",
+        "Tasmanian tiger and wolf",
+        "panda and wolf"
+      ],
+      "image": "/images/exams/living-environment/january-2018/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Microbeads are tiny, smooth, plastic spheres found in common household products such as facial soap. These beads, measuring from 0.0004 to 1.24 mm, roughly the size of some \ufb01 sh eggs, are too small to be removed by water treatment systems. Thus, they end up in rivers, lakes, and other bodies of water. The accumulation of these microbeads is an environmental concern for aquatic biologists because microbeads",
+      "choices": [
+        "make the lakes and rivers cloudy and dirty, affecting their appearance",
+        "may stick to some household water pipes, preventing drainage problems",
+        "could be mistaken for food by some species, working their way up the food chain",
+        "could clog \ufb01 shing nets, affecting the ability of \ufb01 shermen to catch \ufb01"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which row in the chart below correctly identi\ufb01 es the main function of these systems? Row System A System B System C System D",
+      "choices": [
+        "response excretion circulation digestion",
+        "movement response circulation digestion",
+        "response circulation excretion digestion",
+        "movement circulation digestion reproduction"
+      ],
+      "image": "/images/exams/living-environment/january-2018/context_39_40.png",
+      "context": "Base your answers to questions 39 and 40 on the diagrams below and on your knowledge of biology. \nThe diagrams represent some of the systems that make up the human body.\nSystem A\nSystem B\nSystem C\nSystem D",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "A similarity between these systems is that they all",
+      "choices": [
+        "are made of cells that are identical in structure and function",
+        "contain organs that work independently from other organs in that system",
+        "work together to maintain a stable internal environment",
+        "are separate and do not interact with other body systems"
+      ],
+      "image": "/images/exams/living-environment/january-2018/context_39_40.png",
+      "context": "Base your answers to questions 39 and 40 on the diagrams below and on your knowledge of biology. \nThe diagrams represent some of the systems that make up the human body.\nSystem A\nSystem B\nSystem C\nSystem D",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "An advantage of growing the genetically modi\ufb01 ed Bt cotton instead of conventional cotton is that growing Bt cotton could",
+      "choices": [
+        "result in an increase in populations of insects that are bene\ufb01 cial",
+        "result in an increase in the size of insect populations that are resistant to the Bt protein",
+        "lead to an increase in the survival rates of insects that eat cotton",
+        ""
+      ],
+      "image": null,
+      "context": "Base your answer to question 41 on the information below and on your knowledge of biology.\nIn China, farmers switched from growing conventional cotton, which required \nspraying with insecticides 15 times each year, to a genetically modi\ufb01 ed cotton variety called \nBt cotton. The Bt cotton produces a protein toxic to the insects that destroy the cotton crop. \nSince the switch to Bt cotton, the use of chemical insecticides has decreased by 60%.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The diagram below represents events that occur during sexual reproduction. C A B The stages labeled A, B, and C are necessary to ensure that the offspring will inherit",
+      "choices": [
+        "half of their chromosomes from each parent",
+        "double the amount of chromosomes from each parent",
+        "pairs of chromosomes from each parent",
+        "double the amount of chromosomes from one parent"
+      ],
+      "image": "/images/exams/living-environment/january-2018/q42.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "A company that produces paint is planning to build a small factory in a rural community. The factory would provide many needed jobs. Before the community agrees to allow the factory to be built, the community should",
+      "choices": [
+        "investigate the use of paint as a method of biological control",
+        "consider just the economic advantages of building the new factory",
+        "assess the risks of the new factory and compare these to the bene\ufb01 ts",
+        "insist the factory use \ufb01"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Provide an appropriate label for the y-axis, including units, on the line provided.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2018/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information, diagram, and data table below and on your \nknowledge of biology.\nThe laboratory setup represented below was used to investigate the effect of light on \naquatic plants. Equal amounts of a green water plant were placed in beakers with gas- \ncollecting tubes. The beakers were placed in a temperature-controlled environment. The \nlight source was placed at different distances from the beakers. After an hour, the amount \nof gas collected from the plants in each tube was measured and recorded in the data table.\nLight source\n(placed at varying\ndistances)\nWater\nGreen water plants\nBasic Setup\nCollected Gas\nGas Collected with Light Source at \nDifferent Distances from Plant   \nDistance of Light\nSource from Plant (cm)\nGas Collected \nin Tube (mm)\n5\n85\n10\n37\n15\n15\n20\n8\n25\n5\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201918 \n[13] \n[OVER]\nDirections (44\u201346): Using the information given, construct a line graph on the grid following the directions \nbelow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2018/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information, diagram, and data table below and on your \nknowledge of biology.\nThe laboratory setup represented below was used to investigate the effect of light on \naquatic plants. Equal amounts of a green water plant were placed in beakers with gas- \ncollecting tubes. The beakers were placed in a temperature-controlled environment. The \nlight source was placed at different distances from the beakers. After an hour, the amount \nof gas collected from the plants in each tube was measured and recorded in the data table.\nLight source\n(placed at varying\ndistances)\nWater\nGreen water plants\nBasic Setup\nCollected Gas\nGas Collected with Light Source at \nDifferent Distances from Plant   \nDistance of Light\nSource from Plant (cm)\nGas Collected \nin Tube (mm)\n5\n85\n10\n37\n15\n15\n20\n8\n25\n5\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201918 \n[13] \n[OVER]\nDirections (44\u201346): Using the information given, construct a line graph on the grid following the directions \nbelow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Plot the data on the grid, connect the points, and surround each point with a small circle. Example: Distance of Light Source from Plant (cm)",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2018/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information, diagram, and data table below and on your \nknowledge of biology.\nThe laboratory setup represented below was used to investigate the effect of light on \naquatic plants. Equal amounts of a green water plant were placed in beakers with gas- \ncollecting tubes. The beakers were placed in a temperature-controlled environment. The \nlight source was placed at different distances from the beakers. After an hour, the amount \nof gas collected from the plants in each tube was measured and recorded in the data table.\nLight source\n(placed at varying\ndistances)\nWater\nGreen water plants\nBasic Setup\nCollected Gas\nGas Collected with Light Source at \nDifferent Distances from Plant   \nDistance of Light\nSource from Plant (cm)\nGas Collected \nin Tube (mm)\n5\n85\n10\n37\n15\n15\n20\n8\n25\n5\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201918 \n[13] \n[OVER]\nDirections (44\u201346): Using the information given, construct a line graph on the grid following the directions \nbelow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which row in the chart below correctly identi\ufb01 es the variables in this experiment? Row Independent Variable Dependent Variable",
+      "choices": [
+        "amount of gas collected distance of beaker from light source",
+        "number of plants in the beaker temperature of plant",
+        "distance of beaker from light source amount of gas collected",
+        "minutes of exposure to the light source rate of gas collection"
+      ],
+      "image": "/images/exams/living-environment/january-2018/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information, diagram, and data table below and on your \nknowledge of biology.\nThe laboratory setup represented below was used to investigate the effect of light on \naquatic plants. Equal amounts of a green water plant were placed in beakers with gas- \ncollecting tubes. The beakers were placed in a temperature-controlled environment. The \nlight source was placed at different distances from the beakers. After an hour, the amount \nof gas collected from the plants in each tube was measured and recorded in the data table.\nLight source\n(placed at varying\ndistances)\nWater\nGreen water plants\nBasic Setup\nCollected Gas\nGas Collected with Light Source at \nDifferent Distances from Plant   \nDistance of Light\nSource from Plant (cm)\nGas Collected \nin Tube (mm)\n5\n85\n10\n37\n15\n15\n20\n8\n25\n5\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201918 \n[13] \n[OVER]\nDirections (44\u201346): Using the information given, construct a line graph on the grid following the directions \nbelow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Identify the gas being produced by the plants.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2018/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information, diagram, and data table below and on your \nknowledge of biology.\nThe laboratory setup represented below was used to investigate the effect of light on \naquatic plants. Equal amounts of a green water plant were placed in beakers with gas- \ncollecting tubes. The beakers were placed in a temperature-controlled environment. The \nlight source was placed at different distances from the beakers. After an hour, the amount \nof gas collected from the plants in each tube was measured and recorded in the data table.\nLight source\n(placed at varying\ndistances)\nWater\nGreen water plants\nBasic Setup\nCollected Gas\nGas Collected with Light Source at \nDifferent Distances from Plant   \nDistance of Light\nSource from Plant (cm)\nGas Collected \nin Tube (mm)\n5\n85\n10\n37\n15\n15\n20\n8\n25\n5\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201918 \n[13] \n[OVER]\nDirections (44\u201346): Using the information given, construct a line graph on the grid following the directions \nbelow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "According to the passage, the bionic pancreas makes corrective actions that return blood sugar levels back to normal. This arti\ufb01 cial device helps",
+      "choices": [
+        "produce more sugar",
+        "break down blood cells",
+        "maintain homeostasis",
+        "cure their diabetes"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 49 through 51 on the information below and on your knowledge of biology.\nThe Bionic Pancreas\nUntil recently, diabetics could rely only on regular blood sugar checks, medications, and \nlow-carbohydrate diets in order to maintain their health.\nBioengineers at Boston University are working to create a bionic pancreas. The device \nincludes a sensor implanted just beneath the skin that monitors blood sugar levels. It sends a \nwireless signal to a smartphone every \ufb01 ve minutes. If the phone receives a signal that blood \nsugar is too low or too high, it then sends a different signal to a separate device also attached \nto the body. This device releases the appropriate hormone into the bloodstream to return \nblood sugar levels back to normal.\nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The corrective actions made by the bionic pancreas on a regular basis in response to changing blood sugar levels are similar to which natural biological process?",
+      "choices": [
+        "a feedback mechanism",
+        "an immune response",
+        "biochemical digestion",
+        "ATP production"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 49 through 51 on the information below and on your knowledge of biology.\nThe Bionic Pancreas\nUntil recently, diabetics could rely only on regular blood sugar checks, medications, and \nlow-carbohydrate diets in order to maintain their health.\nBioengineers at Boston University are working to create a bionic pancreas. The device \nincludes a sensor implanted just beneath the skin that monitors blood sugar levels. It sends a \nwireless signal to a smartphone every \ufb01 ve minutes. If the phone receives a signal that blood \nsugar is too low or too high, it then sends a different signal to a separate device also attached \nto the body. This device releases the appropriate hormone into the bloodstream to return \nblood sugar levels back to normal.\nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "51",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 49 through 51 on the information below and on your knowledge of biology.\nThe Bionic Pancreas\nUntil recently, diabetics could rely only on regular blood sugar checks, medications, and \nlow-carbohydrate diets in order to maintain their health.\nBioengineers at Boston University are working to create a bionic pancreas. The device \nincludes a sensor implanted just beneath the skin that monitors blood sugar levels. It sends a \nwireless signal to a smartphone every \ufb01 ve minutes. If the phone receives a signal that blood \nsugar is too low or too high, it then sends a different signal to a separate device also attached \nto the body. This device releases the appropriate hormone into the bloodstream to return \nblood sugar levels back to normal.\nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Many hormones are proteins used in cellular communication. Each hormone carries a speci\ufb01 c message to speci\ufb01 c target cells. State why each of these hormones is able to deliver a different message.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "53",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Complete the energy pyramid provided below by writing herbivore, plant, and carnivore in the correct locations. Energy Pyramid",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2018/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the diagram below and on your knowledge of biology. The \ndiagram represents the energy in kilocalories (kcal) available at different feeding levels in a food chain.\n5,000 kcal available\nin tissues of corn\n100 kcal incorporated \ninto tissues of a cow\n3 kcal incorporated into \ntissues of a person\nConsumption\n1000 kcal\nConsumption\n30 kcal",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "55",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2018/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the diagram below and on your knowledge of biology. The \ndiagram represents the energy in kilocalories (kcal) available at different feeding levels in a food chain.\n5,000 kcal available\nin tissues of corn\n100 kcal incorporated \ninto tissues of a cow\n3 kcal incorporated into \ntissues of a person\nConsumption\n1000 kcal\nConsumption\n30 kcal",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to question 56\u201358 on the information below and on your knowledge of biology.\nReindeer Drool\nThe results of new research highlight interesting \ufb01 ndings regarding reindeer and moose \nsaliva. Both reindeer and moose feed on a type of grass called red fescue. Red fescue is \nusually dangerous to eat due to the presence of a fungus with which it has a mutually \nbene\ufb01 cial relationship. When the red fescue is eaten, the fungus produces a toxin that \ndecreases blood \ufb02 ow in the legs of the moose and reindeer. This could result in the loss of \ntheir limbs.\nSince many reindeer and moose successfully feed on red fescue, scientists wondered \nif their saliva gave them the ability to eat the grass without suffering from circulation \nproblems. Scientists hypothesized that moose and reindeer saliva might detoxify the grass. \nTo conduct their experiment, the researchers smeared reindeer and moose saliva on cut \nred fescue that contained the fungus. They learned that the saliva slowed the growth of this \nfungus and detoxi\ufb01 ed the grass. The results suggest that some animal species have evolved \nthe ability to \ufb01 ght back against a plant\u2019s natural defenses.\n 56\u201358 Explain the bene\ufb01 t of the ability moose and reindeer have to eat red fescue grass. In your answer, be \nsure to:\n\u2022 explain why red fescue plants with the fungus normally have an advantage over red fescue plants \n without the fungus   [1]\n\u2022 explain how the moose and reindeer saliva protects them from the harmful effects of the fungus   [1]\n\u2022 explain how moose and reindeer (two separate, but related, mammals) could possess the same \n adaptation that protects them from the toxin produced by the fungus   [1]\nPart C\nAnswer all questions in this part.     [17]\nDirections (56\u201372):  Record your answers in the spaces provided in this examination booklet.\n\n Living Environment\u2013Jan. \u201918 \n[18]\n 59 Cancer of the ovary is not common, but when it occurs, the cancer can cause the ovary to malfunction. \nIdentify one possible result of an ovary not performing its intended function in the body.   [1]\n 60 Several students were diagnosed with strep throat. They were all given the same antibiotic and took it for \nthe time speci\ufb01 ed. Three weeks later, after \ufb01 nishing all their antibiotic, all the students except one no longer \nhad strep throat. State one likely reason why the one student was still infected with strep bacteria.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "56\u201358 Explain the bene\ufb01 t of the ability moose and reindeer have to eat red fescue grass. In your answer, be sure to: \u2022 explain why red fescue plants with the fungus normally have an advantage over red fescue plants without the fungus \u2022 explain how the moose and reindeer saliva protects them from the harmful effects of the fungus \u2022 explain how moose and reindeer (two separate, but related, mammals) could possess the same adaptation that protects them from the toxin produced by the fungus",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to question 56\u201358 on the information below and on your knowledge of biology.\nReindeer Drool\nThe results of new research highlight interesting \ufb01 ndings regarding reindeer and moose \nsaliva. Both reindeer and moose feed on a type of grass called red fescue. Red fescue is \nusually dangerous to eat due to the presence of a fungus with which it has a mutually \nbene\ufb01 cial relationship. When the red fescue is eaten, the fungus produces a toxin that \ndecreases blood \ufb02 ow in the legs of the moose and reindeer. This could result in the loss of \ntheir limbs.\nSince many reindeer and moose successfully feed on red fescue, scientists wondered \nif their saliva gave them the ability to eat the grass without suffering from circulation \nproblems. Scientists hypothesized that moose and reindeer saliva might detoxify the grass. \nTo conduct their experiment, the researchers smeared reindeer and moose saliva on cut \nred fescue that contained the fungus. They learned that the saliva slowed the growth of this \nfungus and detoxi\ufb01 ed the grass. The results suggest that some animal species have evolved \nthe ability to \ufb01 ght back against a plant\u2019s natural defenses.\n 56\u201358 Explain the bene\ufb01 t of the ability moose and reindeer have to eat red fescue grass. In your answer, be \nsure to:\n\u2022 explain why red fescue plants with the fungus normally have an advantage over red fescue plants \n without the fungus   [1]\n\u2022 explain how the moose and reindeer saliva protects them from the harmful effects of the fungus   [1]\n\u2022 explain how moose and reindeer (two separate, but related, mammals) could possess the same \n adaptation that protects them from the toxin produced by the fungus   [1]\nPart C\nAnswer all questions in this part.     [17]\nDirections (56\u201372):  Record your answers in the spaces provided in this examination booklet.\n\n Living Environment\u2013Jan. \u201918 \n[18]\n 59 Cancer of the ovary is not common, but when it occurs, the cancer can cause the ovary to malfunction. \nIdentify one possible result of an ovary not performing its intended function in the body.   [1]\n 60 Several students were diagnosed with strep throat. They were all given the same antibiotic and took it for \nthe time speci\ufb01 ed. Three weeks later, after \ufb01 nishing all their antibiotic, all the students except one no longer \nhad strep throat. State one likely reason why the one student was still infected with strep bacteria.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Cancer of the ovary is not common, but when it occurs, the cancer can cause the ovary to malfunction. Identify one possible result of an ovary not performing its intended function in the body.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Several students were diagnosed with strep throat. They were all given the same antibiotic and took it for the time speci\ufb01 ed. Three weeks later, after \ufb01 nishing all their antibiotic, all the students except one no longer had strep throat. State one likely reason why the one student was still infected with strep bacteria.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State one reason why the use of sperm from wild elephants, rather than the use of sperm from elephants in zoos in England or Austria, would be more important to the long-term survival of elephants.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 and 62 on the information below and on your knowledge of biology.\nProject Frozen Dumbo \u2013 Saving the Elephant Population Means Using Special Breeding\nOver the last 10 years, 70 percent of Africa\u2019s wild elephant population has been killed off. \nThe main cause is ivory poaching, in which elephants are slaughtered for their valuable tusks. \nAt the same time, efforts to breed captive zoo elephants have not been very successful.\nNow there is some good news. At zoos in Austria and England, two baby elephants were \nborn, using sperm from South African wild elephants. For the \ufb01 rst time, elephant sperm \ngathered in the wild was frozen and given to zoos. Two female zoo elephants were arti\ufb01 cially \nimpregnated with the sperm and went on to deliver calves. \u2026\nSource: Saving the Elephant Population Means Using\nSpecial Breeding, Pittsburgh Post-Gazette, 8/21/14",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify one likely reason, other than poaching and hunting,",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 and 62 on the information below and on your knowledge of biology.\nProject Frozen Dumbo \u2013 Saving the Elephant Population Means Using Special Breeding\nOver the last 10 years, 70 percent of Africa\u2019s wild elephant population has been killed off. \nThe main cause is ivory poaching, in which elephants are slaughtered for their valuable tusks. \nAt the same time, efforts to breed captive zoo elephants have not been very successful.\nNow there is some good news. At zoos in Austria and England, two baby elephants were \nborn, using sperm from South African wild elephants. For the \ufb01 rst time, elephant sperm \ngathered in the wild was frozen and given to zoos. Two female zoo elephants were arti\ufb01 cially \nimpregnated with the sperm and went on to deliver calves. \u2026\nSource: Saving the Elephant Population Means Using\nSpecial Breeding, Pittsburgh Post-Gazette, 8/21/14",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Explain why these speci\ufb01 c T cells can be used for B-cell leukemia treatment.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of biology.\nBattling Cancer with T-cell Therapy\nOne reason that cancer is able to spread through tissues and organs is that cancer cells \nare actually the patient\u2019s own cells. The immune system of the patient does not recognize \nthese cancer cells as foreign and, therefore, does not reject and destroy them.\nOver the past eight years, immunologists have been developing a treatment for B-cell \nleukemia that involves using genetically engineered T cells to recognize and destroy B \ncells, all of which carry a protein, CD19. CD19 is found on the surface of both healthy and \ncancerous B cells. B cells are immune system cells that produce antibodies.\nThe procedure used in this treatment is outlined below:\n1. T cells are removed from the patient with B-cell leukemia.\n2. The T cells are genetically engineered to recognize the CD19 protein.\n3. The patient is injected with the engineered T cells, which attach to cells with CD19  \n \nand destroy them.\n4. The engineered T cells destroy both cancerous and healthy B cells.\nThis procedure has been successful in several patients. Currently, studies are continuing \nwith more B-cell leukemia patients. It is hoped that the studies will be expanded to include \nother types of cancer, and that this treatment will be available to treat a variety of cancers in \nthe future.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Explain why a patient needs treatments of antibodies after being injected with these modi\ufb01 ed T cells.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of biology.\nBattling Cancer with T-cell Therapy\nOne reason that cancer is able to spread through tissues and organs is that cancer cells \nare actually the patient\u2019s own cells. The immune system of the patient does not recognize \nthese cancer cells as foreign and, therefore, does not reject and destroy them.\nOver the past eight years, immunologists have been developing a treatment for B-cell \nleukemia that involves using genetically engineered T cells to recognize and destroy B \ncells, all of which carry a protein, CD19. CD19 is found on the surface of both healthy and \ncancerous B cells. B cells are immune system cells that produce antibodies.\nThe procedure used in this treatment is outlined below:\n1. T cells are removed from the patient with B-cell leukemia.\n2. The T cells are genetically engineered to recognize the CD19 protein.\n3. The patient is injected with the engineered T cells, which attach to cells with CD19  \n \nand destroy them.\n4. The engineered T cells destroy both cancerous and healthy B cells.\nThis procedure has been successful in several patients. Currently, studies are continuing \nwith more B-cell leukemia patients. It is hoped that the studies will be expanded to include \nother types of cancer, and that this treatment will be available to treat a variety of cancers in \nthe future.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Explain why the engineered T cells taken from one cancer patient will not work as a cancer treatment if injected into another patient with B-cell leukemia.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of biology.\nBattling Cancer with T-cell Therapy\nOne reason that cancer is able to spread through tissues and organs is that cancer cells \nare actually the patient\u2019s own cells. The immune system of the patient does not recognize \nthese cancer cells as foreign and, therefore, does not reject and destroy them.\nOver the past eight years, immunologists have been developing a treatment for B-cell \nleukemia that involves using genetically engineered T cells to recognize and destroy B \ncells, all of which carry a protein, CD19. CD19 is found on the surface of both healthy and \ncancerous B cells. B cells are immune system cells that produce antibodies.\nThe procedure used in this treatment is outlined below:\n1. T cells are removed from the patient with B-cell leukemia.\n2. The T cells are genetically engineered to recognize the CD19 protein.\n3. The patient is injected with the engineered T cells, which attach to cells with CD19  \n \nand destroy them.\n4. The engineered T cells destroy both cancerous and healthy B cells.\nThis procedure has been successful in several patients. Currently, studies are continuing \nwith more B-cell leukemia patients. It is hoped that the studies will be expanded to include \nother types of cancer, and that this treatment will be available to treat a variety of cancers in \nthe future.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Identify one abiotic factor that makes the hydrothermal vent ecosystem different from other ocean ecosystems.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of biology.\nHydrothermal Vent Communities\nScientists discovered a unique hydrothermal ecosystem on the sea \ufb02 oor at hot-water \nvents thousands of feet below the ocean surface. Organisms in these deep-sea regions have \nno access to sunlight, so they depend on the heat, methane, and high levels of sulfur-bearing \nminerals found in the heated \ufb02 uids in which they live. Scientists were amazed to discover \nvent communities able to sustain vast amounts of life. The vent organisms depend on bacteria \nthat can use the sulfur-bearing minerals to produce organic materials. These bacteria live \non rock surfaces and as free-\ufb02 oating blobs. Some bacteria live within and provide nutrients \nfor an unusual species of giant tubeworms that lacks a digestive system. Snails, shrimp, and \nclams are among the animals that feed directly on the bacteria. Crabs feed directly on other \nanimals in the vent community.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "State the relationship that exists between the crabs and the other members of the vent community.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of biology.\nHydrothermal Vent Communities\nScientists discovered a unique hydrothermal ecosystem on the sea \ufb02 oor at hot-water \nvents thousands of feet below the ocean surface. Organisms in these deep-sea regions have \nno access to sunlight, so they depend on the heat, methane, and high levels of sulfur-bearing \nminerals found in the heated \ufb02 uids in which they live. Scientists were amazed to discover \nvent communities able to sustain vast amounts of life. The vent organisms depend on bacteria \nthat can use the sulfur-bearing minerals to produce organic materials. These bacteria live \non rock surfaces and as free-\ufb02 oating blobs. Some bacteria live within and provide nutrients \nfor an unusual species of giant tubeworms that lacks a digestive system. Snails, shrimp, and \nclams are among the animals that feed directly on the bacteria. Crabs feed directly on other \nanimals in the vent community.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "68",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of biology.\nHydrothermal Vent Communities\nScientists discovered a unique hydrothermal ecosystem on the sea \ufb02 oor at hot-water \nvents thousands of feet below the ocean surface. Organisms in these deep-sea regions have \nno access to sunlight, so they depend on the heat, methane, and high levels of sulfur-bearing \nminerals found in the heated \ufb02 uids in which they live. Scientists were amazed to discover \nvent communities able to sustain vast amounts of life. The vent organisms depend on bacteria \nthat can use the sulfur-bearing minerals to produce organic materials. These bacteria live \non rock surfaces and as free-\ufb02 oating blobs. Some bacteria live within and provide nutrients \nfor an unusual species of giant tubeworms that lacks a digestive system. Snails, shrimp, and \nclams are among the animals that feed directly on the bacteria. Crabs feed directly on other \nanimals in the vent community.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "State one advantage genetic modi\ufb01 cation has over selective breeding when producing new varieties of animals or plants.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of biology.\nTransgenic Salmon\nTransgenic Atlantic salmon have been produced using DNA from other species of \nrelated \ufb01 sh. These genetically modi\ufb01 ed \ufb01 sh have an altered DNA \u201cswitch\u201d that causes them \nto overproduce growth hormone. The transgenic Atlantic salmon grow to normal size, but \nthey reach market size in half the time of conventional Atlantic salmon. As with most of the \nsalmon consumed by people, the transgenic Atlantic salmon would be grown using aquatic \nfarming methods. Scientists have expressed concern that transgenic \ufb01 sh can have undesirable \neffects on the natural environment. Fish growers would be expected to take steps to ensure \nthat the transgenic salmon do not escape into the wild.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State one reason the scientists altered the DNA \u201cswitch\u201d of the Atlantic salmon to make them produce more growth hormone, rather than directly supplying the Atlantic salmon with more growth hormone.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of biology.\nTransgenic Salmon\nTransgenic Atlantic salmon have been produced using DNA from other species of \nrelated \ufb01 sh. These genetically modi\ufb01 ed \ufb01 sh have an altered DNA \u201cswitch\u201d that causes them \nto overproduce growth hormone. The transgenic Atlantic salmon grow to normal size, but \nthey reach market size in half the time of conventional Atlantic salmon. As with most of the \nsalmon consumed by people, the transgenic Atlantic salmon would be grown using aquatic \nfarming methods. Scientists have expressed concern that transgenic \ufb01 sh can have undesirable \neffects on the natural environment. Fish growers would be expected to take steps to ensure \nthat the transgenic salmon do not escape into the wild.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "State one undesirable effect that escaped transgenic Atlantic salmon could have on the natural environment.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of biology.\nTransgenic Salmon\nTransgenic Atlantic salmon have been produced using DNA from other species of \nrelated \ufb01 sh. These genetically modi\ufb01 ed \ufb01 sh have an altered DNA \u201cswitch\u201d that causes them \nto overproduce growth hormone. The transgenic Atlantic salmon grow to normal size, but \nthey reach market size in half the time of conventional Atlantic salmon. As with most of the \nsalmon consumed by people, the transgenic Atlantic salmon would be grown using aquatic \nfarming methods. Scientists have expressed concern that transgenic \ufb01 sh can have undesirable \neffects on the natural environment. Fish growers would be expected to take steps to ensure \nthat the transgenic salmon do not escape into the wild.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "State one bene\ufb01",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of biology.\nTransgenic Salmon\nTransgenic Atlantic salmon have been produced using DNA from other species of \nrelated \ufb01 sh. These genetically modi\ufb01 ed \ufb01 sh have an altered DNA \u201cswitch\u201d that causes them \nto overproduce growth hormone. The transgenic Atlantic salmon grow to normal size, but \nthey reach market size in half the time of conventional Atlantic salmon. As with most of the \nsalmon consumed by people, the transgenic Atlantic salmon would be grown using aquatic \nfarming methods. Scientists have expressed concern that transgenic \ufb01 sh can have undesirable \neffects on the natural environment. Fish growers would be expected to take steps to ensure \nthat the transgenic salmon do not escape into the wild.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "During periods of vigorous physical activity, a person\u2019s breathing and heart rates increase. This enables the cells of the body to perform more ef\ufb01 ciently because it helps the cells to",
+      "choices": [
+        "remove waste products faster",
+        "store excess glucose in muscles",
+        "reduce the amount of ATP produced",
+        "convert more oxygen to glucose"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "A step in a procedure used in the Diffusion Through a Membrane lab is represented in the diagram below. Which procedure is represented in the diagram?",
+      "choices": [
+        "adding distilled water to the top of a cover glass on a slide",
+        "making an arti\ufb01 cial cell",
+        "adding salt solution to a specimen under the cover glass",
+        "making a thin sample to prepare a slide of red onion cells"
+      ],
+      "image": "/images/exams/living-environment/january-2018/q74.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "A student is opening and closing clothespins as part of a lab activity. The student begins to experience muscle fatigue, and the rate at which the student is opening and closing the clothespins slows. Which graph best represents the relationship between time and number of clothespin squeezes? Time ( 1 ) Number of Squeezes Time ( 3 ) Number of Squeezes Time ( 2 ) Number of Squeezes Time ( 4 ) Number of Squeezes",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2018/q75.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "The locations of molecules A and B at the beginning of the experiment are shown. Which statement best describes what was observed when the setup was examined 20 minutes later?",
+      "choices": [
+        "Molecule A remained inside the arti\ufb01 cial cell and molecule B remained outside.",
+        "Only molecule A was found both inside and outside the arti\ufb01 cial cell.",
+        "Only molecule B was found both inside and outside the arti\ufb01 cial cell.",
+        "Both molecules A and B were found inside and outside the arti\ufb01 cial cell."
+      ],
+      "image": "/images/exams/living-environment/january-2018/context_76_77.png",
+      "context": "Base your answers to questions 76 and 77 on the information and diagram below and on your knowledge of \nbiology. The diagram shows an experimental setup using an arti\ufb01 cial plant cell.\nA\nA\nA\nA\nA\nA\nA\nA\nA\nB\nB\nB\nB\nB\nB\nB\nArtificial plant cell\nB\nB\nMolecules A and B are commonly found in plant cells. When tested, it was discovered that molecule A \nquickly passed through the arti\ufb01 cial plant cell membrane. Molecule B did not pass through.\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "State one way the two molecules could differ that would explain the difference in their ability to pass through the arti\ufb01",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2018/context_76_77.png",
+      "context": "Base your answers to questions 76 and 77 on the information and diagram below and on your knowledge of \nbiology. The diagram shows an experimental setup using an arti\ufb01 cial plant cell.\nA\nA\nA\nA\nA\nA\nA\nA\nA\nB\nB\nB\nB\nB\nB\nB\nArtificial plant cell\nB\nB\nMolecules A and B are commonly found in plant cells. When tested, it was discovered that molecule A \nquickly passed through the arti\ufb01 cial plant cell membrane. Molecule B did not pass through.\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "If you were given packaged samples of hogweed plant parts, describe one speci\ufb01",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2018/context_78_78.png",
+      "context": "Base your answer to question 78 on the information and diagram below and on your knowledge of biology. \nThe diagram shows a plant called hogweed.\nHogweed is highly toxic and has become invasive in New York State. It can cause severe burns and blisters \nif touched.\nSource: http://www.washingtonpost.com\nHogweed Plants",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "In the table below, record the mRNA codons coded for by the DNA base sequence of the mutated gene ACGCGCACCTTA.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2018/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the information and diagram below and on your knowledge \nof biology.\nA human gene contains the following DNA base sequence: ACGCCCACCTTA\nThe gene mutated. It then contained the following DNA base sequence: ACGCGCACCTTA\nSECOND BASE\nT\nH\nI\nR\nD\nB\nA\nS\nE\nF\nI\nR\nS\nT\nB\nA\nS\nE\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nUUU\nUUC\nUUA\nUUG\nCUU\nCUC\nCUA\nCUG\nAUU\nAUC\nAUA\nAUG\nGUU\nGUC\nGUA\nGUG\nUCU\nUCC\nUCA\nUCG\nCCU\nCCC\nCCA\nCCG\nACU\nACC\nACA\nACG\nGCU\nGCC\nGCA\nGCG\nUAU\nUAC\nUAA\nUAG\nCAU\nCAC\nCAA\nCAG\nAAU\nAAC\nAAA\nAAG\nGAU\nGAC\nGAA\nGAG\nUGU\nUGC\nUGA\nUGG\nCGU\nCGC\nCGA\nCGG\nAGU\nAGC\nAGA\nAGG\nGGU\nGGC\nGGA\nGGG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nPHE\nLEU\nLEU\nILE\nMET or \nSTART\nVAL\nSER\nPRO\nTHR\nALA\nTYR\nSTOP\nHIS\nGLN\nASN\nLYS\nASP\nGLU\nARG\nSER\nARG\nGLY\nCYS\nSTOP\nTRP\nUniversal Genetic Code Chart\nMessenger RNA Codons and the Amino Acids for Which They Code \nU",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Then, using the Universal Genetic Code Chart, record the amino acid sequence that is coded for by the mRNA codons you placed in the table. Mutated Gene DNA Base Sequence ACG CGC ACC TTA mRNA codons _________ _________ _________ _________ Amino acid sequence _________ _________ _________ _________",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2018/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the information and diagram below and on your knowledge \nof biology.\nA human gene contains the following DNA base sequence: ACGCCCACCTTA\nThe gene mutated. It then contained the following DNA base sequence: ACGCGCACCTTA\nSECOND BASE\nT\nH\nI\nR\nD\nB\nA\nS\nE\nF\nI\nR\nS\nT\nB\nA\nS\nE\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nUUU\nUUC\nUUA\nUUG\nCUU\nCUC\nCUA\nCUG\nAUU\nAUC\nAUA\nAUG\nGUU\nGUC\nGUA\nGUG\nUCU\nUCC\nUCA\nUCG\nCCU\nCCC\nCCA\nCCG\nACU\nACC\nACA\nACG\nGCU\nGCC\nGCA\nGCG\nUAU\nUAC\nUAA\nUAG\nCAU\nCAC\nCAA\nCAG\nAAU\nAAC\nAAA\nAAG\nGAU\nGAC\nGAA\nGAG\nUGU\nUGC\nUGA\nUGG\nCGU\nCGC\nCGA\nCGG\nAGU\nAGC\nAGA\nAGG\nGGU\nGGC\nGGA\nGGG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nPHE\nLEU\nLEU\nILE\nMET or \nSTART\nVAL\nSER\nPRO\nTHR\nALA\nTYR\nSTOP\nHIS\nGLN\nASN\nLYS\nASP\nGLU\nARG\nSER\nARG\nGLY\nCYS\nSTOP\nTRP\nUniversal Genetic Code Chart\nMessenger RNA Codons and the Amino Acids for Which They Code \nU",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Which type of mutation is represented in the new gene?",
+      "choices": [
+        "addition",
+        "deletion",
+        "inversion",
+        "substitution"
+      ],
+      "image": "/images/exams/living-environment/january-2018/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the information and diagram below and on your knowledge \nof biology.\nA human gene contains the following DNA base sequence: ACGCCCACCTTA\nThe gene mutated. It then contained the following DNA base sequence: ACGCGCACCTTA\nSECOND BASE\nT\nH\nI\nR\nD\nB\nA\nS\nE\nF\nI\nR\nS\nT\nB\nA\nS\nE\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nUUU\nUUC\nUUA\nUUG\nCUU\nCUC\nCUA\nCUG\nAUU\nAUC\nAUA\nAUG\nGUU\nGUC\nGUA\nGUG\nUCU\nUCC\nUCA\nUCG\nCCU\nCCC\nCCA\nCCG\nACU\nACC\nACA\nACG\nGCU\nGCC\nGCA\nGCG\nUAU\nUAC\nUAA\nUAG\nCAU\nCAC\nCAA\nCAG\nAAU\nAAC\nAAA\nAAG\nGAU\nGAC\nGAA\nGAG\nUGU\nUGC\nUGA\nUGG\nCGU\nCGC\nCGA\nCGG\nAGU\nAGC\nAGA\nAGG\nGGU\nGGC\nGGA\nGGG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nPHE\nLEU\nLEU\nILE\nMET or \nSTART\nVAL\nSER\nPRO\nTHR\nALA\nTYR\nSTOP\nHIS\nGLN\nASN\nLYS\nASP\nGLU\nARG\nSER\nARG\nGLY\nCYS\nSTOP\nTRP\nUniversal Genetic Code Chart\nMessenger RNA Codons and the Amino Acids for Which They Code \nU",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "The amino acids bond together to form which type of complex molecule?",
+      "choices": [
+        "protein",
+        "starch",
+        "fat",
+        "sugar"
+      ],
+      "image": "/images/exams/living-environment/january-2018/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the information and diagram below and on your knowledge \nof biology.\nA human gene contains the following DNA base sequence: ACGCCCACCTTA\nThe gene mutated. It then contained the following DNA base sequence: ACGCGCACCTTA\nSECOND BASE\nT\nH\nI\nR\nD\nB\nA\nS\nE\nF\nI\nR\nS\nT\nB\nA\nS\nE\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nUUU\nUUC\nUUA\nUUG\nCUU\nCUC\nCUA\nCUG\nAUU\nAUC\nAUA\nAUG\nGUU\nGUC\nGUA\nGUG\nUCU\nUCC\nUCA\nUCG\nCCU\nCCC\nCCA\nCCG\nACU\nACC\nACA\nACG\nGCU\nGCC\nGCA\nGCG\nUAU\nUAC\nUAA\nUAG\nCAU\nCAC\nCAA\nCAG\nAAU\nAAC\nAAA\nAAG\nGAU\nGAC\nGAA\nGAG\nUGU\nUGC\nUGA\nUGG\nCGU\nCGC\nCGA\nCGG\nAGU\nAGC\nAGA\nAGG\nGGU\nGGC\nGGA\nGGG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nPHE\nLEU\nLEU\nILE\nMET or \nSTART\nVAL\nSER\nPRO\nTHR\nALA\nTYR\nSTOP\nHIS\nGLN\nASN\nLYS\nASP\nGLU\nARG\nSER\nARG\nGLY\nCYS\nSTOP\nTRP\nUniversal Genetic Code Chart\nMessenger RNA Codons and the Amino Acids for Which They Code \nU",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "A certain small population of \ufb01 nches already has an \u201cideal\u201d beak type for its present environment. Describe two speci\ufb01 c adaptations, other than beak type, that would contribute to the ability of these \ufb01 nches to survive.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "In order to determine the effect of muscle fatigue on the ability of students to squeeze a clothespin, \ufb01 ve male students did jumping jacks for three minutes and then squeezed a clothespin as many times as possible in a minute. Three other male students ran up and down the stairs for 30 seconds and then squeezed a clothespin as many times as possible for one minute. The results of the two groups were recorded. Identify one change that could be made to the experiment to increase the validity of the conclusion made from these results.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "There is a group of plants, known as halophytes, that has traits that enable them to survive in salty environments. Describe one change, other than death, LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

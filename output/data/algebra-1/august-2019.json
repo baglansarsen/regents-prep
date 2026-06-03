@@ -1,0 +1,491 @@
+{
+  "subject": "algebra-1",
+  "session": "august-2019",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Bryan\u2019s hockey team is purchasing jerseys. The company charges $250 for a onetime set-up fee and $23 for each printed jersey. Which expression represents the total cost of x number of jerseys for the team?",
+      "choices": [
+        "23x",
+        "23 \u0002 250x",
+        "23x \u0002 250",
+        "23(x \u0002 250)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "written",
+      "text": "Which table represents a function? x y 2 \u20133 3 0 4 \u20133 2 1 x y \u20133 0 \u20132 1 \u20133 2 2",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2019/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "3",
+      "choices": [
+        "5x2 \u0003 5",
+        "5x2 \u0003 6",
+        "5x2 \u0003 12x \u0003 1",
+        "5x2 \u0003 12x \u0003 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The value of x that satisfies the equation \u0004 \u0002 x 4 3 10 15 is",
+      "choices": [
+        "\u00036",
+        "5",
+        "10",
+        "30"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Josh graphed the function f(x) \u0004 \u00033(x \u0003 1)2 \u0002 2. He then graphed the function g(x) \u0004 \u00033(x \u0003 1)2 \u0003 5 on the same coordinate plane. The vertex of g(x) is",
+      "choices": [
+        "7 units below the vertex of f(x)",
+        "7 units above the vertex of f(x)",
+        "7 units to the right of the vertex of f(x)",
+        "7 units to the left of the vertex of f(x)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A survey was given to 12th-grade students of West High School to determine the location for the senior class trip. The results are shown in the table below. Niagara Falls Darien Lake New York City Boys 56 74 103 Girls 71 92 88 To the nearest percent, what percent of the boys chose Niagara Falls?",
+      "choices": [
+        "12",
+        "24",
+        "44",
+        "56"
+      ],
+      "image": "/images/exams/algebra-1/august-2019/q6.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which type of function is shown in the graph below? Time (t) Population Size (N)",
+      "choices": [
+        "linear",
+        "exponential",
+        "square root",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/august-2019/q7.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The expression 16x2 \u0003 81 is equivalent to",
+      "choices": [
+        "(8x \u0003 9)(8x \u0002 9)",
+        "(8x \u0003 9)(8x \u0003 9)",
+        "(4x \u0003 9)(4x \u0002 9)",
+        "(4x \u0003 9)(4x \u0003 9)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The owner of a landscaping business wants to know how much time, on average, his workers spend mowing one lawn. Which is the most appropriate rate with which to calculate an answer to his question?",
+      "choices": [
+        "lawns per employee",
+        "lawns per day",
+        "employee per lawns",
+        "hours per lawn"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A ball is thrown into the air from the top of a building. The height, h(t), of the ball above the ground t seconds after it is thrown can be modeled by h(t) \u0004 \u000316t2 \u0002 64t \u0002 80. How many seconds after being thrown will the ball hit the ground?",
+      "choices": [
+        "5",
+        "2",
+        "80",
+        "144"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which equation is equivalent to y \u0004 x2 \u0002 24x \u0003 18?",
+      "choices": [
+        "y \u0004 (x \u0002 12)2 \u0003 162",
+        "y \u0004 (x \u0002 12)2 \u0002 126",
+        "y \u0004 (x \u0003 12)2 \u0003 162",
+        "y \u0004 (x \u0003 12)2 \u0002 126"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "When (x)(x \u0003 5)(2x \u0002 3) is expressed as a polynomial in standard form, which statement about the resulting polynomial is true?",
+      "choices": [
+        "The constant term is 2.",
+        "The leading coefficient is 2.",
+        "The degree is 2.",
+        "The number of terms is 2."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The population of a city can be modeled by P(t) \u0004 3810(1.0005)7t, where P(t) is the population after t years. Which function is approximately equivalent to P(t)?",
+      "choices": [
+        "P(t) \u0004 3810(0.1427)t",
+        "P(t) \u0004 3810(1.0035)t",
+        "P(t) \u0004 26,670(0.1427)t",
+        "P(t) \u0004 26,670(1.0035)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The functions f(x) and g(x) are graphed on the set of axes below. y x f(x) g(x) For which value of x is f(x) \u0002 g(x)?",
+      "choices": [
+        "\u00031",
+        "2",
+        "3",
+        "\u00032"
+      ],
+      "image": "/images/exams/algebra-1/august-2019/q14.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "What is the range of the box plot shown below? 3 4 5 0 1 2 6 7 8 9 10",
+      "choices": [
+        "7",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": "/images/exams/algebra-1/august-2019/q15.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which expression is not equivalent to 2x2 \u0002 10x \u0002 12?",
+      "choices": [
+        "(2x \u0002 4)(x \u0002 3)",
+        "(2x \u0002 6)(x \u0002 2)",
+        "(2x \u0002 3)(x \u0002 4)",
+        "2(x \u0002 3)(x \u0002 2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The quadratic functions r(x) and q(x) are given below. x \u2013 4 \u2013 12 \u2013 15 \u2013 16 \u2013 15 \u2013 12 \u20137 1 r(x) \u2013 3 \u2013 2 \u2013 1 0 q(x) \u0002 x2 \u0003 2x \u0004 8 The function with the smallest minimum value is",
+      "choices": [
+        "q(x), and the value is \u00049",
+        "q(x), and the value is \u00041",
+        "r(x), and the value is \u000416",
+        "r(x), and the value is \u00042"
+      ],
+      "image": "/images/exams/algebra-1/august-2019/q17.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A child is playing outside. The graph below shows the child\u2019s distance, d(t), in yards from home over a period of time, t, in seconds. d(t) t 1 2 3 4 Time (seconds) 5 6 7 0 2 4 6 8 10 12 14 Distance (yards) Which interval represents the child constantly moving closer to home?",
+      "choices": [
+        "0 \u0005 t \u0005 2",
+        "2 \u0005 t \u0005 3",
+        "3 \u0005 t \u0005 4",
+        "4 \u0005 t \u0005 6"
+      ],
+      "image": "/images/exams/algebra-1/august-2019/q18.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "If a1 \u0002 6 and an \u0002 3 \u0003 2(an \u0004 1)2, then a2 equals",
+      "choices": [
+        "75",
+        "147",
+        "180",
+        "900"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The length of a rectangular patio is 7 feet more than its width, w. The area of a patio, A(w), can be represented by the function",
+      "choices": [
+        "A(w) \u0004 w \u0002 7",
+        "A(w) \u0004 w2 \u0002 7w",
+        "A(w) \u0004 4w \u0002 14",
+        "A(w) \u0004 4w2 \u0002 28w"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A dolphin jumps out of the water and then back into the water. His jump could be graphed on a set of axes where x represents time and y represents distance above or below sea level. The domain for this graph is best represented using a set of",
+      "choices": [
+        "integers",
+        "positive integers",
+        "real numbers",
+        "positive real numbers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which system of linear equations has the same solution as the one shown below? x \u0003 4y \u0004 \u000310 x \u0002 y \u0004 5",
+      "choices": [
+        "5x \u0004 10",
+        "\u00035y \u0004 \u00035",
+        "\u00033x \u0004 \u000330 x \u0002 y \u0004 5 x \u0002 y \u0004 5",
+        "\u00035y \u0004 \u00035 x \u0002 y \u0004 5 x \u0003 4y \u0004 \u000310"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which interval represents the range of the function h(x) \u0004 2x2 \u0003 2x \u0003 4?",
+      "choices": [
+        "(0.5,\u221e)",
+        "(\u00034.5,\u221e)",
+        "[0.5,\u221e)",
+        "[\u00034.5,\u221e)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "What is a common ratio of the geometric sequence whose first term is 5 and third term is 245?",
+      "choices": [
+        "7",
+        "49",
+        "120",
+        "240 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "If g(x) \u0004 \u00034x2 \u0003 3x \u0002 2, determine g(\u00032)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "A student is in the process of solving an equation. The original equation and the first step are shown below. Original: 3a \u0002 6 \u0004 2 \u0003 5a \u0002 7 Step one: 3a \u0002 6 \u0004 2 \u0002 7 \u0003 5a Which property did the student use for the first step?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "On the set of axes below, graph the line whose equation is 2y \u0004 \u00033x \u0003 2. y x This linear equation contains the point (2,k)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2019/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The formula a \u0004 \u0003 v v t f i is used to calculate acceleration as the change in velocity over the period of time. Solve the formula for the final velocity, vf , in terms of initial velocity, vi , acceleration, a, and time,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Solve \u0002 \u0006 \u0003 x x 3 5 1 3 4 5 1 3",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Is the product of two irrational numbers always irrational?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Solve 6x2 \u0003 42 \u0004 0",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Graph the function: h(x) \u0004 { x x x x x 2 3, 0 4 5, 0 5 2 \u0003 \u0006 \u0003 \u0003 \u0005 \u0005 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2019/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "On the set of axes below, graph the following system of inequalities: 2x \u0002 y \u0007 8 y \u0003 5 \u0006 3x y x Determine if the point (1,8)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2019/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "On the day Alexander was born, his father invested $5000 in an account with a 1.2% annual growth rate. Write a function, A(t), that represents the value of this investment t years after Alexander\u2019s birth. Determine, to the nearest dollar, how much more the investment will be worth when Alexander turns 32 than when he turns 17",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Stephen collected data from a travel website. The data included a hotel\u2019s distance from Times Square in Manhattan and the cost of a room for one weekend night in August. A table containing these data appears below. Distance From Times Square (city blocks) (x) 0 0 1 1 3 4 7 11 14 19 Cost of a Room (dollars) (y) 293 263 244 224 185 170 219 153 136 111 Write the linear regression equation for this data set. Round all values to the nearest hundredth. State the correlation coefficient for this data set,",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2019/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "A snowstorm started at midnight. For the first 4 hours, it snowed at an average rate of one-half inch per hour. The snow then started to fall at an average rate of one inch per hour for the next 6 hours. Then it stopped snowing for 3 hours. Then it started snowing again at an average rate of one-half inch per hour for the next 4 hours until the storm was over. On the set of axes below, graph the amount of snow accumulated over the time interval of the storm. y x 6 12 18 2 3 4 5 6 7 8 9 10 Elapsed Time (in hours) Accumulated Snowfall (in inches) 1 9 15 3 Determine the average rate of snowfall over the length of the storm. State the rate, Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2019/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Allysa spent $35 to purchase 12 chickens. She bought two different types of chickens. Americana chickens cost $3.75 each and Delaware chickens cost $2.50 each. Write a system of equations that can be used to determine the number of Americana chickens, A, and the number of Delaware chickens, D, she purchased. Determine algebraically how many of each type of chicken Allysa purchased. Each Americana chicken lays 2 eggs per day and each Delaware chicken lays 1 egg per day. Allysa only sells eggs by the full dozen for $2.50. Determine how much money she expects to take in at the end of the first week with her 12 chickens. Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0004 2.54 centimeters 1 kilometer \u0004 0.62 mile 1 cup \u0004 8 fluid ounces 1 meter \u0004 39.37 inches 1 pound \u0004 16 ounces 1 pint \u0004 2 cups 1 mile \u0004 5280 feet 1 pound \u0004 0.454 kilogram 1 quart \u0004 2 pints 1 mile \u0004 1760 yards 1 kilogram \u0004 2.2 pounds 1 gallon \u0004 4 quarts 1 mile \u0004 1.609 kilometers 1 ton \u0004 2000 pounds 1 gallon \u0004 3.785 liters 1 liter \u0004 0.264 gallon 1 liter \u0004 1000 cubic centimeters Triangle A \u0004 bh 1 2 Parallelogram A \u0004 bh Circle A \u0004 \u03c0r2 Circle C \u0004 \u03c0d or C \u0004 2\u03c0r General Prisms V \u0004 Bh Cylinder V \u0004 \u03c0r2h Sphere V \u0004 \u03c0r3 4 3 Cone V \u0004 \u03c0r2h 1 3 Pyramid V \u0004 Bh 1 3 Pythagorean Theorem a2 \u0002 b2 \u0004 c2 Quadratic Formula x \u0004 \u0003 \b \u0003 b a b2 2 4ac Arithmetic Sequence an \u0004 a1 \u0002 (n \u0003 1)d Geometric Sequence an \u0004 a1r n \u0003 1 Geometric Series Sn \u0004 where r 1 a a r r n 1 1 1 \u0003 \u0003 Radians 1 radian \u0004 degrees 180 \u03c0 Degrees 1 degree \u0004 radians \u03c0 180 Exponential Growth/Decay A \u0004 A0ek(t \u0003 t0) \u0002 B0 Tear Here Tear Here ALGEBRA I ALGEBRA I Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

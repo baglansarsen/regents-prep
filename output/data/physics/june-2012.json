@@ -1,0 +1,1071 @@
+{
+  "subject": "physics",
+  "session": "june-2012",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The magnitude of the player\u2019s total displacement after running the drill is",
+      "choices": [
+        "0.0 m",
+        "30. m",
+        "60. m",
+        "180 m"
+      ],
+      "image": "/images/exams/physics/june-2012/context_1_2.png",
+      "context": "Base your answers to questions 1 and 2 on the\ninformation below.\nIn a drill during basketball practice, a\nplayer runs the length of the 30.-meter court\nand back. The player does this three times in\n60. seconds.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The average speed of the player during the drill is",
+      "choices": [
+        "0.0 m/s",
+        "0.50 m/s",
+        "3.0 m/s",
+        "30. m/s"
+      ],
+      "image": "/images/exams/physics/june-2012/context_1_2.png",
+      "context": "Base your answers to questions 1 and 2 on the\ninformation below.\nIn a drill during basketball practice, a\nplayer runs the length of the 30.-meter court\nand back. The player does this three times in\n60. seconds.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "A baseball is thrown at an angle of 40.0\u00b0 above the horizontal. The horizontal component of the baseball\u2019s initial velocity is 12.0 meters per second. What is the magnitude of the ball\u2019s initial velocity?",
+      "choices": [
+        "7.71 m/s",
+        "9.20 m/s",
+        "15.7 m/s",
+        "18.7 m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "A particle could have a charge of",
+      "choices": [
+        "0.8 \u00d7 10\u221219 C",
+        "1.2 \u00d7 10\u221219 C",
+        "3.2 \u00d7 10\u221219 C",
+        "4.1 \u00d7 10\u221219 C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which object has the greatest inertia?",
+      "choices": [
+        "a 15-kg mass traveling at 5.0 m/s",
+        "a 10.-kg mass traveling at 10. m/s",
+        "a 10.-kg mass traveling at 5.0 m/s",
+        "a 5.0-kg mass traveling at 15 m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A car, initially traveling east with a speed of 5.0 meters per second, is accelerated uniformly at 2.0 meters per second2 east for 10. seconds along a straight line. During this 10.-second interval the car travels a total distance of",
+      "choices": [
+        "50. m",
+        "60. m",
+        "1.0 \u00d7 102 m",
+        "1.5 \u00d7 102 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which situation describes an object that has no unbalanced force acting on it?",
+      "choices": [
+        "an apple in free fall",
+        "a satellite orbiting Earth",
+        "a hockey puck moving at constant velocity across ice",
+        "a laboratory cart moving down a frictionless 30.\u00b0 incline"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A child riding a bicycle at 15 meters per second accelerates at \u22123.0 meters per second2 for 4.0 seconds. What is the child\u2019s speed at the end of this 4.0-second interval?",
+      "choices": [
+        "12 m/s",
+        "27 m/s",
+        "3.0 m/s",
+        "7.0 m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "An unbalanced force of 40. newtons keeps a 5.0-kilogram object traveling in a circle of radius 2.0 meters. What is the speed of the object?",
+      "choices": [
+        "8.0 m/s",
+        "2.0 m/s",
+        "16 m/s",
+        "4.0 m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A 5.00-kilogram block slides along a horizontal, frictionless surface at 10.0 meters per second for 4.00 seconds. The magnitude of the block\u2019s momentum is",
+      "choices": [
+        "200. kg\u2022m/s",
+        "50.0 kg\u2022m/s",
+        "20.0 kg\u2022m/s",
+        "12.5 kg\u2022m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A 0.50-kilogram puck sliding on a horizontal shuffleboard court is slowed to rest by a frictional force of 1.2 newtons. What is the coefficient of kinetic friction between the puck and the surface of the shuffleboard court?",
+      "choices": [
+        "0.24",
+        "0.42",
+        "0.60",
+        "4.1 30. m (Not drawn to scale)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "written",
+      "text": "A number of 1.0-newton horizontal forces are exerted on a block on a frictionless, horizontal surface. Which top-view diagram shows the forces producing the greatest magnitude of acceleration of the block?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "On a small planet, an astronaut uses a vertical force of 175 newtons to lift an 87.5-kilogram boulder at constant velocity to a height of 0.350 meter above the planet\u2019s surface. What is the magnitude of the gravitational field strength on the surface of the planet?",
+      "choices": [
+        "0.500 N/kg",
+        "2.00 N/kg",
+        "9.81 N/kg",
+        "61.3 N/kg"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "A car uses its brakes to stop on a level road. During this process, there must be a conversion of kinetic energy into",
+      "choices": [
+        "light energy",
+        "nuclear energy",
+        "gravitational potential energy",
+        "internal energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which change decreases the resistance of a piece of copper wire?",
+      "choices": [
+        "increasing the wire\u2019s length",
+        "increasing the wire\u2019s resistivity",
+        "decreasing the wire\u2019s temperature",
+        "decreasing the wire\u2019s diameter"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "written",
+      "text": "A stone on the end of a string is whirled clockwise at constant speed in a horizontal circle as shown in the diagram below. Which pair of arrows best represents the directions of the stone\u2019s velocity, v, and acceleration, a, at the position shown?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "How much work is done by the force lifting a 0.1-kilogram hamburger vertically upward at constant velocity 0.3 meter from a table?",
+      "choices": [
+        "0.03 J",
+        "0.1 J",
+        "0.3 J",
+        "0.4 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Two electrons are separated by a distance of 3.00 \u00d7 10\u22126 meter. What are the magnitude and direction of the electrostatic forces each exerts on the other?",
+      "choices": [
+        "2.56 \u00d7 10\u221217 N away from each other",
+        "2.56 \u00d7 10\u221217 N toward each other",
+        "7.67 \u00d7 10\u221223 N away from each other",
+        "7.67 \u00d7 10\u221223 N toward each other v a ( 3 ) v a ( 2 ) v a ( 1 ) v a ( 4 ) String Stone Top view ( 3 ) 1.0 N Top of block 1.0 N 1.0 N ( 2 ) Top of block 1.0 N 1.0 N ( 1 ) 1.0 N Top of block 1.0 N ( 4 ) 1.0 N Top of block 1.0 N 1.0 N 1.0 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which object will have the greatest change in electrical energy?",
+      "choices": [
+        "an electron moved through a potential difference of 2.0 V",
+        "a metal sphere with a charge of 1.0 \u00d7 10\u22129 C moved through a potential difference of 2.0 V",
+        "an electron moved through a potential difference of 4.0 V",
+        "a metal sphere with a charge of 1.0 \u00d7 10\u22129 C moved through a potential difference of 4.0 V"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "written",
+      "text": "The resistance of a circuit remains constant. Which graph best represents the relationship between the current in the circuit and the potential difference provided by the battery?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The wavelength of a wave doubles as it travels from medium A into medium B. Compared to the wave in medium A, the wave in medium B has",
+      "choices": [
+        "half the speed",
+        "twice the speed",
+        "half the frequency",
+        "twice the frequency"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The watt\u2022second is a unit of",
+      "choices": [
+        "power",
+        "energy",
+        "potential difference",
+        "electric field strength"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which quantity has both a magnitude and a direction?",
+      "choices": [
+        "energy",
+        "impulse",
+        "power",
+        "work"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A tuning fork vibrates at a frequency of 512 hertz when struck with a rubber hammer. The sound produced by the tuning fork will travel through the air as a",
+      "choices": [
+        "longitudinal wave with air molecules vibrating parallel to the direction of travel",
+        "transverse wave with air molecules vibrating parallel to the direction of travel",
+        "longitudinal wave with air molecules vibrating perpendicular to the direction of travel",
+        "transverse wave with air molecules vibrating perpendicular to the direction of travel"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "A 3-ohm resistor and a 6-ohm resistor are connected in parallel across a 9-volt battery. Which statement best compares the potential difference across each resistor?",
+      "choices": [
+        "The potential difference across the 6-ohm resistor is the same as the potential difference across the 3-ohm resistor.",
+        "The potential difference across the 6-ohm resistor is twice as great as the potential difference across the 3-ohm resistor.",
+        "The potential difference across the 6-ohm resistor is half as great as the potential difference across the 3-ohm resistor.",
+        "The potential difference across the 6-ohm resistor is four times as great as the potential difference across the 3-ohm resistor."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "A 3.6-volt battery is used to operate a cell phone for 5.0 minutes. If the cell phone dissipates 0.064 watt of power during its operation, the current that passes through the phone is",
+      "choices": [
+        "0.018 A",
+        "5.3 A",
+        "19 A",
+        "56 A"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "A monochromatic beam of light has a frequency of 7.69 \u00d7 1014 hertz. What is the energy of a photon of this light?",
+      "choices": [
+        "2.59 \u00d7 10\u221240 J",
+        "6.92 \u00d7 10\u221231 J",
+        "5.10 \u00d7 10\u221219 J",
+        "3.90 \u00d7 10\u22127 J ( 3 ) Potential Difference Current ( 2 ) Potential Difference Current ( 4 ) ( 1 ) Current Potential Difference Potential Difference Current"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "A 3.00 \u00d7 10\u22129-coulomb test charge is placed near a negatively charged metal sphere. The sphere exerts an electrostatic force of magnitude 6.00 \u00d7 10\u22125 newton on the test charge. What is the magnitude and direction of the electric field strength at this location?",
+      "choices": [
+        "2.00 \u00d7 104 N/C directed away from the sphere",
+        "2.00 \u00d7 104 N/C directed toward the sphere",
+        "5.00 \u00d7 10\u22125 N/C directed away from the sphere",
+        "5.00 \u00d7 10\u22125 N/C directed toward the sphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "What is characteristic of both sound waves and electromagnetic waves?",
+      "choices": [
+        "They require a medium.",
+        "They transfer energy.",
+        "They are mechanical waves.",
+        "They are longitudinal waves."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "A small object is dropped through a loop of wire connected to a sensitive ammeter on the edge of a table, as shown in the diagram below. A reading on the ammeter is most likely produced when the object falling through the loop of wire is a",
+      "choices": [
+        "flashlight battery",
+        "bar magnet",
+        "brass mass",
+        "plastic ruler"
+      ],
+      "image": "/images/exams/physics/june-2012/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "What is the wavelength of a 2.50-kilohertz sound wave traveling at 326 meters per second through air?",
+      "choices": [
+        "0.130 m",
+        "1.30 m",
+        "7.67 m",
+        "130. m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Ultrasound is a medical technique that transmits sound waves through soft tissue in the human body. Ultrasound waves can break kidney stones into tiny fragments, making it easier for them to be excreted without pain. The shattering of kidney stones with specific frequencies of sound waves is an application of which wave phenomenon?",
+      "choices": [
+        "the Doppler effect",
+        "reflection",
+        "refraction",
+        "resonance"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "In the diagram below, a stationary source located at point S produces sound having a constant frequency of 512 hertz. Observer A, 50. meters to the left of S, hears a frequency of 512 hertz. Observer B, 100. meters to the right of S, hears a frequency lower than 512 hertz. Which statement best describes the motion of the observers?",
+      "choices": [
+        "Observer A is moving toward point S, and observer B is stationary.",
+        "Observer A is moving away from point S, and observer B is stationary.",
+        "Observer A is stationary, and observer B is moving toward point S.",
+        "Observer A is stationary, and observer B is moving away from point S."
+      ],
+      "image": "/images/exams/physics/june-2012/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "While sitting in a boat, a fisherman observes that two complete waves pass by his position every 4 seconds. What is the period of these waves?",
+      "choices": [
+        "0.5 s",
+        "2 s",
+        "8 s",
+        "4 s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "A wave passes through an opening in a barrier. The amount of diffraction experienced by the wave depends on the size of the opening and the wave\u2019s",
+      "choices": [
+        "amplitude",
+        "wavelength",
+        "velocity",
+        "phase 512 Hz 100. m 50. m B A S"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The length of a football field is closest to",
+      "choices": [
+        "1000 cm",
+        "1000 dm",
+        "1000 km",
+        "1000 mm"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "A student on an amusement park ride moves in a circular path with a radius of 3.5 meters once every 8.9 seconds. The student moves at an average speed of",
+      "choices": [
+        "0.39 m/s",
+        "1.2 m/s",
+        "2.5 m/s",
+        "4.3 m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "When a 1.0-kilogram cart moving with a speed of 0.50 meter per second on a horizontal surface collides with a second 1.0-kilogram cart initially at rest, the carts lock together. What is the speed of the combined carts after the collision? [Neglect friction.]",
+      "choices": [
+        "1.0 m/s",
+        "0.50 m/s",
+        "0.25 m/s",
+        "0 m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Two elevators, A and B, move at constant speed. Elevator B moves with twice the speed of elevator A. Elevator B weighs twice as much as elevator A. Compared to the power needed to lift elevator A, the power needed to lift elevator B is",
+      "choices": [
+        "the same",
+        "twice as great",
+        "half as great",
+        "four times as great"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "What is the maximum height to which a motor having a power rating of 20.4 watts can lift a 5.00-kilogram stone vertically in 10.0 seconds?",
+      "choices": [
+        "0.0416 m",
+        "0.408 m",
+        "4.16 m",
+        "40.8 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "What is the current in a wire if 3.4 \u00d7 1019 electrons pass by a point in this wire every 60. seconds?",
+      "choices": [
+        "1.8 \u00d7 10\u221218 A",
+        "3.1 \u00d7 10\u221211 A",
+        "9.1 \u00d7 10\u22122 A",
+        "11 A"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "written",
+      "text": "Which graph represents the relationship between the magnitude of the gravitational force exerted by Earth on a spacecraft and the distance between the center of the spacecraft and center of Earth? [Assume constant mass for the spacecraft.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/q42.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "To increase the brightness of a desk lamp, a student replaces a 50-watt incandescent lightbulb with a 100-watt incandescent lightbulb. Compared to the 50-watt lightbulb, the 100-watt lightbulb has",
+      "choices": [
+        "less resistance and draws more current",
+        "less resistance and draws less current",
+        "more resistance and draws more current",
+        "more resistance and draws less current"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Electrons in excited hydrogen atoms are in the n = 3 energy level. How many different photon frequencies could be emitted as the atoms return to the ground state?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4 Distance ( 3 ) Gravitational Force ( 2 ) Distance Gravitational Force Distance Gravitational Force ( 1 ) ( 4 ) Gravitational Force Distance"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a setup for demonstrating motion. When the lever is released, the support rod withdraws from ball B, allowing it to fall. At the same instant, the rod contacts ball A, propelling it horizontally to the left. Which statement describes the motion that is observed after the lever is released and the balls fall? [Neglect friction.]",
+      "choices": [
+        "Ball A travels at constant velocity.",
+        "Ball A hits the tabletop at the same time as ball B.",
+        "Ball B hits the tabletop before ball A.",
+        "Ball B travels with an increasing acceleration."
+      ],
+      "image": "/images/exams/physics/june-2012/q45.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Two speakers, S1 and S2, operating in phase in the same medium produce the circular wave patterns shown in the diagram below. At which two points is constructive interference occurring?",
+      "choices": [
+        "A and B",
+        "A and D",
+        "B and C",
+        "B and D A B C D S1 S2 Key Wave crest Wave trough Tabletop Support base A B Compressed spring Lever Support rod"
+      ],
+      "image": "/images/exams/physics/june-2012/q46.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "written",
+      "text": "A 100.0-kilogram boy and a 50.0-kilogram girl, each holding a spring scale, pull against each other as shown in the diagram below. The graph below shows the relationship between the magnitude of the force that the boy applies on his spring scale and time. Which graph best represents the relationship between the magnitude of the force that the girl applies on her spring scale and time? 0 1.0 2.0 3.0 24.0 16.0 8.0 0 Time (s) ( 1 ) 0 1.0 2.0 3.0 24.0 16.0 8.0 0 Time (s) ( 2 ) 0 1.0 2.0 3.0 24.0 16.0 8.0 0 Time (s) ( 3 ) 0 1.0 2.0 3.0 24.0 16.0 8.0 0 Time (s) ( 4 ) 0 1.0 2.0 3.0 24.0 16.0 8.0 0 Boy\u2019s Force vs. Time Time (s) Boy\u2019s Force (N)",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/q47.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "In which diagram do the field lines best represent the gravitational field around Earth?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/q48.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "written",
+      "text": "A ray of light ( f = 5.09 \u00d7 1014 Hz) travels through various substances. Which graph best represents the relationship between the absolute index of refraction of these substances and the corresponding speed of light in these substances?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "A pendulum is made from a 7.50-kilogram mass attached to a rope connected to the ceiling of a gymnasium. The mass is pushed to the side until it is at position A, 1.5 meters higher than its equilibrium position. After it is released from rest at position A, the pendulum moves freely back and forth between positions A and B, as shown in the diagram below. What is the total amount of kinetic energy that the mass has as it swings freely through its equilibrium position? [Neglect friction.]",
+      "choices": [
+        "11 J",
+        "94 J",
+        "110 J",
+        "920 J 1.5 m Ceiling 7.50 kg Equilibrium position A B Speed Absolute Index of Refraction Absolute Index of Refraction ( 3 ) Speed ( 1 ) Absolute Index of Refraction ( 4 ) Absolute Index of Refraction ( 2 ) Speed Speed Earth ( 1 ) N S ( 4 ) Earth N S ( 3 ) Earth N S Earth N S ( 2 )"
+      ],
+      "image": "/images/exams/physics/june-2012/q50.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Determine the spring constant of the spring.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the information below.\nA student produced various elongations of a spring by applying a series of forces to the spring.\nThe graph below represents the relationship between the applied force and the elongation of the\nspring.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the information below.\nA student produced various elongations of a spring by applying a series of forces to the spring.\nThe graph below represents the relationship between the applied force and the elongation of the\nspring.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "52\u201353 Calculate the energy stored in the spring when the elongation is 0.30 meter. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the information below.\nA student produced various elongations of a spring by applying a series of forces to the spring.\nThe graph below represents the relationship between the applied force and the elongation of the\nspring.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "54\u201355 Calculate the time required for a 6000.-newton net force to stop a 1200.-kilogram car initially traveling at 10. meters per second. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "56\u201357 A toy rocket is launched twice into the air from level ground and returns to level ground. The rocket is first launched with initial speed v at an angle of 45\u00b0 above the horizontal. It is launched the second time with the same initial speed, but with the launch angle increased to 60.\u00b0 above the horizontal. Describe how both the total horizontal distance the rocket travels and the time in the air are affected by the increase in launch angle. [Neglect friction.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "58\u201359 Calculate the magnitude of the average gravitational force between Earth and the Moon. [Show all work, including the equation and substitution with units.] 8.00 4.00 0.00 0.00 0.20 0.40 Force vs. Elongation Elongation (m) Force (N)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/q60.png",
+      "context": "Base your answers to questions 60 through 63 on the information below.\nA 15-ohm resistor and a 20.-ohm resistor are connected in parallel with a 9.0-volt battery. A\nsingle ammeter is connected to measure the total current of the circuit.\n60\u201361 In the space in your answer booklet, draw a diagram of this circuit using symbols from the Reference\nTables for Physical Setting/Physics. [Assume the availability of any number of wires of negligible\nresistance.]   [2]\n62\u201363 Calculate the equivalent resistance of the circuit. [Show all work, including the equation and\nsubstitution with units.]   [2]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "60\u201361 In the space in your answer booklet, draw a diagram of this circuit using symbols from the Reference Tables for Physical Setting/Physics. [Assume the availability of any number of wires of negligible resistance.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/q61.png",
+      "context": "Base your answers to questions 60 through 63 on the information below.\nA 15-ohm resistor and a 20.-ohm resistor are connected in parallel with a 9.0-volt battery. A\nsingle ammeter is connected to measure the total current of the circuit.\n60\u201361 In the space in your answer booklet, draw a diagram of this circuit using symbols from the Reference\nTables for Physical Setting/Physics. [Assume the availability of any number of wires of negligible\nresistance.]   [2]\n62\u201363 Calculate the equivalent resistance of the circuit. [Show all work, including the equation and\nsubstitution with units.]   [2]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/q62.png",
+      "context": "Base your answers to questions 60 through 63 on the information below.\nA 15-ohm resistor and a 20.-ohm resistor are connected in parallel with a 9.0-volt battery. A\nsingle ammeter is connected to measure the total current of the circuit.\n60\u201361 In the space in your answer booklet, draw a diagram of this circuit using symbols from the Reference\nTables for Physical Setting/Physics. [Assume the availability of any number of wires of negligible\nresistance.]   [2]\n62\u201363 Calculate the equivalent resistance of the circuit. [Show all work, including the equation and\nsubstitution with units.]   [2]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "62\u201363 Calculate the equivalent resistance of the circuit. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/q63.png",
+      "context": "Base your answers to questions 60 through 63 on the information below.\nA 15-ohm resistor and a 20.-ohm resistor are connected in parallel with a 9.0-volt battery. A\nsingle ammeter is connected to measure the total current of the circuit.\n60\u201361 In the space in your answer booklet, draw a diagram of this circuit using symbols from the Reference\nTables for Physical Setting/Physics. [Assume the availability of any number of wires of negligible\nresistance.]   [2]\n62\u201363 Calculate the equivalent resistance of the circuit. [Show all work, including the equation and\nsubstitution with units.]   [2]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Determine the wavelength of the wave.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_64_65.png",
+      "context": "Base your answers to questions 64 and 65 on the diagram below, which shows a wave in a rope.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Determine the amplitude of the wave. 1.20 m 8.0 m",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_64_65.png",
+      "context": "Base your answers to questions 64 and 65 on the diagram below, which shows a wave in a rope.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Plot the data points for kinetic energy of the runner versus his speed.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information below.\nA runner accelerates uniformly from rest to a speed of 8.00 meters per second. The kinetic\nenergy of the runner was determined at 2.00-meter-per-second intervals and recorded in the data\ntable below.\nData Table\nDirections (66\u201367): Using the information in the data table, construct a graph on the grid in your answer\nbooklet following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Draw the line or curve of best fit.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information below.\nA runner accelerates uniformly from rest to a speed of 8.00 meters per second. The kinetic\nenergy of the runner was determined at 2.00-meter-per-second intervals and recorded in the data\ntable below.\nData Table\nDirections (66\u201367): Using the information in the data table, construct a graph on the grid in your answer\nbooklet following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information below.\nA runner accelerates uniformly from rest to a speed of 8.00 meters per second. The kinetic\nenergy of the runner was determined at 2.00-meter-per-second intervals and recorded in the data\ntable below.\nData Table\nDirections (66\u201367): Using the information in the data table, construct a graph on the grid in your answer\nbooklet following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "68\u201369 Calculate the mass of the runner. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information below.\nA runner accelerates uniformly from rest to a speed of 8.00 meters per second. The kinetic\nenergy of the runner was determined at 2.00-meter-per-second intervals and recorded in the data\ntable below.\nData Table\nDirections (66\u201367): Using the information in the data table, construct a graph on the grid in your answer\nbooklet following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "A soccer player having less mass than the runner also accelerates uniformly from rest to a speed of 8.00 meters per second. Compare the kinetic energy of the less massive soccer player to the kinetic energy of the more massive runner when both are traveling at the same speed. Speed (m/s) Kinetic Energy (J) 0.00 0.00 2.00 140. 4.00 560. 6.00 1260 8.00 2240",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information below.\nA runner accelerates uniformly from rest to a speed of 8.00 meters per second. The kinetic\nenergy of the runner was determined at 2.00-meter-per-second intervals and recorded in the data\ntable below.\nData Table\nDirections (66\u201367): Using the information in the data table, construct a graph on the grid in your answer\nbooklet following the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below.\nA river has a current flowing with a velocity of 2.0 meters per second due east. A boat is \n75 meters from the north riverbank. It travels at 3.0 meters per second relative to the river and is\nheaded due north. In the diagram below, the vector starting at point P represents the velocity of\nthe boat relative to the river water.\n71\u201372 Calculate the time required for the boat to cross the river. [Show all work, including the equation and\nsubstitution with units.]   [2]\n73 On the diagram in your answer booklet, use a ruler and protractor to construct a vector \nrepresenting the velocity of the river current. Begin the vector at point P and use a scale of \n1.0 centimeter = 0.50 meter per second.   [1]\n74\u201375 Calculate or find graphically the magnitude of the resultant velocity of the boat. [Show all work,\nincluding the equation and substitution with units or construct the resultant velocity vector in your\nanswer booklet for question 73, using a scale of 1.0 centimeter = 0.50 meter per second. The value\nof the magnitude must be written in your answer booklet in the space for questions 74\u201375.]   [2]\nW\nN\nS\nE\nNorth riverbank\nSouth riverbank\nDock\n75 m\n3.0 m/s\nP",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "71\u201372 Calculate the time required for the boat to cross the river. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below.\nA river has a current flowing with a velocity of 2.0 meters per second due east. A boat is \n75 meters from the north riverbank. It travels at 3.0 meters per second relative to the river and is\nheaded due north. In the diagram below, the vector starting at point P represents the velocity of\nthe boat relative to the river water.\n71\u201372 Calculate the time required for the boat to cross the river. [Show all work, including the equation and\nsubstitution with units.]   [2]\n73 On the diagram in your answer booklet, use a ruler and protractor to construct a vector \nrepresenting the velocity of the river current. Begin the vector at point P and use a scale of \n1.0 centimeter = 0.50 meter per second.   [1]\n74\u201375 Calculate or find graphically the magnitude of the resultant velocity of the boat. [Show all work,\nincluding the equation and substitution with units or construct the resultant velocity vector in your\nanswer booklet for question 73, using a scale of 1.0 centimeter = 0.50 meter per second. The value\nof the magnitude must be written in your answer booklet in the space for questions 74\u201375.]   [2]\nW\nN\nS\nE\nNorth riverbank\nSouth riverbank\nDock\n75 m\n3.0 m/s\nP",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, use a ruler and protractor to construct a vector representing the velocity of the river current. Begin the vector at point P and use a scale of 1.0 centimeter = 0.50 meter per second.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below.\nA river has a current flowing with a velocity of 2.0 meters per second due east. A boat is \n75 meters from the north riverbank. It travels at 3.0 meters per second relative to the river and is\nheaded due north. In the diagram below, the vector starting at point P represents the velocity of\nthe boat relative to the river water.\n71\u201372 Calculate the time required for the boat to cross the river. [Show all work, including the equation and\nsubstitution with units.]   [2]\n73 On the diagram in your answer booklet, use a ruler and protractor to construct a vector \nrepresenting the velocity of the river current. Begin the vector at point P and use a scale of \n1.0 centimeter = 0.50 meter per second.   [1]\n74\u201375 Calculate or find graphically the magnitude of the resultant velocity of the boat. [Show all work,\nincluding the equation and substitution with units or construct the resultant velocity vector in your\nanswer booklet for question 73, using a scale of 1.0 centimeter = 0.50 meter per second. The value\nof the magnitude must be written in your answer booklet in the space for questions 74\u201375.]   [2]\nW\nN\nS\nE\nNorth riverbank\nSouth riverbank\nDock\n75 m\n3.0 m/s\nP",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below.\nA river has a current flowing with a velocity of 2.0 meters per second due east. A boat is \n75 meters from the north riverbank. It travels at 3.0 meters per second relative to the river and is\nheaded due north. In the diagram below, the vector starting at point P represents the velocity of\nthe boat relative to the river water.\n71\u201372 Calculate the time required for the boat to cross the river. [Show all work, including the equation and\nsubstitution with units.]   [2]\n73 On the diagram in your answer booklet, use a ruler and protractor to construct a vector \nrepresenting the velocity of the river current. Begin the vector at point P and use a scale of \n1.0 centimeter = 0.50 meter per second.   [1]\n74\u201375 Calculate or find graphically the magnitude of the resultant velocity of the boat. [Show all work,\nincluding the equation and substitution with units or construct the resultant velocity vector in your\nanswer booklet for question 73, using a scale of 1.0 centimeter = 0.50 meter per second. The value\nof the magnitude must be written in your answer booklet in the space for questions 74\u201375.]   [2]\nW\nN\nS\nE\nNorth riverbank\nSouth riverbank\nDock\n75 m\n3.0 m/s\nP",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "74\u201375 Calculate or find graphically the magnitude of the resultant velocity of the boat. [Show all work, including the equation and substitution with units or construct the resultant velocity vector in your answer booklet for question 73, using a scale of 1.0 centimeter = 0.50 meter per second. The value of the magnitude must be written in your answer booklet in the space for questions 74\u201375.] W N S E North riverbank South riverbank Dock 75 m 3.0 m/s P",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below.\nA river has a current flowing with a velocity of 2.0 meters per second due east. A boat is \n75 meters from the north riverbank. It travels at 3.0 meters per second relative to the river and is\nheaded due north. In the diagram below, the vector starting at point P represents the velocity of\nthe boat relative to the river water.\n71\u201372 Calculate the time required for the boat to cross the river. [Show all work, including the equation and\nsubstitution with units.]   [2]\n73 On the diagram in your answer booklet, use a ruler and protractor to construct a vector \nrepresenting the velocity of the river current. Begin the vector at point P and use a scale of \n1.0 centimeter = 0.50 meter per second.   [1]\n74\u201375 Calculate or find graphically the magnitude of the resultant velocity of the boat. [Show all work,\nincluding the equation and substitution with units or construct the resultant velocity vector in your\nanswer booklet for question 73, using a scale of 1.0 centimeter = 0.50 meter per second. The value\nof the magnitude must be written in your answer booklet in the space for questions 74\u201375.]   [2]\nW\nN\nS\nE\nNorth riverbank\nSouth riverbank\nDock\n75 m\n3.0 m/s\nP",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Using a protractor, measure the angle of refraction of the light ray in the flint glass.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_76_80.png",
+      "context": "Base your answers to questions 76 through 80 on the information below.\nA light ray ( f = 5.09 \u00d7 1014 Hz) is refracted as it travels from water into flint glass. The path of\nthe light ray in the flint glass is shown in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_76_80.png",
+      "context": "Base your answers to questions 76 through 80 on the information below.\nA light ray ( f = 5.09 \u00d7 1014 Hz) is refracted as it travels from water into flint glass. The path of\nthe light ray in the flint glass is shown in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "77\u201378 Calculate the angle of incidence for the light ray in water. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_76_80.png",
+      "context": "Base your answers to questions 76 through 80 on the information below.\nA light ray ( f = 5.09 \u00d7 1014 Hz) is refracted as it travels from water into flint glass. The path of\nthe light ray in the flint glass is shown in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Using a protractor and straightedge, on the diagram in your answer booklet, draw the path of the incident light ray in the water.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_76_80.png",
+      "context": "Base your answers to questions 76 through 80 on the information below.\nA light ray ( f = 5.09 \u00d7 1014 Hz) is refracted as it travels from water into flint glass. The path of\nthe light ray in the flint glass is shown in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Identify one physical event, other than transmission or refraction, that occurs as the light interacts with the water-flint glass boundary. Normal Water Flint glass",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/context_76_80.png",
+      "context": "Base your answers to questions 76 through 80 on the information below.\nA light ray ( f = 5.09 \u00d7 1014 Hz) is refracted as it travels from water into flint glass. The path of\nthe light ray in the flint glass is shown in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Which combination of three quarks will produce a neutron?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2012/q81.png",
+      "context": "Base your answers to questions 81 through 85 on the information below.\nTwo experiments running simultaneously at the Fermi National Accelerator Laboratory in\nBatavia, Ill., have observed a new particle called the cascade baryon. It is one of the most massive\nexamples yet of a baryon\u2014a class of particles made of three quarks held together by the strong\nnuclear force\u2014and the first to contain one quark from each of the three known families, or\ngenerations, of these elementary particles.\nProtons and neutrons are made of up and down quarks, the two first-generation quarks. Strange\nand charm quarks constitute the second generation, while the top and bottom varieties make up\nthe third. Physicists had long conjectured that a down quark could combine with a strange and a\nbottom quark to form the three-generation cascade baryon.\nOn June 13, the scientists running Dzero, one of two detectors at Fermilab\u2019s Tevatron\naccelerator, announced that they had detected characteristic showers of particles from the decay of\ncascade baryons. The baryons formed in proton-antiproton collisions and lived no more than a\ntrillionth of a second. A week later, physicists at CDF, the Tevatron\u2019s other detector, reported their\nown sighting of the baryon...\nSource: D.C., \u201cPas de deux for a three-scoop particle,\u201d Science News, Vol. 172, July 7, 2007",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "What is the magnitude and sign of the charge, in elementary charges, of a cascade baryon?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 through 85 on the information below.\nTwo experiments running simultaneously at the Fermi National Accelerator Laboratory in\nBatavia, Ill., have observed a new particle called the cascade baryon. It is one of the most massive\nexamples yet of a baryon\u2014a class of particles made of three quarks held together by the strong\nnuclear force\u2014and the first to contain one quark from each of the three known families, or\ngenerations, of these elementary particles.\nProtons and neutrons are made of up and down quarks, the two first-generation quarks. Strange\nand charm quarks constitute the second generation, while the top and bottom varieties make up\nthe third. Physicists had long conjectured that a down quark could combine with a strange and a\nbottom quark to form the three-generation cascade baryon.\nOn June 13, the scientists running Dzero, one of two detectors at Fermilab\u2019s Tevatron\naccelerator, announced that they had detected characteristic showers of particles from the decay of\ncascade baryons. The baryons formed in proton-antiproton collisions and lived no more than a\ntrillionth of a second. A week later, physicists at CDF, the Tevatron\u2019s other detector, reported their\nown sighting of the baryon...\nSource: D.C., \u201cPas de deux for a three-scoop particle,\u201d Science News, Vol. 172, July 7, 2007",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "The Tevatron derives its name from teraelectronvolt, the maximum energy it can impart to a particle. Determine the energy, in joules, equivalent to 1.00 teraelectronvolt.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 through 85 on the information below.\nTwo experiments running simultaneously at the Fermi National Accelerator Laboratory in\nBatavia, Ill., have observed a new particle called the cascade baryon. It is one of the most massive\nexamples yet of a baryon\u2014a class of particles made of three quarks held together by the strong\nnuclear force\u2014and the first to contain one quark from each of the three known families, or\ngenerations, of these elementary particles.\nProtons and neutrons are made of up and down quarks, the two first-generation quarks. Strange\nand charm quarks constitute the second generation, while the top and bottom varieties make up\nthe third. Physicists had long conjectured that a down quark could combine with a strange and a\nbottom quark to form the three-generation cascade baryon.\nOn June 13, the scientists running Dzero, one of two detectors at Fermilab\u2019s Tevatron\naccelerator, announced that they had detected characteristic showers of particles from the decay of\ncascade baryons. The baryons formed in proton-antiproton collisions and lived no more than a\ntrillionth of a second. A week later, physicists at CDF, the Tevatron\u2019s other detector, reported their\nown sighting of the baryon...\nSource: D.C., \u201cPas de deux for a three-scoop particle,\u201d Science News, Vol. 172, July 7, 2007",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 through 85 on the information below.\nTwo experiments running simultaneously at the Fermi National Accelerator Laboratory in\nBatavia, Ill., have observed a new particle called the cascade baryon. It is one of the most massive\nexamples yet of a baryon\u2014a class of particles made of three quarks held together by the strong\nnuclear force\u2014and the first to contain one quark from each of the three known families, or\ngenerations, of these elementary particles.\nProtons and neutrons are made of up and down quarks, the two first-generation quarks. Strange\nand charm quarks constitute the second generation, while the top and bottom varieties make up\nthe third. Physicists had long conjectured that a down quark could combine with a strange and a\nbottom quark to form the three-generation cascade baryon.\nOn June 13, the scientists running Dzero, one of two detectors at Fermilab\u2019s Tevatron\naccelerator, announced that they had detected characteristic showers of particles from the decay of\ncascade baryons. The baryons formed in proton-antiproton collisions and lived no more than a\ntrillionth of a second. A week later, physicists at CDF, the Tevatron\u2019s other detector, reported their\nown sighting of the baryon...\nSource: D.C., \u201cPas de deux for a three-scoop particle,\u201d Science News, Vol. 172, July 7, 2007",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "84\u201385 Calculate the maximum total mass, in kilograms, of particles that could be created in the head-on collision of a proton and an antiproton, each having an energy of 1.60 \u00d7 10\u22127 joule. [Show all work, including the equation and substitution with units.] P.S./PHYSICS P.S./PHYSICS Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 through 85 on the information below.\nTwo experiments running simultaneously at the Fermi National Accelerator Laboratory in\nBatavia, Ill., have observed a new particle called the cascade baryon. It is one of the most massive\nexamples yet of a baryon\u2014a class of particles made of three quarks held together by the strong\nnuclear force\u2014and the first to contain one quark from each of the three known families, or\ngenerations, of these elementary particles.\nProtons and neutrons are made of up and down quarks, the two first-generation quarks. Strange\nand charm quarks constitute the second generation, while the top and bottom varieties make up\nthe third. Physicists had long conjectured that a down quark could combine with a strange and a\nbottom quark to form the three-generation cascade baryon.\nOn June 13, the scientists running Dzero, one of two detectors at Fermilab\u2019s Tevatron\naccelerator, announced that they had detected characteristic showers of particles from the decay of\ncascade baryons. The baryons formed in proton-antiproton collisions and lived no more than a\ntrillionth of a second. A week later, physicists at CDF, the Tevatron\u2019s other detector, reported their\nown sighting of the baryon...\nSource: D.C., \u201cPas de deux for a three-scoop particle,\u201d Science News, Vol. 172, July 7, 2007",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

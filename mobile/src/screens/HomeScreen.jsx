@@ -29,7 +29,6 @@ import * as lifeScienceData from '../content/life-science/index'
 import { STRATEGY_CATEGORIES } from '../content/strategies-meta'
 import { T, duoBtn, duoBtnOutline, cardShadow, elevatedCard, sectionLabel } from '../styles/duo'
 import GoalRing from '../components/GoalRing'
-import StreakCelebrationModal from '../components/StreakCelebrationModal'
 import UnitBanner from '../components/UnitBanner'
 import PetWidget from '../components/PetWidget'
 import PetStatusBars from '../components/PetStatusBars'
@@ -78,7 +77,7 @@ export default function HomeScreen({ navigation }) {
   const sd = mobileSubjectMap[subject] ?? leData
 
   const { history } = useProgress(uid)
-  const { weekDays, streak, studiedToday, hasFreeze, buyFreeze, pendingEvent, clearEvent, markOpenedToday } = useDailyStreak(uid)
+  const { weekDays, streak, studiedToday, hasFreeze, buyFreeze } = useDailyStreak(uid)
   const { xp, earnXP, spendXP } = useXP(uid)
   const { lives, maxLives, nextRefillAt, refillLives } = useLivesContext()
   const { todaySeconds } = useStudyTime(uid, null, null)  // read-only: no session, just load persisted totals
@@ -94,13 +93,6 @@ export default function HomeScreen({ navigation }) {
   useFocusEffect(useCallback(() => {
     reloadSkipUnlocks()
     if (pendingEvolution) navigation.navigate('PetEvolution')
-
-    // Daily first-open streak check-in
-    markOpenedToday().then((newStreak) => {
-      if (newStreak !== null && newStreak > 0) {
-        triggerReaction('celebrate')
-      }
-    }).catch(() => {})
 
     // Refresh quest data
     getTodayQuest().then(setQuestData).catch(() => {})
@@ -135,7 +127,7 @@ export default function HomeScreen({ navigation }) {
       daysUntilExam: daysToExam,
       subject,
     }).then((msg) => { if (msg) say(msg) }).catch(() => {})
-  }, [reloadSkipUnlocks, pendingEvolution, uid, streak, markOpenedToday]))
+  }, [reloadSkipUnlocks, pendingEvolution, uid, streak]))
 
   const { goal, setGoal, todayXP, progress: goalProgress, goalMet, GOALS } = useDailyGoal(xp)
   const { mistakes, mistakeCount } = useMistakes()
@@ -155,13 +147,6 @@ export default function HomeScreen({ navigation }) {
   const [showFreezeBanner,setShowFreezeBanner] = useState(false)
   const [tipsUnit,        setTipsUnit]         = useState(null)
   const [expandedTip,     setExpandedTip]      = useState(null)
-
-  // ── Pet reaction when streak event arrives from hook (freeze/broken) ────────
-  useEffect(() => {
-    if (!pendingEvent) return
-    if (pendingEvent.type === 'freeze_used') triggerReaction('cheer')
-    if (pendingEvent.type === 'broken')      triggerReaction('sad')
-  }, [pendingEvent?.type])
 
   // ── League ────────────────────────────────────────────────────────────────
   const { tier, members, promoteN } = useLeague(uid)
@@ -1088,15 +1073,6 @@ export default function HomeScreen({ navigation }) {
         </View>
       </Modal>
 
-      {/* ── Streak celebration (first open of day) ──────────────────────── */}
-      <StreakCelebrationModal
-        event={pendingEvent}
-        onClose={clearEvent}
-        weekDays={weekDays}
-        streak={streak}
-        xp={xp}
-        onBuyFreeze={() => buyFreeze(spendXP)}
-      />
 
     </SafeAreaView>
   )

@@ -222,8 +222,7 @@ export default {
       topic: 'Electricity & Magnetism',
       correct: 3,
       explanation: 'With identical north poles facing each other, the magnetic fields from each magnet at the midpoint are equal in magnitude but point in opposite directions, canceling each other out to give zero net field.',
-      diveDeep: 'Magnetic field lines exit north poles and enter south poles. With two north poles facing each other, the field from the left magnet points rightward at midpoint, and the field from the right magnet points leftward. By symmetry (identical magnets, equal distances), these fields are equal and opposite — they cancel, giving zero net field at the exact midpoint. This is analogous to two equal and opposite electric charges creating zero field at the midpoint between like charges. A common mistake is drawing field lines as if they pass through the midpoint unchanged.'
-    },
+      diveDeep: 'Magnetic field lines exit north poles and enter south poles. With two north poles facing each other, the field from the left magnet points rightward at midpoint, and the field from the right magnet points leftward. By symmetry (identical magnets, equal distances), these fields are equal and opposite — they cancel, giving zero net field at the exact midpoint. This is analogous to two equal and opposite electric charges creating zero field at the midpoint between like charges. A common mistake is drawing field lines as if they pass through the midpoint unchanged.', image: '/images/exams/phys-june-2019/q19.png' },
     {
       number: 20,
       part: 'A',
@@ -425,8 +424,7 @@ export default {
       topic: 'Forces & Newton',
       correct: 2,
       explanation: 'Doubling the mass doubles F, but doubling the distance (r_surface to 2r from center) reduces F by 1/4. Net effect: 2 × (1/4) = 1/2 F.',
-      diveDeep: 'Universal gravitation: F = GMm/r². On the surface, distance from Moon\'s center = r. At altitude r, distance from center = 2r. For mass m: F_surface = GMm/r². For mass 2m at distance 2r: F_new = GM(2m)/(2r)² = 2GMm/4r² = (1/2)(GMm/r²) = F/2. Doubling mass doubles the force; doubling distance quarters it. Net factor = 2 × (1/4) = 1/2. The inverse-square law is the key — distance has a bigger effect than mass in this problem. This is a classic two-variable inverse-square scaling question on the Regents.'
-    },
+      diveDeep: 'Universal gravitation: F = GMm/r². On the surface, distance from Moon\'s center = r. At altitude r, distance from center = 2r. For mass m: F_surface = GMm/r². For mass 2m at distance 2r: F_new = GM(2m)/(2r)² = 2GMm/4r² = (1/2)(GMm/r²) = F/2. Doubling mass doubles the force; doubling distance quarters it. Net factor = 2 × (1/4) = 1/2. The inverse-square law is the key — distance has a bigger effect than mass in this problem. This is a classic two-variable inverse-square scaling question on the Regents.', image: '/images/exams/phys-june-2019/q36.png' },
     {
       number: 37,
       part: 'B-1',
@@ -533,8 +531,7 @@ export default {
       topic: 'Modern Physics',
       correct: 1,
       explanation: 'E = mc². m = E/c² = (24.0 × 10⁶ J)/(3.00 × 10⁸ m/s)² = 2.4 × 10⁷/9.00 × 10¹⁶ = 2.67 × 10⁻¹⁰ kg.',
-      diveDeep: 'Einstein\'s mass-energy equivalence: E = mc², so m = E/c². Convert: 24.0 MJ = 24.0 × 10⁶ J. c = 3.00 × 10⁸ m/s, so c² = 9.00 × 10¹⁶ m²/s². m = (24.0 × 10⁶)/(9.00 × 10¹⁶) = (24.0/9.00) × 10⁶⁻¹⁶ = 2.67 × 10⁻¹⁰ kg. The tiny mass (0.267 nanograms) demonstrates the enormous energy content of matter. Choice A comes from using c instead of c². Choice C comes from an order-of-magnitude error. The formula E = mc² is on the Regents reference table.'
-    },
+      diveDeep: 'Einstein\'s mass-energy equivalence: E = mc², so m = E/c². Convert: 24.0 MJ = 24.0 × 10⁶ J. c = 3.00 × 10⁸ m/s, so c² = 9.00 × 10¹⁶ m²/s². m = (24.0 × 10⁶)/(9.00 × 10¹⁶) = (24.0/9.00) × 10⁶⁻¹⁶ = 2.67 × 10⁻¹⁰ kg. The tiny mass (0.267 nanograms) demonstrates the enormous energy content of matter. Choice A comes from using c instead of c². Choice C comes from an order-of-magnitude error. The formula E = mc² is on the Regents reference table.', image: '/images/exams/phys-june-2019/q45.png' },
     {
       number: 46,
       part: 'B-1',
@@ -560,8 +557,7 @@ export default {
       topic: 'Electricity',
       correct: 1,
       explanation: 'A negative rod repels R → R must be negative (like charges repel). A negative rod attracts S → S is positive OR neutral (induction attraction also occurs with neutral conductors).',
-      diveDeep: 'Like charges repel: the negative rod repels R → R is definitely negative. Opposite charges attract, but a neutral conductor is also attracted to a charged rod via induction (charge separation within the conductor creates a net attraction). So the negative rod attracting S means S could be positive OR neutral — we cannot be certain it is charged. A common mistake is concluding S must be positive. With conducting spheres, induction always makes a neutral sphere appear attracted to a charged rod. This is why choice B ("must be negative and may be positive or neutral") is the most precise answer.'
-    },
+      diveDeep: 'Like charges repel: the negative rod repels R → R is definitely negative. Opposite charges attract, but a neutral conductor is also attracted to a charged rod via induction (charge separation within the conductor creates a net attraction). So the negative rod attracting S means S could be positive OR neutral — we cannot be certain it is charged. A common mistake is concluding S must be positive. With conducting spheres, induction always makes a neutral sphere appear attracted to a charged rod. This is why choice B ("must be negative and may be positive or neutral") is the most precise answer.', image: '/images/exams/phys-june-2019/q47.png' },
     {
       number: 48,
       part: 'B-1',
@@ -645,8 +641,7 @@ export default {
       topic: 'Kinematics',
       modelAnswer: 'The v-t graph should be a straight line with positive slope (starting near zero and increasing linearly). Since d increases at an increasing rate (parabolic), velocity increases linearly — indicating constant acceleration.',
       explanation: 'Velocity is the slope of the d-t graph. If d-t is a concave-up curve (slope increasing), then v increases linearly with time — a straight upward line on the v-t graph.',
-      diveDeep: 'The slope of a distance-time graph gives speed. If the d-t curve is concave up (increasing slope), the speed is increasing over time. The rate of increase of slope on a d-t curve corresponds to acceleration. If the d-t curve is parabolic (d ∝ t²), then v = dd/dt = 2at (linear in t), giving a straight line on the v-t graph through the origin with positive slope. Students must recognize that a curved d-t graph → non-constant velocity, and a straight v-t graph → constant acceleration.'
-    },
+      diveDeep: 'The slope of a distance-time graph gives speed. If the d-t curve is concave up (increasing slope), the speed is increasing over time. The rate of increase of slope on a d-t curve corresponds to acceleration. If the d-t curve is parabolic (d ∝ t²), then v = dd/dt = 2at (linear in t), giving a straight line on the v-t graph through the origin with positive slope. Students must recognize that a curved d-t graph → non-constant velocity, and a straight v-t graph → constant acceleration.', image: '/images/exams/phys-june-2019/q55.png' },
     {
       number: 56,
       part: 'B-2',
@@ -655,8 +650,7 @@ export default {
       topic: 'Light & Optics',
       modelAnswer: 'The angle of refraction in air, measured from the normal, is approximately 40° (accept 38°–42° based on diagram measurement).',
       explanation: 'The angle of refraction must be measured from the normal to the boundary. Using a protractor on the diagram, measure the angle the refracted ray in air makes with the normal. Since light enters a less dense medium (air, n = 1.00) from a denser medium X, it bends away from the normal, so the refraction angle > 25°.',
-      diveDeep: 'Snell\'s law: n₁ sin θ₁ = n₂ sin θ₂. Since medium X has a higher index than air (n_air = 1.00), when light exits into air it bends away from the normal (θ_refracted > θ_incident = 25°). The actual measured angle from the diagram is approximately 40°. Students must use a protractor carefully and measure from the normal (dashed perpendicular line), not from the surface. Measuring from the surface gives the complementary angle. Full credit requires correct measurement and unit (degrees).'
-    },
+      diveDeep: 'Snell\'s law: n₁ sin θ₁ = n₂ sin θ₂. Since medium X has a higher index than air (n_air = 1.00), when light exits into air it bends away from the normal (θ_refracted > θ_incident = 25°). The actual measured angle from the diagram is approximately 40°. Students must use a protractor carefully and measure from the normal (dashed perpendicular line), not from the surface. Measuring from the surface gives the complementary angle. Full credit requires correct measurement and unit (degrees).', image: '/images/exams/phys-june-2019/context_56_58.png' },
     {
       number: 57,
       part: 'B-2',
@@ -665,8 +659,7 @@ export default {
       topic: 'Light & Optics',
       modelAnswer: 'Snell\'s law: n_X sin θ_X = n_air sin θ_air\nn_X sin 25° = (1.00) sin 40°\nn_X (0.423) = (1.00)(0.643)\nn_X = 0.643/0.423 ≈ 1.52',
       explanation: 'Apply Snell\'s law with n_air = 1.00: n_X = sin(θ_air)/sin(θ_X) = sin 40°/sin 25° ≈ 0.643/0.423 ≈ 1.52. This index corresponds to glass or similar material.',
-      diveDeep: 'n₁ sin θ₁ = n₂ sin θ₂. Here medium X is the incident medium with angle 25°, and air (n = 1.00) is the refracted medium with angle ≈ 40°. Solving: n_X = (1.00 × sin 40°)/sin 25° = 0.6428/0.4226 ≈ 1.52. This is consistent with crown glass or lucite (from Regents reference table). An index of 1.52 means light travels at c/1.52 ≈ 1.97 × 10⁸ m/s in medium X. Credit requires: correct equation, correct substitution with angles measured from normal, correct calculation.'
-    },
+      diveDeep: 'n₁ sin θ₁ = n₂ sin θ₂. Here medium X is the incident medium with angle 25°, and air (n = 1.00) is the refracted medium with angle ≈ 40°. Solving: n_X = (1.00 × sin 40°)/sin 25° = 0.6428/0.4226 ≈ 1.52. This is consistent with crown glass or lucite (from Regents reference table). An index of 1.52 means light travels at c/1.52 ≈ 1.97 × 10⁸ m/s in medium X. Credit requires: correct equation, correct substitution with angles measured from normal, correct calculation.', image: '/images/exams/phys-june-2019/context_56_58.png' },
     {
       number: 59,
       part: 'B-2',
@@ -685,8 +678,7 @@ export default {
       topic: 'Forces & Newton',
       modelAnswer: 'Conservation of momentum: p_before = p_after\nm_A v_A + m_B v_B = m_A v_A\' + m_B v_B\'\n(0.100 kg)(4.0 m/s) + (0.150 kg)(0) = (0.100 kg)(−1.5 m/s) + (0.150 kg)v_B\'\n0.40 kg·m/s = −0.15 kg·m/s + 0.150 v_B\'\n0.150 v_B\' = 0.55 kg·m/s\nv_B\' = 0.55/0.150 ≈ 3.7 m/s',
       explanation: 'By conservation of momentum: total momentum before = total momentum after. Taking right as positive: (0.100)(4.0) + 0 = (0.100)(−1.5) + (0.150)v_B\'. Solving gives v_B\' ≈ 3.7 m/s to the right.',
-      diveDeep: 'Convert masses: 100. g = 0.100 kg, 150. g = 0.150 kg. Initial momentum: p_i = (0.100)(4.0) + (0.150)(0) = 0.40 kg·m/s. Final momentum: p_f = (0.100)(−1.5) + (0.150)v_B\' = −0.15 + 0.150v_B\'. Setting p_i = p_f: 0.40 = −0.15 + 0.150v_B\', so 0.150v_B\' = 0.55, v_B\' = 3.67 ≈ 3.7 m/s. Block A rebounds (negative direction). Conservation of momentum is the only tool needed. No energy conservation assumed (inelastic collision possible).'
-    },
+      diveDeep: 'Convert masses: 100. g = 0.100 kg, 150. g = 0.150 kg. Initial momentum: p_i = (0.100)(4.0) + (0.150)(0) = 0.40 kg·m/s. Final momentum: p_f = (0.100)(−1.5) + (0.150)v_B\' = −0.15 + 0.150v_B\'. Setting p_i = p_f: 0.40 = −0.15 + 0.150v_B\', so 0.150v_B\' = 0.55, v_B\' = 3.67 ≈ 3.7 m/s. Block A rebounds (negative direction). Conservation of momentum is the only tool needed. No energy conservation assumed (inelastic collision possible).', image: '/images/exams/phys-june-2019/q61.png' },
     {
       number: 63,
       part: 'B-2',
@@ -695,8 +687,7 @@ export default {
       topic: 'Forces & Newton',
       modelAnswer: 'Impulse = Δp = m(v_f − v_i)\n= (1.20 × 10³ kg)(0 − 25 m/s)\n= (1.20 × 10³)(−25)\n= −3.0 × 10⁴ kg·m/s\nMagnitude = 3.0 × 10⁴ N·s',
       explanation: 'Impulse = change in momentum = mΔv = (1200 kg)(0 − 25 m/s) = −3.0 × 10⁴ kg·m/s. Magnitude = 3.0 × 10⁴ N·s (since 1 N·s = 1 kg·m/s).',
-      diveDeep: 'Impulse-momentum theorem: J = Δp = m(v_f − v_i). The car goes from 25 m/s east to 0. |J| = |m Δv| = (1200 kg)(25 m/s) = 30,000 = 3.0 × 10⁴ N·s. The time (5.00 s) is given but not needed to find total impulse (though it could be used to find average force: F = J/t = 3.0 × 10⁴/5.00 = 6.0 × 10³ N). J = FΔt = mΔv are equivalent. Units: N·s = kg·m/s. Show equation, substitution with units, and answer with units for full credit.'
-    },
+      diveDeep: 'Impulse-momentum theorem: J = Δp = m(v_f − v_i). The car goes from 25 m/s east to 0. |J| = |m Δv| = (1200 kg)(25 m/s) = 30,000 = 3.0 × 10⁴ N·s. The time (5.00 s) is given but not needed to find total impulse (though it could be used to find average force: F = J/t = 3.0 × 10⁴/5.00 = 6.0 × 10³ N). J = FΔt = mΔv are equivalent. Units: N·s = kg·m/s. Show equation, substitution with units, and answer with units for full credit.', image: '/images/exams/phys-june-2019/context_63_65.png' },
     {
       number: 65,
       part: 'B-2',
@@ -705,8 +696,7 @@ export default {
       topic: 'Forces & Newton',
       modelAnswer: 'West (or opposite to the direction of motion / in the direction of deceleration)',
       explanation: 'Impulse has the same direction as the change in momentum. Since the car moves east and decelerates to zero, the change in momentum (Δp = m·Δv = m(v_f − v_i)) points west (opposing motion).',
-      diveDeep: 'Direction of impulse = direction of Δp = direction of (v_f − v_i). Initial velocity: east. Final velocity: 0. Δv = 0 − east = west. Therefore impulse is directed west. The braking force (friction from the road) acts west to decelerate the car — consistent with the impulse direction. On the Regents, state the direction clearly: "west" or "opposite to the direction of motion." Simply saying "negative" without specifying west is insufficient without a defined coordinate system.'
-    },
+      diveDeep: 'Direction of impulse = direction of Δp = direction of (v_f − v_i). Initial velocity: east. Final velocity: 0. Δv = 0 − east = west. Therefore impulse is directed west. The braking force (friction from the road) acts west to decelerate the car — consistent with the impulse direction. On the Regents, state the direction clearly: "west" or "opposite to the direction of motion." Simply saying "negative" without specifying west is insufficient without a defined coordinate system.', image: '/images/exams/phys-june-2019/context_63_65.png' },
     // ── Part C (Q66–85, written, multi-part groups) ──────────────────────────
     {
       number: 66,
@@ -716,8 +706,7 @@ export default {
       topic: 'Electricity',
       modelAnswer: '66–67: Fg = mg = (1.96 × 10⁻¹⁵ kg)(9.81 m/s²) = 1.92 × 10⁻¹⁴ N\n\n68: Since the drop is in equilibrium (motionless), Fe = Fg = 1.92 × 10⁻¹⁴ N upward\n\n69–70: Fe = qE → q = Fe/E = (1.92 × 10⁻¹⁴ N)/(4.0 × 10⁴ N/C) = 4.8 × 10⁻¹⁹ C\nThis equals 3 elementary charges (4.8 × 10⁻¹⁹/1.6 × 10⁻¹⁹ = 3e)',
       explanation: 'The drop is in equilibrium so Fe = Fg = mg. The charge q = Fe/E = mg/E. The result 4.8 × 10⁻¹⁹ C = 3e confirms the oil drop carries 3 excess electrons.',
-      diveDeep: 'This is a Millikan oil-drop experiment. Step 1: Fg = mg = (1.96 × 10⁻¹⁵)(9.81) = 1.923 × 10⁻¹⁴ N ≈ 1.92 × 10⁻¹⁴ N. Step 2: Equilibrium → Fe = Fg = 1.92 × 10⁻¹⁴ N upward. The drop is negative and the positive plate is on top, so the electric field points downward (from + to −), but the force on the negative charge is upward (F = qE, reversed for negative q). Step 3: q = Fe/E = 1.92 × 10⁻¹⁴/4.0 × 10⁴ = 4.8 × 10⁻¹⁹ C = 3 elementary charges. This confirms charge quantization.'
-    },
+      diveDeep: 'This is a Millikan oil-drop experiment. Step 1: Fg = mg = (1.96 × 10⁻¹⁵)(9.81) = 1.923 × 10⁻¹⁴ N ≈ 1.92 × 10⁻¹⁴ N. Step 2: Equilibrium → Fe = Fg = 1.92 × 10⁻¹⁴ N upward. The drop is negative and the positive plate is on top, so the electric field points downward (from + to −), but the force on the negative charge is upward (F = qE, reversed for negative q). Step 3: q = Fe/E = 1.92 × 10⁻¹⁴/4.0 × 10⁴ = 4.8 × 10⁻¹⁹ C = 3 elementary charges. This confirms charge quantization.', image: '/images/exams/phys-june-2019/context_66_70.png' },
     {
       number: 71,
       part: 'C',
@@ -726,8 +715,7 @@ export default {
       topic: 'Electricity',
       modelAnswer: '71–72: 1/R_eq = 1/100 + 1/200 = 2/200 + 1/200 = 3/200\nR_eq = 200/3 ≈ 66.7 Ω\n\n73–74: In parallel, voltage across each resistor = 10.0 V\nI₂₀₀ = V/R = 10.0/200 = 0.0500 A = 5.00 × 10⁻² A\n\n75: P₁₀₀ = V²/R = (10.0)²/100 = 100/100 = 1.00 W\n(or P = IV = (10.0/100)(10.0) = 1.00 W)',
       explanation: 'Parallel resistors: 1/R_eq = 1/100 + 1/200 = 3/200, so R_eq ≈ 66.7 Ω. In parallel, both resistors have 10.0 V across them. I₂₀₀ = 10.0/200 = 0.050 A. Power in 100 Ω: P = V²/R = 100/100 = 1.00 W.',
-      diveDeep: 'Parallel circuit rules: (1) voltage is the same across all branches = source voltage = 10.0 V; (2) currents add. R_eq = (R₁R₂)/(R₁+R₂) = (100×200)/(300) = 20000/300 = 66.7 Ω. Current through 200 Ω: I = V/R = 10.0/200 = 0.050 A. Current through 100 Ω: I = 10.0/100 = 0.10 A. Total current = 0.15 A = V/R_eq = 10.0/66.7 ✓. Power in 100 Ω: P = V²/R = 100/100 = 1.00 W or P = I²R = (0.10)²(100) = 1.00 W. The 100 Ω resistor dissipates more power (lower resistance, higher current).'
-    },
+      diveDeep: 'Parallel circuit rules: (1) voltage is the same across all branches = source voltage = 10.0 V; (2) currents add. R_eq = (R₁R₂)/(R₁+R₂) = (100×200)/(300) = 20000/300 = 66.7 Ω. Current through 200 Ω: I = V/R = 10.0/200 = 0.050 A. Current through 100 Ω: I = 10.0/100 = 0.10 A. Total current = 0.15 A = V/R_eq = 10.0/66.7 ✓. Power in 100 Ω: P = V²/R = 100/100 = 1.00 W or P = I²R = (0.10)²(100) = 1.00 W. The 100 Ω resistor dissipates more power (lower resistance, higher current).', image: '/images/exams/phys-june-2019/context_71_75.png' },
     {
       number: 76,
       part: 'C',
@@ -746,7 +734,6 @@ export default {
       topic: 'Electricity',
       modelAnswer: '81: Scale for Current axis: 0 to 0.030 A, with increments of 0.005 A (or similar appropriate scale).\n\n82: Plot points: (1.5, 0.0032), (3.0, 0.0059), (6.0, 0.0124), (9.0, 0.0177), (12.0, 0.0244).\n\n83: Draw a straight line of best fit through the origin.\n\n84–85: Resistance = slope of V-I graph = ΔV/ΔI\nUsing two points on the best-fit line, e.g., (12.0 V, 0.024 A) and (0, 0):\nR = V/I = 12.0/0.024 ≈ 500 Ω\n(Acceptable range: approximately 470–510 Ω based on best-fit line)',
       explanation: 'The V-I graph is linear through the origin (Ohm\'s law), confirming constant resistance at constant temperature. R = V/I = slope of the line ≈ 500 Ω (using graph values).',
-      diveDeep: 'Ohm\'s law: V = IR, so the graph of V (x-axis) vs. I (y-axis) should be a straight line through the origin with slope = 1/R. Alternatively, the graph of I vs. V has slope = 1/R. To find R, use two points on the best-fit line: R = ΔV/ΔI. Using endpoints: R ≈ (12.0 − 0)/(0.0244 − 0) ≈ 492 Ω ≈ 490 Ω (or 500 Ω depending on best-fit line). The linear relationship confirms the resistor obeys Ohm\'s law (ohmic behavior) at constant temperature. Graph requirements: labeled axes with units, appropriate scale, all 5 points plotted, straight best-fit line.'
-    }
+      diveDeep: 'Ohm\'s law: V = IR, so the graph of V (x-axis) vs. I (y-axis) should be a straight line through the origin with slope = 1/R. Alternatively, the graph of I vs. V has slope = 1/R. To find R, use two points on the best-fit line: R = ΔV/ΔI. Using endpoints: R ≈ (12.0 − 0)/(0.0244 − 0) ≈ 492 Ω ≈ 490 Ω (or 500 Ω depending on best-fit line). The linear relationship confirms the resistor obeys Ohm\'s law (ohmic behavior) at constant temperature. Graph requirements: labeled axes with units, appropriate scale, all 5 points plotted, straight best-fit line.', image: '/images/exams/phys-june-2019/context_81_85.png' }
   ]
 }

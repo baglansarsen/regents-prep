@@ -19,8 +19,7 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       explanation: 'The geocentric model, proposed by Ptolemy, places Earth at the center of the solar system with all other celestial bodies revolving around it.',
-      diveDeep: 'The geocentric (Earth-centered) model was the dominant cosmological view from ancient Greece until the 16th century, when Copernicus proposed the heliocentric model. Ptolemy\'s geocentric model used epicycles — small circles within larger circles — to explain the apparent retrograde motion of planets. Evidence that eventually disproved geocentrism included: Galileo\'s observations of Jupiter\'s moons, Venus\'s phases, and later, stellar parallax. Students should know both models and what evidence supports the heliocentric view.',
-    },
+      diveDeep: 'The geocentric (Earth-centered) model was the dominant cosmological view from ancient Greece until the 16th century, when Copernicus proposed the heliocentric model. Ptolemy\'s geocentric model used epicycles — small circles within larger circles — to explain the apparent retrograde motion of planets. Evidence that eventually disproved geocentrism included: Galileo\'s observations of Jupiter\'s moons, Venus\'s phases, and later, stellar parallax. Students should know both models and what evidence supports the heliocentric view.', image: '/images/exams/es-june-2021/q1.png' },
     {
       number: 2,
       part: 'A',
@@ -154,8 +153,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'Equal amounts of parent (U-238) and daughter (Pb-206) means exactly one half-life has elapsed; the half-life of U-238 is 4.5 × 10⁹ years, so the rock is 4.5 billion years old.',
-      diveDeep: 'When the parent and daughter isotopes are in equal amounts (50% parent, 50% daughter), exactly one half-life has passed. For U-238 (half-life = 4.5 × 10⁹ years), this gives an age of 4.5 billion years. This is approximately the age of Earth! The oldest Earth rocks (~4.4 Ga) and lunar samples (~4.5 Ga) are dated using U-Pb methods. Students should be able to quickly recognize: equal parent/daughter = 1 half-life; 1/4 parent remaining = 2 half-lives; 1/8 parent remaining = 3 half-lives. Always identify the parent isotope and look up its half-life in the Reference Tables.',
-    },
+      diveDeep: 'When the parent and daughter isotopes are in equal amounts (50% parent, 50% daughter), exactly one half-life has passed. For U-238 (half-life = 4.5 × 10⁹ years), this gives an age of 4.5 billion years. This is approximately the age of Earth! The oldest Earth rocks (~4.4 Ga) and lunar samples (~4.5 Ga) are dated using U-Pb methods. Students should be able to quickly recognize: equal parent/daughter = 1 half-life; 1/4 parent remaining = 2 half-lives; 1/8 parent remaining = 3 half-lives. Always identify the parent isotope and look up its half-life in the Reference Tables.', image: '/images/exams/es-june-2021/q10.png' },
     {
       number: 11,
       part: 'A',
@@ -169,8 +167,7 @@ export default {
       topic: 'Geology',
       correct: 3,
       explanation: 'According to the principle of superposition, in undisturbed (non-overturned) horizontal rock layers, the oldest layer is at the bottom — Layer D is the oldest.',
-      diveDeep: 'The principle of superposition (Steno, 1669) states that in any undisturbed sequence of rock layers, the oldest rocks are at the bottom and the youngest are at the top, because each new layer is deposited on top of existing layers. This principle applies only to undeformed (non-overturned) sequences. If rocks have been folded or overturned, graded bedding, fossil orientation, or way-up structures must be used to determine original orientation. This is one of the four fundamental principles of relative dating tested on the Regents. Students should automatically apply superposition when given a cross-section with horizontal layers.',
-    },
+      diveDeep: 'The principle of superposition (Steno, 1669) states that in any undisturbed sequence of rock layers, the oldest rocks are at the bottom and the youngest are at the top, because each new layer is deposited on top of existing layers. This principle applies only to undeformed (non-overturned) sequences. If rocks have been folded or overturned, graded bedding, fossil orientation, or way-up structures must be used to determine original orientation. This is one of the four fundamental principles of relative dating tested on the Regents. Students should automatically apply superposition when given a cross-section with horizontal layers.', image: '/images/exams/es-june-2021/q11.png' },
     {
       number: 12,
       part: 'A',
@@ -214,8 +211,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'By the principle of cross-cutting relationships, any rock that cuts through or intrudes into another rock must be younger than the rock it intrudes.',
-      diveDeep: 'The principle of cross-cutting relationships states that intrusions and faults are younger than the rocks they cut through. A diabase sill is a sheet of intrusive igneous rock injected parallel to existing rock layers — it must have been emplaced after the surrounding sedimentary rocks existed. Additional evidence: contact metamorphism (baked zones) in the sedimentary rock adjacent to the diabase confirms the intrusion was the younger, hotter element. This principle works for any cross-cutting feature: igneous intrusions, faults, dikes, and veins are always younger than what they cross-cut. Students should apply this principle to every cross-section they encounter on the Regents.',
-    },
+      diveDeep: 'The principle of cross-cutting relationships states that intrusions and faults are younger than the rocks they cut through. A diabase sill is a sheet of intrusive igneous rock injected parallel to existing rock layers — it must have been emplaced after the surrounding sedimentary rocks existed. Additional evidence: contact metamorphism (baked zones) in the sedimentary rock adjacent to the diabase confirms the intrusion was the younger, hotter element. This principle works for any cross-cutting feature: igneous intrusions, faults, dikes, and veins are always younger than what they cross-cut. Students should apply this principle to every cross-section they encounter on the Regents.', image: '/images/exams/es-june-2021/q14.png' },
     {
       number: 15,
       part: 'A',
@@ -229,8 +225,7 @@ export default {
       topic: 'Climate',
       correct: 1,
       explanation: 'The Gulf Stream is a warm surface current that flows northward from the Gulf of Mexico along the eastern coast of North America, transporting tropical heat to higher latitudes.',
-      diveDeep: 'The Gulf Stream is one of the strongest ocean currents on Earth, transporting enormous amounts of heat and influencing the climate of Eastern North America and Western Europe. It is part of the North Atlantic Gyre, a large clockwise circulation driven by trade winds and westerlies. The California Current is a cold current along the western coast of North America (flowing southward); the Labrador Current is a cold current flowing southward along the northeastern coast of North America. Students should know the major ocean currents and their temperature (warm vs. cold) and direction from the Reference Tables.',
-    },
+      diveDeep: 'The Gulf Stream is one of the strongest ocean currents on Earth, transporting enormous amounts of heat and influencing the climate of Eastern North America and Western Europe. It is part of the North Atlantic Gyre, a large clockwise circulation driven by trade winds and westerlies. The California Current is a cold current along the western coast of North America (flowing southward); the Labrador Current is a cold current flowing southward along the northeastern coast of North America. Students should know the major ocean currents and their temperature (warm vs. cold) and direction from the Reference Tables.', image: '/images/exams/es-june-2021/q15.png' },
     {
       number: 16,
       part: 'A',
@@ -244,8 +239,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'The Adirondack Mountains are a dome of ancient Precambrian metamorphic and igneous rocks, including gneiss and anorthosite, which are the oldest surface rocks in New York State.',
-      diveDeep: 'The New York State landscape is divided into several distinct physiographic regions based on bedrock type and age (Reference Table maps). The Adirondacks: Precambrian (~1 billion years old) metamorphic/igneous rocks (gneiss, anorthosite), forming a dome structure. The Catskills: Devonian sedimentary rocks (shale, sandstone). The Hudson-Mohawk Lowlands: Ordovician sedimentary rocks. The Erie-Ontario Lowlands: Silurian/Ordovician sedimentary rocks. Students must know the major NY landscape regions, their bedrock ages, and characteristic rock types from the Reference Table geological map of New York State.',
-    },
+      diveDeep: 'The New York State landscape is divided into several distinct physiographic regions based on bedrock type and age (Reference Table maps). The Adirondacks: Precambrian (~1 billion years old) metamorphic/igneous rocks (gneiss, anorthosite), forming a dome structure. The Catskills: Devonian sedimentary rocks (shale, sandstone). The Hudson-Mohawk Lowlands: Ordovician sedimentary rocks. The Erie-Ontario Lowlands: Silurian/Ordovician sedimentary rocks. Students must know the major NY landscape regions, their bedrock ages, and characteristic rock types from the Reference Table geological map of New York State.', image: '/images/exams/es-june-2021/q16.png' },
     {
       number: 17,
       part: 'A',
@@ -319,8 +313,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'Limestone is a sedimentary rock commonly formed from the accumulation and compaction of marine organism shells and skeletons composed of calcium carbonate (calcite).',
-      diveDeep: 'Biochemical/bioclastic sedimentary rocks form from organic remains: limestone (CaCO₃ from shells and marine organisms), coal (compressed plant matter), coquina (fragments of shells), chalk (microscopic shell fragments). Granite is an intrusive igneous rock; quartzite is metamorphic (from sandstone); obsidian is extrusive igneous (volcanic glass). Limestone is extremely common in New York State (especially from Silurian and Devonian marine environments) and underlies many of the lowland regions. The Reference Table rock identification chart categorizes sedimentary rocks by origin: clastic (broken rock fragments), bioclastic (organic fragments), and chemical (precipitated from solution).',
-    },
+      diveDeep: 'Biochemical/bioclastic sedimentary rocks form from organic remains: limestone (CaCO₃ from shells and marine organisms), coal (compressed plant matter), coquina (fragments of shells), chalk (microscopic shell fragments). Granite is an intrusive igneous rock; quartzite is metamorphic (from sandstone); obsidian is extrusive igneous (volcanic glass). Limestone is extremely common in New York State (especially from Silurian and Devonian marine environments) and underlies many of the lowland regions. The Reference Table rock identification chart categorizes sedimentary rocks by origin: clastic (broken rock fragments), bioclastic (organic fragments), and chemical (precipitated from solution).', image: '/images/exams/es-june-2021/q21.png' },
     {
       number: 22,
       part: 'A',
@@ -334,8 +327,7 @@ export default {
       topic: 'Geology',
       correct: 3,
       explanation: 'Moraines are landforms composed of unsorted glacial till deposited directly by glacial ice, typically forming ridges that mark the maximum advance or retreat positions of a glacier.',
-      diveDeep: 'Moraines are characteristic glacial landforms: terminal moraines mark the farthest advance of a glacier; recessional moraines mark temporary halts during retreat; lateral moraines form along the sides of valley glaciers; ground moraines are thin sheets of till. Long Island and Cape Cod are terminal moraines from the Laurentide Ice Sheet. Glacial deposits are unsorted (till) — a mixture of particle sizes from clay to boulders, unlike stream deposits which are sorted by size. Drumlins (elongated hills), kettle lakes, outwash plains, and eskers are other glacial features important in New York State. Students should know common glacial landforms and their formation.',
-    },
+      diveDeep: 'Moraines are characteristic glacial landforms: terminal moraines mark the farthest advance of a glacier; recessional moraines mark temporary halts during retreat; lateral moraines form along the sides of valley glaciers; ground moraines are thin sheets of till. Long Island and Cape Cod are terminal moraines from the Laurentide Ice Sheet. Glacial deposits are unsorted (till) — a mixture of particle sizes from clay to boulders, unlike stream deposits which are sorted by size. Drumlins (elongated hills), kettle lakes, outwash plains, and eskers are other glacial features important in New York State. Students should know common glacial landforms and their formation.', image: '/images/exams/es-june-2021/q22.png' },
     {
       number: 23,
       part: 'A',
@@ -379,8 +371,7 @@ export default {
       topic: 'Water Cycle',
       correct: 2,
       explanation: 'The largest boulders require the most energy to transport; near the headwaters where gradient is steepest and velocity is highest, streams can move boulders but quickly deposit them when velocity decreases.',
-      diveDeep: 'Stream competence (the largest particle a stream can carry) varies with the stream\'s velocity — competence increases as the sixth power of velocity (the 6th power law). Near steep mountain headwaters, high velocity can transport large boulders, but they are deposited quickly when the gradient decreases. The middle course transports medium-sized particles. Near the mouth/delta, only fine silt and clay are transported and deposited. This downstream sorting (boulders → cobbles → pebbles → sand → silt → clay) is a fundamental concept in fluvial geomorphology. Students should understand the connection between gradient, velocity, particle size, and deposition location.',
-    },
+      diveDeep: 'Stream competence (the largest particle a stream can carry) varies with the stream\'s velocity — competence increases as the sixth power of velocity (the 6th power law). Near steep mountain headwaters, high velocity can transport large boulders, but they are deposited quickly when the gradient decreases. The middle course transports medium-sized particles. Near the mouth/delta, only fine silt and clay are transported and deposited. This downstream sorting (boulders → cobbles → pebbles → sand → silt → clay) is a fundamental concept in fluvial geomorphology. Students should understand the connection between gradient, velocity, particle size, and deposition location.', image: '/images/exams/es-june-2021/q25.png' },
     {
       number: 26,
       part: 'A',
@@ -409,8 +400,7 @@ export default {
       topic: 'Geologic Time',
       correct: 1,
       explanation: 'Index fossils must have lived during a short, well-defined time period and been widespread geographically, so that their presence in rock layers precisely identifies the age of those layers.',
-      diveDeep: 'An ideal index fossil has two key characteristics: (1) Short time range — the organism lived for only a brief geologic period, making its presence a precise time indicator; (2) Wide geographic distribution — found over large areas so it can be used to correlate rocks from different locations. New York State index fossils include trilobites, brachiopods, corals, cephalopods, and various other marine organisms, each associated with specific time periods (listed in the Reference Tables). A fossil that lived for hundreds of millions of years (like horseshoe crabs) is not useful as an index fossil because it cannot pinpoint a specific time period. Students must know both criteria.',
-    },
+      diveDeep: 'An ideal index fossil has two key characteristics: (1) Short time range — the organism lived for only a brief geologic period, making its presence a precise time indicator; (2) Wide geographic distribution — found over large areas so it can be used to correlate rocks from different locations. New York State index fossils include trilobites, brachiopods, corals, cephalopods, and various other marine organisms, each associated with specific time periods (listed in the Reference Tables). A fossil that lived for hundreds of millions of years (like horseshoe crabs) is not useful as an index fossil because it cannot pinpoint a specific time period. Students must know both criteria.', image: '/images/exams/es-june-2021/q27.png' },
     {
       number: 28,
       part: 'A',
@@ -424,8 +414,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'Basalt is a mafic igneous rock rich in iron and magnesium minerals; according to the Reference Tables, basalt has a higher density (~3.0 g/cm³) than granite (~2.7 g/cm³) or other felsic rocks.',
-      diveDeep: 'Rock density correlates with mineral composition: mafic rocks (rich in iron-magnesium silicates like olivine, pyroxene, amphibole) are denser; felsic rocks (rich in quartz, feldspar, and light minerals) are less dense. From the Reference Tables: basalt ~3.0 g/cm³; gabbro ~3.0 g/cm³; granite ~2.7 g/cm³; rhyolite ~2.7 g/cm³; pumice <1.0–2.0 g/cm³ (porous volcanic glass). Pumice is the least dense rock — it can even float on water! The density difference between oceanic basalt and continental granite is the fundamental reason oceanic plates subduct under continental plates at convergent boundaries.',
-    },
+      diveDeep: 'Rock density correlates with mineral composition: mafic rocks (rich in iron-magnesium silicates like olivine, pyroxene, amphibole) are denser; felsic rocks (rich in quartz, feldspar, and light minerals) are less dense. From the Reference Tables: basalt ~3.0 g/cm³; gabbro ~3.0 g/cm³; granite ~2.7 g/cm³; rhyolite ~2.7 g/cm³; pumice <1.0–2.0 g/cm³ (porous volcanic glass). Pumice is the least dense rock — it can even float on water! The density difference between oceanic basalt and continental granite is the fundamental reason oceanic plates subduct under continental plates at convergent boundaries.', image: '/images/exams/es-june-2021/q28.png' },
     {
       number: 29,
       part: 'A',
@@ -439,8 +428,7 @@ export default {
       topic: 'Astronomy',
       correct: 1,
       explanation: 'Seasons are primarily caused by Earth\'s 23.5° axial tilt, which causes each hemisphere to receive different amounts of solar energy as Earth revolves around the Sun.',
-      diveDeep: 'Earth\'s axial tilt causes two effects that produce seasons: (1) Sun angle — when tilted toward the Sun, sunlight strikes more directly (more concentrated energy per unit area); (2) Day length — when tilted toward the Sun, days are longer (more hours of daylight for heating). Both effects combine to make summers hot and winters cold. The distance between Earth and Sun is NOT the cause — Earth is actually slightly closer to the Sun in January (Northern Hemisphere winter) than in July (Northern Hemisphere summer). This is a very common misconception! Earth\'s orbital distance varies only about 3% and has only a minor effect on seasons. Students must reject the "closer to Sun = warmer" misconception.',
-    },
+      diveDeep: 'Earth\'s axial tilt causes two effects that produce seasons: (1) Sun angle — when tilted toward the Sun, sunlight strikes more directly (more concentrated energy per unit area); (2) Day length — when tilted toward the Sun, days are longer (more hours of daylight for heating). Both effects combine to make summers hot and winters cold. The distance between Earth and Sun is NOT the cause — Earth is actually slightly closer to the Sun in January (Northern Hemisphere winter) than in July (Northern Hemisphere summer). This is a very common misconception! Earth\'s orbital distance varies only about 3% and has only a minor effect on seasons. Students must reject the "closer to Sun = warmer" misconception.', image: '/images/exams/es-june-2021/q29.png' },
     {
       number: 30,
       part: 'A',
@@ -499,8 +487,7 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       explanation: 'Giant and supergiant stars appear in the upper right of the H-R diagram, indicating they are extremely luminous (bright) but relatively cool (orange to red surface temperatures).',
-      diveDeep: 'The H-R diagram plots stellar luminosity (y-axis) versus surface temperature (x-axis, right = cool, left = hot). Main regions: main sequence (diagonal band — most stars including the Sun); red giants/supergiants (upper right — cool but large/bright); white dwarfs (lower left — hot but small/dim). A star is bright because of large size, not necessarily high temperature — giants and supergiants are enormous, compensating for lower temperature with greater surface area. Betelgeuse is a classic red supergiant: cool (3,500 K), but so enormous it would engulf Jupiter\'s orbit. Students should be able to locate each stellar group on the H-R diagram.',
-    },
+      diveDeep: 'The H-R diagram plots stellar luminosity (y-axis) versus surface temperature (x-axis, right = cool, left = hot). Main regions: main sequence (diagonal band — most stars including the Sun); red giants/supergiants (upper right — cool but large/bright); white dwarfs (lower left — hot but small/dim). A star is bright because of large size, not necessarily high temperature — giants and supergiants are enormous, compensating for lower temperature with greater surface area. Betelgeuse is a classic red supergiant: cool (3,500 K), but so enormous it would engulf Jupiter\'s orbit. Students should be able to locate each stellar group on the H-R diagram.', image: '/images/exams/es-june-2021/q33.png' },
     {
       number: 34,
       part: 'A',
@@ -529,8 +516,7 @@ export default {
       topic: 'Maps',
       correct: 1,
       explanation: 'When contour lines cross a stream valley, they form a V-shape that points upstream (toward the source, uphill), because the valley floor is lower in elevation than the surrounding land.',
-      diveDeep: 'This is one of the most important topographic map reading rules on the Regents: contour lines always form a V-shape when crossing a valley, with the V pointing in the upstream direction (toward higher elevation). This allows you to determine stream flow direction: water flows in the opposite direction from which the V points (water flows away from the point of the V). On ridges, contour lines also form V-shapes but pointing downhill. Practice by identifying which way V-shapes point — if they point toward higher elevations, it\'s a valley; if they point toward lower elevations, it\'s a ridge. This skill appears in nearly every Earth Science Regents exam.',
-    },
+      diveDeep: 'This is one of the most important topographic map reading rules on the Regents: contour lines always form a V-shape when crossing a valley, with the V pointing in the upstream direction (toward higher elevation). This allows you to determine stream flow direction: water flows in the opposite direction from which the V points (water flows away from the point of the V). On ridges, contour lines also form V-shapes but pointing downhill. Practice by identifying which way V-shapes point — if they point toward higher elevations, it\'s a valley; if they point toward lower elevations, it\'s a ridge. This skill appears in nearly every Earth Science Regents exam.', image: '/images/exams/es-june-2021/q35.png' },
     {
       number: 36,
       part: 'B-1',
@@ -544,8 +530,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'The metamorphic rocks formed first (oldest), then tectonic forces tilted them, then erosion created a flat surface (the unconformity), then new sediments were deposited horizontally on top.',
-      diveDeep: 'An angular unconformity represents a gap in the geologic record — time when rocks were tilted, eroded, and then covered by new horizontal layers. Reading a cross-section with an unconformity requires applying multiple principles: (1) superposition — older below, newer above; (2) cross-cutting relationships; (3) original horizontality — sedimentary layers are deposited flat; if tilted, they were deformed after deposition. The sequence is always: original deposition → tilting/faulting → erosion (creating the unconformity surface) → new deposition. The unconformity surface itself is the erosional surface. Students should practice identifying different types of unconformities: angular, disconformity, and nonconformity.',
-    },
+      diveDeep: 'An angular unconformity represents a gap in the geologic record — time when rocks were tilted, eroded, and then covered by new horizontal layers. Reading a cross-section with an unconformity requires applying multiple principles: (1) superposition — older below, newer above; (2) cross-cutting relationships; (3) original horizontality — sedimentary layers are deposited flat; if tilted, they were deformed after deposition. The sequence is always: original deposition → tilting/faulting → erosion (creating the unconformity surface) → new deposition. The unconformity surface itself is the erosional surface. Students should practice identifying different types of unconformities: angular, disconformity, and nonconformity.', image: '/images/exams/es-june-2021/context_36_37.png' },
     {
       number: 37,
       part: 'B-1',
@@ -559,8 +544,7 @@ export default {
       topic: 'Maps',
       correct: 1,
       explanation: 'The innermost contour at 200 m means the summit is higher than 200 m; since the next contour would be at 220 m and is not shown (the hill doesn\'t reach it), the summit is between 200 and 220 meters.',
-      diveDeep: 'Reading summit elevation from a topographic map: the innermost closed contour tells you the minimum possible summit elevation. The actual summit could be anywhere between that last contour and just below the next contour. If the contour interval is 20 m and the last contour is at 200 m, the summit is somewhere between 200 and 220 m (exclusive). This is a rule students frequently forget — the inner contour gives a minimum, not the exact summit elevation. Students should also know that depression contours (with hachure marks pointing inward) indicate enclosed low points, and their inner contour represents the maximum depth of the depression.',
-    },
+      diveDeep: 'Reading summit elevation from a topographic map: the innermost closed contour tells you the minimum possible summit elevation. The actual summit could be anywhere between that last contour and just below the next contour. If the contour interval is 20 m and the last contour is at 200 m, the summit is somewhere between 200 and 220 m (exclusive). This is a rule students frequently forget — the inner contour gives a minimum, not the exact summit elevation. Students should also know that depression contours (with hachure marks pointing inward) indicate enclosed low points, and their inner contour represents the maximum depth of the depression.', image: '/images/exams/es-june-2021/context_36_37.png' },
     {
       number: 38,
       part: 'B-1',
@@ -574,8 +558,7 @@ export default {
       topic: 'Geology',
       correct: 0,
       explanation: 'The smallest P-S wave time difference (1 minute 30 seconds at Station A) indicates the shortest travel distance from the epicenter, making Station A the closest.',
-      diveDeep: 'The P-S wave time difference is directly proportional to distance from the earthquake epicenter — the smaller the difference, the closer the station. This is the basis for determining epicenter location: measure P-S time at three stations, convert to distances using the travel-time graph, draw circles around each station with those radii, and the epicenter is where the three circles intersect (triangulation). Students must practice: (1) calculating P-S difference from arrival times; (2) reading the travel-time graph to convert time difference to distance; (3) recognizing that minimum P-S time = minimum distance. Knowing the origin time allows calculation of absolute travel times.',
-    },
+      diveDeep: 'The P-S wave time difference is directly proportional to distance from the earthquake epicenter — the smaller the difference, the closer the station. This is the basis for determining epicenter location: measure P-S time at three stations, convert to distances using the travel-time graph, draw circles around each station with those radii, and the epicenter is where the three circles intersect (triangulation). Students must practice: (1) calculating P-S difference from arrival times; (2) reading the travel-time graph to convert time difference to distance; (3) recognizing that minimum P-S time = minimum distance. Knowing the origin time allows calculation of absolute travel times.', image: '/images/exams/es-june-2021/context_38_39.png' },
     {
       number: 39,
       part: 'B-1',
@@ -589,8 +572,7 @@ export default {
       topic: 'Plate Tectonics',
       correct: 2,
       explanation: '7,000 km = 700,000,000 cm; dividing by 70,000,000 years (70 million years) = 10 cm/year.',
-      diveDeep: 'Hotspot chains are "time-stamped" records of plate motion. As the Pacific Plate moves over the stationary Hawaiian hotspot, successive volcanic islands form, creating a chain where older islands are farther from the current hotspot position. Rate = distance/time = 7,000 km / 70 million years = 100 km/million years = 10 cm/year. The Pacific Plate moves northwest at approximately 5–10 cm/year — similar to the rate your fingernails grow! This calculation appears on the Regents and requires unit conversion. Students should know: typical plate movement rates are ~1–15 cm/year. Converting km to cm: 1 km = 100,000 cm.',
-    },
+      diveDeep: 'Hotspot chains are "time-stamped" records of plate motion. As the Pacific Plate moves over the stationary Hawaiian hotspot, successive volcanic islands form, creating a chain where older islands are farther from the current hotspot position. Rate = distance/time = 7,000 km / 70 million years = 100 km/million years = 10 cm/year. The Pacific Plate moves northwest at approximately 5–10 cm/year — similar to the rate your fingernails grow! This calculation appears on the Regents and requires unit conversion. Students should know: typical plate movement rates are ~1–15 cm/year. Converting km to cm: 1 km = 100,000 cm.', image: '/images/exams/es-june-2021/context_38_39.png' },
     {
       number: 40,
       part: 'B-1',
@@ -604,8 +586,7 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       explanation: 'Temperature increases with altitude in the stratosphere because ozone in this layer absorbs ultraviolet radiation from the Sun, converting it to heat.',
-      diveDeep: 'The atmosphere\'s temperature profile is determined by the dominant energy sources in each layer: Troposphere — temperature decreases with altitude (~6.5°C/km); heated from Earth\'s surface below. Stratosphere — temperature increases with altitude; ozone (O₃) absorbs UV radiation and warms the layer. Mesosphere — temperature decreases with altitude again; sparse gas, little heating source. Thermosphere — temperature increases dramatically; individual gas molecules absorb X-rays and UV but there are so few molecules that the "temperature" is extremely high but little heat is transferred. Students should memorize the temperature trend (decrease/increase/decrease/increase going up) and the reason for each change.',
-    },
+      diveDeep: 'The atmosphere\'s temperature profile is determined by the dominant energy sources in each layer: Troposphere — temperature decreases with altitude (~6.5°C/km); heated from Earth\'s surface below. Stratosphere — temperature increases with altitude; ozone (O₃) absorbs UV radiation and warms the layer. Mesosphere — temperature decreases with altitude again; sparse gas, little heating source. Thermosphere — temperature increases dramatically; individual gas molecules absorb X-rays and UV but there are so few molecules that the "temperature" is extremely high but little heat is transferred. Students should memorize the temperature trend (decrease/increase/decrease/increase going up) and the reason for each change.', image: '/images/exams/es-june-2021/context_40_41.png' },
     {
       number: 41,
       part: 'B-1',
@@ -619,8 +600,7 @@ export default {
       topic: 'Astronomy',
       correct: 1,
       explanation: 'June 21 is the summer solstice; the Northern Hemisphere is tilted toward the Sun, experiencing the year\'s longest day (most daylight hours) and most direct (highest angle) solar radiation.',
-      diveDeep: 'June 21 (summer solstice) conditions in the Northern Hemisphere: (1) Longest day of the year (in NH); (2) Sun is directly overhead at the Tropic of Cancer (23.5°N) at solar noon; (3) Arctic Circle and north experience 24-hour daylight; (4) NH tilted toward Sun = most direct sunlight; (5) Highest solar angle at noon for the year. At the same time in the Southern Hemisphere: shortest day, winter conditions. Equal day/night occurs only at equinoxes (March 21, September 23). Students must know what happens on all four key dates: June 21, December 21, and both equinoxes for both hemispheres.',
-    },
+      diveDeep: 'June 21 (summer solstice) conditions in the Northern Hemisphere: (1) Longest day of the year (in NH); (2) Sun is directly overhead at the Tropic of Cancer (23.5°N) at solar noon; (3) Arctic Circle and north experience 24-hour daylight; (4) NH tilted toward Sun = most direct sunlight; (5) Highest solar angle at noon for the year. At the same time in the Southern Hemisphere: shortest day, winter conditions. Equal day/night occurs only at equinoxes (March 21, September 23). Students must know what happens on all four key dates: June 21, December 21, and both equinoxes for both hemispheres.', image: '/images/exams/es-june-2021/context_40_41.png' },
     {
       number: 42,
       part: 'B-1',
@@ -634,8 +614,7 @@ export default {
       topic: 'Astronomy',
       correct: 1,
       explanation: 'The altitude of Polaris above the horizon equals the observer\'s latitude; at Cooperstown (42.7°N), Polaris would appear approximately 42.7° above the northern horizon.',
-      diveDeep: 'The altitude of Polaris = latitude of observer. This direct relationship exists because Polaris is located almost exactly above Earth\'s North Pole — the extension of Earth\'s rotation axis points to Polaris. At the North Pole (90°N), Polaris would be directly overhead (90° altitude); at the equator (0°), Polaris would be on the horizon (0° altitude). Elevation above sea level does not affect the altitude of Polaris significantly — only latitude matters. This is one of the most tested Regents facts in astronomy. Students should know NY city latitudes from the Reference Tables to answer Polaris altitude questions for specific locations.',
-    },
+      diveDeep: 'The altitude of Polaris = latitude of observer. This direct relationship exists because Polaris is located almost exactly above Earth\'s North Pole — the extension of Earth\'s rotation axis points to Polaris. At the North Pole (90°N), Polaris would be directly overhead (90° altitude); at the equator (0°), Polaris would be on the horizon (0° altitude). Elevation above sea level does not affect the altitude of Polaris significantly — only latitude matters. This is one of the most tested Regents facts in astronomy. Students should know NY city latitudes from the Reference Tables to answer Polaris altitude questions for specific locations.', image: '/images/exams/es-june-2021/context_42_43.png' },
     {
       number: 43,
       part: 'B-1',
@@ -649,8 +628,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'A soil with 40% clay, 40% silt, and 20% sand plots in the silty clay region of the USDA soil texture triangle.',
-      diveDeep: 'The soil texture triangle (sometimes included in earth science courses) classifies soils based on the percentages of sand, silt, and clay. Each corner represents 100% of one particle type. To use the triangle: find the intersection of lines representing the percentages of each component. High clay content = clay or clay loam soils (sticky, poor drainage); high sand content = sandy or loamy sand soils (good drainage, low water retention); balanced mixtures = loam soils (ideal for agriculture). Silt has intermediate particle size and properties. Students should practice reading the triangle by following the three axes simultaneously.',
-    },
+      diveDeep: 'The soil texture triangle (sometimes included in earth science courses) classifies soils based on the percentages of sand, silt, and clay. Each corner represents 100% of one particle type. To use the triangle: find the intersection of lines representing the percentages of each component. High clay content = clay or clay loam soils (sticky, poor drainage); high sand content = sandy or loamy sand soils (good drainage, low water retention); balanced mixtures = loam soils (ideal for agriculture). Silt has intermediate particle size and properties. Students should practice reading the triangle by following the three axes simultaneously.', image: '/images/exams/es-june-2021/context_42_43.png' },
     {
       number: 44,
       part: 'B-1',
@@ -664,8 +642,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'The principle of original horizontality states that sedimentary rocks are deposited in horizontal layers; if they are now tilted, tectonic forces must have deformed them after deposition.',
-      diveDeep: 'The principle of original horizontality (Steno, 1669) states that sedimentary rocks are deposited in layers that are nearly horizontal at the time of formation. Therefore, tilted rock layers indicate post-depositional deformation by tectonic forces (compression, tension, or shear). In New York State, tilted and folded rocks are abundant in the Taconic region and Hudson Valley, evidence of the Taconian orogeny (mountain-building event ~440 Ma). Roadcuts often expose these features dramatically. Students should apply original horizontality: if you see tilted sedimentary layers, conclude that tectonic deformation occurred after deposition.',
-    },
+      diveDeep: 'The principle of original horizontality (Steno, 1669) states that sedimentary rocks are deposited in layers that are nearly horizontal at the time of formation. Therefore, tilted rock layers indicate post-depositional deformation by tectonic forces (compression, tension, or shear). In New York State, tilted and folded rocks are abundant in the Taconic region and Hudson Valley, evidence of the Taconian orogeny (mountain-building event ~440 Ma). Roadcuts often expose these features dramatically. Students should apply original horizontality: if you see tilted sedimentary layers, conclude that tectonic deformation occurred after deposition.', image: '/images/exams/es-june-2021/context_44_47.png' },
     {
       number: 45,
       part: 'B-1',
@@ -679,8 +656,7 @@ export default {
       topic: 'Climate',
       correct: 1,
       explanation: 'Large bodies of water have high specific heat and moderate nearby temperatures, reducing the annual temperature range for coastal cities compared to inland cities at the same latitude.',
-      diveDeep: 'Water has a high specific heat (~4.18 J/g°C) compared to land (~0.8 J/g°C). This means water heats up and cools down much more slowly than land. Coastal cities are buffered by this thermal mass: summers are cooler and winters are warmer than at inland locations at the same latitude. The difference between marine (oceanic) climate (small temperature range) and continental climate (large temperature range) is a fundamental climate geography concept. New York City (coast) has a smaller annual range than Albany (inland). This question tests whether students can identify the moderating effect of proximity to water. Both cities are at the same latitude, so latitude is not the explanation.',
-    },
+      diveDeep: 'Water has a high specific heat (~4.18 J/g°C) compared to land (~0.8 J/g°C). This means water heats up and cools down much more slowly than land. Coastal cities are buffered by this thermal mass: summers are cooler and winters are warmer than at inland locations at the same latitude. The difference between marine (oceanic) climate (small temperature range) and continental climate (large temperature range) is a fundamental climate geography concept. New York City (coast) has a smaller annual range than Albany (inland). This question tests whether students can identify the moderating effect of proximity to water. Both cities are at the same latitude, so latitude is not the explanation.', image: '/images/exams/es-june-2021/context_44_47.png' },
     {
       number: 46,
       part: 'B-1',
@@ -694,8 +670,7 @@ export default {
       topic: 'Plate Tectonics',
       correct: 1,
       explanation: 'Total spreading rate = 2.5 cm/year × 2 sides = 5 cm/year; 6000 km = 600,000,000 cm; 600,000,000 cm ÷ 5 cm/year = 120,000,000 years = 120 million years ago.',
-      diveDeep: 'Seafloor spreading calculations: the total widening rate is twice the individual plate rate (both sides spread). Convert distance to cm: 6000 km × 100,000 cm/km = 6 × 10⁸ cm. Total rate = 5 cm/year. Age = distance/rate = 6 × 10⁸ / 5 = 1.2 × 10⁸ years = 120 million years (Cretaceous Period). This matches geologic evidence — the Atlantic began opening about 130–180 Ma when Pangaea broke apart. The key step students miss is doubling the rate because spreading occurs on BOTH sides of the ridge. Practice: always check if the given rate is one-side or total spreading rate.',
-    },
+      diveDeep: 'Seafloor spreading calculations: the total widening rate is twice the individual plate rate (both sides spread). Convert distance to cm: 6000 km × 100,000 cm/km = 6 × 10⁸ cm. Total rate = 5 cm/year. Age = distance/rate = 6 × 10⁸ / 5 = 1.2 × 10⁸ years = 120 million years (Cretaceous Period). This matches geologic evidence — the Atlantic began opening about 130–180 Ma when Pangaea broke apart. The key step students miss is doubling the rate because spreading occurs on BOTH sides of the ridge. Practice: always check if the given rate is one-side or total spreading rate.', image: '/images/exams/es-june-2021/context_44_47.png' },
     {
       number: 47,
       part: 'B-1',
@@ -709,8 +684,7 @@ export default {
       topic: 'Plate Tectonics',
       correct: 2,
       explanation: 'As the oceanic plate subducts, increasing temperature and pressure cause partial melting of the slab and overlying mantle wedge; the less dense magma rises through the overlying plate to form volcanic island arcs.',
-      diveDeep: 'At subduction zones, the descending oceanic plate releases water (from hydrated minerals) into the overlying mantle wedge. This water lowers the melting point of mantle rock, causing partial melting (flux melting). The resulting magma is less dense than the surrounding rock, so it rises through the overlying plate to create volcanic island arcs (oceanic-oceanic subduction) or volcanic mountain chains/Andean-type margins (oceanic-continental subduction). The Aleutian Islands (Alaska) and Japan are volcanic island arcs. Students should know the difference between mid-ocean ridge volcanism (decompression melting) and subduction zone volcanism (flux melting from water released from subducting slab).',
-    },
+      diveDeep: 'At subduction zones, the descending oceanic plate releases water (from hydrated minerals) into the overlying mantle wedge. This water lowers the melting point of mantle rock, causing partial melting (flux melting). The resulting magma is less dense than the surrounding rock, so it rises through the overlying plate to create volcanic island arcs (oceanic-oceanic subduction) or volcanic mountain chains/Andean-type margins (oceanic-continental subduction). The Aleutian Islands (Alaska) and Japan are volcanic island arcs. Students should know the difference between mid-ocean ridge volcanism (decompression melting) and subduction zone volcanism (flux melting from water released from subducting slab).', image: '/images/exams/es-june-2021/context_44_47.png' },
     {
       number: 48,
       part: 'B-1',
@@ -724,8 +698,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'A rock with ~70% quartz and potassium feldspar (orthoclase), with coarse crystals indicating slow cooling, matches the composition and texture of granite in the Reference Tables.',
-      diveDeep: 'The Reference Table igneous rock classification chart organizes rocks by mineral composition (felsic to mafic) and texture (intrusive/coarse-grained vs. extrusive/fine-grained). Granite: felsic, coarse-grained (intrusive), high quartz and orthoclase; Rhyolite: same composition but fine-grained (extrusive); Basalt: mafic, fine-grained, low/no quartz, rich in pyroxene and olivine; Gabbro: same composition as basalt but coarse-grained; Peridotite: ultramafic, very high olivine and pyroxene. The high quartz content (70%) and presence of orthoclase feldspar clearly indicate a felsic/granitic composition. Students should practice reading across both axes of the igneous classification chart.',
-    },
+      diveDeep: 'The Reference Table igneous rock classification chart organizes rocks by mineral composition (felsic to mafic) and texture (intrusive/coarse-grained vs. extrusive/fine-grained). Granite: felsic, coarse-grained (intrusive), high quartz and orthoclase; Rhyolite: same composition but fine-grained (extrusive); Basalt: mafic, fine-grained, low/no quartz, rich in pyroxene and olivine; Gabbro: same composition as basalt but coarse-grained; Peridotite: ultramafic, very high olivine and pyroxene. The high quartz content (70%) and presence of orthoclase feldspar clearly indicate a felsic/granitic composition. Students should practice reading across both axes of the igneous classification chart.', image: '/images/exams/es-june-2021/context_48_50.png' },
     {
       number: 49,
       part: 'B-1',
@@ -739,8 +712,7 @@ export default {
       topic: 'Climate',
       correct: 1,
       explanation: 'The burning of fossil fuels since the Industrial Revolution has significantly increased atmospheric CO₂, enhancing the greenhouse effect and driving the observed global warming trend.',
-      diveDeep: 'Global temperature records show approximately 1.1–1.2°C of warming since the pre-industrial period (before ~1850). The primary driver is the increase in atmospheric CO₂ from ~280 ppm (pre-industrial) to over 420 ppm today, almost entirely due to fossil fuel combustion and deforestation. CO₂ is a greenhouse gas that absorbs outgoing infrared radiation, trapping heat. While deforestation reduces CO₂ absorption and urban heat islands cause local warming, these are not the primary global drivers. Students should distinguish between local/regional effects and global drivers, and know that the scientific consensus attributes modern warming primarily to fossil fuel emissions.',
-    },
+      diveDeep: 'Global temperature records show approximately 1.1–1.2°C of warming since the pre-industrial period (before ~1850). The primary driver is the increase in atmospheric CO₂ from ~280 ppm (pre-industrial) to over 420 ppm today, almost entirely due to fossil fuel combustion and deforestation. CO₂ is a greenhouse gas that absorbs outgoing infrared radiation, trapping heat. While deforestation reduces CO₂ absorption and urban heat islands cause local warming, these are not the primary global drivers. Students should distinguish between local/regional effects and global drivers, and know that the scientific consensus attributes modern warming primarily to fossil fuel emissions.', image: '/images/exams/es-june-2021/context_48_50.png' },
     {
       number: 50,
       part: 'B-1',
@@ -754,7 +726,6 @@ export default {
       topic: 'Water Cycle',
       correct: 2,
       explanation: 'Evaporation is the process by which liquid water at the ocean surface absorbs solar energy and changes into water vapor that rises into the atmosphere, initiating the water cycle.',
-      diveDeep: 'Evaporation is the primary pathway for water entering the atmosphere from ocean surfaces, driven by solar energy input. Water molecules at the surface gain enough kinetic energy to overcome intermolecular attractions and escape into the gas phase. The energy absorbed in evaporation (latent heat = 2260 J/g) is released later when condensation forms clouds. This energy transfer is what powers tropical storms and hurricanes. The water cycle processes: evaporation → condensation (clouds) → precipitation → infiltration/runoff → returns to ocean. Students should be able to trace water through all stages of the cycle, identify the driving energy source (solar radiation for evaporation, gravity for precipitation and runoff), and explain each process.',
-    },
+      diveDeep: 'Evaporation is the primary pathway for water entering the atmosphere from ocean surfaces, driven by solar energy input. Water molecules at the surface gain enough kinetic energy to overcome intermolecular attractions and escape into the gas phase. The energy absorbed in evaporation (latent heat = 2260 J/g) is released later when condensation forms clouds. This energy transfer is what powers tropical storms and hurricanes. The water cycle processes: evaporation → condensation (clouds) → precipitation → infiltration/runoff → returns to ocean. Students should be able to trace water through all stages of the cycle, identify the driving energy source (solar radiation for evaporation, gravity for precipitation and runoff), and explain each process.', image: '/images/exams/es-june-2021/context_48_50.png' },
   ],
 }

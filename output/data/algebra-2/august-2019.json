@@ -1,0 +1,486 @@
+{
+  "subject": "algebra-2",
+  "session": "august-2019",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "When the expression (x \u0002 2)2 \u0002 4(x \u0002 2) \u0002 3 is rewritten as the product of two binomials, the result is",
+      "choices": [
+        "(x \u0002 3)(x \u0002 1)",
+        "(x \u0002 5)(x \u0002 3)",
+        "(x \u0002 2)(x \u0002 2)",
+        "(x \u0002 6)(x \u0002 1)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The first term of a geometric sequence is 8 and the fourth term is 216. What is the sum of the first 12 terms of the corresponding series?",
+      "choices": [
+        "236,192",
+        "708,584",
+        "2,125,760",
+        "6,377,288"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Perry invested in property that cost him $1500. Five years later it was worth $3000, and 10 years from his original purchase, it was worth $6000. Assuming the growth rate remains the same, which type of function could he create to find the value of his investment 30 years from his original purchase?",
+      "choices": [
+        "exponential function",
+        "linear function",
+        "quadratic function",
+        "trigonometric function"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "If (a3 \u0002 27) \u0003 (a \u0002 3)(a2 \u0002 ma \u0002 9), then m equals",
+      "choices": [
+        "\u00049",
+        "\u00043",
+        "3",
+        "6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "If cos \u03b8 \u0003 \u0004 3__ 4 and \u03b8 is in Quadrant III, then sin \u03b8 is equivalent to",
+      "choices": [
+        "\u0004\u0002\u00037 ___ 4",
+        "\u0002\u00037 ___ 4",
+        "\u0004 5__ 4",
+        "5__ 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A veterinary pharmaceutical company plans to test a new drug to treat a common intestinal infection among puppies. The puppies are randomly assigned to two equal groups. Half of the puppies will receive the drug, and the other half will receive a placebo. The veterinarians monitor the puppies. This is an example of which study method?",
+      "choices": [
+        "census",
+        "observational study",
+        "survey",
+        "controlled experiment"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The expression 2 \u0004 x \u0004 1 _____ x \u0002 2 is equivalent to",
+      "choices": [
+        "1 \u0004 3 _____ x \u0002 2",
+        "1 \u0002 3 _____ x \u0002 2",
+        "1 \u0004 1 _____ x \u0002 2",
+        "1 \u0002 1 _____ x \u0002 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which description could represent the graph of f(x) \u0003 4x2(x \u0002 a) \u0004 x \u0004 a, if a is an integer?",
+      "choices": [
+        "As x \u2192 \u0004\u221e, f(x) \u2192 \u221e, as x \u2192 \u221e, f(x) \u2192 \u221e, and the graph has 3 x-intercepts.",
+        "As x \u2192 \u0004\u221e, f(x) \u2192 \u0004\u221e, as x \u2192 \u221e, f(x) \u2192 \u221e, and the graph has 3 x-intercepts.",
+        "As x \u2192 \u0004\u221e, f(x) \u2192 \u221e, as x \u2192 \u221e, f(x) \u2192 \u0004\u221e, and the graph has 4 x-intercepts.",
+        "As x \u2192 \u0004\u221e, f(x) \u2192 \u0004\u221e, as x \u2192 \u221e, f(x) \u2192 \u221e, and the graph has 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "After Roger\u2019s surgery, his doctor administered pain medication in the following amounts in milligrams over four days. How can this sequence best be modeled recursively?",
+      "choices": [
+        "m1 \u0002 2000",
+        "mn \u0002 2000(0.84)n \u0003 1",
+        "m1 \u0002 2000 mn \u0002 mn \u0003 1 \u0003 320 mn \u0002 (0.84)mn \u0003 1",
+        "mn \u0002 2000(0.84)n \u0004 1"
+      ],
+      "image": "/images/exams/algebra-2/august-2019/q9.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The expression 9x2 \u0003 2 _______ 3x \u0004 1 is equivalent to",
+      "choices": [
+        "3x \u0003 1 \u0003 1 ______ 3x \u0004 1",
+        "3x \u0003 1 \u0004 1 ______ 3x \u0004 1",
+        "3x \u0004 1 \u0003 1 ______ 3x \u0004 1",
+        "3x \u0004 1 \u0004 1 ______ 3x \u0004 1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "If f(x) is an even function, which function must also be even?",
+      "choices": [
+        "f(x \u0003 2)",
+        "f(x) \u0004 3",
+        "f(x \u0004 1)",
+        "f(x \u0004 1) \u0004 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The average monthly temperature of a city can be modeled by a cosine graph. Melissa has been living in Phoenix, Arizona, where the average annual temperature is 75\u00b0F. She would like to move, and live in a location where the average annual temperature is 62\u00b0F. When examining the graphs of the average monthly temperatures for various locations, Melissa should focus on the",
+      "choices": [
+        "amplitude",
+        "horizontal shift",
+        "period",
+        "midline Day (n) 1 2 3 4 Dosage (m) 2000 1680 1411.2 1185.4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Consider the probability statements regarding events A and B below. P(A or B) \u0003 0.3; P(A and B) \u0003 0.2, and P(A | B) \u0003 0.8 What is P(B)?",
+      "choices": [
+        "0.1",
+        "0.25",
+        "0.375",
+        "0.667"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Given y \u0005 0, the expression \u0002\u0003\u0003\u0003\u0003 3x2y \u2022 3\u0002\u0003\u0003\u0003\u0003\u0003\u0003 27x3y2 is equivalent to",
+      "choices": [
+        "81x5y3",
+        "31.5x2y",
+        "3 x2y",
+        "3 x2y"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "What is the solution set of the equation 10 _______ x2 \u0004 2x \u0002 4__ x \u0003 5 _____ x \u0004 2 ?",
+      "choices": [
+        "{0,2}",
+        "{0}",
+        "{2}",
+        "{ } 5__ 2 5__ 3 3__ 2 7__ 6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "What are the solution(s) to the system of equations shown below? x2 \u0004 y2 \u0002 5 y \u0002 2x",
+      "choices": [
+        "x \u0002 1 and x \u0002 \u00031",
+        "x \u0002 1",
+        "(1, 2) and (\u00031, \u00032)",
+        "(1, 2), only"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "If $5000 is put into a savings account that pays 3.5% interest compounded monthly, how much money, to the nearest ten cents, would be in that account after 6 years, assuming no money was added or withdrawn?",
+      "choices": [
+        "$5177.80",
+        "$5941.30",
+        "$6146.30",
+        "$6166.50"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The Fahrenheit temperature, F(t), of a heated object at time t, in minutes, can be modeled by the function below. Fs is the surrounding temperature, F0 is the initial temperature of the object, and k is a constant. F(t) \u0002 Fs \u0004 (F0 \u0003 Fs)e\u0003kt Coffee at a temperature of 195\u00b0F is poured into a container. The room temperature is kept at a constant 68\u00b0F and k \u0002 0.05. Coffee is safe to drink when its temperature is, at most, 120\u00b0F. To the nearest minute, how long will it take until the coffee is safe to drink?",
+      "choices": [
+        "7",
+        "10",
+        "11",
+        "18"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The mean intelligence quotient (IQ) score is 100, with a standard deviation of 15, and the scores are normally distributed. Given this information, the approximate percentage of the population with an IQ greater than 130 is closest to",
+      "choices": [
+        "2%",
+        "31%",
+        "48%",
+        "95%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "After examining the functions f(x) \u0003 ln(x \u0002 2) and g(x) \u0003 ex\u00041 over the interval (\u00042,3], Lexi determined that the correct number of solutions to the equation f(x) \u0003 g(x) is",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Evan graphed a cubic function, f(x) \u0003 ax3 \u0002 bx2 \u0002 cx \u0002 d, and determined the roots of f(x) to be \u00061 and 2. What is the value of b, if a \u0003 1?",
+      "choices": [
+        "1",
+        "2",
+        "\u00041",
+        "\u00042"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The equation t \u0003 1 ______ 0.0105 ln( A _____ 5000) relates time, t, in years, to the amount of money, A, earned by a $5000 investment. Which statement accurately describes the relationship between the average rates of change of t on the intervals [6000, 8000] and [9000, 12,000]?",
+      "choices": [
+        "A comparison cannot be made because the intervals are different sizes.",
+        "The average rate of change is equal for both intervals.",
+        "The average rate of change is larger for the interval [6000, 8000].",
+        "The average rate of change is larger for the interval [9000, 12,000]."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "What is the inverse of f(x) \u0003 x _____ x \u0002 2 , where x \u0002 \u00042?",
+      "choices": [
+        "f\u00041(x) \u0003 2x _____ x \u0004 1",
+        "f\u00041(x) \u0003 \u00042x _____ x \u0004 1",
+        "f\u00041(x) \u0003 x _____ x \u0004 2",
+        "f\u00041(x) \u0003 \u0004x _____ x \u0004 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A study of black bears in the Adirondacks reveals that their population can be represented by the function P(t) \u0003 3500(1.025)t, where t is the number of years since the study began. Which function is correctly rewritten to reveal the monthly growth rate of the black bear population?",
+      "choices": [
+        "P(t) \u0003 3500(1.00206)12t",
+        "P(t) \u0003 3500(1.00206)",
+        "P(t) \u0003 3500(1.34489)12t",
+        "P(t) \u0003 3500(1.34489) t___ 12 t___ 12 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/algebra-2/august-2019/q24.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "At Andrew Jackson High School, students are only allowed to enroll in AP U.S. History if they have already taken AP World History or AP European History. Out of 825 incoming seniors, 165 took AP World History, 66 took AP European History, and 33 took both. Given this information,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Explain what a rational exponent, such as 5__ 2 means. Use this explanation to evaluate 9 .",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Write \u0004 1__ 2 i3(\u0002\u0003\u0003\u0003 \u00049 \u0004 4) \u0004 3i2 in simplest a \u0002 bi form. 5__ 2",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "A person\u2019s lung capacity can be modeled by the function C(t) \u0003 250sin( 2\u03c0 ___ 5 t) \u0002 2450, where C(t) represents the volume in mL present in the lungs after t seconds. State the maximum value of this function over one full cycle,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Determine for which polynomial(s) (x \u0002 2) is a factor. Explain your answer. P(x) \u0003 x4 \u0004 3x3 \u0004 16x \u0004 12 Q(x) \u0003 x3 \u0004 3x2 \u0004 16x \u0004 12",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "On July 21, 2016, the water level in Puget Sound, WA reached a high of 10.1 ft at 6 a.m. and a low of \u00032 ft at 12:30 p.m. Across the country in Long Island, NY, Shinnecock Bay\u2019s water level reached a high of 2.5 ft at 10:42 p.m. and a low of \u00030.1 ft at 5:31 a.m. The water levels of both locations are affected by the tides and can be modeled by sinusoidal functions. Determine the difference in amplitudes, in feet,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Write a recursive formula, an, to describe the sequence graphed below. n 1 0 2 3 4 0 50 100 an (1, 4) (2, 12) (3, 36) (4, 108)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2019/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Sketch the graphs of r(x) \u0003 1__ x and a(x) \u0003 |x| \u0004 3 on the set of axes below. Determine, to the nearest tenth, the positive solution of r(x) \u0003 a(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2019/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "A population of 950 bacteria grows continuously at a rate of 4.75% per day. Write an exponential function, N(t), that represents the bacterial population after t days and explain the reason for your choice of base. Determine the bacterial population after 36 hours, to the nearest bacterium. Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Write an equation for a sine function with an amplitude of 2 and a period of \u03c0 __ 2. On the grid below, sketch the graph of the equation in the interval 0 to 2\u03c0",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2019/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Mary bought a pack of candy. The manufacturer claims that 30% of the candies manufactured are red. In her pack, 14 of the 60 candies are red. She ran a simulation of 300 samples, assuming the manufacturer is correct. The results are shown below. Based on the simulation, determine the middle 95% of plausible values that the proportion of red candies in a pack is within. Based on the simulation, is it unusual that Mary\u2019s pack had 14 red candies out of a total of 60? Explain. 0.15 0 10 20 30 40 50 0.20 0.25 0.30 0.35 Proportion of Red Candies 0.40 0.45 Mean = 0.301 SD = 0.058 36 a) Algebraically determine the roots, in simplest a \u0002 bi form, to the equation below. x2 \u0004 2x \u0002 7 \u0003 4x \u0004 10 b) Consider the system of equations below. y \u0003 x2 \u0004 2x \u0002 7 y \u0003 4x \u0004 10",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2019/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "The Beaufort Wind Scale was devised by British Rear Admiral Sir Francis Beaufort, in 1805 based upon observations of the effects of the wind. Beaufort numbers, B, are determined by the equation B \u0003 1.69 \u0002\u0003\u0003\u0003\u0003\u0003\u0003\u0003 s \u0002 4.45 \u0004 3.49, where s is the speed of the wind in mph, and B is rounded to the nearest integer from 0 to 12. Beaufort Wind Scale Using the table above, classify the force of wind at a speed of 30 mph. Justify your answer. Beaufort Number Force of Wind 0 Calm 1 Light air 2 Light breeze 3 Gentle breeze 4 Moderate breeze 5 Fresh breeze 6 Steady breeze 7 Moderate gale 8 Fresh gale 9 Strong gale 10 Whole gale 11 Storm 12 Hurricane Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Question 37 Question 37 continued In 1946, the scale was extended to accommodate strong hurricanes. A strong hurricane received a B value of exactly 15. Algebraically determine the value of s, to the nearest mph. Any B values that round to 10 receive a Beaufort number of 10. Using technology, find an approximate range of wind speeds, to the nearest mph, associated with a Beaufort number of 10. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0003 2.54 centimeters 1 kilometer \u0003 0.62 mile 1 cup \u0003 8 fluid ounces 1 meter \u0003 39.37 inches 1 pound \u0003 16 ounces 1 pint \u0003 2 cups 1 mile \u0003 5280 feet 1 pound \u0003 0.454 kilogram 1 quart \u0003 2 pints 1 mile \u0003 1760 yards 1 kilogram \u0003 2.2 pounds 1 gallon \u0003 4 quarts 1 mile \u0003 1.609 kilometers 1 ton \u0003 2000 pounds 1 gallon \u0003 3.785 liters 1 liter \u0003 0.264 gallon 1 liter \u0003 1000 cubic centimeters Triangle A \u0003 bh 1 2 Parallelogram A \u0003 bh Circle A \u0003 \u03c0r2 Circle C \u0003 \u03c0d or C \u0003 2\u03c0r General Prisms V \u0003 Bh Cylinder V \u0003 \u03c0r2h Sphere V \u0003 \u03c0r3 4 3 Cone V \u0003 \u03c0r2h 1 3 Pyramid V \u0003 Bh 1 3 Pythagorean Theorem a2 \u0002 b2 \u0003 c2 Quadratic Formula x \u0003 \u0004 \u0006 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0003 a1 \u0002 (n \u0004 1)d Geometric Sequence an \u0003 a1r n \u0004 1 Geometric Series Sn \u0003 where r \u0007 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0003 degrees 180 \u03c0 Degrees 1 degree \u0003 radians \u03c0 180 Exponential Growth/Decay A \u0003 A0ek(t \u0004 t0) \u0002 B0 Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2019/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

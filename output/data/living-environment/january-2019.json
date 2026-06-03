@@ -1,0 +1,1106 @@
+{
+  "subject": "living-environment",
+  "session": "january-2019",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "In single-celled organisms, materials are stored primarily in",
+      "choices": [
+        "ribosomes",
+        "mitochondria",
+        "nuclei",
+        "vacuoles"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The human female reproductive cycle is regulated primarily by the",
+      "choices": [
+        "white blood cells of the circulatory system",
+        "muscle cells of the skeletal system",
+        "enzymes of the digestive system",
+        "hormones of the endocrine system"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "A photograph of a Siamese cat is shown below. Source: www.pinterest.com/explorer/siamese/cats Siamese cats have dark fur on areas of the body that are cooler and light fur on parts of the body that are warmer. The color differences in this Siamese cat are most likely due to",
+      "choices": [
+        "a decrease in glucose produced in areas with light fur",
+        "more DNA molecules being produced in areas with light fur",
+        "gene expression being in\ufb02 uenced by the environment",
+        "mutations in the genes for eye color"
+      ],
+      "image": "/images/exams/living-environment/january-2019/q3.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "When deciding on new environmental policies and laws, which term is used to describe the comparison between bene\ufb01 ts and costs of human activities?",
+      "choices": [
+        "technology",
+        "trade-off",
+        "climate change",
+        "industrialization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "If the grass in the front yard of an abandoned house is not cut for several years, the yard may become overgrown with taller grasses, bushes, and shrubs. This is an example of the process of",
+      "choices": [
+        "evolution",
+        "homeostasis",
+        "ecological succession",
+        "direct harvesting"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The northern snakehead is a type of Asian \ufb01 sh that eats smaller \ufb01 sh and is adapted to a freshwater habitat. Source: http://nas.er.usgs.gov/queries/ factsheet.aspx?speciesid=2265 The presence of these \ufb01 sh in American waters is of concern because it might offer too much competition to native",
+      "choices": [
+        "herbivores",
+        "predators",
+        "decomposers",
+        "producers"
+      ],
+      "image": "/images/exams/living-environment/january-2019/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "In a food web, which type of organism receives energy from the other three types?",
+      "choices": [
+        "producer",
+        "carnivore",
+        "decomposer",
+        "herbivore"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "An ameba is a single-celled, heterotrophic organism. In order to meet its energy needs, it relies directly on the interaction of which cell structures?",
+      "choices": [
+        "chloroplasts and the cell membrane",
+        "the cell membrane and mitochondria",
+        "nucleus and ribosomes",
+        "vacuoles and the nucleus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Recently, oil from a wrecked tanker resulted in a disaster in ecosystems containing many unique species. The potential loss of these species could result in",
+      "choices": [
+        "an increase in the variety of genetic material available",
+        "a decrease in organisms available for scienti\ufb01 c research",
+        "an increase in the stability of the affected ecosystems",
+        "a decrease in pollution affecting the land and water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which process occurs at each link in a food chain?",
+      "choices": [
+        "All the energy is stored in a newly made structure.",
+        "Some energy is released into the environment as heat.",
+        "Chemical energy is recycled.",
+        "Atoms cycle among living organisms, producing energy."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Genetic recombination, production of more offspring than can survive, and struggling with the challenges of the environment are all concepts associated with",
+      "choices": [
+        "natural selection",
+        "mitotic division",
+        "selective breeding",
+        "genetic engineering"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Mistletoe is a plant that lives on the branches of trees. The mistletoe plant sends its roots in through the bark of trees and takes away water and minerals that the tree needs. In this situation, the mistletoe plant is",
+      "choices": [
+        "a parasite",
+        "a predator",
+        "a decomposer",
+        "an autotroph"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "An example of a population in which evolution could take place in a relatively short period of time could be",
+      "choices": [
+        "pathogenic bacteria exposed to antibiotics",
+        "oak trees in a stable ecosystem",
+        "elephants living in a wildlife preserve",
+        "algae grown under constant conditions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Butter\ufb02 ies exposed to radiation leaking from a damaged nuclear power plant in Japan have been observed to have malformed legs, antennae, and wings. For future butter\ufb02 y generations to have these similar structural abnormalities, gene mutations must be present in the affected butter\ufb02 ies\u2019",
+      "choices": [
+        "wing cells",
+        "body cells",
+        "antenna cells",
+        "sex cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The diagram below illustrates the release of chemical A from a human cell in response to a speci\ufb01 c stimulus. Source: Biology 8th ed., Pearson 2008, p. 859. Human cell Chemical A Stimulus Which cell structure plays a direct role in the release of this chemical from the cell?",
+      "choices": [
+        "nucleus",
+        "ribosome",
+        "chloroplast",
+        "cell membrane"
+      ],
+      "image": "/images/exams/living-environment/january-2019/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "A rich variety of genetic material in an ecosystem will",
+      "choices": [
+        "reduce the biodiversity of the ecosystem",
+        "decrease the carrying capacity of the ecosystem",
+        "reduce the likelihood of future medical discoveries",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The process of sexual reproduction is an important part of the process of evolution. One reason for this is that meiosis and fertilization directly produce many new",
+      "choices": [
+        "antigens",
+        "variations",
+        "species",
+        "pathogens"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A garlic bulb consisting of several smaller sections called cloves is shown below. Bulb Cloves Source: www.sparkpeople.com/resource/ nutrition_articlesasp?id=1791 If cloves are separated from the bulb and later planted in a garden, a new garlic bulb will grow from each. In this way, a home gardener could grow a whole crop of genetically identical garlic plants starting with one bulb. As a result of this procedure, the gardener would",
+      "choices": [
+        "soon have several varieties of garlic growing in his garden",
+        "need to buy new garlic cloves each year in order to keep growing garlic",
+        "have to fertilize the female garlic plants each year so the garlic plants could produce their own cloves",
+        "need to be aware that if any of his garlic plants became diseased, it could very likely infect the entire crop"
+      ],
+      "image": "/images/exams/living-environment/january-2019/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "When humans place grass clippings and other yard waste in land\ufb01 lls, they are most directly interfering with the natural process of",
+      "choices": [
+        "recycling energy",
+        "the production of energy",
+        "recycling organic compounds",
+        "the production of organic compounds"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which statement is an example of a feedback mechanism in humans?",
+      "choices": [
+        "An increase in the level of blood sugar results in the pancreas increasing the amount of insulin it secretes.",
+        "Increased exposure to pathogenic bacteria results in an increase in the number of red blood cells produced.",
+        "An increase in exercise results in a decrease in the rate of respiration.",
+        "Increased muscle activity results in a decrease in heart rate."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Many disorders are due to the inability of an individual to break down a particular chemical. Sometimes these disorders can be treated by giving the affected individual the appropriate",
+      "choices": [
+        "enzymes",
+        "antigens",
+        "chromosomes",
+        "organelles"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The removal of the predator populations from an ecosystem would most likely result in",
+      "choices": [
+        "a decrease in all the prey populations",
+        "an increase in all the producer populations",
+        "an increase in ecosystem diversity",
+        "a decrease in ecosystem diversity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Two new wind turbines have recently been built within the Eiffel Tower in Paris. The power that these turbines generate will be enough to power the entire \ufb01 rst \ufb02 oor of the tower, including the restaurants, shops, and exhibits. A bene\ufb01 t of using wind power as an alternative source of energy is that it",
+      "choices": [
+        "is nonrenewable, so additional resources will be depleted by tower businesses",
+        "is renewable, so it will decrease the environmental impact of the tower businesses",
+        "increases the use of resources that cannot be renewed in the future",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "In the photograph below, two \ufb01 sh are displaying a behavior commonly observed among pairs of rabbit\ufb01 sh. While one has its head down feeding on coral, the other remains upright, alert for predators. Source: NY Times 9/28/15 This behavior continues to be present in the rabbit\ufb01 sh population because",
+      "choices": [
+        "this behavior was learned by observing other \ufb01 sh species",
+        "both \ufb01 sh could not \ufb01 t into the small spaces in the coral",
+        "this behavior increases their chance of survival",
+        "the \ufb01 sh species needed to become alert to survive"
+      ],
+      "image": "/images/exams/living-environment/january-2019/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The fast food industry in the United States buys many russet potatoes from farmers. Therefore, most potato farmers grow russet potatoes. If farmers continue to plant the same crop in the same \ufb01 elds year after year without putting additives into the soil, the end result could be",
+      "choices": [
+        "smaller yields in future years due to the loss of nutrients",
+        "larger potatoes because they will adapt to the soil",
+        "new varieties of potatoes because they will reproduce sexually",
+        "genetically engineered potatoes that are resistant to disease"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "A corn \ufb01 eld includes corn plants, mice, hawks, and various insects, fungi, and bacteria. Which nutritional role is correctly paired with organisms that carry out that role?",
+      "choices": [
+        "heterotrophs \u2013 corn and bacteria",
+        "producers \u2013 insects and fungi",
+        "consumers \u2013 mice and insects",
+        "decomposers \u2013 hawks and bacteria"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Each female house\ufb02 y can lay approximately 500 eggs in a lifetime. She does this in several batches of about 75 to 150 eggs. Within a day, larvae (maggots) hatch from the eggs. They live and feed on organic material, such as garbage and feces. Scientists have calculated that a pair of \ufb02 ies beginning reproduction in April could be the ancestors of 191,010,000,000,000,000,000 \ufb02 ies by August. Source: http://www.publicdomainpictures.net/download- picture.php?adresar=10000&soubor+1-1220978631 q1uO.jpg&id+1137 Which statement best explains why this does not happen?",
+      "choices": [
+        "Mutations develop in the young \ufb02 ies.",
+        "Environmental factors keep the population in check.",
+        "Flies continue to reproduce in large numbers.",
+        "More female \ufb02 ies survive than male \ufb02"
+      ],
+      "image": "/images/exams/living-environment/january-2019/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which sequence best represents the levels of organization in a paramecium, a single-celled organism?",
+      "choices": [
+        "cells \u2014\u203a tissues \u2014\u203a organs \u2014\u203a organ systems \u2014\u203a organism",
+        "organelles \u2014\u203a organ systems \u2014\u203a organism",
+        "cells \u2014\u203a organs \u2014\u203a organ systems \u2014\u203a organism",
+        "organelles \u2014\u203a organism"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "More than 100 years ago, Earth\u2019s atmosphere contained about 280 parts per million (ppm) of carbon dioxide. It is predicted that by the year 2050, the level of carbon dioxide in the atmosphere could reach 700 ppm, greatly increasing Earth\u2019s temperature. It has been suggested that growing more green plants would help to slow this increase. The best explanation for why increased numbers of plants would help is that plants",
+      "choices": [
+        "serve as food for herbivores",
+        "serve as a nonrenewable energy resource",
+        "remove carbon dioxide from the atmosphere during respiration",
+        "remove carbon dioxide from the atmosphere during photosynthesis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The brown tree snake was accidentally introduced to the island of Guam during World War II. Since then, this snake has caused the extinction of twelve native bird species by eating their eggs and young. Source: www.aquariumlife.com.au One negative result of this snake\u2019s introduction was most likely",
+      "choices": [
+        "an increase in diversity as new species evolved to replace extinct species",
+        "an increase in mosquitoes due to an increase in bird species in the environment",
+        "a disruption of food chains and food webs in Guam\u2019s ecosystems",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2019/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which factor contributed least to the extinction of the passenger pigeon species?",
+      "choices": [
+        "laws that banned the hunting of passenger pigeons to sell in new markets",
+        "improved communication technology, which tracked the pigeon \ufb02 ocks",
+        "expansion of the railroads, which opened up new markets for selling pigeons",
+        "increased use of the passenger pigeons as a food source for humans"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 31 through 33 on the information below and on your knowledge of biology. \nThe Extinction of the Passenger Pigeon\nIn the early 1800s, the passenger pigeon was the most abundant bird species in North \nAmerica. These pigeons traveled in \ufb02 ocks sometimes larger than a billion birds. The \nenormous \ufb02 ock sizes helped protect them from predation by foxes, lynx, owls, and falcons. \nIt also helped them outcompete other animals (squirrels, chipmunks) for chestnuts and \nacorns, their main food source.\nUnfortunately, this \ufb02 ocking behavior made the passenger pigeons easy targets for the \npeople who killed them for food. The invention of the telegraph to broadcast \ufb02 ock locations \nto hunters and the expansion of the railroads to ship the pigeons to new food markets had \ndevastating results. By the 1890s, their numbers had dwindled dramatically, with \ufb02 ocks only \nnumbering in the hundreds. In 1914, the passenger pigeon became extinct when the last \nmember of the species died at the Cincinnati Zoo.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "A direct result of the rapid decline of the passenger pigeon population was most likely",
+      "choices": [
+        "an increase in owl and falcon populations",
+        "an increase in chipmunk and squirrel populations",
+        "a decrease in fox and chipmunk populations",
+        "a decrease in squirrel and chestnut tree populations"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 31 through 33 on the information below and on your knowledge of biology. \nThe Extinction of the Passenger Pigeon\nIn the early 1800s, the passenger pigeon was the most abundant bird species in North \nAmerica. These pigeons traveled in \ufb02 ocks sometimes larger than a billion birds. The \nenormous \ufb02 ock sizes helped protect them from predation by foxes, lynx, owls, and falcons. \nIt also helped them outcompete other animals (squirrels, chipmunks) for chestnuts and \nacorns, their main food source.\nUnfortunately, this \ufb02 ocking behavior made the passenger pigeons easy targets for the \npeople who killed them for food. The invention of the telegraph to broadcast \ufb02 ock locations \nto hunters and the expansion of the railroads to ship the pigeons to new food markets had \ndevastating results. By the 1890s, their numbers had dwindled dramatically, with \ufb02 ocks only \nnumbering in the hundreds. In 1914, the passenger pigeon became extinct when the last \nmember of the species died at the Cincinnati Zoo.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The extinction of the passenger pigeon illustrates that",
+      "choices": [
+        "humans are the only cause of species extinctions",
+        "it takes hundreds of years for a species extinction",
+        "the bene\ufb01 ts of technology always outweigh the ecological risks",
+        "human activities can irreversibly affect ecosystems"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 31 through 33 on the information below and on your knowledge of biology. \nThe Extinction of the Passenger Pigeon\nIn the early 1800s, the passenger pigeon was the most abundant bird species in North \nAmerica. These pigeons traveled in \ufb02 ocks sometimes larger than a billion birds. The \nenormous \ufb02 ock sizes helped protect them from predation by foxes, lynx, owls, and falcons. \nIt also helped them outcompete other animals (squirrels, chipmunks) for chestnuts and \nacorns, their main food source.\nUnfortunately, this \ufb02 ocking behavior made the passenger pigeons easy targets for the \npeople who killed them for food. The invention of the telegraph to broadcast \ufb02 ock locations \nto hunters and the expansion of the railroads to ship the pigeons to new food markets had \ndevastating results. By the 1890s, their numbers had dwindled dramatically, with \ufb02 ocks only \nnumbering in the hundreds. In 1914, the passenger pigeon became extinct when the last \nmember of the species died at the Cincinnati Zoo.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "After 24 hours, the results represented by the diagram demonstrate",
+      "choices": [
+        "which of these antibiotics most effectively stopped bacterial growth",
+        "the nutrient source that resulted in the most bacterial growth",
+        "whether the bacteria were resistant to most antibiotics or not",
+        "that these bacteria were harmful to antibiotics"
+      ],
+      "image": "/images/exams/living-environment/january-2019/context_34_35.png",
+      "context": "Base your answers to questions 34 and 35 on the information and diagram below and on your knowledge of \nbiology.\nTo study how bacteria respond to antibiotics, four paper discs, three treated with \ndifferent antibiotics and one treated with water, were placed on a nutrient source with \nbacteria and left for 24 hours. The water and the antibiotics on the discs diffused into the \nnutrient source. If the antibiotic stopped the bacteria from growing, a circular area of no \nbacterial growth around the discs could be seen.\n24 Hours\nDisc with\nwater\nDiscs with\ndifferent antibiotics\nNo bacterial\ngrowth\nBacterial\ngrowth\nNutrient source \nwith bacteria",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "In this experiment, the purpose of using a disc treated with water is that it",
+      "choices": [
+        "serves as the conclusion for the experiment",
+        "is needed to provide additional moisture",
+        "serves as a control for the experiment",
+        "is needed as a standard safety procedure"
+      ],
+      "image": "/images/exams/living-environment/january-2019/context_34_35.png",
+      "context": "Base your answers to questions 34 and 35 on the information and diagram below and on your knowledge of \nbiology.\nTo study how bacteria respond to antibiotics, four paper discs, three treated with \ndifferent antibiotics and one treated with water, were placed on a nutrient source with \nbacteria and left for 24 hours. The water and the antibiotics on the discs diffused into the \nnutrient source. If the antibiotic stopped the bacteria from growing, a circular area of no \nbacterial growth around the discs could be seen.\n24 Hours\nDisc with\nwater\nDiscs with\ndifferent antibiotics\nNo bacterial\ngrowth\nBacterial\ngrowth\nNutrient source \nwith bacteria",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The diagram below represents some stages in the process of development. 1 2 3 4 5 6 7 8 Stage 2 represents a cell that",
+      "choices": [
+        "contains half the genetic material of an adult cell",
+        "shows clear evidence of tissue differentiation",
+        "has the complete genetic information to form an adult",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2019/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The table below shows the results of a study on the lifespan of 115 individual song sparrows. Song Sparrow Lifespan Year Number at Start of Year Number at End of Year 1 115 25 2 25 19 3 19 12 4 12 2 5 2 1 6 1 0 The two most likely factors contributing to the decline in the number of these 115 sparrows during year 1 were",
+      "choices": [
+        "favorable climate and a rapid reproduction rate",
+        "lack of predators and an expanding habitat",
+        "lack of mating and loss of nesting sites",
+        "disease and predation"
+      ],
+      "image": "/images/exams/living-environment/january-2019/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The diagnostic test for HIV, the virus that causes AIDS, involves testing the blood for antibodies associated with this pathogen. Antibodies are produced when the body",
+      "choices": [
+        "stimulates enzyme production",
+        "secretes speci\ufb01 c hormones",
+        "detects foreign antigens",
+        "synthesizes microbes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Body cells include nerve cells and muscle cells. Each makes a number of different proteins. For example, nerve cells make cholinesterase and muscle cells make myosin. Which statement best compares the DNA normally found in these two types of cells in an individual?",
+      "choices": [
+        "The two cells have identical DNA sequences and use the same section of the DNA to make these two proteins.",
+        "The two cells have identical DNA sequences, but use different sections of the DNA to make these two proteins.",
+        "The two cells have different DNA sequences, but use the same section of the DNA to make these two proteins.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The chart below compares the greenhouse gas emissions of several fuel sources. Source: Adapted from http://energy.itgoverns.com Greenhouse Gas Emissions of Fuel and Energy Sources Greenhouse Gas Emissions Fuel Gasoline Corn Ethanol Sugarcane Ethanol Cellulosic Ethanol Energy Source Fossil Fuels Biomass Biomass Biomass An accurate prediction that could be made regarding the information shown in the chart is that",
+      "choices": [
+        "a total change from gasoline to ethanol as a fuel would have no effect on greenhouse gas emissions",
+        "fossil fuels emit the least amount of greenhouse gases",
+        "the use of any one of the ethanol sources for fuel will each produce less greenhouse gases than the use of gasoline for fuel",
+        "the use of biomass-based fuels instead of fossil fuels will greatly increase the production of greenhouse gases"
+      ],
+      "image": "/images/exams/living-environment/january-2019/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Studies have shown that children are especially vulnerable to the effects of ultraviolet (UV) radiation. Tanning beds expose the skin to nearly ten times as much UV radiation as natural sunlight. With that knowledge, a law was passed in New York State to prevent individuals under the age of 18 from using tanning beds. Which statement best explains why UV radiation is so harmful?",
+      "choices": [
+        "Certain environmental factors can increase the occurrence of harmful gene mutations.",
+        "Diseases are all caused by exposure to environmental factors.",
+        "Homeostasis in an organism is increased by the presence of radiation.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The errors indicated by * could affect a cell by",
+      "choices": [
+        "altering the number of chromosomes present in the cytoplasm",
+        "converting the original cell into a different type of cell",
+        "converting sugar molecules into molecules of protein",
+        "changing the sequence of amino acids during the formation of a speci\ufb01 c protein"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 42 and 43 on the diagram below and on your knowledge of biology. The \ndiagram shows a small segment of DNA taken from a gene before and after it is copied. \nChanges made during the copying process are represented by * in the diagram.\nBefore\nAfter\nGTC CAT CAC CGG TAG TCG\n\u2014\u203a\nGTC CAT G*AC CGG TAG TCC*",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The process by which a cell copies its DNA before it divides is",
+      "choices": [
+        "mutation",
+        "diffusion",
+        "replication",
+        ""
+      ],
+      "image": null,
+      "context": "Base your answers to questions 42 and 43 on the diagram below and on your knowledge of biology. The \ndiagram shows a small segment of DNA taken from a gene before and after it is copied. \nChanges made during the copying process are represented by * in the diagram.\nBefore\nAfter\nGTC CAT CAC CGG TAG TCG\n\u2014\u203a\nGTC CAT G*AC CGG TAG TCC*",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your knowledge \nof biology.\nInvasive species have damaged agricultural crops all over the world. One study, \ncompleted in Japan, calculated the number of invasive insect species present in Japan from \n1880 to 1990. Some of the data are recorded in the table below.\nNumber of Invasive Insect Species per Decade\nYear\nNumber of Invasive Insect Species\n1880\n3\n1900\n3\n1920\n7\n1940\n10\n1960\n13\n1980\n41\n1990\n25\nAdapted from \u201cInvasive Insect Pests and Plant Quarantine.\u201d 1998\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201919 \n[13] \n[OVER]\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data on the grid. Connect the points and surround each point with a small circle. Example: Number of Invasive Insect Species Years Number of Invasive Insect Species per Decade",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your knowledge \nof biology.\nInvasive species have damaged agricultural crops all over the world. One study, \ncompleted in Japan, calculated the number of invasive insect species present in Japan from \n1880 to 1990. Some of the data are recorded in the table below.\nNumber of Invasive Insect Species per Decade\nYear\nNumber of Invasive Insect Species\n1880\n3\n1900\n3\n1920\n7\n1940\n10\n1960\n13\n1980\n41\n1990\n25\nAdapted from \u201cInvasive Insect Pests and Plant Quarantine.\u201d 1998\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201919 \n[13] \n[OVER]\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "State one reason why invasive insect species are a major problem for agriculture.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your knowledge \nof biology.\nInvasive species have damaged agricultural crops all over the world. One study, \ncompleted in Japan, calculated the number of invasive insect species present in Japan from \n1880 to 1990. Some of the data are recorded in the table below.\nNumber of Invasive Insect Species per Decade\nYear\nNumber of Invasive Insect Species\n1880\n3\n1900\n3\n1920\n7\n1940\n10\n1960\n13\n1980\n41\n1990\n25\nAdapted from \u201cInvasive Insect Pests and Plant Quarantine.\u201d 1998\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201919 \n[13] \n[OVER]\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "In the last decade of this study, there was a decrease in the number of invasive insects that entered Japan. One likely reason for this decrease is that people have",
+      "choices": [
+        "produced insecticides that are strong enough to kill every insect that is present in crops going from one country to another",
+        "improved inspections of crops that are transported from one area of the world to another area of the world",
+        "genetically altered all insects so they don\u2019t feed on crops that humans use",
+        "stopped the transportation of all food crops from other countries,"
+      ],
+      "image": "/images/exams/living-environment/january-2019/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your knowledge \nof biology.\nInvasive species have damaged agricultural crops all over the world. One study, \ncompleted in Japan, calculated the number of invasive insect species present in Japan from \n1880 to 1990. Some of the data are recorded in the table below.\nNumber of Invasive Insect Species per Decade\nYear\nNumber of Invasive Insect Species\n1880\n3\n1900\n3\n1920\n7\n1940\n10\n1960\n13\n1980\n41\n1990\n25\nAdapted from \u201cInvasive Insect Pests and Plant Quarantine.\u201d 1998\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201919 \n[13] \n[OVER]\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "A double-stranded DNA sample was analyzed to establish the percentage of different molecular bases present. The data table below shows the percentage of adenine bases found. Calculate the percentage of each of the three remaining molecular bases, and write the percentages of each in the chart. Base Percent Found (%) A (Adenine) 20 T (Thymine) \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 G (Guanine) \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 C (Cytosine) \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/q48.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which row in the chart below correctly identi\ufb01 es the structure labeled Y in both diagrams and the process it performs? Row Structure Process",
+      "choices": [
+        "mitochondrion excretion",
+        "nucleus regulation",
+        "chloroplast photosynthesis",
+        "ribosome protein synthesis"
+      ],
+      "image": "/images/exams/living-environment/january-2019/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the information and diagram below and on your knowledge of \nbiology.\nAn investigation was conducted to compare two different types of plants. A student used \na microscope to observe the cells in a cross section of a lilac leaf (diagram A) and a cell from \nthe leaf of a freshwater plant (diagram B).\nY\nDiagram A\nDiagram B\nX\nY\n(Not drawn to scale)\n\n Living Environment\u2013Jan. \u201919 \n[15] \n[OVER]\n \nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which technique could be used to make the structures in the cells more visible when using a compound light microscope?",
+      "choices": [
+        "paper chromatography",
+        "staining",
+        "electrophoresis",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2019/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the information and diagram below and on your knowledge of \nbiology.\nAn investigation was conducted to compare two different types of plants. A student used \na microscope to observe the cells in a cross section of a lilac leaf (diagram A) and a cell from \nthe leaf of a freshwater plant (diagram B).\nY\nDiagram A\nDiagram B\nX\nY\n(Not drawn to scale)\n\n Living Environment\u2013Jan. \u201919 \n[15] \n[OVER]\n \nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify a speci\ufb01 c technique used to produce the GMO tomatoes.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the information and photograph below and on your knowl-\nedge of biology.\nTransgenic (GMO) Tomatoes\nThe use of pesticides to control insects costs billions of dollars every year. Genetically \nmodi\ufb01 ed organisms (GMOs) are an attempt to reduce this cost. Tomato plants that are \ngenetically modi\ufb01 ed can make proteins that are poisonous to the insects that feed on them. \nUsing these GMO tomatoes would reduce the need for the chemical control of insects.\nSource: www.southeastfarmpress.com",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "State one possible advantage of having tomato plants that make proteins that are poisonous to insects.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the information and photograph below and on your knowl-\nedge of biology.\nTransgenic (GMO) Tomatoes\nThe use of pesticides to control insects costs billions of dollars every year. Genetically \nmodi\ufb01 ed organisms (GMOs) are an attempt to reduce this cost. Tomato plants that are \ngenetically modi\ufb01 ed can make proteins that are poisonous to the insects that feed on them. \nUsing these GMO tomatoes would reduce the need for the chemical control of insects.\nSource: www.southeastfarmpress.com",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Identify the type of chemical substance a scientist would need to use to cut and paste the genes to produce genetically modi\ufb01 ed tomato plants.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the information and photograph below and on your knowl-\nedge of biology.\nTransgenic (GMO) Tomatoes\nThe use of pesticides to control insects costs billions of dollars every year. Genetically \nmodi\ufb01 ed organisms (GMOs) are an attempt to reduce this cost. Tomato plants that are \ngenetically modi\ufb01 ed can make proteins that are poisonous to the insects that feed on them. \nUsing these GMO tomatoes would reduce the need for the chemical control of insects.\nSource: www.southeastfarmpress.com",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the process responsible for passing the gene for insect resistance in a leaf cell of a genetically modi\ufb01",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the information and photograph below and on your knowl-\nedge of biology.\nTransgenic (GMO) Tomatoes\nThe use of pesticides to control insects costs billions of dollars every year. Genetically \nmodi\ufb01 ed organisms (GMOs) are an attempt to reduce this cost. Tomato plants that are \ngenetically modi\ufb01 ed can make proteins that are poisonous to the insects that feed on them. \nUsing these GMO tomatoes would reduce the need for the chemical control of insects.\nSource: www.southeastfarmpress.com",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "55",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/q55.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify which group of organisms in this food web would contain the greatest amount of stored energy. Support your answer. Organisms: Support:",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_56_58.png",
+      "context": "Base your answers to questions 56 through 58 on the food web represented below and on your knowledge of \nbiology. The food web contains some of the organisms found in Glacier National Park.\nSource: www.nps.gov\nGlacier National Park Food Web\nSun\u2019s energy\nPlants, seeds, needles,\nand leaf litter\nSpruce\ngrouses\nRed foxes\nWeasels\nMice\nShrews\nSpiders\nBeetles",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Explain why a major increase in the number of cloudy days that extends over a period of years would be expected to affect the populations of both plants and animals in this ecosystem.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_56_58.png",
+      "context": "Base your answers to questions 56 through 58 on the food web represented below and on your knowledge of \nbiology. The food web contains some of the organisms found in Glacier National Park.\nSource: www.nps.gov\nGlacier National Park Food Web\nSun\u2019s energy\nPlants, seeds, needles,\nand leaf litter\nSpruce\ngrouses\nRed foxes\nWeasels\nMice\nShrews\nSpiders\nBeetles",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Describe how the niche of the mouse population differs from the niche of the shrew population in this ecosystem. Support your answer with information from the food web.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_56_58.png",
+      "context": "Base your answers to questions 56 through 58 on the food web represented below and on your knowledge of \nbiology. The food web contains some of the organisms found in Glacier National Park.\nSource: www.nps.gov\nGlacier National Park Food Web\nSun\u2019s energy\nPlants, seeds, needles,\nand leaf litter\nSpruce\ngrouses\nRed foxes\nWeasels\nMice\nShrews\nSpiders\nBeetles",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "In the space below, draw a molecule that would most likely be able to interact with this enzyme.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the diagram below and on your knowledge of biology. The \ndiagram represents a human enzyme.\nEnzyme",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Describe one role of enzymes in the human body.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the diagram below and on your knowledge of biology. The \ndiagram represents a human enzyme.\nEnzyme",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "A person has a high fever of 105\u00b0",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the diagram below and on your knowledge of biology. The \ndiagram represents a human enzyme.\nEnzyme",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Explain why such a long-term study is more likely to be accepted by Dr. Hadly\u2019s peers than one that took place over a shorter period of time.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the information and graph below and on your knowledge \nof biology.\nDr. Liz Hadly studied the ecology of Yellowstone National Park for 30 years, speci\ufb01 cally \nthe amphibians inhabiting the park for 20 of those years. Dr. Hadly studied 46 ponds in \n1992-1993. Of these, 43 supported amphibians. From 2006-2008, only 38 of the original \n46 ponds contained water. The graph below represents population data for four amphibian \nspecies collected by Dr. Hadly during 1992-1993 and 2006-2008.\nSource: Proceedings of NAS 105(44), 16988 -16993\nTiger\nSalamander\n0\n5\n10\n15\n20\n25\n30\nNumber of Populations Found\nWestern\nChorus Frog\nColumbia\nSpotted Frog\nWestern\nToad\nChanges in Four Yellowstone Amphibian Populations\n1992-1993\n2006-2008",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "63",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the information and graph below and on your knowledge \nof biology.\nDr. Liz Hadly studied the ecology of Yellowstone National Park for 30 years, speci\ufb01 cally \nthe amphibians inhabiting the park for 20 of those years. Dr. Hadly studied 46 ponds in \n1992-1993. Of these, 43 supported amphibians. From 2006-2008, only 38 of the original \n46 ponds contained water. The graph below represents population data for four amphibian \nspecies collected by Dr. Hadly during 1992-1993 and 2006-2008.\nSource: Proceedings of NAS 105(44), 16988 -16993\nTiger\nSalamander\n0\n5\n10\n15\n20\n25\n30\nNumber of Populations Found\nWestern\nChorus Frog\nColumbia\nSpotted Frog\nWestern\nToad\nChanges in Four Yellowstone Amphibian Populations\n1992-1993\n2006-2008",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Explain how global warming could have affected Yellowstone frog and salamander habitats, resulting in changes in the populations of these species.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the information and graph below and on your knowledge \nof biology.\nDr. Liz Hadly studied the ecology of Yellowstone National Park for 30 years, speci\ufb01 cally \nthe amphibians inhabiting the park for 20 of those years. Dr. Hadly studied 46 ponds in \n1992-1993. Of these, 43 supported amphibians. From 2006-2008, only 38 of the original \n46 ponds contained water. The graph below represents population data for four amphibian \nspecies collected by Dr. Hadly during 1992-1993 and 2006-2008.\nSource: Proceedings of NAS 105(44), 16988 -16993\nTiger\nSalamander\n0\n5\n10\n15\n20\n25\n30\nNumber of Populations Found\nWestern\nChorus Frog\nColumbia\nSpotted Frog\nWestern\nToad\nChanges in Four Yellowstone Amphibian Populations\n1992-1993\n2006-2008",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 65\u201367 on the information below and on your knowledge of biology.\nInformation From the Cat Gene Database\nA database is being used to trace the evolutionary history of wild and domestic cats. \nComparisons show that there are very few differences between the genes present in \ndomestic cats and the genes present in wild cats, such as tigers and lions. Research has also \nshown that wild cats and domestic cats last shared a common ancestor about 11 million years \nago. Since then, there has been very little change in the entire cat genome (the complete \nset of genes for all the species). This indicates that the cats are well-adapted to change. Yet, \nthere are some important differences.\nBig cats share about 1,376 genes that set them apart from other animals. These genes \nare related to muscle strength and the ability to digest protein. In addition, there are genes \nthat have been found in speci\ufb01 c cats that live in speci\ufb01 c environments. Genes related to \nsmell, visual perception, and nerve development are evolving rapidly in Siberian tigers. \nSnow leopards have three mutations related to the use of oxygen at high altitudes. The \ndatabase is also being used to study diversity within various cat species.\n 65\u201367 Discuss the importance of establishing a genome database for a cat species. In your answer, be sure to:\n \n\u2022 state one example of a genetic variation that is important for the survival of one speci\ufb01 c cat species   [1]\n \n\u2022 identify a speci\ufb01 c technique that can be used to analyze the genomes of organisms and explain how the \nresults are used   [1]\n \n\u2022 explain how genes for a trait, such as a speci\ufb01 c fur color, can increase in frequency in a population over \ntime   [1]\n\n Living Environment\u2013Jan. \u201919 \n[22]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "65\u201367 Discuss the importance of establishing a genome database for a cat species. In your answer, be sure to: \u2022 state one example of a genetic variation that is important for the survival of one speci\ufb01 c cat species \u2022 identify a speci\ufb01 c technique that can be used to analyze the genomes of organisms and explain how the results are used \u2022 explain how genes for a trait, such as a speci\ufb01 c fur color,",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 65\u201367 on the information below and on your knowledge of biology.\nInformation From the Cat Gene Database\nA database is being used to trace the evolutionary history of wild and domestic cats. \nComparisons show that there are very few differences between the genes present in \ndomestic cats and the genes present in wild cats, such as tigers and lions. Research has also \nshown that wild cats and domestic cats last shared a common ancestor about 11 million years \nago. Since then, there has been very little change in the entire cat genome (the complete \nset of genes for all the species). This indicates that the cats are well-adapted to change. Yet, \nthere are some important differences.\nBig cats share about 1,376 genes that set them apart from other animals. These genes \nare related to muscle strength and the ability to digest protein. In addition, there are genes \nthat have been found in speci\ufb01 c cats that live in speci\ufb01 c environments. Genes related to \nsmell, visual perception, and nerve development are evolving rapidly in Siberian tigers. \nSnow leopards have three mutations related to the use of oxygen at high altitudes. The \ndatabase is also being used to study diversity within various cat species.\n 65\u201367 Discuss the importance of establishing a genome database for a cat species. In your answer, be sure to:\n \n\u2022 state one example of a genetic variation that is important for the survival of one speci\ufb01 c cat species   [1]\n \n\u2022 identify a speci\ufb01 c technique that can be used to analyze the genomes of organisms and explain how the \nresults are used   [1]\n \n\u2022 explain how genes for a trait, such as a speci\ufb01 c fur color, can increase in frequency in a population over \ntime   [1]\n\n Living Environment\u2013Jan. \u201919 \n[22]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Describe one way the immune system could respond when it is exposed to the genetically altered Bacillus subtilis.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 68 through 70 on the passage below and on your knowledge of biology.\nHere, Eat This Vaccine\nMunching on bacteria could be a good way to stimulate your immune system. Biologist \nSimon Cutting of the Royal Holloway University of London has transformed bacterial \nspores into an edible vaccine. He and his collaborators genetically altered the common \nbacterium Bacillus subtilis so that it produced harmless fragments of the toxin produced by \ntetanus. Then his team starved the bacterium so that it turned into a spore \u2014 a desiccated \n[dehydrated] packet tough enough to survive a trip through the digestive tract and into the \nbloodstream. Most of the mice that inhaled or ate the modi\ufb01 ed spores were then able to \nsurvive a lethal dose of tetanus.\n\u201cWe selected tetanus because the immunology regarding this disease is well understood,\u201d \nCutting says. But engineered bacteria could be similarly tailored to train the immune system \nto \ufb01 ght anthrax, traveler\u2019s diarrhea, and other illnesses. Edible vaccines would eliminate the \nneed for needles and sterilizing equipment. Moreover, spores can withstand extreme heat \nand dryness, remaining viable [alive] for thousands of years. Cutting plans to start clinical \ntrials in about two years. If the results measure up, spore vaccines could slash the cost of \nimmunization programs, especially in poor countries where refrigeration is unreliable and \ntransportation can be slow.\nSource: http://discovermagazine.com/2003/aug/breakeat/\nHere, Eat This Vaccine, by Zara Herskovits August 1, 2003",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Will individuals who have taken the vaccine be protected against future tetanus infections? Support your answer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 68 through 70 on the passage below and on your knowledge of biology.\nHere, Eat This Vaccine\nMunching on bacteria could be a good way to stimulate your immune system. Biologist \nSimon Cutting of the Royal Holloway University of London has transformed bacterial \nspores into an edible vaccine. He and his collaborators genetically altered the common \nbacterium Bacillus subtilis so that it produced harmless fragments of the toxin produced by \ntetanus. Then his team starved the bacterium so that it turned into a spore \u2014 a desiccated \n[dehydrated] packet tough enough to survive a trip through the digestive tract and into the \nbloodstream. Most of the mice that inhaled or ate the modi\ufb01 ed spores were then able to \nsurvive a lethal dose of tetanus.\n\u201cWe selected tetanus because the immunology regarding this disease is well understood,\u201d \nCutting says. But engineered bacteria could be similarly tailored to train the immune system \nto \ufb01 ght anthrax, traveler\u2019s diarrhea, and other illnesses. Edible vaccines would eliminate the \nneed for needles and sterilizing equipment. Moreover, spores can withstand extreme heat \nand dryness, remaining viable [alive] for thousands of years. Cutting plans to start clinical \ntrials in about two years. If the results measure up, spore vaccines could slash the cost of \nimmunization programs, especially in poor countries where refrigeration is unreliable and \ntransportation can be slow.\nSource: http://discovermagazine.com/2003/aug/breakeat/\nHere, Eat This Vaccine, by Zara Herskovits August 1, 2003",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State one advantage of using edible modi\ufb01",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 68 through 70 on the passage below and on your knowledge of biology.\nHere, Eat This Vaccine\nMunching on bacteria could be a good way to stimulate your immune system. Biologist \nSimon Cutting of the Royal Holloway University of London has transformed bacterial \nspores into an edible vaccine. He and his collaborators genetically altered the common \nbacterium Bacillus subtilis so that it produced harmless fragments of the toxin produced by \ntetanus. Then his team starved the bacterium so that it turned into a spore \u2014 a desiccated \n[dehydrated] packet tough enough to survive a trip through the digestive tract and into the \nbloodstream. Most of the mice that inhaled or ate the modi\ufb01 ed spores were then able to \nsurvive a lethal dose of tetanus.\n\u201cWe selected tetanus because the immunology regarding this disease is well understood,\u201d \nCutting says. But engineered bacteria could be similarly tailored to train the immune system \nto \ufb01 ght anthrax, traveler\u2019s diarrhea, and other illnesses. Edible vaccines would eliminate the \nneed for needles and sterilizing equipment. Moreover, spores can withstand extreme heat \nand dryness, remaining viable [alive] for thousands of years. Cutting plans to start clinical \ntrials in about two years. If the results measure up, spore vaccines could slash the cost of \nimmunization programs, especially in poor countries where refrigeration is unreliable and \ntransportation can be slow.\nSource: http://discovermagazine.com/2003/aug/breakeat/\nHere, Eat This Vaccine, by Zara Herskovits August 1, 2003",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Explain how the mammary glands contribute to the reproductive success of mammals.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 71 and 72 on the information below and on your knowledge of biology.\nReproductive Adaptations of Mammals\nMammals have unique reproductive adaptations that have contributed to their \nevolutionary success. One of the distinguishing characteristics of mammals is their mammary \nglands, which allow for the production of milk. Even the more primitive mammals, such as \nthe duck-billed platypus and the kangaroo, have some type of mammary glands. However, \nonly the placental mammals (e.g. humans, horses, dogs) have a placenta, which supports the \ninternal development of the embryo. The most primitive mammals have no placenta and \ncan\u2019t support the internal development of the embryo.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Describe one function of the placenta found in mammals such as humans, horses,",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 71 and 72 on the information below and on your knowledge of biology.\nReproductive Adaptations of Mammals\nMammals have unique reproductive adaptations that have contributed to their \nevolutionary success. One of the distinguishing characteristics of mammals is their mammary \nglands, which allow for the production of milk. Even the more primitive mammals, such as \nthe duck-billed platypus and the kangaroo, have some type of mammary glands. However, \nonly the placental mammals (e.g. humans, horses, dogs) have a placenta, which supports the \ninternal development of the embryo. The most primitive mammals have no placenta and \ncan\u2019t support the internal development of the embryo.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "A procedure used in paper chromatography is represented below: Source: www.sciencebuddies.org/ sciencefair The student is preparing two strips of paper for a chromatography activity. After adding a dot of the ink from the marker pen to the line on the paper on the right, the next step should be to place the strips in a beaker of solvent with the solvent level",
+      "choices": [
+        "between the bottom of the paper and the dot of ink",
+        "even with the dot of ink on the paper",
+        "just below the bottom edge of the paper",
+        "slightly above the dot of ink on the paper"
+      ],
+      "image": "/images/exams/living-environment/january-2019/q73.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "Based on these results, it can be concluded that the speci\ufb01 c protein that was added to the samples was",
+      "choices": [
+        "a salt solution",
+        "a new indicator",
+        "a pancreatic hormone",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2019/context_74_74.png",
+      "context": "Base your answer to question 74 on the information below and on your knowledge of biology.\nSome students tested two samples of a mixture of starch and water with two different \nindicators. The results of these tests are shown in Table 1 below.\nTable 1: Results of Testing a Starch-Water Solution with Indicators.\nIndicator Used\nColor of\nIndicator Alone\nSample\nBeing Tested\nColor of Sample After\nIndicator Was Added\nstarch indicator\namber\nstarch and water\nblack\nglucose\nindicator + heat\nblue\nstarch and water\nblue\nNext, a speci\ufb01 c protein was added to two new samples of the starch and water mixture. \nAfter waiting 30 minutes, the students tested these samples with the same two indicator \nsolutions. The results are shown in Table 2 below.\nTable 2: Results of Testing a Starch-Water Solution with \nIndicators 30 Minutes After Adding a Certain Protein\nIndicator Used\nColor of\nIndicator Alone\nSample\nBeing Tested\nColor of Sample After\nIndicator Was Added\nstarch indicator\namber\nstarch and water\namber\nglucose\nindicator + heat\nblue\nstarch and water\nbrick red",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "Which statement best describes solution C?",
+      "choices": [
+        "The concentration of dissolved salt in the solution is greater than the concentration in the cells.",
+        "The concentration of dissolved salt in the solution is less than the concentration in the cells.",
+        "The concentration of water in the solution is greater than the concentration in the cells.",
+        "The concentration of water in the solution is equal to the concentration in the cells."
+      ],
+      "image": "/images/exams/living-environment/january-2019/context_75_76.png",
+      "context": "Base your answers to questions 75 and 76 on the information and diagram below and on your knowledge \nof biology. The diagram represents red blood cells placed in three test tubes, each containing a different salt \nsolution.\nSource: users.rcn.com\nSolution A\nCell contents\nCell bursting\nSolution B\nSolution C\nCell shrinking\n \nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "Which solution would be most similar in concentration to the normal internal environment of the human circulatory system?",
+      "choices": [
+        "solution A, only",
+        "solution B, only",
+        "solutions A and B",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2019/context_75_76.png",
+      "context": "Base your answers to questions 75 and 76 on the information and diagram below and on your knowledge \nof biology. The diagram represents red blood cells placed in three test tubes, each containing a different salt \nsolution.\nSource: users.rcn.com\nSolution A\nCell contents\nCell bursting\nSolution B\nSolution C\nCell shrinking\n \nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Predict how the average beak thickness would be expected to change after 1985 if there were eight very dry years in a row. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_77_78.png",
+      "context": "Base your answers to questions 77 and 78 on the information and graph below and on your knowledge of \nbiology.\nA species of bird lives on an island. Beak thickness varies within the population. The \nbirds feed mainly on seeds. Birds with smaller beaks can eat only small seeds. Only birds \nwith larger beaks are able to crush and eat large seeds.\nDuring years with more rain, small seeds are abundant. During dry years, there are very \nfew small seeds, but there are many large seeds.\nSource: mdk12.org/assessments\nAverage Beak Thickness\nAverage Beak Thickness (mm)\n10.0\n9.8\n9.6\n9.4\n9.2\n9.0\nN\nD\nD\nN\nN\nW\nN\n1979\n1980\n1981\n1982\n1983\n1984\n1985\nYear\nKey\nN = year with normal rainfall\nW = year with above-normal rainfall (wet)\nD = year with below-normal rainfall (dry)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "State one speci\ufb01 c advantage for this bird species to have members of this population with beaks that range from approximately 9.4 mm to 9.9",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_77_78.png",
+      "context": "Base your answers to questions 77 and 78 on the information and graph below and on your knowledge of \nbiology.\nA species of bird lives on an island. Beak thickness varies within the population. The \nbirds feed mainly on seeds. Birds with smaller beaks can eat only small seeds. Only birds \nwith larger beaks are able to crush and eat large seeds.\nDuring years with more rain, small seeds are abundant. During dry years, there are very \nfew small seeds, but there are many large seeds.\nSource: mdk12.org/assessments\nAverage Beak Thickness\nAverage Beak Thickness (mm)\n10.0\n9.8\n9.6\n9.4\n9.2\n9.0\nN\nD\nD\nN\nN\nW\nN\n1979\n1980\n1981\n1982\n1983\n1984\n1985\nYear\nKey\nN = year with normal rainfall\nW = year with above-normal rainfall (wet)\nD = year with below-normal rainfall (dry)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify one biotic factor that can affect the survival of a \ufb01 nch population in the Galapagos Islands.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "During a laboratory activity, students ran in place for three minutes. Students then complained of muscle fatigue in their legs. State one biological reason why the students experienced muscle fatigue after exercising.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "A student is viewing a plant stem cross section using a compound light microscope. A C D E F I I I I I I I I I I I I B What parts of the microscope should the student use to bring the image into focus?",
+      "choices": [
+        "A and F",
+        "B and E",
+        "C and D",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2019/q81.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "A rare tropical plant was found to have medicinal properties. A search was conducted to \ufb01 nd other plants that are closely related to the rare plant. Which combination of characteristics would best identify the plant most closely related to the original one?",
+      "choices": [
+        "shape of seeds, number of \ufb02 ower petals, leaf pigments",
+        "number of \ufb02 ower petals, positive reaction to a speci\ufb01 c enzyme",
+        "leaf pigments, sequence of DNA bases, positive reaction to a speci\ufb01 c enzyme",
+        "presence of DNA bases, internal stem structure, shape of seeds"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "The diagram below represents three branching diagrams that show relationships between three different species, X, Y, and Z. X Y Z A X Y Z B X Z Y C X Y Z D On the line below, write the letter of the diagram that shows that X and Y are more closely related to each other than to species Z. Explain why that diagram indicates a close relationship. Diagram: Explanation:",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/q83.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Would you expect the crown-giant and trunk-ground anoles to compete for resources if they lived on the same tree? Circle yes or no and support your answer with an explanation. Circle one: Yes or No Explanation:",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2019/context_84_84.png",
+      "context": "Base your answer to question 84 on the information below and on your knowledge of biology.\nAnoles are a diverse group of lizards that live on several islands including Cuba, \nHispaniola, Jamaica, and Puerto Rico. Large populations of several species exist on these \nislands. The preferred region of the tree inhabited by the six species of anole lizards is \nrepresented in the diagram below.\nSource: Adapted from Losos,jb,2010\nTwig\nCrown-Giant \nTrunk-Crown \nTrunk\nTrunk-Ground \nGrass-Bush\nIsland Anoles",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 85 on the information below and on your knowledge of biology.\nA class carried out an experiment to test the effect of rest time after exercise on the \nbreathing rate. Each member of the class ran up and down stairs for 60 seconds. After \nexercising, they rested. The students then measured their rate of respiration by counting \nthe number of inhales and exhales per minute for 7 minutes. The class then averaged their \ndata.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -50,8 +50,7 @@ export default {
       text: 'Is the sum of √23 and 5 rational or irrational? Explain your answer.',
       explanation: 'The sum is irrational because √23 is irrational and adding a rational number (5) to an irrational number always produces an irrational result.',
       diveDeep: 'A rational number can be expressed as the ratio of two integers. √23 is irrational because 23 is not a perfect square, so its square root cannot be written as a fraction. When you add a rational number to an irrational number, the result is always irrational — because if the sum were rational, subtracting the rational part would make √23 rational, a contradiction. This "rational + irrational = irrational" rule is a standard justification expected on the Regents.',
-      modelAnswer: 'Step 1: Identify the nature of each addend.\n  • 5 is rational (it equals 5/1).\n  • √23 is irrational (23 is not a perfect square).\nStep 2: Apply the rule — rational + irrational = irrational.\nConclusion: The sum √23 + 5 is irrational.',
-    },
+      modelAnswer: 'Step 1: Identify the nature of each addend.\n  • 5 is rational (it equals 5/1).\n  • √23 is irrational (23 is not a perfect square).\nStep 2: Apply the rule — rational + irrational = irrational.\nConclusion: The sum √23 + 5 is irrational.', image: '/images/exams/alg1-august-2025/q26.png' },
     {
       number: 27,
       part: 'B',
@@ -60,8 +59,7 @@ export default {
       text: 'Graph h(x) = |x − 2| over the domain −4 ≤ x ≤ 4.',
       explanation: 'The graph is a V-shape with its vertex at (2, 0). For x < 2 the function equals −(x − 2) = −x + 2 (falling left), and for x ≥ 2 it equals x − 2 (rising right), over the given domain.',
       diveDeep: 'An absolute value function y = |x − h| has its vertex at (h, 0) and opens upward in a symmetric V shape. The vertex of h(x) = |x − 2| is at x = 2, y = 0. To graph, plot the vertex, then compute a few points on each side: h(0) = 2, h(4) = 2, h(−4) = 6. A common mistake is placing the vertex at (−2, 0) instead of (2, 0) — always set the inside expression equal to zero to find the vertex x-value. Restrict the graph to the stated domain by placing closed endpoints at x = −4 and x = 4.',
-      modelAnswer: 'Step 1: Find the vertex by setting x − 2 = 0 → x = 2, y = 0. Vertex: (2, 0).\nStep 2: Build a table of values within the domain:\n  x = −4 → h(−4) = |−6| = 6\n  x = 0  → h(0)  = |−2| = 2\n  x = 2  → h(2)  = |0|  = 0\n  x = 4  → h(4)  = |2|  = 2\nStep 3: Plot points and connect with a V-shape, placing closed dots at (−4, 6) and (4, 2).',
-    },
+      modelAnswer: 'Step 1: Find the vertex by setting x − 2 = 0 → x = 2, y = 0. Vertex: (2, 0).\nStep 2: Build a table of values within the domain:\n  x = −4 → h(−4) = |−6| = 6\n  x = 0  → h(0)  = |−2| = 2\n  x = 2  → h(2)  = |0|  = 0\n  x = 4  → h(4)  = |2|  = 2\nStep 3: Plot points and connect with a V-shape, placing closed dots at (−4, 6) and (4, 2).', image: '/images/exams/alg1-august-2025/q27.png' },
     {
       number: 28,
       part: 'B',
@@ -70,8 +68,7 @@ export default {
       text: 'A survey was given to 180 cell phone owners about the brand of phone they owned. The results showed that 59 adults owned Brand B and 32 teenagers owned Brand A. Of all the people surveyed, 40% owned Brand A. Complete the two-way frequency table below.\n\n|           | Brand A | Brand B | Total |\n|-----------|---------|---------|-------|\n| Adults    |         |   59    |       |\n| Teenagers |   32    |         |       |\n| Total     |         |         |  180  |',
       explanation: 'First find the total Brand A owners: 40% × 180 = 72. Adult Brand A = 72 − 32 = 40. Adult total = 40 + 59 = 99. Teenager total = 180 − 99 = 81. Teenager Brand B = 81 − 32 = 49. Brand B total = 59 + 49 = 108.',
       diveDeep: 'Two-way frequency tables record counts for two categorical variables simultaneously. The key strategy is to fill in what you can compute directly from the given information before working out the remaining cells by subtraction. Start with the grand total (180) and any given percentages to find marginal totals, then use row and column sums to find interior cells. Always verify your answer by checking that every row and column adds up correctly — row totals and column totals must both sum to the grand total.',
-      modelAnswer: 'Step 1: Total Brand A = 40% × 180 = 72.\nStep 2: Adult Brand A = 72 − 32 = 40.\nStep 3: Adult total = 40 + 59 = 99.\nStep 4: Teenager total = 180 − 99 = 81.\nStep 5: Teenager Brand B = 81 − 32 = 49.\nStep 6: Brand B total = 59 + 49 = 108.\n\nCompleted table:\n|           | Brand A | Brand B | Total |\n|-----------|---------|---------|-------|\n| Adults    |   40    |   59    |  99   |\n| Teenagers |   32    |   49    |  81   |\n| Total     |   72    |  108    |  180  |',
-    },
+      modelAnswer: 'Step 1: Total Brand A = 40% × 180 = 72.\nStep 2: Adult Brand A = 72 − 32 = 40.\nStep 3: Adult total = 40 + 59 = 99.\nStep 4: Teenager total = 180 − 99 = 81.\nStep 5: Teenager Brand B = 81 − 32 = 49.\nStep 6: Brand B total = 59 + 49 = 108.\n\nCompleted table:\n|           | Brand A | Brand B | Total |\n|-----------|---------|---------|-------|\n| Adults    |   40    |   59    |  99   |\n| Teenagers |   32    |   49    |  81   |\n| Total     |   72    |  108    |  180  |', image: '/images/exams/alg1-august-2025/q28.png' },
     {
       number: 29,
       part: 'B',
@@ -100,8 +97,7 @@ export default {
       text: 'Graph f(x) = −⅓x² + 4 on the set of axes below.\n\nState the vertex of this function.\n\nState the equation of the axis of symmetry of this function.',
       explanation: 'The parabola opens downward with vertex at (0, 4) and axis of symmetry x = 0. Plot points at x = −3 (f = 1), x = 0 (f = 4), x = 3 (f = 1) and connect with a smooth curve.',
       diveDeep: 'The function f(x) = −⅓x² + 4 is in vertex form y = a(x − h)² + k with h = 0 and k = 4, so the vertex is (0, 4) and the axis of symmetry is x = 0 (the y-axis). The negative coefficient a = −⅓ means the parabola opens downward and is wider than the standard y = x². Evaluate at several x-values — especially x = ±3 where the fraction simplifies nicely — to get accurate plotted points. A common error is treating the "−⅓" as negligible and drawing too narrow a parabola.',
-      modelAnswer: 'Step 1: Identify the form — f(x) = −⅓x² + 4 = −⅓(x − 0)² + 4.\n  Vertex: (0, 4).  Axis of symmetry: x = 0.\nStep 2: Build a table of values:\n  x = −6 → f = −⅓(36) + 4 = −12 + 4 = −8\n  x = −3 → f = −⅓(9) + 4 = −3 + 4 = 1\n  x =  0 → f = 0 + 4 = 4\n  x =  3 → f = −3 + 4 = 1\n  x =  6 → f = −8\nStep 3: Plot points and draw a smooth downward-opening parabola.\nVertex: (0, 4).  Axis of symmetry: x = 0.',
-    },
+      modelAnswer: 'Step 1: Identify the form — f(x) = −⅓x² + 4 = −⅓(x − 0)² + 4.\n  Vertex: (0, 4).  Axis of symmetry: x = 0.\nStep 2: Build a table of values:\n  x = −6 → f = −⅓(36) + 4 = −12 + 4 = −8\n  x = −3 → f = −⅓(9) + 4 = −3 + 4 = 1\n  x =  0 → f = 0 + 4 = 4\n  x =  3 → f = −3 + 4 = 1\n  x =  6 → f = −8\nStep 3: Plot points and draw a smooth downward-opening parabola.\nVertex: (0, 4).  Axis of symmetry: x = 0.', image: '/images/exams/alg1-august-2025/q31.png' },
     {
       number: 32,
       part: 'B',
@@ -122,8 +118,7 @@ export default {
       text: 'Graph the following system of inequalities on the set of axes below.\n\n  x ≥ −3\n  y ≥ −½y − 2x < 5\n\nActual system:\n  x ≥ −3\n  y ≥ −½\n  y − 2x < 5\n\nState the coordinates of a point that is in the solution to this system. Justify your answer.',
       explanation: 'Graph x = −3 (vertical solid line, shade right), y = −½ (horizontal solid line, shade up), and y = 2x + 5 (dashed line, shade below). The solution region is the overlap. A point such as (0, 0) lies in the solution.',
       diveDeep: 'Graphing a system of inequalities requires drawing each boundary line (solid for ≤ or ≥, dashed for < or >) and shading the appropriate half-plane for each. The solution to the system is the region where all shaded areas overlap. To justify a point, substitute its coordinates into each inequality and show that all three are satisfied. For x ≥ −3 and y ≥ −½ these are simple boundary checks; for y − 2x < 5 substitute: 0 − 0 = 0 < 5 ✓.',
-      modelAnswer: 'Boundary lines and shading:\n  1. x = −3: solid vertical line; shade x ≥ −3 (right side).\n  2. y = −½: solid horizontal line; shade y ≥ −½ (above).\n  3. y − 2x = 5, i.e. y = 2x + 5: dashed line (slope 2, y-intercept 5); shade y < 2x + 5 (below the line).\nOverlap region: right of x = −3, above y = −½, and below y = 2x + 5.\nSample point: (0, 0).\nJustification: x = 0 ≥ −3 ✓; y = 0 ≥ −½ ✓; 0 − 2(0) = 0 < 5 ✓. All three inequalities are satisfied.',
-    },
+      modelAnswer: 'Boundary lines and shading:\n  1. x = −3: solid vertical line; shade x ≥ −3 (right side).\n  2. y = −½: solid horizontal line; shade y ≥ −½ (above).\n  3. y − 2x = 5, i.e. y = 2x + 5: dashed line (slope 2, y-intercept 5); shade y < 2x + 5 (below the line).\nOverlap region: right of x = −3, above y = −½, and below y = 2x + 5.\nSample point: (0, 0).\nJustification: x = 0 ≥ −3 ✓; y = 0 ≥ −½ ✓; 0 − 2(0) = 0 < 5 ✓. All three inequalities are satisfied.', image: '/images/exams/alg1-august-2025/q33.png' },
     {
       number: 34,
       part: 'C',

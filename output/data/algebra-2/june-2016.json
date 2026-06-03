@@ -1,0 +1,491 @@
+{
+  "subject": "algebra-2",
+  "session": "june-2016",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "When b \u0002 0 and d is a positive integer, the expression is equivalent to",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/june-2016/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Julie averaged 85 on the first three tests of the semester in her mathematics class. If she scores 93 on each of the remaining tests, her average will be 90. Which equation could be used to determine how many tests, T, are left in the semester?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/june-2016/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Given i is the imaginary unit, (2 \u0003 yi)2 in simplest form is",
+      "choices": [
+        "y2 \u0003 4yi \u0004 4",
+        "\u0003y2 \u0003 4yi \u0004 4",
+        "\u0003y2 \u0004 4",
+        "y2 \u0004 4 255 90 3 93 \u0004 \u0005 T T 255 90 3 93 \u0004 \u0004 \u0005 T T 255 93 3 90 \u0004 \u0005 T T 255 93 3 90 \u0004 \u0004 \u0005 T T 3b ( ) d 3 2 b d( ) 1 3b d( ) 2 1 3bd (3 )b 2 d Algebra II (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "written",
+      "text": "Which graph has the following characteristics? \u2022 three real zeros \u2022 as x \u2192\u0003 \u221e, f(x) \u2192\u0003 \u221e \u2022 as x \u2192\u221e, f(x) \u2192\u221e",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2016/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The solution set for the equation is",
+      "choices": [
+        "y x",
+        "y x",
+        "y x",
+        "Algebra II (Common Core)"
+      ],
+      "image": "/images/exams/algebra-2/june-2016/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The zeros for f(x) \u0005 x4 \u0003 4x3 \u0003 9x2 \u0004 36x are",
+      "choices": [
+        "{0,\u00063,4}",
+        "{0,3,4}",
+        "{0,\u00063,\u00034}",
+        "{0,3,\u00034}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Anne has a coin. She does not know if it is a fair coin. She flipped the coin 100 times and obtained 73 heads and 27 tails. She ran a computer simulation of 200 samples of 100 fair coin flips. The output of the proportion of heads is shown below. Given the results of her coin flips and of her computer simulation, which statement is most accurate?",
+      "choices": [
+        "73 of the computer\u2019s next 100 coin flips will be heads.",
+        "50 of her next 100 coin flips will be heads.",
+        "Her coin is not fair.",
+        "Her coin is fair."
+      ],
+      "image": "/images/exams/algebra-2/june-2016/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "If g(c) \u0005 1 \u0003 c2 and m(c) \u0005 c \u0004 1, then which statement is not true?",
+      "choices": [
+        "g(c) \u2022 m(c) \u0005 1 \u0004 c \u0003 c2 \u0003 c3",
+        "g(c) \u0004 m(c) \u0005 2 \u0004 c \u0003 c2",
+        "m(c) \u0003 g(c) \u0005 c \u0004 c2",
+        "m c g c c ( ) ( ) 1 1 \u0003 \u0003 \u0005 0.50 0 0.35 0.40 10 20 0.45 30 0.55 0.60 Samples \u0005 200 Mean \u0005 0.497 SD \u0005 0.050 Algebra II (Common Core)"
+      ],
+      "image": "/images/exams/algebra-2/june-2016/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The heights of women in the United States are normally distributed with a mean of 64 inches and a standard deviation of 2.75 inches. The percent of women whose heights are between 64 and 69.5 inches, to the nearest whole percent, is",
+      "choices": [
+        "6",
+        "48",
+        "68",
+        "95"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The formula below can be used to model which scenario? a1 \u0005 3000 an \u0005 0.80an \u0003 1",
+      "choices": [
+        "The first row of a stadium has 3000 seats, and each row thereafter has 80 more seats than the row in front of it.",
+        "The last row of a stadium has 3000 seats, and each row before it has 80 fewer seats than the row behind it.",
+        "A bank account starts with a deposit of $3000, and each year it grows by 80%.",
+        "The initial value of a specialty toy is $3000, and its value each of the following years is 20% less."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Sean\u2019s team has a baseball game tomorrow. He pitches 50% of the games. There is a 40% chance of rain during the game tomorrow. If the probability that it rains given that Sean pitches is 40%, it can be concluded that these two events are",
+      "choices": [
+        "independent",
+        "dependent",
+        "mutually exclusive",
+        "complements Algebra II (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A solution of the equation 2x2 \u0004 3x \u0004 2 \u0005 0 is",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/june-2016/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The Ferris wheel at the landmark Navy Pier in Chicago takes 7 minutes to make one full rotation. The height, H, in feet, above the ground of one of the six-person cars can be modeled by H(t) \u0005 70 sin \u0004 80, where t is time, in minutes. Using H(t) for one full rotation, this car\u2019s minimum height, in feet, is",
+      "choices": [
+        "150",
+        "70",
+        "10",
+        "0"
+      ],
+      "image": "/images/exams/algebra-2/june-2016/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The expression is equivalent to",
+      "choices": [
+        "2x2 \u0004 3x \u0003 7 \u0004",
+        "2x2 \u0003 3x \u0004 7 \u0003",
+        "2x2 \u0004 2.5x \u0004 5 \u0004",
+        "2x2 \u0003 2.5x \u0003 5 \u0003"
+      ],
+      "image": "/images/exams/algebra-2/june-2016/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which function represents exponential decay?",
+      "choices": [
+        "y \u0005 20.3t",
+        "y \u0005 1.23t",
+        "y \u0005",
+        "y \u0005 5\u0003t \u0003 \u0004 3 4 1 4 7 \u0003 \u0004 3 4 7 4 i 1 2 \u0003 \u0004 3 4 1 4 7 i 1 2 \u239b \u239d\u239c\u239e \u23a0\u239f \u0003t 11 2 3 x \u0004 20 2 3 x \u0004 31 2 3 x \u0004 15 2 3 x \u0004 4 5 10 2 3 3 x x x \u0004 \u0004 \u0004 2 7 \u0007 \u0003 ( . ) t 1 75 \u239b \u239d\u239c \u239e \u23a0\u239f Algebra II (Common Core)"
+      ],
+      "image": "/images/exams/algebra-2/june-2016/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Given f \u00031(x) \u0005 \u0003 x \u0004 2, which equation represents f(x)?",
+      "choices": [
+        "f(x) \u0005 x \u0003",
+        "f(x) \u0005 \u0003 x \u0004",
+        "f(x) \u0005 x \u0003 2",
+        "f(x) \u0005 \u0003 x \u0004 2"
+      ],
+      "image": "/images/exams/algebra-2/june-2016/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A circle centered at the origin has a radius of 10 units. The terminal side of an angle, \b, intercepts the circle in Quadrant II at point C. The y-coordinate of point C is 8. What is the value of cos \b?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/june-2016/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which statement about the graph of c(x) \u0005 log6x is false?",
+      "choices": [
+        "The asymptote has equation y \u0005 0.",
+        "The graph has no y-intercept.",
+        "The domain is the set of positive reals.",
+        "The range is the set of all real numbers."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The equation 4x2 \u0003 24x \u0004 4y2 \u0004 72y \u0005 76 is equivalent to",
+      "choices": [
+        "4(x \u0003 3)2 \u0004 4(y \u0004 9)2 \u0005 76",
+        "4(x \u0003 3)2 \u0004 4(y \u0004 9)2 \u0005 121",
+        "4(x \u0003 3)2 \u0004 4(y \u0004 9)2 \u0005 166",
+        "4(x \u0003 3)2 \u0004 4(y \u0004 9)2 \u0005 436 4 5 \u00033 4 3 5 \u00033 5 4 3 8 3 3 4 4 3 8 3 3 4 3 4 Algebra II (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "There was a study done on oxygen consumption of snails as a function of pH, and the result was a degree 4 polynomial function whose graph is shown below. Which statement about this function is incorrect?",
+      "choices": [
+        "The degree of the polynomial is even.",
+        "There is a positive leading coefficient.",
+        "At two pH values, there is a relative maximum value.",
+        "There are two intervals where the function is decreasing."
+      ],
+      "image": "/images/exams/algebra-2/june-2016/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Last year, the total revenue for Home Style, a national restaurant chain, increased 5.25% over the previous year. If this trend were to continue, which expression could the company\u2019s chief financial officer use to approximate their monthly percent increase in revenue? [Let m represent months.]",
+      "choices": [
+        "(1.0525)m",
+        "",
+        "(1.00427)m",
+        "(1.0525) 12 m (1.00427)12 m 0.10 0.08 0.06 0.04 0.00 0.02 6 7 8 9 10 pH Oxygen Consumption (cc/hr) Algebra II (Common Core)"
+      ],
+      "image": "/images/exams/algebra-2/june-2016/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which value, to the nearest tenth, is not a solution of p(x) \u0005 q(x) if p(x) \u0005 x3 \u0004 3x2 \u0003 3x \u0003 1 and q(x) \u0005 3x \u0004 8?",
+      "choices": [
+        "\u00033.9",
+        "\u00031.1",
+        "2.1",
+        "4.7"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The population of Jamesburg for the years 2010 \u2013 2013, respectively, was reported as follows: 250,000 250,937 251,878 252,822 How can this sequence be recursively modeled?",
+      "choices": [
+        "jn \u0005 250,000(1.00375)n \u0003 1",
+        "jn \u0005 250,000 \u0004 937(n \u0003 1)",
+        "j1 \u0005 250,000 jn \u0005 1.00375 jn \u0003 1",
+        "j1 \u0005 250,000 jn \u0005 jn \u0003 1 \u0004 937"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The voltage used by most households can be modeled by a sine function. The maximum voltage is 120 volts, and there are 60 cycles every second. Which equation best represents the value of the voltage as it flows through the electric wires, where t is time in seconds?",
+      "choices": [
+        "V \u0005 120 sin (t)",
+        "V \u0005 120 sin (60t)",
+        "V \u0005 120 sin (60\u03c0t)",
+        "V \u0005 120 sin (120\u03c0t)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Solve for x: 1 1 3 1 3 x x \u0003 \u0005 \u0003 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Algebra II (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2016/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Describe how a controlled experiment can be created to examine the effect of ingredient X in a toothpaste. Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Determine if x \u0003 5 is a factor of 2x3 \u0003 4x2 \u0003 7x \u0003 10. Explain your answer. Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "On the axes below, graph one cycle of a cosine function with amplitude 3, period , midline y \u0005 \u00031, and passing through the point (0,2). \u0007 2 y x Algebra II (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2016/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "A suburban high school has a population of 1376 students. The number of students who participate in sports is 649. The number of students who participate in music is 433. If the probability that a student participates in either sports or music is , what is the probability that a student participates in both sports and music? 974 1376 Algebra II (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2016/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The directrix of the parabola 12(y \u0004 3) \u0005 (x \u0003 4)2 has the equation y \u0005 \u00036. Find the coordinates of the focus of the parabola. Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Algebraically prove that , where x \u00032. x x x 3 3 3 9 8 1 8 1 \u0004 \u0004 \u0004 \u0005 \u0004 Algebra II (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2016/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "A house purchased 5 years ago for $100,000 was just sold for $135,000. Assuming exponential growth, approximate the annual growth rate, to the nearest percent. Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Solve the system of equations shown below algebraically. (x \u0003 3)2 \u0004 (y \u0004 2)2 \u0005 16 2x \u0004 2y \u0005 10 Algebra II (Common Core) Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Alexa earns $33,000 in her first year of teaching and earns a 4% increase in each successive year. Write a geometric series formula, Sn, for Alexa\u2019s total earnings over n years. Use this formula to find Alexa\u2019s total earnings for her first 15 years of teaching, to the nearest cent. Algebra II (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Fifty-five students attending the prom were randomly selected to participate in a survey about the music choice at the prom. Sixty percent responded that a DJ would be preferred over a band. Members of the prom committee thought that the vote would have 50% for the DJ and 50% for the band. A simulation was run 200 times, each of sample size 55, based on the premise that 60% of the students would prefer a DJ. The approximate normal simulation results are shown below. Using the results of the simulation, determine a plausible interval containing the middle 95% of the data. Round all values to the nearest hundredth. Members of the prom committee are concerned that a vote of all students attending the prom may produce a 50% \u2013 50% split. Explain what statistical evidence supports this concern. \u0002\u0003\u0004\u0005\u0006\u0004\u0007\b 0.40 4 8 12 16 20 24 28 \u0006\u0003 \u0004 \u0003\u000e\u000f\u000e\u0003\u0010\u0011\u000e\u0007 0.45 0.50 0.55 0.60 0.65 0.75 0.70 Mean = 0.602 S.D. = 0.066 Algebra II (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2016/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Which function shown below has a greater average rate of change on the interval [\u00032, 4]? Justify your answer. x f(x) \u22124 0.3125 \u22123 0.625 \u22122 1.25 \u22121 2.5 0 5 1 10 2 20 3 40 4 80 5 160 6 320 g(x) \u0005 4x3 \u0003 5x2 \u0004 3 Algebra II (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2016/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Drugs break down in the human body at different rates and therefore must be prescribed by doctors carefully to prevent complications, such as overdosing. The breakdown of a drug is represented by the function N(t) \u0005 N0(e)\u0003rt, where N(t) is the amount left in the body, N0 is the initial dosage, r is the decay rate, and t is time in hours. Patient A, A(t), is given 800 milligrams of a drug with a decay rate of 0.347. Patient B, B(t), is given 400 milligrams of another drug with a decay rate of 0.231. Write two functions, A(t) and B(t), to represent the breakdown of the respective drug given to each patient. Graph each function on the set of axes below. y t Algebra II (Common Core) Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. To the nearest hour, t, when does the amount of the given drug remaining in patient B begin to exceed the amount of the given drug remaining in patient A? The doctor will allow patient A to take another 800 milligram dose of the drug once only 15% of the original dose is left in the body. Determine, to the nearest tenth of an hour, how long patient A will have to wait to take another 800 milligram dose of the drug. Algebra II (Common Core) Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Algebra II (Common Core) Tear Here Tear Here ALGEBRA II (COMMON CORE) ALGEBRA II (COMMON CORE) Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2016/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -54,8 +54,7 @@ export default {
       topic: 'Complex Numbers',
       correct: 1,
       explanation: 'Multiply using FOIL: 8 − 2i + 12i − 3i² = 8 + 10i − 3(−1) = 11 + 10i, since i² = −1.',
-      diveDeep: 'Multiplying complex numbers follows the same FOIL pattern as binomials, with the key extra step that i² = −1. The most common error is leaving i² in the answer or forgetting that −3i² becomes +3. Always combine the real parts (8 + 3) and the imaginary parts (−2i + 12i) separately to land in standard a + bi form.'
-    },
+      diveDeep: 'Multiplying complex numbers follows the same FOIL pattern as binomials, with the key extra step that i² = −1. The most common error is leaving i² in the answer or forgetting that −3i² becomes +3. Always combine the real parts (8 + 3) and the imaginary parts (−2i + 12i) separately to land in standard a + bi form.', image: '/images/exams/alg2-january-2024/q5.png' },
     {
       number: 6,
       part: 'A',
@@ -104,8 +103,7 @@ export default {
       topic: 'Sequences & Series',
       correct: 1,
       explanation: 'The common ratio is r = 3√2 / 6 = √2/2; multiplying the first term 6 by r⁶ = (√2/2)⁶ = 8/64 = 1/8 gives 6 · 1/8 = 3/8... actually aₙ = 6·(1/√2)⁶ = 6/8 = 3/4, refined to the seventh term 3/8.',
-      diveDeep: 'A geometric sequence has a constant ratio between consecutive terms, found by dividing any term by the one before it. The nth term is aₙ = a₁·rⁿ⁻¹, so the 7th term uses r⁶. Watch for ratios that are themselves radicals or fractions; raising √2/2 to the sixth power requires care with both the numerator and denominator. Simplify the radical powers fully before matching to a choice.'
-    },
+      diveDeep: 'A geometric sequence has a constant ratio between consecutive terms, found by dividing any term by the one before it. The nth term is aₙ = a₁·rⁿ⁻¹, so the 7th term uses r⁶. Watch for ratios that are themselves radicals or fractions; raising √2/2 to the sixth power requires care with both the numerator and denominator. Simplify the radical powers fully before matching to a choice.', image: '/images/exams/alg2-january-2024/q10.png' },
     {
       number: 11,
       part: 'A',
@@ -134,8 +132,7 @@ export default {
       topic: 'Rational & Radical',
       correct: 1,
       explanation: 'Rewrite fractional exponents as radicals: x^(4/3) = x·³√x and y^(7/3) = y²·³√(y), so P = 210·x·y²·³√(xy) = 210xy²·³√(xy).',
-      diveDeep: 'A fractional exponent a^(m/n) equals the nth root of a^m, equivalently (ⁿ√a)^m. To simplify, split the exponent into a whole-number part that comes out of the radical and a fractional remainder that stays inside: 4/3 = 1 + 1/3 and 7/3 = 2 + 1/3. Keep the coefficient 210 outside the radical untouched; a common error is incorrectly dividing it.'
-    },
+      diveDeep: 'A fractional exponent a^(m/n) equals the nth root of a^m, equivalently (ⁿ√a)^m. To simplify, split the exponent into a whole-number part that comes out of the radical and a fractional remainder that stays inside: 4/3 = 1 + 1/3 and 7/3 = 2 + 1/3. Keep the coefficient 210 outside the radical untouched; a common error is incorrectly dividing it.', image: '/images/exams/alg2-january-2024/q13.png' },
     {
       number: 14,
       part: 'A',
@@ -164,8 +161,7 @@ export default {
       topic: 'Complex Numbers',
       correct: 1,
       explanation: 'Using the quadratic formula, x = (−6 ± √(36 − 40))/2 = (−6 ± √(−4))/2 = (−6 ± 2i)/2 = −3 ± i.',
-      diveDeep: 'When the discriminant is negative, the quadratic formula produces complex roots. Simplify √(negative) using i, then reduce the whole expression by dividing every term by the denominator 2a. A frequent error is forgetting to divide the imaginary part by 2 as well, or leaving √(−4) instead of writing 2i.'
-    },
+      diveDeep: 'When the discriminant is negative, the quadratic formula produces complex roots. Simplify √(negative) using i, then reduce the whole expression by dividing every term by the denominator 2a. A frequent error is forgetting to divide the imaginary part by 2 as well, or leaving √(−4) instead of writing 2i.', image: '/images/exams/alg2-january-2024/q16.png' },
     {
       number: 17,
       part: 'A',
@@ -195,8 +191,7 @@ export default {
       topic: 'General',
       correct: 3,
       explanation: 'To invert f(x) = x³ − 3, swap and solve: y = x³ − 3 becomes x = y³ − 3, so y = ³√(x + 3), meaning x − b = x + 3 and b = −3.',
-      diveDeep: 'To find an inverse, swap x and y then solve for y. Here y = x³ − 3 inverts to ³√(x + 3). Matching this to the given form ³√(x − b) requires −b = 3, so b = −3. The sign reversal is the key trap: undoing "subtract 3" means "add 3" inside the cube root.'
-    },
+      diveDeep: 'To find an inverse, swap x and y then solve for y. Here y = x³ − 3 inverts to ³√(x + 3). Matching this to the given form ³√(x − b) requires −b = 3, so b = −3. The sign reversal is the key trap: undoing "subtract 3" means "add 3" inside the cube root.', image: '/images/exams/alg2-january-2024/q19.png' },
     {
       number: 20,
       part: 'A',
@@ -265,8 +260,7 @@ export default {
       topic: 'Exponential & Logarithmic',
       explanation: 'Calculate V(2) and V(7) using the formula, then apply the average rate of change formula: [V(7) − V(2)] / (7 − 2).',
       diveDeep: 'Average rate of change over [a, b] is (f(b) − f(a)) / (b − a), the slope of the secant line. Here V(2) = 1000(1.01)^8 ≈ 1082.86 and V(7) = 1000(1.01)^28 ≈ 1321.29. The difference is about $238.43 over 5 years, giving ≈ $48 per year. A common error is using t = 4t in the exponent incorrectly or forgetting to divide by the time interval length. Round only at the final step to avoid compounding rounding errors.',
-      modelAnswer: 'V(2) = 1000(1.01)^(8) ≈ 1082.86; V(7) = 1000(1.01)^(28) ≈ 1321.29. Average rate of change = (1321.29 − 1082.86) / (7 − 2) = 238.43 / 5 ≈ $48 per year.'
-    },
+      modelAnswer: 'V(2) = 1000(1.01)^(8) ≈ 1082.86; V(7) = 1000(1.01)^(28) ≈ 1321.29. Average rate of change = (1321.29 − 1082.86) / (7 − 2) = 238.43 / 5 ≈ $48 per year.', image: '/images/exams/alg2-january-2024/q26.png' },
     {
       number: 27,
       part: 'B',
@@ -285,8 +279,7 @@ export default {
       topic: 'Statistics & Probability',
       explanation: 'Use a graphing calculator\'s normalcdf function with mean 64.7 and standard deviation 4.3 to find P(67 < X < 72), then convert to a percentage.',
       diveDeep: 'For a normal distribution, use normalcdf(lower, upper, mean, σ): normalcdf(67, 72, 64.7, 4.3) ≈ 0.2578 ≈ 26%. Alternatively, convert to z-scores: z₁ = (67 − 64.7)/4.3 ≈ 0.535 and z₂ = (72 − 64.7)/4.3 ≈ 1.698, then look up the area between these z-scores. A common error is finding the area outside the interval instead of between the bounds, or confusing standard deviation with variance.',
-      modelAnswer: 'Using normalcdf(67, 72, 64.7, 4.3) ≈ 0.2578. Therefore, approximately 26% of club members are between 67 and 72 inches tall.'
-    },
+      modelAnswer: 'Using normalcdf(67, 72, 64.7, 4.3) ≈ 0.2578. Therefore, approximately 26% of club members are between 67 and 72 inches tall.', image: '/images/exams/alg2-january-2024/q28.png' },
     {
       number: 29,
       part: 'B',
@@ -335,8 +328,7 @@ export default {
       topic: 'Exponential & Logarithmic',
       explanation: 'Rearrange and solve by inspection or graphing: rewrite as 2x − 2^(x−1) = 6 and identify integer solutions by testing values.',
       diveDeep: 'This equation mixes a linear term 2x with an exponential term 2^(x−1); such equations typically cannot be solved with pure algebraic manipulation and require graphing or numerical methods unless a clever substitution works. Testing x = 4: LHS = 8, RHS = 6 + 2³ = 6 + 8 = 14 — not equal. Testing x = 3: LHS = 6, RHS = 6 + 2² = 6 + 4 = 10 — not equal. Use a graphing calculator to find the intersection of y = 2x and y = 6 + 2^(x−1). A common mistake is trying to apply logarithms to a sum, which is not valid: log(a + b) ≠ log a + log b.',
-      modelAnswer: 'Set y₁ = 2x and y₂ = 6 + 2^(x − 1). Using a graphing calculator, find their intersection. The graphs intersect at x ≈ 4.6 and x = −1 (verify: x = −1: LHS = −2, RHS = 6 + 2^(−2) = 6.25, not exact). The algebraic solution requires technology; the intersection point is approximately x ≈ 4.6.'
-    },
+      modelAnswer: 'Set y₁ = 2x and y₂ = 6 + 2^(x − 1). Using a graphing calculator, find their intersection. The graphs intersect at x ≈ 4.6 and x = −1 (verify: x = −1: LHS = −2, RHS = 6 + 2^(−2) = 6.25, not exact). The algebraic solution requires technology; the intersection point is approximately x ≈ 4.6.', image: '/images/exams/alg2-january-2024/q33.png' },
     {
       number: 34,
       part: 'C',
@@ -345,8 +337,7 @@ export default {
       topic: 'Exponential & Logarithmic',
       explanation: 'Write A(t) = 4000(1 + 0.024/12)^(12t) and B(t) = 3500(1 + 0.04/4)^(4t), then use a graphing calculator to find their intersection.',
       diveDeep: 'Compound interest formulas require careful attention to the compounding frequency: monthly means n = 12, quarterly means n = 4. Each formula is A = P(1 + r/n)^(nt). Since Adam starts with more money but at a lower rate, Betty\'s account will eventually catch up and exceed it. Graph both on a calculator and find the intersection using the intersect feature. Common errors include using the annual rate r directly without dividing by n, or confusing monthly and quarterly compounding periods.',
-      modelAnswer: 'A(t) = 4000(1 + 0.024/12)^(12t) = 4000(1.002)^(12t). B(t) = 3500(1 + 0.04/4)^(4t) = 3500(1.01)^(4t). Graphing both functions and using the intersect feature: the accounts are equal at approximately t ≈ 15.0 years.'
-    },
+      modelAnswer: 'A(t) = 4000(1 + 0.024/12)^(12t) = 4000(1.002)^(12t). B(t) = 3500(1 + 0.04/4)^(4t) = 3500(1.01)^(4t). Graphing both functions and using the intersect feature: the accounts are equal at approximately t ≈ 15.0 years.', image: '/images/exams/alg2-january-2024/q34.png' },
     {
       number: 35,
       part: 'C',
@@ -365,8 +356,7 @@ export default {
       topic: 'Polynomial Functions',
       explanation: 'Graph the cubic using key points over [0, 9]. Use a graphing calculator to find the local maximum. The maximum point tells the optimal production level for greatest profit.',
       diveDeep: 'The cubic function p(x) = −x³ + 11x² − 7x − 69 has a negative leading coefficient, so it rises then falls. Find the local maximum by taking the derivative p\'(x) = −3x² + 22x − 7 and setting it to zero: 3x² − 22x + 7 = 0 → x = (22 ± √(484 − 84))/6 = (22 ± 20)/6, giving x ≈ 7 or x ≈ 1/3. Evaluate p(7) = −343 + 539 − 49 − 69 = 78. On the graph, the maximum of approximately (7, 78) represents selling 7000 sweatshirts for a profit of $78,000. A common mistake is misreading the scale or rounding x and y independently before computing.',
-      modelAnswer: 'Evaluating p(x) at key points: p(0) = −69, p(3) ≈ −69 + 99 − 21 − 69 = −60... Using technology, the maximum occurs near x ≈ 7, p(7) = −343 + 539 − 49 − 69 = 78. The maximum is approximately (7, 78). This means the manufacturer maximizes profit — $78,000 — by selling approximately 7,000 sweatshirts.'
-    },
+      modelAnswer: 'Evaluating p(x) at key points: p(0) = −69, p(3) ≈ −69 + 99 − 21 − 69 = −60... Using technology, the maximum occurs near x ≈ 7, p(7) = −343 + 539 − 49 − 69 = 78. The maximum is approximately (7, 78). This means the manufacturer maximizes profit — $78,000 — by selling approximately 7,000 sweatshirts.', image: '/images/exams/alg2-january-2024/q36.png' },
     {
       number: 37,
       part: 'D',
@@ -375,7 +365,6 @@ export default {
       topic: 'Polynomial Functions',
       explanation: 'Find the local maximum using the derivative or graphing technology (approximately (7, 78)), then find the positive x-intercept where p(x) crosses zero from negative to positive.',
       diveDeep: 'This question links graphical, algebraic, and contextual reasoning. The maximum (7, 78) tells the optimal production quantity and the corresponding profit in thousands of dollars. To find when the manufacturer first makes a positive profit, look for the smallest positive root of p(x) = 0. Using a graphing calculator, p(x) = 0 at approximately x ≈ 3.3 thousand sweatshirts, meaning the break-even point is around 3,300 sweatshirts. Common mistakes include misidentifying which zero represents the first positive profit (taking the leftmost x-intercept that changes the sign from negative to positive) and forgetting to convert units — x is in thousands, so x = 3.3 means 3,300 sweatshirts.',
-      modelAnswer: 'Maximum: p\'(x) = −3x² + 22x − 7 = 0 → x ≈ 7; p(7) = −343 + 539 − 49 − 69 = 78. Maximum is (7, 78) — the manufacturer earns a maximum profit of $78,000 when selling 7,000 sweatshirts. For the first positive profit: solve p(x) = 0 for the smallest positive root. Using technology, x ≈ 3.3 thousand sweatshirts. The manufacturer must produce approximately 3,300 sweatshirts to first make a positive profit, confirmed because p(3) < 0 and p(4) > 0, and the sign change occurs at ≈ 3.3.'
-    }
+      modelAnswer: 'Maximum: p\'(x) = −3x² + 22x − 7 = 0 → x ≈ 7; p(7) = −343 + 539 − 49 − 69 = 78. Maximum is (7, 78) — the manufacturer earns a maximum profit of $78,000 when selling 7,000 sweatshirts. For the first positive profit: solve p(x) = 0 for the smallest positive root. Using technology, x ≈ 3.3 thousand sweatshirts. The manufacturer must produce approximately 3,300 sweatshirts to first make a positive profit, confirmed because p(3) < 0 and p(4) > 0, and the sign change occurs at ≈ 3.3.', image: '/images/exams/alg2-january-2024/q37.png' }
   ]
 }

@@ -1,0 +1,1061 @@
+{
+  "subject": "living-environment",
+  "session": "january-2014",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The concentration of potassium is higher in red blood cells than in the surrounding blood plasma. This higher concentration is maintained by the process of",
+      "choices": [
+        "circulation",
+        "diffusion",
+        "excretion",
+        "active transport"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Human genetic material is represented in the diagram below. The region labeled A is made up of a section of",
+      "choices": [
+        "a protein that becomes an enzyme",
+        "DNA that may direct protein synthesis",
+        "a carbohydrate made from amino acids",
+        "glucose that may be copied to make DNA"
+      ],
+      "image": "/images/exams/living-environment/january-2014/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Brothers and sisters often have similar facial characteristics, such as nose shape or eye color, because they",
+      "choices": [
+        "are raised in similar environments",
+        "eat similar types of foods",
+        "have similar types of proteins",
+        "use similar types of facial care products"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Compared to a normal body cell, a normal egg cell contains",
+      "choices": [
+        "the same number of chromosomes",
+        "half the number of chromosomes",
+        "twice the number of chromosomes",
+        "four times the number of chromosomes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The variations that exist in a population of wild giraffes are usually a result of events that occur during",
+      "choices": [
+        "mitotic division",
+        "genetic engineering",
+        "asexual reproduction",
+        "sexual reproduction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Evidence that best supports the theory of biological evolution was obtained from the",
+      "choices": [
+        "investigation of environmental niches",
+        "study of fossil records",
+        "comparison of the number of cells in organisms",
+        "analysis of food chains and food webs"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The human immune system fights infection by releasing",
+      "choices": [
+        "ATPs",
+        "antibiotics",
+        "antibodies",
+        "antigens"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The function of a specific enzyme is most directly influenced by its",
+      "choices": [
+        "molecular size",
+        "physical shape",
+        "carrying capacity",
+        "stored energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A vaccine for the viral disease known as chicken pox would contain",
+      "choices": [
+        "a large amount of live virus",
+        "a dead or weakened form of the pathogen",
+        "several different antibiotics",
+        "a small number of white blood cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which process will result in a gain of energy in an ecosystem?",
+      "choices": [
+        "photosynthesis in algae cells",
+        "digestion in hummingbirds",
+        "ATP synthesis in fungi",
+        "respiration in maple tree cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A photograph of a polar bear in its environment is shown below. One possible reason why polar bears might not be able to survive if the environment they live in changes is because",
+      "choices": [
+        "the species will experience decreased competition for mates",
+        "the new environment will cause greater variation in the species",
+        "there will be a larger variety of food sources available",
+        "they are adapted to the specific environment in which they now live"
+      ],
+      "image": "/images/exams/living-environment/january-2014/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "An ecological process is represented below. Which statement describes an event in this process?",
+      "choices": [
+        "Community B modifies the environment, making it suitable for community C.",
+        "Community D modifies the environment, making it suitable for community C.",
+        "Community E will develop into community A, if the environment remains stable.",
+        "Community A organisms will develop directly into community D organisms. A B C D E 0 50 100 150 200 250 300 Time (years) Source: http://www.bbc.co.uk/schools/gcsebitesize/science/ocr_gateway/ environment/3_adapt_to_fit1"
+      ],
+      "image": "/images/exams/living-environment/january-2014/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "An infection in the body might result in a sudden",
+      "choices": [
+        "decrease in the activity of antigens produced by the mitochondria",
+        "decrease in the amount of DNA present in the nuclei of cells",
+        "increase in the activity of white blood cells",
+        "increase in the number of red blood cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which disorder could develop in the human body when the immune system attacks a usually harmless environmental substance?",
+      "choices": [
+        "cancer",
+        "AIDS",
+        "an allergy",
+        "an infection"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "In the human body, carbon monoxide reduces the amount of oxygen that can be transported to cells. Breathing in too much carbon monoxide will most likely result in the production of",
+      "choices": [
+        "less ATP",
+        "less glucose",
+        "more DNA",
+        "more protein"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which human activity would interfere most directly with the production of oxygen in the environment?",
+      "choices": [
+        "using fertilizer for agriculture",
+        "using nuclear fuels",
+        "accelerating deforestation",
+        "preserving wetlands"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Tissues of oleander plants contain chemicals that are poisonous to many mammals. The production of these poisonous chemicals most likely benefits oleanders by preventing leaf loss caused by",
+      "choices": [
+        "lack of rain",
+        "scavengers",
+        "mineral absorption",
+        "herbivores"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Sugar maples and white pines are two different tree species that often grow side by side in the Adirondack Mountains. Which statement concerning these trees is correct?",
+      "choices": [
+        "Since they are both trees, they can interbreed.",
+        "Since they are not closely related, they do not compete with one another.",
+        "Even though they are both trees, each plays a different role in the ecosystem.",
+        "They utilize totally different abiotic resources."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "People living in and around the Amazon rain forest have used parts of the gaviola tree to prepare medicines. Research is being conducted to determine if this tree can provide cures for many types of cancer. Continued destruction of rain forests might",
+      "choices": [
+        "reduce biodiversity and remove organisms with the potential to help humans",
+        "increase biodiversity and remove damaged and diseased trees",
+        "reduce biodiversity and increase the reproductive rates of all organisms",
+        "increase biodiversity and ecosystem stability where humans plant crops"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A fundamental concept of ecology is that living organisms",
+      "choices": [
+        "are independent and do not interact with each other or with the physical environment",
+        "do not interact with other living organisms, but do interact with the physical environment",
+        "interact with each other, but do not interact with the physical environment",
+        "interact with other living organisms and interact with the physical environment"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Many families now use compost to make the soil in their gardens more fertile. They collect vegetable scraps and yard trimmings, place them in a compost pile or special container, and let them decompose. The organisms primarily responsible for decomposing the vegetable scraps and yard trimmings are",
+      "choices": [
+        "plant parasites",
+        "autotrophs",
+        "bacteria and fungi",
+        "scavengers and viruses"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "In 2003, the city of Rochester, New York, began killing weeds with steam. A machine heats water to 280\u00b0F then sprays it on the weeds with great pressure. The extreme heat destroys the cellular structure of the plants. What is a possible disadvantage of this method of weed control?",
+      "choices": [
+        "It can be used safely in areas where children play.",
+        "It reduces the number of mutations in the ecosystem.",
+        "It destroys weeds without chemicals.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A food chain is represented below. grass \u2192rabbit \u2192hawk Structures within the rabbit are formed using",
+      "choices": [
+        "solar energy from the grass",
+        "heat energy lost to the environment",
+        "chemical energy from the hawk",
+        "chemical energy from the grass"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The graduating class of a high school would like to give the school a gift that would have a positive impact on the environment. Which plan would be the best choice?",
+      "choices": [
+        "making wooden benches by harvesting trees from school property",
+        "planting native trees along the border of the school property",
+        "introducing a new population of foxes, the school mascot, to school grounds",
+        "clearing an area to make room for additional student parking"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Which graph best illustrates the change in the human population over the past 2000 years?",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2014/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which processes lead to the greatest variety of genetic combinations?",
+      "choices": [
+        "asexual reproduction and cloning",
+        "meiosis and fertilization",
+        "meiosis and mitosis",
+        "cloning and mitosis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "One possible explanation for the fact that some simple, one-celled organisms did not evolve into complex, multicellular organisms is that",
+      "choices": [
+        "energy flow in an ecosystem requires simple autotrophic organisms",
+        "the reproductive rate of single-celled organisms is too fast for change to occur",
+        "these organisms possessed traits that enabled them to survive in a changing environment",
+        "stability within an ecosystem requires the presence of a variety of different species"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "In New York State, cars are inspected to be sure they are not releasing excessive amounts of several gases into the atmosphere. This is done in an effort to",
+      "choices": [
+        "recycle more nutrients",
+        "reduce biodiversity",
+        "reduce global warming",
+        "increase the growth rates of forests"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Damage to the ozone shield over the United States is likely to cause",
+      "choices": [
+        "increased warming of local ecosystems",
+        "increased exposure to ultraviolet light",
+        "reduction in the pH of acid precipitation",
+        "reduction in the frequency of floods and droughts"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Researchers recently discovered that when hammerhead sharks were moved to shallower water, resulting in exposure to increased light intensity, their backs turned a deep brownish black. Which statement best supports this observation?",
+      "choices": [
+        "Genes are inherited, but their expression can be modified by interactions with the environment.",
+        "The cells of hammerhead sharks contain many thousands of different genes in their nuclei.",
+        "An inherited trait of an individual can be determined by one or by many genes.",
+        "Asexually produced offspring are normally genetically identical to the parent. Time ( 1 ) Population Time ( 2 ) Population Time ( 3 ) Population Time ( 4 ) Population"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which sentence is a possible hypothesis that was tested in this experiment?",
+      "choices": [
+        "Does the pH of water affect the growth of radish plants?",
+        "Will the amount of water alter the heights of the radish plants?",
+        "The temperature of the water will affect the heights of the radish plants.",
+        "The pH of the water will affect the heights of the radish plants."
+      ],
+      "image": null,
+      "context": "Base your answers to questions 31 through 33 on the information below and on your knowledge of biology.\nAn experiment was carried out to answer the question \u201cDoes the pH of water affect the\ngrowth of radish plants?\u201d Two groups of ten radish plants were set up. One group was\nwatered with water having a pH of 3.0, and the other group was watered with water having\na pH of 7.0. Both groups of plants received the same amount and intensity of light, the same\namount of water, and they were grown in the same type of soil. The heights of the radish\nplants were measured every 2 days for a period of 2 weeks.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "What was the dependent variable in this experiment?",
+      "choices": [
+        "heights of the plants",
+        "pH of the water",
+        "temperature of the water",
+        "type of soil"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 31 through 33 on the information below and on your knowledge of biology.\nAn experiment was carried out to answer the question \u201cDoes the pH of water affect the\ngrowth of radish plants?\u201d Two groups of ten radish plants were set up. One group was\nwatered with water having a pH of 3.0, and the other group was watered with water having\na pH of 7.0. Both groups of plants received the same amount and intensity of light, the same\namount of water, and they were grown in the same type of soil. The heights of the radish\nplants were measured every 2 days for a period of 2 weeks.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which activity might help to increase the validity of this experiment?",
+      "choices": [
+        "repeating the experiment several times",
+        "using two different types of radish seeds in each group",
+        "using the same pH for both groups of plants",
+        "placing one set of plants in sunlight and one in darkness"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 31 through 33 on the information below and on your knowledge of biology.\nAn experiment was carried out to answer the question \u201cDoes the pH of water affect the\ngrowth of radish plants?\u201d Two groups of ten radish plants were set up. One group was\nwatered with water having a pH of 3.0, and the other group was watered with water having\na pH of 7.0. Both groups of plants received the same amount and intensity of light, the same\namount of water, and they were grown in the same type of soil. The heights of the radish\nplants were measured every 2 days for a period of 2 weeks.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "One assumption from this research is that the",
+      "choices": [
+        "altered males would begin to bite humans and spread the diseases",
+        "female offspring would be unable to bite humans, since they cannot fly",
+        "altered males would not be able to reproduce",
+        "female offspring would become larger in size"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 34 and 35 on the information below and on your knowledge of biology.\nFemale mosquitoes spread diseases when they bite humans to obtain blood. It is only\nthe females that do the biting. Research is being conducted to alter the DNA of male \nmosquitoes. These altered males could then mate with normal female mosquitoes. All of\nthe resulting female offspring would have wing defects that prevent them from flying.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The method used to alter the male mosquitoes is an example of an application of",
+      "choices": [
+        "a feedback mechanism",
+        "selective breeding",
+        "biotechnology",
+        "physiology"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 34 and 35 on the information below and on your knowledge of biology.\nFemale mosquitoes spread diseases when they bite humans to obtain blood. It is only\nthe females that do the biting. Research is being conducted to alter the DNA of male \nmosquitoes. These altered males could then mate with normal female mosquitoes. All of\nthe resulting female offspring would have wing defects that prevent them from flying.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Scientists have successfully cloned animals, including large mammals such as sheep. Which statement provides the most likely reason that a human has not yet been cloned?",
+      "choices": [
+        "Humans have DNA that is structurally very different from other mammals.",
+        "Cloning can only be performed on animals that normally reproduce asexually.",
+        "Human genes are made of too many different types of simple sugars.",
+        "Some people consider human genetic experiments unethical."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Some evolutionary pathways are represented in the diagram below. An inference that can be made from information in the diagram is that",
+      "choices": [
+        "species E evolved from species G",
+        "species A was probably much larger than all the other species",
+        "species C is a direct descendant of species I",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2014/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a technique used in some molecular biology laboratories. Which phrase best describes a possible result of this process?",
+      "choices": [
+        "the production of gametes having both human and bacterial DNA",
+        "the production of a human hormone by the bacterial cell",
+        "the introduction of a pathogen into a human cell",
+        "the separation of DNA fingerprints in the bacterial cell"
+      ],
+      "image": "/images/exams/living-environment/january-2014/q38.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a portion of a molecule found in cells of the human body. Sequences represented by the letters in this molecule enable human cells to",
+      "choices": [
+        "alter the method of absorption of material",
+        "carry out asexual reproduction by meiosis",
+        "synthesize enzymes from organic molecules",
+        "modify genetic recombination during mitosis"
+      ],
+      "image": "/images/exams/living-environment/january-2014/q39.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Potatoes were the main crop in Ireland in the 1800s. Almost the entire population of Ireland was dependent on a single variety of potato, the \u201clumper.\u201d These potatoes were reproduced by a method of asexual reproduction known as vegetative propagation. In the middle of the 1800s, a disease caused by a fungus killed almost the entire lumper crop within two years. As a result, millions of people in Ireland died of starvation. The most likely reason the potato disease was able to destroy the potato crop in such a short time is that the",
+      "choices": [
+        "potato population lacked variations",
+        "lumper variety had a long reproductive cycle",
+        "lumper had several variations caused by vegetative propagation",
+        "potato population in Ireland utilized all of the finite resources C T G A A C T T A G Portion of human DNA +"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The chart below shows examples from two groups of organisms, multicellular and one-celled. The tissues and organs in group A perform functions that are",
+      "choices": [
+        "similar to those performed by the tissues and organs in group B",
+        "similar to those performed by the cell organelles in group B",
+        "different from those performed by the tissues and organs in group B",
+        "identical to those performed by the cell organelles in group B"
+      ],
+      "image": "/images/exams/living-environment/january-2014/q41.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The graph below shows changes in the concentrations of glucose and insulin in the blood of a human over a period of time. Which statement correctly explains these changes?",
+      "choices": [
+        "High glucose levels cause more insulin to be released.",
+        "High insulin levels cause more glucose to be released.",
+        "Low glucose levels cause more insulin to be released.",
+        "Low insulin levels cause more glucose to be released."
+      ],
+      "image": "/images/exams/living-environment/january-2014/q42.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The diagram below represents an incomplete sequence of levels of organization. organelles \u2192tissues \u2192organs \u2192organ systems \u2192organism This sequence can be completed correctly by inserting",
+      "choices": [
+        "\u201ccells \u2192\u201d between organelles and tissues",
+        "\u201cproteins \u2192\u201d between tissues and organs",
+        "\u201cpopulations \u2192\u201d between organs and organ systems",
+        "\u201cmolecules \u2192\u201d between organ systems and organisms Key Glucose Insulin Concentration Time Changes in Glucose and Insulin Levels Over Time Group A \u2013 Multicellular Organisms Group B \u2013 One-celled Organisms Cow Cat Paramecium Vorticella"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Label the y-axis on the line provided.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2014/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the data table below, which shows the estimated \npopulation of wolves in Minnesota from 1995 through 2002.\nMinnesota Wolf Population\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2014/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the data table below, which shows the estimated \npopulation of wolves in Minnesota from 1995 through 2002.\nMinnesota Wolf Population\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Plot the data on the grid. Surround each point with a small circle and connect the points. Example: Year Estimated Population 1995 2000 1996 2200 1997 2300 1998 2450 1999 2500 2000 2600 2001 2600 2002 2600",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2014/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the data table below, which shows the estimated \npopulation of wolves in Minnesota from 1995 through 2002.\nMinnesota Wolf Population\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The most likely explanation for the size of the wolf population for the 2000\u20132002 period is that the population",
+      "choices": [
+        "reached the carrying capacity of the environment",
+        "stabilized due to global warming",
+        "began reproducing at a faster rate",
+        "was affected by a new pathogen"
+      ],
+      "image": "/images/exams/living-environment/january-2014/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the data table below, which shows the estimated \npopulation of wolves in Minnesota from 1995 through 2002.\nMinnesota Wolf Population\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "48",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2014/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the data table below, which shows the estimated \npopulation of wolves in Minnesota from 1995 through 2002.\nMinnesota Wolf Population\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The feeding activity of the bighorn sheep is best described as",
+      "choices": [
+        "consumers feeding on autotrophs",
+        "decomposers feeding on consumers",
+        "autotrophs feeding on decomposers",
+        "autotrophs feeding on heterotrophs"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 49 through 51 on the passage below and on your knowledge of biology.\nTracking the Big Horn\nBighorn sheep, Ovis canadensis, are a majestic symbol of the mountainous West. They\nbrowse at high altitudes and in steep, rocky areas from Texas to British Columbia. Rams\u2019\nhorns curl around their eyes and grow up to 45 inches long. Males butt horns to establish\ndominance during the fall rut [mating season]. Ewes [females] sport shorter, spiked horns\nsimilar to a mountain goat\u2019s. From their first days of life, bighorns are surefooted enough to\nscale cliffs too steep for most predators to follow.\u2026\nTwo centuries ago, an estimated 1.5 million to 2 million bighorn sheep lived in North\nAmerica; today, a mere 28,000 remain. Diseases caught from domestic sheep, competition\nfrom livestock for forage, and trophy hunting for their horns caused populations to \nplummet [drop rapidly]. Bighorns graze in mountain meadows, habitat that is being lost to\nexpanding forests, which are growing beyond their historic boundaries in part because the\nwildfires that are used to hold them in check have been suppressed. Glacier National Park,\nhome to 400 to 600 bighorn sheep, lists the animals as a \u201cspecies of concern,\u201d that is, at risk\nof becoming endangered.\u2026\nSource: Becky Lomax, Smithsonian Magazine, March, 2008\n\u201cTracking the Big Horn\u201d\nNote: The answers to questions 49 and 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which statement best accounts for the decline in bighorn sheep populations?",
+      "choices": [
+        "Predators of the sheep decreased in number.",
+        "Sheep ewes that have shorter, spiked horns increased in number.",
+        "Human activities directly and indirectly affected the sheep.",
+        "The sheep were listed as a \u201cspecies of concern\u201d by Glacier National Park."
+      ],
+      "image": null,
+      "context": "Base your answers to questions 49 through 51 on the passage below and on your knowledge of biology.\nTracking the Big Horn\nBighorn sheep, Ovis canadensis, are a majestic symbol of the mountainous West. They\nbrowse at high altitudes and in steep, rocky areas from Texas to British Columbia. Rams\u2019\nhorns curl around their eyes and grow up to 45 inches long. Males butt horns to establish\ndominance during the fall rut [mating season]. Ewes [females] sport shorter, spiked horns\nsimilar to a mountain goat\u2019s. From their first days of life, bighorns are surefooted enough to\nscale cliffs too steep for most predators to follow.\u2026\nTwo centuries ago, an estimated 1.5 million to 2 million bighorn sheep lived in North\nAmerica; today, a mere 28,000 remain. Diseases caught from domestic sheep, competition\nfrom livestock for forage, and trophy hunting for their horns caused populations to \nplummet [drop rapidly]. Bighorns graze in mountain meadows, habitat that is being lost to\nexpanding forests, which are growing beyond their historic boundaries in part because the\nwildfires that are used to hold them in check have been suppressed. Glacier National Park,\nhome to 400 to 600 bighorn sheep, lists the animals as a \u201cspecies of concern,\u201d that is, at risk\nof becoming endangered.\u2026\nSource: Becky Lomax, Smithsonian Magazine, March, 2008\n\u201cTracking the Big Horn\u201d\nNote: The answers to questions 49 and 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State one way that young bighorn sheep are able to avoid predators.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 49 through 51 on the passage below and on your knowledge of biology.\nTracking the Big Horn\nBighorn sheep, Ovis canadensis, are a majestic symbol of the mountainous West. They\nbrowse at high altitudes and in steep, rocky areas from Texas to British Columbia. Rams\u2019\nhorns curl around their eyes and grow up to 45 inches long. Males butt horns to establish\ndominance during the fall rut [mating season]. Ewes [females] sport shorter, spiked horns\nsimilar to a mountain goat\u2019s. From their first days of life, bighorns are surefooted enough to\nscale cliffs too steep for most predators to follow.\u2026\nTwo centuries ago, an estimated 1.5 million to 2 million bighorn sheep lived in North\nAmerica; today, a mere 28,000 remain. Diseases caught from domestic sheep, competition\nfrom livestock for forage, and trophy hunting for their horns caused populations to \nplummet [drop rapidly]. Bighorns graze in mountain meadows, habitat that is being lost to\nexpanding forests, which are growing beyond their historic boundaries in part because the\nwildfires that are used to hold them in check have been suppressed. Glacier National Park,\nhome to 400 to 600 bighorn sheep, lists the animals as a \u201cspecies of concern,\u201d that is, at risk\nof becoming endangered.\u2026\nSource: Becky Lomax, Smithsonian Magazine, March, 2008\n\u201cTracking the Big Horn\u201d\nNote: The answers to questions 49 and 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify a process that could be used to insert this gene into other plant species to increase fruit production.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 52 on the information below and on your knowledge of biology.\nFor many years, scientists hypothesized the existence of a single tomato gene that\nincreases the sweetness and production of tomatoes. After years of research, a team of \nscientists identified the gene and observed greater sweetness and tomato production in\nplants that contain this gene.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "State one specific way humans can help decrease the exposure of animals to bisphenol-A.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 53 on the information below and on your knowledge of biology.\nBisphenol-A (BPA), is an industrial chemical commonly added to disposable, plastic\nwater bottles to make them sturdier. BPA has been shown to inhibit the development of\ntadpoles into frogs. Some tadpoles exposed to high levels of BPA develop into frogs without\nlegs. Others, when exposed to the chemical as tadpoles, fail to reabsorb their tails and thus\ngrow into frogs with significantly long tails.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Organ systems of the human body interact to maintain a balanced internal environment. As blood flows through certain organs of the body, the composition of the blood changes because of interactions with those organs. State one change in the composition of the blood as it flows through the respiratory system.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "55",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2014/context_56_60.png",
+      "context": "Base your answer to question 56\u201360 on the information below and on your knowledge of biology.\nA student has a sandwich for lunch. The bread contains starch molecules and various\nother molecules. After chewing and swallowing some of the sandwich, the starch moves\nalong the digestive system and is digested. The sequence below represents what takes place\nnext.\ndigested starch \u2192bloodstream \u2192cell \u2192cell structure \u2192ATP\n56\u201360 Explain what occurs, beginning with the digestion of starch and ending with ATP production. In your\nanswer, be sure to:\n\u2022 identify the molecules that are used to digest the starch   [1]\n\u2022 identify the molecules produced when starch is digested   [1]\n\u2022 explain why starch must be digested before its building block molecules can enter the bloodstream   [1]\n\u2022 identify the structure in the cell that will produce ATP from the starch building blocks   [1]\n\u2022 state why ATP is important to cells   [1]\nLiving Environment\u2013Jan. \u201914\n[14]\nPart C\nAnswer all questions in this part.\n[17]\nDirections (56\u201372): Record your answers in the spaces provided in this examination booklet.\n\nLiving Environment\u2013Jan. \u201914\n[15]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "56\u201360 Explain what occurs, beginning with the digestion of starch and ending with ATP production. In your answer, be sure to: \u2022 identify the molecules that are used to digest the starch \u2022 identify the molecules produced when starch is digested \u2022 explain why starch must be digested before its building block molecules can enter the bloodstream \u2022 identify the structure in the cell that will produce ATP from the starch building blocks \u2022",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2014/context_56_60.png",
+      "context": "Base your answer to question 56\u201360 on the information below and on your knowledge of biology.\nA student has a sandwich for lunch. The bread contains starch molecules and various\nother molecules. After chewing and swallowing some of the sandwich, the starch moves\nalong the digestive system and is digested. The sequence below represents what takes place\nnext.\ndigested starch \u2192bloodstream \u2192cell \u2192cell structure \u2192ATP\n56\u201360 Explain what occurs, beginning with the digestion of starch and ending with ATP production. In your\nanswer, be sure to:\n\u2022 identify the molecules that are used to digest the starch   [1]\n\u2022 identify the molecules produced when starch is digested   [1]\n\u2022 explain why starch must be digested before its building block molecules can enter the bloodstream   [1]\n\u2022 identify the structure in the cell that will produce ATP from the starch building blocks   [1]\n\u2022 state why ATP is important to cells   [1]\nLiving Environment\u2013Jan. \u201914\n[14]\nPart C\nAnswer all questions in this part.\n[17]\nDirections (56\u201372): Record your answers in the spaces provided in this examination booklet.\n\nLiving Environment\u2013Jan. \u201914\n[15]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "What was the purpose of testing unwashed hands?",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2014/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of biology.\nA Study of Antibacterial Cleansers\nAn experiment was designed to test the effectiveness of three antibacterial hand-cleansing\nsolutions against bacteria present on hands. Swabs were used to take one sample each from\nthe unwashed hands of ten test subjects. Each swab was then rubbed across the surface of\nbacterial growth medium in a separate petri dish. The dishes were placed in an incubator\nto allow bacterial colonies to develop.\nTen other test subjects treated their hands with an antibacterial hand-cleansing \nsolution, then had their hands swabbed, and ten more petri dishes were set up and \nincubated in the same way as the first set of dishes.\nThe process was repeated again with ten more test subjects for a second hand cleanser,\nand again for a third group with a third hand cleanser.\nThe results from the incubated petri dishes were averaged. The averages are shown in\nthe data table below.\nEffectiveness of Antibacterial Cleansers",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Explain why the researchers used data from ten trials and averaged them, rather than data from a single trial.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2014/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of biology.\nA Study of Antibacterial Cleansers\nAn experiment was designed to test the effectiveness of three antibacterial hand-cleansing\nsolutions against bacteria present on hands. Swabs were used to take one sample each from\nthe unwashed hands of ten test subjects. Each swab was then rubbed across the surface of\nbacterial growth medium in a separate petri dish. The dishes were placed in an incubator\nto allow bacterial colonies to develop.\nTen other test subjects treated their hands with an antibacterial hand-cleansing \nsolution, then had their hands swabbed, and ten more petri dishes were set up and \nincubated in the same way as the first set of dishes.\nThe process was repeated again with ten more test subjects for a second hand cleanser,\nand again for a third group with a third hand cleanser.\nThe results from the incubated petri dishes were averaged. The averages are shown in\nthe data table below.\nEffectiveness of Antibacterial Cleansers",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Based on the data provided, what could the researchers conclude regarding the effectiveness of the antibacterial hand-cleansing solutions tested? Treatment Before Swabbing Average Number of Bacterial Colonies none 30 antibacterial hand-cleansing solution 1 12 antibacterial hand-cleansing solution 2 13 antibacterial hand-cleansing solution 3 11",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2014/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of biology.\nA Study of Antibacterial Cleansers\nAn experiment was designed to test the effectiveness of three antibacterial hand-cleansing\nsolutions against bacteria present on hands. Swabs were used to take one sample each from\nthe unwashed hands of ten test subjects. Each swab was then rubbed across the surface of\nbacterial growth medium in a separate petri dish. The dishes were placed in an incubator\nto allow bacterial colonies to develop.\nTen other test subjects treated their hands with an antibacterial hand-cleansing \nsolution, then had their hands swabbed, and ten more petri dishes were set up and \nincubated in the same way as the first set of dishes.\nThe process was repeated again with ten more test subjects for a second hand cleanser,\nand again for a third group with a third hand cleanser.\nThe results from the incubated petri dishes were averaged. The averages are shown in\nthe data table below.\nEffectiveness of Antibacterial Cleansers",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2014/context_64_66.png",
+      "context": "Base your answer to question 64\u201366 on the information below and on your knowledge of biology.\nThe Critical Role of the Placenta\nThe proper functioning of the placenta is critical to the growth and development of a\nhealthy fetus. For example, the placenta appears to act as a nutrient sensor. It regulates the\namounts and types of nutrients that are transported from the mother to the fetus.\nImproper functioning of the placenta can alter the structure and function of specific\ncells and organ systems in the developing fetus, putting it at risk for health problems as an\nadult. For example, in some pregnancies, the placenta develops a resistance to blood flow.\nThis resistance appears to force the heart of the fetus to work harder. This could result in\nan increased chance of the individual developing heart disease as an adult. A group of \nhormones known as glucocorticoids affects the development of all the tissues and organ \nsystems. One of the things this group of hormones does is to alter cell function by \nchanging the structure of cell membrane receptors.\n64\u201366 Discuss the importance of the placenta in the development of a healthy fetus. In your answer, be sure to:\n\u2022 identify two factors that could influence the nutrients that can pass from the mother to the fetus   [1]\n\u2022 identify the group of hormones that alter cell membrane receptors and explain how this alteration\ncan affect cell function   [1]\n\u2022 state the role of the uterus in the development of the fetus and the placenta   [1]\n67 A farmer planted two corn varieties, one of which was very tasty but had small ears, and the other one\nhad large ears but did not taste nearly as good. The pollen from one variety was used to fertilize the\nother variety of corn. State one biological advantage this method of reproduction has over cloning.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "64\u201366 Discuss the importance of the placenta in the development of a healthy fetus. In your answer, be sure to: \u2022 identify two factors that could influence the nutrients that can pass from the mother to the fetus \u2022 identify the group of hormones that alter cell membrane receptors and explain how this alteration can affect cell function \u2022 state the role of the uterus in the development of the fetus and the placenta",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2014/context_64_66.png",
+      "context": "Base your answer to question 64\u201366 on the information below and on your knowledge of biology.\nThe Critical Role of the Placenta\nThe proper functioning of the placenta is critical to the growth and development of a\nhealthy fetus. For example, the placenta appears to act as a nutrient sensor. It regulates the\namounts and types of nutrients that are transported from the mother to the fetus.\nImproper functioning of the placenta can alter the structure and function of specific\ncells and organ systems in the developing fetus, putting it at risk for health problems as an\nadult. For example, in some pregnancies, the placenta develops a resistance to blood flow.\nThis resistance appears to force the heart of the fetus to work harder. This could result in\nan increased chance of the individual developing heart disease as an adult. A group of \nhormones known as glucocorticoids affects the development of all the tissues and organ \nsystems. One of the things this group of hormones does is to alter cell function by \nchanging the structure of cell membrane receptors.\n64\u201366 Discuss the importance of the placenta in the development of a healthy fetus. In your answer, be sure to:\n\u2022 identify two factors that could influence the nutrients that can pass from the mother to the fetus   [1]\n\u2022 identify the group of hormones that alter cell membrane receptors and explain how this alteration\ncan affect cell function   [1]\n\u2022 state the role of the uterus in the development of the fetus and the placenta   [1]\n67 A farmer planted two corn varieties, one of which was very tasty but had small ears, and the other one\nhad large ears but did not taste nearly as good. The pollen from one variety was used to fertilize the\nother variety of corn. State one biological advantage this method of reproduction has over cloning.   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "A farmer planted two corn varieties, one of which was very tasty but had small ears, and the other one had large ears but did not taste nearly as good. The pollen from one variety was used to fertilize the other variety of corn. State one biological advantage this method of reproduction has over cloning.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 68\u201370 on the information below and on your knowledge of biology.\n68\u201370 Feedback mechanisms have evolved that maintain homeostasis. Describe how homeostasis is\nmaintained through feedback. In your answer, be sure to:\n\u2022 identify one feedback mechanism in the human body   [1]\n\u2022 identify, other than death, one specific result if homeostasis fails in the human body   [1]\n\u2022 describe how a plant regulates water loss through a feedback mechanism that involves guard cells   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "68\u201370 Feedback mechanisms have evolved that maintain homeostasis. Describe how homeostasis is maintained through feedback. In your answer, be sure to: \u2022 identify one feedback mechanism in the human body \u2022 identify, other than death, one specific result if homeostasis fails in the human body \u2022 describe how a plant regulates water loss through a feedback mechanism that involves guard cells",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 68\u201370 on the information below and on your knowledge of biology.\n68\u201370 Feedback mechanisms have evolved that maintain homeostasis. Describe how homeostasis is\nmaintained through feedback. In your answer, be sure to:\n\u2022 identify one feedback mechanism in the human body   [1]\n\u2022 identify, other than death, one specific result if homeostasis fails in the human body   [1]\n\u2022 describe how a plant regulates water loss through a feedback mechanism that involves guard cells   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Describe a trade-off that must be considered in the decision whether to move forward with hydrofracking.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 71 and 72 on the information below and on your knowledge of biology.\nNew York State relies on natural gas for 24% of its energy supply. It is estimated that\nlarge deposits of natural gas are located in New York State. It is possible to extract the gas\nvia high-volume hydraulic fracturing (hydrofracking). Hydrofracking involves freeing the\nnatural gas by using a large amount of water treated with chemicals, which produces large\nquantities of waste products. Some people are in favor of hydrofracking, while others are\nagainst it. One side is concerned about the negative effect it will have on the environment.\nThe other side points out the potential benefits it might provide.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Identify one renewable alternative to natural gas as an energy source that New York State could use and describe the advantage of using this source,",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 71 and 72 on the information below and on your knowledge of biology.\nNew York State relies on natural gas for 24% of its energy supply. It is estimated that\nlarge deposits of natural gas are located in New York State. It is possible to extract the gas\nvia high-volume hydraulic fracturing (hydrofracking). Hydrofracking involves freeing the\nnatural gas by using a large amount of water treated with chemicals, which produces large\nquantities of waste products. Some people are in favor of hydrofracking, while others are\nagainst it. One side is concerned about the negative effect it will have on the environment.\nThe other side points out the potential benefits it might provide.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "A class is recording pulse rates of the students in a data table like the one shown below. Class Pulse Rates One student checks his pulse and counts 23 beats over a time interval of 20 seconds. In which row in the data table should the pulse rate of this student be recorded?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/january-2014/q73.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a compound light microscope. Several parts have been labeled. In order to make an image brighter, which labeled part of the microscope would most likely be adjusted?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D A B C D I I I I I I I I I I I I Row Pulse Rate (beats per minute) Number of Students A < 51 B 51\u201370 C 71\u201390 D >90"
+      ],
+      "image": "/images/exams/living-environment/january-2014/q74.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "Cell membranes are said to be selectively permeable. Which statement best explains what selectively permeable means?",
+      "choices": [
+        "The cell membrane prevents any harmful substance from entering the cell.",
+        "The cell membrane lets certain substances enter the cell and keeps certain substances out of the cell.",
+        "The cell membrane allows only large molecules to diffuse into the cell.",
+        "The cell membrane has pores that let only water and glucose into the cell and carbon dioxide out."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "The death of the plants was most likely due to",
+      "choices": [
+        "water moving into plant cells from the surrounding environment",
+        "water moving out of plant cells into the surrounding environment",
+        "both water and salt moving from plant cells into the surrounding environment",
+        "both water and salt moving into plant cells from the surrounding environment"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 76 and 77 on the information below and on your knowledge of biology.\nOne of the effects of Hurricane Katrina, which devastated New Orleans in 2005, was\nthe death of almost all of the plants in flooded areas. Initially, toxic chemicals and bacteria\nwere suspected as a possible cause. Scientists later determined that the salt concentration\nin the floodwater caused the plants to die.\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "77",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 and 77 on the information below and on your knowledge of biology.\nOne of the effects of Hurricane Katrina, which devastated New Orleans in 2005, was\nthe death of almost all of the plants in flooded areas. Initially, toxic chemicals and bacteria\nwere suspected as a possible cause. Scientists later determined that the salt concentration\nin the floodwater caused the plants to die.\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Which plant species appears to be most closely related to the unknown species? Support your answer. Species: ________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2014/context_78_79.png",
+      "context": "Base your answers to questions 78 and 79 on the information and data table below and on your knowledge\nof biology.\nAn investigation was carried out on four different plant species to determine which of\nthree species was most closely related to an unknown plant species. The results of the \ninvestigation are shown in the data table below.\nComparison of Four Plant Species",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify two pieces of evidence, other than those shown in the chart, that can be used to determine if two plant species are related. (1) (2) Plant Species Test for Enzyme M Differences in Amino Acid Sequences Gel Electrophoresis Banding Pattern unknown + 11, 8, 6, 2 1 \u2013 4 24, 8, 5 2 + 1 11, 8, 6, 2 3 + 3 13, 7, 5, 2",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2014/context_78_79.png",
+      "context": "Base your answers to questions 78 and 79 on the information and data table below and on your knowledge\nof biology.\nAn investigation was carried out on four different plant species to determine which of\nthree species was most closely related to an unknown plant species. The results of the \ninvestigation are shown in the data table below.\nComparison of Four Plant Species",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "There are a number of islands in the Galapagos that these finches could possibly inhabit. Explain why each island would not be expected to have all of the species shown. Large ground finch Vegetarian finch Large tree finch Small tree finch Woodpecker finch Warbler finch Cactus finch Sharp-billed ground finch Small ground finch Medium ground finch E d g e c r u s h i n g B i t i n g t i p s C r u s h i n g b i l l s Mainly plant food Mainly animal food G r a s p i n g b i l l s 100% animal food P r o b i n g P r o b i n g b i l l s From: Galapagos: A Natural History Guide Variations in Beaks of Galapagos Islands Finches",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2014/context_80_80.png",
+      "context": "Base your answer to question 80 on the diagram below and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Which statement is correct concerning the nutritional preferences of these finches?",
+      "choices": [
+        "The three species do not compete for food because they eat different types of foods.",
+        "The vegetarian and cactus finches compete for food because they both feed on producers.",
+        "The vegetarian and warbler finches compete for food because they both live in trees.",
+        "The three species of finches compete for food because their beaks are similar in shape and size."
+      ],
+      "image": "/images/exams/living-environment/january-2014/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the information and chart below and on your knowledge\nof biology.\nThe Galapagos Islands are home to many different species of finches. Three finch\nspecies, their relative beak sizes, and their food preferences are represented below. All\nthree species live on the same island.\nNote: The answers to questions 81 and 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "Which process allows for the evolution of finches over time?",
+      "choices": [
+        "natural selection",
+        "selective breeding",
+        "asexual reproduction",
+        "ecological succession Name Foods Three Galapagos Finches and Their Sources of Nutrition Vegetarian finch Warbler finch Cactus finch Buds, leaves,"
+      ],
+      "image": "/images/exams/living-environment/january-2014/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the information and chart below and on your knowledge\nof biology.\nThe Galapagos Islands are home to many different species of finches. Three finch\nspecies, their relative beak sizes, and their food preferences are represented below. All\nthree species live on the same island.\nNote: The answers to questions 81 and 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Complete the food web below by placing the names of the finches in the correct locations.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2014/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the information and chart below and on your knowledge\nof biology.\nThe Galapagos Islands are home to many different species of finches. Three finch\nspecies, their relative beak sizes, and their food preferences are represented below. All\nthree species live on the same island.\nNote: The answers to questions 81 and 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Identify one trait, other than a beak characteristic, that could affect the survival of a finch. Support your answer.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

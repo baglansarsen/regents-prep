@@ -1,0 +1,1111 @@
+{
+  "subject": "living-environment",
+  "session": "january-2024",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Homeostasis in single-celled organisms is maintained through the proper functioning of",
+      "choices": [
+        "organelles",
+        "estrogen",
+        "guard cells",
+        "antibodies"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "In a stable ecosystem, each niche is usually occupied by only one species. The species occupying a particular niche is able to continue to remain there as a direct result of",
+      "choices": [
+        "ecological succession",
+        "favorable adaptations",
+        "a new mutation",
+        "selective breeding"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "When exposed to ultraviolet (UV) light, human skin cells produce the protein melanin. This protein helps protect skin cells from damage caused by UV light. This is an example of",
+      "choices": [
+        "a gene that cannot be passed on to offspring",
+        "natural selection producing a new species",
+        "sexual reproduction that will produce variation",
+        "environmental factors affecting gene expression"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The human pancreas contains cells that secrete insulin. Only these cells produce insulin because",
+      "choices": [
+        "cells eliminate the parts of the genetic code they do not use",
+        "all other cells lack the genes for insulin production",
+        "different cells use different parts of the genetic information that they contain",
+        "they are the only cells associated with the digestion of sugar"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "In humans, two organ systems work together to move oxygen throughout the body and deliver it to cells. Which system directly delivers oxygen to body cells?",
+      "choices": [
+        "nervous",
+        "digestive",
+        "respiratory",
+        "circulatory"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Currently, turtle populations are decreasing. In September 2018, a scientist stated that turtles contribute to the health of many environments, and the decline of the turtles may lead to negative effects on other species. Source:http://mdc.mo.gov/conmag/2018-08/ three-toed-box-turtle Which statement best summarizes the scientist\u2019s statement?",
+      "choices": [
+        "Living organisms interact with and are dependent on their environment and each other.",
+        "Turtles are very large animals and thus have a negative effect on their environment wherever they live.",
+        "If organisms have a negative effect on their environment, there is probably a technological fix available.",
+        "The decline of the turtles will not really matter because relatively few humans rely on them for food."
+      ],
+      "image": "/images/exams/living-environment/january-2024/q6.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which set of substances are molecular building blocks that directly form some of the complex organic molecules present in humans?",
+      "choices": [
+        "water and oxygen",
+        "starch and nitrogen",
+        "carbon dioxide and proteins",
+        "glucose and amino acids"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a process that occurs in many cells. A G C C G C G A T C G G C A T A T A T A T A T C G A T A T A T A T A T C G G C A T A T G C G C A T A T A T A T G C C T C G C C G A G The main function of this process is to",
+      "choices": [
+        "produce variations in cells before asexual reproduction",
+        "synthesize antigens needed to combat immunity",
+        "provide exact copies of the genetic code before cell division",
+        "make proteins needed for cellular metabolism"
+      ],
+      "image": "/images/exams/living-environment/january-2024/q8.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which interaction is an example of competition between two species?",
+      "choices": [
+        "mice and chipmunks eating sunflower seeds at a bird feeder",
+        "mold growing on a tree that has fallen in the forest",
+        "a coyote feeding on the remains of a squirrel killed on the road",
+        "a lion stalking, killing, and eating a zebra"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "One important reason that humans have such a significant effect on Earth\u2019s ecosystems is that humans",
+      "choices": [
+        "remove large amounts of carbon dioxide from the air",
+        "are able to increase the amount of finite resources",
+        "can modify the environment through technology",
+        "reproduce faster than other animal species"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Mutations can be beneficial to a species because they",
+      "choices": [
+        "can lead to some members of a species having favorable traits in a changing environment",
+        "allow organisms to mate with other species",
+        "will lead to the loss of traits that are helpful in a specific environment",
+        "cause the reproductive rate of a species to decrease"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Within ten years after the introduction of a new mosquito spray, very few of the descendants of the targeted mosquito populations were killed by the usual dose of the spray. The best explanation for this is that",
+      "choices": [
+        "ingesting the spray caused the mosquitoes to become resistant to it",
+        "the spray polluted the water in which the mosquitoes deposited their eggs",
+        "the spray killed organisms that caused diseases in mosquitoes",
+        "existing variations in the mosquito population provided resistance to the spray"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Once implanted into a recipient, bioengineered blood vessels made from a plastic-like material become covered with the recipient\u2019s own cells. An advantage of using these bioengineered vessels is that",
+      "choices": [
+        "they contain antibodies that will block an immune response",
+        "viruses and bacteria will not infect the cells on these blood vessels",
+        "they do not trigger an immune response",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Unlike telephone messages that pass over the telephone wires, messages between parts of the body are carried by a series of nerve cells that are not in direct contact with each other. Communication between two nerve cells is represented in the diagram below. Nerve cell Nerve cell Which statement best explains how the message is delivered, even though these cells are not physically connected with each other?",
+      "choices": [
+        "The cells communicate with the use of chemical messengers between them.",
+        "The cells send messages by direct contact with other types of cells.",
+        "Nutrients are the primary means of communication between cells.",
+        "Ribosomes move out of one nerve cell into the other."
+      ],
+      "image": "/images/exams/living-environment/january-2024/q14.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "A saltwater aquarium contained a variety of saltwater fish and plants. Members of a species of small fish from a freshwater stream were accidentally added to the saltwater tank. Within an hour, all of the fish that were added were dead, while the saltwater fish were still healthy. The freshwater fish most likely died because they",
+      "choices": [
+        "became severely dehydrated due to the process of diffusion",
+        "swelled up and died due to taking in too much water",
+        "had no freshwater organisms to eat in the saltwater tank, so they died of starvation",
+        "ate all of the plants in the tank, so there was no longer oxygen in the water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "An energy pyramid containing green plants and other organisms from a food chain is represented below. III II I Herbivores would most likely be located in",
+      "choices": [
+        "level I, only",
+        "level II, only",
+        "level III, only",
+        "level I and level II"
+      ],
+      "image": "/images/exams/living-environment/january-2024/q16.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The axolotl, also known as the Mexican walking fish, can regenerate parts of its body, such as a leg or a tail. Source: https://futurism.com/meet-axolotl-mexican- walking-fish The regeneration of these parts involves the process of",
+      "choices": [
+        "biotechnology",
+        "selective breeding",
+        "mitotic cell division",
+        "fertilization"
+      ],
+      "image": "/images/exams/living-environment/january-2024/q17.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which would most likely control an insect pest and be the least harmful to the environment?",
+      "choices": [
+        "eliminating the plants that the insect pest feeds on",
+        "using traps baited with sex hormones that attract the insect pest",
+        "releasing imported insects that prey on the insect pest",
+        "spraying areas with insecticides that affect the insect pest"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which statement concerning the functioning of cells is correct?",
+      "choices": [
+        "Mitochondria transfer energy from organic compounds to form ATP molecules.",
+        "Vacuoles are the sites of DNA synthesis.",
+        "The nucleus stores genes that will later be removed from the cell.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The photograph below shows the result of a deadly wildfire in California in 2018. Source: Snopes.com What is most likely expected to occur to this ecosystem in the future?",
+      "choices": [
+        "The ecosystem will eventually restore itself, but will be very different from the original.",
+        "The ecosystem will eventually restore itself and will be similar to the original.",
+        "The ecosystem will be completely reestablished after six months.",
+        "The ecosystem will be unable to reach a state of stability again."
+      ],
+      "image": "/images/exams/living-environment/january-2024/q20.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The kittens shown below were born in the same litter. Source: https://www.thesprucepets.com Kittens in the same litter often have similar characteristics, such as fur texture and markings, because they",
+      "choices": [
+        "were fed milk from the same mother",
+        "developed in the same environment",
+        "inherited similar genes",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2024/q21.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Damage to which structure would directly interfere with the nutritional needs of a developing embryo?",
+      "choices": [
+        "ovary",
+        "testes",
+        "lungs",
+        "placenta"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The body\u2019s inability to regulate blood pH could affect",
+      "choices": [
+        "enzymes that function within the circulatory system",
+        "red blood cells\u2019 ability to fight infections",
+        "white blood cells\u2019 ability to carry oxygen to the body",
+        "DNA that controls starch digestion in the circulatory system"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Test anxiety and stress can trigger many responses in the human body. It can stimulate increased heart and respiratory rates and increased sweating. These physical responses to increased stress are examples of",
+      "choices": [
+        "competition",
+        "infections",
+        "gene manipulation",
+        "feedback mechanisms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "A self-sustaining ecosystem in a glass tank must include",
+      "choices": [
+        "producers, decomposers, light, and water",
+        "herbivores, consumers, decomposers, and water",
+        "decomposers, heterotrophs, light, water, and carbon",
+        "heterotrophs, water, and carbon dioxide"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Scientists examined 39 tree species from warm and cold areas of Earth, and found that the trees were able to regulate their leaf temperatures, keeping them about 21\u00b0C. This meant that the leaves were able to be cooler than their environment in warm areas, but warmer than the environment in cool areas. This is an example of",
+      "choices": [
+        "maintaining homeostasis by responding to environmental change",
+        "controlling carbon dioxide release during daylight hours",
+        "decreasing evaporation for cooling during evening hours",
+        "failing to respond to environmental conditions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a food web. Wolves Snakes Toads Raccoons Deer Mice Grasses Grasshoppers A Meadow Environment Two carnivores represented in this food web are",
+      "choices": [
+        "deer and mice",
+        "grasses and grasshoppers",
+        "deer and wolves",
+        "toads and snakes"
+      ],
+      "image": "/images/exams/living-environment/january-2024/q27.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "A sea slug found along the eastern coast of North America is known to have an interesting relationship with algae. The sea slug incorporates part of the algae into its tissues. This allows the sea slug to directly use energy from the Sun. Which structures from the algae would the sea slug need to take in to accomplish this?",
+      "choices": [
+        "nuclei",
+        "mitochondria",
+        "chloroplasts",
+        "ribosomes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which three processes usually result in the greatest variety of possible gene combinations?",
+      "choices": [
+        "mutation, meiosis, and fertilization",
+        "differentiation, mitosis, and fertilization",
+        "cloning, meiosis, and fertilization",
+        "differentiation, mutation, and fertilization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "All the genetic information necessary for the growth and development in a sexually reproducing animal is present in",
+      "choices": [
+        "egg cells, only",
+        "sperm cells, only",
+        "either sperm cells or egg cells",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Venus flytraps are plants that have specialized leaves that can capture insects. Researchers have discovered evidence that supports the claim that Venus flytraps do not capture the insects that usually pollinate them. The researchers studied the remains of captured insects in more than 200 plants. The remains did not contain any of the three most common pollinators of the plants. Additional research showed that 87% of Venus flytrap pollinators can fly, and only 20% of the insects captured can fly. The flowers of the Venus flytrap are elevated above the leaves of the plant. Source: https://images.app.goo.gl/ pPDkkaXA4QWkj887 In order to support the claim that the pollinators of the Venus flytrap are mostly flying insects, the researchers would",
+      "choices": [
+        "publish the study immediately and ask other researchers to support their claim",
+        "expand the study to other Venus flytrap habitats and determine the number of flying and nonflying insect remains found in the plants there",
+        "continue to study the insects found in the Venus flytraps in the research area, but only record the num\u00ad ber of insects without wings",
+        "compare the kinds of insect bodies with and without wings found in pitcher plants, a plant similar to the Venus flytrap, with the kinds of insects found in the original study"
+      ],
+      "image": "/images/exams/living-environment/january-2024/q31.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "In an experiment using a particular frog species, nuclei were removed from the intestinal cells of tadpoles and transplanted into eggs whose nuclei had been removed. A small number of these eggs developed into normal frogs. This suggests that the nuclei of tadpole intestinal cells",
+      "choices": [
+        "can undergo meiosis and form gametes",
+        "contain all of the genetic information needed for frog development",
+        "will undergo mitosis and form a new zygote",
+        "fused with the frog genes already present in the zygotes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Which graph would most accurately represent the relationship between the four kinds of bases found in DNA? ( 2 ) Bases Number of Bases A G C T ( 1 ) Bases Number of Bases A G C T ( 4 ) Bases Number of Bases A G C T ( 3 ) Bases Number of Bases A G C T",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The graph below shows the acid tolerance of nine species living in water at different pH values. Acid Tolerance of Nine Animal Species Less acidic / More acidic Acid Tolerance Trout Mayfly larvae Salamanders Frogs Perch Bass Snails Crayfish Clams pH 6.5 pH 6.0 pH 5.5 pH 5.0 pH 4.5 pH 4.0 Which statement best represents the information shown in the graph?",
+      "choices": [
+        "Frogs tolerate more acidic conditions than the other organisms.",
+        "All nine species survive equally well in the same habitat, regardless of acidity.",
+        "Perch are more sensitive to acidic conditions than are snails.",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2024/q34.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which statement best describes these camel characteristics?",
+      "choices": [
+        "Natural selection favored other characteristics over the ones listed.",
+        "The listed characteristics are the result of manipulating genes in female camels.",
+        "These characteristics have adaptive value for the camel.",
+        "Camels have these characteristics because they needed them."
+      ],
+      "image": "/images/exams/living-environment/january-2024/context_35_35.png",
+      "context": "Base your answer to question 35 on the information below and on your knowledge of biology.\n    \nSource: https://animals.sandiegozoo.org/animals/camel",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Decreases in soil, air, and water quality can result from human activities that have",
+      "choices": [
+        "negatively influenced these resources by removing pollutants",
+        "modified natural cycles, increasing the quality of these resources",
+        "resulted in an increase in the stability of these resources",
+        "had a negative influence on the natural systems that maintain these resources"
+      ],
+      "image": "/images/exams/living-environment/january-2024/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the information below and on your knowledge of biology.\nHumans rely on the stability of ecosystems for long-term health. Some of the current hazards to human \nhealth are represented in the diagram below.\nDecreased \nsoil quality\nClimate change\nIncreased \ninfectious diseases\nHuman health\nIncreased \nrespiratory \ndiseases\nDecreased fresh \nwater quality\nDecreased \nair quality\nLoss of \nbiodiversity",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Current evidence has indicated that with an increase in global temperature, there will be more infectious and respiratory diseases. Worldwide efforts to slow down or halt the rise in temperature are being developed to",
+      "choices": [
+        "increase the strain on the biosphere, resulting in the destruction of ecosystems",
+        "introduce proposals that will limit the improvement of air, soil, and water quality",
+        "protect resources for future generations",
+        "increase the release of greenhouse gases into the atmosphere Desert camels have: \u2022 large feet \u2022 nostrils that can be closed \u2022 fat stored in their humps \u2022 a body temperature between 33.9\u00b0C and 41.7\u00b0C \u2022 thick lips \u2022 brown coat color \u2022"
+      ],
+      "image": "/images/exams/living-environment/january-2024/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the information below and on your knowledge of biology.\nHumans rely on the stability of ecosystems for long-term health. Some of the current hazards to human \nhealth are represented in the diagram below.\nDecreased \nsoil quality\nClimate change\nIncreased \ninfectious diseases\nHuman health\nIncreased \nrespiratory \ndiseases\nDecreased fresh \nwater quality\nDecreased \nair quality\nLoss of \nbiodiversity",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which sequence represents the correct interaction of organelles and processes for the synthesis of proteins?",
+      "choices": [
+        "nucleus \u2192 amino acid bonding \u2192 ribosomes \u2192 gene codes",
+        "ribosomes \u2192 nucleus \u2192 gene codes \u2192 amino acid bonding",
+        "ribosomes \u2192 gene codes \u2192 amino acid bonding \u2192 nucleus",
+        "nucleus \u2192 gene codes \u2192 ribosomes \u2192 amino acid bonding"
+      ],
+      "image": "/images/exams/living-environment/january-2024/q38.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "What would occur if both structures labeled B were damaged or blocked?",
+      "choices": [
+        "The egg would remain in the uterus and not travel to the ovary.",
+        "The egg would not be able to unite with the sperm.",
+        "The reproductive cycle in the female would stop.",
+        "The process of mitosis would stop in the ovary."
+      ],
+      "image": "/images/exams/living-environment/january-2024/context_39_40.png",
+      "context": "Base your answers to questions 39 and 40 on the information below and on your knowledge of biology. The \nletters in the diagram indicate structures present in a human female.\nA\nB\nB\nA\nC\nD",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Identify the structure that supports the development of the fetus and is also influenced by hormones.",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/january-2024/context_39_40.png",
+      "context": "Base your answers to questions 39 and 40 on the information below and on your knowledge of biology. The \nletters in the diagram indicate structures present in a human female.\nA\nB\nB\nA\nC\nD",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Based on this and other similar studies involving newborns, medical professionals recommend that pregnant women avoid secondhand smoke because chemicals in the smoke",
+      "choices": [
+        "cause mutations in the cells of the ovaries",
+        "affect the growth of the fetus",
+        "are unable to pass through the placenta",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2024/context_41_41.png",
+      "context": "Base your answer to question 41 on the data table below and on your knowledge of biology.\nThe data table shows an effect of secondhand smoke (SHS) on newborn babies of nonsmoking women.\nEffect of Secondhand Smoke (SHS) on Newborns of Nonsmoking Women\nWomen Exposed to SHS\nWomen Not Exposed to SHS\nNumber of Newborns in Study\n1085\n2341\nBirth Weight (mean)\n3.15 Kg\n3.21 Kg\nLength (mean)\n49.62 cm\n49.87 cm\nHead Circumference (mean)\n34.05 cm\n34.14 cm\nSource: www.biomedcentral.com",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The graph below shows the daily rates of water loss in various plant species. Tomato Sunflower Ragweed Apple Tree 200 100 300 Liters per Day 400 500 Water-Loss Rates in Various Plant Species 1 5 6 19 75 450 Date Palm Coconut palm Source: Adapted from AP Biology Grid Even though these plants grow in different environments, they most likely control water loss through",
+      "choices": [
+        "the synthesis of proteins in their roots",
+        "the functioning of the cell membranes in their flowers",
+        "the actions of the guard cells in their leaves",
+        "the storage of glucose in the vacuoles in their stems"
+      ],
+      "image": "/images/exams/living-environment/january-2024/q42.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The graph below represents the white-tailed deer population in a certain area of New York State during two different years (A and B). Year A Year B White-tailed Deer Population Number of Deer Time One reason that the population of deer is greater during Year B than during Year A could be that, during Year B, there were fewer",
+      "choices": [
+        "resources available",
+        "decomposers adding nutrients to the soil",
+        "white-tail deer predators present",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2024/q43.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale on the axis labeled \u201cNumber of Measles Cases.\u201d",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information and data table below and on your\nknowledge of biology.\nMeasles is a serious viral infection that can be fatal in small children. Before the measles \nvaccination program started in 1963, about 3 to 4 million people in the United States got \nmeasles each year.\nThe Centers for Disease Control (CDC) set a goal to eliminate measles from the \nUnited States through the widespread use of a highly effective measles vaccine, programs to \nencourage the vaccination of all children, and a public health system to respond to measles \noutbreaks.\nIn 2000, the CDC declared that measles was eliminated from the United States. However, \nmeasles remains present in many other countries and can be brought into the United States \nby unvaccinated travelers.\nNumber of Measles Cases\nin the United States per Year\nYear\nNumber of\nMeasles Cases\n2010\n63\n2011\n220\n2012\n55\n2013\n187\n2014\n667\n2015\n188\n2016\n86\n2017\n120\n2018\n372\n2019*\n839\n* As of 5/10/19\nSource: https://www.cdc.gov/measles/cases\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment\u2013 Jan. \u201924\t\n[13]\t\n[OVER]\nDirections (44\u201345): Using the information given in the data table, construct a bar graph on the grid provided, \nfollowing the instructions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for marking an appropriate scale on the axis labeled \u201cNumber of Measles Cases.\u201d Note: Do not allow credit if the grid is altered to accommodate the scale."
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Construct vertical bars to represent the data recorded in the table. Shade in each bar. Example: 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 Year Number of Measles Cases Number of Measles Cases in the United States per Year",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information and data table below and on your\nknowledge of biology.\nMeasles is a serious viral infection that can be fatal in small children. Before the measles \nvaccination program started in 1963, about 3 to 4 million people in the United States got \nmeasles each year.\nThe Centers for Disease Control (CDC) set a goal to eliminate measles from the \nUnited States through the widespread use of a highly effective measles vaccine, programs to \nencourage the vaccination of all children, and a public health system to respond to measles \noutbreaks.\nIn 2000, the CDC declared that measles was eliminated from the United States. However, \nmeasles remains present in many other countries and can be brought into the United States \nby unvaccinated travelers.\nNumber of Measles Cases\nin the United States per Year\nYear\nNumber of\nMeasles Cases\n2010\n63\n2011\n220\n2012\n55\n2013\n187\n2014\n667\n2015\n188\n2016\n86\n2017\n120\n2018\n372\n2019*\n839\n* As of 5/10/19\nSource: https://www.cdc.gov/measles/cases\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment\u2013 Jan. \u201924\t\n[13]\t\n[OVER]\nDirections (44\u201345): Using the information given in the data table, construct a bar graph on the grid provided, \nfollowing the instructions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for constructing vertical bars to correctly represent the data. 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 Year Number of Measles Cases 100 200 300 400 500 600 700 800 Number of Measles Cases in the United States per Year Note: Allow credit if the correct data are clearly represented, even if the bars are not shaded. Do not assume that the intersection of the x- and y-axes is the origin (0,0) unless it is labeled. An appropriate scale only needs to include the data range in the data table."
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Children who receive the CDC\u2019s recommended two doses of the measles vaccine are considered to be protected from the measles virus for life. Explain why the protection provided by some vaccines can last a lifetime.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information and data table below and on your\nknowledge of biology.\nMeasles is a serious viral infection that can be fatal in small children. Before the measles \nvaccination program started in 1963, about 3 to 4 million people in the United States got \nmeasles each year.\nThe Centers for Disease Control (CDC) set a goal to eliminate measles from the \nUnited States through the widespread use of a highly effective measles vaccine, programs to \nencourage the vaccination of all children, and a public health system to respond to measles \noutbreaks.\nIn 2000, the CDC declared that measles was eliminated from the United States. However, \nmeasles remains present in many other countries and can be brought into the United States \nby unvaccinated travelers.\nNumber of Measles Cases\nin the United States per Year\nYear\nNumber of\nMeasles Cases\n2010\n63\n2011\n220\n2012\n55\n2013\n187\n2014\n667\n2015\n188\n2016\n86\n2017\n120\n2018\n372\n2019*\n839\n* As of 5/10/19\nSource: https://www.cdc.gov/measles/cases\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment\u2013 Jan. \u201924\t\n[13]\t\n[OVER]\nDirections (44\u201345): Using the information given in the data table, construct a bar graph on the grid provided, \nfollowing the instructions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The immune system remembers the antigens/spiked proteins on the virus. \u2014 The measles virus doesn\u2019t change/change shape every year. \u2014 The immune system remembers the virus. \u2014 The immune system produces antibodies that remain present in the body. \u2014 Some white blood cells remain that are able to fight off invaders many years later. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Based on the data, students noticed that there was a large increase in the number of measles cases in 2014. Which statement best explains the research the students might do to state a claim about the cause of this increase?",
+      "choices": [
+        "Determine if the outbreak that occurred in 2014 occurred in unvaccinated people.",
+        "Check if the virus mutated, resulting in a decrease in the number of people infected with measles.",
+        "Investigate the vaccine that children received in 2014 to see if it mutated.",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2024/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information and data table below and on your\nknowledge of biology.\nMeasles is a serious viral infection that can be fatal in small children. Before the measles \nvaccination program started in 1963, about 3 to 4 million people in the United States got \nmeasles each year.\nThe Centers for Disease Control (CDC) set a goal to eliminate measles from the \nUnited States through the widespread use of a highly effective measles vaccine, programs to \nencourage the vaccination of all children, and a public health system to respond to measles \noutbreaks.\nIn 2000, the CDC declared that measles was eliminated from the United States. However, \nmeasles remains present in many other countries and can be brought into the United States \nby unvaccinated travelers.\nNumber of Measles Cases\nin the United States per Year\nYear\nNumber of\nMeasles Cases\n2010\n63\n2011\n220\n2012\n55\n2013\n187\n2014\n667\n2015\n188\n2016\n86\n2017\n120\n2018\n372\n2019*\n839\n* As of 5/10/19\nSource: https://www.cdc.gov/measles/cases\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment\u2013 Jan. \u201924\t\n[13]\t\n[OVER]\nDirections (44\u201345): Using the information given in the data table, construct a bar graph on the grid provided, \nfollowing the instructions below.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "While measles was once declared eliminated in the United States, explain why the CDC continues to recommend that children receive the measles vaccine.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information and data table below and on your\nknowledge of biology.\nMeasles is a serious viral infection that can be fatal in small children. Before the measles \nvaccination program started in 1963, about 3 to 4 million people in the United States got \nmeasles each year.\nThe Centers for Disease Control (CDC) set a goal to eliminate measles from the \nUnited States through the widespread use of a highly effective measles vaccine, programs to \nencourage the vaccination of all children, and a public health system to respond to measles \noutbreaks.\nIn 2000, the CDC declared that measles was eliminated from the United States. However, \nmeasles remains present in many other countries and can be brought into the United States \nby unvaccinated travelers.\nNumber of Measles Cases\nin the United States per Year\nYear\nNumber of\nMeasles Cases\n2010\n63\n2011\n220\n2012\n55\n2013\n187\n2014\n667\n2015\n188\n2016\n86\n2017\n120\n2018\n372\n2019*\n839\n* As of 5/10/19\nSource: https://www.cdc.gov/measles/cases\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment\u2013 Jan. \u201924\t\n[13]\t\n[OVER]\nDirections (44\u201345): Using the information given in the data table, construct a bar graph on the grid provided, \nfollowing the instructions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Measles hasn\u2019t been eliminated in other places in the world, so people can still get measles. \u2014 Vaccinating most people reduces the chances of it spreading. \u2014 There is still a chance of catching measles from unvaccinated individuals. \u2014 Measles hasn\u2019t been totally eliminated/is still a problem. 49 4 50 2"
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "A person refuses to get the measles vaccine because they claim that the vaccination will cause them to develop the measles. This claim is unsupported because the measles vaccination contains only",
+      "choices": [
+        "antibodies to fight the flu, not the actual flu virus",
+        "the chicken pox virus, not the measles virus",
+        "the active measles virus that stimulates the immune system to make measles antigens",
+        "parts of the measles virus that triggers the immune system to fight the measles"
+      ],
+      "image": "/images/exams/living-environment/january-2024/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information and data table below and on your\nknowledge of biology.\nMeasles is a serious viral infection that can be fatal in small children. Before the measles \nvaccination program started in 1963, about 3 to 4 million people in the United States got \nmeasles each year.\nThe Centers for Disease Control (CDC) set a goal to eliminate measles from the \nUnited States through the widespread use of a highly effective measles vaccine, programs to \nencourage the vaccination of all children, and a public health system to respond to measles \noutbreaks.\nIn 2000, the CDC declared that measles was eliminated from the United States. However, \nmeasles remains present in many other countries and can be brought into the United States \nby unvaccinated travelers.\nNumber of Measles Cases\nin the United States per Year\nYear\nNumber of\nMeasles Cases\n2010\n63\n2011\n220\n2012\n55\n2013\n187\n2014\n667\n2015\n188\n2016\n86\n2017\n120\n2018\n372\n2019*\n839\n* As of 5/10/19\nSource: https://www.cdc.gov/measles/cases\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment\u2013 Jan. \u201924\t\n[13]\t\n[OVER]\nDirections (44\u201345): Using the information given in the data table, construct a bar graph on the grid provided, \nfollowing the instructions below.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Neural Tube Defect Risk (Per 10,000 births) 200 0 800 600 400 Red Blood Cell Folate Concentration (nmol/L) 1,000 1,400 1,200 1,600 Source: British Medical Journal, 29 July 2014 50 According to the graph, what is the minimum amount of folate needed to reduce the risk of neural tube defects to 10 or less per 10,000 births?",
+      "choices": [
+        "800 nmol/L",
+        "890 nmol/L",
+        "1000 nmol/L",
+        "1400 nmol/"
+      ],
+      "image": "/images/exams/living-environment/january-2024/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the information below and on your knowledge of biology.\nOne important vitamin that pregnant women should consume is folic acid. Folic acid is \nconverted to folate in the body. It is well known that women who have a diet rich in folic acid \nshow a decreased risk of having babies with neural tube (central nervous system) defects.\nScientists conducted a study to determine the optimal amount of folic acid needed in \nthe mother\u2019s diet to prevent neural tube defects. The results are shown in the graph below.\nFolate Relationship to Neural Tube Defects\n25\n0\n5\n10\n15\n20\n40\n30\n35\n55\n60\n45",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "The table below shows some of the major milestones in fetal development. Week Milestones in Fetal Development 1 Embryo implants and continues to develop 3 Embryo has 3 distinct layers 4 Neural tube forms, limbs develop 5 Primitive lens, mouth and digits form 6 Primitive nose forms, neural tube closes, heartbeat can be detected 8 Internal organs can be distinguished 10 Lung buds appear By what week should women have the optimal amount of folic acid in their diet? Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the information below and on your knowledge of biology.\nOne important vitamin that pregnant women should consume is folic acid. Folic acid is \nconverted to folate in the body. It is well known that women who have a diet rich in folic acid \nshow a decreased risk of having babies with neural tube (central nervous system) defects.\nScientists conducted a study to determine the optimal amount of folic acid needed in \nthe mother\u2019s diet to prevent neural tube defects. The results are shown in the graph below.\nFolate Relationship to Neural Tube Defects\n25\n0\n5\n10\n15\n20\n40\n30\n35\n55\n60\n45",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying the week women should have the optimum amount of folic acid in their diet as week 3 or 4 and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Women should have the optimal amount of folic acid in their diet by week 4 because the neural tube begins to develop at this time, and folic acid is necessary for proper neural tube formation. \u2014 Women should have the optimal amount of folic acid by week 4 because that\u2019s when the neural tube develops. \u2014 Women should have the optimal amount by week 3 or before week 4 because the neural tube begins to develop in week 4."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify an organism in this food web that carries out autotrophic nutrition.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_52_53.png",
+      "context": "Base your answers to questions 52 and 53 on the diagram of a food web below and on your knowledge of \nbiology.\nSnakes\nMountain \nlions\nHawks\nRabbits\nDeer\nSeed-\neating\nbirds\nInsect-\neating\nbirds\nTrees\nBacteria\nMushrooms\nGrasses\nFlower \nseeds\nGrasshoppers\nBark\nbeetles",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 grasses \u2014 trees \u2014 flowering plants"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "53",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_52_53.png",
+      "context": "Base your answers to questions 52 and 53 on the diagram of a food web below and on your knowledge of \nbiology.\nSnakes\nMountain \nlions\nHawks\nRabbits\nDeer\nSeed-\neating\nbirds\nInsect-\neating\nbirds\nTrees\nBacteria\nMushrooms\nGrasses\nFlower \nseeds\nGrasshoppers\nBark\nbeetles",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 With fewer mice the grasshoppers may increase and eat more grass since more would be available, so the rabbits may not have more food after all. \u2014 If the mouse population decreases, there would be more grasses available for the rabbits, but the snakes would eat more of the rabbits. \u2014 The snakes would eat more rabbits. \u2014 The rabbit population would probably not increase, since they would be hunted more frequently by snakes. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Whether or not the flooding occurs, plants need to take in water with their roots. Identify one specific process carried on by plants that requires relatively large amounts of water. Support your answer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of biology.\nThe Effect of Flooding on Crops\nFlooding can have a negative effect on certain food crops. Damage occurs because, in \nflooded soils, the oxygen concentration drops to near zero within 24 hours. This is because \nthe water replaces most of the air in the soil.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying one specific process carried on by plants that requires relatively large amounts of water and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Photosynthesis requires large amounts of water, which is a raw material in the process. \u2014 Transport of materials/diffusion within the plant requires water to dissolve the materials being transported. \u2014 Transpiration is the loss of water out of the leaves/movement of water through the plant."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "55",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of biology.\nThe Effect of Flooding on Crops\nFlooding can have a negative effect on certain food crops. Damage occurs because, in \nflooded soils, the oxygen concentration drops to near zero within 24 hours. This is because \nthe water replaces most of the air in the soil.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Oxygen is used in the process of respiration, during which ATP is produced. ATP is required for active transport to occur. \u2014 Active transport requires energy. Oxygen is required for the process of respiration, which releases energy. \u2014 Oxygen is required to release energy, and energy is required for active transport. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Describe one advantage of raising fish in a fish farm.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the passage below and on your knowledge of biology.\nFish Farming\nApproximately 44% of the world\u2019s fish produced for human consumption comes from \naquaculture, which is the farming of fish and other aquatic organisms. This practice has \nincreased the food supply and has also allowed over-fished wild populations to increase. As \na result of genetic modifications, farm-raised fish usually grow faster and are typically larger \nthan those in the wild.\nHowever, there are some negative environmental effects associated with fish farming. Sea \nlice, a parasite of salmon, have spread quickly through some farms and have also been found \nin waters around the farms. Farm-raised fish sometimes escape through breaks in the sea \ncages. There is a concern that these escaped fish could negatively affect ocean ecosystems.\nResearchers are studying methods that can be used to reduce the possible negative \neffects of fish farming. Improvements in engineering could make the sea cages where the \nfarmed fish are raised more secure. Another suggestion involves raising farmed fish that have \nextra chromosomes. This would prevent them from reproducing with wild fish that have the \nnormal number of chromosomes.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 They grow faster and larger than fish in the wild. \u2014 There can be an increase in the amount of food available for the world population. \u2014 Fish populations in natural environments can return to normal numbers. \u2014 They are easier to obtain (catch) than by fishing."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Identify one concern that individuals might have as the number of fish farms increase. Support your answer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the passage below and on your knowledge of biology.\nFish Farming\nApproximately 44% of the world\u2019s fish produced for human consumption comes from \naquaculture, which is the farming of fish and other aquatic organisms. This practice has \nincreased the food supply and has also allowed over-fished wild populations to increase. As \na result of genetic modifications, farm-raised fish usually grow faster and are typically larger \nthan those in the wild.\nHowever, there are some negative environmental effects associated with fish farming. Sea \nlice, a parasite of salmon, have spread quickly through some farms and have also been found \nin waters around the farms. Farm-raised fish sometimes escape through breaks in the sea \ncages. There is a concern that these escaped fish could negatively affect ocean ecosystems.\nResearchers are studying methods that can be used to reduce the possible negative \neffects of fish farming. Improvements in engineering could make the sea cages where the \nfarmed fish are raised more secure. Another suggestion involves raising farmed fish that have \nextra chromosomes. This would prevent them from reproducing with wild fish that have the \nnormal number of chromosomes.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying one concern that individuals might have as the number of fish farms increase and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Sea lice are spreading in the fish farms and in the natural waterways. \u2014 If the larger fish escape, they can outcompete wild salmon. \u2014 Waste products of fish in the farm could pollute the water. \u2014 Escaping fish could have negative effects on ecosystems."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Researchers are studying environmental factors, such as temperature, that could be used to produce more and larger farm-raised fish. Explain why increasing or decreasing the temperature of the water in the fish farm could have negative effects on other organisms in the area of the farm.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the passage below and on your knowledge of biology.\nFish Farming\nApproximately 44% of the world\u2019s fish produced for human consumption comes from \naquaculture, which is the farming of fish and other aquatic organisms. This practice has \nincreased the food supply and has also allowed over-fished wild populations to increase. As \na result of genetic modifications, farm-raised fish usually grow faster and are typically larger \nthan those in the wild.\nHowever, there are some negative environmental effects associated with fish farming. Sea \nlice, a parasite of salmon, have spread quickly through some farms and have also been found \nin waters around the farms. Farm-raised fish sometimes escape through breaks in the sea \ncages. There is a concern that these escaped fish could negatively affect ocean ecosystems.\nResearchers are studying methods that can be used to reduce the possible negative \neffects of fish farming. Improvements in engineering could make the sea cages where the \nfarmed fish are raised more secure. Another suggestion involves raising farmed fish that have \nextra chromosomes. This would prevent them from reproducing with wild fish that have the \nnormal number of chromosomes.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The chemicals that control life functions in the other organisms in the ecosystem may not work if the temperature changes. \u2014 Aquatic organisms are adapted to specific environmental conditions, and they might not be able to survive if a factor like temperature changed. \u2014 A changed environment may affect the genes/reproduction times of certain organisms. \u2014 Certain genes may not be expressed in organisms if a factor such as temperature changes. \u2014 Their enzymes might not work. \u2014 Raising the temperature might reduce the amount of oxygen available."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Explain how the use of weed killers containing glyphosate is responsible for a decrease in the size of monarch populations, since monarchs do not feed on genetically modified corn or soybeans during any stage of their life cycle.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nMonarch Butterfly Decline\nMonarch butterfly populations have fallen by 90% in less than 20 years. Monarchs west \nof the Rocky Mountains overwinter on the central coast of California. Their numbers have \ndropped from 1.2 million to only 200,000. East of the Rocky Mountains, monarchs overwinter \nin Mexico. In 2002, their numbers were down by about 500 million.\nOne reason for the decrease in monarch numbers is the increased planting of corn, \ncotton, and soybeans that are genetically modified (GM) to be resistant to weed killers \ncontaining glyphosate. With the increased use of these GM plants, increased amounts of the \nweed killers are being sprayed on fields where these crops are grown. These weed killers \ndo not kill monarchs and other insects. They kill only plants such as milkweed that do not \ncontain the resistance gene.\nMature adult monarch butterflies lay their eggs on milkweed plants. The larvae \n(caterpillars) eat only milkweed. Adults seek out flower nectar from a variety of plants. Stages \nof the monarch life cycle are represented below.\nMilkweed plant\nChrysalis\nLarva\nEgg\nAdult\nSource: Adapted from http://www.knowledge-gallery.com/\nquestion.php?ID=111\n\nLiving Environment\u2013 Jan. \u201924\t\n[19]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The weed killers kill milkweed and the other flowering plants necessary for the survival of the monarchs. \u2014 The glyphosate kills milkweed. Without milkweed, the monarchs have nowhere to lay their eggs, and the caterpillars have no food source."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "When monarchs overwinter, they do not eat and do not reach sexual maturity until they begin the spring migration. Explain why large areas of flowering plants along their migratory pathways are important to their survival. Predators find both the larvae and adult monarchs toxic and bad-tasting due to the presence of stored chemicals larvae ingest from the milkweed plants. These chemicals do not affect the monarchs, but do affect the cardiovascular and other systems of their predators.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nMonarch Butterfly Decline\nMonarch butterfly populations have fallen by 90% in less than 20 years. Monarchs west \nof the Rocky Mountains overwinter on the central coast of California. Their numbers have \ndropped from 1.2 million to only 200,000. East of the Rocky Mountains, monarchs overwinter \nin Mexico. In 2002, their numbers were down by about 500 million.\nOne reason for the decrease in monarch numbers is the increased planting of corn, \ncotton, and soybeans that are genetically modified (GM) to be resistant to weed killers \ncontaining glyphosate. With the increased use of these GM plants, increased amounts of the \nweed killers are being sprayed on fields where these crops are grown. These weed killers \ndo not kill monarchs and other insects. They kill only plants such as milkweed that do not \ncontain the resistance gene.\nMature adult monarch butterflies lay their eggs on milkweed plants. The larvae \n(caterpillars) eat only milkweed. Adults seek out flower nectar from a variety of plants. Stages \nof the monarch life cycle are represented below.\nMilkweed plant\nChrysalis\nLarva\nEgg\nAdult\nSource: Adapted from http://www.knowledge-gallery.com/\nquestion.php?ID=111\n\nLiving Environment\u2013 Jan. \u201924\t\n[19]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Mature adult monarchs feed on flower nectar. Without flowers, the monarchs would not have the food needed to provide energy for their migration and reproduction. \u2014 Without the energy that the monarchs derive from flower nectar, they would not be able to migrate and reproduce. \u2014 They need the plants for food/energy. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "61",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nMonarch Butterfly Decline\nMonarch butterfly populations have fallen by 90% in less than 20 years. Monarchs west \nof the Rocky Mountains overwinter on the central coast of California. Their numbers have \ndropped from 1.2 million to only 200,000. East of the Rocky Mountains, monarchs overwinter \nin Mexico. In 2002, their numbers were down by about 500 million.\nOne reason for the decrease in monarch numbers is the increased planting of corn, \ncotton, and soybeans that are genetically modified (GM) to be resistant to weed killers \ncontaining glyphosate. With the increased use of these GM plants, increased amounts of the \nweed killers are being sprayed on fields where these crops are grown. These weed killers \ndo not kill monarchs and other insects. They kill only plants such as milkweed that do not \ncontain the resistance gene.\nMature adult monarch butterflies lay their eggs on milkweed plants. The larvae \n(caterpillars) eat only milkweed. Adults seek out flower nectar from a variety of plants. Stages \nof the monarch life cycle are represented below.\nMilkweed plant\nChrysalis\nLarva\nEgg\nAdult\nSource: Adapted from http://www.knowledge-gallery.com/\nquestion.php?ID=111\n\nLiving Environment\u2013 Jan. \u201924\t\n[19]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The larvae eat the milkweed, ingesting the toxic chemicals. When the larvae undergo metamorphosis, the chemicals remain. \u2014 The monarch caterpillars ate the milkweed. They took in the toxic chemicals, and the chemicals remained in their bodies when they became adults."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "State one likely hypothesis that the scientists and students were testing in the studies of the Saratoga Creek marsh.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the information and two graphs below and on your \nknowledge of biology. The graphs represent data published from Data Nuggets.\nRestoration of the Saratoga Creek Salt Marsh\nSince the 1990s, students in coastal Massachusetts have been working with Mass \nAudubon and scientist Liz Duff, collecting data from the Saratoga Creek salt marsh. They \nare studying an invasive species of tall grass called Phragmites that is spreading and crowding \nout native plants and animals.\nSalt marshes are shoreline wetland habitats where salt-loving plants experience the highs \nand lows of the tidal action of seawater. Phragmites prefers water that is low in salt. When \nthe amount of salt in the marsh is low, Phragmites does better than native plants, and when \nthe amount of salt in the marsh water is high, close to the level of seawater, native grasses do \nbetter than Phragmites.\nEvidence indicated that the storm drains built along the roads and homes near the \nshoreline added fresh water to the marsh, making it less salty, and altered sediment levels \nthat reduced the salty ocean water coming into the marsh during high tide. The scientists \nthought that the presence of extra fresh water and sediments was the reason that Phragmites \ninvaded the marsh.\nIn 1999, a restoration project to reverse the invasion of Phragmites began by digging a \nditch along the road to reduce the freshwater runoff entering the marsh. A layer of sediment \nwas also removed, allowing seawater to once again reach the marsh during high tide.\nScientists worked with students collecting data along the same sections of the marsh \nevery year. They used the data to calculate the frequency (abundance) and average height \nof Phragmites plants. The graphs represent the average height and the frequency of the \nPhragmites in the Saratoga Creek salt marsh.\nAverage Height of Phragmites\nYear\nAverage Phragmites Height (cm)\n300\n250\n200\n150\n100\n50\n0\n1998\n1999\n2000\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\nSource: http://datanuggets.org/wp-content/uploads/2015/08/\nSalt-marsh-recovery_StudentA.pdf\n\nLiving Environment\u2013 Jan. \u201924\t\n[21]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 If the freshwater runoff is reduced, then the amount/height of Phragmites would be reduced. \u2014 The extra fresh water added by the storm drains was the reason Phragmites was taking over. \u2014 The added sediments kept the salty seawater from reaching the marsh. \u2014 If salty conditions return, the marsh will be restored. \u2014 Native plants will return if salty conditions return. \u2014 If the salt concentration increases, then the Phragmites population decreases. Note: Do not allow credit for a hypothesis written in the form of a question."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Describe the pattern in the data of the Average Height of Phragmites and explain a cause for the pattern. Be sure to include numerical data from the chart to support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the information and two graphs below and on your \nknowledge of biology. The graphs represent data published from Data Nuggets.\nRestoration of the Saratoga Creek Salt Marsh\nSince the 1990s, students in coastal Massachusetts have been working with Mass \nAudubon and scientist Liz Duff, collecting data from the Saratoga Creek salt marsh. They \nare studying an invasive species of tall grass called Phragmites that is spreading and crowding \nout native plants and animals.\nSalt marshes are shoreline wetland habitats where salt-loving plants experience the highs \nand lows of the tidal action of seawater. Phragmites prefers water that is low in salt. When \nthe amount of salt in the marsh is low, Phragmites does better than native plants, and when \nthe amount of salt in the marsh water is high, close to the level of seawater, native grasses do \nbetter than Phragmites.\nEvidence indicated that the storm drains built along the roads and homes near the \nshoreline added fresh water to the marsh, making it less salty, and altered sediment levels \nthat reduced the salty ocean water coming into the marsh during high tide. The scientists \nthought that the presence of extra fresh water and sediments was the reason that Phragmites \ninvaded the marsh.\nIn 1999, a restoration project to reverse the invasion of Phragmites began by digging a \nditch along the road to reduce the freshwater runoff entering the marsh. A layer of sediment \nwas also removed, allowing seawater to once again reach the marsh during high tide.\nScientists worked with students collecting data along the same sections of the marsh \nevery year. They used the data to calculate the frequency (abundance) and average height \nof Phragmites plants. The graphs represent the average height and the frequency of the \nPhragmites in the Saratoga Creek salt marsh.\nAverage Height of Phragmites\nYear\nAverage Phragmites Height (cm)\n300\n250\n200\n150\n100\n50\n0\n1998\n1999\n2000\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\nSource: http://datanuggets.org/wp-content/uploads/2015/08/\nSalt-marsh-recovery_StudentA.pdf\n\nLiving Environment\u2013 Jan. \u201924\t\n[21]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for describing the pattern in the data of the Average Height of Phragmites and explaining a cause for the pattern, including numerical data from the chart to support the answer. Acceptable responses include, but are not limited to: \u2014 The average height went down from about 280 cm to about 120 cm because the Phragmites doesn\u2019t grow as tall in salty water. \u2014 The average height decreased to around 120 cm. During the restoration project, the height varied, but gradually decreased in the salty water. \u2014 The average height decreased from around 280 cm in 1999, since there was less freshwater runoff each year due to the restoration project."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "The students claimed that the Saratoga Creek restoration that started in 1999 was successful at reducing the Phragmites population. Frequency of Phragmites Year Frequency of Phragmites (%) 70% 60% 50% 40% 30% 10% 20% 0% 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2013 2014 2015 Source: http://datanuggets.org/wp-content/uploads/2015/08/ Salt-marsh-recovery_StudentA.pdf 2012",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_62_64.png",
+      "context": "Base your answers to questions 62 through 64 on the information and two graphs below and on your \nknowledge of biology. The graphs represent data published from Data Nuggets.\nRestoration of the Saratoga Creek Salt Marsh\nSince the 1990s, students in coastal Massachusetts have been working with Mass \nAudubon and scientist Liz Duff, collecting data from the Saratoga Creek salt marsh. They \nare studying an invasive species of tall grass called Phragmites that is spreading and crowding \nout native plants and animals.\nSalt marshes are shoreline wetland habitats where salt-loving plants experience the highs \nand lows of the tidal action of seawater. Phragmites prefers water that is low in salt. When \nthe amount of salt in the marsh is low, Phragmites does better than native plants, and when \nthe amount of salt in the marsh water is high, close to the level of seawater, native grasses do \nbetter than Phragmites.\nEvidence indicated that the storm drains built along the roads and homes near the \nshoreline added fresh water to the marsh, making it less salty, and altered sediment levels \nthat reduced the salty ocean water coming into the marsh during high tide. The scientists \nthought that the presence of extra fresh water and sediments was the reason that Phragmites \ninvaded the marsh.\nIn 1999, a restoration project to reverse the invasion of Phragmites began by digging a \nditch along the road to reduce the freshwater runoff entering the marsh. A layer of sediment \nwas also removed, allowing seawater to once again reach the marsh during high tide.\nScientists worked with students collecting data along the same sections of the marsh \nevery year. They used the data to calculate the frequency (abundance) and average height \nof Phragmites plants. The graphs represent the average height and the frequency of the \nPhragmites in the Saratoga Creek salt marsh.\nAverage Height of Phragmites\nYear\nAverage Phragmites Height (cm)\n300\n250\n200\n150\n100\n50\n0\n1998\n1999\n2000\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\nSource: http://datanuggets.org/wp-content/uploads/2015/08/\nSalt-marsh-recovery_StudentA.pdf\n\nLiving Environment\u2013 Jan. \u201924\t\n[21]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The Phragmites population went from 60% in 2008 to 0% in 2015. \u2014 The frequency of the invasive grass decreased after 2008. \u2014 The population went from about 36% in 1999 to 0% in 2015. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Identify one abiotic factor mentioned in the passage that could be causing the red tides in Florida, and describe how this factor may be leading to an increase in the algae population.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_65_67.png",
+      "context": "Base your answers to questions 65 through 67 on the information below and on your knowledge of biology.\nGulf Coast Suffers from Red Tide\nFlorida residents have been experiencing the consequences of \u201cred tides,\u201d excessive \ngrowth of the algae Karenia brevis (K. brevis). This species of algae is a single-celled organism \nthat releases brevetoxin, a dangerous nerve toxin that can be fatal to animals. Even though \nshellfish, which can eat K. brevis, are not affected by this algae, many fish and other marine \norganisms, such as dolphins and manatees, are paralyzed by the toxin. This toxin prevents \nthe organisms from carrying out the process of cellular respiration.\nThe red tides usually appear in late summer or early fall. Researchers are not sure what \ncauses red tides. A variety of factors seem to be associated with their occurrence. These \nfactors include warmer ocean temperatures, heavy rainfall, and pollution from fertilizers.\nThe model below represents a typical food web present in Gulf Coast waters.\n\t\n    \nBarracuda\nGag fish\nSnapper\nK. brevis\nHigh extracellular \ntoxin concentration\nZooplankton\nShellfish\nBrevetoxin-contaminated\nseagrass and shellfish",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying one abiotic factor mentioned in the passage that could be causing the red tides and describing how this factor may be leading to an increase in the algae population and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Heavy rainwater could be washing nutrients into the ocean, resulting in increased algae growth. \u2014 Warmer waters could produce environments where algae grows quickly. \u2014 An increase in the use of fertilizers could increase the amount of fertilizer present in the water. Fertilizers provide nutrients that can increase algae growth."
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Explain how an increase in these K. brevis populations could affect human health.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_65_67.png",
+      "context": "Base your answers to questions 65 through 67 on the information below and on your knowledge of biology.\nGulf Coast Suffers from Red Tide\nFlorida residents have been experiencing the consequences of \u201cred tides,\u201d excessive \ngrowth of the algae Karenia brevis (K. brevis). This species of algae is a single-celled organism \nthat releases brevetoxin, a dangerous nerve toxin that can be fatal to animals. Even though \nshellfish, which can eat K. brevis, are not affected by this algae, many fish and other marine \norganisms, such as dolphins and manatees, are paralyzed by the toxin. This toxin prevents \nthe organisms from carrying out the process of cellular respiration.\nThe red tides usually appear in late summer or early fall. Researchers are not sure what \ncauses red tides. A variety of factors seem to be associated with their occurrence. These \nfactors include warmer ocean temperatures, heavy rainfall, and pollution from fertilizers.\nThe model below represents a typical food web present in Gulf Coast waters.\n\t\n    \nBarracuda\nGag fish\nSnapper\nK. brevis\nHigh extracellular \ntoxin concentration\nZooplankton\nShellfish\nBrevetoxin-contaminated\nseagrass and shellfish",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Their neurotoxins could be dangerous to the nervous system. \u2014 Eating contaminated fish could make us sick. \u2014 The toxin could limit cellular respiration. \u2014 People swimming in contaminated water could be affected by the toxins released. \u2014 It could reduce the availability of food for humans."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Explain how the fact that K. brevis does not kill shellfish could be a factor in the damage caused by the red tide. Source: Adapted from Toxicon. 2007 O Oct; 50 (5):707-723",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_65_67.png",
+      "context": "Base your answers to questions 65 through 67 on the information below and on your knowledge of biology.\nGulf Coast Suffers from Red Tide\nFlorida residents have been experiencing the consequences of \u201cred tides,\u201d excessive \ngrowth of the algae Karenia brevis (K. brevis). This species of algae is a single-celled organism \nthat releases brevetoxin, a dangerous nerve toxin that can be fatal to animals. Even though \nshellfish, which can eat K. brevis, are not affected by this algae, many fish and other marine \norganisms, such as dolphins and manatees, are paralyzed by the toxin. This toxin prevents \nthe organisms from carrying out the process of cellular respiration.\nThe red tides usually appear in late summer or early fall. Researchers are not sure what \ncauses red tides. A variety of factors seem to be associated with their occurrence. These \nfactors include warmer ocean temperatures, heavy rainfall, and pollution from fertilizers.\nThe model below represents a typical food web present in Gulf Coast waters.\n\t\n    \nBarracuda\nGag fish\nSnapper\nK. brevis\nHigh extracellular \ntoxin concentration\nZooplankton\nShellfish\nBrevetoxin-contaminated\nseagrass and shellfish",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The shellfish could spread the algae toxins to new environments. \u2014 When other organisms eat the shellfish, the toxin from the algae could kill them. \u2014 As other organisms eat the shellfish, the toxins are spread to those organisms."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Describe one advantage of having sound-absorbing fur and scales compared to a different defense mechanism.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_68_69.png",
+      "context": "Base your answers to questions 68 and 69 on the information and illustration below and on your knowledge \nof biology.\nSome Moths Are Not Easy For Bats to Detect\nThe cabbage tree emperor moth does not have ears that might alert them to approaching \npredators, such as bats. Instead, they all have wings with scales and hair-like structures called \nfur, suited to absorbing the ultrasonic sound frequencies used by bats hunting for food. This \nabsorption reduces the echoes that bounce back to the bats, allowing these moths to avoid \ndetection. Since they are not detected, they don\u2019t need to quickly fly away and use more \nenergy.\nScientists have observed that other moth species have developed different defense \nmechanisms. Some moth species have ears and can hear their predators approaching and \nquickly swerve out of the way. Other moth species fly in a slow zigzag pattern that imitates \nbees and wasps, which are not desirable prey to bats.\nSource: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/\nBunaea_alcinae",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 It requires less energy than quickly flying away to avoid being eaten. \u2014 It is a passive type of defense mechanism and requires less energy. \u2014 Having the fur and scales does not require the moths to react quickly to predation; they merely go undetected. \u2014 The bat sounds are absorbed, so the bats can't find the moths."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "69",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_68_69.png",
+      "context": "Base your answers to questions 68 and 69 on the information and illustration below and on your knowledge \nof biology.\nSome Moths Are Not Easy For Bats to Detect\nThe cabbage tree emperor moth does not have ears that might alert them to approaching \npredators, such as bats. Instead, they all have wings with scales and hair-like structures called \nfur, suited to absorbing the ultrasonic sound frequencies used by bats hunting for food. This \nabsorption reduces the echoes that bounce back to the bats, allowing these moths to avoid \ndetection. Since they are not detected, they don\u2019t need to quickly fly away and use more \nenergy.\nScientists have observed that other moth species have developed different defense \nmechanisms. Some moth species have ears and can hear their predators approaching and \nquickly swerve out of the way. Other moth species fly in a slow zigzag pattern that imitates \nbees and wasps, which are not desirable prey to bats.\nSource: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/\nBunaea_alcinae",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for predicting how the frequency of the trait for sound-absorbing wings might change over time and supporting the answer. Acceptable responses include, but are not limited to: \u2014 The frequency of the trait might decrease. These moths do not have ears that might help them avoid other predators and dangers in their environment. \u2014 The frequency of the trait might remain the same. The advantage could be canceled out by the disadvantage of having no ears. \u2014 It could decrease over time if bats evolved a new ultrasound frequency that is not absorbed by the fur and scales. \u2014 It might remain the same because they are currently well-adapted to avoid predators. \u2014 The frequency of the trait might increase because it helps them evade the bats. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Explain how the northern quoll extinction would affect the other organisms in the ecosystems where they once lived.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the information and photograph below and on your \nknowledge of biology.\nNorthern Quolls vs the Cane Toads\nPoisonous South American cane toads were introduced into Australia \nin 1935 in an attempt to control a beetle that was eating sugar cane crops. \nHowever, the toads did not control the beetles and, instead, they caused \nan environmental disaster. Today, the toad population is estimated to be \ngreater than 200 million.\nAs the invasive toads spread westward across northern Australia, many \nnative species were negatively affected. For example, in the years since \nthe toads\u2019 introduction, scientists have observed that the entire population \nof the northern quoll, a small squirrel-sized carnivore, has declined more \nthan 75%.\nThe decline is due to the fact that the quolls mistake the poisonous \ntoads for something that they can safely eat. When they eat the toads, they \ndie from the poison that the toads produce. The northern quolls may soon \nbecome extinct if something cannot be done to save them.\nRecently, some quolls were found to have a genetic trait that makes \nthem uninterested in preying on the toads. Scientists have now discovered \nthat these quolls with \u201ctoad-smart genes\u201d can pass them on to their \noffspring. The scientists plan to release quolls that avoid eating the toads \ninto native populations, hoping that they will breed and produce offspring \nthat also avoid eating the toads, thus saving the species from extinction.\nSource:http://theinvasionofcanetoads\ninaustralia.blogspot.com",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Since the quoll was a predator, its prey populations may increase and reduce the number of individuals in the species the prey populations fed on. \u2014 Other organisms in the ecosystem that preyed upon quolls might have a hard time finding enough food and could die out or their populations could become much smaller. \u2014 If it fed on herbivores, there may be fewer plants in the ecosystem as the herbivore population increased. \u2014 The loss of the quolls could cause many disruptions in the food webs in the ecosystem. \u2014 Its predators would decrease in number."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "It is hoped that northern quolls can be saved from extinction. If this proves to be true, will saving the quolls help solve the problems associated with the spread of the cane toads? Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the information and photograph below and on your \nknowledge of biology.\nNorthern Quolls vs the Cane Toads\nPoisonous South American cane toads were introduced into Australia \nin 1935 in an attempt to control a beetle that was eating sugar cane crops. \nHowever, the toads did not control the beetles and, instead, they caused \nan environmental disaster. Today, the toad population is estimated to be \ngreater than 200 million.\nAs the invasive toads spread westward across northern Australia, many \nnative species were negatively affected. For example, in the years since \nthe toads\u2019 introduction, scientists have observed that the entire population \nof the northern quoll, a small squirrel-sized carnivore, has declined more \nthan 75%.\nThe decline is due to the fact that the quolls mistake the poisonous \ntoads for something that they can safely eat. When they eat the toads, they \ndie from the poison that the toads produce. The northern quolls may soon \nbecome extinct if something cannot be done to save them.\nRecently, some quolls were found to have a genetic trait that makes \nthem uninterested in preying on the toads. Scientists have now discovered \nthat these quolls with \u201ctoad-smart genes\u201d can pass them on to their \noffspring. The scientists plan to release quolls that avoid eating the toads \ninto native populations, hoping that they will breed and produce offspring \nthat also avoid eating the toads, thus saving the species from extinction.\nSource:http://theinvasionofcanetoads\ninaustralia.blogspot.com",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating whether saving the quolls will help solve the problems associated with the spread of the cane toads and supporting the answer. Acceptable responses include, but are not limited to: \u2014 No, saving the quolls will not solve the cane toad problem, since the quolls would not be interacting with the toads and would not affect them significantly. \u2014 Yes, saving the quolls could solve some of the problems with the cane toads, if the animals that the quolls feed on are the same as some of the animals the toads eat. This competition may slow the spread of the toads in Australia. \u2014 No, the toads will not be affected, since the cane toads will still poison many other native species and not be negatively affected by the presence of the quolls that do not eat them."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "A scientist suggests using genetic engineering to alter the fertilized eggs of a quoll to include \u201ctoad-smart genes.\u201d Would the offspring coming from the fertilized eggs be able to mate and produce offspring that would not try to eat the cane toads?",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the information and photograph below and on your \nknowledge of biology.\nNorthern Quolls vs the Cane Toads\nPoisonous South American cane toads were introduced into Australia \nin 1935 in an attempt to control a beetle that was eating sugar cane crops. \nHowever, the toads did not control the beetles and, instead, they caused \nan environmental disaster. Today, the toad population is estimated to be \ngreater than 200 million.\nAs the invasive toads spread westward across northern Australia, many \nnative species were negatively affected. For example, in the years since \nthe toads\u2019 introduction, scientists have observed that the entire population \nof the northern quoll, a small squirrel-sized carnivore, has declined more \nthan 75%.\nThe decline is due to the fact that the quolls mistake the poisonous \ntoads for something that they can safely eat. When they eat the toads, they \ndie from the poison that the toads produce. The northern quolls may soon \nbecome extinct if something cannot be done to save them.\nRecently, some quolls were found to have a genetic trait that makes \nthem uninterested in preying on the toads. Scientists have now discovered \nthat these quolls with \u201ctoad-smart genes\u201d can pass them on to their \noffspring. The scientists plan to release quolls that avoid eating the toads \ninto native populations, hoping that they will breed and produce offspring \nthat also avoid eating the toads, thus saving the species from extinction.\nSource:http://theinvasionofcanetoads\ninaustralia.blogspot.com",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating whether the offspring coming from these fertilized eggs would be able to mate and produce offspring that would not try to eat the cane toads and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Yes, they could pass on the gene to offspring. The genetic material would be present in all of the quolls\u2019 cells, including their sex cells. \u2014 Yes, because the gene would be present in their sex cells, so it would be passed on. \u2014 Yes, their eggs or sperm would all have the gene. \u2014 Maybe. If the trait is recessive you would need both parents of the offspring to have that gene. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "Five students measured their pulse rates, then exercised by running up and down the stairs five times, then measured their pulse rates again. In the investigation, the independent variable is the",
+      "choices": [
+        "time to run up and down the stairs",
+        "pulse rate",
+        "five students who participated",
+        "exercise that was done"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "The chart below shows some characteristics of different species of finches. Large Ground Finch Warbler Finch Cactus Finch Small Ground Finch Characteristics Chart Beak: crushing Food: mainly plant Beak: probing Food: cactus Beak: probing Food: 100% animal Beak: crushing Food: mainly large seeds According to the information in the chart, which finch species is best adapted to feed on insects that live under the bark of trees?",
+      "choices": [
+        "large ground finch",
+        "small ground finch",
+        "warbler finch",
+        "cactus finch"
+      ],
+      "image": "/images/exams/living-environment/january-2024/q74.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "Students in a biology class wanted to determine the effect of exercise on heart rate. In order to reach a more reliable conclusion, the students should collect data from a",
+      "choices": [
+        "small number of students, then multiply the heart rates together",
+        "small number of students, then average the heart rates",
+        "large number of students, then average the heart rates",
+        "large number of students, then add the heart rates together"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "The adaptations shown by each species of bat will most likely cause the total number of bats to",
+      "choices": [
+        "increase due to decreased competition",
+        "decrease due to increased breeding",
+        "increase due to a greater chance of mutation",
+        "decrease due to a decrease in pathogens"
+      ],
+      "image": "/images/exams/living-environment/january-2024/context_76_77.png",
+      "context": "Base your answers to questions 76 and 77 on the information below and on your knowledge of biology.\nThe existing species of South American bats depend upon a wide variety of food sources, \nyet they have evolved from a single population of insect eating bats. The diagram below \nsummarizes the feeding habits of some species of South American bats.\nSouth American Bats\nHematophagous\nCarnivorous\nInsectivorous,\nspecialized\ninsectivores\nInsectivorous\n(original bats)\nNectarivorous\nPiscivorous\nFructivorous\nAdapted from: http://www.press.uchicago.edu/Misc/Chicago/468283.html",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "77",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_76_77.png",
+      "context": "Base your answers to questions 76 and 77 on the information below and on your knowledge of biology.\nThe existing species of South American bats depend upon a wide variety of food sources, \nyet they have evolved from a single population of insect eating bats. The diagram below \nsummarizes the feeding habits of some species of South American bats.\nSouth American Bats\nHematophagous\nCarnivorous\nInsectivorous,\nspecialized\ninsectivores\nInsectivorous\n(original bats)\nNectarivorous\nPiscivorous\nFructivorous\nAdapted from: http://www.press.uchicago.edu/Misc/Chicago/468283.html",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 In both cases, many species evolved from a common ancestor. \u2014 Both finches and bats had many different feeding adaptations that reduced competition. \u2014 Different sources of food in the environment permitted many different types of bats/finches to be successful."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Explain why the model cell placed in 100% water increased in mass.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_78_79.png",
+      "context": "Base your answers to questions 78 and 79 on the information below and on your knowledge of biology.\nFour model cells were prepared by using dialysis tubing and filling each of them with \nthe same solution. Each of the model cells originally weighed 20 grams. Next, each model \ncell was placed in a beaker. Each of the four beakers contained a different concentration of \nwater. After 24 hours, the mass of each model cell was measured and recorded in the data \ntable below.\nModel Cells\nPercentage of \nConcentration of\nWater in Beaker\nMass of Model\nCell After 24 Hours\n(in grams)\n100\n22\n90\n21\n80\n20\n70\n19",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The concentration of water inside the model cell was less than in the beaker, so water diffused in. \u2014 Water diffused into the cell due to the differences in water concentration inside and outside of the cell. \u2014 Water diffused into the cell due to osmosis."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "What was the concentration of water in the four cells at the start of the experiment?",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_78_79.png",
+      "context": "Base your answers to questions 78 and 79 on the information below and on your knowledge of biology.\nFour model cells were prepared by using dialysis tubing and filling each of them with \nthe same solution. Each of the model cells originally weighed 20 grams. Next, each model \ncell was placed in a beaker. Each of the four beakers contained a different concentration of \nwater. After 24 hours, the mass of each model cell was measured and recorded in the data \ntable below.\nModel Cells\nPercentage of \nConcentration of\nWater in Beaker\nMass of Model\nCell After 24 Hours\n(in grams)\n100\n22\n90\n21\n80\n20\n70\n19",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 80% and supporting the answer with data from the table. Acceptable responses include, but are not limited to: \u2014 The concentration in the original cells was 80% because the mass of the model cell was the same as it was at the start. \u2014 The same amount of water diffused into and out of cell in the 80% concentration."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Explain how an increased pulse rate during exercise helps to maintain homeostasis in an organism.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 An increased pulse rate delivers more oxygen and nutrients to muscle cells. \u2014 An increased pulse rate allows for wastes to be removed from cells more quickly. 81 4 82 2 Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "DNA normally contains four different molecular bases. Long strands consisting of only the molecular base cytosine (C) are placed in a beaker under conditions that allow for protein synthesis. After a period of time, the contents of the beaker are analyzed, and the proteins present are composed entirely of the amino acid proline. This finding best supports the claim that",
+      "choices": [
+        "most proteins are composed of only one type of amino acid",
+        "the amino acid proline is composed only of the molecular base cytosine",
+        "a mutation occurred in the test tube during this experiment",
+        "CCC codes for the amino acid proline"
+      ],
+      "image": "/images/exams/living-environment/january-2024/q81.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "Which species would least likely have a protein similar to species H?",
+      "choices": [
+        "A",
+        "B",
+        "E",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2024/context_82_82.png",
+      "context": "Base your answer to question 82 on the diagram below and on your knowledge of biology. The diagram \nrepresents evolutionary relationships between different species.\nTime\nF\nG\nA\nE\nH\nI\nB\nJ\nA\nB\nC\nA\nD\nB\nB",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "In addition to the plant represented in the first lane, how many other plants most likely produce this unique protein? Support your answer by using evidence from the gel.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_83_84.png",
+      "context": "Base your answers to questions 83 and 84 on the information below and on your knowledge of biology.\nThe band labeled X on the image of the gel below represents a segment of DNA\nassociated with the production of a unique protein. The protein is being tested to determine \nif it might be useful in treating a disease found in horses. DNA from one of eight different \nplants, each thought to be from a different species, was injected into each of eight lanes of \nthe gel. It was then compared to the plant in the first lane, which is known to produce this \nunique protein.\nSource: Adapted from https://www.shutterstock.com/search/\ngel+electrophoresis\nLanes\n1\n2\n3\n4\n5\n6\n7\n8\n9\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying how many other plants most likely produce this unique protein and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Four other lanes all have a band that traveled the same distance in the gel as the band labeled X. \u2014 The DNA injected into lanes 2, 5, 7, and 9 all have a band in the same location and the same size as the band labeled X."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "When this research was peer-reviewed, several scientists pointed out that there might have been an error in the original experiment. The reviewers claimed that they compared only seven plant species to the plant in the first lane, rather than eight. Examine the gel and, based on your analysis, provide evidence to support the claim that only seven different plant species had been compared to the species in lane 1",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2024/context_83_84.png",
+      "context": "Base your answers to questions 83 and 84 on the information below and on your knowledge of biology.\nThe band labeled X on the image of the gel below represents a segment of DNA\nassociated with the production of a unique protein. The protein is being tested to determine \nif it might be useful in treating a disease found in horses. DNA from one of eight different \nplants, each thought to be from a different species, was injected into each of eight lanes of \nthe gel. It was then compared to the plant in the first lane, which is known to produce this \nunique protein.\nSource: Adapted from https://www.shutterstock.com/search/\ngel+electrophoresis\nLanes\n1\n2\n3\n4\n5\n6\n7\n8\n9\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The banding patterns in lanes 2 and 9 appear to be the same. \u2014 It looks like the DNA bands are from the same plant in two of the lanes."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "State how the level of a waste product in the blood would be expected to change if pulse rate increased. Support your answer. LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 85 on the information below and on your knowledge of biology.\nDuring exercise pulse rate may change. The pulse rate indicates the rate at which the \nheart is beating.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Waste product level will decrease because waste is transported to lungs or kidneys for excretion. \u2014 Levels will increase because cells produce more waste as they increase activity. Living Environment Rating Guide \u2013 Jan. \u2019"
+    }
+  ]
+}

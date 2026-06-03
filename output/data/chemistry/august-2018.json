@@ -1,0 +1,1101 @@
+{
+  "subject": "chemistry",
+  "session": "august-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "According to the wave-mechanical model, an orbital is defined as the most probable location of",
+      "choices": [
+        "a proton",
+        "a neutron",
+        "a positron",
+        "an electron"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The part of an atom that has an overall positive charge is called",
+      "choices": [
+        "an electron",
+        "the nucleus",
+        "the first shell",
+        "the valence shell"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which subatomic particles each have a mass of approximately 1 u?",
+      "choices": [
+        "proton and electron",
+        "proton and neutron",
+        "neutron and electron",
+        "neutron and positron"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The discovery of the electron as a subatomic particle was a result of",
+      "choices": [
+        "collision theory",
+        "kinetic molecular theory",
+        "the gold-foil experiment",
+        "experiments with cathode ray tubes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The elements on the Periodic Table of the Elements are arranged in order of increasing",
+      "choices": [
+        "atomic mass",
+        "formula mass",
+        "atomic number",
+        "oxidation number"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which element is classified as a metalloid?",
+      "choices": [
+        "Te",
+        "S",
+        "Hg",
+        "I"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "At STP, O2(g) and O3(g) are two forms of the same element that have",
+      "choices": [
+        "the same molecular structure and the same properties",
+        "the same molecular structure and different properties",
+        "different molecular structures and the same properties",
+        "different molecular structures and different properties"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which substance can be broken down by chemical means?",
+      "choices": [
+        "ammonia",
+        "aluminum",
+        "antimony",
+        "argon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which statement describes H2O(\u2113) and H2O2(\u2113)?",
+      "choices": [
+        "Both are compounds that have the same properties.",
+        "Both are compounds that have different properties.",
+        "Both are mixtures that have the same properties.",
+        "Both are mixtures that have different properties."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which two terms represent major categories of compounds?",
+      "choices": [
+        "ionic and nuclear",
+        "ionic and molecular",
+        "empirical and nuclear",
+        "empirical and molecular"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which formula represents an asymmetrical molecule?",
+      "choices": [
+        "CH4",
+        "CO2",
+        "N2",
+        "NH3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which statement describes the energy changes that occur as bonds are broken and formed during a chemical reaction?",
+      "choices": [
+        "Energy is absorbed when bonds are both broken and formed.",
+        "Energy is released when bonds are both broken and formed.",
+        "Energy is absorbed when bonds are broken, and energy is released when bonds are formed.",
+        "Energy is released when bonds are broken, and energy is absorbed when bonds are formed."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A solid sample of copper is an excellent conductor of electric current. Which type of chemical bonds are in the sample?",
+      "choices": [
+        "ionic bonds",
+        "metallic bonds",
+        "nonpolar covalent bonds",
+        "polar covalent bonds"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which list includes three forms of energy?",
+      "choices": [
+        "thermal, nuclear, electronegativity",
+        "thermal, chemical, electromagnetic",
+        "temperature, nuclear, electromagnetic",
+        "temperature, chemical, electronegativity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Based on Table S, an atom of which element has the strongest attraction for electrons in a chemical bond?",
+      "choices": [
+        "chlorine",
+        "nitrogen",
+        "oxygen",
+        "selenium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "At which temperature and pressure would a sample of helium behave most like an ideal gas?",
+      "choices": [
+        "75 K and 500. kPa",
+        "150. K and 500. kPa",
+        "300. K and 50. kPa",
+        "600. K and 50. kPa"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A cube of iron at 20.\u00b0C is placed in contact with a cube of copper at 60.\u00b0C. Which statement describes the initial flow of heat between the cubes?",
+      "choices": [
+        "Heat flows from the copper cube to the iron cube.",
+        "Heat flows from the iron cube to the copper cube.",
+        "Heat flows in both directions between the cubes.",
+        "Heat does not flow between the cubes."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which sample at STP has the same number of atoms as 18 liters of Ne(g) at STP?",
+      "choices": [
+        "18 moles of Ar(g)",
+        "18 liters of Ar(g)",
+        "18 grams of H2O(g)",
+        "18 milliliters of H2O(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Compared to H2S, the higher boiling point of H2O is due to the",
+      "choices": [
+        "greater molecular size of water",
+        "stronger hydrogen bonding in water",
+        "higher molarity of water",
+        "larger gram-formula mass of water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "In terms of entropy and energy, systems in nature tend to undergo changes toward",
+      "choices": [
+        "lower entropy and lower energy",
+        "lower entropy and higher energy",
+        "higher entropy and lower energy",
+        "higher entropy and higher energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Amines, amides, and amino acids are categories of",
+      "choices": [
+        "isomers",
+        "isotopes",
+        "organic compounds",
+        "inorganic compounds"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A molecule of which compound has a multiple covalent bond?",
+      "choices": [
+        "CH4",
+        "C2H4",
+        "C3H8",
+        "C4H10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which type of reaction produces soap?",
+      "choices": [
+        "polymerization",
+        "combustion",
+        "fermentation",
+        "saponification"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "For a reaction system at equilibrium, LeChatelier\u2019s principle can be used to predict the",
+      "choices": [
+        "activation energy for the system",
+        "type of bonds in the reactants",
+        "effect of a stress on the system",
+        "polarity of the product molecules"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which value changes when a Cu atom becomes a Cu2+ ion?",
+      "choices": [
+        "mass number",
+        "oxidation number",
+        "number of protons",
+        "number of neutrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which reaction occurs at the anode in an electrochemical cell?",
+      "choices": [
+        "oxidation",
+        "reduction",
+        "combustion",
+        "substitution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "What evidence indicates that the nuclei of strontium-90 atoms are unstable?",
+      "choices": [
+        "Strontium-90 electrons are in the excited state.",
+        "Strontium-90 electrons are in the ground state.",
+        "Strontium-90 atoms spontaneously absorb beta particles.",
+        "Strontium-90 atoms spontaneously emit beta particles."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which nuclear emission is listed with its notation?",
+      "choices": [
+        "gamma radiation, 0 0\u03b3",
+        "proton, 4 2He 0",
+        "neutron, _1\u03b2",
+        "alpha particle, 1 1H"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The energy released by a nuclear fusion reaction is produced when",
+      "choices": [
+        "energy is converted to mass",
+        "mass is converted to energy",
+        "heat is converted to temperature",
+        "temperature is converted to heat"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Dating once-living organisms is an example of a beneficial use of",
+      "choices": [
+        "redox reactions",
+        "organic isomers",
+        "radioactive isotopes",
+        "neutralization reactions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "What is the net charge of an ion that has 11 protons, 10 electrons, and 12 neutrons?",
+      "choices": [
+        "1\u0002",
+        "2\u0002",
+        "1\u0003",
+        "2\u0003"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Which electron configuration represents the electrons of an atom in an excited state?",
+      "choices": [
+        "2-5",
+        "2-8-5",
+        "2-5-1",
+        "2-6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which element is a liquid at 1000. K?",
+      "choices": [
+        "Ag",
+        "Al",
+        "Ca",
+        "Ni"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Which formula represents ammonium nitrate?",
+      "choices": [
+        "NH4NO3",
+        "NH4NO2",
+        "NH4(NO3)2",
+        "NH4(NO2)2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The empirical formula for butene is",
+      "choices": [
+        "CH2",
+        "C2H4",
+        "C4H6",
+        "C4H8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which equation represents a conservation of charge?",
+      "choices": [
+        "2Fe3\u0002 \u0002 Al \u21922Fe2\u0002 \u0002 Al3\u0002",
+        "2Fe3\u0002 \u0002 2Al \u21923Fe2\u0002 \u0002 2Al3\u0002",
+        "3Fe3\u0002 \u0002 2Al \u21922Fe2\u0002 \u0002 2Al3\u0002",
+        "3Fe3\u0002 \u0002 Al 3Fe2\u0002 \u0002 Al3\u0002 \u2192"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: 2H2 \u0002 O \u2192 2 2H2O \u0002 energy Which type of reaction is represented by this equation?",
+      "choices": [
+        "decomposition",
+        "double replacement",
+        "single replacement",
+        "synthesis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "When a Mg2\u0002 ion becomes a Mg atom, the radius increases because the Mg2\u0002 ion",
+      "choices": [
+        "gains 2 protons",
+        "gains 2 electrons",
+        "loses 2 protons",
+        "loses 2 electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The least polar bond is found in a molecule of",
+      "choices": [
+        "HI",
+        "HF",
+        "HCl",
+        "HBr"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "A solution is prepared using 0.125 g of glucose, C6H12O6, in enough water to make 250. g of total solution. The concentration of this solution, expressed in parts per million, is",
+      "choices": [
+        "5.00 \u00d7 101 ppm",
+        "5.00 \u00d7 102 ppm",
+        "5.00 \u00d7 103 ppm",
+        "5.00 \u00d7 104 ppm"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "What is the amount of heat, in joules, required to increase the temperature of a 49.5-gram sample of water from 22\u00b0C to 66\u00b0C?",
+      "choices": [
+        "2.2 \u00d7 103 J",
+        "4.6 \u00d7 103 J",
+        "9.1 \u00d7 103 J",
+        "1.4 \u00d7 104 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "A sample of a gas in a rigid cylinder with a movable piston has a volume of 11.2 liters at STP. What is the volume of this gas at 202.6 kPa and 300. K?",
+      "choices": [
+        "5.10 L",
+        "6.15 L",
+        "22.4 L",
+        "24.6 L"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "written",
+      "text": "The equation below represents a reaction between two molecules, X2 and Z2. These molecules form an \u201cactivated complex,\u201d which then forms molecules of the product. Which diagram represents the most likely orientation of X2 and Z2 when the molecules collide with proper energy, producing an activated complex?",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "What is the chemical name for the compound CH3CH2CH2CH3?",
+      "choices": [
+        "butane",
+        "butene",
+        "decane",
+        "decene"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "In a laboratory activity, the density of a sample of vanadium is determined to be 6.9 g/cm3 at room temperature. What is the percent error for the determined value?",
+      "choices": [
+        "0.15%",
+        "0.87%",
+        "13%",
+        "15%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: Cd \u0002 NiO2 \u0002 2H2O \u2192Cd(OH)2 \u0002 Ni(OH)2 Which half-reaction equation represents the oxidation in the reaction?",
+      "choices": [
+        "Ni4\u0002 \u0002 2e\u0003 \u2192Ni2\u0002",
+        "Ni4\u0002 \u2192Ni2\u0002 \u0002 2e\u0003",
+        "Cd \u2192Cd2\u0002 \u0002 2e\u0003",
+        "Cd \u0002 2e\u0003 \u2192Cd2\u0002"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which metal reacts spontaneously with NiCl2(aq)?",
+      "choices": [
+        "Au(s)",
+        "Cu(s)",
+        "Sn(s)",
+        "Zn(s)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Which solution is the best conductor of an electric current?",
+      "choices": [
+        "0.001 mole of NaCl dissolved in 1000. mL of water",
+        "0.005 mole of NaCl dissolved in 1000. mL of water",
+        "0.1 mole of NaCl dissolved in 1000. mL of water",
+        "0.05 mole of NaCl dissolved in 1000. mL of water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Compared to a 1.0-liter aqueous solution with a pH of 7.0, a 1.0-liter aqueous solution with a pH of 5.0 contains",
+      "choices": [
+        "10 times more hydronium ions",
+        "100 times more hydronium ions",
+        "10 times more hydroxide ions",
+        "100 times more hydroxide ions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: 208 82Pb 70 \u0002 30Zn 277 \u2192112Cn 1 \u0002 0n Which type of reaction is represented by this equation?",
+      "choices": [
+        "neutralization",
+        "polymerization",
+        "substitution",
+        "transmutation alt 1 alt 2 alt 3 alt 4 key , molecules, x2 and z2 e quation r epresents a reac t ion between two molecules, x2 and z2 P.S./"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the percent composition by mass of oxygen in Al2O3 (gram-formula mass \u0004 102 g/mol).",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify a laboratory process that can be used to separate a liquid mixture of methanol and water, based on the differences in their boiling points.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/q52.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Explain, in terms of subatomic particles, why these three isotopes represent the same element.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the information below and on your knowledge of \nchemistry.\nThe table below shows data for three isotopes of the same element.\nData for Three Isotopes of an Element",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "State the number of valence electrons in an atom of isotope D in the ground state.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the information below and on your knowledge of \nchemistry.\nThe table below shows data for three isotopes of the same element.\nData for Three Isotopes of an Element",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Compare the energy of an electron in the first electron shell to the energy of an electron in the second electron shell in an atom of isotope E. Isotopes Number of Protons Number of Neutrons Atomic Mass (u) Natural Abundance (%) Atom D 12 12 23.99 78.99 Atom E 12 13 24.99 10.00 Atom G 12 14 25.98 11.01",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the information below and on your knowledge of \nchemistry.\nThe table below shows data for three isotopes of the same element.\nData for Three Isotopes of an Element",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Describe the general trend in electronegativity as the metals in Group 2 on the Periodic Table are considered in order of increasing atomic number.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of \nchemistry.\nThe elements in Group 2 on the Periodic Table can be compared in terms of first\nionization energy, electronegativity, and other general properties.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Explain, in terms of electron configuration, why the elements in Group 2 have similar chemical properties.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of \nchemistry.\nThe elements in Group 2 on the Periodic Table can be compared in terms of first\nionization energy, electronegativity, and other general properties.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Explain, in terms of atomic structure, why barium has a lower first ionization energy than magnesium.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of \nchemistry.\nThe elements in Group 2 on the Periodic Table can be compared in terms of first\nionization energy, electronegativity, and other general properties.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Determine the mass of SO2 in this solution.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of \nchemistry.\nA saturated solution of sulfur dioxide is prepared by dissolving SO2(g) in 100. g of water\nat 10.\u00b0C and standard pressure.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Based on Table G, state the general relationship between solubility and temperature of an aqueous SO2 solution at standard pressure.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of \nchemistry.\nA saturated solution of sulfur dioxide is prepared by dissolving SO2(g) in 100. g of water\nat 10.\u00b0C and standard pressure.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Describe what happens to the solubility of SO2(g) when the pressure is increased at constant temperature. P.S./",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of \nchemistry.\nA saturated solution of sulfur dioxide is prepared by dissolving SO2(g) in 100. g of water\nat 10.\u00b0C and standard pressure.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Using the key in your answer booklet, draw a particle diagram to represent the sample during interval AB. Your response must include at least six molecules.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of\nchemistry.\nStarting as a solid, a sample of a molecular substance is heated, until the entire sample\nof the substance is a gas. The graph below represents the relationship between the\ntemperature of the sample and the elapsed time.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Compare the average kinetic energy of the molecules of the sample during interval BC to the average kinetic energy of the molecules of the sample during interval DE.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of\nchemistry.\nStarting as a solid, a sample of a molecular substance is heated, until the entire sample\nof the substance is a gas. The graph below represents the relationship between the\ntemperature of the sample and the elapsed time.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "On the graph in your answer booklet, mark an X on the axis labeled \u201cTemperature (\u00b0C)\u201d to indicate the boiling point of the substance.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of\nchemistry.\nStarting as a solid, a sample of a molecular substance is heated, until the entire sample\nof the substance is a gas. The graph below represents the relationship between the\ntemperature of the sample and the elapsed time.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "State evidence that indicates the sample undergoes only physical changes during this heating. as described above P.S./ Base your anwers to questions 66 through 68 on the information below and on your knowledge of chemistry. \u201cWater gas,\u201d a mixture of hydrogen and carbon monoxide, is an industrial fuel and source of commercial hydrogen. Water gas is produced by passing steam over hot carbon obtained from coal. The equation below represents this system at equilibrium: C(s) \u0002 H2O(g) \u0002 heat \u21ccCO(g) \u0002 H2(g)",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of\nchemistry.\nStarting as a solid, a sample of a molecular substance is heated, until the entire sample\nof the substance is a gas. The graph below represents the relationship between the\ntemperature of the sample and the elapsed time.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "State, in terms of the rates of the forward and reverse reactions, what occurs when dynamic equilibrium is reached in this system.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "In the space in your answer booklet, draw a Lewis electron-dot diagram for a molecule of H2O.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Explain, in terms of collisions, why increasing the surface area of the hot carbon increases the rate of the forward reaction.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Based on Table I, explain why there is a decrease in temperature when the KNO3(s) was first dissolved in the water.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of\nchemistry.\nIn a laboratory activity, each of four different masses of KNO3(s) is placed in a\nseparate test tube that contains 10.0 grams of H2O at 25\u00b0C.\nWhen each sample is first placed in the water, the temperature of the mixture\ndecreases. The mixture in each test tube is then stirred while it is heated in a hot water\nbath until all of the KNO3(s) is dissolved. The contents of each test tube are then cooled\nto the temperature at which KNO3 crystals first reappear. The procedure is repeated\nuntil the recrystallization temperatures for each mixture are consistent, as shown in the\ntable below.\nData Table for the Laboratory Activity",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Determine the percent by mass concentration of KNO3 in mixture 2 after heating.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of\nchemistry.\nIn a laboratory activity, each of four different masses of KNO3(s) is placed in a\nseparate test tube that contains 10.0 grams of H2O at 25\u00b0C.\nWhen each sample is first placed in the water, the temperature of the mixture\ndecreases. The mixture in each test tube is then stirred while it is heated in a hot water\nbath until all of the KNO3(s) is dissolved. The contents of each test tube are then cooled\nto the temperature at which KNO3 crystals first reappear. The procedure is repeated\nuntil the recrystallization temperatures for each mixture are consistent, as shown in the\ntable below.\nData Table for the Laboratory Activity",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Compare the freezing point of mixture 4 at 1.0 atm to the freezing point of water at 1.0 atm. Mixture Mass of KNO3 (g) Mass of H2O (g) Temperature of Recrystallization (\u00b0C) 1 4.0 10.0 24 2 5.0 10.0 32 3 7.5 10.0 45 4 10.0 10.0 58",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of\nchemistry.\nIn a laboratory activity, each of four different masses of KNO3(s) is placed in a\nseparate test tube that contains 10.0 grams of H2O at 25\u00b0C.\nWhen each sample is first placed in the water, the temperature of the mixture\ndecreases. The mixture in each test tube is then stirred while it is heated in a hot water\nbath until all of the KNO3(s) is dissolved. The contents of each test tube are then cooled\nto the temperature at which KNO3 crystals first reappear. The procedure is repeated\nuntil the recrystallization temperatures for each mixture are consistent, as shown in the\ntable below.\nData Table for the Laboratory Activity",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "On the potential energy diagram in your answer booklet, draw a double-headed arrow ( ) b to indicate the interval that represents the heat of reaction.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/q72.png",
+      "context": "Base your answers to questions 72 through 74 on the information below and on your knowledge of\nchemistry.\nThe balanced equation below represents the reaction between carbon monoxide and\noxygen to produce carbon dioxide.\n2CO(g) \u0002 O2(g) \u21922CO2(g) \u0002 energy",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Determine the number of moles of O2(g) needed to completely react with 8.0 moles of CO(g).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 74 on the information below and on your knowledge of\nchemistry.\nThe balanced equation below represents the reaction between carbon monoxide and\noxygen to produce carbon dioxide.\n2CO(g) \u0002 O2(g) \u21922CO2(g) \u0002 energy",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "On the potential energy diagram in your answer booklet, draw a dashed line to show how the potential energy diagram changes when the reaction is catalyzed.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/q74.png",
+      "context": "Base your answers to questions 72 through 74 on the information below and on your knowledge of\nchemistry.\nThe balanced equation below represents the reaction between carbon monoxide and\noxygen to produce carbon dioxide.\n2CO(g) \u0002 O2(g) \u21922CO2(g) \u0002 energy",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Write the name of the class of organic compounds to which compound A belongs.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of \nchemistry.\nThe equation below represents an industrial preparation of diethyl ether.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Identify the element in compound B that makes it an organic compound. a s d e s c ri b ed a bove",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of \nchemistry.\nThe equation below represents an industrial preparation of diethyl ether.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Explain, in terms of elements, why compound B is not a hydrocarbon.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of \nchemistry.\nThe equation below represents an industrial preparation of diethyl ether.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Identify the positive ion present in the H2SO4(aq) solution before the titration.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_78_81.png",
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of \nchemistry.\nA student is to determine the concentration of an NaOH(aq) solution by performing two\ndifferent titrations. In a first titration, the student titrates 25.0 mL of 0.100 M H2SO4(aq)\nwith NaOH(aq) of unknown concentration.\nIn a second titration, the student titrates 25.0 mL of 0.100 M HCl(aq) with a sample of\nthe NaOH(aq). During this second titration, the volume of the NaOH(aq) added and the\ncorresponding pH value of the reaction mixture is measured. The graph below represents\nthe relationship between pH and the volume of the NaOH(aq) added for this second\ntitration.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Complete the equation in your answer booklet for the neutralization that occurs in the first titration by writing a formula of the missing product.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_78_81.png",
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of \nchemistry.\nA student is to determine the concentration of an NaOH(aq) solution by performing two\ndifferent titrations. In a first titration, the student titrates 25.0 mL of 0.100 M H2SO4(aq)\nwith NaOH(aq) of unknown concentration.\nIn a second titration, the student titrates 25.0 mL of 0.100 M HCl(aq) with a sample of\nthe NaOH(aq). During this second titration, the volume of the NaOH(aq) added and the\ncorresponding pH value of the reaction mixture is measured. The graph below represents\nthe relationship between pH and the volume of the NaOH(aq) added for this second\ntitration.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Based on the graph, determine the volume of NaOH(aq) used to exactly neutralize the HCl(aq).",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_78_81.png",
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of \nchemistry.\nA student is to determine the concentration of an NaOH(aq) solution by performing two\ndifferent titrations. In a first titration, the student titrates 25.0 mL of 0.100 M H2SO4(aq)\nwith NaOH(aq) of unknown concentration.\nIn a second titration, the student titrates 25.0 mL of 0.100 M HCl(aq) with a sample of\nthe NaOH(aq). During this second titration, the volume of the NaOH(aq) added and the\ncorresponding pH value of the reaction mixture is measured. The graph below represents\nthe relationship between pH and the volume of the NaOH(aq) added for this second\ntitration.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "State the color of phenolphthalein indicator if it were added after the HCl(aq) was titrated with 50. mL of NaOH(aq). as described above",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2018/context_78_81.png",
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of \nchemistry.\nA student is to determine the concentration of an NaOH(aq) solution by performing two\ndifferent titrations. In a first titration, the student titrates 25.0 mL of 0.100 M H2SO4(aq)\nwith NaOH(aq) of unknown concentration.\nIn a second titration, the student titrates 25.0 mL of 0.100 M HCl(aq) with a sample of\nthe NaOH(aq). During this second titration, the volume of the NaOH(aq) added and the\ncorresponding pH value of the reaction mixture is measured. The graph below represents\nthe relationship between pH and the volume of the NaOH(aq) added for this second\ntitration.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Explain, in terms of nuclides, why the reaction represented by the nuclear equation is a fission reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of \nchemistry.\nWhen uranium-235 nuclei are bombarded with neutrons, many different combinations\nof smaller nuclei can be produced. The production of neodymium-150 and germanium-81\nin one of these reactions is represented by the equation below.\n0n \n235\n1\n\u0002\n92U\n150\n\u2192\n60Nd \n81\n\u0002 32Ge \u0002 51\n0n\nGermanium-81 and uranium-235 have different decay modes. Ge-81 emits beta\nparticles and has a half-life of 7.6 seconds.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "State the number of protons and number of neutrons in a neodymium-150 atom.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of \nchemistry.\nWhen uranium-235 nuclei are bombarded with neutrons, many different combinations\nof smaller nuclei can be produced. The production of neodymium-150 and germanium-81\nin one of these reactions is represented by the equation below.\n0n \n235\n1\n\u0002\n92U\n150\n\u2192\n60Nd \n81\n\u0002 32Ge \u0002 51\n0n\nGermanium-81 and uranium-235 have different decay modes. Ge-81 emits beta\nparticles and has a half-life of 7.6 seconds.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Complete the equation in your answer booklet for the decay of Ge-81 by writing a notation for the missing nuclide.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of \nchemistry.\nWhen uranium-235 nuclei are bombarded with neutrons, many different combinations\nof smaller nuclei can be produced. The production of neodymium-150 and germanium-81\nin one of these reactions is represented by the equation below.\n0n \n235\n1\n\u0002\n92U\n150\n\u2192\n60Nd \n81\n\u0002 32Ge \u0002 51\n0n\nGermanium-81 and uranium-235 have different decay modes. Ge-81 emits beta\nparticles and has a half-life of 7.6 seconds.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Determine the time required for a 16.00-gram sample of Ge-81 to decay until only 1.00 gram of the sample remains unchanged. P.S./CHEMISTRY Y .S./CHEMISTR P Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of \nchemistry.\nWhen uranium-235 nuclei are bombarded with neutrons, many different combinations\nof smaller nuclei can be produced. The production of neodymium-150 and germanium-81\nin one of these reactions is represented by the equation below.\n0n \n235\n1\n\u0002\n92U\n150\n\u2192\n60Nd \n81\n\u0002 32Ge \u0002 51\n0n\nGermanium-81 and uranium-235 have different decay modes. Ge-81 emits beta\nparticles and has a half-life of 7.6 seconds.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

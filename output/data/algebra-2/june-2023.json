@@ -1,0 +1,491 @@
+{
+  "subject": "algebra-2",
+  "session": "june-2023",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The population of Austin, Texas from 1850 to 2010 is summarized in the table below. Year 1850 1870 1890 1910 1930 1950 1970 1990 2010 Population 629 4428 14,575 29,860 53,120 132,459 251,808 494,290 790,390 Over which period of time was the average rate of change in population the greatest?",
+      "choices": [
+        "1850 to 1910",
+        "1990 to 2010",
+        "1950 to 1970",
+        "1890 to 1970"
+      ],
+      "image": "/images/exams/algebra-2/june-2023/q1.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which expression is not equivalent to 36x6 2 25y4?",
+      "choices": [
+        "62(x3)2 2 52(y2)2",
+        "(6x3 2 5y2)(6x3 1 5y2)",
+        "(6x6 2 5y4)(6x6 1 5y4)",
+        "(3 \u2022 2x3 2 5y2)(3 \u2022 2x3 1 5y2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "What are the zeros of s(x) 5 x4 2 9x2 1 3x3 2 27x 2 10x2 1 90?",
+      "choices": [
+        "{23, 22, 5}",
+        "{22, 3, 5}",
+        "{23, 22, 3, 5}",
+        "{25, 23, 2, 3}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "If u is an angle in standard position whose terminal side passes through the point (22,23), what is the numerical value of tan u?",
+      "choices": [
+        "2 3",
+        "3 2",
+        "2 2 13",
+        "2 3 13"
+      ],
+      "image": "/images/exams/algebra-2/june-2023/q4.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The average monthly temperature, T(m), in degrees Fahrenheit, over a 12 month period, can be modeled by T(m) 5 223 cos( ( p 6 m 1 56, where m is in months. What is the range of temperatures, in degrees Fahrenheit, of this function?",
+      "choices": [
+        "[223, 23]",
+        "[33, 79]",
+        "[223, 56]",
+        "[279, 33]"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which expression is an equivalent form of a a 4 5 ?",
+      "choices": [
+        "a",
+        "a 9 5",
+        "a 9 4",
+        "a 1 5"
+      ],
+      "image": "/images/exams/algebra-2/june-2023/q6.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The expression 3i(ai 2 6i2) is equivalent to",
+      "choices": [
+        "3a 1 18i",
+        "3a 2 18i",
+        "23a 1 18i",
+        "23a 2 18"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which equation best represents the graph below? \u2013a \u2013c a c h(x) x",
+      "choices": [
+        "h(x) 5 log(x 1 a) 1 c",
+        "h(x) 5 log(x 2 a) 1 c",
+        "h(x) 5 log(x 1 a) 2 c",
+        "h(x) 5 log(x 2 a) 2 c"
+      ],
+      "image": "/images/exams/algebra-2/june-2023/q8.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which function has the characteristic as x 2`, f(x) 2`? x f(x) f(x) x",
+      "choices": [
+        "",
+        "",
+        "f(x) = 5",
+        "f(x) = 2log5(2x)"
+      ],
+      "image": "/images/exams/algebra-2/june-2023/q9.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The expression (x2 1 3)2 2 2(x2 1 3) 2 24 is equivalent to",
+      "choices": [
+        "(x2 1 9)(x2 2 1)",
+        "(x2 2 3)(x2 1 7)",
+        "x4 2 2x2 2 21",
+        "x4 1 4x2 2 9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "What is the solution for the system of equations below? x 1 y 1 z 5 2 x 2 2y 2 z 5 24 x 2 9y 1 z 5 218",
+      "choices": [
+        "(22,2,2)",
+        "(22,22,6)",
+        "(0,2,0)",
+        "(0,2,4)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The roots of the equation x2 2 4x 5 213 are",
+      "choices": [
+        "2 6 3i",
+        "2 6 6i",
+        "2 6 17",
+        "2 6 i 13"
+      ],
+      "image": "/images/exams/algebra-2/june-2023/q12.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to 2x3 1 2x 2 7 2x 1 4 ?",
+      "choices": [
+        "x2 2 2x 1 5 2 27 2x 1 4",
+        "x2 2 1 2 3 2x 1 4",
+        "x2 1 2x 1 5 1 13 2x 1 4",
+        "x2 1 2x 2 3 1 5 2x 1 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "A popular celebrity tracks the number of people, in thousands, who have followed her on social media since January 1, 2015. A summary of the data she recorded is shown in the table below: Number of Months Since January 2015 2 11 16 20 27 35 47 50 52 Number of Social Media Followers (thousands) 3.1 7.5 29.7 49.7 200.3 680.3 5200.3 8109.3 12,107.1 The celebrity uses an exponential regression equation to model the data. According to the model, about how many followers did she have on June 1, 2018?",
+      "choices": [
+        "13,000,000",
+        "5,420,000",
+        "1,850,000",
+        "790,000"
+      ],
+      "image": "/images/exams/algebra-2/june-2023/q14.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Luminescence is the emission of light that is not caused by heat. A luminescent substance decays according to the function below. I 5 I0 e 0.6 3( ( t 2 This function can be best approximated by",
+      "choices": [
+        "I 5 I0 e 0.18 ( ( t 2",
+        "I 5 I0 e5t",
+        "I 5 I0(0.0067)t",
+        "I 5 I0(0.0497)0.6t"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The heights of the students at Central High School can be modeled by a normal distribution with a mean of 68.1 and a standard deviation of 3.4 inches. According to this model, approximately what percent of the students would have a height less than 60 inches or greater than 75 inches?",
+      "choices": [
+        "0.86%",
+        "1.26%",
+        "2.12%",
+        "2.98%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Marissa and Sydney are trying to determine if there is enough interest in their school to put on a senior musical. They randomly surveyed 100 members of the senior class and 43% of them said they would be interested in being in a senior musical. Marissa and Sydney then conducted a simulation of 500 more surveys, each of 100 seniors, assuming that 43% of the senior class would be interested in being in the musical. The output of the simulation is shown below. 0 10 0.28 0.32 0.36 0.40 0.44 0.48 0.52 0.56 Proportion Frequency 20 30 40 50 0.60 The standard deviation of the simulation is closest to",
+      "choices": [
+        "0.02",
+        "0.05",
+        "0.09",
+        "0.43"
+      ],
+      "image": "/images/exams/algebra-2/june-2023/q17.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "For f (x) 5 cos x, which statement is true?",
+      "choices": [
+        "2 f (x) and f (2x) are even functions.",
+        "f (2x) and f (x) 1 2 are odd functions.",
+        "2 f (x) and f ( ( p 2 x 1 are odd functions.",
+        "f (x) 1 2 is an odd function and f ( ( p 2 x 1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The solution set of x 1 3 6 6 1 10x 1 5 x 2 5 x 1 2 (x 2 5)(x 1 2) is",
+      "choices": [
+        "{26}",
+        "{5}",
+        "{26,5}",
+        "{25,6}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "written",
+      "text": "Given x and y are positive, which expressions are equivalent to x3 y ? I. ( ( y x3",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2023/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "II. (y21) x9 3 III. x3y3 x6 y8 4",
+      "choices": [
+        "f (x) 5 22 3 x 1 1 6",
+        "f (x) 5 23 2 x 1 1 4",
+        "f (x) 5 3 2 x 2 1 4",
+        "f (x) 5 3 2 x 2 1 6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "How many equations below are identities? \u2022 x2 1 y2 5 (x2 2 y2) 1 (2xy)2 \u2022 x3 1 y3 5 (x 2 y) 1 (x2 2 xy 1 y2) \u2022 x4 1 y4 5 (x 2 y)(x 2 y)(x2 1 y2)",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "If the focus of a parabola is (0, 6) and the directrix is y 5 4, what is an equation for the parabola?",
+      "choices": [
+        "y2 5 4(x 2 5)",
+        "x2 5 4(y 2 5)",
+        "y2 5 8(x 2 5)",
+        "x2 5 8(y 2 6)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "John and Margaret deposit $500 into a savings account for their son on his first birthday. They continue to make a deposit of $500 on the child\u2019s birthday, with the last deposit being made on the child\u2019s 21st birthday. If the account pays 4% annual interest, which equation represents the amount of money in the account after the last deposit is made?",
+      "choices": [
+        "S21 5 500(1.04)21",
+        "S21 5 500(1 2 1.0421) 1 2 1.04",
+        "S21 5 500(1.04)20 1 500",
+        "S21 5 500(1 2 0.0421) 1 2 1.04 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "25",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Determine the solution of 3x 1 7 5 x 2 1",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2023/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "The population of bacteria, P(t), in hundreds, after t hours can be modeled by the function P(t) 5 37e0.0532t. Determine whether the population is increasing or decreasing over time. Explain your reasoning.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The polynomial function g(x) 5 x3 1 ax2 2 5x 1 6 has a factor of (x 2 3)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Write a recursive formula for the sequence 189, 63, 21, 7, \u2026 .",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Solve algebraically for x to the nearest thousandth: 2e0.49x 5 15",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "For all values of x for which the expression is defined, write the expression below in simplest form. 2x3 1 x2 2 18x 2 9 3x 2 x2",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "An app design company believes that the proportion of high school students who have purchased apps on their smartphones in the past 3 months is 0.85. A simulation of 500 samples of 150 students was run based on this proportion and the results are shown below. 0 20 40 60 Mean = 0.852 SD = 0.029 0.775 0.800 0.825 0.850 Proportion 0.875 0.900 Frequency Suppose a sample of 150 students from your high school showed that 88% of students had purchased apps on their smartphones in the past 3 months. Based on the simulation, would the results from your high school give the app design company reason to believe their assumption is incorrect? Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2023/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Patricia creates a cubic polynomial function, p(x), with a leading coefficient of 1. The zeros of the function are 2, 3, and 26. Write an equation for p(x). Sketch y 5 p(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2023/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "A public radio station held a fund-raiser. The table below summarizes the donor category and method of donation. Donor Category Supporter Patron Method of Donation Phone calls 400 672 Online 1200 2016 To the nearest thousandth, find the probability that a randomly selected donor was categorized as a supporter, given that the donation was made online. Do these data indicate that being a supporter is independent of donating online?",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2023/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Algebraically solve the system: (x 2 2)2 1 (y 2 3)2 5 20 y 5 22x 1 7",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "On a certain tropical island, there are currently 500 palm trees and 200 flamingos. Suppose the palm tree population is decreasing at an annual rate of 3% per year and the flamingo population is growing at a continuous rate of 2% per year. Write two functions, P(x) and F(x), that represent the number of palm trees and flamingos on this island, respectively, x years from now. State the solution to the equation P(x) 5 F(x), Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "The volume of air in an average lung during breathing can be modeled by the graph below. 0 1 2 3 4 5 0 1000 2000 N(t) 3000 4000 5000 6000 Seconds Volume (mL) Using the graph, write an equation for N(t), in the form N(t) 5 A sin (Bt) 1 C. Question 37 That same lung, when engaged in exercise, has a volume that can be modeled by E(t) 5 2000 sin(pt) 1 3200, where E(t) is volume in mL and t is time in seconds. Graph at least one cycle of E(t) on the same grid as N(t). How many times during the 5-second interval will N(t) 5 E(t)? Question 37 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 pr2 Circle C 5 pd or C 5 2pr General Prisms V 5 Bh Cylinder V 5 pr2h Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 pr2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u2260 1 Radians 1 radian 5 180 ___ p degrees Degrees 1 degree 5 p ___ 180 radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2023/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

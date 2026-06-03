@@ -14,8 +14,7 @@ export default {
       topic: 'General',
       correct: 1,
       explanation: 'Vertical angles are formed by two intersecting lines and are always congruent, so the vertical angle also measures 65°.',
-      diveDeep: 'Vertical angles are the non-adjacent angles formed when two lines cross; they are always equal in measure. A common trap is confusing vertical angles with linear-pair (supplementary) angles — the 115° choice is the supplement (180° − 65°). On the exam, identify whether two angles share a vertex but no side (vertical, equal) or share a side and form a straight line (linear pair, sum to 180°). Always sketch and label the relationship before computing.'
-    },
+      diveDeep: 'Vertical angles are the non-adjacent angles formed when two lines cross; they are always equal in measure. A common trap is confusing vertical angles with linear-pair (supplementary) angles — the 115° choice is the supplement (180° − 65°). On the exam, identify whether two angles share a vertex but no side (vertical, equal) or share a side and form a straight line (linear pair, sum to 180°). Always sketch and label the relationship before computing.', image: '/images/exams/geo-january-2026/q1.png' },
     {
       number: 2,
       part: 'A',
@@ -34,8 +33,7 @@ export default {
       topic: 'Transformations',
       correct: 2,
       explanation: 'A regular hexagon has 6-fold rotational symmetry, so the smallest rotation that maps it onto itself is 360° ÷ 6 = 60°.',
-      diveDeep: 'For any regular n-sided polygon, the minimum rotation that carries it onto itself is 360°/n. A hexagon has n = 6, giving 60°. The trap choice 72° is the answer for a pentagon (360/5), and 45° corresponds to an octagon (360/8). On the exam, count the sides carefully and divide 360 by that number; multiples of that smallest angle also work, but the question asks for the minimum.'
-    },
+      diveDeep: 'For any regular n-sided polygon, the minimum rotation that carries it onto itself is 360°/n. A hexagon has n = 6, giving 60°. The trap choice 72° is the answer for a pentagon (360/5), and 45° corresponds to an octagon (360/8). On the exam, count the sides carefully and divide 360 by that number; multiples of that smallest angle also work, but the question asks for the minimum.', image: '/images/exams/geo-january-2026/q3.png' },
     {
       number: 4,
       part: 'A',
@@ -49,8 +47,7 @@ export default {
       topic: 'Area & Volume',
       correct: 0,
       explanation: 'Rotating a right triangle 360° about one leg sweeps out a cone whose height equals that leg (4 cm) and whose radius equals the other leg (7 cm).',
-      diveDeep: 'Rotating a 2-D figure about an axis generates a 3-D solid of revolution. A right triangle spun about a leg always produces a cone: the leg on the axis becomes the height, and the perpendicular leg becomes the radius of the circular base. A common trap is doubling the leg to 14 cm (treating it as a diameter) — the radius equals the leg itself, not twice it. Visualize the path the far vertex traces as it spins; that circle is the base.'
-    },
+      diveDeep: 'Rotating a 2-D figure about an axis generates a 3-D solid of revolution. A right triangle spun about a leg always produces a cone: the leg on the axis becomes the height, and the perpendicular leg becomes the radius of the circular base. A common trap is doubling the leg to 14 cm (treating it as a diameter) — the radius equals the leg itself, not twice it. Visualize the path the far vertex traces as it spins; that circle is the base.', image: '/images/exams/geo-january-2026/q4.png' },
     {
       number: 5,
       part: 'A',
@@ -64,8 +61,7 @@ export default {
       topic: 'Circles',
       correct: 1,
       explanation: 'The standard form is (x − h)² + (y − k)² = r², so center (−3, 5) gives (x + 3)² + (y − 5)² and r² = 4² = 16.',
-      diveDeep: 'In the equation (x − h)² + (y − k)² = r², the center is (h, k) and the right side is the radius squared, not the radius. The signs flip: a center x-coordinate of −3 appears as (x + 3). The classic traps here are forgetting to square the radius (using 4 instead of 16) and mishandling the negative sign of the center. Always double-check both the sign reversal and the squaring of the radius.'
-    },
+      diveDeep: 'In the equation (x − h)² + (y − k)² = r², the center is (h, k) and the right side is the radius squared, not the radius. The signs flip: a center x-coordinate of −3 appears as (x + 3). The classic traps here are forgetting to square the radius (using 4 instead of 16) and mishandling the negative sign of the center. Always double-check both the sign reversal and the squaring of the radius.', image: '/images/exams/geo-january-2026/q5.png' },
     {
       number: 6,
       part: 'A',
@@ -89,8 +85,7 @@ export default {
       topic: 'Area & Volume',
       correct: 1,
       explanation: 'Rotating the right triangle about the 4 cm leg produces a cone whose height is 4 cm and whose radius equals the other leg, 14 cm.',
-      diveDeep: 'A solid of revolution from a right triangle spun about one of its legs is always a cone, with that leg as the height and the perpendicular leg as the radius. The trap of halving 14 to 7 (treating it as a diameter) is wrong — the radius equals the full perpendicular leg. Picture the far vertex tracing a circle of radius 14 as the triangle sweeps a full turn.'
-    },
+      diveDeep: 'A solid of revolution from a right triangle spun about one of its legs is always a cone, with that leg as the height and the perpendicular leg as the radius. The trap of halving 14 to 7 (treating it as a diameter) is wrong — the radius equals the full perpendicular leg. Picture the far vertex tracing a circle of radius 14 as the triangle sweeps a full turn.', image: '/images/exams/geo-january-2026/q7.png' },
     {
       number: 8,
       part: 'A',
@@ -99,8 +94,7 @@ export default {
       topic: 'Circles',
       correct: 3,
       explanation: 'Arc length = (central angle/360°) × 2πr = (140/360) × 2π(32) ≈ 78 cm.',
-      diveDeep: 'Arc length is a fraction of the full circumference, where the fraction is the central angle over 360°. Compute (140/360) × 2π × 32 ≈ 0.3889 × 201.06 ≈ 78.2 cm. A frequent error is confusing arc length (a distance) with sector area (a region using πr²) — be sure to use circumference 2πr for arc length. Keep the calculator in degree mode and don\'t round until the end.'
-    },
+      diveDeep: 'Arc length is a fraction of the full circumference, where the fraction is the central angle over 360°. Compute (140/360) × 2π × 32 ≈ 0.3889 × 201.06 ≈ 78.2 cm. A frequent error is confusing arc length (a distance) with sector area (a region using πr²) — be sure to use circumference 2πr for arc length. Keep the calculator in degree mode and don\'t round until the end.', image: '/images/exams/geo-january-2026/q8.png' },
     {
       number: 9,
       part: 'A',
@@ -114,8 +108,7 @@ export default {
       topic: 'Triangles & Congruence',
       correct: 1,
       explanation: 'In any parallelogram the diagonals bisect each other, so E is the midpoint of AC, making AE ≅ EC.',
-      diveDeep: 'A defining property of all parallelograms is that the diagonals bisect each other (each diagonal cuts the other in half). The traps describe properties of special parallelograms: congruent diagonals (AC ≅ BD) hold only for rectangles, perpendicular diagonals (AC ⊥ BD) only for rhombi, and adjacent congruent sides (AB ≅ BC) only for rhombi. Always distinguish properties that hold for every parallelogram from those reserved for rectangles, rhombi, or squares.'
-    },
+      diveDeep: 'A defining property of all parallelograms is that the diagonals bisect each other (each diagonal cuts the other in half). The traps describe properties of special parallelograms: congruent diagonals (AC ≅ BD) hold only for rectangles, perpendicular diagonals (AC ⊥ BD) only for rhombi, and adjacent congruent sides (AB ≅ BC) only for rhombi. Always distinguish properties that hold for every parallelogram from those reserved for rectangles, rhombi, or squares.', image: '/images/exams/geo-january-2026/q9.png' },
     {
       number: 10,
       part: 'A',
@@ -208,8 +201,7 @@ export default {
       topic: 'Similarity & Proof',
       correct: 3,
       explanation: 'By the Side-Splitter Theorem, BD/DA = BE/EC, so 9/3 = BE/4 gives BE = 12, and BC = BE + EC = 12 + 4 = 16.',
-      diveDeep: 'A line parallel to one side of a triangle divides the other two sides proportionally (the Side-Splitter Theorem): BD/DA = BE/EC. Solving 9/3 = BE/4 yields BE = 12. The question asks for the full side BC, so add EC: BC = 12 + 4 = 16. The trap answer 12 stops at BE — remember BC is the entire side, not just the upper segment. Set up the proportion with matching segments on the same sides.'
-    },
+      diveDeep: 'A line parallel to one side of a triangle divides the other two sides proportionally (the Side-Splitter Theorem): BD/DA = BE/EC. Solving 9/3 = BE/4 yields BE = 12. The question asks for the full side BC, so add EC: BC = 12 + 4 = 16. The trap answer 12 stops at BE — remember BC is the entire side, not just the upper segment. Set up the proportion with matching segments on the same sides.', image: '/images/exams/geo-january-2026/q17.png' },
     {
       number: 18,
       part: 'A',
@@ -295,8 +287,7 @@ export default {
       topic: 'Right Triangles & Trig',
       correct: 3,
       explanation: 'By the geometric mean (leg) relationship, AB² = AD × AC = 3 × 15 = 45, so AB = √45 = 3√5.',
-      diveDeep: 'When the altitude is drawn to the hypotenuse of a right triangle, each leg is the geometric mean between the whole hypotenuse and the segment adjacent to that leg: AB² = AD × AC. Here AC = AD + CD = 3 + 12 = 15, so AB² = 3 × 15 = 45 and AB = √45 = 3√5. A common trap is using BD² = AD × CD (the altitude relationship) instead of the leg relationship — match the leg to its adjacent hypotenuse segment, not the two segments to each other.'
-    },
+      diveDeep: 'When the altitude is drawn to the hypotenuse of a right triangle, each leg is the geometric mean between the whole hypotenuse and the segment adjacent to that leg: AB² = AD × AC. Here AC = AD + CD = 3 + 12 = 15, so AB² = 3 × 15 = 45 and AB = √45 = 3√5. A common trap is using BD² = AD × CD (the altitude relationship) instead of the leg relationship — match the leg to its adjacent hypotenuse segment, not the two segments to each other.', image: '/images/exams/geo-january-2026/q23.png' },
     {
       number: 24,
       part: 'A',
@@ -321,8 +312,7 @@ export default {
       topic: '3D Geometry & Volume',
       explanation: 'Find the volume of the cylinder using V = πr²h, then multiply by the weight density to get the total weight.',
       diveDeep: 'Radius = diameter/2 = 10/2 = 5 inches. V = π(5²)(15) = π(25)(15) = 375π ≈ 1178.1 in³. Weight = 1178.1 × 0.0231 ≈ 27.21 ≈ 27 pounds. Using the diameter (10) instead of the radius (5) in the formula — giving V = π(10²)(15) — quadruples the volume and is the most common error. Also, keep π in the calculation until the final step to preserve accuracy before rounding.',
-      modelAnswer: 'r = 10/2 = 5 inches\nV = πr²h = π(5²)(15) = 375π ≈ 1178.097 in³\nWeight = 1178.097 × 0.0231 ≈ 27.21 ≈ 27 pounds'
-    },
+      modelAnswer: 'r = 10/2 = 5 inches\nV = πr²h = π(5²)(15) = 375π ≈ 1178.097 in³\nWeight = 1178.097 × 0.0231 ≈ 27.21 ≈ 27 pounds', image: '/images/exams/geo-january-2026/q25.png' },
     {
       number: 26,
       part: 'B',
@@ -351,8 +341,7 @@ export default {
       topic: 'Circles',
       explanation: 'The deck area is the area of the large circle (pool + deck) minus the area of the pool: π(20²) − π(12²).',
       diveDeep: 'Pool radius = 24/2 = 12 ft. Outer radius = 12 + 8 = 20 ft. Deck area = π(20²) − π(12²) = 400π − 144π = 256π ≈ 804.25 ≈ 804 ft². The ring (annulus) area formula is π(R² − r²) where R is the outer radius and r is the inner radius. A common error is adding 8 to the diameter instead of the radius when computing the outer circle, giving radius 20 correctly but sometimes students use diameter 24 + 8 = 32 as the outer diameter (radius 16) incorrectly.',
-      modelAnswer: 'Pool radius = 24/2 = 12 ft\nOuter radius = 12 + 8 = 20 ft\nDeck area = π(20²) − π(12²) = 400π − 144π = 256π ≈ 804 ft²'
-    },
+      modelAnswer: 'Pool radius = 24/2 = 12 ft\nOuter radius = 12 + 8 = 20 ft\nDeck area = π(20²) − π(12²) = 400π − 144π = 256π ≈ 804 ft²', image: '/images/exams/geo-january-2026/q28.png' },
     {
       number: 29,
       part: 'B',
@@ -361,8 +350,7 @@ export default {
       topic: 'Constructions',
       explanation: 'Set the compass to the length AB, draw arcs of the same radius from both A and B, and connect the intersection point to A and B to complete the equilateral triangle.',
       diveDeep: 'An equilateral triangle has all three sides equal to the given segment AB. Set the compass width equal to AB. From point A, draw a wide arc above the segment. From point B with the same compass width, draw another arc. The two arcs intersect at point C. Connect A to C and B to C with straight lines — all three sides AB = AC = BC = AB, forming the equilateral triangle. The compass width must not be changed between the two arcs; even a small adjustment makes the triangle non-equilateral and earns no credit.',
-      modelAnswer: '1. Set compass width equal to the length of AB.\n2. Place compass point at A; draw an arc above AB.\n3. Without changing the compass width, place compass point at B; draw another arc intersecting the first — label the intersection C.\n4. Draw segments AC and BC with a straightedge.\n5. △ABC is equilateral with AB = AC = BC.\n[Leave all construction arcs visible.]'
-    },
+      modelAnswer: '1. Set compass width equal to the length of AB.\n2. Place compass point at A; draw an arc above AB.\n3. Without changing the compass width, place compass point at B; draw another arc intersecting the first — label the intersection C.\n4. Draw segments AC and BC with a straightedge.\n5. △ABC is equilateral with AB = AC = BC.\n[Leave all construction arcs visible.]', image: '/images/exams/geo-january-2026/q29.png' },
     {
       number: 30,
       part: 'B',
@@ -381,8 +369,7 @@ export default {
       topic: 'Triangles & Congruence',
       explanation: 'The altitude to the base of an isosceles triangle bisects the vertex angle, creating two congruent right triangles; use trigonometry to find the legs AB and the half-base BD.',
       diveDeep: 'Since △ABC is isosceles with the altitude AD to the base, AD bisects ∠BAC: ∠BAD = 40°. In right △ABD: tan(40°) = BD/AD → BD = 8 tan(40°) ≈ 6.713. So BC = 2 × BD ≈ 13.426. Also cos(40°) = AD/AB → AB = 8/cos(40°) ≈ 10.443. Perimeter = AB + AB + BC ≈ 10.443 + 10.443 + 13.426 ≈ 34.3. Note that ∠BAD = 40° because the full vertex angle is 80° and the altitude bisects it. A common error is using the full 80° angle in the right triangle instead of the half-angle 40°.',
-      modelAnswer: '∠BAD = 80°/2 = 40° (altitude bisects vertex angle in isosceles △)\n\nIn right △ABD:\ntan(40°) = BD/AD → BD = 8 tan(40°) ≈ 6.713\nBC = 2 × BD ≈ 13.426\n\ncos(40°) = AD/AB → AB = 8/cos(40°) ≈ 10.443\n\nPerimeter = AB + AB + BC ≈ 10.443 + 10.443 + 13.426 ≈ 34.3'
-    },
+      modelAnswer: '∠BAD = 80°/2 = 40° (altitude bisects vertex angle in isosceles △)\n\nIn right △ABD:\ntan(40°) = BD/AD → BD = 8 tan(40°) ≈ 6.713\nBC = 2 × BD ≈ 13.426\n\ncos(40°) = AD/AB → AB = 8/cos(40°) ≈ 10.443\n\nPerimeter = AB + AB + BC ≈ 10.443 + 10.443 + 13.426 ≈ 34.3', image: '/images/exams/geo-january-2026/q31.png' },
     {
       number: 32,
       part: 'C',
@@ -391,8 +378,7 @@ export default {
       topic: 'Triangles & Congruence',
       explanation: 'With MS ∥ IL, alternate interior angles are congruent; with MS ≅ IL, use AAS or ASA to prove the triangles congruent.',
       diveDeep: 'MS ∥ IL gives: ∠MIS ≅ ∠LIS... more precisely, with transversals IS and ML, ∠IMS ≅ ∠SLI (alternate interior angles, MS ∥ IL cut by ML) and ∠MIS ≅ ∠LSI (alternate interior angles, MS ∥ IL cut by IS). MS ≅ IL (given). By AAS: ∠IMS ≅ ∠ILS, MS ≅ IL, ∠MSI ≅ ∠LIS → △MIE ≅ △LSE. Alternatively, use ASA with ∠MIE ≅ ∠LSE, IE... careful labeling of which angles and sides correspond is essential for full credit.',
-      modelAnswer: 'Statements | Reasons\n1. MS ∥ IL | Given\n2. MS ≅ IL | Given\n3. ∠IMS ≅ ∠LIS | Alternate interior angles (MS ∥ IL, transversal ML... wait — transversal MI)\n   ∠MIS ≅ ∠LSI | Alternate interior angles (MS ∥ IL, transversal IS)\n4. In △MIE and △LSE:\n   ∠EMI ≅ ∠ELS | Alternate interior angles (step 3)\n   MS ≅ IL | Given (step 2)\n   ∠MSI ≅ ∠LIS | Alternate interior angles (step 3)\n5. △MIE ≅ △LSE | AAS (two pairs of angles and the non-included side MS ≅ IL)'
-    },
+      modelAnswer: 'Statements | Reasons\n1. MS ∥ IL | Given\n2. MS ≅ IL | Given\n3. ∠IMS ≅ ∠LIS | Alternate interior angles (MS ∥ IL, transversal ML... wait — transversal MI)\n   ∠MIS ≅ ∠LSI | Alternate interior angles (MS ∥ IL, transversal IS)\n4. In △MIE and △LSE:\n   ∠EMI ≅ ∠ELS | Alternate interior angles (step 3)\n   MS ≅ IL | Given (step 2)\n   ∠MSI ≅ ∠LIS | Alternate interior angles (step 3)\n5. △MIE ≅ △LSE | AAS (two pairs of angles and the non-included side MS ≅ IL)', image: '/images/exams/geo-january-2026/q32.png' },
     {
       number: 33,
       part: 'C',
@@ -401,8 +387,7 @@ export default {
       topic: '3D Geometry & Volume',
       explanation: 'Compute the volume of both solids (prism + pyramid, sharing the same rectangular base), add them, and multiply by the density to find the mass.',
       diveDeep: 'V_prism = l × w × h = 12 × 6 × 3 = 216 cm³. The pyramid sits on the same 12 × 6 base: V_pyramid = (1/3)(12 × 6)(10) = (1/3)(720) = 240 cm³. Total volume = 216 + 240 = 456 cm³. Mass = 456 × 2.5 = 1140 grams. The two most common errors: forgetting the 1/3 factor in the pyramid volume (giving 720 instead of 240), and using the wrong base dimensions for the pyramid (the pyramid shares the prism\'s top face, so its base is also 12 × 6).',
-      modelAnswer: 'V_prism = 12 × 6 × 3 = 216 cm³\nV_pyramid = (1/3)(12 × 6)(10) = (1/3)(720) = 240 cm³\nTotal volume = 216 + 240 = 456 cm³\nMass = 456 × 2.5 = 1140 grams'
-    },
+      modelAnswer: 'V_prism = 12 × 6 × 3 = 216 cm³\nV_pyramid = (1/3)(12 × 6)(10) = (1/3)(720) = 240 cm³\nTotal volume = 216 + 240 = 456 cm³\nMass = 456 × 2.5 = 1140 grams', image: '/images/exams/geo-january-2026/q33.png' },
     {
       number: 34,
       part: 'C',
@@ -411,8 +396,7 @@ export default {
       topic: 'Coordinate Geometry',
       explanation: 'Compute slopes to show exactly one pair of opposite sides of ABCD is parallel (making it a trapezoid), then verify EF\'s slope matches, and compare lengths to check the midsegment formula.',
       diveDeep: 'Slope of AD: (5−1)/(0−(−3)) = 4/3. Slope of BC: (5−(−7))/(6−(−3)) = 12/9 = 4/3. Slope of AB: (−7−1)/(−3−(−3)) = undefined (vertical). Slope of DC: (5−5)/(6−0) = 0 (horizontal). Since AD ∥ BC (same slope 4/3) but AB is not parallel to DC (vertical vs. horizontal), ABCD is a trapezoid. Slope of EF = (5−(−3))/(3−(−3)) = 8/6 = 4/3 = slope of AD and BC, so EF ∥ AD ∥ BC. AD = √((0−(−3))² + (5−1)²) = √(9+16) = 5. BC = √((6−(−3))² + (5−(−7))²) = √(81+144) = √225 = 15. EF = √((3−(−3))² + (5−(−3))²) = √(36+64) = √100 = 10. (1/2)(AD + BC) = (1/2)(5+15) = 10 = EF ✓. EF is the midsegment.',
-      modelAnswer: 'Part 1 — Prove ABCD is a trapezoid:\nSlope AD = (5−1)/(0−(−3)) = 4/3\nSlope BC = (5−(−7))/(6−(−3)) = 12/9 = 4/3\nAD ∥ BC (equal slopes)\n\nSlope AB = (−7−1)/(−3−(−3)) = undefined (vertical)\nSlope DC = (5−5)/(6−0) = 0 (horizontal)\nAB is not parallel to DC.\n\nExactly one pair of opposite sides is parallel → ABCD is a trapezoid.\n\nPart 2 — EF ∥ AD and BC:\nSlope EF = (5−(−3))/(3−(−3)) = 8/6 = 4/3\nSince slope EF = slope AD = slope BC = 4/3, EF ∥ AD ∥ BC.\n\nPart 3 — Is EF = (1/2)(AD + BC)?\nAD = √((0+3)² + (5−1)²) = √(9+16) = 5\nBC = √((6+3)² + (5+7)²) = √(81+144) = 15\nEF = √((3+3)² + (5+3)²) = √(36+64) = 10\n(1/2)(AD + BC) = (1/2)(5+15) = 10 = EF ✓\nYes, EF = (1/2)(AD + BC).'
-    },
+      modelAnswer: 'Part 1 — Prove ABCD is a trapezoid:\nSlope AD = (5−1)/(0−(−3)) = 4/3\nSlope BC = (5−(−7))/(6−(−3)) = 12/9 = 4/3\nAD ∥ BC (equal slopes)\n\nSlope AB = (−7−1)/(−3−(−3)) = undefined (vertical)\nSlope DC = (5−5)/(6−0) = 0 (horizontal)\nAB is not parallel to DC.\n\nExactly one pair of opposite sides is parallel → ABCD is a trapezoid.\n\nPart 2 — EF ∥ AD and BC:\nSlope EF = (5−(−3))/(3−(−3)) = 8/6 = 4/3\nSince slope EF = slope AD = slope BC = 4/3, EF ∥ AD ∥ BC.\n\nPart 3 — Is EF = (1/2)(AD + BC)?\nAD = √((0+3)² + (5−1)²) = √(9+16) = 5\nBC = √((6+3)² + (5+7)²) = √(81+144) = 15\nEF = √((3+3)² + (5+3)²) = √(36+64) = 10\n(1/2)(AD + BC) = (1/2)(5+15) = 10 = EF ✓\nYes, EF = (1/2)(AD + BC).', image: '/images/exams/geo-january-2026/q34.png' },
     {
       number: 35,
       part: 'D',
@@ -421,7 +405,6 @@ export default {
       topic: 'Coordinate Geometry',
       explanation: 'This 6-credit question requires proving the trapezoid, proving EF is a midsegment (parallel to the bases), and confirming the midsegment length formula EF = (1/2)(AD + BC).',
       diveDeep: 'A full 6-credit response must address all three parts with justified coordinate calculations. Trapezoid: show exactly one pair of opposite sides parallel (AD ∥ BC but AB not parallel to DC). EF parallel: compute slope of EF and compare to slopes of AD and BC. Midsegment formula: compute all three lengths using the distance formula and verify (1/2)(5 + 15) = 10 = EF. Organize the work clearly, labeling each part. Losing points on this question usually comes from incomplete justification — computing lengths or slopes without explicitly stating the conclusion drawn from each calculation.',
-      modelAnswer: 'Trapezoid proof:\nSlope AD = 4/3, Slope BC = 4/3 → AD ∥ BC\nSlope AB = undefined, Slope DC = 0 → AB not ∥ DC\n→ Exactly one pair parallel → ABCD is a trapezoid.\n\nEF ∥ AD and BC:\nSlope EF = (5−(−3))/(3−(−3)) = 8/6 = 4/3 = slope AD = slope BC ✓\n\nMidsegment check:\nAD = √(3² + 4²) = √25 = 5\nBC = √(9² + 12²) = √(81+144) = √225 = 15\nEF = √(6² + 8²) = √(36+64) = √100 = 10\n(1/2)(AD + BC) = (1/2)(20) = 10 = EF ✓\nYes, EF satisfies the midsegment theorem.'
-    }
+      modelAnswer: 'Trapezoid proof:\nSlope AD = 4/3, Slope BC = 4/3 → AD ∥ BC\nSlope AB = undefined, Slope DC = 0 → AB not ∥ DC\n→ Exactly one pair parallel → ABCD is a trapezoid.\n\nEF ∥ AD and BC:\nSlope EF = (5−(−3))/(3−(−3)) = 8/6 = 4/3 = slope AD = slope BC ✓\n\nMidsegment check:\nAD = √(3² + 4²) = √25 = 5\nBC = √(9² + 12²) = √(81+144) = √225 = 15\nEF = √(6² + 8²) = √(36+64) = √100 = 10\n(1/2)(AD + BC) = (1/2)(20) = 10 = EF ✓\nYes, EF satisfies the midsegment theorem.', image: '/images/exams/geo-january-2026/q35.png' }
   ]
 }

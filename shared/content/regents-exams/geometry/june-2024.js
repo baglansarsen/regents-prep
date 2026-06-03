@@ -60,8 +60,7 @@ export default {
       topic: 'Coordinate Geometry',
       correct: 3,
       explanation: 'Perpendicular lines have slopes that are negative reciprocals, so the slope is −4/3, and point-slope form through (2, 7) gives y − 7 = −(4/3)(x − 2).',
-      diveDeep: 'Perpendicular slopes multiply to −1; the perpendicular to slope 3/4 is −4/3 (flip and negate). Point-slope form is y − y₁ = m(x − x₁), so a point (2, 7) yields (x − 2) and (y − 7) — watch the signs carefully, since subtracting a positive coordinate is a common error. Distractors here mix up the original slope (3/4) with the perpendicular slope and flip the signs of the point. Always confirm both the slope AND that the point is correctly substituted.'
-    },
+      diveDeep: 'Perpendicular slopes multiply to −1; the perpendicular to slope 3/4 is −4/3 (flip and negate). Point-slope form is y − y₁ = m(x − x₁), so a point (2, 7) yields (x − 2) and (y − 7) — watch the signs carefully, since subtracting a positive coordinate is a common error. Distractors here mix up the original slope (3/4) with the perpendicular slope and flip the signs of the point. Always confirm both the slope AND that the point is correctly substituted.', image: '/images/exams/geo-june-2024/q4.png' },
     {
       number: 5,
       part: 'A',
@@ -75,8 +74,7 @@ export default {
       topic: 'Circles',
       correct: 0,
       explanation: 'Completing the square gives (x − 3)² + (y + 4)² = 36, so the center is (3, −4) and the radius is √36 = 6.',
-      diveDeep: 'The standard form of a circle is (x − h)² + (y − k)² = r², with center (h, k) and radius r. To convert from general form, complete the square on the x-terms and y-terms separately: half of −6 is −3 (square is 9), half of 8 is 4 (square is 16), then add those to both sides: −11 + 9 + 16 = 14... here the constant works to give r² = 36. The biggest traps are sign errors on the center (the center is the value that makes each squared term zero, so x − 3 gives +3) and forgetting to take the square root for the radius (radius is 6, not 36).'
-    },
+      diveDeep: 'The standard form of a circle is (x − h)² + (y − k)² = r², with center (h, k) and radius r. To convert from general form, complete the square on the x-terms and y-terms separately: half of −6 is −3 (square is 9), half of 8 is 4 (square is 16), then add those to both sides: −11 + 9 + 16 = 14... here the constant works to give r² = 36. The biggest traps are sign errors on the center (the center is the value that makes each squared term zero, so x − 3 gives +3) and forgetting to take the square root for the radius (radius is 6, not 36).', image: '/images/exams/geo-june-2024/q5.png' },
     {
       number: 6,
       part: 'A',
@@ -96,8 +94,7 @@ export default {
       topic: 'Triangles & Congruence',
       correct: 2,
       explanation: 'The angles of △ABC sum to 180°, so m∠C = 180° − 50° − 60° = 70°, and since △ABC ≅ △DEF, ∠F corresponds to ∠C and also measures 70°.',
-      diveDeep: 'Congruent triangles have corresponding parts that are equal (CPCTC), and correspondence follows the order of the naming: A↔D, B↔E, C↔F. First find the missing third angle using the Triangle Angle Sum Theorem (angles total 180°), then map it to the corresponding vertex. The trap is mismatching which angle in the second triangle corresponds — always read the congruence statement letter-by-letter to pair vertices correctly.'
-    },
+      diveDeep: 'Congruent triangles have corresponding parts that are equal (CPCTC), and correspondence follows the order of the naming: A↔D, B↔E, C↔F. First find the missing third angle using the Triangle Angle Sum Theorem (angles total 180°), then map it to the corresponding vertex. The trap is mismatching which angle in the second triangle corresponds — always read the congruence statement letter-by-letter to pair vertices correctly.', image: '/images/exams/geo-june-2024/q7.png' },
     {
       number: 8,
       part: 'A',
@@ -106,8 +103,7 @@ export default {
       topic: 'Transformations',
       correct: 1,
       explanation: 'A regular hexagon has 6-fold rotational symmetry, so the smallest rotation that maps it onto itself is 360° ÷ 6 = 60°.',
-      diveDeep: 'A regular n-gon maps onto itself under rotation by multiples of 360°/n about its center. For a hexagon, n = 6, giving 60° as the minimum (smallest positive) rotation. The trap is choosing 360° or confusing rotational symmetry with the interior angle (120° for a hexagon, which is a distractor here). Remember: rotational symmetry order equals the number of sides, and the minimum rotation angle is 360 divided by that number.'
-    },
+      diveDeep: 'A regular n-gon maps onto itself under rotation by multiples of 360°/n about its center. For a hexagon, n = 6, giving 60° as the minimum (smallest positive) rotation. The trap is choosing 360° or confusing rotational symmetry with the interior angle (120° for a hexagon, which is a distractor here). Remember: rotational symmetry order equals the number of sides, and the minimum rotation angle is 360 divided by that number.', image: '/images/exams/geo-june-2024/q8.png' },
     {
       number: 9,
       part: 'A',
@@ -116,8 +112,7 @@ export default {
       topic: 'Circles',
       correct: 0,
       explanation: 'The diameter length is √[(8−2)² + (11−3)²] = √(36 + 64) = √100 = 10, so the radius is half of that, which is 5.',
-      diveDeep: 'Use the distance formula to find the diameter, then halve it for the radius. The two given points form a 6-8-10 right triangle, a scaled 3-4-5 Pythagorean triple — recognizing these speeds up the arithmetic. The classic trap is reporting the diameter (10) as the answer instead of the radius (5). Always reread whether the question asks for radius or diameter before selecting.'
-    },
+      diveDeep: 'Use the distance formula to find the diameter, then halve it for the radius. The two given points form a 6-8-10 right triangle, a scaled 3-4-5 Pythagorean triple — recognizing these speeds up the arithmetic. The classic trap is reporting the diameter (10) as the answer instead of the radius (5). Always reread whether the question asks for radius or diameter before selecting.', image: '/images/exams/geo-june-2024/q9.png' },
     {
       number: 10,
       part: 'A',
@@ -126,8 +121,7 @@ export default {
       topic: 'Angles & Lines',
       correct: 0,
       explanation: 'Since BD ⊥ AC, ∠BDC = 90°, so in △BDC the angle ∠DBC = 180° − 90° − 42° = 48°; AB bisecting ∠FBD relationships lead to m∠A = 24°.',
-      diveDeep: 'This problem chains several relationships: a perpendicular creates a 90° angle, the angle-sum theorem finds the third angle of a triangle, an exterior angle equals the sum of the two remote interior angles, and an angle bisector splits an angle into two equal halves. Work step by step, labeling each newly found angle on the diagram. The most common mistake is mishandling the exterior angle CBF or the bisected angle FBD — keep careful track of which angles are halves and which are full. Patient diagram annotation beats trying to do it all in your head.'
-    },
+      diveDeep: 'This problem chains several relationships: a perpendicular creates a 90° angle, the angle-sum theorem finds the third angle of a triangle, an exterior angle equals the sum of the two remote interior angles, and an angle bisector splits an angle into two equal halves. Work step by step, labeling each newly found angle on the diagram. The most common mistake is mishandling the exterior angle CBF or the bisected angle FBD — keep careful track of which angles are halves and which are full. Patient diagram annotation beats trying to do it all in your head.', image: '/images/exams/geo-june-2024/q10.png' },
     {
       number: 11,
       part: 'A',
@@ -136,8 +130,7 @@ export default {
       topic: 'Circles',
       correct: 1,
       explanation: 'Sector area = (central angle/360) × πr² = (100/360) × π(6²) = (5/18) × 36π = 10π. Wait — the shaded sector is the 100° sector, giving (100/360)(36π) = 10π.',
-      diveDeep: 'A sector area is the fraction (central angle ÷ 360°) of the full circle area πr². Here (100/360) × 36π = 10π for the 100° sector. The choice between the listed answers depends on which region is shaded — if the shaded region is a different slice, the fraction changes accordingly. The common trap is using arc length formula (which uses 2πr) instead of area (which uses πr²). Always confirm radius squared appears in an area calculation.'
-    },
+      diveDeep: 'A sector area is the fraction (central angle ÷ 360°) of the full circle area πr². Here (100/360) × 36π = 10π for the 100° sector. The choice between the listed answers depends on which region is shaded — if the shaded region is a different slice, the fraction changes accordingly. The common trap is using arc length formula (which uses 2πr) instead of area (which uses πr²). Always confirm radius squared appears in an area calculation.', image: '/images/exams/geo-june-2024/q11.png' },
     {
       number: 12,
       part: 'A',
@@ -197,8 +190,7 @@ export default {
       topic: 'Triangles & Congruence',
       correct: 3,
       explanation: 'By the geometric mean (altitude) relationship, CD² = AD × BD, so 8² = 4 × BD, giving 64 = 4·BD and BD = 16.',
-      diveDeep: 'When an altitude is drawn to the hypotenuse of a right triangle, it creates the relationship (altitude)² = (segment 1)(segment 2) — the altitude is the geometric mean of the two hypotenuse segments. Here 8² = 4 × BD. The related leg rules are (leg)² = (whole hypotenuse)(adjacent segment). The trap is mixing up which geometric mean relationship applies; sketch the small similar triangles and label segments. Memorize: altitude = geometric mean of the two pieces it creates.'
-    },
+      diveDeep: 'When an altitude is drawn to the hypotenuse of a right triangle, it creates the relationship (altitude)² = (segment 1)(segment 2) — the altitude is the geometric mean of the two hypotenuse segments. Here 8² = 4 × BD. The related leg rules are (leg)² = (whole hypotenuse)(adjacent segment). The trap is mixing up which geometric mean relationship applies; sketch the small similar triangles and label segments. Memorize: altitude = geometric mean of the two pieces it creates.', image: '/images/exams/geo-june-2024/q16.png' },
     {
       number: 17,
       part: 'A',
@@ -237,8 +229,7 @@ export default {
       topic: 'Similarity & Proof',
       correct: 3,
       explanation: 'With CA ∥ BD, alternate interior angles are equal and vertical angles at E are equal, so by AA the triangles are similar (△AEC ∼ △BED) but not necessarily congruent.',
-      diveDeep: 'Parallel lines cut by transversals create equal alternate interior angles, and intersecting lines create equal vertical angles — together giving Angle-Angle similarity. Similarity (∼) only guarantees equal angles and proportional sides, NOT equal sides, so congruence (≅) and equal segment statements need additional information. The trap is jumping to congruence when only similarity is justified. Look for whether you have a pair of equal sides (for congruence) or only angles (for similarity).'
-    },
+      diveDeep: 'Parallel lines cut by transversals create equal alternate interior angles, and intersecting lines create equal vertical angles — together giving Angle-Angle similarity. Similarity (∼) only guarantees equal angles and proportional sides, NOT equal sides, so congruence (≅) and equal segment statements need additional information. The trap is jumping to congruence when only similarity is justified. Look for whether you have a pair of equal sides (for congruence) or only angles (for similarity).', image: '/images/exams/geo-june-2024/q19.png' },
     {
       number: 20,
       part: 'A',
@@ -272,8 +263,7 @@ export default {
       topic: 'Triangles & Congruence',
       correct: 3,
       explanation: 'The leg AC is the geometric mean of the whole hypotenuse AB and its adjacent segment AD, giving AB/AC = AC/AD (i.e., AC² = AB·AD).',
-      diveDeep: 'When the altitude to the hypotenuse is drawn, each leg is the geometric mean between the entire hypotenuse and the hypotenuse segment adjacent to that leg: AC² = AB·AD and BC² = AB·BD. The altitude itself is the geometric mean of the two segments: CD² = AD·BD. The trap is mixing the leg rule with the altitude rule. To find leg AC, the proportion must involve the full hypotenuse AB and the segment AD next to AC — set them as AB/AC = AC/AD.'
-    },
+      diveDeep: 'When the altitude to the hypotenuse is drawn, each leg is the geometric mean between the entire hypotenuse and the hypotenuse segment adjacent to that leg: AC² = AB·AD and BC² = AB·BD. The altitude itself is the geometric mean of the two segments: CD² = AD·BD. The trap is mixing the leg rule with the altitude rule. To find leg AC, the proportion must involve the full hypotenuse AB and the segment AD next to AC — set them as AB/AC = AC/AD.', image: '/images/exams/geo-june-2024/q22.png' },
     {
       number: 23,
       part: 'A',
@@ -312,8 +302,7 @@ export default {
       topic: 'Constructions',
       explanation: 'Set the compass to the radius of circle A, then step off that radius length six times around the circle to mark six equally-spaced points; connect alternating points to form the equilateral triangle inscribed in the circle.',
       diveDeep: 'An equilateral triangle inscribed in a circle has vertices equally spaced 120° apart. Because the radius of the circle equals the side length of the inscribed equilateral triangle (a property of the regular hexagon), you set the compass to the circle\'s radius, place the compass on any point on the circle, and walk off six arcs — each new arc endpoint is the next vertex of a regular hexagon. Connecting every other vertex gives the equilateral triangle. A common error is not keeping the compass width fixed throughout; any change creates unequal spacing and a lopsided figure.',
-      modelAnswer: '1. Set compass width to the radius of circle A (from center A to any point on the circle).\n2. Place compass point anywhere on the circle; mark an arc intersection on the circle. Repeat around the circle, making six equally-spaced points.\n3. Connect alternating points (every other one of the six) with straight lines — three line segments form the equilateral triangle.\n4. Leave all arc marks showing.'
-    },
+      modelAnswer: '1. Set compass width to the radius of circle A (from center A to any point on the circle).\n2. Place compass point anywhere on the circle; mark an arc intersection on the circle. Repeat around the circle, making six equally-spaced points.\n3. Connect alternating points (every other one of the six) with straight lines — three line segments form the equilateral triangle.\n4. Leave all arc marks showing.', image: '/images/exams/geo-june-2024/q25.png' },
     {
       number: 26,
       part: 'B',
@@ -322,8 +311,7 @@ export default {
       topic: 'Transformations',
       explanation: 'The image is a 180° rotation of DEAR about the origin (or equivalently a reflection over both axes), mapping each vertex (x, y) to (−x, −y).',
       diveDeep: 'When each vertex maps to its opposite sign in both coordinates, (x, y) → (−x, −y), the transformation is a 180° rotation about the origin. This can also be described as a reflection over the x-axis followed by a reflection over the y-axis (or the y-axis first). On the exam, identifying the center and angle of rotation requires checking that the midpoint of each segment joining a pre-image vertex to its image passes through the center of rotation. A common error is naming only one reflection without completing the composition.',
-      modelAnswer: 'Examining the coordinates: D maps to D′, E maps to E′, A maps to A′, R maps to R′ with each (x, y) → (−x, −y). This is a 180° rotation about the origin. Alternatively: reflect DEAR over the x-axis, then reflect the result over the y-axis. Both descriptions are valid.'
-    },
+      modelAnswer: 'Examining the coordinates: D maps to D′, E maps to E′, A maps to A′, R maps to R′ with each (x, y) → (−x, −y). This is a 180° rotation about the origin. Alternatively: reflect DEAR over the x-axis, then reflect the result over the y-axis. Both descriptions are valid.', image: '/images/exams/geo-june-2024/q26.png' },
     {
       number: 27,
       part: 'B',
@@ -332,8 +320,7 @@ export default {
       topic: 'Circles',
       explanation: 'By the tangent-secant theorem, AL² = AK × AE = 12 × 48 = 576, so AL = 24.',
       diveDeep: 'When a tangent and a secant are drawn from an external point, the square of the tangent length equals the product of the entire secant length and its external segment: AL² = AK × AE. Here AE = AK + KE = 12 + 36 = 48, so AL² = 12 × 48 = 576 and AL = 24. The most common mistake is using AK × KE (just the external and internal chord segments) instead of the full secant length AE. Always use the whole secant (from external point to the far intersection) and the external portion.',
-      modelAnswer: 'AE = AK + KE = 12 + 36 = 48.\nBy the tangent-secant theorem: AL² = AK × AE = 12 × 48 = 576.\nAL = √576 = 24.'
-    },
+      modelAnswer: 'AE = AK + KE = 12 + 36 = 48.\nBy the tangent-secant theorem: AL² = AK × AE = 12 × 48 = 576.\nAL = √576 = 24.', image: '/images/exams/geo-june-2024/q27.png' },
     {
       number: 28,
       part: 'B',
@@ -342,8 +329,7 @@ export default {
       topic: 'Circles',
       explanation: 'Completing the square gives (x + 4)² + (y − 3)² = 18, so the center is (−4, 3) and the radius is √18 = 3√2.',
       diveDeep: 'Regroup: (x² + 8x) + (y² − 6y) = −7. Complete the square: add (8/2)² = 16 and (−6/2)² = 9 to both sides: (x + 4)² + (y − 3)² = −7 + 16 + 9 = 18. The center is (−4, 3) and r = √18 = 3√2 ≈ 4.24. Common errors: forgetting to add the completing-the-square values to the right side, or reading the center sign wrong (x + 4 means h = −4, not +4). Always move the constant to the right side first, then complete the square on each variable group.',
-      modelAnswer: 'x² + 8x + y² − 6y = −7\n(x² + 8x + 16) + (y² − 6y + 9) = −7 + 16 + 9\n(x + 4)² + (y − 3)² = 18\nCenter: (−4, 3)\nRadius: r = √18 = 3√2 ≈ 4.24'
-    },
+      modelAnswer: 'x² + 8x + y² − 6y = −7\n(x² + 8x + 16) + (y² − 6y + 9) = −7 + 16 + 9\n(x + 4)² + (y − 3)² = 18\nCenter: (−4, 3)\nRadius: r = √18 = 3√2 ≈ 4.24', image: '/images/exams/geo-june-2024/q28.png' },
     {
       number: 29,
       part: 'B',
@@ -362,8 +348,7 @@ export default {
       topic: 'Similarity & Proof',
       explanation: 'Since AE/EB = 15/27 = 5/9 and AF/FC = 20/36 = 5/9, the ratios of corresponding sides are equal, so by the Triangle Proportionality Theorem (converse) EF ∥ BC.',
       diveDeep: 'The converse of the Triangle Proportionality (Side-Splitter) Theorem states: if a segment divides two sides of a triangle proportionally, then it is parallel to the third side. Check both ratios: AE/EB = 15/27 = 5/9 and AF/FC = 20/36 = 5/9. Since they are equal, EF splits the two sides proportionally, guaranteeing EF ∥ BC. A common error is comparing AE/AB to AF/AC (the whole-side ratio) instead of AE/EB to AF/FC (the segment ratio) — both work, but students often mix the two forms and end up comparing incompatible ratios.',
-      modelAnswer: 'AE/EB = 15/27 = 5/9\nAF/FC = 20/36 = 5/9\nSince AE/EB = AF/FC, segment EF divides sides AB and AC proportionally.\nBy the converse of the Triangle Proportionality Theorem, EF ∥ BC.'
-    },
+      modelAnswer: 'AE/EB = 15/27 = 5/9\nAF/FC = 20/36 = 5/9\nSince AE/EB = AF/FC, segment EF divides sides AB and AC proportionally.\nBy the converse of the Triangle Proportionality Theorem, EF ∥ BC.', image: '/images/exams/geo-june-2024/q30.png' },
     {
       number: 31,
       part: 'B',
@@ -372,8 +357,7 @@ export default {
       topic: '3D Geometry & Volume',
       explanation: 'The total volume is the prism volume plus the pyramid volume; dividing by the filter rate of 2400 ft³/min gives the time.',
       diveDeep: 'Prism volume: V = lwh = 38 × 15 × 22 = 12,540 ft³. Pyramid volume: V = (1/3)Bh = (1/3)(38 × 15)(12) = (1/3)(570)(12) = 2,280 ft³. Total = 14,820 ft³. Time = 14,820 ÷ 2400 = 6.175 ≈ 6.2 minutes. A common error is using the full pyramid height formula (multiplying by 12 instead of (1/3)(12) = 4) and forgetting the 1/3 factor for the pyramid. Also watch that both solid bases are the same rectangle (38 × 15).',
-      modelAnswer: 'V_prism = 38 × 15 × 22 = 12,540 ft³\nV_pyramid = (1/3)(38 × 15)(12) = (1/3)(570)(12) = 2,280 ft³\nTotal volume = 12,540 + 2,280 = 14,820 ft³\nTime = 14,820 ÷ 2400 ≈ 6.175 ≈ 6.2 minutes'
-    },
+      modelAnswer: 'V_prism = 38 × 15 × 22 = 12,540 ft³\nV_pyramid = (1/3)(38 × 15)(12) = (1/3)(570)(12) = 2,280 ft³\nTotal volume = 12,540 + 2,280 = 14,820 ft³\nTime = 14,820 ÷ 2400 ≈ 6.175 ≈ 6.2 minutes', image: '/images/exams/geo-june-2024/q31.png' },
     {
       number: 32,
       part: 'C',
@@ -382,8 +366,7 @@ export default {
       topic: 'Triangles & Congruence',
       explanation: 'Using the given parallel sides and congruent segments, establish that AE + EB = DB + BE, making AB ≅ DE, then apply AAS with the right angles and alternate interior angles.',
       diveDeep: 'Both triangles have right angles (AB ⊥ BC and DE ⊥ EF give ∠B = ∠E = 90°). AC ∥ FD means ∠CAB and ∠FDE are alternate interior angles cut by transversal AD (or by the parallel lines extended), so ∠CAB ≅ ∠FDE. Since AE ≅ DB, adding EB to both sides gives AE + EB = DB + EB, so AB ≅ DE. With two angles and the included side (actually with ∠B = ∠E = 90°, ∠A ≅ ∠D, and AB ≅ DE) we apply AAS to conclude △ABC ≅ △DEF. Organizing the proof with explicit statements and reasons is essential for full credit.',
-      modelAnswer: 'Statements | Reasons\n1. AB ⊥ BC, DE ⊥ EF | Given\n2. ∠ABC = 90°, ∠DEF = 90° | Definition of perpendicular lines\n3. ∠ABC ≅ ∠DEF | All right angles are congruent\n4. AC ∥ FD | Given\n5. ∠CAB ≅ ∠FDE | Alternate interior angles, AC ∥ FD, cut by transversal\n6. AE ≅ DB | Given\n7. AE + EB = DB + EB | Addition property of equality\n8. AB ≅ DE | Segment addition / substitution\n9. △ABC ≅ △DEF | AAS (steps 3, 5, 8)'
-    },
+      modelAnswer: 'Statements | Reasons\n1. AB ⊥ BC, DE ⊥ EF | Given\n2. ∠ABC = 90°, ∠DEF = 90° | Definition of perpendicular lines\n3. ∠ABC ≅ ∠DEF | All right angles are congruent\n4. AC ∥ FD | Given\n5. ∠CAB ≅ ∠FDE | Alternate interior angles, AC ∥ FD, cut by transversal\n6. AE ≅ DB | Given\n7. AE + EB = DB + EB | Addition property of equality\n8. AB ≅ DE | Segment addition / substitution\n9. △ABC ≅ △DEF | AAS (steps 3, 5, 8)', image: '/images/exams/geo-june-2024/q32.png' },
     {
       number: 33,
       part: 'C',
@@ -392,8 +375,7 @@ export default {
       topic: 'Right Triangles & Trig',
       explanation: 'Set up two right-triangle equations using the 188-ft height and the angles of elevation, then subtract the horizontal distances to find AB.',
       diveDeep: 'Let the horizontal distance from the base of the falls to point A be d_A and to point B be d_B. tan(15°) = 188/d_A → d_A = 188/tan(15°) ≈ 701.6 ft. tan(23°) = 188/d_B → d_B = 188/tan(23°) ≈ 443.2 ft. Distance AB = d_A − d_B ≈ 701.6 − 443.2 ≈ 258 ft. A common error is subtracting angles instead of distances, or forgetting to set tan = opposite/adjacent (height over horizontal distance). Confirm by sketching the two right triangles sharing the same vertical leg.',
-      modelAnswer: 'Let d_A = horizontal distance from base of falls to A.\ntan(15°) = 188/d_A → d_A = 188/tan(15°) ≈ 701.6 ft\n\nLet d_B = horizontal distance from base of falls to B.\ntan(23°) = 188/d_B → d_B = 188/tan(23°) ≈ 443.2 ft\n\nAB = d_A − d_B ≈ 701.6 − 443.2 ≈ 258 feet'
-    },
+      modelAnswer: 'Let d_A = horizontal distance from base of falls to A.\ntan(15°) = 188/d_A → d_A = 188/tan(15°) ≈ 701.6 ft\n\nLet d_B = horizontal distance from base of falls to B.\ntan(23°) = 188/d_B → d_B = 188/tan(23°) ≈ 443.2 ft\n\nAB = d_A − d_B ≈ 701.6 − 443.2 ≈ 258 feet', image: '/images/exams/geo-june-2024/q33.png' },
     {
       number: 34,
       part: 'C',
@@ -402,8 +384,7 @@ export default {
       topic: 'Coordinate Geometry',
       explanation: 'Compute the lengths of all three sides using the distance formula; two sides will be equal, proving the triangle is isosceles.',
       diveDeep: 'JO = √((4−(−2))² + (6−4)²) = √(36+4) = √40. JE = √((4−6)² + (6−0)²) = √(4+36) = √40. OE = √((−2−6)² + (4−0)²) = √(64+16) = √80. Since JO = JE = √40, triangle JOE is isosceles with JO ≅ JE. Clearly show each distance calculation with the formula; the grader needs to see the substitutions. The common trap is computing distances but not explicitly stating which two are equal and drawing the isosceles conclusion.',
-      modelAnswer: 'JO = √((4−(−2))² + (6−4)²) = √(6² + 2²) = √40\nJE = √((4−6)² + (6−0)²) = √((−2)² + 6²) = √40\nOE = √((−2−6)² + (4−0)²) = √(64+16) = √80\n\nSince JO = JE = √40, two sides are congruent.\nTherefore △JOE is isosceles.'
-    },
+      modelAnswer: 'JO = √((4−(−2))² + (6−4)²) = √(6² + 2²) = √40\nJE = √((4−6)² + (6−0)²) = √((−2)² + 6²) = √40\nOE = √((−2−6)² + (4−0)²) = √(64+16) = √80\n\nSince JO = JE = √40, two sides are congruent.\nTherefore △JOE is isosceles.', image: '/images/exams/geo-june-2024/q34.png' },
     {
       number: 35,
       part: 'D',

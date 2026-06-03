@@ -47,8 +47,7 @@ export default {
       topic: 'Coordinate Geometry',
       correct: 0,
       explanation: 'The midpoint is the average of the coordinates: ((−4 + 8)/2, (6 + (−2))/2) = (2, 2).',
-      diveDeep: 'The midpoint formula averages the x-coordinates and averages the y-coordinates independently. A frequent error is subtracting instead of adding, or mixing up which value goes with which axis. Keep signs straight when endpoints are negative. This formula is the foundation for proving a quadrilateral is a parallelogram (diagonals bisect each other) and for finding the center of a circle from a diameter\'s endpoints.'
-    },
+      diveDeep: 'The midpoint formula averages the x-coordinates and averages the y-coordinates independently. A frequent error is subtracting instead of adding, or mixing up which value goes with which axis. Keep signs straight when endpoints are negative. This formula is the foundation for proving a quadrilateral is a parallelogram (diagonals bisect each other) and for finding the center of a circle from a diameter\'s endpoints.', image: '/images/exams/geo-august-2023/q4.png' },
     {
       number: 5,
       part: 'A',
@@ -77,8 +76,7 @@ export default {
       topic: 'Coordinate Geometry',
       correct: 1,
       explanation: 'Using the distance formula: √[(7−1)² + (10−2)²] = √(36 + 64) = √100 = 10.',
-      diveDeep: 'The distance formula is just the Pythagorean theorem applied to the horizontal and vertical legs of a right triangle drawn on the coordinate plane. Recognize the 6-8-10 (a 3-4-5 scaled by 2) Pythagorean triple to save time. Common errors include forgetting to square the differences or losing track of negative signs. Distances are always positive, so if you get a negative under the radical you\'ve made an arithmetic slip.'
-    },
+      diveDeep: 'The distance formula is just the Pythagorean theorem applied to the horizontal and vertical legs of a right triangle drawn on the coordinate plane. Recognize the 6-8-10 (a 3-4-5 scaled by 2) Pythagorean triple to save time. Common errors include forgetting to square the differences or losing track of negative signs. Distances are always positive, so if you get a negative under the radical you\'ve made an arithmetic slip.', image: '/images/exams/geo-august-2023/q7.png' },
     {
       number: 8,
       part: 'A',
@@ -87,8 +85,7 @@ export default {
       topic: 'Coordinate Geometry',
       correct: 1,
       explanation: 'The given line has slope −2/3; a perpendicular line has the negative reciprocal slope, which is 3/2.',
-      diveDeep: 'Perpendicular slopes are opposite reciprocals: flip the fraction and change the sign, so their product is −1. First rewrite the line in slope-intercept form (y = mx + b) to read off the slope. A frequent trap is choosing the parallel slope (same value) or only flipping the fraction without changing the sign. Horizontal and vertical lines are a special case — they\'re perpendicular but their slopes are 0 and undefined, so the reciprocal rule doesn\'t apply directly.'
-    },
+      diveDeep: 'Perpendicular slopes are opposite reciprocals: flip the fraction and change the sign, so their product is −1. First rewrite the line in slope-intercept form (y = mx + b) to read off the slope. A frequent trap is choosing the parallel slope (same value) or only flipping the fraction without changing the sign. Horizontal and vertical lines are a special case — they\'re perpendicular but their slopes are 0 and undefined, so the reciprocal rule doesn\'t apply directly.', image: '/images/exams/geo-august-2023/q8.png' },
     {
       number: 9,
       part: 'A',
@@ -97,8 +94,7 @@ export default {
       topic: 'Quadrilaterals',
       correct: 3,
       explanation: 'Diagonals of a parallelogram bisect each other, so AE = EC: 2x + 1 = 3x − 4 gives x = 5, AE = 11, and AC = 2(11) = 22.',
-      diveDeep: 'A defining property of every parallelogram is that the diagonals bisect each other, meaning the intersection point is the midpoint of both diagonals. The common error here is solving for x and stopping at AE without doubling to get the full diagonal AC. Watch the wording: questions sometimes ask for half the diagonal and sometimes the whole thing. This bisection property is also a valid way to PROVE a quadrilateral is a parallelogram in coordinate proofs.'
-    },
+      diveDeep: 'A defining property of every parallelogram is that the diagonals bisect each other, meaning the intersection point is the midpoint of both diagonals. The common error here is solving for x and stopping at AE without doubling to get the full diagonal AC. Watch the wording: questions sometimes ask for half the diagonal and sometimes the whole thing. This bisection property is also a valid way to PROVE a quadrilateral is a parallelogram in coordinate proofs.', image: '/images/exams/geo-august-2023/q9.png' },
     {
       number: 10,
       part: 'A',
@@ -148,8 +144,7 @@ export default {
       topic: 'Similarity & Proof',
       correct: 3,
       explanation: 'By the side-splitter theorem, AD/DB = AE/EC, so 12/8 = AE/10 gives AE = 15; then AC = AE + EC = 15 + 10 = 25.',
-      diveDeep: 'A line parallel to one side of a triangle divides the other two sides proportionally (the side-splitter or triangle proportionality theorem). The biggest pitfall is solving for the segment AE but reporting it as the full side AC — you must add AE and EC. Set the proportion up consistently, matching the upper segment of one side to the upper segment of the other. This theorem flows directly from the AA similarity of the small top triangle and the whole triangle.'
-    },
+      diveDeep: 'A line parallel to one side of a triangle divides the other two sides proportionally (the side-splitter or triangle proportionality theorem). The biggest pitfall is solving for the segment AE but reporting it as the full side AC — you must add AE and EC. Set the proportion up consistently, matching the upper segment of one side to the upper segment of the other. This theorem flows directly from the AA similarity of the small top triangle and the whole triangle.', image: '/images/exams/geo-august-2023/q14.png' },
     {
       number: 15,
       part: 'A',
@@ -255,8 +250,7 @@ export default {
       topic: 'Similarity & Proof',
       correct: 3,
       explanation: 'Since ∠AYX ≅ ∠B and ∠A is shared, △AXY ~ △ABC; the valid proportions follow from this similarity, but (AY)(AB) = (AC)(AX) mismatches corresponding sides and is not always true.',
-      diveDeep: 'The condition ∠AYX = ∠B with the shared angle A gives AA similarity, but note the correspondence: △AXY ~ △ABC, so AX corresponds to AB and AY corresponds to AC. Correct proportions cross-multiply matching pairs, e.g. AX/AB = AY/AC, equivalently (AX)(AC) = (AY)(AB). The false statement scrambles which sides correspond, pairing AY with AB and AX with AC. The safest approach is to write the similarity statement with vertices in matching order, then read proportions straight off it.'
-    },
+      diveDeep: 'The condition ∠AYX = ∠B with the shared angle A gives AA similarity, but note the correspondence: △AXY ~ △ABC, so AX corresponds to AB and AY corresponds to AC. Correct proportions cross-multiply matching pairs, e.g. AX/AB = AY/AC, equivalently (AX)(AC) = (AY)(AB). The false statement scrambles which sides correspond, pairing AY with AB and AX with AC. The safest approach is to write the similarity statement with vertices in matching order, then read proportions straight off it.', image: '/images/exams/geo-august-2023/q24.png' },
     {
       number: 25,
       part: 'B',
@@ -306,8 +300,7 @@ export default {
       topic: 'Triangles & Congruence',
       explanation: 'The segment joining the midpoints of two sides of a triangle (the midsegment) is parallel to the third side and half its length.',
       diveDeep: 'The midsegment (midline) theorem can be proven with coordinate geometry or with similar triangles: △AMN ~ △ABC by SAS similarity with ratio 1:2 (shared angle A, sides halved), which forces MN ∥ BC and MN = (1/2)BC. On a coordinate proof, assign general coordinates, use the midpoint formula for M and N, and compare slopes (for parallelism) and the distance formula (for the half-length). Be sure to address BOTH conclusions — parallel AND half — since the problem requires each.',
-      modelAnswer: 'Since M is the midpoint of AB and N is the midpoint of AC, we have AM = (1/2)AB and AN = (1/2)AC. Consider △AMN and △ABC: they share ∠A, and AM/AB = AN/AC = 1/2. By the SAS similarity criterion, △AMN ~ △ABC with ratio 1:2. Corresponding angles of similar triangles are congruent, so ∠AMN ≅ ∠ABC; these are corresponding angles for lines MN and BC cut by transversal AB, so MN ∥ BC. Because the similarity ratio is 1:2, the corresponding side MN = (1/2)BC. Therefore MN ∥ BC and MN = (1/2)BC.'
-    },
+      modelAnswer: 'Since M is the midpoint of AB and N is the midpoint of AC, we have AM = (1/2)AB and AN = (1/2)AC. Consider △AMN and △ABC: they share ∠A, and AM/AB = AN/AC = 1/2. By the SAS similarity criterion, △AMN ~ △ABC with ratio 1:2. Corresponding angles of similar triangles are congruent, so ∠AMN ≅ ∠ABC; these are corresponding angles for lines MN and BC cut by transversal AB, so MN ∥ BC. Because the similarity ratio is 1:2, the corresponding side MN = (1/2)BC. Therefore MN ∥ BC and MN = (1/2)BC.', image: '/images/exams/geo-august-2023/q29.png' },
     {
       number: 30,
       part: 'B',
@@ -316,8 +309,7 @@ export default {
       topic: 'Coordinate Geometry',
       explanation: 'P is 3/4 of the way from A to B: P = (1 + (3/4)(9−1), 2 + (3/4)(6−2)) = (1 + 6, 2 + 3) = (7, 5).',
       diveDeep: 'To partition a segment in ratio m:n from A, move m/(m+n) of the way from A toward B and add that to A\'s coordinates: P = A + (m/(m+n))(B − A). With ratio 3:1, the fraction is 3/4. The classic trap is using 1/3 (the raw ratio) instead of 3/4, or measuring from the wrong endpoint. Verify by checking that AP is three times PB in length once you have P.',
-      modelAnswer: 'Point P divides AB so that AP:PB = 3:1, meaning P is 3/(3+1) = 3/4 of the way from A to B. Find the horizontal and vertical changes: Δx = 9 − 1 = 8 and Δy = 6 − 2 = 4. Multiply by 3/4: (3/4)(8) = 6 and (3/4)(4) = 3. Add to A: P = (1 + 6, 2 + 3) = (7, 5). Therefore the coordinates of point P are (7, 5).'
-    },
+      modelAnswer: 'Point P divides AB so that AP:PB = 3:1, meaning P is 3/(3+1) = 3/4 of the way from A to B. Find the horizontal and vertical changes: Δx = 9 − 1 = 8 and Δy = 6 − 2 = 4. Multiply by 3/4: (3/4)(8) = 6 and (3/4)(4) = 3. Add to A: P = (1 + 6, 2 + 3) = (7, 5). Therefore the coordinates of point P are (7, 5).', image: '/images/exams/geo-august-2023/q30.png' },
     {
       number: 31,
       part: 'B',
@@ -326,8 +318,7 @@ export default {
       topic: 'Circles',
       explanation: 'In a regular hexagon inscribed in a circle, each side equals the radius, so each side is 8 cm and the perimeter is 6 × 8 = 48 cm.',
       diveDeep: 'A regular hexagon decomposes into six equilateral triangles meeting at the center, so each side length equals the circumradius. This is a special property of the hexagon among regular polygons — it does not hold for pentagons, octagons, etc. The trap is treating the side as some other fraction of the radius or applying a generic apothem formula unnecessarily. Recognizing the hexagon-equals-six-equilateral-triangles structure shortcuts both perimeter and area problems.',
-      modelAnswer: 'A regular hexagon inscribed in a circle can be divided into six congruent equilateral triangles, each with two sides equal to the radius. Therefore each side of the hexagon equals the radius, which is 8 cm. The hexagon has 6 equal sides, so the perimeter = 6 × 8 = 48 cm.'
-    },
+      modelAnswer: 'A regular hexagon inscribed in a circle can be divided into six congruent equilateral triangles, each with two sides equal to the radius. Therefore each side of the hexagon equals the radius, which is 8 cm. The hexagon has 6 equal sides, so the perimeter = 6 × 8 = 48 cm.', image: '/images/exams/geo-august-2023/q31.png' },
     {
       number: 32,
       part: 'C',
@@ -336,8 +327,7 @@ export default {
       topic: 'Transformations',
       explanation: 'Reflection over the y-axis negates the x-coordinate, giving R′(3, 2), S′(−1, 6), T′(−5, 2); a reflection is a rigid motion, so area is preserved.',
       diveDeep: 'Reflecting over the y-axis maps (x, y) to (−x, y), keeping y fixed and flipping the sign of x. Because reflections are isometries (rigid motions), they preserve all distances and therefore all areas and angle measures — only orientation reverses. A full-credit justification must explicitly state that reflection is a rigid motion/isometry and that isometries preserve area, not merely assert the areas look equal. Confirm the rule direction: over the x-axis you\'d negate y instead.',
-      modelAnswer: 'A reflection over the y-axis maps each point (x, y) to (−x, y). Applying this rule: R(−3, 2) → R′(3, 2); S(1, 6) → S′(−1, 6); T(5, 2) → T′(−5, 2). The reflection preserves area. Justification: a line reflection is a rigid motion (isometry), and isometries preserve distance. Since all corresponding lengths are preserved, the base and height of the triangle are unchanged, so the area of △R′S′T′ equals the area of △RST.'
-    },
+      modelAnswer: 'A reflection over the y-axis maps each point (x, y) to (−x, y). Applying this rule: R(−3, 2) → R′(3, 2); S(1, 6) → S′(−1, 6); T(5, 2) → T′(−5, 2). The reflection preserves area. Justification: a line reflection is a rigid motion (isometry), and isometries preserve distance. Since all corresponding lengths are preserved, the base and height of the triangle are unchanged, so the area of △R′S′T′ equals the area of △RST.', image: '/images/exams/geo-august-2023/q32.png' },
     {
       number: 33,
       part: 'C',
@@ -346,8 +336,7 @@ export default {
       topic: 'Area & Volume',
       explanation: 'Volume = cylinder + hemisphere = π(6²)(20) + (2/3)π(6³) = 720π + 144π = 864π ≈ 2714 cubic feet.',
       diveDeep: 'Composite-solid problems require summing the volumes of each piece, here a cylinder (πr²h) plus a hemisphere (half of (4/3)πr³, i.e. (2/3)πr³). Keep results in terms of π until the end to minimize rounding error, then multiply by π once. The common trap is using the full-sphere volume instead of halving it, or mismatching the shared radius. Always confirm whether the shapes share a dimension and whether any surface is "internal" and shouldn\'t be double-counted (relevant for surface area, not volume).',
-      modelAnswer: 'The silo is a cylinder plus a hemisphere sharing radius r = 6 ft. Cylinder volume = πr²h = π(6²)(20) = π(36)(20) = 720π. Hemisphere volume = (1/2)(4/3)πr³ = (2/3)π(6³) = (2/3)π(216) = 144π. Total volume = 720π + 144π = 864π. Evaluating: 864 × π ≈ 864 × 3.14159 ≈ 2714.3. To the nearest cubic foot, the total volume is approximately 2714 cubic feet.'
-    },
+      modelAnswer: 'The silo is a cylinder plus a hemisphere sharing radius r = 6 ft. Cylinder volume = πr²h = π(6²)(20) = π(36)(20) = 720π. Hemisphere volume = (1/2)(4/3)πr³ = (2/3)π(6³) = (2/3)π(216) = 144π. Total volume = 720π + 144π = 864π. Evaluating: 864 × π ≈ 864 × 3.14159 ≈ 2714.3. To the nearest cubic foot, the total volume is approximately 2714 cubic feet.', image: '/images/exams/geo-august-2023/q33.png' },
     {
       number: 34,
       part: 'C',
@@ -356,8 +345,7 @@ export default {
       topic: 'Triangles & Congruence',
       explanation: 'In a parallelogram, opposite sides are parallel and congruent, and the diagonal is shared, so the triangles are congruent by SSS or by ASA using alternate interior angles.',
       diveDeep: 'A diagonal of a parallelogram splits it into two congruent triangles, a foundational theorem proven with a two-column or paragraph proof. The cleanest route uses alternate interior angles: AB ∥ CD and AD ∥ BC each generate a pair of congruent angles, and the shared diagonal AC gives the included side, yielding ASA. Alternatively, opposite-sides-congruent plus the shared diagonal gives SSS. The key is citing the parallelogram properties as reasons, not assuming the congruence you\'re trying to prove. Always include the shared (reflexive) side AC ≅ CA.',
-      modelAnswer: 'Statements/Reasons: (1) ABCD is a parallelogram — Given. (2) AB ∥ CD and AD ∥ BC — Opposite sides of a parallelogram are parallel. (3) ∠BAC ≅ ∠DCA — Alternate interior angles formed by transversal AC with AB ∥ CD are congruent. (4) ∠BCA ≅ ∠DAC — Alternate interior angles formed by transversal AC with AD ∥ BC are congruent. (5) AC ≅ CA — Reflexive property. (6) △ABC ≅ △CDA — ASA (using the two angle pairs and the included shared side). Therefore △ABC ≅ △CDA.'
-    },
+      modelAnswer: 'Statements/Reasons: (1) ABCD is a parallelogram — Given. (2) AB ∥ CD and AD ∥ BC — Opposite sides of a parallelogram are parallel. (3) ∠BAC ≅ ∠DCA — Alternate interior angles formed by transversal AC with AB ∥ CD are congruent. (4) ∠BCA ≅ ∠DAC — Alternate interior angles formed by transversal AC with AD ∥ BC are congruent. (5) AC ≅ CA — Reflexive property. (6) △ABC ≅ △CDA — ASA (using the two angle pairs and the included shared side). Therefore △ABC ≅ △CDA.', image: '/images/exams/geo-august-2023/q34.png' },
     {
       number: 35,
       part: 'C',
@@ -366,8 +354,7 @@ export default {
       topic: 'Right Triangle Trigonometry',
       explanation: 'tan(38°) = h/50 gives h ≈ 39.06 feet above eye level; adding the 5-foot eye height yields a pole height ≈ 44.1 feet.',
       diveDeep: 'Angle-of-elevation problems set up a right triangle where the horizontal distance is adjacent and the vertical rise is opposite, so tangent relates them: tan(angle) = opposite/adjacent. A frequent oversight is forgetting to add the observer\'s eye height back to the computed vertical distance — the tangent only gives the height above the line of sight. Make sure the calculator is in degree mode. Round only at the very end to keep precision.',
-      modelAnswer: 'Model the line of sight as the hypotenuse of a right triangle. The horizontal distance (adjacent) is 50 ft and the angle of elevation is 38°. Using tangent: tan(38°) = h/50, where h is the height of the pole above the surveyor\'s eye level. So h = 50·tan(38°) ≈ 50(0.78129) ≈ 39.06 ft. Since the surveyor\'s eye level is 5 ft above the ground, add this: total height = 39.06 + 5 = 44.06 ft. To the nearest tenth, the flagpole is approximately 44.1 feet tall.'
-    },
+      modelAnswer: 'Model the line of sight as the hypotenuse of a right triangle. The horizontal distance (adjacent) is 50 ft and the angle of elevation is 38°. Using tangent: tan(38°) = h/50, where h is the height of the pole above the surveyor\'s eye level. So h = 50·tan(38°) ≈ 50(0.78129) ≈ 39.06 ft. Since the surveyor\'s eye level is 5 ft above the ground, add this: total height = 39.06 + 5 = 44.06 ft. To the nearest tenth, the flagpole is approximately 44.1 feet tall.', image: '/images/exams/geo-august-2023/q35.png' },
     {
       number: 36,
       part: 'D',

@@ -89,8 +89,7 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       explanation: 'Polaris (the North Star) is located almost directly above Earth\'s North Pole, so it appears stationary while all other stars appear to circle it as Earth rotates.',
-      diveDeep: 'In long-exposure photographs taken pointing north, stars trace circular arcs around Polaris. Polaris itself barely moves (it\'s within ~0.7° of the celestial north pole). Betelgeuse is a bright red supergiant in Orion — far from the celestial pole. Alpha Centauri is the nearest star system to the Sun, visible from the Southern Hemisphere. Deneb is a bright star in Cygnus. Only Polaris (Alpha Ursae Minoris) is near the north celestial pole. The altitude of Polaris above the north horizon = the observer\'s latitude — a key Regents relationship.',
-    },
+      diveDeep: 'In long-exposure photographs taken pointing north, stars trace circular arcs around Polaris. Polaris itself barely moves (it\'s within ~0.7° of the celestial north pole). Betelgeuse is a bright red supergiant in Orion — far from the celestial pole. Alpha Centauri is the nearest star system to the Sun, visible from the Southern Hemisphere. Deneb is a bright star in Cygnus. Only Polaris (Alpha Ursae Minoris) is near the north celestial pole. The altitude of Polaris above the north horizon = the observer\'s latitude — a key Regents relationship.', image: '/images/exams/es-january-2020/q9.png' },
     {
       number: 10, part: 'A',
       text: 'The map below shows the average annual snowfall, in inches, for western New York State. According to the map, which of these cities receives the greatest average annual snowfall?',
@@ -328,8 +327,7 @@ export default {
       topic: 'Maps',
       correct: 0,
       explanation: 'Gradient = (120 − 50) m ÷ 3.5 km = 70 m ÷ 3.5 km ≈ 20 m/km.',
-      diveDeep: 'Gradient calculation steps: (1) Find elevation difference: 120 − 50 = 70 m; (2) Divide by horizontal distance: 70 ÷ 3.5 = 20 m/km. Always check units and make sure to use the Reference Table gradient formula. A 20 m/km gradient represents a moderately steep slope. On Regents exam, gradient values in the range of 5–50 m/km are typical for hills and stream valleys. Steeper gradients (>100 m/km) indicate mountains or cliffs. Always show calculation steps in constructed-response questions.',
-    },
+      diveDeep: 'Gradient calculation steps: (1) Find elevation difference: 120 − 50 = 70 m; (2) Divide by horizontal distance: 70 ÷ 3.5 = 20 m/km. Always check units and make sure to use the Reference Table gradient formula. A 20 m/km gradient represents a moderately steep slope. On Regents exam, gradient values in the range of 5–50 m/km are typical for hills and stream valleys. Steeper gradients (>100 m/km) indicate mountains or cliffs. Always show calculation steps in constructed-response questions.', image: '/images/exams/es-january-2020/q31.png' },
     {
       number: 32, part: 'B-1',
       context: 'A cross section shows a river with a V-shaped valley at one location (upstream) and a wide floodplain and meanders at another location (downstream). The cross sections are labeled X (upstream) and Y (downstream).',
@@ -343,8 +341,7 @@ export default {
       topic: 'Water Cycle',
       correct: 1,
       explanation: 'Upstream (X) with high gradient, streams cut vertically forming V-shaped valleys; downstream (Y) with low gradient, streams meander laterally, eroding outer bends and depositing on inner bends.',
-      diveDeep: 'Stream behavior changes downstream: headwaters (steep gradient) = high velocity = primarily erosion (downcutting), V-shaped valley, little deposition. Lower course (gentle gradient) = lower velocity = lateral erosion and deposition, wide floodplain, meanders, oxbow lakes. This downstream change from erosion-dominated to deposition-dominated is called the "stream maturity" concept. The shape of the valley (V vs. U-shape) is a key indicator: V = river erosion (or glaciated V from young rivers), U = glacial erosion.',
-    },
+      diveDeep: 'Stream behavior changes downstream: headwaters (steep gradient) = high velocity = primarily erosion (downcutting), V-shaped valley, little deposition. Lower course (gentle gradient) = lower velocity = lateral erosion and deposition, wide floodplain, meanders, oxbow lakes. This downstream change from erosion-dominated to deposition-dominated is called the "stream maturity" concept. The shape of the valley (V vs. U-shape) is a key indicator: V = river erosion (or glaciated V from young rivers), U = glacial erosion.', image: '/images/exams/es-january-2020/q32.png' },
     {
       number: 33, part: 'B-1',
       context: 'A diagram shows Earth\'s position relative to the Sun at four points in its orbit, labeled A (June 21), B (September 23), C (December 21), and D (March 21). Earth\'s axis is shown tilted 23.5°.',
@@ -363,8 +360,7 @@ export default {
       topic: 'Geologic Time',
       correct: 1,
       explanation: 'Starting at 100%, one half-life leaves 50%, two half-lives leave 25%. Sample 4 has 25% remaining, so 2 half-lives have elapsed.',
-      diveDeep: 'Half-life calculation: each half-life halves the remaining amount. 100% → (1 half-life) → 50% → (2) → 25% → (3) → 12.5% → (4) → 6.25%. Sample 4 has 25% remaining = 2 half-lives elapsed. For K-40 (half-life 1.3 billion years): 2 half-lives = 2 × 1.3 billion = 2.6 billion years old. This is a standard radiometric dating calculation. The Reference Table gives half-lives for C-14 (5,700 years) and K-40 (1.3 billion years) and U-238 (4.5 billion years). Always identify how many half-lives first, then multiply by the half-life duration.',
-    },
+      diveDeep: 'Half-life calculation: each half-life halves the remaining amount. 100% → (1 half-life) → 50% → (2) → 25% → (3) → 12.5% → (4) → 6.25%. Sample 4 has 25% remaining = 2 half-lives elapsed. For K-40 (half-life 1.3 billion years): 2 half-lives = 2 × 1.3 billion = 2.6 billion years old. This is a standard radiometric dating calculation. The Reference Table gives half-lives for C-14 (5,700 years) and K-40 (1.3 billion years) and U-238 (4.5 billion years). Always identify how many half-lives first, then multiply by the half-life duration.', image: '/images/exams/es-january-2020/q34.png' },
     {
       number: 35, part: 'B-1',
       context: 'A weather map shows a cold front moving eastward across New York State. Ahead of the cold front the air is warm and humid; behind the cold front the air is cold and dry. Station models show temperature, dew point, pressure, and wind direction at several cities.',
@@ -378,8 +374,7 @@ export default {
       topic: 'Meteorology',
       correct: 3,
       explanation: 'Just ahead of an advancing cold front, warm moist air is being forced upward, causing falling pressure, warm and humid conditions, and the development of cumulonimbus clouds and possible thunderstorms.',
-      diveDeep: 'Cold front passage sequence: (1) Ahead of cold front: warm, humid air; falling pressure; strong south/southwest winds; tall thunderstorm clouds (cumulonimbus); possible severe weather. (2) At the front: rapid temperature drop; gusty winds shift from SW to NW; heavy brief precipitation. (3) Behind the cold front: temperature drops sharply; pressure rises; northwest winds; clearing skies; lower humidity. This three-stage sequence is a staple Regents topic. The steep slope of a cold front forces warm air upward rapidly, producing tall thunderstorm clouds and brief intense precipitation.',
-    },
+      diveDeep: 'Cold front passage sequence: (1) Ahead of cold front: warm, humid air; falling pressure; strong south/southwest winds; tall thunderstorm clouds (cumulonimbus); possible severe weather. (2) At the front: rapid temperature drop; gusty winds shift from SW to NW; heavy brief precipitation. (3) Behind the cold front: temperature drops sharply; pressure rises; northwest winds; clearing skies; lower humidity. This three-stage sequence is a staple Regents topic. The steep slope of a cold front forces warm air upward rapidly, producing tall thunderstorm clouds and brief intense precipitation.', image: '/images/exams/es-january-2020/q35.png' },
     {
       number: 36, part: 'B-1',
       context: 'A diagram represents a cross section of Earth\'s interior. Layers are labeled from the surface inward: crust, plastic (asthenosphere), stiffer mantle, outer core, and inner core. P-wave and S-wave travel patterns are shown.',
@@ -393,8 +388,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'P-wave velocity increases sharply upon entering the inner core, indicating a change from liquid (outer core) to solid (inner core) — under extreme pressure, the iron-nickel solidifies despite very high temperatures.',
-      diveDeep: 'Earth\'s interior structure inferred from seismic waves: Outer core = liquid iron-nickel (S-waves cannot pass, P-waves slow down and refract). Inner core = solid iron-nickel (under immense pressure that exceeds the melting point, preventing melting despite ~5000°C temperature). The solid inner core was inferred when seismologists detected P-wave velocity increases at the inner-outer core boundary. The inner core is actually slightly denser than the outer core. Earth\'s magnetic field is generated by convection in the liquid outer core (geodynamo theory).',
-    },
+      diveDeep: 'Earth\'s interior structure inferred from seismic waves: Outer core = liquid iron-nickel (S-waves cannot pass, P-waves slow down and refract). Inner core = solid iron-nickel (under immense pressure that exceeds the melting point, preventing melting despite ~5000°C temperature). The solid inner core was inferred when seismologists detected P-wave velocity increases at the inner-outer core boundary. The inner core is actually slightly denser than the outer core. Earth\'s magnetic field is generated by convection in the liquid outer core (geodynamo theory).', image: '/images/exams/es-january-2020/context_36_38.png' },
     {
       number: 37, part: 'B-1',
       context: 'A photograph shows a rock sample with visible crystals approximately 5–15 mm in size, alternating light (quartz, feldspar) and dark (biotite, hornblende) bands throughout the rock.',
@@ -403,8 +397,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'Alternating light and dark bands (foliation) in a coarse-grained rock indicate gneiss, a high-grade metamorphic rock formed by regional metamorphism at high temperature and pressure.',
-      diveDeep: 'Metamorphic rock identification: Gneiss = coarse-grained, banded (foliated) with alternating light and dark mineral bands, high-grade metamorphism. Schist = medium-grained, shiny foliation (mica flakes visible), intermediate grade. Phyllite = fine-grained, silky sheen, lower grade. Slate = very fine-grained, flat cleavage, lowest grade metamorphic. Granite = coarse-grained but NOT banded/foliated (igneous). Basalt = fine-grained, dark, igneous. The key identifier here is the alternating light/dark BANDS — that is the signature of gneiss. The large crystal size indicates high-grade metamorphism (high temperature, slow cooling allowing crystal growth).',
-    },
+      diveDeep: 'Metamorphic rock identification: Gneiss = coarse-grained, banded (foliated) with alternating light and dark mineral bands, high-grade metamorphism. Schist = medium-grained, shiny foliation (mica flakes visible), intermediate grade. Phyllite = fine-grained, silky sheen, lower grade. Slate = very fine-grained, flat cleavage, lowest grade metamorphic. Granite = coarse-grained but NOT banded/foliated (igneous). Basalt = fine-grained, dark, igneous. The key identifier here is the alternating light/dark BANDS — that is the signature of gneiss. The large crystal size indicates high-grade metamorphism (high temperature, slow cooling allowing crystal growth).', image: '/images/exams/es-january-2020/context_36_38.png' },
     {
       number: 38, part: 'B-1',
       context: 'A map of New York State shows the major landscape regions: Adirondack Mountains, St. Lawrence Lowlands, Tug Hill Plateau, Erie-Ontario Lowlands, Mohawk Valley, Hudson-Mohawk Lowlands, Hudson Highlands, Newark Lowlands, Manhattan Prong, Catskill Mountains (plateau), Allegheny Plateau, and Atlantic Coastal Lowlands.',
@@ -418,8 +411,7 @@ export default {
       topic: 'Geology',
       correct: 1,
       explanation: 'Despite their mountainous appearance, the Catskills are a deeply eroded plateau because the underlying bedrock is nearly horizontal Devonian sedimentary layers — the defining characteristic of a plateau landscape.',
-      diveDeep: 'Landscape regions in NY State are classified by bedrock structure: Mountains (Adirondacks) = intensely deformed/metamorphosed rock; Plateau (Catskills, Allegheny) = nearly horizontal sedimentary layers, deeply eroded; Lowlands = flat-lying rock with glacial/alluvial sediment cover. The Catskills "look like mountains" because streams have deeply carved into the plateau, leaving high ridges between valleys — but the bedrock itself is not folded. This is why they are a "dissected plateau," not a mountain range. The Adirondacks, by contrast, have Precambrian metamorphic bedrock produced by intense tectonic deformation.',
-    },
+      diveDeep: 'Landscape regions in NY State are classified by bedrock structure: Mountains (Adirondacks) = intensely deformed/metamorphosed rock; Plateau (Catskills, Allegheny) = nearly horizontal sedimentary layers, deeply eroded; Lowlands = flat-lying rock with glacial/alluvial sediment cover. The Catskills "look like mountains" because streams have deeply carved into the plateau, leaving high ridges between valleys — but the bedrock itself is not folded. This is why they are a "dissected plateau," not a mountain range. The Adirondacks, by contrast, have Precambrian metamorphic bedrock produced by intense tectonic deformation.', image: '/images/exams/es-january-2020/context_36_38.png' },
     {
       number: 39, part: 'B-1',
       context: 'A diagram shows the layers of Earth\'s atmosphere (troposphere, stratosphere, mesosphere, thermosphere) with altitude and temperature shown.',
@@ -433,8 +425,7 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       explanation: 'The ozone layer is concentrated in the stratosphere (approximately 15–35 km altitude) and absorbs most of the Sun\'s harmful ultraviolet-B and UV-C radiation, protecting life on Earth\'s surface.',
-      diveDeep: 'Ozone (O₃) in the stratosphere absorbs UV radiation (particularly UV-B at 280–315 nm), which would otherwise damage DNA and cause increased cancer rates and ecosystem disruption. The ozone layer was threatened by chlorofluorocarbons (CFCs) which catalytically destroy ozone molecules. The 1987 Montreal Protocol successfully reduced CFC emissions and the ozone layer is slowly recovering. The thermosphere is where auroras occur (charged particles from solar wind exciting gas molecules). The troposphere contains all weather; the mesosphere is where meteors burn. Radio waves are reflected by the ionosphere (upper mesosphere/thermosphere).',
-    },
+      diveDeep: 'Ozone (O₃) in the stratosphere absorbs UV radiation (particularly UV-B at 280–315 nm), which would otherwise damage DNA and cause increased cancer rates and ecosystem disruption. The ozone layer was threatened by chlorofluorocarbons (CFCs) which catalytically destroy ozone molecules. The 1987 Montreal Protocol successfully reduced CFC emissions and the ozone layer is slowly recovering. The thermosphere is where auroras occur (charged particles from solar wind exciting gas molecules). The troposphere contains all weather; the mesosphere is where meteors burn. Radio waves are reflected by the ionosphere (upper mesosphere/thermosphere).', image: '/images/exams/es-january-2020/context_39_40.png' },
     {
       number: 40, part: 'B-1',
       context: 'A world map shows the locations of major tectonic plate boundaries, earthquake epicenters (dots), and volcanic eruptions (triangles). Most dots and triangles concentrate in narrow bands forming the "Ring of Fire" and along mid-ocean ridges.',
@@ -448,8 +439,7 @@ export default {
       topic: 'Plate Tectonics',
       correct: 1,
       explanation: 'The non-random, belt-like distribution of earthquakes and volcanoes along specific zones (plate boundaries, mid-ocean ridges) is one of the strongest lines of evidence for plate tectonic theory.',
-      diveDeep: 'The theory of plate tectonics is supported by multiple lines of evidence: (1) earthquake and volcano distribution along plate boundaries; (2) seafloor spreading and magnetic striping; (3) paleomagnetic data; (4) fossil and rock correlation across continents; (5) GPS measurements of plate motion; (6) age of oceanic crust (youngest at ridges); (7) deep-sea drilling data. The "Ring of Fire" — a band of earthquakes and volcanoes around the Pacific Ocean — directly reflects the convergent boundaries where Pacific Plate subducts under surrounding plates. About 80% of the world\'s earthquakes occur here.',
-    },
+      diveDeep: 'The theory of plate tectonics is supported by multiple lines of evidence: (1) earthquake and volcano distribution along plate boundaries; (2) seafloor spreading and magnetic striping; (3) paleomagnetic data; (4) fossil and rock correlation across continents; (5) GPS measurements of plate motion; (6) age of oceanic crust (youngest at ridges); (7) deep-sea drilling data. The "Ring of Fire" — a band of earthquakes and volcanoes around the Pacific Ocean — directly reflects the convergent boundaries where Pacific Plate subducts under surrounding plates. About 80% of the world\'s earthquakes occur here.', image: '/images/exams/es-january-2020/context_39_40.png' },
     {
       number: 41, part: 'B-1',
       context: 'A table shows climate data for four cities (A, B, C, D): City A — latitude 15°N, annual range 3°C, precipitation 2200 mm; City B — latitude 45°N, annual range 28°C, precipitation 620 mm; City C — latitude 45°N, annual range 12°C, precipitation 850 mm; City D — latitude 65°N, annual range 35°C, precipitation 310 mm.',
@@ -458,8 +448,7 @@ export default {
       topic: 'Climate',
       correct: 2,
       explanation: 'City C at 45°N has a small annual temperature range (12°C) and moderate precipitation, characteristic of a maritime climate moderated by proximity to an ocean.',
-      diveDeep: 'Maritime vs. continental climate: Maritime = near ocean, small annual temperature range, moderate precipitation (ocean moderates extremes). Continental = far inland, large annual temperature range (hot summers, cold winters), lower precipitation. City B (45°N, range 28°C) = continental. City C (45°N, range 12°C, 850 mm precipitation) = maritime (similar to western Europe). City A (15°N, tiny range) = tropical. City D (65°N, range 35°C) = subarctic/continental. The small annual temperature range is the signature of maritime climates because water\'s high specific heat buffers seasonal temperature swings.',
-    },
+      diveDeep: 'Maritime vs. continental climate: Maritime = near ocean, small annual temperature range, moderate precipitation (ocean moderates extremes). Continental = far inland, large annual temperature range (hot summers, cold winters), lower precipitation. City B (45°N, range 28°C) = continental. City C (45°N, range 12°C, 850 mm precipitation) = maritime (similar to western Europe). City A (15°N, tiny range) = tropical. City D (65°N, range 35°C) = subarctic/continental. The small annual temperature range is the signature of maritime climates because water\'s high specific heat buffers seasonal temperature swings.', image: '/images/exams/es-january-2020/context_41_43.png' },
     {
       number: 42, part: 'B-1',
       context: 'A cross section shows a glacier with various features labeled: A = horn (pyramidal peak), B = cirque (bowl-shaped depression), C = arête (sharp ridge between cirques), D = U-shaped valley below. A lake fills the bottom of the U-shaped valley.',
@@ -468,8 +457,7 @@ export default {
       topic: 'Geology',
       correct: 3,
       explanation: 'The U-shaped valley (D) was carved as the glacier flowed downhill, abrading the valley walls and floor to create the characteristic flat-bottomed, steep-walled U-shape.',
-      diveDeep: 'Glacial landforms: U-shaped valley = glacier flowing downhill carves it; cirque (B) = bowl-shaped depression at the head of a glacier (where snow and ice accumulate); arête (C) = sharp knife-edge ridge between two cirques (glaciers eroding from both sides); horn (A) = pyramidal peak left when three or more cirques erode a mountain from multiple sides (e.g., the Matterhorn). All four are erosional features of alpine glaciation. The flat U-shape is the most diagnostic evidence of glacial valley erosion vs. the V-shape of river-carved valleys.',
-    },
+      diveDeep: 'Glacial landforms: U-shaped valley = glacier flowing downhill carves it; cirque (B) = bowl-shaped depression at the head of a glacier (where snow and ice accumulate); arête (C) = sharp knife-edge ridge between two cirques (glaciers eroding from both sides); horn (A) = pyramidal peak left when three or more cirques erode a mountain from multiple sides (e.g., the Matterhorn). All four are erosional features of alpine glaciation. The flat U-shape is the most diagnostic evidence of glacial valley erosion vs. the V-shape of river-carved valleys.', image: '/images/exams/es-january-2020/context_41_43.png' },
     {
       number: 43, part: 'B-1',
       context: 'A diagram shows a cross section of ocean floor on either side of the Mid-Atlantic Ridge. Magnetic polarity bands (normal and reversed) are shown symmetrically. Ages increase from 0 Ma at the ridge to 35 Ma at the margins.',
@@ -478,8 +466,7 @@ export default {
       topic: 'Plate Tectonics',
       correct: 1,
       explanation: 'Spreading rate = distance ÷ time = 1750 km ÷ 35 Ma = 50 km/Ma (per side); the total spreading rate would be 100 km/Ma (both sides combined), but the rate per plate is 50 km/Ma.',
-      diveDeep: 'Seafloor spreading rate = distance from ridge ÷ age of crust at that distance. The Mid-Atlantic Ridge spreads at approximately 2–3 cm/year (20–30 km/Ma) — a "slow" spreading center compared to the East Pacific Rise (~5–15 cm/year). When calculating: 1750 km ÷ 35 Ma = 50 km/Ma per side. This means each plate moves 50 km away from the ridge per million years (~5 cm/year). Knowing typical spreading rates (slow: 1–5 cm/yr; fast: 5–15 cm/yr) helps contextualize answers. GPS now directly measures plate velocities with millimeter precision.',
-    },
+      diveDeep: 'Seafloor spreading rate = distance from ridge ÷ age of crust at that distance. The Mid-Atlantic Ridge spreads at approximately 2–3 cm/year (20–30 km/Ma) — a "slow" spreading center compared to the East Pacific Rise (~5–15 cm/year). When calculating: 1750 km ÷ 35 Ma = 50 km/Ma per side. This means each plate moves 50 km away from the ridge per million years (~5 cm/year). Knowing typical spreading rates (slow: 1–5 cm/yr; fast: 5–15 cm/yr) helps contextualize answers. GPS now directly measures plate velocities with millimeter precision.', image: '/images/exams/es-january-2020/context_41_43.png' },
     {
       number: 44, part: 'B-1',
       context: 'A graph shows CO₂ concentrations in the atmosphere (in parts per million, ppm) from 1960 to 2020. The line shows a steady increase from about 315 ppm in 1960 to about 415 ppm in 2020, with an annual sawtooth pattern superimposed.',
@@ -493,8 +480,7 @@ export default {
       topic: 'Climate',
       correct: 2,
       explanation: 'The annual sawtooth pattern results from Northern Hemisphere vegetation: CO₂ drops in spring-summer as plants absorb it during photosynthesis, then rises in fall-winter when leaves die and decompose.',
-      diveDeep: 'The Keeling Curve (CO₂ measurements from Mauna Loa, Hawaii since 1958) shows: (1) Long-term upward trend from ~315 ppm (1960) to ~420 ppm (2023) due to fossil fuel burning and deforestation. (2) Annual oscillation: CO₂ decreases April–September (Northern Hemisphere growing season — plants absorb CO₂) and increases October–March (leaves die, decompose, release CO₂; plants dormant). The NH has more land and vegetation than the SH, so the NH seasonal signal dominates globally. This graph is direct evidence of both human impact (rising baseline) and Earth\'s carbon cycle (seasonal oscillation).',
-    },
+      diveDeep: 'The Keeling Curve (CO₂ measurements from Mauna Loa, Hawaii since 1958) shows: (1) Long-term upward trend from ~315 ppm (1960) to ~420 ppm (2023) due to fossil fuel burning and deforestation. (2) Annual oscillation: CO₂ decreases April–September (Northern Hemisphere growing season — plants absorb CO₂) and increases October–March (leaves die, decompose, release CO₂; plants dormant). The NH has more land and vegetation than the SH, so the NH seasonal signal dominates globally. This graph is direct evidence of both human impact (rising baseline) and Earth\'s carbon cycle (seasonal oscillation).', image: '/images/exams/es-january-2020/context_44_45.png' },
     {
       number: 45, part: 'B-1',
       context: 'A topographic map shows a hill with contour lines at 20-meter intervals. The hill has a circular shape with the summit at approximately 380 m elevation. A stream flows from the eastern side of the hill toward the southeast.',
@@ -503,8 +489,7 @@ export default {
       topic: 'Maps',
       correct: 1,
       explanation: 'Streams always flow downhill — toward lower elevations. On topographic maps, streams flow in the direction of decreasing elevation, away from hills.',
-      diveDeep: 'Reading streams on topographic maps: streams always flow toward lower elevation (downhill). Contour lines form V-shapes (chevrons) pointing upstream — the V points toward the headwaters (uphill). The stream flows in the direction the V is pointing away from (toward open end of V = downhill). This is called the "rule of V\'s." On a topographic map showing a hill, streams will radiate outward from the summit. Water never flows uphill. Also remember: closely spaced contour lines near a stream = steep gradient = fast flow.',
-    },
+      diveDeep: 'Reading streams on topographic maps: streams always flow toward lower elevation (downhill). Contour lines form V-shapes (chevrons) pointing upstream — the V points toward the headwaters (uphill). The stream flows in the direction the V is pointing away from (toward open end of V = downhill). This is called the "rule of V\'s." On a topographic map showing a hill, streams will radiate outward from the summit. Water never flows uphill. Also remember: closely spaced contour lines near a stream = steep gradient = fast flow.', image: '/images/exams/es-january-2020/context_44_45.png' },
     {
       number: 46, part: 'B-1',
       context: 'A diagram shows the rock cycle with arrows connecting igneous rock, sedimentary rock, metamorphic rock, and magma. Arrows are labeled with processes: A (cooling/solidification), B (heat and pressure), C (melting), D (weathering, erosion, deposition, compaction, cementation), E (metamorphism).',
@@ -518,8 +503,7 @@ export default {
       topic: 'Geology',
       correct: 0,
       explanation: 'Arrow D represents the sedimentary rock-forming process: weathering breaks rock into particles, erosion transports them, deposition settles them, and compaction/cementation lithify them into sedimentary rock.',
-      diveDeep: 'The rock cycle connects all three rock types: Igneous (cooling/solidification of magma) → weathering/erosion/deposition/compaction/cementation → Sedimentary → heat/pressure/metamorphism → Metamorphic → melting → Magma → Igneous. Shortcuts also exist: igneous can metamorphose directly, sedimentary can melt directly. The key for each arrow: (A) solidification; (B) heat and pressure; (C) melting; (D) sedimentary processes; (E) metamorphism. Knowing the rock cycle is fundamental to Earth Science Regents success — both processes and rock types are regularly tested.',
-    },
+      diveDeep: 'The rock cycle connects all three rock types: Igneous (cooling/solidification of magma) → weathering/erosion/deposition/compaction/cementation → Sedimentary → heat/pressure/metamorphism → Metamorphic → melting → Magma → Igneous. Shortcuts also exist: igneous can metamorphose directly, sedimentary can melt directly. The key for each arrow: (A) solidification; (B) heat and pressure; (C) melting; (D) sedimentary processes; (E) metamorphism. Knowing the rock cycle is fundamental to Earth Science Regents success — both processes and rock types are regularly tested.', image: '/images/exams/es-january-2020/context_46_48.png' },
     {
       number: 47, part: 'B-1',
       context: 'A star chart shows the H-R (Hertzsprung-Russell) diagram plotting stellar luminosity vs. surface temperature. Most stars fall on the main sequence diagonal band. Giants appear in upper right, white dwarfs in lower left. The Sun is marked near the middle of the main sequence.',
@@ -528,8 +512,7 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       explanation: 'On the H-R diagram, giant/supergiant stars occupy the upper right region — high luminosity but relatively cool (low) surface temperature, appearing red or orange in color.',
-      diveDeep: 'H-R diagram quadrants: Upper-left = hot blue supergiants/giants (high luminosity, high temperature); Upper-right = cool red giants/supergiants (high luminosity, low temperature) — like Betelgeuse; Lower-left = white dwarfs (low luminosity, high temperature); Main sequence (diagonal band) = most stars including the Sun. The apparent contradiction of high luminosity + low temperature is explained by size — red giants are enormous (some > 1000× Sun\'s diameter), so their large surface area compensates for lower temperature to produce high total luminosity. The H-R diagram is on the Regents Reference Table.',
-    },
+      diveDeep: 'H-R diagram quadrants: Upper-left = hot blue supergiants/giants (high luminosity, high temperature); Upper-right = cool red giants/supergiants (high luminosity, low temperature) — like Betelgeuse; Lower-left = white dwarfs (low luminosity, high temperature); Main sequence (diagonal band) = most stars including the Sun. The apparent contradiction of high luminosity + low temperature is explained by size — red giants are enormous (some > 1000× Sun\'s diameter), so their large surface area compensates for lower temperature to produce high total luminosity. The H-R diagram is on the Regents Reference Table.', image: '/images/exams/es-january-2020/context_46_48.png' },
     {
       number: 48, part: 'B-1',
       context: 'A cross section shows a continent with prevailing westerly winds blowing from the Pacific Ocean eastward. A mountain range runs north-south. Letters A, B, C, D mark locations west to east across the mountain range.',
@@ -538,8 +521,7 @@ export default {
       topic: 'Climate',
       correct: 1,
       explanation: 'Location B on the windward (western) slopes of the mountains receives the most precipitation as moist ocean air is forced upward, cools, and condenses into clouds and precipitation.',
-      diveDeep: 'Orographic lifting: (1) Moist air from the ocean approaches a mountain range; (2) Air is forced upward on the windward side; (3) As it rises and cools at the dry adiabatic lapse rate (10°C/km), then moist adiabatic rate (~6°C/km after saturation), condensation and precipitation occur; (4) Maximum precipitation falls on upper windward slopes (location B); (5) Leeward side: air descends, compresses, warms (Foehn effect), creating a dry rain shadow. The wet windward / dry leeward pattern explains major deserts: Atacama (leeward of Andes), Mojave/Sonoran (leeward of Sierra Nevada/Cascades).',
-    },
+      diveDeep: 'Orographic lifting: (1) Moist air from the ocean approaches a mountain range; (2) Air is forced upward on the windward side; (3) As it rises and cools at the dry adiabatic lapse rate (10°C/km), then moist adiabatic rate (~6°C/km after saturation), condensation and precipitation occur; (4) Maximum precipitation falls on upper windward slopes (location B); (5) Leeward side: air descends, compresses, warms (Foehn effect), creating a dry rain shadow. The wet windward / dry leeward pattern explains major deserts: Atacama (leeward of Andes), Mojave/Sonoran (leeward of Sierra Nevada/Cascades).', image: '/images/exams/es-january-2020/context_46_48.png' },
     {
       number: 49, part: 'B-1',
       context: 'A data table shows properties of four minerals: Mineral 1 (hardness 7, SiO₂, no cleavage, glassy luster); Mineral 2 (hardness 2.5, NaCl, cubic cleavage, vitreous); Mineral 3 (hardness 10, C, octahedral cleavage, adamantine luster); Mineral 4 (hardness 3, CaCO₃, rhombohedral cleavage, vitreous).',
@@ -548,8 +530,7 @@ export default {
       topic: 'Geology',
       correct: 2,
       explanation: 'Mineral 3 (diamond, hardness 10) is harder than a steel file (hardness 6.5), so it cannot be scratched by the file — in fact, diamond would scratch the file instead.',
-      diveDeep: 'Mohs hardness scale: a mineral can only be scratched by something harder than itself. Steel file hardness ≈ 6.5. Mineral 1 (quartz, 7) and Mineral 3 (diamond, 10) are both harder than 6.5, so neither can be scratched by a steel file. Wait — re-examine: quartz (7) > file (6.5) means quartz also cannot be scratched by the file. The question asks which CANNOT be scratched — if both 1 and 3 qualify, check if the question expects one answer. Diamond (10) absolutely cannot be scratched; quartz (7) also cannot. Typically the answer asked for is the hardest mineral — diamond. Always rank hardnesses to solve these questions.',
-    },
+      diveDeep: 'Mohs hardness scale: a mineral can only be scratched by something harder than itself. Steel file hardness ≈ 6.5. Mineral 1 (quartz, 7) and Mineral 3 (diamond, 10) are both harder than 6.5, so neither can be scratched by a steel file. Wait — re-examine: quartz (7) > file (6.5) means quartz also cannot be scratched by the file. The question asks which CANNOT be scratched — if both 1 and 3 qualify, check if the question expects one answer. Diamond (10) absolutely cannot be scratched; quartz (7) also cannot. Typically the answer asked for is the hardest mineral — diamond. Always rank hardnesses to solve these questions.', image: '/images/exams/es-january-2020/context_49_50.png' },
     {
       number: 50, part: 'B-1',
       context: 'A diagram represents changes in insolation intensity received on Earth\'s Northern Hemisphere over the course of a year (January through December). The graph shows a peak in June-July and a trough in December-January.',
@@ -563,7 +544,6 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       explanation: 'Earth\'s axial tilt causes the Northern Hemisphere to receive more direct solar radiation in June-July (summer) and more oblique radiation in December-January (winter), producing the seasonal variation in insolation intensity.',
-      diveDeep: 'Insolation intensity depends on the angle of incoming solar radiation: direct (90°) rays are concentrated on a small area = high intensity; oblique (low-angle) rays spread over a larger area = low intensity. This angle varies seasonally due to Earth\'s axial tilt (23.5°). Earth is actually CLOSEST to the Sun in January (perihelion) and FARTHEST in July (aphelion) — so distance is NOT the primary cause of seasons. The ~3% distance variation causes only minor insolation changes compared to the dramatic effect of tilt. This is one of the most important fundamental concepts in Earth science.',
-    },
+      diveDeep: 'Insolation intensity depends on the angle of incoming solar radiation: direct (90°) rays are concentrated on a small area = high intensity; oblique (low-angle) rays spread over a larger area = low intensity. This angle varies seasonally due to Earth\'s axial tilt (23.5°). Earth is actually CLOSEST to the Sun in January (perihelion) and FARTHEST in July (aphelion) — so distance is NOT the primary cause of seasons. The ~3% distance variation causes only minor insolation changes compared to the dramatic effect of tilt. This is one of the most important fundamental concepts in Earth science.', image: '/images/exams/es-january-2020/context_49_50.png' },
   ],
 }

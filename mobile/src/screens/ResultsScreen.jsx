@@ -132,7 +132,7 @@ export default function ResultsScreen({ route, navigation }) {
   const s = makeStyles(C)
 
   return (
-    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
       <ScrollView contentContainerStyle={s.scroll} showsVerticalScrollIndicator={false}>
 
         {/* Score circle */}

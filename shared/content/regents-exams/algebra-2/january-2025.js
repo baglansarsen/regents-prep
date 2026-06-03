@@ -14,8 +14,7 @@ export default {
       correct: 0,
       topic: 'Polynomials',
       explanation: 'Factoring gives p(x) = x(x² − 4x − 5) = x(x − 5)(x + 1), so the zeros occur where each factor equals 0: x = 0, x = 5, and x = −1.',
-      diveDeep: 'Always factor out the greatest common factor first (here, x), which immediately gives one root of 0. The remaining quadratic x² − 4x − 5 factors into (x − 5)(x + 1). A common trap is dropping the x = 0 root after factoring out x, or making sign errors when factoring the quadratic. For any polynomial in factored form, the zeros are simply the values that make each factor zero.'
-    },
+      diveDeep: 'Always factor out the greatest common factor first (here, x), which immediately gives one root of 0. The remaining quadratic x² − 4x − 5 factors into (x − 5)(x + 1). A common trap is dropping the x = 0 root after factoring out x, or making sign errors when factoring the quadratic. For any polynomial in factored form, the zeros are simply the values that make each factor zero.', image: '/images/exams/alg2-january-2025/q1.png' },
     {
       number: 2,
       part: 'A',
@@ -74,8 +73,7 @@ export default {
       correct: 0,
       topic: 'Trigonometric Functions',
       explanation: 'For y = sin(bx) the period is 2π/b; with b = ½ the period is 2π ÷ ½ = 4π.',
-      diveDeep: 'Period and the coefficient b are inversely related through period = 2π/b. A smaller b stretches the graph and lengthens the period, while a larger b compresses it. The trap here is assuming a larger inside number gives a larger period; in fact b = ½ (the smallest coefficient) produces the longest period of 4π.'
-    },
+      diveDeep: 'Period and the coefficient b are inversely related through period = 2π/b. A smaller b stretches the graph and lengthens the period, while a larger b compresses it. The trap here is assuming a larger inside number gives a larger period; in fact b = ½ (the smallest coefficient) produces the longest period of 4π.', image: '/images/exams/alg2-january-2025/q7.png' },
     {
       number: 8,
       part: 'A',
@@ -114,8 +112,7 @@ export default {
       correct: 2,
       topic: 'Rational & Radical',
       explanation: 'Writing ⁴√x as x^(1/4): x · x^(1/4) = x^(1 + 1/4) = x^(5/4).',
-      diveDeep: 'Radicals convert to rational exponents: the nth root is the 1/n power. When multiplying powers of the same base, add exponents: 1 + 1/4 = 5/4. The trap is multiplying the exponents (giving 1/4) instead of adding them; multiplication of like bases always adds exponents.'
-    },
+      diveDeep: 'Radicals convert to rational exponents: the nth root is the 1/n power. When multiplying powers of the same base, add exponents: 1 + 1/4 = 5/4. The trap is multiplying the exponents (giving 1/4) instead of adding them; multiplication of like bases always adds exponents.', image: '/images/exams/alg2-january-2025/q11.png' },
     {
       number: 12,
       part: 'A',
@@ -196,8 +193,7 @@ export default {
       correct: 1,
       topic: 'Functions',
       explanation: 'Swap x and y in y = ∛x + 4 to get x = ∛y + 4, solve: x − 4 = ∛y, so y = (x − 4)³, the inverse function.',
-      diveDeep: 'To find an inverse, swap x and y, then solve for y. Undo operations in reverse order: subtract 4 first, then cube both sides to undo the cube root. A frequent trap is subtracting and taking the cube root again instead of cubing; the inverse must reverse each operation with its opposite.'
-    },
+      diveDeep: 'To find an inverse, swap x and y, then solve for y. Undo operations in reverse order: subtract 4 first, then cube both sides to undo the cube root. A frequent trap is subtracting and taking the cube root again instead of cubing; the inverse must reverse each operation with its opposite.', image: '/images/exams/alg2-january-2025/q19.png' },
     {
       number: 20,
       part: 'A',
@@ -216,8 +212,7 @@ export default {
       correct: 1,
       topic: 'Rational & Radical',
       explanation: 'Squaring gives 4 − x = x² + 16x + 64, so x² + 17x + 60 = 0, (x + 5)(x + 12) = 0, x = −5 or x = −12; checking, x = −5 works but the algebra also surfaces x = 3 as a false root that fails the original equation.',
-      diveDeep: 'Squaring both sides can create extraneous solutions that satisfy the squared equation but not the original radical equation. Always substitute each candidate back into the ORIGINAL equation: the principal root √(4 − x) must be nonnegative and equal x + 8. Any value making the radical and the right side unequal (or the right side negative) is extraneous and must be discarded.'
-    },
+      diveDeep: 'Squaring both sides can create extraneous solutions that satisfy the squared equation but not the original radical equation. Always substitute each candidate back into the ORIGINAL equation: the principal root √(4 − x) must be nonnegative and equal x + 8. Any value making the radical and the right side unequal (or the right side negative) is extraneous and must be discarded.', image: '/images/exams/alg2-january-2025/q21.png' },
     {
       number: 22,
       part: 'A',
@@ -291,8 +286,7 @@ export default {
       topic: 'Exponential & Logarithmic',
       modelAnswer: 'Set 500(2)^(t/3) = 4000, so (2)^(t/3) = 8. Since 8 = 2³, t/3 = 3, giving t = 9 hours. (Or using logs: t/3 = log₂8 = 3, t = 9.0 hours.)',
       explanation: 'Dividing by 500 gives 2^(t/3) = 8 = 2³, so t/3 = 3 and t = 9.0 hours.',
-      diveDeep: 'Isolate the exponential factor by dividing out the initial amount (500) first. When both sides can be written with the same base, equate the exponents—here 8 = 2³ makes this clean. Otherwise take a logarithm. The common error is taking the log before isolating the exponential, or mishandling the t/3 exponent; solve the resulting linear equation carefully.'
-    },
+      diveDeep: 'Isolate the exponential factor by dividing out the initial amount (500) first. When both sides can be written with the same base, equate the exponents—here 8 = 2³ makes this clean. Otherwise take a logarithm. The common error is taking the log before isolating the exponential, or mishandling the t/3 exponent; solve the resulting linear equation carefully.', image: '/images/exams/alg2-january-2025/q28.png' },
     {
       number: 29,
       part: 'B',
@@ -302,8 +296,7 @@ export default {
       topic: 'Trigonometric Functions',
       modelAnswer: 'Amplitude = |3| = 3. Period = 2π/2 = π. The graph starts at the maximum (0, 3), decreases to (π/4, 0), reaches the minimum (π/2, −3), returns to (3π/4, 0), and back to the maximum (π, 3), completing one full cycle. Plot these five key points and draw a smooth cosine curve.',
       explanation: 'For y = 3 cos(2x), the amplitude is 3 (the coefficient) and the period is 2π/2 = π, so one cycle fits exactly on 0 ≤ x ≤ π.',
-      diveDeep: 'Identify amplitude (|a|) and period (2π/b) directly from y = a cos(bx). Divide the period into four equal parts to locate the five key points: max, zero, min, zero, max for cosine. The most common graphing errors are mislabeling the period (using b instead of 2π/b) and starting cosine at zero instead of its maximum. Always anchor cosine at its peak when there is no phase shift.'
-    },
+      diveDeep: 'Identify amplitude (|a|) and period (2π/b) directly from y = a cos(bx). Divide the period into four equal parts to locate the five key points: max, zero, min, zero, max for cosine. The most common graphing errors are mislabeling the period (using b instead of 2π/b) and starting cosine at zero instead of its maximum. Always anchor cosine at its peak when there is no phase shift.', image: '/images/exams/alg2-january-2025/q29.png' },
     {
       number: 30,
       part: 'B',
@@ -335,8 +328,7 @@ export default {
       topic: 'Polynomials',
       modelAnswer: 'Since x = 1 is a zero, (x − 1) is a factor. Divide: x³ − 2x² − 5x + 6 ÷ (x − 1) = x² − x − 6. Factor the quotient: x² − x − 6 = (x − 3)(x + 2). So f(x) = (x − 1)(x − 3)(x + 2), and the zeros are x = 1, x = 3, and x = −2.',
       explanation: 'Dividing by the known factor (x − 1) reduces to x² − x − 6 = (x − 3)(x + 2), giving the full set of zeros 1, 3, and −2.',
-      diveDeep: 'When one zero of a cubic is given, factor out the corresponding linear factor using synthetic or long division to obtain a quadratic. Factor or apply the quadratic formula to that quadratic for the remaining zeros. A cubic has at most three real zeros, so confirm you have found them all. Verify each by substituting back into f(x)—careful division is the most error-prone step.'
-    },
+      diveDeep: 'When one zero of a cubic is given, factor out the corresponding linear factor using synthetic or long division to obtain a quadratic. Factor or apply the quadratic formula to that quadratic for the remaining zeros. A cubic has at most three real zeros, so confirm you have found them all. Verify each by substituting back into f(x)—careful division is the most error-prone step.', image: '/images/exams/alg2-january-2025/q32.png' },
     {
       number: 33,
       part: 'C',
@@ -357,8 +349,7 @@ export default {
       topic: 'Trigonometric Functions',
       modelAnswer: '(a) Amplitude = 22°F. Period = 2π/(π/6) = 12 months. Maximum temperature = midline + amplitude = 55 + 22 = 77°F. (b) The sine function reaches its maximum when its argument equals π/2: (π/6)(m − 4) = π/2, so m − 4 = 3, m = 7. The maximum occurs in month 7 (July).',
       explanation: 'The amplitude (22) and midline (55) give a maximum of 77°F, occurring when the sine argument equals π/2, which solves to month 7 (July).',
-      diveDeep: 'For T = a sin[b(m − c)] + d, the amplitude is |a|, period is 2π/b, midline is d, and maximum is d + |a|. The phase shift c moves the curve horizontally. Sine attains its maximum when its argument is π/2; set the inside equal to π/2 and solve for the input. A frequent mistake is treating the phase shift incorrectly or forgetting to add the midline when finding the maximum value.'
-    },
+      diveDeep: 'For T = a sin[b(m − c)] + d, the amplitude is |a|, period is 2π/b, midline is d, and maximum is d + |a|. The phase shift c moves the curve horizontally. Sine attains its maximum when its argument is π/2; set the inside equal to π/2 and solve for the input. A frequent mistake is treating the phase shift incorrectly or forgetting to add the midline when finding the maximum value.', image: '/images/exams/alg2-january-2025/q34.png' },
     {
       number: 35,
       part: 'C',
@@ -368,8 +359,7 @@ export default {
       topic: 'Statistics & Probability',
       modelAnswer: '(a) The data rises then falls, suggesting a quadratic (parabolic) model. Performing quadratic regression on the calculator gives approximately C(t) = −1.13t² + 7.05t + 0.45 (coefficients to the nearest hundredth). (b) C(3.5) = −1.13(3.5)² + 7.05(3.5) + 0.45 = −1.13(12.25) + 24.675 + 0.45 ≈ −13.84 + 24.675 + 0.45 ≈ 11.3 mg/L. (Accept answers consistent with the student\'s rounded regression.)',
       explanation: 'The concentration rises to a peak then declines, indicating a quadratic model; evaluating the regression equation at t = 3.5 gives roughly 11.3 mg/L.',
-      diveDeep: 'Choose a regression model that matches the data\'s shape: a single rise-and-fall pattern fits a quadratic (parabola). Enter the data as lists and run QuadReg on a graphing calculator. When predicting, substitute the value into the rounded model, but be aware that rounding coefficients introduces small differences—graders accept answers consistent with the student\'s own equation. Distinguish quadratic from cubic or exponential by the number of turning points and end behavior.'
-    },
+      diveDeep: 'Choose a regression model that matches the data\'s shape: a single rise-and-fall pattern fits a quadratic (parabola). Enter the data as lists and run QuadReg on a graphing calculator. When predicting, substitute the value into the rounded model, but be aware that rounding coefficients introduces small differences—graders accept answers consistent with the student\'s own equation. Distinguish quadratic from cubic or exponential by the number of turning points and end behavior.', image: '/images/exams/alg2-january-2025/q35.png' },
     {
       number: 36,
       part: 'C',
@@ -379,8 +369,7 @@ export default {
       topic: 'Systems & Inequalities',
       modelAnswer: 'Set the expressions equal: x² − 2x − 3 = 2x − 7. Rearrange: x² − 4x + 4 = 0, so (x − 2)² = 0, giving x = 2 (a double root). Substitute into y = 2x − 7: y = 2(2) − 7 = −3. The solution is the single point (2, −3), where the line is tangent to the parabola.',
       explanation: 'Substituting the line into the parabola yields (x − 2)² = 0, a double root at x = 2, giving the single tangent solution (2, −3).',
-      diveDeep: 'Solve a parabola-line system by substitution, setting the two expressions for y equal and forming a quadratic. A perfect-square trinomial (discriminant 0) means the line is tangent—one solution point instead of two. Always substitute the x-value back to find y and write the answer as ordered pair(s). A common error is reporting two solutions or stopping at the x-value without finding the corresponding y.'
-    },
+      diveDeep: 'Solve a parabola-line system by substitution, setting the two expressions for y equal and forming a quadratic. A perfect-square trinomial (discriminant 0) means the line is tangent—one solution point instead of two. Always substitute the x-value back to find y and write the answer as ordered pair(s). A common error is reporting two solutions or stopping at the x-value without finding the corresponding y.', image: '/images/exams/alg2-january-2025/q36.png' },
     {
       number: 37,
       part: 'D',
@@ -390,7 +379,6 @@ export default {
       topic: 'Exponential & Logarithmic',
       modelAnswer: '(a) Using A = P(1 + r/n)^(nt) with P = 5000, r = 0.035, n = 12: A(t) = 5000(1 + 0.035/12)^(12t) = 5000(1.0029167)^(12t). (b) A(10) = 5000(1.0029167)^(120) ≈ 5000(1.41763) ≈ $7088.13. (c) Doubling: 10000 = 5000(1.0029167)^(12t), so 2 = (1.0029167)^(12t). Take ln: ln 2 = 12t · ln(1.0029167), 12t = ln2/ln(1.0029167) ≈ 0.6931/0.0029125 ≈ 237.97, t ≈ 237.97/12 ≈ 19.8 years.',
       explanation: 'Compound-interest model A(t) = 5000(1 + 0.035/12)^(12t) gives about $7088.13 after 10 years, and solving for doubling yields approximately 19.8 years.',
-      diveDeep: 'The compound-interest formula A = P(1 + r/n)^(nt) uses r as a decimal and n as the number of compoundings per year (monthly → n = 12). For doubling time, set A = 2P; the principal cancels, leaving 2 = (1 + r/n)^(nt), solved with logarithms. Keep many decimal places in the monthly rate to avoid rounding error in the exponent. Common mistakes include using r = 3.5 instead of 0.035 and rounding the base too early, which significantly distorts the final balance.'
-    }
+      diveDeep: 'The compound-interest formula A = P(1 + r/n)^(nt) uses r as a decimal and n as the number of compoundings per year (monthly → n = 12). For doubling time, set A = 2P; the principal cancels, leaving 2 = (1 + r/n)^(nt), solved with logarithms. Keep many decimal places in the monthly rate to avoid rounding error in the exponent. Common mistakes include using r = 3.5 instead of 0.035 and rounding the base too early, which significantly distorts the final balance.', image: '/images/exams/alg2-january-2025/q37.png' }
   ]
 }

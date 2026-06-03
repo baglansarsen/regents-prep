@@ -1,0 +1,1101 @@
+{
+  "subject": "chemistry",
+  "session": "june-2016",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which statement describes the charge of an electron and the charge of a proton?",
+      "choices": [
+        "An electron and a proton both have a charge of \u00021.",
+        "An electron and a proton both have a charge of \u00031.",
+        "An electron has a charge of \u00021, and a proton has a charge of \u00031.",
+        "An electron has a charge of \u00031, and a proton has a charge of \u00021."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which subatomic particles are found in the nucleus of an atom of beryllium?",
+      "choices": [
+        "electrons and protons",
+        "electrons and positrons",
+        "neutrons and protons",
+        "neutrons and electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The elements in Period 4 on the Periodic Table are arranged in order of increasing",
+      "choices": [
+        "atomic radius",
+        "atomic number",
+        "number of valence electrons",
+        "number of occupied shells of electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which phrase describes two forms of solid carbon, diamond and graphite, at STP?",
+      "choices": [
+        "the same crystal structure and the same properties",
+        "the same crystal structure and different properties",
+        "different crystal structures and the same properties",
+        "different crystal structures and different properties"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which element has six valence electrons in each of its atoms in the ground state?",
+      "choices": [
+        "Se",
+        "As",
+        "Kr",
+        "Ga"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "What is the chemical name for H2SO3(aq)?",
+      "choices": [
+        "sulfuric acid",
+        "sulfurous acid",
+        "hydrosulfuric acid",
+        "hydrosulfurous acid"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which substance is most soluble in water?",
+      "choices": [
+        "(NH4)3PO4",
+        "Cu(OH)2",
+        "Ag2SO4",
+        "CaCO3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which type of bonding is present in a sample of an element that is malleable?",
+      "choices": [
+        "ionic",
+        "metallic",
+        "nonpolar covalent",
+        "polar covalent"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which atom has the greatest attraction for the electrons in a chemical bond?",
+      "choices": [
+        "hydrogen",
+        "oxygen",
+        "silicon",
+        "sulfur"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which type of reaction involves the transfer of electrons?",
+      "choices": [
+        "alpha decay",
+        "double replacement",
+        "neutralization",
+        "oxidation-reduction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A 10.0-gram sample of nitrogen is at STP. Which property will increase when the sample is cooled to 72 K at standard pressure?",
+      "choices": [
+        "mass",
+        "volume",
+        "density",
+        "temperature"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which element is a gas at STP?",
+      "choices": [
+        "sulfur",
+        "xenon",
+        "potassium",
+        "phosphorus P.S./"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A 5.0-gram sample of Fe(s) is to be placed in 100. milliliters of HCl(aq). Which changes will result in the fastest rate of reaction?",
+      "choices": [
+        "increasing the surface area of Fe(s) and increasing the concentration of HCl(aq)",
+        "increasing the surface area of Fe(s) and decreasing the concentration of HCl(aq)",
+        "decreasing the surface area of Fe(s) and increasing the concentration of HCl(aq)",
+        "decreasing the surface area of Fe(s) and decreasing the concentration of HCl(aq)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which process is commonly used to separate a mixture of ethanol and water?",
+      "choices": [
+        "distillation",
+        "ionization",
+        "filtration",
+        "titration"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "A sample of hydrogen gas will behave most like an ideal gas under the conditions of",
+      "choices": [
+        "low pressure and low temperature",
+        "low pressure and high temperature",
+        "high pressure and low temperature",
+        "high pressure and high temperature"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The collision theory states that a reaction is most likely to occur when the reactant particles collide with the proper",
+      "choices": [
+        "formula masses",
+        "molecular masses",
+        "density and volume",
+        "energy and orientation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "At STP, which sample contains the same number of molecules as 3.0 liters of H2(g)?",
+      "choices": [
+        "1.5 L of NH3(g)",
+        "2.0 L of CO2(g)",
+        "3.0 L of CH4(g)",
+        "6.0 L of N2(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The addition of a catalyst to a chemical reaction provides an alternate pathway that",
+      "choices": [
+        "increases the potential energy of reactants",
+        "decreases the potential energy of reactants",
+        "increases the activation energy",
+        "decreases the activation energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "A sample of water is boiling as heat is added at a constant rate. Which statement describes the potential energy and the average kinetic energy of the water molecules in this sample?",
+      "choices": [
+        "The potential energy decreases and the average kinetic energy remains the same.",
+        "The potential energy decreases and the average kinetic energy increases.",
+        "The potential energy increases and the average kinetic energy remains the same.",
+        "The potential energy increases and the average kinetic energy increases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Entropy is a measure of the",
+      "choices": [
+        "acidity of a sample",
+        "disorder of a system",
+        "concentration of a solution",
+        "chemical activity of an element"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which element has atoms that can bond with each other to form ring, chain, and network structures?",
+      "choices": [
+        "aluminum",
+        "calcium",
+        "carbon",
+        "argon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "What is the number of electrons shared in the multiple carbon-carbon bond in one molecule of 1-pentyne?",
+      "choices": [
+        "6",
+        "2",
+        "3",
+        "8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Butanal, butanone, and diethyl ether have different properties because the molecules of each compound differ in their",
+      "choices": [
+        "numbers of carbon atoms",
+        "numbers of oxygen atoms",
+        "types of functional groups",
+        "types of radioactive isotopes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "What occurs when a magnesium atom becomes a magnesium ion?",
+      "choices": [
+        "Electrons are gained and the oxidation number increases.",
+        "Electrons are gained and the oxidation number decreases.",
+        "Electrons are lost and the oxidation number increases.",
+        "Electrons are lost and the oxidation number decreases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Energy is required to produce a chemical change during",
+      "choices": [
+        "chromatography",
+        "electrolysis",
+        "boiling",
+        "melting"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The reaction of an Arrhenius acid with an Arrhenius base produces water and",
+      "choices": [
+        "a salt",
+        "an ester",
+        "an aldehyde",
+        "a halocarbon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "One acid-base theory defines an acid as an",
+      "choices": [
+        "H\u0003 acceptor",
+        "H\u0003 donor",
+        "H\u0002 acceptor",
+        "H\u0002 donor"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which phrase describes the decay modes and the half-lives of K-37 and K-42?",
+      "choices": [
+        "the same decay mode but different half-lives",
+        "the same decay mode and the same half-life",
+        "different decay modes and different half-lives",
+        "different decay modes but the same half-life"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which particle has a mass that is approximately equal to the mass of a proton?",
+      "choices": [
+        "an alpha particle",
+        "a beta particle",
+        "a neutron",
+        "a positron"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which change occurs during a nuclear fission reaction?",
+      "choices": [
+        "Covalent bonds are converted to ionic bonds.",
+        "Isotopes are converted to isomers.",
+        "Temperature is converted to mass.",
+        "Matter is converted to energy."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which notations represent hydrogen isotopes?",
+      "choices": [
+        "1 1H and 2 1H",
+        "1 1H and 4 2H",
+        "1 2H and 1 3H",
+        "2 1H and 7 2H"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Naturally occurring gallium is a mixture of isotopes that contains 60.11% of Ga-69 (atomic mass = 68.93 u) and 39.89% of Ga-71 (atomic mass = 70.92 u). Which numerical setup can be used to determine the atomic mass of naturally occurring gallium?",
+      "choices": [
+        "",
+        "",
+        "(68.93 u)(0.6011) \u0002 (70.92 u)(0.3989)",
+        "(68.93 u)(39.89) \u0002 (70.92 u)(60.11)"
+      ],
+      "image": "/images/exams/chemistry/june-2016/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which list of symbols represents nonmetals, only?",
+      "choices": [
+        "B, Al, Ga",
+        "Li, Be, B",
+        "C, Si, Ge",
+        "P, S, Cl"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "In the formula XSO4, the symbol X could represent the element",
+      "choices": [
+        "Al",
+        "Ar",
+        "Mg",
+        "Na"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "What is the chemical formula for lead(IV) oxide?",
+      "choices": [
+        "PbO2",
+        "PbO4",
+        "Pb2O",
+        "Pb4O"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which statement describes the general trends in electronegativity and atomic radius as the elements in Period 2 are considered in order from left to right?",
+      "choices": [
+        "Both electronegativity and atomic radius increase.",
+        "Both electronegativity and atomic radius decrease.",
+        "Electronegativity increases and atomic radius decreases.",
+        "Electronegativity decreases and atomic radius increases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "What is the percent composition by mass of nitrogen in (NH4)2CO3 (gram-formula mass = 96.0 g/mol)?",
+      "choices": [
+        "14.6%",
+        "29.2%",
+        "58.4%",
+        "87.5%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation: 2KI \u0002 F2 \u21922KF \u0002 I2 Which type of chemical reaction does this equation represent?",
+      "choices": [
+        "synthesis",
+        "decomposition",
+        "single replacement",
+        "double replacement"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "written",
+      "text": "Which formula represents a nonpolar molecule containing polar covalent bonds? ( 2 ) ( 4 ) ( 3 ) ( 1 ) H H O O C O H H H H N H ( . ) . )( . ) 68 93 70 92 0 3989 u)(0.6011 ( u ( . . ) 68 93 70 92 2 u u +",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2016/q39.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "A reaction reaches equilibrium at 100.\u00baC. The equation and graph representing this reaction are shown below. N2O4(g) \u21cc2NO2(g) The graph shows that the reaction is at equilibrium after 60. seconds because the concentrations of both NO2(g) and N2O4(g) are",
+      "choices": [
+        "increasing",
+        "decreasing",
+        "constant",
+        "zero 0 100. 20. 40. 60. 80. 0.000 0.020 0.040 0.060 0.080 0.100 0.120 Time (s) Concentration (M) NO2(g) N2O4(g) Concentration Versus Time 0.140"
+      ],
+      "image": "/images/exams/chemistry/june-2016/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: 2H2O \u0002 energy \u21922H2 \u0002 O2 Which statement describes the changes in energy and bonding for the reactant?",
+      "choices": [
+        "Energy is absorbed as bonds in H2O are formed.",
+        "Energy is absorbed as bonds in H2O are broken.",
+        "Energy is released as bonds in H2O are formed.",
+        "Energy is released as bonds in H2O are broken."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "At standard pressure, what is the temperature at which a saturated solution of NH4Cl has a concentration of 60. g NH4Cl/100. g H2O?",
+      "choices": [
+        "66\u00b0C",
+        "57\u00b0C",
+        "22\u00b0C",
+        "17\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Which aqueous solution has the highest boiling point at standard pressure?",
+      "choices": [
+        "1.0 M KCl(aq)",
+        "1.0 M CaCl2(aq)",
+        "2.0 M KCl(aq)",
+        "2.0 M CaCl2(aq)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a system at equilibrium: KNO3(s) \u0002 energy K\u0002(aq) \u0002 NO3 \u0003(aq) Which change causes the equilibrium to shift?",
+      "choices": [
+        "increasing pressure",
+        "increasing temperature",
+        "adding a noble gas",
+        "adding a catalyst"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Which hydrocarbon is saturated?",
+      "choices": [
+        "C2H2",
+        "C3H4",
+        "C4H6",
+        "C4H10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Which volume of 0.600 M H2SO4(aq) exactly neutralizes 100. milliliters of 0.300 M Ba(OH)2(aq)?",
+      "choices": [
+        "25.0 mL",
+        "50.0 mL",
+        "100. mL",
+        "200. mL"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Given the formula for an organic compound: What is the name given to the group in the box?",
+      "choices": [
+        "butyl",
+        "ethyl",
+        "methyl",
+        "propyl"
+      ],
+      "image": "/images/exams/chemistry/june-2016/q47.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Given the particle diagram: Which type of matter is represented by the particle diagram?",
+      "choices": [
+        "an element",
+        "a compound",
+        "a homogeneous mixture",
+        "a heterogeneous mixture"
+      ],
+      "image": "/images/exams/chemistry/june-2016/q48.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which substance is an electrolyte?",
+      "choices": [
+        "O2",
+        "Xe",
+        "C3H8",
+        "KNO3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which type of organic reaction produces both water and carbon dioxide?",
+      "choices": [
+        "addition",
+        "combustion",
+        "esterification",
+        "fermentation Key = atom of an element = atom of a different element H2O C C C C C C C C C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Draw a Lewis electron-dot diagram for a chloride ion, Cl\u0003.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Balance the equation in your answer booklet for the reaction between hydrogen and chlorine, using the smallest whole-number coefficients.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 and 53 on the information below and on your knowledge of chemistry.\nAt STP, Cl2 is a gas and I2 is a solid. When hydrogen reacts with chlorine, the compound\nhydrogen chloride is formed. When hydrogen reacts with iodine, the compound hydrogen\niodide is formed.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Explain, in terms of intermolecular forces, why iodine is a solid at STP but chlorine is a gas at STP.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 and 53 on the information below and on your knowledge of chemistry.\nAt STP, Cl2 is a gas and I2 is a solid. When hydrogen reacts with chlorine, the compound\nhydrogen chloride is formed. When hydrogen reacts with iodine, the compound hydrogen\niodide is formed.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify one chemical property of sodium from this list.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of chemistry.\nSome properties of the element sodium are listed below.\n\u2022 is a soft, silver-colored metal\n\u2022 melts at a temperature of 371 K\n\u2022 oxidizes easily in the presence of air\n\u2022 forms compounds with nonmetallic elements in nature\n\u2022 forms sodium chloride in the presence of chlorine gas",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Convert the melting point of sodium to degrees Celsius.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of chemistry.\nSome properties of the element sodium are listed below.\n\u2022 is a soft, silver-colored metal\n\u2022 melts at a temperature of 371 K\n\u2022 oxidizes easily in the presence of air\n\u2022 forms compounds with nonmetallic elements in nature\n\u2022 forms sodium chloride in the presence of chlorine gas",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Explain why H2O(s) floats on H2O(\u2113) when both are at 0\u00baC.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of chemistry.\nAt standard pressure, water has unusual properties that are due to both its molecular\nstructure and intermolecular forces. For example, although most liquids contract when they\nfreeze, water expands, making ice less dense than liquid water. Water has a much higher\nboiling point than most other molecular compounds having a similar gram-formula mass.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "State the type of intermolecular force responsible for the unusual boiling point of H2O(\u2113) at standard pressure.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of chemistry.\nAt standard pressure, water has unusual properties that are due to both its molecular\nstructure and intermolecular forces. For example, although most liquids contract when they\nfreeze, water expands, making ice less dense than liquid water. Water has a much higher\nboiling point than most other molecular compounds having a similar gram-formula mass.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Determine the total amount of heat, in joules, required to completely vaporize a 50.0-gram sample of H2O(\u2113) at its boiling point at standard pressure.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of chemistry.\nAt standard pressure, water has unusual properties that are due to both its molecular\nstructure and intermolecular forces. For example, although most liquids contract when they\nfreeze, water expands, making ice less dense than liquid water. Water has a much higher\nboiling point than most other molecular compounds having a similar gram-formula mass.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the number of moles of SnO2(s) in the 3.00-gram sample.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 and 60 on the information below and on your knowledge of chemistry.\nAt 1023 K and 1 atm, a 3.00-gram sample of SnO2(s) (gram-formula mass \u0004 151 g/mol)\nreacts with hydrogen gas to produce tin and water, as shown in the balanced equation\nbelow.\nSnO2(s) \u0002 2H2(g) \u2192Sn(\u2113) \u0002 2H2O(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Determine the number of moles of Sn(\u2113) produced when 4.0 moles of H2(g) is completely consumed.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2016/q60.png",
+      "context": "Base your answers to questions 59 and 60 on the information below and on your knowledge of chemistry.\nAt 1023 K and 1 atm, a 3.00-gram sample of SnO2(s) (gram-formula mass \u0004 151 g/mol)\nreacts with hydrogen gas to produce tin and water, as shown in the balanced equation\nbelow.\nSnO2(s) \u0002 2H2(g) \u2192Sn(\u2113) \u0002 2H2O(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State the color of methyl orange in a sample of solution A.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2016/context_61_62.png",
+      "context": "Base your answers to questions 61 and 62 on the information below and on your knowledge of chemistry. \nThe incomplete data table below shows the pH value of solutions A and B and \nthe hydrogen ion concentration of solution A.\nHydrogen Ion and pH Data for HCl(aq) Solutions",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Determine the hydrogen ion concentration of solution B. HCl(aq) Solution Hydrogen Ion Concentration (M) pH A 1.0 \u0005 10\u00032 2.0 B ? 5.0",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2016/context_61_62.png",
+      "context": "Base your answers to questions 61 and 62 on the information below and on your knowledge of chemistry. \nThe incomplete data table below shows the pH value of solutions A and B and \nthe hydrogen ion concentration of solution A.\nHydrogen Ion and pH Data for HCl(aq) Solutions",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "State evidence found in the data table that allows the product of pressure and volume for the fourth trial to be predicted.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2016/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of chemistry.\nA sample of helium gas is placed in a rigid cylinder that has a movable piston. \nThe volume of the gas is varied by moving the piston, while the temperature is held\nconstant at 273 K. The volumes and corresponding pressures for three trials are measured\nand recorded in the data table below. For each of these trials, the product of pressure and\nvolume is also calculated and recorded. For a fourth trial, only the volume is recorded.\nPressure and Volume Data for\na Sample of Helium Gas at 273 K",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Determine the pressure of the helium gas in trial 4.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2016/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of chemistry.\nA sample of helium gas is placed in a rigid cylinder that has a movable piston. \nThe volume of the gas is varied by moving the piston, while the temperature is held\nconstant at 273 K. The volumes and corresponding pressures for three trials are measured\nand recorded in the data table below. For each of these trials, the product of pressure and\nvolume is also calculated and recorded. For a fourth trial, only the volume is recorded.\nPressure and Volume Data for\na Sample of Helium Gas at 273 K",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Compare the average distances between the helium atoms in trial 1 to the average distances between the helium atoms in trial 3. Trial Number Pressure (atm) Volume (L) P \u00d7 V (L\u2022atm) 1 1.000 0.412 0.412 2 0.750 0.549 0.412 3 0.600 0.687 0.412 4 ? 1.373 ? P.S./",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2016/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of chemistry.\nA sample of helium gas is placed in a rigid cylinder that has a movable piston. \nThe volume of the gas is varied by moving the piston, while the temperature is held\nconstant at 273 K. The volumes and corresponding pressures for three trials are measured\nand recorded in the data table below. For each of these trials, the product of pressure and\nvolume is also calculated and recorded. For a fourth trial, only the volume is recorded.\nPressure and Volume Data for\na Sample of Helium Gas at 273 K",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Identify two types of chemical bonding in the source of dietary potassium in this cereal.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nPotassium phosphate, K3PO4, is a source of dietary potassium found in a popular\ncereal. According to the Nutrition-Facts label shown on the boxes of this brand of cereal,\nthe accepted value for a one-cup serving of this cereal is 170. milligrams of potassium. \nThe minimum daily requirement of potassium is 3500 milligrams for an adult human.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Identify the noble gas whose atoms have the same electron configuration as a potassium ion.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nPotassium phosphate, K3PO4, is a source of dietary potassium found in a popular\ncereal. According to the Nutrition-Facts label shown on the boxes of this brand of cereal,\nthe accepted value for a one-cup serving of this cereal is 170. milligrams of potassium. \nThe minimum daily requirement of potassium is 3500 milligrams for an adult human.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Compare the radius of a potassium ion to the radius of a potassium atom.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nPotassium phosphate, K3PO4, is a source of dietary potassium found in a popular\ncereal. According to the Nutrition-Facts label shown on the boxes of this brand of cereal,\nthe accepted value for a one-cup serving of this cereal is 170. milligrams of potassium. \nThe minimum daily requirement of potassium is 3500 milligrams for an adult human.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "The mass of potassium in a one-cup serving of this cereal is determined to be 172 mg. Show a numerical setup for calculating the percent error for the mass of potassium in this serving.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nPotassium phosphate, K3PO4, is a source of dietary potassium found in a popular\ncereal. According to the Nutrition-Facts label shown on the boxes of this brand of cereal,\nthe accepted value for a one-cup serving of this cereal is 170. milligrams of potassium. \nThe minimum daily requirement of potassium is 3500 milligrams for an adult human.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Write the empirical formula for glucose.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 and 71 on the information below and on your knowledge of chemistry.\nDuring photosynthesis, plants use carbon dioxide, water, and light energy to produce\nglucose, C6H12O6, and oxygen. The reaction for photosynthesis is represented by the\nbalanced equation below.\n6CO2 \u0002 6H2O \u0002 light energy \u2192C6H12O6 \u0002 6O2",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "State evidence that indicates photosynthesis is an endothermic reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 and 71 on the information below and on your knowledge of chemistry.\nDuring photosynthesis, plants use carbon dioxide, water, and light energy to produce\nglucose, C6H12O6, and oxygen. The reaction for photosynthesis is represented by the\nbalanced equation below.\n6CO2 \u0002 6H2O \u0002 light energy \u2192C6H12O6 \u0002 6O2",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Explain why the electron configuration of 2-7-1-1 represents a sodium atom in an excited state.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 74 on the information below and on your knowledge of chemistry.\nFireworks that contain metallic salts such as sodium, strontium, and barium can\ngenerate bright colors. A technician investigates what colors are produced by the metallic\nsalts by performing flame tests. During a flame test, a metallic salt is heated in the flame of\na gas burner. Each metallic salt emits a characteristic colored light in the flame.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Explain, in terms of electrons, how a strontium salt emits colored light.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 74 on the information below and on your knowledge of chemistry.\nFireworks that contain metallic salts such as sodium, strontium, and barium can\ngenerate bright colors. A technician investigates what colors are produced by the metallic\nsalts by performing flame tests. During a flame test, a metallic salt is heated in the flame of\na gas burner. Each metallic salt emits a characteristic colored light in the flame.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "State how bright-line spectra viewed through a spectroscope can be used to identify the metal ions in the salts used in the flame tests.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2016/q74.png",
+      "context": "Base your answers to questions 72 through 74 on the information below and on your knowledge of chemistry.\nFireworks that contain metallic salts such as sodium, strontium, and barium can\ngenerate bright colors. A technician investigates what colors are produced by the metallic\nsalts by performing flame tests. During a flame test, a metallic salt is heated in the flame of\na gas burner. Each metallic salt emits a characteristic colored light in the flame.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the gram-formula mass for reactant 1.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2016/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of chemistry.\nThe unique odors and flavors of many fruits are primarily due to small quantities of \na certain class of organic compounds. The equation below represents the production of \none of these compounds.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Explain, in terms of molecular polarity, why reactant 2 is soluble in water.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2016/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of chemistry.\nThe unique odors and flavors of many fruits are primarily due to small quantities of \na certain class of organic compounds. The equation below represents the production of \none of these compounds.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "State the class of organic compounds to which product 1 belongs. C H H C H C OH H H Reactant 1 H O C O C H H Reactant 2 H H H HOH Product 1 Product 2 H O C O H",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2016/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of chemistry.\nThe unique odors and flavors of many fruits are primarily due to small quantities of \na certain class of organic compounds. The equation below represents the production of \none of these compounds.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "State the purpose of the salt bridge in the voltaic cell.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of chemistry.\nA student develops the list shown below that includes laboratory equipment and\nmaterials for constructing a voltaic cell.\nLaboratory Equipment and Materials\n\u2022 a strip of zinc\n\u2022 a strip of copper\n\u2022 a 250-mL beaker containing 150 mL of 0.1 M zinc nitrate\n\u2022 a 250-mL beaker containing 150 mL of 0.1 M copper(II) nitrate\n\u2022 wires\n\u2022 a voltmeter\n\u2022 a switch\n\u2022 a salt bridge",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Complete and balance the half-reaction equation in your answer booklet for the oxidation of the Zn(s) that occurs in the voltaic cell.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of chemistry.\nA student develops the list shown below that includes laboratory equipment and\nmaterials for constructing a voltaic cell.\nLaboratory Equipment and Materials\n\u2022 a strip of zinc\n\u2022 a strip of copper\n\u2022 a 250-mL beaker containing 150 mL of 0.1 M zinc nitrate\n\u2022 a 250-mL beaker containing 150 mL of 0.1 M copper(II) nitrate\n\u2022 wires\n\u2022 a voltmeter\n\u2022 a switch\n\u2022 a salt bridge",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Compare the activities of the two metals used by the student for constructing the voltaic cell.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of chemistry.\nA student develops the list shown below that includes laboratory equipment and\nmaterials for constructing a voltaic cell.\nLaboratory Equipment and Materials\n\u2022 a strip of zinc\n\u2022 a strip of copper\n\u2022 a 250-mL beaker containing 150 mL of 0.1 M zinc nitrate\n\u2022 a 250-mL beaker containing 150 mL of 0.1 M copper(II) nitrate\n\u2022 wires\n\u2022 a voltmeter\n\u2022 a switch\n\u2022 a salt bridge",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Identify one item of laboratory equipment required to build an electrolytic cell that is not included in the list.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of chemistry.\nA student develops the list shown below that includes laboratory equipment and\nmaterials for constructing a voltaic cell.\nLaboratory Equipment and Materials\n\u2022 a strip of zinc\n\u2022 a strip of copper\n\u2022 a 250-mL beaker containing 150 mL of 0.1 M zinc nitrate\n\u2022 a 250-mL beaker containing 150 mL of 0.1 M copper(II) nitrate\n\u2022 wires\n\u2022 a voltmeter\n\u2022 a switch\n\u2022 a salt bridge",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Identify the highly penetrating radioactive emission that exposed the photographic plates.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nIn 1896, Antoine H. Becquerel discovered that a uranium compound could expose a\nphotographic plate wrapped in heavy paper in the absence of light. It was shown that the\nuranium compound was spontaneously releasing particles and high-energy radiation.\nFurther tests showed the emissions from the uranium that exposed the photographic plate\nwere not deflected by charged plates.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Complete the nuclear equation in your answer booklet for the alpha decay of U-238.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nIn 1896, Antoine H. Becquerel discovered that a uranium compound could expose a\nphotographic plate wrapped in heavy paper in the absence of light. It was shown that the\nuranium compound was spontaneously releasing particles and high-energy radiation.\nFurther tests showed the emissions from the uranium that exposed the photographic plate\nwere not deflected by charged plates.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Determine the number of neutrons in an atom of U-233.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nIn 1896, Antoine H. Becquerel discovered that a uranium compound could expose a\nphotographic plate wrapped in heavy paper in the absence of light. It was shown that the\nuranium compound was spontaneously releasing particles and high-energy radiation.\nFurther tests showed the emissions from the uranium that exposed the photographic plate\nwere not deflected by charged plates.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Identify the type of nuclear reaction that occurs when an alpha or a beta particle is spontaneously emitted by a radioactive isotope. P.S./ P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nIn 1896, Antoine H. Becquerel discovered that a uranium compound could expose a\nphotographic plate wrapped in heavy paper in the absence of light. It was shown that the\nuranium compound was spontaneously releasing particles and high-energy radiation.\nFurther tests showed the emissions from the uranium that exposed the photographic plate\nwere not deflected by charged plates.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "subject": "geometry",
+  "session": "august-2024",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "In right triangle LMN below, LN 5 8, MN 5 15, and LM 5 17. L N M 15 8 17 If triangle LMN is translated such that it maps onto triangle XYZ, which statement is always true?",
+      "choices": [
+        "XY 5 15",
+        "YZ 5 17",
+        "m/Z 5 90\u00b0",
+        "m/X 5 90\u00b0"
+      ],
+      "image": "/images/exams/geometry/august-2024/q1.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Directed line segment KC has endpoints K(24,22) and C(1,8). Point E divides ___ KC such that KE:EC is 3:2. What are the coordinates of point E?",
+      "choices": [
+        "(21,4)",
+        "(22,2)",
+        "(23,0)",
+        "(0,6)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "In right triangle DAN, m/A 5 90\u00b0. Which statement must always be true?",
+      "choices": [
+        "cos D 5 cos N",
+        "cos D 5 sin N",
+        "sin A 5 cos N",
+        "cos A 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In the diagram below of parallelogram RSTV, diagonals ___ SV and ___ RT intersect at E. S T R V E Which statement is always true?",
+      "choices": [
+        "___ SR > ___ RV",
+        "___ RT > ___ SV",
+        "___ SE > ___ RE",
+        "___ RE > ___ TE"
+      ],
+      "image": "/images/exams/geometry/august-2024/q4.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "In nSNA below, UE || ___ NA. U N E A S If SU 5 3, SN 5 11, and EA 5 13, what is the length of ___ SE, to the nearest tenth?",
+      "choices": [
+        "2.5",
+        "3.5",
+        "4.9",
+        "17.9"
+      ],
+      "image": "/images/exams/geometry/august-2024/q5.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Many roofs are slanted to prevent the buildup of snow. As modeled below, the length of a roof is 5.5 meters and it rises to a height of 2.5 meters. 2.5 m 5.5 m The angle of elevation of the roof, to the nearest degree, is",
+      "choices": [
+        "24\u00b0",
+        "25\u00b0",
+        "27\u00b0",
+        "28\u00b0"
+      ],
+      "image": "/images/exams/geometry/august-2024/q6.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "In the diagram below, CT || AR , and ACE and ___ RC are drawn such that ___ AC > ___ RC. C T E R A If m/ECT 5 75\u00b0, what is m/ACR?",
+      "choices": [
+        "30\u00b0",
+        "60\u00b0",
+        "75\u00b0",
+        "105\u00b0"
+      ],
+      "image": "/images/exams/geometry/august-2024/q7.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "In the diagram below, nABC has medians ___ AX, ___ BY, and ___ CZ that intersect at point P. B Y Z P X C A If AB 5 26, AC 5 28, and PC 5 16, what is the perimeter of nCZA?",
+      "choices": [
+        "57",
+        "65",
+        "70",
+        "73"
+      ],
+      "image": "/images/exams/geometry/august-2024/q8.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "In right triangle ABC below, m/C 5 90\u00b0, AC 5 12, and m/A 5 25\u00b0. C c a 25\u00b0 B A 12 Which equation is correct for nABC?",
+      "choices": [
+        "a 5 12 ______ tan25\u00b0",
+        "a 5 12 tan 25\u00b0",
+        "c 5 12 ______ tan25\u00b0",
+        "c 5 12 tan 25\u00b0"
+      ],
+      "image": "/images/exams/geometry/august-2024/q9.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Triangle HUS is shown below. H U S If point G is located on ___ US and ___ HG is drawn, which additional information is sufficient to prove nHUG > nHSG by SAS?",
+      "choices": [
+        "___ HG bisects ___ US",
+        "___ HG is an altitude",
+        "___ HG bisects /UHS",
+        "___ HG is the perpendicular bisector of ___ US"
+      ],
+      "image": "/images/exams/geometry/august-2024/q10.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The area of the base of a cone is 9\u03c0 square inches. The volume of the cone is 36\u03c0 cubic inches. What is the height of the cone in inches?",
+      "choices": [
+        "12",
+        "8",
+        "3",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, ___ AB, ___ CD, ___ EF, ___ GH, and __ IJ are drawn. y E C A G I J H B D F x Which segment is the image of ___ AB after a dilation with a scale factor of 2 centered at (22,21)?",
+      "choices": [
+        "___ CD",
+        "___ EF",
+        "___ GH",
+        "__"
+      ],
+      "image": "/images/exams/geometry/august-2024/q12.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Trapezoid ABCD is graphed on the set of axes below. A D B C y x Which transformation would map point A onto A9(3,27)?",
+      "choices": [
+        "reflection over y 5 x",
+        "reflection over the y-axis",
+        "rotation of 180\u00b0 about (0,0)",
+        "rotation of 90\u00b0 counterclockwise about (0,0)"
+      ],
+      "image": "/images/exams/geometry/august-2024/q13.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "A storage building is modeled below by a hemisphere on top of a cylinder. The diameter of both the cylinder and hemisphere is 12 feet. The total height of the storage building is 30 feet. 30 ft 12 ft To the nearest cubic foot, what is the volume of the storage building?",
+      "choices": [
+        "942",
+        "2488",
+        "3167",
+        "3845"
+      ],
+      "image": "/images/exams/geometry/august-2024/q14.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which regular polygon will carry onto itself after a 135\u00b0 rotation about its center?",
+      "choices": [
+        "triangle",
+        "pentagon",
+        "hexagon",
+        "octagon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "What is the length of the radius of the circle whose equation is x2 1 y2 2 2x 1 4y 2 5 5 0?",
+      "choices": [
+        "5",
+        "10",
+        "5",
+        "10"
+      ],
+      "image": "/images/exams/geometry/august-2024/q16.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The line represented by the equation y 5 4x 1 15 is dilated by a scale factor of 2 centered at the origin. Which equation represents its image?",
+      "choices": [
+        "y 5 4x 1 15",
+        "y 5 4x 1 30",
+        "y 5 8x 1 15",
+        "y 5 8x 1 30"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Line segment RH has endpoints R(24,4) and H(2,24). Which equation represents a line perpendicular to ___ RH that passes through the point (3,21)?",
+      "choices": [
+        "y 1 1 5 3__ 4 (x 2 3)",
+        "y 1 1 5 2 3__ 4 (x 2 3)",
+        "y 1 1 5 4__ 3 (x 2 3)",
+        "y 1 1 5 2 4__ 3 (x 2 3)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "In right triangle SNO below, altitude ____ NW is drawn to hypotenuse ___ SO. S N O W Which statement is not always true?",
+      "choices": [
+        "SO ___ SN 5 SN ___ SW",
+        "SW ___ NS 5 NS ____ OW",
+        "SO ___ ON 5 ON ____ OW",
+        "OW ____ NW 5 NW ____ SW"
+      ],
+      "image": "/images/exams/geometry/august-2024/q19.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A rectangle has a width of 3 and a length of 4. The rectangle is dilated by a scale factor of 1.8. What is the area of its image, to the nearest tenth?",
+      "choices": [
+        "3.7",
+        "6.7",
+        "21.6",
+        "38.9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "In the diagram below of circle P, diameter ___ MD and chord ___ AL intersect at Q, m/AQD 5 46\u00b0, and m LD 5 124\u00b0. 46\u00b0 124\u00b0 A P D Q M L What is m AD?",
+      "choices": [
+        "36\u00b0",
+        "46\u00b0",
+        "51\u00b0",
+        "92\u00b0"
+      ],
+      "image": "/images/exams/geometry/august-2024/q21.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The right prism with a triangular base shown below is cut by a plane perpendicular to its bases. The two-dimensional shape of the cross section is always a",
+      "choices": [
+        "triangle",
+        "rhombus",
+        "pentagon",
+        ""
+      ],
+      "image": "/images/exams/geometry/august-2024/q22.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A rectangular fish tank measures 24 inches long, 12 inches wide, and 16 inches high, as modeled in the diagram below. 16 in 12 in 24 in If the empty tank weighs 25 pounds and the fish tank is filled with water to a height of 14 inches, what is the approximate weight of the tank and water? [27.7 in.3 = 1 pound of water]",
+      "choices": [
+        "146",
+        "166",
+        "171",
+        "191"
+      ],
+      "image": "/images/exams/geometry/august-2024/q23.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A circle has a radius of 4.5. What is the measure of the central angle that intercepts an arc whose length is 6.2, to the nearest degree?",
+      "choices": [
+        "35\u00b0",
+        "42\u00b0",
+        "64\u00b0",
+        "79\u00b0 Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "In the diagram below, nSUV ~ nTRE. S T U V R E If SU 5 5, UV 5 7, TR 5 14, and TE 5 21, determine and state the length of ___",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2024/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Using a compass and straightedge, construct the line of reflection that maps nABC onto its image, nDEF. [Leave all construction marks.]",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2024/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Triangle MAX has vertices with coordinates M(25,22), A(1,4), and X(4,1). Determine and state the area of nMAX. [The use of the set of axes below is optional.]",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2024/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "A person observes a kite at an angle of elevation of 32\u00b0 from a line of sight that begins 4 feet above the ground, as modeled in the diagram below. At the moment of observation, the kite is 70 feet above the ground. 70 ft 4 ft 32\u00b0 x Determine and state the horizontal distance, x, between the person and the point on the ground directly below the kite,",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2024/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "In nAGL below, N and E are the midpoints of ___ AG and ___ AL, respectively, ___ NE is drawn. A L G N E If NE 5 15 and GL 5 3x 2 12,",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2024/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "In the diagram below, nTAN is the image of nSUN after a reflection over NZ. U A S N Z T Use the properties of rigid motions to explain why nTAN >",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2024/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "A pyramid with a square base is made of solid glass. The pyramid has a base with a side length of 5.7 cm and a height of 7 cm. The density of the glass is 2.4 grams per cubic centimeter. Determine and state, to the nearest gram, Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "A drone is used to measure the size of a brush fire on the ground. Segment AB represents the width of the fire, as shown below. The drone calculates the distance to point B to be 1076 feet at an angle of depression of 25\u00b0. At the same point, the drone calculates the distance to point A to be 774 feet at an angle of depression of 36\u00b0. 25\u00b0 1076 ft 36\u00b0 774 ft A B Determine and state the width of the fire, ___ AB,",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2024/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Quadrilateral ABCD has vertices with coordinates A(23,6), B(6,3), C(6,22), and D(26,2). Joe defines an isosceles trapezoid as a trapezoid with congruent diagonals. Use Joe\u2019s definition to prove ABCD is an isosceles trapezoid. [The use of the set of axes below is optional.]",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2024/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Ali made six solid spherical decorations out of modeling clay. Each decoration has a radius of 2.5 inches. The weight of clay is 68 pounds per cubic foot. Determine and state, to the nearest pound, the total weight of the six decorations. Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "In quadrilateral HOPE below, ___ EH > ___ OP, ___ EP > ___ OH, __ EJ > ___ OG, and ___ TG and __ YJ are perpendicular to diagonal ___ EO at points G and J, respectively. H Y O P T E G J Prove that ___ TG > __ YJ. Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 pr2 Circle C 5 pd or C 5 2pr General Prisms V 5 Bh Cylinder V 5 pr2h Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 pr2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u2260 1 Radians 1 radian 5 180 ___ p degrees Degrees 1 degree 5 p ___ 180 radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here GEOMETRY GEOMETRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2024/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

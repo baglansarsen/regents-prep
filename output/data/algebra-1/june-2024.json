@@ -1,0 +1,471 @@
+{
+  "subject": "algebra-1",
+  "session": "june-2024",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "A ball was launched into the air, and its height above the ground was recorded each second, as shown in the table below. Time (sec) 0 1 2 3 4 Height (ft) 11 59 75 59 11 Based on these data, which statement is a valid conclusion?",
+      "choices": [
+        "The ball lands on the ground at 4 seconds.",
+        "The ball reaches a maximum height of 11 feet.",
+        "The ball was launched from a height of 0 feet.",
+        "The ball reaches its maximum height at 2 seconds."
+      ],
+      "image": "/images/exams/algebra-1/june-2024/q1.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "A tour bus can seat, at most, 48 passengers. An adult ticket costs $18 and a child ticket costs $12. The bus company must collect at least $650 to make a profit. If a represents the number of adult tickets sold and c represents the number of child tickets sold, which system of inequalities models this situation if they make a profit?",
+      "choices": [
+        "a 1 c , 48",
+        "a 1 c # 48",
+        "a 1 c , 48 18a 1 12c . 650 18a 1 12c , 650",
+        "a 1 c # 48 18a 1 12c $ 650 18a 1 12c # 650"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which equation is always true?",
+      "choices": [
+        "x2 \u2022 x3 5 x5",
+        "3x \u2022 32 5 92x",
+        "2z2 5 z2",
+        "7a \u2022 7b 5 7"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The expression 22(x2 2 2x 1 1) 1 (3x2 1 3x 2 5) is equivalent to",
+      "choices": [
+        "x2 1 x 2 4",
+        "x2 2 x 2 7",
+        "x2 1 7x 2 4",
+        "x2 1 7x 2 7"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which sum is irrational?",
+      "choices": [
+        "12 100 1 22",
+        "4 1 3 900 1 2",
+        "64 25 1 1 2",
+        "121 49 3 1"
+      ],
+      "image": "/images/exams/algebra-1/june-2024/q5.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The solution to 4(x 2 5) 3 1 2 5 14 is",
+      "choices": [
+        "15",
+        "14",
+        "6",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "On an island, a rare breed of rabbit doubled its population each month for two years. Which type of function best models the increase in population at the end of two years?",
+      "choices": [
+        "linear growth",
+        "linear decay",
+        "exponential growth",
+        "exponential decay"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "What is the degree of the polynomial 2x 2 x2 1 4x3?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The zeros of the function f(x) 5 x(x 2 5)(3x 1 6) are",
+      "choices": [
+        "0, 25, and 2",
+        "0, 5, and 22",
+        "25 and 2, only",
+        "5 and 22, only"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "What is the y-intercept of the line that passes through the points (21,5) and (2,21)?",
+      "choices": [
+        "21",
+        "22",
+        "3",
+        "5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Nancy has just been hired for her first job. Her company gives her four choices for how she can collect her annual salary over the first eight years of employment. Each function below represents the four choices she has for her annual salary in thousands of dollars, where t represents the number of years after she is hired. a(t) 5 2t 1 25 b(t) 5 10t 1 75 c(t) 5 400t 1 80 d(t) 5 2(t 1 1)2 2 10t 1 50 Which pay plan should Nancy choose in order to have the highest salary in her eighth year?",
+      "choices": [
+        "a(t)",
+        "b(t)",
+        "c(t)",
+        "d(t)"
+      ],
+      "image": "/images/exams/algebra-1/june-2024/q11.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The third term in a sequence is 25 and the fifth term is 625. Which number could be the common ratio of the sequence?",
+      "choices": [
+        "1 5",
+        "5",
+        "1 25",
+        "25"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The box plot below summarizes the data for the amount of snowfall, in inches, during the winter of 2021 for 12 locations in western New York. 80 100 120 20 0 40 60 140 Winter of 2021 Snowfall (inches) What is the interquartile range?",
+      "choices": [
+        "30",
+        "50",
+        "80",
+        "110"
+      ],
+      "image": "/images/exams/algebra-1/june-2024/q13.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Four quadratic functions are represented below. b(x) x 4 2 I II III IV a(x) 5 (x 2 3)2 2 7 \u20131 x d(x) 0 \u20134 \u20133 \u20132 \u20131 \u20131 \u20134 \u20135 \u20134 c(x) 5 x2 1 6x 1 3 \u20132 \u20134 Which function has the smallest minimum value?",
+      "choices": [
+        "I",
+        "II",
+        "III",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/june-2024/q14.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The equation that represents the sequence 22, 25, 28, 211, 214, . . . is",
+      "choices": [
+        "an 5 23 1 (22)(n 2 1)",
+        "an 5 22 1 (23)(n 2 1)",
+        "(n 2 1)",
+        "an 5 22 1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The dot plot below shows the number of goals Jessica scored in each lacrosse game last season. 1 2 3 4 5 6 Goals Scored per Game 0 Which statement about the dot plot is correct?",
+      "choices": [
+        "mean . mode",
+        "mean 5 median",
+        "mode 5 median",
+        "median . mean"
+      ],
+      "image": "/images/exams/algebra-1/june-2024/q16.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The students in Mrs. Smith\u2019s algebra class were asked to describe the graph of g(x) 5 2(x 2 3)2 compared to the graph of f(x) 5 x2. Which student response is correct?",
+      "choices": [
+        "Ashley said that the graph of g(x) is wider and shifted left 3 units.",
+        "Beth said that the graph of g(x) is narrower and shifted left 3 units.",
+        "Carl said that the graph of g(x) is wider and shifted right 3 units.",
+        "Don said that the graph of g(x) is narrower and shifted right 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "One Saturday, Dave took a long bike ride. The graph below models his trip. 0 10 20 30 40 50 3 4 5 6 2 1 60 Hours Miles Traveled What was Dave\u2019s average rate of change, in miles per hour, on this trip?",
+      "choices": [
+        "10",
+        "11",
+        "11.6",
+        "14.5"
+      ],
+      "image": "/images/exams/algebra-1/june-2024/q18.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to (x 2 5)(2x 1 7) 2 (x 1 5)?",
+      "choices": [
+        "2x2 2 2x 2 30",
+        "2x2 2 2x 2 40",
+        "2x2 2 4x 2 30",
+        "2x2 2 4x 2 40"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The functions f(x) and g(x) are graphed on the set of axes below. y x g(x) f(x) What is the solution to the equation f(x) 5 g(x)?",
+      "choices": [
+        "1 and 5",
+        "25 and 0",
+        "23 and 5",
+        "0 and 4"
+      ],
+      "image": "/images/exams/algebra-1/june-2024/q20.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "22",
+      "choices": [
+        "12 3a",
+        "12 3 2 a",
+        "3a 12",
+        "3 2 a 12"
+      ],
+      "image": "/images/exams/algebra-1/june-2024/q22.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Wayde van Niekerk, a runner from South Africa, ran 400 meters in 43.03 seconds to set a world record. Which calculation would determine his average speed, in miles per hour?",
+      "choices": [
+        "400 m 1 hr 1000 m 43.03 sec 3600 sec 0.62 mi \u2022 \u2022",
+        "400 m 1 hr 0.62 mi 43.03 sec 3600 sec 1000 m \u2022 \u2022",
+        "400 m 3600 sec 0.62 mi 43.03 sec 1 hr 1000 m \u2022 \u2022",
+        "400 m 3600 sec 1000 m 43.03 sec 1 hr 0.62 mi \u2022 \u2022"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which function has a domain of all real numbers and a range greater than or equal to three?",
+      "choices": [
+        "f (x) 5 2x 1 3",
+        "g (x) 5 x2 1 3",
+        "h (x) 5 3x",
+        "m(x) 5 |x 1 3| Part II Answer all 6 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Solve 5(x 2 2) # 3x 1 20",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Given g(x) 5 x3 1 2x2 2 x, evaluate g(23)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Given the relation R 5 {(21,1), (0,3), (22,24), (x,5)}",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "A survey of 150 students was taken. It was determined that 2 3 of the students play video games. Of the students that play video games, 85 also use social media. Of the students that do not play video games, 20%",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2024/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Use the method of completing the square to determine the exact values of x for the equation x2 1 10x 2 30 5 0",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Factor 20x3 2 45 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Graph the following system of equations on the set of axes below. y 5 x2 2 3x 2 6 y 5 x 2 1",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2024/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "The table below shows the amount of money a popular movie earned, in millions of dollars, during its first six weeks in theaters. Week (x) 1 2 3 4 5 6 Dollars Earned, in Millions (y) 185 150 90 50 25 5 Write the linear regression equation for this data set,",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2024/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Use the quadratic formula to solve the equation 3x2 2 10x 1 5 5 0",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Graph the system of inequalities on the set of axes below. 3y 1 2x # 15 y 2 x . 1 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2024/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Courtney went to a coffee shop to purchase lattes and donuts for her friends. One day she spent a total of $15.50 on four lattes and two donuts. The next day she spent a total of $18.10 on three lattes and five donuts. All prices included tax. If x represents the cost of one latte and y represents the cost of one donut, write a system of equations that can be used to model this situation. Courtney thinks that one latte costs $2.75 and one donut costs $2.25. Is Courtney correct? Justify your answer. Use your equations to determine algebraically the exact cost of one latte and the exact cost of one donut. Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here Reference Sheet for Algebra I Conversions Conversions Across Measurement Systems 1 mile 5 5280 feet 1 mile 5 1760 yards 1 pound 5 16 ounces 1 ton 5 2000 pounds 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 1.609 kilometers 1 kilometer 5 0.6214 mile 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds Quadratic Equation y 5 ax2 1 bx 1 c Quadratic Formula b 2 2 4ac 2a 2b 6 x 5 Equation of the Axis of Symmetry b 2a x 5 2 Slope y2 2 y1 x2 2 x1 m 5 Linear Equation Slope Intercept y 5 mx 1 b Linear Equation Point Slope y 2 y1 5 m(x 2 x1) Exponential Equation y 5 abx Annual Compound Interest A 5 P(1 1 r)n Arithmetic Sequence an 5 a1 1 d(n 2 1) Geometric Sequence an 5 a1rn 2 1 Interquartile Range (IQR) IQR 5 Q3 2 Q1 Outlier Lower Outlier Boundary 5 Q1 2 1.5(IQR) Upper Outlier Boundary 5 Q3 1 1.5(IQR) Tear Here Tear Here ALGEBRA I ALGEBRA I Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

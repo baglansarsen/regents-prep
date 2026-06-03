@@ -1,0 +1,1081 @@
+{
+  "subject": "living-environment",
+  "session": "june-2011",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which phrase is an example of autotrophic nutrition?",
+      "choices": [
+        "a cow eating grass in a field",
+        "a mushroom digesting a dead log",
+        "an apple tree making its own food",
+        "a tapeworm feeding in the body of a dog"
+      ],
+      "image": "/images/exams/living-environment/june-2011/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The ability of estrogen to affect certain cells depends directly on",
+      "choices": [
+        "amino acids",
+        "receptor molecules",
+        "gametes",
+        "nerve cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "By studying the chemicals in rare plants that grow only in rain forests, scientists hope to discover new life-saving medicines. Chances of finding such new medicines are reduced by",
+      "choices": [
+        "predation by carnivores",
+        "homeostasis in organisms",
+        "recycling of materials in food webs",
+        "loss of species due to human activities"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "When a species includes organisms with a wide variety of traits, it is most likely that this species will have",
+      "choices": [
+        "a high proportion of individuals immune to genetic diseases",
+        "a greater chance to survive if environmental conditions suddenly change",
+        "less success competing for resources",
+        "limitless supplies of important resources, such as food and water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Some diseases and their causes are listed below. A. Flu\u2014influenza virus B. Lung cancer\u2014smoking C. Cystic fibrosis\u2014genes D. Dysentery\u2014parasitic ameba Which disease would individuals have the greatest difficulty preventing in themselves?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the banding pattern for human chromosome 11, with some of the bands labeled. The bands represent",
+      "choices": [
+        "proteins",
+        "genes",
+        "starches",
+        "enzymes"
+      ],
+      "image": "/images/exams/living-environment/june-2011/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "A liver cell can make enzymes that a heart cell can not make because liver cells",
+      "choices": [
+        "digest large, complex molecules",
+        "contain more DNA than heart cells",
+        "use different genes than the heart cells use",
+        "remove carbon dioxide from blood"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "As male children get older, some begin to closely resemble their fathers and have no resemblance to their mothers. Which statement best explains this observation?",
+      "choices": [
+        "Several sperm fertilized the egg, so the fertilized egg contained more genes from their father.",
+        "More genes are inherited from the sperm cell of their father than from the egg cell of their mother, so most traits will be like those of their father.",
+        "More genes from their father are expressed in traits that can be seen, and more genes from their mother are expressed in traits that cannot be seen, such as blood type or enzyme function.",
+        "Genes from their father are stronger than genes from their mother, so the genes from their mother are not expressed. Chromosome 11 Manic-depressive illness Diabetes mellitus Sickle-cell anemia B-cell leukemia T-cell leukemia Liver-cell cancer"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "written",
+      "text": "Which row in the chart below contains a cell structure paired with its primary function?",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which sequence represents the levels of biological organization from smallest to largest?",
+      "choices": [
+        "organism \u2192cell \u2192tissue \u2192organelle \u2192organ system \u2192organ",
+        "organ system \u2192organ \u2192organism \u2192cell \u2192tissue \u2192organelle",
+        "organelle \u2192organ system \u2192cell \u2192organism \u2192tissue \u2192organ",
+        "organelle \u2192cell \u2192tissue \u2192organ \u2192organ system \u2192organism"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The diagram below represents division of a cell that produces two daughter cells. Which statement most likely describes the daughter cells produced?",
+      "choices": [
+        "The daughter cells will pass on only half of the genetic information they received from the original cell.",
+        "The daughter cells will each produce offspring that will have the same genetic information as the original cell.",
+        "The daughter cells will each undergo the same mutations as the original cell after reproduction has occurred.",
+        "The daughter cells will not pass on any of the genes that they received from the original cell."
+      ],
+      "image": "/images/exams/living-environment/june-2011/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which concept is best represented in the diagram below?",
+      "choices": [
+        "ribosome protein synthesis",
+        "vacuole production of genetic information",
+        "nucleus carbohydrate synthesis",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2011/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The cells that make up leaves on a tree are genetically identical, yet the leaves often have different shapes and sizes, as shown in the diagram below. Which statement best explains this difference in leaf appearance?",
+      "choices": [
+        "The leaves at the top of the tree get more sunlight, causing the genes in their cells to be expressed differently.",
+        "The genes in the cells of leaves at the top of the tree are destroyed by sunlight, causing the leaves to stop growing.",
+        "The leaves near the bottom of the tree have more genes related to leaf size, causing them to grow larger.",
+        "The genes in the cells of leaves near the bottom of the tree increase in number, causing them to grow even larger."
+      ],
+      "image": "/images/exams/living-environment/june-2011/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Selective breeding is a technique that is used to",
+      "choices": [
+        "give all organisms a chance to reproduce",
+        "produce organisms from extinct species",
+        "produce offspring with certain desirable traits",
+        "keep farm crops free of all mutations"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "On hot, dry days, guard cells often close microscopic openings in plant leaves, conserving water. This is an example of",
+      "choices": [
+        "environmental factors causing gene mutation in plants",
+        "finite resources acting as selecting agents for evolution",
+        "a feedback mechanism for maintaining homeostasis",
+        "differentiation in plants as a result of stimuli"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a portion of a DNA molecule. The letters represent different types of",
+      "choices": [
+        "sugar molecules",
+        "molecular bases",
+        "enzymes",
+        "proteins"
+      ],
+      "image": "/images/exams/living-environment/june-2011/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Cotton plants produce seeds that contain high-quality protein. This protein could be used as a food source except that the seeds are poisonous to humans. Recently, scientists have inserted a section of DNA into the cotton plants that makes the cotton seeds nonpoisonous. The technique for this procedure is known as",
+      "choices": [
+        "gene manipulation",
+        "cloning",
+        "reproduction",
+        "direct harvesting"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which mutation in a fruit fly could be passed on to its offspring?",
+      "choices": [
+        "a mutation in a cell of an eye that changes the color of the eye",
+        "a mutation in a leg cell that causes the leg to be shorter",
+        "a mutation in a sperm cell that changes the shape of the wing",
+        "a mutation in a cell of the digestive tract that produces a different enzyme"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which process initially provides the link between an abiotic factor and the energy needs of an entire ecosystem?",
+      "choices": [
+        "respiration",
+        "photosynthesis",
+        "decomposition",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Buffalo grass is a species of plant found on the grazing prairies of Wyoming. It is a tough grass that has silicates (compounds containing oxygen and silicon) that reinforce its leaves. For hundreds of years, this grass has survived in an adverse environment. Which statement best explains the presence of this grass today?",
+      "choices": [
+        "There are no variations in this grass species that help it to survive in an adverse environment.",
+        "Silicates are necessary for photosynthesis.",
+        "The current species has no mutations.",
+        "The silicates in the grass have given the species an advantage in its environment."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The bud shown in the diagram below was produced by asexual reproduction. Which process is responsible for the formation of the bud?",
+      "choices": [
+        "fertilization",
+        "recombination",
+        "mitosis",
+        "meiosis"
+      ],
+      "image": "/images/exams/living-environment/june-2011/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The temporary storage of energy in ATP molecules is part of which process?",
+      "choices": [
+        "cell division",
+        "cellular respiration",
+        "protein synthesis",
+        "DNA replication"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A function of white blood cells is to",
+      "choices": [
+        "transport oxygen to body cells",
+        "produce hormones that regulate cell communication",
+        "carry glucose to body cells",
+        "protect the body against pathogens"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Competition for biotic resources can be illustrated by organisms fighting for a limited amount of",
+      "choices": [
+        "air to breathe",
+        "water to drink",
+        "mates for breeding",
+        "space for nesting"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Many biological catalysts, hormones, and receptor molecules are similar in that, in order to function properly, they must",
+      "choices": [
+        "interact with each other at a high pH",
+        "interact with molecules that can alter their specific bonding patterns",
+        "contain amino acid chains that fold into a specific shape",
+        "contain identical DNA base sequences"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "If only one type of tree is planted in an abandoned field, the ecosystem will",
+      "choices": [
+        "evolve quickly and become extinct",
+        "be unable to reach dynamic equilibrium",
+        "contain little genetic variability",
+        "be unable to cycle materials"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which organisms directly help to reduce overpopulation in a deer herd?",
+      "choices": [
+        "parasites and predators",
+        "parasites and scavengers",
+        "decomposers and predators",
+        "decomposers and consumers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "In the human body, oxygen is absorbed by the lungs and nutrients are absorbed by the small intestine. In a single-celled organism, this absorption directly involves the",
+      "choices": [
+        "nucleus",
+        "chloroplasts",
+        "cell membrane",
+        "chromosomes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "An earthworm lives and reproduces in the soil. It aerates the soil and adds organic material to it. The earthworm is a source of food for other organisms. All of these statements together best describe",
+      "choices": [
+        "a habitat",
+        "autotrophic nutrition",
+        "an ecological niche",
+        "competition"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Depletion of nonrenewable resources is often a result of",
+      "choices": [
+        "environmental laws",
+        "human population growth",
+        "reforestation",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The bar graph below shows the height of a plant at the end of each week of a five-week growth period. Which statement represents a valid conclusion based on the information in the graph?",
+      "choices": [
+        "The plant was given water during the first three weeks, only.",
+        "The plant will grow faster during the sixth week than it did during the fifth week.",
+        "The plant grew fastest during the first three weeks, and then it grew slower.",
+        "The plant grew slowest during the first three weeks, and then it grew faster."
+      ],
+      "image": "/images/exams/living-environment/june-2011/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "A diagram frequently used in ecological studies is shown below. This diagram can be used to represent the",
+      "choices": [
+        "dependency of animal survival on physical conditions in an ecosystem",
+        "loss of energy from various groups of organisms in an ecosystem",
+        "competition among species in an ecosystem",
+        "mechanisms that maintain homeostasis in the plants in an ecosystem"
+      ],
+      "image": "/images/exams/living-environment/june-2011/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "A biologist formulates a hypothesis, performs experiments to test his hypothesis, makes careful observations, and keeps accurate records of his findings. In order to complete this process, the biologist should",
+      "choices": [
+        "adjust the data to support the hypothesis",
+        "eliminate data that do not support the hypothesis",
+        "write a research paper explaining his theories before performing his experiments, in order to gain funding sources",
+        "evaluate the findings and, if necessary, alter the hypothesis based on his findings, and test the new hypothesis"
+      ],
+      "image": "/images/exams/living-environment/june-2011/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Structure X most likely functions in the",
+      "choices": [
+        "transport of chemical messenger molecules into the cell nucleus",
+        "extraction of energy from nutrients",
+        "separation of cell contents from the outside environment",
+        "digestion of large molecules Nucleus Hormone molecule X Cell membrane DNA Height (centimeters) 8.0 6.0 4.0 2.0 Week 1 2 3 4 5"
+      ],
+      "image": "/images/exams/living-environment/june-2011/context_34_34.png",
+      "context": "Base your answer to question 34 on the diagram\nbelow and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The arrows in the diagram below represent the movement of materials. This movement of materials indicated by the arrows is most directly involved in the processes of",
+      "choices": [
+        "respiration and replication",
+        "photosynthesis and excretion",
+        "digestion and recycling",
+        "circulation and coordination"
+      ],
+      "image": "/images/exams/living-environment/june-2011/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "When using a compound light microscope, the most common reason for staining a specimen being observed is to",
+      "choices": [
+        "keep the organism from moving around",
+        "make the view more colorful",
+        "determine the effects of chemicals on the organism",
+        "reveal details that are otherwise not easily seen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Failure of structure A to function properly would most directly disrupt",
+      "choices": [
+        "autotrophic nutrition",
+        "chromosome replication",
+        "cellular communication",
+        "biological evolution"
+      ],
+      "image": "/images/exams/living-environment/june-2011/context_37_39.png",
+      "context": "Base your answers to questions 37 through 39 on\nthe diagram below and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Structure B represents",
+      "choices": [
+        "cells, only",
+        "cells and tissues, only",
+        "an organ with cells and tissues",
+        "a complete system with organs, tissues, and cells"
+      ],
+      "image": "/images/exams/living-environment/june-2011/context_37_39.png",
+      "context": "Base your answers to questions 37 through 39 on\nthe diagram below and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Structure C is part of which body system?",
+      "choices": [
+        "digestive",
+        "reproductive",
+        "circulatory",
+        "nervous A B C Oxygen Water Carbon dioxide"
+      ],
+      "image": "/images/exams/living-environment/june-2011/context_37_39.png",
+      "context": "Base your answers to questions 37 through 39 on\nthe diagram below and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "written",
+      "text": "Thrips are insects that feed on the pollen and flowers of certain plants. The size of a thrip population depends on the number of flowers available. Which graph best represents changes in a population of thrips if winter was longer than usual and the summer was too cool and dry for many flowers to bloom?",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The percent of DNA that species A has in common with species B, C, D, and E are shown in the graph below. Which statement is a valid conclusion that can be drawn from this graph?",
+      "choices": [
+        "Species A is closely related to species B, but is not related to species E.",
+        "Fewer mutations have occurred in species B and C than in species A.",
+        "Species A and E have the greatest similarity in protein structure.",
+        "Environment influences the rate of evolution. A and B A and C A and D A and E Species Percent of DNA in Common Percent DNA in Four Species ( 2 ) Thrip Population Size Fall Winter Spring Summer Season ( 1 ) Thrip Population Size Fall Winter Spring Summer Season ( 4 ) Thrip Population Size Fall Winter Spring Summer Season ( 3 )"
+      ],
+      "image": "/images/exams/living-environment/june-2011/q41.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The relationship between the polyps and the zooxanthellae can best be described as",
+      "choices": [
+        "negative for both",
+        "neutral for both",
+        "positive for both",
+        "negative for one and positive for the other"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 42 and 43 on the passage below and on your knowledge of biology.\n\u2026Corals come in about 1,500 known species\u2014from soft swaying fans to stony varieties\nwith hard skeletons that form reef bases.  They are made up of polyps, tiny animals that live\nin colonies and feed at night on microscopic plants and creatures. The coral\u2019s surface is the\nliving part, with color infused by single-celled algae called zooxanthellae that live in polyp\ntissue.  The algae act like solar panels, passing energy to the coral as they photosynthesize\nwhile feeding on the coral\u2019s waste.\nExtremely sensitive, corals survive in a narrow range of temperature, sunlight and \nsalinity. An uncommonly severe El Ni\u00f1o in 1998 raised ocean temperatures and changed\ncurrents, causing bleaching that devastated reefs worldwide. Scientists say parts of the\nIndian Ocean lost up to 90 percent of corals. The bleaching struck reefs around the Persian\nGulf, East Africa, Southeast Asia and the Caribbean. Some recovered. Many died. \u2026\nSource: Associated Press, December 2001",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The passage contains information concerning",
+      "choices": [
+        "limiting factors",
+        "reproductive methods",
+        "bacteria",
+        "competition"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 42 and 43 on the passage below and on your knowledge of biology.\n\u2026Corals come in about 1,500 known species\u2014from soft swaying fans to stony varieties\nwith hard skeletons that form reef bases.  They are made up of polyps, tiny animals that live\nin colonies and feed at night on microscopic plants and creatures. The coral\u2019s surface is the\nliving part, with color infused by single-celled algae called zooxanthellae that live in polyp\ntissue.  The algae act like solar panels, passing energy to the coral as they photosynthesize\nwhile feeding on the coral\u2019s waste.\nExtremely sensitive, corals survive in a narrow range of temperature, sunlight and \nsalinity. An uncommonly severe El Ni\u00f1o in 1998 raised ocean temperatures and changed\ncurrents, causing bleaching that devastated reefs worldwide. Scientists say parts of the\nIndian Ocean lost up to 90 percent of corals. The bleaching struck reefs around the Persian\nGulf, East Africa, Southeast Asia and the Caribbean. Some recovered. Many died. \u2026\nSource: Associated Press, December 2001",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "State one way insect pests in an apple orchard can be controlled without using chemical pesticides. _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "The tranquilizer thalidomide was once prescribed for pregnant women. When this drug was used between the third and sixth week after fertilization, serious deformities in the fetus occurred as the fetus developed. State why thalidomide would have a greater effect on development when used between weeks 3 and 6 than when used in late pregnancy. _______________________________________________________________________________________ _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "46",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/q46.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The BMI for a person who is 5 feet 9 inches tall and weighs 170 pounds is between",
+      "choices": [
+        "24 and 25",
+        "25 and 26",
+        "27 and 28",
+        "29 and 30"
+      ],
+      "image": "/images/exams/living-environment/june-2011/context_47_48.png",
+      "context": "Base your answers to questions 47 and 48 on the information and chart below and on your knowledge of\nbiology.\nBody weight is considered to be a risk factor for diseases such as diabetes and high blood\npressure. The Body Mass Index (BMI) chart can be used as a guide to determine if a \nperson\u2019s body weight puts them at risk for such diseases. A portion of this chart is shown\nbelow.\nCalculating Your Body Mass Index (BMI)\nNote: The answer to question 47 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Is the person described in question 47 at risk for diseases such as diabetes or high blood pressure? Support your answer. _______________________________________________________________________________________ _______________________________________________________________________________________ Healthy Overweight Obese BMI 19 24 25 26 27 28 29 30 35 40 45 Height Weight in Pounds 5'4'' 110 140 145 151 157 163 169 174 204 232 262 5'5'' 114 144 150 156 162 168 174 180 210 240 270 5'6'' 118 148 155 161 167 173 179 186 216 247 278 5'7'' 121 153 159 166 172 178 185 191 223 255 287 5'8'' 125 158 164 171 177 184 190 197 230 262 295 5'9'' 128 162 169 176 182 189 196 203 236 270 304 5'10'' 132 167 174 181 188 195 202 209 243 278 313 5'11'' 136 172 179 186 193 200 208 215 250 286 322",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/context_47_48.png",
+      "context": "Base your answers to questions 47 and 48 on the information and chart below and on your knowledge of\nbiology.\nBody weight is considered to be a risk factor for diseases such as diabetes and high blood\npressure. The Body Mass Index (BMI) chart can be used as a guide to determine if a \nperson\u2019s body weight puts them at risk for such diseases. A portion of this chart is shown\nbelow.\nCalculating Your Body Mass Index (BMI)\nNote: The answer to question 47 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a food web. Which species would most likely be a decomposer?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2011/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The removal of the taller plants is an example of",
+      "choices": [
+        "genetic engineering",
+        "direct harvesting",
+        "selective breeding",
+        "asexual reproduction"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 50 and 51 on the passage below and on your knowledge of biology.\nPlants of the snow lotus species, Saussurea laniceps, are used in Tibet and China to \nproduce traditional medicines. These plants bloom just once, at the end of a seven-year life\nspan. Collectors remove the taller blooming plants, which they consider to have the best\nmedicinal value. Some scientists are concerned that the continual selection and removal of\nthe tall plants from natural ecosystems may result in a change in the average height of the\nsnow lotus in future populations. \nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State one way that the removal of the taller snow lotus plants from ecosystems interferes with the process of natural selection. _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 50 and 51 on the passage below and on your knowledge of biology.\nPlants of the snow lotus species, Saussurea laniceps, are used in Tibet and China to \nproduce traditional medicines. These plants bloom just once, at the end of a seven-year life\nspan. Collectors remove the taller blooming plants, which they consider to have the best\nmedicinal value. Some scientists are concerned that the continual selection and removal of\nthe tall plants from natural ecosystems may result in a change in the average height of the\nsnow lotus in future populations. \nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks, on the axis labeled \u201cTemperature of Water Bath (\u00b0C).\u201d",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/context_52_55.png",
+      "context": "Base your answers to questions 52 through 55 on the information below and on your knowledge of biology.\nA biology class conducted an experiment to determine the rate of respiration of yeast in\nbread dough at various temperatures.\nBread dough will rise due to the production of carbon dioxide by the yeast present in the\ndough.\nAn equal amount of dough was placed in the bottom of each of five graduated cylinders.\nEach cylinder was then placed in a different water bath to maintain a particular \ntemperature. A diagram of the setup is shown below.\nThe amount of expansion of the dough in each cylinder was measured after 15 minutes.\nThe results are shown in the data table below.\nThe Effect of Temperature on Yeast Respiration\nTemperature of\nWater Bath (\u00b0C)\nChange in Volume of\nBread Dough (mL)\n10\n4\n25\n11\n50\n20\n75\n25\n90\n2\n\nLiving Environment\u2013June \u201911\n[15]\n[OVER]\nDirections (52\u201353): Using the information in the data table, construct a line graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Plot the data from the data table. Surround each point with a small circle and connect the points.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/context_52_55.png",
+      "context": "Base your answers to questions 52 through 55 on the information below and on your knowledge of biology.\nA biology class conducted an experiment to determine the rate of respiration of yeast in\nbread dough at various temperatures.\nBread dough will rise due to the production of carbon dioxide by the yeast present in the\ndough.\nAn equal amount of dough was placed in the bottom of each of five graduated cylinders.\nEach cylinder was then placed in a different water bath to maintain a particular \ntemperature. A diagram of the setup is shown below.\nThe amount of expansion of the dough in each cylinder was measured after 15 minutes.\nThe results are shown in the data table below.\nThe Effect of Temperature on Yeast Respiration\nTemperature of\nWater Bath (\u00b0C)\nChange in Volume of\nBread Dough (mL)\n10\n4\n25\n11\n50\n20\n75\n25\n90\n2\n\nLiving Environment\u2013June \u201911\n[15]\n[OVER]\nDirections (52\u201353): Using the information in the data table, construct a line graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "At which temperature did yeast cells produce the least amount of gas in 15 minutes? _______________________\u00b0C",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/context_52_55.png",
+      "context": "Base your answers to questions 52 through 55 on the information below and on your knowledge of biology.\nA biology class conducted an experiment to determine the rate of respiration of yeast in\nbread dough at various temperatures.\nBread dough will rise due to the production of carbon dioxide by the yeast present in the\ndough.\nAn equal amount of dough was placed in the bottom of each of five graduated cylinders.\nEach cylinder was then placed in a different water bath to maintain a particular \ntemperature. A diagram of the setup is shown below.\nThe amount of expansion of the dough in each cylinder was measured after 15 minutes.\nThe results are shown in the data table below.\nThe Effect of Temperature on Yeast Respiration\nTemperature of\nWater Bath (\u00b0C)\nChange in Volume of\nBread Dough (mL)\n10\n4\n25\n11\n50\n20\n75\n25\n90\n2\n\nLiving Environment\u2013June \u201911\n[15]\n[OVER]\nDirections (52\u201353): Using the information in the data table, construct a line graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify the independent variable in this investigation. _______________________________________________________________________________________ Example:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/context_52_55.png",
+      "context": "Base your answers to questions 52 through 55 on the information below and on your knowledge of biology.\nA biology class conducted an experiment to determine the rate of respiration of yeast in\nbread dough at various temperatures.\nBread dough will rise due to the production of carbon dioxide by the yeast present in the\ndough.\nAn equal amount of dough was placed in the bottom of each of five graduated cylinders.\nEach cylinder was then placed in a different water bath to maintain a particular \ntemperature. A diagram of the setup is shown below.\nThe amount of expansion of the dough in each cylinder was measured after 15 minutes.\nThe results are shown in the data table below.\nThe Effect of Temperature on Yeast Respiration\nTemperature of\nWater Bath (\u00b0C)\nChange in Volume of\nBread Dough (mL)\n10\n4\n25\n11\n50\n20\n75\n25\n90\n2\n\nLiving Environment\u2013June \u201911\n[15]\n[OVER]\nDirections (52\u201353): Using the information in the data table, construct a line graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/context_56_59.png",
+      "context": "Base your answer to question 56\u201359 on the information below and on your knowledge of biology.\nMany people have a sensitivity to peanuts. The symptoms can include watery, itchy eyes\nand difficulty breathing. This allergic reaction can be mild, severe, or fatal.\n56\u201359 Discuss why an individual can have a sensitivity to peanuts. In your answer, be sure to:\n\u2022 identify the human system that is responsible for this sensitivity to peanuts   [1]\n\u2022 identify the specific type of molecule that triggers an allergic reaction   [1]\n\u2022 state one reason why a person could be allergic to peanuts, but not be allergic to walnuts   [1]\n\u2022 describe how this reaction is similar to the rejection of a transplanted organ   [1]\n_______________________________________________________________________________________\n_______________________________________________________________________________________\n_______________________________________________________________________________________\n_______________________________________________________________________________________\n_______________________________________________________________________________________\n_______________________________________________________________________________________\n_______________________________________________________________________________________\n_______________________________________________________________________________________\n60 State one way the decision of high school students to drive to school rather than ride a bus to school can\nhave a negative environmental impact on future generations.   [1]\n_______________________________________________________________________________________\n_______________________________________________________________________________________\nPart C\nAnswer all questions in this part.\n[17]\nDirections (56\u201372): Record your answers in the spaces provided in this examination booklet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "56\u201359 Discuss why an individual can have a sensitivity to peanuts. In your answer, be sure to: \u2022 identify the human system that is responsible for this sensitivity to peanuts \u2022 identify the specific type of molecule that triggers an allergic reaction \u2022 state one reason why a person could be allergic to peanuts, but not be allergic to walnuts \u2022 describe how this reaction is similar to the rejection of a transplanted organ _______________________________________________________________________________________ _______________________________________________________________________________________ _______________________________________________________________________________________ _______________________________________________________________________________________ _______________________________________________________________________________________ _______________________________________________________________________________________ _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/context_56_59.png",
+      "context": "Base your answer to question 56\u201359 on the information below and on your knowledge of biology.\nMany people have a sensitivity to peanuts. The symptoms can include watery, itchy eyes\nand difficulty breathing. This allergic reaction can be mild, severe, or fatal.\n56\u201359 Discuss why an individual can have a sensitivity to peanuts. In your answer, be sure to:\n\u2022 identify the human system that is responsible for this sensitivity to peanuts   [1]\n\u2022 identify the specific type of molecule that triggers an allergic reaction   [1]\n\u2022 state one reason why a person could be allergic to peanuts, but not be allergic to walnuts   [1]\n\u2022 describe how this reaction is similar to the rejection of a transplanted organ   [1]\n_______________________________________________________________________________________\n_______________________________________________________________________________________\n_______________________________________________________________________________________\n_______________________________________________________________________________________\n_______________________________________________________________________________________\n_______________________________________________________________________________________\n_______________________________________________________________________________________\n_______________________________________________________________________________________\n60 State one way the decision of high school students to drive to school rather than ride a bus to school can\nhave a negative environmental impact on future generations.   [1]\n_______________________________________________________________________________________\n_______________________________________________________________________________________\nPart C\nAnswer all questions in this part.\n[17]\nDirections (56\u201372): Record your answers in the spaces provided in this examination booklet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "State one way the decision of high school students to drive to school rather than ride a bus to school can have a negative environmental impact on future generations. _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/q60.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State one possible cause of the genetic variation in dandelion height. ___________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/q61.png",
+      "context": "Base your answers to questions 61 through 64 on the passage below and on your knowledge of biology.\nDandelions are weeds that are very common in many grassy areas of New York State.\nDandelion flowers first open up in a bright-yellow stage, and later turn a fluffy white when\nthey are ready to release their seeds. The seeds are carried by the wind, and can sometimes\ntravel great distances before landing and growing into new plants. The stems of dandelions\nare usually very long, typically about 20\u201330 centimeters (cm), and stand high above the \nsurrounding grass.\nA science teacher in Niagara County discovered an area in her lawn where nearly every\ndandelion had a stem less than 1 cm long.  These short dandelions were replacing large\namounts of grass in the lawn surrounding her house. They were growing much more \nthickly than the taller dandelions in other nearby areas. The short dandelions appeared to\nbe growing very successfully in one area of her lawn, but did not appear to have spread to\nother areas of her lawn. The science teacher noticed that every time she mowed her lawn,\nthe short dandelions were left untouched by the mower blades, and that their numbers\nwere steadily increasing.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "State one possible explanation for the fact that the short dandelions had not yet spread to other areas of her lawn. _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 64 on the passage below and on your knowledge of biology.\nDandelions are weeds that are very common in many grassy areas of New York State.\nDandelion flowers first open up in a bright-yellow stage, and later turn a fluffy white when\nthey are ready to release their seeds. The seeds are carried by the wind, and can sometimes\ntravel great distances before landing and growing into new plants. The stems of dandelions\nare usually very long, typically about 20\u201330 centimeters (cm), and stand high above the \nsurrounding grass.\nA science teacher in Niagara County discovered an area in her lawn where nearly every\ndandelion had a stem less than 1 cm long.  These short dandelions were replacing large\namounts of grass in the lawn surrounding her house. They were growing much more \nthickly than the taller dandelions in other nearby areas. The short dandelions appeared to\nbe growing very successfully in one area of her lawn, but did not appear to have spread to\nother areas of her lawn. The science teacher noticed that every time she mowed her lawn,\nthe short dandelions were left untouched by the mower blades, and that their numbers\nwere steadily increasing.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "State one possible reason why the amount of grass was decreasing, while the number of short dandelions was increasing in the lawn of the science teacher. _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 64 on the passage below and on your knowledge of biology.\nDandelions are weeds that are very common in many grassy areas of New York State.\nDandelion flowers first open up in a bright-yellow stage, and later turn a fluffy white when\nthey are ready to release their seeds. The seeds are carried by the wind, and can sometimes\ntravel great distances before landing and growing into new plants. The stems of dandelions\nare usually very long, typically about 20\u201330 centimeters (cm), and stand high above the \nsurrounding grass.\nA science teacher in Niagara County discovered an area in her lawn where nearly every\ndandelion had a stem less than 1 cm long.  These short dandelions were replacing large\namounts of grass in the lawn surrounding her house. They were growing much more \nthickly than the taller dandelions in other nearby areas. The short dandelions appeared to\nbe growing very successfully in one area of her lawn, but did not appear to have spread to\nother areas of her lawn. The science teacher noticed that every time she mowed her lawn,\nthe short dandelions were left untouched by the mower blades, and that their numbers\nwere steadily increasing.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "State one possible advantage the short dandelions may have over the tall dandelions in this yard. _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 64 on the passage below and on your knowledge of biology.\nDandelions are weeds that are very common in many grassy areas of New York State.\nDandelion flowers first open up in a bright-yellow stage, and later turn a fluffy white when\nthey are ready to release their seeds. The seeds are carried by the wind, and can sometimes\ntravel great distances before landing and growing into new plants. The stems of dandelions\nare usually very long, typically about 20\u201330 centimeters (cm), and stand high above the \nsurrounding grass.\nA science teacher in Niagara County discovered an area in her lawn where nearly every\ndandelion had a stem less than 1 cm long.  These short dandelions were replacing large\namounts of grass in the lawn surrounding her house. They were growing much more \nthickly than the taller dandelions in other nearby areas. The short dandelions appeared to\nbe growing very successfully in one area of her lawn, but did not appear to have spread to\nother areas of her lawn. The science teacher noticed that every time she mowed her lawn,\nthe short dandelions were left untouched by the mower blades, and that their numbers\nwere steadily increasing.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Different species of fish are found in different positions in a food chain, depending on what they eat. Explain how the position of a fish in a food chain would affect the amount of toxins present in the tissues of the fish. _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 65 and 66 on the information below and on your knowledge of biology.\nThe New York State Department of Health issues health advisories on eating specific\nfish. Some of these fish contain toxic chemicals that were passed through the food chain and\naccumulate in the tissues of these fish. The advisories include general advice on fish caught\nin specific bodies of water. The advisory tells people how to minimize their exposure to \ntoxins in these fish in order to reduce health risks associated with them.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "State one action that could be taken to reduce the amount of toxins present in the environment inhabited by these fish. _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/q66.png",
+      "context": "Base your answers to questions 65 and 66 on the information below and on your knowledge of biology.\nThe New York State Department of Health issues health advisories on eating specific\nfish. Some of these fish contain toxic chemicals that were passed through the food chain and\naccumulate in the tissues of these fish. The advisories include general advice on fish caught\nin specific bodies of water. The advisory tells people how to minimize their exposure to \ntoxins in these fish in order to reduce health risks associated with them.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "State how processes 1 and 2 affect the amount of genetic information provided by a parent to its offspring. _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/context_67_68.png",
+      "context": "Base your answers to questions 67 and 68 on the information below and on your knowledge of biology.\nThe diagram below represents some stages in the life cycle of humans. The numbers in\nthe diagram represent various processes in the cycle.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "State how process 3 affects the amount of genetic information an offspring receives. _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/context_67_68.png",
+      "context": "Base your answers to questions 67 and 68 on the information below and on your knowledge of biology.\nThe diagram below represents some stages in the life cycle of humans. The numbers in\nthe diagram represent various processes in the cycle.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Suggest one way that doctors or patients can help to reduce the chances of bacteria becoming resistant to an antibiotic. _______________________________________________________________________________________ _______________________________________________________________________________________ Adult Zygote Sperm Fetus 2 1 3",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State one short-term economic benefit of deforestation. _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of biology.\nIn the 1980s, global deforestation was estimated at 17 to 20 million hectares per year, an\narea the size of Great Britain. Today, the area affected by deforestation has decreased \nsignificantly in some regions of the world through the use of sustainable forest \nmanagement. However, there are still regions of the world affected by wide-scale \ndeforestation, because of the short-term economic benefits. The harmful effects of \ndeforestation on regional and worldwide climate and ecology continue as forest areas are\ndestroyed.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Explain how deforestation decreases biodiversity. _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of biology.\nIn the 1980s, global deforestation was estimated at 17 to 20 million hectares per year, an\narea the size of Great Britain. Today, the area affected by deforestation has decreased \nsignificantly in some regions of the world through the use of sustainable forest \nmanagement. However, there are still regions of the world affected by wide-scale \ndeforestation, because of the short-term economic benefits. The harmful effects of \ndeforestation on regional and worldwide climate and ecology continue as forest areas are\ndestroyed.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Explain how wide-scale deforestation may contribute to global warming. _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of biology.\nIn the 1980s, global deforestation was estimated at 17 to 20 million hectares per year, an\narea the size of Great Britain. Today, the area affected by deforestation has decreased \nsignificantly in some regions of the world through the use of sustainable forest \nmanagement. However, there are still regions of the world affected by wide-scale \ndeforestation, because of the short-term economic benefits. The harmful effects of \ndeforestation on regional and worldwide climate and ecology continue as forest areas are\ndestroyed.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "A model cell setup is represented in the \u201cInitial State\u201d diagram below. Which diagram indicates the areas where each of these substances would be located after 20 minutes?",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/q73.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "Which factor most likely contributed to the evolution of Galapagos Islands finches with different beak shapes?",
+      "choices": [
+        "similar climates on the different islands",
+        "competition between the finches for food",
+        "cloning experiments carried out by native people on the islands",
+        "increased rate of asexual reproduction G G I I G G S S ( 1 ) I ( 2 ) I I G G S S ( 3 ) G G S S ( 4 ) S S I I I Initial state I I G G S S S = starch G = glucose I ="
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "Warbler finches are classified as",
+      "choices": [
+        "producers",
+        "herbivores",
+        "carnivores",
+        "decomposers Large ground finch Vegetarian finch Large tree finch Small tree finch Woodpecker finch Warbler finch Cactus finch Sharp-billed ground finch Small ground finch Medium ground finch E d g e c r u s h i n g B i t i n g t i p s C r u s h i n g b i l l s Mainly plant food Mainly animal food G r a s p i n g b i l l s All animal food P r o b i n g P r o b i n g b i l l s From: Galapagos: A Natural History Guide Variations in Beaks of Galapagos Islands Finches"
+      ],
+      "image": "/images/exams/living-environment/june-2011/context_75_75.png",
+      "context": "Base your answer to question 75 on the finch diversity diagram below and on your knowledge of biology.\nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "Which species would most likely show the greatest similarities in their amino acid sequences?",
+      "choices": [
+        "A and E",
+        "A and B",
+        "B and D",
+        "C and E"
+      ],
+      "image": "/images/exams/living-environment/june-2011/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the diagram below and on your knowledge of biology.\nLetters A through E represent different species of organisms. The arrows represent long periods of geologic\ntime.\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Which species is the common ancestor to all of the other species? ____________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the diagram below and on your knowledge of biology.\nLetters A through E represent different species of organisms. The arrows represent long periods of geologic\ntime.\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Identify one species that was not able to adapt to its environment. Support your answer. _______________________________________________________________________________________ _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the diagram below and on your knowledge of biology.\nLetters A through E represent different species of organisms. The arrows represent long periods of geologic\ntime.\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify the specific type of chemical used to cut the DNA in this procedure. ___________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the information and diagram below and on your \nknowledge of biology. The diagram represents some of the steps in a procedure used in a specific laboratory\nactivity.\nSamples of DNA from an eye-color gene of four individuals, W, X, Y, and Z, were cut\ninto pieces using a type of chemical. The results of this procedure are shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Which two individuals have DNA base patterns for this gene that are the most similar? Support your answer. Individuals: ________________ and ________________ _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the information and diagram below and on your \nknowledge of biology. The diagram represents some of the steps in a procedure used in a specific laboratory\nactivity.\nSamples of DNA from an eye-color gene of four individuals, W, X, Y, and Z, were cut\ninto pieces using a type of chemical. The results of this procedure are shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "The diagram represents the results of the procedure known as",
+      "choices": [
+        "cloning",
+        "chromatography",
+        "gel electrophoresis",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2011/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the information and diagram below and on your \nknowledge of biology. The diagram represents some of the steps in a procedure used in a specific laboratory\nactivity.\nSamples of DNA from an eye-color gene of four individuals, W, X, Y, and Z, were cut\ninto pieces using a type of chemical. The results of this procedure are shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "Which phrase could be used to describe this technique?",
+      "choices": [
+        "the use of chromatography to separate molecules in a mixture",
+        "the use of cut leaves to observe certain colors",
+        "using indicators to determine pH",
+        "using dichotomous keys to identify plants"
+      ],
+      "image": "/images/exams/living-environment/june-2011/context_82_82.png",
+      "context": "Base your answer to question 82 on the results of an experiment using plant pigments represented below\nand on your knowledge of biology.\nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "State one reason for the change in her pulse rate throughout the day. _______________________________________________________________________________________ _______________________________________________________________________________________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 and 84 on the information below and on your knowledge of biology.\nA student checked her pulse rate three times during one day. When she first woke up,\nher pulse rate was 54 beats per minute (bpm). As she walked to her first-period class, it was\n71 bpm. Later, she recorded 98 bpm after playing in a basketball game.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "State one way a change in pulse rate helps to meet the needs of the body. _______________________________________________________________________________________ _______________________________________________________________________________________ Plant extract Solvent Yellow Green Brown Plant species 1 Yellow Green Plant species 2 Plant species 3 Green Brown Plant species 4",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 and 84 on the information below and on your knowledge of biology.\nA student checked her pulse rate three times during one day. When she first woke up,\nher pulse rate was 54 beats per minute (bpm). As she walked to her first-period class, it was\n71 bpm. Later, she recorded 98 bpm after playing in a basketball game.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "The diagram below shows a student heating some test tubes with chemicals in them during a laboratory activity. Explain why putting stoppers in the test tubes could be dangerous. _______________________________________________________________________________________ _______________________________________________________________________________________ LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2011/q85.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-1",
+  "session": "january-2023",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "When the expression 2x(x \u0002 4) \u0002 3(x \u0003 5) is written in simplest form, the result is",
+      "choices": [
+        "2x2 \u0002 11x \u0002 15",
+        "2x2 \u0002 11x \u0003 5",
+        "2x2 \u0002 3x \u0002 19",
+        "2x2 \u0002 3x \u0003 1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The point (3,w) is on the graph of y \u0004 2x \u0003 7. What is the value of w?",
+      "choices": [
+        "\u00022",
+        "\u00024",
+        "10",
+        "13"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Students were asked to write 2x3 \u0003 3x \u0003 4x2 \u0003 1 in standard form. Four student responses are shown below. Alexa: 4x2 \u0003 3x \u0003 2x3 \u0003 1 Carol: 2x3 \u0003 3x \u0003 4x2 \u0003 1 Ryan: 2x3 \u0003 4x2 \u0003 3x \u0003 1 Eric: 1 \u0003 2x3 \u0003 3x \u0003 4x2 Which student\u2019s response is correct?",
+      "choices": [
+        "Alexa",
+        "Carol",
+        "Ryan",
+        "Eric"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Given f(x) \u0004 \u00023x2 \u0003 10, what is the value of f(\u00022)?",
+      "choices": [
+        "\u000226",
+        "\u00022",
+        "22",
+        "46"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which relation is a function?",
+      "choices": [
+        "",
+        "\u00026 \u00024 7 7 \u00022 2 3 5 Output Input",
+        "{(1,3), (2,1), (3,1), (4,7)}",
+        "4 5 7 3 6 8 11 Domain Range y x"
+      ],
+      "image": "/images/exams/algebra-1/january-2023/q5.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "What is the value of the third quartile in the box plot shown below? 14 20 26 32 38 44 50",
+      "choices": [
+        "18",
+        "22",
+        "36",
+        "46"
+      ],
+      "image": "/images/exams/algebra-1/january-2023/q6.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "What is the solution to 2 \u0003 3(2a \u0003 1) \u0004 3(a \u0003 2)?",
+      "choices": [
+        "1 7",
+        "1 3",
+        "3 7 \u0002",
+        "1 3 \u0002"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "One Saturday afternoon, three friends decided to keep track of the number of text messages they received each hour from 8 a.m. to noon. The results are shown below. Emily said that the number of messages she received increased by 8 each hour. Jessica said that the number of messages she received doubled every hour. Chris said that he received 3 messages the first hour, 10 the second hour, none the third hour, and 15 the last hour. Which of the friends\u2019 responses best classifies the number of messages they received each hour as a linear function?",
+      "choices": [
+        "Emily, only",
+        "Jessica, only",
+        "Emily and Chris",
+        "Jessica and Chris"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to (x \u0003 4)2(x \u0003 4)3?",
+      "choices": [
+        "(x \u0003 4)6",
+        "(x \u0003 4)5",
+        "(x2 \u0003 16)6",
+        "(x2 \u0003 16)5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Caitlin graphs the function f(x) \u0004 ax2, where a is a positive integer. If Caitlin multiplies a by \u00022, when compared to f(x), the new graph will become",
+      "choices": [
+        "narrower and open downward",
+        "narrower and open upward",
+        "wider and open downward",
+        "wider and open upward"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Sunny purchases a new car for $29,873. The car depreciates 20% annually. Which expression can be used to determine the value of the car after t years?",
+      "choices": [
+        "29,873(.20)t",
+        "29,873(20)t",
+        "29,873(1 \u0002 .20)t",
+        "29,873(1 \u0003 .20)t"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "If f(x) \u0004 x2 \u0003 2x \u0003 1 and g(x) \u0004 7x \u0002 5, for which values of x is f(x) \u0004 g(x)?",
+      "choices": [
+        "\u00021 and 6",
+        "\u00026 and \u00021",
+        "\u00023 and \u00022",
+        "2 and 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Skyler mows lawns in the summer. The function f(x) is used to model the amount of money earned, where x is the number of lawns completely mowed. A reasonable domain for this function would be",
+      "choices": [
+        "real numbers",
+        "rational numbers",
+        "irrational numbers",
+        "natural numbers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to 2x2 \u0002 8x \u0003 10?",
+      "choices": [
+        "2(x \u0003 1)(x \u0002 5)",
+        "2(x \u0002 1)(x \u0003 5)",
+        "2(x \u0003 1)(x \u0003 5)",
+        "2(x \u0002 1)(x \u0002 5)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Ian throws a ball up in the air and lets it fall to the ground. The height of the ball, h(t), is modeled by the equation h(t) \u0004 \u000316t2 \u0002 6t \u0002 3, with h(t) measured in feet, and time, t, measured in seconds. The number 3 in h(t) represents",
+      "choices": [
+        "the maximum height of the ball",
+        "the height from which the ball is thrown",
+        "the number of seconds it takes for the ball to reach the ground",
+        "the number of seconds it takes for the ball to reach its maximum height"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Thirty-two teams are participating in a basketball tournament. Only the winning teams in each round advance to the next round, as shown in the table below. Number of Rounds Completed, x 0 1 2 3 4 5 Number of Teams Remaining, f(x) 32 16 8 4 2 1 Which function type best models the relationship between the number of rounds completed and the number of teams remaining?",
+      "choices": [
+        "absolute value",
+        "exponential",
+        "linear",
+        "quadratic"
+      ],
+      "image": "/images/exams/algebra-1/january-2023/q16.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "In a geometric sequence, the first term is 4 and the common ratio is \u00033. The fifth term of this sequence is",
+      "choices": [
+        "324",
+        "108",
+        "\u0003108",
+        "\u0003324"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The amount of energy, Q, in joules, needed to raise the temperature of m grams of a substance is given by the formula Q \u0002 mC(Tf \u0003 Ti), where C is the specific heat capacity of the substance. If its initial temperature is Ti, an equation to find its final temperature, Tf, is",
+      "choices": [
+        "T \u0002 \u0003 f Q mC Ti",
+        "T \u0002 \u0004 f Q mC Ti",
+        "T mC f \u0004 \u0002 Q Ti",
+        "mC Tf \u0003 \u0002 Q Ti"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "When using the method of completing the square, which equation is equivalent to x2 \u0003 12x \u0003 10 \u0002 0?",
+      "choices": [
+        "(x \u0004 6)2 \u0002 \u000326",
+        "(x \u0004 6)2 \u0002 46",
+        "(x \u0003 6)2 \u0002 \u000326",
+        "(x \u0003 6)2 \u0002 46"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which quadratic function has the smallest minimum value? x h(x) 0 6 1 2 2 0 3 0 4 2 5 6 j(x) x",
+      "choices": [
+        "g(x) \u0002 6(x \u0003 2)2 \u0003 2",
+        "",
+        "",
+        "f(x) \u0002 6x2 \u0004 5x \u0003 2"
+      ],
+      "image": "/images/exams/algebra-1/january-2023/q20.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which representation yields the same outcome as the sequence defined recursively below? a1 \u0004 3 an \u0004 \u00024 \u0003 an \u0002 1",
+      "choices": [
+        "3, 7, 11, 15, 19,\u2026",
+        "3, \u00021, \u00025, \u00029, \u000213,\u2026",
+        "an \u0004 4n \u0002 1",
+        "an \u0004 4 \u0002 n"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "If the zeros of the function g(x) are {\u00023,0,4}, which function could represent g(x)?",
+      "choices": [
+        "g(x) \u0004 (x \u0003 3)(x \u0002 4)",
+        "g(x) \u0004 (x \u0002 3)(x \u0003 4)",
+        "g(x) \u0004 x(x \u0003 3)(x \u0002 4)",
+        "g(x) \u0004 x(x \u0002 3)(x \u0003 4)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Morgan read that a snail moves about 72 feet per day. He performs the calculation \u2022 \u2022 \u2022 1 day 1 day 12 inches 1 hour 24 hours 60 minutes 1 foot 72 feet to convert this rate to different units. What are the units for the converted rate?",
+      "choices": [
+        "hours/inch",
+        "minutes/inch",
+        "inches/hour",
+        "inches/minute"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "During summer vacation, Ben decides to sell hot dogs and pretzels on a food cart in Manhattan. It costs Ben $0.50 for each hot dog and $0.40 for each pretzel. He has only $100 to spend each day on hot dogs and pretzels. He wants to sell at least 200 items each day. If h is the number of hot dogs and p is the number of pretzels, which inequality would be part of a system of inequalities used to determine the total number of hot dogs and pretzels Ben can sell?",
+      "choices": [
+        "h \u0003 p \u0005 200",
+        "h \u0003 p \u0006 200",
+        "0.50h \u0003 0.40p \u0006 200",
+        "0.50h \u0003 0.40p \u0005 200 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Graph the function g(x) \u0004 x 3 \u0003 on the set of axes below. g(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2023/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "The sixth-grade classes at West Road Elementary School were asked to vote on the location of their class trip. The results are shown in the table below. Playland Splashdown Fun Central Boys 38 53 25 Girls 39 46 37 Determine, to the nearest percent,",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2023/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Solve the inequality \u0002 2 3x \u0003 6 \u0007 \u000212",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Determine the common difference of the arithmetic sequence in which a1 \u0004 3 and a4 \u0004 15",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Given: A \u0004 363 and B \u0004 27 Explain why A \u0003 B is irrational. Explain why A \u2022",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2023/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Use the quadratic formula to solve x2 \u0002 4x \u0003 1 \u0004 0",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Factor completely: 4x3 \u0002 49",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "The function g is defined as x \b \u00022 \u00022 \u0005 x \u0005 2 |x \u0003 3|, g(x) \u0004 { x2 \u0003 1, On the set of axes below, graph g(x). g(x) Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2023/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Anessa is studying the changes in population in a town. The graph below shows the population over 50 years. 10 20 30 2 4 6 8 10 Years Population (in thousands) 0 40 50 State the entire interval during which the population remained constant. State the maximum population of the town over the 50-year period. Determine the average rate of change from year 30 to year 40. Explain what your average rate of change means from year 30 to year 40",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2023/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The table below shows the number of math classes missed during a school year for nine students, and their final exam scores. Number of Classes Missed (x) 2 10 3 22 15 2 20 18 9 Final Exam Score (y) 99 72 90 35 60 80 40 43 75",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2023/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "A fence was installed around the edge of a rectangular garden. The length, l, of the fence was 5 feet less than 3 times its width, w. The amount of fencing used was 90 feet. Write a system of equations or write an equation using one variable that models this situation. Determine algebraically the dimensions, in feet,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Given: 3y \u0002 9 \u0005 12 y \b \u00022x \u0002 4 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2023/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Aidan and his sister Ella are having a race. Aidan runs at a rate of 10 feet per second. Ella runs at a rate of 6 feet per second. Since Ella is younger, Aidan is letting her begin 30 feet ahead of the starting line. Let y represent the distance from the starting line and x represent the time elapsed, in seconds. Write an equation to model the distance Aidan traveled. Write an equation to model the distance Ella traveled. Question 37 On the set of axes below, graph your equations. y x 0 50 100 Feet 150 5 10 Seconds 15 Exactly how many seconds does it take Aidan to catch up to Ella? Justify your answer. Question 37 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0004 2.54 centimeters 1 kilometer \u0004 0.62 mile 1 cup \u0004 8 fluid ounces 1 meter \u0004 39.37 inches 1 pound \u0004 16 ounces 1 pint \u0004 2 cups 1 mile \u0004 5280 feet 1 pound \u0004 0.454 kilogram 1 quart \u0004 2 pints 1 mile \u0004 1760 yards 1 kilogram \u0004 2.2 pounds 1 gallon \u0004 4 quarts 1 mile \u0004 1.609 kilometers 1 ton \u0004 2000 pounds 1 gallon \u0004 3.785 liters 1 liter \u0004 0.264 gallon 1 liter \u0004 1000 cubic centimeters Triangle A \u0004 bh 1 2 Parallelogram A \u0004 bh Circle A \u0004 \u03c0r2 Circle C \u0004 \u03c0d or C \u0004 2\u03c0r General Prisms V \u0004 Bh Cylinder V \u0004 \u03c0r2h Sphere V \u0004 \u03c0r3 4 3 Cone V \u0004 \u03c0r2h 1 3 Pyramid V \u0004 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0004 c2 Quadratic Formula x \u0004 \u0002 \u0002 b a b2 2 4ac Arithmetic Sequence an \u0004 a1 \u0003 (n \u0002 1)d Geometric Sequence an \u0004 a1r n \u0002 1 Geometric Series Sn \u0004 where r 1 a a r r n 1 1 1 \u0002 \u0002 Radians 1 radian \u0004 degrees 180 \u03c0 Degrees 1 degree \u0004 radians \u03c0 180 Exponential Growth/Decay A \u0004 A0ek(t \u0002 t0) \u0003 B0 Tear Here Tear Here ALGEBRA I ALGEBRA I Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

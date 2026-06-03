@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regents Exam Questions & Diagrams Inspector</title>
+  
+  <!-- Premium Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- KaTeX for math formulas -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+
+  <style>
+    :root {
+      --bg-color: #0b0f19;
+      --panel-bg: rgba(17, 24, 39, 0.7);
+      --panel-border: rgba(255, 255, 255, 0.08);
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --primary: #3b82f6;
+      --primary-hover: #60a5fa;
+      --success: #10b981;
+      --success-bg: rgba(16, 185, 129, 0.15);
+      --warning: #f59e0b;
+      --warning-bg: rgba(245, 158, 11, 0.15);
+      --card-bg: #151c2c;
+      --card-hover-border: rgba(59, 130, 246, 0.4);
+      --font-outfit: 'Outfit', sans-serif;
+      --font-jakarta: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: var(--font-jakarta);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, rgba(16, 185, 129, 0.1) 0px, transparent 50%);
+    }
+
+    /* Scrollbar Styling */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: var(--bg-color);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1f2937;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #374151;
+    }
+
+    header {
+      padding: 24px 40px;
+      border-bottom: 1px solid var(--panel-border);
+      background-color: var(--panel-bg);
+      backdrop-filter: blur(12px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo-title {
+      font-family: var(--font-outfit);
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      background: linear-gradient(to right, #60a5fa, #34d399);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .logo-subtitle {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .server-notice {
+      background: rgba(59, 130, 246, 0.1);
+      border: 1px solid rgba(59, 130, 246, 0.2);
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 12px;
+      color: #93c5fd;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .server-notice-dot {
+      width: 8px;
+      height: 8px;
+      background-color: #3b82f6;
+      border-radius: 50%;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(0.9); opacity: 0.5; }
+      50% { transform: scale(1.1); opacity: 1; }
+      100% { transform: scale(0.9); opacity: 0.5; }
+    }
+
+    .main-container {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      min-height: 0;
+    }
+
+    /* Controls Panel */
+    .controls-panel {
+      padding: 30px;
+      border-right: 1px solid var(--panel-border);
+      background-color: rgba(17, 24, 39, 0.4);
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      overflow-y: auto;
+    }
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    label {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+    }
+
+    select, input[type="text"] {
+      width: 100%;
+      background-color: #1f2937;
+      border: 1px solid var(--panel-border);
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-family: inherit;
+      font-size: 14px;
+      color: var(--text-main);
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    select:focus, input[type="text"]:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+    }
+
+    .stats-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--panel-border);
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .stats-header {
+      font-size: 14px;
+      font-weight: 700;
+      font-family: var(--font-outfit);
+      color: var(--text-main);
+    }
+
+    .stat-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+    }
+
+    .stat-label {
+      color: var(--text-muted);
+    }
+
+    .stat-val {
+      font-weight: 600;
+    }
+
+    .filter-btn-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .filter-btn {
+      background: none;
+      border: 1px solid var(--panel-border);
+      border-radius: 8px;
+      padding: 10px 16px;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-align: left;
+      cursor: pointer;
+      transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+    }
+
+    .filter-btn:hover {
+      background-color: rgba(255, 255, 255, 0.03);
+      color: var(--text-main);
+    }
+
+    .filter-btn.active {
+      background-color: rgba(59, 130, 246, 0.1);
+      border-color: var(--primary);
+      color: #60a5fa;
+    }
+
+    /* Content Area */
+    .content-area {
+      padding: 40px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .exam-header-card {
+      background: linear-gradient(135deg, rgba(31, 41, 55, 0.6) 0%, rgba(17, 24, 39, 0.8) 100%);
+      border: 1px solid var(--panel-border);
+      border-radius: 16px;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .exam-subject-badge {
+      align-self: flex-start;
+      background-color: rgba(59, 130, 246, 0.15);
+      border: 1px solid rgba(59, 130, 246, 0.3);
+      color: #93c5fd;
+      border-radius: 6px;
+      padding: 4px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .exam-title-text {
+      font-family: var(--font-outfit);
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+
+    .questions-container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    /* Question Card Layout */
+    .q-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--panel-border);
+      border-radius: 16px;
+      padding: 30px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    @media (min-width: 1024px) {
+      .q-card {
+        grid-template-columns: 1.2fr 1fr;
+      }
+      .q-card.no-image {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .q-card:hover {
+      border-color: var(--card-hover-border);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+    }
+
+    .q-left {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .q-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      padding-bottom: 12px;
+    }
+
+    .q-badge {
+      font-family: var(--font-outfit);
+      font-size: 18px;
+      font-weight: 800;
+      color: #60a5fa;
+    }
+
+    .q-type-badge {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+
+    .q-type-badge.mc {
+      background-color: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.2);
+      color: #34d399;
+    }
+
+    .q-type-badge.written {
+      background-color: rgba(245, 158, 11, 0.1);
+      border: 1px solid rgba(245, 158, 11, 0.2);
+      color: #fbbf24;
+    }
+
+    .q-context-block {
+      background-color: rgba(255, 255, 255, 0.02);
+      border-left: 3px solid #6b7280;
+      padding: 12px 16px;
+      border-radius: 0 8px 8px 0;
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .q-text {
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--text-main);
+    }
+
+    .choices-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .choice-item {
+      background-color: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--panel-border);
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-size: 14px;
+      line-height: 1.5;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      transition: background-color 0.2s, border-color 0.2s;
+    }
+
+    .choice-num {
+      font-weight: 700;
+      color: var(--text-muted);
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 50%;
+      width: 22px;
+      height: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 12px;
+    }
+
+    .choice-item.correct {
+      background-color: var(--success-bg);
+      border-color: rgba(16, 185, 129, 0.4);
+    }
+
+    .choice-item.correct .choice-num {
+      background-color: var(--success);
+      color: #ffffff;
+    }
+
+    .written-answer {
+      background-color: var(--warning-bg);
+      border: 1px dashed rgba(245, 158, 11, 0.4);
+      border-radius: 8px;
+      padding: 16px;
+      font-size: 14px;
+      line-height: 1.5;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .written-answer-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #fbbf24;
+      letter-spacing: 0.5px;
+    }
+
+    /* Image side */
+    .q-right {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+      justify-content: center;
+      background-color: #0d121f;
+      border: 1px solid var(--panel-border);
+      border-radius: 12px;
+      padding: 20px;
+      min-height: 250px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .diagram-img {
+      max-width: 100%;
+      max-height: 400px;
+      object-fit: contain;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    }
+
+    .diagram-label {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      word-break: break-all;
+      text-align: center;
+    }
+
+    .no-diagram-placeholder {
+      color: rgba(255, 255, 255, 0.15);
+      font-size: 13px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .no-diagram-placeholder svg {
+      width: 48px;
+      height: 48px;
+      opacity: 0.2;
+    }
+
+    .loading-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      padding: 80px 0;
+      color: var(--text-muted);
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid rgba(59, 130, 246, 0.1);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .error-msg {
+      background-color: rgba(239, 68, 68, 0.15);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      color: #fca5a5;
+      padding: 20px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .error-title {
+      font-weight: 700;
+      font-family: var(--font-outfit);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <span class="logo-title">Regents Parser Inspector</span>
+      <span class="logo-subtitle">NYS Regents Exam Question & Diagram Layout Checker</span>
+    </div>
+    
+    <div class="server-notice">
+      <span class="server-notice-dot"></span>
+      <span>Served locally. Image fallback mapping enabled.</span>
+    </div>
+  </header>
+
+  <div class="main-container">
+    
+    <!-- Controls Panel -->
+    <div class="controls-panel">
+      
+      <div class="control-group">
+        <label for="subject-select">Select Subject</label>
+        <select id="subject-select" disabled>
+          <option value="">Loading subjects...</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label for="session-select">Select Session</label>
+        <select id="session-select" disabled>
+          <option value="">Choose a subject first</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label>Filter Questions</label>
+        <div class="filter-btn-group">
+          <button class="filter-btn active" id="filter-all">All Questions</button>
+          <button class="filter-btn" id="filter-mc">Multiple-Choice Only</button>
+          <button class="filter-btn" id="filter-written">Written Answers Only</button>
+          <button class="filter-btn" id="filter-images">With Diagrams/Images</button>
+        </div>
+      </div>
+
+      <div class="stats-card">
+        <span class="stats-header">Exam Statistics</span>
+        
+        <div class="stat-row">
+          <span class="stat-label">Total Questions</span>
+          <span class="stat-val" id="stat-total">-</span>
+        </div>
+        
+        <div class="stat-row">
+          <span class="stat-label">Multiple-Choice</span>
+          <span class="stat-val" id="stat-mc">-</span>
+        </div>
+        
+        <div class="stat-row">
+          <span class="stat-label">Written</span>
+          <span class="stat-val" id="stat-written">-</span>
+        </div>
+        
+        <div class="stat-row">
+          <span class="stat-label">Diagrams/Images</span>
+          <span class="stat-val" id="stat-images">-</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Content Area -->
+    <div class="content-area">
+      <div id="exam-display">
+        <div class="loading-container">
+          <div class="spinner"></div>
+          <p>Loading index data, please ensure checker is running through a local web server...</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    // State
+    let indexData = null;
+    let selectedSubject = "";
+    let selectedSession = "";
+    let currentQuestions = [];
+    let activeFilter = "all";
+
+    // DOM Elements
+    const subjectSelect = document.getElementById("subject-select");
+    const sessionSelect = document.getElementById("session-select");
+    const examDisplay = document.getElementById("exam-display");
+    
+    // Stats elements
+    const statTotal = document.getElementById("stat-total");
+    const statMc = document.getElementById("stat-mc");
+    const statWritten = document.getElementById("stat-written");
+    const statImages = document.getElementById("stat-images");
+
+    // Filter Buttons
+    const filterAll = document.getElementById("filter-all");
+    const filterMc = document.getElementById("filter-mc");
+    const filterWritten = document.getElementById("filter-written");
+    const filterImages = document.getElementById("filter-images");
+
+    // Friendly subject names
+    const SUBJECT_NAMES = {
+      "algebra-1": "Algebra I",
+      "algebra-2": "Algebra II",
+      "geometry": "Geometry",
+      "chemistry": "Chemistry",
+      "earth-science": "Earth Science",
+      "living-environment": "Living Environment",
+      "life-science": "Life Science: Biology",
+      "physics": "Physics",
+      "english": "English Language Arts",
+      "us-history": "US History & Government",
+      "global-history": "Global History II"
+    };
+
+    // Subject Prefix mapping for images path fallback matching
+    const PREFIX_MAP = {
+      "algebra-1": "alg1",
+      "algebra-2": "alg2",
+      "chemistry": "chem",
+      "earth-science": "es",
+      "geometry": "geo",
+      "living-environment": "le",
+      "physics": "phys",
+      "life-science": "ls",
+      "english": "ela",
+      "us-history": "ush",
+      "global-history": "gh"
+    };
+
+    const MONTH_MAP = {
+      "june": "jun",
+      "august": "aug",
+      "january": "jan"
+    };
+
+    // Load Index on init
+    async function loadIndex() {
+      try {
+        const response = await fetch("output/data/index.json");
+        if (!response.ok) {
+          throw new Error("Could not fetch output/data/index.json. Ensure the dashboard is served locally.");
+        }
+        indexData = await response.json();
+        populateSubjects();
+      } catch (err) {
+        showError(err.message);
+      }
+    }
+
+    function showError(msg) {
+      examDisplay.innerHTML = `
+        <div class="error-msg">
+          <span class="error-title">Error Loading Data</span>
+          <p>${msg}</p>
+          <p style="margin-top: 10px; font-size: 13px; opacity: 0.8;">
+            Please serve the project root folder via a local server and try opening this checker page. For example, run:
+            <br><code style="background: rgba(0,0,0,0.3); padding: 4px 8px; border-radius: 4px; display: inline-block; margin-top: 5px;">python3 -m http.server 8000</code>
+            <br>Then open <a href="http://localhost:8000/checker.html" style="color: #60a5fa;">http://localhost:8000/checker.html</a> in your browser.
+          </p>
+        </div>
+      `;
+    }
+
+    function populateSubjects() {
+      subjectSelect.innerHTML = '<option value="">-- Choose Subject --</option>';
+      for (const subject of Object.keys(indexData)) {
+        const name = SUBJECT_NAMES[subject] || subject;
+        subjectSelect.innerHTML += `<option value="${subject}">${name}</option>`;
+      }
+      subjectSelect.removeAttribute("disabled");
+      
+      // Select first subject by default if available
+      if (Object.keys(indexData).length > 0) {
+        const firstSubj = Object.keys(indexData).includes("life-science") ? "life-science" : Object.keys(indexData)[0];
+        subjectSelect.value = firstSubj;
+        onSubjectChange(firstSubj);
+      } else {
+        examDisplay.innerHTML = `
+          <div style="text-align: center; color: var(--text-muted); padding: 40px;">
+            <p>No parsed exams found in output/data/.</p>
+          </div>
+        `;
+      }
+    }
+
+    function onSubjectChange(subject) {
+      selectedSubject = subject;
+      sessionSelect.innerHTML = '<option value="">-- Choose Session --</option>';
+      
+      if (subject && indexData[subject]) {
+        const sessions = indexData[subject];
+        for (const session of sessions) {
+          sessionSelect.innerHTML += `<option value="${session}">${session}</option>`;
+        }
+        sessionSelect.removeAttribute("disabled");
+        
+        // Select newest or specific session by default
+        if (sessions.length > 0) {
+          const defaultSess = sessions.includes("january-2026") ? "january-2026" : (sessions.includes("june-2025") ? "june-2025" : sessions[sessions.length - 1]);
+          sessionSelect.value = defaultSess;
+          onSessionChange(defaultSess);
+        }
+      } else {
+        sessionSelect.innerHTML = '<option value="">Choose a subject first</option>';
+        sessionSelect.setAttribute("disabled", "true");
+        statTotal.innerText = "-";
+        statMc.innerText = "-";
+        statWritten.innerText = "-";
+        statImages.innerText = "-";
+      }
+    }
+
+    function onSessionChange(session) {
+      selectedSession = session;
+      if (selectedSubject && session) {
+        loadExamData(selectedSubject, session);
+      }
+    }
+
+    async function loadExamData(subject, session) {
+      examDisplay.innerHTML = `
+        <div class="loading-container">
+          <div class="spinner"></div>
+          <p>Loading exam data for ${SUBJECT_NAMES[subject] || subject} (${session})...</p>
+        </div>
+      `;
+
+      try {
+        const response = await fetch(`output/data/${subject}/${session}.json`);
+        if (!response.ok) throw new Error("Could not retrieve exam JSON file.");
+        const examJson = await response.json();
+        
+        currentQuestions = examJson.questions || [];
+        calculateStats();
+        renderQuestions();
+      } catch (err) {
+        examDisplay.innerHTML = `
+          <div class="error-msg">
+            <span class="error-title">Failed to Load Exam</span>
+            <p>Error: ${err.message}</p>
+          </div>
+        `;
+      }
+    }
+
+    function calculateStats() {
+      const total = currentQuestions.length;
+      const mc = currentQuestions.filter(q => q.type === "multiple-choice").length;
+      const written = currentQuestions.filter(q => q.type === "written").length;
+      const images = currentQuestions.filter(q => q.image).length;
+
+      statTotal.innerText = total;
+      statMc.innerText = mc;
+      statWritten.innerText = written;
+      statImages.innerText = images;
+    }
+
+    // Resolves image paths by mapping the JSON-defined path to local server folders with double fallbacks
+    function resolveImagePath(originalPath, subject, session) {
+      if (!originalPath) return "";
+      
+      // Original path is like: "/images/exams/life-science/january-2026/context_1_5.png"
+      // Fallback 1: Raw output images "output/images/life-science/january-2026/context_1_5.png"
+      const rawPath = originalPath.replace(/^\/?images\/exams\//, "output/images/");
+      
+      // Fallback 2: Synced public images "public/images/exams/ls-jan-2026/context_1_5.png"
+      // Determine mapped prefix (e.g. "life-science" -> "ls")
+      const prefix = PREFIX_MAP[subject] || subject;
+      
+      // Parse session components (e.g. "january-2026" -> month="january", year="2026")
+      const match = session.match(/^([a-z]+)-(\d{4})$/i);
+      let sessionFolder = session;
+      if (match) {
+        const [_, month, year] = match;
+        const monthMapped = MONTH_MAP[month.toLowerCase()] || month.toLowerCase();
+        sessionFolder = `${monthMapped}-${year}`;
+      }
+      
+      const filename = originalPath.split("/").pop();
+      const syncedPath = `public/images/exams/${prefix}-${sessionFolder}/${filename}`;
+
+      return { rawPath, syncedPath };
+    }
+
+    function renderQuestions() {
+      const filtered = currentQuestions.filter(q => {
+        if (activeFilter === "all") return true;
+        if (activeFilter === "mc") return q.type === "multiple-choice";
+        if (activeFilter === "written") return q.type === "written";
+        if (activeFilter === "images") return !!q.image;
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        examDisplay.innerHTML = `
+          <div class="exam-header-card">
+            <span class="exam-subject-badge">${selectedSubject}</span>
+            <h1 class="exam-title-text">${selectedSession.replace("-", " ")}</h1>
+            <p style="color: var(--text-muted); margin-top: 10px;">No questions match the current filter.</p>
+          </div>
+        `;
+        return;
+      }
+
+      let html = `
+        <div class="exam-header-card">
+          <span class="exam-subject-badge">${SUBJECT_NAMES[selectedSubject] || selectedSubject}</span>
+          <h1 class="exam-title-text" style="text-transform: capitalize;">${selectedSession.replace("-", " ")}</h1>
+          <p style="color: var(--text-muted); margin-top: 8px;">
+            Showing ${filtered.length} of ${currentQuestions.length} questions
+          </p>
+        </div>
+        <div class="questions-container">
+      `;
+
+      for (const q of filtered) {
+        const typeLabel = q.type === "multiple-choice" ? "Multiple Choice" : "Written Answer";
+        const typeClass = q.type === "multiple-choice" ? "mc" : "written";
+        const cardClass = q.image ? "" : "no-image";
+
+        html += `
+          <div class="q-card ${cardClass}" id="q-card-${q.number}">
+            <div class="q-left">
+              <div class="q-header-row">
+                <span class="q-badge">Question ${q.number}</span>
+                <span class="q-type-badge ${typeClass}">${typeLabel}</span>
+              </div>
+              
+              ${q.context ? `<div class="q-context-block">${q.context.replace(/\n/g, '<br>')}</div>` : ""}
+              
+              <div class="q-text">${escapeAndFormatText(q.text)}</div>
+              
+              ${renderAnswerSection(q)}
+            </div>
+        `;
+
+        if (q.image) {
+          const paths = resolveImagePath(q.image, selectedSubject, selectedSession);
+          html += `
+            <div class="q-right">
+              <img class="diagram-img" 
+                   src="${paths.rawPath}" 
+                   alt="Diagram for Q${q.number}" 
+                   onerror="if(this.src.indexOf('public/images/exams/') === -1) { this.src='${paths.syncedPath}'; } else { this.style.display='none'; this.nextElementSibling.innerText='Failed to load from raw/synced paths'; }">
+              <span class="diagram-label">${q.image}</span>
+            </div>
+          `;
+        }
+
+        html += `</div>`;
+      }
+
+      html += `</div>`;
+      examDisplay.innerHTML = html;
+
+      // Render math formulas
+      try {
+        renderMathInElement(examDisplay, {
+          delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false},
+            {left: "\\(", right: "\\)", display: false},
+            {left: "\\[", right: "\\]", display: true}
+          ],
+          throwOnError : false
+        });
+      } catch (err) {
+        console.error("KaTeX formatting error:", err);
+      }
+    }
+
+    function renderAnswerSection(q) {
+      if (q.type === "multiple-choice") {
+        let html = '<div class="choices-list">';
+        q.choices.forEach((choice, idx) => {
+          const isCorrect = q.correct === idx;
+          const choiceClass = isCorrect ? "choice-item correct" : "choice-item";
+          html += `
+            <div class="${choiceClass}">
+              <span class="choice-num">${idx + 1}</span>
+              <span>${escapeAndFormatText(choice)}</span>
+            </div>
+          `;
+        });
+        html += '</div>';
+        return html;
+      } else {
+        return `
+          <div class="written-answer">
+            <span class="written-answer-title">Model Answer / Scoring Key Heuristics</span>
+            <div>${q.modelAnswer ? escapeAndFormatText(q.modelAnswer) : "<span style='opacity:0.5; font-style:italic;'>No model answer parsed (written question)</span>"}</div>
+          </div>
+        `;
+      }
+    }
+
+    function escapeAndFormatText(text) {
+      if (!text) return "";
+      // Escape HTML brackets safely to avoid rendering layout bugs, then format newlines
+      return text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/\n/g, "<br>");
+    }
+
+    // Filters Handling
+    function setFilter(filterType, element) {
+      activeFilter = filterType;
+      
+      // Update classes
+      [filterAll, filterMc, filterWritten, filterImages].forEach(btn => {
+        btn.classList.remove("active");
+      });
+      element.classList.add("active");
+      
+      renderQuestions();
+    }
+
+    // Event Listeners
+    subjectSelect.addEventListener("change", (e) => onSubjectChange(e.target.value));
+    sessionSelect.addEventListener("change", (e) => onSessionChange(e.target.value));
+    
+    filterAll.addEventListener("click", (e) => setFilter("all", e.target));
+    filterMc.addEventListener("click", (e) => setFilter("mc", e.target));
+    filterWritten.addEventListener("click", (e) => setFilter("written", e.target));
+    filterImages.addEventListener("click", (e) => setFilter("images", e.target));
+
+    // Load on start
+    window.addEventListener("DOMContentLoaded", loadIndex);
+  </script>
+</body>
+</html>
