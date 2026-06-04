@@ -300,9 +300,29 @@ export default function HomeScreen({ navigation }) {
   function handlePlacementComplete() {
     setShowPlacement(false)
     setPlacementDone(true)
+    reloadSkipUnlocks()          // re-read @skipUnlocks_${subject} so unlocked units render immediately
     const p = pendingLesson
     setPendingLesson(null)
     if (p) startLesson(p.unit, p.lessonIndex, true)  // bypassPlacement — resume the tapped lesson
+  }
+
+  // Android hardware back inside the placement modal → confirm, then skip
+  function handlePlacementBack() {
+    Alert.alert(
+      'Skip the placement test?',
+      "You can take it later — we'll just start you from the beginning for now.",
+      [
+        { text: 'Keep going', style: 'cancel' },
+        {
+          text: 'Skip',
+          style: 'destructive',
+          onPress: async () => {
+            try { await AsyncStorage.setItem(`@placementDone_v1_${uid}`, '1') } catch {}
+            handlePlacementComplete()
+          },
+        },
+      ],
+    )
   }
 
   // ── Quiz / Flashcards ────────────────────────────────────────────────────
@@ -1017,7 +1037,7 @@ export default function HomeScreen({ navigation }) {
         visible={showPlacement}
         animationType="slide"
         presentationStyle="fullScreen"
-        onRequestClose={() => {}}
+        onRequestClose={handlePlacementBack}
       >
         <PlacementTestScreen onComplete={handlePlacementComplete} />
       </Modal>

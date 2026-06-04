@@ -5,13 +5,14 @@
  * topics (1–2 per topic, every topic guaranteed at least one). Topics the user
  * scores ≥ 80 % on are force-unlocked so they skip beginner content.
  *
+ * Flow: intro (start / skip-for-now) → quiz → results.
  * UX: tap a choice → highlight correct/wrong for 1.2 s → auto-advance.
  * No lives, no timer, no XP — this is diagnostic only.
  */
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, StyleSheet,
-  Animated, Dimensions,
+  Animated, Dimensions, ActivityIndicator,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import AsyncStorage from '@react-native-async-storage/async-storage'
@@ -28,7 +29,7 @@ import * as a1Data    from '../content/algebra-1/index'
 import * as a2Data    from '../content/algebra-2/index'
 import * as geoData   from '../content/geometry/index'
 import * as lsData    from '../content/life-science/index'
-import { T, duoBtn, cardShadow } from '../styles/duo'
+import { T, duoBtn, duoBtnOutline, cardShadow, elevatedCard } from '../styles/duo'
 
 const SUBJECT_DATA = {
   'living-environment': leData,
@@ -91,20 +92,24 @@ function scoreByTopic(questionSet, answers) {
 }
 
 // ── Small progress dots at the top ───────────────────────────────────────────
-function ProgressDots({ total, current, C }) {
+function ProgressDots({ total, current, answered, C }) {
   return (
     <View style={{ flexDirection: 'row', gap: 5, alignSelf: 'center', marginVertical: 12 }}>
-      {Array.from({ length: total }, (_, i) => (
-        <View
-          key={i}
-          style={{
-            width: i < current ? 20 : 8,
-            height: 8,
-            borderRadius: 4,
-            backgroundColor: i < current ? C.brand : C.surface2,
-          }}
-        />
-      ))}
+      {Array.from({ length: total }, (_, i) => {
+        const done   = i < current || (i === current && answered)
+        const active = i === current && !answered
+        return (
+          <View
+            key={i}
+            style={{
+              width: done || active ? 20 : 8,
+              height: 8,
+              borderRadius: 4,
+              backgroundColor: done ? C.brand : active ? C.brand + '70' : C.surface2,
+            }}
+          />
+        )
+      })}
     </View>
   )
 }
@@ -131,7 +136,7 @@ export default function PlacementTestScreen({ onComplete }) {
   const [index,     setIndex]     = useState(0)
   const [selected,  setSelected]  = useState(null)   // chosen idx or null
   const [answers,   setAnswers]   = useState([])     // final answer per question
-  const [phase,     setPhase]     = useState('quiz') // 'quiz' | 'results'
+  const [phase,     setPhase]     = useState('intro') // 'intro' | 'quiz' | 'results'
 
   const autoTimer = useRef(null)
 
@@ -143,7 +148,7 @@ export default function PlacementTestScreen({ onComplete }) {
     Animated.spring(slideAnim, { toValue: 0, tension: 120, friction: 12, useNativeDriver: true }).start()
   }
 
-  useEffect(() => { slideIn() }, [index])
+  useEffect(() => { if (phase === 'quiz') slideIn() }, [index, phase])
 
   // ── Answer a question ─────────────────────────────────────────────────────
   function handleAnswer(idx) {
@@ -211,6 +216,58 @@ export default function PlacementTestScreen({ onComplete }) {
   }
 
   // ─────────────────────────────────────────────────────────────────────────
+  // RENDER: INTRO
+  // ─────────────────────────────────────────────────────────────────────────
+  if (phase === 'intro') {
+    return (
+      <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+        <View style={s.introWrap}>
+          <View style={s.introHeroCircle}>
+            <Text style={s.introEmoji}>🎯</Text>
+          </View>
+          <Text style={[T.h1, { color: C.text, textAlign: 'center', marginTop: 20 }]}>
+            Placement Test
+          </Text>
+          <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 8 }]}>
+            Answer about {total} quick questions so we can skip what you already know and start you
+            in the right place.
+          </Text>
+
+          <View style={[s.introCard, elevatedCard(C, { marginTop: 24 })]}>
+            {[
+              ['⚡', 'Takes about 2 minutes'],
+              ['❤️', 'No lives, no timer — just diagnostic'],
+              ['🔓', 'Topics you ace get unlocked instantly'],
+            ].map(([icon, label]) => (
+              <View key={label} style={s.introRow}>
+                <Text style={s.introRowIcon}>{icon}</Text>
+                <Text style={[T.body, { flex: 1, color: C.text }]}>{label}</Text>
+              </View>
+            ))}
+          </View>
+
+          <View style={{ flex: 1 }} />
+
+          <TouchableOpacity
+            style={[duoBtn(C.brand, C.brandDark, { alignSelf: 'stretch' })]}
+            onPress={() => setPhase('quiz')}
+            activeOpacity={0.85}
+          >
+            <Text style={[T.btn, { color: '#fff' }]}>START TEST →</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={[duoBtnOutline(C.border, { alignSelf: 'stretch', marginTop: 12 })]}
+            onPress={handleSkip}
+            activeOpacity={0.7}
+          >
+            <Text style={[T.btn, { color: C.textMuted }]}>SKIP FOR NOW</Text>
+          </TouchableOpacity>
+        </View>
+      </SafeAreaView>
+    )
+  }
+
+  // ─────────────────────────────────────────────────────────────────────────
   // RENDER: QUIZ
   // ─────────────────────────────────────────────────────────────────────────
   if (phase === 'quiz') {
@@ -255,11 +312,11 @@ export default function PlacementTestScreen({ onComplete }) {
 
         {/* Progress bar */}
         <View style={s.progressBg}>
-          <View style={[s.progressFill, { width: `${(index / total) * 100}%` }]} />
+          <View style={[s.progressFill, { width: `${((index + (selected !== null ? 1 : 0)) / total) * 100}%` }]} />
         </View>
 
         {/* Dots */}
-        <ProgressDots total={total} current={index} C={C} />
+        <ProgressDots total={total} current={index} answered={selected !== null} C={C} />
 
         <ScrollView contentContainerStyle={s.scroll} showsVerticalScrollIndicator={false}>
 
@@ -271,7 +328,7 @@ export default function PlacementTestScreen({ onComplete }) {
           </View>
 
           {/* Question card */}
-          <Animated.View style={[s.questionCard, cardShadow(C.shadow), { transform: [{ translateX: slideAnim }] }]}>
+          <Animated.View style={[s.questionCard, { transform: [{ translateX: slideAnim }] }]}>
             <Text style={[T.h3, { color: C.text, lineHeight: 26 }]}>{q.text}</Text>
           </Animated.View>
 
@@ -326,9 +383,11 @@ export default function PlacementTestScreen({ onComplete }) {
         {/* Hero */}
         <Text style={s.resultsBigEmoji}>🎯</Text>
         <Text style={[T.h1, { color: C.text, textAlign: 'center' }]}>Placement Complete!</Text>
-        <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 6, marginBottom: 4 }]}>
-          {totalCorrect}/{total} correct
-        </Text>
+        <View style={s.scorePill}>
+          <Text style={[T.num, { color: C.brand }]}>{totalCorrect}</Text>
+          <Text style={[T.h2, { color: C.textMuted }]}> / {total}</Text>
+          <Text style={[T.label, { color: C.textMuted, marginLeft: 8, textTransform: 'none', letterSpacing: 0 }]}>correct</Text>
+        </View>
 
         {unlockedList.length > 0 ? (
           <View style={[s.unlockBanner, { backgroundColor: C.brandBg, borderColor: C.brand + '50' }]}>
@@ -348,7 +407,7 @@ export default function PlacementTestScreen({ onComplete }) {
         )}
 
         {/* Per-topic breakdown */}
-        <Text style={[T.label, { color: C.textMuted, alignSelf: 'flex-start', marginBottom: 8, marginTop: 4 }]}>
+        <Text style={[T.label, { color: C.textMuted, alignSelf: 'stretch', textAlign: 'left', marginBottom: 8, marginTop: 4 }]}>
           Topic Breakdown
         </Text>
         {sd.TOPIC_ORDER.map((topic) => {
@@ -401,10 +460,16 @@ export default function PlacementTestScreen({ onComplete }) {
           style={[duoBtn(C.brand, C.brandDark, { alignSelf: 'stretch', marginTop: 20 })]}
           onPress={applyAndContinue}
           disabled={saving}
+          activeOpacity={0.85}
         >
-          <Text style={[T.btn, { color: '#fff' }]}>
-            {saving ? 'Saving…' : 'START LEARNING →'}
-          </Text>
+          {saving ? (
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+              <ActivityIndicator color="#fff" size="small" />
+              <Text style={[T.btn, { color: '#fff' }]}>SAVING…</Text>
+            </View>
+          ) : (
+            <Text style={[T.btn, { color: '#fff' }]}>START LEARNING →</Text>
+          )}
         </TouchableOpacity>
 
         <View style={{ height: 32 }} />
@@ -417,6 +482,14 @@ function makeStyles(C) {
   return StyleSheet.create({
     safe:        { flex: 1, backgroundColor: C.bg },
 
+    // Intro
+    introWrap:       { flex: 1, paddingHorizontal: 24, paddingTop: 24, paddingBottom: 20, alignItems: 'center' },
+    introHeroCircle: { width: 96, height: 96, borderRadius: 48, backgroundColor: C.brandBg, alignItems: 'center', justifyContent: 'center', marginTop: 12 },
+    introEmoji:      { fontSize: 52 },
+    introCard:       { alignSelf: 'stretch', padding: 18, gap: 14 },
+    introRow:        { flexDirection: 'row', alignItems: 'center', gap: 12 },
+    introRowIcon:    { fontSize: 22, width: 28, textAlign: 'center' },
+
     // Quiz
     header:      { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 16, paddingTop: 8 },
     headerLeft:  { flexDirection: 'row', alignItems: 'center', gap: 10 },
@@ -426,7 +499,7 @@ function makeStyles(C) {
     progressFill:{ height: 6, backgroundColor: C.brand, borderRadius: 3 },
     scroll:      { padding: 16, gap: 12 },
     topicChip:   { alignSelf: 'flex-start', borderRadius: 20, paddingHorizontal: 12, paddingVertical: 5 },
-    questionCard:{ backgroundColor: C.surface, borderRadius: 20, padding: 20, borderWidth: 1, borderColor: C.border },
+    questionCard:{ ...elevatedCard(C), padding: 20 },
     choices:     { gap: 10 },
     choice:      { flexDirection: 'row', alignItems: 'center', borderRadius: 16, padding: 14, gap: 12, borderWidth: 2.5 },
     letterBadge: { width: 32, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
@@ -435,6 +508,7 @@ function makeStyles(C) {
     // Results
     resultsScroll:{ padding: 20, alignItems: 'center', gap: 12 },
     resultsBigEmoji: { fontSize: 64, marginTop: 8 },
+    scorePill:   { flexDirection: 'row', alignItems: 'baseline', justifyContent: 'center', marginTop: 4, marginBottom: 4 },
     unlockBanner: { alignSelf: 'stretch', borderRadius: 16, padding: 16, borderWidth: 1, marginTop: 4 },
     topicRow:    { alignSelf: 'stretch', flexDirection: 'row', alignItems: 'center', gap: 12, backgroundColor: C.surface, borderRadius: 14, padding: 14, borderLeftWidth: 4, borderWidth: 1, borderColor: C.border },
     topicRowIcon:{ fontSize: 22 },

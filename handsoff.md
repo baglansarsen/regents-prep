@@ -1,6 +1,47 @@
 # Handoff — iOS TestFlight release prep (Regentify)
 
-_Last updated: 2026-06-03_
+_Last updated: 2026-06-03 (session 2: placement test + Apple sign-in entitlement)_
+
+## ⚡ Latest session (most recent work)
+
+### Placement test — UX refresh + unit-unlock fix (COMMITTED)
+- **Bug fixed:** completing the placement test force-unlocked topics in AsyncStorage
+  (`@skipUnlocks_${subject}`) but Home never re-read them, so units stayed locked. The test is a
+  `Modal` *inside* HomeScreen, so its `useFocusEffect` reload never re-fires when the modal closes.
+  Fix: `handlePlacementComplete` in `mobile/src/screens/HomeScreen.jsx` now calls
+  `reloadSkipUnlocks()` → units unlock instantly after START LEARNING.
+- **New `'intro'` phase** in `mobile/src/screens/PlacementTestScreen.jsx` (now the first screen):
+  hero + info card + **START TEST →** and an obvious **SKIP FOR NOW** button. Header "Skip test →"
+  chip kept as secondary.
+- **Android back** inside the placement modal → `handlePlacementBack` in HomeScreen shows a
+  "Skip the placement test?" confirm (persists `@placementDone_v1_${uid}`). Wired via the Modal's
+  `onRequestClose` (RN routes Android back there, not to a BackHandler inside modal content).
+- **Visual refresh:** progress bar + dots reflect the answered question; question card uses
+  `elevatedCard`; results screen has a big score hero, fixed "Topic Breakdown" alignment, and an
+  `ActivityIndicator` spinner on the saving CTA. Scoring / `UNLOCK_PCT = 80` / `forceUnlock` flow
+  unchanged.
+
+### Sign in with Apple — entitlement fix (⚠️ NOT in git — see below)
+- **Symptom:** "The authorization attempt failed for an unknown reason" (`ASAuthorizationError`
+  1000) on Apple sign-in. **Cause:** `mobile/ios/Regentify/Regentify.entitlements` was an empty
+  `<dict>` — missing `com.apple.developer.applesignin`. The native request aborts before reaching
+  Firebase. (Committed-ios → EAS skips prebuild → app.json/plugins never added it.)
+- **Fix applied (local working tree):** added `com.apple.developer.applesignin = ["Default"]` to
+  `mobile/ios/Regentify/Regentify.entitlements`, and `"usesAppleSignIn": true` to `app.json` ios
+  block (defensive, for any future prebuild).
+- **⚠️ `mobile/ios/` is gitignored** (`mobile/.gitignore:40:/ios`) — 0 tracked files. So this
+  entitlement edit (like last session's Info.plist build-#16 fix) is **NOT in git history**. It
+  lives only in the local working tree and ships to TestFlight via the EAS upload (root
+  `.easignore`). If this machine/checkout is lost, re-apply the entitlement by hand.
+- **Still required to make Apple sign-in actually work:**
+  1. **Rebuild** (entitlement is compiled into the binary; current build won't change). EAS managed
+     credentials auto-enable the App ID "Sign in with Apple" capability on build.
+  2. **Firebase Console → Authentication → Sign-in method → enable Apple** (else next error is
+     `auth/operation-not-allowed`).
+  3. Simulator only: must be signed into iCloud in Settings, or it fails regardless.
+
+---
+
 
 > Previous handoff (Life Science: Biology content integration) is **done & shipped**
 > (commit `4365623`, deployed to https://regents-prep.web.app). See git history for that.
