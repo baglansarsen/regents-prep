@@ -7,6 +7,9 @@ export const SUBJECTS = {
   ALGEBRA_2: 'algebra-2',
   GEOMETRY: 'geometry',
   LIFE_SCIENCE: 'life-science',
+  ENGLISH: 'english',
+  GLOBAL_HISTORY: 'global-history',
+  US_HISTORY: 'us-history',
 }
 
 export const SUBJECT_META = {
@@ -18,4 +21,7 @@ export const SUBJECT_META = {
   'algebra-2':          { id: 'algebra-2',          name: 'Algebra 2',          icon: '📊', color: '#06b6d4', shortName: 'A2' },
   'geometry':           { id: 'geometry',           name: 'Geometry',           icon: '📏', color: '#10b981', shortName: 'GE' },
   'life-science':       { id: 'life-science',       name: 'Life Science: Biology', icon: '🧬', color: '#059669', shortName: 'LS' },
+  'english':            { id: 'english',            name: 'English (ELA)',      icon: '📖', color: '#ef4444', shortName: 'EN' },
+  'global-history':     { id: 'global-history',     name: 'Global History',     icon: '🌐', color: '#0ea5e9', shortName: 'GH' },
+  'us-history':         { id: 'us-history',         name: 'US History',         icon: '🗽', color: '#a855f7', shortName: 'US' },
 }

@@ -70,7 +70,7 @@ function writeModule(targetDir, file, mod) {
   fs.writeFileSync(path.join(targetDir, file), banner + 'export default ' + JSON.stringify(mod, null, 2) + '\n')
 }
 
-const WEB_DIR = path.join(ROOT, 'src/data/regents-exams')
+const WEB_DIR = path.join(ROOT, 'shared/content/regents-exams')
 const MOBILE_DIR = path.join(ROOT, 'mobile/src/content/regents-exams')
 
 let snippets = ''
