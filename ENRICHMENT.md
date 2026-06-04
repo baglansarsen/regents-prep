@@ -138,7 +138,7 @@ export const flashcards = []
 
 ## Notes
 
-- **Quality:** Enrichment uses Claude 3.5 Sonnet (more accurate than Haiku). Each question takes ~15–20 seconds; full enrichment of 583 questions takes ~2–3 hours.
+- **Quality:** Enrichment uses Claude Opus 4.8 (highest accuracy). Each question takes ~15–20 seconds; full enrichment of 583 questions takes ~2–3 hours.
 - **Cost:** ~$0.20–$0.30 for full enrichment (questions + flashcards). Check Anthropic pricing.
 - **Idempotent:** Safe to re-run; already-enriched questions are skipped.
 - **Manual Review:** After enrichment, spot-check a few questions per subject for quality before deploying.

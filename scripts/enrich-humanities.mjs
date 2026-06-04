@@ -62,7 +62,7 @@ Provide a JSON object with "explanation" and "diveDeep" fields. Use \\n for mult
 
   try {
     const msg = await client.messages.create({
-      model: 'claude-3-5-sonnet-20241022',
+      model: 'claude-opus-4-8',
       max_tokens: 800,
       messages: [{ role: 'user', content: prompt }],
     })

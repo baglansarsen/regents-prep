@@ -63,7 +63,7 @@ Return ONLY a JSON object: { "explanation": "...", "diveDeep": "..." }`
 
   try {
     const msg = await client.messages.create({
-      model: 'claude-3-5-sonnet-20241022',
+      model: 'claude-opus-4-8',
       max_tokens: 600,
       messages: [{ role: 'user', content: prompt }],
     })
@@ -80,7 +80,7 @@ async function generateFlashcards(subject) {
   const prompt = FLASHCARD_PROMPTS[subject]
   try {
     const msg = await client.messages.create({
-      model: 'claude-3-5-sonnet-20241022',
+      model: 'claude-opus-4-8',
       max_tokens: 2000,
       messages: [{ role: 'user', content: prompt }],
     })
