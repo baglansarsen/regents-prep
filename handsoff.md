@@ -1,8 +1,30 @@
 # Handoff — iOS TestFlight release prep (Regentify)
 
-_Last updated: 2026-06-04 (session 4: humanities exams + enrichment framework)_
+_Last updated: 2026-06-04 (session 5: automated enrichment, flashcards & routing)_
 
-## ⚡ Latest session (session 4: add 3 humanities subjects + enrichment automation)
+## ⚡ Latest session (session 5: automated enrichment completion, humanities flashcards, routing fixes)
+
+### 100% Questions Enriched Across Humanities (English, Global History, US History)
+- Completed enrichment for **1,014 multiple-choice questions** across English, Global History, and US History exams.
+- All platforms (`mobile/src/content`, `shared/content`, `src/data`) are fully synchronized with identical question data.
+- Fills detailed `explanation` and `diveDeep` test-taking strategy fields for every question.
+- Discovered and repaired multiple OCR discrepancies (e.g. empty choices, text mergers, incorrect question types) before run.
+
+### Humanities Flashcards Integrated
+- Generated and integrated **135 humanities flashcards** (40 ELA, 50 Global History, 45 US History) into `flashcards.js` on all three platforms.
+- Corrected the routing and fallback behavior in `mobile/src/screens/FlashcardScreen.jsx` to dynamically map and filter flashcard decks according to the active subject (resolving a fallback bug).
+
+### Deployment and Git
+- **Firebase Deployment**: Successfully built and deployed Chromebook (`regents`) target to Firebase Hosting at `https://regents-prep.web.app` from `chromebook/dist`.
+- **Checked-in Tooling**: Staged and committed scripts used for this session's validation and formatting:
+  - `scripts/sync-enrichment.mjs` — Synchronizes and validates enrichment data between all platforms.
+  - `scripts/write-enrichment.mjs` — Merges generated explanations back into source JS modules.
+  - `scripts/add-humanities-flashcards.mjs` — Formats and appends flashcards.
+  - `scripts/analyze-enrichment.mjs` — Analyzes missing fields or structures.
+  - `scripts/list-missing.mjs` — Checks and lists missing properties.
+  - Excluded `scratch/` files from Git tracking.
+
+## ⚡ Previous session (session 4: add 3 humanities subjects + enrichment automation)
 
 ### Wired English, Global History, US History exams into all platforms (COMMITTED + DEPLOYED)
 - Added three new subjects across **all three platforms** (`mobile/src/content`, `shared/content` [deployed web], `src/data`):

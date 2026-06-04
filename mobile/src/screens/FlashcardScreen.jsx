@@ -6,6 +6,12 @@ import { useAuthContext } from '../context/AuthContext'
 import { useSpacedRepetition, Q_AGAIN, Q_HARD, Q_GOOD, Q_EASY, nextReviewLabel } from '../hooks/useSpacedRepetition'
 import * as leData from '../content/living-environment/index'
 import * as esData from '../content/earth-science/index'
+import * as chemData from '../content/chemistry/index'
+import * as physData from '../content/physics/index'
+import * as alg1Data from '../content/algebra-1/index'
+import * as alg2Data from '../content/algebra-2/index'
+import * as geomData from '../content/geometry/index'
+import * as lsData from '../content/life-science/index'
 import { SUBJECTS } from '../content/subjects'
 
 const { width } = Dimensions.get('window')
@@ -16,8 +22,45 @@ export default function FlashcardScreen({ route, navigation }) {
   const { user } = useAuthContext()
   const uid = user?.uid
 
-  const sd = subject === SUBJECTS.EARTH_SCIENCE ? esData : leData
-  const { buildDeck, review, getStats } = useSpacedRepetition(uid, sd.flashcards)
+  // Resolve flashcards for the selected subject
+  let subjectFlashcards = []
+  if (subject === SUBJECTS.EARTH_SCIENCE) {
+    subjectFlashcards = esData.flashcards
+  } else if (subject === SUBJECTS.CHEMISTRY) {
+    subjectFlashcards = chemData.flashcards
+  } else if (subject === SUBJECTS.PHYSICS) {
+    subjectFlashcards = physData.flashcards
+  } else if (subject === SUBJECTS.ALGEBRA_1) {
+    subjectFlashcards = alg1Data.flashcards
+  } else if (subject === SUBJECTS.ALGEBRA_2) {
+    subjectFlashcards = alg2Data.flashcards
+  } else if (subject === SUBJECTS.GEOMETRY) {
+    subjectFlashcards = geomData.flashcards
+  } else if (subject === SUBJECTS.LIFE_SCIENCE) {
+    subjectFlashcards = lsData.flashcards
+  } else if (subject === SUBJECTS.ENGLISH) {
+    // ELA flashcards are stored in the main flashcards registry, identified by ELA topics
+    const englishTopics = ['english', 'english-literature', 'english-rhetoric']
+    subjectFlashcards = leData.flashcards.filter(c => englishTopics.includes(c.topic))
+  } else if (subject === SUBJECTS.GLOBAL_HISTORY) {
+    // Global History flashcards are in the main registry, identified by Global topics
+    const globalTopics = ['global-history', 'world-cultures', 'geography']
+    subjectFlashcards = leData.flashcards.filter(c => globalTopics.includes(c.topic))
+  } else if (subject === SUBJECTS.US_HISTORY) {
+    // US History flashcards are in the main registry, identified by US topics
+    const usTopics = ['us-history', 'us-government', 'us-civics']
+    subjectFlashcards = leData.flashcards.filter(c => usTopics.includes(c.topic))
+  } else {
+    // Default: Living Environment (extract non-humanities cards from the main flashcards registry)
+    const humanitiesTopics = [
+      'english', 'english-literature', 'english-rhetoric',
+      'global-history', 'world-cultures', 'geography',
+      'us-history', 'us-government', 'us-civics'
+    ]
+    subjectFlashcards = leData.flashcards.filter(c => !humanitiesTopics.includes(c.topic))
+  }
+
+  const { buildDeck, review, getStats } = useSpacedRepetition(uid, subjectFlashcards)
   const deck = buildDeck(topic)
 
   const [cardIndex, setCardIndex] = useState(0)
