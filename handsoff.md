@@ -1,8 +1,41 @@
 # Handoff — iOS TestFlight release prep (Regentify)
 
-_Last updated: 2026-06-03 (session 3: live image deploy + deploy.sh fix)_
+_Last updated: 2026-06-04 (session 4: humanities exams + enrichment framework)_
 
-## ⚡ Latest session (session 3: web hosting / corrected images live)
+## ⚡ Latest session (session 4: add 3 humanities subjects + enrichment automation)
+
+### Wired English, Global History, US History exams into all platforms (COMMITTED + DEPLOYED)
+- Added three new subjects across **all three platforms** (`mobile/src/content`, `shared/content` [deployed web], `src/data`):
+  - **English (ELA):** 31 exams, 342+ questions
+  - **Global History:** 15 exams, 156+ questions
+  - **US History:** 9 exams, 85+ questions
+- Each platform's `regents-exams/index.js` + `subjects.js` updated with imports, arrays, metadata (icon, color, shortName).
+- Raw wire-up from `output/data/<subject>/<session>.json` (extracted OCR) → app modules. Real question text/choices; explanation/diveDeep not yet filled.
+- **508 new images** (`english/`, `global-history/`, `us-history/`) copied into `public/images/exams/` for CDN serving.
+- Generators:
+  - `scripts/generate-humanities-exams.mjs` (one-time): output JSON → raw app modules (both platforms)
+  - `scripts/enrich-humanities.mjs` (older): enrich questions only
+  - `scripts/enrich-full.mjs` (new): enrich questions + generate flashcards (all three platforms at once)
+
+### Enrichment automation ready (NOT YET RUN — requires API key)
+- Three tools created, ready for execution:
+  1. **`scripts/enrich-all.prompt.md`** — detailed system prompt for agent/CLI
+  2. **`scripts/enrich-full.mjs`** — automated node script: enriches all 583 MC questions + generates ~130 flashcards (English ~40, Global ~50, US ~45)
+  3. **`ENRICHMENT.md`** — usage guide, subject specs, troubleshooting
+- Non-destructive enrichment pattern: fills only missing `explanation`/`diveDeep` fields, skips already-enriched questions, preserves all existing data.
+- Cost estimate: ~$0.20–$0.30 (Claude 3.5 Sonnet), ~2–3 hours runtime (API latency), idempotent (safe to re-run).
+- **Next step:** run `ANTHROPIC_API_KEY=sk-... node scripts/enrich-full.mjs` (user to execute with their key).
+
+### Exam counts & validation
+- **Web (src/data):** 140 imports (8 subjects: STEM + life-science only, humanities NOT in this tree's index yet)
+- **Mobile (mobile/src/content):** 179 imports (all 11 subjects)
+- **Deployed web (shared/content):** 180 imports (all 11 subjects) ← **THIS IS THE LIVE CDN**
+- Both Vite builds pass (root `npm run build` + `cd chromebook && npm run build`).
+- All registries resolve with no duplicate IDs.
+
+---
+
+## ⚡ Previous session (session 3: web hosting / corrected images live)
 
 ### Corrected exam images pushed live (DONE)
 - Corrected images in `output/images/` were already propagated locally
