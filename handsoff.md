@@ -1,8 +1,45 @@
 # Handoff — iOS TestFlight release prep (Regentify)
 
-_Last updated: 2026-06-03 (session 2: placement test + Apple sign-in entitlement)_
+_Last updated: 2026-06-03 (session 3: live image deploy + deploy.sh fix)_
 
-## ⚡ Latest session (most recent work)
+## ⚡ Latest session (session 3: web hosting / corrected images live)
+
+### Corrected exam images pushed live (DONE)
+- Corrected images in `output/images/` were already propagated locally
+  (`output/images` → root `public/images` → `chromebook/public/images`, a **symlink**) but had
+  never been deployed, so `regents-prep.web.app` served stale versions.
+- Rebuilt `chromebook/` + deployed `--only hosting:regents`. Verified live CDN now matches
+  (e.g. `geo-june-2025/q10.png` md5 `9c94abff…`).
+- The mobile app loads all exam images from `regents-prep.web.app` at runtime (`CDN_BASE` in
+  `mobile/src/screens/QuizScreen.jsx` + `ExamScreen.jsx`), so this is live immediately — **no
+  app rebuild/resubmission needed**.
+
+### Fixed `scripts/deploy.sh` (was broken for current hosting layout) (COMMITTED this session)
+- It targeted `dist/` (root vite build), but Firebase serves the `regents` target from
+  **`chromebook/dist`** (`firebase.json` / `.firebaserc`). Now it builds `chromebook/`, and
+  `--images-only` refreshes `chromebook/dist/images` (with a guard if no build exists), then
+  deploys `--only hosting:regents`.
+- `./scripts/deploy.sh` = build chromebook + deploy live site. `--images-only` = push image
+  changes with no rebuild. `--verify` = verify images first.
+- **mobile-web** site (`regents-prep-mobile.web.app`) is separate: `npm run deploy:mobile`.
+
+### Hosting / data map (reference)
+- `regents` → `chromebook/dist` → `regents-prep.web.app` (web app **and** all exam images that
+  both web + mobile consume). `mobile-web` → `mobile/dist` → `regents-prep-mobile.web.app`.
+- Source of truth: `output/data/*.json` (raw) + `output/images/**`. App-consumed enriched exams:
+  `mobile/src/content/regents-exams/<subject>/<session>.js` (add `topic`, `explanation`,
+  `diveDeep`, `modelAnswer`). No auto-generator from `output/data` → these; enrichment is manual.
+- A non-destructive agent prompt for writing `explanation`/`diveDeep`/`modelAnswer` (fills only
+  missing fields, never deletes/reorders) was drafted this session — not yet saved to the repo.
+
+### Xcode Cloud (decided: DROP, stay on EAS)
+- Xcode Cloud failed ("Workspace Regentify.xcworkspace does not exist") because `mobile/ios/` is
+  gitignored and Xcode Cloud clones git only; EAS uploads the working tree so it's unaffected.
+  Action: disable the Xcode Cloud "Default" workflow in App Store Connect to stop failure emails.
+
+---
+
+## ⚡ Previous session (session 2: placement test + Apple sign-in entitlement)
 
 ### Placement test — UX refresh + unit-unlock fix (COMMITTED)
 - **Bug fixed:** completing the placement test force-unlocked topics in AsyncStorage

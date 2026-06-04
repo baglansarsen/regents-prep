@@ -6,9 +6,19 @@
 #   echo 'FIREBASE_TOKEN=1//...' >> .env.local   # save it
 #
 # USAGE:
-#   ./scripts/deploy.sh                  # full build + deploy
-#   ./scripts/deploy.sh --images-only    # deploy without rebuilding (after adding images)
-#   ./scripts/deploy.sh --verify         # verify images before deploying
+#   ./scripts/deploy.sh                  # build chromebook + deploy the regents site
+#   ./scripts/deploy.sh --images-only    # refresh images in the existing build + deploy (no rebuild)
+#   ./scripts/deploy.sh --verify         # verify images before building/deploying
+#
+# WHAT THIS DEPLOYS:
+#   The `regents` hosting target -> chromebook/dist -> https://regents-prep.web.app
+#   This is the live content+image site that BOTH the web app and the mobile app
+#   load exam images from (mobile CDN_BASE = https://regents-prep.web.app).
+#   chromebook/public/images is a symlink to the repo-root public/images, so the
+#   chromebook vite build bakes current images straight into chromebook/dist.
+#
+#   The mobile-web target (regents-prep-mobile.web.app) is deployed separately:
+#     npm run deploy:mobile
 #
 # The token is read from (in order):
 #   1. FIREBASE_TOKEN env var
@@ -58,20 +68,29 @@ if [[ "${1:-}" == "--verify" ]]; then
 fi
 
 # ── Build ───────────────────────────────────────────────────────────────────
+# Firebase serves the `regents` target from chromebook/dist. The chromebook vite
+# build copies chromebook/public/ (whose images/ symlinks to repo-root public/images)
+# into chromebook/dist, so a full build already includes the current images.
 if [[ "${1:-}" != "--images-only" ]]; then
-  echo "Building..."
-  npm run build
+  echo "Building chromebook (regents) site..."
+  npm run --prefix chromebook build
   echo "✓ Build complete"
+else
+  # No rebuild: refresh images into the already-built chromebook/dist so newly
+  # added/corrected images go live without a full rebuild.
+  if [[ ! -f chromebook/dist/index.html ]]; then
+    echo "chromebook/dist has no build yet (no index.html)."
+    echo "Run a full build first:  ./scripts/deploy.sh"
+    exit 1
+  fi
+  echo "Refreshing images in chromebook/dist (no rebuild)..."
+  rsync -a --include="*/" --include="*.png" --include="*.jpg" --include="*.jpeg" \
+    --exclude="*" public/images/ chromebook/dist/images/ 2>/dev/null || \
+    cp -r public/images/. chromebook/dist/images/
+  echo "✓ Images refreshed"
 fi
 
-# ── Copy new images into dist (Firebase serves from dist/) ──────────────────
-echo "Syncing images to dist/..."
-rsync -a --include="*.png" --include="*.jpg" --include="*.jpeg" \
-  public/images/ dist/images/ 2>/dev/null || \
-  cp -r public/images/ dist/images/
-echo "✓ Images synced"
-
 # ── Deploy ──────────────────────────────────────────────────────────────────
-echo "Deploying to Firebase Hosting..."
-npx -y firebase-tools@latest deploy --only hosting --project regents-prep --token "$TOKEN"
+echo "Deploying regents site to Firebase Hosting (regents-prep.web.app)..."
+npx -y firebase-tools@latest deploy --only hosting:regents --project regents-prep --token "$TOKEN"
 echo "✓ Deployed"
