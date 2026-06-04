@@ -1,0 +1,446 @@
+// Auto-generated raw wire-up from output/data/us-history/august-2025.json
+// Real extracted questions; explanation/diveDeep enrichment is a later pass.
+export default {
+  "id": "ush-aug-2025",
+  "subject": "us-history",
+  "year": 2025,
+  "session": "August",
+  "totalMinutes": 180,
+  "questions": [
+    {
+      "number": 1,
+      "part": "I",
+      "text": "Which conclusion is best supported by the information on this map?",
+      "choices": [
+        "Manufacturing in the colonies was restricted.",
+        "The West Indies were excluded from British trade.",
+        "Africa was a leading supplier of gunpowder.",
+        "Great Britain relied upon trade with South America."
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/august-2025/context_1_2.png",
+      "context": "Base your answers to questions 1 and 2 on the map below and on your knowledge of social studies.\nSource: The Making of America, National Geographic Society (adapted)\nColonial Trade Routes and Goods\nColonial exports\nColonial imports\nIntercolonial trade\n1000 mi\n0\n1500 km\n0\nNORTH\nAMERICA\nSOUTH\nAMERICA\nGreat\nBritain\nAFRICA\nEUROPE\nTHIRTEEN\nBRITISH\nCOLONIES\nAtlantic\nOcean\nMiddle Passage\nWEST\nINDIES\nLumbe\nr, furs,\n dried \nfish, w\nhale \noil, ir\non,\ngunpo\nwder, r\nice, to\nbacco\n, indi\ngo\nManufa\nctured \ngoods, \ntextiles,\n furnitur\ne, luxuri\nes\nSugar,\n mola\nsses, \nfruit\nRum, iron\n, \ngunpow\nder\n, \nc\nl\no\nth\n, t\nool\ns\nEnslaved per\nsons, gold, pepper\nFl\no\nu\nr,\n \nfis\nh, meat\nm\nol\na\ns\ns\ne\ns\n, \nsugar\nE\nn\nsl\na\nv\ne\nd\n \nper\nsons,\nPart I\nAnswer all questions in this part.\nDirections (1–28): For each statement or question, record on your separate answer sheet the number of \nthe word or expression that, of those given, best completes the statement or answers the question."
+    },
+    {
+      "number": 2,
+      "part": "I",
+      "text": "Which claim is best supported by the information on this map?",
+      "choices": [
+        "The colonies played an important role in Great Britain’s economy.",
+        "The West Indies provided manufactured goods to the thirteen colonies.",
+        "Government in the thirteen colonies emphasized fair trade with other nations.",
+        ""
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/august-2025/context_1_2.png",
+      "context": "Base your answers to questions 1 and 2 on the map below and on your knowledge of social studies.\nSource: The Making of America, National Geographic Society (adapted)\nColonial Trade Routes and Goods\nColonial exports\nColonial imports\nIntercolonial trade\n1000 mi\n0\n1500 km\n0\nNORTH\nAMERICA\nSOUTH\nAMERICA\nGreat\nBritain\nAFRICA\nEUROPE\nTHIRTEEN\nBRITISH\nCOLONIES\nAtlantic\nOcean\nMiddle Passage\nWEST\nINDIES\nLumbe\nr, furs,\n dried \nfish, w\nhale \noil, ir\non,\ngunpo\nwder, r\nice, to\nbacco\n, indi\ngo\nManufa\nctured \ngoods, \ntextiles,\n furnitur\ne, luxuri\nes\nSugar,\n mola\nsses, \nfruit\nRum, iron\n, \ngunpow\nder\n, \nc\nl\no\nth\n, t\nool\ns\nEnslaved per\nsons, gold, pepper\nFl\no\nu\nr,\n \nfis\nh, meat\nm\nol\na\ns\ns\ne\ns\n, \nsugar\nE\nn\nsl\na\nv\ne\nd\n \nper\nsons,\nPart I\nAnswer all questions in this part.\nDirections (1–28): For each statement or question, record on your separate answer sheet the number of \nthe word or expression that, of those given, best completes the statement or answers the question."
+    },
+    {
+      "number": 3,
+      "part": "I",
+      "text": "Paul Revere created this engraving to",
+      "choices": [
+        "increase British sympathy toward the colonists",
+        "discourage foreign support for colonial independence",
+        "encourage colonial resistance to British rule",
+        "convince King George III to expand colonial rights"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/august-2025/context_3_4.png",
+      "context": "Base your answers to questions 3 and 4 on the engraving below and on your knowledge of social studies.\nThe Bloody Massacre Perpetrated in \nKing Street, Boston, on March 5th, 1770, \nby a Party of the 29th Regiment\nSource: Paul Revere, engraver, 1770 (adapted)"
+    },
+    {
+      "number": 4,
+      "part": "I",
+      "text": "Which historical circumstance led to the event depicted in this engraving?",
+      "choices": [
+        "the signing of the Maryland Toleration Act",
+        "the quartering of British troops",
+        "the defeat of the British at the Battle of Saratoga",
+        ""
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/august-2025/context_3_4.png",
+      "context": "Base your answers to questions 3 and 4 on the engraving below and on your knowledge of social studies.\nThe Bloody Massacre Perpetrated in \nKing Street, Boston, on March 5th, 1770, \nby a Party of the 29th Regiment\nSource: Paul Revere, engraver, 1770 (adapted)"
+    },
+    {
+      "number": 5,
+      "part": "I",
+      "text": "This passage would be most useful to a historian studying",
+      "choices": [
+        "colonial ideas about leadership in the Americas",
+        "religious freedom in early United States history",
+        "fair treatment for Native Americans",
+        "presidential authority in immigration legislation"
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/august-2025/context_5_6.png",
+      "context": "Base your answers to questions 5 and 6 on the passage below and on your knowledge of social studies.\nTo the Hebrew [Jewish] Congregation in Newport, Rhode Island\n[August 18, 1790]\nGentlemen:\n. . . The Citizens of the United States of America have a right to applaud \nthemselves for having given to mankind examples of an enlarged and liberal \npolicy: a policy worthy of imitation. All possess alike liberty of conscience \nand immunities [protections] of citizenship. It is now no more that toleration \nis spoken of, as if it was by the indulgence of one class of people, that \nanother enjoyed the exercise of their inherent natural rights. For happily \nthe Government of the United States, which gives to bigotry no sanction, \nto persecution no assistance, requires only that they who live under its \nprotection should demean themselves as good citizens, in giving it on all \noccasions their effectual support. . . .\n\t\nMay the Children of the Stock of Abraham, who dwell in this land \ncontinue to merit and enjoy the good will of the other inhabitants. . . .\nG. Washington\nSource: President George Washington, Letter to the Hebrew Congregation of Newport,\n Rhode Island, August 18, 1790 (adapted)"
+    },
+    {
+      "number": 6,
+      "part": "I",
+      "text": "The ideas expressed in this passage were guaranteed by the",
+      "choices": [
+        "Articles of Confederation",
+        "Great Compromise",
+        "Three-fifths Compromise",
+        ""
+      ],
+      "correct": 3,
+      "image": "/images/exams/us-history/august-2025/context_5_6.png",
+      "context": "Base your answers to questions 5 and 6 on the passage below and on your knowledge of social studies.\nTo the Hebrew [Jewish] Congregation in Newport, Rhode Island\n[August 18, 1790]\nGentlemen:\n. . . The Citizens of the United States of America have a right to applaud \nthemselves for having given to mankind examples of an enlarged and liberal \npolicy: a policy worthy of imitation. All possess alike liberty of conscience \nand immunities [protections] of citizenship. It is now no more that toleration \nis spoken of, as if it was by the indulgence of one class of people, that \nanother enjoyed the exercise of their inherent natural rights. For happily \nthe Government of the United States, which gives to bigotry no sanction, \nto persecution no assistance, requires only that they who live under its \nprotection should demean themselves as good citizens, in giving it on all \noccasions their effectual support. . . .\n\t\nMay the Children of the Stock of Abraham, who dwell in this land \ncontinue to merit and enjoy the good will of the other inhabitants. . . .\nG. Washington\nSource: President George Washington, Letter to the Hebrew Congregation of Newport,\n Rhode Island, August 18, 1790 (adapted)"
+    },
+    {
+      "number": 7,
+      "part": "I",
+      "text": "According to this excerpt, what would be the status of slavery in the Louisiana Territory?",
+      "choices": [
+        "Slavery would be determined by popular sovereignty.",
+        "All territory west of the Mississippi River would be open to slavery.",
+        "Each territory that applied for statehood would identify as free or slave.",
+        "Slavery would be illegal in areas north of 36°30' latitude, except for Missouri."
+      ],
+      "correct": 3,
+      "image": "/images/exams/us-history/august-2025/context_7_8.png",
+      "context": "Base your answers to questions 7 and 8 on the excerpt below and on your knowledge of social studies.\nSEC. 8. And be it further enacted. That in all that territory ceded by France \nto the United States, under the name of Louisiana, which lies north of \nthirty-six degrees and thirty minutes north latitude, not included within the \nlimits of the state, contemplated by this act, slavery and involuntary servitude, \notherwise than in the punishment of crimes, whereof the parties shall have \nbeen duly convicted, shall be, and is hereby, forever prohibited: Provided \nalways, That any person escaping into the same, from whom labour or service \nis lawfully claimed, in any state or territory of the United States, such fugitive \nmay be lawfully reclaimed and conveyed to the person claiming his or her \nlabour or service as aforesaid.\nSource: Missouri Compromise, 1820"
+    },
+    {
+      "number": 8,
+      "part": "I",
+      "text": "Which government action repealed the Missouri Compromise?",
+      "choices": [
+        "Indian Removal Act",
+        "Kansas-Nebraska Act",
+        "Homestead Act",
+        ""
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/august-2025/context_7_8.png",
+      "context": "Base your answers to questions 7 and 8 on the excerpt below and on your knowledge of social studies.\nSEC. 8. And be it further enacted. That in all that territory ceded by France \nto the United States, under the name of Louisiana, which lies north of \nthirty-six degrees and thirty minutes north latitude, not included within the \nlimits of the state, contemplated by this act, slavery and involuntary servitude, \notherwise than in the punishment of crimes, whereof the parties shall have \nbeen duly convicted, shall be, and is hereby, forever prohibited: Provided \nalways, That any person escaping into the same, from whom labour or service \nis lawfully claimed, in any state or territory of the United States, such fugitive \nmay be lawfully reclaimed and conveyed to the person claiming his or her \nlabour or service as aforesaid.\nSource: Missouri Compromise, 1820"
+    },
+    {
+      "number": 9,
+      "part": "I",
+      "text": "This poster was created to celebrate",
+      "choices": [
+        "the Emancipation Proclamation",
+        "African American suffrage",
+        "the Harlem Renaissance",
+        "the Great Migration"
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/august-2025/context_9_10.png",
+      "context": "Base your answers to questions 9 and 10 on the poster below and on your knowledge of social studies.\nT\nh\ne \nRi\ng\nht\n o\nf \nC\nit\niz\ne\nn\ns \no\nf \nt\nh\ne\n U\nni\nte\nd \nS\nta\nte\ns \nto\n V\not\ne\nSha\nll N\not B\ne D\nen\nie\nd \nor \nAbr\nidg\ned \nBy t\nhe U\nnite\nd S\nta\nte\ns o\nr A\nny \nSta\nte \non\nA\nc\nc\no\nu\nnt\n o\nf \nR\na\nc\ne \nC\no\nl\no\nr \nor\n \nC\no\nn\nd\nit\ni\no\nn \no\nf \nS\ner\nvi\ntu\nd\ne\nBallot\nBox\nBallot\nBox\nE\nD\nU\nC\nA\nT\nI\nO\nN\nS\nC\nI\nE\nN\nC\nE\nCELEBRATION AT BALTIMORE ON MAY 19TH 1870.\nThe Fifteenth Amendment and Its Results\nSource: E. Sachse & Co., lithographer, 1870 (adapted)"
+    },
+    {
+      "number": 10,
+      "part": "I",
+      "text": "Which method was used after Reconstruction to deny African Americans the right illustrated in this poster?",
+      "choices": [
+        "passage of literacy tests and poll taxes",
+        "introduction of sharecropping",
+        "establishment of the Freedmen’s Bureau",
+        ""
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/august-2025/context_9_10.png",
+      "context": "Base your answers to questions 9 and 10 on the poster below and on your knowledge of social studies.\nT\nh\ne \nRi\ng\nht\n o\nf \nC\nit\niz\ne\nn\ns \no\nf \nt\nh\ne\n U\nni\nte\nd \nS\nta\nte\ns \nto\n V\not\ne\nSha\nll N\not B\ne D\nen\nie\nd \nor \nAbr\nidg\ned \nBy t\nhe U\nnite\nd S\nta\nte\ns o\nr A\nny \nSta\nte \non\nA\nc\nc\no\nu\nnt\n o\nf \nR\na\nc\ne \nC\no\nl\no\nr \nor\n \nC\no\nn\nd\nit\ni\no\nn \no\nf \nS\ner\nvi\ntu\nd\ne\nBallot\nBox\nBallot\nBox\nE\nD\nU\nC\nA\nT\nI\nO\nN\nS\nC\nI\nE\nN\nC\nE\nCELEBRATION AT BALTIMORE ON MAY 19TH 1870.\nThe Fifteenth Amendment and Its Results\nSource: E. Sachse & Co., lithographer, 1870 (adapted)"
+    },
+    {
+      "number": 11,
+      "part": "I",
+      "text": "The problem that Samuel Gompers is discussing resulted from",
+      "choices": [
+        "railroad abuses",
+        "free public education",
+        "rapid industrialization",
+        "immigration quotas"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/august-2025/context_11_12.png",
+      "context": "Base your answers to questions 11 and 12 on the excerpt below and on your knowledge of social studies.\n. . . Save our children in their infancy from being forced into the maelstrom \n[turmoil] of wage slavery. See to it that they are not dwarfed in body and \nmind or brought to a premature death by early drudgery. Give them the \nsunshine of the school and playground instead of the factory, the mine and \nthe workshop. . . .\nSource: Samuel Gompers, Address to the International Labor Congress, \nSeptember 1893\n\nU.S. Hist. & Gov’t. – Aug. ’25\t\n[8]"
+    },
+    {
+      "number": 12,
+      "part": "I",
+      "text": "Which action did Samuel Gompers support to correct the problem described in the excerpt?",
+      "choices": [
+        "state regulation of public transportation",
+        "passage of child labor laws",
+        "adoption of an equal pay act",
+        "strict enforcement of federal antitrust legislation"
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/august-2025/context_11_12.png",
+      "context": "Base your answers to questions 11 and 12 on the excerpt below and on your knowledge of social studies.\n. . . Save our children in their infancy from being forced into the maelstrom \n[turmoil] of wage slavery. See to it that they are not dwarfed in body and \nmind or brought to a premature death by early drudgery. Give them the \nsunshine of the school and playground instead of the factory, the mine and \nthe workshop. . . .\nSource: Samuel Gompers, Address to the International Labor Congress, \nSeptember 1893\n\nU.S. Hist. & Gov’t. – Aug. ’25\t\n[8]"
+    },
+    {
+      "number": 13,
+      "part": "I",
+      "text": "This newspaper headline is an example of",
+      "choices": [
+        "progressive reform",
+        "yellow journalism",
+        "nativist attitudes",
+        "isolationist policies"
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/august-2025/context_13_14.png",
+      "context": "Base your answers to questions 13 and 14 on the newspaper headlines below and on your knowledge of \nsocial studies.\nSource: San Francisco Examiner, February 16, 1898"
+    },
+    {
+      "number": 14,
+      "part": "I",
+      "text": "As a result of the event described in this headline, what action was taken by President William McKinley?",
+      "choices": [
+        "He offered to purchase Cuba from Spain.",
+        "He asked Congress to declare war against Spain.",
+        "He demanded that Spain pay to repair the damaged ship.",
+        "He sent troops to assist Spain against the Cuban rebellion."
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/august-2025/context_13_14.png",
+      "context": "Base your answers to questions 13 and 14 on the newspaper headlines below and on your knowledge of \nsocial studies.\nSource: San Francisco Examiner, February 16, 1898"
+    },
+    {
+      "number": 15,
+      "part": "I",
+      "text": "In this statement, President Woodrow Wilson is proposing the",
+      "choices": [
+        "establishment of colonies in other regions of the world",
+        "repeal of international trade restrictions",
+        "return of the United States to its traditional policy of neutrality",
+        ""
+      ],
+      "correct": 3,
+      "image": "/images/exams/us-history/august-2025/context_15_15.png",
+      "context": "Base your answer to question 15 on the passage below and on your knowledge of social studies.\n. . . A general association of nations must be formed under specific covenants \nfor the purpose of affording mutual guarantees of political independence and \nterritorial integrity to great and small States alike. . . .\nSource: President Woodrow Wilson, 1918 (adapted)"
+    },
+    {
+      "number": 16,
+      "part": "I",
+      "text": "Which statement best describes the author’s point of view during the Scopes trial?",
+      "choices": [
+        "Separation of church and state is essential to democracy.",
+        "Scientific improvements do not promote the teaching of morality.",
+        "Technological developments have no place in society.",
+        "International trade is dependent upon technological developments."
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/august-2025/context_16_17.png",
+      "context": "Base your answers to questions 16 and 17 on the passage below and on your knowledge of social studies.\n. . . Let us, then, hear the conclusion of the whole matter. Science is a \nmagnificent material force, but it is not a teacher of morals. It can perfect \nmachinery, but it adds no moral restraints to protect society from the misuse \nof the machine. It can also build gigantic intellectual ships, but it constructs \nno moral rudders for the control of storm-tossed human vessels. It not \nonly fails to supply the spiritual element needed but some of its unproven \nhypotheses rob the ship of its compass and thus endangers its cargo. . . .\nSource: William Jennings Bryan, State of Tennessee v. Scopes, 1925\n\nU.S. Hist. & Gov’t. – Aug. ’25\t\n[10]"
+    },
+    {
+      "number": 17,
+      "part": "I",
+      "text": "Which conclusion can be drawn from the Scopes trial?",
+      "choices": [
+        "It promoted the adoption of an open immigration policy.",
+        "It encouraged a large population shift from urban to rural areas.",
+        "It demonstrated a clash between modern and traditional values.",
+        "It led to less materialism and demand for consumer goods."
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/august-2025/context_16_17.png",
+      "context": "Base your answers to questions 16 and 17 on the passage below and on your knowledge of social studies.\n. . . Let us, then, hear the conclusion of the whole matter. Science is a \nmagnificent material force, but it is not a teacher of morals. It can perfect \nmachinery, but it adds no moral restraints to protect society from the misuse \nof the machine. It can also build gigantic intellectual ships, but it constructs \nno moral rudders for the control of storm-tossed human vessels. It not \nonly fails to supply the spiritual element needed but some of its unproven \nhypotheses rob the ship of its compass and thus endangers its cargo. . . .\nSource: William Jennings Bryan, State of Tennessee v. Scopes, 1925\n\nU.S. Hist. & Gov’t. – Aug. ’25\t\n[10]"
+    },
+    {
+      "number": 18,
+      "part": "I",
+      "text": "Which policy is being discussed in this excerpt?",
+      "choices": [
+        "congressional restrictions on war powers",
+        "forced assimilation of Native Americans",
+        "internment of Japanese Americans",
+        "denial of legal counsel for the accused"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/august-2025/context_18_19.png",
+      "context": "Base your answers to questions 18 and 19 on the excerpt below and on your knowledge of social studies.\n. . . All citizens alike, both in and out of uniform, feel the impact of war in \ngreater or lesser measure. Citizenship has its responsibilities, as well as its \nprivileges, and, in time of war, the burden is always heavier. Compulsory \n[mandatory] exclusion of large groups of citizens from their homes, except \nunder circumstances of direst emergency and peril, is inconsistent with our \nbasic governmental institutions. But when, under conditions of modern \nwarfare, our shores are threatened by hostile forces, the power to protect \nmust be commensurate with [equal to] the threatened danger. . . .\nSource: Supreme Court Justice Hugo Black, Majority Opinion,\nKorematsu v. United States, 1944 (adapted)"
+    },
+    {
+      "number": 19,
+      "part": "I",
+      "text": "Which statement is best supported by the opinion of Justice Black?",
+      "choices": [
+        "Civil liberties have been limited in times of war.",
+        "Freedom of speech is protected by the United States Constitution.",
+        "Military participation is a citizen’s obligation.",
+        ""
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/august-2025/context_18_19.png",
+      "context": "Base your answers to questions 18 and 19 on the excerpt below and on your knowledge of social studies.\n. . . All citizens alike, both in and out of uniform, feel the impact of war in \ngreater or lesser measure. Citizenship has its responsibilities, as well as its \nprivileges, and, in time of war, the burden is always heavier. Compulsory \n[mandatory] exclusion of large groups of citizens from their homes, except \nunder circumstances of direst emergency and peril, is inconsistent with our \nbasic governmental institutions. But when, under conditions of modern \nwarfare, our shores are threatened by hostile forces, the power to protect \nmust be commensurate with [equal to] the threatened danger. . . .\nSource: Supreme Court Justice Hugo Black, Majority Opinion,\nKorematsu v. United States, 1944 (adapted)"
+    },
+    {
+      "number": 20,
+      "part": "I",
+      "text": "President Harry Truman made this statement in response to",
+      "choices": [
+        "Japan’s occupation of Manchuria",
+        "the signing of the United Nations Charter",
+        "the communist threat to Greece and Turkey",
+        "fighting in French Indochina"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/august-2025/context_20_21.png",
+      "context": "Base your answers to questions 20 and 21 on the statement below and on your knowledge of social studies.\n. . . I believe that it must be the policy of the United States to support free \npeoples who are resisting attempted subjugation [domination] by armed \nminorities or by outside pressures.\n\t\nI believe that we must assist free peoples to work out their own destinies \nin their own way.\n\t\nI believe that our help should be primarily through economic and \nfinancial aid which is essential to economic stability and orderly political \nprocesses. . . .\n\t\nThe seeds of totalitarian regimes are nurtured by misery and want. They \nspread and grow in the evil soil of poverty and strife. They reach their full \ngrowth when the hope of a people for a better life has died. \n\t\nWe must keep that hope alive.\n\t\nThe free peoples of the world look to us for support in maintaining their \nfreedoms.\n\t\nIf we falter in our leadership, we may endanger the peace of the world—\nand we shall surely endanger the welfare of this Nation.\n\t\nGreat responsibilities have been placed upon us by the swift movement \nof events.\n\t\nI am confident that the Congress will face these responsibilities squarely.\nSource: President Harry Truman, Message to Congress, March 12, 1947 (adapted)"
+    },
+    {
+      "number": 21,
+      "part": "I",
+      "text": "Which United States foreign policy is supported by Truman’s message to Congress?",
+      "choices": [
+        "appeasement",
+        "containment",
+        "isolationism",
+        ""
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/august-2025/context_20_21.png",
+      "context": "Base your answers to questions 20 and 21 on the statement below and on your knowledge of social studies.\n. . . I believe that it must be the policy of the United States to support free \npeoples who are resisting attempted subjugation [domination] by armed \nminorities or by outside pressures.\n\t\nI believe that we must assist free peoples to work out their own destinies \nin their own way.\n\t\nI believe that our help should be primarily through economic and \nfinancial aid which is essential to economic stability and orderly political \nprocesses. . . .\n\t\nThe seeds of totalitarian regimes are nurtured by misery and want. They \nspread and grow in the evil soil of poverty and strife. They reach their full \ngrowth when the hope of a people for a better life has died. \n\t\nWe must keep that hope alive.\n\t\nThe free peoples of the world look to us for support in maintaining their \nfreedoms.\n\t\nIf we falter in our leadership, we may endanger the peace of the world—\nand we shall surely endanger the welfare of this Nation.\n\t\nGreat responsibilities have been placed upon us by the swift movement \nof events.\n\t\nI am confident that the Congress will face these responsibilities squarely.\nSource: President Harry Truman, Message to Congress, March 12, 1947 (adapted)"
+    },
+    {
+      "number": 22,
+      "part": "I",
+      "text": "These provisions in the 1964 Civil Rights Act are intended to",
+      "choices": [
+        "provide equal educational opportunities",
+        "end unfair practices in the workplace",
+        "desegregate the armed forces",
+        "mandate fair voter registration"
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/august-2025/context_22_23.png",
+      "context": "Base your answers to questions 22 and 23 on the excerpt below and on your knowledge of social studies.\nSEC. 703. (a) It shall be an unlawful employment practice for an employer—\n(1) to fail or refuse to hire or to discharge any individual, or otherwise to \ndiscriminate against any individual with respect to his compensation, terms, \nconditions, or privileges of employment, because of such individual’s race, \ncolor, religion, sex, or national origin; or \n(2) to limit, segregate, or classify his employees in any way which would \ndeprive or tend to deprive any individual of employment opportunities \nor otherwise adversely affect his status as an employee, because of such \nindividual’s race, color, religion, sex, or national origin. . . .\nSource: Civil Rights Act, 1964"
+    },
+    {
+      "number": 23,
+      "part": "II",
+      "type": "written",
+      "text": "",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/august-2025/context_22_23.png",
+      "context": "Base your answers to questions 22 and 23 on the excerpt below and on your knowledge of social studies.\nSEC. 703. (a) It shall be an unlawful employment practice for an employer—\n(1) to fail or refuse to hire or to discharge any individual, or otherwise to \ndiscriminate against any individual with respect to his compensation, terms, \nconditions, or privileges of employment, because of such individual’s race, \ncolor, religion, sex, or national origin; or \n(2) to limit, segregate, or classify his employees in any way which would \ndeprive or tend to deprive any individual of employment opportunities \nor otherwise adversely affect his status as an employee, because of such \nindividual’s race, color, religion, sex, or national origin. . . .\nSource: Civil Rights Act, 1964"
+    },
+    {
+      "number": 24,
+      "part": "I",
+      "text": "The Supreme Court ruling in this case",
+      "choices": [
+        "reinforced constitutional protections against self-incrimination",
+        "guaranteed equal economic opportunity",
+        "promoted separation of church and state",
+        "upheld freedom of speech as a constitutional right"
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/august-2025/context_24_25.png",
+      "context": "Base your answers to questions 24 and 25 on the passage below and on your knowledge of social studies.\n. . . You have the right to remain silent. Anything you say can and will be \nused against you in a court of law. You have the right to an attorney. If you \ncannot afford an attorney, one will be provided for you. Do you understand \nthe rights I have just read to you? . . .\nSource: Miranda v. Arizona, 1966"
+    },
+    {
+      "number": 25,
+      "part": "I",
+      "text": "Critics of this decision argued that it",
+      "choices": [
+        "created mandatory sentencing guidelines",
+        "restricted attorney-client privilege",
+        "gave the accused an advantage over law enforcement",
+        "violated the equal protection clause"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/august-2025/context_24_25.png",
+      "context": "Base your answers to questions 24 and 25 on the passage below and on your knowledge of social studies.\n. . . You have the right to remain silent. Anything you say can and will be \nused against you in a court of law. You have the right to an attorney. If you \ncannot afford an attorney, one will be provided for you. Do you understand \nthe rights I have just read to you? . . .\nSource: Miranda v. Arizona, 1966"
+    },
+    {
+      "number": 26,
+      "part": "I",
+      "text": "According to this map, the results of the 2000 election indicate that",
+      "choices": [
+        "the candidate with the most popular votes can lose the election",
+        "electoral votes had a limited impact on the election outcome",
+        "third-party candidates have no effect on election results",
+        "the South and Midwest voted overwhelmingly for Gore"
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/august-2025/context_26_27.png",
+      "context": "Base your answers to questions 26 and 27 on the map below and on your knowledge of social studies.\nAlaska\n3\nHawaii\n4\nOre.\n7\nIdaho\n4\nWash.\n11\nCalif.\n54\nNev.\n4\nUtah\n5\nAriz.\n8\nMontana\n3\nWyo.\n3\nColo.\n8\nN.M.\n5\nTexas\n32\nOkla.\n8\nKansas\n6\nNebr.\n5\nS.D.\n3\nKy.\n8\nTenn.\n11\nMo.\n11\nArk.\n6\nAla.\n9\nMiss.\n7\nGa.\n13\nFla.\n25\nLa.\n9\nS.C.\n8\nN.C.\n14\nVa.\n13\nMinn.\n10\nN.D.\n3\nWisc.\n11\nMich.\n18\nOhio\n21\nPA\n23\nW.Va.\n5\nDel. 3\nVt.\n3\nN.H. 4\nMe.\n4\nMass. 12\nR.I. 4\nConn. 8\nN.J. 15\nN.Y.\n33\nMd. 10\n2000 Election\nSource: Kennedy et al., The American Pageant: A History of the Republic, Houghton Mifflin (adapted) \nD.C. 2*\n* One elector from the \nDistrict of Columbia \nabstained.\nCandidate (Party) \nElectoral Vote \nPopular Vote\nBush (Republican) \n271 \n50.4% \n50,456,169 (47.88%)\nGore (Democrat) \n266 \n49.4% \n50,996,116 (48.39%)\nNader (Green) \n0 \n0.0% \n2,783,728 (2.72%)\nIowa\n7\nIll.\n22\nInd.\n12"
+    },
+    {
+      "number": 27,
+      "part": "I",
+      "text": "The results of the 2000 election led directly to a national debate over",
+      "choices": [
+        "reforming the electoral college",
+        "increasing the voting age",
+        "expanding mail-in voting",
+        ""
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/august-2025/context_26_27.png",
+      "context": "Base your answers to questions 26 and 27 on the map below and on your knowledge of social studies.\nAlaska\n3\nHawaii\n4\nOre.\n7\nIdaho\n4\nWash.\n11\nCalif.\n54\nNev.\n4\nUtah\n5\nAriz.\n8\nMontana\n3\nWyo.\n3\nColo.\n8\nN.M.\n5\nTexas\n32\nOkla.\n8\nKansas\n6\nNebr.\n5\nS.D.\n3\nKy.\n8\nTenn.\n11\nMo.\n11\nArk.\n6\nAla.\n9\nMiss.\n7\nGa.\n13\nFla.\n25\nLa.\n9\nS.C.\n8\nN.C.\n14\nVa.\n13\nMinn.\n10\nN.D.\n3\nWisc.\n11\nMich.\n18\nOhio\n21\nPA\n23\nW.Va.\n5\nDel. 3\nVt.\n3\nN.H. 4\nMe.\n4\nMass. 12\nR.I. 4\nConn. 8\nN.J. 15\nN.Y.\n33\nMd. 10\n2000 Election\nSource: Kennedy et al., The American Pageant: A History of the Republic, Houghton Mifflin (adapted) \nD.C. 2*\n* One elector from the \nDistrict of Columbia \nabstained.\nCandidate (Party) \nElectoral Vote \nPopular Vote\nBush (Republican) \n271 \n50.4% \n50,456,169 (47.88%)\nGore (Democrat) \n266 \n49.4% \n50,996,116 (48.39%)\nNader (Green) \n0 \n0.0% \n2,783,728 (2.72%)\nIowa\n7\nIll.\n22\nInd.\n12"
+    },
+    {
+      "number": 28,
+      "part": "I",
+      "text": "What is one reason for the conditions illustrated in this graphic?",
+      "choices": [
+        "Labor unions have consistently demanded more Chinese imports.",
+        "China has outsourced many of its technology jobs to America.",
+        "Companies in China often have lower production costs.",
+        "Answers to the Short-Essay Questions (29 and 30) and the Civic Literacy Essay Question (37) are to be written in the separate essay booklet. Part II SHORT-ESSAY QUESTIONS (SEQs) These Short-Essay Questions are based on the accompanying documents and are designed to test your ability to work with historical documents. Each Short-Essay Question set consists of two documents. Some of these documents have been edited for the purposes of these questions. Keep in mind that the language and images used in a document may reflect the historical context of the time in which it was created. SEQ Set 1 (Question 29) Task: Read and analyze the following documents, applying your social studies knowledge and skills to write a short essay of two or three paragraphs in which you: • Describe the historical context surrounding these documents • Identify and explain the relationship between the events and/or ideas found in these documents (Cause and Effect, or Similarity/Difference, or Turning Point) In developing your short-essay answer of two or three paragraphs, be sure to keep these explanations in mind: Describe means “to illustrate something in words or tell about it.” Historical Context refers to “the relevant historical circumstances surrounding or connecting the events, ideas, or developments in these documents.” Identify means “to put a name to or to name.” Explain means “to make plain or understandable; to give reasons for or causes of; to show the logical development or relationship of.” Types of Relationships: Cause refers to “something that contributes to the occurrence of an event, the rise of an idea, or the bringing about of a development.” Effect refers to “what happens as a consequence (result, impact, outcome) of an event, an idea, or a development.” Similarity tells how “something is alike or the same as something else.” Difference tells how “something is not alike or not the same as something else.” Turning Point is “a major event, idea, or historical development that brings about significant change. It can be local, regional, national, or global.” SEQ Set 1 Directions (Question 29): Read and analyze the following documents before writing your short essay in the separate essay booklet. Document 1 . . . We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.—That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed,— That whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to institute new Government, laying its foundation on such principles and organizing its powers in such form, as to them shall seem most likely to effect their Safety and Happiness. Prudence, indeed, will dictate that Governments long established should not be changed for light and transient [fleeting] causes. . . . But when a long train of abuses and usurpations, pursuing invariably the same Object evinces [demonstrates] a design to reduce them under absolute Despotism, it is their right, it is their duty, to throw off such Government, and to provide new Guards for their future security. . . . Source: Declaration of Independence, July 4, 1776 (adapted) Document 2 We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America. . . . Source: Preamble, United States Constitution, 1787 SEQ Set 1 (Question 29) Task: Based on your reading and analysis of these documents, apply your social studies knowledge and skills to write a short essay of two or three paragraphs in which you: • Describe the historical context surrounding these documents • Identify and explain the relationship between the events and/or ideas found in these documents (Cause and Effect, or Similarity/Difference, or Turning Point) Guidelines: In your short essay, be sure to • Develop all aspects of the task • Incorporate relevant outside information • SEQ Set 2 (Question 30) Task: Read and analyze the following documents, applying your social studies knowledge and skills to write a short essay of two or three paragraphs in which you: • Describe the historical context surrounding Documents 1 and 2 • Analyze Document 1 and explain how audience, or purpose, or bias, or point of view affects this document’s use as a reliable source of evidence In developing your short-essay answer of two or three paragraphs, be sure to keep these explanations in mind: Describe means “to illustrate something in words or tell about it.” Historical Context refers to “the relevant historical circumstances surrounding or connecting the events, ideas, or developments in these documents.” Analyze means “to examine a document and determine its elements and its relationships.” Explain means “to make plain or understandable; to give reasons for or causes of; to show the logical development or relationship of.” SEQ Set 2 Directions (Question 30): Read and analyze the following documents before writing your short essay in the separate essay booklet. Document 1 Bruce Craven is responding to one of President Franklin D. Roosevelt’s fireside chats. July 25, 1933 Dear Mr. President; . . . The forgotten man has been forgotten, if he was ever really remembered. I happen to be an approved attorney for the Federal Land Bank, and on publication of the information about the new loan legislation, the little man came to see me vainly hoping that at last he had been remembered. He is representative of thousands of farmers in North Carolina, owning maybe 50 acres of land and doing all of his own work, and about to lose his farm under a mortgage. But to get the loan he is obliged to pay $20 in advance for appraisals, and another $10 for a survey, and he no more has that much cash than he has the moon. I have written to everyone from Mr. [Treasury Secretary Henry] Morgenthau on down about this, and no one is interested. The prevailing idea seems to be that if a man is that poor, he should stay poor. Before any of this loan and public works legislation was enacted, I wrote you that you ought to put at least one human being in each supervising body, and by that I meant a man who actually knows there is a “little man” in this nation and that he never has had a fair chance, and that he deserves one. I hope yet that somehow you may remember this forgotten little man, who has no one in high places to befriend him. Respectfully yours, Bruce Craven Trinity, North Carolina Source: Levine and Levine, The People and the President: America’s Conversation with FDR, Beacon Press, 2002 Document 2 Source: C. D. Batchelor, New York Daily News, October 11, 1936 “Yes, You Remembered Me” SEQ Set 2 (Question 30) Task: Based on your reading and analysis of these documents, apply your social studies knowledge and skills to write a short essay of two or three paragraphs in which you: • Describe the historical context surrounding Documents 1 and 2 • Analyze Document 1 and explain how audience, or purpose, or bias, or point of view affects this document’s use as a reliable source of evidence Guidelines: In your short essay, be sure to • Develop all aspects of the task • Incorporate relevant outside information • Part III CIVIC LITERACY ESSAY (Questions 31–37) This Civic Literacy Essay Question is based on the accompanying documents. The question is designed to test your ability to work with historical documents. Some of these documents have been edited for the purpose of this question. As you analyze the documents, take into account the source of each document and any point of view that may be presented in the document. Keep in mind that the language and images used in a document may reflect the historical context of the time in which it was created. Historical Context: Government Regulation of Business Throughout United States history, many constitutional and civic issues have been debated by Americans. These debates have resulted in efforts by individuals, groups, and governments to address these issues. These efforts have achieved varying degrees of success. One of these constitutional and civic issues is the government regulation of business. Task: Read and analyze the documents in . Using information from the documents and your knowledge of United States history, answer the questions that follow each document in . Your answers to the questions will help you write the essay in which you will be asked to • Describe the historical circumstances surrounding this constitutional or civic issue • Explain efforts by individuals, groups, and/or governments to address this constitutional or civic issue • Discuss the extent to which the efforts were successful In developing your answers to Part III, be sure to keep these general definitions in mind: (a) describe means “to illustrate something in words or tell about it” (b) explain means “to make plain or understandable; to give reasons for or causes of; to show the logical development or relationships of” (c) discuss means “to make observations about something using facts, reasoning, and argument; to present in some detail” NAME __________________________________ SCHOOL ________________________________ Civic Literacy Essay Short-Answer Questions (31–36) Directions: Analyze the documents and answer the short-answer questions that follow each document in the space provided. Document 1a Source: Frank Beard, The Judge, July 19, 1884 (adapted) Document 1b . . . In my Message to the present Congress at its first session I discussed at length the question of the regulation of those big corporations commonly doing an interstate business, often with some tendency to monopoly, which are popularly known as trusts. . . . We can do nothing of good in the way of regulating and supervising these corporations until we fix clearly in our minds that we are not attacking the corporations, but endeavoring to do away with any evil in them. We are not hostile to them; we are merely determined that they shall be so handled as to subserve [serve] the public good. We draw the line against misconduct, not against wealth. . . . No more important subject can come before the Congress than this of the regulation of interstate business. . . The power of the Congress to regulate interstate commerce is an absolute and unqualified grant, and without limitations other than those prescribed by the Constitution. The Congress has constitutional authority to make all laws necessary and proper for executing this power, and I am satisfied that this power has not been exhausted by any legislation now on the statute books. It is evident, therefore, that evils restrictive of commercial freedom and entailing restraint upon national commerce fall within the regulative power of the Congress, and that a wise and reasonable law would be a necessary and proper exercise of Congressional authority to the end that such evils should be eradicated. . . . Source: President Theodore Roosevelt, Second Annual Message to Congress, December 2, 1902"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/august-2025/context_28_28.png",
+      "context": "Base your answer to question 28 on the graphic below and on your knowledge of social studies.\nSource: “US Trade Deficit With China and Why It’s So High,” The Balance, 2020 (adapted)\nTotal U.S. imports from China: $452.2 billion\nTotal U.S. exports to China: $106.6 billion\nLargest U.S. Imports\nLargest U.S. Exports\nComputers\nCell phones\nApparel and footwear\nCommercial aircraft\nSoybeans\nSemiconductors"
+    },
+    {
+      "number": 31,
+      "part": "II",
+      "type": "written",
+      "text": "Based on these documents, what is one historical circumstance surrounding the government regulation of business? Document 2 . . . I deny emphatically the assertion that opportunity has been restricted or individual effort stifled by reason of the growth of the trusts. On the contrary, the trusts have opened wider avenues and greater opportunities to the young men of to-day than those of any other generation ever enjoyed. In the old days, before the union of interests, murderous competition made any business venture precarious; but aside from that, through lack of time, opportunity, and capital, the young man was kept within a very restricted field. It is combination that has produced the capital to open up mines and factories, to build great industrial plants and the monster wholesale and retail establishments. It is combination and capital that have sent the railroads shooting in a hundred different directions all over the continent. . . . Yes, decidedly, the opportunities for the young American boy are greater to-day than they have ever been before; and no boy, however lowly—the barefoot country boy, the humble newsboy, the child of the tenement—need despair. I see in each of them infinite possibilities. They have but to master the knack of economy, thrift, honesty, and perseverance, and success is theirs. Source: J. D. Rockefeller, “Opportunity in America,” Cosmopolitan, September 1, 1907",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/august-2025/q31.png"
+    },
+    {
+      "number": 32,
+      "part": "II",
+      "type": "written",
+      "text": "What is one reason John D. Rockefeller believed that trusts were good for the country? Document 3 . . . Journalism and publicity played important roles in promoting the goals of the progressives, especially with regard to corruption in government and the monopolistic practices of business and industry. During the period, scores of articles appeared in magazines—revealing the truth, as the reformers saw it—about the way America was really ruled. Novels were also written to expose evil. The use of journalism to further a social cause was made possible by new magazines of mass circulation, a number of them counting their readers in the hundreds of thousands. Such magazines included McClure’s, Munsey’s, Everybody’s, Cosmopolitan, Collier’s, and the American Magazine. The men and women who wrote these articles were called muckrakers, although the name was applied some time after they began their work. It was applied to them in 1906 by Theodore Roosevelt who, while basically on their side, feared their revelations would get people too worked up and indignant. . . . Source: Fon Boardman, America and the Progressive Era, 1900–1917, Henry Z. Walck, Inc., 1970",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/august-2025/q32.png"
+    },
+    {
+      "number": 33,
+      "part": "II",
+      "type": "written",
+      "text": "Based on this document, what was one effort made to address the government regulation of business? Document 4 The Northern Securities Company was a combination of three railroads that monopolized transportation in several western states. Theodore Roosevelt considered the company to be in violation of the Sherman Antitrust Act and, in 1904, the Supreme Court agreed. . . . More sophisticated than most Progressives, Roosevelt recognized that the large corporation was a fact of modern economic life and that a general rise in the standard of living depended far more on increased productivity than on radical redistribution of existing wealth. Rather than follow the common Progressive line that by their nature all trusts were inherently evil, he divided them into “good” and “bad” trusts. If a trust was charging fair prices and offering good service, he favored allowing it to continue. If it was restraining trade and jacking up prices, then it was evil. The line was to be drawn on conduct, not bigness. Roosevelt and Roosevelt alone decided which trust was good and which was bad, however. Northern Securities, he decided, was bad—and should be broken up. Roosevelt also advocated selective prosecutions because the government did not have enough lawyers to prosecute all monopolies and because he realized that the conservatism of the courts would make all prosecutions difficult. . . . Specifically, Roosevelt called for the establishment of a Bureau of Corporations in a Cabinet-level Department of Commerce to determine if regulation was warranted—a program he had advocated as governor of New York. The bureau would provide the president with information on the trusts, which he could at his own discretion make public and present to the Justice Department as a basis for indictments. . . . Source: Nathan Miller, Theodore Roosevelt: A Life, William Morrow and Company, 1992",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/august-2025/q33.png"
+    },
+    {
+      "number": 34,
+      "part": "II",
+      "type": "written",
+      "text": "According to Nathan Miller, what was one effort made to address the government regulation of business? Document 5 . . . Roosevelt’s brand of progressivism put him foursquare in the middle of the national mood: for while people wanted change, they did not want radical change, and while Roosevelt’s reforms were progressive, they were a conservative sort of progressivism that policed more by threat than by action (it was TR who declared the presidency as a “bully pulpit”), more by regulation than by prosecution, and used power more symbolically and rhetorically than in fact. In a very public confrontation, Roosevelt did prosecute John D. Rockefeller and J. P. Morgan, two of the most celebrated titans of American business, for their railroad monopoly in the Northwest; he righteously took the side of labor and the consumer in the great coal strike of 1902; and by 1906, two years after he had been elected in his own right, TR increased the pace of reform by creating standards for food and drugs, tackling the corruption in the meat industry (in response to novelist Upton Sinclair’s best-selling The Jungle), and, in the cause that he perhaps held dearest, aggressively limiting development of public lands (he would double the number of national parks and establish fifty-one wild bird refuges). . . . Source: Jennings and Brewster, The Century, Doubleday, 1998",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/august-2025/q34.png"
+    },
+    {
+      "number": 35,
+      "part": "II",
+      "type": "written",
+      "text": "Based on this document, what is one result of efforts to address the government regulation of business? Document 6 . . . America’s prosperity is built on hard work, open markets, and fair competition. But right now we’re facing a monopoly problem as dominant digital platforms like Amazon increasingly use their power to increase prices, preference their own products and services, and harm small businesses. These anticompetitive practices are bad for consumers, entrepreneurs, and businesses, and I commend the Federal Trade Commission for taking action. The case for reinvigorating competition policy and putting in place rules of the road for Big Tech companies is clear. I will continue to push for updates to the antitrust laws, including the bipartisan American Innovation and Choice Online Act, to strengthen our economy and make sure consumers can get the fair treatment they deserve. Source: Senator Amy Klobuchar, Statement on the Antitrust Lawsuit Against Amazon, September 26, 2023",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/august-2025/q35.png"
+    },
+    {
+      "number": 36,
+      "part": "II",
+      "type": "written",
+      "text": "According to this document, what is one result of efforts to address the government regulation of business? Civic Literacy Essay Question (37) Directions: Write a well-organized essay that includes an introduction, several paragraphs, and a conclusion. Use evidence from at least four documents in the body of the essay. Support your response with relevant facts, examples, and details. Include additional outside information. Historical Context: Government Regulation of Business Throughout United States history, many constitutional and civic issues have been debated by Americans. These debates have resulted in efforts by individuals, groups, and governments to address these issues. These efforts have achieved varying degrees of success. One of these constitutional and civic issues is the government regulation of business. Task: Using information from the documents and your knowledge of United States history, write an essay in which you • Describe the historical circumstances surrounding this constitutional or civic issue • Explain efforts by individuals, groups, and/or governments to address this constitutional or civic issue • Discuss the extent to which the efforts were successful Guidelines: In your essay, be sure to • Develop all aspects of the task • Explain at least two efforts to address the issue • Incorporate information from at least four documents • Incorporate relevant outside information • Support the theme with relevant facts, examples, and details • Use a logical and clear plan of organization, including an introduction and a conclusion that are beyond a restatement of the theme REGENTS EXAM IN U.S. HISTORY AND GOVERNMENT REGENTS EXAM IN U.S. HISTORY AND GOVERNMENT Printed on Recycled Paper",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/august-2025/q36.png"
+    }
+  ]
+}

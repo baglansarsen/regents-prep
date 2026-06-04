@@ -1,0 +1,448 @@
+// Auto-generated raw wire-up from output/data/global-history/june-2019.json
+// Real extracted questions; explanation/diveDeep enrichment is a later pass.
+export default {
+  "id": "gh-jun-2019",
+  "subject": "global-history",
+  "year": 2019,
+  "session": "June",
+  "totalMinutes": 180,
+  "questions": [
+    {
+      "number": 1,
+      "part": "I",
+      "text": "Based on this passage, one way the castle at Edo and the palace at Versailles are similar is that both",
+      "choices": [
+        "became symbols of power and wealth",
+        "developed into monastic centers of learning",
+        "were meant to provide protection and prevent attacks",
+        "served as monuments to the military"
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_1_2.png",
+      "context": "Base your answers to questions 1 and 2 on the passage below and on your knowledge of social studies.\nIn the very heart of Tokyo sits the imperial palace, site of the former \nEdo Castle. Inside a colossal moat with ramparts that dwarf anything \nseen in Europe, vast open spaces enclose the last fragments of one of the \nworld’s most imposing seventeenth-century monuments. Across the globe \nin France, Louis XIV’s palace and gardens of Versailles form a similar \nimpression of artiﬁ cial mastery of nature and society. Miles of formal \ngardens punctuated [decorated] with fountains and statuary surround a \npalace known for its cold magniﬁ cence, with the entire ensemble of town, \npalace, and park orienting itself around a single, central focal point: the \nSun King’s bedroom. Each complex symbolizes a system of power. Edo \nevokes [brings to mind] the Tokugawa rule by status, which decreed that \nthe daimyo lords, who were themselves forced to spend alternate years in \nEdo away from their regional domains, lived administratively and spatially \nsegregated from the various other categories of subjects, all ranged in \na pattern of residential sectors spiraling around the castle. Versailles, in \nsimilar fashion, bespeaks [indicates] the domestication of the French \naristocracy in a “gilded cage,” where they scrambled for favors while \nthe Sun King undermined their authority and deprived them of their \nindependence. . . .\n— William Beik, “Louis XIV and the Cities,” Edo and Paris:\nUrban Life and the State in the Early Modern Era, \nCornell University Press, 1994"
+    },
+    {
+      "number": 2,
+      "part": "I",
+      "text": "Which claim can best be supported by this passage?",
+      "choices": [
+        "The more independent the nobles were the higher their status.",
+        "Nobles maintained their authority by remaining isolated.",
+        "Rulers controlled their nobles by inﬂ uencing where they lived.",
+        "Declaration of the Rights of Man and of the Citizen – 1789 Articles: 1. Men are born and remain free and equal in rights. Social distinctions may be founded only upon the general good. 2. The aim of all political association is the preservation of the natural and imprescriptible [inalienable] rights of man. These rights are liberty, property, security, and resistance to oppression. . . . 4. Liberty consists in the freedom to do everything which injures no one else; hence the exercise of the natural rights of each man has no limits except those which assure to the other members of the society the enjoyment of the same rights. These limits can only be determined by law. . . . 6. Law is the expression of the general will. Every citizen has a right to participate personally, or through his representative, in its foundation. It must be the same for all, whether it protects or punishes. All citizens, being equal in the eyes of the law, are equally eligible to all dignities and to all public positions and occupations, according to their abilities, and without distinction except that of their virtues and talents. . . . Source: The Avalon Project at Yale Law School Declaration of the Rights of Woman and Female Citizen – 1791 FIRST ARTICLE Woman is born free and remains equal to man in rights. Social distinctions can only be founded on common service. II The aim of all political associations is to preserve the natural and inalienable rights of Woman and Man: these are the rights to liberty, ownership, safety and, above all, resistance to oppression. . . . IV Liberty and justice lie in rendering everything which belongs to others as of right. Thus the exercise of woman’s natural rights has no limit other than the perpetual tyranny of man’s opposing them: these limits must be reformed by the laws of nature and reason. . . . VI The Law must be the expression of the general will; all citizens, female and male, should concur [agree] personally or through their representatives in its formation, and it must be the same for all. All citizens, being equal in its eyes, must be equally eligible to all honours, positions and public posts according to their abilities, and with no other distinction other than those of their virtues and talents. . . . Source: Olympe de Gouges, 1791"
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_1_2.png",
+      "context": "Base your answers to questions 1 and 2 on the passage below and on your knowledge of social studies.\nIn the very heart of Tokyo sits the imperial palace, site of the former \nEdo Castle. Inside a colossal moat with ramparts that dwarf anything \nseen in Europe, vast open spaces enclose the last fragments of one of the \nworld’s most imposing seventeenth-century monuments. Across the globe \nin France, Louis XIV’s palace and gardens of Versailles form a similar \nimpression of artiﬁ cial mastery of nature and society. Miles of formal \ngardens punctuated [decorated] with fountains and statuary surround a \npalace known for its cold magniﬁ cence, with the entire ensemble of town, \npalace, and park orienting itself around a single, central focal point: the \nSun King’s bedroom. Each complex symbolizes a system of power. Edo \nevokes [brings to mind] the Tokugawa rule by status, which decreed that \nthe daimyo lords, who were themselves forced to spend alternate years in \nEdo away from their regional domains, lived administratively and spatially \nsegregated from the various other categories of subjects, all ranged in \na pattern of residential sectors spiraling around the castle. Versailles, in \nsimilar fashion, bespeaks [indicates] the domestication of the French \naristocracy in a “gilded cage,” where they scrambled for favors while \nthe Sun King undermined their authority and deprived them of their \nindependence. . . .\n— William Beik, “Louis XIV and the Cities,” Edo and Paris:\nUrban Life and the State in the Early Modern Era, \nCornell University Press, 1994"
+    },
+    {
+      "number": 3,
+      "part": "I",
+      "text": "Which political philosophy is best supported by both documents?",
+      "choices": [
+        "Rule of law represents a social contract with the people.",
+        "Tyranny encourages liberty and security.",
+        "Separation of powers guarantees people fair treatment.",
+        "Oppression promotes the general will."
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_3_4.png",
+      "context": "Base your answers to questions 3 and 4 on the documents below and on your knowledge of social studies."
+    },
+    {
+      "number": 4,
+      "part": "I",
+      "text": "Which event most directly inﬂ uenced the writing of both documents?",
+      "choices": [
+        "Iranian Revolution",
+        "Cuban Revolution",
+        "French Revolution",
+        ""
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_3_4.png",
+      "context": "Base your answers to questions 3 and 4 on the documents below and on your knowledge of social studies."
+    },
+    {
+      "number": 5,
+      "part": "I",
+      "text": "What is the most likely purpose of this document?",
+      "choices": [
+        "to highlight the beneﬁ ts of free market",
+        "to record the negative effects of child labor",
+        "to minimize the impacts of agricultural innovations",
+        "to inspire social and political reform"
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_5_6.png",
+      "context": "Base your answers to questions 5 and 6 on the passage and illustration below and on your knowledge of \nsocial studies.\n. . . “I started from Cork, by the mail \n[coach] (says our informant), for \nSkibbereen and saw little until we came \nto Clonakilty, where the coach stopped \nfor breakfast; and here, for the ﬁ rst \ntime, the horrors of the poverty became \nvisible, in the vast number of famished \npoor, who ﬂ ocked around the coach to \nbeg alms: amongst them was a woman \ncarrying in her arms the corpse of a ﬁ ne \nchild, and making the most distressing \nappeal to the passengers for aid to enable \nher to purchase a cofﬁ n and bury her \ndear little baby. This horrible spectacle \ninduced me to make some inquiry about \nher, when I learned from the people of \nthe hotel that each day brings dozens of \nsuch applicants into the town. . . .”\nSource: James Mahony, “Sketches in the West of Ireland,” The Illustrated London News, February 13, 1847 \n(adapted)\n\nGlobal Hist. & Geo. II – June ’19 \n[5] \n[OVER]"
+    },
+    {
+      "number": 6,
+      "part": "I",
+      "text": "The conditions described in this passage directly resulted in",
+      "choices": [
+        "Ireland invading Britain",
+        "millions of Irish emigrating to the United States",
+        "most landlords forgiving the rent the Irish owed",
+        "Britain agreeing to withdraw from Ireland"
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_5_6.png",
+      "context": "Base your answers to questions 5 and 6 on the passage and illustration below and on your knowledge of \nsocial studies.\n. . . “I started from Cork, by the mail \n[coach] (says our informant), for \nSkibbereen and saw little until we came \nto Clonakilty, where the coach stopped \nfor breakfast; and here, for the ﬁ rst \ntime, the horrors of the poverty became \nvisible, in the vast number of famished \npoor, who ﬂ ocked around the coach to \nbeg alms: amongst them was a woman \ncarrying in her arms the corpse of a ﬁ ne \nchild, and making the most distressing \nappeal to the passengers for aid to enable \nher to purchase a cofﬁ n and bury her \ndear little baby. This horrible spectacle \ninduced me to make some inquiry about \nher, when I learned from the people of \nthe hotel that each day brings dozens of \nsuch applicants into the town. . . .”\nSource: James Mahony, “Sketches in the West of Ireland,” The Illustrated London News, February 13, 1847 \n(adapted)\n\nGlobal Hist. & Geo. II – June ’19 \n[5] \n[OVER]"
+    },
+    {
+      "number": 7,
+      "part": "I",
+      "text": "A historian could best use this passage to study which topic of World War I?",
+      "choices": [
+        "events that started the war",
+        "impact of combat on civilians",
+        "equipment utilized by soldiers",
+        "propaganda that supported the war effort"
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_7_8.png",
+      "context": "Base your answers to questions 7 and 8 on the passage below and on your knowledge of social studies.\n. . . At times, gas has been known to travel, with dire results, ﬁ fteen miles \nbehind the lines.\n \nA gas, or smoke helmet, as it is called, at the best is a vile-smelling thing, \nand it is not long before one gets a violent headache from wearing it.\n \nOur eighteen-pounders were bursting in No Man’s Land, in an effort, by \nthe artillery, to disperse the gas clouds.\n \nThe ﬁ re step was lined with crouching men, bayonets ﬁ xed, and bombs \nnear at hand to repel the expected attack.\n \nOur artillery had put a barrage of curtain ﬁ re on the German lines, to try \nand break up their attack and keep back re-inforcements.\n \nI trained my machine gun on their trench and its bullets were raking the \nparapet [spraying the wall]. \n \nThen over they came, bayonets glistening. In their respirators, which \nhave a large snout in front, they looked like some horrible nightmare. . . .\n— Arthur Empey, “Over the Top,” G. P. Putnam’s Sons, 1917"
+    },
+    {
+      "number": 8,
+      "part": "I",
+      "text": "Which claim can best be supported by this passage?",
+      "choices": [
+        "New technology made warfare more destructive.",
+        "Warfare had a limited impact on the environment.",
+        "Countries engaged in war were punished for their actions.",
+        ""
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_7_8.png",
+      "context": "Base your answers to questions 7 and 8 on the passage below and on your knowledge of social studies.\n. . . At times, gas has been known to travel, with dire results, ﬁ fteen miles \nbehind the lines.\n \nA gas, or smoke helmet, as it is called, at the best is a vile-smelling thing, \nand it is not long before one gets a violent headache from wearing it.\n \nOur eighteen-pounders were bursting in No Man’s Land, in an effort, by \nthe artillery, to disperse the gas clouds.\n \nThe ﬁ re step was lined with crouching men, bayonets ﬁ xed, and bombs \nnear at hand to repel the expected attack.\n \nOur artillery had put a barrage of curtain ﬁ re on the German lines, to try \nand break up their attack and keep back re-inforcements.\n \nI trained my machine gun on their trench and its bullets were raking the \nparapet [spraying the wall]. \n \nThen over they came, bayonets glistening. In their respirators, which \nhave a large snout in front, they looked like some horrible nightmare. . . .\n— Arthur Empey, “Over the Top,” G. P. Putnam’s Sons, 1917"
+    },
+    {
+      "number": 9,
+      "part": "I",
+      "text": "Which point of view is expressed in this illustration?",
+      "choices": [
+        "The Russian Orthodox Church caused the fall of the Romanov dynasty.",
+        "The Russian government encouraged a diversity of opinions.",
+        "The Romanovs suppressed Enlightenment ideas within their empire.",
+        "The Russian Revolution made conditions worse for most minorities."
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_9_10.png",
+      "context": "Base your answers to questions 9 and 10 on the illustration below and on your knowledge of social studies.\nSource: Philip Dorf, Visualized World History, Oxford Book Company\n*Tsar – Czar"
+    },
+    {
+      "number": 10,
+      "part": "I",
+      "text": "Which long-term historical circumstance about Russia is shown in this illustration?",
+      "choices": [
+        "appeal of Marxism to the Russian nobles",
+        "autocratic rule of Russian royalty",
+        "rejection of the Pan-Slavism movement",
+        ""
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_9_10.png",
+      "context": "Base your answers to questions 9 and 10 on the illustration below and on your knowledge of social studies.\nSource: Philip Dorf, Visualized World History, Oxford Book Company\n*Tsar – Czar"
+    },
+    {
+      "number": 11,
+      "part": "I",
+      "text": "Which foreign policy action best explains the United States response to Cold War situations?",
+      "choices": [
+        "repeated reliance on appeasement",
+        "consistent attempts to bring about détente",
+        "a continuing pursuit of nonalignment",
+        "a long-term commitment to containment"
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_11_13.png",
+      "context": "Base your answers to questions 11 through 13 on the time line below and on your knowledge of social \nstudies.\nInteractions Between the United States of America and the Soviet Union\n1948–49\n1962\n1979\nIn June 1948, the Soviet \nUnion blockades democratic \nWest Berlin. The U.S. and its \nallies ﬂ y in supplies daily to \nkeep the city from starving. \nThe Soviets lift the blockade \nin May 1949.\nU.S. spy planes discover \nSoviet-built nuclear sites in \nCuba. After a tense 13-day \nstandoff with President John \nF. Kennedy, the Soviets \nremove the missiles.\nSoviet troops invade \nAfghanistan. Aided by \nthe U.S., Islamic ﬁ ghters \nwage a 10-year guerrilla \nwar against the Soviets, \nwho withdraw in 1989.\n— Carl Stoﬀ ers, “Are We Heading Toward a New Cold War?” New York Times Upfront,\nOctober 10, 2016 (adapted)"
+    },
+    {
+      "number": 12,
+      "part": "I",
+      "text": "Which claim best supports the pattern of interaction between the United States and the Soviet Union between 1948 and 1979?",
+      "choices": [
+        "Conﬂ ict occurred when one side tried to expand its sphere of inﬂ uence into another country or region.",
+        "Disagreements between the United States and the Soviet Union were quickly resolved without the deployment of the military.",
+        "Leaders of other countries encouraged conﬂ ict between the superpowers.",
+        "Peace and stability were created around the world as a result of the alliance between the United States and the Soviet Union."
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_11_13.png",
+      "context": "Base your answers to questions 11 through 13 on the time line below and on your knowledge of social \nstudies.\nInteractions Between the United States of America and the Soviet Union\n1948–49\n1962\n1979\nIn June 1948, the Soviet \nUnion blockades democratic \nWest Berlin. The U.S. and its \nallies ﬂ y in supplies daily to \nkeep the city from starving. \nThe Soviets lift the blockade \nin May 1949.\nU.S. spy planes discover \nSoviet-built nuclear sites in \nCuba. After a tense 13-day \nstandoff with President John \nF. Kennedy, the Soviets \nremove the missiles.\nSoviet troops invade \nAfghanistan. Aided by \nthe U.S., Islamic ﬁ ghters \nwage a 10-year guerrilla \nwar against the Soviets, \nwho withdraw in 1989.\n— Carl Stoﬀ ers, “Are We Heading Toward a New Cold War?” New York Times Upfront,\nOctober 10, 2016 (adapted)"
+    },
+    {
+      "number": 13,
+      "part": "I",
+      "text": "Which document would best provide information about the impact these events had on regions other than the United States and the Soviet Union?",
+      "choices": [
+        "Russian textbook published in 2015",
+        "television interview with President John F. Kennedy",
+        "memoirs of people living in East Germany, Cuba, and Afghanistan",
+        "line graph of the Soviet Union’s gross domestic product between 1948 and 1968"
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_11_13.png",
+      "context": "Base your answers to questions 11 through 13 on the time line below and on your knowledge of social \nstudies.\nInteractions Between the United States of America and the Soviet Union\n1948–49\n1962\n1979\nIn June 1948, the Soviet \nUnion blockades democratic \nWest Berlin. The U.S. and its \nallies ﬂ y in supplies daily to \nkeep the city from starving. \nThe Soviets lift the blockade \nin May 1949.\nU.S. spy planes discover \nSoviet-built nuclear sites in \nCuba. After a tense 13-day \nstandoff with President John \nF. Kennedy, the Soviets \nremove the missiles.\nSoviet troops invade \nAfghanistan. Aided by \nthe U.S., Islamic ﬁ ghters \nwage a 10-year guerrilla \nwar against the Soviets, \nwho withdraw in 1989.\n— Carl Stoﬀ ers, “Are We Heading Toward a New Cold War?” New York Times Upfront,\nOctober 10, 2016 (adapted)"
+    },
+    {
+      "number": 14,
+      "part": "I",
+      "text": "The actions taken by Gandhi reﬂ ect his commitment to which policy?",
+      "choices": [
+        "collectivization",
+        "religious intolerance",
+        "civil disobedience",
+        "censorship"
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_14_15.png",
+      "context": "Base your answers to questions 14 and 15 on the passage below and on your knowledge of social studies.\nFor a fortnight Gandhi’s march is intended to be only a demonstration. \nThen, when he expects to be at the sea, he will begin to produce salt from \nbrine [salt water], and so infringe [violate] the Government salt monopoly, \ndefying the Government to arrest and punish him. At the same time his \nsupporters everywhere have been incited by him to refuse to pay local \ntaxes.\n— Gandhi’s March to the Sea, The Guardian, 1930"
+    },
+    {
+      "number": 15,
+      "part": "I",
+      "text": "The actions of Gandhi and his supporters, as described in this passage, helped lead to the",
+      "choices": [
+        "banning of Western books and music",
+        "removal of British control from the subcontinent",
+        "development of an economic alliance for South Asian nations",
+        ""
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_14_15.png",
+      "context": "Base your answers to questions 14 and 15 on the passage below and on your knowledge of social studies.\nFor a fortnight Gandhi’s march is intended to be only a demonstration. \nThen, when he expects to be at the sea, he will begin to produce salt from \nbrine [salt water], and so infringe [violate] the Government salt monopoly, \ndefying the Government to arrest and punish him. At the same time his \nsupporters everywhere have been incited by him to refuse to pay local \ntaxes.\n— Gandhi’s March to the Sea, The Guardian, 1930"
+    },
+    {
+      "number": 16,
+      "part": "I",
+      "text": "Based on this passage, what does Mao believe about war from the communist perspective?",
+      "choices": [
+        "Wars are inevitable regardless of the society.",
+        "Wars can be just or unjust depending on their purpose.",
+        "Wars have a purpose in all societies because of a constant need for change.",
+        "Wars should be permitted when a government needs to obstruct progress."
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_16_17.png",
+      "context": "Base your answers to questions 16 and 17 on the passage below and on your knowledge of social studies.\n. . . History shows that wars are divided into two kinds, just and unjust. \nAll wars that are progressive [reformist] are just, and all wars that impede \n[obstruct] progress are unjust. We Communists oppose all unjust wars that \nimpede progress, but we do not oppose progressive, just wars. Not only do \nwe Communists not oppose just wars, we actively participate in them. As \nfor unjust wars, World War I is an instance in which both sides fought for \nimperialist interests; therefore the Communists of the whole world ﬁ rmly \nopposed that war. The way to oppose a war of this kind is to do everything \npossible to prevent it before it breaks out and, once it breaks out, to oppose \nwar with war, to oppose unjust war with just war, whenever possible. . . .\n— Mao Zedong, Quotations from Chairman Mao Tse-Tung,\nForeign Languages Press, Peking, 1966"
+    },
+    {
+      "number": 17,
+      "part": "I",
+      "text": "Based on this passage, what does Mao believe about World War I?",
+      "choices": [
+        "The philosophical beliefs of the competing countries challenged traditional ideals.",
+        "The potential political gains of European nations beneﬁ ted China.",
+        "The countries in the war were involved for their individual economic beneﬁ ts.",
+        ""
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_16_17.png",
+      "context": "Base your answers to questions 16 and 17 on the passage below and on your knowledge of social studies.\n. . . History shows that wars are divided into two kinds, just and unjust. \nAll wars that are progressive [reformist] are just, and all wars that impede \n[obstruct] progress are unjust. We Communists oppose all unjust wars that \nimpede progress, but we do not oppose progressive, just wars. Not only do \nwe Communists not oppose just wars, we actively participate in them. As \nfor unjust wars, World War I is an instance in which both sides fought for \nimperialist interests; therefore the Communists of the whole world ﬁ rmly \nopposed that war. The way to oppose a war of this kind is to do everything \npossible to prevent it before it breaks out and, once it breaks out, to oppose \nwar with war, to oppose unjust war with just war, whenever possible. . . .\n— Mao Zedong, Quotations from Chairman Mao Tse-Tung,\nForeign Languages Press, Peking, 1966"
+    },
+    {
+      "number": 18,
+      "part": "I",
+      "text": "Which leader’s political legacy most directly inﬂ uenced the situation shown in this 2004 cartoon?",
+      "choices": [
+        "Ayatollah Khomeini",
+        "Slobodan Milošević",
+        "Augusto Pinochet",
+        "Kemal Atatürk"
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_18_19.png",
+      "context": "Base your answers to questions 18 and 19 on the cartoon below and on your knowledge of social studies.\nSource: Kevin Kallaugher, The Economist, February 14, 2004 (adapted)"
+    },
+    {
+      "number": 19,
+      "part": "I",
+      "text": "What is the main idea of this 2004 cartoon?",
+      "choices": [
+        "Iran continues to build its modern infrastructure.",
+        "Iran is experiencing tensions between tradition and modernity.",
+        "Extensive ballot choices have weakened democracy in Iran.",
+        ""
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_18_19.png",
+      "context": "Base your answers to questions 18 and 19 on the cartoon below and on your knowledge of social studies.\nSource: Kevin Kallaugher, The Economist, February 14, 2004 (adapted)"
+    },
+    {
+      "number": 20,
+      "part": "I",
+      "text": "The tensions between North Korea and South Korea described in this passage began over",
+      "choices": [
+        "boundaries drawn during the Cold War",
+        "ethnic conﬂ ict on the Korean peninsula",
+        "trade disputes centered on ﬁ shing rights in the Yellow Sea",
+        "China’s purchase of submarine technology from North Korea"
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_20_22.png",
+      "context": "Base your answers to questions 20 through 22 on the passage below and on your knowledge of social studies.\n. . . Yet in recent months something has changed. Kim Jong Il, whose \nregime was responsible for the ﬁ rst test and who died in 2011, had only \na rudimentary [basic] nuclear device, useful mainly for blackmail. Under \nhis son, Kim Jong Un, the programme has rapidly gathered pace, with \ntwo nuclear tests this year alone. The North has also conducted 21 missile \ntests this year, including one from a submarine—a ﬁ rst. The ability to \nminiaturise a tactical nuclear weapon on a working missile could be just \ntwo or three years away, with an intercontinental ballistic missile capable \nof hitting California possible in ﬁ ve years’ time. Chun Yung-woo, a South \nKorean former national security adviser, talks of “growing outrage. . .after \nﬁ ve tests, a change of mood, a sense of urgency.”\n \nOnce, it was possible to hope that the North’s isolated regime would \nimplode [fail] under its own contradictions before it gained a proper \nnuclear capability. But the spread of informal markets and, for some North \nKoreans, a measure of prosperity may have strengthened the regime’s \nchances of survival. A consensus in Seoul is forming that Mr Kim now aims \nto dictate events on the peninsula—including the ability to demand that \nthe Americans leave. One senior foreign diplomat in Seoul says that for the \nﬁ rst time he hears people wondering openly whether there will be a major \nconﬂ ict on the peninsula in their lifetime. . . .\n— “A Shrimp Among Whales,” The Economist, October 27, 2016"
+    },
+    {
+      "number": 21,
+      "part": "I",
+      "text": "Based on this passage, in which way is the situation in the Korean peninsula comparable to the history of South Asia since World War II?",
+      "choices": [
+        "Peaceful protests led colonial powers to surrender their control of the region.",
+        "Increased prosperity has accompanied a shift from totalitarian to democratic rule.",
+        "Regional conﬂ icts have contributed to the proliferation of nuclear weapons.",
+        "Technological progress reduced tension and led to improved trade relationships."
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_20_22.png",
+      "context": "Base your answers to questions 20 through 22 on the passage below and on your knowledge of social studies.\n. . . Yet in recent months something has changed. Kim Jong Il, whose \nregime was responsible for the ﬁ rst test and who died in 2011, had only \na rudimentary [basic] nuclear device, useful mainly for blackmail. Under \nhis son, Kim Jong Un, the programme has rapidly gathered pace, with \ntwo nuclear tests this year alone. The North has also conducted 21 missile \ntests this year, including one from a submarine—a ﬁ rst. The ability to \nminiaturise a tactical nuclear weapon on a working missile could be just \ntwo or three years away, with an intercontinental ballistic missile capable \nof hitting California possible in ﬁ ve years’ time. Chun Yung-woo, a South \nKorean former national security adviser, talks of “growing outrage. . .after \nﬁ ve tests, a change of mood, a sense of urgency.”\n \nOnce, it was possible to hope that the North’s isolated regime would \nimplode [fail] under its own contradictions before it gained a proper \nnuclear capability. But the spread of informal markets and, for some North \nKoreans, a measure of prosperity may have strengthened the regime’s \nchances of survival. A consensus in Seoul is forming that Mr Kim now aims \nto dictate events on the peninsula—including the ability to demand that \nthe Americans leave. One senior foreign diplomat in Seoul says that for the \nﬁ rst time he hears people wondering openly whether there will be a major \nconﬂ ict on the peninsula in their lifetime. . . .\n— “A Shrimp Among Whales,” The Economist, October 27, 2016"
+    },
+    {
+      "number": 22,
+      "part": "I",
+      "text": "Which claim is best supported in this passage?",
+      "choices": [
+        "An arms race will help defuse tensions on the Korean peninsula.",
+        "Economic cooperation between the two Koreas would spread democracy to the North.",
+        "An invasion by the United States could remove Kim Jong Un from power with few casualties.",
+        ""
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_20_22.png",
+      "context": "Base your answers to questions 20 through 22 on the passage below and on your knowledge of social studies.\n. . . Yet in recent months something has changed. Kim Jong Il, whose \nregime was responsible for the ﬁ rst test and who died in 2011, had only \na rudimentary [basic] nuclear device, useful mainly for blackmail. Under \nhis son, Kim Jong Un, the programme has rapidly gathered pace, with \ntwo nuclear tests this year alone. The North has also conducted 21 missile \ntests this year, including one from a submarine—a ﬁ rst. The ability to \nminiaturise a tactical nuclear weapon on a working missile could be just \ntwo or three years away, with an intercontinental ballistic missile capable \nof hitting California possible in ﬁ ve years’ time. Chun Yung-woo, a South \nKorean former national security adviser, talks of “growing outrage. . .after \nﬁ ve tests, a change of mood, a sense of urgency.”\n \nOnce, it was possible to hope that the North’s isolated regime would \nimplode [fail] under its own contradictions before it gained a proper \nnuclear capability. But the spread of informal markets and, for some North \nKoreans, a measure of prosperity may have strengthened the regime’s \nchances of survival. A consensus in Seoul is forming that Mr Kim now aims \nto dictate events on the peninsula—including the ability to demand that \nthe Americans leave. One senior foreign diplomat in Seoul says that for the \nﬁ rst time he hears people wondering openly whether there will be a major \nconﬂ ict on the peninsula in their lifetime. . . .\n— “A Shrimp Among Whales,” The Economist, October 27, 2016"
+    },
+    {
+      "number": 23,
+      "part": "I",
+      "text": "Based on these photographs, which action taken by the governments of Chile and Argentina violated the principles of the Universal Declaration of Human Rights?",
+      "choices": [
+        "conducting trials by juries",
+        "blowing up factories",
+        "arresting known criminals",
+        "kidnapping political opponents"
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_23_24.png",
+      "context": "Base your answers to questions 23 and 24 on the photographs below and on your knowledge of social studies.\nA Stadium With a Bloody Past\nThe “Dirty War”\nChile: For weeks after the coup, the military \nrounded up political and social activists and \nsuspected supporters of the former president, \nSalvador Allende, and brought them to the \nconcrete edifice [structure], which opened \nin 1938 and hosted matches at the 1962 World \nCup. . . . \nArgentina: The Mothers of the Plaza de \nMayo. According to a report published in \n1986, almost 9,000 Argentines disappeared \nduring the “dirty war.”\nSource: David Waldstein, “In Chile·s National Stadium, \nDark Past Shadows Copa América Matches,” \nNew York Times, June 17, 2015 (adapted) \nSource: Gofen and Jermyn, Argentina, \nMarshall Cavendish, 2002 (adapted)"
+    },
+    {
+      "number": 24,
+      "part": "I",
+      "text": "In which way are the situations shown in these photographs similar?",
+      "choices": [
+        "Military regimes overthrew democratically elected leaders in both countries.",
+        "The United Nations sent peacekeeping forces that provided aid in both countries.",
+        "Marxist parties removed the military leaders holding power in both countries.",
+        ""
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_23_24.png",
+      "context": "Base your answers to questions 23 and 24 on the photographs below and on your knowledge of social studies.\nA Stadium With a Bloody Past\nThe “Dirty War”\nChile: For weeks after the coup, the military \nrounded up political and social activists and \nsuspected supporters of the former president, \nSalvador Allende, and brought them to the \nconcrete edifice [structure], which opened \nin 1938 and hosted matches at the 1962 World \nCup. . . . \nArgentina: The Mothers of the Plaza de \nMayo. According to a report published in \n1986, almost 9,000 Argentines disappeared \nduring the “dirty war.”\nSource: David Waldstein, “In Chile·s National Stadium, \nDark Past Shadows Copa América Matches,” \nNew York Times, June 17, 2015 (adapted) \nSource: Gofen and Jermyn, Argentina, \nMarshall Cavendish, 2002 (adapted)"
+    },
+    {
+      "number": 25,
+      "part": "I",
+      "text": "This cartoonist is comparing Vladimir Putin to",
+      "choices": [
+        "Czar Nicholas II",
+        "Joseph Stalin",
+        "Mikhail Gorbachev",
+        "Boris Yeltsin"
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_25_26.png",
+      "context": "Base your answers to questions 25 and 26 on the cartoon and excerpt below and on your knowledge of social \nstudies.\n. . .“Putin sincerely believes that the \nend of the Cold War was a source of \nhumiliation and misery for Russia and \nthat the duty of any Russian leader is \nto erase that humiliation and restore \nRussia to some of the superpower \nglory of the Soviet Union,” says Leon \nAron, Director of Russian Studies at \nthe American Enterprise Institute in \nWashington, D.C. . . .\n— Carl Stoﬀ ers, “Are We Heading Toward a New\nCold War?,” New York Times Upfront,\nOctober 10, 2016\nSource: Adam Zyglis, New York Times Upfront, October 10, 2016"
+    },
+    {
+      "number": 26,
+      "part": "I",
+      "text": "Which earlier historical development best reﬂ ects Putin’s strategy for rebuilding Russia’s prestige in the world?",
+      "choices": [
+        "granting of independence to former Soviet republics",
+        "removal of Soviet troops from Afghanistan",
+        "lifting of the Berlin blockade",
+        ""
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_25_26.png",
+      "context": "Base your answers to questions 25 and 26 on the cartoon and excerpt below and on your knowledge of social \nstudies.\n. . .“Putin sincerely believes that the \nend of the Cold War was a source of \nhumiliation and misery for Russia and \nthat the duty of any Russian leader is \nto erase that humiliation and restore \nRussia to some of the superpower \nglory of the Soviet Union,” says Leon \nAron, Director of Russian Studies at \nthe American Enterprise Institute in \nWashington, D.C. . . .\n— Carl Stoﬀ ers, “Are We Heading Toward a New\nCold War?,” New York Times Upfront,\nOctober 10, 2016\nSource: Adam Zyglis, New York Times Upfront, October 10, 2016"
+    },
+    {
+      "number": 27,
+      "part": "I",
+      "text": "According to this author, how did the minority white population maintain control over the majority black population in South Africa?",
+      "choices": [
+        "through military conscription of black South Africans",
+        "through divide and conquer techniques that kept tribes at odds",
+        "by enforcing the use of tribal languages so that tribes could not communicate",
+        "by allowing democracy within localized areas in the black South African community"
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_27_28.png",
+      "context": "Base your answers to questions 27 and 28 on the passage below and on your knowledge of social studies.\n \nThe genius of apartheid was convincing people who were the \noverwhelming majority to turn on each other. Apart hate, is what it was. \nYou separate people into groups and make them hate one another so you \ncan run them all.\n \nAt the time, black South Africans outnumbered white South Africans \nnearly ﬁ ve to one, yet we were divided into different tribes with different \nlanguages: Zulu, Xhosa, Tswana, Sotho, Venda, Ndebele, Tsonga, Pedi, \nand more. Long before apartheid existed these tribal factions clashed and \nwarred with one another. Then white rule used that animosity [hatred] \nto divide and conquer. All nonwhites were systematically classiﬁ ed into \nvarious groups and subgroups. Then these groups were given differing \nlevels of rights and privileges in order to keep them at odds. . . .\n— Trevor Noah, Born a Crime: Stories from a South African Childhood,\nSpiegel & Grau, 2016"
+    },
+    {
+      "number": 28,
+      "part": "I",
+      "text": "Since the end of apartheid, which problem continues to exist in South Africa?",
+      "choices": [
+        "inability of nonwhites to vote in elections",
+        "restricting educational instruction to Afrikaans",
+        "monopolizing of political power by white South Africans",
+        "Write your answers to questions 29-34b in the spaces provided. Use a pen with black or dark-blue ink to answer these questions. Part II SHORT-ANSWER CONSTRUCTED RESPONSE QUESTIONS (CRQ) These questions are based on the accompanying documents and are designed to test your ability to work with historical documents. Each Constructed Response Question (CRQ) Set is made up of 2 documents. Some of these documents have been edited for the purposes of this question. Keep in mind that the language and images used in a document may reﬂ ect the historical context of the time in which it was created. In developing your answers to Part II, be sure to keep these explanations in mind: Identify—means to put a name to or to name. Explain—means to make plain or understandable; to give reasons for or causes of; to show the logical development or relationship of something. Short-Answer CRQ Set 1 Structure • Question 29 uses Document 1 (Context) • Question 30 uses Document 2 (Source) • Question 31 uses Documents 1 and 2 (Relationship between documents) Short-Answer CRQ Set 2 Structure • Question 32 uses Document 1 (Context) • Question 33 uses Document 2 (Source) • Questions 34a and 34b use Documents 1 and 2 (Relationship between documents) NAME _____________________________________ SCHOOL ___________________________________ CRQ Set 1"
+      ],
+      "correct": null,
+      "image": "/images/exams/global-history/june-2019/context_27_28.png",
+      "context": "Base your answers to questions 27 and 28 on the passage below and on your knowledge of social studies.\n \nThe genius of apartheid was convincing people who were the \noverwhelming majority to turn on each other. Apart hate, is what it was. \nYou separate people into groups and make them hate one another so you \ncan run them all.\n \nAt the time, black South Africans outnumbered white South Africans \nnearly ﬁ ve to one, yet we were divided into different tribes with different \nlanguages: Zulu, Xhosa, Tswana, Sotho, Venda, Ndebele, Tsonga, Pedi, \nand more. Long before apartheid existed these tribal factions clashed and \nwarred with one another. Then white rule used that animosity [hatred] \nto divide and conquer. All nonwhites were systematically classiﬁ ed into \nvarious groups and subgroups. Then these groups were given differing \nlevels of rights and privileges in order to keep them at odds. . . .\n— Trevor Noah, Born a Crime: Stories from a South African Childhood,\nSpiegel & Grau, 2016"
+    },
+    {
+      "number": 29,
+      "part": "II",
+      "type": "written",
+      "text": "29",
+      "modelAnswer": null,
+      "image": "/images/exams/global-history/june-2019/context_29_29.png",
+      "context": "Base your answer to question 29 on Document 1 below and on your knowledge of social studies.\nDocument 1\nSource: Mrs. Ernest Ames, An ABC for Baby Patriots, \nDean & Sons, 1898 (adapted)"
+    },
+    {
+      "number": 30,
+      "part": "II",
+      "type": "written",
+      "text": "30",
+      "modelAnswer": null,
+      "image": "/images/exams/global-history/june-2019/context_30_30.png",
+      "context": "Base your answer to question 30 on Document 2 below and on your knowledge of social studies.\nDocument 2\nThe Discovery of India was written by Jawaharlal Nehru during his imprisonment at \nAhmadnagar Fort in British India from April to September 1944. Nehru was a leader in the \nIndian National Congress.\n \nThe Chief business of the East India Company in its early period, the very \nobject for which it was started, was to carry Indian manufactured goods—\ntextiles, etc., as well as spices and the like—from the East to Europe, where \nthere was a great demand for these articles. With the developments in industrial \ntechniques in England a new class of industrial capitalists rose there demanding \na change in this policy. The British market was to be closed to Indian products \nand the Indian market opened to British manufactures. The British parliament, \ninﬂ uenced by this new class, began to take a greater interest in India and the \nworking of the East India Company. To begin with, Indian goods were excluded \nfrom Britain by legislation, and as the company held a monopoly in the Indian \nexport business, this exclusion inﬂ uenced other foreign markets also. This was \nfollowed by vigorous attempts to restrict and crush Indian manufactures by \nvarious measures and internal duties which prevented the ﬂ ow of Indian goods \nwithin the country itself. British goods meanwhile had free entry. The Indian \ntextile industry collapsed, affecting vast numbers of weavers and artisans. The \nprocess was rapid in Bengal and Bihar; elsewhere it spread gradually with the \nexpansion of British rule and the building of railways. It continued throughout \nthe nineteenth century, breaking up other old industries also, shipbuilding, \nmetalwork, glass, paper, and many crafts.\n \nTo some extent this was inevitable as the older manufacturing came into \nconﬂ ict with the new industrial technique. But it was hastened by political and \neconomic pressure, and no attempt was made to apply the new techniques to \nIndia. Indeed every attempt was made to prevent this happening, and thus \nthe economic development of India was arrested [stopped] and the growth of \nthe new industry prevented. Machinery could not be imported into India. A \nvacuum was created in India which could only be ﬁ lled by British goods, and \nwhich also led to rapidly increasing unemployment and poverty. The classic \ntype of modern colonial economy was built up, India becoming an agricultural \ncolony of industrial England, supplying raw materials and providing markets for \nEngland’s industrial goods. . . .\nSource: Jawaharlal Nehru, The Discovery of India, The John Day Company, 1946"
+    },
+    {
+      "number": 31,
+      "part": "II",
+      "type": "written",
+      "text": "Identify and explain a cause-and-effect relationship associated with the historical developments in documents 1 and 2. Be sure to use evidence from both documents 1 and 2 CRQ Set 2 Directions (32-34b): Analyze the documents and answer the short-answer questions that follow each document in the space provided.",
+      "modelAnswer": null,
+      "image": "/images/exams/global-history/june-2019/q31.png",
+      "context": "Base your answer to question 31 on both Documents 1 and 2 and on your knowledge of social studies.\nCause—refers to something that contributes to the occurrence of an event, the \nrise of an idea, or the bringing about of a development.\nEffect—refers to what happens as a consequence (result, impact, outcome) of an \nevent, an idea, or a development."
+    },
+    {
+      "number": 32,
+      "part": "II",
+      "type": "written",
+      "text": "Explain the historical circumstances that led to the developments discussed in this excerpt from “China’s Foreign Policy.”",
+      "modelAnswer": null,
+      "image": "/images/exams/global-history/june-2019/context_32_32.png",
+      "context": "Base your answer to question 32 on Document 1 below and on your knowledge of social studies.\nDocument 1\nEconomic development has played a role in China’s efforts to establish its identity and to \nmaintain its security at different times in its history. Economic development policies have \naffected China’s relationship with foreigners. This excerpt focuses on economic development \nin China before Mao Zedong came to power and during the time Mao was in power.\n. . . Chinese economic and technological systems were backward compared \nto those of the West. This sense of vulnerability created the dominating \nissue of modern Chinese politics, the search for wealth and power. Left \nunsolved by previous governments, the problem remained to be addressed \nby the People’s Republic when it came to power [on October 1, 1949].\n \nTo develop without relying on foreign powers, Mao Zedong and his \ncolleagues devised a system modeled on Stalinism but with a number of \nunique features. They collectivized the land and organized the peasants \ninto communes. The party-state extracted capital from agriculture, used it \nto build state-owned industry, and returned the proﬁ ts to more industrial \ninvestment. This led to rapid industrial growth in the 1950s, although \ngrowth slowed later under the impact of the Great Leap Forward and the \nCultural Revolution. In three decades China made itself self-sufﬁ cient in \nnearly all resources and technologies.\n \nHowever, by the end of Mao’s life in 1976 China’s economy was \nstagnant [not advancing], and technology lagged twenty to thirty years \nbehind world standards and most Chinese lived in cramped quarters \nwith poor food and clothing, few comforts, and no freedoms. Much of \nAsia and the world had raced beyond China toward technical and social \nmodernity. . . .\nSource: “China’s Foreign Policy: The Historical Legacy and the Current Challenge,”\nAsia for Educators online, Columbia University, 2009"
+    },
+    {
+      "number": 33,
+      "part": "II",
+      "type": "written",
+      "text": "Based on this excerpt, Similarity—tells how something is alike or the same as something else. Difference—tells how something is not alike or not the same as something else. 34a-34b Using evidence from both Documents 1 and 2 and your knowledge of social studies: a) Identify a similarity or a difference between the economic development policies of Mao Zedong and those of Deng Xiaoping. b) Explain the similarity or difference you identiﬁ ed using evidence from both documents. 34a Score 34 Part III (Question 35) ENDURING ISSUES ESSAY This question is based on the accompanying documents. The question is designed to test your ability to work with historical documents. Some of these documents have been edited for the purposes of this question. As you analyze the documents, take into account the source of each document and any point of view that may be presented in the document. Keep in mind that the language and images used in a document may reﬂ ect the historical context of the time in which it was created. Directions: Read and analyze each of the ﬁ ve documents and write a well-organized essay that includes an introduction, several paragraphs, and a conclusion. Support your response with relevant facts, examples, and details based on your knowledge of social studies and evidence from the documents. An enduring issue is a challenge or problem that has been debated or discussed across time. An enduring issue is one that many societies have attempted to address with varying degrees of success. Task: • Identify and deﬁ ne an enduring issue raised by this set of documents • Argue why the issue you selected is signiﬁ cant and how it has endured across time In your essay, be sure to • Identify the enduring issue based on a historically accurate interpretation of at least three documents • Deﬁ ne the issue using relevant evidence from at least three documents • Argue that this is a signiﬁ cant issue that has endured by showing: – How the issue has affected people or has been affected by people – How the issue has continued to be an issue or has changed over time • Include relevant outside information from your knowledge of social studies In developing your answer to Part III, be sure to keep these explanations in mind: Identify—means to put a name to or to name. Deﬁ ne—means to explain features of a thing or concept so that it can be understood. Argue— Document 1 In this excerpt, the transformation of the British economy is discussed. For a few decades in the 19th century British manufactured goods dominated world trade. Most mass manufactured items were produced more efﬁ ciently and competitively in Britain than elsewhere. She also had the commercial, ﬁ nancial and political power to edge out rivals at home and abroad. In some industries, most notably textiles, massive changes took place in technology and in the organisation of production causing dramatic productivity growth. This in turn brought a steep decline in prices. In many other sectors more modest organisational improvements coupled with greater specialisation and the employment of cheap labour brought similar, though less dramatic, results. An unprecedented [extraordinary] range and variety of products thus came within the grasp of a new mass market both within Britain and overseas. No other country could at ﬁ rst compete so Britain became the workshop of the world. . . . Source: Pat Hudson, “The Workshop of the World,” BBC History online, March 29, 2011 Document 2 One of the major commodities exported from India to Britain was tea. . . . A growing industry, by 1900 there were around 4,000 tea estates in north and south India, as well as over 2,000 in Ceylon (now Sri Lanka). This popular drink generated a hugely proﬁ table industry, and a tea culture emerged in Britain with its own quintessentially [classically] English customs and rituals. . . . Source: Lipton Tea Advertisement, The Illustrated London News, September 17, 1892, as found in “Global Trade and Empire,” Asians in Britain, Document 3 George Soros is a Hungarian-American investor, businessman, and philanthropist. He has published books and articles on ﬁ nance and on public policy. . . . The disparity [difference] in the treatment of labor and capital is an essential feature of the global capitalist system as it is currently organized. Capital moves to countries where it ﬁ nds cheap labor and other favorable conditions. This helps those countries to develop; a number of them have made remarkable progress. Developed countries lose jobs, but the gains from trade allow new jobs, often with greater value added, to be created. There is also a certain amount of migration, both legal and illegal, to the rich countries to ﬁ ll jobs that cannot be ﬁ lled locally. But workers in the countries that offer cheap labor are often deprived of the right to organize and are mistreated in other ways. China is notorious in this respect. . . . Source: George Soros, George Soros On Globalization, PublicAﬀ airs, 2002 Document 4 Child Labor and Global Free Trade The minimum working age set in the International Labor Organization’s (ILO) Convention on Child Labor is 15, although in special circumstances it may be 14. Yet in 2000, the ILO estimated that there were 211 million children between the ages of 5 and 14 working around the world. This equates to just under one-ﬁ fth of all children in this age group. Of these children, about 73 million were younger than 10 years old. This seems like exploitation of the worst kind—and it often is. Compared to the WTO [World Trade Organization], the ILO is almost without power, prompting critics of globalization to argue for a greater role for the WTO in enforcing labor standards. Many labor violations have nothing to do with international trade and may have no impact on it. In many countries, for example, child labor is not seen as exploitation but as a normal part of family life. Children work alongside their parents and other relatives in extended family businesses. Others, less fortunate, work in factories, ﬁ elds, or mines. Some have argued for greater ratiﬁ cation and enforcement of ILO conventions. Although a worldwide legal ban on child labor might sound like a good idea, it could actually make matters worse, further driving struggling families into poverty. A recent agreement negotiated in Brazil suggests a possible solution. There, a successful pilot project pays subsidies to poor families if all the children in the family regularly attend school. A more recent proposal would reward girls with a savings account if they complete eight years of school. Source: Randall Frost, The Globalization of Trade, Smart Apple Media, 2004 Document 5 Guiyu is a town in China famous for recycling electronic waste (e-waste). Many involved in the e-waste business migrated from poorer regions in China to gain work with the hope of opening their own business. Andrew Blackwell visited Guiyu in 2011. . . . Theirs [the Han family] was one of thousands of similar workshops in town. Guiyu’s entire economy is based on tearing apart old electronics and reselling the components and raw materials. Walk the streets and you will see building after building with a workshop at ground level and family quarters on the upper ﬂ oors. It’s a dirty business. Computers are full of all kinds of things that are bad for you—things other than the Internet—and when you tear them apart, or melt them down, or saw them into pieces, a portion of those toxic substances is released. In a place like Guiyu, with what I’ll call relaxed workplace standards, you end up with workshops full of lead dust and other heavy metals and clouds of who the hell knows what ﬂ oating through the streets. The water is laced with PCBs and PBDEs and other hazardous acronyms. The air, the water, the dust—in Guiyu it comes with promises of cancer, nerve damage, and poisoned childhood development. Exporting toxic waste across borders, especially to developing countries, is supposed to be illegal. The Basel Convention, the treaty that outlaws it, was already nearly twenty years old by the time I visited Guiyu, in 2011. In the case of electronic waste, though, the convention is easy to circumvent [get around]. As the green-electronics coordinator at the ever-present Greenpeace has said, “the common way exporters get round existing regulations is to relabel e-waste as second-hand goods for recycling.” . . . Source: Andrew Blackwell, Visit Sunny Chernobyl, Rodale, 2012 OPTIONAL You may use the Planning Page organizer to plan your response if you wish, but do NOT write your essay response on this page. Writing on this Planning Page will NOT count toward your ﬁ nal score. Enduring Issues Planning Page My Enduring Issue is:__________________________________________________________________ Essay Requirements Yes Circle documents that apply One or two possible ideas for outside info Is this an issue supported by at least three documents? Which documents support this issue? 1 2 3 4 5 Which documents can be used to develop the deﬁ nition for this issue? 1 2 3 4 5 Has this issue signiﬁ cantly affected people or been affected by people? In which document or documents do you see this? 1 2 3 4 5 Has this issue endured across time or changed over time? In which document or documents do you see this? 1 2 3 4 5 Refer back to page 24 to review the task. Write your essay on the lined pages in the essay booklet. REGENTS EXAM IN GLOBAL HISTORY AND GEOGRAPHY II REGENTS EXAM IN GLOBAL HISTORY AND GEOGRAPHY II Printed on Recycled Paper",
+      "modelAnswer": null,
+      "image": "/images/exams/global-history/june-2019/context_33_33.png",
+      "context": "Base your answer to question 33 on Document 2 below and on your knowledge of social studies.\nDocument 2\nDeng Xiaoping was the most powerful leader in China from December 1978 until he stepped \ndown in 1992. In early 1992, Deng Xiaoping visited and gave talks in some southern Chinese \ncities.\n. . . The reason some people hesitate to carry out the reform and the open policy \nand dare not break new ground is, in essence, that they’re afraid it would mean \nintroducing too many elements of capitalism and, indeed, taking the capitalist \nroad. The crux of the matter is whether the road is capitalist or socialist. The chief \ncriterion for making that judgement should be whether it promotes the growth \nof the productive forces in a socialist society, increases the overall strength of the \nsocialist state and raises living standards. As for building special economic zones, \nsome people disagreed with the idea right from the start, wondering whether it \nwould not mean introducing capitalism. The achievements in the construction \nof Shenzhen have given these people a deﬁ nite answer: special economic zones \nare socialist, not capitalist. In the case of Shenzhen, the publicly owned sector \nis the mainstay of the economy, while the foreign-invested sector accounts for \nonly a quarter. And even in that sector, we beneﬁ t from taxes and employment \nopportunities. We should have more of the three kinds of foreign-invested \nventures [joint, cooperative and foreign-owned]. There is no reason to be afraid \nof them. So long as we keep level-headed, there is no cause for alarm. We have \nour advantages: we have the large and medium-sized state-owned enterprises \nand the rural enterprises. More important, political power is in our hands.\n \nSome people argue that the more foreign investment ﬂ ows in and the more \nventures of the three kinds are established, the more elements of capitalism \nwill be introduced and the more capitalism will expand in China. These people \nlack basic knowledge. At the current stage, foreign-funded enterprises in China \nare allowed to make some money in accordance with existing laws and policies. \nBut the government levies taxes on those enterprises, workers get wages from \nthem, and we learn technology and managerial skills. In addition, we can get \ninformation from them that will help us open more markets. Therefore, subject \nto the constraints of China’s overall political and economic conditions, foreign-\nfunded enterprises are useful supplements to the socialist economy, and in the \nﬁ nal analysis they are good for socialism. . . .\nSource: Deng Xiaoping, “Excerpts from Talks Given in Wuchang, Shenzhen, Zhuhai, and Shanghai,”\nJanuary 18–February 21, 1992, China Through A Lens online"
+    }
+  ]
+}

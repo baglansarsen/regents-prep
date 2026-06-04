@@ -1,0 +1,446 @@
+// Auto-generated raw wire-up from output/data/us-history/august-2023.json
+// Real extracted questions; explanation/diveDeep enrichment is a later pass.
+export default {
+  "id": "ush-aug-2023",
+  "subject": "us-history",
+  "year": 2023,
+  "session": "August",
+  "totalMinutes": 180,
+  "questions": [
+    {
+      "number": 1,
+      "part": "I",
+      "text": "The purpose of this statement was to",
+      "choices": [
+        "give reasons to support the ratification of the Constitution",
+        "question the power granted to Congress under the Constitution",
+        "decide which powers would be given to the president in the Constitution",
+        "encourage support for an amendment to limit personal taxation in the Constitution"
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/august-2023/context_1_2.png",
+      "context": "Base your answers to questions 1 and 2 on the passage below and on your knowledge of social studies.\n. . . My object is to consider that undefined, unbounded and immense power \nwhich is comprised [included] in the following clause—“And to make all laws \nwhich shall be necessary and proper for carrying into execution the foregoing \npowers, and all other powers vested by this constitution in the government \nof the United States; or in any department or offices thereof.” Under such \na clause as this, can anything be said to be reserved and kept back from \nCongress? . . .\nSource: Antifederalist Papers No. 46, November 2, 1788 (adapted)\nPart I\nAnswer all questions in this part.\nDirections (1–28): For each statement or question, record on your separate answer sheet the number of \nthe word or expression that, of those given, best completes the statement or answers the question."
+    },
+    {
+      "number": 2,
+      "part": "I",
+      "text": "Which provision in the Constitution is the author of this passage questioning?",
+      "choices": [
+        "due process",
+        "equal protection",
+        "elastic clause",
+        "rule of law U.S. Hist. & Gov’t. (Framework)"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/august-2023/context_1_2.png",
+      "context": "Base your answers to questions 1 and 2 on the passage below and on your knowledge of social studies.\n. . . My object is to consider that undefined, unbounded and immense power \nwhich is comprised [included] in the following clause—“And to make all laws \nwhich shall be necessary and proper for carrying into execution the foregoing \npowers, and all other powers vested by this constitution in the government \nof the United States; or in any department or offices thereof.” Under such \na clause as this, can anything be said to be reserved and kept back from \nCongress? . . .\nSource: Antifederalist Papers No. 46, November 2, 1788 (adapted)\nPart I\nAnswer all questions in this part.\nDirections (1–28): For each statement or question, record on your separate answer sheet the number of \nthe word or expression that, of those given, best completes the statement or answers the question."
+    },
+    {
+      "number": 3,
+      "part": "I",
+      "text": "The Constitution gives the power to determine presidential succession beyond the vice president to",
+      "choices": [
+        "the Supreme Court",
+        "the president’s cabinet",
+        "Congress",
+        "state governors"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/august-2023/context_3_4.png",
+      "context": "Base your answers to questions 3 and 4 on the excerpt below and on your knowledge of social studies.\n. . . No Person except a natural born Citizen, or a Citizen of the United States, \nat the time of the Adoption of this Constitution, shall be eligible to the Office \nof President; neither shall any Person be eligible to that Office who shall \nnot have attained to the Age of thirty five Years, and been fourteen Years a \nResident within the United States.\n\t\nIn Case of the Removal of the President from Office, or of his Death, \nResignation, or Inability to discharge the Powers and Duties of the said \nOffice, the Same shall devolve on [pass on to] the Vice President, and the \nCongress may by Law provide for the Case of Removal, Death, Resignation \nor Inability, both of the President and Vice President, declaring what Officer \nshall then act as President, and such Officer shall act accordingly, until the \nDisability be removed, or a President shall be elected. . . .\nSource: Article II, Section 1, United States Constitution"
+    },
+    {
+      "number": 4,
+      "part": "I",
+      "text": "The 22nd amendment, added in 1951, changed presidential eligibility by",
+      "choices": [
+        "establishing a two-term limit",
+        "raising the minimum age",
+        "requiring four years of college",
+        "ending the residency clause U.S. Hist. & Gov’t. (Framework)"
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/august-2023/context_3_4.png",
+      "context": "Base your answers to questions 3 and 4 on the excerpt below and on your knowledge of social studies.\n. . . No Person except a natural born Citizen, or a Citizen of the United States, \nat the time of the Adoption of this Constitution, shall be eligible to the Office \nof President; neither shall any Person be eligible to that Office who shall \nnot have attained to the Age of thirty five Years, and been fourteen Years a \nResident within the United States.\n\t\nIn Case of the Removal of the President from Office, or of his Death, \nResignation, or Inability to discharge the Powers and Duties of the said \nOffice, the Same shall devolve on [pass on to] the Vice President, and the \nCongress may by Law provide for the Case of Removal, Death, Resignation \nor Inability, both of the President and Vice President, declaring what Officer \nshall then act as President, and such Officer shall act accordingly, until the \nDisability be removed, or a President shall be elected. . . .\nSource: Article II, Section 1, United States Constitution"
+    },
+    {
+      "number": 5,
+      "part": "I",
+      "text": "In this address, President George Washington states that the United States can stay out of foreign entanglements because of its",
+      "choices": [
+        "ethnic diversity",
+        "well-established military",
+        "large industrial capacity",
+        "geographical location"
+      ],
+      "correct": 3,
+      "image": "/images/exams/us-history/august-2023/context_5_6.png",
+      "context": "Base your answers to questions 5 and 6 on the passage below and on your knowledge of social studies.\n. . . The great rule of conduct for us, in regard to foreign Nations is in \nextending our commercial relations to have with them as little political \nconnection as possible. So far as we have already formed engagements let \nthem be fulfilled with perfect good faith. Here let us stop.\n\t\nEurope has a set of primary interests, which to us have none, or a very \nremote relation. Hence she must be engaged in frequent controversies, the \ncauses of which are essentially foreign to our concerns. Hence therefore it \nmust be unwise in us to implicate ourselves, by artificial ties, in the ordinary \nvicissitudes [shifts] of her politics, or the ordinary combinations and collisions \nof her friendships, or enmities [hostilities].\n\t\nOur detached and distant situation invites and enables us to pursue a \ndifferent course. If we remain one People, under an efficient government, \nthe period is not far off, when we may defy material injury from external \nannoyance; when we may take such an attitude as will cause the neutrality \nwe may at any time resolve upon to be scrupulously [completely] respected; \nwhen belligerent nations, under the impossibility of making acquisitions \nupon us, will not lightly hazard the giving us provocation; when we may \nchoose peace or War as our interest guided by justice shall counsel. . . .\nSource: President George Washington, Farewell Address, 1796 (adapted)"
+    },
+    {
+      "number": 6,
+      "part": "I",
+      "text": "Based on this passage, President Washington would urge the United States to avoid",
+      "choices": [
+        "trade agreements",
+        "permanent political alliances",
+        "foreign travel",
+        "industrial development U.S. Hist. & Gov’t. (Framework)"
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/august-2023/context_5_6.png",
+      "context": "Base your answers to questions 5 and 6 on the passage below and on your knowledge of social studies.\n. . . The great rule of conduct for us, in regard to foreign Nations is in \nextending our commercial relations to have with them as little political \nconnection as possible. So far as we have already formed engagements let \nthem be fulfilled with perfect good faith. Here let us stop.\n\t\nEurope has a set of primary interests, which to us have none, or a very \nremote relation. Hence she must be engaged in frequent controversies, the \ncauses of which are essentially foreign to our concerns. Hence therefore it \nmust be unwise in us to implicate ourselves, by artificial ties, in the ordinary \nvicissitudes [shifts] of her politics, or the ordinary combinations and collisions \nof her friendships, or enmities [hostilities].\n\t\nOur detached and distant situation invites and enables us to pursue a \ndifferent course. If we remain one People, under an efficient government, \nthe period is not far off, when we may defy material injury from external \nannoyance; when we may take such an attitude as will cause the neutrality \nwe may at any time resolve upon to be scrupulously [completely] respected; \nwhen belligerent nations, under the impossibility of making acquisitions \nupon us, will not lightly hazard the giving us provocation; when we may \nchoose peace or War as our interest guided by justice shall counsel. . . .\nSource: President George Washington, Farewell Address, 1796 (adapted)"
+    },
+    {
+      "number": 7,
+      "part": "I",
+      "text": "A historian could best use this map to study",
+      "choices": [
+        "the Monroe Doctrine",
+        "American nativism",
+        "Manifest Destiny",
+        "Dutch imperialism in North America"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/august-2023/context_7_8.png",
+      "context": "Base your answers to questions 7 and 8 on the map below and on your knowledge of social studies.\nSource: Robert A. Divine et al., America: Past and Present, Scott, Foresman (adapted)\nOREGON\nTERRITORY\n1846\nPACIFIC\nOCEAN\nMEXICO\nGulf of Mexico\nCeded by\nSpain, 1819\nAnnexed by U.S.,\n1810–1812\nFLORIDA\nCeded by \nSpain, 1819\nATLANTIC\nOCEAN\nLOUISIANA\nPURCHASE\n1803\nUNITED STATES\n1783\nCeded by\nGreat Britain,\n1818\nAdjusted by Webster–Ashburton Treaty\nwith Great Britain, 1842\nGr\neat L\na\nk\ne\ns \nTEXAS\nANNEXATION\n1845\nMEXICAN CESSION\n1848\nCANADA\nGADSDEN PURCHASE\n1853"
+    },
+    {
+      "number": 8,
+      "part": "I",
+      "text": "Which statement can best be supported by the information found on this map?",
+      "choices": [
+        "Territorial expansion during the 1800s was achieved through a variety of methods.",
+        "Colonial goals had been realized once the Louisiana Purchase was complete.",
+        "The annexation of Texas was an effort to avoid war with Mexico.",
+        "The Great Plains was the last area settled. U.S. Hist. & Gov’t. (Framework)"
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/august-2023/context_7_8.png",
+      "context": "Base your answers to questions 7 and 8 on the map below and on your knowledge of social studies.\nSource: Robert A. Divine et al., America: Past and Present, Scott, Foresman (adapted)\nOREGON\nTERRITORY\n1846\nPACIFIC\nOCEAN\nMEXICO\nGulf of Mexico\nCeded by\nSpain, 1819\nAnnexed by U.S.,\n1810–1812\nFLORIDA\nCeded by \nSpain, 1819\nATLANTIC\nOCEAN\nLOUISIANA\nPURCHASE\n1803\nUNITED STATES\n1783\nCeded by\nGreat Britain,\n1818\nAdjusted by Webster–Ashburton Treaty\nwith Great Britain, 1842\nGr\neat L\na\nk\ne\ns \nTEXAS\nANNEXATION\n1845\nMEXICAN CESSION\n1848\nCANADA\nGADSDEN PURCHASE\n1853"
+    },
+    {
+      "number": 9,
+      "part": "I",
+      "text": "Based on this excerpt from the Seneca Falls’ Declaration of Sentiments, women should",
+      "choices": [
+        "remain in the home",
+        "serve in the military",
+        "give up their personal property",
+        "have equal rights with men"
+      ],
+      "correct": 3,
+      "image": "/images/exams/us-history/august-2023/context_9_10.png",
+      "context": "Base your answers to questions 9 and 10 on the excerpt below and on your knowledge of social studies.\n. . . The history of mankind is a history of repeated injuries and usurpations \n[wrongdoings] on the part of man toward woman, having in direct object \nthe establishment of an absolute tyranny over her. To prove this, let facts be \nsubmitted to a candid world.\n\t\nHe has never permitted her to exercise her inalienable right to the \nelective franchise.\n\t\nHe has compelled her to submit to laws, in the formation of which she \nhad no voice.\n\t\nHe has withheld from her rights which are given to the most ignorant and \ndegraded men—both natives and foreigners.\n\t\nHaving deprived her of this first right of a citizen, the elective franchise, \nthereby leaving her without representation in the halls of legislation, he has \noppressed her on all sides.\n\t\nHe has made her, if married, in the eye of the law, civilly dead.\n\t\nHe has taken from her all right in property, even to the wages she \nearns. . . .\nSource: Declaration of Sentiments, Seneca Falls, 1848"
+    },
+    {
+      "number": 10,
+      "part": "I",
+      "text": "Which government action addressed a grievance included in this declaration?",
+      "choices": [
+        "the 13th amendment",
+        "the Plessy v. Ferguson decision",
+        "the Schenck v. United States decision",
+        "the 19th amendment U.S. Hist. & Gov’t. (Framework)"
+      ],
+      "correct": 3,
+      "image": "/images/exams/us-history/august-2023/context_9_10.png",
+      "context": "Base your answers to questions 9 and 10 on the excerpt below and on your knowledge of social studies.\n. . . The history of mankind is a history of repeated injuries and usurpations \n[wrongdoings] on the part of man toward woman, having in direct object \nthe establishment of an absolute tyranny over her. To prove this, let facts be \nsubmitted to a candid world.\n\t\nHe has never permitted her to exercise her inalienable right to the \nelective franchise.\n\t\nHe has compelled her to submit to laws, in the formation of which she \nhad no voice.\n\t\nHe has withheld from her rights which are given to the most ignorant and \ndegraded men—both natives and foreigners.\n\t\nHaving deprived her of this first right of a citizen, the elective franchise, \nthereby leaving her without representation in the halls of legislation, he has \noppressed her on all sides.\n\t\nHe has made her, if married, in the eye of the law, civilly dead.\n\t\nHe has taken from her all right in property, even to the wages she \nearns. . . .\nSource: Declaration of Sentiments, Seneca Falls, 1848"
+    },
+    {
+      "number": 11,
+      "part": "I",
+      "text": "What was a major cause of the invasion John Brown refers to in this letter?",
+      "choices": [
+        "the forced relocation of Native American tribes into Kansas",
+        "the passage of the Kansas-Nebraska Act",
+        "the decision in the Dred Scott case",
+        "the deployment of Union troops into border states"
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/august-2023/context_11_12.png",
+      "context": "Base your answers to questions 11 and 12 on the excerpt below and on your knowledge of social studies.\nBrowns Station, Kansas Territory, 14th Decem 1855\nDear Sir,\n\t\nI have just returned from the Kansas War (about which you have no doubt \nlearned by the newspapers;) & find your Letter of the 19th Nov[ember]. As \nI intend to send you shortly a paper published here giving you a more full \naccount of the invasion that I can consistently afford the time to give; I will \nonly say at this time that the Territory is now entirely in the power of the Free \nState men; & notwithstanding this result has been secured by means of some \nbravery, & tact; with a good deal of trickery on the one side; & of cowardice, \nfolly, & drunkenness on the other yet so it is; & I believe the Missourians will \ngive up all further hope of making Kansas a Slave State.\n\t\nTomorrow the people of Kansas will decide whether to adopt or to reject \nthe Free Constitution submitted to them; & I have no doubt of its adoption. \nIndeed I consider it no longer a question whether this is to be a Free or a \nSlave State. . . .\nSource: John Brown, Letter to Orson Day, December 14, 1855 (adapted)"
+    },
+    {
+      "number": 12,
+      "part": "I",
+      "text": "The situation described in this letter led to which outcome?",
+      "choices": [
+        "It was a contributing factor to the Civil War.",
+        "It illustrated the political influence of the Midwest.",
+        "It reflected the impact of nationalism on territorial expansion.",
+        "It resulted in a decline in sectional tensions. U.S. Hist. & Gov’t. (Framework)"
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/august-2023/context_11_12.png",
+      "context": "Base your answers to questions 11 and 12 on the excerpt below and on your knowledge of social studies.\nBrowns Station, Kansas Territory, 14th Decem 1855\nDear Sir,\n\t\nI have just returned from the Kansas War (about which you have no doubt \nlearned by the newspapers;) & find your Letter of the 19th Nov[ember]. As \nI intend to send you shortly a paper published here giving you a more full \naccount of the invasion that I can consistently afford the time to give; I will \nonly say at this time that the Territory is now entirely in the power of the Free \nState men; & notwithstanding this result has been secured by means of some \nbravery, & tact; with a good deal of trickery on the one side; & of cowardice, \nfolly, & drunkenness on the other yet so it is; & I believe the Missourians will \ngive up all further hope of making Kansas a Slave State.\n\t\nTomorrow the people of Kansas will decide whether to adopt or to reject \nthe Free Constitution submitted to them; & I have no doubt of its adoption. \nIndeed I consider it no longer a question whether this is to be a Free or a \nSlave State. . . .\nSource: John Brown, Letter to Orson Day, December 14, 1855 (adapted)"
+    },
+    {
+      "number": 13,
+      "part": "I",
+      "text": "R.I. 4 CONN. 6 N.J. 9 DEL. 3 MD. 8 ME. 7 KANS. 5 2 MONT. TERR. IDAHO TERR. WYO. TERR. DAKOTA TERR. UTAH TERR. ARIZ. TERR. N. MEX. TERR. UNORG. TERR. Tilden 184 4,284,020 Democrat Hayes 185 4,036,572 Republican Disputed Territories Source: Joyce Appleby et al., The American Republic, McGraw Hill, 2003 (adapted) LA. 8 FLA. 4 S.C. 7 OREG. 1 MISS. 8 12 13 Which conclusion about presidential elections is supported by the information on this map?",
+      "choices": [
+        "Territories receive a minimum of three electoral votes.",
+        "The geographically larger states receive more electoral votes.",
+        "Most northern states voted for the Democratic candidate.",
+        "The popular vote does not solely determine the outcome of elections."
+      ],
+      "correct": 3,
+      "image": "/images/exams/us-history/august-2023/context_13_14.png",
+      "context": "Base your answers to questions 13 and 14 on the map below and on your knowledge of social studies.\nWASH.\nTERR.\nNEV.\n3\nCALIF.\n6\nARK.\n6\nCOLO.\n3\nNEBR.\n3\nIOWA\n11\nMICH.\n11\nGA.\n11\nN.C.\n10\nWIS.\n10\nMINN.\n5\nTENN.\nKY. 12\nALA.\n10\nTEX.\n8\nPresidential Election, 1876\nThe Election of 1876\nCandidateElectoral\nVote\nPopular\nVote\nPolitical\nParty\nVA.\n11\nW.\nVA.\n5\nMO.\n15\nIND.\n15\nILL.\n21\nOHIO.\n22\nPA.\n29\nN.Y.\n35\nVT.\n5\nN.H.\n5\nMASS."
+    },
+    {
+      "number": 14,
+      "part": "II",
+      "type": "written",
+      "text": "",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/august-2023/context_13_14.png",
+      "context": "Base your answers to questions 13 and 14 on the map below and on your knowledge of social studies.\nWASH.\nTERR.\nNEV.\n3\nCALIF.\n6\nARK.\n6\nCOLO.\n3\nNEBR.\n3\nIOWA\n11\nMICH.\n11\nGA.\n11\nN.C.\n10\nWIS.\n10\nMINN.\n5\nTENN.\nKY. 12\nALA.\n10\nTEX.\n8\nPresidential Election, 1876\nThe Election of 1876\nCandidateElectoral\nVote\nPopular\nVote\nPolitical\nParty\nVA.\n11\nW.\nVA.\n5\nMO.\n15\nIND.\n15\nILL.\n21\nOHIO.\n22\nPA.\n29\nN.Y.\n35\nVT.\n5\nN.H.\n5\nMASS."
+    },
+    {
+      "number": 15,
+      "part": "I",
+      "text": "IND. 15 ILL. 21 OHIO. 22 PA. 29 N.Y. 35 VT. 5 N.H. 5 MASS. 13 R.I. 4 CONN. 6 N.J. 9 DEL. 3 MD. 8 ME. 7 KANS. 5 2 MONT. TERR. IDAHO TERR. WYO. TERR. DAKOTA TERR. UTAH TERR. ARIZ. TERR. N. MEX. TERR. UNORG. TERR. Tilden 184 4,284,020 Democrat Hayes 185 4,036,572 Republican Disputed Territories Source: Joyce Appleby et al., The American Republic, McGraw Hill, 2003 (adapted) LA. 8 FLA. 4 S.C. 7 OREG. 1 MISS. 8 12 13 Which conclusion about presidential elections is supported by the information on this map?",
+      "choices": [
+        "Fighting in the Civil War continued.",
+        "Reconstruction officially ended.",
+        "Federal troops remained in the South.",
+        "Discrimination ended in the South. U.S. Hist. & Gov’t. (Framework)"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/august-2023/context_15_15.png",
+      "context": "Base your answer to question 15 on the cartoon below and on your knowledge of social studies.\n“The Condition of the Laboring Man at Pullman”\nSocialist\nNewspaper\nUnion\nSt. Louis\nC\nA\nPI\nTA\nLIS\nM\nMO\nNO\nPO\nLY\nP\nLU\nTO\nCR\nAC\nY\nWA\nGE \nSL\nAV\nE\nR\nY\nE\nM\nP\nL\nO\nY\nE\nE\nSource: Chicago Labor, July 7, 1894 (adapted)"
+    },
+    {
+      "number": 16,
+      "part": "I",
+      "text": "This cartoon reflects the foreign policy belief that the United States should",
+      "choices": [
+        "oppose independence movements in Latin America",
+        "remain neutral in the affairs of Latin America",
+        "become the protector of the Western Hemisphere",
+        "annex the countries of the Western Hemisphere U.S. Hist. & Gov’t. (Framework)"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/august-2023/context_16_16.png",
+      "context": "Base your answer to question 16 on the cartoon below and on your knowledge of social studies.\nSource: W. A. Rogers, 1904 (adapted)\n“The Big Stick in the Caribbean Sea”"
+    },
+    {
+      "number": 17,
+      "part": "I",
+      "text": "The events described in this letter took place in",
+      "choices": [
+        "the Hudson River valley after the opening of the Erie Canal in the 1820s",
+        "California during the 1849 Gold Rush",
+        "San Francisco after the 1906 earthquake",
+        "the Great Plains during the Dust Bowl in the 1930s"
+      ],
+      "correct": 3,
+      "image": "/images/exams/us-history/august-2023/context_17_18.png",
+      "context": "Base your answers to questions 17 and 18 on the letter below and on your knowledge of social studies.\n. . . In May a friend in the southwestern county of Kansas voluntarily sent me \na list of the people who had already left their immediate neighborhood or \nwere packed up and ready to go. The list included 109 persons in 26 families, \nsubstantial people, most of whom had been in that locality over ten years, and \nsome as long as forty years. In these families there had been two deaths from \ndust pneumonia. Others in the neighborhood were ill at that time. Fewer \nactual residents have left our neighborhood, but on a sixty mile trip yesterday \nto procure [obtain] tract repairs we saw many pitiful reminders of broken \nhopes and apparently wasted effort. Little abandoned homes where people \nhad drilled deep wells for the precious water, had set trees and vines, built \nreservoirs, and fenced in gardens—with everything now walled in half buried \nby banks of drifted soil, told a painful story of loss and disappointment.\nSource: Letter from Caroline A. Henderson, printed in The Atlantic (adapted)"
+    },
+    {
+      "number": 18,
+      "part": "I",
+      "text": "Which action by the federal government was designed to help correct the problems described in this letter?",
+      "choices": [
+        "creation of the Civilian Conservation Corps (CCC)",
+        "passage of the Social Security Administration (SSA)",
+        "creation of the Federal Communications Commission (FCC)",
+        "passage of the National Labor Relations Act (Wagner Act) U.S. Hist. & Gov’t. (Framework)"
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/august-2023/context_17_18.png",
+      "context": "Base your answers to questions 17 and 18 on the letter below and on your knowledge of social studies.\n. . . In May a friend in the southwestern county of Kansas voluntarily sent me \na list of the people who had already left their immediate neighborhood or \nwere packed up and ready to go. The list included 109 persons in 26 families, \nsubstantial people, most of whom had been in that locality over ten years, and \nsome as long as forty years. In these families there had been two deaths from \ndust pneumonia. Others in the neighborhood were ill at that time. Fewer \nactual residents have left our neighborhood, but on a sixty mile trip yesterday \nto procure [obtain] tract repairs we saw many pitiful reminders of broken \nhopes and apparently wasted effort. Little abandoned homes where people \nhad drilled deep wells for the precious water, had set trees and vines, built \nreservoirs, and fenced in gardens—with everything now walled in half buried \nby banks of drifted soil, told a painful story of loss and disappointment.\nSource: Letter from Caroline A. Henderson, printed in The Atlantic (adapted)"
+    },
+    {
+      "number": 19,
+      "part": "I",
+      "text": "What foreign policy goal does President Franklin D. Roosevelt’s statement illustrate?",
+      "choices": [
+        "shifting the United States away from neutrality",
+        "uniting imperial nations in joint defense of their colonies",
+        "promoting United States trade interests in Asia",
+        "expanding democracy throughout the world by military force"
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/august-2023/context_19_20.png",
+      "context": "Base your answers to questions 19 and 20 on the passage below and on your knowledge of social studies.\n. . . In the present world situation of course there is absolutely no doubt in the \nmind of a very overwhelming number of Americans that the best immediate \ndefense of the United States is the success of Great Britain in defending \nitself, and that, therefore, quite aside from our historic and current interest \nin the survival of democracy as a whole in the world, it is equally important \nfrom a selfish point of view of American defense that we should do everything \nto help the British Empire to defend itself. . . .\nSource: President Franklin D. Roosevelt, Press Conference, December 17, 1940 (adapted)"
+    },
+    {
+      "number": 20,
+      "part": "I",
+      "text": "Which United States action resulted from the ideas expressed in this passage?",
+      "choices": [
+        "rejection of the Treaty of Versailles",
+        "establishment of the Lend-Lease program",
+        "nonintervention in the Spanish Civil War",
+        "announcement of the Good Neighbor policy U.S. Hist. & Gov’t. (Framework)"
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/august-2023/context_19_20.png",
+      "context": "Base your answers to questions 19 and 20 on the passage below and on your knowledge of social studies.\n. . . In the present world situation of course there is absolutely no doubt in the \nmind of a very overwhelming number of Americans that the best immediate \ndefense of the United States is the success of Great Britain in defending \nitself, and that, therefore, quite aside from our historic and current interest \nin the survival of democracy as a whole in the world, it is equally important \nfrom a selfish point of view of American defense that we should do everything \nto help the British Empire to defend itself. . . .\nSource: President Franklin D. Roosevelt, Press Conference, December 17, 1940 (adapted)"
+    },
+    {
+      "number": 21,
+      "part": "I",
+      "text": "What countries received the most aid from the Marshall Plan?",
+      "choices": [
+        "Austria and Bulgaria",
+        "East Germany and West Germany",
+        "Norway and Sweden",
+        "France and the United Kingdom"
+      ],
+      "correct": 3,
+      "image": "/images/exams/us-history/august-2023/context_21_22.png",
+      "context": "Base your answers to questions 21 and 22 on the map below and on your knowledge of social studies.\n$\n$\n$$$$$\n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n$\n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n$$$$$\n$$$$$$\n$$$$$$$$$$$$$$$\n$$$$$$$$$$$$$$$$$$$$$$\n$$$$$$$$$$$$$$$$$$$$$$\n$$$$$$$$$$$$$$$\n$$$$$$\n$$$$$$\n$$$$$$\n$$$$$$$$$$$$\nDublin\nOslo\nIRELAND\nATLANTIC\nOCEAN\nNorth\nSea\nMediterranean Sea\nBaltic Sea\nBlack\nSea\nFRANCE SWITZ.\nITALY\nYUGO\nTUNISIA\nSource: Robert A. Divine et al., America Past and Present,\nAddison Wesley Longman, 1999 (adapted)\nTURKEY\nGREECE\nALB.\nBULGARIA\nSOVIET UNION\nPOLAND\nROMANIA\nEAST\nGERMANY\nCZECH\nSPAIN\nPORTUGAL\nBELG.\nNETH.\nWEST\nGERMANY\nAUS.\nHUN.\nDEN.\nNORWAY\nSWEDEN\nFINLAND\nUNITED\nKINGDOM\nICELAND\nU.S. aid per country \nin millions of dollars\n400\n200\n0\nKey\nMarshall Plan, 1948–1952\nALGERIA\nMOROCCO\nMadrid\nParis\nLondon\nRome\nIstanbul\nBucharest\nBudapest\nWarsaw\nCopenhagen\nStockholm\nMoscow\nAthens\nBerlin\nSofia\nLisbon\nVienna\nTrieste\nBelgrade\n$"
+    },
+    {
+      "number": 22,
+      "part": "I",
+      "text": "One major goal of the Marshall Plan was to",
+      "choices": [
+        "punish Germany as a result of World War II",
+        "contain the spread of communism in Europe",
+        "increase immigration to the United States",
+        "improve economic relations with the Soviet Union U.S. Hist. & Gov’t. (Framework)"
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/august-2023/context_21_22.png",
+      "context": "Base your answers to questions 21 and 22 on the map below and on your knowledge of social studies.\n$\n$\n$$$$$\n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n$\n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n$$$$$\n$$$$$$\n$$$$$$$$$$$$$$$\n$$$$$$$$$$$$$$$$$$$$$$\n$$$$$$$$$$$$$$$$$$$$$$\n$$$$$$$$$$$$$$$\n$$$$$$\n$$$$$$\n$$$$$$\n$$$$$$$$$$$$\nDublin\nOslo\nIRELAND\nATLANTIC\nOCEAN\nNorth\nSea\nMediterranean Sea\nBaltic Sea\nBlack\nSea\nFRANCE SWITZ.\nITALY\nYUGO\nTUNISIA\nSource: Robert A. Divine et al., America Past and Present,\nAddison Wesley Longman, 1999 (adapted)\nTURKEY\nGREECE\nALB.\nBULGARIA\nSOVIET UNION\nPOLAND\nROMANIA\nEAST\nGERMANY\nCZECH\nSPAIN\nPORTUGAL\nBELG.\nNETH.\nWEST\nGERMANY\nAUS.\nHUN.\nDEN.\nNORWAY\nSWEDEN\nFINLAND\nUNITED\nKINGDOM\nICELAND\nU.S. aid per country \nin millions of dollars\n400\n200\n0\nKey\nMarshall Plan, 1948–1952\nALGERIA\nMOROCCO\nMadrid\nParis\nLondon\nRome\nIstanbul\nBucharest\nBudapest\nWarsaw\nCopenhagen\nStockholm\nMoscow\nAthens\nBerlin\nSofia\nLisbon\nVienna\nTrieste\nBelgrade\n$"
+    },
+    {
+      "number": 23,
+      "part": "I",
+      "text": "According to this passage, why was the Supreme Court decision about this federal law not enforced?",
+      "choices": [
+        "Literacy tests and poll taxes had been declared unconstitutional.",
+        "The president supported segregation.",
+        "Politicians feared that they would lose the support of southern white voters.",
+        "There was an increase in the frequency of migration in Northern cities."
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/august-2023/context_23_24.png",
+      "context": "Base your answers to questions 23 and 24 on the passage below and on your knowledge of social studies.\n\t\nFederal law said that there should be no segregation in interstate travel. \nThe Supreme Court had decided that. But still state laws in the southern \nstates and local ordinances ordered segregation of the races on those buses. \nWhy didn’t the federal government enforce its law? We decided it was \nbecause of politics. If we were right in assuming that the federal government \ndid not enforce federal law because of its fear of reprisals from the South, \nthen what we had to do was to make it more dangerous politically for the \nfederal government not to enforce federal law. And how would we do that? \nWe decided the way to do it was to have an interracial group ride through \nthe South. This was not civil disobedience, really, because we would be doing \nmerely what the Supreme Court said we had a right to do. The whites in the \ngroup would sit in the back of the bus, the blacks would sit in the front of the \nbus, and would refuse to move when ordered. At every rest stop, the whites \nwould go into the waiting room for blacks, and the blacks into the waiting \nroom for whites, and would seek to use all the facilities, refusing to leave. We \nfelt that we could then count upon the racists of the South to create a crisis, \nso that the federal government would be compelled to enforce federal law. \nThat was the rationale for the Freedom Ride. . . .\nSource: James Farmer, Director of the Congress of Racial Equality, in Voices of Freedom: \nAn Oral History of the Civil Rights Movement from the 1950s through the 1980s, \nRandom House, 1990"
+    },
+    {
+      "number": 24,
+      "part": "I",
+      "text": "Based on this passage, what was the goal of the Freedom Riders?",
+      "choices": [
+        "to desegregate the buses and bus terminals in the South",
+        "to maintain racial segregation in public transportation",
+        "to improve bus safety features throughout the nation",
+        "to protest the United States Supreme Court decision U.S. Hist. & Gov’t. (Framework)"
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/august-2023/context_23_24.png",
+      "context": "Base your answers to questions 23 and 24 on the passage below and on your knowledge of social studies.\n\t\nFederal law said that there should be no segregation in interstate travel. \nThe Supreme Court had decided that. But still state laws in the southern \nstates and local ordinances ordered segregation of the races on those buses. \nWhy didn’t the federal government enforce its law? We decided it was \nbecause of politics. If we were right in assuming that the federal government \ndid not enforce federal law because of its fear of reprisals from the South, \nthen what we had to do was to make it more dangerous politically for the \nfederal government not to enforce federal law. And how would we do that? \nWe decided the way to do it was to have an interracial group ride through \nthe South. This was not civil disobedience, really, because we would be doing \nmerely what the Supreme Court said we had a right to do. The whites in the \ngroup would sit in the back of the bus, the blacks would sit in the front of the \nbus, and would refuse to move when ordered. At every rest stop, the whites \nwould go into the waiting room for blacks, and the blacks into the waiting \nroom for whites, and would seek to use all the facilities, refusing to leave. We \nfelt that we could then count upon the racists of the South to create a crisis, \nso that the federal government would be compelled to enforce federal law. \nThat was the rationale for the Freedom Ride. . . .\nSource: James Farmer, Director of the Congress of Racial Equality, in Voices of Freedom: \nAn Oral History of the Civil Rights Movement from the 1950s through the 1980s, \nRandom House, 1990"
+    },
+    {
+      "number": 25,
+      "part": "I",
+      "text": "What was the primary reason that Congress passed this 1965 law?",
+      "choices": [
+        "to end the Montgomery bus boycott",
+        "to expand veterans benefits",
+        "to eliminate segregation in public schools",
+        "to protect rights guaranteed in the 15th amendment"
+      ],
+      "correct": 3,
+      "image": "/images/exams/us-history/august-2023/context_25_25.png",
+      "context": "Base your answer to question 25 on the excerpt below and on your knowledge of social studies.\n\t\nBe it enacted by the Senate and House of Representatives of the United \nStates of America in Congress assembled, That this Act shall be known as the \n“Voting Rights Act of 1965.”\n\t\nSEC. 2. No voting qualification or prerequisite to voting, or standard, \npractice, or procedure shall be imposed or applied by any State or political \nsubdivision to deny or abridge the right of any citizen of the United States to \nvote on account of race or color. . . .\nSource: United States Congress, August 6, 1965"
+    },
+    {
+      "number": 26,
+      "part": "I",
+      "text": "What was a main reason for the public’s opposition to President Bill Clinton’s intervention in Bosnia?",
+      "choices": [
+        "Americans feared that the result would begin a nuclear war.",
+        "North Atlantic Treaty Organization (NATO) forces refused to participate.",
+        "Americans were hesitant to support foreign military actions after the Vietnam War.",
+        "There were a large number of American casualties in the Persian Gulf War."
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/august-2023/context_26_27.png",
+      "context": "Base your answers to questions 26 and 27 on the passage below and on your knowledge of social studies.\n. . . From 1991 to 1995 the United States had been reluctant to act in Bosnia. \nBut after Srebrenica [massacre in Bosnia and Herzegovina], President Bill \nClinton knew that although the American people would not like it, the United \nStates could no longer avoid involvement there. Thus began the diplomatic \nand military policy that led to the Dayton accords, to peace in Bosnia and, \nfour years later, to the liberation of the Albanian people in Kosovo from \nSlobodan Milosevic’s oppression. . . .\nSource: Richard Holbrooke, “Was Bosnia Worth It?”, Washington Post, July 19, 2005"
+    },
+    {
+      "number": 27,
+      "part": "I",
+      "text": "Based on this passage, what was a major reason for President Clinton’s decision?",
+      "choices": [
+        "defending human rights",
+        "obtaining supplies of natural resources",
+        "acquiring new territories",
+        "establishing a military alliance U.S. Hist. & Gov’t. (Framework)"
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/august-2023/context_26_27.png",
+      "context": "Base your answers to questions 26 and 27 on the passage below and on your knowledge of social studies.\n. . . From 1991 to 1995 the United States had been reluctant to act in Bosnia. \nBut after Srebrenica [massacre in Bosnia and Herzegovina], President Bill \nClinton knew that although the American people would not like it, the United \nStates could no longer avoid involvement there. Thus began the diplomatic \nand military policy that led to the Dayton accords, to peace in Bosnia and, \nfour years later, to the liberation of the Albanian people in Kosovo from \nSlobodan Milosevic’s oppression. . . .\nSource: Richard Holbrooke, “Was Bosnia Worth It?”, Washington Post, July 19, 2005"
+    },
+    {
+      "number": 28,
+      "part": "I",
+      "text": "The event shown on the front page of this newspaper is most closely associated with the",
+      "choices": [
+        "failure of the Berlin airlift",
+        "dissatisfaction of East Germans with United States policy",
+        "end of the Cold War with the Soviet Union",
+        "Allied victory in World War II U.S. Hist. & Gov’t. (Framework) Answers to the Short-Essay Questions (29 and 30) and the Civic Literacy Essay Question (37) are to be written in the separate essay booklet. Part II SHORT-ESSAY QUESTIONS (SEQs) These Short-Essay Questions are based on the accompanying documents and are designed to test your ability to work with historical documents. Each Short-Essay Question set consists of two documents. Some of these documents have been edited for the purposes of these questions. Keep in mind that the language and images used in a document may reflect the historical context of the time in which it was created. SEQ Set 1 (Question 29) Task: Read and analyze the following documents, applying your social studies knowledge and skills to write a short essay of two or three paragraphs in which you: • Describe the historical context surrounding these documents • Identify and explain the relationship between the events and/or ideas found in these documents (Cause and Effect, or Similarity/Difference, or Turning Point) In developing your short-essay answer of two or three paragraphs, be sure to keep these explanations in mind: Describe means “to illustrate something in words or tell about it.” Historical Context refers to “the relevant historical circumstances surrounding or connecting the events, ideas, or developments in these documents.” Identify means “to put a name to or to name.” Explain means “to make plain or understandable; to give reasons for or causes of; to show the logical development or relationship of.” Types of Relationships: Cause refers to “something that contributes to the occurrence of an event, the rise of an idea, or the bringing about of a development.” Effect refers to “what happens as a consequence (result, impact, outcome) of an event, an idea, or a development.” Similarity tells how “something is alike or the same as something else.” Difference tells how “something is not alike or not the same as something else.” Turning Point is “a major event, idea, or historical development that brings about significant change. It can be local, regional, national, or global.” U.S. Hist. & Gov’t. (Framework) SEQ Set 1 Directions (Question 29): Read and analyze the following documents before writing your short essay in the separate essay booklet. Document 1 . . . This is not an issue as to whether the people are going hungry or cold in the United States. It is solely a question of the best method by which hunger and cold can be prevented. It is a question as to whether the American people on the one hand will maintain the spirit of charity and of mutual self-help through voluntary giving and the responsibility of local government as distinguished on the other hand from appropriations out of the Federal Treasury for such purposes. My own conviction is strongly that if we break down this sense of responsibility, of individual generosity to individual, and mutual self-help in the country in times of national difficulty and if we start appropriations of this character we have not only impaired something infinitely valuable in the life of the American people but have struck at the roots of self-government. Once this has happened it is not the cost of a few score millions, but we are faced with the abyss of reliance [trap of relying] in [the] future upon Government charity in some form or other. The money involved is indeed the least of the costs to American ideals and American institutions. . . . Source: President Herbert Hoover, Press Statement, February 3, 1931 U.S. Hist. & Gov’t. (Framework) Document 2 . . . More important, a host of unemployed citizens face the grim problem of existence, and an equally great number toil with little return. Only a foolish optimist can deny the dark realities of the moment. . . . Our greatest primary task is to put people to work. This is no unsolvable problem if we face it wisely and courageously. It can be accomplished in part by direct recruiting by the Government itself, treating the task as we would treat the emergency of a war, but at the same time, through this employment, accomplishing greatly needed projects to stimulate and reorganize the use of our natural resources. . . . Source: Franklin D. Roosevelt, Inaugural Address, March 4, 1933 SEQ Set 1 (Question 29) Task: Based on your reading and analysis of these documents, apply your social studies knowledge and skills to write a short essay of two or three paragraphs in which you: • Describe the historical context surrounding these documents • Identify and explain the relationship between the events and/or ideas found in these documents (Cause and Effect, or Similarity/Difference, or Turning Point) Guidelines: In your short essay, be sure to • Develop all aspects of the task • Incorporate relevant outside information • Support the task with relevant facts and examples You are not required to include a separate introduction or conclusion in your short essay of two or three paragraphs. U.S. Hist. & Gov’t. (Framework) This page left blank intentionally. U.S. Hist. & Gov’t. (Framework) SEQ Set 2 (Question 30) Task: Read and analyze the following documents, applying your social studies knowledge and skills to write a short essay of two or three paragraphs in which you: • Describe the historical context surrounding documents 1 and 2 • Analyze Document 2 and explain how audience, or purpose, or bias, or point of view affects this document’s use as a reliable source of evidence In developing your short-essay answer of two or three paragraphs, be sure to keep these explanations in mind: Describe means “to illustrate something in words or tell about it.” Historical Context refers to “the relevant historical circumstances surrounding or connecting the events, ideas, or developments in these documents.” Analyze means “to examine a document and determine its elements and its relationships.” Explain means “to make plain or understandable; to give reasons for or causes of; to show the logical development or relationship of.” Reliability is determined by how accurate and useful the information found in a source is for a specific purpose. U.S. Hist. & Gov’t. (Framework) SEQ Set 2 Directions (Question 30): Read and analyze the following documents before writing your short essay in the separate essay booklet. Document 1 Interrupting the Ceremony Source: Carey Orr, Chicago Daily Tribune, December 27, 1918 (adapted) League of Nations Constitutional Rights U.S. Hist. & Gov’t. (Framework) Document 2 The following is an excerpt from a Senate speech given by Senator Robert La Follette opposing United States membership in the League of Nations. . . . We have already paid a fearful price for our participation in the late war. It has cost us the lives of more than 50,000 of our finest young men slain in battle, and over 200,000 maimed and wounded, and many thousands of others who lost their lives through disease growing out of the war. It has cost us some thirty billions of dollars, most of which still remains to be wrung from our people—principal and interest—by heartbreaking taxes which must be paid by this and succeeding generations. . . . But, sir, there is one thing which is now demanded of us that we did not bargain for when we entered this war, and that is the surrender of our right to control our own destiny as a Nation. After all, . . . that is what membership in this proposed league of nations is to cost us. Up until the present time we are still free to travel the road which the founders of our Government intended us to travel. We are still free to fulfill the destiny for which we are fitted by the genius of our people, the character of our institutions, our great resources, and our fortunate geographical position. All this we are asked to surrender in order to become a member of this league of nations. . . . We are asked to depart from the traditional policy which our position on the American Continent has enabled us to pursue of keeping free from entangling alliances of European politics, and to become a party to every political scheme that may be hatched in the capitals of Europe or elsewhere in this world of ours. . . . Source: United States Senator Robert M. La Follette, Speech on the League of Nations, November 13, 1919 SEQ Set 2 (Question 30) Task: Based on your reading and analysis of these documents, apply your social studies knowledge and skills to write a short essay of two or three paragraphs in which you: • Describe the historical context surrounding documents 1 and 2 • Analyze Document 2 and explain how audience, or purpose, or bias, or point of view affects this document’s use as a reliable source of evidence Guidelines: In your short essay, be sure to • Develop all aspects of the task • Incorporate relevant outside information • Support the task with relevant facts and examples You are not required to include a separate introduction or conclusion in your short essay of two or three paragraphs. U.S. Hist. & Gov’t. (Framework) Part III CIVIC LITERACY ESSAY (Questions 31–37) This Civic Literacy Essay Question is based on the accompanying documents. The question is designed to test your ability to work with historical documents. Some of these documents have been edited for the purpose of this question. As you analyze the documents, take into account the source of each document and any point of view that may be presented in the document. Keep in mind that the language and images used in a document may reflect the historical context of the time in which it was created. Historical Context: Rights of Native Americans Throughout United States history, many constitutional and civic issues have been debated by Americans. These debates have resulted in efforts by individuals, groups, and governments to address these issues. These efforts have achieved varying degrees of success. One of these constitutional and civic issues is the rights of Native Americans. Task: Read and analyze the documents in . Using information from the documents and your knowledge of United States history, answer the questions that follow each document in . Your answers to the questions will help you write the essay in which you will be asked to • Describe the historical circumstances surrounding this constitutional or civic issue • Explain efforts by individuals, groups, and/or governments to address this constitutional or civic issue • Discuss the impact of the efforts on the United States and/or on American society In developing your answers to Part III, be sure to keep these general definitions in mind: (a) describe means “to illustrate something in words or tell about it” (b) explain means “to make plain or understandable; to give reasons for or causes of; to show the logical development or relationships of” (c) discuss means “to make observations about something using facts, reasoning, and argument; to present in some detail” NAME __________________________________ SCHOOL ________________________________ U.S. Hist. & Gov’t. (Framework) Civic Literacy Essay Short-Answer Questions (31–36) Directions: Analyze the documents and answer the short-answer questions that follow each document in the space provided. Document 1 U.S.–Native American Treaties Virtually all inhabitable land in North America was occupied by Native Americans when Europeans arrived. By the 1990s, Indian [Native American] reservations in the United States represented about 2.5 percent of the country. A study of treaties reveals the changing nature of Indian and white relations. . . . Between 1778 and the early 1800s, federal power over Indians expanded dramatically, especially in the eastern states. Eventually all tribes came to be regarded as quasi-sovereign peoples, not national equals. This view led to diminished tribal control over their destiny, their increasing exploitation, and federal paternalism. Tribes came to be regarded as dependent nations, and treaties were considered in the same light as other statutes of the U.S. Congress. It may come as a surprise that, despite military conflicts between the federal government and various tribes, the United States never formally declared war on hostile Indians. Treaties with Indians were negotiated by the president of the United States and were binding when approved by the Indians and two-thirds of the U.S. Senate. It is important to note that a treaty could not provide funds for Indians; monetary commitments required separate congressional action. Nearly 400 treaties were negotiated. The greatest number, nearly 260, were arranged during the great westward expansion of white settlers following the War of 1812. The majority of these treaties, 230, involved Indian lands. A block of 76 treaties called for Indian removal from their lands and resettlement on other lands. Two tribes, the Potawatomi and Ojibwa (Chippewa), negotiated 42 treaties each, a record number. . . . Source: Wendell H. Oswalt, This Land Was Theirs: A Study of Native North Americans, Eighth Edition, 2006"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/august-2023/context_28_28.png",
+      "context": "Base your answer to question 28 on the newspaper headlines below and on your knowledge of social studies.\nSource: New York Daily News, November 10, 1989"
+    },
+    {
+      "number": 31,
+      "part": "II",
+      "type": "written",
+      "text": "According to Wendell H. Oswalt, what is one historical circumstance surrounding the rights of Native Americans? Score U.S. Hist. & Gov’t. (Framework) Document 2 The West and Native Americans, 1860–1890 Source: Mary Beth Norton et al., A People and a Nation, Houghton Mifflin and Robert A. Divine et al., America: Past and Present, HarperCollins (adapted) G o o d nigh t – Lovin g Tr ail S e d a li a T ra il Bear Paw Mountain 1877 Skeleton Canyon (Geronimo surrenders), 1886 Sand Creek Massacre 1864 Wounded Knee 1890 Native American reservations, 1890 Railroad routes Cattle trails Mining centers Native American defeats Native American victories Wichita Santa Fe El Paso Dodge City San Francisco Los Angeles Portland Duluth St. Paul Chicago Council Bluffs Omaha St. Louis Kansas City Abilene Cheyenne New Orleans Virginia City Promontory Point Salt Lake City Denver Ogallala Sacramento San Antonio Western Trail Chisholm Trail Tucson Leadville Virginia City Helena Seattle Deadwood Boise Chief Joseph’s Route Little Big Horn 1876 Fetterman Massacre 1866",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/august-2023/q31.png"
+    },
+    {
+      "number": 32,
+      "part": "II",
+      "type": "written",
+      "text": "Based on this document, what was one effect of westward settlement on Native Americans? Score U.S. Hist. & Gov’t. (Framework) Document 3 Selected Events in Native American Relations with the United States 1879 Carlisle Indian Industrial School founded 1887 Dawes Severalty Act allotted reservation lands to individual Native Americans 1924 Indian Citizenship Act granted United States citizenship to indigenous Americans 1934 Indian Reorganization Act attempted to reverse the impact of the Dawes Act by restoring land to reservations 1968 AIM (American Indian Movement) founded to ensure past treaties made with the United States honored; AIM occupied Alcatraz Island in 1969 and headquarters of the Bureau of Indian Affairs in 1972 1970 President Nixon called for a new era of self-determination for Native American peoples 1988 Indian Gaming Regulatory Act affirmed the right of Native Americans to conduct gaming operations (casinos, etc.) on tribal lands 2009 President Obama established White House Tribal Nations Conference to encourage dialogue between government and tribal leaders Source: Kathy Weiser, ed., “Native American Timeline of Events,” Legends of America online (adapted)",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/august-2023/q32.png"
+    },
+    {
+      "number": 33,
+      "part": "II",
+      "type": "written",
+      "text": "Based on this document, what is one effort to address the rights of Native Americans? Score U.S. Hist. & Gov’t. (Framework) Document 4a . . . While some steps have been taken to undo damage to Native American religious liberties and to sacred places, most remain threatened by extractive minerals production from gold to uranium and the runoff poisons used to mine them; by commercial and recreational development from strip malls to ski resorts; by housing and highway expansion from acceleration lanes to landfills; by dams and urban sprawl that dry up water resources and deplete the water tables; and by munitions storage, bombing ranges, and other military activity. One sacred place—a ceremonial, burial, and historic site of one Native nation—is even being buried by the construction of a casino and hotel resort of another tribe. . . . Federal-tribal agreements have been entered into for return of ownership and/or control of sacred places, for joint management or co-stewardship, or for other kinds of protections. Some of these legislative, administrative, or judicial agreements have been in place and working to the satisfaction of all parties for over 40 years. While details of these agreements are a matter of public record, information about some locations is not available, in order to prevent future violations. . . . Source: Suzan Shown Harjo, “Threatened and Damaged: Protecting Sacred Places,” Expedition Magazine, Penn Museum, Vol. 55, Issue 3, 2013 Document 4b . . . Montana’s Indian Education for All Act is generally regarded as the most thorough attempt by any state to integrate teaching about the state’s Native American tribes into the curriculum of public schools. The law had its origins in the state’s 1972 constitution, which included a provision stating that Montana “recognizes the distinct and unique cultural heritage of the American Indian and is committed in its educational goals to the preservation of their cultural heritage.” . . . Educators hope both that Montanans gain a greater appreciation of a significant part of their state’s history and population, and that Native American students will feel more at home in the public school system and will see their own cultures recognized and celebrated. Source: CQ Researcher, April 24, 2015, Volume 25, Number 16",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/august-2023/q33.png"
+    },
+    {
+      "number": 34,
+      "part": "II",
+      "type": "written",
+      "text": "Based on these documents, state one impact of the efforts to restore Native American history and culture. Score U.S. Hist. & Gov’t. (Framework) Document 5a . . . The Standing Rock Sioux tribe has opposed the Dakota Access Pipeline since first learning about plans for the pipeline in 2014. But it’s only been in recent months that the issue has gained national attention, as thousands of protesters—including many Native Americans—have gathered in North Dakota in attempt to block the 1,200-mile project. And, with both supporters and opponents vowing to fight through the harsh North Dakota winter, the battle shows no signs of ending anytime soon. . . . Source: Justin Worland, “What to Know About the Dakota Access Pipeline Protests,” Time, October 28, 2016 Document 5b Washington tribes stand with Standing Rock Sioux against North Dakota oil pipeline . . . Tribes from across Washington and the Northwest have journeyed to remote Cannon Ball, N.D., to join the Standing Rock Sioux Tribe in a peaceful occupation of ancestral lands where the tribe seeks an injunction to stop construction of an oil pipeline until its waters and cultural resources are protected. . . . Source: Seattle Times online, September 1, 2016",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/august-2023/q34.png"
+    },
+    {
+      "number": 35,
+      "part": "II",
+      "type": "written",
+      "text": "Based on these documents, what was one effort to protect the rights of Native Americans in North Dakota? Score U.S. Hist. & Gov’t. (Framework) Document 6 A 2017 North Dakota voter identification law required that voters present identification displaying a street address, not just a post office box. Street addresses are not common on reservations. A controversial new voter ID law in North Dakota made casting a ballot more difficult for thousands of Native Americans living on reservations in the state this year . But in the face of a law critics called “plainly unconstitutional,” Native Americans in parts of North Dakota appeared to turn out to vote in record numbers in Tuesday’s 2018 midterm elections. . . . Proponents of the law argued it would reduce voter fraud, but voting rights advocates have warned it would systemically disenfranchise thousands of Native American voters. And activists on the ground Tuesday said there was a lot of confusion at the polls, describing instances of voters being turned away because poll workers did not accept tribal identification letters or because of discrepancies with their addresses. . . . Alexis Davis, a 19-year-old member of the Turtle Mountain youth council, helped lead get-out-the-vote efforts on the reservation during the past few days, though she was not particularly involved in politics before this election. “But then this voter ID law came, and then I was paying attention, and then I started seeing quotes about how this election is so important and this election is going to make history,” she says. “They were trying to take a right away from us. It made us want to go in there and vote twice as much and make a statement.” Source: Katie Reilly, “A New North Dakota Law Threatened Native American Votes. They Responded by Turning Out in Historic Numbers,” Time, November 7, 2018",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/august-2023/q35.png"
+    },
+    {
+      "number": 36,
+      "part": "II",
+      "type": "written",
+      "text": "According to Katie Reilly, what is one impact of the 2017 voter identification law on Native Americans? Score U.S. Hist. & Gov’t. (Framework) Civic Literacy Essay Question (37) Directions: Write a well-organized essay that includes an introduction, several paragraphs, and a conclusion. Use evidence from at least four documents in the body of the essay. Support your response with relevant facts, examples, and details. Include additional outside information. Historical Context: Rights of Native Americans Throughout United States history, many constitutional and civic issues have been debated by Americans. These debates have resulted in efforts by individuals, groups, and governments to address these issues. These efforts have achieved varying degrees of success. One of these constitutional and civic issues is the rights of Native Americans. Task: Using information from the documents and your knowledge of United States history, write an essay in which you • Describe the historical circumstances surrounding this constitutional or civic issue • Explain efforts by individuals, groups, and/or governments to address this constitutional or civic issue • Discuss the impact of the efforts on the United States and/or on American society Guidelines: In your essay, be sure to • Develop all aspects of the task • Explain at least two efforts to address the issue • Incorporate information from at least four documents • Incorporate relevant outside information • Support the theme with relevant facts, examples, and details • Use a logical and clear plan of organization, including an introduction and a conclusion that are beyond a restatement of the theme REGENTS EXAM IN U.S. HISTORY AND GOVERNMENT (FRAMEWORK) REGENTS EXAM IN U.S. HISTORY AND GOVERNMENT (FRAMEWORK) Printed on Recycled Paper",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/august-2023/q36.png"
+    }
+  ]
+}

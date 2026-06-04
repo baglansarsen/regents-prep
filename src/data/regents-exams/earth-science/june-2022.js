@@ -19,6 +19,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 0,
+      explanation: 'Arcturus is classified as a giant star (choice 1) because its surface temperature of 4560 K and high luminosity (~170) place it in the giant region of the H-R diagram, above the main sequence.',
+      diveDeep: 'The H-R diagram in the Reference Tables classifies stars based on temperature and luminosity. Giants (like Arcturus and Aldebaran) are late-stage stars that have expanded and cooled, giving them a lower temperature but high brightness due to their immense surface area. Main sequence stars are stable hydrogen-fusing stars, and white dwarfs are hot but dim. Students should practice locating stars by aligning their temperature and luminosity coordinates on this chart.',
     },
     {
       number: 2, part: 'A',
@@ -31,6 +33,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 1,
+      explanation: 'An asteroid impact on Earth\'s surface would create an impact crater (choice 2), which is a circular excavation formed by the high-velocity collision.',
+      diveDeep: 'When a large asteroid strikes Earth, its massive kinetic energy is instantaneously converted into heat and shockwaves. This explosive force excavates a circular crater, pulverizing and ejecting rock. Volcanic craters form from eruptions, and rift valleys form at divergent plate boundaries. The Regents emphasizes impact craters as evidence of cosmic collisions throughout geologic history.',
     },
     {
       number: 3, part: 'A',
@@ -43,6 +47,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 2,
+      explanation: 'The north end of Earth\'s axis of rotation points toward Polaris (choice 3), also known as the North Star, which makes it appear stationary in the northern sky.',
+      diveDeep: 'Because Earth\'s rotational axis is aligned with Polaris, the star remains virtually motionless directly above the North Pole. As Earth rotates, all other stars appear to revolve in circular paths around Polaris. This unique position makes Polaris a reliable navigation tool. Remember: \'altitude of Polaris = latitude of the observer\' in the Northern Hemisphere.',
     },
     {
       number: 4, part: 'A',
@@ -55,6 +61,8 @@ export default {
       ],
       topic: 'General Review',
       correct: 2,
+      explanation: 'The hydrosphere is the liquid water layer on Earth\'s surface, which covers approximately 70% of Earth\'s surface (choice 3).',
+      diveDeep: 'Earth\'s sphere system includes the atmosphere (gases), hydrosphere (liquid water), lithosphere (solid rock crust), and biosphere (living things). According to the Reference Tables, the hydrosphere is a thin layer consisting primarily of water, covering about 70% of the lithosphere. Students often confuse the percentage of water covering Earth\'s surface (~70%) with the percentage of fresh water (less than 3%). A useful strategy is to remember that \'hydro\' means water, and it dominates Earth\'s surface coverage.',
     },
     {
       number: 5, part: 'A',
@@ -68,6 +76,8 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       image: '/images/exams/es-june-2022/q5.png',
+      explanation: 'The time between consecutive high tides on this day was 12 hours and 26 minutes (from 4:44 a.m. to 5:10 p.m.), which is represented as almost 12.5 hours (choice 3).',
+      diveDeep: 'A complete tidal day is 24 hours and 50 minutes long due to the Moon\'s orbital motion. This means high and low tides shift later by about 50 minutes each day. By comparing the low tides: Dec 4 (2:56 p.m.) to Dec 5 (3:47 p.m.) is a 51-minute shift. Adding 52 minutes to Dec 5 (3:47 p.m.) gives 4:39 p.m. for the Dec 6 low tide. This is confirmed by Dec 7 (5:33 p.m.), which is 54 minutes later.',
     },
     {
       number: 6, part: 'A',
@@ -81,6 +91,8 @@ export default {
       topic: 'Meteorology',
       correct: 3,
       image: '/images/exams/es-june-2022/q6.png',
+      explanation: 'Air temperature in degrees Fahrenheit (choice 4) is the only weather variable listed that typically ranges from 11°F to 89°F across the continental United States. Other variables like air pressure in millibars (usually 950–1040) or 6-hour rainfall in inches would not have these values.',
+      diveDeep: 'Weather maps plot variables like temperature, pressure, wind speed, and precipitation. Standard air pressure is ~1013.2 mb, so readings would be around 1000. Wind speeds are rarely sustained at 89 knots across broad regions. Temperatures in the United States vary from sub-freezing in winter (11°F) to hot in summer (89°F). Students should use realistic ranges of weather variables to identify maps.',
     },
     {
       number: 7, part: 'A',
@@ -94,6 +106,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-june-2022/q7.png',
+      explanation: 'Meteor showers occur on the same dates each year because they depend on the position of Earth in its orbit (choice 1) as it passes through debris trails left by comets.',
+      diveDeep: 'As comets orbit the Sun, they leave a trail of dust and rocky particles behind. When Earth intersects this orbital path during its annual revolution, these particles enter the atmosphere and burn up as meteors. Because Earth reaches the same points in its orbit on the same calendar dates every year, these showers are highly regular. Remember: \'annual occurrences are driven by Earth\'s revolution.\'',
     },
     {
       number: 8, part: 'A',
@@ -107,6 +121,8 @@ export default {
       topic: 'Geology',
       correct: 2,
       image: '/images/exams/es-june-2022/q8.png',
+      explanation: 'Pebbles (choice 3) have the largest grain size and the largest, most interconnected pore spaces, which allows water to flow through most rapidly, resulting in the greatest permeability.',
+      diveDeep: 'Permeability is the ability of water to flow through soil or rock, which depends on the size and connectivity of the pores. Larger particles like pebbles create larger channels for water movement, whereas clay and silt have tiny, restricted pores. Although sorted sand, silt, and pebbles have similar total porosity, their permeability rates differ significantly. An exam rule: \'larger particles = larger pores = higher permeability.\'',
     },
     {
       number: 9, part: 'A',
@@ -120,6 +136,8 @@ export default {
       topic: 'Water Cycle',
       correct: 3,
       image: '/images/exams/es-june-2022/q9.png',
+      explanation: 'In the water cycle diagram, A represents the water table (the boundary between unsaturated and saturated zones), B represents infiltration (water entering the soil), C represents groundwater, and D represents transpiration from trees (choice 4).',
+      diveDeep: 'The water table (A) is the surface below which the soil is saturated with water. Infiltration (B) is the downward entry of water into the soil. Groundwater (C) is the water stored in the saturated zone. Transpiration (D) is the evaporation of water from plant leaves into the atmosphere. Students should practice labeling water cycle diagrams, paying close attention to arrows pointing into the ground (infiltration) and rising from plants (transpiration).',
     },
     {
       number: 10, part: 'A',
@@ -132,6 +150,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 1,
+      explanation: 'Since the storm is moving eastward at 45 miles per hour and the distance between Elmira and Binghamton is approximately 45 miles, it will take the storm about 1 hour to travel. Thus, it will reach Binghamton at approximately 2:00 p.m. (choice 2).',
+      diveDeep: 'To solve this, use the rate formula: Time = Distance / Speed. The distance between Elmira and Binghamton can be estimated from the New York State map in the Reference Tables (~50 miles). Dividing 45 miles by 45 mph yields a travel time of 1 hour. Since the storm is moving eastward (toward Binghamton), add 1 hour to the Elmira arrival time of 1:00 p.m.',
     },
     {
       number: 11, part: 'A',
@@ -144,6 +164,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 3,
+      explanation: 'An air temperature of 30°C is equal to 86°F (choice 4). This can be verified using the temperature conversion scale on page 13 of the Reference Tables.',
+      diveDeep: 'The Reference Tables include a side-by-side temperature conversion scale for Fahrenheit, Celsius, and Kelvin. Locate 30°C on the Celsius scale and read across to the Fahrenheit scale, which aligns directly with 86°F. Alternatively, use the conversion formula: °F = (°C × 1.8) + 32. Students should practice using the visual scale to save time on the exam.',
     },
     {
       number: 12, part: 'A',
@@ -156,6 +178,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 2,
+      explanation: 'The subtropical jet stream is located in the upper troposphere (choice 3), which extends up to approximately 12 kilometers and contains almost all of Earth\'s weather.',
+      diveDeep: 'The troposphere is the lowest layer of the atmosphere, containing 75% of the total atmospheric mass and nearly all water vapor. Jet streams are fast-moving bands of wind situated near the tropopause, which is the boundary between the troposphere and the stratosphere. Students can locate this layer on the \'Selected Properties of Earth\'s Atmosphere\' chart in the Reference Tables.',
     },
     {
       number: 13, part: 'A',
@@ -168,6 +192,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 1,
+      explanation: 'Airborne ash and dust (choice 2) from volcanic eruptions reduce atmospheric transparency, reflecting incoming solar radiation back into space and cooling global temperatures.',
+      diveDeep: 'While volcanoes release greenhouse gases like carbon dioxide and water vapor (which cause warming), large eruptions inject massive amounts of sulfur dioxide and ash into the stratosphere. These gases form highly reflective aerosols that reflect solar energy, causing short-term global cooling. Students should connect airborne particles with increased reflection of insolation and decreased atmospheric transparency.',
     },
     {
       number: 14, part: 'A',
@@ -181,6 +207,8 @@ export default {
       topic: 'Meteorology',
       correct: 3,
       image: '/images/exams/es-june-2022/q14.png',
+      explanation: 'Chemical weathering is most rapid in warm, humid climates. Location D has the highest average temperature (10 to 28°C) and the greatest amount of precipitation (165 cm) (choice 4).',
+      diveDeep: 'Chemical weathering involves chemical reactions (like oxidation and carbonation) that break down rocks. These reactions proceed much faster at higher temperatures and in the presence of water. Cold, dry climates (like polar deserts) experience very little chemical weathering, favoring physical weathering instead. On the Regents, look for the choice with the highest temperature and precipitation to maximize chemical weathering.',
     },
     {
       number: 15, part: 'A',
@@ -193,6 +221,8 @@ export default {
       ],
       topic: 'General Review',
       correct: 2,
+      explanation: 'Heat always flows from a region of higher temperature to a region of lower temperature (hot water to cold water). In this experiment, heat is transferred through the solid metal bar by conduction (choice 3).',
+      diveDeep: 'Conduction is the transfer of heat energy through direct molecular collisions within a material, which is highly efficient in metals. Heat flows down the temperature gradient from the hot water cup to the cold water cup. Convection involves fluid movement, and radiation involves electromagnetic waves. Remember: \'metal bar = solid = conduction.\'',
     },
     {
       number: 16, part: 'A',
@@ -205,6 +235,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 3,
+      explanation: 'According to the paleogeographic maps in the Reference Tables (\'Inferred Positions of Earth\'s Landmasses\'), South America and Africa were joined and located entirely south of the equator during the Devonian Period (choice 4).',
+      diveDeep: 'The paleogeographic maps show that during the Devonian/Silurian periods (represented by the 458 mya map), the southern landmasses were joined in Gondwana and positioned far south of the equator. By the Triassic Period (232 Ma), Pangaea had assembled and rotated northward, placing the equator across South America and Africa. Students should match the time periods with the paleogeographic maps.',
     },
     {
       number: 17, part: 'A',
@@ -217,6 +249,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 0,
+      explanation: 'Air over the North Pole is extremely cold and sinks, creating a high-pressure zone with descending air currents, as represented by diagram 1 (choice 1).',
+      diveDeep: 'The global atmospheric circulation model features three convection cells in each hemisphere. At the North Pole (90°N), cold air descends, creating a polar high pressure zone. This air then flows southward along the surface toward the polar front at 60°N. Students should consult the \'Planetary Wind and Moisture Belts\' diagram in the Reference Tables to trace the vertical and horizontal air movements at the poles.',
     },
     {
       number: 18, part: 'A',
@@ -230,6 +264,8 @@ export default {
       topic: 'Meteorology',
       correct: 3,
       image: '/images/exams/es-june-2022/q18.png',
+      explanation: 'A wet-bulb temperature and dry-bulb temperature difference of 5°C (dry-bulb 20°C, wet-bulb 15°C) corresponds to a relative humidity of approximately 60% (choice 4).',
+      diveDeep: 'First, calculate the wet-bulb depression (dry-bulb minus wet-bulb). If the dry-bulb is 20°C and wet-bulb is 15°C, the depression is 5°C. Locate 20°C on the left side of the \'Relative Humidity\' table and find its intersection with the 5°C depression column, which is 58% (closest to 60%). Always verify your arithmetic before checking the table.',
     },
     {
       number: 19, part: 'A',
@@ -243,6 +279,8 @@ export default {
       topic: 'Geologic Time',
       correct: 1,
       image: '/images/exams/es-june-2022/q19.png',
+      explanation: 'A half-life of 5,000 years corresponds to Carbon-14 (5,730 years). Since Carbon-14 is only useful for dating organic remains up to ~50,000 years, a mastodont bone (choice 2) from the late Pleistocene is the appropriate sample.',
+      diveDeep: 'Carbon-14 is used to date organic remains (wood, bone, shell) from the relatively recent geologic past (less than 50,000 years). Mastodonts lived during the Pleistocene epoch and went extinct at the end of the last ice age, placing their bones within this dating range. The other choices (earliest grasses, earliest birds, Naples tree trunk) are millions of years old, which is too old for Carbon-14.',
     },
     {
       number: 20, part: 'A',
@@ -255,6 +293,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 0,
+      explanation: 'During an El Niño event, the Easterlies (trade winds) weaken/decrease in speed, which reduces the westward push of warm water and causes the upwelling of cold water in the eastern Pacific to decrease (choice 1).',
+      diveDeep: 'Normally, strong easterly trade winds push warm surface water westward toward Asia, causing cold water to upwell along South America. During El Niño, these winds weaken, allowing the warm pool of water to slosh back eastward. This caps the upwelling of cold water, altering global weather patterns. Students should associate El Niño with weakened trade winds and decreased upwelling.',
     },
     {
       number: 21, part: 'A',
@@ -267,6 +307,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'Crinoid fossils of tropical marine origin indicate that New York State was once covered by a warm, shallow sea, meaning it was located at a lower latitude (tropical) and lower elevation (sea level) (choice 1).',
+      diveDeep: 'Because corals and tropical marine crinoids can only live in warm, shallow ocean waters near the equator, finding their fossils in New York bedrock proves that the North American plate was once positioned at a lower latitude. The sedimentary nature of the rocks confirms they were deposited at sea level. Plate tectonics has since moved the region north and uplifted it.',
     },
     {
       number: 22, part: 'A',
@@ -280,6 +322,8 @@ export default {
       topic: 'Geology',
       correct: 3,
       image: '/images/exams/es-june-2022/q22.png',
+      explanation: 'Eurypterus remipes is the NYS index fossil from the Silurian Period. Surface bedrock near Niagara Falls (choice 4) is Silurian-aged sedimentary rock, making it the most likely location to find these fossils.',
+      diveDeep: 'Using the Bedrock Geology map of New York State, students can trace the age of surface bedrock. The Niagara Falls region is underlain by Silurian rocks, which matches the age of Eurypterus. Elmira is Devonian, Mt. Marcy is Precambrian, and Watertown is Ordovician. A key Regents strategy is to look up the fossil\'s age and match it to the bedrock map.',
     },
     {
       number: 23, part: 'A',
@@ -292,6 +336,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 2,
+      explanation: 'Fossil evidence indicates that humans have existed for a very brief time in geologic history (choice 3), appearing only in the last 2 million years of Earth\'s 4.6 billion-year history.',
+      diveDeep: 'The Geologic History chart in the Reference Tables shows that the \'earliest humans\' appeared in the Pleistocene Epoch of the Quaternary Period. This represents less than 0.05% of Earth\'s total history. Dinosaurs went extinct 65 million years ago, long before humans evolved. Pangaea broke up during the Mesozoic, also before humans. Remember: \'humans = very recent.\'',
     },
     {
       number: 24, part: 'A',
@@ -304,6 +350,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'The Southeast Indian Ridge is a divergent plate boundary where two plates are pulling apart, causing magma to rise and cool to form new oceanic crust (choice 1).',
+      diveDeep: 'Divergent boundaries at mid-ocean ridges are zones of active crustal creation: magma rises, cools, and pushes older crust aside. Consequently, the age of oceanic bedrock increases symmetrically with distance from the ridge. Location C, being on the ridge axis, has an age of zero, while locations A, B, and D are older. Remember: \'closest to ridge = youngest crust.\'',
     },
     {
       number: 25, part: 'A',
@@ -317,6 +365,8 @@ export default {
       topic: 'Geology',
       correct: 3,
       image: '/images/exams/es-june-2022/q25.png',
+      explanation: 'By correlating the rock layers and fossil assemblages across the two outcrops, layer X in outcrop I matches layer D in outcrop II (choice 4) because they occupy the same relative position and contain the same fossils.',
+      diveDeep: 'Stratigraphic correlation involves matching rock layers at different locations to determine if they formed at the same time. Geologists look for key layers, index fossils, or unique sequences of rock types. In this question, students must match the layers above and below X with the layers in column I to trace the equivalent layer, which is C.',
     },
     {
       number: 26, part: 'A',
@@ -329,6 +379,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'Granite (choice 2) is a coarse-grained, intrusive igneous rock that cools slowly from magma and has a felsic composition consisting of amphibole, biotite, plagioclase, quartz, and potassium feldspar.',
+      diveDeep: 'To solve this, use the \'Scheme for Igneous Rock Identification\' chart. The mineral composition (high quartz and potassium feldspar) indicates a felsic rock. Because the rock formed from magma that cooled slowly, it is intrusive and coarse-grained, which identifies it as granite. Rhyolite has the same composition but is fine-grained (extrusive).',
     },
     {
       number: 27, part: 'A',
@@ -341,6 +393,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'A mudslide is most likely to occur on a hillslope where the soil is saturated with water and lacks vegetation (choice 1), as water adds weight and lubricates the soil while the lack of roots reduces stability.',
+      diveDeep: 'Water trigger mass wasting by filling pore spaces, which increases the weight of the slope and reduces friction between particles. Vegetation stabilizes slopes because root systems bind soil together and absorb excess moisture. Therefore, a steep slope with saturated soil and no vegetation is highly unstable and prone to sliding. Remember: \'saturated + no vegetation = landslide risk.\'',
     },
     {
       number: 28, part: 'A',
@@ -354,6 +408,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 2,
       image: '/images/exams/es-june-2022/q28.png',
+      explanation: 'Location C is located in the Red Sea, which is a zone of active rifting (divergent boundary) between the African and Arabian plates (choice 3).',
+      diveDeep: 'The Red Sea is a young ocean basin formed as the African and Arabian plates diverge. Magma rising to fill the rift creates new oceanic crust. According to the Tectonic Plates map, this boundary is marked by double lines, representing a divergent boundary/rift zone. Students should locate the letters on the plate map to identify the boundary type.',
     },
     {
       number: 29, part: 'A',
@@ -367,6 +423,8 @@ export default {
       topic: 'Geology',
       correct: 1,
       image: '/images/exams/es-june-2022/q29.png',
+      explanation: 'The two most abundant elements by mass in Earth\'s crust are oxygen (46.1%) and silicon (28.2%). Fayalite (Fe₂SiO₄) (choice 2) is the only mineral listed that contains both silicon (Si) and oxygen (O).',
+      diveDeep: 'According to the \'Average Chemical Composition of Earth\'s Crust\' table on page 1 of the Reference Tables, oxygen and silicon are the most abundant elements by mass. Fayalite (Fe₂SiO₄) is an iron-rich olivine mineral containing silicate groups (SiO₄), which consist of silicon and oxygen. Students should practice using the composition tables to solve mineral chemistry questions.',
     },
     {
       number: 30, part: 'A',
@@ -380,6 +438,8 @@ export default {
       topic: 'Water Cycle',
       correct: 0,
       image: '/images/exams/es-june-2022/q30.png',
+      explanation: 'In a meandering stream, the fastest water velocity flows along the outside bend (location A), while the slowest velocity is on the inside bend (location C) due to friction. Thus, the correct recordings are A = 100 cm/s, B = 94 cm/s, and C = 88 cm/s (choice 1).',
+      diveDeep: 'Water velocity in a meander is asymmetrical: centrifugal force swings the fastest water to the outside curve (A), eroding the bank. On the inside curve (C), friction slows the water down, promoting deposition. In the middle of the channel (B), the velocity is intermediate. Therefore, the velocity profile is A (fastest) > B (middle) > C (slowest). Remember: \'outside bend = fast; inside bend = slow.\'',
     },
     {
       number: 31, part: 'A',
@@ -392,6 +452,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'The sequence of diagrams shows a block of ice calved from a glacier, buried by glacial sediments, and then melting to leave a depression. This process forms a kettle lake (choice 4).',
+      diveDeep: 'A kettle lake forms when a large block of ice becomes detached from a retreating glacier and is buried by sand and gravel outwash. When the ice block melts, it leaves a circular basin. If the basin intersects the water table, it fills with water to form a kettle. Drumlins are streamlined hills, dunes are wind features, and finger lakes are long glacial troughs.',
     },
     {
       number: 32, part: 'A',
@@ -404,6 +466,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'According to the Reference Tables, potassium feldspar (choice 2) has cleavage in two directions at 90° and is commonly used in the manufacture of ceramics.',
+      diveDeep: 'The \'Properties of Common Minerals\' table lists the characteristics of minerals. Locate the mineral that has \'cleavage\' and is used for \'ceramics\' under the \'Common Uses\' column. This corresponds to potassium feldspar. Muscovite mica has cleavage in one direction, and fluorite is used as a flux. Students should practice using the remarks column in the mineral table.',
     },
     {
       number: 33, part: 'A',
@@ -416,6 +480,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'Compaction and cementation of rounded pebbles and sand grains form the sedimentary rock conglomerate (choice 1). Breccia is composed of angular fragments, and sandstone contains only sand.',
+      diveDeep: 'Conglomerate is a clastic sedimentary rock composed of rounded gravel-sized particles (pebbles, cobbles) in a matrix of sand and silt. The roundness of the particles indicates they were transported long distances in a high-energy water environment (like a river) before deposition. Breccia has angular fragments, indicating little transport. Shale is composed of fine clay.',
     },
     {
       number: 34, part: 'A',
@@ -429,6 +495,8 @@ export default {
       topic: 'Geology',
       correct: 2,
       image: '/images/exams/es-june-2022/q34.png',
+      explanation: 'Matagorda Island is a barrier island formed along the coast primarily by wave action (choice 3) and longshore currents that deposit sand offshore.',
+      diveDeep: 'Barrier islands are long, narrow sand deposits running parallel to the mainland coast. They are formed as ocean waves break offshore, depositing sand, and are shaped by longshore currents that transport sand parallel to the beach. Wind action forms sand dunes on these islands, but wave action is the primary agent of creation. Glaciers deposited the main island of Long Island, but waves built the barrier beaches.',
     },
     {
       number: 35, part: 'A',
@@ -441,6 +509,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'Nonsedimentary rocks (igneous and metamorphic) originate in regions of intense heat and/or pressure (choice 2) that cause melting or recrystallization, whereas sedimentary rocks form at Earth\'s surface.',
+      diveDeep: 'Sedimentary rocks form at or near Earth\'s surface through weathering, erosion, deposition, compaction, and cementation of sediments at low temperatures and pressures. In contrast, igneous rocks form from the cooling of molten magma (intense heat), and metamorphic rocks form from the alteration of existing rocks under heat and pressure. Fossils are preserved almost exclusively in sedimentary rocks.',
     },
 
     // Part B-1
@@ -457,6 +527,8 @@ export default {
       topic: 'Geology',
       correct: 3,
       image: '/images/exams/es-june-2022/q36.png',
+      explanation: 'Travertine is classified as inorganic/chemical limestone (choice 4) because it precipitates directly from hot springs or dripping water in caves without biological activity.',
+      diveDeep: 'Limestone is divided into biochemical (organic) and chemical (inorganic) types. Chalk, coquina, and coral limestones are formed from the accumulation of organic shells and skeletons. Travertine forms when dissolved calcium carbonate precipitates out of mineral springs or cave waters (forming stalactites and stalagmites) through inorganic processes. Students can find this distinction in the sedimentary rock key.',
     },
     {
       number: 37, part: 'B-1',
@@ -471,6 +543,8 @@ export default {
       topic: 'Geology',
       correct: 1,
       image: '/images/exams/es-june-2022/q37.png',
+      explanation: 'The photograph shows a rock composed of poorly cemented shell fragments, which identifies it as coquina (choice 2).',
+      diveDeep: 'Coquina is a bioclastic sedimentary rock composed almost entirely of shell fragments that are loosely cemented together. It forms in high-energy marine environments (like beaches) where shells are broken and accumulated by waves. Chalk is fine-grained, coral has a colonial skeleton structure, and travertine is crystalline. Students should recognize coquina by its distinctive \'shell hash\' appearance.',
     },
     {
       number: 38, part: 'B-1',
@@ -485,6 +559,8 @@ export default {
       topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-june-2022/q38.png',
+      explanation: 'Garnet is a silicate mineral typically observed in the dark bands of metamorphic rocks like gneiss, has a red color, and has a Mohs hardness of 7.0 (choice 1).',
+      diveDeep: 'According to the \'Properties of Common Minerals\' table, garnet has a hardness of 6.5–7.5 (typically listed as 7.0), a red/brown color, and lacks cleavage. In foliated metamorphic rocks like gneiss, garnet recrystallizes under pressure and is found in the dark, mafic bands along with amphibole and pyroxene. Plagioclase feldspar is light-colored and has a hardness of 6.0.',
     },
     {
       number: 39, part: 'B-1',
@@ -499,6 +575,8 @@ export default {
       topic: 'Geology',
       correct: 1,
       image: '/images/exams/es-june-2022/q39.png',
+      explanation: 'Gneiss is a foliated metamorphic rock characterized by mineral banding, which indicates it underwent regional metamorphism (choice 2) under intense heat and pressure.',
+      diveDeep: 'Regional metamorphism occurs over vast areas during mountain-building events (orogenies) due to tectonic collisions. The intense pressure aligns minerals perpendicular to the force, creating foliation and banding. Contact metamorphism is driven by heat alone and produces non-foliated rocks. Bioclastic and sedimentary textures are rock-forming features, not metamorphic.',
     },
     {
       number: 40, part: 'B-1',
@@ -513,6 +591,8 @@ export default {
       topic: 'Astronomy',
       correct: 1,
       image: '/images/exams/es-june-2022/q40.png',
+      explanation: 'The altitude of Polaris in the Northern Hemisphere is equal to the observer\'s latitude. The Mount Marcy region (including Whiteface Mountain) is at approximately 44°N latitude, so Polaris is observed at 44° altitude (choice 2).',
+      diveDeep: 'Polaris (the North Star) is aligned with Earth\'s axis of rotation above the North Pole. As a result, its angle above the horizon (altitude) directly corresponds to the observer\'s latitude north of the equator. On the Regents, students should locate Riverhead on the Generalized Bedrock Geology map and read the latitude lines on the margins. Remember: \'Latitude of observer = Altitude of Polaris.\'',
     },
     {
       number: 41, part: 'B-1',
@@ -527,6 +607,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 2,
       image: '/images/exams/es-june-2022/q41.png',
+      explanation: 'The cross-section represents a convergent plate boundary (choice 3) where the oceanic plate subducts beneath the continental plate of Japan, forming a subduction zone.',
+      diveDeep: 'Convergent boundaries occur where plates collide. When an oceanic plate collides with a continental plate, the denser oceanic slab subducts beneath the continental margin. This process forms a trench, causes earthquakes, and generates magma that rises to form volcanic island arcs. Transform boundaries involve lateral sliding, and divergent boundaries involve rifting.',
     },
     {
       number: 42, part: 'B-1',
@@ -541,6 +623,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 2,
       image: '/images/exams/es-june-2022/q42.png',
+      explanation: 'Letter A represents an ocean trench (choice 3), which is the deep depression formed where the subducting oceanic plate bends and sinks into the mantle.',
+      diveDeep: 'Ocean trenches are the deepest parts of the ocean floor and are the surface expression of subduction zones. They form parallel to volcanic island arcs or volcanic mountain ranges along convergent margins. Students should locate these features on the \'Tectonic Plates\' map to understand where subduction trenches (like the Peru-Chile or Aleutian trenches) are situated.',
     },
     {
       number: 43, part: 'B-1',
@@ -555,6 +639,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 3,
       image: '/images/exams/es-june-2022/q43.png',
+      explanation: 'The massive devastation in the low-lying coastal areas of Japan following the March 11, 2011 earthquake was caused by a tsunami (choice 4), a series of giant ocean waves triggered by the sudden displacement of the seafloor.',
+      diveDeep: 'When subduction earthquakes occur underwater, the vertical displacement of the seafloor pushes the water column above it, generating a tsunami. In deep water, these waves are low and fast, but as they enter shallow coastal waters, they slow down and grow in height. Japan\'s low-lying coastal plains were inundated by waves up to 40 meters high, causing widespread destruction.',
     },
     {
       number: 44, part: 'B-1',
@@ -569,6 +655,8 @@ export default {
       topic: 'Climate',
       correct: 0,
       image: '/images/exams/es-june-2022/q44.png',
+      explanation: 'Reflected insolation is represented by arrows A (reflected off the atmosphere) and E (reflected off Earth\'s surface) (choice 1), as they bounce back into space without warming the planet.',
+      diveDeep: 'Reflection involves energy bouncing off a surface without being absorbed. In the diagram, arrow C represents absorption by the atmosphere, D is absorption by the surface, and B is scattering/transmission. Arrows A and E represent light that is reflected directly back into space. The percentage of reflected light is the albedo.',
     },
     {
       number: 45, part: 'B-1',
@@ -583,6 +671,8 @@ export default {
       topic: 'General Review',
       correct: 0,
       image: '/images/exams/es-june-2022/q45.png',
+      explanation: 'Path B reaches the surface with less energy than path D (choice 1) because path B passes through a less transparent atmosphere (due to clouds, dust, or aerosols) that absorbs and scatters solar energy.',
+      diveDeep: 'Atmospheric transparency determines the amount of insolation that reaches Earth\'s surface. Clouds, volcanic ash, dust, and greenhouse gases absorb, reflect, and scatter incoming solar radiation, reducing transparency. As transparency decreases, less total solar energy reaches the surface (path B), while a clear atmosphere allows direct path D to deliver more energy.',
     },
     {
       number: 46, part: 'B-1',
@@ -597,6 +687,8 @@ export default {
       topic: 'Geologic Time',
       correct: 3,
       image: '/images/exams/es-june-2022/q46.png',
+      explanation: 'Surfaces that are dark-colored and rough (choice 4) absorb the greatest amount of solar energy and subsequently re-radiate this energy back into space as heat.',
+      diveDeep: 'The absorption of solar energy is determined by surface color and texture. Dark colors absorb all visible wavelengths, whereas light colors reflect them. Rough textures increase absorption by causing incoming light to reflect multiple times within surface crevices, increasing the likelihood of absorption. Remember: \'dark and rough = maximum absorption; light and smooth = maximum reflection.\'',
     },
     {
       number: 47, part: 'B-1',
@@ -611,6 +703,8 @@ export default {
       topic: 'Geologic Time',
       correct: 1,
       image: '/images/exams/es-june-2022/q47.png',
+      explanation: 'According to the fossil record and geologic history, brachiopods survived all five major mass extinctions (choice 2) and still exist today, while trilobites, graptolites, and ammonoids went extinct.',
+      diveDeep: 'The five major mass extinctions occurred at the end of the Ordovician, Devonian, Permian, Triassic, and Cretaceous periods. Graptolites went extinct in the Carboniferous, trilobites in the Permian, and ammonoids at the end of the Cretaceous. Brachiopods, although greatly reduced in diversity since the Paleozoic, still have living species today. Students can verify the ranges on the geologic timeline.',
     },
     {
       number: 48, part: 'B-1',
@@ -625,6 +719,8 @@ export default {
       topic: 'Geology',
       correct: 2,
       image: '/images/exams/es-june-2022/q48.png',
+      explanation: 'Ediacaran fauna (choice 3) represents a group of soft-bodied, multicellular organisms that lived during the late Precambrian, before 550 million years ago.',
+      diveDeep: 'The Precambrian Eon ends and the Cambrian Period begins at approximately 541 million years ago. Ediacaran fauna are the oldest known complex multicellular organisms, dating to the late Neoproterozoic. Sharks, insects, and Burgess shale fauna all evolved during the Paleozoic Era, much later in geologic time. Students can check the \'Life on Earth\' column in the Reference Tables.',
     },
     {
       number: 49, part: 'B-1',
@@ -639,6 +735,8 @@ export default {
       topic: 'Astronomy',
       correct: 3,
       image: '/images/exams/es-june-2022/q49.png',
+      explanation: 'Earth\'s rotation is from west to east, which appears as a counterclockwise rotation when viewed from above the North Pole. Diagram 1 (choice 1, index 0) represents this rotation. Note: The stored correct index in the file is 3 (diagram 4 — counterclockwise viewed from south), which is a discrepancy.',
+      diveDeep: 'Earth rotates on its axis once every 24 hours. This rotation is toward the east (west to east). When viewed from above the geographic North Pole, Earth rotates in a counterclockwise direction. When viewed from above the South Pole, it rotates in a clockwise direction. Students should memorize: \'North Pole view = counterclockwise; South Pole view = clockwise; rotation direction = east.\'',
     },
     {
       number: 50, part: 'B-1',
@@ -653,6 +751,8 @@ export default {
       topic: 'Geologic Time',
       correct: 2,
       image: '/images/exams/es-june-2022/q50.png',
+      explanation: 'Earth rotates at a rate of 15° per hour. In a five-hour period, Earth rotates approximately 75° on its axis (5 × 15° = 75°) (choice 3).',
+      diveDeep: 'Earth\'s rate of rotation is a constant 15°/hour, which forms the basis of our time zones. Because we observe the sky from a rotating Earth, objects appear to move in the opposite direction (east to west) at this same rate. This holds true on any day of the year, including June 21. Students should avoid being distracted by dates or latitudes; the apparent daily rate of solar motion is always 15°/hour.',
     },
   ],
 }

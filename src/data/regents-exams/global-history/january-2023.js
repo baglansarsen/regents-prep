@@ -1,0 +1,443 @@
+// Auto-generated raw wire-up from output/data/global-history/january-2023.json
+// Real extracted questions; explanation/diveDeep enrichment is a later pass.
+export default {
+  "id": "gh-jan-2023",
+  "subject": "global-history",
+  "year": 2023,
+  "session": "January",
+  "totalMinutes": 180,
+  "questions": [
+    {
+      "number": 1,
+      "part": "I",
+      "text": "Based on this passage, what was one way the Tokugawa shogunate affected Japanese society?",
+      "choices": [
+        "They unifi ed Japan.",
+        "They promoted trade.",
+        "They modernized industry.",
+        "They eliminated social classes."
+      ],
+      "correct": 0,
+      "image": "/images/exams/global-history/january-2023/context_1_2.png",
+      "context": "Base your answers to questions 1 and 2 on the passage below and on your knowledge of social studies.\nThe Edo period followed many years of political and social upheaval. The previous division of \nJapanese history known as the Sengoku period (warring states period) was dominated by wars \nfought between various political and religious factions for the control of the country. These wars \ncame to an end with the unifi cation of Japan by the great generals Oda Nobunaga and Toyotomi \nHideyoshi and eventually Tokugawa Ieyasu who formed Japan’s fi nal Shogunate.\nIeyasu consolidated his power through a series of social changes including the introduction of a \nstrict class system and the tight control of the ruling daimyo families from the capital city Edo. \nIndividuals had no legal rights and the family became very important at all social levels.…\nSource: Hokusai online"
+    },
+    {
+      "number": 2,
+      "part": "I",
+      "text": "Based on this passage, which political idea evolved during the Tokugawa shogunate?",
+      "choices": [
+        "democracy",
+        "absolutism",
+        "socialism",
+        "oligarchy"
+      ],
+      "correct": 1,
+      "image": "/images/exams/global-history/january-2023/context_1_2.png",
+      "context": "Base your answers to questions 1 and 2 on the passage below and on your knowledge of social studies.\nThe Edo period followed many years of political and social upheaval. The previous division of \nJapanese history known as the Sengoku period (warring states period) was dominated by wars \nfought between various political and religious factions for the control of the country. These wars \ncame to an end with the unifi cation of Japan by the great generals Oda Nobunaga and Toyotomi \nHideyoshi and eventually Tokugawa Ieyasu who formed Japan’s fi nal Shogunate.\nIeyasu consolidated his power through a series of social changes including the introduction of a \nstrict class system and the tight control of the ruling daimyo families from the capital city Edo. \nIndividuals had no legal rights and the family became very important at all social levels.…\nSource: Hokusai online"
+    },
+    {
+      "number": 3,
+      "part": "I",
+      "text": "Which claim about the French Revolution is best supported by the information included in these headlines?",
+      "choices": [
+        "The revolution was unexpected as the Estates General met regularly.",
+        "King Louis XVI was killed because of his belief in consent of the governed.",
+        "The revolutionary spirit grew out of frustration with the Old Regime.",
+        "Nobility and clergy were the only victims of the Terror."
+      ],
+      "correct": 2,
+      "image": "/images/exams/global-history/january-2023/q3.png",
+      "context": "Base your answers to questions 3 and 4 on the headlines below and on your knowledge of social studies.\nHeadlines of the 18th Century\nA. “Economic Uncertainty Grips Society”\nB. “King Ignores Equal Representation For All”\nC. “King Executed, Terror Begins”\nD. “Tax System Seen As Unfair”"
+    },
+    {
+      "number": 4,
+      "part": "I",
+      "text": "Which headline is most closely associated with the radical stage of the French Revolution?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        ""
+      ],
+      "correct": 2,
+      "image": "/images/exams/global-history/january-2023/q4.png",
+      "context": "Base your answers to questions 3 and 4 on the headlines below and on your knowledge of social studies.\nHeadlines of the 18th Century\nA. “Economic Uncertainty Grips Society”\nB. “King Ignores Equal Representation For All”\nC. “King Executed, Terror Begins”\nD. “Tax System Seen As Unfair”"
+    },
+    {
+      "number": 5,
+      "part": "I",
+      "text": "Both documents argue in favor of a government that",
+      "choices": [
+        "blocks the formation of political parties",
+        "protects the rights of citizens",
+        "is controlled by religious organizations",
+        "abolishes distinctions between social and economic classes"
+      ],
+      "correct": 1,
+      "image": "/images/exams/global-history/january-2023/context_5_6.png",
+      "context": "Base your answers to questions 5 and 6 on the documents below and on your knowledge of social studies.\nExcerpt from the Declaration of the Rights of Man and of the Citizen, 1789\nArticles\n1. Men are born and remain free and equal in rights. Social distinctions may be founded only \nupon the general good.\n2. The aim of all political association is the preservation of natural and imprescriptible [inalienable] \nrights of man. These rights are liberty, property, security, and resistance to oppression.\n3. The principle of all sovereignty resides essentially in the nation. No body nor individual may \nexercise any authority which does not proceed directly from the nation.…\nSource: The Avalon Project at Yale Law School\nExcerpt from the Declaration of the Rights of Woman and Female Citizen, 1791\nI. Woman is born free and remains equal to man in rights. Social distinctions can only be \nfounded on common service.\nII. The aim of all political associations is to preserve the natural and inalienable rights of Woman \nand Man: these are rights to liberty, ownership, safety, and, above all, resistance to oppression.\nIII. The principle of sovereignty resides in essence in the Nation, which is only the coming \ntogether of Woman and Man: authority emanating elsewhere can be exercised by no body or \nindividual.…\nSource: Olympe de Gouges\n\nGlobal Hist. & Geo. II – Jan. ’23 \n[4] \n 7 The information in this passage would be most \nuseful to an economist researching\n(1) motivations for European imperialism in \nAfrica\n(2) employment strategies used in Europe\n(3) reasons for European interest in ivory\n(4) importation of European raw materials to \nAfrica\n 8 Which event contributed to the situation described \nin this passage?\n(1) passage of the British Abolition Act\n(2) creation of the Sadler Report\n(3) meeting of the Berlin Conference\n(4) establishment of the Napoleonic Code"
+    },
+    {
+      "number": 6,
+      "part": "I",
+      "text": "Whose ideas most infl uenced the creation of these documents?",
+      "choices": [
+        "John Locke",
+        "Adam Smith",
+        "Catherine the Great",
+        "Maximilien Robespierre"
+      ],
+      "correct": 0,
+      "image": "/images/exams/global-history/january-2023/context_5_6.png",
+      "context": "Base your answers to questions 5 and 6 on the documents below and on your knowledge of social studies.\nExcerpt from the Declaration of the Rights of Man and of the Citizen, 1789\nArticles\n1. Men are born and remain free and equal in rights. Social distinctions may be founded only \nupon the general good.\n2. The aim of all political association is the preservation of natural and imprescriptible [inalienable] \nrights of man. These rights are liberty, property, security, and resistance to oppression.\n3. The principle of all sovereignty resides essentially in the nation. No body nor individual may \nexercise any authority which does not proceed directly from the nation.…\nSource: The Avalon Project at Yale Law School\nExcerpt from the Declaration of the Rights of Woman and Female Citizen, 1791\nI. Woman is born free and remains equal to man in rights. Social distinctions can only be \nfounded on common service.\nII. The aim of all political associations is to preserve the natural and inalienable rights of Woman \nand Man: these are rights to liberty, ownership, safety, and, above all, resistance to oppression.\nIII. The principle of sovereignty resides in essence in the Nation, which is only the coming \ntogether of Woman and Man: authority emanating elsewhere can be exercised by no body or \nindividual.…\nSource: Olympe de Gouges\n\nGlobal Hist. & Geo. II – Jan. ’23 \n[4] \n 7 The information in this passage would be most \nuseful to an economist researching\n(1) motivations for European imperialism in \nAfrica\n(2) employment strategies used in Europe\n(3) reasons for European interest in ivory\n(4) importation of European raw materials to \nAfrica\n 8 Which event contributed to the situation described \nin this passage?\n(1) passage of the British Abolition Act\n(2) creation of the Sadler Report\n(3) meeting of the Berlin Conference\n(4) establishment of the Napoleonic Code"
+    },
+    {
+      "number": 7,
+      "part": "I",
+      "text": "The information in this passage would be most useful to an economist researching",
+      "choices": [
+        "motivations for European imperialism in Africa",
+        "employment strategies used in Europe",
+        "reasons for European interest in ivory",
+        "importation of European raw materials to Africa"
+      ],
+      "correct": 0,
+      "image": "/images/exams/global-history/january-2023/context_7_8.png",
+      "context": "Base your answers to questions 7 and 8 on the passage below and on your knowledge of social studies.\n…Ivory and slaves had been the Congo’s main exports, but Leopold focused on rubber. The mass \nmarketing of bicycles and automobiles in the 1890s greatly increased the demand for rubber and \nsent prices soaring. When a rubber producing vine was discovered in the rainforests of Congo in \n1890, Leopold forced out the competition and acquired a monopoly on the scarce commodity. By \none estimate, the Congo was producing 20,000 tons of crude rubber a year at a 900 percent profi t. \nThe high return was due largely to cheap labor.…\nSource: Michael Parker, Mission Crossroads, Spring 2017"
+    },
+    {
+      "number": 8,
+      "part": "I",
+      "text": "Which event contributed to the situation described in this passage?",
+      "choices": [
+        "passage of the British Abolition Act",
+        "creation of the Sadler Report",
+        "meeting of the Berlin Conference",
+        "establishment of the Napoleonic Code"
+      ],
+      "correct": 2,
+      "image": "/images/exams/global-history/january-2023/context_7_8.png",
+      "context": "Base your answers to questions 7 and 8 on the passage below and on your knowledge of social studies.\n…Ivory and slaves had been the Congo’s main exports, but Leopold focused on rubber. The mass \nmarketing of bicycles and automobiles in the 1890s greatly increased the demand for rubber and \nsent prices soaring. When a rubber producing vine was discovered in the rainforests of Congo in \n1890, Leopold forced out the competition and acquired a monopoly on the scarce commodity. By \none estimate, the Congo was producing 20,000 tons of crude rubber a year at a 900 percent profi t. \nThe high return was due largely to cheap labor.…\nSource: Michael Parker, Mission Crossroads, Spring 2017"
+    },
+    {
+      "number": 9,
+      "part": "I",
+      "text": "Which situation was a result of the events described in this passage?",
+      "choices": [
+        "migration of people to rural areas",
+        "population increase",
+        "development of Marxist ideals",
+        "famine in Ireland"
+      ],
+      "correct": 1,
+      "image": "/images/exams/global-history/january-2023/context_9_10.png",
+      "context": "Base your answers to questions 9 and 10 on the passage below and on your knowledge of social studies.\n…Equally important to English agriculture was the development of new ways of raising crops \nand animals. About the same time that Townshend was experimenting with turnips and clover, \nan English farmer, Jethro Tull, introduced a new way of planting seed. In the past, farmers had \nscattered seed over the surface of a plowed fi eld. Much of this seed was eaten by birds or did not \ntake root.\n \nTull instead proposed planting each seed deeply into the ground and then hoeing around it. \nThe result was a heavy crop yield because more seeds survived and fl ourished. Tull increased the \neffi ciency of this process by doing the planting with horse-drawn seed drills and hoes.…\n \nThis agrarian revolution, as it has been called, was every bit as important as the industrial \nrevolution. The availability of good food, combined with improved infant survival and the \ndisappearance of epidemics, helped more young live to adulthood and allowed adults to live \nlonger. This meant that, by the middle of the eighteenth century, more people were having more \nchildren, and the population grew quickly thereafter.…\nSource: James A. Corrick, The Industrial Revolution, Lucent Books, 1998"
+    },
+    {
+      "number": 10,
+      "part": "I",
+      "text": "Which event brought about similar agricultural changes to those described in this passage?",
+      "choices": [
+        "Ukrainian Holodomor",
+        "desertifi cation of the Sahara/Sahel",
+        "construction of the Aswan Dam",
+        ""
+      ],
+      "correct": 3,
+      "image": "/images/exams/global-history/january-2023/context_9_10.png",
+      "context": "Base your answers to questions 9 and 10 on the passage below and on your knowledge of social studies.\n…Equally important to English agriculture was the development of new ways of raising crops \nand animals. About the same time that Townshend was experimenting with turnips and clover, \nan English farmer, Jethro Tull, introduced a new way of planting seed. In the past, farmers had \nscattered seed over the surface of a plowed fi eld. Much of this seed was eaten by birds or did not \ntake root.\n \nTull instead proposed planting each seed deeply into the ground and then hoeing around it. \nThe result was a heavy crop yield because more seeds survived and fl ourished. Tull increased the \neffi ciency of this process by doing the planting with horse-drawn seed drills and hoes.…\n \nThis agrarian revolution, as it has been called, was every bit as important as the industrial \nrevolution. The availability of good food, combined with improved infant survival and the \ndisappearance of epidemics, helped more young live to adulthood and allowed adults to live \nlonger. This meant that, by the middle of the eighteenth century, more people were having more \nchildren, and the population grew quickly thereafter.…\nSource: James A. Corrick, The Industrial Revolution, Lucent Books, 1998"
+    },
+    {
+      "number": 11,
+      "part": "I",
+      "text": "This photograph is most often associated with the term",
+      "choices": [
+        "appeasement",
+        "containment",
+        "boycott",
+        "segregation"
+      ],
+      "correct": 2,
+      "image": "/images/exams/global-history/january-2023/context_11_12.png",
+      "context": "Base your answers to questions 11 and 12 on the photograph below and on your knowledge of social studies.\nMahatma Gandhi Spinning Yarn in the Late 1920s\nSource: Carnegie Council for Ethics in International Affairs, January 15, 1929"
+    },
+    {
+      "number": 12,
+      "part": "I",
+      "text": "Gandhi’s activity in this photograph is a reaction to",
+      "choices": [
+        "British imperialism of India",
+        "Russia’s invasion of South Asia",
+        "India’s nonalignment during the Cold War",
+        ""
+      ],
+      "correct": 0,
+      "image": "/images/exams/global-history/january-2023/context_11_12.png",
+      "context": "Base your answers to questions 11 and 12 on the photograph below and on your knowledge of social studies.\nMahatma Gandhi Spinning Yarn in the Late 1920s\nSource: Carnegie Council for Ethics in International Affairs, January 15, 1929"
+    },
+    {
+      "number": 13,
+      "part": "I",
+      "text": "Which change resulted from Kemal Atatürk’s actions described in this passage?",
+      "choices": [
+        "adoption of anti-Semitism",
+        "rejection of modernization",
+        "westernization of Turkey",
+        "promotion of Islamic traditions"
+      ],
+      "correct": 2,
+      "image": "/images/exams/global-history/january-2023/context_13_14.png",
+      "context": "Base your answers to questions 13 and 14 on the passage below and on your knowledge of social studies.\n…Lives were indeed about to be sacrifi ced for the sake of the hat. As for the veiling of women, \nit was offi cially discouraged, but not banned. In any case, veiling had been largely a middle-class \ncustom, and the middle classes discarded it. The generality of women wore long headscarves, \nwhich they drew across their faces in the presence of male strangers. The government of the \nrepublic banned headscarves in offi cial premises, including schools, under civil service regulations. \nElsewhere they were tolerated and they have remained a feature of the Turkish scene to this day, \nwhile the ban on women’s headscarves in offi cial premises is challenged every time that offi cial \npressure is relaxed.…\nSource: Andrew Mango, Atatürk, The Overlook Press"
+    },
+    {
+      "number": 14,
+      "part": "I",
+      "text": "Which claim is best supported by the evidence in this passage?",
+      "choices": [
+        "Reforms were not universally accepted.",
+        "Freedom of dress was allowed in schools.",
+        "Respect was given to middle-class women.",
+        ""
+      ],
+      "correct": 0,
+      "image": "/images/exams/global-history/january-2023/context_13_14.png",
+      "context": "Base your answers to questions 13 and 14 on the passage below and on your knowledge of social studies.\n…Lives were indeed about to be sacrifi ced for the sake of the hat. As for the veiling of women, \nit was offi cially discouraged, but not banned. In any case, veiling had been largely a middle-class \ncustom, and the middle classes discarded it. The generality of women wore long headscarves, \nwhich they drew across their faces in the presence of male strangers. The government of the \nrepublic banned headscarves in offi cial premises, including schools, under civil service regulations. \nElsewhere they were tolerated and they have remained a feature of the Turkish scene to this day, \nwhile the ban on women’s headscarves in offi cial premises is challenged every time that offi cial \npressure is relaxed.…\nSource: Andrew Mango, Atatürk, The Overlook Press"
+    },
+    {
+      "number": 15,
+      "part": "I",
+      "text": "Which historical event most directly infl uenced the development of the 1947 plan shown on Map A?",
+      "choices": [
+        "Russian pogroms",
+        "the fall of the Austro-Hungarian Empire",
+        "Paris Peace Conference",
+        "the Holocaust"
+      ],
+      "correct": 3,
+      "image": "/images/exams/global-history/january-2023/context_15_16.png",
+      "context": "Base your answers to questions 15 and 16 on the maps below and on your knowledge of social studies.\n50 km\nGaza\nJordan\nAmman\nAmman\nAmman\nWest \nBank\nJewish state\nAccords after 1948 Arab-Israeli war:\nJordan controls East Jerusalem\nand West Bank.\nEgypt controls Gaza.\nArab state\nUN administration\nControlled partly by Israel,\npartly by Palestinians\nPalestinian control\nUN control\nSource: Daily Mail, February 18, 2017 (adapted)\nBeersheba\nEgypt\nEilat\nEilat\nEilat\nSinai\nJordan\nBeersheba\nEgypt\nSinai\nJordan\nBeersheba\nEgypt\nSinai\nTel Aviv\nHaifa\nTel Aviv\nHaifa\nLebanon\nSyria\nLebanon\nSyria\nSyria\nTel Aviv\nGaza\nStrip\nGaza\nStrip\nDead\nSea\nDead\nSea\nDead\nSea\n50 km\n50 km\n1947 UN Partition Plan\n,VUDHO·V\u0003&KDQJLQJ\u0003%RUGHUV\n1949\n2017\nMap A\n0DS\u0003%\n0DS\u0003&\nJerusalem\nJerusalem\nLebanon\nEast Jerusalem\nAnnexed by \nIsrael 1980\nWest \nBank\nGolan Heights \nAnnexed by \nIsrael in 1981\nIsrael\nIsrael\nJerusalem\n\nGlobal Hist. & Geo. II – Jan. ’23 \n[8] \n17 Which topic could best be studied by analyzing \nthis excerpt?\n(1) World War I \n(3) World War II\n(2) Russian Revolution \n(4) Cold War\n18 The wall referred to in this excerpt was used to\n(1) encourage the spread of capitalism\n(2) limit the movement of people\n(3) promote imperialism\n(4) prevent military cooperation"
+    },
+    {
+      "number": 16,
+      "part": "I",
+      "text": "Which group benefi tted the most from the changes shown on these maps?",
+      "choices": [
+        "Zionists and Jewish immigrants",
+        "the government of Jordan",
+        "Palestinian nationalists",
+        "the citizens of Lebanon"
+      ],
+      "correct": 0,
+      "image": "/images/exams/global-history/january-2023/context_15_16.png",
+      "context": "Base your answers to questions 15 and 16 on the maps below and on your knowledge of social studies.\n50 km\nGaza\nJordan\nAmman\nAmman\nAmman\nWest \nBank\nJewish state\nAccords after 1948 Arab-Israeli war:\nJordan controls East Jerusalem\nand West Bank.\nEgypt controls Gaza.\nArab state\nUN administration\nControlled partly by Israel,\npartly by Palestinians\nPalestinian control\nUN control\nSource: Daily Mail, February 18, 2017 (adapted)\nBeersheba\nEgypt\nEilat\nEilat\nEilat\nSinai\nJordan\nBeersheba\nEgypt\nSinai\nJordan\nBeersheba\nEgypt\nSinai\nTel Aviv\nHaifa\nTel Aviv\nHaifa\nLebanon\nSyria\nLebanon\nSyria\nSyria\nTel Aviv\nGaza\nStrip\nGaza\nStrip\nDead\nSea\nDead\nSea\nDead\nSea\n50 km\n50 km\n1947 UN Partition Plan\n,VUDHO·V\u0003&KDQJLQJ\u0003%RUGHUV\n1949\n2017\nMap A\n0DS\u0003%\n0DS\u0003&\nJerusalem\nJerusalem\nLebanon\nEast Jerusalem\nAnnexed by \nIsrael 1980\nWest \nBank\nGolan Heights \nAnnexed by \nIsrael in 1981\nIsrael\nIsrael\nJerusalem\n\nGlobal Hist. & Geo. II – Jan. ’23 \n[8] \n17 Which topic could best be studied by analyzing \nthis excerpt?\n(1) World War I \n(3) World War II\n(2) Russian Revolution \n(4) Cold War\n18 The wall referred to in this excerpt was used to\n(1) encourage the spread of capitalism\n(2) limit the movement of people\n(3) promote imperialism\n(4) prevent military cooperation"
+    },
+    {
+      "number": 17,
+      "part": "I",
+      "text": "Which topic could best be studied by analyzing this excerpt?",
+      "choices": [
+        "World War I",
+        "Russian Revolution",
+        "World War II",
+        "Cold War"
+      ],
+      "correct": 3,
+      "image": "/images/exams/global-history/january-2023/context_17_18.png",
+      "context": "Base your answers to questions 17 and 18 on the speech excerpt below and on your knowledge of social \nstudies.\n…There is one sign the Soviets can make that would be unmistakable, that would advance \ndramatically the cause of freedom and peace. General Secretary Gorbachev, if you seek peace, \nif you seek prosperity for the Soviet Union and Eastern Europe, if you seek liberalization: Come \nhere to this gate! Mr. Gorbachev, open this gate! Mr. Gorbachev, tear down this wall!…\nSource: Ronald Reagan, “Remarks on East-West Relations at the Brandenburg Gate in West Berlin,” June 12, 1987\n\nGlobal Hist. & Geo. II – Jan. ’23 \n[9] \n[OVER]\n20 Which viewpoint is expressed in this 1970 political \ncartoon?\n(1) The Soviet Union had fewer nuclear weapons \nthan the United States.\n(2) The United States paid more for their nuclear \nweapons.\n(3) Cost and instability resulted in arms control \ntalks.\n(4) Both Soviet and American citizens desired \nproduction of more weapons.\n21 Which action was a direct result of the event \ndepicted in this cartoon?\n(1) The Soviet Union sold nuclear weapons to \nIndia and Pakistan.\n(2) The power of the United Nations security \ncouncil increased.\n(3) Limits were placed on the number of missiles \nin the United States and the Soviet Union.\n(4) China obtained additional nuclear weapons \nunder Mao Zedong."
+    },
+    {
+      "number": 18,
+      "part": "I",
+      "text": "The wall referred to in this excerpt was used to",
+      "choices": [
+        "encourage the spread of capitalism",
+        "limit the movement of people",
+        "promote imperialism",
+        "prevent military cooperation"
+      ],
+      "correct": 1,
+      "image": "/images/exams/global-history/january-2023/context_17_18.png",
+      "context": "Base your answers to questions 17 and 18 on the speech excerpt below and on your knowledge of social \nstudies.\n…There is one sign the Soviets can make that would be unmistakable, that would advance \ndramatically the cause of freedom and peace. General Secretary Gorbachev, if you seek peace, \nif you seek prosperity for the Soviet Union and Eastern Europe, if you seek liberalization: Come \nhere to this gate! Mr. Gorbachev, open this gate! Mr. Gorbachev, tear down this wall!…\nSource: Ronald Reagan, “Remarks on East-West Relations at the Brandenburg Gate in West Berlin,” June 12, 1987\n\nGlobal Hist. & Geo. II – Jan. ’23 \n[9] \n[OVER]\n20 Which viewpoint is expressed in this 1970 political \ncartoon?\n(1) The Soviet Union had fewer nuclear weapons \nthan the United States.\n(2) The United States paid more for their nuclear \nweapons.\n(3) Cost and instability resulted in arms control \ntalks.\n(4) Both Soviet and American citizens desired \nproduction of more weapons.\n21 Which action was a direct result of the event \ndepicted in this cartoon?\n(1) The Soviet Union sold nuclear weapons to \nIndia and Pakistan.\n(2) The power of the United Nations security \ncouncil increased.\n(3) Limits were placed on the number of missiles \nin the United States and the Soviet Union.\n(4) China obtained additional nuclear weapons \nunder Mao Zedong."
+    },
+    {
+      "number": 19,
+      "part": "I",
+      "text": "Which circumstance most likely infl uenced this 1961 speech by Kwame Nkrumah?",
+      "choices": [
+        "rapid industrialization of Africa",
+        "the establishment of Islamic republics in Africa",
+        "Africans’ growing support for European colonial expansion",
+        "European political and economic control of the African continent"
+      ],
+      "correct": 3,
+      "image": "/images/exams/global-history/january-2023/context_19_19.png",
+      "context": "Base your answer to question 19 on the speech excerpt below and on your knowledge of social studies.\n \nFor centuries, Europeans dominated the African continent. The white man arrogated \n[claimed] to himself the right to rule and to be obeyed by the non-white; his mission, he claimed, \nwas to “civilise” Africa. Under this cloak, the Europeans robbed the continent of vast riches and \ninfl icted unimaginable suffering on the African people.…\n \nIt is clear that we must fi nd an African solution to our problems, and that this can only be \nfound in African unity. Divided we are weak; united, Africa could become one of the greatest \nforces for good in the world.…\nSource: Kwame Nkrumah, I Speak of Freedom, 1961"
+    },
+    {
+      "number": 20,
+      "part": "I",
+      "text": "Which viewpoint is expressed in this 1970 political cartoon?",
+      "choices": [
+        "The Soviet Union had fewer nuclear weapons than the United States.",
+        "The United States paid more for their nuclear weapons.",
+        "Cost and instability resulted in arms control talks.",
+        "Both Soviet and American citizens desired production of more weapons."
+      ],
+      "correct": 2,
+      "image": "/images/exams/global-history/january-2023/context_20_21.png",
+      "context": "Base your answers to questions 20 and 21 on the cartoon below and on your knowledge of social studies.\nSource: A Cartoon History of United States Foreign Policy, \n1776–1976\n\nGlobal Hist. & Geo. II – Jan. ’23 \n[10] \n24 In this quotation, Nelson Mandela is referring to \nthe end of which policy?\n(1) self-determination \n(3) apartheid\n(2) forced migration \n(4) urbanization\n25 Mandela’s support for universal suffrage in South \nAfrica led to\n(1) an end to white minority control \n(2) mass emigration \n(3) membership in the United Nations (UN)\n(4) confi scation of private farms"
+    },
+    {
+      "number": 21,
+      "part": "I",
+      "text": "Which action was a direct result of the event depicted in this cartoon?",
+      "choices": [
+        "The Soviet Union sold nuclear weapons to India and Pakistan.",
+        "The power of the United Nations security council increased.",
+        "Limits were placed on the number of missiles in the United States and the Soviet Union.",
+        "China obtained additional nuclear weapons under Mao Zedong."
+      ],
+      "correct": 2,
+      "image": "/images/exams/global-history/january-2023/context_20_21.png",
+      "context": "Base your answers to questions 20 and 21 on the cartoon below and on your knowledge of social studies.\nSource: A Cartoon History of United States Foreign Policy, \n1776–1976\n\nGlobal Hist. & Geo. II – Jan. ’23 \n[10] \n24 In this quotation, Nelson Mandela is referring to \nthe end of which policy?\n(1) self-determination \n(3) apartheid\n(2) forced migration \n(4) urbanization\n25 Mandela’s support for universal suffrage in South \nAfrica led to\n(1) an end to white minority control \n(2) mass emigration \n(3) membership in the United Nations (UN)\n(4) confi scation of private farms"
+    },
+    {
+      "number": 22,
+      "part": "I",
+      "text": "Which problem is best described in this passage?",
+      "choices": [
+        "poverty of factory workers",
+        "limitations of a market economy",
+        "slow pace of economic growth",
+        "domination of foreign investors"
+      ],
+      "correct": 2,
+      "image": "/images/exams/global-history/january-2023/context_22_23.png",
+      "context": "Base your answers to questions 22 and 23 on the passage below and on your knowledge of social studies.\n \nIn this interview Deng Xiaoping discusses changes to the Chinese economy.\n“There is no fundamental contradiction between socialism and a market economy. The problem \nis how to develop the productive forces more effectively. We used to have a planned economy, \nbut our experience over the years has proved that having a totally planned economy hampers the \ndevelopment of the productive forces to a certain extent. If we combine a planned economy with \na market economy, we shall be in a better position to liberate the productive forces and speed up \neconomic growth.”…\nSource: Selected Works of Deng Xiaoping, Vol. 3"
+    },
+    {
+      "number": 23,
+      "part": "II",
+      "type": "written",
+      "text": "",
+      "modelAnswer": "Submitting Teacher Evaluations of the Test to the Department Suggestions and feedback from teachers provide an important contribution to the test development process. The Department provides an online evaluation form for State assess- ments. It contains spaces for teachers to respond to several specific questions and to make suggestions. Instructions for completing the evaluation form are as follows: 1. Go to http://www.nysed.gov/state-assessment/teacher-feedback-state-assessments. 2. Select the test title. 3. Complete the required demographic fields. 4. Complete each evaluation question and provide comments in the space provided. 5. Click the SUBMIT button at the bottom of the page to submit the completed form. The Chart for Determining the Final Examination Score for the January 2023 Regents Exam in Global History and Geography II will be posted on the Department’s web site at: http://www.nysed.gov/state-assessment/high-school-regents-examinations on the day of the exam. Conversion charts provided for the previous adminis- trations of any Global History and Geography examinations must NOT be used to determine students’ final scores for this administration.",
+      "image": "/images/exams/global-history/january-2023/context_22_23.png",
+      "context": "Base your answers to questions 22 and 23 on the passage below and on your knowledge of social studies.\n \nIn this interview Deng Xiaoping discusses changes to the Chinese economy.\n“There is no fundamental contradiction between socialism and a market economy. The problem \nis how to develop the productive forces more effectively. We used to have a planned economy, \nbut our experience over the years has proved that having a totally planned economy hampers the \ndevelopment of the productive forces to a certain extent. If we combine a planned economy with \na market economy, we shall be in a better position to liberate the productive forces and speed up \neconomic growth.”…\nSource: Selected Works of Deng Xiaoping, Vol. 3"
+    },
+    {
+      "number": 24,
+      "part": "I",
+      "text": "In this quotation, Nelson Mandela is referring to the end of which policy?",
+      "choices": [
+        "self-determination",
+        "forced migration",
+        "apartheid",
+        "urbanization"
+      ],
+      "correct": 2,
+      "image": "/images/exams/global-history/january-2023/context_24_25.png",
+      "context": "Base your answers to questions 24 and 25 on the quotation below and on your knowledge of social studies.\n…“Our march to freedom is irreversible. We must not allow fear to stand in our way. Universal \nsuffrage on a common voters’ role in a united democratic and non-racial South Africa is the only \nway to peace and racial harmony.”…\nSource: Excerpt of Nelson Mandela’s speech upon his release from prison, February 11, 1990\n\nGlobal Hist. & Geo. II – Jan. ’23 \n[11] \n[OVER]"
+    },
+    {
+      "number": 25,
+      "part": "I",
+      "text": "Mandela’s support for universal suffrage in South Africa led to",
+      "choices": [
+        "an end to white minority control",
+        "mass emigration",
+        "membership in the United Nations (UN)",
+        "confi scation of private farms"
+      ],
+      "correct": 0,
+      "image": "/images/exams/global-history/january-2023/context_24_25.png",
+      "context": "Base your answers to questions 24 and 25 on the quotation below and on your knowledge of social studies.\n…“Our march to freedom is irreversible. We must not allow fear to stand in our way. Universal \nsuffrage on a common voters’ role in a united democratic and non-racial South Africa is the only \nway to peace and racial harmony.”…\nSource: Excerpt of Nelson Mandela’s speech upon his release from prison, February 11, 1990\n\nGlobal Hist. & Geo. II – Jan. ’23 \n[11] \n[OVER]"
+    },
+    {
+      "number": 26,
+      "part": "I",
+      "text": "Which type of social scientist is most likely to use the information shown on this map?",
+      "choices": [
+        "economist",
+        "anthropologist",
+        "historian",
+        "sociologist"
+      ],
+      "correct": 0,
+      "image": "/images/exams/global-history/january-2023/context_26_28.png",
+      "context": "Base your answers to questions 26 through 28 on the map below and on your knowledge of social studies.\nWhere Your Clothes Were Made\nIn 2016, the United States imported almost 27 billion articles of clothing. Here are the top \n10 countries those clothes came from.\nSource: New York Times Upfront Magazine"
+    },
+    {
+      "number": 27,
+      "part": "I",
+      "text": "Which statement is best supported by the information shown on this map?",
+      "choices": [
+        "Many African nations manufacture large quantities of clothing for export.",
+        "Many Asian nations lack the technology necessary for industrialization.",
+        "United States clothing imports come primarily from Asia.",
+        "Central America imports the majority of its clothing from India."
+      ],
+      "correct": 2,
+      "image": "/images/exams/global-history/january-2023/context_26_28.png",
+      "context": "Base your answers to questions 26 through 28 on the map below and on your knowledge of social studies.\nWhere Your Clothes Were Made\nIn 2016, the United States imported almost 27 billion articles of clothing. Here are the top \n10 countries those clothes came from.\nSource: New York Times Upfront Magazine"
+    },
+    {
+      "number": 28,
+      "part": "I",
+      "text": "Based on the information shown on this map, what can be inferred from the fact that 42% of imported clothing is made in China?",
+      "choices": [
+        "Chinese governmental policies support manufacturing for export.",
+        "The Chinese government enforces strict regulations protecting factory workers.",
+        "China has strong legal measures in place to protect the environment near factories.",
+        "Write your answers to questions 29–34b in the spaces provided. Use a pen with black or dark-blue ink to answer these questions. Part II SHORT-ANSWER CONSTRUCTED RESPONSE QUESTIONS (CRQ) These questions are based on the accompanying documents and are designed to test your ability to work with historical documents. Each Constructed Response Question (CRQ) Set is made up of 2 documents. Some of these documents have been edited for the purposes of this question. Keep in mind that the language and images used in a document may refl ect the historical context of the time in which it was created. In developing your answers to Part II, be sure to keep these explanations in mind: Identify—means to put a name to or to name. Explain—means to make plain or understandable; to give reasons for or causes of; to show the logical development or relationship of something. Short-Answer CRQ Set 1 Structure • Question 29 uses Document 1 (Context) • Question 30 uses Document 2 (Source) • Question 31 uses Documents 1 and 2 (Relationship between documents) Short-Answer CRQ Set 2 Structure • Question 32 uses Document 1 (Context) • Question 33 uses Document 2 (Source) • Questions 34a and 34b use Documents 1 and 2 (Relationship between documents) NAME __________________________________ SCHOOL ________________________________ CRQ Set 1"
+      ],
+      "correct": 0,
+      "image": "/images/exams/global-history/january-2023/context_26_28.png",
+      "context": "Base your answers to questions 26 through 28 on the map below and on your knowledge of social studies.\nWhere Your Clothes Were Made\nIn 2016, the United States imported almost 27 billion articles of clothing. Here are the top \n10 countries those clothes came from.\nSource: New York Times Upfront Magazine"
+    },
+    {
+      "number": 29,
+      "part": "II",
+      "type": "written",
+      "text": "29",
+      "modelAnswer": null,
+      "image": "/images/exams/global-history/january-2023/context_29_29.png",
+      "context": "Base your answer to question 29 on Document 1 below and on your knowledge of social studies.\nDocument 1\nRobert Ley held several positions in Germany. He was Reich Organization Leader, responsible for \nmuch of internal party education. He was also head of the German Labor Front, the Nazi “union.” This \nspeech was given on November 3, 1936.\n \nWe have accomplished enormous things in the over three years that we have \nbeen in power. I do not believe this evening would be long enough to list all \nthe great successes that we have had. Two facts stand out: The German today \nhas become an entirely different person! Whether worker, craftsman, farmer, \nor member of the middle class, we are all entirely new people! There are a few \nholdovers from past times, there always have to be museum pieces, after all. \nThey will gradually die out. The broad, large, and great mass of our people has \nchanged thoroughly. They have been transformed.…\n \nGermany has been born anew. The Führer [Hitler] said at the last party \nrally, as he always says, that for him the greatest miracle of the age is how \npeople have changed. Once there was hopelessness, today there is joy and \naffi rmation, once there was general desperation, today there is resurrection and \nreawakening. Once each was the enemy of his neighbor. Envy, mistrust, and \nhatred were everywhere; today, everyone tries to do something good for the next \nperson, even if sometimes with too much energy and enthusiasm. Each wants to \nbe a good comrade, loyal, friendly.…\nSource: Robert Ley, “Fate — I believe!,” November 3, 1936"
+    },
+    {
+      "number": 30,
+      "part": "II",
+      "type": "written",
+      "text": "Explain how audience affected what Robert Jackson included in his opening statement,",
+      "modelAnswer": null,
+      "image": "/images/exams/global-history/january-2023/context_30_30.png",
+      "context": "Base your answer to question 30 on Document 2 below and on your knowledge of social studies.\nDocument 2\nThe Nuremberg Trials were held from November 20, 1945 to October 1, 1946. Judges and prosecutors \nfrom the Allied Powers, Great Britain, France, the Soviet Union, and the United States presided over \nthe hearings of 22 Nazi offi cials. The proceedings were observed by 325 newspaper, radio, and newsreel \ncorrespondents from 23 countries.\n…The fact of the war and the course of the war, which is the central theme \nof our case, is history. From September 1st, 1939, when the German armies \ncrossed the Polish frontier, until September 1942, when they met epic resistance \nat Stalingrad, German arms seemed invincible. Denmark and Norway, the \nNetherlands and France, Belgium and Luxembourg, the Balkans and Africa, \nPoland and the Baltic States, and parts of Russia, all had been overrun and \nconquered by swift, powerful, well-aimed blows. That attack on the peace of the \nworld is the crime against international society which brings into international \ncognizance [understanding] crimes in its aid and preparation which otherwise \nmight be only internal concerns. It was aggressive war, which the nations of the \nworld had renounced. It was war in violation of treaties, by which the peace of \nthe world was sought to be safe-guarded.\n \nThis war did not just happen—it was planned and prepared for over a long \nperiod of time and with no small skill and cunning. The world has perhaps \nnever seen such a concentration and stimulation of the energies of any people \nas that which enabled Germany 20 years after it was defeated, disarmed, and \ndismembered to come so near carrying out its plan to dominate Europe.…\nSource: Robert H. Jackson, “Opening Statement before the International Military Tribunal”"
+    },
+    {
+      "number": 31,
+      "part": "II",
+      "type": "written",
+      "text": "Identify and explain a cause-and-effect relationship between the events and/or ideas found in these documents. Be sure to use evidence from both Documents 1 and 2 CRQ Set 2 Directions (32-34b): Analyze the documents and answer the short-answer questions that follow each document in the space provided.",
+      "modelAnswer": null,
+      "image": "/images/exams/global-history/january-2023/q31.png",
+      "context": "Base your answer to question 31 on both Documents 1 and 2 and on your knowledge of social studies.\nCause—refers to something that contributes to the occurrence of an event, the \nrise of an idea, or the bringing about of a development.\nEffect—refers to what happens as a consequence (result, impact, outcome) of an \nevent, an idea, or a development."
+    },
+    {
+      "number": 32,
+      "part": "II",
+      "type": "written",
+      "text": "32",
+      "modelAnswer": null,
+      "image": "/images/exams/global-history/january-2023/context_32_32.png",
+      "context": "Base your answer to question 32 on Document 1 below and on your knowledge of social studies.\nDocument 1\nThis poem entitled “War Girls” was published in England in 1916.\nThere’s the girl who clips your ticket for the train,\n \nAnd the girl who speeds the lift [elevator] from fl oor to fl oor,\nThere’s the girl who does a milk-round in the rain,\n \nAnd the girl who calls for orders at your door.\n \n \nStrong, sensible, and fi t,\n \n \nThey’re out to show their grit,\n \nAnd tackle jobs with energy and knack.\n \n \nNo longer caged and penned up,\n \n \nThey’re going to keep their end up\nTill the khaki soldier boys come marching back.\nThere’s the motor girl who drives a heavy van,\n \nThere’s the butcher girl who brings your joint of meat,\nThere’s the girl who cries ‘All fares, please!’ like a man,\n \nAnd the girl who whistles taxis up the street.\n \n \nBeneath each uniform\n \n \nBeats a heart that’s soft and warm,\n \nThough of canny mother-wit [common sense] they show no lack;\n \n \nBut a solemn statement this is,\n \n \nThey’ve no time for love and kisses\nTill the khaki soldier-boys come marching back.\nSource: Jessie Pope, “War Girls,” Poetry Foundation, 1916"
+    },
+    {
+      "number": 33,
+      "part": "II",
+      "type": "written",
+      "text": "Identify the point of view of the German National Socialist Women’s League regarding motherhood, Similarity—tells how something is alike or the same as something else. Difference—tells how something is not alike or not the same as something else. 34a-34b Using evidence from both Documents 1 and 2 and your knowledge of social studies: a) Identify a similarity or a difference between the societal expectations of women in England in 1916 and women in Germany in the 1930s. b) Part III (Question 35) ENDURING ISSUES ESSAY This question is based on the accompanying documents. The question is designed to test your ability to work with historical documents. Some of these documents have been edited for the purposes of this question. As you analyze the documents, take into account the source of each document and any point of view that may be presented in the document. Keep in mind that the language and images used in a document may refl ect the historical context of the time in which it was created. Directions: Read and analyze each of the fi ve documents and write a well-organized essay that includes an introduction, several paragraphs, and a conclusion. Support your response with relevant facts, examples, and details based on your knowledge of social studies and evidence from the documents. An enduring issue is a challenge or problem that has been debated or discussed across time. An enduring issue is one that many societies have attempted to address with varying degrees of success. Task: • Identify and explain an enduring issue raised by this set of documents • Argue why the issue you selected is signifi cant and how it has endured across time using your knowledge of social studies and evidence from the documents In your essay, be sure to • Identify the enduring issue based on a historically accurate interpretation of at least three documents • Explain the issue using relevant evidence from at least three documents • Argue that this is a signifi cant issue that has endured by showing: – How the issue has affected people or has been affected by people – How the issue has continued to be an issue or has changed over time • Include relevant outside information from your knowledge of social studies In developing your answer to Part III, be sure to keep these explanations in mind: Identify—means to put a name to or to name. Explain—means to make plain or understandable; to give reasons for or causes of; to show logical development or relationship of something. Argue— Document 1 Bread and the French Revolution …As they became more common, grain riots could have powerful repercussions. During the winter and spring of 1789, bread riots were especially common. In fact, the riots that resulted in the fall of the Bastille on 14 July 1789 and helped move forward the early stages of the French Revolution began as a search for arms and grain. Parisians had rightly suspected that some people had hoarded grain in anticipation of higher prices and they had taken to the streets to protest this hoarding. In the early stages of the French Revolution, rising bread prices were a major concern; the new government, worried about what the people might do if they could not get access to bread, quickly responded to complaints about prices, accusations of hoarding, and other, similar concerns. These riots and, even more simply, the threat of rioting helped propel the revolution forward and make it increasingly radical. The rioters even tried to set price controls for bread and other essentials. But infl ation continued to be a problem alongside grain shortages.… Source: Michael R. Lynn, “Riots and Rye: Bread and the French Revolution,” The Ultimate History Project online Document 2 …The Luddite disturbances started in circumstances at least superfi cially similar to our own. British working families at the start of the 19th century were enduring economic upheaval and widespread unemployment. A seemingly endless war against Napoleon’s France had brought “the hard pinch of poverty,” wrote Yorkshire historian Frank Peel, to homes “where it had hitherto [before] been a stranger.” Food was scarce and rapidly becoming more costly. Then, on March 11, 1811, in Nottingham, a textile manufacturing center, British troops broke up a crowd of protesters demanding more work and better wages. That night, angry workers smashed textile machinery in a nearby village. Similar attacks occurred nightly at fi rst, then sporadically [irregularly], and then in waves, eventually spreading across a 70-mile swath [broad area] of northern England from Loughborough in the south to Wakefi eld in the north. Fearing a national movement, the government soon positioned thousands of soldiers to defend factories. Parliament passed a measure to make machine-breaking a capital offense. But the Luddites were neither as organized nor as dangerous as authorities believed. They set some factories on fi re, but mainly they confi ned themselves to breaking machines. In truth, they infl icted less violence than they encountered. In one of the bloodiest incidents, in April 1812, some 2,000 protesters mobbed a mill near Manchester. The owner ordered his men to fi re into the crowd, killing at least 3 and wounding 18. Soldiers killed at least 5 more the next day.… Source: Richard Conniff, “What the Luddites Really Fought Against,” Smithsonian Magazine, March 2011 Document 3 The Galway Starvation Riots occurred a few years before the potato crop failure. The Irish Potato Famine began in 1845. ATTACK ON A POTATO STORE. Source: “Ireland, Attack on a Potato Store – The Galway Starvation Riots,” The Illustrated London News, June 25, 1842, text and scan by Philip V. Allingham, The Victorian Web Under the heading “The Galway Starvation Riots,” The Illustrated London News for the week ending Saturday, 25 June, 1842, described how the desperation of the Irish poor had driven them on the 13th to attack a potato store in the town of Galway, another month remaining before the next harvest and possible alleviation [reduction] of their misery, occasioned by hunger. Although the attackers were led by starving women and children, at the rear of the mob were a party of formidable Claddaugh fi shermen. The mob dared to attack the local sheriff accompanied by a strong force of police and members of the 30th regiment as they moved to plunder a storehouse for ground oatmeal. After their victory (owing to the fact that the troops refused to fi re on women and children) Document 4 One person was killed and six others were injured during a food riot inside a camp that houses Chadian refugees in the Sudanese region of Darfur, the United Nations High Commissioner for Refugees (UNHCR) reports. The agency said the incident occurred on Tuesday morning at the camp in Um Shalaya, about 70 kilometres southeast of El Geneina, the capital of West Darfur state. Hundreds of stick-bearing women demonstrated noisily against a temporary reduction in the availability of sorghum,* which is widely consumed in both Chad and Sudan, because of logistical problems. Continued insecurity has made it diffi cult to safely transport food from El Geneina to the camp at Um Shalaya. UNHCR reports that some members of the crowd took on local police and assaulted one of them, despite efforts by aid workers at the scene to calm the refugees. The police fi red warning shots in the air and, in the confusion, a 26-year-old male refugee was hit in the chest and later died.… “The incident is very regrettable and fi rst and foremost we express our sympathies to the persons and families of both the refugee community and the police who were injured,” said Chrysantus Ache, UNHCR’s representative in Sudan. “We urge calm and restraint by all parties,” Mr. Ache said. “We are currently conducting a proper investigation into the incident with the Government and we hope that, together with the refugees, we can quickly reach an understanding on how to avoid such incidents in the camp in the future.” About 6,600 refugees live in Um Shalaya, with new asylum-seekers arriving each month as they fl ee violence in their home areas of eastern Chad, where rebels have been fi ghting Government forces for months.… This week’s food riot has occurred amid mounting UN concern about repeated attacks against humanitarian convoys throughout Darfur, a vast and impoverished region on Sudan’s western fl ank.… Source: “Food riot at refugee camp in Darfur kills one, injures six others – UN,” UN News online, September 4, 2008 * Document 5 BEIJING – The factory riot that hit one of the world’s largest electronics manufacturers this week in northern China was rooted in growing economic pressure and impatience with poor work conditions among the country’s vast pool of migrant workers, analysts say, adding that if grievances remain unaddressed, such incidents are likely to increase. The riot, which began late Sunday, involved nearly 2,000 workers at a facility of Foxconn, a Taiwan-based manufacturing giant, which temporarily shut down the factory in response. The latest unrest coincides with signs of a slowdown in the Chinese economy, as well as the launch of a new iPhone by Apple, which depends on Foxconn as its main Chinese supplier. “Such riots have become in some ways inevitable,” said Liu Kaiming, a labor expert in Shenzhen, the hub of China’s manufacturing plants. “It’s no longer simply a matter of raising the wages.”… The young migrant workers whose labor has fueled much of the growth of China’s economy and the global manufacturing sector have begun to change in demographics and desires. That labor pool is shrinking, according to experts, as workers from China’s provinces have become better educated and hold higher expectations for their lives.… But the heavy demands of the factory jobs have not changed with the demographics, leaving many frustrated. Most of the jobs require little education or, in many cases, skill — only intensity. “The companies haven’t fi gured out how to manage that intensity,” Gallagher said. “It’s intense because of the precision required. It’s intense because of how quickly technology changes and newer models are demanded. And while the number of workers is shrinking, you have the pressures on them mounting.”… Source: William Wan, “Foxconn riot in China unlikely to be the last, experts say,” The Washington Post, September 25, 2012 OPTIONAL PLANNING PAGE Enduring Issues Essay Planning Page You may use the Planning Page organizer to plan your response if you wish, but do NOT write your essay response on this page. Writing on this Planning Page will NOT count toward your fi nal score. My Enduring Issue is:__________________________________________________________________ Essay Requirements Yes Circle documents that apply One or two possible ideas for outside information Is this an issue supported by at least three documents? Which documents support this issue? 1 2 3 4 5 Which documents can be used to develop the explanation for this issue? 1 2 3 4 5 Has this issue signifi cantly affected people or been affected by people? In which document or documents do you see this? 1 2 3 4 5 Has this issue endured across time or changed over time? In which document or documents do you see this? 1 2 3 4 5 Refer back to page 20 to review the task. Write your essay on the lined pages in the essay booklet. REGENTS EXAM IN GLOBAL HISTORY AND GEOGRAPHY II REGENTS EXAM IN GLOBAL HISTORY AND GEOGRAPHY II Printed on Recycled Paper",
+      "modelAnswer": null,
+      "image": "/images/exams/global-history/january-2023/context_33_33.png",
+      "context": "Base your answer to question 33 on Document 2 below and on your knowledge of social studies.\nDocument 2\nThe German National Socialist Women’s League was created in 1931. In 1936, Emilie Muller-Zadow, \na member of the National Socialist Women’s League, wrote this essay.\n \nThere is a growing recognition that mothers carry the destiny of their people \nin their hands and that the success or ruin of the nation depends on their \nattitude toward the vocation of motherhood.\n \nNation and race are facts of creation, which we, too, are called upon to share \nin forming and preserving. Therefore a national leadership that respects and \nhonors its mothers is on a sound and healthy path.…\n \nThe place that Adolf Hitler assigns to woman in the Third Reich corresponds \nto her natural and divine destiny. Limits are being set for her, which earlier \nshe had frequently violated in a barren desire to adopt masculine traits. The \nvalue and sanctity of goals now being set for her have been unrecognized and \nforgotten for a long time; and due respect is now being offered to her vocation \nas mother of the people, in which she can and should develop her rich emotions \nand spiritual strengths according to eternal laws. This wake-up call of National \nSocialism to women is one more indication that in Germany today it is not \narbitrary laws that are being issued, but rather a nation is returning to essential, \neternal rules of order.\n \nIt is therefore not at all surprising that the state and party claim the education \nof mothers as exclusively their task and insist that all training be carried out only \nby National Socialists and according to the principles of National Socialism. For \nthe way a mother sees her child, how she cares for, teaches, and forms him, the \nprinciples that she instills in him, the attitude that she demands of him, all of \nthis is crucial for the national health, for a German morality, and for the unifi ed \noverall mind-set of the future nation. . . .\nSource: Emilie Muller-Zadow, “Mothers Who Give Us the Future,” 1936"
+    }
+  ]
+}

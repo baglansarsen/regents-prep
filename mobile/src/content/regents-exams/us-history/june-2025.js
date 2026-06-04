@@ -1,0 +1,436 @@
+// Auto-generated raw wire-up from output/data/us-history/june-2025.json
+// Real extracted questions; explanation/diveDeep enrichment is a later pass.
+export default {
+  "id": "ush-jun-2025",
+  "subject": "us-history",
+  "year": 2025,
+  "session": "June",
+  "totalMinutes": 180,
+  "questions": [
+    {
+      "number": 1,
+      "part": "I",
+      "text": "Which statement about Native American societies can be inferred from this engraving?",
+      "choices": [
+        "The inhabitants valued entertainment over field work.",
+        "The layouts of their villages were based on European societies.",
+        "Internal conflict and disease led to their decline.",
+        "Their communities were planned and supported an organized way of life."
+      ],
+      "correct": 3,
+      "image": "/images/exams/us-history/june-2025/context_1_2.png",
+      "context": "Base your answers to questions 1 and 2 on the engraving below and on your knowledge of social studies.\nSource: Theodor de Bry, engraver, 1590 (adapted)\nThe Town of Secota, 1590\nPart I\nAnswer all questions in this part.\nDirections (1–28): For each statement or question, record on your separate answer sheet the number of \nthe word or expression that, of those given, best completes the statement or answers the question."
+    },
+    {
+      "number": 2,
+      "part": "I",
+      "text": "A historian would find this engraving most useful for",
+      "choices": [
+        "describing Native American societies prior to European colonization",
+        "examining the way Native Americans dealt with hardship",
+        "illustrating the influence colonial leaders had on Native American societies",
+        ""
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/june-2025/context_1_2.png",
+      "context": "Base your answers to questions 1 and 2 on the engraving below and on your knowledge of social studies.\nSource: Theodor de Bry, engraver, 1590 (adapted)\nThe Town of Secota, 1590\nPart I\nAnswer all questions in this part.\nDirections (1–28): For each statement or question, record on your separate answer sheet the number of \nthe word or expression that, of those given, best completes the statement or answers the question."
+    },
+    {
+      "number": 3,
+      "part": "I",
+      "text": "The Proclamation Line of 1763 generally followed which geographic feature?",
+      "choices": [
+        "Great Lakes",
+        "Appalachian Mountains",
+        "Rocky Mountains",
+        "Mississippi River"
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/june-2025/context_3_4.png",
+      "context": "Base your answers to questions 3 and 4 on the map below and on your knowledge of social studies.\nSource: Schwartz and O’Connor, Exploring American History, Globe Book Company (adapted)\nNorth America, 1775\nProclamation Line of 1763\nColonial borders\nKey\nN\nS\nW\nE"
+    },
+    {
+      "number": 4,
+      "part": "I",
+      "text": "How did many American colonists respond to the establishment of the Proclamation Line of 1763?",
+      "choices": [
+        "They argued it was an abuse of British authority.",
+        "They established a colony on the Florida peninsula.",
+        "They honored Native American treaties.",
+        ""
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/june-2025/context_3_4.png",
+      "context": "Base your answers to questions 3 and 4 on the map below and on your knowledge of social studies.\nSource: Schwartz and O’Connor, Exploring American History, Globe Book Company (adapted)\nNorth America, 1775\nProclamation Line of 1763\nColonial borders\nKey\nN\nS\nW\nE"
+    },
+    {
+      "number": 5,
+      "part": "I",
+      "text": "Based on this passage, what action would Alexander Hamilton recommend?",
+      "choices": [
+        "strengthening the national government",
+        "establishing a monarchy",
+        "increasing the power of the states",
+        "continuing to use the Articles of Confederation"
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/june-2025/context_5_6.png",
+      "context": "Base your answers to questions 5 and 6 on the passage below and on your knowledge of social studies.\n. . . In pursuance of the plan which I have laid down for the discussion of the \nsubject, the point next in order to be examined is the “insufficiency of the \npresent Confederation to the preservation of the Union.” . . .\n\t\nIn our case, the concurrence [agreement] of thirteen distinct sovereign \nwills is requisite [required], under the Confederation, to the complete \nexecution of every important measure that proceeds from the Union. It has \nhappened as was to have been foreseen. The measures of the Union have not \nbeen executed; the delinquencies of the States have, step by step, matured \nthemselves to an extreme, which has, at length, arrested all the wheels of the \nnational government, and brought them to an awful stand. Congress at this \ntime scarcely possess the means of keeping up the forms of administration, \ntill the States can have time to agree upon a more substantial substitute for \nthe present shadow of a federal government. Things did not come to this \ndesperate extremity at once. . . . Each State, yielding to the persuasive voice \nof immediate interest or convenience, has successively withdrawn its support, \ntill the frail and tottering edifice seems ready to fall upon our heads, and to \ncrush us beneath its ruins.\nSource: Alexander Hamilton, The Federalist Papers: No. 15,\nDecember 1, 1787 (adapted)"
+    },
+    {
+      "number": 6,
+      "part": "I",
+      "text": "Based on this passage, the purpose of the Federalist Papers was to",
+      "choices": [
+        "discourage the creation of political parties",
+        "justify the American Revolution to the colonists",
+        "support ratification of the Constitution",
+        ""
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/june-2025/context_5_6.png",
+      "context": "Base your answers to questions 5 and 6 on the passage below and on your knowledge of social studies.\n. . . In pursuance of the plan which I have laid down for the discussion of the \nsubject, the point next in order to be examined is the “insufficiency of the \npresent Confederation to the preservation of the Union.” . . .\n\t\nIn our case, the concurrence [agreement] of thirteen distinct sovereign \nwills is requisite [required], under the Confederation, to the complete \nexecution of every important measure that proceeds from the Union. It has \nhappened as was to have been foreseen. The measures of the Union have not \nbeen executed; the delinquencies of the States have, step by step, matured \nthemselves to an extreme, which has, at length, arrested all the wheels of the \nnational government, and brought them to an awful stand. Congress at this \ntime scarcely possess the means of keeping up the forms of administration, \ntill the States can have time to agree upon a more substantial substitute for \nthe present shadow of a federal government. Things did not come to this \ndesperate extremity at once. . . . Each State, yielding to the persuasive voice \nof immediate interest or convenience, has successively withdrawn its support, \ntill the frail and tottering edifice seems ready to fall upon our heads, and to \ncrush us beneath its ruins.\nSource: Alexander Hamilton, The Federalist Papers: No. 15,\nDecember 1, 1787 (adapted)"
+    },
+    {
+      "number": 7,
+      "part": "I",
+      "text": "The Supreme Court’s decision in this case established the principle of",
+      "choices": [
+        "states’ rights",
+        "nullification",
+        "judicial review",
+        "popular sovereignty"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/june-2025/context_7_8.png",
+      "context": "Base your answers to questions 7 and 8 on the excerpt below and on your knowledge of social studies.\n. . . The authority, therefore, given to the supreme court, by the act establishing \nthe judicial courts of the United States, to issue writs of mandamus to public \nofficers, appears not to be warranted by the constitution; and it becomes \nnecessary to inquire whether a jurisdiction, so conferred [granted], can be \nexercised. . . .\n\t\nCertainly all those who have framed written constitutions contemplate \nthem as forming the fundamental and paramount law of the nation, and \nconsequently the theory of every such government must be, that an act of the \nlegislature repugnant [disagreeable] to the constitution is void. . . .\n\t\nIt is emphatically the province and duty of the judicial department to \nsay what the law is. Those who apply the rule to particular cases, must of \nnecessity expound [explain] and interpret that rule. If two laws conflict with \neach other, the courts must decide on the operation of each. . . .\nSource: Chief Justice John Marshall, Majority Opinion, Marbury v. Madison,\nFebruary 24, 1803 (adapted)"
+    },
+    {
+      "number": 8,
+      "part": "I",
+      "text": "What was a direct result of the Supreme Court’s decision in this case?",
+      "choices": [
+        "The power of the federal judiciary was strengthened.",
+        "The court increased the number of justices.",
+        "The legislative branch’s power was increased.",
+        ""
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/june-2025/context_7_8.png",
+      "context": "Base your answers to questions 7 and 8 on the excerpt below and on your knowledge of social studies.\n. . . The authority, therefore, given to the supreme court, by the act establishing \nthe judicial courts of the United States, to issue writs of mandamus to public \nofficers, appears not to be warranted by the constitution; and it becomes \nnecessary to inquire whether a jurisdiction, so conferred [granted], can be \nexercised. . . .\n\t\nCertainly all those who have framed written constitutions contemplate \nthem as forming the fundamental and paramount law of the nation, and \nconsequently the theory of every such government must be, that an act of the \nlegislature repugnant [disagreeable] to the constitution is void. . . .\n\t\nIt is emphatically the province and duty of the judicial department to \nsay what the law is. Those who apply the rule to particular cases, must of \nnecessity expound [explain] and interpret that rule. If two laws conflict with \neach other, the courts must decide on the operation of each. . . .\nSource: Chief Justice John Marshall, Majority Opinion, Marbury v. Madison,\nFebruary 24, 1803 (adapted)"
+    },
+    {
+      "number": 9,
+      "part": "I",
+      "text": "What was the primary reason President Andrew Jackson supported the removal of Native Americans from their tribal lands?",
+      "choices": [
+        "it provided fertile farmland to Native Americans",
+        "it gave political support to Native Americans",
+        "it opened Native American land to white settlement",
+        "it granted citizenship to Native Americans"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/june-2025/context_9_10.png",
+      "context": "Base your answers to questions 9 and 10 on the passage below and on your knowledge of social studies.\n. . . The consequences of a speedy removal will be important to the United \nStates, to individual States, and to the Indians [Native Americans] themselves.\nThe pecuniary [financial] advantages which it promises to the Government \nare the least of its recommendations. It puts an end to all possible danger \nof collision between the authorities of the General [Federal] and State \nGovernments on account of the Indians. It will place a dense and civilized \npopulation in large tracts of country now occupied by a few savage hunters. \nBy opening the whole territory between Tennessee on the north and \nLouisiana on the south to the settlement of the whites it will incalculably \n[greatly] strengthen the SW [southwestern] frontier and render the adjacent \nStates strong enough to repel future invasions without remote aid. It will \nrelieve the whole State of Mississippi and the western part of Alabama of \nIndian occupancy, and enable those States to advance rapidly in population, \nwealth, and power. It will separate the Indians from immediate contact with \nsettlements of whites; free them from the power of the States. . . .\nSource: President Andrew Jackson, Second Annual Message to Congress,\nDecember 6, 1830"
+    },
+    {
+      "number": 10,
+      "part": "I",
+      "text": "Which Supreme Court case was directly related to the control of Native American land in the southeast?",
+      "choices": [
+        "McCulloch v. Maryland",
+        "Worcester v. Georgia",
+        "Dred Scott v. Sanford",
+        ""
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/june-2025/context_9_10.png",
+      "context": "Base your answers to questions 9 and 10 on the passage below and on your knowledge of social studies.\n. . . The consequences of a speedy removal will be important to the United \nStates, to individual States, and to the Indians [Native Americans] themselves.\nThe pecuniary [financial] advantages which it promises to the Government \nare the least of its recommendations. It puts an end to all possible danger \nof collision between the authorities of the General [Federal] and State \nGovernments on account of the Indians. It will place a dense and civilized \npopulation in large tracts of country now occupied by a few savage hunters. \nBy opening the whole territory between Tennessee on the north and \nLouisiana on the south to the settlement of the whites it will incalculably \n[greatly] strengthen the SW [southwestern] frontier and render the adjacent \nStates strong enough to repel future invasions without remote aid. It will \nrelieve the whole State of Mississippi and the western part of Alabama of \nIndian occupancy, and enable those States to advance rapidly in population, \nwealth, and power. It will separate the Indians from immediate contact with \nsettlements of whites; free them from the power of the States. . . .\nSource: President Andrew Jackson, Second Annual Message to Congress,\nDecember 6, 1830"
+    },
+    {
+      "number": 11,
+      "part": "II",
+      "type": "written",
+      "text": "S.C. 7 N.C. 10 VA. 11 MD. 8 MASS. 13 ME. 7 N.H. 5 VT. 5 N.Y. 35 DEL. 3 N.J. 9 CONN. 6 R.I. 4 W. VA. 5 KY.",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/june-2025/context_11_12.png",
+      "context": "Base your answers to questions 11 and 12 on the map below and on your knowledge of social studies.\n2\nKANS.\n5\nTEX.\n8\nElectoral\nKey\nHayes (Rep.)\nDisputed*\nTilden (Dem.)\n*Assigned to Hayes by congressional commission.\nSource: Blum et al., The National Experience: A History of the United States, \nHarcourt Brace Jovanovich, 1985 (adapted)\nPopular\n185\n4,037,000\n184\n4,284,000\nLA.\n8\nMISS.\n8\nALA.\n10\nGA."
+    },
+    {
+      "number": 12,
+      "part": "I",
+      "text": "IND. 15 OHIO 22 PENNA. 29 FLA. 4 TENN. 12 MICH. 11 WIS. 10 MINN. 5 Electoral Votes in the Election of 1876 MO. 15 ARK. 6 ILL. 21 IOWA 11 NEB. 3 COLO. 3 CALIF. 6 NEV. 3 ORE. 1 11 This map of electoral votes in the 1876 presidential election shows that",
+      "choices": [
+        "Confederate General Robert E. Lee surrendered to end the Civil War.",
+        "Manifest Destiny was completed with the addition of new western territory.",
+        "Slavery was abolished with the ratification of the 13th amendment.",
+        ""
+      ],
+      "correct": 3,
+      "image": "/images/exams/us-history/june-2025/context_11_12.png",
+      "context": "Base your answers to questions 11 and 12 on the map below and on your knowledge of social studies.\n2\nKANS.\n5\nTEX.\n8\nElectoral\nKey\nHayes (Rep.)\nDisputed*\nTilden (Dem.)\n*Assigned to Hayes by congressional commission.\nSource: Blum et al., The National Experience: A History of the United States, \nHarcourt Brace Jovanovich, 1985 (adapted)\nPopular\n185\n4,037,000\n184\n4,284,000\nLA.\n8\nMISS.\n8\nALA.\n10\nGA."
+    },
+    {
+      "number": 13,
+      "part": "I",
+      "text": "Which group would most strongly oppose the idea expressed in this poem?",
+      "choices": [
+        "nativists",
+        "industrialists",
+        "suffragists",
+        "imperialists"
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/june-2025/context_13_14.png",
+      "context": "Base your answers to questions 13 and 14 on the poem below and on your knowledge of social studies.\n. . . Here at our sea-washed, sunset gates shall stand\nA mighty woman with a torch, whose flame\nIs the imprisoned lightning, and her name\nMother of Exiles. From her beacon-hand\nGlows world-wide welcome; . . .\n“Keep ancient lands, your storied pomp!” cries she\nWith silent lips. “Give me your tired, your poor,\nYour huddled masses yearning to breathe free,\nThe wretched refuse of your teeming shore.\nSend these, the homeless, tempest-tost to me,\nI lift my lamp beside the golden door!”\nSource: Emma Lazarus, “The New Colossus,” 1883 (adapted)"
+    },
+    {
+      "number": 14,
+      "part": "II",
+      "type": "written",
+      "text": "",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/june-2025/context_13_14.png",
+      "context": "Base your answers to questions 13 and 14 on the poem below and on your knowledge of social studies.\n. . . Here at our sea-washed, sunset gates shall stand\nA mighty woman with a torch, whose flame\nIs the imprisoned lightning, and her name\nMother of Exiles. From her beacon-hand\nGlows world-wide welcome; . . .\n“Keep ancient lands, your storied pomp!” cries she\nWith silent lips. “Give me your tired, your poor,\nYour huddled masses yearning to breathe free,\nThe wretched refuse of your teeming shore.\nSend these, the homeless, tempest-tost to me,\nI lift my lamp beside the golden door!”\nSource: Emma Lazarus, “The New Colossus,” 1883 (adapted)"
+    },
+    {
+      "number": 15,
+      "part": "I",
+      "text": "OHIO 22 PENNA. 29 FLA. 4 TENN. 12 MICH. 11 WIS. 10 MINN. 5 Electoral Votes in the Election of 1876 MO. 15 ARK. 6 ILL. 21 IOWA 11 NEB. 3 COLO. 3 CALIF. 6 NEV. 3 ORE. 1 11 This map of electoral votes in the 1876 presidential election shows that",
+      "choices": [
+        "socialism",
+        "populism",
+        "immigration",
+        "neutrality"
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/june-2025/q15.png",
+      "context": "Base your answers to questions 15 and 16 on the passage below and on your knowledge of social studies.\n. . . Even as it was menaced by new competitors abroad, Standard Oil seemed \nomnipotent [all-powerful] in American oil. Everything about its operation \nwas colossal: Twenty thousand wells poured their output into 4,000 miles of \nStandard Oil pipelines, carrying the crude to seaboard or to 5,000 Standard \nOil tank cars. The combine now employed 100,000 people and superintended \nthe export of 50,000 barrels of oil to Europe daily. Rockefeller’s creation \ncould be discussed only in superlatives: It was the biggest and richest, the \nmost feared and admired business organization in the world. Earning steady, \nreliable profits, year in and year out, Rockefeller could be forgiven for \nbelieving he had outwitted the business cycle. For a man who craved order, \nhe had reached his apogee [summit]. No longer at the mercy of unpredictable \neconomic forces, he thrived even in recessions. . . .\nSource: Ron Chernow, Titan: The Life of John D. Rockefeller, Sr., Vintage Books, 1998"
+    },
+    {
+      "number": 16,
+      "part": "I",
+      "text": "Which writer became famous for exposing the questionable business tactics of Rockefeller’s Standard Oil Company?",
+      "choices": [
+        "freedom of expression",
+        "right to bear arms",
+        "right to counsel",
+        "trial by jury"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/june-2025/q16.png",
+      "context": "Base your answers to questions 15 and 16 on the passage below and on your knowledge of social studies.\n. . . Even as it was menaced by new competitors abroad, Standard Oil seemed \nomnipotent [all-powerful] in American oil. Everything about its operation \nwas colossal: Twenty thousand wells poured their output into 4,000 miles of \nStandard Oil pipelines, carrying the crude to seaboard or to 5,000 Standard \nOil tank cars. The combine now employed 100,000 people and superintended \nthe export of 50,000 barrels of oil to Europe daily. Rockefeller’s creation \ncould be discussed only in superlatives: It was the biggest and richest, the \nmost feared and admired business organization in the world. Earning steady, \nreliable profits, year in and year out, Rockefeller could be forgiven for \nbelieving he had outwitted the business cycle. For a man who craved order, \nhe had reached his apogee [summit]. No longer at the mercy of unpredictable \neconomic forces, he thrived even in recessions. . . .\nSource: Ron Chernow, Titan: The Life of John D. Rockefeller, Sr., Vintage Books, 1998"
+    },
+    {
+      "number": 17,
+      "part": "I",
+      "text": "Which event led to the issues described in this passage?",
+      "choices": [
+        "Mexican-American War",
+        "Civil War",
+        "Spanish-American War",
+        "World War I"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/june-2025/context_17_18.png",
+      "context": "Base your answers to questions 17 and 18 on the passage below and on your knowledge of social studies.\n\t\nWe hold that the policy known as imperialism is hostile to liberty and \ntends toward militarism, an evil from which it has been our glory to be \nfree. We regret that it has become necessary in the land of Washington and \nLincoln to reaffirm that all men, of whatever race or color, are entitled to \nlife, liberty and the pursuit of happiness. We maintain that governments \nderive their just powers from the consent of the governed. We insist that the \nsubjugation of any people is “criminal aggression” and open disloyalty to the \ndistinctive principles of our government.\n\t\nWe earnestly condemn the policy of the present National Administration \nin the Philippines. It seeks to extinguish the spirit of 1776 in those islands. \nWe deplore the sacrifice of our soldiers and sailors, whose bravery deserves \nadmiration even in an unjust war. We denounce the slaughter of the Filipinos \nas a needless horror. . . . \nSource: Platform of the American Anti­-lmperialist League, 1899"
+    },
+    {
+      "number": 18,
+      "part": "II",
+      "type": "written",
+      "text": "",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/june-2025/context_17_18.png",
+      "context": "Base your answers to questions 17 and 18 on the passage below and on your knowledge of social studies.\n\t\nWe hold that the policy known as imperialism is hostile to liberty and \ntends toward militarism, an evil from which it has been our glory to be \nfree. We regret that it has become necessary in the land of Washington and \nLincoln to reaffirm that all men, of whatever race or color, are entitled to \nlife, liberty and the pursuit of happiness. We maintain that governments \nderive their just powers from the consent of the governed. We insist that the \nsubjugation of any people is “criminal aggression” and open disloyalty to the \ndistinctive principles of our government.\n\t\nWe earnestly condemn the policy of the present National Administration \nin the Philippines. It seeks to extinguish the spirit of 1776 in those islands. \nWe deplore the sacrifice of our soldiers and sailors, whose bravery deserves \nadmiration even in an unjust war. We denounce the slaughter of the Filipinos \nas a needless horror. . . . \nSource: Platform of the American Anti­-lmperialist League, 1899"
+    },
+    {
+      "number": 19,
+      "part": "I",
+      "text": "In this decision, the actions of Charles Schenck were labeled as a “clear and present danger” because the United States was",
+      "choices": [
+        "responding to strikes by organized labor",
+        "implementing a new immigration system",
+        "involved in fighting a world war",
+        "concerned about a revolution in Russia"
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/june-2025/context_19_20.png",
+      "context": "Base your answers to questions 19 and 20 on the excerpt below and on your knowledge of social studies.\n. . . The most stringent protection of free speech would not protect a man in\nfalsely shouting fire in a theatre and causing a panic. . . . The question in every\ncase is whether the words used are used in such circumstances and are of \nsuch a nature as to create a clear and present danger that they will bring \nabout the substantive evils that Congress has a right to prevent. . . . \nSource: Supreme Court Justice Oliver Wendell Holmes,\nMajority Opinion, Schenck v. United States, 1919 (adapted)\n\nU.S. Hist. & Gov’t. – June ’25\t\n[10]"
+    },
+    {
+      "number": 20,
+      "part": "I",
+      "text": "Which constitutional right was limited by this Supreme Court decision?",
+      "choices": [
+        "freedom of expression",
+        "right to bear arms",
+        "right to counsel",
+        "trial by jury"
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/june-2025/context_19_20.png",
+      "context": "Base your answers to questions 19 and 20 on the excerpt below and on your knowledge of social studies.\n. . . The most stringent protection of free speech would not protect a man in\nfalsely shouting fire in a theatre and causing a panic. . . . The question in every\ncase is whether the words used are used in such circumstances and are of \nsuch a nature as to create a clear and present danger that they will bring \nabout the substantive evils that Congress has a right to prevent. . . . \nSource: Supreme Court Justice Oliver Wendell Holmes,\nMajority Opinion, Schenck v. United States, 1919 (adapted)\n\nU.S. Hist. & Gov’t. – June ’25\t\n[10]"
+    },
+    {
+      "number": 21,
+      "part": "I",
+      "text": "What issue is being addressed by President Franklin D. Roosevelt in this speech?",
+      "choices": [
+        "the failure of Prohibition",
+        "the economic problems caused by the Great Depression",
+        "the destruction caused by the attack on Pearl Harbor",
+        "the possibility of a military alliance with Great Britain"
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/june-2025/context_21_22.png",
+      "context": "Base your answers to questions 21 and 22 on the speech below and on your knowledge of social studies.\n. . . So, first of all, let me assert my firm belief that the only thing we have \nto fear is fear itself—nameless, unreasoning, unjustified terror which \nparalyzes needed efforts to convert retreat into advance. In every dark hour \nof our national life a leadership of frankness and vigor has met with that \nunderstanding and support of the people themselves which is essential to \nvictory. I am convinced that you will again give that support to leadership in \nthese critical days. . . .\nSource: President Franklin D. Roosevelt, First Inaugural Address, March 4, 1933 (adapted)"
+    },
+    {
+      "number": 22,
+      "part": "I",
+      "text": "Which program was created in response to the situation described in this speech?",
+      "choices": [
+        "Fourteen Points",
+        "New Deal",
+        "Lend-Lease",
+        "Great Society"
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/june-2025/context_21_22.png",
+      "context": "Base your answers to questions 21 and 22 on the speech below and on your knowledge of social studies.\n. . . So, first of all, let me assert my firm belief that the only thing we have \nto fear is fear itself—nameless, unreasoning, unjustified terror which \nparalyzes needed efforts to convert retreat into advance. In every dark hour \nof our national life a leadership of frankness and vigor has met with that \nunderstanding and support of the people themselves which is essential to \nvictory. I am convinced that you will again give that support to leadership in \nthese critical days. . . .\nSource: President Franklin D. Roosevelt, First Inaugural Address, March 4, 1933 (adapted)"
+    },
+    {
+      "number": 23,
+      "part": "I",
+      "text": "What was the main reason for Supreme Court Justice Frank Murphy’s dissent in Korematsu v. United States?",
+      "choices": [
+        "to ensure Japanese Americans remained loyal to the United States",
+        "to increase Japanese American participation in the military",
+        "to express opposition to the internment of Japanese Americans",
+        ""
+      ],
+      "correct": 2,
+      "image": "/images/exams/us-history/june-2025/context_23_23.png",
+      "context": "Base your answer to question 23 on the passage below and on your knowledge of social studies.\n. . . The military necessity which is essential to the validity of the evacuation \norder thus resolves itself into a few intimations that certain individuals \nactively aided the enemy, from which it is inferred that the entire group of \nJapanese Americans could not be trusted to be or remain loyal to the United \nStates. No one denies, of course, that there were some disloyal persons of \nJapanese descent on the Pacific Coast who did all in their power to aid their \nancestral land. Similar disloyal activities have been engaged in by many \npersons of German, Italian and even more pioneer stock in our country. \nBut to infer that examples of individual disloyalty prove group disloyalty and \njustify discriminatory action against the entire group is to deny that, under \nour system of law, individual guilt is the sole basis for deprivation of rights. . . .\nSource: Supreme Court Justice Frank Murphy, Dissenting Opinion, \nKorematsu v. United States, 1944 (adapted)"
+    },
+    {
+      "number": 24,
+      "part": "I",
+      "text": "Which idea is being illustrated in this cartoon?",
+      "choices": [
+        "expansion of presidential responsibility",
+        "increasing congressional checks on presidential power",
+        "increased role of the Supreme Court in United States foreign policy",
+        "use of executive orders to end foreign alliances"
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/june-2025/context_24_25.png",
+      "context": "Base your answers to questions 24 and 25 on the cartoon below and on your knowledge of social studies.\nSource: Herblock, Washington Post, 1951\nThe Tumult and the Shouting Dies;\nthe Captains and the Kings Depart"
+    },
+    {
+      "number": 25,
+      "part": "I",
+      "text": "What is causing the problems shown in this cartoon?",
+      "choices": [
+        "failure to sign the Universal Declaration of Human Rights",
+        "judgments made at the Nuremberg War Trials",
+        "President Harry Truman’s decision to desegregate the military",
+        ""
+      ],
+      "correct": 3,
+      "image": "/images/exams/us-history/june-2025/context_24_25.png",
+      "context": "Base your answers to questions 24 and 25 on the cartoon below and on your knowledge of social studies.\nSource: Herblock, Washington Post, 1951\nThe Tumult and the Shouting Dies;\nthe Captains and the Kings Depart"
+    },
+    {
+      "number": 26,
+      "part": "I",
+      "text": "What was the main idea of President Ronald Reagan’s speech?",
+      "choices": [
+        "to draw attention to the human rights violations in Western Europe",
+        "to increase humanitarian aid to the Communist bloc",
+        "to prevent a re-emergence of fascism in East Germany",
+        ""
+      ],
+      "correct": 3,
+      "image": "/images/exams/us-history/june-2025/context_26_26.png",
+      "context": "Base your answer to question 26 on the speech below and on your knowledge of social studies.\n. . . Behind me stands a wall that encircles the free sectors of this city, part \nof a vast system of barriers that divides the entire continent of Europe. From \nthe Baltic, south, those barriers cut across Germany in a gash of barbed wire, \nconcrete, dog runs, and guard towers. Farther south, there may be no visible, \nno obvious wall. But there remain armed guards and checkpoints all the \nsame—still a restriction on the right to travel, still an instrument to impose \nupon ordinary men and women the will of a totalitarian state. . . .\n\t\nBut in the West today, we see a free world that has achieved a level \nof prosperity and well-being unprecedented in all human history. In the \nCommunist world, we see failure, technological backwardness, declining \nstandards of health, even want of the most basic kind—too little food. Even \ntoday, the Soviet Union still cannot feed itself. After these four decades, then, \nthere stands before the entire world one great and inescapable conclusion: \nFreedom leads to prosperity. . . .\nSource: President Ronald Reagan, Speech at the Berlin Wall, June 12, 1987"
+    },
+    {
+      "number": 27,
+      "part": "I",
+      "text": "What is the main idea of this cartoon?",
+      "choices": [
+        "Equal rights are easily achieved by all groups.",
+        "The difficult path to equality for one group has opened the way to others.",
+        "Gay marriage has lost support among racial and ethnic groups.",
+        "Women had more difficulty than any other group in gaining equality."
+      ],
+      "correct": 1,
+      "image": "/images/exams/us-history/june-2025/context_27_28.png",
+      "context": "Base your answers to questions 27 and 28 on the cartoon below and on your knowledge of social studies.\nSource: Tony Auth, Philadelphia Inquirer, May 9, 2004"
+    },
+    {
+      "number": 28,
+      "part": "I",
+      "text": "What key constitutional provision is frequently used by groups seeking legal equality?",
+      "choices": [
+        "14th amendment—equal protection of the law",
+        "4th amendment—protection against unreasonable search and seizure",
+        "6th amendment—right of trial by jury",
+        "Article 1— Answers to the Short-Essay Questions (29 and 30) and the Civic Literacy Essay Question (37) are to be written in the separate essay booklet. Part II SHORT-ESSAY QUESTIONS (SEQs) These Short-Essay Questions are based on the accompanying documents and are designed to test your ability to work with historical documents. Each Short-Essay Question set consists of two documents. Some of these documents have been edited for the purposes of these questions. Keep in mind that the language and images used in a document may reflect the historical context of the time in which it was created. SEQ Set 1 (Question 29) Task: Read and analyze the following documents, applying your social studies knowledge and skills to write a short essay of two or three paragraphs in which you: • Describe the historical context surrounding these documents • Identify and explain the relationship between the events and/or ideas found in these documents (Cause and Effect, or Similarity/Difference, or Turning Point) In developing your short-essay answer of two or three paragraphs, be sure to keep these explanations in mind: Describe means “to illustrate something in words or tell about it.” Historical Context refers to “the relevant historical circumstances surrounding or connecting the events, ideas, or developments in these documents.” Identify means “to put a name to or to name.” Explain means “to make plain or understandable; to give reasons for or causes of; to show the logical development or relationship of.” Types of Relationships: Cause refers to “something that contributes to the occurrence of an event, the rise of an idea, or the bringing about of a development.” Effect refers to “what happens as a consequence (result, impact, outcome) of an event, an idea, or a development.” Similarity tells how “something is alike or the same as something else.” Difference tells how “something is not alike or not the same as something else.” Turning Point is “a major event, idea, or historical development that brings about significant change. It can be local, regional, national, or global.” SEQ Set 1 Directions (Question 29): Read and analyze the following documents before writing your short essay in the separate essay booklet. Document 1 Congress subpoenaed the White House tapes of President Richard Nixon’s meetings and conversations. Source: Herblock, Washington Post, May 24, 1974 Document 2 The Supreme Court ruled yesterday unanimously, and definitively, that President [Richard] Nixon must turn over tape recordings of White House conversations needed by the Watergate special prosecutor for the trial of the President’s highest aides. Ordering compliance with a trial subpoena “forthwith” [immediately], the court rejected Mr. Nixon’s broad claims of unreviewable executive privilege and said they “must yield to the demonstrated, specific need for evidence in a pending criminal trial.” The President said he was “disappointed” by the decision but said he would comply. His lawyer said the time-consuming process of collecting and indexing the tapes would begin immediately. . . . Finally, [Chief Justice Warren E.] Burger reached the heart of the dispute and he quickly found that President Nixon was wrong in arguing that courts must honor without question any presidential claim of executive privilege. Burger repeatedly said the court had the utmost respect for the other branches of government but was obliged to reach its own judgment on whether the President’s need for confidentiality was as great as the judiciary’s need for the evidence. . . . Source: John P. MacKenzie, Washington Post, July 25, 1974 (adapted) SEQ Set 1 (Question 29) Task: Based on your reading and analysis of these documents, apply your social studies knowledge and skills to write a short essay of two or three paragraphs in which you: • Describe the historical context surrounding these documents • Identify and explain the relationship between the events and/or ideas found in these documents (Cause and Effect, or Similarity/Difference, or Turning Point) Guidelines: In your short essay, be sure to • Develop all aspects of the task • Incorporate relevant outside information • SEQ Set 2 (Question 30) Task: Read and analyze the following documents, applying your social studies knowledge and skills to write a short essay of two or three paragraphs in which you: • Describe the historical context surrounding documents 1 and 2 • Analyze Document 2 and explain how audience, or purpose, or bias, or point of view affects this document’s use as a reliable source of evidence In developing your short-essay answer of two or three paragraphs, be sure to keep these explanations in mind: Describe means “to illustrate something in words or tell about it.” Historical Context refers to “the relevant historical circumstances surrounding or connecting the events, ideas, or developments in these documents.” Analyze means “to examine a document and determine its elements and its relationships.” Explain means “to make plain or understandable; to give reasons for or causes of; to show the logical development or relationship of.” SEQ Set 2 Directions (Question 30): Read and analyze the following documents before writing your short essay in the separate essay booklet. Document 1 . . . We, the undersigned scientists, have been working in the field of atomic power. Until recently we have had to fear that the United States might be attacked by atomic bombs during this war and that her only defense might lie in a counterattack by the same means. Today, with the defeat of Germany, this danger is averted and we feel impelled to say what follows: The war has to be brought speedily to a successful conclusion and attacks by atomic bombs may very well be an effective method of warfare. We feel, however, that such attacks on Japan could not be justified, at least not unless the terms which will be imposed after the war on Japan were made public in detail and Japan were given an opportunity to surrender. If such public announcement gave assurance to the Japanese that they could look forward to a life devoted to peaceful pursuits in their homeland and if Japan still refused to surrender our nation might then, in certain circumstances, find itself forced to resort to the use of atomic bombs. Such a step, however, ought not to be made at any time without seriously considering the moral responsibilities which are involved. The development of atomic power will provide the nations with new means of destruction. The atomic bombs at our disposal represent only the first step in this direction, and there is almost no limit to the destructive power which will become available in the course of their future development. Thus a nation which sets the precedent of using these newly liberated forces of nature for purposes of destruction may have to bear the responsibility of opening the door to an era of devastation on an unimaginable scale. . . . Source: E. Lapp et al., Petition to the President of the United States from the Manhattan Project Scientists at Los Alamos, July 17, 1945 Document 2 . . . The Japanese began the war from the air at Pearl Harbor. They have been repaid many fold. And the end is not yet. With this bomb we have now added a new and revolutionary increase in destruction to supplement the growing power of our armed forces. In their present form these bombs are now in production and even more powerful forms are in development. It is an atomic bomb. It is a harnessing of the basic power of the universe. The force from which the sun draws its power had been loosed against those who brought war to the Far East. . . . We are now prepared to obliterate more rapidly and completely every productive enterprise the Japanese have above ground in any city. We shall destroy their docks, their factories, and their communications. Let there be no mistake; we shall completely destroy Japan’s power to make war. It was to spare the Japanese people from utter destruction that the ultimatum of July 26 was issued at Potsdam. Their leaders promptly rejected that ultimatum. If they do not now accept our terms they may expect a rain of ruin from the air, the like of which has never been seen on this earth. Behind this air attack will follow sea and land forces in such numbers and power as they have not yet seen and with the fighting skill of which they are already well aware. . . . Source: President Harry S. Truman, Statement Announcing the Use of the A-Bomb at Hiroshima, August 6, 1945 SEQ Set 2 (Question 30) Task: Based on your reading and analysis of these documents, apply your social studies knowledge and skills to write a short essay of two or three paragraphs in which you: • Describe the historical context surrounding documents 1 and 2 • Analyze Document 2 and explain how audience, or purpose, or bias, or point of view affects this document’s use as a reliable source of evidence Guidelines: In your short essay, be sure to • Develop all aspects of the task • Incorporate relevant outside information • Part III CIVIC LITERACY ESSAY (Questions 31–37) This Civic Literacy Essay Question is based on the accompanying documents. The question is designed to test your ability to work with historical documents. Some of these documents have been edited for the purpose of this question. As you analyze the documents, take into account the source of each document and any point of view that may be presented in the document. Keep in mind that the language and images used in a document may reflect the historical context of the time in which it was created. Historical Context: Purchase of the Louisiana Territory Throughout United States history, many constitutional and civic issues have been debated by Americans. These debates have resulted in efforts by individuals, groups, and governments to address these issues. These efforts have achieved varying degrees of success. One of these constitutional and civic issues is the purchase of the Louisiana Territory. Task: Read and analyze the documents in . Using information from the documents and your knowledge of United States history, answer the questions that follow each document in . Your answers to the questions will help you write the essay in which you will be asked to • Describe the historical circumstances surrounding this constitutional or civic issue • Explain efforts by individuals, groups, and/or governments to address this constitutional or civic issue • Discuss the impact of the efforts on the United States and/or on American society In developing your answers to Part III, be sure to keep these general definitions in mind: (a) describe means “to illustrate something in words or tell about it” (b) explain means “to make plain or understandable; to give reasons for or causes of; to show the logical development or relationships of” (c) discuss means “to make observations about something using facts, reasoning, and argument; to present in some detail” NAME __________________________________ SCHOOL ________________________________ Civic Literacy Essay Short-Answer Questions (31–36) Directions: Analyze the documents and answer the short-answer questions that follow each document in the space provided. Document 1 . . . When the United States won its independence from Great Britain in 1783, one of its major concerns was having a European power on its western boundary, and the need for unrestricted access to the Mississippi River. As American settlers pushed west, they found that the Appalachian Mountains provided a barrier to shipping goods eastward. The easiest way to ship produce was to build a flatboat and float down the Ohio and Mississippi Rivers to the port of New Orleans, from which goods could be put on ocean- going vessels. The problem with this route was that the Spanish owned both sides of the Mississippi below Natchez. In 1795 the United States negotiated the Pinckney Treaty with Spain, which provided the right of navigation on the river and the right of deposit [right to store goods until export] of U.S. goods at the port of New Orleans. . . . Spain was eager to divest [relieve] itself of Louisiana, which was a drain on its financial resources. On October 1, 1800, Napoleon Bonaparte, First Consul of France, concluded the Treaty of San Ildefonso with Spain, which returned Louisiana to French ownership in exchange for a Spanish kingdom in Italy. . . . Source: “The Louisiana Purchase,” Museum Gazette, National Park Service, December 1991 (adapted)"
+      ],
+      "correct": 0,
+      "image": "/images/exams/us-history/june-2025/context_27_28.png",
+      "context": "Base your answers to questions 27 and 28 on the cartoon below and on your knowledge of social studies.\nSource: Tony Auth, Philadelphia Inquirer, May 9, 2004"
+    },
+    {
+      "number": 31,
+      "part": "II",
+      "type": "written",
+      "text": "Based on this document, what is one historical circumstance that led to the purchase of the Louisiana Territory? Document 2 . . . Jefferson asked James Monroe, a former member of Congress and former governor of Virginia, to join [Robert R.] Livingston in Paris as minister extraordinary with discretionary powers to spend $9,375,000 to secure New Orleans and parts of the Floridas (to consolidate the U.S. position in the southeastern part of the continent). . . . By the time Monroe arrived in Paris on April 12, the situation had, unknown to him, radically altered: Napoléon had suddenly decided to sell the entire Louisiana Territory to the United States. He had always seen Saint Domingue, with a population of more than 500,000, producing enough sugar, coffee, indigo, cotton and cocoa to fill some 700 ships a year, as France’s most important holding in the Western Hemisphere. The Louisiana Territory, in Napoléon’s view, was useful mainly as a granary for Saint Domingue. With the colony in danger of being lost, the territory was less useful. Then, too, Napoléon was gearing up for another campaign against Britain and needed funds for that. . . . Source: Joseph A. Harriss, “How the Louisiana Purchase Changed the World,” Smithsonian, April 2003 (adapted)",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/june-2025/q31.png"
+    },
+    {
+      "number": 32,
+      "part": "II",
+      "type": "written",
+      "text": "According to Joseph A. Harriss, what is one historical circumstance that led to the purchase of the Louisiana Territory? Document 3 . . . While the deal [Napoleon’s offer to sell the entire Louisiana Territory] was instantly popular, there were problems. Negotiations would need to start with Great Britain and Spain about shared boundaries. And there was a debate about whether and how such a large property purchase was allowed under the Constitution. Jefferson took a strict, literal view of constitutional powers, meaning that specific powers reserved for the President and Executive Branch needed to be spelled out in the Constitution. The ability to buy property from foreign governments was not among these powers listed [in] the Constitution. . . . Instead, Jefferson considered a constitutional amendment the only way to conclude the deal with France. “The General Government has no powers but such as the Constitution gives it,” he wrote to John Dickinson in 1803. “It has not given it power of holding foreign territory, and still less of incorporating it into the Union. An amendment of the Constitution seems necessary for this.”. . . Jefferson’s cabinet, including James Madison, disagreed about the need for a constitutional amendment. The President also had been assured earlier in the year by Albert Gallatin, his Treasury Secretary, that any potential deal with France would be permissible and implied under the Constitution’s treaty-making provisions. . . . The debate in the Senate only lasted for two days. On October 20, 1803, the Senate voted for ratification 24-7, and the treaty was signed on October 31, 1803. . . . Source: “The Louisiana Purchase: Jefferson’s Constitutional Gamble,” Constitution Daily, National Constitution Center (adapted)",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/june-2025/q32.png"
+    },
+    {
+      "number": 33,
+      "part": "II",
+      "type": "written",
+      "text": "Based on this document, Document 4 . . . While Jefferson and his followers were altering their political philosophy to accommodate Louisiana, the Federalists of New England, led by [Timothy] Pickering, were also doing an about-face, from broad to strict interpretation of the Constitution. In this way, they hoped to prevent the inclusion of Louisiana in the Union. . . . Standing alone, New England Federalism began to attack the Louisiana Purchase on various grounds. . . . Much attention was given to the huge sum that was to be paid for this desolate wilderness. . . . There was concern among some that the French title to Louisiana was not clear and that an attempt to occupy this region would involve the United States in a war with Spain, from whom France had obtained Louisiana. Other voices of New England Federalism urged that the purchase was unconstitutional, that the general government did not have the power to acquire foreign territory. . . . When Jefferson called a special session of Congress in October, 1803, to consider the Louisiana treaty, Pickering and his fellow Federalists in Congress proceeded to Washington with much determination to defeat the agreement. Their attack was to be launched on constitutional grounds. . . . Source: Thomas J. Farnham, “The Federal-State Issue and the Louisiana Purchase,” Louisiana History: The Journal of the Louisiana Historical Association, 1965 (adapted)",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/june-2025/q33.png"
+    },
+    {
+      "number": 34,
+      "part": "II",
+      "type": "written",
+      "text": "According to Thomas J. Farnham, what is one effort by Federalists to oppose the Louisiana Purchase? This page left blank intentionally. GO ON TO THE NEXT PAGE [ Document 5a Source: Joyce Appleby et al., The American Journey, Glencoe McGraw–Hill, 2003 (adapted) The Louisiana Purchase and Western Exploration SPANISH TERRITORY LOUISIANA TERRITORY BRITISH Boundary in Dispute, 1803–1819 Lewis and Clark, 1805 PACIFIC OCEAN R o c ky M t s . L ewis a n d Cla r k , 1 8 04 Disputed between U.S. and Spain, 1803–1819 ATLANTIC OCEAN Gulf of Mexico New Orleans St. Louis Mississippi Territory Georgia Tennessee Kentucky Virginia North Carolina South Carolina Ohio Pennsylvania New York Michigan Territory Indiana Territory New Jersey Delaware Maryland New Hampshire Rhode Island Connecticut Massachusetts Maine (part of Mass.) Vermont M i s s ou ri R. N S W E 0 300 miles 0 300 Document 5b . . . Most people had a mental picture of what a normal country size should be. They were accustomed to smaller ones, as in Europe. The United States suddenly seemed in danger of becoming clumsily huge, as a giant would appear among men. Nearly nine hundred thousand square miles of almost virgin territory was emptiness indeed, and at first, it had seemed to fill hardly at all. Most of it was still a wilderness, largely uninhabited and not yet demanding much governance; this was not an immediate concern, only a fear for the future. But for a time, the fear was shared by many Americans. . . . The enormous expanse to the north and west of New Orleans, the key city that had been the primary object of the Louisiana Purchase, meant that thirteen new states would eventually be created, in whole or in substantial part, from the eight hundred seventy- five thousand square miles that had been bought. These, ascending from the Gulf of Mexico to the Canadian border, are Louisiana, Arkansas, Oklahoma, Missouri, Kansas, Iowa, Nebraska, Minnesota, South Dakota, North Dakota, Colorado, Wyoming, and Montana. Their movement into statehood would take most of the nineteenth century, but during that period, there was little question that the people of the east were part of the process. Even those who never planned a trip to the west coast thought of it as part of their country, and most would have fought to defend it. . . . Source: Charles A. Cerami, Jefferson’s Great Gamble, Sourcebooks, 2003 (adapted)",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/june-2025/q34.png"
+    },
+    {
+      "number": 35,
+      "part": "II",
+      "type": "written",
+      "text": "Based on these documents, what is one impact of the Louisiana Purchase on the United States? Document 6 Many historians have written about the Louisiana Purchase and its impact. The Louisiana Territory was the great unknown. There were fewer facts [than] fantasy about it. What was clear at the time of the Louisiana Purchase was that it had put America on the road to becoming a truly continental power. . . . Historian Henry Adams wrote: “The annexation of Louisiana was an event so portentous [considerable] as to defy measurement; it gave a new face to politics, and ranked in historical importance next to the Declaration of Independence and the adoption of the Constitution—events of which it was the logical outcome; but as a matter of diplomacy it was unparalleled, because it cost almost nothing.” The Louisiana Purchase changed America’s shape and destiny—but also affected international relations. . . . Although the Louisiana Purchase provided the structure for the nation’s expansion, it also provided the seeds for its potential destruction. Historian Sean Wilentz wrote: “Over the coming decades, the consequences of the Purchase would indeed disturb public opinion over constitutional issues connected to the expansion of slavery—and help rip the country to pieces.” . . . Source: “The Louisiana Purchase: Aftermath,” The Lehrman Institute online (adapted)",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/june-2025/q35.png"
+    },
+    {
+      "number": 36,
+      "part": "II",
+      "type": "written",
+      "text": "Based on this document, Civic Literacy Essay Question (37) Directions: Write a well-organized essay that includes an introduction, several paragraphs, and a conclusion. Use evidence from at least four documents in the body of the essay. Support your response with relevant facts, examples, and details. Include additional outside information. Historical Context: Purchase of the Louisiana Territory Throughout United States history, many constitutional and civic issues have been debated by Americans. These debates have resulted in efforts by individuals, groups, and governments to address these issues. These efforts have achieved varying degrees of success. One of these constitutional and civic issues is the purchase of the Louisiana Territory. Task: Using information from the documents and your knowledge of United States history, write an essay in which you • Describe the historical circumstances surrounding this constitutional or civic issue • Explain efforts by individuals, groups, and/or governments to address this constitutional or civic issue • Discuss the impact of the efforts on the United States and/or on American society Guidelines: In your essay, be sure to • Develop all aspects of the task • Explain at least two efforts to address the issue • Incorporate information from at least four documents • Incorporate relevant outside information • Support the theme with relevant facts, examples, and details • Use a logical and clear plan of organization, including an introduction and a conclusion that are beyond a restatement of the theme REGENTS EXAM IN U.S. HISTORY AND GOVERNMENT REGENTS EXAM IN U.S. HISTORY AND GOVERNMENT Printed on Recycled Paper",
+      "modelAnswer": null,
+      "image": "/images/exams/us-history/june-2025/q36.png"
+    }
+  ]
+}

@@ -19,6 +19,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'Jupiter is classified as a Jovian planet because it has a low density (composed primarily of hydrogen and helium gases) and a large diameter (choice 1).',
+      diveDeep: 'Jovian planets (Jupiter, Saturn, Uranus, Neptune) are gas giants that formed in the cold outer solar system. Because they accumulated massive gas envelopes, they have very large diameters but very low average densities compared to the rocky terrestrial planets. Students can confirm these physical properties by referring to the \'Solar System Data\' table in the Reference Tables. A common trap is confusing high mass with high density; Jupiter is massive, but its gaseous composition makes it low-density.',
     },
     {
       number: 2, part: 'A',
@@ -32,6 +34,8 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       image: '/images/exams/es-june-2023/q2.png',
+      explanation: 'Light from the most distant galaxies is redshifted, meaning its wavelengths are stretched to longer (red) wavelengths because the universe is expanding (choice 3).',
+      diveDeep: 'The Doppler redshift observed in the light from distant galaxies indicates that they are moving away from Earth. Edwin Hubble\'s discovery that redshift increases with distance leads to the conclusion that space itself is expanding. This expanding universe model is a cornerstone of the Big Bang theory. Remember: \'redshift = moving away = expanding universe; blueshift = moving toward = contracting universe.\'',
     },
     {
       number: 3, part: 'A',
@@ -44,6 +48,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 0,
+      explanation: 'Earth\'s rate of orbital revolution around the Sun is approximately 1° per day (choice 1), as it travels 360° in approximately 365 days.',
+      diveDeep: 'Earth\'s daily orbital progress is small (about 1° per day), which causes the Sun to appear to move slightly eastward relative to the background stars each day. The rate of 15° per hour (360° ÷ 24 hours) is the rate of rotation, not revolution. A common mistake is selecting 15°/hour because it is a familiar rate on the exam. Remember: \'rotation = 15°/hour, revolution = 1°/day.\'',
     },
     {
       number: 4, part: 'A',
@@ -56,6 +62,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 3,
+      explanation: 'Different star constellations are visible from Earth during different seasons because Earth revolves around the Sun in its orbit (choice 4), which changes the direction the night side of Earth faces into space.',
+      diveDeep: 'Because Earth is constantly orbiting the Sun, its nighttime horizon points toward different regions of the celestial sphere in different seasons. In summer, the stars that were visible in winter are now positioned in the same direction as the Sun and are washed out by daytime light. Students must distinguish between the daily apparent motion of stars (caused by rotation) and the seasonal visibility of stars (caused by revolution).',
     },
     {
       number: 5, part: 'A',
@@ -68,6 +76,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 0,
+      explanation: 'The apparent change in the swing path of a Foucault pendulum provides direct evidence of Earth\'s rotation on its axis (choice 1).',
+      diveDeep: 'The Foucault pendulum was invented by Léon Foucault in 1851 as a demonstration of Earth\'s rotation. As the pendulum swings, Earth rotates beneath it, causing the plane of the swing to appear to rotate relative to the floor. The Coriolis effect is another key piece of evidence for rotation. Remember that rotation causes daily cycles, while revolution causes seasonal cycles.',
     },
     {
       number: 6, part: 'A',
@@ -80,6 +90,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 3,
+      explanation: 'The Milky Way is our home galaxy, which is classified as a spiral galaxy and is one of billions of galaxies in the universe (choice 4).',
+      diveDeep: 'A galaxy is a massive, gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter. The Milky Way is a barred spiral galaxy containing an estimated 100 to 400 billion stars. The observable universe contains trillions of such galaxies. Students should avoid choices that describe the Milky Way as a single star or a local solar system.',
     },
     {
       number: 7, part: 'A',
@@ -92,6 +104,8 @@ export default {
       ],
       topic: 'General Review',
       correct: 1,
+      explanation: 'To change five grams of ice to liquid water at 0°C, 1670 joules of heat energy are required (choice 2). This is calculated by multiplying the mass (5 g) by the heat of fusion of water (334 J/g).',
+      diveDeep: 'The energy required for a phase change is calculated using values from the \'Properties of Water\' table on page 1 of the Reference Tables. The heat of fusion (melting ice to liquid water) is 334 J/g. Multiplying 5 g by 334 J/g yields 1670 J. A common error is using the heat of vaporization (2260 J/g), which is for boiling water. Always double-check which phase change is occurring before reading the table.',
     },
     {
       number: 8, part: 'A',
@@ -105,6 +119,8 @@ export default {
       topic: 'Water Cycle',
       correct: 0,
       image: '/images/exams/es-june-2023/q8.png',
+      explanation: 'Transpiration is the release of water vapor from plant leaves into the atmosphere. This loss of water vapor causes a decrease in the overall mass of the potted plant over time (choice 1).',
+      diveDeep: 'Transpiration is a key biological process in the hydrologic cycle. Plants absorb liquid water through their roots and release it as water vapor through tiny pores called stomata. Because the bottom of the pot is wrapped in plastic to prevent soil evaporation, any mass loss must be due to water vapor escaping from the leaves (transpiration). Condensation would add water mass, not decrease it.',
     },
     {
       number: 9, part: 'A',
@@ -117,6 +133,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 1,
+      explanation: 'The balloon burst in the stratosphere (choice 2). In the troposphere (first 12 km), temperature decreases, but after the tropopause, temperature begins to increase through the stratosphere due to ozone absorption of UV rays.',
+      diveDeep: 'According to the atmospheric temperature profile in the Reference Tables, the troposphere cools with altitude up to about 12 km (the tropopause). Above this, in the stratosphere (12 to 50 km), the temperature increases due to the ozone layer absorbing solar ultraviolet radiation. Since the balloon rose 12 km while cooling and then rose further while warming, it must have burst in the stratosphere.',
     },
     {
       number: 10, part: 'A',
@@ -130,6 +148,8 @@ export default {
       topic: 'Astronomy',
       correct: 3,
       image: '/images/exams/es-june-2023/q10.png',
+      explanation: 'A lunar eclipse occurs when the Moon passes into Earth\'s shadow, which can only be seen from the night side of Earth (location B) facing the Moon (choice 4).',
+      diveDeep: 'During a lunar eclipse, the alignment is Sun-Earth-Moon, placing the Moon in Earth\'s shadow (umbra). This event is visible to anyone on the night side of Earth (location B) where the Moon is above the horizon. A solar eclipse occurs when the Moon\'s shadow falls on Earth, which is only visible in a narrow path on the day side (location A). Remember: \'lunar eclipse = Moon in Earth\'s shadow; solar eclipse = Earth in Moon\'s shadow.\'',
     },
     {
       number: 11, part: 'A',
@@ -143,6 +163,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 2,
       image: '/images/exams/es-june-2023/q11.png',
+      explanation: 'Meteor Crater in the southwestern United States is an impact crater formed when an asteroid collided with Earth\'s surface (choice 3).',
+      diveDeep: 'Impact craters are excavated by high-velocity collisions with cosmic debris (asteroids or meteoroids), which produce circular depressions with raised rims and fractured rock. Volcanic craters are typically located at the summits of volcanic cones, and subduction zones produce trenches. On the Regents, circular craters in stable continental interiors (like Arizona) are associated with asteroid impacts.',
     },
     {
       number: 12, part: 'A',
@@ -156,6 +178,8 @@ export default {
       topic: 'Water Cycle',
       correct: 3,
       image: '/images/exams/es-june-2023/q12.png',
+      explanation: 'Porosity is the percentage of open space in a material. For uniformly sorted spheres, porosity is the same regardless of particle size (choice 4) because the spacing scales proportionally.',
+      diveDeep: 'Porosity depends on particle shape, packing, and sorting, but is independent of particle size for sorted sediments. In containers A, B, and C, the particles are all round and sorted, meaning they have the same packing geometry and the same total pore space volume. Students often incorrectly choose the largest particles (A) because the individual pore spaces are larger, forgetting that there are fewer of them. Remember: \'sorted = equal porosity; unsorted = lower porosity.\'',
     },
     {
       number: 13, part: 'A',
@@ -168,6 +192,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 2,
+      explanation: 'At a warm front, warm air is less dense and rides up gradually over the retreating cold air mass, forming widespread, gentle cloud layers. This is represented by diagram 3 (choice 3).',
+      diveDeep: 'Warm fronts feature a gentle frontal slope (~1:200). Because the advancing warm air is less dense than the retreating cold air, it cannot push it out of the way quickly. Instead, it rises slowly over it (overriding), producing a wide band of stratus-type clouds and steady, prolonged precipitation. Cold fronts, by contrast, feature a steep slope and rapid lifting of air, producing thunderstorms.',
     },
     {
       number: 14, part: 'A',
@@ -180,6 +206,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 0,
+      explanation: 'Low pressure systems (mid-latitude cyclones) in the United States are steered by the prevailing westerlies, which carry them in a general northeastward path across the country (choice 1).',
+      diveDeep: 'Storm tracks in the United States generally move from southwest to northeast. This is because the continental US lies in the planetary wind belt dominated by the prevailing westerlies (latitudes 30°N to 60°N). These winds steer low-pressure centers and associated fronts toward the northeast coast and out into the Atlantic Ocean. Remember this westerly steering rule for all mid-latitude storm questions.',
     },
     {
       number: 15, part: 'A',
@@ -192,6 +220,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 0,
+      explanation: 'An anemometer is a weather instrument consisting of spinning cups that measure wind speed (choice 1).',
+      diveDeep: 'Anemometers use the rotation of three or four cups pushed by the wind to calculate wind speed. Other instruments include the wind vane (direction), barometer (pressure), thermometer (temperature), and psychrometer (humidity/dewpoint). Students should study the weather instrument names and their functions, as they are frequently tested on the Regents.',
     },
     {
       number: 16, part: 'A',
@@ -205,6 +235,8 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-june-2023/q16.png',
+      explanation: 'A temperature of 73°F and a dewpoint of 72°F are extremely close, indicating 100% cloud cover (overcast) and near-saturated, humid air. The station model also shows a wind speed code of 2 and a symbol for thunderstorms (choice 2).',
+      diveDeep: 'When the air temperature and dewpoint temperature are close together, the relative humidity is very high and clouds are guaranteed to form. On a station model, the central circle is shaded to represent cloud cover (fully shaded = 100% or overcast). The symbol between the temperature and dewpoint indicates the present weather; a symbol like a jagged arrow represents thunderstorms. Wind speed is shown by the feathers on the wind staff.',
     },
     {
       number: 17, part: 'A',
@@ -217,6 +249,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 2,
+      explanation: 'Electromagnetic energy from the Sun travels through the vacuum of space to Earth by radiation (choice 3), which does not require a material medium.',
+      diveDeep: 'Radiation is the transfer of energy through space by electromagnetic waves (such as visible light, ultraviolet, and infrared). Conduction requires direct molecular contact in solids, and convection requires density-driven flow in fluids (liquids and gases). Since space is a vacuum, radiation is the only heat transfer mechanism that can bring solar energy to Earth. Remember: \'Sun to Earth = radiation.\'',
     },
     {
       number: 18, part: 'A',
@@ -230,6 +264,8 @@ export default {
       topic: 'Climate',
       correct: 3,
       image: '/images/exams/es-june-2023/q18.png',
+      explanation: 'From March 21 (equinox) to June 21 (summer solstice), the Northern Hemisphere tilts toward the Sun, increasing the intensity of insolation at A (60°N). The Southern Hemisphere tilts away, decreasing insolation at B (60°S) (choice 4).',
+      diveDeep: 'Earth\'s axial tilt causes the angle of insolation to shift seasonally. On March 21, the Sun\'s direct rays strike the equator, delivering equal energy to both hemispheres. As Earth revolves toward June 21, the direct rays migrate north toward the Tropic of Cancer, raising the solar noon angle and insolation intensity in the north (A) and lowering them in the south (B). Students should visualize this hemispheric see-saw of solar energy.',
     },
     {
       number: 19, part: 'A',
@@ -242,6 +278,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 0,
+      explanation: 'The production of oxygen that first entered Earth\'s atmosphere was due to the evolution of oxygen-producing photosynthetic organisms, specifically cyanobacteria (choice 1).',
+      diveDeep: 'Earth\'s early atmosphere was anaerobic, consisting of water vapor, CO₂, and nitrogen. Around 2.4 billion years ago, primitive photosynthetic organisms (cyanobacteria/blue-green algae) in the oceans began producing oxygen as a waste product. This oxygen first saturated the oceans and then escaped into the atmosphere, creating the ozone layer and allowing oxygen-breathing life to evolve. This event is documented on the right side of the Geologic History chart in the Reference Tables.',
     },
     {
       number: 20, part: 'A',
@@ -254,6 +292,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 0,
+      explanation: 'Since the rifting of Pangaea, tectonic plate motion has carried the North American plate in a general northwestward direction (choice 1) relative to the spreading Mid-Atlantic Ridge.',
+      diveDeep: 'Seafloor spreading at the Mid-Atlantic Ridge pushes the North American and Eurasian plates apart. Because the ridge runs north-south, the North American plate is pushed westward. Concurrently, mantal convection and subduction along the Pacific margin drag the plate slightly northward, resulting in a net northwestward motion over geologic time. Students can visualize this by checking the plate motion arrows on the \'Tectonic Plates\' map.',
     },
     {
       number: 21, part: 'A',
@@ -266,6 +306,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 3,
+      explanation: 'Mucrospirifer is a good index fossil because it existed over a large geographic region but only for a short period of geologic time (choice 4), allowing geologists to correlate rock layers precisely.',
+      diveDeep: 'Index fossils are key tools for relative dating and stratigraphic correlation. To be useful, an organism must have: (1) lived for a brief geologic time interval (so it represents a specific age), (2) been geographically widespread (so it can connect distant outcrops), and (3) been easily identifiable and abundant. Mucrospirifer is a Devonian brachiopod listed in the New York State fossil index.',
     },
     {
       number: 22, part: 'A',
@@ -278,6 +320,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 2,
+      explanation: 'Earth\'s inner core is inferred to be more dense than the outer core and is a solid (choice 3) composed of iron and nickel, while the outer core is a liquid.',
+      diveDeep: 'Earth\'s layers increase in density and pressure toward the center. The outer core is liquid iron-nickel (which blocks S-waves), while the inner core, despite having higher temperatures, is compressed into a solid state by the immense pressure of the overlying layers. According to the \'Inferred Properties of Earth\'s Interior\' chart, density increases from 9.9–12.2 g/cm³ in the outer core to 12.8–13.1 g/cm³ in the inner core.',
     },
     {
       number: 23, part: 'A',
@@ -290,6 +334,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 1,
+      explanation: 'According to the Reference Tables, a P-wave takes 7 minutes (07:00) to travel 4000 km, and an S-wave takes 12 minutes and 40 seconds (12:40). Subtracting the 5 minute and 40 second travel time difference from the S-wave arrival (1:05:40 p.m. − 5:40) gives a P-wave arrival time of 1:00:00 p.m. (choice 2).',
+      diveDeep: 'First, locate 4000 km on the horizontal axis of the \'Earthquake Travel Time\' graph. Read the travel times: P-wave travel time is 7:00, and S-wave travel time is 12:40. The difference between their travel times is 5 minutes and 40 seconds (12:40 − 7:00 = 5:40). Since P-waves are faster, they arrive earlier. Subtract 5 minutes and 40 seconds from the S-wave arrival time of 1:05:40 p.m. to get a P-wave arrival time of exactly 1:00:00 p.m.',
     },
     {
       number: 24, part: 'A',
@@ -303,6 +349,8 @@ export default {
       topic: 'Geologic Time',
       correct: 1,
       image: '/images/exams/es-june-2023/q24.png',
+      explanation: 'Ammonoids were marine invertebrates related to modern cephalopods. Their presence in a rock outcrop indicates that the region was covered by ocean water (choice 2) when the sedimentary rocks were deposited.',
+      diveDeep: 'Fossils provide direct evidence of ancient environments (paleoecology). Because ammonoids had chambered shells and lived exclusively in marine environments, their fossils are only found in marine sedimentary rocks. Finding them in land outcrops (like those in central New York) proves that these areas were once shallow seas. Students should associate cephalopod, brachiopod, and trilobite fossils with ancient marine environments.',
     },
     {
       number: 25, part: 'A',
@@ -316,6 +364,8 @@ export default {
       topic: 'Geology',
       correct: 2,
       image: '/images/exams/es-june-2023/q25.png',
+      explanation: 'According to the principle of cross-cutting relationships, the igneous intrusion is younger than the rock layers showing contact metamorphism (4, 5, 6), but older than any layers deposited on top of it without metamorphism (1, 2, 3) (choice 3).',
+      diveDeep: 'The presence of contact metamorphism (indicated by hair-like lines) on the bottom and sides of the intrusion shows that layers 4, 5, and 6 were already present when the hot magma intruded, making the intrusion younger than them. However, layer 3 sits on top of the intrusion and lacks contact metamorphism, which means the intrusion was eroded before layer 3 was deposited. Thus, the intrusion is older than layer 3.',
     },
     {
       number: 26, part: 'A',
@@ -329,6 +379,8 @@ export default {
       topic: 'Geology',
       correct: 1,
       image: '/images/exams/es-june-2023/q26.png',
+      explanation: 'Stream drainage patterns are primarily determined by the bedrock structure (choice 2), which controls the topography and pathways of water flow.',
+      diveDeep: 'Water flows downhill along the path of least resistance. Bedrock structures—such as folds, faults, joints, and alternating layers of resistant and non-resistant rock—force streams into specific paths. For example, a dome mountain produces a radial pattern, while folded bedrock produces a trellis pattern. Students should recognize that landscape topography and drainage are directly sculpted by the bedrock beneath.',
     },
     {
       number: 27, part: 'A',
@@ -342,6 +394,8 @@ export default {
       topic: 'Geology',
       correct: 1,
       image: '/images/exams/es-june-2023/q27.png',
+      explanation: 'A rock slide is a type of mass movement (choice 2) driven by gravity. It frequently occurs on steep slopes when prolonged heavy rain saturates the soil and rock, reducing friction and increasing weight.',
+      diveDeep: 'Mass wasting (mass movement) is the downslope movement of rock, regolith, and soil under the direct influence of gravity. Water is a major trigger: it fills pore spaces, lubricating the particles and adding substantial weight to the slope, which overcomes the shear strength of the hillside. Students should know that gravity is the primary force behind all mass movements.',
     },
     {
       number: 28, part: 'A',
@@ -354,6 +408,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 2,
+      explanation: 'The Mariana Trench was formed at a convergent plate boundary where the denser Pacific Plate was subducting under the Philippine Plate (choice 3).',
+      diveDeep: 'Deep ocean trenches are formed at subduction zones where one tectonic plate is bent and driven down into the mantle beneath another plate. In the Western Pacific, the old, cold, and highly dense Pacific Plate is subducting beneath the younger, less dense Philippine Plate. Students can verify the subduction direction on the Tectonic Plates map; the subduction teeth point toward the Philippine Plate, indicating it is the overriding plate.',
     },
     {
       number: 29, part: 'A',
@@ -367,6 +423,8 @@ export default {
       topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-june-2023/q29.png',
+      explanation: 'Symmetrical patterns of normal and reversed magnetic polarity are preserved in the cooling basaltic (igneous) bedrock on either side of active spreading centers like the East Pacific Ridge (choice 1).',
+      diveDeep: 'As mafic magma wells up and cools at a mid-ocean ridge, magnetic minerals (magnetite) align with Earth\'s magnetic field, locking in the current polarity. As seafloor spreading moves the newly formed crust away, it creates a symmetrical pattern of magnetic stripes on either side of the ridge. Sedimentary rocks do not record these paleomagnetic reversals in this distinct ridge-centered pattern.',
     },
     {
       number: 30, part: 'A',
@@ -379,6 +437,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'Compared to the thick, low-density continental crust, Earth\'s oceanic crust is thinner and more dense (choice 2).',
+      diveDeep: 'Oceanic crust is composed of basalt (density ~3.0 g/cm³, thickness 5-10 km). Continental crust is composed of granite (density ~2.7 g/cm³, thickness 30-40 km). This density difference is the reason why oceanic crust subducts beneath continental crust at convergent boundaries. Students can find these density and composition values in the \'Earth\'s Crust\' section of the Reference Tables.',
     },
     {
       number: 31, part: 'A',
@@ -391,6 +451,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 2,
+      explanation: 'The reaction of iron minerals in basalt with oxygen to form iron oxide (rust) is an example of oxidation, which is a chemical weathering process (choice 3) that changes the composition of the rock.',
+      diveDeep: 'Chemical weathering changes the mineral composition of rocks through chemical reactions. Oxidation occurs when oxygen combines with minerals, particularly iron-bearing silicates, to form iron oxides (hematite or limonite). This weakens the rock structure, making it crumble. Physical weathering, by contrast, breaks rock into smaller pieces without changing its chemical makeup.',
     },
     {
       number: 32, part: 'A',
@@ -403,6 +465,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'Parallel grooves and scratches (striations) in bedrock (choice 1) provide the best evidence of glacial advancement, as rocks embedded in the bottom of moving ice sheets gouge the bedrock beneath.',
+      diveDeep: 'During the last ice age, the Laurentide ice sheet advanced southward across New York State. As it moved, it dragged debris along its base, scratching and polishing the underlying bedrock. The direction of these parallel grooves reveals the path of the glacier. Sorted sediments are stream deposits, caves are formed by chemical dissolution, and V-shaped valleys are carved by rivers.',
     },
     {
       number: 33, part: 'A',
@@ -416,6 +480,8 @@ export default {
       topic: 'Geology',
       correct: 3,
       image: '/images/exams/es-june-2023/q33.png',
+      explanation: 'Gneiss is a high-grade foliated metamorphic rock characterized by bands of light and dark minerals. The most common minerals present are quartz, mica, and feldspar (choice 4).',
+      diveDeep: 'Gneiss forms from the metamorphism of granite or sedimentary rocks like shale. The extreme heat and pressure cause minerals to segregate into bands: light bands are dominated by quartz and feldspar, while dark bands are dominated by biotite mica and amphibole. Students can check the mineral composition of gneiss by looking at the \'Metamorphic Rock Identification\' chart.',
     },
     {
       number: 34, part: 'A',
@@ -428,6 +494,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'Andesite (choice 4) is a fine-grained, extrusive igneous rock with an intermediate composition that typically contains plagioclase feldspar, amphibole, and biotite mica.',
+      diveDeep: 'To solve this, use the \'Scheme for Igneous Rock Identification\' chart. Locate the mineral composition percentages along the bottom (57% plagioclase, 28% amphibole, 15% biotite). Follow this composition line vertically into the intermediate section of the chart. Since the rock is fine-grained (extrusive/aphanitic), it corresponds to andesite. Gabbro is coarse-grained, pegmatite is very coarse, and scoria is vesicular.',
     },
     {
       number: 35, part: 'A',
@@ -440,6 +508,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'The mineral with the composition Fe3Al2Si3O12 is almandine garnet, which is commonly used in jewelry (choice 2) and as an abrasive.',
+      diveDeep: 'Under the \'Composition\' column of the \'Properties of Common Minerals\' table, the formula Fe3Al2Si3O12 corresponds to garnet. Looking across to the \'Common Uses\' column, garnet is listed as being used for jewelry and abrasives. Students should practice using this table to look up mineral uses based on chemical formulas.',
     },
 
     // Part B-1
@@ -456,6 +526,8 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       image: '/images/exams/es-june-2023/q36.png',
+      explanation: 'A king tide occurs when the Sun, Earth, and Moon are aligned (spring tide) and the Moon is at perigee, which is the closest point in its elliptical orbit to Earth (choice 3).',
+      diveDeep: 'Gravitational pull is determined by mass and distance. When the Sun, Earth, and Moon align (during full and new moon phases), their gravitational pulls combine to create the largest tidal bulges (spring tides). If the Moon is also at perigee (closest to Earth), its gravitational pull is maximized, producing exceptionally high \'king tides.\' Apogee is the farthest point, which minimizes tidal range.',
     },
     {
       number: 37, part: 'B-1',
@@ -470,6 +542,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-june-2023/q37.png',
+      explanation: 'Advanced preparations can be made because the orbital motions of Earth and the Moon are cyclic and predictable (choice 1), governed by gravitational laws.',
+      diveDeep: 'The orbits of Earth and the Moon follow consistent, mathematically defined paths. Because their orbital periods and distances are constant, astronomers can calculate the exact times of alignments (syzygy) and perigee centuries in advance. This predictability allows coastal planners to schedule flood mitigation measures ahead of high tide events.',
     },
     {
       number: 38, part: 'B-1',
@@ -484,6 +558,8 @@ export default {
       topic: 'Climate',
       correct: 3,
       image: '/images/exams/es-june-2023/q38.png',
+      explanation: 'Global average sea levels are rising primarily due to the increased melting of land-based glacial ice (choice 4) and the thermal expansion of warming ocean water.',
+      diveDeep: 'Current global climate change is raising global temperatures. This heat causes land-based glaciers and ice sheets (such as in Greenland and Antarctica) to melt, releasing massive volumes of fresh water into the oceans. Thermal expansion—where water expands as it warms—also contributes to sea level rise. Melting sea ice does not change sea level because it is already floating in the water.',
     },
     {
       number: 39, part: 'B-1',
@@ -498,6 +574,8 @@ export default {
       topic: 'Climate',
       correct: 1,
       image: '/images/exams/es-june-2023/q39.png',
+      explanation: 'Carbon dioxide (CO₂) and methane (CH₄) are two major greenhouse gases that trap outgoing infrared radiation, contributing to global warming (choice 2).',
+      diveDeep: 'Greenhouse gases have molecular structures that allow them to absorb and re-radiate infrared wavelengths. While carbon dioxide is the most abundant anthropogenic greenhouse gas, methane is much more potent per molecule. Nitrogen and oxygen, which make up 99% of the atmosphere, are homonuclear diatomic molecules that do not absorb infrared radiation. Students should know the primary greenhouse gases: H₂O, CO₂, CH₄, and N₂O.',
     },
     {
       number: 40, part: 'B-1',
@@ -512,6 +590,8 @@ export default {
       topic: 'General Review',
       correct: 0,
       image: '/images/exams/es-june-2023/q40.png',
+      explanation: 'Buffalo, New York is in the Eastern Time Zone, which is one hour ahead of Omaha, Nebraska in the Central Time Zone. When it is 5:00 p.m. in Omaha, it is 6:00 p.m. in Buffalo (choice 1).',
+      diveDeep: 'The continental United States is divided into four main time zones: Eastern, Central, Mountain, and Pacific. As you travel east, time becomes later (add hours) because Earth rotates from west to east. Buffalo (79°W) is east of Omaha (96°W) and sits in the Eastern zone, which is one hour ahead of the Central zone. Remember: \'East is later, West is earlier.\'',
     },
     {
       number: 41, part: 'B-1',
@@ -526,6 +606,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-june-2023/q41.png',
+      explanation: 'The altitude of Polaris in the sky equals the observer\'s latitude in the Northern Hemisphere. Reno, Nevada is located at approximately 39.5°N latitude, making the observed altitude of Polaris closest to 39° (choice 1).',
+      diveDeep: 'Polaris is positioned directly above Earth\'s geographic North Pole, making its altitude above the northern horizon equal to the observer\'s latitude. By reading the latitude lines on the U.S. time zone map, Reno lies just south of the 40°N parallel, meaning Polaris appears at approximately 39° altitude. Longitude lines (like 119°W) do not affect the altitude of Polaris.',
     },
     {
       number: 42, part: 'B-1',
@@ -540,6 +622,8 @@ export default {
       topic: 'Climate',
       correct: 3,
       image: '/images/exams/es-june-2023/q42.png',
+      explanation: 'On December 21 (winter solstice), the Northern Hemisphere is tilted away from the Sun, causing day length to decrease as latitude increases. Seattle is the farthest north (highest latitude) and has the shortest duration of insolation (choice 4).',
+      diveDeep: 'On the winter solstice, the Arctic Circle experiences 24 hours of darkness, and day length increases as you travel south toward the equator. Because Seattle is situated at the highest latitude among the choices (~47.6°N), it is tilted furthest into Earth\'s shadow, resulting in the shortest daylight path. Miami, being closest to the equator (~25.8°N), has the longest day length in winter.',
     },
     {
       number: 43, part: 'B-1',
@@ -554,6 +638,8 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       image: '/images/exams/es-june-2023/q43.png',
+      explanation: 'Time zones are based on Earth\'s rate of rotation (choice 3). Since Earth rotates 360° in 24 hours, it spins at a rate of 15° per hour, establishing 15° wide time zone bands.',
+      diveDeep: 'Earth\'s rotation rate of 15°/hour means that solar noon occurs one hour later for every 15° of longitude you travel west. To coordinate time, the globe is divided into 24 time zones, each approximately 15° of longitude wide. Axial tilt determines seasons, and revolution determines the year, but rotation is the direct cause of the daily 24-hour cycle and time zones.',
     },
     {
       number: 44, part: 'B-1',
@@ -568,6 +654,8 @@ export default {
       topic: 'Geology',
       correct: 1,
       image: '/images/exams/es-june-2023/q44.png',
+      explanation: 'Sandstone is composed of sand grains, which are primarily quartz (SiO₂), and quartzite is metamorphosed sandstone, also composed of quartz. Therefore, silicon and oxygen are the common elements (choice 2).',
+      diveDeep: 'Both sandstone (sedimentary) and quartzite (metamorphic) consist of quartz grains. The chemical formula for quartz is SiO₂. Silicon and oxygen are also the two most abundant elements by weight and volume in Earth\'s crust. Students can find the composition of quartz in the mineral table and the rock characteristics in the sedimentary and metamorphic rock keys.',
     },
     {
       number: 45, part: 'B-1',
@@ -582,6 +670,8 @@ export default {
       topic: 'Geology',
       correct: 2,
       image: '/images/exams/es-june-2023/q45.png',
+      explanation: 'Diabase (choice 3) is a mafic, medium-grained intrusive igneous rock that is commonly classified as trap rock in construction and geology.',
+      diveDeep: 'Trap rock is a commercial term for dark-colored, fine- to medium-grained igneous rocks used in roadbeds and concrete. According to the \'Scheme for Igneous Rock Identification,\' diabase has a mafic composition and an intrusive texture, cooling slowly in shallow sills (like the Palisades). Rhyolite and obsidian are felsic, and phyllite is metamorphic.',
     },
     {
       number: 46, part: 'B-1',
@@ -596,6 +686,8 @@ export default {
       topic: 'Geology',
       correct: 3,
       image: '/images/exams/es-june-2023/q46.png',
+      explanation: 'Limestone (choice 4) is composed of the mineral calcite (CaCO₃), which dissolves rapidly when exposed to weak acids, making it weather the fastest in areas with acidic rain.',
+      diveDeep: 'Chemical weathering of limestone occurs via carbonation, where carbonic acid (or acid rain) reacts with calcite to form soluble calcium bicarbonate. This dissolution process creates sinkholes and caves. In contrast, granite and quartzite are composed of highly resistant quartz and feldspar minerals that do not react readily with acids. Remember: \'calcite/limestone = vulnerable to acid weathering.\'',
     },
     {
       number: 47, part: 'B-1',
@@ -610,6 +702,8 @@ export default {
       topic: 'Geology',
       correct: 2,
       image: '/images/exams/es-june-2023/q47.png',
+      explanation: 'Quartzite is composed of the mineral quartz, which has a hardness of 7. Limestone is composed of calcite, which has a hardness of 3. Quartzite\'s greater hardness (choice 3) allows it to scratch the steel bed of the dump truck.',
+      diveDeep: 'Hardness is a mineral\'s resistance to scratching, measured on Mohs Hardness Scale. Steel has a hardness of about 5.5. Because quartz has a hardness of 7, it easily scratches steel. Calcite, with a hardness of 3, is softer than steel and cannot scratch it. Streak is the color of a mineral\'s powder, luster is its appearance in light, and cleavage is its breakage pattern.',
     },
     {
       number: 48, part: 'B-1',
@@ -624,6 +718,8 @@ export default {
       topic: 'Geology',
       correct: 2,
       image: '/images/exams/es-june-2023/q48.png',
+      explanation: 'Carbon-14 is useful for dating organic remains because it is absorbed by living organisms during their lifetime and is preserved in organic tissues like bone and teeth (choice 3).',
+      diveDeep: 'Carbon-14 is radioactive carbon that enters the food chain via photosynthesis and ingestion. When an organism dies, it stops taking in Carbon-14, and the trapped isotope decays into Nitrogen-14 with a half-life of 5,730 years. This makes it ideal for dating organic remains (wood, shell, bone, teeth) from the late Pleistocene and Holocene. Uranium-238 and Potassium-40 are used for inorganic rocks.',
     },
     {
       number: 49, part: 'B-1',
@@ -638,6 +734,8 @@ export default {
       topic: 'Geology',
       correct: 1,
       image: '/images/exams/es-june-2023/q49.png',
+      explanation: 'Uranium-238 has a half-life of 4.5 billion years. Since the zircon crystals are 4.4 billion years old, approximately one half-life has elapsed, leaving 50% of the original parent uranium-238 (choice 2).',
+      diveDeep: 'A half-life is the time required for half of the radioactive parent atoms in a sample to decay into stable daughter atoms. Since 4.4 billion years is very close to the 4.5 billion-year half-life of Uranium-238, approximately one half-life has passed. After one half-life, exactly 50% of the parent isotope remains. Students should check the \'Radioactive Decay Data\' table to look up U-238\'s half-life.',
     },
     {
       number: 50, part: 'B-1',
@@ -652,6 +750,8 @@ export default {
       topic: 'Geologic Time',
       correct: 3,
       image: '/images/exams/es-june-2023/q50.png',
+      explanation: 'The iridium-enriched sediment layer deposited 65.5 million years ago marks the end of the Cretaceous Period (choice 4) and the Mesozoic Era.',
+      diveDeep: 'The Cretaceous-Paleogene (K-Pg) boundary is marked by a global layer of iridium-rich clay, which provides evidence for a massive asteroid impact. This event triggered a mass extinction that ended the Cretaceous Period and wiped out the dinosaurs and ammonoids. Students can find the boundary age (~65.5 Ma) by looking at the Cretaceous-Paleogene boundary on the Geologic History chart.',
     },
   ],
 }

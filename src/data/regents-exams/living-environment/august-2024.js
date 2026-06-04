@@ -18,6 +18,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 3,
+      explanation: 'Homeostasis is maintained through a process where internal and external stimuli are detected by receptors, and appropriate regulatory actions are taken by the body.',
+      diveDeep: 'This question defines the fundamental mechanism of homeostasis. The body uses feedback systems to detect changes in the environment (stimuli) and trigger responses that counteract those changes. Organelles do not work independently (ruling out choice A); rather, they function as a coordinated system. Cells vary widely in shape and function (ruling out choice B), and insulin is produced when blood glucose levels are high, not when protein levels are low (ruling out choice C). Remember: homeostasis requires a loop of detection (stimulus) and correction (response).',
     },
     {
       number: 2, part: 'A',
@@ -30,6 +32,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 0,
+      explanation: 'Removing wolves (top predators) allows herbivore populations to grow unchecked, leading to overgrazing, which depletes autotrophs (producers) and destabilizes the ecosystem.',
+      diveDeep: 'This question addresses a trophic cascade. Without wolves to control their population, herbivores (like deer or elk) reproduce rapidly, exceeding their normal numbers. This leads to the overconsumption of vegetation (autotrophs), destroying the primary producer base and reducing biodiversity. Herbivores cannot occupy the niche of a carnivore (ruling out choice D). Remember: predators are essential for maintaining stable producer populations by keeping herbivore populations in check.',
     },
     {
       number: 3, part: 'A',
@@ -42,6 +46,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 1,
+      explanation: 'Forest fires consume trees, which releases the carbon stored in their tissues into the atmosphere as carbon dioxide (CO2), a heat-trapping greenhouse gas.',
+      diveDeep: 'Deforestation from fires contributes to global warming in two ways: the burning process directly releases massive amounts of CO2 into the atmosphere, and the loss of trees reduces the capacity of the forest to absorb CO2 through photosynthesis. Smoke blocking sunlight (choice A) actually has a temporary cooling effect, and trees absorb CO2 rather than produce it (ruling out choice C). When analyzing carbon cycle questions, remember that trees act as carbon sinks, and burning them releases stored carbon.',
     },
     {
       number: 4, part: 'A',
@@ -54,6 +60,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 0,
+      explanation: 'Building dams provides human benefits like electricity but causes ecological harms like blocking fish migration, demonstrating that technology involves environmental trade-offs.',
+      diveDeep: 'A trade-off is a compromise where a benefit is balanced against a cost or disadvantage. While dams generate renewable energy, they disrupt river ecosystems and abiotic factors like sediment flow. However, these impacts can be reversed by removing the dams (ruling out choice B). In environmental science, recognize that most human interventions (such as dams, pesticides, or industrialization) have associated ecological trade-offs.',
     },
     {
       number: 5, part: 'A',
@@ -66,6 +74,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 3,
+      explanation: 'The enzyme lactase is highly specific; its active site shape matches only lactose molecules, meaning it cannot catalyze other types of chemical reactions.',
+      diveDeep: 'This question tests the lock-and-key model of enzyme specificity. Enzymes are proteins with unique three-dimensional shapes, and their active sites only bind to specific substrates (in this case, lactose). Therefore, lactase will not break down other foods (ruling out choice A) or participate in unrelated reactions (ruling out choice B). Lactose digestion is a catabolic (breakdown) process, not autotrophic synthesis (ruling out choice C). Remember: one enzyme, one specific type of reaction.',
     },
     {
       number: 6, part: 'A',
@@ -78,6 +88,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 3,
+      explanation: 'The Td vaccine lacks pertussis antigens, so it does not stimulate the immune system to produce the specific antibodies or memory cells needed to recognize and fight pertussis.',
+      diveDeep: 'Active immunity is antigen-specific. Because the Td vaccine only contains antigens for tetanus and diphtheria, it cannot trigger the immune response for pertussis (whooping cough). Vaccines do not contain ready-made antibodies (ruling out choice B) and are not used as treatment after infection (ruling out choice A). When asked about vaccine specificity, focus on the presence of specific antigens that stimulate the body to make its own antibodies.',
     },
     {
       number: 7, part: 'A',
@@ -90,6 +102,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 1,
+      explanation: 'When primary consumers like crabs ingest microplastics, the toxins bioaccumulate up the food chain, increasing the risk of chemical contamination in human seafood.',
+      diveDeep: 'This question highlights the threat of bioaccumulation and biomagnification in food webs. Non-biodegradable toxins (like microplastics) ingested by organisms at lower trophic levels are passed to predators. Because predators eat many prey, the concentration of these harmful substances increases at higher trophic levels, eventually reaching humans who consume the fish. Always connect microplastics and heavy metals in ecosystems to food chain accumulation and human health risks.',
     },
     {
       number: 8, part: 'A',
@@ -103,6 +117,8 @@ export default {
       topic: 'Ecology',
       correct: 3,
       image: '/images/exams/le-august-2024/q8.png',
+      explanation: 'The duckweed population grew rapidly until it covered the entire ditch, at which point limited resources (such as space, sunlight, and nutrients) stabilized the population at carrying capacity.',
+      diveDeep: 'This scenario describes logistic population growth. A population increases rapidly (exponential phase) until it encounters limiting factors (such as space or nutrients), which levels off the growth at the environment\'s carrying capacity (dynamic equilibrium). The data shows the population remained stable for seven weeks, ruling out a die-off (choice B). Remember: when a population graph flattens and stabilizes, it is due to carrying capacity and limiting resources.',
     },
     {
       number: 9, part: 'A',
@@ -115,6 +131,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 3,
+      explanation: 'The physical (abiotic) conditions of each biome, such as temperature, precipitation, and soil quality, act as selecting agents that determine which species can survive there.',
+      diveDeep: 'Ecosystems are shaped by their abiotic factors. Desert plants must tolerate extreme dryness, while rainforest plants require high moisture. Organisms do not create the broad physical climates they need (ruling out choices A and B), nor do all biomes share the same physical conditions (ruling out choice C). In ecology, understand that the physical environment determines which evolutionary adaptations are successful.',
     },
     {
       number: 10, part: 'A',
@@ -127,6 +145,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 2,
+      explanation: 'Green plants require carbon dioxide and water as the raw materials to perform photosynthesis, converting solar energy into carbohydrates like glucose.',
+      diveDeep: 'The chemical equation for photosynthesis is: 6CO2 + 6H2O + light energy -> C6H12O6 (glucose/carbohydrates) + 6O2. Therefore, carbon dioxide and water are the necessary reactants. Oxygen and nitrogen (choice A) are not the raw materials for carbohydrate production, and glucose/starch (choices B and D) are the products of this synthesis, not the reactants. Remember: CO2 and H2O are the inorganic inputs that plants use to synthesize organic sugars.',
     },
     {
       number: 11, part: 'A',
@@ -139,6 +159,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 2,
+      explanation: 'Natural selection operates through competition; individuals with beneficial variations compete more successfully, survive, reproduce, and pass those traits to their offspring.',
+      diveDeep: 'Competition occurs when resources are limited (ruling out choices A and B). It does not automatically lead to extinction, but rather drives the selective survival of the best-adapted individuals. Successful competitors have higher reproductive fitness, increasing the frequency of their advantageous traits in the population over time. When analyzing competition, focus on how it acts as a mechanism of natural selection.',
     },
     {
       number: 12, part: 'A',
@@ -151,6 +173,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 0,
+      explanation: 'The circulatory system acts as the body\'s transport network, delivering oxygen from the lungs and glucose from the digestive tract to cells, and removing carbon dioxide.',
+      diveDeep: 'While the respiratory system exchanges gases and the digestive system absorbs nutrients, the circulatory system (heart and blood vessels) is the system that physically connects them all, delivering these materials directly to tissues. Choices B, C, and D perform specific functions but do not serve as the body-wide transport system. Associate the circulatory system with the transport and delivery of gases, nutrients, hormones, and wastes.',
     },
     {
       number: 13, part: 'A',
@@ -163,6 +187,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 3,
+      explanation: 'The rabbit\'s fur color is an example of environmental influence on gene expression; the cold temperature from the ice pack activated the genes that produce black pigment.',
+      diveDeep: 'This is a classic Regents example of gene-environment interaction. The genotype of the rabbit contains genes for pigment production that are temperature-sensitive. Shaving and applying ice stimulated the expression of the gene for black pigment, showing that the environment can dictate phenotype without altering the DNA sequence (ruling out mutation, choice C). Remember: the environment can turn genes on or off, affecting an organism\'s physical traits.',
     },
     {
       number: 14, part: 'A',
@@ -175,6 +201,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 2,
+      explanation: 'Scientists must use genetic engineering to identify the specific gene coding for the symbiotic protein and insert it into the target plant cells.',
+      diveDeep: 'To transfer a trait between species that cannot interbreed, scientists must directly manipulate the DNA. Genetic engineering allows for the isolation and insertion of genes into a host organism\'s genome, enabling it to produce the new protein. Fertilizers (choice A) or selective breeding (choice D) cannot introduce a new, non-native gene. Look for genetic engineering when the goal is to give a species a brand-new trait from another organism.',
     },
     {
       number: 15, part: 'A',
@@ -187,6 +215,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 0,
+      explanation: 'The insects\' ability to tolerate and store the milkweed toxins protects them from predators, which increases their chances of survival and reproduction.',
+      diveDeep: 'This question focuses on evolutionary adaptation. By feeding on milkweed, the insects acquire a chemical defense mechanism. Predators learn to avoid these bitter-tasting insects, leading to higher survival and reproductive success (fitness) for the insects. Choice C is incorrect because the plant does not benefit from being eaten. Choice D is incorrect because the insects are already immune. Remember: adaptations are selected because they increase reproductive success.',
     },
     {
       number: 16, part: 'A',
@@ -199,6 +229,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 1,
+      explanation: 'Phagocytic white blood cells are key components of the immune system that engulf foreign pathogens (phagocytosis) and present their antigens to mark them for destruction.',
+      diveDeep: 'White blood cells (like macrophages and neutrophils) are the body\'s cellular defenders. They engulf bacteria and viruses, digesting them and using their proteins to alert other immune cells. Red blood cells (choice A) transport oxygen, nerve cells (choice C) transmit electrical signals, and muscle cells (choice D) facilitate movement. Associate engulfing pathogens and immune defense directly with white blood cells.',
     },
     {
       number: 17, part: 'A',
@@ -212,6 +244,8 @@ export default {
       topic: 'Cell Biology',
       correct: 2,
       image: '/images/exams/le-august-2024/q17.png',
+      explanation: 'In the hierarchy of biological organization, a tissue is a group of similar cells working together to perform a specific function.',
+      diveDeep: 'The levels of organization are: organelles -> cells -> tissues -> organs -> organ systems. Looking at the diagram, Box X is positioned between cells and organs. Therefore, it must represent tissues (choice C). Option A defines a cell, option B defines an organ, and option D defines an organ system. A reliable test strategy is to memorize this sequence and practice identifying the correct definitions for each level.',
     },
     {
       number: 18, part: 'A',
@@ -226,6 +260,8 @@ export default {
       topic: 'Evolution',
       correct: 1,
       image: '/images/exams/le-august-2024/q18.png',
+      explanation: 'Losing vertebrate species to extinction disrupts food webs and energy flow, which can destabilize the entire ecosystem and threaten the food supply.',
+      diveDeep: 'Extinction reduces biodiversity, which weakens the stability of food webs. If a predator or prey species disappears, the balance of the ecosystem is disrupted, affecting the energy flow through trophic levels. Choice A is incorrect because extinction decreases diversity. Choices C and D are incorrect because losing species reduces potential resources and medicines. Always link species conservation to food web stability and the preservation of ecological services.',
     },
     {
       number: 19, part: 'A',
@@ -238,6 +274,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 3,
+      explanation: 'The sealed globe functions as a closed ecosystem because light provides a constant source of energy, while bacteria, algae, and shrimp continuously recycle carbon dioxide, oxygen, and nutrients.',
+      diveDeep: 'Ecosystems require a continuous input of energy (the Sun or light) because energy flows one way and cannot be recycled. However, matter (like carbon, oxygen, nitrogen, and water) must be recycled between producers (algae), consumers (shrimp), and decomposers (bacteria) to sustain life. Choices A and B are biologically impossible. Understand that a sustainable ecosystem must have a constant energy input and active nutrient recycling.',
     },
     {
       number: 20, part: 'A',
@@ -250,6 +288,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 2,
+      explanation: 'Vaccines contain antigens that stimulate the immune system to produce antibodies and memory cells, which requires time to establish protection before the person is exposed to the virus.',
+      diveDeep: 'Vaccines trigger a primary immune response, which takes days to weeks to build up protective antibodies and memory cells. Once established, this active immunity allows for a rapid, defensive secondary response upon actual exposure. Vaccines do not mutate viruses (choice A) or cure active infections (ruling out choice B). Remember: vaccines are preventative measures that must be administered prior to exposure to stimulate immune memory.',
     },
     {
       number: 21, part: 'A',
@@ -262,6 +302,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 0,
+      explanation: 'Antibodies are produced by white blood cells in response to foreign antigens, so a high concentration of antibodies indicates that the body is fighting an active infection.',
+      diveDeep: 'Antibodies are Y-shaped proteins designed to bind to specific antigens on pathogens (like bacteria or viruses). When an infection occurs, the immune system ramps up antibody production to neutralize the threat. Lung mutations (choice B), CO2 levels (choice C), and vitamins (choice D) do not stimulate antibody production. When you see "high antibody count," think "active immune response to an infection."',
     },
     {
       number: 22, part: 'A',
@@ -274,6 +316,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 0,
+      explanation: 'Mutations caused by ultraviolet light in somatic skin cells will be passed on to all new skin cells produced through mitosis.',
+      diveDeep: 'UV light causes mutations in the DNA of somatic (body) cells. Since somatic cells reproduce by mitosis, all daughter cells will inherit the mutated DNA (choice A). Somatic mutations do not spread to other body systems (ruling out choice C) and are not passed to offspring or sex cells (ruling out choices B and D) because only mutations in gametes (sperm and egg) are heritable. Remember: somatic mutations are localized and non-inheritable, while gametic mutations can be passed to offspring.',
     },
     {
       number: 23, part: 'A',
@@ -286,6 +330,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 1,
+      explanation: 'ATP is the direct energy currency of the cell, providing the immediate chemical energy needed to drive endergonic metabolic reactions like protein and fat synthesis.',
+      diveDeep: 'While glucose stores energy, cells cannot use it directly for synthesis. Instead, cellular respiration converts glucose energy into ATP. Light (choice A) is used by plants to make glucose, and CO2 (choice D) is a waste product of respiration. DNA (choice C) stores genetic codes but does not supply energy. A fundamental rule of cell biology is that ATP is the immediate source of energy for cellular work.',
     },
     {
       number: 24, part: 'A',
@@ -298,6 +344,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 2,
+      explanation: 'Although all somatic cells contain the exact same DNA, cell specialization occurs because each cell type expresses (turns on) different genes to produce specific proteins.',
+      diveDeep: 'All specialized cells in the body are derived from a single zygote via mitosis, meaning they have identical genomes. Differentiation is driven by gene regulation: nerve cells express genes for neurotransmitters, while muscle cells express genes for contractile proteins. Cells do not have different genes (ruling out choices A and D) or destroy genes (ruling out choice B). Remember: cell specialization is a function of differential gene expression, not gene presence.',
     },
     {
       number: 25, part: 'A',
@@ -310,6 +358,8 @@ export default {
       ],
       topic: 'Evolution',
       correct: 3,
+      explanation: 'Because marine species depend on coral reefs for food and shelter, the degradation of reefs due to plastic-related diseases will negatively impact the entire community.',
+      diveDeep: 'Coral reefs are keystone structures that support high marine biodiversity. Plastic pollution introduces pathogens that cause coral disease and mortality. As the coral dies, the habitat and food source for countless fish and invertebrates are lost, disrupting the food web (choice D). Corals cannot adapt quickly to plastic pollution (ruling out choice A). When key habitat-forming species are threatened, the entire dependent ecosystem is impacted.',
     },
     {
       number: 26, part: 'A',
@@ -322,6 +372,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 1,
+      explanation: 'Enzymes, antibodies, and receptor molecules are all proteins, and their ability to function depends entirely on their specific three-dimensional shapes.',
+      diveDeep: 'Proteins rely on shape-specificity to interact with other molecules (enzymes bind substrates, antibodies bind antigens, receptors bind hormones). They are not carbohydrates (ruling out choice C) and are vital in both plants and animals (ruling out choice D). They are not all involved in cellular respiration (ruling out choice A). A major recurring theme on the Regents exam is that a protein\'s specific shape determines its function.',
     },
     {
       number: 27, part: 'A',
@@ -334,6 +386,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 1,
+      explanation: 'Before a gene can be passed from a parent to its offspring, the parent\'s DNA must be accurately replicated (copied) during cell division.',
+      diveDeep: 'Inheritance requires the transmission of genetic material. During gamete production (meiosis), the parent\'s DNA must undergo replication to ensure that a complete, accurate copy of the gene is packaged into the sperm or egg. Mutation (choice A), engineering (choice C), or recombination (choice D) are not the prerequisites for basic inheritance. Remember: DNA replication is the essential copying process that allows genes to be inherited.',
     },
     {
       number: 28, part: 'A',
@@ -346,6 +400,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 0,
+      explanation: 'Cloning is an asexual reproduction technique because it involves a single parent cell and produces offspring that are genetically identical to that parent.',
+      diveDeep: 'Cloning bypasses the genetic variation associated with sexual reproduction (which involves recombination, mutations, and gamete production, ruling out choices B, C, and D). It is functionally equivalent to asexual reproduction because it uses mitosis to produce genetically identical copies (clones). When comparing cloning to natural processes, associate it directly with asexual reproduction.',
     },
     {
       number: 29, part: 'A',
@@ -358,6 +414,8 @@ export default {
       ],
       topic: 'Reproduction',
       correct: 0,
+      explanation: 'Meiosis halves the chromosome number in gametes (producing haploid sperm and egg), and fertilization combines them to restore the normal diploid chromosome number in the zygote.',
+      diveDeep: 'If the chromosome number did not halve during gamete production, fertilization would double the chromosome number each generation, which is unsustainable. Meiosis reduces the chromosome count (2n -> n), and fertilization restores it (n + n -> 2n). Mitosis (choices C and D) maintains the chromosome number and is used for growth, not gamete regulation. Remember: Meiosis = halving; Fertilization = restoring.',
     },
     {
       number: 30, part: 'A',
@@ -370,6 +428,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 2,
+      explanation: 'The sensitive paws of the sea otter are an evolutionary adaptation that provides a competitive advantage by allowing them to locate food efficiently in murky waters.',
+      diveDeep: 'An adaptation is a genetically inherited trait (ruling out choice B) that increases an organism\'s fitness in its specific environment. In dark or murky habitats, touch sensitivity compensates for poor visibility, helping otters find prey faster than competitors. Adaptations do not eliminate the need for other senses (ruling out choice A), and evolutionary changes result from mutations in the gametes of ancestors, not somatic body cells (ruling out choice D). Recognize adaptations as traits that enhance survival and reproduction.',
     },
 
     // Part B-1
@@ -386,6 +446,8 @@ export default {
       topic: 'Human Body',
       correct: 0,
       image: '/images/exams/le-august-2024/q31.png',
+      explanation: 'Temperatures above 35°C denature the enzyme catalase, changing the shape of its active site so that it can no longer bind to the hydrogen peroxide substrate.',
+      diveDeep: 'Enzymes have an optimal temperature where their activity peaks (about 35°C in this graph). When heated beyond this point, the weak bonds maintaining the protein\'s shape break, causing it to unfold (denature). Once denatured, the substrate no longer fits the active site, stopping the reaction (choice A). Choices B, C, and D do not explain the temperature-dependent drop. Always associate a sharp drop in enzyme activity at high temperatures with denaturation.',
     },
     {
       number: 32, part: 'B-1',
@@ -400,6 +462,8 @@ export default {
       topic: 'Cell Biology',
       correct: 3,
       image: '/images/exams/le-august-2024/q32.png',
+      explanation: 'Cells C and D are most likely from heterotrophs because they lack chloroplasts, meaning they cannot perform photosynthesis and must consume organic nutrients.',
+      diveDeep: 'Autotrophs (like plants and algae, Cells A and B) contain chloroplasts to synthesize their own food. Heterotrophs (like animals, fungi, and many bacteria, Cells C and D) lack chloroplasts and must ingest or absorb food. While Cell C has a cell wall, it lacks chloroplasts (characteristic of fungi or root cells, which are heterotrophic). Therefore, Cells D and C are the heterotrophs. When classifying cells by nutrition, look for the presence or absence of chloroplasts.',
     },
     {
       number: 33, part: 'B-1',
@@ -413,6 +477,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 2,
+      explanation: 'Starch was only detected in the green, chloroplast-rich edges of the leaf, proving that chloroplasts are necessary to carry out photosynthesis and produce starch.',
+      diveDeep: 'This experiment investigates the role of chloroplasts in photosynthesis. Starch is a polymer of glucose, which is synthesized during photosynthesis. Starch indicator (iodine) turns blue-black in the presence of starch. Because only the chloroplast-rich green edges turned blue-black, we can conclude that chloroplasts are required to produce starch (choice C). Other choices misinterpret the relationship between chloroplasts, starch, and the indicator. Connect chloroplasts directly to glucose and starch production.',
     },
     {
       number: 34, part: 'B-1',
@@ -425,6 +491,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 0,
+      explanation: 'The respiratory disorders caused by e-cigarettes are examples of organ malfunctions that result directly from personal behaviors (vaping).',
+      diveDeep: 'Human health can be impacted by genetic factors, pathogens, or environmental exposures/behaviors. Vaping is a personal behavior that introduces harmful chemical vapors into the lungs, leading to tissue damage and respiratory malfunction (choice A). This is a disruption of homeostasis, not its maintenance (ruling out choice B), and it is not inherited (ruling out choice C) or caused by parasites (ruling out choice D). When analyzing lifestyle-related illnesses, classify them as behavioral impacts on health.',
     },
     {
       number: 35, part: 'B-1',
@@ -439,6 +507,8 @@ export default {
       topic: 'Ecology',
       correct: 2,
       image: '/images/exams/le-august-2024/q35.png',
+      explanation: 'The heron is a top predator that consumes carp and frogs, placing it at the highest trophic level (the top of the energy pyramid) in this ecosystem.',
+      diveDeep: 'Energy pyramids are structured with producers (grasses) at the base, followed by primary consumers (herbivores like carp), and secondary/tertiary consumers (carnivores) at the top. Based on the chart, the heron preys on fish and frogs, making it a top carnivore in this food web. Therefore, it occupies the highest level of the energy pyramid. Remember: top predators always go at the peak of the energy pyramid, where available energy is lowest.',
     },
     {
       number: 36, part: 'B-1',
@@ -453,6 +523,8 @@ export default {
       topic: 'General Review',
       correct: 1,
       image: '/images/exams/le-august-2024/q36.png',
+      explanation: 'Delaying planting until June 1 reduces the corn yield by approximately 20% (yielding 80% of the maximum) compared to the optimal May 1 planting date.',
+      diveDeep: 'This question requires reading the provided line graph. Find "June 1" on the x-axis, trace it up to the curve, and read the corresponding percentage on the y-axis, which is approximately 80%. This represents a 20% reduction from the 100% maximum yield (choice B). Other options misinterpret the graph\'s trend or values. When interpreting agricultural data, match the dates to their exact y-axis values to calculate reductions.',
     },
     {
       number: 37, part: 'B-1',
@@ -467,6 +539,8 @@ export default {
       topic: 'Evolution',
       correct: 1,
       image: '/images/exams/le-august-2024/q37.png',
+      explanation: 'Habitat X displays the greatest biodiversity because it contains the highest number of different beetle species (five species: A, B, C, D, and E).',
+      diveDeep: 'Biodiversity consists of species richness (the number of different species in a habitat) and species evenness. Comparing the habitats in the table, Habitat W has 2 species, Habitat Y has 1, Habitat Z has 3, and Habitat X has 5 species (A-E). Because Habitat X contains the greatest variety of species, it is the most biodiverse (choice B). When asked to find the most biodiverse habitat, count the number of distinct species present.',
     },
     {
       number: 38, part: 'B-1',
@@ -479,6 +553,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 2,
+      explanation: 'The complementary shapes of hummingbird beaks and tubular flowers are the result of coevolution driven by the natural selection of beneficial genetic variations.',
+      diveDeep: 'Evolutionary adaptations are shaped by natural selection acting on random genetic mutations over generations. Hummingbirds with longer beaks were better able to get nectar, and flowers with shapes that successfully deposited pollen on the birds reproduced more, leading to coevolution. Organisms cannot adapt in response to their "needs" (ruling out choice A), and acquired traits are not inherited (ruling out choice B). Always attribute complex ecological matches to natural selection.',
     },
     {
       number: 39, part: 'B-1',
@@ -491,6 +567,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 1,
+      explanation: 'The variation in fur patterns among kittens in the same litter is caused by the random sorting and recombination of maternal and paternal genes during meiosis and fertilization.',
+      diveDeep: 'Sexual reproduction generates genetic diversity. During meiosis, homologous chromosomes are randomly sorted into gametes (independent assortment), and crossing over occurs. Fertilization then randomly combines these unique gametes. This results in each sibling inheriting a different combination of genes (choice B). Siblings do not inherit different numbers of chromosomes under normal conditions (ruling out choice A). Associate offspring variation in sexually reproducing species with genetic recombination.',
     },
     {
       number: 40, part: 'B-1',
@@ -504,6 +582,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 1,
+      explanation: 'Warming ocean temperatures can cause one species to dominate and replace others, disrupting the existing marine food webs and reducing biodiversity.',
+      diveDeep: 'This experiment demonstrates how a 1°C increase in temperature acts as a selective force. The heated panels caused one invertebrate species to grow rapidly and crowd out other species, reducing species diversity. This loss of biodiversity destabilizes food webs (choice B) rather than increasing stability (ruling out choice A). Organisms cannot choose to evolve rapidly (ruling out choice C). Connect climate-driven species shifts to food web disruptions.',
     },
     {
       number: 41, part: 'B-1',
@@ -517,6 +597,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 0,
+      explanation: 'The differing growth rates on the panels show that the survival and development of marine organisms are heavily dependent on abiotic factors like temperature.',
+      diveDeep: 'Temperature is a critical abiotic factor that influences metabolic rates and species interactions. The fact that the invertebrate species grew rapidly on the +1°C panels but showed different results on the control and +2°C panels shows that ecological communities are sensitive to temperature changes (choice A). Choices B, C, and D are not supported by the experiment\'s description. Remember: environmental changes alter abiotic factors, which directly affect biotic communities.',
     },
     {
       number: 42, part: 'B-1',
@@ -530,6 +612,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 1,
+      explanation: 'The test panels provided scientists with information about',
+      diveDeep: 'The experiment manipulated temperature (an environmental variable) and observed changes in the invertebrate communities. The result-one species dominating and replacing others-represents a change in biodiversity (choice B). The study did not measure mutation rates (ruling out choice A) or specific consumer relationships (ruling out choice C). Focus on the independent variable (temperature) and the dependent variable (species diversity) to identify the study\'s purpose.',
     },
     {
       number: 43, part: 'B-1',
@@ -543,6 +627,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 2,
+      explanation: 'To test the hypothesis, scientists must compare a control group with an experimental group, dividing the kakapo population so one-half receives unlimited food and the other a reduced amount.',
+      diveDeep: 'A valid scientific experiment must compare an experimental group (receiving the treatment) with a control group (under normal conditions) to isolate the effect of the independent variable. Dividing the group in half and feeding them different amounts of food (choice C) allows scientists to determine if food availability directly affects offspring sex ratios. Other choices lack a proper comparative control. When designing experiments, look for plans that feature clear control and experimental groups.',
     },
   ],
 }

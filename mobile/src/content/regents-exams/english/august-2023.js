@@ -1,0 +1,299 @@
+// Auto-generated raw wire-up from output/data/english/august-2023.json
+// Real extracted questions; explanation/diveDeep enrichment is a later pass.
+export default {
+  "id": "eng-aug-2023",
+  "subject": "english",
+  "year": 2023,
+  "session": "August",
+  "totalMinutes": 180,
+  "questions": [
+    {
+      "number": 1,
+      "part": "I",
+      "text": "Lines 8 through 16 create a mood of",
+      "choices": [
+        "tension",
+        "mystery",
+        "fear",
+        "melancholy"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 2,
+      "part": "I",
+      "text": "As used in line 17, the word “Impelled” most likely means",
+      "choices": [
+        "embarrassed",
+        "reassured",
+        "forced",
+        "distracted"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 3,
+      "part": "I",
+      "text": "The statement “Probability fulfilled” (line 29) reveals that Boyne",
+      "choices": [
+        "was certain Knight understood the importance of the meeting",
+        "was hoping Knight would arrive at the arranged time",
+        "knew he was likely to meet Knight at this location",
+        "knew he could convince Knight to bring Jane"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 4,
+      "part": "I",
+      "text": "Based on Boyne’s actions in lines 23 through 29, lines 41 through 45 confirm that Boyne",
+      "choices": [
+        "is able to manipulate people’s actions",
+        "is able to change people’s goals",
+        "has experience as a detective",
+        "has knowledge of future events"
+      ],
+      "correct": 3
+    },
+    {
+      "number": 5,
+      "part": "I",
+      "text": "The interaction in lines 39 through 46 indicates",
+      "choices": [
+        "Jane’s apprehensive feelings",
+        "Knight’s dismissive attitude",
+        "Boyne’s delusional thinking",
+        "Boyne’s excessive demands"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 6,
+      "part": "I",
+      "text": "The “carelessness that has already been disciplined” (line 58) refers to the",
+      "choices": [
+        "sale of an almanac that reveals future information",
+        "possession of an almanac that ensures future success",
+        "misleading statistics presented in the almanac",
+        "incorrect title on the cover of the almanac"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 7,
+      "part": "I",
+      "text": "Lines 83 through 89 suggest that a meaningful life requires",
+      "choices": [
+        "luck",
+        "integrity",
+        "foresight",
+        "cooperation"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 8,
+      "part": "I",
+      "text": "The statement “All will be adjusted without dislocation” (line 97) indicates that by returning the almanac",
+      "choices": [
+        "the future will proceed without change",
+        "Knight’s actions will not be punished",
+        "Macy’s agreement will not be honored",
+        "the past will be accepted without regret"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 9,
+      "part": "I",
+      "text": "The description in lines 120 through 122 communicates that Knight",
+      "choices": [
+        "recognizes that Boyne’s claims were true",
+        "feels deceived by the actions of Boyne",
+        "has regrets that he did not keep the almanac",
+        "is relieved that he did not read the almanac"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 10,
+      "part": "I",
+      "text": "The “beautifully engraved” bill (line 128) symbolizes Knight’s",
+      "choices": [
+        "future marriage",
+        "admirable character",
+        "trusting nature",
+        "successful career It was beautifully engraved and genuine in appearance. Benjamin Franklin’s benign6 features gazed up at them mildly and authentically; but in the lower right-hand corner was printed: Series 1980 D. And underneath that was signed: Oliver Wilson Knight, Secretary of the Treasury. —Alfred Bester excerpted and adapted from “Of Time and Third Avenue” Virtual Unrealities, 1997 Vintage Books 6benign — kind 130 Regents Exam in ELA — Aug. ’23 Reading Comprehension Passage B Native Memory The following poem is the poet’s reflection upon Little River Canyon, part of the Cherokee Nation homeland prior to their forced removal and relocation west of the Mississippi in the early 19th century. River was my first word after mama. I grew up with the names of rivers on my tongue: the Coosa, the Tallapoosa, the Black Warrior; the sound of their names as native to me as my own. I walked barefoot along the brow of Lookout Mountain with my father, where the Little River carves its name through the canyons of sandstone and shale above Shinbone Valley; where the Cherokee stood on these same stones and cast their voices into the canyon below. You are here, a red arrow on the atlas tells me at the edge of the bluff where young fools have carved their initials into giant oaks and spray painted their names and dates on the canyon rocks, where human history is no more than a layer of stardust, thin as the fingernail of god. What the canyon holds in its hands: an old language spoken into the pines and carried downstream on wind and time, vanishing like footprints in ash. The mountain holds their sorrow in the marrow of its bones. The body remembers the scars of massacres, how the hawk ached to see family after family 10 5 15 20 25 30 35 Regents Exam in ELA — Aug. ’23 40 45 50 dragged by the roots from the land of their fathers. Someone survived to remember beyond the weight of wagons and their thousands of feet cutting a deep trail of grief. Someone survived to tell the story of this sorrow and where they left their homes and how the trees wept to see them go and where they crossed the river and where they whispered a prayer into their grandmother’s eyes before she died and where it was along the road they buried her and where the oak stood whose roots grew around her bones and where it was that the wild persimmons grow and what it was she last said to her children and which child was to keep her memory alive and which child was to keep the language alive and weave the stories of this journey into song and when were the seasons of singing and what were the stories that go with the seasons that tell how to work and when to pray that tell when to dance and who made the day. You are here where bloodlines and rivers are woven together. I followed the river until I forgot my name and came here to the mouth of the canyon to swim in the rain and remember this, the most indigenous joy I know: to wade into the river naked among the moss and stones, to drink water from my hands and be alive in the river, the river saying, You are here, a daughter of stardust and time. —Ansel Elkins “Native Memory” www.poets.org, 2016 55 60 65 70 Regents Exam in ELA — Aug. ’23"
+      ],
+      "correct": 3
+    },
+    {
+      "number": 11,
+      "part": "I",
+      "text": "As used in line 7, the word “native” most nearly means",
+      "choices": [
+        "dull",
+        "simple",
+        "unusual",
+        "familiar"
+      ],
+      "correct": 3
+    },
+    {
+      "number": 12,
+      "part": "I",
+      "text": "Lines 16 through 22 convey the narrator’s perception of the visitors’",
+      "choices": [
+        "ignorance",
+        "anger",
+        "respect",
+        "curiosity"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 13,
+      "part": "I",
+      "text": "The structure of lines 39 through 59 best serves to highlight the",
+      "choices": [
+        "powerlessness of the Cherokee people with outside influence",
+        "pessimism of the Cherokee people in times of stress",
+        "resilience of the Cherokee culture regardless of their relocation",
+        "adaptation of the Cherokee traditions because of change"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 14,
+      "part": "I",
+      "text": "The phrase “You are here” (lines 16, 60, and 71) emphasizes the narrator’s",
+      "choices": [
+        "amazement at the beauty of the landscape",
+        "awareness of an attachment to this place",
+        "persistent feeling of being alone",
+        "increasing sense of being lost Regents Exam in ELA — Aug. ’23 Reading Comprehension Passage C The Music in You Twenty years ago, a pair of psychologists hooked up a shoe to a computer. They were trying to teach it to tap in time with a national anthem. However, the job was proving much tougher than anticipated. Just moving to beat-dominated music, they found, required a grasp of tonal organisation and musical structure that seemed beyond the reach of an ordinary person without special training. But how could that be? Any partygoer can fake a smile, reach for a cheese cube and tap her heel to an unfamiliar song without so much as a thought. Yet when the guy she’s been chatting with tells her that he’s a musician, she might reply: ‘Music? I don’t know anything about that.’ Maybe you’ve heard a variation on this theme: ‘I can’t carry a tune to save my life.’ Or: ‘I don’t have a musical bone in my body.’ Most of us end up making music publicly just a few times a year, when it’s someone’s birthday and the cake comes out. Privately, it’s a different story — we belt out tunes in the shower and create elaborate rhythm tracks on our steering wheel. But when we think about musical expertise, we tend to imagine professionals who specialise in performance, people we’d pay to hear. As for the rest of us, our bumbling, private efforts — rather than illustrating that we share an irresistible impulse to make music — seem only to demonstrate that we lack some essential musical capacity. But the more psychologists investigate musicality, the more it seems that nearly all of us are musical experts, in quite a startling sense. The difference between a virtuoso1 performer and an ordinary music fan is much smaller than the gulf between that fan and someone with no musical knowledge at all. What’s more, a lot of the most interesting and substantial elements of musicality are things that we (nearly) all share. We aren’t talking about instinctive, inborn universals here. Our musical knowledge is learned, the product of long experience; maybe not years spent over an instrument, but a lifetime spent absorbing music from the open window of every passing car. … It’s easy to test out the basics of this acquired knowledge on your friends. Play someone a simple major scale, Do-Re-Mi-Fa-Sol-La-Ti, but withhold the final Do and watch even the most avowed2 musical ignoramus start to squirm or even finish the scale for you. Living in a culture where most music is built on this scale is enough to develop what seems less like the knowledge and more like the feeling that this Ti must resolve to a Do. … When people grow up in places where music is constructed out of different scales, they acquire similarly natural responses to quite different musical elements. Research I’ve done with Patrick Wong of Northwestern University in Illinois has demonstrated that people raised in households where they listen to music using different tonal systems (both Indian classical and Western classical music, for example) acquire a convincing kind of bi- musicality, without having played a note on a sitar3 or a violin. So strong is our proclivity4 for making sense of sound that mere listening is enough to build a deeply internalised mastery of the basic materials of whatever music surrounds us. … It has often been observed that there is a special connection between music and memory. This is what allows a song such as Tom Lehrer’s The Elements (1959) to teach children the periodic table better than many chemistry courses. You don’t need to have any 1virtuoso — master 2avowed — self-proclaimed 3sitar — a type of stringed instrument 4proclivity — tendency 20 10 5 15 25 30 35 40 Regents Exam in ELA — Aug. ’23 special training to benefit from the memory boost conferred by setting a text to music — it just works, because it’s taking advantage of your own hidden musical abilities and inclinations. Music can also absorb elements of autobiographical memory — that’s why you burst into tears in the grocery store when you hear the song that was playing when you broke up with your boyfriend. Music soaks up all kinds of memories, without us being aware of what’s happening. What’s less well-known is that the relationship goes both ways: memory also indexes music with astonishing effectiveness. We can flip through a radio dial or playlist at high speed, almost immediately recognising whether we like what’s playing or not. In 2010, the musicologist Robert Gjerdingen of Northwestern University in Illinois showed that snippets under 400 milliseconds — literally the blink of an eye — can be sufficient for people to identify a song’s genre (whether it’s rap, country or jazz), and last year [psychologist Carol Lynne] Krumhansl showed that snippets of similar length can be sufficient for people to identify an exact song (whether it’s Public Enemy’s Fight the Power or Billy Ray Cyrus’s Achy Breaky Heart). That isn’t long enough for distinctive aspects of a melody or theme to emerge; people seem to be relying on a robust and detailed representation of particular textures and timbral5 configurations — elements we might be very surprised to learn we’d filed away. And yet we can retrieve them almost instantly. That fact becomes both more and less amazing when you consider just how steeped in music we all are. If all the exposure in elevators and cafés and cars and televisions and kitchen radios was put together, the average person listens to several hours of music every day. Even when it isn’t playing, music continues in our minds — more than 90 per cent of us report being gripped by a stubborn earworm at least once a week. People list their musical tastes on dating websites, using them as a proxy for their values and social affiliations. They travel amazing distances to hear their favourite band. The majority of listeners have experienced chills in response to music: actual physical symptoms. And if you add some soaring strings to an otherwise ordinary scene in a film, it might bring even the hardiest of us to tears. So, the next time you’re tempted to claim you don’t know anything about music, pause to consider the substantial expertise you’ve acquired simply through a lifetime of exposure. Think about the many ways this knowledge manifests itself: in your ability to pick out a playlist, or get pumped up by a favourite gym song, or clap along at a performance. Just as you can hold your own in a conversation even if you don’t know how to diagram a sentence, you have an implicit understanding of music even if you don’t know a submediant from a subdominant. … When we acknowledge how, just by living and listening, we have all acquired deep musical knowledge, we must also recognise that music is not the special purview of professionals. Rather, music professionals owe their existence to the fact that we, too, are musical. Without that profound shared understanding, music would have no power to move us. —Elizabeth Hellmuth Margulis excerpted and adapted from “The Music in You” aeon.co, January 8, 2015 5timbral — tone quality 45 50 55 60 65 70 75 Regents Exam in ELA — Aug. ’23"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 15,
+      "part": "I",
+      "text": "According to lines 9 through 11, most non-musicians view their musical ability as",
+      "choices": [
+        "limited",
+        "comical",
+        "admirable",
+        "average"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 16,
+      "part": "I",
+      "text": "Lines 17 through 24 support a central idea by emphasizing the",
+      "choices": [
+        "differences between virtuoso musical performers and ordinary people",
+        "similarity of musical preferences between different cultures of people",
+        "necessity of training for people to become musical experts",
+        "way that people naturally learn about music through experience"
+      ],
+      "correct": 3
+    },
+    {
+      "number": 17,
+      "part": "I",
+      "text": "Lines 25 through 29 demonstrate that the average person, with basic musical knowledge,",
+      "choices": [
+        "will be amused by an alteration of a familiar scale",
+        "will find discomfort in an incomplete familiar scale",
+        "can adapt incomplete scales to make original music",
+        "can recognize the scale patterns of other cultures"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 18,
+      "part": "I",
+      "text": "Acquiring a “kind of bi-musicality” (lines 34 and 35) is the result of",
+      "choices": [
+        "studying the history of music composition",
+        "experiencing multiple musical traditions",
+        "developing an understanding of contemporary music",
+        "participating in classical musical performances"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 19,
+      "part": "I",
+      "text": "Lines 43 through 46 convey the idea that music can affect a person by",
+      "choices": [
+        "eliminating unpleasant memories",
+        "evoking past emotions",
+        "maintaining stable moods",
+        "modifying negative attitudes"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 20,
+      "part": "I",
+      "text": "The phrase “gripped by a stubborn earworm” (line 63) most likely refers to music",
+      "choices": [
+        "overplayed on the radio",
+        "trending on social media",
+        "connected to one’s past",
+        "repeating in one’s head"
+      ],
+      "correct": 3
+    },
+    {
+      "number": 21,
+      "part": "I",
+      "text": "The idea presented in lines 69 and 70 is best reflected by which phrase?",
+      "choices": [
+        "“But when we think about musical expertise, we tend to imagine professionals” (lines 13 and 14)",
+        "“there is a special connection between music and memory” (lines 38 and 39)",
+        "“Music can also absorb elements of auto- biographical memory” (line 43)",
+        "“just by living and listening, we have all acquired deep musical knowledge” (lines 76 and 77)"
+      ],
+      "correct": 3
+    },
+    {
+      "number": 22,
+      "part": "I",
+      "text": "The comparison in lines 72 through 75 highlights the notion that musicality",
+      "choices": [
+        "depends upon language skills",
+        "requires knowing the structure",
+        "is as natural as speech",
+        "is based on interaction with others"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 23,
+      "part": "I",
+      "text": "As used in line 77, the phrase “the special purview” most nearly means",
+      "choices": [
+        "easily composed by",
+        "readily recalled by",
+        "only valued by",
+        "only comprehended by"
+      ],
+      "correct": 3
+    },
+    {
+      "number": 24,
+      "part": "I",
+      "text": "The author advances the argument through use of",
+      "choices": [
+        "questions",
+        "examples",
+        "statistics",
+        "imagery Regents Exam in ELA — Aug. ’23 Part 2 Argument Directions: Closely read each of the four texts provided on pages 13 through 19 and write a source-based argument on the topic below. You may use the margins to take notes as you read and scrap paper to plan your response. Write your argument beginning on page 1 of your essay booklet. Topic: Should cities ban single-use “Styrofoam” products? Your Task: Carefully read each of the four texts provided. Then, using evidence from at least three of the texts, write a well-developed argument regarding whether or not cities should ban single-use “Styrofoam” products. Clearly establish your claim, distinguish your claim from alternate or opposing claims, and use specific, relevant, and sufficient evidence from at least three of the texts to develop your argument. Do not simply summarize each text. Guidelines: Be sure to: • Establish your claim regarding whether or not cities should ban single-use “Styrofoam” products • Distinguish your claim from alternate or opposing claims • Use specific, relevant, and sufficient evidence from at least three of the texts to develop your argument • Identify each source that you reference by text number and line number(s) or graphic (for example: Text 1, line 4 or Text 2, graphic) • Organize your ideas in a cohesive and coherent manner • Maintain a formal style of writing • Follow the conventions of standard written English Texts: Text 1 – Pros & Cons of Styrofoam Text 2 – Why Styrofoam Is So Bad For the Environment Text 3 – Statewide Polystyrene Ban Would Bring Unintended Consequences Text 4 – In the Sea, Not All Plastic Lasts Forever Regents Exam in ELA — Aug. ’23 Text 1 Pros & Cons of Styrofoam Styrofoam is probably not what you think it is. Technically, Styrofoam is the trademark name for a product that’s used to insulate buildings. The white little cups and cheap takeout containers that you might think of as Styrofoam are made of something similar called expanded polystyrene foam, or EPS. Much like the debate over paper versus plastic, the use of EPS for foam food ware1 and packing materials remains an ongoing controversy between companies looking out for their bottom line and environmentalists looking out for Mother Earth. Like anything else, EPS has both advantages and disadvantages. Advantages of EPS The food service industry generally favors EPS for food ware because it’s less expensive than other products and provides better insulation, which helps keep food fresh longer. EPS creates versatile containers that can maintain temperatures for both hot and cold food and beverage items. While opponents of EPS argue that it’s bad for the environment, manufacturing products from polystyrene uses less energy and resources than their paper counterparts. EPS products weigh less than paper, which helps reduce air emissions during transportation. Disadvantages of EPS Environmentalists generally disapprove of EPS foam products because they claim it wreaks havoc2 on the environment. One of the main concerns regarding EPS foam is that it’s not biodegradable and therefore takes up a lot of space in landfills, which adds to the pollution problem. If littered, EPS foam sometimes breaks into smaller pieces that are more difficult to clean up. Another argument against EPS foam is that it’s made from nonrenewable fossil fuels and synthetic chemicals, which can also contribute to pollution. EPS foam sometimes makes its way into waterways and can have disastrous effects on animals that may confuse it for food or nesting material. While EPS foam can be recycled, doing so is often costlier than manufacturing new foam. EPS Bans The controversy over whether EPS foam products are environmentally friendly has led some cities, such as New York, to ban the use of EPS foam for single-use food ware containers and product packaging. The idea is that banning such products will reduce littering and protect some of the animals that mistake EPS waste for food or nesting material. Opponents of EPS bans, however, argue that banning EPS foam isn’t the answer because it only leads to the use of alternative products that cause even more environmental problems than EPS foam itself. —Kristina Barrosa “Pros & Cons of Styrofoam” sciencing.com, June 25, 2018 1food ware — containers 2wreaks havoc — causes great damage 5 10 15 20 25 30 Regents Exam in ELA — Aug. ’23 Text 2 Why Styrofoam Is So Bad For the Environment Everyone knows that Styrofoam is bad for the planet, but do you know exactly why? Here’s a hint: it’s not just about biodegradability. Styrofoam has become such an accepted everyday product that people often don’t understand how Styrofoam harms the environment. Styrofoam is made from polystyrene, which is a petroleum-based plastic. Styrofoam is actually the trade name for polystyrene. It’s popular because of its light weight, good insulation properties, and advantage as a packing material for shipping without adding weight. Unfortunately, for all of Styrofoam’s good points, data has shown that Styrofoam also has harmful effects. On Human Health Let’s take a look at the elements used to make Styrofoam. Styrene is the foundational ingredient used to make polystyrene. It is broadly used in the manufacture of plastics, resins and rubber. The U.S. Environmental Protection Agency (EPA) and the International Agency for Research on Cancer have established styrene as a possible human carcinogen.1 Those who work in styrene product manufacturing and are regularly exposed to high levels of styrene have experienced acute health effects, including the following: • Irritation of the skin • Irritation of the eyes • Irritation of the upper respiratory tract • Gastrointestinal effects Chronic exposure to styrene leads to further complications, including effects on the nervous system. Symptoms of chronic exposure include those listed below: • Depression • Headache • Fatigue • Weakness • Minor effects on kidney function Styrofoam containers are commonly used for take-out food, but chemicals can leach2 into it and contaminate that food, affecting human health and reproductive systems. This effect is further accentuated if food is reheated while still in the container. NEVER heat Styrofoam: always remove food to a cooking vessel for reheating. On the Environment... Styrofoam can be recycled, but the market for recycled Styrofoam is diminishing. Many recycling companies no longer will accept polystyrene products. Those that are recycled can be remanufactured into things like cafeteria trays or packing filler. Along with the health risks associated with the manufacture of polystyrene, air pollution is another concern. The National Bureau of Standards Center for Fire Research has found 57 chemical byproducts released during the creation of Styrofoam. This not only pollutes the air, but also results in liquid and solid toxic waste that requires proper disposal. Another cause for concern are the brominated flame retardants that are used on Styrofoam products. Research suggests that these chemicals may have negative environmental and health effects. 1carcinogen — cancer-causing substance 2leach — seep 20 25 30 35 10 5 15 Regents Exam in ELA — Aug. ’23 40 Styrofoam manufacture also uses hydrofluorocarbons (HFCs), which negatively impact the ozone layer and climate change. HFCs are less detrimental to the ozone than chlorofluorocarbons (CFCs), which were used in the manufacturing of Styrofoam in the past, but it is thought that the impact of HFCs on climate change is much more serious. Lastly, Styrofoam is made from petroleum, which is a non-sustainable resource, the production of which creates heavy pollution and accelerates climate change. Alternatives to Styrofoam According to the EPA, Americans trash approximately 25 billion Styrofoam cups and take-out containers every year. Compostable3 food service packaging is very trendy right now as an “ecologically correct” option. Compostable containers are made, using corn starch, palm fiber, peat fiber and wheat stocks; and they’re able to break down into soil-enriching compost. Scientists have hope for developing a suitable replacement for Styrofoam. A company named Ecovative Design has created a line of products made from fungi and agricultural waste that are Styrofoam-like and aspire to be a more environmentally friendly replacement. Already, a number of independent restaurants and food service brands worldwide, such as Dunkin’ Donuts, have shown how compostable containers can be used as a practical alternative. Several years ago, coffee retailer Tully’s began serving its popular beverages in compostable cups. New York City; Washington, D.C.; Seattle; San Francisco and many more municipalities have announced that food service establishments, stores, and manufacturers may not possess, sell, or offer for use single-service Expanded Polystyrene (EPS) foam articles or polystyrene loose fill packaging, such as “packing peanuts.” … —Kim Robson excerpted from “Why Styrofoam Is So Bad For the Environment” green-mom.com, February 27, 2018 3compostable — products capable of breaking down into natural elements 45 50 55 60 Regents Exam in ELA — Aug. ’23 Text 3 Statewide Polystyrene Ban Would Bring Unintended Consequences Supposedly civic-minded prohibitions on consumer conveniences always have unintended consequences. California’s single-use plastic bag ban, for instance, has led to a surge in E. coli infections, created a swarm of thicker plastic bags that are a greater environmental hazard than the outlawed single-use plastic bags, boosted shoplifting, and been the cause of countless broken eggs fumbled by shoppers trying to carry too many groceries in their arms. The growing prohibitions on polystyrene, known to most by its brand name Styrofoam, will too yield unpleasant unintended consequences. The ban is not yet statewide, but legislative proponents will surely try again in 2019 to outlaw it in all of California after legislation failed in each of the last two years. In the meantime, 119 cities and counties have some type of foam ban, with the city of San Diego soon to become the 120th. The goal is to rid our streets, sidewalks, parking lots, open fields, beaches, and waterways of used polystyrene. It’s an admirable objective, and bans will certainly reduce the amount of foam in the litter stream. But bans won’t have a net positive impact. Styrofoam litter will simply be replaced by the alternatives to polystyrene take-out food containers and drink cups. A California Water Resources Control Board report says there would be no improvement because “mere substitution would not result in reduced trash generation if such product substitution would be discarded in the same manner as the banned item.” When and where polystyrene is banned, businesses and consumers are forced to bear the costs of transitioning to other materials. In some cases, according to the California Restaurant Association, costs will more than double. Recycle Nation says that a paper cup costs about two-and-one-half times what a Styrofoam cup costs. The San Diego City Council has acknowledged how taxing a ban will be by providing some small businesses with hardship waivers allowing them to slowly transition to alternatives. Yet that might not be enough. Many small businesses operate on such narrow profit margins that a ban, even one including waivers, could be a death sentence for them. A key point being ignored in the debate is that a ban would have a negative environmental impact. Recycle Nation tells us that “it appears that going with Styrofoam is more eco-friendly compared to a paper cup,” due in part to the added resources needed to produce paper cups. They require 12 times more water and 36 times as much electricity to manufacture. A Dutch study further found sourcing material for foam cups and shipping uses 22 percent less petroleum than is needed for paper cups, and producing foam cups doesn’t require the use of harsh chemicals such as chlorine dioxide, which is needed to bleach the pulp used to make cups. A ban would also unfairly isolate targeted businesses. Less than half of foam litter is made up of food-service products, says Steven Stein, principal of the Washington-based Environmental Resources Group, who “toured” the Los Angeles River and wrote in the Los Angeles Times that what he found was “a snapshot of what’s typically discarded throughout the county.” 20 25 30 35 10 5 15 40 Regents Exam in ELA — Aug. ’23 “Foam transport packing materials used to protect shipments from breakage,” which cannot be covered by bans, makes up more than half of all polystyrene litter, says Stein. It’s also worth noting that businesses paying more for polystyrene alternatives aren’t the guilty parties throwing foam into the litter stream. Yet the few who are ruining things for the many aren’t held culpable1 by the prohibitionists. Pursuing the polluters is a sensible approach. The California Water Resources [Control Board] has said that “ensuring compliance with existing statewide and local litter laws and ordinances would eliminate the substantial adverse environmental and economic impacts” from all litter, as well as preclude2 “the need for additional structural or institutional controls that generate their own nominal adverse environmental impacts.” Communities know where their worst litter problems are located and should focus enforcement resources on those areas. It seems that in a state so obsessed with environmental perfection, officials would concentrate first on the source of the problem, litterbugs, rather than law-abiding businesses and consumers who just want to complete their transactions without government interference. Bans, though, are more visible. They allow politicians to make a public show of their virtue. But they also create their own sets of problems. Lawmakers need to be mindful of the damage they can do before they legislate for political gain rather than rational reasons. It’s a reality they should take into account when the statewide polystyrene ban comes up again in Sacramento. —Kerry Jackson excerpted and adapted from “Statewide Polystyrene Ban Would Bring Unintended Consequences” www.pacificresearch.org, November 13, 2018 1culpable — responsible 2preclude — prevent 45 50 55 60 Regents Exam in ELA — Aug. ’23 Text 4 In the Sea, Not All Plastic Lasts Forever A major component of ocean pollution is less devastating and more manageable than usually portrayed, according to a scientific team at the Woods Hole Oceanographic Institution on Cape Cod, Mass., and the Massachusetts Institute of Technology [MIT]. Previous studies, including one last year by the United Nations Environment Program, have estimated that polystyrene, a ubiquitous1 plastic found in trash, could take thousands of years to degrade, making it nearly eternal. But in a new paper, five scientists found that sunlight can degrade polystyrene in centuries or even decades. “Policymakers generally assume that polystyrene lasts forever,” Collin P. Ward, a marine chemist at Woods Hole and the study’s lead author said in a statement on Thursday [October 10, 2019]. “That’s part of the justification for writing policy that bans it.” A main rationale for his team’s study, he added, “was to understand if polystyrene actually does last forever.” Polystyrene, one form of which often carries the brand name Styrofoam, is used to manufacture single-use cups, straws, yogurt containers, disposable razors, plastic tableware, packing materials and many other everyday items, which are discarded daily by the ton. Much of it ends up in the ocean. A swirling mass of throwaway junk known as the Great Pacific Garbage Patch, located between Hawaii and California, is estimated to occupy an area roughly twice the size of Texas. Many nations, companies, citizen groups and ocean institutes, as well as United Nations programs, have worked hard to ban single-use items and better regulate their disposal. “We’re not calling the concerns or the actions wrong,” Christopher M. Reddy, a marine chemist at Woods Hole and another author on the study, said in an interview. “We just have a new thread to add and we think it’s significant.” … It’s common knowledge that sunlight can cause plastics to weather. “Just look at plastic playground toys, park benches, or lawn chairs, which can rapidly become sun-bleached,” Dr. Ward noted in the Woods Hole statement. The new study demonstrated that sunlight does even more, breaking down polystyrene into basic chemical units of organic carbon, which dissolves in seawater, and trace amounts of carbon dioxide, at levels far too low to play a role in climate change. By the end of this process the plastic has effectively disappeared from the environment. In the paper, the researchers described the study as “the first direct evidence” of how sunlight can break down polystyrene in the environment into its basic chemical building blocks. Previous studies focused largely on the degrading effect of microbes. That made sense, Dr. Reddy said, because microbes can eat many forms of organic carbon. But, he added, the chemical structure of polystyrene — particularly its backbone of large, ringed molecules — made the plastic unappetizing to decomposing bacteria. However, that same molecular backbone turned out to be “the perfect shape and size to catch certain frequencies of sunlight,” Dr. Reddy said. And the energy that is absorbed breaks the chemical bonds. 1ubiquitous — found everywhere 20 25 30 35 40 10 5 15 Regents Exam in ELA — Aug. ’23 In the lab, the researchers tested five different samples of polystyrene to see if sunlight could tear them apart. The team submerged each sample in a sealed glass container of water and exposed it to light from a solar simulator, a special lamp that mimics the frequencies of sunlight. The scientists then studied the water for evidence of breakdown products. With sophisticated tools of detection and analysis, Dr. Ward and his colleagues then traced the origin of the loose materials back to the polystyrene. “We used multiple methods, and they all pointed to the same outcome,” he said in the statement: sunlight can turn polystyrene from a solid material back into basic chemical units. The study also found that additives to polystyrene, which can determine its color, flexibility and other physical features, can slow or speed decomposition. In a joint interview, Dr. Ward and Dr. Reddy said that one remaining puzzle concerns the exact nature of the dissolved organic carbon, which is too small in size to form visible particles. “We feel confident we can figure it out,” Dr. Reddy said. The research team included Cassia J. Armstrong and Julia H. Jackson of Woods Hole, and Anna N. Walsh of Woods Hole and the Massachusetts Institute of Technology. In the paper, the authors noted that the newly identified means of polystyrene breakdown “should be incorporated into global fate models” for plastics and help frame policy. None of the current inventories “account for degradation,”2 Dr. Ward noted. In the interview, he and Dr. Reddy suggested that the new finding might eventually shed light on one of the outstanding mysteries of ocean pollution: that more than 99 percent of the plastic that should be identifiable is missing. Expeditions that have specifically looked for evidence of the calculated mass of plastic have repeatedly come up with surprisingly low returns. In time, Dr. Ward said, the accelerating search for the breakdown products of polystyrene and other kinds of oceanic pollution may let scientists “balance the books.” —William J. Broad excerpted and adapted from “In the Sea, Not All Plastic Lasts Forever” www.nytimes.com, October 11, 2019 2degradation — deterioration 45 50 55 60 65 Regents Exam in ELA — Aug. ’23 Part 3 Text-Analysis Response Your Task: Closely read the text provided on pages 21 and 22 and write a well-developed, text-based response of two to three paragraphs. In your response, identify a central idea in the text and analyze how the author’s use of one writing strategy (literary element or literary technique or rhetorical device) develops this central idea. Use strong and thorough evidence from the text to support your analysis. Do not simply summarize the text. You may use the margins to take notes as you read and scrap paper to plan your response. Write your response in the spaces provided on pages 7 through 9 of your essay booklet. Guidelines: Be sure to: • Identify a central idea in the text • Analyze how the author’s use of one writing strategy (literary element or literary technique or rhetorical device) develops this central idea. Examples include: characterization, conflict, denotation/connotation, metaphor, simile, irony, language use, point-of-view, setting, structure, symbolism, theme, tone, etc. • Use strong and thorough evidence from the text to support your analysis • Organize your ideas in a cohesive and coherent manner • Maintain a formal style of writing • Follow the conventions of standard written English Regents Exam in ELA — Aug. ’23 The Kitchen In this excerpt from a memoir, the narrator recalls his childhood in Brownsville—a neighborhood in Brooklyn, New York—in the early part of the 20th century. …In Brownsville tenements the kitchen is always the largest room and the center of the household. As a child I felt that we lived in a kitchen to which four other rooms were annexed. My mother, a “home” dressmaker, had her workshop in the kitchen. She told me once that she had begun dressmaking in Poland at thirteen; as far back as I can remember, she was always making dresses for the local women. She had an innate sense of design, a quick eye for all the subtleties in the latest fashions, even when she despised them, and great boldness. For three or four dollars she would study the fashion magazines with a customer, go with the customer to the remnants1 store on Belmont Avenue to pick out the material, argue the owner down—all remnants stores, for some reason, were supposed to be shady, as if the owners dealt in stolen goods—and then for days would patiently fit and baste2 and sew and fit again. Our apartment was always full of women in their housedresses sitting around the kitchen table waiting for a fitting. My little bedroom next to the kitchen was the fitting room. The sewing machine, an old nut-brown Singer with golden scrolls painted along the black arm and engraved along the two tiers of little drawers massed with needles and thread on each side of the treadle,3 stood next to the window and the great coal-black stove which up to my last year in college was our main source of heat. By December the two outer bedrooms were closed off, and used to chill bottles of milk and cream, cold borscht4 and jellied calves’ feet. … The kitchen gave a special character to our lives; my mother’s character. All my memories of that kitchen are dominated by the nearness of my mother sitting all day long at her sewing machine, by the clacking of the treadle against the linoleum floor, by the patient twist of her right shoulder as she automatically pushed at the wheel with one hand or lifted the foot to free the needle where it had got stuck in a thick piece of material. The kitchen was her life. Year by year, as I began to take in her fantastic capacity for labor and her anxious zeal, I realized it was ourselves she kept stitched together. I can never remember a time when she was not working. She worked because the law of her life was work, work and anxiety; she worked because she would have found life meaningless without work. She read almost no English; she could read the Yiddish5 paper, but never felt she had time to. We were always talking of a time when I would teach her how to read, but somehow there was never time. When I awoke in the morning she was already at her machine, or in the great morning crowd of housewives at the grocery getting fresh rolls for breakfast. When I returned from school she was at her machine, or conferring over McCall’s6 with some neighborhood woman who had come in pointing hopefully to an illustration—“Mrs. Kazin! Mrs. Kazin! Make me a dress like it shows here in the picture!” When my father came home from work she had somehow mysteriously interrupted herself to make supper for us, and the dishes cleared and washed, was back at her machine. When I went to bed at night, often she was still there, pounding away at the treadle, hunched over 1remnants — pieces of fabric 2baste — loosely stitch 3treadle — a pedal on a sewing machine that requires continuous movement of the foot to operate 4borscht — beet soup 5Yiddish — Germanic language traditionally spoken by Ashkenazi (or Eastern European) Jews 6McCall’s — a women’s magazine 20 25 30 35 10 5 15 Regents Exam in ELA — Aug. ’23 the wheel, her hands steering a piece of gauze under the [sewing machine] needle with a finesse that always contrasted sharply with her swollen hands and broken nails. Her left hand had been pierced through when as a girl she had worked in the infamous Triangle Shirtwaist Factory on the East Side. A needle had gone straight through the palm, severing a large vein. They had sewn it up for her so clumsily that a tuft of flesh always lay folded over the palm. The kitchen was the great machine that set our lives running; it whirred down a little only on Saturdays and holy days. From my mother’s kitchen I gained my first picture of life as a white, overheated, starkly lit workshop redolent7 with Jewish cooking, crowded with women in housedresses, strewn with fashion magazines, patterns, dress material, spools of thread—and at whose center, so lashed to her machine that bolts of energy seemed to dance out of her hands and feet as she worked, my mother stamped the treadle hard against the floor, hard, hard, and silently, grimly at war, beat out the first rhythm of the world for me. … At night the kitchen contracted around the blaze of light on the cloth, the patterns, the ironing board where the iron had burned a black border around the tear in the muslin cover; the finished dresses looked so frilly as they jostled on their wire hangers after all the work my mother had put into them. And then I would get that strangely ominous smell of tension from the dress fabrics and the burn in the cover of the ironing board—as if each piece of cloth and paper crushed with light under the naked bulb might suddenly go up in flames. Whenever I pass some small tailoring shop still lit up at night and see the owner hunched over his steam press; whenever in some poorer neighborhood of the city I see through a window some small crowded kitchen naked under the harsh light glittering in the ceiling, I still smell that fiery breath, that warning of imminent fire. I was always holding my breath. What I must have felt most about ourselves, I see now, was that we ourselves were like kindling—that all the hard-pressed pieces of ourselves and all the hard-used objects in that kitchen were like so many slivers of wood that might go up in flames if we came too near the white-blazing filaments in that naked bulb. Our tension itself was fire, we ourselves were forever burning—to live, to get down the foreboding in our souls, to make good. … —Alfred Kazin excerpted and adapted from “The Kitchen” A Walker in the City, 1979 Harcourt, Inc. 7redolent — sweet smelling 45 50 55 60 65 40 REGENTS IN ELA REGENTS IN ELA Printed on Recycled Paper"
+      ],
+      "correct": 1
+    }
+  ]
+}

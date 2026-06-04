@@ -19,6 +19,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 2,
+      explanation: 'The correct choice is 2 because the asteroid belt lies between the orbits of Mars and Jupiter, which are at distances of approximately 227.9 million km and 778.6 million km from the Sun, respectively. Out of the given options, only 403 million km falls within this range.',
+      diveDeep: 'The Solar System Data table in the Earth Science Reference Tables (ESRT) provides the mean distances of planets from the Sun. By checking the distance of Mars (227.9 million km) and Jupiter (778.6 million km), students can determine that the asteroid belt must lie between these two values. A common pitfall is attempting to memorize these distances rather than referencing the ESRT, or selecting values outside the orbits of Mars and Jupiter.',
     },
     {
       number: 2,
@@ -31,8 +33,10 @@ export default {
         '1:53 a.m.',
       ],
       topic: 'Astronomy',
-      correct: 0,
+      correct: 3,
       image: '/images/exams/es-august-2019/q2.png',
+      explanation: 'High tides occur approximately every 12 hours and 25 minutes. Since the high tide on Wednesday was at 1:27 p.m., the next high tide will occur 12 hours and 26 minutes later at 1:53 a.m. on Thursday.',
+      diveDeep: 'Tides are a cyclic, predictable event caused primarily by the gravitational pull of the Moon and the rotation of the Earth. The time difference between consecutive high tides is approximately 12 hours and 25 minutes (half of a tidal day). Adding this interval to the last recorded high tide (1:27 p.m. on Wednesday) allows us to predict the next high tide at 1:53 a.m. on Thursday.',
     },
     {
       number: 3,
@@ -46,6 +50,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 1,
+      explanation: 'The correct choice is 1 because Venus is the only planet in our solar system that has a period of rotation (243 days) longer than its period of revolution (224.7 days).',
+      diveDeep: 'According to the Solar System Data table in the ESRT, Venus\'s day (period of rotation) is 243 Earth days, while its year (period of revolution) is 224.7 Earth days. This unique characteristic means Venus rotates extremely slowly on its axis, making its day longer than its year. Students must make sure to read the columns of the Solar System Data table carefully, noting the units (days vs. years) and comparing rotation to revolution.',
     },
     {
       number: 4,
@@ -59,6 +65,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 3,
+      explanation: 'The correct choice is 3 because Jupiter, being a Jovian gas giant, is much larger and has a significantly greater mass than the dense, rocky terrestrial planets.',
+      diveDeep: 'Jovian planets (Jupiter, Saturn, Uranus, Neptune) are characterized by their immense size, large mass, low density, and numerous moons, whereas terrestrial planets (Mercury, Venus, Earth, Mars) are small, rocky, and dense. According to the Solar System Data table in the ESRT, Jupiter\'s mass is 317.83 times that of Earth, making it by far the most massive planet. Distractors such as density or distance to the Sun are higher for terrestrial planets or lower for Jovian planets, respectively.',
     },
     {
       number: 5,
@@ -72,6 +80,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 1,
+      explanation: 'The correct choice is 1 because Earth\'s annual revolution around the Sun changes the direction that the night side of Earth faces in space, revealing different constellations at different times of the year.',
+      diveDeep: 'As Earth orbits (revolves around) the Sun over the course of a year, the nighttime side faces different regions of the celestial sphere. In January, the night side faces toward Orion, while in June, Orion is in the direction of the Sun and is thus hidden by daylight. Earth\'s rotation, by contrast, causes the daily rising and setting of stars, not their seasonal visibility.',
     },
     {
       number: 6,
@@ -85,6 +95,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 3,
+      explanation: 'The correct choice is 3 because the age of the universe is estimated to be approximately 13.8 billion years, which is supported by cosmic background radiation and galactic red-shift measurements.',
+      diveDeep: 'The Big Bang theory suggests that the universe began expanding from a single point approximately 13.8 billion years ago. This is much older than Earth and our solar system, which formed approximately 4.6 billion years ago (a common distractor). Students should distinguish between the age of the Earth/Solar System (4.6 billion years) and the age of the universe (13.8 billion years) to avoid confusion.',
     },
     {
       number: 7,
@@ -99,6 +111,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-august-2019/q7.png',
+      explanation: 'The correct choice is 0 because the daily apparent movement of the Sun across the sky along an arc is caused by Earth\'s rotation on its axis at a rate of 15°/hour.',
+      diveDeep: 'Although the Sun appears to move from east to west across the sky, this is an illusion caused by the actual west-to-east rotation of Earth. Each 20-minute interval on the photograph represents 5° of Earth\'s rotation (since 15° = 1 hour, or 1° = 4 minutes). Understanding that daily celestial motions are caused by Earth\'s rotation, while seasonal changes are caused by Earth\'s revolution, is a fundamental Regents concept.',
     },
     {
       number: 8,
@@ -112,6 +126,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 2,
+      explanation: 'The correct choice is 2 because geologic and chemical evidence, such as iridium layers at the K-Pg boundary, indicates that a massive asteroid impact caused global climate changes that led to the extinction of the dinosaurs.',
+      diveDeep: 'The mass extinction at the end of the Cretaceous Period (65.5 million years ago) is widely accepted to have been triggered by a large impact event, which created the Chicxulub crater in the Yucatan Peninsula. This impact threw vast amounts of dust and aerosols into the atmosphere, blocking sunlight and disrupting global food chains. Students can locate this event on the Geologic History of New York State in the ESRT under the "Life on Earth" and "Key Events" columns.',
     },
     {
       number: 9,
@@ -126,6 +142,8 @@ export default {
       topic: 'Astronomy',
       correct: 1,
       image: '/images/exams/es-august-2019/q9.png',
+      explanation: 'The correct choice is 1 because Earth\'s axis of rotation is tilted at an angle of 23.5° relative to the perpendicular to the plane of its orbit.',
+      diveDeep: 'Earth\'s tilt, also known as obliquity, is the angle between its rotational axis and the line perpendicular to its orbital plane (line XY). This 23.5° tilt remains constant in direction as Earth revolves around the Sun, which is the primary cause of seasonal changes. Students should recognize both 23.5° (tilt from vertical) and 66.5° (angle between the axis and the orbital plane itself) and know which one is represented by letter A.',
     },
     {
       number: 10,
@@ -139,6 +157,8 @@ export default {
       ],
       topic: 'General Review',
       correct: 3,
+      explanation: 'The correct choice is 3 because unfrozen soil has open pore spaces that allow water to seep in, and a gentle slope slows down runoff, giving water more time to infiltrate.',
+      diveDeep: 'Infiltration is the process by which water enters the soil. Frozen ground acts as an impermeable barrier because ice fills the pore spaces, preventing water from entering and increasing runoff. Additionally, a steep slope causes water to flow quickly downhill before it can sink into the ground, whereas a gentle slope maximizes the contact time between water and the soil surface.',
     },
     {
       number: 11,
@@ -152,6 +172,8 @@ export default {
       ],
       topic: 'Water Cycle',
       correct: 2,
+      explanation: 'The correct choice is 2 because evaporation changes liquid water from the surface into water vapor, and transpiration is the process where plants release water vapor into the air.',
+      diveDeep: 'The water cycle includes both physical and biological processes that return moisture to the atmosphere. Evaporation is a phase change driven by solar energy, whereas transpiration is a biological process in which plants absorb water through roots and release it as gas through leaves. Precipitation and condensation are processes that remove water vapor from the atmosphere.',
     },
     {
       number: 12,
@@ -165,6 +187,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 2,
+      explanation: 'The correct choice is 2 because sorted sediments of large particle size, such as pebbles, have large, well-connected pore spaces that allow water to flow through rapidly.',
+      diveDeep: 'Permeability refers to the rate at which water can pass through a porous material. While sorting increases porosity, particle size is the primary factor determining permeability rate because larger particles leave larger, less-obstructed passages (pores) for water to flow. Unsorted mixtures are less permeable because smaller particles fill in the spaces between the larger ones.',
     },
     {
       number: 13,
@@ -178,6 +202,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 1,
+      explanation: 'The correct choice is 1 because high-pressure centers are characterized by sinking, dry air, which prevents air from rising, cooling, and condensing to form clouds.',
+      diveDeep: 'High-pressure systems (anticyclones) feature divergence at the surface and subsidence (sinking air) at the center. As air sinks, it warms adiabatically and its relative humidity decreases, leading to clear, dry skies. In contrast, low-pressure systems are associated with rising air, condensation, clouds, and precipitation.',
     },
     {
       number: 14,
@@ -191,6 +217,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 0,
+      explanation: 'The correct choice is 0 because as altitude increases in the troposphere, air pressure drops due to a decreasing weight of the atmosphere above, and temperature decreases at an average rate of 6.5°C/km.',
+      diveDeep: 'The Selected Properties of Earth\'s Atmosphere chart in the ESRT shows how temperature and pressure change across different atmospheric layers. In the troposphere, both pressure and temperature steadily decrease with height. Atmospheric pressure always decreases with altitude throughout the entire atmosphere because the density of air molecules decreases.',
     },
     {
       number: 15,
@@ -204,6 +232,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 3,
+      explanation: 'The correct choice is 3 because ozone molecules (O₃) in the stratosphere absorb high-energy ultraviolet (UV) radiation from the Sun, shielding organisms on Earth\'s surface from its harmful effects.',
+      diveDeep: 'The stratosphere contains a concentration of ozone gas that absorbs UV radiation, which warms the stratosphere itself. This absorption is crucial because UV radiation can cause DNA damage, skin cancers, and cataracts. Students can reference the Selected Properties of Earth\'s Atmosphere chart in the ESRT to locate the ozone layer near the stratosphere.',
     },
     {
       number: 16,
@@ -217,6 +247,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 0,
+      explanation: 'The correct choice is 0 because monsoons are seasonal wind shifts caused by temperature differences between the landmass of Asia and the surrounding Indian Ocean, resulting in heavy rains during the summer.',
+      diveDeep: 'During the summer, the landmass of India heats up faster than the Indian Ocean, creating a large thermal low-pressure area over land. This draws in warm, moisture-laden maritime winds from the high-pressure area over the ocean. In the winter, the pattern reverses as the land cools rapidly, producing dry, offshore winds.',
     },
     {
       number: 17,
@@ -231,6 +263,8 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-august-2019/q17.png',
+      explanation: 'The correct choice is 1 because as air is forced over a mountain range, it cools and precipitates on the windward side (X), leaving the air warm and dry as it sinks and compresses on the leeward side (Y).',
+      diveDeep: 'This phenomenon is known as the orographic effect or rain shadow effect. On the windward side, rising air undergoes adiabatic cooling, leading to condensation, cloud formation, and precipitation. Once the air passes the peak, it descends on the leeward side, undergoing adiabatic warming by compression, which results in a warm, arid climate.',
     },
     {
       number: 18,
@@ -244,6 +278,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 1,
+      explanation: 'The correct choice is 1 because the Peru Current is a cool ocean current in the Southern Hemisphere that flows northward from high latitudes toward the equator (lower latitudes).',
+      diveDeep: 'Surface ocean currents are driven by global wind patterns and deflected by the Coriolis effect. The Surface Ocean Currents map in the ESRT indicates the temperature of currents using arrows. The Peru Current flows along the west coast of South America toward the equator, bringing cold water from polar regions to the tropics.',
     },
     {
       number: 19,
@@ -257,6 +293,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 0,
+      explanation: 'The correct choice is 0 because dark surfaces absorb more wavelengths of light, and rough textures create multiple reflections that increase the surface area available to absorb solar energy.',
+      diveDeep: 'Insolation (incoming solar radiation) is absorbed best by surfaces that are dark in color and rough in texture. Light-colored and smooth surfaces act as excellent reflectors, bouncing the light away. This concept is fundamental to understanding localized heating, microclimates, and the global energy budget.',
     },
     {
       number: 20,
@@ -270,6 +308,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 2,
+      explanation: 'The correct choice is 2 because intense solar heating at the equator causes warm air to expand, rise, and converge at the surface, creating a zone of low pressure known as the Intertropical Convergence Zone (ITCZ).',
+      diveDeep: 'The Planetary Wind and Moisture Belts in the ESRT shows that the equator (0° latitude) is a region of convergence and rising air. As warm, moist air converges and rises, it cools adiabatically, leading to condensation and frequent precipitation. This explains why the equator is dominated by tropical rainforests.',
     },
     {
       number: 21,
@@ -283,6 +323,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 0,
+      explanation: 'The correct choice is 0 because cyanobacteria (blue-green algae) in the Precambrian oceans produced oxygen as a byproduct of photosynthesis, which gradually accumulated in the atmosphere.',
+      diveDeep: 'The early atmosphere of Earth was composed of volcanic gases like carbon dioxide, nitrogen, and water vapor, with virtually no free oxygen. Over billions of years, early photosynthetic organisms, specifically cyanobacteria, released oxygen. This oxygen first saturated the oceans (forming banded iron formations) and then escaped into the atmosphere, allowing complex aerobic life to evolve.',
     },
     {
       number: 22,
@@ -296,6 +338,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 3,
+      explanation: 'The correct choice is 3 because placoderm fish existed only during the Silurian and Devonian periods (about 60 million years), which is a shorter duration than dinosaurs, trilobites, or ammonoids.',
+      diveDeep: 'By analyzing the Geologic History of New York State chart in the ESRT, students can determine the lifespans of these fossil groups. Trilobites spanned from the Cambrian to the Permian (~290 million years); ammonoids from the Devonian to the Cretaceous (~340 million years); dinosaurs from the Triassic to the Cretaceous (~186 million years); and placoderm fish from the Silurian to the Devonian (~60 million years).',
     },
     {
       number: 23,
@@ -309,6 +353,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 0,
+      explanation: 'The correct choice is 0 because for any geologic material or fossil to be an effective time marker (index fossil or key bed), it must have a wide geographic distribution and have formed during a brief, specific period of geologic time.',
+      diveDeep: 'A useful index fossil or volcanic ash layer allows geologists to correlate rock layers across distant regions. If the organism or event occurred over a long period, it cannot pinpoint a specific time. If it had a limited geographic range, it cannot link distant rock sequences. Eurypterus remipes, the New York State fossil, represents a short-lived species with wide distribution.',
     },
     {
       number: 24,
@@ -322,6 +368,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 2,
+      explanation: 'The correct choice is 2 because according to the Earthquake Travel Time chart in the ESRT, a P-wave travel time of 5 minutes corresponds to an epicenter distance of 2,600 km, where S-waves take about 9 minutes to arrive.',
+      diveDeep: 'To solve this problem, locate 5 minutes on the vertical axis (Travel Time) of the ESRT chart and find where it intersects the P-wave curve. Follow this point down to the horizontal axis to find the distance (approximately 2.6 × 10³ km, or 2,600 km). Then, follow that 2,600 km distance line vertically up to the S-wave curve, and read the corresponding travel time on the vertical axis, which is 9 minutes.',
     },
     {
       number: 25,
@@ -335,6 +383,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 3,
+      explanation: 'The correct choice is 3 because shear waves (S-waves) can only travel through solids, meaning they are completely absorbed by the liquid outer core and cannot reach the inner core.',
+      diveDeep: 'Earth\'s outer core is composed of liquid iron and nickel. Since liquids do not support shear stress, S-waves cannot propagate through the outer core, creating a large S-wave shadow zone on the side of Earth opposite an earthquake epicenter. P-waves, which are compressional waves, can travel through solids, liquids, and gases, and thus pass through the core, though they are refracted.',
     },
     {
       number: 26,
@@ -349,6 +399,8 @@ export default {
       topic: 'Geology',
       correct: 2,
       image: '/images/exams/es-august-2019/q26.png',
+      explanation: 'The correct choice is 2 because the fault line XY cuts through rock units E and F, meaning it must have occurred after they formed, but it is cut by the igneous intrusion A, indicating it occurred before the intrusion.',
+      diveDeep: 'The principle of cross-cutting relationships states that a fault or intrusion is younger than the rock layers it cuts through. Here, fault XY cuts through the older layers (E and F) at the bottom, so it is younger than them. However, since the igneous intrusion A cuts across the fault line without being offset, the faulting must have happened before unit A intruded.',
     },
     {
       number: 27,
@@ -363,6 +415,8 @@ export default {
       topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-august-2019/q27.png',
+      explanation: 'The correct choice is 0 because the principle of inclusions dictates that fragments of rock (granite inclusions) found inside another rock (sandstone) must be older than the host rock, meaning the granite inclusions are older than the sandstone but the same age as the source granite bedrock.',
+      diveDeep: 'Inclusions are older than the rock containing them because the source rock had to exist first in order to be eroded and incorporated into the younger sediment. Therefore, the fragments of granite are older than the sandstone matrix surrounding them. Since these fragments came directly from the pre-existing granite bedrock below, they share the same age as that bedrock.',
     },
     {
       number: 28,
@@ -377,6 +431,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 1,
       image: '/images/exams/es-august-2019/q28.png',
+      explanation: 'The correct choice is 1 because the Catskill Aqueduct begins in the Catskills (part of the Allegheny Plateau), crosses the Hudson-Mohawk Lowlands, cuts through the Hudson Highlands, and terminates in the Manhattan Prong where the Kensico Reservoir is located.',
+      diveDeep: 'Using the Generalized Landscape Regions of New York State map in the ESRT, students can trace a path from the Catskill Mountains (located in the Allegheny Plateau) southeastward toward New York City. The aqueduct must cross these distinct landscape provinces in order, from high plateau elevations to the lower-lying metamorphic rock regions of the Manhattan Prong.',
     },
     {
       number: 29,
@@ -391,6 +447,8 @@ export default {
       topic: 'Water Cycle',
       correct: 1,
       image: '/images/exams/es-august-2019/q29.png',
+      explanation: 'The correct choice is 1 because a watershed (or drainage basin) is the entire geographic area of land that drains all of its tributary streams and precipitation runoff into a single main river or body of water.',
+      diveDeep: 'Watersheds are defined by high-elevation divides that separate one drainage basin from another. All rain falling within the Oswego River watershed eventually drains into the Oswego River and lake system. Distractors like delta (depositional feature), water table (boundary of groundwater saturation), and floodplain (flat land adjacent to a river) refer to other distinct geological features.',
     },
     {
       number: 30,
@@ -403,8 +461,10 @@ export default {
         'D',
       ],
       topic: 'Geology',
-      correct: 2,
+      correct: 1,
       image: '/images/exams/es-august-2019/q30.png',
+      explanation: 'In a meandering stream, water flows slower on the inside of a curve, causing deposition. Point B represents the inside bend of a meander where deposition is greater than erosion.',
+      diveDeep: 'In a meandering river, water flows fastest on the outer bend (locations A and D), resulting in erosion and steep cutbanks. On the inner bend (location B), water velocity slows down, causing the river to deposit its sediment load and form point bars. Therefore, deposition is greater than erosion on the inner bend B.',
     },
     {
       number: 31,
@@ -418,6 +478,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'The correct choice is 3 because tropical areas have a warm, humid climate that accelerates chemical weathering and supports abundant plant and animal life, which breaks down rock and adds organic matter to the soil.',
+      diveDeep: 'Soil development is heavily dependent on climate and biological activity. High temperatures and abundant moisture in the tropics speed up chemical reactions, leading to rapid weathering of bedrock. The dense vegetation and soil organisms decompose rapidly, incorporating organic material (humus) into the soil. In contrast, cold, dry arctic climates experience slow physical weathering and minimal organic activity.',
     },
     {
       number: 32,
@@ -431,6 +493,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'The correct choice is 0 because glacial advances during the Pleistocene Epoch carved deep, U-shaped valleys that were subsequently blocked at their southern ends by piles of glacial debris (moraines), trapping water to form the Finger Lakes.',
+      diveDeep: 'The Finger Lakes of central New York are classic examples of glacial gouging. As the continental ice sheets advanced, they deepened existing river valleys. When the ice melted and retreated, terminal and recessional moraines acted as natural dams, blocking the meltwater within these steep U-shaped troughs.',
     },
     {
       number: 33,
@@ -444,6 +508,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'The correct choice is 3 because gabbro is a coarse-grained, mafic igneous rock that is composed of plagioclase feldspar, pyroxene, and olivine, which matches the mineral composition of the beach sand.',
+      diveDeep: 'The Scheme for Igneous Rock Identification in the ESRT lists the mineral compositions of igneous rocks. Under the mafic category, gabbro (and its extrusive equivalent, basalt) is shown to contain plagioclase feldspar, pyroxene, olivine, and biotite/amphibole. Granite is felsic and contains quartz and potassium feldspar. Dunite is monomineralic (100% olivine), and peridotite is ultramafic and lacks significant plagioclase.',
     },
     {
       number: 34,
@@ -457,6 +523,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 2,
+      explanation: 'The correct choice is 2 because graphite has a very low hardness on Mohs hardness scale (1 to 2), allowing it to easily rub off onto paper, and leaves a dark gray streak (the mark left on the page).',
+      diveDeep: 'Graphite is a mineral form of carbon. Its weak intermolecular bonds between layers give it a low hardness, making it soft enough to leave a mark. The color of a mineral\'s powder, known as its streak, is gray to black for graphite. Students can locate these properties in the Properties of Common Minerals table in the ESRT.',
     },
     {
       number: 35,
@@ -470,6 +538,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'The correct choice is 3 because hematite is iron oxide with the chemical formula Fe₂O₃, containing two iron atoms and three oxygen atoms.',
+      diveDeep: 'According to the Properties of Common Minerals table in the ESRT, the chemical composition of hematite is listed as Fe₂O₃. Magnetite is another iron oxide but has the chemical formula Fe₃O₄ (three iron, four oxygen). Pyrite is iron sulfide (FeS₂), and garnet is a complex silicate mineral.',
     },
     // Part B-1: Questions 36–38 are based on a map showing the locations of Jamestown, Watertown, and Kingston in New York State.
     {
@@ -486,6 +556,8 @@ export default {
       topic: 'Astronomy',
       correct: 3,
       image: '/images/exams/es-august-2019/q36.png',
+      explanation: 'The correct choice is 3 because Jamestown is located west of Kingston, and since Earth rotates from west to east at 15°/hour, Jamestown will experience sunrise approximately 20 minutes later.',
+      diveDeep: 'Earth\'s rotation rate is 15 degrees per hour, which translates to 1 degree every 4 minutes. By referencing the latitudes and longitudes of Kingston (~74°W) and Jamestown (~79°W) on the New York State map in the ESRT, there is approximately a 5-degree difference in longitude. Since Jamestown is further west, it must rotate into the Sun\'s light later, making its sunrise about 5 × 4 = 20 minutes later.',
     },
     {
       number: 37,
@@ -501,6 +573,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-august-2019/q37.png',
+      explanation: 'The correct choice is 0 because the altitude of Polaris in the sky is equal to the latitude of the observer in the Northern Hemisphere, and Watertown is located at approximately 44° N latitude.',
+      diveDeep: 'Polaris, the North Star, is aligned with Earth\'s rotational axis above the North Pole. Because of this geometry, the angle of Polaris above the horizon (its altitude) matches the observer\'s latitude. By finding Watertown on the Generalized Landscape Regions of New York State map in the ESRT, students can read its latitude as approximately 43°58\' N, which rounds to 44°.',
     },
     {
       number: 38,
@@ -516,6 +590,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-august-2019/q38.png',
+      explanation: 'The correct choice is 0 because Earth\'s rotation rate of 15°/hour establishes the basis for time zones and longitude lines, which are calculated based on the difference between local solar time and Prime Meridian time.',
+      diveDeep: 'Because Earth rotates 360° on its axis in 24 hours, it turns 15° every hour. Longitude is directly related to time; a difference of one hour in solar time between two locations represents 15° of longitude. This connection between rotation and longitude is a cornerstone of celestial navigation and timekeeping systems.',
     },
     // Part B-1: Questions 39–41 are based on the passage and photograph about the Patagonia Marble Caves found in South America.
     {
@@ -532,6 +608,8 @@ export default {
       topic: 'Maps',
       correct: 2,
       image: '/images/exams/es-august-2019/q39.png',
+      explanation: 'The correct choice is 2 because point C on the map corresponds to a latitude of 46.5° S and a longitude of 72° W, which matches the location of the Patagonia Marble Caves.',
+      diveDeep: 'Map coordinates in the Southern Hemisphere increase in value as you move south (downwards), and coordinates in the Western Hemisphere increase as you move west (leftwards). Point C lies south of the equator in South America, near the southern tip of Chile/Argentina, and aligns with 46.5° S and 72° W. Students must carefully track the compass directions and grid increments on the global coordinate map.',
     },
     {
       number: 40,
@@ -546,6 +624,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'The correct choice is 0 because marble is a metamorphic rock that forms when pre-existing limestone or dolostone bedrock is recrystallized under intense heat and pressure.',
+      diveDeep: 'Marble is classified as a non-foliated metamorphic rock in the Scheme for Metamorphic Rock Identification in the ESRT. The intense heat and pressure recrystallize the carbonate minerals, making them more interlocking. In contrast, compaction and cementation form sedimentary rocks, while melting and solidification form igneous rocks.',
     },
     {
       number: 41,
@@ -560,6 +640,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'The correct choice is 1 because marble is formed from the metamorphism of limestone or dolostone, which consist primarily of the carbonate minerals calcite (CaCO₃) and dolomite (CaMg(CO₃)₂).',
+      diveDeep: 'The Scheme for Metamorphic Rock Identification in the ESRT lists the composition of marble as calcite and/or dolomite. These minerals react (fizz) when exposed to hydrochloric acid, a diagnostic characteristic inherited by marble. Quartz and potassium feldspar are typical of quartzite or granitic rocks, while halite forms rock salt.',
     },
     // Part B-1: Questions 42–44 are based on photographs showing a digital weather device and two weather instruments (A and B).
     {
@@ -576,6 +658,8 @@ export default {
       topic: 'Meteorology',
       correct: 2,
       image: '/images/exams/es-august-2019/q42.png',
+      explanation: 'The correct choice is 2 because the digital device displays a pressure of 1003.0 millibars, which converts directly to 29.62 inches of mercury on the ESRT weather pressure conversion chart.',
+      diveDeep: 'To convert air pressure between millibars (mb) and inches of mercury (in of Hg), students must use the Pressure scale on the Key to Weather Map Symbols page of the ESRT. Locating 1003.0 mb on the right side of the scale aligns directly with 29.62 inches on the left side of the scale. Careful alignment between the two vertical scales is key to avoiding interpolation errors.',
     },
     {
       number: 43,
@@ -591,6 +675,8 @@ export default {
       topic: 'Meteorology',
       correct: 2,
       image: '/images/exams/es-august-2019/q43.png',
+      explanation: 'The correct choice is 2 because with an outside temperature of 26°C (79°F) and a relative humidity of 60%, the dewpoint is approximately 18°C.',
+      diveDeep: 'The dewpoint is the temperature to which air must be cooled to become saturated. Using the Dewpoint Temperature table in the ESRT, locate the dry-bulb temperature (air temperature) of 26°C. Since relative humidity is 60%, students can determine the difference between dry-bulb and wet-bulb temperatures using the Relative Humidity table to trace the corresponding dewpoint value of 18°C.',
     },
     {
       number: 44,
@@ -606,6 +692,8 @@ export default {
       topic: 'Meteorology',
       correct: 0,
       image: '/images/exams/es-august-2019/q44.png',
+      explanation: 'The correct choice is 0 because instrument A is a wind vane, which points into the wind to measure wind direction, and instrument B is an anemometer, which has rotating cups that spin to measure wind speed.',
+      diveDeep: 'Weather stations use various instruments to gather meteorology data. A wind vane (Instrument A) has a tail that aligns with the wind, indicating the direction from which the wind blows. An anemometer (Instrument B) uses the force of the wind on cups to calculate wind speed. Distinguishing these physical designs is a common practical exam question.',
     },
     // Part B-1: Questions 45–47 are based on diagrams of a Foucault pendulum and the Coriolis effect on planetary winds.
     {
@@ -622,6 +710,8 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       image: '/images/exams/es-august-2019/q45.png',
+      explanation: 'The correct choice is 2 because both the apparent rotation of a Foucault pendulum\'s path and the deflection of winds (Coriolis effect) are direct, observable proofs of Earth\'s rotation on its axis.',
+      diveDeep: 'Because Earth rotates underneath a swinging pendulum, the path of the pendulum appears to shift clockwise in the Northern Hemisphere, even though the pendulum is swinging in a fixed plane. Similarly, the Coriolis effect deflects moving objects (like winds and ocean currents) to the right in the Northern Hemisphere and to the left in the Southern Hemisphere, which is also a result of Earth\'s rotation.',
     },
     {
       number: 46,
@@ -637,6 +727,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-august-2019/q46.png',
+      explanation: 'The correct choice is 0 because dividing the total apparent displacement of the pendulum\'s swing (60 degrees) by the total elapsed time (8 hours) yields a rate of 7.5°/hour.',
+      diveDeep: 'The rate of change is calculated using the formula: rate = change in field value / time. In this case, 60° of displacement divided by 8 hours equals 7.5 degrees per hour. Students should note that this rate varies with latitude (being 15°/hour at the poles and 0°/hour at the equator), meaning this experiment was performed at a latitude of approximately 30°.',
     },
     {
       number: 47,
@@ -652,6 +744,8 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-august-2019/q47.png',
+      explanation: 'The correct choice is 1 because the deflected winds shown are the westerlies, which blow from the southwest to the northeast in the Northern Hemisphere (Southwest winds) and from the northwest to the southeast in the Southern Hemisphere (Northwest winds).',
+      diveDeep: 'Using the Planetary Wind and Moisture Belts diagram in the ESRT, the winds between 30° and 60° latitude in both hemispheres are westerlies. In the Northern Hemisphere, these winds blow from the southwest (Southwest winds), and in the Southern Hemisphere, they blow from the northwest (Northwest winds). Wind direction is always named after the direction from which the wind blows.',
     },
     // Part B-1: Questions 48–50 are based on a cross section showing the boundary between the Juan de Fuca Plate and the North American Plate.
     {
@@ -668,6 +762,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 3,
       image: '/images/exams/es-august-2019/q48.png',
+      explanation: 'The correct choice is 3 because subduction is driven by gravity pulling the cold, dense oceanic plate down into the mantle, which corresponds to downward-directed mantle convection currents at the plate boundary.',
+      diveDeep: 'Mantle convection is the driving force of plate tectonics. At convergent plate boundaries where subduction occurs, the sinking slab pulls the mantle downward. At divergent boundaries, upward convection occurs. Students must identify the convergent boundary and match the downward arrow direction underneath the subduction zone.',
     },
     {
       number: 49,
@@ -683,6 +779,8 @@ export default {
       topic: 'Geology',
       correct: 3,
       image: '/images/exams/es-august-2019/q49.png',
+      explanation: 'The correct choice is 3 because oceanic crust (Juan de Fuca Plate), composed primarily of basalt, is thinner (5–10 km) and denser (3.0 g/cm³) than continental crust (North American Plate), which is granitic, thicker (up to 70 km), and less dense (2.7 g/cm³).',
+      diveDeep: 'The "Inferred Properties of Earth\'s Interior" and "Lithosphere" descriptions in the ESRT explain that continental crust is thick and made of granite (density 2.7 g/cm³), whereas oceanic crust is thin and made of basalt (density 3.0 g/cm³). Because the oceanic plate is denser, it subducts beneath the less dense continental plate.',
     },
     {
       number: 50,
@@ -698,6 +796,8 @@ export default {
       topic: 'Geology',
       correct: 1,
       image: '/images/exams/es-august-2019/q50.png',
+      explanation: 'The correct choice is 1 because the asthenosphere (plastic mantle) extends from the base of the lithosphere down to a depth of approximately 700 km, where it meets the stiffer mantle.',
+      diveDeep: 'The Selected Properties of Earth\'s Interior chart in the ESRT lists the layers of Earth\'s interior and their depths. By locating the plastic mantle (asthenosphere) on the chart, students can read that its lower boundary with the stiffer mantle occurs at approximately 700 km depth. This depth is marked by a line separating the two layers in the density and pressure graphs.',
     },
   ],
 }
