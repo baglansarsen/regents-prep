@@ -15,6 +15,8 @@ node_modules/
 /.firebase/
 /dist/
 /handsoff.md
+/chromebook/
+/shared/
 
 # Web app source — the mobile app is fully self-contained in mobile/
 /src/
