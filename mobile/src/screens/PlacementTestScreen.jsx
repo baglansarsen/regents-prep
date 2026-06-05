@@ -31,6 +31,10 @@ import * as geoData   from '../content/geometry/index'
 import * as lsData    from '../content/life-science/index'
 import { T, duoBtn, duoBtnOutline, cardShadow, elevatedCard } from '../styles/duo'
 
+import * as enData from '../content/english/index'
+import * as ghData from '../content/global-history/index'
+import * as usData from '../content/us-history/index'
+
 const SUBJECT_DATA = {
   'living-environment': leData,
   'earth-science':      esData,
@@ -40,6 +44,9 @@ const SUBJECT_DATA = {
   'algebra-2':          a2Data,
   'geometry':           geoData,
   'life-science':       lsData,
+  'english':            enData,
+  'global-history':     ghData,
+  'us-history':         usData,
 }
 
 const { width: W } = Dimensions.get('window')
@@ -123,11 +130,11 @@ export default function PlacementTestScreen({ onComplete }) {
   const { history, saveResult } = useProgress(uid)
 
   const sd = SUBJECT_DATA[subject] ?? leData
-  const { forceUnlock } = useUnlocks(history, sd.TOPIC_ORDER, subject)
+  const { forceUnlock } = useUnlocks(history, sd.TOPIC_ORDER ?? [], subject)
   const s = makeStyles(C)
 
   const questionSet = useMemo(
-    () => buildPlacementSet(sd.TOPIC_ORDER, sd.questions),
+    () => buildPlacementSet(sd.TOPIC_ORDER ?? [], sd.questions ?? []),
     [subject]   // rebuild if subject changes (shouldn't happen mid-test, but safe)
   )
   const total = questionSet.length
@@ -213,6 +220,12 @@ export default function PlacementTestScreen({ onComplete }) {
     try {
       await AsyncStorage.setItem(`@placementDone_v1_${uid}`, '1')
     } catch {}
+  }
+
+  // Exam-only subjects (humanities) have no practice questions — skip placement test
+  if (total === 0) {
+    markDone().then(() => onComplete?.())
+    return null
   }
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -366,7 +379,7 @@ export default function PlacementTestScreen({ onComplete }) {
   // RENDER: RESULTS
   // ─────────────────────────────────────────────────────────────────────────
   const topicScores  = scoreByTopic(questionSet, answers)
-  const unlockedList = sd.TOPIC_ORDER.filter((t) => {
+  const unlockedList = (sd.TOPIC_ORDER ?? []).filter((t) => {
     const sc = topicScores[t]
     if (!sc) return false
     return Math.round((sc.correct / sc.total) * 100) >= UNLOCK_PCT
@@ -410,7 +423,7 @@ export default function PlacementTestScreen({ onComplete }) {
         <Text style={[T.label, { color: C.textMuted, alignSelf: 'stretch', textAlign: 'left', marginBottom: 8, marginTop: 4 }]}>
           Topic Breakdown
         </Text>
-        {sd.TOPIC_ORDER.map((topic) => {
+        {(sd.TOPIC_ORDER ?? []).map((topic) => {
           const sc       = topicScores[topic]
           const icon     = sd.TOPIC_ICONS?.[topic] ?? '📖'
           const tested   = !!sc

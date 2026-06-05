@@ -5,8 +5,31 @@ import { useTheme } from '../context/ThemeContext'
 import { analyzeExamResults } from '../utils/topicAnalysis'
 import { saveExamScore } from '../hooks/useExamScores'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
-import * as leData from '../content/living-environment/index'
-import * as esData from '../content/earth-science/index'
+import * as leData   from '../content/living-environment/index'
+import * as esData   from '../content/earth-science/index'
+import * as chemData from '../content/chemistry/index'
+import * as physData from '../content/physics/index'
+import * as a1Data   from '../content/algebra-1/index'
+import * as a2Data   from '../content/algebra-2/index'
+import * as geoData  from '../content/geometry/index'
+import * as lsData   from '../content/life-science/index'
+import * as enData   from '../content/english/index'
+import * as ghData   from '../content/global-history/index'
+import * as usData   from '../content/us-history/index'
+
+const EXAM_SUBJECT_DATA = {
+  'living-environment': leData,
+  'earth-science':      esData,
+  'chemistry':          chemData,
+  'physics':            physData,
+  'algebra-1':          a1Data,
+  'algebra-2':          a2Data,
+  'geometry':           geoData,
+  'life-science':       lsData,
+  'english':            enData,
+  'global-history':     ghData,
+  'us-history':         usData,
+}
 import { SUBJECTS } from '../content/subjects'
 
 // ⚠️ ESTIMATE ONLY — not an official NY Regents conversion.
@@ -80,7 +103,7 @@ export default function ExamResultsScreen({ route, navigation }) {
   const topPriority = weakTopics.slice(0, 2).map((t) => t.topic).join(', ')
 
   function studyTopic(topicName) {
-    const sd = exam.subject === SUBJECTS.EARTH_SCIENCE ? esData : leData
+    const sd = EXAM_SUBJECT_DATA[exam.subject] ?? leData
     const pool = sd.getByTopic ? sd.getByTopic(topicName) : []
     if (!pool?.length) {
       navigation.navigate('Main', { screen: 'StudyTab' })

@@ -10,6 +10,7 @@ import { useXP } from '../hooks/useXP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { appendMistakes } from '../hooks/useMistakes'
 import { usePetContext } from '../context/PetContext'
+import { hapticTick } from '../utils/haptics'
 
 const EXAM_MINUTES = 85
 const CDN_BASE = 'https://regents-prep.web.app'
@@ -146,6 +147,7 @@ export default function ExamScreen({ route, navigation }) {
         <View style={s.qHeader}>
           <Text style={s.qNum}>Question {currentIdx + 1} of {questions.length}</Text>
           <TouchableOpacity onPress={() => {
+            hapticTick()
             setFlagged((prev) => {
               const next = new Set(prev)
               next.has(currentIdx) ? next.delete(currentIdx) : next.add(currentIdx)
@@ -173,6 +175,7 @@ export default function ExamScreen({ route, navigation }) {
             <TouchableOpacity
               style={[s.choice, answers[currentIdx] === idx && s.choiceSelected]}
               onPress={() => {
+                hapticTick()
                 animateChoice(idx)
                 setAnswers((a) => ({ ...a, [currentIdx]: idx }))
               }}

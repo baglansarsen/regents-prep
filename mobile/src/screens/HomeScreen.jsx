@@ -26,6 +26,9 @@ import * as algebra1Data from '../content/algebra-1/index'
 import * as algebra2Data from '../content/algebra-2/index'
 import * as geometryData from '../content/geometry/index'
 import * as lifeScienceData from '../content/life-science/index'
+import * as englishData from '../content/english/index'
+import * as globalHistoryData from '../content/global-history/index'
+import * as usHistoryData from '../content/us-history/index'
 import { STRATEGY_CATEGORIES } from '../content/strategies-meta'
 import { T, duoBtn, duoBtnOutline, cardShadow, elevatedCard, sectionLabel } from '../styles/duo'
 import GoalRing from '../components/GoalRing'
@@ -73,6 +76,9 @@ export default function HomeScreen({ navigation }) {
     [SUBJECTS.ALGEBRA_2]:     algebra2Data,
     [SUBJECTS.GEOMETRY]:      geometryData,
     [SUBJECTS.LIFE_SCIENCE]:  lifeScienceData,
+    [SUBJECTS.ENGLISH]:       englishData,
+    [SUBJECTS.GLOBAL_HISTORY]:globalHistoryData,
+    [SUBJECTS.US_HISTORY]:    usHistoryData,
   }
   const sd = mobileSubjectMap[subject] ?? leData
 
@@ -211,6 +217,10 @@ export default function HomeScreen({ navigation }) {
     'algebra-1':          'Algebra 1',
     'algebra-2':          'Algebra 2',
     'geometry':           'Geometry',
+    'life-science':       'Life Science',
+    'english':            'English',
+    'global-history':     'Global History',
+    'us-history':         'US History',
   }[subject] ?? 'Regents'
 
   const idleMessages = pet.petType ? {
@@ -376,11 +386,13 @@ export default function HomeScreen({ navigation }) {
 
   function startStimulusPractice(unit) {
     const questionSet = sd.getExamContextQuestions(unit.topic)
+    if (!questionSet.length) return
     livesGate(() => navigation.navigate('Quiz', { questionSet, topic: unit.topic, subject, lessonIndex: null }))
   }
 
   function startQuiz(topic) {
     const pool = topic ? sd.getByTopic(topic) : sd.questions
+    if (!pool.length) return
     const shuffled = [...pool].sort(() => Math.random() - 0.5)
     livesGate(() => navigation.navigate('Quiz', { questionSet: shuffled, topic, subject }))
   }
@@ -391,12 +403,14 @@ export default function HomeScreen({ navigation }) {
 
   function startStudy(topic) {
     const pool = topic ? sd.getByTopic(topic) : sd.questions
+    if (!pool.length) return
     closeSheet(() => navigation.navigate('Study', { questionSet: pool, subject }))
   }
 
   function startSkipChallenge(unit, unitIdx) {
     const prev = units[unitIdx - 1]
     const pool = sd.getByTopic(prev?.topic ?? unit.topic).sort(() => Math.random() - 0.5).slice(0, 15)
+    if (!pool.length) return
     navigation.navigate('SkipChallenge', {
       topic: unit.topic,
       prereqTopic: prev?.topic ?? unit.topic,
@@ -422,6 +436,7 @@ export default function HomeScreen({ navigation }) {
 
   function startSpeedRound() {
     const pool = [...sd.questions].sort(() => Math.random() - 0.5).slice(0, 30)
+    if (!pool.length) return
     navigation.navigate('SpeedRound', { questionSet: pool, subject })
   }
 

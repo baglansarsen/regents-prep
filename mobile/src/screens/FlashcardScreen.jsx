@@ -13,6 +13,7 @@ import * as alg2Data from '../content/algebra-2/index'
 import * as geomData from '../content/geometry/index'
 import * as lsData from '../content/life-science/index'
 import { SUBJECTS } from '../content/subjects'
+import { hapticTick, hapticSuccess, hapticWarning } from '../utils/haptics'
 
 const { width } = Dimensions.get('window')
 
@@ -73,11 +74,15 @@ export default function FlashcardScreen({ route, navigation }) {
 
   function flip() {
     if (flipped) return
+    hapticTick()
     Animated.spring(flipAnim, { toValue: 1, useNativeDriver: true }).start()
     setFlipped(true)
   }
 
   function rate(quality) {
+    if (quality === Q_AGAIN) hapticWarning()
+    else if (quality === Q_HARD) hapticTick()
+    else hapticSuccess()
     if (card) review(card.id, quality)
     flipAnim.setValue(0)
     setFlipped(false)

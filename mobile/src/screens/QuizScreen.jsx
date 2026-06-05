@@ -20,6 +20,8 @@ import { T, duoBtn, cardShadow } from '../styles/duo'
 import PetWidget from '../components/PetWidget'
 import StudyBuddyCompanion from '../components/StudyBuddyCompanion'
 import { useStudyTime } from '../hooks/useStudyTime'
+import { hapticTick, hapticSuccess, hapticWarning } from '../utils/haptics'
+import { useQuizSound } from '../hooks/useQuizSound'
 
 const LETTERS = ['A', 'B', 'C', 'D']
 const CDN_BASE = 'https://regents-prep.web.app'
@@ -49,6 +51,7 @@ export default function QuizScreen({ route, navigation }) {
   const { ready: adReady, showAd } = useRewardedAd({ onReward: addLife })
   const { checkAndEvolve, triggerReaction, updateQuestProgress, getPetMessage, studyBoost, pet } = usePetContext()
   const { say } = useSpeechContext()
+  const { playCorrect, playWrong } = useQuizSound()
 
   const [showBubble,    setShowBubble]    = useState(false)
   const [buddyMessage,  setBuddyMessage]  = useState(null)
@@ -147,9 +150,13 @@ export default function QuizScreen({ route, navigation }) {
       const correctIdx = currentQuestion?.correct ?? currentQuestion?.correctIndex
       const wasCorrect = selected !== 'timeout' && selected === correctIdx
       if (wasCorrect) {
+        hapticSuccess()
+        playCorrect()
         triggerReaction('cheer')
         animatePetCorrect()
       } else {
+        hapticWarning()
+        playWrong()
         loseLife()
         triggerReaction('sad')
         animatePetIncorrect()
@@ -321,7 +328,7 @@ export default function QuizScreen({ route, navigation }) {
               <TouchableOpacity
                 key={idx}
                 style={choiceStyle(idx)}
-                onPress={() => phase === 'answering' && answer(idx)}
+                onPress={() => { if (phase !== 'answering') return; hapticTick(); answer(idx) }}
                 activeOpacity={0.75}
                 disabled={phase !== 'answering'}
               >

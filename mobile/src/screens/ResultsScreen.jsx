@@ -15,6 +15,9 @@ import * as a1Data   from '../content/algebra-1/index'
 import * as a2Data   from '../content/algebra-2/index'
 import * as geoData  from '../content/geometry/index'
 import * as lsData   from '../content/life-science/index'
+import * as enData   from '../content/english/index'
+import * as ghData   from '../content/global-history/index'
+import * as usData   from '../content/us-history/index'
 
 const SUBJECT_DATA = {
   'living-environment': leData,
@@ -25,6 +28,9 @@ const SUBJECT_DATA = {
   'algebra-2':          a2Data,
   'geometry':           geoData,
   'life-science':       lsData,
+  'english':            enData,
+  'global-history':     ghData,
+  'us-history':         usData,
 }
 
 // Compute metadata for the lesson AFTER nextLessonMeta, so the chain continues past one hop
