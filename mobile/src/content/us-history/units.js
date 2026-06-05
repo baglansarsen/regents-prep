@@ -6,11 +6,9 @@ import usJan2025 from '../regents-exams/us-history/january-2025'
 import usJan2024 from '../regents-exams/us-history/january-2024'
 import usAug2023 from '../regents-exams/us-history/august-2023'
 import usJun2023 from '../regents-exams/us-history/june-2023'
-import usJan2023 from '../regents-exams/us-history/january-2023'
 
 const EXAMS = [
   usJun2025, usJan2026, usAug2024, usJun2024, usJan2025, usJan2024, usAug2023, usJun2023,
-  usJan2023,
 ]
 
 export const UNITS = [
