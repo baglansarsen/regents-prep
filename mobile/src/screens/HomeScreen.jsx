@@ -541,7 +541,7 @@ export default function HomeScreen({ navigation }) {
           <View style={{ flex: 1 }}>
             <Text style={[T.h1, { color: C.text }]}>Good {timeOfDay()} 👋</Text>
             <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-              {user?.displayName?.split(' ')[0] ?? 'Student'} · {getLevel(xp).name}
+              {user?.displayName?.split(' ')[0] ?? 'Student'} · {getLevel(rp).name}
             </Text>
             <Text style={[T.small, { color: daysToExam <= 14 ? C.wrong : C.textMuted, marginTop: 3 }]}>
               {examLabel}
