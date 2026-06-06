@@ -121,78 +121,85 @@ export const QUESTIONS = [
   },
 ];
 
-// Pet result configurations
+// Pet result configurations — mapped to production pets
+// Matching: Dog→Fox, Parrot→Bunny, Cat→VoidCat, Rabbit→Axolotl, Fish→Capybara, Hamster→Bear
 export const PET_RESULTS = {
   dog: {
-    name: 'Dog',
-    emoji: '🐶',
-    tagline: 'Loyal, energetic, and ready for adventure!',
+    petType: 'fox',
+    name: 'Fox',
+    emoji: '🦊',
+    tagline: 'Sleek, focused, and naturally charismatic.',
     description:
-      "You're a natural people-person with a warm heart. You thrive on connection, bring energy to every room, and genuinely care about the people around you. You're the friend everyone wants at their side.",
+      "You're a natural people-person with sharp instincts and infectious energy. You thrive on connection, bring focus to every room, and genuinely motivate those around you. You're the friend everyone wants on their study team.",
     tips: [
-      "Schedule regular social hangouts—they're fuel for your soul",
-      'Lead group projects and team activities where you shine',
-      'Balance your social calendar with meaningful one-on-one time',
+      'Channel your social energy into group study sessions',
+      'Lead study groups and help others sharpen their focus',
+      'Use your charisma to inspire consistent habits',
     ],
   },
   cat: {
-    name: 'Cat',
+    petType: 'voidCat',
+    name: 'Void Cat',
     emoji: '🐱',
-    tagline: 'Independent, curious, and wonderfully unique.',
+    tagline: 'Independent, mysterious, and brilliantly introspective.',
     description:
-      "You march to the beat of your own drum. You're creative, introspective, and drawn to novel ideas that others might overlook. You value your independence and prefer depth over constant socializing.",
+      "You march to the beat of your own drum. You're intellectually curious, drawn to novel ideas others overlook, and you excel at deep, independent analysis. You value your solitude—it's where the real thinking happens.",
     tips: [
-      "Protect your alone time—it's where your best ideas come from",
-      'Seek out niche communities that share your quirky interests',
-      'Share your unique perspective; the world needs it',
+      "Protect your alone study time—it's where breakthroughs happen",
+      'Trust your unconventional approach to problems',
+      'Share your unique insights; they're often right',
     ],
   },
   parrot: {
-    name: 'Parrot',
-    emoji: '🐦',
-    tagline: 'Playful, social, and full of personality.',
+    petType: 'bunny',
+    name: 'Bunny',
+    emoji: '🐰',
+    tagline: 'Quick, playful, and endlessly curious.',
     description:
-      "You're the life of the party with a curious mind that's always seeking the next big adventure. You love trying new things, making people laugh, and diving into conversations about almost anything.",
+      "You're the energizer of any study session with a mind that bounces between ideas brilliantly. You love experimenting with new approaches, making learning fun, and diving deep into topics that fascinate you. Your curiosity is your superpower.",
     tips: [
-      'Channel your energy into creative projects or learning new skills',
-      'Find friends who match your enthusiasm and sense of play',
-      'Balance your active schedule with occasional quiet time to reflect',
+      'Use quick study sprints to match your natural pace',
+      'Find study partners who share your enthusiasm',
+      'Balance fast learning with time to consolidate concepts',
     ],
   },
   rabbit: {
-    name: 'Rabbit',
-    emoji: '🐰',
-    tagline: 'Gentle, reliable, and deeply caring.',
+    petType: 'axolotl',
+    name: 'Axolotl',
+    emoji: '🦎',
+    tagline: 'Gentle, reliable, and deeply empathetic.',
     description:
-      "You're the calm presence people turn to in a storm. You value routine, take your responsibilities seriously, and show up consistently for the people you care about. Your quiet strength is your superpower.",
+      "You're the steady presence everyone relies on. You value consistency, take your responsibilities seriously, and show up for others with genuine care. Your reliability and empathy make you an incredible study partner—people trust you completely.",
     tips: [
-      'Trust that your steady approach gets results over time',
-      'Share your empathy—people need your kindness more than you know',
-      'Occasionally try something outside your comfort zone to grow',
+      'Your steady approach builds real mastery over time',
+      'Help others when you can—your kindness strengthens understanding',
+      'Occasionally push yourself beyond your comfort zone to grow',
     ],
   },
   fish: {
-    name: 'Fish',
-    emoji: '🐠',
-    tagline: 'Calm, thoughtful, and serene.',
+    petType: 'capybara',
+    name: 'Capybara',
+    emoji: '🦫',
+    tagline: 'Calm, methodical, and naturally serene.',
     description:
-      "You're a natural at staying grounded and composed. You think things through carefully, appreciate structure, and find peace in routines that work. You're the steady anchor that keeps others sane.",
+      "You're a natural at staying grounded and composed under pressure. You think things through carefully, appreciate structure, and find your best learning happens in peaceful, organized environments. You're the calm anchor that steadies everyone around you.",
     tips: [
-      'Create a calm environment that lets you thrive',
-      'Develop systems and processes that minimize stress',
-      'Remember that your peaceful demeanor is a gift to others',
+      'Create a calm, distraction-free study space',
+      'Use systematic study methods that match your nature',
+      'Share your peaceful perspective with stressed friends',
     ],
   },
   hamster: {
-    name: 'Hamster',
-    emoji: '🐹',
-    tagline: 'Low-key, observant, and perfectly content.',
+    petType: 'bear',
+    name: 'Bear',
+    emoji: '🐻',
+    tagline: 'Grounded, observant, and dependably solid.',
     description:
-      "You're happiest in a quiet, drama-free life where you can do your own thing. You're observant, unflappable, and don't need much fanfare to be happy—just some space and peace.",
+      "You're happy doing things at your own pace, in your own way. You're observant and thoughtful, don't need constant external validation, and build strength through steady, solo progress. Your independent learning style is completely valid and effective.",
     tips: [
-      'Design a life that gives you the quiet and autonomy you need',
-      'Branch out socially when you feel like it—quality over quantity',
-      'Trust that your understated style is totally valid',
+      'Trust your solo learning process—it works',
+      'Set your own pace and celebrate quiet wins',
+      'Branch out to study groups when it feels right',
     ],
   },
 };
@@ -209,4 +216,15 @@ export function computePetMatch(scores) {
   if (C >= 4 && N < 3) return 'fish';
   // Default fallback
   return 'hamster';
+}
+
+// Get Big Five profile object with trait names and descriptions
+export function getBigFiveProfile(scores) {
+  return {
+    O: { score: scores.O, name: 'Openness', trait: 'curious, creative, loves novelty' },
+    C: { score: scores.C, name: 'Conscientiousness', trait: 'organized, reliable, plans ahead' },
+    E: { score: scores.E, name: 'Extraversion', trait: 'social, energetic, outgoing' },
+    A: { score: scores.A, name: 'Agreeableness', trait: 'empathetic, cooperative, kind' },
+    N: { score: scores.N, name: 'Neuroticism', trait: 'emotionally sensitive, anxious' },
+  };
 }
