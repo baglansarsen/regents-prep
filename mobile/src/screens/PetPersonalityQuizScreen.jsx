@@ -6,17 +6,19 @@ import {
   TouchableOpacity,
   Animated,
   ScrollView,
+  ActivityIndicator,
 } from 'react-native';
 import { useTheme } from '../context/ThemeContext';
 import { usePetContext } from '../context/PetContext';
 import { T, duoBtn, elevatedCard } from '../styles/duo';
 import { QUESTIONS, PET_RESULTS, computePetMatch } from '../data/petPersonality';
+import { DEFAULT_NAMES } from '../data/petConfig';
 
 const LETTER_COLORS = ['#1CB0F6', '#CE82FF', '#FF9600', '#FF4B4B'];
 
 export default function PetPersonalityQuizScreen({ navigation }) {
   const { C } = useTheme();
-  const { saveBigFiveScores } = usePetContext();
+  const { saveBigFiveScores, initializePet } = usePetContext();
   const styles = makeStyles(C);
 
   // State management
@@ -25,6 +27,7 @@ export default function PetPersonalityQuizScreen({ navigation }) {
   const [scores, setScores] = useState({ O: 0, C: 0, E: 0, A: 0, N: 0 });
   const [selectedChoice, setSelectedChoice] = useState(null);
   const [petResult, setPetResult] = useState(null);
+  const [adopting, setAdopting] = useState(false);
 
   const currentQuestion = QUESTIONS[questionIndex];
 
@@ -66,6 +69,21 @@ export default function PetPersonalityQuizScreen({ navigation }) {
     setSelectedChoice(null);
     setScores({ O: 0, C: 0, E: 0, A: 0, N: 0 });
     setPetResult(null);
+  };
+
+  // Adopt the recommended pet
+  const handleAdopt = async () => {
+    if (!petResult || adopting) return;
+    setAdopting(true);
+    try {
+      const randomName = DEFAULT_NAMES[Math.floor(Math.random() * DEFAULT_NAMES.length)];
+      await initializePet(petResult, randomName);
+      navigation.navigate('Home');
+    } catch (error) {
+      console.error('Failed to adopt pet:', error);
+    } finally {
+      setAdopting(false);
+    }
   };
 
   // --- INTRO PHASE ---
@@ -213,17 +231,32 @@ export default function PetPersonalityQuizScreen({ navigation }) {
           <View style={styles.buttonRow}>
             <TouchableOpacity
               style={duoBtn('#58CC02', '#3D8B02')}
-              onPress={handleRetake}
+              onPress={handleAdopt}
+              disabled={adopting}
+              activeOpacity={0.8}
             >
-              <Text style={[T.btn, { color: '#FFF' }]}>Retake Quiz</Text>
+              {adopting ? (
+                <ActivityIndicator size="small" color="#FFF" />
+              ) : (
+                <Text style={[T.btn, { color: '#FFF' }]}>Adopt This Pet 🐾</Text>
+              )}
             </TouchableOpacity>
           </View>
 
           <TouchableOpacity
             style={styles.backButton}
-            onPress={() => navigation.goBack()}
+            onPress={handleRetake}
+            disabled={adopting}
           >
-            <Text style={[T.body, { color: C.brand }]}>← Back</Text>
+            <Text style={[T.body, { color: C.brand, opacity: adopting ? 0.5 : 1 }]}>Retake Quiz</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={styles.backButton}
+            onPress={() => navigation.goBack()}
+            disabled={adopting}
+          >
+            <Text style={[T.body, { color: C.brand, opacity: adopting ? 0.5 : 1 }]}>← Back</Text>
           </TouchableOpacity>
         </ScrollView>
       </View>
