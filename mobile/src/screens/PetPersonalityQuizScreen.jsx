@@ -8,6 +8,7 @@ import {
   ScrollView,
 } from 'react-native';
 import { useTheme } from '../context/ThemeContext';
+import { usePetContext } from '../context/PetContext';
 import { T, duoBtn, elevatedCard } from '../styles/duo';
 import { QUESTIONS, PET_RESULTS, computePetMatch } from '../data/petPersonality';
 
@@ -15,6 +16,7 @@ const LETTER_COLORS = ['#1CB0F6', '#CE82FF', '#FF9600', '#FF4B4B'];
 
 export default function PetPersonalityQuizScreen({ navigation }) {
   const { C } = useTheme();
+  const { saveBigFiveScores } = usePetContext();
   const styles = makeStyles(C);
 
   // State management
@@ -45,10 +47,12 @@ export default function PetPersonalityQuizScreen({ navigation }) {
         setQuestionIndex(questionIndex + 1);
         setSelectedChoice(null);
       } else {
-        // Quiz complete
+        // Quiz complete — save Big Five scores and show result
         const pet = computePetMatch(newScores);
         setPetResult(pet);
         setPhase('result');
+        // Save Big Five scores to pet data
+        saveBigFiveScores(newScores).catch(() => {});
       }
     }, 800);
 

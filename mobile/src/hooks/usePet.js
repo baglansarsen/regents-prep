@@ -37,14 +37,15 @@ async function schedulePetNotification(title, body) {
 function clamp(v, min, max) { return Math.max(min, Math.min(max, v)) }
 
 const DEFAULT_PET = {
-  petType:      null,
-  name:         null,
-  stage:        1,
-  hunger:       100,
-  happiness:    100,
+  petType:       null,
+  name:          null,
+  stage:         1,
+  hunger:        100,
+  happiness:     100,
   lastCheckedAt: new Date().toISOString(),
-  accessories:  [],
-  chosen:       false,
+  accessories:   [],
+  chosen:        false,
+  bigFiveScores: null,  // { O, C, E, A, N } from personality quiz
 }
 
 export function usePet(uid) {
@@ -384,18 +385,25 @@ export function usePet(uid) {
     await savePet(updated)
   }, [])
 
+  // ─── saveBigFiveScores (called after personality quiz) ───────────────────
+  const saveBigFiveScores = useCallback(async (scores) => {
+    const updated = { ...petRef.current, bigFiveScores: scores }
+    await savePet(updated)
+  }, [])
+
   // ─── switchBuddy (called from PetShopScreen) ──────────────────────────────
   const switchBuddy = useCallback(async (newPetType) => {
     const currentName = petRef.current.name
     const newPet = {
-      petType:      newPetType,
-      name:         currentName,
-      stage:        1,
-      hunger:       100,
-      happiness:    100,
+      petType:       newPetType,
+      name:          currentName,
+      stage:         1,
+      hunger:        100,
+      happiness:     100,
       lastCheckedAt: new Date().toISOString(),
-      accessories:  [],
-      chosen:       true,
+      accessories:   [],
+      chosen:        true,
+      bigFiveScores: petRef.current.bigFiveScores ?? null,  // preserve Big Five if already set
     }
     await savePet(newPet)
   }, [])
@@ -422,5 +430,6 @@ export function usePet(uid) {
     dailyDig,
     getTodayQuest,
     updateQuestProgress,
+    saveBigFiveScores,
   }
 }
