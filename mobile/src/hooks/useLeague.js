@@ -21,7 +21,7 @@ import {
   doc, getDoc, setDoc, orderBy, limit,
 } from 'firebase/firestore'
 import { db } from '../firebase'
-import { getWeekKey } from './useXP'
+import { getWeekKey } from './useRP'
 
 // ── Tier definitions ──────────────────────────────────────────────────────────
 export const TIERS = ['bronze', 'silver', 'gold', 'diamond']
