@@ -39,6 +39,7 @@ import PetTriviaCard from '../components/PetTriviaCard'
 import { usePetContext } from '../context/PetContext'
 import { useSpeechContext, loadDailyMessage } from '../context/SpeechContext'
 import { FOOD_ITEMS } from '../data/petConfig'
+import { PET_RESULTS } from '../data/petPersonality'
 import PlacementTestScreen from './PlacementTestScreen'
 import { useLeague, formatCountdown, msUntilReset } from '../hooks/useLeague'
 import { getLevel } from '../hooks/useXP'
@@ -52,6 +53,16 @@ const MILESTONE_GIFTS = {
   7:  { xp: 250,  items: { apple: 1 },             label: '250 ⭐ XP + 🍎 Apple!' },
   14: { xp: 500,  items: { ramen: 1 },             label: '500 ⭐ XP + 🍜 Ramen!' },
   30: { xp: 1000, items: { sushi: 1, glowAura: 1 }, label: '1000 ⭐ XP + 🍣 Sushi + ✨ Glow Aura!' },
+}
+
+const GOAL_PET_MESSAGES = {
+  dog:     "WOOF WOOF! You crushed it! I'm so proud of you today! 🐕",
+  cat:     "Hmm... I suppose you've done adequately. *purrs approvingly* 🐱",
+  parrot:  "GOAL! GOAL! YOU REACHED YOUR GOAL! Squawk! Outstanding! 🦜",
+  rabbit:  "You hopped all the way to the finish! Goal complete! 🐰",
+  fish:    "*blows celebratory bubbles* You're absolutely amazing today! 🐟",
+  hamster: "You ran the whole wheel and made it! Goal reached! 🐹",
+  default: "Amazing! You reached your daily goal! Keep it up! 🌟",
 }
 
 const W_RAW = Dimensions.get('window').width
@@ -137,19 +148,20 @@ export default function HomeScreen({ navigation }) {
     }).then((msg) => { if (msg) say(msg) }).catch(() => {})
   }, [reloadSkipUnlocks, pendingEvolution, uid, streak]))
 
-  const { goal, setGoal, todayXP, progress: goalProgress, goalMet, GOALS } = useDailyGoal(xp, xpLoaded)
+  const { goal, setGoal, todayXP, progress: goalProgress, goalMet, GOALS, celebrated, markCelebrated } = useDailyGoal(xp, xpLoaded)
   const { mistakes, mistakeCount } = useMistakes()
 
   // ── Exam countdown (real dates — computed once per render) ─────────────────
   const daysToExam = getDaysUntilExam(subject)
   const examLabel  = getExamLabel(subject)
-  const { pet, pendingEvolution, getPetMessage, dailyDig, getTodayQuest, updateQuestProgress, triggerReaction, addInventory } = usePetContext()
+  const { pet, pendingEvolution, getPetMessage, dailyDig, getTodayQuest, updateQuestProgress, triggerReaction, addInventory, studyBoost } = usePetContext()
   const { say } = useSpeechContext()
 
-  const [selectedLesson,  setSelectedLesson]  = useState(null)
-  const [showGoalPicker,  setShowGoalPicker]   = useState(false)
-  const [digReward,       setDigReward]        = useState(null)
-  const [questData,       setQuestData]        = useState(null)
+  const [selectedLesson,    setSelectedLesson]    = useState(null)
+  const [showGoalPicker,    setShowGoalPicker]     = useState(false)
+  const [digReward,         setDigReward]          = useState(null)
+  const [questData,         setQuestData]          = useState(null)
+  const [goalCelebModal,    setGoalCelebModal]    = useState(false)
   const [milestoneModal,  setMilestoneModal]   = useState(null)
   const [levelUpModal,    setLevelUpModal]     = useState(null)  // { level, name }
   const [showFreezeBanner,setShowFreezeBanner] = useState(false)
@@ -202,6 +214,16 @@ export default function HomeScreen({ navigation }) {
       .then((val) => setPlacementDone(!!val))
       .catch(() => setPlacementDone(true))  // fail open — don't block lessons
   }, [uid])
+
+  // ── Daily goal celebration ────────────────────────────────────────────────
+  useEffect(() => {
+    if (!goalMet || celebrated || !pet.chosen) return
+    markCelebrated()
+    triggerReaction('celebrate')
+    studyBoost()
+    say(GOAL_PET_MESSAGES[pet.petType] ?? GOAL_PET_MESSAGES.default)
+    setTimeout(() => setGoalCelebModal(true), 600)
+  }, [goalMet, celebrated, pet.petType, pet.chosen])
 
   const sheetAnim     = useRef(new Animated.Value(400)).current
   const goalSheetAnim = useRef(new Animated.Value(400)).current
@@ -1127,6 +1149,31 @@ export default function HomeScreen({ navigation }) {
         </View>
       </Modal>
 
+      {/* Daily goal celebration modal */}
+      <Modal transparent visible={goalCelebModal} animationType="fade" onRequestClose={() => setGoalCelebModal(false)}>
+        <View style={s.modalBackdrop}>
+          <View style={[s.modalCard, { backgroundColor: C.surface }]}>
+            <Text style={{ fontSize: 64, textAlign: 'center' }}>🎯</Text>
+            <Text style={[T.h2, { color: C.text, textAlign: 'center', marginTop: 8 }]}>Daily Goal Reached!</Text>
+            <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 4 }]}>
+              {todayXP} XP earned today
+            </Text>
+            <View style={{ backgroundColor: C.brand + '20', borderRadius: 12, padding: 12, marginTop: 16, alignItems: 'center' }}>
+              <Text style={{ fontSize: 36 }}>{PET_RESULTS[pet.petType]?.emoji ?? '🐾'}</Text>
+              <Text style={[T.label, { color: C.brand, marginTop: 4, textAlign: 'center' }]}>
+                +8 Happiness bonus for {pet.name}!
+              </Text>
+            </View>
+            <TouchableOpacity
+              style={[duoBtn('#58CC02', '#3D8B02'), { marginTop: 20 }]}
+              onPress={() => setGoalCelebModal(false)}
+              activeOpacity={0.85}
+            >
+              <Text style={[T.btn, { color: '#fff' }]}>Keep Studying! 🚀</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </Modal>
 
     </SafeAreaView>
   )
