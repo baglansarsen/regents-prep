@@ -30,8 +30,8 @@ export const SOUND_OPTIONS = [
   { id: 'lofi',   label: 'Lo-fi',  emoji: '🎧', url: 'https://regents-prep.web.app/sounds/lofi.mp3' },
 ]
 
-const XP_PER_FOCUS_MINUTE = 1
-const XP_PER_POMODORO     = 10
+const RP_PER_FOCUS_MINUTE = 1
+const RP_PER_POMODORO     = 10
 const MAX_HISTORY         = 60
 const LONG_BREAK_AFTER    = 4
 const LONG_BREAK_MIN      = 15
@@ -57,7 +57,7 @@ async function loadSound(url) {
 }
 
 // ── Hook ──────────────────────────────────────────────────────────────────────
-export function useFocusSession(uid, earnXP, onPomodoroComplete) {
+export function useFocusSession(uid, earnRP, onPomodoroComplete) {
   // ── Config ────────────────────────────────────────────────────────────────
   const [preset,  setPreset]  = useState(FOCUS_PRESETS[1])  // 25 min default
   const [subject, setSubject] = useState('')
@@ -80,7 +80,7 @@ export function useFocusSession(uid, earnXP, onPomodoroComplete) {
   const prePausePhase = useRef('focus')   // phase before pausing
   const [secondsLeft,    setSecondsLeft]    = useState(0)
   const [pomodoroCount,  setPomodoroCount]  = useState(0)
-  const [sessionXP,      setSessionXP]      = useState(0)
+  const [sessionRP,      setSessionRP]      = useState(0)
   const [partialMinutes, setPartialMinutes] = useState(0)
   const [sessionGoal,    setSessionGoal]    = useState(0)  // 0 = no goal, >0 = target pomodoros
 
@@ -90,7 +90,7 @@ export function useFocusSession(uid, earnXP, onPomodoroComplete) {
   const phaseRef        = useRef('idle')
   const presetRef       = useRef(preset)
   const pomodoroRef     = useRef(0)
-  const sessionXPRef    = useRef(0)
+  const sessionRPRef    = useRef(0)
   const sessionStartRef = useRef(null)
   const soundRef        = useRef(null)
   const endTimeRef      = useRef(null)
@@ -146,10 +146,10 @@ export function useFocusSession(uid, earnXP, onPomodoroComplete) {
               const newCount = pomodoroRef.current + 1
               pomodoroRef.current = newCount
               setPomodoroCount(newCount)
-              const xpEarned = presetRef.current.study * XP_PER_FOCUS_MINUTE + XP_PER_POMODORO
-              earnXP?.(xpEarned)
-              sessionXPRef.current += xpEarned
-              setSessionXP(sessionXPRef.current)
+              const rpEarned = presetRef.current.study * RP_PER_FOCUS_MINUTE + RP_PER_POMODORO
+              earnRP?.(rpEarned)
+              sessionRPRef.current += rpEarned
+              setSessionRP(sessionRPRef.current)
               onPomodoroComplete?.(newCount)
               soundRef.current?.pauseAsync?.().catch(() => {})
               startPhase('break')
@@ -199,10 +199,10 @@ export function useFocusSession(uid, earnXP, onPomodoroComplete) {
         pomodoroRef.current = newCount
         setPomodoroCount(newCount)
 
-        const xpEarned = presetRef.current.study * XP_PER_FOCUS_MINUTE + XP_PER_POMODORO
-        earnXP?.(xpEarned)
-        sessionXPRef.current += xpEarned
-        setSessionXP(sessionXPRef.current)
+        const rpEarned = presetRef.current.study * RP_PER_FOCUS_MINUTE + RP_PER_POMODORO
+        earnRP?.(rpEarned)
+        sessionRPRef.current += rpEarned
+        setSessionRP(sessionRPRef.current)
 
         onPomodoroComplete?.(newCount)
 
@@ -246,9 +246,9 @@ export function useFocusSession(uid, earnXP, onPomodoroComplete) {
     if (phaseRef.current !== 'idle' && phaseRef.current !== 'done') return
     sessionStartRef.current = new Date().toISOString()
     pomodoroRef.current   = 0
-    sessionXPRef.current  = 0
+    sessionRPRef.current  = 0
     setPomodoroCount(0)
-    setSessionXP(0)
+    setSessionRP(0)
     startPhase('focus')
   }, [sound])
 
@@ -300,10 +300,10 @@ export function useFocusSession(uid, earnXP, onPomodoroComplete) {
 
     // Award XP for partial minutes (≥1 min threshold)
     if (partial >= 1) {
-      const partialXP = partial * XP_PER_FOCUS_MINUTE
-      earnXP?.(partialXP)
-      sessionXPRef.current += partialXP
-      setSessionXP(sessionXPRef.current)
+      const partialXP = partial * RP_PER_FOCUS_MINUTE
+      earnRP?.(partialXP)
+      sessionRPRef.current += partialXP
+      setSessionRP(sessionRPRef.current)
     }
 
     setPartialMinutes(partial)
@@ -323,7 +323,7 @@ export function useFocusSession(uid, earnXP, onPomodoroComplete) {
       pomodorosCompleted: pomodoroRef.current,
       partialMinutes:     partial > 0 ? partial : undefined,
       partial:            partial > 0,
-      xpEarned:           sessionXPRef.current,
+      rpEarned:           sessionRPRef.current,
       todos:              todos.map((t) => ({ text: t.text, done: t.done })),
     }
     await saveSession(entry)
@@ -338,7 +338,7 @@ export function useFocusSession(uid, earnXP, onPomodoroComplete) {
     setPhase('idle')
     setSecondsLeft(0)
     setPomodoroCount(0)
-    setSessionXP(0)
+    setSessionRP(0)
     setPartialMinutes(0)
     setTodos([])
   }, [])
@@ -359,7 +359,7 @@ export function useFocusSession(uid, earnXP, onPomodoroComplete) {
     // Todos
     todos, addTodo, toggleTodo, clearTodos,
     // Timer state
-    phase, secondsLeft, pomodoroCount, sessionXP, partialMinutes,
+    phase, secondsLeft, pomodoroCount, sessionRP, partialMinutes,
     cyclePosition,
     // Controls
     start, pause, resume, skip, stop, reset,
