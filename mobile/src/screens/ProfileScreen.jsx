@@ -19,6 +19,8 @@ import { doc, getDoc } from 'firebase/firestore'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 import { useDoubleXP } from '../context/DoubleXPContext'
 import { useSubscription } from '../context/SubscriptionContext'
+import NudgeBanner from '../components/NudgeBanner'
+import { getEngagementNudge } from '../hooks/useEngagementNudge'
 
 const AVATAR_COLORS = ['#58CC02', '#1CB0F6', '#CE82FF', '#FFC800', '#FF4B4B']
 
@@ -38,8 +40,8 @@ export default function ProfileScreen({ navigation }) {
   const uid = user?.uid
 
   const { history }                   = useProgress(uid)
-  const { xp }                        = useXP(uid)
-  const { streak }                    = useDailyStreak(uid)
+  const { xp, weeklyXP }              = useXP(uid)
+  const { streak, longestStreak }     = useDailyStreak(uid)
   const level                         = getLevel(xp)
   const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleXP()
   const { isSubscribed } = useSubscription()
@@ -65,6 +67,10 @@ export default function ProfileScreen({ navigation }) {
 
   const [showTimePicker,    setShowTimePicker]    = useState(false)
   const [showSubjectPicker, setShowSubjectPicker] = useState(false)
+  const [nudgeDismissed,    setNudgeDismissed]    = useState(false)
+
+  // Reset nudge on screen focus
+  useEffect(() => navigation.addListener('focus', () => setNudgeDismissed(false)), [navigation])
 
   // Slide-up animation for time picker modal
   const slideAnim        = useRef(new Animated.Value(400)).current
@@ -205,6 +211,12 @@ export default function ProfileScreen({ navigation }) {
             </View>
           ))}
         </View>
+
+        {/* Engagement nudge */}
+        {!nudgeDismissed && (() => {
+          const nudge = getEngagementNudge('profile', { streak, longestStreak, weeklyXP })
+          return nudge && <NudgeBanner {...nudge} onDismiss={() => setNudgeDismissed(true)} />
+        })()}
 
         {/* ── Regents Exam Selection ── */}
         <TouchableOpacity

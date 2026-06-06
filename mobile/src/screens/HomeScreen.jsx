@@ -44,6 +44,8 @@ import { useLeague, formatCountdown, msUntilReset } from '../hooks/useLeague'
 import { getLevel } from '../hooks/useXP'
 import { useStudyTime, formatTime as fmtStudyTime } from '../hooks/useStudyTime'
 import { getExamLabel, getDaysUntilExam } from '../utils/examDates'
+import NudgeBanner from '../components/NudgeBanner'
+import { getEngagementNudge } from '../hooks/useEngagementNudge'
 
 const MILESTONE_GIFTS = {
   3:  { xp: 100,  items: {},                       label: '100 ⭐ XP!' },
@@ -153,6 +155,8 @@ export default function HomeScreen({ navigation }) {
   const [showFreezeBanner,setShowFreezeBanner] = useState(false)
   const [tipsUnit,        setTipsUnit]         = useState(null)
   const [expandedTip,     setExpandedTip]      = useState(null)
+  const [nudgeDismissed,  setNudgeDismissed]   = useState(false)
+  const [bannerResolved,  setBannerResolved]   = useState(false)
 
   // ── League ────────────────────────────────────────────────────────────────
   const { tier, members, promoteN } = useLeague(uid)
@@ -173,9 +177,16 @@ export default function HomeScreen({ navigation }) {
       const today = new Date().toISOString().slice(0, 10)
       AsyncStorage.getItem(`@streakWarnDismissed_${today}`).then((val) => {
         if (!val) setShowFreezeBanner(true)
-      }).catch(() => {})
+        setBannerResolved(true)
+        setNudgeDismissed(false)
+      }).catch(() => {
+        setBannerResolved(true)
+        setNudgeDismissed(false)
+      })
     } else {
       setShowFreezeBanner(false)
+      setBannerResolved(true)
+      setNudgeDismissed(false)
     }
   }, [uid, streak, studiedToday, hasFreeze]))
 
@@ -544,6 +555,14 @@ export default function HomeScreen({ navigation }) {
             </View>
           ))}
         </View>
+
+        {/* Engagement nudge */}
+        {bannerResolved && !nudgeDismissed && !showFreezeBanner && getEngagementNudge('home', { streak, studiedToday, hasFreeze, weekDays, todayXP, goal, goalMet }) && (
+          <NudgeBanner
+            {...getEngagementNudge('home', { streak, studiedToday, hasFreeze, weekDays, todayXP, goal, goalMet })}
+            onDismiss={() => setNudgeDismissed(true)}
+          />
+        )}
 
         {/* Streak-at-risk freeze banner */}
         {showFreezeBanner && (

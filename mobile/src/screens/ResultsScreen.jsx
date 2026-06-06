@@ -5,8 +5,11 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useDailyStreak } from '../hooks/useDailyStreak'
+import { useXP, getLevel } from '../hooks/useXP'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import MasteryCelebration from '../components/MasteryCelebration'
+import NudgeBanner from '../components/NudgeBanner'
+import { getEngagementNudge } from '../hooks/useEngagementNudge'
 import * as leData   from '../content/living-environment/index'
 import * as esData   from '../content/earth-science/index'
 import * as chemData from '../content/chemistry/index'
@@ -84,6 +87,7 @@ export default function ResultsScreen({ route, navigation }) {
   const { C } = useTheme()
   const { user } = useAuthContext()
   const { streak, weekDays } = useDailyStreak(user?.uid)
+  const { xp } = useXP(user?.uid)
 
   const [diveDeepQ,      setDiveDeepQ]      = useState(null)
   const [showCelebration, setShowCelebration] = useState(firstMastery)
@@ -204,6 +208,12 @@ export default function ResultsScreen({ route, navigation }) {
             </View>
           </Animated.View>
         )}
+
+        {/* Engagement nudge */}
+        {xp !== undefined && (() => {
+          const nudge = getEngagementNudge('results', { pct, xpEarned, xp, level: getLevel(xp) })
+          return nudge && <NudgeBanner {...nudge} />
+        })()}
 
         {/* Summary card */}
         <View style={[s.summaryCard, cardShadow(C.shadow)]}>
