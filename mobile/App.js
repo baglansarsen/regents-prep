@@ -66,22 +66,39 @@ function Inner() {
 
 export default function App() {
   useEffect(() => {
-    // TEMPORARILY DISABLED: AdMob initialization causing native crash on startup.
-    // The TurboModule manager is throwing an uncaught exception during initialization.
-    // To diagnose, will try without AdMob first, then rebuild with proper native module.
-    return
+    // Initialize AdMob safely with double-wrapped error handling.
+    // Native module initialization can throw exceptions that bypass normal JS error handling,
+    // so we catch at import-time AND promise-catch level.
+    const initAdMob = async () => {
+      try {
+        // Don't even try to import if the native module is definitely absent.
+        // Platform.OS check fails on web; TurboModuleRegistry.get() checks on native.
+        if (Platform.OS === 'web') return
+        if (!TurboModuleRegistry?.get?.('RNGoogleMobileAdsModule')) {
+          console.log('[AdMob] Native module not available')
+          return
+        }
 
-    // Only initialize AdMob when the native module is present (custom dev build / production).
-    // In Expo Go the module is absent; on web TurboModuleRegistry itself may be
-    // undefined — optional chaining makes both cases a clean no-op.
-    if (!TurboModuleRegistry?.get?.('RNGoogleMobileAdsModule')) return
-    // Show the ATT prompt before accessing the IDFA, then initialize AdMob.
-    import('./src/utils/adTracking')
-      .then(({ requestAdTracking }) => requestAdTracking())
-      .catch(() => {})
-      .then(() => import('react-native-google-mobile-ads'))
-      .then(({ default: MobileAds }) => MobileAds().initialize())
-      .catch((e) => console.warn('[AdMob] init error:', e))
+        // Request ATT permission (returns false cleanly if unavailable)
+        await import('./src/utils/adTracking')
+          .then(({ requestAdTracking }) => requestAdTracking())
+          .catch(() => false)
+
+        // Import and initialize AdMob with exception guard
+        const admobModule = await import('react-native-google-mobile-ads')
+        if (!admobModule?.default) {
+          console.warn('[AdMob] Module import succeeded but no default export')
+          return
+        }
+        const MobileAds = admobModule.default
+        await MobileAds().initialize()
+        console.log('[AdMob] Initialized successfully')
+      } catch (e) {
+        console.warn('[AdMob] Initialization failed (ads disabled):', e?.message || String(e))
+      }
+    }
+
+    initAdMob()
   }, [])
 
   return (
