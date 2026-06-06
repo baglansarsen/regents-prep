@@ -66,39 +66,13 @@ function Inner() {
 
 export default function App() {
   useEffect(() => {
-    // Initialize AdMob safely with double-wrapped error handling.
-    // Native module initialization can throw exceptions that bypass normal JS error handling,
-    // so we catch at import-time AND promise-catch level.
-    const initAdMob = async () => {
-      try {
-        // Don't even try to import if the native module is definitely absent.
-        // Platform.OS check fails on web; TurboModuleRegistry.get() checks on native.
-        if (Platform.OS === 'web') return
-        if (!TurboModuleRegistry?.get?.('RNGoogleMobileAdsModule')) {
-          console.log('[AdMob] Native module not available')
-          return
-        }
-
-        // Request ATT permission (returns false cleanly if unavailable)
-        await import('./src/utils/adTracking')
-          .then(({ requestAdTracking }) => requestAdTracking())
-          .catch(() => false)
-
-        // Import and initialize AdMob with exception guard
-        const admobModule = await import('react-native-google-mobile-ads')
-        if (!admobModule?.default) {
-          console.warn('[AdMob] Module import succeeded but no default export')
-          return
-        }
-        const MobileAds = admobModule.default
-        await MobileAds().initialize()
-        console.log('[AdMob] Initialized successfully')
-      } catch (e) {
-        console.warn('[AdMob] Initialization failed (ads disabled):', e?.message || String(e))
-      }
-    }
-
-    initAdMob()
+    // DISABLED: AdMob native module initialization causing crash on startup.
+    // The issue persists even with error guards. Disabling to get app functional,
+    // then will rebuild with proper native module configuration or alternative approach.
+    // TODO: Fix AdMob integration - consider:
+    // 1. Rebuild EAS with explicit AdMob native module inclusion
+    // 2. Use a different ad network that's Expo-compatible
+    // 3. Defer AdMob init until after app is fully loaded
   }, [])
 
   return (
