@@ -30,13 +30,13 @@ function getHomeNudge({ streak, studiedToday, hasFreeze, weekDays, todayXP, goal
   }
 
   if (studiedToday && goalMet) {
-    return { message: `Daily goal crushed — ${todayXP} XP today!`, emoji: '🎯', type: 'success' }
+    return { message: `Daily goal crushed — ${todayXP} RP today!`, emoji: '🎯', type: 'success' }
   }
 
   if (studiedToday && !goalMet) {
     const remaining = Math.max(0, goal - todayXP)
     return {
-      message: `${todayXP} XP so far — ${remaining} more to hit your goal!`,
+      message: `${todayXP} RP so far — ${remaining} more to hit your goal!`,
       emoji: '⚡',
       type: 'info',
     }
@@ -50,7 +50,7 @@ function getResultsNudge({ pct, xpEarned, rp, level }) {
   if (level.next && level.next.min - rp <= 100 && level.next.min - rp > 0) {
     const gap = level.next.min - rp
     return {
-      message: `Only ${gap} XP to reach ${level.next.name}!`,
+      message: `Only ${gap} RP to reach ${level.next.name}!`,
       emoji: '⬆️',
       type: 'info',
     }
@@ -58,7 +58,7 @@ function getResultsNudge({ pct, xpEarned, rp, level }) {
 
   if (pct >= 85) {
     return {
-      message: `Top score! ${xpEarned} XP earned. 🔥`,
+      message: `Top score! ${xpEarned} RP earned. 🔥`,
       emoji: '🌟',
       type: 'success',
     }
@@ -66,7 +66,7 @@ function getResultsNudge({ pct, xpEarned, rp, level }) {
 
   if (pct >= 65) {
     return {
-      message: `Nice work! ${xpEarned} XP added.`,
+      message: `Nice work! ${xpEarned} RP added.`,
       emoji: '✅',
       type: 'success',
     }

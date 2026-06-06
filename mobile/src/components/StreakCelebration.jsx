@@ -282,7 +282,7 @@ export default function StreakCelebration({ event, onClose, weekDays, streak, rp
             {isBroken ? (
               <>
                 <TouchableOpacity style={[s.primaryBtn, { backgroundColor: '#fff' }]} onPress={handleRepair} activeOpacity={0.85}>
-                  <Text style={[s.primaryText, { color: flavor.bottom }]}>🔧 Repair streak (500 XP)</Text>
+                  <Text style={[s.primaryText, { color: flavor.bottom }]}>🔧 Repair streak (500 RP)</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={s.secondaryBtn} onPress={onClose} activeOpacity={0.85}>
                   <Text style={s.secondaryText}>Start over</Text>
@@ -294,7 +294,7 @@ export default function StreakCelebration({ event, onClose, weekDays, streak, rp
                   <Text style={[s.primaryText, { color: flavor.bottom }]}>Continue</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={s.secondaryBtn} onPress={handleBuyFreeze} activeOpacity={0.85}>
-                  <Text style={s.secondaryText}>🧊 Buy freeze (200 XP)</Text>
+                  <Text style={s.secondaryText}>🧊 Buy freeze (200 RP)</Text>
                 </TouchableOpacity>
               </>
             ) : (

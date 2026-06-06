@@ -76,7 +76,7 @@ export default function GlobalTopBar() {
       canAfford
         ? [
             {
-              text: '🧊 Buy Freeze (200 XP)',
+              text: '🧊 Buy Freeze (200 RP)',
               onPress: async () => {
                 const result = await buyFreeze(spendXP)
                 if (result === 'success') {
@@ -99,7 +99,7 @@ export default function GlobalTopBar() {
     if (lives >= maxLives) return
 
     const buttons = [
-      { text: 'Refill All (300 XP)', style: 'default', onPress: () => refillLives(spendXP) },
+      { text: 'Refill All (300 RP)', style: 'default', onPress: () => refillLives(spendXP) },
       ...(adReady
         ? [{ text: '▶ Watch Ad (+1 ❤️)', onPress: showAd }]
         : []),

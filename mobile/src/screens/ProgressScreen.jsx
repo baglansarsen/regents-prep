@@ -112,7 +112,7 @@ export default function ProgressScreen({ navigation }) {
               style={[duoBtn(C.surface2, C.border, { marginTop: 12 })]}
               onPress={() => spendXP(100)}
             >
-              <Text style={[T.btn, { color: C.textMuted }]}>🧊 STREAK FREEZE (100 XP)</Text>
+              <Text style={[T.btn, { color: C.textMuted }]}>🧊 STREAK FREEZE (100 RP)</Text>
             </TouchableOpacity>
           )}
         </View>

@@ -11,7 +11,7 @@ import { useDailyStreak } from '../hooks/useDailyStreak'
 import { usePetContext } from '../context/PetContext'
 import { useStudyTime, formatTime } from '../hooks/useStudyTime'
 
-const XP_PER_CARD = 5
+const RP_PER_CARD = 5
 
 export default function StudyScreen({ route, navigation, questionSet: questionSetProp, onHome }) {
   const { C } = useTheme()
@@ -126,9 +126,9 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
 
           {/* RP summary row */}
           <View style={[s.xpRow, { backgroundColor: C.warnBg, borderColor: C.warn + '50' }]}>
-            <Text style={[s.xpRowText, { color: C.warn }]}>+{gotIt * XP_PER_CARD} ⭐ card XP</Text>
+            <Text style={[s.xpRowText, { color: C.warn }]}>+{gotIt * RP_PER_CARD} ⭐ card RP</Text>
             {sessionSeconds >= 60 && (
-              <Text style={[s.xpRowText, { color: C.brand }]}>  ·  +{timeXP} ⏱ time XP</Text>
+              <Text style={[s.xpRowText, { color: C.brand }]}>  ·  +{timeXP} ⏱ time RP</Text>
             )}
           </View>
 

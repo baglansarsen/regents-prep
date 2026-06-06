@@ -211,7 +211,7 @@ export default function QuizScreen({ route, navigation }) {
       earnXP(xpEarned).then((newTotal) => checkAndEvolve(newTotal ?? rp + xpEarned))
       if (challengeUnlocked)   { triggerReaction('cheer');        say(`⚡ Challenge passed! Next unit unlocked 🔓`) }
       else if (pct === 100)    { triggerReaction('cheer');        say(`Perfect score! +${xpEarned} ⭐ You're incredible 🎉`) }
-      else if (pct >= 85)      { triggerReaction('happy_dance');  say(`+${xpEarned} ⭐ XP! Really solid work 🌟`) }
+      else if (pct >= 85)      { triggerReaction('happy_dance');  say(`+${xpEarned} ⭐ RP! Really solid work 🌟`) }
       else if (pct <= 30)      { triggerReaction('sympathetic');  say('Tough one. Review those and try again 💪') }
       else                     { triggerReaction('root_for_you'); say(`+${xpEarned} ⭐ You're on a roll!`) }
       // Quest progress
@@ -552,7 +552,7 @@ function NoLivesGate({ C, s, insets, nextRefillAt, adReady, onWatchAd, onRefill,
           onPress={onRefill}
           activeOpacity={0.85}
         >
-          <Text style={[T.btn, { color: C.warn }]}>⭐ Refill All (300 XP)</Text>
+          <Text style={[T.btn, { color: C.warn }]}>⭐ Refill All (300 RP)</Text>
         </TouchableOpacity>
 
         {/* Go back */}

@@ -1,5 +1,5 @@
 /**
- * useStudyTime — tracks active study + quiz session time, awards XP drip,
+ * useStudyTime — tracks active study + quiz session time, awards RP drip,
  * fires milestone bonuses, and persists daily totals to AsyncStorage + Firestore.
  *
  * Usage:

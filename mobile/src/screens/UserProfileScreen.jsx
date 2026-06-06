@@ -186,7 +186,7 @@ export default function UserProfileScreen({ route, navigation }) {
         <Animated.View style={[s.statsRow, cardShadow(C.shadow), { opacity: contentOp }]}>
           <View style={s.statCell}>
             <Text style={s.statValue}>⭐ {totalXP >= 1000 ? `${(totalXP / 1000).toFixed(1)}k` : totalXP}</Text>
-            <Text style={[T.label, { color: C.textMuted }]}>Total XP</Text>
+            <Text style={[T.label, { color: C.textMuted }]}>Total RP</Text>
           </View>
           <View style={[s.statDivider, { backgroundColor: C.border }]} />
           <View style={s.statCell}>

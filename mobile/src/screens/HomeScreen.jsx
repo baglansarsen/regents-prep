@@ -334,7 +334,7 @@ export default function HomeScreen({ navigation }) {
       '🚫 Out of Lives!',
       `Next life in ${min > 0 ? `${min}m` : 'a moment'}, or refill all 5 for 300 ⭐ RP.`,
       [
-        { text: 'Refill (300 XP)', onPress: () => refillLives(spendXP).then((ok) => ok && onProceed()) },
+        { text: 'Refill (300 RP)', onPress: () => refillLives(spendXP).then((ok) => ok && onProceed()) },
         { text: 'Not now', style: 'cancel' },
       ],
     )
@@ -479,7 +479,7 @@ export default function HomeScreen({ navigation }) {
     if (!result.ok) return
     if (result.type === 'xp') await earnRP(result.amount)
     const label = result.type === 'xp'
-      ? `${pet.name} found ⭐ ${result.amount} XP!`
+      ? `${pet.name} found ⭐ ${result.amount} RP!`
       : `${pet.name} dug up a ${FOOD_ITEMS.find((f) => f.id === result.itemId)?.icon ?? '🎁'}!`
     setDigReward(label)
     setTimeout(() => setDigReward(null), 3000)
@@ -601,7 +601,7 @@ export default function HomeScreen({ navigation }) {
                   else if (res === 'insufficient_xp') Alert.alert('Not enough RP', 'You need 200 RP to buy a Streak Freeze.')
                 })}
               >
-                <Text style={{ color: '#fff', fontSize: 11, fontWeight: '700' }}>🧊 Freeze (200 XP)</Text>
+                <Text style={{ color: '#fff', fontSize: 11, fontWeight: '700' }}>🧊 Freeze (200 RP)</Text>
               </TouchableOpacity>
               <TouchableOpacity
                 onPress={() => {
