@@ -42,7 +42,7 @@ export default function ProfileScreen({ navigation }) {
   const { history }                   = useProgress(uid)
   const { rp, xp, weeklyXP }              = useRP(uid)
   const { streak, longestStreak }     = useDailyStreak(uid)
-  const level                         = getLevel(xp)
+  const level                         = getLevel(rp)
   const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
   const { isSubscribed } = useSubscription()
 

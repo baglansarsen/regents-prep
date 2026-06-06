@@ -54,7 +54,7 @@ export default function ProgressScreen({ navigation }) {
     : 0
 
   const nextLevel  = LEVELS.find((l) => l.min > rp)
-  const xpProgress = nextLevel ? (xp - level.min) / (nextLevel.min - level.min) : 1
+  const xpProgress = nextLevel ? (rp - level.min) / (nextLevel.min - level.min) : 1
 
   const s = makeStyles(C)
 

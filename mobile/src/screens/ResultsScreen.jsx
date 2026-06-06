@@ -210,8 +210,8 @@ export default function ResultsScreen({ route, navigation }) {
         )}
 
         {/* Engagement nudge */}
-        {xp !== undefined && (() => {
-          const nudge = getEngagementNudge('results', { pct, xpEarned, rp, level: getLevel(xp) })
+        {rp !== undefined && (() => {
+          const nudge = getEngagementNudge('results', { pct, xpEarned, rp, level: getLevel(rp) })
           return nudge && <NudgeBanner {...nudge} />
         })()}
 
