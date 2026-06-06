@@ -7,7 +7,7 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
-import { useXP } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { usePetContext } from '../context/PetContext'
 import { useFocusSession, SUBJECT_CHIPS, SOUND_OPTIONS } from '../hooks/useFocusSession'
 
@@ -114,7 +114,7 @@ export default function FocusScreen({ navigation }) {
   const { C } = useTheme()
   const { user } = useAuthContext()
   const uid = user?.uid
-  const { earnXP } = useXP(uid)
+  const { earnXP } = useRP(uid)
   const { triggerReaction, studyBoost, say, pet } = usePetContext()
   const { width: screenWidth } = useWindowDimensions()
 

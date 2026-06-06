@@ -9,8 +9,8 @@ import { db } from '../firebase'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useFriends, timeAgo } from '../hooks/useFriends'
-import { getLevel } from '../hooks/useXP'
-import { getWeekKey } from '../hooks/useXP'
+import { getLevel } from '../hooks/useRP'
+import { getWeekKey } from '../hooks/useRP'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 
 const AVATAR_COLORS = ['#58CC02', '#1CB0F6', '#CE82FF', '#FFC800', '#FF4B4B', '#FF9600']

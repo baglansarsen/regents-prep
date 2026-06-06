@@ -6,7 +6,7 @@ import StudyBuddyCompanion from '../components/StudyBuddyCompanion'
 import { shuffled } from '../data/questions'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
-import { useXP } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { usePetContext } from '../context/PetContext'
 import { useStudyTime, formatTime } from '../hooks/useStudyTime'
@@ -17,7 +17,7 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
   const { C } = useTheme()
   const { user } = useAuthContext()
   const uid = user?.uid
-  const { earnXP } = useXP(uid)
+  const { earnXP } = useRP(uid)
   const { markStudied } = useDailyStreak(uid)
   const { triggerReaction, studyBoost, pet } = usePetContext()
 

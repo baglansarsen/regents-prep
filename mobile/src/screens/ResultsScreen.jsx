@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useDailyStreak } from '../hooks/useDailyStreak'
-import { useXP, getLevel } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import MasteryCelebration from '../components/MasteryCelebration'
 import NudgeBanner from '../components/NudgeBanner'
@@ -87,7 +87,7 @@ export default function ResultsScreen({ route, navigation }) {
   const { C } = useTheme()
   const { user } = useAuthContext()
   const { streak, weekDays } = useDailyStreak(user?.uid)
-  const { xp } = useXP(user?.uid)
+  const { xp } = useRP(user?.uid)
 
   const [diveDeepQ,      setDiveDeepQ]      = useState(null)
   const [showCelebration, setShowCelebration] = useState(firstMastery)

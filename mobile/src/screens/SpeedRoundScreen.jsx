@@ -3,9 +3,9 @@ import { View, Text, TouchableOpacity, StyleSheet, Animated } from 'react-native
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
-import { useXP } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
-import { useDoubleXP } from '../context/DoubleXPContext'
+import { useDoubleRP } from '../context/DoubleRPContext'
 import { usePetContext } from '../context/PetContext'
 
 const ROUND_SECONDS = 60
@@ -23,9 +23,9 @@ export default function SpeedRoundScreen({ route, navigation }) {
   const { C } = useTheme()
   const { user } = useAuthContext()
   const uid = user?.uid
-  const { xp, earnXP } = useXP(uid)
+  const { xp, earnXP } = useRP(uid)
   const { markStudied } = useDailyStreak(uid)
-  const { xpMultiplier } = useDoubleXP()
+  const { xpMultiplier } = useDoubleRP()
   const { checkAndEvolve, updateQuestProgress } = usePetContext()
 
   const [index,     setIndex]     = useState(0)

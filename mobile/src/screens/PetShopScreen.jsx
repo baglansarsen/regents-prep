@@ -8,7 +8,7 @@ import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { usePetContext } from '../context/PetContext'
 import { useSpeechContext } from '../context/SpeechContext'
-import { useXP } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { FOOD_ITEMS, HAPPINESS_ITEMS, COSMETICS, PETS } from '../data/petConfig'
 import { T, duoBtn, cardShadow, pillTab } from '../styles/duo'
 
@@ -18,7 +18,7 @@ export default function PetShopScreen({ navigation }) {
   const { C }              = useTheme()
   const { user }           = useAuthContext()
   const { pet, inventory, feedPet, playWithPet, addInventory, toggleCosmetic, renamePet, switchBuddy } = usePetContext()
-  const { xp, spendXP }   = useXP(user?.uid)
+  const { xp, spendXP }   = useRP(user?.uid)
   const { say }           = useSpeechContext()
 
   const insets = useSafeAreaInsets()

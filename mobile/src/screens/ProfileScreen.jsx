@@ -10,14 +10,14 @@ import { useAuth } from '../hooks/useAuth'
 import { useSubject } from '../context/SubjectContext'
 import { SUBJECT_META } from '../content/subjects'
 import { useProgress } from '../hooks/useProgress'
-import { useXP, getLevel } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useNotifications, formatTime } from '../hooks/useNotifications'
 import { auth, db } from '../firebase'
 import { signOut } from 'firebase/auth'
 import { doc, getDoc } from 'firebase/firestore'
 import { T, duoBtn, cardShadow } from '../styles/duo'
-import { useDoubleXP } from '../context/DoubleXPContext'
+import { useDoubleRP } from '../context/DoubleRPContext'
 import { useSubscription } from '../context/SubscriptionContext'
 import NudgeBanner from '../components/NudgeBanner'
 import { getEngagementNudge } from '../hooks/useEngagementNudge'
@@ -40,10 +40,10 @@ export default function ProfileScreen({ navigation }) {
   const uid = user?.uid
 
   const { history }                   = useProgress(uid)
-  const { xp, weeklyXP }              = useXP(uid)
+  const { xp, weeklyXP }              = useRP(uid)
   const { streak, longestStreak }     = useDailyStreak(uid)
   const level                         = getLevel(xp)
-  const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleXP()
+  const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
   const { isSubscribed } = useSubscription()
 
   const { subject, setSubject } = useSubject()

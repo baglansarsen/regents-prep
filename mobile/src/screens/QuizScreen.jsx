@@ -8,12 +8,12 @@ import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useProgress } from '../hooks/useProgress'
 import { useDailyStreak } from '../hooks/useDailyStreak'
-import { useXP } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { useLivesContext } from '../context/LivesContext'
 import { useRewardedAd } from '../hooks/useRewardedAd'
 import { useQuiz } from '../hooks/useQuiz'
 import { appendMistakes } from '../hooks/useMistakes'
-import { useDoubleXP } from '../context/DoubleXPContext'
+import { useDoubleRP } from '../context/DoubleRPContext'
 import { usePetContext } from '../context/PetContext'
 import { useSpeechContext } from '../context/SpeechContext'
 import { T, duoBtn, cardShadow } from '../styles/duo'
@@ -44,9 +44,9 @@ export default function QuizScreen({ route, navigation }) {
   const uid = user?.uid
 
   const { saveResult, isMastered } = useProgress(uid)
-  const { xpMultiplier }           = useDoubleXP()
+  const { xpMultiplier }           = useDoubleRP()
   const { markStudied }          = useDailyStreak(uid)
-  const { xp, earnXP, spendXP }  = useXP(uid)
+  const { xp, earnXP, spendXP }  = useRP(uid)
   const { lives, maxLives, nextRefillAt, loseLife, refillLives, addLife } = useLivesContext()
   const { ready: adReady, showAd } = useRewardedAd({ onReward: addLife })
   const { checkAndEvolve, triggerReaction, updateQuestProgress, getPetMessage, studyBoost, pet } = usePetContext()

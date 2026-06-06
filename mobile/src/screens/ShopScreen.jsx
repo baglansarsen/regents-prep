@@ -6,10 +6,10 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
-import { useXP } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useLivesContext } from '../context/LivesContext'
-import { useDoubleXP } from '../context/DoubleXPContext'
+import { useDoubleRP } from '../context/DoubleRPContext'
 import { useSubscription } from '../context/SubscriptionContext'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 
@@ -24,10 +24,10 @@ export default function ShopScreen({ navigation }) {
   const { user } = useAuthContext()
   const uid = user?.uid
 
-  const { xp, spendXP }                                = useXP(uid)
+  const { xp, spendXP }                                = useRP(uid)
   const { hasFreeze, buyFreeze }                        = useDailyStreak(uid)
   const { lives, maxLives, refillLives }                = useLivesContext()
-  const { isActive, timeLeft, activateBoost, COST_XP }  = useDoubleXP()
+  const { isActive, timeLeft, activateBoost, COST_XP }  = useDoubleRP()
   const { isSubscribed } = useSubscription()
 
   const s = makeStyles(C)

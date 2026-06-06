@@ -6,7 +6,7 @@ import { useAuthContext } from '../context/AuthContext'
 import { useSubject } from '../context/SubjectContext'
 import { useProgress } from '../hooks/useProgress'
 import { useDailyStreak } from '../hooks/useDailyStreak'
-import { useXP, getLevel, LEVELS } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { SUBJECTS } from '../content/subjects'
 import * as leData   from '../content/living-environment/index'
 import * as esData   from '../content/earth-science/index'
@@ -45,7 +45,7 @@ export default function ProgressScreen({ navigation }) {
 
   const { history, masteryPct, isMastered } = useProgress(uid)
   const { streak, weekDays, studiedToday } = useDailyStreak(uid)
-  const { xp, level, spendXP } = useXP(uid)
+  const { xp, level, spendXP } = useRP(uid)
 
   const subjectHistory = history.filter((h) => (h.subject ?? 'living-environment') === subject)
   const totalQuizzes   = subjectHistory.length

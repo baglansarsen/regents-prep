@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import { useAuthContext } from '../context/AuthContext'
 import { useStreak } from '../context/StreakContext'
 import { usePetContext } from '../context/PetContext'
-import { useXP } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import StreakCelebration from './StreakCelebration'
 
 /**
@@ -16,7 +16,7 @@ export default function StreakCelebrationHost() {
   const { user } = useAuthContext()
   const uid = user?.uid
   const { pendingEvent, clearEvent, weekDays, streak, hasFreeze, buyFreeze, repairStreak } = useStreak()
-  const { xp, spendXP } = useXP(uid)
+  const { xp, spendXP } = useRP(uid)
   const { triggerReaction } = usePetContext()
   const lastType = useRef(null)
 

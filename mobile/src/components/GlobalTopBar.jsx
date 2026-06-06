@@ -5,11 +5,11 @@ import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useSubject } from '../context/SubjectContext'
 import { useDailyStreak } from '../hooks/useDailyStreak'
-import { useXP } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { useLivesContext } from '../context/LivesContext'
 import { useRewardedAd } from '../hooks/useRewardedAd'
 import { SUBJECTS, SUBJECT_META } from '../content/subjects'
-import { useDoubleXP } from '../context/DoubleXPContext'
+import { useDoubleRP } from '../context/DoubleRPContext'
 import { T } from '../styles/duo'
 
 function useCountdown(isoStr) {
@@ -50,10 +50,10 @@ export default function GlobalTopBar() {
 
   const { subject, setSubject }                          = useSubject()
   const { streak, hasFreeze, buyFreeze }                 = useDailyStreak(uid)
-  const { xp, spendXP }                                  = useXP(uid)
+  const { xp, spendXP }                                  = useRP(uid)
   const { lives, maxLives, nextRefillAt, refillLives, addLife, isSubscribed } = useLivesContext()
   const secsUntilRefill = useCountdown(lives < maxLives ? nextRefillAt : null)
-  const { isActive: boostActive, timeLeft: boostTimeLeft }     = useDoubleXP()
+  const { isActive: boostActive, timeLeft: boostTimeLeft }     = useDoubleRP()
   const { ready: adReady, showAd }                             = useRewardedAd({ onReward: addLife })
 
   // ── Streak / freeze tap ───────────────────────────────────────────────────

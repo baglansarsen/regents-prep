@@ -10,7 +10,7 @@ import { useAuthContext } from '../context/AuthContext'
 import { useSubject } from '../context/SubjectContext'
 import { useProgress } from '../hooks/useProgress'
 import { useDailyStreak } from '../hooks/useDailyStreak'
-import { useXP } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { useLivesContext } from '../context/LivesContext'
 import { useDailyGoal } from '../hooks/useDailyGoal'
 import { useMistakes } from '../hooks/useMistakes'
@@ -42,7 +42,7 @@ import { FOOD_ITEMS } from '../data/petConfig'
 import { PET_RESULTS } from '../data/petPersonality'
 import PlacementTestScreen from './PlacementTestScreen'
 import { useLeague, formatCountdown, msUntilReset } from '../hooks/useLeague'
-import { getLevel } from '../hooks/useXP'
+import { getLevel } from '../hooks/useRP'
 import { useStudyTime, formatTime as fmtStudyTime } from '../hooks/useStudyTime'
 import { getExamLabel, getDaysUntilExam } from '../utils/examDates'
 import NudgeBanner from '../components/NudgeBanner'
@@ -97,7 +97,7 @@ export default function HomeScreen({ navigation }) {
 
   const { history, reloadHistory } = useProgress(uid)
   const { weekDays, streak, studiedToday, hasFreeze, buyFreeze } = useDailyStreak(uid)
-  const { xp, earnXP, spendXP, loaded: xpLoaded } = useXP(uid)
+  const { rp, earnRP, spendRP, loaded: rpLoaded } = useRP(uid)
   const { lives, maxLives, nextRefillAt, refillLives } = useLivesContext()
   const { todaySeconds } = useStudyTime(uid, null, null)  // read-only: no session, just load persisted totals
 
@@ -129,7 +129,7 @@ export default function HomeScreen({ navigation }) {
         const top  = earned[earned.length - 1]
         const gift = MILESTONE_GIFTS[top]
         await AsyncStorage.setItem(key, String(top)).catch(() => {})
-        if (gift.xp)      await earnXP(gift.xp)
+        if (gift.xp)      await earnRP(gift.xp)
         for (const [itemId, qty] of Object.entries(gift.items ?? {})) {
           await addInventory(itemId, qty)
         }
@@ -149,7 +149,7 @@ export default function HomeScreen({ navigation }) {
     }).then((msg) => { if (msg) say(msg) }).catch(() => {})
   }, [reloadHistory, reloadSkipUnlocks, pendingEvolution, uid, streak]))
 
-  const { goal, setGoal, todayXP, progress: goalProgress, goalMet, GOALS, celebrated, markCelebrated } = useDailyGoal(xp, xpLoaded)
+  const { goal, setGoal, todayRP, progress: goalProgress, goalMet, GOALS, celebrated, markCelebrated } = useDailyGoal(rp, rpLoaded)
   const { mistakes, mistakeCount } = useMistakes()
 
   // ── Exam countdown (real dates — computed once per render) ─────────────────
@@ -181,7 +181,7 @@ export default function HomeScreen({ navigation }) {
       AsyncStorage.removeItem('@levelUp').catch(() => {})
       const data = JSON.parse(raw)
       // Award bonus XP for levelling up
-      earnXP(200)
+      earnRP(200)
       setLevelUpModal(data)
     }).catch(() => {})
 
@@ -477,7 +477,7 @@ export default function HomeScreen({ navigation }) {
   async function handleDig() {
     const result = await dailyDig()
     if (!result.ok) return
-    if (result.type === 'xp') await earnXP(result.amount)
+    if (result.type === 'xp') await earnRP(result.amount)
     const label = result.type === 'xp'
       ? `${pet.name} found ⭐ ${result.amount} XP!`
       : `${pet.name} dug up a ${FOOD_ITEMS.find((f) => f.id === result.itemId)?.icon ?? '🎁'}!`
@@ -580,9 +580,9 @@ export default function HomeScreen({ navigation }) {
         </View>
 
         {/* Engagement nudge */}
-        {bannerResolved && !nudgeDismissed && !showFreezeBanner && getEngagementNudge('home', { streak, studiedToday, hasFreeze, weekDays, todayXP, goal, goalMet }) && (
+        {bannerResolved && !nudgeDismissed && !showFreezeBanner && getEngagementNudge('home', { streak, studiedToday, hasFreeze, weekDays, todayRP, goal, goalMet }) && (
           <NudgeBanner
-            {...getEngagementNudge('home', { streak, studiedToday, hasFreeze, weekDays, todayXP, goal, goalMet })}
+            {...getEngagementNudge('home', { streak, studiedToday, hasFreeze, weekDays, todayRP, goal, goalMet })}
             onDismiss={() => setNudgeDismissed(true)}
           />
         )}
@@ -631,7 +631,7 @@ export default function HomeScreen({ navigation }) {
             trackColor={C.surface2}
           >
             <Text style={[T.label, { color: C.text, textTransform: 'none', letterSpacing: 0, fontSize: 13 }]}>
-              {todayXP}
+              {todayRP}
             </Text>
           </GoalRing>
 
@@ -639,11 +639,11 @@ export default function HomeScreen({ navigation }) {
           <View style={{ flex: 1, marginLeft: 14 }}>
             <Text style={[T.h3, { color: C.text }]}>Daily Goal</Text>
             <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-              {todayXP} / {goal} XP today
+              {todayRP} / {goal} XP today
             </Text>
             {goalMet
               ? <Text style={[T.small, { color: C.correct, marginTop: 3 }]}>🎯 Goal reached!</Text>
-              : <Text style={[T.small, { color: C.textMuted, marginTop: 3 }]}>{goal - todayXP} XP to go</Text>
+              : <Text style={[T.small, { color: C.textMuted, marginTop: 3 }]}>{goal - todayRP} XP to go</Text>
             }
           </View>
 
@@ -1157,7 +1157,7 @@ export default function HomeScreen({ navigation }) {
             <Text style={{ fontSize: 64, textAlign: 'center' }}>🎯</Text>
             <Text style={[T.h2, { color: C.text, textAlign: 'center', marginTop: 8 }]}>Daily Goal Reached!</Text>
             <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 4 }]}>
-              {todayXP} XP earned today
+              {todayRP} XP earned today
             </Text>
             <View style={{ backgroundColor: C.brand + '20', borderRadius: 12, padding: 12, marginTop: 16, alignItems: 'center' }}>
               <Text style={{ fontSize: 36 }}>{PET_RESULTS[pet.petType]?.emoji ?? '🐾'}</Text>

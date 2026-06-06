@@ -6,7 +6,7 @@ import {
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
-import { useXP } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { appendMistakes } from '../hooks/useMistakes'
 import { usePetContext } from '../context/PetContext'
@@ -27,7 +27,7 @@ export default function ExamScreen({ route, navigation }) {
   const insets = useSafeAreaInsets()
   const { user } = useAuthContext()
   const uid = user?.uid
-  const { xp, earnXP } = useXP(uid)
+  const { xp, earnXP } = useRP(uid)
   const { markStudied } = useDailyStreak(uid)
   const { checkAndEvolve } = usePetContext()
 
