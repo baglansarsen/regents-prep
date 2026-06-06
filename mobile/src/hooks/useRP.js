@@ -154,5 +154,5 @@ export function useRP(uid) {
     return true
   }, [uid])
 
-  return { rp, weeklyRP, earnRP, spendRP, loaded, level: getLevel(rp) }
+  return { rp, weeklyRP, earnRP, spendRP, loaded, level: getLevel(rp), xp: rp, earnXP: earnRP, spendXP: spendRP }
 }

@@ -45,10 +45,10 @@ function getHomeNudge({ streak, studiedToday, hasFreeze, weekDays, todayXP, goal
   return null
 }
 
-function getResultsNudge({ pct, xpEarned, rp  level }) {
+function getResultsNudge({ pct, xpEarned, rp, level }) {
   // Check if close to next level
   if (level.next && level.next.min - rp <= 100 && level.next.min - rp > 0) {
-    const gap = level.next.min - xp
+    const gap = level.next.min - rp
     return {
       message: `Only ${gap} XP to reach ${level.next.name}!`,
       emoji: '⬆️',

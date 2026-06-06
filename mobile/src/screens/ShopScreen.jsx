@@ -24,7 +24,7 @@ export default function ShopScreen({ navigation }) {
   const { user } = useAuthContext()
   const uid = user?.uid
 
-  const { rp  spendXP }                                = useRP(uid)
+  const { rp, spendXP }                                = useRP(uid)
   const { hasFreeze, buyFreeze }                        = useDailyStreak(uid)
   const { lives, maxLives, refillLives }                = useLivesContext()
   const { isActive, timeLeft, activateBoost, COST_RP }  = useDoubleRP()

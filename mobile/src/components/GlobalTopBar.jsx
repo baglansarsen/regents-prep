@@ -50,7 +50,7 @@ export default function GlobalTopBar() {
 
   const { subject, setSubject }                          = useSubject()
   const { streak, hasFreeze, buyFreeze }                 = useDailyStreak(uid)
-  const { rp  spendXP }                                  = useRP(uid)
+  const { rp, xp, spendXP }                                  = useRP(uid)
   const { lives, maxLives, nextRefillAt, refillLives, addLife, isSubscribed } = useLivesContext()
   const secsUntilRefill = useCountdown(lives < maxLives ? nextRefillAt : null)
   const { isActive: boostActive, timeLeft: boostTimeLeft }     = useDoubleRP()
@@ -171,7 +171,7 @@ export default function GlobalTopBar() {
         >
           <View style={s.xpRow}>
             <Text style={s.statText}>
-              ⭐ {xp >= 1000 ? `${(xp / 1000).toFixed(1)}k` : rp 
+              ⭐ {xp >= 1000 ? `${(xp / 1000).toFixed(1)}k` : rp} 
             </Text>
             {boostActive && (
               <View style={s.boostBadge}>

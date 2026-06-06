@@ -46,7 +46,7 @@ export default function QuizScreen({ route, navigation }) {
   const { saveResult, isMastered } = useProgress(uid)
   const { rpMultiplier }           = useDoubleRP()
   const { markStudied }          = useDailyStreak(uid)
-  const { rp  earnXP, spendXP }  = useRP(uid)
+  const { rp, earnXP, spendXP }  = useRP(uid)
   const { lives, maxLives, nextRefillAt, loseLife, refillLives, addLife } = useLivesContext()
   const { ready: adReady, showAd } = useRewardedAd({ onReward: addLife })
   const { checkAndEvolve, triggerReaction, updateQuestProgress, getPetMessage, studyBoost, pet } = usePetContext()

@@ -18,7 +18,7 @@ export default function PetShopScreen({ navigation }) {
   const { C }              = useTheme()
   const { user }           = useAuthContext()
   const { pet, inventory, feedPet, playWithPet, addInventory, toggleCosmetic, renamePet, switchBuddy } = usePetContext()
-  const { rp  spendXP }   = useRP(user?.uid)
+  const { rp, spendXP }   = useRP(user?.uid)
   const { say }           = useSpeechContext()
 
   const insets = useSafeAreaInsets()

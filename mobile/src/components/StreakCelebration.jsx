@@ -122,7 +122,7 @@ function WeekChain({ weekDays, accent }) {
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
-export default function StreakCelebration({ event, onClose, weekDays, streak, rp  hasFreeze, onBuyFreeze, onRepair }) {
+export default function StreakCelebration({ event, onClose, weekDays, streak, rp, hasFreeze, onBuyFreeze, onRepair }) {
   const { C } = useTheme()
   const cardScale  = useRef(new Animated.Value(0.85)).current
   const cardOpacity = useRef(new Animated.Value(0)).current

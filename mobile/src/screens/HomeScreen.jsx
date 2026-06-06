@@ -49,10 +49,10 @@ import NudgeBanner from '../components/NudgeBanner'
 import { getEngagementNudge } from '../hooks/useEngagementNudge'
 
 const MILESTONE_GIFTS = {
-  3:  { rp  100,  items: {},                       label: '100 ⭐ RP!' },
-  7:  { rp  250,  items: { apple: 1 },             label: '250 ⭐ RP + 🍎 Apple!' },
-  14: { rp  500,  items: { ramen: 1 },             label: '500 ⭐ RP + 🍜 Ramen!' },
-  30: { rp  1000, items: { sushi: 1, glowAura: 1 }, label: '1000 ⭐ RP + 🍣 Sushi + ✨ Glow Aura!' },
+  3:  { rp: 100,  items: {},                       label: '100 ⭐ RP!' },
+  7:  { rp: 250,  items: { apple: 1 },             label: '250 ⭐ RP + 🍎 Apple!' },
+  14: { rp: 500,  items: { ramen: 1 },             label: '500 ⭐ RP + 🍜 Ramen!' },
+  30: { rp: 1000, items: { sushi: 1, glowAura: 1 }, label: '1000 ⭐ RP + 🍣 Sushi + ✨ Glow Aura!' },
 }
 
 const GOAL_PET_MESSAGES = {

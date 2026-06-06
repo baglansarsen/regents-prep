@@ -39,7 +39,7 @@ async function save(uid, lives, nextRefillAt) {
   try {
     await AsyncStorage.multiSet([
       [KEY_LIVES,     String(lives)],
-      [KEY_REFILL_AT, nextRefillAt],
+      [KEY_REFILL_AT, nextRefillAt ?? ''],
     ])
   } catch (_) {}
 

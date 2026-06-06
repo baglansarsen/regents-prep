@@ -87,7 +87,7 @@ export default function ResultsScreen({ route, navigation }) {
   const { C } = useTheme()
   const { user } = useAuthContext()
   const { streak, weekDays } = useDailyStreak(user?.uid)
-  const { rp } = useRP(user?.uid)
+  const { rp, xp } = useRP(user?.uid)
 
   const [diveDeepQ,      setDiveDeepQ]      = useState(null)
   const [showCelebration, setShowCelebration] = useState(firstMastery)
@@ -211,7 +211,7 @@ export default function ResultsScreen({ route, navigation }) {
 
         {/* Engagement nudge */}
         {xp !== undefined && (() => {
-          const nudge = getEngagementNudge('results', { pct, xpEarned, rp  level: getLevel(xp) })
+          const nudge = getEngagementNudge('results', { pct, xpEarned, rp, level: getLevel(xp) })
           return nudge && <NudgeBanner {...nudge} />
         })()}
 

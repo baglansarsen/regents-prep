@@ -45,7 +45,7 @@ export default function ProgressScreen({ navigation }) {
 
   const { history, masteryPct, isMastered } = useProgress(uid)
   const { streak, weekDays, studiedToday } = useDailyStreak(uid)
-  const { rp  level, spendXP } = useRP(uid)
+  const { rp, xp, level, spendXP } = useRP(uid)
 
   const subjectHistory = history.filter((h) => (h.subject ?? 'living-environment') === subject)
   const totalQuizzes   = subjectHistory.length
@@ -53,7 +53,7 @@ export default function ProgressScreen({ navigation }) {
     ? Math.round(subjectHistory.reduce((a, h) => a + (h.pct ?? 0), 0) / totalQuizzes)
     : 0
 
-  const nextLevel  = LEVELS.find((l) => l.min > rp 
+  const nextLevel  = LEVELS.find((l) => l.min > rp)
   const xpProgress = nextLevel ? (xp - level.min) / (nextLevel.min - level.min) : 1
 
   const s = makeStyles(C)

@@ -24,7 +24,7 @@ export function getLevel(xp) {
     ...current,
     next,
     progress:  next ? Math.min(1, (xp - current.xpMin) / xpSpan) : 1,
-    xpToNext:  next ? Math.max(0, next.xpMin - rp  : 0,
+    xpToNext:  next ? Math.max(0, next.xpMin - xp) : 0,
   }
 }
 

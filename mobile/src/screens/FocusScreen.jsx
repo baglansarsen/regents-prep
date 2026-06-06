@@ -133,7 +133,7 @@ export default function FocusScreen({ navigation }) {
   }, [triggerReaction, studyBoost])
 
   const session = useFocusSession(uid, earnXP, handlePomodoroComplete)
-  const { phase, secondsLeft, progress, pomodoroCount, sessionXP, partialMinutes, cyclePosition,
+  const { phase, secondsLeft, progress, pomodoroCount, sessionRP, partialMinutes, cyclePosition,
           preset, setPreset, subject, setSubject, sound, setSound, sessionGoal, setSessionGoal,
           todos, addTodo, toggleTodo,
           start, pause, resume, skip, stop, reset,
@@ -271,7 +271,7 @@ export default function FocusScreen({ navigation }) {
             )}
             <View style={[s.doneStat, { backgroundColor: C.warnBg }]}>
               <Text style={s.doneStatEmoji}>⭐</Text>
-              <Text style={[s.doneStatVal, { color: C.warn }]}>+{sessionXP}</Text>
+              <Text style={[s.doneStatVal, { color: C.warn }]}>+{sessionRP}</Text>
             </View>
           </View>
 

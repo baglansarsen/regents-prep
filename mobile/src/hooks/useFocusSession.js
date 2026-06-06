@@ -161,6 +161,8 @@ export function useFocusSession(uid, earnRP, onPomodoroComplete) {
             if (sound.id !== 'off' && phaseRef.current === 'focus') {
               soundRef.current?.playAsync?.().catch(() => {})
             }
+            clearInterval(intervalRef.current)
+            intervalRef.current = setInterval(tick, 1000)
           }
         }
       }
@@ -268,6 +270,7 @@ export function useFocusSession(uid, earnRP, onPomodoroComplete) {
     const resumedPhase = prePausePhase.current
     phaseRef.current = resumedPhase
     setPhase(resumedPhase)
+    endTimeRef.current = Date.now() + secsLeftRef.current * 1000
     activeRef.current = true
     if (resumedPhase === 'focus') {
       startSound()
@@ -359,7 +362,7 @@ export function useFocusSession(uid, earnRP, onPomodoroComplete) {
     // Todos
     todos, addTodo, toggleTodo, clearTodos,
     // Timer state
-    phase, secondsLeft, pomodoroCount, sessionRP, partialMinutes,
+    phase, secondsLeft, pomodoroCount, sessionRP, partialMinutes, sessionXP: sessionRP,
     cyclePosition,
     // Controls
     start, pause, resume, skip, stop, reset,

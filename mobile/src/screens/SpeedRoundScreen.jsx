@@ -23,7 +23,7 @@ export default function SpeedRoundScreen({ route, navigation }) {
   const { C } = useTheme()
   const { user } = useAuthContext()
   const uid = user?.uid
-  const { rp  earnXP } = useRP(uid)
+  const { rp, earnXP } = useRP(uid)
   const { markStudied } = useDailyStreak(uid)
   const { rpMultiplier } = useDoubleRP()
   const { checkAndEvolve, updateQuestProgress } = usePetContext()

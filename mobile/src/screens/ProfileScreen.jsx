@@ -40,7 +40,7 @@ export default function ProfileScreen({ navigation }) {
   const uid = user?.uid
 
   const { history }                   = useProgress(uid)
-  const { rp  weeklyXP }              = useRP(uid)
+  const { rp, xp, weeklyXP }              = useRP(uid)
   const { streak, longestStreak }     = useDailyStreak(uid)
   const level                         = getLevel(xp)
   const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
@@ -203,7 +203,7 @@ export default function ProfileScreen({ navigation }) {
           {[
             { num: totalQuizzes, label: 'Quizzes' },
             { num: `${avgScore}%`, label: 'Avg Score' },
-            { num: rp  label: 'Total RP' },
+            { num: rp, label: 'Total RP' },
           ].map(({ num, label }) => (
             <View key={label} style={[s.statCard, cardShadow(C.shadow)]}>
               <Text style={[T.num, { color: C.brand, fontSize: 24 }]}>{num}</Text>

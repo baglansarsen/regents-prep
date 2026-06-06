@@ -27,7 +27,7 @@ export default function ExamScreen({ route, navigation }) {
   const insets = useSafeAreaInsets()
   const { user } = useAuthContext()
   const uid = user?.uid
-  const { rp  earnXP } = useRP(uid)
+  const { rp, earnXP } = useRP(uid)
   const { markStudied } = useDailyStreak(uid)
   const { checkAndEvolve } = usePetContext()
 
@@ -71,7 +71,7 @@ export default function ExamScreen({ route, navigation }) {
     }).length
     const xpEarned  = correct * 5
     earnXP(xpEarned)
-    checkAndEvolve(xp + xpEarned)
+    checkAndEvolve(rp + xpEarned)
     markStudied()
 
     // Persist wrong MC answers for "Practice Mistakes" mode
