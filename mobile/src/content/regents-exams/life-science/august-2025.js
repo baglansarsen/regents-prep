@@ -1,4 +1,4 @@
-// Life Science: Biology Regents — August 2025
+// Enriched: 27 questions with explanation/diveDeep
 export default {
   id: 'ls-aug-2025',
   subject: 'life-science',

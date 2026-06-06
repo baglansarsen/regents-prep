@@ -1,5 +1,4 @@
-// Auto-generated raw wire-up from output/data/english/june-2016.json
-// Real extracted questions; explanation/diveDeep enrichment is a later pass.
+// Enriched: 24 questions with explanation/diveDeep
 export default {
   "id": "eng-jun-2016",
   "subject": "english",
@@ -17,7 +16,9 @@ export default {
         "anxiety",
         "regret"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "The passage describes the street as 'blind' and 'quiet,' with 'ruinous houses' and a cold, damp atmosphere, which creates a somber, gloomy mood.",
+      "diveDeep": "Choice 1 is incorrect because the neighborhood is described with emotional weight, not indifference. Choice 3 is incorrect because the setting suggests quiet decay rather than tense anxiety. Choice 4 is incorrect because there is no sense of regret or longing for the past in the physical description itself. Students often confuse a gloomy setting with anxiety, but the quiet, dark, and inactive environment specifically evokes gloom."
     },
     {
       "number": 2,
@@ -29,7 +30,9 @@ export default {
         "“yet her name was like a summons” (lines 23 and 24)",
         "“She asked me was I going to Araby” (line 26)"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "Comparing her name to a 'summons' that calls to all his 'foolish blood' shows his intense obsession and romantic infatuation.",
+      "diveDeep": "Choice 1 is incorrect as it describes a simple physical action of watching from the shadows. Choice 2 is incorrect because it describes waiting for her rather than his internal attitude towards her. Choice 4 is incorrect because it is a direct quote from Mangan's sister rather than the narrator's reflection on her. Students sometimes choose Choice 1 due to the imagery of 'shadows,' but Choice 3 directly addresses his obsessive, worshipful attitude."
     },
     {
       "number": 3,
@@ -41,7 +44,9 @@ export default {
         "disappointment",
         "tension"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "Mangan's sister expresses disappointment that she cannot go to Araby because 'there would be a retreat that week in her convent.'",
+      "diveDeep": "Choice 1 is incorrect because she is talking to the narrator about it, showing she is not disinterested. Choice 2 is incorrect because her tone is serious about her religious retreat, not silly. Choice 4 is incorrect because there is no conflict or tension indicated, only regret that she cannot attend. Students might choose tension because they expect awkwardness in a teenage interaction, but the text explicitly states the retreat prevents her from going, causing disappointment."
     },
     {
       "number": 4,
@@ -53,7 +58,9 @@ export default {
         "eliminated distractions from his daily routine",
         "reassessed his relationship with his family"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The narrator notes that his normal schoolwork now seems like 'child's play' and 'ugly monotonous child's play' compared to his thoughts of Araby and Mangan's sister.",
+      "diveDeep": "Choice 2 is incorrect because the narrator is losing interest in his studies, not determining an academic focus. Choice 3 is incorrect because his thoughts of her are a distraction he cannot eliminate. Choice 4 is incorrect because his relationship with his family is not reassessed here, only his lack of focus on school. Students often mistake the narrator's criticism of school as a plan to focus on another study, whereas he is simply infatuated."
     },
     {
       "number": 5,
@@ -65,7 +72,9 @@ export default {
         "persecution",
         "deception"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "The train is described as nearly empty ('tolerably empty') and moving through 'ruinous houses' and over a 'twinkling river' in solitude, highlighting the narrator's isolation on his journey.",
+      "diveDeep": "Choice 1 is incorrect because his journey has a clear purpose, showing no confusion about his destination. Choice 3 is incorrect because the narrator is not being persecuted or chased. Choice 4 is incorrect because there is no deception involved in the train ride itself. Students may choose confusion due to the strange surroundings, but the emphasis on the empty train and lack of company points to isolation."
     },
     {
       "number": 6,
@@ -77,7 +86,9 @@ export default {
         "false promise",
         "lasting love"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "The narrator arrives to find the bazaar mostly closed, dark, and silent, representing the collapse of his romanticized expectations and false promise.",
+      "diveDeep": "Choice 1 is incorrect because the bazaar is closing and empty, not displaying excessive greed. Choice 2 is incorrect because it represents disillusionment rather than future wealth. Choice 4 is incorrect because the narrator's infatuation is shattered, not fulfilled as lasting love. Students are often misled by the earlier magical descriptions of Araby, but its reality is a disappointment."
     },
     {
       "number": 7,
@@ -89,7 +100,9 @@ export default {
         "childhood memories",
         "romantic feelings"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "The narrator's entire quest to go to Araby is motivated by his romantic infatuation with Mangan's sister and his promise to bring her a gift.",
+      "diveDeep": "Choice 1 is incorrect because he ignores schoolwork and finds it tedious. Choice 2 is incorrect because his family's delay actually hinders his quest, and he acts in spite of them. Choice 3 is incorrect because he is focused on his immediate romantic obsession rather than past memories. Students might choose family situation because his uncle's lateness is a key plot point, but his actions are driven by his infatuation."
     },
     {
       "number": 8,
@@ -101,7 +114,9 @@ export default {
         "rewarded",
         "flattered"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "In the context of the narrator's self-realization of vanity, he sees himself as a creature driven and mocked or taunted by his own foolish illusions.",
+      "diveDeep": "Choice 2 is incorrect because he is not physically or socially restrained by vanity. Choices 3 and 4 are incorrect because the narrator feels shame and anger, which are opposite to feeling rewarded or flattered. Students often confuse 'derided' with 'restrained' because vanity limits his success, but 'derided' means mocked or taunted."
     },
     {
       "number": 9,
@@ -113,7 +128,9 @@ export default {
         "realized his limitations",
         "denied his responsibilities"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "The narrator realizes the vanity and futility of his romanticized quest as the bazaar closes in darkness, forcing him to face his limitations.",
+      "diveDeep": "Choice 1 is incorrect because he did not ignore his opportunities; he actively pursued going to Araby. Choice 2 is incorrect because he does not defend his family, nor is his anger directed at them. Choice 4 is incorrect because his frustration is about failing to achieve his illusion, not denying responsibilities. Students often think the anger is directed at his uncle's lateness, but the final lines show it is self-directed frustration."
     },
     {
       "number": 10,
@@ -123,9 +140,11 @@ export default {
         "“Her brother and two other boys were fighting for their caps” (lines 30 and 31)",
         "“ ‘Can’t you give him the money and let him go?’ ” (lines 57 and 58)",
         "“It crept onward among ruinous houses and over the twinkling river” (lines 62 and 63)",
-        "“I lingered before her stall, though I knew my stay was useless” (line 81) Regents Exam in ELA (Common Core) — June ’16 p g p y p voice call from one end of the gallery that the light was out. The upper part of the hall was now completely dark. Gazing up into the darkness I saw myself as a creature driven and derided by vanity; and my eyes burned with anguish and anger. 85 —James Joyce excerpted from “Araby” Dubliners, 1914 Grant Richards LTD. Regents Exam in ELA (Common Core) — June ’16 Reading Comprehension Passage B Assembly Line In time’s assembly line Night presses against night. We come off the factory night-shift In line as we march towards home. Over our heads in a row The assembly line of stars Stretches across the sky. Beside us, little trees Stand numb in assembly lines. The stars must be exhausted After thousands of years Of journeys which never change. The little trees are all sick, Choked on smog and monotony, Stripped of their color and shape. It’s not hard to feel for them; We share the same tempo and rhythm. Yes, I’m numb to my own existence As if, like the trees and stars —perhaps just out of habit —perhaps just out of sorrow, I’m unable to show concern For my own manufactured fate. 5 10 15 20"
+        "“I lingered before her stall, though I knew my stay was useless” (line 81)"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "This line captures the narrator's ultimate realization of the futility of his quest, highlighting the theme of disillusionment.",
+      "diveDeep": "Choice 1 is incorrect as it simply describes children playing in the street. Choice 2 is incorrect because it is a dialogue about money and does not convey the deeper thematic meaning. Choice 3 is incorrect because it is a description of the train route. Students may select Choice 3 because of its poetic description, but Choice 4 directly shows the narrator's recognition of reality overcoming his fantasy."
     },
     {
       "number": 11,
@@ -137,7 +156,9 @@ export default {
         "allusion",
         "understatement"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The poet uses the repetition of 'night' and 'assembly line' to reinforce the monotonous and repetitive nature of factory work and human existence.",
+      "diveDeep": "Choice 2 is incorrect because there is no direct comparison using 'like' or 'as' in the first stanza. Choice 3 is incorrect because there are no references to historical, literary, or religious events. Choice 4 is incorrect because the language is direct and somber, not understated. Students might mistake the metaphorical comparison to assembly lines as a simile, but it lacks the words 'like' or 'as.'"
     },
     {
       "number": 12,
@@ -149,7 +170,9 @@ export default {
         "recreation and production",
         "sound and motion"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "Line 17 ('We share the same tempo and rhythm') directly connects the exhausted, numb human workers with the sick, choked trees and stars.",
+      "diveDeep": "Choice 1 is incorrect because the parallel does not focus on profit or economic gain. Choice 3 is incorrect because recreation is not discussed in the poem. Choice 4 is incorrect because the poem focuses on stagnation and monotony rather than sound and motion. Students often look for economic terms because of 'assembly line,' but the parallel is ecological and human."
     },
     {
       "number": 13,
@@ -161,7 +184,9 @@ export default {
         "selfishness",
         "uncertainty"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "The use of 'perhaps just out of habit—perhaps just out of sorrow' structure indicates the narrator's uncertainty about the reasons for their numbness.",
+      "diveDeep": "Choice 1 is incorrect because the narrator is too numb to feel active bitterness. Choices 2 and 3 are incorrect because the narrator lacks determination or selfishness, expressing instead a total lack of concern or drive. Students often confuse sorrow with bitterness, but the hesitant 'perhaps' structure points to uncertainty."
     },
     {
       "number": 14,
@@ -171,9 +196,11 @@ export default {
         "resignation to life",
         "desire for control",
         "hope for change",
-        "rejection of nature —Shu Ting from A Splintered Mirror: Chinese Poetry from the Democracy Movement, 1991 translated by Carolyn Kizer North Point Press Reading Comprehension Passage C …Memory teaches me what I know of these matters. The boy reminds the adult. I was a bilingual child, but of a certain kind: “socially disadvantaged,” the son of working-class parents, both Mexican immigrants. … In public, my father and mother spoke a hesitant, accented, and not always grammatical English. And then they would have to strain, their bodies tense, to catch the sense of what was rapidly said by los gringos. At home, they returned to Spanish. The language of their Mexican past sounded in counterpoint to the English spoken in public. The words would come quickly, with ease. Conveyed through those sounds was the pleasing, soothing, consoling reminder that one was at home. During those years when I was first learning to speak, my mother and father addressed me only in Spanish; in Spanish I learned to reply. By contrast, English (inglés) was the language I came to associate with gringos, rarely heard in the house. I learned my first words of English overhearing my parents speaking to strangers. At six years of age, I knew just enough words for my mother to trust me on errands to stores one block away—but no more. I was then a listening child, careful to hear the very different sounds of Spanish and English. Wide-eyed with hearing, I’d listen to sounds more than to words. First, there were English (gringo) sounds. So many words still were unknown to me that when the butcher or the lady at the drugstore said something, exotic polysyllabic sounds would bloom in the midst of their sentences. Often the speech of people in public seemed to me very loud, booming with confidence. The man behind the counter would literally ask, “What can I do for you?” But by being so firm and clear, the sound of his voice said that he was a gringo; he belonged in public society. There were also the high, nasal notes of middle-class American speech—which I rarely am conscious of hearing today because I hear them so often, but could not stop hearing when I was a boy. Crowds at Safeway or at bus stops were noisy with the birdlike sounds of los gringos. I’d move away from them all—all the chirping chatter above me. My own sounds I was unable to hear, but I knew that I spoke English poorly. My words could not extend to form complete thoughts. And the words I did speak I didn’t know well enough to make distinct sounds. (Listeners would usually lower their heads to hear better what I was trying to say). But it was one thing for me to speak English with difficulty; it was more troubling to hear my parents speaking in public: their high-whining vowels and guttural1 consonants; their sentences that got stuck with “eh” and “ah” sounds; the confused syntax; the hesitant rhythm of sounds so different from the way gringos spoke. I’d notice, moreover, that my parents’ voices were softer than those of gringos we would meet. I am tempted to say now that none of this mattered. (In adulthood I am embarrassed by childhood fears.) And, in a way, it didn’t matter very much that my parents could not speak English with ease. Their linguistic difficulties had no serious consequences. My mother and father made themselves understood at the county hospital clinic and at government offices. And yet, in another way, it mattered very much. It was unsettling to hear my parents struggle with English. Hearing them, I’d grow nervous, and my clutching trust in their protection and power would be weakened. … But then there was Spanish: español, the language rarely heard away from the house; español, the language which seemed to me therefore a private language, my family’s language. To hear its sounds was to feel myself specially recognized as one of the family, apart from los otros.2 A simple remark, an inconsequential comment could convey that 5 10 15 20 25 30 35 40 45 1guttural — throaty 2los otros — the others Regents Exam in ELA (Common Core) — June ’16 assurance. My parents would say something to me and I would feel embraced by the sounds of their words. Those sounds said: I am speaking with ease in Spanish. I am addressing you in words I never use with los gringos. I recognize you as someone special, close, like no one outside. You belong with us. In the family. Ricardo. At the age of six, well past the time when most middle-class children no longer notice the difference between sounds uttered at home and words spoken in public, I had a different experience. I lived in a world compounded of sounds. I was a child longer than most. I lived in a magical world, surrounded by sounds both pleasing and fearful. I shared with my family a language enchantingly private—different from that used in the city around us. … If I rehearse here the changes in my private life after my Americanization, it is finally to emphasize a public gain. The loss implies the gain. The house I returned to each afternoon was quiet. Intimate sounds no longer greeted me at the door. Inside there were other noises. The telephone rang. Neighborhood kids ran past the door of the bedroom where I was reading my schoolbooks—covered with brown shopping-bag paper. Once I learned the public language, it would never again be easy for me to hear intimate family voices. More and more of my day was spent hearing words, not sounds. But that may only be a way of saying that on the day I raised my hand in class and spoke loudly to an entire roomful of faces, my childhood started to end. … 50 55 60 65 Regents Exam in ELA (Common Core) — June ’16"
+        "rejection of nature"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The phrase 'manufactured fate' implies that the narrator's life is pre-determined and artificial, leading to a sense of resignation to their existence.",
+      "diveDeep": "Choice 2 is incorrect because the narrator feels they have no control over their fate. Choice 3 is incorrect because the tone is hopeless, offering no signs of change. Choice 4 is incorrect because they are not actively rejecting nature, but rather identifying with its ruined state. Students might assume 'manufactured' implies a desire to build or control, but in this context, it means artificial and forced."
     },
     {
       "number": 15,
@@ -185,7 +212,9 @@ export default {
         "creativity",
         "disposition"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "The phrase shows that the narrator is looking back at his childhood from an adult perspective, reflecting on his bilingual past.",
+      "diveDeep": "Choice 1 is incorrect because the phrase describes a structural point of view rather than an emotional mood. Choice 3 is incorrect because the phrase does not highlight creative writing or imagination. Choice 4 is incorrect because 'disposition' refers to character temperament, not retrospective viewpoint. Students often confuse perspective with mood, but here the phrase directly sets up the dual timeline of memory."
     },
     {
       "number": 16,
@@ -197,7 +226,9 @@ export default {
         "contrasting cultures",
         "conflicting philosophies"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "The narrator uses 'counterpoint' to describe the Spanish spoken at home versus the English spoken in public, representing the clash of contrasting cultures.",
+      "diveDeep": "Choice 1 is incorrect because it is not about differing memories, but simultaneous linguistic experiences. Choice 2 is incorrect because the narrator is describing language, not moral principles. Choice 4 is incorrect because the conflict is cultural and linguistic rather than philosophical. Students might confuse 'counterpoint' as a purely musical term, but here it metaphorically represents the interplay of two cultures."
     },
     {
       "number": 17,
@@ -209,7 +240,9 @@ export default {
         "frustration with authority",
         "anxiety about adulthood"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The metaphor of 'exotic polysyllabic sounds would bloom' suggests the narrator's wonder and eagerness to understand the English language.",
+      "diveDeep": "Choice 2 is incorrect because he is not seeking personal recognition in this line, but merely listening. Choice 3 is incorrect because the narrator is fascinated by the sounds, not frustrated by authority. Choice 4 is incorrect because as a young boy, he is curious about the sounds rather than anxious about adulthood. Students often miss the positive connotation of 'bloom,' which indicates growth and eagerness."
     },
     {
       "number": 18,
@@ -221,7 +254,9 @@ export default {
         "satisfaction",
         "separation"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "The word 'public' contrasts with the narrator's private home life, emphasizing his feeling of separation and isolation from the English-speaking world.",
+      "diveDeep": "Choices 1 and 3 are incorrect because the narrator feels insecure and isolated in public, not accomplished or satisfied. Choice 2 is incorrect because he is not disillusioned by the public world, but rather intimidated and separated from it. Students often confuse separation with disillusionment, but the primary conflict is the boundary between the private family space and public society."
     },
     {
       "number": 19,
@@ -233,7 +268,9 @@ export default {
         "distinguish between languages",
         "express emotions"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The narrator notes that his words 'could not extend to form complete thoughts' and he spoke poorly, showing his inability to communicate effectively in English.",
+      "diveDeep": "Choice 2 is incorrect because his focus is on the mechanics of speaking, not cultural understanding. Choice 3 is incorrect because he is highly aware of the difference between the two languages. Choice 4 is incorrect because his struggles are linguistic, not emotional. Students might think he cannot express emotions, but the text specifically details his lack of vocabulary and distinct sounds."
     },
     {
       "number": 20,
@@ -245,7 +282,9 @@ export default {
         "educational concerns",
         "hostile thoughts"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "The narrator admits that while his parents' struggles had 'no serious consequences,' it was still 'unsettling' and weakened his trust in their protection, showing his conflicting emotions.",
+      "diveDeep": "Choice 1 is incorrect because he does not show low expectations, but rather anxiety about their authority. Choice 3 is incorrect because his concerns are emotional and safety-related rather than educational. Choice 4 is incorrect because he feels nervous and vulnerable, not hostile or angry toward his parents. Students often miss the duality in the paragraph where he claims it 'didn't matter' but also 'mattered very much,' which defines conflicting feelings."
     },
     {
       "number": 21,
@@ -255,9 +294,11 @@ export default {
         "narrator’s sense of security",
         "family’s economic status",
         "family’s traditional beliefs",
-        "narrator’s feeling of confusion —Richard Rodriguez excerpted from “Aria: A Memoir of a Bilingual Childhood” The American Scholar, Winter 1981 The Phi Beta Kappa Society"
+        "narrator’s feeling of confusion"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "These lines focus on how hearing Spanish in the home made the narrator feel 'embraced' and 'specially recognized,' providing him with a sense of security.",
+      "diveDeep": "Choice 2 is incorrect because the text does not focus on the family's economic status in these lines. Choice 3 is incorrect because the passage emphasizes language and comfort rather than traditional or religious beliefs. Choice 4 is incorrect because Spanish is described as a source of clarity and belonging, not confusion. Students might choose confusion because of the bilingual theme, but the lines describe Spanish as a comforting refuge."
     },
     {
       "number": 22,
@@ -269,8 +310,10 @@ export default {
         "“My own sounds I was unable to hear, but I knew that I spoke English poorly” (line 28)",
         "“Hearing them, I’d grow nervous” (line 41)"
       ],
-      "correct": null,
-      "image": "/images/exams/english/june-2016/q22.png"
+      "correct": 1,
+      "image": "/images/exams/english/june-2016/q22.png",
+      "explanation": "The narrator describes himself as a 'listening child' who focused on the sounds of English and Spanish, which represents his overall relationship with language during his childhood.",
+      "diveDeep": "Choice 1 is incorrect because it only refers to Spanish, not his overall experience with both languages. Choice 3 is incorrect because it focuses solely on his poor English speech, ignoring his private comfort. Choice 4 is incorrect because it focuses only on his nervousness regarding his parents. Students are often drawn to Choice 3 due to its focus on struggle, but the narrator stresses that his childhood was defined by a 'world compounded of sounds' rather than semantic understanding."
     },
     {
       "number": 23,
@@ -282,19 +325,23 @@ export default {
         "uninterested in his school work",
         "undeterred from making new friends"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The narrator explains that gaining the public language meant losing the intimate family voices and the private connection he shared with his family.",
+      "diveDeep": "Choice 2 is incorrect because speaking English comfortably means he is no longer distressed by its sounds. Choice 3 is incorrect because he becomes successful in school, showing interest in his work. Choice 4 is incorrect because the loss refers to family intimacy, not a struggle to make friends. Students often struggle with the paradox of 'loss implies the gain,' but the author explicitly details that public integration leads to private distance."
     },
     {
       "number": 24,
       "part": "I",
       "text": "The narrator’s tone in lines 63 through 65 suggests",
       "choices": [
-        ", 45−70. Maury, M. and D. Kleiner: 2002, ‘E-Commerce, Ethical Commerce?’, Journal of Business Ethics 36",
-        ", 83-143 35 Regents Exam in ELA (Common Core) — June ’16 Finally, celebrities are held to be self-serving, engaging in humanitarian causes to burnish5 their careers. … Celebrity humanitarians should do their homework to earn credibility while also respecting their bounded roles as celebrity figures. As a celebrity humanitarian, Affleck’s proposals are based on serious preparation: spending years to gain an in-depth understanding, consulting with professionals, narrowing his advocacy efforts to a single region, and enduring the scrutiny of the cameras and the blogosphere. Besides this self-education, his credibility is based on ECI’s dual mission of re-granting and policymaking. Since ECI has operations and partnerships in the DRC [Democratic Republic of the Congo], the content of Affleck’s writings and Congressional testimonies are grounded in the realities of the DRC, peppered with first-hand accounts, and supported by statistics and other research. However, there are limits to his knowledge—Affleck is not a development expert or on-the-ground professional; his day job and main career lie elsewhere. And while the decision to found an organization suggests that Affleck’s commitment to the DRC will extend beyond his nascent6 efforts, rumors that he may seek political office distort this image. Celebrity humanitarians must find a way to avoid diverting resources and attention. Rather than bring his star power and ample financial support to existing Congolese organizations, ECI furnished a platform for Affleck’s advocacy and leadership that amplifies his voice over those of the Congolese. Nor was ECI crafted inside eastern Congo but in the offices of a strategic advisory firm based in Seattle. ECI is privately funded by a network of financial elites and does not rely on means-tested grant cycles or public support. While Affleck has received multiple awards in the short period he has been a celebrity humanitarian, his star power also distracts us from the people who work in the field of humanitarianism on a daily basis and rarely receive such recognition.7 And by concentrating attention and money for Affleck’s issue of Eastern Congo, other causes and countries may go unnoticed. … —Alexandra Cosima Budabin excerpted and adapted from “Do Celebrity Humanitarians Matter?” www.carnegiecouncil.org, December 11, 2014 40 45 50 55 60 5burnish — improve or enhance 6nascent — beginning 7Marina Hyde, “Angelina Jolie, Paris Hilton, Lassie and Tony Blair: here to save the world,” The Guardian,",
-        ", 21–32. 30 35 40 Regents Exam in ELA (Common Core) — June ’16 Text 3 Do Celebrity Humanitarians Matter? …Recent years have seen a growth industry for celebrities engaged in humanitarian activities. The website Look to the Stars has calculated that over 2,000 charities have some form of celebrity support. UNICEF has dozens of “Goodwill Ambassadors” and “Advocates” such as Angelina Jolie and Mia Farrow. Celebrities have entered forums for global governance to pressure political leaders: George Clooney has spoken before the United Nations while Bob Geldof, Bono, and Sharon Stone have attended summits like DAVOS1 and the G82 to discuss third world debt, poverty, and refugees. In the U.S. policy arena, [Ben] Affleck joins Nicole Kidman, Angelina Jolie, and other celebrities who have addressed the U.S. Congress on international issues.3 The increase in celebrity involvement has spurred debate in academic circles and mainstream media. Celebrity humanitarianism is alternately lauded for drawing media attention and fostering popular engagement and criticized on a number of ethical grounds. According to Mother Jones, Africa is experiencing a “recolonization” as celebrities from the U.S. and UK lay claim to particular countries as recipients of their star power: South Africa (Oprah), Sudan (Mia Farrow), and Botswana (Russell Simmons). As the involvement of American celebrities in humanitarian causes grows, let us consider the activities of Affleck and his Eastern Congo Initiative [ECI]. Celebrity Humanitarians Affleck can be considered a “celebrity humanitarian,” a celebrity figure who has moved beyond his/her day job as an entertainer to delve into the areas of foreign aid, charity, and development. These activities can involve fundraising, hosting concerts and events, media appearances, and engaging in advocacy. Celebrities are distinguished by their unique ability to attract and engage diverse audiences ranging from their fan base and the media to political elites and philanthropists. Celebrity humanitarians often play an important bridging role, introducing Northern publics to issues in the developing world. They also use their star power to gain access to policy-making circles to effect social and political change. Since 1980, the U.S. Congress has seen the frequency of celebrity witnesses double to around 20 a year with most celebrity appearances taking place before committees addressing domestic issues. Interestingly, fewer than 5 percent of celebrity witnesses testify before committees dealing with foreign relations, where celebrity humanitarians push the United States to address global concerns.4 The rise and influence of celebrity humanitarians activate debates on the consequences of their involvement. For some academics and practitioners, celebrities are welcome figures in humanitarianism: educating the public on global issues, raising funds, and using their populist appeal to draw attention to policy-making arenas. For others, celebrity humanitarians are highly problematic figures who dilute debates, offer misguided policy proposals, and lack credibility and accountability. Celebrity humanitarianism privileges and invests the celebrity figure with the responsibility of speaking on behalf of a “distant other” who is unable to give input or consent for their representation. Stakeholders in the developing world unwittingly rely on the celebrity humanitarian as their communicator, advocate, and fundraiser. 10 5 15 20 25 30 1DAVOS — an annual meeting of The World Economic Forum, hosted in Davos-Klosters, Switzerland, on global partnership 2G8 — A group of 8 industrialized nations that hold a yearly meeting to discuss global issues 3ProQuest, “Quick Start: Congressional Hearing Digital Collections: Famous (Celebrity) Witnesses,” http://proquest.libguides.com/quick_start_hearings/famouscelebs 4See Demaine, L.J., n.d. Navigating Policy by the Stars: The Influence of Celebrity Entertainers on Federal Lawmaking. Journal of Law & Politics, 25",
-        "intolerance Regents Exam in ELA (Common Core) — June ’16 Part 2 Argument Directions: Closely read each of the four texts provided on pages 10 through 17 and write a source-based argument on the topic below. You may use the margins to take notes as you read and scrap paper to plan your response. Write your argument beginning on page 1 of your essay booklet. Topic: Should celebrities become the voice of humanitarian causes? Your Task: Carefully read each of the four texts provided. Then, using evidence from at least three of the texts, write a well-developed argument regarding whether or not celebrities should become the voice of humanitarian causes. Clearly establish your claim, distinguish your claim from alternate or opposing claims, and use specific, relevant, and sufficient evidence from at least three of the texts to develop your argument. Do not simply sum- marize each text. Guidelines: Be sure to: • Establish your claim regarding whether or not celebrities should become the voice of humanitarian causes • Distinguish your claim from alternate or opposing claims • Use specific, relevant, and sufficient evidence from at least three of the texts to develop your argument • Identify each source that you reference by text number and line number(s) or graphic (for example: Text 1, line 4 or Text 2, graphic) • Organize your ideas in a cohesive and coherent manner • Maintain a formal style of writing • Follow the conventions of standard written English Texts: Text 1 – The Celebrity Solution Text 2 – Ethics of Celebrities and Their Increasing Influence in 21st Century Society Text 3 – Do Celebrity Humanitarians Matter? Text 4 – The Rise of the Celebrity Humanitarian Regents Exam in ELA (Common Core) — June ’16 Text 1 The Celebrity Solution In 2004, Natalie Portman, then a 22-year-old fresh from college, went to Capitol Hill to talk to Congress on behalf of the Foundation for International Community Assistance, or Finca, a microfinance organization for which she served as “ambassador.” She found herself wondering what she was doing there, but her colleagues assured her: “We got the meetings because of you.” For lawmakers, Natalie Portman was not simply a young woman — she was the beautiful Padmé from “Star Wars.” “And I was like, ‘That seems totally nuts to me,’ ” Portman told me recently. [sic] It’s the way it works, I guess. I’m not particularly proud that in our country I can get a meeting with a representative more easily than the head of a nonprofit can.” Well, who is? But it is the way it works. Stars — movie stars, rock stars, sports stars — exercise a ludicrous influence over the public consciousness. Many are happy to exploit that power; others are wrecked by it. In recent years, stars have learned that their intense presentness in people’s daily lives and their access to the uppermost realms of politics, business and the media offer them a peculiar kind of moral position, should they care to use it. And many of those with the most leverage — Bono and Angelina Jolie and Brad Pitt and George Clooney and, yes, Natalie Portman — have increasingly chosen to mount that pedestal. Hollywood celebrities have become central players on deeply political issues like development aid, refugees and government-sponsored violence in Darfur. Activists on these and other issues talk about the political power of stars with a mixture of bewilderment and delight. But a weapon that powerful is bound to do collateral damage. Some stars, like George Clooney, regard the authority thrust upon them with wariness; others, like Sean Penn or Mia Farrow, an activist on Darfur, seize the bully pulpit with both hands. “There is a tendency,” says Donald Steinberg, deputy president of the International Crisis Group, which seeks to prevent conflict around the world, “to treat these issues as if it’s all good and evil.” Sometimes you need the rallying cry, but sometimes you need to accept a complex truth. … An entire industry has sprung up around the recruitment of celebrities to good works. Even an old-line philanthropy like the Red Cross employs a “director of celebrity outreach.” Oxfam has a celebrity wrangler in Los Angeles, Lyndsay Cruz, on the lookout for stars who can raise the charity’s profile with younger people. In addition to established figures like Colin Firth and Helen Mirren, Oxfam is affiliated with Scarlett Johansson, who has visited South Asia (where the organization promotes girls’ education) and is scheduled to go to Mali. Cruz notes that while “trendy young people” are attracted to the star of “Match Point” and “Lost in Translation,” Johansson had “great credibility with an older audience because she’s such a great actress.” … Microfinance is a one-star cause. Though for some reason the subject appeals to female royalty, including Queen Rania of Jordan and Princess Maxima of the Netherlands, Natalie Portman is the only member of Hollywood royalty who has dedicated herself to it. Perhaps this is because microfinance is a good deal more complicated than supplying fresh water to parched villages, and a good deal less glamorous than confronting the janjaweed1 in Darfur. The premise of microfinance is that very poor people should have access to credit, just as the middle class and the rich do. They typically don’t have such access because banks that operate in the developing world view the poor as too great a credit risk, and the processing cost of a $50 loan is thought to wipe out much of the potential profit. But small nonprofit organizations found that tiny loans could not only raise the incomes of the rural and small- town poor but also, unlike aid and other handouts, could help make them self-sufficient. And they found as well that if they harnessed the communities’ own social bonds to create group 10 5 15 20 25 30 35 40 45 1janjaweed — militia Regents Exam in ELA (Common Core) — June ’16 support, repayment rates among the very poor could be higher than among the more well-off. (Indeed, commercial banks, apparently having recognized their error, have now begun to extend loans to the poor.) The idea of microfinance is thus to introduce the poor to capitalism. This is not, it’s true, star material. … There’s no question that causes do a great deal for the brand identity of the stars and the sponsors who embrace them. But what, exactly, do stars do for causes? They raise money, of course. But that is often less important than raising consciousness, as Natalie Portman has done. John Prendergast, a longtime activist on African issues and the chairman of Enough, an organization that brings attention to atrocities around the world, says: “Celebrities are master recruiters. If you’re trying to expand beyond the already converted, there’s no better way to do instant outreach than to have a familiar face where people want to know more about what they’re doing in their personal lives.” People come to see Natalie Portman, and they go away learning about microfinance. … ( t d) 50 55 60 Regents Exam in ELA (Common Core) — June ’16 —James Traub excerpted from “The Celebrity Solution” www.nytimes.com, March 9, 2008 Text 2 Ethics of Celebrities and Their Increasing Influence in 21st Century Society The global influence of celebrities in the 21st century extends far beyond the entertainment sector. During the recent Palestinian presidential elections, the Hollywood actor Richard Gere broadcast a televised message to voters in the region and stated, Hi, I’m Richard Gere, and I’m speaking for the entire world. (Richard Gere, actor) Celebrities in the 21st century have expanded from simple product endorsements to sitting on United Nations committees, regional and global conflict commentators and international diplomacy. The Russian parliament is debating whether to send a global celebrity to its International Space Station. The celebrities industry is undergoing, “mission creep”, or the expansion of an enterprise beyond its original goals. There has always been a connection between Hollywood and politics, certainly in the USA. However, global celebrities in the 21st century are involved in proselytising1 about particular religions, such as Scientology, negotiating with the Taliban in Afghanistan and participating in the Iraqi refugee crisis. The Hollywood actor, Jude Law’s attempt to negotiate with the Taliban in Afghanistan was not successful; but the mere fact that Jude Law tried, and that it was discussed widely over the global internet, shows the expansion of celebrities’ domain in today’s society. The global entertainment industry, especially based in Hollywood, has vastly exceeded their original mandate in society. … How is it that celebrities in the 21st century are formulating foreign aid policy, backing political bills or affecting public health debates? Traditionally, the economic value or market price of the entertainment industry and its various components was seen as intangible and difficult to measure. Movie stars and films, artists and the quality of art is often seen as difficult to measure in terms of value and price without the role of expert opinions. But global internet- driven 21st century seems to be driven by a general growth of the idea that celebrity can be measured in a tangible way. … The 21st century’s internet society seems to thrive on a harmonious three-way relationship among celebrities, audiences and fame addiction. The global internet in turns [sic] moulds this three-way relationship and accelerates its dissemination2 and communication. This in turn allows celebrities in the 21st century to “mission creep”, or expand and accelerate their influence into various new areas of society. This interaction of forces is shown in Figure 1. … 10 5 15 20 25 1proselytising — trying to persuade or recruit others 2dissemination — wide distribution Regents Exam in ELA (Common Core) — June ’16 Figure 1. Celebrities’ mission creep in the 21st century. In turn, the global popularity of internet-based social networking sites such as MySpace or individual blogspots all show the need to discuss events, but also things that are famous (Choi and Berger, 2009). Traditionally, celebrities were seen as people that needed to be seen from afar and while keeping one’s distance. In this sense, celebrities were similar to art pieces, better to be seen from a distance (Halpern, 2008; Hirsch, 1972; Maury and Kleiner, 2002). This traditional distance has been reduced due to global technologies in communications. Celebrities, and famous people in turn, help to bring people, including adults, together in conversation and social interaction. The global role of the internet in the 21st century society will further accelerate such social and psychological trends throughout today’s global knowledge-based society. Global internet communications have increased the availability of “fame” and access to the lives of celebrities, which in turn will further accelerate the global influence of celebrities in the 21st century society. … —Chong Ju Choi and Ron Berger excerpted from “Ethics of Celebrities and Their Increasing Influence in 21st Century Society” Journal of Business Ethics, 2009 www.idc.ac.il References Choi, C.J. and R. Berger: 2009, ‘Ethics of Internet, Global Community, Fame Addiction’, Journal of Business Ethics (forthcoming). Halpern, J.: 2008, Fame Junkies (Houghton Mifflin, New York). Hirsch, P.: 1972, ‘Processing Fads and Fashions: An Organisation Set Analysis of Cultural Industry Systems’, American Journal of Sociology 77"
+        "distrust",
+        "respect",
+        "confidence",
+        "intolerance"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "When the narrator describes raising his hand and speaking loudly to an entire roomful of faces, his tone reflects the confidence he gained in entering public society.",
+      "diveDeep": "Choice 1 is incorrect because the narrator is no longer fearful or distrustful in the classroom setting. Choice 2 is incorrect because his action is about self-assertion rather than respect for others. Choice 4 is incorrect because the text shows inclusion and growth, not intolerance. Students often mistake the end of childhood for a negative event, but the author frames it as a necessary step of confidence and public empowerment."
     },
     {
       "number": 27,
@@ -304,4 +351,4 @@ export default {
       "modelAnswer": null
     }
   ]
-}
+};

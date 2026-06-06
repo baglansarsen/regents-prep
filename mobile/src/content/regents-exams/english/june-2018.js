@@ -1,5 +1,4 @@
-// Auto-generated raw wire-up from output/data/english/june-2018.json
-// Real extracted questions; explanation/diveDeep enrichment is a later pass.
+// Enriched: 24 questions with explanation/diveDeep
 export default {
   "id": "eng-jun-2018",
   "subject": "english",
@@ -17,7 +16,9 @@ export default {
         "avoids confrontation",
         "resists change"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "Henri Deplis behaves impulsively by getting a large tattoo on a whim when he had extra money, and later making a quick decision to sell it.",
+      "diveDeep": "Choice 1 is incorrect because his financial decisions are rash and lead to his ruin, showing poor investment. Choice 3 is incorrect because he gets into arguments and political trouble. Choice 4 is incorrect because his actions show sudden changes rather than resistance. Students may miss his impulsiveness because his life becomes restricted, but his initial actions were highly rash."
     },
     {
       "number": 2,
@@ -29,7 +30,9 @@ export default {
         "a fair exchange",
         "Henri Deplis’s pride"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "The widow Pincini bought the artwork and bequeathed it to the municipality of Bergamo out of vengeance to prevent Henri from ever being free or leaving Italy.",
+      "diveDeep": "Choice 1 is incorrect because she acted with deliberate malice, not a misunderstanding. Choice 3 is incorrect because the transaction was an act of control, not a fair exchange. Choice 4 is incorrect because Henri was desperate, not proud, when the artwork was bought. Students often think it is a legal misunderstanding, but the text highlights the widow's spiteful motive."
     },
     {
       "number": 3,
@@ -41,7 +44,9 @@ export default {
         "rebelliously",
         "inconspicuously"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "Henri tries to live quietly and 'inconspicuously' to avoid drawing attention to the famous art on his back.",
+      "diveDeep": "Choice 1 is incorrect because he wants to hide, not act reluctantly. Choices 2 and 3 are incorrect because he is not acting indecisively or rebelliously; he is trying to escape notice. Students sometimes mistake 'unobtrusively' for 'reluctantly' because he dislikes his situation, but the word refers to his attempt to blend in."
     },
     {
       "number": 4,
@@ -53,7 +58,9 @@ export default {
         "the tattoo is a thing of beauty",
         "obligated to display the artwork"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The metaphor of carrying a 'burden' and the description of the tattoo as an 'incubus' implies that Henri feels the artwork on his back is a curse.",
+      "diveDeep": "Choice 2 is incorrect because he is not responsible for the artist's death. Choice 3 is incorrect because he finds the tattoo to be a source of misery, not beauty. Choice 4 is incorrect because he wants to hide it rather than display it. Students may be misled by the artistic nature of the tattoo, but Henri's experience of it is entirely negative."
     },
     {
       "number": 5,
@@ -65,7 +72,9 @@ export default {
         "manipulative",
         "respected"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "The text describes Henri as being unable to cross borders or make decisions about his own body, indicating he has become completely powerless.",
+      "diveDeep": "Choices 1, 3, and 4 are incorrect because Henri is not successful, manipulative, or respected; he is treated as a piece of property and restricted by law. Students might assume that being 'famous art' brings respect, but he is treated as an object."
     },
     {
       "number": 6,
@@ -77,7 +86,9 @@ export default {
         "is unconcerned with international politics",
         "seeks gainful employment"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "Henri joins the anarchists out of despair and fear for his future, seeking any way to disrupt the state control that has claimed his body.",
+      "diveDeep": "Choice 2 is incorrect because the anarchists are not wealthy and he does not seek wealth from them. Choice 3 is incorrect because his action is a direct engagement in politics. Choice 4 is incorrect because joining them does not offer gainful employment. Students often miss his desperation, assuming he joins out of political ideology rather than personal crisis."
     },
     {
       "number": 7,
@@ -89,7 +100,9 @@ export default {
         "societies often value objects above individuals",
         "governments can develop reasonable regulations"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "The diplomatic crisis over Henri's body shows that the government values the preservation of the artwork (an object) over his rights as an individual.",
+      "diveDeep": "Choice 1 is incorrect because Henri fails to achieve any of his personal goals. Choice 2 is incorrect because the government is actively intervening rather than keeping stability. Choice 4 is incorrect because the regulations are presented as absurd and dehumanizing, not reasonable. Students often choose Choice 2, but the satire is directed at how the state treats a human as an art object."
     },
     {
       "number": 8,
@@ -101,7 +114,9 @@ export default {
         "struggling with reality",
         "enjoying his freedom"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "The phrase shows that Henri is clinging to a false hope of freedom, indicating that he is struggling to accept his grim reality.",
+      "diveDeep": "Choice 1 is incorrect because his dream is an illusion, not something he is fulfilling. Choice 2 is incorrect because he cannot find anonymity. Choice 4 is incorrect because he has no freedom to enjoy. Students may mistake 'nursing' for progress, but 'illusion' confirms that his belief is false."
     },
     {
       "number": 9,
@@ -111,9 +126,11 @@ export default {
         "social ignorance",
         "economic worth",
         "sense of humility",
-        "loss of control Regents Exam in ELA — June ’18 Reading Comprehension Passage B Carmel Point The extraordinary patience of things! This beautiful place defaced with a crop of surburban houses — How beautiful when we first beheld it, Unbroken field of poppy and lupin1 walled with clean cliffs; 5 No intrusion but two or three horses pasturing, Or a few milch2 cows rubbing their flanks on the outcrop3 rock-heads — Now the spoiler has come: does it care? Not faintly. It has all time. It knows the people are a tide That swells and in time will ebb, and all"
+        "loss of control"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "The tattoo depicts the Fall of Icarus, which parallel's Henri's own downfall and complete loss of control over his life.",
+      "diveDeep": "Choice 1 is incorrect because Henri is highly aware of his situation, not socially ignorant. Choice 2 is incorrect because the parallel is thematic, not about his economic value. Choice 3 is incorrect because the story is about his loss of liberty, not humility. Students often miss the mythological reference to Icarus, which represents a tragic fall."
     },
     {
       "number": 10,
@@ -125,7 +142,9 @@ export default {
         "worried",
         "critical"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "The narrator calls the new suburban houses a 'crop' that has 'defaced' the beautiful natural cliffs, showing a critical attitude toward development.",
+      "diveDeep": "Choices 1, 2, and 3 are incorrect because the narrator's tone is not suspicious, confused, or worried, but rather openly disapproving and critical of the destruction of nature. Students might choose 'worried' because of environmental damage, but the word 'defaced' is a direct aesthetic judgment, indicating criticism."
     },
     {
       "number": 11,
@@ -137,7 +156,9 @@ export default {
         "tranquility",
         "negativity"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "The description of clean cliffs, poppy fields, and grazing horses pasturing peacefully creates a mood of tranquility.",
+      "diveDeep": "Choices 1 and 4 are incorrect because the scene is beautiful and peaceful, not filled with despair or negativity. Choice 2 is incorrect because it is a calm, natural description, not amusing. Students often select negativity because of the previous line about defacement, but these specific lines recall the undisturbed past."
     },
     {
       "number": 12,
@@ -147,10 +168,12 @@ export default {
         "humanity’s impact is beneficial",
         "nature’s power is limited",
         "humanity’s influence is temporary",
-        "nature’s significance is exaggerated Stanford University Press"
+        "nature’s significance is exaggerated"
       ],
-      "correct": null,
-      "image": "/images/exams/english/june-2018/q12.png"
+      "correct": 2,
+      "image": "/images/exams/english/june-2018/q12.png",
+      "explanation": "The narrator compares humanity to a 'tide' that swells and ebbs, suggesting that human influence and works are temporary compared to the enduring nature of the rocks.",
+      "diveDeep": "Choice 1 is incorrect because the narrator sees human homes as a defacement, not beneficial. Choice 2 is incorrect because nature is presented as infinitely patient and enduring. Choice 4 is incorrect because nature's significance is validated, not exaggerated. Students may think the 'tide' means power, but the reference to 'ebb' and 'dissolve' emphasizes impermanence."
     },
     {
       "number": 13,
@@ -162,7 +185,9 @@ export default {
         "uphold their values",
         "become less egocentric"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "The poet urges humans to 'uncenter our minds from ourselves,' which means to become less egocentric and recognize our small place in the universe.",
+      "diveDeep": "Choice 1 is incorrect because the poem is not about social tolerance. Choice 2 is incorrect because the poet is arguing against human superiority. Choice 3 is incorrect because it is about changing perspective, not upholding traditional human values. Students often struggle with 'unhumanize,' thinking it means to act cruelly, but in this context, it means to look beyond human-centric desires."
     },
     {
       "number": 14,
@@ -172,10 +197,12 @@ export default {
         "protective of their environment",
         "unaware of their insignificance",
         "perplexed by their surroundings",
-        "satisfied with their indifference Regents Exam in ELA — June ’18 5 10 15 20 25 30 35 40 Reading Comprehension Passage C Learning to Love Volatility1 Several years before the financial crisis descended on us, I put forward the concept of “black swans”: large events that are both unexpected and highly consequential. We never see black swans coming, but when they do arrive, they profoundly shape our world: Think of World War I, 9/11, the Internet, the rise of Google. In economic life and history more generally, just about everything of consequence comes from black swans; ordinary events have paltry2 effects in the long term. Still, through some mental bias, people think in hindsight that they “sort of” considered the possibility of such events; this gives them confidence in continuing to formulate predictions. But our tools for forecasting and risk measurement cannot begin to capture black swans. Indeed, our faith in these tools make it more likely that we will continue to take dangerous, uninformed risks. Some made the mistake of thinking that I hoped to see us develop better methods for predicting black swans. Others asked if we should just give up and throw our hands in the air: If we could not measure the risks of potential blowups, what were we to do? The answer is simple: We should try to create institutions that won’t fall apart when we encounter black swans—or that might even gain from these unexpected events. Fragility is the quality of things that are vulnerable to volatility. Take the coffee cup on your desk: It wants peace and quiet because it incurs more harm than benefit from random events. The opposite of fragile, therefore, isn’t robust or sturdy or resilient—things with these qualities are simply difficult to break. To deal with black swans, we instead need things that gain from volatility, variability, stress and disorder. My (admittedly inelegant) term for this crucial quality is “antifragile.” The only existing expression remotely close to the concept of antifragility is what we derivatives traders3 call “long gamma,” to describe financial packages that benefit from market volatility. Crucially, both fragility and antifragility are measurable. As a practical matter, emphasizing antifragility means that our private and public sectors should be able to thrive and improve in the face of disorder. By grasping the mechanisms of antifragility, we can make better decisions without the illusion of being able to predict the next big thing. We can navigate situations in which the unknown predominates4 and our understanding is limited. Herewith are five policy rules that can help us to establish antifragility as a principle of our socioeconomic life. Rule 1: Think of the economy as being more like a cat than a washing machine. We are victims of the post-Enlightenment view that the world functions like a sophisticated machine, to be understood like a textbook engineering problem and run by wonks.5 In other words, like a home appliance, not like the human body. If this were so, our institutions would have no self-healing properties and would need someone to run and micromanage them, to protect their safety, because they cannot survive on their own. By contrast, natural or organic systems are antifragile: They need some dose of disorder in order to develop. Deprive your bones of stress and they become brittle. This denial of the antifragility of living or complex systems is the costliest mistake that we have made in 1volatility — the amount of uncertainty or risk about the size of changes in investment values 2paltry — insignificant 3derivative traders — financial professionals who work buying and selling stock options, futures and other contracts 4predominates — exerts control or influence 5wonks — experts Regents Exam in ELA — June ’18 45 50 55 60 65 70 75 80 modern times. Stifling natural fluctuations masks real problems, causing the explosions to be both delayed and more intense when they do take place. As with the flammable material accumulating on the forest floor in the absence of forest fires, problems hide in the absence of stressors, and the resulting cumulative harm can take on tragic proportions. … Rule 2: Favor businesses that benefit from their own mistakes, not those whose mistakes percolate into the system. Some businesses and political systems respond to stress better than others. The airline industry is set up in such a way as to make travel safer after every plane crash. A tragedy leads to the thorough examination and elimination of the cause of the problem. The same thing happens in the restaurant industry, where the quality of your next meal depends on the failure rate in the business—what kills some makes others stronger. Without the high failure rate in the restaurant business, you would be eating Soviet-style cafeteria food for your next meal out. These industries are antifragile: The collective enterprise benefits from the fragility of the individual components, so nothing fails in vain. These businesses have properties similar to evolution in the natural world, with a well-functioning mechanism to benefit from evolutionary pressures, one error at a time. … Rule 3: Small is beautiful, but it is also efficient. Experts in business and government are always talking about economies of scale. They say that increasing the size of projects and institutions brings cost savings. But the “efficient,” when too large, isn’t so efficient. Size produces visible benefits but also hidden risks; it increases exposure to the probability of large losses. Projects of $100 million seem rational, but they tend to have much higher percentage overruns than projects of, say, $10 million. Great size in itself, when it exceeds a certain threshold, produces fragility and can eradicate all the gains from economies of scale. To see how large things can be fragile, consider the difference between an elephant and a mouse: The former breaks a leg at the slightest fall, while the latter is unharmed by a drop several multiples of its height. This explains why we have so many more mice than elephants. … Rule 4: Trial and error beats academic knowledge. Things that are antifragile love randomness and uncertainty, which also means— crucially—that they can learn from errors. Tinkering by trial and error has traditionally played a larger role than directed science in Western invention and innovation. Indeed, advances in theoretical science have most often emerged from technological development, which is closely tied to entrepreneurship.6 Just think of the number of famous college dropouts in the computer industry. But I don’t mean just any version of trial and error. There is a crucial requirement to achieve antifragility: The potential cost of errors needs to remain small; the potential gain should be large. It is the asymmetry between upside and downside that allows antifragile tinkering to benefit from disorder and uncertainty. … America has emulated this earlier model, in the invention of everything from cybernetics7 to the pricing formulas for derivatives. They were developed by practitioners in trial-and-error mode, drawing continuous feedback from reality. To promote antifragility, we must recognize that there is an inverse relationship between the amount of formal education that a culture supports and its volume of trial-and-error by tinkering. Innovation doesn’t require theoretical instruction, what I like to compare to “lecturing birds on how to fly.” 6entrepreneurship — new business development and ownership 7cybernetics — related to computer networks Regents Exam in ELA — June ’18 Rule 5: Decision makers must have skin in the game. At no time in the history of humankind have more positions of power been assigned to people who don’t take personal risks. But the idea of incentive in capitalism demands some 85 comparable form of disincentive. In the business world, the solution is simple: Bonuses that go to managers whose firms subsequently fail should be clawed back, and there should be additional financial penalties for those who hide risks under the rug. This has an excellent precedent8 in the practices of the ancients. The Romans forced engineers to sleep under a bridge once it was completed. 90 Because our current system is so complex, it lacks elementary clarity: No regulator will know more about the hidden risks of an enterprise than the engineer who can hide exposures to rare events and be unharmed by their consequences. This rule would have saved us from the banking crisis, when bankers who loaded their balance sheets with exposures to small probability events collected bonuses during the quiet years and then 95 transferred the harm to the taxpayer, keeping their own compensation. In these five rules, I have sketched out only a few of the more obvious policy conclusions that we might draw from a proper appreciation of antifragility. But the significance of antifragility runs deeper. It is not just a useful heuristic9 for socioeconomic matters but a crucial property of life in general. Things that are antifragile only grow and 100 improve under adversity. This dynamic can be seen not just in economic life but in the evolution of all things, from cuisine, urbanization and legal systems to our own existence as a species on this planet. … —Nassim Nicholas Taleb excerpted from “Learning to Love Volatility” The Wall Street Journal, November 16, 2012 8precedent — established example 9heuristic — formula Regents Exam in ELA — June ’18"
+        "satisfied with their indifference"
       ],
-      "correct": null,
-      "image": "/images/exams/english/june-2018/q14.png"
+      "correct": 1,
+      "image": "/images/exams/english/june-2018/q14.png",
+      "explanation": "By advising humans to 'uncenter' themselves and look at the eternal rocks, the narrator implies that humans are currently too self-absorbed and unaware of their insignificance.",
+      "diveDeep": "Choice 1 is incorrect because humans are defacing the environment. Choices 3 and 4 are incorrect because humans are not described as perplexed or satisfied, but rather as self-centered. Students often choose Choice 1 because they assume the poem advocates environmentalism, but the narrator implies that humans are currently blind to the grander, enduring scale of nature."
     },
     {
       "number": 15,
@@ -187,7 +214,9 @@ export default {
         "unpredictable occurrences",
         "used to guarantee benefits"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "The author defines 'black swans' as large events that are 'both unexpected and highly consequential,' meaning they are unpredictable occurrences.",
+      "diveDeep": "Choices 1 and 4 are incorrect because they cannot be predicted to anticipate failures or guarantee benefits. Choice 2 is incorrect because they are 'highly consequential,' meaning they are very important, not paltry. Students might choose Choice 1 because the author mentions risk, but he explicitly argues that we cannot predict them."
     },
     {
       "number": 16,
@@ -199,7 +228,9 @@ export default {
         "reverent",
         "pessimistic"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The author uses short, declarative sentences like 'The answer is simple' and 'We should try to create...' to convey an insistent and decisive tone.",
+      "diveDeep": "Choice 2 is incorrect because the tone is serious and constructive, not sarcastic. Choice 3 is incorrect because he is proposing a policy, not showing reverence. Choice 4 is incorrect because he is offering a solution rather than showing pessimism. Students often mistake strong arguments for pessimism, but the author's propose of a 'simple answer' represents an insistent advocacy."
     },
     {
       "number": 17,
@@ -211,7 +242,9 @@ export default {
         "oppose a previous argument",
         "support a scientific proposal"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "The author uses 'long gamma' as a relevant example from his trading background to illustrate the concept of benefiting from market volatility.",
+      "diveDeep": "Choice 1 is incorrect because it is a financial trading term, not a political theory. Choice 3 is incorrect because it supports his definition of antifragility rather than opposing an argument. Choice 4 is incorrect because it is from economics/trading rather than science. Students often get confused by technical terms, but the author uses it to ground his new concept in existing terminology."
     },
     {
       "number": 18,
@@ -223,7 +256,9 @@ export default {
         "must be carefully managed to avoid instability",
         "should be viewed as opportunities to improve performance"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "The author argues that complex systems need 'some dose of disorder' and stressors in order to develop and heal, viewing them as opportunities to improve.",
+      "diveDeep": "Choice 1 is incorrect because stressors are necessary for healthy systems, not signals of faults. Choice 2 is incorrect because the author emphasizes that they are random and unpredictable. Choice 3 is incorrect because micromanaging to avoid instability makes the system fragile. Students often assume stressors should be avoided (Choice 3), but the author's main thesis is that stressors are beneficial for growth."
     },
     {
       "number": 19,
@@ -235,7 +270,9 @@ export default {
         "importance of setbacks to industry success",
         "consequences of ignoring standards"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "The author discusses how plane crashes and restaurant failures improve the overall safety and quality of those industries, emphasizing the importance of setbacks.",
+      "diveDeep": "Choice 1 is incorrect because it is not about government management. Choice 2 is incorrect because these are progressive, evolutionary practices, not dismissed. Choice 4 is incorrect because the industry benefits from the errors, not from ignoring standards. Students might choose Choice 4 because errors occur, but the point is that these industries learn from their setbacks."
     },
     {
       "number": 20,
@@ -247,7 +284,9 @@ export default {
         "encourage fragile economics",
         "revise corporate regulation"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "Rule 3 states that exceeding a certain threshold of size produces fragility, so managing projects efficiently requires resisting unnecessary growth.",
+      "diveDeep": "Choice 1 is incorrect because having a plan is too general and does not address the issue of scale. Choice 3 is incorrect because we want to encourage antifragility, not fragility. Choice 4 is incorrect because corporate regulation is not the focus of Rule 3. Students often choose Choice 1 because it sounds reasonable, but the text specifically warns that 'great size' eradicates gains, meaning we must limit scale."
     },
     {
       "number": 21,
@@ -259,7 +298,9 @@ export default {
         "accelerated",
         "ignored"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The text says America 'emulated this earlier model' by following and imitating the trial-and-error approach to invention.",
+      "diveDeep": "Choices 2, 3, and 4 are incorrect because America followed and practiced the model, meaning it did not discredit, accelerate, or ignore it. Students often confuse 'emulated' with 'accelerated' because it led to massive development, but the literal meaning is to match or imitate."
     },
     {
       "number": 22,
@@ -271,7 +312,9 @@ export default {
         "can be rigid",
         "depends on technology"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The comparison of teaching birds how to fly illustrates that innovation is natural and instinctive, and does not require formal academic instruction.",
+      "diveDeep": "Choice 2 is incorrect because the author is arguing against formal education's role in innovation. Choice 3 is incorrect because innovation is presented as flexible and organic, not rigid. Choice 4 is incorrect because it depends on active trial-and-error rather than just technology. Students may select Choice 2 because they associate education with innovation, but the author's metaphor argues that birds fly naturally, just as practitioners innovate without lecturing."
     },
     {
       "number": 23,
@@ -283,7 +326,9 @@ export default {
         "are wary of unconventional ideas",
         "should be accountable for careless decisions"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "'Clawed back' refers to taking back bonuses from managers whose firms subsequently fail, implying they should be held accountable for their decisions.",
+      "diveDeep": "Choices 1, 2, and 3 are incorrect because they refer to rules, criticism, or ideas, whereas 'clawed back' is specifically a financial penalty meant to establish accountability for failure. Students might choose Choice 2 because accountability sounds like constructive criticism, but 'clawed back' is a direct material penalty for negligence."
     },
     {
       "number": 24,
@@ -293,9 +338,11 @@ export default {
         "“Things that are antifragile love randomness and uncertainty, which also means—crucial­ ly—that they can learn from errors” (lines 66 and 67)",
         "“There is a crucial requirement to achieve antifragility: The potential cost of errors needs to remain small; the potential gain should be large” (lines 72 through 74)",
         "“At no time in the history of humankind have more positions of power been assigned to people who don’t take personal risks” (lines 83 and 84)",
-        "“No regulator will know more about the hid­ den risks of an enterprise than the engineer who can hide exposures to rare events” (lines 90 through 92) Regents Exam in ELA — June ’18 Part 2 Argument Directions: Closely read each of the four texts provided on pages 11 through 18 and write a source-based argument on the topic below. You may use the margins to take notes as you read and scrap paper to plan your response. Write your argument beginning on page 1 of your essay booklet. Topic: Is graffiti vandalism? Your Task: Carefully read each of the four texts provided. Then, using evidence from at least three of the texts, write a well-developed argument regarding whether or not graffiti is vandalism. Clearly establish your claim, distinguish your claim from alternate or opposing claims, and use specific, relevant, and sufficient evidence from at least three of the texts to develop your argument. Do not simply summarize each text. Guidelines: Be sure to: • Establish your claim regarding whether or not graffiti is vandalism • Distinguish your claim from alternate or opposing claims • Use specific, relevant, and sufficient evidence from at least three of the texts to develop your argument • Identify each source that you reference by text number and line number(s) or graphic (for example: Text 1, line 4 or Text 2, graphic) • Organize your ideas in a cohesive and coherent manner • Maintain a formal style of writing • Follow the conventions of standard written English Texts: Text 1 – What Is Street Art? Vandalism, Graffiti or Public Art – Part I Text 2 – Graffiti Vandals Cost Public Millions Text 3 – Is Urban Graffiti a Force for Good or Evil? Text 4 – Art or Vandalism: Banksy, 5Pointz and the Fight for Artistic Expression Regents Exam in ELA — June ’18 10 5 15 20 25 30 35 Text 1 What is Street Art? Vandalism, Graffiti or Public Art – Part I What is Street Art? There is as yet no simple definition of street art. It is an amorphous1 beast encompassing art which is found in or inspired by the urban environment. With anti-capitalist and rebellious undertones, it is a democratic form of popular public art probably best understood by seeing it in situ.2 It is not limited to the gallery nor easily collected or possessed by those who may turn art into a trophy. Considered by some a nuisance, for others street art is a tool for communicating views of dissent,3 asking difficult questions and expressing political concerns. Its definition and uses are changing: originally a tool to mark territorial boundaries of urban youth today it is even seen in some cases as a means of urban beautification and regeneration. Whether it is regarded as vandalism or public art, street art has caught the interest of the art world and its lovers of beauty. Is street art vandalism? In an interview with the Queens Tribune, New York City’s Queens Museum of Art Executive Director Tom Finkelpearl said public art “is the best way for people to express themselves in this city.” Finkelpearl, who helps organize socially conscious art exhibitions, added, “Art gets dialogue going. That’s very good.” However, he doesn’t find graffiti to be art, and says, “I can’t condone vandalism… It’s really upsetting to me that people would need to write their names over and over again in public space. It’s this culture of fame. I really think it’s regrettable that they think that’s the only way to become famous.” Is street art illegal? The legal distinction between permanent graffiti and art is permission, but the topic becomes even more complex regarding impermanent, nondestructive forms of graffiti (yarn bombing, video projection, and street installation.) With permission, traditional painted graffiti is technically considered public art. Without permission, painters of public and private property are committing vandalism and are, by definition, criminals. However, it still stands that most street art is unsanctioned, and many artists who have painted without permission, (Banksy, Shepard Fairey) have been glorified as legitimate and socially conscious artists. … Broken Window Theory: Vandalism vs. Street Art Vandalism is inexcusable destruction of property, and has been shown to have negative repercussions on its setting. It has also been observed by criminologists to have a ‘snowball effect’ of generating more negativity within its vicinity. Dr. James Q. Wilson and Dr. George Kelling studied the effects of disorder (in this case, a broken window) in an urban setting, and found that one instance of neglect increases the likelihood of more broken windows and graffiti will appear. Then, there is an observable increase in actual violent crime. The researchers concluded there is a direct link between vandalism, street violence, and the general decline of a society. 1amorphous — hard to define 2in situ — in its original place 3dissent — differing opinion Regents Exam in ELA — June ’18 Their theory, named the Broken Window Theory and first published in 1982, argues that crime is the inevitable result of disorder, and that if neglect is present in a place, whether it is disrepair or thoughtless graffiti, people walking by will think no one cares about that place, and the unfavorable damage is therefore acceptable. Street Art and Gentrification4"
+        "“No regulator will know more about the hidden risks of an enterprise than the engineer who can hide exposures to rare events” (lines 90 through 92)"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "This statement directly captures the central idea of the passage: that antifragile systems benefit from randomness, uncertainty, and disorder by learning from errors.",
+      "diveDeep": "Choice 2 is incorrect because it focuses on the cost-benefit ratio of trial-and-error rather than the nature of disorder itself. Choice 3 is incorrect because it is a criticism of risk-free power. Choice 4 is incorrect because it details regulatory ignorance. Students often select Choice 2 because it defines a requirement for antifragility, but Choice 1 is the most comprehensive statement of how systems interact with and benefit from disorder."
     },
     {
       "number": 40,
@@ -327,4 +374,4 @@ export default {
       "modelAnswer": null
     }
   ]
-}
+};

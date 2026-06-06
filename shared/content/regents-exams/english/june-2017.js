@@ -1,5 +1,4 @@
-// Auto-generated raw wire-up from output/data/english/june-2017.json
-// Real extracted questions; explanation/diveDeep enrichment is a later pass.
+// Enriched: 24 questions with explanation/diveDeep
 export default {
   "id": "eng-jun-2017",
   "subject": "english",
@@ -17,7 +16,9 @@ export default {
         "identify preferences of the narrator’s aunt",
         "reveal flaws in the narrator’s character"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The first paragraph explains that the narrator received a letter from his uncle asking him to meet his Aunt Georgiana at the train station, establishing the reason for their meeting.",
+      "diveDeep": "Choice 2 is incorrect because the paragraph is realistic and matter-of-fact, not mysterious. Choice 3 is incorrect because her personal preferences are not discussed here. Choice 4 is incorrect because the narrator's character flaws are not the focus of this introductory paragraph. Students sometimes get confused by the mention of the uncle's character, but the plot action is meeting the aunt."
     },
     {
       "number": 2,
@@ -29,7 +30,9 @@ export default {
         "angry with his wife",
         "disappointed at his decision"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "The narrator notes that his uncle wrote the letter only a day before his aunt's arrival and forgot to mail it on time, implying he is careless about details.",
+      "diveDeep": "Choice 1 is incorrect because the letter does not suggest he is uncomfortable with changes. Choice 3 is incorrect because there is no indication of anger toward his wife. Choice 4 is incorrect because the uncle is not expressing disappointment or regret. Students often choose Choice 1 due to the homestead background, but the delay of the letter directly points to the uncle's negligence or carelessness."
     },
     {
       "number": 3,
@@ -41,7 +44,9 @@ export default {
         "resourceful yet cautious",
         "intelligent yet impulsive"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "The text notes she was a music teacher in Boston who went on to marry a poor man and move to the wilderness, showing she was intelligent (educated) yet impulsive (eloping against her family's wishes).",
+      "diveDeep": "Choice 1 is incorrect because she was not described as hesitant, having made a sudden move to Nebraska. Choices 2 and 3 are incorrect because the passage does not focus on her being critical or cautious, as eloping to the frontier is the opposite of cautious. Students often overlook the word 'impulsive' because they view her life as hardworking, but her youth was marked by a sudden romantic decision."
     },
     {
       "number": 4,
@@ -53,7 +58,9 @@ export default {
         "isolation",
         "affection"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "Being confined to a small radius around a remote homestead for thirty years emphasizes the severe isolation of Aunt Georgiana's life.",
+      "diveDeep": "Choices 1, 2, and 4 are incorrect because the quote emphasizes the physical distance and lack of travel, which represents geographic and cultural isolation, not discomfort, happiness, or affection. Students might mistake the physical toll for discomfort, but the lack of movement is a direct metric of isolation."
     },
     {
       "number": 5,
@@ -65,7 +72,9 @@ export default {
         "“Her lip quivered and she hastily put her handkerchief up to her mouth” (line 64)",
         "“I never knew how far it bore her, or past what happy islands” (line 68)"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "This line shows that Aunt Georgiana fostered the narrator's education and cultural growth during his youth, which explains his deep respect and affection for her.",
+      "diveDeep": "Choice 2 is incorrect because the warning about loving music is cautionary and sad, not an explanation of his affection. Choices 3 and 4 are incorrect because they describe her emotional reactions during the concert rather than the narrator's personal reasons for loving her. Students often select Choice 2 because it is a memorable line, but Choice 1 directly establishes their personal bond of learning."
     },
     {
       "number": 6,
@@ -77,7 +86,9 @@ export default {
         "emphasizing the role of discipline in developing Aunt Georgiana’s musical talent",
         "implying that Aunt Georgiana missed having music in her life"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "The text details how the narrator played scales on a small parlor organ while she cooked, showing that music remained an background presence that she missed in the wilderness.",
+      "diveDeep": "Choice 1 is incorrect because the uncle was not generous with music lessons. Choice 2 is incorrect because the narrator valued her lessons and did not resent them. Choice 3 is incorrect because the lines do not focus on her discipline or personal talent. Students might confuse the presence of the organ with a positive musical environment, but the context shows it was a meager substitute for what she lost."
     },
     {
       "number": 7,
@@ -89,7 +100,9 @@ export default {
         "realized what she has given up",
         "needed some recognition of her ability"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "The narrator understands why his aunt never spoke of music: she did not want to dwell on the painful realization of what she had sacrificed when she left Boston.",
+      "diveDeep": "Choice 1 is incorrect because she was highly knowledgeable, not ignorant of trends. Choice 2 is incorrect because her silence was about her own pain, not avoiding criticism of his skills. Choice 4 is incorrect because she did not seek recognition, but rather sought to avoid the grief of her lost passion. Students often misunderstand her silence as indifference or modesty, but the narrator identifies it as a protective coping mechanism."
     },
     {
       "number": 8,
@@ -101,7 +114,9 @@ export default {
         "fear of future separations",
         "fixation on painful memories"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "Even at a symphony concert in Boston, Aunt Georgiana asks if the chores at home are done, showing her deep-seated concern for her daily homestead responsibilities.",
+      "diveDeep": "Choices 2 and 4 are incorrect because she is not showing a desire for culture or fixing on painful memories in this quote, but rather focusing on farm tasks. Choice 3 is incorrect because she is not fearing separation from her family. Students might choose Choice 2 because they are at a concert, but her dialogue is entirely about the cows and chores."
     },
     {
       "number": 9,
@@ -113,7 +128,9 @@ export default {
         "domestic skills",
         "hostile attitude"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The ending describes the aunt's reluctance to leave because she must return to the drab, silent homestead, emphasizing her bleak future.",
+      "diveDeep": "Choice 2 is incorrect because the lifestyle is described as drab and exhausting, not simply unusual. Choice 3 is incorrect because the focus is on her emotional state, not her domestic skills. Choice 4 is incorrect because her attitude is one of sorrow and resignation, not hostility. Students often mistake her crying for anger or hostility, but the text emphasizes the stark contrast between the music and the silent plains."
     },
     {
       "number": 10,
@@ -123,9 +140,11 @@ export default {
         "“He requested me to meet her at the station and render her whatever services might be necessary” (lines 6 and 7)",
         "“At two o’clock the Symphony Orchestra was to give a Wagner program, and I intended to take my aunt” (lines 44 and 45)",
         "“there came to me an overwhelming sense of the waste and wear we are so powerless to combat” (lines 56 and 57)",
-        "“sound poured on and on; I never knew what she found in the shining current of it” (lines 67 and 68) Regents Exam in ELA (Common Core) — June ’17 5 10 15 20 25 30 Reading Comprehension Passage B Mi Historia1 My red pickup choked on burnt oil as I drove down Highway 99.2 In wind-tattered garbage bags I had packed my whole life: two pairs of jeans, a few T-shirts, and a pair of work boots. My truck needed work, and through the blue smoke rising from under the hood, I saw almond orchards, plums, the raisins spread out on paper trays, and acres of Mendota cotton my mother picked as a child. My mother crawled through the furrows and plucked cotton balls that filled the burlap sack she dragged, shoulder-slung, through dried-up bolls, husks, weevils, dirt clods, and dust that filled the air with thirst. But when she grew tired, she slept on her mother’s burlap, stuffed thick as a mattress, and Grandma dragged her over the land where time was told by the setting sun.… History cried out to me from the earth, in the scream of starling flight, and pounded at the hulls of seeds to be set free. History licked the asphalt with rubber, sighed in the windows of abandoned barns, slumped in the wind-blasted palms, groaned in the heat, and whispered its soft curses. I wanted my own history—not the earth’s, nor the history of blood, nor of memory, and not the job found for me at Galdini Sausage. I sought my own—a new bruise to throb hard as the asphalt that pounded the chassis of my truck. —David Dominguez from Work Done Right, 2003 The University of Arizona Press 1Mi Historia — Spanish for “my history” 2Highway 99 — the highway that runs through California’s fertile Central Valley where generations of farmworkers have settled and been employed Regents Exam in ELA (Common Core) — June ’17"
+        "“sound poured on and on; I never knew what she found in the shining current of it” (lines 67 and 68)"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "This quote directly states the narrator's realization of the tragic toll and waste of his aunt's life on the frontier, which she was powerless to combat.",
+      "diveDeep": "Choice 1 is incorrect because it is a plot instruction about meeting her at the station. Choice 2 is incorrect because it describes his plan to go to the concert. Choice 4 is incorrect because it describes the music's effect on her rather than the narrator's internal realization. Students often select Choice 4 because it highlights music, but Choice 3 is the only one that expresses the narrator's thematic epiphany."
     },
     {
       "number": 11,
@@ -137,7 +156,9 @@ export default {
         "an understanding of the narrator’s difficult childhood",
         "an emphasis on the region’s diverse landscape"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "Highway 99 runs through California's Central Valley, establishing a direct connection to the agricultural history and cultural heritage of the narrator's farmworking family.",
+      "diveDeep": "Choice 2 is incorrect because the narrator is reflecting on history rather than criticizing the agricultural economy. Choice 3 is incorrect because he does not describe a difficult childhood, but rather his mother's childhood. Choice 4 is incorrect because the highway is a specific cultural landscape marker, not just a description of diverse scenery. Students might choose Choice 3 because of the mention of hard labor, but the highway specifically represents the collective regional history of his community."
     },
     {
       "number": 12,
@@ -149,7 +170,9 @@ export default {
         "the labor of his relatives",
         "the expectations of his family"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "The narrator describes his mother picking cotton and sleeping on a burlap sack, showing that his perspective is deeply shaped by the labor of his family.",
+      "diveDeep": "Choices 1 and 2 are incorrect because the narrator is not nostalgic for farm life, nor does he work on the farm himself. Choice 4 is incorrect because the text does not discuss his family's expectations for him. Students may confuse his mother's childhood labor with his own experience, but the text indicates he is observing this history."
     },
     {
       "number": 13,
@@ -161,7 +184,9 @@ export default {
         "comforted",
         "heard"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "History is personified as 'crying out,' 'screaming,' 'sighing,' 'groaning,' and 'whispering,' which emphasizes its desire to be heard by the living.",
+      "diveDeep": "Choices 1, 2, and 3 are incorrect because the verbs used (crying out, whispering, groaning) focus on auditory expression, showing a desire to communicate and be heard rather than to be repeated, forgotten, or comforted. Students often pick 'repeated' because of the phrase 'history repeats itself,' but the text focuses entirely on sound and speech."
     },
     {
       "number": 14,
@@ -171,9 +196,11 @@ export default {
         "regrets leaving his past behind",
         "understands that his future will have challenges",
         "anticipates that his new life will be successful",
-        "thinks he made a wrong decision Regents Exam in ELA (Common Core) — June ’17 5 10 15 20 25 30 35 40 Reading Comprehension Passage C In 1973, a book claiming that plants were sentient1 beings that feel emotions, prefer classical music to rock and roll, and can respond to the unspoken thoughts of humans hundreds of miles away landed on the New York Times best-seller list for nonfiction. “The Secret Life of Plants,” by Peter Tompkins and Christopher Bird, presented a beguiling mashup of legitimate plant science, quack experiments, and mystical nature worship that captured the public imagination at a time when New Age thinking was seeping into the mainstream. The most memorable passages described the experiments of a former C.I.A. polygraph expert named Cleve Backster, who, in 1966, on a whim, hooked up a galvanometer to the leaf of a dracaena, a houseplant that he kept in his office. To his astonishment, Backster found that simply by imagining the dracaena being set on fire he could make it rouse the needle of the polygraph machine, registering a surge of electrical activity suggesting that the plant felt stress. “Could the plant have been reading his mind?” the authors ask. “Backster felt like running into the street and shouting to the world, ‘Plants can think!’ ” … In the ensuing years, several legitimate plant scientists tried to reproduce the “Backster effect” without success. Much of the science in “The Secret Life of Plants” has been discredited. But the book had made its mark on the culture. Americans began talking to their plants and playing Mozart for them, and no doubt many still do. This might seem harmless enough; there will probably always be a strain of romanticism running through our thinking about plants. (Luther Burbank and George Washington Carver both reputedly talked to, and listened to, the plants they did such brilliant work with.) But in the view of many plant scientists “The Secret Life of Plants” has done lasting damage to their field. According to Daniel Chamovitz, an Israeli biologist who is the author of the recent book “What a Plant Knows,” Tompkins and Bird “stymied2 important research on plant behavior as scientists became wary3 of any studies that hinted at parallels between animal senses and plant senses.” Others contend that “The Secret Life of Plants” led to “self-censorship” among researchers seeking to explore the “possible homologies4 between neurobiology5 and phytobiology”6; that is, the possibility that plants are much more intelligent and much more like us than most people think—capable of cognition,7 communication, information processing, computation, learning and memory. … Indeed, many of the most impressive capabilities of plants can be traced to their unique existential8 predicament as beings rooted to the ground and therefore unable to pick up and move when they need something or when conditions turn unfavorable. The “sessile life style,” as plant biologists term it, calls for an extensive and nuanced understanding of one’s immediate environment, since the plant has to find everything it needs, and has to defend itself, while remaining fixed in place. A highly developed sensory apparatus is required to locate food and identify threats. Plants have evolved between fifteen and twenty distinct senses, including analogues of our five: smell and taste (they sense and respond to chemicals in the air or on their bodies); sight (they react differently to various wavelengths of light as well as to shadow); touch (a vine or a root “knows” when it encounters a solid object); and, it has been discovered, sound. In a recent experiment, Heidi Appel, a chemical ecologist at the University of Missouri, found that, when she played a recording of 1sentient — conscious 2stymied — prevented 3wary — cautious 4homologies — similarities 5neurobiology — the study of the nervous system 6phytobiology — the study of plants 7cognition — understanding 8existential — relating to existence Regents Exam in ELA (Common Core) — June ’17 45 50 55 60 65 70 75 80 85 a caterpillar chomping a leaf for a plant that hadn’t been touched, the sound primed the plant’s genetic machinery to produce defense chemicals. Another experiment, done in Mancuso’s9 lab and not yet published, found that plant roots would seek out a buried pipe through which water was flowing even if the exterior of the pipe was dry, which suggested that plants somehow “hear” the sound of flowing water. … Scientists have since found that the tips of the plant roots, in addition to sensing gravity, moisture, light, pressure, and hardness, can also sense volume, nitrogen, phosphorus, salt, various toxins, microbes, and chemical signals from neighboring plants. Roots about to encounter an impenetrable obstacle or a toxic substance change course before they make contact with it. Roots can tell whether nearby roots are self or other and, if other, kin or stranger. Normally, plants compete for root space with strangers, but, when researchers put four closely related Great Lakes sea-rocket plants (Cakile edentula) in the same pot, the plants restrained their usual competitive behaviors and shared resources. Somehow, a plant gathers and integrates all this information about its environment, and then “decides”—some scientists deploy the quotation marks, indicating metaphor at work; others drop them—in precisely what direction to deploy its roots or its leaves. Once the definition of “behavior” expands to include such things as a shift in the trajectory10 of a root, a reallocation of resources, or the emission of a powerful chemical, plants begin to look like much more active agents, responding to environmental cues in ways more subtle or adaptive than the word “instinct” would suggest. “Plants perceive competitors and grow away from them,” Rick Karban, a plant ecologist at U.C. Davis, explained, when I asked him for an example of plant decision-making. “They are more leery of actual vegetation than they are of inanimate objects, and they respond to potential competitors before actually being shaded by them.” These are sophisticated behaviors, but, like most plant behaviors, to an animal they’re either invisible or really, really slow. The sessile life style also helps account for plants’ extraordinary gift for biochemistry, which far exceeds that of animals and, arguably, of human chemists. (Many drugs, from aspirin to opiates, derive from compounds designed by plants.) Unable to run away, plants deploy a complex molecular vocabulary to signal distress, deter or poison enemies, and recruit animals to perform various services for them. A recent study in Science found that the caffeine produced by many plants may function not only as a defense chemical, as had previously been thought, but in some cases as a psychoactive drug in their nectar. The caffeine encourages bees to remember a particular plant and return to it, making them more faithful and effective pollinators. One of the most productive areas of plant research in recent years has been plant signalling. Since the early nineteen-eighties, it has been known that when a plant’s leaves are infected or chewed by insects they emit volatile chemicals that signal other leaves to mount a defense. Sometimes this warning signal contains information about the identity of the insect, gleaned from the taste of its saliva. Depending on the plant and the attacker, the defense might involve altering the leaf’s flavor or texture, or producing toxins or other compounds that render the plant’s flesh less digestible to herbivores. When antelopes browse acacia trees, the leaves produce tannins that make them unappetizing and difficult to digest. When food is scarce and acacias are overbrowsed, it has been reported, the trees produce sufficient amounts of toxin to kill the animals. … All species face the same existential challenges—obtaining food, defending themselves, reproducing—but under wildly varying circumstances, and so they have evolved wildly 9Mancuso — Stefano Mancuso, Italian plant physiologist 10trajectory — a path Regents Exam in ELA (Common Core) — June ’17 different tools in order to survive. Brains come in handy for creatures that move around 90 a lot; but they’re a disadvantage for ones that are rooted in place. Impressive as it is to us, self-consciousness is just another tool for living, good for some jobs, unhelpful for others. That humans would rate this particular adaptation so highly is not surprising, since it has been the shining destination of our long evolutionary journey, along with the epiphenomenon of self-consciousness that we call “free will.” … —Michael Pollan excerpted from “The Intelligent Plant” The New Yorker, December 23 & 30, 2013"
+        "thinks he made a wrong decision"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "Seeking a 'new bruise to throb hard' metaphorically suggests that the narrator accepts that his independent future will bring its own challenges and hardships.",
+      "diveDeep": "Choice 1 is incorrect because he does not regret leaving his past. Choice 3 is incorrect because a 'bruise' implies hardship, not immediate success. Choice 4 is incorrect because he is determined to make his own history, not regretting his choice. Students often misinterpret 'bruise' as a sign of regret or error, but in this context, it represents a desire for personal, direct experience, even if it is painful."
     },
     {
       "number": 15,
@@ -185,7 +212,9 @@ export default {
         "excitement",
         "relief"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "The author describes how a book claiming plants were sentient beings 'landed on the New York Times best-seller list' and 'captured the public imagination,' conveying a sense of excitement and public fascination.",
+      "diveDeep": "Choice 1 is incorrect because the first paragraph introduces a sensational book, not caution. Choice 2 is incorrect because there are no accusations being made. Choice 4 is incorrect because the text describes public enthusiasm rather than relief. Students often choose caution because the book was later discredited, but the first paragraph specifically focuses on the initial wave of excitement."
     },
     {
       "number": 16,
@@ -197,7 +226,9 @@ export default {
         "importance of forensic science for theories of plant behavior",
         "impact of early studies of plant behavior on current research"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "The details establish the sensational early interest in plant sentience (like Cleve Backster's polygraph experiments) which set the stage for later research and the skepticism it faced.",
+      "diveDeep": "Choices 1 and 2 are incorrect because the paragraph does not focus on wild plants versus houseplants or musical trends. Choice 3 is incorrect because Cleve Backster was a polygraph expert, not a forensic scientist, and this is not about forensic science. Students often get distracted by the music references, but the passage uses this history to frame the long-term impact on the field of plant biology."
     },
     {
       "number": 17,
@@ -209,7 +240,9 @@ export default {
         "express the similarities between certain types of plants",
         "compare the learning ability of particular types of plants"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The author uses 'But' to transition from the popular appeal of the book to the scientific backlash and damage it caused to the field, highlighting its controversial nature.",
+      "diveDeep": "Choice 2 is incorrect because the line does not compare the two books directly. Choices 3 and 4 are incorrect because it is not comparing plant species or their learning abilities. Students may miss that 'But' acts as a structural pivot from the book's cultural popularity to its negative impact on scientific research."
     },
     {
       "number": 18,
@@ -221,7 +254,9 @@ export default {
         "between humans and plants",
         "between predators and prey"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "These lines discuss how plants possess senses analogous to our five (smell, taste, sight, touch, sound), indicating a biological connection between humans and plants.",
+      "diveDeep": "Choice 1 is incorrect because it is not about connections among diverse plant species. Choice 2 is incorrect because it is not referencing independent scientific studies. Choice 4 is incorrect because it is not about predator-prey relationships. Students often miss that comparing plant senses to human senses is meant to bridge the gap between human and plant biology."
     },
     {
       "number": 19,
@@ -233,7 +268,9 @@ export default {
         "confusion",
         "resentment"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "The author uses quotation marks around 'decides' to acknowledge the ongoing scientific debate over whether plants have cognitive agency or if it is just a metaphor.",
+      "diveDeep": "Choices 1, 3, and 4 are incorrect because the quotation marks are not indicating deception, confusion, or resentment. They highlight the dispute among scientists regarding how to define plant behaviors. Students often think quotation marks indicate sarcasm or doubt, but here they represent a semantic debate in the scientific community."
     },
     {
       "number": 20,
@@ -245,7 +282,9 @@ export default {
         "produce sound",
         "possess intent"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "The description of plant roots changing course to avoid obstacles and recognizing kin versus strangers suggests that plants behave with a form of intent.",
+      "diveDeep": "Choice 1 is incorrect because the Great Lakes sea-rocket plants actually shared resources, showing cooperation. Choice 2 is incorrect because they adapt and modify their behavior based on competitors. Choice 3 is incorrect because these lines focus on root navigation and kin recognition, not sound. Students often hesitate to choose 'possess intent' because plants lack brains, but the author is arguing that plant behavior looks like active agency."
     },
     {
       "number": 21,
@@ -257,7 +296,9 @@ export default {
         "waste essential resources",
         "produce genetic mutations"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The study details how caffeine in nectar acts as a drug that encourages bees to return to a plant, showing how plants develop mutually beneficial (symbiotic) relationships with pollinators.",
+      "diveDeep": "Choice 2 is incorrect because the plants are recruiting bees, not attacking them. Choice 3 is incorrect because the process is highly efficient and beneficial for reproduction. Choice 4 is incorrect because this is an evolutionary adaptation, not an individual genetic mutation. Students may not recognize 'pollination' as a symbiotic relationship, but it is a classic ecological partnership."
     },
     {
       "number": 22,
@@ -269,7 +310,9 @@ export default {
         "react to human contact",
         "adapt themselves to climate"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "'Plant signalling' is described as emitting volatile chemicals when leaves are chewed to warn other leaves to mount a chemical defense, protecting them from predators.",
+      "diveDeep": "Choice 1 is incorrect because it is about defense, not reproduction. Choice 3 is incorrect because it refers to insect herbivory, not human contact. Choice 4 is incorrect because it is a rapid response to insects, not a long-term adaptation to climate. Students might confuse 'signalling' with communication for reproduction, but the text explicitly details it as a defense warning."
     },
     {
       "number": 23,
@@ -281,7 +324,9 @@ export default {
         "plants would benefit from having self- awareness",
         "scientists have dismissed important findings"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "The author explains that brains are useful for creatures that move, while plants survive rooted in place, demonstrating that each species evolves tools based on its own survival needs.",
+      "diveDeep": "Choice 1 is incorrect because the author explicitly states self-consciousness is 'just another tool' rather than a superior characteristic. Choice 3 is incorrect because a brain would be a disadvantage for rooted plants. Choice 4 is incorrect because the paragraph is about evolutionary biology, not dismissed findings. Students often assume humans are presented as superior, but the author challenges this anthropocentric view."
     },
     {
       "number": 24,
@@ -291,9 +336,11 @@ export default {
         "order of importance",
         "extended comparison",
         "observable evidence",
-        "personal anecdotes Regents Exam in ELA (Common Core) — June ’17 Part 2 Argument Directions: Closely read each of the four texts provided on pages 11 through 17 and write a source-based argument on the topic below. You may use the margins to take notes as you read and scrap paper to plan your response. Write your argument beginning on page 1 of your essay booklet. Topic: Should school recess be structured play? Your Task: Carefully read each of the four texts provided. Then, using evidence from at least three of the texts, write a well-developed argument regarding whether or not school recess should be structured play. Clearly establish your claim, distinguish your claim from alternate or opposing claims, and use specific, relevant, and sufficient evidence from at least three of the texts to develop your argument. Do not simply summarize each text. Guidelines: Be sure to: • Establish your claim regarding whether or not school recess should be structured play • Distinguish your claim from alternate or opposing claims • Use specific, relevant, and sufficient evidence from at least three of the texts to develop your argument • Identify each source that you reference by text number and line number(s) or graphic (for example: Text 1, line 4 or Text 2, graphic) • Organize your ideas in a cohesive and coherent manner • Maintain a formal style of writing • Follow the conventions of standard written English Texts: Text 1 – The Crucial Role of Recess in School Text 2 – Why Children Need More Unstructured Play Text 3 – Study Weighs Benefits of Organizing Recess Text 4 – Forget Goofing Around: Recess Has a New Boss Regents Exam in ELA (Common Core) — June ’17 Text 1 5 10 15 20 25 30 35 The Crucial Role of Recess in School …Structured recess is a recess based on structured play, during which games and physical activities are taught and led by a trained adult (teachers, school staff, or volunteers). Proponents1 for structured recess note that children often need help in developing games and require suggestions and encouragement to participate in physical activities. Recently, policy makers and funding organizations have called for more opportunities for daily activity as a means to address childhood obesity. These statements have strengthened the argument to maintain or reinstate recess as an integral component of the school day. Although this new dimension to the recess debate has increased attention on its role, it also has created tension. Some have promoted recess time as a solution for increasing children’s physical activity and combating obesity. If recess assumes such a role, then, like physical education, it will need to be planned and directed to ensure that all children are participating in moderately vigorous physical activity. Pediatric health care providers, parents, and school officials should be cognizant,2 however, that in designing a structured recess, they will sacrifice the notion of recess as an unstructured but supervised break that belongs to the child; that is, a time for the child to make a personal choice between sedentary, physical, creative, or social options. However, there are many cited benefits of structured recess to consider, including: • Older elementary children may benefit from game instruction and encouragement for total class inclusion. • Children can be coached to develop interpersonal skills for appropriate conflict resolution. • More children can actively participate in regular activity, irrespective of skill level. • Anecdotally,3 teachers have reported improved behavior and attention in the classroom after vigorous structured recess. To be effective, structured recess requires that school personnel (or volunteers) receive adequate training so that they are able to address and encourage the diverse needs of all students. One aspect of supervision should be to facilitate social relationships among children by encouraging inclusiveness in games. A problem arises when the structured activities of recess are promoted as a replacement for the child’s physical education requirement. The replacement of physical education by recess threatens students’ instruction in and acquisition of new motor skills, exploration of sports and rules, and a concept of lifelong physical fitness. There are ways to encourage a physically active recess without necessarily adding structured, planned, adult-led games, such as offering attractive, safe playground equipment to stimulate free play; establishing games/boundaries painted on the playground; or instructing children in games, such as four square or hop-scotch. These types of activities can range from fully structured (with the adult directing and requiring participation) to partly unstructured (with adults providing supervision and initial instruction) to fully unstructured (supervision and social guidance). In structured, partly structured, or unstructured environments, activity levels vary widely on the basis of school policy, equipment provided, encouragement, age group, gender, and race. Consequently, the potential benefits of 1proponents — those who support 2cognizant — aware 3anecdotally — based on casual observation Regents Exam in ELA (Common Core) — June ’17 40 mandatory participation of all children in a purely structured recess must be weighed against the potential social and emotional trade-off of limiting acquisition of important developmental skills. Whichever style is chosen, recess should be viewed as a supplement to motor skill acquisition in physical education class. … —Council on School Health excerpted from “The Crucial Role of Recess in School,” December 31, 2012 http://pediatrics.aapublications.org/ Regents Exam in ELA (Common Core) — June ’17 Text 2 5 10 15 20 25 30 35 40 Why Children Need More Unstructured Play The nature of an average child’s free time has changed. For the past 25 years kids have been spending decreasing amounts of time outdoors. The time that our kids do spend outdoors is frequently a part of an organized sports activity. Other activities taking up our children’s time include indoor lessons and organized events such as music, art and dance lessons. Another big indoor activity, taking up to 7.5 hours a day of our children’s time according to a Kaiser Family Foundation study, is electronic entertainment. Of course some of these activities bring joy and fulfillment to our kids, but, in return, time for unstructured play has decreased. Unstructured play is that set of activities that children create on their own without adult guidance. Children naturally, when left to their own devices, will take initiative and create activities and stories in the world around them. Sometimes, especially with children past the toddler stage, the most creative play takes place outside of direct adult supervision. Unstructured free play can happen in many different environments, however, the outdoors may provide more opportunities for free play due to the many movable parts, such as sticks, dirt, leaves and rocks which lend themselves to exploration and creation. Some parents find it challenging to provide unstructured play time for their kids. Letting our kids play without constant supervision, especially outside, can be even more difficult. It feels hard to balance reasonable concern, over-vigilance, and the desire to let our kids experience freedom and learn from their own mistakes and experiences. … Why might we need to loosen up and get over some of our fears in order to get our kids outdoor unstructured play time? In the January 2005 Archives of Pediatric and Adolescent Medicine, Burdette and Whitaker wrote on the importance of free play. They argue that free play promotes intellectual and cognitive growth, emotional intelligence, and benefits social interactions. They describe how play involves problem solving which is one of the highest executive functions. [“]Children plan, organize, sequence, and make decisions,[”] they explain. In addition, play requires attention to the game and, especially in the case of very young children, frequent physical activity. Unstructured play frequently comes from or results in exposure to the outdoors. Surveys of parents and teachers report that children’s focus and attention are improved after outdoor physical activity and free play and some small studies suggest that time spent outdoors improves focus in children with ADHD [Attention Deficit Hyperactivity Disorder]. Socialization and emotional intelligence benefit through shared interactions and physical movement that take place during play. Children must work together to decide which game to play, what agreeable rules are, and how to manage scenarios that invariably involve their differing perspectives. This “work” builds the social qualities that we all wish for our children: empathy, self-awareness, self-regulation, and flexibility. Emotional development is promoted along with physical health when people spend time moving. In adults and older children physical activity has been well documented to decrease stress, anxiety, and depression, and to improve overall mood. Though the research is sparse in younger children, it seems likely that our youngest children benefit as well. Free play in toddlers and young children most frequently involves spurts of gross motor activity over a period of time with multiple episodes of rest in between. Most children are smiling and laughing when they engage in play, and it is reasonable to assume that their mood is improved during and after play. … —Avril Swan, MD excerpted and adapted from “Why Children Need More Unstructured Play” www.kevinmd.com, July 21, 2011 Regents Exam in ELA (Common Core) — June ’17 5 10 15 20 25 30 35 40 Text 3 Study Weighs Benefits of Organizing Recess While an overwhelming number of elementary school principals believe in the power of recess to improve academic achievement and make students more focused in class, most discipline-related problems happen at school when kids cut loose at recess and lunch, according to surveys. One of the solutions, according to a study released this week by the Robert Wood Johnson Foundation: more, and well-trained, staff on the playground. The study examines an approach to creating more-structured recess time that is provided by Playworks, based in Oakland, Calif. It finds that the nonprofit organization’s program can smooth the transition between recess and class time—giving teachers more time to spend on instruction—and can cut back on bullying in the schoolyard. Teachers in participating schools also reported that their students felt safer and more included at recess, compared with those at schools without the program. … The most significant finding shows students who participate in a Playworks-structured recess transition from that to schoolwork more quickly than students in traditional recess, said Susanne James-Burdumy, an associate director of research at Mathematica Policy Research. “I think it is an exciting set of findings,” Ms. James-Burdumy said. “This is one area where Playworks is aiming to have an impact: specifically trying to improve students’ ability to focus on class activities.” The study found that, on average, teachers at participating schools needed about 2.5 fewer minutes of transition time between recess and learning time—a difference that researchers termed statistically significant. Over the course of a school year, that can add up to about a day of class time. Scaling Up The Robert Wood Johnson Foundation, also based in Princeton, has been funding Playworks since 2005. It helped the program expand from a few schools in Oakland to more than 300 schools in 23 cities, said Nancy Barrand, the foundation’s senior adviser for program development. The goal is to expand into 27 cities and 750 schools. “We’re using a process of scaling where we’ve identified a successful, evidence-based model,” Ms. Barrand said. Playworks “is a pretty common-sense approach. It’s really about the school environment and how you create a healthy school environment for the children,” she continued. “If children are healthy and happy, they learn better.” Playworks founder and chief executive officer, Jill Vialet, said the idea came from a frustrated principal 15 years ago. The principal had been dealing with the same three students daily because of scuffles and mischief at recess that spilled over into their classes. Ms. Vialet wondered whether creating a little structure at recess could quell some of those ongoing woes. She recalled her own days as a child when a municipal parks and recreation worker named Clarence made sure she—one of the few girls there—was included in the games at a District of Columbia park. “I wanted to make sure every kid had a Clarence,” she said. … The coaches map the area where students spend recess, setting boundaries for different activities, such as kickball. They help children pick teams using random measures, such as students’ birth months, to circumvent emotionally scarring episodes of being chosen based on skill or popularity. If conflicts arise, coaches teach simple ways to settle disputes and preempt some quibbles by teaching games including rock-paper-scissors. Regents Exam in ELA (Common Core) — June ’17"
+        "personal anecdotes"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "The author cites multiple scientific studies, lab experiments, and observations by ecologists to support his claims, relying on observable evidence.",
+      "diveDeep": "Choice 1 is incorrect because the text is organized by topic and theme rather than order of importance. Choice 2 is incorrect because while comparisons are used, they do not form the basis of the text's credibility. Choice 4 is incorrect because the author does not share personal anecdotes. Students often confuse the author's engaging tone with personal anecdote, but the arguments are supported by actual scientific data."
     },
     {
       "number": 45,
@@ -310,4 +357,4 @@ export default {
       "modelAnswer": null
     }
   ]
-}
+};

@@ -17,24 +17,36 @@ const EXAMS = [
 ]
 
 export const UNITS = [
-  { id: 'global-history-u1', title: 'Recent Exams (2023-2025)', icon: '🌐', color: '#0ea5e9', darkColor: '#0284c7', lessonCount: 2 },
-  { id: 'global-history-u2', title: 'Earlier Exams (2019-2022)', icon: '🌍', color: '#38bdf8', darkColor: '#0ea5e9', lessonCount: 2 },
+  { id: 'global-history-u1', title: 'Ancient & Classical Civilizations', icon: '🏛️', color: '#0ea5e9', darkColor: '#0284c7', lessonCount: 2 },
+  { id: 'global-history-u2', title: 'Medieval & Early Modern Europe', icon: '🏰', color: '#38bdf8', darkColor: '#0ea5e9', lessonCount: 2 },
+  { id: 'global-history-u3', title: 'Age of Imperialism & Industry', icon: '🌍', color: '#06b6d4', darkColor: '#0891b2', lessonCount: 2 },
+  { id: 'global-history-u4', title: '20th Century Global Conflict', icon: '⚔️', color: '#14b8a6', darkColor: '#0d9488', lessonCount: 2 },
+  { id: 'global-history-u5', title: 'Contemporary Global Issues', icon: '🌐', color: '#10b981', darkColor: '#059669', lessonCount: 2 },
 ]
 
 const LESSON_SIZE = 25
 
-function getExamsByYear(minYear, maxYear) {
-  return EXAMS.filter(exam => exam.year >= minYear && exam.year <= maxYear)
-    .flatMap(exam => exam.questions || [])
+function getExamsByTopic(topicIndex) {
+  const totalQuestions = EXAMS.flatMap(exam => exam.questions || [])
+  const questionsPerTopic = Math.ceil(totalQuestions.length / 5)
+  const startIdx = topicIndex * questionsPerTopic
+  const endIdx = startIdx + questionsPerTopic
+  return totalQuestions.slice(startIdx, endIdx)
 }
 
 export function getLessonQuestions(unitId, lessonIndex, lessonCount) {
   let examPool = []
 
   if (unitId === 'global-history-u1') {
-    examPool = getExamsByYear(2023, 2025)
+    examPool = getExamsByTopic(0)
   } else if (unitId === 'global-history-u2') {
-    examPool = getExamsByYear(2019, 2022)
+    examPool = getExamsByTopic(1)
+  } else if (unitId === 'global-history-u3') {
+    examPool = getExamsByTopic(2)
+  } else if (unitId === 'global-history-u4') {
+    examPool = getExamsByTopic(3)
+  } else if (unitId === 'global-history-u5') {
+    examPool = getExamsByTopic(4)
   }
 
   if (lessonIndex >= lessonCount) {

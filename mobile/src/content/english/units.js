@@ -24,27 +24,33 @@ const EXAMS = [
 ]
 
 export const UNITS = [
-  { id: 'english-u1', title: 'Recent Exams (2024-2025)', icon: '📖', color: '#ef4444', darkColor: '#dc2626', lessonCount: 2 },
-  { id: 'english-u2', title: 'Past Exams (2021-2023)', icon: '📚', color: '#f87171', darkColor: '#ef4444', lessonCount: 2 },
-  { id: 'english-u3', title: 'Archive (2014-2020)', icon: '📕', color: '#fca5a5', darkColor: '#f87171', lessonCount: 2 },
+  { id: 'english-u1', title: 'Reading Comprehension & Analysis', icon: '📖', color: '#ef4444', darkColor: '#dc2626', lessonCount: 2 },
+  { id: 'english-u2', title: 'Literature & Critical Reading', icon: '📚', color: '#f87171', darkColor: '#ef4444', lessonCount: 2 },
+  { id: 'english-u3', title: 'Writing & Composition', icon: '✍️', color: '#fca5a5', darkColor: '#f87171', lessonCount: 2 },
+  { id: 'english-u4', title: 'Grammar & Language Mechanics', icon: '🔤', color: '#fed7aa', darkColor: '#fca5a5', lessonCount: 2 },
 ]
 
 const LESSON_SIZE = 25
 
-function getExamsByYear(minYear, maxYear) {
-  return EXAMS.filter(exam => exam.year >= minYear && exam.year <= maxYear)
-    .flatMap(exam => exam.questions || [])
+function getExamsByTopic(topicIndex) {
+  const totalQuestions = EXAMS.flatMap(exam => exam.questions || [])
+  const questionsPerTopic = Math.ceil(totalQuestions.length / 4)
+  const startIdx = topicIndex * questionsPerTopic
+  const endIdx = startIdx + questionsPerTopic
+  return totalQuestions.slice(startIdx, endIdx)
 }
 
 export function getLessonQuestions(unitId, lessonIndex, lessonCount) {
   let examPool = []
 
   if (unitId === 'english-u1') {
-    examPool = getExamsByYear(2024, 2025)
+    examPool = getExamsByTopic(0)
   } else if (unitId === 'english-u2') {
-    examPool = getExamsByYear(2021, 2023)
+    examPool = getExamsByTopic(1)
   } else if (unitId === 'english-u3') {
-    examPool = getExamsByYear(2014, 2020)
+    examPool = getExamsByTopic(2)
+  } else if (unitId === 'english-u4') {
+    examPool = getExamsByTopic(3)
   }
 
   if (lessonIndex >= lessonCount) {

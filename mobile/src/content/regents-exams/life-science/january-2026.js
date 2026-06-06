@@ -1,4 +1,4 @@
-// Life Science: Biology Regents — January 2026
+// Enriched: 29 questions with explanation/diveDeep
 export default {
   id: 'ls-jan-2026',
   subject: 'life-science',

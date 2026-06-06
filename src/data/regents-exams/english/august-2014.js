@@ -1,5 +1,4 @@
-// Auto-generated raw wire-up from output/data/english/august-2014.json
-// Real extracted questions; explanation/diveDeep enrichment is a later pass.
+// Enriched: 24 questions with explanation/diveDeep
 export default {
   "id": "eng-aug-2014",
   "subject": "english",
@@ -17,7 +16,9 @@ export default {
         "emphasizing the people’s quiet and calming activities",
         "reflecting a shift in the longtang’s character"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The author describes the longtang's structure as an 'empty echo' that mirrors the inner, hollow emotional states of its residents (lines 13-15).",
+      "diveDeep": "This question tests the ability to analyze how settings connect to central themes. Choice B (index 1) is incorrect because the passage does not focus on physical structural reasons for the crumbling. Choice C (index 2) is incorrect because the activities are not presented as calming, but rather as monotonous and tense. Choice D (index 3) is incorrect because the passage depicts a lack of change rather than a shift in character. Common student mistakes include choosing options that focus on the physical environment rather than the symbolic connection to human emotion. Test-taking tip: Look for choices that bridge physical descriptions of the setting with characters' psychological states."
     },
     {
       "number": 2,
@@ -29,7 +30,9 @@ export default {
         "emotional burden",
         "material value"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "The author uses the phrase 'immaterial things' that weigh heavily on the mind (lines 18-19) to emphasize the emotional burden and psychological weight carried by the residents.",
+      "diveDeep": "This question tests how figurative language highlights character perspective. Choice A (index 0) is incorrect because the figurative language highlights burden, not community spirit. Choice B (index 1) is incorrect because societal unrest is not discussed in these lines. Choice D (index 3) is incorrect because 'immaterial' refers to non-physical concerns, contrasting with material value. Students often confuse 'immaterial' with 'irrelevant,' leading to confusion. Test-taking strategy: Relate figurative descriptions of 'weight' or 'heaviness' directly to emotional or mental distress."
     },
     {
       "number": 3,
@@ -41,7 +44,9 @@ export default {
         "frightening",
         "difficult"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "In the context of line 19, 'immaterial things' refers to things that are unimportant or lack physical, material substance.",
+      "diveDeep": "This question tests vocabulary acquisition in literary context. Choice B (index 1) is incorrect because the text does not describe these things as unforeseen. Choice C (index 2) is incorrect because they are not described as frightening. Choice D (index 3) is incorrect because the passage focuses on their lack of importance rather than difficulty. Students often fail to analyze vocabulary in context, choosing synonyms of 'immaterial' like 'spiritual' rather than 'unimportant.' Strategy: Use context clues to identify contrasting ideas (like physical vs. non-physical)."
     },
     {
       "number": 4,
@@ -53,7 +58,9 @@ export default {
         "wealth and good fortune",
         "an end to the current war"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "Lines 31 through 39 show that a person living in the longtang would pray for a quiet, uneventful life, free from conflict and grand desires.",
+      "diveDeep": "This question tests detail analysis and inference. Choice A (index 0) is incorrect because neighborhood conflict is not the focus of their prayers. Choice C (index 2) is incorrect because they explicitly do not pray for wealth or grand fortunes. Choice D (index 3) is incorrect because there is no mention of a war in these lines. Common student mistake: Assuming characters in a difficult environment pray for wealth or dramatic rescue, rather than simple peace. Strategy: Rely strictly on the text's description of their modest prayers."
     },
     {
       "number": 5,
@@ -65,7 +72,9 @@ export default {
         "band together in times of need",
         "ignore impending danger"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "Lines 40 through 53 suggest that the longtang people ignore impending danger, as they focus entirely on the present and avoid worrying about the future.",
+      "diveDeep": "This question tests character analysis. Choice A (index 0) is incorrect because they do not reflect on their situation as positive, but rather block out the future. Choice B (index 1) is incorrect because the lines emphasize their refusal to think about challenges, not their survival of them. Choice C (index 2) is incorrect because community cooperation is not the topic here. Common student mistake: Choosing 'make the best of their situation' due to its positive connotation. Strategy: Look for specific behavioral descriptions, such as avoiding thought of future hazards."
     },
     {
       "number": 6,
@@ -77,7 +86,9 @@ export default {
         "past importance",
         "lasting beauty"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The comparison of the longtang to a bustling theater or grand castle in lines 73 through 78 emphasizes the neighborhood's former vitality and lively past.",
+      "diveDeep": "This question tests comparison and setting analysis. Choice B (index 1) is incorrect because the focus is on the contrast with the past rather than enduring strength. Choice C (index 2) is incorrect because the comparison does not highlight political or social importance. Choice D (index 3) is incorrect because the passage emphasizes life and activity rather than physical beauty. A common mistake is selecting 'enduring strength' due to the long-lasting nature of the physical structures."
     },
     {
       "number": 7,
@@ -89,7 +100,9 @@ export default {
         "hope",
         "worthlessness"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "The reference to the passing seasons in the final paragraph conveys a deep sense of loss as time moves forward while the longtang decays.",
+      "diveDeep": "This question tests tone and symbolic meaning of time. Choice A (index 0) is incorrect because the passage has a nostalgic, elegiac tone rather than one of anticipation. Choice C (index 2) is incorrect because hope is not represented by the description of fading memories. Choice D (index 3) is incorrect because the author values the memories, so they are not seen as worthless. Students often mistake the tone as hopeless or worthless, failing to recognize the specific focus on the emotional pain of loss."
     },
     {
       "number": 8,
@@ -101,7 +114,9 @@ export default {
         "importance of the people’s traditions",
         "complexity of the people’s needs"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The description of the people's humble prayers in the face of inevitable modernization and decay stresses the ultimate futility of their situation.",
+      "diveDeep": "This question tests identifying a central theme. Choice B (index 1) is incorrect because their future is uncertain and threatened, not secure. Choice C (index 2) is incorrect because the focus is on their vulnerability rather than the value of traditions. Choice D (index 3) is incorrect because their needs are simple and survival-based rather than complex. A common mistake is selecting Choice C because prayers are a traditional activity, but the author uses them to emphasize their helplessness against larger forces."
     },
     {
       "number": 9,
@@ -113,7 +128,9 @@ export default {
         "sympathetic",
         "ambiguous Regents Exam in ELA (Common Core) — Aug. ’14 Regents Exam in ELA (Common Core) — Aug. ’14 Money Musk Listen, you upstate hillsides (nothing Like the herb-strewn fields of Provence1) Which I have loved So loyally, your wood lots And trailers and old farmhouses, Your satellite dishes— Haven’t I driven Past the strip malls and country airports, The National Guard armories and even That abandoned missile depot Clutched in the lake’s fingers Past the tattered billboards. The barns spray-painted with praise, Past the farm tools, fiddles, And fishing lures, the sprung bellows Of accordions on the tables of flea markets, Just to catch a glimpse of you as you once were, Like the brass showing, raw and dull, Where the silver plate has worn off The frame around this mirror, and the silver Gone too, the only reflection as faint As light on dusty glass, And beyond it, tarnished, dim, the rafters And beams of the attic where I climbed To take out my grandmother’s mandolin And play on the three or four unbroken strings With a penny for a pick. Listen, Wasn’t that offering enough, a life Of playing half-badly on an antique instrument, Trying to catch a tune you’d long ago Forgotten even the name of, Money Musk Or Petronella.2 Wasn’t it enough To take my vows of poverty of spirit Before the plain geometry of a 19th-century Farmhouse, and praise no other goods 5 10 15 20 25 30 35 Reading Comprehension Passage B 1Provence — a region of southern France 2Money Musk or Petronella — classic old American dances GO RIGHT ON TO THE NEXT PAGE ¬ Regents Exam in ELA (Common Core) — Aug. ’14 Than this rectitude,3 this stillness, This clarity you have spurned now, oh Landscape I have sung Despite my voice, despite the stubborn Silence behind your tawdry,4 best intentions. —Jordan Smith from The Cortland Review Issue Eight, August 1999"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "The author's overall view of the longtang people is sympathetic, expressing deep empathy and sorrow for the community's fading way of life.",
+      "diveDeep": "This question tests author's perspective/tone. Choice A (index 0) is incorrect because the author shows no intolerance toward the residents. Choice B (index 1) is incorrect because the tone is emotionally colored rather than purely objective. Choice D (index 3) is incorrect because the author's positive regard and sorrow for the community are clear rather than ambiguous. Students often choose objective because the author acts as an observer, missing the warm, empathetic undertones."
     },
     {
       "number": 10,
@@ -125,7 +142,9 @@ export default {
         "economic possibilities",
         "transformation"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "Lines 4 through 13 highlight the transformation of the landscape, noting modern developments like trailers, satellite dishes, and strip malls replacing the old countryside.",
+      "diveDeep": "This question tests analyzing setting details. Choice A (index 0) is incorrect because the lines focus on modern additions rather than historical importance. Choice B (index 1) is incorrect because the modern additions are presented as stark and commercial rather than beautiful. Choice C (index 2) is incorrect because the poem does not discuss the economic potential of the area. Students often mistake these details for general scenery rather than signs of industrial and modern change over time."
     },
     {
       "number": 11,
@@ -137,7 +156,9 @@ export default {
         "from the narrator’s feelings to his family’s feelings",
         "from the narrator’s thoughts to the narrator’s actions"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "The poem shifts focus from describing the external modern landscape to a childhood memory of finding and playing his grandmother's mandolin in the attic (lines 7-27).",
+      "diveDeep": "This question tests structural shifts in poetry. Choice A (index 0) is incorrect because there is no social or personal conflict depicted in these lines. Choice C (index 2) is incorrect because the narrator does not contrast his feelings with those of his family. Choice D (index 3) is incorrect because the poem focuses on memories and observations rather than a sequence of physical actions. A common mistake is failing to identify the transition to the attic scene as a flashback or memory."
     },
     {
       "number": 12,
@@ -149,7 +170,9 @@ export default {
         "It indicates the darkness of the setting.",
         "It emphasizes the diminishing of the past."
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "The simile comparing the past to the worn-off silver plate of a mirror (lines 21-22) emphasizes how memories and history have diminished over time.",
+      "diveDeep": "This question tests simile analysis and metaphorical meaning. Choice A (index 0) is incorrect because the focus is on the landscape and objects, not a personal change in the narrator. Choice B (index 1) is incorrect because the narrator shows high awareness of his surroundings. Choice C (index 2) is incorrect because the physical lighting is not the primary point of the comparison. Students often choose Option 3 because words like 'tarnished' and 'dim' are used, but their function is metaphorical rather than literal description of light."
     },
     {
       "number": 13,
@@ -161,7 +184,9 @@ export default {
         "contentment",
         "respectful"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The narrator's tone in lines 28-38 is frustrated, as he questions if his lifelong dedication to praising the quiet landscape was enough to overcome its stubborn silence.",
+      "diveDeep": "This question tests analyzing tone. Choice B (index 1) is incorrect because the narrator is questioning his offering rather than feeling embarrassed. Choice C (index 2) is incorrect because 'contentment' is a noun, not an adjective, and does not match the active questioning. Choice D (index 3) is incorrect because his tone is challenging and aggrieved rather than respectful. Students often confuse the narrator’s devotion with simple contentment or respect, overlooking the underlying bitterness of 'despite my voice, despite the stubborn silence.'"
     },
     {
       "number": 14,
@@ -173,7 +198,9 @@ export default {
         "commitment to the values of a past era",
         "reluctance to accept different points of view 3rectitude — honesty 4tawdry — cheap 40 Regents Exam in ELA (Common Core) — Aug. ’14 This is an excerpt from a speech given by Red Jacket, Chief of the Seneca Nation, to the United States acting secretary of war in Washington, D.C., on February 10, 1801. ...Brother, the business on which we are now come is to restore the friendship that has existed between the United States and the Six Nations, agreeably to the direction of the commissioner from the fifteen fires1 of the United States. He assured us that whensoever, by any grievances, the chain of friendship should become rusty, we might have it brightened by calling on you. We dispense with the usual formality of having your speech again read, as we fully comprehended it yesterday, and it would therefore be useless to waste time in a repetition of it. Brother, yesterday you wiped the tears from our eyes, that we might see clearly; you unstopped our ears that we might hear; and removed the obstructions from our throats that we might speak distinctly. You offered to join with us in tearing up the largest pine-tree in our forests, and under it to bury the tomahawk. We gladly join with you, brother, in this work, and let us heap rocks and stones on the root of this tree that the tomahawk may never again be found. ... Brother, we observe that the men now in office are new men, and, we fear, not fully informed of all that has befallen us. In 1791 a treaty was held by the commissioners of Congress with us at Tioga Point, on a similar occasion. We have lost seven of our warriors, murdered in cold blood by white men, since the conclusion of the war. We are tired of this mighty grievance and wish some general arrangement to prevent it in future. The first of these was murdered on the banks of the Ohio, near Fort Pitt. Shortly after two men belonging to our first families were murdered at Pine Creek; then one at Fort Franklin; another at Tioga Point; and now the two that occasion this visit, on the Big Beaver. These last two had families. The one was a Seneca; the other a Tuscarora. Their families are now destitute of support, and we think that the United States should do something toward their support, as it is to the United States they owe the loss of their heads. Brother, these offences are always committed in one place on the frontier of Pennsylvania. In the Genesee country we live happy and no one molests us. I must therefore beg that the President will exert all his influence with all officers, civil and military, in that quarter, to remedy this grievance, and trust that he will thus prevent a repetition of it and save our blood from being spilled in future. Brother, let me call to mind the treaty between the United States and the Six Nations, concluded at Canandaigua. At that treaty Colonel Pickering, who was commissioner on behalf of the United States, agreed that the United States should pay to the Six Nations four thousand five hundred dollars per annum, and that this should pass through the hands of the superintendent of the United States, to be appointed for that purpose. This treaty was made in the name of the President of the United States, who was then General Washington; and, as he is now no more, perhaps the present President would wish to renew the treaty. But if he should think the old one valid and is willing to let it remain in force we are also willing. The sum above mentioned we wish to have part of in money, to expend in more agricultural tools and in purchasing a team, as we have some horses that will do for the purpose. We also wish to build a sawmill on the Buffalo creek. If the President, however, thinks proper to have it continue as heretofore, we shall not be very uneasy. Whatever he may do we agree to; we only suggest this for his consideration. Brother, I hand you the above-mentioned treaty, made by Colonel Pickering, in the name of General Washington, and the belt that accompanied it; as he is now dead we know not if it is still valid. If not, we wish it renewed—if it is, we wish it copied on clean parchment. 5 10 15 20 25 30 35 40 45 Reading Comprehension Passage C 1fires — fires refers to states Regents Exam in ELA (Common Core) — Aug. ’14 Our money got loose in our trunk and tore it. We also show you the belt which is the path of peace between our Six Nations and the United States. ... Brother, the business that has caused this our long journey was occasioned by some of your bad men; the expense of it has been heavy on us. We beg that as so great a breach has been made on your part, the President will judge it proper that the United States should bear our expenses to and from home and whilst here. Brother, three horses belonging to the Tuscarora Nation were killed by some men under the command of Major Rivardi, on the plains of Niagara. They have made application to the superintendent and to Major Rivardi, but get no redress. You make us pay for our breaches of the peace, why should you not pay also? A white man has told us the horses were killed by Major Rivardi’s orders, who said they should not be permitted to come there, although it was an open common on which they were killed. Mr. Chapin has the papers respecting these horses, which we request you to take into consideration. —Red Jacket excerpted from Orations from Homer to William McKinley, Vol. VII, 1902 P.F. Collier and Son 50 55"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "Lines 33 through 37 contribute to a central theme in the poem by describing the narrator’s commitment to the values of a past era, represented by the geometry of a 19th-century farmhouse.",
+      "diveDeep": "This question tests identifying a central theme in poetry. Choice A (index 0) is incorrect because the narrator rejects the modern suburban elements. Choice B (index 1) is incorrect because his choice to praise the farmhouse is voluntary, not an obligation. Choice D (index 3) is incorrect because the lines focus on a devotion to quiet values, not an intolerance of other viewpoints. Common student errors include missing the symbolic value of the 'farmhouse' as representing historical clarity and stability."
     },
     {
       "number": 15,
@@ -185,7 +212,9 @@ export default {
         "loss of cultural identity",
         "arrival of new leadership"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The speaker’s symbolic references to wiping tears, unstopping ears, and burying the tomahawk represent the achievement of peace between the nations.",
+      "diveDeep": "This question tests symbolism in historical speeches. Choice B (index 1) is incorrect because burying the tomahawk under a pine tree is a gesture of peace, not environmental destruction. Choice C (index 2) is incorrect because the symbols represent diplomatic reconciliation, not a loss of identity. Choice D (index 3) is incorrect because the symbols focus on harmony rather than leadership changes. Students often misinterpret the metaphorical language of 'tearing up the pine-tree' as literal destruction."
     },
     {
       "number": 16,
@@ -197,7 +226,9 @@ export default {
         "emphasizing the need for caution",
         "explaining the terms of the treaty"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "The details in lines 16 and 17 state that the warriors were murdered in cold blood, indicating the specific grievance and reason for the meeting.",
+      "diveDeep": "This question tests identifying author's purpose. Choice A (index 0) is incorrect because these lines outline the conflict, not its resolution. Choice C (index 2) is incorrect because the speaker is expressing an urgent demand for justice, not caution. Choice D (index 3) is incorrect because the terms of the treaty are detailed later in the speech. Students often confuse the statement of a grievance with a formal summary of treaty terms."
     },
     {
       "number": 17,
@@ -209,7 +240,9 @@ export default {
         "cause/effect relationship between power and crime",
         "connection between responsibility and accountability"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "Lines 22 through 24 establish a connection between responsibility and accountability, arguing that the U.S. government is responsible for supporting the families of the murdered warriors.",
+      "diveDeep": "This question tests identifying logical relationships. Choice A (index 0) is incorrect because the lines do not contrast wealth and poverty. Choice B (index 1) is incorrect because the focus is on justice and reparations rather than family structures. Choice C (index 2) is incorrect because it does not discuss a cause/effect relationship of power causing crime. Students often miss the connection of legal accountability, focusing instead on the mention of 'destitute' as a sign of poverty."
     },
     {
       "number": 18,
@@ -221,7 +254,9 @@ export default {
         "recent changes in United States leadership",
         "new hostilities along the frontier"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "The Six Nations' uncertainty about the treaty's validity in lines 30 and 31 is based on the recent changes in United States leadership, specifically the death of General Washington.",
+      "diveDeep": "This question tests historical inference. Choice A (index 0) is incorrect because the Cayuga reservation is not mentioned in these lines. Choice B (index 1) is incorrect because the text does not cite a recent war's end as the cause of uncertainty. Choice D (index 3) is incorrect because the uncertainty stems from leadership changes rather than frontier conflicts. Students often overlook the historical context of Washington's death, which led the native leaders to worry that agreements made with him might not be honored by his successors."
     },
     {
       "number": 19,
@@ -233,7 +268,9 @@ export default {
         "“But if he should think the old one valid ... we are also willing” (lines 37 and 38)",
         "“If the President ... thinks proper to have it continue as heretofore, we shall not be very uneasy” (lines 40 and 41)"
       ],
-      "correct": null
+      "correct": 0,
+      "explanation": "The sentence in lines 8-10 (restoring communication) is clarified by line 5, where the speaker notes that they already fully comprehend the speech and can dispense with reading it again.",
+      "diveDeep": "This question tests textual clarification. Choice B (index 1) is incorrect because living happily in Genesee does not relate to clearing communication. Choice C and Choice D are incorrect because they deal with the fiscal terms of the treaty rather than understanding the speech. Students often struggle to match the symbolic language of lines 8-10 with the practical demonstration of understanding in line 5."
     },
     {
       "number": 20,
@@ -245,7 +282,9 @@ export default {
         "sarcastic",
         "cooperative"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "The speaker’s attitude in lines 37 through 42 is cooperative, as he expresses willingness to accept the President's preference regarding the old treaty's validity.",
+      "diveDeep": "This question tests tone/attitude analysis. Choice A (index 0) is incorrect because the speaker is clear and decisive about his options. Choice B (index 1) is incorrect because he is acting as a diplomatic negotiator, not expressing compassion. Choice C (index 2) is incorrect because his tone is polite and respectful rather than sarcastic. A common mistake is interpreting the speaker's flexibility as uncertainty rather than a cooperative diplomatic strategy."
     },
     {
       "number": 21,
@@ -257,7 +296,9 @@ export default {
         "rejection of political influence",
         "desire for fair treatment"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "The speaker’s request that the United States bear their travel expenses (lines 48-51) emphasizes the Six Nations’ desire for fair treatment, as the journey was necessitated by the actions of 'bad men' on the U.S. side.",
+      "diveDeep": "This question tests inference of motivation. Choice A (index 0) is incorrect because they are requesting compensation, not expressing feelings of confinement. Choice B (index 1) is incorrect because travel expenses do not relate to adopting a traditional lifestyle. Choice C (index 2) is incorrect because the request is an engagement with political influence, not a rejection of it. Students may miss the moral argument of the request: because the U.S. caused the breach, it should bear the financial burden."
     },
     {
       "number": 22,
@@ -269,7 +310,9 @@ export default {
         "“why should you not pay also” (line 55)",
         "“they should not be permitted to come” (line 56)"
       ],
-      "correct": null
+      "correct": 2,
+      "explanation": "The question 'why should you not pay also' (line 55) directly relates to the meaning of 'redress' in line 54, which refers to financial compensation or remedy for a wrong.",
+      "diveDeep": "This question tests vocabulary context clues. Choice A (index 0) is incorrect because judging something proper does not define redress. Choice B (index 1) is incorrect because making an application is just the action of requesting help, not the help itself. Choice D (index 3) is incorrect because it describes the prohibition of horses, not the remedy for their deaths. Students often struggle to identify context clues for vocabulary, but the direct mention of payment in line 55 provides the definition of financial redress."
     },
     {
       "number": 23,
@@ -281,7 +324,9 @@ export default {
         "the method of fiscal payments",
         "the protection of Iroquois lands"
       ],
-      "correct": null
+      "correct": 3,
+      "explanation": "The protection of Iroquois lands is not referenced in this 1801 speech, while preventing unlawful acts, preserving the written agreement, and the method of fiscal payments are all discussed.",
+      "diveDeep": "This question tests fact-checking and elimination. Choice A is referenced in lines 18-20 regarding preventing future murders. Choice B is referenced in lines 43-45 regarding copying the treaty on clean parchment. Choice C is referenced in lines 33-35 regarding annual fiscal payments. Students must use the process of elimination to find which detail is absent, as land protection is a common treaty topic but not discussed here."
     },
     {
       "number": 24,
@@ -293,7 +338,9 @@ export default {
         "emphasize a common greeting",
         ": 391–411 Short, J 2004 Global Metropolitan: Globalizing Cities in a Capitalist World. London & New York: Routledge. Waitt, G 2003 ‘Social Impacts of the Sydney Olympics’ Annals of Tourism Research 30"
       ],
-      "correct": null
+      "correct": 1,
+      "explanation": "The repetition of the word 'Brother' is a rhetorical device used to establish a feeling of alliance and equality between the Six Nations and the U.S. government.",
+      "diveDeep": "This question tests rhetorical devices. Choice A (index 0) is incorrect because the speaker seeks to close the distance and build rapport. Choice C (index 2) is incorrect because 'Brother' is more than a common greeting; it carries diplomatic weight. Choice D (index 3) is incorrect because the term asserts equal alliance, not political superiority. Students should understand that repetitive address in rhetoric is used to establish rapport and mutual respect."
     }
   ]
 }
