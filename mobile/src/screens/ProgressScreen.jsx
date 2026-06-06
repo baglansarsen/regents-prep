@@ -45,7 +45,7 @@ export default function ProgressScreen({ navigation }) {
 
   const { history, masteryPct, isMastered } = useProgress(uid)
   const { streak, weekDays, studiedToday } = useDailyStreak(uid)
-  const { xp, level, spendXP } = useRP(uid)
+  const { rp  level, spendXP } = useRP(uid)
 
   const subjectHistory = history.filter((h) => (h.subject ?? 'living-environment') === subject)
   const totalQuizzes   = subjectHistory.length
@@ -53,7 +53,7 @@ export default function ProgressScreen({ navigation }) {
     ? Math.round(subjectHistory.reduce((a, h) => a + (h.pct ?? 0), 0) / totalQuizzes)
     : 0
 
-  const nextLevel  = LEVELS.find((l) => l.min > xp)
+  const nextLevel  = LEVELS.find((l) => l.min > rp 
   const xpProgress = nextLevel ? (xp - level.min) / (nextLevel.min - level.min) : 1
 
   const s = makeStyles(C)
@@ -64,7 +64,7 @@ export default function ProgressScreen({ navigation }) {
 
         <Text style={[T.h1, { color: C.text, padding: 20, paddingBottom: 16 }]}>Progress</Text>
 
-        {/* XP / Level card */}
+        {/* RP / Level card */}
         <View style={[s.card, cardShadow(C.shadow)]}>
           <View style={s.levelRow}>
             <View style={[s.levelCircle, { borderColor: C.brand }]}>
@@ -72,11 +72,11 @@ export default function ProgressScreen({ navigation }) {
             </View>
             <View style={{ flex: 1 }}>
               <Text style={[T.h3, { color: C.text }]}>{level.name}</Text>
-              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>{xp} XP total</Text>
+              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>{rp} RP total</Text>
             </View>
             {nextLevel && (
               <Text style={[T.small, { color: C.textMuted }]}>
-                {nextLevel.min - xp} to next
+                {nextLevel.min - rp} to next
               </Text>
             )}
           </View>

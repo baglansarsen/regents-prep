@@ -7,7 +7,7 @@
  *
  * Flow: intro (start / skip-for-now) → quiz → results.
  * UX: tap a choice → highlight correct/wrong for 1.2 s → auto-advance.
- * No lives, no timer, no XP — this is diagnostic only.
+ * No lives, no timer, no RP — this is diagnostic only.
  */
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import {

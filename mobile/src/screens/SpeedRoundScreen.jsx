@@ -23,9 +23,9 @@ export default function SpeedRoundScreen({ route, navigation }) {
   const { C } = useTheme()
   const { user } = useAuthContext()
   const uid = user?.uid
-  const { xp, earnXP } = useRP(uid)
+  const { rp  earnXP } = useRP(uid)
   const { markStudied } = useDailyStreak(uid)
-  const { xpMultiplier } = useDoubleRP()
+  const { rpMultiplier } = useDoubleRP()
   const { checkAndEvolve, updateQuestProgress } = usePetContext()
 
   const [index,     setIndex]     = useState(0)
@@ -80,8 +80,8 @@ export default function SpeedRoundScreen({ route, navigation }) {
   function endRound() {
     clearInterval(timerRef.current)
     setPhase('done')
-    const xpEarned = Math.round(correct * 10 * xpMultiplier)
-    earnXP(correct * 10, xpMultiplier)
+    const xpEarned = Math.round(correct * 10 * rpMultiplier)
+    earnXP(correct * 10, rpMultiplier)
     checkAndEvolve(xp + xpEarned)
     markStudied()
     updateQuestProgress('complete_speedround')

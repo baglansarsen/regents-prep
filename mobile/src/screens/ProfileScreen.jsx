@@ -40,7 +40,7 @@ export default function ProfileScreen({ navigation }) {
   const uid = user?.uid
 
   const { history }                   = useProgress(uid)
-  const { xp, weeklyXP }              = useRP(uid)
+  const { rp  weeklyXP }              = useRP(uid)
   const { streak, longestStreak }     = useDailyStreak(uid)
   const level                         = getLevel(xp)
   const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
@@ -194,7 +194,7 @@ export default function ProfileScreen({ navigation }) {
           <Text style={[T.body, { color: C.textMuted }]}>{user?.email ?? 'Guest Account'}</Text>
           <View style={[s.levelBadge, { backgroundColor: C.brandBg, borderColor: C.brand }]}>
             <Text style={[T.body, { color: C.brand }]}>⭐ {level.name}</Text>
-            <Text style={[T.small, { color: C.textMuted, marginLeft: 6 }]}>Lv. {level.level} · {xp} XP</Text>
+            <Text style={[T.small, { color: C.textMuted, marginLeft: 6 }]}>Lv. {level.level} · {rp} RP</Text>
           </View>
         </View>
 
@@ -203,7 +203,7 @@ export default function ProfileScreen({ navigation }) {
           {[
             { num: totalQuizzes, label: 'Quizzes' },
             { num: `${avgScore}%`, label: 'Avg Score' },
-            { num: xp, label: 'Total XP' },
+            { num: rp  label: 'Total RP' },
           ].map(({ num, label }) => (
             <View key={label} style={[s.statCard, cardShadow(C.shadow)]}>
               <Text style={[T.num, { color: C.brand, fontSize: 24 }]}>{num}</Text>
@@ -256,7 +256,7 @@ export default function ProfileScreen({ navigation }) {
           </TouchableOpacity>
         )}
 
-        {/* ── XP Shop ── */}
+        {/* ── RP Shop ── */}
         <TouchableOpacity
           style={[s.rowCard, cardShadow(C.shadow)]}
           onPress={() => navigation.navigate('Shop')}

@@ -356,7 +356,7 @@ export function usePet(uid) {
     })).catch(() => {})
     if (completed && !(valid && stored.completed)) {
       triggerReaction('celebrate')
-      return { completed: true, xp: 125 }
+      return { completed: true, rp  125 }
     }
     return { completed }
   }, [triggerReaction])

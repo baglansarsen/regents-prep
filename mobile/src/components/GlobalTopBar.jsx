@@ -50,7 +50,7 @@ export default function GlobalTopBar() {
 
   const { subject, setSubject }                          = useSubject()
   const { streak, hasFreeze, buyFreeze }                 = useDailyStreak(uid)
-  const { xp, spendXP }                                  = useRP(uid)
+  const { rp  spendXP }                                  = useRP(uid)
   const { lives, maxLives, nextRefillAt, refillLives, addLife, isSubscribed } = useLivesContext()
   const secsUntilRefill = useCountdown(lives < maxLives ? nextRefillAt : null)
   const { isActive: boostActive, timeLeft: boostTimeLeft }     = useDoubleRP()
@@ -67,12 +67,12 @@ export default function GlobalTopBar() {
       return
     }
 
-    const canAfford = xp >= 200
+    const canAfford = rp >= 200
     Alert.alert(
       `🔥 ${streak}-Day Streak`,
       canAfford
-        ? `Keep it going!\n\nBuy a 🧊 Streak Freeze for 200 XP to protect your streak if you miss a day. You have ${xp} XP.`
-        : `Keep it going!\n\nYou need 200 XP to buy a Streak Freeze. You have ${xp} XP — earn more by completing quizzes!`,
+        ? `Keep it going!\n\nBuy a 🧊 Streak Freeze for 200 RP to protect your streak if you miss a day. You have ${xp} RP.`
+        : `Keep it going!\n\nYou need 200 RP to buy a Streak Freeze. You have ${xp} RP — earn more by completing quizzes!`,
       canAfford
         ? [
             {
@@ -84,7 +84,7 @@ export default function GlobalTopBar() {
                 } else if (result === 'already_have') {
                   Alert.alert('Already protected!', 'You already have an active streak freeze.')
                 } else {
-                  Alert.alert('Not enough XP', 'You need 200 XP to buy a streak freeze.')
+                  Alert.alert('Not enough RP', 'You need 200 RP to buy a streak freeze.')
                 }
               },
             },
@@ -109,8 +109,8 @@ export default function GlobalTopBar() {
     Alert.alert(
       `❤️ ${lives} / ${maxLives} Lives`,
       lives === 0
-        ? `You're out of lives!\n\nNext life in ${formatRefillTime(nextRefillAt)}, or watch an ad / refill now for 300 ⭐ XP.`
-        : `Next life in ${formatRefillTime(nextRefillAt)}.\n\nWatch an ad for +1 ❤️, or refill all 5 lives for 300 ⭐ XP.`,
+        ? `You're out of lives!\n\nNext life in ${formatRefillTime(nextRefillAt)}, or watch an ad / refill now for 300 ⭐ RP.`
+        : `Next life in ${formatRefillTime(nextRefillAt)}.\n\nWatch an ad for +1 ❤️, or refill all 5 lives for 300 ⭐ RP.`,
       buttons,
     )
   }
@@ -150,7 +150,7 @@ export default function GlobalTopBar() {
           activeOpacity={0.75}
           accessibilityLabel={`${streak} day study streak`}
           accessibilityRole="button"
-          accessibilityHint={hasFreeze ? "Your streak is protected today by a active streak freeze. Tap to see protection details." : "Tap to buy a streak freeze protection for 200 XP."}
+          accessibilityHint={hasFreeze ? "Your streak is protected today by a active streak freeze. Tap to see protection details." : "Tap to buy a streak freeze protection for 200 RP."}
         >
           <View style={s.streakRow}>
             <Text style={s.statText}>🔥 {streak}</Text>
@@ -162,16 +162,16 @@ export default function GlobalTopBar() {
           </View>
         </TouchableOpacity>
 
-        {/* ⭐ XP */}
+        {/* ⭐ RP */}
         <View
           style={s.stat}
           accessibilityLabel={`${xp} experience points earned`}
           accessibilityRole="text"
-          accessibilityHint={boostActive ? `Double XP boost is active with ${Math.floor(boostTimeLeft / 60)} minutes left.` : ""}
+          accessibilityHint={boostActive ? `Double RP boost is active with ${Math.floor(boostTimeLeft / 60)} minutes left.` : ""}
         >
           <View style={s.xpRow}>
             <Text style={s.statText}>
-              ⭐ {xp >= 1000 ? `${(xp / 1000).toFixed(1)}k` : xp}
+              ⭐ {xp >= 1000 ? `${(xp / 1000).toFixed(1)}k` : rp 
             </Text>
             {boostActive && (
               <View style={s.boostBadge}>
@@ -199,7 +199,7 @@ export default function GlobalTopBar() {
             activeOpacity={0.8}
             accessibilityLabel={`${lives} out of ${maxLives} lives remaining`}
             accessibilityRole="button"
-            accessibilityHint={lives < maxLives ? `Next life refills in ${formatRefillTime(nextRefillAt)}. Tap to refill lives instantly using XP or watch a rewarded ad.` : "Your lives are fully charged."}
+            accessibilityHint={lives < maxLives ? `Next life refills in ${formatRefillTime(nextRefillAt)}. Tap to refill lives instantly using RP or watch a rewarded ad.` : "Your lives are fully charged."}
           >
             <Text style={s.statText}>
               {'❤️'.repeat(lives)}{'🖤'.repeat(maxLives - lives)}

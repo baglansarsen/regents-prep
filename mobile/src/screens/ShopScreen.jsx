@@ -24,10 +24,10 @@ export default function ShopScreen({ navigation }) {
   const { user } = useAuthContext()
   const uid = user?.uid
 
-  const { xp, spendXP }                                = useRP(uid)
+  const { rp  spendXP }                                = useRP(uid)
   const { hasFreeze, buyFreeze }                        = useDailyStreak(uid)
   const { lives, maxLives, refillLives }                = useLivesContext()
-  const { isActive, timeLeft, activateBoost, COST_XP }  = useDoubleRP()
+  const { isActive, timeLeft, activateBoost, COST_RP }  = useDoubleRP()
   const { isSubscribed } = useSubscription()
 
   const s = makeStyles(C)
@@ -40,23 +40,23 @@ export default function ShopScreen({ navigation }) {
     if (result === 'success')
       Alert.alert('🧊 Freeze Activated!', 'Your streak is protected for one missed day.')
     else if (result === 'insufficient_xp')
-      Alert.alert('Not enough XP', `You need 200 XP. You have ${xp} XP.`)
+      Alert.alert('Not enough RP', `You need 200 RP. You have ${xp} RP.`)
   }
 
   async function handleRefillLives() {
     if (lives >= maxLives) return
     const ok = await refillLives(spendXP)
     if (ok) Alert.alert('❤️ Lives Refilled!', 'All 5 lives restored.')
-    else    Alert.alert('Not enough XP', `You need 300 XP. You have ${xp} XP.`)
+    else    Alert.alert('Not enough RP', `You need 300 RP. You have ${xp} RP.`)
   }
 
   async function handleBuyBoost() {
     if (isActive) return
     const result = await activateBoost(spendXP)
     if (result === 'success')
-      Alert.alert('⚡ Boost Active!', 'All XP earned in the next 10 minutes is doubled!')
+      Alert.alert('⚡ Boost Active!', 'All RP earned in the next 10 minutes is doubled!')
     else if (result === 'insufficient_xp')
-      Alert.alert('Not enough XP', `You need ${COST_XP} XP. You have ${xp} XP.`)
+      Alert.alert('Not enough RP', `You need ${COST_RP} RP. You have ${xp} RP.`)
     else if (result === 'already_active')
       Alert.alert('Boost already running!', `${formatTime(timeLeft)} remaining.`)
   }
@@ -67,14 +67,14 @@ export default function ShopScreen({ navigation }) {
     {
       key:      'boost',
       icon:     '⚡',
-      name:     '2× XP Boost',
-      desc:     'Double all XP earned on correct answers for 10 minutes.',
-      cost:     COST_XP,
+      name:     '2× RP Boost',
+      desc:     'Double all RP earned on correct answers for 10 minutes.',
+      cost:     COST_RP,
       accent:   '#F59E0B',
       dark:     '#B45309',
       owned:    isActive,
       ownedLabel: `⏱ ${formatTime(timeLeft)} left`,
-      canBuy:   !isActive && xp >= COST_XP,
+      canBuy:   !isActive && rp >= COST_RP,
       onBuy:    handleBuyBoost,
     },
     {
@@ -87,7 +87,7 @@ export default function ShopScreen({ navigation }) {
       dark:     '#0369A1',
       owned:    hasFreeze,
       ownedLabel: '✓ Protected',
-      canBuy:   !hasFreeze && xp >= 200,
+      canBuy:   !hasFreeze && rp >= 200,
       onBuy:    handleBuyFreeze,
     },
     {
@@ -100,7 +100,7 @@ export default function ShopScreen({ navigation }) {
       dark:     '#CC0000',
       owned:    isSubscribed || lives >= maxLives,
       ownedLabel: isSubscribed ? '♾️ Unlimited' : '❤️ Full',
-      canBuy:   !isSubscribed && lives < maxLives && xp >= 300,
+      canBuy:   !isSubscribed && lives < maxLives && rp >= 300,
       onBuy:    handleRefillLives,
     },
   ]
@@ -114,14 +114,14 @@ export default function ShopScreen({ navigation }) {
           <TouchableOpacity onPress={() => navigation.goBack()} style={s.backBtn}>
             <Text style={[T.body, { color: C.text }]}>← Back</Text>
           </TouchableOpacity>
-          <Text style={[T.h2, { color: C.text }]}>🛒 XP Shop</Text>
+          <Text style={[T.h2, { color: C.text }]}>🛒 RP Shop</Text>
           <View style={s.xpChip}>
             <Text style={[T.h3, { color: C.warn }]}>⭐ {xp.toLocaleString()}</Text>
           </View>
         </View>
 
         <Text style={[T.small, { color: C.textMuted, paddingHorizontal: 20, marginBottom: 20 }]}>
-          Spend your ⭐ XP on power-ups to boost your studying.
+          Spend your ⭐ RP on power-ups to boost your studying.
         </Text>
 
         {/* Shop items */}
@@ -141,7 +141,7 @@ export default function ShopScreen({ navigation }) {
                 {item.desc}
               </Text>
               <Text style={[T.label, { color: item.accent, marginTop: 6, textTransform: 'none', letterSpacing: 0 }]}>
-                ⭐ {item.cost} XP
+                ⭐ {item.cost} RP
               </Text>
             </View>
 
@@ -171,10 +171,10 @@ export default function ShopScreen({ navigation }) {
           </View>
         ))}
 
-        {/* Earn more XP hint */}
+        {/* Earn more RP hint */}
         <View style={s.hint}>
           <Text style={[T.small, { color: C.textMuted, textAlign: 'center', lineHeight: 20 }]}>
-            💡 Earn more XP by completing quizzes{'\n'}and maintaining your daily streak.
+            💡 Earn more RP by completing quizzes{'\n'}and maintaining your daily streak.
           </Text>
         </View>
 

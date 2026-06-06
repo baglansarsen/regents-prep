@@ -121,7 +121,7 @@ function MemberRow({ entry, rank, isMe, inPromote, inDemote, C }) {
         {isMe ? '  👈' : ''}
       </Text>
 
-      {/* Weekly XP */}
+      {/* Weekly RP */}
       <View style={s.xpChip}>
         <Text style={[T.label, { color: C.warn, textTransform: 'none', letterSpacing: 0, fontSize: 13 }]}>
           ⭐ {entry.weeklyXP.toLocaleString()}
@@ -241,7 +241,7 @@ export default function LeagueScreen({ navigation }) {
             No one here yet!
           </Text>
           <Text style={[T.body, { color: C.textMuted, marginTop: 8, textAlign: 'center' }]}>
-            Earn XP this week to appear on the leaderboard.
+            Earn RP this week to appear on the leaderboard.
           </Text>
         </View>
       ) : (

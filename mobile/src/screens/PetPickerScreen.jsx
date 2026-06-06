@@ -50,7 +50,7 @@ export default function PetPickerScreen({ onComplete }) {
             Choose Your{'\n'}StudyBuddy 🐾
           </Text>
           <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 8, lineHeight: 22 }]}>
-            Your companion lives on your home screen,{'\n'}reacts to your study sessions, and evolves{'\n'}as you earn XP.
+            Your companion lives on your home screen,{'\n'}reacts to your study sessions, and evolves{'\n'}as you earn RP.
           </Text>
         </View>
 

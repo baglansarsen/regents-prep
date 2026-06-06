@@ -94,7 +94,7 @@ function Podium({ top3, uid, C, s, onPressEntry }) {
       ).start()
     }, 480)
 
-    // ── Phase 4: XP numbers fade in (after medals pop) ──────────────────
+    // ── Phase 4: RP numbers fade in (after medals pop) ──────────────────
     const xpTimer = setTimeout(() => {
       Animated.stagger(110,
         REVEAL_ORDER.map((col) =>
@@ -116,7 +116,7 @@ function Podium({ top3, uid, C, s, onPressEntry }) {
   if (top3.length === 0) {
     return (
       <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginVertical: 24 }]}>
-        No XP earned this week yet — go study! 📚
+        No RP earned this week yet — go study! 📚
       </Text>
     )
   }
@@ -171,7 +171,7 @@ function Podium({ top3, uid, C, s, onPressEntry }) {
               {isSelf ? 'You' : entry.displayName}
             </Animated.Text>
 
-            {/* XP — fades in last */}
+            {/* RP — fades in last */}
             <Animated.Text style={[s.podiumXP, { color: medal.text, opacity: xpOp[col] }]}>
               ⭐ {entry.weeklyXP}
             </Animated.Text>

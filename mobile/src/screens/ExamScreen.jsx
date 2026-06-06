@@ -27,7 +27,7 @@ export default function ExamScreen({ route, navigation }) {
   const insets = useSafeAreaInsets()
   const { user } = useAuthContext()
   const uid = user?.uid
-  const { xp, earnXP } = useRP(uid)
+  const { rp  earnXP } = useRP(uid)
   const { markStudied } = useDailyStreak(uid)
   const { checkAndEvolve } = usePetContext()
 

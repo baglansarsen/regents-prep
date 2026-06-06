@@ -146,7 +146,7 @@ export function useLeague(uid) {
         limit(LEAGUE_CAP),
       )
       const snap   = await getDocs(q)
-      const ranked = snap.docs.map((d) => ({ uid: d.id, xp: d.data().lastWeekXP ?? 0 }))
+      const ranked = snap.docs.map((d) => ({ uid: d.id, rp  d.data().lastWeekXP ?? 0 }))
       const myRank = ranked.findIndex((m) => m.uid === uid) + 1  // 1-based; 0 = not found
       if (myRank === 0) return 'none'
 
@@ -181,7 +181,7 @@ export function useLeague(uid) {
           uid:         d.id,
           displayName: data.displayName ?? 'Student',
           weeklyXP:    weekXP,
-          xp:          data.xp ?? 0,
+          rp           data.xp ?? 0,
         }
       })
       // Re-sort after nulling stale entries

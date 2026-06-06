@@ -77,7 +77,7 @@ export default function ExamResultsScreen({ route, navigation }) {
   const totalMaxPts       = mcMaxPts + writtenMaxPts
 
   const [displayScore, setDisplayScore] = useState(0)
-  const [displayXP,    setDisplayXP]    = useState(0)
+  const [displayRP,    setDisplayXP]    = useState(0)
   const scoreAnim = useRef(new Animated.Value(0)).current
   const xpAnim    = useRef(new Animated.Value(0)).current
 
@@ -140,7 +140,7 @@ export default function ExamResultsScreen({ route, navigation }) {
 
         {xpEarned > 0 && (
           <View style={s.xpBanner}>
-            <Text style={[T.body, { color: C.warn }]}>⭐ +{displayXP} XP earned</Text>
+            <Text style={[T.body, { color: C.warn }]}>⭐ +{displayRP} RP earned</Text>
           </View>
         )}
 

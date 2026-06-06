@@ -44,9 +44,9 @@ export default function QuizScreen({ route, navigation }) {
   const uid = user?.uid
 
   const { saveResult, isMastered } = useProgress(uid)
-  const { xpMultiplier }           = useDoubleRP()
+  const { rpMultiplier }           = useDoubleRP()
   const { markStudied }          = useDailyStreak(uid)
-  const { xp, earnXP, spendXP }  = useRP(uid)
+  const { rp  earnXP, spendXP }  = useRP(uid)
   const { lives, maxLives, nextRefillAt, loseLife, refillLives, addLife } = useLivesContext()
   const { ready: adReady, showAd } = useRewardedAd({ onReward: addLife })
   const { checkAndEvolve, triggerReaction, updateQuestProgress, getPetMessage, studyBoost, pet } = usePetContext()
@@ -173,15 +173,15 @@ export default function QuizScreen({ route, navigation }) {
     ]).start()
   }, [index])
 
-  // ── Quiz done: award XP with combo bonus ──────────────────────────────────
+  // ── Quiz done: award RP with combo bonus ──────────────────────────────────
   useEffect(() => {
     if (phase === 'done') {
       const correct    = results.filter((r) => r.correct).length
       const mistakes   = total - correct
       const pct        = Math.round((correct / total) * 100)
-      // `score` already bakes in speed + streak multipliers, so it IS the XP.
-      const xpEarned   = Math.round(score * xpMultiplier)
-      const doubleXP   = xpMultiplier > 1
+      // `score` already bakes in speed + streak multipliers, so it IS the RP.
+      const xpEarned   = Math.round(score * rpMultiplier)
+      const doubleXP   = rpMultiplier > 1
 
       // First-time mastery = consistency rule flips from false → true with this
       // attempt included (isMastered = 85%+ on 2 of the last 3 attempts).
@@ -208,7 +208,7 @@ export default function QuizScreen({ route, navigation }) {
       saveResult({ topic, score, total, correct, pct, subject, lessonIndex })
       markStudied()
       // Evolve against the authoritative post-award total, not the stale `xp` state
-      earnXP(xpEarned).then((newTotal) => checkAndEvolve(newTotal ?? xp + xpEarned))
+      earnXP(xpEarned).then((newTotal) => checkAndEvolve(newTotal ?? rp + xpEarned))
       if (challengeUnlocked)   { triggerReaction('cheer');        say(`⚡ Challenge passed! Next unit unlocked 🔓`) }
       else if (pct === 100)    { triggerReaction('cheer');        say(`Perfect score! +${xpEarned} ⭐ You're incredible 🎉`) }
       else if (pct >= 85)      { triggerReaction('happy_dance');  say(`+${xpEarned} ⭐ XP! Really solid work 🌟`) }
@@ -546,7 +546,7 @@ function NoLivesGate({ C, s, insets, nextRefillAt, adReady, onWatchAd, onRefill,
           </View>
         )}
 
-        {/* Refill with XP */}
+        {/* Refill with RP */}
         <TouchableOpacity
           style={[s.gateBtn, { backgroundColor: C.warnBg, borderWidth: 1, borderColor: C.warn + '60', marginTop: 10 }]}
           onPress={onRefill}

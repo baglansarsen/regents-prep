@@ -4,7 +4,7 @@ import { doc, getDoc, setDoc } from 'firebase/firestore'
 import { db } from '../firebase'
 
 const MAX_LIVES      = 5
-const REFILL_COST_XP = 300
+const REFILL_COST_RP = 300
 const REFILL_MS      = 30 * 60 * 1000   // 30 minutes
 const KEY_LIVES      = '@lives'
 const KEY_REFILL_AT  = '@livesNextRefillAt'
@@ -132,7 +132,7 @@ export function useLives(uid, isSubscribed = false) {
 
   // ─── refillLives (costs 300 XP) ──────────────────────────────────────────
   const refillLives = useCallback(async (spendXP) => {
-    const spent = await spendXP(REFILL_COST_XP)
+    const spent = await spendXP(REFILL_COST_RP)
     if (!spent) return false
     livesRef.current = MAX_LIVES
     setLives(MAX_LIVES)
@@ -157,5 +157,5 @@ export function useLives(uid, isSubscribed = false) {
     await save(uid_ref.current, newLives, newRefill)
   }, [])
 
-  return { lives, maxLives: MAX_LIVES, loseLife, refillLives, addLife, nextRefillAt, refillCost: REFILL_COST_XP, isSubscribed }
+  return { lives, maxLives: MAX_LIVES, loseLife, refillLives, addLife, nextRefillAt, refillCost: REFILL_COST_RP, isSubscribed }
 }

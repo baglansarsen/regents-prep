@@ -18,7 +18,7 @@ export default function PetShopScreen({ navigation }) {
   const { C }              = useTheme()
   const { user }           = useAuthContext()
   const { pet, inventory, feedPet, playWithPet, addInventory, toggleCosmetic, renamePet, switchBuddy } = usePetContext()
-  const { xp, spendXP }   = useRP(user?.uid)
+  const { rp  spendXP }   = useRP(user?.uid)
   const { say }           = useSpeechContext()
 
   const insets = useSafeAreaInsets()
@@ -31,7 +31,7 @@ export default function PetShopScreen({ navigation }) {
   async function handleBuyItem(item) {
     const ok = await spendXP(item.cost)
     if (!ok) {
-      Alert.alert('Not enough XP!', `You need ${item.cost} ⭐ XP. You have ${xp}.`)
+      Alert.alert('Not enough XP!', `You need ${item.cost} ⭐ RP. You have ${xp}.`)
       return
     }
     await addInventory(item.id, 1)
@@ -46,7 +46,7 @@ export default function PetShopScreen({ navigation }) {
     }
     const ok = await spendXP(item.cost)
     if (!ok) {
-      Alert.alert('Not enough XP!', `You need ${item.cost} ⭐ XP. You have ${xp}.`)
+      Alert.alert('Not enough XP!', `You need ${item.cost} ⭐ RP. You have ${xp}.`)
       return
     }
     await addInventory(item.id, 1)
@@ -59,7 +59,7 @@ export default function PetShopScreen({ navigation }) {
     if (!trimmed) return
     if (trimmed === pet.name) { Alert.alert('Same name!', 'Choose a different name.'); return }
     const ok = await spendXP(150)
-    if (!ok) { Alert.alert('Not enough XP!', `Renaming costs 150 ⭐ XP. You have ${xp}.`); return }
+    if (!ok) { Alert.alert('Not enough XP!', `Renaming costs 150 ⭐ RP. You have ${xp}.`); return }
     await renamePet(trimmed)
     Alert.alert('Renamed! 🏷️', `Your pet is now called ${trimmed}!`)
   }
@@ -229,7 +229,7 @@ export default function PetShopScreen({ navigation }) {
               </TouchableOpacity>
             ) : (
               <TouchableOpacity
-                style={duoBtn(xp >= item.cost ? item.accent : C.surface3, xp >= item.cost ? item.dark : C.border, { paddingVertical: 10, paddingHorizontal: 12, opacity: xp >= item.cost ? 1 : 0.5 })}
+                style={duoBtn(xp >= item.cost ? item.accent : C.surface3, rp >= item.cost ? item.dark : C.border, { paddingVertical: 10, paddingHorizontal: 12, opacity: rp >= item.cost ? 1 : 0.5 })}
                 onPress={() => handleBuyCosmetic(item)}
                 disabled={xp < item.cost}
               >
@@ -238,7 +238,7 @@ export default function PetShopScreen({ navigation }) {
             )
           ) : (
             <TouchableOpacity
-              style={duoBtn(xp >= item.cost ? item.accent : C.surface3, xp >= item.cost ? item.dark : C.border, { paddingVertical: 10, paddingHorizontal: 12, opacity: xp >= item.cost ? 1 : 0.5 })}
+              style={duoBtn(xp >= item.cost ? item.accent : C.surface3, rp >= item.cost ? item.dark : C.border, { paddingVertical: 10, paddingHorizontal: 12, opacity: rp >= item.cost ? 1 : 0.5 })}
               onPress={() => handleBuyItem(item)}
               disabled={xp < item.cost}
             >
@@ -322,7 +322,7 @@ export default function PetShopScreen({ navigation }) {
           <View style={s.renameCard}>
             <Text style={[T.h3, { color: C.text, marginBottom: 4 }]}>🏷️ Rename {pet.name}</Text>
             <Text style={[T.small, { color: C.textMuted, marginBottom: 16 }]}>
-              Costs 150 ⭐ XP. Current name: {pet.name}
+              Costs 150 ⭐ RP. Current name: {pet.name}
             </Text>
             <TextInput
               style={[s.nameInput, { color: C.text, borderColor: C.border, backgroundColor: C.surface2 }]}

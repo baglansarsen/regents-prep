@@ -124,7 +124,7 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
             {gotIt} cards mastered · {again} marked for review
           </Text>
 
-          {/* XP summary row */}
+          {/* RP summary row */}
           <View style={[s.xpRow, { backgroundColor: C.warnBg, borderColor: C.warn + '50' }]}>
             <Text style={[s.xpRowText, { color: C.warn }]}>+{gotIt * XP_PER_CARD} ⭐ card XP</Text>
             {sessionSeconds >= 60 && (

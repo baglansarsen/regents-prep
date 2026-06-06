@@ -48,7 +48,7 @@ export default function UserProfileScreen({ route, navigation }) {
   useEffect(() => {
     ;(async () => {
       try {
-        // Public leaderboard doc: { displayName, xp, weeklyXP, weekKey }
+        // Public leaderboard doc: { displayName, rp  weeklyXP, weekKey }
         const lbSnap = await getDoc(doc(db, 'leaderboard', targetUid))
         setProfile(lbSnap.exists() ? lbSnap.data() : {})
 
@@ -213,7 +213,7 @@ export default function UserProfileScreen({ route, navigation }) {
           </View>
           {level.next ? (
             <Text style={[T.label, { color: C.textDim, textAlign: 'center', marginTop: 6, textTransform: 'none', letterSpacing: 0 }]}>
-              {level.next.min - totalXP} XP to {level.next.name}
+              {level.next.min - totalXP} RP to {level.next.name}
             </Text>
           ) : (
             <Text style={[T.label, { color: C.brand, textAlign: 'center', marginTop: 6 }]}>MAX LEVEL 🏆</Text>

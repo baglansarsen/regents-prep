@@ -49,10 +49,10 @@ import NudgeBanner from '../components/NudgeBanner'
 import { getEngagementNudge } from '../hooks/useEngagementNudge'
 
 const MILESTONE_GIFTS = {
-  3:  { xp: 100,  items: {},                       label: '100 ⭐ XP!' },
-  7:  { xp: 250,  items: { apple: 1 },             label: '250 ⭐ XP + 🍎 Apple!' },
-  14: { xp: 500,  items: { ramen: 1 },             label: '500 ⭐ XP + 🍜 Ramen!' },
-  30: { xp: 1000, items: { sushi: 1, glowAura: 1 }, label: '1000 ⭐ XP + 🍣 Sushi + ✨ Glow Aura!' },
+  3:  { rp  100,  items: {},                       label: '100 ⭐ RP!' },
+  7:  { rp  250,  items: { apple: 1 },             label: '250 ⭐ RP + 🍎 Apple!' },
+  14: { rp  500,  items: { ramen: 1 },             label: '500 ⭐ RP + 🍜 Ramen!' },
+  30: { rp  1000, items: { sushi: 1, glowAura: 1 }, label: '1000 ⭐ RP + 🍣 Sushi + ✨ Glow Aura!' },
 }
 
 const GOAL_PET_MESSAGES = {
@@ -180,7 +180,7 @@ export default function HomeScreen({ navigation }) {
       if (!raw) return
       AsyncStorage.removeItem('@levelUp').catch(() => {})
       const data = JSON.parse(raw)
-      // Award bonus XP for levelling up
+      // Award bonus RP for levelling up
       earnRP(200)
       setLevelUpModal(data)
     }).catch(() => {})
@@ -332,7 +332,7 @@ export default function HomeScreen({ navigation }) {
     const min = Math.ceil(ms / 60000)
     Alert.alert(
       '🚫 Out of Lives!',
-      `Next life in ${min > 0 ? `${min}m` : 'a moment'}, or refill all 5 for 300 ⭐ XP.`,
+      `Next life in ${min > 0 ? `${min}m` : 'a moment'}, or refill all 5 for 300 ⭐ RP.`,
       [
         { text: 'Refill (300 XP)', onPress: () => refillLives(spendXP).then((ok) => ok && onProceed()) },
         { text: 'Not now', style: 'cancel' },
@@ -598,7 +598,7 @@ export default function HomeScreen({ navigation }) {
                 style={[s.freezeBtn, { backgroundColor: C.brand }]}
                 onPress={() => buyFreeze(spendXP).then((res) => {
                   if (res === 'success') { setShowFreezeBanner(false); Alert.alert('🧊 Streak Freeze active!', 'Your streak is protected if you miss today.') }
-                  else if (res === 'insufficient_xp') Alert.alert('Not enough XP', 'You need 200 XP to buy a Streak Freeze.')
+                  else if (res === 'insufficient_xp') Alert.alert('Not enough RP', 'You need 200 RP to buy a Streak Freeze.')
                 })}
               >
                 <Text style={{ color: '#fff', fontSize: 11, fontWeight: '700' }}>🧊 Freeze (200 XP)</Text>
@@ -639,11 +639,11 @@ export default function HomeScreen({ navigation }) {
           <View style={{ flex: 1, marginLeft: 14 }}>
             <Text style={[T.h3, { color: C.text }]}>Daily Goal</Text>
             <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-              {todayRP} / {goal} XP today
+              {todayRP} / {goal} RP today
             </Text>
             {goalMet
               ? <Text style={[T.small, { color: C.correct, marginTop: 3 }]}>🎯 Goal reached!</Text>
-              : <Text style={[T.small, { color: C.textMuted, marginTop: 3 }]}>{goal - todayRP} XP to go</Text>
+              : <Text style={[T.small, { color: C.textMuted, marginTop: 3 }]}>{goal - todayRP} RP to go</Text>
             }
           </View>
 
@@ -995,7 +995,7 @@ export default function HomeScreen({ navigation }) {
           style={[s.sheet, cardShadow(C.shadow), { backgroundColor: C.surface, transform: [{ translateY: goalSheetAnim }] }]}
         >
           <View style={s.sheetHandle} />
-          <Text style={[T.h3, { color: C.text, marginBottom: 4 }]}>🎯 Daily XP Goal</Text>
+          <Text style={[T.h3, { color: C.text, marginBottom: 4 }]}>🎯 Daily RP Goal</Text>
           <Text style={[T.small, { color: C.textMuted, marginBottom: 20 }]}>
             How much do you want to learn today?
           </Text>
@@ -1018,7 +1018,7 @@ export default function HomeScreen({ navigation }) {
                 >
                   <Text style={{ fontSize: 22 }}>{emojis[g]}</Text>
                   <View style={{ flex: 1, marginLeft: 12 }}>
-                    <Text style={[T.h3, { color: active ? C.brand : C.text }]}>{g} XP / day</Text>
+                    <Text style={[T.h3, { color: active ? C.brand : C.text }]}>{g} RP / day</Text>
                     <Text style={[T.small, { color: C.textMuted }]}>{labels[g]}</Text>
                   </View>
                   {active && <Text style={[T.label, { color: C.brand }]}>✓ ACTIVE</Text>}
@@ -1137,7 +1137,7 @@ export default function HomeScreen({ navigation }) {
               {levelUpModal?.name}
             </Text>
             <Text style={[T.small, { color: C.textMuted, textAlign: 'center', marginTop: 8 }]}>
-              +200 bonus XP awarded 🎁
+              +200 bonus RP awarded 🎁
             </Text>
             <TouchableOpacity
               style={[duoBtn(C.brand, C.brandDark), { marginTop: 20 }]}
@@ -1157,7 +1157,7 @@ export default function HomeScreen({ navigation }) {
             <Text style={{ fontSize: 64, textAlign: 'center' }}>🎯</Text>
             <Text style={[T.h2, { color: C.text, textAlign: 'center', marginTop: 8 }]}>Daily Goal Reached!</Text>
             <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 4 }]}>
-              {todayRP} XP earned today
+              {todayRP} RP earned today
             </Text>
             <View style={{ backgroundColor: C.brand + '20', borderRadius: 12, padding: 12, marginTop: 16, alignItems: 'center' }}>
               <Text style={{ fontSize: 36 }}>{PET_RESULTS[pet.petType]?.emoji ?? '🐾'}</Text>

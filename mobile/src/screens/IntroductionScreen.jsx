@@ -112,7 +112,7 @@ export default function IntroductionScreen({ onComplete }) {
       emoji: '🐾',
       title: 'Your Study Buddy',
       subtitle: 'A companion for your journey.',
-      desc: 'Pick a cute pet that studies by your side, offers trivia, speaks encouragement, and evolves as you earn study XP.',
+      desc: 'Pick a cute pet that studies by your side, offers trivia, speaks encouragement, and evolves as you earn study RP.',
       accent: '#FF9600',
     },
     {

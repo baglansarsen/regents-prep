@@ -14,9 +14,9 @@ import { db } from '../firebase'
 
 // ── Constants ─────────────────────────────────────────────────────────────────
 export const MILESTONES = [
-  { seconds: 600,  xp: 15,  label: '10 min',  reaction: 'celebrate',   message: "10 minutes of studying! Keep it up! 🎉" },
-  { seconds: 1800, xp: 50,  label: '30 min',  reaction: 'happy_dance', message: "30 minutes! You're on fire! 🔥" },
-  { seconds: 3600, xp: 100, label: '1 hour',  reaction: 'cheer',       message: "ONE HOUR! Legendary! 🏆" },
+  { seconds: 600,  rp  15,  label: '10 min',  reaction: 'celebrate',   message: "10 minutes of studying! Keep it up! 🎉" },
+  { seconds: 1800, rp  50,  label: '30 min',  reaction: 'happy_dance', message: "30 minutes! You're on fire! 🔥" },
+  { seconds: 3600, rp  100, label: '1 hour',  reaction: 'cheer',       message: "ONE HOUR! Legendary! 🏆" },
 ]
 const XP_DRIP_INTERVAL = 60      // award 1 XP every 60 seconds
 const SAVE_INTERVAL    = 30      // persist to storage every 30 seconds

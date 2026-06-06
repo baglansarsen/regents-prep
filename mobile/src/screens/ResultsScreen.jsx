@@ -87,11 +87,11 @@ export default function ResultsScreen({ route, navigation }) {
   const { C } = useTheme()
   const { user } = useAuthContext()
   const { streak, weekDays } = useDailyStreak(user?.uid)
-  const { xp } = useRP(user?.uid)
+  const { rp } = useRP(user?.uid)
 
   const [diveDeepQ,      setDiveDeepQ]      = useState(null)
   const [showCelebration, setShowCelebration] = useState(firstMastery)
-  const [displayXP,    setDisplayXP]    = useState(0)
+  const [displayRP,    setDisplayXP]    = useState(0)
   const [showStreak,   setShowStreak]   = useState(false)
   const xpAnim     = useRef(new Animated.Value(0)).current
   const streakAnim = useRef(new Animated.Value(0)).current
@@ -100,7 +100,7 @@ export default function ResultsScreen({ route, navigation }) {
     if (xpEarned <= 0) return
     const id = xpAnim.addListener(({ value }) => setDisplayXP(Math.round(value)))
     Animated.timing(xpAnim, { toValue: xpEarned, duration: 900, useNativeDriver: false }).start(() => {
-      // After XP counts up, reveal the streak banner
+      // After RP counts up, reveal the streak banner
       setShowStreak(true)
       Animated.spring(streakAnim, { toValue: 1, useNativeDriver: true, tension: 120, friction: 8 }).start()
     })
@@ -166,7 +166,7 @@ export default function ResultsScreen({ route, navigation }) {
         {xpEarned > 0 && (
           <View style={[s.banner, { backgroundColor: C.warnBg, borderColor: C.warn + '60' }]}>
             <Text style={[T.h3, { color: C.warn }]}>
-              ⭐ +{displayXP} XP earned{doubleXP ? '  ⚡ 2× boost!' : ''}
+              ⭐ +{displayRP} RP earned{doubleXP ? '  ⚡ 2× boost!' : ''}
             </Text>
           </View>
         )}
@@ -211,7 +211,7 @@ export default function ResultsScreen({ route, navigation }) {
 
         {/* Engagement nudge */}
         {xp !== undefined && (() => {
-          const nudge = getEngagementNudge('results', { pct, xpEarned, xp, level: getLevel(xp) })
+          const nudge = getEngagementNudge('results', { pct, xpEarned, rp  level: getLevel(xp) })
           return nudge && <NudgeBanner {...nudge} />
         })()}
 
