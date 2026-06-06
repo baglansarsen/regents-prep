@@ -86,7 +86,7 @@ export default function HomeScreen({ navigation }) {
 
   const { history } = useProgress(uid)
   const { weekDays, streak, studiedToday, hasFreeze, buyFreeze } = useDailyStreak(uid)
-  const { xp, earnXP, spendXP } = useXP(uid)
+  const { xp, earnXP, spendXP, loaded: xpLoaded } = useXP(uid)
   const { lives, maxLives, nextRefillAt, refillLives } = useLivesContext()
   const { todaySeconds } = useStudyTime(uid, null, null)  // read-only: no session, just load persisted totals
 
@@ -137,7 +137,7 @@ export default function HomeScreen({ navigation }) {
     }).then((msg) => { if (msg) say(msg) }).catch(() => {})
   }, [reloadSkipUnlocks, pendingEvolution, uid, streak]))
 
-  const { goal, setGoal, todayXP, progress: goalProgress, goalMet, GOALS } = useDailyGoal(xp)
+  const { goal, setGoal, todayXP, progress: goalProgress, goalMet, GOALS } = useDailyGoal(xp, xpLoaded)
   const { mistakes, mistakeCount } = useMistakes()
 
   // ── Exam countdown (real dates — computed once per render) ─────────────────
