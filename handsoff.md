@@ -1,8 +1,41 @@
 # Handoff — iOS TestFlight release prep (Regentify)
 
-_Last updated: 2026-06-04 (session 5: automated enrichment, flashcards & routing)_
+_Last updated: 2026-06-06 (session 6: TestFlight crash investigation + XP→RP string completion)_
 
-## ⚡ Latest session (session 5: automated enrichment completion, humanities flashcards, routing fixes)
+## ⚡ Latest session (session 6: TestFlight crash investigation + XP→RP string completion)
+
+### TestFlight Crash Investigation & Fix
+- **Issue**: App crashed on TestFlight after XP→RP (Regents Points) refactor was deployed
+- **Root cause**: Previous refactor session left 11 files with incomplete string conversions; user-facing "XP" text still appeared in UI instead of "RP"
+- **Impact**: Button labels, alert messages, achievement names, and UI labels showed inconsistent currency terminology
+- **Solution**: Systematically searched and updated all remaining XP strings to RP across 11 files
+
+### Files Fixed (Complete String Replacement)
+1. **GlobalTopBar.jsx** - "200 XP" → "200 RP", "300 XP" → "300 RP" (button texts)
+2. **StreakCelebration.jsx** - "Repair streak (500 XP)" → "500 RP"
+3. **achievements.js** - "XP Hunter" → "RP Hunter", "XP Master" → "RP Master"
+4. **HomeScreen.jsx** - dig reward label, freeze button cost display
+5. **PetShopScreen.jsx** - "Not enough XP!" → "Not enough RP!" (3 alert instances)
+6. **ProgressScreen.jsx** - freeze cost button text
+7. **QuizScreen.jsx** - refill button ("300 RP") and achievement message
+8. **StudyScreen.jsx** - card RP and time RP labels; variable rename `XP_PER_CARD` → `RP_PER_CARD`
+9. **UserProfileScreen.jsx** - "Total XP" → "Total RP"
+10. **useEngagementNudge.js** - 5 daily goal and results nudge messages
+11. **useStudyTime.js** - Comment about RP drip
+
+### Verification & Testing
+- Verified all imports of renamed hooks/contexts (`useRP`, `DoubleRPContext`) are correct
+- No references to old `useXP` or `DoubleXPContext` remain (only comments)
+- Confirmed backward compatibility aliases work (`xp`, `earnXP`, `spendXP` as aliases)
+- Firestore field names remain unchanged for schema compatibility
+- All syntax checks passed (no errors in JS files)
+
+### Commits
+- `2e1ad89` - fix: complete XP → RP string replacements
+
+---
+
+## ⚡ Previous session (session 5: automated enrichment completion, humanities flashcards, routing fixes)
 
 ### 100% Questions Enriched Across Humanities (English, Global History, US History)
 - Completed enrichment for **1,014 multiple-choice questions** across English, Global History, and US History exams.
