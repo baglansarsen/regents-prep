@@ -13,7 +13,7 @@ import {
 import { ThemeProvider, useTheme } from './src/context/ThemeContext'
 import { AuthProvider } from './src/context/AuthContext'
 import { SubjectProvider } from './src/context/SubjectContext'
-import { DoubleXPProvider } from './src/context/DoubleXPContext'
+import { DoubleRPProvider } from './src/context/DoubleRPContext'
 import { LivesProvider } from './src/context/LivesContext'
 import { SubscriptionProvider } from './src/context/SubscriptionContext'
 import { PetProvider }    from './src/context/PetContext'
@@ -84,7 +84,7 @@ export default function App() {
     <ThemeProvider>
       <AuthProvider>
         <SubjectProvider>
-          <DoubleXPProvider>
+          <DoubleRPProvider>
             <SubscriptionProvider>
               <LivesProvider>
                 <PetProvider>
@@ -96,7 +96,7 @@ export default function App() {
                 </PetProvider>
               </LivesProvider>
             </SubscriptionProvider>
-          </DoubleXPProvider>
+          </DoubleRPProvider>
         </SubjectProvider>
       </AuthProvider>
     </ThemeProvider>
