@@ -147,7 +147,7 @@ export const PET_RESULTS = {
     tips: [
       "Protect your alone study time—it's where breakthroughs happen",
       'Trust your unconventional approach to problems',
-      'Share your unique insights; they're often right',
+      "Share your unique insights; they're often right",
     ],
   },
   parrot: {
