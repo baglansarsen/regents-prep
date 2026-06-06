@@ -235,12 +235,12 @@ export default function HomeScreen({ navigation }) {
   }[subject] ?? 'Regents'
 
   const idleMessages = pet.petType ? {
-    axolotl: [`Your ${subjectName} notes are looking great lately 💗`, 'One more quiz? For me? 🦎', `I believe in your ${subjectName} skills. Always. 🌊`],
-    fox:     [`You know what separates good ${subjectName} scores from great? Consistency.`, 'Sharp mind. Keep it that way. 🦊', 'Quick quiz. Go.'],
-    capybara:[`No rush. One ${subjectName} flashcard deck is enough 🌿`, 'Breathe. You\'re doing well 🦫', 'Chill energy, real results.'],
-    voidCat: [`The void observes your ${subjectName} progress. It is... adequate. 🐱`, 'Study. The void commands it. 🌑', 'Do not disappoint the void.'],
-    bear:    [`One more ${subjectName} unit. Bears don\'t quit midway 🐻`, `Slow and steady wins the ${subjectName} Regents 🍯`, 'I\'m proud of your consistency 🐾'],
-    bunny:   [`Quick question — what\'s your weak ${subjectName} topic? Let\'s fix it 🐰`, `You\'re hopping through ${subjectName}! 🌸`, 'Keep going! Almost there 🐰'],
+    dog:     [`Your ${subjectName} progress makes me so proud! 🐶`, `One more ${subjectName} quiz? Let's do it together! 🐾`, `I believe in your ${subjectName} skills. Always. 🐶`],
+    parrot:  [`Quick ${subjectName} question — let's go! 🦜`, `You're flying through ${subjectName}! 🦜`, `One more ${subjectName} quiz? I'm ready! 🌸`],
+    cat:     [`Your ${subjectName} progress is noted. Continue. 🐱`, `Solo ${subjectName} study time. That's where you shine. 🐱`, `Trust your ${subjectName} approach. It works. 🌑`],
+    rabbit:  [`Your ${subjectName} dedication means everything 💗`, `One more ${subjectName} quiz? For us? 🐰`, `Steady hops through ${subjectName}. You've got this 🌸`],
+    fish:    [`No rush with ${subjectName}. One concept at a time 🐠`, `Stay calm. ${subjectName} mastery flows naturally 🌊`, `Your steady ${subjectName} progress is beautiful 🐠`],
+    hamster: [`One more ${subjectName} unit at your pace 🐹`, `Quiet ${subjectName} study sessions suit you best 🐹`, `Grounded progress in ${subjectName}. Keep going 🐹`],
   }[pet.petType] ?? [] : []
 
   useEffect(() => {

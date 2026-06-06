@@ -121,29 +121,29 @@ export const QUESTIONS = [
   },
 ];
 
-// Pet result configurations — mapped to production pets
-// Matching: Dog→Fox, Parrot→Bunny, Cat→VoidCat, Rabbit→Axolotl, Fish→Capybara, Hamster→Bear
+// Pet result configurations
+// Big Five mapping: dog (E+A), parrot (O+E), cat (O+low E), rabbit (C+A), fish (C+low N), hamster (default)
 export const PET_RESULTS = {
   dog: {
-    petType: 'fox',
-    name: 'Fox',
-    emoji: '🦊',
-    tagline: 'Sleek, focused, and naturally charismatic.',
+    petType: 'dog',
+    name: 'Dog',
+    emoji: '🐶',
+    tagline: 'Loyal, energetic, and naturally people-oriented.',
     description:
-      "You're a natural people-person with sharp instincts and infectious energy. You thrive on connection, bring focus to every room, and genuinely motivate those around you. You're the friend everyone wants on their study team.",
+      "You're a natural people-person with infectious energy and a genuine heart. You thrive on connection, bring focus and enthusiasm to every situation, and truly motivate those around you. You're the friend everyone wants on their study team.",
     tips: [
       'Channel your social energy into group study sessions',
       'Lead study groups and help others sharpen their focus',
-      'Use your charisma to inspire consistent habits',
+      'Use your warmth and loyalty to inspire consistent habits',
     ],
   },
   cat: {
-    petType: 'voidCat',
-    name: 'Void Cat',
+    petType: 'cat',
+    name: 'Cat',
     emoji: '🐱',
-    tagline: 'Independent, mysterious, and brilliantly introspective.',
+    tagline: 'Independent, creative, and brilliantly introspective.',
     description:
-      "You march to the beat of your own drum. You're intellectually curious, drawn to novel ideas others overlook, and you excel at deep, independent analysis. You value your solitude—it's where the real thinking happens.",
+      "You march to the beat of your own drum. You're intellectually curious, drawn to novel ideas others overlook, and you excel at deep, independent analysis. You value your solitude—it's where the real breakthroughs happen.",
     tips: [
       "Protect your alone study time—it's where breakthroughs happen",
       'Trust your unconventional approach to problems',
@@ -151,55 +151,55 @@ export const PET_RESULTS = {
     ],
   },
   parrot: {
-    petType: 'bunny',
-    name: 'Bunny',
-    emoji: '🐰',
-    tagline: 'Quick, playful, and endlessly curious.',
+    petType: 'parrot',
+    name: 'Parrot',
+    emoji: '🦜',
+    tagline: 'Playful, curious, and endlessly enthusiastic.',
     description:
-      "You're the energizer of any study session with a mind that bounces between ideas brilliantly. You love experimenting with new approaches, making learning fun, and diving deep into topics that fascinate you. Your curiosity is your superpower.",
+      "You're the energizer of any study session with a mind that bounces between ideas brilliantly. You love experimenting with new approaches, making learning fun, and diving deep into topics that fascinate you. Your curiosity and energy are your superpowers.",
     tips: [
       'Use quick study sprints to match your natural pace',
-      'Find study partners who share your enthusiasm',
+      'Find study partners who share your enthusiasm and energy',
       'Balance fast learning with time to consolidate concepts',
     ],
   },
   rabbit: {
-    petType: 'axolotl',
-    name: 'Axolotl',
-    emoji: '🦎',
+    petType: 'rabbit',
+    name: 'Rabbit',
+    emoji: '🐰',
     tagline: 'Gentle, reliable, and deeply empathetic.',
     description:
-      "You're the steady presence everyone relies on. You value consistency, take your responsibilities seriously, and show up for others with genuine care. Your reliability and empathy make you an incredible study partner—people trust you completely.",
+      "You're the steady presence everyone relies on. You value consistency, take your responsibilities seriously, and show up for others with genuine care. Your reliability and kindness make you an incredible study partner—people trust you completely.",
     tips: [
       'Your steady approach builds real mastery over time',
-      'Help others when you can—your kindness strengthens understanding',
-      'Occasionally push yourself beyond your comfort zone to grow',
+      'Help others when you can—your kindness strengthens their understanding',
+      'Occasionally push yourself beyond your comfort zone to grow stronger',
     ],
   },
   fish: {
-    petType: 'capybara',
-    name: 'Capybara',
-    emoji: '🦫',
+    petType: 'fish',
+    name: 'Fish',
+    emoji: '🐠',
     tagline: 'Calm, methodical, and naturally serene.',
     description:
       "You're a natural at staying grounded and composed under pressure. You think things through carefully, appreciate structure, and find your best learning happens in peaceful, organized environments. You're the calm anchor that steadies everyone around you.",
     tips: [
       'Create a calm, distraction-free study space',
-      'Use systematic study methods that match your nature',
-      'Share your peaceful perspective with stressed friends',
+      'Use systematic study methods that match your peaceful nature',
+      'Share your serene perspective with stressed friends',
     ],
   },
   hamster: {
-    petType: 'bear',
-    name: 'Bear',
-    emoji: '🐻',
-    tagline: 'Grounded, observant, and dependably solid.',
+    petType: 'hamster',
+    name: 'Hamster',
+    emoji: '🐹',
+    tagline: 'Grounded, observant, and dependably independent.',
     description:
-      "You're happy doing things at your own pace, in your own way. You're observant and thoughtful, don't need constant external validation, and build strength through steady, solo progress. Your independent learning style is completely valid and effective.",
+      "You're happy doing things at your own pace, in your own way. You're observant and thoughtful, don't need constant external validation, and build strength through steady, solo progress. Your independent learning style is completely valid and incredibly effective.",
     tips: [
-      'Trust your solo learning process—it works',
-      'Set your own pace and celebrate quiet wins',
-      'Branch out to study groups when it feels right',
+      'Trust your solo learning process—it works for you',
+      'Set your own pace and celebrate your quiet wins',
+      'Branch out to study groups when it feels right to you',
     ],
   },
 };

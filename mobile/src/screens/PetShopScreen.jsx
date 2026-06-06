@@ -89,10 +89,10 @@ export default function PetShopScreen({ navigation }) {
 
   function renderSwitchTab() {
     const PET_ICON_PLACEHOLDERS = {
-      axolotl:  null,
-      fox:      null,
-      capybara: null,
-      voidCat:  null,
+      dog:    null,
+      cat:    null,
+      parrot: null,
+      rabbit: null,
     }
     const anyIconReady = Object.values(PET_ICON_PLACEHOLDERS).some(Boolean)
 
