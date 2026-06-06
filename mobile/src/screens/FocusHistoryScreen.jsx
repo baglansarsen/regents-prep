@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { View, Text, ScrollView, TouchableOpacity, StyleSheet } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
-import { useXP } from '../hooks/useXP'
 import { useFocusSession } from '../hooks/useFocusSession'
-import { T, cardShadow } from '../styles/duo'
+import { T, cardShadow, elevatedCard } from '../styles/duo'
 
 function formatDate(isoDate) {
   const d = new Date(isoDate)
@@ -26,13 +26,25 @@ function groupByDate(history) {
   return Object.entries(groups).sort((a, b) => b[0].localeCompare(a[0]))
 }
 
+function historyKey(uid) { return `@focusHistory_v1_${uid ?? 'anon'}` }
+
 export default function FocusHistoryScreen({ navigation, route }) {
   const { C } = useTheme()
   const { user } = useAuthContext()
   const uid = user?.uid
-  // Use history passed from FocusScreen if available, else load from hook
-  const { history: hookHistory } = useFocusSession(uid, null, null)
-  const history = route?.params?.history ?? hookHistory
+  const [history, setHistory] = useState(route?.params?.history ?? [])
+  const [expandedId, setExpandedId] = useState(null)
+
+  // Load history from AsyncStorage if not passed via route
+  useEffect(() => {
+    if (route?.params?.history) return
+    if (!uid) return
+    AsyncStorage.getItem(historyKey(uid)).then((raw) => {
+      try {
+        if (raw) setHistory(JSON.parse(raw))
+      } catch {}
+    })
+  }, [uid, route?.params?.history])
 
   const s = makeStyles(C)
   const grouped = groupByDate(history)
@@ -60,17 +72,55 @@ export default function FocusHistoryScreen({ navigation, route }) {
         </View>
       ) : (
         <ScrollView contentContainerStyle={s.scroll} showsVerticalScrollIndicator={false}>
+          {/* Weekly stats header */}
+          {(() => {
+            const weekStart = new Date()
+            weekStart.setDate(weekStart.getDate() - 7)
+            const thisWeek = history.filter(s => new Date(s.date ?? s.startedAt) > weekStart)
+            const weekMinutes = thisWeek.reduce((sum, s) => sum + (s.pomodorosCompleted * (s.preset === 'short' ? 15 : s.preset === 'long' ? 50 : 25) + (s.partialMinutes ?? 0)), 0)
+            const weekXP = thisWeek.reduce((sum, s) => sum + (s.xpEarned ?? 0), 0)
+            return (
+              <View style={[elevatedCard(C), { marginHorizontal: -20, marginTop: -4, marginBottom: 16, borderRadius: 0, padding: 20 }]}>
+                <Text style={[T.label, { color: C.brand, marginBottom: 12 }]}>This Week</Text>
+                <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
+                  <View style={{ alignItems: 'center' }}>
+                    <Text style={[T.h3, { color: C.text }]}>{thisWeek.length}</Text>
+                    <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Session{thisWeek.length !== 1 ? 's' : ''}</Text>
+                  </View>
+                  <View style={{ alignItems: 'center' }}>
+                    <Text style={[T.h3, { color: C.text }]}>{weekMinutes}</Text>
+                    <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Minutes</Text>
+                  </View>
+                  <View style={{ alignItems: 'center' }}>
+                    <Text style={[T.h3, { color: C.warn }]}>+{weekXP}</Text>
+                    <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>XP Earned</Text>
+                  </View>
+                </View>
+              </View>
+            )
+          })()}
           {grouped.map(([date, sessions]) => (
             <View key={date}>
               <Text style={[s.dateLabel, { color: C.textMuted }]}>{formatDate(date)}</Text>
               {sessions.map((session) => {
-                const presetMin = session.preset === 'short' ? 15 : session.preset === 'long' ? 50 : 25
+                const PRESETS = [
+                  { id: 'short', min: 15 },
+                  { id: 'medium', min: 25 },
+                  { id: 'long', min: 50 },
+                ]
+                const presetMin = PRESETS.find(p => p.id === session.preset)?.min ?? 25
                 const duration  = session.pomodorosCompleted * presetMin + (session.partialMinutes ?? 0)
                 const doneTasks  = (session.todos ?? []).filter((t) => t.done).length
                 const totalTasks = (session.todos ?? []).length
+                const isExpanded = expandedId === session.id
 
                 return (
-                  <View key={session.id} style={[s.card, { backgroundColor: C.surface, ...cardShadow(C.shadow) }]}>
+                  <TouchableOpacity
+                    key={session.id}
+                    style={[s.card, { backgroundColor: C.surface, ...cardShadow(C.shadow) }]}
+                    onPress={() => setExpandedId(isExpanded ? null : session.id)}
+                    activeOpacity={0.7}
+                  >
                     <View style={s.cardTop}>
                       {session.subject ? (
                         <View style={[s.subjectChip, { backgroundColor: C.brand + '15', borderColor: C.brand + '30' }]}>
@@ -100,7 +150,18 @@ export default function FocusHistoryScreen({ navigation, route }) {
                         </Text>
                       )}
                     </View>
-                  </View>
+
+                    {/* Task list (expandable) */}
+                    {isExpanded && (session.todos ?? []).length > 0 && (
+                      <View style={{ marginTop: 12, borderTopWidth: 1, borderColor: C.surface2, paddingTop: 12 }}>
+                        {(session.todos ?? []).map((t, i) => (
+                          <Text key={i} style={[T.small, { color: t.done ? C.correct : C.textMuted, marginBottom: 6 }]}>
+                            {t.done ? '✓' : '○'} {t.text}
+                          </Text>
+                        ))}
+                      </View>
+                    )}
+                  </TouchableOpacity>
                 )
               })}
             </View>

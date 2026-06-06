@@ -33,6 +33,8 @@ export const SOUND_OPTIONS = [
 const XP_PER_FOCUS_MINUTE = 1
 const XP_PER_POMODORO     = 10
 const MAX_HISTORY         = 60
+const LONG_BREAK_AFTER    = 4
+const LONG_BREAK_MIN      = 15
 
 function historyKey(uid) { return `@focusHistory_v1_${uid ?? 'anon'}` }
 function todayISO() { return new Date().toISOString().slice(0, 10) }
@@ -40,6 +42,10 @@ function todayISO() { return new Date().toISOString().slice(0, 10) }
 // ── Sound helper (graceful if expo-av not installed) ──────────────────────────
 let Audio = null
 try { Audio = require('expo-av').Audio } catch {}
+
+// ── Notifications helper (graceful if expo-notifications not installed) ────────
+let Notifications = null
+try { Notifications = require('expo-notifications') } catch {}
 
 async function loadSound(url) {
   if (!Audio) return null
@@ -76,6 +82,7 @@ export function useFocusSession(uid, earnXP, onPomodoroComplete) {
   const [pomodoroCount,  setPomodoroCount]  = useState(0)
   const [sessionXP,      setSessionXP]      = useState(0)
   const [partialMinutes, setPartialMinutes] = useState(0)
+  const [sessionGoal,    setSessionGoal]    = useState(0)  // 0 = no goal, >0 = target pomodoros
 
   const intervalRef     = useRef(null)
   const activeRef       = useRef(false)
@@ -86,8 +93,11 @@ export function useFocusSession(uid, earnXP, onPomodoroComplete) {
   const sessionXPRef    = useRef(0)
   const sessionStartRef = useRef(null)
   const soundRef        = useRef(null)
+  const endTimeRef      = useRef(null)
+  const sessionGoalRef  = useRef(0)
 
   presetRef.current = preset
+  sessionGoalRef.current = sessionGoal
 
   // ── History ───────────────────────────────────────────────────────────────
   const [history, setHistory] = useState([])
@@ -111,11 +121,46 @@ export function useFocusSession(uid, earnXP, onPomodoroComplete) {
       if (state === 'background' || state === 'inactive') {
         activeRef.current = false
         soundRef.current?.pauseAsync?.().catch(() => {})
+        // Schedule notification for phase completion if one is in progress
+        if (Notifications && endTimeRef.current && (phaseRef.current === 'focus' || phaseRef.current === 'break')) {
+          Notifications.scheduleNotificationAsync({
+            content: {
+              title: phaseRef.current === 'focus' ? 'Focus phase complete!' : 'Break time over!',
+              body: phaseRef.current === 'focus' ? 'Time to take a break 🧘' : 'Time to get back to work 📚'
+            },
+            trigger: { date: new Date(endTimeRef.current) }
+          }).catch(() => {})
+        }
       } else if (state === 'active') {
+        // Cancel any scheduled notifications when returning
+        if (Notifications) {
+          Notifications.cancelAllScheduledNotificationsAsync().catch(() => {})
+        }
+        // Catch up if phase ended while backgrounded
         if (phaseRef.current === 'focus' || phaseRef.current === 'break') {
-          activeRef.current = true
-          if (sound.id !== 'off' && phaseRef.current === 'focus') {
-            soundRef.current?.playAsync?.().catch(() => {})
+          if (endTimeRef.current && Date.now() >= endTimeRef.current) {
+            // Phase already ended, auto-advance
+            clearInterval(intervalRef.current)
+            intervalRef.current = null
+            if (phaseRef.current === 'focus') {
+              const newCount = pomodoroRef.current + 1
+              pomodoroRef.current = newCount
+              setPomodoroCount(newCount)
+              const xpEarned = presetRef.current.study * XP_PER_FOCUS_MINUTE + XP_PER_POMODORO
+              earnXP?.(xpEarned)
+              sessionXPRef.current += xpEarned
+              setSessionXP(sessionXPRef.current)
+              onPomodoroComplete?.(newCount)
+              soundRef.current?.pauseAsync?.().catch(() => {})
+              startPhase('break')
+            } else if (phaseRef.current === 'break') {
+              startPhase('focus')
+            }
+          } else {
+            activeRef.current = true
+            if (sound.id !== 'off' && phaseRef.current === 'focus') {
+              soundRef.current?.playAsync?.().catch(() => {})
+            }
           }
         }
       }
@@ -138,8 +183,10 @@ export function useFocusSession(uid, earnXP, onPomodoroComplete) {
 
   // ── Tick ──────────────────────────────────────────────────────────────────
   function tick() {
-    if (!activeRef.current) return
-    secsLeftRef.current -= 1
+    if (!activeRef.current || !endTimeRef.current) return
+    const now = Date.now()
+    const remaining = Math.ceil((endTimeRef.current - now) / 1000)
+    secsLeftRef.current = Math.max(0, remaining)
     setSecondsLeft(secsLeftRef.current)
 
     if (secsLeftRef.current <= 0) {
@@ -170,12 +217,18 @@ export function useFocusSession(uid, earnXP, onPomodoroComplete) {
   }
 
   function startPhase(newPhase) {
-    const secs = newPhase === 'focus'
-      ? presetRef.current.study * 60
-      : presetRef.current.break * 60
+    let secs
+    if (newPhase === 'focus') {
+      secs = presetRef.current.study * 60
+    } else {
+      // Check if this break is a long break (after 4th pomodoro)
+      const isLongBreak = pomodoroRef.current % LONG_BREAK_AFTER === 0
+      secs = isLongBreak ? LONG_BREAK_MIN * 60 : presetRef.current.break * 60
+    }
 
     phaseRef.current  = newPhase
     secsLeftRef.current = secs
+    endTimeRef.current = Date.now() + secs * 1000
     setPhase(newPhase)
     setSecondsLeft(secs)
     activeRef.current = true
@@ -291,9 +344,10 @@ export function useFocusSession(uid, earnXP, onPomodoroComplete) {
   }, [])
 
   // ── Computed ──────────────────────────────────────────────────────────────
+  const cyclePosition = pomodoroCount % LONG_BREAK_AFTER  // 0–3
   const totalSecs = phase === 'focus' || phase === 'paused'
     ? preset.study * 60
-    : preset.break * 60
+    : (pomodoroCount % LONG_BREAK_AFTER === 0 ? LONG_BREAK_MIN * 60 : preset.break * 60)
   const progress = totalSecs > 0 ? 1 - (secondsLeft / totalSecs) : 0
 
   return {
@@ -301,10 +355,12 @@ export function useFocusSession(uid, earnXP, onPomodoroComplete) {
     preset, setPreset,
     subject, setSubject,
     sound, setSound,
+    sessionGoal, setSessionGoal,
     // Todos
     todos, addTodo, toggleTodo, clearTodos,
     // Timer state
     phase, secondsLeft, pomodoroCount, sessionXP, partialMinutes,
+    cyclePosition,
     // Controls
     start, pause, resume, skip, stop, reset,
     // History

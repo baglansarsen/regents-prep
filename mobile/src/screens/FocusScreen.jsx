@@ -2,7 +2,7 @@ import React, { useState, useCallback, useRef, useEffect } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView,
   TextInput, StyleSheet, Animated, KeyboardAvoidingView, Platform,
-  useWindowDimensions,
+  useWindowDimensions, Alert, Modal,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
@@ -22,7 +22,17 @@ const BACKGROUNDS = [
 ]
 import FocusTimerRing from '../components/FocusTimerRing'
 import StudyBuddyCompanion from '../components/StudyBuddyCompanion'
-import { T, cardShadow } from '../styles/duo'
+import { T, cardShadow, duoBtn } from '../styles/duo'
+
+const SESSION_GOAL_PET_MESSAGES = {
+  dog:     'WOOF! You did all your pomodoros! Hero! 🐕',
+  cat:     '*slow blink* I acknowledge your effort. Acceptable. 🐱',
+  parrot:  'SESSION COMPLETE! SQUAWK! All goals crushed! 🦜',
+  rabbit:  'You hopped through every pomodoro! Amazing! 🐰',
+  fish:    '*excited bubble stream* You finished your set! 🐟',
+  hamster: 'The wheel is done! Full session complete! 🐹',
+  default: 'Session goal reached! You crushed it! 🌟',
+}
 
 // ── BigPet: large centered pet with bounce + speech bubble ───────────────────
 function BigPet({ pet, message, onPress }) {
@@ -105,7 +115,7 @@ export default function FocusScreen({ navigation }) {
   const { user } = useAuthContext()
   const uid = user?.uid
   const { earnXP } = useXP(uid)
-  const { triggerReaction, studyBoost, pet } = usePetContext()
+  const { triggerReaction, studyBoost, say, pet } = usePetContext()
   const { width: screenWidth } = useWindowDimensions()
 
   const [buddyMessage, setBuddyMessage] = useState(null)
@@ -113,6 +123,7 @@ export default function FocusScreen({ navigation }) {
   const [customSubject, setCustomSubject] = useState('')
   const [showCustomInput, setShowCustomInput] = useState(false)
   const [background, setBackground] = useState(BACKGROUNDS[0])
+  const [goalCelebModal, setGoalCelebModal] = useState(false)
 
   const handlePomodoroComplete = useCallback((count) => {
     triggerReaction('happy_dance')
@@ -122,8 +133,8 @@ export default function FocusScreen({ navigation }) {
   }, [triggerReaction, studyBoost])
 
   const session = useFocusSession(uid, earnXP, handlePomodoroComplete)
-  const { phase, secondsLeft, progress, pomodoroCount, sessionXP, partialMinutes,
-          preset, setPreset, subject, setSubject, sound, setSound,
+  const { phase, secondsLeft, progress, pomodoroCount, sessionXP, partialMinutes, cyclePosition,
+          preset, setPreset, subject, setSubject, sound, setSound, sessionGoal, setSessionGoal,
           todos, addTodo, toggleTodo,
           start, pause, resume, skip, stop, reset,
           history, FOCUS_PRESETS } = session
@@ -156,6 +167,38 @@ export default function FocusScreen({ navigation }) {
       setTimeout(() => setBuddyMessage(null), 4000)
     }
   }, [phase])
+
+  // Session goal celebration
+  useEffect(() => {
+    if (sessionGoal === 0 || pomodoroCount < sessionGoal) return
+    if (pomodoroCount !== sessionGoal) return
+    // Goal just reached
+    triggerReaction('celebrate')
+    studyBoost?.()
+    const msg = SESSION_GOAL_PET_MESSAGES[pet?.petType] ?? SESSION_GOAL_PET_MESSAGES.default
+    setBuddyMessage(msg)
+    setTimeout(() => setGoalCelebModal(true), 600)
+  }, [pomodoroCount, sessionGoal])
+
+  // Back-gesture guard during active session
+  useEffect(() => {
+    if (phase !== 'focus' && phase !== 'break' && phase !== 'paused') return
+    const unsubscribe = navigation.addListener('beforeRemove', (e) => {
+      e.preventDefault()
+      Alert.alert('End Session?', 'Stop now and save your progress?', [
+        { text: 'Keep Going', onPress: () => {} },
+        {
+          text: 'Stop & Save',
+          style: 'destructive',
+          onPress: () => {
+            stop()
+            navigation.dispatch(e.data.action)
+          }
+        }
+      ])
+    })
+    return unsubscribe
+  }, [phase, stop, navigation])
 
   function handleSubjectChip(chip) {
     setShowCustomInput(false)
@@ -263,6 +306,28 @@ export default function FocusScreen({ navigation }) {
             message={buddyMessage}
           />
         )}
+
+        {/* Session goal celebration modal */}
+        <Modal transparent visible={goalCelebModal} animationType="fade" onRequestClose={() => setGoalCelebModal(false)}>
+          <View style={[s.modalBackdrop, { backgroundColor: 'rgba(0,0,0,0.5)' }]}>
+            <View style={[s.modalCard, { backgroundColor: C.surface }]}>
+              <Text style={{ fontSize: 64, textAlign: 'center' }}>🎯</Text>
+              <Text style={[T.h2, { color: C.text, textAlign: 'center', marginTop: 8 }]}>Session Goal Reached!</Text>
+              <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 4 }]}>{sessionGoal} pomodoro{sessionGoal !== 1 ? 's' : ''} completed</Text>
+              <View style={{ backgroundColor: C.brand + '20', borderRadius: 12, padding: 12, marginTop: 16, alignItems: 'center' }}>
+                <Text style={{ fontSize: 36 }}>🐾</Text>
+                <Text style={[T.label, { color: C.brand, marginTop: 4, textAlign: 'center' }]}>+8 Happiness bonus for {pet?.name}!</Text>
+              </View>
+              <TouchableOpacity
+                style={[s.goalCelebBtn, { backgroundColor: C.brand }]}
+                onPress={() => setGoalCelebModal(false)}
+                activeOpacity={0.85}
+              >
+                <Text style={[T.btn, { color: '#FFF' }]}>Keep Studying! 🚀</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </Modal>
       </SafeAreaView>
     )
   }
@@ -288,7 +353,17 @@ export default function FocusScreen({ navigation }) {
           <View style={s.activeHeader}>
             <TouchableOpacity
               style={[s.stopBtn, { backgroundColor: 'rgba(0,0,0,0.15)' }]}
-              onPress={() => navigation.goBack()}
+              onPress={() => Alert.alert('End Session?', 'Stop now and save your progress?', [
+                { text: 'Keep Going', onPress: () => {} },
+                {
+                  text: 'Stop & Save',
+                  style: 'destructive',
+                  onPress: () => {
+                    stop()
+                    navigation.goBack()
+                  }
+                }
+              ])}
               activeOpacity={0.8}
               hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
             >
@@ -298,9 +373,13 @@ export default function FocusScreen({ navigation }) {
               {subject ? (
                 <Text style={[s.activeSubject, { color: mutedColor }]}>{subject}</Text>
               ) : null}
-              {pomodoroCount > 0 && (
+              {sessionGoal > 0 ? (
+                <Text style={{ fontSize: 18, marginTop: 2, fontWeight: '700', color: textColor }}>
+                  {pomodoroCount}/{sessionGoal} 🍅
+                </Text>
+              ) : pomodoroCount > 0 ? (
                 <Text style={{ fontSize: 18, marginTop: 2 }}>{'🍅'.repeat(Math.min(pomodoroCount, 8))}</Text>
-              )}
+              ) : null}
             </View>
             <TouchableOpacity
               style={[s.stopBtn, { backgroundColor: 'rgba(0,0,0,0.15)' }]}
@@ -317,6 +396,18 @@ export default function FocusScreen({ navigation }) {
               <BigPet pet={pet} message={buddyMessage} onPress={() => setBuddyMessage(null)} />
             </View>
           )}
+
+          {/* Pomodoro cycle dots */}
+          <View style={{ flexDirection: 'row', gap: 8, justifyContent: 'center', marginBottom: 12 }}>
+            {[0, 1, 2, 3].map(i => (
+              <View key={i} style={{
+                width: 12, height: 12, borderRadius: 6,
+                backgroundColor: i < cyclePosition ? ringColor
+                  : i === cyclePosition ? ringColor + '60'
+                  : 'rgba(0,0,0,0.2)'
+              }} />
+            ))}
+          </View>
 
           {/* Timer ring */}
           <View style={s.ringArea}>
@@ -482,6 +573,23 @@ export default function FocusScreen({ navigation }) {
             })}
           </View>
 
+          {/* Session Goal */}
+          <Text style={[s.sectionLabel, { color: C.textMuted }]}>Session goal</Text>
+          <View style={s.goalChips}>
+            {[0, 1, 2, 3, 4, 5].map(n => (
+              <TouchableOpacity
+                key={n}
+                onPress={() => setSessionGoal(n)}
+                style={[s.goalChip, sessionGoal === n && { backgroundColor: C.brand, borderColor: C.brand }]}
+                activeOpacity={0.75}
+              >
+                <Text style={[s.goalChipText, { color: sessionGoal === n ? '#fff' : C.text }]}>
+                  {n === 0 ? 'None' : `${n} 🍅`}
+                </Text>
+              </TouchableOpacity>
+            ))}
+          </View>
+
           {/* Tasks */}
           <Text style={[s.sectionLabel, { color: C.textMuted }]}>Tasks <Text style={{ fontWeight: '400', fontSize: 12 }}>(optional)</Text></Text>
           <View style={[s.todoInputRow, { backgroundColor: C.surface2, borderColor: C.border }]}>
@@ -623,6 +731,17 @@ function makeStyles(C) {
     presetBtnText:  { fontSize: 16, fontWeight: '800' },
     presetBtnSub:   { fontSize: 11, marginTop: 2 },
 
+    goalChips: { flexDirection: 'row', gap: 8, flexWrap: 'wrap', marginBottom: 8 },
+    goalChip: {
+      paddingHorizontal: 12,
+      paddingVertical: 8,
+      borderRadius: 20,
+      borderWidth: 1.5,
+      borderColor: C.border,
+      backgroundColor: C.surface,
+    },
+    goalChipText: { fontSize: 13, fontWeight: '600' },
+
     todoInputRow: {
       flexDirection:    'row',
       alignItems:       'center',
@@ -751,5 +870,31 @@ function makeStyles(C) {
       alignItems:      'center',
     },
     secondaryBtnText: { fontSize: 15, fontWeight: '600' },
+
+    // Modal
+    modalBackdrop: {
+      flex: 1,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    modalCard: {
+      borderRadius: 24,
+      padding: 28,
+      width: '80%',
+      maxWidth: 340,
+      alignItems: 'center',
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 8 },
+      shadowOpacity: 0.15,
+      shadowRadius: 12,
+      elevation: 10,
+    },
+    goalCelebBtn: {
+      width: '100%',
+      borderRadius: 12,
+      paddingVertical: 14,
+      alignItems: 'center',
+      marginTop: 20,
+    },
   })
 }
