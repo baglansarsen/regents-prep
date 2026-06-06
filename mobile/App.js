@@ -66,6 +66,11 @@ function Inner() {
 
 export default function App() {
   useEffect(() => {
+    // TEMPORARILY DISABLED: AdMob initialization causing native crash on startup.
+    // The TurboModule manager is throwing an uncaught exception during initialization.
+    // To diagnose, will try without AdMob first, then rebuild with proper native module.
+    return
+
     // Only initialize AdMob when the native module is present (custom dev build / production).
     // In Expo Go the module is absent; on web TurboModuleRegistry itself may be
     // undefined — optional chaining makes both cases a clean no-op.
