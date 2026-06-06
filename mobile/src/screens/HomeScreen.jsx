@@ -95,7 +95,7 @@ export default function HomeScreen({ navigation }) {
   }
   const sd = mobileSubjectMap[subject] ?? leData
 
-  const { history } = useProgress(uid)
+  const { history, reloadHistory } = useProgress(uid)
   const { weekDays, streak, studiedToday, hasFreeze, buyFreeze } = useDailyStreak(uid)
   const { xp, earnXP, spendXP, loaded: xpLoaded } = useXP(uid)
   const { lives, maxLives, nextRefillAt, refillLives } = useLivesContext()
@@ -110,6 +110,7 @@ export default function HomeScreen({ navigation }) {
   const units = sd.UNITS ?? []
   const { isUnitUnlocked, unitUnlockHint, reloadSkipUnlocks } = useUnitUnlocks(units, lessonComplete, unitComplete, subject)
   useFocusEffect(useCallback(() => {
+    reloadHistory()
     reloadSkipUnlocks()
     if (pendingEvolution) navigation.navigate('PetEvolution')
 
@@ -146,7 +147,7 @@ export default function HomeScreen({ navigation }) {
       daysUntilExam: daysToExam,
       subject,
     }).then((msg) => { if (msg) say(msg) }).catch(() => {})
-  }, [reloadSkipUnlocks, pendingEvolution, uid, streak]))
+  }, [reloadHistory, reloadSkipUnlocks, pendingEvolution, uid, streak]))
 
   const { goal, setGoal, todayXP, progress: goalProgress, goalMet, GOALS, celebrated, markCelebrated } = useDailyGoal(xp, xpLoaded)
   const { mistakes, mistakeCount } = useMistakes()

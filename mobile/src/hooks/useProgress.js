@@ -22,6 +22,17 @@ export function useProgress(uid) {
       })
   }, [uid])
 
+  // Reload history from Firestore (useful when returning to screen after quiz)
+  async function reloadHistory() {
+    if (!uid) return
+    try {
+      const updated = await loadHistory(uid)
+      setHistory(updated)
+    } catch (err) {
+      console.warn('[useProgress] Failed to reload history:', err)
+    }
+  }
+
 
   async function saveResult({ topic, score, total, correct, pct, subject, lessonIndex }) {
     if (!uid) return
@@ -66,7 +77,7 @@ export function useProgress(uid) {
     return seq.filter((p) => p >= MASTERY_MIN).length >= MASTERY_NEED
   }
 
-  return { history, saveResult, masteryPct, isMastered }
+  return { history, saveResult, reloadHistory, masteryPct, isMastered }
 }
 
 async function loadHistory(uid) {
