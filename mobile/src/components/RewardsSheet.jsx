@@ -22,6 +22,7 @@ import { useRP, getLevel } from '../hooks/useRP'
 import { useLivesContext } from '../context/LivesContext'
 import { useRewardedAd }   from '../hooks/useRewardedAd'
 import { usePowerUps }     from '../hooks/usePowerUps'
+import { useDoubleRP }     from '../context/DoubleRPContext'
 import { T, duoBtn }       from '../styles/duo'
 
 // ── Countdown ────────────────────────────────────────────────────────────────
@@ -168,6 +169,7 @@ function RPSection({ C }) {
   const { user } = useAuthContext()
   const { rp } = useRP(user?.uid)
   const { items: powerItems } = usePowerUps()
+  const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
   const level = getLevel(rp)
 
   return (
@@ -182,6 +184,15 @@ function RPSection({ C }) {
           <Text style={[T.small, { color: C.text }]}>Lv.{level.level} · {level.name}</Text>
         </View>
       </View>
+
+      {/* Active 2× boost countdown */}
+      {boostActive && (
+        <View style={[ss.boostBanner, { backgroundColor: '#FEF3C722', borderColor: '#F59E0B55' }]}>
+          <Text style={[T.body, { color: '#F59E0B' }]}>
+            ⚡ 2× RP active · {Math.floor(boostTimeLeft / 60)}:{String(boostTimeLeft % 60).padStart(2, '0')} left
+          </Text>
+        </View>
+      )}
 
       {/* Progress bar */}
       {level.next && (
@@ -330,6 +341,7 @@ const ss = StyleSheet.create({
 
   // RP
   rpHeader:     { flexDirection: 'row', alignItems: 'center', gap: 8, marginBottom: 12 },
+  boostBanner:  { borderRadius: 12, borderWidth: 1, paddingHorizontal: 14, paddingVertical: 10, alignItems: 'center', marginBottom: 12 },
   levelChip:    { borderRadius: 12, borderWidth: 1, paddingHorizontal: 10, paddingVertical: 4, marginLeft: 4 },
   progressBg:   { height: 7, borderRadius: 4, overflow: 'hidden' },
   progressFill: { height: '100%', borderRadius: 4 },

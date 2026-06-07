@@ -96,18 +96,9 @@ export default function GlobalTopBar() {
           accessibilityRole="button"
           accessibilityHint={boostActive ? `Double RP boost active. Tap to view RP and shop.` : 'Tap to view RP and buy power-ups.'}
         >
-          <View style={s.rpRow}>
-            <Text style={s.statText}>
-              ⭐ {rp >= 1000 ? `${(rp / 1000).toFixed(1)}k` : rp}
-            </Text>
-            {boostActive && (
-              <View style={s.boostBadge}>
-                <Text style={s.boostText}>
-                  ⚡2× {Math.floor(boostTimeLeft / 60)}:{String(boostTimeLeft % 60).padStart(2, '0')}
-                </Text>
-              </View>
-            )}
-          </View>
+          <Text style={s.statText}>
+            {boostActive ? '⚡' : '⭐'} {rp >= 1000 ? `${(rp / 1000).toFixed(1)}k` : rp}
+          </Text>
         </TouchableOpacity>
 
         {/* ❤️ Lives — taps open sheet focused on lives (unless subscribed/full) */}
@@ -221,17 +212,6 @@ function makeStyles(topInset, subjectColor) {
       ...(Platform.OS === 'web' ? { backdropFilter: 'blur(16px)' } : {}),
     },
     statText: { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#fff' },
-
-    rpRow:      { flexDirection: 'row', alignItems: 'center', gap: 5 },
-    boostBadge: {
-      backgroundColor:   'rgba(245,158,11,0.25)',
-      borderRadius:       8,
-      paddingHorizontal:  5,
-      paddingVertical:    2,
-      borderWidth:        1,
-      borderColor:        'rgba(245,158,11,0.5)',
-    },
-    boostText: { fontFamily: 'Nunito_800ExtraBold', fontSize: 10, color: '#FCD34D' },
 
     backdrop: { flex: 1 },
     dropdown: {
