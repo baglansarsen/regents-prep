@@ -691,16 +691,6 @@ export default function HomeScreen({ navigation }) {
               </View>
             )}
 
-            {/* Pet Shop button */}
-            <TouchableOpacity
-              style={[s.shopBtn, { backgroundColor: C.brand, borderColor: C.brandDark }]}
-              onPress={() => navigation.navigate('PetShop')}
-              activeOpacity={0.8}
-            >
-              <Text style={{ fontSize: 16 }}>🐾</Text>
-              <Text style={[T.btn, { color: '#fff', fontSize: 13 }]}>Pet Shop</Text>
-              <Text style={[T.small, { color: 'rgba(255,255,255,0.7)' }]}>Feed, play, equip</Text>
-            </TouchableOpacity>
           </View>
         )}
 

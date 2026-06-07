@@ -200,10 +200,9 @@ export function useRP(uid) {
 
     try { await AsyncStorage.setItem(AS_KEY, String(nextTotal)) } catch {}
 
-    // ── Log activity ──────────────────────────────────────────────────────────
-    logActivity(uid, 'rp_earned', `Earned +${earned} RP`, { amount: earned })
+    // ── Log level-up activity (RP gains are logged at the quiz/exam level) ────
     if (newLevel > prevLevel) {
-      logActivity(uid, 'level_up', `Reached level ${newLevel}`, { level: newLevel, levelName: getLevel(nextTotal).name })
+      logActivity(uid, 'level_up', `Reached level ${newLevel} — ${getLevel(nextTotal).name}!`, { level: newLevel, levelName: getLevel(nextTotal).name })
     }
 
     return nextTotal   // authoritative new total for callers (e.g. pet evolution)

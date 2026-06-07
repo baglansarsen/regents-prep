@@ -280,21 +280,6 @@ export default function ProfileScreen({ navigation }) {
           </View>
         </TouchableOpacity>
 
-        {/* ── Feed ── */}
-        <TouchableOpacity
-          style={[s.rowCard, cardShadow(C.shadow)]}
-          onPress={() => navigation.navigate('FriendsMain')}
-          activeOpacity={0.85}
-        >
-          <View style={s.rowLeft}>
-            <Text style={{ fontSize: 28 }}>🌐</Text>
-            <View style={{ marginLeft: 12 }}>
-              <Text style={[T.h3, { color: C.text }]}>Feed</Text>
-              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Friends, league & challenges</Text>
-            </View>
-          </View>
-          <Text style={[T.body, { color: C.textMuted }]}>›</Text>
-        </TouchableOpacity>
 
         {/* ── Pet Personality Quiz ── */}
         <TouchableOpacity

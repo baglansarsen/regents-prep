@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { View, Text, Animated, StyleSheet } from 'react-native'
+import { View, Text, Animated, StyleSheet, TouchableOpacity } from 'react-native'
 
 const TYPEWRITER_MS = 35   // ms per character
 const HOLD_MS       = 1200 // pause after typing finishes
@@ -8,7 +8,18 @@ const FADE_MS       = 300  // fade-out duration
 export default function SpeechBubble({ message, onDone }) {
   const [displayed, setDisplayed] = useState('')
   const [visible,   setVisible]   = useState(false)
-  const opacity = useRef(new Animated.Value(0)).current
+  const opacity    = useRef(new Animated.Value(0)).current
+  const tickerRef  = useRef(null)
+  const holdRef    = useRef(null)
+
+  function dismiss() {
+    clearInterval(tickerRef.current)
+    clearTimeout(holdRef.current)
+    Animated.timing(opacity, { toValue: 0, duration: FADE_MS, useNativeDriver: true }).start(() => {
+      setVisible(false)
+      onDone?.()
+    })
+  }
 
   useEffect(() => {
     if (!message) return
@@ -19,21 +30,19 @@ export default function SpeechBubble({ message, onDone }) {
     Animated.timing(opacity, { toValue: 1, duration: 150, useNativeDriver: true }).start()
 
     let i = 0
-    const ticker = setInterval(() => {
+    tickerRef.current = setInterval(() => {
       i++
       setDisplayed(message.slice(0, i))
       if (i >= message.length) {
-        clearInterval(ticker)
-        setTimeout(() => {
-          Animated.timing(opacity, { toValue: 0, duration: FADE_MS, useNativeDriver: true }).start(() => {
-            setVisible(false)
-            onDone?.()
-          })
-        }, HOLD_MS)
+        clearInterval(tickerRef.current)
+        holdRef.current = setTimeout(dismiss, HOLD_MS)
       }
     }, TYPEWRITER_MS)
 
-    return () => clearInterval(ticker)
+    return () => {
+      clearInterval(tickerRef.current)
+      clearTimeout(holdRef.current)
+    }
   }, [message])
 
   if (!visible || !message) return null
@@ -41,13 +50,15 @@ export default function SpeechBubble({ message, onDone }) {
   const isTyping = displayed.length < message.length
 
   return (
-    <Animated.View style={[s.bubble, { opacity }]}>
-      <View style={s.row}>
-        <Text style={s.text}>{displayed}</Text>
-        {isTyping && <Text style={s.cursor}>|</Text>}
-      </View>
-      <View style={s.tail} />
-    </Animated.View>
+    <TouchableOpacity activeOpacity={0.85} onPress={dismiss}>
+      <Animated.View style={[s.bubble, { opacity }]}>
+        <View style={s.row}>
+          <Text style={s.text}>{displayed}</Text>
+          {isTyping && <Text style={s.cursor}>|</Text>}
+        </View>
+        <View style={s.tail} />
+      </Animated.View>
+    </TouchableOpacity>
   )
 }
 

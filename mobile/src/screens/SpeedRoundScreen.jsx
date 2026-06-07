@@ -88,7 +88,7 @@ export default function SpeedRoundScreen({ route, navigation }) {
     updateQuestProgress('complete_speedround')
 
     // Log speed round activity
-    const pct = Math.round((correct / index) * 100)
+    const pct = index > 0 ? Math.round((correct / index) * 100) : 0
     logActivity(uid, 'speedround_complete', `Scored ${score} pts in Speed Round (${correct}/${index})`, {
       score, correct, total: index, pct, rpEarned,
     })
