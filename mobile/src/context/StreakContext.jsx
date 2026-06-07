@@ -3,6 +3,7 @@ import { doc, getDoc, setDoc } from 'firebase/firestore'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { db } from '../firebase'
 import { useAuthContext } from './AuthContext'
+import { logActivity } from '../utils/activityLogger'
 
 /**
  * StreakContext — single source of truth for the daily study streak.
@@ -124,6 +125,7 @@ export function StreakProvider({ children }) {
     const updated  = [...new Set([...(cur.studiedDates ?? []), today])].slice(-60)
     const longest  = Math.max(prevLong, next)
     const isRecord = next > prevLong && next > 1
+    const isMilestone = MILESTONES.includes(next)
     const nd = { streak: next, lastDate: today, studiedDates: updated, longestStreak: longest }
 
     dataRef.current = nd
@@ -133,7 +135,14 @@ export function StreakProvider({ children }) {
     setLongestStreak(longest)
     saveStreak(uid, nd)
 
-    setPendingEvent({ type: 'continued', streak: next, isRecord, isMilestone: MILESTONES.includes(next) })
+    // Log streak activity
+    if (isMilestone) {
+      logActivity(uid, 'streak_milestone', `Reached ${next}-day streak! 🔥`, { streak: next, isRecord })
+    } else {
+      logActivity(uid, 'streak_extended', `Continued ${next}-day streak`, { streak: next })
+    }
+
+    setPendingEvent({ type: 'continued', streak: next, isRecord, isMilestone })
   }, [uid])
 
   const clearEvent = useCallback(() => setPendingEvent(null), [])

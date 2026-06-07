@@ -7,6 +7,7 @@ import { useRP } from '../hooks/useRP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useDoubleRP } from '../context/DoubleRPContext'
 import { usePetContext } from '../context/PetContext'
+import { logActivity } from '../utils/activityLogger'
 
 const ROUND_SECONDS = 60
 const BASE_POINTS   = 50
@@ -85,6 +86,12 @@ export default function SpeedRoundScreen({ route, navigation }) {
     checkAndEvolve(rp + rpEarned)
     markStudied()
     updateQuestProgress('complete_speedround')
+
+    // Log speed round activity
+    const pct = Math.round((correct / index) * 100)
+    logActivity(uid, 'speedround_complete', `Scored ${score} pts in Speed Round (${correct}/${index})`, {
+      score, correct, total: index, pct, rpEarned,
+    })
   }
 
   if (phase === 'done') {

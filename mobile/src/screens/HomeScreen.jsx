@@ -690,6 +690,17 @@ export default function HomeScreen({ navigation }) {
                 <Text style={[T.body, { color: C.brand, textAlign: 'center' }]}>{digReward}</Text>
               </View>
             )}
+
+            {/* Pet Shop button */}
+            <TouchableOpacity
+              style={[s.shopBtn, { backgroundColor: C.brand, borderColor: C.brandDark }]}
+              onPress={() => navigation.navigate('PetShop')}
+              activeOpacity={0.8}
+            >
+              <Text style={{ fontSize: 16 }}>🐾</Text>
+              <Text style={[T.btn, { color: '#fff', fontSize: 13 }]}>Pet Shop</Text>
+              <Text style={[T.small, { color: 'rgba(255,255,255,0.7)' }]}>Feed, play, equip</Text>
+            </TouchableOpacity>
           </View>
         )}
 
@@ -994,7 +1005,16 @@ export default function HomeScreen({ navigation }) {
         <Animated.View
           style={[s.sheet, cardShadow(C.shadow), { backgroundColor: C.surface, transform: [{ translateY: goalSheetAnim }] }]}
         >
-          <View style={s.sheetHandle} />
+          <View style={s.sheetHeader}>
+            <View style={s.sheetHandle} />
+            <TouchableOpacity
+              onPress={closeGoalPicker}
+              style={s.sheetCloseBtn}
+              hitSlop={{ top: 10, right: 10, bottom: 10, left: 10 }}
+            >
+              <Text style={[T.label, { color: C.textMuted, fontSize: 22 }]}>✕</Text>
+            </TouchableOpacity>
+          </View>
           <Text style={[T.h3, { color: C.text, marginBottom: 4 }]}>🎯 Daily RP Goal</Text>
           <Text style={[T.small, { color: C.textMuted, marginBottom: 20 }]}>
             How much do you want to learn today?
@@ -1249,6 +1269,18 @@ function makeStyles(C) {
       paddingVertical: 10,
       paddingHorizontal: 16,
     },
+    shopBtn: {
+      flexDirection:  'row',
+      alignItems:     'center',
+      justifyContent: 'center',
+      gap:            8,
+      marginHorizontal: 24,
+      marginTop:      8,
+      borderRadius:   14,
+      borderWidth:    1,
+      paddingVertical: 12,
+      paddingHorizontal: 16,
+    },
     digRewardBanner: {
       marginHorizontal: 24, marginTop: 8,
       borderRadius: 12, borderWidth: 1,
@@ -1395,6 +1427,19 @@ function makeStyles(C) {
       borderRadius: 3,
       backgroundColor: 'rgba(0,0,0,0.15)',
       marginBottom: 16,
+    },
+    sheetHeader: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'center',
+      marginBottom: 8,
+      position: 'relative',
+    },
+    sheetCloseBtn: {
+      position: 'absolute',
+      right: 0,
+      padding: 8,
+      zIndex: 10,
     },
   })
 }

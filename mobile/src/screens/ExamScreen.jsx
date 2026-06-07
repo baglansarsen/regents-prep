@@ -11,6 +11,7 @@ import { useDailyStreak } from '../hooks/useDailyStreak'
 import { appendMistakes } from '../hooks/useMistakes'
 import { usePetContext } from '../context/PetContext'
 import { hapticTick } from '../utils/haptics'
+import { logActivity } from '../utils/activityLogger'
 
 const EXAM_MINUTES = 85
 const CDN_BASE = 'https://regents-prep.web.app'
@@ -70,9 +71,15 @@ export default function ExamScreen({ route, navigation }) {
       return answers[idx] === (q.correct ?? q.correctIndex)
     }).length
     const rpEarned  = correct * 5
+    const pct = Math.round((correct / mcQuestions.length) * 100)
     earnRP(rpEarned)
     checkAndEvolve(rp + rpEarned)
     markStudied()
+
+    // Log exam activity
+    logActivity(uid, 'exam_complete', `Completed ${exam.name} exam (${pct}%)`, {
+      exam: exam.name, correct, total: mcQuestions.length, pct, rpEarned,
+    })
 
     // Persist wrong MC answers for "Practice Mistakes" mode
     const wrongQs = mcQuestions.filter((q) => {

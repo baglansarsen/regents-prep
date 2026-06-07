@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from 'react'
 import { View, Text, Animated, StyleSheet } from 'react-native'
 
 const TYPEWRITER_MS = 35   // ms per character
-const HOLD_MS       = 2500 // pause after typing finishes
-const FADE_MS       = 400  // fade-out duration
+const HOLD_MS       = 1200 // pause after typing finishes
+const FADE_MS       = 300  // fade-out duration
 
 export default function SpeechBubble({ message, onDone }) {
   const [displayed, setDisplayed] = useState('')

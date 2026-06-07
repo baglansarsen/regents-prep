@@ -5,6 +5,7 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 import { AppState } from 'react-native'
 import AsyncStorage from '@react-native-async-storage/async-storage'
+import { logActivity } from '../utils/activityLogger'
 
 // ── Presets ───────────────────────────────────────────────────────────────────
 export const FOCUS_PRESETS = [
@@ -329,6 +330,16 @@ export function useFocusSession(uid, earnRP, onPomodoroComplete) {
       rpEarned:           sessionRPRef.current,
       todos:              todos.map((t) => ({ text: t.text, done: t.done })),
     }
+
+    // Log focus session activity
+    const totalMinutes = pomodoroRef.current * presetRef.current.study + partial
+    logActivity(uid, 'focus_session_complete', `Completed focus session: ${subject || 'Study'} (${pomodoroRef.current} pomodoros)`, {
+      subject: subject || 'Study',
+      pomodorosCompleted: pomodoroRef.current,
+      totalMinutes,
+      rpEarned: sessionRPRef.current,
+    })
+
     await saveSession(entry)
   }, [subject, todos, history])
 

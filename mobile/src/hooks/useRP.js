@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import { doc, getDoc, setDoc, increment } from 'firebase/firestore'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { auth, db } from '../firebase'
+import { logActivity } from '../utils/activityLogger'
 
 const AS_KEY = '@regents_rp_v1'
 const OLD_KEY = '@regents_xp_v1'
@@ -89,6 +90,8 @@ export function useRP(uid) {
   }, [])
 
   useEffect(() => {
+    let isMounted = true
+
     if (!uid) {
       updateGlobalRP(0, 0, false)
       return
@@ -116,18 +119,22 @@ export function useRP(uid) {
           const data = wSnap.data()
           loadedWeeklyRP = data.weekKey === getWeekKey() ? (data.xp ?? 0) : 0
         }
-        
-        updateGlobalRP(loadedRP, loadedWeeklyRP, true)
+
+        if (isMounted) updateGlobalRP(loadedRP, loadedWeeklyRP, true)
       } catch {
-        try {
-          const raw = await AsyncStorage.getItem(AS_KEY)
-          const val = Number(raw) || 0
-          updateGlobalRP(val, globalWeeklyRP, true)
-        } catch {
-          updateGlobalRP(globalRP, globalWeeklyRP, true)
+        if (isMounted) {
+          try {
+            const raw = await AsyncStorage.getItem(AS_KEY)
+            const val = Number(raw) || 0
+            updateGlobalRP(val, globalWeeklyRP, true)
+          } catch {
+            updateGlobalRP(globalRP, globalWeeklyRP, true)
+          }
         }
       }
     })()
+
+    return () => { isMounted = false }
   }, [uid])
 
   const earnRP = useCallback(async (amount, multiplier = 1) => {
@@ -192,6 +199,12 @@ export function useRP(uid) {
     } catch {}
 
     try { await AsyncStorage.setItem(AS_KEY, String(nextTotal)) } catch {}
+
+    // ── Log activity ──────────────────────────────────────────────────────────
+    logActivity(uid, 'rp_earned', `Earned +${earned} RP`, { amount: earned })
+    if (newLevel > prevLevel) {
+      logActivity(uid, 'level_up', `Reached level ${newLevel}`, { level: newLevel, levelName: getLevel(nextTotal).name })
+    }
 
     return nextTotal   // authoritative new total for callers (e.g. pet evolution)
   }, [uid])

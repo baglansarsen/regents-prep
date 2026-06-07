@@ -316,18 +316,34 @@ export default function FriendsScreen({ navigation }) {
       {/* Friend code banner */}
       {friendCode && (
         <View style={[s.codeBanner, cardShadow(C.shadow)]}>
-          <View>
-            <Text style={[T.label, { color: C.textMuted }]}>Your Friend Code</Text>
-            <Text style={s.codeValue}>{friendCode}</Text>
+          <View style={{ flex: 1 }}>
+            <Text style={[T.label, { color: C.textMuted, marginBottom: 6 }]}>Share Your Code</Text>
+            <View style={[s.codeBox, { backgroundColor: C.surface2, borderColor: C.border }]}>
+              <Text style={s.codeValue}>{friendCode}</Text>
+              <TouchableOpacity
+                style={s.codeCopyBtn}
+                onPress={() => {
+                  // Copy to clipboard
+                  try {
+                    require('react-native').Clipboard.setString(friendCode)
+                  } catch {}
+                }}
+                hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+              >
+                <Text style={{ fontSize: 16 }}>📋</Text>
+              </TouchableOpacity>
+            </View>
           </View>
-          <Text style={{ fontSize: 28 }}>🤝</Text>
+          <Text style={{ fontSize: 32 }}>🤝</Text>
         </View>
       )}
 
-      {/* Add friend button */}
-      <TouchableOpacity style={s.addFriendBtn} onPress={() => navigation.navigate('AddFriend')}>
-        <Text style={[T.btn, { color: '#fff' }]}>+ Add Friend by Code</Text>
-      </TouchableOpacity>
+      {/* Add friend buttons */}
+      <View style={s.addFriendSection}>
+        <TouchableOpacity style={[s.addFriendBtn, { backgroundColor: C.brand }]} onPress={() => navigation.navigate('AddFriend')}>
+          <Text style={[T.btn, { color: '#fff' }]}>+ Add Friend by Code</Text>
+        </TouchableOpacity>
+      </View>
 
       {/* League entry banner */}
       <LeagueBanner tier={tier} C={C} s={s} onPress={() => navigation.navigate('League')} />
@@ -484,31 +500,57 @@ export default function FriendsScreen({ navigation }) {
         {tab === 'Friends' && (
           <View style={s.list}>
             {friends.length === 0 && (
-              <Text style={[T.body, { color: C.textMuted, textAlign: 'center', padding: 20 }]}>
-                No friends yet. Add a friend by their code!
-              </Text>
+              <View style={{ paddingVertical: 40, alignItems: 'center' }}>
+                <Text style={{ fontSize: 48, marginBottom: 12 }}>🤝</Text>
+                <Text style={[T.h3, { color: C.text, textAlign: 'center', marginBottom: 4 }]}>No Friends Yet</Text>
+                <Text style={[T.small, { color: C.textMuted, textAlign: 'center' }]}>
+                  Add friends by their code to compete and see their progress
+                </Text>
+              </View>
             )}
             {friends.map((f) => (
-              <TouchableOpacity
-                key={f.id}
-                style={[s.friendRow, cardShadow(C.shadow)]}
-                onPress={() => navigateToProfile({ uid: f.id ?? f.uid, displayName: f.displayName })}
-                activeOpacity={0.75}
-              >
-                <Avatar name={f.displayName} size={42} C={C} />
-                <View style={{ flex: 1 }}>
-                  <Text style={[s.friendName, { color: C.text }]}>{f.displayName}</Text>
-                </View>
+              <View key={f.id} style={[s.friendCard, cardShadow(C.shadow)]}>
                 <TouchableOpacity
-                  style={[s.challengeBtn, { backgroundColor: C.brand }]}
-                  onPress={(e) => {
-                    e.stopPropagation?.()
-                    navigation.navigate('Challenge', { friendUid: f.id, friendName: f.displayName })
-                  }}
+                  style={s.friendCardMain}
+                  onPress={() => navigateToProfile({ uid: f.id ?? f.uid, displayName: f.displayName })}
+                  activeOpacity={0.8}
                 >
-                  <Text style={[T.label, { color: '#fff', textTransform: 'none', letterSpacing: 0 }]}>⚔️</Text>
+                  <View style={s.friendLeft}>
+                    <Text style={s.petEmoji}>{f.petEmoji ?? '🐾'}</Text>
+                  </View>
+                  <View style={s.friendInfo}>
+                    <Text style={[s.friendName, { color: C.text }]}>{f.displayName}</Text>
+                    <View style={s.friendStats}>
+                      <Text style={[T.small, { color: C.textMuted }]}>Level {f.level ?? 1}</Text>
+                      <Text style={[T.small, { color: C.textMuted }]}>•</Text>
+                      <Text style={[T.small, { color: C.textMuted }]}>{f.weeklyRP ?? 0} ⭐ this week</Text>
+                    </View>
+                    {f.streak > 0 && (
+                      <View style={[s.streakBadge, { backgroundColor: C.warn + '20', borderColor: C.warn }]}>
+                        <Text style={[T.label, { color: C.warn, fontSize: 11, textTransform: 'none' }]}>🔥 {f.streak} day streak</Text>
+                      </View>
+                    )}
+                  </View>
                 </TouchableOpacity>
-              </TouchableOpacity>
+                <View style={s.friendActions}>
+                  <TouchableOpacity
+                    style={[s.friendActionBtn, { backgroundColor: C.brand }]}
+                    onPress={() => navigation.navigate('Challenge', { friendUid: f.id, friendName: f.displayName })}
+                    activeOpacity={0.8}
+                  >
+                    <Text style={{ fontSize: 16 }}>⚔️</Text>
+                    <Text style={[T.label, { color: '#fff', fontSize: 10, textTransform: 'none' }]}>Battle</Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity
+                    style={[s.friendActionBtn, { backgroundColor: C.surface2, borderWidth: 1, borderColor: C.border }]}
+                    onPress={() => navigateToProfile({ uid: f.id ?? f.uid, displayName: f.displayName })}
+                    activeOpacity={0.8}
+                  >
+                    <Text style={{ fontSize: 16 }}>👤</Text>
+                    <Text style={[T.label, { color: C.text, fontSize: 10, textTransform: 'none' }]}>Profile</Text>
+                  </TouchableOpacity>
+                </View>
+              </View>
             ))}
           </View>
         )}
@@ -517,18 +559,47 @@ export default function FriendsScreen({ navigation }) {
         {tab === 'Activity' && (
           <View style={s.list}>
             {feed.length === 0 && (
-              <Text style={[T.body, { color: C.textMuted, textAlign: 'center', padding: 20 }]}>
-                No recent activity.
-              </Text>
-            )}
-            {feed.map((item) => (
-              <View key={item.id} style={[s.feedRow, cardShadow(C.shadow)]}>
-                <Text style={[T.body, { color: C.text }]}>{item.text ?? 'Activity'}</Text>
-                <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>
-                  {item.timestamp ? timeAgo(item.timestamp.toMillis?.() ?? 0) : ''}
+              <View style={{ paddingVertical: 40, alignItems: 'center' }}>
+                <Text style={{ fontSize: 48, marginBottom: 12 }}>📜</Text>
+                <Text style={[T.h3, { color: C.text, textAlign: 'center', marginBottom: 4 }]}>No Activity Yet</Text>
+                <Text style={[T.small, { color: C.textMuted, textAlign: 'center' }]}>
+                  Add friends and battle them to see activity updates here
                 </Text>
               </View>
-            ))}
+            )}
+            {feed.map((item) => {
+              const activityType = item.type ?? 'general'
+              const activityIcons = {
+                levelup: '🏆',
+                milestone: '⭐',
+                challenge: '⚔️',
+                streak: '🔥',
+                complete: '✅',
+                general: '📌',
+              }
+              const icon = activityIcons[activityType] ?? '📌'
+              let timestamp = 'just now'
+              if (item.timestamp) {
+                let ms = 0
+                if (typeof item.timestamp.toMillis === 'function') {
+                  ms = item.timestamp.toMillis()
+                } else if (typeof item.timestamp === 'number') {
+                  ms = item.timestamp
+                }
+                if (ms > 0) timestamp = timeAgo(ms)
+              }
+              return (
+                <View key={item.id} style={[s.feedRow, cardShadow(C.shadow)]}>
+                  <Text style={{ fontSize: 20 }}>{icon}</Text>
+                  <View style={{ flex: 1 }}>
+                    <Text style={[T.body, { color: C.text }]}>{item.text ?? 'Activity'}</Text>
+                    <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0, marginTop: 2 }]}>
+                      {timestamp}
+                    </Text>
+                  </View>
+                </View>
+              )
+            })}
           </View>
         )}
 
@@ -544,10 +615,47 @@ function makeStyles(C) {
     modalHeader:   { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 20, paddingTop: 8, paddingBottom: 12 },
     closeBtn:      { width: 32, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
 
-    codeBanner:    { marginHorizontal: 16, marginBottom: 10, backgroundColor: C.surface, borderRadius: 14, padding: 14, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderWidth: 1, borderColor: C.border },
-    codeValue:     { fontSize: 22, fontFamily: 'Nunito_900Black', color: C.brand, letterSpacing: 3, marginTop: 2 },
-
-    addFriendBtn:  { marginHorizontal: 16, marginBottom: 12, backgroundColor: C.brand, borderRadius: 14, paddingVertical: 13, alignItems: 'center' },
+    codeBanner: {
+      marginHorizontal: 16,
+      marginBottom: 10,
+      backgroundColor: C.surface,
+      borderRadius: 16,
+      padding: 14,
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      borderWidth: 1,
+      borderColor: C.border,
+    },
+    codeBox: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      borderRadius: 10,
+      borderWidth: 1,
+      paddingHorizontal: 12,
+      paddingVertical: 10,
+      gap: 8,
+    },
+    codeValue: {
+      fontSize: 18,
+      fontFamily: 'Nunito_900Black',
+      color: C.brand,
+      letterSpacing: 2,
+      flex: 1,
+    },
+    codeCopyBtn: {
+      padding: 6,
+    },
+    addFriendSection: {
+      marginHorizontal: 16,
+      marginBottom: 12,
+      gap: 8,
+    },
+    addFriendBtn: {
+      borderRadius: 14,
+      paddingVertical: 13,
+      alignItems: 'center',
+    },
     leagueBanner:  { marginHorizontal: 16, marginBottom: 12, borderRadius: 14, paddingVertical: 12, paddingHorizontal: 14, borderWidth: 1.5, flexDirection: 'row', alignItems: 'center', gap: 10 },
 
     requests:      { marginHorizontal: 16, marginBottom: 8, gap: 8 },
@@ -589,11 +697,95 @@ function makeStyles(C) {
     lbChevron:     { fontFamily: 'Nunito_700Bold', fontSize: 20, marginLeft: 2 },
 
     // Friends tab
-    friendRow:     { flexDirection: 'row', alignItems: 'center', gap: 12, backgroundColor: C.surface, borderRadius: 14, padding: 12, borderWidth: 1, borderColor: C.border },
-    friendName:    { fontFamily: 'Nunito_700Bold', fontSize: 15 },
-    challengeBtn:  { paddingHorizontal: 12, paddingVertical: 8, borderRadius: 10 },
+    friendCard: {
+      backgroundColor: C.surface,
+      borderRadius: 16,
+      borderWidth: 1,
+      borderColor: C.border,
+      overflow: 'hidden',
+    },
+    friendCardMain: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      padding: 14,
+      gap: 12,
+    },
+    friendLeft: {
+      width: 52,
+      height: 52,
+      borderRadius: 26,
+      backgroundColor: C.surface2,
+      alignItems: 'center',
+      justifyContent: 'center',
+      borderWidth: 2,
+      borderColor: C.border,
+    },
+    petEmoji: {
+      fontSize: 28,
+    },
+    friendInfo: {
+      flex: 1,
+      gap: 4,
+    },
+    friendName: {
+      fontFamily: 'Nunito_800ExtraBold',
+      fontSize: 15,
+    },
+    friendStats: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 6,
+    },
+    streakBadge: {
+      alignSelf: 'flex-start',
+      borderRadius: 8,
+      borderWidth: 1,
+      paddingVertical: 3,
+      paddingHorizontal: 8,
+      marginTop: 4,
+    },
+    friendActions: {
+      flexDirection: 'row',
+      gap: 8,
+      paddingHorizontal: 14,
+      paddingBottom: 12,
+    },
+    friendActionBtn: {
+      flex: 1,
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingVertical: 10,
+      borderRadius: 12,
+      gap: 2,
+    },
+    friendRow: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 12,
+      backgroundColor: C.surface,
+      borderRadius: 14,
+      padding: 12,
+      borderWidth: 1,
+      borderColor: C.border,
+    },
+    challengeBtn: {
+      paddingHorizontal: 12,
+      paddingVertical: 8,
+      borderRadius: 10,
+    },
 
     // Activity tab
-    feedRow:       { backgroundColor: C.surface, borderRadius: 14, padding: 14, gap: 4, borderWidth: 1, borderColor: C.border },
+    feedRow: {
+      backgroundColor: C.surface,
+      borderRadius: 14,
+      padding: 14,
+      gap: 4,
+      borderWidth: 1,
+      borderColor: C.border,
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 10,
+    },
   })
 }

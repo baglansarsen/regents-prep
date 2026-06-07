@@ -22,6 +22,7 @@ import StudyBuddyCompanion from '../components/StudyBuddyCompanion'
 import { useStudyTime } from '../hooks/useStudyTime'
 import { hapticTick, hapticSuccess, hapticWarning } from '../utils/haptics'
 import { useQuizSound } from '../hooks/useQuizSound'
+import { logActivity } from '../utils/activityLogger'
 
 const LETTERS = ['A', 'B', 'C', 'D']
 const CDN_BASE = 'https://regents-prep.web.app'
@@ -209,6 +210,12 @@ export default function QuizScreen({ route, navigation }) {
       markStudied()
       // Evolve against the authoritative post-award total, not the stale `xp` state
       earnRP(rpEarned).then((newTotal) => checkAndEvolve(newTotal ?? rp + rpEarned))
+
+      // Log quiz completion activity
+      logActivity(uid, 'quiz_complete', `Completed quiz: ${topic ?? subject} (${pct}%)`, {
+        topic, subject, pct, correct, total, rpEarned, mastered: firstMastery, challenge: isChallenge,
+      })
+
       if (challengeUnlocked)   { triggerReaction('cheer');        say(`⚡ Challenge passed! Next unit unlocked 🔓`) }
       else if (pct === 100)    { triggerReaction('cheer');        say(`Perfect score! +${rpEarned} ⭐ You're incredible 🎉`) }
       else if (pct >= 85)      { triggerReaction('happy_dance');  say(`+${rpEarned} ⭐ RP! Really solid work 🌟`) }

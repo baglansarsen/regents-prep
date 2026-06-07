@@ -25,7 +25,10 @@ export function useDailyGoal(currentRP, rpLoaded = false) {
   useEffect(() => {
     if (!rpLoaded) return
 
+    let isMounted = true
     AsyncStorage.getItem(KEY).then((raw) => {
+      if (!isMounted) return
+
       if (raw) {
         try {
           const { goal: g, date, rpAtStart, celebrated: wasCelebrated } = JSON.parse(raw)
@@ -56,6 +59,8 @@ export function useDailyGoal(currentRP, rpLoaded = false) {
       setCelebrated(false)
       AsyncStorage.setItem(KEY, JSON.stringify({ goal: DEFAULT_GOAL, date: today, rpAtStart: currentRP, celebrated: false }))
     }
+
+    return () => { isMounted = false }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [rpLoaded])
 
