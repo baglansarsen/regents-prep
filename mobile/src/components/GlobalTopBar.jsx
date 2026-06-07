@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { View, Text, TouchableOpacity, StyleSheet, Alert, Modal, Platform } from 'react-native'
+import { View, Text, TouchableOpacity, StyleSheet, Modal, Platform } from 'react-native'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
@@ -7,10 +7,10 @@ import { useSubject } from '../context/SubjectContext'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useRP } from '../hooks/useRP'
 import { useLivesContext } from '../context/LivesContext'
-import { useRewardedAd } from '../hooks/useRewardedAd'
 import { SUBJECTS, SUBJECT_META } from '../content/subjects'
 import { useDoubleRP } from '../context/DoubleRPContext'
 import { T } from '../styles/duo'
+import RewardsSheet from './RewardsSheet'
 
 function useCountdown(isoStr) {
   const [secs, setSecs] = useState(() =>
@@ -31,15 +31,6 @@ function formatSecs(s) {
   return `${m}:${String(s % 60).padStart(2, '0')}`
 }
 
-function formatRefillTime(isoStr) {
-  if (!isoStr) return 'soon'
-  const ms = new Date(isoStr).getTime() - Date.now()
-  if (ms <= 0) return 'now'
-  const min = Math.ceil(ms / 60000)
-  if (min < 60) return `${min}m`
-  return `${Math.ceil(min / 60)}h`
-}
-
 export default function GlobalTopBar() {
   const insets = useSafeAreaInsets()
   const { C } = useTheme()
@@ -47,79 +38,20 @@ export default function GlobalTopBar() {
   const uid = user?.uid
 
   const [dropdownOpen, setDropdownOpen] = useState(false)
+  // null = closed; 'streak' | 'rp' | 'lives' = focused section
+  const [sheet, setSheet] = useState(null)
 
   const { subject, setSubject }                          = useSubject()
-  const { streak, hasFreeze, buyFreeze }                 = useDailyStreak(uid)
-  const { rp, spendRP }                                  = useRP(uid)
-  const { lives, maxLives, nextRefillAt, refillLives, addLife, isSubscribed } = useLivesContext()
+  const { streak }                                       = useDailyStreak(uid)
+  const { rp }                                           = useRP(uid)
+  const { lives, maxLives, nextRefillAt, isSubscribed }  = useLivesContext()
   const secsUntilRefill = useCountdown(lives < maxLives ? nextRefillAt : null)
-  const { isActive: boostActive, timeLeft: boostTimeLeft }     = useDoubleRP()
-  const { ready: adReady, showAd }                             = useRewardedAd({ onReward: addLife })
-
-  // ── Streak / freeze tap ───────────────────────────────────────────────────
-  function handleStreakTap() {
-    if (hasFreeze) {
-      Alert.alert(
-        '🧊 Streak Freeze Active',
-        `Your ${streak}-day streak is protected!\n\nIf you miss a day, the freeze will automatically shield your streak.`,
-        [{ text: 'Got it 👍' }],
-      )
-      return
-    }
-
-    const canAfford = rp >= 200
-    Alert.alert(
-      `🔥 ${streak}-Day Streak`,
-      canAfford
-        ? `Keep it going!\n\nBuy a 🧊 Streak Freeze for 200 RP to protect your streak if you miss a day. You have ${rp} RP.`
-        : `Keep it going!\n\nYou need 200 RP to buy a Streak Freeze. You have ${rp} RP — earn more by completing lessons!`,
-      canAfford
-        ? [
-            {
-              text: '🧊 Buy Freeze (200 RP)',
-              onPress: async () => {
-                const result = await buyFreeze(spendRP)
-                if (result === 'success') {
-                  Alert.alert('🧊 Freeze Activated!', 'Your streak is protected for one missed day.')
-                } else if (result === 'already_have') {
-                  Alert.alert('Already protected!', 'You already have an active streak freeze.')
-                } else {
-                  Alert.alert('Not enough RP', 'You need 200 RP to buy a streak freeze.')
-                }
-              },
-            },
-            { text: 'Not now', style: 'cancel' },
-          ]
-        : [{ text: 'OK' }],
-    )
-  }
-
-  // ── Lives tap ─────────────────────────────────────────────────────────────
-  function handleLivesTap() {
-    if (lives >= maxLives) return
-
-    const buttons = [
-      { text: 'Refill All (300 RP)', style: 'default', onPress: () => refillLives(spendRP) },
-      ...(adReady
-        ? [{ text: '▶ Watch Ad (+1 ❤️)', onPress: showAd }]
-        : []),
-      { text: 'OK', style: 'cancel' },
-    ]
-
-    Alert.alert(
-      `❤️ ${lives} / ${maxLives} Lives`,
-      lives === 0
-        ? `You're out of lives!\n\nNext life in ${formatRefillTime(nextRefillAt)}, or watch an ad / refill now for 300 ⭐ RP.`
-        : `Next life in ${formatRefillTime(nextRefillAt)}.\n\nWatch an ad for +1 ❤️, or refill all 5 lives for 300 ⭐ RP.`,
-      buttons,
-    )
-  }
+  const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
 
   const subjectColor = SUBJECT_META[subject]?.color ?? '#16a34a'
   const s = makeStyles(insets.top, subjectColor)
 
   const activeMeta = SUBJECT_META[subject] ?? SUBJECT_META['living-environment']
-
   const barTop = insets.top + 48
 
   return (
@@ -132,7 +64,7 @@ export default function GlobalTopBar() {
         activeOpacity={0.75}
         accessibilityLabel={`Select Subject. Current subject is ${activeMeta.name}`}
         accessibilityRole="button"
-        accessibilityHint="Opens a menu to switch between Living Environment, Earth Science, Chemistry, Physics, Algebra, and Geometry subjects."
+        accessibilityHint="Opens a menu to switch between subjects."
       >
         <Text style={s.subjectBtnText}>
           {activeMeta.icon} {activeMeta.shortName ?? activeMeta.name.slice(0, 2).toUpperCase()}
@@ -143,35 +75,30 @@ export default function GlobalTopBar() {
       {/* Stats */}
       <View style={s.stats}>
 
-        {/* 🔥 Streak */}
+        {/* 🔥 Streak — taps open sheet focused on streak */}
         <TouchableOpacity
           style={s.stat}
-          onPress={handleStreakTap}
+          onPress={() => setSheet('streak')}
           activeOpacity={0.75}
           accessibilityLabel={`${streak} day study streak`}
           accessibilityRole="button"
-          accessibilityHint={hasFreeze ? "Your streak is protected today by a active streak freeze. Tap to see protection details." : "Tap to buy a streak freeze protection for 200 RP."}
+          accessibilityHint="Tap to view streak details and buy a streak freeze."
         >
-          <View style={s.streakRow}>
-            <Text style={s.statText}>🔥 {streak}</Text>
-            {hasFreeze && (
-              <View style={s.freezeBadge}>
-                <Text style={s.freezeText}>🧊</Text>
-              </View>
-            )}
-          </View>
+          <Text style={s.statText}>🔥 {streak}</Text>
         </TouchableOpacity>
 
-        {/* ⭐ RP */}
-        <View
+        {/* ⭐ RP — taps open sheet focused on RP & power-ups */}
+        <TouchableOpacity
           style={s.stat}
+          onPress={() => setSheet('rp')}
+          activeOpacity={0.75}
           accessibilityLabel={`${rp} Regents Points earned`}
-          accessibilityRole="text"
-          accessibilityHint={boostActive ? `Double RP boost is active with ${Math.floor(boostTimeLeft / 60)} minutes left.` : ""}
+          accessibilityRole="button"
+          accessibilityHint={boostActive ? `Double RP boost active. Tap to view RP and shop.` : 'Tap to view RP and buy power-ups.'}
         >
           <View style={s.rpRow}>
             <Text style={s.statText}>
-              ⭐ {rp >= 1000 ? `${(rp / 1000).toFixed(1)}k` : rp} 
+              ⭐ {rp >= 1000 ? `${(rp / 1000).toFixed(1)}k` : rp}
             </Text>
             {boostActive && (
               <View style={s.boostBadge}>
@@ -181,25 +108,27 @@ export default function GlobalTopBar() {
               </View>
             )}
           </View>
-        </View>
+        </TouchableOpacity>
 
-        {/* ❤️ Lives */}
+        {/* ❤️ Lives — taps open sheet focused on lives (unless subscribed/full) */}
         {isSubscribed ? (
-          <View
+          <TouchableOpacity
             style={s.stat}
+            onPress={() => setSheet('lives')}
+            activeOpacity={0.75}
             accessibilityLabel="Unlimited lives subscription active"
-            accessibilityRole="text"
+            accessibilityRole="button"
           >
             <Text style={s.statText}>♾️ ❤️</Text>
-          </View>
+          </TouchableOpacity>
         ) : (
           <TouchableOpacity
             style={s.stat}
-            onPress={handleLivesTap}
+            onPress={() => setSheet('lives')}
             activeOpacity={0.8}
             accessibilityLabel={`${lives} out of ${maxLives} lives remaining`}
             accessibilityRole="button"
-            accessibilityHint={lives < maxLives ? `Next life refills in ${formatRefillTime(nextRefillAt)}. Tap to refill lives instantly using RP or watch a rewarded ad.` : "Your lives are fully charged."}
+            accessibilityHint={lives < maxLives ? 'Tap to refill lives or watch an ad.' : 'Your lives are fully charged. Tap to view.'}
           >
             <Text style={s.statText}>
               {'❤️'.repeat(lives)}{'🖤'.repeat(maxLives - lives)}
@@ -208,10 +137,9 @@ export default function GlobalTopBar() {
           </TouchableOpacity>
         )}
 
-
       </View>
 
-      {/* Dropdown modal */}
+      {/* Subject dropdown modal */}
       <Modal
         visible={dropdownOpen}
         transparent
@@ -242,6 +170,13 @@ export default function GlobalTopBar() {
         </TouchableOpacity>
       </Modal>
 
+      {/* Rewards sheet — single instance, focus prop steers which section appears first */}
+      <RewardsSheet
+        visible={!!sheet}
+        focus={sheet}
+        onClose={() => setSheet(null)}
+      />
+
     </View>
   )
 }
@@ -259,7 +194,7 @@ function makeStyles(topInset, subjectColor) {
       height:            topInset + 48,
     },
 
-    subjectBtn:     {
+    subjectBtn: {
       flexDirection: 'row',
       alignItems: 'center',
       gap: 5,
@@ -272,8 +207,8 @@ function makeStyles(topInset, subjectColor) {
     subjectBtnText: { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#fff' },
     chevron:        { fontSize: 10, color: 'rgba(255,255,255,0.85)' },
 
-    stats:       { flexDirection: 'row', alignItems: 'center', gap: 8 },
-    stat:        {
+    stats: { flexDirection: 'row', alignItems: 'center', gap: 8 },
+    stat: {
       flexDirection:  'row',
       alignItems:     'center',
       justifyContent: 'center',
@@ -285,18 +220,7 @@ function makeStyles(topInset, subjectColor) {
       borderColor:    'rgba(255,255,255,0.08)',
       ...(Platform.OS === 'web' ? { backdropFilter: 'blur(16px)' } : {}),
     },
-    statText:    { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#fff' },
-
-    streakRow:   { flexDirection: 'row', alignItems: 'center', gap: 4 },
-    freezeBadge: {
-      backgroundColor:   'rgba(186,230,253,0.25)',
-      borderRadius:       8,
-      paddingHorizontal:  4,
-      paddingVertical:    1,
-      borderWidth:        1,
-      borderColor:        'rgba(186,230,253,0.5)',
-    },
-    freezeText:  { fontSize: 11 },
+    statText: { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#fff' },
 
     rpRow:      { flexDirection: 'row', alignItems: 'center', gap: 5 },
     boostBadge: {
@@ -307,21 +231,21 @@ function makeStyles(topInset, subjectColor) {
       borderWidth:        1,
       borderColor:        'rgba(245,158,11,0.5)',
     },
-    boostText:  { fontFamily: 'Nunito_800ExtraBold', fontSize: 10, color: '#FCD34D' },
+    boostText: { fontFamily: 'Nunito_800ExtraBold', fontSize: 10, color: '#FCD34D' },
 
-    backdrop:   { flex: 1 },
-    dropdown:   {
-      position:          'absolute',
-      left:              14,
-      backgroundColor:   '#fff',
-      borderRadius:      14,
-      paddingVertical:   6,
-      minWidth:          220,
-      shadowColor:       '#000',
-      shadowOpacity:     0.15,
-      shadowOffset:      { width: 0, height: 4 },
-      shadowRadius:      12,
-      elevation:         8,
+    backdrop: { flex: 1 },
+    dropdown: {
+      position:        'absolute',
+      left:            14,
+      backgroundColor: '#fff',
+      borderRadius:    14,
+      paddingVertical: 6,
+      minWidth:        220,
+      shadowColor:     '#000',
+      shadowOpacity:   0.15,
+      shadowOffset:    { width: 0, height: 4 },
+      shadowRadius:    12,
+      elevation:       8,
     },
     dropdownItem:       { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingVertical: 13, gap: 10 },
     dropdownItemActive: { backgroundColor: 'rgba(0,0,0,0.04)' },

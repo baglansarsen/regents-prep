@@ -1,109 +1,18 @@
 import React from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView,
-  StyleSheet, Alert,
+  StyleSheet,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
-import { useTheme } from '../context/ThemeContext'
-import { useAuthContext } from '../context/AuthContext'
-import { useRP } from '../hooks/useRP'
-import { useDailyStreak } from '../hooks/useDailyStreak'
-import { useLivesContext } from '../context/LivesContext'
-import { useDoubleRP } from '../context/DoubleRPContext'
-import { useSubscription } from '../context/SubscriptionContext'
+import { useTheme }     from '../context/ThemeContext'
+import { usePowerUps }  from '../hooks/usePowerUps'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 
-function formatTime(secs) {
-  const m = Math.floor(secs / 60)
-  const s = secs % 60
-  return `${m}:${String(s).padStart(2, '0')}`
-}
-
 export default function ShopScreen({ navigation }) {
-  const { C } = useTheme()
-  const { user } = useAuthContext()
-  const uid = user?.uid
-
-  const { rp, spendRP }                                = useRP(uid)
-  const { hasFreeze, buyFreeze }                        = useDailyStreak(uid)
-  const { lives, maxLives, refillLives }                = useLivesContext()
-  const { isActive, timeLeft, activateBoost, COST_RP }  = useDoubleRP()
-  const { isSubscribed } = useSubscription()
+  const { C }              = useTheme()
+  const { items, rp }      = usePowerUps()
 
   const s = makeStyles(C)
-
-  // ── Buy handlers ──────────────────────────────────────────────────────────
-
-  async function handleBuyFreeze() {
-    if (hasFreeze) return
-    const result = await buyFreeze(spendRP)
-    if (result === 'success')
-      Alert.alert('🧊 Freeze Activated!', 'Your streak is protected for one missed day.')
-    else if (result === 'insufficient_xp')
-      Alert.alert('Not enough RP', `You need 200 RP. You have ${rp} RP.`)
-  }
-
-  async function handleRefillLives() {
-    if (lives >= maxLives) return
-    const ok = await refillLives(spendRP)
-    if (ok) Alert.alert('❤️ Lives Refilled!', 'All 5 lives restored.')
-    else    Alert.alert('Not enough RP', `You need 300 RP. You have ${rp} RP.`)
-  }
-
-  async function handleBuyBoost() {
-    if (isActive) return
-    const result = await activateBoost(spendRP)
-    if (result === 'success')
-      Alert.alert('⚡ Boost Active!', 'All RP earned in the next 10 minutes is doubled!')
-    else if (result === 'insufficient_xp')
-      Alert.alert('Not enough RP', `You need ${COST_RP} RP. You have ${rp} RP.`)
-    else if (result === 'already_active')
-      Alert.alert('Boost already running!', `${formatTime(timeLeft)} remaining.`)
-  }
-
-  // ── Item definitions ──────────────────────────────────────────────────────
-
-  const items = [
-    {
-      key:      'boost',
-      icon:     '⚡',
-      name:     '2× RP Boost',
-      desc:     'Double all RP earned on correct answers for 10 minutes.',
-      cost:     COST_RP,
-      accent:   '#F59E0B',
-      dark:     '#B45309',
-      owned:    isActive,
-      ownedLabel: `⏱ ${formatTime(timeLeft)} left`,
-      canBuy:   !isActive && rp >= COST_RP,
-      onBuy:    handleBuyBoost,
-    },
-    {
-      key:      'freeze',
-      icon:     '🧊',
-      name:     'Streak Freeze',
-      desc:     'Protect your streak for one missed day. Used automatically.',
-      cost:     200,
-      accent:   '#38BDF8',
-      dark:     '#0369A1',
-      owned:    hasFreeze,
-      ownedLabel: '✓ Protected',
-      canBuy:   !hasFreeze && rp >= 200,
-      onBuy:    handleBuyFreeze,
-    },
-    {
-      key:      'lives',
-      icon:     '❤️',
-      name:     'Refill Hearts',
-      desc:     isSubscribed ? 'You have unlimited hearts with Premium!' : `Instantly restore all ${maxLives} lives.`,
-      cost:     300,
-      accent:   '#FF4B4B',
-      dark:     '#CC0000',
-      owned:    isSubscribed || lives >= maxLives,
-      ownedLabel: isSubscribed ? '♾️ Unlimited' : '❤️ Full',
-      canBuy:   !isSubscribed && lives < maxLives && rp >= 300,
-      onBuy:    handleRefillLives,
-    },
-  ]
 
   return (
     <SafeAreaView style={s.safe} edges={['bottom']}>
@@ -130,11 +39,12 @@ export default function ShopScreen({ navigation }) {
             key={item.key}
             style={[s.card, cardShadow(C.shadow), item.owned && { opacity: 0.85 }]}
           >
-            {/* Icon + info */}
+            {/* Icon */}
             <View style={[s.iconWrap, { backgroundColor: item.accent + '22', borderColor: item.accent + '55' }]}>
               <Text style={{ fontSize: 32 }}>{item.icon}</Text>
             </View>
 
+            {/* Info */}
             <View style={s.info}>
               <Text style={[T.h3, { color: C.text }]}>{item.name}</Text>
               <Text style={[T.small, { color: C.textMuted, marginTop: 3, lineHeight: 18 }]}>
@@ -226,8 +136,8 @@ function makeStyles(C) {
       borderWidth:  1.5,
       flexShrink:   0,
     },
-    info:    { flex: 1 },
-    action:  { flexShrink: 0 },
+    info:      { flex: 1 },
+    action:    { flexShrink: 0 },
     ownedBadge: {
       borderRadius:    12,
       borderWidth:     1.5,
