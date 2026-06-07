@@ -153,9 +153,9 @@ const GEO_EXAMS = [
 ]
 
 const LS_EXAMS = [
-  { id: 'ls-jun-2025', label: 'June 2025',    subject: SUBJECTS.LIFE_SCIENCE },
-  { id: 'ls-jan-2026', label: 'January 2026', subject: SUBJECTS.LIFE_SCIENCE },
-  { id: 'ls-aug-2025', label: 'August 2025',  subject: SUBJECTS.LIFE_SCIENCE },
+  { id: 'ls-jun-2025', label: 'June 2025',    subject: SUBJECTS.LIFE_SCIENCE, questionCount: 48 },
+  { id: 'ls-jan-2026', label: 'January 2026', subject: SUBJECTS.LIFE_SCIENCE, questionCount: 45 },
+  { id: 'ls-aug-2025', label: 'August 2025',  subject: SUBJECTS.LIFE_SCIENCE, questionCount: 45 },
 ]
 
 const ENG_EXAMS = [
@@ -511,7 +511,7 @@ export default function ExamPickerScreen({ navigation }) {
               </View>
               <View style={{ alignItems: 'flex-end', gap: 6, marginLeft: 8 }}>
                 <View style={[s.qChip, { backgroundColor: C.surface2 }]}>
-                  <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>50 Q</Text>
+                  <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>{item.questionCount ?? 50} Q</Text>
                 </View>
                 <Text style={[T.h3, { color: C.textMuted }]}>›</Text>
               </View>

@@ -9,6 +9,8 @@ import { useRP } from '../hooks/useRP'
 import { useLivesContext } from '../context/LivesContext'
 import { SUBJECTS, SUBJECT_META } from '../content/subjects'
 import { useDoubleRP } from '../context/DoubleRPContext'
+import { useLivesContext } from '../context/LivesContext'
+import { useRewardedAd } from '../hooks/useRewardedAd'
 import { T } from '../styles/duo'
 import RewardsSheet from './RewardsSheet'
 
@@ -44,9 +46,10 @@ export default function GlobalTopBar() {
   const { subject, setSubject }                          = useSubject()
   const { streak }                                       = useDailyStreak(uid)
   const { rp }                                           = useRP(uid)
-  const { lives, maxLives, nextRefillAt, isSubscribed }  = useLivesContext()
+  const { lives, maxLives, nextRefillAt, isSubscribed, addLife } = useLivesContext()
   const secsUntilRefill = useCountdown(lives < maxLives ? nextRefillAt : null)
   const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
+  const { ready: adReady, loading: adLoading, showAd } = useRewardedAd({ onReward: addLife })
 
   const subjectColor = SUBJECT_META[subject]?.color ?? '#16a34a'
   const s = makeStyles(insets.top, subjectColor)
@@ -166,6 +169,9 @@ export default function GlobalTopBar() {
         visible={!!sheet}
         focus={sheet}
         onClose={() => setSheet(null)}
+        adReady={adReady}
+        adLoading={adLoading}
+        showAd={showAd}
       />
 
     </View>

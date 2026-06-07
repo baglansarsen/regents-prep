@@ -20,7 +20,6 @@ import { useAuthContext }   from '../context/AuthContext'
 import { useDailyStreak }  from '../hooks/useDailyStreak'
 import { useRP, getLevel } from '../hooks/useRP'
 import { useLivesContext } from '../context/LivesContext'
-import { useRewardedAd }   from '../hooks/useRewardedAd'
 import { usePowerUps }     from '../hooks/usePowerUps'
 import { useDoubleRP }     from '../context/DoubleRPContext'
 import { T, duoBtn }       from '../styles/duo'
@@ -216,11 +215,10 @@ function RPSection({ C }) {
 }
 
 // ── Lives section ─────────────────────────────────────────────────────────────
-function LivesSection({ C }) {
+function LivesSection({ C, adReady, adLoading, showAd }) {
   const { user } = useAuthContext()
-  const { lives, maxLives, nextRefillAt, refillLives, addLife, isSubscribed } = useLivesContext()
+  const { lives, maxLives, nextRefillAt, refillLives, isSubscribed } = useLivesContext()
   const { rp, spendRP } = useRP(user?.uid)
-  const { ready: adReady, loading: adLoading, showAd } = useRewardedAd({ onReward: addLife })
   const secsUntilRefill = useCountdown(lives < maxLives ? nextRefillAt : null)
 
   async function handleRefill() {
@@ -292,7 +290,7 @@ const TITLES = {
   lives:  '❤️ Lives',
 }
 
-export default function RewardsSheet({ visible, focus, onClose }) {
+export default function RewardsSheet({ visible, focus, onClose, adReady, adLoading, showAd }) {
   const insets = useSafeAreaInsets()
   const { C }  = useTheme()
 
@@ -309,7 +307,7 @@ export default function RewardsSheet({ visible, focus, onClose }) {
       <Sheet title={TITLES[focus] ?? ''} C={C} insets={insets} onClose={onClose}>
         {focus === 'streak' && <StreakSection C={C} />}
         {focus === 'rp'     && <RPSection C={C} />}
-        {focus === 'lives'  && <LivesSection C={C} />}
+        {focus === 'lives'  && <LivesSection C={C} adReady={adReady} adLoading={adLoading} showAd={showAd} />}
       </Sheet>
     </Modal>
   )

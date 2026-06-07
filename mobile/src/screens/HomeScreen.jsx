@@ -686,16 +686,26 @@ export default function HomeScreen({ navigation }) {
             </View>
             <PetStatusBars />
 
-            {/* Daily dig button */}
-            <TouchableOpacity
-              style={[s.digBtn, { backgroundColor: C.surface, borderColor: C.border }]}
-              onPress={handleDig}
-              activeOpacity={0.8}
-            >
-              <Text style={{ fontSize: 18 }}>🐾</Text>
-              <Text style={[T.btn, { color: C.text, fontSize: 13 }]}>Let {pet.name} dig!</Text>
-              <Text style={[T.small, { color: C.textMuted }]}>once/day</Text>
-            </TouchableOpacity>
+            {/* Daily dig button + shop button */}
+            <View style={{ flexDirection: 'row', marginHorizontal: 24, marginTop: 10, gap: 10 }}>
+              <TouchableOpacity
+                style={[s.digBtn, { flex: 1, marginHorizontal: 0, marginTop: 0, backgroundColor: C.surface, borderColor: C.border }]}
+                onPress={handleDig}
+                activeOpacity={0.8}
+              >
+                <Text style={{ fontSize: 18 }}>🐾</Text>
+                <Text style={[T.btn, { color: C.text, fontSize: 13 }]}>Let {pet.name} dig!</Text>
+                <Text style={[T.small, { color: C.textMuted }]}>once/day</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={[s.digBtn, { marginHorizontal: 0, marginTop: 0, paddingHorizontal: 16, backgroundColor: C.surface, borderColor: C.border }]}
+                onPress={() => navigation.navigate('PetShop')}
+                activeOpacity={0.8}
+              >
+                <Text style={{ fontSize: 18 }}>🛍</Text>
+                <Text style={[T.btn, { color: C.text, fontSize: 13 }]}>Shop</Text>
+              </TouchableOpacity>
+            </View>
             {digReward && (
               <View style={[s.digRewardBanner, { backgroundColor: C.brandBg, borderColor: C.brand }]}>
                 <Text style={[T.body, { color: C.brand, textAlign: 'center' }]}>{digReward}</Text>

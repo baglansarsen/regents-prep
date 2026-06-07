@@ -276,9 +276,6 @@ export default function PetWidget({ size = 120, onPress, onLongPress, mini = fal
       {/* Pet name */}
       <Text style={s.petName}>{pet.name}</Text>
 
-      {/* Long-press hint */}
-      <Text style={s.shopHint}>hold for shop</Text>
-
       {/* Floating "+8 😊" feedback */}
       {floatText ? (
         <Animated.Text style={[s.floatText, { transform: [{ translateY: floatY }], opacity: floatOpacity }]}>
