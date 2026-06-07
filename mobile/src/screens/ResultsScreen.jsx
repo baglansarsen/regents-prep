@@ -261,7 +261,7 @@ export default function ResultsScreen({ route, navigation }) {
                 }
                 return null
               })()}
-              {r.question?.explanation && (
+              {r.question?.diveDeep && (
                 <TouchableOpacity
                   onPress={() => setDiveDeepQ(r.question)}
                   style={[s.diveDeepBtn, { borderColor: C.brand + '50', backgroundColor: C.brand + '18' }]}
@@ -275,7 +275,11 @@ export default function ResultsScreen({ route, navigation }) {
           </View>
         ))}
 
-        {/* Actions */}
+        <View style={{ height: 8 }} />
+      </ScrollView>
+
+      {/* ── Sticky action footer — always visible without scrolling ── */}
+      <View style={[s.stickyFooter, { backgroundColor: C.bg, borderTopColor: C.border }]}>
         {passed ? (
           <View style={s.actions}>
             <TouchableOpacity
@@ -330,9 +334,7 @@ export default function ResultsScreen({ route, navigation }) {
             </TouchableOpacity>
           </View>
         )}
-
-        <View style={{ height: 24 }} />
-      </ScrollView>
+      </View>
       {/* ── Mastery celebration overlay ── */}
       {showCelebration && (
         <MasteryCelebration
@@ -386,7 +388,8 @@ function makeStyles(C) {
     summaryRow:   { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', padding: 14 },
     summaryBorder:{ borderTopWidth: 1, borderTopColor: C.border },
     resultRow:    { alignSelf: 'stretch', flexDirection: 'row', alignItems: 'flex-start', gap: 8, backgroundColor: C.surface, borderRadius: 12, padding: 12, borderLeftWidth: 3 },
-    actions:      { alignSelf: 'stretch', flexDirection: 'row', gap: 12, marginTop: 8 },
+    stickyFooter: { paddingHorizontal: 20, paddingTop: 12, paddingBottom: 12, borderTopWidth: StyleSheet.hairlineWidth },
+    actions:      { alignSelf: 'stretch', flexDirection: 'row', gap: 12 },
     diveDeepBtn:  { alignSelf: 'flex-start', borderWidth: 1, borderRadius: 8, paddingHorizontal: 10, paddingVertical: 4, marginTop: 6 },
     diveBackdrop: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.45)' },
     diveSheet:    { position: 'absolute', bottom: 0, left: 0, right: 0, borderTopLeftRadius: 24, borderTopRightRadius: 24, padding: 20, maxHeight: '75%' },

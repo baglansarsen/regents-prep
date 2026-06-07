@@ -1,8 +1,79 @@
 # Handoff — iOS TestFlight release prep (Regentify)
 
-_Last updated: 2026-06-06 (session 6: TestFlight crash investigation + XP→RP string completion)_
+_Last updated: 2026-06-07 (session 7: exam-sourced lessons + ResultsScreen fixes + pet haptics)_
 
-## ⚡ Latest session (session 6: TestFlight crash investigation + XP→RP string completion)
+## ⚡ Latest session (session 7: exam-sourced lessons, ResultsScreen fixes, pet shop haptics)
+
+### All changes are UNCOMMITTED — ask before committing (Xcode Cloud builds on every push)
+
+### 1. ResultsScreen.jsx — two bug fixes
+- **Dive Deep button** was gated on `r.question?.explanation` (all Qs have that) → fixed to gate on `r.question?.diveDeep`. After the exam-sourced lesson refactor, every lesson question has `diveDeep`, so the button now actually appears in lessons.
+- **Lesson 2 unlock** — action buttons (HOME / Next Lesson / TRY AGAIN) were buried inside the ScrollView below 15 question rows. Moved to a sticky footer outside the ScrollView, always visible without scrolling.
+
+### 2. Exam-sourced lessons — all 8 math/science subjects
+
+**Problem:** lessons used thin hand-written practice pools (no `diveDeep`). Exam bank has 1,000+ enriched questions per subject (every Q has both `explanation` + `diveDeep`).
+
+**New file:** `mobile/src/content/_shared/lessonEngine.js`
+- `makeLessonApi({ exams, topicMap, lessonSize })` factory
+- `topicMap` normalizes raw exam topic strings → unit topic strings; unmapped questions are dropped
+- Exports: `getLessonQuestions`, `getByTopic`, `buildDiagnosticSet`, `allQuestions`
+- All consumer APIs (`sd.questions`, `sd.getByTopic`, `sd.buildDiagnosticSet`) now backed by exam bank
+
+**Per-subject changes** (each subject: `questions.js` → topic constants only; `units.js` → uses engine; `index.js` → re-exports from engine):
+
+| Subject | New units | Removed units |
+|---------|-----------|---------------|
+| algebra-1 | Sequences & Patterns (28 Qs) | Graphing Calculator (0 exam Qs) |
+| algebra-2 | Sequences & Series (34), Systems & Inequalities (19) | Graphing Calculator |
+| geometry | Quadrilaterals & Polygons (18) | — |
+| chemistry | Reactions/Kinetics/Stoichiometry (153), Nuclear & Solutions (107), Acids/Bases/Redox (141) | — |
+| physics | — (clean topic map, all 5 units) | — |
+| earth-science | Earth Science Mixed Review (107 Qs — absorbs 'General' pool) | — |
+| life-science | — (first time exam-backed; Human Body lessonCount:1 since only 6 Qs) | Classification of Life (0 exam Qs) |
+| living-environment | Mixed Review (130 Qs — absorbs 'General' pool) | — |
+
+**TOPICS/TOPIC_ICONS kept** in each `questions.js` for flashcards/achievements backward compat.
+
+**Coverage:** every unit ≥ 6 exam questions. Audit verified via node script.
+
+**Humanities unchanged** (english, global-history, us-history) — already exam-only, no practice pool to delete. Phase 3 (LLM topic tagging for real lesson distribution) is future work — see `scripts/tag-humanities-topics.mjs` (to be created, modeled on `scripts/enrich-humanities.mjs`).
+
+### 3. Pet Shop — long press easier + haptic
+
+- `delayLongPress` on PetWidget `TouchableOpacity`: 500ms (default) → **300ms**
+- Added `hapticHeavy()` (Heavy impact) fires on long press before navigating to PetShop
+- New export in `mobile/src/utils/haptics.js`: `hapticHeavy()`
+- Changed in `mobile/src/components/PetWidget.jsx`
+
+### Files changed (all uncommitted)
+
+```
+mobile/src/content/_shared/lessonEngine.js        ← NEW
+mobile/src/content/{algebra-1,algebra-2,geometry,
+  chemistry,physics,earth-science,life-science}/
+  questions.js  units.js  index.js               ← 21 files refactored
+mobile/src/content/living-environment/units.js
+mobile/src/content/living-environment/index.js
+mobile/src/content/questions.js                  ← LE shared; stripped + MIXED_REVIEW added
+mobile/src/screens/ResultsScreen.jsx             ← diveDeep gate + sticky footer
+mobile/src/components/PetWidget.jsx              ← delayLongPress 300ms + hapticHeavy
+mobile/src/utils/haptics.js                      ← hapticHeavy() added
+```
+
+### Suggested commit split
+1. `fix(results): gate Dive Deep on diveDeep field, move action buttons to sticky footer`
+2. `feat(content): source all lessons from Regents exam bank via shared lessonEngine`
+3. `fix(pet): reduce long-press delay to 300ms and add haptic feedback`
+
+### Verification before shipping
+- `npm run ios` → Life Science → complete Lesson 1 → Lesson 2 unlocks immediately, Dive Deep button appears in Results
+- Living Environment → Mixed Review unit visible in learning path
+- Placement Test loads questions (`sd.questions = allQuestions()` from exam pool)
+
+---
+
+## ⚡ Previous session (session 6: TestFlight crash investigation + XP→RP string completion)
 
 ### TestFlight Crash Investigation & Fix
 - **Issue**: App crashed on TestFlight after XP→RP (Regents Points) refactor was deployed

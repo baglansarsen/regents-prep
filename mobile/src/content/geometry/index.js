@@ -1,19 +1,13 @@
-export {
-  questions,
-  TOPICS,
-  TOPIC_ICONS,
-  getByTopic,
-  getContextual,
-  buildDiagnosticSet,
-  shuffled,
-} from './questions'
-
+export { TOPICS, TOPIC_ICONS, shuffled } from './questions'
 export { flashcards, FLASHCARD_TOPIC_LIST } from './flashcards'
 export { ACHIEVEMENTS as achievements } from './achievements'
-export { UNITS, getLessonQuestions } from './units'
+export { UNITS, getLessonQuestions, getByTopic, buildDiagnosticSet } from './units'
 export { STRATEGIES as strategies } from './strategies'
 
-import { TOPICS, questions } from './questions'
+import { TOPICS } from './questions'
+import { allQuestions, getByTopic } from './units'
+
+export const questions = allQuestions()
 
 export const TOPIC_ORDER = [
   TOPICS.CONGRUENCE,
@@ -22,8 +16,9 @@ export const TOPIC_ORDER = [
   TOPICS.COORDINATE_GEO,
   TOPICS.SOLID_GEOMETRY,
   TOPICS.TRIGONOMETRY,
+  TOPICS.QUADRILATERALS,
 ]
 
 export function getExamContextQuestions(topic) {
-  return questions.filter((q) => q.context && q.topic === topic).sort(() => Math.random() - 0.5)
+  return getByTopic(topic).filter((q) => q.context).sort(() => Math.random() - 0.5)
 }

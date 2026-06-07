@@ -1,21 +1,13 @@
-export {
-  questions,
-  TOPICS,
-  TOPIC_ICONS,
-  LAB_TYPES,
-  getByTopic,
-  getContextual,
-  getLabQuestions,
-  buildDiagnosticSet,
-  shuffled,
-} from '../questions'
-
+export { TOPICS, TOPIC_ICONS, LAB_TYPES, shuffled } from '../questions'
 export { flashcards, FLASHCARD_TOPIC_LIST } from '../flashcards'
 export { ACHIEVEMENTS as achievements } from '../achievements'
-export { UNITS, getLessonQuestions } from './units'
+export { UNITS, getLessonQuestions, getByTopic, buildDiagnosticSet } from './units'
 export { STRATEGIES as strategies } from './strategies'
 
 import { TOPICS } from '../questions'
+import { allQuestions, getByTopic } from './units'
+
+export const questions = allQuestions()
 
 export const TOPIC_ORDER = [
   TOPICS.CELL_BIOLOGY,
@@ -24,21 +16,24 @@ export const TOPIC_ORDER = [
   TOPICS.ECOLOGY,
   TOPICS.HUMAN_BODY,
   TOPICS.REPRODUCTION,
+  TOPICS.MIXED_REVIEW,
 ]
 
 // ── Exam context questions for Stimulus Practice ──────────────────────────────
-import leAug2024  from '../regents-exams/living-environment/august-2024'
-import leJun2023  from '../regents-exams/living-environment/june-2023'
-import leJun2024  from '../regents-exams/living-environment/june-2024'
-import leJun2025  from '../regents-exams/living-environment/june-2025'
+import leAug2024 from '../regents-exams/living-environment/august-2024'
+import leJun2023 from '../regents-exams/living-environment/june-2023'
+import leJun2024 from '../regents-exams/living-environment/june-2024'
+import leJun2025 from '../regents-exams/living-environment/june-2025'
 
 const LE_TOPIC_MAP = {
-  'Cell Biology':  TOPICS.CELL_BIOLOGY,
-  'Genetics':      TOPICS.GENETICS,
-  'Evolution':     TOPICS.EVOLUTION,
-  'Ecology':       TOPICS.ECOLOGY,
-  'Human Body':    TOPICS.HUMAN_BODY,
-  'Reproduction':  TOPICS.REPRODUCTION,
+  'Cell Biology': TOPICS.CELL_BIOLOGY,
+  'Genetics':     TOPICS.GENETICS,
+  'Evolution':    TOPICS.EVOLUTION,
+  'Ecology':      TOPICS.ECOLOGY,
+  'Human Body':   TOPICS.HUMAN_BODY,
+  'Reproduction': TOPICS.REPRODUCTION,
+  'General':      TOPICS.MIXED_REVIEW,
+  'General Review': TOPICS.MIXED_REVIEW,
 }
 
 const LE_EXAM_POOLS = [leAug2024, leJun2023, leJun2024, leJun2025]

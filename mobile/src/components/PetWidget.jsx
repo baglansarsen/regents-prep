@@ -7,6 +7,7 @@ import SpeechBubble from './SpeechBubble'
 import { usePetAnimation } from '../hooks/usePetAnimation'
 import PET_SPRITES from '../assets/petSprites'
 import SpriteAnimation from './SpriteAnimation'
+import { hapticHeavy } from '../utils/haptics'
 
 const PARTICLE_POSITIONS = [
   { top: -10, left: 10  },
@@ -213,8 +214,13 @@ export default function PetWidget({ size = 120, onPress, onLongPress, mini = fal
     )
   }
 
+  function handleLongPress() {
+    hapticHeavy()
+    onLongPress?.()
+  }
+
   return (
-    <TouchableOpacity onPress={handleTap} onLongPress={onLongPress} activeOpacity={0.85} style={[s.container, { width: size * 1.6, height: size * 1.5 }]}>
+    <TouchableOpacity onPress={handleTap} onLongPress={handleLongPress} delayLongPress={300} activeOpacity={0.85} style={[s.container, { width: size * 1.6, height: size * 1.5 }]}>
 
       {/* Speech bubble — appears above pet head */}
       <SpeechBubble message={speechMessage} onDone={onSpeechDone} />

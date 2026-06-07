@@ -23,3 +23,7 @@ export function hapticSuccess() {
 export function hapticWarning() {
   try { H?.notificationAsync?.(H.NotificationFeedbackType.Warning) } catch {}
 }
+
+export function hapticHeavy() {
+  try { H?.impactAsync?.(H.ImpactFeedbackStyle.Heavy) } catch {}
+}
