@@ -26,13 +26,12 @@ fi
 
 ios_dir="$(CDPATH= cd -- "$(dirname -- "$podfile_path")" && pwd)"
 
-package_json_path="$(first_match "$repo_root" package.json)"
-if [ -z "$package_json_path" ]; then
-  echo "Could not locate a package.json under: $repo_root"
+mobile_dir="$(CDPATH= cd -- "$ios_dir/.." && pwd)"
+package_json_path="$mobile_dir/package.json"
+if [ ! -f "$package_json_path" ]; then
+  echo "Could not locate package.json at: $package_json_path"
   exit 1
 fi
-
-mobile_dir="$(CDPATH= cd -- "$(dirname -- "$package_json_path")" && pwd)"
 
 echo "    repo_root: $repo_root"
 echo "    ios_dir: $ios_dir"
