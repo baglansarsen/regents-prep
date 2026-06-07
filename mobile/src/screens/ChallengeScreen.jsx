@@ -10,7 +10,7 @@ export default function ChallengeScreen({ route, navigation }) {
   const s = makeStyles(C)
 
   return (
-    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
       <View style={s.center}>
         <Text style={s.emoji}>⚔️</Text>
         <Text style={s.title}>Challenge</Text>

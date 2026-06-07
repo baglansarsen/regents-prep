@@ -193,7 +193,7 @@ export default function IntroductionScreen({ onComplete }) {
 
   return (
     <View style={s.root}>
-      <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+      <SafeAreaView style={s.safe} edges={['bottom']}>
 
         {/* Header absolute actions */}
         <View style={s.header}>

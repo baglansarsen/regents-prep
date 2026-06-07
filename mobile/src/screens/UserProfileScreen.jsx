@@ -111,7 +111,7 @@ export default function UserProfileScreen({ route, navigation }) {
 
   if (loading) {
     return (
-      <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+      <SafeAreaView style={s.safe} edges={['bottom']}>
         <TouchableOpacity style={s.backBtn} onPress={() => navigation.goBack()}>
           <Text style={s.backBtnText}>←</Text>
         </TouchableOpacity>
@@ -160,7 +160,7 @@ export default function UserProfileScreen({ route, navigation }) {
   }
 
   return (
-    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
       {/* Back button */}
       <TouchableOpacity style={s.backBtn} onPress={() => navigation.goBack()}>
         <Text style={s.backBtnText}>←</Text>

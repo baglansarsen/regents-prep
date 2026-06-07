@@ -229,7 +229,7 @@ export default function FocusScreen({ navigation }) {
     const displayMin   = pomodoroCount * preset.study + partialMinutes
 
     return (
-      <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+      <SafeAreaView style={s.safe} edges={['bottom']}>
         <TouchableOpacity
           style={[s.closeBtn, { alignSelf: 'flex-end', margin: 16, backgroundColor: C.surface2 }]}
           onPress={() => navigation.goBack()}
@@ -348,7 +348,7 @@ export default function FocusScreen({ navigation }) {
           <View style={{ flex: 1, backgroundColor: bg.bottom }} />
         </View>
 
-        <SafeAreaView style={{ flex: 1 }} edges={['top', 'bottom']}>
+        <SafeAreaView style={{ flex: 1 }} edges={['bottom']}>
           {/* Top bar */}
           <View style={s.activeHeader}>
             <TouchableOpacity
@@ -484,7 +484,7 @@ export default function FocusScreen({ navigation }) {
 
   // ── IDLE setup screen ──────────────────────────────────────────────────────
   return (
-    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
       <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={{ flex: 1 }}>
         <ScrollView
           contentContainerStyle={s.setupScroll}

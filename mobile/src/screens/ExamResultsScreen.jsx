@@ -120,7 +120,7 @@ export default function ExamResultsScreen({ route, navigation }) {
   }
 
   return (
-    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
       <ScrollView contentContainerStyle={s.scroll}>
         {/* Header */}
         <Text style={[T.label, { color: C.textMuted, textAlign: 'center' }]}>{exam.label} Regents</Text>

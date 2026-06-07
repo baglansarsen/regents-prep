@@ -44,7 +44,7 @@ export default function AddFriendScreen({ navigation }) {
   }
 
   return (
-    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
       <View style={s.header}>
         <TouchableOpacity onPress={() => navigation.goBack()}>
           <Text style={s.back}>← Back</Text>

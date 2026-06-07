@@ -187,7 +187,7 @@ export default function LeagueScreen({ navigation }) {
   const rows = buildRows()
 
   return (
-    <SafeAreaView style={[s.safe, { backgroundColor: C.bg }]} edges={['top', 'bottom']}>
+    <SafeAreaView style={[s.safe, { backgroundColor: C.bg }]} edges={['bottom']}>
 
       {/* ── Navigation row ── */}
       <View style={s.navRow}>
