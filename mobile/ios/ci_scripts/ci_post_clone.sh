@@ -12,18 +12,33 @@ echo "    CI_PRIMARY_REPOSITORY_PATH: $CI_PRIMARY_REPOSITORY_PATH"
 
 script_dir="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
 
-# Walk upward until we find the iOS directory that owns the Podfile.
-ios_dir="$script_dir"
-while [ "$ios_dir" != "/" ] && [ ! -f "$ios_dir/Podfile" ]; do
-  ios_dir="$(CDPATH= cd -- "$ios_dir/.." && pwd)"
-done
+repo_root="${CI_PRIMARY_REPOSITORY_PATH:-$(CDPATH= cd -- "$script_dir/.." && pwd)}"
 
-if [ ! -f "$ios_dir/Podfile" ]; then
-  echo "Could not locate Podfile by walking up from: $script_dir"
+first_match() {
+  find "$1" -path '*/node_modules' -prune -o -type f -name "$2" -print | awk 'NR==1 { print; exit }'
+}
+
+podfile_path="$(first_match "$repo_root" Podfile)"
+if [ -z "$podfile_path" ]; then
+  echo "Could not locate a Podfile under: $repo_root"
   exit 1
 fi
 
-mobile_dir="$(CDPATH= cd -- "$ios_dir/.." && pwd)"
+ios_dir="$(CDPATH= cd -- "$(dirname -- "$podfile_path")" && pwd)"
+
+package_json_path="$(first_match "$repo_root" package.json)"
+if [ -z "$package_json_path" ]; then
+  echo "Could not locate a package.json under: $repo_root"
+  exit 1
+fi
+
+mobile_dir="$(CDPATH= cd -- "$(dirname -- "$package_json_path")" && pwd)"
+
+echo "    repo_root: $repo_root"
+echo "    ios_dir: $ios_dir"
+echo "    mobile_dir: $mobile_dir"
+echo "    podfile_path: $podfile_path"
+echo "    package_json_path: $package_json_path"
 
 # Homebrew is preinstalled on Xcode Cloud runners.
 # Install Node 20 (matches Expo SDK 52 / RN 0.76) and CocoaPods.
