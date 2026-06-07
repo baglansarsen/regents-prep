@@ -35,19 +35,64 @@ export function getWeekKey() {
   return `${utc.getUTCFullYear()}-W${String(week).padStart(2, '0')}`
 }
 
+// Module-level variables to hold global shared state
+let globalRP = 0
+let globalWeeklyRP = 0
+let globalLoaded = false
+const listeners = new Set()
+
+function updateGlobalRP(nextRP, nextWeeklyRP, loadedVal) {
+  globalRP = nextRP
+  globalWeeklyRP = nextWeeklyRP
+  globalLoaded = loadedVal
+  listeners.forEach((listener) => {
+    listener({ rp: globalRP, weeklyRP: globalWeeklyRP, loaded: globalLoaded })
+  })
+}
+
 export function useRP(uid) {
-  const [rp,        setRP]       = useState(0)
-  const [weeklyRP,  setWeeklyRP] = useState(0)
-  const [loaded,    setLoaded]   = useState(false)
+  const [rp,        setRP]       = useState(globalRP)
+  const [weeklyRP,  setWeeklyRP] = useState(globalWeeklyRP)
+  const [loaded,    setLoaded]   = useState(globalLoaded)
 
   // Refs mirror state so earnRP/spendRP never compute from a stale closure
-  const weeklyRPRef = useRef(0)
-  function _setWeeklyRP(v) { weeklyRPRef.current = v; setWeeklyRP(v) }
-  const rpRef = useRef(0)
-  function _setRP(v) { rpRef.current = v; setRP(v) }
+  const weeklyRPRef = useRef(globalWeeklyRP)
+  const rpRef = useRef(globalRP)
+
+  function _setRP(v) {
+    updateGlobalRP(v, globalWeeklyRP, globalLoaded)
+  }
+  function _setWeeklyRP(v) {
+    updateGlobalRP(globalRP, v, globalLoaded)
+  }
 
   useEffect(() => {
-    if (!uid) return
+    const listener = (data) => {
+      setRP(data.rp)
+      setWeeklyRP(data.weeklyRP)
+      setLoaded(data.loaded)
+      rpRef.current = data.rp
+      weeklyRPRef.current = data.weeklyRP
+    }
+    listeners.add(listener)
+    
+    // Sync to current global state on mount
+    setRP(globalRP)
+    setWeeklyRP(globalWeeklyRP)
+    setLoaded(globalLoaded)
+    rpRef.current = globalRP
+    weeklyRPRef.current = globalWeeklyRP
+
+    return () => {
+      listeners.delete(listener)
+    }
+  }, [])
+
+  useEffect(() => {
+    if (!uid) {
+      updateGlobalRP(0, 0, false)
+      return
+    }
     ;(async () => {
       try {
         // Migrate old AsyncStorage key to new key
@@ -58,23 +103,30 @@ export function useRP(uid) {
         }
 
         // Load total RP
+        let loadedRP = globalRP
         const rpSnap = await getDoc(doc(db, 'users', uid, 'meta', 'xp'))
-        if (rpSnap.exists()) _setRP(rpSnap.data().total ?? 0)
+        if (rpSnap.exists()) {
+          loadedRP = rpSnap.data().total ?? 0
+        }
 
         // Load weekly RP (reset to 0 if it belongs to a past week)
+        let loadedWeeklyRP = globalWeeklyRP
         const wSnap = await getDoc(doc(db, 'users', uid, 'meta', 'weeklyXP'))
         if (wSnap.exists()) {
           const data = wSnap.data()
-          const wRP  = data.weekKey === getWeekKey() ? (data.xp ?? 0) : 0
-          _setWeeklyRP(wRP)
+          loadedWeeklyRP = data.weekKey === getWeekKey() ? (data.xp ?? 0) : 0
         }
+        
+        updateGlobalRP(loadedRP, loadedWeeklyRP, true)
       } catch {
         try {
           const raw = await AsyncStorage.getItem(AS_KEY)
-          _setRP(Number(raw) || 0)
-        } catch {}
+          const val = Number(raw) || 0
+          updateGlobalRP(val, globalWeeklyRP, true)
+        } catch {
+          updateGlobalRP(globalRP, globalWeeklyRP, true)
+        }
       }
-      setLoaded(true)
     })()
   }, [uid])
 
