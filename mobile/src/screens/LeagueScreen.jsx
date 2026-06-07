@@ -122,7 +122,7 @@ function MemberRow({ entry, rank, isMe, inPromote, inDemote, C }) {
       </Text>
 
       {/* Weekly RP */}
-      <View style={s.xpChip}>
+      <View style={s.rpChip}>
         <Text style={[T.label, { color: C.warn, textTransform: 'none', letterSpacing: 0, fontSize: 13 }]}>
           ⭐ {entry.weeklyXP.toLocaleString()}
         </Text>
@@ -334,7 +334,7 @@ const s = StyleSheet.create({
     width:      30,
     textAlign:  'center',
   },
-  xpChip: {
+  rpChip: {
     backgroundColor:   'transparent',
     alignItems:        'flex-end',
     minWidth:          70,

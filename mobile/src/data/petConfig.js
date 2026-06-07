@@ -62,7 +62,7 @@ export const DEFAULT_NAMES = [
   'Pebble', 'Cosmo', 'Pixel', 'Waffles', 'Ori',
 ]
 
-// ─── Evolution thresholds (total XP) ─────────────────────────────────────────
+// ─── Evolution thresholds (total RP) ─────────────────────────────────────────
 export const EVOLUTION_THRESHOLDS = [0, 500, 2000, 5000]
 export const STAGE_NAMES = ['', 'Baby', 'Teen', 'Adult', 'Legend']
 export const STAGE_OVERLAYS = {
@@ -72,9 +72,9 @@ export const STAGE_OVERLAYS = {
   4: '👑',   // legendary
 }
 
-export function stageForXP(xp) {
+export function stageForRP(rp) {
   for (let i = EVOLUTION_THRESHOLDS.length - 1; i >= 0; i--) {
-    if (xp >= EVOLUTION_THRESHOLDS[i]) return i + 1
+    if (rp >= EVOLUTION_THRESHOLDS[i]) return i + 1
   }
   return 1
 }

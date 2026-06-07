@@ -130,9 +130,9 @@ export function useLives(uid, isSubscribed = false) {
     await save(uid_ref.current, newLives, newRefill)
   }, [])
 
-  // ─── refillLives (costs 300 XP) ──────────────────────────────────────────
-  const refillLives = useCallback(async (spendXP) => {
-    const spent = await spendXP(REFILL_COST_RP)
+  // ─── refillLives (costs 300 RP) ──────────────────────────────────────────
+  const refillLives = useCallback(async (spendRP) => {
+    const spent = await spendRP(REFILL_COST_RP)
     if (!spent) return false
     livesRef.current = MAX_LIVES
     setLives(MAX_LIVES)

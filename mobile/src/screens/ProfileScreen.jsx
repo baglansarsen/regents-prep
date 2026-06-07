@@ -40,9 +40,8 @@ export default function ProfileScreen({ navigation }) {
   const uid = user?.uid
 
   const { history }                   = useProgress(uid)
-  const { rp, xp, weeklyXP }              = useRP(uid)
+  const { rp, weeklyRP, level }       = useRP(uid)
   const { streak, longestStreak }     = useDailyStreak(uid)
-  const level                         = getLevel(rp)
   const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
   const { isSubscribed } = useSubscription()
 
@@ -214,7 +213,7 @@ export default function ProfileScreen({ navigation }) {
 
         {/* Engagement nudge */}
         {!nudgeDismissed && (() => {
-          const nudge = getEngagementNudge('profile', { streak, longestStreak, weeklyXP })
+          const nudge = getEngagementNudge('profile', { streak, longestStreak, weeklyRP })
           return nudge && <NudgeBanner {...nudge} onDismiss={() => setNudgeDismissed(true)} />
         })()}
 
@@ -265,7 +264,7 @@ export default function ProfileScreen({ navigation }) {
           <View style={s.rowLeft}>
             <Text style={{ fontSize: 28 }}>🛒</Text>
             <View style={{ marginLeft: 12 }}>
-              <Text style={[T.h3, { color: C.text }]}>XP Shop</Text>
+              <Text style={[T.h3, { color: C.text }]}>RP Shop</Text>
               <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Freeze, hearts, boosts</Text>
             </View>
           </View>

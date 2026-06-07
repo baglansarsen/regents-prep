@@ -70,9 +70,9 @@ export default function UserProfileScreen({ route, navigation }) {
 
   // ── Derived stats ─────────────────────────────────────────────────────────
   const name      = profile?.displayName ?? paramName ?? 'Student'
-  const totalXP   = profile?.xp ?? 0
-  const weeklyXP  = profile?.weekKey === getWeekKey() ? (profile?.weeklyXP ?? 0) : 0
-  const level     = getLevel(totalXP)
+  const totalRP   = profile?.xp ?? 0
+  const weeklyRP  = profile?.weekKey === getWeekKey() ? (profile?.weeklyXP ?? 0) : 0
+  const level     = getLevel(totalRP)
   const levelIcon = LEVEL_ICONS[Math.min(level.level - 1, LEVEL_ICONS.length - 1)]
   const color     = avatarColor(name)
   const inits     = initials(name)
@@ -185,12 +185,12 @@ export default function UserProfileScreen({ route, navigation }) {
         {/* ── Stats row ── */}
         <Animated.View style={[s.statsRow, cardShadow(C.shadow), { opacity: contentOp }]}>
           <View style={s.statCell}>
-            <Text style={s.statValue}>⭐ {totalXP >= 1000 ? `${(totalXP / 1000).toFixed(1)}k` : totalXP}</Text>
+            <Text style={s.statValue}>⭐ {totalRP >= 1000 ? `${(totalRP / 1000).toFixed(1)}k` : totalRP}</Text>
             <Text style={[T.label, { color: C.textMuted }]}>Total RP</Text>
           </View>
           <View style={[s.statDivider, { backgroundColor: C.border }]} />
           <View style={s.statCell}>
-            <Text style={s.statValue}>🔥 {weeklyXP}</Text>
+            <Text style={s.statValue}>🔥 {weeklyRP}</Text>
             <Text style={[T.label, { color: C.textMuted }]}>This Week</Text>
           </View>
           <View style={[s.statDivider, { backgroundColor: C.border }]} />
@@ -213,7 +213,7 @@ export default function UserProfileScreen({ route, navigation }) {
           </View>
           {level.next ? (
             <Text style={[T.label, { color: C.textDim, textAlign: 'center', marginTop: 6, textTransform: 'none', letterSpacing: 0 }]}>
-              {level.next.min - totalXP} RP to {level.next.name}
+              {level.next.min - totalRP} RP to {level.next.name}
             </Text>
           ) : (
             <Text style={[T.label, { color: C.brand, textAlign: 'center', marginTop: 6 }]}>MAX LEVEL 🏆</Text>

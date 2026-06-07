@@ -18,7 +18,7 @@ export const MILESTONES = [
   { seconds: 1800, rp: 50,  label: '30 min',  reaction: 'happy_dance', message: "30 minutes! You're on fire! 🔥" },
   { seconds: 3600, rp: 100, label: '1 hour',  reaction: 'cheer',       message: "ONE HOUR! Legendary! 🏆" },
 ]
-const XP_DRIP_INTERVAL = 60      // award 1 XP every 60 seconds
+const RP_DRIP_INTERVAL = 60      // award 1 RP every 60 seconds
 const SAVE_INTERVAL    = 30      // persist to storage every 30 seconds
 
 function todayKey() {
@@ -41,7 +41,7 @@ export function formatTime(seconds) {
 }
 
 // ── Hook ──────────────────────────────────────────────────────────────────────
-export function useStudyTime(uid, earnXP, onMilestone) {
+export function useStudyTime(uid, earnRP, onMilestone) {
   const [sessionSeconds, setSessionSeconds] = useState(0)
   const [todaySeconds,   setTodaySeconds]   = useState(0)
   const [allTimeSeconds, setAllTimeSeconds] = useState(0)
@@ -51,7 +51,7 @@ export function useStudyTime(uid, earnXP, onMilestone) {
   const activeRef     = useRef(false)
   const sessionType   = useRef('study')
   const intervalRef   = useRef(null)
-  const drip60Ref     = useRef(0)      // seconds-since-last-XP-drip
+  const drip60Ref     = useRef(0)      // seconds-since-last-RP-drip
   const saveCountRef  = useRef(0)      // seconds-since-last-persist
   const hitMilestones = useRef(new Set())
   const todayRef      = useRef(0)
@@ -141,18 +141,18 @@ export function useStudyTime(uid, earnXP, onMilestone) {
       const secs = sessionRef.current
       setSessionSeconds(secs)
 
-      // XP drip: 1 XP per minute
+      // RP drip: 1 RP per minute
       drip60Ref.current += 1
-      if (drip60Ref.current >= XP_DRIP_INTERVAL) {
+      if (drip60Ref.current >= RP_DRIP_INTERVAL) {
         drip60Ref.current = 0
-        earnXP?.(1)
+        earnRP?.(1)
       }
 
       // Milestone bonuses
       for (const m of MILESTONES) {
         if (secs >= m.seconds && !hitMilestones.current.has(m.seconds)) {
           hitMilestones.current.add(m.seconds)
-          earnXP?.(m.xp)
+          earnRP?.(m.rp)
           onMilestone?.(m)
         }
       }
@@ -169,7 +169,7 @@ export function useStudyTime(uid, earnXP, onMilestone) {
         persist(saved, sessionType.current)
       }
     }, 1000)
-  }, [earnXP, onMilestone, persist])
+  }, [earnRP, onMilestone, persist])
 
   // ── endSession ────────────────────────────────────────────────────────────
   const endSession = useCallback(() => {

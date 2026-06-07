@@ -301,11 +301,11 @@ export function useFocusSession(uid, earnRP, onPomodoroComplete) {
     const secsElapsed = inFocus ? (presetRef.current.study * 60 - secsLeftRef.current) : 0
     const partial = Math.floor(secsElapsed / 60)
 
-    // Award XP for partial minutes (≥1 min threshold)
+    // Award RP for partial minutes (≥1 min threshold)
     if (partial >= 1) {
-      const partialXP = partial * RP_PER_FOCUS_MINUTE
-      earnRP?.(partialXP)
-      sessionRPRef.current += partialXP
+      const partialRP = partial * RP_PER_FOCUS_MINUTE
+      earnRP?.(partialRP)
+      sessionRPRef.current += partialRP
       setSessionRP(sessionRPRef.current)
     }
 

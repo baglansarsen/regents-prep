@@ -214,13 +214,13 @@ export default function StreakCelebration({ event, onClose, weekDays, streak, rp
     const result = await onBuyFreeze?.()
     if (result === 'success')           setActionMsg('🧊 Freeze activated — your next missed day is covered.')
     else if (result === 'already_have') setActionMsg('You already have a freeze equipped.')
-    else                                setActionMsg(`Not enough RP — you have ${xp}, need 200.`)
+    else                                setActionMsg(`Not enough RP — you have ${rp}, need 200.`)
   }
 
   async function handleRepair() {
     const result = await onRepair?.()
     if (result === 'success')      onClose?.()
-    else if (result === 'insufficient_xp') setActionMsg(`Not enough RP to repair — you have ${xp}, need 500.`)
+    else if (result === 'insufficient_xp') setActionMsg(`Not enough RP to repair — you have ${rp}, need 500.`)
     else setActionMsg('Nothing to repair.')
   }
 

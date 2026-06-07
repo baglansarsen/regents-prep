@@ -78,7 +78,7 @@ export default function FocusHistoryScreen({ navigation, route }) {
             weekStart.setDate(weekStart.getDate() - 7)
             const thisWeek = history.filter(s => new Date(s.date ?? s.startedAt) > weekStart)
             const weekMinutes = thisWeek.reduce((sum, s) => sum + (s.pomodorosCompleted * (s.preset === 'short' ? 15 : s.preset === 'long' ? 50 : 25) + (s.partialMinutes ?? 0)), 0)
-            const weekXP = thisWeek.reduce((sum, s) => sum + (s.xpEarned ?? 0), 0)
+            const weekRP = thisWeek.reduce((sum, s) => sum + (s.rpEarned ?? s.xpEarned ?? 0), 0)
             return (
               <View style={[elevatedCard(C), { marginHorizontal: -20, marginTop: -4, marginBottom: 16, borderRadius: 0, padding: 20 }]}>
                 <Text style={[T.label, { color: C.brand, marginBottom: 12 }]}>This Week</Text>
@@ -92,8 +92,8 @@ export default function FocusHistoryScreen({ navigation, route }) {
                     <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Minutes</Text>
                   </View>
                   <View style={{ alignItems: 'center' }}>
-                    <Text style={[T.h3, { color: C.warn }]}>+{weekXP}</Text>
-                    <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>XP Earned</Text>
+                    <Text style={[T.h3, { color: C.warn }]}>+{weekRP}</Text>
+                    <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>RP Earned</Text>
                   </View>
                 </View>
               </View>
@@ -129,8 +129,8 @@ export default function FocusHistoryScreen({ navigation, route }) {
                       ) : (
                         <Text style={[T.small, { color: C.textMuted }]}>Study session</Text>
                       )}
-                      {session.xpEarned > 0 && (
-                        <Text style={[s.xpBadge, { color: C.warn }]}>+{session.xpEarned} ⭐</Text>
+                      {(session.rpEarned ?? session.xpEarned) > 0 && (
+                        <Text style={[s.xpBadge, { color: C.warn }]}>+{session.rpEarned ?? session.xpEarned} ⭐</Text>
                       )}
                     </View>
 

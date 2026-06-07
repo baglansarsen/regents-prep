@@ -77,7 +77,7 @@ function computeNextNextMeta(sd, nextLessonMeta) {
 export default function ResultsScreen({ route, navigation }) {
   const {
     score, total, results, bestStreak, topic, subject,
-    xpEarned, doubleXP = false,
+    rpEarned, doubleRP = false,
     firstMastery = false, masteredTopic,
     lessonIndex,
     challengeUnlocked = false, unlockedTopic = null,
@@ -87,24 +87,24 @@ export default function ResultsScreen({ route, navigation }) {
   const { C } = useTheme()
   const { user } = useAuthContext()
   const { streak, weekDays } = useDailyStreak(user?.uid)
-  const { rp, xp } = useRP(user?.uid)
+  const { rp, level } = useRP(user?.uid)
 
   const [diveDeepQ,      setDiveDeepQ]      = useState(null)
   const [showCelebration, setShowCelebration] = useState(firstMastery)
-  const [displayRP,    setDisplayXP]    = useState(0)
+  const [displayRP,    setDisplayRP]    = useState(0)
   const [showStreak,   setShowStreak]   = useState(false)
-  const xpAnim     = useRef(new Animated.Value(0)).current
+  const rpAnim     = useRef(new Animated.Value(0)).current
   const streakAnim = useRef(new Animated.Value(0)).current
 
   useEffect(() => {
-    if (xpEarned <= 0) return
-    const id = xpAnim.addListener(({ value }) => setDisplayXP(Math.round(value)))
-    Animated.timing(xpAnim, { toValue: xpEarned, duration: 900, useNativeDriver: false }).start(() => {
+    if (rpEarned <= 0) return
+    const id = rpAnim.addListener(({ value }) => setDisplayRP(Math.round(value)))
+    Animated.timing(rpAnim, { toValue: rpEarned, duration: 900, useNativeDriver: false }).start(() => {
       // After RP counts up, reveal the streak banner
       setShowStreak(true)
       Animated.spring(streakAnim, { toValue: 1, useNativeDriver: true, tension: 120, friction: 8 }).start()
     })
-    return () => xpAnim.removeListener(id)
+    return () => rpAnim.removeListener(id)
   }, [])
 
   // Auto-advance to next unit Lesson 1 after a challenge pass
@@ -163,10 +163,10 @@ export default function ResultsScreen({ route, navigation }) {
             </Text>
           </View>
         )}
-        {xpEarned > 0 && (
+        {rpEarned > 0 && (
           <View style={[s.banner, { backgroundColor: C.warnBg, borderColor: C.warn + '60' }]}>
             <Text style={[T.h3, { color: C.warn }]}>
-              ⭐ +{displayRP} RP earned{doubleXP ? '  ⚡ 2× boost!' : ''}
+              ⭐ +{displayRP} RP earned{doubleRP ? '  ⚡ 2× boost!' : ''}
             </Text>
           </View>
         )}
@@ -211,7 +211,7 @@ export default function ResultsScreen({ route, navigation }) {
 
         {/* Engagement nudge */}
         {rp !== undefined && (() => {
-          const nudge = getEngagementNudge('results', { pct, xpEarned, rp, level: getLevel(rp) })
+          const nudge = getEngagementNudge('results', { pct, rpEarned, rp, level })
           return nudge && <NudgeBanner {...nudge} />
         })()}
 

@@ -17,7 +17,7 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
   const { C } = useTheme()
   const { user } = useAuthContext()
   const uid = user?.uid
-  const { earnXP } = useRP(uid)
+  const { earnRP } = useRP(uid)
   const { markStudied } = useDailyStreak(uid)
   const { triggerReaction, studyBoost, pet } = usePetContext()
 
@@ -29,8 +29,8 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
   const [again, setAgain] = useState(0)
   const [buddyMessage, setBuddyMessage] = useState(null)
 
-  const xpPipOpacity = useRef(new Animated.Value(0)).current
-  const xpPipY       = useRef(new Animated.Value(0)).current
+  const rpPipOpacity = useRef(new Animated.Value(0)).current
+  const rpPipY       = useRef(new Animated.Value(0)).current
   const lastMilestoneBoostRef = useRef(0)
   const doneHandledRef = useRef(false)  // prevent double-firing on done screen
 
@@ -40,7 +40,7 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
     studyBoost?.()
   }, [triggerReaction, studyBoost])
 
-  const { startSession, endSession, sessionSeconds } = useStudyTime(uid, earnXP, handleMilestone)
+  const { startSession, endSession, sessionSeconds } = useStudyTime(uid, earnRP, handleMilestone)
 
   // Boost pet happiness every 10 min of study (beyond the milestone system)
   useEffect(() => {
@@ -76,18 +76,18 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
     if (onHome) onHome()
   }
 
-  function floatXP() {
-    xpPipOpacity.setValue(1)
-    xpPipY.setValue(0)
+  function floatRP() {
+    rpPipOpacity.setValue(1)
+    rpPipY.setValue(0)
     Animated.parallel([
-      Animated.timing(xpPipOpacity, { toValue: 0, duration: 900, useNativeDriver: true }),
-      Animated.timing(xpPipY,       { toValue: -36, duration: 900, useNativeDriver: true }),
+      Animated.timing(rpPipOpacity, { toValue: 0, duration: 900, useNativeDriver: true }),
+      Animated.timing(rpPipY,       { toValue: -36, duration: 900, useNativeDriver: true }),
     ]).start()
   }
 
   function handleGotIt() {
-    earnXP(XP_PER_CARD)
-    floatXP()
+    earnRP(RP_PER_CARD)
+    floatRP()
     setGotIt((n) => n + 1)
     setIndex((i) => i + 1)
   }
@@ -114,7 +114,7 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
   const s = makeStyles(C)
 
   if (done) {
-    const timeXP = Math.floor(sessionSeconds / 60)
+    const timeRP = Math.floor(sessionSeconds / 60)
     return (
       <SafeAreaView style={s.safe} edges={['bottom']}>
         <View style={s.doneScreen}>
@@ -125,10 +125,10 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
           </Text>
 
           {/* RP summary row */}
-          <View style={[s.xpRow, { backgroundColor: C.warnBg, borderColor: C.warn + '50' }]}>
-            <Text style={[s.xpRowText, { color: C.warn }]}>+{gotIt * RP_PER_CARD} ⭐ card RP</Text>
+          <View style={[s.rpRow, { backgroundColor: C.warnBg, borderColor: C.warn + '50' }]}>
+            <Text style={[s.rpRowText, { color: C.warn }]}>+{gotIt * RP_PER_CARD} ⭐ card RP</Text>
             {sessionSeconds >= 60 && (
-              <Text style={[s.xpRowText, { color: C.brand }]}>  ·  +{timeXP} ⏱ time RP</Text>
+              <Text style={[s.rpRowText, { color: C.brand }]}>  ·  +{timeRP} ⏱ time RP</Text>
             )}
           </View>
 
@@ -194,8 +194,8 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
       <View style={s.stats}>
         <View>
           <Text style={s.statGot}>✓ {gotIt} mastered</Text>
-          <Animated.Text style={[s.xpPip, { opacity: xpPipOpacity, transform: [{ translateY: xpPipY }] }]}>
-            +{XP_PER_CARD} ⭐
+          <Animated.Text style={[s.rpPip, { opacity: rpPipOpacity, transform: [{ translateY: rpPipY }] }]}>
+            +{RP_PER_CARD} ⭐
           </Animated.Text>
         </View>
         <Text style={s.statAgain}>↺ {again} to review</Text>
@@ -265,7 +265,7 @@ function makeStyles(C) {
     },
     statGot:   { fontSize: 13, color: C.correct, fontWeight: '700' },
     statAgain: { fontSize: 13, color: C.textMuted, fontWeight: '600' },
-    xpPip:     { position: 'absolute', top: -18, left: 0, fontSize: 13, fontWeight: '800', color: C.brand },
+    rpPip:     { position: 'absolute', top: -18, left: 0, fontSize: 13, fontWeight: '800', color: C.brand },
 
     // Done screen
     doneScreen: {
@@ -278,7 +278,7 @@ function makeStyles(C) {
     doneEmoji:  { fontSize: 64, marginBottom: 4 },
     doneTitle:  { fontSize: 28, fontWeight: '800', color: C.text },
     doneSub:    { fontSize: 15, color: C.textMuted, textAlign: 'center' },
-    xpRow: {
+    rpRow: {
       flexDirection: 'row',
       borderRadius: 12,
       paddingHorizontal: 16,
@@ -286,7 +286,7 @@ function makeStyles(C) {
       borderWidth: 1,
       marginTop: 4,
     },
-    xpRowText:  { fontSize: 15, fontWeight: '700' },
+    rpRowText:  { fontSize: 15, fontWeight: '700' },
     timeSub:    { fontSize: 13, marginTop: -4 },
     restartBtn: {
       width: '100%',

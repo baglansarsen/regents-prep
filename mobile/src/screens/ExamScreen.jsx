@@ -27,7 +27,7 @@ export default function ExamScreen({ route, navigation }) {
   const insets = useSafeAreaInsets()
   const { user } = useAuthContext()
   const uid = user?.uid
-  const { rp, earnXP } = useRP(uid)
+  const { rp, earnRP } = useRP(uid)
   const { markStudied } = useDailyStreak(uid)
   const { checkAndEvolve } = usePetContext()
 
@@ -69,9 +69,9 @@ export default function ExamScreen({ route, navigation }) {
       const idx = questions.indexOf(q)
       return answers[idx] === (q.correct ?? q.correctIndex)
     }).length
-    const xpEarned  = correct * 5
-    earnXP(xpEarned)
-    checkAndEvolve(rp + xpEarned)
+    const rpEarned  = correct * 5
+    earnRP(rpEarned)
+    checkAndEvolve(rp + rpEarned)
     markStudied()
 
     // Persist wrong MC answers for "Practice Mistakes" mode
@@ -83,7 +83,7 @@ export default function ExamScreen({ route, navigation }) {
 
     navigation.replace('ExamResults', {
       exam, questions, answers: { ...answers }, writtenAnswers: { ...writtenAnswers },
-      correct, total: mcQuestions.length, xpEarned,
+      correct, total: mcQuestions.length, rpEarned,
     })
   }
 

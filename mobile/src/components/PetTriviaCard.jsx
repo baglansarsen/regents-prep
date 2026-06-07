@@ -35,7 +35,7 @@ export default function PetTriviaCard() {
   const { user }        = useAuthContext()
   const { subject }     = useSubject()
   const uid             = user?.uid
-  const { earnXP }      = useRP(uid)
+  const { earnRP }      = useRP(uid)
   const { pet, triggerReaction } = usePetContext()
 
   const pool = useMemo(() => (SUBJECT_DATA[subject] ?? leData).questions ?? [], [subject])
@@ -64,7 +64,7 @@ export default function PetTriviaCard() {
     setAnswered(true)
     await AsyncStorage.setItem(`@triviaDate_v1_${uid}_${subject}`, today()).catch(() => {})
     if (ok) {
-      await earnXP(50)
+      await earnRP(50)
       triggerReaction('cheer')
     } else {
       triggerReaction('sad')

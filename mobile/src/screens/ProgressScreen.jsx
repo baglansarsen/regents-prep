@@ -45,7 +45,7 @@ export default function ProgressScreen({ navigation }) {
 
   const { history, masteryPct, isMastered } = useProgress(uid)
   const { streak, weekDays, studiedToday } = useDailyStreak(uid)
-  const { rp, xp, level, spendXP } = useRP(uid)
+  const { rp, level, spendRP } = useRP(uid)
 
   const subjectHistory = history.filter((h) => (h.subject ?? 'living-environment') === subject)
   const totalQuizzes   = subjectHistory.length
@@ -54,7 +54,7 @@ export default function ProgressScreen({ navigation }) {
     : 0
 
   const nextLevel  = LEVELS.find((l) => l.min > rp)
-  const xpProgress = nextLevel ? (rp - level.min) / (nextLevel.min - level.min) : 1
+  const rpProgress = nextLevel ? (rp - level.min) / (nextLevel.min - level.min) : 1
 
   const s = makeStyles(C)
 
@@ -80,8 +80,8 @@ export default function ProgressScreen({ navigation }) {
               </Text>
             )}
           </View>
-          <View style={s.xpBarBg}>
-            <View style={[s.xpBarFill, { width: `${xpProgress * 100}%` }]} />
+          <View style={s.rpBarBg}>
+            <View style={[s.rpBarFill, { width: `${rpProgress * 100}%` }]} />
           </View>
         </View>
 
@@ -110,7 +110,7 @@ export default function ProgressScreen({ navigation }) {
           {!studiedToday && (
             <TouchableOpacity
               style={[duoBtn(C.surface2, C.border, { marginTop: 12 })]}
-              onPress={() => spendXP(100)}
+              onPress={() => spendRP(100)}
             >
               <Text style={[T.btn, { color: C.textMuted }]}>🧊 STREAK FREEZE (100 RP)</Text>
             </TouchableOpacity>
@@ -190,8 +190,8 @@ function makeStyles(C) {
     cardHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 14 },
     levelRow:   { flexDirection: 'row', alignItems: 'center', gap: 14, marginBottom: 14 },
     levelCircle:{ width: 56, height: 56, borderRadius: 28, borderWidth: 3, alignItems: 'center', justifyContent: 'center' },
-    xpBarBg:    { height: 10, backgroundColor: C.surface2, borderRadius: 5, overflow: 'hidden' },
-    xpBarFill:  { height: 10, backgroundColor: C.brand, borderRadius: 5 },
+    rpBarBg:    { height: 10, backgroundColor: C.surface2, borderRadius: 5, overflow: 'hidden' },
+    rpBarFill:  { height: 10, backgroundColor: C.brand, borderRadius: 5 },
     weekRow:    { flexDirection: 'row', gap: 6 },
     dayDot:     { flex: 1, aspectRatio: 1, borderRadius: 999, backgroundColor: C.surface2, alignItems: 'center', justifyContent: 'center', borderWidth: 2, borderColor: C.border },
     statsRow:   { flexDirection: 'row', marginHorizontal: 16, gap: 10, marginBottom: 16 },

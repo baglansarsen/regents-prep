@@ -48,7 +48,7 @@ function Podium({ top3, uid, C, s, onPressEntry }) {
   const avatarY     = useRef([0, 1, 2].map(() => new Animated.Value(-60))).current
   const avatarOp    = useRef([0, 1, 2].map(() => new Animated.Value(0))).current
   const medalScale  = useRef([0, 1, 2].map(() => new Animated.Value(0))).current
-  const xpOp        = useRef([0, 1, 2].map(() => new Animated.Value(0))).current
+  const rpOp        = useRef([0, 1, 2].map(() => new Animated.Value(0))).current
 
   useEffect(() => {
     if (top3.length === 0) return
@@ -95,10 +95,10 @@ function Podium({ top3, uid, C, s, onPressEntry }) {
     }, 480)
 
     // ── Phase 4: RP numbers fade in (after medals pop) ──────────────────
-    const xpTimer = setTimeout(() => {
+    const rpTimer = setTimeout(() => {
       Animated.stagger(110,
         REVEAL_ORDER.map((col) =>
-          Animated.timing(xpOp[col], {
+          Animated.timing(rpOp[col], {
             toValue: 1, duration: 280, useNativeDriver: true,
           })
         )
@@ -108,7 +108,7 @@ function Podium({ top3, uid, C, s, onPressEntry }) {
     return () => {
       clearTimeout(avatarTimer)
       clearTimeout(medalTimer)
-      clearTimeout(xpTimer)
+      clearTimeout(rpTimer)
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
@@ -172,7 +172,7 @@ function Podium({ top3, uid, C, s, onPressEntry }) {
             </Animated.Text>
 
             {/* RP — fades in last */}
-            <Animated.Text style={[s.podiumXP, { color: medal.text, opacity: xpOp[col] }]}>
+            <Animated.Text style={[s.podiumRP, { color: medal.text, opacity: rpOp[col] }]}>
               ⭐ {entry.weeklyXP}
             </Animated.Text>
 
@@ -231,7 +231,7 @@ function RankRow({ entry, rank, uid, C, s, index = 0, onPress }) {
             {isSelf ? 'You' : entry.displayName}
           </Text>
         </View>
-        <Text style={s.lbXP}>⭐ {entry.weeklyXP}</Text>
+        <Text style={s.lbRP}>⭐ {entry.weeklyXP}</Text>
         <Text style={[s.lbChevron, { color: C.textDim }]}>›</Text>
       </TouchableOpacity>
     </Animated.View>
@@ -465,7 +465,7 @@ export default function FriendsScreen({ navigation }) {
                           {entry.displayName ?? 'Student'}
                         </Text>
                       </View>
-                      <Text style={s.lbXP}>⭐ {entry.xp ?? 0}</Text>
+                      <Text style={s.lbRP}>⭐ {entry.xp ?? 0}</Text>
                       <Text style={[s.lbChevron, { color: C.textDim }]}>›</Text>
                     </TouchableOpacity>
                   )
@@ -576,7 +576,7 @@ function makeStyles(C) {
     podiumMedalEmoji: { fontSize: 26, marginBottom: 2 },
     podiumAvatar:     { borderRadius: 50, overflow: 'hidden' },
     podiumName:       { fontFamily: 'Nunito_800ExtraBold', fontSize: 12, textAlign: 'center', maxWidth: 84 },
-    podiumXP:         { fontFamily: 'Nunito_700Bold', fontSize: 11, marginBottom: 4 },
+    podiumRP:         { fontFamily: 'Nunito_700Bold', fontSize: 11, marginBottom: 4 },
     podiumBar:        { width: '100%', borderTopWidth: 2, borderRadius: 6 },
 
     // Leaderboard list rows
@@ -585,7 +585,7 @@ function makeStyles(C) {
     lbRank:        { fontFamily: 'Nunito_800ExtraBold', fontSize: 15, width: 32, textAlign: 'center' },
     lbMedalEmoji:  { fontSize: 20, width: 32, textAlign: 'center' },
     lbName:        { fontFamily: 'Nunito_700Bold', fontSize: 14 },
-    lbXP:          { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#F59E0B' },
+    lbRP:          { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#F59E0B' },
     lbChevron:     { fontFamily: 'Nunito_700Bold', fontSize: 20, marginLeft: 2 },
 
     // Friends tab

@@ -3,7 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { doc, getDoc, setDoc, getDocs, collection, increment } from 'firebase/firestore'
 import { db } from '../firebase'
 import {
-  stageForXP, PET_MESSAGES, STAGE_NAMES, QUEST_TYPES,
+  stageForRP, PET_MESSAGES, STAGE_NAMES, QUEST_TYPES,
   FOOD_ITEMS, HAPPINESS_ITEMS, HUNGER_ALERTS, HAPPINESS_ALERTS,
 } from '../data/petConfig'
 
@@ -258,10 +258,10 @@ export function usePet(uid) {
   }, [])
 
   // ─── checkAndEvolve ───────────────────────────────────────────────────────
-  const checkAndEvolve = useCallback(async (totalXP) => {
+  const checkAndEvolve = useCallback(async (totalRP) => {
     const current = petRef.current
     if (!current.chosen) return
-    const expectedStage = stageForXP(totalXP)
+    const expectedStage = stageForRP(totalRP)
     if (expectedStage <= current.stage) return
 
     const updated = { ...current, stage: expectedStage }

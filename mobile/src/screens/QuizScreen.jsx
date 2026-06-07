@@ -46,7 +46,7 @@ export default function QuizScreen({ route, navigation }) {
   const { saveResult, isMastered } = useProgress(uid)
   const { rpMultiplier }           = useDoubleRP()
   const { markStudied }          = useDailyStreak(uid)
-  const { rp, earnXP, spendXP }  = useRP(uid)
+  const { rp, earnRP, spendRP }  = useRP(uid)
   const { lives, maxLives, nextRefillAt, loseLife, refillLives, addLife } = useLivesContext()
   const { ready: adReady, showAd } = useRewardedAd({ onReward: addLife })
   const { checkAndEvolve, triggerReaction, updateQuestProgress, getPetMessage, studyBoost, pet } = usePetContext()
@@ -65,7 +65,7 @@ export default function QuizScreen({ route, navigation }) {
     studyBoost?.()
   }, [triggerReaction, studyBoost])
 
-  const { startSession, endSession } = useStudyTime(uid, earnXP, handleMilestone)
+  const { startSession, endSession } = useStudyTime(uid, earnRP, handleMilestone)
 
   useEffect(() => {
     startSession('quiz')
@@ -180,8 +180,8 @@ export default function QuizScreen({ route, navigation }) {
       const mistakes   = total - correct
       const pct        = Math.round((correct / total) * 100)
       // `score` already bakes in speed + streak multipliers, so it IS the RP.
-      const xpEarned   = Math.round(score * rpMultiplier)
-      const doubleXP   = rpMultiplier > 1
+      const rpEarned   = Math.round(score * rpMultiplier)
+      const doubleRP   = rpMultiplier > 1
 
       // First-time mastery = consistency rule flips from false → true with this
       // attempt included (isMastered = 85%+ on 2 of the last 3 attempts).
@@ -208,12 +208,12 @@ export default function QuizScreen({ route, navigation }) {
       saveResult({ topic, score, total, correct, pct, subject, lessonIndex })
       markStudied()
       // Evolve against the authoritative post-award total, not the stale `xp` state
-      earnXP(xpEarned).then((newTotal) => checkAndEvolve(newTotal ?? rp + xpEarned))
+      earnRP(rpEarned).then((newTotal) => checkAndEvolve(newTotal ?? rp + rpEarned))
       if (challengeUnlocked)   { triggerReaction('cheer');        say(`⚡ Challenge passed! Next unit unlocked 🔓`) }
-      else if (pct === 100)    { triggerReaction('cheer');        say(`Perfect score! +${xpEarned} ⭐ You're incredible 🎉`) }
-      else if (pct >= 85)      { triggerReaction('happy_dance');  say(`+${xpEarned} ⭐ RP! Really solid work 🌟`) }
+      else if (pct === 100)    { triggerReaction('cheer');        say(`Perfect score! +${rpEarned} ⭐ You're incredible 🎉`) }
+      else if (pct >= 85)      { triggerReaction('happy_dance');  say(`+${rpEarned} ⭐ RP! Really solid work 🌟`) }
       else if (pct <= 30)      { triggerReaction('sympathetic');  say('Tough one. Review those and try again 💪') }
-      else                     { triggerReaction('root_for_you'); say(`+${xpEarned} ⭐ You're on a roll!`) }
+      else                     { triggerReaction('root_for_you'); say(`+${rpEarned} ⭐ You're on a roll!`) }
       // Quest progress
       updateQuestProgress('answer_correct', correct)
       updateQuestProgress('complete_quiz')
@@ -221,7 +221,7 @@ export default function QuizScreen({ route, navigation }) {
       const { seconds: sessionSecs } = endSession()
       navigation.replace('Results', {
         score, total, results, bestStreak, topic, subject,
-        xpEarned, doubleXP, firstMastery, masteredTopic: topic ?? null,
+        rpEarned, doubleRP, firstMastery, masteredTopic: topic ?? null,
         lessonIndex, challengeUnlocked, unlockedTopic: nextUnitTopic ?? null,
         nextLessonMeta: nextLessonMeta ?? null,
         sessionTime: sessionSecs,
@@ -424,7 +424,7 @@ export default function QuizScreen({ route, navigation }) {
           nextRefillAt={nextRefillAt}
           adReady={adReady}
           onWatchAd={showAd}
-          onRefill={() => refillLives(spendXP)}
+          onRefill={() => refillLives(spendRP)}
           onGoBack={() => navigation.goBack()}
         />
       )}

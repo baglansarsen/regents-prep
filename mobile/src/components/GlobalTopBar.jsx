@@ -50,7 +50,7 @@ export default function GlobalTopBar() {
 
   const { subject, setSubject }                          = useSubject()
   const { streak, hasFreeze, buyFreeze }                 = useDailyStreak(uid)
-  const { rp, xp, spendXP }                                  = useRP(uid)
+  const { rp, spendRP }                                  = useRP(uid)
   const { lives, maxLives, nextRefillAt, refillLives, addLife, isSubscribed } = useLivesContext()
   const secsUntilRefill = useCountdown(lives < maxLives ? nextRefillAt : null)
   const { isActive: boostActive, timeLeft: boostTimeLeft }     = useDoubleRP()
@@ -71,14 +71,14 @@ export default function GlobalTopBar() {
     Alert.alert(
       `🔥 ${streak}-Day Streak`,
       canAfford
-        ? `Keep it going!\n\nBuy a 🧊 Streak Freeze for 200 RP to protect your streak if you miss a day. You have ${xp} RP.`
-        : `Keep it going!\n\nYou need 200 RP to buy a Streak Freeze. You have ${xp} RP — earn more by completing quizzes!`,
+        ? `Keep it going!\n\nBuy a 🧊 Streak Freeze for 200 RP to protect your streak if you miss a day. You have ${rp} RP.`
+        : `Keep it going!\n\nYou need 200 RP to buy a Streak Freeze. You have ${rp} RP — earn more by completing lessons!`,
       canAfford
         ? [
             {
               text: '🧊 Buy Freeze (200 RP)',
               onPress: async () => {
-                const result = await buyFreeze(spendXP)
+                const result = await buyFreeze(spendRP)
                 if (result === 'success') {
                   Alert.alert('🧊 Freeze Activated!', 'Your streak is protected for one missed day.')
                 } else if (result === 'already_have') {
@@ -99,7 +99,7 @@ export default function GlobalTopBar() {
     if (lives >= maxLives) return
 
     const buttons = [
-      { text: 'Refill All (300 RP)', style: 'default', onPress: () => refillLives(spendXP) },
+      { text: 'Refill All (300 RP)', style: 'default', onPress: () => refillLives(spendRP) },
       ...(adReady
         ? [{ text: '▶ Watch Ad (+1 ❤️)', onPress: showAd }]
         : []),
@@ -165,13 +165,13 @@ export default function GlobalTopBar() {
         {/* ⭐ RP */}
         <View
           style={s.stat}
-          accessibilityLabel={`${xp} experience points earned`}
+          accessibilityLabel={`${rp} Regents Points earned`}
           accessibilityRole="text"
           accessibilityHint={boostActive ? `Double RP boost is active with ${Math.floor(boostTimeLeft / 60)} minutes left.` : ""}
         >
-          <View style={s.xpRow}>
+          <View style={s.rpRow}>
             <Text style={s.statText}>
-              ⭐ {xp >= 1000 ? `${(xp / 1000).toFixed(1)}k` : rp} 
+              ⭐ {rp >= 1000 ? `${(rp / 1000).toFixed(1)}k` : rp} 
             </Text>
             {boostActive && (
               <View style={s.boostBadge}>
@@ -298,7 +298,7 @@ function makeStyles(topInset, subjectColor) {
     },
     freezeText:  { fontSize: 11 },
 
-    xpRow:      { flexDirection: 'row', alignItems: 'center', gap: 5 },
+    rpRow:      { flexDirection: 'row', alignItems: 'center', gap: 5 },
     boostBadge: {
       backgroundColor:   'rgba(245,158,11,0.25)',
       borderRadius:       8,

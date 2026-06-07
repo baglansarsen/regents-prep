@@ -16,7 +16,7 @@ export default function StreakCelebrationHost() {
   const { user } = useAuthContext()
   const uid = user?.uid
   const { pendingEvent, clearEvent, weekDays, streak, hasFreeze, buyFreeze, repairStreak } = useStreak()
-  const { rp, spendXP } = useRP(uid)
+  const { rp, spendRP } = useRP(uid)
   const { triggerReaction } = usePetContext()
   const lastType = useRef(null)
 
@@ -39,8 +39,8 @@ export default function StreakCelebrationHost() {
       streak={streak}
       rp={rp}
       hasFreeze={hasFreeze}
-      onBuyFreeze={() => buyFreeze(spendXP)}
-      onRepair={() => repairStreak(spendXP)}
+      onBuyFreeze={() => buyFreeze(spendRP)}
+      onRepair={() => repairStreak(spendRP)}
     />
   )
 }

@@ -59,7 +59,7 @@ function topicIndicator(pct) {
 }
 
 export default function ExamResultsScreen({ route, navigation }) {
-  const { exam, questions, answers, writtenAnswers = {}, correct, total, xpEarned } = route.params
+  const { exam, questions, answers, writtenAnswers = {}, correct, total, rpEarned } = route.params
   const { C } = useTheme()
   const s = makeStyles(C)
   const [showReview,    setShowReview]    = useState(false)
@@ -77,20 +77,20 @@ export default function ExamResultsScreen({ route, navigation }) {
   const totalMaxPts       = mcMaxPts + writtenMaxPts
 
   const [displayScore, setDisplayScore] = useState(0)
-  const [displayRP,    setDisplayXP]    = useState(0)
+  const [displayRP,    setDisplayRP]    = useState(0)
   const scoreAnim = useRef(new Animated.Value(0)).current
-  const xpAnim    = useRef(new Animated.Value(0)).current
+  const rpAnim    = useRef(new Animated.Value(0)).current
 
   useEffect(() => { saveExamScore(exam.id, scaled) }, [])
 
   useEffect(() => {
     const scoreId = scoreAnim.addListener(({ value }) => setDisplayScore(Math.round(value)))
-    const xpId    = xpAnim.addListener(({ value }) => setDisplayXP(Math.round(value)))
+    const rpId    = rpAnim.addListener(({ value }) => setDisplayRP(Math.round(value)))
     Animated.parallel([
       Animated.timing(scoreAnim, { toValue: scaled,   duration: 1000, useNativeDriver: false }),
-      Animated.timing(xpAnim,    { toValue: xpEarned, duration: 900,  useNativeDriver: false }),
+      Animated.timing(rpAnim,    { toValue: rpEarned, duration: 900,  useNativeDriver: false }),
     ]).start()
-    return () => { scoreAnim.removeListener(scoreId); xpAnim.removeListener(xpId) }
+    return () => { scoreAnim.removeListener(scoreId); rpAnim.removeListener(rpId) }
   }, [])
 
   // ── Topic breakdown ───────────────────────────────────────────────────────
@@ -138,7 +138,7 @@ export default function ExamResultsScreen({ route, navigation }) {
           {passed ? '🎉 Passed!' : '📚 Not yet — keep studying'}
         </Text>
 
-        {xpEarned > 0 && (
+        {rpEarned > 0 && (
           <View style={s.xpBanner}>
             <Text style={[T.body, { color: C.warn }]}>⭐ +{displayRP} RP earned</Text>
           </View>

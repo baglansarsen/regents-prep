@@ -139,9 +139,9 @@ export function StreakProvider({ children }) {
   const clearEvent = useCallback(() => setPendingEvent(null), [])
 
   // ── Buy a streak freeze (costs 200 XP) ──────────────────────────────────────
-  const buyFreeze = useCallback(async (spendXP) => {
+  const buyFreeze = useCallback(async (spendRP) => {
     if (hasFreeze) return 'already_have'
-    const ok = await spendXP(200)
+    const ok = await spendRP(200)
     if (!ok) return 'insufficient_xp'
     setHasFreeze(true)
     await AsyncStorage.setItem(FREEZE_KEY, 'true').catch(() => {})
@@ -150,10 +150,10 @@ export function StreakProvider({ children }) {
   }, [hasFreeze, uid])
 
   // ── Repair a just-lost streak — restore it to its previous length for XP ────
-  const repairStreak = useCallback(async (spendXP, cost = 500) => {
+  const repairStreak = useCallback(async (spendRP, cost = 500) => {
     const lost = pendingEvent?.lost ?? 0
     if (lost <= 0) return 'nothing_to_repair'
-    const ok = await spendXP(cost)
+    const ok = await spendRP(cost)
     if (!ok) return 'insufficient_xp'
     const yesterday = yesterdayStr()
     const updated = [...new Set([...(dataRef.current?.studiedDates ?? []), yesterday])].slice(-60)

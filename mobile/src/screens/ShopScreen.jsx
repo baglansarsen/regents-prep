@@ -24,7 +24,7 @@ export default function ShopScreen({ navigation }) {
   const { user } = useAuthContext()
   const uid = user?.uid
 
-  const { rp, spendXP }                                = useRP(uid)
+  const { rp, spendRP }                                = useRP(uid)
   const { hasFreeze, buyFreeze }                        = useDailyStreak(uid)
   const { lives, maxLives, refillLives }                = useLivesContext()
   const { isActive, timeLeft, activateBoost, COST_RP }  = useDoubleRP()
@@ -36,27 +36,27 @@ export default function ShopScreen({ navigation }) {
 
   async function handleBuyFreeze() {
     if (hasFreeze) return
-    const result = await buyFreeze(spendXP)
+    const result = await buyFreeze(spendRP)
     if (result === 'success')
       Alert.alert('🧊 Freeze Activated!', 'Your streak is protected for one missed day.')
     else if (result === 'insufficient_xp')
-      Alert.alert('Not enough RP', `You need 200 RP. You have ${xp} RP.`)
+      Alert.alert('Not enough RP', `You need 200 RP. You have ${rp} RP.`)
   }
 
   async function handleRefillLives() {
     if (lives >= maxLives) return
-    const ok = await refillLives(spendXP)
+    const ok = await refillLives(spendRP)
     if (ok) Alert.alert('❤️ Lives Refilled!', 'All 5 lives restored.')
-    else    Alert.alert('Not enough RP', `You need 300 RP. You have ${xp} RP.`)
+    else    Alert.alert('Not enough RP', `You need 300 RP. You have ${rp} RP.`)
   }
 
   async function handleBuyBoost() {
     if (isActive) return
-    const result = await activateBoost(spendXP)
+    const result = await activateBoost(spendRP)
     if (result === 'success')
       Alert.alert('⚡ Boost Active!', 'All RP earned in the next 10 minutes is doubled!')
     else if (result === 'insufficient_xp')
-      Alert.alert('Not enough RP', `You need ${COST_RP} RP. You have ${xp} RP.`)
+      Alert.alert('Not enough RP', `You need ${COST_RP} RP. You have ${rp} RP.`)
     else if (result === 'already_active')
       Alert.alert('Boost already running!', `${formatTime(timeLeft)} remaining.`)
   }
@@ -115,8 +115,8 @@ export default function ShopScreen({ navigation }) {
             <Text style={[T.body, { color: C.text }]}>← Back</Text>
           </TouchableOpacity>
           <Text style={[T.h2, { color: C.text }]}>🛒 RP Shop</Text>
-          <View style={s.xpChip}>
-            <Text style={[T.h3, { color: C.warn }]}>⭐ {xp.toLocaleString()}</Text>
+          <View style={s.rpChip}>
+            <Text style={[T.h3, { color: C.warn }]}>⭐ {rp.toLocaleString()}</Text>
           </View>
         </View>
 
@@ -196,7 +196,7 @@ function makeStyles(C) {
       paddingVertical:  14,
     },
     backBtn: { paddingVertical: 6, paddingRight: 12 },
-    xpChip:  {
+    rpChip:  {
       backgroundColor: C.surface2,
       borderRadius:    20,
       paddingHorizontal: 12,

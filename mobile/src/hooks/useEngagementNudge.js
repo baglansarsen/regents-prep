@@ -9,7 +9,7 @@ export function getEngagementNudge(context, data) {
   return null
 }
 
-function getHomeNudge({ streak, studiedToday, hasFreeze, weekDays, todayXP, goal, goalMet }) {
+function getHomeNudge({ streak, studiedToday, hasFreeze, weekDays, todayRP, goal, goalMet }) {
   // Skip if freeze banner would show
   if (streak >= 3 && !studiedToday && !hasFreeze) {
     return null
@@ -30,13 +30,13 @@ function getHomeNudge({ streak, studiedToday, hasFreeze, weekDays, todayXP, goal
   }
 
   if (studiedToday && goalMet) {
-    return { message: `Daily goal crushed — ${todayXP} RP today!`, emoji: '🎯', type: 'success' }
+    return { message: `Daily goal crushed — ${todayRP} RP today!`, emoji: '🎯', type: 'success' }
   }
 
   if (studiedToday && !goalMet) {
-    const remaining = Math.max(0, goal - todayXP)
+    const remaining = Math.max(0, goal - todayRP)
     return {
-      message: `${todayXP} RP so far — ${remaining} more to hit your goal!`,
+      message: `${todayRP} RP so far — ${remaining} more to hit your goal!`,
       emoji: '⚡',
       type: 'info',
     }
@@ -45,7 +45,7 @@ function getHomeNudge({ streak, studiedToday, hasFreeze, weekDays, todayXP, goal
   return null
 }
 
-function getResultsNudge({ pct, xpEarned, rp, level }) {
+function getResultsNudge({ pct, rpEarned, rp, level }) {
   // Check if close to next level
   if (level.next && level.next.min - rp <= 100 && level.next.min - rp > 0) {
     const gap = level.next.min - rp
@@ -58,7 +58,7 @@ function getResultsNudge({ pct, xpEarned, rp, level }) {
 
   if (pct >= 85) {
     return {
-      message: `Top score! ${xpEarned} RP earned. 🔥`,
+      message: `Top score! ${rpEarned} RP earned. 🔥`,
       emoji: '🌟',
       type: 'success',
     }
@@ -66,7 +66,7 @@ function getResultsNudge({ pct, xpEarned, rp, level }) {
 
   if (pct >= 65) {
     return {
-      message: `Nice work! ${xpEarned} RP added.`,
+      message: `Nice work! ${rpEarned} RP added.`,
       emoji: '✅',
       type: 'success',
     }
@@ -79,7 +79,7 @@ function getResultsNudge({ pct, xpEarned, rp, level }) {
   }
 }
 
-function getProfileNudge({ streak, longestStreak, weeklyXP }) {
+function getProfileNudge({ streak, longestStreak, weeklyRP }) {
   if (streak >= longestStreak && streak > 0) {
     return {
       message: `Personal best: ${streak}-day streak!`,
@@ -88,9 +88,9 @@ function getProfileNudge({ streak, longestStreak, weeklyXP }) {
     }
   }
 
-  if (weeklyXP >= 200) {
+  if (weeklyRP >= 200) {
     return {
-      message: `${weeklyXP} XP this week — great momentum!`,
+      message: `${weeklyRP} RP this week — great momentum!`,
       emoji: '📈',
       type: 'success',
     }
@@ -98,8 +98,9 @@ function getProfileNudge({ streak, longestStreak, weeklyXP }) {
 
   const streakText = streak > 0 ? `${streak}-day streak` : 'No streak yet'
   return {
-    message: `${streakText} · ${weeklyXP} XP this week`,
+    message: `${streakText} · ${weeklyRP} RP this week`,
     emoji: '📊',
     type: 'info',
   }
 }
+

@@ -114,7 +114,7 @@ export default function FocusScreen({ navigation }) {
   const { C } = useTheme()
   const { user } = useAuthContext()
   const uid = user?.uid
-  const { earnXP } = useRP(uid)
+  const { earnRP } = useRP(uid)
   const { triggerReaction, studyBoost, say, pet } = usePetContext()
   const { width: screenWidth } = useWindowDimensions()
 
@@ -132,7 +132,7 @@ export default function FocusScreen({ navigation }) {
     setTimeout(() => setBuddyMessage(null), 3500)
   }, [triggerReaction, studyBoost])
 
-  const session = useFocusSession(uid, earnXP, handlePomodoroComplete)
+  const session = useFocusSession(uid, earnRP, handlePomodoroComplete)
   const { phase, secondsLeft, progress, pomodoroCount, sessionRP, partialMinutes, cyclePosition,
           preset, setPreset, subject, setSubject, sound, setSound, sessionGoal, setSessionGoal,
           todos, addTodo, toggleTodo,

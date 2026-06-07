@@ -334,7 +334,7 @@ export default function HomeScreen({ navigation }) {
       '🚫 Out of Lives!',
       `Next life in ${min > 0 ? `${min}m` : 'a moment'}, or refill all 5 for 300 ⭐ RP.`,
       [
-        { text: 'Refill (300 RP)', onPress: () => refillLives(spendXP).then((ok) => ok && onProceed()) },
+        { text: 'Refill (300 RP)', onPress: () => refillLives(spendRP).then((ok) => ok && onProceed()) },
         { text: 'Not now', style: 'cancel' },
       ],
     )
@@ -596,7 +596,7 @@ export default function HomeScreen({ navigation }) {
             <View style={s.freezeBannerBtns}>
               <TouchableOpacity
                 style={[s.freezeBtn, { backgroundColor: C.brand }]}
-                onPress={() => buyFreeze(spendXP).then((res) => {
+                onPress={() => buyFreeze(spendRP).then((res) => {
                   if (res === 'success') { setShowFreezeBanner(false); Alert.alert('🧊 Streak Freeze active!', 'Your streak is protected if you miss today.') }
                   else if (res === 'insufficient_xp') Alert.alert('Not enough RP', 'You need 200 RP to buy a Streak Freeze.')
                 })}

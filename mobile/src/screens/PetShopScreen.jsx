@@ -18,7 +18,7 @@ export default function PetShopScreen({ navigation }) {
   const { C }              = useTheme()
   const { user }           = useAuthContext()
   const { pet, inventory, feedPet, playWithPet, addInventory, toggleCosmetic, renamePet, switchBuddy } = usePetContext()
-  const { rp, spendXP }   = useRP(user?.uid)
+  const { rp, spendRP }   = useRP(user?.uid)
   const { say }           = useSpeechContext()
 
   const insets = useSafeAreaInsets()
@@ -29,9 +29,9 @@ export default function PetShopScreen({ navigation }) {
   const s = makeStyles(C)
 
   async function handleBuyItem(item) {
-    const ok = await spendXP(item.cost)
+    const ok = await spendRP(item.cost)
     if (!ok) {
-      Alert.alert('Not enough RP!', `You need ${item.cost} ⭐ RP. You have ${xp}.`)
+      Alert.alert('Not enough RP!', `You need ${item.cost} ⭐ RP. You have ${rp}.`)
       return
     }
     await addInventory(item.id, 1)
@@ -44,9 +44,9 @@ export default function PetShopScreen({ navigation }) {
       await toggleCosmetic(item.id)
       return
     }
-    const ok = await spendXP(item.cost)
+    const ok = await spendRP(item.cost)
     if (!ok) {
-      Alert.alert('Not enough RP!', `You need ${item.cost} ⭐ RP. You have ${xp}.`)
+      Alert.alert('Not enough RP!', `You need ${item.cost} ⭐ RP. You have ${rp}.`)
       return
     }
     await addInventory(item.id, 1)
@@ -58,8 +58,8 @@ export default function PetShopScreen({ navigation }) {
     const trimmed = nameInput.trim()
     if (!trimmed) return
     if (trimmed === pet.name) { Alert.alert('Same name!', 'Choose a different name.'); return }
-    const ok = await spendXP(150)
-    if (!ok) { Alert.alert('Not enough RP!', `Renaming costs 150 ⭐ RP. You have ${xp}.`); return }
+    const ok = await spendRP(150)
+    if (!ok) { Alert.alert('Not enough RP!', `Renaming costs 150 ⭐ RP. You have ${rp}.`); return }
     await renamePet(trimmed)
     Alert.alert('Renamed! 🏷️', `Your pet is now called ${trimmed}!`)
   }
