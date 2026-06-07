@@ -229,18 +229,18 @@ export default function PetShopScreen({ navigation }) {
               </TouchableOpacity>
             ) : (
               <TouchableOpacity
-                style={duoBtn(xp >= item.cost ? item.accent : C.surface3, rp >= item.cost ? item.dark : C.border, { paddingVertical: 10, paddingHorizontal: 12, opacity: rp >= item.cost ? 1 : 0.5 })}
+                style={duoBtn(rp >= item.cost ? item.accent : C.surface3, rp >= item.cost ? item.dark : C.border, { paddingVertical: 10, paddingHorizontal: 12, opacity: rp >= item.cost ? 1 : 0.5 })}
                 onPress={() => handleBuyCosmetic(item)}
-                disabled={xp < item.cost}
+                disabled={rp < item.cost}
               >
                 <Text style={[T.btn, { color: '#fff', fontSize: 11 }]}>⭐ {item.cost}</Text>
               </TouchableOpacity>
             )
           ) : (
             <TouchableOpacity
-              style={duoBtn(xp >= item.cost ? item.accent : C.surface3, rp >= item.cost ? item.dark : C.border, { paddingVertical: 10, paddingHorizontal: 12, opacity: rp >= item.cost ? 1 : 0.5 })}
+              style={duoBtn(rp >= item.cost ? item.accent : C.surface3, rp >= item.cost ? item.dark : C.border, { paddingVertical: 10, paddingHorizontal: 12, opacity: rp >= item.cost ? 1 : 0.5 })}
               onPress={() => handleBuyItem(item)}
-              disabled={xp < item.cost}
+              disabled={rp < item.cost}
             >
               <Text style={[T.btn, { color: '#fff', fontSize: 11 }]}>⭐ {item.cost}</Text>
             </TouchableOpacity>
@@ -263,7 +263,7 @@ export default function PetShopScreen({ navigation }) {
           </TouchableOpacity>
           <Text style={[T.h2, { color: C.text }]}>🐾 Pet Shop</Text>
           <View style={[s.coinChip, { backgroundColor: C.surface2, borderColor: C.border }]}>
-            <Text style={[T.h3, { color: '#F59E0B' }]}>⭐ {xp.toLocaleString()}</Text>
+            <Text style={[T.h3, { color: '#F59E0B' }]}>⭐ {rp.toLocaleString()}</Text>
           </View>
         </View>
 

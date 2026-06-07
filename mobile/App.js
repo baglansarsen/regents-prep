@@ -64,15 +64,34 @@ function Inner() {
   )
 }
 
+const ADS_AVAILABLE = !!TurboModuleRegistry?.get?.('RNGoogleMobileAdsModule')
+
+let _ads = null
+function getAds() {
+  if (!ADS_AVAILABLE) return {}
+  if (_ads) return _ads
+  try { _ads = require('react-native-google-mobile-ads') } catch { _ads = {} }
+  return _ads
+}
+
 export default function App() {
   useEffect(() => {
-    // DISABLED: AdMob native module initialization causing crash on startup.
-    // The issue persists even with error guards. Disabling to get app functional,
-    // then will rebuild with proper native module configuration or alternative approach.
-    // TODO: Fix AdMob integration - consider:
-    // 1. Rebuild EAS with explicit AdMob native module inclusion
-    // 2. Use a different ad network that's Expo-compatible
-    // 3. Defer AdMob init until after app is fully loaded
+    if (!ADS_AVAILABLE) return
+    try {
+      const { default: mobileAds } = getAds()
+      if (typeof mobileAds === 'function') {
+        mobileAds()
+          .initialize()
+          .then(adapterStatuses => {
+            console.log('[AdMob] SDK Initialized', adapterStatuses)
+          })
+          .catch(err => {
+            console.warn('[AdMob] SDK Initialization Error', err)
+          })
+      }
+    } catch (err) {
+      console.warn('[AdMob] Failed to load/initialize AdMob', err)
+    }
   }, [])
 
   return (
