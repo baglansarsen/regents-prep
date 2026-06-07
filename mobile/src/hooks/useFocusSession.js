@@ -332,7 +332,6 @@ export function useFocusSession(uid, earnRP, onPomodoroComplete) {
     }
 
     // Log focus session activity
-    const totalMinutes = pomodoroRef.current * presetRef.current.study + partial
     logActivity(uid, 'focus_session_complete', `Completed focus session: ${subject || 'Study'} (${pomodoroRef.current} pomodoros)`, {
       subject: subject || 'Study',
       pomodorosCompleted: pomodoroRef.current,
