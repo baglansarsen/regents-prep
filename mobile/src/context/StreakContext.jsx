@@ -74,6 +74,25 @@ export function StreakProvider({ children }) {
       return
     }
     let cancelled = false
+
+    // ── Optimistic paint from AsyncStorage (instant, ~5ms) ────────────────────
+    // Show the locally-cached streak immediately so the home screen isn't blank
+    // while Firestore responds. The Promise.all below overwrites this if needed.
+    AsyncStorage.getItem(AS_KEY).then((raw) => {
+      if (cancelled || !raw) return
+      try {
+        const cached = JSON.parse(raw)
+        const r = computeStreak(cached, false) // freeze unknown yet — conservative
+        if (!dataRef.current) {
+          setStreak(r.streak)
+          setStudiedToday(r.studiedToday)
+          setStudiedDates(cached.studiedDates ?? [])
+          setLongestStreak(cached.longestStreak ?? r.streak)
+          dataRef.current = cached
+        }
+      } catch {}
+    }).catch(() => {})
+
     Promise.all([loadStreak(uid), AsyncStorage.getItem(FREEZE_KEY)]).then(([data, freezeRaw]) => {
       if (cancelled) return
       const freezeActive = freezeRaw === 'true'

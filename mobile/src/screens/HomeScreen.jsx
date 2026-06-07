@@ -203,6 +203,17 @@ export default function HomeScreen({ navigation }) {
     }
   }, [uid, streak, studiedToday, hasFreeze]))
 
+  // ── Re-run uid-dependent init when auth resolves after mount ────────────────
+  // useFocusEffect fires once on mount (uid may still be null). This effect
+  // covers the gap so quest data, history, and unlocks load without requiring
+  // the user to switch tabs and back.
+  useEffect(() => {
+    if (!uid) return
+    reloadHistory()
+    reloadSkipUnlocks()
+    getTodayQuest().then(setQuestData).catch(() => {})
+  }, [uid])
+
   // ── Placement test — triggered before the user's first lesson ────────────
   const [placementDone,   setPlacementDone]   = useState(null)   // null = loading
   const [showPlacement,   setShowPlacement]   = useState(false)
@@ -664,7 +675,7 @@ export default function HomeScreen({ navigation }) {
                 if (!msg) return null
                 return (
                   <View style={[s.petMsgBubble, { backgroundColor: C.surface, borderColor: C.border }, glassStyle]}>
-                    <Text style={[T.small, { color: C.text, lineHeight: 18 }]}>
+                    <Text style={[T.body, { color: C.text }]}>
                       {msg}
                     </Text>
                     {/* Speech bubble pointer arrow */}

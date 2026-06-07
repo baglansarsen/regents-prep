@@ -290,7 +290,17 @@ export function usePet(uid) {
     const pool = PET_MESSAGES[current.petType] ?? []
     if (!pool.length) return null
     const dayIndex = Math.floor(Date.now() / 86_400_000)  // changes daily
-    const msg = pool[dayIndex % pool.length]
+
+    // When daysSince === 0 (user studied today), skip "haven't studied" templates
+    // so the message stays contextually relevant.
+    let msg = pool[dayIndex % pool.length]
+    if (daysSince === 0 && msg.includes('{daysSince}')) {
+      const fallbackIdx = (dayIndex + 1) % pool.length
+      msg = pool[fallbackIdx].includes('{daysSince}')
+        ? pool[(dayIndex + 2) % pool.length]
+        : pool[fallbackIdx]
+    }
+
     return msg
       .replace(/\{name\}/g,      current.name ?? 'friend')
       .replace(/\{streak\}/g,    String(streak))

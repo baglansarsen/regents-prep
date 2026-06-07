@@ -97,6 +97,15 @@ export function useRP(uid) {
       return
     }
     ;(async () => {
+      // ── Optimistic paint from AsyncStorage (instant, ~5ms) ──────────────────
+      // Show cached value immediately so the home screen isn't blank while
+      // Firestore responds. Firestore result overwrites this below.
+      try {
+        const raw = await AsyncStorage.getItem(AS_KEY)
+        const cached = Number(raw) || 0
+        if (isMounted && !globalLoaded) updateGlobalRP(cached, globalWeeklyRP, false)
+      } catch {}
+
       try {
         // Migrate old AsyncStorage key to new key
         const legacyRaw = await AsyncStorage.getItem(OLD_KEY)
@@ -122,15 +131,7 @@ export function useRP(uid) {
 
         if (isMounted) updateGlobalRP(loadedRP, loadedWeeklyRP, true)
       } catch {
-        if (isMounted) {
-          try {
-            const raw = await AsyncStorage.getItem(AS_KEY)
-            const val = Number(raw) || 0
-            updateGlobalRP(val, globalWeeklyRP, true)
-          } catch {
-            updateGlobalRP(globalRP, globalWeeklyRP, true)
-          }
-        }
+        if (isMounted) updateGlobalRP(globalRP, globalWeeklyRP, true)
       }
     })()
 

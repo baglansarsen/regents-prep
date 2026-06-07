@@ -61,7 +61,20 @@ export function useLives(uid, isSubscribed = false) {
   // ─── Load on mount ────────────────────────────────────────────────────────
   useEffect(() => {
     async function load() {
-      // Try Firestore first
+      // ── Optimistic paint from AsyncStorage first (~5ms) ─────────────────────
+      try {
+        const [lvPair, raPair] = await AsyncStorage.multiGet([KEY_LIVES, KEY_REFILL_AT])
+        if (lvPair[1]) {
+          const storedLives = parseInt(lvPair[1])
+          const { lives: lv, nextRefillAt: ra } = catchUpRefills(storedLives, raPair[1] ?? null)
+          livesRef.current = lv
+          setLives(lv)
+          setNextRefillAt(ra)
+          refillRef.current = ra
+        }
+      } catch (_) {}
+
+      // ── Confirm / update from Firestore ─────────────────────────────────────
       if (uid) {
         try {
           const snap = await getDoc(doc(db, 'users', uid))
@@ -73,23 +86,11 @@ export function useLives(uid, isSubscribed = false) {
               setLives(lv)
               setNextRefillAt(ra)
               refillRef.current = ra
-              if (lv !== d.lives) await save(uid, lv, ra)   // persist offline accrual
-              return
+              if (lv !== d.lives) await save(uid, lv, ra)
             }
           }
         } catch (_) {}
       }
-      // Fallback: AsyncStorage
-      try {
-        const [lvPair, raPair] = await AsyncStorage.multiGet([KEY_LIVES, KEY_REFILL_AT])
-        const storedLives = lvPair[1] ? parseInt(lvPair[1]) : MAX_LIVES
-        const { lives: lv, nextRefillAt: ra } = catchUpRefills(storedLives, raPair[1] ?? null)
-        livesRef.current = lv
-        setLives(lv)
-        setNextRefillAt(ra)
-        refillRef.current = ra
-        if (lv !== storedLives) await save(uid_ref.current, lv, ra)
-      } catch (_) {}
     }
     load()
   }, [uid])
