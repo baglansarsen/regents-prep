@@ -48,7 +48,8 @@ export function useRewardedAd({ onReward } = {}) {
     const unsubLoaded = ad.addAdEventListener(RewardedAdEventType.LOADED, () => { setReady(true); setLoading(false) })
     const unsubEarned = ad.addAdEventListener(RewardedAdEventType.EARNED_REWARD, () => { onRewardRef.current?.() })
     const unsubClosed = ad.addAdEventListener(AdEventType.CLOSED, () => { setReady(false); setLoading(true); ad.load() })
-    const unsubError  = ad.addAdEventListener(AdEventType.ERROR,  () => {
+    const unsubError  = ad.addAdEventListener(AdEventType.ERROR,  (err) => {
+      console.warn('[AdMob Error]', err)
       setReady(false); setLoading(false)
       setTimeout(() => { setLoading(true); ad.load() }, 30_000)
     })
