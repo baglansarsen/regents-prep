@@ -39,7 +39,7 @@ const LESSON_SIZE = 20
 
 function getExamPool(topic) {
   return ES_EXAMS.flatMap((exam) =>
-    (exam.questions ?? []).filter((q) => ES_TOPIC_MAP[q.topic] === topic)
+    (exam.questions ?? []).filter((q) => ES_TOPIC_MAP[q.topic] === topic && Array.isArray(q.choices) && q.choices.length > 0)
   )
 }
 

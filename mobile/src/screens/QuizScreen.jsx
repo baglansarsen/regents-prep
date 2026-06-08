@@ -79,7 +79,7 @@ export default function QuizScreen({ route, navigation }) {
 
   const {
     currentQuestion, index, total, score, streak, bestStreak,
-    timeLeft, timerMax, selected, lastEarned, phase, results,
+    selected, lastEarned, phase, results,
     answer, next: nextQuestion,
   } = useQuiz(questionSet)
 
@@ -149,7 +149,7 @@ export default function QuizScreen({ route, navigation }) {
   useEffect(() => {
     if (phase === 'feedback' && selected !== null) {
       const correctIdx = currentQuestion?.correct ?? currentQuestion?.correctIndex
-      const wasCorrect = selected !== 'timeout' && selected === correctIdx
+      const wasCorrect = selected === correctIdx
       if (wasCorrect) {
         hapticSuccess()
         playCorrect()
@@ -239,7 +239,7 @@ export default function QuizScreen({ route, navigation }) {
   if (!currentQuestion) return null
 
   const correctIdx  = currentQuestion.correct ?? currentQuestion.correctIndex
-  const isCorrect   = selected !== null && selected !== 'timeout' && selected === correctIdx
+  const isCorrect   = selected !== null && selected === correctIdx
   const correctText = currentQuestion.choices?.[correctIdx] ?? ''
   const combo       = isCorrect ? comboInfo(streak) : null
   const s           = makeStyles(C, insets)
@@ -308,15 +308,6 @@ export default function QuizScreen({ route, navigation }) {
           </View>
         </View>
 
-        {/* Timer bar */}
-        <View style={s.timerBg}>
-          <View style={[
-            s.timerFill,
-            { width: `${(timeLeft / timerMax) * 100}%`,
-              backgroundColor: timeLeft > 10 ? C.brand : timeLeft > 5 ? C.warn : C.wrong },
-          ]} />
-        </View>
-
         <ScrollView contentContainerStyle={s.scroll} showsVerticalScrollIndicator={false}>
           <Animated.View style={[s.questionCard, cardShadow(C.shadow), { transform: [{ scale: pulseAnim }] }]}>
             {currentQuestion.context ? (
@@ -352,7 +343,7 @@ export default function QuizScreen({ route, navigation }) {
       </SafeAreaView>
 
       {/* ── Slide-up feedback panel ── */}
-      {(phase === 'feedback' || (phase === 'answering' && selected === 'timeout')) && (
+      {phase === 'feedback' && (
         <Animated.View
           style={[
             s.feedbackPanel,
@@ -588,8 +579,6 @@ function makeStyles(C, insets) {
     scoreChip:     { flexDirection: 'row', alignItems: 'center', backgroundColor: C.surface2, borderRadius: 20, paddingHorizontal: 10, paddingVertical: 5 },
     heartsRow:     { flexDirection: 'row', justifyContent: 'flex-start', gap: 3, marginTop: 6 },
     heart:         { fontSize: 13 },
-    timerBg:       { height: 4, backgroundColor: C.surface2, marginHorizontal: 16, borderRadius: 2, marginTop: 14, marginBottom: 16 },
-    timerFill:     { height: 6, borderRadius: 3 },
     scroll:        { paddingHorizontal: 16, paddingTop: 12, paddingBottom: 16 },
     questionCard:  { backgroundColor: C.surface, borderRadius: 20, padding: 18, marginBottom: 20, borderWidth: 1, borderColor: C.border, borderTopWidth: 3, borderTopColor: C.brand, shadowColor: C.shadow, shadowOffset: { width: 0, height: 3 }, shadowOpacity: 1, shadowRadius: 10, elevation: 5 },
     questionImage: { width: '100%', height: 200, borderRadius: 10, marginBottom: 12, backgroundColor: C.surface2 },

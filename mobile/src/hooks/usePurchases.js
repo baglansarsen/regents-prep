@@ -12,6 +12,12 @@ if (Platform.OS !== 'web') {
 const RC_API_KEY_IOS     = 'appl_REPLACE_WITH_YOUR_REVENUECAT_IOS_KEY'
 const RC_API_KEY_ANDROID = 'goog_REPLACE_WITH_YOUR_REVENUECAT_ANDROID_KEY'
 
+// Guard: skip configure() if key is still a placeholder.
+// With New Architecture (TurboModules), RevenueCat throws a native NSException
+// for an invalid key — this crashes the C++ JSI bridge (SIGABRT on turbomodulemanager
+// queue) before JS try/catch can fire. Remove this check once real keys are set.
+const RC_CONFIGURED = !RC_API_KEY_IOS.includes('REPLACE_WITH')
+
 export const PRODUCT_IDS = {
   MONTHLY : 'unlimited_hearts_monthly',
   YEARLY  : 'unlimited_hearts_yearly',
@@ -31,7 +37,7 @@ export function usePurchases(uid) {
 
   // All hooks must be called unconditionally — gate behavior inside them
   useEffect(() => {
-    if (isWeb || !Purchases) return
+    if (isWeb || !Purchases || !RC_CONFIGURED) return
     async function init() {
       try {
         const key = Platform.OS === 'ios' ? RC_API_KEY_IOS : RC_API_KEY_ANDROID
@@ -47,7 +53,7 @@ export function usePurchases(uid) {
   }, [uid])
 
   const purchaseMonthly = useCallback(async () => {
-    if (isWeb || !Purchases) {
+    if (isWeb || !Purchases || !RC_CONFIGURED) {
       if (!isWeb) Alert.alert('Requires Native Build', 'Run with expo run:ios or expo run:android to use purchases.')
       return false
     }
@@ -72,7 +78,7 @@ export function usePurchases(uid) {
   }, [])
 
   const purchaseYearly = useCallback(async () => {
-    if (isWeb || !Purchases) {
+    if (isWeb || !Purchases || !RC_CONFIGURED) {
       if (!isWeb) Alert.alert('Requires Native Build', 'Run with expo run:ios or expo run:android to use purchases.')
       return false
     }
@@ -97,7 +103,7 @@ export function usePurchases(uid) {
   }, [])
 
   const donate = useCallback(async (productId) => {
-    if (isWeb || !Purchases) {
+    if (isWeb || !Purchases || !RC_CONFIGURED) {
       if (!isWeb) Alert.alert('Requires Native Build', 'Run with expo run:ios or expo run:android to use purchases.')
       return false
     }
@@ -117,7 +123,7 @@ export function usePurchases(uid) {
   }, [])
 
   const restorePurchases = useCallback(async () => {
-    if (isWeb || !Purchases) {
+    if (isWeb || !Purchases || !RC_CONFIGURED) {
       if (!isWeb) Alert.alert('Requires Native Build', 'Run with expo run:ios or expo run:android to use purchases.')
       return false
     }

@@ -9,16 +9,27 @@ const MASTERY_MIN    = 85
 const MASTERY_WINDOW = 3
 const MASTERY_NEED   = 2
 
+// Module-level pending queue so every useProgress instance (QuizScreen, HomeScreen, etc.)
+// sees results immediately — before the Firestore write round-trips. Cleared once confirmed.
+const _pending = []
+
+function mergeWithPending(firestoreHistory) {
+  if (!_pending.length) return firestoreHistory
+  const ids = new Set(firestoreHistory.map((h) => `${h.topic}::${h.lessonIndex}::${h.pct}`))
+  const extras = _pending.filter((p) => !ids.has(`${p.topic}::${p.lessonIndex}::${p.pct}`))
+  return [...extras, ...firestoreHistory]
+}
+
 export function useProgress(uid) {
   const [history, setHistory] = useState([])
 
   useEffect(() => {
     if (!uid) { setHistory([]); return }
     loadHistory(uid)
-      .then(setHistory)
+      .then((h) => setHistory(mergeWithPending(h)))
       .catch((err) => {
         console.warn('[useProgress] Failed to load history:', err)
-        setHistory([])
+        setHistory([..._pending])
       })
   }, [uid])
 
@@ -27,28 +38,41 @@ export function useProgress(uid) {
     if (!uid) return
     try {
       const updated = await loadHistory(uid)
-      setHistory(updated)
+      setHistory(mergeWithPending(updated))
     } catch (err) {
       console.warn('[useProgress] Failed to reload history:', err)
     }
   }
 
-
   async function saveResult({ topic, score, total, correct, pct, subject, lessonIndex }) {
     if (!uid) return
+
+    // Push to the shared pending queue immediately so HomeScreen sees it on next focus
+    const pending = {
+      id: `_pending_${Date.now()}`,
+      topic: topic ?? 'All Topics',
+      score, total, correct, pct,
+      subject: subject ?? 'living-environment',
+    }
+    if (lessonIndex != null) pending.lessonIndex = lessonIndex
+    _pending.unshift(pending)
+    setHistory((prev) => mergeWithPending(prev))
+
     const ref = collection(db, 'users', uid, 'quizHistory')
     const doc = {
       topic: topic ?? 'All Topics',
-      score,
-      total,
-      correct,
-      pct,
+      score, total, correct, pct,
       subject: subject ?? 'living-environment',
       timestamp: serverTimestamp(),
     }
     if (lessonIndex !== undefined && lessonIndex !== null) doc.lessonIndex = lessonIndex
-    await addDoc(ref, doc)
-    loadHistory(uid).then(setHistory)
+    try {
+      await addDoc(ref, doc)
+    } finally {
+      const idx = _pending.indexOf(pending)
+      if (idx >= 0) _pending.splice(idx, 1)
+    }
+    loadHistory(uid).then((h) => setHistory(mergeWithPending(h)))
   }
 
   function relevantHistory(topic, subject) {

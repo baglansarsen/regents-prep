@@ -96,13 +96,18 @@ function PowerUpRow({ item, C }) {
 // ── Streak section ────────────────────────────────────────────────────────────
 function StreakSection({ C }) {
   const { user } = useAuthContext()
-  const { streak, hasFreeze, buyFreeze, weekDays } = useDailyStreak(user?.uid)
+  const { streak, freezeCount, buyFreeze, weekDays } = useDailyStreak(user?.uid)
   const { rp, spendRP } = useRP(user?.uid)
+
+  const atMax    = freezeCount >= 2
+  const canBuy   = !atMax && rp >= 200
 
   async function handleBuyFreeze() {
     const result = await buyFreeze(spendRP)
     if (result === 'success')
-      Alert.alert('🧊 Freeze Activated!', 'Your streak is protected for one missed day.')
+      Alert.alert('🧊 Freeze Added!', freezeCount + 1 >= 2
+        ? 'You have 2 freezes stored — your streak is protected for 2 missed days!'
+        : 'Your streak is protected for one missed day.')
     else if (result === 'insufficient_xp')
       Alert.alert('Not enough RP', `You need 200 RP. You have ${rp} RP.`)
   }
@@ -133,32 +138,37 @@ function StreakSection({ C }) {
         ))}
       </View>
 
-      {/* Freeze status / buy */}
-      {hasFreeze ? (
-        <View style={[ss.freezeStatus, { backgroundColor: '#BAE6FD22', borderColor: '#38BDF855' }]}>
-          <Text style={[T.body, { color: '#38BDF8' }]}>🧊 Streak protected for one missed day</Text>
-        </View>
-      ) : (
-        <View style={{ gap: 6 }}>
-          <TouchableOpacity
-            style={duoBtn(
-              rp >= 200 ? '#38BDF8' : C.surface3,
-              rp >= 200 ? '#0369A1' : C.border,
-              { opacity: rp >= 200 ? 1 : 0.5 },
-            )}
-            disabled={rp < 200}
-            onPress={handleBuyFreeze}
-            activeOpacity={0.8}
-          >
-            <Text style={[T.btn, { color: '#fff' }]}>🧊 Buy Freeze · 200 RP</Text>
-          </TouchableOpacity>
-          {rp < 200 && (
-            <Text style={[T.small, { color: C.textMuted, textAlign: 'center' }]}>
-              Need {200 - rp} more RP to unlock
-            </Text>
-          )}
+      {/* Freeze status */}
+      {freezeCount > 0 && (
+        <View style={[ss.freezeStatus, { backgroundColor: '#BAE6FD22', borderColor: '#38BDF855', marginBottom: 12 }]}>
+          <Text style={[T.body, { color: '#38BDF8' }]}>
+            {'🧊'.repeat(freezeCount)} {freezeCount === 2 ? '2 freezes stored' : '1 freeze stored'}
+          </Text>
         </View>
       )}
+
+      {/* Buy freeze — disabled at max (2) */}
+      <View style={{ gap: 6 }}>
+        <TouchableOpacity
+          style={duoBtn(
+            canBuy ? '#38BDF8' : C.surface3,
+            canBuy ? '#0369A1' : C.border,
+            { opacity: canBuy ? 1 : 0.5 },
+          )}
+          disabled={!canBuy}
+          onPress={handleBuyFreeze}
+          activeOpacity={0.8}
+        >
+          <Text style={[T.btn, { color: '#fff' }]}>
+            {atMax ? '🧊 Max freezes stored (2/2)' : `🧊 Buy Freeze · 200 RP  (${freezeCount}/2)`}
+          </Text>
+        </TouchableOpacity>
+        {!atMax && rp < 200 && (
+          <Text style={[T.small, { color: C.textMuted, textAlign: 'center' }]}>
+            Need {200 - rp} more RP to unlock
+          </Text>
+        )}
+      </View>
     </>
   )
 }

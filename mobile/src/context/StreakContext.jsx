@@ -22,7 +22,8 @@ import { logActivity } from '../utils/activityLogger'
  */
 
 const AS_KEY     = '@regents_streak_v1'
-const FREEZE_KEY = '@streakFreeze_v1'
+const FREEZE_KEY = '@streakFreeze_v2'   // v2: stores a count string ('0'|'1'|'2') instead of boolean
+const MAX_FREEZE = 2
 
 // Streak lengths that earn the heightened "milestone" celebration variant.
 const MILESTONES = [7, 14, 30, 50, 100, 150, 200, 365, 500, 1000]
@@ -57,7 +58,7 @@ export function StreakProvider({ children }) {
   const [streak,        setStreak]        = useState(0)
   const [studiedToday,  setStudiedToday]  = useState(false)
   const [studiedDates,  setStudiedDates]  = useState([])
-  const [hasFreeze,     setHasFreeze]     = useState(false)
+  const [freezeCount,   setFreezeCount]   = useState(0)   // 0–2 stored freezes
   const [longestStreak, setLongestStreak] = useState(0)
   const [pendingEvent,  setPendingEvent]  = useState(null)
 
@@ -69,7 +70,7 @@ export function StreakProvider({ children }) {
   useEffect(() => {
     if (!uid) {
       setStreak(0); setStudiedToday(false); setStudiedDates([])
-      setHasFreeze(false); setLongestStreak(0); setPendingEvent(null)
+      setFreezeCount(0); setLongestStreak(0); setPendingEvent(null)
       dataRef.current = null
       return
     }
@@ -95,8 +96,8 @@ export function StreakProvider({ children }) {
 
     Promise.all([loadStreak(uid), AsyncStorage.getItem(FREEZE_KEY)]).then(([data, freezeRaw]) => {
       if (cancelled) return
-      const freezeActive = freezeRaw === 'true'
-      setHasFreeze(freezeActive)
+      const count = Math.min(MAX_FREEZE, Math.max(0, parseInt(freezeRaw ?? '0', 10) || 0))
+      setFreezeCount(count)
 
       if (!data) {
         dataRef.current = { streak: 0, lastDate: null, studiedDates: [], longestStreak: 0 }
@@ -106,16 +107,17 @@ export function StreakProvider({ children }) {
       const longest = data.longestStreak ?? data.streak ?? 0
       setLongestStreak(longest)
 
-      const r = computeStreak(data, freezeActive)
+      const r = computeStreak(data, count > 0)
 
       if (r.usedFreeze) {
-        // Consume the freeze — record the missed day as a virtual "studied" date.
-        setHasFreeze(false)
-        AsyncStorage.setItem(FREEZE_KEY, 'false').catch(() => {})
-        saveFirestoreFreeze(uid, false)
+        // Consume one freeze — record the missed day as a virtual "studied" date.
+        const next = count - 1
+        setFreezeCount(next)
+        AsyncStorage.setItem(FREEZE_KEY, String(next)).catch(() => {})
+        saveFirestoreFreeze(uid, next)
         const updated = [...new Set([...(data.studiedDates ?? []), r.virtualDate])].slice(-60)
         setStudiedDates(updated)
-        const nd = { streak: r.streak, lastDate: data.lastDate, studiedDates: updated, longestStreak: longest }
+        const nd = { streak: r.streak, lastDate: r.virtualDate, studiedDates: updated, longestStreak: longest }
         saveStreak(uid, nd); dataRef.current = nd
         setPendingEvent({ type: 'freeze_used', streak: r.streak })
       } else {
@@ -166,16 +168,17 @@ export function StreakProvider({ children }) {
 
   const clearEvent = useCallback(() => setPendingEvent(null), [])
 
-  // ── Buy a streak freeze (costs 200 XP) ──────────────────────────────────────
+  // ── Buy a streak freeze (costs 200 RP, max 2 stored) ────────────────────────
   const buyFreeze = useCallback(async (spendRP) => {
-    if (hasFreeze) return 'already_have'
+    if (freezeCount >= MAX_FREEZE) return 'already_have'
     const ok = await spendRP(200)
     if (!ok) return 'insufficient_xp'
-    setHasFreeze(true)
-    await AsyncStorage.setItem(FREEZE_KEY, 'true').catch(() => {})
-    if (uid) saveFirestoreFreeze(uid, true)
+    const next = freezeCount + 1
+    setFreezeCount(next)
+    await AsyncStorage.setItem(FREEZE_KEY, String(next)).catch(() => {})
+    if (uid) saveFirestoreFreeze(uid, next)
     return 'success'
-  }, [hasFreeze, uid])
+  }, [freezeCount, uid])
 
   // ── Repair a just-lost streak — restore it to its previous length for XP ────
   const repairStreak = useCallback(async (spendRP, cost = 500) => {
@@ -206,7 +209,8 @@ export function StreakProvider({ children }) {
   })
 
   const value = {
-    streak, studiedToday, studiedDates, weekDays, hasFreeze, longestStreak,
+    streak, studiedToday, studiedDates, weekDays, freezeCount, longestStreak,
+    hasFreeze: freezeCount > 0,   // backward compat for any consumer using hasFreeze
     pendingEvent, markStudied, clearEvent, buyFreeze, repairStreak,
     // Retained for backward compatibility; opening no longer extends the streak.
     markOpenedToday: async () => null,
@@ -239,6 +243,6 @@ async function saveStreak(uid, data) {
   try { await setDoc(doc(db, 'users', uid, 'meta', 'streak'), data) } catch {}
 }
 
-async function saveFirestoreFreeze(uid, active) {
-  try { await setDoc(doc(db, 'users', uid), { streakFreeze: active }, { merge: true }) } catch {}
+async function saveFirestoreFreeze(uid, count) {
+  try { await setDoc(doc(db, 'users', uid), { streakFreezeCount: count }, { merge: true }) } catch {}
 }

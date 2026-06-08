@@ -25,7 +25,7 @@ export function usePowerUps() {
   const { user }                                         = useAuthContext()
   const uid                                              = user?.uid
   const { rp, spendRP }                                  = useRP(uid)
-  const { hasFreeze, buyFreeze }                         = useDailyStreak(uid)
+  const { freezeCount, buyFreeze }                       = useDailyStreak(uid)
   const { lives, maxLives, refillLives }                 = useLivesContext()
   const { isActive, timeLeft, activateBoost, COST_RP }   = useDoubleRP()
   const { isSubscribed }                                 = useSubscription()
@@ -42,10 +42,12 @@ export function usePowerUps() {
   }
 
   async function handleBuyFreeze() {
-    if (hasFreeze) return
+    if (freezeCount >= 2) return
     const result = await buyFreeze(spendRP)
     if (result === 'success')
-      Alert.alert('🧊 Freeze Activated!', 'Your streak is protected for one missed day.')
+      Alert.alert('🧊 Freeze Added!', freezeCount + 1 >= 2
+        ? 'You have 2 freezes stored. Each one saves your streak if you miss a day and open the app.'
+        : 'Your streak is protected for one missed day.')
     else if (result === 'insufficient_xp')
       Alert.alert('Not enough RP', `You need 200 RP. You have ${rp} RP.`)
   }
@@ -79,9 +81,9 @@ export function usePowerUps() {
       cost:       200,
       accent:     '#38BDF8',
       dark:       '#0369A1',
-      owned:      hasFreeze,
-      ownedLabel: '✓ Protected',
-      canBuy:     !hasFreeze && rp >= 200,
+      owned:      freezeCount >= 2,
+      ownedLabel: freezeCount === 2 ? '🧊🧊 Full (2/2)' : `🧊 ${freezeCount}/2`,
+      canBuy:     freezeCount < 2 && rp >= 200,
       onBuy:      handleBuyFreeze,
     },
     {

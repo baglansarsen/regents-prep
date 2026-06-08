@@ -353,7 +353,7 @@ export default {
     },
     {
       number: 43, part: 'B-1',
-      context: 'A diagram shows normal insulin function (insulin binds to body cell receptors and allows glucose to enter cells) and insulin resistance (insulin cannot bind properly to body cells, so glucose remains in bloodstream).',
+      context: 'Normal insulin function: insulin binds to receptor proteins on body cells, signaling them to allow glucose to enter. Insulin resistance: insulin cannot bind properly to body cell receptors, so glucose remains in the bloodstream.',
       text: 'Insulin resistance results when the body produces insulin but cells are not able to respond to it. This resistance could result in',
       choices: ['a lower level of glucose in the bloodstream', 'an increase of glucose in the cell', 'a failure of glucose to leave the cells', 'an increase in glucose in the bloodstream'],
       topic: 'Human Body', correct: 3,

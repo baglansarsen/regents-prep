@@ -17,7 +17,7 @@ export const UNITS = [
 const LESSON_SIZE = 20
 
 function getExamPool(topic) {
-  return PHYS_EXAMS.flatMap((exam) => (exam.questions ?? []).filter((q) => q.topic === topic))
+  return PHYS_EXAMS.flatMap((exam) => (exam.questions ?? []).filter((q) => q.topic === topic && Array.isArray(q.choices) && q.choices.length > 0))
 }
 
 export function getLessonQuestions(topic, lessonIndex, lessonCount) {
