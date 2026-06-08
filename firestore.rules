@@ -30,6 +30,26 @@ service cloud.firestore {
         allow read, write: if request.auth != null && request.auth.uid == userId;
         allow read:        if request.auth != null && isTeacherOfStudent(request.auth.uid, userId);
       }
+
+      // Friends subcollection — owner has full access (covered above); in
+      // addition, ANOTHER authenticated user may add or remove ONLY their own
+      // entry (docId must equal their uid). This is required for the reciprocal
+      // write when accepting a friend request: the accepter writes
+      // users/{requesterUid}/friends/{accepterUid}, which the generic rule
+      // above would otherwise deny.
+      match /friends/{friendId} {
+        allow create, delete: if request.auth != null && request.auth.uid == friendId;
+      }
+
+      // Public profile stats — any authenticated user may READ a friend's
+      // RP, weekly RP, streak, and pet so the friends list can show their
+      // stats. Writes remain owner-only (covered by the generic rule above).
+      // Other meta docs (settings, private data) stay owner/teacher-only.
+      match /meta/{docId} {
+        allow read: if request.auth != null &&
+                       (docId == 'xp' || docId == 'weeklyXP' ||
+                        docId == 'streak' || docId == 'pet');
+      }
     }
 
     // ── Classrooms ────────────────────────────────────────────────────────────
