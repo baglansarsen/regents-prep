@@ -23,7 +23,7 @@ import { useStudyTime } from '../hooks/useStudyTime'
 import { hapticTick, hapticSuccess, hapticWarning } from '../utils/haptics'
 import { useQuizSound } from '../hooks/useQuizSound'
 import { logActivity } from '../utils/activityLogger'
-import { imageUri } from '../utils/cdn'
+import ExamImage from '../components/ExamImage'
 
 const LETTERS = ['A', 'B', 'C', 'D']
 const LETTER_COLORS = ['#1CB0F6', '#CE82FF', '#FF9600', '#FF4B4B']
@@ -316,7 +316,7 @@ export default function QuizScreen({ route, navigation }) {
               </Text>
             ) : null}
             {currentQuestion.image ? (
-              <ImageWithFallback uri={imageUri(currentQuestion.image)} style={s.questionImage} />
+              <ExamImage path={currentQuestion.image} style={s.questionImage} />
             ) : null}
             <Text style={[T.h3, { color: C.text, lineHeight: 26 }]}>{currentQuestion.text}</Text>
           </Animated.View>
@@ -427,20 +427,6 @@ export default function QuizScreen({ route, navigation }) {
         />
       )}
     </View>
-  )
-}
-
-// ── Image with fallback (hides if URL 404s) ───────────────────────────────────
-function ImageWithFallback({ uri, style }) {
-  const [failed, setFailed] = useState(false)
-  if (failed) return null
-  return (
-    <Image
-      source={{ uri }}
-      style={style}
-      resizeMode="contain"
-      onError={() => setFailed(true)}
-    />
   )
 }
 

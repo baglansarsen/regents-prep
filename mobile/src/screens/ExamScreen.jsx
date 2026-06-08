@@ -12,15 +12,9 @@ import { appendMistakes } from '../hooks/useMistakes'
 import { usePetContext } from '../context/PetContext'
 import { hapticTick } from '../utils/haptics'
 import { logActivity } from '../utils/activityLogger'
-import { imageUri } from '../utils/cdn'
+import ExamImage from '../components/ExamImage'
 
 const EXAM_MINUTES = 85
-
-function ExamImageWithFallback({ uri, style }) {
-  const [failed, setFailed] = React.useState(false)
-  if (failed) return null
-  return <Image source={{ uri }} style={style} resizeMode="contain" onError={() => setFailed(true)} />
-}
 
 export default function ExamScreen({ route, navigation }) {
   const { exam, questions, subject } = route.params
@@ -114,9 +108,6 @@ export default function ExamScreen({ route, navigation }) {
   const secs = String(timeLeft % 60).padStart(2, '0')
   const timerColor = timeLeft < 300 ? C.wrong : timeLeft < 600 ? C.warn : C.text
 
-  // q.image is a relative path like /images/exams/es-june-2025/q2.png
-  const imageUrl = imageUri(q.image)
-
   const answeredCount = Object.keys(answers).length + Object.keys(writtenAnswers).filter((k) => writtenAnswers[k]?.trim()).length
 
   return (
@@ -171,7 +162,7 @@ export default function ExamScreen({ route, navigation }) {
         {q.context && <Text style={s.context}>{q.context}</Text>}
 
         {/* Image — hidden if URL fails to load */}
-        {imageUrl && <ExamImageWithFallback uri={imageUrl} style={s.image} />}
+        {q.image && <ExamImage path={q.image} style={s.image} />}
 
         {/* Question text */}
         <Text style={s.questionText}>{q.text}</Text>
